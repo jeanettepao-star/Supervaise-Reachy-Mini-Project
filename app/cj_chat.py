@@ -274,32 +274,50 @@ def generate_response(
 # Step 5: TTS — Piper
 # ============================================================
 def _prepare_tts_text(text: str) -> list[str]:
-    """Clean and split CJ's response into sentence-per-line input for Piper.
+    """Clean and split CJ's response into per-line chunks for Piper.
 
     Why per-line: Piper applies --sentence_silence between each line of stdin
     when --output_file is set, concatenating the result into a single wav.
-    That gives us a controllable breath between sentences while Piper's own
-    phoneme model handles intra-sentence pauses on commas, em-dashes, and
-    semicolons.
+    That gives us a controllable breath between sentences AND after long
+    dashes. Piper's own phoneme model still handles the micro-pauses for
+    commas and semicolons inside each chunk.
+
+    Splits at:
+      1. Sentence boundaries (. ! ?)
+      2. Long-dash marks (— em, – en, ― horizontal bar, "--", " - ")
     """
     # Strip markdown markers but preserve punctuation
     text = re.sub(r"[*_`]", "", text)
 
-    # Promote spaced hyphens " - " to em-dashes " — " so Piper pauses on them.
-    # Un-spaced hyphens (compound words like "Yale-trained") are left alone.
+    # Normalize all long-dash variants to em-dash so we can split uniformly.
+    # Un-spaced single hyphens in compound words like "Yale-trained" are left
+    # alone — we only convert spaced hyphens and double-hyphens.
+    text = re.sub(r" -- ", " — ", text)
     text = re.sub(r" - ", " — ", text)
+    text = re.sub(r"[–―]", "—", text)
 
-    # Normalize whitespace but keep newlines for downstream splitting.
+    # Normalize whitespace; keep newlines so we still split on them.
     text = re.sub(r"[ \t]+", " ", text)
     text = text.strip()
-
     if not text:
         return []
 
-    # Split on sentence-end punctuation followed by whitespace OR a newline.
+    # Split into sentences first…
     sentences = re.split(r"(?<=[.!?])\s+|\n+", text)
-    sentences = [s.strip() for s in sentences if s.strip()]
-    return sentences or [text]
+
+    # …then split each sentence on em-dashes. Every chunk becomes its own
+    # Piper utterance, and the inter-utterance --sentence_silence (0.5s)
+    # becomes the pause length on both sentence ends and long dashes.
+    chunks: list[str] = []
+    for s in sentences:
+        s = s.strip()
+        if not s:
+            continue
+        for part in re.split(r"\s*—\s*", s):
+            part = part.strip()
+            if part:
+                chunks.append(part)
+    return chunks or [text]
 
 
 # Piper tuning — tweak here if the tempo feels off.
