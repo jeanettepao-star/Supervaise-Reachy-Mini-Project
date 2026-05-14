@@ -52,11 +52,38 @@ Press Enter to start each turn. Speak your question. The recorder stops
 automatically after ~1.2s of trailing silence. The app transcribes, routes,
 generates, and speaks the response. Ctrl+C to exit.
 
+### Run the audience dashboard (optional)
+
+The dashboard is a Streamlit page that mirrors what the CLI is doing —
+showing the question, routing decision, and CJ's response in big readable
+type. Useful for projecting to an audience while you drive the CLI.
+
+Open **two** terminals:
+
+```bash
+# Terminal 1 — the CLI (drives the mic + speakers)
+.venv/Scripts/python.exe cj_chat.py
+
+# Terminal 2 — the dashboard (browser UI for the audience)
+.venv/Scripts/streamlit run dashboard.py
+```
+
+Then open the URL Streamlit prints (default `http://localhost:8501`).
+The dashboard auto-refreshes every second.
+
+The CLI writes turn state to `state/current.json` (gitignored, regenerated
+each turn). The dashboard reads it — there's no other coupling, so if the
+dashboard crashes the CLI keeps working, and vice versa.
+
 ## Repo layout
 
 ```
 app/
-├── cj_chat.py              # Reference implementation (one file)
+├── cj_chat.py              # CLI entrypoint (text + voice modes, drives audio I/O)
+├── dashboard.py            # Streamlit audience UI (reads state/current.json)
+├── dashboard_state.py      # Shared state writer used by cj_chat.py
+├── state/                  # Runtime state for the dashboard (GITIGNORED)
+│   └── current.json        # Overwritten on every pipeline stage
 ├── README.md               # You are here
 ├── .env                    # ANTHROPIC_API_KEY + paths (GITIGNORED — never commit)
 ├── .gitignore

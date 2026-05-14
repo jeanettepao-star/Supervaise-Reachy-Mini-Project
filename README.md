@@ -48,12 +48,25 @@ Two Claude API calls per turn. Everything else runs locally.
 
 ## Quick start
 
-See [`app/README.md`](app/README.md) for run instructions. The fastest sanity
-check (no audio needed):
+See [`app/README.md`](app/README.md) for full run instructions. The fastest
+sanity check (no audio needed):
 
 ```bash
 cd app
 .venv/Scripts/python.exe cj_chat.py --text "What is the rule of law?"
+```
+
+For the full demo, run two terminals — the CLI for audio I/O and the Streamlit
+dashboard for the audience to watch:
+
+```bash
+# Terminal 1
+cd app
+.venv/Scripts/python.exe cj_chat.py
+
+# Terminal 2
+cd app
+.venv/Scripts/streamlit run dashboard.py
 ```
 
 ## Cost & performance targets
