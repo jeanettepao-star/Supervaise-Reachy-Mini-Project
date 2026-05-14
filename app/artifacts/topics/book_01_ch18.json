@@ -1,0 +1,130 @@
+{
+  "doc_id": "book_01_ch18",
+  "doc_type": "book-chapter",
+  "title": "Firestone Ceramics v. Court of Appeals — Sauce for the Poor Goose, a Postscript",
+  "date": "2001",
+  "voice_register": "doctrinal-formal",
+
+  "primary_topics": [
+    "Firestone Ceramics v. CA postscript",
+    "improper en banc takeover of Division case",
+    "res judicata via substantial identity of parties"
+  ],
+
+  "sub_topics": [
+    "Third Division original Decision",
+    "Court en banc 8-7 takeover (CJ Davide, JJ Bellosillo, Kapunan, Mendoza, Purisima, Buena, Santiago, De Leon vs JJ Melo, Puno, Vitug, Panganiban, Quisumbing, Pardo, Reyes)",
+    "Motion for Reconsideration unanimously denied (January 30, 2001)",
+    "Margolles case as binding precedent",
+    "OCT No. 4216 (1929 CFI Rizal land registration)",
+    "Gana spouses 1927 land registration application",
+    "substantial-identity-of-parties for res judicata",
+    "privy-in-law doctrine",
+    "burden of proving title nullity (rests with petitioner not respondent)",
+    "Sauce for the poor goose / rich gander maxim"
+  ],
+
+  "stances": [
+    {
+      "claim": "The en banc's 8-7 takeover of the Firestone Ceramics case was inappropriate — the movants 'had utterly failed to adduce any legal reason for such referral'; the resulting unanimous denial of Motion for Reconsideration (January 30, 2001) merely 'showed the folly of failing to heed the maxim Sauce for the poor goose should be the same sauce for the rich gander.'",
+      "rhetorical_move": "structural-critique of unwarranted en banc absorption + aphorism citation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Absolute identity of parties is not required for res judicata — only substantial identity; petitioner Firestone, though not a party in Margolles, raised 'exactly the same argument and relied on the same evidence' to invalidate OCT No. 4216, making them 'privy in law' for res judicata purposes.",
+      "rhetorical_move": "doctrinal-evidentiary framing of substantial-identity test",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The burden of proving the nullity of a 1929 land-registration judgment rests with the petitioner, not the original applicants — 'compliance with this burden should have been proven in the original proceedings instituted by the Gana spouses in 1927, and must be legally presumed to have been satisfied as a decree was issued.'",
+      "rhetorical_move": "burden-of-proof doctrinal structure + presumption-of-regularity application",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Annulling 70-year-old Torrens titles only to enable government to dispose lands anew to subsequent private applicants 'would betray a subservience to technicality that will not be in the public interest… This is a simple matter of equity and good sense.'",
+      "rhetorical_move": "equity-and-good-sense framing as anti-technicality argument",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The banc's takeover 'uselessly and imprudently clogged the Court's dockets' — a wasted exercise of precious time and attention with no doctrinal value added by the en banc's intervention.",
+      "rhetorical_move": "structural-cost critique of institutional inefficiency",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Hilario G. Davide Jr.",
+      "Josue N. Bellosillo",
+      "Santiago Kapunan",
+      "Vicente V. Mendoza",
+      "Fidel P. Purisima",
+      "Arturo B. Buena",
+      "Consuelo Ynares-Santiago",
+      "Sabino R. de Leon Jr.",
+      "Jose A. R. Melo",
+      "Reynato S. Puno",
+      "Jose C. Vitug",
+      "Leonardo A. Quisumbing",
+      "Bernardo P. Pardo",
+      "Minerva P. Gonzaga-Reyes",
+      "Gana spouses"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Supreme Court Third Division",
+      "Court of First Instance of Rizal",
+      "Court of Appeals",
+      "Firestone Ceramics, Inc."
+    ],
+    "cases": [
+      "Firestone Ceramics v. Court of Appeals",
+      "Margolles case",
+      "Valencia v. RTC of Quezon City (April 3, 1990)",
+      "Comilang v. Buendia (October 25, 1967)",
+      "Santos v. Gabriel (May 31, 1972)",
+      "Widows and Orphans Associations v. CA (August 7, 1992)"
+    ],
+    "laws_treaties": [
+      "OCT No. 4216 (1929)"
+    ],
+    "events": [
+      "8-7 Court en banc takeover vote",
+      "January 30, 2001 unanimous Motion for Reconsideration denial",
+      "1927 Gana spouses' land registration application"
+    ]
+  },
+
+  "signature_phrases": [
+    "Sauce for the poor goose should be the same sauce for the rich gander",
+    "a simple matter of equity and good sense",
+    "subservience to technicality",
+    "uselessly and imprudently clogged the Court's dockets",
+    "in my humble opinion",
+    "privy in law",
+    "substantial identity of parties"
+  ],
+
+  "register_markers": [
+    "doctrinal-formal postscript register",
+    "self-referential cross-citation to prior book chapter",
+    "structured-numbered grounds (1, 2, 3)",
+    "in my humble opinion",
+    "aphoristic-maxim insertion (Sauce for the poor goose)",
+    "italicized emphasis on key phrases"
+  ],
+
+  "decision_framework_signals": [
+    "applies substantial-identity-of-parties doctrine for res judicata (not absolute-identity)",
+    "uses burden-of-proof allocation framework (petitioner challenging old title bears burden)",
+    "frames equity-and-good-sense as override against technicality-driven annulment",
+    "applies 'sauce for the poor goose = sauce for the rich gander' as institutional-equality principle",
+    "uses structural-cost critique of unnecessary en banc absorption"
+  ],
+
+  "cross_references": [
+    "Chapter 22 of Transparency, Unanimity & Diversity (2000 ed., pp. 413-433)"
+  ],
+
+  "notable_anecdotes": []
+}

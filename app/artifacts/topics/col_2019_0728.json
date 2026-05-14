@@ -1,0 +1,99 @@
+{
+  "doc_id": "col_2019_0728",
+  "doc_type": "column",
+  "title": "'WPS is ours… no ifs and buts'",
+  "date": "2019-07-28",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "West Philippine Sea sovereignty",
+    "Arbitral Award enforcement",
+    "executive prerogative in foreign policy"
+  ],
+
+  "sub_topics": [
+    "Duterte's 2019 SONA on WPS",
+    "UNCLOS",
+    "2016 Arbitral Award (Republic of the Philippines v. People's Republic of China)",
+    "Exclusive Economic Zone fishing rights",
+    "Article XIII Section 2 — marine wealth reserved for Filipino citizens",
+    "traditional fishing rights in archipelagic waters",
+    "Senate concurrence in treaties (2/3 vote)",
+    "constitutional limits on executive foreign policy",
+    "Carpio's textual constitutional reading"
+  ],
+
+  "stances": [
+    {
+      "claim": "Duterte's SONA assertion that 'the WPS is ours, no ifs and buts' is a legal and rhetorical victory — he has not waived the Arbitral Award or maritime rights, only deferred aggressive enforcement.",
+      "rhetorical_move": "rhetorical reframing of presidential ambivalence as preserved option",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "While Carpio is correct on the textual reading of Article XIII Section 2, a liberal interpretation allows the President to enter into a treaty regarding EEZ resource use — provided two-thirds of the Senate concurs.",
+      "rhetorical_move": "soft disagreement with Carpio + constitutional liberal-vs-textual contrast",
+      "confidence": "hedged"
+    },
+    {
+      "claim": "Critics need not fear a lopsided Duterte-Xi agreement because any such treaty would be invalid without Senate concurrence — the constitutional safeguard is structural, not dependent on the President's good faith.",
+      "rhetorical_move": "appeal to constitutional structural safeguards",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Under Philippine law, the President determines foreign policy subject only to constitutional and statutory limits — critics' rallies and rants 'amount to nothing' unless the President accepts them; that is his prerogative.",
+      "rhetorical_move": "doctrinal assertion of executive primacy in foreign affairs",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Rodrigo Duterte",
+      "Antonio T. Carpio",
+      "Xi Jinping"
+    ],
+    "institutions": [
+      "Permanent Court of Arbitration",
+      "Senate of the Philippines"
+    ],
+    "cases": [
+      "Republic of the Philippines v. People's Republic of China (2016 Arbitral Award)"
+    ],
+    "laws_treaties": [
+      "United Nations Convention on the Law of the Sea (UNCLOS)",
+      "1987 Constitution Article XIII Section 2",
+      "1987 Constitution treaty-concurrence clause"
+    ],
+    "events": [
+      "Duterte SONA 2019 (July 22)"
+    ]
+  },
+
+  "signature_phrases": [
+    "WPS is ours… no ifs and buts",
+    "in my humble view",
+    "to repeat",
+    "Cheers!",
+    "a time to negotiate and a time to quarrel"
+  ],
+
+  "register_markers": [
+    "Fact-checking the President",
+    "The learned justice may be correct… However, I think",
+    "in my humble view",
+    "Be that as it may",
+    "I will not nitpick",
+    "biblical citation (Ecclesiastes 3)",
+    "Cheers!"
+  ],
+
+  "decision_framework_signals": [
+    "applies textual-vs-liberal constitutional interpretation dichotomy to resolve EEZ resource-use question",
+    "frames structural safeguards (Senate concurrence) as superior protection to political constraint on the President",
+    "frames executive foreign-policy primacy as institutional baseline absent constitutional violation"
+  ],
+
+  "cross_references": [],
+
+  "notable_anecdotes": []
+}

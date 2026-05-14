@@ -1,0 +1,437 @@
+{
+  "id": "book_01",
+  "slug": "centenary-of-justice",
+  "title": "A Centenary of Justice",
+  "subtitle": "Kataas-Taasang Hukuman 1901–2001 — Katarungan at Bayan Magpakailanman",
+  "author": "Artemio V. Panganiban",
+  "publisher": "Supreme Court Press",
+  "publication_date": "2001-12",
+  "copyright_year": 2001,
+  "voice_register": "doctrinal-formal",
+  "total_chapters_in_book": 20,
+  "chapters_in_this_corpus": 19,
+  "appendices_in_this_corpus": 4,
+  "is_complete": false,
+  "completeness_note": "Chapters 1–19 fully ingested. Chapter 20 (Social Weather Stations v. Comelec) is missing — falls in unprovided pp204-210. Appendices A–D ingested from pp211-240.",
+  "total_words": 100284,
+  "parts": {
+    "Part I — Centenary Celebrations": [
+      {
+        "id": "book_01_ch01",
+        "number": 1,
+        "title": "A Renaissance in the Judiciary",
+        "part": "Part I — Centenary Celebrations",
+        "word_count": 1306,
+        "path": "01_a-renaissance-in-the-judiciary.md"
+      },
+      {
+        "id": "book_01_ch02",
+        "number": 2,
+        "title": "Old Doctrines and New Paradigms",
+        "part": "Part I — Centenary Celebrations",
+        "word_count": 14211,
+        "path": "02_old-doctrines-and-new-paradigms.md"
+      },
+      {
+        "id": "book_01_ch03",
+        "number": 3,
+        "title": "Obra Maestra",
+        "part": "Part I — Centenary Celebrations",
+        "word_count": 1926,
+        "path": "03_obra-maestra.md"
+      },
+      {
+        "id": "book_01_ch04",
+        "number": 4,
+        "title": "The Centenary and the Academe",
+        "part": "Part I — Centenary Celebrations",
+        "word_count": 1587,
+        "path": "04_the-centenary-and-the-academe.md"
+      },
+      {
+        "id": "book_01_ch05",
+        "number": 5,
+        "title": "Mediation, an Old Method  with a New Twist",
+        "part": "Part I — Centenary Celebrations",
+        "word_count": 1188,
+        "path": "05_mediation-an-old-method-with-a-new-twist.md"
+      },
+      {
+        "id": "book_01_ch06",
+        "number": 6,
+        "title": "A Meaningful Centenary",
+        "part": "Part I — Centenary Celebrations",
+        "word_count": 2319,
+        "path": "06_a-meaningful-centenary.md"
+      },
+      {
+        "id": "book_01_ch07",
+        "number": 7,
+        "title": "Employee Participation During the Centenary",
+        "part": "Part I — Centenary Celebrations",
+        "word_count": 808,
+        "path": "07_employee-participation-during-the-centenary.md"
+      },
+      {
+        "id": "book_01_ch08",
+        "number": 8,
+        "title": "The Inspiration of the Judiciary",
+        "part": "Part I — Centenary Celebrations",
+        "word_count": 1689,
+        "path": "08_the-inspiration-of-the-judiciary.md"
+      },
+      {
+        "id": "book_01_ch09",
+        "number": 9,
+        "title": "A Benchbook for Judicial Excellence",
+        "part": "Part I — Centenary Celebrations",
+        "word_count": 735,
+        "path": "09_a-benchbook-for-judicial-excellence.md"
+      },
+      {
+        "id": "book_01_ch10",
+        "number": 10,
+        "title": "Ready for the Bio-Age",
+        "part": "Part I — Centenary Celebrations",
+        "word_count": 1470,
+        "path": "10_ready-for-the-bio-age.md"
+      },
+      {
+        "id": "book_01_ch11",
+        "number": 11,
+        "title": "E-Values for Lawyers",
+        "part": "Part I — Centenary Celebrations",
+        "word_count": 3164,
+        "path": "11_e-values-for-lawyers.md"
+      },
+      {
+        "id": "book_01_ch12",
+        "number": 12,
+        "title": "Even the Supreme Court Needs Public Relations",
+        "part": "Part I — Centenary Celebrations",
+        "word_count": 3215,
+        "path": "12_even-the-supreme-court-needs-public-relations.md"
+      },
+      {
+        "id": "book_01_ch13",
+        "number": 13,
+        "title": "Estrada v. Desierto — Estrada v. Arroyo: — Constitutional Succession to the Presidency",
+        "part": "Part II — Judicial Jousts",
+        "word_count": 7873,
+        "path": "13_estrada-v-desierto-estrada-v-arroyo-constitutional-succession-to-the-presidency.md"
+      },
+      {
+        "id": "book_01_ch14",
+        "number": 14,
+        "title": "The Death Penalty Cases: — More of the Same",
+        "part": "Part II — Judicial Jousts",
+        "word_count": 8717,
+        "path": "14_the-death-penalty-cases-more-of-the-same.md"
+      },
+      {
+        "id": "book_01_ch15",
+        "number": 15,
+        "title": "Cruz v. Secretary of Environment: — IPRA — Social Justice or Reverse Discrimination?",
+        "part": "Part II — Judicial Jousts",
+        "word_count": 13086,
+        "path": "15_cruz-v-secretary-of-environment-ipra-social-justice-or-reverse-discrimination.md"
+      },
+      {
+        "id": "book_01_ch16",
+        "number": 16,
+        "title": "Ang Bagong Bayani-OFW Labor Party v. Comelec: — The Party-List, a Social Justice Tool",
+        "part": "Part II — Judicial Jousts",
+        "word_count": 5925,
+        "path": "16_ang-bagong-bayani-ofw-labor-party-v-comelec-the-party-list-a-social-justice-tool.md"
+      },
+      {
+        "id": "book_01_ch17",
+        "number": 17,
+        "title": "Perez v. Estrada: — Live Radio-TV Coverage – Bane or Boon?",
+        "part": "Part II — Judicial Jousts",
+        "word_count": 5659,
+        "path": "17_perez-v-estrada-live-radio-tv-coverage-bane-or-boon.md"
+      },
+      {
+        "id": "book_01_ch18",
+        "number": 18,
+        "title": "Firestone Ceramics v. Court of Appeals: — Sauce for the Poor Goose — a Postscript",
+        "part": "Part II — Judicial Jousts",
+        "word_count": 847,
+        "path": "18_firestone-ceramics-v-court-of-appeals-sauce-for-the-poor-goose-a-postscript.md"
+      },
+      {
+        "id": "book_01_ch19",
+        "number": 19,
+        "title": "Bengson v. House of Representatives Electoral Tribunal: — Repatriation Restores Original Citizenship",
+        "part": "Part II — Judicial Jousts",
+        "word_count": 14327,
+        "path": "19_bengson-v-house-of-representatives-electoral-tribunal-repatriation-restores-original-citizenship.md"
+      }
+    ],
+    "Part II — Judicial Jousts": [
+      {
+        "id": "book_01_ch13",
+        "number": 13,
+        "title": "Estrada v. Desierto — Estrada v. Arroyo: — Constitutional Succession to the Presidency",
+        "part": "Part II — Judicial Jousts",
+        "word_count": 7873,
+        "path": "13_estrada-v-desierto-estrada-v-arroyo-constitutional-succession-to-the-presidency.md"
+      },
+      {
+        "id": "book_01_ch14",
+        "number": 14,
+        "title": "The Death Penalty Cases: — More of the Same",
+        "part": "Part II — Judicial Jousts",
+        "word_count": 8717,
+        "path": "14_the-death-penalty-cases-more-of-the-same.md"
+      },
+      {
+        "id": "book_01_ch15",
+        "number": 15,
+        "title": "Cruz v. Secretary of Environment: — IPRA — Social Justice or Reverse Discrimination?",
+        "part": "Part II — Judicial Jousts",
+        "word_count": 13086,
+        "path": "15_cruz-v-secretary-of-environment-ipra-social-justice-or-reverse-discrimination.md"
+      },
+      {
+        "id": "book_01_ch16",
+        "number": 16,
+        "title": "Ang Bagong Bayani-OFW Labor Party v. Comelec: — The Party-List, a Social Justice Tool",
+        "part": "Part II — Judicial Jousts",
+        "word_count": 5925,
+        "path": "16_ang-bagong-bayani-ofw-labor-party-v-comelec-the-party-list-a-social-justice-tool.md"
+      },
+      {
+        "id": "book_01_ch17",
+        "number": 17,
+        "title": "Perez v. Estrada: — Live Radio-TV Coverage – Bane or Boon?",
+        "part": "Part II — Judicial Jousts",
+        "word_count": 5659,
+        "path": "17_perez-v-estrada-live-radio-tv-coverage-bane-or-boon.md"
+      },
+      {
+        "id": "book_01_ch18",
+        "number": 18,
+        "title": "Firestone Ceramics v. Court of Appeals: — Sauce for the Poor Goose — a Postscript",
+        "part": "Part II — Judicial Jousts",
+        "word_count": 847,
+        "path": "18_firestone-ceramics-v-court-of-appeals-sauce-for-the-poor-goose-a-postscript.md"
+      },
+      {
+        "id": "book_01_ch19",
+        "number": 19,
+        "title": "Bengson v. House of Representatives Electoral Tribunal: — Repatriation Restores Original Citizenship",
+        "part": "Part II — Judicial Jousts",
+        "word_count": 14327,
+        "path": "19_bengson-v-house-of-representatives-electoral-tribunal-repatriation-restores-original-citizenship.md"
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": "book_01_ch01",
+      "number": 1,
+      "title": "A Renaissance in the Judiciary",
+      "part": "Part I — Centenary Celebrations",
+      "word_count": 1306,
+      "path": "01_a-renaissance-in-the-judiciary.md"
+    },
+    {
+      "id": "book_01_ch02",
+      "number": 2,
+      "title": "Old Doctrines and New Paradigms",
+      "part": "Part I — Centenary Celebrations",
+      "word_count": 14211,
+      "path": "02_old-doctrines-and-new-paradigms.md"
+    },
+    {
+      "id": "book_01_ch03",
+      "number": 3,
+      "title": "Obra Maestra",
+      "part": "Part I — Centenary Celebrations",
+      "word_count": 1926,
+      "path": "03_obra-maestra.md"
+    },
+    {
+      "id": "book_01_ch04",
+      "number": 4,
+      "title": "The Centenary and the Academe",
+      "part": "Part I — Centenary Celebrations",
+      "word_count": 1587,
+      "path": "04_the-centenary-and-the-academe.md"
+    },
+    {
+      "id": "book_01_ch05",
+      "number": 5,
+      "title": "Mediation, an Old Method  with a New Twist",
+      "part": "Part I — Centenary Celebrations",
+      "word_count": 1188,
+      "path": "05_mediation-an-old-method-with-a-new-twist.md"
+    },
+    {
+      "id": "book_01_ch06",
+      "number": 6,
+      "title": "A Meaningful Centenary",
+      "part": "Part I — Centenary Celebrations",
+      "word_count": 2319,
+      "path": "06_a-meaningful-centenary.md"
+    },
+    {
+      "id": "book_01_ch07",
+      "number": 7,
+      "title": "Employee Participation During the Centenary",
+      "part": "Part I — Centenary Celebrations",
+      "word_count": 808,
+      "path": "07_employee-participation-during-the-centenary.md"
+    },
+    {
+      "id": "book_01_ch08",
+      "number": 8,
+      "title": "The Inspiration of the Judiciary",
+      "part": "Part I — Centenary Celebrations",
+      "word_count": 1689,
+      "path": "08_the-inspiration-of-the-judiciary.md"
+    },
+    {
+      "id": "book_01_ch09",
+      "number": 9,
+      "title": "A Benchbook for Judicial Excellence",
+      "part": "Part I — Centenary Celebrations",
+      "word_count": 735,
+      "path": "09_a-benchbook-for-judicial-excellence.md"
+    },
+    {
+      "id": "book_01_ch10",
+      "number": 10,
+      "title": "Ready for the Bio-Age",
+      "part": "Part I — Centenary Celebrations",
+      "word_count": 1470,
+      "path": "10_ready-for-the-bio-age.md"
+    },
+    {
+      "id": "book_01_ch11",
+      "number": 11,
+      "title": "E-Values for Lawyers",
+      "part": "Part I — Centenary Celebrations",
+      "word_count": 3164,
+      "path": "11_e-values-for-lawyers.md"
+    },
+    {
+      "id": "book_01_ch12",
+      "number": 12,
+      "title": "Even the Supreme Court Needs Public Relations",
+      "part": "Part I — Centenary Celebrations",
+      "word_count": 3215,
+      "path": "12_even-the-supreme-court-needs-public-relations.md"
+    },
+    {
+      "id": "book_01_ch13",
+      "number": 13,
+      "title": "Estrada v. Desierto — Estrada v. Arroyo: — Constitutional Succession to the Presidency",
+      "part": "Part II — Judicial Jousts",
+      "word_count": 7873,
+      "path": "13_estrada-v-desierto-estrada-v-arroyo-constitutional-succession-to-the-presidency.md"
+    },
+    {
+      "id": "book_01_ch14",
+      "number": 14,
+      "title": "The Death Penalty Cases: — More of the Same",
+      "part": "Part II — Judicial Jousts",
+      "word_count": 8717,
+      "path": "14_the-death-penalty-cases-more-of-the-same.md"
+    },
+    {
+      "id": "book_01_ch15",
+      "number": 15,
+      "title": "Cruz v. Secretary of Environment: — IPRA — Social Justice or Reverse Discrimination?",
+      "part": "Part II — Judicial Jousts",
+      "word_count": 13086,
+      "path": "15_cruz-v-secretary-of-environment-ipra-social-justice-or-reverse-discrimination.md"
+    },
+    {
+      "id": "book_01_ch16",
+      "number": 16,
+      "title": "Ang Bagong Bayani-OFW Labor Party v. Comelec: — The Party-List, a Social Justice Tool",
+      "part": "Part II — Judicial Jousts",
+      "word_count": 5925,
+      "path": "16_ang-bagong-bayani-ofw-labor-party-v-comelec-the-party-list-a-social-justice-tool.md"
+    },
+    {
+      "id": "book_01_ch17",
+      "number": 17,
+      "title": "Perez v. Estrada: — Live Radio-TV Coverage – Bane or Boon?",
+      "part": "Part II — Judicial Jousts",
+      "word_count": 5659,
+      "path": "17_perez-v-estrada-live-radio-tv-coverage-bane-or-boon.md"
+    },
+    {
+      "id": "book_01_ch18",
+      "number": 18,
+      "title": "Firestone Ceramics v. Court of Appeals: — Sauce for the Poor Goose — a Postscript",
+      "part": "Part II — Judicial Jousts",
+      "word_count": 847,
+      "path": "18_firestone-ceramics-v-court-of-appeals-sauce-for-the-poor-goose-a-postscript.md"
+    },
+    {
+      "id": "book_01_ch19",
+      "number": 19,
+      "title": "Bengson v. House of Representatives Electoral Tribunal: — Repatriation Restores Original Citizenship",
+      "part": "Part II — Judicial Jousts",
+      "word_count": 14327,
+      "path": "19_bengson-v-house-of-representatives-electoral-tribunal-repatriation-restores-original-citizenship.md"
+    }
+  ],
+  "appendices": [
+    {
+      "id": "book_01_appendix_a",
+      "letter": "A",
+      "title": "A Salute to My Mentor",
+      "word_count": 1260,
+      "path": "appendix-a_a-salute-to-my-mentor.md"
+    },
+    {
+      "id": "book_01_appendix_b",
+      "letter": "B",
+      "title": "Justice Is God’s Work",
+      "word_count": 1738,
+      "path": "appendix-b_justice-is-gods-work.md"
+    },
+    {
+      "id": "book_01_appendix_c",
+      "letter": "C",
+      "title": "A Prelude to Paperless Courts",
+      "word_count": 768,
+      "path": "appendix-c_a-prelude-to-paperless-courts.md"
+    },
+    {
+      "id": "book_01_appendix_d",
+      "letter": "D",
+      "title": "MPGR",
+      "word_count": 6466,
+      "path": "appendix-d_mpgr.md"
+    }
+  ],
+  "source_docx_files": [
+    "A_CENTENARY_OF_JUSTICE_pp1-16.docx",
+    "A_CENTENARY_OF_JUSTICE_pp116-134.docx",
+    "A_CENTENARY_OF_JUSTICE_pp135-165.docx",
+    "A_CENTENARY_OF_JUSTICE_pp166-179.docx",
+    "A_CENTENARY_OF_JUSTICE_pp17-20.docx",
+    "A_CENTENARY_OF_JUSTICE_pp180-191.docx",
+    "A_CENTENARY_OF_JUSTICE_pp192-203.docx",
+    "A_CENTENARY_OF_JUSTICE_pp21-49.docx",
+    "A_CENTENARY_OF_JUSTICE_pp211-240.docx",
+    "A_CENTENARY_OF_JUSTICE_pp50-53.docx",
+    "A_CENTENARY_OF_JUSTICE_pp54-56.docx",
+    "A_CENTENARY_OF_JUSTICE_pp57-59.docx",
+    "A_CENTENARY_OF_JUSTICE_pp60-64.docx",
+    "A_CENTENARY_OF_JUSTICE_pp65-66.docx",
+    "A_CENTENARY_OF_JUSTICE_pp67-69.docx",
+    "A_CENTENARY_OF_JUSTICE_pp70-71.docx",
+    "A_CENTENARY_OF_JUSTICE_pp72-75.docx",
+    "A_CENTENARY_OF_JUSTICE_pp76-81.docx",
+    "A_CENTENARY_OF_JUSTICE_pp82-96.docx",
+    "A_CENTENARY_OF_JUSTICE_pp97-115.docx"
+  ]
+}

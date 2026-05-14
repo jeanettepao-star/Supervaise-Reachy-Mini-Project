@@ -1,0 +1,130 @@
+{
+  "doc_id": "col_2023_1030",
+  "doc_type": "column",
+  "title": "Supercalifragilisticexpialidocious",
+  "date": "2023-10-30",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "MOPC Journalist of the Year — Law award",
+    "tributes to Tony Lopez, Marixi Prieto, Henry Gozon",
+    "personal journalism journey"
+  ],
+
+  "sub_topics": [
+    "Manila Overseas Press Club",
+    "Fairmont Hotel award ceremony (October 25, 2023)",
+    "Marixi Prieto's accidental Inquirer ownership origin",
+    "Salonga objection to retired-CJ columnist (recurring set piece)",
+    "Marixi quip rejoinder (recurring set piece)",
+    "Italian-made golden bell trophy",
+    "Henry Gozon as foremost aviation-law expert",
+    "PAL vs KLM/Continental clashes 50 years ago",
+    "GMA Network board joining post-retirement",
+    "GMA P7.5B 2021 net profit",
+    "ABS-CBN closure context",
+    "Leni's death (April 9, 2023) and eulogy column"
+  ],
+
+  "stances": [
+    {
+      "claim": "He is 'not worthy of the appellation Journalist' — he is just an ACCIDENTAL WRITER, 'tsamba lang yon' — and tends to lawyer-style highfalutin, muddled, long-worded prose, while MOPC journalists write clearly and simply, which he tries to imitate.",
+      "rhetorical_move": "humility-trope + self-deprecating credential framing + Tagalog code-switch ('tsamba lang yon')",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Marixi Prieto is the ACCIDENTAL OWNER of the Inquirer — when two blocs equally owning the paper could not agree on who should control, they compromised by assigning their holdings to her, and the Inquirer 'magically fell on her lap.'",
+      "rhetorical_move": "providential-origin narrative for institutional founders + ALL CAPS emphasis",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Henry Gozon — foremost expert on aviation law, repeatedly declined CJ's invitation to join the Supreme Court — built GMA Network into the largest, most trusted TV-radio network with a Nielsen rating higher than the 10 other major networks combined, motto 'Sa totoo lang tayo.'",
+      "rhetorical_move": "structured-credential tribute + private-sector-over-judiciary admiration",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "He has written for the Inquirer for 17 years — longer than his 11-year SC term — through illnesses (COVID December 2022), family deaths (wife Leni April 9, 2023), and travel abroad, never missing a Sunday.",
+      "rhetorical_move": "discipline-of-consistency restatement + biographical milestone framing",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Antonio 'Tony' Lopez",
+      "Marixi R. Prieto",
+      "Felipe 'Henry' L. Gozon",
+      "Dax Lucas",
+      "Jovito R. Salonga",
+      "Jeffrey Toobin",
+      "Antonin Scalia",
+      "Jimmy Duavit"
+    ],
+    "institutions": [
+      "Manila Overseas Press Club",
+      "Fairmont Hotel Makati",
+      "Philippine Daily Inquirer",
+      "Inquirer Newsboy Foundation",
+      "GMA Network",
+      "Philippine Airlines",
+      "KLM",
+      "Continental Airlines",
+      "ABS-CBN",
+      "Supreme Court of the Philippines",
+      "Amazon"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "MOPC awards ceremony (October 25, 2023)",
+      "ABS-CBN closure",
+      "Leni's death (April 9, 2023)",
+      "His COVID-19 episode (December 2022)"
+    ]
+  },
+
+  "signature_phrases": [
+    "Supercalifragilisticexpialidocious",
+    "ACCIDENTAL WRITER",
+    "ACCIDENTAL OWNER",
+    "tsamba lang 'yon",
+    "lawyers tend to be highfalutin, muddled, and long-worded",
+    "at the sunset of my humble life",
+    "though unworthy",
+    "Mega Media Movers",
+    "Sa totoo lang tayo",
+    "Chief justices do not write history; they make it",
+    "I do not know of any chief justice who had been offered to write a regular column"
+  ],
+
+  "register_markers": [
+    "IN MY ACCEPTANCE SPEECH",
+    "I FIRST MET MARIXI IN THE LATE 1980s",
+    "UNKNOWN TO MANY, HENRY IS OUR FOREMOST EXPERT",
+    "ALL CAPS section openings + ALL CAPS for emphasis (ACCIDENTAL WRITER / OWNER)",
+    "Tagalog code-switching (tsamba lang 'yon / Sa totoo lang tayo)",
+    "though unworthy",
+    "speech-formal register layered into column",
+    "self-quotation of his Salonga/Marixi recurring set piece"
+  ],
+
+  "decision_framework_signals": [
+    "applies 'accidental' framing (writer/owner) as humility-and-providence narrative device",
+    "uses comparative-tenure framing (17 years column > 11 years SC) for self-credentialing as journalist",
+    "frames Gozon's private-sector choice as legitimate alternative to judicial career"
+  ],
+
+  "cross_references": [
+    "last Monday when my column was an abbreviated version of my speech in Kuala Lumpur"
+  ],
+
+  "notable_anecdotes": [
+    "MOPC's last similar Journalist-of-the-Year awards being 78 years ago",
+    "Marixi Prieto in the late 1980s selling newsprint to the Inquirer and lending it P10M convertible to common stock — leading to her becoming the 'accidental owner' when the two equal-owner blocs assigned their holdings to her",
+    "His Salonga-vs-Marixi recurring set piece told yet again, with Salonga's chief-justices-make-history line",
+    "His eulogy for Leni becoming the most-visited column on Inquirer.net as of August 2023",
+    "Gozon as PAL counsel and CJ as foreign-carrier counsel clashing passionately in court 50 years ago but socializing privately afterward",
+    "Repeatedly inviting Gozon to join the Supreme Court during his incumbency — Gozon respectfully declining",
+    "Gozon and Jimmy Duavit visiting him at home right after retirement on December 6, 2006 to invite him to the GMA Network board"
+  ]
+}

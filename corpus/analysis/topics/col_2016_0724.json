@@ -1,0 +1,118 @@
+{
+  "doc_id": "col_2016_0724",
+  "doc_type": "column",
+  "title": "New evangelization of Catholic Church",
+  "date": "2016-07-24",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "separation of church and state",
+    "Catholic engagement in public life",
+    "Charter change to federalism (Duterte proposal)"
+  ],
+
+  "sub_topics": [
+    "Third Philippine Conference on New Evangelization (PCNE III)",
+    "UST Quadricentennial Pavilion (July 15-17, 2016)",
+    "Cardinal Tagle invitation",
+    "neutrality requirement of church-state separation",
+    "no-separation-from-God principle",
+    "Constitution's preamble theism",
+    "Centennial Prayer for the Courts",
+    "Pope Francis — Evangelii Gaudium (No. 182)",
+    "Catechism of the Catholic Church",
+    "Vatican II teaching",
+    "constituent assembly vs constitutional convention",
+    "pro-God / pro-faith / pro-life / pro-prayer / pro-family / pro-human-rights criteria",
+    "death penalty revival proposal",
+    "extrajudicial killings",
+    "the end never justifies the means"
+  ],
+
+  "stances": [
+    {
+      "claim": "Separation of church and state does not prohibit clergy and laity from advocating pro-Christian tenets — it requires only government neutrality among denominations, prohibiting public funding for one religion or using religion as condition for civil rights.",
+      "rhetorical_move": "doctrinal clarification + enumeration of what separation does/does not prohibit",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "There is separation of church from state, but no separation of state from God — the Philippines is theist (monotheist), not atheist or agnostic; the Constitution's preamble 'imploring the aid of Almighty God' and the prayers opening sessions of Congress, the Cabinet, and the Supreme Court demonstrate this.",
+      "rhetorical_move": "structural-theological distinction + textual evidence from Constitution and institutional practice",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Catholics must bear witness to faith not only in internal life but also in political and social spheres — per Pope Francis's Evangelii Gaudium, 'it is no longer possible to claim that religion should be restricted to the private sphere.'",
+      "rhetorical_move": "papal authority + Vatican II + catechism citation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Charter change to federalism must be approached with vigilance — the method (Con-ass vs Con-con) is the first challenge; the second is making the new Constitution 'as pro-God, pro-faith, pro-life, pro-prayer, pro-family and pro-human rights as possible.'",
+      "rhetorical_move": "two-challenge framing + enumerative criteria for evaluation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The proposed revival of death penalty by hanging or musketry and summary execution of alleged criminals without due process must be opposed — 'the end never justifies the means.'",
+      "rhetorical_move": "moral-principle invocation as categorical limit",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Luis Antonio Cardinal Tagle",
+      "Pope Francis"
+    ],
+    "institutions": [
+      "Philippine Conference on New Evangelization (PCNE III)",
+      "University of Santo Tomas",
+      "Congress of the Philippines",
+      "Supreme Court of the Philippines",
+      "Catholic Church"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution preamble",
+      "Canon Law",
+      "Evangelii Gaudium (Pope Francis)",
+      "Catechism of the Catholic Church",
+      "Vatican II documents",
+      "Centennial Prayer for the Courts"
+    ],
+    "events": [
+      "PCNE III at UST Quadricentennial Pavilion (July 15-17, 2016)",
+      "Duterte's federalism proposal"
+    ]
+  },
+
+  "signature_phrases": [
+    "there is separation of church from state, but no separation of the state from God",
+    "We, the sovereign Filipino people, imploring the aid of Almighty God",
+    "pro-God, pro-faith, pro-life, pro-prayer, pro-family and pro-human rights",
+    "workers in the vineyard of the Lord",
+    "the end never justifies the means",
+    "above us to inspire us, behind us to strengthen us, before us to lead us, and within us to transform us"
+  ],
+
+  "register_markers": [
+    "Separation of church and state. (section header)",
+    "Church's teaching. (section header)",
+    "Temporal matters. (section header)",
+    "Catholic-Philippine register",
+    "papal-encyclical quotation",
+    "biblical/sacramental closing imagery",
+    "speech-formal register"
+  ],
+
+  "decision_framework_signals": [
+    "applies 'state neutral among religions, not neutral about God' framework as church-state interpretive principle",
+    "uses Pope-Francis-as-authority framing for Catholic public engagement",
+    "applies pro-God/faith/life/prayer/family/human-rights criteria as Charter-change evaluation rubric",
+    "uses 'end never justifies the means' as categorical moral limit on policy"
+  ],
+
+  "cross_references": [],
+
+  "notable_anecdotes": [
+    "Cardinal Tagle inviting him to speak at PCNE III on how Catholics can evangelize in governance and public service"
+  ]
+}

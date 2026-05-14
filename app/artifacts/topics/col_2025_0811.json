@@ -1,0 +1,121 @@
+{
+  "doc_id": "col_2025_0811",
+  "doc_type": "column",
+  "title": "A plea for the rule of law",
+  "date": "2025-08-11",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "Sara Duterte impeachment",
+    "Duterte v. House of Representatives (July 25, 2025)",
+    "motion for reconsideration as path to revision",
+    "rule of law and acceptance of judicial outcomes"
+  ],
+
+  "sub_topics": [
+    "one-year impeachment bar",
+    "due process in impeachment",
+    "operative-fact doctrine",
+    "Senate Impeachment Court archiving complaint",
+    "Lopez v. Lopez (April 21, 2025) MR reversal",
+    "stock and transfer book as primary corporate record",
+    "La Bugal-B'laan v. Ramos (January 27, 2004 → December 1, 2004 reversal)",
+    "RA 7942 (mining law) constitutionality",
+    "Financial and Technical Assistance Agreement (FTAA)",
+    "oral argument as procedural safeguard"
+  ],
+
+  "stances": [
+    {
+      "claim": "The Supreme Court's 13-0-2 decision declaring the Sara Duterte impeachment unconstitutional is not yet final — the OSG has filed an MR, and the Court should explain its position on three serious issues: alleged factual errors about the one-year bar, the self-serving effect of making it nearly impossible to impeach high officials, and the operative-fact doctrine.",
+      "rhetorical_move": "structured three-issue critique + reminder that finality has not attached",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Reversal on MR is possible even after unanimous decisions — Lopez v. Lopez (April 2025) and his own La Bugal-B'laan v. Ramos (2004) both demonstrate that the Court can completely reverse itself after MR, including via oral argument and memoranda.",
+      "rhetorical_move": "self-citation of his own ponencia + comparative precedent for reversal",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Court should set the impeachment case for oral argument and require memoranda — 'if the Court had patiently heard oral argument on less important problems like the recognition of foreign divorces and the PhilHealth petitions, why not on this monumental case?'",
+      "rhetorical_move": "comparative priority argument + rhetorical question",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Once all due process procedures are undertaken, everyone should respect and accept any decision the justices may promulgate — whether we agree with it or not. That is simply the rule of law in our democracy.",
+      "rhetorical_move": "principled closing on procedural-acceptance norm",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Sara Duterte",
+      "Marvic M.V.F. Leonen",
+      "Darlene Marie B. Berberabe",
+      "Ramon Paul L. Hernando",
+      "Ricardo R. Rosario",
+      "Conchita Carpio Morales",
+      "Antonio T. Carpio",
+      "Fidel V. Ramos"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "House of Representatives",
+      "Senate Impeachment Court",
+      "Office of the Solicitor General",
+      "Securities and Exchange Commission"
+    ],
+    "cases": [
+      "Duterte v. House of Representatives (July 25, 2025)",
+      "Lopez v. Lopez (April 21, 2025)",
+      "La Bugal-B'laan v. Ramos (January 27 / December 1, 2004)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution Article XI (impeachment)",
+      "Republic Act 7942 (mining law)",
+      "Financial and Technical Assistance Agreement (FTAA)"
+    ],
+    "events": [
+      "Sara Duterte impeachment filing and Senate archiving",
+      "His July 27 public statement",
+      "His main dissent (January 2004) and majority resolution authorship (December 2004) in La Bugal-B'laan"
+    ]
+  },
+
+  "signature_phrases": [
+    "in my humble opinion",
+    "All I humbly ask—and expect—is their openness to rethink and to change their stance if convinced by their conscience",
+    "if still an incumbent",
+    "yours truly writing the main dissent",
+    "the rule of law in our democracy",
+    "monumental case"
+  ],
+
+  "register_markers": [
+    "HOWEVER, THE DECISION IS NOT YET FINAL",
+    "IN THE PRESENT IMPEACHMENT CASE",
+    "ALL CAPS section openings",
+    "in my humble opinion",
+    "I believe",
+    "I humbly ask",
+    "yours truly",
+    "self-quotation of his prior public statement",
+    "Question: … Answer:"
+  ],
+
+  "decision_framework_signals": [
+    "applies MR-can-reverse-unanimity principle as procedural-doctrinal opening for revision",
+    "uses self-citation of his own La Bugal-B'laan reversal authorship as authoritative precedent",
+    "applies procedural-completeness norm (oral argument + memoranda) as test of legitimate decision-making",
+    "frames rule-of-law as acceptance of due-process outcomes regardless of substantive agreement"
+  ],
+
+  "cross_references": [
+    "As noted in my public statement published and broadcast on July 27"
+  ],
+
+  "notable_anecdotes": [
+    "Writing the main dissent in La Bugal-B'laan v. Ramos (January 27, 2004) and then writing the majority resolution reversing the Court (December 1, 2004) — a personal example of MR reversal"
+  ]
+}

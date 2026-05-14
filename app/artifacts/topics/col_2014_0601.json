@@ -1,0 +1,99 @@
+{
+  "doc_id": "col_2014_0601",
+  "doc_type": "column",
+  "title": "Yes, the Supreme Court can!",
+  "date": "2014-06-01",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "due process",
+    "equal protection",
+    "judicial activism",
+    "rule of law vs authoritarianism"
+  ],
+
+  "sub_topics": [
+    "substantive vs procedural due process",
+    "five legal requirements of due process",
+    "Bill of Rights Section 1",
+    "Sandiganbayan jurisdiction challenges",
+    "Special Sandiganbayan Division for Estrada plunder case",
+    "Ampatuan massacre trial",
+    "judicial classification doctrine",
+    "Singapore and Malaysia authoritarian models",
+    "judicial reinterpretation in the digital and biotechnological age"
+  ],
+
+  "stances": [
+    {
+      "claim": "Due process protects 'all persons' — citizen or alien, natural or juridical — through five legal requirements: impartial court, jurisdiction over subject matter and person, full opportunity to be heard, and judgment only after being heard.",
+      "rhetorical_move": "enumerative doctrinal definition + constitutional textualism",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Authoritarianism is not the solution to legal complexity — the Filipino people will not exchange hard-won freedoms for 'the harsh efficiencies of strongman rule.' Singapore and Malaysia are not models for the Philippines because martial law was tried here and failed.",
+      "rhetorical_move": "appeal to historical experience (martial law) + comparative rejection",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "An innovative and courageous judiciary, backed by a vigilant citizenry, can redefine due process and equal protection through judicially-invented classifications — jurisprudence 'must be stable but it cannot stand still.'",
+      "rhetorical_move": "judicial activism principle stated as aphorism",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Jinggoy Estrada",
+      "Conchita Carpio Morales",
+      "Joseph Estrada",
+      "Rene A. V. Saguisag",
+      "Jocelyn Solis Reyes"
+    ],
+    "institutions": [
+      "Supreme Court",
+      "Office of the Ombudsman",
+      "Sandiganbayan",
+      "World Economic Forum"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution Bill of Rights"
+    ],
+    "events": [
+      "pork barrel scam investigation",
+      "Estrada plunder case",
+      "Ampatuan massacre trial"
+    ]
+  },
+
+  "signature_phrases": [
+    "Yes, the Supreme Court can",
+    "hears before it condemns, proceeds upon inquiry and renders judgment only after trial",
+    "jurisprudence must be stable but it cannot stand still",
+    "the harsh efficiencies of strongman rule",
+    "twin rights"
+  ],
+
+  "register_markers": [
+    "I think",
+    "I am confident",
+    "In sum",
+    "At times… At other times",
+    "For example",
+    "Indeed",
+    "Search for solution. (section header)"
+  ],
+
+  "decision_framework_signals": [
+    "applies substantive/procedural due process framework as a teaching device",
+    "frames judicial activism as evolutive interpretation — the Court 'can' refresh ancient rights for new technological ages",
+    "rejects comparative authoritarianism by grounding in Filipino historical memory of martial law"
+  ],
+
+  "cross_references": [],
+
+  "notable_anecdotes": [
+    "Senator Jinggoy Estrada and Ombudsman Morales resolving a due process complaint informally to avoid delay"
+  ]
+}

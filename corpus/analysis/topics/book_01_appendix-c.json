@@ -1,0 +1,107 @@
+{
+  "doc_id": "book_01_appendix-c",
+  "doc_type": "book-appendix",
+  "title": "A Prelude to Paperless Courts",
+  "date": "2001-09-26",
+  "voice_register": "doctrinal-formal",
+
+  "primary_topics": [
+    "Electronic Commerce Act and Rules on Electronic Evidence",
+    "paperless-court possibility",
+    "21st-century paradigm shifts"
+  ],
+
+  "sub_topics": [
+    "Justice Robert Nicholson Federal Court of Australia lecture",
+    "SC Session Hall September 26, 2001",
+    "Republic Act 8792 (Electronic Commerce Act, June 11, 2000)",
+    "Philippine Rules on Electronic Evidence (effective August 1, 2001)",
+    "electronic document as functional equivalent of paper",
+    "digital signature as functional equivalent of 'John Hancock'",
+    "Ten Commandments engraved in stone / Confucian wisdom in wooden tablets / paper as recent medium",
+    "biosciences and 150-200 year life-span prediction",
+    "globalization / deregulation / privatization / liberalization shifts",
+    "DNA / genetic engineering / stem cells / cloning"
+  ],
+
+  "stances": [
+    {
+      "claim": "The 21st century has shifted world preeminence 'from a battle of ideologies and weapons of mass destruction to one of trade dominance' — from government control to deregulation, state ownership to privatization, national sovereignty to globalization, protectionism to trade liberalization.",
+      "rhetorical_move": "structured-paired-shift framing (from X to Y) for global paradigm change",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Biosciences breakthroughs (DNA testing, genetic engineering, stem cell cloning) promise that 'our children and grandchildren can look forward to much longer life spans of 150 or even 200 years' — even as they 'raise ethical and moral concerns.'",
+      "rhetorical_move": "prediction-with-caveat framing for biotechnological future",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The law is 'said to be the most paper-dependent discipline in the world' — 'in no other field is the advice Put it in writing more prevalent than in the law'; statutes, contracts, parol evidence, statute of frauds, and best evidence rules all assume paper writing.",
+      "rhetorical_move": "structural-status quo framing (paper-dependency as legal-discipline default)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The ECA + Rules on Electronic Evidence 'eliminate the disparity of treatment between data messages and paper documents' — an electronic document is now 'the functional equivalent of a paper-based document; an electronic or digital signature, the functional equivalent of a traditionally penned John Hancock.'",
+      "rhetorical_move": "functional-equivalence doctrinal framing for electronic-evidence admissibility",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The SC is honored to be 'one of the first tribunals in Asia to produce these Rules and, thereby, to keep in step with the electronic age' — though 'there is as yet no intention in the said law and Rules to eliminate paper as the primary medium of communication in the bar or the bench.'",
+      "rhetorical_move": "regional-leadership framing + hedged-incremental-reform reassurance",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Robert Nicholson"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Federal Court of Australia"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Republic Act No. 8792 (Electronic Commerce Act, June 11, 2000)",
+      "Philippine Rules on Electronic Evidence (effective August 1, 2001)",
+      "Statute of Frauds",
+      "Parol Evidence Rule",
+      "Best Evidence Rule",
+      "Ten Commandments"
+    ],
+    "events": [
+      "Justice Nicholson's Centenary Lecture on Paperless Courts (September 26, 2001)",
+      "ECA enactment (June 11, 2000)",
+      "Rules on Electronic Evidence effectivity (August 1, 2001)"
+    ]
+  },
+
+  "signature_phrases": [
+    "the most paper-dependent discipline in the world",
+    "Put it in writing",
+    "John Hancock",
+    "the Ten Commandments may have been engraved in stone and Confucian wisdom in wooden tablets",
+    "the disparity of treatment between data messages and paper documents",
+    "to keep in step with the electronic age",
+    "the epochal prelude to paperless legal proceedings",
+    "Thank you and good day"
+  ],
+
+  "register_markers": [
+    "opening-remarks lecture-host register",
+    "structured-paired-shift enumeration (from X to Y)",
+    "biological-life-span futurism prediction (150-200 years)",
+    "Confucian-vs-stone-vs-paper comparative-historiography",
+    "regional-leadership framing (Asia-first)"
+  ],
+
+  "decision_framework_signals": [
+    "applies functional-equivalence doctrine (electronic = paper) as legal-modernization principle",
+    "uses structured-paired-shift framing (control → deregulation, ownership → privatization, sovereignty → globalization) as paradigm-recognition framework",
+    "frames incremental-reform (electronic evidence first, paperless courts as future possibility) as institutional-prudence approach"
+  ],
+
+  "cross_references": [],
+
+  "notable_anecdotes": []
+}

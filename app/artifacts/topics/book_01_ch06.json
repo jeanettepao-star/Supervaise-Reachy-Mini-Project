@@ -1,0 +1,135 @@
+{
+  "doc_id": "book_01_ch06",
+  "doc_type": "book-chapter",
+  "title": "A Meaningful Centenary",
+  "date": "2001-04-04",
+  "voice_register": "doctrinal-formal",
+
+  "primary_topics": [
+    "regional centenary celebrations",
+    "case backlog reduction statistics",
+    "judicial reform program"
+  ],
+
+  "sub_topics": [
+    "Baguio City Convention Center joint celebration of Regions 1 and 2 (April 4, 2001)",
+    "Act 136 founding of SC (June 11, 1901)",
+    "General Order 20 (May 29, 1899) under Gen. Elwell Otis",
+    "Court of Appeals 1995-1999 backlog (8,907 filed vs 8,290 decided yearly)",
+    "RTC/CTA/SDC backlog (848,329 in vs 814,354 out)",
+    "MeTC/MTCC/MCTC/MTC/SCC backlog (325,000 increase 1995-1999)",
+    "International Herald Tribune India 324-year backlog reference",
+    "trial-court vacancy (one-third unfilled)",
+    "Batas Pambansa Blg 22 (bouncing checks)",
+    "Salary Standardization Law exemption goal",
+    "national professors of law program",
+    "Halls of Justice construction",
+    "Bishop Benny Tudtud's 'Disturb Us O Lord' prayer (verbatim)",
+    "Senate impeachment trial public vocabulary"
+  ],
+
+  "stances": [
+    {
+      "claim": "The SC reckons its founding on June 11, 1901 because Act 136 was approved by a civil government and established 'an independent judicial hierarchy with the Supreme Court as the apex' — General Order 20 of 1899 under Gen. Elwell Otis was 'really nothing more than an extension of the military authority of the United States Army.'",
+      "rhetorical_move": "doctrinal-historical framing of judicial independence as founding-date criterion",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Trial courts are 'the backbone of the judicial branch of government' — comparing the judiciary with the military, trial judges, clerks of court, sheriffs, and process servers are 'equivalent to the marines and the foot soldiers in the front line of the battlefield,' and to the masses they are 'the veritable symbols of justice itself.'",
+      "rhetorical_move": "military-metaphor framing + structural-importance elevation of lower judiciary",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The SC has reduced its own backlog from ~2,000 (1996, when he joined the Court) to ~300 (April 4, 2001) — and aims to reduce it to 'an insignificant number by June 11, 2001'; however, the picture in the lower courts is 'not as good' — 35,000 additional pending cases per five years in second-level courts, 325,000 in first-level courts.",
+      "rhetorical_move": "structured-empirical transparency + 'splashing cold water' framing",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The court system should not be used as a collection agency for rubber checks — habitual bad-check writers could be banned from opening and maintaining checking accounts, as is the practice in the US and other developed countries.",
+      "rhetorical_move": "policy-prescription framing + comparative-jurisdictional benchmarking",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The reward for good work is more work — reforming the judiciary and elevating performance standards are never complete; Bishop Benny Tudtud's prayer 'Disturb Us O Lord' should remind judges not to be complacent with 'minuscule achievements or satisfied with the adulation and esteem accorded us.'",
+      "rhetorical_move": "monastic-discipline framing + verbatim Tudtud prayer as closing benediction",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Elwell Otis",
+      "Hilario G. Davide Jr.",
+      "Benny Tudtud"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Centenary Executive Committee",
+      "Second Philippine Commission",
+      "Court of Appeals",
+      "Court of Tax Appeals",
+      "Regional Trial Courts",
+      "Shari'ah District Courts",
+      "Shari'ah Circuit Courts",
+      "Metropolitan Trial Courts",
+      "Municipal Trial Courts",
+      "Municipal Trial Courts in Cities",
+      "Municipal Circuit Trial Courts",
+      "Senate of the Philippines",
+      "International Herald Tribune"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Act 136 of 1901 (Judiciary Law)",
+      "General Order No. 20 (May 29, 1899)",
+      "Batas Pambansa Bilang 22 (bouncing checks)",
+      "Salary Standardization Law"
+    ],
+    "events": [
+      "Joint centenary celebration of Regions 1 and 2 (April 4, 2001, Baguio City Convention Center)",
+      "Senate impeachment trial of President Estrada"
+    ]
+  },
+
+  "signature_phrases": [
+    "Katarungan at Bayan, Magpakailanman",
+    "Maraming salamat po",
+    "the backbone of the judicial branch of government",
+    "the marines and the foot soldiers in the front line of the battlefield",
+    "the veritable symbols of justice itself",
+    "without meaning to splash cold water on our warm celebrations",
+    "the reward for good work is more work",
+    "speedy dispensation of quality justice",
+    "Disturb Us O Lord",
+    "rubber checks",
+    "the highest approval rating in all public polling surveys",
+    "Now, that's a lot of piled-up cases!"
+  ],
+
+  "register_markers": [
+    "speech register addressing thousands of judicial personnel",
+    "Tagalog code-switch (Katarungan at Bayan, Magpakailanman / Maraming salamat po)",
+    "Bishop-Tudtud-prayer verbatim closer (worship register)",
+    "transparency-via-statistics doctrinal-empirical mixing",
+    "rhetorical question device",
+    "first/second goals enumeration"
+  ],
+
+  "decision_framework_signals": [
+    "applies independent-civil-government founding criterion (Act 136 vs General Order 20) for institutional birthday",
+    "uses military-metaphor framing (trial courts as foot soldiers) for institutional-hierarchy reorientation",
+    "frames backlog reduction as quantifiable accountability target (24-month SC / 3-month trial-court constitutional deadlines)",
+    "uses Tudtud-prayer as monastic-restlessness framework against bureaucratic complacency",
+    "applies comparative-jurisdiction policy framing (US bad-check banking practice)"
+  ],
+
+  "cross_references": [
+    "my latest book, Transparency, Unanimity & Diversity (2000 ed.)"
+  ],
+
+  "notable_anecdotes": [
+    "3,000 judicial-personnel attendees in Baguio for the joint Regions 1 and 2 centenary celebration",
+    "Reduction of SC backlog from ~2,000 in 1996 (when he joined) to ~300 on April 4, 2001",
+    "International Herald Tribune (June 2, 2000) reporting 25 million pending cases in an unnamed Asian country, with 324 years needed to clear dockets even with no new filings"
+  ]
+}

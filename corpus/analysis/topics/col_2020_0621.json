@@ -1,0 +1,107 @@
+{
+  "doc_id": "col_2020_0621",
+  "doc_type": "column",
+  "title": "Cyberlibel and Maria Ressa",
+  "date": "2020-06-21",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "cyberlibel conviction of Maria Ressa",
+    "libel doctrine and prescription",
+    "Austin vs Pound schools of jurisprudence"
+  ],
+
+  "sub_topics": [
+    "Judge Rainelda H. Estacio-Montesa decision",
+    "Rappler February 19, 2014 republication",
+    "Wilfredo Keng (private citizen complainant)",
+    "Cybercrime Prevention Act of 2012",
+    "Penal Code libel definition",
+    "presumption of malice for private citizens",
+    "republication as separate crime doctrine",
+    "Act No. 3326 (12-year prescription for special laws)",
+    "John Austin's 'dura lex sed lex' positivism",
+    "Roscoe Pound's sociological jurisprudence"
+  ],
+
+  "stances": [
+    {
+      "claim": "Judge Montesa's 37-page, 170-footnoted decision is not baseless or capricious — it correctly applied 'law times facts equals decision' formula and adhered to John Austin's positivist legal philosophy.",
+      "rhetorical_move": "to-be-fair concession before substantive critique",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The article was indeed libelous because Keng is a private citizen, so malice is presumed by law — the burden of proof shifted to the accused who 'miserably failed' to rebut the presumption, and oddly chose not to testify to show 'fair comment on a matter of public interest.'",
+      "rhetorical_move": "doctrinal-burden analysis + critique of defense strategy",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The conviction nonetheless deserves appeal because the Supreme Court can acquit based on prescription if it sidesteps John Austin's strict syllogism and embraces Roscoe Pound's sociological school — which regards law as 'a brick — an important one — in the building of a just and humane society.'",
+      "rhetorical_move": "school-of-jurisprudence appeal (Austin vs Pound) + brick-in-edifice metaphor (echoing Salonga teaching)",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Maria Ressa",
+      "Reynaldo Santos Jr.",
+      "Rainelda H. Estacio-Montesa",
+      "Wilfredo Keng",
+      "John Austin",
+      "Roscoe Pound",
+      "Jovito R. Salonga"
+    ],
+    "institutions": [
+      "Rappler",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Cybercrime Prevention Act of 2012",
+      "Revised Penal Code (libel provisions)",
+      "Act No. 3326 (special-law prescription)"
+    ],
+    "events": [
+      "Original Rappler article publication (May 29, 2012)",
+      "Article republication (February 19, 2014)",
+      "Information filing (February 5, 2019)",
+      "Ressa cyberlibel conviction (June 2020)",
+      "Salonga's 100th birthday (June 22, 2020)"
+    ]
+  },
+
+  "signature_phrases": [
+    "To be fair",
+    "law times facts equals decision",
+    "dura lex sed lex",
+    "robotic syllogism",
+    "John Austin's strict syllogism",
+    "Roscoe Pound's more liberal sociological school",
+    "law merely as a brick — an important one — in the building of a just and humane society",
+    "my esteemed guru, a respected scholar, low-profile educator, brilliant lawyer, outstanding lawmaker, acclaimed patriot, and statesman par excellence"
+  ],
+
+  "register_markers": [
+    "To be fair",
+    "Lamentably",
+    "Oddly also",
+    "as advised in my 2/24/19 column",
+    "ALL CAPS phrase for emphasis (MALICE IS PRESUMED BY THE LAW)",
+    "Austin / Pound named-jurisprudence opposition",
+    "Latin maxim (dura lex sed lex)"
+  ],
+
+  "decision_framework_signals": [
+    "applies Austin-vs-Pound jurisprudential opposition as the meta-question framing legal-policy choices",
+    "frames legal-positivist syllogism ('law times facts') as inadequate when sociological consequences matter",
+    "uses 'law as brick in social edifice' metaphor (transmitting Salonga's teaching) as the more humane alternative",
+    "applies private-citizen-malice-presumption doctrine as default analytic rule"
+  ],
+
+  "cross_references": [
+    "as advised in my 2/24/19 column"
+  ],
+
+  "notable_anecdotes": []
+}

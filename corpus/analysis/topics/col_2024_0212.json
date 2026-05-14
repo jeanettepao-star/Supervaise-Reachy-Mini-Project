@@ -1,0 +1,122 @@
+{
+  "doc_id": "col_2024_0212",
+  "doc_type": "column",
+  "title": "The rule of law in the besieged world",
+  "date": "2024-02-12",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "rule of law under global stress",
+    "International Court of Justice",
+    "ICJ vs ICC distinction",
+    "Trump cases and US Supreme Court"
+  ],
+
+  "sub_topics": [
+    "Russia-Ukraine genocide case at ICJ",
+    "South Africa v. Israel (Gaza) at ICJ",
+    "March 2022 ICJ interim order against Russia",
+    "ICJ six commands to Israel (January 26, 2024)",
+    "30-day Israel report deadline (February 26)",
+    "Trump Colorado Supreme Court disqualification",
+    "Section 3 of 14th Amendment (insurrection clause)",
+    "Trump presidential immunity defense",
+    "January 6 Capitol assault",
+    "incumbent-only presidential immunity",
+    "ICJ vs ICC membership comparison (US/China)"
+  ],
+
+  "stances": [
+    {
+      "claim": "Three judicial systems are simultaneously besieged: the Philippine legal system (ICC challenge), US courts (Trump cases), and the ICJ (Russia-Ukraine and South Africa-Israel genocide cases) — making 2024 a stress test of the rule of law worldwide.",
+      "rhetorical_move": "global-tableau framing organizing disparate cases under one thesis",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The ICJ and ICC must not be confused — ICJ is the World Court for inter-state litigation and integral to the UN (193 members, including US and China); ICC was created by the Rome Statute and tries individuals for crimes against humanity (123 members, excluding US and China).",
+      "rhetorical_move": "didactic distinction with comparative-membership analysis",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Russia did not obey the March 2022 ICJ interim order yet invoked the rule of law in accusing Ukraine of genocide to justify its invasion — exposing the cynical use of legal rhetoric to disguise rule-of-force action.",
+      "rhetorical_move": "indictment of selective rule-of-law invocation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Israel's compliance with the ICJ's six commands by February 26 will be a test for the faith of the free world in the rule of law — if Israel disobeys and America and its allies fail to enforce, the global legal order is fundamentally weakened.",
+      "rhetorical_move": "rhetorical question + 'awaiting with bated breath' as expectation framing",
+      "confidence": "hedged"
+    },
+    {
+      "claim": "If the Supreme Court delays Trump cases past November, all may be dismissed via incumbent-only presidential immunity — the timing question is potentially as decisive as the merits.",
+      "rhetorical_move": "structural-procedural prediction of judicial delay's substantive consequences",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Donald Trump"
+    ],
+    "institutions": [
+      "International Court of Justice",
+      "International Criminal Court",
+      "United Nations",
+      "European Union",
+      "United Kingdom",
+      "Australia",
+      "United States Supreme Court",
+      "Colorado Supreme Court",
+      "US Court of Appeals (DC Circuit)"
+    ],
+    "cases": [
+      "Russia-Ukraine genocide case (ICJ)",
+      "South Africa v. Israel (ICJ, January 26, 2024)",
+      "Trump v. Anderson (Colorado disqualification)",
+      "Trump presidential-immunity DC Circuit case"
+    ],
+    "laws_treaties": [
+      "UN Charter",
+      "Rome Statute",
+      "14th Amendment Section 3 (US insurrection clause)"
+    ],
+    "events": [
+      "Russia invasion of Ukraine (March 2022)",
+      "January 6, 2021 Capitol assault",
+      "SCOTUS oral arguments on Trump disqualification (February 8, 2024)"
+    ]
+  },
+
+  "signature_phrases": [
+    "the besieged world",
+    "the most SUIT-able presidential aspirant",
+    "I will await with bated breath",
+    "the faith of the free world in the rule of law",
+    "punched its way into Ukraine",
+    "the sticky ICC web"
+  ],
+
+  "register_markers": [
+    "LET US NOT CONFUSE",
+    "ALL CAPS section openings",
+    "As a firm believer in the rule of law",
+    "Will Israel… Will America… Will Trump",
+    "rhetorical questions chained for emphasis",
+    "pun ('most SUIT-able')",
+    "self-citation by exact dates"
+  ],
+
+  "decision_framework_signals": [
+    "applies global-tableau lens — multiple jurisdictions under one rule-of-law stress test",
+    "frames compliance with international interim orders as the operational test of rule of law in geopolitics",
+    "uses timing-as-outcome analysis for Trump cases (delay = de facto immunity)"
+  ],
+
+  "cross_references": [
+    "my column on Jan. 15",
+    "my columns on Sept. 4, 2023 and Jan. 15, 2024",
+    "The rule of law in the South and North China Sea in a future column"
+  ],
+
+  "notable_anecdotes": []
+}

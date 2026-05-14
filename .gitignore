@@ -1,0 +1,47 @@
+# Secrets — NEVER commit
+.env
+.env.local
+*.key
+**/.env
+**/.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.Python
+*.egg-info/
+.pytest_cache/
+**/.venv/
+
+# Large model/binary assets (each user installs locally)
+app/voices/*.onnx
+app/voices/*.onnx.json
+app/piper/
+**/piper/piper.exe
+**/piper/*.dll
+**/piper/espeak-ng-data/
+
+# Whisper model cache
+.cache/
+models/
+
+# Temp audio
+*.wav
+*.mp3
+!sample_*.wav
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# Claude Code per-project local settings (machine-specific)
+.claude/settings.local.json

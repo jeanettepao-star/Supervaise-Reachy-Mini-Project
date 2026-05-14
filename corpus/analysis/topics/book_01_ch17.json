@@ -1,0 +1,188 @@
+{
+  "doc_id": "book_01_ch17",
+  "doc_type": "book-chapter",
+  "title": "Perez v. Estrada — Live Radio-TV Coverage, Bane or Boon?",
+  "date": "2001-06-29",
+  "voice_register": "doctrinal-formal",
+
+  "primary_topics": [
+    "Perez v. Estrada live media coverage prohibition",
+    "due process vs press freedom balancing",
+    "Panganiban Dissent advocating single-fixed-camera technology solution"
+  ],
+
+  "sub_topics": [
+    "October 23, 1991 absolute prohibition on live radio-TV coverage of court proceedings",
+    "Estes v. Texas (1965, US Supreme Court 5-4)",
+    "Kapisanan ng mga Brodkaster ng Pilipinas (KBP) March 13, 2001 letter",
+    "Secretary of Justice Hernando Perez Petition",
+    "AM No. 01-4-03-SC (Perez v. Estrada)",
+    "8-6 vote denying Petition (Vitug ponencia)",
+    "Davide, Bellosillo, Melo, Puno, Panganiban, Quisumbing dissenters",
+    "Puno's standards for trial-judge discretion + 'Rip Van Winkles' warning",
+    "September 13, 2001 9-6 Motion for Reconsideration denial",
+    "September 13, 2001 8-7 audio-visual documentary recording compromise",
+    "National Museum / Records Management and Archives Office",
+    "Rule 119 Section 21 Revised Rules of Criminal Procedure"
+  ],
+
+  "stances": [
+    {
+      "claim": "(Majority per Vitug) Live television coverage of judicial proceedings involves 'an inherent denial of the due process rights' of a criminal defendant — drawing from Estes v. Texas (US), the four potential prejudice areas (jury, witnesses, trial judge, defendant) outweigh press-freedom interests; 'the right of the accused must be preferred to win.'",
+      "rhetorical_move": "due-process-trumps-press doctrinal balancing + US-precedent grounding",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "(Majority) 'A public trial is not synonymous with publicized trial; it only implies that the court doors must be open to those who wish to come, sit in the available seats, conduct themselves with decorum and observe the trial process.' A courtroom needs 'enough facilities for a reasonable number of the public to observe' — not infinite remote viewers.",
+      "rhetorical_move": "structural-definition framing (public vs publicized)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "(Majority) 'A trial is not a free trade of ideas. Nor is a competing market of thoughts, the known test of truth in a courtroom' — quoting Frankfurter dissent in Bridges v. California to distinguish judicial from democratic-deliberative arenas.",
+      "rhetorical_move": "Frankfurter-citation framing of categorical-arena distinction",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "(CJ's Dissent) 'It is technologically possible to uphold the right of the people to public information without violating the right of the accused to due process and without impeding the orderly administration of justice' — the ban was first promulgated in 1991, but the 2001 'new world order brought about by the information highway' has made the 1991 reasons 'obsolete.'",
+      "rhetorical_move": "technology-evolution framing + obsolete-reasoning critique",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "(CJ's Dissent) Solution: 'a single fixed camera under the control of the court' in the rear of the courtroom, locked to wide angle, no other cameras or lights — output flashed on TV monitors/projection screens; broadcasters connect via distribution amplifiers from outside the courtroom; viewers see only what a courtroom spectator would see.",
+      "rhetorical_move": "structured-engineering proposal as judicial-doctrinal compromise",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "(CJ's Dissent) Recipients of TV signals outside the courtroom 'cannot interfere in or prejudice the fair and orderly administration of justice, for the simple reason that they are outside the vicinity of the courtroom' — they cannot be the 'hooting throng' the IBP scorned and feared.",
+      "rhetorical_move": "spatial-isolation framing to defeat hooting-throng objection",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "(CJ's Dissent Epilogue) 'The Court, by its Decision today, has turned its back and refused to march in cadence with the music created by the chimes of changing technology' — to keep public trust and esteem, transparency and accountability are 'cornerstones of this Court's avowed policies as it celebrated its centenary on June 11, 2001.'",
+      "rhetorical_move": "centenary-policy contradiction framing + musical-metaphor critique",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "(CJ's Dissent close) 'Let the light of truth be beamed to all the people through the advances of science and technology in the 21st century!'",
+      "rhetorical_move": "biblical-prophetic call as closer",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "(September 13, 2001 compromise) Audio-visual recording for documentary purposes is ordered with strict conditions — inconspicuously installed cameras, no live broadcast until Sandiganbayan decision, master film deposited at National Museum and Records Management and Archives Office.",
+      "rhetorical_move": "structured-conditional compromise framing",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Jose C. Vitug",
+      "Santiago M. Kapunan",
+      "Vicente V. Mendoza",
+      "Bernardo P. Pardo",
+      "Arturo B. Buena",
+      "Minerva P. Gonzaga-Reyes",
+      "Sabino R. de Leon Jr.",
+      "Angelina Sandoval-Gutierrez",
+      "Hilario G. Davide Jr.",
+      "Josue N. Bellosillo",
+      "Jose A. R. Melo",
+      "Reynato S. Puno",
+      "Leonardo A. Quisumbing",
+      "Joseph Ejercito Estrada",
+      "Hernando Perez",
+      "Ruperto Nicdao",
+      "Cesar N. Sarino",
+      "Renato 'Compañero' Cayetano",
+      "Ricardo J. Romulo",
+      "Tom C. Clark",
+      "Earl Warren",
+      "Felix Frankfurter",
+      "Robert H. Jackson"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Sandiganbayan",
+      "US Supreme Court",
+      "Federal Courts of the United States",
+      "Kapisanan ng mga Brodkaster ng Pilipinas",
+      "Integrated Bar of the Philippines",
+      "National Museum",
+      "Records Management and Archives Office",
+      "US Judicial Conference Ad Hoc Committee on Cameras in the Courtroom"
+    ],
+    "cases": [
+      "Perez v. Estrada (AM 01-4-03-SC, June 29, 2001)",
+      "Estes v. Texas (1965 US Supreme Court)",
+      "People v. Stapleton",
+      "Patterson v. Colorado",
+      "Craig v. Harney",
+      "Fay v. New York",
+      "Offut v. United States",
+      "Bridges v. California"
+    ],
+    "laws_treaties": [
+      "Rule 53 Federal Rules of Criminal Procedure (US)",
+      "Rule 119 Section 21 Revised Rules of Criminal Procedure",
+      "October 23, 1991 Supreme Court Resolution",
+      "Plunder Law (against Estrada)",
+      "Constitutional rights to free press / information on matters of public concern",
+      "Constitutional right to fair and impartial trial"
+    ],
+    "events": [
+      "1991 Supreme Court Resolution banning live coverage",
+      "KBP March 13, 2001 letter",
+      "Decision (June 29, 2001)",
+      "Motion for Reconsideration denial (September 13, 2001)",
+      "Audio-visual recording compromise (September 13, 2001)"
+    ]
+  },
+
+  "signature_phrases": [
+    "Bane or Boon?",
+    "the hooting throng",
+    "A public trial is not synonymous with publicized trial",
+    "A trial is not a free trade of ideas",
+    "not a competing market of thoughts",
+    "Rip Van Winkles in this age of electronic media",
+    "to march in cadence with the music created by the chimes of changing technology",
+    "a single fixed camera under the control of the court",
+    "Let the light of truth be beamed to all the people through the advances of science and technology in the 21st century",
+    "transparency and accountability are cornerstones",
+    "the obsolete reasons for the ban",
+    "the new world order brought about by the information highway",
+    "a stationary audience view",
+    "the right of the accused must be preferred to win",
+    "subtle threats to justice"
+  ],
+
+  "register_markers": [
+    "doctrinal-formal case-treatment register with majority + dissent juxtaposition",
+    "extensive verbatim quotation of 1991 Resolution, Vitug ponencia, Puno Dissent, CJ's Dissent",
+    "italicized emphasis in original preserved",
+    "Latin (inter alia, ponencia, AM)",
+    "Tagalog institutional name (Kapisanan ng mga Brodkaster ng Pilipinas)",
+    "first-person Dissenting-view register (My Dissenting View section)",
+    "biblical-prophetic closer ('Let the light of truth be beamed')"
+  ],
+
+  "decision_framework_signals": [
+    "applies right-of-accused-trumps-press-freedom balancing as default rule for live-coverage cases",
+    "uses public-trial vs publicized-trial categorical distinction for constitutional analysis",
+    "frames technology-enabled-transparency (single-fixed-camera) as middle-way doctrinal solution",
+    "applies obsolete-reasoning critique (1991 ban → 2001 technology) for institutional adaptation argument",
+    "uses centenary-policy-consistency framing (transparency + accountability avowed → must follow through)",
+    "frames audio-visual documentary recording as historical-preservation compromise"
+  ],
+
+  "cross_references": [
+    "Panganiban, Transparency, Unanimity & Diversity, 2000 ed., pp. 46-64"
+  ],
+
+  "notable_anecdotes": [
+    "KBP, Hernando Perez, Cesar Sarino, Senator Compañero Cayetano, and Atty. Ricardo Romulo successively pushing for live coverage of Estrada plunder case",
+    "Puno's Dissent warning of 'Rip Van Winkles in this age of electronic media — We' — Puno's sharp parting line",
+    "The September 13, 2001 compromise: 8-7 vote ordering audio-visual recording for documentary purposes, master film deposited at National Museum and Records Management and Archives Office, no live broadcast until Sandiganbayan decision",
+    "Mendoza and Reyes — who had voted against live coverage — joining CJ's six dissenters to form the 8 in favor of documentary recording"
+  ]
+}

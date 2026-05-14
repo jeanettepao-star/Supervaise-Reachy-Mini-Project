@@ -1,0 +1,114 @@
+{
+  "doc_id": "book_01_ch07",
+  "doc_type": "book-chapter",
+  "title": "Employee Participation During the Centenary",
+  "date": "2001-02-14",
+  "voice_register": "doctrinal-formal",
+
+  "primary_topics": [
+    "judicial employee participation in centenary",
+    "employee welfare programs",
+    "Valentine's Day appreciation of court employees"
+  ],
+
+  "sub_topics": [
+    "Court of Appeals Auditorium gathering (February 14, 2001)",
+    "Basic Life Support Training Course (September 21, 2000)",
+    "Cancer Awareness Seminar-Workshop (November 9, 2000)",
+    "Employees' Sports Festival (November 17, 2000)",
+    "Sexual Dysfunction Among Lay People seminar (December 7, 2000) — with Pfizer",
+    "Blood-letting program (February 23, 2001)",
+    "Stress Management and Smoking-Dangers seminars",
+    "Mass housing program with PAG-IBIG (Justice Pardo sub-committee)",
+    "Loyalty awards for 10+ years service",
+    "Search for Special Centennial Awardees for Excellence (Bellosillo and Feria)",
+    "Region 7 Cebu City two-day celebration (January 26-27, 2001)",
+    "Dumaguete grand debate (February 9, 2001, Ateneo vs Silliman)",
+    "Cultural Committee (Justice Gonzaga-Reyes chair)"
+  ],
+
+  "stances": [
+    {
+      "claim": "The centenary celebration on Valentine's Day for SC, CA, and DOJ employees deliberately emphasizes 'na ang mga pinakamalapit sa puso ng Supreme Court ay ang mga kawaning naglilingkod sa hustisya' — those closest to the heart of the SC are the employees serving justice.",
+      "rhetorical_move": "Valentine-themed institutional-affection framing (Tagalog opening)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Without our employees, we cannot speak of the judiciary and the justice system — 'an office, however exalted or however lowly, can be effective only when it has the support and the cooperation of the people composing it.'",
+      "rhetorical_move": "structural-importance framing of judicial workforce + aphoristic universal-organizational principle",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The most important components of judicial dispensation are 'the men and women who compose the judicial branch of government' — not the magistrates or the case docket, but the workforce.",
+      "rhetorical_move": "people-first reordering of institutional priority",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Minerva P. Gonzaga-Reyes",
+      "Luz Puno",
+      "Marissa Villarama",
+      "Josue N. Bellosillo",
+      "Jose Y. Feria",
+      "Bernardo P. Pardo"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Court of Appeals",
+      "Department of Justice (Philippines)",
+      "Supreme Court Clinic Services",
+      "SC Employees Association",
+      "Pfizer Philippines",
+      "PAG-IBIG Fund",
+      "Centenary Executive Committee",
+      "Cultural Committee",
+      "Employees' Participation Committee",
+      "Ateneo de Manila",
+      "Silliman University"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "Valentine's Day employee celebration (February 14, 2001)",
+      "Region 7 Cebu City centenary (January 26-27, 2001)",
+      "Dumaguete grand debate (February 9, 2001)",
+      "Basic Life Support Training Course (September 21, 2000)",
+      "Cancer Awareness Seminar (November 9, 2000)",
+      "Sexual Dysfunction seminar (December 7, 2000)"
+    ]
+  },
+
+  "signature_phrases": [
+    "Magandang hapon po sa inyong lahat",
+    "Maligayang Araw ng mga Puso",
+    "ang mga pinakamalapit sa puso ng Supreme Court ay ang mga kawaning naglilingkod sa hustisya",
+    "an office, however exalted or however lowly, can be effective only when it has the support and the cooperation of the people composing it",
+    "the men and women who compose the judicial branch of government",
+    "wala pong palalabasin",
+    "naninilbihan sa hustisya ng bayan",
+    "Maraming salamat po"
+  ],
+
+  "register_markers": [
+    "extended Tagalog opening (bilingual SC speech tradition)",
+    "Tagalog code-switching throughout (Magandang hapon, Maligayang Araw ng mga Puso, wala pong palalabasin)",
+    "structured-enumerative inventory of employee programs",
+    "people-first closer (men and women who compose the judicial branch)",
+    "speech register addressing employees rather than peers"
+  ],
+
+  "decision_framework_signals": [
+    "applies people-first framing for institutional accountability (workforce as primary stakeholder)",
+    "uses universal-organizational-effectiveness principle (high-or-low office, same employee-dependence)",
+    "frames employee-welfare programs (sports, health seminars, housing, loyalty awards) as institutional-care infrastructure"
+  ],
+
+  "cross_references": [],
+
+  "notable_anecdotes": [
+    "Dumaguete debate having more than 800 attendees each paying P50 admission for a 2.5-hour debate (8:00-10:30 pm)",
+    "Region 7 Cebu City employees holding a two-day centenary celebration"
+  ]
+}

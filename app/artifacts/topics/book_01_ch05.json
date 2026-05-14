@@ -1,0 +1,123 @@
+{
+  "doc_id": "book_01_ch05",
+  "doc_type": "book-chapter",
+  "title": "Mediation, an Old Method with a New Twist",
+  "date": "2001-03-16",
+  "voice_register": "doctrinal-formal",
+
+  "primary_topics": [
+    "Alternative Dispute Resolution (ADR) methods",
+    "court docket congestion solutions",
+    "Supreme Court mediation program"
+  ],
+
+  "sub_topics": [
+    "Advocates' Forum for Media (March 16, 2001, Linden Suites Ortigas)",
+    "negotiation / conciliation / mediation / arbitration as ADR methods",
+    "Rule 18 of the Rules of Court (pretrial ADR consideration)",
+    "Interim Rules on Corporate Rehabilitation (Rule 4)",
+    "Electronic Commerce Act and Retail Trade Liberalization Law (ADR encouragement)",
+    "Purefoods Corporation v. CA (GR 128066, June 19, 2000) — 1992 power-crisis generators settled in 2000",
+    "Annabelle T. Abaya as mediation trainer (UMass + Harvard)",
+    "Asia Foundation grant",
+    "Settlement Week (March 26 - April 6, 2001)",
+    "300 trial courts in Metro Manila, Cebu, Davao",
+    "Philippine Judicial Academy (Philja)",
+    "Senate impeachment trial vocabulary ('your Honor,' 'objection sustained,' 'irrelevant and immaterial')"
+  ],
+
+  "stances": [
+    {
+      "claim": "In ancient days, sheer force decided conflicts — 'might dictated right' — but 'gentility and civilization have taught us that in the long term, right is better than might; the pen, more powerful than the sword; and reason, more reliable than aggression.'",
+      "rhetorical_move": "civilization-as-progress framing + chiasmic-doctrinal aphorism (recurring CJ right-vs-might theme)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Litigation has many disadvantages — 'tedious, time-consuming, stressful, expensive, and most often, ends up in broken relationships and permanent animosities'; judgments sometimes 'inflict deeper wounds and engender vengeance as well as new cycles of violence' instead of healing controversies.",
+      "rhetorical_move": "structured-enumerative critique of adversarial system",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Mediation conforms with the Asian and Filipino ways of solving problems 'without loss of face to the claimants' — being less confrontational, conducted tactfully and diplomatically, it can even improve relationships and interactions between parties after the problem is solved.",
+      "rhetorical_move": "cultural-affinity framing of ADR + face-preservation lens",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Mediation is especially important in cases of continuing relationships — family disagreements, labor and tenancy problems (especially in special economic and freeport zones), commercial disputes, consumer controversies, and barangay-level disagreements.",
+      "rhetorical_move": "structured-domain enumeration for ADR's optimal application",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "ADRs are 'old methods with a new twist' — though some are older than litigation itself, recent refinement and polishing have made them more effective and acceptable for settling controversies; their promotion forms an integral part of the SC's judicial-reform program.",
+      "rhetorical_move": "title-phrase framing (old method / new twist) as institutional-narrative device",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Annabelle T. Abaya",
+      "Eduardo D. de los Angeles"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Philippine Judicial Academy (Philja)",
+      "Asia Foundation",
+      "University of Massachusetts",
+      "Harvard University",
+      "Linden Suites Ortigas Business District",
+      "Senate of the Philippines"
+    ],
+    "cases": [
+      "Purefoods Corporation v. Court of Appeals (June 19, 2000)"
+    ],
+    "laws_treaties": [
+      "Rule 18 of the Rules of Court (pretrial)",
+      "Interim Rules on Corporate Rehabilitation (Rule 4)",
+      "Electronic Commerce Act",
+      "Retail Trade Liberalization Law"
+    ],
+    "events": [
+      "Advocates' Forum for Media (March 16, 2001)",
+      "Settlement Week (March 26 - April 6, 2001)",
+      "Senate impeachment trial (Estrada)"
+    ]
+  },
+
+  "signature_phrases": [
+    "Might dictated right",
+    "right is better than might; the pen, more powerful than the sword; and reason, more reliable than aggression",
+    "old methods with a new twist",
+    "without loss of face to the claimants",
+    "the Asian and Filipino ways of solving problems",
+    "deeper wounds and engender vengeance",
+    "the e-age trend",
+    "I thank you"
+  ],
+
+  "register_markers": [
+    "doctrinal-formal speech register",
+    "Asian/Filipino cultural-adaptation framing",
+    "the e-age trend",
+    "Verily",
+    "Indeed",
+    "title-phrase repetition ('old method with a new twist')",
+    "appeal-to-media closer"
+  ],
+
+  "decision_framework_signals": [
+    "applies civilization-as-progress framing (might → right) for legal-system evolution",
+    "uses structured-disadvantages critique of litigation as ADR rationale",
+    "frames ADR-cultural-affinity (face-preservation, Asian/Filipino ways) as adoption-justification",
+    "applies continuing-relationships diagnostic to identify ADR-optimal case categories"
+  ],
+
+  "cross_references": [
+    "Chapters 1 and 2 of Justice Panganiban's earlier book, Transparency, Unanimity & Diversity (2000 ed., pp. 3-45)"
+  ],
+
+  "notable_anecdotes": [
+    "Purefoods v. CA: 1992 power-crisis generator dispute finally decided in 2000 — 'when the crisis was already over and the generators no longer needed by the buyer'",
+    "Senate impeachment trial making 'your Honor,' 'objection sustained,' and 'irrelevant and immaterial' part of ordinary public vocabulary"
+  ]
+}

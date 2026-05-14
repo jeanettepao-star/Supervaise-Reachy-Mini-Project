@@ -1,0 +1,116 @@
+{
+  "doc_id": "col_2019_1103",
+  "doc_type": "column",
+  "title": "Merging law and economics",
+  "date": "2019-11-03",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "liberty and prosperity under the rule of law",
+    "law and economics",
+    "constitutional interpretation"
+  ],
+
+  "sub_topics": [
+    "Tañada v. Angara",
+    "World Trade Organization membership",
+    "globalization, liberalization, deregulation, privatization",
+    "Filipino First doctrine",
+    "Global Forum on Liberty and Prosperity",
+    "Manila Declaration",
+    "Bill of Rights vs. social/economic rights as constitutional categories",
+    "self-executing vs. non-self-executing constitutional provisions",
+    "Foundation for Liberty and Prosperity (FLP)",
+    "FLP professorial chairs and scholarships",
+    "dissertation writing contests"
+  ],
+
+  "stances": [
+    {
+      "claim": "Humans need both political and economic freedoms together — justice and jobs, freedom and food, ethics and economics, liberty and prosperity — one is useless without the other.",
+      "rhetorical_move": "rhetorical pairing / chiasmic enumeration ('twin beacons') as core philosophical formula",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The best way to conquer poverty, create wealth, and share prosperity is to unleash the entrepreneurial genius of people by granting them freedom and tools to help themselves and society.",
+      "rhetorical_move": "policy desideratum stated as universal truth",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Tañada v. Angara was the proper jurisprudential turn away from the isolationist 'Filipino First' doctrine toward globalization, liberalization, deregulation, and privatization.",
+      "rhetorical_move": "self-citation of his own ponencia + personal anecdote of persuading colleagues from 3 to 15",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "After his retirement, the Supreme Court reverted to prioritizing political liberties over economic prosperity — a regression attributable to the Constitution's structural asymmetry, since Bill of Rights provisions are mandatory and self-executing while social and economic rights are listed as mere aspirations needing implementing laws.",
+      "rhetorical_move": "constitutional structural analysis + historical explanation (Constitution born from anti-colonial struggle)",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Romeo Bernardo",
+      "Calixto Chikiamco",
+      "Emmanuel de Dios",
+      "Raul Fabella",
+      "Cayetano Paderanga",
+      "Beverley McLachlin",
+      "Patrick Henry",
+      "Diosdado M. Peralta",
+      "Estela M. Perlas-Bernabe"
+    ],
+    "institutions": [
+      "Supreme Court",
+      "World Trade Organization",
+      "Foundation for Liberty and Prosperity",
+      "Metrobank Foundation",
+      "Tan Yan Kee Foundation",
+      "Ayala Corporation",
+      "Global Forum on Liberty and Prosperity"
+    ],
+    "cases": [
+      "Tañada v. Angara"
+    ],
+    "laws_treaties": [
+      "1987 Constitution Bill of Rights",
+      "WTO Agreement"
+    ],
+    "events": [
+      "Global Forum on Liberty and Prosperity (2006)",
+      "Manila Declaration"
+    ]
+  },
+
+  "signature_phrases": [
+    "twin beacons must always go together; one is useless without the other",
+    "unleash the entrepreneurial genius of people",
+    "liberty and prosperity under the rule of law",
+    "justice and jobs; freedom and food; ethics and economics; peace and development",
+    "the egalitarian goal should be achieved only via libertarian methods"
+  ],
+
+  "register_markers": [
+    "I think",
+    "I espoused a common theme",
+    "I had difficulty persuading my colleagues",
+    "Unfortunately",
+    "Notably"
+  ],
+
+  "decision_framework_signals": [
+    "applies 'liberty and prosperity together' lens to constitutional interpretation — argues Bill of Rights primacy must be balanced by judicially enforceable economic rights",
+    "frames WTO/globalization as legally correct outcome under his framework, against contemporary 'Filipino First' resistance",
+    "structural-constitutional reading: distinguishes self-executing from aspirational provisions to explain why economic rights get shelved"
+  ],
+
+  "cross_references": [
+    "In my own books, speeches and decisions, I espoused a common theme",
+    "Tañada v. Angara (May 2, 1997) — his own ponencia"
+  ],
+
+  "notable_anecdotes": [
+    "persuading 14 colleagues from initial 3-vote support to unanimous concurrence in Tañada v. Angara",
+    "Canadian CJ Beverley McLachlin proposing to rename the philosophy 'liberty and prosperity under the rule of law' at the Global Forum"
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "doc_id": "col_2013_0427",
+  "doc_type": "column",
+  "title": "SC decisions on the economy",
+  "date": "2013-04-27",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "constitutional economics",
+    "foreign investment restrictions",
+    "constitutional interpretation (originalist vs liberal)"
+  ],
+
+  "sub_topics": [
+    "Manila Prince Hotel v. GSIS (1997)",
+    "Article XII Section 10 — Filipino preference clause",
+    "La Bugal-B'laan v. Ramos (January 27 / December 1, 2004)",
+    "Mining Law of 1995",
+    "Financial and Technical Assistance Agreement (FTAA)",
+    "Gamboa v. Teves (June 28, 2011)",
+    "40% foreign ownership computation on voting shares",
+    "Initiatives for Dialogue v. PSALM (October 9, 2012)",
+    "water as appropriated natural resource",
+    "Ateneo Law School lecture by Azcuna",
+    "originalist vs liberal constitutional interpretation"
+  ],
+
+  "stances": [
+    {
+      "claim": "In Manila Prince Hotel v. GSIS, the majority subverted the essence of public bidding — the constitutional Filipino-preference clause applies only when 'the scores are tied,' not when 'the ballgame is over and the foreigners clearly posted the highest score.'",
+      "rhetorical_move": "self-citation of his dissent + sports metaphor",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "His December 1, 2004 La Bugal-B'laan resolution correctly upheld the Mining Law, regulations, and FTAA because the Charter expressly authorizes the President to enter into FTAAs with foreign corporations and impliedly allows foreign partners management covenants, provided ultimate full control remains with the President.",
+      "rhetorical_move": "self-citation of his majority resolution authorship + textual reading of Article XII",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Festering policy volatility has stunted Philippine mining growth — mineral exploration requires long gestation and huge venture capital, so unless government assures credible and stable long-term policies that are not changed midstream, investors will remain lukewarm.",
+      "rhetorical_move": "policy-economic analysis of regulatory uncertainty",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The originalist vs liberal interpretive debate is not confined to local jurists — US Justice Scalia's frank refusal to speak at the Global Forum because he interpreted only the US Constitution (without international law) illustrates the originalist commitment, while Justice Kennedy welcomed the international engagement.",
+      "rhetorical_move": "personal anecdote with named Justices used as illustrative contrast",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Adolfo S. Azcuna",
+      "Josue N. Bellosillo",
+      "Andres R. Narvasa",
+      "Jose A. R. Melo",
+      "Reynato S. Puno",
+      "Fidel V. Ramos",
+      "Conchita Carpio Morales",
+      "Antonio T. Carpio",
+      "Martin S. Villarama Jr.",
+      "Antonin Scalia",
+      "Anthony Kennedy"
+    ],
+    "institutions": [
+      "Philippine Judicial Academy",
+      "1986 Constitutional Commission",
+      "Ateneo Law School",
+      "Government Service Insurance System",
+      "Supreme Court of the Philippines",
+      "US Supreme Court",
+      "Global Forum on Liberty and Prosperity"
+    ],
+    "cases": [
+      "Manila Prince Hotel v. GSIS (February 3, 1997)",
+      "La Bugal-B'laan v. Ramos (January 27 and December 1, 2004)",
+      "Gamboa v. Teves (June 28, 2011)",
+      "Initiatives for Dialogue v. PSALM (October 9, 2012)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution Article XII",
+      "Mining Act of 1995"
+    ],
+    "events": [
+      "Azcuna's Ateneo Law School lecture (2013)",
+      "Global Forum on Liberty and Prosperity (October 18-20, 2006)"
+    ]
+  },
+
+  "signature_phrases": [
+    "when the scores are tied. But not when the ballgame is over and the foreigners clearly posted the highest score",
+    "festering policy volatility",
+    "unignorable realities of globalization and deregulation",
+    "I wrote this latter ruling",
+    "Mr. Chief Justice, you do not really want me there"
+  ],
+
+  "register_markers": [
+    "Patrimony and mining. (section header)",
+    "Utilities and water. (section header)",
+    "Constitutional interpretation. (section header)",
+    "I dissented",
+    "I wrote this latter ruling",
+    "It reminded me of my column last April 14",
+    "first-person Scalia/Kennedy anecdote",
+    "verbatim quotation of conversation"
+  ],
+
+  "decision_framework_signals": [
+    "applies originalist vs liberal-interpretation framework as the meta-question for constitutional economics cases",
+    "frames investor confidence as dependent on policy stability — translates legal volatility into economic outcomes",
+    "uses bidding/sports-metaphor framing to argue Filipino preference is a tiebreaker, not a trump card",
+    "uses comparative-justice anecdotes (Scalia originalism vs Kennedy international engagement) to illustrate interpretive philosophies"
+  ],
+
+  "cross_references": [
+    "my column last April 14 which discussed the two main ways of constitutional interpretation"
+  ],
+
+  "notable_anecdotes": [
+    "Inviting Scalia to speak at the 2006 Global Forum on Liberty and Prosperity — Scalia's frank refusal because his oath was to the US Constitution alone, with verbatim quote",
+    "Kennedy agreeing to speak via video teleconferencing despite committing to another country on those dates"
+  ]
+}

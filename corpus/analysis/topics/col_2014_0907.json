@@ -1,0 +1,111 @@
+{
+  "doc_id": "col_2014_0907",
+  "doc_type": "column",
+  "title": "Bar exams and legal education (1)",
+  "date": "2014-09-07",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "bar examination methodology",
+    "legal education reform",
+    "personal bar exam experience"
+  ],
+
+  "sub_topics": [
+    "Professional Regulation Commission jurisdiction limits",
+    "bar mystique and traditional fanfare",
+    "1960 bar exam personal experience",
+    "FEU Hospital to UE flood-wading anecdote",
+    "Salonga pep talk to continue",
+    "essay vs MCQ methodology debate",
+    "Bar Matter 1161 (June 8, 2004 reforms)",
+    "Mendoza/Herrera/Vitug reform recommendations",
+    "January 18, 2011 reform resolution (60/40 MCQ/essay)",
+    "2012/2013 reversal to 20/80 essay/MCQ",
+    "Comelec TV-radio ad limits voided"
+  ],
+
+  "stances": [
+    {
+      "claim": "Placing in the bar exam top 10 is not always a reliable measure of achievement — the questions in his time called mostly for essay answers and memory work, and examiner evaluation was subjective; his 6th-placing classmate may have given more impressive citations of authorities, yet CJ scored higher on essayed opinions.",
+      "rhetorical_move": "personal-experience skepticism toward bar-exam ranking as merit proxy",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The subjective methodology and scope of the bar exam have not improved much since 1960 — the template remained unchanged for at least 50 years, though Supreme Court reform attempts (2004, 2011, 2013) have shifted MCQ/essay ratios without resolving the core question.",
+      "rhetorical_move": "diagnostic critique of institutional inertia + citation of Pangalangan's lament",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Comelec's draconian reduction of campaign TV-radio ads (120 minutes TV, 180 minutes radio aggregate per national candidate) 'suppressed the people's right to know their candidates, and the aspirants' rights to inform the electorate' — the SC was right to void it.",
+      "rhetorical_move": "self-citation of his prior column + dual-rights framing (voter + candidate)",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Jovito R. Salonga",
+      "Raul C. Pangalangan",
+      "Vicente V. Mendoza",
+      "Ameurfina M. Herrera",
+      "Jose C. Vitug",
+      "Diosdado M. Peralta"
+    ],
+    "institutions": [
+      "Professional Regulation Commission",
+      "Supreme Court of the Philippines",
+      "Far Eastern University",
+      "FEU Hospital",
+      "University of the East",
+      "University of Cebu",
+      "Commission on Elections",
+      "Philippine Daily Inquirer"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Bar Matter 1161 (June 8, 2004 resolution)",
+      "Bar reform resolution (January 18, 2011)"
+    ],
+    "events": [
+      "1960 bar examinations",
+      "Salonga's January 22, 2008 speech at FEU recalling CJ's bar exam"
+    ]
+  },
+
+  "signature_phrases": [
+    "the bar mystique",
+    "the exalted title of attorney-at-law",
+    "the crucible of lawyers",
+    "to be fair, however",
+    "draconian reduction",
+    "the people's right to know their candidates"
+  ],
+
+  "register_markers": [
+    "Bar mystique. (section header)",
+    "My personal experience. (section header)",
+    "Exam scope and methodology. (section header)",
+    "self-citation by exact date",
+    "* * * section break",
+    "compound rhetorical question / answer device"
+  ],
+
+  "decision_framework_signals": [
+    "applies institutional-inertia diagnostic lens to bar-exam reform debate",
+    "uses personal experience as evidence that ranking ≠ merit",
+    "frames Comelec ad limits as dual-rights deprivation (electorate's right to know + candidates' right to inform)"
+  ],
+
+  "cross_references": [
+    "See my April 22, 2007, column for details",
+    "As I argued in my Feb. 24, 2013, column"
+  ],
+
+  "notable_anecdotes": [
+    "Wading alone in rain-induced, knee-deep flood on R. Papa Street from the FEU Hospital (where he was confined for intestinal flu) to the University of the East exam venue on first day of the 1960 bar exam",
+    "Feeling he may have failed the first day and considering quitting; Salonga 'pepping him up'",
+    "Salonga's 2008 FEU speech opining that 'CJ Panganiban could have landed first place (instead of sixth) had he not been sick and hospitalized during the first week of the 1960 bar exam'",
+    "Comparing answers with a classmate after each exam day, expecting the classmate to fare better, only to score higher because of subjective examiner evaluation"
+  ]
+}

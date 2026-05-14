@@ -1,0 +1,137 @@
+{
+  "doc_id": "col_2024_0930",
+  "doc_type": "column",
+  "title": "Liberalism vs conservatism",
+  "date": "2024-09-30",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "liberalism vs conservatism in three institutions",
+    "Philippine SC's liberal turn",
+    "Catholic Church liberalization",
+    "SCOTUS conservative shift"
+  ],
+
+  "sub_topics": [
+    "Republic v. Ng (February 27, 2024) — foreign divorce recognition",
+    "Pulido v. People (July 27, 2021) — bigamy without prior nullity declaration",
+    "Article 26(2) of Family Code — purposive interpretation",
+    "13 'insider' justices vs 2 'outsider' justices in SC",
+    "Vatican II reforms (1962-1965)",
+    "Second Plenary Council of the Philippines (PCP 2) Acts and Decrees",
+    "Pope John Paul II reforms",
+    "Pope Francis Singapore September 13, 2024 remarks ('all religions are paths to reach God')",
+    "Trump's three SCOTUS appointees (Gorsuch, Kavanaugh, Barrett)",
+    "Roe v. Wade (1973) → Dobbs v. Jackson (2022) reversal",
+    "2024 US presidential election Harris vs Trump"
+  ],
+
+  "stances": [
+    {
+      "claim": "The Philippine Supreme Court — traditionally a bulwark of conservatism — is on a 'crucial but rocky road to liberalism,' surprising given that 13 of its members are 'insiders' from the judicial ranks expected to be conservative.",
+      "rhetorical_move": "structural-institutional surprise + insider/outsider classification",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Republic v. Ng's liberal interpretation of Article 26(2) is correct — statutes 'cannot always be interpreted literally' and must be read 'according to its spirit or intent'; courts should not 'accept an interpretation that would defeat the intent of the law and its legislators.'",
+      "rhetorical_move": "purposive-interpretation endorsement + verbatim doctrinal quotation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Pope Francis's Singapore remarks ('all religions are paths to reach God… we are all children of God') will 'surely rock the rafters of the Catholic Church' — traditionalists and conservatives who already opposed Vatican II and John Paul II will intensify their opposition.",
+      "rhetorical_move": "prediction of institutional reaction + ecumenical-framing endorsement",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "SCOTUS has forked to conservatism — Trump's three appointees flipped the 5-4 balance to 6-3, leading to the Dobbs reversal of Roe; the 2024 US election has become 'an acrimonious combat between liberals and conservatives.'",
+      "rhetorical_move": "structural-judicial-shift analysis + electoral consequence framing",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "His fervent hope is that liberalism would not transform into licentiousness (which 'would subvert the rule of law') and conservatism would not convert to authoritarianism like Hitler's Nazism (which 'would violate individual liberty') — Trump's dictator rants are terrifying. 'Heaven forbid!'",
+      "rhetorical_move": "balanced hedge against both extremes + sharp characterization of Trump",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Japar B. Dimaampao",
+      "Ramon Paul I. Hernando",
+      "Pope John Paul II",
+      "Pope Francis",
+      "Donald Trump",
+      "Neil Gorsuch",
+      "Brett Kavanaugh",
+      "Amy Coney Barrett",
+      "Kamala Harris",
+      "Adolf Hitler"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Catholic Church",
+      "Supreme Court of the United States",
+      "Vatican",
+      "Second Plenary Council of the Philippines",
+      "University of the Philippines College of Law",
+      "Department of Justice (Philippines)"
+    ],
+    "cases": [
+      "Republic v. Ng (February 27, 2024)",
+      "Pulido v. People (July 27, 2021)",
+      "Roe v. Wade (January 22, 1973)",
+      "Dobbs v. Jackson (June 24, 2022)"
+    ],
+    "laws_treaties": [
+      "Family Code Article 26(2)",
+      "US Constitution",
+      "Vatican II documents",
+      "PCP 2 Acts and Decrees"
+    ],
+    "events": [
+      "Vatican II (1962-1965)",
+      "Pope Francis Singapore visit (September 13, 2024)",
+      "Trump's three SCOTUS appointments",
+      "2024 US presidential election (November 5)"
+    ]
+  },
+
+  "signature_phrases": [
+    "the bulwarks of conservatism and tradition",
+    "a crucial but rocky road to liberalism",
+    "rock the rafters of the Catholic Church",
+    "an acrimonious combat between liberals and conservatives",
+    "liberalism would not transform into licentiousness",
+    "conservatism would not convert to authoritarianism",
+    "Heaven forbid!",
+    "Frankly",
+    "insiders / outsiders",
+    "All religions are paths to reach God"
+  ],
+
+  "register_markers": [
+    "AN EXAMPLE OF THE COURT'S TREK TO LIBERALISM",
+    "THE CATHOLIC CHURCH HAS ALSO BEEN LIBERALIZING",
+    "IN CONTRAST, THE LIBERALISM OF THE SCOTUS",
+    "ALL CAPS section openings",
+    "Frankly",
+    "Heaven forbid!",
+    "Catholic-Philippine register",
+    "I am surprised",
+    "I am terrified"
+  ],
+
+  "decision_framework_signals": [
+    "applies liberalism-vs-conservatism axis as cross-institutional comparative framework (PH SC / Catholic Church / SCOTUS)",
+    "uses purposive (vs literal) interpretation endorsement for Family Code Article 26(2)",
+    "uses insider/outsider classification to make structural-judicial predictions",
+    "frames healthy middle ground (liberalism without licentiousness, conservatism without authoritarianism) as the rule-of-law-preserving balance"
+  ],
+
+  "cross_references": [],
+
+  "notable_anecdotes": [
+    "Recalling that 'when I was a student, priests faced the altar during masses, mumbling unintelligible (to the faithful) Latin that frankly turned me off' — pre-Vatican II Catholic formation",
+    "Vatican II reforms making the Church more humane and ecumenical, implemented in the Philippines by PCP 2"
+  ]
+}

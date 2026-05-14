@@ -1,0 +1,115 @@
+{
+  "doc_id": "col_2021_1031",
+  "doc_type": "column",
+  "title": "Negative versus positive",
+  "date": "2021-10-31",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "FLP 10th anniversary",
+    "negative vs positive rights",
+    "philosophy vs slogan distinction"
+  ],
+
+  "sub_topics": [
+    "Marxist slogan ('From each according to his ability...')",
+    "Bill of Rights negative phrasing",
+    "Ten Commandments negative phrasing",
+    "1987 Constitution Article XII Section 1 (positive economic goals)",
+    "Two great commandments of Christ (love God + love neighbor)",
+    "Election mantras (Alis diyan, Tama na Sobra na Palitan na)",
+    "FLP founding October 13, 2011",
+    "FLP P164M donations over 10 years",
+    "professorial chairs / legal scholarships / dissertation contests / educational assistance",
+    "Interactive Museum of Liberty and Prosperity",
+    "FLP second-decade focus on MBA scholarships and extreme poverty"
+  ],
+
+  "stances": [
+    {
+      "claim": "Communism was appealing in theory but appalling in practice — to a dirt-poor student the Marxist slogan seemed to fulfill his longings, but the masses under communist regimes were maltreated and impoverished.",
+      "rhetorical_move": "personal-experience refutation of ideological appeal",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Negatives are not enough; positives are indispensable — the Bill of Rights, the Ten Commandments, and election mantras are mostly written in negative language; positive constitutional provisions and Christ's two great commandments offer the complementary affirmative vision.",
+      "rhetorical_move": "negative-positive structural critique across legal, religious, and political texts",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Slogans and tweets rarely transform into fulfillment because they are not backed up by sustainable philosophies, implementable programs, and realistic timelines.",
+      "rhetorical_move": "philosophical-operational triad as test of substance",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "His Supreme Court tenure left him with a yearning that he had not done enough — most of his decisions were negative in language (commanding parties to stop, dismissing petitions); FLP was founded to fulfill the positive side.",
+      "rhetorical_move": "judicial self-assessment + transition narrative to FLP founding",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "FLP transformed liberty-safeguarding from dream to sustainable reality because its professors, scholars, dissertation winners, and educational-assistance beneficiaries will continue and expand the philosophy 'beyond my lifetime.'",
+      "rhetorical_move": "generational-continuation framing of institutional mission",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Karl Marx (Marxist)",
+      "Diosdado Macapagal",
+      "Ferdinand Marcos",
+      "Cory Aquino",
+      "Jesus Christ"
+    ],
+    "institutions": [
+      "Foundation for Liberty and Prosperity",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution Bill of Rights",
+      "1987 Constitution Article XII",
+      "Ten Commandments",
+      "New Testament — Two Great Commandments"
+    ],
+    "events": [
+      "FLP 10th anniversary (October 2021)",
+      "FLP founding (October 13, 2011)",
+      "1965 Marcos campaign against Macapagal",
+      "1986 Cory campaign against Marcos"
+    ]
+  },
+
+  "signature_phrases": [
+    "Communism was appealing in theory but appalling in practice",
+    "theory versus practice, dreams versus realities, negative versus positive, slogans versus philosophies",
+    "sustainable philosophies, implementable programs, and realistic timelines",
+    "a yearning throbbed deep in my heart",
+    "beyond my lifetime",
+    "Modesty aside"
+  ],
+
+  "register_markers": [
+    "When I was a pre-law student",
+    "dirt-poor student like me",
+    "Modesty aside",
+    "first-person poverty-credential anecdote",
+    "Tagalog code-switching (Alis diyan / Tama na Sobra na Palitan na)",
+    "biblical citation (two great commandments)",
+    "rhetorical question and self-answer pattern"
+  ],
+
+  "decision_framework_signals": [
+    "applies negative-vs-positive frame to legal, religious, and political texts as unified diagnostic lens",
+    "uses philosophy-program-timeline triad as test of whether stated ideals are operationalizable",
+    "frames generational continuation (scholars/professors who outlive the founder) as the operative success metric for philanthropic institutions"
+  ],
+
+  "cross_references": [],
+
+  "notable_anecdotes": [
+    "Pre-law political science professor repeatedly challenging him to refute the Marxist 'from each according to his ability' slogan, which the dirt-poor young Panganiban could not easily refute",
+    "Being invited after retirement by Philippine tycoons (most of whom he had not previously met) to join their boards, leading to discovery of their philanthropy and corporate-social-responsibility yearnings",
+    "FLP receiving over P164 million in donations from partners, friends, and his family across its first decade"
+  ]
+}

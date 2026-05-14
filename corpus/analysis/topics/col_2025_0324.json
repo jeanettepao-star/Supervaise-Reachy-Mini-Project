@@ -1,0 +1,114 @@
+{
+  "doc_id": "col_2025_0324",
+  "doc_type": "column",
+  "title": "Pivotal issue in Duterte's ICC case",
+  "date": "2025-03-24",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "Duterte ICC indictment and detention",
+    "two-year prescriptive period",
+    "ICC jurisdictional procedure"
+  ],
+
+  "sub_topics": [
+    "Duterte arrest and airlift to The Hague",
+    "alleged kidnapping defense",
+    "Philippine withdrawal effective March 17, 2019",
+    "Bensouda preliminary examination February 8, 2018",
+    "Bensouda PTC petition May 24, 2021",
+    "PTC grant September 15, 2021",
+    "subsidiarity vs prescription appeal scope",
+    "Appeals Chamber 3-2 majority refusing prescription issue",
+    "minority view on prescription reckoning date",
+    "Philippine vs European prosecutorial role differences",
+    "OCP independence vs ICC integration"
+  ],
+
+  "stances": [
+    {
+      "claim": "The pivotal legal issue in Duterte's case is the ICC's jurisdiction — specifically whether the two-year prescriptive period has been breached, because both the petition (May 24, 2021) and the PTC grant (September 15, 2021) came more than two years after the Philippine withdrawal took effect on March 17, 2019.",
+      "rhetorical_move": "issue-prioritization framing + careful date-by-date enumeration",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Appeals Chamber majority of three sidestepped the prescription issue because the Philippine appeal raised only the subsidiarity issue; the minority of two correctly insisted that the reckoning date should be the PTC grant, not the OCP's unilateral start of examination.",
+      "rhetorical_move": "majority-vs-minority alignment + procedural critique of Philippine appellate strategy",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Under Philippine law, the OCP is not an integral part of the ICC, so its unilateral examination cannot count as the start of the prescriptive period — otherwise, why does the OCP need PTC authority to investigate at all?",
+      "rhetorical_move": "reductio + structural-functional argument from procedural requirements",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "But in many European jurisdictions, prosecutors are deemed part of the judicial system — if the ICC uses the European model, Bensouda's examination complies with the two-year limit and the prescriptive issue cannot save Duterte.",
+      "rhetorical_move": "concession + comparative-law hedge acknowledging uncertainty in his own position",
+      "confidence": "hedged"
+    },
+    {
+      "claim": "If the ICC denies or defers Duterte's motion to dismiss, he may be detained for many years — given his advanced age and frail health, this raises the practical question of whether he can last that long.",
+      "rhetorical_move": "rhetorical question framing biological reality as litigation constraint",
+      "confidence": "hedged"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Rodrigo R. Duterte",
+      "Fatou Bensouda",
+      "Karim Khan"
+    ],
+    "institutions": [
+      "International Criminal Court",
+      "ICC Office of the Chief Prosecutor",
+      "ICC Pre-Trial Chamber",
+      "ICC Appeals Chamber"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Rome Statute",
+      "Rome Statute Article 17 (complementarity/subsidiarity)"
+    ],
+    "events": [
+      "Duterte arrest and airlift to The Netherlands (March 2025)",
+      "Bensouda preliminary examination start (February 8, 2018)",
+      "Philippine ICC withdrawal effective (March 17, 2019)",
+      "PTC authorization (September 15, 2021)"
+    ]
+  },
+
+  "signature_phrases": [
+    "Pivotal legal issue",
+    "ad nauseam",
+    "Au contraire",
+    "could he last that long?",
+    "to repeat",
+    "I respectfully agreed with the minority's position"
+  ],
+
+  "register_markers": [
+    "QUESTIONING THE VALIDITY",
+    "THE PTC DENIED THE PETITION",
+    "ON THE OTHER HAND, THE MINORITY",
+    "IF DUTERTE AND HIS LAWYERS",
+    "ALL CAPS section openings",
+    "Au contraire",
+    "I think",
+    "I respectfully agreed",
+    "Note that"
+  ],
+
+  "decision_framework_signals": [
+    "applies issue-prioritization heuristic ('what's the pivotal legal question?') to cut through noise",
+    "uses date-arithmetic enumeration as decisive analytical tool",
+    "frames Philippine appellate strategy error (raising subsidiarity only) as outcome-determinative",
+    "uses comparative-law hedge (Philippine vs European prosecutorial models) to qualify his own position"
+  ],
+
+  "cross_references": [
+    "In my Dec. 11, 2023 piece, I respectfully agreed with the minority's position"
+  ],
+
+  "notable_anecdotes": []
+}

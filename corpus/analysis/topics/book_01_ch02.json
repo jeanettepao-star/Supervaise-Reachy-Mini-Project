@@ -1,0 +1,318 @@
+{
+  "doc_id": "book_01_ch02",
+  "doc_type": "book-chapter",
+  "title": "Old Doctrines and New Paradigms",
+  "date": "2001-02-13",
+  "voice_register": "doctrinal-formal",
+
+  "primary_topics": [
+    "new paradigms requiring well-rounded judicial education",
+    "globalization / deregulation / privatization / liberalization",
+    "constitutional law in the e-age",
+    "political law in the cyber age",
+    "medical malpractice doctrine"
+  ],
+
+  "sub_topics": [
+    "Judge Learned Hand on the liberally educated jurist (verbatim quotation)",
+    "Tañada v. Angara (May 2, 1997) — Panganiban ponencia on WTO",
+    "Filipino First clause as non-self-executing",
+    "Manila Prince Hotel v. GSIS (February 3, 1997) — self-executing Art XII Sec 10",
+    "Mirpuri v. CA (1999) — Paris Convention as self-executing treaty",
+    "Tatad v. Secretary of Energy — RA 8180 Oil Deregulation Law voided 9-2",
+    "Big Three oligopoly (Petron, Shell, Caltex)",
+    "tariff differential / minimum inventory / predatory pricing as anti-competitive",
+    "Pimentel v. Aguirre — LGU fiscal autonomy / IRA",
+    "Meralco v. Province of Laguna — provincial taxing power",
+    "ABS-CBN v. Comelec — exit polls as protected free expression",
+    "Vasquez v. CA — truth as complete libel defense; actual malice doctrine for public officials",
+    "Death Penalty Law (RA 7659) constitutionality",
+    "People v. Echegaray — Panganiban dissent on death penalty",
+    "Echegaray v. Secretary of Justice — lethal injection",
+    "Five international anti-death-penalty treaties (Universal Declaration, ICESCR, ICCPR, two Optional Protocols)",
+    "Leo Echegaray February 5, 1999 execution as legally erroneous",
+    "Time magazine US DNA-exoneration data",
+    "Secretary of Justice v. Lantion (Mark Jimenez extradition)",
+    "Ople v. Torres (1998) — national ID card / right to privacy",
+    "Frivaldo v. Comelec — citizenship and elections",
+    "Mercado v. Comelec — dual citizenship vs dual allegiance",
+    "Bush v. Gore + Loong v. Comelec — automated elections",
+    "Santiago v. Comelec / PIRMA v. Comelec — RA 6735 initiative",
+    "Veterans Federation Party v. Comelec — four party-list parameters (Panganiban ponencia)",
+    "Niemeyer formula rejection (Washington apples / Guimaras mangoes metaphor)",
+    "Oposa v. Factoran — intergenerational right to environment",
+    "Tano v. Socrates — environmental ordinances",
+    "EDSA II oath-taking and Court Resolution AM 01-1-05-SC",
+    "Batiquin v. CA and Ramos v. CA — medical malpractice via res ipsa loquitur",
+    "Garcia Rueda v. Pascasio — four elements of medical negligence (duty, breach, injury, proximate causation)"
+  ],
+
+  "stances": [
+    {
+      "claim": "In law and the magistracy, a combination of general education and specialized knowledge is essential — 'in no other profession is this more critical'; lawyers and magistrates must have well-rounded knowledge of history, literature, philosophy, humanities, social sciences, ethics, mathematics, IT, economics, medicine, biogenics, physics and natural sciences.",
+      "rhetorical_move": "Hand-citation framing + enumerative-disciplines requirement",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Constitutions 'should be interpreted to cover even future and unknown circumstances' — they must withstand 'the assaults of bigots and infidels but at the same time bend with the refreshing winds of change necessitated by unfolding events.' This is the doctrinal core of Tañada v. Angara.",
+      "rhetorical_move": "ponencia-self-citation + dual-purpose constitutional-interpretation framing (stability + adaptability)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "While the Constitution has a bias in favor of Filipino goods, services, labor, and enterprises, it recognizes the need for business exchange on bases of equality and reciprocity — Filipino-First and economic-nationalism provisions are not self-executing and must be read together with other constitutional pronouncements for balanced development.",
+      "rhetorical_move": "doctrinal-reconciliation framing (textual bias + structural balance)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Combinations in restraint of trade and unfair competition are absolutely proscribed both against State and private sector — 'monopolistic or oligopolistic markets deserve our careful scrutiny and laws which barricade the entry points of new players should be viewed with suspicion.' (Tatad v. Secretary of Energy)",
+      "rhetorical_move": "anti-monopoly doctrinal endorsement + Puno-ponencia quotation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Death Penalty Law (RA 7659) is unconstitutional — the 1987 Constitution 'abolished the death penalty from our statute books… did not merely suspend or prohibit its imposition' and granted 'a new right: the constitutional right against the death penalty, which is really a species of the right to life'; Congress failed to meet the constitutional requirements of 'heinousness' and 'compelling reasons.'",
+      "rhetorical_move": "dissent-recapitulation + structured-doctrinal critique (six points enumerated in fn 44)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "RA 7659 collides with five international treaties (Universal Declaration, ICESCR, ICCPR, two Optional Protocols) — the International Bill of Human Rights — plus UN Commission on Human Rights Resolution 1997/12 calling on members to abolish the death penalty; the death penalty 'has no place in our statute books' since 'errors in its imposition become nightmarishly irreversible.'",
+      "rhetorical_move": "international-law layered argument + DNA-exoneration empirical evidence",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Echegaray execution (February 5, 1999) was legally erroneous — RA 7659's qualifying circumstance of 'common law spouse of the parent of the victim' was not alleged in the Information; the constitutional right 'to be informed of the nature and cause of the accusation' requires that special qualifying circumstances increasing the penalty to death must be both *alleged* AND *proven*.",
+      "rhetorical_move": "doctrinal-procedural critique + 'in the Great Beyond, even a post facto correction will not resurrect him'",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Truth is a complete defense in libel suits where the offended party is a public official or figure — conviction requires proof that defamatory words were (1) false AND (2) made with knowledge of falsity or reckless disregard (Vasquez v. CA, Mendoza). This 'avant garde' ruling reverses prior jurisprudence.",
+      "rhetorical_move": "actual-malice doctrinal endorsement + 'avant garde Court' framing",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Exit polls are a species of protected free expression — Comelec's total prohibition during 1998 elections was grave abuse of discretion; 'narrowly tailored counter-measures may be prescribed by the Comelec so as to minimize or suppress incidental problems… without transgressing the fundamental rights of the people.' (ABS-CBN v. Comelec, Panganiban ponencia)",
+      "rhetorical_move": "ponencia-self-citation + free-expression evolution narrative (speech → press → strike/picket → broadcast → internet/teleconferencing)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Filipino citizenship in election cases should be read so that 'the popular will, as much as practicable, is upheld' — Frivaldo's repatriation was valid and citizenship is required only upon assumption of office, not at filing of certificate of candidacy or on election day.",
+      "rhetorical_move": "voter-will primacy framing in election-citizenship + 'reluctant hinges' (Batacan citation) but now relaxed",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Philippine party-list system 'is a unique paradigm which demands an equally unique formula' — the Niemeyer formula used in the German Bundestag does not transplant 'in toto here, because of essential variances'; 'just as one cannot grow Washington apples in the Philippines or Guimaras mangoes in the Arctic.'",
+      "rhetorical_move": "structured-empirical comparative-systems framing + horticultural metaphor",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "In the e-age, there is 'an unmistakable shift of power from the state to the private sector' — globalization, deregulation, liberalization, privatization, plus the clamor for political/fiscal autonomy of LGUs, mean 'in the 21st century, the role of the state will be reduced.'",
+      "rhetorical_move": "global-paradigm-shift framing as descriptive prediction",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "In two areas — the death penalty and due process for workers — the SC has yet to catch up with the cyber age; by ruling that due process applies only against government and not private power, the Court has turned a blind eye to the fact that 'corporate behemoths and private individuals may now be sources of abuses and threats to constitutional rights.'",
+      "rhetorical_move": "structured-self-critique + identification of two doctrinal lag-areas",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Learned Hand",
+      "Wigberto E. Tañada",
+      "Reynato S. Puno",
+      "Vicente V. Mendoza",
+      "Leo Echegaray",
+      "Romeo Gallo",
+      "Mark Jimenez",
+      "Jose A. R. Melo",
+      "Hilario G. Davide Jr.",
+      "Frivaldo",
+      "George W. Bush",
+      "Al Gore",
+      "Abdusakur Tan",
+      "Jesus Delfin",
+      "Alberto Pedrosa",
+      "Carmen Pedrosa",
+      "Joseph Estrada",
+      "Gloria Macapagal-Arroyo",
+      "Delfin Fl. Batacan",
+      "Pacifico Agabin",
+      "John Stuart Mill",
+      "Ma. Salud Kho",
+      "Ameurfina A. Melencio Herrera",
+      "Romulo A. Virola"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "World Trade Organization",
+      "Senate of the Philippines",
+      "US Supreme Court",
+      "Commission on Elections",
+      "Comelec",
+      "Petron",
+      "Shell",
+      "Caltex",
+      "European Community",
+      "NAFTA",
+      "ASEAN Free Trade Area",
+      "Bundestag",
+      "PIRMA (People's Initiative for Reform, Modernization and Action)",
+      "Manila International Airport Authority",
+      "ABS-CBN",
+      "EDSA Shrine",
+      "Public Attorney's Office"
+    ],
+    "cases": [
+      "Tañada v. Angara (May 2, 1997)",
+      "Manila Prince Hotel v. GSIS (February 3, 1997)",
+      "Federation of Free Markets v. Bautista (July 13, 1999)",
+      "Mirpuri v. Court of Appeals (November 19, 1999)",
+      "Tatad v. Secretary of Energy (RA 8180)",
+      "Pimentel v. Aguirre (July 14, 2000)",
+      "Meralco v. Province of Laguna (May 5, 1999)",
+      "ABS-CBN v. Comelec (January 28, 2000)",
+      "Vasquez v. Court of Appeals",
+      "People v. Echegaray (June 26, 1996; February 7, 1997)",
+      "Echegaray v. Secretary of Justice (October 12, 1998)",
+      "People v. De los Santos",
+      "People v. Gallo (September 29, 1999)",
+      "Secretary of Justice v. Lantion (Jimenez extradition, January 18 / October 17, 2000)",
+      "Ople v. Torres (July 23, 1998)",
+      "Board of Commissioners v. Dela Rosa (May 31, 1991)",
+      "Frivaldo v. Comelec (June 28, 1996)",
+      "Republic v. Dela Rosa (June 6, 1994)",
+      "Mercado v. Comelec (May 26, 1999)",
+      "Loong v. Comelec (April 14, 1999)",
+      "Bush v. Gore (December 12, 2000)",
+      "Santiago v. Comelec",
+      "PIRMA v. Comelec",
+      "Garcia v. Comelec",
+      "Subic Bay Metropolitan Authority v. Comelec",
+      "Veterans Federation Party v. Comelec (October 6, 2000)",
+      "Oposa v. Factoran (July 30, 1993)",
+      "Tano v. Socrates (August 21, 1997)",
+      "Mustang Lumber v. CA",
+      "Estrada v. Desierto",
+      "Batiquin v. CA (July 5, 1996)",
+      "Ramos v. CA (December 29, 1999)",
+      "Garcia Rueda v. Pascasio (September 5, 1997)",
+      "Cruz v. CA (November 18, 1997)",
+      "Coleman v. Miller (US)",
+      "Macias v. Malig (January 29, 1988)"
+    ],
+    "laws_treaties": [
+      "WTO Agreement (1994)",
+      "TRIPs Agreement",
+      "Paris Convention for the Protection of Industrial Property",
+      "Intellectual Property Code (RA 8293)",
+      "Agricultural Tariffication Act",
+      "Magna Carta for Farmers",
+      "Oil Deregulation Law (RA 8180)",
+      "Death Penalty Law (RA 7659)",
+      "1948 Universal Declaration of Human Rights",
+      "1966 International Covenant on Economic, Social and Cultural Rights",
+      "1966 International Covenant on Civil and Political Rights",
+      "Two Optional Protocols to the ICCPR",
+      "UN Commission on Human Rights Resolution 1997/12 (April 3, 1997)",
+      "RP-US Extradition Treaty",
+      "Philippine Extradition Law",
+      "Administrative Order No. 308 (National Computerized ID System)",
+      "PD 725 (Repatriation)",
+      "RA 8436 (automated elections)",
+      "RA 6735 (Initiative and Referendum Act)",
+      "RA 7941 (Party-List Act)",
+      "Omnibus Election Code",
+      "PD 705",
+      "1987 Constitution Article III Section 19 (death penalty)",
+      "1987 Constitution Article II Section 16 (balanced ecology)",
+      "1987 Constitution Article VI Section 32 (initiative)",
+      "1987 Constitution Article X Section 3 (local government)",
+      "1987 Constitution Article XII Section 10",
+      "AM 01-1-05-SC (oath-taking Resolution, January 22, 2001)"
+    ],
+    "events": [
+      "Philippine Senate concurrence in WTO (December 14, 1994)",
+      "Tañada v. Angara filing (December 29, 1994)",
+      "Davide assumption of office (November 30, 1998)",
+      "Leo Echegaray execution (February 5, 1999)",
+      "1998 Philippine elections (automated in ARMM)",
+      "2000 US presidential election (Bush v. Gore)",
+      "EDSA II (January 20, 2001 oath-taking at EDSA Shrine, 12:29 pm)",
+      "Court Resolution confirming oath-taking (January 22, 2001)",
+      "Estrada v. Desierto Petition filing (February 5, 2001)",
+      "Oral argument in Estrada v. Desierto (February 15, 2001)"
+    ]
+  },
+
+  "signature_phrases": [
+    "the truly educated person",
+    "as civilization goes deeper into the e-age",
+    "walking encyclopedias of the Constitution, the codes and judicial doctrines",
+    "to barricade local industries",
+    "Constitutions are designed to meet not only the vagaries of contemporary events",
+    "can withstand the assaults of bigots and infidels but at the same time bend with the refreshing winds of change",
+    "Combinations in restraint of trade and unfair competition are absolutely proscribed",
+    "the gutsy words",
+    "the right to life",
+    "in the Great Beyond",
+    "the death penalty has no place in our statute books",
+    "errors in its imposition become nightmarishly irreversible",
+    "human reversals do not affect the graveyard",
+    "the avant garde Court",
+    "the doors to Philippine citizenship must open on 'reluctant hinges'",
+    "a unique paradigm which demands an equally unique formula",
+    "just as one cannot grow Washington apples in the Philippines or Guimaras mangoes in the Arctic",
+    "corporate behemoths and private individuals may now be sources of abuses",
+    "a beacon of light and a rock of stability in the maelstrom",
+    "a paean to our Constitution"
+  ],
+
+  "register_markers": [
+    "doctrinal-formal lecture register",
+    "section headers (Liberal Education and Legal Expertise; The New Economy; Tañada v. Angara on Globalization; etc.)",
+    "extensive footnoted citation",
+    "verbatim case quotation framed with italics",
+    "Latin (ponencia, ponente, res ipsa loquitur, ipso facto, jus sanguinis, jus soli, sub judice, sui generis)",
+    "structured first/second/third enumeration",
+    "ponencia-self-citation pattern",
+    "I respectfully submit",
+    "May I add",
+    "Suffice it to say",
+    "Verily",
+    "Indeed",
+    "Epilogue (closing section header)",
+    "I thank you (formal close)"
+  ],
+
+  "decision_framework_signals": [
+    "applies liberal-education-plus-specialization as judicial-formation framework (Hand citation)",
+    "uses 'old doctrines meeting new paradigms' as the chapter's organizing analytic device",
+    "applies grave-abuse-of-discretion doctrine to constitutional review (Tañada v. Angara, Tatad)",
+    "frames Constitution as both stable (against bigots/infidels) and adaptive (refreshing winds of change)",
+    "uses non-self-executing-provisions doctrine to harmonize Filipino-First with WTO membership",
+    "applies anti-monopoly framework as economic-constitutional principle",
+    "uses 'must be alleged AND proven' doctrine for special qualifying circumstances in capital cases",
+    "applies actual-malice doctrine to libel cases involving public figures",
+    "frames death penalty as 'a species of the right to life' to be strictly construed against the State",
+    "applies international-treaty layered argument (Universal Declaration + ICESCR + ICCPR + Protocols) on the death penalty",
+    "uses res ipsa loquitur as evidentiary-burden-shifting in medical malpractice",
+    "frames party-list system as needing 'unique formula' rejecting wholesale-import of foreign formulas",
+    "applies voter-will primacy in election-citizenship cases (Frivaldo)",
+    "uses comparative-jurisdictions framing (US, EU, ASEAN) for global-paradigm analysis"
+  ],
+
+  "cross_references": [
+    "Panganiban, Transparency, Unanimity & Diversity, 2000 ed.",
+    "Panganiban, Leadership by Example, 1999 ed., pp. 193-249",
+    "Chapter 13 of this book (Estrada v. Desierto)",
+    "Henry J. Abraham, Justices and Presidents (1992 ed.)"
+  ],
+
+  "notable_anecdotes": [
+    "Justice Melencio Herrera inviting him to lecture at the Centenary Lecture Series — he addressed a 'jampacked audience in the Court's Session Hall on February 13, 2001'",
+    "Reading the entire 36-volume Uruguay Round of Multilateral Trade Negotiations plus books and treatises on globalization to write the Tañada v. Angara ponencia",
+    "Recalling 'former Court of Appeals Justice Delfin Fl. Batacan, my political law professor in law school more than forty years ago' for the 'reluctant hinges' citizenship metaphor",
+    "Davide and Panganiban inhibiting from Estrada v. Desierto (referenced as 'still sub judice' at time of lecture)",
+    "GMA's January 20, 2001 EDSA Shrine oath-taking by Davide at 12:29 pm, confirmed unanimously by the Court two days later"
+  ]
+}

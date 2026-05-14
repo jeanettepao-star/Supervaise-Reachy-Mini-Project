@@ -1,0 +1,100 @@
+{
+  "doc_id": "col_2011_0703",
+  "doc_type": "column",
+  "title": "Due process and judicial compensation",
+  "date": "2011-07-03",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "due process",
+    "judicial compensation",
+    "foreign investment restrictions"
+  ],
+
+  "sub_topics": [
+    "Gamboa v. Teves",
+    "40% foreign equity limit",
+    "voting vs non-voting shares",
+    "Bill of Rights — Section 1",
+    "Special Allowance for Justices and Judges (SAJ)",
+    "Republic Act 9227",
+    "Salary Standardization Law",
+    "Joint Resolution No. 4",
+    "judicial vacancies and case delays",
+    "graft in the judiciary"
+  ],
+
+  "stances": [
+    {
+      "claim": "The Supreme Court's Gamboa v. Teves decision is procedurally void because the foreign investors most adversely affected by it were never summoned, served, or given an opportunity to be heard.",
+      "rhetorical_move": "constitutional textual reading + appeal to procedural fairness",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Due process under the Bill of Rights protects 'persons' — a term that includes foreign individuals and corporations — and therefore foreign investors cannot be deprived of property at bargain prices without being heard first.",
+      "rhetorical_move": "constitutional textual reading + citation of Themistocles and Daniel Webster",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Adequate, non-taxable judicial compensation is necessary to fill trial court vacancies and to discourage graft, and it should be funded by Congress through the national coffers rather than by raising docket fees on poor litigants.",
+      "rhetorical_move": "policy argument grounded in personal experience as Chief Justice",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Justice Antonio T. Carpio",
+      "Themistocles",
+      "Daniel Webster",
+      "Manuel V. Pangilinan",
+      "Gloria Macapagal-Arroyo"
+    ],
+    "institutions": [
+      "Supreme Court",
+      "Securities and Exchange Commission",
+      "Department of Budget and Management",
+      "Philippine Judges Association",
+      "First Pacific Co. Ltd.",
+      "Congress"
+    ],
+    "cases": [
+      "Gamboa v. Teves"
+    ],
+    "laws_treaties": [
+      "1935 Constitution",
+      "1987 Constitution Bill of Rights",
+      "Republic Act 9227",
+      "Joint Resolution No. 4",
+      "Salary Standardization Law"
+    ],
+    "events": []
+  },
+
+  "signature_phrases": [
+    "Strike, but hear me first!",
+    "a law that hears before it condemns, proceeds upon inquiry and renders judgment only after trial",
+    "with due respect",
+    "to the chagrin of poor litigants"
+  ],
+
+  "register_markers": [
+    "I note",
+    "with due respect",
+    "I will refrain from discussing",
+    "Let me explain briefly",
+    "Congress I think should",
+    "After all"
+  ],
+
+  "decision_framework_signals": [
+    "applies procedural due process lens to corporate/foreign-investment regulation — argues the constitutional 'person' protection extends to foreign corporations",
+    "frames judicial compensation as instrumental to two ends: filling vacancies (efficiency) and reducing graft (integrity)"
+  ],
+
+  "cross_references": [],
+
+  "notable_anecdotes": [
+    "implementing the doubled judicial compensation during his own tenure as Chief Justice to address the 600 trial court vacancies"
+  ]
+}

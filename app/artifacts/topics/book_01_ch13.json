@@ -1,0 +1,226 @@
+{
+  "doc_id": "book_01_ch13",
+  "doc_type": "book-chapter",
+  "title": "Estrada v. Desierto — Estrada v. Arroyo: Constitutional Succession to the Presidency",
+  "date": "2001-03-02",
+  "voice_register": "doctrinal-formal",
+
+  "primary_topics": [
+    "Estrada v. Desierto / Estrada v. Arroyo",
+    "constitutional succession via EDSA II",
+    "Davide and Panganiban inhibition rationale"
+  ],
+
+  "sub_topics": [
+    "March 2, 2001 unanimous 13-0 decision (Puno ponencia)",
+    "April 3, 2001 Motion for Reconsideration unanimously denied",
+    "totality test (prior, contemporaneous, posterior facts)",
+    "Edgardo Angara Diary as 'authoritative window on state of mind'",
+    "implied resignation doctrine",
+    "Estrada press release as valedictory",
+    "permanent disability doctrine (Bellosillo concurrence)",
+    "abandonment as resignation (Vitug concurrence)",
+    "1941-1943 Quezon-Laurel dual-government distinction (Mendoza concurrence)",
+    "EDSA II vs EDSA I (1986) distinction",
+    "Lawyers League for a Better Philippines v. Aquino",
+    "Clinton v. Jones (US Supreme Court immunity precedent)",
+    "Richard Nixon-style no-immunity-for-unlawful-acts doctrine",
+    "House Resolutions 175, 176, 178 confirming Arroyo and Guingona",
+    "Cardinal Sin pastoral letter demanding resignation",
+    "11-10 second-envelope vote (Velarde P3.3B account)",
+    "Singson exposé October 4, 2000",
+    "Guingona 'I accuse' speech",
+    "Clarissa Ocampo / Edgardo Espiritu impeachment testimony",
+    "Mercado, Reyes, Lacson withdrawal of support",
+    "Rule 137 Rules of Court (judicial disqualification)",
+    "Code of Judicial Conduct Rule 3.12",
+    "Inhibition rationale: 'hold myself above petitioner's reproach'"
+  ],
+
+  "stances": [
+    {
+      "claim": "Arroyo is the de jure President because Estrada had resigned before her noon January 20, 2001 oath-taking — proven by 'totality test' using prior, contemporaneous, and posterior acts; his press release was a 'valedictory, his final act of farewell. His presidency is now in the past tense.'",
+      "rhetorical_move": "doctrinal-evidentiary totality framing + finality aphorism (Puno ponencia)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Estrada's January 20 letter to the Senate and House Speaker claiming 'temporary leave of absence due to inability to govern' commands scant legal significance — 'petitioner's resignation from the presidency cannot be the subject of a changing caprice nor of a whimsical will especially if the resignation is the result of his repudiation by the people.'",
+      "rhetorical_move": "doctrinal-rejection of post-hoc-reframing + repudiation framing",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Arroyo is not 'merely acting President' — she took her oath as President (not acting), the House Resolutions 175/176 supported her assumption as President, the Senate confirmed her VP nominee Guingona, both houses started sending bills to her, and the Senate declared the Impeachment Court 'functus officio.'",
+      "rhetorical_move": "structured-evidentiary enumeration of institutional ratification",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "EDSA II is distinguishable from EDSA I — EDSA I's Aquino government 'was the result of a successful revolution by the sovereign people' under an abrogated 1973 Constitution with the new Freedom Constitution decreed (per Lawyers League v. Aquino, beyond judicial scrutiny); EDSA II's Arroyo government remains under the 1987 Constitution with all institutional structures intact.",
+      "rhetorical_move": "doctrinal-structural distinction (revolution-vs-constitutional-succession)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "(Vitug concurring) The ascension of Arroyo has resulted in neither rupture nor abrogation of the legal order — 'an insistence that the events in January 2001 transgressed the letter of the Constitution is to ignore the basic tenet of constitutionalism and to fictionalize the clearly preponderant facts.'",
+      "rhetorical_move": "constitutionalism-vs-fictionalization framing (Vitug)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "(Mendoza concurring) The 1941-1943 Quezon-Laurel two-presidents situation 'is turning somersault with history' — the Philippines had two presidents then because there were two governments (Laurel's Japanese-belligerent-occupant de facto vs Quezon's de jure Commonwealth in exile); today there is only one government under the 1987 Constitution and therefore only one President.",
+      "rhetorical_move": "historical-international-law analogy + sharp rejection ('turning somersault')",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "(Bellosillo concurring) Permanent disability 'cannot realistically be given a restrictive and impractical interpretation as referring only to physical or mental incapacity, but must likewise cover other forms of incapacities of a permanent nature, e.g., functional disability' — objectively manifested by civil-society refusal, mass cabinet resignations, AFP/PNP withdrawal, congressional recognition, and international acceptance of Arroyo.",
+      "rhetorical_move": "functional-disability doctrinal expansion + structured-objective-test framing",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "(Re: claim of resignation under duress) 'No tanks rumbled through the Palace, no attack planes flew over the presidential residence, no shooting, no large scale violence, except verbal violence' — pressure was exerted but did not vitiate voluntariness; Estrada's entourage even detoured to San Juan to bid goodbye to followers.",
+      "rhetorical_move": "structured-negation framing of duress claim + factual-contrast device",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "CJ Panganiban's voluntary inhibition (per Rule 137 second paragraph) 'did not arise from any legal ground showing partiality or bias' — he voluntarily resorted to nonparticipation 'to hold myself above petitioner's reproach' and to deprive 'him or anyone else [of] any excuse to cast doubt on the integrity of these proceedings,' applying pro hac vice only.",
+      "rhetorical_move": "structured-self-justification of inhibition + pro-hac-vice limitation",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Reynato S. Puno",
+      "Hilario G. Davide Jr.",
+      "Joseph Ejercito Estrada",
+      "Gloria Macapagal Arroyo",
+      "Edgardo J. Angara",
+      "Teofisto T. Guingona Jr.",
+      "Luis 'Chavit' Singson",
+      "Jaime Cardinal Sin",
+      "Corazon C. Aquino",
+      "Fidel V. Ramos",
+      "Mar Roxas III",
+      "Franklin Drilon",
+      "Manuel Villar",
+      "Clarissa Ocampo",
+      "Edgardo Espiritu",
+      "Orlando Mercado",
+      "Angelo Reyes",
+      "Panfilo Lacson",
+      "Josue N. Bellosillo",
+      "Jose C. Vitug",
+      "Vicente V. Mendoza",
+      "Santiago M. Kapunan",
+      "Bernardo P. Pardo",
+      "Consuelo Ynares-Santiago",
+      "Angelina Sandoval-Gutierrez",
+      "Manuel L. Quezon",
+      "Jose P. Laurel",
+      "Richard Nixon",
+      "Jose Velarde (alias)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Office of the President",
+      "Office of the Vice President",
+      "Senate of the Philippines",
+      "House of Representatives",
+      "Catholic Bishops Conference of the Philippines",
+      "Armed Forces of the Philippines",
+      "Philippine National Police",
+      "DSWD",
+      "Department of Trade and Industry",
+      "Council of Senior Economic Advisers",
+      "Lapiang Masang Pilipino",
+      "Blue Ribbon Committee",
+      "Senate Committee on Justice",
+      "House Committee on Public Order and Security",
+      "Philippine Chamber of Commerce and Industry",
+      "Presidential Security Guard",
+      "Polk Street Greenhills residence",
+      "Municipal Hall of San Juan",
+      "Philippine Daily Inquirer"
+    ],
+    "cases": [
+      "Estrada v. Desierto (GR 146710-15, March 2, 2001)",
+      "Estrada v. Arroyo (GR 146738)",
+      "Lawyers League for a Better Philippines v. Aquino",
+      "Clinton v. Jones (US)",
+      "Veterans Federation Party v. Comelec (October 6, 2000)",
+      "Rosello v. Court of Appeals (December 14, 1988)",
+      "Aparicio v. Andal (July 25, 1989)",
+      "CIR v. CA (February 6, 1997)",
+      "Gabol v. Riodique (June 27, 1975)",
+      "Jurado & Co. v. Hongkong & Shanghai Banking Corp.",
+      "Hanrahan v. Hampton (US, April 30, 1980)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution Article VII (presidential succession)",
+      "1987 Constitution Section 11 Article VII (temporary inability)",
+      "Rule 137 of the Rules of Court (disqualification)",
+      "Code of Judicial Conduct Rule 3.12",
+      "1973 Constitution (Freedom Constitution successor)",
+      "House Resolutions 175, 176, 178",
+      "Articles of Impeachment vs Estrada"
+    ],
+    "events": [
+      "Singson exposé (October 4, 2000)",
+      "Guingona 'I accuse' speech",
+      "Cardinal Sin pastoral letter demanding resignation",
+      "Estrada impeachment trial",
+      "11-10 second-envelope vote",
+      "Prosecutors' walkout and resignation",
+      "EDSA II rally (January 2001)",
+      "Mercado/Reyes/Lacson withdrawal of support",
+      "Arroyo oath-taking (noon, January 20, 2001)",
+      "Court ruling (March 2, 2001)",
+      "Motion for Reconsideration denial (April 3, 2001)"
+    ]
+  },
+
+  "signature_phrases": [
+    "totality test",
+    "authoritative window on the state of mind",
+    "his presidency is now in the past tense",
+    "valedictory, his final act of farewell",
+    "the resignation is the result of his repudiation by the people",
+    "Pagod na pagod na ako. Ayoko na — masyado nang masakit",
+    "no tanks rumbled through the Palace, no attack planes flew over the presidential residence, no shooting, no large scale violence, except verbal violence",
+    "permanent disability… functional disability",
+    "turning somersault with history",
+    "to fictionalize the clearly preponderant facts",
+    "to hold myself above petitioner's reproach",
+    "transcendental importance to the nation",
+    "pro hac vice"
+  ],
+
+  "register_markers": [
+    "doctrinal-formal case-treatment register",
+    "extensive verbatim quotation of ponencia, concurrences, and separate opinions",
+    "boldface emphasis preserved (in original)",
+    "Tagalog quotation (Pagod na pagod na ako)",
+    "Latin (functus officio, pro hac vice, de jure, de facto)",
+    "first-person inhibition exposition (CJ's voice inserted at end)",
+    "structured-grounds enumeration (1, 2, 3, 4)"
+  ],
+
+  "decision_framework_signals": [
+    "applies 'totality test' (prior/contemporaneous/posterior facts) for ascertaining state of mind",
+    "uses functional-disability expansion to accommodate institutional-collapse incapacitation (Bellosillo)",
+    "frames EDSA II (constitutional succession under intact 1987 Constitution) vs EDSA I (revolution under abrogated 1973 Constitution) as a doctrinal distinction",
+    "uses Quezon-Laurel two-government historical-international-law framing to refute dual-presidency claim",
+    "applies Angara-Diary admissibility through admissions-against-interest / adoptive-admission / alter-ego doctrines",
+    "uses voluntary inhibition (Rule 137 second paragraph) as 'sound judicial discretion' framework distinct from mandatory disqualification",
+    "applies pro hac vice limitation to inhibition (case-specific, not future-blanket)"
+  ],
+
+  "cross_references": [
+    "See pp. 9-66 of this book (Chapter 2 — Old Doctrines and New Paradigms)"
+  ],
+
+  "notable_anecdotes": [
+    "Estrada's entourage detouring to the Municipal Hall of San Juan to bid goodbye to followers before going to Polk Street, Greenhills residence",
+    "The 11-10 senator-judges vote denying the prosecutor's motion to open the 2nd envelope (alleged P3.3B 'Jose Velarde' deposit)",
+    "Estrada's quote 'Pagod na pagod na ako. Ayoko na — masyado nang masakit' (I'm very tired. I don't want this anymore — it hurts too much)",
+    "Davide's January 22, 2001 unanimous Court Resolution confirming the oath-taking; Davide and Panganiban inhibiting from the merits in Estrada v. Desierto",
+    "Veterans Federation Party (party-list) precedent: the Court rejecting CJ's prior inhibition offer because his PCCI involvement was 'merely a voluntary non-compensated officer' and the case antecedents predated his PCCI tenure"
+  ]
+}

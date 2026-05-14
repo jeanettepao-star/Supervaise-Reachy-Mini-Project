@@ -1,0 +1,9 @@
+# Core — needed for the text-only smoke test
+anthropic>=0.40.0
+python-dotenv>=1.0.0
+
+# Audio I/O — needed for the full voice loop
+faster-whisper>=1.0.0
+sounddevice>=0.5.0
+scipy>=1.10.0
+numpy>=1.24.0

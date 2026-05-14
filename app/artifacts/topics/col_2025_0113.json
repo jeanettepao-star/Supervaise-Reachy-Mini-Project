@@ -1,0 +1,121 @@
+{
+  "doc_id": "col_2025_0113",
+  "doc_type": "column",
+  "title": "Rejuvenating Baguio",
+  "date": "2025-01-13",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "Baguio rejuvenation initiative",
+    "Blue Zone urban model",
+    "arbitral award enforceability in BCDA case"
+  ],
+
+  "sub_topics": [
+    "1950s-60s Baguio nostalgia (Burnham Park, Wright Park, Mines View)",
+    "Mayor Benjamin Magalong",
+    "Singapore as urban Blue Zone model",
+    "rural Blue Zones (Sardinia, Okinawa, Nicoya, Ikaria, Loma Linda)",
+    "ikigai (purpose-driven life)",
+    "Mediterranean diet",
+    "80%-full eating habit",
+    "BCDA v. CJH Development (April 3, 2024)",
+    "Adapon v. Medical Doctors (June 14, 2021)",
+    "arbitral award judicial-review limits",
+    "John Hay Special Economic Zone 247-hectare lease termination",
+    "MVP Group / Landco Pacific Corp. commitment",
+    "Joshua M. Bingcang (BCDA president)",
+    "stem cell therapy series (CJ's prior 4 columns)"
+  ],
+
+  "stances": [
+    {
+      "claim": "Baguio in the 1950s-60s was the ultimate vacation spot — pristine scent of pines, Burnham Park boats, chirping birds in Wright Park, Sound of Music-reminiscent Mines View — but in half a century all that is gone, replaced by traffic-choked streets, scalded mountains, and murky waters.",
+      "rhetorical_move": "nostalgia-driven loss narrative + structured-then-vs-now contrast",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Singapore's urban planning success (motor-vehicle fees, tram system, green-building incentives, mixed-income housing, limited car availability) shows that traditional rural Blue Zone habits — though born from centuries of tradition — can be 'successfully aped' by law and regulation in urbanized settings.",
+      "rhetorical_move": "policy-comparison framing + counterargument to 'tradition is unreplicable' wisdom",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The BCDA v. CJH Development ruling correctly upholds the arbitral award and reaffirms Adapon's doctrine that courts cannot set aside arbitral awards for 'mere errors of judgment either as to the law or as to the facts' — 'a contrary rule would make an arbitration award the commencement, not the end, of litigation.'",
+      "rhetorical_move": "doctrinal-policy endorsement + 'commencement not end of litigation' aphorism",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "With Magalong's Blue Zone vision, BCDA's CJH eviction success, and MVP Group's 'people-first' commitment to interim management, the older generation can look forward to a rejuvenated idyllic Baguio while the young can visit and 'live a healthy, happy, and purpose-driven life till 100 and beyond.'",
+      "rhetorical_move": "intergenerational-promise closer + biomedical-analogy ('autologous needles and living cell therapy injecting into an aging city')",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Benjamin Magalong",
+      "Japar B. Dimaapao",
+      "Marvic M.V.F. Leonen",
+      "Joshua M. Bingcang"
+    ],
+    "institutions": [
+      "Baguio City government",
+      "Singapore (national model)",
+      "Supreme Court of the Philippines",
+      "Bases Conversion Development Authority",
+      "CJH Development Corp.",
+      "John Hay Special Economic Zone",
+      "MVP Group",
+      "Landco Pacific Corp.",
+      "CAMP-John Hay Trade and Cultural Center"
+    ],
+    "cases": [
+      "BCDA v. CJH Development (April 3, 2024)",
+      "Adapon v. Medical Doctors (June 14, 2021)"
+    ],
+    "laws_treaties": [],
+    "events": [
+      "Baguio Blue Zone rejuvenation initiative",
+      "BCDA 247-hectare CJH Development lease termination"
+    ]
+  },
+
+  "signature_phrases": [
+    "the City of Pines",
+    "the pristine scent of pine trees",
+    "scalded mountains and murky waters",
+    "ikigai",
+    "successfully aped",
+    "people-first",
+    "the commencement, not the end, of litigation",
+    "till 100 and beyond",
+    "infusing the autologous needles and injecting the living cell therapy into an aging city",
+    "rejuvenate, refresh, and reengineer",
+    "Mabuhay!"
+  ],
+
+  "register_markers": [
+    "THE GOOD NEWS HOWEVER IS THAT",
+    "A SECOND GOOD NEWS IS THE 31-PAGE SUPREME COURT DECISION",
+    "A THIRD GOOD NEWS IS THE MVP GROUP'S",
+    "ALL CAPS section openings",
+    "Tagalog code-switch (Mabuhay!)",
+    "Sound of Music cultural reference",
+    "biomedical-as-urban metaphor (autologous, cell therapy)"
+  ],
+
+  "decision_framework_signals": [
+    "applies Singapore-as-urban-Blue-Zone-model framework as policy template",
+    "uses arbitral-award-non-reviewability doctrine (Adapon) to argue for arbitration finality",
+    "frames Baguio rejuvenation as multi-actor coordination problem (mayor + BCDA + private MVP Group)",
+    "uses biomedical-analogy device (rejuvenation, autologous, living cell therapy) to frame urban renewal"
+  ],
+
+  "cross_references": [
+    "In my last four columns, I wrote about rejuvenating humans via stem cell therapy"
+  ],
+
+  "notable_anecdotes": [
+    "Personal Baguio nostalgia of the 1950s-60s — rowing boats on Burnham Park, strolling Wright Park hearing chirping birds, viewing Sound-of-Music-reminiscent Mines View"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "doc_id": "col_2023_0807",
+  "doc_type": "column",
+  "title": "ICC: The temporal vs the strategic",
+  "date": "2023-08-07",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "ICC jurisdiction over Philippines post-withdrawal",
+    "ICC procedural strategy",
+    "complementarity"
+  ],
+
+  "sub_topics": [
+    "Appeals Chamber ruling (July 18, 2023, 3-2)",
+    "Fatou Bensouda preliminary examination (February 8, 2018)",
+    "Philippine ICC withdrawal (March 17, 2018, effective 2019)",
+    "PTC authorization (September 15, 2021)",
+    "PTC re-authorization (January 26, 2023)",
+    "two-year prescription window",
+    "preliminary examination vs preliminary investigation",
+    "Office of the Prosecutor as part of ICC question",
+    "waiver-by-failure-to-appeal doctrine",
+    "Russia-Ukraine ICC situation as competing priority"
+  ],
+
+  "stances": [
+    {
+      "claim": "Khan's Appeals Chamber victory is temporary — the ICC may eventually dismiss complaints or arrest warrants for lack of jurisdiction; the prosecutor may pivot to higher-priority situations like Russia-Ukraine rather than waste resources here.",
+      "rhetorical_move": "outcome prediction grounded in cost-benefit analysis of prosecutor's incentives",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Philippines suffered a temporary defeat but won strategic knowledge: at least two ICC judges would dismiss the suit on jurisdiction, and none of the majority took an opposing stance on the jurisdictional issue.",
+      "rhetorical_move": "reframing of loss as informational gain (litigation reconnaissance)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The pivotal jurisdictional question is statutory construction: Is Bensouda's 2018 'preliminary examination' an integral part of the ICC's authorized 'preliminary investigation'? Is the Office of the Prosecutor an integral part of the ICC? His short answer to both: No.",
+      "rhetorical_move": "binary statutory-construction question with declared answer",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Philippine government's procedural error was failing to appeal the September 15, 2021 PTC decision; by appealing only the January 26, 2023 decision, the government waived its right to challenge ICC jurisdiction in this round.",
+      "rhetorical_move": "doctrinal critique of litigation strategy",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Karim Khan",
+      "Fatou Bensouda",
+      "Rodrigo Duterte"
+    ],
+    "institutions": [
+      "International Criminal Court",
+      "ICC Appeals Chamber",
+      "ICC Pre-Trial Chamber",
+      "ICC Office of the Prosecutor",
+      "Queen's Counsel (UK)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Rome Statute Article 17",
+      "Rome Statute Article 127 (withdrawal procedure)"
+    ],
+    "events": [
+      "Bensouda preliminary examination announcement (February 8, 2018)",
+      "Philippine ICC withdrawal (March 17, 2018, effective March 17, 2019)",
+      "Appeals Chamber 3-2 ruling (July 18, 2023)"
+    ]
+  },
+
+  "signature_phrases": [
+    "The temporal vs the strategic",
+    "TEMPORARY, I BELIEVE, WAS THE VICTORY",
+    "the temporal vs the strategic",
+    "wasted time and resources",
+    "strategic knowledge",
+    "My short answer is 'No'"
+  ],
+
+  "register_markers": [
+    "TO ANSWER THE QUESTION, LET US FIRST RECALL",
+    "Please note the dates carefully",
+    "ALL CAPS section openings",
+    "I believe",
+    "In sum",
+    "My short answer",
+    "Bold types supplied"
+  ],
+
+  "decision_framework_signals": [
+    "applies temporal-vs-strategic framing to reframe procedural setbacks as informational gains",
+    "uses statutory construction (whether preliminary examination = preliminary investigation) as pivot for jurisdictional dispute",
+    "frames prosecutor's incentive structure as the operative variable for predicting case continuation"
+  ],
+
+  "cross_references": [],
+
+  "notable_anecdotes": []
+}

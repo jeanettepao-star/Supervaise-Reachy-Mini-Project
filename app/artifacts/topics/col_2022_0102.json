@@ -1,0 +1,116 @@
+{
+  "doc_id": "col_2022_0102",
+  "doc_type": "column",
+  "title": "Overwhelmed with honor and joy",
+  "date": "2022-01-02",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "'With Due Respect 3' book launch",
+    "15-year column-writing journey",
+    "tribute to CJ Alexander Gesmundo"
+  ],
+
+  "sub_topics": [
+    "Marixi Prieto and Sandy Prieto-Romualdez",
+    "five-year column compilation cycle (2011, 2016, 2022)",
+    "Salonga's 'chief justices make history, they do not write it'",
+    "Marixi's counter: 'no retired CJ had been offered to write a column'",
+    "WDR1 Amazon bestseller (3rd place, behind Jeffrey Toobin and Scalia)",
+    "Alexander G. Gesmundo as quiet but effective CJ",
+    "constitutional four attributes (competence, integrity, probity, independence)",
+    "JV Rufino (Inquirer Book Company)",
+    "Sean James Borja (Ateneo 2018 valedictorian + 1st bar)",
+    "Inquirer editors Jorge Aruta and Rosario Garcellano + Gilbert Cadiz"
+  ],
+
+  "stances": [
+    {
+      "claim": "He owes Marixi Prieto his opinion-writing career — 15 years of weekly Sunday columns without fail, despite occasional illnesses, five travel trips abroad yearly, and work as officer/director/adviser in over 25 companies and foundations.",
+      "rhetorical_move": "gratitude statement + consistency-as-credential",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "CJ Alexander Gesmundo — though 'at age 65 he could be my son and I could be his father' — has the four constitutional attributes (competence, integrity, probity, independence), is 'a glutton for work,' and is determined to solve the case backlog and automate the judiciary.",
+      "rhetorical_move": "father-son metaphor + structured-credential tribute",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Like CJ Gesmundo, he too did not seek the chief justiceship — 'without asking for it, he was named to the position by the President' — these are the parallels he sees with the incumbent CJ.",
+      "rhetorical_move": "personal-parallel framing with current officeholder",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Alexander G. Gesmundo",
+      "Marixi R. Prieto",
+      "Sandy Prieto-Romualdez",
+      "Jovito R. Salonga",
+      "Jeffrey Toobin",
+      "Antonin Scalia",
+      "JV Rufino",
+      "Sean James Borja",
+      "Jorge Aruta",
+      "Rosario Garcellano",
+      "Gilbert Cadiz"
+    ],
+    "institutions": [
+      "Philippine Daily Inquirer",
+      "Inquirer Group",
+      "Inquirer Book Company",
+      "Supreme Court of the Philippines",
+      "Ateneo de Manila",
+      "CNN",
+      "US Supreme Court",
+      "Amazon"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "Launch of 'With Due Respect 3' (January 2022)",
+      "WDR1 publication (2011)",
+      "WDR2 publication (2016)",
+      "Sean Borja's 2018 bar examinations (1st place)"
+    ]
+  },
+
+  "signature_phrases": [
+    "I AM OVERWHELMED WITH HONOR AND JOY",
+    "Chief Justices make history; they do not write it",
+    "no retired chief justice who had been offered to write a column",
+    "though I feel unworthy of their kindness",
+    "Compañero",
+    "this aging jurist",
+    "a glutton for work",
+    "he could be my son, and I could be his father",
+    "a historical romance with newspapers"
+  ],
+
+  "register_markers": [
+    "I AM OVERWHELMED WITH HONOR AND JOY (ALL CAPS opening)",
+    "I ALSO SINCERELY THANK",
+    "PERMIT ME ALSO TO THANK",
+    "ALL CAPS section openings",
+    "verbatim re-narration of Salonga's discouragement + Marixi's rejoinder (recurring set-piece)",
+    "Spanish 'Compañero' (legal colleague honorific)",
+    "speech delivered, then reprinted as column"
+  ],
+
+  "decision_framework_signals": [
+    "applies four-attribute constitutional framework (competence/integrity/probity/independence) to credential-evaluate the incumbent CJ",
+    "uses parallel-biography framing (he too did not seek the position) for personal endorsement",
+    "frames 15-year consistency through illness/travel/business as discipline-credential evidence"
+  ],
+
+  "cross_references": [
+    "Last Sunday, this space featured the speech of CJ Alexander G. Gesmundo"
+  ],
+
+  "notable_anecdotes": [
+    "Salonga's discouragement ('chief justices make history, they do not write it') and Marixi's clincher counter-quip ('I do not know of any retired chief justice who had been offered to write a column')",
+    "WDR1 placing 3rd on the Amazon bestseller list, behind Jeffrey Toobin and Scalia",
+    "Sean James Borja — Ateneo 2018 valedictorian and bar 1st-placer — arranging the WDR3 columns topically instead of chronologically"
+  ]
+}

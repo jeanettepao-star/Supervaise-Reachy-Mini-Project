@@ -1,0 +1,114 @@
+{
+  "doc_id": "col_2023_0424",
+  "doc_type": "column",
+  "title": "My Leni as mom, grand mom, and professor",
+  "date": "2023-04-24",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "Leni (Elenita Carpio-Panganiban) memorial",
+    "Leni as mother, grandmother, professor",
+    "family life and faith community"
+  ],
+
+  "sub_topics": [
+    "Asian Institute of Management (AIM) — 37 years professor",
+    "AIM pioneering batch of 1971",
+    "Harvard case-study method",
+    "MBM degree",
+    "Celine Panganiban-Hannett (daughter)",
+    "Rafa Panganiban Yaptangco (grandson)",
+    "Mari Sison Garcia (AIM classmate)",
+    "Dasma family house",
+    "Bukas Loob Sa Diyos Catholic Charismatic Community (BLD)",
+    "Council of Servant Leaders",
+    "Leni's monthly-allowance teaching method"
+  ],
+
+  "stances": [
+    {
+      "claim": "Leni was 'always so soft-spoken, big-hearted, selfless, and so generous,' raising the five children 'with quiet authority' — patient, kind, wise — never yelling, reasoning rather than sermonizing (she said 'eight was the age of reason').",
+      "rhetorical_move": "transmission via daughter's eulogy + structured-virtue enumeration",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Leni's monthly-allowance system taught the children how banking, saving, and parental safety-nets work — those who ran out before month-end starved (and could borrow with installment repayment); those who saved still got things they needed bought for them anyway.",
+      "rhetorical_move": "concrete parenting-philosophy anecdote transmitted via Celine's eulogy",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "In the BLD Catholic Charismatic Community, CJ and Leni served as members of the Council of Servant Leaders — CJ introduced a joyful, animated worship format, while Leni remained his quiet anchor.",
+      "rhetorical_move": "joint-ministry framing + complementary-temperament portrayal",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Leni at AIM was 'frail and delicate' yet one of four women in the male-dominated pioneering 1971 batch, balancing 'the demands of the Harvard case-study method' with being mother to five children and a good wife — inspiring her classmate Mari to 'chase after my dream no matter what.'",
+      "rhetorical_move": "transmission via classmate's eulogy + role-modeling framing",
+      "confidence": "asserted"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Elenita 'Leni' Carpio-Panganiban",
+      "Celine Panganiban-Hannett",
+      "Rafa Panganiban Yaptangco",
+      "Mari Sison Garcia",
+      "Raul (Mari's spouse)",
+      "Archie (Leni's son)",
+      "Ate Len (Leni's eldest daughter)"
+    ],
+    "institutions": [
+      "Asian Institute of Management",
+      "Harvard Business School (via case-study method)",
+      "Bukas Loob Sa Diyos Catholic Charismatic Community"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "Leni's wake and 10 eulogies (April 2023)",
+      "AIM pioneering MBM batch of 1971",
+      "BLD Council of Servant Leaders service"
+    ]
+  },
+
+  "signature_phrases": [
+    "my Leni",
+    "Tita Leni / Mommy Not",
+    "Lola Leni",
+    "First Fruits of AIM",
+    "Council of Servant Leaders",
+    "Mom Leni fashion",
+    "her quiet authority",
+    "eight was the age of reason"
+  ],
+
+  "register_markers": [
+    "Last Monday, I published my eulogy",
+    "let me quote portions (within my limited space)",
+    "ALL CAPS eulogist name labels",
+    "first-person eulogy voices transmitted verbatim",
+    "Tagalog/Filipino familial vocatives (Tita, Lola, Ate, Mommy Not)",
+    "chicheria (Filipino snacks)",
+    "barkada (Filipino: close peer group)"
+  ],
+
+  "decision_framework_signals": [
+    "frames spousal partnership as complementary-temperaments (animated CJ + quiet Leni anchor)",
+    "uses concrete-parenting-anecdote (monthly allowance) as teaching-philosophy evidence",
+    "applies role-modeling lens for working women balancing career and family"
+  ],
+
+  "cross_references": [
+    "Last Monday, I published my eulogy during the wake of my Leni"
+  ],
+
+  "notable_anecdotes": [
+    "Leni giving the five children monthly (not weekly) allowances, creating banking-and-saving lessons — kids who ran out starved but could borrow against next month; kids who saved got needed items bought anyway",
+    "Granddaughter-grandson Rafa staying in Dasma house, being greeted with chicheria offers and 'Do you have a girlfriend na?'",
+    "Leni teaching Rafa to curl his tongue, play Uno, Old Maid, Sudoku — but never figuring out how to raise both eyebrows",
+    "Leni's love of nice phones, with Rafa helping her set them up and playing Bounce together — 'one of the big reasons why I love phones and tech'",
+    "Leni in the pioneering 1971 AIM batch — one of four women, looking frail and delicate, managing Harvard case-study method while mothering five children",
+    "Leni and CJ as BLD Council of Servant Leaders introducing joyful animated worship — Leni 'remained his anchor'"
+  ]
+}

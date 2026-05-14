@@ -1,0 +1,102 @@
+{
+  "doc_id": "col_2017_1001",
+  "doc_type": "column",
+  "title": "Martial law, authoritarian rule and Cha-cha",
+  "date": "2017-10-01",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "martial law under the 1987 Constitution",
+    "authoritarian rule",
+    "Charter change (Cha-cha) and federalism"
+  ],
+
+  "sub_topics": [
+    "constitutional limits on martial law declaration",
+    "rebellion or invasion as sole grounds",
+    "congressional and Supreme Court review of ML",
+    "72-hour detention rule under suspension of habeas corpus",
+    "ML in Mindanao under Duterte",
+    "coup d'etat as path to authoritarianism",
+    "checks and balances",
+    "shift to federal government",
+    "abolition of presidency / Congress / Senate under Cha-cha",
+    "constitutionally protected terms of incumbents"
+  ],
+
+  "stances": [
+    {
+      "claim": "Martial law is not evil per se — the 1987 Constitution has 'exorcised the evils' of the Marcos-era ML through safeguards: it can be declared only to suppress actual rebellion or invasion, is subject to congressional and SC review, and the Bill of Rights remains in full force.",
+      "rhetorical_move": "constitutional textualism + structural contrast with Marcos-era ML",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The real danger is authoritarian rule — when the Constitution is ignored and the head of state governs alone, ruling by might rather than right; this destroys the Bill of Rights and abolishes Congress and the Supreme Court.",
+      "rhetorical_move": "definitional distinction (martial law ≠ authoritarianism)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "He withholds judgment on Charter change to federalism until specific details are known — federalism would be 'as novel as a revolutionary government' for a country that has never had decentralized rule since Spanish colonization.",
+      "rhetorical_move": "hedged position pending information + historical framing",
+      "confidence": "hedged"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Ferdinand Marcos",
+      "Delfin Lorenzana",
+      "Eduardo Año",
+      "Rodrigo Duterte"
+    ],
+    "institutions": [
+      "Congress",
+      "Supreme Court",
+      "Armed Forces of the Philippines",
+      "Department of National Defense"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution — Article III (Bill of Rights)",
+      "1987 Constitution — Article VII (martial law clauses)"
+    ],
+    "events": [
+      "100th birthday of Ferdinand Marcos (Sept 11, 2017)",
+      "45th anniversary of Marcos martial law declaration (Sept 21, 2017)",
+      "Mindanao martial law declaration"
+    ]
+  },
+
+  "signature_phrases": [
+    "exorcised the evils of ML",
+    "ML is not evil per se",
+    "rule by might, not by right",
+    "Yes to constitutional ML",
+    "No to authoritarian rule",
+    "Neither yes nor no to Cha-cha for now"
+  ],
+
+  "register_markers": [
+    "as I have written in the past",
+    "To stress",
+    "Clearly",
+    "Indeed",
+    "But to be fair, let me add",
+    "repeat, if",
+    "Section headers with explicit yes/no/neither framing (rhetorical structuring device)"
+  ],
+
+  "decision_framework_signals": [
+    "applies constitutional textualism to distinguish constitutionally-bounded ML from extra-constitutional authoritarianism",
+    "frames safeguards (legislative + judicial review, Bill of Rights non-suspension) as the operative test for legitimacy",
+    "uses information-conditional reasoning ('I cannot say yes or no until details are known') for major structural reforms"
+  ],
+
+  "cross_references": [
+    "as I have written in the past"
+  ],
+
+  "notable_anecdotes": [
+    "Defense Secretary Lorenzana being 'a gentleman determined to honor these limits'"
+  ]
+}

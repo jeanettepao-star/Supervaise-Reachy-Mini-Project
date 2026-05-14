@@ -1,0 +1,133 @@
+{
+  "doc_id": "col_2024_0408",
+  "doc_type": "column",
+  "title": "Powers of the Ombudsman",
+  "date": "2024-04-08",
+  "voice_register": "editorial",
+
+  "primary_topics": [
+    "Office of the Ombudsman jurisdiction",
+    "Chiong v. Anonymous MIAA Officials decision",
+    "Conchita Carpio Morales as Ombudsman"
+  ],
+
+  "sub_topics": [
+    "CA Chiong v. Anonymous MIAA Officials (March 21, 2024)",
+    "MIAA reassignment of 285 employees",
+    "Civil Service Commission primary jurisdiction over reassignments",
+    "OMB substantial-evidence requirement",
+    "Article XI Section 5 (Constitution — OMB creation)",
+    "OMB as 'protector of the people'",
+    "Sandiganbayan jurisdiction over OMB-filed criminal cases",
+    "Conchita Carpio Morales as OMB (2011-2018)",
+    "Aquino's surprise SONA announcement of her appointment",
+    "Three Furies (Morales / de Lima / Pulido-Tan)",
+    "Magsaysay Award (2016)",
+    "ICC communication against Xi Jinping (with Del Rosario)"
+  ],
+
+  "stances": [
+    {
+      "claim": "The CA correctly reversed the OMB in Chiong because (1) the CSC, not the OMB, has primary jurisdiction over the legality and propriety of MIAA's reassignment of 285 employees, and (2) the OMB's verdict 'lacked factual basis and substantial support in evidence' — a mere 'general statement' without adequate factual bases is not enough.",
+      "rhetorical_move": "two-reason doctrinal endorsement of appellate ruling",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The OMB's 'plenary power' must be exercised with diligent observance of respondents' constitutional rights and the constitutional powers/duties of other coequal agencies like the CSC — independence does not mean unilateral overreach.",
+      "rhetorical_move": "structural-constitutional limits framing on independent constitutional bodies",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Conchita Carpio Morales is perhaps the most celebrated Ombudsman — first woman to administer the oath of a President and VP (June 30, 2010), pursuing nonbailable cases against the highest officials (GMA who appointed her, Binay, Enrile, Revilla, Estrada), and after retirement filing an ICC communication against Xi Jinping for environmentally destructive SCS activities.",
+      "rhetorical_move": "structured-credential tribute + 'hero to many and heel to others' balanced framing",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "To be fair, her critics fault her for allegedly 'baseless' charges against officials who were subsequently acquitted or released on bail after years of detention — a tradeoff her record presents.",
+      "rhetorical_move": "balance-and-fairness concession",
+      "confidence": "hedged"
+    }
+  ],
+
+  "entities": {
+    "people": [
+      "Cesar M. Chiong",
+      "Irene P. Montalbo",
+      "Eleuterio L. Bathan",
+      "Conchita Carpio Morales",
+      "Benigno Aquino III",
+      "Jejomar Binay",
+      "Gloria Macapagal Arroyo",
+      "Juan Ponce Enrile",
+      "Ramon 'Bong' Revilla",
+      "Jinggoy Estrada",
+      "Leila de Lima",
+      "Grace Pulido-Tan",
+      "Albert del Rosario",
+      "Xi Jinping"
+    ],
+    "institutions": [
+      "Court of Appeals (13th Division)",
+      "Office of the Ombudsman",
+      "Manila International Airport Authority",
+      "Civil Service Commission",
+      "Sandiganbayan",
+      "Supreme Court of the Philippines",
+      "University of the Philippines",
+      "Ramon Magsaysay Foundation",
+      "International Criminal Court",
+      "Commission on Audit",
+      "Department of Justice (Philippines)"
+    ],
+    "cases": [
+      "Chiong v. Anonymous MIAA Officials (March 21, 2024)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution Article XI Section 5"
+    ],
+    "events": [
+      "OMB decision (August 1/4, 2023)",
+      "Morales's appointment via Aquino SONA (July 25, 2011)",
+      "Morales's oath-administration of Aquino-Binay (June 30, 2010)",
+      "Morales receiving 2016 Magsaysay Award",
+      "Filipino of the Year 2014 (Three Furies)"
+    ]
+  },
+
+  "signature_phrases": [
+    "to her utter surprise",
+    "Three Furies",
+    "A hero to many and a heel to others",
+    "To be fair",
+    "Asia's Nobel Prize",
+    "indefatigable stamina",
+    "protector of the people"
+  ],
+
+  "register_markers": [
+    "CONSISTENT WITH THE NEW SUPREME COURT STYLEBOOK",
+    "CREATED BY SECTION 5 OF ARTICLE XI",
+    "JUSTICE CONCHITA CARPIO MORALES IS PERHAPS THE MOST CELEBRATED OMB",
+    "ALL CAPS section openings",
+    "To be fair",
+    "Note, however",
+    "I have written about them several times, and I will not bore readers with a repetition"
+  ],
+
+  "decision_framework_signals": [
+    "applies primary-jurisdiction analysis (CSC > OMB for civil-service-classification matters) as structural-constitutional resolution",
+    "applies substantial-evidence requirement as the operative standard for OMB administrative decisions",
+    "frames OMB's plenary power as bounded by coequal-agency respect + respondents' constitutional rights",
+    "uses 'hero to many, heel to others' balanced-framing for evaluating polarizing public figures"
+  ],
+
+  "cross_references": [
+    "I have written about them several times"
+  ],
+
+  "notable_anecdotes": [
+    "Morales appointed Ombudsman by Aquino III via surprise announcement in his July 25, 2011 SONA, a month after her June 19 SC retirement",
+    "Morales being the first woman to administer the oath of office of a President (Aquino) and VP (Binay) on June 30, 2010",
+    "Inquirer crowning Morales (with de Lima and Pulido-Tan, the 'Three Furies') as 2014 Filipino of the Year"
+  ]
+}

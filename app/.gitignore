@@ -1,0 +1,40 @@
+# Secrets — NEVER commit
+.env
+.env.local
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Audio model binaries (large, downloaded separately)
+voices/*.onnx
+voices/*.onnx.json
+voices/piper*
+
+# Whisper model cache
+.cache/
+models/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Temp audio
+*.wav
+*.mp3
+!sample_*.wav
