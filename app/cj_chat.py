@@ -283,20 +283,55 @@ def generate_response(
         system=artifacts.voice_card,
         messages=messages,
     )
-    return resp.content[0].text.strip()
+    return _strip_stage_directions(resp.content[0].text.strip())
 
 
 # ============================================================
 # Step 5: TTS — Piper
 # ============================================================
+# ============================================================
+# TTS phonetic substitutions for non-English phrases
+# ============================================================
+# Piper's en_US-ryan-high voice is American-English-only — it will mangle
+# Tagalog, Spanish, and French phrases that CJ uses frequently. We substitute
+# rough English phonetic spellings in the TTS path so Piper's grapheme-to-
+# phoneme front-end produces something closer to the right sounds.
+#
+# This is a stopgap, not a real fix. For native-quality Tagalog, swap Piper
+# for OpenAI TTS `onyx` or ElevenLabs (see synthesize_speech() — single point
+# of change). The displayed text in the dashboard is unaffected by these
+# substitutions; only the TTS path sees them.
+#
+# Add new entries here as you encounter mispronounced phrases. Match is
+# case-insensitive; \b ensures we don't accidentally match inside other words.
+TTS_FOREIGN_SUBSTITUTIONS: list[tuple[str, str]] = [
+    # Tagalog
+    (r"\bMaraming salamat po\b",  "Mah-RAH-ming sah-LAH-maht poh"),
+    (r"\bMaraming salamat\b",     "Mah-RAH-ming sah-LAH-maht"),
+    (r"\bSalamat po\b",           "Sah-LAH-maht poh"),
+    (r"\bSalamat\b",              "Sah-LAH-maht"),
+    (r"\bMabuhay\b",              "Mah-BOO-hai"),
+    (r"\bAbangan\b",              "Ah-BAH-ngahn"),
+    (r"\bPara sa bayan\b",        "Pah-rah sah BAH-yahn"),
+    # Spanish — CJ uses Compañero/Compañera affectionately for colleagues
+    (r"\bCompañero\b",            "Kohm-pah-NYEH-roh"),
+    (r"\bCompañera\b",            "Kohm-pah-NYEH-rah"),
+    (r"\bCompanero\b",            "Kohm-pah-NYEH-roh"),
+    # French — CJ's signature "Au contraire"
+    (r"\bAu contraire\b",         "oh kohn-TRAIR"),
+]
+
+
 def _prepare_tts_text(text: str) -> list[str]:
     """Clean CJ's response for Piper, one sentence per line.
 
-    Strategy (changed from earlier per-em-dash chunking):
-      1. Convert all long-dash variants ( —, –, ―, " -- ", " - " ) to commas.
-         Piper handles commas natively in its phoneme model (~80ms pause),
-         so we don't need to chunk on dashes anymore.
-      2. Split on sentence-end punctuation (. ! ?) and feed one sentence per
+    Strategy:
+      1. Strip markdown markers; substitute non-English phrases with rough
+         English phonetic spellings (TTS_FOREIGN_SUBSTITUTIONS).
+      2. Convert all long-dash variants ( —, –, ―, " -- ", " - " ) to commas.
+         Piper handles commas natively (~80-300ms pause) so we don't need to
+         chunk on dashes.
+      3. Split on sentence-end punctuation (. ! ?) and feed one sentence per
          line to Piper. Piper inserts --sentence_silence between lines for
          the longer between-sentence breath.
 
@@ -305,6 +340,11 @@ def _prepare_tts_text(text: str) -> list[str]:
     """
     # Strip markdown markers but preserve punctuation
     text = re.sub(r"[*_`]", "", text)
+
+    # Phonetic substitutions for non-English phrases (Tagalog, Spanish, French).
+    # Applied BEFORE other normalization so the spellings flow through cleanly.
+    for pattern, replacement in TTS_FOREIGN_SUBSTITUTIONS:
+        text = re.sub(pattern, replacement, text, flags=re.IGNORECASE)
 
     # Convert every long-dash variant to a comma in the TTS text. We're
     # deliberate about which hyphens to touch:
@@ -335,6 +375,39 @@ def _prepare_tts_text(text: str) -> list[str]:
 # Piper tuning — tweak here if the tempo feels off.
 TTS_SENTENCE_SILENCE = "0.6"   # seconds between sentences AND after em-dashes (Piper default 0.2)
 TTS_LENGTH_SCALE = "1.05"      # >1 = slower; tiny slowdown = measured judicial tempo
+
+
+# ============================================================
+# Response cleaning — strip stage directions Claude sometimes adds
+# ============================================================
+# Claude occasionally prefixes responses with italicized narration like
+# "*A moment of quiet before answering.*" or "*chuckles warmly*". These are
+# stage directions, not part of CJ's spoken thought — both the dashboard
+# and the TTS should treat them as noise.
+#
+# We only strip lines that are ENTIRELY wrapped in single asterisks. Inline
+# emphasis like "I would say *au contraire* to that" stays intact because
+# the asterisks don't span the whole line.
+_STAGE_DIRECTION_LINE = re.compile(r"^\s*\*[^*\n]+\*\s*$")
+
+
+def _strip_stage_directions(text: str) -> str:
+    """Drop italicized-on-their-own-line stage directions from a response.
+
+    Examples removed:
+        *A moment of quiet before answering.*
+        *chuckles warmly*
+        *pauses, then continues*
+
+    Examples kept (inline emphasis):
+        I would say *au contraire* to that.
+        The book *A Centenary of Justice* says...
+    """
+    lines = [l for l in text.split("\n") if not _STAGE_DIRECTION_LINE.match(l)]
+    cleaned = "\n".join(lines)
+    # Collapse the extra blank lines the removal may have left behind.
+    cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
+    return cleaned.strip()
 
 
 def synthesize_speech(text: str, output_wav: str):

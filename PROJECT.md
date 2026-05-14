@@ -322,16 +322,62 @@ INFERENCE_MODEL = "claude-sonnet-4-6"
 ## 12. Tuning knobs
 
 ### TTS pause length
-`app/cj_chat.py` top of `synthesize_speech`:
+`app/cj_chat.py` near the Piper section:
 
 ```python
-TTS_SENTENCE_SILENCE = "0.5"   # seconds between sentences AND after em-dashes
+TTS_SENTENCE_SILENCE = "0.6"   # seconds between sentences (Piper default 0.2)
 TTS_LENGTH_SCALE     = "1.05"  # >1 = slower; 1.05 = measured judicial tempo
 ```
 
 - Bump silence to `"0.7"` for more dramatic pauses
 - Drop to `"0.3"` for a faster demo tempo
 - Bump length scale to `"1.10"` for a slower overall pace
+
+### Foreign-phrase phonetic substitutions
+`app/cj_chat.py` `TTS_FOREIGN_SUBSTITUTIONS` is a list of `(regex, replacement)`
+pairs applied to the TTS text only. Piper's `en_US-ryan-high` voice can't
+pronounce Tagalog/Spanish/French natively — these substitutions give it
+English phonetic spellings it can approximate. Add to the list as you find
+mispronounced phrases. Examples in the default list:
+
+```python
+(r"\bMaraming salamat po\b",  "Mah-RAH-ming sah-LAH-maht poh"),
+(r"\bAu contraire\b",         "oh kohn-TRAIR"),
+(r"\bCompañero\b",            "Kohm-pah-NYEH-roh"),
+```
+
+The displayed text in the dashboard is **unaffected** — substitutions are
+TTS-only, so you read the real words and hear an English approximation.
+
+For *native-quality* Tagalog/Spanish/French, swap Piper for a multilingual
+TTS engine (see "Swap to OpenAI / ElevenLabs" below). Phonetic substitution
+is a stopgap for the demo.
+
+### Stage-direction stripping
+Claude occasionally prefixes responses with italicized narration like
+`*A moment of quiet before answering.*` or `*chuckles warmly*`. The
+reference implementation removes any line that is **entirely** wrapped in
+single asterisks before display and TTS (`_strip_stage_directions` in
+`cj_chat.py`). Inline emphasis like `*Au contraire*` or `*A Centenary of
+Justice*` (italicized phrases inside a longer sentence) is preserved.
+
+### Swap to OpenAI TTS / ElevenLabs
+If Piper's diction is a dealbreaker, `synthesize_speech()` in `cj_chat.py`
+is the single point of change. For OpenAI TTS `onyx`:
+
+```python
+def synthesize_speech(text: str, output_wav: str):
+    from openai import OpenAI
+    cleaned = ". ".join(_prepare_tts_text(text))   # phonetic subs + pauses still applied
+    OpenAI().audio.speech.create(
+        model="tts-1", voice="onyx", input=cleaned
+    ).stream_to_file(output_wav)
+    return output_wav
+```
+
+Cost: ~$0.50 for a 50-turn demo at OpenAI's `tts-1` pricing. Multilingual:
+Tagalog/Spanish/French handled natively, so you can drop
+`TTS_FOREIGN_SUBSTITUTIONS` entirely.
 
 ### What triggers a TTS pause
 
