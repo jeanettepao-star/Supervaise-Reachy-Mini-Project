@@ -348,9 +348,11 @@ if question:
                     marker = " ⏸" if i > 1 else ""
                     st.markdown(f"`[{i}]` {c}{marker}")
                 st.caption(
-                    f"Each `⏸` = {TTS_SENTENCE_SILENCE}s of silence inserted by Piper. "
-                    "Em-dashes and sentence-ends both split the text here, so both "
-                    "get the same pause length."
+                    f"Each `⏸` = {TTS_SENTENCE_SILENCE}s sentence-end pause. "
+                    "Em-dashes (—) and other long dashes were substituted with "
+                    "commas in the TTS path — those become Piper's native "
+                    "comma pauses (~150-300ms), which you'll hear *inside* each "
+                    "line above wherever the original text had an em-dash."
                 )
 
     # 5. Persist the assistant turn so it survives the next rerun

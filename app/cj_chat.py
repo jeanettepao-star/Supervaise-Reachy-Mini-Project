@@ -290,50 +290,46 @@ def generate_response(
 # Step 5: TTS — Piper
 # ============================================================
 def _prepare_tts_text(text: str) -> list[str]:
-    """Clean and split CJ's response into per-line chunks for Piper.
+    """Clean CJ's response for Piper, one sentence per line.
 
-    Why per-line: Piper applies --sentence_silence between each line of stdin
-    when --output_file is set, concatenating the result into a single wav.
-    That gives us a controllable breath between sentences AND after long
-    dashes. Piper's own phoneme model still handles the micro-pauses for
-    commas and semicolons inside each chunk.
+    Strategy (changed from earlier per-em-dash chunking):
+      1. Convert all long-dash variants ( —, –, ―, " -- ", " - " ) to commas.
+         Piper handles commas natively in its phoneme model (~80ms pause),
+         so we don't need to chunk on dashes anymore.
+      2. Split on sentence-end punctuation (. ! ?) and feed one sentence per
+         line to Piper. Piper inserts --sentence_silence between lines for
+         the longer between-sentence breath.
 
-    Splits at:
-      1. Sentence boundaries (. ! ?)
-      2. Long-dash marks (— em, – en, ― horizontal bar, "--", " - ")
+    The displayed text in the dashboard is unaffected — this transformation
+    is only on the TTS path.
     """
     # Strip markdown markers but preserve punctuation
     text = re.sub(r"[*_`]", "", text)
 
-    # Normalize all long-dash variants to em-dash so we can split uniformly.
-    # Un-spaced single hyphens in compound words like "Yale-trained" are left
-    # alone — we only convert spaced hyphens and double-hyphens.
-    text = re.sub(r" -- ", " — ", text)
-    text = re.sub(r" - ", " — ", text)
-    text = re.sub(r"[–―]", "—", text)
+    # Convert every long-dash variant to a comma in the TTS text. We're
+    # deliberate about which hyphens to touch:
+    #   " -- "  → ", "  (double-hyphen typed as em-dash)
+    #   " - "   → ", "  (spaced single hyphen used as a dash)
+    #   "—" "–" "―" → ","  (real em-dash, en-dash, horizontal bar — any whitespace around them is absorbed)
+    # Un-spaced single hyphens inside compound words like "Yale-trained" or
+    # "36-year-old" are left alone.
+    text = re.sub(r"\s*--\s*", ", ", text)
+    text = re.sub(r" - ", ", ", text)
+    text = re.sub(r"\s*[—–―]\s*", ", ", text)
 
-    # Normalize whitespace; keep newlines so we still split on them.
+    # Collapse any accidental double-commas / awkward spacing that the
+    # substitutions above may have produced (e.g. existing comma + new comma).
+    text = re.sub(r",\s*,", ",", text)
     text = re.sub(r"[ \t]+", " ", text)
     text = text.strip()
     if not text:
         return []
 
-    # Split into sentences first…
+    # Sentence-level split. Each line becomes a separate Piper utterance and
+    # gets --sentence_silence (0.6s) of breath after it.
     sentences = re.split(r"(?<=[.!?])\s+|\n+", text)
-
-    # …then split each sentence on em-dashes. Every chunk becomes its own
-    # Piper utterance, and the inter-utterance --sentence_silence (0.5s)
-    # becomes the pause length on both sentence ends and long dashes.
-    chunks: list[str] = []
-    for s in sentences:
-        s = s.strip()
-        if not s:
-            continue
-        for part in re.split(r"\s*—\s*", s):
-            part = part.strip()
-            if part:
-                chunks.append(part)
-    return chunks or [text]
+    sentences = [s.strip() for s in sentences if s.strip()]
+    return sentences or [text]
 
 
 # Piper tuning — tweak here if the tempo feels off.

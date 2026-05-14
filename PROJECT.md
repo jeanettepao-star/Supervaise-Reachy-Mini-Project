@@ -337,15 +337,20 @@ TTS_LENGTH_SCALE     = "1.05"  # >1 = slower; 1.05 = measured judicial tempo
 
 | Punctuation | Pause | Source |
 |---|---|---|
-| `.` `!` `?` (sentence end) | 0.5s | inter-utterance split + `--sentence_silence` |
-| `—` (em-dash, spaced) | 0.5s | inter-utterance split |
-| `–` (en-dash) | 0.5s | normalized to em-dash, then split |
-| `―` (horizontal bar) | 0.5s | same |
-| `" -- "` (double hyphen) | 0.5s | normalized to em-dash, then split |
-| `" - "` (spaced hyphen) | 0.5s | normalized to em-dash, then split |
-| `,` (comma) | ~60-80ms | Piper phoneme model (native) |
+| `.` `!` `?` (sentence end) | 0.6s | sentence-per-line input + `--sentence_silence` |
+| `—` (em-dash, spaced) | ~150-300ms | **substituted to comma in TTS path**, Piper's native comma pause |
+| `–` (en-dash) | ~150-300ms | same — substituted to comma |
+| `―` (horizontal bar) | ~150-300ms | same |
+| `" -- "` (double hyphen) | ~150-300ms | same |
+| `" - "` (spaced hyphen) | ~150-300ms | same |
+| `,` (comma) | ~150-300ms | Piper phoneme model (native) — varies with clause position |
 | `;` (semicolon) | ~120ms | Piper phoneme model (native) |
 | `Yale-trained` (un-spaced hyphen) | none | deliberately preserved as compound word |
+
+**Note on the em-dash → comma substitution:** the *displayed* text in the
+dashboard keeps the em-dashes for stylistic clarity. The substitution only
+happens on the path that goes to Piper, so what you read and what you hear
+are both grammatical in their own register.
 
 ### Recording stop-on-silence (CLI only)
 
