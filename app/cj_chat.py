@@ -273,15 +273,66 @@ def generate_response(
 # ============================================================
 # Step 5: TTS — Piper
 # ============================================================
-def synthesize_speech(text: str, output_wav: str):
-    """Pipe text to Piper, write wav. Returns path."""
-    # Clean text for TTS — strip markdown markers, normalize whitespace
-    text = re.sub(r"[*_`]", "", text)
-    text = re.sub(r"\s+", " ", text).strip()
+def _prepare_tts_text(text: str) -> list[str]:
+    """Clean and split CJ's response into sentence-per-line input for Piper.
 
-    cmd = [PIPER_BIN, "--model", PIPER_VOICE, "--output_file", output_wav]
+    Why per-line: Piper applies --sentence_silence between each line of stdin
+    when --output_file is set, concatenating the result into a single wav.
+    That gives us a controllable breath between sentences while Piper's own
+    phoneme model handles intra-sentence pauses on commas, em-dashes, and
+    semicolons.
+    """
+    # Strip markdown markers but preserve punctuation
+    text = re.sub(r"[*_`]", "", text)
+
+    # Promote spaced hyphens " - " to em-dashes " — " so Piper pauses on them.
+    # Un-spaced hyphens (compound words like "Yale-trained") are left alone.
+    text = re.sub(r" - ", " — ", text)
+
+    # Normalize whitespace but keep newlines for downstream splitting.
+    text = re.sub(r"[ \t]+", " ", text)
+    text = text.strip()
+
+    if not text:
+        return []
+
+    # Split on sentence-end punctuation followed by whitespace OR a newline.
+    sentences = re.split(r"(?<=[.!?])\s+|\n+", text)
+    sentences = [s.strip() for s in sentences if s.strip()]
+    return sentences or [text]
+
+
+# Piper tuning — tweak here if the tempo feels off.
+TTS_SENTENCE_SILENCE = "0.5"   # seconds between sentences (default 0.2)
+TTS_LENGTH_SCALE = "1.05"      # >1 = slower; tiny slowdown = measured judicial tempo
+
+
+def synthesize_speech(text: str, output_wav: str):
+    """Synthesize text to a wav with breathable pauses on punctuation.
+
+    Splits CJ's response into sentences (one per line) and pipes them to
+    Piper. Piper inserts --sentence_silence between each line in the single
+    --output_file. Intra-sentence pauses on commas, em-dashes, and
+    semicolons come for free from Piper's phoneme model.
+    """
+    sentences = _prepare_tts_text(text)
+    if not sentences:
+        # Edge case: text was all markup. Write a near-silent wav so the
+        # caller's downstream playback doesn't crash on a missing file.
+        sentences = [" "]
+
+    piper_input = "\n".join(sentences)
+
+    cmd = [
+        PIPER_BIN,
+        "--model", PIPER_VOICE,
+        "--output_file", output_wav,
+        "--sentence_silence", TTS_SENTENCE_SILENCE,
+        "--length_scale", TTS_LENGTH_SCALE,
+        "--quiet",
+    ]
     try:
-        subprocess.run(cmd, input=text, text=True, check=True, capture_output=True)
+        subprocess.run(cmd, input=piper_input, text=True, check=True, capture_output=True)
     except subprocess.CalledProcessError as e:
         print(f"Piper failed: {e.stderr}", file=sys.stderr)
         raise
