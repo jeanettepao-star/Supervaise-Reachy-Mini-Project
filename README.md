@@ -89,8 +89,12 @@ The CLI (`cj_chat.py`) is still available for headless / terminal use.
 - Multi-user session management
 - Memory beyond the last 10 turns
 
-See [`corpus/build_kit/README.md`](corpus/build_kit/README.md) for the full
-architectural rationale and pipeline-stage documentation.
+See [`PROJECT.md`](PROJECT.md) for the full project document — scope,
+architecture, run instructions, verification suite, performance numbers,
+cost model, tuning knobs, changelog, and troubleshooting.
+
+See [`corpus/build_kit/README.md`](corpus/build_kit/README.md) for the
+original build-kit spec and pipeline-stage rationale.
 
 ---
 
