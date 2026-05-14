@@ -31,10 +31,11 @@ from cj_chat import (  # noqa: E402
     route_question,
     generate_response,
     synthesize_speech,
+    make_client,
     WHISPER_MODEL_SIZE,
     ARTIFACTS_DIR,
 )
-from anthropic import Anthropic  # noqa: E402
+from anthropic import Anthropic, APIStatusError, APIConnectionError  # noqa: E402
 
 
 # ----- Page chrome ---------------------------------------------------------
@@ -80,7 +81,9 @@ def get_whisper():
 
 @st.cache_resource(show_spinner="Connecting to Claude…")
 def get_client() -> Anthropic:
-    return Anthropic()
+    # max_retries=4 inside make_client() so transient 529/429 errors get
+    # retried automatically with exponential backoff before they bubble up.
+    return make_client()
 
 
 def get_tts_dir() -> Path:
@@ -252,23 +255,68 @@ if question:
     with st.chat_message("assistant", avatar=CJ_AVATAR):
         client = get_client()
 
-        with st.status("🧭 Picking relevant corpus topics…", expanded=False) as status:
-            routing = route_question(client, question, artifacts)
-            status.update(
-                label=(f"🧭 Routed to {routing['primary_topic']} "
-                       f"({routing['confidence']})"),
-                state="complete",
-            )
+        # The SDK already retries 5xx/429 with exponential backoff
+        # (ANTHROPIC_MAX_RETRIES = 4 in cj_chat.py). If we still get an error
+        # after that, show a friendly message and persist a marker turn so
+        # the user's question stays in history.
+        routing = None
+        response = None
+        api_error: str | None = None
+        try:
+            with st.status("🧭 Picking relevant corpus topics…", expanded=False) as status:
+                routing = route_question(client, question, artifacts)
+                status.update(
+                    label=(f"🧭 Routed to {routing['primary_topic']} "
+                           f"({routing['confidence']})"),
+                    state="complete",
+                )
 
-        with st.status("💭 CJ is composing his answer…", expanded=False) as status:
-            response = generate_response(
-                client, question, routing, artifacts, inference_history
+            with st.status("💭 CJ is composing his answer…", expanded=False) as status:
+                response = generate_response(
+                    client, question, routing, artifacts, inference_history
+                )
+                status.update(label="💭 Response ready", state="complete")
+        except APIStatusError as e:
+            # 529 = Anthropic overloaded; 429 = rate-limited; 5xx = upstream error.
+            # The SDK already retried ANTHROPIC_MAX_RETRIES times; if we're here
+            # the issue outlasted that window.
+            if e.status_code == 529:
+                api_error = (
+                    "Claude's servers are overloaded right now (HTTP 529). The app "
+                    "already retried automatically — please try the same question "
+                    "again in a few seconds. Your message is still in the conversation."
+                )
+            elif e.status_code == 429:
+                api_error = (
+                    "Hit Claude's rate limit (HTTP 429). Wait a few seconds and try again."
+                )
+            else:
+                api_error = (
+                    f"Claude API returned HTTP {e.status_code}: {e.message}. "
+                    f"Try again in a moment."
+                )
+        except APIConnectionError as e:
+            api_error = (
+                f"Couldn't reach Claude's API ({e}). Check your network connection "
+                f"and try again."
             )
-            status.update(label="💭 Response ready", state="complete")
+        except Exception as e:
+            api_error = f"Unexpected error contacting Claude: {type(e).__name__}: {e}"
+
+        if api_error:
+            st.error("⚠️  " + api_error)
+            st.session_state.messages.append({
+                "role": "assistant",
+                "content": "⚠️ " + api_error,
+                "audio_path": None,
+                "routing": None,
+                "is_error": True,
+            })
+            st.stop()
 
         st.markdown(response)
 
-        # 3. TTS (optional)
+        # 3. TTS (optional, never blocks the turn — TTS errors are local)
         audio_path = None
         if st.session_state.tts_enabled:
             with st.status("🔊 Synthesizing voice…", expanded=False) as status:

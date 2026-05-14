@@ -375,6 +375,8 @@ The dashboard uses the browser's mic widget instead and doesn't use these.
 
 | Symptom | Fix |
 |---|---|
+| **`OverloadedError: Error code: 529`** | Anthropic's servers are temporarily overloaded — not a code or auth problem. The SDK now auto-retries 4× with exponential backoff (~15s window) via `ANTHROPIC_MAX_RETRIES` in `cj_chat.py`. If retries still exhaust, the dashboard shows a friendly red banner and keeps your message in history; the CLI prints a clear message and continues. Just re-submit in a few seconds. |
+| **`RateLimitError: Error code: 429`** | You've hit the per-minute rate limit on your Anthropic key. Same retry mechanism applies. Tier-1 keys have lower limits — if you hit it often, request a tier upgrade in the Anthropic console. |
 | Router output unparseable | Haiku occasionally adds preamble. Reference impl strips code fences; drop router temp to 0 if persistent. |
 | Whisper hallucinates "Thank you" on silence | VAD is on by default. Bump `vad_parameters={"min_silence_duration_ms": 1000}` in `transcribe_audio`. |
 | Piper sounds robotic | That's Piper. Swap to OpenAI TTS `onyx` or ElevenLabs — single function (`synthesize_speech`) to change. |

@@ -78,6 +78,22 @@ WHISPER_MODEL_SIZE = os.environ.get("WHISPER_MODEL", "medium")
 SAMPLE_RATE = 16000
 RECORD_SECONDS_MAX = 30  # max utterance length before auto-cutoff
 
+
+# ============================================================
+# Anthropic client factory
+# ============================================================
+# Default SDK retry count is 2 with short backoff (~3s total). We bump to 4
+# (~15s of internal retry with exponential backoff + jitter) so transient
+# 529 "overloaded" errors and 429 rate-limits get retried automatically
+# without the caller seeing a traceback. The SDK retries on connection
+# errors, 408, 409, 429, and any 5xx — exactly the right set.
+ANTHROPIC_MAX_RETRIES = 4
+
+
+def make_client() -> Anthropic:
+    """Return an Anthropic client with retry tuned for transient overload."""
+    return Anthropic(max_retries=ANTHROPIC_MAX_RETRIES)
+
 # ============================================================
 # Load all artifacts at startup (one-shot)
 # ============================================================
@@ -457,17 +473,26 @@ def run_turn(
 
     print(f"\n👤 You: {question}\n")
 
-    # Step 2: Route
-    print("🧭 Routing...")
-    routing = route_question(client, question, artifacts)
-    print(f"   primary: {routing['primary_topic']}")
-    print(f"   secondary: {routing.get('secondary_topics', [])}")
-    print(f"   confidence: {routing['confidence']}")
+    # Steps 2-3: Route + Generate. The SDK already retries on 5xx/429 with
+    # exponential backoff (ANTHROPIC_MAX_RETRIES). If the retries are still
+    # exhausted, surface a friendly message instead of dumping a traceback.
+    try:
+        # Step 2: Route
+        print("🧭 Routing...")
+        routing = route_question(client, question, artifacts)
+        print(f"   primary: {routing['primary_topic']}")
+        print(f"   secondary: {routing.get('secondary_topics', [])}")
+        print(f"   confidence: {routing['confidence']}")
 
-    # Step 3: Generate
-    print("💭 Thinking...")
-    response = generate_response(client, question, routing, artifacts, conversation_history)
-    print(f"\n⚖️  CJ: {response}\n")
+        # Step 3: Generate
+        print("💭 Thinking...")
+        response = generate_response(client, question, routing, artifacts, conversation_history)
+        print(f"\n⚖️  CJ: {response}\n")
+    except Exception as e:
+        print(f"\n⚠️  Claude API call failed: {type(e).__name__}: {e}", file=sys.stderr)
+        print("   (Already retried automatically. Try again in a few seconds.)\n",
+              file=sys.stderr)
+        return question, "", {}
 
     # Step 4: Speak (unless text-only mode)
     if not skip_audio:
@@ -490,7 +515,7 @@ def main():
     artifacts = CorpusArtifacts(Path(args.artifacts))
     print(f"  ✓ {len(artifacts.topics)} topics loaded")
 
-    client = Anthropic()  # uses ANTHROPIC_API_KEY env var
+    client = make_client()  # uses ANTHROPIC_API_KEY env var, retries on 529/429
 
     if args.text:
         # Text-only single-turn test
