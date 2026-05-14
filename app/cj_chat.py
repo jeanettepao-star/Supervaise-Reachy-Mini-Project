@@ -59,23 +59,6 @@ if sys.platform == "win32":
 
 from anthropic import Anthropic
 
-# Dashboard state writer (optional — never break the CLI if writes fail)
-try:
-    import dashboard_state
-except ImportError:
-    dashboard_state = None
-
-
-def _dash(method: str, *args, **kwargs) -> None:
-    """Best-effort dashboard update; silently swallow errors so the CLI never
-    breaks because the state file couldn't be written."""
-    if dashboard_state is None:
-        return
-    try:
-        getattr(dashboard_state, method)(*args, **kwargs)
-    except Exception:
-        pass
-
 # ============================================================
 # Configuration
 # ============================================================
@@ -390,54 +373,41 @@ def run_turn(
 ) -> tuple[str, str, dict]:
     """One conversation turn. Returns (question, response, routing_info)."""
 
-    _dash("begin_turn")
-
     # Step 1: Get the question
     if question_text:
         question = question_text
-        _dash("set_status", "transcribing", "Reading provided text")
     else:
-        _dash("set_status", "listening", "Listening for your question…")
         audio_path = record_until_silence()
         print("📝 Transcribing...")
-        _dash("set_status", "transcribing", "Transcribing audio…")
         question = transcribe_audio(audio_path, whisper_model)
         os.unlink(audio_path)
 
     if not question.strip():
         print("(no speech detected)")
-        _dash("set_status", "idle", "No speech detected — try again")
         return "", "", {}
 
-    _dash("set_question", question)
     print(f"\n👤 You: {question}\n")
 
     # Step 2: Route
     print("🧭 Routing...")
-    _dash("set_status", "routing", "Picking the relevant topics…")
     routing = route_question(client, question, artifacts)
-    _dash("set_routing", routing)
     print(f"   primary: {routing['primary_topic']}")
     print(f"   secondary: {routing.get('secondary_topics', [])}")
     print(f"   confidence: {routing['confidence']}")
 
     # Step 3: Generate
     print("💭 Thinking...")
-    _dash("set_status", "thinking", "CJ is composing his answer…")
     response = generate_response(client, question, routing, artifacts, conversation_history)
-    _dash("set_response", response)
     print(f"\n⚖️  CJ: {response}\n")
 
     # Step 4: Speak (unless text-only mode)
     if not skip_audio:
         print("🔊 Speaking...")
-        _dash("set_status", "speaking", "CJ is speaking…")
         with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp:
             synthesize_speech(response, tmp.name)
             play_wav(tmp.name)
             os.unlink(tmp.name)
 
-    _dash("finish_turn")
     return question, response, routing
 
 

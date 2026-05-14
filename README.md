@@ -56,18 +56,15 @@ cd app
 .venv/Scripts/python.exe cj_chat.py --text "What is the rule of law?"
 ```
 
-For the full demo, run two terminals — the CLI for audio I/O and the Streamlit
-dashboard for the audience to watch:
+For the full demo, run the Streamlit chat app (mic input, text fallback,
+inline audio playback, sources expander):
 
 ```bash
-# Terminal 1
-cd app
-.venv/Scripts/python.exe cj_chat.py
-
-# Terminal 2
 cd app
 .venv/Scripts/streamlit run dashboard.py
 ```
+
+The CLI (`cj_chat.py`) is still available for headless / terminal use.
 
 ## Cost & performance targets
 

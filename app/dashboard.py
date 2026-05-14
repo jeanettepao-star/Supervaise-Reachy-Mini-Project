@@ -1,26 +1,41 @@
-"""Audience-facing dashboard for the CJ Panganiban conversation app.
+"""Interactive chat dashboard for the CJ Panganiban conversation app.
 
-The CLI (cj_chat.py) drives audio I/O and writes its state to
-`state/current.json` after each pipeline stage. This dashboard reads that file
-on a 1-second refresh and shows the audience what's happening — the question,
-which corpus topics matched, CJ's response, and a history of past turns.
+This is the primary UI: a Streamlit chat app with a mic input (record in the
+browser), a text-input fallback, inline playback of CJ's spoken response, and
+a Sources expander showing which canonical topics the router matched.
 
-Run alongside the CLI:
-    streamlit run dashboard.py
+Drives the same pipeline as the CLI (`cj_chat.py`):
+    faster-whisper (STT) → Claude Haiku (router) → Claude Sonnet (inference) → Piper (TTS)
 
-Then open the URL Streamlit prints (default: http://localhost:8501).
+Run:
+    .venv/Scripts/streamlit run dashboard.py
 """
 from __future__ import annotations
 
-import json
+import hashlib
+import os
+import sys
+import tempfile
 import time
 from pathlib import Path
-from datetime import datetime
 
 import streamlit as st
 
-STATE_FILE = Path(__file__).parent / "state" / "current.json"
-REFRESH_SECONDS = 1.0
+# Importing cj_chat triggers .env loading and Windows UTF-8 setup, so do it
+# before any Anthropic / faster-whisper imports below.
+sys.path.insert(0, str(Path(__file__).parent))
+import cj_chat  # noqa: F401, E402
+from cj_chat import (  # noqa: E402
+    CorpusArtifacts,
+    transcribe_audio,
+    route_question,
+    generate_response,
+    synthesize_speech,
+    WHISPER_MODEL_SIZE,
+    ARTIFACTS_DIR,
+)
+from anthropic import Anthropic  # noqa: E402
+
 
 # ----- Page chrome ---------------------------------------------------------
 st.set_page_config(
@@ -30,202 +45,253 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
-# Tasteful CSS — single-column dark feel, generous spacing.
 st.markdown(
     """
     <style>
       .stApp { background: #0e1117; }
-      .big-question {
-        font-size: 1.6rem; line-height: 1.4;
-        color: #e6e6e6; font-style: italic;
-        padding: 1rem 1.2rem; border-left: 4px solid #6c8eef;
-        background: #1a1f2e; border-radius: 6px;
-      }
-      .cj-response {
-        font-size: 1.25rem; line-height: 1.6;
-        color: #f6f1e1; padding: 1.4rem 1.6rem;
-        background: #1a1812; border-left: 4px solid #c4a747;
-        border-radius: 6px; white-space: pre-wrap;
-      }
-      .stage-label { color: #9aa4b3; font-size: 0.95rem; }
+      .stChatMessage { font-size: 1.05rem; line-height: 1.55; }
+      .source-meta { color: #9aa4b3; font-size: 0.88rem; }
       .topic-pill {
-        display: inline-block; padding: 0.25rem 0.7rem; margin: 0.15rem 0.3rem 0.15rem 0;
-        border-radius: 999px; font-size: 0.85rem; font-weight: 500;
+        display: inline-block; padding: 0.15rem 0.55rem; margin: 0.1rem 0.3rem 0.1rem 0;
+        border-radius: 999px; font-size: 0.78rem; font-weight: 500;
       }
-      .topic-primary { background: #2d4ea8; color: #fff; }
+      .topic-primary   { background: #2d4ea8; color: #fff; }
       .topic-secondary { background: #2a3144; color: #c5cad6; }
-      .conf-high { color: #4ad295; }
-      .conf-medium { color: #e6c149; }
-      .conf-low { color: #d97f5f; }
-      .turn-card {
-        padding: 0.9rem 1.1rem; margin-bottom: 0.6rem;
-        background: #161a23; border-radius: 6px; border: 1px solid #232936;
-      }
-      .turn-card-question { color: #c5cad6; font-style: italic; margin-bottom: 0.3rem; }
-      .turn-card-response { color: #d8d3c3; font-size: 0.92rem; }
-      .turn-meta { color: #6f7889; font-size: 0.78rem; margin-bottom: 0.25rem; }
+      .conf-high   { color: #4ad295; font-weight: 600; }
+      .conf-medium { color: #e6c149; font-weight: 600; }
+      .conf-low    { color: #d97f5f; font-weight: 600; }
     </style>
     """,
     unsafe_allow_html=True,
 )
 
 
-# ----- State load ----------------------------------------------------------
-def load_state() -> dict:
-    if not STATE_FILE.exists():
-        return {
-            "status": "idle",
-            "turn_id": 0,
-            "question": None,
-            "routing": None,
-            "response": None,
-            "stage_label": "Waiting for the CLI to start a turn",
-            "history": [],
-        }
-    try:
-        with open(STATE_FILE, encoding="utf-8") as f:
-            return json.load(f)
-    except (OSError, json.JSONDecodeError):
-        # tear between writer's rename and our read — show last known state
-        return st.session_state.get("_last_state", {
-            "status": "idle", "turn_id": 0, "stage_label": "Reading state…",
-            "question": None, "routing": None, "response": None, "history": [],
-        })
+# ----- Cached resources (loaded once per Streamlit session) ----------------
+@st.cache_resource(show_spinner="Loading corpus artifacts…")
+def get_artifacts() -> CorpusArtifacts:
+    return CorpusArtifacts(ARTIFACTS_DIR)
 
 
-state = load_state()
-st.session_state["_last_state"] = state
+@st.cache_resource(show_spinner="Loading faster-whisper (first time downloads the model)…")
+def get_whisper():
+    from faster_whisper import WhisperModel
+    return WhisperModel(WHISPER_MODEL_SIZE, device="cpu", compute_type="int8")
+
+
+@st.cache_resource(show_spinner="Connecting to Claude…")
+def get_client() -> Anthropic:
+    return Anthropic()
+
+
+def get_tts_dir() -> Path:
+    d = Path(__file__).parent / "state" / "tts"
+    d.mkdir(parents=True, exist_ok=True)
+    return d
+
+
+# ----- Session state -------------------------------------------------------
+if "messages" not in st.session_state:
+    st.session_state.messages = []  # list of {role, content, audio_path?, routing?}
+if "last_audio_hash" not in st.session_state:
+    st.session_state.last_audio_hash = None
+if "mic_counter" not in st.session_state:
+    st.session_state.mic_counter = 0
+if "tts_enabled" not in st.session_state:
+    st.session_state.tts_enabled = True
+
+
+# ----- Sidebar -------------------------------------------------------------
+with st.sidebar:
+    st.markdown("### Settings")
+    st.session_state.tts_enabled = st.checkbox(
+        "Generate Piper voice", value=st.session_state.tts_enabled,
+        help="When on, each response is also synthesized to audio. Adds ~5-10s/turn on CPU.",
+    )
+    if st.button("🧹 Clear conversation"):
+        st.session_state.messages = []
+        st.session_state.last_audio_hash = None
+        st.session_state.mic_counter += 1
+        st.rerun()
+    st.markdown("---")
+    st.markdown(
+        "**Pipeline**: faster-whisper (STT) → "
+        "Claude Haiku 4.5 (router) → "
+        "Claude Sonnet 4.6 (inference) → "
+        "Piper (TTS)."
+    )
+    st.caption(f"Whisper model: `{WHISPER_MODEL_SIZE}`")
+    st.caption(f"Topics loaded: {len(get_artifacts().topics)}")
 
 
 # ----- Header --------------------------------------------------------------
-left, right = st.columns([4, 1])
-with left:
-    st.markdown(
-        "<h1 style='margin-bottom:0; color:#f6f1e1;'>⚖️ With Due Respect</h1>"
-        "<p style='color:#9aa4b3; margin-top:0.2rem;'>"
-        "A conversation with retired Chief Justice Artemio V. Panganiban"
-        "</p>",
-        unsafe_allow_html=True,
-    )
-with right:
-    # Status indicator
-    status = state.get("status", "idle")
-    label = state.get("stage_label") or status.title()
-    color = {
-        "idle": "#6f7889",
-        "listening": "#4ad295",
-        "transcribing": "#6c8eef",
-        "routing": "#9b6ce6",
-        "thinking": "#e6c149",
-        "speaking": "#d97f5f",
-        "done": "#4ad295",
-    }.get(status, "#6f7889")
-    pulsing = status in {"listening", "transcribing", "routing", "thinking", "speaking"}
-    dot = (
-        f"<span style='display:inline-block; width:12px; height:12px; "
-        f"background:{color}; border-radius:50%; margin-right:0.5rem; "
-        f"{'animation: pulse 1.2s infinite;' if pulsing else ''}'></span>"
-    )
-    st.markdown(
-        f"<div style='text-align:right; padding-top:1.4rem;'>{dot}"
-        f"<span class='stage-label'>{label}</span></div>"
-        "<style>@keyframes pulse {0%,100%{opacity:1}50%{opacity:0.3}}</style>",
-        unsafe_allow_html=True,
-    )
-
-st.markdown("<div style='margin: 1.2rem 0; border-top:1px solid #232936;'></div>",
+st.markdown(
+    "<h1 style='margin-bottom:0; color:#f6f1e1;'>⚖️ With Due Respect</h1>"
+    "<p style='color:#9aa4b3; margin-top:0.2rem;'>"
+    "A conversation with retired Chief Justice Artemio V. Panganiban"
+    "</p>",
+    unsafe_allow_html=True,
+)
+st.markdown("<div style='margin: 0.6rem 0 1rem; border-top:1px solid #232936;'></div>",
             unsafe_allow_html=True)
 
 
-# ----- Current turn --------------------------------------------------------
-turn_id = state.get("turn_id", 0)
-if turn_id == 0:
-    st.info(
-        "No turns yet. Start the CLI in a separate terminal:\n\n"
-        "```\n.venv\\Scripts\\python.exe cj_chat.py\n```\n\n"
-        "Press Enter, speak your question, and watch this page."
-    )
-else:
-    st.markdown(f"<div class='stage-label'>Turn {turn_id}</div>",
-                unsafe_allow_html=True)
+# ----- Source-rendering helper --------------------------------------------
+def render_sources(routing: dict, artifacts: CorpusArtifacts) -> None:
+    """Render an expander showing the routed topics and the raw docs the
+    inference call would have seen (the top 3 doc_ids of the primary topic)."""
+    primary = routing.get("primary_topic", "—")
+    secondary = routing.get("secondary_topics", []) or []
+    confidence = routing.get("confidence", "—")
+    reasoning = routing.get("reasoning", "")
 
-    # Question
-    question = state.get("question")
-    if question:
-        st.markdown(
-            f"<div class='big-question'>{question}</div>",
-            unsafe_allow_html=True,
-        )
-    elif status == "listening":
-        st.markdown(
-            "<div class='big-question' style='color:#6f7889;'>"
-            "<em>Listening for the question…</em></div>",
-            unsafe_allow_html=True,
-        )
+    primary_topic_obj = artifacts.topics.get(primary, {})
+    doc_ids = primary_topic_obj.get("doc_ids", [])[:3]
+    primary_display = primary_topic_obj.get("display_name", primary)
 
-    # Routing
-    routing = state.get("routing")
-    if routing:
-        st.markdown("<div style='margin-top:1rem;'></div>", unsafe_allow_html=True)
-        primary = routing.get("primary_topic", "—")
-        secondary = routing.get("secondary_topics", []) or []
-        confidence = routing.get("confidence", "—")
-        reasoning = routing.get("reasoning", "")
-
+    with st.expander(f"📚 Sources — {primary_display} ({confidence})"):
+        # Topic pills
         pills = [f"<span class='topic-pill topic-primary'>{primary}</span>"]
         for t in secondary:
             pills.append(f"<span class='topic-pill topic-secondary'>{t}</span>")
+        st.markdown("**Routed topics:** " + " ".join(pills), unsafe_allow_html=True)
 
         conf_class = f"conf-{confidence}" if confidence in {"high", "medium", "low"} else ""
         st.markdown(
-            "<div class='stage-label'>Routed to</div>"
-            f"<div style='margin-top:0.3rem;'>{''.join(pills)}</div>"
-            f"<div class='stage-label' style='margin-top:0.5rem;'>"
-            f"confidence: <span class='{conf_class}'>{confidence}</span>"
-            f"{(' — ' + reasoning) if reasoning else ''}</div>",
+            f"**Confidence:** <span class='{conf_class}'>{confidence}</span>",
             unsafe_allow_html=True,
         )
+        if reasoning:
+            st.markdown(f"**Router reasoning:** *{reasoning}*")
 
-    # Response
-    response = state.get("response")
-    if response:
-        st.markdown("<div style='margin-top:1.4rem;'></div>", unsafe_allow_html=True)
-        st.markdown(f"<div class='cj-response'>{response}</div>",
-                    unsafe_allow_html=True)
-    elif status == "thinking":
-        st.markdown(
-            "<div class='cj-response' style='color:#9aa4b3;'>"
-            "<em>CJ is composing his answer…</em></div>",
-            unsafe_allow_html=True,
-        )
+        if doc_ids:
+            st.markdown("**Source documents (top 3 of primary topic):**")
+            for did in doc_ids:
+                raw = artifacts.load_raw_doc(did)
+                if not raw:
+                    st.markdown(f"- `{did}`")
+                    continue
+                title = raw.get("title", did)
+                date = raw.get("date", "")
+                meta = f" · {date}" if date else ""
+                st.markdown(f"- **{title}**<span class='source-meta'>  ·  `{did}`{meta}</span>",
+                            unsafe_allow_html=True)
 
 
-# ----- History (past turns) ------------------------------------------------
-history = state.get("history", []) or []
-# Don't double-show the current turn if it's already in history
-past = [h for h in history if h.get("turn_id") != turn_id]
-if past:
-    st.markdown("<div style='margin-top: 2.5rem;'></div>", unsafe_allow_html=True)
-    with st.expander(f"📜 Earlier turns ({len(past)})", expanded=False):
-        for h in reversed(past[-10:]):  # most recent first, cap at 10 for screen real estate
-            q = h.get("question") or "—"
-            r = h.get("response") or "—"
-            rt = h.get("routing") or {}
-            primary = rt.get("primary_topic", "—")
-            ts = h.get("ts")
-            time_str = datetime.fromtimestamp(ts).strftime("%H:%M:%S") if ts else ""
-            st.markdown(
-                f"<div class='turn-card'>"
-                f"<div class='turn-meta'>Turn {h.get('turn_id')} · {time_str} · "
-                f"→ <span style='color:#8aa0d8;'>{primary}</span></div>"
-                f"<div class='turn-card-question'>“{q}”</div>"
-                f"<div class='turn-card-response'>{r}</div>"
-                f"</div>",
-                unsafe_allow_html=True,
+# ----- Render conversation history ----------------------------------------
+artifacts = get_artifacts()
+USER_AVATAR = "👤"
+CJ_AVATAR = "⚖️"
+
+for msg in st.session_state.messages:
+    avatar = USER_AVATAR if msg["role"] == "user" else CJ_AVATAR
+    with st.chat_message(msg["role"], avatar=avatar):
+        st.markdown(msg["content"])
+        ap = msg.get("audio_path")
+        if ap and Path(ap).exists():
+            st.audio(ap)
+        if msg.get("routing"):
+            render_sources(msg["routing"], artifacts)
+
+
+# ----- Input row: mic + text fallback -------------------------------------
+mic_col, _ = st.columns([1, 1])
+with mic_col:
+    audio_in = st.audio_input(
+        "🎤 Press to record your question",
+        key=f"mic_{st.session_state.mic_counter}",
+    )
+
+text_in = st.chat_input("…or type it (fallback)")
+
+
+# ----- Resolve the new input to a question string -------------------------
+question: str | None = None
+
+if audio_in is not None:
+    audio_bytes = audio_in.getvalue()
+    audio_hash = hashlib.md5(audio_bytes).hexdigest()
+    if audio_hash != st.session_state.last_audio_hash:
+        st.session_state.last_audio_hash = audio_hash
+        with st.status("Transcribing your question…", expanded=False):
+            with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp:
+                tmp.write(audio_bytes)
+                wav_path = tmp.name
+            try:
+                question = transcribe_audio(wav_path, get_whisper())
+            finally:
+                try:
+                    os.unlink(wav_path)
+                except OSError:
+                    pass
+        if not question or not question.strip():
+            st.warning("No speech detected — please try again.")
+            question = None
+        else:
+            # bump mic key so the widget resets for the next question
+            st.session_state.mic_counter += 1
+
+if text_in:
+    question = text_in
+
+
+# ----- Run the turn --------------------------------------------------------
+if question:
+    # 1. Render the user's message immediately, append to history
+    st.session_state.messages.append({"role": "user", "content": question})
+    with st.chat_message("user", avatar=USER_AVATAR):
+        st.markdown(question)
+
+    # Conversation history for the inference call (last 10 turns = 20 messages)
+    inference_history = [
+        {"role": m["role"], "content": m["content"]}
+        for m in st.session_state.messages[:-1]
+        if m["role"] in ("user", "assistant")
+    ][-20:]
+
+    # 2. Render the assistant's response stage by stage
+    with st.chat_message("assistant", avatar=CJ_AVATAR):
+        client = get_client()
+
+        with st.status("🧭 Picking relevant corpus topics…", expanded=False) as status:
+            routing = route_question(client, question, artifacts)
+            status.update(
+                label=(f"🧭 Routed to {routing['primary_topic']} "
+                       f"({routing['confidence']})"),
+                state="complete",
             )
 
+        with st.status("💭 CJ is composing his answer…", expanded=False) as status:
+            response = generate_response(
+                client, question, routing, artifacts, inference_history
+            )
+            status.update(label="💭 Response ready", state="complete")
 
-# ----- Auto-refresh --------------------------------------------------------
-# Built-in approach — sleep then rerun. Avoids the streamlit-autorefresh dep.
-time.sleep(REFRESH_SECONDS)
-st.rerun()
+        st.markdown(response)
+
+        # 3. TTS (optional)
+        audio_path = None
+        if st.session_state.tts_enabled:
+            with st.status("🔊 Synthesizing voice…", expanded=False) as status:
+                audio_path = str(get_tts_dir() / f"resp_{int(time.time()*1000)}.wav")
+                try:
+                    synthesize_speech(response, audio_path)
+                    status.update(label="🔊 Voice ready", state="complete")
+                except Exception as e:
+                    status.update(label=f"TTS failed: {e}", state="error")
+                    audio_path = None
+            if audio_path and Path(audio_path).exists():
+                st.audio(audio_path, autoplay=True)
+
+        # 4. Sources
+        render_sources(routing, artifacts)
+
+    # 5. Persist the assistant turn so it survives the next rerun
+    st.session_state.messages.append({
+        "role": "assistant",
+        "content": response,
+        "audio_path": audio_path,
+        "routing": routing,
+    })
+
+    # Trigger one rerun so the mic widget resets cleanly via the bumped key
+    st.rerun()

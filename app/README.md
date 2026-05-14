@@ -52,38 +52,44 @@ Press Enter to start each turn. Speak your question. The recorder stops
 automatically after ~1.2s of trailing silence. The app transcribes, routes,
 generates, and speaks the response. Ctrl+C to exit.
 
-### Run the audience dashboard (optional)
+### Run the chat dashboard (the demo UI)
 
-The dashboard is a Streamlit page that mirrors what the CLI is doing —
-showing the question, routing decision, and CJ's response in big readable
-type. Useful for projecting to an audience while you drive the CLI.
-
-Open **two** terminals:
+The dashboard is a self-contained Streamlit chat app — mic input, text
+fallback, inline playback of CJ's spoken response, and a Sources expander
+showing which corpus topics matched. It's the primary UI for the demo.
 
 ```bash
-# Terminal 1 — the CLI (drives the mic + speakers)
-.venv/Scripts/python.exe cj_chat.py
-
-# Terminal 2 — the dashboard (browser UI for the audience)
 .venv/Scripts/streamlit run dashboard.py
 ```
 
-Then open the URL Streamlit prints (default `http://localhost:8501`).
-The dashboard auto-refreshes every second.
+Then open the URL Streamlit prints (default `http://localhost:8501`). The
+first time you click 🎤 in the browser, Chrome/Edge will ask for microphone
+permission — accept it.
 
-The CLI writes turn state to `state/current.json` (gitignored, regenerated
-each turn). The dashboard reads it — there's no other coupling, so if the
-dashboard crashes the CLI keeps working, and vice versa.
+**How it works:**
+- 🎤 records in the browser; click record, speak, click stop
+- Or type into the "…or type it (fallback)" box at the bottom
+- The same pipeline runs: faster-whisper → router (Haiku) → inference (Sonnet) → Piper TTS
+- CJ's response plays inline; the Sources expander shows the primary topic,
+  secondary topics, confidence, router reasoning, and the top 3 source
+  documents that informed the answer
+- Conversation history is kept in the browser session (last 10 turns are
+  passed to the inference call for context); "🧹 Clear conversation" in the
+  sidebar resets it
+- Sidebar toggle "Generate Piper voice" — turn off to skip TTS (~5-10s
+  faster per turn) if you only want text replies during testing
+
+The CLI (`cj_chat.py`) is still available for headless / terminal use and
+covers the same pipeline.
 
 ## Repo layout
 
 ```
 app/
 ├── cj_chat.py              # CLI entrypoint (text + voice modes, drives audio I/O)
-├── dashboard.py            # Streamlit audience UI (reads state/current.json)
-├── dashboard_state.py      # Shared state writer used by cj_chat.py
-├── state/                  # Runtime state for the dashboard (GITIGNORED)
-│   └── current.json        # Overwritten on every pipeline stage
+├── dashboard.py            # Streamlit chat app (mic + text fallback, the demo UI)
+├── state/                  # Runtime artifacts e.g. generated TTS wavs (GITIGNORED)
+│   └── tts/
 ├── README.md               # You are here
 ├── .env                    # ANTHROPIC_API_KEY + paths (GITIGNORED — never commit)
 ├── .gitignore
