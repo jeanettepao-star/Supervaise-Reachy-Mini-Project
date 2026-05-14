@@ -337,7 +337,7 @@ def _prepare_tts_text(text: str) -> list[str]:
 
 
 # Piper tuning — tweak here if the tempo feels off.
-TTS_SENTENCE_SILENCE = "0.5"   # seconds between sentences (default 0.2)
+TTS_SENTENCE_SILENCE = "0.6"   # seconds between sentences AND after em-dashes (Piper default 0.2)
 TTS_LENGTH_SCALE = "1.05"      # >1 = slower; tiny slowdown = measured judicial tempo
 
 

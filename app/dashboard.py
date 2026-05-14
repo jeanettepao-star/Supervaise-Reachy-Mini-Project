@@ -31,7 +31,9 @@ from cj_chat import (  # noqa: E402
     route_question,
     generate_response,
     synthesize_speech,
+    _prepare_tts_text,
     make_client,
+    TTS_SENTENCE_SILENCE,
     WHISPER_MODEL_SIZE,
     ARTIFACTS_DIR,
 )
@@ -109,6 +111,11 @@ with st.sidebar:
     st.session_state.tts_enabled = st.checkbox(
         "Generate Piper voice", value=st.session_state.tts_enabled,
         help="When on, each response is also synthesized to audio. Adds ~5-10s/turn on CPU.",
+    )
+    st.session_state.show_tts_debug = st.checkbox(
+        "Show TTS chunks (debug)", value=False,
+        help="Show the per-line text Piper saw, marked where each "
+             f"{TTS_SENTENCE_SILENCE}s pause is inserted.",
     )
     if st.button("🧹 Clear conversation"):
         st.session_state.messages = []
@@ -332,6 +339,19 @@ if question:
 
         # 4. Sources
         render_sources(routing, artifacts)
+
+        # 5. TTS debug — show the chunks Piper actually saw (collapsed by default)
+        if st.session_state.get("show_tts_debug"):
+            with st.expander(f"🔊 TTS chunks ({TTS_SENTENCE_SILENCE}s pause between)"):
+                chunks = _prepare_tts_text(response)
+                for i, c in enumerate(chunks, 1):
+                    marker = " ⏸" if i > 1 else ""
+                    st.markdown(f"`[{i}]` {c}{marker}")
+                st.caption(
+                    f"Each `⏸` = {TTS_SENTENCE_SILENCE}s of silence inserted by Piper. "
+                    "Em-dashes and sentence-ends both split the text here, so both "
+                    "get the same pause length."
+                )
 
     # 5. Persist the assistant turn so it survives the next rerun
     st.session_state.messages.append({
