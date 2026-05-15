@@ -94,6 +94,77 @@ def make_client() -> Anthropic:
     """Return an Anthropic client with retry tuned for transient overload."""
     return Anthropic(max_retries=ANTHROPIC_MAX_RETRIES)
 
+
+# ============================================================
+# Prompt cache observability
+# ============================================================
+# Anthropic returns cache_creation_input_tokens and cache_read_input_tokens
+# on every response with a Usage object. We accumulate them so a session-end
+# summary (or live dashboard panel) can show how much caching saved.
+CACHE_STATS: dict[str, dict[str, int]] = {
+    "router":    {"creation": 0, "read": 0, "regular_input": 0, "output": 0, "calls": 0},
+    "inference": {"creation": 0, "read": 0, "regular_input": 0, "output": 0, "calls": 0},
+}
+
+
+def _log_cache_usage(label: str, usage) -> None:
+    """Update CACHE_STATS and print a one-liner per call. Safe if Usage is
+    missing fields (older SDK) — getattr defaults to 0."""
+    creation = getattr(usage, "cache_creation_input_tokens", 0) or 0
+    read     = getattr(usage, "cache_read_input_tokens", 0) or 0
+    regular  = getattr(usage, "input_tokens", 0) or 0
+    output   = getattr(usage, "output_tokens", 0) or 0
+    s = CACHE_STATS.get(label)
+    if s is not None:
+        s["creation"]      += creation
+        s["read"]          += read
+        s["regular_input"] += regular
+        s["output"]        += output
+        s["calls"]         += 1
+    if creation or read:
+        marker = "WRITE" if creation else "HIT  "
+        print(f"   cache[{label}] {marker}  read={read}  write={creation}  "
+              f"regular_input={regular}  output={output}", file=sys.stderr)
+
+
+def cache_savings_summary() -> str:
+    """Return a human-readable cost breakdown showing what prompt caching saved.
+    Uses late-2025 Anthropic pricing for Haiku 4.5 and Sonnet 4.6."""
+    # $/MTok: (regular_input, cache_write_1.25x, cache_read_0.1x, output)
+    PRICES = {
+        "router":    (1.00, 1.25, 0.10, 5.00),    # Haiku 4.5
+        "inference": (3.00, 3.75, 0.30, 15.00),   # Sonnet 4.6
+    }
+    lines = []
+    grand_paid = 0.0
+    grand_baseline = 0.0
+    for label, s in CACHE_STATS.items():
+        if s["calls"] == 0:
+            continue
+        p_in, p_write, p_read, p_out = PRICES[label]
+        paid = (s["regular_input"] * p_in + s["creation"] * p_write
+                + s["read"] * p_read + s["output"] * p_out) / 1e6
+        baseline = ((s["regular_input"] + s["creation"] + s["read"]) * p_in
+                    + s["output"] * p_out) / 1e6
+        saved = baseline - paid
+        grand_paid += paid
+        grand_baseline += baseline
+        lines.append(
+            f"{label:>9s}: {s['calls']:>3d} calls | "
+            f"input={s['regular_input']+s['creation']+s['read']:>6d} tok "
+            f"(read={s['read']}, write={s['creation']}, regular={s['regular_input']}) | "
+            f"output={s['output']:>5d} | paid ${paid:.4f} vs baseline ${baseline:.4f} "
+            f"(saved ${saved:.4f})"
+        )
+    if not lines:
+        return "(no API calls yet)"
+    lines.append(
+        f"   TOTAL paid: ${grand_paid:.4f}  vs without caching: ${grand_baseline:.4f}  "
+        f"=>  saved ${grand_baseline - grand_paid:.4f} "
+        f"({100*(grand_baseline-grand_paid)/grand_baseline:.0f}%)"
+    )
+    return "\n".join(lines)
+
 # ============================================================
 # Load all artifacts at startup (one-shot)
 # ============================================================
@@ -148,13 +219,24 @@ def transcribe_audio(audio_path: str, model) -> str:
 # Step 2: Router — Claude Haiku
 # ============================================================
 def route_question(client: Anthropic, question: str, artifacts: CorpusArtifacts) -> dict:
-    """Returns the parsed router output dict, with validated topic IDs."""
+    """Returns the parsed router output dict, with validated topic IDs.
+
+    Uses Anthropic prompt caching on the router system prompt: the topic list
+    (~2,400 tokens) is identical every call, so after the first turn each
+    subsequent turn within the 5-minute TTL pays only 10% of the input cost
+    on those tokens.
+    """
     resp = client.messages.create(
         model=ROUTER_MODEL,
         max_tokens=300,
-        system=artifacts.router_system,
+        system=[{
+            "type": "text",
+            "text": artifacts.router_system,
+            "cache_control": {"type": "ephemeral"},
+        }],
         messages=[{"role": "user", "content": question}],
     )
+    _log_cache_usage("router", resp.usage)
     raw = resp.content[0].text.strip()
     # Strip code fences if Haiku added them
     raw = re.sub(r"^```(?:json)?\s*", "", raw)
@@ -280,9 +362,14 @@ def generate_response(
     resp = client.messages.create(
         model=INFERENCE_MODEL,
         max_tokens=600,  # spoken responses ~80-250 words = ~120-350 tokens
-        system=artifacts.voice_card,
+        system=[{
+            "type": "text",
+            "text": artifacts.voice_card,
+            "cache_control": {"type": "ephemeral"},
+        }],
         messages=messages,
     )
+    _log_cache_usage("inference", resp.usage)
     return _strip_stage_directions(resp.content[0].text.strip())
 
 
@@ -589,6 +676,8 @@ def main():
     if args.text:
         # Text-only single-turn test
         run_turn(client, artifacts, None, question_text=args.text, skip_audio=True)
+        print("\n--- Cache usage ---")
+        print(cache_savings_summary())
         return
 
     # Voice mode: load whisper, push-to-talk loop
@@ -609,6 +698,8 @@ def main():
                 # Trim history to last 10 turns to keep context manageable
                 conversation_history = conversation_history[-20:]
     except KeyboardInterrupt:
+        print("\n--- Cache usage ---")
+        print(cache_savings_summary())
         print("\nGoodbye. Maraming salamat po.")
 
 

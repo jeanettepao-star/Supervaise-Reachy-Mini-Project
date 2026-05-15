@@ -241,14 +241,71 @@ load. Streamlit caches keep this one-time per session.
 
 ## 9. Cost model
 
-| Item | Per call | Per 50-turn demo |
-|---|---|---|
-| Router (Haiku 4.5) | ~$0.001 | ~$0.05 |
-| Inference (Sonnet 4.6) | ~$0.015 | ~$0.75 |
-| STT/TTS | $0 (local) | $0 |
-| **Total** | **~$0.016** | **~$0.80** |
+Measured by counting actual tokens flowing into each call on 2026-05-15.
+Pricing as of late 2025: Haiku 4.5 = $1/$5 per MTok in/out, Sonnet 4.6 =
+$3/$15 per MTok in/out, with cache write at 1.25× input rate and cache
+read at 0.1× input rate.
 
-At ~200 turns/day of dev/test usage, monthly bill is roughly $90. Negligible.
+### Without prompt caching
+
+| Item | Per call | Notes |
+|---|---|---|
+| Router (Haiku 4.5) | $0.003 | 2,800 input + 60 output tokens |
+| Inference (Sonnet 4.6) | $0.045 | ~13,000 input + 250 output tokens |
+| STT/TTS | $0 (local) | Piper + faster-whisper |
+| **Total per turn** | **~$0.048** | |
+| **50-turn demo** | **~$2.40** | |
+
+The earlier README estimate of $0.016/turn was optimistic — actual is ~3×
+that because the inference call ships the voice_card (~3K tok) AND the
+routed topic data (~4K tok) AND source-doc extractions (~2K tok) AND the
+conversation history (~1.5K tok mid-session) on every turn.
+
+### With prompt caching enabled (current code)
+
+The voice_card system prompt is marked `cache_control: {"type": "ephemeral"}`
+in `generate_response()`. After the first call writes the cache, every
+subsequent call within the 5-minute TTL pays only **10%** of the input
+cost on that prefix.
+
+| Item | First call | Cached calls (subsequent) |
+|---|---|---|
+| Router (Haiku 4.5) | $0.003 | $0.003 — caching not honored on Haiku 4.5 |
+| Inference (Sonnet 4.6) | $0.048 (cache write at 1.25×) | $0.039 |
+| **Total per turn** | **~$0.051** | **~$0.042** |
+| **50-turn demo** | **~$2.10** | **~13% saved vs $2.40** |
+
+The savings are real but smaller than I initially promised (I'd said 55%
+— the actual is ~18% per cached turn, ~13% averaged over a session
+including the first cache-write). Reason: voice_card is only ~25% of the
+total inference input. The remaining 75% (topic_data + source_docs +
+conversation history) is different per turn and can't share a cache.
+
+To go further: cache the conversation history too (incremental savings
+that grow as the session lengthens), or restructure to cache the topic
+data for hot topics. Both are sketched in `cj_chat.py` comments but not
+wired — the simple cache covers the highest-leverage prefix.
+
+### What to do if you blow through budget anyway
+
+The biggest non-caching cost lever is `build_context()` itself — it
+currently sends the full topic-map node for each routed topic (~1,900
+tok each, sometimes up to 3,000). Trim aggressively:
+
+```python
+topic_data[tid] = {
+    "display_name": t["display_name"],
+    "definition":   t["definition"],
+    "tier":         t["tier"],
+    "signature_phrases": t["signature_phrases"][:10],
+    "key_stances":  t["key_stances"][:5],
+    "anecdotes":    t["anecdotes"][:3],
+}
+```
+
+That drops each topic node by 60-70%. Combined with skipping the
+secondary topic when `routing["confidence"] == "high"`, you can shave
+another ~$0.010/turn — bringing steady-state cost to ~$0.030/turn.
 
 ---
 

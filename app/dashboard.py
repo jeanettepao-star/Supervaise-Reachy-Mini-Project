@@ -33,6 +33,8 @@ from cj_chat import (  # noqa: E402
     synthesize_speech,
     _prepare_tts_text,
     make_client,
+    cache_savings_summary,
+    CACHE_STATS,
     TTS_SENTENCE_SILENCE,
     WHISPER_MODEL_SIZE,
     ARTIFACTS_DIR,
@@ -131,6 +133,34 @@ with st.sidebar:
     )
     st.caption(f"Whisper model: `{WHISPER_MODEL_SIZE}`")
     st.caption(f"Topics loaded: {len(get_artifacts().topics)}")
+
+    # ---- Prompt cache stats panel ----
+    inf = CACHE_STATS["inference"]
+    rt = CACHE_STATS["router"]
+    if inf["calls"] or rt["calls"]:
+        st.markdown("---")
+        st.markdown("### 💰 Prompt cache (this session)")
+        # Compute paid vs baseline cost
+        paid = (
+            inf["regular_input"]*3 + inf["creation"]*3.75 + inf["read"]*0.30 + inf["output"]*15
+            + rt["regular_input"]*1 + rt["creation"]*1.25 + rt["read"]*0.10 + rt["output"]*5
+        ) / 1e6
+        baseline = (
+            (inf["regular_input"]+inf["creation"]+inf["read"])*3 + inf["output"]*15
+            + (rt["regular_input"]+rt["creation"]+rt["read"])*1 + rt["output"]*5
+        ) / 1e6
+        saved_pct = (100*(baseline-paid)/baseline) if baseline > 0 else 0
+        col_l, col_r = st.columns(2)
+        col_l.metric("Paid", f"${paid:.4f}")
+        col_r.metric("Saved", f"${baseline-paid:.4f}", f"{saved_pct:.0f}%")
+        st.caption(
+            f"Inference: {inf['calls']} calls · "
+            f"{inf['read']:,} cached-read tok · {inf['creation']:,} cache-write tok"
+        )
+        st.caption(
+            f"Router: {rt['calls']} calls · "
+            f"caching not honored on Haiku 4.5 in this SDK version"
+        )
 
 
 # ----- Header --------------------------------------------------------------
