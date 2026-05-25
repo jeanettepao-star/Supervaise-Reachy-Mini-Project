@@ -24,8 +24,14 @@
     "emotional_register": []
   },
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "constitutional_doctrine",
+      "supreme_court_history"
+    ],
+    "secondary": [
+      "due_process",
+      "bar_exam_and_legal_education"
+    ]
   },
   "keywords": [
     "writ of amparo",

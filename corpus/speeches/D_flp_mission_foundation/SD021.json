@@ -29,8 +29,15 @@
     ]
   },
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "flp_donors_and_partners",
+      "flp_scholarship_programs"
+    ],
+    "secondary": [
+      "foundation_for_liberty_and_prosperity",
+      "msme_and_entrepreneurship",
+      "museum_for_liberty_and_prosperity"
+    ]
   },
   "keywords": [
     "FLP first decade",

@@ -73,8 +73,11 @@ signature openers / closers (*"With due respect,"* *"Au contraire,"*
 
 ### Phase 1 — Out of scope (deferred to later phases)
 
-- **Topic Map** (`/corpus/voice/topic_map.json`) — curated separately;
-  `topic_paths` fields stay as empty arrays in Phase 1
+- ~~**Topic Map** (`/corpus/voice/topic_map.json`)~~ → completed.
+  See [`corpus/voice/topic_map.json`](corpus/voice/topic_map.json) — a
+  hand-curated 35-topic taxonomy with matcher rules, doc-counts, top
+  signature phrases per topic, and per-theme register defaults. The
+  `topic_paths` field on every generated `.json` is populated.
 - **Voice Card** (`/corpus/voice/voice_card.md`) — drafted separately
 - **Runtime app** — Haiku Router, Sonnet composer, Memory layer
 - **Web frontend / chat UI**
@@ -576,16 +579,31 @@ Phase 1 inputs are already in the repo:
 
 ---
 
-## 11. Running the generator
+## 11. Running the pipeline
+
+Three scripts under [`scripts/`](scripts/) — each idempotent:
 
 ```
+# Phase 1 — paired .md + .json from CSVs
 python scripts/generate_corpus_files.py            # full run
 python scripts/generate_corpus_files.py --dry-run  # validate only
 python scripts/generate_corpus_files.py --verbose  # per-row trace
 python scripts/generate_corpus_files.py --type columns
+
+# Phase 2 — rebuild the topic map from the 79 generated JSONs
+python scripts/build_topic_map.py
+
+# Phase 2b — backfill topic_paths in every .json using the map
+python scripts/apply_topic_paths.py
+
+# All three in one shot
+python scripts/generate_corpus_files.py --with-topic-paths
 ```
 
-The script is idempotent — re-runs cleanly overwrite existing files.
+The taxonomy itself lives at the top of
+[`scripts/build_topic_map.py`](scripts/build_topic_map.py) as a Python
+list — adding a topic or tightening a matcher is a single edit. Re-run
+`--with-topic-paths` and every doc's `topic_paths` is recomputed.
 
 ### Known anomalies in the latest source CSVs
 
@@ -596,15 +614,13 @@ The script is idempotent — re-runs cleanly overwrite existing files.
 
 ---
 
-## 12. Roadmap beyond Phase 1
-
-The locked architecture has these downstream phases:
+## 12. Roadmap
 
 | Phase | Deliverable | Status |
 |---|---|---|
 | 1 | Corpus knowledge base (79 paired `.md` + `.json` from CSVs) | **Done** |
-| 2 | Topic Map (`/corpus/voice/topic_map.json`) — curated taxonomy with document pointers | Planned |
-| 3 | Voice Card (`/corpus/voice/voice_card.md`) — persona artifact synthesized from corpus | Planned |
+| 2 | Topic Map (`corpus/voice/topic_map.json`) — 35-topic taxonomy + matcher rules + per-doc `topic_paths` backfilled | **Done** |
+| 3 | Voice Card (`corpus/voice/voice_card.md`) — Sonnet composition system prompt | Planned |
 | 4 | Runtime app — Haiku Router + Sonnet Composer + Memory layer | Planned |
 | 5 | Web chat UI | Planned |
 | 6 | One-time embedding audit (then discarded) | Planned |

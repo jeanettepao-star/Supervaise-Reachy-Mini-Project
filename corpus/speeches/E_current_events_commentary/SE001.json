@@ -27,8 +27,13 @@
     ]
   },
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "eulogies_and_passing",
+      "family_and_marriage"
+    ],
+    "secondary": [
+      "faith_journey"
+    ]
   },
   "keywords": [
     "eulogy",

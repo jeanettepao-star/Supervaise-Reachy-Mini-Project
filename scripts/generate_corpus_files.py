@@ -800,6 +800,14 @@ def main(argv: list[str] | None = None) -> int:
         choices=list(TYPE_FOLDERS.values()),
         help="process only one document type",
     )
+    parser.add_argument(
+        "--with-topic-paths",
+        action="store_true",
+        help=(
+            "after writing .md/.json, rebuild corpus/voice/topic_map.json "
+            "and backfill topic_paths in every generated .json"
+        ),
+    )
     args = parser.parse_args(argv)
 
     if not INPUT_CSV_DIR.is_dir():
@@ -816,6 +824,20 @@ def main(argv: list[str] | None = None) -> int:
         process_csv(csv_path, stats, args.verbose, args.dry_run, args.type)
 
     write_reports(stats, args.dry_run)
+
+    if args.with_topic_paths and not args.dry_run:
+        print()
+        print("[topic-map] rebuilding corpus/voice/topic_map.json and "
+              "backfilling topic_paths …")
+        import subprocess
+        subprocess.run(
+            [sys.executable, str(Path(__file__).with_name("build_topic_map.py"))],
+            check=True,
+        )
+        subprocess.run(
+            [sys.executable, str(Path(__file__).with_name("apply_topic_paths.py"))],
+            check=True,
+        )
 
     print()
     print("[summary]")
