@@ -17,3 +17,9 @@ from both directions.
 | 0008 | [0008-streamlit-dashboard-operator-ui.md](0008-streamlit-dashboard-operator-ui.md) | Use a Streamlit dashboard as the operator UI rather than CLI-only or a custom FastAPI front end. |
 | 0009 | [0009-messages-api-not-managed-agent.md](0009-messages-api-not-managed-agent.md) | Use the Messages API rather than a managed agent — the workflow is Q&A, not agentic. |
 | 0010 | [0010-anthropic-prompt-caching-voice-card.md](0010-anthropic-prompt-caching-voice-card.md) | Enable Anthropic prompt caching on the voice-card system prompt; actual ~18% savings, not initially-projected 55%. |
+| 0011 | [0011-corpus-id-format-type-theme-number.md](0011-corpus-id-format-type-theme-number.md) | Corpus ID format `^[SCG][A-E]\d+$` — encoded Type-Theme-Number, no Page field. |
+| 0012 | [0012-permissive-csv-enrichment-parsing.md](0012-permissive-csv-enrichment-parsing.md) | Permissive enrichment-cell parsing — JSON first, semicolon fallback, warn don't skip. |
+| 0013 | [0013-strict-date-validation-no-placeholders.md](0013-strict-date-validation-no-placeholders.md) | Strict date validation — skip rows with missing/unparseable `Date`; reject placeholders. |
+| 0014 | [0014-hand-curated-taxonomy-in-python-code.md](0014-hand-curated-taxonomy-in-python-code.md) | Hand-curated taxonomy lives in Python code, not external YAML/JSON. |
+| 0015 | [0015-topic-paths-derivation-rules.md](0015-topic-paths-derivation-rules.md) | `topic_paths` derivation — word-boundary matching, ≥2-hit primary threshold, tier tie-break. |
+| 0016 | [0016-theme-anchored-register-selection.md](0016-theme-anchored-register-selection.md) | Theme-anchored register selection — five themes drive default register & wit calibration. |
