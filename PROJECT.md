@@ -78,7 +78,11 @@ signature openers / closers (*"With due respect,"* *"Au contraire,"*
   hand-curated 35-topic taxonomy with matcher rules, doc-counts, top
   signature phrases per topic, and per-theme register defaults. The
   `topic_paths` field on every generated `.json` is populated.
-- **Voice Card** (`/corpus/voice/voice_card.md`) — drafted separately
+- ~~**Voice Card** (`/corpus/voice/voice_card.md`)~~ → completed.
+  See [`corpus/voice/voice_card.md`](corpus/voice/voice_card.md) — the
+  Sonnet composition system prompt: identity, honesty rule, voice
+  fingerprint, doctrinal anchors, register selection table, context
+  block conventions, out-of-corpus reasoning policy.
 - **Runtime app** — Haiku Router, Sonnet composer, Memory layer
 - **Web frontend / chat UI**
 - **Book** — excluded from Phase 1; will be added later
@@ -620,7 +624,7 @@ list — adding a topic or tightening a matcher is a single edit. Re-run
 |---|---|---|
 | 1 | Corpus knowledge base (79 paired `.md` + `.json` from CSVs) | **Done** |
 | 2 | Topic Map (`corpus/voice/topic_map.json`) — 35-topic taxonomy + matcher rules + per-doc `topic_paths` backfilled | **Done** |
-| 3 | Voice Card (`corpus/voice/voice_card.md`) — Sonnet composition system prompt | Planned |
+| 3 | Voice Card (`corpus/voice/voice_card.md`) — Sonnet composition system prompt | **Done** |
 | 4 | Runtime app — Haiku Router + Sonnet Composer + Memory layer | Planned |
 | 5 | Web chat UI | Planned |
 | 6 | One-time embedding audit (then discarded) | Planned |
