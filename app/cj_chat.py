@@ -702,6 +702,145 @@ def generate_response(
 
 
 # ============================================================
+# Step 4.5: Fidelity check — Haiku post-composition guardrail
+# (PLAN-0001 §E)
+# ============================================================
+FIDELITY_SYSTEM = """\
+You are a fidelity checker for a conversation app speaking as
+retired Chief Justice Artemio V. Panganiban. Given (a) the
+assembled context of routed topics and source documents, and (b)
+a draft response composed by another model, your job is to flag
+problems in the draft.
+
+Return ONLY a JSON object — no preamble, no code fences:
+
+{
+  "hallucination": true | false,
+  "voice_drift": true | false,
+  "guardrail_violation": true | false,
+  "reasoning": "<one short sentence per flag that fired; empty if all false>"
+}
+
+Definitions:
+- hallucination: the draft makes a SPECIFIC factual claim (a case
+  ruling, a vote count, a named date, a specific quote attributed
+  to a person) that is NOT supported by the provided context.
+  General principles or doctrinal positions stated without a
+  specific factual anchor are NOT hallucinations.
+- voice_drift: the draft contains content that violates the voice
+  card's "Never" list — claims to BE the biological CJP; pretends
+  not to know it's an AI; takes a stance contradicting his
+  published views on the rule of law, 1987 Constitution, Arbitral
+  Award, or twin-beacons philosophy; quotes himself verbatim on
+  things not in the context.
+- guardrail_violation: the draft takes a specific substantive
+  position on a case currently before the courts (sub judice
+  violation), or comments on a living person's character beyond
+  what the context contains.
+
+Be conservative — only flag clear violations. Doctrinal opinions,
+chiastic doublets, signature phrases, and Tagalog ornaments are
+all normal voice; do NOT flag them.
+"""
+
+
+def fidelity_check(
+    client: Anthropic,
+    context: str,
+    draft: str,
+) -> dict:
+    """Haiku post-composition guardrail. Returns
+    {hallucination, voice_drift, guardrail_violation, reasoning}.
+    On error, returns all-false (fail-open — the composer is the
+    primary safety surface; this is a backstop)."""
+    try:
+        user_content = (
+            f"<assembled_context>\n{context}\n</assembled_context>\n\n"
+            f"<draft_response>\n{draft}\n</draft_response>"
+        )
+        resp = client.messages.create(
+            model=ROUTER_MODEL,
+            max_tokens=200,
+            system=[{
+                "type": "text",
+                "text": FIDELITY_SYSTEM,
+                "cache_control": {"type": "ephemeral"},
+            }],
+            messages=[{"role": "user", "content": user_content}],
+        )
+        _log_cache_usage("router", resp.usage)
+        raw = resp.content[0].text.strip()
+        raw = re.sub(r"^```(?:json)?\s*", "", raw)
+        raw = re.sub(r"\s*```$", "", raw)
+        parsed = json.loads(raw)
+        return {
+            "hallucination": bool(parsed.get("hallucination", False)),
+            "voice_drift": bool(parsed.get("voice_drift", False)),
+            "guardrail_violation": bool(parsed.get("guardrail_violation", False)),
+            "reasoning": str(parsed.get("reasoning", ""))[:300],
+        }
+    except (json.JSONDecodeError, KeyError, AttributeError, IndexError, Exception):
+        return {
+            "hallucination": False,
+            "voice_drift": False,
+            "guardrail_violation": False,
+            "reasoning": "fidelity check unavailable; fail-open",
+        }
+
+
+SAFE_OOC_FALLBACK = (
+    "I have not written specifically on that — let me speak instead to the "
+    "principle involved. With due respect, the rule of law and the twin "
+    "beacons of liberty and prosperity remain my touchstones when reasoning "
+    "from established frameworks to questions outside my documented record."
+)
+
+
+def generate_response_with_fidelity(
+    client: Anthropic,
+    question: str,
+    routing: dict,
+    artifacts: CorpusArtifacts,
+    conversation_history: list = None,
+    max_retries: int = 1,
+) -> tuple[str, dict]:
+    """Compose + fidelity check + (one retry on failure) + safe fallback.
+
+    Returns (final_response, fidelity_result). The fidelity_result
+    documents the most-recent check; callers can show it in the
+    operator dashboard.
+    """
+    context = build_context(routing, artifacts)
+    draft = generate_response(client, question, routing, artifacts, conversation_history)
+    check = fidelity_check(client, context, draft)
+
+    if not any([check["hallucination"], check["voice_drift"], check["guardrail_violation"]]):
+        return draft, check
+
+    # Retry once with the flagged issue surfaced to the composer as a system
+    # note. We append a corrective hint to the user message rather than mutate
+    # the voice card (so the cached prefix stays valid).
+    for attempt in range(max_retries):
+        correction_hint = (
+            "<fidelity_correction>\n"
+            f"A prior draft was flagged: {check['reasoning']}. "
+            "Recompose carefully — do not fabricate specifics, do not violate "
+            "the voice card's Never list, do not opine on sub judice cases.\n"
+            "</fidelity_correction>"
+        )
+        retry_question = f"{question}\n\n{correction_hint}"
+        draft = generate_response(
+            client, retry_question, routing, artifacts, conversation_history
+        )
+        check = fidelity_check(client, context, draft)
+        if not any([check["hallucination"], check["voice_drift"], check["guardrail_violation"]]):
+            return draft, check
+
+    # Still failing — return the safe OOC fallback.
+    return SAFE_OOC_FALLBACK, check
+
+
+# ============================================================
 # Step 5: TTS — Piper
 # ============================================================
 # ============================================================
@@ -978,9 +1117,18 @@ def run_turn(
         print(f"   secondary: {routing.get('secondary_topics', [])}")
         print(f"   confidence: {routing['confidence']}")
 
-        # Step 3: Generate
+        # Steps 3-4: Compose + fidelity check (PLAN-0001 §E). One retry on
+        # flag; safe OOC fallback if the retry still flags.
         print("💭 Thinking...")
-        response = generate_response(client, question, routing, artifacts, conversation_history)
+        response, fidelity = generate_response_with_fidelity(
+            client, question, routing, artifacts, conversation_history
+        )
+        flag_summary = ", ".join(
+            k for k in ("hallucination", "voice_drift", "guardrail_violation")
+            if fidelity.get(k)
+        )
+        if flag_summary:
+            print(f"   ⚠ fidelity flagged: {flag_summary} — {fidelity['reasoning']}")
         print(f"\n⚖️  CJ: {response}\n")
     except Exception as e:
         print(f"\n⚠️  Claude API call failed: {type(e).__name__}: {e}", file=sys.stderr)

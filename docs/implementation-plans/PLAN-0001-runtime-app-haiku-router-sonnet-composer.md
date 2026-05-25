@@ -203,22 +203,29 @@ rule trigger) — verified end-to-end in
 
 ## 8. Workstream E — Fidelity check
 
-Post-composition Haiku call: given the Sonnet draft + the assembled
-context block, return:
-- `hallucination`: any specific factual claim (case ruling, vote
-  count, date) not grounded in the source docs?
-- `voice_drift`: response violates the voice card's "Never" list?
-- `guardrail_violation`: takes a stance on a `sub judice` case?
+**Status: complete.**
 
-If any flag is true, retry the composition once with the flag fed
-back as a system note. After one retry, return the safe fallback
-*"I have not written specifically on this; let me speak to the
-principle…"*
+1. ✅ `fidelity_check(client, context, draft)` Haiku call added.
+   Returns `{hallucination, voice_drift, guardrail_violation,
+   reasoning}`. Fail-open on parse/network error (the composer is
+   the primary safety surface; this is a backstop).
+2. ✅ `FIDELITY_SYSTEM` prompt explicitly distinguishes
+   *hallucinations* (specific unsupported claims) from *general
+   doctrinal positions* (which are normal voice).
+3. ✅ `generate_response_with_fidelity()` orchestrator: composes,
+   checks, retries once with a `<fidelity_correction>` hint
+   appended to the user message (preserves the cached voice-card
+   prefix), and falls back to `SAFE_OOC_FALLBACK` after one failing
+   retry.
+4. ✅ `run_turn()` rewired to use the with-fidelity composer; the
+   CLI prints a one-line "⚠ fidelity flagged: …" notice when any
+   flag fires.
 
 **Acceptance**: fidelity check correctly flags ≥80% of seeded
 hallucination examples in
 [TS-004](../test-specs/TS-004-voice-card-protocol.md) §"Fidelity
-check sensitivity".
+check sensitivity" — measured during
+[TS-006](../test-specs/TS-006-smoke-test-questions.md) execution.
 
 ## 9. Failure modes and observability
 
