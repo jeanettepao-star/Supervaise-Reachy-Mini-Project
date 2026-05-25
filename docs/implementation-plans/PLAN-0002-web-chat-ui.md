@@ -11,7 +11,9 @@
   pipeline correctness
 * Related ADRs:
   [0008](../decisions/0008-streamlit-dashboard-operator-ui.md)
-  (operator UI — separate from this)
+  (operator UI — sibling page in the same Streamlit deployment);
+  [0017](../decisions/0017-end-user-ui-also-streamlit.md) (locks
+  end-user UI to Streamlit too)
 
 ## 1. Goal
 
@@ -49,30 +51,29 @@ UI ([ADR-0008](../decisions/0008-streamlit-dashboard-operator-ui.md)).
 ## 3. Architecture
 
 ```
-Browser  ←HTTPS→  Web frontend  ←HTTP→  cj_chat runtime  ←Anthropic→  API
-                  (Next.js or                (PLAN-0001)
-                  Streamlit page,
-                  TBD)
+Browser  ←HTTPS→  Streamlit page  ──in-process──→  cj_chat runtime  ←→  Anthropic API
+                  (app/pages/0_chat.py)             (PLAN-0001)
 ```
 
-Decision pending: Next.js vs. a Streamlit public-facing variant. See
-§7 for the trade-off; this plan does not resolve it.
+Locked by [ADR-0017](../decisions/0017-end-user-ui-also-streamlit.md):
+the end-user UI runs in the same Streamlit deployment as the operator
+dashboard ([ADR-0008](../decisions/0008-streamlit-dashboard-operator-ui.md)),
+with operator-only widgets gated.
 
-## 4. Workstream A — Frontend stack selection
+## 4. Workstream A — Frontend page (Streamlit)
 
-Open question — pick **one** of:
+Per [ADR-0017](../decisions/0017-end-user-ui-also-streamlit.md):
 
-1. **Streamlit page (extends existing operator UI)** — minimal new
-   stack; reuses `cj_chat.py` directly. Mobile UX is mediocre.
-2. **Next.js (App Router) + a thin FastAPI wrapper over cj_chat** —
-   modern UX, fully control over rendering and routing; one more
-   service to deploy.
-3. **Static page + websocket** — simplest hosting; least responsive
-   for streaming responses.
-
-Decision deliverable: a follow-up ADR (`ADR-0017+`) recording the
-chosen stack with explicit weighting on (UX quality | deploy
-complexity | dev velocity | accessibility).
+1. Add `app/pages/0_chat.py` as the end-user route in the existing
+   Streamlit `app/`. Streamlit's `pages/` convention multi-routes
+   automatically.
+2. Move operator-only widgets (Sources expander details, cost panel,
+   cache-savings panel, per-turn timeline) behind a gating flag
+   (`OPERATOR_MODE=1` env var or `?operator=1` URL param) so the
+   end-user route shows only the chat surface.
+3. The end-user route consumes `cj_chat.py`'s pipeline functions
+   directly — no HTTP shim required.
+4. Apply FLP branding (logo, colors) per FLP design assets.
 
 ## 5. Workstream B — Identity disclosure UI
 
@@ -143,7 +144,9 @@ Observability:
   source panel populated.
 - Identity probe questions trigger the honesty rule UI banner +
   response.
-- Lighthouse accessibility ≥90.
+- Lighthouse accessibility ≥80 with a documented manual
+  accessibility pass (Streamlit ceiling per
+  [ADR-0017](../decisions/0017-end-user-ui-also-streamlit.md)).
 
 ## 10. Out-of-scope discoveries to surface
 

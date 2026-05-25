@@ -23,3 +23,4 @@ from both directions.
 | 0014 | [0014-hand-curated-taxonomy-in-python-code.md](0014-hand-curated-taxonomy-in-python-code.md) | Hand-curated taxonomy lives in Python code, not external YAML/JSON. |
 | 0015 | [0015-topic-paths-derivation-rules.md](0015-topic-paths-derivation-rules.md) | `topic_paths` derivation — word-boundary matching, ≥2-hit primary threshold, tier tie-break. |
 | 0016 | [0016-theme-anchored-register-selection.md](0016-theme-anchored-register-selection.md) | Theme-anchored register selection — five themes drive default register & wit calibration. |
+| 0017 | [0017-end-user-ui-also-streamlit.md](0017-end-user-ui-also-streamlit.md) | End-user web chat UI also uses Streamlit (single-stack with operator dashboard). |

@@ -28,18 +28,29 @@ This plan is **post-launch** — the May 30, 2026 demo is chat-only
 ([ADR-0005](../decisions/0005-defer-robot-embodiment-for-may-30.md)).
 The plan exists so the team knows where voice fits in.
 
+**Stack locked**:
+- STT — `faster-whisper`
+  ([ADR-0006](../decisions/0006-local-stt-faster-whisper.md)).
+- TTS — Piper with the `en_US-ryan-high` voice
+  ([ADR-0007](../decisions/0007-local-tts-piper-ryan-high.md)).
+- UI — Streamlit (operator + end-user share the same deployment per
+  [ADR-0008](../decisions/0008-streamlit-dashboard-operator-ui.md)
+  and [ADR-0017](../decisions/0017-end-user-ui-also-streamlit.md)).
+  Voice widgets live in the same Streamlit page as the chat textarea.
+
 ## 2. Scope
 
 **In scope**
-1. Production-grade STT for kiosk use (faster-whisper already wired
-   for the operator dashboard per
-   [ADR-0006](../decisions/0006-local-stt-faster-whisper.md); confirm
-   it scales to public usage patterns).
-2. Production-grade TTS for visitor audio (Piper `en_US-ryan-high`
-   already wired per
-   [ADR-0007](../decisions/0007-local-tts-piper-ryan-high.md);
-   evaluate against alternatives for *Filipino-accented English*
-   suitability).
+1. Production-grade STT for kiosk use — `faster-whisper` is the
+   chosen STT
+   ([ADR-0006](../decisions/0006-local-stt-faster-whisper.md));
+   confirm it scales to public usage patterns. No alternatives
+   evaluated for kiosk — Whisper is locked.
+2. Production-grade TTS for visitor audio — Piper with
+   `en_US-ryan-high` is the chosen TTS
+   ([ADR-0007](../decisions/0007-local-tts-piper-ryan-high.md)).
+   *Filipino-accented English* suitability is accepted; PLAN-0006 §4
+   discusses the Tagalog-ornament rendering trade-off.
 3. Latency budget specifically for the voice loop (target ≤4s end-
    to-end from voice-end to first audio).
 4. Tagalog code-switching in TTS — Piper Ryan-high is English-only;
