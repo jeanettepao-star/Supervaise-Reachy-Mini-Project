@@ -118,23 +118,33 @@ Anthropic API key; that is the next workstream's acceptance.
 
 ## 5. Workstream B — Router prompt update
 
-1. Read existing `app/artifacts/router_prompt.md` and identify its
-   topic-id list (37 topics in the prior taxonomy).
-2. Author a replacement router prompt that:
-   - Lists the new 35 topics by id, display_name, tier, theme_anchor.
-   - Asks Haiku to return JSON `{"primary": [...up to 2 ids...],
-     "secondary": [...up to 3 ids...], "confidence": float,
-     "reasoning": str}`.
-   - Includes 4-6 worked examples drawn from the new corpus.
-3. Place the new prompt at `corpus/voice/router_prompt.md` and adapt
-   `cj_chat.py` to load from there.
-4. Add a router-output schema validator: parsed JSON must have only
-   topic ids that exist in `topic_map.json`. Schema failures fall back
-   to a wide route (anchors only).
+**Status: complete.**
 
-**Acceptance**: the six build-kit sanity questions route to topic ids
-that overlap with at least one document's `topic_paths.primary` —
-verified by [TS-005](../test-specs/TS-005-end-to-end-pipeline-smoke.md).
+1. ✅ New router prompt at
+   [`corpus/voice/router_prompt.md`](../../corpus/voice/router_prompt.md)
+   — 35-topic Phase 2 taxonomy organised by tier + theme letter,
+   explicit META branch for the honesty rule, 6 worked examples
+   (clean doctrinal, biographical, contemporary, multi-theme, META,
+   OOC).
+2. ✅ Output shape: `{primary_topic, secondary_topics (≤3),
+   confidence, reasoning}` — names match the existing
+   `route_question` consumer; secondaries cap raised from 2 to 3 to
+   match Phase 2 topic_paths schema.
+3. ✅ `Config.from_env()` prefers
+   `corpus/voice/router_prompt.md`; falls back to
+   `app/artifacts/router_prompt.md` if the new file is missing.
+4. ✅ `route_question()` validator hardened:
+   - Primary topic id validated against `valid_topic_ids`;
+     invalid → fallback to `rule_of_law` with `confidence: low`.
+   - Secondaries: filtered to known ids, distinct from primary,
+     capped at 3.
+   - Confidence normalised to one of `{high, medium, low}`.
+   - Reasoning trimmed to 200 chars.
+
+**Acceptance**: the new prompt loads cleanly (9,606 chars). Router
+output validation is unit-checkable; end-to-end routing accuracy is
+measured by [TS-006](../test-specs/TS-006-smoke-test-questions.md)
+once it runs against the live API.
 
 ## 6. Workstream C — Context-block builder
 

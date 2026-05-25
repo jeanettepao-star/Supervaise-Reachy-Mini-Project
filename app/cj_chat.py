@@ -106,9 +106,17 @@ class Config:
         voice_dir = Path(
             os.environ.get("VOICE_DIR", corpus_root / "voice")
         ).resolve()
-        router_prompt_path = Path(
-            os.environ.get("ROUTER_PROMPT", app_dir / "artifacts" / "router_prompt.md")
-        ).resolve()
+        # PLAN-0001 §B: prefer corpus/voice/router_prompt.md (the new
+        # 35-topic Phase 2 router prompt). Fall back to the legacy
+        # app/artifacts/router_prompt.md if the new one is missing,
+        # so older checkouts still work.
+        env_router = os.environ.get("ROUTER_PROMPT")
+        if env_router:
+            router_prompt_path = Path(env_router).resolve()
+        else:
+            new_path = (voice_dir / "router_prompt.md").resolve()
+            legacy_path = (app_dir / "artifacts" / "router_prompt.md").resolve()
+            router_prompt_path = new_path if new_path.exists() else legacy_path
         return cls(
             corpus_root=corpus_root,
             voice_dir=voice_dir,
@@ -362,6 +370,14 @@ def route_question(client: Anthropic, question: str, artifacts: CorpusArtifacts)
     (~2,400 tokens) is identical every call, so after the first turn each
     subsequent turn within the 5-minute TTL pays only 10% of the input cost
     on those tokens.
+
+    Validator (PLAN-0001 §B):
+      - primary_topic must be in `valid_topic_ids`; otherwise falls back to
+        `rule_of_law` with confidence `"low"`.
+      - secondary_topics: filtered to known ids, distinct from primary;
+        capped at 3.
+      - confidence: normalised to one of {high, medium, low}; missing → low.
+      - reasoning: trimmed to 200 chars.
     """
     resp = client.messages.create(
         model=ROUTER_MODEL,
@@ -382,7 +398,7 @@ def route_question(client: Anthropic, question: str, artifacts: CorpusArtifacts)
     try:
         parsed = json.loads(raw)
     except json.JSONDecodeError:
-        # Fallback to safe default
+        # Fallback to safe default — anchor route, low confidence.
         return {
             "primary_topic": "rule_of_law",
             "secondary_topics": [],
@@ -390,14 +406,33 @@ def route_question(client: Anthropic, question: str, artifacts: CorpusArtifacts)
             "reasoning": "Router output unparseable; falling back to anchor topic.",
         }
 
-    # Validate topic IDs against the actual topic_map
-    if parsed.get("primary_topic") not in artifacts.valid_topic_ids:
-        parsed["primary_topic"] = "rule_of_law"
+    # Validate primary
+    primary = parsed.get("primary_topic")
+    if primary not in artifacts.valid_topic_ids:
+        primary = "rule_of_law"
         parsed["confidence"] = "low"
-    parsed["secondary_topics"] = [
-        t for t in parsed.get("secondary_topics", [])
-        if t in artifacts.valid_topic_ids and t != parsed["primary_topic"]
-    ][:2]
+    parsed["primary_topic"] = primary
+
+    # Validate secondaries — distinct ids, in valid set, capped at 3
+    seen = {primary}
+    cleaned: list[str] = []
+    for t in parsed.get("secondary_topics") or []:
+        if isinstance(t, str) and t in artifacts.valid_topic_ids and t not in seen:
+            cleaned.append(t)
+            seen.add(t)
+        if len(cleaned) >= 3:
+            break
+    parsed["secondary_topics"] = cleaned
+
+    # Normalise confidence
+    confidence = str(parsed.get("confidence", "")).lower().strip()
+    if confidence not in {"high", "medium", "low"}:
+        confidence = "low"
+    parsed["confidence"] = confidence
+
+    # Trim reasoning
+    reasoning = str(parsed.get("reasoning", ""))[:200]
+    parsed["reasoning"] = reasoning
 
     return parsed
 
