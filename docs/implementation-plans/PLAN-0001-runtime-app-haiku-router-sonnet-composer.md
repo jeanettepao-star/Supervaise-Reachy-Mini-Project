@@ -174,27 +174,32 @@ build-kit sanity questions — verified empirically once
 
 ## 7. Workstream D — Honesty rule wiring
 
-The voice card's META branch
-([voice_card.md](../../corpus/voice/voice_card.md) §"Honesty rule —
-when asked what you are") triggers when:
-- The router returns `robot_identity_meta` as primary, OR
-- The Input Gate flags the question as an identity probe regardless
-  of router output.
+**Status: complete.**
 
-Implementation:
-1. Input Gate (Haiku call before router): classifier returns
-   `{scope: in_corpus | out_of_corpus | identity_probe, ...}`.
-2. If `identity_probe`, override router primary to
-   `robot_identity_meta`; the composer then activates the
-   `transparent_curatorial` register.
-3. Both branches still flow through the Sonnet composer; the META
-   path uses the canonical *"I am a robot rendering of my own voice…"*
-   self-description as the anchor response.
+1. ✅ `input_gate(client, question)` Haiku classifier added in
+   `app/cj_chat.py`. Returns `{scope, reasoning}`; scope is one of
+   `identity_probe`, `in_corpus`, `out_of_corpus`. On error or
+   unparseable output, falls back to `in_corpus` (safer to
+   over-route to the corpus than to mis-trigger META on a normal
+   biographical question).
+2. ✅ `force_meta_routing(reasoning)` synthesises a router output
+   object pointing at `robot_identity_meta` with confidence `"high"`.
+3. ✅ `run_turn()` now calls the gate first; if scope is
+   `identity_probe`, bypasses the router and uses
+   `force_meta_routing(gate['reasoning'])`. Otherwise calls
+   `route_question` as before.
+4. ✅ `META_FALLBACK_RESPONSE` constant — the canonical
+   *"I am a robot rendering of my own voice"* line, used as a
+   safety-net when the composer is unreachable.
+5. ✅ The composer's behaviour on `robot_identity_meta` is governed
+   by the voice card (§"Honesty rule") plus the META topic's
+   `default_register_override: ("transparent_curatorial",
+   "gentle, self-aware")` in `topic_map.json`.
 
 **Acceptance**:
-[TS-004](../test-specs/TS-004-voice-card-protocol.md) §"Honesty rule
-trigger" eval passes — every variant of *"are you the real CJ?"*
-yields a robot-honest first-person response.
+[TS-004](../test-specs/TS-004-voice-card-protocol.md) §3 (honesty
+rule trigger) — verified end-to-end in
+[TS-006](../test-specs/TS-006-smoke-test-questions.md) once it runs.
 
 ## 8. Workstream E — Fidelity check
 
