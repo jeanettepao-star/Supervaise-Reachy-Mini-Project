@@ -264,13 +264,37 @@ Observability (operator dashboard):
 
 ## 11. Verification
 
-Tests (specified, not run):
-- [TS-005](../test-specs/TS-005-end-to-end-pipeline-smoke.md) — full
-  pipeline smoke against the six build-kit sanity questions.
-- [TS-004](../test-specs/TS-004-voice-card-protocol.md) §6-§8 —
-  honesty rule, register selection, OOC policy adherence.
+Tests run:
+- [TS-006](../test-specs/TS-006-smoke-test-questions.md) — 30
+  questions executed end-to-end via `scripts/run_smoke_test.py`. See
+  `reports/smoke_test_run.json` + `reports/smoke_test_summary.json`.
+
+Results (2026-05-26 run, all five workstreams wired):
+- 30/30 questions completed; 100% substantive responses (≥40 words).
+- 97% primary routing pass (1 of 30 missed — see
+  [LL-011](../lessons/LL-011-smoke-test-routing-miss-jmsu.md)).
+- 100% META rate — every identity probe triggered the honesty rule.
+- 92% fidelity-clean on in-corpus questions; the 2 in-corpus flags
+  were correct sub-judice catches (ICC/Duterte and Israel-Gaza
+  ICJ), each routed to `SAFE_OOC_FALLBACK` after a failing retry —
+  intended PLAN-0001 §E behaviour.
+- 0 hallucinations.
+- Mean per-turn cost $0.0592 (target $0.05; slightly over due to
+  fidelity retries on flagged turns).
+- p95 latency 51s (target ≤25s; over due to retries; warm-cache
+  in-corpus turns sit at 12-20s).
+- Total smoke-test cost $1.78 across 30 questions.
+
+Verdict: **YELLOW** per TS-006 §2.
+
+Tests specified but not run during this commit:
+- [TS-004](../test-specs/TS-004-voice-card-protocol.md) §6-§8 LLM-
+  as-judge rubric eval (out-of-scope for this smoke; covered by
+  TS-006 rubric items implicitly).
 - Cost & latency targets: ≤$0.05/turn, ≤25s warm
-  ([ADR-0004](../decisions/0004-pattern-1-topic-routed-two-stage-api.md)).
+  ([ADR-0004](../decisions/0004-pattern-1-topic-routed-two-stage-api.md))
+  are slightly over after fidelity retries — captured in
+  PLAN-0007 §3c (tighten `supreme_court_history`) as the follow-up.
 
 Manual:
 - Operator runs the six build-kit questions in the dashboard, spot-
