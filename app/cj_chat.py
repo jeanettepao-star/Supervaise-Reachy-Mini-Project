@@ -17,15 +17,19 @@ DEPENDENCIES:
 ENVIRONMENT:
     export ANTHROPIC_API_KEY="sk-ant-..."
 
-ARTIFACTS (place these in ./artifacts/):
-    - topic_map.json
-    - topic_graph.json
-    - frameworks.json
-    - signature_library.json
-    - entity_index.json
-    - voice_card.md
-    - router_prompt.md
-    - topics/    (the 89 raw extractions from Layer A)
+    Optional path overrides (defaults shown):
+        CORPUS_ROOT   = ../corpus       (relative to this app/ directory)
+        VOICE_DIR     = ../corpus/voice
+        ROUTER_PROMPT = ./artifacts/router_prompt.md
+                                       (legacy location until PLAN-0001 §B
+                                        replaces it with corpus/voice/router_prompt.md)
+
+ARTIFACTS — loaded from the locations above:
+    - {VOICE_DIR}/topic_map.json
+    - {VOICE_DIR}/voice_card.md
+    - {ROUTER_PROMPT}
+    - {CORPUS_ROOT}/{type}/{theme_folder}/{id}.{md,json}
+        (e.g., corpus/speeches/A_liberty_rule_of_law/SA136.json)
 
 USAGE:
     python cj_chat.py                  # interactive mode (push-to-talk)
@@ -39,6 +43,7 @@ import subprocess
 import tempfile
 import argparse
 import re
+from dataclasses import dataclass
 from pathlib import Path
 
 # Load .env from the app directory (override empty/stale shell vars).
@@ -62,10 +67,64 @@ from anthropic import Anthropic
 # ============================================================
 # Configuration
 # ============================================================
-ARTIFACTS_DIR = Path("./artifacts")
-TOPICS_DIR = ARTIFACTS_DIR / "topics"
 ROUTER_MODEL = "claude-haiku-4-5-20251001"
 INFERENCE_MODEL = "claude-sonnet-4-6"  # use sonnet-4-6 or opus-4-7 if budget permits
+
+
+# Per ADR-0011: doc IDs follow ^[SCG][A-E]\d+$. The first letter selects the
+# corpus subdirectory; the second letter selects the theme subdirectory.
+_TYPE_DIRS = {"S": "speeches", "C": "columns", "G": "biography"}
+_THEME_DIRS = {
+    "A": "A_liberty_rule_of_law",
+    "B": "B_prosperity_economic_philosophy",
+    "C": "C_biographical_personal",
+    "D": "D_flp_mission_foundation",
+    "E": "E_current_events_commentary",
+}
+_DOC_ID_RE = re.compile(r"^([SCG])([A-E])(\d+)$")
+
+
+@dataclass
+class Config:
+    """Runtime paths. Defaults assume the app is run from the app/ directory
+    or the repo root. Override any path via env var; see module docstring."""
+
+    corpus_root: Path
+    voice_dir: Path
+    topic_map_path: Path
+    voice_card_path: Path
+    router_prompt_path: Path
+
+    @classmethod
+    def from_env(cls, app_dir: Path | None = None) -> "Config":
+        app_dir = app_dir or Path(__file__).resolve().parent
+        repo_root = app_dir.parent
+
+        corpus_root = Path(
+            os.environ.get("CORPUS_ROOT", repo_root / "corpus")
+        ).resolve()
+        voice_dir = Path(
+            os.environ.get("VOICE_DIR", corpus_root / "voice")
+        ).resolve()
+        router_prompt_path = Path(
+            os.environ.get("ROUTER_PROMPT", app_dir / "artifacts" / "router_prompt.md")
+        ).resolve()
+        return cls(
+            corpus_root=corpus_root,
+            voice_dir=voice_dir,
+            topic_map_path=voice_dir / "topic_map.json",
+            voice_card_path=voice_dir / "voice_card.md",
+            router_prompt_path=router_prompt_path,
+        )
+
+
+# Default configuration constructed at import time; tests and the dashboard
+# may build their own Config and pass it into CorpusArtifacts directly.
+DEFAULT_CONFIG = Config.from_env()
+
+# Backwards-compatibility alias kept so `from cj_chat import ARTIFACTS_DIR`
+# in app/dashboard.py keeps working. New code should accept a Config.
+ARTIFACTS_DIR = DEFAULT_CONFIG.voice_dir
 
 # Piper paths — set these to wherever you installed piper and the voice model
 PIPER_BIN = os.environ.get("PIPER_BIN", "piper")
@@ -168,35 +227,113 @@ def cache_savings_summary() -> str:
 # ============================================================
 # Load all artifacts at startup (one-shot)
 # ============================================================
+def _doc_paths(config: Config, doc_id: str) -> tuple[Path, Path] | None:
+    """Resolve (md_path, json_path) for a doc id under the Phase 1 layout.
+
+    Returns None if the id doesn't match ^[SCG][A-E]\\d+$ or the files
+    aren't present.
+    """
+    m = _DOC_ID_RE.match(doc_id)
+    if not m:
+        return None
+    type_letter, theme_letter, _ = m.group(1), m.group(2), m.group(3)
+    type_dir = _TYPE_DIRS.get(type_letter)
+    theme_dir = _THEME_DIRS.get(theme_letter)
+    if not type_dir or not theme_dir:
+        return None
+    base = config.corpus_root / type_dir / theme_dir
+    md_path = base / f"{doc_id}.md"
+    json_path = base / f"{doc_id}.json"
+    if not json_path.exists():
+        return None
+    return md_path, json_path
+
+
 class CorpusArtifacts:
-    def __init__(self, base_dir: Path):
-        self.base = base_dir
-        with open(base_dir / "topic_map.json") as f:
+    """Phase 1-3 artifact bundle loaded once at startup.
+
+    Reads `topic_map.json` and `voice_card.md` from `config.voice_dir` and
+    resolves per-doc bodies + metadata via `_doc_paths()` against the
+    `corpus/{type}/{theme_folder}/` layout.
+
+    Earlier 89-doc artifacts (`topic_graph.json`, `entity_index.json`,
+    `frameworks.json`, `signature_library.json`) are NOT loaded — they
+    were either unused at inference (per LL-005) or redundant with
+    fields already on each doc's .json.
+
+    Backwards-compat: `base_dir` may still be passed positionally; it is
+    interpreted as `config.voice_dir` for the voice card + topic map.
+    A custom `config` keyword can be passed for full path control.
+    """
+
+    def __init__(
+        self,
+        base_dir: Path | None = None,
+        config: Config | None = None,
+    ):
+        if config is None:
+            if base_dir is not None:
+                # Treat the legacy positional arg as voice_dir.
+                config = Config(
+                    corpus_root=DEFAULT_CONFIG.corpus_root,
+                    voice_dir=Path(base_dir).resolve(),
+                    topic_map_path=Path(base_dir).resolve() / "topic_map.json",
+                    voice_card_path=Path(base_dir).resolve() / "voice_card.md",
+                    router_prompt_path=DEFAULT_CONFIG.router_prompt_path,
+                )
+            else:
+                config = DEFAULT_CONFIG
+        self.config = config
+        self.base = config.voice_dir  # kept for back-compat readers
+
+        with open(config.topic_map_path, encoding="utf-8") as f:
             self.topic_map = json.load(f)
-        with open(base_dir / "topic_graph.json") as f:
-            self.topic_graph = json.load(f)
-        with open(base_dir / "entity_index.json") as f:
-            self.entity_index = json.load(f)
-        with open(base_dir / "frameworks.json") as f:
-            self.frameworks = json.load(f)
-        with open(base_dir / "voice_card.md") as f:
+        with open(config.voice_card_path, encoding="utf-8") as f:
             self.voice_card = f.read()
-        with open(base_dir / "router_prompt.md") as f:
-            # Extract the system-prompt block from the router_prompt.md doc
+        with open(config.router_prompt_path, encoding="utf-8") as f:
+            # Extract the system-prompt block from the router_prompt.md doc.
             raw = f.read()
-            # The router prompt's system block is the content between the first
-            # triple-backtick block. We extract it; if absent, use the whole doc.
             match = re.search(r"```\s*(.+?)\s*```", raw, re.DOTALL)
             self.router_system = match.group(1) if match else raw
+
         self.topics = self.topic_map["topics"]
         self.valid_topic_ids = set(self.topics.keys())
 
+    # ----- per-doc loaders --------------------------------------------------
+
     def load_raw_doc(self, doc_id: str) -> dict | None:
-        path = self.base / "topics" / f"{doc_id}.json"
-        if path.exists():
-            with open(path) as f:
-                return json.load(f)
-        return None
+        """Return the per-doc structured record (the `.json`).
+
+        Resolves `corpus/{type_dir}/{theme_folder}/{doc_id}.json`. Returns
+        None if the id is malformed or the file is missing.
+        """
+        paths = _doc_paths(self.config, doc_id)
+        if paths is None:
+            return None
+        _, json_path = paths
+        with open(json_path, encoding="utf-8") as f:
+            return json.load(f)
+
+    def load_doc_body(self, doc_id: str) -> str | None:
+        """Return the canonical markdown body (text after `# Title`).
+
+        The composer attends to the body for verbatim quoting; for routing
+        and signature-phrase retrieval, prefer `load_raw_doc`.
+        """
+        paths = _doc_paths(self.config, doc_id)
+        if paths is None:
+            return None
+        md_path, _ = paths
+        if not md_path.exists():
+            return None
+        text = md_path.read_text(encoding="utf-8")
+        # Strip the YAML frontmatter block.
+        m = re.match(r"^---\n.*?\n---\n+", text, re.DOTALL)
+        if m:
+            text = text[m.end():]
+        # Strip the leading `# Title` line if present.
+        text = re.sub(r"^#\s+[^\n]+\n+", "", text, count=1)
+        return text.strip()
 
 
 # ============================================================
@@ -288,16 +425,20 @@ def build_context(routing: dict, artifacts: CorpusArtifacts) -> str:
     for did in primary_doc_ids:
         raw = artifacts.load_raw_doc(did)
         if raw:
-            # Trim raw doc to essentials to keep token cost low
+            # Trim raw doc to essentials to keep token cost low.
+            # Per ADR-0011, the canonical key is `id` (not `doc_id`); we
+            # check both so older Phase 2 artifacts keep working.
             trimmed = {
-                "doc_id": raw.get("doc_id"),
+                "doc_id": raw.get("id") or raw.get("doc_id"),
                 "title": raw.get("title"),
                 "date": raw.get("date"),
-                "voice_register": raw.get("voice_register"),
+                "theme": raw.get("theme"),
+                "theme_label": raw.get("theme_label"),
                 "primary_topics": raw.get("primary_topics"),
                 "stances": raw.get("stances", [])[:4],
                 "signature_phrases": raw.get("signature_phrases", [])[:8],
                 "notable_anecdotes": raw.get("notable_anecdotes", [])[:3],
+                "one_paragraph_summary": raw.get("one_paragraph_summary"),
             }
             source_docs.append(trimmed)
 
@@ -664,12 +805,20 @@ def run_turn(
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--text", type=str, help="Text-only mode: ask one question and exit")
-    parser.add_argument("--artifacts", type=str, default="./artifacts", help="Path to artifacts dir")
+    parser.add_argument(
+        "--voice-dir", type=str, default=None,
+        help=("Path to corpus/voice/ (containing topic_map.json + "
+              "voice_card.md). Defaults to ../corpus/voice from this script."),
+    )
     args = parser.parse_args()
 
     print("Loading artifacts...")
-    artifacts = CorpusArtifacts(Path(args.artifacts))
-    print(f"  ✓ {len(artifacts.topics)} topics loaded")
+    if args.voice_dir:
+        artifacts = CorpusArtifacts(base_dir=Path(args.voice_dir))
+    else:
+        artifacts = CorpusArtifacts()
+    print(f"  ✓ {len(artifacts.topics)} topics loaded from {artifacts.config.voice_dir}")
+    print(f"  ✓ corpus at {artifacts.config.corpus_root}")
 
     client = make_client()  # uses ANTHROPIC_API_KEY env var, retries on 529/429
 

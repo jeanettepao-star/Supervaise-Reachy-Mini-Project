@@ -9,7 +9,7 @@ artifacts in `app/artifacts/` and the local Piper/Whisper assets in
 | ID | File | Description |
 |---|---|---|
 | 0001 | [README.md](README.md) | App-scoped run instructions — touch when install steps, env vars, or the quick-start commands change. |
-| 0002 | [cj_chat.py](cj_chat.py) | CLI entrypoint plus all pipeline functions (STT, router, retrieval, inference, TTS, cache stats). Touch when changing pipeline behavior; the dashboard imports from here. |
+| 0002 | [cj_chat.py](cj_chat.py) | CLI entrypoint plus all pipeline functions (STT, router, retrieval, inference, TTS, cache stats). Touch when changing pipeline behavior; the dashboard imports from here. Per PLAN-0001 §A, artifact paths now resolve via `Config` (defaults to `../corpus/voice/` and `../corpus/{type}/{theme_folder}/`); env overrides: `CORPUS_ROOT`, `VOICE_DIR`, `ROUTER_PROMPT`. |
 | 0003 | [dashboard.py](dashboard.py) | Streamlit chat UI — mic input, text fallback, audio playback, sources expander, cache savings panel. Touch when changing operator UX. |
 | 0004 | [requirements.txt](requirements.txt) | Pinned core Python deps (anthropic, python-dotenv, faster-whisper, sounddevice, scipy, numpy, streamlit). Touch when adding a runtime dep. |
 

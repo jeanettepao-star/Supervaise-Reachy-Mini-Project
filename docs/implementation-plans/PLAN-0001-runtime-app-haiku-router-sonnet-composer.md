@@ -78,27 +78,43 @@ User input
 
 ## 4. Workstream A — Artifact-path migration (smallest blast radius)
 
-1. Identify every reference in `app/cj_chat.py` and `app/dashboard.py`
-   to `app/artifacts/topic_map.json`, `app/artifacts/voice_card.md`,
-   `app/artifacts/topics/*.json`,
-   `app/artifacts/router_prompt.md`,
-   `app/artifacts/entity_index.json`,
-   `app/artifacts/signature_library.json`,
-   `app/artifacts/topic_graph.json`,
-   `app/artifacts/frameworks.json`.
-2. Introduce a single `Config` dataclass at the top of `cj_chat.py`
-   with paths defaulting to the new `corpus/voice/...` locations and
-   overridable via env vars (`CORPUS_ROOT`, `VOICE_DIR`).
-3. Adapt the per-doc loader: `corpus/{type}/{theme_folder}/{id}.md`
-   + `.json`. The loader takes an `id` from router output and returns
-   `(frontmatter_dict, body_str, json_dict)`.
-4. Confirm `signature_library.json` removal is OK per
-   [LL-005](../lessons/LL-005-signature-library-loaded-but-unused.md);
-   if it isn't being used, drop the load.
+**Status: complete** (see commit following this plan section's update).
 
-**Acceptance**: `python app/cj_chat.py "what do you think about the
-rule of law in the Philippines today?"` runs and returns a response
-sourced from `corpus/voice/voice_card.md` and `corpus/voice/topic_map.json`.
+1. ✅ Introduced `Config` dataclass at the top of `cj_chat.py` with
+   defaults `CORPUS_ROOT = ../corpus`, `VOICE_DIR = ../corpus/voice`,
+   `ROUTER_PROMPT = ./artifacts/router_prompt.md` (legacy until §B
+   ships). All three paths overridable via env vars.
+2. ✅ `CorpusArtifacts` rewritten to read `topic_map.json` and
+   `voice_card.md` from `config.voice_dir`. Legacy artifact loads
+   removed (`topic_graph.json`, `entity_index.json`, `frameworks.json`,
+   `signature_library.json`) — these belonged to the prior 89-doc
+   pipeline and were either unused at inference (LL-005) or redundant
+   with per-doc `.json` fields.
+3. ✅ `load_raw_doc(doc_id)` resolves
+   `corpus/{type_dir}/{theme_folder}/{doc_id}.json` via the new
+   `_doc_paths()` helper. ID parsing is strict on the
+   `^[SCG][A-E]\d+$` regex; unknown ids return `None` (router-output
+   schema validation already guards the surface — see Workstream B).
+4. ✅ New `load_doc_body(doc_id)` returns the body of the paired `.md`
+   for verbatim quoting by the composer. YAML frontmatter and the
+   `# Title` line are stripped.
+5. ✅ Back-compat alias: `ARTIFACTS_DIR = DEFAULT_CONFIG.voice_dir`
+   keeps `app/dashboard.py`'s existing import working unchanged.
+6. ✅ `build_context()` updated: the trimmed source-doc record now
+   reads from the new `.json` schema (`id` not `doc_id`, plus
+   `theme`, `theme_label`, `one_paragraph_summary`).
+7. ✅ Smoke-test: `Config.from_env()` + `CorpusArtifacts()` load 35
+   topics; `_doc_paths` resolves real ids (SA136, CA001, CA024) and
+   correctly returns `None` for absent (`GC001` — biography skipped)
+   and malformed (`BOGUS`, `ZZ999`) ids; `load_raw_doc('CA004')`
+   returns a record whose `topic_paths.primary` matches Phase 2
+   expectations.
+
+**Acceptance** (partial): the artifact loader runs against the new
+corpus. Full end-to-end smoke against the six build-kit sanity
+questions ([TS-005](../test-specs/TS-005-end-to-end-pipeline-smoke.md))
+requires Workstream B (router prompt update) and depends on a live
+Anthropic API key; that is the next workstream's acceptance.
 
 ## 5. Workstream B — Router prompt update
 
