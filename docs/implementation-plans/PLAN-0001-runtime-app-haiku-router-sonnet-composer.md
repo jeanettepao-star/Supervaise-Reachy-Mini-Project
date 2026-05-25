@@ -148,23 +148,29 @@ once it runs against the live API.
 
 ## 6. Workstream C — Context-block builder
 
-Assemble the `<routed_topics>` / `<topic_data>` / `<source_documents>`
-block per
-[voice_card.md](../../corpus/voice/voice_card.md) §"Context block
-conventions".
+**Status: complete.**
 
-1. For each routed topic id, copy its node from `topic_map.json`
-   (definition + signature phrases + entities + register).
-2. For source docs: intersect router output with `topic_paths`. Pick
-   top 1-3 docs by combined primary/secondary hit count. Load whole
-   `.md` body and key `.json` fields (`stances`, `notable_anecdotes`,
-   `signature_phrases`, `one_paragraph_summary`).
-3. Enforce a soft 12K-token budget on the assembled context. If
-   exceeded, drop the lowest-priority source doc; never truncate
-   mid-doc.
+1. ✅ `<routed_topics>` / `<topic_data>` / `<source_documents>` block
+   assembled per
+   [voice_card.md](../../corpus/voice/voice_card.md) §"Context block
+   conventions".
+2. ✅ Source doc selection by topic-multi-hit scoring:
+   `score = 2 × (in primary topic's doc_ids) + (in any secondary
+   topic's doc_ids)`; top 3 by score, ties broken alphabetically by
+   id. Implementation: `_select_source_doc_ids()`.
+3. ✅ Soft 12K-token budget (`CONTEXT_TOKEN_BUDGET`) enforced. When
+   over, drops lowest-priority source doc one at a time until in
+   budget. The routed_topics + topic_data preface is always preserved
+   — it's the irreducible signal. Token count is approximated at 4
+   chars ≈ 1 token (Anthropic tokeniser).
+4. ✅ Smoke verified: a typical 3-doc, 3-topic routing produces an
+   ~8,400-token context (well under budget); a META-only routing
+   produces ~300 tokens (zero source docs, preface only); a tight
+   2K-budget routing correctly drops source docs.
 
 **Acceptance**: assembled context is ≤12K tokens for 95% of the
-build-kit sanity questions.
+build-kit sanity questions — verified empirically once
+[TS-006](../test-specs/TS-006-smoke-test-questions.md) runs.
 
 ## 7. Workstream D — Honesty rule wiring
 

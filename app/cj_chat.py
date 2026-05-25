@@ -440,65 +440,118 @@ def route_question(client: Anthropic, question: str, artifacts: CorpusArtifacts)
 # ============================================================
 # Step 3: Build context block for the inference call
 # ============================================================
-def build_context(routing: dict, artifacts: CorpusArtifacts) -> str:
-    """Assemble the structured context block per the voice card's convention."""
+# PLAN-0001 §C: soft token budget for the assembled context. Source docs
+# are dropped lowest-priority-first when over budget; never truncate
+# mid-doc. ~4 chars ≈ 1 token (Anthropic tokeniser approximation).
+CONTEXT_TOKEN_BUDGET = 12_000
+_CHARS_PER_TOKEN_APPROX = 4
+
+
+def _approx_tokens(text: str) -> int:
+    return max(1, len(text) // _CHARS_PER_TOKEN_APPROX)
+
+
+def _select_source_doc_ids(
+    routing: dict, artifacts: CorpusArtifacts, max_docs: int = 3
+) -> list[str]:
+    """Pick source doc ids using topic_paths intersection with router output.
+
+    Per PLAN-0001 §C: a doc is *more* relevant when it appears in MULTIPLE
+    routed topics' `doc_ids`. We score each candidate by:
+      score = 2 * (appearances in primary topic's doc_ids)
+            + 1 * (appearances in any secondary topic's doc_ids)
+    and pick the top N by score, breaking ties by alphabetical id.
+
+    Note: at this stage we use the topic_map's `doc_ids` (the docs that
+    matched a topic's matchers). When the runtime later cross-references
+    each doc's `topic_paths.primary`, that's a richer signal — added in
+    a follow-up if needed.
+    """
     primary = routing["primary_topic"]
-    secondary = routing.get("secondary_topics", [])
+    secondary = routing.get("secondary_topics", []) or []
+
+    primary_docs: list[str] = artifacts.topics.get(primary, {}).get("doc_ids", [])
+    score: dict[str, int] = {did: 2 for did in primary_docs}
+    for tid in secondary:
+        for did in artifacts.topics.get(tid, {}).get("doc_ids", []):
+            score[did] = score.get(did, 0) + 1
+
+    ranked = sorted(score.items(), key=lambda kv: (-kv[1], kv[0]))
+    return [did for did, _ in ranked[:max_docs]]
+
+
+def _trim_doc(raw: dict) -> dict:
+    """Reduce a doc record to the fields the composer actually uses."""
+    # Per ADR-0011, the canonical key is `id` (not `doc_id`).
+    return {
+        "doc_id": raw.get("id") or raw.get("doc_id"),
+        "title": raw.get("title"),
+        "date": raw.get("date"),
+        "theme": raw.get("theme"),
+        "theme_label": raw.get("theme_label"),
+        "primary_topics": raw.get("primary_topics"),
+        "stances": raw.get("stances", [])[:4],
+        "signature_phrases": raw.get("signature_phrases", [])[:8],
+        "notable_anecdotes": raw.get("notable_anecdotes", [])[:3],
+        "one_paragraph_summary": raw.get("one_paragraph_summary"),
+    }
+
+
+def build_context(
+    routing: dict,
+    artifacts: CorpusArtifacts,
+    token_budget: int = CONTEXT_TOKEN_BUDGET,
+) -> str:
+    """Assemble the structured context block per the voice card's convention.
+
+    PLAN-0001 §C: enforces a soft token budget on the assembled block.
+    When over, drops source docs lowest-priority-first (preserving the
+    routed-topics + topic-data preface). Never truncates mid-doc.
+    """
+    primary = routing["primary_topic"]
+    secondary = routing.get("secondary_topics", []) or []
     all_topic_ids = [primary] + secondary
 
-    # Topic data block
-    topic_data = {}
-    for tid in all_topic_ids:
-        if tid in artifacts.topics:
-            topic_data[tid] = artifacts.topics[tid]
+    # 1. Topic data block — keep all routed topics' nodes
+    topic_data = {tid: artifacts.topics[tid] for tid in all_topic_ids if tid in artifacts.topics}
 
-    # Pull raw source docs — limit to 3 most-shared docs from the primary topic
-    primary_topic = artifacts.topics.get(primary, {})
-    primary_doc_ids = primary_topic.get("doc_ids", [])[:3]
-
-    source_docs = []
-    for did in primary_doc_ids:
+    # 2. Pick + load source docs in priority order
+    doc_ids = _select_source_doc_ids(routing, artifacts, max_docs=3)
+    source_docs: list[dict] = []
+    for did in doc_ids:
         raw = artifacts.load_raw_doc(did)
         if raw:
-            # Trim raw doc to essentials to keep token cost low.
-            # Per ADR-0011, the canonical key is `id` (not `doc_id`); we
-            # check both so older Phase 2 artifacts keep working.
-            trimmed = {
-                "doc_id": raw.get("id") or raw.get("doc_id"),
-                "title": raw.get("title"),
-                "date": raw.get("date"),
-                "theme": raw.get("theme"),
-                "theme_label": raw.get("theme_label"),
-                "primary_topics": raw.get("primary_topics"),
-                "stances": raw.get("stances", [])[:4],
-                "signature_phrases": raw.get("signature_phrases", [])[:8],
-                "notable_anecdotes": raw.get("notable_anecdotes", [])[:3],
-                "one_paragraph_summary": raw.get("one_paragraph_summary"),
-            }
-            source_docs.append(trimmed)
+            source_docs.append(_trim_doc(raw))
 
-    # Format the context block
-    parts = []
-
-    parts.append("<routed_topics>")
+    # 3. Build the preface (always included)
+    preface_lines: list[str] = ["<routed_topics>"]
     for tid in all_topic_ids:
         t = artifacts.topics.get(tid)
         if t:
-            parts.append(f"  - {tid} ({t['tier']}): {t['display_name']}")
-    parts.append(f"  confidence: {routing.get('confidence', 'unknown')}")
-    parts.append("</routed_topics>")
-    parts.append("")
+            preface_lines.append(f"  - {tid} ({t['tier']}): {t['display_name']}")
+    preface_lines.append(f"  confidence: {routing.get('confidence', 'unknown')}")
+    preface_lines.append("</routed_topics>")
+    preface_lines.append("")
+    preface_lines.append("<topic_data>")
+    preface_lines.append(json.dumps(topic_data, ensure_ascii=False, indent=2))
+    preface_lines.append("</topic_data>")
+    preface = "\n".join(preface_lines)
 
-    parts.append("<topic_data>")
-    parts.append(json.dumps(topic_data, ensure_ascii=False, indent=2))
-    parts.append("</topic_data>")
-    parts.append("")
+    # 4. Drop source docs lowest-priority-first until the assembled block
+    #    fits the budget. Preserve at least 0 docs (the preface alone is a
+    #    valid fallback for OOC questions).
+    def _assemble(docs: list[dict]) -> str:
+        return (
+            preface
+            + "\n\n<source_documents>\n"
+            + json.dumps(docs, ensure_ascii=False, indent=2)
+            + "\n</source_documents>"
+        )
 
-    parts.append("<source_documents>")
-    parts.append(json.dumps(source_docs, ensure_ascii=False, indent=2))
-    parts.append("</source_documents>")
+    while source_docs and _approx_tokens(_assemble(source_docs)) > token_budget:
+        source_docs.pop()  # drop the lowest-priority remaining doc
 
-    return "\n".join(parts)
+    return _assemble(source_docs)
 
 
 # ============================================================
