@@ -860,9 +860,104 @@ def write_topic_map(tm: dict[str, Any]) -> Path:
     return out_path
 
 
+def matcher_health_check(
+    tm: dict[str, Any],
+    doc_scores: dict[str, dict[str, int]],
+    docs: list[tuple[Path, dict[str, Any]]],
+    over_broad_frac: float = 0.25,
+    near_dup_jaccard: float = 0.50,
+    dominant_term_frac: float = 0.80,
+) -> list[dict[str, Any]]:
+    """
+    Per PLAN-0007 §4 — flag taxonomy issues that should trigger curator
+    review. Returns a list of warning dicts; also prints them.
+
+    Categories:
+      - zero-coverage  : non-meta topic with 0 docs
+      - over-broad     : topic claims > over_broad_frac of corpus
+      - near-duplicate : topic pair with Jaccard overlap > near_dup_jaccard
+      - dominant-term  : within a topic, ≥ dominant_term_frac of its docs
+                         match on a single matcher term
+    """
+    warnings_out: list[dict[str, Any]] = []
+    topics = tm["topics"]
+    n_docs = len(docs)
+    over_broad_cutoff = max(1, int(over_broad_frac * n_docs))
+
+    # 1. Zero-coverage and over-broad
+    for tid, t in topics.items():
+        if t["tier"] == "meta":
+            continue
+        if t["doc_count"] == 0:
+            warnings_out.append(
+                {"kind": "zero-coverage", "topic": tid,
+                 "msg": f"{tid} has 0 docs; consider loosening matchers or "
+                        f"retiring (PLAN-0007 §3b/§3d)"}
+            )
+        elif t["doc_count"] > over_broad_cutoff:
+            warnings_out.append(
+                {"kind": "over-broad", "topic": tid, "doc_count": t["doc_count"],
+                 "msg": f"{tid} claims {t['doc_count']} of {n_docs} docs "
+                        f"({t['doc_count']/n_docs:.0%}); consider tightening "
+                        f"matchers (PLAN-0007 §3c)"}
+            )
+
+    # 2. Near-duplicate topic pairs
+    topic_ids = list(topics.keys())
+    for i, a in enumerate(topic_ids):
+        a_set = set(topics[a]["doc_ids"])
+        if not a_set:
+            continue
+        for b in topic_ids[i + 1 :]:
+            b_set = set(topics[b]["doc_ids"])
+            if not b_set:
+                continue
+            intersection = a_set & b_set
+            union = a_set | b_set
+            if not union:
+                continue
+            jaccard = len(intersection) / len(union)
+            if jaccard > near_dup_jaccard:
+                warnings_out.append(
+                    {"kind": "near-duplicate", "topics": [a, b],
+                     "jaccard": round(jaccard, 3),
+                     "msg": f"{a} and {b} overlap (Jaccard={jaccard:.2f}); "
+                            f"consider merge or matcher-disjoint refactor "
+                            f"(PLAN-0007 §3e)"}
+                )
+
+    # 3. Dominant-term per topic
+    docs_by_id = {doc["id"]: doc for _, doc in docs}
+    for tid, t in topics.items():
+        members = t["doc_ids"]
+        if len(members) < 3:
+            continue  # Too small for the dominance ratio to mean much.
+        all_terms = list(t["matchers"]["keywords"]) + list(
+            t["matchers"].get("entities", [])
+        )
+        for term in all_terms:
+            pat = _kw_pattern(term)
+            hits = sum(
+                1 for mid in members
+                if mid in docs_by_id and pat.search(_doc_haystack(docs_by_id[mid]))
+            )
+            frac = hits / len(members)
+            if frac >= dominant_term_frac:
+                warnings_out.append(
+                    {"kind": "dominant-term", "topic": tid, "term": term,
+                     "fraction": round(frac, 3),
+                     "msg": f"{tid}: '{term}' fires on {hits}/{len(members)} "
+                            f"({frac:.0%}) of its docs; topic depends on one "
+                            f"term — consider adding diversifying matchers"}
+                )
+
+    return warnings_out
+
+
 def write_coverage_report(
     docs: list[tuple[Path, dict[str, Any]]],
     doc_scores: dict[str, dict[str, int]],
+    health_warnings: list[dict[str, Any]] | None = None,
 ) -> Path:
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     out_path = REPORTS_DIR / "topic_map_report.json"
@@ -893,6 +988,7 @@ def write_coverage_report(
                 "generated_at": datetime.now(timezone.utc).isoformat(),
                 "n_docs": len(docs),
                 "unmatched_docs": unmatched,
+                "health_warnings": health_warnings or [],
                 "per_doc": rows,
             },
             ensure_ascii=False,
@@ -908,8 +1004,9 @@ def main() -> int:
     docs = load_docs()
     print(f"[load] {len(docs)} corpus documents")
     tm, doc_scores = build_topic_map(docs)
+    health_warnings = matcher_health_check(tm, doc_scores, docs)
     tm_path = write_topic_map(tm)
-    rep_path = write_coverage_report(docs, doc_scores)
+    rep_path = write_coverage_report(docs, doc_scores, health_warnings)
     n_topics = len(tm["topics"])
     avg_docs = sum(t["doc_count"] for t in tm["topics"].values()) / n_topics
     unmatched = [
@@ -922,6 +1019,17 @@ def main() -> int:
     print(f"[stats] unmatched docs (no topic_path): {len(unmatched)}")
     for d in unmatched:
         print(f"        - {d}")
+    # Matcher health summary
+    if health_warnings:
+        by_kind: dict[str, int] = {}
+        for w in health_warnings:
+            by_kind[w["kind"]] = by_kind.get(w["kind"], 0) + 1
+        kind_summary = ", ".join(f"{k}={v}" for k, v in sorted(by_kind.items()))
+        print(f"[health] {len(health_warnings)} taxonomy warning(s): {kind_summary}")
+        for w in health_warnings:
+            print(f"  [{w['kind']:>14}] {w['msg']}")
+    else:
+        print("[health] no taxonomy warnings")
     return 0
 
 

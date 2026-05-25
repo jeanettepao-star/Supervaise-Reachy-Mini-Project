@@ -1,7 +1,241 @@
 {
-  "generated_at": "2026-05-25T21:08:26.453994+00:00",
+  "generated_at": "2026-05-25T22:27:11.778457+00:00",
   "n_docs": 79,
   "unmatched_docs": [],
+  "health_warnings": [
+    {
+      "kind": "over-broad",
+      "topic": "rule_of_law",
+      "doc_count": 30,
+      "msg": "rule_of_law claims 30 of 79 docs (38%); consider tightening matchers (PLAN-0007 §3c)"
+    },
+    {
+      "kind": "over-broad",
+      "topic": "twin_beacons_doctrine",
+      "doc_count": 27,
+      "msg": "twin_beacons_doctrine claims 27 of 79 docs (34%); consider tightening matchers (PLAN-0007 §3c)"
+    },
+    {
+      "kind": "over-broad",
+      "topic": "foundation_for_liberty_and_prosperity",
+      "doc_count": 25,
+      "msg": "foundation_for_liberty_and_prosperity claims 25 of 79 docs (32%); consider tightening matchers (PLAN-0007 §3c)"
+    },
+    {
+      "kind": "over-broad",
+      "topic": "constitutional_doctrine",
+      "doc_count": 28,
+      "msg": "constitutional_doctrine claims 28 of 79 docs (35%); consider tightening matchers (PLAN-0007 §3c)"
+    },
+    {
+      "kind": "over-broad",
+      "topic": "supreme_court_history",
+      "doc_count": 33,
+      "msg": "supreme_court_history claims 33 of 79 docs (42%); consider tightening matchers (PLAN-0007 §3c)"
+    },
+    {
+      "kind": "over-broad",
+      "topic": "bar_exam_and_legal_education",
+      "doc_count": 20,
+      "msg": "bar_exam_and_legal_education claims 20 of 79 docs (25%); consider tightening matchers (PLAN-0007 §3c)"
+    },
+    {
+      "kind": "over-broad",
+      "topic": "family_and_marriage",
+      "doc_count": 22,
+      "msg": "family_and_marriage claims 22 of 79 docs (28%); consider tightening matchers (PLAN-0007 §3c)"
+    },
+    {
+      "kind": "over-broad",
+      "topic": "faith_journey",
+      "doc_count": 20,
+      "msg": "faith_journey claims 20 of 79 docs (25%); consider tightening matchers (PLAN-0007 §3c)"
+    },
+    {
+      "kind": "near-duplicate",
+      "topics": [
+        "twin_beacons_doctrine",
+        "foundation_for_liberty_and_prosperity"
+      ],
+      "jaccard": 0.857,
+      "msg": "twin_beacons_doctrine and foundation_for_liberty_and_prosperity overlap (Jaccard=0.86); consider merge or matcher-disjoint refactor (PLAN-0007 §3e)"
+    },
+    {
+      "kind": "near-duplicate",
+      "topics": [
+        "twin_beacons_doctrine",
+        "flp_scholarship_programs"
+      ],
+      "jaccard": 0.586,
+      "msg": "twin_beacons_doctrine and flp_scholarship_programs overlap (Jaccard=0.59); consider merge or matcher-disjoint refactor (PLAN-0007 §3e)"
+    },
+    {
+      "kind": "near-duplicate",
+      "topics": [
+        "twin_beacons_doctrine",
+        "flp_donors_and_partners"
+      ],
+      "jaccard": 0.586,
+      "msg": "twin_beacons_doctrine and flp_donors_and_partners overlap (Jaccard=0.59); consider merge or matcher-disjoint refactor (PLAN-0007 §3e)"
+    },
+    {
+      "kind": "near-duplicate",
+      "topics": [
+        "foundation_for_liberty_and_prosperity",
+        "flp_scholarship_programs"
+      ],
+      "jaccard": 0.63,
+      "msg": "foundation_for_liberty_and_prosperity and flp_scholarship_programs overlap (Jaccard=0.63); consider merge or matcher-disjoint refactor (PLAN-0007 §3e)"
+    },
+    {
+      "kind": "near-duplicate",
+      "topics": [
+        "foundation_for_liberty_and_prosperity",
+        "flp_donors_and_partners"
+      ],
+      "jaccard": 0.63,
+      "msg": "foundation_for_liberty_and_prosperity and flp_donors_and_partners overlap (Jaccard=0.63); consider merge or matcher-disjoint refactor (PLAN-0007 §3e)"
+    },
+    {
+      "kind": "near-duplicate",
+      "topics": [
+        "msme_and_entrepreneurship",
+        "museum_for_liberty_and_prosperity"
+      ],
+      "jaccard": 0.909,
+      "msg": "msme_and_entrepreneurship and museum_for_liberty_and_prosperity overlap (Jaccard=0.91); consider merge or matcher-disjoint refactor (PLAN-0007 §3e)"
+    },
+    {
+      "kind": "near-duplicate",
+      "topics": [
+        "mentors_and_legal_lineage",
+        "early_life_sampaloc"
+      ],
+      "jaccard": 0.579,
+      "msg": "mentors_and_legal_lineage and early_life_sampaloc overlap (Jaccard=0.58); consider merge or matcher-disjoint refactor (PLAN-0007 §3e)"
+    },
+    {
+      "kind": "near-duplicate",
+      "topics": [
+        "flp_scholarship_programs",
+        "flp_donors_and_partners"
+      ],
+      "jaccard": 0.727,
+      "msg": "flp_scholarship_programs and flp_donors_and_partners overlap (Jaccard=0.73); consider merge or matcher-disjoint refactor (PLAN-0007 §3e)"
+    },
+    {
+      "kind": "dominant-term",
+      "topic": "rule_of_law",
+      "term": "rule of law",
+      "fraction": 1.0,
+      "msg": "rule_of_law: 'rule of law' fires on 30/30 (100%) of its docs; topic depends on one term — consider adding diversifying matchers"
+    },
+    {
+      "kind": "dominant-term",
+      "topic": "twin_beacons_doctrine",
+      "term": "liberty and prosperity",
+      "fraction": 1.0,
+      "msg": "twin_beacons_doctrine: 'liberty and prosperity' fires on 27/27 (100%) of its docs; topic depends on one term — consider adding diversifying matchers"
+    },
+    {
+      "kind": "dominant-term",
+      "topic": "foundation_for_liberty_and_prosperity",
+      "term": "foundation for liberty and prosperity",
+      "fraction": 0.84,
+      "msg": "foundation_for_liberty_and_prosperity: 'foundation for liberty and prosperity' fires on 21/25 (84%) of its docs; topic depends on one term — consider adding diversifying matchers"
+    },
+    {
+      "kind": "dominant-term",
+      "topic": "foundation_for_liberty_and_prosperity",
+      "term": "flp",
+      "fraction": 0.96,
+      "msg": "foundation_for_liberty_and_prosperity: 'flp' fires on 24/25 (96%) of its docs; topic depends on one term — consider adding diversifying matchers"
+    },
+    {
+      "kind": "dominant-term",
+      "topic": "foundation_for_liberty_and_prosperity",
+      "term": "Foundation for Liberty and Prosperity",
+      "fraction": 0.84,
+      "msg": "foundation_for_liberty_and_prosperity: 'Foundation for Liberty and Prosperity' fires on 21/25 (84%) of its docs; topic depends on one term — consider adding diversifying matchers"
+    },
+    {
+      "kind": "dominant-term",
+      "topic": "due_process",
+      "term": "due process",
+      "fraction": 1.0,
+      "msg": "due_process: 'due process' fires on 8/8 (100%) of its docs; topic depends on one term — consider adding diversifying matchers"
+    },
+    {
+      "kind": "dominant-term",
+      "topic": "impeachment_accountability",
+      "term": "impeachment",
+      "fraction": 0.8,
+      "msg": "impeachment_accountability: 'impeachment' fires on 4/5 (80%) of its docs; topic depends on one term — consider adding diversifying matchers"
+    },
+    {
+      "kind": "dominant-term",
+      "topic": "msme_and_entrepreneurship",
+      "term": "esmel",
+      "fraction": 1.0,
+      "msg": "msme_and_entrepreneurship: 'esmel' fires on 11/11 (100%) of its docs; topic depends on one term — consider adding diversifying matchers"
+    },
+    {
+      "kind": "dominant-term",
+      "topic": "mentors_and_legal_lineage",
+      "term": "salonga",
+      "fraction": 1.0,
+      "msg": "mentors_and_legal_lineage: 'salonga' fires on 16/16 (100%) of its docs; topic depends on one term — consider adding diversifying matchers"
+    },
+    {
+      "kind": "dominant-term",
+      "topic": "mentors_and_legal_lineage",
+      "term": "jovito r. salonga",
+      "fraction": 0.875,
+      "msg": "mentors_and_legal_lineage: 'jovito r. salonga' fires on 14/16 (88%) of its docs; topic depends on one term — consider adding diversifying matchers"
+    },
+    {
+      "kind": "dominant-term",
+      "topic": "faith_journey",
+      "term": "catholic",
+      "fraction": 0.8,
+      "msg": "faith_journey: 'catholic' fires on 16/20 (80%) of its docs; topic depends on one term — consider adding diversifying matchers"
+    },
+    {
+      "kind": "dominant-term",
+      "topic": "jbc_discernment_and_appointment",
+      "term": "jbc",
+      "fraction": 1.0,
+      "msg": "jbc_discernment_and_appointment: 'jbc' fires on 5/5 (100%) of its docs; topic depends on one term — consider adding diversifying matchers"
+    },
+    {
+      "kind": "dominant-term",
+      "topic": "jbc_discernment_and_appointment",
+      "term": "judicial and bar council",
+      "fraction": 0.8,
+      "msg": "jbc_discernment_and_appointment: 'judicial and bar council' fires on 4/5 (80%) of its docs; topic depends on one term — consider adding diversifying matchers"
+    },
+    {
+      "kind": "dominant-term",
+      "topic": "flp_scholarship_programs",
+      "term": "scholarship",
+      "fraction": 0.895,
+      "msg": "flp_scholarship_programs: 'scholarship' fires on 17/19 (89%) of its docs; topic depends on one term — consider adding diversifying matchers"
+    },
+    {
+      "kind": "dominant-term",
+      "topic": "museum_for_liberty_and_prosperity",
+      "term": "center for liberty and prosperity",
+      "fraction": 0.8,
+      "msg": "museum_for_liberty_and_prosperity: 'center for liberty and prosperity' fires on 8/10 (80%) of its docs; topic depends on one term — consider adding diversifying matchers"
+    },
+    {
+      "kind": "dominant-term",
+      "topic": "prosperity_fund_msme",
+      "term": "prosperity fund",
+      "fraction": 1.0,
+      "msg": "prosperity_fund_msme: 'prosperity fund' fires on 5/5 (100%) of its docs; topic depends on one term — consider adding diversifying matchers"
+    }
+  ],
   "per_doc": [
     {
       "id": "CA001",

@@ -115,6 +115,9 @@ class RunStats:
     by_type_and_theme: dict[str, dict[str, int]] = field(default_factory=dict)
     errors: list[str] = field(default_factory=list)
     warnings: list[str] = field(default_factory=list)
+    # PLAN-0007 §5: first-of-each-stratum samples, captured during write.
+    # Keyed by type_letter ("S" / "C" / "G"); value is (id, body_first_chars).
+    stratum_samples: dict[str, tuple[str, str]] = field(default_factory=dict)
 
 
 def read_csv_robust(path: Path) -> tuple[list[dict[str, str]], str]:
@@ -511,6 +514,19 @@ def process_row(
     result = ProcessResult(article_code=(row.get("Article Code") or "").strip())
 
     canonical_id = normalize_article_code(result.article_code or "")
+    # Per PLAN-0007 §5: when normalisation actually changes the code, log it
+    # so the curator notices drifting CSV conventions.
+    if (
+        canonical_id
+        and result.article_code
+        and canonical_id != result.article_code.strip().upper()
+    ):
+        diff_note = f"{result.article_code} → {canonical_id}"
+        stats.warnings.append(
+            f"{csv_path.name}:{line_no} INFO normalised Article Code: {diff_note}"
+        )
+        if verbose:
+            print(f"  [   norm] {diff_note}")
     if not canonical_id:
         result.status = "skipped"
         result.message = (
@@ -759,6 +775,23 @@ def process_csv(
         stats.by_type_and_theme[type_key].setdefault(result.theme, 0)  # type: ignore[arg-type]
         stats.by_type_and_theme[type_key][result.theme] += 1  # type: ignore[index]
         stats.successful += 1
+        # PLAN-0007 §5: capture the first row of each type as a stratum sample.
+        if (
+            result.type_letter
+            and result.canonical_id
+            and result.type_letter not in stats.stratum_samples
+        ):
+            # Slice the body section (after the title line) for the sample.
+            try:
+                body_idx = md_text.index("\n# ")
+                body = md_text[body_idx:].split("\n\n", 2)
+                body_excerpt = (body[2] if len(body) > 2 else body[-1]).strip()
+            except ValueError:
+                body_excerpt = md_text
+            stats.stratum_samples[result.type_letter] = (
+                result.canonical_id,
+                body_excerpt[:80].replace("\n", " "),
+            )
 
 
 def write_reports(stats: RunStats, dry_run: bool) -> None:
@@ -849,6 +882,15 @@ def main(argv: list[str] | None = None) -> int:
     print(f"  dry_run                  : {args.dry_run}")
     print(f"  report                   : {REPORTS_DIR / 'generation_report.json'}")
     print(f"  log                      : {REPORTS_DIR / 'validation_errors.log'}")
+    # PLAN-0007 §5: first-of-each-stratum samples for cross-type sanity check.
+    if stats.stratum_samples:
+        print()
+        print("[sample]")
+        for letter in ("S", "C", "G"):
+            if letter in stats.stratum_samples:
+                sid, excerpt = stats.stratum_samples[letter]
+                label = TYPE_LABELS[letter]
+                print(f"  {sid} ({label:9s}): {excerpt!r}")
     return 0
 
 

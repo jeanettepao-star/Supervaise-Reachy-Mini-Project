@@ -1,6 +1,6 @@
 # PLAN-0007: Topic Map evolution process — how to add, retire, and tighten topics safely
 
-* Status: draft
+* Status: diagnostics implemented (§4 + §5); process documented
 * Phase: cross-cutting (always-on, applies whenever the corpus or
   taxonomy changes)
 * Owner: curator + engineer (paired)
@@ -153,25 +153,30 @@ Add to `scripts/build_topic_map.py` an end-of-run summary that flags:
 
 Each warning links to the §3 operation playbook.
 
-Implementation status: **not yet built**. Adding this diagnostic is
-a small task captured in
-[TS-002](../test-specs/TS-002-topic-map-matchers.md) §"Matcher health"
-as expected behavior.
+**Implementation status: in place** (commit following this plan's draft
+landing). `matcher_health_check()` in
+`scripts/build_topic_map.py` evaluates all four checks at the end of
+every build. Warnings are printed to stdout and stored as
+`health_warnings` in `reports/topic_map_report.json`.
 
 ## 5. Rebuild output hygiene
 
-Two diagnostic improvements that fell out of Phase 1-2 lessons:
+Two diagnostic improvements that fell out of Phase 1-2 lessons —
+**both implemented**:
 
 1. **First-of-each-stratum sample** — generator prints one
    `[sample]` line per type after generation, showing the first 80
    chars of the body. Helps catch parser regressions across types
-   (per
-   [LL-008](../lessons/LL-008-column-txt-no-separator.md)).
+   (per [LL-008](../lessons/LL-008-column-txt-no-separator.md)).
+   Implementation: `RunStats.stratum_samples` populated in
+   `process_csv`; printed in the `[sample]` block at end of `main`.
 2. **Article-code normalisation diff log** — when
-   `normalize_article_code()` actually changes the input, log it:
-   `INFO  CA01 → CA001 (zero-padded)`. Helps the curator notice
-   drifting CSV conventions (per
+   `normalize_article_code()` actually changes the input, an
+   `INFO normalised Article Code: CA01 → CA001` line is appended
+   to `reports/validation_errors.log` (per
    [LL-010](../lessons/LL-010-article-code-typos-and-padding.md)).
+   Implementation: the diff is detected immediately after the
+   normaliser call in `process_row()`.
 
 These are *generator* improvements, not topic-map. Captured here
 because the curator's loop benefits.

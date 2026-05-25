@@ -112,8 +112,10 @@ task and is captured in
 
 ## 4. Matcher health — distribution checks
 
-These run at the end of every `scripts/build_topic_map.py` invocation
-and emit warnings when thresholds are crossed:
+**Implemented** in `scripts/build_topic_map.py` `matcher_health_check()`.
+Runs at the end of every build; warnings are printed to stdout and
+recorded under `health_warnings` in
+`reports/topic_map_report.json`. Thresholds crossed:
 
 ### 4.1 Zero-coverage
 
