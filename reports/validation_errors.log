@@ -1,0 +1,26 @@
+# ERRORS (rows skipped)
+cjp_biography_curated.csv:2 SKIP missing or unparseable Date '' for GC001
+
+# WARNINGS (row generated with notice)
+cjp_columns_curated.csv:11 WARN CA010 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback
+cjp_columns_curated.csv:12 WARN CA011 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback
+cjp_columns_curated.csv:14 WARN CA013 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback
+cjp_columns_curated.csv:15 WARN CA014 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback
+cjp_columns_curated.csv:16 WARN CA015 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback
+cjp_columns_curated.csv:24 WARN CA024 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback
+cjp_columns_curated.csv:25 WARN CB001 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback
+cjp_columns_curated.csv:28 WARN CB004 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback
+cjp_columns_curated.csv:31 WARN CB007 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback
+cjp_columns_curated.csv:32 WARN CC001 — Keyword/s: JSON parse failed (Expecting value at col 2); used fallback
+cjp_columns_curated.csv:35 WARN CC004 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback
+cjp_columns_curated.csv:43 WARN CC012 — Keyword/s: JSON parse failed (Extra data at col 6); used fallback
+cjp_columns_curated.csv:44 WARN CC013 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback
+cjp_columns_curated.csv:48 WARN CC017 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback
+cjp_columns_curated.csv:51 WARN CD003 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback; primary_topics: JSON parse failed (Expecting value at col 1); used fallback; sub_topics: JSON parse failed (Extra data at col 4); used fallback; signature_phrases: JSON parse failed (Expecting value at col 1); used fallback; entities: JSON parse failed (Expecting value at col 1); used fallback; stances: JSON parse failed (Expecting value at col 1); used fallback; notable_anecdotes: JSON parse failed (Expecting value at col 1); used fallback
+cjp_columns_curated.csv:56 WARN CD008 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback
+cjp_columns_curated.csv:57 WARN CD009 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback; primary_topics: JSON parse failed (Expecting value at col 1); used fallback; sub_topics: JSON parse failed (Extra data at col 4); used fallback; signature_phrases: JSON parse failed (Expecting value at col 1); used fallback; entities: JSON parse failed (Expecting value at col 1); used fallback; stances: JSON parse failed (Expecting value at col 1); used fallback; notable_anecdotes: JSON parse failed (Expecting value at col 1); used fallback
+cjp_columns_curated.csv:59 WARN CE001 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback
+cjp_columns_curated.csv:60 WARN CE003 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback; primary_topics: JSON parse failed (Expecting value at col 1); used fallback; sub_topics: JSON parse failed (Expecting value at col 1); used fallback; signature_phrases: JSON parse failed (Expecting value at col 1); used fallback; entities: JSON parse failed (Expecting value at col 1); used fallback; stances: JSON parse failed (Expecting value at col 1); used fallback; notable_anecdotes: JSON parse failed (Expecting value at col 1); used fallback
+cjp_columns_curated.csv:61 WARN CE004 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback; primary_topics: JSON parse failed (Expecting value at col 1); used fallback; sub_topics: JSON parse failed (Expecting value at col 1); used fallback; signature_phrases: JSON parse failed (Expecting value at col 1); used fallback; entities: JSON parse failed (Expecting value at col 1); used fallback; stances: JSON parse failed (Expecting value at col 1); used fallback; notable_anecdotes: JSON parse failed (Expecting value at col 1); used fallback
+cjp_columns_curated.csv:64 WARN CE007 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback
+cjp_columns_curated.csv:65 WARN CE008 — Keyword/s: JSON parse failed (Expecting value at col 1); used fallback
