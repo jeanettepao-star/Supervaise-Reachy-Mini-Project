@@ -469,73 +469,127 @@ def _inject_css() -> None:
     .compact-mic { opacity: 0.85; margin: 0.6rem auto 0; max-width: 520px; }
     .compact-mic [data-testid='stAudioInputDeleteBtn'] { display: none; }
 
-    /* ── Floating diagnostics toggle (right edge) ────────────────── */
-    .diag-toggle {
-        position: fixed; right: 18px; top: 50%;
+    /* ── Hide Streamlit's native sidebar entirely — we render our
+       own drawer below for a cleaner kiosk surface. ───────────────── */
+    [data-testid='stSidebar'],
+    [data-testid='collapsedControl'],
+    [data-testid='stSidebarCollapsedControl'] {
+        display: none !important;
+    }
+
+    /* ── Pure-CSS slide-in drawer (checkbox hack — no JS) ────────── */
+    /* The hidden checkbox is the state. The floating toggle button is
+       a <label for=…> that flips the checkbox. The drawer panel is a
+       sibling that listens for :checked via the general-sibling
+       combinator. Closing happens via a second label-with-the-same-for
+       inside the drawer (the × button). This works in every modern
+       browser, survives Streamlit's HTML sanitiser (no <script>
+       needed), and never triggers a Streamlit rerun. */
+
+    .cj-drawer-checkbox { display: none; }
+
+    /* Floating toggle — round icon, right edge, vertically centred */
+    .cj-drawer-toggle-btn {
+        position: fixed; right: 22px; top: 50%;
         transform: translateY(-50%); z-index: 1000;
         width: 56px; height: 56px; border-radius: 50%;
         background: rgba(28, 35, 52, 0.85);
         backdrop-filter: blur(6px);
-        border: 1px solid rgba(242,196,78,0.45);
+        border: 1px solid rgba(242, 196, 78, 0.45);
         display: flex; align-items: center; justify-content: center;
         cursor: pointer; transition: transform 0.18s, box-shadow 0.18s;
-        box-shadow: 0 10px 24px -8px rgba(0,0,0,0.6);
+        box-shadow: 0 10px 24px -8px rgba(0, 0, 0, 0.6);
     }
-    .diag-toggle:hover {
+    .cj-drawer-toggle-btn:hover {
         transform: translateY(-50%) scale(1.06);
-        box-shadow: 0 12px 28px -8px rgba(242,196,78,0.45);
+        box-shadow: 0 12px 28px -8px rgba(242, 196, 78, 0.45);
     }
-    .diag-toggle svg { width: 28px; height: 28px; }
-    .diag-label {
-        position: fixed; right: 84px; top: 50%;
-        transform: translateY(-50%); z-index: 1000;
-        color: #f2c44e; font-family: 'Inter', sans-serif;
-        font-size: 0.72rem; letter-spacing: 2px;
-        text-transform: uppercase; pointer-events: none;
-        opacity: 0.7;
+    .cj-drawer-toggle-btn svg { width: 28px; height: 28px; }
+
+    /* When the checkbox is checked, hide the toggle (the close button
+       inside the drawer takes over). */
+    .cj-drawer-checkbox:checked ~ .cj-drawer-toggle-btn {
+        display: none;
     }
 
-    /* ── Sidebar styled as a diagnostics drawer ──────────────────── */
-    [data-testid='stSidebar'] {
-        background: rgba(8, 11, 20, 0.92) !important;
-        backdrop-filter: blur(16px);
-        border-left: 1px solid rgba(242,196,78,0.18);
+    /* The drawer panel — starts off-screen to the right, slides in
+       when the checkbox is checked. */
+    .cj-drawer {
+        position: fixed; top: 0; right: -460px;
+        width: 440px; max-width: 92vw; height: 100vh;
+        background: linear-gradient(180deg,
+            rgba(8, 11, 20, 0.96) 0%,
+            rgba(12, 18, 32, 0.96) 100%);
+        backdrop-filter: blur(18px) saturate(140%);
+        border-left: 1px solid rgba(242, 196, 78, 0.25);
+        box-shadow: -18px 0 48px -12px rgba(0, 0, 0, 0.7);
+        padding: 1.6rem 1.5rem 2rem;
+        overflow-y: auto;
+        z-index: 999;
+        transition: right 0.36s cubic-bezier(0.22, 0.61, 0.36, 1);
+        font-family: 'Inter', sans-serif;
+        color: #d5dae6;
     }
-    [data-testid='stSidebar'] .drawer-title {
+    .cj-drawer-checkbox:checked ~ .cj-drawer { right: 0; }
+
+    /* Close button (×) inside the drawer — also a label that toggles
+       the same hidden checkbox, so the drawer closes on click. */
+    .cj-drawer-close {
+        position: absolute; top: 14px; right: 18px;
+        width: 32px; height: 32px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        color: #f6f1e1; font-size: 18px;
+        display: flex; align-items: center; justify-content: center;
+        cursor: pointer; transition: background 0.15s;
+    }
+    .cj-drawer-close:hover { background: rgba(255, 255, 255, 0.12); }
+
+    /* Drawer typography + card system */
+    .cj-drawer h3 {
         font-family: 'Cormorant Garamond', Georgia, serif;
-        font-size: 1.5rem; color: #f6f1e1; font-weight: 600;
-        margin: 0.4rem 0 0.8rem;
+        font-size: 1.55rem; color: #f6f1e1; font-weight: 600;
+        margin: 0.2rem 0 1rem;
     }
-    .drawer-card {
+    .cj-drawer .drawer-card {
         background: rgba(255, 255, 255, 0.03);
         border: 1px solid rgba(255, 255, 255, 0.08);
         border-radius: 12px;
         padding: 0.7rem 0.9rem; margin-bottom: 0.6rem;
-        font-family: 'Inter', sans-serif; font-size: 0.88rem;
-        color: #d5dae6;
+        font-size: 0.88rem; color: #d5dae6;
     }
-    .drawer-card.success {
-        border-color: rgba(74,210,149,0.35);
-        background: rgba(74,210,149,0.06);
+    .cj-drawer .drawer-card.success {
+        border-color: rgba(74, 210, 149, 0.35);
+        background: rgba(74, 210, 149, 0.06);
     }
-    .drawer-card.routing {
-        border-color: rgba(102,179,255,0.35);
-        background: rgba(102,179,255,0.06);
+    .cj-drawer .drawer-card.routing {
+        border-color: rgba(102, 179, 255, 0.35);
+        background: rgba(102, 179, 255, 0.06);
     }
-    .drawer-card .label {
+    .cj-drawer .drawer-card.warning {
+        border-color: rgba(217, 127, 95, 0.45);
+        background: rgba(217, 127, 95, 0.06);
+        color: #f2c4ad;
+    }
+    .cj-drawer .drawer-card .label {
         color: #9aa0b0; font-size: 0.72rem; letter-spacing: 1.5px;
-        text-transform: uppercase; margin-bottom: 0.25rem; display: block;
+        text-transform: uppercase; margin-bottom: 0.3rem; display: block;
     }
-    .drawer-response {
+    .cj-drawer .drawer-response {
         background: rgba(255, 255, 255, 0.025);
-        border-left: 3px solid rgba(242,196,78,0.45);
-        padding: 0.9rem 1.1rem; border-radius: 8px;
-        font-family: 'Inter', sans-serif; font-size: 0.93rem;
-        color: #e6e9ef; line-height: 1.55;
+        border-left: 3px solid rgba(242, 196, 78, 0.55);
+        padding: 0.95rem 1.1rem; border-radius: 8px;
+        font-size: 0.93rem; color: #e6e9ef; line-height: 1.6;
+        margin-top: 0.4rem;
     }
-    .drawer-empty {
-        color: #6c7080; font-style: italic; padding: 1.2rem 0;
-        text-align: center; font-family: 'Inter', sans-serif;
+    .cj-drawer .drawer-section-label {
+        color: #9aa0b0; font-size: 0.74rem; letter-spacing: 1.6px;
+        text-transform: uppercase; margin: 1.4rem 0 0.5rem;
+    }
+    .cj-drawer .drawer-empty {
+        color: #6c7080; font-style: italic; padding: 1.4rem 0;
+        text-align: center;
     }
     """
     css = css.replace("__BG_LAYER__", _bg_layer())
@@ -587,115 +641,153 @@ def _render_glass_panel(state: str) -> None:
     st.markdown(panel, unsafe_allow_html=True)
 
 
-# ─── Diagnostics drawer (sidebar) ─────────────────────────────────────────
-def _render_drawer() -> None:
-    """Populate the sidebar with the diagnostics drawer. The sidebar is
-    Streamlit's native slide-out panel; we style it to feel like a
-    floating drawer per the reference image."""
+# ─── Diagnostics drawer (pure-CSS, slide-in from right) ──────────────────
+# We render ONE HTML block: hidden checkbox + floating toggle button +
+# slide-in drawer. Clicking the toggle flips the checkbox (CSS handles
+# the slide animation). Clicking the × inside the drawer toggles the
+# same checkbox, closing it. No Streamlit reruns, no <script>, no
+# Streamlit sidebar — works in every modern browser, never flickers.
+def _drawer_content_html() -> str:
+    """Build the HTML body of the drawer from current session_state."""
     ss = st.session_state
-    with st.sidebar:
-        st.markdown(
-            "<p class='drawer-title'>🔍 Pipeline details</p>",
-            unsafe_allow_html=True,
+
+    if not ss.transcript and ss.kiosk_state == "IDLE":
+        return (
+            "<p class='drawer-empty'>No turn yet. Record a question "
+            "to populate this panel.</p>"
         )
 
-        if not ss.transcript and ss.kiosk_state == "IDLE":
-            st.markdown(
-                "<p class='drawer-empty'>No turn yet. Record a question to "
-                "populate this panel.</p>",
-                unsafe_allow_html=True,
-            )
-            return
+    parts: list[str] = []
 
-        # Transcription card
-        if ss.transcript:
-            st.markdown(
-                "<div class='drawer-card success'>"
-                "<span class='label'>✓ 🎧 Transcribed</span>"
-                f"<div>{_safe_html(ss.transcript)}</div>"
-                "</div>",
-                unsafe_allow_html=True,
-            )
+    # Transcription
+    if ss.transcript:
+        parts.append(
+            "<div class='drawer-card success'>"
+            "<span class='label'>✓ 🎧 Transcribed</span>"
+            f"<div>{_safe_html(ss.transcript)}</div>"
+            "</div>"
+        )
 
-        # Scope card
-        if ss.gate:
-            scope = ss.gate.get("scope", "—")
-            st.markdown(
-                "<div class='drawer-card success'>"
-                f"<span class='label'>✓ 🚪 Scope: {_safe_html(scope)}</span>"
-                f"<div>{_safe_html(ss.gate.get('reasoning', ''))}</div>"
-                "</div>",
-                unsafe_allow_html=True,
-            )
+    # Scope (input gate)
+    if ss.gate:
+        scope = ss.gate.get("scope", "—")
+        reason = ss.gate.get("reasoning", "")
+        parts.append(
+            "<div class='drawer-card success'>"
+            f"<span class='label'>✓ 🚪 Scope: {_safe_html(scope)}</span>"
+            + (f"<div>{_safe_html(reason)}</div>" if reason else "")
+            + "</div>"
+        )
 
-        # Routing card
-        if ss.routing:
-            primary = ss.routing.get("primary_topic", "—")
-            conf = ss.routing.get("confidence", "—")
-            secs = ss.routing.get("secondary_topics", []) or []
-            sec_html = (
-                "<div style='margin-top:0.3rem; color:#9aa0b0;'>Secondary: " +
-                ", ".join(f"<code>{_safe_html(t)}</code>" for t in secs) +
+    # Routing
+    if ss.routing:
+        primary = ss.routing.get("primary_topic", "—")
+        conf = ss.routing.get("confidence", "—")
+        reason = ss.routing.get("reasoning", "")
+        secs = ss.routing.get("secondary_topics") or []
+        sec_html = (
+            "<div style='margin-top:0.3rem; color:#9aa0b0;'>Secondary: " +
+            ", ".join(f"<code>{_safe_html(t)}</code>" for t in secs) +
+            "</div>"
+        ) if secs else ""
+        parts.append(
+            "<div class='drawer-card routing'>"
+            f"<span class='label'>✓ 🧭 Routed to "
+            f"{_safe_html(primary)} ({_safe_html(conf)})</span>"
+            + (f"<div style='color:#c1c7d6; font-style:italic;'>"
+               f"{_safe_html(reason)}</div>" if reason else "")
+            + sec_html
+            + "</div>"
+        )
+
+    # Fidelity
+    if ss.fidelity:
+        flags = [k for k in ("hallucination", "voice_drift", "guardrail_violation")
+                 if ss.fidelity.get(k)]
+        if flags:
+            parts.append(
+                "<div class='drawer-card warning'>"
+                f"<span class='label'>🛡️ Fidelity: {', '.join(flags)}</span>"
+                f"<div>{_safe_html(ss.fidelity.get('reasoning', ''))}</div>"
                 "</div>"
-            ) if secs else ""
-            st.markdown(
-                "<div class='drawer-card routing'>"
-                f"<span class='label'>✓ 🧭 Routed to {_safe_html(primary)} "
-                f"({_safe_html(conf)})</span>"
-                f"<div style='color:#c1c7d6; font-style:italic;'>"
-                f"{_safe_html(ss.routing.get('reasoning', ''))}</div>"
-                f"{sec_html}"
-                "</div>",
-                unsafe_allow_html=True,
             )
 
-        # Fidelity card
-        if ss.fidelity:
-            flags = [k for k in ("hallucination", "voice_drift", "guardrail_violation")
-                     if ss.fidelity.get(k)]
-            if flags:
-                st.markdown(
-                    "<div class='drawer-card' style='border-color:rgba(217,127,95,0.45); "
-                    "background:rgba(217,127,95,0.06);'>"
-                    f"<span class='label'>⚠ Fidelity: {', '.join(flags)}</span>"
-                    f"<div style='color:#d5dae6;'>{_safe_html(ss.fidelity.get('reasoning', ''))}</div>"
-                    "</div>",
-                    unsafe_allow_html=True,
-                )
+    # TTS metadata
+    if ss.tts_meta and ss.tts_meta.get("ok"):
+        parts.append(
+            "<div class='drawer-card'>"
+            "<span class='label'>🔊 TTS</span>"
+            f"<div>{ss.tts_meta.get('chunks', '?')} sentence chunk(s) · "
+            f"~${ss.tts_meta.get('cost_usd', 0):.4f}</div>"
+            "</div>"
+        )
 
-        # TTS card
-        if ss.tts_meta:
-            if ss.tts_meta.get("ok"):
-                st.markdown(
-                    "<div class='drawer-card'>"
-                    "<span class='label'>🔊 TTS</span>"
-                    f"<div>{ss.tts_meta.get('chunks', '?')} sentence chunk(s) · "
-                    f"~${ss.tts_meta.get('cost_usd', 0):.4f}</div>"
-                    "</div>",
-                    unsafe_allow_html=True,
-                )
+    # Full response (gold-bordered card)
+    if ss.response:
+        parts.append(
+            "<p class='drawer-section-label'>💬 CJ</p>"
+            "<div class='drawer-response'>"
+            f"{_safe_html(ss.response)}</div>"
+        )
 
-        # Full response card
-        if ss.response:
-            st.markdown(
-                "<p style='color:#9aa0b0; font-family:Inter; font-size:0.78rem; "
-                "letter-spacing:1.5px; text-transform:uppercase; margin:1.2rem 0 0.4rem;'>"
-                "💬 CJ"
-                "</p>"
-                "<div class='drawer-response'>" + _safe_html(ss.response) + "</div>",
-                unsafe_allow_html=True,
-            )
+    # Errors
+    if ss.error:
+        parts.append(
+            "<div class='drawer-card warning'>"
+            "<span class='label'>⚠ Error</span>"
+            f"<div>{_safe_html(ss.error)}</div>"
+            "</div>"
+        )
 
-        # Errors
-        if ss.error:
-            st.markdown(
-                "<div class='drawer-card' style='border-color:#d97f5f; "
-                "background:rgba(217,127,95,0.08); color:#d97f5f;'>"
-                "<span class='label'>⚠ Error</span>"
-                f"<div>{_safe_html(ss.error)}</div>"
-                "</div>",
-                unsafe_allow_html=True,
-            )
+    return "".join(parts) or (
+        "<p class='drawer-empty'>No diagnostic data yet.</p>"
+    )
+
+
+def _render_drawer() -> None:
+    """Emit the entire drawer as a single HTML block — hidden checkbox,
+    floating toggle button, and slide-in panel. The drawer is HIDDEN
+    by default: only the small floating icon is visible. Clicking the
+    icon slides the drawer in from the right; clicking × inside the
+    drawer slides it back out. Streamlit isn't involved in the
+    toggle — pure CSS via the checkbox-hack pattern."""
+
+    # The legal-document + magnifying-glass icon (from image_c18986)
+    toggle_icon_svg = (
+        "<svg viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'>"
+        "<rect x='14' y='10' width='28' height='38' rx='3' "
+        "fill='#f2c44e' stroke='#1a1410' stroke-width='2'/>"
+        "<line x1='18' y1='20' x2='38' y2='20' stroke='#1a1410' stroke-width='1.5'/>"
+        "<line x1='18' y1='26' x2='38' y2='26' stroke='#1a1410' stroke-width='1.5'/>"
+        "<line x1='18' y1='32' x2='32' y2='32' stroke='#1a1410' stroke-width='1.5'/>"
+        "<circle cx='42' cy='42' r='10' fill='none' "
+        "stroke='#f6f1e1' stroke-width='3'/>"
+        "<line x1='49' y1='49' x2='56' y2='56' "
+        "stroke='#f6f1e1' stroke-width='3' stroke-linecap='round'/>"
+        "</svg>"
+    )
+
+    block = (
+        # 1. Hidden checkbox (controls open/closed state)
+        "<input type='checkbox' id='cj-drawer-toggle' "
+        "class='cj-drawer-checkbox' aria-hidden='true' />"
+        # 2. Floating toggle button (label opens the drawer)
+        "<label for='cj-drawer-toggle' class='cj-drawer-toggle-btn' "
+        "title='Open pipeline details' role='button' tabindex='0'>"
+        f"{toggle_icon_svg}"
+        "</label>"
+        # 3. The drawer itself
+        "<div class='cj-drawer' role='dialog' aria-label='Pipeline details'>"
+        # 3a. Close button (label closes the same checkbox)
+        "<label for='cj-drawer-toggle' class='cj-drawer-close' "
+        "title='Close' role='button' tabindex='0'>×</label>"
+        # 3b. Drawer content
+        "<h3>🔍 Pipeline details</h3>"
+        f"{_drawer_content_html()}"
+        "</div>"
+    )
+
+    st.markdown(block, unsafe_allow_html=True)
 
 
 def _safe_html(s: str) -> str:
@@ -705,34 +797,6 @@ def _safe_html(s: str) -> str:
         .replace("&", "&amp;")
         .replace("<", "&lt;")
         .replace(">", "&gt;")
-    )
-
-
-# ─── Diagnostic toggle icon ───────────────────────────────────────────────
-def _render_diag_toggle() -> None:
-    """Floating round button on the right edge. Clicking it expands the
-    Streamlit sidebar (drawer) by flipping a session_state flag. The
-    sidebar's visual open/close is handled by Streamlit; we just write
-    a hint label next to the icon."""
-    # The icon is a stylised legal-document with a magnifying glass.
-    icon_svg = """
-    <svg viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'>
-      <rect x='14' y='10' width='28' height='38' rx='3'
-            fill='#f2c44e' stroke='#1a1410' stroke-width='2'/>
-      <line x1='18' y1='20' x2='38' y2='20' stroke='#1a1410' stroke-width='1.5'/>
-      <line x1='18' y1='26' x2='38' y2='26' stroke='#1a1410' stroke-width='1.5'/>
-      <line x1='18' y1='32' x2='32' y2='32' stroke='#1a1410' stroke-width='1.5'/>
-      <circle cx='42' cy='42' r='10' fill='none'
-              stroke='#f6f1e1' stroke-width='3'/>
-      <line x1='49' y1='49' x2='56' y2='56'
-            stroke='#f6f1e1' stroke-width='3' stroke-linecap='round'/>
-    </svg>
-    """
-    icon_svg = " ".join(line.strip() for line in icon_svg.splitlines() if line.strip())
-    st.markdown(
-        f"<div class='diag-toggle' title='Open pipeline diagnostics'>{icon_svg}</div>"
-        "<div class='diag-label'>↳ open the<br/>sidebar</div>",
-        unsafe_allow_html=True,
     )
 
 
@@ -970,12 +1034,9 @@ def main() -> None:
     if play_clicked and ss.audio_bytes:
         _autoplay_audio(ss.audio_bytes)
 
-    # Floating diagnostics icon (visual cue; the sidebar is the actual
-    # drawer — Streamlit's collapse / expand arrow on the top-left).
-    _render_diag_toggle()
-
-    # Sidebar always holds the current diagnostic state; visitors leave
-    # it collapsed, curators expand it via Streamlit's `>>` toggle.
+    # Pure-CSS slide-in drawer — closed by default; the floating
+    # magnifying-glass icon on the right edge is the only thing
+    # visible until the visitor (or curator) clicks it.
     _render_drawer()
 
 
