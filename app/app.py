@@ -1116,7 +1116,11 @@ def main() -> None:
             audio_bytes = audio_in.getvalue()
             if audio_bytes and len(audio_bytes) > 1024:
                 ss.kiosk_state = "PROCESSING"
-                ss._pending_audio = audio_bytes
+                # Avoid underscore-prefix attribute on st.session_state —
+                # Streamlit treats those as private in some versions, which
+                # caused the value to silently never persist, bouncing the
+                # state machine back to IDLE without running the pipeline.
+                ss["pending_audio"] = audio_bytes
                 st.rerun()
 
     # PROCESSING — run the pipeline. _run_pipeline() now opens its
@@ -1124,10 +1128,18 @@ def main() -> None:
     # step's card into it the moment that step completes. The visitor
     # watches each ✓ land in real time; no spinner needed.
     if ss.kiosk_state == "PROCESSING":
-        pending = ss.pop("_pending_audio", None) if "_pending_audio" in ss else None
+        pending = ss.pop("pending_audio", None)
         if pending is None:
+            # Should never happen with the renamed key, but surface a
+            # visible error instead of silently bouncing to IDLE so any
+            # future regression is obvious immediately.
+            st.error(
+                "Pipeline did not receive the recording (audio bytes "
+                "were lost between RECORDING and PROCESSING). Press "
+                "**START** to try again."
+            )
             ss.kiosk_state = "IDLE"
-            st.rerun()
+            st.stop()
         st.markdown("<div class='progress-shell'>", unsafe_allow_html=True)
         _run_pipeline(pending)
         st.markdown("</div>", unsafe_allow_html=True)
