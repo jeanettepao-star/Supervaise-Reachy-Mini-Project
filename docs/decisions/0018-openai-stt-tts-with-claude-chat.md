@@ -185,6 +185,56 @@ above.
   third provider (e.g., Eleven Labs) adds complexity without
   cost savings vs OpenAI.
 
+## Cadence tuning — voice match for CJP's speech pattern
+
+Two settings in `app/voice_io.py` were tuned together so OpenAI's
+`onyx` voice approximates CJP's measured judicial cadence rather than
+defaulting to news-anchor pace:
+
+1. **Speed: `0.82` (≈82% of normal)**, set via `TTS_SPEED_DEFAULT`.
+   CJP speaks at a relaxed pace; OpenAI's recommended sweet spot is
+   `0.80-0.85`. Below `0.80` the voice starts to drag; above `0.90`
+   the deliberation is lost. Override via `OPENAI_TTS_SPEED` in
+   `.env`.
+
+2. **Reflective ellipses**, injected by `add_reflective_pauses()`
+   before sentence chunking. The function replaces a comma after each
+   of CJP's signature reflective markers with an ellipsis, so the
+   TTS engine takes a longer breath there. Markers covered:
+
+   - *In my humble opinion,*
+   - *In my view,*
+   - *In my respectful view,*
+   - *With due respect,*
+   - *Au contraire,*
+   - *IMHO,*
+   - *In conclusion,*
+   - *More importantly,*
+   - *That said,*
+   - *Indeed,*
+   - *Allow me to say,*
+   - *Permit me to say,*
+   - *As I have said before,*
+   - *As I have written,*
+
+   Each becomes `<marker>...` — a longer reflective pause than the
+   comma-only natural pause. The list is intentionally conservative
+   (only well-known CJP markers); arbitrary text isn't modified.
+
+The sentence chunker's `_SENTENCE_END` regex was updated with a
+negative-lookbehind `(?<!\.\.)` so it does NOT split on the third
+period of an ellipsis — the reflective pause stays within its chunk
+and reaches OpenAI TTS intact.
+
+To smoke-test cadence changes without API spend:
+
+```python
+from voice_io import add_reflective_pauses, sentence_chunks
+text = "The rule of law, in my humble opinion, matters. Au contraire, we must…"
+print(add_reflective_pauses(text))
+for c in sentence_chunks(add_reflective_pauses(text)): print(c)
+```
+
 ## More Information
 
 - Implementation: `app/voice_io.py`.

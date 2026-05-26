@@ -164,7 +164,7 @@ INFERENCE_MODEL=claude-sonnet-4-6
 OPENAI_STT_MODEL=whisper-1
 OPENAI_TTS_MODEL=tts-1
 OPENAI_TTS_VOICE=onyx                # deep male voice — CJP default. Male: onyx | echo | fable. Female: nova | shimmer | alloy.
-OPENAI_TTS_SPEED=0.95
+OPENAI_TTS_SPEED=0.82                # relaxed judicial cadence (~82% of normal)
 ```
 
 The dashboard's sidebar shows which `.env` files were loaded and

@@ -90,9 +90,10 @@ TTS_MODEL_DEFAULT = os.environ.get("OPENAI_TTS_MODEL", "tts-1")
 # male options: `echo` (lighter male) or `fable` (British male).
 # Female alternatives (nova, shimmer) preserved for testing.
 TTS_VOICE_DEFAULT = os.environ.get("OPENAI_TTS_VOICE", "onyx")
-# Speech speed — tts-1 supports 0.25 to 4.0. CJP speaks deliberately;
-# we default to slightly under 1.0 for the measured judicial cadence.
-TTS_SPEED_DEFAULT = float(os.environ.get("OPENAI_TTS_SPEED", "0.95"))
+# Speech speed — tts-1 supports 0.25 to 4.0. CJP speaks at a very
+# relaxed pace; the 80-85% range captures it best without sounding
+# unnaturally slow. 0.82 sits mid-range.
+TTS_SPEED_DEFAULT = float(os.environ.get("OPENAI_TTS_SPEED", "0.82"))
 
 
 # ============================================================
@@ -140,12 +141,62 @@ def transcribe_openai(
 
 
 # ============================================================
+# Cadence enhancement — inject reflective pauses for CJP's voice
+# ============================================================
+# CJP speaks deliberately and groups his sentences into distinct
+# phrases. We pre-insert ellipses after his signature reflective
+# markers so the TTS engine takes a longer, more thoughtful breath
+# at those points (in addition to the slower base TTS_SPEED_DEFAULT).
+#
+# Rules are conservative: only well-known CJP markers, only when
+# followed by a comma (so we don't trigger inside quoted text or
+# at sentence boundaries that already have natural pauses).
+_REFLECTIVE_MARKERS = [
+    r"In my humble opinion",
+    r"In my view",
+    r"In my respectful view",
+    r"With due respect",
+    r"Au contraire",
+    r"IMHO",
+    r"In conclusion",
+    r"More importantly",
+    r"That said",
+    r"Indeed",
+    r"Allow me to say",
+    r"Permit me to say",
+    r"As I have said before",
+    r"As I have written",
+]
+_CADENCE_RE = re.compile(
+    r"\b(" + "|".join(_REFLECTIVE_MARKERS) + r"),",
+    re.IGNORECASE,
+)
+
+
+def add_reflective_pauses(text: str) -> str:
+    """Inject ellipses after CJP's signature reflective markers.
+
+    Converts e.g. "In my humble opinion, the rule of law…" into
+    "In my humble opinion... the rule of law…" — OpenAI TTS treats
+    the ellipsis as a longer reflective breath than a comma.
+
+    Conservative by design: only touches the ~14 markers in
+    `_REFLECTIVE_MARKERS`. Leaves the rest of the text alone so we
+    don't accidentally split mid-thought.
+    """
+    if not text:
+        return text
+    return _CADENCE_RE.sub(r"\1...", text)
+
+
+# ============================================================
 # Sentence chunking — pack text into TTS-ready bites
 # ============================================================
 # Sentence boundary regex: end punctuation followed by whitespace, OR
-# a blank line. We deliberately don't split on quoted "." inside dialog
-# because the corpus rarely has that.
-_SENTENCE_END = re.compile(r"(?<=[.!?])\s+|\n\n+")
+# a blank line. The negative lookbehind `(?<!\.\.)` keeps us from
+# splitting on the LAST period of an ellipsis (`...`) — those are
+# reflective pauses, not sentence terminators.
+_SENTENCE_END = re.compile(r"(?<=[.!?])(?<!\.\.)\s+|\n\n+")
 _MIN_CHUNK_CHARS = 30   # smaller than this wastes an API call
 _MAX_CHUNK_CHARS = 240  # OpenAI TTS handles this gracefully; longer chunks
                         #   delay first-audio-out for the slowest sentence
@@ -211,10 +262,19 @@ async def tts_chunks_parallel_async(
     voice: str = TTS_VOICE_DEFAULT,
     model: str = TTS_MODEL_DEFAULT,
     speed: float = TTS_SPEED_DEFAULT,
+    apply_cadence: bool = True,
 ) -> list[bytes]:
     """Fire TTS for every sentence chunk concurrently. Returns a list
-    of MP3 byte blobs in source order."""
+    of MP3 byte blobs in source order.
+
+    When `apply_cadence` is True (default), the text is passed through
+    `add_reflective_pauses()` so CJP's signature markers get a longer
+    reflective breath. Set to False for a raw passthrough during
+    debugging or when testing alternative voices.
+    """
     client = _async_client()
+    if apply_cadence:
+        text = add_reflective_pauses(text)
     chunks = sentence_chunks(text)
     if not chunks:
         return []
@@ -315,6 +375,7 @@ def voice_io_summary() -> dict[str, object]:
 
 __all__ = [
     "transcribe_openai",
+    "add_reflective_pauses",
     "sentence_chunks",
     "tts_chunks_parallel_async",
     "tts_concatenate_parallel",
