@@ -100,6 +100,46 @@ if not _env_summary["api_key_present"]:
     st.stop()
 
 
+# ----- Pre-flight: voice-IO dependencies (openai, pydub) ------------------
+# voice_io.py imports `openai` lazily inside its client factories, so a
+# missing install only blows up the first time STT or TTS is called —
+# usually mid-turn. Detect it up-front and tell the user exactly which
+# pip command to run from which venv.
+_voice_deps_missing: list[str] = []
+try:
+    import openai as _openai_check  # noqa: F401
+except ImportError:
+    _voice_deps_missing.append("openai")
+try:
+    import pydub as _pydub_check  # noqa: F401
+except ImportError:
+    # pydub is optional (we fall back to raw byte concat), so warn rather
+    # than block.
+    pass
+
+if _voice_deps_missing:
+    import sys as _sys
+    st.error(
+        "**Voice-loop dependency missing.** The dashboard's Streamlit "
+        "process is using this Python:\n\n"
+        f"`{_sys.executable}`\n\n"
+        f"…but the package(s) `{', '.join(_voice_deps_missing)}` are "
+        "not installed in that interpreter's site-packages. STT and "
+        "TTS will fail until you install them in the **same venv** "
+        "Streamlit is running from.\n\n"
+        "From the repo root (PowerShell):\n\n"
+        "```powershell\n"
+        "app\\.venv\\Scripts\\python.exe -m pip install -r app\\requirements.txt\n"
+        "```\n\n"
+        "Then restart Streamlit (Ctrl+C in the terminal, re-launch). "
+        "If you keep your venv at a different path, replace "
+        "`app\\.venv\\Scripts\\python.exe` with that absolute path — the "
+        "string above is the python that's actively running the "
+        "dashboard, so installing into it is guaranteed to be correct."
+    )
+    st.stop()
+
+
 st.markdown(
     """
     <style>
@@ -143,7 +183,7 @@ st.markdown(
           0 12px 32px -16px rgba(0, 0, 0, 0.7),
           0 0 0 1px rgba(74, 210, 149, 0.08) inset;
       }
-      .reachy-svg { width: 132px; height: 132px; flex-shrink: 0; }
+      .reachy-svg { width: 140px; height: 154px; flex-shrink: 0; }
       .reachy-title h1 {
         margin: 0; color: #f6f1e1; font-size: 2.0rem; font-weight: 600;
         letter-spacing: 0.4px;
@@ -345,78 +385,173 @@ with st.sidebar:
 
 
 # ----- Header — animated Reachy Mini avatar with state ---------------------
-# The avatar's outer panel carries a state class ("idle" / "listening" /
-# "talking"). CSS in the page header above keys eye colour, mic LED
-# colour, and the listening pulse / talking speaker animation off that
-# class. The SVG itself uses SMIL `<animate>` for always-on subtleties
-# (eye breath, mic blink) so the avatar feels alive between turns.
-def render_reachy_header(state: str = "idle") -> None:
-    state_label = {
-        "idle":      "🟢 Idle — waiting for you",
-        "listening": "🟡 Listening — your microphone is recording",
-        "talking":   "🔵 Speaking — generating the response",
-    }.get(state, state)
+# All animations live INSIDE the SVG via SMIL (<animate>, <animateTransform>).
+# Streamlit's HTML sandbox sometimes drops externally-defined CSS keyframes,
+# but every browser honors SMIL elements that ship inline with the SVG.
+# State-specific motion (listening ring pulse, talking equaliser bars) is
+# emitted conditionally per state, so we don't depend on a parent CSS class
+# crossing the DOM boundary.
+def _reachy_eye_colour(state: str) -> str:
+    return {"idle": "#4ad295", "listening": "#e6c149", "talking": "#66b3ff"}[state]
 
-    svg = """
-    <svg class='reachy-svg' viewBox='0 0 200 200'
+
+def _listening_overlay() -> str:
+    """SMIL-animated pulse ring shown only in the listening state."""
+    return """
+    <circle cx='100' cy='115' fill='none'
+            stroke='#e6c149' stroke-width='3' opacity='0'>
+      <animate attributeName='r'       values='62;102;120' dur='1.4s' repeatCount='indefinite'/>
+      <animate attributeName='opacity' values='0.0;0.7;0.0' dur='1.4s' repeatCount='indefinite'/>
+    </circle>
+    """
+
+
+def _talking_overlay() -> str:
+    """SMIL equaliser bars below the face — only emitted while talking."""
+    bars = []
+    # 5 bars with staggered phase + varied amplitude → equaliser feel
+    cfg = [
+        (62,  '0.32s', '0.00s', '10;26;10'),
+        (78,  '0.38s', '0.07s', '8;32;8'),
+        (94,  '0.30s', '0.15s', '12;22;12'),
+        (110, '0.36s', '0.05s', '10;30;10'),
+        (126, '0.34s', '0.12s', '8;24;8'),
+    ]
+    for x, dur, begin, hvals in cfg:
+        # Bars grow upward from a baseline; we animate BOTH y and height
+        # so the bar appears anchored at its bottom.
+        first_h = int(hvals.split(';')[0])
+        bars.append(f"""
+        <rect x='{x}' y='{200 - first_h}' width='10' height='{first_h}' rx='2' fill='#66b3ff'>
+          <animate attributeName='height' values='{hvals}'
+                   dur='{dur}' begin='{begin}' repeatCount='indefinite'/>
+          <animate attributeName='y' values='{';'.join(str(200 - int(v)) for v in hvals.split(';'))}'
+                   dur='{dur}' begin='{begin}' repeatCount='indefinite'/>
+        </rect>
+        """)
+    return "\n".join(bars)
+
+
+def _reachy_svg(state: str) -> str:
+    """Build the state-aware SVG. SMIL animations are baked in:
+       - eyes breathe + blink (every ~5 s)
+       - mic LED pulses
+       - whole head gently sways (always-on)
+       - listening: yellow ring expands + fades
+       - talking: blue equaliser bars dance below the head
+    """
+    eye = _reachy_eye_colour(state)
+    listening = _listening_overlay() if state == "listening" else ""
+    talking = _talking_overlay() if state == "talking" else ""
+    # Idle mic colour is green; in active states match the eyes.
+    mic_colour = eye
+
+    return f"""
+    <svg class='reachy-svg' viewBox='0 0 200 220'
          xmlns='http://www.w3.org/2000/svg'
-         aria-label='Reachy Mini avatar'>
-      <!-- listening pulse ring (only visible when .listening class is on) -->
-      <circle class='listening-ring' cx='100' cy='112' r='86'
-              fill='none' stroke='#e6c149' stroke-width='2'/>
-      <g class='head-group'>
-        <!-- side cups / ear-microphones -->
-        <ellipse cx='30' cy='115' rx='15' ry='32'
-                 fill='#262d40' stroke='#9aa4b3' stroke-width='2'/>
-        <ellipse cx='170' cy='115' rx='15' ry='32'
-                 fill='#262d40' stroke='#9aa4b3' stroke-width='2'/>
-        <circle cx='30' cy='115' r='8' fill='#0e1320'/>
-        <circle cx='170' cy='115' r='8' fill='#0e1320'/>
-        <!-- main body / head shell -->
-        <rect x='52' y='58' width='96' height='128' rx='22'
-              fill='url(#shellGrad)' stroke='#9aa4b3' stroke-width='2'/>
-        <!-- top cap / dome -->
-        <ellipse cx='100' cy='58' rx='50' ry='16'
-                 fill='#262d40' stroke='#9aa4b3' stroke-width='2'/>
-        <!-- mic LED on top -->
-        <circle class='mic-led' cx='100' cy='34' r='7' fill='#4ad295'/>
-        <line x1='100' y1='41' x2='100' y2='58'
-              stroke='#9aa4b3' stroke-width='2'/>
-        <!-- screen / face -->
-        <rect x='65' y='80' width='70' height='58' rx='10'
-              fill='#0a0f1c' stroke='#2d4ea8' stroke-width='1.5'/>
-        <!-- eyes (state class colours these) -->
-        <circle class='eye' cx='84' cy='106' r='7' fill='#4ad295'>
-          <animate attributeName='r'
-                   values='7;6.0;7' dur='3.2s' repeatCount='indefinite'/>
-        </circle>
-        <circle class='eye' cx='116' cy='106' r='7' fill='#4ad295'>
-          <animate attributeName='r'
-                   values='7;6.0;7' dur='3.2s' repeatCount='indefinite'/>
-        </circle>
-        <!-- smile / mouth -->
-        <path d='M 78 128 Q 100 134 122 128'
-              stroke='#2d4ea8' stroke-width='2.5' fill='none'
-              stroke-linecap='round'/>
-        <!-- speaker bars (animate when .talking class is on) -->
-        <rect class='speaker-bar b1' x='76'  y='158' width='10' height='8'
-              rx='2' fill='#9aa4b3'/>
-        <rect class='speaker-bar b2' x='95'  y='158' width='10' height='8'
-              rx='2' fill='#9aa4b3'/>
-        <rect class='speaker-bar b3' x='114' y='158' width='10' height='8'
-              rx='2' fill='#9aa4b3'/>
-      </g>
+         aria-label='Reachy Mini robot avatar'>
       <defs>
         <linearGradient id='shellGrad' x1='0' y1='0' x2='0' y2='1'>
           <stop offset='0%'   stop-color='#36405a'/>
           <stop offset='100%' stop-color='#1c2334'/>
         </linearGradient>
+        <radialGradient id='glowGrad' cx='50%' cy='50%' r='50%'>
+          <stop offset='0%' stop-color='{eye}' stop-opacity='0.45'/>
+          <stop offset='100%' stop-color='{eye}' stop-opacity='0.0'/>
+        </radialGradient>
       </defs>
+
+      <!-- Soft ambient glow behind the whole head -->
+      <ellipse cx='100' cy='115' rx='84' ry='90' fill='url(#glowGrad)'/>
+
+      <!-- Listening state: pulsing yellow ring -->
+      {listening}
+
+      <!-- HEAD GROUP — gentle continuous sway + float (always on) -->
+      <g>
+        <animateTransform attributeName='transform' attributeType='XML'
+          type='translate' values='0 0; 0 -3; 0 0; 0 -1; 0 0'
+          dur='5.5s' repeatCount='indefinite'/>
+        <animateTransform attributeName='transform' attributeType='XML'
+          type='rotate' values='-1 100 115; 1 100 115; -1 100 115'
+          dur='8s' repeatCount='indefinite' additive='sum'/>
+
+        <!-- side cups / ear-microphones -->
+        <ellipse cx='30'  cy='115' rx='15' ry='32'
+                 fill='#262d40' stroke='#9aa4b3' stroke-width='2'/>
+        <ellipse cx='170' cy='115' rx='15' ry='32'
+                 fill='#262d40' stroke='#9aa4b3' stroke-width='2'/>
+        <circle  cx='30'  cy='115' r='8' fill='#0e1320'/>
+        <circle  cx='170' cy='115' r='8' fill='#0e1320'/>
+
+        <!-- main body / head shell -->
+        <rect x='52' y='58' width='96' height='128' rx='22'
+              fill='url(#shellGrad)' stroke='#9aa4b3' stroke-width='2'/>
+
+        <!-- top cap / dome -->
+        <ellipse cx='100' cy='58' rx='50' ry='16'
+                 fill='#262d40' stroke='#9aa4b3' stroke-width='2'/>
+
+        <!-- mic LED on top — pulses on every state -->
+        <circle cx='100' cy='34' r='7' fill='{mic_colour}'>
+          <animate attributeName='opacity' values='1;0.55;1'
+                   dur='2.2s' repeatCount='indefinite'/>
+        </circle>
+        <line x1='100' y1='41' x2='100' y2='58'
+              stroke='#9aa4b3' stroke-width='2'/>
+
+        <!-- screen / face -->
+        <rect x='65' y='80' width='70' height='58' rx='10'
+              fill='#0a0f1c' stroke='#2d4ea8' stroke-width='1.5'/>
+
+        <!-- LEFT EYE — breathe scale + occasional blink -->
+        <ellipse cx='84' cy='106' rx='7' ry='7' fill='{eye}'>
+          <animate attributeName='rx' values='7;6.2;7' dur='3.2s' repeatCount='indefinite'/>
+          <animate attributeName='ry'
+                   values='7;7;0.6;7;7'
+                   keyTimes='0;0.45;0.5;0.55;1'
+                   dur='5.4s' repeatCount='indefinite'/>
+        </ellipse>
+
+        <!-- RIGHT EYE — synchronised blink -->
+        <ellipse cx='116' cy='106' rx='7' ry='7' fill='{eye}'>
+          <animate attributeName='rx' values='7;6.2;7' dur='3.2s' repeatCount='indefinite'/>
+          <animate attributeName='ry'
+                   values='7;7;0.6;7;7'
+                   keyTimes='0;0.45;0.5;0.55;1'
+                   dur='5.4s' repeatCount='indefinite'/>
+        </ellipse>
+
+        <!-- smile / mouth -->
+        <path d='M 78 128 Q 100 134 122 128'
+              stroke='#2d4ea8' stroke-width='2.5' fill='none'
+              stroke-linecap='round'/>
+
+        <!-- speaker grille (static; talking-overlay renders the bars) -->
+        <line x1='74'  y1='158' x2='126' y2='158'
+              stroke='#9aa4b3' stroke-width='1.8'/>
+        <line x1='74'  y1='164' x2='126' y2='164'
+              stroke='#9aa4b3' stroke-width='1.8'/>
+        <line x1='74'  y1='170' x2='126' y2='170'
+              stroke='#9aa4b3' stroke-width='1.8'/>
+      </g>
+
+      <!-- Talking state: equaliser bars below the head, animated -->
+      {talking}
     </svg>
     """
+
+
+def render_reachy_header(state: str = "idle") -> None:
+    state_label = {
+        "idle":      "🟢 Idle — waiting for your question",
+        "listening": "🟡 Listening — your microphone is recording",
+        "talking":   "🔵 Speaking — synthesising the response",
+    }.get(state, state)
+
     panel = (
         f"<div class='reachy-panel {state}'>"
-        f"{svg}"
+        f"{_reachy_svg(state)}"
         "<div class='reachy-title'>"
         "<h1>⚖️ With Due Respect</h1>"
         "<p>Reachy Mini × retired Chief Justice Artemio V. Panganiban</p>"
