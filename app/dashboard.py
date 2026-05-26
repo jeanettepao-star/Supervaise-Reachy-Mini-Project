@@ -119,23 +119,45 @@ except ImportError:
 
 if _voice_deps_missing:
     import sys as _sys
+    _python_exe = _sys.executable
+    # requirements.txt sits next to dashboard.py — resolve absolutely so
+    # the install command works regardless of the user's current cwd or
+    # whether their venv lives off C: with spaces in the path.
+    _req_path = (Path(__file__).resolve().parent / "requirements.txt")
+    # PowerShell needs the `&` call operator + double quotes around any
+    # path containing spaces (e.g. "Reachy Mini Project", "App 2").
+    _ps_cmd = f'& "{_python_exe}" -m pip install -r "{_req_path}"'
+    # The same call as a bash one-liner (Git Bash / WSL / macOS / Linux).
+    _bash_cmd = f'"{_python_exe}" -m pip install -r "{_req_path}"'
+    # Fallback for users who don't want -r requirements.txt:
+    _direct_pkgs = " ".join(_voice_deps_missing + ["pydub"])
+    _ps_direct = f'& "{_python_exe}" -m pip install {_direct_pkgs}'
+
     st.error(
         "**Voice-loop dependency missing.** The dashboard's Streamlit "
-        "process is using this Python:\n\n"
-        f"`{_sys.executable}`\n\n"
-        f"…but the package(s) `{', '.join(_voice_deps_missing)}` are "
-        "not installed in that interpreter's site-packages. STT and "
-        "TTS will fail until you install them in the **same venv** "
-        "Streamlit is running from.\n\n"
-        "From the repo root (PowerShell):\n\n"
+        "process is using this Python interpreter:\n\n"
+        f"`{_python_exe}`\n\n"
+        f"…but `{', '.join(_voice_deps_missing)}` is not installed in "
+        "that interpreter's site-packages. STT and TTS will fail until "
+        "you install it into the **same venv** Streamlit is running "
+        "from.\n\n"
+        "**Run this exact command in PowerShell** (works from any "
+        "directory — the absolute paths are baked in):\n\n"
         "```powershell\n"
-        "app\\.venv\\Scripts\\python.exe -m pip install -r app\\requirements.txt\n"
+        f"{_ps_cmd}\n"
         "```\n\n"
-        "Then restart Streamlit (Ctrl+C in the terminal, re-launch). "
-        "If you keep your venv at a different path, replace "
-        "`app\\.venv\\Scripts\\python.exe` with that absolute path — the "
-        "string above is the python that's actively running the "
-        "dashboard, so installing into it is guaranteed to be correct."
+        "If you don't have `app/requirements.txt` at the resolved "
+        "location, install the missing packages directly:\n\n"
+        "```powershell\n"
+        f"{_ps_direct}\n"
+        "```\n\n"
+        "(Git Bash / WSL / macOS / Linux equivalent — drop the `&`:)\n\n"
+        "```\n"
+        f"{_bash_cmd}\n"
+        "```\n\n"
+        "The `&` call operator and the double quotes are required "
+        "because the path may contain spaces. After installation, "
+        "restart Streamlit (Ctrl+C in the terminal, then re-launch)."
     )
     st.stop()
 
