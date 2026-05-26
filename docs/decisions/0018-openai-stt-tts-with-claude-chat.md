@@ -47,6 +47,12 @@ The decision here is purely about the voice loop endpoints.
 * **Tagalog code-switching** — OpenAI TTS voices handle Tagalog
   ornaments (*Maraming salamat po*) more naturally than Piper's
   English-only Ryan voice.
+* **Persona match** — CJP is a male retired Chief Justice; the TTS
+  voice should be a deep, measured male. OpenAI's `onyx` voice fits
+  the testimonial / ceremonial-doctrinal register documented in the
+  voice card. (Default was `nova` in the first cut of this ADR; the
+  user corrected it to `onyx` before any commit shipped a female
+  voice for CJP.)
 
 ## Considered Options
 
@@ -112,8 +118,9 @@ above.
 * Good: per-sentence parallel TTS makes wall-clock TTS time ≈
   slowest single sentence, not the sum. For a 5-sentence response,
   total TTS is ~1-2 s after the composer stream finishes.
-* Good: OpenAI's `nova` voice handles Tagalog ornaments
-  intelligibly without Piper's phonetic substitutions.
+* Good: OpenAI's `onyx` voice handles Tagalog ornaments
+  intelligibly without Piper's phonetic substitutions, and presents
+  the deep, calm authoritative register that fits CJP.
 * Good: every voice call goes through `voice_io.py`. Switching
   providers (Eleven Labs, Cartesia, Azure) is a single-file change.
 * Bad: requires an **additional** API key (`OPENAI_API_KEY`) on top

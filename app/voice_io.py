@@ -85,8 +85,11 @@ def _async_client():
 STT_MODEL_DEFAULT = os.environ.get("OPENAI_STT_MODEL", "whisper-1")
 TTS_MODEL_DEFAULT = os.environ.get("OPENAI_TTS_MODEL", "tts-1")
 # Voice — pick one of: alloy, echo, fable, onyx, nova, shimmer.
-# `nova` is warm and measured, suitable for CJP's testimonial register.
-TTS_VOICE_DEFAULT = os.environ.get("OPENAI_TTS_VOICE", "nova")
+# `onyx` is a deep, calm, authoritative male voice — the best fit for
+# retired Chief Justice Panganiban's measured judicial register. Other
+# male options: `echo` (lighter male) or `fable` (British male).
+# Female alternatives (nova, shimmer) preserved for testing.
+TTS_VOICE_DEFAULT = os.environ.get("OPENAI_TTS_VOICE", "onyx")
 # Speech speed — tts-1 supports 0.25 to 4.0. CJP speaks deliberately;
 # we default to slightly under 1.0 for the measured judicial cadence.
 TTS_SPEED_DEFAULT = float(os.environ.get("OPENAI_TTS_SPEED", "0.95"))

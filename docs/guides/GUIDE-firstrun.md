@@ -163,7 +163,7 @@ ROUTER_MODEL=claude-haiku-4-5-20251001
 INFERENCE_MODEL=claude-sonnet-4-6
 OPENAI_STT_MODEL=whisper-1
 OPENAI_TTS_MODEL=tts-1
-OPENAI_TTS_VOICE=nova
+OPENAI_TTS_VOICE=onyx                # deep male voice — CJP default. Male: onyx | echo | fable. Female: nova | shimmer | alloy.
 OPENAI_TTS_SPEED=0.95
 ```
 
