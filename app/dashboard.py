@@ -166,17 +166,45 @@ st.markdown(
     """
     <style>
       /* === Museum / exhibit-hall dark theme ============================ */
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap');
+
       .stApp {
         background:
           radial-gradient(1200px 600px at 50% -200px,
-                          rgba(45, 78, 168, 0.18), transparent 60%),
+                          rgba(180, 150, 90, 0.10), transparent 60%),
           radial-gradient(900px 500px at 50% 110%,
-                          rgba(74, 210, 149, 0.10), transparent 65%),
+                          rgba(74, 210, 149, 0.06), transparent 65%),
           linear-gradient(180deg, #050811 0%, #0a0f1c 45%, #050811 100%);
         color: #d5dae6;
       }
       .stChatMessage { font-size: 1.05rem; line-height: 1.55; }
       .source-meta { color: #9aa4b3; font-size: 0.88rem; }
+
+      /* Museum-grade serif for the brand title */
+      .reachy-title h1 {
+        font-family: 'Cormorant Garamond', Georgia, serif !important;
+        font-weight: 600 !important;
+        font-size: 2.5rem !important;
+        letter-spacing: 0.5px !important;
+        line-height: 1.05 !important;
+      }
+      .reachy-title p {
+        font-family: 'Inter', -apple-system, sans-serif !important;
+        font-size: 0.95rem !important;
+        color: #b3bccc !important;
+        font-style: italic;
+      }
+      .museum-instruction {
+        margin: 0.4rem 0 0.2rem;
+        padding: 0.45rem 0.75rem;
+        border-left: 3px solid rgba(180, 150, 90, 0.55);
+        background: rgba(180, 150, 90, 0.05);
+        color: #d5dae6;
+        font-family: 'Inter', sans-serif;
+        font-size: 0.92rem;
+        line-height: 1.45;
+        border-radius: 4px;
+      }
 
       /* Topic pills */
       .topic-pill {
@@ -565,6 +593,51 @@ def _reachy_svg(state: str) -> str:
     """
 
 
+def autoplay_audio_html(audio_bytes: bytes, mime: str = "audio/mp3") -> None:
+    """Render an HTML5 audio element that auto-plays the given bytes.
+
+    Uses st.components.v1.html (iframe) so:
+      - `<script>` shims aren't stripped by Streamlit's markdown
+        sanitizer
+      - the `autoplay` attribute survives the DOM insertion path
+        intact
+      - browser autoplay policy is satisfied because the visitor has
+        already interacted with the page (record → stop), allowing
+        media playback for the page origin.
+
+    The element shows native controls (`controls` attr) so the visitor
+    can scrub, pause, or replay; the JS shim calls `.play()` on
+    `loadeddata` as a fallback in case the autoplay attribute alone
+    is rejected by a strict browser policy.
+    """
+    import base64
+    import streamlit.components.v1 as components
+    b64 = base64.b64encode(audio_bytes).decode("ascii")
+    # Inline both the audio element and the play() shim in a
+    # self-contained iframe document.
+    document = (
+        "<!doctype html><html><head><meta charset='utf-8'>"
+        "<style>"
+        "  html,body { margin:0; padding:0; background:transparent; }"
+        "  audio { width:100%; max-width:540px; "
+        "          margin:0.25rem 0; display:block; }"
+        "</style></head><body>"
+        f"<audio id='cj-audio' autoplay controls "
+        f"src='data:{mime};base64,{b64}'></audio>"
+        "<script>"
+        "(function(){"
+        " const a = document.getElementById('cj-audio');"
+        " if (!a) return;"
+        " const tryPlay = () => { a.play().catch(()=>{}); };"
+        " if (a.readyState >= 2) tryPlay();"
+        " else a.addEventListener('loadeddata', tryPlay, {once:true});"
+        "})();"
+        "</script>"
+        "</body></html>"
+    )
+    components.html(document, height=72)
+
+
 def _flatten_html(s: str) -> str:
     """Collapse a multi-line HTML/SVG string into a single line.
 
@@ -658,6 +731,19 @@ if os.environ.get("REACHY_RENDER", "markdown").lower() == "iframe":
 else:
     render_reachy_header(st.session_state.robot_state)
 
+# Museum-style instructional plaque under the title — matches the
+# "Ask your question using the 'Record' button. Wait for a response."
+# museum-exhibit copy the user referenced.
+st.markdown(
+    "<div class='museum-instruction'>"
+    "Ask Chief Justice Panganiban a question using the "
+    "<b>🎤 record</b> button below — press <b>⏺</b> to start, <b>⏹</b> "
+    "to stop. Or type your question in the box. The response "
+    "will be spoken back to you automatically."
+    "</div>",
+    unsafe_allow_html=True,
+)
+
 
 # ----- Source-rendering helper --------------------------------------------
 def render_sources(routing: dict, artifacts: CorpusArtifacts) -> None:
@@ -712,9 +798,23 @@ for msg in st.session_state.messages:
         st.markdown(msg["content"])
         ap = msg.get("audio_path")
         if ap and Path(ap).exists():
+            # Historical replay — manual control, no autoplay (autoplay
+            # the most-recent turn only, done elsewhere).
             st.audio(ap)
+        # Routing details tucked behind a popover (matches the
+        # in-flight UI — keeps the chat surface clean).
         if msg.get("routing"):
-            render_sources(msg["routing"], artifacts)
+            with st.popover("🔍 Details", use_container_width=False):
+                routing_msg = msg["routing"]
+                primary = routing_msg.get("primary_topic", "—")
+                conf = routing_msg.get("confidence", "—")
+                st.caption(f"Routed to **{primary}** ({conf})")
+                if routing_msg.get("secondary_topics"):
+                    st.caption(
+                        "Secondary: " +
+                        ", ".join(f"`{t}`" for t in routing_msg["secondary_topics"])
+                    )
+                render_sources(routing_msg, artifacts)
 
 
 # ----- Input row — push-to-talk + text fallback ---------------------------
@@ -809,31 +909,34 @@ if question:
         response = None
         fidelity = None
         api_error: str | None = None
+        # A single lightweight progress placeholder replaces the previous
+        # always-visible status chips. Once the response streams in, the
+        # placeholder is cleared and the pipeline details collapse into a
+        # popover ("🔍 Pipeline details") next to the response — so the
+        # default view is clean, but every diagnostic is one click away.
+        progress_slot = st.empty()
+        flags: list[str] = []
+        gate: dict = {}
         try:
             # 2a. Input Gate — catches identity probes before they hit
             # the topic router (PLAN-0001 §D).
-            with st.status("🚪 Checking question scope…", expanded=False) as status:
-                gate = input_gate(client, question)
-                status.update(
-                    label=f"🚪 Scope: {gate['scope']}",
-                    state="complete",
-                )
+            progress_slot.markdown(
+                "<span style='color:#9aa4b3;font-size:0.85rem;'>"
+                "🚪 Checking question scope…</span>",
+                unsafe_allow_html=True,
+            )
+            gate = input_gate(client, question)
 
             # 2b. Topic routing (or META override if the gate fired)
-            with st.status("🧭 Picking relevant corpus topics…", expanded=False) as status:
-                if gate["scope"] == "identity_probe":
-                    routing = force_meta_routing(gate["reasoning"])
-                    status.update(
-                        label="🧭 Identity probe → META path",
-                        state="complete",
-                    )
-                else:
-                    routing = route_question(client, question, artifacts)
-                    status.update(
-                        label=(f"🧭 Routed to {routing['primary_topic']} "
-                               f"({routing['confidence']})"),
-                        state="complete",
-                    )
+            progress_slot.markdown(
+                "<span style='color:#9aa4b3;font-size:0.85rem;'>"
+                "🧭 Routing topics…</span>",
+                unsafe_allow_html=True,
+            )
+            if gate["scope"] == "identity_probe":
+                routing = force_meta_routing(gate["reasoning"])
+            else:
+                routing = route_question(client, question, artifacts)
 
             # 2c. Build context once so both the streamer and the
             # fidelity check see the same prompt material.
@@ -842,7 +945,7 @@ if question:
             # 2d. Stream Sonnet's response token-by-token. The UI
             # renders text as it arrives — no waiting for the full
             # composition before the user sees anything.
-            st.markdown("**💭 CJ:**")
+            progress_slot.empty()  # clear "routing…" before the stream
             response_raw = st.write_stream(
                 generate_response_stream(
                     client, question, routing, artifacts, inference_history
@@ -911,54 +1014,90 @@ if question:
         # Robot enters "talking" state during synthesis + playback.
         audio_path = None
         audio_bytes_mp3: bytes | None = None
+        tts_meta: dict = {}
         if st.session_state.tts_enabled:
             st.session_state.robot_state = "talking"
-            with st.status(
-                "🔊 Generating voice via OpenAI TTS (parallel per sentence)…",
-                expanded=False,
-            ) as status:
-                try:
-                    audio_bytes_mp3 = tts_concatenate_parallel(response)
-                    cost = estimate_voice_cost(response)
-                    n_chunks = len(sentence_chunks(response))
-                    status.update(
-                        label=(f"🔊 Voice ready — {n_chunks} sentence chunk(s), "
-                               f"~${cost['tts_usd']:.4f}"),
-                        state="complete",
-                    )
-                except RuntimeError as e:
-                    status.update(label=str(e)[:120], state="error")
-                except Exception as e:
-                    status.update(label=f"TTS failed: {type(e).__name__}: {e}",
-                                  state="error")
+            progress_slot.markdown(
+                "<span style='color:#9aa4b3;font-size:0.85rem;'>"
+                "🔊 Synthesising voice…</span>",
+                unsafe_allow_html=True,
+            )
+            try:
+                audio_bytes_mp3 = tts_concatenate_parallel(response)
+                cost = estimate_voice_cost(response)
+                n_chunks = len(sentence_chunks(response))
+                tts_meta = {
+                    "chunks": n_chunks,
+                    "cost_usd": cost['tts_usd'],
+                    "ok": True,
+                }
+            except RuntimeError as e:
+                tts_meta = {"ok": False, "error": str(e)[:200]}
+            except Exception as e:
+                tts_meta = {"ok": False,
+                            "error": f"{type(e).__name__}: {e}"[:200]}
+            progress_slot.empty()
             if audio_bytes_mp3:
-                # Persist for the history rerender.
+                # Persist for the history rerender (replays use st.audio).
                 audio_path = str(get_tts_dir() / f"resp_{int(time.time()*1000)}.mp3")
                 try:
                     Path(audio_path).write_bytes(audio_bytes_mp3)
                 except OSError:
                     audio_path = None
-                st.audio(audio_bytes_mp3, format="audio/mp3", autoplay=True)
+                # Use the HTML5 autoplay path with a JS .play() shim —
+                # st.audio(autoplay=True) is unreliable on browsers with
+                # strict autoplay policies; this guarantees playback.
+                autoplay_audio_html(audio_bytes_mp3, mime="audio/mp3")
 
         # Settle the robot back to idle after the turn renders.
         st.session_state.robot_state = "idle"
 
-        # 4. Sources
-        render_sources(routing, artifacts)
-
-        # 5. TTS debug — show the sentence chunks sent to OpenAI in parallel
-        if st.session_state.get("show_tts_debug"):
-            with st.expander("🔊 TTS sentence chunks (sent to OpenAI in parallel)"):
-                chunks = sentence_chunks(response)
-                for i, c in enumerate(chunks, 1):
-                    st.markdown(f"`[{i}]` ({len(c)} chars) — {c}")
+        # 4. Pipeline details — collapsed into a single popover so the
+        # default view stays clean. Click "🔍 Details" to expand.
+        with st.popover("🔍 Details", use_container_width=False):
+            st.markdown("##### 🚪 Input gate")
+            st.caption(
+                f"Scope: **{gate.get('scope', '—')}** — "
+                f"{gate.get('reasoning', '')}"
+            )
+            st.markdown("##### 🧭 Routing")
+            if routing:
                 st.caption(
-                    f"Each chunk was sent to OpenAI TTS (`{TTS_VOICE_DEFAULT}`) "
-                    "in parallel via `asyncio.gather`. Total wall-clock time ≈ "
-                    "slowest single sentence, not the sum. The MP3 blobs were "
-                    "concatenated (pydub if installed) into the single audio "
-                    "player above."
+                    f"Primary: **{routing.get('primary_topic', '—')}** "
+                    f"({routing.get('confidence', '—')})"
                 )
+                if routing.get("secondary_topics"):
+                    st.caption(
+                        "Secondary: " +
+                        ", ".join(f"`{t}`" for t in routing["secondary_topics"])
+                    )
+                if routing.get("reasoning"):
+                    st.caption(f"Router reasoning: *{routing['reasoning']}*")
+            st.markdown("##### 📚 Sources")
+            render_sources(routing, artifacts)
+            if fidelity:
+                st.markdown("##### 🛡️ Fidelity check")
+                st.caption(
+                    f"hallucination={fidelity.get('hallucination')}, "
+                    f"voice_drift={fidelity.get('voice_drift')}, "
+                    f"guardrail_violation={fidelity.get('guardrail_violation')}"
+                )
+                if fidelity.get("reasoning"):
+                    st.caption(f"*{fidelity['reasoning']}*")
+            if tts_meta:
+                st.markdown("##### 🔊 TTS")
+                if tts_meta.get("ok"):
+                    st.caption(
+                        f"{tts_meta['chunks']} sentence chunk(s) via "
+                        f"`{TTS_VOICE_DEFAULT}` — "
+                        f"~${tts_meta['cost_usd']:.4f}"
+                    )
+                else:
+                    st.caption(f"⚠ {tts_meta.get('error', 'TTS failed')}")
+                if st.session_state.get("show_tts_debug"):
+                    st.markdown("**Sentence chunks sent to OpenAI:**")
+                    for i, c in enumerate(sentence_chunks(response), 1):
+                        st.caption(f"[{i}] ({len(c)} chars) {c}")
 
     # 5. Persist the assistant turn so it survives the next rerun
     st.session_state.messages.append({

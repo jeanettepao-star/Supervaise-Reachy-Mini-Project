@@ -129,16 +129,14 @@ TTS_MODEL_DEFAULT = os.environ.get("OPENAI_TTS_MODEL", "tts-1")
 # Voice — set via OPENAI_TTS_VOICE.
 # Standard tts-1 / tts-1-hd voices: alloy, echo, fable, onyx, nova, shimmer.
 # Newer gpt-4o-mini-tts voices: ash, ballad, coral, sage, verse, spruce.
-# Default `spruce` is a calm, even-toned male voice — works well for
-# CJP's measured judicial register. If the active OPENAI_TTS_MODEL
-# doesn't support `spruce`, OpenAI returns a clear error in the status
-# strip and you can drop back to `onyx` (the previous default) or any
-# of the tts-1 voices listed above.
-TTS_VOICE_DEFAULT = os.environ.get("OPENAI_TTS_VOICE", "spruce")
+# Default `echo` is a lighter, articulate male voice in the `tts-1`
+# voice set — fits CJP's measured judicial register and works on the
+# default low-cost tts-1 model (no model swap required).
+TTS_VOICE_DEFAULT = os.environ.get("OPENAI_TTS_VOICE", "echo")
 # Speech speed — tts-1 supports 0.25 to 4.0. CJP speaks at a very
-# relaxed pace; 0.80 is the bottom of the recommended 80-85% range,
-# slow enough to feel deliberate but still smooth.
-TTS_SPEED_DEFAULT = float(os.environ.get("OPENAI_TTS_SPEED", "0.80"))
+# relaxed pace; 0.75 lands just below the typical recommended floor
+# for the deliberate, reflective judicial cadence the user wants.
+TTS_SPEED_DEFAULT = float(os.environ.get("OPENAI_TTS_SPEED", "0.75"))
 
 
 # ============================================================
