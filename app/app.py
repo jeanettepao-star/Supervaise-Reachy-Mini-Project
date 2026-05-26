@@ -670,124 +670,158 @@ def _render_glass_panel(state: str) -> None:
 # Both consume the same _render_cards(ss) helper so the cards look
 # identical whether they're rendering live or from cached state.
 
+# ── Per-card renderers ────────────────────────────────────────────────────
+# Each card has its OWN render function. During the live pipeline run
+# we call only the card that just became available, so the dropdown
+# stacks cleanly (no duplicates). The aggregate `_render_cards()`
+# wrapper calls them all in order for the post-completion expander.
+
+def _card_transcribed(ss) -> None:
+    if not ss.transcript:
+        return
+    st.markdown(
+        "<div class='progress-card success'>"
+        "<span class='pc-check'>✓</span>"
+        "<div class='pc-body'>"
+        "<span class='pc-label'>🎧 Transcribed</span>"
+        f"{_safe_html(ss.transcript)}"
+        "</div></div>",
+        unsafe_allow_html=True,
+    )
+
+
+def _card_scope(ss) -> None:
+    if not ss.gate:
+        return
+    reason = ss.gate.get("reasoning", "")
+    st.markdown(
+        "<div class='progress-card success'>"
+        "<span class='pc-check'>✓</span>"
+        "<div class='pc-body'>"
+        f"<span class='pc-label'>🚪 Scope</span>"
+        f"<code>{_safe_html(ss.gate.get('scope', '—'))}</code>"
+        + (f" — <span style='color:#9aa0b0;'>"
+           f"{_safe_html(reason)}</span>" if reason else "")
+        + "</div></div>",
+        unsafe_allow_html=True,
+    )
+
+
+def _card_routing(ss) -> None:
+    if not ss.routing:
+        return
+    primary = ss.routing.get("primary_topic", "—")
+    conf = ss.routing.get("confidence", "—")
+    reason = ss.routing.get("reasoning", "")
+    st.markdown(
+        "<div class='progress-card routing'>"
+        "<span class='pc-check'>✓</span>"
+        "<div class='pc-body'>"
+        f"<span class='pc-label'>🧭 Routed</span>"
+        f"<code>{_safe_html(primary)}</code> "
+        f"<span style='color:#66b3ff;'>({_safe_html(conf)})</span>"
+        + (f"<div style='color:#9aa0b0; font-size:0.82rem; "
+           f"margin-top:0.2rem;'>{_safe_html(reason)}</div>"
+           if reason else "")
+        + "</div></div>",
+        unsafe_allow_html=True,
+    )
+
+
+def _card_fidelity(ss) -> None:
+    if not ss.fidelity:
+        return
+    flags = [k for k in ("hallucination", "voice_drift", "guardrail_violation")
+             if ss.fidelity.get(k)]
+    if not flags:
+        return
+    st.markdown(
+        "<div class='progress-card' style='border-color:rgba(217,127,95,0.45); "
+        "background:rgba(217,127,95,0.05);'>"
+        "<span class='pc-check' style='color:#d97f5f;'>⚠</span>"
+        "<div class='pc-body'>"
+        f"<span class='pc-label'>🛡️ Fidelity</span>"
+        f"{', '.join(flags)} — "
+        f"<span style='color:#f2c4ad;'>"
+        f"{_safe_html(ss.fidelity.get('reasoning', ''))}</span>"
+        "</div></div>",
+        unsafe_allow_html=True,
+    )
+
+
+def _card_response(ss) -> None:
+    if not ss.response:
+        return
+    st.markdown(
+        "<div style='color:#9aa0b0; font-size:0.72rem; "
+        "letter-spacing:1.5px; text-transform:uppercase; "
+        "margin: 0.9rem 0 0.4rem;'>💬 CJ</div>"
+        f"<div class='progress-response'>{_safe_html(ss.response)}</div>",
+        unsafe_allow_html=True,
+    )
+
+
+def _card_spend(ss) -> None:
+    if ss.get("turn_count", 0) <= 0:
+        return
+    br = (ss.tts_meta or {}).get("breakdown", {})
+    st.markdown(
+        "<div class='progress-card' style='margin-top:0.7rem;'>"
+        "<span class='pc-check' style='color:#f2c44e;'>💰</span>"
+        "<div class='pc-body'>"
+        "<span class='pc-label'>API spend</span>"
+        "<div style='display:grid; grid-template-columns:auto auto; "
+        "gap:0.15rem 0.9rem; font-size:0.85rem; margin-top:0.25rem;'>"
+        f"<span style='color:#9aa0b0;'>Anthropic chat</span>"
+        f"<span>${br.get('anthropic_usd', 0):.5f}</span>"
+        f"<span style='color:#9aa0b0;'>OpenAI Whisper STT</span>"
+        f"<span>${br.get('stt_usd', 0):.5f}</span>"
+        f"<span style='color:#9aa0b0;'>OpenAI TTS</span>"
+        f"<span>${br.get('tts_usd', 0):.5f}</span>"
+        f"<span style='color:#f2c44e; font-weight:600; "
+        f"padding-top:0.25rem; "
+        f"border-top:1px solid rgba(242,196,78,0.25);'>This turn</span>"
+        f"<span style='color:#f2c44e; font-weight:600; "
+        f"padding-top:0.25rem; "
+        f"border-top:1px solid rgba(242,196,78,0.25);'>"
+        f"${ss.last_turn_cost:.5f}</span>"
+        f"<span style='color:#f2c44e; font-weight:600;'>Session</span>"
+        f"<span style='color:#f2c44e; font-weight:600;'>"
+        f"${ss.session_cost:.4f}</span>"
+        "</div></div></div>",
+        unsafe_allow_html=True,
+    )
+
+
+def _card_error(ss) -> None:
+    if not ss.error:
+        return
+    st.markdown(
+        "<div class='progress-card' style='border-color:#d97f5f; "
+        "background:rgba(217,127,95,0.08);'>"
+        "<span class='pc-check' style='color:#d97f5f;'>⚠</span>"
+        "<div class='pc-body'>"
+        "<span class='pc-label'>Error</span>"
+        f"<span style='color:#f2c4ad;'>{_safe_html(ss.error)}</span>"
+        "</div></div>",
+        unsafe_allow_html=True,
+    )
+
+
 def _render_cards(ss) -> None:
-    """Render the four progress cards (Transcribed / Scope / Routed /
-    Response) using st.markdown. Safe to call inside an st.status block
-    while the pipeline is mid-run (Streamlit flushes each markdown
-    line to the browser immediately during script execution within a
-    status container) — and also safe to call inside a regular
-    st.expander after the run is complete."""
-    if ss.transcript:
-        st.markdown(
-            "<div class='progress-card success'>"
-            "<span class='pc-check'>✓</span>"
-            "<div class='pc-body'>"
-            "<span class='pc-label'>🎧 Transcribed</span>"
-            f"{_safe_html(ss.transcript)}"
-            "</div></div>",
-            unsafe_allow_html=True,
-        )
-    if ss.gate:
-        st.markdown(
-            "<div class='progress-card success'>"
-            "<span class='pc-check'>✓</span>"
-            "<div class='pc-body'>"
-            f"<span class='pc-label'>🚪 Scope</span>"
-            f"<code>{_safe_html(ss.gate.get('scope', '—'))}</code>"
-            + (f" — <span style='color:#9aa0b0;'>"
-               f"{_safe_html(ss.gate.get('reasoning', ''))}</span>"
-               if ss.gate.get('reasoning') else "")
-            + "</div></div>",
-            unsafe_allow_html=True,
-        )
-    if ss.routing:
-        primary = ss.routing.get('primary_topic', '—')
-        conf = ss.routing.get('confidence', '—')
-        reason = ss.routing.get('reasoning', '')
-        st.markdown(
-            "<div class='progress-card routing'>"
-            "<span class='pc-check'>✓</span>"
-            "<div class='pc-body'>"
-            f"<span class='pc-label'>🧭 Routed</span>"
-            f"<code>{_safe_html(primary)}</code> "
-            f"<span style='color:#66b3ff;'>({_safe_html(conf)})</span>"
-            + (f"<div style='color:#9aa0b0; font-size:0.82rem; "
-               f"margin-top:0.2rem;'>{_safe_html(reason)}</div>"
-               if reason else "")
-            + "</div></div>",
-            unsafe_allow_html=True,
-        )
-    if ss.fidelity:
-        flags = [k for k in ("hallucination", "voice_drift", "guardrail_violation")
-                 if ss.fidelity.get(k)]
-        if flags:
-            st.markdown(
-                "<div class='progress-card' style='border-color:rgba(217,127,95,0.45); "
-                "background:rgba(217,127,95,0.05);'>"
-                "<span class='pc-check' style='color:#d97f5f;'>⚠</span>"
-                "<div class='pc-body'>"
-                f"<span class='pc-label'>🛡️ Fidelity</span>"
-                f"{', '.join(flags)} — "
-                f"<span style='color:#f2c4ad;'>"
-                f"{_safe_html(ss.fidelity.get('reasoning', ''))}</span>"
-                "</div></div>",
-                unsafe_allow_html=True,
-            )
-    if ss.response:
-        st.markdown(
-            f"<div style='color:#9aa0b0; font-size:0.72rem; "
-            "letter-spacing:1.5px; text-transform:uppercase; "
-            "margin: 0.9rem 0 0.4rem;'>💬 CJ</div>"
-            f"<div class='progress-response'>{_safe_html(ss.response)}</div>",
-            unsafe_allow_html=True,
-        )
-    # API spend breakdown (turn + session)
-    if ss.get("turn_count", 0) > 0:
-        br = (ss.tts_meta or {}).get("breakdown", {})
-        st.markdown(
-            "<div class='progress-card' style='margin-top:0.7rem;'>"
-            "<span class='pc-check' style='color:#f2c44e;'>💰</span>"
-            "<div class='pc-body'>"
-            "<span class='pc-label'>API spend</span>"
-            "<div style='display:grid; grid-template-columns:auto auto; "
-            "gap:0.15rem 0.9rem; font-size:0.85rem; margin-top:0.25rem;'>"
-            f"<span style='color:#9aa0b0;'>Anthropic chat</span>"
-            f"<span>${br.get('anthropic_usd', 0):.5f}</span>"
-            f"<span style='color:#9aa0b0;'>OpenAI Whisper STT</span>"
-            f"<span>${br.get('stt_usd', 0):.5f}</span>"
-            f"<span style='color:#9aa0b0;'>OpenAI TTS</span>"
-            f"<span>${br.get('tts_usd', 0):.5f}</span>"
-            f"<span style='color:#f2c44e; font-weight:600; "
-            f"padding-top:0.25rem; "
-            f"border-top:1px solid rgba(242,196,78,0.25);'>This turn</span>"
-            f"<span style='color:#f2c44e; font-weight:600; "
-            f"padding-top:0.25rem; "
-            f"border-top:1px solid rgba(242,196,78,0.25);'>"
-            f"${ss.last_turn_cost:.5f}</span>"
-            f"<span style='color:#f2c44e; font-weight:600;'>Session</span>"
-            f"<span style='color:#f2c44e; font-weight:600;'>"
-            f"${ss.session_cost:.4f}</span>"
-            "</div></div></div>",
-            unsafe_allow_html=True,
-        )
-    if ss.error:
-        st.markdown(
-            "<div class='progress-card' style='border-color:#d97f5f; "
-            "background:rgba(217,127,95,0.08);'>"
-            "<span class='pc-check' style='color:#d97f5f;'>⚠</span>"
-            "<div class='pc-body'>"
-            "<span class='pc-label'>Error</span>"
-            f"<span style='color:#f2c4ad;'>{_safe_html(ss.error)}</span>"
-            "</div></div>",
-            unsafe_allow_html=True,
-        )
-
-
-def _render_idle_progress_panel() -> None:
-    """Placeholder (kept for parity with old _drawer_content_html — but
-    in the inline-dropdown design we simply don't render anything when
-    there's no turn to show)."""
-    return  # nothing — the dropdown only appears once there's a turn
+    """Aggregate renderer — calls every per-card helper in order. Used by
+    the READY-state expander so the cached state of the last turn is
+    visible the moment a visitor expands it. NOT used during PROCESSING
+    (the live pipeline calls each _card_* once at the point its data
+    becomes available — calling _render_cards() repeatedly mid-pipeline
+    would render each card multiple times in the status block)."""
+    _card_transcribed(ss)
+    _card_scope(ss)
+    _card_routing(ss)
+    _card_fidelity(ss)
+    _card_response(ss)
+    _card_spend(ss)
+    _card_error(ss)
 
 
 def _safe_html(s: str) -> str:
@@ -816,9 +850,12 @@ def _run_pipeline(audio_bytes: bytes) -> None:
 
     The pipeline runs inside a st.status() block opened by the caller's
     progress dropdown. Between each stage we call `status.update(label=…)`
-    to advance the dropdown header AND call `_render_cards(ss)` so each
-    completed step's card appears beneath the spinner immediately —
-    visitors literally watch the checkmarks land.
+    to advance the dropdown header AND call the matching per-card
+    helper (`_card_transcribed`, `_card_scope`, `_card_routing`, …) so
+    each completed step's card appears beneath the spinner immediately —
+    visitors literally watch the checkmarks land. We never call
+    `_render_cards()` mid-pipeline; that would re-render every card
+    already on screen.
 
     Tracks per-turn API spend in `last_turn_cost` and accumulates into
     `session_cost`. The cost includes:
@@ -865,16 +902,18 @@ def _run_pipeline(audio_bytes: bytes) -> None:
                 transcript = transcribe_openai(wav_path)
             except Exception as e:
                 ss.error = f"Transcription failed: {type(e).__name__}: {e}"
+                _card_error(ss)
                 status.update(label="✗ Transcription failed", state="error",
                               expanded=True)
                 return
             if not transcript.strip():
                 ss.error = "No speech detected — please try again."
+                _card_error(ss)
                 status.update(label="✗ No speech detected", state="error",
                               expanded=True)
                 return
             ss.transcript = transcript.strip()
-            _render_cards(ss)  # transcribed card visible immediately
+            _card_transcribed(ss)   # render JUST the new card
 
             # ── 2. Input gate ──
             status.update(label="🚪 Checking question scope…")
@@ -884,10 +923,11 @@ def _run_pipeline(audio_bytes: bytes) -> None:
                 ss.gate = input_gate(client, ss.transcript)
             except Exception as e:
                 ss.error = f"Input gate failed: {type(e).__name__}: {e}"
+                _card_error(ss)
                 status.update(label="✗ Input gate failed", state="error",
                               expanded=True)
                 return
-            _render_cards(ss)  # transcribed + scope cards visible
+            _card_scope(ss)         # render JUST the new card
 
             # ── 3. Topic routing ──
             status.update(label="🧭 Routing to corpus topic…")
@@ -898,10 +938,11 @@ def _run_pipeline(audio_bytes: bytes) -> None:
                     ss.routing = route_question(client, ss.transcript, artifacts)
                 except Exception as e:
                     ss.error = f"Routing failed: {type(e).__name__}: {e}"
+                    _card_error(ss)
                     status.update(label="✗ Routing failed", state="error",
                                   expanded=True)
                     return
-            _render_cards(ss)  # transcribed + scope + routing cards visible
+            _card_routing(ss)       # render JUST the new card
 
             # ── 4. Compose ──
             status.update(label="💭 Composing the Chief Justice's reply…")
@@ -915,6 +956,7 @@ def _run_pipeline(audio_bytes: bytes) -> None:
                 )
             except Exception as e:
                 ss.error = f"Composer failed: {type(e).__name__}: {e}"
+                _card_error(ss)
                 status.update(label="✗ Composer failed", state="error",
                               expanded=True)
                 return
@@ -925,6 +967,8 @@ def _run_pipeline(audio_bytes: bytes) -> None:
                 ss.fidelity = fidelity_check(client, context, ss.response)
             except Exception:
                 ss.fidelity = None
+            _card_fidelity(ss)      # only renders if a flag fired
+            _card_response(ss)      # full CJ response text card
 
             # ── 6. TTS ──
             status.update(label="🔊 Generating the spoken response…")
@@ -955,13 +999,16 @@ def _run_pipeline(audio_bytes: bytes) -> None:
                     "turn_usd": round(turn_cost, 5),
                 }
 
-            _render_cards(ss)  # final: all cards visible inside the live block
+            _card_spend(ss)         # API spend breakdown
 
+            # Keep the dropdown EXPANDED so cards stay visible after
+            # completion. The visitor can collapse manually if they
+            # want a clean canvas before the next turn.
             status.update(
                 label=f"✓ Response ready — turn ${turn_cost:.4f} · "
                       f"session ${ss.session_cost:.4f}",
                 state="complete",
-                expanded=False,
+                expanded=True,
             )
 
         ss.kiosk_state = "READY"
@@ -1111,11 +1158,17 @@ def main() -> None:
     # Inline pipeline-details dropdown. During PROCESSING the
     # st.status() inside _run_pipeline() is the live drop-down.
     # During READY (and onwards), a regular st.expander() carries
-    # the cached cards so visitors can re-inspect the last turn on
-    # their own terms.
+    # the cached cards. We default to expanded=True so the visitor
+    # sees the full pipeline result on the screen they arrive at
+    # after pressing STOP — same view they saw inside the live
+    # status block, just persisted across the rerun.
     if ss.kiosk_state == "READY" and ss.transcript:
         st.markdown("<div class='progress-shell'>", unsafe_allow_html=True)
-        with st.expander("🔍 Pipeline details — open to see the steps", expanded=False):
+        with st.expander(
+            f"🔍 Pipeline details — turn ${ss.last_turn_cost:.4f} · "
+            f"session ${ss.session_cost:.4f}",
+            expanded=True,
+        ):
             _render_cards(ss)
         st.markdown("</div>", unsafe_allow_html=True)
 
