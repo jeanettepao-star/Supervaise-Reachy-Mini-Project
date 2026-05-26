@@ -334,8 +334,8 @@ def _inject_css() -> None:
     }
     [data-testid='stHeader'] { background: transparent; height: 0; }
     .block-container {
-        padding-top: 1.2rem !important;
-        padding-bottom: 1.2rem !important;
+        padding-top: 0.6rem !important;
+        padding-bottom: 0.8rem !important;
         max-width: 1280px;
     }
 
@@ -345,10 +345,10 @@ def _inject_css() -> None:
     /* ── Central glass panel ─────────────────────────────────────── */
     .museum-glass {
         position: relative;
-        margin: 1.4rem auto 0.6rem;
-        padding: 2.0rem 2.4rem 1.6rem;
-        max-width: 980px;
-        border-radius: 28px;
+        margin: 0.6rem auto 0.4rem;
+        padding: 1.0rem 1.8rem 1.0rem;
+        max-width: 960px;
+        border-radius: 24px;
         background: rgba(255, 255, 255, 0.05);
         backdrop-filter: blur(14px) saturate(140%);
         -webkit-backdrop-filter: blur(14px) saturate(140%);
@@ -361,7 +361,7 @@ def _inject_css() -> None:
     /* Soft top sheen */
     .museum-glass::before {
         content: '';
-        position: absolute; left: 0; right: 0; top: 0; height: 70px;
+        position: absolute; left: 0; right: 0; top: 0; height: 55px;
         background: linear-gradient(180deg,
             rgba(255,255,255,0.10), rgba(255,255,255,0.0));
         pointer-events: none;
@@ -370,14 +370,14 @@ def _inject_css() -> None:
     /* ── Title typography ────────────────────────────────────────── */
     .museum-title {
         font-family: 'Cormorant Garamond', Georgia, serif;
-        font-size: 3.4rem; line-height: 1.0;
+        font-size: 2.2rem; line-height: 1.0;
         font-weight: 600; letter-spacing: 0.5px;
         color: #f6f1e1; margin: 0;
     }
     .museum-subtitle {
         font-family: 'Inter', sans-serif;
-        font-size: 1.0rem; color: #c1c7d6; font-style: italic;
-        margin: 0.5rem 0 0; letter-spacing: 0.2px;
+        font-size: 0.88rem; color: #c1c7d6; font-style: italic;
+        margin: 0.3rem 0 0; letter-spacing: 0.2px;
     }
     .museum-blurb {
         font-family: 'Inter', sans-serif;
@@ -442,11 +442,11 @@ def _inject_css() -> None:
     /* ── Robot framing inside glass panel ────────────────────────── */
     .robot-frame {
         display: flex; justify-content: center; align-items: center;
-        padding: 0.6rem 0 0.4rem;
+        padding: 0.2rem 0 0.2rem;
     }
     .robot-frame svg, .robot-frame img {
-        height: 360px; width: auto;
-        filter: drop-shadow(0 18px 24px rgba(0,0,0,0.45));
+        height: 200px; width: auto;
+        filter: drop-shadow(0 14px 20px rgba(0,0,0,0.45));
     }
     /* When recording, give the robot a green glow */
     .museum-glass.recording .robot-frame svg,
@@ -477,30 +477,30 @@ def _inject_css() -> None:
     .console-row [data-testid='column']:nth-of-type(1) button {
         background: linear-gradient(180deg, #c43e30 0%, #8c2419 100%);
         color: #fff8ec; border: none;
-        height: 86px; font-size: 1.25rem; font-weight: 700;
+        height: 64px; font-size: 1.05rem; font-weight: 700;
         letter-spacing: 1.5px; font-family: 'Inter', sans-serif;
-        border-radius: 16px;
+        border-radius: 14px;
         box-shadow:
-            0 12px 28px -12px rgba(196, 62, 48, 0.65),
+            0 10px 22px -10px rgba(196, 62, 48, 0.65),
             inset 0 1px 0 rgba(255,255,255,0.18);
         transition: transform 0.12s ease, box-shadow 0.12s ease, opacity 0.15s ease;
     }
     .console-row [data-testid='column']:nth-of-type(2) button {
         background: linear-gradient(180deg, #4d5468 0%, #2c3142 100%);
         color: #f0f2f6; border: 1px solid rgba(255,255,255,0.08);
-        height: 86px; font-size: 1.15rem; font-weight: 600;
+        height: 64px; font-size: 1.0rem; font-weight: 600;
         letter-spacing: 1.5px; font-family: 'Inter', sans-serif;
-        border-radius: 16px;
-        box-shadow: 0 8px 22px -10px rgba(0,0,0,0.6);
+        border-radius: 14px;
+        box-shadow: 0 8px 20px -10px rgba(0,0,0,0.6);
     }
     .console-row [data-testid='column']:nth-of-type(3) button {
         background: linear-gradient(180deg, #f0c453 0%, #c89427 100%);
         color: #1a1410; border: none;
-        height: 110px; font-size: 1.55rem; font-weight: 700;
+        height: 78px; font-size: 1.25rem; font-weight: 700;
         letter-spacing: 2.0px; font-family: 'Inter', sans-serif;
-        border-radius: 22px;
+        border-radius: 18px;
         box-shadow:
-            0 18px 38px -16px rgba(242, 196, 78, 0.65),
+            0 14px 30px -14px rgba(242, 196, 78, 0.65),
             inset 0 1px 0 rgba(255,255,255,0.25);
     }
     .console-row button:hover:not(:disabled) {
