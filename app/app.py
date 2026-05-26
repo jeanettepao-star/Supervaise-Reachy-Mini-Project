@@ -526,127 +526,71 @@ def _inject_css() -> None:
     .compact-mic { opacity: 0.85; margin: 0.6rem auto 0; max-width: 520px; }
     .compact-mic [data-testid='stAudioInputDeleteBtn'] { display: none; }
 
-    /* ── Hide Streamlit's native sidebar entirely — we render our
-       own drawer below for a cleaner kiosk surface. ───────────────── */
+    /* ── Hide Streamlit's native sidebar entirely. ───────────────── */
     [data-testid='stSidebar'],
     [data-testid='collapsedControl'],
     [data-testid='stSidebarCollapsedControl'] {
         display: none !important;
     }
 
-    /* ── Pure-CSS slide-in drawer (checkbox hack — no JS) ────────── */
-    /* The hidden checkbox is the state. The floating toggle button is
-       a <label for=…> that flips the checkbox. The drawer panel is a
-       sibling that listens for :checked via the general-sibling
-       combinator. Closing happens via a second label-with-the-same-for
-       inside the drawer (the × button). This works in every modern
-       browser, survives Streamlit's HTML sanitiser (no <script>
-       needed), and never triggers a Streamlit rerun. */
-
-    .cj-drawer-checkbox { display: none; }
-
-    /* Floating toggle — round icon, right edge, vertically centred */
-    .cj-drawer-toggle-btn {
-        position: fixed; right: 22px; top: 50%;
-        transform: translateY(-50%); z-index: 1000;
-        width: 56px; height: 56px; border-radius: 50%;
-        background: rgba(28, 35, 52, 0.85);
-        backdrop-filter: blur(6px);
-        border: 1px solid rgba(242, 196, 78, 0.45);
-        display: flex; align-items: center; justify-content: center;
-        cursor: pointer; transition: transform 0.18s, box-shadow 0.18s;
-        box-shadow: 0 10px 24px -8px rgba(0, 0, 0, 0.6);
-    }
-    .cj-drawer-toggle-btn:hover {
-        transform: translateY(-50%) scale(1.06);
-        box-shadow: 0 12px 28px -8px rgba(242, 196, 78, 0.45);
-    }
-    .cj-drawer-toggle-btn svg { width: 28px; height: 28px; }
-
-    /* When the checkbox is checked, hide the toggle (the close button
-       inside the drawer takes over). */
-    .cj-drawer-checkbox:checked ~ .cj-drawer-toggle-btn {
-        display: none;
-    }
-
-    /* The drawer panel — starts off-screen to the right, slides in
-       when the checkbox is checked. */
-    .cj-drawer {
-        position: fixed; top: 0; right: -460px;
-        width: 440px; max-width: 92vw; height: 100vh;
-        background: linear-gradient(180deg,
-            rgba(8, 11, 20, 0.96) 0%,
-            rgba(12, 18, 32, 0.96) 100%);
-        backdrop-filter: blur(18px) saturate(140%);
-        border-left: 1px solid rgba(242, 196, 78, 0.25);
-        box-shadow: -18px 0 48px -12px rgba(0, 0, 0, 0.7);
-        padding: 1.6rem 1.5rem 2rem;
-        overflow-y: auto;
-        z-index: 999;
-        transition: right 0.36s cubic-bezier(0.22, 0.61, 0.36, 1);
+    /* ── Inline progress dropdown — st.status + st.expander styling
+       so the live progress block looks part of the museum console
+       (dark glass, gold-accented border, Inter body type). ────── */
+    .progress-shell {
+        max-width: 820px; margin: 1.0rem auto 0;
         font-family: 'Inter', sans-serif;
-        color: #d5dae6;
     }
-    .cj-drawer-checkbox:checked ~ .cj-drawer { right: 0; }
-
-    /* Close button (×) inside the drawer — also a label that toggles
-       the same hidden checkbox, so the drawer closes on click. */
-    .cj-drawer-close {
-        position: absolute; top: 14px; right: 18px;
-        width: 32px; height: 32px;
-        border-radius: 50%;
-        background: rgba(255, 255, 255, 0.06);
-        border: 1px solid rgba(255, 255, 255, 0.15);
-        color: #f6f1e1; font-size: 18px;
-        display: flex; align-items: center; justify-content: center;
-        cursor: pointer; transition: background 0.15s;
+    /* st.status / st.expander wrappers — Streamlit renders both
+       through the StatusWidget / Expander testids. */
+    [data-testid='stStatusWidget'],
+    [data-testid='stExpander'] {
+        background: rgba(255, 255, 255, 0.04) !important;
+        backdrop-filter: blur(10px) saturate(130%);
+        border: 1px solid rgba(255, 255, 255, 0.10) !important;
+        border-radius: 14px !important;
+        box-shadow: 0 10px 28px -16px rgba(0, 0, 0, 0.55);
     }
-    .cj-drawer-close:hover { background: rgba(255, 255, 255, 0.12); }
-
-    /* Drawer typography + card system */
-    .cj-drawer h3 {
-        font-family: 'Cormorant Garamond', Georgia, serif;
-        font-size: 1.55rem; color: #f6f1e1; font-weight: 600;
-        margin: 0.2rem 0 1rem;
+    /* Expander header — slightly gold-tinted to flag it as the
+       diagnostic surface. */
+    [data-testid='stExpander'] summary {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600; color: #f2c44e !important;
+        letter-spacing: 0.6px;
     }
-    .cj-drawer .drawer-card {
-        background: rgba(255, 255, 255, 0.03);
-        border: 1px solid rgba(255, 255, 255, 0.08);
-        border-radius: 12px;
-        padding: 0.7rem 0.9rem; margin-bottom: 0.6rem;
-        font-size: 0.88rem; color: #d5dae6;
+    /* Inline progress cards rendered by st.markdown inside the
+       status block. */
+    .progress-card {
+        display: flex; align-items: flex-start; gap: 0.55rem;
+        padding: 0.55rem 0.8rem; margin: 0.35rem 0;
+        background: rgba(255,255,255,0.025);
+        border: 1px solid rgba(255,255,255,0.07);
+        border-radius: 10px;
+        font-size: 0.9rem; color: #d5dae6;
     }
-    .cj-drawer .drawer-card.success {
-        border-color: rgba(74, 210, 149, 0.35);
-        background: rgba(74, 210, 149, 0.06);
+    .progress-card.success {
+        border-color: rgba(74,210,149,0.35);
+        background: rgba(74,210,149,0.05);
     }
-    .cj-drawer .drawer-card.routing {
-        border-color: rgba(102, 179, 255, 0.35);
-        background: rgba(102, 179, 255, 0.06);
+    .progress-card.routing {
+        border-color: rgba(102,179,255,0.35);
+        background: rgba(102,179,255,0.05);
     }
-    .cj-drawer .drawer-card.warning {
-        border-color: rgba(217, 127, 95, 0.45);
-        background: rgba(217, 127, 95, 0.06);
-        color: #f2c4ad;
+    .progress-card .pc-check {
+        color: #4ad295; font-weight: 600; flex-shrink: 0;
     }
-    .cj-drawer .drawer-card .label {
-        color: #9aa0b0; font-size: 0.72rem; letter-spacing: 1.5px;
-        text-transform: uppercase; margin-bottom: 0.3rem; display: block;
+    .progress-card .pc-label {
+        color: #9aa0b0; font-size: 0.72rem; letter-spacing: 1.2px;
+        text-transform: uppercase; margin-right: 0.4rem;
     }
-    .cj-drawer .drawer-response {
-        background: rgba(255, 255, 255, 0.025);
+    .progress-card .pc-body {
+        flex: 1; line-height: 1.5;
+    }
+    .progress-response {
+        margin-top: 0.5rem; padding: 0.85rem 1.05rem;
+        background: rgba(255,255,255,0.02);
         border-left: 3px solid rgba(242, 196, 78, 0.55);
-        padding: 0.95rem 1.1rem; border-radius: 8px;
+        border-radius: 8px;
         font-size: 0.93rem; color: #e6e9ef; line-height: 1.6;
-        margin-top: 0.4rem;
-    }
-    .cj-drawer .drawer-section-label {
-        color: #9aa0b0; font-size: 0.74rem; letter-spacing: 1.6px;
-        text-transform: uppercase; margin: 1.4rem 0 0.5rem;
-    }
-    .cj-drawer .drawer-empty {
-        color: #6c7080; font-style: italic; padding: 1.4rem 0;
-        text-align: center;
     }
     """
     css = css.replace("__BG_LAYER__", _bg_layer())
@@ -715,183 +659,135 @@ def _render_glass_panel(state: str) -> None:
     st.markdown(panel, unsafe_allow_html=True)
 
 
-# ─── Diagnostics drawer (pure-CSS, slide-in from right) ──────────────────
-# We render ONE HTML block: hidden checkbox + floating toggle button +
-# slide-in drawer. Clicking the toggle flips the checkbox (CSS handles
-# the slide animation). Clicking the × inside the drawer toggles the
-# same checkbox, closing it. No Streamlit reruns, no <script>, no
-# Streamlit sidebar — works in every modern browser, never flickers.
-def _drawer_content_html() -> str:
-    """Build the HTML body of the drawer from current session_state."""
-    ss = st.session_state
+# ─── Inline progress dropdown (replaces the slide-in drawer) ─────────────
+# Two surfaces share the same dataset:
+#   • during PROCESSING: a st.status() block opens auto-expanded and
+#     receives a step-by-step .update(label=…) + st.markdown lines as
+#     the pipeline runs — the visitor watches each ✓ land live.
+#   • during READY (and beyond): a st.expander() that's collapsed by
+#     default, holding the cached cards for inspection on the visitor's
+#     terms.
+# Both consume the same _render_cards(ss) helper so the cards look
+# identical whether they're rendering live or from cached state.
 
-    if not ss.transcript and ss.kiosk_state == "IDLE":
-        return (
-            "<p class='drawer-empty'>No turn yet. Record a question "
-            "to populate this panel.</p>"
-        )
-
-    parts: list[str] = []
-
-    # Transcription
+def _render_cards(ss) -> None:
+    """Render the four progress cards (Transcribed / Scope / Routed /
+    Response) using st.markdown. Safe to call inside an st.status block
+    while the pipeline is mid-run (Streamlit flushes each markdown
+    line to the browser immediately during script execution within a
+    status container) — and also safe to call inside a regular
+    st.expander after the run is complete."""
     if ss.transcript:
-        parts.append(
-            "<div class='drawer-card success'>"
-            "<span class='label'>✓ 🎧 Transcribed</span>"
-            f"<div>{_safe_html(ss.transcript)}</div>"
-            "</div>"
+        st.markdown(
+            "<div class='progress-card success'>"
+            "<span class='pc-check'>✓</span>"
+            "<div class='pc-body'>"
+            "<span class='pc-label'>🎧 Transcribed</span>"
+            f"{_safe_html(ss.transcript)}"
+            "</div></div>",
+            unsafe_allow_html=True,
         )
-
-    # Scope (input gate)
     if ss.gate:
-        scope = ss.gate.get("scope", "—")
-        reason = ss.gate.get("reasoning", "")
-        parts.append(
-            "<div class='drawer-card success'>"
-            f"<span class='label'>✓ 🚪 Scope: {_safe_html(scope)}</span>"
-            + (f"<div>{_safe_html(reason)}</div>" if reason else "")
-            + "</div>"
+        st.markdown(
+            "<div class='progress-card success'>"
+            "<span class='pc-check'>✓</span>"
+            "<div class='pc-body'>"
+            f"<span class='pc-label'>🚪 Scope</span>"
+            f"<code>{_safe_html(ss.gate.get('scope', '—'))}</code>"
+            + (f" — <span style='color:#9aa0b0;'>"
+               f"{_safe_html(ss.gate.get('reasoning', ''))}</span>"
+               if ss.gate.get('reasoning') else "")
+            + "</div></div>",
+            unsafe_allow_html=True,
         )
-
-    # Routing
     if ss.routing:
-        primary = ss.routing.get("primary_topic", "—")
-        conf = ss.routing.get("confidence", "—")
-        reason = ss.routing.get("reasoning", "")
-        secs = ss.routing.get("secondary_topics") or []
-        sec_html = (
-            "<div style='margin-top:0.3rem; color:#9aa0b0;'>Secondary: " +
-            ", ".join(f"<code>{_safe_html(t)}</code>" for t in secs) +
-            "</div>"
-        ) if secs else ""
-        parts.append(
-            "<div class='drawer-card routing'>"
-            f"<span class='label'>✓ 🧭 Routed to "
-            f"{_safe_html(primary)} ({_safe_html(conf)})</span>"
-            + (f"<div style='color:#c1c7d6; font-style:italic;'>"
-               f"{_safe_html(reason)}</div>" if reason else "")
-            + sec_html
-            + "</div>"
+        primary = ss.routing.get('primary_topic', '—')
+        conf = ss.routing.get('confidence', '—')
+        reason = ss.routing.get('reasoning', '')
+        st.markdown(
+            "<div class='progress-card routing'>"
+            "<span class='pc-check'>✓</span>"
+            "<div class='pc-body'>"
+            f"<span class='pc-label'>🧭 Routed</span>"
+            f"<code>{_safe_html(primary)}</code> "
+            f"<span style='color:#66b3ff;'>({_safe_html(conf)})</span>"
+            + (f"<div style='color:#9aa0b0; font-size:0.82rem; "
+               f"margin-top:0.2rem;'>{_safe_html(reason)}</div>"
+               if reason else "")
+            + "</div></div>",
+            unsafe_allow_html=True,
         )
-
-    # Fidelity
     if ss.fidelity:
         flags = [k for k in ("hallucination", "voice_drift", "guardrail_violation")
                  if ss.fidelity.get(k)]
         if flags:
-            parts.append(
-                "<div class='drawer-card warning'>"
-                f"<span class='label'>🛡️ Fidelity: {', '.join(flags)}</span>"
-                f"<div>{_safe_html(ss.fidelity.get('reasoning', ''))}</div>"
-                "</div>"
+            st.markdown(
+                "<div class='progress-card' style='border-color:rgba(217,127,95,0.45); "
+                "background:rgba(217,127,95,0.05);'>"
+                "<span class='pc-check' style='color:#d97f5f;'>⚠</span>"
+                "<div class='pc-body'>"
+                f"<span class='pc-label'>🛡️ Fidelity</span>"
+                f"{', '.join(flags)} — "
+                f"<span style='color:#f2c4ad;'>"
+                f"{_safe_html(ss.fidelity.get('reasoning', ''))}</span>"
+                "</div></div>",
+                unsafe_allow_html=True,
             )
-
-    # TTS metadata
-    if ss.tts_meta and ss.tts_meta.get("ok"):
-        parts.append(
-            "<div class='drawer-card'>"
-            "<span class='label'>🔊 TTS</span>"
-            f"<div>{ss.tts_meta.get('chunks', '?')} sentence chunk(s) · "
-            f"~${ss.tts_meta.get('cost_usd', 0):.4f}</div>"
-            "</div>"
+    if ss.response:
+        st.markdown(
+            f"<div style='color:#9aa0b0; font-size:0.72rem; "
+            "letter-spacing:1.5px; text-transform:uppercase; "
+            "margin: 0.9rem 0 0.4rem;'>💬 CJ</div>"
+            f"<div class='progress-response'>{_safe_html(ss.response)}</div>",
+            unsafe_allow_html=True,
         )
-
-    # API cost breakdown (turn + session totals)
+    # API spend breakdown (turn + session)
     if ss.get("turn_count", 0) > 0:
         br = (ss.tts_meta or {}).get("breakdown", {})
-        ant = br.get("anthropic_usd", 0.0)
-        stt = br.get("stt_usd", 0.0)
-        tts = br.get("tts_usd", 0.0)
-        parts.append(
-            "<div class='drawer-card'>"
-            "<span class='label'>💰 API spend</span>"
+        st.markdown(
+            "<div class='progress-card' style='margin-top:0.7rem;'>"
+            "<span class='pc-check' style='color:#f2c44e;'>💰</span>"
+            "<div class='pc-body'>"
+            "<span class='pc-label'>API spend</span>"
             "<div style='display:grid; grid-template-columns:auto auto; "
-            "gap:0.15rem 0.9rem; margin-top:0.35rem; font-size:0.85rem;'>"
+            "gap:0.15rem 0.9rem; font-size:0.85rem; margin-top:0.25rem;'>"
             f"<span style='color:#9aa0b0;'>Anthropic chat</span>"
-            f"<span>${ant:.5f}</span>"
+            f"<span>${br.get('anthropic_usd', 0):.5f}</span>"
             f"<span style='color:#9aa0b0;'>OpenAI Whisper STT</span>"
-            f"<span>${stt:.5f}</span>"
+            f"<span>${br.get('stt_usd', 0):.5f}</span>"
             f"<span style='color:#9aa0b0;'>OpenAI TTS</span>"
-            f"<span>${tts:.5f}</span>"
+            f"<span>${br.get('tts_usd', 0):.5f}</span>"
             f"<span style='color:#f2c44e; font-weight:600; "
-            f"border-top:1px solid rgba(242,196,78,0.25); padding-top:0.3rem;'>"
-            f"This turn</span>"
+            f"padding-top:0.25rem; "
+            f"border-top:1px solid rgba(242,196,78,0.25);'>This turn</span>"
             f"<span style='color:#f2c44e; font-weight:600; "
-            f"border-top:1px solid rgba(242,196,78,0.25); padding-top:0.3rem;'>"
+            f"padding-top:0.25rem; "
+            f"border-top:1px solid rgba(242,196,78,0.25);'>"
             f"${ss.last_turn_cost:.5f}</span>"
-            f"<span style='color:#f2c44e; font-weight:600;'>Session "
-            f"({ss.turn_count} turn{'s' if ss.turn_count != 1 else ''})</span>"
+            f"<span style='color:#f2c44e; font-weight:600;'>Session</span>"
             f"<span style='color:#f2c44e; font-weight:600;'>"
             f"${ss.session_cost:.4f}</span>"
-            "</div></div>"
+            "</div></div></div>",
+            unsafe_allow_html=True,
         )
-
-    # Full response (gold-bordered card)
-    if ss.response:
-        parts.append(
-            "<p class='drawer-section-label'>💬 CJ</p>"
-            "<div class='drawer-response'>"
-            f"{_safe_html(ss.response)}</div>"
-        )
-
-    # Errors
     if ss.error:
-        parts.append(
-            "<div class='drawer-card warning'>"
-            "<span class='label'>⚠ Error</span>"
-            f"<div>{_safe_html(ss.error)}</div>"
-            "</div>"
+        st.markdown(
+            "<div class='progress-card' style='border-color:#d97f5f; "
+            "background:rgba(217,127,95,0.08);'>"
+            "<span class='pc-check' style='color:#d97f5f;'>⚠</span>"
+            "<div class='pc-body'>"
+            "<span class='pc-label'>Error</span>"
+            f"<span style='color:#f2c4ad;'>{_safe_html(ss.error)}</span>"
+            "</div></div>",
+            unsafe_allow_html=True,
         )
 
-    return "".join(parts) or (
-        "<p class='drawer-empty'>No diagnostic data yet.</p>"
-    )
 
-
-def _render_drawer() -> None:
-    """Emit the entire drawer as a single HTML block — hidden checkbox,
-    floating toggle button, and slide-in panel. The drawer is HIDDEN
-    by default: only the small floating icon is visible. Clicking the
-    icon slides the drawer in from the right; clicking × inside the
-    drawer slides it back out. Streamlit isn't involved in the
-    toggle — pure CSS via the checkbox-hack pattern."""
-
-    # The legal-document + magnifying-glass icon (from image_c18986)
-    toggle_icon_svg = (
-        "<svg viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'>"
-        "<rect x='14' y='10' width='28' height='38' rx='3' "
-        "fill='#f2c44e' stroke='#1a1410' stroke-width='2'/>"
-        "<line x1='18' y1='20' x2='38' y2='20' stroke='#1a1410' stroke-width='1.5'/>"
-        "<line x1='18' y1='26' x2='38' y2='26' stroke='#1a1410' stroke-width='1.5'/>"
-        "<line x1='18' y1='32' x2='32' y2='32' stroke='#1a1410' stroke-width='1.5'/>"
-        "<circle cx='42' cy='42' r='10' fill='none' "
-        "stroke='#f6f1e1' stroke-width='3'/>"
-        "<line x1='49' y1='49' x2='56' y2='56' "
-        "stroke='#f6f1e1' stroke-width='3' stroke-linecap='round'/>"
-        "</svg>"
-    )
-
-    block = (
-        # 1. Hidden checkbox (controls open/closed state)
-        "<input type='checkbox' id='cj-drawer-toggle' "
-        "class='cj-drawer-checkbox' aria-hidden='true' />"
-        # 2. Floating toggle button (label opens the drawer)
-        "<label for='cj-drawer-toggle' class='cj-drawer-toggle-btn' "
-        "title='Open pipeline details' role='button' tabindex='0'>"
-        f"{toggle_icon_svg}"
-        "</label>"
-        # 3. The drawer itself
-        "<div class='cj-drawer' role='dialog' aria-label='Pipeline details'>"
-        # 3a. Close button (label closes the same checkbox)
-        "<label for='cj-drawer-toggle' class='cj-drawer-close' "
-        "title='Close' role='button' tabindex='0'>×</label>"
-        # 3b. Drawer content
-        "<h3>🔍 Pipeline details</h3>"
-        f"{_drawer_content_html()}"
-        "</div>"
-    )
-
-    st.markdown(block, unsafe_allow_html=True)
+def _render_idle_progress_panel() -> None:
+    """Placeholder (kept for parity with old _drawer_content_html — but
+    in the inline-dropdown design we simply don't render anything when
+    there's no turn to show)."""
+    return  # nothing — the dropdown only appears once there's a turn
 
 
 def _safe_html(s: str) -> str:
@@ -916,14 +812,19 @@ def _get_client():
 
 
 def _run_pipeline(audio_bytes: bytes) -> None:
-    """Full PROCESSING path. Mutates st.session_state with results.
+    """Full PROCESSING path with LIVE progress updates.
+
+    The pipeline runs inside a st.status() block opened by the caller's
+    progress dropdown. Between each stage we call `status.update(label=…)`
+    to advance the dropdown header AND call `_render_cards(ss)` so each
+    completed step's card appears beneath the spinner immediately —
+    visitors literally watch the checkmarks land.
 
     Tracks per-turn API spend in `last_turn_cost` and accumulates into
     `session_cost`. The cost includes:
       • Anthropic (router + gate + composer + fidelity) — computed from
         CACHE_STATS diff with the published $/MTok rates.
-      • OpenAI Whisper STT — estimated at $0.006/min × duration. The
-        WAV's PCM duration is computed from byte length.
+      • OpenAI Whisper STT — estimated at $0.006/min × audio duration.
       • OpenAI TTS — actual chars × tts-1 rate (from estimate_voice_cost).
     """
     ss = st.session_state
@@ -936,99 +837,132 @@ def _run_pipeline(audio_bytes: bytes) -> None:
     ss.fidelity = None
     ss.tts_meta = None
 
-    # Cost snapshot
     cache_before = _snapshot_cache_stats()
     audio_seconds_est = max(1, len(audio_bytes) // 32000)  # ≈ 16 kHz × 2 bytes
     stt_cost = (audio_seconds_est / 60.0) * 0.006
 
-    # 1. Persist audio to a temp WAV the OpenAI SDK can open.
+    # Open the live progress dropdown. The status block is the
+    # "drop-down area" the user wanted: auto-expanded during work,
+    # each step lands as a checkmark card the moment the underlying
+    # API returns, then collapses to a single "✓ Response ready" line
+    # when done. Streamlit flushes each st.markdown call inside this
+    # block immediately to the browser, so progress is genuinely live.
+    status_ctx = st.status(
+        "✨ The Chief Justice is preparing his answer…",
+        expanded=True,
+    )
+
     wav_path: str | None = None
     try:
         with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp:
             tmp.write(audio_bytes)
             wav_path = tmp.name
 
-        # 2. STT (one Whisper call).
-        try:
-            transcript = transcribe_openai(wav_path)
-        except Exception as e:
-            ss.error = f"Transcription failed: {type(e).__name__}: {e}"
-            return
-        if not transcript.strip():
-            ss.error = "No speech detected — please try again."
-            return
-        ss.transcript = transcript.strip()
-
-        # 3. Input gate + routing.
-        artifacts = _get_artifacts()
-        client = _get_client()
-        try:
-            gate = input_gate(client, ss.transcript)
-        except Exception as e:
-            ss.error = f"Input gate failed: {type(e).__name__}: {e}"
-            return
-        ss.gate = gate
-
-        if gate.get("scope") == "identity_probe":
-            routing = force_meta_routing(gate.get("reasoning", ""))
-        else:
+        with status_ctx as status:
+            # ── 1. STT ──
+            status.update(label="🎧 Transcribing your question…")
             try:
-                routing = route_question(client, ss.transcript, artifacts)
+                transcript = transcribe_openai(wav_path)
             except Exception as e:
-                ss.error = f"Routing failed: {type(e).__name__}: {e}"
+                ss.error = f"Transcription failed: {type(e).__name__}: {e}"
+                status.update(label="✗ Transcription failed", state="error",
+                              expanded=True)
                 return
-        ss.routing = routing
+            if not transcript.strip():
+                ss.error = "No speech detected — please try again."
+                status.update(label="✗ No speech detected", state="error",
+                              expanded=True)
+                return
+            ss.transcript = transcript.strip()
+            _render_cards(ss)  # transcribed card visible immediately
 
-        # 4. Compose (streamed but accumulated server-side — we don't
-        # progressively reveal text in the kiosk view; the response is
-        # spoken when the user presses PLAY).
-        try:
-            context = build_context(routing, artifacts)
-            chunks = []
-            for piece in generate_response_stream(
-                client, ss.transcript, routing, artifacts, conversation_history=None
-            ):
-                chunks.append(piece)
-            response_raw = "".join(chunks)
-        except Exception as e:
-            ss.error = f"Composer failed: {type(e).__name__}: {e}"
-            return
-        ss.response = _strip_stage_directions(response_raw)
+            # ── 2. Input gate ──
+            status.update(label="🚪 Checking question scope…")
+            artifacts = _get_artifacts()
+            client = _get_client()
+            try:
+                ss.gate = input_gate(client, ss.transcript)
+            except Exception as e:
+                ss.error = f"Input gate failed: {type(e).__name__}: {e}"
+                status.update(label="✗ Input gate failed", state="error",
+                              expanded=True)
+                return
+            _render_cards(ss)  # transcribed + scope cards visible
 
-        # 5. Fidelity (advisory).
-        try:
-            ss.fidelity = fidelity_check(client, context, ss.response)
-        except Exception:
-            ss.fidelity = None  # non-fatal
+            # ── 3. Topic routing ──
+            status.update(label="🧭 Routing to corpus topic…")
+            if ss.gate.get("scope") == "identity_probe":
+                ss.routing = force_meta_routing(ss.gate.get("reasoning", ""))
+            else:
+                try:
+                    ss.routing = route_question(client, ss.transcript, artifacts)
+                except Exception as e:
+                    ss.error = f"Routing failed: {type(e).__name__}: {e}"
+                    status.update(label="✗ Routing failed", state="error",
+                                  expanded=True)
+                    return
+            _render_cards(ss)  # transcribed + scope + routing cards visible
 
-        # 6. TTS (per-sentence parallel; one autoplay MP3 ready to play).
-        try:
-            ss.audio_bytes = tts_concatenate_parallel(ss.response)
-            cost = estimate_voice_cost(ss.response)
-            ss.tts_meta = {
-                "ok": True,
-                "chunks": len(sentence_chunks(ss.response)),
-                "cost_usd": cost["tts_usd"],
-            }
-        except Exception as e:
-            ss.tts_meta = {"ok": False, "error": str(e)[:200]}
+            # ── 4. Compose ──
+            status.update(label="💭 Composing the Chief Justice's reply…")
+            try:
+                context = build_context(ss.routing, artifacts)
+                response_raw = "".join(
+                    generate_response_stream(
+                        client, ss.transcript, ss.routing, artifacts,
+                        conversation_history=None,
+                    )
+                )
+            except Exception as e:
+                ss.error = f"Composer failed: {type(e).__name__}: {e}"
+                status.update(label="✗ Composer failed", state="error",
+                              expanded=True)
+                return
+            ss.response = _strip_stage_directions(response_raw)
 
-        # 7. Cost rollup — compute Anthropic spend from CACHE_STATS diff
-        # and combine with the STT + TTS line items captured above.
-        anthropic_cost = _anthropic_cost_since(cache_before)
-        tts_cost = ss.tts_meta.get("cost_usd", 0.0) if ss.tts_meta and ss.tts_meta.get("ok") else 0.0
-        turn_cost = anthropic_cost + stt_cost + tts_cost
-        ss.last_turn_cost = turn_cost
-        ss.session_cost += turn_cost
-        ss.turn_count += 1
-        # Surface a slightly richer breakdown in the drawer.
-        if isinstance(ss.tts_meta, dict):
-            ss.tts_meta["breakdown"] = {
-                "anthropic_usd": round(anthropic_cost, 5),
-                "stt_usd": round(stt_cost, 5),
-                "tts_usd": round(tts_cost, 5),
-                "turn_usd": round(turn_cost, 5),
-            }
+            # ── 5. Fidelity (advisory) ──
+            try:
+                ss.fidelity = fidelity_check(client, context, ss.response)
+            except Exception:
+                ss.fidelity = None
+
+            # ── 6. TTS ──
+            status.update(label="🔊 Generating the spoken response…")
+            try:
+                ss.audio_bytes = tts_concatenate_parallel(ss.response)
+                cost = estimate_voice_cost(ss.response)
+                ss.tts_meta = {
+                    "ok": True,
+                    "chunks": len(sentence_chunks(ss.response)),
+                    "cost_usd": cost["tts_usd"],
+                }
+            except Exception as e:
+                ss.tts_meta = {"ok": False, "error": str(e)[:200]}
+
+            # ── 7. Cost rollup ──
+            anthropic_cost = _anthropic_cost_since(cache_before)
+            tts_cost = ss.tts_meta.get("cost_usd", 0.0) \
+                       if ss.tts_meta and ss.tts_meta.get("ok") else 0.0
+            turn_cost = anthropic_cost + stt_cost + tts_cost
+            ss.last_turn_cost = turn_cost
+            ss.session_cost += turn_cost
+            ss.turn_count += 1
+            if isinstance(ss.tts_meta, dict):
+                ss.tts_meta["breakdown"] = {
+                    "anthropic_usd": round(anthropic_cost, 5),
+                    "stt_usd": round(stt_cost, 5),
+                    "tts_usd": round(tts_cost, 5),
+                    "turn_usd": round(turn_cost, 5),
+                }
+
+            _render_cards(ss)  # final: all cards visible inside the live block
+
+            status.update(
+                label=f"✓ Response ready — turn ${turn_cost:.4f} · "
+                      f"session ${ss.session_cost:.4f}",
+                state="complete",
+                expanded=False,
+            )
 
         ss.kiosk_state = "READY"
         ss.autoplay_pending = True
@@ -1138,17 +1072,19 @@ def main() -> None:
                 ss._pending_audio = audio_bytes
                 st.rerun()
 
-    # PROCESSING — run the pipeline once, then transition to READY.
+    # PROCESSING — run the pipeline. _run_pipeline() now opens its
+    # own st.status() block (the "live drop-down") and writes each
+    # step's card into it the moment that step completes. The visitor
+    # watches each ✓ land in real time; no spinner needed.
     if ss.kiosk_state == "PROCESSING":
         pending = ss.pop("_pending_audio", None) if "_pending_audio" in ss else None
         if pending is None:
-            # Defensive: nothing to process; bounce back to IDLE.
             ss.kiosk_state = "IDLE"
             st.rerun()
-        with st.spinner("✨ The Chief Justice is composing his answer…"):
-            _run_pipeline(pending)
+        st.markdown("<div class='progress-shell'>", unsafe_allow_html=True)
+        _run_pipeline(pending)
+        st.markdown("</div>", unsafe_allow_html=True)
         if ss.error:
-            # On hard error, surface it and reset.
             st.error(ss.error)
             ss.kiosk_state = "IDLE"
         st.rerun()
@@ -1172,10 +1108,16 @@ def main() -> None:
     if play_clicked and ss.audio_bytes:
         _autoplay_audio(ss.audio_bytes)
 
-    # Pure-CSS slide-in drawer — closed by default; the floating
-    # magnifying-glass icon on the right edge is the only thing
-    # visible until the visitor (or curator) clicks it.
-    _render_drawer()
+    # Inline pipeline-details dropdown. During PROCESSING the
+    # st.status() inside _run_pipeline() is the live drop-down.
+    # During READY (and onwards), a regular st.expander() carries
+    # the cached cards so visitors can re-inspect the last turn on
+    # their own terms.
+    if ss.kiosk_state == "READY" and ss.transcript:
+        st.markdown("<div class='progress-shell'>", unsafe_allow_html=True)
+        with st.expander("🔍 Pipeline details — open to see the steps", expanded=False):
+            _render_cards(ss)
+        st.markdown("</div>", unsafe_allow_html=True)
 
 
 if __name__ == "__main__":
