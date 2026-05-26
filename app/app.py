@@ -347,8 +347,13 @@ def _inject_css() -> None:
     }
     .museum-blurb {
         font-family: 'Inter', sans-serif;
-        font-size: 0.95rem; color: #b5bbcb;
-        margin: 0.6rem 0 0; max-width: 540px; line-height: 1.5;
+        font-size: 0.78rem; color: #b5bbcb;
+        margin: 0.6rem auto 0;
+        line-height: 1.4;
+        letter-spacing: 0.2px;
+        white-space: nowrap;       /* keep on a single line */
+        overflow: hidden;          /* never wrap onto a 2nd line on narrow viewports */
+        text-overflow: ellipsis;
     }
 
     /* ── Status pill, top-right of glass panel ───────────────────── */
