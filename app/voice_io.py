@@ -39,8 +39,50 @@ import asyncio
 import io
 import os
 import re
+import shutil
+import warnings
 from pathlib import Path
 from typing import Optional
+
+# ============================================================
+# ffmpeg discovery — required by pydub for MP3 decoding/encoding
+# ============================================================
+# Order of preference for the ffmpeg binary:
+#   1. system PATH (operator installed it system-wide)
+#   2. imageio-ffmpeg's bundled binary (pip install imageio-ffmpeg)
+# If neither is available, _concatenate_mp3_chunks() falls back to
+# raw byte concatenation (works for OpenAI's constant-bitrate MP3 in
+# practice, with occasional minor seam artefacts).
+_FFMPEG_PATH: str | None = (
+    shutil.which("ffmpeg")
+    or shutil.which("avconv")
+)
+if not _FFMPEG_PATH:
+    try:
+        import imageio_ffmpeg  # type: ignore[import-not-found]
+        _FFMPEG_PATH = imageio_ffmpeg.get_ffmpeg_exe()
+    except Exception:
+        _FFMPEG_PATH = None
+
+# Silence pydub's startup "Couldn't find ffmpeg" warning AND, when
+# imageio-ffmpeg supplied a binary, point pydub at it explicitly.
+with warnings.catch_warnings():
+    warnings.simplefilter("ignore", RuntimeWarning)
+    try:
+        import pydub  # type: ignore[import-not-found]
+        if _FFMPEG_PATH:
+            pydub.AudioSegment.converter = _FFMPEG_PATH
+            pydub.AudioSegment.ffmpeg = _FFMPEG_PATH
+            # Some pydub builds also probe ffprobe; if it lives next to
+            # ffmpeg, point at it too (best-effort).
+            _ffprobe_guess = Path(_FFMPEG_PATH).with_name("ffprobe")
+            if _ffprobe_guess.with_suffix(".exe").exists():
+                pydub.AudioSegment.ffprobe = str(_ffprobe_guess.with_suffix(".exe"))
+            elif _ffprobe_guess.exists():
+                pydub.AudioSegment.ffprobe = str(_ffprobe_guess)
+        _PYDUB_AVAILABLE = True
+    except ImportError:
+        _PYDUB_AVAILABLE = False
 
 
 # ============================================================
@@ -289,15 +331,27 @@ async def tts_chunks_parallel_async(
 def _concatenate_mp3_chunks(chunks: list[bytes]) -> bytes:
     """Concatenate per-sentence MP3 blobs into one playable MP3.
 
-    Prefers pydub (re-encodes cleanly, no frame-boundary artefacts).
-    Falls back to raw byte concatenation, which works for OpenAI's
-    constant-bitrate MP3 output in practice but may produce a tiny
-    audible click at chunk seams on some players.
+    Three-tier fallback:
+      1. pydub + ffmpeg present  → clean re-encoded concatenation
+         (no frame-boundary artefacts).
+      2. pydub installed, ffmpeg missing  → skip pydub entirely and
+         fall back to raw byte concatenation. We catch every
+         exception in case pydub's import succeeded but a runtime
+         decode still fails on systems where the ffmpeg binary is
+         malformed or unreadable.
+      3. pydub not installed     → raw byte concatenation.
+
+    OpenAI's `tts-1` returns constant-bitrate MP3, which concatenates
+    reasonably well at the byte level. Strict players may produce a
+    soft click at chunk seams; the audio player in browsers (Streamlit
+    uses HTML5 <audio>) handles this gracefully.
     """
     if not chunks:
         return b""
     if len(chunks) == 1:
         return chunks[0]
+    if not (_PYDUB_AVAILABLE and _FFMPEG_PATH):
+        return b"".join(chunks)
     try:
         from pydub import AudioSegment  # type: ignore[import-not-found]
         segments = [
@@ -309,7 +363,10 @@ def _concatenate_mp3_chunks(chunks: list[bytes]) -> bytes:
         out = io.BytesIO()
         combined.export(out, format="mp3")
         return out.getvalue()
-    except ImportError:
+    except Exception:
+        # Decoder errors, ffmpeg subprocess failures, file-handle issues —
+        # never let a TTS-concat error block the response from reaching
+        # the user. Fall back to raw concat.
         return b"".join(chunks)
 
 
@@ -370,6 +427,8 @@ def voice_io_summary() -> dict[str, object]:
         "tts_model": TTS_MODEL_DEFAULT,
         "tts_voice": TTS_VOICE_DEFAULT,
         "tts_speed": TTS_SPEED_DEFAULT,
+        "pydub_available": _PYDUB_AVAILABLE,
+        "ffmpeg_path": _FFMPEG_PATH or "(missing — using raw byte concat)",
     }
 
 

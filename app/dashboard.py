@@ -365,6 +365,7 @@ with st.sidebar:
     st.caption(f"TTS model/voice: `{_voice_summary['tts_model']}` / "
                f"`{_voice_summary['tts_voice']}` @ "
                f"{_voice_summary['tts_speed']}×")
+    st.caption(f"ffmpeg:          `{_voice_summary['ffmpeg_path']}`")
     st.caption(f"Topics loaded:   {len(get_artifacts().topics)}")
     if not _voice_summary["openai_key_present"]:
         st.warning(
@@ -564,6 +565,23 @@ def _reachy_svg(state: str) -> str:
     """
 
 
+def _flatten_html(s: str) -> str:
+    """Collapse a multi-line HTML/SVG string into a single line.
+
+    Streamlit's Markdown processor treats any line that begins with 4+
+    spaces as a code block, which causes `unsafe_allow_html=True` HTML
+    to be rendered as escaped preformatted text. Flattening to one
+    line keeps the document a single HTML block that Markdown won't
+    re-interpret.
+
+    We replace newlines with a SINGLE SPACE rather than concatenate
+    with no separator, because SVG attributes split across source
+    lines (e.g. `viewBox='0 0 200 220'\n  xmlns='http://...'`) would
+    otherwise run together and break the parser.
+    """
+    return " ".join(line.strip() for line in s.splitlines() if line.strip())
+
+
 def render_reachy_header(state: str = "idle") -> None:
     state_label = {
         "idle":      "🟢 Idle — waiting for your question",
@@ -571,9 +589,10 @@ def render_reachy_header(state: str = "idle") -> None:
         "talking":   "🔵 Speaking — synthesising the response",
     }.get(state, state)
 
+    svg_html = _flatten_html(_reachy_svg(state))
     panel = (
         f"<div class='reachy-panel {state}'>"
-        f"{_reachy_svg(state)}"
+        f"{svg_html}"
         "<div class='reachy-title'>"
         "<h1>⚖️ With Due Respect</h1>"
         "<p>Reachy Mini × retired Chief Justice Artemio V. Panganiban</p>"
@@ -581,10 +600,63 @@ def render_reachy_header(state: str = "idle") -> None:
         "</div>"
         "</div>"
     )
+
+    # st.markdown(unsafe_allow_html=True) is the preferred path — keeps
+    # the avatar inside the page so parent CSS (panel border, glass
+    # blur, state-coloured chip) styles it. If Streamlit's HTML
+    # sanitizer ever drops SMIL or strips the SVG, the components.html
+    # fallback below renders the same SVG inside an iframe, which is
+    # immune to Markdown re-parsing and SVG sanitization.
     st.markdown(panel, unsafe_allow_html=True)
 
 
-render_reachy_header(st.session_state.robot_state)
+def render_reachy_header_iframe_fallback(state: str = "idle") -> None:
+    """Iframe-based renderer for environments where the markdown path
+    fails. Not called by default; the operator can switch to it by
+    setting REACHY_RENDER=iframe in the env.
+
+    Trade-offs vs the markdown path: the iframe is sandboxed, so the
+    parent `.reachy-panel` CSS doesn't reach inside. We inline the
+    minimal CSS needed for the avatar to look right standalone.
+    """
+    import streamlit.components.v1 as components
+    state_label = {
+        "idle":      "🟢 Idle",
+        "listening": "🟡 Listening",
+        "talking":   "🔵 Speaking",
+    }.get(state, state)
+    svg_html = _flatten_html(_reachy_svg(state))
+    document = _flatten_html(f"""
+        <!doctype html>
+        <html><head><meta charset='utf-8'>
+        <style>
+          html, body {{ margin: 0; padding: 0; background: transparent;
+                        color: #f6f1e1; font-family: -apple-system, Segoe UI, sans-serif; }}
+          .wrap {{ display: flex; align-items: center; gap: 1rem; padding: 0.6rem; }}
+          .wrap svg {{ width: 140px; height: 154px; flex-shrink: 0; }}
+          h1 {{ margin: 0; font-size: 1.7rem; }}
+          p {{ margin: 0.2rem 0; color: #9aa4b3; font-size: 0.9rem; }}
+          .state {{ display: inline-block; padding: 0.15rem 0.6rem;
+                    border-radius: 999px; font-size: 0.78rem;
+                    background: rgba(74,210,149,0.15); color: #4ad295; }}
+        </style></head><body>
+        <div class='wrap'>{svg_html}<div>
+          <h1>⚖️ With Due Respect</h1>
+          <p>Reachy Mini × retired Chief Justice Artemio V. Panganiban</p>
+          <span class='state'>{state_label}</span>
+        </div></div>
+        </body></html>
+    """)
+    components.html(document, height=180)
+
+
+# Render path is selectable via REACHY_RENDER env var:
+#   "markdown" (default) — fastest path, inherits parent CSS panel.
+#   "iframe"             — bulletproof fallback via st.components.html.
+if os.environ.get("REACHY_RENDER", "markdown").lower() == "iframe":
+    render_reachy_header_iframe_fallback(st.session_state.robot_state)
+else:
+    render_reachy_header(st.session_state.robot_state)
 
 
 # ----- Source-rendering helper --------------------------------------------
