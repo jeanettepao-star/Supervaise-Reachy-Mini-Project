@@ -48,11 +48,18 @@ The decision here is purely about the voice loop endpoints.
   ornaments (*Maraming salamat po*) more naturally than Piper's
   English-only Ryan voice.
 * **Persona match** — CJP is a male retired Chief Justice; the TTS
-  voice should be a deep, measured male. OpenAI's `onyx` voice fits
+  voice should be a calm, measured male. After A/B comparison the
+  user landed on OpenAI's `spruce` voice as the closest match to
   the testimonial / ceremonial-doctrinal register documented in the
-  voice card. (Default was `nova` in the first cut of this ADR; the
-  user corrected it to `onyx` before any commit shipped a female
-  voice for CJP.)
+  voice card. Iteration history (kept here so the change-rationale
+  is auditable):
+    - First draft of this ADR shipped with `nova` (female) — wrong
+      gender; corrected before any production commit.
+    - `onyx` (deep male) followed — landed but felt heavier than
+      CJP's actual delivery.
+    - `spruce` (calm, even-toned male, from the newer gpt-4o-mini-tts
+      voice set) — current default.
+  All three remain available via `OPENAI_TTS_VOICE` in `.env`.
 
 ## Considered Options
 
@@ -118,9 +125,11 @@ above.
 * Good: per-sentence parallel TTS makes wall-clock TTS time ≈
   slowest single sentence, not the sum. For a 5-sentence response,
   total TTS is ~1-2 s after the composer stream finishes.
-* Good: OpenAI's `onyx` voice handles Tagalog ornaments
+* Good: OpenAI's `spruce` voice handles Tagalog ornaments
   intelligibly without Piper's phonetic substitutions, and presents
-  the deep, calm authoritative register that fits CJP.
+  the calm, even-toned register that fits CJP. (Falls back to
+  `onyx` or any other voice via `OPENAI_TTS_VOICE` if the active
+  TTS model doesn't support spruce.)
 * Good: every voice call goes through `voice_io.py`. Switching
   providers (Eleven Labs, Cartesia, Azure) is a single-file change.
 * Bad: requires an **additional** API key (`OPENAI_API_KEY`) on top
@@ -191,11 +200,12 @@ Two settings in `app/voice_io.py` were tuned together so OpenAI's
 `onyx` voice approximates CJP's measured judicial cadence rather than
 defaulting to news-anchor pace:
 
-1. **Speed: `0.82` (≈82% of normal)**, set via `TTS_SPEED_DEFAULT`.
+1. **Speed: `0.80` (80% of normal)**, set via `TTS_SPEED_DEFAULT`.
    CJP speaks at a relaxed pace; OpenAI's recommended sweet spot is
    `0.80-0.85`. Below `0.80` the voice starts to drag; above `0.90`
    the deliberation is lost. Override via `OPENAI_TTS_SPEED` in
-   `.env`.
+   `.env`. (Earlier drafts of this ADR used `0.82`; the user tuned
+   it to the floor of the recommended range to match CJP's pace.)
 
 2. **Reflective ellipses**, injected by `add_reflective_pauses()`
    before sentence chunking. The function replaces a comma after each
