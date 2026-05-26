@@ -1,0 +1,2 @@
+cd C:\Users\ASUS\Projects\Supervaise-Reachy-Mini-Project\app
+.\.venv\Scripts\streamlit.exe run dashboard.py

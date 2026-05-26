@@ -24,3 +24,4 @@ from both directions.
 | 0015 | [0015-topic-paths-derivation-rules.md](0015-topic-paths-derivation-rules.md) | `topic_paths` derivation — word-boundary matching, ≥2-hit primary threshold, tier tie-break. |
 | 0016 | [0016-theme-anchored-register-selection.md](0016-theme-anchored-register-selection.md) | Theme-anchored register selection — five themes drive default register & wit calibration. |
 | 0017 | [0017-end-user-ui-also-streamlit.md](0017-end-user-ui-also-streamlit.md) | End-user web chat UI also uses Streamlit (single-stack with operator dashboard). |
+| 0018 | [0018-openai-stt-tts-with-claude-chat.md](0018-openai-stt-tts-with-claude-chat.md) | OpenAI for STT (Whisper, push-to-talk) and TTS (tts-1, per-sentence parallel); Anthropic stays for chat. Avoids OpenAI's expensive Realtime API. |

@@ -101,71 +101,35 @@ Or `Activate.ps1` once per shell and drop the explicit path.
 
 ---
 
-## 3. Move faster-whisper's model cache off C: (recommended)
+## 3. Voice loop is fully hosted — no local model downloads
 
-By default, faster-whisper downloads to your HuggingFace cache at
-`%USERPROFILE%\.cache\huggingface\hub\` — on C:. Set `HF_HOME` BEFORE
-the first mic recording to redirect:
+[ADR-0018](../decisions/0018-openai-stt-tts-with-claude-chat.md)
+replaced the local Whisper + Piper stack with **OpenAI Whisper**
+(STT) + **OpenAI TTS** (`tts-1` with the `nova` voice by default).
+Both calls happen through `app/voice_io.py`:
 
-```powershell
-$env:HF_HOME = "D:\hf-cache"
-```
+- **STT** is one Whisper call per recording — push-to-talk, no
+  always-on mic, no per-minute Realtime API.
+- **TTS** fires per-sentence in parallel (`asyncio.gather`) and
+  concatenates the MP3 chunks. Total wall-clock TTS time ≈ slowest
+  single sentence, not the sum.
 
-Persist by adding to `app\.env` if you want it permanent for this
-project:
+This costs ~$0.001 per STT call and ~$0.003-$0.005 per response in
+TTS — about $0.005 of voice-loop overhead per turn, 10-20× cheaper
+than the Realtime API.
 
-```
-HF_HOME=D:\hf-cache
-```
-
-`small` is a good first model (~470 MB) — much faster cold-start than
-`medium` (~1.5 GB), still good for English. Switch up only if you
-need better Filipino code-switch recognition:
-
-```
-WHISPER_MODEL=small
-```
-
-Both `HF_HOME` and `WHISPER_MODEL` are read by `app/cj_chat.py` and
-inherited by the dashboard.
+No model downloads. No `HF_HOME`. No Piper install. Just the
+`OPENAI_API_KEY` in your `.env`.
 
 ---
 
-## 4. Install Piper (for TTS audio output)
+## 4. (Removed in ADR-0018) — Piper / Whisper local install
 
-Piper is a local TTS binary — no API call. Download once:
-
-1. **Binary**: grab the latest Windows release from
-   [https://github.com/rhasspy/piper/releases](https://github.com/rhasspy/piper/releases).
-   Extract to a folder, e.g. `D:\piper\`.
-2. **Voice model**: grab `en_US-ryan-high.onnx` + `en_US-ryan-high.onnx.json`
-   from
-   [https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ryan/high](https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ryan/high).
-   Place them somewhere, e.g. `D:\piper\voices\`.
-3. **Point the app at them**:
-
-   ```powershell
-   $env:PIPER_BIN = "D:\piper\piper.exe"
-   $env:PIPER_VOICE = "D:\piper\voices\en_US-ryan-high.onnx"
-   ```
-
-   Or in `app\.env`:
-
-   ```
-   PIPER_BIN=D:\piper\piper.exe
-   PIPER_VOICE=D:\piper\voices\en_US-ryan-high.onnx
-   ```
-
-4. Verify:
-
-   ```powershell
-   & $env:PIPER_BIN --help
-   ```
-
-If Piper isn't installed yet, the dashboard still works — the TTS
-toggle in the sidebar will show an error after a response is composed
-and you'll fall back to reading the transcript only. The router +
-composer + Sources panel are independent of Piper.
+The old guide steps for `HF_HOME`, `WHISPER_MODEL=small`, and the
+Piper binary + voice download are no longer required for the online
+voice loop. They remain valid only for the offline kiosk fallback
+captured in
+[PLAN-0006](../implementation-plans/PLAN-0006-voice-tts-integration.md).
 
 ---
 
@@ -181,21 +145,26 @@ for a `.env` in **three locations** at import time and merges them
 
 `DOTENV_PATH=<absolute path>` overrides all three.
 
-Minimum required key:
+Minimum required keys (both):
 
 ```
 ANTHROPIC_API_KEY=sk-ant-...
+OPENAI_API_KEY=sk-...
 ```
+
+Anthropic powers chat (router + composer + fidelity); OpenAI powers
+STT + TTS per [ADR-0018](../decisions/0018-openai-stt-tts-with-claude-chat.md).
+A canonical template is at `.env.example` in the repo root.
 
 Optional overrides (defaults shown):
 
 ```
 ROUTER_MODEL=claude-haiku-4-5-20251001
 INFERENCE_MODEL=claude-sonnet-4-6
-WHISPER_MODEL=medium
-PIPER_BIN=piper
-PIPER_VOICE=./voices/en_US-ryan-high.onnx
-HF_HOME=D:\hf-cache
+OPENAI_STT_MODEL=whisper-1
+OPENAI_TTS_MODEL=tts-1
+OPENAI_TTS_VOICE=nova
+OPENAI_TTS_SPEED=0.95
 ```
 
 The dashboard's sidebar shows which `.env` files were loaded and

@@ -1,12 +1,21 @@
-# Core — needed for the text-only smoke test
-anthropic>=0.40.0
-python-dotenv>=1.0.0
+# --- Core ----------------------------------------------------------
+anthropic>=0.40.0        # Claude — router, composer, fidelity check
+openai>=1.40.0           # Whisper STT + tts-1 TTS
+python-dotenv>=1.0.0     # multi-location .env loading (cj_chat.py)
 
-# Audio I/O — needed for the full voice loop
-faster-whisper>=1.0.0
-sounddevice>=0.5.0
-scipy>=1.10.0
-numpy>=1.24.0
+# --- Audio ---------------------------------------------------------
+# OpenAI returns MP3 bytes; pydub concatenates per-sentence chunks
+# cleanly. ffmpeg must be on PATH for pydub's mp3 decoding/encoding.
+# Without pydub the fallback is raw byte concatenation, which works
+# in practice but can have minor seam artefacts on some players.
+pydub>=0.25.1
 
-# Dashboard (audience-facing UI) — optional, only needed for `streamlit run dashboard.py`
+# --- Dashboard (Streamlit) -----------------------------------------
 streamlit>=1.40.0
+
+# --- Optional ------------------------------------------------------
+# numpy + scipy were used by the prior local-Whisper path; kept here
+# because some downstream tools (smoke runner percentile stats) may
+# need them. Safe to drop if you're not exercising those code paths.
+numpy>=1.24.0
+scipy>=1.10.0

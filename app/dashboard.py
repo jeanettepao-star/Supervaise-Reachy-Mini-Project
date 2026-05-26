@@ -48,7 +48,6 @@ sys.path.insert(0, str(Path(__file__).parent))
 import cj_chat  # noqa: F401, E402
 from cj_chat import (  # noqa: E402
     CorpusArtifacts,
-    transcribe_audio,
     route_question,
     generate_response,
     generate_response_stream,
@@ -57,15 +56,19 @@ from cj_chat import (  # noqa: E402
     input_gate,
     force_meta_routing,
     _strip_stage_directions,
-    synthesize_speech,
-    _prepare_tts_text,
     make_client,
     cache_savings_summary,
     loaded_env_summary,
     CACHE_STATS,
-    TTS_SENTENCE_SILENCE,
-    WHISPER_MODEL_SIZE,
     ARTIFACTS_DIR,
+)
+from voice_io import (  # noqa: E402
+    transcribe_openai,
+    tts_concatenate_parallel,
+    voice_io_summary,
+    estimate_voice_cost,
+    sentence_chunks,
+    TTS_VOICE_DEFAULT,
 )
 from anthropic import Anthropic, APIStatusError, APIConnectionError  # noqa: E402
 
@@ -100,18 +103,132 @@ if not _env_summary["api_key_present"]:
 st.markdown(
     """
     <style>
-      .stApp { background: #0e1117; }
+      /* === Museum / exhibit-hall dark theme ============================ */
+      .stApp {
+        background:
+          radial-gradient(1200px 600px at 50% -200px,
+                          rgba(45, 78, 168, 0.18), transparent 60%),
+          radial-gradient(900px 500px at 50% 110%,
+                          rgba(74, 210, 149, 0.10), transparent 65%),
+          linear-gradient(180deg, #050811 0%, #0a0f1c 45%, #050811 100%);
+        color: #d5dae6;
+      }
       .stChatMessage { font-size: 1.05rem; line-height: 1.55; }
       .source-meta { color: #9aa4b3; font-size: 0.88rem; }
+
+      /* Topic pills */
       .topic-pill {
-        display: inline-block; padding: 0.15rem 0.55rem; margin: 0.1rem 0.3rem 0.1rem 0;
-        border-radius: 999px; font-size: 0.78rem; font-weight: 500;
+        display: inline-block; padding: 0.15rem 0.55rem;
+        margin: 0.1rem 0.3rem 0.1rem 0; border-radius: 999px;
+        font-size: 0.78rem; font-weight: 500;
       }
       .topic-primary   { background: #2d4ea8; color: #fff; }
       .topic-secondary { background: #2a3144; color: #c5cad6; }
       .conf-high   { color: #4ad295; font-weight: 600; }
       .conf-medium { color: #e6c149; font-weight: 600; }
       .conf-low    { color: #d97f5f; font-weight: 600; }
+
+      /* === Reachy Mini avatar — animated panel ========================= */
+      .reachy-panel {
+        display: flex; align-items: center; gap: 1.4rem;
+        padding: 1.1rem 1.3rem; margin: 0.2rem 0 0.6rem;
+        border: 1px solid rgba(154, 164, 179, 0.18);
+        border-radius: 18px;
+        background:
+          linear-gradient(135deg,
+                          rgba(20, 28, 48, 0.85) 0%,
+                          rgba(12, 18, 32, 0.85) 100%);
+        backdrop-filter: blur(8px);
+        box-shadow:
+          0 12px 32px -16px rgba(0, 0, 0, 0.7),
+          0 0 0 1px rgba(74, 210, 149, 0.08) inset;
+      }
+      .reachy-svg { width: 132px; height: 132px; flex-shrink: 0; }
+      .reachy-title h1 {
+        margin: 0; color: #f6f1e1; font-size: 2.0rem; font-weight: 600;
+        letter-spacing: 0.4px;
+      }
+      .reachy-title p {
+        margin: 0.3rem 0 0; color: #9aa4b3; font-size: 0.95rem;
+      }
+      .reachy-state {
+        display: inline-block; margin-top: 0.55rem;
+        padding: 0.18rem 0.7rem; border-radius: 999px;
+        font-size: 0.78rem; font-weight: 600; letter-spacing: 0.4px;
+        text-transform: uppercase;
+      }
+      .reachy-state.idle      { color: #4ad295; background: rgba(74,210,149,0.10);
+                                border: 1px solid rgba(74,210,149,0.3); }
+      .reachy-state.listening { color: #e6c149; background: rgba(230,193,73,0.10);
+                                border: 1px solid rgba(230,193,73,0.3); }
+      .reachy-state.talking   { color: #66b3ff; background: rgba(102,179,255,0.10);
+                                border: 1px solid rgba(102,179,255,0.3); }
+
+      /* Eye dots — colour and pulse vary by state. SMIL animations on
+         the SVG drive the breathing pulse; these CSS overrides keep the
+         palette tied to the active state class on the parent. */
+      .reachy-panel.listening .eye { fill: #e6c149 !important; }
+      .reachy-panel.talking .eye   { fill: #66b3ff !important; }
+      .reachy-panel.listening .mic-led { fill: #e6c149 !important; }
+      .reachy-panel.talking .mic-led   { fill: #66b3ff !important; }
+
+      /* Subtle floating motion on the whole avatar */
+      @keyframes reachy-breath {
+        0%, 100% { transform: translateY(0) rotate(0deg); }
+        50%      { transform: translateY(-3px) rotate(-0.4deg); }
+      }
+      .reachy-svg .head-group { animation: reachy-breath 4.2s ease-in-out infinite; }
+
+      /* Listening: pulsing ring behind the head */
+      @keyframes listening-pulse {
+        0%   { opacity: 0.0; transform: scale(0.85); }
+        50%  { opacity: 0.55; transform: scale(1.0); }
+        100% { opacity: 0.0; transform: scale(1.15); }
+      }
+      .reachy-panel.listening .listening-ring {
+        animation: listening-pulse 1.4s ease-out infinite;
+        transform-origin: center;
+      }
+
+      /* Talking: speaker grille animates as bars */
+      @keyframes speaker-pulse {
+        0%, 100% { transform: scaleY(1.0); }
+        50%      { transform: scaleY(1.6); }
+      }
+      .reachy-panel.talking .speaker-bar {
+        transform-origin: center;
+        animation: speaker-pulse 0.45s ease-in-out infinite;
+      }
+      .reachy-panel.talking .speaker-bar.b2 { animation-delay: 0.10s; }
+      .reachy-panel.talking .speaker-bar.b3 { animation-delay: 0.20s; }
+
+      /* Mic dome subtle pulse always-on */
+      @keyframes mic-blink {
+        0%, 100% { opacity: 1.0; }
+        50%      { opacity: 0.5; }
+      }
+      .reachy-panel .mic-led { animation: mic-blink 2.4s ease-in-out infinite; }
+
+      /* === Listening / talking status banner =========================== */
+      .status-banner {
+        display: flex; align-items: center; gap: 0.6rem;
+        padding: 0.55rem 0.9rem; margin: 0.4rem 0;
+        border-radius: 12px; font-size: 0.92rem;
+      }
+      .status-banner.listening { background: rgba(230,193,73,0.10);
+                                 border: 1px solid rgba(230,193,73,0.3);
+                                 color: #f0d77a; }
+      .status-banner.talking   { background: rgba(102,179,255,0.10);
+                                 border: 1px solid rgba(102,179,255,0.3);
+                                 color: #a0c4ff; }
+      @keyframes blink {
+        0%, 60%, 100% { opacity: 1; }
+        30%           { opacity: 0.35; }
+      }
+      .status-dot { width: 10px; height: 10px; border-radius: 50%;
+                    animation: blink 1.2s ease-in-out infinite; }
+      .status-banner.listening .status-dot { background: #e6c149; }
+      .status-banner.talking .status-dot   { background: #66b3ff; }
     </style>
     """,
     unsafe_allow_html=True,
@@ -122,12 +239,6 @@ st.markdown(
 @st.cache_resource(show_spinner="Loading corpus artifacts…")
 def get_artifacts() -> CorpusArtifacts:
     return CorpusArtifacts(ARTIFACTS_DIR)
-
-
-@st.cache_resource(show_spinner="Loading faster-whisper (first time downloads the model)…")
-def get_whisper():
-    from faster_whisper import WhisperModel
-    return WhisperModel(WHISPER_MODEL_SIZE, device="cpu", compute_type="int8")
 
 
 @st.cache_resource(show_spinner="Connecting to Claude…")
@@ -152,36 +263,53 @@ if "mic_counter" not in st.session_state:
     st.session_state.mic_counter = 0
 if "tts_enabled" not in st.session_state:
     st.session_state.tts_enabled = True
+if "robot_state" not in st.session_state:
+    # idle | listening | talking — drives the avatar's class for CSS animations
+    st.session_state.robot_state = "idle"
 
 
 # ----- Sidebar -------------------------------------------------------------
 with st.sidebar:
     st.markdown("### Settings")
     st.session_state.tts_enabled = st.checkbox(
-        "Generate Piper voice", value=st.session_state.tts_enabled,
-        help="When on, each response is also synthesized to audio. Adds ~5-10s/turn on CPU.",
+        "Voice response", value=st.session_state.tts_enabled,
+        help=(
+            "When on, the response is synthesized via OpenAI TTS in "
+            "parallel per-sentence chunks (~$0.003-$0.005 per turn) "
+            "and auto-plays once the text stream finishes."
+        ),
     )
     st.session_state.show_tts_debug = st.checkbox(
-        "Show TTS chunks (debug)", value=False,
-        help="Show the per-line text Piper saw, marked where each "
-             f"{TTS_SENTENCE_SILENCE}s pause is inserted.",
+        "Show TTS sentence chunks (debug)", value=False,
+        help="Show the per-sentence segments sent to OpenAI TTS in parallel.",
     )
     if st.button("🧹 Clear conversation"):
         st.session_state.messages = []
         st.session_state.last_audio_hash = None
         st.session_state.mic_counter += 1
+        st.session_state.robot_state = "idle"
         st.rerun()
     st.markdown("---")
+    _voice_summary = voice_io_summary()
     st.markdown(
-        "**Pipeline**: faster-whisper (STT) → "
-        "Claude Haiku 4.5 (router) → "
-        "Claude Sonnet 4.6 (inference) → "
-        "Piper (TTS)."
+        "**Pipeline**: OpenAI Whisper (STT, push-to-talk) → "
+        "Claude Haiku 4.5 (router + gate + fidelity) → "
+        "Claude Sonnet 4.6 (streaming composer) → "
+        "OpenAI TTS (per-sentence parallel)."
     )
     st.caption(f"Router model:    `{_env_summary['router_model']}`")
     st.caption(f"Inference model: `{_env_summary['inference_model']}`")
-    st.caption(f"Whisper model:   `{WHISPER_MODEL_SIZE}`")
+    st.caption(f"STT model:       `{_voice_summary['stt_model']}`")
+    st.caption(f"TTS model/voice: `{_voice_summary['tts_model']}` / "
+               f"`{_voice_summary['tts_voice']}` @ "
+               f"{_voice_summary['tts_speed']}×")
     st.caption(f"Topics loaded:   {len(get_artifacts().topics)}")
+    if not _voice_summary["openai_key_present"]:
+        st.warning(
+            "OPENAI_API_KEY not set — STT and TTS will both fail. "
+            "Add it to your `.env`.",
+            icon="⚠️",
+        )
     if _env_summary["dotenv_files_loaded"]:
         with st.expander("🔑 .env files loaded", expanded=False):
             for p in _env_summary["dotenv_files_loaded"]:
@@ -216,70 +344,90 @@ with st.sidebar:
         )
 
 
-# ----- Header — Reachy Mini avatar + title --------------------------------
-# A stylised SVG approximation of the Reachy Mini robot. The two
-# `<animate>` tags drive a subtle "breathing" pulse on the eyes; that
-# keeps the avatar visibly alive between turns without animating during
-# active rendering (Streamlit re-runs would restart any session-state-
-# driven animation each turn anyway). When TTS audio plays below, the
-# visible audio waveform serves as the "speaking" affordance.
-REACHY_HEADER_HTML = """
-<div style='display:flex; align-items:center; gap:1.2rem;
-            padding:0.6rem 0 0.8rem;'>
-  <svg width='96' height='96' viewBox='0 0 200 200'
-       xmlns='http://www.w3.org/2000/svg'
-       aria-label='Reachy Mini avatar'>
-    <!-- side cups / ear-microphones -->
-    <ellipse cx='42' cy='105' rx='14' ry='28'
-             fill='#3a4255' stroke='#9aa4b3' stroke-width='2'/>
-    <ellipse cx='158' cy='105' rx='14' ry='28'
-             fill='#3a4255' stroke='#9aa4b3' stroke-width='2'/>
-    <!-- body / head shell -->
-    <rect x='58' y='52' width='84' height='118' rx='20'
-          fill='#2a3144' stroke='#9aa4b3' stroke-width='2'/>
-    <!-- top cap -->
-    <ellipse cx='100' cy='52' rx='42' ry='14'
-             fill='#3a4255' stroke='#9aa4b3' stroke-width='2'/>
-    <!-- mic dome on top -->
-    <circle cx='100' cy='32' r='6' fill='#4ad295'>
-      <animate attributeName='opacity'
-               values='1;0.55;1' dur='2.4s' repeatCount='indefinite'/>
-    </circle>
-    <line x1='100' y1='38' x2='100' y2='52'
-          stroke='#9aa4b3' stroke-width='2'/>
-    <!-- screen / face -->
-    <rect x='70' y='72' width='60' height='52' rx='8'
-          fill='#0e1117' stroke='#2d4ea8' stroke-width='1'/>
-    <!-- eyes -->
-    <circle cx='85' cy='96' r='6' fill='#4ad295'>
-      <animate attributeName='r'
-               values='6;5.4;6' dur='3s' repeatCount='indefinite'/>
-    </circle>
-    <circle cx='115' cy='96' r='6' fill='#4ad295'>
-      <animate attributeName='r'
-               values='6;5.4;6' dur='3s' repeatCount='indefinite'/>
-    </circle>
-    <!-- speaker grille -->
-    <line x1='78' y1='144' x2='122' y2='144'
-          stroke='#9aa4b3' stroke-width='2'/>
-    <line x1='78' y1='150' x2='122' y2='150'
-          stroke='#9aa4b3' stroke-width='2'/>
-    <line x1='78' y1='156' x2='122' y2='156'
-          stroke='#9aa4b3' stroke-width='2'/>
-  </svg>
-  <div>
-    <h1 style='margin:0; color:#f6f1e1; font-size:1.9rem;'>
-      ⚖️ With Due Respect
-    </h1>
-    <p style='color:#9aa4b3; margin:0.25rem 0 0; font-size:0.97rem;'>
-      Reachy Mini × retired Chief Justice Artemio V. Panganiban
-    </p>
-  </div>
-</div>
-"""
-st.markdown(REACHY_HEADER_HTML, unsafe_allow_html=True)
-st.markdown("<div style='margin: 0.4rem 0 1rem; border-top:1px solid #232936;'></div>",
-            unsafe_allow_html=True)
+# ----- Header — animated Reachy Mini avatar with state ---------------------
+# The avatar's outer panel carries a state class ("idle" / "listening" /
+# "talking"). CSS in the page header above keys eye colour, mic LED
+# colour, and the listening pulse / talking speaker animation off that
+# class. The SVG itself uses SMIL `<animate>` for always-on subtleties
+# (eye breath, mic blink) so the avatar feels alive between turns.
+def render_reachy_header(state: str = "idle") -> None:
+    state_label = {
+        "idle":      "🟢 Idle — waiting for you",
+        "listening": "🟡 Listening — your microphone is recording",
+        "talking":   "🔵 Speaking — generating the response",
+    }.get(state, state)
+
+    svg = """
+    <svg class='reachy-svg' viewBox='0 0 200 200'
+         xmlns='http://www.w3.org/2000/svg'
+         aria-label='Reachy Mini avatar'>
+      <!-- listening pulse ring (only visible when .listening class is on) -->
+      <circle class='listening-ring' cx='100' cy='112' r='86'
+              fill='none' stroke='#e6c149' stroke-width='2'/>
+      <g class='head-group'>
+        <!-- side cups / ear-microphones -->
+        <ellipse cx='30' cy='115' rx='15' ry='32'
+                 fill='#262d40' stroke='#9aa4b3' stroke-width='2'/>
+        <ellipse cx='170' cy='115' rx='15' ry='32'
+                 fill='#262d40' stroke='#9aa4b3' stroke-width='2'/>
+        <circle cx='30' cy='115' r='8' fill='#0e1320'/>
+        <circle cx='170' cy='115' r='8' fill='#0e1320'/>
+        <!-- main body / head shell -->
+        <rect x='52' y='58' width='96' height='128' rx='22'
+              fill='url(#shellGrad)' stroke='#9aa4b3' stroke-width='2'/>
+        <!-- top cap / dome -->
+        <ellipse cx='100' cy='58' rx='50' ry='16'
+                 fill='#262d40' stroke='#9aa4b3' stroke-width='2'/>
+        <!-- mic LED on top -->
+        <circle class='mic-led' cx='100' cy='34' r='7' fill='#4ad295'/>
+        <line x1='100' y1='41' x2='100' y2='58'
+              stroke='#9aa4b3' stroke-width='2'/>
+        <!-- screen / face -->
+        <rect x='65' y='80' width='70' height='58' rx='10'
+              fill='#0a0f1c' stroke='#2d4ea8' stroke-width='1.5'/>
+        <!-- eyes (state class colours these) -->
+        <circle class='eye' cx='84' cy='106' r='7' fill='#4ad295'>
+          <animate attributeName='r'
+                   values='7;6.0;7' dur='3.2s' repeatCount='indefinite'/>
+        </circle>
+        <circle class='eye' cx='116' cy='106' r='7' fill='#4ad295'>
+          <animate attributeName='r'
+                   values='7;6.0;7' dur='3.2s' repeatCount='indefinite'/>
+        </circle>
+        <!-- smile / mouth -->
+        <path d='M 78 128 Q 100 134 122 128'
+              stroke='#2d4ea8' stroke-width='2.5' fill='none'
+              stroke-linecap='round'/>
+        <!-- speaker bars (animate when .talking class is on) -->
+        <rect class='speaker-bar b1' x='76'  y='158' width='10' height='8'
+              rx='2' fill='#9aa4b3'/>
+        <rect class='speaker-bar b2' x='95'  y='158' width='10' height='8'
+              rx='2' fill='#9aa4b3'/>
+        <rect class='speaker-bar b3' x='114' y='158' width='10' height='8'
+              rx='2' fill='#9aa4b3'/>
+      </g>
+      <defs>
+        <linearGradient id='shellGrad' x1='0' y1='0' x2='0' y2='1'>
+          <stop offset='0%'   stop-color='#36405a'/>
+          <stop offset='100%' stop-color='#1c2334'/>
+        </linearGradient>
+      </defs>
+    </svg>
+    """
+    panel = (
+        f"<div class='reachy-panel {state}'>"
+        f"{svg}"
+        "<div class='reachy-title'>"
+        "<h1>⚖️ With Due Respect</h1>"
+        "<p>Reachy Mini × retired Chief Justice Artemio V. Panganiban</p>"
+        f"<span class='reachy-state {state}'>{state_label}</span>"
+        "</div>"
+        "</div>"
+    )
+    st.markdown(panel, unsafe_allow_html=True)
+
+
+render_reachy_header(st.session_state.robot_state)
 
 
 # ----- Source-rendering helper --------------------------------------------
@@ -340,15 +488,27 @@ for msg in st.session_state.messages:
             render_sources(msg["routing"], artifacts)
 
 
-# ----- Input row: mic + text fallback -------------------------------------
+# ----- Input row — push-to-talk + text fallback ---------------------------
+# Push-to-talk only: the mic is opened ONLY while the user is recording,
+# and OpenAI Whisper is called exactly ONCE after they press Stop. There
+# is no always-on streaming and no continuous transcription. This is the
+# central cost-control decision documented in ADR-0018.
+st.markdown(
+    "<p style='color:#9aa4b3; margin: 0.8rem 0 0.3rem; font-size: 0.95rem;'>"
+    "🎤 <b>Start Talking</b> — press the record button below, ask your "
+    "question, then press the <b>stop</b> button on the recorder. "
+    "Transcription only fires after you stop."
+    "</p>",
+    unsafe_allow_html=True,
+)
 mic_col, _ = st.columns([1, 1])
 with mic_col:
     audio_in = st.audio_input(
-        "🎤 Press to record your question",
+        "Press ⏺ to start talking · press ⏹ to stop",
         key=f"mic_{st.session_state.mic_counter}",
     )
 
-text_in = st.chat_input("…or type it (fallback)")
+text_in = st.chat_input("…or type your question (fallback)")
 
 
 # ----- Resolve the new input to a question string -------------------------
@@ -359,19 +519,32 @@ if audio_in is not None:
     audio_hash = hashlib.md5(audio_bytes).hexdigest()
     if audio_hash != st.session_state.last_audio_hash:
         st.session_state.last_audio_hash = audio_hash
-        with st.status("Transcribing your question…", expanded=False):
+        # Robot enters "listening" state visually while STT runs.
+        # OpenAI Whisper is a SINGLE call per recording — no streaming,
+        # no continuous mic. ~$0.001 per 10-15s utterance.
+        st.session_state.robot_state = "listening"
+        with st.status("🎧 Transcribing via OpenAI Whisper…", expanded=False) as status:
             with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp:
                 tmp.write(audio_bytes)
                 wav_path = tmp.name
             try:
-                question = transcribe_audio(wav_path, get_whisper())
+                question = transcribe_openai(wav_path)
+                status.update(label="🎧 Transcribed", state="complete")
+            except RuntimeError as e:
+                status.update(label=str(e)[:80], state="error")
+                question = None
+            except Exception as e:
+                status.update(label=f"STT failed: {type(e).__name__}: {e}",
+                              state="error")
+                question = None
             finally:
                 try:
                     os.unlink(wav_path)
                 except OSError:
                     pass
         if not question or not question.strip():
-            st.warning("No speech detected — please try again.")
+            if question is not None:  # only warn if STT itself succeeded but empty
+                st.warning("No speech detected — please try again.")
             question = None
         else:
             # bump mic key so the widget resets for the next question
@@ -505,36 +678,57 @@ if question:
         # Note: response already rendered via st.write_stream() above —
         # no extra st.markdown(response) needed.
 
-        # 3. TTS (optional, never blocks the turn — TTS errors are local)
+        # 3. TTS (optional, never blocks the turn — TTS errors are local).
+        # Robot enters "talking" state during synthesis + playback.
         audio_path = None
+        audio_bytes_mp3: bytes | None = None
         if st.session_state.tts_enabled:
-            with st.status("🔊 Synthesizing voice…", expanded=False) as status:
-                audio_path = str(get_tts_dir() / f"resp_{int(time.time()*1000)}.wav")
+            st.session_state.robot_state = "talking"
+            with st.status(
+                "🔊 Generating voice via OpenAI TTS (parallel per sentence)…",
+                expanded=False,
+            ) as status:
                 try:
-                    synthesize_speech(response, audio_path)
-                    status.update(label="🔊 Voice ready", state="complete")
+                    audio_bytes_mp3 = tts_concatenate_parallel(response)
+                    cost = estimate_voice_cost(response)
+                    n_chunks = len(sentence_chunks(response))
+                    status.update(
+                        label=(f"🔊 Voice ready — {n_chunks} sentence chunk(s), "
+                               f"~${cost['tts_usd']:.4f}"),
+                        state="complete",
+                    )
+                except RuntimeError as e:
+                    status.update(label=str(e)[:120], state="error")
                 except Exception as e:
-                    status.update(label=f"TTS failed: {e}", state="error")
+                    status.update(label=f"TTS failed: {type(e).__name__}: {e}",
+                                  state="error")
+            if audio_bytes_mp3:
+                # Persist for the history rerender.
+                audio_path = str(get_tts_dir() / f"resp_{int(time.time()*1000)}.mp3")
+                try:
+                    Path(audio_path).write_bytes(audio_bytes_mp3)
+                except OSError:
                     audio_path = None
-            if audio_path and Path(audio_path).exists():
-                st.audio(audio_path, autoplay=True)
+                st.audio(audio_bytes_mp3, format="audio/mp3", autoplay=True)
+
+        # Settle the robot back to idle after the turn renders.
+        st.session_state.robot_state = "idle"
 
         # 4. Sources
         render_sources(routing, artifacts)
 
-        # 5. TTS debug — show the chunks Piper actually saw (collapsed by default)
+        # 5. TTS debug — show the sentence chunks sent to OpenAI in parallel
         if st.session_state.get("show_tts_debug"):
-            with st.expander(f"🔊 TTS chunks ({TTS_SENTENCE_SILENCE}s pause between)"):
-                chunks = _prepare_tts_text(response)
+            with st.expander("🔊 TTS sentence chunks (sent to OpenAI in parallel)"):
+                chunks = sentence_chunks(response)
                 for i, c in enumerate(chunks, 1):
-                    marker = " ⏸" if i > 1 else ""
-                    st.markdown(f"`[{i}]` {c}{marker}")
+                    st.markdown(f"`[{i}]` ({len(c)} chars) — {c}")
                 st.caption(
-                    f"Each `⏸` = {TTS_SENTENCE_SILENCE}s sentence-end pause. "
-                    "Em-dashes (—) and other long dashes were substituted with "
-                    "commas in the TTS path — those become Piper's native "
-                    "comma pauses (~150-300ms), which you'll hear *inside* each "
-                    "line above wherever the original text had an em-dash."
+                    f"Each chunk was sent to OpenAI TTS (`{TTS_VOICE_DEFAULT}`) "
+                    "in parallel via `asyncio.gather`. Total wall-clock time ≈ "
+                    "slowest single sentence, not the sum. The MP3 blobs were "
+                    "concatenated (pydub if installed) into the single audio "
+                    "player above."
                 )
 
     # 5. Persist the assistant turn so it survives the next rerun
