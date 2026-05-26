@@ -6,6 +6,7 @@ redundant where redundancy serves clarity for that persona.
 
 | File | Persona | One-line purpose |
 |---|---|---|
+| [GUIDE-firstrun.md](GUIDE-firstrun.md) | First-time developer / operator | Install + configure + smoke-test workflow. Covers the two big pitfalls (wrong file via Streamlit; Whisper download blocking startup), CJ_TEXT_ONLY mode, non-C-drive venv setup, troubleshooting matrix. |
 | [GUIDE-end-user.md](GUIDE-end-user.md) | End user (visitor, reader, FLP stakeholder) | What to expect when chatting with the app — what it can answer, what it won't, how it is honest about being an AI. |
 | [GUIDE-reviewer.md](GUIDE-reviewer.md) | Reviewer / curator quality-checker | Spot-check checklist for corpus fidelity, topic routing, and voice adherence. |
 | [GUIDE-admin.md](GUIDE-admin.md) | Pipeline admin / operator | How to add documents, edit the taxonomy, run the scripts, read the reports. |

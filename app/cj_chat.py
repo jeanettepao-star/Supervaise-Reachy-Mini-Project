@@ -701,6 +701,61 @@ def generate_response(
     return _strip_stage_directions(resp.content[0].text.strip())
 
 
+def generate_response_stream(
+    client: Anthropic,
+    question: str,
+    routing: dict,
+    artifacts: CorpusArtifacts,
+    conversation_history: list = None,
+):
+    """Yield Sonnet's response in chunks for live UI rendering.
+
+    Same context + grounding strategy as `generate_response()` — only
+    the transport is streamed instead of batch. Used by the Streamlit
+    dashboard with `st.write_stream(generate_response_stream(...))`.
+
+    Stage directions are NOT stripped mid-stream (they'd require
+    look-behind). The caller should apply `_strip_stage_directions()`
+    to the final accumulated string before TTS / fidelity check.
+    """
+    context = build_context(routing, artifacts)
+    confidence_note = {
+        "high":   "The routed topics map directly to the user's question. Answer in voice, citing topic data and source documents where it strengthens the response.",
+        "medium": "The routed topics are adjacent to the user's question. Reason from the available material; mark out-of-corpus extensions softly.",
+        "low":    "The user's question is largely out-of-corpus. Use the out-of-corpus reasoning policy from the voice card — reason from nearest principles, mark the move softly, do not invent facts.",
+    }.get(routing.get("confidence", "low"), "")
+
+    user_content = (
+        f"{context}\n\n"
+        f"<grounding_note>\n{confidence_note}\n</grounding_note>\n\n"
+        f"<user_question>\n{question}\n</user_question>"
+    )
+    messages = []
+    if conversation_history:
+        messages.extend(conversation_history)
+    messages.append({"role": "user", "content": user_content})
+
+    with client.messages.stream(
+        model=INFERENCE_MODEL,
+        max_tokens=600,
+        system=[{
+            "type": "text",
+            "text": artifacts.voice_card,
+            "cache_control": {"type": "ephemeral"},
+        }],
+        messages=messages,
+    ) as stream:
+        for text in stream.text_stream:
+            yield text
+        # Log cache usage once the stream ends (usage is finalised
+        # only on the closing event).
+        try:
+            final = stream.get_final_message()
+            _log_cache_usage("inference", final.usage)
+        except Exception:
+            pass
+
+
 # ============================================================
 # Step 4.5: Fidelity check — Haiku post-composition guardrail
 # (PLAN-0001 §E)
@@ -1148,6 +1203,22 @@ def run_turn(
 
 
 def main():
+    # Guard: if someone runs `streamlit run cj_chat.py` by mistake, point
+    # them at the dashboard instead. Otherwise Streamlit would execute
+    # main() → load Whisper (~1.5 GB) → call input() which hangs the
+    # Streamlit process indefinitely. See GUIDE-firstrun.md.
+    if "STREAMLIT_SERVER_PORT" in os.environ or "STREAMLIT_SERVER_HEADLESS" in os.environ:
+        msg = (
+            "cj_chat.py is the CLI entrypoint, not a Streamlit app.\n"
+            "Run the dashboard instead:\n"
+            "    streamlit run app/dashboard.py            (from repo root)\n"
+            "    streamlit run dashboard.py                (from app/)\n"
+            "For a text-only smoke test (no Whisper download):\n"
+            "    set CJ_TEXT_ONLY=1 && streamlit run app/dashboard.py"
+        )
+        print(msg, file=sys.stderr)
+        raise SystemExit(2)
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--text", type=str, help="Text-only mode: ask one question and exit")
     parser.add_argument(

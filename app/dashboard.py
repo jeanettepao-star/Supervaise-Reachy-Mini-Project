@@ -1,14 +1,35 @@
 """Interactive chat dashboard for the CJ Panganiban conversation app.
 
-This is the primary UI: a Streamlit chat app with a mic input (record in the
-browser), a text-input fallback, inline playback of CJ's spoken response, and
-a Sources expander showing which canonical topics the router matched.
+This is the primary UI: a Streamlit chat app with both inputs (mic +
+text) and both outputs (visible transcript + Piper-generated audio),
+plus a Sources expander showing which canonical topics the router
+matched.
 
-Drives the same pipeline as the CLI (`cj_chat.py`):
+Pipeline:
     faster-whisper (STT) → Claude Haiku (router) → Claude Sonnet (inference) → Piper (TTS)
 
-Run:
+faster-whisper is loaded lazily — only on the first mic recording, never
+on dashboard startup. So opening the page is fast even before the model
+is cached locally. Piper is loaded only when the TTS toggle is on AND
+the binary is present on PATH (or via PIPER_BIN env var).
+
+Run (from the repo root):
+    app/.venv/Scripts/streamlit run app/dashboard.py
+
+Or from the app/ directory:
     .venv/Scripts/streamlit run dashboard.py
+
+Environment overrides (all optional):
+    ANTHROPIC_API_KEY — required for router + composer calls.
+    WHISPER_MODEL    — model size for faster-whisper (default "medium";
+                       "small" is ~470 MB / ~5× faster on cold start,
+                       still good for English. Use "medium" for
+                       Filipino-mixed audio.)
+    HF_HOME          — moves the HuggingFace download cache (where the
+                       Whisper model lives) off C: drive.
+                       Example: D:\\hf-cache.
+    PIPER_BIN        — path to piper.exe if not on PATH.
+    PIPER_VOICE      — path to the .onnx voice model.
 """
 from __future__ import annotations
 
@@ -30,6 +51,12 @@ from cj_chat import (  # noqa: E402
     transcribe_audio,
     route_question,
     generate_response,
+    generate_response_stream,
+    build_context,
+    fidelity_check,
+    input_gate,
+    force_meta_routing,
+    _strip_stage_directions,
     synthesize_speech,
     _prepare_tts_text,
     make_client,
@@ -163,15 +190,69 @@ with st.sidebar:
         )
 
 
-# ----- Header --------------------------------------------------------------
-st.markdown(
-    "<h1 style='margin-bottom:0; color:#f6f1e1;'>⚖️ With Due Respect</h1>"
-    "<p style='color:#9aa4b3; margin-top:0.2rem;'>"
-    "A conversation with retired Chief Justice Artemio V. Panganiban"
-    "</p>",
-    unsafe_allow_html=True,
-)
-st.markdown("<div style='margin: 0.6rem 0 1rem; border-top:1px solid #232936;'></div>",
+# ----- Header — Reachy Mini avatar + title --------------------------------
+# A stylised SVG approximation of the Reachy Mini robot. The two
+# `<animate>` tags drive a subtle "breathing" pulse on the eyes; that
+# keeps the avatar visibly alive between turns without animating during
+# active rendering (Streamlit re-runs would restart any session-state-
+# driven animation each turn anyway). When TTS audio plays below, the
+# visible audio waveform serves as the "speaking" affordance.
+REACHY_HEADER_HTML = """
+<div style='display:flex; align-items:center; gap:1.2rem;
+            padding:0.6rem 0 0.8rem;'>
+  <svg width='96' height='96' viewBox='0 0 200 200'
+       xmlns='http://www.w3.org/2000/svg'
+       aria-label='Reachy Mini avatar'>
+    <!-- side cups / ear-microphones -->
+    <ellipse cx='42' cy='105' rx='14' ry='28'
+             fill='#3a4255' stroke='#9aa4b3' stroke-width='2'/>
+    <ellipse cx='158' cy='105' rx='14' ry='28'
+             fill='#3a4255' stroke='#9aa4b3' stroke-width='2'/>
+    <!-- body / head shell -->
+    <rect x='58' y='52' width='84' height='118' rx='20'
+          fill='#2a3144' stroke='#9aa4b3' stroke-width='2'/>
+    <!-- top cap -->
+    <ellipse cx='100' cy='52' rx='42' ry='14'
+             fill='#3a4255' stroke='#9aa4b3' stroke-width='2'/>
+    <!-- mic dome on top -->
+    <circle cx='100' cy='32' r='6' fill='#4ad295'>
+      <animate attributeName='opacity'
+               values='1;0.55;1' dur='2.4s' repeatCount='indefinite'/>
+    </circle>
+    <line x1='100' y1='38' x2='100' y2='52'
+          stroke='#9aa4b3' stroke-width='2'/>
+    <!-- screen / face -->
+    <rect x='70' y='72' width='60' height='52' rx='8'
+          fill='#0e1117' stroke='#2d4ea8' stroke-width='1'/>
+    <!-- eyes -->
+    <circle cx='85' cy='96' r='6' fill='#4ad295'>
+      <animate attributeName='r'
+               values='6;5.4;6' dur='3s' repeatCount='indefinite'/>
+    </circle>
+    <circle cx='115' cy='96' r='6' fill='#4ad295'>
+      <animate attributeName='r'
+               values='6;5.4;6' dur='3s' repeatCount='indefinite'/>
+    </circle>
+    <!-- speaker grille -->
+    <line x1='78' y1='144' x2='122' y2='144'
+          stroke='#9aa4b3' stroke-width='2'/>
+    <line x1='78' y1='150' x2='122' y2='150'
+          stroke='#9aa4b3' stroke-width='2'/>
+    <line x1='78' y1='156' x2='122' y2='156'
+          stroke='#9aa4b3' stroke-width='2'/>
+  </svg>
+  <div>
+    <h1 style='margin:0; color:#f6f1e1; font-size:1.9rem;'>
+      ⚖️ With Due Respect
+    </h1>
+    <p style='color:#9aa4b3; margin:0.25rem 0 0; font-size:0.97rem;'>
+      Reachy Mini × retired Chief Justice Artemio V. Panganiban
+    </p>
+  </div>
+</div>
+"""
+st.markdown(REACHY_HEADER_HTML, unsafe_allow_html=True)
+st.markdown("<div style='margin: 0.4rem 0 1rem; border-top:1px solid #232936;'></div>",
             unsafe_allow_html=True)
 
 
@@ -298,21 +379,65 @@ if question:
         # the user's question stays in history.
         routing = None
         response = None
+        fidelity = None
         api_error: str | None = None
         try:
-            with st.status("🧭 Picking relevant corpus topics…", expanded=False) as status:
-                routing = route_question(client, question, artifacts)
+            # 2a. Input Gate — catches identity probes before they hit
+            # the topic router (PLAN-0001 §D).
+            with st.status("🚪 Checking question scope…", expanded=False) as status:
+                gate = input_gate(client, question)
                 status.update(
-                    label=(f"🧭 Routed to {routing['primary_topic']} "
-                           f"({routing['confidence']})"),
+                    label=f"🚪 Scope: {gate['scope']}",
                     state="complete",
                 )
 
-            with st.status("💭 CJ is composing his answer…", expanded=False) as status:
-                response = generate_response(
+            # 2b. Topic routing (or META override if the gate fired)
+            with st.status("🧭 Picking relevant corpus topics…", expanded=False) as status:
+                if gate["scope"] == "identity_probe":
+                    routing = force_meta_routing(gate["reasoning"])
+                    status.update(
+                        label="🧭 Identity probe → META path",
+                        state="complete",
+                    )
+                else:
+                    routing = route_question(client, question, artifacts)
+                    status.update(
+                        label=(f"🧭 Routed to {routing['primary_topic']} "
+                               f"({routing['confidence']})"),
+                        state="complete",
+                    )
+
+            # 2c. Build context once so both the streamer and the
+            # fidelity check see the same prompt material.
+            context = build_context(routing, artifacts)
+
+            # 2d. Stream Sonnet's response token-by-token. The UI
+            # renders text as it arrives — no waiting for the full
+            # composition before the user sees anything.
+            st.markdown("**💭 CJ:**")
+            response_raw = st.write_stream(
+                generate_response_stream(
                     client, question, routing, artifacts, inference_history
                 )
-                status.update(label="💭 Response ready", state="complete")
+            )
+            response = _strip_stage_directions(response_raw)
+
+            # 2e. Fidelity check (advisory). The response is already
+            # visible to the user; flags surface as a non-blocking
+            # warning rather than a retry. This trades guardrail
+            # strictness for streaming UX — matches dashboard
+            # ergonomics; the headless CLI keeps the strict retry path.
+            fidelity = fidelity_check(client, context, response)
+            flags = [
+                k for k in ("hallucination", "voice_drift", "guardrail_violation")
+                if fidelity.get(k)
+            ]
+            if flags:
+                st.warning(
+                    f"⚠ Fidelity flagged: {', '.join(flags)} — "
+                    f"{fidelity.get('reasoning', '')}",
+                    icon="⚠️",
+                )
         except APIStatusError as e:
             # 529 = Anthropic overloaded; 429 = rate-limited; 5xx = upstream error.
             # The SDK already retried ANTHROPIC_MAX_RETRIES times; if we're here
@@ -351,7 +476,8 @@ if question:
             })
             st.stop()
 
-        st.markdown(response)
+        # Note: response already rendered via st.write_stream() above —
+        # no extra st.markdown(response) needed.
 
         # 3. TTS (optional, never blocks the turn — TTS errors are local)
         audio_path = None
