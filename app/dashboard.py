@@ -61,6 +61,7 @@ from cj_chat import (  # noqa: E402
     _prepare_tts_text,
     make_client,
     cache_savings_summary,
+    loaded_env_summary,
     CACHE_STATS,
     TTS_SENTENCE_SILENCE,
     WHISPER_MODEL_SIZE,
@@ -76,6 +77,25 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed",
 )
+
+# ----- Pre-flight: ANTHROPIC_API_KEY must be visible ----------------------
+# cj_chat already searched cwd / repo-root / app/ for a .env. If the key
+# still isn't set, bail out HERE with a clear banner — beats letting the
+# first router call raise a cryptic SDK error mid-turn.
+_env_summary = loaded_env_summary()
+if not _env_summary["api_key_present"]:
+    st.error(
+        "**ANTHROPIC_API_KEY is not set.**\n\n"
+        f"The runtime searched these `.env` files: "
+        f"{_env_summary['dotenv_files_loaded'] or '(none found)'}.\n\n"
+        "Add `ANTHROPIC_API_KEY=sk-ant-...` to one of:\n"
+        "- `<repo>/app/.env` (recommended — most specific)\n"
+        "- `<repo>/.env`\n"
+        "- `<cwd>/.env`\n\n"
+        "Or set `DOTENV_PATH=<absolute path>` to point at a specific file."
+    )
+    st.stop()
+
 
 st.markdown(
     """
@@ -158,8 +178,14 @@ with st.sidebar:
         "Claude Sonnet 4.6 (inference) → "
         "Piper (TTS)."
     )
-    st.caption(f"Whisper model: `{WHISPER_MODEL_SIZE}`")
-    st.caption(f"Topics loaded: {len(get_artifacts().topics)}")
+    st.caption(f"Router model:    `{_env_summary['router_model']}`")
+    st.caption(f"Inference model: `{_env_summary['inference_model']}`")
+    st.caption(f"Whisper model:   `{WHISPER_MODEL_SIZE}`")
+    st.caption(f"Topics loaded:   {len(get_artifacts().topics)}")
+    if _env_summary["dotenv_files_loaded"]:
+        with st.expander("🔑 .env files loaded", expanded=False):
+            for p in _env_summary["dotenv_files_loaded"]:
+                st.code(p, language=None)
 
     # ---- Prompt cache stats panel ----
     inf = CACHE_STATS["inference"]

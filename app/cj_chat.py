@@ -46,11 +46,36 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 
-# Load .env from the app directory (override empty/stale shell vars).
-# We do this before importing Anthropic so the SDK picks up the key.
+# Load .env from several plausible locations before importing Anthropic
+# so the SDK picks up the key regardless of where the user keeps the
+# file. Search order (lowest to highest precedence — later overrides):
+#     cwd/.env  →  <repo>/.env  →  <repo>/app/.env
+# A custom path can override every default via the DOTENV_PATH env var.
+_LOADED_DOTENVS: list[str] = []
 try:
-    from dotenv import load_dotenv
-    load_dotenv(Path(__file__).parent / ".env", override=True)
+    from dotenv import load_dotenv  # type: ignore[import-not-found]
+
+    _app_dir = Path(__file__).resolve().parent
+    _repo_root = _app_dir.parent
+    _candidates = []
+    custom = os.environ.get("DOTENV_PATH")
+    if custom:
+        _candidates.append(Path(custom).expanduser().resolve())
+    _candidates.extend([
+        Path.cwd() / ".env",
+        _repo_root / ".env",
+        _app_dir / ".env",
+    ])
+    # Deduplicate while preserving order.
+    seen: set[str] = set()
+    for env_path in _candidates:
+        key = str(env_path)
+        if key in seen:
+            continue
+        seen.add(key)
+        if env_path.exists() and env_path.is_file():
+            load_dotenv(env_path, override=True)
+            _LOADED_DOTENVS.append(str(env_path))
 except ImportError:
     pass  # dotenv is optional — if not installed, fall back to real env vars
 
@@ -67,8 +92,12 @@ from anthropic import Anthropic
 # ============================================================
 # Configuration
 # ============================================================
-ROUTER_MODEL = "claude-haiku-4-5-20251001"
-INFERENCE_MODEL = "claude-sonnet-4-6"  # use sonnet-4-6 or opus-4-7 if budget permits
+# Models — overridable via env / .env so the user can pick the exact
+# snapshot they want without code edits. Defaults match what the
+# Phase 1-3 work was validated on (Haiku 4.5 for routing+gate+fidelity,
+# Sonnet 4.6 for composition).
+ROUTER_MODEL = os.environ.get("ROUTER_MODEL", "claude-haiku-4-5-20251001")
+INFERENCE_MODEL = os.environ.get("INFERENCE_MODEL", "claude-sonnet-4-6")
 
 
 # Per ADR-0011: doc IDs follow ^[SCG][A-E]\d+$. The first letter selects the
@@ -106,17 +135,14 @@ class Config:
         voice_dir = Path(
             os.environ.get("VOICE_DIR", corpus_root / "voice")
         ).resolve()
-        # PLAN-0001 §B: prefer corpus/voice/router_prompt.md (the new
-        # 35-topic Phase 2 router prompt). Fall back to the legacy
-        # app/artifacts/router_prompt.md if the new one is missing,
-        # so older checkouts still work.
+        # PLAN-0001 §B: corpus/voice/router_prompt.md is the canonical
+        # router prompt. ROUTER_PROMPT env var lets a caller point
+        # somewhere else without code edits.
         env_router = os.environ.get("ROUTER_PROMPT")
-        if env_router:
-            router_prompt_path = Path(env_router).resolve()
-        else:
-            new_path = (voice_dir / "router_prompt.md").resolve()
-            legacy_path = (app_dir / "artifacts" / "router_prompt.md").resolve()
-            router_prompt_path = new_path if new_path.exists() else legacy_path
+        router_prompt_path = (
+            Path(env_router).resolve() if env_router
+            else (voice_dir / "router_prompt.md").resolve()
+        )
         return cls(
             corpus_root=corpus_root,
             voice_dir=voice_dir,
@@ -158,8 +184,34 @@ ANTHROPIC_MAX_RETRIES = 4
 
 
 def make_client() -> Anthropic:
-    """Return an Anthropic client with retry tuned for transient overload."""
+    """Return an Anthropic client with retry tuned for transient overload.
+
+    Raises a clear RuntimeError before instantiation if no API key is
+    visible — beats the SDK's cryptic 'Could not resolve authentication
+    method' message and lets the dashboard render a remediation banner.
+    """
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        loaded = ", ".join(_LOADED_DOTENVS) if _LOADED_DOTENVS else "(none found)"
+        raise RuntimeError(
+            "ANTHROPIC_API_KEY is not set. The runtime searched these "
+            f".env files: {loaded}. Add `ANTHROPIC_API_KEY=sk-ant-...` "
+            "to one of: <repo>/app/.env, <repo>/.env, <cwd>/.env — or "
+            "set DOTENV_PATH to point at a specific file."
+        )
     return Anthropic(max_retries=ANTHROPIC_MAX_RETRIES)
+
+
+def loaded_env_summary() -> dict[str, object]:
+    """One-shot dict the dashboard / CLI can print to show what was
+    loaded from .env and which models will be used. Cheap, side-effect
+    free; suitable for sidebars."""
+    return {
+        "dotenv_files_loaded": list(_LOADED_DOTENVS),
+        "api_key_present": bool(os.environ.get("ANTHROPIC_API_KEY")),
+        "router_model": ROUTER_MODEL,
+        "inference_model": INFERENCE_MODEL,
+        "whisper_model": os.environ.get("WHISPER_MODEL", "medium"),
+    }
 
 
 # ============================================================

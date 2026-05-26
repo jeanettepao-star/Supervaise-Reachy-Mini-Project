@@ -169,25 +169,48 @@ composer + Sources panel are independent of Piper.
 
 ---
 
-## 5. API key (required)
+## 5. `.env` configuration (required)
 
-The router + composer call the Anthropic API. Set the key once via
-`app\.env`:
+The router + composer call the Anthropic API. `cj_chat.py` searches
+for a `.env` in **three locations** at import time and merges them
+(later values win):
+
+1. `<cwd>/.env`
+2. `<repo>/.env`
+3. `<repo>/app/.env`  ← most specific, recommended
+
+`DOTENV_PATH=<absolute path>` overrides all three.
+
+Minimum required key:
 
 ```
 ANTHROPIC_API_KEY=sk-ant-...
 ```
 
-The `app/cj_chat.py` module auto-loads `.env` at import time
-(`python-dotenv` with `override=True`), so the dashboard inherits it.
+Optional overrides (defaults shown):
 
-Verify:
+```
+ROUTER_MODEL=claude-haiku-4-5-20251001
+INFERENCE_MODEL=claude-sonnet-4-6
+WHISPER_MODEL=medium
+PIPER_BIN=piper
+PIPER_VOICE=./voices/en_US-ryan-high.onnx
+HF_HOME=D:\hf-cache
+```
+
+The dashboard's sidebar shows which `.env` files were loaded and
+which models are active — easy to verify at a glance once Streamlit
+is up.
+
+Verify the key resolves before launching:
 
 ```
 .\.venv\Scripts\python.exe -c "import os; print(bool(os.environ.get('ANTHROPIC_API_KEY')))"
 ```
 
-Should print `True`.
+If that prints `False`, the dashboard's pre-flight banner will tell
+you exactly which `.env` files were searched. Add the key to one of
+them and reload.
 
 ---
 

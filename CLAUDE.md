@@ -39,19 +39,19 @@ appear later, they take precedence over implementation docs for
 
 | Path | Purpose | MANIFEST |
 |---|---|---|
-| [`app/`](app/) | The runnable conversation app — CLI entrypoint, Streamlit dashboard, requirements, voice/Piper local assets. | [app/MANIFEST.md](app/MANIFEST.md) |
-| [`app/artifacts/`](app/artifacts/) | Corpus artifacts loaded at app startup — voice card, router prompt, topic map/graph, entity index, frameworks, signature library, 89 per-doc topic extractions. | [app/artifacts/MANIFEST.md](app/artifacts/MANIFEST.md) |
-| [`corpus/`](corpus/) | The source corpus and pre-processing pipeline. Phase 1-3 added: `corpus/columns/`, `corpus/speeches/`, `corpus/biography/` (79 paired `.md` + `.json`), and `corpus/voice/{topic_map.json,voice_card.md}`. Re-runnable. | [corpus/MANIFEST.md](corpus/MANIFEST.md) |
-| [`scripts/`](scripts/) | The Phase 1-3 pipeline scripts: `generate_corpus_files.py`, `build_topic_map.py`, `apply_topic_paths.py`. Idempotent. | — |
+| [`app/`](app/) | The runnable conversation app — `cj_chat.py` (CLI + pipeline functions), `dashboard.py` (Streamlit UI), requirements, voice/Piper local assets. Reads corpus from `../corpus/voice/` and `../corpus/{type}/{theme}/`. | [app/MANIFEST.md](app/MANIFEST.md) |
+| [`corpus/`](corpus/) | The runtime corpus: `voice/` (topic map, voice card, router prompt), `columns/` (64 paired `.md` + `.json`), `speeches/` (15 paired `.md` + `.json`). | [corpus/MANIFEST.md](corpus/MANIFEST.md) |
+| [`scripts/`](scripts/) | The Phase 1-3 pipeline scripts: `generate_corpus_files.py`, `build_topic_map.py`, `apply_topic_paths.py`, plus the `run_smoke_test.py` and `check_paths.py` diagnostics. Idempotent. | — |
 | [`data/`](data/) | Phase 1 inputs: `data/csv/` (3 curated CSVs) and `data/text/` (80 source `.txt` files). | — |
 | [`docs/`](docs/) | Handover docs, ADRs (`docs/decisions/`), lessons (`docs/lessons/`), implementation plans (`docs/implementation-plans/`), test specs (`docs/test-specs/`), persona guides (`docs/guides/`). | [docs/MANIFEST.md](docs/MANIFEST.md) |
+| [`reports/`](reports/) | Output reports from each pipeline run — `generation_report.json`, `validation_errors.log`, `topic_map_report.json`, `smoke_test_run.json`, `smoke_test_summary.json`. Regenerated on every run. | — |
 
-> The earlier `source_materials/` tree (65 *Inquirer* columns + 25
-> *A Centenary of Justice* chapter/appendix files) is being retired
-> in favour of the curated `data/csv/` + `data/text/` inputs that
-> drive Phases 1-3. The deletion is staged but not yet committed;
-> the book sections will return under `corpus/books/` per
-> [PLAN-0005](docs/implementation-plans/PLAN-0005-book-corpus-addition.md).
+> The earlier 89-doc pipeline (`app/artifacts/`, `corpus/build_kit/`,
+> `corpus/prompts/`, `corpus/synthesis_scripts/`, `corpus/analysis/`,
+> `corpus/manifest.json`) and `source_materials/` tree were removed
+> when PLAN-0001 §A migrated the runtime to consume the Phase 1-3
+> outputs directly. Book sections will return under `corpus/books/`
+> per [PLAN-0005](docs/implementation-plans/PLAN-0005-book-corpus-addition.md).
 
 ## Conflict resolution
 
@@ -59,7 +59,7 @@ When documents disagree:
 
 - **Implementation facts** (what code exists, file:line, what runs) → the latest Claude Code handover wins ([docs/handover_claude_code_2026-05-16.md](docs/handover_claude_code_2026-05-16.md)).
 - **Design intent** (why a choice was made, scope, audience, the May 30 target) → the strategic handover wins when present; otherwise [PROJECT.md](PROJECT.md) and the relevant ADR in [docs/decisions/](docs/decisions/).
-- **Corpus pipeline mechanics** (Stage 1 / Stage 3, prompts, synthesis scripts) → the corpus pipeline companion doc wins when present; otherwise [corpus/build_kit/README.md](corpus/build_kit/README.md) and [corpus/prompts/](corpus/prompts/).
+- **Runtime pipeline mechanics** → [PLAN-0001](docs/implementation-plans/PLAN-0001-runtime-app-haiku-router-sonnet-composer.md) and [`corpus/voice/voice_card.md`](corpus/voice/voice_card.md).
 
 ## What this repo is NOT
 
