@@ -262,6 +262,40 @@ def _init_state() -> None:
     ss.setdefault("error", None)                  # last pipeline error string
     ss.setdefault("show_drawer", False)           # diagnostics drawer visible
     ss.setdefault("autoplay_pending", False)      # play once when entering READY
+    # Running API cost (USD) — updated after every successful turn
+    ss.setdefault("session_cost", 0.0)
+    ss.setdefault("last_turn_cost", 0.0)
+    ss.setdefault("turn_count", 0)
+
+
+# Anthropic per-token prices, $/MTok — mirrors cj_chat.cache_savings_summary
+_ANTHROPIC_PRICES = {
+    # (regular_input, cache_write_1.25x, cache_read_0.1x, output)
+    "router":    (1.00, 1.25, 0.10, 5.00),   # Haiku 4.5
+    "inference": (3.00, 3.75, 0.30, 15.00),  # Sonnet 4.6
+}
+
+
+def _snapshot_cache_stats() -> dict:
+    """Deep-copy CACHE_STATS so we can diff before / after the pipeline."""
+    from cj_chat import CACHE_STATS
+    return {label: dict(stats) for label, stats in CACHE_STATS.items()}
+
+
+def _anthropic_cost_since(before: dict) -> float:
+    """Total Anthropic spend (USD) since the `before` snapshot."""
+    from cj_chat import CACHE_STATS
+    cost = 0.0
+    for label, after in CACHE_STATS.items():
+        p_in, p_w, p_r, p_out = _ANTHROPIC_PRICES[label]
+        b = before.get(label, {})
+        delta_in    = after["regular_input"] - b.get("regular_input", 0)
+        delta_w     = after["creation"]      - b.get("creation", 0)
+        delta_r     = after["read"]          - b.get("read", 0)
+        delta_o     = after["output"]        - b.get("output", 0)
+        cost += (delta_in * p_in + delta_w * p_w
+                 + delta_r * p_r + delta_o * p_out) / 1e6
+    return cost
 
 
 # ─── Custom CSS — museum dark theme + glass panel + button styles ─────────
@@ -354,6 +388,24 @@ def _inject_css() -> None:
         white-space: nowrap;       /* keep on a single line */
         overflow: hidden;          /* never wrap onto a 2nd line on narrow viewports */
         text-overflow: ellipsis;
+    }
+    /* Running cost pill — bottom-right corner of glass panel */
+    .cost-pill {
+        position: absolute; bottom: 14px; right: 22px;
+        display: inline-flex; align-items: center; gap: 0.45rem;
+        padding: 0.32rem 0.8rem; border-radius: 999px;
+        background: rgba(15, 19, 32, 0.65);
+        border: 1px solid rgba(242, 196, 78, 0.35);
+        color: #f2c44e; font-family: 'Inter', sans-serif;
+        font-size: 0.72rem; font-weight: 600; letter-spacing: 1.0px;
+    }
+    .cost-pill .cost-sep {
+        opacity: 0.45; margin: 0 0.05rem;
+    }
+    .cost-pill .cost-label {
+        color: #9aa0b0; font-weight: 500;
+        text-transform: uppercase; letter-spacing: 1.5px;
+        font-size: 0.66rem;
     }
 
     /* ── Status pill, top-right of glass panel ───────────────────── */
@@ -612,7 +664,9 @@ def _status_label(state: str) -> str:
 
 
 def _render_glass_panel(state: str) -> None:
-    """Render the central glass panel: status pill, robot, title block."""
+    """Render the central glass panel: status pill, robot, title block,
+    + running-cost pill in the bottom-right corner."""
+    ss = st.session_state
     if _ROBOT_DATA_URL:
         robot_html = f"<img src='{_ROBOT_DATA_URL}' alt='Reachy Mini Curious'/>"
     else:
@@ -620,6 +674,21 @@ def _render_glass_panel(state: str) -> None:
         # doesn't treat its indentation as a code block.
         robot_html = " ".join(
             line.strip() for line in REACHY_CURIOUS_SVG.splitlines() if line.strip()
+        )
+
+    # Cost pill HTML — only rendered after the first turn so the IDLE
+    # surface stays clean for the first visitor.
+    cost_html = ""
+    if ss.get("turn_count", 0) > 0:
+        cost_html = (
+            f"<span class='cost-pill' title='Estimated API spend "
+            f"(Anthropic chat + OpenAI STT + OpenAI TTS)'>"
+            f"<span class='cost-label'>Turn</span>"
+            f"${ss.last_turn_cost:.4f}"
+            f"<span class='cost-sep'>·</span>"
+            f"<span class='cost-label'>Session</span>"
+            f"${ss.session_cost:.4f}"
+            f"</span>"
         )
 
     panel = (
@@ -633,11 +702,11 @@ def _render_glass_panel(state: str) -> None:
         f"    <p class='museum-subtitle'>Reachy Mini × retired Chief Justice "
         f"      Artemio V. Panganiban</p>"
         f"    <p class='museum-blurb'>"
-        f"      Ask the Chief Justice a question. Press <b>RECORD</b> when you "
-        f"      are ready to speak, <b>STOP</b> when you are finished, and "
-        f"      <b>PLAY</b> to hear his answer."
+        f"      Ask the Chief Justice a question. Press <b>START</b> to "
+        f"speak, <b>STOP</b> when finished."
         f"    </p>"
         f"  </div>"
+        f"  {cost_html}"
         f"</div>"
     )
     # Single-line, no leading whitespace per line — bypasses Streamlit's
@@ -725,6 +794,36 @@ def _drawer_content_html() -> str:
             f"<div>{ss.tts_meta.get('chunks', '?')} sentence chunk(s) · "
             f"~${ss.tts_meta.get('cost_usd', 0):.4f}</div>"
             "</div>"
+        )
+
+    # API cost breakdown (turn + session totals)
+    if ss.get("turn_count", 0) > 0:
+        br = (ss.tts_meta or {}).get("breakdown", {})
+        ant = br.get("anthropic_usd", 0.0)
+        stt = br.get("stt_usd", 0.0)
+        tts = br.get("tts_usd", 0.0)
+        parts.append(
+            "<div class='drawer-card'>"
+            "<span class='label'>💰 API spend</span>"
+            "<div style='display:grid; grid-template-columns:auto auto; "
+            "gap:0.15rem 0.9rem; margin-top:0.35rem; font-size:0.85rem;'>"
+            f"<span style='color:#9aa0b0;'>Anthropic chat</span>"
+            f"<span>${ant:.5f}</span>"
+            f"<span style='color:#9aa0b0;'>OpenAI Whisper STT</span>"
+            f"<span>${stt:.5f}</span>"
+            f"<span style='color:#9aa0b0;'>OpenAI TTS</span>"
+            f"<span>${tts:.5f}</span>"
+            f"<span style='color:#f2c44e; font-weight:600; "
+            f"border-top:1px solid rgba(242,196,78,0.25); padding-top:0.3rem;'>"
+            f"This turn</span>"
+            f"<span style='color:#f2c44e; font-weight:600; "
+            f"border-top:1px solid rgba(242,196,78,0.25); padding-top:0.3rem;'>"
+            f"${ss.last_turn_cost:.5f}</span>"
+            f"<span style='color:#f2c44e; font-weight:600;'>Session "
+            f"({ss.turn_count} turn{'s' if ss.turn_count != 1 else ''})</span>"
+            f"<span style='color:#f2c44e; font-weight:600;'>"
+            f"${ss.session_cost:.4f}</span>"
+            "</div></div>"
         )
 
     # Full response (gold-bordered card)
@@ -817,7 +916,16 @@ def _get_client():
 
 
 def _run_pipeline(audio_bytes: bytes) -> None:
-    """Full PROCESSING path. Mutates st.session_state with results."""
+    """Full PROCESSING path. Mutates st.session_state with results.
+
+    Tracks per-turn API spend in `last_turn_cost` and accumulates into
+    `session_cost`. The cost includes:
+      • Anthropic (router + gate + composer + fidelity) — computed from
+        CACHE_STATS diff with the published $/MTok rates.
+      • OpenAI Whisper STT — estimated at $0.006/min × duration. The
+        WAV's PCM duration is computed from byte length.
+      • OpenAI TTS — actual chars × tts-1 rate (from estimate_voice_cost).
+    """
     ss = st.session_state
     ss.error = None
     ss.transcript = ""
@@ -827,6 +935,11 @@ def _run_pipeline(audio_bytes: bytes) -> None:
     ss.gate = None
     ss.fidelity = None
     ss.tts_meta = None
+
+    # Cost snapshot
+    cache_before = _snapshot_cache_stats()
+    audio_seconds_est = max(1, len(audio_bytes) // 32000)  # ≈ 16 kHz × 2 bytes
+    stt_cost = (audio_seconds_est / 60.0) * 0.006
 
     # 1. Persist audio to a temp WAV the OpenAI SDK can open.
     wav_path: str | None = None
@@ -900,6 +1013,23 @@ def _run_pipeline(audio_bytes: bytes) -> None:
         except Exception as e:
             ss.tts_meta = {"ok": False, "error": str(e)[:200]}
 
+        # 7. Cost rollup — compute Anthropic spend from CACHE_STATS diff
+        # and combine with the STT + TTS line items captured above.
+        anthropic_cost = _anthropic_cost_since(cache_before)
+        tts_cost = ss.tts_meta.get("cost_usd", 0.0) if ss.tts_meta and ss.tts_meta.get("ok") else 0.0
+        turn_cost = anthropic_cost + stt_cost + tts_cost
+        ss.last_turn_cost = turn_cost
+        ss.session_cost += turn_cost
+        ss.turn_count += 1
+        # Surface a slightly richer breakdown in the drawer.
+        if isinstance(ss.tts_meta, dict):
+            ss.tts_meta["breakdown"] = {
+                "anthropic_usd": round(anthropic_cost, 5),
+                "stt_usd": round(stt_cost, 5),
+                "tts_usd": round(tts_cost, 5),
+                "turn_usd": round(turn_cost, 5),
+            }
+
         ss.kiosk_state = "READY"
         ss.autoplay_pending = True
     finally:
@@ -918,12 +1048,12 @@ def _render_console(state: str) -> tuple[bool, bool, bool]:
 
     with col1:
         record_clicked = st.button(
-            "⏺  RECORD",
+            "⏺  START",
             key="btn_record",
             disabled=state in {"RECORDING", "PROCESSING"},
             use_container_width=True,
         )
-        st.markdown("<div class='btn-caption'>start your question</div>",
+        st.markdown("<div class='btn-caption'>begin your question</div>",
                     unsafe_allow_html=True)
 
     with col2:
@@ -951,27 +1081,30 @@ def _render_console(state: str) -> tuple[bool, bool, bool]:
 
 
 def _autoplay_audio(audio_bytes: bytes) -> None:
-    """Iframe-embedded HTML5 audio element with autoplay + a JS shim
-    that calls .play() on `loadeddata` for browsers with strict
-    autoplay policies. Sandbox iframe also bypasses Streamlit's
-    Markdown sanitizer (which strips <script> tags)."""
-    import streamlit.components.v1 as components
+    """Render an HTML5 audio element directly in the parent page so the
+    browser's autoplay policy uses the parent's user-interaction
+    context — by the time we get here, the visitor has clicked the
+    START button and the audio_input's stop control, so autoplay is
+    permitted.
+
+    We use st.markdown (NOT st.components.v1.html) deliberately:
+    components.html spawns a sandboxed iframe, and the autoplay
+    permission doesn't propagate from the parent into a fresh iframe
+    on every rerun. Putting the <audio autoplay> in the parent DOM
+    inherits the visitor's interaction history and fires reliably.
+
+    A small JS fallback is appended as a defensive .play() retry —
+    Streamlit's HTML sanitiser strips <script> tags but DOES allow
+    <audio> attributes through, so the autoplay attribute alone is
+    typically enough.
+    """
     b64 = base64.b64encode(audio_bytes).decode("ascii")
-    components.html(
-        (
-            "<!doctype html><html><head><meta charset='utf-8'>"
-            "<style>html,body{margin:0;padding:0;background:transparent;}"
-            "audio{width:100%;max-width:560px;display:block;margin:0.4rem auto;}"
-            "</style></head><body>"
-            f"<audio id='a' autoplay controls src='data:audio/mp3;base64,{b64}'></audio>"
-            "<script>(function(){"
-            " const a=document.getElementById('a'); if(!a) return;"
-            " const tryPlay=()=>{a.play().catch(()=>{});};"
-            " if(a.readyState>=2) tryPlay();"
-            " else a.addEventListener('loadeddata',tryPlay,{once:true});"
-            "})();</script></body></html>"
-        ),
-        height=80,
+    st.markdown(
+        f"<audio autoplay controls preload='auto' playsinline "
+        f"style='width:100%; max-width:560px; display:block; "
+        f"margin:0.6rem auto; outline:none; border-radius:8px;' "
+        f"src='data:audio/mp3;base64,{b64}'></audio>",
+        unsafe_allow_html=True,
     )
 
 
