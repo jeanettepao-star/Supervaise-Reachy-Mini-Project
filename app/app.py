@@ -23,18 +23,21 @@ If those files don't exist, the app falls back to:
   • a polished inline SVG of the Reachy Mini "Curious" pose,
   • a CSS-only gallery backdrop (vertical gradient + soft uplighting).
 
-State machine
-=============
-              ┌───────────────────────────────────────────┐
-              │                                           ▼
-   IDLE  ── press RECORD ──▶  RECORDING  ── stop ──▶  PROCESSING
-     ▲                          │                        │
-     │                       cancel                    pipeline OK
-     │                          ▼                        │
-     └──────────────────────  IDLE  ◀── PLAY done ──── READY
-                                         (or auto-play timeout)
+State machine (simplified — only IDLE and READY are set from Python;
+the audio_input widget owns the actual recording state client-side):
 
-Pipeline (PROCESSING):
+   IDLE  ── audio_input captures bytes ──▶ (inline pipeline) ──▶ READY
+     ▲                                                              │
+     │                                                          PLAY tap
+     └──────────────────────  (new question)  ◀────────────────────┘
+
+The visible "⏺ START" ↔ "⏹ STOP" label toggle on the START button
+is pure CSS (`:has(button[aria-label*='stop'])`) — it watches the
+audio_input's own internal stop control, no Python signalling.
+
+Pipeline (runs INLINE on the same script execution that captured
+the audio bytes — no PROCESSING state, no session-state handoff.
+Hash-of-bytes guard prevents re-firing across reruns):
    recorded WAV bytes
      → OpenAI Whisper (STT)             → user transcript
      → Haiku Input Gate                 → scope: in_corpus / OOC / META
@@ -47,6 +50,7 @@ Pipeline (PROCESSING):
 from __future__ import annotations
 
 import base64
+import hashlib
 import os
 import sys
 import tempfile
@@ -250,8 +254,9 @@ def _preflight() -> None:
 # ─── Session state ────────────────────────────────────────────────────────
 def _init_state() -> None:
     ss = st.session_state
-    ss.setdefault("kiosk_state", "IDLE")          # IDLE / RECORDING / PROCESSING / READY
+    ss.setdefault("kiosk_state", "IDLE")          # IDLE / READY  (only IDLE → READY is set from Python; recording is owned by st.audio_input client-side)
     ss.setdefault("mic_key", 0)                   # bump to force audio_input reset
+    ss.setdefault("last_audio_hash", "")          # md5 of last-processed recording; guards against re-running pipeline on rerun
     ss.setdefault("transcript", "")               # last user query (Whisper)
     ss.setdefault("response", "")                 # last CJ text response
     ss.setdefault("audio_bytes", None)            # last TTS MP3 blob
@@ -465,66 +470,230 @@ def _inject_css() -> None:
                 drop-shadow(0 18px 24px rgba(0,0,0,0.45));
     }
 
-    /* ── Physical console — button bar below the glass panel ──── */
-    .console-row { margin-top: 1.0rem; }
-    .console-row [data-testid='stHorizontalBlock'] {
-        gap: 1.2rem !important;
+    /* ── Glass panel — round only TOP corners; the button bar below
+       picks up the bottom corners so the two read as ONE panel. ── */
+    .museum-glass {
+        border-radius: 24px 24px 0 0;
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 1.4rem;
     }
 
-    /* Streamlit buttons by column index — first column = RECORD,
-       second = STOP, third = PLAY. We use nth-of-type so the styling
-       stays attached to the layout slot, not to the button label. */
-    .console-row [data-testid='column']:nth-of-type(1) button {
-        background: linear-gradient(180deg, #c43e30 0%, #8c2419 100%);
-        color: #fff8ec; border: none;
-        height: 64px; font-size: 1.05rem; font-weight: 700;
-        letter-spacing: 1.5px; font-family: 'Inter', sans-serif;
+    /* ── Button bar — the bottom of the glass panel, holding two
+       identical frosted-glass buttons side-by-side. ────────────── */
+    .button-bar-glass {
+        position: relative;
+        margin: 0 auto 1.0rem;
+        max-width: 960px;
+        padding: 0 1.8rem 1.4rem;
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(14px) saturate(140%);
+        -webkit-backdrop-filter: blur(14px) saturate(140%);
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        border-top: none;
+        border-radius: 0 0 24px 24px;
+        box-shadow: 0 30px 70px -30px rgba(0, 0, 0, 0.75);
+    }
+    .button-bar-glass [data-testid='stHorizontalBlock'] {
+        gap: 1.4rem !important;
+        align-items: stretch;
+    }
+
+    /* ── Twin buttons row ──────────────────────────────────────────
+       Selectors are UN-scoped (no parent qualifier) because
+       Streamlit auto-closes orphan markdown wrapper divs — a
+       `.button-bar-glass [data-testid='stAudioInput']` selector
+       would never match. We rely on the fact that the app has
+       exactly one st.audio_input. */
+
+    /* Audio_input outer container — same dark/clean aesthetic as
+       the input bar shown in the screenshot. */
+    [data-testid='stAudioInput'] {
+        position: relative;
+        width: 100%;
+        height: 64px;
         border-radius: 14px;
-        box-shadow:
-            0 10px 22px -10px rgba(196, 62, 48, 0.65),
-            inset 0 1px 0 rgba(255,255,255,0.18);
-        transition: transform 0.12s ease, box-shadow 0.12s ease, opacity 0.15s ease;
+        background: rgba(20, 24, 38, 0.55);
+        backdrop-filter: blur(10px) saturate(140%);
+        -webkit-backdrop-filter: blur(10px) saturate(140%);
+        border: 1px solid rgba(255, 255, 255, 0.10);
+        box-shadow: 0 8px 22px -12px rgba(0, 0, 0, 0.55);
+        overflow: hidden;
+        padding: 0 0.55rem !important;
+        display: flex !important;
+        align-items: center !important;
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
     }
-    .console-row [data-testid='column']:nth-of-type(2) button {
-        background: linear-gradient(180deg, #4d5468 0%, #2c3142 100%);
-        color: #f0f2f6; border: 1px solid rgba(255,255,255,0.08);
-        height: 64px; font-size: 1.0rem; font-weight: 600;
-        letter-spacing: 1.5px; font-family: 'Inter', sans-serif;
+    /* Inner layout passthrough — let the native widget render its
+       waveform + timer, but stretch to fill the bar. */
+    [data-testid='stAudioInput'] > div,
+    [data-testid='stAudioInput'] > div > div,
+    [data-testid='stAudioInput'] section {
+        width: 100% !important;
+        height: 100% !important;
+        background: transparent !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    /* Waveform + timer — softened, on-theme. */
+    [data-testid='stAudioInput'] canvas,
+    [data-testid='stAudioInput'] [data-testid='stWaveSurfer'] {
+        opacity: 0.50;
+    }
+    [data-testid='stAudioInput'] [data-testid='stTimeCode'],
+    [data-testid='stAudioInput'] [data-testid='stAudioInputWaveformTimeCode'] {
+        color: #c1c7d6 !important;
+        font-family: 'Inter', sans-serif !important;
+        font-size: 0.78rem !important;
+        letter-spacing: 1.0px;
+    }
+    /* Hide the post-recording delete bin — pipeline takes over the
+       moment bytes arrive, the visitor never needs it. */
+    [data-testid='stAudioInput'] [data-testid='stAudioInputDeleteBtn'] {
+        display: none !important;
+    }
+
+    /* ── The mic-icon button → text-based START/STOP pill ──────────
+       Per spec: NO mic icon, label is literally "START/STOP". The
+       same button toggles recording on/off; visual state shifts via
+       a subtle green tint when capture is active (no label change
+       so the requested label stays exact). */
+    [data-testid='stAudioInput'] button {
+        position: relative !important;
+        flex-shrink: 0 !important;
+        width: auto !important;
+        min-width: 116px !important;
+        height: 42px !important;
+        margin: 0 0.6rem 0 0 !important;
+        padding: 0 1.1rem !important;
+        background: rgba(255, 255, 255, 0.07) !important;
+        border: 1px solid rgba(255, 255, 255, 0.22) !important;
+        border-radius: 999px !important;
+        color: #f6f1e1 !important;
+        font-family: 'Inter', sans-serif !important;
+        font-size: 0.86rem !important;
+        font-weight: 700 !important;
+        letter-spacing: 1.8px !important;
+        text-transform: uppercase !important;
+        cursor: pointer !important;
+        box-shadow:
+            0 4px 12px -4px rgba(0, 0, 0, 0.50),
+            inset 0 1px 0 rgba(255, 255, 255, 0.10) !important;
+        transition: background 0.2s ease,
+                    border-color 0.2s ease,
+                    color 0.2s ease,
+                    transform 0.12s ease !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 0 !important;
+        font-size: 0 !important;          /* hide any native button text */
+        line-height: 1 !important;
+    }
+    [data-testid='stAudioInput'] button:hover {
+        background: rgba(255, 255, 255, 0.12) !important;
+        border-color: rgba(255, 255, 255, 0.36) !important;
+        transform: translateY(-1px) !important;
+    }
+    [data-testid='stAudioInput'] button:active {
+        transform: translateY(1px) !important;
+    }
+    /* Hide the native mic SVG (and any other inner children) so
+       only our ::after text label is visible inside the pill. */
+    [data-testid='stAudioInput'] button svg,
+    [data-testid='stAudioInput'] button > * {
+        display: none !important;
+    }
+    /* The text label — literal "START/STOP" per spec. Stays the
+       same whether idle or recording; the colour tint is what
+       signals state. */
+    [data-testid='stAudioInput'] button::after {
+        content: 'START/STOP';
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        white-space: nowrap !important;
+        color: #f6f1e1 !important;
+        font-family: 'Inter', sans-serif !important;
+        font-size: 0.86rem !important;
+        font-weight: 700 !important;
+        letter-spacing: 1.8px !important;
+        text-transform: uppercase !important;
+    }
+    /* Recording state — soft green accent on the pill + waveform
+       container border. Label text stays "START/STOP" as requested. */
+    [data-testid='stAudioInput'] button[aria-label*='stop' i],
+    [data-testid='stAudioInput'] button[title*='stop' i] {
+        background: rgba(74, 210, 149, 0.18) !important;
+        border-color: rgba(74, 210, 149, 0.55) !important;
+        box-shadow:
+            0 0 16px -4px rgba(74, 210, 149, 0.50),
+            inset 0 1px 0 rgba(255, 255, 255, 0.14) !important;
+    }
+    [data-testid='stAudioInput'] button[aria-label*='stop' i]::after,
+    [data-testid='stAudioInput'] button[title*='stop' i]::after {
+        color: #4ad295 !important;
+    }
+    /* Container picks up a matching subtle green border while recording. */
+    [data-testid='stAudioInput']:has(
+        button[aria-label*='stop' i],
+        button[title*='stop' i]
+    ) {
+        border-color: rgba(74, 210, 149, 0.35);
+        box-shadow:
+            0 0 16px -6px rgba(74, 210, 149, 0.30),
+            0 8px 22px -12px rgba(0, 0, 0, 0.55);
+    }
+
+    /* ── PLAY / "MY RESPONSE" button (column 2) — matching dark
+       aesthetic. Un-scoped so it applies regardless of whether the
+       markdown wrapper survived in the DOM. ───────────────────────  */
+    .console-row [data-testid='column']:nth-of-type(2) button,
+    .button-bar-glass [data-testid='column']:nth-of-type(2) button,
+    [data-testid='column']:nth-of-type(2) button[kind='secondary'],
+    [data-testid='column']:nth-of-type(2) > [data-testid='stButton'] button {
+        width: 100%;
+        height: 64px;
         border-radius: 14px;
-        box-shadow: 0 8px 20px -10px rgba(0,0,0,0.6);
+        background: rgba(20, 24, 38, 0.55);
+        backdrop-filter: blur(10px) saturate(140%);
+        -webkit-backdrop-filter: blur(10px) saturate(140%);
+        border: 1px solid rgba(255, 255, 255, 0.10);
+        color: #f6f1e1;
+        font-family: 'Inter', sans-serif;
+        font-size: 0.95rem; font-weight: 600;
+        letter-spacing: 2.0px; text-transform: uppercase;
+        box-shadow: 0 8px 22px -12px rgba(0, 0, 0, 0.55);
+        transition: background 0.2s ease, border-color 0.2s ease,
+                    transform 0.12s ease, opacity 0.15s ease;
     }
-    .console-row [data-testid='column']:nth-of-type(3) button {
-        background: linear-gradient(180deg, #f0c453 0%, #c89427 100%);
-        color: #1a1410; border: none;
-        height: 78px; font-size: 1.25rem; font-weight: 700;
-        letter-spacing: 2.0px; font-family: 'Inter', sans-serif;
-        border-radius: 18px;
-        box-shadow:
-            0 14px 30px -14px rgba(242, 196, 78, 0.65),
-            inset 0 1px 0 rgba(255,255,255,0.25);
-    }
-    .console-row button:hover:not(:disabled) {
+    [data-testid='column']:nth-of-type(2) > [data-testid='stButton'] button:hover:not(:disabled) {
+        background: rgba(255, 255, 255, 0.11);
+        border-color: rgba(255, 255, 255, 0.30);
         transform: translateY(-2px);
     }
-    .console-row button:disabled {
-        opacity: 0.32; cursor: not-allowed; transform: none !important;
-    }
-    .console-row button:active:not(:disabled) {
+    [data-testid='column']:nth-of-type(2) > [data-testid='stButton'] button:active:not(:disabled) {
         transform: translateY(1px);
     }
-    /* Button caption under each console button */
-    .btn-caption {
-        text-align: center; margin-top: 0.5rem;
-        color: #9aa0b0; font-family: 'Inter', sans-serif;
-        font-size: 0.78rem; letter-spacing: 1.2px;
-        text-transform: uppercase;
+    [data-testid='column']:nth-of-type(2) > [data-testid='stButton'] button:disabled {
+        opacity: 0.38; cursor: not-allowed; transform: none !important;
     }
 
-    /* Hide the audio_input widget visually but keep it interactive when
-       RECORDING — we use it for the actual capture; the user-facing
-       affordances are our styled RECORD / STOP buttons. */
-    .compact-mic { opacity: 0.85; margin: 0.6rem auto 0; max-width: 520px; }
-    .compact-mic [data-testid='stAudioInputDeleteBtn'] { display: none; }
+    /* ── Progress drop-downs — symmetric two-column row BELOW the
+       glass+buttons panel. Identical width and framing. ─────────── */
+    .progress-row {
+        max-width: 960px;
+        margin: 0 auto 1.0rem;
+    }
+    .progress-row [data-testid='stHorizontalBlock'] {
+        gap: 1.4rem !important;
+        align-items: flex-start;
+    }
+    .progress-row [data-testid='stStatusWidget'],
+    .progress-row [data-testid='stExpander'] {
+        margin-top: 0;
+        max-width: 100%;
+    }
 
     /* ── Hide Streamlit's native sidebar entirely. ───────────────── */
     [data-testid='stSidebar'],
@@ -602,7 +771,6 @@ def _status_label(state: str) -> str:
     return {
         "IDLE":       "Ready",
         "RECORDING":  "Listening…",
-        "PROCESSING": "Processing…",
         "READY":      "Response ready",
     }.get(state, state)
 
@@ -620,21 +788,9 @@ def _render_glass_panel(state: str) -> None:
             line.strip() for line in REACHY_CURIOUS_SVG.splitlines() if line.strip()
         )
 
-    # Cost pill HTML — only rendered after the first turn so the IDLE
-    # surface stays clean for the first visitor.
-    cost_html = ""
-    if ss.get("turn_count", 0) > 0:
-        cost_html = (
-            f"<span class='cost-pill' title='Estimated API spend "
-            f"(Anthropic chat + OpenAI STT + OpenAI TTS)'>"
-            f"<span class='cost-label'>Turn</span>"
-            f"${ss.last_turn_cost:.4f}"
-            f"<span class='cost-sep'>·</span>"
-            f"<span class='cost-label'>Session</span>"
-            f"${ss.session_cost:.4f}"
-            f"</span>"
-        )
-
+    # API spend is intentionally NOT displayed in the UI — costs are
+    # still tracked in session_state for internal diagnostics but no
+    # pill appears on the glass panel (point 5 of the spec).
     panel = (
         f"<div class='museum-glass {state.lower()}'>"
         f"  <span class='status-pill {state}'>"
@@ -643,14 +799,13 @@ def _render_glass_panel(state: str) -> None:
         f"  <div class='robot-frame'>{robot_html}</div>"
         f"  <div style='text-align:center; margin-top:0.6rem;'>"
         f"    <h1 class='museum-title'>⚖️ With Due Respect</h1>"
-        f"    <p class='museum-subtitle'>Reachy Mini × retired Chief Justice "
-        f"      Artemio V. Panganiban</p>"
+        f"    <p class='museum-subtitle'>Conversational AI Robot of retired "
+        f"      Chief Justice Artemio V. Panganiban</p>"
         f"    <p class='museum-blurb'>"
         f"      Ask the Chief Justice a question. Press <b>START</b> to "
         f"speak, <b>STOP</b> when finished."
         f"    </p>"
         f"  </div>"
-        f"  {cost_html}"
         f"</div>"
     )
     # Single-line, no leading whitespace per line — bypasses Streamlit's
@@ -661,14 +816,14 @@ def _render_glass_panel(state: str) -> None:
 
 # ─── Inline progress dropdown (replaces the slide-in drawer) ─────────────
 # Two surfaces share the same dataset:
-#   • during PROCESSING: a st.status() block opens auto-expanded and
-#     receives a step-by-step .update(label=…) + st.markdown lines as
-#     the pipeline runs — the visitor watches each ✓ land live.
-#   • during READY (and beyond): a st.expander() that's collapsed by
-#     default, holding the cached cards for inspection on the visitor's
-#     terms.
-# Both consume the same _render_cards(ss) helper so the cards look
-# identical whether they're rendering live or from cached state.
+#   • while the pipeline is running (inline inside the RECORDING block):
+#     a st.status() block opens auto-expanded and receives a step-by-
+#     step .update(label=…) + st.markdown lines as each stage finishes —
+#     the visitor watches each ✓ land live.
+#   • during READY (and beyond): a st.expander() (expanded=True by
+#     default), holding the cached cards for inspection.
+# Both consume the same per-card helpers so the cards look identical
+# whether they're rendering live or from cached state.
 
 # ── Per-card renderers ────────────────────────────────────────────────────
 # Each card has its OWN render function. During the live pipeline run
@@ -845,17 +1000,24 @@ def _get_client():
     return make_client()
 
 
-def _run_pipeline(audio_bytes: bytes) -> None:
-    """Full PROCESSING path with LIVE progress updates.
+def _run_pipeline(audio_bytes: bytes, left_container, right_container) -> None:
+    """Full pipeline (STT → gate → router → composer → fidelity → TTS)
+    with LIVE progress updates SPLIT across two anchor containers:
 
-    The pipeline runs inside a st.status() block opened by the caller's
-    progress dropdown. Between each stage we call `status.update(label=…)`
-    to advance the dropdown header AND call the matching per-card
-    helper (`_card_transcribed`, `_card_scope`, `_card_routing`, …) so
-    each completed step's card appears beneath the spinner immediately —
-    visitors literally watch the checkmarks land. We never call
-    `_render_cards()` mid-pipeline; that would re-render every card
-    already on screen.
+      • left_container  — drop-down for STT, scope, routing
+                          (rendered beneath the START/STOP column).
+      • right_container — drop-down for composer, fidelity, TTS, spend
+                          (rendered beneath the PLAY column).
+
+    Each phase opens its OWN st.status() block inside its container,
+    so the live checkmarks land in the column the visitor is already
+    looking at. Per-card helpers (`_card_transcribed`, `_card_scope`,
+    …) write into the active st.status, so cards stack cleanly with
+    no duplicates.
+
+    Runs INLINE on the same script execution that captured
+    `audio_bytes` from `st.audio_input` — no PROCESSING state
+    handoff.
 
     Tracks per-turn API spend in `last_turn_cost` and accumulates into
     `session_cost`. The cost includes:
@@ -878,138 +1040,151 @@ def _run_pipeline(audio_bytes: bytes) -> None:
     audio_seconds_est = max(1, len(audio_bytes) // 32000)  # ≈ 16 kHz × 2 bytes
     stt_cost = (audio_seconds_est / 60.0) * 0.006
 
-    # Open the live progress dropdown. The status block is the
-    # "drop-down area" the user wanted: auto-expanded during work,
-    # each step lands as a checkmark card the moment the underlying
-    # API returns, then collapses to a single "✓ Response ready" line
-    # when done. Streamlit flushes each st.markdown call inside this
-    # block immediately to the browser, so progress is genuinely live.
-    status_ctx = st.status(
-        "✨ The Chief Justice is preparing his answer…",
-        expanded=True,
-    )
-
     wav_path: str | None = None
     try:
         with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp:
             tmp.write(audio_bytes)
             wav_path = tmp.name
 
-        with status_ctx as status:
-            # ── 1. STT ──
-            status.update(label="🎧 Transcribing your question…")
-            try:
-                transcript = transcribe_openai(wav_path)
-            except Exception as e:
-                ss.error = f"Transcription failed: {type(e).__name__}: {e}"
-                _card_error(ss)
-                status.update(label="✗ Transcription failed", state="error",
-                              expanded=True)
-                return
-            if not transcript.strip():
-                ss.error = "No speech detected — please try again."
-                _card_error(ss)
-                status.update(label="✗ No speech detected", state="error",
-                              expanded=True)
-                return
-            ss.transcript = transcript.strip()
-            _card_transcribed(ss)   # render JUST the new card
-
-            # ── 2. Input gate ──
-            status.update(label="🚪 Checking question scope…")
-            artifacts = _get_artifacts()
-            client = _get_client()
-            try:
-                ss.gate = input_gate(client, ss.transcript)
-            except Exception as e:
-                ss.error = f"Input gate failed: {type(e).__name__}: {e}"
-                _card_error(ss)
-                status.update(label="✗ Input gate failed", state="error",
-                              expanded=True)
-                return
-            _card_scope(ss)         # render JUST the new card
-
-            # ── 3. Topic routing ──
-            status.update(label="🧭 Routing to corpus topic…")
-            if ss.gate.get("scope") == "identity_probe":
-                ss.routing = force_meta_routing(ss.gate.get("reasoning", ""))
-            else:
-                try:
-                    ss.routing = route_question(client, ss.transcript, artifacts)
-                except Exception as e:
-                    ss.error = f"Routing failed: {type(e).__name__}: {e}"
-                    _card_error(ss)
-                    status.update(label="✗ Routing failed", state="error",
-                                  expanded=True)
-                    return
-            _card_routing(ss)       # render JUST the new card
-
-            # ── 4. Compose ──
-            status.update(label="💭 Composing the Chief Justice's reply…")
-            try:
-                context = build_context(ss.routing, artifacts)
-                response_raw = "".join(
-                    generate_response_stream(
-                        client, ss.transcript, ss.routing, artifacts,
-                        conversation_history=None,
-                    )
-                )
-            except Exception as e:
-                ss.error = f"Composer failed: {type(e).__name__}: {e}"
-                _card_error(ss)
-                status.update(label="✗ Composer failed", state="error",
-                              expanded=True)
-                return
-            ss.response = _strip_stage_directions(response_raw)
-
-            # ── 5. Fidelity (advisory) ──
-            try:
-                ss.fidelity = fidelity_check(client, context, ss.response)
-            except Exception:
-                ss.fidelity = None
-            _card_fidelity(ss)      # only renders if a flag fired
-            _card_response(ss)      # full CJ response text card
-
-            # ── 6. TTS ──
-            status.update(label="🔊 Generating the spoken response…")
-            try:
-                ss.audio_bytes = tts_concatenate_parallel(ss.response)
-                cost = estimate_voice_cost(ss.response)
-                ss.tts_meta = {
-                    "ok": True,
-                    "chunks": len(sentence_chunks(ss.response)),
-                    "cost_usd": cost["tts_usd"],
-                }
-            except Exception as e:
-                ss.tts_meta = {"ok": False, "error": str(e)[:200]}
-
-            # ── 7. Cost rollup ──
-            anthropic_cost = _anthropic_cost_since(cache_before)
-            tts_cost = ss.tts_meta.get("cost_usd", 0.0) \
-                       if ss.tts_meta and ss.tts_meta.get("ok") else 0.0
-            turn_cost = anthropic_cost + stt_cost + tts_cost
-            ss.last_turn_cost = turn_cost
-            ss.session_cost += turn_cost
-            ss.turn_count += 1
-            if isinstance(ss.tts_meta, dict):
-                ss.tts_meta["breakdown"] = {
-                    "anthropic_usd": round(anthropic_cost, 5),
-                    "stt_usd": round(stt_cost, 5),
-                    "tts_usd": round(tts_cost, 5),
-                    "turn_usd": round(turn_cost, 5),
-                }
-
-            _card_spend(ss)         # API spend breakdown
-
-            # Keep the dropdown EXPANDED so cards stay visible after
-            # completion. The visitor can collapse manually if they
-            # want a clean canvas before the next turn.
-            status.update(
-                label=f"✓ Response ready — turn ${turn_cost:.4f} · "
-                      f"session ${ss.session_cost:.4f}",
-                state="complete",
+        # ─── PHASE A — under START/STOP column ───────────────────────
+        # Live drop-down for question-intake stages (STT → gate →
+        # routing). Lands directly beneath the START/STOP button so
+        # the visitor watches their question being understood right
+        # where they pressed the button.
+        with left_container:
+            phase_a = st.status(
+                "🎧  Understanding your question…",
                 expanded=True,
             )
+            with phase_a as status:
+                # ── 1. STT ──
+                status.update(label="🎧 Transcribing your question…")
+                try:
+                    transcript = transcribe_openai(wav_path)
+                except Exception as e:
+                    ss.error = f"Transcription failed: {type(e).__name__}: {e}"
+                    _card_error(ss)
+                    status.update(label="✗ Transcription failed",
+                                  state="error", expanded=True)
+                    return
+                if not transcript.strip():
+                    ss.error = "No speech detected — please try again."
+                    _card_error(ss)
+                    status.update(label="✗ No speech detected",
+                                  state="error", expanded=True)
+                    return
+                ss.transcript = transcript.strip()
+                _card_transcribed(ss)
+
+                # ── 2. Input gate ──
+                status.update(label="🚪 Checking question scope…")
+                artifacts = _get_artifacts()
+                client = _get_client()
+                try:
+                    ss.gate = input_gate(client, ss.transcript)
+                except Exception as e:
+                    ss.error = f"Input gate failed: {type(e).__name__}: {e}"
+                    _card_error(ss)
+                    status.update(label="✗ Input gate failed",
+                                  state="error", expanded=True)
+                    return
+                _card_scope(ss)
+
+                # ── 3. Topic routing ──
+                status.update(label="🧭 Routing to corpus topic…")
+                if ss.gate.get("scope") == "identity_probe":
+                    ss.routing = force_meta_routing(ss.gate.get("reasoning", ""))
+                else:
+                    try:
+                        ss.routing = route_question(client, ss.transcript, artifacts)
+                    except Exception as e:
+                        ss.error = f"Routing failed: {type(e).__name__}: {e}"
+                        _card_error(ss)
+                        status.update(label="✗ Routing failed",
+                                      state="error", expanded=True)
+                        return
+                _card_routing(ss)
+
+                status.update(
+                    label="✓  Question understood",
+                    state="complete",
+                    expanded=True,
+                )
+
+        # ─── PHASE B — under PLAY column ─────────────────────────────
+        # Live drop-down for response-generation stages (composer →
+        # fidelity → TTS → spend). Lands directly beneath the PLAY
+        # button so the visitor's eyes naturally follow to the
+        # button that will play the answer once it's ready.
+        with right_container:
+            phase_b = st.status(
+                "✨  Preparing the Chief Justice's answer…",
+                expanded=True,
+            )
+            with phase_b as status:
+                # ── 4. Compose ──
+                status.update(label="💭 Composing the Chief Justice's reply…")
+                try:
+                    context = build_context(ss.routing, artifacts)
+                    response_raw = "".join(
+                        generate_response_stream(
+                            client, ss.transcript, ss.routing, artifacts,
+                            conversation_history=None,
+                        )
+                    )
+                except Exception as e:
+                    ss.error = f"Composer failed: {type(e).__name__}: {e}"
+                    _card_error(ss)
+                    status.update(label="✗ Composer failed",
+                                  state="error", expanded=True)
+                    return
+                ss.response = _strip_stage_directions(response_raw)
+
+                # ── 5. Fidelity (advisory) ──
+                try:
+                    ss.fidelity = fidelity_check(client, context, ss.response)
+                except Exception:
+                    ss.fidelity = None
+                _card_fidelity(ss)      # only renders if a flag fired
+                _card_response(ss)      # full CJ response text card
+
+                # ── 6. TTS ──
+                status.update(label="🔊 Generating the spoken response…")
+                try:
+                    ss.audio_bytes = tts_concatenate_parallel(ss.response)
+                    cost = estimate_voice_cost(ss.response)
+                    ss.tts_meta = {
+                        "ok": True,
+                        "chunks": len(sentence_chunks(ss.response)),
+                        "cost_usd": cost["tts_usd"],
+                    }
+                except Exception as e:
+                    ss.tts_meta = {"ok": False, "error": str(e)[:200]}
+
+                # ── 7. Cost rollup ──
+                anthropic_cost = _anthropic_cost_since(cache_before)
+                tts_cost = ss.tts_meta.get("cost_usd", 0.0) \
+                           if ss.tts_meta and ss.tts_meta.get("ok") else 0.0
+                turn_cost = anthropic_cost + stt_cost + tts_cost
+                ss.last_turn_cost = turn_cost
+                ss.session_cost += turn_cost
+                ss.turn_count += 1
+                if isinstance(ss.tts_meta, dict):
+                    ss.tts_meta["breakdown"] = {
+                        "anthropic_usd": round(anthropic_cost, 5),
+                        "stt_usd": round(stt_cost, 5),
+                        "tts_usd": round(tts_cost, 5),
+                        "turn_usd": round(turn_cost, 5),
+                    }
+
+                # API spend is tracked in session_state but NOT shown
+                # (per spec point 5 — costs hidden from the visitor
+                # surface to keep the museum-front face clean).
+                status.update(
+                    label="✓  Answer ready",
+                    state="complete",
+                    expanded=True,
+                )
 
         ss.kiosk_state = "READY"
         ss.autoplay_pending = True
@@ -1022,43 +1197,66 @@ def _run_pipeline(audio_bytes: bytes) -> None:
 
 
 # ─── Console (button row) ─────────────────────────────────────────────────
-def _render_console(state: str) -> tuple[bool, bool, bool]:
-    """Three-column physical console. Returns (record, stop, play) click flags."""
-    st.markdown("<div class='console-row'>", unsafe_allow_html=True)
-    col1, col2, col3 = st.columns([1, 1, 1.4], gap="large")
+def _render_console(state: str):
+    """Twin-button control panel visually integrated as the bottom of
+    the glass container, followed by a symmetric two-column progress
+    row beneath.
 
-    with col1:
-        record_clicked = st.button(
-            "⏺  START",
-            key="btn_record",
-            disabled=state in {"RECORDING", "PROCESSING"},
-            use_container_width=True,
+       Button bar (inside .button-bar-glass — picks up the glass
+       panel's bottom corners so the two read as one panel):
+         • Left  — 🎙️ START/STOP : the audio_input widget, layered
+                   invisibly over a styled .glass-btn surface.
+         • Right — 🎧 MY RESPONSE : st.button, identical glass
+                   styling, disabled until READY.
+
+       Progress row (below the button bar, in .progress-row):
+         • left_progress   — STT, scope, routing
+         • right_progress  — composer, fidelity, TTS, response card
+
+       Returns: (audio_in, play_clicked, left_progress, right_progress)
+    """
+    ss = st.session_state
+
+    # ── Button bar (visually the bottom of the glass panel) ──
+    st.markdown("<div class='button-bar-glass'>", unsafe_allow_html=True)
+    bcol1, bcol2 = st.columns([1, 1], gap="large")
+
+    with bcol1:
+        # st.audio_input renders as the dark input bar shown in the
+        # screenshot. CSS replaces its mic icon with a text pill
+        # button labelled literally "START/STOP" (no mic glyph),
+        # matching the dark, clean aesthetic. The same button
+        # toggles recording on/off — visual state is signalled by a
+        # soft green tint on the pill (and a matching subtle green
+        # border on the bar) when capture is active. Selectors are
+        # un-scoped because Streamlit auto-orphans markdown wrapper
+        # divs; a parent-class qualifier never matches in practice.
+        audio_in = st.audio_input(
+            label="Press START to speak",
+            label_visibility="collapsed",
+            key=f"mic_{ss.mic_key}",
         )
-        st.markdown("<div class='btn-caption'>begin your question</div>",
-                    unsafe_allow_html=True)
 
-    with col2:
-        stop_clicked = st.button(
-            "⏹  STOP",
-            key="btn_stop",
-            disabled=state != "RECORDING",
-            use_container_width=True,
-        )
-        st.markdown("<div class='btn-caption'>cancel recording</div>",
-                    unsafe_allow_html=True)
-
-    with col3:
+    with bcol2:
         play_clicked = st.button(
-            "▶  PLAY",
+            "🎧  MY RESPONSE",
             key="btn_play",
             disabled=state != "READY",
             use_container_width=True,
         )
-        st.markdown("<div class='btn-caption'>🎧 hear the response</div>",
-                    unsafe_allow_html=True)
 
     st.markdown("</div>", unsafe_allow_html=True)
-    return record_clicked, stop_clicked, play_clicked
+
+    # ── Progress row (below the panel) ──
+    st.markdown("<div class='progress-row'>", unsafe_allow_html=True)
+    pcol1, pcol2 = st.columns([1, 1], gap="large")
+    with pcol1:
+        left_progress = st.container()
+    with pcol2:
+        right_progress = st.container()
+    st.markdown("</div>", unsafe_allow_html=True)
+
+    return audio_in, play_clicked, left_progress, right_progress
 
 
 def _autoplay_audio(audio_bytes: bytes) -> None:
@@ -1099,90 +1297,74 @@ def main() -> None:
     # Glass panel (header + robot + status pill)
     _render_glass_panel(ss.kiosk_state)
 
-    # Three-button console
-    record_clicked, stop_clicked, play_clicked = _render_console(ss.kiosk_state)
+    # Two-column console.
+    #   audio_in        — bytes from the styled audio_input widget
+    #                     (the visible START/STOP button)
+    #   play_clicked    — replay button (only enabled when READY)
+    #   left_progress   — column-1 container for STT/scope/routing
+    #   right_progress  — column-2 container for composer/fidelity/TTS
+    audio_in, play_clicked, left_progress, right_progress = \
+        _render_console(ss.kiosk_state)
 
-    # The audio_input widget is the actual mic capture surface. We show
-    # it only while RECORDING so visitors aren't confused by an extra
-    # control in the IDLE state.
-    if ss.kiosk_state == "RECORDING":
-        st.markdown("<div class='compact-mic'>", unsafe_allow_html=True)
-        audio_in = st.audio_input(
-            "Speak now — press the stop button on the recorder when done.",
-            key=f"mic_{ss.mic_key}",
-        )
-        st.markdown("</div>", unsafe_allow_html=True)
-        if audio_in is not None:
-            audio_bytes = audio_in.getvalue()
-            if audio_bytes and len(audio_bytes) > 1024:
-                ss.kiosk_state = "PROCESSING"
-                # Avoid underscore-prefix attribute on st.session_state —
-                # Streamlit treats those as private in some versions, which
-                # caused the value to silently never persist, bouncing the
-                # state machine back to IDLE without running the pipeline.
-                ss["pending_audio"] = audio_bytes
+    # Note on the START/STOP label swap: the audio_input widget runs
+    # client-side; Python never sees the "user pressed mic" event.
+    # We can't flip kiosk_state from RECORDING→IDLE based on the
+    # widget's state. The label swap is driven entirely by CSS
+    # :has() that targets the audio_input's stop-button aria-label
+    # while recording (see _inject_css). This is purely cosmetic —
+    # the inline-pipeline trigger below is what actually moves
+    # forward when bytes arrive.
+
+    # ─── Inline pipeline trigger ──────────────────────────────────────
+    # When new audio bytes land, hash them and run the pipeline
+    # inline (no PROCESSING state, no session-state handoff). The
+    # hash guard prevents re-firing on subsequent reruns while the
+    # same blob is still attached to the widget.
+    if audio_in is not None:
+        audio_bytes = audio_in.getvalue()
+        if audio_bytes and len(audio_bytes) > 1024:
+            audio_hash = hashlib.md5(audio_bytes).hexdigest()
+            if audio_hash != ss.get("last_audio_hash", ""):
+                ss["last_audio_hash"] = audio_hash
+                # Clear any cached cards in the two column containers
+                # so the live phases write into a clean canvas.
+                left_progress.empty()
+                right_progress.empty()
+                _run_pipeline(audio_bytes, left_progress, right_progress)
+                if ss.error:
+                    st.error(ss.error)
+                    ss.kiosk_state = "IDLE"
+                # Always bump mic_key so the NEXT recording opens a
+                # fresh audio_input widget — otherwise the previous
+                # blob is still attached and the hash guard would
+                # block the visitor from ever asking a new question.
+                ss.mic_key += 1
                 st.rerun()
 
-    # PROCESSING — run the pipeline. _run_pipeline() now opens its
-    # own st.status() block (the "live drop-down") and writes each
-    # step's card into it the moment that step completes. The visitor
-    # watches each ✓ land in real time; no spinner needed.
-    if ss.kiosk_state == "PROCESSING":
-        pending = ss.pop("pending_audio", None)
-        if pending is None:
-            # Should never happen with the renamed key, but surface a
-            # visible error instead of silently bouncing to IDLE so any
-            # future regression is obvious immediately.
-            st.error(
-                "Pipeline did not receive the recording (audio bytes "
-                "were lost between RECORDING and PROCESSING). Press "
-                "**START** to try again."
-            )
-            ss.kiosk_state = "IDLE"
-            st.stop()
-        st.markdown("<div class='progress-shell'>", unsafe_allow_html=True)
-        _run_pipeline(pending)
-        st.markdown("</div>", unsafe_allow_html=True)
-        if ss.error:
-            st.error(ss.error)
-            ss.kiosk_state = "IDLE"
-        st.rerun()
+    # ─── Cached column drop-downs on the post-pipeline rerun ──────────
+    # After the pipeline finishes we st.rerun(), which discards the
+    # in-place st.status() blocks. Re-populate the two column
+    # containers from session_state so the visitor still sees the
+    # full breakdown in the SAME column slots they watched live.
+    if ss.kiosk_state == "READY" and ss.transcript:
+        with left_progress:
+            with st.expander("🔍  Question intake", expanded=True):
+                _card_transcribed(ss)
+                _card_scope(ss)
+                _card_routing(ss)
+        with right_progress:
+            with st.expander("🔍  Answer ready", expanded=True):
+                _card_response(ss)
+                _card_fidelity(ss)
 
-    # READY — auto-play once, then keep PLAY button available for replay.
+    # ─── Auto-play on first READY entry, PLAY for replay ──────────────
     if ss.kiosk_state == "READY" and ss.audio_bytes:
         if ss.autoplay_pending:
             _autoplay_audio(ss.audio_bytes)
             ss.autoplay_pending = False
 
-    # Button transitions
-    if record_clicked:
-        # Bump the mic key so the audio_input widget renders fresh.
-        ss.mic_key += 1
-        ss.kiosk_state = "RECORDING"
-        st.rerun()
-    if stop_clicked:
-        ss.kiosk_state = "IDLE"
-        ss.mic_key += 1
-        st.rerun()
     if play_clicked and ss.audio_bytes:
         _autoplay_audio(ss.audio_bytes)
-
-    # Inline pipeline-details dropdown. During PROCESSING the
-    # st.status() inside _run_pipeline() is the live drop-down.
-    # During READY (and onwards), a regular st.expander() carries
-    # the cached cards. We default to expanded=True so the visitor
-    # sees the full pipeline result on the screen they arrive at
-    # after pressing STOP — same view they saw inside the live
-    # status block, just persisted across the rerun.
-    if ss.kiosk_state == "READY" and ss.transcript:
-        st.markdown("<div class='progress-shell'>", unsafe_allow_html=True)
-        with st.expander(
-            f"🔍 Pipeline details — turn ${ss.last_turn_cost:.4f} · "
-            f"session ${ss.session_cost:.4f}",
-            expanded=True,
-        ):
-            _render_cards(ss)
-        st.markdown("</div>", unsafe_allow_html=True)
 
 
 if __name__ == "__main__":

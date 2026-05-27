@@ -133,10 +133,10 @@ TTS_MODEL_DEFAULT = os.environ.get("OPENAI_TTS_MODEL", "tts-1")
 # voice set — fits CJP's measured judicial register and works on the
 # default low-cost tts-1 model (no model swap required).
 TTS_VOICE_DEFAULT = os.environ.get("OPENAI_TTS_VOICE", "echo")
-# Speech speed — tts-1 supports 0.25 to 4.0. CJP speaks at a very
-# relaxed pace; 0.75 lands just below the typical recommended floor
-# for the deliberate, reflective judicial cadence the user wants.
-TTS_SPEED_DEFAULT = float(os.environ.get("OPENAI_TTS_SPEED", "0.75"))
+# Speech speed — tts-1 supports 0.25 to 4.0. 0.97 sits just below
+# normal pace so the delivery still feels measured without dragging,
+# which the user landed on after A/B-testing 0.75 → 0.97.
+TTS_SPEED_DEFAULT = float(os.environ.get("OPENAI_TTS_SPEED", "0.97"))
 
 
 # ============================================================
