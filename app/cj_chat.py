@@ -741,7 +741,7 @@ def generate_response(
 
     resp = client.messages.create(
         model=INFERENCE_MODEL,
-        max_tokens=600,  # spoken responses ~80-250 words = ~120-350 tokens
+        max_tokens=300,  # spoken responses ~20-150 words = ~30-225 tokens (post-50% compression)
         system=[{
             "type": "text",
             "text": artifacts.voice_card,
@@ -789,7 +789,7 @@ def generate_response_stream(
 
     with client.messages.stream(
         model=INFERENCE_MODEL,
-        max_tokens=600,
+        max_tokens=300,  # spoken responses ~20-150 words = ~30-225 tokens (post-50% compression)
         system=[{
             "type": "text",
             "text": artifacts.voice_card,

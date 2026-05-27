@@ -132,11 +132,13 @@ TTS_MODEL_DEFAULT = os.environ.get("OPENAI_TTS_MODEL", "tts-1")
 # Default `echo` is a lighter, articulate male voice in the `tts-1`
 # voice set — fits CJP's measured judicial register and works on the
 # default low-cost tts-1 model (no model swap required).
+# Iteration history: nova (wrong gender) → onyx → spruce → echo →
+# onyx → echo (current). All remain available via OPENAI_TTS_VOICE.
 TTS_VOICE_DEFAULT = os.environ.get("OPENAI_TTS_VOICE", "echo")
-# Speech speed — tts-1 supports 0.25 to 4.0. 0.97 sits just below
+# Speech speed — tts-1 supports 0.25 to 4.0. 0.98 sits just below
 # normal pace so the delivery still feels measured without dragging,
-# which the user landed on after A/B-testing 0.75 → 0.97.
-TTS_SPEED_DEFAULT = float(os.environ.get("OPENAI_TTS_SPEED", "0.97"))
+# which the user landed on after A/B-testing 0.75 → 0.97 → 0.98.
+TTS_SPEED_DEFAULT = float(os.environ.get("OPENAI_TTS_SPEED", "0.98"))
 
 
 # ============================================================

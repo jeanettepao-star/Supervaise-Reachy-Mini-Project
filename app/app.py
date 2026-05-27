@@ -552,6 +552,15 @@ def _inject_css() -> None:
     [data-testid='stAudioInput'] [data-testid='stAudioInputDeleteBtn'] {
         display: none !important;
     }
+    /* Hide every button inside the audio_input EXCEPT the record/
+       stop button. After recording stops, Streamlit renders a
+       second "Play" button (so the visitor can preview the clip)
+       — we styled BOTH buttons as START/STOP pills which caused
+       the duplicate side-by-side bug. Restricting visibility to
+       just the record/stop button leaves a single pill. */
+    [data-testid='stAudioInput'] button:not([aria-label*='record' i]):not([aria-label*='stop' i]):not([title*='record' i]):not([title*='stop' i]) {
+        display: none !important;
+    }
 
     /* ── The mic-icon button → text-based START/STOP pill ──────────
        Per spec: NO mic icon, label is literally "START/STOP". The
