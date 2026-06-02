@@ -1,0 +1,16 @@
+# Build artefacts committed for runtime hermeticity:
+#
+#   dist/wake_word.bundle.js   ← committed (kiosk loads it)
+#   dist/pcm-worklet.js        ← committed (AudioWorklet asset)
+#   models/melspectrogram.onnx ← committed (auto-fetched, pinned)
+#   models/embedding_model.onnx ← committed (auto-fetched, pinned)
+#   models/silero_vad.onnx     ← committed (auto-fetched, pinned)
+#   models/wake_word.onnx      ← committed when operator trains it
+#   models/ort/*.wasm          ← committed (ONNX Runtime Web)
+#
+# Everything else npm produces is build-local clutter.
+node_modules/
+package-lock.json
+.vite/
+*.tsbuildinfo
+.DS_Store
