@@ -83,13 +83,11 @@ try:
     )
     from voice_io import (
         estimate_voice_cost,
-        measure_mp3_duration_ms,
         sentence_chunks,
         transcribe_openai,
         tts_concatenate_parallel,
         voice_io_summary,
     )
-    from wake_word import wake_word_continuous
 except Exception as e:  # pragma: no cover — surfaced in the banner below
     _IMPORT_ERROR = f"{type(e).__name__}: {e}"
 
@@ -252,35 +250,13 @@ def _preflight() -> None:
         )
         st.stop()
 
-    # ── Wake-word model file is SOFT — warn but do not block.
-    # The kiosk's pipeline still works via the legacy push-to-talk
-    # surface if the operator hasn't trained the "Hey CJP" model yet.
-    _wake_model = (_APP_DIR / "components" / "wake_word_continuous"
-                   / "models" / "wake_word.onnx")
-    _wake_bundle = (_APP_DIR / "components" / "wake_word_continuous"
-                    / "dist" / "wake_word.bundle.js")
-    if not _wake_model.exists():
-        st.warning(
-            "Trained wake-word model missing: "
-            f"`{_wake_model.relative_to(_APP_DIR)}` not found. The kiosk "
-            "will fall back to the START/STOP push-to-talk button. "
-            "See `app/components/wake_word_continuous/TRAINING.md` for "
-            "the offline training pipeline to produce the \"Hey CJP\" "
-            "classifier."
-        )
-
 
 # ─── Session state ────────────────────────────────────────────────────────
 def _init_state() -> None:
     ss = st.session_state
-    ss.setdefault("kiosk_state", "IDLE")          # IDLE / READY  (only IDLE → READY is set from Python; recording is owned client-side)
-    ss.setdefault("mic_key", 0)                   # bump to force audio_input reset (legacy push-to-talk path)
+    ss.setdefault("kiosk_state", "IDLE")          # IDLE / READY  (only IDLE → READY is set from Python; recording is owned by st.audio_input client-side)
+    ss.setdefault("mic_key", 0)                   # bump to force audio_input reset
     ss.setdefault("last_audio_hash", "")          # md5 of last-processed recording; guards against re-running pipeline on rerun
-    # ─── Wake-word continuous loop state ──────────────────────────────
-    ss.setdefault("kiosk_armed", False)           # one-time visitor gesture before mic permission is requested
-    ss.setdefault("is_busy", False)               # True while the pipeline is running; component drops wake fires
-    ss.setdefault("tts_duration_ms", 0)           # set just before autoplay; component arms its resume timer
-    ss.setdefault("component_status", "IDLE")     # latest __status the wake-word component reported
     ss.setdefault("transcript", "")               # last user query (Whisper)
     ss.setdefault("response", "")                 # last CJ text response
     ss.setdefault("audio_bytes", None)            # last TTS MP3 blob
@@ -1191,15 +1167,8 @@ def _run_pipeline(audio_bytes: bytes, left_container, right_container) -> None:
                         "chunks": len(sentence_chunks(ss.response)),
                         "cost_usd": cost["tts_usd"],
                     }
-                    # Measure playback duration so the wake-word
-                    # component can suppress its detector for the
-                    # exact length of CJ's reply (+ a 500 ms safety
-                    # tail). Falls back to a conservative constant if
-                    # pydub/ffmpeg isn't available.
-                    ss.tts_duration_ms = measure_mp3_duration_ms(ss.audio_bytes)
                 except Exception as e:
                     ss.tts_meta = {"ok": False, "error": str(e)[:200]}
-                    ss.tts_duration_ms = 0
 
                 # ── 7. Cost rollup ──
                 anthropic_cost = _anthropic_cost_since(cache_before)
@@ -1337,135 +1306,49 @@ def main() -> None:
     # Glass panel (header + robot + status pill)
     _render_glass_panel(ss.kiosk_state)
 
-    # Mark the page armed so CSS can hide the legacy push-to-talk
-    # START/STOP pill (it would otherwise sit next to the new
-    # LISTENING pill from the wake-word component).
-    if ss.kiosk_armed:
-        st.markdown(
-            "<style>"
-            "[data-testid='stAudioInput'] { display: none !important; }"
-            "</style>",
-            unsafe_allow_html=True,
-        )
-
-    # ── ACTIVATE-KIOSK GATE ──────────────────────────────────────────
-    # The wake-word component is NEVER mounted before the visitor
-    # presses Activate — otherwise the browser's mic-permission
-    # dialog pops on page load, which is the textbook intrusive
-    # prompt museum visitors find off-putting. `st.stop()` makes
-    # this airtight: nothing below runs until armed.
-    wake_available = (
-        (_APP_DIR / "components" / "wake_word_continuous"
-         / "models" / "wake_word.onnx").exists()
-        and (_APP_DIR / "components" / "wake_word_continuous"
-             / "dist" / "wake_word.bundle.js").exists()
-        and (_APP_DIR / "components" / "wake_word_continuous"
-             / "dist" / "wake_word.bundle.js").stat().st_size > 4096
-    )
-    if wake_available and not ss.kiosk_armed:
-        st.markdown(
-            "<div style='max-width: 720px; margin: 1.6rem auto 0.6rem; "
-            "text-align: center; color: #c1c7d6; font-family: \"Inter\", "
-            "sans-serif; font-size: 0.95rem; line-height: 1.55;'>"
-            "Press <b>Activate Kiosk</b> below, then say "
-            "<b>“Hey CJP”</b> or just <b>“CJP”</b> followed by your "
-            "question. After 5 seconds of silence the Chief Justice "
-            "will reply. Subsequent questions need no further taps."
-            "</div>",
-            unsafe_allow_html=True,
-        )
-        col_l, col_c, col_r = st.columns([1, 1, 1])
-        with col_c:
-            if st.button(
-                "🎤  ACTIVATE KIOSK",
-                key="btn_activate",
-                use_container_width=True,
-                type="primary",
-            ):
-                ss.kiosk_armed = True
-                st.rerun()
-        st.stop()
-
     # Two-column console.
-    #   audio_in        — bytes from the legacy push-to-talk widget
-    #                     (used only when wake-word is not armed)
+    #   audio_in        — bytes from the styled audio_input widget
+    #                     (the visible START/STOP button)
     #   play_clicked    — replay button (only enabled when READY)
     #   left_progress   — column-1 container for STT/scope/routing
     #   right_progress  — column-2 container for composer/fidelity/TTS
     audio_in, play_clicked, left_progress, right_progress = \
         _render_console(ss.kiosk_state)
 
-    # ── WAKE-WORD CONTINUOUS LOOP ────────────────────────────────────
-    # When the kiosk is armed AND the openWakeWord bundle + the
-    # trained "Hey CJP" classifier are both present, mount the
-    # wake-word component INSIDE the left console column so the live
-    # LISTENING / CAPTURING / THINKING / SPEAKING pill replaces the
-    # old START/STOP push-to-talk pill. All ONNX inference (mel-spec
-    # → embedding → wake-word classifier + Silero VAD) runs in the
-    # browser via ONNX Runtime Web; Python just reads the latest
-    # payload.
-    payload = None
-    if ss.kiosk_armed and wake_available:
-        with left_progress:                # render the pill in column 1
-            payload = wake_word_continuous(
-                enabled=True,
-                silence_ms=5000,
-                max_question_ms=20000,
-                is_busy=ss.get("is_busy", False),
-                tts_duration_ms=ss.get("tts_duration_ms", 0),
-                key="hey_cjp_continuous",
-            )
-        # Cache the latest component-reported state so the cached-
-        # state branch below (post-pipeline rerun) can paint the
-        # same pill before any new component message arrives.
-        if isinstance(payload, dict) and payload.get("__status"):
-            ss.component_status = payload["__status"]
+    # Note on the START/STOP label swap: the audio_input widget runs
+    # client-side; Python never sees the "user pressed mic" event.
+    # We can't flip kiosk_state from RECORDING→IDLE based on the
+    # widget's state. The label swap is driven entirely by CSS
+    # :has() that targets the audio_input's stop-button aria-label
+    # while recording (see _inject_css). This is purely cosmetic —
+    # the inline-pipeline trigger below is what actually moves
+    # forward when bytes arrive.
 
-    # ── UNIFIED AUDIO FUNNEL ─────────────────────────────────────────
-    # Two source paths feed the same hash-of-bytes guard:
-    #   (a) wake-word component  → payload["audio_b64"] → WAV bytes
-    #   (b) legacy push-to-talk  → audio_in.getvalue()  → WAV bytes
-    # Path (b) is the fallback when either the bundle is unbuilt or
-    # the trained "Hey CJP" classifier is missing. The guard, the
-    # _run_pipeline call site, and the post-pipeline rerun are
-    # IDENTICAL across both paths — non-negotiable per the wake-word
-    # spec ("the hash-of-bytes guard must survive unchanged").
-    new_bytes: bytes | None = None
-    if isinstance(payload, dict) and payload.get("audio_b64"):
-        try:
-            new_bytes = base64.b64decode(payload["audio_b64"])
-        except Exception:
-            new_bytes = None
-    elif audio_in is not None:
-        candidate = audio_in.getvalue()
-        if candidate and len(candidate) > 1024:
-            new_bytes = candidate
-
-    if new_bytes:
-        audio_hash = hashlib.md5(new_bytes).hexdigest()
-        if audio_hash != ss.get("last_audio_hash", ""):
-            ss["last_audio_hash"] = audio_hash
-            # Flip is_busy=True BEFORE running the pipeline so the
-            # wake-word component drops any threshold-cross events
-            # that land during processing. The component prop will
-            # pick this up on the NEXT render, which is fine — the
-            # component is also paused via the SUSPENDED_FOR_PROCESSING
-            # state it already entered when it sent us bytes.
-            ss.is_busy = True
-            left_progress.empty()
-            right_progress.empty()
-            _run_pipeline(new_bytes, left_progress, right_progress)
-            # Pipeline complete — clear busy and let the component
-            # enter SUSPENDED_FOR_PLAYBACK using ss.tts_duration_ms
-            # (set inside _run_pipeline after TTS).
-            ss.is_busy = False
-            if ss.error:
-                st.error(ss.error)
-                ss.kiosk_state = "IDLE"
-            # Bump mic_key so legacy audio_input opens a fresh widget
-            # on the next turn (no effect on the wake-word path).
-            ss.mic_key += 1
-            st.rerun()
+    # ─── Inline pipeline trigger ──────────────────────────────────────
+    # When new audio bytes land, hash them and run the pipeline
+    # inline (no PROCESSING state, no session-state handoff). The
+    # hash guard prevents re-firing on subsequent reruns while the
+    # same blob is still attached to the widget.
+    if audio_in is not None:
+        audio_bytes = audio_in.getvalue()
+        if audio_bytes and len(audio_bytes) > 1024:
+            audio_hash = hashlib.md5(audio_bytes).hexdigest()
+            if audio_hash != ss.get("last_audio_hash", ""):
+                ss["last_audio_hash"] = audio_hash
+                # Clear any cached cards in the two column containers
+                # so the live phases write into a clean canvas.
+                left_progress.empty()
+                right_progress.empty()
+                _run_pipeline(audio_bytes, left_progress, right_progress)
+                if ss.error:
+                    st.error(ss.error)
+                    ss.kiosk_state = "IDLE"
+                # Always bump mic_key so the NEXT recording opens a
+                # fresh audio_input widget — otherwise the previous
+                # blob is still attached and the hash guard would
+                # block the visitor from ever asking a new question.
+                ss.mic_key += 1
+                st.rerun()
 
     # ─── Cached column drop-downs on the post-pipeline rerun ──────────
     # After the pipeline finishes we st.rerun(), which discards the

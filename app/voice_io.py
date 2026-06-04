@@ -435,34 +435,6 @@ def voice_io_summary() -> dict[str, object]:
     }
 
 
-# ============================================================
-# Playback duration measurement — used by the wake-word
-# component's SUSPENDED_FOR_PLAYBACK timer (so the kiosk knows
-# how long to mute the wake detector while CJ is speaking).
-# ============================================================
-def measure_mp3_duration_ms(mp3_bytes: bytes) -> int:
-    """Return the duration of an MP3 blob in whole milliseconds.
-
-    Uses pydub when available (accurate, decoder-based). Falls back
-    to a conservative 8000 ms constant if pydub or its ffmpeg
-    backend can't be loaded — the wake-word component's
-    SUSPENDED_FOR_PLAYBACK timer just gets a longer-than-necessary
-    pause in that case, which still prevents self-trigger; it
-    simply costs a beat of extra silence between turns.
-    """
-    if not mp3_bytes:
-        return 0
-    try:
-        from pydub import AudioSegment  # type: ignore
-        seg = AudioSegment.from_file(io.BytesIO(mp3_bytes), format="mp3")
-        return int(len(seg))            # pydub.AudioSegment.__len__ → ms
-    except Exception:
-        # Soft fallback — 8 s is longer than any of our compressed
-        # CJ responses (≤210 words @ tts-1 0.98 speed ≈ 75 s max in
-        # principle, but the typical answer is 4-12 s).
-        return 8000
-
-
 __all__ = [
     "transcribe_openai",
     "add_reflective_pauses",
@@ -470,7 +442,6 @@ __all__ = [
     "tts_chunks_parallel_async",
     "tts_concatenate_parallel",
     "estimate_voice_cost",
-    "measure_mp3_duration_ms",
     "voice_io_summary",
     "STT_MODEL_DEFAULT",
     "TTS_MODEL_DEFAULT",
