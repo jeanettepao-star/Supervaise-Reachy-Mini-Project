@@ -23,6 +23,11 @@ voices/piper*
 # Whisper model cache
 .cache/
 models/
+# But DO commit the trained wake-word classifier — it's the runtime
+# artefact we ship (~210 kB single ONNX). Exempt this specific path
+# from the generic `models/` rule above.
+!wake/models/
+!wake/models/*.onnx
 
 # OS
 .DS_Store

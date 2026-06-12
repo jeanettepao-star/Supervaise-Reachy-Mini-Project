@@ -23,42 +23,59 @@ If those files don't exist, the app falls back to:
   • a polished inline SVG of the Reachy Mini "Curious" pose,
   • a CSS-only gallery backdrop (vertical gradient + soft uplighting).
 
-State machine (simplified — only IDLE and READY are set from Python;
-the audio_input widget owns the actual recording state client-side):
+State machine (PLAN-0008 Task 2 — hands-free wake-word integration):
 
-   IDLE  ── audio_input captures bytes ──▶ (inline pipeline) ──▶ READY
-     ▲                                                              │
-     │                                                          PLAY tap
-     └──────────────────────  (new question)  ◀────────────────────┘
+   OFF                      page just loaded — wake engine NOT running
+     │  ▲                   UI: large gold "START" power button
+     │  │ STOP pressed
+     ▼  │
+   SLEEPING                 wake engine running, autorefresh polling
+     │  ▲                   poll_detection() at 500 ms.
+     │  │                   UI: "Say 'Hey CJ' to begin"
+     │  │ TTS done + 1.5 s
+     │  │ grace
+     │  │
+     ▼  │
+   LISTENING                engine.stop() releases mic; record_until_silence
+     │                      blocks until end-of-speech OR 7 s no-speech
+     │                      timeout.  UI: prominent "Listening… speak now"
+     ▼
+   PROCESSING               existing _run_pipeline runs verbatim (STT → gate
+     │                      → router → composer → fidelity → TTS).
+     │                      UI: two-column live progress.
+     ▼
+   RESPONDING               audio plays via HTML <audio autoplay>.
+     │                      autorefresh polls _tts_done() (started_at +
+     │                      measured_duration + 1.5 s grace).  Cards stay
+     │                      visible.
+     ▼
+   (back to SLEEPING)       engine.start() restarts — EVERY new question
+                            requires "Hey CJ" again.
 
-The visible "⏺ START" ↔ "⏹ STOP" label toggle on the START button
-is pure CSS (`:has(button[aria-label*='stop'])`) — it watches the
-audio_input's own internal stop control, no Python signalling.
-
-Pipeline (runs INLINE on the same script execution that captured
-the audio bytes — no PROCESSING state, no session-state handoff.
-Hash-of-bytes guard prevents re-firing across reruns):
-   recorded WAV bytes
+Pipeline runs INLINE during PROCESSING, unchanged from the previous
+audio_input-driven design:
+   captured WAV path
      → OpenAI Whisper (STT)             → user transcript
      → Haiku Input Gate                 → scope: in_corpus / OOC / META
      → Haiku Router (or META override)  → topic_paths
      → Sonnet Composer (streamed)       → CJ response text
      → Haiku Fidelity Check             → advisory flags
-     → OpenAI TTS (parallel per sent.)  → MP3 bytes ready for PLAY
+     → OpenAI TTS (parallel per sent.)  → MP3 bytes for autoplay
 """
 
 from __future__ import annotations
 
 import base64
-import hashlib
 import os
 import sys
 import tempfile
+import threading
 import time
 from pathlib import Path
 
 # ─── Streamlit & in-repo modules (lazy-tolerant imports) ──────────────────
 import streamlit as st
+from streamlit_autorefresh import st_autorefresh
 
 _APP_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(_APP_DIR))
@@ -78,16 +95,19 @@ try:
         input_gate,
         loaded_env_summary,
         make_client,
+        record_until_silence,
         route_question,
         _strip_stage_directions,
     )
     from voice_io import (
         estimate_voice_cost,
+        measure_mp3_duration_ms,
         sentence_chunks,
         transcribe_openai,
         tts_concatenate_parallel,
         voice_io_summary,
     )
+    from wake.engine import WakeWordEngine
 except Exception as e:  # pragma: no cover — surfaced in the banner below
     _IMPORT_ERROR = f"{type(e).__name__}: {e}"
 
@@ -254,9 +274,7 @@ def _preflight() -> None:
 # ─── Session state ────────────────────────────────────────────────────────
 def _init_state() -> None:
     ss = st.session_state
-    ss.setdefault("kiosk_state", "IDLE")          # IDLE / READY  (only IDLE → READY is set from Python; recording is owned by st.audio_input client-side)
-    ss.setdefault("mic_key", 0)                   # bump to force audio_input reset
-    ss.setdefault("last_audio_hash", "")          # md5 of last-processed recording; guards against re-running pipeline on rerun
+    ss.setdefault("kiosk_state", "OFF")            # OFF / SLEEPING / LISTENING / PROCESSING / RESPONDING (PLAN-0008 Task 2)
     ss.setdefault("transcript", "")               # last user query (Whisper)
     ss.setdefault("response", "")                 # last CJ text response
     ss.setdefault("audio_bytes", None)            # last TTS MP3 blob
@@ -266,7 +284,18 @@ def _init_state() -> None:
     ss.setdefault("tts_meta", None)               # cost / chunk count
     ss.setdefault("error", None)                  # last pipeline error string
     ss.setdefault("show_drawer", False)           # diagnostics drawer visible
-    ss.setdefault("autoplay_pending", False)      # play once when entering READY
+    ss.setdefault("autoplay_pending", False)      # play once when entering RESPONDING
+    # Wake-word + capture state (PLAN-0008 Task 2)
+    # NB: the wake engine itself lives at MODULE scope (singleton) as of
+    # the 2026-06-11 Bug B fix. Per-session state only tracks whether
+    # THIS session currently owns the turn-lock.
+    ss.setdefault("holds_turn_lock", False)       # this session is mid-turn (LISTENING/PROCESSING/RESPONDING)
+    ss.setdefault("wake_detection", None)         # last detection dict from poll_detection()
+    ss.setdefault("wake_poll_count", 0)           # SLEEPING-poll tick counter (logs)
+    ss.setdefault("wake_poll_last_t", 0.0)        # epoch-seconds of last SLEEPING poll (logs)
+    ss.setdefault("pending_audio_bytes", None)    # WAV bytes from LISTENING → PROCESSING handoff
+    ss.setdefault("tts_started_at", None)         # epoch-seconds when RESPONDING audio element rendered
+    ss.setdefault("tts_duration_s", 0.0)          # measured MP3 duration for TTS-done timer
     # Running API cost (USD) — updated after every successful turn
     ss.setdefault("session_cost", 0.0)
     ss.setdefault("last_turn_cost", 0.0)
@@ -439,6 +468,25 @@ def _inject_css() -> None:
                               background: rgba(242, 196, 78, 0.10); }
     .status-pill.READY .dot { background: #f2c44e;
                                box-shadow: 0 0 12px #f2c44e; }
+    /* PLAN-0008 Task 2 — wake-word state pills */
+    .status-pill.OFF        { color: #9aa0b0; border-color: rgba(154,160,176,0.45); }
+    .status-pill.OFF .dot   { background: #9aa0b0; }
+    .status-pill.SLEEPING   { color: #66b3ff; border-color: rgba(102,179,255,0.55);
+                              animation: pulse-glow 2.4s ease-in-out infinite; }
+    .status-pill.SLEEPING .dot { background: #66b3ff;
+                                  box-shadow: 0 0 8px #66b3ff; }
+    .status-pill.LISTENING  { color: #ff6b6b; border-color: rgba(255,107,107,0.65);
+                              background: rgba(255,107,107,0.10);
+                              animation: pulse-glow 0.7s ease-in-out infinite; }
+    .status-pill.LISTENING .dot { background: #ff6b6b;
+                                   box-shadow: 0 0 14px #ff6b6b; }
+    .status-pill.PROCESSING { color: #66b3ff; border-color: rgba(102,179,255,0.55); }
+    .status-pill.PROCESSING .dot { background: #66b3ff;
+                                    animation: pulse-glow 0.9s ease-in-out infinite; }
+    .status-pill.RESPONDING { color: #f2c44e; border-color: rgba(242,196,78,0.65);
+                              background: rgba(242, 196, 78, 0.10); }
+    .status-pill.RESPONDING .dot { background: #f2c44e;
+                                    box-shadow: 0 0 12px #f2c44e; }
     @keyframes pulse-glow {
         0%, 100% { opacity: 1.0; }
         50%      { opacity: 0.45; }
@@ -468,6 +516,105 @@ def _inject_css() -> None:
     .museum-glass.ready .robot-frame img {
         filter: drop-shadow(0 0 22px rgba(242, 196, 78, 0.50))
                 drop-shadow(0 18px 24px rgba(0,0,0,0.45));
+    }
+    /* PLAN-0008 Task 2 — robot glow for the new states. OFF is the
+       default unshadowed look; SLEEPING is a calm blue idle glow;
+       LISTENING is a strong red HOT-MIC accent; RESPONDING reuses
+       the existing gold ready treatment. */
+    .museum-glass.sleeping .robot-frame svg,
+    .museum-glass.sleeping .robot-frame img {
+        filter: drop-shadow(0 0 22px rgba(102, 179, 255, 0.55))
+                drop-shadow(0 18px 24px rgba(0,0,0,0.45));
+    }
+    .museum-glass.listening .robot-frame svg,
+    .museum-glass.listening .robot-frame img {
+        filter: drop-shadow(0 0 32px rgba(255, 107, 107, 0.70))
+                drop-shadow(0 18px 24px rgba(0,0,0,0.45));
+    }
+    .museum-glass.responding .robot-frame svg,
+    .museum-glass.responding .robot-frame img {
+        filter: drop-shadow(0 0 22px rgba(242, 196, 78, 0.50))
+                drop-shadow(0 18px 24px rgba(0,0,0,0.45));
+    }
+
+    /* ── Prominent "Listening… speak now" cue ──────────────────────
+       Rendered the instant we enter LISTENING, BEFORE the blocking
+       record_until_silence call, so the visitor sees a clear "WHEN
+       to speak" signal even though the page is frozen during
+       capture. Bright red pulse on a soft red-tinted glass card. */
+    .listening-cue {
+        display: flex; align-items: center; justify-content: center;
+        gap: 1.0rem;
+        max-width: 720px;
+        margin: 1.0rem auto 0.4rem;
+        padding: 1.2rem 2rem;
+        background: rgba(255, 107, 107, 0.10);
+        border: 1.5px solid rgba(255, 107, 107, 0.55);
+        border-radius: 16px;
+        box-shadow: 0 0 36px -8px rgba(255, 107, 107, 0.55);
+    }
+    .listening-pulse {
+        width: 22px; height: 22px; border-radius: 50%;
+        background: #ff6b6b;
+        box-shadow: 0 0 18px #ff6b6b;
+        animation: pulse-glow 0.7s ease-in-out infinite;
+    }
+    .listening-label {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.5rem; font-weight: 600;
+        letter-spacing: 1.6px;
+        color: #ff6b6b;
+        text-transform: uppercase;
+    }
+
+    /* ── Single START/STOP power button (PLAN-0008 Task 2) ─────────
+       Replaces the prior twin audio_input + MY-RESPONSE bar. Lives
+       inside the .button-bar-glass wrapper for visual continuity
+       with the glass panel above it. Gold ring in OFF (power-on
+       affordance), red ring in any other state (power-off
+       affordance), disabled-grey while a turn is in flight. */
+    .button-bar-glass [data-testid='stButton'] button {
+        width: 100% !important;
+        height: 64px !important;
+        border-radius: 14px !important;
+        background: rgba(20, 24, 38, 0.55) !important;
+        backdrop-filter: blur(10px) saturate(140%) !important;
+        -webkit-backdrop-filter: blur(10px) saturate(140%) !important;
+        border: 1.5px solid rgba(242, 196, 78, 0.50) !important;
+        color: #f2c44e !important;
+        font-family: 'Inter', sans-serif !important;
+        font-size: 1.0rem !important;
+        font-weight: 700 !important;
+        letter-spacing: 2.5px !important;
+        text-transform: uppercase !important;
+        box-shadow:
+            0 0 24px -8px rgba(242, 196, 78, 0.45),
+            0 8px 22px -12px rgba(0, 0, 0, 0.55) !important;
+        transition: background 0.2s ease, border-color 0.2s ease,
+                    transform 0.12s ease, opacity 0.15s ease !important;
+    }
+    .button-bar-glass [data-testid='stButton'] button:hover:not(:disabled) {
+        background: rgba(242, 196, 78, 0.10) !important;
+        border-color: rgba(242, 196, 78, 0.85) !important;
+        transform: translateY(-2px) !important;
+    }
+    .button-bar-glass.power-off [data-testid='stButton'] button:not(:disabled) {
+        border-color: rgba(255, 107, 107, 0.55) !important;
+        color: #ff6b6b !important;
+        box-shadow:
+            0 0 24px -8px rgba(255, 107, 107, 0.55),
+            0 8px 22px -12px rgba(0, 0, 0, 0.55) !important;
+    }
+    .button-bar-glass.power-off [data-testid='stButton'] button:hover:not(:disabled) {
+        background: rgba(255, 107, 107, 0.10) !important;
+        border-color: rgba(255, 107, 107, 0.85) !important;
+    }
+    .button-bar-glass [data-testid='stButton'] button:disabled {
+        opacity: 0.35 !important;
+        border-color: rgba(154, 160, 176, 0.35) !important;
+        color: #9aa0b0 !important;
+        box-shadow: none !important;
+        cursor: not-allowed !important;
     }
 
     /* ── Glass panel — round only TOP corners; the button bar below
@@ -778,9 +925,11 @@ def _inject_css() -> None:
 # ─── Status pill / glass panel ────────────────────────────────────────────
 def _status_label(state: str) -> str:
     return {
-        "IDLE":       "Ready",
-        "RECORDING":  "Listening…",
-        "READY":      "Response ready",
+        "OFF":        "Off — tap START",
+        "SLEEPING":   "Say 'Hey CJ' to begin",
+        "LISTENING":  "Listening…",
+        "PROCESSING": "Thinking…",
+        "RESPONDING": "Response playing",
     }.get(state, state)
 
 
@@ -1045,6 +1194,15 @@ def _run_pipeline(audio_bytes: bytes, left_container, right_container) -> None:
     ss.fidelity = None
     ss.tts_meta = None
 
+    # ── Pipeline timing instrumentation (PLAN-0008 Task 2 — 2026-06-11) ──
+    # Print "[pipeline]" lines around every downstream stage so the
+    # next run shows which stage eats the wall-clock. A 4–5-minute
+    # turn must be debuggable from the terminal alone.
+    _t_pipeline_start = time.time()
+    print(f"[pipeline] START — input WAV {len(audio_bytes)} bytes "
+          f"(~{len(audio_bytes) / 32000:.2f}s of 16kHz mono audio)",
+          flush=True)
+
     cache_before = _snapshot_cache_stats()
     audio_seconds_est = max(1, len(audio_bytes) // 32000)  # ≈ 16 kHz × 2 bytes
     stt_cost = (audio_seconds_est / 60.0) * 0.006
@@ -1068,14 +1226,17 @@ def _run_pipeline(audio_bytes: bytes, left_container, right_container) -> None:
             with phase_a as status:
                 # ── 1. STT ──
                 status.update(label="🎧 Transcribing your question…")
+                _t0 = time.time()
                 try:
                     transcript = transcribe_openai(wav_path)
                 except Exception as e:
+                    print(f"[pipeline] transcribe FAILED after {time.time()-_t0:.2f}s: {type(e).__name__}: {e}", flush=True)
                     ss.error = f"Transcription failed: {type(e).__name__}: {e}"
                     _card_error(ss)
                     status.update(label="✗ Transcription failed",
                                   state="error", expanded=True)
                     return
+                print(f"[pipeline] transcribe   {time.time()-_t0:>6.2f}s  ({len(transcript)} chars)", flush=True)
                 if not transcript.strip():
                     ss.error = "No speech detected — please try again."
                     _card_error(ss)
@@ -1089,29 +1250,36 @@ def _run_pipeline(audio_bytes: bytes, left_container, right_container) -> None:
                 status.update(label="🚪 Checking question scope…")
                 artifacts = _get_artifacts()
                 client = _get_client()
+                _t0 = time.time()
                 try:
                     ss.gate = input_gate(client, ss.transcript)
                 except Exception as e:
+                    print(f"[pipeline] input_gate FAILED after {time.time()-_t0:.2f}s: {type(e).__name__}: {e}", flush=True)
                     ss.error = f"Input gate failed: {type(e).__name__}: {e}"
                     _card_error(ss)
                     status.update(label="✗ Input gate failed",
                                   state="error", expanded=True)
                     return
+                print(f"[pipeline] input_gate  {time.time()-_t0:>6.2f}s  (scope={ss.gate.get('scope')!r})", flush=True)
                 _card_scope(ss)
 
                 # ── 3. Topic routing ──
                 status.update(label="🧭 Routing to corpus topic…")
+                _t0 = time.time()
                 if ss.gate.get("scope") == "identity_probe":
                     ss.routing = force_meta_routing(ss.gate.get("reasoning", ""))
+                    print(f"[pipeline] route       {time.time()-_t0:>6.2f}s  (forced META)", flush=True)
                 else:
                     try:
                         ss.routing = route_question(client, ss.transcript, artifacts)
                     except Exception as e:
+                        print(f"[pipeline] route FAILED after {time.time()-_t0:.2f}s: {type(e).__name__}: {e}", flush=True)
                         ss.error = f"Routing failed: {type(e).__name__}: {e}"
                         _card_error(ss)
                         status.update(label="✗ Routing failed",
                                       state="error", expanded=True)
                         return
+                    print(f"[pipeline] route       {time.time()-_t0:>6.2f}s  (primary={ss.routing.get('primary_topic')!r})", flush=True)
                 _card_routing(ss)
 
                 status.update(
@@ -1133,6 +1301,7 @@ def _run_pipeline(audio_bytes: bytes, left_container, right_container) -> None:
             with phase_b as status:
                 # ── 4. Compose ──
                 status.update(label="💭 Composing the Chief Justice's reply…")
+                _t0 = time.time()
                 try:
                     context = build_context(ss.routing, artifacts)
                     response_raw = "".join(
@@ -1142,23 +1311,29 @@ def _run_pipeline(audio_bytes: bytes, left_container, right_container) -> None:
                         )
                     )
                 except Exception as e:
+                    print(f"[pipeline] compose FAILED after {time.time()-_t0:.2f}s: {type(e).__name__}: {e}", flush=True)
                     ss.error = f"Composer failed: {type(e).__name__}: {e}"
                     _card_error(ss)
                     status.update(label="✗ Composer failed",
                                   state="error", expanded=True)
                     return
+                print(f"[pipeline] compose     {time.time()-_t0:>6.2f}s  ({len(response_raw)} chars)", flush=True)
                 ss.response = _strip_stage_directions(response_raw)
 
                 # ── 5. Fidelity (advisory) ──
+                _t0 = time.time()
                 try:
                     ss.fidelity = fidelity_check(client, context, ss.response)
-                except Exception:
+                    print(f"[pipeline] fidelity    {time.time()-_t0:>6.2f}s", flush=True)
+                except Exception as e:
                     ss.fidelity = None
+                    print(f"[pipeline] fidelity    {time.time()-_t0:>6.2f}s  (failed, advisory only: {type(e).__name__})", flush=True)
                 _card_fidelity(ss)      # only renders if a flag fired
                 _card_response(ss)      # full CJ response text card
 
-                # ── 6. TTS ──
+                # ── 6. TTS (parallel sentence fan-out + concat) ──
                 status.update(label="🔊 Generating the spoken response…")
+                _t0 = time.time()
                 try:
                     ss.audio_bytes = tts_concatenate_parallel(ss.response)
                     cost = estimate_voice_cost(ss.response)
@@ -1167,7 +1342,10 @@ def _run_pipeline(audio_bytes: bytes, left_container, right_container) -> None:
                         "chunks": len(sentence_chunks(ss.response)),
                         "cost_usd": cost["tts_usd"],
                     }
+                    print(f"[pipeline] tts+concat  {time.time()-_t0:>6.2f}s  "
+                          f"({ss.tts_meta['chunks']} chunks, {len(ss.audio_bytes)} bytes)", flush=True)
                 except Exception as e:
+                    print(f"[pipeline] tts FAILED after {time.time()-_t0:.2f}s: {type(e).__name__}: {e}", flush=True)
                     ss.tts_meta = {"ok": False, "error": str(e)[:200]}
 
                 # ── 7. Cost rollup ──
@@ -1195,8 +1373,25 @@ def _run_pipeline(audio_bytes: bytes, left_container, right_container) -> None:
                     expanded=True,
                 )
 
-        ss.kiosk_state = "READY"
+        # PLAN-0008 Task 2: transition to RESPONDING (not READY) and
+        # stamp the TTS-done timer used by the wake-engine restart
+        # gate. measure_mp3_duration_ms returns 0 if pydub/ffmpeg are
+        # unavailable; fall back to a rough chars-per-second estimate
+        # so the timer still has a sensible upper bound.
+        ss.kiosk_state = "RESPONDING"
         ss.autoplay_pending = True
+        _t0 = time.time()
+        duration_ms = (
+            measure_mp3_duration_ms(ss.audio_bytes) if ss.audio_bytes else 0
+        )
+        if duration_ms <= 0 and ss.response:
+            duration_ms = max(8000, int(len(ss.response) / 12 * 1000))
+        ss.tts_duration_s = duration_ms / 1000.0
+        ss.tts_started_at = time.time()
+        print(f"[pipeline] measure_dur {time.time()-_t0:>6.2f}s  "
+              f"(audio_bytes={len(ss.audio_bytes) if ss.audio_bytes else 0}, "
+              f"tts_duration_s={ss.tts_duration_s:.2f})", flush=True)
+        print(f"[pipeline] TOTAL       {time.time() - _t_pipeline_start:>6.2f}s", flush=True)
     finally:
         if wav_path:
             try:
@@ -1205,67 +1400,214 @@ def _run_pipeline(audio_bytes: bytes, left_container, right_container) -> None:
                 pass
 
 
-# ─── Console (button row) ─────────────────────────────────────────────────
-def _render_console(state: str):
-    """Twin-button control panel visually integrated as the bottom of
-    the glass container, followed by a symmetric two-column progress
-    row beneath.
+# ─── Console (single START/STOP power button) ────────────────────────────
+def _render_power_button(state: str) -> bool:
+    """Render the single centered START/STOP power button and return
+    True if the visitor clicked it on this script run.
 
-       Button bar (inside .button-bar-glass — picks up the glass
-       panel's bottom corners so the two read as one panel):
-         • Left  — 🎙️ START/STOP : the audio_input widget, layered
-                   invisibly over a styled .glass-btn surface.
-         • Right — 🎧 MY RESPONSE : st.button, identical glass
-                   styling, disabled until READY.
+    OFF        → "▶ START"     (gold ring — power on)
+    SLEEPING   → "⏻ STOP"      (red ring — power off)
+    other      → disabled      (a turn is in flight)
 
-       Progress row (below the button bar, in .progress-row):
-         • left_progress   — STT, scope, routing
-         • right_progress  — composer, fidelity, TTS, response card
-
-       Returns: (audio_in, play_clicked, left_progress, right_progress)
+    The button lives inside the .button-bar-glass wrapper so it visually
+    seats as the bottom of the glass panel above it. CSS in _inject_css
+    selects on .button-bar-glass.power-off for the red treatment.
     """
-    ss = st.session_state
+    if state == "OFF":
+        label = "▶  START"
+        wrapper_cls = "button-bar-glass"      # gold (power-on)
+        disabled = False
+    elif state == "SLEEPING":
+        label = "⏻  STOP"
+        wrapper_cls = "button-bar-glass power-off"
+        disabled = False
+    else:
+        # LISTENING / PROCESSING / RESPONDING — power-off affordance
+        # but disabled while a turn is in flight (preserves the
+        # capture/pipeline run instead of yanking the rug).
+        label = "⏻  STOP"
+        wrapper_cls = "button-bar-glass power-off"
+        disabled = True
 
-    # ── Button bar (visually the bottom of the glass panel) ──
-    st.markdown("<div class='button-bar-glass'>", unsafe_allow_html=True)
-    bcol1, bcol2 = st.columns([1, 1], gap="large")
-
-    with bcol1:
-        # st.audio_input renders as the dark input bar shown in the
-        # screenshot. CSS replaces its mic icon with a text pill
-        # button labelled literally "START/STOP" (no mic glyph),
-        # matching the dark, clean aesthetic. The same button
-        # toggles recording on/off — visual state is signalled by a
-        # soft green tint on the pill (and a matching subtle green
-        # border on the bar) when capture is active. Selectors are
-        # un-scoped because Streamlit auto-orphans markdown wrapper
-        # divs; a parent-class qualifier never matches in practice.
-        audio_in = st.audio_input(
-            label="Press START to speak",
-            label_visibility="collapsed",
-            key=f"mic_{ss.mic_key}",
-        )
-
-    with bcol2:
-        play_clicked = st.button(
-            "🎧  MY RESPONSE",
-            key="btn_play",
-            disabled=state != "READY",
+    st.markdown(f"<div class='{wrapper_cls}'>", unsafe_allow_html=True)
+    # Centre the button in the middle column so it doesn't span the
+    # full glass width (that read as too "industrial" for a museum).
+    _, mid, _ = st.columns([1, 2, 1], gap="large")
+    with mid:
+        clicked = st.button(
+            label,
+            key="power_toggle",
+            disabled=disabled,
             use_container_width=True,
         )
-
     st.markdown("</div>", unsafe_allow_html=True)
+    return clicked
 
-    # ── Progress row (below the panel) ──
+
+def _render_progress_columns():
+    """Two-column progress row beneath the glass+button panel.
+    Returns (left_container, right_container).  Used by PROCESSING
+    (live status streams) and RESPONDING (cached card review)."""
     st.markdown("<div class='progress-row'>", unsafe_allow_html=True)
     pcol1, pcol2 = st.columns([1, 1], gap="large")
     with pcol1:
-        left_progress = st.container()
+        left = st.container()
     with pcol2:
-        right_progress = st.container()
+        right = st.container()
     st.markdown("</div>", unsafe_allow_html=True)
+    return left, right
 
-    return audio_in, play_clicked, left_progress, right_progress
+
+def _render_listening_cue() -> None:
+    """Render the prominent "Listening… speak now" banner BEFORE the
+    blocking record_until_silence call so the visitor sees a clear
+    WHEN-to-speak signal. Streamlit streams this delta to the browser
+    on the same WebSocket connection that subsequently carries the
+    blocking call's frozen UI."""
+    st.markdown(
+        "<div class='listening-cue'>"
+        "<div class='listening-pulse'></div>"
+        "<div class='listening-label'>🎤 Listening… speak now</div>"
+        "</div>",
+        unsafe_allow_html=True,
+    )
+
+
+# ── PROCESS-WIDE WAKE ENGINE SINGLETON + TURN LOCK ──
+# Regression post-mortem 2026-06-12: the previous attempt at this
+# (module-level `_WAKE_ENGINE = None` and `_TURN_LOCK = threading.Lock()`
+# assignments) did NOT survive Streamlit reruns. Streamlit re-executes
+# the entire script body on every rerun — including module-level
+# assignments — so the global was reset to None on every wake-poll tick
+# and the engine was rebuilt 11 times in a row. The freshly-spawned
+# worker thread never had time to accumulate audio frames (poll log
+# stuck at frames=0), and the brand-new turn lock had nothing to guard.
+#
+# The canonical Streamlit pattern for state that must survive reruns
+# AND be shared across sessions is `@st.cache_resource`. Its cache
+# lives in Streamlit's runtime, not module globals, and IS preserved
+# across rerun cycles. Both the engine and the locks are wrapped here.
+
+
+@st.cache_resource(show_spinner=False)
+def _build_wake_engine_cached() -> WakeWordEngine:
+    """Return the singleton wake engine. Built + started on first call;
+    subsequent calls return the SAME instance from Streamlit's cache.
+    The body of this function runs at most once per Streamlit server
+    lifetime — confirm in logs via the "[wake] building …" line."""
+    wake_model_path = str(_APP_DIR / "wake" / "models" / "hey_cj.onnx")
+    WakeWordEngine.ensure_models_downloaded([wake_model_path])
+    eng = WakeWordEngine(
+        model_name=wake_model_path,
+        threshold=0.35,   # PLAN-0008 retune (do not change)
+    )
+    eng.start()
+    print(
+        f"[wake] building engine (first time) — "
+        f"id={id(eng)} threshold={eng.threshold} started=True",
+        flush=True,
+    )
+    return eng
+
+
+@st.cache_resource(show_spinner=False)
+def _get_engine_lock() -> threading.Lock:
+    """Process-wide lock around engine build/start/stop. Cached so a
+    single Lock instance survives all reruns."""
+    return threading.Lock()
+
+
+@st.cache_resource(show_spinner=False)
+def _get_turn_lock() -> threading.Lock:
+    """Process-wide turn lock. Held by whichever session owns the
+    LISTENING → PROCESSING → RESPONDING cycle. Cached so a single Lock
+    instance survives all reruns (a fresh Lock per rerun would defeat
+    the whole point — it'd always be unlocked when checked)."""
+    return threading.Lock()
+
+
+def _ensure_wake_engine_started() -> WakeWordEngine:
+    """Return the running singleton wake engine. The cached instance
+    is reused across all reruns and all sessions; the worker thread
+    is restarted ONLY if it actually died (typically because LISTENING
+    called engine.stop() to free the OS mic for capture)."""
+    eng = _build_wake_engine_cached()   # cached — same instance every call
+
+    ss = st.session_state
+    if not ss.get("_wake_logged_reuse"):
+        # Print once per session so the log shows the singleton is
+        # truly shared — first SLEEPING render in a fresh tab will
+        # emit this line and then go silent on the reuse path.
+        print(f"[wake] reusing existing engine — id={id(eng)}", flush=True)
+        ss["_wake_logged_reuse"] = True
+
+    with _get_engine_lock():
+        t = eng._worker_thread  # noqa: SLF001 — explicit liveness check
+        if t is None or not t.is_alive():
+            print(f"[wake] singleton worker not alive — restarting (id={id(eng)})", flush=True)
+            eng.start()
+        # else: alive — no .start() call, no log spam. Per-poll line
+        # already shows alive=True and frames climbing.
+    return eng
+
+
+def _stop_wake_engine_globally() -> None:
+    """Stop the singleton engine's worker (frees the OS mic for
+    record_until_silence). The cached engine instance survives the
+    stop; the next _ensure_wake_engine_started() restarts its worker."""
+    try:
+        eng = _build_wake_engine_cached()
+    except Exception:
+        return
+    with _get_engine_lock():
+        try:
+            eng.stop()
+        except Exception:
+            pass
+
+
+def _try_acquire_turn(ss) -> bool:
+    """Try to acquire the process-wide turn lock for this Streamlit
+    session. Returns True if THIS session now owns the turn (either
+    just acquired or was already holding it — re-entrant). The lock
+    spans LISTENING → PROCESSING → RESPONDING for the session that
+    answered the wake; any other session whose wake fires while the
+    lock is held discards its detection and stays in SLEEPING."""
+    if ss.get("holds_turn_lock"):
+        return True
+    if _get_turn_lock().acquire(blocking=False):
+        ss.holds_turn_lock = True
+        return True
+    return False
+
+
+def _release_turn(ss) -> None:
+    """Release the turn lock held by this session, if any. Idempotent.
+    Safe to call defensively from any error path."""
+    if not ss.get("holds_turn_lock"):
+        return
+    try:
+        _get_turn_lock().release()
+    except RuntimeError:
+        # Lock wasn't actually held — shouldn't happen if we tracked
+        # ownership correctly, but never let a release crash a turn.
+        pass
+    ss.holds_turn_lock = False
+
+
+def _tts_done(ss) -> bool:
+    """True once the autoplay TTS has had a chance to finish.
+
+    Driven by the measured MP3 duration (or a text-length fallback if
+    pydub is missing) plus a 1.5 s grace pad that absorbs browser
+    autoplay startup latency + decoder lag. Conservative on the high
+    side so the wake engine never restarts onto its own playback.
+    """
+    started = ss.get("tts_started_at")
+    if not started:
+        return True
+    duration = float(ss.get("tts_duration_s", 0.0))
+    return time.time() >= started + duration + 1.5
 
 
 def _autoplay_audio(audio_bytes: bytes) -> None:
@@ -1296,66 +1638,241 @@ def _autoplay_audio(audio_bytes: bytes) -> None:
     )
 
 
-# ─── Main flow ────────────────────────────────────────────────────────────
+# ─── Main flow (PLAN-0008 Task 2 — hands-free state machine) ─────────────
 def main() -> None:
     _inject_css()
     _preflight()
     _init_state()
     ss = st.session_state
 
-    # Glass panel (header + robot + status pill)
+    # ── Always-rendered chrome: glass panel + power button ──
     _render_glass_panel(ss.kiosk_state)
+    power_clicked = _render_power_button(ss.kiosk_state)
 
-    # Two-column console.
-    #   audio_in        — bytes from the styled audio_input widget
-    #                     (the visible START/STOP button)
-    #   play_clicked    — replay button (only enabled when READY)
-    #   left_progress   — column-1 container for STT/scope/routing
-    #   right_progress  — column-2 container for composer/fidelity/TTS
-    audio_in, play_clicked, left_progress, right_progress = \
-        _render_console(ss.kiosk_state)
+    # ── Power-toggle handling ──
+    # OFF      → start (transition to SLEEPING, lazy-build engine on next rerun)
+    # SLEEPING → stop  (engine.stop, back to OFF)
+    # other    → button is disabled; ignore (defensive)
+    if power_clicked:
+        if ss.kiosk_state == "OFF":
+            ss.kiosk_state = "SLEEPING"
+            ss.error = None
+            st.rerun()
+        elif ss.kiosk_state == "SLEEPING":
+            _release_turn(ss)   # defensive — should already be released in SLEEPING
+            _stop_wake_engine_globally()
+            ss.kiosk_state = "OFF"
+            ss.wake_detection = None
+            st.rerun()
+        # LISTENING / PROCESSING / RESPONDING: disabled in UI; no-op here.
 
-    # Note on the START/STOP label swap: the audio_input widget runs
-    # client-side; Python never sees the "user pressed mic" event.
-    # We can't flip kiosk_state from RECORDING→IDLE based on the
-    # widget's state. The label swap is driven entirely by CSS
-    # :has() that targets the audio_input's stop-button aria-label
-    # while recording (see _inject_css). This is purely cosmetic —
-    # the inline-pipeline trigger below is what actually moves
-    # forward when bytes arrive.
+    # ── OFF ────────────────────────────────────────────────────────────
+    if ss.kiosk_state == "OFF":
+        if ss.error:
+            st.warning(ss.error)
+            ss.error = None
+        return
 
-    # ─── Inline pipeline trigger ──────────────────────────────────────
-    # When new audio bytes land, hash them and run the pipeline
-    # inline (no PROCESSING state, no session-state handoff). The
-    # hash guard prevents re-firing on subsequent reruns while the
-    # same blob is still attached to the widget.
-    if audio_in is not None:
-        audio_bytes = audio_in.getvalue()
-        if audio_bytes and len(audio_bytes) > 1024:
-            audio_hash = hashlib.md5(audio_bytes).hexdigest()
-            if audio_hash != ss.get("last_audio_hash", ""):
-                ss["last_audio_hash"] = audio_hash
-                # Clear any cached cards in the two column containers
-                # so the live phases write into a clean canvas.
-                left_progress.empty()
-                right_progress.empty()
-                _run_pipeline(audio_bytes, left_progress, right_progress)
-                if ss.error:
-                    st.error(ss.error)
-                    ss.kiosk_state = "IDLE"
-                # Always bump mic_key so the NEXT recording opens a
-                # fresh audio_input widget — otherwise the previous
-                # blob is still attached and the hash guard would
-                # block the visitor from ever asking a new question.
-                ss.mic_key += 1
-                st.rerun()
+    # ── SLEEPING ───────────────────────────────────────────────────────
+    if ss.kiosk_state == "SLEEPING":
+        # Defensive — if this session arrived back at SLEEPING still
+        # holding the turn lock (e.g. crash, browser refresh mid-turn),
+        # release it so we don't deadlock ourselves out.
+        _release_turn(ss)
 
-    # ─── Cached column drop-downs on the post-pipeline rerun ──────────
-    # After the pipeline finishes we st.rerun(), which discards the
-    # in-place st.status() blocks. Re-populate the two column
-    # containers from session_state so the visitor still sees the
-    # full breakdown in the SAME column slots they watched live.
-    if ss.kiosk_state == "READY" and ss.transcript:
+        # Lazy-build + start the singleton engine. First call across
+        # all sessions: ~10 s (download_models HTTP HEAD + ONNX load).
+        # Subsequent calls (this session or another): near-instant —
+        # singleton is reused.
+        try:
+            eng = _ensure_wake_engine_started()
+        except Exception as e:
+            st.error(
+                f"Wake engine failed to start: "
+                f"{type(e).__name__}: {e}"
+            )
+            ss.kiosk_state = "OFF"
+            return
+
+        if ss.error:
+            # Surface the previous turn's error gently (e.g. "no speech
+            # detected") so the visitor knows why they're back here.
+            st.info(ss.error)
+            ss.error = None
+
+        # Poll for wake fires between reruns. autorefresh schedules a
+        # rerun every 500 ms; the polling check below runs once per
+        # rerun. Streamlit serialises script runs so we never get
+        # two polls in flight.
+        st_autorefresh(interval=500, limit=None, key="wake_poll")
+
+        # ── Live wake instrumentation (PLAN-0008 Task 2 — 2026-06-11) ──
+        # Print one line per SLEEPING poll tick so the terminal shows
+        # whether autorefresh is actually firing, the engine is
+        # processing frames, and what scores it's seeing. If the next
+        # run reports 0/N fires, this log says exactly which of
+        # (autorefresh dead / mic dead / scores low / threshold high)
+        # is the cause. wake_test.py-style verbosity, mirrored.
+        ss.wake_poll_count = ss.get("wake_poll_count", 0) + 1
+        now = time.time()
+        dt = now - ss.get("wake_poll_last_t", now)
+        ss.wake_poll_last_t = now
+        stats = eng.stats()
+        peak_2s, _ = eng.recent_peak(seconds=2.0)
+        peak_5s, _ = eng.recent_peak(seconds=5.0)
+        alive = stats["thread_alive"]
+        det = eng.poll_detection()
+        print(
+            f"[wake-poll #{ss.wake_poll_count:04d} dt={dt:>5.2f}s] "
+            f"alive={alive} "
+            f"frames={stats['frames_processed']:>6} "
+            f"preds={stats['predictions_made']:>6} "
+            f"last={stats['last_score']:.3f} "
+            f"peak2s={peak_2s:.3f} "
+            f"peak5s={peak_5s:.3f} "
+            f"thr={eng.threshold:.2f} "
+            f"det={det}",
+            flush=True,
+        )
+
+        if det is not None:
+            # WAKE FIRED. Try to acquire the process-wide turn lock —
+            # if another session is already mid-turn, discard this fire
+            # so we don't run the pipeline twice. The user's "Hey CJ"
+            # is being handled by the other session.
+            if not _try_acquire_turn(ss):
+                print(
+                    f"[wake-poll] DETECTED score={det['score']:.3f} but "
+                    f"ANOTHER SESSION holds turn lock — discarding "
+                    f"(stay in SLEEPING)",
+                    flush=True,
+                )
+                return
+
+            # We own the turn now. Release the OS-level mic and move on.
+            print(
+                f"[wake-poll] DETECTED — score={det['score']:.3f} "
+                f"model={det['model_name']!r} — turn-lock acquired, "
+                f"transitioning to LISTENING",
+                flush=True,
+            )
+            _stop_wake_engine_globally()
+            ss.wake_detection = det
+            ss.kiosk_state = "LISTENING"
+            st.rerun()
+        return
+
+    # ── LISTENING ──────────────────────────────────────────────────────
+    if ss.kiosk_state == "LISTENING":
+        # Defensive: a session can only reach LISTENING by acquiring the
+        # turn lock in SLEEPING. If we got here without it (server
+        # restart, race we didn't think of), bounce back rather than
+        # racing another session's capture.
+        if not ss.get("holds_turn_lock"):
+            print(
+                "[capture] entered LISTENING without holding turn-lock — "
+                "bouncing to SLEEPING (defensive)",
+                flush=True,
+            )
+            ss.kiosk_state = "SLEEPING"
+            st.rerun()
+            return
+
+        # Render the prominent cue FIRST so its delta is on the WebSocket
+        # before we enter the blocking InputStream read. The visitor sees
+        # the red pulse + "Listening… speak now" label, then the page
+        # appears frozen at that label until end-of-speech.
+        _render_listening_cue()
+
+        print(
+            "[capture] record_until_silence starting "
+            "(seconds_max=30, no_speech_timeout_s=7, auto-calibrate threshold)",
+            flush=True,
+        )
+        _t_cap = time.time()
+        try:
+            wav_path = record_until_silence(
+                seconds_max=30,
+                no_speech_timeout_s=7,           # walkaway guard
+                silence_rms_threshold=None,      # auto-calibrate from noise floor
+            )
+        except Exception as e:
+            print(f"[capture] FAILED after {time.time()-_t_cap:.2f}s: {type(e).__name__}: {e}", flush=True)
+            ss.error = (
+                f"Capture failed: {type(e).__name__}: {e}"
+            )
+            _release_turn(ss)
+            ss.kiosk_state = "SLEEPING"
+            st.rerun()
+            return
+
+        # Read the WAV off disk so we can clean up the tempfile, then
+        # hand bytes to the existing pipeline (which already knows how
+        # to write its own tempfile from bytes — preserves the
+        # verbatim-_run_pipeline contract).
+        audio_bytes = b""
+        try:
+            with open(wav_path, "rb") as f:
+                audio_bytes = f.read()
+        except Exception:
+            pass
+        finally:
+            try:
+                os.unlink(wav_path)
+            except OSError:
+                pass
+        # ~16 kHz × 2 bytes/sample → seconds = bytes / 32000. WAV header
+        # adds ~44 bytes; rounding error is negligible at this scale.
+        print(f"[capture] done — wall-clock {time.time()-_t_cap:>6.2f}s, "
+              f"WAV {len(audio_bytes)} bytes (~{len(audio_bytes) / 32000:.2f}s of audio)",
+              flush=True)
+
+        # Below this size the WAV is essentially silence-only — the
+        # no-speech walkaway guard tripped. Bounce cleanly back to
+        # SLEEPING with a soft info message.
+        if not audio_bytes or len(audio_bytes) < 4096:
+            ss.error = "I didn't hear anything — say 'Hey CJ' again when ready."
+            _release_turn(ss)
+            ss.kiosk_state = "SLEEPING"
+            st.rerun()
+            return
+
+        ss.pending_audio_bytes = audio_bytes
+        ss.kiosk_state = "PROCESSING"
+        st.rerun()
+        return
+
+    # ── PROCESSING ─────────────────────────────────────────────────────
+    if ss.kiosk_state == "PROCESSING":
+        left_progress, right_progress = _render_progress_columns()
+        audio_bytes = ss.pending_audio_bytes
+        ss.pending_audio_bytes = None
+        if not audio_bytes:
+            # Defensive — shouldn't happen because LISTENING always
+            # sets pending_audio_bytes before transitioning here.
+            ss.error = "Audio handoff lost — please try again."
+            _release_turn(ss)
+            ss.kiosk_state = "SLEEPING"
+            st.rerun()
+            return
+        _run_pipeline(audio_bytes, left_progress, right_progress)
+        if ss.error:
+            # Pipeline error already rendered an error card inside one
+            # of the column containers. Drop back to SLEEPING so the
+            # visitor can retry with a fresh "Hey CJ".
+            _release_turn(ss)
+            ss.kiosk_state = "SLEEPING"
+            st.rerun()
+            return
+        # _run_pipeline set kiosk_state = "RESPONDING" + tts_started_at
+        # + tts_duration_s. Rerun so the RESPONDING branch can render
+        # the autoplay element cleanly.
+        st.rerun()
+        return
+
+    # ── RESPONDING ─────────────────────────────────────────────────────
+    if ss.kiosk_state == "RESPONDING":
+        left_progress, right_progress = _render_progress_columns()
         with left_progress:
             with st.expander("🔍  Question intake", expanded=True):
                 _card_transcribed(ss)
@@ -1366,14 +1883,37 @@ def main() -> None:
                 _card_response(ss)
                 _card_fidelity(ss)
 
-    # ─── Auto-play on first READY entry, PLAY for replay ──────────────
-    if ss.kiosk_state == "READY" and ss.audio_bytes:
-        if ss.autoplay_pending:
+        # PLAN-0008 Task 2 — Bug C fix (2026-06-11): render the autoplay
+        # audio element on EVERY rerun while in RESPONDING. The previous
+        # design rendered only on first entry (gated on autoplay_pending);
+        # on each subsequent autorefresh rerun the element wasn't
+        # re-added to the script, so Streamlit removed the DOM node and
+        # playback cut at ~5 s regardless of the measured duration.
+        #
+        # Re-rendering with IDENTICAL bytes lets Streamlit's diff
+        # preserve the same DOM node — the <audio> element keeps
+        # playing uninterrupted through the autorefresh ticks. The
+        # element only re-mounts (resetting playback) if the bytes
+        # change, which they don't until the next turn.
+        if ss.audio_bytes:
             _autoplay_audio(ss.audio_bytes)
-            ss.autoplay_pending = False
+        ss.autoplay_pending = False   # legacy flag — kept clear for stale-session safety
 
-    if play_clicked and ss.audio_bytes:
-        _autoplay_audio(ss.audio_bytes)
+        # Poll the TTS-done timer. Once measured_duration + 1.5 s
+        # grace has elapsed since tts_started_at, transition back to
+        # SLEEPING so the next "Hey CJ" can fire. Release the turn
+        # lock as we go — another waiting session can now take a turn.
+        st_autorefresh(interval=500, key="tts_poll")
+        if _tts_done(ss):
+            print(
+                f"[responding] TTS-done — releasing turn-lock, back to SLEEPING",
+                flush=True,
+            )
+            _release_turn(ss)
+            ss.kiosk_state = "SLEEPING"
+            ss.tts_started_at = None
+            st.rerun()
+        return
 
 
 if __name__ == "__main__":

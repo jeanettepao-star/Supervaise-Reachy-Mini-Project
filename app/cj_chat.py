@@ -1117,12 +1117,33 @@ def play_wav(path: str):
 # ============================================================
 # Step 6: Audio input — push-to-talk
 # ============================================================
-def record_until_silence(seconds_max: int = RECORD_SECONDS_MAX) -> str:
+def record_until_silence(
+    seconds_max: int = RECORD_SECONDS_MAX,
+    no_speech_timeout_s: float | None = None,
+    silence_rms_threshold: int | None = None,
+) -> str:
     """Streaming recorder with energy-based silence detection.
 
     Records into a rolling buffer; stops when we've seen speech and then
-    ~1.2s of trailing silence, or when seconds_max is reached. Much better
-    demo UX than a fixed 30s record then trim.
+    ~1.2s of trailing silence, or when seconds_max is reached.
+
+    Args:
+        seconds_max: hard cap on capture duration (safety).
+        no_speech_timeout_s: opt-in early-exit if NO speech is heard at
+            all for this many seconds from the start. Default ``None``
+            preserves the original CLI behaviour (loop runs the full
+            ``seconds_max`` even on pure silence). The kiosk passes a
+            small value (e.g. 7 s) so a visitor who triggers the wake
+            word and then walks away doesn't freeze the UI for 30 s.
+        silence_rms_threshold: int16 RMS below which a frame is treated
+            as silence. Default ``None`` triggers **auto-calibration**
+            from a ~240 ms noise-floor probe at the start of capture —
+            essential for any environment where the room ambient sits
+            above the original hardcoded 350 (HVAC, kiosk fan, etc.).
+            Bug fix 2026-06-11: with the hardcoded 350 in a noisy
+            room, every frame counted as speech, ``silence_run`` never
+            incremented, EOS never triggered, and capture ran the full
+            ``seconds_max`` even after the speaker stopped.
 
     Returns path to a 16kHz mono wav file.
     """
@@ -1135,20 +1156,66 @@ def record_until_silence(seconds_max: int = RECORD_SECONDS_MAX) -> str:
     # Tunables — conservative defaults that work in a typical room
     frame_ms = 30                          # chunk size
     frame_samples = int(SAMPLE_RATE * frame_ms / 1000)
-    silence_rms_threshold = 350            # int16 RMS; ambient noise stays below this
     min_speech_frames = 5                  # ~150ms of speech before we'll consider stopping
     trailing_silence_ms = 1200             # stop after this much silence post-speech
     trailing_silence_frames = trailing_silence_ms // frame_ms
     max_frames = int(seconds_max * 1000 / frame_ms)
+    # Convert no_speech_timeout to a frame count (None → walkaway guard disabled).
+    no_speech_max_frames = (
+        int(no_speech_timeout_s * 1000 / frame_ms)
+        if no_speech_timeout_s is not None
+        else None
+    )
+
+    # Auto-calibration parameters (only used when caller didn't supply one)
+    NOISE_PROBE_FRAMES = 8                 # ~240 ms (8 × 30 ms)
+    BASE_FLOOR_RMS = 350                   # never below this (silent booth)
+    MAX_AUTO_THRESHOLD = 2500              # never above this (real speech ≳ 2500)
+    NOISE_HEADROOM = 4.0                   # threshold = noise_floor × headroom
 
     collected = []
     speech_frames = 0
     silence_run = 0
     started_speaking = False
+    frames_without_speech = 0
 
     try:
         with sd.InputStream(samplerate=SAMPLE_RATE, channels=1, dtype="int16",
                             blocksize=frame_samples) as stream:
+            # ── Optional auto-calibration of silence_rms_threshold ──
+            # Probe the first ~240 ms to estimate room noise floor.
+            # The probed frames are kept in `collected` so we don't
+            # discard real audio if the speaker began immediately.
+            if silence_rms_threshold is None:
+                noise_rms = []
+                for _ in range(NOISE_PROBE_FRAMES):
+                    block, _ = stream.read(frame_samples)
+                    block = np.squeeze(block)
+                    collected.append(block)
+                    noise_rms.append(
+                        float(np.sqrt(np.mean(block.astype(np.float32) ** 2)))
+                    )
+                noise_floor = float(np.median(noise_rms))
+                silence_rms_threshold = max(
+                    BASE_FLOOR_RMS,
+                    min(int(noise_floor * NOISE_HEADROOM), MAX_AUTO_THRESHOLD),
+                )
+                print(
+                    f"[capture-eos] noise probe: floor={noise_floor:.0f} rms · "
+                    f"silence_threshold={silence_rms_threshold} "
+                    f"(headroom ×{NOISE_HEADROOM})",
+                    flush=True,
+                )
+                # Bookkeeping for the main loop's max-frames budget.
+                max_frames -= NOISE_PROBE_FRAMES
+            else:
+                print(
+                    f"[capture-eos] silence_threshold={silence_rms_threshold} "
+                    f"(caller-supplied; auto-calibration skipped)",
+                    flush=True,
+                )
+
+            # ── Main capture loop ──
             for _ in range(max_frames):
                 block, _overflowed = stream.read(frame_samples)
                 block = np.squeeze(block)
@@ -1160,11 +1227,32 @@ def record_until_silence(seconds_max: int = RECORD_SECONDS_MAX) -> str:
                     silence_run = 0
                     if not started_speaking and speech_frames >= min_speech_frames:
                         started_speaking = True
+                        print(
+                            f"[capture-eos] speech-start at frame "
+                            f"{len(collected)} (~{len(collected) * frame_ms / 1000:.2f}s in)",
+                            flush=True,
+                        )
                 else:
                     if started_speaking:
                         silence_run += 1
                         if silence_run >= trailing_silence_frames:
+                            print(
+                                f"[capture-eos] speech-end at frame {len(collected)} "
+                                f"(~{len(collected) * frame_ms / 1000:.2f}s in) — "
+                                f"trailing silence {trailing_silence_ms} ms",
+                                flush=True,
+                            )
                             break
+                # Walkaway guard: no speech at all after N seconds → exit.
+                if not started_speaking and no_speech_max_frames is not None:
+                    frames_without_speech += 1
+                    if frames_without_speech >= no_speech_max_frames:
+                        print(
+                            f"[capture-eos] walkaway timeout at frame {len(collected)} "
+                            f"({no_speech_timeout_s}s of silence, no speech)",
+                            flush=True,
+                        )
+                        break
     except KeyboardInterrupt:
         pass
 

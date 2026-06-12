@@ -17,6 +17,13 @@ ENV/
 *.egg-info/
 .pytest_cache/
 **/.venv/
+# PLAN-0008 training venv (sibling to the kiosk runtime venv —
+# isolated so torch/audiomentations/openwakeword don't bloat the
+# runtime image). Multi-gigabyte; never committed.
+**/.venv-training/
+# Legacy venv snapshots kept as fallback during the D:→C: consolidation
+# (and any future venv migration). Never committed.
+**/.venv.old/
 
 # Large model/binary assets (each user installs locally)
 app/voices/*.onnx
@@ -29,6 +36,11 @@ app/piper/
 # Whisper model cache
 .cache/
 models/
+# But DO commit the trained wake-word classifier — it's the runtime
+# artefact we ship. ~210 kB single ONNX. Exempt this specific path
+# from the generic `models/` rule above.
+!app/wake/models/
+!app/wake/models/*.onnx
 
 # Temp audio
 *.wav
@@ -48,3 +60,5 @@ desktop.ini
 
 # Claude Code per-project local settings (machine-specific)
 .claude/settings.local.json
+# Claude Code per-project session/state cache (machine-specific)
+.claude/

@@ -36,6 +36,7 @@ import queue
 import threading
 import time
 import traceback
+from collections import deque
 from typing import Callable, Optional
 
 import numpy as np
@@ -116,9 +117,18 @@ class WakeWordEngine:
     def __init__(
         self,
         model_name: str = "hey_jarvis",
-        threshold: float = 0.5,
+        threshold: float = 0.35,
         source: Optional[AudioSource] = None,
     ):
+        # Default threshold 0.35 — retuned 2026-06-11 after the
+        # consolidation to the C: venv revealed wake_test.py firing
+        # ~15/20 at 0.35 vs the prior 0.40 default. Offline scores
+        # on held-out real-voice clips were ~0.92 but live-mic peaks
+        # land lower in this room (mic gain / acoustics / distance);
+        # 0.35 catches the bottom 20% of those peaks without
+        # triggering on background speech in operator's testing.
+        # Stock hey_jarvis is unaffected — its scores sit well above
+        # 0.5 on a clean trigger.
         if model_name not in AVAILABLE_STOCK_MODELS:
             # Allow non-stock paths through — Task 1 trains a custom
             # "hey cj" model that lives at e.g. app/wake/models/hey_cj.onnx
@@ -154,6 +164,16 @@ class WakeWordEngine:
         self._last_error: Optional[str] = None
         self._last_score: float = 0.0  # most recent score, regardless of threshold
         self._started_at: Optional[float] = None
+
+        # Rolling history of (timestamp, score) tuples — used by
+        # wake_test.py's score-capture UI to compute the peak score
+        # over the last N seconds for a user-spoken utterance.
+        # deque.append() is atomic in CPython so the worker thread can
+        # write while the main thread reads without a lock; iteration
+        # may miss the most recent few entries but that's irrelevant
+        # for peak-finding.
+        # 250 entries × 80 ms/frame = 20 s of history.
+        self._score_history: "deque[tuple[float, float]]" = deque(maxlen=250)
 
     # ── Model-file provisioning ─────────────────────────────────────
     @staticmethod
@@ -205,12 +225,34 @@ class WakeWordEngine:
             _phase("No model names supplied; nothing to download.")
             return
 
-        _phase(
-            f"Checking openWakeWord model files for "
-            f"{', '.join(names)} (downloads on first run, ~10-30 MB)…"
-        )
+        # Filter out any name that looks like a filesystem path (custom
+        # trained model). download_models() only knows the stock-model
+        # name registry; passing a path makes it 404. The shared mel-
+        # spec + embedding + VAD models still need to be present, so
+        # we call download_models() with an empty list to fetch only
+        # those if needed.
+        path_names = [n for n in names if n.endswith(".onnx") or n.endswith(".tflite")
+                                          or "/" in n or "\\" in n]
+        stock_names = [n for n in names if n not in path_names]
+
+        if path_names:
+            _phase(
+                f"Custom model paths supplied — verifying shared mel-spec / "
+                f"embedding / VAD models are on disk…"
+            )
+        else:
+            _phase(
+                f"Checking openWakeWord model files for "
+                f"{', '.join(stock_names)} (downloads on first run, "
+                f"~10-30 MB)…"
+            )
         try:
-            download_models(model_names=names)
+            # Pass only stock names. Empty list triggers a fetch of
+            # the shared FEATURE_MODELS + VAD only, which is what we
+            # need for custom-path models (they're standalone .onnx
+            # files but the embedding pipeline still runs through the
+            # shared mel-spec + embedding models).
+            download_models(model_names=stock_names)
         except Exception as e:
             raise RuntimeError(
                 "openWakeWord model download failed. This is required "
@@ -424,10 +466,16 @@ class WakeWordEngine:
                 continue
 
             self._predictions_made += 1
-            # predict() returns dict keyed by model name. Confirmed
-            # from openwakeword/model.py: `predictions[mdl] = ...`
+            # predict() returns dict keyed by model name (for stock
+            # models) or by basename-without-extension (for paths
+            # loaded from disk). Try the exact name first; fall back
+            # to the first prediction value since we always load
+            # exactly one model (so the dict has at most one entry).
             score = float(preds.get(self.model_name, 0.0))
+            if score == 0.0 and preds:
+                score = float(next(iter(preds.values())))
             self._last_score = score
+            self._score_history.append((time.time(), score))
 
             if score >= self.threshold:
                 with self._lock:
@@ -439,6 +487,28 @@ class WakeWordEngine:
                 self._detected_event.set()
 
     # ── Main-thread API ─────────────────────────────────────────────
+    def recent_peak(self, seconds: float = 2.0) -> tuple[float, Optional[float]]:
+        """Return (peak_score, timestamp_of_peak) over the last
+        `seconds` of scored frames.
+
+        Used by wake_test.py's "capture last utterance" button: the
+        operator says a phrase, then clicks capture, and we return the
+        highest score seen in the most recent rolling window. If the
+        history is empty (engine just started, mic still warming up)
+        returns (0.0, None).
+        """
+        if not self._score_history:
+            return 0.0, None
+        cutoff = time.time() - seconds
+        # Iterate a copy of the snapshot to be safe — deque iteration
+        # during concurrent appends is allowed in CPython but the
+        # snapshot is conceptually cleaner.
+        snap = [(ts, s) for ts, s in tuple(self._score_history) if ts >= cutoff]
+        if not snap:
+            return 0.0, None
+        ts_peak, s_peak = max(snap, key=lambda p: p[1])
+        return s_peak, ts_peak
+
     def poll_detection(self) -> Optional[dict]:
         """Return-and-consume the most recent wake detection.
 

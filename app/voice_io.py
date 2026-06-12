@@ -47,16 +47,33 @@ from typing import Optional
 # ============================================================
 # ffmpeg discovery — required by pydub for MP3 decoding/encoding
 # ============================================================
-# Order of preference for the ffmpeg binary:
-#   1. system PATH (operator installed it system-wide)
-#   2. imageio-ffmpeg's bundled binary (pip install imageio-ffmpeg)
-# If neither is available, _concatenate_mp3_chunks() falls back to
-# raw byte concatenation (works for OpenAI's constant-bitrate MP3 in
-# practice, with occasional minor seam artefacts).
+# Order of preference for the ffmpeg + ffprobe pair:
+#   1. system PATH (operator installed ffmpeg system-wide)
+#   2. static-ffmpeg's bundled pair (pip install static-ffmpeg) —
+#      ships BOTH ffmpeg.exe AND ffprobe.exe, unlike imageio-ffmpeg.
+#   3. imageio-ffmpeg's bundled ffmpeg (NO ffprobe — concat works
+#      but MP3 duration measurement falls through to mutagen).
+#
+# Post-mortem 2026-06-09: the prior tier (imageio-ffmpeg only) gave
+# us ffmpeg without ffprobe, which silently broke pydub's
+# AudioSegment.from_file mid-turn — the concatenation path used in
+# _concatenate_mp3_chunks() shells out to ffprobe and crashes on
+# Windows when ffprobe is absent. static-ffmpeg fixes that.
+
+# Try static-ffmpeg FIRST so its bundled pair lands on PATH and the
+# rest of the discovery (shutil.which) picks both up uniformly.
+try:
+    import static_ffmpeg  # type: ignore[import-not-found]
+    static_ffmpeg.add_paths()  # adds bundled bin dir to os.environ['PATH']
+except Exception:
+    pass
+
 _FFMPEG_PATH: str | None = (
     shutil.which("ffmpeg")
     or shutil.which("avconv")
 )
+_FFPROBE_PATH: str | None = shutil.which("ffprobe")
+
 if not _FFMPEG_PATH:
     try:
         import imageio_ffmpeg  # type: ignore[import-not-found]
@@ -65,7 +82,7 @@ if not _FFMPEG_PATH:
         _FFMPEG_PATH = None
 
 # Silence pydub's startup "Couldn't find ffmpeg" warning AND, when
-# imageio-ffmpeg supplied a binary, point pydub at it explicitly.
+# a binary was supplied, point pydub at it explicitly.
 with warnings.catch_warnings():
     warnings.simplefilter("ignore", RuntimeWarning)
     try:
@@ -73,13 +90,19 @@ with warnings.catch_warnings():
         if _FFMPEG_PATH:
             pydub.AudioSegment.converter = _FFMPEG_PATH
             pydub.AudioSegment.ffmpeg = _FFMPEG_PATH
-            # Some pydub builds also probe ffprobe; if it lives next to
-            # ffmpeg, point at it too (best-effort).
-            _ffprobe_guess = Path(_FFMPEG_PATH).with_name("ffprobe")
-            if _ffprobe_guess.with_suffix(".exe").exists():
-                pydub.AudioSegment.ffprobe = str(_ffprobe_guess.with_suffix(".exe"))
-            elif _ffprobe_guess.exists():
-                pydub.AudioSegment.ffprobe = str(_ffprobe_guess)
+            # ffprobe — prefer the one already resolved on PATH (e.g.
+            # static-ffmpeg), then fall back to "alongside ffmpeg"
+            # heuristic.
+            if _FFPROBE_PATH:
+                pydub.AudioSegment.ffprobe = _FFPROBE_PATH
+            else:
+                _ffprobe_guess = Path(_FFMPEG_PATH).with_name("ffprobe")
+                if _ffprobe_guess.with_suffix(".exe").exists():
+                    pydub.AudioSegment.ffprobe = str(_ffprobe_guess.with_suffix(".exe"))
+                    _FFPROBE_PATH = pydub.AudioSegment.ffprobe
+                elif _ffprobe_guess.exists():
+                    pydub.AudioSegment.ffprobe = str(_ffprobe_guess)
+                    _FFPROBE_PATH = pydub.AudioSegment.ffprobe
         _PYDUB_AVAILABLE = True
     except ImportError:
         _PYDUB_AVAILABLE = False
@@ -422,6 +445,43 @@ def estimate_voice_cost(text: str, tts_model: str = TTS_MODEL_DEFAULT) -> dict:
     }
 
 
+def measure_mp3_duration_ms(mp3_bytes: bytes) -> int:
+    """Length of an MP3 blob in milliseconds.  Returns 0 on any failure.
+
+    Used by the kiosk to gate wake-engine restart on TTS playback
+    completion (PLAN-0008 Task 2 — without this duration we'd risk
+    restarting the wake engine onto the tail of our own TTS and
+    self-triggering).
+
+    Implementation note (post-mortem 2026-06-09):
+        The original implementation used pydub's `AudioSegment.from_file`,
+        which shells out to **ffprobe** to parse the MP3 header.  Our
+        `_FFMPEG_PATH` discovery only validated `ffmpeg` (the encoder),
+        not `ffprobe` (the prober) — so on a Windows kiosk where
+        imageio-ffmpeg supplied ffmpeg but ffprobe was absent, the guard
+        passed and the call raised `[WinError 2] The system cannot find
+        the file specified.` mid-turn, crashing the response.
+
+        We now use **mutagen** (pure-Python, no external binary).  Same
+        accurate result, no toolchain dependency, consistent with this
+        project's "minimise Windows binary deps" history.  A blanket
+        try/except guarantees the caller's text-length fallback (see
+        `_run_pipeline`) can always run — a timing helper must never
+        be able to crash a turn.
+    """
+    if not mp3_bytes:
+        return 0
+    try:
+        from mutagen.mp3 import MP3  # type: ignore[import-not-found]
+        return int(MP3(io.BytesIO(mp3_bytes)).info.length * 1000)
+    except Exception:
+        # ImportError (mutagen missing), HeaderNotFoundError (corrupt
+        # MP3), FileNotFoundError (shouldn't apply to mutagen but
+        # belt-and-braces), or anything else — return 0 so the caller
+        # falls back to a text-length estimate. Never raise.
+        return 0
+
+
 def voice_io_summary() -> dict[str, object]:
     """Sidebar-friendly summary of the active OpenAI voice config."""
     return {
@@ -432,6 +492,7 @@ def voice_io_summary() -> dict[str, object]:
         "tts_speed": TTS_SPEED_DEFAULT,
         "pydub_available": _PYDUB_AVAILABLE,
         "ffmpeg_path": _FFMPEG_PATH or "(missing — using raw byte concat)",
+        "ffprobe_path": _FFPROBE_PATH or "(missing — pydub from_file will fail; mutagen used for duration)",
     }
 
 
@@ -441,6 +502,7 @@ __all__ = [
     "sentence_chunks",
     "tts_chunks_parallel_async",
     "tts_concatenate_parallel",
+    "measure_mp3_duration_ms",
     "estimate_voice_cost",
     "voice_io_summary",
     "STT_MODEL_DEFAULT",

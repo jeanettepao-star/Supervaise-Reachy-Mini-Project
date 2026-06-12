@@ -40,6 +40,7 @@ appear later, they take precedence over implementation docs for
 | Path | Purpose | MANIFEST |
 |---|---|---|
 | [`app/`](app/) | The runnable conversation app — `cj_chat.py` (CLI + pipeline functions), `dashboard.py` (Streamlit UI), requirements, voice/Piper local assets. Reads corpus from `../corpus/voice/` and `../corpus/{type}/{theme}/`. | [app/MANIFEST.md](app/MANIFEST.md) |
+| [`app/wake/`](app/wake/) | Wake-word stack (PLAN-0008). `engine.py` is the openWakeWord runtime wrapper; `wake_test.py` is the dev dashboard. `models/hey_cj.onnx` is the committed v2 classifier (locked threshold **0.40**); `models/hey_cj.v1.onnx` is the rollback. Training pipeline lives under `training/` (gN gates + Phase 1/2 retrain scripts); `data/` and `training/oww_*` trees are git-ignored — regenerated locally. | — |
 | [`corpus/`](corpus/) | The runtime corpus: `voice/` (topic map, voice card, router prompt), `columns/` (64 paired `.md` + `.json`), `speeches/` (15 paired `.md` + `.json`). | [corpus/MANIFEST.md](corpus/MANIFEST.md) |
 | [`scripts/`](scripts/) | The Phase 1-3 pipeline scripts: `generate_corpus_files.py`, `build_topic_map.py`, `apply_topic_paths.py`, plus the `run_smoke_test.py` and `check_paths.py` diagnostics. Idempotent. | — |
 | [`data/`](data/) | Phase 1 inputs: `data/csv/` (3 curated CSVs) and `data/text/` (80 source `.txt` files). | — |
@@ -65,4 +66,5 @@ When documents disagree:
 
 - **Not RAG / no embeddings.** Routing is a Haiku call against a hand-curated taxonomy (35 topics post-Phase-2; previously 37); there is no vector store and no similarity search.
 - **Not a robot embodiment for May 30.** Reachy Mini integration is explicitly out of scope per the build-kit README; the demo is a conversation app on a laptop. See [ADR-0005](docs/decisions/0005-defer-robot-embodiment-for-may-30.md).
+- **Not a multi-trigger wake word.** PLAN-0008 Phase 2 locked the wake phrase down to a single **"Hey CJ"** trigger; CJP / Hey CJP were dropped as voice targets and are surfaced by an on-screen prompt instead. The v2 classifier was retrained with real-voice positives (recall on held-out real clips: ~25-38% v1 → 100% offline / 80-90% live at threshold 0.40). See [PLAN-0008 progress](docs/implementation-plans/PLAN-0008-progress.md).
 - **No automated tests yet.** Verification is currently manual via the six build-kit sanity questions plus interactive dashboard runs. Test *specifications* exist in [docs/test-specs/](docs/test-specs/); converting them into a runnable suite is part of the runtime work in [PLAN-0001](docs/implementation-plans/PLAN-0001-runtime-app-haiku-router-sonnet-composer.md).

@@ -93,26 +93,51 @@ def main() -> None:
     ss.setdefault("engine_running", False)
     ss.setdefault("detections", [])
     ss.setdefault("start_error", None)
+    # Manually labelled peak-score captures for the recall/FP tests
+    # the operator runs after Task 1 training. Each entry:
+    #   {"ts": float, "label": str, "score": float}
+    ss.setdefault("captures", [])
+    ss.setdefault("next_label", "")
 
     # ── Controls ─────────────────────────────────────────────────
     st.subheader("Controls")
 
+    # Custom-trained model file produced by PLAN-0008 G5. If it's
+    # present, surface it at the TOP of the dropdown as the default;
+    # otherwise fall back to the stock pretrained set.
+    from pathlib import Path
+    _custom_hey_cj = Path(__file__).resolve().parent / "wake" / "models" / "hey_cj.onnx"
+    options = list(AVAILABLE_STOCK_MODELS)
+    custom_label = None
+    if _custom_hey_cj.exists():
+        custom_label = "Custom — Hey CJ / Hey CJP / CJP"
+        options = [custom_label] + options
+
     cfg_col1, cfg_col2 = st.columns(2)
     with cfg_col1:
-        model_name = st.selectbox(
-            "Stock wake-word model",
-            options=list(AVAILABLE_STOCK_MODELS),
-            index=0,  # hey_jarvis
+        selected = st.selectbox(
+            "Wake-word model",
+            options=options,
+            index=0,  # custom model when present, else hey_jarvis
             disabled=ss.engine_running,
-            help="From the openWakeWord MODELS dict. "
-                 "Default `hey_jarvis` is less common in incidental speech.",
+            help="The PLAN-0008-trained custom model is shown when "
+                 "`app/wake/models/hey_cj.onnx` is present. Stock "
+                 "models are from openWakeWord's MODELS dict.",
         )
+        # Translate label → engine model_name argument.
+        if selected == custom_label:
+            model_name = str(_custom_hey_cj)
+        else:
+            model_name = selected
     with cfg_col2:
         threshold = st.slider(
             "Detection threshold",
-            min_value=0.10, max_value=0.95, value=0.50, step=0.05,
+            min_value=0.10, max_value=0.95, value=0.35, step=0.05,
             disabled=ss.engine_running,
-            help="Higher = fewer false positives but harder to trigger.",
+            help="Higher = fewer false positives but harder to trigger. "
+                 "0.35 is the PLAN-0008 retuned default for the "
+                 "custom 'Hey CJ' v2 model on the consolidated C: venv "
+                 "(2026-06-11 — gave 15/20 live recall in operator testing).",
         )
 
     btn_col1, btn_col2, btn_col3 = st.columns([1, 1, 2])
@@ -226,6 +251,117 @@ def main() -> None:
                 f"😴 SLEEPING — listening for `{eng.model_name}` "
                 f"(threshold {eng.threshold})"
             )
+
+        # ── Live score readout ──────────────────────────────────────
+        # The autorefresh fires every 500 ms so these update in
+        # near-real-time. last_score is the most recent per-frame
+        # score (refreshes ~12.5×/sec on the worker thread; we
+        # sample it at 500 ms here). recent_peak is the highest
+        # score across the rolling 2 s window — i.e. the peak of
+        # whatever the operator just said. Together they tell the
+        # operator whether a phrase is scoring near-threshold
+        # (tune the slider) or near-zero (retrain).
+        peak_2s, peak_ts = eng.recent_peak(seconds=2.0)
+        peak_5s, _      = eng.recent_peak(seconds=5.0)
+
+        score_col1, score_col2, score_col3 = st.columns(3)
+        with score_col1:
+            st.metric(
+                "Live score (current frame)",
+                f"{eng.stats()['last_score']:.3f}",
+                help="Most recent per-frame model output. ~12 fps. "
+                     "Background is usually < 0.02.",
+            )
+        with score_col2:
+            st.metric(
+                "Peak over last 2 s",
+                f"{peak_2s:.3f}",
+                delta=f"vs threshold {eng.threshold:.2f}",
+                delta_color=(
+                    "normal" if peak_2s >= eng.threshold else "off"
+                ),
+                help="Useful right after you finish saying a phrase: "
+                     "this is what your utterance scored at its peak.",
+            )
+        with score_col3:
+            st.metric(
+                "Peak over last 5 s",
+                f"{peak_5s:.3f}",
+                help="Use when you forget to capture quickly.",
+            )
+
+        # ── Per-utterance capture ───────────────────────────────────
+        # Workflow: type a label (e.g. "Hey CJ"), say it once into the
+        # mic at normal volume, then press 📍. The recent 2-s peak
+        # gets appended to the capture log with the label, so you can
+        # tabulate scores per phrase across the recall + FP test sets.
+        st.markdown("---")
+        st.subheader("Score capture")
+        st.caption(
+            "Type a phrase label, say it once at normal volume, then "
+            "press **📍 Capture last 2 s peak**. The peak score is "
+            "appended to the log below so you can compare phrase × score."
+        )
+        cap_col1, cap_col2, cap_col3 = st.columns([2, 1, 1])
+        with cap_col1:
+            ss.next_label = st.text_input(
+                "Label for next capture",
+                value=ss.next_label,
+                key="capture_label",
+                label_visibility="collapsed",
+                placeholder='e.g. "Hey CJ" or "Hey CEO" (FP)',
+            )
+        with cap_col2:
+            capture_clicked = st.button(
+                "📍 Capture last 2 s peak",
+                type="primary",
+                use_container_width=True,
+            )
+        with cap_col3:
+            clear_captures = st.button(
+                "🗑 Clear captures",
+                use_container_width=True,
+            )
+
+        if capture_clicked:
+            p, pts = eng.recent_peak(seconds=2.0)
+            ss.captures.insert(0, {
+                "ts":    pts or time.time(),
+                "label": ss.next_label or "(unlabelled)",
+                "score": p,
+            })
+            ss.captures = ss.captures[:200]   # cap
+
+        if clear_captures:
+            ss.captures = []
+
+        if ss.captures:
+            st.markdown("**Capture log** — most recent first")
+            # Render as a simple table with score colouring.
+            for c in ss.captures:
+                ts_str = time.strftime(
+                    "%H:%M:%S", time.localtime(c["ts"])
+                )
+                # Categorise the score so the operator can scan
+                # quickly: ≥threshold = green (would have fired);
+                # in [0.1, threshold) = yellow (close, threshold-
+                # tunable); < 0.1 = grey (well below — retrain
+                # signal per PLAN-0008 recovery ladder).
+                if c["score"] >= eng.threshold:
+                    badge = "🟢"
+                elif c["score"] >= 0.10:
+                    badge = "🟡"
+                else:
+                    badge = "⚫"
+                st.write(
+                    f"{badge}  `{ts_str}`  "
+                    f"score=`{c['score']:.3f}`  "
+                    f"— **{c['label']}**"
+                )
+        else:
+            st.caption("(no captures yet)")
+
+        st.markdown("---")
 
         # Diagnostics — useful for verifying the threading model
         # behaves under Streamlit reruns. start_count must NOT
