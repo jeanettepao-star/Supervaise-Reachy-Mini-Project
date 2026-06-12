@@ -1136,14 +1136,18 @@ def record_until_silence(
             small value (e.g. 7 s) so a visitor who triggers the wake
             word and then walks away doesn't freeze the UI for 30 s.
         silence_rms_threshold: int16 RMS below which a frame is treated
-            as silence. Default ``None`` triggers **auto-calibration**
-            from a ~240 ms noise-floor probe at the start of capture —
-            essential for any environment where the room ambient sits
-            above the original hardcoded 350 (HVAC, kiosk fan, etc.).
-            Bug fix 2026-06-11: with the hardcoded 350 in a noisy
-            room, every frame counted as speech, ``silence_run`` never
-            incremented, EOS never triggered, and capture ran the full
-            ``seconds_max`` even after the speaker stopped.
+            as silence under the **absolute** EOS rule. Default ``None``
+            triggers auto-calibration: skip a ~510 ms settle window,
+            then sample non-zero RMS frames until 8 valid samples are
+            in hand (cap ~1.5 s), then median × 4 → threshold (clamped
+            to [350, 2500]). Implausibly low medians or too-few-valid
+            probes fall back to a sane 800 (above typical room tone).
+
+            In parallel a **relative** EOS rule runs: track the peak
+            RMS during the utterance and treat any frame below 20 % of
+            that peak as silence. EOS fires on whichever rule
+            accumulates 1.2 s of silence first — so a fooled absolute
+            calibration can't extend capture to seconds_max.
 
     Returns path to a 16kHz mono wav file.
     """
@@ -1167,47 +1171,93 @@ def record_until_silence(
         else None
     )
 
-    # Auto-calibration parameters (only used when caller didn't supply one)
-    NOISE_PROBE_FRAMES = 8                 # ~240 ms (8 × 30 ms)
+    # Auto-calibration parameters (only used when caller didn't supply one).
+    # Bug-fix iteration 2026-06-12: the original "probe first 240 ms" design
+    # mis-fired in production because the first frames out of sd.InputStream
+    # are often digital-silence stream-priming artifacts (RMS=0). The median
+    # of [0,0,0,0,0,0,0,200] is 0 → silence_threshold clamped to BASE_FLOOR_RMS
+    # = 350 → below actual room ambient → every frame counts as speech → EOS
+    # never triggers → 30 s captures. Three fixes:
+    #   1) Settle window — discard the first ~500 ms before measuring
+    #   2) Drop near-zero RMS frames from the probe pool
+    #   3) Relative EOS rule + sane fallback so a bad probe can't ruin a turn
+    SETTLE_FRAMES = 17                     # ~510 ms — discarded from probe, KEPT in collected
+    NEAR_ZERO_RMS = 10                     # frames below this are priming artifacts
+    VALID_FRAMES_NEEDED = 8                # need this many non-zero frames for median
+    MAX_PROBE_FRAMES = 50                  # ~1.5 s hard cap on probe duration
     BASE_FLOOR_RMS = 350                   # never below this (silent booth)
-    MAX_AUTO_THRESHOLD = 2500              # never above this (real speech ≳ 2500)
+    MAX_AUTO_THRESHOLD = 2500              # never above this (clean speech ≳ 2500)
     NOISE_HEADROOM = 4.0                   # threshold = noise_floor × headroom
+    FALLBACK_THRESHOLD = 800               # sane default ABOVE typical room tone
+                                           # (200–700 RMS); used when probe is unreliable
+    IMPLAUSIBLE_FLOOR = 50                 # probe medians below this → use fallback
+    RELATIVE_DROP_RATIO = 0.20             # relative EOS: silence = rms < peak × ratio
 
     collected = []
     speech_frames = 0
     silence_run = 0
     started_speaking = False
     frames_without_speech = 0
+    peak_rms = 0.0                          # max RMS during the active utterance
 
     try:
         with sd.InputStream(samplerate=SAMPLE_RATE, channels=1, dtype="int16",
                             blocksize=frame_samples) as stream:
             # ── Optional auto-calibration of silence_rms_threshold ──
-            # Probe the first ~240 ms to estimate room noise floor.
-            # The probed frames are kept in `collected` so we don't
-            # discard real audio if the speaker began immediately.
+            # Frames consumed here (settle + probe) are kept in `collected`
+            # so we never drop audio the visitor uttered early. Only the
+            # threshold-derivation logic ignores them.
             if silence_rms_threshold is None:
-                noise_rms = []
-                for _ in range(NOISE_PROBE_FRAMES):
+                # Phase 1 — settle window: discard from probe (but keep audio)
+                for _ in range(SETTLE_FRAMES):
                     block, _ = stream.read(frame_samples)
                     block = np.squeeze(block)
                     collected.append(block)
-                    noise_rms.append(
-                        float(np.sqrt(np.mean(block.astype(np.float32) ** 2)))
-                    )
-                noise_floor = float(np.median(noise_rms))
-                silence_rms_threshold = max(
-                    BASE_FLOOR_RMS,
-                    min(int(noise_floor * NOISE_HEADROOM), MAX_AUTO_THRESHOLD),
-                )
+
+                # Phase 2 — gather non-zero RMS frames until we have enough
+                noise_rms = []
+                probe_count = 0
+                while (len(noise_rms) < VALID_FRAMES_NEEDED
+                       and probe_count < MAX_PROBE_FRAMES):
+                    block, _ = stream.read(frame_samples)
+                    block = np.squeeze(block)
+                    collected.append(block)
+                    probe_count += 1
+                    rms = float(np.sqrt(np.mean(block.astype(np.float32) ** 2)))
+                    if rms >= NEAR_ZERO_RMS:
+                        noise_rms.append(rms)
+
+                # Phase 3 — derive threshold + report which path was taken
+                if len(noise_rms) >= VALID_FRAMES_NEEDED:
+                    noise_floor = float(np.median(noise_rms))
+                    if noise_floor < IMPLAUSIBLE_FLOOR:
+                        silence_rms_threshold = FALLBACK_THRESHOLD
+                        floor_source = (f"fallback {FALLBACK_THRESHOLD} "
+                                        f"(probe median {noise_floor:.0f} < "
+                                        f"{IMPLAUSIBLE_FLOOR}, implausibly low)")
+                    else:
+                        silence_rms_threshold = max(
+                            BASE_FLOOR_RMS,
+                            min(int(noise_floor * NOISE_HEADROOM),
+                                MAX_AUTO_THRESHOLD),
+                        )
+                        floor_source = (f"probe (floor={noise_floor:.0f} "
+                                        f"× {NOISE_HEADROOM} headroom)")
+                else:
+                    noise_floor = 0.0
+                    silence_rms_threshold = FALLBACK_THRESHOLD
+                    floor_source = (f"fallback {FALLBACK_THRESHOLD} "
+                                    f"(only {len(noise_rms)} valid frames after "
+                                    f"{probe_count} probes)")
+
                 print(
-                    f"[capture-eos] noise probe: floor={noise_floor:.0f} rms · "
-                    f"silence_threshold={silence_rms_threshold} "
-                    f"(headroom ×{NOISE_HEADROOM})",
+                    f"[capture-eos] noise probe: settle={SETTLE_FRAMES}f "
+                    f"probed={probe_count}f valid={len(noise_rms)}f "
+                    f"floor={noise_floor:.0f} → silence_threshold="
+                    f"{silence_rms_threshold} ({floor_source})",
                     flush=True,
                 )
-                # Bookkeeping for the main loop's max-frames budget.
-                max_frames -= NOISE_PROBE_FRAMES
+                max_frames -= (SETTLE_FRAMES + probe_count)
             else:
                 print(
                     f"[capture-eos] silence_threshold={silence_rms_threshold} "
@@ -1216,30 +1266,62 @@ def record_until_silence(
                 )
 
             # ── Main capture loop ──
+            # Dual EOS rule (OR — whichever fires first):
+            #   absolute  → rms < silence_rms_threshold
+            #   relative  → rms < peak_rms × RELATIVE_DROP_RATIO
+            # The relative rule is the safety net for the case the calibration
+            # got fooled (peak captures actual speech loudness during the turn;
+            # quiet of any kind drops well below 20 % of that peak). Either
+            # rule triggers silence_run; EOS fires when 1200 ms of consecutive
+            # silence-by-either-rule accumulates.
             for _ in range(max_frames):
                 block, _overflowed = stream.read(frame_samples)
                 block = np.squeeze(block)
                 collected.append(block)
 
                 rms = float(np.sqrt(np.mean(block.astype(np.float32) ** 2)))
-                if rms > silence_rms_threshold:
+
+                # Track per-utterance peak ONLY after speech has been confirmed.
+                # Pre-speech ambient must not contaminate peak.
+                if started_speaking and rms > peak_rms:
+                    peak_rms = rms
+
+                abs_silent = rms < silence_rms_threshold
+                rel_silent = (
+                    started_speaking
+                    and peak_rms > 0
+                    and rms < peak_rms * RELATIVE_DROP_RATIO
+                )
+                frame_is_silent = abs_silent or rel_silent
+
+                if not frame_is_silent:
                     speech_frames += 1
                     silence_run = 0
                     if not started_speaking and speech_frames >= min_speech_frames:
                         started_speaking = True
+                        peak_rms = rms     # seed peak from the first speech frame
                         print(
                             f"[capture-eos] speech-start at frame "
-                            f"{len(collected)} (~{len(collected) * frame_ms / 1000:.2f}s in)",
+                            f"{len(collected)} (~{len(collected) * frame_ms / 1000:.2f}s in) "
+                            f"rms={rms:.0f} threshold={silence_rms_threshold}",
                             flush=True,
                         )
                 else:
                     if started_speaking:
                         silence_run += 1
                         if silence_run >= trailing_silence_frames:
+                            if abs_silent and rel_silent:
+                                rule = "abs+rel"
+                            elif abs_silent:
+                                rule = "abs"
+                            else:
+                                rule = "rel"
                             print(
                                 f"[capture-eos] speech-end at frame {len(collected)} "
-                                f"(~{len(collected) * frame_ms / 1000:.2f}s in) — "
-                                f"trailing silence {trailing_silence_ms} ms",
+                                f"(~{len(collected) * frame_ms / 1000:.2f}s in) "
+                                f"rule={rule} peak_rms={peak_rms:.0f} "
+                                f"last_rms={rms:.0f} threshold={silence_rms_threshold} "
+                                f"trailing={trailing_silence_ms}ms",
                                 flush=True,
                             )
                             break
