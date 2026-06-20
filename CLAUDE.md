@@ -15,7 +15,7 @@ making changes:
 
 | Doc | What it gives you |
 |---|---|
-| [docs/handover_claude_code_2026-05-26.md](docs/handover_claude_code_2026-05-26.md) | Latest implementation reality — what runs, what's wired, gaps between intent and reality. Supersedes the 05-16 handover. |
+| [docs/handover_claude_code_2026-06-21.md](docs/handover_claude_code_2026-06-21.md) | Latest implementation reality — reconciled pre-wake-word baseline (branch `pre-wake-word-integration`). What runs, what's wired, gaps between intent and reality. Supersedes the 05-31 handover. |
 | [docs/handover_claude_code_2026-05-16.md](docs/handover_claude_code_2026-05-16.md) | Prior implementation snapshot — kept for diff context. |
 | [PROJECT.md](PROJECT.md) | Runtime tuning detail — pipeline architecture, cost model, performance numbers, troubleshooting, config. |
 
