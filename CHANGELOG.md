@@ -115,11 +115,14 @@ Offline (no API key required) — all green:
    timestamp differs). Regenerated files were reverted to keep the stale map
    intact for W1.7.
 
-Live (`python app/cj_chat.py --text "…"`): loads artifacts via config, then
-stops at the `ANTHROPIC_API_KEY` guard (no key in this environment). This
-exercises every step up to the Claude round-trip; the round-trip itself is gated
-only on the key, not on any code defect. Per the brief, full pilot e2e is
-deferred to a post-W1.8 checkpoint and does not block this task.
+Live (`python app/cj_chat.py --text "What is the rule of law?"`, key supplied
+via `app/.env`): **PASS, end-to-end.** Gate → `in_corpus`; router →
+`primary=rule_of_law`, `secondary=[constitutional_doctrine, due_process]`,
+`confidence=high`; Sonnet composed a grounded in-voice answer (212 output
+tokens; prompt-cache write 4,411 tok on the voice card). Confirms the full
+Haiku-router → Sonnet-composer path runs through `config.py`. (Full pilot e2e
+— the new retrieval engine — remains deferred to a post-W1.8 checkpoint per the
+brief; this is the baseline pipeline only.)
 
 ### ⚠ Retrieval-quality caveat (read before trusting routing)
 
