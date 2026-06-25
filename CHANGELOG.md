@@ -1,0 +1,145 @@
+# CHANGELOG
+
+## [pilot-baseline] — 2026-06-25 — W1.1 Stabilise codebase + unified config.py
+
+A **code/config baseline** taken BEFORE the W1.7 topic-map rebuild and the
+W1.4–W1.6 index builds. Branch: `pilot/stabilise-config` (off
+`weekly-plan-execution` @ `07a8b8d`, the reconciled pre-wake-word baseline).
+See [BRANCHES.md](BRANCHES.md) for the full branch audit.
+
+### Consolidated
+
+- **No branch merge / cherry-pick was performed, and therefore there were no
+  merge conflicts to resolve.** The only branches diverging from the chosen
+  base (`origin/main`, `origin/integration/hands-free-wake`) carry exclusively
+  the **wake-word re-integration track**, which is deferred for the May-30 demo
+  (ADR-0005; reconciled 2026-06-21 handover). Pulling them would drag a deferred
+  feature into the pilot baseline, so none of their work "belongs in the pilot."
+  The chosen base was taken as-is.
+- The brief's instruction to "resolve each conflict toward the LOCKED NEW
+  architecture" was **inapplicable**: no branch in the tree contains any
+  competing retrieval/centroid/RRF code to conflict with. The new architecture
+  exists only as the config surface added here (see below).
+
+### Added — `config.py` (single source of truth, repo root)
+
+One import (`import config`) now surfaces **46 knobs**, grouped + commented,
+each with a one-line trade-off note and an env-var override (precedence:
+env var > default-in-file). W3.3 sweeps **this file** (or the matching env
+var); it never edits code. Verified: `python config.py` dumps every knob.
+
+Knobs centralised, by group:
+
+- **Retrieval cutoff** `[NEW-ARCH]`: `TAU` (keep chunk if score ≥ TAU·top_score),
+  `MIN_K`, `MAX_K`.
+- **Fusion** `[NEW-ARCH]`: `RRF_K` (reciprocal-rank-fusion constant),
+  `LAMBDA` (topic-affinity weight: `score = passage_sim + LAMBDA·topic_affinity`).
+- **Routing / scope**: `OUT_OF_SCOPE_THRESHOLD`, `TOPIC_SOFTMAX_TEMPERATURE`.
+- **Topic model** `[NEW-ARCH, drives W1.7 regen]`: `TOPIC_MAP_PATH`,
+  `TOPIC_MAP_VERSION`, `TOPIC_MERGE_COSINE` (independence check, default **0.85**),
+  `MAX_TOPIC_TAGS` (clamped 1–3), `CENTROID_SOURCE_FIELDS`
+  (`label/description/signature_phrases/exemplar_chunks`). Also the
+  baseline-consumed `TOPIC_PRIMARY_N`, `TOPIC_SECONDARY_N`, and the matcher-health
+  thresholds `TOPIC_OVER_BROAD_FRAC` / `TOPIC_NEAR_DUP_JACCARD` /
+  `TOPIC_DOMINANT_TERM_FRAC`.
+- **Composition**: `MAX_TOKENS`, `COMPOSER_TIMEOUT_S`, `MAX_RETRIES`,
+  `FIDELITY_MAX_RETRIES`, `EXPAND_ON_DEMAND_FIRE_RATE_GATE` (~0.10) `[NEW-ARCH]`,
+  `CONTEXT_TOKEN_BUDGET`, `CHARS_PER_TOKEN_APPROX`, `MAX_SOURCE_DOCS`.
+- **Models**: `EMBEDDING_MODEL_ID` (all-MiniLM-L6-v2) `[NEW-ARCH]`,
+  `EMBEDDING_DIM` (384) `[NEW-ARCH]`, `COMPOSER_MODEL_ID` (claude-sonnet-4-6),
+  `ROUTER_MODEL_ID` (claude-haiku-4-5-20251001), `WHISPER_MODEL_SIZE`,
+  `OPENAI_STT_MODEL` / `OPENAI_TTS_MODEL` / `OPENAI_TTS_VOICE` / `OPENAI_TTS_SPEED`.
+- **Encoding** `[CONVENTION]`: `FILE_ENCODING` (utf-8-sig, reads),
+  `OUTPUT_ENCODING` (utf-8, writes), `JSON_ENSURE_ASCII` (False).
+- **Audio** `[BASELINE]`: `SAMPLE_RATE`, `RECORD_SECONDS_MAX`,
+  `SILENCE_RMS_THRESHOLD`, `TRAILING_SILENCE_MS`, `TTS_SENTENCE_SILENCE`,
+  `TTS_LENGTH_SCALE`.
+- **Data conventions** `[CONVENTION]`: `CURATED_SCHEMA_COLUMNS` (15),
+  `DOC_ID_REGEX` (`^[SCGB][A-E]\d+$`).
+
+### Moved from code → config (literals replaced with config reads)
+
+- **`app/cj_chat.py`**: `ROUTER_MODEL`→`config.ROUTER_MODEL_ID`,
+  `INFERENCE_MODEL`→`config.COMPOSER_MODEL_ID`, `WHISPER_MODEL_SIZE`,
+  `SAMPLE_RATE`, `RECORD_SECONDS_MAX`, `ANTHROPIC_MAX_RETRIES`→`config.MAX_RETRIES`,
+  `CONTEXT_TOKEN_BUDGET`, `_CHARS_PER_TOKEN_APPROX`, the `max_docs=3`
+  defaults→`config.MAX_SOURCE_DOCS`, both composer `max_tokens=300`→`config.MAX_TOKENS`,
+  the fidelity `max_retries=1`→`config.FIDELITY_MAX_RETRIES`,
+  `TTS_SENTENCE_SILENCE` / `TTS_LENGTH_SCALE`, and the recorder's
+  `silence_rms_threshold` / `trailing_silence_ms`.
+- **`scripts/build_topic_map.py`**: `schema_version "2.0"`→`config.TOPIC_MAP_VERSION`,
+  `derive_topic_paths` `primary_n/secondary_n`→`config.TOPIC_PRIMARY_N/SECONDARY_N`,
+  `matcher_health_check` thresholds→config, and all read/write encodings →
+  `config.FILE_ENCODING` (reads) / `config.OUTPUT_ENCODING` +
+  `config.JSON_ENSURE_ASCII` (writes).
+- **`app/voice_io.py`**: `STT_MODEL_DEFAULT`, `TTS_MODEL_DEFAULT`,
+  `TTS_VOICE_DEFAULT`, `TTS_SPEED_DEFAULT` → config.
+
+Each file imports the repo-root `config.py` via a small `sys.path` bootstrap so
+it works whether run from repo root, `app/`, or `scripts/`. Every previous
+env-var override name (`ROUTER_MODEL`, `INFERENCE_MODEL`, `WHISPER_MODEL`,
+`OPENAI_TTS_VOICE`, …) is preserved — `config.py` reads those same names, so
+existing `.env` files keep working unchanged.
+
+### Conventions preserved
+
+- **utf-8-sig** read encoding / **ensure_ascii=False** JSON writes — now named
+  constants in `config.py` and wired through `build_topic_map.py`.
+- **15-column curated schema** — surfaced as `CURATED_SCHEMA_COLUMNS`.
+- **ID regex** — surfaced as `DOC_ID_REGEX = ^[SCGB][A-E]\d+$`. ⚠ See flag below:
+  the brief's regex adds **`B`** (book corpus, PLAN-0005). The shipping runtime
+  (`cj_chat._DOC_ID_RE`) still recognises only **S/C/G** because no `B` docs or
+  `corpus/books/` tree exist yet; `B` is reserved in config for when books land.
+  Left runtime regex unchanged (changing it now would be a fix outside W1.1
+  scope with no docs to validate against).
+
+### Requirements
+
+`app/requirements.txt` updated for honesty against actual imports: added (as
+commented/optional) the lazily-imported voice-mode deps `faster-whisper` +
+`sounddevice` used by the CLI push-to-talk path, and a commented
+`sentence-transformers` line for the W1.4+ MiniLM embedding engine (left out of
+the default install so the baseline stays light). Existing `>=` floors kept; no
+exact re-pin (would risk destabilising the validated baseline).
+
+### Regression (existing build only — NOT the pilot pipeline)
+
+Offline (no API key required) — all green:
+
+1. `python config.py` → 46 knobs dump cleanly from one import.
+2. `import cj_chat` clean; asserts confirm `ROUTER_MODEL`, `INFERENCE_MODEL`,
+   `CONTEXT_TOKEN_BUDGET` now read from `config`. 35 topics load;
+   `build_context()` assembles a ~7.6k-token grounded block.
+3. `python scripts/build_topic_map.py` → 79 docs → 35 topics, 0 unmatched;
+   output **content-identical** to the committed map (only `generated_at`
+   timestamp differs). Regenerated files were reverted to keep the stale map
+   intact for W1.7.
+
+Live (`python app/cj_chat.py --text "…"`): loads artifacts via config, then
+stops at the `ANTHROPIC_API_KEY` guard (no key in this environment). This
+exercises every step up to the Claude round-trip; the round-trip itself is gated
+only on the key, not on any code defect. Per the brief, full pilot e2e is
+deferred to a post-W1.8 checkpoint and does not block this task.
+
+### ⚠ Retrieval-quality caveat (read before trusting routing)
+
+The on-disk `corpus/voice/topic_map.json` is **STALE under the locked new
+architecture** and was **not** re-tuned here. The current map is built by
+lexical keyword matchers, not centroids; its own health check already flags
+**32 taxonomy warnings** (8 over-broad topics, 8 near-duplicate pairs — e.g.
+`msme_and_entrepreneurship`↔`museum_for_liberty_and_prosperity` at Jaccard 0.91,
+`twin_beacons_doctrine`↔`foundation_for_liberty_and_prosperity` at 0.86, both
+above the `TOPIC_MERGE_COSINE` 0.85 independence bar). **Retrieval quality is
+expected to change once W1.7 rebuilds the centroids.** Do not treat current
+routing behaviour as validated.
+
+### ⚠ Inconsistencies flagged (not silently fixed)
+
+1. **`feat/topic-map-coverage` does not exist** — the brief's suggested
+   candidate base is absent from local, `origin`, and the reflog. Base chosen on
+   evidence instead (BRANCHES.md).
+2. **Architecture gap** — the brief's "LOCKED NEW architecture" (centroids,
+   numpy retrieval, RRF) is **not implemented anywhere** in the tree; the live
+   pipeline is the documented Haiku-router → Sonnet-composer baseline. W1.1
+   lands only the config surface for the new architecture, not the engine.
+3. **DOC_ID regex `B`** — see "Conventions preserved" above.

@@ -21,6 +21,22 @@ streamlit>=1.40.0
 # --- Optional ------------------------------------------------------
 # numpy + scipy were used by the prior local-Whisper path; kept here
 # because some downstream tools (smoke runner percentile stats) may
-# need them. Safe to drop if you're not exercising those code paths.
+# need them. numpy is also the substrate for the W1.4+ in-memory
+# retrieval index (NEW-ARCH). scipy.io.wavfile is used by the CLI
+# push-to-talk recorder in cj_chat.py.
 numpy>=1.24.0
 scipy>=1.10.0
+
+# --- Voice mode (CLI push-to-talk: `python app/cj_chat.py`) --------
+# Imported lazily inside cj_chat.py only when running voice mode, so
+# the text-only regression check below does NOT need them installed.
+# Uncomment to exercise the local STT + mic-capture path.
+# faster-whisper>=1.0.0     # local Whisper STT (cj_chat.main voice loop)
+# sounddevice>=0.4.6        # mic capture (record_until_silence)
+
+# --- NEW-ARCH retrieval engine (W1.4–W1.7; not used by baseline) ---
+# The locked target architecture embeds passages/topic centroids with
+# all-MiniLM-L6-v2 (384-dim). Installing sentence-transformers pulls
+# torch (~heavy); left commented until the retrieval engine lands so
+# the baseline install and regression stay light.
+# sentence-transformers>=2.7.0   # all-MiniLM-L6-v2 local embeddings

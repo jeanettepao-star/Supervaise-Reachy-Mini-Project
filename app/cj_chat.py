@@ -46,6 +46,14 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 
+# Single source of truth for every tunable knob. config.py lives at the repo
+# root; ensure it's importable whether this module is run as `app/cj_chat.py`
+# (cwd=repo root) or `cj_chat.py` (cwd=app/). W3.3 sweeps config.py, not code.
+_REPO_ROOT_FOR_CONFIG = Path(__file__).resolve().parent.parent
+if str(_REPO_ROOT_FOR_CONFIG) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT_FOR_CONFIG))
+import config
+
 # Load .env from several plausible locations before importing Anthropic
 # so the SDK picks up the key regardless of where the user keeps the
 # file. Search order (lowest to highest precedence — later overrides):
@@ -96,8 +104,10 @@ from anthropic import Anthropic
 # snapshot they want without code edits. Defaults match what the
 # Phase 1-3 work was validated on (Haiku 4.5 for routing+gate+fidelity,
 # Sonnet 4.6 for composition).
-ROUTER_MODEL = os.environ.get("ROUTER_MODEL", "claude-haiku-4-5-20251001")
-INFERENCE_MODEL = os.environ.get("INFERENCE_MODEL", "claude-sonnet-4-6")
+# Sourced from config.py (which itself honours the ROUTER_MODEL /
+# INFERENCE_MODEL env vars, preserving the previous override surface).
+ROUTER_MODEL = config.ROUTER_MODEL_ID
+INFERENCE_MODEL = config.COMPOSER_MODEL_ID
 
 
 # Per ADR-0011: doc IDs follow ^[SCG][A-E]\d+$. The first letter selects the
@@ -165,11 +175,11 @@ PIPER_BIN = os.environ.get("PIPER_BIN", "piper")
 PIPER_VOICE = os.environ.get("PIPER_VOICE", "./voices/en_US-ryan-high.onnx")
 
 # Whisper model size — "small" works for English; use "medium" if Filipino mix
-WHISPER_MODEL_SIZE = os.environ.get("WHISPER_MODEL", "medium")
+WHISPER_MODEL_SIZE = config.WHISPER_MODEL_SIZE
 
 # Audio
-SAMPLE_RATE = 16000
-RECORD_SECONDS_MAX = 30  # max utterance length before auto-cutoff
+SAMPLE_RATE = config.SAMPLE_RATE
+RECORD_SECONDS_MAX = config.RECORD_SECONDS_MAX  # max utterance before auto-cutoff
 
 
 # ============================================================
@@ -180,7 +190,7 @@ RECORD_SECONDS_MAX = 30  # max utterance length before auto-cutoff
 # 529 "overloaded" errors and 429 rate-limits get retried automatically
 # without the caller seeing a traceback. The SDK retries on connection
 # errors, 408, 409, 429, and any 5xx — exactly the right set.
-ANTHROPIC_MAX_RETRIES = 4
+ANTHROPIC_MAX_RETRIES = config.MAX_RETRIES
 
 
 def make_client() -> Anthropic:
@@ -210,7 +220,7 @@ def loaded_env_summary() -> dict[str, object]:
         "api_key_present": bool(os.environ.get("ANTHROPIC_API_KEY")),
         "router_model": ROUTER_MODEL,
         "inference_model": INFERENCE_MODEL,
-        "whisper_model": os.environ.get("WHISPER_MODEL", "medium"),
+        "whisper_model": config.WHISPER_MODEL_SIZE,
     }
 
 
@@ -594,8 +604,8 @@ def force_meta_routing(reasoning: str = "Input gate flagged identity probe.") ->
 # PLAN-0001 §C: soft token budget for the assembled context. Source docs
 # are dropped lowest-priority-first when over budget; never truncate
 # mid-doc. ~4 chars ≈ 1 token (Anthropic tokeniser approximation).
-CONTEXT_TOKEN_BUDGET = 12_000
-_CHARS_PER_TOKEN_APPROX = 4
+CONTEXT_TOKEN_BUDGET = config.CONTEXT_TOKEN_BUDGET
+_CHARS_PER_TOKEN_APPROX = config.CHARS_PER_TOKEN_APPROX
 
 
 def _approx_tokens(text: str) -> int:
@@ -603,7 +613,7 @@ def _approx_tokens(text: str) -> int:
 
 
 def _select_source_doc_ids(
-    routing: dict, artifacts: CorpusArtifacts, max_docs: int = 3
+    routing: dict, artifacts: CorpusArtifacts, max_docs: int = config.MAX_SOURCE_DOCS
 ) -> list[str]:
     """Pick source doc ids using topic_paths intersection with router output.
 
@@ -667,7 +677,7 @@ def build_context(
     topic_data = {tid: artifacts.topics[tid] for tid in all_topic_ids if tid in artifacts.topics}
 
     # 2. Pick + load source docs in priority order
-    doc_ids = _select_source_doc_ids(routing, artifacts, max_docs=3)
+    doc_ids = _select_source_doc_ids(routing, artifacts, max_docs=config.MAX_SOURCE_DOCS)
     source_docs: list[dict] = []
     for did in doc_ids:
         raw = artifacts.load_raw_doc(did)
@@ -741,7 +751,7 @@ def generate_response(
 
     resp = client.messages.create(
         model=INFERENCE_MODEL,
-        max_tokens=300,  # spoken responses ~20-150 words = ~30-225 tokens (post-50% compression)
+        max_tokens=config.MAX_TOKENS,  # spoken responses ~20-150 words (post-50% compression)
         system=[{
             "type": "text",
             "text": artifacts.voice_card,
@@ -789,7 +799,7 @@ def generate_response_stream(
 
     with client.messages.stream(
         model=INFERENCE_MODEL,
-        max_tokens=300,  # spoken responses ~20-150 words = ~30-225 tokens (post-50% compression)
+        max_tokens=config.MAX_TOKENS,  # spoken responses ~20-150 words (post-50% compression)
         system=[{
             "type": "text",
             "text": artifacts.voice_card,
@@ -909,7 +919,7 @@ def generate_response_with_fidelity(
     routing: dict,
     artifacts: CorpusArtifacts,
     conversation_history: list = None,
-    max_retries: int = 1,
+    max_retries: int = config.FIDELITY_MAX_RETRIES,
 ) -> tuple[str, dict]:
     """Compose + fidelity check + (one retry on failure) + safe fallback.
 
@@ -1034,8 +1044,8 @@ def _prepare_tts_text(text: str) -> list[str]:
 
 
 # Piper tuning — tweak here if the tempo feels off.
-TTS_SENTENCE_SILENCE = "0.6"   # seconds between sentences AND after em-dashes (Piper default 0.2)
-TTS_LENGTH_SCALE = "1.05"      # >1 = slower; tiny slowdown = measured judicial tempo
+TTS_SENTENCE_SILENCE = config.TTS_SENTENCE_SILENCE   # seconds between sentences / after em-dashes
+TTS_LENGTH_SCALE = config.TTS_LENGTH_SCALE           # >1 = slower; measured judicial tempo
 
 
 # ============================================================
@@ -1135,9 +1145,9 @@ def record_until_silence(seconds_max: int = RECORD_SECONDS_MAX) -> str:
     # Tunables — conservative defaults that work in a typical room
     frame_ms = 30                          # chunk size
     frame_samples = int(SAMPLE_RATE * frame_ms / 1000)
-    silence_rms_threshold = 350            # int16 RMS; ambient noise stays below this
+    silence_rms_threshold = config.SILENCE_RMS_THRESHOLD  # int16 RMS; ambient noise stays below this
     min_speech_frames = 5                  # ~150ms of speech before we'll consider stopping
-    trailing_silence_ms = 1200             # stop after this much silence post-speech
+    trailing_silence_ms = config.TRAILING_SILENCE_MS      # stop after this much silence post-speech
     trailing_silence_frames = trailing_silence_ms // frame_ms
     max_frames = int(seconds_max * 1000 / frame_ms)
 

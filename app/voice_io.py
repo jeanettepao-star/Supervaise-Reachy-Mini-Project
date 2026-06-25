@@ -40,9 +40,18 @@ import io
 import os
 import re
 import shutil
+import sys
 import warnings
 from pathlib import Path
 from typing import Optional
+
+# Single source of truth for tunable knobs (repo-root config.py). config.py
+# already honours the OPENAI_* env vars, so the previous override surface is
+# preserved — defaults below just read through it instead of duplicating them.
+_REPO_ROOT_FOR_CONFIG = Path(__file__).resolve().parent.parent
+if str(_REPO_ROOT_FOR_CONFIG) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT_FOR_CONFIG))
+import config
 
 # ============================================================
 # ffmpeg discovery — required by pydub for MP3 decoding/encoding
@@ -124,8 +133,8 @@ def _async_client():
 # ============================================================
 # Defaults — overridable via env
 # ============================================================
-STT_MODEL_DEFAULT = os.environ.get("OPENAI_STT_MODEL", "whisper-1")
-TTS_MODEL_DEFAULT = os.environ.get("OPENAI_TTS_MODEL", "tts-1")
+STT_MODEL_DEFAULT = config.OPENAI_STT_MODEL
+TTS_MODEL_DEFAULT = config.OPENAI_TTS_MODEL
 # Voice — set via OPENAI_TTS_VOICE.
 # Standard tts-1 / tts-1-hd voices: alloy, echo, fable, onyx, nova, shimmer.
 # Newer gpt-4o-mini-tts voices: ash, ballad, coral, sage, verse, spruce.
@@ -134,11 +143,11 @@ TTS_MODEL_DEFAULT = os.environ.get("OPENAI_TTS_MODEL", "tts-1")
 # default low-cost tts-1 model (no model swap required).
 # Iteration history: nova (wrong gender) → onyx → spruce → echo →
 # onyx → echo (current). All remain available via OPENAI_TTS_VOICE.
-TTS_VOICE_DEFAULT = os.environ.get("OPENAI_TTS_VOICE", "echo")
+TTS_VOICE_DEFAULT = config.OPENAI_TTS_VOICE
 # Speech speed — tts-1 supports 0.25 to 4.0. 0.98 sits just below
 # normal pace so the delivery still feels measured without dragging,
 # which the user landed on after A/B-testing 0.75 → 0.97 → 0.98.
-TTS_SPEED_DEFAULT = float(os.environ.get("OPENAI_TTS_SPEED", "0.98"))
+TTS_SPEED_DEFAULT = config.OPENAI_TTS_SPEED
 
 
 # ============================================================

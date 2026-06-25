@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import json
 import re
+import sys
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -30,6 +31,11 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CORPUS_ROOT = PROJECT_ROOT / "corpus"
 VOICE_DIR = CORPUS_ROOT / "voice"
 REPORTS_DIR = PROJECT_ROOT / "reports"
+
+# Single source of truth for tunable knobs (repo-root config.py).
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+import config
 
 THEME_LABELS = {
     "A": "Liberty and Rule of Law",
@@ -691,11 +697,11 @@ def score_topic(topic: dict[str, Any], haystack: str) -> int:
 def load_docs() -> list[tuple[Path, dict[str, Any]]]:
     out: list[tuple[Path, dict[str, Any]]] = []
     for p in sorted(CORPUS_ROOT.glob("columns/**/*.json")):
-        out.append((p, json.loads(p.read_text(encoding="utf-8"))))
+        out.append((p, json.loads(p.read_text(encoding=config.FILE_ENCODING))))
     for p in sorted(CORPUS_ROOT.glob("speeches/**/*.json")):
-        out.append((p, json.loads(p.read_text(encoding="utf-8"))))
+        out.append((p, json.loads(p.read_text(encoding=config.FILE_ENCODING))))
     for p in sorted(CORPUS_ROOT.glob("biography/**/*.json")):
-        out.append((p, json.loads(p.read_text(encoding="utf-8"))))
+        out.append((p, json.loads(p.read_text(encoding=config.FILE_ENCODING))))
     return out
 
 
@@ -786,7 +792,7 @@ def build_topic_map(docs: list[tuple[Path, dict[str, Any]]]) -> dict[str, Any]:
         }
 
     return {
-        "schema_version": "2.0",
+        "schema_version": config.TOPIC_MAP_VERSION,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "corpus_stats": {
             "n_docs": len(docs),
@@ -818,7 +824,7 @@ def build_topic_map(docs: list[tuple[Path, dict[str, Any]]]) -> dict[str, Any]:
 
 def derive_topic_paths(
     doc_id: str, doc_scores: dict[str, dict[str, int]],
-    primary_n: int = 2, secondary_n: int = 3,
+    primary_n: int = config.TOPIC_PRIMARY_N, secondary_n: int = config.TOPIC_SECONDARY_N,
 ) -> dict[str, list[str]]:
     """Pick top topics for one doc — primary (≥2 keyword hits), secondary (≥1).
 
@@ -855,7 +861,8 @@ def write_topic_map(tm: dict[str, Any]) -> Path:
     VOICE_DIR.mkdir(parents=True, exist_ok=True)
     out_path = VOICE_DIR / "topic_map.json"
     out_path.write_text(
-        json.dumps(tm, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        json.dumps(tm, ensure_ascii=config.JSON_ENSURE_ASCII, indent=2) + "\n",
+        encoding=config.OUTPUT_ENCODING,
     )
     return out_path
 
@@ -864,9 +871,9 @@ def matcher_health_check(
     tm: dict[str, Any],
     doc_scores: dict[str, dict[str, int]],
     docs: list[tuple[Path, dict[str, Any]]],
-    over_broad_frac: float = 0.25,
-    near_dup_jaccard: float = 0.50,
-    dominant_term_frac: float = 0.80,
+    over_broad_frac: float = config.TOPIC_OVER_BROAD_FRAC,
+    near_dup_jaccard: float = config.TOPIC_NEAR_DUP_JACCARD,
+    dominant_term_frac: float = config.TOPIC_DOMINANT_TERM_FRAC,
 ) -> list[dict[str, Any]]:
     """
     Per PLAN-0007 §4 — flag taxonomy issues that should trigger curator
@@ -991,11 +998,11 @@ def write_coverage_report(
                 "health_warnings": health_warnings or [],
                 "per_doc": rows,
             },
-            ensure_ascii=False,
+            ensure_ascii=config.JSON_ENSURE_ASCII,
             indent=2,
         )
         + "\n",
-        encoding="utf-8",
+        encoding=config.OUTPUT_ENCODING,
     )
     return out_path
 
