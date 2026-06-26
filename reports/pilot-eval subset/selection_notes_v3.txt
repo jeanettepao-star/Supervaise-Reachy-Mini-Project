@@ -1,0 +1,135 @@
+﻿PILOT SUBSET — SELECTION NOTES (v3)
+Frozen as of: 2026-06-26
+Status: IMMUTABLE. Any later change requires a new versioned file (v4).
+Supersedes: pilot_subset_frozen_v2.csv (v2, 125 docs) and pilot_subset_frozen.csv
+            (v1, 25 docs). v1 AND v2 are retained UNCHANGED — not modified, not deleted.
+
+WHAT CHANGED FROM v2
+--------------------
+- SIZE: 125 -> 95 documents. v2 used 25/theme (125 total) and INTENTIONALLY broke
+  the original "< 100" pilot cap. v3 restores the cap at 95 (19 per theme x 5),
+  strictly under 100.
+- ALLOCATION: target per theme dropped 25 -> 19; per-theme FORMAT quotas were
+  recomputed from actual corpus availability (see table below). Biography still
+  lands only in theme C.
+- FORCED DOCS: UNCHANGED. The same 16 unique mandatory docs (8 AI-governance +
+  10 orphaned-topic, with CA242 and SA049 in both categories) are all present.
+- Everything else (canonical ID scheme, theme/format mappings, ascending-code
+  deterministic fill, "no doc twice", source corpus left untouched) is preserved.
+
+PURPOSE / FRAMING
+-----------------
+This is the FROZEN sample the pilot RUNS against and is SCORED on — the pilot
+RUN + EVALUATION set. It is NOT the taxonomy-design set. The full normalised
+corpus (1,089 docs — see "CORPUS COUNT" below) remains the taxonomy-design set
+(W1.7).
+
+TOTAL SELECTED: 95 documents (19 per theme x 5 themes). All doc_ids are unique,
+well-formed (^[CGBS][A-E]\d{3}$), and were re-verified to resolve in the
+normalised corpus before freezing.
+
+CORPUS COUNT (read directly from the four normalised xlsx, this run)
+--------------------------------------------------------------------
+TOTAL = 1,089 documents, distributed as:
+  Column 785 | Speech 154 | Book 115 | Biography 35.
+DISCREPANCY FLAG: prior memory/notes cite either 1,059 or 1,089. The number read
+from the corpus on disk this run is **1,089** (sum of the four files' data rows,
+counting only well-formed Article Codes; 0 ID anomalies, 0 duplicates). The
+"1,059" figure is NOT supported by the files as they currently stand and should
+be treated as stale unless a different corpus snapshot is meant. v2 also recorded
+1,089, so 1,089 is the figure carried forward.
+
+CANONICAL ID / MAPPINGS (unchanged from v1/v2)
+----------------------------------------------
+doc_id = "Article Code" (5-char: <format-letter><theme-letter><3 digits>).
+format = 1st char : C Column ; G Biography ; B Book ; S Speech.
+theme  = 2nd char : A Liberty & Rule of Law ; B Prosperity & Economic Philosophy ;
+                    C Biographical & Personal ; D FLP Mission / Foundation /
+                    Judicial Reform ; E Signature Current-Events Commentary.
+
+PER-THEME FORMAT QUOTAS (sum = 19 each; total 95)
+-------------------------------------------------
+            Column  Biography  Book  Speech | total
+  Theme A     15        -        2     2    |  19
+  Theme B      7        -        3     9    |  19
+  Theme C      9        3        2     5    |  19
+  Theme D      7        -        6     6    |  19
+  Theme E     14        -        3     2    |  19
+  ----------------------------------------------------
+  format tot  52        3       16    24    |  95
+("-" = Biography is structurally absent outside theme C — an expected blank, not
+a gap. Biography exists only under theme C in the corpus.)
+
+HOW THE QUOTAS WERE COMPUTED (deterministic, reproducible)
+----------------------------------------------------------
+For each theme T (target 19):
+  1. Consider only formats that HAVE docs in that theme ("present formats").
+  2. ideal_f = 19 * (corpus_count_f_in_theme / total_docs_in_theme).
+  3. Largest-remainder (Hamilton) apportionment: floor each ideal_f, then hand out
+     the leftover slots one-by-one to the largest fractional remainders (ties
+     broken by a fixed format order Column>Biography>Book>Speech) until the theme
+     sums to exactly 19.
+  4. Floor of 1 for every present format (none fell to 0 here, so no bump needed).
+  5. FORCED-CELL RAISE: if a (theme,format) cell's count of forced docs EXCEEDS its
+     quota, raise that cell's quota to its forced count and reduce other cells in
+     the same theme by largest current quota (never below floor 1) to keep the
+     theme total at 19. This fired twice:
+       - Theme A: Book forced = 2 (BA009, BA027) > quota 1  ->  Book raised to 2,
+         Column reduced 16 -> 15.
+       - Theme E: Speech forced = 2 (SE012, SE013) > quota 1  ->  Speech raised to 2,
+         Column reduced 15 -> 14.
+     (Theme A carries 8 forced docs total: Column 5, Book 2, Speech 1.)
+
+SELECTION PROCEDURE
+-------------------
+1. Force-include every mandatory doc (AI-governance + orphaned-topic) into its
+   own (theme, format) cell first.
+2. Fill each remaining cell slot deterministically by ASCENDING Article-Code order
+   from that theme+format pool, skipping any doc already selected/forced.
+3. No doc selected twice. Source corpus row order/content left untouched.
+4. Output row order in the frozen CSV: theme (A-E), then format
+   (Column, Biography, Book, Speech), then Article-Code ascending.
+
+"ORPHANED TOPIC" — DEFINITION (unchanged)
+-----------------------------------------
+A substantive subject keyword appearing in <= 2 of the 1,089 docs
+(singleton / near-singleton), determined by a CORPUS-WIDE CASE-FOLDED tally of the
+"Keyword/s" field; person-name-only tokens are ignored. NOTE: the stored
+"Keyword/s" field is NOT pre-casefolded, so the tally case-folds at counting time.
+The forced orphaned docs were confirmed to resolve and their defining keywords
+confirmed rare under this tally (each appears in 1 doc, except surrogacy in 2:
+CC069). They are force-included even where atypical for their cell.
+
+MANDATORY INCLUSIONS (all 16 present in v3; verified to resolve)
+---------------------------------------------------------------
+AI-governance (8):  CA034, CA242, CB001, CD022, CE011, SA049, SE012, SE013.
+Orphaned-topic (10): CA242 (right to be forgotten), CA060 (indigenous peoples),
+  CA377 (same-sex marriage), CA330 (extrajudicial killings), CC069 (surrogacy),
+  CE072 (agrarian reform), BA027 (reproductive health / RH), BA009 (plagiarism /
+  contempt), SA049 (intellectual property), SD035 (climate).
+CA242 and SA049 belong to BOTH categories (16 unique docs); they are labelled
+under both categories in forced_inclusions_v3.csv.
+
+COVERAGE STATUS
+---------------
+1. Size: 95 (19/theme) — strictly under the <100 cap. PASS.
+2. Theme span A-E: exactly 19 each. PASS.
+3. Format span (every format present): Column 52, Speech 24, Book 16,
+   Biography 3 — all four present. PASS.
+4. Mandatory inclusions: all 8 AI-governance and all 10 orphaned-topic present
+   (16 unique). PASS.
+5. Gap check: every theme x format cell that EXISTS in the corpus is filled.
+   The empty Biography A/B/D/E cells are STRUCTURALLY empty (biography corpus is
+   theme C only) -> expected blanks, not gaps. coverage_table_v3.csv has no GAP
+   rows. PASS.
+
+ARTIFACTS (this folder)
+-----------------------
+  pilot_subset_frozen_v3.csv   - immutable 95-doc list (doc_id, theme, format, rationale)
+  coverage_table_v3.csv        - theme x format matrix + totals + gap analysis
+  forced_inclusions_v3.csv     - AI-governance + orphaned-topic force-included docs
+  selection_notes_v3.txt       - this file
+Reproducible generator: scripts/build_pilot_subset_v3.py
+(v1 files retained: pilot_subset_frozen.csv, coverage_table.csv,
+ forced_inclusions.csv, selection_notes.txt.
+ v2 files retained: *_v2.csv / selection_notes_v2.txt.)
