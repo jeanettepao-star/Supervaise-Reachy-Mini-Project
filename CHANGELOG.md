@@ -1,5 +1,35 @@
 # CHANGELOG
 
+## 2026-06-28 — W1.5 Embed the pilot subset (runtime dense index)
+
+Builds the runtime dense arm (box 5): embeds ONLY the <100 pilot-subset chunks
+(the v4 eval allowlist). Distinct from W1.7 (full-corpus centroids) — both share
+the SAME model + dim via config.
+
+- **Config:** added authoritative `EMBED_*` knobs to config.py — `EMBED_MODEL_ID`
+  (BAAI/bge-large-en-v1.5), `EMBED_DIM` (1024), `EMBED_DEVICE`, `EMBED_NORMALIZE`,
+  `EMBED_QUERY_PREFIX` / `EMBED_DOCUMENT_PREFIX` (bge query/doc asymmetry),
+  `DENSE_INDEX_PATH` / `DENSE_INDEX_META_PATH`. The W1.1 `EMBEDDING_MODEL_ID/DIM`
+  placeholders are now back-compat aliases of `EMBED_*` (single source; model
+  stays swappable — MiniLM-384 / OpenAI text-embedding-3 are W3.4 alternatives).
+- **Resident model:** `app/embeddings.py` lazy-loads ONE module-level singleton
+  (`get_model`; `model_load_count` proves no per-request reload). `embed_documents`
+  (search_document, no prefix) and `embed_query` (search_query, prefixed) hide the
+  bge prefix from call sites. `dense_score(query)` ranks by cosine over the
+  resident unit-normalised matrix.
+- **Index:** `scripts/build_dense_index.py` resolves the v4 allowlist → 827 chunks
+  via the W1.4 chunk index, embeds them, and persists a float32 [827,1024]
+  unit-normalised matrix (`data/index/pilot_dense.npy`, 3.3 MB) + meta
+  (`pilot_dense_meta.json`: model_id, dim, normalize, chunk_ids, doc_ids,
+  build_date, n_chunks). The embed loop is checkpointed/resumable (CPU bge-large
+  is slow in this env; ~0.25 chunks/s, so the build runs in resumable passes).
+- **Verify:** model loads exactly ONCE; matrix (827,1024) float32, mean‖row‖=1.0;
+  95/95 allowlist docs resolved, 0 unresolved; meta records bge-large/1024 (=W1.7).
+  dense_score spot-checks are on-topic — "rule of law" → CA031 (theme A);
+  "AI governed in courts" → CA034 "AI in justice and governance"; "FLP
+  scholarships" → FLP book chapters + CD003.
+- **deps:** activated `sentence-transformers` in app/requirements.txt.
+
 ## 2026-06-27 — W1.4 Corpus prep + full-corpus chunking + verifiable pin
 
 Branch `feat/full-corpus-chunk` (off `pilot/freeze-subset-v3`). Architecture:

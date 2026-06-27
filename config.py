@@ -206,13 +206,12 @@ MAX_SOURCE_DOCS: int = _env_int("CJ_MAX_SOURCE_DOCS", 3)
 # ===========================================================================
 # 6. MODELS                                           [BASELINE + NEW-ARCH]
 # ===========================================================================
-# [NEW-ARCH] Local sentence-embedding model for the centroid/retrieval engine.
-# all-MiniLM-L6-v2 is the validated choice: 384-dim, fast on CPU (latency),
-# cheap (runs locally, no API cost).
-EMBEDDING_MODEL_ID: str = _env_str("CJ_EMBEDDING_MODEL_ID", "all-MiniLM-L6-v2")
-# Output dimensionality of EMBEDDING_MODEL_ID; must match the model above or
-# the numpy index will mis-shape. Change only with the model id.
-EMBEDDING_DIM: int = _env_int("CJ_EMBEDDING_DIM", 384)
+# [NEW-ARCH] Embedding model — see the EMBEDDINGS section below for the
+# authoritative knobs. The W1.5 dense arm and W1.7 centroids MUST share these.
+# MiniLM-384 and OpenAI text-embedding-3 are the W3.4 benchmark alternatives.
+# Back-compat aliases (older code referenced EMBEDDING_*); single source =EMBED_*.
+EMBEDDING_MODEL_ID: str = None  # set after EMBED_MODEL_ID is defined (see below)
+EMBEDDING_DIM: int = None       # set after EMBED_DIM is defined (see below)
 # [BASELINE] Composer model (Sonnet) — quality/cost anchor for composition.
 COMPOSER_MODEL_ID: str = _env_str(
     "INFERENCE_MODEL", _env_str("CJ_COMPOSER_MODEL_ID", "claude-sonnet-4-6")
@@ -295,6 +294,36 @@ CHUNK_HEADING_AWARE: bool = _env_bool("CJ_CHUNK_HEADING_AWARE", True)
 # (an over-long anecdote becomes its own oversized chunk). Preserves anecdotes
 # whole for grounding (↑fidelity, occasional ↑chunk size).
 CHUNK_KEEP_ANECDOTES_WHOLE: bool = _env_bool("CJ_CHUNK_KEEP_ANECDOTES_WHOLE", True)
+
+
+# ===========================================================================
+# 11. EMBEDDINGS (W1.5 runtime dense arm + W1.7 centroids)      [NEW-ARCH]
+#     Authoritative embedding knobs. The W1.5 pilot dense index and the W1.7
+#     full-corpus centroids MUST use the SAME EMBED_MODEL_ID + EMBED_DIM.
+#     Model stays swappable via config (MiniLM-384 / OpenAI text-embedding-3 are
+#     the W3.4 benchmark alternatives) — never hardcode at a call site.
+# ===========================================================================
+# Embedding model id. Quality/latency/dim anchor for ALL dense retrieval.
+EMBED_MODEL_ID: str = _env_str("CJ_EMBED_MODEL_ID", "BAAI/bge-large-en-v1.5")
+# Output dimensionality of EMBED_MODEL_ID; matrix/centroid shape depends on it.
+EMBED_DIM: int = _env_int("CJ_EMBED_DIM", 1024)
+# Device for local embedding inference ("cpu" or "cuda"). cuda ↓latency if present.
+EMBED_DEVICE: str = _env_str("CJ_EMBED_DEVICE", "cpu")
+# Unit-normalise embeddings so dot product == cosine (required for the index).
+EMBED_NORMALIZE: bool = _env_bool("CJ_EMBED_NORMALIZE", True)
+# bge query/document asymmetry: queries get the instruction prefix, documents
+# none. Wrong prefix silently degrades recall — set once, here.
+EMBED_QUERY_PREFIX: str = _env_str(
+    "CJ_EMBED_QUERY_PREFIX",
+    "Represent this sentence for searching relevant passages: ")
+EMBED_DOCUMENT_PREFIX: str = _env_str("CJ_EMBED_DOCUMENT_PREFIX", "")
+# Persisted pilot dense index (float32 matrix) + sidecar meta.
+DENSE_INDEX_PATH: Path = _env_path("CJ_DENSE_INDEX_PATH", REPO_ROOT / "data" / "index" / "pilot_dense.npy")
+DENSE_INDEX_META_PATH: Path = _env_path("CJ_DENSE_INDEX_META_PATH", REPO_ROOT / "data" / "index" / "pilot_dense_meta.json")
+
+# Back-compat aliases (section 6): older code referenced EMBEDDING_*.
+EMBEDDING_MODEL_ID = EMBED_MODEL_ID
+EMBEDDING_DIM = EMBED_DIM
 
 
 # ---------------------------------------------------------------------------
