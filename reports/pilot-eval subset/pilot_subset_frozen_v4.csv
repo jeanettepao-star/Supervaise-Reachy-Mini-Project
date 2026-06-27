@@ -1,0 +1,101 @@
+﻿# FROZEN pilot subset v4 - frozen as of 2026-06-27. IMMUTABLE - later changes require v5.
+# Supersedes v3 (95) / v2 (125) / v1 (25); v1-v3 retained unchanged.
+# 95 docs balanced 19/theme, <100 cap. BALANCED allocation for per-theme eval power
+# (NOT corpus-representative; corpus is ~55% theme A).
+# EVAL-TIME ALLOWLIST consumed at W1.5/W3 - NOT the chunking input (W1.4 chunks the full corpus).
+doc_id,theme,format,one_line_rationale
+CA003,A,Column,Representative Liberty & Rule of Law / Column (ascending-code quota fill)
+CA004,A,Column,Representative Liberty & Rule of Law / Column (ascending-code quota fill)
+CA005,A,Column,Representative Liberty & Rule of Law / Column (ascending-code quota fill)
+CA009,A,Column,Representative Liberty & Rule of Law / Column (ascending-code quota fill)
+CA010,A,Column,Representative Liberty & Rule of Law / Column (ascending-code quota fill)
+CA011,A,Column,Representative Liberty & Rule of Law / Column (ascending-code quota fill)
+CA013,A,Column,Representative Liberty & Rule of Law / Column (ascending-code quota fill)
+CA031,A,Column,Forced [AI-governance]: AI/tech kw=artificial intelligence
+CA034,A,Column,"Forced [AI-governance]: AI/tech kw=artificial intelligence,data privacy,e-governance"
+CA060,A,Column,Forced [orphaned-topic]: orphaned: free legal aid for indigents (ULAS) [CORRECTED from 'indigenous peoples'] (kw 'Unified Legal Aid Service Ulas' in 1 doc)
+CA095,A,Column,"Forced [AI-governance]: AI/tech kw=ai,algorithm"
+CA127,A,Column,Forced [AI-governance]: AI/tech kw=ai
+CA242,A,Column,"Forced [AI-governance + orphaned-topic]: AI/tech kw=data privacy,right to be forgotten ; orphaned: right to be forgotten / data privacy (kw 'right to be forgotten' in 1 doc)"
+CA330,A,Column,Forced [orphaned-topic]: orphaned: extrajudicial shortcuts / post-martial-law due process [CORRECTED from 'extrajudicial killings'] (kw 'extrajudicial shortcuts critique' in 1 doc)
+CA377,A,Column,Forced [orphaned-topic]: orphaned: same-sex marriage (kw 'same-sex marriage' in 1 doc)
+BA009,A,Book,Forced [orphaned-topic]: orphaned: plagiarism (Del Castillo / Vinuya dispute) (kw 'Del Castillo / Vinuya plagiarism dispute' in 1 doc)
+BA027,A,Book,Forced [orphaned-topic]: orphaned: reproductive health / RH law (kw 'Reproductive Health' in 1 doc)
+SA011,A,Speech,Representative Liberty & Rule of Law / Speech (ascending-code quota fill)
+SA049,A,Speech,"Forced [AI-governance + orphaned-topic]: AI/tech kw=ai,blockchain,data privacy ; orphaned: intellectual property / jurisprudential disruption (kw 'Ferdinand Negre Kaufman intellectual property' in 1 doc)"
+CB001,B,Column,Forced [AI-governance]: AI/tech kw=ai
+CB003,B,Column,Representative Prosperity & Economic Philosophy / Column (ascending-code quota fill)
+CB004,B,Column,Representative Prosperity & Economic Philosophy / Column (ascending-code quota fill)
+CB005,B,Column,Representative Prosperity & Economic Philosophy / Column (ascending-code quota fill)
+CB006,B,Column,Representative Prosperity & Economic Philosophy / Column (ascending-code quota fill)
+CB007,B,Column,Representative Prosperity & Economic Philosophy / Column (ascending-code quota fill)
+CB008,B,Column,Representative Prosperity & Economic Philosophy / Column (ascending-code quota fill)
+BB001,B,Book,Representative Prosperity & Economic Philosophy / Book (ascending-code quota fill)
+BB002,B,Book,Representative Prosperity & Economic Philosophy / Book (ascending-code quota fill)
+BB003,B,Book,Representative Prosperity & Economic Philosophy / Book (ascending-code quota fill)
+SB006,B,Speech,Representative Prosperity & Economic Philosophy / Speech (ascending-code quota fill)
+SB028,B,Speech,Representative Prosperity & Economic Philosophy / Speech (ascending-code quota fill)
+SB039,B,Speech,Representative Prosperity & Economic Philosophy / Speech (ascending-code quota fill)
+SB040,B,Speech,Representative Prosperity & Economic Philosophy / Speech (ascending-code quota fill)
+SB042,B,Speech,Representative Prosperity & Economic Philosophy / Speech (ascending-code quota fill)
+SB050,B,Speech,Representative Prosperity & Economic Philosophy / Speech (ascending-code quota fill)
+SB051,B,Speech,Representative Prosperity & Economic Philosophy / Speech (ascending-code quota fill)
+SB063,B,Speech,Representative Prosperity & Economic Philosophy / Speech (ascending-code quota fill)
+SB065,B,Speech,Representative Prosperity & Economic Philosophy / Speech (ascending-code quota fill)
+CC001,C,Column,Representative Biographical & Personal / Column (ascending-code quota fill)
+CC002,C,Column,Representative Biographical & Personal / Column (ascending-code quota fill)
+CC004,C,Column,Representative Biographical & Personal / Column (ascending-code quota fill)
+CC005,C,Column,Representative Biographical & Personal / Column (ascending-code quota fill)
+CC006,C,Column,Representative Biographical & Personal / Column (ascending-code quota fill)
+CC007,C,Column,Representative Biographical & Personal / Column (ascending-code quota fill)
+CC008,C,Column,Representative Biographical & Personal / Column (ascending-code quota fill)
+CC009,C,Column,Representative Biographical & Personal / Column (ascending-code quota fill)
+CC069,C,Column,Forced [orphaned-topic]: orphaned: surrogacy / assisted reproduction (kw 'surrogacy' in 2 doc)
+GC001,C,Biography,Representative Biographical & Personal / Biography (ascending-code quota fill)
+GC002,C,Biography,Representative Biographical & Personal / Biography (ascending-code quota fill)
+GC003,C,Biography,Representative Biographical & Personal / Biography (ascending-code quota fill)
+BC001,C,Book,Representative Biographical & Personal / Book (ascending-code quota fill)
+BC002,C,Book,Representative Biographical & Personal / Book (ascending-code quota fill)
+SC003,C,Speech,Representative Biographical & Personal / Speech (ascending-code quota fill)
+SC005,C,Speech,Representative Biographical & Personal / Speech (ascending-code quota fill)
+SC007,C,Speech,Representative Biographical & Personal / Speech (ascending-code quota fill)
+SC008,C,Speech,Representative Biographical & Personal / Speech (ascending-code quota fill)
+SC010,C,Speech,Representative Biographical & Personal / Speech (ascending-code quota fill)
+CD001,D,Column,Representative FLP Mission / Foundation / Judicial Reform / Column (ascending-code quota fill)
+CD003,D,Column,Representative FLP Mission / Foundation / Judicial Reform / Column (ascending-code quota fill)
+CD005,D,Column,Representative FLP Mission / Foundation / Judicial Reform / Column (ascending-code quota fill)
+CD008,D,Column,Representative FLP Mission / Foundation / Judicial Reform / Column (ascending-code quota fill)
+CD009,D,Column,Representative FLP Mission / Foundation / Judicial Reform / Column (ascending-code quota fill)
+CD011,D,Column,Forced [AI-governance]: AI/tech kw=artificial intelligence
+CD022,D,Column,Forced [AI-governance]: AI/tech kw=title-only (CD022)
+BD001,D,Book,Representative FLP Mission / Foundation / Judicial Reform / Book (ascending-code quota fill)
+BD002,D,Book,Representative FLP Mission / Foundation / Judicial Reform / Book (ascending-code quota fill)
+BD003,D,Book,Representative FLP Mission / Foundation / Judicial Reform / Book (ascending-code quota fill)
+BD004,D,Book,Representative FLP Mission / Foundation / Judicial Reform / Book (ascending-code quota fill)
+BD005,D,Book,Representative FLP Mission / Foundation / Judicial Reform / Book (ascending-code quota fill)
+BD006,D,Book,Representative FLP Mission / Foundation / Judicial Reform / Book (ascending-code quota fill)
+SD002,D,Speech,Representative FLP Mission / Foundation / Judicial Reform / Speech (ascending-code quota fill)
+SD004,D,Speech,Representative FLP Mission / Foundation / Judicial Reform / Speech (ascending-code quota fill)
+SD009,D,Speech,Representative FLP Mission / Foundation / Judicial Reform / Speech (ascending-code quota fill)
+SD016,D,Speech,Representative FLP Mission / Foundation / Judicial Reform / Speech (ascending-code quota fill)
+SD021,D,Speech,Representative FLP Mission / Foundation / Judicial Reform / Speech (ascending-code quota fill)
+SD035,D,Speech,Forced [orphaned-topic]: orphaned: FLP Scholars Society founding (COVID DiGi Age) [CORRECTED from 'climate'] (kw 'FLP Scholars Society founding' in 1 doc)
+CE001,E,Column,Representative Signature Current-Events Commentary / Column (ascending-code quota fill)
+CE003,E,Column,Representative Signature Current-Events Commentary / Column (ascending-code quota fill)
+CE004,E,Column,Representative Signature Current-Events Commentary / Column (ascending-code quota fill)
+CE007,E,Column,Representative Signature Current-Events Commentary / Column (ascending-code quota fill)
+CE008,E,Column,Representative Signature Current-Events Commentary / Column (ascending-code quota fill)
+CE009,E,Column,Representative Signature Current-Events Commentary / Column (ascending-code quota fill)
+CE010,E,Column,Representative Signature Current-Events Commentary / Column (ascending-code quota fill)
+CE011,E,Column,Forced [AI-governance]: AI/tech kw=artificial intelligence
+CE018,E,Column,"Forced [AI-governance]: AI/tech kw=artificial intelligence,ai"
+CE019,E,Column,Forced [AI-governance]: AI/tech kw=artificial intelligence
+CE072,E,Column,Forced [orphaned-topic]: orphaned: agrarian reform (CASER expropriation) (kw 'agrarian reform expropriation' in 1 doc)
+CE078,E,Column,Forced [AI-governance]: AI/tech kw=title-only (CD022)
+CE102,E,Column,Forced [AI-governance]: AI/tech kw=title-only (CD022)
+BE001,E,Book,Representative Signature Current-Events Commentary / Book (ascending-code quota fill)
+BE002,E,Book,Representative Signature Current-Events Commentary / Book (ascending-code quota fill)
+BE003,E,Book,Representative Signature Current-Events Commentary / Book (ascending-code quota fill)
+SE012,E,Speech,Forced [AI-governance]: AI/tech kw=ai
+SE013,E,Speech,Forced [AI-governance]: AI/tech kw=ai
+SE036,E,Speech,Forced [AI-governance]: AI/tech kw=artificial intelligence

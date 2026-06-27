@@ -1,0 +1,173 @@
+﻿PILOT SUBSET — SELECTION NOTES (v4)
+Frozen as of: 2026-06-27
+Status: IMMUTABLE. Any later change requires a new versioned file (v5).
+Supersedes: pilot_subset_frozen_v3.csv (95), _v2 (125), _v1 (25). v1/v2/v3 are
+            retained UNCHANGED — not modified, not deleted. v4 is a new set.
+Location:   reports/pilot-eval subset/ (alongside v1-v3).
+
+================================================================================
+WHAT v4 IS — AND WHAT CHANGED FROM v3
+================================================================================
+v4 is an EVAL-TIME ALLOWLIST of 95 doc_ids consumed at W1.5/W3. It does NOT drive
+chunking: W1.4 chunks the FULL ~1,089-doc corpus, and this allowlist is applied
+later to score the pilot. (In v3 the subset was mis-framed as the chunking input.)
+
+Changes from v3 (all from the W1.3 audit):
+ 1. ALLOWLIST REFRAMING — v4 is an eval allowlist, not the chunk input.
+ 2. LABEL FIX — the 19/theme design is now labelled exactly:
+      "balanced allocation for per-theme eval power (NOT corpus-representative;
+       corpus is ~55% theme A)."
+    The word "representative" has been removed everywhere.
+ 3. FORCED LISTS RE-DERIVED from the corpus Keyword/s field (see below). The
+    forced set grew from 16 (v3) to 25 unique docs.
+ 4. ORPHANED MISLABELS CORRECTED — CA060, SD035 (and CA330) relabelled with
+    keyword evidence (see "ORPHANED" below).
+ 5. THEME FRAMING — themes are the coarse curated-theme (ADR-0011 ID letter),
+    to be re-tagged at W1.7; explicitly NOT the W1.7 taxonomy (which does not
+    exist yet).
+ 6. BIOGRAPHY NOTE reworded (ID-convention artifact; see "BIOGRAPHY").
+
+TOTAL SELECTED: 95 (19 per theme x 5), strictly < 100. All doc_ids unique,
+well-formed ^[CGBS][A-E]\d{3}$, and verified to resolve in the normalised corpus.
+
+================================================================================
+CORPUS COUNT (read this run from data/csv/*_curated_normalized.xlsx, utf-8-sig)
+================================================================================
+TOTAL = 1,089 docs: Column 785, Speech 154, Book 115, Biography 35.
+("1,059" remains unsupported by the files; the figure read is 1,089.)
+
+CORPUS THEME DISTRIBUTION (coarse curated-theme):
+   A 599 (55%) | C 225 (21%) | E 150 (14%) | D 68 (6%) | B 47 (4%).
+=> The corpus is dominated by theme A. v4 is DELIBERATELY BALANCED (19 each),
+   NOT proportional. Balanced gives equal per-theme evaluation power (comparable
+   confidence per stratum, including thin B/D); it is NOT corpus-representative.
+   A proportional subset would be ~A 52 / C 20 / E 13 / D 6 / B 4.
+
+================================================================================
+THEME FRAMING (audit fix #5)
+================================================================================
+"theme" = the 2nd character of the Article Code = the COARSE CURATED-THEME a
+curator stamped at ingestion (ADR-0011: {Type}{Theme}{Number}; the theme letter
+is an explicit, mutable hand-label, not content-derived). It is NOT the W1.7
+taxonomy, which DOES NOT EXIST YET (W1.7 will design centroid topics and the
+docs will be RE-TAGGED then). Theme-stratified selection here is on the coarse
+curated label only and should be revisited once W1.7 lands.
+
+================================================================================
+BIOGRAPHY (audit fix #6)
+================================================================================
+All 35 biography codes are GC### — an ID-CONVENTION ARTIFACT: the biography
+format (letter G) is conflated with theme C ("Biographical & Personal") at
+curation, so biography appears only under theme C. This is NOT a topic-
+distribution finding. The empty Biography A/B/D/E cells are therefore expected
+structural blanks, not gaps.
+
+================================================================================
+CANONICAL ID / MAPPINGS
+================================================================================
+doc_id = "Article Code" (5-char). format = 1st char: C Column; G Biography;
+B Book; S Speech. theme = 2nd char (A-E, coarse curated-theme as above).
+
+================================================================================
+FORCED INCLUSIONS — RE-DERIVED (audit fixes #3, #4); 25 unique docs
+================================================================================
+Definition operationalised (orphaned): a substantive subject keyword in the
+"Keyword/s" field appearing in <= 2 of the 1,089 docs, via a CORPUS-WIDE
+CASE-FOLDED tally (the stored field is NOT pre-casefolded, so it is casefolded
+at tally time); person-name-only tokens (matched against entities.people) are
+ignored.
+
+ORPHANED-TOPIC (10 docs) — each kept; labels corrected from keyword evidence
+(full evidence in forced_inclusions_v4.csv):
+   CA242 right to be forgotten (kw 1)            CC069 surrogacy (kw 2)
+   CA377 same-sex marriage (kw 1)               CE072 agrarian reform expropriation (kw 1)
+   BA027 Reproductive Health (kw 1)             BA009 Del Castillo/Vinuya plagiarism (kw 1)
+   SA049 IP / jurisprudential disruption (kw 1)
+   CA060 CORRECTED: "indigenous peoples" -> "free legal aid for indigents (ULAS)".
+         Evidence: CA060's keywords are ULAS / pro-bono / IBP / "counsel de officio
+         indigents" — there is NO "indigenous peoples" keyword. The v2/v3 label
+         confused INDIGENTS with INDIGENOUS. Rare kw "Unified Legal Aid Service
+         Ulas" (1 doc). Still qualifies.
+   SD035 CORRECTED: "climate" -> "FLP Scholars Society founding (COVID DiGi Age)".
+         Evidence: SD035's keywords are FLP Scholars Society / COVID DiGi Age /
+         Zoom — there is NO "climate" keyword. Rare kw "FLP Scholars Society
+         founding" (1 doc). Still qualifies.
+   CA330 REFINED: "extrajudicial killings" -> "extrajudicial shortcuts / post-
+         martial-law due process". Its keywords are due-process / warrant /
+         Miranda; "extrajudicial killings" is not a stored keyword; nearest rare
+         kw "extrajudicial shortcuts critique" (1 doc). Kept (topic-adjacent).
+
+AI-GOVERNANCE — full keyword-derived set REPORTED; a defensible subset INCLUDED.
+   Method: word-boundary match of AI/tech-governance terms on the casefolded
+   Keyword/s. (The v3 list was 8 and under-inclusive; a naive ' ai' substring
+   over-matches aid/aim/air, so word boundaries are required.)
+
+   TIER-1 (specific AI-governance terms: artificial intelligence, \bAI\b, machine
+   learning, algorithm, deepfake, blockchain, genetic engineering, nanotech,
+   data privacy, cybercrime, cyberlibel, right-to-be-forgotten, e-governance) =
+   31 docs, distributed theme A 18 / E 10 / B 1 / C 1 / D 1.
+
+   *** FLAG FOR PM ***  "Include ALL keyword-supported AI docs" is NOT compatible
+   with the balanced 95-doc design: theme A alone has 18 TIER-1 AI docs, and with
+   the 5 theme-A orphaned docs that is 23 forced in theme A — exceeding the 19
+   slot balanced cap. Per instruction, no forced doc was silently dropped;
+   instead a defensible AI-GOVERNANCE SUBSET was INCLUDED and the full set is
+   reported here for a PM decision (expand theme A beyond 19, or keep the curated
+   subset). The 9-doc cyberlibel/cybercrime Maria-Ressa cluster (CA083, CA131,
+   CA213, CA214, CA251, CA422, CA423, CA477, CA027) and incidental single-\bAI\b
+   columns (CA089, CA154, CC051, CE033, CE083, CE013, CE021, CA138, CA138) were
+   reported but NOT forced — they are press-freedom/libel or incidental-keyword
+   docs, not AI-as-subject. If the PM wants the literal "all", theme A re-opens.
+
+   INCLUDED AI-governance = 17 docs (8 carried from v2 + 9 expanded):
+     carried:  CA034, CA242*, CB001, CD022(+), CE011, SA049*, SE012, SE013
+     expanded: CA031, CA095, CA127, CD011, CE018, CE019, SE036, CE078(+), CE102(+)
+     * CA242, SA049 are also orphaned (dual-category, labelled both).
+     (+) CD022, CE078, CE102 are title/topic-supported (no TIER-1 keyword) —
+         flagged in forced_inclusions_v4.csv; CD022 carried from v2.
+
+FORCED-LIST DIFF vs v2 (= v3):
+   ADDED (AI-governance, +9): CA031, CA095, CA127, CD011, CE018, CE019, SE036,
+                              CE078, CE102.
+   RELABELLED (orphaned, topic corrected, doc kept): CA060 (indigents/ULAS),
+                              SD035 (FLP Scholars/COVID), CA330 (extrajudicial
+                              shortcuts).
+   DROPPED: none.
+   Unique forced: 16 (v2/v3) -> 25 (v4).
+
+================================================================================
+PER-THEME FORMAT QUOTAS (largest-remainder, floor 1; sum = 19 each)
+================================================================================
+            Column  Biography  Book  Speech | total
+  Theme A     15        -        2     2    |  19
+  Theme B      7        -        3     9    |  19
+  Theme C      9        3        2     5    |  19
+  Theme D      7        -        6     6    |  19
+  Theme E     13        -        3     3    |  19
+  format tot  51        3       16    25    |  95
+Forced-cell raises (forced > base quota -> raise cell, reduce largest, floor 1):
+  Theme A: Book 1->2 (BA009, BA027), Column 16->15.
+  Theme E: Speech 1->3 (SE012, SE013, SE036), Column 14->13.
+  (Theme A Column holds 8 forced <= 15; theme E Column 6 forced <= 13 — fit.)
+
+================================================================================
+SELECTION PROCEDURE (deterministic, reproducible)
+================================================================================
+1. Place all 25 forced docs into their (theme, format) cells.
+2. Fill remaining cell slots by ASCENDING Article-Code from that theme+format
+   pool, skipping any already selected. No doc twice; source corpus untouched.
+3. Output order: theme (A-E), format (Column, Biography, Book, Speech), code asc.
+Generator: scripts/build_pilot_subset_v4.py (deterministic; re-run = identical).
+
+================================================================================
+COVERAGE STATUS
+================================================================================
+1. Size 95 (19/theme), < 100. PASS.
+2. 5 themes x exactly 19. PASS.
+3. 4 formats present: Column 51, Speech 25, Book 16, Biography 3. PASS.
+4. All 25 re-derived forced docs present + resolving. PASS.
+5. Every existing theme x format cell filled; Biography A/B/D/E are structural
+   blanks (ID-convention artifact). coverage_table_v4.csv has no GAP rows. PASS.
+
+ARTIFACTS (this folder): pilot_subset_frozen_v4.csv, coverage_table_v4.csv,
+forced_inclusions_v4.csv, selection_notes_v4.txt. v1/v2/v3 retained unchanged.
