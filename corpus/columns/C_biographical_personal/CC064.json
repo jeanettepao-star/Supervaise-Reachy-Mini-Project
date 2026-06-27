@@ -1,0 +1,152 @@
+{
+  "id": "CC064",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 64,
+  "title": "Duterte appointees to dominate SC",
+  "date": "2019-07-21",
+  "link": "https://opinion.inquirer.net/122750/duterte-appointees-to-dominate-sc",
+  "keywords": [
+    "Mariano del Castillo retirement",
+    "SC composition",
+    "judicial appointments",
+    "presidential dominance of SC",
+    "jurist character"
+  ],
+  "primary_topics": [
+    "Retirement of Justice Mariano C. del Castillo on July 26, 2019",
+    "The Court's interpretation that mandatory retirement is 'midnight of the day before reaching 70th birthday'",
+    "Del Castillo's 30-year judicial career arc from MTC San Mateo (1989) to SC (2009)",
+    "Projection that Duterte appointees will reach 8 of 15 with Del Castillo's retirement, 11 by end of October 2019, 13 by June 30, 2022"
+  ],
+  "sub_topics": [
+    "Del Castillo's declined nomination to CJ after Leonardo-de Castro retired (Oct 10, 2018)",
+    "Constitution Art. VIII, Sec. 11 ('hold office during good behavior until they reach the age of seventy years')",
+    "Del Castillo's flawless 2018 bar exam stewardship; chairman of the bar committee",
+    "His marriage to 1976 Ateneo Law valedictorian Cynthia Roxas, later youngest and first female dean of Ateneo Law (1990-2000)",
+    "Constitutional standards: 'proven competence, integrity, probity, and independence'",
+    "Upcoming retirements of Jardeleza (Sept 26), Bersamin (Oct 18), Carpio (Oct 26)",
+    "Leonen and Caguioa as the only remaining pre-Duterte holdovers",
+    "The deferred question: how a Duterte super-majority will affect SC independence"
+  ],
+  "signature_phrases": [
+    "One of the most humble and competent jurists I know",
+    "shall hold office during good behavior until they reach the age of seventy years",
+    "until midnight of the day before reaching their 70th birthday",
+    "started his career from the lowest rung in the judicial ladder",
+    "I will be retiring in about eight months, and I don't think I can make a difference as chief justice",
+    "concentrate on my work as an associate justice and as chairman of the 2018 bar exams",
+    "absolutely no backlog to leave his successor",
+    "in my book, that makes him a super justice",
+    "embodies the constitutional standards of 'proven competence, integrity, probity, and independence'",
+    "friendly yet detached; familiar yet objective; strict yet fair; self-assured yet collegial",
+    "a gentleman-jurist of the highest caliber",
+    "to toil without rest, to give the best of himself without fanfare, and to excel without beating his own chest",
+    "shining example of what a jurist should be",
+    "remembered as such among the brightest stars in our firmament of great jurists",
+    "while he did not graduate with honors, he did even better",
+    "lived happily ever after",
+    "with the bonus of naming a new CJ",
+    "How such a supermajority will affect the Court's independence",
+    "the temporaries of the moment are always overtaken by the permanencies of history"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Mariano C. del Castillo (Associate Justice, retiring)",
+      "Cynthia Roxas Del Castillo (his wife; former Ateneo Law dean)",
+      "Teresita J. Leonardo-de Castro (CJ, retired Oct 10, 2018)",
+      "Francis H. Jardeleza (Sept 26 retirement)",
+      "Lucas P. Bersamin (CJ; Oct 18 retirement)",
+      "Antonio T. Carpio (Senior Justice; Oct 26 retirement)",
+      "Marvic M. V. F. Leonen",
+      "Alfredo Benjamin S. Caguioa",
+      "Rodrigo Duterte"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Ateneo de Manila School of Law",
+      "Municipal Trial Court of San Mateo, Rizal",
+      "Regional Trial Court of Angeles City",
+      "Regional Trial Court of Quezon City",
+      "Court of Appeals"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Philippine Constitution, Art. VIII, Sec. 11 (judicial tenure during good behavior until age 70)",
+      "1987 Philippine Constitution -- JBC and presidential appointment of justices; constitutional standards of competence, integrity, probity, and independence"
+    ],
+    "events": [
+      "Del Castillo's retirement honoring on July 26, 2019",
+      "Del Castillo's 70th birthday on Monday, July 29",
+      "Del Castillo's appointment to MTC San Mateo (1989); RTC Angeles (1992); RTC QC (1995); CA (2001); SC (July 29, 2009)",
+      "Leonardo-de Castro's retirement October 10, 2018",
+      "Upcoming retirements of Jardeleza, Bersamin, Carpio (Sept-Oct 2019)",
+      "End of Duterte's term June 30, 2022"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Del Castillo is one of the most humble and competent jurists CJ knows -- embodying the constitutional standards of proven competence, integrity, probity, and independence -- and has conducted himself with the rare poise of being 'friendly yet detached; familiar yet objective; strict yet fair; self-assured yet collegial.'",
+      "rhetorical_move": "personal-tribute portrait (chiastic doublets compressed into a single sentence)",
+      "confidence": "asserted with personal vouch"
+    },
+    {
+      "claim": "Del Castillo's declining the chief-justiceship after Leonardo-de Castro's retirement -- citing only eight months left and a preference to 'concentrate on my work as an associate justice and as chairman of the 2018 bar exams' -- is the rare self-abnegation of a senior justice who could have had the title.",
+      "rhetorical_move": "exemplary-character anecdote (the declined-honor anecdote)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Despite Del Castillo's modest student record ('while he did not graduate with honors, he did even better'), his career embodies the lesson that a jurist's stature is built through patient, faceless service from the lowest rung of the judicial ladder up.",
+      "rhetorical_move": "biographical-arc as moral lesson",
+      "confidence": "asserted with affectionate exception ('he did even better' = he married the class valedictorian)"
+    },
+    {
+      "claim": "With Del Castillo's retirement, Duterte appointees will form 8 of 15 SC justices -- a clear majority -- rising to a super-majority of 11 by end of October 2019 after Jardeleza, Bersamin, and Carpio retire, and ultimately to 13 (with the chief) by June 30, 2022, leaving only Leonen and Caguioa from the pre-Duterte court.",
+      "rhetorical_move": "concession-counting projection (deliberate accounting of an institutional shift)",
+      "confidence": "asserted (factual projection)"
+    },
+    {
+      "claim": "How a Duterte super-majority will affect SC independence deserves its own column -- but new justices, who 'may feel a debt of gratitude (a deep-rooted Filipino trait) to the appointing authority during their first year in office,' soon learn 'that the temporaries of the moment are always overtaken by the permanencies of history.'",
+      "rhetorical_move": "deferred-question close with epigrammatic reassurance",
+      "confidence": "asserted with characteristic optimism about institutional self-correction"
+    }
+  ],
+  "notable_anecdotes": [
+    "Del Castillo's reason for declining the chief-justiceship -- 'I will be retiring in about eight months, and I don't think I can make a difference as chief justice. I would rather concentrate on my work as an associate justice and as chairman of the 2018 bar exams' -- quoted directly from a private exchange, a vanishingly rare CJ-level act of self-abnegation that the column treats as the single most defining character moment.",
+    "The 'while he did not graduate with honors, he did even better' aside -- that Del Castillo 'wooed and convinced Cynthia Roxas, their 1976 class valedictorian at the Ateneo de Manila School of Law, to marry him' -- and 'the couple, like in our favorite fairy tales, lived happily ever after,' with Cynthia later becoming the youngest and first female dean of Ateneo Law. The compressed romance-as-life-arc is the column's emotional center.",
+    "The compressed chiastic-doublet portrait -- 'friendly yet detached; familiar yet objective; strict yet fair; self-assured yet collegial' -- four paired oppositions in a single sentence, the densest single-sentence character portrait in this set of columns.",
+    "The closing epigram -- 'the temporaries of the moment are always overtaken by the permanencies of history' -- CJ's characteristic optimism that institutional drift can be corrected over generations."
+  ],
+  "target_audience": [
+    "Members of the Philippine bench and bar",
+    "Constitutional-law scholars tracking SC composition",
+    "FLP donors and law-school alumni networks",
+    "Ateneo Law community and Del Castillo's professional circles",
+    "Inquirer general readership concerned about judicial independence"
+  ],
+  "register_markers": [
+    "doctrinal-formal register with personal-tribute warmth",
+    "compressed chiastic doublets ('friendly yet detached; familiar yet objective; strict yet fair; self-assured yet collegial')",
+    "fairy-tale phrasing in marriage anecdote ('lived happily ever after')",
+    "constitutional-standard quotation ('proven competence, integrity, probity, and independence')",
+    "specific dates and retirement-mathematics projection",
+    "epigrammatic close ('temporaries of the moment... permanencies of history')",
+    "'in my book' personal-vouch marker",
+    "deferred-column teaser ('deserves a future column')",
+    "no Tagalog markers; doctrinal-tribute English"
+  ],
+  "decision_framework_signals": [
+    "applies the constitutional-standards quartet (competence, integrity, probity, independence) as the operational test for a jurist's character",
+    "uses biographical-arc-as-moral-lesson framing (career built rung by rung, not via shortcuts)",
+    "applies chiastic-doublet portrait as character-rendering technique",
+    "uses retirement-mathematics projection (8 → 11 → 13 of 15) as institutional-shift evidence",
+    "applies the 'first-year gratitude' realism balanced against the 'permanencies of history' optimism",
+    "deferred-question close to flag the substantive constitutional concern without prematurely concluding it",
+    "concedes the cultural variable (debt of gratitude as 'a deep-rooted Filipino trait') without surrendering institutional optimism"
+  ],
+  "one_paragraph_summary": "Panganiban honors Justice Mariano C. del Castillo, who will be feted by his colleagues on July 26, 2019 -- three days before his 70th birthday on July 29, because the Constitution's 'until they reach the age of seventy' has been interpreted as 'until midnight of the day before' the 70th birthday. He traces Del Castillo's 30-year arc from MTC San Mateo (1989) through RTC Angeles, RTC QC, and the Court of Appeals to the Supreme Court (July 29, 2009), noting that Del Castillo declined his nomination to succeed CJ Leonardo-de Castro in 2018 with the characteristically humble explanation: 'I will be retiring in about eight months, and I don't think I can make a difference as chief justice. I would rather concentrate on my work as an associate justice and as chairman of the 2018 bar exams.' Del Castillo, CJ argues, embodies the constitutional standards of competence, integrity, probity, and independence -- 'friendly yet detached; familiar yet objective; strict yet fair; self-assured yet collegial' -- a gentleman-jurist whose career was modest in honors but rich in substance (his student peak was marrying the 1976 class valedictorian, who later became dean of Ateneo Law). With his retirement, Duterte's appointees rise to 8 of 15; after Jardeleza, Bersamin, and Carpio retire in Sept-Oct 2019, the figure climbs to 11, and by June 30, 2022 to 13 with the chief -- leaving only Leonen and Caguioa from the pre-Duterte court. How this super-majority will affect SC independence deserves a future column, CJ writes, but new justices soon learn 'that the temporaries of the moment are always overtaken by the permanencies of history.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

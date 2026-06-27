@@ -1,0 +1,157 @@
+{
+  "id": "CA076",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 76,
+  "title": "SC: Write simply and clearly",
+  "date": "2024-04-01",
+  "link": "https://opinion.inquirer.net/172560/sc-write-simply-and-clearly",
+  "keywords": [
+    "Supreme Court Stylebook",
+    "Marvic Leonen",
+    "judicial writing",
+    "Velarde v. SJS",
+    "verba legis",
+    "clarity",
+    "Inquirer Stylebook"
+  ],
+  "primary_topics": [
+    "Release of the 404-page Supreme Court Stylebook replacing the old Manual for Judicial Writing",
+    "CJ Gesmundo's 'Message' framing the Stylebook as a clarity-and-uniformity reform for litigants and the public",
+    "CJ Panganiban's lifelong advocacy for simplicity and clarity in legal writing",
+    "Structure of the SC Stylebook (15 chapters with annexes; Chapter 11 on SC decision structure)",
+    "Comparison of SC Stylebook vs Inquirer Stylebook on conventions (e.g. titles before/after names)"
+  ],
+  "sub_topics": [
+    "SAJ Marvic M.V.F. Leonen's Foreword: 'Words do have power. Used in the wrong ways, they can destroy and bury an entire segment of society. Used correctly, they can liberate and, sometimes, even heal.'",
+    "'Make every word count' example: Before -- 'May I respectfully suggest that the statement is not in accordance with the facts.' After -- 'The statement is not factual.'",
+    "Rules on 'e.g.' (exempli gratia) and 'i.e.' (id est): comma before and after as interrupters; do not italicize",
+    "Capitalization of titles directly preceding proper names; lowercase when after; occupations always lowercase",
+    "Difference between SC Stylebook (current vs past titleholder distinction not made) and Inquirer Stylebook (current holder capitalized, past holder lowercase)",
+    "Chapter 11: SC decision structure (case title, introduction/prologue, body, parties' arguments, issues, discussion, dispositive portion)",
+    "Velarde v. Social Justice Society (April 28, 2004) as Stylebook touchstone -- replace 'WHEREFORE' with 'ACCORDINGLY' or 'FOR THESE REASONS'",
+    "Chapters 12-14 on citations (jurisprudence here and abroad, statutes, ordinances, court issuances, legislative journals, law reviews, articles, letters)",
+    "CJ's personal citation shorthand for his column (shortened title + date)",
+    "Final chapter: templates for copying and use",
+    "Personal-biographical chain: Ermita-Malate Hotel v. City Mayor (1967) as CJ's first major SC win as a young lawyer; Velarde v. SJS as CJ's own ponencia on writing; Inquirer Stylebook encouragement during 1991-92 part-time presidency"
+  ],
+  "signature_phrases": [
+    "to my delight",
+    "greater clarity, consistency, and uniformity",
+    "demystify the judiciary",
+    "Make every word count",
+    "I have always advocated simplicity and clarity",
+    "Words do have power",
+    "use them in their proper milieu",
+    "the archaic ... word WHEREFORE [that] must be changed to the plain word ... ACCORDINGLY",
+    "precious space is saved, and readers can easily google the original",
+    "demystify the judiciary and keep it relevant in this age of artificial intelligence and the Swifties"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Alexander G. Gesmundo (CJ, author of 'Message')",
+      "Marvic M.V.F. Leonen (Senior Associate Justice, Stylebook lead)",
+      "Antonio H. Abad Jr. (CJ's co-counsel in Ermita-Malate)",
+      "Enrique Fernando (J, later CJ, ponente of Ermita-Malate)",
+      "Isagani Yambot (former Inquirer publisher)",
+      "Cristina Pantoja-Hidalgo (Inquirer Stylebook collaborator)",
+      "Conchita Carpio Morales (cited in citation-format example)",
+      "Rodrigo Duterte (used in title-capitalization example)",
+      "Ferdinand Marcos Jr. (used in title-capitalization example)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Philippine Daily Inquirer",
+      "Court of Appeals (implicit)",
+      "Sandiganbayan (implicit)"
+    ],
+    "cases": [
+      "Ermita-Malate Hotel v. City Mayor (July 31, 1967)",
+      "Velarde v. Social Justice Society (April 28, 2004)",
+      "Francisco v. House (Nov. 10, 2003) -- used in citation-format example"
+    ],
+    "laws_treaties": [],
+    "events": [
+      "Release of the 404-page SC Stylebook",
+      "CJ's 1991-1992 part-time Inquirer presidency",
+      "Production of the Inquirer Stylebook (under CJ's encouragement)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The new 404-page Supreme Court Stylebook -- replacing the old 'Manual for Judicial Writing' under SAJ Leonen's lead -- is a 'truly commendable work' that achieves CJ Gesmundo's stated aim of 'greater clarity, consistency, and uniformity' so litigants and the public 'will clearly understand court decisions.'",
+      "rhetorical_move": "endorsement-with-leadership-credit framing",
+      "confidence": "asserted as personal delight"
+    },
+    {
+      "claim": "CJ has 'always advocated simplicity and clarity' -- a personal lifelong project rooted in his first major SC win in Ermita-Malate Hotel v. City Mayor (1967, per J Fernando), formalized as a magistrate in Velarde v. Social Justice Society (2004), and extended to journalism via the Inquirer Stylebook he encouraged during his 1991-92 Inquirer presidency.",
+      "rhetorical_move": "biographical-arc framing (lifelong advocacy traced through three career stages)",
+      "confidence": "personally narrated"
+    },
+    {
+      "claim": "Even non-lawyers can learn from the first 10 chapters of the Stylebook -- 'Make every word count,' the proper use of 'e.g.' and 'i.e.' as interrupters, capitalization rules for titles -- making the work genuinely democratizing.",
+      "rhetorical_move": "democratizing-pedagogy framing (legal writing tools for the lay public)",
+      "confidence": "asserted with worked examples"
+    },
+    {
+      "claim": "Different stylebooks may legitimately differ in their conventions -- the SC Stylebook does not distinguish current from past titleholders in capitalization, while the Inquirer Stylebook capitalizes the current holder ('President Ferdinand Marcos Jr.') and lowercases the past ('president Rodrigo Duterte') -- and writers should use each 'in their proper milieu.'",
+      "rhetorical_move": "stylebook-milieu-pluralism framing (no universal style; institutional context governs)",
+      "confidence": "asserted as practical rule"
+    },
+    {
+      "claim": "The Stylebook's directive to replace the 'archaic' WHEREFORE with the plain 'ACCORDINGLY' or 'FOR THESE REASONS' -- sourced from Velarde v. SJS -- exemplifies the simplicity-and-clarity goal at the structural level of SC decisions.",
+      "rhetorical_move": "doctrine-of-clarity illustration via single-word reform",
+      "confidence": "asserted with Stylebook quotation"
+    },
+    {
+      "claim": "The Stylebook helps 'demystify the judiciary and keep it relevant in this age of artificial intelligence and the Swifties' -- locating judicial-writing reform within the broader project of judicial public-relevance and modernization.",
+      "rhetorical_move": "modernity-relevance framing (AI + Swifties as touchstones of present-day attention economy)",
+      "confidence": "asserted as cultural placement"
+    }
+  ],
+  "notable_anecdotes": [
+    "Personal disclosure: CJ won his first major SC case as a young lawyer (with co-counsel Antonio H. Abad Jr.) in Ermita-Malate Hotel v. City Mayor (1967, per J -- later CJ -- Enrique Fernando, en banc), but candidly admits 'I did not immediately catch the rather complicated structure of, and the constitutional wisdom in, that landmark verdict' -- turning his own youthful difficulty into the foundation of his lifelong simplicity-and-clarity advocacy.",
+    "Velarde v. Social Justice Society (April 28, 2004) as CJ's own en banc ponencia 'on how to write simple and clear decisions' -- the Stylebook now repeatedly cites it, completing a generational loop.",
+    "1991-92 part-time Inquirer presidency: CJ encouraged then publisher Isagani Yambot and Cristina Pantoja-Hidalgo to produce the Inquirer Stylebook -- establishing his role as cross-institutional clarity advocate before reaching the SC.",
+    "SAJ Leonen's Foreword reproduced verbatim: 'Words do have power. Used in the wrong ways, they can destroy and bury an entire segment of society. Used correctly, they can liberate and, sometimes, even heal.' -- used as the column's epigraph in spirit.",
+    "Before-and-after example reproduced: 'Before: May I respectfully suggest that the statement is not in accordance with the facts. After: The statement is not factual.' -- the most quotable single illustration.",
+    "Stylebook directive on WHEREFORE → ACCORDINGLY/FOR THESE REASONS: a structural-vocabulary reform of SC dispositive portions, sourced from Velarde v. SJS.",
+    "CJ's own column-citation shorthand explained: 'Francisco v. House, Nov. 10, 2003, per J Conchita Carpio Morales, en banc' -- saving 'precious space' and letting readers 'easily google the original.'",
+    "Closing 'AI and the Swifties' framing -- a rare CJ embrace of pop-culture as test of judicial relevance."
+  ],
+  "target_audience": [
+    "Lawyers, magistrates, and law clerks (the explicit professional audience)",
+    "Law students and bar reviewees",
+    "Legal journalists and editors",
+    "Inquirer style editors",
+    "SC Stylebook contributors and Leonen team",
+    "Lay readers interested in judicial writing reform",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "Opening-of-delight register ('Recently issued, to my delight')",
+    "ALL-CAPS pivot openings ('SINCE MY COLLEGE DAYS,' 'IN CHOOSING WORDS,' 'CHAPTER 11 DIVES INTO HOW SUPREME COURT DECISIONS')",
+    "Personal-biographical-arc framing (1967 → 1991-92 → 2004 → present)",
+    "Reproduced stylebook examples (before/after, e.g./i.e., title capitalization)",
+    "Quoted CJ Gesmundo Message + SAJ Leonen Foreword",
+    "Moral-lesson device ('Moral lesson: Sometimes the stylebooks of different institutions differ')",
+    "Self-deprecating disclosure ('I did not immediately catch')",
+    "Modern-relevance closer ('artificial intelligence and the Swifties')",
+    "Self-referential citation example (Francisco v. House shortened-format)",
+    "Latin-vocabulary inline glossing (exempli gratia, id est)"
+  ],
+  "decision_framework_signals": [
+    "uses simplicity-and-clarity as the guiding judicial-writing principle",
+    "applies make-every-word-count test for verbal economy",
+    "treats stylebook conventions as milieu-dependent (institutional context governs)",
+    "uses biographical-arc framing to validate a position via personal career consistency",
+    "applies structural-vocabulary reform (WHEREFORE → ACCORDINGLY) as exemplar of broader reform",
+    "uses democratizing-pedagogy framing (lay readers can learn from the first 10 chapters)",
+    "frames judicial modernization by reference to attention-economy touchstones (AI, Swifties)"
+  ],
+  "one_paragraph_summary": "Panganiban welcomes 'to my delight' the recently released 404-page Supreme Court Stylebook, which replaces the old 'Manual for Judicial Writing' under the leadership of Senior Associate Justice Marvic M.V.F. Leonen and his team, with a 'Message' by CJ Alexander G. Gesmundo stating it 'was impelled by the need for greater clarity, consistency, and uniformity so that litigants and the public in general will clearly understand court decisions.' He traces his lifelong advocacy for simplicity and clarity through three career stages: as a young lawyer winning Ermita-Malate Hotel v. City Mayor (July 31, 1967, per J -- later CJ -- Fernando, en banc) with co-counsel Antonio H. Abad Jr. (candidly admitting he 'did not immediately catch the rather complicated structure of' that landmark verdict); as Inquirer part-time president in 1991-1992 encouraging publisher Isagani Yambot and Cristina Pantoja-Hidalgo to produce the Inquirer Stylebook; and as a magistrate authoring Velarde v. Social Justice Society (April 28, 2004), which the new SC Stylebook repeatedly cites as the touchstone for replacing the 'archaic ... WHEREFORE' with the plain 'ACCORDINGLY' or 'FOR THESE REASONS.' He walks readers through SAJ Leonen's eloquent Foreword ('Words do have power. Used in the wrong ways, they can destroy and bury an entire segment of society. Used correctly, they can liberate and, sometimes, even heal'), the 'Make every word count' rule with its 'Before/After' example, the proper use of 'e.g.' and 'i.e.' as interrupters with commas before and after, and the capitalization rules for titles directly preceding vs following proper names. He notes that the Inquirer Stylebook differs by capitalizing only current titleholders ('President Ferdinand Marcos Jr. and president Rodrigo Duterte') -- drawing the moral lesson that stylebooks of different institutions may differ but should be used 'in their proper milieu.' Chapter 11 dives into SC decision structure (case title, introduction, body, parties' arguments, issues, discussion, dispositive portion), Chapters 12-14 handle citations of jurisprudence (here and abroad), statutes, ordinances, court issuances, legislative journals, law reviews, articles, and even simple letters, and the final chapter provides templates. He closes by hailing the Court and Leonen team for a 'truly commendable work to demystify the judiciary and keep it relevant in this age of artificial intelligence and the Swifties.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

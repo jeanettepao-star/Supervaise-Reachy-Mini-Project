@@ -1,0 +1,153 @@
+{
+  "id": "CA198",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 198,
+  "title": "Should Justice Leonen inhibit?",
+  "date": "2020-11-15",
+  "link": "https://opinion.inquirer.net/135317/should-justice-leonen-inhibit",
+  "keywords": [
+    "Leonen inhibit",
+    "Calida 34-page motion",
+    "Bongbong omnibus motion",
+    "Reflections",
+    "Rule 137",
+    "voluntary inhibition",
+    "Estrada v. Desierto",
+    "Republic v. Sereno"
+  ],
+  "primary_topics": [
+    "Calida and Bongbong's separate motions to inhibit Justice Leonen from the PET protest",
+    "Status of 'Reflections' as confidential, non-binding internal exchanges",
+    "Sec. 1, Rule 137 Rules of Court -- compulsory disqualification grounds (none apply to Leonen)",
+    "Second-paragraph voluntary inhibition -- 'sound discretion' standard",
+    "Republic v. Sereno (May 18, 2018) -- six justices' refusal to inhibit; 'best person to determine the propriety of sitting'"
+  ],
+  "sub_topics": [
+    "Calida's 34-page motion: 'Tribune of the People' framing; four allegations of 'partiality' (Marcos burial dissent; Chavez v. Imelda R. Marcos; delay over protest; voluntary-inhibition rule)",
+    "Bongbong's 21-page Omnibus Motion: focused on unreasonable delay since Oct 29, 2019 (Leonen-as-member-in-charge raffle)",
+    "Bongbong's motion signed by him and lead counsel George Erwin M. Garcia; backed by Juan Ponce Enrile, Manuel M. Lazaro, Estelito P. Mendoza",
+    "Alleged July 17, 2017 'Reflection' urging outright dismissal of Bongbong's protest",
+    "CJ's stated personal practice: 'In my case though, I have never reversed my vote'",
+    "Rule 137 compulsory grounds: pecuniary interest; relation to party within sixth degree or to counsel within fourth degree; prior executor role; prior presiding in inferior court whose ruling is now subject of case",
+    "Voluntary inhibition standard quoted: 'for just and valid reasons'",
+    "Author's voluntary inhibition (with CJ Davide) in Estrada v. Desierto (March 2, 2001) at counsel Rene A. V. Saguisag's request",
+    "CJ's inhibition rationale quoted: 'to hold myself above petitioner's reproach and to deprive him or anyone else of any excuse to cast doubt on the integrity of these proceedings'",
+    "Estrada result: 13-0 with two inhibitions",
+    "Republic v. Sereno six justices: De Castro, Bersamin, Peralta, Jardeleza, Martirez, Tijam -- refused to inhibit",
+    "June 19, 2018 Sereno resolution: granting motion to inhibit 'would open the floodgates to the worst kind of forum shopping'"
+  ],
+  "signature_phrases": [
+    "Tribune of the People",
+    "exhibited partiality",
+    "loud thoughts meant to invite discussions",
+    "in no way solid, binding opinions",
+    "In my case though, I have never reversed my vote",
+    "sound discretion",
+    "just and valid reasons",
+    "to hold myself above petitioner's reproach",
+    "to deprive him or anyone else of any excuse to cast doubt on the integrity of these proceedings",
+    "the best person to determine the propriety of sitting in a case rests with the magistrate sought to be disqualified",
+    "open the floodgates to the worst kind of forum shopping",
+    "antithetical to the fair administration of justice",
+    "he is the best person to answer the question"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Justice Marvic M. V. F. Leonen (target of inhibition motions)",
+      "Solicitor General Jose C. Calida (motion movant)",
+      "Bongbong Marcos (motion movant)",
+      "George Erwin M. Garcia (Bongbong's lead counsel)",
+      "Juan Ponce Enrile (Bongbong-side legal eagle)",
+      "Manuel M. Lazaro (Bongbong-side legal eagle)",
+      "Estelito P. Mendoza (Bongbong-side legal eagle)",
+      "Imelda R. Marcos (Chavez case context)",
+      "Former Senator Rene A. V. Saguisag (Estrada counsel; inhibition requestor)",
+      "Former President Joseph Estrada",
+      "CJ Hilario G. Davide Jr. (co-inhibitor in Estrada)",
+      "Justice Teresita J. Leonardo-De Castro (Sereno: refused to inhibit)",
+      "Justice Lucas P. Bersamin (Sereno: refused to inhibit)",
+      "Justice Diosdado M. Peralta (Sereno: refused to inhibit)",
+      "Justice Francis H. Jardeleza (Sereno: refused to inhibit)",
+      "Justice Samuel R. Martires (Sereno: refused to inhibit)",
+      "Justice Noel G. Tijam (Sereno: refused to inhibit)",
+      "CJ Maria Lourdes P. A. Sereno (Sereno-case respondent)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (sitting as PET)",
+      "Office of the Solicitor General"
+    ],
+    "cases": [
+      "Estrada v. Desierto (March 2, 2001)",
+      "Republic v. Sereno (May 18, 2018; June 19, 2018 resolution)",
+      "Chavez v. Imelda R. Marcos (referenced in Calida motion)",
+      "Marcos burial cases (Leonen dissent referenced)"
+    ],
+    "laws_treaties": [
+      "Rules of Court -- Sec. 1, Rule 137 (compulsory disqualification + voluntary inhibition)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Leonen is not compulsorily disqualified under Sec. 1, Rule 137 (no pecuniary interest, no qualifying relationship, no prior executor role, no prior inferior-court ruling subject to review) -- both Calida and Bongbong concede this and rely on the second paragraph's voluntary-inhibition standard for 'just and valid reasons.'",
+      "rhetorical_move": "compulsory-disqualification rule-out"
+    },
+    {
+      "claim": "The July 17, 2017 'Reflection' attributed to Leonen -- urging outright dismissal of Bongbong's protest -- is not enough to disqualify him: 'Reflections' are 'normal, confidential exchanges in the Court even prior to my incumbency in 1995... mere loud thoughts meant to invite discussions on controversial issues... in no way solid, binding opinions.' Justices can modify or reverse them at any time prior to promulgation, and even reverse themselves on reconsideration.",
+      "rhetorical_move": "institutional-practice clarification of 'Reflections'"
+    },
+    {
+      "claim": "In CJ Panganiban's over 11 years on the Court, voluntary inhibition 'had always been addressed to the sound discretion of the justice concerned' -- 'I do not remember an instance in which the Court forced anyone of us to inhibit when the matter did not fall under the cited Sec. 1, Rule 137.'",
+      "rhetorical_move": "first-person institutional-memory authority"
+    },
+    {
+      "claim": "Personal precedent: CJ Davide and CJ Panganiban voluntarily inhibited in Estrada v. Desierto at counsel Saguisag's request -- CJ's stated rationale: 'to hold myself above petitioner's reproach and to deprive him or anyone else of any excuse to cast doubt on the integrity of these proceedings' -- though the result was 13-0 with the two inhibitions.",
+      "rhetorical_move": "self-disclosure as comparative precedent"
+    },
+    {
+      "claim": "Republic v. Sereno (May 18, 2018) provides the controlling modern formulation: 'the best person to determine the propriety of sitting in a case rests with the magistrate sought to be disqualified,' and forcing the question to the other justices would 'undermine the independence of each of the members of the High Court'; granting the motion would 'open the floodgates to the worst kind of forum shopping.'",
+      "rhetorical_move": "precedent-confirmed authority-to-self-determine"
+    },
+    {
+      "claim": "Concluding deflection: 'Should Justice Leonen inhibit? Per the above rulings, he is the best person to answer the question.' -- explicitly putting the answer back where doctrine says it belongs.",
+      "rhetorical_move": "doctrinal-deflection close"
+    }
+  ],
+  "notable_anecdotes": [
+    "Calida's 34-page motion with 19 assistant solicitors general -- preserved as evidence of the scale of resources poured into the inhibition effort, in service of the 'Tribune of the People' self-framing.",
+    "Bongbong's 'Omnibus Motion' backed by 'legal eagles Juan Ponce Enrile, Manuel M. Lazaro, and Estelito P. Mendoza' -- a who's-who of Marcos-era and elite counsel rolled out for a 21-page motion.",
+    "CJ's own self-disclosure that he inhibited (with CJ Davide) in Estrada v. Desierto at Rene A. V. Saguisag's request, with his stated rationale preserved verbatim -- and the parenthetical aside 'In my case though, I have never reversed my vote' as a quiet voicemark on personal consistency.",
+    "Sereno June 19, 2018 resolution quoted: granting inhibition would 'open the floodgates to the worst kind of forum shopping... clearly antithetical to the fair administration of justice' -- and the column's deflection close ('he is the best person to answer the question')."
+  ],
+  "target_audience": [
+    "Justice Marvic M. V. F. Leonen (decision-maker)",
+    "Solicitor General Calida and his staff",
+    "Bongbong Marcos's legal team (Garcia, Enrile, Lazaro, Mendoza)",
+    "Civic readers tracking the inhibition motions",
+    "PET observers and election-law specialists"
+  ],
+  "register_markers": [
+    "doctrinal-procedural-historical register",
+    "Reflections-practice clarification register",
+    "first-person institutional-memory ('In my over 11 years in the Court')",
+    "self-disclosure as comparative precedent (Estrada inhibition)",
+    "parenthetical voicemark ('In my case though, I have never reversed my vote')",
+    "Sereno-doctrine recital with floodgates-forum-shopping language",
+    "doctrinal-deflection close ('he is the best person to answer')",
+    "long-quotation discipline (Sereno passage preserved in full)"
+  ],
+  "decision_framework_signals": [
+    "applies Sec. 1, Rule 137 compulsory-disqualification rule-out as threshold filter",
+    "uses Reflections-as-non-binding-internal-exchange institutional clarification",
+    "deploys 'sound discretion' standard with first-person institutional-memory authority",
+    "treats Estrada-inhibition self-disclosure as comparative precedent",
+    "frames Sereno doctrine ('best person... is the magistrate sought to be disqualified') as controlling",
+    "applies floodgates-forum-shopping policy concern against compelling inhibition",
+    "closes via doctrinal-deflection (answer belongs to the magistrate himself)"
+  ],
+  "one_paragraph_summary": "Panganiban examines the separate motions filed by Solicitor General Jose C. Calida (34 pages, with 19 assistant solicitors general, invoking 'Tribune of the People' framing) and former senator Bongbong Marcos (21-page Omnibus Motion signed with lead counsel George Erwin M. Garcia and backed by 'legal eagles' Juan Ponce Enrile, Manuel M. Lazaro, and Estelito P. Mendoza) seeking to inhibit Justice Marvic M. V. F. Leonen from the PET protest. Calida alleges partiality from Leonen's Marcos-burial dissent, his Chavez v. Imelda R. Marcos role, and the unreasonable delay since Oct 29, 2019; Bongbong's motion focuses on delay. CJ rules out compulsory disqualification under Sec. 1, Rule 137 (no pecuniary interest, no qualifying relationship, no prior executor role, no prior inferior-court ruling now under review) -- both movants concede this and invoke the second paragraph's voluntary-inhibition standard for 'just and valid reasons.' The alleged July 17, 2017 Leonen 'Reflection' urging outright dismissal is not enough: 'Reflections' are 'normal, confidential exchanges in the Court even prior to my incumbency in 1995... mere loud thoughts meant to invite discussions on controversial issues' -- 'in no way solid, binding opinions,' and justices can modify or reverse them at any time before promulgation (CJ adds the parenthetical: 'In my case though, I have never reversed my vote'). In CJ's over 11 years on the Court, voluntary inhibition 'had always been addressed to the sound discretion of the justice concerned' -- he does 'not remember an instance in which the Court forced anyone of us to inhibit.' Personal precedent: he and CJ Davide voluntarily inhibited in Estrada v. Desierto (March 2, 2001) at counsel Rene A. V. Saguisag's request 'to hold myself above petitioner's reproach and to deprive him or anyone else of any excuse to cast doubt on the integrity of these proceedings' -- Estrada then lost 13-0 with the two inhibitions. The controlling modern doctrine is Republic v. Sereno (May 18, 2018), which held that 'the best person to determine the propriety of sitting in a case rests with the magistrate sought to be disqualified,' and that the June 19, 2018 resolution added that granting compelled inhibition would 'open the floodgates to the worst kind of forum shopping... clearly antithetical to the fair administration of justice.' CJ closes by doctrinal deflection: 'Should Justice Leonen inhibit? Per the above rulings, he is the best person to answer the question.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

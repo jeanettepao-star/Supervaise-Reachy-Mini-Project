@@ -1,0 +1,142 @@
+{
+  "id": "CA242",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 242,
+  "title": "Right to be forgotten",
+  "date": "2019-06-23",
+  "link": "https://opinion.inquirer.net/122141/right-to-be-forgotten",
+  "keywords": [
+    "right to be forgotten",
+    "right to privacy",
+    "data privacy",
+    "Data Privacy Act",
+    "habeas data",
+    "Google Spain",
+    "Morfe v. Mutuc",
+    "National Privacy Commission",
+    "sensitive personal information"
+  ],
+  "primary_topics": [
+    "Right to be forgotten / right to have an imperfect past (search-engine de-indexing)",
+    "Enforceability in the Philippines of a European Court of Justice doctrine",
+    "Philippine roots of the right to privacy (Morfe v. Mutuc, 1968; writ of habeas data, 2008)",
+    "Data Privacy Act of 2012 and the National Privacy Commission's five obligations on data processors"
+  ],
+  "sub_topics": [
+    "Google Spain SL v. Agencia Española de Protección de Datos (CJEU, 2014) and 'inadequate, irrelevant or excessive' standard",
+    "European 'Directive on Data Protection' (1995) as source of the doctrine",
+    "Germany's constitutional treatment of the right to be forgotten",
+    "Justice Louis Brandeis dissent in Olmstead v. United States (1928) -- 'right to be left alone' as nine-decade-older origin",
+    "Morfe v. Mutuc (PH SC, 1968) -- privacy as 'fully deserving of constitutional protection'",
+    "Writ of habeas data promulgated January 22, 2008",
+    "May 3 issuance of habeas data in favor of National Union of Peoples' Lawyers (NUPL) against the military",
+    "Data Privacy Act (DPA, 2012) protects natural persons (not corporations)",
+    "Heightened protection for 'sensitive personal information' -- race, ethnicity, marital status, age, color, religion, philosophy, politics; health, education, genetic/sexual life, criminal proceedings; SSNs, licenses, tax returns; classified items",
+    "Five NPC obligations on data processors (data processing officer, privacy impact assessment, infrastructure, operationalization, breach protocols)",
+    "Ateneo Law Journal Vol. 63 No. 1 article by Dr. Ivy D. Patdu and lawyer Jamael A. Jacob (lead editor Angelo Francesco F. Herbosa)"
+  ],
+  "signature_phrases": [
+    "right to have an imperfect past",
+    "the right to be left alone",
+    "inadequate, irrelevant... or excessive",
+    "fully deserving of constitutional protection",
+    "My short answer is 'Yes'",
+    "the Philippines is more advanced in safeguarding personal information",
+    "to protect the fundamental human right of privacy of communication while ensuring free flow of information to promote innovation and growth",
+    "extra protection and imposes heavier penalties",
+    "personal information",
+    "sensitive personal information"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Justice Louis Brandeis (US Supreme Court, Olmstead dissent 1928)",
+      "Dr. Ivy D. Patdu (Ateneo Law Journal author)",
+      "Atty. Jamael A. Jacob (Ateneo Law Journal co-author)",
+      "Angelo Francesco F. Herbosa (Ateneo Law Journal lead editor)"
+    ],
+    "institutions": [
+      "Court of Justice of the European Union (CJEU)",
+      "Agencia Española de Protección de Datos (Spanish Data Protection Agency)",
+      "European Community / European Union",
+      "US Supreme Court",
+      "Philippine Supreme Court",
+      "Philippine Congress",
+      "National Privacy Commission (NPC)",
+      "National Union of Peoples' Lawyers (NUPL)",
+      "Armed Forces of the Philippines / military",
+      "Ateneo Law Journal (Vol. 63 No. 1)"
+    ],
+    "cases": [
+      "Google Spain SL, Google Inc. v. Agencia Española de Protección de Datos (CJEU, 2014)",
+      "Olmstead v. United States (US SC, 1928 -- Brandeis dissent)",
+      "Morfe v. Mutuc (PH SC, 1968)"
+    ],
+    "laws_treaties": [
+      "Directive on Data Protection (European Community, 1995)",
+      "Writ of Habeas Data (PH SC, January 22, 2008)",
+      "Data Privacy Act of 2012 (DPA, PH)"
+    ],
+    "events": [
+      "May 3, 2019 -- PH SC issues writ of habeas data in favor of NUPL",
+      "Recent publication of Ateneo Law Journal Vol. 63 No. 1"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Although the right to be forgotten was popularized by the 2014 European Court of Justice ruling in Google Spain, it is enforceable in the Philippines because its substance long predates that ruling -- Brandeis recognized it as 'the right to be left alone' in 1928 and the PH Supreme Court enshrined it as constitutional privacy in Morfe v. Mutuc (1968).",
+      "rhetorical_move": "antedating-origin defense (PH right is not borrowed from Europe; it precedes Europe)",
+      "confidence": "asserted directly ('My short answer is Yes')"
+    },
+    {
+      "claim": "The Philippines is more advanced in safeguarding personal information than is commonly thought -- it has both judicial machinery (writ of habeas data, 2008) and statutory machinery (Data Privacy Act, 2012) with a dedicated implementing agency (NPC), placing it ahead of many jurisdictions still litigating these rights.",
+      "rhetorical_move": "PH-ahead-of-the-curve reframing (against the imported-doctrine narrative)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Data Privacy Act sensibly tiers protection: ordinary personal information covers any identifying data about a natural person (corporations excluded), while sensitive personal information -- covering protected-class status, health, education, sexual life, criminal proceedings, government-issued identifiers, and classified matter -- receives heightened protection and heavier penalties.",
+      "rhetorical_move": "tiered-protection exegesis (legal-categorization tutorial)",
+      "confidence": "expository"
+    },
+    {
+      "claim": "The NPC's five basic obligations -- data processing officer, privacy impact assessment, robust infrastructure, operationalized policies, breach protocols -- establish a workable compliance baseline; readers wanting depth can consult the Ateneo Law Journal article by Patdu and Jacob.",
+      "rhetorical_move": "implementation-checklist with academic referral",
+      "confidence": "expository with credit"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's nine-decade antedating move -- flipping the perceived chronology so that Brandeis (1928) precedes the CJEU (2014) -- the rhetorical maneuver that turns a 'foreign tribunal' objection into 'we've had this longer than they have.'",
+    "The May 3 habeas data issuance in favor of the National Union of Peoples' Lawyers compelling the military to produce 'all the facts, information, statements, records, photographs, and other evidence' on its members -- used as the proof-of-life that the writ is not theoretical but actively wielded against the AFP.",
+    "The disclosure-style footnote of authorship for the underlying scholarship -- Dr. Ivy D. Patdu and lawyer Jamael A. Jacob with Angelo Francesco F. Herbosa as lead editor, with volume and issue number -- modeling the citation discipline CJ wants his readers to absorb."
+  ],
+  "target_audience": [
+    "Civic-minded Filipinos worried about online reputation and digital privacy",
+    "Lawyers and academics in data privacy, constitutional law, and human rights",
+    "Compliance officers and data processing officers in firms covered by the DPA",
+    "Inquirer general readership unfamiliar with the EU ruling",
+    "Legal-scholarship readers interested in the Ateneo Law Journal piece"
+  ],
+  "register_markers": [
+    "doctrinal-comparative register",
+    "antedating-origin device (Brandeis 1928, Morfe 1968 placed before Google Spain 2014)",
+    "self-Q-and-A pattern ('But will it be enforceable here... My short answer is Yes')",
+    "tiered-list exegesis of statutory categories (1)/(2)/(3)/(4)",
+    "enumerated-obligations structure for NPC duties (five obligations)",
+    "parenthetical scholarly attribution closer with volume/issue/editor",
+    "Latin-free, accessible legal prose throughout",
+    "PH-positions-itself-relative-to-Europe framing"
+  ],
+  "decision_framework_signals": [
+    "applies antedating-origin test to rebut 'foreign tribunal' enforceability objection",
+    "uses chronological-priority argument (1928 dissent, 1968 PH ruling) to localize a perceived European right",
+    "deploys tiered-protection taxonomy (ordinary vs sensitive personal information) as analytic frame",
+    "treats existence of implementing agency (NPC) and machinery (five obligations) as evidence of statutory seriousness",
+    "frames Philippine privacy law as 'more advanced' rather than catching up, inverting the usual import-of-doctrine narrative",
+    "closes with academic-referral as next-step learning path for serious readers"
+  ],
+  "one_paragraph_summary": "Panganiban introduces the 'right to be forgotten' -- also called 'the right to have an imperfect past' -- as the doctrine, announced by the Court of Justice of the European Union in Google Spain SL v. Agencia Española de Protección de Datos (2014), that allows individuals to compel search engines like Google to de-index 'inadequate, irrelevant or excessive' personal data. He addresses head-on whether a ruling by a foreign tribunal is enforceable in the Philippines and answers 'Yes,' arguing that the right substantially predates the European ruling: Justice Louis Brandeis recognized it as 'the right to be left alone' in his 1928 Olmstead v. United States dissent, and the Philippine Supreme Court declared 'the right to privacy' as 'fully deserving of constitutional protection' in Morfe v. Mutuc (1968). He argues the Philippines is in fact more advanced in safeguarding personal information than commonly assumed -- the Supreme Court promulgated the writ of habeas data on January 22, 2008 (issued as recently as May 3 for the National Union of Peoples' Lawyers against the military), and Congress enacted the Data Privacy Act in 2012. He distinguishes ordinary 'personal information' (any data identifying a natural person; corporations excluded) from 'sensitive personal information' -- race, ethnicity, marital status, age, color, religion, philosophy, politics, health, education, genetic or sexual life, criminal proceedings, government-issued identifiers, and classified material -- which receives heavier penalties. He closes by enumerating the National Privacy Commission's five obligations on all data-processing firms (data processing officer, privacy impact assessment, robust infrastructure, operationalized policies, breach protocols) and refers serious readers to Dr. Ivy D. Patdu and Jamael A. Jacob's article in the Ateneo Law Journal Vol. 63 No. 1, edited by Angelo Francesco F. Herbosa, for implementation detail.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

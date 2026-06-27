@@ -1,0 +1,159 @@
+{
+  "id": "CE052",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 52,
+  "title": "The cost of presidential campaigns",
+  "date": "2021-09-12",
+  "link": "https://opinion.inquirer.net/144093/the-cost-of-presidential-campaigns",
+  "keywords": [
+    "campaign spending limits",
+    "Section 13 RA 7166",
+    "P10 per registered voter president vice president",
+    "P3 per voter senator party-list",
+    "P5 per voter independent",
+    "P5 per voter political party",
+    "60 million registered voters",
+    "P50 billion election kitty",
+    "Leo Alejandrino 'heneralunacy'",
+    "leveraged buyout of country",
+    "corruption as ROI engine",
+    "barangay captains ayuda dispensers",
+    "contactless campaign social media trolls fake news",
+    "libel verification difficulty",
+    "survey-driven donor gravitation",
+    "'Masaya ang eleksyon' boast",
+    "electoral reform on spending",
+    "new normal campaign reform"
+  ],
+  "primary_topics": [
+    "campaign_finance_law_section_13_ra_7166",
+    "structural_corruption_as_campaign_financing_mechanism",
+    "digital_era_campaign_oversight_gap",
+    "electoral_reform_advocacy_spending_caps"
+  ],
+  "sub_topics": [
+    "statutory_per_voter_spending_caps_p10_p5_p3",
+    "60_million_registered_voter_baseline",
+    "leo_alejandrino_p50_billion_estimate",
+    "addressable_market_for_corruption_5_trillion_budget_plus_19_trillion_gdp",
+    "leveraged_buyout_metaphor_for_country_capture",
+    "social_media_bloggers_influencers_trolls_fake_news_sellers",
+    "barangay_captains_nonpartisan_dispensers_of_ayuda",
+    "ra_7166_1991_inflation_obsolescence",
+    "survey_driven_donor_gravitation",
+    "masaya_ang_eleksyon_anecdote"
+  ],
+  "signature_phrases": [
+    "Masaya ang eleksyon. Hindi na ako gumagastos, kumikita pa. Sana palaging may eleksyon!",
+    "heneralunacy",
+    "a leveraged buyout where you purchase a company by raiding to death the funds of the company itself. If that sounds like the plunder of our country, it is",
+    "Electoral reforms to curb spending in the new normal deserve a future column",
+    "campaign spending, which in itself is a major sign, if not a major source and effect, of monstrous corruption",
+    "those figures are still awfully enormous",
+    "the major contributors examine these surveys minutely and gravitate naturally toward the probable winners",
+    "extremely important because they are the dispensers of ayuda, packed meals, and medical aid to the masses"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Leo Alejandrino (investment banker turned blogger, source of P50B estimate)",
+      "Unnamed presidentiable quoted as 'Masaya ang eleksyon...' boaster"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Republic Act No. 7166, Section 13 (1991 campaign spending caps)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "Local Government Units (LGUs)",
+      "barangay captaincy (sworn-nonpartisan office)"
+    ],
+    "places": [
+      "Philippines"
+    ],
+    "dates": [
+      "1991 (RA 7166 enactment)",
+      "May 9, 2022 (anticipated polls)",
+      "Oct. 1-8, 2021 (COC filing window)"
+    ],
+    "amounts": [
+      "P5 trillion (national budget A)",
+      "P19 trillion (GDP B)",
+      "P500 billion (10% leakage from A)",
+      "P500 billion (2.5% from B, 'allowable pilferage rate in supermarkets')",
+      "P1 trillion (annual take from corruption)",
+      "P50 billion (election kitty estimate)",
+      "P10/P5/P3 per voter (statutory caps)",
+      "P600 million (max each for president/VP)",
+      "P1.2 billion (max for president+VP team)",
+      "P300 million (max per supporting party)",
+      "P180 million (max each for 12 senatorial candidates)",
+      "P2.16 billion (max all 12 senatorial)",
+      "60 million+ registered voters"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "RA 7166's per-voter caps are obsolete -- passed in 1991, they have been outpaced by inflation and corruption growth, with actual unreported spending 'multiplied several times.'",
+      "rhetorical_move": "Math-driven obsolescence argument; computes the statutory ceilings, then declares them inadequate.",
+      "confidence": "high -- direct critique of operative statute"
+    },
+    {
+      "claim": "Corruption from the National Budget and 'sweetheart deals' constitutes the funding source for the P50-billion campaign kitty, making the ROI on a successful campaign 'actually infinite' -- a leveraged buyout of the country.",
+      "rhetorical_move": "Quotes Alejandrino at length, endorses by extended block-quote and his own framing.",
+      "confidence": "high -- adopts the cited estimate as his own framing"
+    },
+    {
+      "claim": "The 2022 campaign will be mostly 'contactless,' shifting to social media bloggers, influencers, troll armies, and fake-news sellers that are 'difficult to identify, to track, and to sue for libel and other illegalities.'",
+      "rhetorical_move": "New-normal diagnosis: identifies the regulatory gap created by digital migration.",
+      "confidence": "high -- predictive but grounded in pandemic conditions"
+    },
+    {
+      "claim": "Barangay captains, though by law nonpartisan, are 'extremely important' as dispensers of ayuda, packed meals, and medical aid, making them de facto campaign infrastructure.",
+      "rhetorical_move": "Names a quiet structural feature of Filipino campaigns most national coverage ignores.",
+      "confidence": "high -- declarative observation"
+    }
+  ],
+  "notable_anecdotes": [
+    {
+      "description": "Leo Alejandrino's 'heneralunacy' analysis: corruption's addressable market = P5T budget (A) + P19T GDP (B); plausibly P500B leakage from A (10%) plus P500B from B (2.5%, the 'allowable pilferage rate in supermarkets') = P1T annually. With P50B campaign cost, ROI is 'actually infinite.'",
+      "purpose": "Investment-banker idiom used to expose the political-financial machinery in stark accounting terms."
+    },
+    {
+      "description": "Survey-leading presidentiable's boast quoted in Tagalog: 'Masaya ang eleksyon. Hindi na ako gumagastos, kumikita pa. Sana palaging may eleksyon! (Elections are fun. I do not spend; in fact, I earn. Let's have more elections!)'",
+      "purpose": "Anonymized real-quote dramatizing how front-runners turn campaigns into net earnings."
+    },
+    {
+      "description": "RA 7166 math: 60M voters × P10/voter = P600M max for president, P1.2B for the president-VP tandem, P300M per supporting party, P2.16B for the 12-senatorial slate.",
+      "purpose": "Concrete enumeration of the statutory ceiling against which 'real' spending should be measured."
+    },
+    {
+      "description": "Pre-pandemic campaign methods (platform speeches, hand-shaking, baby-kissing, miting de avance, TV-radio plugs, print ads) contrasted with the contactless-digital 2022 landscape.",
+      "purpose": "Historical-juxtaposition illustrating the oversight gap."
+    }
+  ],
+  "target_audience": {
+    "primary": "Filipino voters and good-governance advocates concerned about the 2022 election's cost structure",
+    "secondary": "Comelec, legislators, and reformers thinking about RA 7166 revisions",
+    "tertiary": "Donors, party operators, and aspiring candidates calibrating budgets"
+  },
+  "register_markers": [
+    "Quoting expert source at extended block-quote length",
+    "Investment-banker idiom ('leveraged buyout,' 'permanent haircut')",
+    "Bilingual register: Tagalog-quoted boast translated parenthetically",
+    "Math-as-argument: explicit per-voter × voter-count computations",
+    "Closing promise of a future column ('deserve a future column')",
+    "Coined word adopted from source: 'heneralunacy'"
+  ],
+  "decision_framework_signals": [
+    "Statutory cap doctrine: spending limits set in 1991 pesos no longer match 2022 economic reality",
+    "Corruption-as-ROI framing: campaign cost is downpayment, public coffers are the payoff",
+    "Regulatory gap doctrine: digital campaign actors fall outside print/broadcast disclosure regimes",
+    "Reform principle: spending caps should be modernized for the new normal"
+  ],
+  "one_paragraph_summary": "Ahead of the Oct. 1-8 COC filing window, CJ Panganiban builds a public-finance argument about what presidential campaigns actually cost. The 1991 statute, RA 7166 §13, caps spending at P10 per registered voter for president and VP, P3 for senators and party-list reps, P5 for independents, and P5 per voter for supporting registered parties -- meaning, against the Comelec's expected 60-million-plus 2022 electorate, P600M max per presidentiable, P1.2B for a P-VP tandem, P300M per backing party, and P2.16B for a 12-senatorial slate. Against these statutory ceilings he sets investment-banker-turned-blogger Leo Alejandrino's 'heneralunacy' estimate of a P50-billion campaign kitty, derived by treating the P5T national budget and the P19T GDP as the 'addressable market for corruption' -- at plausible leakage rates of 10 percent of budget and 2.5 percent of GDP ('the allowable pilferage rate in supermarkets'), the annual take approaches P1 trillion, making the ROI on a successful campaign 'actually infinite' -- what Alejandrino brands a leveraged buyout of the country itself. CJ then turns to the regulatory blind spot of the new normal: the 2022 contest will be largely contactless, shifting to social media bloggers, influencers, troll armies, and fake-news sellers who, unlike print and broadcast advertisers, are 'difficult to identify, to track, and to sue for libel.' He flags barangay captains -- by law nonpartisan -- as the de facto ground-game infrastructure through ayuda, packed meals, and medical aid. He closes with an unnamed presidentiable's Tagalog boast ('Masaya ang eleksyon. Hindi na ako gumagastos, kumikita pa.') and a promise to return to electoral spending reform in a future column.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

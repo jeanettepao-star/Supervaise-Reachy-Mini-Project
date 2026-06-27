@@ -1,0 +1,153 @@
+{
+  "id": "CC072",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 72,
+  "title": "Thanksgiving for new careers (1)",
+  "date": "2018-12-30",
+  "link": "https://opinion.inquirer.net/118508/thanksgiving-for-new-careers-1",
+  "keywords": [
+    "post-judicial career",
+    "Inquirer column",
+    "libel suit",
+    "Permanent Court of Arbitration",
+    "PDRC",
+    "100% column attendance"
+  ],
+  "primary_topics": [
+    "CJ's post-retirement reinvention into four concurrent careers",
+    "Column writing for the Inquirer -- Marixi Prieto's three-times-a-week request",
+    "CJ's editorial philosophy: provide background/facts/law, let readers find eureka moments",
+    "Libel suit against CJ and his successful CA/DOJ appeal",
+    "Arbitration career -- PDRC and Permanent Court of Arbitration in The Hague"
+  ],
+  "sub_topics": [
+    "Dec 7, 2006 -- end of SC term",
+    "Four new careers: column writer, arbitrator/expert witness, corporate director, foundation trustee",
+    "Sports (tennis, golf, gym) and 5x-yearly foreign travel",
+    "Florida Disney World + Royal Caribbean Cruise with grandchildren",
+    "Marixi R. Prieto (former Inquirer chair) -- initial 3x/week proposal, compromised to weekly",
+    "CJ's writing background: FEU Advocate fledgling reporter, FEU Law Review managing editor",
+    "Editorial philosophy: don't spoon-feed, don't stupefy with grand opinions or holier-than-thou sermons",
+    "Background + facts + law method; let readers analyze + find eureka moments",
+    "Independence and responsibility through reader self-conclusion",
+    "Google double-checking discipline",
+    "Inquirer style: Comelec/Metrobank in caps-lower-case; DOJ/DTI/BPI all caps",
+    "Libel suit against CJ for verbatim SC decision quotation",
+    "Prosecutors' reconsideration + judge issued arrest warrant without 'personally' determining probable cause",
+    "Court of Appeals injunction + DOJ reversal of prosecutors",
+    "CJ's empathy with opinion-molders facing similar harassment",
+    "4,100-character space limit including spaces",
+    "12 years of 100% Sunday output, never missed",
+    "Advance writing for foreign travel + Christine Ang Buban as coordinator",
+    "Philippine Dispute Resolution Center (PDRC) -- only PH private arbitration outfit",
+    "CJ as chairman and chairman emeritus of PDRC",
+    "Permanent Court of Arbitration in The Hague -- one of only four Filipino members",
+    "Expert witness invitations in international arbitrations",
+    "CJ's refusal of all government re-entry offers"
+  ],
+  "signature_phrases": [
+    "Little did I know I would be embarking on new multiple careers",
+    "I find contentment and renewed vigor, mentally, socially and physically",
+    "I do not spoon-feed readers. Neither do I stupefy them with grand opinions and holier-than-thou sermons",
+    "I prefer to provide the background, the facts and the law",
+    "let them analyze, find their eureka moments and derive their own conclusions",
+    "the best way to be independent and responsible citizens",
+    "the harrowing sagas that befuddle courageous opinion-molders",
+    "my biggest challenge is how to be clear, concise and precise",
+    "I had to work back wearyingly and edit excess verbiage",
+    "without diminishing clarity or shortchanging facts, logic and truth",
+    "I have been 100 percent with my output. I have never missed a single Sunday",
+    "the only private arbitration outfit in our country",
+    "I have respectfully declined offers to rejoin the government"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Marixi R. Prieto (former Inquirer chair)",
+      "Christine Ang Buban (Inquirer coordinator)",
+      "CJ's family (Florida cruise) including grandchildren"
+    ],
+    "institutions": [
+      "Philippine Daily Inquirer",
+      "FEU Advocate (CJ's student-era reporting)",
+      "FEU Law Review (CJ's student-era managing editorship)",
+      "Court of Appeals (granted libel-case injunction)",
+      "Department of Justice (later reversed prosecutors)",
+      "Philippine Dispute Resolution Center (PDRC)",
+      "Permanent Court of Arbitration (The Hague)",
+      "Royal Caribbean Cruise Line",
+      "Disney World Florida"
+    ],
+    "cases": [
+      "Libel suit against CJ for SC verbatim quotation (CA injunction, DOJ reversal)"
+    ],
+    "laws_treaties": [
+      "Constitutional requirement that judge 'personally' determine probable cause before warrant"
+    ],
+    "events": [
+      "Dec 7, 2006 -- CJ's SC term end",
+      "Libel filing against CJ + arrest warrant + CA injunction + DOJ reversal",
+      "12 years of unbroken Sunday columns"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "CJ's editorial philosophy is to provide background, facts, and law -- then let readers analyze, find their eureka moments, and derive their own conclusions -- because reader self-derived conclusion is 'the best way to be independent and responsible citizens,' contrasting with spoon-feeding or grand-opinion preaching.",
+      "rhetorical_move": "anti-spoon-feeding philosophy explicit statement",
+      "confidence": "asserted as personal-editorial principle"
+    },
+    {
+      "claim": "The libel case against CJ -- despite his having quoted verbatim from a Supreme Court decision -- illustrates that even an obviously protected utterance can produce harrowing consequences when prosecutors refuse reconsideration and judges issue arrest warrants without personally determining probable cause, and CJ now empathizes with the courageous opinion-molders who face such harassment regularly.",
+      "rhetorical_move": "personal-experience-yields-empathy framing",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Twelve years of unbroken weekly column output (100% Sunday delivery, never missed even when abroad) is achievable through advance writing and a reliable coordinator (Christine Ang Buban) -- demonstrating that consistency is a function of system design, not just discipline.",
+      "rhetorical_move": "track-record disclosure with method-explanation",
+      "confidence": "asserted with concrete evidence"
+    },
+    {
+      "claim": "CJ's chairmanship of the Philippine Dispute Resolution Center (the only private arbitration outfit in PH) plus his membership as one of only four Filipino members of the Permanent Court of Arbitration in The Hague constitutes a substantial post-retirement contribution to PH international-arbitration capacity -- and is precisely the work CJ has chosen instead of rejoining government.",
+      "rhetorical_move": "career-path-as-deliberate-choice framing",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Marixi Prieto's initial three-times-a-week proposal and CJ's polite decline citing only student-era journalistic credentials (FEU Advocate, FEU Law Review) -- compromising at weekly -- capturing the negotiation that produced the column itself.",
+    "CJ's columns being printed while he was 'already in NYC' and the current installment being written before the family's Florida Disney World + Royal Caribbean Cruise trip -- embedding the column's writing schedule in family travel logistics.",
+    "The Inquirer style detail: 'abbreviations in this paper are capitalized only when they cannot be pronounced. Thus, Comelec and Metrobank are written in caps and lower case, but DOJ, DTI and BPI are written in caps only' -- a charmingly specific editorial style note.",
+    "The libel saga compressed into a single paragraph: 'I have been sued for libel despite my care in quoting verbatim from a Supreme Court decision. Nonetheless, the prosecutors, on reconsideration, still filed the case in court and the judge still issued a warrant of arrest without first taking sufficient time to personally determine probable cause as required by the Constitution and settled jurisprudence' -- the most institutionally-embarrassing single fact in CJ's retirement portrait, told without bitterness.",
+    "The 4,100-character constraint disclosure: 'I would write continuously and consume double the limit. Thereafter, I had to work back wearyingly and edit excess verbiage without diminishing clarity or shortchanging facts, logic and truth' -- capturing the craft labor invisible to readers.",
+    "12 years of 100% Sunday output 'never missed a single Sunday' -- the most consequential single-track-record disclosure in any of CJ's tenure-summary columns."
+  ],
+  "target_audience": [
+    "Inquirer regular readers wondering about CJ's column origins",
+    "Aspiring opinion writers and columnists",
+    "Lawyers and journalists who have faced libel suits",
+    "International arbitration practitioners",
+    "Retired professionals contemplating writing careers"
+  ],
+  "register_markers": [
+    "thanksgiving-retrospective register (advance-written for foreign-travel printing)",
+    "enumerated four-career structure (column writer, arbitrator, director, trustee)",
+    "anti-spoon-feeding philosophy explicit statement",
+    "Inquirer-style-rule disclosure (Comelec lowercase, DOJ uppercase)",
+    "libel-saga compression without bitterness",
+    "track-record disclosure (100% output, 12 years)",
+    "named-coordinator credit (Christine Ang Buban)",
+    "humble-decline marker ('respectfully declined offers to rejoin the government')",
+    "family-travel embedding (NYC, Florida, Disney World, Royal Caribbean)"
+  ],
+  "decision_framework_signals": [
+    "applies anti-spoon-feeding principle to column composition (background + facts + law, no sermons)",
+    "frames reader self-derivation as goal (independence and responsibility through eureka moments)",
+    "treats personal-experience harassment as basis for empathy with similarly-situated others",
+    "uses track-record evidence (100% output, 12 years) to validate consistency claims",
+    "deploys deliberate career-choice framing (chosen this, declined that) to explain post-retirement portfolio"
+  ],
+  "one_paragraph_summary": "Panganiban opens his Sunday column written in advance from before a Florida Disney World + Royal Caribbean Cruise family trip, thanksgiving-style, for the four new careers he embarked on after ending his SC term on Dec. 7, 2006: column writer, arbitrator/expert witness in international arbitrations, corporate director/adviser, and foundation trustee/officer. He recounts how former Inquirer chair Marixi R. Prieto initially asked for three columns per week, which he respectfully declined (citing only his student-era credentials as a fledgling FEU Advocate reporter and FEU Law Review managing editor) before compromising at weekly. He states his editorial philosophy: 'I do not spoon-feed readers. Neither do I stupefy them with grand opinions and holier-than-thou sermons. Rather, I prefer to provide the background, the facts and the law' -- letting readers 'analyze, find their eureka moments and derive their own conclusions' as 'the best way to be independent and responsible citizens.' He had to learn to google, double-check, and adjust to Inquirer style (Comelec/Metrobank in caps-lower-case but DOJ/DTI/BPI in caps only). He recounts being sued for libel despite quoting verbatim from a Supreme Court decision -- with prosecutors filing the case after reconsideration and a judge issuing an arrest warrant without personally determining probable cause as the Constitution requires -- and ultimately obtaining a Court of Appeals injunction and DOJ reversal, making him 'truly empathize' with courageous opinion-molders facing similar harassment. He notes his biggest writing challenge is the 4,100-character space limit ('I had to work back wearyingly and edit excess verbiage'), his 12-year 100% Sunday-output record, and his system of writing in advance and leaving copies with Inquirer coordinator Christine Ang Buban. On arbitration, he recounts becoming chairman (then chairman emeritus) of the Philippine Dispute Resolution Center -- the only PH private arbitration outfit -- and one of only four Filipino members of the Permanent Court of Arbitration in The Hague, while respectfully declining all offers to rejoin the government.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

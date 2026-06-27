@@ -1,0 +1,196 @@
+{
+  "id": "CA088",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 88,
+  "title": "Duties of lawyers",
+  "date": "2023-12-04",
+  "link": "https://opinion.inquirer.net/168718/duties-of-lawyers",
+  "keywords": [
+    "CPRA",
+    "Code of Professional Responsibility and Accountability",
+    "lawyer duties",
+    "independence",
+    "propriety",
+    "fidelity",
+    "competence",
+    "equality",
+    "accountability"
+  ],
+  "primary_topics": [
+    "Part 2 of CPRA series: the duties of lawyers across six canons",
+    "Canon I (Independence) and Canon II (Propriety)",
+    "Canon III (Fidelity) and conflict-of-interest provisions",
+    "Canon IV (Competence, diligence, commitment, skill)",
+    "Canon V (Equality) and non-discrimination",
+    "Canon VI (Accountability) with substantial-evidence standard",
+    "Ambulance-chasing prohibition and dignified-only legal advertising"
+  ],
+  "sub_topics": [
+    "Three duty groups: (1) independence/propriety; (2) fidelity; (3) competence/diligence/equality/accountability",
+    "Canon I -- act with integrity, rely on merits, no dishonest/immoral/external influences",
+    "Lawyer shall not allow client to dictate procedure, but shall respect settlement/compromise decisions after explaining consequences",
+    "Canon II -- no unlawful/dishonest/immoral/deceitful conduct",
+    "No physical/sexual/psychological/economic abuse or violence",
+    "Dignified, gender-fair, child- and culturally-sensitive language requirement",
+    "Law not a business -- PH prohibits ambulance-chasing and open hawking",
+    "Permissible advertising: dignified, verifiable, factual; no self-laudatory content",
+    "Prohibition on paying media practitioners or award-giving bodies for legal-representation attraction",
+    "Primary duty of public prosecutors: not to convict but to see that justice is done",
+    "Canon III -- lawyer-client relationship as conscious, voluntary, good-faith vesting",
+    "CJ's personal practice: decline to render advice on specific cases -- refer to competent lawyer, PAO, or IBP",
+    "Conflict-of-interest prohibition except by written informed consent of all concerned",
+    "No dating/romantic/sexual relations with client during engagement (unless preexisting)",
+    "PAO marginalized-sector access provision with limited conflict imputation",
+    "Canon IV -- competence, diligence, commitment, skill regardless of fee or pro bono status",
+    "Lifelong-learning requirement for lawyers in business or other professions",
+    "Canon V -- no client decline based on nationality/ethnicity/SOGI/religion/disability/age/marital/social/economic/political/guilt-opinion",
+    "Exceptions: justifiable reasons, conflict of interest, sixth-degree relation to adverse party, fourth-degree to adverse counsel",
+    "Canon VI -- accountability via confidential, summary process at SC and/or IBP",
+    "Complainant burden: substantial evidence (not proof beyond reasonable doubt)"
+  ],
+  "signature_phrases": [
+    "Last Monday, I took up the new 56-page Code of Professional Responsibility and Accountability (CPRA)",
+    "within my limited space, let me summarize their duties",
+    "(1) independence and propriety; (2) fidelity; and (3) competence, diligence, equality, and accountability",
+    "THE DUTY OF INDEPENDENCE (Canon I)",
+    "to act with integrity",
+    "merits of a cause",
+    "dishonest or immoral considerations, external influences, or pressure",
+    "shall not allow the client to dictate or determine the procedure",
+    "respect the client's decision to settle or compromise",
+    "Under their duty of propriety (Canon II)",
+    "shall not engage in unlawful, dishonest, immoral, or deceitful conduct",
+    "any form of physical, sexual, psychological, or economic abuse or violence",
+    "dignified, gender-fair, child- and culturally-sensitive language",
+    "The law profession is not a business",
+    "Unlike other countries, the Philippines does not allow 'ambulance-chasers'",
+    "dignified, verifiable, and factual information",
+    "In no case shall the permissible advertisement be self-laudatory",
+    "any media practitioner, award-giving body",
+    "The primary duty of public prosecutors 'is not to convict but to see that justice is done.'",
+    "UNDER THE DUTY OF FIDELITY (Canon III)",
+    "consciously, voluntarily and in good faith vests a lawyer with the client's confidence",
+    "This duty explains, in part, why I decline to render advice or opinion on specific problems or cases referred to me by my esteemed readers",
+    "I always ask them to consult a competent lawyer, or the Public Attorney's Office (PAO), or the Integrated Bar of the Philippines (IBP)",
+    "representing 'conflicting interest except by written informed consent of all concerned'",
+    "shall not have dating, romantic, or sexual relations with a client during the engagement",
+    "ensure ready access to its services by the marginalized sectors",
+    "UNDER CANON IV",
+    "fiduciary nature of the lawyer-client relationship",
+    "regardless of the nature of the legal matter or issues involved, and whether for a fee or pro bono",
+    "lifelong learning",
+    "Under Canon V on 'Equality'",
+    "or such lawyer's or the public's opinion regarding the guilt of said person",
+    "Neither can he or she refuse to represent an indigent",
+    "sixth degree",
+    "fourth degree",
+    "Canon VI details the causes to hold a lawyer accountable",
+    "confidential and summary process",
+    "substantial evidence",
+    "the amount of relevant evidence which a reasonable mind might accept as adequate to justify a conclusion",
+    "not proof beyond reasonable doubt as prescribed in criminal cases"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "His esteemed Inquirer readers (referred to as advice-seekers redirected to professional counsel)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Integrated Bar of the Philippines (IBP)",
+      "Public Attorney's Office (PAO)",
+      "Office of the Public Prosecutor / Public Prosecutors"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Code of Professional Responsibility and Accountability (CPRA, April 11, 2023) -- Canons I through VI",
+      "Old Code of Professional Responsibility (June 21, 1988, replaced by CPRA)"
+    ],
+    "events": [
+      "Nov 27, 2023 -- CJ's first CPRA column (Part 1)",
+      "April 11, 2023 -- SC adoption of CPRA",
+      "Nov 13, 2023 -- CJ's first Agbayani column"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The CPRA's six canons collapse into three duty-groups: (1) independence and propriety; (2) fidelity; and (3) competence, diligence, equality, and accountability -- a usable structural map for lay readers.",
+      "rhetorical_move": "structural-map simplification of six canons into three duty-groups",
+      "confidence": "asserted as pedagogical framing"
+    },
+    {
+      "claim": "Under independence (Canon I), lawyers must act with integrity on the merits and resist client procedural dictation -- though they must respect client decisions to settle or compromise after explaining consequences; under propriety (Canon II), they must avoid all unlawful/dishonest/immoral/deceitful conduct and all forms of abuse, and use dignified, gender-fair, child- and culturally-sensitive language.",
+      "rhetorical_move": "canon-summary-by-paraphrase plus selective verbatim",
+      "confidence": "asserted as faithful exposition"
+    },
+    {
+      "claim": "The law profession is not a business -- PH uniquely prohibits ambulance-chasing and open hawking; permissible advertising must be dignified, verifiable, factual, and non-self-laudatory; no payments to media practitioners or award-giving bodies to attract legal representation.",
+      "rhetorical_move": "PH-specific business-vs-profession boundary articulation",
+      "confidence": "asserted as definitional"
+    },
+    {
+      "claim": "Public prosecutors have a special duty under the CPRA: their primary duty 'is not to convict but to see that justice is done' -- a critical professional-identity formulation for prosecutorial restraint.",
+      "rhetorical_move": "verbatim canon-citation of a high-stakes-prosecutorial-duty principle",
+      "confidence": "asserted as principle"
+    },
+    {
+      "claim": "Under fidelity (Canon III), the lawyer-client relationship arises when the client consciously, voluntarily, and in good faith vests the lawyer with confidence -- this explains, in part, why CJ declines to render advice on specific cases referred by readers and always redirects them to a competent lawyer, the PAO, or the IBP.",
+      "rhetorical_move": "personal-practice-as-illustration of the canon",
+      "confidence": "asserted as self-disclosure"
+    },
+    {
+      "claim": "Equality (Canon V) prohibits client decline on grounds of nationality, ethnicity, sexual orientation or gender identity, religion, disability, age, marital status, social or economic status, political beliefs, or even the lawyer's or public's opinion regarding the guilt of the person -- and prohibits refusing indigents except for narrowly justifiable reasons (capacity, conflict, or close-degree relation).",
+      "rhetorical_move": "non-discrimination catalog with limited exceptions",
+      "confidence": "asserted as faithful exposition"
+    },
+    {
+      "claim": "Accountability (Canon VI) operates via confidential, summary process at the SC and/or IBP, with the complainant bearing the burden of substantial evidence -- 'the amount of relevant evidence which a reasonable mind might accept as adequate to justify a conclusion' -- not proof beyond reasonable doubt.",
+      "rhetorical_move": "evidentiary-standard clarification for disciplinary cases",
+      "confidence": "asserted as definitional"
+    }
+  ],
+  "notable_anecdotes": [
+    "The CJ-declines-to-render-advice self-disclosure -- 'This duty explains, in part, why I decline to render advice or opinion on specific problems or cases referred to me by my esteemed readers. I always ask them to consult a competent lawyer, or the Public Attorney's Office (PAO), or the Integrated Bar of the Philippines (IBP).' -- using a CPRA canon to explain CJ's own column policy.",
+    "The PH-exceptionalist business-vs-profession framing -- 'Unlike other countries, the Philippines does not allow ambulance-chasers or the open selling/hawking of services' -- flagging the cultural-legal divergence from US-style legal marketing.",
+    "The public-prosecutor's principle -- 'is not to convict but to see that justice is done' -- a single-sentence canon quote that captures the prosecutorial-restraint ethic.",
+    "The lawyer-client romantic-relations prohibition -- 'shall not have dating, romantic, or sexual relations with a client during the engagement, unless the consensual relationship existed between them before the lawyer-client relationship commenced' -- surfaced as the most explicit personal-conduct CPRA rule.",
+    "The PAO marginalized-sector conflict-imputation rule -- that PAO conflicts impute only to the lawyer directly handling and the supervisor, not disqualifying the rest of PAO -- a structural design to keep marginalized parties from being unrepresented.",
+    "The substantial-evidence standard for disciplinary cases -- 'the amount of relevant evidence which a reasonable mind might accept as adequate to justify a conclusion' -- explicitly distinguished from criminal proof beyond reasonable doubt."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Practicing lawyers and bar members (CPRA target audience)",
+    "Law students learning the new Code",
+    "Public prosecutors and PAO lawyers",
+    "Bar disciplinary committees and IBP officers",
+    "Civic-minded Filipinos who consult lawyers",
+    "CJ's column readers seeking legal advice (redirected audience)"
+  ],
+  "register_markers": [
+    "ALL-CAPS canon-section openings ('THE DUTY OF INDEPENDENCE (Canon I),' 'UNDER THE DUTY OF FIDELITY (Canon III),' 'UNDER CANON IV')",
+    "Verbatim canon-paragraph block quotation",
+    "Numbered duty-group structure (1, 2, 3)",
+    "Self-disclosure of personal column-policy (declining specific-case advice)",
+    "PH-vs-other-countries comparative framing on ambulance-chasing",
+    "Procedural-Latin density ('pro bono,' 'sui generis' implicit)",
+    "Canon-by-canon sequential exposition",
+    "Verbatim definition citation ('substantial evidence' definition)",
+    "'within my limited space' as space-constraint marker",
+    "Doctrinal-administrative register suitable for bar-and-law-school audience"
+  ],
+  "decision_framework_signals": [
+    "uses three-duty-group simplification to make six canons accessible to lay readers",
+    "treats public-prosecutor's primary duty ('see that justice is done') as the canonical prosecutorial-restraint principle",
+    "applies fidelity canon to justify CJ's personal practice of redirecting reader-advice requests to PAO/IBP/competent counsel",
+    "deploys PH-specific business-vs-profession boundary to distinguish from US-style legal advertising",
+    "uses substantial-evidence standard (not beyond-reasonable-doubt) as the canonical disciplinary-cases evidentiary level",
+    "treats romantic-relations prohibition as the most explicit personal-conduct rule needing public articulation",
+    "preserves marginalized-sector access (PAO conflict-limited-imputation) as a structural design principle",
+    "uses non-discrimination catalog (sexual orientation/gender identity, religion, disability, etc.) as the operative equality test"
+  ],
+  "one_paragraph_summary": "Continuing his CPRA series, Panganiban summarizes the duties of lawyers under the new 56-page Code, simplifying its six canons into three duty groups: (1) independence and propriety; (2) fidelity; and (3) competence, diligence, equality, and accountability. Under independence (Canon I), lawyers must act with integrity and rely solely on the merits, not allowing the client to dictate procedure while still respecting the client's decision to settle or compromise after explaining consequences. Under propriety (Canon II), lawyers shall not engage in unlawful, dishonest, immoral, or deceitful conduct, nor in physical, sexual, psychological, or economic abuse, and must use dignified, gender-fair, child- and culturally-sensitive language. The law profession is not a business -- PH, unlike other countries, does not allow 'ambulance-chasers' or open hawking; advertising must be dignified, verifiable, factual, and non-self-laudatory, with no payments to media practitioners or award-giving bodies. The primary duty of public prosecutors 'is not to convict but to see that justice is done.' Under fidelity (Canon III), the lawyer-client relationship arises when the client consciously, voluntarily, and in good faith vests the lawyer with confidence -- which explains, in part, why CJ declines to render advice on specific cases referred by readers and always redirects them to a competent lawyer, the PAO, or the IBP. Fidelity prohibits representing conflicting interests except with all concerned parties' written informed consent and prohibits dating/romantic/sexual relations with a client during engagement (unless preexisting). PAO's marginalized-sector access is protected by limiting conflict imputation to the lawyer directly handling and the supervisor only. Under Canon IV, lawyers must observe competence, diligence, commitment, and skill regardless of fee or pro bono status, with lifelong learning required even when engaged in another profession or business. Under Canon V on equality, a lawyer cannot decline a client based on nationality, ethnicity, sexual orientation or gender identity, religion, disability, age, marital or social or economic status, political beliefs, or even the lawyer's or public's opinion on the person's guilt, with narrowly defined exceptions (capacity, conflict, sixth-degree relation to adverse party, fourth-degree to adverse counsel). Canon VI provides for accountability via confidential, summary process at the SC and/or IBP, with the complainant bearing the burden of substantial evidence -- 'the amount of relevant evidence which a reasonable mind might accept as adequate to justify a conclusion' -- not proof beyond reasonable doubt.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

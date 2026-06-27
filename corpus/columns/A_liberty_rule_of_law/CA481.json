@@ -1,0 +1,118 @@
+{
+  "id": "CA481",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 481,
+  "title": "Maguindanao massacre, still a long wait",
+  "date": "2012-10-13",
+  "link": "https://opinion.inquirer.net/38698/maguindanao-massacre-still-a-long-wait",
+  "keywords": [
+    "Maguindanao massacre",
+    "Ampatuan trial",
+    "Andal Ampatuan Jr.",
+    "Judge Jocelyn Solis-Reyes",
+    "bail petitions",
+    "prosecution evidence",
+    "certiorari delays",
+    "Aristotelian syllogism"
+  ],
+  "primary_topics": [
+    "The state of the Maguindanao massacre trial three years after the November 23, 2009 killings -- still far from completion",
+    "The multiplicity of accused, defense lawyers, and procedural complications as the structural reasons for the delay",
+    "The difficult realities of the prosecution -- witness transport, interpretation, protection, and the 292 witnesses of whom only 98 have testified"
+  ],
+  "sub_topics": [
+    "Nov. 23, 2009: 58 civilians gunned down, abused, and back-hoed in Ampatuan, Maguindanao",
+    "196 suspects indicted; only 98 arrested; only 78 arraigned; all detained (capital offenses)",
+    "More than 20 sets of lawyers retained",
+    "56 bail petitions pending -- each opposed, heard; witnesses recalled with each new arrest",
+    "Defense tactics: certiorari petitions contesting interlocutory rulings; motions re state witnesses, evidence timing, witness non-exclusion, probable cause re-determination",
+    "Judge Jocelyn Solis-Reyes: courageous, patient, competent, upright; relieved of all other loads; Mon: motions; Tue: prosecution complaints; rest of week: bail petitions and evidence in chief",
+    "Lead prosecutor changed twice; prosecution finished bail evidence for Andal Ampatuan Jr. but must still present main case evidence",
+    "292 prosecution witnesses; only 98 called so far",
+    "Witness transport from Maguindanao to Quezon City; interpretation; persuading vulnerable witnesses",
+    "Time warping justice: witnesses forget, lose interest, become prey to corruption or killing; documents misplaced",
+    "Accused rights: detained, deserve speedy justice; presumption of innocence; specific participation must be proven beyond reasonable doubt"
+  ],
+  "signature_phrases": [
+    "58 civilians--mostly media members--were gunned down, abused and back-hoed",
+    "Time has a way of warping justice",
+    "witnesses forget or lose interest, or become easy prey to corruption, undue influence and even to killing",
+    "the accused are detained and deserve speedy justice, too",
+    "These monumental cases will test our faith in the rule of law and in assuring justice even though the heavens may fall",
+    "despite being devoted and well-meaning, the judge cannot push the cases faster without the cooperation of the parties and without violating due process"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Former Maguindanao Gov. Andal Ampatuan (patriarch, lead indictee)",
+      "Andal Ampatuan Jr. (principal accused)",
+      "Judge Jocelyn Solis-Reyes (presiding judge)"
+    ],
+    "institutions": [
+      "Department of Justice (prosecution, two lead prosecutor changes)",
+      "Court of Appeals",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "Maguindanao massacre cases (196 accused, 98 arrested, 78 arraigned, 56 bail petitions, 292 witnesses, 98 testified)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- due process, presumption of innocence, right to confront witnesses",
+      "Rules of Court -- certiorari, bail, state witness"
+    ],
+    "events": [
+      "Nov. 23, 2009 -- Maguindanao massacre (58 killed)",
+      "Three years later (Oct. 2012) -- still in bail hearing phase",
+      "Lead prosecutor changed twice"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Maguindanao massacre trial will take many more years because of structural causes beyond any single actor control: 196 accused, over 20 sets of lawyers, 56 bail petitions, defense certiorari petitions, and 292 witnesses of whom only 98 have testified -- yet due process requires proof of each accused specific participation.",
+      "rhetorical_move": "structural-complexity-analysis as explanation (not excuse) for delay",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Time is the prosecution enemy: witnesses forget, lose interest, become prey to corruption, undue influence or killing, and documents can be misplaced or destroyed -- making urgency a matter of justice preservation.",
+      "rhetorical_move": "time-warps-justice framing to create urgency",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The accused are also entitled to speedy justice -- they are detained, presumed innocent, and entitled to have the prosecution prove beyond reasonable doubt their specific participation. Delay harms both sides.",
+      "rhetorical_move": "accused-rights-as-pro-speed argument (detention without judgment is also injustice)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The back-hoed description of the massacre -- not just gunned down but physically buried by a backhoe -- the most viscerally specific detail CJ includes without editorial comment.",
+    "Judge Solis-Reyes weekly schedule dedicated entirely to the Maguindanao cases: Mondays for motions, Tuesdays for prosecution complaints, rest of week for bail petitions and evidence -- a vivid portrait of judicial total devotion to one case.",
+    "The prosecution logistical realities: transporting witnesses from Maguindanao to Quezon City, using interpreters (most witnesses speak neither English nor Filipino), and persuading them to testify given their families vulnerability."
+  ],
+  "target_audience": [
+    "Civic readers following the Maguindanao massacre cases",
+    "Legal practitioners and criminal procedure scholars",
+    "Victims families and human rights advocates",
+    "Media members whose colleagues were among the 58 killed"
+  ],
+  "register_markers": [
+    "serialized-column link (from last Sunday column)",
+    "structural-complexity-analysis register (numbers-driven: 196 indicted, 98 arrested, 78 arraigned, 56 bail petitions, 292 witnesses, 98 testified)",
+    "back-hoed as the most visceral detail preserved verbatim",
+    "time-warps-justice framing",
+    "judge-portrait register (Solis-Reyes weekly schedule)",
+    "prosecution-logistics-challenge register (transport, interpretation, persuasion)",
+    "justice-even-though-heavens-fall closing valediction"
+  ],
+  "decision_framework_signals": [
+    "applies structural-complexity-analysis to explain systemic delay",
+    "uses time-warps-justice argument to create institutional urgency",
+    "treats accused-rights-as-pro-speed principle to show delay harms both sides",
+    "applies specific-participation-proof requirement as the constitutional bar for each of 196 accused",
+    "frames the case as a test of faith in the rule of law"
+  ],
+  "one_paragraph_summary": "Panganiban continues from his previous column on judicial decision-making to examine the state of the Maguindanao massacre cases three years after the November 23, 2009 atrocity in which 58 civilians -- mostly media members -- were 'gunned down, abused and back-hoed' in Ampatuan, Maguindanao. The DOJ indicted 196 suspects led by former Gov. Andal Ampatuan; only 98 have been arrested, only 78 arraigned, all detained as the charges are capital offenses. With over 20 sets of lawyers retained, there are 56 bail petitions pending -- each opposed by prosecution, each requiring hearings where witnesses are re-examined anew for each new accused. Defense lawyers file certiorari petitions challenging interlocutory orders, suspending proceedings. Judge Jocelyn Solis-Reyes -- courageous, patient, competent, and upright -- has been fully relieved of her other caseload. The prosecution has changed lead prosecutors twice, just finished presenting its evidence opposing bail of Andal Ampatuan Jr., and must still present its main case evidence from 292 witnesses -- of whom only 98 have testified. The prosecution must transport witnesses from Maguindanao to Quezon City, use interpreters (most speak neither English nor Filipino), and persuade them to testify despite their families' vulnerability. CJ warns: 'Time has a way of warping justice' -- witnesses forget, disappear, or are corrupted or killed. But the accused, all detained, also deserve speedy justice. These monumental cases will take many more years and will test 'our faith in the rule of law.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

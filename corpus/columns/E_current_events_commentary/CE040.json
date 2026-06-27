@@ -1,0 +1,216 @@
+{
+  "id": "CE040",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 40,
+  "title": "Dynasties, for good or for evil",
+  "date": "2022-08-01",
+  "link": "https://opinion.inquirer.net/155621/dynasties-for-good-or-for-evil",
+  "keywords": [
+    "political dynasties",
+    "Article II Section 26",
+    "Marcos-Romualdez",
+    "presidential dynasts",
+    "Cayetano Binay Gatchalian Estrada clans",
+    "US dynasties Clinton Kennedy Bush",
+    "congressional definition"
+  ],
+  "primary_topics": [
+    "PBBM SONA prompting renewed talk of dynastic politics",
+    "Marcos-Romualdez and other Philippine political dynasties past and present",
+    "Article II, Section 26's anti-dynasty policy that Congress has failed to define by law",
+    "Definitional questions Congress must answer to make the ban enforceable",
+    "US political clans (Clintons, Kennedys, Bushes) as international comparators",
+    "Dynasties as morally neutral institutions to be regulated, not banned absolutely"
+  ],
+  "sub_topics": [
+    "Martin G. Romualdez (senior deputy majority leader); Sandro Marcos (neophyte rep); Senator Imee Marcos",
+    "Macapagal-Arroyo / Diosdado / Mikey; Aquino dynasties (PNoy, Butz, Tessie, Bam); Duterte clan (Rodrigo, Sara as VP potential)",
+    "Failed presidential aspirants of dynasties: Gerry Roxas, Serging Osmeña Jr., Gene Magsaysay",
+    "Carlos P. Garcia and FVR as the only post-WWII presidents who did not sire a presidentiable",
+    "Jovito R. Salonga's family ban on political offices",
+    "Dynasties with clout but not yet the presidency: Cayetanos (Alan, Pia, Lani), Estradas (Jinggoy, JV), Binays (Nancy, Abby, Jojo, Elenita), Gatchalians (Sherwin, Rex, Wes)",
+    "Article II, Section 26: 'The State shall... prohibit political dynasties as may be defined by law' -- state policy, not self-executing",
+    "Definitional questions: who counts as relatives (ascendants/descendants vs collateral; blood vs affinity; legitimate vs illegitimate; full-blood vs half-blood vs adopted)",
+    "Office coverage: elective vs appointive; national vs LGU vs barangay; same office or across offices",
+    "Geographical and temporal limits: same province/city/town; same election vs future elections; succession of term-limited officials",
+    "US examples: Clintons (Bill, Hillary), Kennedys (Jack, Bobby, Edward), Bushes (Sr., Jr., Jeb) -- US Constitution does not ban dynasties",
+    "Genes-and-environment argument for political continuity",
+    "Neutral-tool framing -- like electricity, mining, guns -- dynasties are not evil per se"
+  ],
+  "signature_phrases": [
+    "Though laudably simple, traditional, and elegant",
+    "evoked talks of dynastic politics yet again",
+    "THE BUZZ WAS, OF COURSE, CENTERED ON THE MARCOS-ROMUALDEZ FAMILY",
+    "the next gen's president-in-waiting",
+    "in the small House is another powerful clan member",
+    "To be fair, the dynasts preceded the Marcoses",
+    "Riding on the Aquino brand",
+    "Aspiring close relatives who however failed to land the plum post",
+    "of the post-WWII presidents, only Carlos P. Garcia and Fidel V. Ramos did not sire a presidentiable",
+    "former Senate president Jovito R. Salonga banned his relatives from becoming public servants",
+    "OTHER POLITICAL DYNASTIES MAY NOT HAVE CAPTURED THE PRESIDENCY YET, but they certainly have attained enough clout to capture it",
+    "our political firmament is littered with many political stars",
+    "luminous and not-so-luminous",
+    "Many of them produced some of our brightest leaders, some the darkest",
+    "Are dynasties to be absolutely banned?",
+    "the bare ban is neither absolute nor enforceable by judicial action",
+    "VOCALLY, MOST POLITICIANS ARE AGAINST DYNASTIES",
+    "After all, who would not be against a constitutional policy",
+    "the devil is in the details",
+    "Genes and environment play a great part",
+    "they inherit names familiar to the electorate",
+    "the US Constitution does not ban dynasties",
+    "dynasty is not necessarily evil",
+    "many institutions and inventions, like electricity, mining, guns, and political dynasties are not evil per se",
+    "They are in themselves neutral",
+    "To define and regulate dynasties so they can be used only for good, and not for evil, is the challenge to Congress"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Ferdinand 'Bongbong' Marcos Jr. (PBBM)",
+      "Martin G. Romualdez",
+      "Ferdinand Alexander 'Sandro' A. Marcos III",
+      "Imee Marcos",
+      "Gloria Macapagal Arroyo",
+      "Diosdado Macapagal",
+      "Mikey Macapagal Arroyo",
+      "Benigno S. Aquino III (PNoy)",
+      "Corazon C. Aquino",
+      "Benigno 'Ninoy' Aquino Jr.",
+      "Butz, Tessie, Bam Aquino",
+      "Sara Z. Duterte",
+      "Rodrigo R. Duterte",
+      "Gerry Roxas",
+      "Manuel A. Roxas (President)",
+      "Serging Osmeña Jr.",
+      "Sergio Osmeña Sr. (President)",
+      "Gene Magsaysay",
+      "Ramon Magsaysay (President)",
+      "Carlos P. Garcia (President)",
+      "Fidel V. Ramos (President)",
+      "Jovito R. Salonga",
+      "Alan Cayetano",
+      "Pia Cayetano",
+      "Lani Cayetano (Taguig Mayor)",
+      "Rene Cayetano (Senator, deceased)",
+      "Jinggoy Estrada",
+      "JV Ejercito",
+      "Joseph Estrada (President)",
+      "Nancy Binay",
+      "Abby Binay (Makati Mayor)",
+      "Jejomar 'Jojo' Binay (former VP)",
+      "Elenita Binay (former Makati Mayor)",
+      "Sherwin Gatchalian (Senator)",
+      "Rex Gatchalian (Representative)",
+      "Wes Gatchalian (Valenzuela Mayor)",
+      "Bill Clinton",
+      "Hillary Clinton",
+      "John F. Kennedy",
+      "Robert F. Kennedy",
+      "Edward Kennedy",
+      "George H. W. Bush",
+      "George W. Bush",
+      "Jeb Bush"
+    ],
+    "institutions": [
+      "Philippine Senate",
+      "Philippine House of Representatives",
+      "Office of the President (Philippines)",
+      "Office of the Vice President (Philippines)",
+      "US Senate (referenced for Hillary Clinton, Kennedys)",
+      "Florida governorship (Jeb Bush)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Philippine Constitution, Article II, Section 26 (anti-dynasty policy)",
+      "US Constitution (does not ban dynasties -- comparison)"
+    ],
+    "events": [
+      "PBBM's State of the Nation Address",
+      "Decades of Philippine dynastic political careers"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Although laudably simple, traditional, and elegant, PBBM's SONA evoked talks of dynastic politics yet again -- centered on the Marcos-Romualdez family but extending to many other clans both currently in office and historically.",
+      "rhetorical_move": "current-event-as-frame opening",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "To be fair, the dynasts preceded the Marcoses -- Macapagals, Aquinos, Roxases, Osmeñas, Magsaysays, and Dutertes -- with only Carlos P. Garcia and Fidel V. Ramos among post-WWII presidents not siring a presidentiable, and Jovito R. Salonga uniquely banning his own relatives from public service.",
+      "rhetorical_move": "historical-fairness inventory",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Other dynasties with significant clout but not yet the presidency include the Cayetanos, Estradas, Binays, and Gatchalians -- illustrating that the system produces both 'our brightest leaders' and 'the darkest.'",
+      "rhetorical_move": "current-roster inventory",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Article II, Section 26 frowns on dynasties as a state policy but the bare ban is neither absolute nor enforceable by judicial action because Congress has failed to enact the definitional implementing law.",
+      "rhetorical_move": "constitutional-policy-vs-self-execution distinction",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Vocally most politicians are against dynasties -- but the devil is in the details: who counts as relatives (direct vs collateral; blood vs affinity; legitimate vs illegitimate; full-blood vs half-blood vs adopted); what offices are included (elective vs appointive; national vs LGU vs barangay; same office or across); what geographical and temporal limits apply (same province/city/town; same election or future elections; succession of term-limited officials).",
+      "rhetorical_move": "definitional-question enumeration",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Political dynasties are not unique to the Philippines -- the Clintons, Kennedys, and Bushes show that the US has its own dynasties; notably, the US Constitution does not ban them.",
+      "rhetorical_move": "international-comparison framing",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Like electricity, mining, and guns, political dynasties are not evil per se -- they are 'in themselves neutral' and can be used for good or for ill depending on how they are defined, regulated, and used; the challenge to Congress is to define and regulate them so they serve good ends.",
+      "rhetorical_move": "neutral-tool framing close with congressional charge",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Salonga family ban -- 'former Senate president Jovito R. Salonga banned his relatives from becoming public servants' -- invoked as a uniquely principled counterexample to the otherwise universal Philippine pattern; this is also CJ's own former law-dean and 'lifelong guru,' adding personal weight to the anecdote.",
+    "The Garcia-and-FVR exception -- 'of the post-WWII presidents, only Carlos P. Garcia and Fidel V. Ramos did not sire a presidentiable' -- a single observation collapsing the dynastic norm into a stark statistical reality.",
+    "The 'luminous and not-so-luminous' star metaphor -- 'our political firmament is littered with many political stars, luminous and not-so-luminous. Many of them produced some of our brightest leaders, some the darkest' -- one of CJ's most balanced verdicts on the dynastic record, refusing to demonize wholesale.",
+    "The neutral-tool framing comparison -- placing dynasties alongside electricity, mining, and guns as morally neutral institutions whose worth depends on use -- a quintessentially CJ-style refusal to indulge categorical bans.",
+    "The US-Constitution-silent observation -- 'the US Constitution does not ban dynasties' -- a quiet international-comparison that destabilizes the assumption that an anti-dynasty regime is the only liberal-democratic choice.",
+    "The extensive definitional-question catalogue -- six interrogative clauses on relative-categories, three on office-coverage, three on geographical-temporal limits -- modeling the legislative-drafting burden Congress would face if it tried to legislate."
+  ],
+  "target_audience": [
+    "Members of Congress drafting or debating anti-dynasty legislation",
+    "Constitutional-law and political-science scholars",
+    "Civil-society groups advocating anti-dynasty reform",
+    "Voters considering dynastic candidates",
+    "Inquirer general readership",
+    "Filipino observers of US politics",
+    "FLP donors interested in CJ's commentary on dynastic restoration"
+  ],
+  "register_markers": [
+    "current-event-as-frame opening (PBBM SONA)",
+    "ALL-CAPS section openers ('THE BUZZ WAS, OF COURSE, CENTERED ON THE MARCOS-ROMUALDEZ FAMILY,' 'OTHER POLITICAL DYNASTIES MAY NOT HAVE CAPTURED THE PRESIDENCY YET,' 'VOCALLY, MOST POLITICIANS ARE AGAINST DYNASTIES')",
+    "extensive named-clan inventory across multiple generations",
+    "constitutional-text quotation",
+    "definitional-question cascade (interrogative paragraphs)",
+    "international-comparison framing (US dynasties)",
+    "neutral-tool analogy (electricity, mining, guns)",
+    "'devil is in the details' aphorism",
+    "no Tagalog markers; political-science English register",
+    "'luminous and not-so-luminous' metaphor",
+    "closing congressional-charge framing"
+  ],
+  "decision_framework_signals": [
+    "applies the historical-fairness inventory pattern (dynasties precede the Marcoses)",
+    "uses the constitutional-policy-vs-self-execution distinction (Article II, Section 26 needs implementing law)",
+    "applies definitional-question cascade as the legislative-drafting roadmap",
+    "uses international-comparison (US Constitution silence) to destabilize categorical anti-dynasty intuition",
+    "applies the neutral-tool framing (electricity, mining, guns) to refuse moralizing bans",
+    "treats genes-and-environment as a legitimate political-continuity factor without endorsing dynastic privilege",
+    "uses the 'luminous and not-so-luminous' balanced verdict as the empirical record",
+    "applies the 'define, regulate, and use for good not evil' formulation as the operative policy charge"
+  ],
+  "one_paragraph_summary": "PBBM's laudably simple, traditional, and elegant State of the Nation Address evoked renewed talks of dynastic politics -- centered on the Marcos-Romualdez family (Speaker Martin G. Romualdez as senior deputy majority leader, neophyte Rep. Sandro Marcos as next-gen president-in-waiting, Senator Imee Marcos in the small House) but extending across generations and parties. To be fair, the dynasts preceded the Marcoses: Gloria Macapagal Arroyo (daughter of Diosdado, mother of Mikey); the Aquinos (Benigno III, son of Corazon and Benigno Jr.); Roxas, Osmeña, and Magsaysay aspirants who fell short; and the Dutertes (with Sara possibly succeeding her father). Of post-WWII presidents, only Carlos P. Garcia and Fidel V. Ramos did not sire a presidentiable, while Jovito R. Salonga uniquely banned his own relatives from public service. Other clans with significant clout but no presidency yet -- the Cayetanos, Estradas, Binays, Gatchalians -- litter a political firmament that has produced both 'our brightest leaders' and 'the darkest.' Article II, Section 26 of the Constitution frowns on dynasties as state policy but the ban is neither absolute nor judicially enforceable because Congress has failed to enact the implementing law that would define the ban's scope. The devil is in the details: who counts as relatives (direct ascendant/descendant vs collateral; blood vs affinity; legitimate vs illegitimate; full-blood vs half-blood vs adopted), what offices are covered (elective vs appointive; national vs LGU vs barangay; same office or across), and what geographical and temporal limits apply (same province/city/town; same election or future elections; succession of term-limited officials). Comparing internationally -- the Clintons, Kennedys, and Bushes -- Panganiban notes that the US Constitution does not ban dynasties. He concludes that political dynasties, like electricity, mining, and guns, are 'in themselves neutral' -- neither evil per se nor good per se -- and that to define and regulate them 'so they can be used only for good, and not for evil, is the challenge to Congress.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

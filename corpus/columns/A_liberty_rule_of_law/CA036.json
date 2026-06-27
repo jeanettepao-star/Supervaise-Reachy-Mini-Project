@@ -1,0 +1,131 @@
+{
+  "id": "CA036",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 36,
+  "title": "SC disciplines appellate, trial magistrates",
+  "date": "2025-08-04",
+  "link": "https://opinion.inquirer.net/185127/sc-disciplines-appellate-trial-magistrates",
+  "keywords": [
+    "Konektadong Pinoy",
+    "Article XII Section 17",
+    "equal protection",
+    "technological neutrality",
+    "digital divide"
+  ],
+  "primary_topics": [
+    "Constitutional review of the Konektadong Pinoy bill",
+    "National emergency takeover powers",
+    "Equal protection and regulatory parity"
+  ],
+  "sub_topics": [
+    "Definition and stakes of 'connectivity'",
+    "Praise for the noble intent of narrowing the digital divide",
+    "Article XII, Section 17 -- state takeover of public utilities in emergencies",
+    "Foreign satellite operators without local physical infrastructure",
+    "Russia-Ukraine war precedent on satellite-internet sovereignty risk",
+    "Section 14 preferential treatment for satellite operators",
+    "Article III, Section 1 equal protection -- substantial-distinction test",
+    "Section 19 self-contradicting technological-neutrality clause",
+    "Disclosure of author's PLDT independent directorship"
+  ],
+  "signature_phrases": [
+    "nobly intended",
+    "constitutional prudence counsels against such a gamble",
+    "narrowing of the digital divide",
+    "the constitutional safeguard becomes ineffective",
+    "ceremonial, not functional",
+    "data arteries",
+    "constitutionally abhorrent",
+    "the steady compass of constitutional order",
+    "(To be continued next Monday.)"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, independent director of PLDT -- disclosed)"
+    ],
+    "institutions": [
+      "Congress of the Philippines",
+      "Supreme Court of the Philippines",
+      "PLDT (disclosure)",
+      "Foreign satellite-internet providers (unnamed)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Konektadong Pinoy (KP) bill",
+      "1987 Constitution, Article XII, Section 17 (state takeover in national emergency)",
+      "1987 Constitution, Article III, Section 1 (Equal Protection Clause)",
+      "KP Section 14 (satellite-operator direct interconnection)",
+      "KP Section 19 (technological neutrality)"
+    ],
+    "events": [
+      "Congressional passage of the KP bill",
+      "Russia-Ukraine war -- threatened satellite-internet cutoff to Ukraine"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The KP bill is nobly aimed at narrowing the digital divide and should be commended for that intent.",
+      "rhetorical_move": "opening concession to disarm before critique",
+      "confidence": "high"
+    },
+    {
+      "claim": "As presently worded, the KP will not pass constitutional scrutiny and should be revised to avoid being struck down by the Supreme Court.",
+      "rhetorical_move": "thesis statement framed as cautionary prediction",
+      "confidence": "high"
+    },
+    {
+      "claim": "Allowing foreign-based satellite operators to serve the Philippines without local physical infrastructure renders Article XII, Section 17's emergency-takeover power ceremonial rather than functional.",
+      "rhetorical_move": "constitutional-function argument grounded in the Ukraine precedent",
+      "confidence": "high"
+    },
+    {
+      "claim": "Section 14's preferential treatment of satellite operators violates the Equal Protection Clause because satellite and terrestrial entities perform the same essential function of delivering data services.",
+      "rhetorical_move": "substantial-distinction test applied to a specific section",
+      "confidence": "high"
+    },
+    {
+      "claim": "Section 19 is internally self-contradicting -- it proclaims technological neutrality while its own provisions favor satellite delivery over terrestrial, making it 'constitutionally abhorrent.'",
+      "rhetorical_move": "self-inconsistency exposure",
+      "confidence": "high"
+    },
+    {
+      "claim": "Reform of telecommunications access and competition is necessary but must remain within constitutional bounds.",
+      "rhetorical_move": "balanced restatement of position for closing",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Early-2025 Russia-Ukraine war episode in which Ukraine's access to satellite internet from a foreign provider was threatened with cutoff unless certain political conditions were met -- used as the column's living parable of sovereignty risk.",
+    "Author's transparency disclosure: 'Though I am an independent director of PLDT, I pen this piece as an objective opinion writer.'",
+    "Rhetorical question 'Should the Philippines entrust its data arteries to entities that will not answer to its courts or be subject to its directives in times of national need?'"
+  ],
+  "target_audience": [
+    "Members of Congress responsible for KP's final form",
+    "Office of the President considering signing or vetoing the bill",
+    "Telecommunications-industry stakeholders (PTEs, satellite operators)",
+    "Constitutional law scholars and digital-policy analysts",
+    "Civic-minded readers concerned with national sovereignty"
+  ],
+  "register_markers": [
+    "ALL-CAPS section markers ('FIRST', 'SECOND', 'THIRD') to structure long-form argument",
+    "Formal constitutional-law vocabulary with full article-and-section citations",
+    "Geopolitical example as illustrative anchor",
+    "Reverent treatment of constitutional safeguards ('the steady compass of constitutional order')",
+    "Italicized rhetorical questions",
+    "Mandatory disclosure parenthetical at the end",
+    "Continuation marker '(To be continued next Monday.)'"
+  ],
+  "decision_framework_signals": [
+    "Praise legitimate aims before critiquing means -- preserves credibility of opposition",
+    "Test any new regulatory regime against the constitutional safeguards it must coexist with (Article XII, Section 17; Article III, Section 1)",
+    "Require foreign providers of critical infrastructure to maintain local physical or operational presence so the state's emergency powers remain functional",
+    "Apply the substantial-distinction test to classifications: same essential function = no exemption from common regulatory burdens",
+    "Internal-consistency check: a clause cannot proclaim a principle (neutrality) while contradicting it elsewhere",
+    "Disclose conflicts of interest in good faith but write the analysis on legal merits regardless"
+  ],
+  "one_paragraph_summary": "Panganiban opens Part 1 of a two-part critique of the Konektadong Pinoy (KP) bill by defining connectivity as the seamless capacity to exchange voice and data via Wi-Fi, internet, and similar facilities, and respectfully commending Congress for trying to narrow the digital divide for rural and far-flung Filipinos. He warns, however, that the bill as worded will not survive constitutional scrutiny and raises three issues. First, allowing foreign satellite operators to serve the Philippines without local physical infrastructure makes the state's Article XII, Section 17 power to take over public utilities in national emergencies ceremonial rather than functional -- a danger he illustrates with the early-2025 Russia-Ukraine episode in which Ukraine's satellite-internet access was threatened with cutoff unless political conditions were met. Second, Section 14's preferential treatment of satellite operators (direct broadband interconnection and spectrum use without partnering with local PTEs) violates the Equal Protection Clause of Article III, Section 1, because satellite and terrestrial entities perform the same essential function of delivering data services and there is no substantial distinction justifying the regulatory carve-out. Third, Section 19 self-contradicts: it proclaims technological neutrality while its own provisions favor one delivery platform over another, an inconsistency he calls 'constitutionally abhorrent.' He closes by reiterating that reform is needed but must remain within constitutional bounds, discloses his independent directorship at PLDT, and signals a continuation the following Monday.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

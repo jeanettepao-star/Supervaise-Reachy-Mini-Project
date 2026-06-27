@@ -1,0 +1,143 @@
+{
+  "id": "CE027",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 27,
+  "title": "Investigating heinous flood control scams",
+  "date": "2025-09-08",
+  "link": "https://opinion.inquirer.net/185920/investigating-heinous-flood-control-scams",
+  "keywords": [
+    "flood control scams",
+    "aid of legislation",
+    "probable cause",
+    "Ombudsman investigation",
+    "existing laws sufficient"
+  ],
+  "primary_topics": [
+    "Anti-corruption enforcement",
+    "Legislative investigation doctrine",
+    "Criminal prosecution standards"
+  ],
+  "sub_topics": [
+    "Senate Blue Ribbon and House Infra committee hearings",
+    "Aid-of-legislation purpose vs criminal prosecution",
+    "Rep. Leandro Legarda Leviste entrapment of district highways engineer",
+    "State-witness inducement and in flagrante delicto arrest",
+    "Sen. Mark Villar inhibition and DPWH conflict of interest (2016-2021)",
+    "Probable cause vs proof beyond reasonable doubt",
+    "Existing anti-graft statutes (RA 3019, RA 6713, AMLA)",
+    "Constitutional independent offices (OMB, COA)",
+    "Independent commission's lack of contempt/subpoena/arrest powers",
+    "Agrava Board precedent on Ninoy Aquino assassination"
+  ],
+  "signature_phrases": [
+    "Mahiya naman kayo",
+    "heinous flood control scams",
+    "in flagrante delicto",
+    "He should be answering questions instead of asking them",
+    "Do we really need new laws to catch and punish the thieves?",
+    "media shows and excessive talk",
+    "diligent and determined use of existing laws and institutions",
+    "continuous, aggressive and patient monitoring by an incensed public"
+  ],
+  "entities": {
+    "people": [
+      "President Ferdinand Marcos Jr.",
+      "Rep. Leandro Legarda Leviste",
+      "Sen. Mark Villar",
+      "Sen. Benigno 'Ninoy' Aquino Jr."
+    ],
+    "institutions": [
+      "Senate Blue Ribbon Committee",
+      "House Infra Committee",
+      "Office of the Ombudsman (OMB)",
+      "Department of Justice (DOJ)",
+      "Department of Public Works and Highways (DPWH)",
+      "Supreme Court (en banc)",
+      "Commission on Audit (COA)",
+      "Agrava Board"
+    ],
+    "cases": [
+      "SC en banc resolution, January 8, 2013 (80% criminal-case backlog)",
+      "SC observation, September 5, 2012 (40% criminal cases dismissed annually)"
+    ],
+    "laws_treaties": [
+      "Anti-Graft and Corrupt Practices Act (RA 3019)",
+      "Code of Conduct and Ethical Standards for Public Officials and Employees (RA 6713)",
+      "Anti-Money Laundering Law (AMLA)",
+      "1987 Constitution"
+    ],
+    "events": [
+      "2026 national budget deliberations",
+      "Flood control scam legislative inquiries",
+      "Ninoy Aquino assassination (August 21, 1983)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Legislative inquiries are primarily for aiding new legislation and only secondarily for recommending prosecution, so they cannot by themselves file criminal cases.",
+      "rhetorical_move": "doctrinal clarification grounded in separation of powers",
+      "confidence": "high"
+    },
+    {
+      "claim": "Sen. Mark Villar should inhibit and be answering questions rather than asking them, given he was DPWH Secretary from 2016 to 2021.",
+      "rhetorical_move": "pointed conflict-of-interest call-out",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Philippines does NOT need new anti-graft laws -- RA 3019, RA 6713, AMLA, and other statutes suffice; what is lacking is strict implementation.",
+      "rhetorical_move": "thesis assertion against legislative inflation",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Philippines does NOT need a new independent commission either -- the OMB and COA already possess the constitutional mandate and powers.",
+      "rhetorical_move": "structural argument against bureaucratic redundancy",
+      "confidence": "high"
+    },
+    {
+      "claim": "Independent commissions are inherently limited because they lack contempt, subpoena, arrest, and case-filing powers, and must still refer findings to the OMB/DOJ.",
+      "rhetorical_move": "institutional-design analysis",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Agrava Board precedent shows independent commissions can fail to deliver justice -- decades after Ninoy's assassination, the mastermind remains unknown.",
+      "rhetorical_move": "historical-cautionary analogy",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "President Marcos's now-viral 'Mahiya naman kayo' denunciation that triggered the Senate Blue Ribbon and House Infra committee inquiries.",
+    "Neophyte Rep. Leandro Legarda Leviste catching a district highways engineer red-handed trying to bribe him, filing a complaint, and triggering an in flagrante delicto entrapment -- while convincing the engineer to squeal on contractors and high officials in exchange for state-witness status.",
+    "Sen. Mark Villar's social-media-driven inhibition controversy, given his prior role as DPWH Secretary 2016-2021.",
+    "Supreme Court's stark January 8, 2013 en banc finding that 80% of court backlog involves criminal cases, paired with the September 5, 2012 observation that 40% of criminal cases are dismissed annually -- both still unimproved.",
+    "Agrava Board's enduring failure: decades after the Ninoy Aquino assassination, the mastermind remains unknown, with the convicted soldiers continuing to deny their participation despite a daylight public crime."
+  ],
+  "target_audience": [
+    "Filipino civic readership demanding flood-control accountability",
+    "Lawmakers tempted to legislate new anti-graft statutes",
+    "Prosecutors at the OMB and DOJ",
+    "Journalists and legal commentators tracking the scam",
+    "Law students and bar reviewees studying probable cause vs proof beyond reasonable doubt"
+  ],
+  "register_markers": [
+    "Formal legal-doctrinal exposition with citations to SC resolutions",
+    "Rhetorical-question framing ('Do we really need new laws...?')",
+    "Latinisms ('in flagrante delicto', 'motu proprio')",
+    "Direct quoting of jurisprudential definitions",
+    "Sustained didactic tone with elder-statesman authority",
+    "Closing call-to-action rhythm ('not media shows... what we truly need is...')"
+  ],
+  "decision_framework_signals": [
+    "Distinguish purpose-of-inquiry: aid-of-legislation first, prosecution-referral second",
+    "Apply correct evidentiary threshold to each stage: probable cause for filing, proof beyond reasonable doubt for conviction",
+    "Prefer strict implementation of existing laws over enacting new ones",
+    "Prefer empowering constitutionally established bodies (OMB, COA) over creating new commissions",
+    "Test any proposed independent commission against the contempt/subpoena/arrest/filing powers it lacks",
+    "Use historical precedent (Agrava Board) as a cautionary baseline for ad-hoc commissions",
+    "Require recusal where a legislator-investigator has prior executive responsibility over the subject agency"
+  ],
+  "one_paragraph_summary": "Panganiban explains that the Senate Blue Ribbon and House Infra committees' televised flood-control-scam inquiries -- triggered by President Marcos's viral 'Mahiya naman kayo' -- exist mainly to aid new legislation including the 2026 budget, and only secondarily to refer the criminal aspect to the OMB and DOJ for the proper preliminary investigations and the eventual filing of charges under the probable-cause standard, even as conviction will demand proof beyond reasonable doubt. He spotlights Rep. Leandro Legarda Leviste's in flagrante delicto entrapment of a district highways engineer (whom Leviste is now flipping into a state witness against contractors and higher officials) and calls out Sen. Mark Villar's conflict of interest as a former DPWH Secretary from 2016 to 2021, saying Villar should be answering questions, not asking them. His central thesis is that the Philippines does NOT need new anti-graft laws -- RA 3019, RA 6713, AMLA, and others are already on the books -- and does NOT need a new independent commission either, because the Constitution has already established the OMB and COA with the necessary powers; any ad-hoc commission lacks the powers of contempt, subpoena, arrest, and case-filing, and must still refer matters to the OMB or DOJ. He invokes the Agrava Board as a cautionary precedent -- decades after the Ninoy Aquino assassination, the mastermind remains unidentified -- and closes with a prescription against media shows and excessive talk in favor of diligent use of existing laws and institutions, speedy trials grounded in original (not photocopied) evidence, and continuous, aggressive, and patient monitoring by an incensed public.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

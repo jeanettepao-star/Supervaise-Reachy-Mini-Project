@@ -1,0 +1,155 @@
+{
+  "id": "CA266",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 266,
+  "title": "Search for new chief justice",
+  "date": "2018-09-09",
+  "link": "https://opinion.inquirer.net/115933/search-new-chief-justice",
+  "keywords": [
+    "chief justice succession",
+    "JBC nomination process",
+    "insider vs outsider CJ",
+    "de facto officer doctrine",
+    "Miriam Defensor-Santiago JBC application"
+  ],
+  "primary_topics": [
+    "CJ succession norms and the JBC nomination process",
+    "Historical breakdown of smooth-transition precedents",
+    "Validity of CJ Sereno's acts under de facto officer doctrine"
+  ],
+  "sub_topics": [
+    "Incumbent CJ's duty to preside over JBC search for successor",
+    "25-year tradition of smooth CJ transitions (1987-2012)",
+    "CJ roster: Teehankee, Yap, Fernan, Narvasa, Davide, Panganiban, Puno",
+    "Breakdown after Corona's 2012 Senate ouster",
+    "Old axiom: 'The office must seek the man, not the man seeking the office'",
+    "Miriam Defensor-Santiago's 2006 application -- 1 vote, livid tirade",
+    "Author's refusal to respond in kind to Miriam's 'spit in the face' remark",
+    "Corona succession process: 76 names, 26 acceptances, 8 shortlisted, 3 outsiders",
+    "Sereno's appointment -- firsts: first woman CJ, first junior CJ, first ousted via QW",
+    "Aquino-Carpio conversation: admirable but cannot appoint over ally objections",
+    "De facto officer validity of Sereno's acts -- SC ruling",
+    "Plea for De Castro to restore smooth-transition precedent"
+  ],
+  "signature_phrases": [
+    "The office must seek the man (or woman), not the man seeking the office",
+    "I am irate. I am foaming at the mouth. I'm homicidal. I'm suicidal...",
+    "I spit in the face of Chief Justice Artemio Panganiban and his cohorts",
+    "I took her tirade in stride",
+    "the Court was not ready to be led by an outsider from the political world",
+    "seamless transitions",
+    "all the actions, decisions and votes of CJ Sereno are valid",
+    "de facto officer",
+    "fiasco or complication"
+  ],
+  "entities": {
+    "people": [
+      "CJ Teresita J. Leonardo-De Castro",
+      "SAJ Antonio T. Carpio",
+      "CJ Claudio Teehankee",
+      "CJ Pedro L. Yap",
+      "CJ Marcelo B. Fernan",
+      "CJ Andres R. Narvasa",
+      "CJ Hilario G. Davide Jr.",
+      "CJ Artemio V. Panganiban (author)",
+      "CJ Reynato S. Puno",
+      "CJ Renato C. Corona",
+      "CJ Maria Lourdes P. A. Sereno",
+      "Sen. Miriam Defensor-Santiago",
+      "President Benigno Aquino III"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Judicial and Bar Council (JBC)",
+      "Senate of the Philippines (Corona impeachment)"
+    ],
+    "cases": [
+      "Republic v. Sereno (quo warranto ouster)",
+      "Corona impeachment (2012)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (JBC, mandatory retirement at 70)",
+      "De facto officer doctrine"
+    ],
+    "events": [
+      "CJ De Castro's appointment and 42-day tenure",
+      "Corona's Senate ouster (2012)",
+      "Sereno's firsts: first woman CJ, first junior CJ, first ousted via QW",
+      "Miriam Santiago's 2006 JBC application",
+      "Author's JBC chairmanship during own succession search (late 2006)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "An incumbent CJ has a responsibility to preside over the orderly transition of power, and the 25-year precedent (1987-2012) shows this can be done seamlessly.",
+      "rhetorical_move": "norm-from-precedent argument",
+      "confidence": "high"
+    },
+    {
+      "claim": "The axiom 'the office must seek the man, not the man seeking the office' protected judicial independence and dignity -- its erosion after 2012 introduced complication and fiasco.",
+      "rhetorical_move": "norm-defense via historical contrast",
+      "confidence": "high"
+    },
+    {
+      "claim": "When Miriam Defensor-Santiago applied for the CJ post in 2006, the author declined to respond to her tirade, secure in the conviction that the Court was not ready to be led by an outsider from the political world.",
+      "rhetorical_move": "first-person autobiographical disclosure with restrained dignity",
+      "confidence": "high"
+    },
+    {
+      "claim": "Sereno's appointment produced three firsts: first woman CJ, first junior justice named chief, first CJ ousted by the Supreme Court via quo warranto.",
+      "rhetorical_move": "factual historical record-keeping",
+      "confidence": "high"
+    },
+    {
+      "claim": "Aquino frankly told Carpio he could not appoint the most senior justice because of strong objections from his allies -- a candid political fact.",
+      "rhetorical_move": "insider disclosure of political reality",
+      "confidence": "high"
+    },
+    {
+      "claim": "All of CJ Sereno's actions, decisions, and votes are valid under the de facto officer doctrine.",
+      "rhetorical_move": "legal-protection assertion (repeated from A39)",
+      "confidence": "high"
+    },
+    {
+      "claim": "CJ De Castro should restore the precedent by leading the JBC search for her successor now, given only about a month remains in her 42-day term.",
+      "rhetorical_move": "closing normative prescription",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The author's own experience as JBC chair in late 2006: Sen. Miriam Defensor-Santiago formally applied for the CJ post, got only 1 JBC vote, and erupted -- 'I am irate. I am foaming at the mouth. I'm homicidal. I'm suicidal. I'm humiliated, degraded... I spit in the face of Chief Justice Artemio Panganiban and his cohorts.' He 'took her tirade in stride and declined to respond in kind.'",
+    "President Aquino's frank private conversation with SAJ Carpio during the Sereno selection: admirable decisions and opinions, but cannot appoint him because of strong ally objections.",
+    "The Corona succession breaking all precedents: 76 names proposed, 26 accepting, 8 shortlisted (most in JBC history), 3 outsiders shortlisted for the first time, and an eventual 'junior justice' appointed.",
+    "CJ De Castro's 42-day tenure -- the shortest in history at the time this column was written -- compared to CJ Pedro Yap's record of 72 days."
+  ],
+  "target_audience": [
+    "CJ De Castro and the JBC as they prepare for the succession process",
+    "SAJ Carpio and the senior justices weighing nominations",
+    "President Duterte considering his next CJ appointment",
+    "Constitutional law scholars and court watchers",
+    "Bar associations and the public tracking judicial independence"
+  ],
+  "register_markers": [
+    "Historical-precedent chronicle with named CJ roster and tenure dates",
+    "Verbatim quotation of Miriam's tirade (in full, without ellipsis)",
+    "First-person autobiographical disclosure of JBC chairmanship",
+    "Parenthetical FAQ address on Sereno's acts' validity",
+    "Closing normative plea in 'I think... would do well to' register",
+    "Dignified restraint in the face of personal attack",
+    "Latin phrase 'de facto' integrated into legal explanation"
+  ],
+  "decision_framework_signals": [
+    "Restore the norm: the incumbent CJ should preside over the JBC search for the successor",
+    "Treat the 25-year (1987-2012) precedent of insider-only, seniority-weighted nominations as institutional memory worth preserving",
+    "Apply de facto officer doctrine to protect the validity of all acts by an ousted officer",
+    "Treat 'outsider from the political world' candidacies as institutionally premature without prior judicial track record",
+    "Respect the political reality that presidents must balance merit, seniority, and ally relationships in CJ appointments",
+    "Initiate succession process early (at least a month before vacancy) to avoid hiatus",
+    "Separate personal dignity from institutional norms: absorb tirades without lowering discourse"
+  ],
+  "one_paragraph_summary": "Panganiban argues that an incumbent chief justice has a responsibility to preside over the orderly and smooth transition to a successor -- a norm upheld for 25 years (1987-2012) by all seven CJs from Teehankee through Puno, each leading the Judicial and Bar Council to shortlist three to five insider justices before their mandatory retirements. The precedents broke after Corona's Senate ouster in 2012. He recalls his own chairmanship of the JBC in late 2006, when Sen. Miriam Defensor-Santiago formally applied for his post and, after receiving only one vote, erupted -- 'I am irate... I spit in the face of Chief Justice Artemio Panganiban and his cohorts' -- to which he responded by declining to engage, convinced the Court was not ready for an outsider from the political world. The Corona succession broke every norm: 76 names proposed, 26 accepting, 8 shortlisted (the most ever, including 3 outsiders), and eventually Sereno was chosen -- producing three firsts: first woman CJ, first junior justice named chief, first CJ ousted by the SC via quo warranto. He discloses that Aquino frankly told SAJ Carpio during the selection process that while his decisions were admirable, Aquino could not appoint him because of strong ally objections. He answers queries by reaffirming that all of Sereno's acts as CJ are valid under the de facto officer doctrine. He closes by urging CJ De Castro, with only about a month remaining in her 42-day term, to restore the precedent and lead the JBC search for her successor now.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

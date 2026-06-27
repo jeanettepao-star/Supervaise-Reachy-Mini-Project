@@ -1,0 +1,182 @@
+{
+  "id": "CA183",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 183,
+  "title": "Marcos lost in 2016, remains viable in 2022",
+  "date": "2021-05-02",
+  "link": "https://opinion.inquirer.net/139825/marcos-lost-in-2016-remains-viable-in-2022",
+  "keywords": [
+    "Marcos Jr.",
+    "Robredo",
+    "PET election protest",
+    "Pulse Asia",
+    "2022 presidential race",
+    "Leonen ponencia",
+    "Macalintal"
+  ],
+  "primary_topics": [
+    "PET 15-0 dismissal of Bongbong Marcos's election protest (decision dated Feb 16, released a week before column)",
+    "Three causes of action dismissed: certificate-of-canvass nullity, revision/recount, terrorism-induced annulment",
+    "Survey snapshot: Bongbong viable in 2022 despite legal defeat; Leni at 6th place",
+    "Survey misses: Frank Drilon, Mark Villar, Gwen Garcia, Win Gatchalian as overlooked formidable candidates",
+    "Speculative pairings/tandem matrix for hypothetical Pulse Asia/SWS testing",
+    "Tony Carpio's 1Sambayan candidate-search role"
+  ],
+  "sub_topics": [
+    "Decision dated Feb 16, 2021; full text released only a week before column",
+    "Leonen ponente; Macalintal led Leni's lawyers; George Garcia led Bongbong's",
+    "Cause 1: 'not authentic' Certificates of Canvass -- thrown out during Pre-Trial Conference Aug 29, 2017",
+    "Cause 2: revision/recount of 36,465 clustered precincts -- Leni's lead grew from 263,473 to 278,566 in three pilot provinces (Camarines Sur, Iloilo, Negros Oriental)",
+    "Cause 3: annulment of results in Maguindanao, Lanao del Sur, Basilan (terrorism/intimidation/pre-shading) in 2,756 precincts -- junked for failure to allege protestee instigation",
+    "Pulse Asia survey Feb 22-Mar 3, 2021: Sara 27%, Bongbong 13%, Poe 12%, Isko 12%, Pacquiao 11%, Leni 7%, Bong Go 5%, Binay 3%, Lacson 2%, Cayetano 2%",
+    "15-day MR window from receipt of decision",
+    "CJ's prediction: Bongbong will file MR for political-stock reasons not legal-reversal hopes",
+    "Frank Drilon: executive secretary, justice secretary, labor secretary; 4-term senator; 2016 topper",
+    "Mark Villar: heir to Manny/Cynthia Villar; current DPWH secretary; Build-Build-Build credentials",
+    "Gwen Garcia: most populous Visayan province (Cebu); 'One Cebu' regional bloc; complementary to Bongbong's Solid North",
+    "Win Gatchalian: undefeated from Valenzuela mayor to senator; NPC; economic-expertise pitch",
+    "Tony Carpio leading 1Sambayan candidate search -- not a candidate himself",
+    "Speculative pairings: Sara-Win (Bong-Digong), Frank-Leni, Bongbong-Gwen, Manny-Mark, Isko-Ping, Grace-Tito Sotto",
+    "Slogan suggestion: 'Kay SARA, WIN tayo'"
+  ],
+  "signature_phrases": [
+    "acting as the Presidential Electoral Tribunal",
+    "15-0",
+    "for 'lack of merit'",
+    "Ably written by Justice Marvic M.V.F. Leonen",
+    "the three causes of action raised by Bongbong's lawyers",
+    "thrown out during the Pre-Trial Conference",
+    "increased her lead over protestant",
+    "terrorism, intimidation and harassment of voters",
+    "pre-shading of ballots",
+    "Protestant utterly failed to allege",
+    "Despite miserably failing in his legal battle",
+    "viable, even strong, contender",
+    "Significantly, the survey was conducted",
+    "Even more significant, the survey was for president, not for vice president",
+    "While I cannot imagine how a 15-0 decision could be reversed",
+    "still I think Bongbong will file an MR",
+    "to strengthen his political stock",
+    "with the deadline for filing certificates of candidacy about five months away",
+    "Brilliant, diligent, and with no pork barrel or other scandals haunting him",
+    "the most experienced public servant around",
+    "robust political and financial empire",
+    "Solid North of Bongbong",
+    "Kay SARA, WIN tayo",
+    "1Sambayan",
+    "competent celebrity team"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Ferdinand 'Bongbong' Marcos Jr. (protestant)",
+      "VP Leni Robredo (protestee; surveyed at 7%)",
+      "Justice Marvic M.V.F. Leonen (PET ponente)",
+      "Atty. Romulo Macalintal (lead counsel for Leni)",
+      "Atty. George Garcia (lead counsel for Bongbong)",
+      "Sara Duterte (Pulse Asia 27%, leading)",
+      "Grace Poe (12%)",
+      "Isko Moreno (12%)",
+      "Manny Pacquiao (11%)",
+      "Bong Go (5%)",
+      "Jojo Binay (3%)",
+      "Ping Lacson (2%)",
+      "Alan Peter Cayetano (2%)",
+      "Frank Drilon (overlooked by survey)",
+      "Mark Villar (DPWH secretary; Manny & Cynthia Villar's son)",
+      "Gwen Garcia (Cebu governor; 'One Cebu' leader)",
+      "Win Gatchalian (senator; NPC)",
+      "Tony Carpio (1Sambayan convenor; not a candidate)",
+      "Tito Sotto (paired with Grace Poe in CJ's speculative matrix)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (sitting as PET -- Presidential Electoral Tribunal)",
+      "Office of the Vice President",
+      "Pulse Asia Research Inc.",
+      "Social Weather Stations (SWS)",
+      "1Sambayan (broad-opposition coalition)",
+      "Nacionalista Party",
+      "Nationalist People's Coalition (NPC)",
+      "Department of Public Works and Highways (DPWH)",
+      "Senate of the Philippines"
+    ],
+    "cases": [
+      "Marcos v. Robredo (PET, Feb 16, 2021) -- 15-0 dismissal of election protest"
+    ],
+    "laws_treaties": [],
+    "events": [
+      "Feb 16, 2021 -- PET decision date",
+      "Aug 29, 2017 -- Pre-Trial Conference dismissing Cause 1",
+      "Feb 22 - March 3, 2021 -- Pulse Asia survey window",
+      "Five months after May 2 column -- COC filing deadline (~Oct 2021)",
+      "May 2022 -- national elections"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The PET 15-0 dismissal -- written by Leonen, dismissing all three causes (CoC nullity, revision/recount where Leni's lead actually grew, and Mindanao terrorism-annulment for failure to allege protestee instigation) -- is legally beyond reversal; Bongbong's MR will be politically motivated.",
+      "rhetorical_move": "legal-finality-vs-political-utility framing",
+      "confidence": "asserted with documentary specificity"
+    },
+    {
+      "claim": "Despite his miserable legal defeat, Bongbong remains a viable, even strong, contender for 2022 -- Pulse Asia (Feb 22-Mar 3) places him at 13% for president (not VP), second only to Sara at 27% -- and the survey was conducted AFTER the dismissal was publicly known.",
+      "rhetorical_move": "survey-as-vindication of political resilience",
+      "confidence": "asserted with quantitative emphasis"
+    },
+    {
+      "claim": "VP Leni, in contrast, 'apparently failed to take advantage of the political worth of her sweeping legal victory,' coming in only 6th -- a quiet but pointed observation that legal victory and political traction are decoupled.",
+      "rhetorical_move": "legal-vs-political asymmetry diagnosis",
+      "confidence": "asserted as observation"
+    },
+    {
+      "claim": "The Pulse Asia field misses several formidable candidates who deserve testing: Frank Drilon (experienced, scandal-free), Mark Villar (Build-Build-Build, family machine), Gwen Garcia (Cebu, regional powerhouse), and Win Gatchalian (undefeated, NPC).",
+      "rhetorical_move": "overlooked-field correction with brief candidate profiles",
+      "confidence": "asserted as polling recommendation"
+    },
+    {
+      "claim": "A speculative pairings matrix (Sara-Win, Frank-Leni, Bongbong-Gwen, Manny-Mark, Isko-Ping, Grace-Tito) merits continuous Pulse Asia/SWS testing as the field forms -- pairings, not just individual scores, will determine 2022.",
+      "rhetorical_move": "tandem-matrix-as-survey-design recommendation",
+      "confidence": "asserted as analytical proposal"
+    }
+  ],
+  "notable_anecdotes": [
+    "Justice Leonen's PET ponencia (15-0) -- CJ's reading of the decision as 'ably written,' with the dispositive detail that the recount in the three pilot provinces (Camarines Sur, Iloilo, Negros Oriental) actually GREW Leni's lead from 263,473 to 278,566 votes.",
+    "Bongbong's 13% Pulse Asia rating (Feb 22-Mar 3, 2021) -- conducted AFTER public knowledge of the dismissal and for the PRESIDENT, not VP -- used as the political-survival evidence overshadowing the legal defeat.",
+    "Leni's 6th-place 7% -- paired with the quiet diagnosis that she 'apparently failed to take advantage of the political worth of her sweeping legal victory.'",
+    "The 'Kay SARA, WIN tayo' slogan -- CJ offering a campaign tagline as a quasi-coded endorsement vehicle for a Sara-Win Gatchalian pairing.",
+    "Tony Carpio's 1Sambayan role -- explicit non-candidacy, instead 'searching for a worthy candidate with a reasonable chance of winning' -- affirming Carpio's principled positioning.",
+    "The closing pairings matrix -- six speculative tandems labeled by archetype (administration bets, opposition tandem, regional favorites, populist choices, surprise duo, competent celebrity team) -- modeling how CJ thinks survey design should evolve toward 2022."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Political-survey watchers and political operators",
+    "Pulse Asia and SWS (as polling-design recommendation audience)",
+    "Opposition coalition strategists",
+    "1Sambayan supporters",
+    "Civic-minded Filipinos preparing for 2022"
+  ],
+  "register_markers": [
+    "court-decision-summary register opening (PET dismissal)",
+    "named-counsel attribution (Macalintal vs Garcia)",
+    "numeric-density survey reporting (percentages with names)",
+    "speculative-pairing matrix using archetype labels",
+    "'while I cannot imagine how a 15-0 decision could be reversed' as polite-doubt formula",
+    "asymmetric-traction diagnosis ('Leni apparently failed to take advantage')",
+    "candidate-mini-profile style (Brilliant/diligent/scandal-free; Heir-to-empire; etc.)",
+    "Tagalog-and-English campaign-slogan invention ('Kay SARA, WIN tayo')",
+    "scenario-matrix closing structure"
+  ],
+  "decision_framework_signals": [
+    "treats survey traction as the operative variable, with legal outcomes as a secondary input",
+    "uses 'who was missed by Pulse Asia' diagnostic to identify the actual contestable field",
+    "applies tandem-pairing matrix as the diagnostic instrument for 2022 readiness",
+    "deploys MR-as-political-instrument analysis (filing for political stock, not legal reversal)",
+    "uses brief candidate-profile sketches to mark dynastic, regional, populist, and competence archetypes",
+    "treats 1Sambayan's candidate-search posture as the canonical opposition-coalition discipline"
+  ],
+  "one_paragraph_summary": "The Supreme Court sitting as the Presidential Electoral Tribunal dismissed, 15-0, Bongbong Marcos's election protest against VP Leni Robredo 'for lack of merit' in a Feb 16, 2021 decision (released only the week before this column) ably written by Justice Marvic M.V.F. Leonen, with Romulo Macalintal leading Leni's defense and George Garcia leading Bongbong's team. The three causes were dismissed in turn: the first (alleging non-authentic Certificates of Canvass) thrown out at the Pre-Trial Conference of Aug 29, 2017; the second (revision and recount of 36,465 clustered precincts) failing because the recount in the three pilot provinces (Camarines Sur, Iloilo, Negros Oriental) actually grew Leni's lead from 263,473 to 278,566; and the third (annulment of results in Maguindanao, Lanao del Sur, and Basilan for terrorism, intimidation, and pre-shaded ballots in 2,756 precincts) junked because protestant 'utterly failed to allege that protestee instigated' the irregularities. Despite this legal defeat, Bongbong remains a viable, even strong, contender in 2022: Pulse Asia's Feb 22-Mar 3 face-to-face survey -- conducted AFTER public knowledge of the dismissal and for PRESIDENT not VP -- places him at 13%, second only to Sara Duterte (27%) and marginally ahead of Grace Poe, Isko Moreno, and Manny Pacquiao. Leni at 7% places only 6th, having 'apparently failed to take advantage of the political worth of her sweeping legal victory.' CJ predicts Bongbong will file an MR -- not because a 15-0 decision can be reversed but to strengthen his political stock. Five months from COC filing, CJ notes the Pulse Asia field misses Frank Drilon (brilliant, diligent, scandal-free, the most experienced public servant around), Mark Villar (DPWH secretary, Manny-and-Cynthia heir, Build-Build-Build credentials), Gwen Garcia (Cebu and 'One Cebu' regional bloc), and Win Gatchalian (undefeated; 'Kay SARA, WIN tayo'). Tony Carpio leads 1Sambayan's candidate search, not as candidate himself. CJ closes with a six-tandem speculative matrix for ongoing Pulse Asia/SWS testing -- administration, opposition, regional, populist, surprise, and competent-celebrity pairings.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

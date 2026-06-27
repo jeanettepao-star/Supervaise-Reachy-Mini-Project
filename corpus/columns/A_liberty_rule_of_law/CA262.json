@@ -1,0 +1,123 @@
+{
+  "id": "CA262",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 262,
+  "title": "Fine, not just disqualify, nuisance bets",
+  "date": "2018-10-28",
+  "link": "https://opinion.inquirer.net/117049/fine-not-just-disqualify-nuisance-bets",
+  "keywords": [
+    "nuisance candidates",
+    "Comelec 2019",
+    "term limits",
+    "Koko Pimentel",
+    "consecutive terms",
+    "Abundo v. Comelec",
+    "Sen. Gatchalian",
+    "COC filing 2018"
+  ],
+  "primary_topics": [
+    "Carnival-like COC filing season and CJ's support for fining (not just disqualifying) nuisance candidates",
+    "Whether fines/imprisonment for nuisance bets violate freedom to seek public office",
+    "Analysis of Ferdinand Topacio's disqualification petition against Sen. Pimentel on consecutive-term grounds"
+  ],
+  "sub_topics": [
+    "Nuisance candidates confusing electorate, wasting Comelec time, lengthening ballots",
+    "Sen. Gatchalian's proposal to fine not just disqualify nuisance bets",
+    "Freedom of speech analogy: libel liability vs nuisance-candidacy liability",
+    "Pimentel's 2007 Senate run -- Zubiri declared winner; protest filed; Zubiri surrendered 2011",
+    "Distinction between 'term' (period fixed for office) and 'tenure' (actual time served)",
+    "Abundo v. Comelec (Jan. 8, 2013) and Albania v. Comelec (June 6, 2017) on term completion",
+    "Macalintal's sportsmanship in favoring rival Pimentel",
+    "Ryan Cayabyab National Artist recognition closing"
+  ],
+  "signature_phrases": [
+    "A carnival it was like at the Commission on Elections",
+    "a self-proclaimed 'king of the Philippines'",
+    "'half-man and half-zombie' who pledged to deter China",
+    "virtual clowns fit more for circuses than for patriotic elections",
+    "if those who abuse the freedom of speech can be held liable for libel, similarly, those who misuse the freedom to seek public office can be held liable for mocking the electoral process",
+    "Noble and selfless was the unsolicited opinion",
+    "the ban applies only to those who completed their terms of office"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Sen. Sherwin Gatchalian (proposed fines)",
+      "Ferdinand Topacio (petitioner against Pimentel)",
+      "Sen. Koko Pimentel (respondent)",
+      "Juan Miguel Zubiri (surrendered seat 2011)",
+      "Romulo Macalintal (senatorial candidate, favored Pimentel)",
+      "George Garcia (Marcos protest lawyer)",
+      "Sixto Brillantes (former Comelec chair)",
+      "Ryan Cayabyab (National Artist for music)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "Senate of the Philippines",
+      "Supreme Court of the Philippines",
+      "Foundation for Liberty and Prosperity"
+    ],
+    "cases": [
+      "Abundo v. Comelec (Jan. 8, 2013)",
+      "Albania v. Comelec (June 6, 2017)",
+      "Pimentel election protest vs Zubiri"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- Art. VI Sec. 4 (two consecutive Senate terms)",
+      "Omnibus Election Code (nuisance candidate provisions)"
+    ],
+    "events": [
+      "2018 COC filing season",
+      "2007 Senate election (Zubiri over Pimentel)",
+      "2011 -- Zubiri surrender; Pimentel assumes office",
+      "2013 Senate election -- Pimentel reelected"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Fining nuisance candidates does not violate freedom to seek public office -- by the same analogy that those who abuse freedom of speech can be held liable for libel.",
+      "rhetorical_move": "freedom-abuse-liability analogy (speech:libel = candidacy:nuisance fine)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Pimentel's disqualification petition should fail because the two-consecutive-term ban applies only to those who completed their terms -- Pimentel did not begin his first term on June 30 after 2007 since Zubiri held the office; his tenure began only in 2011.",
+      "rhetorical_move": "term-vs-tenure distinction applied to incomplete first term",
+      "confidence": "asserted with agreement marker"
+    },
+    {
+      "claim": "Macalintal's unsolicited sportsmanlike opinion favoring rival Pimentel -- despite belonging to the opposing coalition -- exemplifies admirable civic courage.",
+      "rhetorical_move": "public-recognition of cross-partisan integrity",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The vivid carnival descriptions: 'king of the Philippines,' 'Jesus Christ' vowing to be 'protector of the universe,' 'half-man and half-zombie' pledging to deter China.",
+    "Macalintal's COC filing accompanied by professional rivals Garcia (Marcos's lawyer) and Brillantes (FPJ's lawyer) -- cross-partisan sportsmanship.",
+    "Ryan Cayabyab's National Artist recognition closing -- noting his 18 songs for CJ's 'Ageless Passion' musical staged for CJ's 75th and 80th birthdays."
+  ],
+  "target_audience": [
+    "Senators and legislators considering nuisance candidate legislation",
+    "Election lawyers and Comelec officials",
+    "Civic readers following the 2019 senatorial race",
+    "Constitutional law scholars on term limits"
+  ],
+  "register_markers": [
+    "carnival/circus metaphor for COC filing season",
+    "vivid-character-naming of nuisance candidates ('king,' 'Jesus Christ,' 'half-zombie')",
+    "freedom-abuse-liability analogy as constitutional reasoning device",
+    "term-vs-tenure doctrinal distinction presented clearly",
+    "personal-celebration closing (Ryan Cayabyab / FLP connection)",
+    "recidivist-candidacy framing ('habitually took advantage of every poll season')"
+  ],
+  "decision_framework_signals": [
+    "applies freedom-abuse-liability analogy to determine constitutionality of fines",
+    "uses term-vs-tenure distinction as dispositive for consecutive-term ban",
+    "anchors term completion doctrine in Abundo and Albania precedents",
+    "treats June 30 commencement date as critical benchmark for term-start determination"
+  ],
+  "one_paragraph_summary": "Panganiban opens with the 2018 COC filing carnival -- featuring a self-proclaimed 'king of the Philippines,' a 'protector of the universe,' and a 'half-man and half-zombie' pledging to deter China -- to support Sen. Gatchalian's proposal to fine (not just disqualify) nuisance candidates who mock the electoral process. He argues fines and even imprisonment do not violate freedom to seek public office, by analogy to libel liability for those who abuse freedom of speech. He then addresses Ferdinand Topacio's petition to disqualify Sen. Koko Pimentel for alleged third consecutive term: Pimentel ran in 2007 but Zubiri was declared winner; Zubiri voluntarily surrendered the seat in 2011 after Pimentel filed a protest; Pimentel ran again and won in 2013. Since Pimentel did not commence his 'term of office' on June 30 after the 2007 election -- Zubiri held the office -- his tenure began only in 2011, meaning the consecutive-term ban (which applies only to those who completed their terms per Abundo v. Comelec and Albania v. Comelec) does not bar him. CJ agrees with Macalintal's sportsmanlike unsolicited opinion favoring Pimentel. The column closes congratulating Ryan Cayabyab on his National Artist recognition, noting his 18 compositions for CJ's 'Ageless Passion' musical.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,164 @@
+{
+  "id": "CD021",
+  "format": "C",
+  "type": "column",
+  "theme": "D",
+  "theme_label": "FLP Mission and Foundation",
+  "number": 21,
+  "title": "Just and humane lawyers in the DiGi Age",
+  "date": "2020-06-14",
+  "link": "https://opinion.inquirer.net/130769/just-and-humane-lawyers-in-the-digi-age",
+  "keywords": [
+    "FLP scholars",
+    "DiGi Age",
+    "Lucila Takjerad Harvard speech",
+    "Jovito Salonga",
+    "little things",
+    "legal profession"
+  ],
+  "primary_topics": [
+    "FLP scholars' awarding ceremonies (Zoom, June 12) and CJ's commencement-style address",
+    "Lucila Takjerad's 2019 Harvard commencement on doing 'little things'",
+    "CJ's autobiographical arc: impoverished beginnings to sixth place in the bar",
+    "Why DiGi Age lawyers bred in liberty and prosperity cannot be replaced by AI/robots"
+  ],
+  "sub_topics": [
+    "Foundation for Liberty and Prosperity (FLP) -- honoring bar topnotchers, scholars, valedictorians, dissertation-writing contest winners",
+    "Lucila Takjerad's 1994 Algerian civil war childhood -- illiterate mother's name written by a stranger on the France emigration list",
+    "Takjerad's Harvard commencement message: 'do the least you can do' alongside doing the most",
+    "CJ's peddling newspapers and shining shoes through basic schooling; selling bibles and textbooks through college",
+    "Father (high school graduate, lowly government employee) died in CJ's pre-law; unemployed mother (elementary graduate) died in his senior year of law",
+    "Hospitalization during the first Sunday of bar exams; nearly quitting",
+    "Dr. Jovito R. Salonga (FEU law dean) urging CJ to go on",
+    "Old friend (now deceased) who paid CJ's bar review on condition of Top Ten finish",
+    "CJ's sixth-place finish 'with God's grace'",
+    "FLP Scholars Society as vehicle for excellence, integrity, patriotism",
+    "5G technology and artificial intelligence as DiGi Age markers",
+    "Robots' inability to dispense compassionate, empathetic justice when law is inadequate, unclear, or unconscionable",
+    "'A just and humane society under the rule of law in the DiGi Age' as legacy aspiration"
+  ],
+  "signature_phrases": [
+    "I prefer to call it DiGi Age",
+    "via Zoom on June 12",
+    "May I summarize it, thus",
+    "her mother -- while walking in a public market in their hometown in Algeria",
+    "her poor mother desperately wanted to emigrate but, being illiterate, she could not write her name",
+    "Dejected, she walked away",
+    "the man chased her, got her name, and scribbled it on the list",
+    "Fellow graduates, of course, do the most you can do",
+    "do the least you can do. Because, the least you can do might turn out to be the most significant",
+    "I peddled newspapers and shined shoes",
+    "sold bibles and textbooks",
+    "I was stranded; I had no money to pay for my bar review",
+    "my law dean at FEU, Dr. Jovito R. Salonga, would not hear of it and urged me to go on",
+    "with God's grace, I still made it to sixth place",
+    "My friend, now deceased, never knew how his simple gesture",
+    "ushered me to the noble legal profession",
+    "the highest judicial post",
+    "the 5G technology and artificial intelligence",
+    "valuable little things that may have twisted and turned your careers",
+    "the FLP Scholars Society",
+    "your common vehicle for riding into the DiGi Age",
+    "DiGi Age robots, some say, will eliminate lawyers. I disagree",
+    "lawyers bred in liberty and prosperity will not be outdated or outdone by DiGi Age robots",
+    "they, and only they, have the heart and the wisdom to dispense compassionate justice especially when the law is inadequate, unclear, or unconscionable",
+    "only lawyers with a heart and with a conscience can dispense empathetic justice in a just and humane society",
+    "my spirit will be hovering above you, behind you, and beside you",
+    "a just and humane society under the rule of law in the DiGi Age"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Lucila Takjerad (Harvard graduate, Algerian refugee)",
+      "Lucila's illiterate mother",
+      "Unnamed man who wrote Lucila's mother's name on the France emigration list",
+      "CJ's father (deceased during CJ's pre-law years)",
+      "CJ's unemployed mother (deceased during CJ's senior year in law)",
+      "Dr. Jovito R. Salonga (FEU law dean, CJ's mentor)",
+      "CJ's deceased old friend who paid for his bar review"
+    ],
+    "institutions": [
+      "Foundation for Liberty and Prosperity (FLP)",
+      "FLP Scholars Society",
+      "Far Eastern University (FEU) College of Law",
+      "Harvard University (Takjerad's commencement)",
+      "Supreme Court of the Philippines (CJ's prior post)"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "June 12, 2026 (sic -- meeting on June 12 prior to column publication June 14, 2020) -- FLP awarding ceremonies via Zoom",
+      "1994 -- Lucila Takjerad's family emigration from Algeria during civil war",
+      "Harvard commencement (one year before this column, ~2019) -- Takjerad's speech",
+      "CJ's bar exams -- hospitalization on first Sunday; sixth-place finish",
+      "5G / AI rollout as DiGi Age technology context"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Lucila Takjerad's Harvard commencement insight -- that 'the least you can do might turn out to be the most significant' -- reframes ambition itself: alongside doing one's noble most, one must do the obscure least, because small gestures (like writing an illiterate mother's name on a list) can unlock entire life trajectories.",
+      "rhetorical_move": "borrowed-commencement framing (using another's speech as the thematic anchor)",
+      "confidence": "asserted with admiration"
+    },
+    {
+      "claim": "CJ's own life confirms Takjerad's principle: he peddled newspapers, shined shoes, sold bibles and textbooks; was orphaned during law school; was hospitalized during the first Sunday of bar exams; and nearly quit -- but Salonga's mentorship and an old friend's small gesture of paying for his bar review (on condition of a Top Ten finish) ushered him to the noble legal profession and ultimately the highest judicial post.",
+      "rhetorical_move": "autobiographical-confirmation arc (CJ's life as proof of Takjerad's principle)",
+      "confidence": "testimonial"
+    },
+    {
+      "claim": "The FLP's gifts to scholars -- financial grants, Supreme Court interviews, tough judges' questions, midnight dissertation labors, secretariat kindnesses -- are themselves 'valuable little things' that may have twisted and turned their careers as much as their formal achievements.",
+      "rhetorical_move": "institutional-gifts-as-little-things (extending the metaphor to the FLP itself)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "DiGi Age robots will not eliminate lawyers -- contrary to predictions -- because lawyers bred in liberty and prosperity have the heart and wisdom to dispense compassionate, empathetic justice especially when the law is inadequate, unclear, or unconscionable, which robots cannot.",
+      "rhetorical_move": "AI-skepticism with virtue-anchored counter-argument (legal compassion as the irreducible human element)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Within ten or twenty years the FLP scholars will be DiGi Age leaders, and even if CJ is no longer around, his spirit 'will be hovering above you, behind you, and beside you, smiling and contented' -- that he brought them little things that twisted their careers toward building a just and humane society under the rule of law in the DiGi Age.",
+      "rhetorical_move": "legacy-pledge closing (rare CJ moment of explicit valediction)",
+      "confidence": "personal-aspirational"
+    }
+  ],
+  "notable_anecdotes": [
+    "Lucila Takjerad's mother's emigration story -- 1994 Algerian civil war, walking the public market, learning of the France emigration list, being illiterate and unable to write her name, walking away dejected, then being chased by a man who wrote it for her -- the central parable of the column and the original instance of 'the least you can do.'",
+    "CJ's autobiographical reveal: peddling newspapers, shining shoes, selling bibles and textbooks; his father (high school graduate, lowly government employee) dying during his pre-law years; his unemployed mother (elementary graduate) dying in his senior year of law; the bar-exam hospitalization on the first Sunday -- the most concentrated single-paragraph autobiographical capsule in CJ's columns.",
+    "Dr. Jovito R. Salonga as FEU law dean refusing to let CJ quit the bar exams -- a sentence that links this column to the closing tribute in C17 ('the 100th birthday of the late Dr. Jovito R. Salonga, my esteemed guru'), making C17 and D21 a pair on Salonga.",
+    "The unnamed old friend (now deceased) who paid for CJ's bar review on condition of Top Ten finish -- a story CJ rarely tells, deployed here as the personal exemplar of Takjerad's 'least you can do' principle.",
+    "CJ's sixth-place bar finish 'with God's grace' -- a rare CJ humility-marker tying personal achievement to providence.",
+    "The closing 'my spirit will be hovering above you, behind you, and beside you, smiling and contented' -- one of CJ's most explicit valedictory passages in his column corpus."
+  ],
+  "target_audience": [
+    "FLP scholars and scholar-society members",
+    "Law students and bar examinees",
+    "Educators and mentors",
+    "Catholic readers ('with God's grace')",
+    "Civic-minded readers concerned with AI's impact on professions",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "speech-summary format ('May I summarize it, thus')",
+    "'DiGi Age' as CJ's preferred neologism for digital age",
+    "narrative-parable opening (Lucila Takjerad / her mother / France emigration list)",
+    "autobiographical-confession middle (newspapers, shoes, bibles, textbooks)",
+    "Salonga as named mentor",
+    "valedictory-pledge closing ('my spirit will be hovering above you')",
+    "'with God's grace' as humility-providence marker",
+    "FLP institutional vocabulary (scholars, dissertation contest, secretariat)",
+    "AI-skepticism with virtue-anchored counterargument",
+    "personal-mentorship register",
+    "twin call to 'do the most' and 'do the least'",
+    "lyrical closing on hovering spirit"
+  ],
+  "decision_framework_signals": [
+    "uses borrowed-commencement framing (another speaker's central insight as anchor)",
+    "deploys autobiographical-confirmation arc to validate inherited principle through lived testimony",
+    "extends 'little things' metaphor to institutional gifts (FLP scholarship as little things)",
+    "applies virtue-anchored counter-argument to AI-replacement threat (compassion as irreducible)",
+    "frames legacy as little-things-to-future-leaders rather than monumental achievements",
+    "treats mentorship (Salonga) and small gestures (anonymous bar-review payor) as equally generative"
+  ],
+  "one_paragraph_summary": "Panganiban summarizes his commencement-style address at the Foundation for Liberty and Prosperity (FLP) awarding ceremonies -- honoring bar topnotchers, scholars, valedictorians, and dissertation-writing contest winners -- held via Zoom on June 12, 2020. He builds the address around Lucila Takjerad's Harvard commencement story from a year earlier: in 1994, during the Algerian civil war, Lucila's poor illiterate mother walked through a public market, learned a France emigration list was open, but could not write her own name; an unnamed man chased her and wrote it for her, transporting the family to France where Lucila grew up to graduate from Harvard. Lucila's message -- 'of course, do the most you can do... But also, do the least you can do. Because, the least you can do might turn out to be the most significant' -- leads CJ to his own autobiographical confirmation: peddling newspapers, shining shoes, selling bibles and textbooks; orphaned during law school (his father, a high school graduate and lowly government employee, dying during his pre-law years and his unemployed mother in his senior year); hospitalized on the first Sunday of his bar exams; ready to quit until his FEU law dean Dr. Jovito R. Salonga refused to let him, and until an old friend (now deceased) paid for his bar review on condition of a Top Ten finish -- leading to his sixth-place finish 'with God's grace' and ultimately the highest judicial post. He extends the metaphor to the FLP's own gifts -- financial grants, Supreme Court interviews, judges' tough questions, midnight dissertations, secretariat kindness -- as 'valuable little things' that may twist and turn careers more decisively than the formal honors. He closes with an AI-age credo: contrary to predictions, DiGi Age robots will not eliminate lawyers, because 'lawyers bred in liberty and prosperity... have the heart and the wisdom to dispense compassionate justice especially when the law is inadequate, unclear, or unconscionable.' And with one of his most explicit valedictory passages: in ten or twenty years, when the scholars are DiGi Age leaders, 'my spirit will be hovering above you, behind you, and beside you, smiling and contented, that I have brought you a few little things that made a vital difference in twisting and turning your lives and careers to build a just and humane society under the rule of law in the DiGi Age.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

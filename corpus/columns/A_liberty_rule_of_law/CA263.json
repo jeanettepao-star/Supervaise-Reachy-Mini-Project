@@ -1,0 +1,128 @@
+{
+  "id": "CA263",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 263,
+  "title": "Selection system in PH better than in US",
+  "date": "2018-10-14",
+  "link": "https://opinion.inquirer.net/116736/selection-system-ph-better-us",
+  "keywords": [
+    "Judicial and Bar Council",
+    "JBC reform",
+    "Kavanaugh appointment",
+    "US Supreme Court",
+    "depoliticized judiciary",
+    "chief justice selection",
+    "Leonardo-De Castro",
+    "JBC nominees"
+  ],
+  "primary_topics": [
+    "Contrast between the partisan US Supreme Court appointment process (Kavanaugh) and the partly depoliticized PH JBC system",
+    "Current JBC search for a new Chief Justice and two Associate Justices",
+    "CJ's three proposals to further insulate the JBC from partisan politics"
+  ],
+  "sub_topics": [
+    "US process: presidential nomination + Senate confirmation, openly partisan (conservative vs liberal)",
+    "Kavanaugh as swing vote replacing Justice Kennedy ('Kennedy Court' vs 'Roberts Court')",
+    "PH process: JBC shortlist of at least 3, president chooses; Senate has no confirmation role",
+    "Current vacancy: CJ vice Leonardo-De Castro; two AJ vacancies (De Castro's AJ seat, Tijam upcoming)",
+    "Five most senior justices automatically included: Carpio, Peralta, Bersamin, Del Castillo, Perlas-Bernabe",
+    "JBC process: qualifications check, psychological tests, public interview, final deliberation",
+    "Justice Hernando's seamless recent elevation as proof of system quality",
+    "Three reform proposals: JBC as independent agency with fiscal autonomy; fixed 7-year terms; security of compensation"
+  ],
+  "signature_phrases": [
+    "the JBC search is not expected to be acrimonious or partisan",
+    "This is no secret. In fact, it is always a campaign issue during US elections",
+    "known as the 'Kennedy Court' rather than the 'Roberts Court'",
+    "the presidential power to appoint them was limited to a list of at least three nominees",
+    "Truly, the process here has been seamless",
+    "the JBC is not perfect",
+    "further insulate the JBC from partisan politics"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Justice Brett Kavanaugh (US SC, contested appointment)",
+      "Justice Anthony Kennedy (prior US SC swing vote)",
+      "CJ John Roberts Jr.",
+      "President Donald Trump",
+      "President Barack Obama",
+      "CJ Teresita J. Leonardo-De Castro (retiring)",
+      "Justice Antonio T. Carpio",
+      "Justice Diosdado M. Peralta",
+      "Justice Lucas P. Bersamin",
+      "Justice Mariano C. Del Castillo",
+      "Justice Estela M. Perlas-Bernabe",
+      "Justice Noel G. Tijam (retiring Jan 5, 2019)",
+      "Justice Ramon Paul L. Hernando (recently elevated)"
+    ],
+    "institutions": [
+      "Judicial and Bar Council (JBC)",
+      "Supreme Court of the Philippines",
+      "US Supreme Court",
+      "US Senate",
+      "Presidential Consultative Committee",
+      "Association of Retired Justices of the SC",
+      "Integrated Bar of the Philippines",
+      "Philippine Association of Law Schools"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution -- JBC provisions (Art. VIII Sec. 8)",
+      "US Constitution -- presidential appointment and Senate confirmation"
+    ],
+    "events": [
+      "Kavanaugh confirmation hearings (2018)",
+      "JBC search for new CJ (Leonardo-De Castro retiring)",
+      "Justice Hernando's recent elevation",
+      "Justice Tijam's upcoming retirement (Jan 5, 2019)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The PH judicial selection system is better than the US process because the JBC has partly depoliticized appointments by limiting presidential power to a shortlist, eliminating Senate partisan confirmation battles like Kavanaugh's.",
+      "rhetorical_move": "comparative-superiority claim with partisan-damage evidence",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Despite being better, the JBC should be further insulated from partisan politics through three reforms: independent-agency status with fiscal autonomy, fixed 7-year terms without reappointment, and security of compensation plus lifetime retirement package.",
+      "rhetorical_move": "better-but-improvable framing with three-reform enumeration",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "President Aquino's frank admission to Carpio that political allies' objections prevented his appointment -- despite admirable qualifications -- is evidence of residual political pressure even within the depoliticized framework.",
+      "rhetorical_move": "honest-presidential-disclosure as evidence of residual politicization",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "President Aquino's frank advice to Justice Carpio -- that political allies' objections prevented his appointment despite admirable decisions -- illustrating residual political influence within the depoliticized JBC framework.",
+    "The 'Kennedy Court' vs 'Roberts Court' framing -- showing that one swing justice defines an entire era in the US, making each appointment a high-stakes partisan battle the PH system avoids.",
+    "Justice Hernando's elevation described as 'seamless' -- a 52-year-old Court of Appeals Justice with no backlog -- used as a live proof-of-concept for the JBC system's quality outputs."
+  ],
+  "target_audience": [
+    "JBC members and reform advocates",
+    "SC aspirants and their supporters",
+    "Comparative law scholars and judicial reform advocates",
+    "Charter-change advocates tracking JBC reform proposals"
+  ],
+  "register_markers": [
+    "US-PH comparative register with explicit 'better' comparative claim in title",
+    "named-justice alphabetical listing for CJ vacancy shortlist",
+    "Kavanaugh as negative exemplar of what PH system avoids",
+    "three-reform enumeration with constitutional-agency framing",
+    "cross-reference to Sereno appointment column (Aquino-Carpio disclosure)",
+    "'the JBC is not perfect' as concession before reform proposals"
+  ],
+  "decision_framework_signals": [
+    "uses comparative-system analysis (US vs PH) to evaluate depoliticization effectiveness",
+    "applies better-but-improvable framework to avoid uncritical praise or wholesale condemnation",
+    "treats fiscal autonomy, fixed terms, and security of compensation as three structural pillars of judicial independence",
+    "anchors reform proposals in the model of existing independent constitutional commissions (Comelec, COA)"
+  ],
+  "one_paragraph_summary": "Panganiban contrasts the PH judicial selection system favorably against the contentious US process exemplified by the Kavanaugh confirmation hearings, arguing that the JBC has partly depoliticized appointments by limiting the President to a shortlist of at least three nominees -- eliminating the US dynamic where presidents appoint justices aligned with their party platform in openly partisan battles that made Kavanaugh's hearings acrimonious. He describes the current JBC search for a new Chief Justice (vice Leonardo-De Castro) and two Associate Justices, noting that the five most senior justices (Carpio, Peralta, Bersamin, Del Castillo, Perlas-Bernabe) are automatically included if they accept, with the process involving qualifications review, psychological tests, public interview, and a final deliberation requiring four of seven JBC votes. Justice Hernando's recent seamless elevation is cited as proof of system quality. Despite the comparative advantage, CJ acknowledges the JBC is not perfect and proposes three constitutional reforms to further insulate it: (1) independent constitutional agency status with fiscal autonomy like Comelec and COA; (2) fixed 7-year terms without reappointment for regular members; and (3) security of compensation plus a lifetime retirement package extending to spouses.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,135 @@
+{
+  "id": "CA290",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 290,
+  "title": "Speeding up quality justice (2)",
+  "date": "2017-12-31",
+  "link": "https://opinion.inquirer.net/109895/speeding-quality-justice-2",
+  "keywords": [
+    "arbitration mediation commercial cases",
+    "plea bargaining criminal cases",
+    "E-courts digitization judiciary",
+    "minute resolutions unsigned decisions",
+    "Justice Reyes CA backlog reduction"
+  ],
+  "primary_topics": [
+    "Novel docket-unclogging methods beyond hard work",
+    "Trimming case inflow via strict Rule application",
+    "E-courts and full digitization of the judiciary"
+  ],
+  "sub_topics": [
+    "980,000 pending cases in 2,400 trial courts (June 2017)",
+    "Arbitration and mediation in commercial and civil cases",
+    "Plea bargaining in criminal cases",
+    "Trimming inflow: parties using overdue process for unfair advantage",
+    "Judgment on the pleadings and summary judgments underused",
+    "SC prolonging cases via requests for comment on unmeritorious petitions",
+    "More than 80% of full decisions merely affirm or reiterate settled jurisprudence",
+    "Extensive use of minute resolutions and unsigned decisions",
+    "Periodic progress reports on SC website for transparency",
+    "Computerization/digitization -- long overdue since author's judicial career start",
+    "E-courts started but need to be hastened and comprehensive",
+    "Current website limitation: shows only decisions, not case progression",
+    "Courts still heavily paper-based -- need for full digitization from filing to service",
+    "J. Reyes's CA backlog reduction as a model (CA column June 11, 2017)",
+    "Recommendation: SC use Reyes's expertise and experience"
+  ],
+  "signature_phrases": [
+    "novel ways of unclogging dockets",
+    "overdue process",
+    "patently unmeritorious cases with no hope of winning",
+    "judgment on the pleadings or summary judgments",
+    "misplaced fairness",
+    "more than 80 percent of full-length decisions merely affirm",
+    "wheel need not be reinvented",
+    "E-courts",
+    "from the preparation and filing of pleadings, to the live proceedings themselves"
+  ],
+  "entities": {
+    "people": [
+      "Justice Andres B. Reyes Jr. (CA backlog reduction; recently promoted to SC)",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Court of Appeals",
+      "Regional Trial Courts"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Rules of Court (judgment on pleadings; summary judgment)",
+      "Revised Guidelines for Continuous Trial of Criminal Cases"
+    ],
+    "events": [
+      "Author's June 11, 2017 column on CA backlog reduction (Reyes)",
+      "Author's Nov. 12, 2017 column on hastening criminal trials"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Hard work alone is insufficient to solve the backlog -- novel methods like arbitration/mediation and plea bargaining are needed to reduce both the stock and the flow of cases.",
+      "rhetorical_move": "labor-plus-system argument",
+      "confidence": "high"
+    },
+    {
+      "claim": "Courts should make more aggressive use of judgment on pleadings and summary judgments to make short shrift of patently unmeritorious cases.",
+      "rhetorical_move": "underused-tool prescription",
+      "confidence": "high"
+    },
+    {
+      "claim": "The SC itself prolongs cases by requesting comments on unmeritorious petitions; it should dismiss or deny outright cases that are clearly bereft of merit.",
+      "rhetorical_move": "self-critical prescription for the SC",
+      "confidence": "high"
+    },
+    {
+      "claim": "More than 80% of full decisions merely affirm or reiterate settled jurisprudence -- extensive resort to minute resolutions and unsigned decisions would greatly help.",
+      "rhetorical_move": "efficiency-based calibration of decision formats",
+      "confidence": "high"
+    },
+    {
+      "claim": "The full digitization of the judiciary -- from filing to live proceedings to judgment service -- is long overdue and should be hastened and made comprehensive.",
+      "rhetorical_move": "technology-modernization imperative",
+      "confidence": "high"
+    },
+    {
+      "claim": "J. Reyes's CA backlog reduction model is proven -- the SC should use his expertise and experience without reinventing the wheel.",
+      "rhetorical_move": "proven-model endorsement",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The SC's 'more than 80 percent' heuristic: if that many decisions merely affirm or reiterate settled jurisprudence, the Court is consuming enormous ponencia resources for cases that could be disposed of in minutes via minute resolutions.",
+    "E-courts started but limited -- current websites show only decisions and resolutions, not the progression of cases from stage to stage; parties and lawyers cannot track exact case status online.",
+    "J. Andres B. Reyes Jr.'s achievement in trimming the CA backlog -- cited as the model to import to the SC -- 'the wheel need not be reinvented.'",
+    "The 'overdue process' coinage: parties invoking due-process requirements not to ensure fairness but to gain unfair advantage or delay judgment."
+  ],
+  "target_audience": [
+    "Supreme Court en banc considering docket management reforms",
+    "Office of the Court Administrator",
+    "Court of Appeals presiding justices",
+    "Trial court judges",
+    "Litigants and lawyers dealing with prolonged proceedings"
+  ],
+  "register_markers": [
+    "Series continuation (Part 2 framing)",
+    "Self-critical SC prescription",
+    "Technology-modernization advocacy",
+    "Percentage-based efficiency argument (80% heuristic)",
+    "Cross-reference to own prior columns",
+    "'Wheel need not be reinvented' folk wisdom"
+  ],
+  "decision_framework_signals": [
+    "Reduce case stock via arbitration/mediation in civil/commercial and plea bargaining in criminal cases",
+    "Reduce case flow via aggressive use of summary judgment and judgment on the pleadings",
+    "Apply the SC's own motu proprio dismissal power to clearly unmeritorious petitions -- stop requiring comments",
+    "Reserve full ponencias for the ~20% of cases that actually advance jurisprudence; use minute resolutions for the rest",
+    "Publish periodic case-progress reports on the SC website as a transparency and accountability tool",
+    "Accelerate E-court digitization from filing to live proceedings to judgment service -- paper-based courts are incompatible with modern caseload volumes",
+    "Import proven models (Reyes CA method) rather than designing new systems from scratch"
+  ],
+  "one_paragraph_summary": "Following up the December 24 column on judicial qualities, Panganiban addresses the systemic side of docket unclogging. Given 980,000 pending cases across 2,400 trial courts, hard work alone is insufficient -- the following should be encouraged: arbitration and mediation (especially in commercial and civil cases) and plea bargaining in criminal cases. On the inflow side, courts must curtail litigants who invoke 'overdue process' for unfair advantage, making more aggressive use of the Rules of Court's underused shortcuts -- judgment on the pleadings and summary judgments. He turns the lens on the SC itself: it prolongs cases by requesting comments on clearly unmeritorious petitions rather than dismissing them outright, and since more than 80% of full decisions merely affirm lower courts or reiterate settled jurisprudence, the Court should resort far more extensively to minute resolutions and unsigned decisions. He also proposes periodic progress reports on the SC website for transparency. The most transformational prescription is full E-court digitization -- long overdue since he began his judicial career -- from the preparation and filing of pleadings through live proceedings to the service of judgments, for all courts from the SC to the lowest trial courts; current websites show only decisions and resolutions, not case progression. He closes by recommending the SC import J. Andres B. Reyes Jr.'s proven CA backlog-reduction model: 'the wheel need not be reinvented.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

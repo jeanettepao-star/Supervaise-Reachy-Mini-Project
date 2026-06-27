@@ -1,0 +1,137 @@
+{
+  "id": "CA159",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 159,
+  "title": "No 'acting' appointments to Comelec",
+  "date": "2022-02-13",
+  "link": "https://opinion.inquirer.net/149775/no-acting-appointments-to-comelec",
+  "keywords": [
+    "Comelec chair appointment",
+    "Brilliantes v. Yorac (Dec. 18, 1990)",
+    "ad interim appointments",
+    "Commission on Appointments",
+    "Duterte appointees / lame-duck Congress",
+    "Article IX-C, Section 2; Article VII, Section 16"
+  ],
+  "primary_topics": [
+    "Constitutional rule barring 'temporary or acting' Comelec appointments (Article IX-C, Section 2)",
+    "Brilliantes v. Yorac (Dec. 18, 1990) -- commissioners may designate one of their own as 'acting chairman'",
+    "Ad interim appointments during congressional recess (Article VII, Section 16) and the lame-duck CA window",
+    "Presidential discretion in choosing the chair (insider vs outsider, lawyer vs non-lawyer)",
+    "Composition expertise: the case for one or two non-lawyer commissioners with finance/logistics/digital expertise"
+  ],
+  "sub_topics": [
+    "Seven-year fixed terms; no reappointment; appointments to vacancies only for unexpired terms",
+    "Comelec composition: 1 chair + 6 commissioners -- staggered terms (7/5/3 years)",
+    "Socorro B. Inting designated acting chair after retirement of CJ Sheriff M. Abas (Feb. 2, 2022)",
+    "Congressional recess Feb. 2-May 23, 2022; resumption on May 23 for canvass",
+    "Ad interim appointments effective until disapproved by CA or until next adjournment",
+    "Risk of CA bypass leading to repeated ad interim appointments under a new President",
+    "Constitutional qualifications: natural-born citizen, 35+, college degree, no candidacy in immediately preceding election; majority including chair must be lawyers with 10+ years' practice",
+    "Outsider precedents: Davide Jr., Monsod, Pardo, Melo",
+    "Duterte's preference for insiders (Abas; SC appointees from CA, Sandiganbayan, OCA)",
+    "Speculation that Inting would succeed Abas",
+    "Foreshadowed SC vacancy: 'Will he maintain this practice?'"
+  ],
+  "signature_phrases": [
+    "CLEARLY, THE COMELEC CHAIR CANNOT BE APPOINTED BY THE PRESIDENT IN AN ACTING CAPACITY",
+    "ad interim appointments",
+    "TO BE SURE THAT HIS APPOINTEES WOULD SURVIVE HIS TERM",
+    "lame duck Congress",
+    "IMHO, should now name the new chair",
+    "NONETHELESS, TO REPEAT, THE LAW GIVES THE PRESIDENT WIDE DISCRETION",
+    "Abangan."
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Sheriff M. Abas (outgoing Comelec chair, retired Feb. 2, 2022)",
+      "Socorro B. Inting (most senior commissioner; designated acting chair)",
+      "Hilario G. Davide Jr. (former Comelec chair, outsider)",
+      "Christian S. Monsod (former Comelec chair, outsider)",
+      "Bernardo P. Pardo (former Comelec chair, outsider)",
+      "Jose A. R. Melo (former Comelec chair, outsider)",
+      "President Rodrigo Duterte"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "Commission on Appointments (CA)",
+      "Congress of the Philippines",
+      "Supreme Court of the Philippines",
+      "Court of Appeals",
+      "Sandiganbayan",
+      "Office of the Court Administrator (OCA)"
+    ],
+    "cases": [
+      "Brilliantes v. Yorac (Dec. 18, 1990) -- designation of acting Comelec chair from among commissioners"
+    ],
+    "laws_treaties": [
+      "1987 Constitution, Article IX-C, Section 2 -- Comelec composition, terms, no acting/temporary chair",
+      "1987 Constitution, Article VII, Section 16 -- ad interim appointments and CA confirmation"
+    ],
+    "events": [
+      "Retirement of CJ Sheriff M. Abas on February 2, 2022",
+      "Congressional recess Feb. 2-May 23, 2022",
+      "Canvassing session beginning May 23, 2022",
+      "May 8 (intended May 9) 2022 national elections"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Constitution unambiguously bars the President from appointing a Comelec chair in an acting or temporary capacity (Art. IX-C, Sec. 2).",
+      "rhetorical_move": "textualist constitutional reading of an express prohibition",
+      "confidence": "asserted ('Clearly')"
+    },
+    {
+      "claim": "Brilliantes v. Yorac (1990) remains good law: commissioners may designate one of their own as 'acting chairman' pending the President's permanent appointment.",
+      "rhetorical_move": "precedent-anchored reconciliation of the prohibition with practical continuity",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The President should now name a permanent chair and fill the two existing vacancies -- and, to ensure his appointees survive his term, he should seek CA confirmation from the lame-duck Congress reconvening May 23.",
+      "rhetorical_move": "prudential institutional advice ('IMHO, should now')",
+      "confidence": "recommended"
+    },
+    {
+      "claim": "Although non-lawyers can be commissioners (but not chair), one or two commissioners with non-legal expertise -- finance, logistics, digital technologies -- would better fit the many-faceted responsibilities of Comelec.",
+      "rhetorical_move": "structural-competence recommendation rooted in institutional design",
+      "confidence": "personal view ('I believe')"
+    },
+    {
+      "claim": "Given Duterte's pattern of insider preference (Abas, SC appointees from CA/Sandiganbayan/OCA), the President is likely to elevate Commissioner Inting to chair.",
+      "rhetorical_move": "behavioral-pattern prediction from past appointment choices",
+      "confidence": "tentative prediction"
+    }
+  ],
+  "notable_anecdotes": [
+    "Inventory of outsider Comelec chairs (Davide, Monsod, Pardo, Melo) used as historical counterweight to Duterte's insider pattern.",
+    "Foreshadowed SC vacancy invoked as a parallel test of Duterte's insider preference -- closing with the Tagalog teaser 'Abangan.'"
+  ],
+  "target_audience": [
+    "President Duterte and his appointing-power advisers",
+    "Comelec commissioners and would-be chair candidates",
+    "Members of the Commission on Appointments",
+    "Election lawyers and political-law scholars",
+    "Civic-minded Inquirer readers ahead of May 2022 polls"
+  ],
+  "register_markers": [
+    "textualist constitutional citation (Article IX-C, Section 2; Article VII, Section 16)",
+    "small-caps emphasis ('CLEARLY,' 'TO BE SURE,' 'NONETHELESS, TO REPEAT')",
+    "prudential 'IMHO' marker",
+    "Tagalog-language closer ('Abangan.')",
+    "doctrinal-formal register with institutional-design recommendations",
+    "interrogative ending used as anticipation device"
+  ],
+  "decision_framework_signals": [
+    "textualist reading of express constitutional prohibitions",
+    "precedent-reconciliation analysis (Brilliantes v. Yorac with the no-acting rule)",
+    "ad-interim appointment logic mapped against congressional calendar",
+    "institutional-survivability test for executive appointments (will appointees outlast the appointing President?)",
+    "structural-competence analysis matching Comelec functions to a multidisciplinary commissioner mix"
+  ],
+  "one_paragraph_summary": "Panganiban opens with the express constitutional prohibition (Article IX-C, Section 2) against any temporary or acting appointment to the Commission on Elections -- including its chair -- and reconciles it with Brilliantes v. Yorac (Dec. 18, 1990), which allows commissioners to designate one of their own as acting chair while awaiting a permanent appointment. With CJ Sheriff M. Abas retiring on Feb. 2, 2022, and Socorro B. Inting designated acting chair, the President faces a congressional recess from Feb. 2 to May 23 that complicates permanent appointment. He explains the ad interim mechanism under Article VII, Section 16: such appointments are effective until disapproved by the Commission on Appointments or until the next adjournment of Congress, and once issued cannot be withdrawn. To ensure his appointees survive his June 30 term, the President should seek CA confirmation from the lame-duck Congress reconvening May 23, otherwise his picks may serve only until canvassing ends. Panganiban argues -- 'IMHO' -- that the President should now name a permanent chair and fill the two other vacancies, notes that non-lawyers may serve as commissioners (but not chair), and recommends one or two commissioners with finance, logistics, or digital-technology expertise to match Comelec's many-faceted duties. He observes that Duterte has favored insiders (Abas, plus SC picks from the Court of Appeals, Sandiganbayan, and OCA), unlike past outsider chairs (Davide Jr., Monsod, Pardo, Melo), and predicts Inting will likely succeed Abas. He closes by foreshadowing whether Duterte will maintain his insider habit when filling a current SC vacancy -- 'Abangan.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

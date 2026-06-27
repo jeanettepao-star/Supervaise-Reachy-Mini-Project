@@ -1,0 +1,165 @@
+{
+  "id": "CE056",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 56,
+  "title": "An oxymoron: A divided United States",
+  "date": "2021-01-24",
+  "link": "https://opinion.inquirer.net/137223/an-oxymoron-a-divided-united-states",
+  "keywords": [
+    "Biden inauguration",
+    "Lincoln parallel",
+    "biographical sketch",
+    "Amanda Gorman",
+    "reconciliation and unity",
+    "uncivil war",
+    "oldest and second-Catholic president"
+  ],
+  "primary_topics": [
+    "Biden's inauguration amid an 'oxymoron' -- a divided United States",
+    "Detailed biographical comparison between Biden and Lincoln",
+    "Lincoln's 'with malice towards none' precedent of post-war reconciliation",
+    "Amanda Gorman's inaugural poem as the closing benediction"
+  ],
+  "sub_topics": [
+    "Biden's vows: restore order, revive rule of law, heal COVID-19 wounds, win over 74M non-voters, reverse Trump immigration, regain alliance trust",
+    "Biden biographical micro-sketch: Irish-descent poor parents; childhood stutter overcome with mirror and poems; window-washing and gardening to pay tuition; ranked 76th of 85 in law school",
+    "Family tragedy: Neilia Hunter and Naomi's deaths Dec 18, 1972; survival of Beau and Hunter; suicidal grief; remarriage to Jill Tracy Jacobs 1977; daughter Ashley Blazer 1981",
+    "Political career: six Senate terms (1973-2009); 1987 withdrawal over plagiarism allegation; 1988 brain aneurysms removed; 2007 caucus exit at under 1%; Obama's VP 2008-2016; 2015 caucus exit on Beau's death; 2020 victory at age 78, oldest and second Catholic ever",
+    "Lincoln biographical parallel: 7 working to help family; orphaned at 9 by mother; 28 rejected marriage proposal; 37 elected to Congress on third try; 45 defeated in Senate election; 47 failed VP run; 51 elected 16th US president",
+    "Lincoln won only 40% of popular vote against four candidates; Confederate rejection both popular and electoral",
+    "'With malice towards none' and Booth's assassination by a Confederate sympathizer",
+    "Biden's inaugural call: 'We must end this uncivil war that pits red against blue, rural versus urban, conservative versus liberal'",
+    "Amanda Gorman at 22 as youngest poet to speak at a US presidential transition"
+  ],
+  "signature_phrases": [
+    "Joe Biden took his oath as the 46th American president amid an oxymoron",
+    "Historic, indeed, is Biden's vow",
+    "is he up to the job?",
+    "Let us see",
+    "Was, as a child, mocked as a stutterer",
+    "Overcame this deficiency by memorizing poems and repeating them in front of a mirror",
+    "ranking 76th in a class of 85",
+    "was widowed early",
+    "considered suicide",
+    "Recovered eventually",
+    "Riding above his personal misfortunes",
+    "the second Catholic ever",
+    "Biden's tragedies and triumphs are similar to an American hero who was born 211 years ago",
+    "He is Abraham Lincoln, one of the greatest US presidents",
+    "with malice towards none",
+    "could not accept they lost the war",
+    "Like Lincoln, Biden forthrightly offered, in his inaugural address, reconciliation and unity",
+    "We must end this uncivil war that pits red against blue, rural versus urban, conservative versus liberal",
+    "if we open our soul instead of hardening our hearts",
+    "May all the peace-loving peoples of the world celebrate",
+    "the youngest poet (at 22) to speak during a US presidential transition",
+    "while democracy can be periodically delayed, it can never be permanently defeated",
+    "a country that is bruised, but whole. Benevolent, but bold. Fierce and free",
+    "Amen! And may the USA be an oxymoron no more"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Joseph R. Biden Jr. (46th US president)",
+      "Neilia Hunter Biden",
+      "Beau Biden",
+      "Hunter Biden",
+      "Naomi Biden",
+      "Jill Tracy Jacobs Biden",
+      "Ashley Blazer Biden",
+      "Barack Obama (referenced)",
+      "Hillary Clinton (referenced)",
+      "Donald J. Trump (referenced)",
+      "Abraham Lincoln (16th US president)",
+      "Robert E. Lee (Confederate general)",
+      "John Wilkes Booth",
+      "Amanda Gorman (inaugural poet at 22)"
+    ],
+    "institutions": [
+      "United States Congress",
+      "US Senate (Biden's Delaware seat 1973-2009)",
+      "Democratic Party",
+      "Confederate States of America (historical)",
+      "Electoral College"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "Biden's inauguration as 46th US president (Jan 20, 2021)",
+      "Dec 18, 1972 -- death of Neilia and Naomi Biden in auto accident",
+      "1987 plagiarism withdrawal from Democratic primary",
+      "1988 brain-aneurysm surgery",
+      "2015 death of Beau Biden",
+      "Lincoln's 1860 election (40% popular vote among four candidates)",
+      "US Civil War",
+      "Lincoln's assassination by John Wilkes Booth",
+      "Amanda Gorman's inaugural recitation"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Biden's inauguration amid a divided United States is itself an oxymoron, and his vow to unite is historic -- to restore order, revive the rule of law, heal pandemic wounds, win over the 74M who did not vote for him, lift the country from depression, reverse Trump's immigration policies, and regain abandoned-ally trust.",
+      "rhetorical_move": "title-as-thesis + vow-enumeration",
+      "confidence": "asserted with 'is he up to the job?' suspended question"
+    },
+    {
+      "claim": "Biden's biography of poverty, stutter, family tragedy, undistinguished law standing (76th of 85), repeated failed presidential bids, and Beau's death -- culminating in a 2020 victory at age 78 as oldest US president and second Catholic ever -- qualifies him for the Lincoln-style task ahead.",
+      "rhetorical_move": "biographical-credentialing for office",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Biden's life mirrors Lincoln's structurally: child labor at 7, orphaned at 9 by mother, rejected marriage proposal at 28, elected to Congress only on third try at 37, defeated for Senate at 45, failed VP run at 47, finally president at 51 -- and Lincoln 'with malice towards none' forgave Confederate leaders without punishment, then was assassinated by a Confederate sympathizer.",
+      "rhetorical_move": "historical-parallel biographical mapping",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Like Lincoln, Biden in his inaugural address offered reconciliation and unity to the 74M who did not vote for him -- 'We must end this uncivil war that pits red against blue, rural versus urban, conservative versus liberal. We can do this -- if we open our soul instead of hardening our hearts.'",
+      "rhetorical_move": "direct-quotation of normative pledge",
+      "confidence": "asserted with hopeful framing"
+    },
+    {
+      "claim": "Amanda Gorman's inaugural poem at age 22 -- 'while democracy can be periodically delayed, it can never be permanently defeated. We will not march back to what was. But move to what shall be, a country that is bruised, but whole. Benevolent, but bold. Fierce and free' -- should be celebrated by all peace-loving peoples of the world.",
+      "rhetorical_move": "youngest-voice closing benediction",
+      "confidence": "asserted with explicit 'Amen!'"
+    }
+  ],
+  "notable_anecdotes": [
+    "Biden's law-school standing as the most disarming biographical detail -- 'finishing law unexceptionally, ranking 76th in a class of 85' -- used to humanize the eventual president rather than burnish him.",
+    "The Dec 18, 1972 detail -- Neilia and one-year-old Naomi killed in an automobile accident 'while shopping for a Christmas tree' -- turning a date into a domestic detail and underlining what Biden survived.",
+    "The structural-parallel mapping with Lincoln rendered as a numbered age-by-age timeline (7, 9, 28, 37, 45, 47, 51), one of the most explicit biographical-correspondence devices in this set of columns.",
+    "Lincoln's narrow 40%-of-four-candidates popular-vote victory and the Southern rejection both popular and electoral -- a chosen reminder that legitimacy crises preceded the actual Civil War, useful for the Trump-context analogy.",
+    "Amanda Gorman quoted at length -- 'a country that is bruised, but whole. Benevolent, but bold. Fierce and free' -- alongside CJ's own one-word benediction 'Amen!' -- a rare moment where CJ explicitly aligns his closing register with a contemporary American voice rather than legal authority."
+  ],
+  "target_audience": [
+    "Filipino observers of US politics",
+    "Christian-Catholic readership (Biden as second Catholic president)",
+    "Inquirer general readership",
+    "Civic-minded readers attending to the Trump-Biden transition",
+    "Younger readers via Amanda Gorman reference"
+  ],
+  "register_markers": [
+    "extended biographical-essay register with dot-leader sentence fragments ('Was widowed early...')",
+    "title-as-thesis (the 'oxymoron' frame)",
+    "Lincoln-as-historical-mirror device",
+    "direct inaugural-quotation",
+    "Amanda Gorman closing quotation",
+    "'Amen!' single-word benediction (Christian register)",
+    "exclamatory close ('may the USA be an oxymoron no more')",
+    "no Tagalog markers; English biographical-celebratory register",
+    "extensive use of ellipses (...) for biographical-list pacing"
+  ],
+  "decision_framework_signals": [
+    "applies title-as-thesis device ('oxymoron' frames the column)",
+    "uses biographical-credentialing of leaders (poverty, tragedy, repeated failure as warrant for office)",
+    "applies historical-parallel mapping (Biden-Lincoln age-by-age structure) as a normative template",
+    "treats 'with malice towards none' as the operational reconciliation model",
+    "uses youngest-voice closing benediction (Amanda Gorman) to align the column with generational hope",
+    "applies the 'open soul vs hardened heart' civic-spiritual binary to political reconciliation",
+    "treats inauguration vows as evaluable promises ('is he up to the job?')"
+  ],
+  "one_paragraph_summary": "On Joe Biden's inauguration as the 46th American president amid a divided United States -- the column's titular oxymoron -- Panganiban catalogs Biden's vows to restore order, revive the rule of law, heal pandemic wounds, win over the 74 million who did not vote for him, lift the country from depression, reverse Trump's immigration policies, and regain abandoned-ally trust. He sketches Biden's life in dot-leader fragments: born to poor Irish-descent parents; mocked as a child for stuttering; window-washing and gardening to pay for high school; ranking 76th of 85 in law school; widowed in 1972 when Neilia and one-year-old Naomi were killed shopping for a Christmas tree; suicidal grief; remarriage to Jill in 1977; six Senate terms; 1987 plagiarism withdrawal; 1988 brain-aneurysm surgery; 2007 caucus exit at under 1%; eight years as Obama's VP; 2015 exit on Beau's death; 2020 victory at age 78, oldest US president ever and only the second Catholic. He then maps Biden's tragedies and triumphs onto Lincoln's structurally -- child labor at 7, orphaned at 9, rejected marriage at 28, Congress on third try at 37, Senate defeat at 45, VP failure at 47, presidency at 51 -- recalling Lincoln's narrow 40% victory among four candidates, the Confederate rejection both popular and electoral, his 'with malice towards none' forgiveness of Robert E. Lee and the Confederate leadership, and his assassination by John Wilkes Booth, a Confederate sympathizer 'who could not accept they lost the war.' Like Lincoln, Biden offered reconciliation in his inaugural -- 'We must end this uncivil war that pits red against blue, rural versus urban, conservative versus liberal. We can do this -- if we open our soul instead of hardening our hearts.' CJ closes with Amanda Gorman's inaugural poem at 22 -- 'a country that is bruised, but whole. Benevolent, but bold. Fierce and free' -- and an 'Amen!': 'may the USA be an oxymoron no more.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

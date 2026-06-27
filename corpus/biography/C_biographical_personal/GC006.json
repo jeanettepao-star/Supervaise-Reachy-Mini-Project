@@ -1,0 +1,154 @@
+{
+  "id": "GC006",
+  "format": "G",
+  "type": "biography",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 6,
+  "title": "Independence by Design",
+  "date": "1963-1990",
+  "link": "",
+  "keywords": [
+    "PABLAW",
+    "Baron Travel 1967",
+    "Arpan Tourism 1974",
+    "American Society of Travel Agents",
+    "freedom from political dependency"
+  ],
+  "primary_topics": [
+    "Refusal of early government-service offers (judgeship + Malacañang technical assistant) as deliberate strategy",
+    "Determination-that-his-children-would-never-sleep-on-pavements parental motive",
+    "Independence-first sequencing -- PABLAW + teaching + business before public service",
+    "Travel-business entrepreneurial arc -- Baron Travel 1967 + Arpan Tourism 1974 + first-Asian-ASTA-chair",
+    "Restoration-of-childhood-dream -- five children at Harvard + Stanford + Chicago + Michigan + Berkeley"
+  ],
+  "sub_topics": [
+    "Did-not-rush-into-government-service deliberate posture",
+    "Offers to become judge + to join Malacañang as technical assistant -- declined",
+    "Reasons-not-ideological-but-practical-and-parental motivation framing",
+    "Public-service-did-not-pay-enough-to-shield-his-family insecurity-avoidance principle",
+    "Children-never-sleep-on-pavements-metaphorical-or-otherwise parental vow",
+    "PABLAW growth -- respected practicing lawyer → senior partner",
+    "Teaching at Far Eastern University + Assumption Convent + San Sebastian College",
+    "Demanding-classrooms requiring clarity + precision + ethical reasoning",
+    "Law-not-about-cleverness-but-about-trust pedagogical maxim",
+    "Business ventures not-for-opulence-but-for-autonomy",
+    "Baron Travel Corporation founded 1967",
+    "Arpan Tourism Industries Corporation founded 1974",
+    "Led Philippine Society of Travel Agents",
+    "Led Tourism Organization of the Philippines",
+    "First Asian to chair American Society of Travel Agents (ASTA) internationally",
+    "Freedom-from-political-dependency by his forties",
+    "Owed-no-patron-livelihood + could-say-no-and-often-did",
+    "Five children graduating from Harvard + Stanford + Chicago + Michigan + Berkeley -- eclipsing the Yale degree he never earned",
+    "Scarcity-defeated-not-by-luck-but-by-architecture closing maxim"
+  ],
+  "signature_phrases": [
+    "Art did not rush into government service",
+    "his children would never sleep on pavements -- metaphorical or otherwise",
+    "he built independence first",
+    "Law, he told students, was not about cleverness. It was about trust",
+    "not for opulence, but for autonomy",
+    "freedom from political dependency",
+    "He owed no patron his livelihood. He could say no -- and often did",
+    "the Yale degree he never earned would, in time, be eclipsed",
+    "Scarcity had been defeated -- not by luck, but by architecture"
+  ],
+  "entities": {
+    "people": [
+      "Artemio Villaseñor Panganiban Jr. (subject)",
+      "Five children (unnamed in section -- graduated from Harvard + Stanford + Chicago + Michigan + Berkeley)"
+    ],
+    "institutions": [
+      "PABLAW (Art's law firm -- grew to senior partnership)",
+      "Far Eastern University (teaching post)",
+      "Assumption Convent (teaching post)",
+      "San Sebastian College (teaching post)",
+      "Baron Travel Corporation (founded 1967)",
+      "Arpan Tourism Industries Corporation (founded 1974)",
+      "Philippine Society of Travel Agents (Art led)",
+      "Tourism Organization of the Philippines (Art led)",
+      "American Society of Travel Agents (ASTA -- Art first Asian to chair internationally)",
+      "Malacañang (declined technical-assistant offer)"
+    ],
+    "places": [],
+    "universities_attended_by_children": [
+      "Harvard University",
+      "Stanford University",
+      "University of Chicago",
+      "University of Michigan",
+      "University of California Berkeley"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Art did not rush into government service -- offers came early (judgeship, Malacañang technical assistant) and he declined them all; the reasons were not ideological but practical, even parental: public service did not pay enough to shield his family from the kind of insecurity he had known as a child. He was determined that his children would never sleep on pavements -- metaphorical or otherwise.",
+      "rhetorical_move": "did-not-rush deliberate-posture opening + parental-not-ideological motive-clarification + metaphorical-or-otherwise twist on the Sampaloc-sidewalk callback",
+      "confidence": "biographer-asserted as character-of-restraint thesis"
+    },
+    {
+      "claim": "So he built independence first -- PABLAW grew steadily; he became respected practicing lawyer + senior partner; teaching followed at Far Eastern University, Assumption Convent, San Sebastian College; his classrooms were demanding, insisting on clarity, precision, and ethical reasoning. Law, he told students, was not about cleverness -- it was about trust.",
+      "rhetorical_move": "built-independence-first sequencing + teaching-credential triad + law-not-about-cleverness-but-about-trust pedagogical maxim",
+      "confidence": "biographer-asserted as institution-building thesis"
+    },
+    {
+      "claim": "Beyond courtroom and classroom he ventured into business -- not for opulence but for autonomy: Baron Travel Corporation in 1967, then Arpan Tourism Industries Corporation in 1974; what began as pragmatic entrepreneurship evolved into leadership at scale -- he led the Philippine Society of Travel Agents, the Tourism Organization of the Philippines, and even the global American Society of Travel Agents, becoming the first Asian to chair it internationally.",
+      "rhetorical_move": "not-for-opulence-but-for-autonomy motive-clarification + Baron-1967 + Arpan-1974 founding-dates + first-Asian-to-chair-ASTA superlative",
+      "confidence": "biographer-asserted with corporate-credential anchoring"
+    },
+    {
+      "claim": "By the time he reached his forties, Art had achieved something rare: freedom from political dependency -- he owed no patron his livelihood, he could say no, and often did.",
+      "rhetorical_move": "by-his-forties timing + something-rare framing + owed-no-patron + could-say-no-and-often-did stance-of-independence triad",
+      "confidence": "biographer-asserted as character-of-independence thesis"
+    },
+    {
+      "claim": "He also achieved something quieter but more enduring: the restoration of a childhood dream -- the boy who once slept on sidewalks waiting for newspapers now ran travel companies that took him (and later his children) across the world; the Yale degree he never earned would in time be eclipsed by something more personal -- five children who would graduate from Harvard, Stanford, Chicago, Michigan, and Berkeley.",
+      "rhetorical_move": "restoration-of-childhood-dream emotional-arc + Sampaloc-callback + Yale-eclipsed-by-children retribution-reframe + five-Ivy-and-near-Ivy roster",
+      "confidence": "biographer-asserted as redemptive-arc thesis"
+    },
+    {
+      "claim": "Scarcity had been defeated -- not by luck, but by architecture.",
+      "rhetorical_move": "scarcity-defeated-not-by-luck-but-by-architecture closing maxim",
+      "confidence": "biographer-asserted as closing chapter-maxim"
+    }
+  ],
+  "notable_anecdotes": [
+    "Declining early offers -- judgeship + Malacañang technical assistant -- parental-not-ideological motive",
+    "Children-would-never-sleep-on-pavements-metaphorical-or-otherwise parental vow with Sampaloc-callback",
+    "PABLAW senior-partnership trajectory",
+    "Teaching at FEU + Assumption Convent + San Sebastian College -- three-institution roster",
+    "Law-not-about-cleverness-but-about-trust pedagogical maxim",
+    "Baron Travel Corporation founded 1967",
+    "Arpan Tourism Industries Corporation founded 1974",
+    "First Asian to chair the American Society of Travel Agents internationally -- superlative credential",
+    "Five children graduating from Harvard + Stanford + Chicago + Michigan + Berkeley -- Yale-eclipsed retribution",
+    "Scarcity-defeated-not-by-luck-but-by-architecture closing maxim"
+  ],
+  "target_audience": [
+    "Practicing-lawyer + private-firm readers (PABLAW-trajectory audience)",
+    "Filipino entrepreneurs in travel + tourism sectors",
+    "Law students considering private-vs-public-service career calibration",
+    "Family-oriented readers tracking children's educational outcomes",
+    "FLP donors interested in private-enterprise-as-prosperity-engine philosophy"
+  ],
+  "register_markers": [
+    "Did-not-rush deliberate-posture opening",
+    "Parental-not-ideological motive-clarification rhetorical device",
+    "Sampaloc-callback continuity device -- 'metaphorical or otherwise'",
+    "Founding-date concrete-anchor pattern -- 1967 + 1974",
+    "First-Asian superlative credential",
+    "Owed-no-patron + could-say-no triad of independence",
+    "Yale-eclipsed retribution-reframe of earlier-chapter foreclosure",
+    "Architectural metaphor closing -- scarcity-defeated-by-architecture-not-luck"
+  ],
+  "decision_framework_signals": [
+    "Build-independence-first before public-service sequencing principle",
+    "Parental-protection-over-prestige career-calibration test",
+    "Not-for-opulence-but-for-autonomy business-motive test",
+    "Owed-no-patron + can-say-no political-independence standard",
+    "Law-not-about-cleverness-but-about-trust pedagogical posture",
+    "Scarcity-defeated-by-architecture-not-luck structural-life-design principle"
+  ],
+  "one_paragraph_summary": "Art's independence-building chapter spanning 1963-1990, opening with his deliberate refusal of early government-service offers (judgeship, Malacañang technical assistant) for reasons that were 'not ideological but practical, even parental': he had been determined that 'his children would never sleep on pavements -- metaphorical or otherwise.' So he 'built independence first.' PABLAW grew to senior partnership; teaching followed at Far Eastern University, Assumption Convent, San Sebastian College -- demanding classrooms where he taught that 'law was not about cleverness -- it was about trust.' Business ventures came 'not for opulence, but for autonomy': Baron Travel Corporation in 1967, Arpan Tourism Industries Corporation in 1974, leadership of the Philippine Society of Travel Agents and the Tourism Organization of the Philippines, and ultimately the international chairmanship of the American Society of Travel Agents -- the first Asian to hold the role. By his forties he had achieved 'freedom from political dependency': he 'owed no patron his livelihood' and 'could say no -- and often did.' The quieter restoration: the boy who once slept on sidewalks waiting for newspapers now ran travel companies that crossed the world, and 'the Yale degree he never earned would, in time, be eclipsed by something more personal -- five children who would graduate from Harvard, Stanford, Chicago, Michigan, and Berkeley.' Closing maxim: 'Scarcity had been defeated -- not by luck, but by architecture.'",
+  "source_xlsx": "cjp_biography_curated_normalized.xlsx"
+}

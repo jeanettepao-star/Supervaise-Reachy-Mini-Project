@@ -1,0 +1,141 @@
+{
+  "id": "CA279",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 279,
+  "title": "Liabilities of internet intermediaries",
+  "date": "2018-03-25",
+  "link": "https://opinion.inquirer.net/111976/liabilities-internet-intermediaries",
+  "keywords": [
+    "internet intermediaries liability",
+    "editorial control test",
+    "economic interest test ECHR",
+    "fake news Senate committee",
+    "FLP dissertation Tess Marie Tan"
+  ],
+  "primary_topics": [
+    "Liability of active vs passive internet intermediaries for user content",
+    "Control test vs economic interest test from international jurisprudence",
+    "Author's endorsement of a neutral-platform rule for passive intermediaries"
+  ],
+  "sub_topics": [
+    "Senate committee on public information (Sen. Grace Poe) hearing on fake news",
+    "FLP Dissertation Contest second place -- Tess Marie P. Tan (P200,000, plaque)",
+    "Active intermediaries: editorial control, like Inquirer.net -- liable for published content",
+    "Passive intermediaries: no editorial control, like YouTube, Facebook, Twitter, Instagram, Google, Yahoo!",
+    "Question: can passive intermediaries privatize censorship?",
+    "Tan's ode to cyberspace as today's playground of liberty",
+    "Black Letter Approach -- beyond PH law to international instruments",
+    "UN Guiding Principles on Business and Human Rights",
+    "Covenants on Civil/Political and Social/Economic/Cultural Rights",
+    "Universal Declaration on Human Rights",
+    "International jurisprudence: ICJ, US, EU, France, Hungary, Estonia",
+    "US and European majority rule: liability only if editorial control exercised",
+    "China and Thailand: more restrictive -- penalize for illegal content (repressive effect on speech)",
+    "ECHR economic interest test as alternative",
+    "Tan's proposal: passive intermediaries should remain neutral; comply only with valid court orders",
+    "Full text at www.libpros.com"
+  ],
+  "signature_phrases": [
+    "active internet intermediaries",
+    "passive internet intermediaries",
+    "privatize censorship",
+    "Cyberspace is today's playground",
+    "liberty and prosperity are so uniquely intertwined in the internet",
+    "how does the rule of law safeguard both?",
+    "editorial control test",
+    "economic interest test",
+    "repressive effect on free speech",
+    "neutral platforms",
+    "best resolved by a court"
+  ],
+  "entities": {
+    "people": [
+      "Tess Marie P. Tan (dissertation second-place winner)",
+      "Sen. Grace Poe (Senate committee chair)",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Foundation for Liberty and Prosperity (FLP)",
+      "Ayala Corporation",
+      "Philippine Association of Law Schools (PALS)",
+      "Senate Committee on Public Information",
+      "European Court of Human Rights (ECHR)",
+      "International Court of Justice (ICJ)",
+      "University of San Carlos (Tan's institution)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "UN Guiding Principles on Business and Human Rights",
+      "International Covenant on Civil and Political Rights",
+      "International Covenant on Economic, Social and Cultural Rights",
+      "Universal Declaration of Human Rights",
+      "Rome Statute (comparative reference)"
+    ],
+    "events": [
+      "Senate committee hearing on fake news (date proximate to column)",
+      "FLP Dissertation Contest 2017-2018 awarding ceremony (March 23, 2018)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Active intermediaries with editorial control (like Inquirer.net) are liable for what they publish and for uploaded reader comments and photos.",
+      "rhetorical_move": "doctrinal statement of active-intermediary liability",
+      "confidence": "high"
+    },
+    {
+      "claim": "In the US and Europe, passive intermediaries are liable only if they exercised editorial control over content -- a majority rule that preserves the open internet.",
+      "rhetorical_move": "international-consensus summary",
+      "confidence": "high"
+    },
+    {
+      "claim": "More restrictive states like China and Thailand penalize passive intermediaries for illegal content, triggering a 'repressive effect' on free speech.",
+      "rhetorical_move": "comparative-law cautionary contrast",
+      "confidence": "high"
+    },
+    {
+      "claim": "The ECHR's economic interest test (liability if the intermediary had a commercial interest in the content) is a viable alternative to the editorial control test.",
+      "rhetorical_move": "alternative-standard presentation",
+      "confidence": "high"
+    },
+    {
+      "claim": "Passive intermediaries should remain neutral platforms and should only be liable upon refusal to comply with a valid court order -- not as content assessors.",
+      "rhetorical_move": "endorsement of Tan's neutral-platform proposal",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Sen. Grace Poe's Senate committee hearing on fake news as the political trigger for the column's topic.",
+    "Tess Marie Tan's opening ode to cyberspace: 'Cyberspace is today's playground. It is where we get our information, ramble about the trivialities of daily life, speak out against oppressive rulers, make friends, even find love...' -- a lyrical dissertation opener.",
+    "Tan's three-pivot structure: ode to liberty → exaltation of internet as liberty's modern arena → the central question of how the rule of law safeguards both liberty and prosperity online. Described by the author as 'Touché!'",
+    "China and Thailand as the comparative negative case -- penalizing passive intermediaries for all illegal content as a chilling effect on speech.",
+    "The economic interest test from the ECHR as an alternative to editorial control -- a nuanced mid-ground between editorial liability and full neutrality."
+  ],
+  "target_audience": [
+    "Sen. Poe's committee drafting fake-news legislation",
+    "Online news outlets and platform operators",
+    "Cybercrime and intellectual property practitioners",
+    "Constitutional law scholars studying freedom of expression",
+    "FLP scholars and law students in digital law"
+  ],
+  "register_markers": [
+    "Senate-hearing trigger as journalistic hook",
+    "Dissertation-summary register with quoted ode",
+    "Active/passive binary as organizing framework",
+    "International-jurisprudence sweep (ICJ, US, EU, ECHR, China, Thailand)",
+    "URL plug for full dissertation (www.libpros.com)",
+    "Single 'Touché!' exclamation as rare editorial delight"
+  ],
+  "decision_framework_signals": [
+    "Classify the intermediary first: active (editorial control) vs passive (neutral platform) -- liability attaches differently",
+    "For active intermediaries: apply traditional media libel and damages rules",
+    "For passive intermediaries: use the editorial control test or the ECHR economic interest test",
+    "Reject the China/Thailand model of penalizing passive intermediaries for all content -- it creates a repressive chilling effect",
+    "Require court orders (not self-censorship) before passive intermediaries must act on content",
+    "Treat the 'can a passive intermediary privatize censorship?' question as requiring a judicial answer, not an algorithmic one"
+  ],
+  "one_paragraph_summary": "Following a Senate committee hearing chaired by Sen. Grace Poe on fake-news liability for internet intermediaries, Panganiban summarizes the FLP Dissertation Contest second-place treatise (P200,000) by Tess Marie P. Tan of the University of San Carlos, titled 'Liberty and Prosperity in the Digital Age: Determining the Proper Treatment of Online Intermediaries in Light of the United Nations Guiding Principles on Business and Human Rights.' Tan distinguishes active intermediaries (with editorial control, like Inquirer.net -- liable for both published content and uploaded reader comments and photos) from passive intermediaries (without editorial control, like YouTube, Facebook, Twitter, Instagram, Google, and Yahoo!) and asks whether passive intermediaries should be liable for user content -- including intellectual property infringement and advertiser-fitness determinations. Using the Black Letter Approach, Tan surveys international instruments (UN Guiding Principles, ICCPR, ICESCR, UDHR), ICJ decisions, and the highest courts of the US, EU, France, Hungary, and Estonia, finding that in the US and Europe, passive intermediaries are held liable only if they exercised editorial control -- while more restrictive states like China and Thailand penalize intermediaries for all illegal content, triggering a 'repressive effect' on free speech. The ECHR offers an alternative 'economic interest test' -- liability if the intermediary had a commercial interest in the uploading. Tan's proposal: passive intermediaries should remain neutral platforms; assessing the lawfulness of content is a judicial question best resolved by courts; liability should attach only upon refusal to comply with a valid court order. Full text is at www.libpros.com.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,161 @@
+{
+  "id": "CA045",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 45,
+  "title": "Double jeopardy waived if accused appeals",
+  "date": "2025-06-02",
+  "link": "https://opinion.inquirer.net/183594/double-jeopardy-waived-if-accused-appeals",
+  "keywords": [
+    "anti-political dynasty",
+    "Article II Section 26",
+    "grave abuse of discretion",
+    "1Sambayan petition",
+    "Anim Comelec disqualification"
+  ],
+  "primary_topics": [
+    "Anti-political-dynasty enforcement",
+    "Separation of powers and judicial review of legislative inaction",
+    "Comelec disqualification under self-executing constitutional provisions"
+  ],
+  "sub_topics": [
+    "SC consolidation of the 1Sambayan, Kapatiran, and Trinidad petitions",
+    "10-day non-extendible comment order on Senate and HOR",
+    "Textual reading of Article II, Section 26",
+    "'Shall' + comma argument for mandatory duty",
+    "'As may be defined by law' as obligation, not loophole",
+    "Tanada v. Angara (May 2, 1997) -- duty to strike down GAD",
+    "Definition of grave abuse of discretion",
+    "Pending anti-dynasty bills (Sen. Robinhood Padilla and others)",
+    "Author's recusal as opinion writer and ARJ-SCP president",
+    "Anim petition naming five dynastic candidates",
+    "Lacson's first-degree-relatives commonsense argument",
+    "Comelec's denial and SC certiorari challenge"
+  ],
+  "signature_phrases": [
+    "Quixotic chances",
+    "unconscionably defied a duty mandated by the Constitution",
+    "ineluctably mandatory",
+    "the solemn duty--not just the power--to strike down GAD",
+    "whimsical, arbitrary, capricious, and despotic exercise of judgment",
+    "evasion of a positive duty or a virtual refusal to perform a duty",
+    "lest I be held in contempt as an opinion writer",
+    "in my delicate capacity",
+    "commonsense definition of dynasty"
+  ],
+  "entities": {
+    "people": [
+      "Ret. SAJ Antonio T. Carpio (1Sambayan lead)",
+      "Wilfredo Trinidad",
+      "Sen. Robinhood Padilla",
+      "Panfilo Lacson (senatorial candidate)",
+      "Bam Aquino (senatorial candidate)",
+      "Kiko Pangilinan (senatorial candidate)",
+      "Lawyer Alex Lacson (Anim co-convenor)",
+      "Former President Rodrigo Duterte (Davao mayoralty candidate)",
+      "Matthew Manotoc (Ilocos Norte gubernatorial candidate)",
+      "Peter Cua (Catanduanes gubernatorial candidate)",
+      "Speaker Martin Romualdez (Leyte 1st district congressional candidate)",
+      "Sen. Cynthia Villar (Las Piñas representative candidate)",
+      "Artemio V. Panganiban (author, ARJ-SCP president)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Senate of the Philippines",
+      "House of Representatives",
+      "1Sambayan coalition",
+      "Kapatiran party",
+      "Commission on Elections (Comelec)",
+      "Alyansa ng Nagkakaisang Mamamayan (Anim)",
+      "Association of Retired Justices of the Supreme Court of the Philippines (ARJ-SCP)"
+    ],
+    "cases": [
+      "Tanada v. Angara (May 2, 1997, en banc, unanimous)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution, Article II, Section 26 (equal access; anti-political dynasties)",
+      "1987 Constitution (grave abuse of discretion clause)"
+    ],
+    "events": [
+      "SC consolidation and 10-day comment order on Senate and HOR",
+      "Comelec denial of Anim petition",
+      "Anim's SC certiorari challenge to Comelec",
+      "Filing of Sen. Padilla's anti-dynasty bill"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Article II, Section 26's combination of the word 'shall' after 'State' and the comma between 'service' and 'and' makes the duty to prohibit political dynasties ineluctably mandatory.",
+      "rhetorical_move": "textualist-grammatical argument summarized from petitioners",
+      "confidence": "high"
+    },
+    {
+      "claim": "The phrase 'as may be defined by law' does not weaken but rather underscores Congress's obligation to define the scope and parameters of the prohibition.",
+      "rhetorical_move": "reframe-the-qualifier argument",
+      "confidence": "high"
+    },
+    {
+      "claim": "The judiciary has the solemn duty -- not just the power -- to strike down grave abuse of discretion under the GAD clause, citing Tanada v. Angara and other cases.",
+      "rhetorical_move": "petitioner-side doctrinal summary",
+      "confidence": "high"
+    },
+    {
+      "claim": "Even if petitioners succeed in showing GAD, residual questions remain: how much time should Congress be given (one year per petitioners), and whether that is reasonable.",
+      "rhetorical_move": "second-order procedural challenge",
+      "confidence": "high"
+    },
+    {
+      "claim": "Even with a favorable ruling, the Court must still respect Congress's constitutional discretion to define the scope, parameters, and limits of the prohibition.",
+      "rhetorical_move": "separation-of-powers caveat",
+      "confidence": "high"
+    },
+    {
+      "claim": "Author personally refrains from arguing for or against the petition, citing risk of contempt as an opinion writer and his delicate position as ARJ-SCP president of which SAJ Carpio is an esteemed member.",
+      "rhetorical_move": "explicit recusal-from-opinion statement",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Anim petition before the Comelec is more difficult, if not quixotic, because Comelec promptly denied it; the SC is now being asked to reverse via certiorari.",
+      "rhetorical_move": "characterization signaled in the column's title",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The SC's 10-day non-extendible comment order on the Senate and HOR -- a procedural escalation showing the Court is taking the consolidated petitions seriously.",
+    "Author citing 'one of my earliest en banc unanimous decisions, Tanada v. Angara (May 2, 1997)' as the petitioners' doctrinal anchor for the duty to strike down GAD.",
+    "Lawyer Alex Lacson arguing that first-degree relationships (husband-wife, parents-children, grandparents-descendants) come within the 'commonsense definition of dynasty' without need for any law.",
+    "Author's explicit dual-recusal: as an opinion writer (risk of contempt) and as the incumbent president of the Association of Retired Justices of the Supreme Court, since petitioner-lead SAJ Carpio is a member.",
+    "Sen. Robinhood Padilla and senatorial candidates Lacson, Aquino, and Pangilinan publicly vowing to push anti-dynasty legislation."
+  ],
+  "target_audience": [
+    "Supreme Court justices deliberating on the consolidated petitions",
+    "Senate and HOR members responsible for the unenacted enabling law",
+    "Comelec commissioners facing the Anim certiorari challenge",
+    "Constitutional law scholars and election lawyers",
+    "Civic readership tracking anti-dynasty advocacy",
+    "Reform-minded senatorial candidates"
+  ],
+  "register_markers": [
+    "Quixotic-tilting-at-windmills literary frame in the title",
+    "Textualist grammatical micro-analysis (the comma, the 'shall')",
+    "Latinate doctrinal vocabulary ('GAD', 'certiorari', 'inter alia')",
+    "Explicit recusal/disclosure statement mid-column",
+    "Numbered listing of dynastic candidates with positions",
+    "Restrained, scholarly tone with procedural neutrality",
+    "Closing dual-petition contrast structure"
+  ],
+  "decision_framework_signals": [
+    "Read constitutional provisions through both their text and their punctuation (comma placement, mood of verbs)",
+    "Treat 'as may be defined by law' as obligation-creating rather than obligation-defeating language",
+    "Apply the GAD clause to inaction as well as action -- refusal or neglect to perform a constitutional duty can be GAD",
+    "Distinguish between two sequential questions: (1) is there GAD, and (2) if yes, what remedy respects Congress's discretion?",
+    "Frame remedy in time-bound terms (one year) but test reasonableness",
+    "Disclose institutional and professional conflicts before commenting on pending cases",
+    "Treat Comelec denials of constitutionally grounded petitions as susceptible to certiorari review",
+    "Recognize the difference between a petition for legislation (likely path to law) and a petition for direct disqualification (likely path to dismissal)"
+  ],
+  "one_paragraph_summary": "Panganiban reports that the Supreme Court has consolidated three anti-political-dynasty petitions -- by the 1Sambayan coalition led by retired SAJ Antonio T. Carpio, the Kapatiran party, and Wilfredo Trinidad -- and required the Senate and House to comment within a non-extendible 10 days. He lays out the petitioners' textualist reading of Article II, Section 26: the word 'shall' after 'State' and the comma between 'service' and 'and' make the duty to prohibit political dynasties ineluctably mandatory, and the phrase 'as may be defined by law' underscores rather than weakens Congress's obligation to define the prohibition's scope. The petitioners invoke the judiciary's solemn duty under the GAD clause -- citing his own Tanada v. Angara (May 2, 1997) -- to strike down whimsical, arbitrary, capricious, and despotic exercises of judgment that amount to a refusal to perform a positive constitutional duty. Pending bills from Sen. Robinhood Padilla and senatorial candidates Lacson, Aquino, and Pangilinan complicate the GAD showing. Author explicitly recuses himself from arguing for or against the petition, both as an opinion writer at risk of contempt and as the incumbent president of the Association of Retired Justices, of which Carpio is a member, but he raises two residual questions if petitioners prevail: how much time should Congress be given (petitioners suggest one year), and how the Court can grant relief while still respecting Congress's discretion to define scope and parameters. He flags as 'more difficult, if not quixotic' the Anim petition before the Comelec to disqualify five publicly dynastic candidates -- former President Rodrigo Duterte (Davao mayor), Matthew Manotoc (Ilocos Norte governor), Peter Cua (Catanduanes governor), Speaker Martin Romualdez (Leyte 1st district), and Sen. Cynthia Villar (Las Piñas representative) -- based on a commonsense first-degree-relative definition; the Comelec promptly denied it and Anim has elevated the matter to the Supreme Court.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

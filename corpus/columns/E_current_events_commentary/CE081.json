@@ -1,0 +1,115 @@
+{
+  "id": "CE081",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 81,
+  "title": "No permanent friends or enemies",
+  "date": "2017-05-28",
+  "link": "https://opinion.inquirer.net/104346/no-permanent-friends-enemies",
+  "keywords": [
+    "independent foreign policy",
+    "Palmerston permanent interests",
+    "China Philippines",
+    "Duterte foreign policy",
+    "liberty and prosperity",
+    "ASEAN Law Association",
+    "geopolitical shift",
+    "checks and balances foreign policy"
+  ],
+  "primary_topics": [
+    "Philosophical analysis of the 'no permanent friends or enemies' doctrine in international relations",
+    "Duterte's independent foreign policy pivot from the US toward China and Russia",
+    "CJ's 'liberty and prosperity' thesis: economic development and political freedom as ultimately inseparable"
+  ],
+  "sub_topics": [
+    "Lord Palmerston as origin of the 'permanent interests' doctrine",
+    "WWII allies-turned-rivals: Germany/Japan now US allies; China/Russia now rivals",
+    "PH pivot: investments, trade, tourism, aid now focused on China and Russia",
+    "Philippine President's wide foreign-policy discretion due to classified information access",
+    "Judiciary can declare treaties unconstitutional; SC can review presidential actions for grave abuse",
+    "Senate (2/3 vote) can ratify/reject treaties; Commission on Appointments can confirm/reject ambassadors",
+    "Congress can legislate and appropriate funds as foreign-policy check",
+    "Historical power shifts: Egypt → Greece → Rome → France → Britain → United States",
+    "China predicted to overtake US as largest economy by 2030",
+    "Liberty-prosperity interplay: some countries prioritize economy first, others liberty first",
+    "CJ's ASEAN Law Association speech: all peoples eventually need liberty and prosperity in equal measure",
+    "Religious counterpoint: Christianity (love God and neighbor) and Buddhism/Hinduism (Nirvana) as selfless alternatives to national-interest pragmatism"
+  ],
+  "signature_phrases": [
+    "no permanent friends or permanent enemies, only permanent interests",
+    "the Chinese dragon and the Russian bear",
+    "the American eagle",
+    "Will the 21st be China's?",
+    "the libertarian spirit catches up inexorably with prosperity",
+    "all the peoples of the world need liberty and prosperity in equal measure",
+    "differing starts and focus are necessary in the growth of nations"
+  ],
+  "entities": {
+    "people": [
+      "Lord Palmerston (John Henry Temple) -- originator of the 'permanent interests' doctrine",
+      "President Rodrigo Duterte (independent foreign policy architect)",
+      "Artemio V. Panganiban (author, former CJ; ASEAN Law Association speaker)"
+    ],
+    "institutions": [
+      "ASEAN Law Association",
+      "Commission on Appointments",
+      "Senate of the Philippines",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "Duterte's foreign policy pivot toward China and Russia",
+      "CJ's speech before the ASEAN Law Association (approximately two years before column)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Duterte's independent foreign policy pivot toward China and Russia — guided by the 'permanent interests' doctrine — is constitutionally permissible and geopolitically rational given the trajectory of China's rising economic power, even if it departs from traditional US-alliance priorities.",
+      "rhetorical_move": "pragmatism-validation: applying the Palmerston doctrine as historical precedent for the PH pivot without endorsing or criticizing Duterte",
+      "confidence": "descriptive with implicit acceptance"
+    },
+    {
+      "claim": "The President's wide foreign-policy discretion is constitutionally bounded: the SC can invalidate treaties and presidential actions, the Senate can reject treaties, Congress can legislate and appropriate, and the Commission on Appointments can reject ambassadors — making PH foreign policy a system of checks, not a presidential monopoly.",
+      "rhetorical_move": "constitutional-checks mapping as a reassurance counterweight to the president's wide discretion",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Economic prosperity and political liberty are ultimately inseparable: whether a nation starts with economic development or political freedom, 'eventually and inevitably, all the peoples of the world need and deserve liberty and prosperity in equal measure' — meaning the PH cannot permanently trade liberty for Chinese prosperity.",
+      "rhetorical_move": "convergence-thesis as a long-arc prediction: using historical inevitability to caution against permanently sacrificing liberty for economic alignment",
+      "confidence": "asserted as CJ's personal conviction from ASEAN Law Association speech"
+    }
+  ],
+  "notable_anecdotes": [
+    "The religious counterpoint parenthetical — Christ's Two Great Commandments and Buddhism/Hinduism's Nirvana as selfless alternatives to the national-interest pragmatism of Palmerston — inserted mid-analysis as a values-based counterweight, not a policy argument, reflecting CJ's habit of grounding political analysis in moral philosophy.",
+    "CJ's ASEAN Law Association speech quote on the liberty-prosperity thesis — deployed as personal testimony from an international forum, lending the argument an authoritative cross-jurisdictional dimension beyond domestic commentary.",
+    "The historical power-succession list (Egypt → Greece → Rome → France → Britain → US → China?) as a visual macro-argument for geopolitical humility — presented not as alarmism but as pattern-recognition grounding the 2030 China projection."
+  ],
+  "target_audience": [
+    "Policy analysts and commentators following Duterte's foreign policy pivot",
+    "Legal professionals interested in the constitutional limits on presidential foreign-policy discretion",
+    "ASEAN regional community readers tracking PH-China-US dynamics",
+    "Civic readers seeking a philosophical framework for evaluating the liberty-vs-prosperity trade-off",
+    "General Inquirer readership processing the geopolitical shift"
+  ],
+  "register_markers": [
+    "international-relations theory register (Palmerston, permanent interests doctrine)",
+    "geopolitical-animal metaphor (American eagle, Chinese dragon, Russian bear)",
+    "historical-sweep macro-narrative (Egypt to potential Chinese century)",
+    "religious-counterpoint parenthetical (Christ's commandments, Nirvana) as values anchor",
+    "personal-testimony register (ASEAN Law Association speech as direct quotation)",
+    "constitutional-checks mapping as institutional-reassurance counterweight",
+    "rhetorical-question historical close ('Will the 21st be China's?')"
+  ],
+  "decision_framework_signals": [
+    "applies Palmerston doctrine as the primary analytical lens for evaluating the PH foreign policy pivot",
+    "uses constitutional-checks mapping to establish the outer limits of presidential discretion",
+    "uses convergence-thesis (liberty-prosperity inevitability) as a long-arc normative anchor against permanent liberty trade-offs",
+    "applies historical-power-succession pattern as a probabilistic framework for China-rise prediction",
+    "treats classified-information access as the institutional justification for wide executive foreign-policy discretion"
+  ],
+  "one_paragraph_summary": "Panganiban uses the Palmerston doctrine -- 'no permanent friends or enemies, only permanent interests' -- to analyze Duterte's independent foreign policy pivot from the 'American eagle' toward the 'Chinese dragon and Russian bear,' situating it in a historical pattern from WWII's reversal of alliances (Germany and Japan now US allies; China and Russia now rivals) to today's PH reorientation of trade, investment, tourism, and aid. He notes that while the President's foreign-policy discretion is wide -- justified by access to classified information -- it is constitutionally bounded by SC review, Senate treaty ratification, congressional appropriations, and Commission on Appointments confirmation of ambassadors. He then embeds the geopolitical analysis in a macro-historical progression (Egypt → Greece → Rome → France → Britain → US → possibly China by 2030) and tests whether the PH should trade libertarian ideals for Chinese prosperity. Drawing on his ASEAN Law Association speech, he argues that while nations may legitimately prioritize economic development or political liberty in different sequences, 'eventually and inevitably, all the peoples of the world need and deserve liberty and prosperity in equal measure' -- a convergence thesis that implicitly cautions against a permanent liberty sacrifice for economic alignment, balanced by a religious-philosophical counterpoint on Christian and Buddhist selflessness as the moral alternative to pure national-interest pragmatism.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

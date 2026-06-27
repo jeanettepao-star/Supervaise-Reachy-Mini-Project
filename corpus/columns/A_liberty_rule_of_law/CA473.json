@@ -1,0 +1,125 @@
+{
+  "id": "CA473",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 473,
+  "title": "Postscript on dollar deposits and SALNs",
+  "date": "2012-12-15",
+  "link": "https://opinion.inquirer.net/42807/postscript-on-dollar-deposits-and-salns",
+  "keywords": [
+    "dollar deposits SALN",
+    "Corona impeachment",
+    "bank secrecy",
+    "money laundering HSBC",
+    "Gopac money laundering",
+    "Justice Leonen appointment",
+    "House SALN disclosure",
+    "PSBank petition"
+  ],
+  "primary_topics": [
+    "Legal obligation of public officials to disclose dollar deposits in their SALNs",
+    "Money laundering as an international anti-corruption mechanism eroding bank secrecy",
+    "House members' hypocrisy in prosecuting Corona for SALN deficiencies while refusing to release their own"
+  ],
+  "sub_topics": [
+    "SC dismissed PSBank's petition as moot -- impeachment trial terminated, no longer relevant",
+    "Dollar accounts: legal to hold in the Philippines -- controversy was about SALN disclosure, not legality",
+    "If public officials need not disclose dollar accounts, anti-graft laws can be circumvented via peso-to-foreign-currency conversion",
+    "SC's opening of dollar accounts: narrow exception for impeachable officials only (President, VP, SC justices, Ombudsman, ConCom members)",
+    "Private citizens' bank secrecy remains sacred",
+    "Switzerland liberalized bank secrecy; confiscated loot of dictators and despots",
+    "Banks must report transactions of $10,000+ to anti-money laundering councils worldwide",
+    "Money laundering defined: cash from illegal activities deposited, layered into legitimate assets (real estate, vehicles, jewelry, casino winnings), redeposited",
+    "HSBC agreed to pay $1.9 billion to US authorities to settle money laundering probe",
+    "Gopac conference (Jan. 31 - Feb. 2, 2013): money laundering as major topic",
+    "House members' hypocrisy: zealously prosecuted Corona on SALN grounds but refuse to release their own",
+    "House members' excuses: committee to prepare guidelines, referral to another group for review",
+    "Constitution Art. XI Sec. 17 and RA 6713: mandatory SALN submission and public right to know",
+    "Justice Leonen: 172nd SC member; 20+ year term; UP magna cum laude economics and law; Columbia LLM; peace negotiations with MILF"
+  ],
+  "signature_phrases": [
+    "moot and academic",
+    "most definitely",
+    "bank secrecy remains sacred",
+    "cleaned or laundered",
+    "layered",
+    "a whopping $1.9 billion (yes, billion)",
+    "having been so zealous in prosecuting Corona",
+    "they should really set the example",
+    "real passion -- in which he excels even more -- is teaching and practicing law"
+  ],
+  "entities": {
+    "people": [
+      "CJ Renato C. Corona (impeached; dollar accounts at issue)",
+      "Justice Marvic M.V.F. Leonen (172nd SC member, recently appointed)",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "PSBank (petitioner, SC dismissed)",
+      "Supreme Court of the Philippines",
+      "Senate (impeachment court)",
+      "House of Representatives",
+      "HSBC (paid $1.9B US money laundering settlement)",
+      "Global Organization of Parliamentarians Against Corruption (Gopac)",
+      "University of the Philippines",
+      "Columbia University"
+    ],
+    "cases": [
+      "PSBank petition (dismissed as moot -- impeachment trial terminated)"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution Art. XI Sec. 17 -- SALN obligation for all public officials",
+      "Republic Act No. 6713 -- Code of Conduct Law (SALN obligation and public right to know)"
+    ],
+    "events": [
+      "Corona impeachment trial (concluded prior to column)",
+      "PSBank petition dismissal",
+      "HSBC $1.9 billion US money laundering settlement",
+      "Justice Leonen's appointment as 172nd SC member",
+      "Upcoming Gopac conference (Jan. 31 - Feb. 2, 2013)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Public officials must disclose their dollar deposits in their SALNs: if not required, anti-graft laws could be easily circumvented by converting ill-gotten peso wealth to foreign currency and depositing it in banks — making SALN disclosure of dollar accounts a structural anti-corruption necessity.",
+      "rhetorical_move": "circumvention-prevention argument: the disclosure requirement's rationale is the ease with which its absence would be exploited",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The House members who zealously prosecuted Corona for SALN deficiencies are hypocrites for refusing to release their own SALNs, hiding behind procedural excuses (guideline committees, review groups) when the Constitution and RA 6713 already impose a clear legal obligation.",
+      "rhetorical_move": "tu quoque accountability argument: those who prosecuted on SALN grounds must be held to the same standard",
+      "confidence": "asserted with constitutional grounding"
+    }
+  ],
+  "notable_anecdotes": [
+    "HSBC's $1.9 billion settlement with US authorities for money laundering — deployed as the most vivid contemporary example of how even the world's largest banks are being held accountable for laundering illegal cash, lending urgency to the Gopac conference's money laundering agenda.",
+    "Justice Leonen appended as a congratulatory postscript — CJ notes that while Leonen gained public acclaim for the MILF peace negotiations, his 'real passion — in which he excels even more — is teaching and practicing law, and using it to champion human rights, environmental activism and indigenous people's advocacies': a personal tribute that distinguishes the public-fame reason for Leonen's appointment from the deeper legal-philosophical qualities CJ most admires.",
+    "The House members' SALN hypocrisy — forming a committee to prepare guidelines only to refer the draft to another group — as a bureaucratic stonewalling tactic CJ exposes with barely contained sarcasm, using the Corona prosecution itself as the ironic standard by which the House must now be judged."
+  ],
+  "target_audience": [
+    "Government employees asking about the legality of their dollar deposits",
+    "Anti-corruption advocates monitoring SALN compliance among public officials",
+    "House members as the primary implied audience for the SALN hypocrisy critique",
+    "Law students studying bank secrecy exceptions and anti-money laundering law",
+    "General civic readership following the Corona impeachment aftermath and Leonen appointment"
+  ],
+  "register_markers": [
+    "postscript-format register (column explicitly framed as a follow-up to prior reader questions)",
+    "Q-and-A direct-answer structure ('The answer is Yes, most definitely')",
+    "hypocrisy-exposure register (House zealousness in prosecuting Corona vs refusal to release own SALNs)",
+    "money-laundering definition explainer (deposit → layer → redeposit)",
+    "dollar-emphasis device ('a whopping $1.9 billion (yes, billion)')",
+    "congratulatory-postscript close (Leonen tribute with personal-assessment detail)"
+  ],
+  "decision_framework_signals": [
+    "applies circumvention-prevention test: the disclosure requirement's necessity is proven by what its absence would enable",
+    "uses narrow-exception mapping: dollar account opening by SC is limited to impeachable officials only; private citizens unaffected",
+    "applies tu quoque accountability standard: SALN-prosecution conduct creates an obligation to disclose one's own SALN",
+    "uses $10,000 reporting threshold as the international standard for anti-money laundering disclosure",
+    "treats Art. XI Sec. 17 + RA 6713 as the dual-source legal obligation superseding any House internal guideline delays"
+  ],
+  "one_paragraph_summary": "Writing as a postscript to reader questions arising from the Corona impeachment dollar-deposits issue, Panganiban clarifies two points: (1) dollar deposits are perfectly legal to hold in the Philippines -- the controversy was about SALN disclosure, not legality; and (2) public officials must disclose their dollar accounts in their SALNs because if they need not, anti-graft laws could be circumvented simply by converting ill-gotten pesos to foreign currency. He notes the SC dismissed PSBank's petition as moot (impeachment trial concluded), and that the SC's opening of dollar accounts constituted a narrow exception only for impeachable officials (President, VP, SC justices, Ombudsman, ConCom members) -- private citizens' bank secrecy remains unaffected. He contextualizes the anti-bank-secrecy trend internationally: Switzerland liberalized its secrecy laws; banks must report $10,000+ transactions to anti-money laundering councils; and HSBC agreed to pay 'a whopping $1.9 billion (yes, billion)' to US authorities for a money laundering probe. He then calls out the House members who zealously prosecuted Corona on SALN grounds but refuse to release their own, hiding behind committee-to-prepare-guidelines and review-group excuses -- when both the Constitution (Art. XI Sec. 17) and RA 6713 already impose a clear SALN obligation. Appended: congratulations to newly appointed Justice Leonen (172nd SC member; UP magna cum laude; Columbia LLM; MILF peace negotiations), with CJ noting that Leonen's 'real passion -- in which he excels even more -- is teaching and practicing law, and using it to champion human rights, environmental activism and indigenous people's advocacies.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

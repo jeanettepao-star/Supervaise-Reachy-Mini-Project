@@ -1,0 +1,137 @@
+{
+  "id": "CA273",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 273,
+  "title": "VP 'shading' ready for ruling - finally",
+  "date": "2018-07-08",
+  "link": "https://opinion.inquirer.net/114457/vp-shading-ready-ruling-finally",
+  "keywords": [
+    "Bongbong Marcos Leni Robredo PET",
+    "50-percent shading rule",
+    "SD card ballot images",
+    "OSG extensions Comelec",
+    "Tinga Cayetano Taguig mayoralty"
+  ],
+  "primary_topics": [
+    "Presidential Electoral Tribunal shading-threshold dispute",
+    "SD card ballot images as a superior remedy",
+    "OSG delay and procedural maneuvering"
+  ],
+  "sub_topics": [
+    "50% vs 25% shading rule in Bongbong-Leni PET",
+    "Automated machines counting 25%-shaded ballots",
+    "PET ruling requiring 50%, unintentionally disenfranchising 25-50% gap shaders",
+    "Author's June 14 column backing reversion to 25%",
+    "OSG extensions: 15-day extensions three times despite PET 'warning'",
+    "OSG final Comment supporting Bongbong's 50% stance",
+    "Comelec's own resolution confirming 25% threshold",
+    "SD card / ballot-image rerun as 'better remedy'",
+    "Tinga v. Cayetano Taguig mayoralty protest 2010/2012",
+    "J. Tinga's two letters contesting the SD card reference",
+    "Author's Inquirer quote rebuttal (Oct. 5, 2012)",
+    "Digital vs physical ballot manipulation debate",
+    "Camarines Sur precincts 'irregularities' late-breaker"
+  ],
+  "signature_phrases": [
+    "ready for ruling--finally",
+    "snail-paced processes of a bygone era",
+    "speedy, quality justice",
+    "theoretically may be altered",
+    "ultra-high priority by law",
+    "cheat-proofing digital images",
+    "if still unsatisfied, he can maintain his views, while I stay with mine",
+    "better remedy"
+  ],
+  "entities": {
+    "people": [
+      "Former Senator Ferdinand 'Bongbong' Marcos Jr.",
+      "Vice President Leni Robredo",
+      "Ret. Justice Dante O. Tinga",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Presidential Electoral Tribunal (PET)",
+      "Office of the Solicitor General (OSG)",
+      "Commission on Elections (Comelec)",
+      "Board of Election Inspectors (BEI)",
+      "Bureau of Immigration (referenced in PDO context)"
+    ],
+    "cases": [
+      "Marcos v. Robredo (Bongbong-Leni PET protest)",
+      "Tinga v. Cayetano (Taguig mayoralty protest, 2010/2012)"
+    ],
+    "laws_treaties": [
+      "Election laws (ultra-high priority for election cases)",
+      "Comelec resolution confirming 25% threshold",
+      "Rules of Court (moot and academic dismissal)"
+    ],
+    "events": [
+      "OSG's three extensions for Comment (up to July 11)",
+      "OSG's final Comment supporting Bongbong (filed Friday)",
+      "Tinga's first letter (published June 26)",
+      "Tinga's second letter (dated June 29)",
+      "BEI order to explain Camarines Sur irregularities"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The PET's 50% shading rule unintentionally disenfranchises voters who shaded between 25% and 50%, and should revert to the 25% threshold.",
+      "rhetorical_move": "voter-disenfranchisement argument from author's prior column",
+      "confidence": "high"
+    },
+    {
+      "claim": "The OSG's three rounds of extensions despite the PET's warning, and its final Comment supporting Bongbong rather than its client Comelec's own 25% resolution, are difficult to understand.",
+      "rhetorical_move": "procedural-conduct critique",
+      "confidence": "high"
+    },
+    {
+      "claim": "The better remedy for the shading dispute is to rerun the SD card digital ballot images, which can settle the threshold issue speedily and guide lower courts in the digital age without resorting to snail-paced paper processes.",
+      "rhetorical_move": "digital-efficiency prescription",
+      "confidence": "high"
+    },
+    {
+      "claim": "J. Tinga's argument that the Taguig mayoralty used intact physical ballots (not SD cards) does not negate the 'better remedy' -- a resort to digital ballot images could still speedily settle the threshold issue.",
+      "rhetorical_move": "arguendo rebuttal preserving own position",
+      "confidence": "high"
+    },
+    {
+      "claim": "Digital images are no more susceptible to manipulation than physical ballots, and there are ways of cheat-proofing both.",
+      "rhetorical_move": "equivalence argument neutralizing the alteration objection",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The OSG asking for three successive 15-day extensions despite the PET's explicit 'warning that no further extension will be given' -- and then filing a Comment supporting not its client Comelec's 25% resolution but Bongbong's 50% stance.",
+    "J. Dante Tinga's two public letters (June 26 and June 29) disputing the SD card reference: first letter insisting the Taguig ballots were intact; second insisting the Comelec violated its own rule by using CFC (compact flash card) images instead of revising the physical ballots. Author noting Tinga's SC appeal was dismissed as moot and academic.",
+    "The phrase 'if still unsatisfied, he can maintain his views, while I stay with mine' -- a rare instance of CJ Panganiban closing off a collegial dispute with polite finality.",
+    "The late-breaking Camarines Sur irregularities angle -- BEI ordered to explain -- with author pledging to await explanations before writing on it."
+  ],
+  "target_audience": [
+    "PET justices deliberating the shading-threshold ruling",
+    "Bongbong Marcos and Leni Robredo campaign counsels",
+    "OSG and Comelec officials",
+    "Election lawyers and protest practitioners",
+    "Civic readership following the 2022 VP election protest"
+  ],
+  "register_markers": [
+    "Sequential-update reporting register (cross-referencing June 14 and June 26 columns)",
+    "Direct-quote inclusion of Tinga's letters and author's Inquirer rebuttal",
+    "Procedural-timeline format (extension dates)",
+    "Polite-but-firm collegial dispute closure",
+    "Digital-vs-physical ballot debate register",
+    "Late-breaker acknowledgment with waiting pledge"
+  ],
+  "decision_framework_signals": [
+    "Favor the 25% shading threshold as the original machine-verified standard -- avoid disenfranchising the 25-50% gap",
+    "Call out agency delay when OSG ignores PET extensions warning -- election cases are ultra-high priority",
+    "Propose digital ballot image reruns as a faster, legally adequate remedy in the digital age",
+    "Resist the claim that digital images are uniquely susceptible to manipulation -- equivalent safeguards exist for both paper and digital",
+    "Apply arguendo: even if the opponent's facts are accepted, the recommended remedy still works",
+    "Exercise restraint on breaking developments (Camarines Sur) until documents are in hand"
+  ],
+  "one_paragraph_summary": "Panganiban updates readers on the Presidential Electoral Tribunal's Bongbong-Leni protest, focusing on the crucial shading-threshold issue now finally ready for ruling after the OSG filed its Comment. Background: the PET had earlier ruled that only 50%-shaded ballots should count, unintentionally disenfranchising voters who shaded between 25% and 50%; the author's June 14 column backed reversion to the 25% threshold, and even Comelec submitted a resolution confirming it used 25% at the precincts. But the OSG sought three successive 15-day extensions despite the PET's explicit warning against further delays, and its final Comment -- while a positive development -- puzzlingly supported Bongbong's 50% stance rather than its own client Comelec's 25% resolution. The author reiterates his preferred 'better remedy': rerunning the SD card digital ballot images, which can speedily settle the threshold issue and guide lower courts in the digital age without resorting to 'snail-paced processes of a bygone era.' This drew two published letters from retired Justice Dante Tinga: first, insisting the Taguig mayoralty ballots were intact (not the occasion for SD card use); second, insisting that Comelec's CFC-image resort in that case violated its own rule requiring revision of physical ballots first. The author rebuts the first with his October 2012 Inquirer quote showing Comelec did in fact use CFC images in Tinga v. Cayetano, dismisses the second with the note that Tinga's SC appeal was dismissed as moot and academic, and closes the collegial dispute with: 'If still unsatisfied, he can maintain his views, while I stay with mine.' He ends by flagging the late-breaking BEI order to explain alleged irregularities in Camarines Sur precincts, pledging to await those explanations before writing on it.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

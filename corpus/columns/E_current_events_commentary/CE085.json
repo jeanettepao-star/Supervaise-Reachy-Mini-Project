@@ -1,0 +1,155 @@
+{
+  "id": "CE085",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 85,
+  "title": "Will Trump emulate Gore?",
+  "date": "2016-10-30",
+  "link": "https://opinion.inquirer.net/98819/will-trump-emulate-gore",
+  "keywords": [
+    "Trump pre-election refusal to accept results",
+    "'240 years of US democracy' Clinton rebuke",
+    "Electoral College mechanics primer",
+    "Bush v. Gore (2000) 5-4",
+    "Jeb Bush Florida governor partisan critique",
+    "Gore 2006 visit Panganiban conversation",
+    "'something greater than me' patriotism"
+  ],
+  "primary_topics": [
+    "Trump's pre-election refusal to commit to accepting results",
+    "Mechanics of US indirect election via Electoral College",
+    "Gore vs Bush 2000 -- popular vote winner conceded after 5-4 SC denial of Florida recount",
+    "CJ's 2006 private conversation with Gore on his patriotic concession reasoning",
+    "Implicit challenge: can Trump emulate Gore's institutional patriotism?"
+  ],
+  "sub_topics": [
+    "Third and last US presidential debate question on accepting results",
+    "Trump's non-commitment: 'I'll tell you at the time. I'll keep you in suspense. Ok?'",
+    "Trump pillorying media for 'rigging' via sexual assault reports",
+    "Comparison to PH electoral fraud framing",
+    "Trump's modified position: accept results 'provided I win'",
+    "Clinton's appalled response -- 240 years of US democracy never had losers cite rigging",
+    "American voters vote for 'electors' pledged to vote for chosen candidate (indirect)",
+    "State legislatures determine elector selection methods",
+    "Election Day fixed: first Tuesday after first Monday of November (Nov 8 in 2016)",
+    "Inauguration Day Jan 20 of ensuing year",
+    "California 55 electors (most populous); Alaska/Montana/Wyoming/DC 3 each",
+    "538 total electors; 270-vote winning threshold",
+    "Winner-takes-all (except Maine and Nebraska)",
+    "Historical popular-vs-EC divergences: 1824, 1876, 1888, 2000",
+    "2000 election: Gore won popular vote, lost EC 271-266 to George W. Bush",
+    "US SC 5-4 refusal of Florida manual recount of imperfectly punched ballots",
+    "Florida governor Jeb Bush (George's brother); Florida electoral commission headed by Cabinet member of governor",
+    "5 anti-Gore justices all appointed by Republican presidents",
+    "Gore's humble acceptance despite widespread howling",
+    "CJ's 2006 private conversation with Gore during PH visit",
+    "Gore's reply: 'there is something greater than me. The survival of our democratic institutions is more important than my personal victory'",
+    "Gore's chaos prediction: months of manual recount, leaderless United States in January, political upheaval",
+    "CJ's metaphor: Gore tall and husky but immediately 'rose 10 feet taller'",
+    "Closing rhetorical question: same patriotism from Trump?"
+  ],
+  "signature_phrases": [
+    "I'll tell you at the time. I'll keep you in suspense. Ok?",
+    "Reminiscent of Philippine elections",
+    "How, in the first place, is the US president (and vice president) chosen?",
+    "Unlike us, American voters do not write or indicate their choices on their ballots",
+    "winner-takes-all",
+    "Despite the widespread howling, Gore humbly accepted the decision and conceded defeat",
+    "during my watch as chief justice",
+    "Mr. Chief Justice, there is something greater than me. The survival of our democratic institutions is more important than my personal victory",
+    "Can you imagine a leaderless United States?",
+    "Gore was tall and husky. But in my esteem, he immediately rose 10 feet taller",
+    "Can we expect the same patriotism from Trump?"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Donald Trump",
+      "Hillary Clinton",
+      "Al Gore",
+      "George W. Bush",
+      "Jeb Bush (Florida governor 2000)"
+    ],
+    "institutions": [
+      "US Electoral College (538 electors, 270 threshold)",
+      "US Supreme Court (5-4 Florida recount denial)",
+      "Florida electoral commission (headed by Cabinet member of governor)",
+      "50 US states + DC",
+      "US Republican Party (appointed all 5 anti-Gore justices)",
+      "US Democratic Party (Gore, Clinton)"
+    ],
+    "cases": [
+      "Bush v. Gore (US SC 5-4 denying Florida manual recount of imperfectly punched ballots)"
+    ],
+    "laws_treaties": [
+      "US Constitution -- Electoral College provisions, state-determined elector selection"
+    ],
+    "events": [
+      "Third 2016 US presidential debate (Trump non-commitment on accepting results)",
+      "Nov 8, 2016 -- Election Day",
+      "Jan 20, 2017 -- Inauguration Day (ensuing)",
+      "2000 election -- Gore-Bush Florida recount controversy",
+      "2006 -- Gore visit to PH, private conversation with CJ Panganiban"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Trump's pre-election refusal to commit to accepting results -- 'I'll tell you at the time. I'll keep you in suspense. Ok?' -- and his pillorying of media for 'rigging' and bewailing 'electoral frauds' constitutes an attack on 240 years of US democracy in which rigging or fraud had never been raised by the losers, as Clinton was appalled to note.",
+      "rhetorical_move": "240-year-tradition framing of the unprecedented norm-violation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The US Electoral College is structurally capable of producing popular-vote-vs-EC-winner divergence (as in 1824, 1876, 1888, 2000) -- most strikingly in 2000 when Al Gore won the popular vote but lost the EC 271-266 to George W. Bush after a US Supreme Court 5-4 partisan-tainted decision (Florida governor was Bush's brother, Florida election commission headed by Cabinet member of the governor, all 5 anti-Gore justices appointed by Republican presidents).",
+      "rhetorical_move": "structural-anomaly + partisan-context framing (the system permits divergence; the 2000 outcome was tainted)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Despite legitimate grievance, Gore humbly conceded -- explaining in private to CJ Panganiban during a 2006 PH visit: 'there is something greater than me. The survival of our democratic institutions is more important than my personal victory. Had I brought the battle to America's streets, there would have been chaos and political upheaval' with no one sworn in as president that January -- embodying the institutional patriotism that anchors democratic transitions.",
+      "rhetorical_move": "first-person-witness testimony of institutional patriotism (CJ as direct conversational source)",
+      "confidence": "asserted with first-person-witness sourcing"
+    },
+    {
+      "claim": "Gore physically 'rose 10 feet taller' in CJ's esteem through his concession -- implying the institutional patriotism is the higher kind of greatness, more enduring than political victory, and posing the column's closing rhetorical challenge: 'Can we expect the same patriotism from Trump?'",
+      "rhetorical_move": "physical-metaphor of moral stature + closing rhetorical challenge",
+      "confidence": "asserted as moral evaluation"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's 2006 private conversation with Al Gore during his PH visit -- the entire core of the column. Gore's quoted reply 'there is something greater than me. The survival of our democratic institutions is more important than my personal victory. Had I brought the battle to America's streets, there would have been chaos and political upheaval. The manual recount would have taken many months. Meanwhile, no one would have been sworn in as president that ensuing January. Can you imagine a leaderless United States?' -- the most extensively preserved direct quotation of a foreign statesman in CJ's column corpus.",
+    "CJ's metaphor closing the Gore portrait: 'Gore was tall and husky. But in my esteem, he immediately rose 10 feet taller' -- physicalizing moral stature through height.",
+    "The Bush v. Gore partisan-context catalog: Florida governor Jeb Bush (George's brother), Florida electoral commission headed by Cabinet member of governor, all 5 anti-Gore SC justices appointed by Republican presidents -- itemizing the structural conflicts of interest without explicit accusation.",
+    "Trump's exact suspense-keeping debate quote preserved: 'I'll tell you at the time. I'll keep you in suspense. Ok?' -- the only direct Trump quote in the column, used as the column's opening hook and as the foil to Gore's institutional patriotism.",
+    "The closing rhetorical challenge 'Can we expect the same patriotism from Trump?' -- leaving the answer to the reader's anticipation of the impending Nov 8 election outcome."
+  ],
+  "target_audience": [
+    "Inquirer readers tracking the impending 2016 US election",
+    "Civic readers interested in institutional patriotism during contested elections",
+    "Comparative-democracy students",
+    "Pre-election US-PH commentariat",
+    "Anyone weighing Trump's norm-violating behavior against historical precedent"
+  ],
+  "register_markers": [
+    "first-person-witness testimony (CJ as direct conversational source for Gore quote)",
+    "labeled-subhead structure ('Indirect election', 'Winner takes all', 'Gore vs Bush')",
+    "240-year-tradition framing for unprecedented norm violation",
+    "physical-metaphor of moral stature (10 feet taller)",
+    "closing rhetorical question to reader",
+    "extensive direct-quotation preservation (Gore's institutional patriotism speech)",
+    "partisan-context catalog without explicit accusation (Bush family/court connections)",
+    "comparative reference ('Reminiscent of Philippine elections')",
+    "'during my watch as chief justice' time-stamp marker",
+    "'antiquated' implicit through structural-anomaly framing (consistent with E84, A328)"
+  ],
+  "decision_framework_signals": [
+    "applies 240-year-tradition framing to identify unprecedented norm violations",
+    "uses first-person-witness testimony as authoritative source for institutional-patriotism claims",
+    "deploys partisan-context catalog without explicit accusation when conflicts of interest exist",
+    "structures argument as structural-anomaly + partisan-context + moral-comparison sequence",
+    "closes with rhetorical question rather than predictive judgment when outcome is impending",
+    "uses physical-metaphor (height) to convey moral stature"
+  ],
+  "one_paragraph_summary": "Panganiban opens with Donald Trump's third-debate refusal to commit to accepting the impending 2016 US election results -- 'I'll tell you at the time. I'll keep you in suspense. Ok?' -- and his pillorying of media for 'rigging' and bewailing 'electoral frauds' reminiscent of Philippine elections, later modified to 'provided I win.' Hillary Clinton was appalled by this attack on 240 years of US democracy in which rigging or fraud had never been raised by losers, raising the question: how is the US president chosen? Unlike Filipinos, American voters do not directly indicate presidential choices on their ballots; they vote for 'electors' pledged to vote later for the chosen candidate, with each of the 50 states plus DC determining the elector selection method by local law. Election Day is fixed as the first Tuesday after the first Monday of November (Nov 8 in 2016); Inauguration Day is January 20. Each state allocates electors in proportion to population -- California 55, Alaska/Montana/Wyoming/DC 3 each -- for 538 total electors with a 270-vote winning threshold under most states' winner-takes-all rule. Normally the popular vote winner also wins the EC, but exceptions occurred in 1824, 1876, 1888, and most strikingly in 2000 when Al Gore won the popular vote but lost the EC 271-266 to George W. Bush after the US Supreme Court 5-4 refused a manual recount of imperfectly punched Florida ballots -- a decision criticized as partisan since Florida's governor was Jeb Bush (George's brother), Florida's election commission was headed by a Cabinet member of the governor, and all 5 anti-Gore justices were appointed by Republican presidents. Despite the widespread howling, Gore humbly accepted the decision and conceded defeat. In 2006, during CJ Panganiban's watch as chief justice, Gore visited the Philippines and during a private conversation explained his reasoning: 'Mr. Chief Justice, there is something greater than me. The survival of our democratic institutions is more important than my personal victory. Had I brought the battle to America's streets, there would have been chaos and political upheaval. The manual recount would have taken many months. Meanwhile, no one would have been sworn in as president that ensuing January. Can you imagine a leaderless United States?' Gore was tall and husky, but in CJ's esteem he 'immediately rose 10 feet taller.' The column closes with the rhetorical challenge: 'Can we expect the same patriotism from Trump?'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

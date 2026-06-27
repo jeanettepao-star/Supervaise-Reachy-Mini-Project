@@ -1,0 +1,127 @@
+{
+  "id": "CE082",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 82,
+  "title": "Will Scotus trump Trump?",
+  "date": "2017-02-19",
+  "link": "https://opinion.inquirer.net/101786/will-scotus-trump-trump",
+  "keywords": [
+    "Trump travel ban",
+    "SCOTUS",
+    "9th Circuit Court",
+    "Muslim ban",
+    "executive order",
+    "religious discrimination",
+    "Neil Gorsuch",
+    "Tokhang Payatas petition"
+  ],
+  "primary_topics": [
+    "Analysis of why Trump's Muslim-majority-country travel ban will face problematic prospects at SCOTUS on four grounds",
+    "The best strategy: withdraw, replace, or revise the executive order rather than face a looming legal defeat",
+    "Parallel with PH: the Duterte administration's win-win approach of siding with the Payatas Tokhang petition"
+  ],
+  "sub_topics": [
+    "Trump EO: 90-day ban on nationals from Iran, Iraq, Libya, Somalia, Sudan, Syria, Yemen",
+    "US District Judge James Robart (Seattle) TRO; unanimous 9th USCA affirmation",
+    "Trump tweet: 'See you in Court'",
+    "Four problematic grounds: (1) religious discrimination violates Bill of Rights; (2) no evidence of national security threat; (3) SCOTUS reviews final not interlocutory orders; (4) 4-4 ideological split → tie = defeat",
+    "Neil Gorsuch nomination pending Senate confirmation",
+    "Earl Warren and William Brennan (Eisenhower appointees) as liberals; CJ Roberts upholding Obamacare",
+    "Best strategy: withdraw/replace/revise to remove religious discrimination",
+    "PH parallel: OSG siding with Payatas Tokhang petition -- CA made TRO permanent; win-win"
+  ],
+  "signature_phrases": [
+    "Will SCOTUS Trump Trump?",
+    "See you in Court",
+    "In my humble view, an appeal to the Scotus will be problematic",
+    "directed at a group of nationals on the basis of their Muslim religion",
+    "no evidence that nationals of the countries involved had threatened the national security",
+    "it is not uncommon for justices to cross the philosophical divide when constitutional rights are at stake",
+    "not defending the indefensible",
+    "win-win for both the petitioners' courageous counsel and the government lawyers"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "US President Donald Trump",
+      "US District Judge James Robart (Seattle TRO)",
+      "Judge Neil Gorsuch (Trump SCOTUS nominee)",
+      "CJ Earl Warren (Eisenhower appointee, became liberal)",
+      "Justice William Brennan (Eisenhower appointee, became liberal)",
+      "CJ John Roberts (Bush appointee, upheld Obamacare)",
+      "President Rodrigo Duterte",
+      "Asst. SolGen Herman Cimafranca (OSG, sided with petition)",
+      "Joel Ruiz Butuyan (petitioners' counsel, Center for International Law)"
+    ],
+    "institutions": [
+      "US Supreme Court (SCOTUS)",
+      "9th US Circuit Court of Appeals",
+      "Supreme Court of the Philippines",
+      "Court of Appeals (PH)",
+      "Office of the Solicitor General (PH)",
+      "Center for International Law"
+    ],
+    "cases": [
+      "Trump travel ban EO -- Robart TRO, 9th USCA affirmation",
+      "Payatas Tokhang petition -- SC TRO → CA → OSG sided → CA made order permanent"
+    ],
+    "laws_treaties": [
+      "US Bill of Rights (religious discrimination prohibition)",
+      "Philippine Bill of Rights"
+    ],
+    "events": [
+      "Trump inauguration (Jan. 20, 2017)",
+      "Robart TRO and 9th USCA affirmation",
+      "Payatas Tokhang drug war operation (victim families' petition)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Trump's appeal to SCOTUS will be problematic for four reasons: religious discrimination violates the Bill of Rights; no evidence of national security threat; SCOTUS reviews final not interlocutory orders; and the 4-4 ideological split means a tie vote defeats the appeal.",
+      "rhetorical_move": "four-pronged-appeal-difficulty analysis",
+      "confidence": "asserted with 'in my humble view'"
+    },
+    {
+      "claim": "The best strategy for Trump is to withdraw, replace, or revise the executive order to remove religious discrimination -- avoiding a looming legal defeat, just as the Duterte administration wisely avoided defeat by siding with the Payatas Tokhang petition.",
+      "rhetorical_move": "best-strategy-as-not-defending-the-indefensible",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Justices often cross the philosophical divide when constitutional rights are at stake -- Warren and Brennan (Eisenhower appointees) became liberals, and Roberts (Bush appointee) upheld Obamacare -- so Gorsuch provides no guarantee of a favorable vote.",
+      "rhetorical_move": "judicial-independence-over-appointer-loyalty historical evidence",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Trump's angry tweet 'See you in Court' after the 9th Circuit affirmation -- the most vivid moment of executive-judicial confrontation captured in the column.",
+    "Earl Warren and William Brennan (both Eisenhower appointees) leading the liberal wing, with Eisenhower's televised chagrin -- the most memorable historical example of judicial independence over appointer loyalty.",
+    "The Payatas Tokhang parallel: the Duterte administration's OSG siding with drug war victim families, producing a win-win -- proof that 'not defending the indefensible' is a viable executive strategy."
+  ],
+  "target_audience": [
+    "Philippine readers following US politics and the Trump travel ban",
+    "Constitutional law scholars comparing US and PH judicial systems",
+    "Human rights advocates and drug war observers (Payatas parallel)",
+    "Civic readers interested in checks and balances across democracies"
+  ],
+  "register_markers": [
+    "pun-title register ('Will SCOTUS Trump Trump?')",
+    "four-numbered-grounds structure for appeal difficulty",
+    "'in my humble view' as analytical-opinion marker",
+    "comparative-jurisdiction note (SCOTUS ≠ PH SC on hierarchy)",
+    "historical-appointee-crossover examples (Warren, Brennan, Roberts)",
+    "PH-parallel closing (Payatas Tokhang win-win)",
+    "'not defending the indefensible' as the column's most compact strategic advice"
+  ],
+  "decision_framework_signals": [
+    "applies four-pronged-difficulty test to evaluate appeal prospects",
+    "uses historical-appointee-independence evidence to rebut political-alignment assumptions",
+    "frames 'not defending the indefensible' as the superior executive strategy over litigation",
+    "treats PH parallel (OSG siding with petitioners) as proof of concept",
+    "applies religious-discrimination constitutional test as the primary fatal flaw in Trump's EO"
+  ],
+  "one_paragraph_summary": "Panganiban analyzes why Trump's executive order banning entry from seven Muslim-majority countries faces problematic prospects at SCOTUS, identifying four grounds: (1) the ban targets nationals on the basis of religion, violating the US (and Philippine) Bill of Rights; (2) the US government admitted having no evidence that nationals of the affected countries threatened national security; (3) SCOTUS normally reviews final judgments, not interlocutory orders like the Robart TRO and 9th Circuit affirmation; and (4) the current 4-4 ideological split means a tie vote defeats the appeal -- and even Trump's nominee Gorsuch (awaiting Senate confirmation) provides no guarantee, since justices often cross the philosophical divide when constitutional rights are at stake (citing Earl Warren and William Brennan as Eisenhower-appointed liberals, and CJ Roberts upholding Obamacare). CJ's recommended strategy: withdraw, replace, or revise the EO to remove religious discrimination -- 'not defending the indefensible.' He draws a PH parallel: after the SC issued a TRO on the Payatas Tokhang operation, the Duterte administration's OSG (through Asst. SolGen Cimafranca) wisely sided with the petitioners, and the CA made the protection order permanent -- a win-win for petitioners' counsel Joel Butuyan and the government.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,141 @@
+{
+  "id": "CA038",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 38,
+  "title": "KP: Nobly aimed, constitutionally flawed (1)",
+  "date": "2025-07-21",
+  "link": "https://opinion.inquirer.net/184800/kp-nobly-aimed-constitutionally-flawed-1",
+  "keywords": [
+    "Judicial Integrity Board",
+    "administrative supervision",
+    "Office of the Court Administrator",
+    "judicial discipline procedure",
+    "motu proprio complaints"
+  ],
+  "primary_topics": [
+    "Discipline of judges below the Supreme Court",
+    "Institutional architecture of judicial integrity oversight",
+    "Procedure for filing and processing administrative complaints"
+  ],
+  "sub_topics": [
+    "Article VIII, Section 6 -- administrative supervision over all courts",
+    "Judicial Integrity Board (JIB) creation by resolution dated July 7, 2000",
+    "JIB renaming to 'Office' on April 22, 2025 (not yet implemented)",
+    "Coverage: CA, CTA, Sandiganbayan, RTC, MTC, Shari'ah Court judges",
+    "Coverage extended to lawyers and judicial personnel including OCA officers",
+    "Motu proprio vs interested-person complaint pathways",
+    "Anonymous complaints -- referral to Office of General Counsel",
+    "Procedure: CDS → OED → JIB resolution → SC affirmation",
+    "Penalty ladder: censure, fine, suspension, dismissal",
+    "OCA's narrowed role focused on court operations",
+    "Privacy of JIB proceedings; publication of final SC judgments"
+  ],
+  "signature_phrases": [
+    "administrative supervision over all courts and the personnel thereof",
+    "the 'go-to' office to complain",
+    "frontliners of the judiciary",
+    "low-profile JIB conducts its work privately, doggedly and often below the radar",
+    "officers of the courts",
+    "sufficient in form and substance",
+    "appropriate action"
+  ],
+  "entities": {
+    "people": [
+      "Ret. Justice Angelina Sandoval-Gutierrez (JIB head)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Judicial Integrity Board (JIB)",
+      "Office of the Court Administrator (OCA)",
+      "Court of Appeals (CA)",
+      "Court of Tax Appeals (CTA)",
+      "Sandiganbayan",
+      "Regional Trial Courts (RTC)",
+      "Metropolitan Trial Courts",
+      "Municipal Trial Courts",
+      "Shari'ah Courts",
+      "Civil Service Commission (CSC)",
+      "Commission on Audit (COA)",
+      "Office of the Ombudsman",
+      "Department of Justice (DOJ)",
+      "Integrated Bar of the Philippines (implicit via Lawyer's Oath references)",
+      "JIB Office of the Executive Director (OED)",
+      "JIB Office of the General Counsel (OGC)",
+      "JIB Complaints and Docket Services (CDS)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution, Article VIII, Section 6",
+      "SC Resolution dated July 7, 2000 (JIB creation)",
+      "SC Resolution dated April 22, 2025 (JIB renaming)",
+      "Lawyer's Oath",
+      "Code of Professional Responsibility and Accountability"
+    ],
+    "events": [
+      "JIB creation (July 7, 2000)",
+      "JIB renaming to 'Office' (April 22, 2025, not yet implemented)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Yes, the Supreme Court disciplines justices and judges below itself -- through the Judicial Integrity Board, exercising its constitutional administrative-supervision power.",
+      "rhetorical_move": "direct Q&A opener with affirmative thesis",
+      "confidence": "high"
+    },
+    {
+      "claim": "The JIB has 'vast and encompassing powers,' covering not only judges but also lawyers and judicial personnel including officers of the OCA, and even those in quasi-judicial bodies like the CSC and COA.",
+      "rhetorical_move": "scope-enumeration to correct public underestimation",
+      "confidence": "high"
+    },
+    {
+      "claim": "The JIB is the 'go-to' office for complaining about misconduct of justices, judges, lawyers, and judicial personnel nationwide.",
+      "rhetorical_move": "practical wayfinding for civic readership",
+      "confidence": "high"
+    },
+    {
+      "claim": "The OCA's role has appropriately narrowed to court operations and well-being, leaving disciplinary functions to the JIB.",
+      "rhetorical_move": "institutional-evolution explanation",
+      "confidence": "high"
+    },
+    {
+      "claim": "Private and low-profile JIB proceedings are appropriate to preserve the integrity of magistrates against groundless charges by defeated litigants, while final SC judgments are properly published.",
+      "rhetorical_move": "balanced procedural defense",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The April 22, 2025 renaming of the JIB from 'Board' to 'Office' that has not yet been implemented -- so the body retains its original name.",
+    "The reader Q&A framing the column -- readers asked whether SC discipline extends to CA, CTA, Sandiganbayan, and trial-court judges (answer: yes, via the JIB).",
+    "Anonymous complaints being a viable pathway, referred to the Office of the General Counsel within 10 calendar days for evaluation and investigation.",
+    "Lawyers being disciplined under the JIB jurisdiction when their imputed acts also violate the Lawyer's Oath or Code of Professional Responsibility and Accountability."
+  ],
+  "target_audience": [
+    "Members of the bar with administrative-complaint matters",
+    "Litigants considering filing administrative complaints against judges or lawyers",
+    "Court personnel and judicial-branch employees",
+    "Journalists and civic-reform advocates",
+    "Law students and bar reviewees studying judicial discipline procedure"
+  ],
+  "register_markers": [
+    "Reader-question framing followed by 'ANSWER: YES.' formula",
+    "Procedural-step exposition with day-counts (10, 15, 30, 60 calendar days)",
+    "Capitalized institutional acronyms with first-mention expansions",
+    "Public-service tone with practical wayfinding ('go-to office')",
+    "Quotations from the JIB's enabling resolutions",
+    "Restrained didactic clarity",
+    "Closing transparency note on publication of SC judgments"
+  ],
+  "decision_framework_signals": [
+    "Direct administrative complaints to the JIB rather than the OCA for matters of judicial discipline",
+    "Use motu proprio triggers -- records, documents, media reports, criminal convictions -- to initiate disciplinary action without waiting for a complainant",
+    "Accept anonymous complaints as viable pathways if 'readily verifiable' or substantiated",
+    "Distinguish disciplinary jurisdiction from operational support: JIB for conduct, OCA for operations",
+    "Apply form-and-substance sufficiency test at the docketing stage before requiring respondent comment",
+    "Preserve confidentiality during proceedings; publish only the final SC judgment to balance integrity protection with transparency"
+  ],
+  "one_paragraph_summary": "Responding to readers asking whether the Supreme Court also disciplines justices and judges below itself, Panganiban answers yes -- through its constitutional administrative-supervision power under Article VIII, Section 6, partly delegated to the Judicial Integrity Board (JIB), created on July 7, 2000 and headed by ret. Justice Angelina Sandoval-Gutierrez. (The JIB was renamed an 'Office' on April 22, 2025, but the change has not yet been implemented.) He explains the JIB's vast and encompassing reach: appellate justices of the CA, CTA, and Sandiganbayan; trial judges of the RTC, MTC, and Shari'ah Courts; lawyers as 'officers of the courts'; and judicial and quasi-judicial personnel including top OCA officials, the CSC, COA, Ombudsman, and DOJ as referring bodies. Disciplinary proceedings may be triggered motu proprio (by the SC or JIB based on records, media reports, or criminal convictions) or by interested persons through verified or substantiated anonymous complaints. He walks through the procedural ladder -- Complaints and Docket Services determines form-and-substance sufficiency, the respondent is given 10 calendar days to comment, the Office of the Executive Director submits a report within 15 days, the JIB resolves within 30 days, and the resolution goes to the Supreme Court for affirmation, modification, or reversal (usually affirmed). The OCA now handles court operations and may receive delegated investigations for less serious or light charges, completing them within 60 days. The JIB does its work privately and low-profile to shield magistrates from groundless complaints by defeated litigants, while the SC's final judgments are published online for public access.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

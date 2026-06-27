@@ -1,0 +1,135 @@
+{
+  "id": "CE021",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 21,
+  "title": "Good start: Remulla opens SALNs",
+  "date": "2025-10-20",
+  "link": "https://opinion.inquirer.net/186848/good-start-remulla-opens-salns",
+  "keywords": [
+    "SALN disclosure",
+    "Ombudsman Memorandum Circular No. 3",
+    "Ethical Standards Law (RA 6713)",
+    "lifestyle checks",
+    "Data Privacy Law (RA 10173)"
+  ],
+  "primary_topics": [
+    "OMB Memorandum Circular No. 3, Series of 2025 opening SALNs to the public",
+    "Balancing public's right to know with the constitutional right to privacy",
+    "Reasonableness of the procedural guidelines on SALN inspection and reproduction",
+    "Stricter requirements under the Ethical Standards Law (RA 6713) including the Disclosure of Business Interests and Financial Connections"
+  ],
+  "sub_topics": [
+    "Ombudsman Boying Remulla's fulfillment of his JBC-interview commitment to open SALNs",
+    "President Marcos and several lawmakers voluntarily releasing their SALNs",
+    "20-year prescriptive period justifying preservation and digitization of SALNs",
+    "Guideline #1: SALNs not available 'earlier than 10 working days after the final submission deadline' -- CJ proposes a phased timetable (5-year-old SALNs in 10 calendar days, 5-10-year-old in 20 days, etc.)",
+    "Guideline #2: 30-day correction window -- both original and corrected versions plus reasons should be public, not only corrected version",
+    "Guideline #3: Redactions (home address, names/DOB/ages of unmarried minor children, declarant's signature, government IDs) -- reasonable but reversible upon showing of need (e.g., namesake hiding ill-gotten wealth)",
+    "Guideline #4: Lifestyle check provision welcoming citizen complaints with valid evidence of disproportionate assets",
+    "RA 6713 mandates both a SALN and a separate Disclosure of Business Interests and Financial Connections",
+    "Filing venues by category: national elective officials/national executive (OMB national/OP), senators/congressmen (chamber secretaries), justices (SC clerk of court), judges (court administrator), regional/local (deputy OMB), AFP colonel/naval captain and up (OP) lower (deputy OMB), all others (CSC)",
+    "Argument that strict pre-existing RA 6713 compliance would have 'moderated the greed' of pork barrel and flood-control scams"
+  ],
+  "signature_phrases": [
+    "the devil is in the details",
+    "Though his consent is not required by law",
+    "MEMORANDUM CIRCULAR NO. 3, Series of 2025",
+    "the right to know and this duty to disclose should be balanced with the citizen's right to privacy",
+    "within (not 'no earlier than') 10 calendar days",
+    "These redactions, I believe, are reasonable, but the redacted portions should be disclosed if the applicant can show why",
+    "Much stricter than the guidelines is the Ethical Standards law",
+    "would have prevented or at least 'moderated the greed'"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Ombudsman Jesus Crispin 'Boying' Remulla",
+      "President Ferdinand R. Marcos Jr."
+    ],
+    "institutions": [
+      "Office of the Ombudsman (OMB)",
+      "Office of the President",
+      "Civil Service Commission (CSC)",
+      "Supreme Court of the Philippines",
+      "Court Administrator",
+      "Armed Forces of the Philippines (AFP)",
+      "Senate of the Philippines",
+      "House of Representatives"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution",
+      "Ethical Standards Law (Republic Act No. 6713)",
+      "Ombudsman Law (Republic Act No. 6770)",
+      "Data Privacy Law (Republic Act No. 10173)",
+      "OMB Memorandum Circular No. 3, Series of 2025"
+    ],
+    "events": [
+      "Issuance of OMB Memorandum Circular No. 3, Series of 2025",
+      "President Marcos's public release of his SALN",
+      "Several lawmakers' release of their SALNs",
+      "Pork barrel and flood-control scams (as comparative backdrop)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Opening the SALNs to the public, as Remulla has done by Memorandum Circular No. 3, is a 'good start' that fulfills the constitutional, RA 6713, and RA 6770 mandates, but its real test lies in the reasonableness of the procedural guidelines balancing the right to know against the right to privacy under RA 10173.",
+      "rhetorical_move": "guarded-praise + reasonableness-as-the-real-test",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The 'no earlier than 10 working days' floor for public access is too restrictive given modern reproduction technology and should be phased into a timetable (SALNs of the last 5 years available within -- not no-earlier-than -- 10 calendar days; 5-10 years within 20 days; and so on).",
+      "rhetorical_move": "preposition-as-substance critique ('within' vs 'no earlier than') + phased-timetable counter-proposal",
+      "confidence": "asserted as humble proposal"
+    },
+    {
+      "claim": "Both the original and the corrected SALN, together with the declarant's reasons for the correction, should be public -- not only the corrected version -- because the corrections themselves are evidence of declarant conduct and possible cover-up.",
+      "rhetorical_move": "transparency-of-the-paper-trail",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The redactions (home address, minor children's identifying data, signature, government IDs) are reasonable on their face but must remain reversible: an applicant who shows specific need (e.g., evidence that a namesake spouse, ascendant, descendant, or relative is being used to hide ill-gotten wealth) should be granted access to the redacted portions.",
+      "rhetorical_move": "reasonable-default-with-rebuttable-exception",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "RA 6713 is in fact stricter than the OMB guidelines -- it requires not only the SALN but also a separate Disclosure of Business Interests and Financial Connections, and full and faithful pre-existing compliance with it would already have prevented or 'moderated the greed' driving the pork-barrel and flood-control scams.",
+      "rhetorical_move": "we-don't-need-new-laws + indictment-of-non-implementation",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "President Marcos voluntarily released his own SALN even though, under the law, his consent is not required -- a quiet executive endorsement that gave the new OMB circular political cover on day one.",
+    "CJ flagging a single preposition ('no earlier than' vs 'within') as the difference between meaningful and tokenistic disclosure -- a lawyerly close-reading of the very guidelines he is otherwise praising.",
+    "The contention that RA 6713, passed long ago, is already stricter than the new OMB guidelines -- and that the country's scandals (pork barrel, flood control) are failures of implementation, not of legislation."
+  ],
+  "target_audience": [
+    "Ombudsman Boying Remulla and his deputies designing implementing rules",
+    "Public officials covered by RA 6713 SALN/Disclosure obligations",
+    "Civil-society and media groups seeking SALN access",
+    "Civic-minded readers tracking the flood-control accountability arc"
+  ],
+  "register_markers": [
+    "guideline-by-guideline critique register (First/Second/Third/Fourth)",
+    "phrase-level close reading ('no earlier than' vs 'within')",
+    "statutory-citation density (RA 6713, RA 6770, RA 10173, Constitution)",
+    "'my aim is to determine the reasonableness' as analytical opener",
+    "'as the saying goes, the devil is in the details'",
+    "guarded-praise opening ('good start') framing the column title itself",
+    "we-don't-need-new-laws refrain consistent with the flood-control series",
+    "doctrinal-policy-critique register"
+  ],
+  "decision_framework_signals": [
+    "applies right-to-know-vs-right-to-privacy balancing as the analytical lens",
+    "uses preposition-level statutory parsing as a test of administrative reasonableness",
+    "treats reasonable-default-with-rebuttable-exception as the design principle for redactions",
+    "applies fix-implementation-before-amending-law to existing RA 6713 architecture",
+    "uses phased-timetable as the preferred substitute for blanket waiting periods",
+    "treats correction-paper-trail as substantive evidence, not mere clerical history"
+  ],
+  "one_paragraph_summary": "Panganiban offers a guarded welcome to Ombudsman Jesus Crispin 'Boying' Remulla's Memorandum Circular No. 3, Series of 2025, which opens public officials' SALNs to public inspection in fulfillment of the Constitution, RA 6713 (Ethical Standards Law) and RA 6770 (Ombudsman Law), while balancing them against RA 10173 (Data Privacy Law). He praises President Marcos and the lawmakers who voluntarily released their SALNs, but tests the circular guideline by guideline: he argues the 'no earlier than 10 working days' access floor should be replaced with a phased timetable in which SALNs filed in the last five years are available within ten calendar days; that both original and corrected SALNs (with the declarant's reasons) should be public, not only the corrected versions; that the redactions of home address, minor children's identifying data, signature and government IDs are reasonable but must remain rebuttable upon a showing of specific need; and that the welcome lifestyle-check provision should be vigorously used. He closes with the recurring series argument that RA 6713 -- which requires both a SALN and a separate Disclosure of Business Interests and Financial Connections -- is already stricter than the new guidelines, and that strict pre-existing compliance would have 'moderated the greed' behind the pork-barrel and flood-control scams.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

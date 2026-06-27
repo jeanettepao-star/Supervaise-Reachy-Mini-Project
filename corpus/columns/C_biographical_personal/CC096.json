@@ -1,0 +1,207 @@
+{
+  "id": "CC096",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 96,
+  "title": "Science, lifestyle and longevity",
+  "date": "2015-04-05",
+  "link": "https://opinion.inquirer.net/83829/science-lifestyle-and-longevity",
+  "keywords": [
+    "wellness",
+    "Easter Sunday",
+    "healthy lifestyle",
+    "78th birthday",
+    "faith",
+    "daily walk",
+    "Mass",
+    "gratitude"
+  ],
+  "primary_topics": [
+    "Easter Sunday wellness/lifestyle/longevity reflection grounded in CJP's personal medical biography",
+    "CJP's 78th birthday last December (Dec 7 2014); youngest in brood of four still all alive; eldest 87 in Vancouver",
+    "Father died at 54; mother at 61; generation living 20 years longer; Time magazine March 2 2015 -- American babies could live 142 years",
+    "Boyhood-to-young-adult health crises: age-5 dysentery during Japanese occupation; age-21 ruptured appendix misdiagnosed in Tabaco Albay during NUSP Naga seminar",
+    "1983 Dr. Augusto Litonjua diabetes diagnosis → 1995 pre-SC normalization certification",
+    "1996 Dr. Dante Morales arrhythmia (ECG/treadmill/2D Echo) + Dr. Dy Bun Yok angiogram + Dr. Jorge Garcia heart-surgeon offer; final test cleared",
+    "2008 Dr. Jack Arroyo golf-vision trigger + American Eye Center + Dr. Cesar Espiritu cataract surgery (clouded crystalline lenses → artificial implants, 20/20)",
+    "Full medical-history enumeration: 3 hemorrhoid surgeries (1958/1977/2005), Dr. Nikko Magsanoc prostate biopsy negative, 2012 whole-body MRI (gallstones + benign cysts), dental, slowed memory retrieval, insomnia, bladder spasms, vertigo, elevated SGPT/SGOT, bone spurs, pulled muscles, stem cell therapy, carpal tunnel",
+    "Current routine: golf twice/week, tennis twice/week, gym thrice/week, ballroom dancing, no smoke/gamble, only glass of red wine; dozen publicly listed companies' boards + 5 major foundations",
+    "iPhone 6 plus over iPad + Nokia; no social-media account but personal website; 'more years in my life and more life in my years' close"
+  ],
+  "sub_topics": [
+    "Easter Sunday opening: resurrection of Christ + His promise to rise on third day + gift of eternal and earthly life -- focus on earthly life for this column",
+    "Brood of four all still alive; CJP youngest, reached 78th birthday last December",
+    "Eldest sibling 87, lives in retirement with husband in Vancouver",
+    "Father died at 54, mother at 61",
+    "Generation can expect to live 20 years longer than previous one; CJP would only be 58 by that measure",
+    "Time magazine March 2, 2015: American babies born today could live 142 years thanks to science, technology, medicine, improved lifestyles",
+    "Age 5 during Japanese occupation: nearly died of dysentery",
+    "Age 21: chairing NUSP seminar in Naga City; ruptured appendix misdiagnosed as ordinary stomachache in small clinic in Tabaco, Albay; given castor oil and morphine (knocked out 24 hours); two weeks later properly diagnosed; excised surgically by Dr. Ricardo Alfonso",
+    "1983: Dr. Augusto Litonjua diabetes diagnosis 'incurable but can be controlled by diet, exercise and a little medicine'",
+    "1995: pre-SC entry -- Dr. Litonjua formally certified blood sugar normalized; diabetes gone",
+    "Continues to see Dr. Litonjua every three months for regular consultation, especially endocrinal secretions",
+    "1996: Dr. Dante Morales conducted three tests (ECG, treadmill, 2D Echo) -- diagnosed irregular heartbeats (arrhythmia); may need heart bypass surgery",
+    "Dr. Morales asked Dr. Dy Bun Yok to do angiogram before sending to OR",
+    "Dr. Jorge Garcia (famous heart surgeon) agreed to operate if angiogram affirmed three earlier tests",
+    "Final test showed no blocked coronary arteries; no surgery needed",
+    "Dr. Garcia kidded: 'When you die, it will not be because of a heart problem'",
+    "2008: while playing golf with Dr. Jack Arroyo, CJP could not see driven ball 200 yards away even in bright sunlight; American Eye Center diagnosed need for cataract surgery",
+    "Dr. Arroyo recommendation: 'Dr. Cesar Espiritu is the best cataract surgeon'",
+    "Dr. Espiritu replaced clouded crystalline lenses with artificial implants; 20/20 vision since",
+    "CJP still wears eyeglasses because his wife thinks it more becoming for retired chief justice",
+    "Other procedures: three hemorrhoid surgeries (1958, 1977, 2005); biopsy of prostate by Dr. Nikko Magsanoc (negative); 2012 whole-body MRI (gallstones + benign liver/kidney cysts)",
+    "Various conditions: dental problems, slowed memory retrieval, insomnia, bladder spasms, vertigo, elevated SGPT/SGOT, bone spurs, pulled muscles, stem cell therapy, carpal tunnel syndrome",
+    "Even in senior years can eat almost anything in moderate quantities",
+    "Plays golf twice/week, tennis twice/week, gym thrice/week, ballroom dancing occasionally",
+    "Does not smoke, gamble, or drink anything heavier than a glass of red wine",
+    "Retired from judiciary 8 years ago (i.e., 2006) but not from work",
+    "Attends board/committee meetings of dozen publicly listed companies",
+    "Heads/advises 5 major foundations + several educational/civic/religious/charitable groups",
+    "Writes column himself (encodes on computer); polishes typing; keeps up with current events",
+    "Reads printed/digital Inquirer + other publications and books; surfs Internet; tracks stock markets; watches TV news + Discovery Science + History Channel + sports",
+    "Maintains personal website; no social-media account; new iPhone 6 plus over iPad + old Nokia",
+    "Active social life -- diplomatic receptions, concerts, art exhibits, birthdays, weddings, charities; prays at wakes",
+    "Thanks God for more years than parents; thanks family/friends/doctors/priest-counselors",
+    "Closer: 'more years in my life and more life in my years'"
+  ],
+  "signature_phrases": [
+    "Alleluia!",
+    "in my humble view (implied)",
+    "Thank God",
+    "voila!",
+    "more years in my life and more life in my years",
+    "Easter (theological framing)",
+    "lapses (humble self-reference)"
+  ],
+  "entities": {
+    "people": [
+      "Dr. Ricardo Alfonso (excised ruptured appendix)",
+      "Dr. Augusto Litonjua (diabetes diagnosis 1983, normalization 1995)",
+      "Dr. Dante Morales (1996 arrhythmia diagnosis)",
+      "Dr. Dy Bun Yok (1996 angiogram)",
+      "Dr. Jorge Garcia (heart surgeon)",
+      "Dr. Jack Arroyo (golf companion + initial cataract advice)",
+      "Dr. Cesar Espiritu (cataract surgeon)",
+      "Dr. Nikko Magsanoc (prostate biopsy)",
+      "CJP's wife (eyeglasses-becoming advice)",
+      "CJP's eldest sibling (87, retired in Vancouver with husband)"
+    ],
+    "institutions": [
+      "Tabaco, Albay clinic (1958 misdiagnosis site)",
+      "Naga City -- NUSP seminar venue",
+      "Supreme Court of the Philippines (CJP pre-1995)",
+      "American Eye Center (2008)",
+      "Discovery Science Channel",
+      "History Channel",
+      "Philippine Daily Inquirer (printed and digital editions)",
+      "Five major foundations (CJP heads/advises)"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "Easter Sunday April 5, 2015 -- column occasion",
+      "December 2014 -- CJP's 78th birthday",
+      "Japanese occupation -- CJP age 5 dysentery",
+      "Age 21 -- ruptured appendix in Tabaco Albay during NUSP Naga seminar",
+      "1958 -- first hemorrhoid surgery",
+      "1977 -- second hemorrhoid surgery",
+      "1983 -- diabetes diagnosis by Dr. Litonjua",
+      "1995 -- diabetes normalization (pre-SC entry)",
+      "1996 -- arrhythmia diagnosis and clearance",
+      "2005 -- third hemorrhoid surgery",
+      "2006 -- retirement from judiciary (eight years ago by writing)",
+      "2008 -- golf-vision trigger and cataract surgery",
+      "2012 -- whole-body MRI"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Easter commemorates the resurrection of Christ and the fulfillment of His promise to rise on the third day, celebrating His gift of eternal and earthly life -- for now CJP writes of earthly life",
+      "rhetorical_move": "Easter-theological framing opening",
+      "confidence": "high"
+    },
+    {
+      "claim": "The youngest of a brood of four who are all still alive at his 78th birthday last December -- eldest sibling 87 in Vancouver, parents who died at 54 and 61 -- CJP's entire generation can expect to live 20 years longer than the previous one; per Time magazine March 2, 2015, American babies born today could live 142 years thanks to science, technology, medicine, and improved lifestyles",
+      "rhetorical_move": "generational-longevity framing with personal-family context",
+      "confidence": "high"
+    },
+    {
+      "claim": "Early-life health brushes: age 5 nearly died of dysentery during Japanese occupation; age 21 while chairing NUSP Naga City seminar, ruptured appendix misdiagnosed as ordinary stomachache in a small Tabaco Albay clinic (castor oil + morphine knocked him out 24 hours); two weeks later properly diagnosed and excised by Dr. Ricardo Alfonso",
+      "rhetorical_move": "early-life health-narrative establishment",
+      "confidence": "high"
+    },
+    {
+      "claim": "In 1983, Dr. Augusto Litonjua diagnosed diabetes -- 'incurable but can be controlled by diet, exercise and a little medicine' -- and CJP followed prescription to the letter; in 1995 prior to SC entry, Dr. Litonjua formally certified blood sugar normalized -- diabetes gone -- and CJP continues to see him every three months especially for endocrinal secretions",
+      "rhetorical_move": "diabetes-diagnosis-and-management narrative",
+      "confidence": "high"
+    },
+    {
+      "claim": "In 1996, Dr. Dante Morales' three tests (ECG, treadmill, 2D Echo) flagged arrhythmia possibly needing bypass; Dr. Dy Bun Yok's angiogram before surgery, with Dr. Jorge Garcia (heart surgeon) standing by -- final test showed no blocked coronary arteries; Dr. Garcia kidded: 'When you die, it will not be because of a heart problem.' Alleluia!",
+      "rhetorical_move": "heart-scare narrative with quoted relief and Alleluia",
+      "confidence": "high"
+    },
+    {
+      "claim": "In 2008, while playing golf with Dr. Jack Arroyo, CJP could not see his driven ball 200 yards away even in bright sunlight; cataract diagnosis at American Eye Center; Dr. Arroyo deferred -- 'Dr. Cesar Espiritu is the best cataract surgeon' -- and Dr. Espiritu replaced clouded crystalline lenses with artificial implants for 20/20 vision; CJP still wears eyeglasses because his wife thinks it more becoming for a retired chief justice",
+      "rhetorical_move": "cataract-narrative with wife-detail flourish",
+      "confidence": "high"
+    },
+    {
+      "claim": "Other interventions and conditions documented: three hemorrhoid surgeries (1958, 1977, 2005), Dr. Nikko Magsanoc prostate biopsy (negative), 2012 whole-body MRI (gallstones + benign liver/kidney cysts), dental problems, slowed memory retrieval, insomnia, bladder spasms, vertigo, elevated SGPT/SGOT, bone spurs, pulled muscles, stem cell therapy, carpal tunnel syndrome -- CJP grateful for these medical interventions",
+      "rhetorical_move": "comprehensive medical-history enumeration",
+      "confidence": "high"
+    },
+    {
+      "claim": "Current routine: eats almost anything in moderate quantities; golf twice/week, tennis twice/week, gym thrice/week, ballroom dancing occasionally; no smoking, gambling, or drinks heavier than red wine; retired from judiciary 8 years ago but not from work -- dozen publicly listed companies' boards, 5 major foundations, educational/civic/religious/charitable groups, writes column himself on computer, reads/surfs/watches TV; iPhone 6 plus over iPad and old Nokia; personal website but no social-media account; active social life including wakes; grateful to family/friends/doctors/priest-counselors; closes with 'more years in my life and more life in my years'",
+      "rhetorical_move": "current-routine catalog with grateful-life close",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Easter framing with theological opening for personal-medical reflection",
+    "Brood of four still all alive; eldest sibling in Vancouver",
+    "Father died at 54, mother at 61 -- CJP at 78 reframed as 'only 58' under 20-year-longer generation thesis",
+    "Time magazine March 2 2015 -- American babies could live 142 years",
+    "Age 5 dysentery during Japanese occupation",
+    "Age 21 ruptured appendix misdiagnosed in Tabaco Albay during NUSP Naga seminar -- castor oil + morphine for 24 hours",
+    "Dr. Litonjua's 'incurable but controllable' diabetes prescription and 1995 normalization certification",
+    "Dr. Garcia's 'when you die, it will not be because of a heart problem' joke (Alleluia!)",
+    "200-yards-cannot-see golf trigger leading to cataract diagnosis",
+    "Wife's eyeglasses-becoming-for-retired-chief-justice advice",
+    "Three hemorrhoid surgeries spanning nearly half a century (1958/1977/2005)",
+    "iPhone 6 plus preference over iPad + old Nokia",
+    "Closes with 'more years in my life and more life in my years'"
+  ],
+  "target_audience": [
+    "Inquirer readership on Easter Sunday",
+    "Senior-citizen readers and their families",
+    "CJP's contemporaries and the generation 20-years-longer than parents",
+    "Medical professionals named in the column and their patients",
+    "Foundation/board associates of CJP",
+    "Filipinos interested in CJP biography"
+  ],
+  "register_markers": [
+    "Easter-theological framing opening",
+    "biographical-life-stage chronology",
+    "named-doctor enumeration throughout (Litonjua, Morales, Dy Bun Yok, Garcia, Arroyo, Espiritu, Magsanoc, Alfonso)",
+    "Alleluia! as exclamation after heart-scare clearance",
+    "voila! as exclamation after diabetes normalization",
+    "wife-detail flourish (eyeglasses becoming for retired chief justice)",
+    "grateful-life close",
+    "'more years in my life and more life in my years' aphoristic closer",
+    "section labels (Luckier than parents, Medical interventions, No retirement from work)"
+  ],
+  "decision_framework_signals": [
+    "20-years-longer-than-previous-generation thesis (Time magazine confirmation)",
+    "Diabetes-incurable-but-controllable Litonjua framework",
+    "Multi-test heart screening (ECG, treadmill, 2D Echo, angiogram) sequence",
+    "Specialist-recommendation deference (Dr. Arroyo → Dr. Espiritu)",
+    "Medical-interventions gratitude framework",
+    "Continued-engagement no-retirement-from-work ethos",
+    "Moderation-routine: golf 2x, tennis 2x, gym 3x, ballroom dancing, no smoke/gamble, red wine only",
+    "'More years in my life and more life in my years' quality-quantity dual frame"
+  ],
+  "one_paragraph_summary": "Panganiban writes an Easter Sunday wellness/lifestyle/longevity reflection -- Easter commemorates the resurrection of Christ and the fulfillment of His promise to rise on the third day, celebrating His gift of eternal and earthly life; for now, however, CJP writes of earthly life. The youngest in a brood of four who are all still alive, he reached his 78th birthday last December; his eldest sibling, now 87, lives in retirement with her husband in Vancouver. He and his siblings are luckier than their parents -- his father died at 54 and his mother at 61 -- and the entire generation can expect to live 20 years longer than the previous one (by which measure CJP would be only 58); per Time magazine (March 2, 2015), American babies born today could live 142 years thanks to science, technology, medicine, and improved lifestyles. He has had brushes with ill health: at 5 during the Japanese occupation he nearly died of dysentery; at 21 while chairing a National Union of Students of the Philippines seminar in Naga City, his ruptured appendix was misdiagnosed as ordinary stomachache in a small clinic in Tabaco, Albay -- given castor oil (!) and injected with morphine which knocked him out for 24 hours -- and two weeks later, the ruptured appendix ached again, was properly diagnosed, and excised surgically by Dr. Ricardo Alfonso. In 1983, Dr. Augusto Litonjua told him 'I am sorry to say you have diabetes. This is incurable but can be controlled by diet, exercise and a little medicine.' He followed the prescription to the letter -- and voila! -- in 1995, prior to his SC entry, Dr. Litonjua formally certified his blood sugar had normalized; his diabetes was gone. He continues to see Litonjua every three months for regular consultation especially on endocrinal secretions. In 1996, Dr. Dante Morales, after three tests (ECG, treadmill, 2D Echo) said he had arrhythmia and may need heart bypass surgery; before the OR, Morales asked Dr. Dy Bun Yok to do an angiogram, with Dr. Jorge Garcia (famous heart surgeon) ready to operate if the angiogram affirmed the three earlier tests. To his complete relief, the final test showed no blocked coronary arteries -- no surgery needed; Dr. Garcia kidded afterwards: 'When you die, it will not be because of a heart problem.' Alleluia! In 2008, while playing golf with Dr. Jack Arroyo, even in bright sunlight he could not see his driven ball 200 yards away on the turf; at the American Eye Center he was advised to undergo cataract surgery. 'I do cataracts, but Dr. Cesar Espiritu is the best cataract surgeon,' Dr. Arroyo humbly said; at his recommendation, Dr. Espiritu replaced his clouded crystalline lenses with artificial implants. Since then his vision has been 20/20 -- if he still sports eyeglasses, it is because his dear wife believes it more becoming for a retired chief justice. He has undergone other medical procedures and conditions: three surgeries for recurrent hemorrhoids in 1958, 1977, and 2005; a biopsy of his prostate by Dr. Nikko Magsanoc which turned out negative; a whole-body MRI in 2012 which showed gallstones and benign liver and kidney cysts; various dental problems; slowed memory retrieval; insomnia; bladder spasms; vertigo; elevated SGPT/SGOT; bone spurs; pulled muscles; stem cell therapy; carpal tunnel syndrome. He is grateful for these medical interventions. Thank God, even in his senior years he can eat almost anything in moderate quantities -- plays golf twice a week and tennis twice a week, exercises in the gym thrice a week, indulges occasionally in ballroom dancing, does not smoke, gamble, or drink anything heavier than a glass of red wine. Retired from the judiciary eight years ago but not from work, his every day is full: board and committee meetings of a dozen publicly listed companies, heading or advising five major foundations and several educational/civic/religious/charitable groups. He enjoys writing this column (encoding it on his own computer to polish typing and keep up with current events), reads printed and digital Inquirer and other publications/books, surfs the Internet, tracks stock markets, watches TV news, science programs (Discovery Science, History Channel), and sports. He maintains a personal website but no social-media account; he likes his new iPhone 6 plus over the iPad and old Nokia. He has an active social life -- diplomatic receptions, concerts, art exhibits, birthdays, weddings, charities -- and prays for the eternal joy and peace of the deceased during wakes. He thanks God for giving him more years than his parents, is grateful to his family and friends who forgive his lapses, laugh at his jokes, and make him feel younger than his age, and is especially thankful to his doctors and priest-counselors. He looks forward to 'more years in my life and more life in my years.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

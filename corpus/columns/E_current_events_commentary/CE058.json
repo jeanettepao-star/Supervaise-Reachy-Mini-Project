@@ -1,0 +1,141 @@
+{
+  "id": "CE058",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 58,
+  "title": "Use of aborted fetuses in vaccines",
+  "date": "2021-01-03",
+  "link": "https://opinion.inquirer.net/136674/use-of-aborted-fetuses-in-vaccines",
+  "keywords": [
+    "COVID-19 vaccines",
+    "aborted fetal cell lines",
+    "HEK-293",
+    "PER.C6",
+    "Congregation for the Doctrine of the Faith",
+    "remote material cooperation",
+    "AstraZeneca",
+    "Catholic bioethics"
+  ],
+  "primary_topics": [
+    "Dec 21 note from the Congregation for the Doctrine of the Faith (CDF) on Catholic morality of COVID-19 vaccines developed from aborted-fetal-tissue cell lines",
+    "Five vaccines using HEK-293 (1972 kidney cells) or PER.C6 (1985 retinal cells from 18-week-old fetus)",
+    "AstraZeneca's relevance to the Philippines -- 2.6 million doses ordered at $5/dose via Concepcion-Sy Coson PPP",
+    "Doctrine of 'remote material cooperation' -- passive recipients not formally cooperating with abortion",
+    "Historical parity argument: Nazi-era chloroquine research, slave-labor railroads, Mexican-American War conquests as analogous moral inheritances"
+  ],
+  "sub_topics": [
+    "Cardinal Luis Ladaria (CDF prefect) and Archbishop Giacomo Morandi (secretary) signed the note; Pope Francis approved",
+    "Pre-note objections from Catholic pro-life and anti-abortion groups in US, Canada, and elsewhere; non-Catholic Christian communities also raised concerns",
+    "Five vaccine developers: CanSino Biologics/Beijing Institute of Biotechnology; University of Oxford/AstraZeneca; Janssen R&D USA (J&J subsidiary); University of Pittsburgh; ImmunityBio/NantKwest",
+    "Pfizer and Moderna do NOT use these fetal cell lines but are more expensive -- favored in Britain, US, Singapore, Japan",
+    "Philippine FDA's first-ever clinical-trial approval for Janssen Pharmaceutica (Belgium, J&J subsidiary)",
+    "Joey Concepcion (presidential adviser) and Tessie Sy Coson (BDO chair) led the PPP procurement",
+    "Cell lines described as 'immortal' -- continue to divide and reproduce, minimizing demand for new fetal tissues",
+    "Since the 1960s, abortion-derived cells used to manufacture vaccines for rubella, chickenpox, hepatitis A, shingles; drugs for hemophilia, rheumatoid arthritis, cystic fibrosis",
+    "Chloroquine traced to Nazi concentration-camp and mental-institution experiments; US railroads built with slave labor; California and other states acquired from Mexico via US-instigated war (Polk)",
+    "Personal-vigilance closing: CJ and family will follow CDF in full faith; vigilance for safe, efficacious, reasonably-priced procurement"
+  ],
+  "signature_phrases": [
+    "the kind of cooperation",
+    "remote on the part of those injected with the vaccine",
+    "grave danger, in the form of an uncontainable spread of a serious pathological agent",
+    "in good conscience",
+    "formal cooperation with the abortion from which the cells used in the production of the vaccine derive",
+    "immortal",
+    "the end does not justify the means",
+    "By parity of reasoning",
+    "without being desensitized by these historical injustices",
+    "As for me and my family, we will follow the CDF in full faith",
+    "as a law-abiding citizen, I will remain vigilant",
+    "safe, efficacious, and reasonably-priced"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Pope Francis",
+      "Cardinal Luis Ladaria (CDF prefect, signatory)",
+      "Archbishop Giacomo Morandi (CDF secretary, signatory)",
+      "Joey Concepcion (presidential adviser, procurement lead)",
+      "Tessie Sy Coson (BDO chair, private-sector lead)",
+      "President James K. Polk (cited for Mexican-American war provocation)"
+    ],
+    "institutions": [
+      "Congregation for the Doctrine of the Faith (CDF)",
+      "Catholic Church",
+      "CanSino Biologics / Beijing Institute of Biotechnology",
+      "University of Oxford / AstraZeneca",
+      "Janssen Research & Development USA (J&J subsidiary)",
+      "University of Pittsburgh",
+      "ImmunityBio / NantKwest",
+      "Pfizer",
+      "Moderna",
+      "Janssen Pharmaceutica (Belgium, J&J subsidiary)",
+      "Philippine Food and Drug Administration",
+      "BDO"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "concepts": [
+      "Remote material cooperation (Catholic moral theology)",
+      "Formal cooperation (Catholic moral theology)",
+      "HEK-293 cell line (~1972 origin)",
+      "PER.C6 cell line (1985 origin)",
+      "Doctrine of double effect (implicit)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The CDF's Dec 21 note resolves Catholic moral concerns about COVID-19 vaccines derived from aborted-fetal cell lines by classifying the recipient's cooperation as 'remote' rather than 'formal' -- so vaccination is permissible 'in good conscience' especially given 'a grave danger, in the form of an uncontainable spread of a serious pathological agent.'",
+      "rhetorical_move": "magisterial-citation-as-resolution"
+    },
+    {
+      "claim": "AstraZeneca's vaccine -- though derived from the HEK-293 cell line -- deserves particular Philippine attention because at $5/dose it is the most affordable, and 2.6 million doses have already been ordered through a public-private partnership led by Joey Concepcion and Tessie Sy Coson.",
+      "rhetorical_move": "doctrinal-resolution applied to local-procurement context"
+    },
+    {
+      "claim": "By parity of reasoning, just as later generations are not obliged to decline chloroquine (developed from Nazi concentration-camp experiments), nor the convenience of slavery-built US railroads, nor residence in lands acquired by the unjust Mexican-American war, descendants who 'had nothing to do with' historical injustices should not be required to forgo life-saving drugs derived from them.",
+      "rhetorical_move": "parity-of-reasoning across historical injustices"
+    },
+    {
+      "claim": "Provocative extension: if, fifty years from now, funds plundered from today's poor were used to fund wonder drugs or scientific marvels, the descendants of the plundered should not be required to refuse them on 'end-does-not-justify-means' grounds -- a deliberately uncomfortable forward-looking parallel that tests whether the principle is being applied consistently.",
+      "rhetorical_move": "future-counterfactual stress-test of the principle"
+    },
+    {
+      "claim": "Personal-position disclosure: 'As for me and my family, we will follow the CDF in full faith. However, as a law-abiding citizen, I will remain vigilant to make sure our government procures only safe, efficacious, and reasonably-priced vaccines for our people.' -- pairing magisterial obedience with civic-procurement vigilance.",
+      "rhetorical_move": "first-person disclosure as personal-civic synthesis"
+    }
+  ],
+  "notable_anecdotes": [
+    "The CDF's verbatim phrasing -- 'the kind of cooperation' in the evil of abortion is 'remote on the part of those injected,' so the moral duty to avoid such cooperation 'is not obligatory' given 'a grave danger... of an uncontainable spread of a serious pathological agent' -- preserved as the column's analytical centerpiece.",
+    "The 'immortal' cell-line characterization (cells continue to divide and reproduce indefinitely, 'thereby minimizing -- if not totally eliminating -- the demand for new fetal tissues') used as a quietly devastating argument that current vaccine production does not actually require new abortions.",
+    "CJ's forward-looking parable: 'if, 50 years from now, funds plundered from our poor people should be used to discover new wonder drugs and vaccines, or to build new scientific marvels, should the descendants of the plundered refuse to avail of them on the same ground that the end does not justify the means?' -- a discomfortingly local pivot from Nazi-experiments and slave-labor analogies to Philippine plunder."
+  ],
+  "target_audience": [
+    "Catholic readers conflicted about vaccine acceptance",
+    "Pro-life and anti-abortion groups (Catholic and non-Catholic Christian)",
+    "Vaccine-procurement decision-makers (DOH, FDA, presidential advisers)",
+    "Filipino public being prepared for AstraZeneca rollout",
+    "Bioethics scholars and medical-jurisprudence specialists"
+  ],
+  "register_markers": [
+    "magisterial-citation register (CDF, Pope Francis approval)",
+    "verbatim-quotation centerpiece (CDF note)",
+    "five-vaccine-developer enumeration",
+    "historical-parity register (Nazi research, slave labor, Polk's war)",
+    "'By parity of reasoning' as recurring CJ analytical lever",
+    "personal-disclosure closing ('As for me and my family')",
+    "civic-vigilance pairing with religious obedience"
+  ],
+  "decision_framework_signals": [
+    "applies remote-vs-formal cooperation distinction (Catholic moral theology) to vaccine acceptance",
+    "uses grave-danger override to justify proceeding past ordinary moral preferences",
+    "deploys parity-of-reasoning across historical injustices to test consistency",
+    "applies future-counterfactual stress-test (Philippine plunder analogy) to detect selective moralism",
+    "pairs magisterial obedience with civic-procurement vigilance (faith + law)",
+    "treats 'immortal' cell-line continuity as evidence that current acceptance does not incentivize future abortions"
+  ],
+  "one_paragraph_summary": "Panganiban summarizes a December 21 note from the Congregation for the Doctrine of the Faith (CDF) -- signed by Cardinal Luis Ladaria and Archbishop Giacomo Morandi, approved by Pope Francis -- that averted a brewing dispute over Catholic acceptance of COVID-19 vaccines developed from cell lines derived from aborted human fetal tissue. Five vaccines use either the HEK-293 line (from a ~1972 kidney abortion) or Janssen's PER.C6 line (from a 1985 retinal abortion of an 18-week-old fetus): CanSino/Beijing Institute, Oxford/AstraZeneca, Janssen R&D USA, University of Pittsburgh, and ImmunityBio/NantKwest. AstraZeneca matters specially to the Philippines because the Concepcion-Sy Coson public-private partnership has ordered 2.6 million doses at $5/dose, the most affordable on offer. The CDF resolves the moral problem by classifying the recipient's cooperation as 'remote' rather than 'formal,' permissible 'in good conscience' given 'a grave danger, in the form of an uncontainable spread of a serious pathological agent' -- and notes that the cell lines are 'immortal,' continuing to divide indefinitely, which minimizes (if not eliminates) demand for new fetal tissues. CJ extends the reasoning by parity: just as later generations have not refused chloroquine (developed from Nazi concentration-camp experiments), slavery-built US railroads, or residence in California (acquired through Polk's unjust Mexican-American war), descendants 'who had nothing to do with' such injustices should not be required to forgo life-saving drugs derived from them. He provocatively localizes the principle: if, fifty years from now, funds plundered from today's poor were used to develop wonder drugs, should the descendants of the plundered refuse them on the same logic? He closes with personal-civic synthesis: 'As for me and my family, we will follow the CDF in full faith. However, as a law-abiding citizen, I will remain vigilant to make sure our government procures only safe, efficacious, and reasonably-priced vaccines for our people.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

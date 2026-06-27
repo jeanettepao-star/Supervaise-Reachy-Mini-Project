@@ -1,0 +1,191 @@
+{
+  "id": "CE033",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 33,
+  "title": "I won't fly QR again; Nvidia on a blitz",
+  "date": "2024-07-01",
+  "link": "https://opinion.inquirer.net/174840/i-wont-fly-qr-again-nvidia-on-a-blitz",
+  "keywords": [
+    "Qatar Airways luggage",
+    "Rimowa damaged",
+    "property irregularity report",
+    "Jaime Bautista DOTr",
+    "Nvidia AI blitz",
+    "Jensen Huang",
+    "Max Tegmark MVP seminar",
+    "GPU edge computing IoT",
+    "internet transformation"
+  ],
+  "primary_topics": [
+    "Consumer complaint vs Qatar Airways for failing to honor commitments to repair/replace damaged Rimowa luggage one year after July 18, 2023 incident on QR 928",
+    "Call on Transportation Secretary Jaime Bautista to discipline QR",
+    "Nvidia AI blitz: $3.3T market cap (overtaking Microsoft and Apple); founder-CEO Jensen Huang's $100B+ net worth",
+    "Internet-era transformations catalog and next era of human-like robots and instant-research access via Nvidia GPUs"
+  ],
+  "sub_topics": [
+    "July 18, 2023 NAIA arrival from Doha; Rimowa wheel almost detached",
+    "QR agent 'Adrian' issued property irregularity report",
+    "QR service number 'always inaccessible' despite calls by exec asst Marivic Romualdez",
+    "Travel agent emailed Joy Alvarez-Junio (QR senior manager); endorsement to 'MNL LL Team'",
+    "'MNL LL Team' awaiting CDG repair-shop response",
+    "Sept 18, 2023: QR's Ruben Gallardo retrieved luggage from CJ's home",
+    "~10 follow-ups since then -- QR failed to deliver repaired/replacement luggage",
+    "CJ flies to Europe today via another airline",
+    "Call on Transportation Secretary Jaime Bautista to discipline QR",
+    "Hypothetical: $1,000 Nvidia Nasdaq investment in November last year would have quadrupled to $4,000",
+    "Dr. Max Tegmark, MVP Group Annual Corporate Governance Enhancement Seminar Nov 9, 2023, spoke of Nvidia as AI frontliner",
+    "Nvidia: 'engine of AI'; 'engineers the most advanced chips, systems, and software for the AI factories of the future'",
+    "Nvidia market cap $3.3T+; overtook Microsoft and Apple as most valuable",
+    "Jensen Huang net worth $100B+",
+    "Ethical/social risks: job displacement, deep fakes, false holograms, data privacy breaches, cybersecurity ransomware",
+    "Internet transformations: Microsoft Windows; iPhone; Viber/iMessage/WhatsApp/email abolished post offices and telegrams/telexes; Alipay/Maya/GCash replacing paper money/coins/credit cards; smartphones dumped Kodak/Canon; Zoom/MS Teams/Webex for remote meetings; Google/Netflix/YouTube/TikTok/Facebook/X/Instagram/Spotify",
+    "Nvidia next era: humanize internet via human-like robots and instant research access",
+    "GPU revolution in: (1) healthcare (medical imaging, diagnostics, personalized medicine); (2) self-driving vehicles with air taxis; (3) edge computing and IoT",
+    "'More on these in another column'"
+  ],
+  "signature_phrases": [
+    "I will not fly Qatar Airways (QR) anymore",
+    "Neither will I recommend it to anyone",
+    "the broken promises matter most",
+    "property irregularity report",
+    "always inaccessible",
+    "harrowing exchanges of texts and emails",
+    "patient waiting and anticipating",
+    "our hardworking Transportation Secretary",
+    "ON A MORE PLEASANT SUBJECT",
+    "the engine of AI",
+    "AI factories of the future",
+    "blitzed",
+    "most valuable company in the world",
+    "the incredible blitz of artificial intelligence",
+    "ethical and social consequences",
+    "job displacement, deep fakes, false holograms, data privacy breaches, and cybersecurity ransomware",
+    "abolished post offices",
+    "outmoded telegrams and telexes",
+    "the internet has transformed civilization",
+    "humanizes the internet",
+    "More on these in another column",
+    "edge-computing",
+    "internet of things",
+    "graphics processing units"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author; QR complainant; MVP board member)",
+      "Marivic Romualdez (CJ's executive assistant)",
+      "QR agent 'Adrian' (NAIA)",
+      "Joy Alvarez-Junio (QR senior manager)",
+      "Claudine Anne Caganda (QR officialdom)",
+      "Ruben Gallardo (QR luggage retriever Sept 18, 2023)",
+      "Transportation Secretary Jaime Bautista",
+      "Dr. Max Tegmark (MVP seminar speaker)",
+      "Jensen Huang (Nvidia co-founder/president/CEO)"
+    ],
+    "institutions": [
+      "Qatar Airways (QR)",
+      "Ninoy Aquino International Airport (NAIA)",
+      "Rimowa",
+      "Charles de Gaulle Airport repair shop (CDG)",
+      "Department of Transportation (DOTr)",
+      "MVP Group of Companies",
+      "Nvidia",
+      "Microsoft",
+      "Apple",
+      "Nasdaq",
+      "Viber, iMessage, WhatsApp",
+      "Alipay, Maya, GCash",
+      "Kodak, Canon",
+      "Zoom, MS Teams, Webex",
+      "Google, Netflix, YouTube, TikTok, Facebook, X, Instagram, Spotify"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "concepts": [
+      "Property irregularity report",
+      "AI factories",
+      "Graphics processing units (GPUs)",
+      "Edge computing",
+      "Internet of Things (IoT)",
+      "Deep fakes; false holograms",
+      "Cybersecurity ransomware"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "CJ will not fly Qatar Airways anymore and will not recommend it. QR 'has failed multiple times to honor its commitments. The money part may matter, but the broken promises matter most.' A year after the July 18, 2023 incident on QR 928 where his Rimowa wheel was almost detached at NAIA -- despite a property irregularity report, ~10 follow-ups, and the Sept 18, 2023 retrieval by QR's Ruben Gallardo -- the airline has 'failed to deliver the repaired luggage or its replacement.'",
+      "rhetorical_move": "consumer-complaint declaration with broken-promises principle"
+    },
+    {
+      "claim": "Because 'other passengers may have been similarly affected,' CJ calls on 'our hardworking Transportation Secretary Jaime Bautista to discipline this carrier and its officials.'",
+      "rhetorical_move": "regulatory-call-to-action with honorific epithet"
+    },
+    {
+      "claim": "'On a more pleasant subject,' had CJ and ~500 other MVP Group board members invested $1,000 in Nvidia Nasdaq shares in November 2023, the investment would have 'quadrupled by now to $4,000' -- CJ regrets not heeding Dr. Max Tegmark's Nov 9, 2023 MVP Group seminar talk on Nvidia as AI frontliner.",
+      "rhetorical_move": "investment-regret aside with seminar-anchor"
+    },
+    {
+      "claim": "Nvidia 'is the engine of AI' -- engineering 'the most advanced chips, systems, and software for the AI factories of the future... and helps companies create their own AI factories.' Market cap 'blitzed to over $3.3 trillion,' overtaking Microsoft and Apple. Jensen Huang's net worth: $100B+.",
+      "rhetorical_move": "market-leader documentation"
+    },
+    {
+      "claim": "Beyond Nvidia's new wealth, more important is 'how its AI blitz has advanced civilization and improved humanity.' Equally important is how to control AI to minimize 'ethical and social consequences such as job displacement, deep fakes, false holograms, data privacy breaches, and cybersecurity ransomware.' Which firm is most valuable matters less than 'what Nvidia can do and is doing for humans.'",
+      "rhetorical_move": "humanistic-priority reframing"
+    },
+    {
+      "claim": "Internet-era transformations catalog: Microsoft Windows on every computer; iPhone leading smartphones; Viber/iMessage/WhatsApp/email 'effectively abolished post offices and outmoded telegrams and telexes'; Alipay/Maya/GCash replacing paper money/coins/credit cards; smartphones 'long ago dumped Kodak, Canon, and other cameras'; Zoom/MS Teams/Webex for remote meetings 'from anywhere in the world'; Google/Netflix/YouTube/TikTok/Facebook/X/Instagram/Spotify changing habits of learning, communicating, and viewing. 'Truly, the internet has transformed civilization.'",
+      "rhetorical_move": "civilizational-transformation inventory"
+    },
+    {
+      "claim": "Nvidia 'will open another era when it humanizes the internet and AI through the creation of human-like robots and instant access to research.' Its GPUs will revolutionize three domains: (1) healthcare (medical imaging, diagnostics, personalized medicine); (2) self-driving vehicles reducing accidents and providing 'mobility with air taxis'; (3) 'edge-computing' and IoT for connectivity-enhanced quality of life. 'More on these in another column.'",
+      "rhetorical_move": "next-era preview with three-domain enumeration and continuation-promise"
+    }
+  ],
+  "notable_anecdotes": [
+    "Full QR luggage-saga timeline preserved with names and dates -- modeling consumer-grievance dossier discipline.",
+    "CJ's credo line: 'The money part may matter, but the broken promises matter most.' -- preserved as consumer-ethics aphorism.",
+    "Dr. Max Tegmark Nov 9, 2023 MVP Group Annual Corporate Governance Enhancement Seminar -- preserved as corporate-governance-seminar pedigree marker.",
+    "Nvidia market-cap blitz: '$3.3 trillion, overtaking Microsoft (and erstwhile second-placer Apple) as the most valuable company in the world.'",
+    "AI ethical-and-social risks catalog preserved verbatim: 'job displacement, deep fakes, false holograms, data privacy breaches, and cybersecurity ransomware' -- five-risk enumeration.",
+    "Internet-transformation inventory as civilizational-stocktaking register.",
+    "Three-domain Nvidia preview with 'More on these in another column' continuation-promise closing."
+  ],
+  "target_audience": [
+    "Qatar Airways customers and Filipino airline-consumer-rights advocates",
+    "Transportation Secretary Jaime Bautista (regulatory addressee)",
+    "MVP Group board members and officers",
+    "Investors and tech-finance observers",
+    "AI-policy and AI-governance audiences",
+    "Civic readers tracking internet-era civilizational shifts"
+  ],
+  "register_markers": [
+    "consumer-complaint declaration register",
+    "broken-promises principle aphorism",
+    "consumer-grievance dossier discipline (names + dates)",
+    "honorific epithet ('our hardworking Transportation Secretary')",
+    "regulatory-call-to-action mode",
+    "'ON A MORE PLEASANT SUBJECT' two-topic-column transition (CJ-signature)",
+    "investment-regret aside",
+    "market-leader documentation register",
+    "humanistic-priority reframing",
+    "AI-ethical-risks enumeration discipline",
+    "civilizational-transformation inventory",
+    "three-domain enumeration",
+    "'More on these in another column' continuation-promise closing",
+    "blitz / blitzed action-verb signature"
+  ],
+  "decision_framework_signals": [
+    "applies broken-promises-over-money principle as consumer-grievance moral anchor",
+    "uses regulatory-call-to-action as transportation-consumer-protection enforcement device",
+    "deploys market-cap documentation as company-significance metric",
+    "treats humanistic-priority reframing as evaluation-criterion shift",
+    "frames AI ethical/social risks as governance-priority enumeration",
+    "applies internet-transformation inventory as civilizational-stocktaking method",
+    "uses three-domain Nvidia preview as future-impact diagnostic",
+    "treats continuation-promise as serial-column structural device"
+  ],
+  "one_paragraph_summary": "CJ delivers a split column. First, a sustained consumer complaint: he will not fly Qatar Airways (QR) anymore and will not recommend it because QR 'has failed multiple times to honor its commitments. The money part may matter, but the broken promises matter most.' On July 18, 2023, he arrived from Europe via Doha on QR 928 and found his Rimowa luggage's wheel almost totally detached. He reported it at NAIA and received a property irregularity report from QR agent 'Adrian.' QR's service number 'was called several times by my executive assistant Marivic Romualdez but it was always inaccessible'; their travel agent emailed Joy Alvarez-Junio (QR senior manager), who endorsed to the 'MNL LL Team,' which said it was waiting for a 'response from their partner repair shop in CDG for evaluation.' On September 18, 2023, QR's Ruben Gallardo retrieved the luggage from his home. Despite ~10 follow-up emails/calls and assurances, after a year QR 'has failed to deliver the repaired luggage or its replacement.' CJ flies to Europe today via another airline and calls on 'our hardworking Transportation Secretary Jaime Bautista to discipline this carrier and its officials.' 'ON A MORE PLEASANT SUBJECT,' had CJ and the other ~500 board directors and officers of the MVP Group invested $1,000 in Nvidia Nasdaq shares in November last year, the investment 'would have quadrupled by now to $4,000.' CJ regrets not heeding Dr. Max Tegmark, who at the MVP Group's Annual Corporate Governance Enhancement Seminar on November 9, 2023 spoke 'so highly of Nvidia as the frontliner of the incredible blitz of artificial intelligence.' Nvidia 'is the engine of AI' -- 'engineers the most advanced chips, systems, and software for the AI factories of the future... and helps companies create their own AI factories.' Its market capitalization 'has blitzed to over $3.3 trillion, overtaking Microsoft (and erstwhile second-placer Apple) as the most valuable company in the world.' Co-founder/president/CEO Jensen Huang's net worth has grown to $100B+. Beyond wealth, what matters more is 'how its AI blitz has advanced civilization and improved humanity' -- and how to control AI to minimize ethical/social consequences 'such as job displacement, deep fakes, false holograms, data privacy breaches, and cybersecurity ransomware.' The question of which company is most valuable matters less than 'what Nvidia can do and is doing for humans.' CJ catalogs internet-era transformations: every computer needs Microsoft Windows; the iPhone leads smartphones; Viber, iMessage, WhatsApp, and email 'have effectively abolished post offices and outmoded telegrams and telexes'; Alipay, Maya, and GCash replace paper money, coins, and credit cards; smartphones 'long ago dumped Kodak, Canon, and other cameras'; Zoom, MS Teams, and Webex enable remote meetings 'from anywhere in the world'; Google, Netflix, YouTube, TikTok, Facebook, X, Instagram, and Spotify have changed habits of learning, communicating, and viewing. 'Truly, the internet has transformed civilization.' Nvidia 'will open another era when it humanizes the internet and AI through the creation of human-like robots and instant access to research.' Its GPUs and superior chips will revolutionize three domains: (1) healthcare via medical imaging, diagnostics, personalized medicine; (2) self-driving vehicles reducing traffic accidents with 'mobility with air taxis'; (3) 'edge-computing' and Internet of Things delivering connectivity-enhanced quality of life. 'More on these in another column.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

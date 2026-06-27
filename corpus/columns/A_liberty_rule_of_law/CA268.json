@@ -1,0 +1,160 @@
+{
+  "id": "CA268",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 268,
+  "title": "Who masterminded Ninoy's murder?",
+  "date": "2018-08-26",
+  "link": "https://opinion.inquirer.net/115635/masterminded-ninoys-murder",
+  "keywords": [
+    "Ninoy Aquino assassination",
+    "Agrava Board",
+    "Sandiganbayan Pamaran decision",
+    "Fabian Ver murder charge",
+    "legal enigma mastermind"
+  ],
+  "primary_topics": [
+    "35-year quest to identify the mastermind of Ninoy Aquino's assassination",
+    "Judicial proceedings -- SBN and SC -- and their limits",
+    "Unresolved accountability after two Aquino presidencies"
+  ],
+  "sub_topics": [
+    "August 21, 1983 assassination at MIA tarmac",
+    "Marcos's initial CJ Enrique Fernando committee (Aug. 24, 1983)",
+    "Replacement with Agrava Board (Oct. 22, 1983)",
+    "Agrava Board composition and conduct (125 sessions, 194 witnesses, 20,377 pages)",
+    "4-1 Agrava Board conclusion pointing to Gen. Fabian Ver",
+    "Justice Corazon Agrava's lone dissent",
+    "Andres Narvasa as general counsel (later CJ)",
+    "SBN Pamaran decision (Dec. 2, 1985) -- acquittal of all accused",
+    "1986 Edsa Revolution and SC nullification of Pamaran verdict",
+    "SBN Hermosisima decision (Sept. 28, 1990) -- soldiers convicted, reclusion perpetua",
+    "CIC Rogelio Moreno identified as triggerman",
+    "2004 motion for new trial (Persida Acosta, PAO) -- Galman as alternative shooter",
+    "Ver's flight to Hawaii with Marcos (Feb. 25, 1986)",
+    "Ver's death in Bangkok (Nov. 21, 1998) without conviction",
+    "Loose talk linking Marcos, Imelda, and Danding Cojuangco -- no indictment",
+    "Former Ambassador Tan's March 15, 2009 letter to author"
+  ],
+  "signature_phrases": [
+    "Who masterminded Ninoy's murder?",
+    "murdered in broad daylight at the tarmac",
+    "finding the SBN proceeding 'to be a sham'",
+    "a legal enigma",
+    "there was never any evidence linking President Marcos or Imelda or Danding",
+    "Loose talk has linked...",
+    "After 35 years and after two Aquino presidencies, the answer remains a legal enigma"
+  ],
+  "entities": {
+    "people": [
+      "Sen. Benigno 'Ninoy' Aquino Jr.",
+      "President Ferdinand Marcos",
+      "First Lady Imelda Marcos",
+      "Gen. Fabian Ver (AFPCS)",
+      "CIC Rogelio Moreno",
+      "Rolando Galman",
+      "Former Ambassador Eduardo 'Danding' Cojuangco",
+      "CJ Enrique Fernando",
+      "Justice Corazon Agrava",
+      "Lawyer Luciano Salazar",
+      "Businessman Dante Santos",
+      "Labor leader Ernesto Herrera",
+      "Educator Amado Dizon",
+      "CJ Andres Narvasa (then 'Gray Dean', Agrava general counsel)",
+      "SBN PJ Manuel Pamaran",
+      "SBN Justice Regino Hermosisima Jr. (later SC)",
+      "Atty. Persida Acosta (PAO)",
+      "Former Ambassador Bienvenido Tan Jr. (Agrava 'public coordinator')",
+      "Artemio V. Panganiban (author, recipient of Tan letter)"
+    ],
+    "institutions": [
+      "Sandiganbayan (SBN)",
+      "Supreme Court of the Philippines",
+      "Armed Forces of the Philippines (AFP)",
+      "Public Attorney's Office (PAO)",
+      "Agrava Fact-Finding Board"
+    ],
+    "cases": [
+      "Agrava Board proceedings (1983-1984)",
+      "SBN Pamaran decision (December 2, 1985) -- acquittal",
+      "SC nullification of Pamaran verdict (September 12, 1986)",
+      "SBN Hermosisima decision (September 28, 1990) -- conviction",
+      "SC affirmance of Hermosisima decision",
+      "2004 motion for new trial (Persida Acosta, PAO)"
+    ],
+    "laws_treaties": [
+      "Revised Penal Code (murder)",
+      "1987 Constitution (reorganized SBN)"
+    ],
+    "events": [
+      "Assassination of Ninoy Aquino (August 21, 1983)",
+      "Edsa Revolution (February 25, 1986)",
+      "Ver and Marcos flight to Hawaii (February 25, 1986)",
+      "Ver's death in Bangkok (November 21, 1998)",
+      "Former Ambassador Tan's letter to author (March 15, 2009)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Agrava Board (4-1, with Chair Agrava dissenting) pointed to Gen. Fabian Ver as the highest official who actively participated in the military conspiracy to kill Ninoy.",
+      "rhetorical_move": "factual summary of the Board's finding",
+      "confidence": "high"
+    },
+    {
+      "claim": "The SBN Pamaran decision acquitting all accused was found by the newly reconstituted post-EDSA Supreme Court 'to be a sham' and was nullified, leading to a new trial.",
+      "rhetorical_move": "judicial characterization of a disgraced proceeding",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Hermosisima conviction of the soldiers was upheld by the SC, but the mastermind question could not be resolved because Ver fled to Hawaii with Marcos and died in Bangkok without conviction.",
+      "rhetorical_move": "jurisdictional explanation for the unresolved mastermind",
+      "confidence": "high"
+    },
+    {
+      "claim": "Loose talk linking Marcos, Imelda, and Danding Cojuangco was never substantiated by evidence before any tribunal -- a first-hand testimony from the Agrava Board's own public coordinator.",
+      "rhetorical_move": "primary-source rebuttal of speculation",
+      "confidence": "high"
+    },
+    {
+      "claim": "After 35 years and two Aquino presidencies, the identity of the mastermind of Ninoy's murder remains a legal enigma.",
+      "rhetorical_move": "closing melancholic verdict",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Agrava Board's extraordinary scale: 125 sessions, 194 witnesses, 20,377 pages of transcript -- and still no definitive mastermind.",
+    "Justice Corazon Agrava's lone dissent from the 4-1 Board conclusion pointing to Gen. Ver.",
+    "Andres Narvasa serving as Agrava Board general counsel before rising to Chief Justice -- a biographical detail showing the era's institutional connections.",
+    "Ver's flight to Hawaii with Marcos on February 25, 1986 (the day of EDSA) stripping the SBN of jurisdiction over him -- he died in Bangkok on November 21, 1998, never convicted.",
+    "Former Ambassador Bienvenido Tan Jr.'s private letter to the author dated March 15, 2009 -- as the Agrava Board's own public coordinator, Tan attested that there was 'never any evidence linking President Marcos or Imelda or Danding.'",
+    "The 2004 PAO motion for a new trial (Persida Acosta) based on forensic evidence suggesting the fatal shot came not from Moreno (behind Ninoy on the stairway) but from Rolando Galman (on the tarmac)."
+  ],
+  "target_audience": [
+    "Civic readership on the 35th anniversary of the assassination",
+    "Historians and legal scholars of the Marcos era",
+    "Journalists and advocates of accountability",
+    "Law students studying the limits of judicial resolution",
+    "Members of the Aquino family and historical-justice community"
+  ],
+  "register_markers": [
+    "Question-mark title as rhetorical frame -- never answered conclusively",
+    "Precise date-anchored narrative chronology",
+    "Primary-source letter cited with date and quoted verbatim",
+    "Forensic-technical argument on bullet trajectory",
+    "Closing thematic question returning to the title",
+    "Restrained, solemn historical register",
+    "Acknowledgment of 'loose talk' vs legally proven fact"
+  ],
+  "decision_framework_signals": [
+    "Distinguish between what a tribunal found (soldiers convicted) and what it could not find (mastermind) due to jurisdictional gaps (Ver's flight)",
+    "Treat acquittals from politically compromised tribunals (Pamaran) as susceptible to nullification by post-conflict courts",
+    "Require forensic evidence -- not just tribunal findings -- to settle disputed physical facts (Moreno vs Galman as triggerman)",
+    "Treat 'loose talk' about principals as legally inert without indictment or evidentiary finding before a competent tribunal",
+    "Accept that some historical crimes may remain 'legal enigmas' when key suspects die abroad beyond reach of jurisdiction",
+    "Preserve primary-source documents (like Tan's letter) as contemporaneous attestation in unresolved cases"
+  ],
+  "one_paragraph_summary": "On the 35th anniversary of Ninoy Aquino's August 21, 1983 assassination at the MIA tarmac, Panganiban traces the legal proceedings that identified the soldiers but left the mastermind an enduring enigma. President Marcos first created a fact-finding committee chaired by CJ Enrique Fernando (August 24, 1983), then replaced it on October 22, 1983 with the Agrava Board (chair: Justice Corazon Agrava; assisted by 'Gray Dean' Andres Narvasa as general counsel) -- which held 125 sessions, heard 194 witnesses, and produced 20,377 pages of transcript before concluding 4-1 (Agrava dissented) that Gen. Fabian Ver and several military officers conspired to kill Ninoy. The SBN Pamaran decision of December 2, 1985 acquitted all accused; the newly reconstituted post-EDSA Supreme Court found it 'to be a sham,' nullified it, and ordered a new trial. In the Hermosisima decision of September 28, 1990, the SBN convicted the soldiers and sentenced them to reclusion perpetua, identifying CIC Rogelio Moreno as the triggerman behind Ninoy on the stairway -- though a 2004 PAO motion for a new trial (Persida Acosta) argued forensic evidence pointed instead to Rolando Galman on the tarmac. Ver was charged with murder but never tried: he fled to Hawaii with Marcos on February 25, 1986, died in Bangkok on November 21, 1998, and was never convicted as coconspirator or mastermind. Loose talk linking Marcos, Imelda, and Danding Cojuangco was never substantiated -- the Agrava Board's own public coordinator, former Ambassador Bienvenido Tan Jr., wrote the author on March 15, 2009, that 'there was never any evidence linking President Marcos or Imelda or Danding so that much as we might have wanted... we could not in good conscience come up with that conclusion.' After 35 years and two Aquino presidencies, Panganiban concludes, the identity of the mastermind remains a legal enigma.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

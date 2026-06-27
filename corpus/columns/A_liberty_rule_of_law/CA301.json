@@ -1,0 +1,128 @@
+{
+  "id": "CA301",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 301,
+  "title": "Impeachment yesterday, today and tomorrow",
+  "date": "2017-09-03",
+  "link": "https://opinion.inquirer.net/106829/impeachment-yesterday-today-tomorrow",
+  "keywords": [
+    "impeachment",
+    "1987 Constitution",
+    "Estrada impeachment",
+    "Corona impeachment",
+    "Sereno impeachment",
+    "Bautista impeachment",
+    "Duterte impeachment",
+    "House of Representatives"
+  ],
+  "primary_topics": [
+    "Historical survey of all Philippine impeachment proceedings from Estrada to 2017",
+    "Mechanics of the two constitutional pathways to impeach under the 1987 Charter",
+    "Warning against weaponization of the lowered impeachment threshold"
+  ],
+  "sub_topics": [
+    "Estrada impeachment (2000) -- first ever, aborted by Senate walkout, ended by People Power 2",
+    "Davide impeachment (2003) -- stopped by Francisco vs House (Nov. 10, 2003)",
+    "Gutierrez impeachment (2011) -- mooted by resignation",
+    "Corona impeachment (2012) -- only completed impeachment, Senate convicted May 29, 2012",
+    "2017 impeachment attempts vs Duterte, Robredo, Sereno, Morales, Bautista",
+    "Two constitutional pathways: citizen complaint + endorsement vs one-third House direct filing",
+    "Lower vote thresholds in 1987 Charter vs 1936 Charter (1/3 to impeach, 2/3 to convict)",
+    "New 1987 grounds: graft, corruption, betrayal of public trust",
+    "Risk of impeachment as political weapon vs accountability tool"
+  ],
+  "signature_phrases": [
+    "Impeachment has become quite common now",
+    "while these changes enabled citizens to reach the heretofore unreachable officials, they can also be misused and abused",
+    "not a mere tool for political oppression",
+    "a real means of discovering the truth and of exacting accountability under the rule of law",
+    "People Power 2",
+    "sui generis"
+  ],
+  "entities": {
+    "people": [
+      "President Joseph Estrada",
+      "Chief Justice Hilario G. Davide Jr.",
+      "Ombudsman Merceditas Gutierrez",
+      "Chief Justice Renato C. Corona",
+      "President Rodrigo Duterte",
+      "Vice President Leni Robredo",
+      "Chief Justice Maria Lourdes P.A. Sereno",
+      "Ombudsman Conchita Carpio Morales",
+      "Comelec Chair Andres D. Bautista",
+      "Speaker Pantaleon Alvarez"
+    ],
+    "institutions": [
+      "House of Representatives of the Philippines",
+      "Senate of the Philippines",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "Francisco vs House (November 10, 2003) -- stopped Davide impeachment; one-year bar on re-impeachment",
+      "Senate Judgment on Corona (May 29, 2012) -- removal and disqualification"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution -- impeachment provisions (1/3 House to impeach, 2/3 Senate to convict)",
+      "1936 Philippine Constitution -- impeachment provisions (2/3 House to impeach, 3/4 Senate to convict)"
+    ],
+    "events": [
+      "Estrada impeachment (November 13, 2000) -- House articles filed",
+      "Senate walkout on second envelope (January 2001)",
+      "People Power 2 -- Estrada ousted",
+      "Davide impeachment complaint (June 3, 2003)",
+      "Gutierrez impeachment vote (March 21, 2011, 212-46)",
+      "Gutierrez resignation mooting her Senate trial",
+      "Corona impeachment and conviction (May 29, 2012)",
+      "2017 impeachment complaints vs Duterte, Robredo, Sereno, Morales, Bautista"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The 1987 Constitution's lowered impeachment thresholds (1/3 to impeach vs prior 2/3; 2/3 to convict vs prior 3/4) and the addition of 'betrayal of public trust' as a ground have made impeachment a far more accessible and frequently wielded tool — which is both a democratic gain and an abuse risk.",
+      "rhetorical_move": "constitutional-comparison argument (1936 vs 1987 thresholds) leading to dual-edged assessment",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The only constitutionally completed impeachment in PH history is Corona's (2012); all prior attempts failed at various procedural stages — making the frequency of current impeachment filings statistically anomalous.",
+      "rhetorical_move": "historical-completion-rate argument establishing the rarity of full constitutional impeachment as baseline",
+      "confidence": "asserted as historical fact"
+    },
+    {
+      "claim": "Congress should conduct impeachment proceedings prudently — as a genuine tool of accountability, not political oppression — applying the same care that the military is using to implement martial law within constitutional limits.",
+      "rhetorical_move": "normative analogy: martial law constitutional discipline as a model for impeachment procedural discipline",
+      "confidence": "recommended"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 'second envelope' Senate walkout that aborted Estrada's impeachment trial — the House prosecutors walked out after the Senate voted 12-11 to reject opening it, leading not to a constitutional verdict but to People Power 2 ousting Estrada, illustrating how PH impeachment can be derailed by political theater.",
+    "The Francisco vs House ruling stopping the Davide impeachment on the one-year bar against re-initiating impeachment against the same official — CJ Panganiban notes the constitutional provision without disclosing his own participation in the case, maintaining a careful authorial distance from a proceeding involving his colleague.",
+    "The contrast between Gutierrez resigning before her Senate trial and Corona being the only official to complete the full constitutional process — used to frame 2017 impeachment attempts as legally novel in their simultaneous targeting of multiple constitutional officers."
+  ],
+  "target_audience": [
+    "General civic readers following 2017 multi-official impeachment attempts",
+    "Law students and practitioners studying constitutional impeachment mechanics",
+    "House and Senate members considering the political use of impeachment",
+    "Political analysts assessing the Duterte-era weaponization of constitutional tools",
+    "Civil society advocates for rule-of-law accountability"
+  ],
+  "register_markers": [
+    "chronological historical-survey register (yesterday/today/tomorrow tripartite structure)",
+    "constitutional-mechanics explainer (two pathways, vote thresholds, one-year bar)",
+    "dual-voice assessment (democratic gain + abuse risk)",
+    "normative analogy close (impeachment : constitutional discipline :: martial law : constitutional discipline)",
+    "caveat-without-prejudging qualifier ('without prejudging the current impeachment complaints')",
+    "passive-historical framing for personally sensitive cases (Francisco vs House mentioned without CJ's own role)"
+  ],
+  "decision_framework_signals": [
+    "uses historical-completion-rate analysis (1 successful out of 5+ attempts) to calibrate the normative baseline",
+    "applies constitutional-threshold-comparison (1936 vs 1987) as primary structural lens",
+    "treats procedural discipline (personal-knowledge requirement, verified complaint, proper endorsement) as the key safeguard against weaponization",
+    "frames the entire analysis through rule-of-law vs political-weapon dichotomy",
+    "closes with analogical reasoning (martial law discipline as model for impeachment discipline)"
+  ],
+  "one_paragraph_summary": "Panganiban surveys Philippine impeachment from its first successful House filing against Estrada (November 13, 2000) -- whose Senate trial was aborted by the 'second envelope' walkout and ended by People Power 2 -- through the Davide impeachment stopped by Francisco vs House (2003) on the one-year re-initiation bar, Gutierrez's resignation mooting her 2011 trial, and Corona's conviction (May 29, 2012) as the only constitutionally completed case, to the 2017 crop of simultaneous complaints against Duterte, Robredo, Sereno, Morales, and Bautista. He explains the two constitutional pathways (citizen complaint + one-congressperson endorsement routed through the House justice committee, vs direct one-third-of-House filing that automatically constitutes the Articles), and argues that the 1987 Charter's dramatically lowered thresholds -- 1/3 to impeach and 2/3 to convict, down from 2/3 and 3/4 in the 1936 Charter, plus new grounds of graft, corruption, and betrayal of public trust -- have made impeachment both more democratically accessible and more susceptible to political weaponization. He closes with the normative caution that Congress should conduct current proceedings with the same constitutional discipline the military is applying to martial law, so impeachment remains 'a real means of discovering the truth and of exacting accountability under the rule of law, and not a mere tool for political oppression.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

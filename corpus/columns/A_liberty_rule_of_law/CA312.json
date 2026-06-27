@@ -1,0 +1,111 @@
+{
+  "id": "CA312",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 312,
+  "title": "Job contracting vs labor-only contracting",
+  "date": "2017-05-14",
+  "link": "https://opinion.inquirer.net/103981/job-contracting-vs-labor-contracting",
+  "keywords": [
+    "contractualization",
+    "job contracting",
+    "labor-only contracting",
+    "DO 174 2017",
+    "outsourcing",
+    "Sasan vs NLRC",
+    "Labor Code Art 106",
+    "substantial capital"
+  ],
+  "primary_topics": [
+    "Plain-language explanation of the legal distinction between permissible job contracting and prohibited labor-only contracting",
+    "DO 174 (2017) as the current regulatory framework for contractualization",
+    "Sasan vs NLRC (2008) as the definitive Supreme Court test for legitimate job contracting"
+  ],
+  "sub_topics": [
+    "Simple residential-house analogy: owner (principal), contractor with sufficient capital",
+    "DO 174 Series 2017: 'sufficient capital' = paid-up capital or net worth of at least P5 million",
+    "Job contracting: contractor supplies labor, materials, equipment, pays workers -- workers are contractor's employees",
+    "Owner's solidary liability only if contractor underpays workers",
+    "Labor-only contracting triggers: contractor recruits only, OR owner pays salaries, OR owner supervises, OR owner provides equipment",
+    "Labor Code Art. 106 prohibition of labor-only contracting",
+    "Supply of construction materials by owner does not convert job contracting to labor-only",
+    "Subcontracting: cleaning, guarding, medical clinic -- each a separate job contract if properly capitalized and controlled",
+    "Outsourcing as the Digital Age synonym for job contracting",
+    "Sasan vs NLRC (Oct. 17, 2008): three-part test for legitimate job contracting",
+    "Sasan test: (a) independent business + own responsibility + own manner; (b) substantial capital/investment; (c) contractual employees entitled to all labor and safety standards",
+    "Labor-only contracting elements: (a) no substantial capital; (b) employees perform activities directly related to principal's main business"
+  ],
+  "signature_phrases": [
+    "contractualization",
+    "principal",
+    "sufficient capital",
+    "solidarily liable",
+    "labor-only contracting, a prohibited act",
+    "outsourcing is the digital-age synonym of job contracting",
+    "directly related to the main business of the principal",
+    "carries on a distinct and independent business"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Department of Labor and Employment (DOLE)",
+      "Supreme Court of the Philippines",
+      "National Labor Relations Commission (NLRC)"
+    ],
+    "cases": [
+      "Sasan vs NLRC (October 17, 2008) -- three-part test for legitimate job contracting vs labor-only contracting"
+    ],
+    "laws_treaties": [
+      "DO 174 Series of 2017 (DOLE) -- contractualization rules; sufficient capital = P5 million",
+      "Labor Code Art. 106 -- prohibition of labor-only contracting"
+    ],
+    "events": [
+      "DOLE issuance of DO 174, Series of 2017"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Job contracting (outsourcing) is legally permissible and distinct from prohibited labor-only contracting: the key determinants are whether the contractor has substantial capital/investment, exercises control over workers, and assures them all labor standards — not whether the owner supplies some materials.",
+      "rhetorical_move": "legal-clarity advocacy: plain-language exposition to demystify a politically charged issue and separate legitimate from prohibited practices",
+      "confidence": "asserted as settled doctrine (Sasan)"
+    },
+    {
+      "claim": "The three triggers for prohibited labor-only contracting — contractor recruits only, owner pays salaries, or owner supervises or provides equipment — are the operative tests, not the size or formality of the arrangement.",
+      "rhetorical_move": "trigger-identification as practical guidance for principals and contractors navigating DO 174",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The residential-house construction analogy — a homeowner hiring a P5-million-capitalized contractor to build a house, then exploring what changes when the contractor subcontracts cleaning, guarding, and a medical clinic — used as a two-step pedagogic escalator from simple to complex contractualization scenarios without any legal jargon in the first pass.",
+    "The aside that 'outsourcing is the digital-age synonym of job contracting' — connecting a vintage legal term to its contemporary business usage, bridging the gap between the Labor Code's language and the lived vocabulary of the modern economy.",
+    "The supply-of-materials clarification: an owner providing cement, gravel, and wood to the contractor does not convert legitimate job contracting into prohibited labor-only contracting — a common misconception explicitly addressed to prevent misapplication of the distinction."
+  ],
+  "target_audience": [
+    "Business owners and HR managers navigating contractualization rules",
+    "Workers and unions seeking to understand their rights under job contracting arrangements",
+    "Lawyers advising principals and contractors on DO 174 compliance",
+    "Law students studying labor law and the Sasan doctrine",
+    "General civic readership following the contractualization policy debate"
+  ],
+  "register_markers": [
+    "plain-language pedagogic register ('imagine the owner of a residential lot')",
+    "two-step escalation structure (simple house → complex multi-building subcontracts)",
+    "regulatory-definition precision (DO 174 P5M capital threshold)",
+    "digital-age synonym aside ('outsourcing') as contemporary bridge",
+    "direct Sasan quotation for doctrinal authority — extended block-quote register",
+    "misconception-correction register (owner supplying materials does not create labor-only contracting)"
+  ],
+  "decision_framework_signals": [
+    "uses analogy-as-legal-test: the residential house scenario maps directly onto the Sasan three-part test",
+    "applies trigger-identification framework (three labor-only contracting triggers) as the operative filter",
+    "treats substantial capital/investment as the primary structural variable distinguishing job from labor-only contracting",
+    "uses control test (who supervises, who pays, who provides equipment) as the secondary filter",
+    "frames DO 174's P5M threshold as the bright-line regulatory standard for the capital requirement"
+  ],
+  "one_paragraph_summary": "Panganiban provides a plain-language explanation of the contractualization debate by walking through two escalating hypotheticals. In the simple version, a homeowner hires a properly capitalized contractor (DO 174: at least P5M paid-up capital or net worth) to build a house; the contractor supplies labor, materials, and equipment, pays workers at least minimum wage, and the homeowner is not the employer -- this is permissible job contracting under Labor Code Art. 106. Labor-only contracting (prohibited) arises if the contractor merely recruits workers while the owner pays salaries, supervises work, or provides equipment. In the complex version, a contractor for a P5-billion multi-building project subcontracts cleaning, security, and medical services to three separately capitalized entities -- each is still legitimate job contracting because the subcontractors control, pay, and equip their own workers. He anchors the analysis in Sasan vs NLRC (October 17, 2008), which sets a three-part test: (a) the contractor carries on an independent business in its own manner and under its own responsibility; (b) has substantial capital or investment; and (c) assures contractual employees full labor and safety standards -- contrasted with the two labor-only contracting elements: no substantial capital, and employees performing activities directly related to the principal's main business. He closes by noting that 'outsourcing is the digital-age synonym of job contracting.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

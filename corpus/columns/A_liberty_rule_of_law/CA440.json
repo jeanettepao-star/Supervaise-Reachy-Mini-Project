@@ -1,0 +1,135 @@
+{
+  "id": "CA440",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 440,
+  "title": "Filipino justice--from concept to practice",
+  "date": "2013-10-19",
+  "link": "https://opinion.inquirer.net/63675/filipino-justice-from-concept-to-practice",
+  "keywords": [
+    "pork barrel",
+    "separation of powers",
+    "PDAF",
+    "1994 precedent",
+    "lump-sum appropriation",
+    "people's initiative",
+    "Lambino doctrine"
+  ],
+  "primary_topics": [
+    "Doctrine of separation of powers as basic constitutional framework",
+    "1994 SC precedent upholding pork barrel -- and why changed facts make it inapplicable now",
+    "What makes the current PDAF law unconstitutional",
+    "Three routes to abolish pork barrel: SC unconstitutionality, congressional repeal, people's initiative"
+  ],
+  "sub_topics": [
+    "Three-branch division: Congress legislates, President executes, SC interprets",
+    "Marcos PD-era and Cory revolutionary EO-era as exceptions (decrees and EOs still valid unless repealed)",
+    "Judicial legislation as anathema to Constitution",
+    "Two prohibited legislative roles: (1) specifying projects, (2) determining offices/NGOs to receive funds",
+    "1994 precedent: legislators only 'recommended' projects; executive retained absolute discretion",
+    "Change-in-facts doctrine: stare decisis doesn't apply when facts change",
+    "Constitutional path -- legislators may include specific projects in the law itself (e.g. specific bridge, university)",
+    "Unconstitutional path -- lump-sum + post-enactment legislator discretion to direct it",
+    "Bogus NGOs and ghost projects as criminal misuse",
+    "Hospitals, bridges, roads, scholarships, emergency aid still fundable through line agencies",
+    "People's initiative path: Lambino vs Comelec (Oct 25 2006, J Carpio during CJ's term) restricted initiative to simple amendments, not complicated revisions",
+    "Initiative procedural requirements: 12 percent of 50 million voters; 3 percent in each of 234 districts; Comelec approval; referendum; appealable to SC -- at least a year, longer if SC-tested",
+    "Closing line: 'If these two solutions are ignored, it is time for another Edsa'"
+  ],
+  "signature_phrases": [
+    "doctrine of separation of powers",
+    "judicial legislation is anathema to the Constitution",
+    "stare decisis would not apply when the facts change",
+    "bogus NGOs and ghost projects",
+    "the unconstitutionality route, or congressional repeal",
+    "it is time for another Edsa"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Ferdinand Marcos (PD era reference)",
+      "Cory Aquino (EO 1986-1987 reference)",
+      "Antonio T. Carpio (Lambino ponente during CJ's term)"
+    ],
+    "institutions": [
+      "Congress",
+      "Office of the President",
+      "Supreme Court",
+      "Commission on Elections",
+      "Nongovernment organizations (as PDAF conduits)"
+    ],
+    "cases": [
+      "Lambino vs Comelec (Oct 25 2006, J Carpio)",
+      "1994 pork barrel constitutionality precedent (unnamed)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- separation of powers doctrine",
+      "Then-prevailing pork barrel law (1994 precedent)",
+      "Current PDAF law (challenged)"
+    ],
+    "events": [
+      "Martial Law era (Marcos PDs)",
+      "1986-1987 revolutionary government (Cory EOs)",
+      "Pending SC case on PDAF unconstitutionality",
+      "Reported diversions to bogus NGOs and ghost projects"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Under separation of powers, Congress legislates, President executes, SC interprets -- and the delineation is 'exclusive and absolute,' with the only historical exceptions being abrogations of the Constitution itself (Marcos PDs, Cory EOs).",
+      "rhetorical_move": "doctrinal-foundation framing (re-establishing first principles before the analytical move)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The 1994 SC precedent upholding pork barrel does NOT control the current PDAF case because the underlying fact has changed: the 1994 law made legislator recommendations non-binding, while the current law allegedly makes them binding -- and stare decisis does not apply when facts change.",
+      "rhetorical_move": "change-in-facts doctrine deployment (using a precedent-distinguishing principle to neutralize the controlling case)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The constitutional path for legislators to fund specific projects is to include them in the law itself (e.g. 'a bridge here, a hospital there') without retaining post-enactment discretion; the unconstitutional path is lump-sum appropriation paired with legislator power to direct it.",
+      "rhetorical_move": "constitutional/unconstitutional path distinction (offering a permitted alternative to a prohibited practice)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "There are three routes to abolish pork barrel -- SC unconstitutionality declaration, congressional repeal, and people's initiative -- but the first two are far less convoluted; the third faces the Lambino doctrine's amendment-vs-revision hurdle plus extreme procedural burdens (12 percent of 50M voters, 3 percent per district, Comelec, referendum, SC review).",
+      "rhetorical_move": "three-route comparison with feasibility ranking",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "If neither the SC declares unconstitutionality nor Congress repeals, then 'it is time for another Edsa' -- a sharp escalation to extra-constitutional people-power as the residual remedy.",
+      "rhetorical_move": "EDSA-as-residual-remedy invocation (escalating the closing register from doctrinal to revolutionary)",
+      "confidence": "asserted as warning"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's parenthetical authorial signature on Lambino vs Comelec -- '(Oct. 25, 2006, penned by Justice Antonio T. Carpio during my term as chief justice)' -- the rare moment where he claims institutional ownership of a doctrine that now constrains the people's-initiative route. The dating itself is the credential.",
+    "The dual-era exception: Marcos PDs and Cory EOs as the only historical exceptions to the separation-of-powers rule, with the surprising legal note that those decrees and orders remain valid law today unless subsequently repealed. The constitutional asymmetry survived the political eras.",
+    "The closing line 'it is time for another Edsa' -- the most extra-constitutional escalation in any of the pork-barrel columns, breaking from doctrinal register into revolutionary-residual remedy register."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Law students and lawyers (the '101' framing signals pedagogical intent)",
+    "Civic-minded citizens following pork barrel debate",
+    "Constitutional-reform advocates"
+  ],
+  "register_markers": [
+    "'101' pedagogical-introduction title",
+    "doctrinal-foundation opening register",
+    "'Otherwise stated' as legalese transition",
+    "italicized stare decisis",
+    "constitutional/unconstitutional path enumeration",
+    "CJ self-credential via parenthetical case-attribution ('during my term as chief justice')",
+    "EDSA-invocation closing register (deliberate revolutionary escalation)"
+  ],
+  "decision_framework_signals": [
+    "uses doctrinal-foundation framing (re-establishing first principles before analysis)",
+    "deploys change-in-facts doctrine to distinguish controlling precedent (neutralizing 1994 ruling)",
+    "offers constitutional alternative for every prohibited practice ('projects can still be funded through line agencies')",
+    "ranks reform routes by procedural feasibility (SC and Congress over people's initiative)",
+    "escalates to EDSA-as-residual-remedy when ordinary channels fail -- a closing-register move signaling stakes"
+  ],
+  "one_paragraph_summary": "Panganiban offers a 'Pork Barrel 101' from doctrinal first principles: under separation of powers, Congress legislates, the President executes, and the Supreme Court interprets -- 'exclusive and absolute,' with the only historical exceptions being constitutional abrogations (Marcos PDs and Cory EOs, whose issuances remain valid unless subsequently repealed). Legislators are prohibited from two acts: specifying particular projects and determining which agencies or NGOs receive funds from a lump sum. He explains that the 1994 SC precedent upholding pork barrel is distinguishable because the controlling fact has changed: the 1994 law treated legislator recommendations as non-binding, while the current PDAF allegedly makes them binding -- and 'stare decisis would not apply when the facts change.' The constitutional path: legislators may include specific projects in the law itself (a particular bridge, hospital, university). The unconstitutional path: lump-sum appropriation paired with post-enactment legislator discretion. Reported diversions to 'bogus NGOs and ghost projects' add criminal misuse to constitutional infirmity. He maps three abolition routes: SC unconstitutionality declaration, congressional repeal, and people's initiative -- but the third faces Lambino vs Comelec (Oct 25, 2006, J Carpio, 'during my term as chief justice'), which restricts initiative to amendments not revisions, plus procedural burdens (12 percent of 50M voters, 3 percent per district, Comelec, referendum, SC review). He concludes that SC-unconstitutionality or congressional-repeal routes are 'less convoluted and much faster,' closing with the rare escalation: 'If these two solutions are ignored, it is time for another Edsa.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

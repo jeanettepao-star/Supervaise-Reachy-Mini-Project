@@ -1,0 +1,154 @@
+{
+  "id": "CA380",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 380,
+  "title": "Reactions to 'Grace Poe's citizenship'",
+  "date": "2015-06-21",
+  "link": "https://opinion.inquirer.net/85997/reactions-to-grace-poes-citizenship",
+  "keywords": [
+    "Grace Poe",
+    "citizenship",
+    "foundling",
+    "UNHCR",
+    "natural-born",
+    "reactions Q&A",
+    "Bernard Kerblat"
+  ],
+  "primary_topics": [
+    "Reactions to 'Grace Poe's citizenship' -- follow-up Q&A to A381",
+    "UNHCR Bernard Kerblat's 'pleasant soothing philharmonic orchestra' endorsement email",
+    "June 16 home visit by Kerblat, Yasser Saad, and Iya Gallardo; Dec 7 2011 ministerial-meeting pledge; Feb 2015 multi-agency action plan",
+    "Paulino Yusi objection: 1935 Constitution requires election of citizenship upon majority by Filipino mothers -- answered",
+    "Joselito Basilio Dubai: jus soli vs jus sanguinis incompatibility argument -- refuted",
+    "Marites Vitug and Eric Damasing 'tougher question': oath-of-allegiance as act-to-acquire/perfect citizenship",
+    "David v. Agbay (March 18, 2015): before-vs-after-RA-9225-effectivity distinction and Renato David falsification context",
+    "'Reacquired same original natural-born status' doctrine"
+  ],
+  "sub_topics": [
+    "Most exhilarating reaction: Kerblat email calling CJP's opinion 'a pleasant soothing philharmonic orchestra composition to our ears'",
+    "Kerblat addition: 'badly needed clarification that a foundling in the Philippines is not a stateless person'; 'YES, the UNHCR FULLY supports' CJP's 1961 Convention accession call",
+    "June 16 home visit: Kerblat, deputy Yasser Saad, legal aide Iya Gallardo",
+    "Dec 7, 2011 ministerial meeting: PH panel pledged to initiate accession to 1961 Convention",
+    "February 2015: various executive agencies convened to develop national plan to end statelessness by 2016",
+    "Yusi objection: Article 2 of 1961 Convention presumes Filipino parents -- but does this mean natural-born? Under 1935 Constitution, Filipino-mother/foreign-father children need to elect Philippine citizenship upon majority",
+    "Answer: 1961 Convention refers to 'parents' (plural) -- father is enough; Poe derives natural-born citizenship from presumed Filipino father; no need to 'elect'",
+    "Basilio Dubai: jus soli vs jus sanguinis incompatibility argument -- Article 2 is jus soli; 1987 Constitution is jus sanguinis",
+    "Answer: 1961 Convention simply says foundling is presumed to have parents who are nationals of the country where found; under our Constitution, citizenship follows father or mother -- no incompatibility",
+    "Ray Lopez California: critics are 'intellectual prostitutes to sway public opinion' -- but CJP explained issue 'devoid of bias'",
+    "CJP met Poe only once at a public forum; no other official or personal association",
+    "Tougher question (Vitug/Damasing): Poe may have natural-born citizenship via generally-accepted-principles -- but she lost it when she married her American husband; by taking oath of allegiance to reacquire, did she perform 'an act to acquire or perfect her citizenship' under the 1987 Constitution's natural-born definition?",
+    "David v. Agbay (March 18, 2015): RA 9225 pre-effectivity natural-born citizens reacquire after oath; RA 9225 post-effectivity natural-born citizens retain citizenship upon oath",
+    "Poe belongs to pre-effectivity category -- reacquired, not retained",
+    "Answer: she reacquired her original natural-born citizenship; the oath is not 'an act to acquire or perfect'; she had already acquired/perfected at birth",
+    "Renato David: became Canadian before RA 9225 effectivity; applied to purchase public land before taking oath; held liable for falsification; had he been naturalized after effectivity, he would have retained citizenship and not been liable"
+  ],
+  "signature_phrases": [
+    "pleasant soothing philharmonic orchestra",
+    "Ineluctably",
+    "devoid of bias",
+    "YES, the UNHCR FULLY supports",
+    "intellectual prostitutes",
+    "reacquired the same original natural-born status"
+  ],
+  "entities": {
+    "people": [
+      "Sen. Grace Poe",
+      "Bernard Kerblat (UNHCR PH representative)",
+      "Yasser Saad (UNHCR deputy representative)",
+      "Iya Gallardo (UNHCR legal aide)",
+      "Paulino Yusi (Makati lawyer)",
+      "Joselito Basilio (Dubai reader)",
+      "Ray Lopez (California reader)",
+      "Marites Vitug (multi-awarded journalist)",
+      "Eric Damasing (reader)",
+      "Renato David (David v. Agbay petitioner)"
+    ],
+    "institutions": [
+      "United Nations High Commissioner for Refugees (UNHCR)",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "David v. Agbay (March 18, 2015) -- pre/post RA 9225 effectivity distinction"
+    ],
+    "laws_treaties": [
+      "1961 Convention on the Reduction of Statelessness -- Article 2",
+      "1935 Constitution -- Filipino-mother/foreign-father election of citizenship",
+      "1987 Constitution -- natural-born definition ('from birth without having to perform any act')",
+      "Dual Citizenship Law (Republic Act No. 9225)"
+    ],
+    "events": [
+      "June 16, 2015 -- Kerblat/Saad/Gallardo home visit to CJP",
+      "December 7, 2011 -- Ministerial meeting accession pledge",
+      "February 2015 -- Multi-agency national-action-plan convening"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "UNHCR's Kerblat endorsed CJP's opinion as 'a pleasant soothing philharmonic orchestra composition to our ears' and fully supported CJP's call for PH accession to the 1961 Convention -- confirming that a foundling found in the Philippines is not stateless",
+      "rhetorical_move": "institutional-endorsement opening",
+      "confidence": "high"
+    },
+    {
+      "claim": "The 1961 Convention refers to 'parents' -- so it is enough that Poe's legally presumed father is Filipino; she derives natural-born citizenship from her presumed Filipino father and need not 'elect' citizenship as a Filipino-mother/foreign-father child would under the 1935 Constitution",
+      "rhetorical_move": "Yusi-objection rebuttal via father-sufficiency argument",
+      "confidence": "high"
+    },
+    {
+      "claim": "There is no jus soli vs jus sanguinis incompatibility: the 1961 Convention simply says a foundling is presumed to have parents who are nationals of the country where found; under PH Constitution, citizenship follows father or mother -- they are consistent",
+      "rhetorical_move": "Basilio-objection rebuttal via consistency argument",
+      "confidence": "high"
+    },
+    {
+      "claim": "CJP wrote merely his honest and sincere opinion without bias -- he met Poe only once at a public forum and has had no other official or personal association with her",
+      "rhetorical_move": "impartiality declaration",
+      "confidence": "high"
+    },
+    {
+      "claim": "The tougher question raised by Vitug and Damasing is: when Poe took her oath of allegiance to reacquire citizenship, did she perform 'an act to acquire or perfect her citizenship' thereby losing her natural-born status? No -- she reacquired her original natural-born citizenship; the oath of allegiance is not 'an act to acquire or perfect' because she already acquired and perfected at birth",
+      "rhetorical_move": "tougher-question engagement + reacquisition-doctrine answer",
+      "confidence": "high"
+    },
+    {
+      "claim": "David v. Agbay: under RA 9225, pre-effectivity natural-born citizens who became foreign citizens reacquire Philippine citizenship after taking the oath; Poe belongs to this category -- ineluctably, she reacquired the same original natural-born status",
+      "rhetorical_move": "David v. Agbay distinction applied to Poe",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Kerblat's 'pleasant soothing philharmonic orchestra' email -- most memorable external endorsement in the column",
+    "UNHCR home visit by three officers including legal aide -- signals institutional commitment",
+    "Dec 7, 2011 ministerial-meeting accession pledge -- long-standing commitment",
+    "Yusi's election-upon-majority objection as the most technical reader challenge",
+    "Vitug/Damasing's 'tougher question' as the most legally complex challenge",
+    "Renato David as cautionary tale of pre-RA-9225 foreignization + public-land-purchase sans oath"
+  ],
+  "target_audience": [
+    "Inquirer readership and legal community following the Poe case",
+    "UNHCR and international human-rights advocates",
+    "Lawyers and law students on the natural-born doctrine",
+    "Poe campaign circle and critics",
+    "Readers who emailed CJP after A381"
+  ],
+  "register_markers": [
+    "reactions-Q&A register with reader-attribution",
+    "institutional-endorsement opening (Kerblat)",
+    "tougher-question engagement",
+    "David v. Agbay distinction walkthrough",
+    "impartiality declaration",
+    "Ineluctably as Latin/literary marker",
+    "UNHCR visit detail as narrative corroboration"
+  ],
+  "decision_framework_signals": [
+    "Father-sufficiency under 1961 Convention Article 2",
+    "Jus sanguinis consistency with foundling-presumption",
+    "Natural-born definition: 'from birth without having to perform any act'",
+    "Pre/post-RA-9225-effectivity distinction (David v. Agbay)",
+    "Reacquire vs retain distinction under RA 9225",
+    "Oath-of-allegiance as non-constitutive of natural-born status"
+  ],
+  "one_paragraph_summary": "Panganiban follows up his foundational Grace Poe citizenship column with a Q&A on reader reactions. The most exhilarating: an early email from UNHCR's Bernard Kerblat calling CJP's opinion 'a pleasant soothing philharmonic orchestra composition to our ears,' providing badly needed clarification that a foundling in the Philippines is not stateless -- contrary to some uninformed voices -- and declaring 'YES, the UNHCR FULLY supports' CJP's call for PH accession to the 1961 Convention on the Reduction of Statelessness. On June 16, Kerblat, deputy Yasser Saad, and legal aide Iya Gallardo visited CJP at home; they explained that during a December 7, 2011 ministerial meeting, the Philippine panel pledged to initiate accession to the 1961 Convention, and that in February 2015 various executive agencies convened to develop a national plan to end statelessness by 2016. Paulino Yusi, a Makati lawyer, objected that Article 2's presumption of Filipino parents does not ipso facto make Poe natural-born -- under the 1935 Constitution, Filipino-mother/foreign-father children need to elect Philippine citizenship upon reaching majority. CJP answers: the 1961 Convention refers to 'parents,' so it is enough that her presumed father is Filipino; Poe derives natural-born citizenship from her presumed Filipino father and need not elect, because her presumed father already conferred that status at birth. Joselito Basilio from Dubai argued Article 2 is based on jus soli while our Constitution is based on jus sanguinis -- incompatible. CJP answers: there is no incompatibility; the 1961 Convention simply says a foundling is presumed to have parents who are nationals of the country where found, and under PH Constitution citizenship follows the father or mother. Ray Lopez from California praised CJP for explaining the issue 'devoid of bias' and criticized critics as 'intellectual prostitutes.' CJP clarifies he met Poe only once at a public forum and has had no other official or personal association. The tougher question, posed by multi-awarded journalist Marites Vitug and Eric Damasing: while Poe may have acquired natural-born citizenship via generally-accepted-principles, she lost it when she married her American husband -- and by taking an oath of allegiance to reacquire it, did she perform 'an act to acquire or perfect her Philippine citizenship,' thereby losing natural-born status? CJP answers no, citing David v. Agbay (March 18, 2015): under RA 9225, natural-born citizens who became citizens of another country before the law's effectivity reacquire Philippine citizenship upon taking the oath, while those who became foreign citizens after the law's effectivity retain their citizenship upon taking the same oath. Since Poe belongs to the first category -- a reacquirer, not a retainer -- she reacquired her original natural-born citizenship. Her taking the oath of allegiance is not 'an act to acquire or perfect'; she had already acquired and perfected her citizenship at birth. Ineluctably, she reacquired the same original natural-born status.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

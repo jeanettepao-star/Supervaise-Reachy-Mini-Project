@@ -1,0 +1,136 @@
+{
+  "id": "CC050",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 50,
+  "title": "Unofficial resident amicus curiae'",
+  "date": "2021-12-26",
+  "link": "https://opinion.inquirer.net/147928/unofficial-resident-amicus-curiae",
+  "keywords": [
+    "CJ Gesmundo launch speech",
+    "'With Due Respect 3' (WDR3)",
+    "lifetime tenure vs mandatory retirement at 70",
+    "Art of Relevance",
+    "amicus curiae",
+    "post-retirement relevance"
+  ],
+  "primary_topics": [
+    "CJ Alexander G. Gesmundo's speech formally launching 'With Due Respect 3'",
+    "The retirement-at-70 vs lifetime-tenure question for Supreme Court Justices",
+    "Panganiban as the 'best argument for lifetime tenure' through enduring sharpness and lucidity",
+    "The 'Art of Relevance' -- passionate post-retirement engagement through column-writing",
+    "Panganiban's columns as a continuing voice on judicial-reform issues, read by lay readers, lawyers, students, justices, and judges"
+  ],
+  "sub_topics": [
+    "Gesmundo's JBC interview answer favoring the 70-year retirement age vs his later realization that age does not always diminish productivity",
+    "Panganiban as 'two decades my senior' yet 'as incisive and lucid as when he was writing his ponencias for the Court'",
+    "'Irrelevance, inconsequence, insignificance' as the dreaded curse of judicial retirement",
+    "Column 'With Due Respect' as 'resonant voice, not just heard but read and listened to by many'",
+    "Lay readers, lawyers, law students, justices, and judges among CJ's audience",
+    "Column's freedom 'with more freedom than he had when he was sitting in the Court'",
+    "CJ's reform interests carried into retirement",
+    "Gesmundo's reference to CJ's Oct. 31, 2021 column lamenting 'I have not done enough'",
+    "Gesmundo's closing toast: 'unofficial resident amicus curiae'"
+  ],
+  "signature_phrases": [
+    "I may have spoken too soon",
+    "the best argument to lifetime tenure for Justices of the High Court",
+    "as incisive and lucid as when he was writing his ponencias for the Court",
+    "the Art of Relevance",
+    "Irrelevance, inconsequence, insignificance, these I have been told, are the dreaded curse accompanying retirement",
+    "resonant voice, not just heard but read and listened to by many",
+    "with more freedom than he had when he was sitting in the Court bound by its rules and proscriptions",
+    "even mischievously, if I dare say",
+    "Modesty aside, I was happy at my tenure in the Court. And yet a yearning throbbed deep in my heart that I have not done enough",
+    "the work is never finished",
+    "unofficial resident amicus curiae",
+    "Cheers!"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (subject; columnist)",
+      "CJ Alexander G. Gesmundo (speech-giver, incumbent SC Chief Justice)",
+      "Judicial and Bar Council (interviewers of Gesmundo for CJ post)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Philippine Daily Inquirer",
+      "Judicial and Bar Council (JBC)",
+      "Foundation for Liberty and Prosperity (FLP, implicit publisher of CJ-related content)",
+      "United States Supreme Court (referenced re: lifetime tenure)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution -- mandatory retirement of Justices at 70",
+      "US constitutional reference -- lifetime tenure 'restricted only by good behavior'"
+    ],
+    "events": [
+      "Formal launch of 'With Due Respect 3' (December 2021)",
+      "Panganiban's 85th birthday (referenced)",
+      "Gesmundo's JBC interview for the Chief Justice post",
+      "Panganiban's Oct. 31, 2021 column referenced ('I have not done enough')"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "CJ Gesmundo's initial answer at his JBC interview -- opposing lifetime tenure beyond 70 -- was 'spoken too soon'; Panganiban exemplifies why some Justices remain 'as sharp and as prolific' after retirement.",
+      "rhetorical_move": "second-thoughts self-revision (Gesmundo speaking, as relayed by CJ)",
+      "confidence": "Gesmundo's reconsideration"
+    },
+    {
+      "claim": "Panganiban is 'the best argument to lifetime tenure for Justices of the High Court' -- at 85, 15 years after retirement, he remains as incisive and lucid as when he wrote ponencias.",
+      "rhetorical_move": "exemplar argument for institutional design",
+      "confidence": "Gesmundo's tribute"
+    },
+    {
+      "claim": "Panganiban has mastered the 'Art of Relevance' -- staying engaged across diverse fields, with the Inquirer column as his most influential tool, articulating views that incumbent justices 'could only wish to say themselves.'",
+      "rhetorical_move": "post-retirement engagement model",
+      "confidence": "Gesmundo's tribute"
+    },
+    {
+      "claim": "The column's analyses are 'incisive and can cut to the quick, but are always insightful'; Panganiban has continued to push for judicial reform 'with the utmost respect for the Court and its rules, even as he staunchly advocates what he believes is right and just.'",
+      "rhetorical_move": "balanced characterization (sharp yet respectful)",
+      "confidence": "Gesmundo's tribute"
+    },
+    {
+      "claim": "The work is never finished: whether one serves to 70, 80, or until called by the Creator, the regret of 'not having done more' is universal among Justices.",
+      "rhetorical_move": "universal-truth coda about service",
+      "confidence": "Gesmundo's reflection"
+    }
+  ],
+  "notable_anecdotes": [
+    "Gesmundo's JBC interview anecdote: when asked about extending Justices' terms beyond 70, he immediately answered against it -- 'I may have spoken too soon.'",
+    "Gesmundo's suggestion of a future book title: 'The Art of Relevance.'",
+    "Gesmundo describing CJ's columns as articulating 'sentiments and views which incumbent members of the Court could only wish to say themselves' -- 'even mischievously, if I dare say.'",
+    "Gesmundo quoting CJ's Oct. 31, 2021 column: 'a yearning throbbed deep in my heart that I have not done enough.'",
+    "Toast closing the launch with 'unofficial resident amicus curiae' -- the column-as-friend-of-court image."
+  ],
+  "target_audience": [
+    "FLP donor and friend community attending the WDR3 launch",
+    "Members of the Supreme Court and judiciary at large",
+    "Inquirer leadership and readership",
+    "Law students and lawyers reading CJ's columns",
+    "Civic-minded readers of judicial-reform commentary"
+  ],
+  "register_markers": [
+    "Christmas-season thanksgiving framing",
+    "guest-speech transcription register (whole column is Gesmundo's words, abridged)",
+    "second-person homage register (Gesmundo addressing CJ as 'Chief Justice Art')",
+    "epideictic / tribute register",
+    "constitutional-virtue tribute language ('competence, integrity, probity, independence' -- echoed in companion C09)",
+    "warm closing toast ('Cheers!')",
+    "naming a future book ('The Art of Relevance')",
+    "mention of CJ's own column-references for self-quotation"
+  ],
+  "decision_framework_signals": [
+    "judicial-design reasoning (lifetime tenure vs mandatory retirement) measured against a real exemplar",
+    "post-retirement relevance framework: passionate cross-domain engagement as antidote to obsolescence",
+    "column-as-amicus-curiae conceit: extra-judicial commentary feeds back into institutional discourse",
+    "balance norm: vigorous advocacy with 'utmost respect for the Court and its rules'",
+    "service-without-end principle: 'the work is never finished'"
+  ],
+  "one_paragraph_summary": "During the Christmas season of thanksgiving, Panganiban yields the column space to publish (with deletions of about 40%) CJ Alexander G. Gesmundo's speech formally launching 'With Due Respect 3.' Gesmundo recalls being asked at his Judicial and Bar Council interview whether he favored extending Supreme Court Justices' terms beyond 70 toward US-style lifetime tenure, and answering against it on the assumption that productivity wanes with age. 'I may have spoken too soon,' he says -- pointing to Panganiban at 85, 15 years into retirement, 'two decades my senior,' yet 'as incisive and lucid as when he was writing his ponencias for the Court' -- as 'the best argument to lifetime tenure for Justices of the High Court.' He celebrates Panganiban's mastery of what he proposes as the title of CJ's next book, 'The Art of Relevance,' anchored by the Inquirer column 'With Due Respect' which addresses 'the burning legal issues of the day with more freedom than he had when he was sitting in the Court,' articulating views that incumbent justices 'could only wish to say themselves... even mischievously, if I dare say.' The columns are 'incisive and can cut to the quick, but are always insightful' -- staunch advocacy delivered 'with the utmost respect for the Court and its rules.' Gesmundo quotes CJ's own Oct. 31, 2021 column lamenting 'I have not done enough,' observes that 'the work is never finished,' and closes by thanking CJ for service to the judiciary, for paving the road his successors now tread, and for opening 'the gate of our minds to a relevant life after retirement.' He raises his glass to the 'unofficial resident amicus curiae' and to a future 'fourth installment' of 'With Due Respect.' Cheers!",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

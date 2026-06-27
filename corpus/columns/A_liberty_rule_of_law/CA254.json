@@ -1,0 +1,142 @@
+{
+  "id": "CA254",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 254,
+  "title": "Commenting on high-profile cases",
+  "date": "2019-01-20",
+  "link": "https://opinion.inquirer.net/118995/commenting-on-high-profile-cases",
+  "keywords": [
+    "high-profile cases",
+    "rules of evidence",
+    "Sereno quo warranto",
+    "Revilla acquittal",
+    "judicial discretion",
+    "Trillanes amnesty"
+  ],
+  "primary_topics": [
+    "'Facts x Law = Decision' formula from analytical-school jurisprudence",
+    "Stringent rules of evidence as filter between perceived and legal facts",
+    "Why CJ rarely comments immediately on high-profile cases (Trillanes, Revilla, Sereno)",
+    "CJ's preference for educational over reactive commentary",
+    "Selective brief opinions: agreeing with Carpio on Sereno, minority on Revilla, Judge Alameda with modifications"
+  ],
+  "sub_topics": [
+    "Analytical school of jurisprudence: 'Facts x Law = Decision' simplest form",
+    "Facts extraction difficulty -- admitted/stipulated, judicially noticed, or oral-argument-perceptible",
+    "Years of legal schooling + wit-brawling to ferret truth from coached witnesses",
+    "Only legally-processed evidence usable; outside-source information barred",
+    "Cross-examination requirement for testimonial evidence",
+    "Uncross-examined affidavits inadmissible even from high officials",
+    "Subjective standards of evidentiary weighing (proof beyond reasonable doubt)",
+    "Law in formula = Constitution, SC decisions, treaties, international law, executive opinions",
+    "Lower court / administrative tribunal final judgments bind parties only, not third persons",
+    "Three illustrative case divisions: Trillanes amnesty (Soriano vs Alameda), Revilla acquittal (3-2 Sandiganbayan), Sereno ouster (8-6 SC)",
+    "Sereno decision: 153 single-spaced pages + 334 footnotes",
+    "CJ's responsibility as retired CJ to read fully before commenting",
+    "CJ's preference for educating, edifying, helping people study before commenting",
+    "CJ's positions: agree with Carpio on Sereno indictment + quo warranto improper; would have voted minority on Revilla; would uphold Judge Alameda with modifications"
+  ],
+  "signature_phrases": [
+    "Facts x Law = Decision",
+    "ferret out the truth from coached witnesses",
+    "wit-brawling",
+    "the legal truth may differ from what the public perceives as the obvious truth",
+    "to educate, to edify and to help people study before commenting, to research before committing and to think before shouting",
+    "I would be thoroughly irresponsible if I commented without fully comprehending these treatises, including the footnotes",
+    "in this limited zone",
+    "at the risk of being simplistic",
+    "153 single-spaced pages buttressed by 334 footnotes"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Senior Justice Antonio T. Carpio (referenced for Sereno views)",
+      "CJ Maria Lourdes P. A. Sereno (ousted 8-6)",
+      "Former Senator Ramon 'Bong' Revilla Jr. (acquitted 3-2 at Sandiganbayan)",
+      "Senator Antonio Trillanes (amnesty case)",
+      "Judge Andres Soriano (Trillanes amnesty case)",
+      "Judge Elmo Alameda (Trillanes amnesty case)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Sandiganbayan",
+      "Court of Appeals",
+      "Lower courts and administrative tribunals",
+      "Department of Justice (executive-branch-binding opinions)"
+    ],
+    "cases": [
+      "Trillanes amnesty case (Soriano vs Alameda divergent rulings)",
+      "Sandiganbayan acquittal of Bong Revilla Jr. (3-2 split)",
+      "SC ouster of CJ Sereno (8-6 split, 153 pages + 334 footnotes)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution",
+      "Treaties and international law (binding under Constitution)",
+      "Rules of Court -- evidence and cross-examination"
+    ],
+    "events": [
+      "Sereno ouster decision (8-6)",
+      "Revilla acquittal (3-2)",
+      "Trillanes amnesty divergent rulings (Soriano vs Alameda)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Judicial decisions follow the analytical-school formula 'Facts x Law = Decision,' but both factors are far harder to establish than the formula suggests: facts must be filtered through stringent rules of evidence (no outside-source information, no uncross-examined affidavits), and law includes Constitution, SC decisions, treaties, international law, and bounded executive opinions -- not just statutes.",
+      "rhetorical_move": "formula-then-complication framing (the simple equation hides real complexity)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Disparate judicial outcomes -- Soriano vs Alameda on Trillanes, the 3-2 Sandiganbayan Revilla acquittal, the 8-6 SC Sereno ouster -- are partly explained by different perceptions of facts and law within the same evidentiary record, not necessarily by judicial caprice or bias.",
+      "rhetorical_move": "disagreement-as-feature-not-bug normalization of judicial divergence",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "As a retired Chief Justice, CJ would be 'thoroughly irresponsible' to comment on cases like Sereno (153 pages + 334 footnotes) without fully comprehending them, because his commentary carries weight that demands either dissertation-level analysis or principled silence -- and he chooses educational positive writing over reactive cursory commentary.",
+      "rhetorical_move": "institutional-self-restraint framing (CJ's voice as institutional, not personal)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Despite his customary restraint, CJ offers brief positions to satisfy persistent reader queries: he agrees with Justice Carpio that sufficient grounds existed to indict Sereno in the Senate (and that quo warranto was improper for impeachable officials); he would have voted with the minority on Revilla's acquittal; and he would have upheld Judge Alameda's Trillanes ruling with modifications.",
+      "rhetorical_move": "selective-position disclosure with explicit risk-of-simplism caveat",
+      "confidence": "asserted with hedging markers"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's discipline: 'I prefer to write positively to educate, to edify and to help people study before commenting, to research before committing and to think before shouting' -- the column's most concise statement of CJ's editorial philosophy, contrasting his approach with reactive social-media commentary.",
+    "The Sereno decision's specific size: '153 single-spaced pages buttressed by 334 footnotes' -- used to physicalize why responsible commentary requires substantial reading time, not just opinion-formation.",
+    "CJ's neologism 'wit-brawling' for the years of courtroom skill required to ferret truth from coached witnesses -- a memorable single-word coinage that compresses the entire trial-advocacy enterprise.",
+    "The simplification caveat for CJ's brief positions: 'at the risk of being simplistic' -- used to flag that even his volunteered opinions are constrained by space and should not be mistaken for full analysis."
+  ],
+  "target_audience": [
+    "Inquirer readers persistently asking CJ about high-profile cases",
+    "Legal academics and jurisprudence students",
+    "Sereno / Revilla / Trillanes case followers",
+    "Editorial commentators and bloggers tempted to react quickly",
+    "Civic readers learning the gap between media coverage and legal proof"
+  ],
+  "register_markers": [
+    "doctrinal-pedagogical with personal-disclosure overlay",
+    "analytical-school formula citation ('Facts x Law = Decision')",
+    "neologism coinage ('wit-brawling')",
+    "explicit decision-making disclosure (positions on three cases)",
+    "institutional-self-restraint markers ('thoroughly irresponsible if I commented without fully comprehending')",
+    "educational editorial philosophy stated explicitly",
+    "page-and-footnote precision (153 pages, 334 footnotes)",
+    "'at the risk of being simplistic' as humility marker on brief positions",
+    "rules-of-evidence-as-truth-discovery framing throughout"
+  ],
+  "decision_framework_signals": [
+    "applies analytical-school 'Facts x Law = Decision' as baseline framework for judicial output",
+    "uses rules-of-evidence as filter between perceived and legal facts",
+    "treats judicial disagreement as normal feature of perception variance, not as bias evidence",
+    "imposes self-restraint on retired-CJ commentary requiring full document mastery",
+    "distinguishes binding sources of 'law' (Constitution, SC, treaties, international law, executive opinions) from non-binding ones (lower court rulings as to third parties)",
+    "offers brief positions only when persistent reader inquiry compels disclosure, with explicit simplism caveats"
+  ],
+  "one_paragraph_summary": "Panganiban explains the analytical-school jurisprudence formula 'Facts x Law = Decision' and why both factors are harder to establish than the formula suggests: facts must be filtered through stringent rules of evidence (no outside-source information, no uncross-examined affidavits even from high officials), and 'law' encompasses not just statutes but Constitution, SC decisions, treaties, international law, and executive opinions bounded by their branch. These layered difficulties -- combined with the subjective weighing of evidence under standards like 'proof beyond reasonable doubt' -- partly explain why Judge Soriano differed from Judge Alameda on Trillanes amnesty, why the Sandiganbayan split 3-2 on Bong Revilla's acquittal, and why the Supreme Court divided 8-6 on the Sereno ouster. He addresses readers asking why he rarely comments quickly on high-profile cases: the Sereno decision alone is 153 single-spaced pages with 334 footnotes, and as a retired CJ he would be 'thoroughly irresponsible' to comment without fully comprehending such treatises -- his preferred role is 'to educate, to edify and to help people study before commenting, to research before committing and to think before shouting.' Nonetheless, to satisfy persistent inquiries, he discloses brief positions 'at the risk of being simplistic': he agrees with Justice Carpio that sufficient grounds existed to indict Sereno in the Senate and that quo warranto was an improper remedy against impeachable officials, would have voted with the minority on Revilla's acquittal, and would have upheld Judge Alameda's Trillanes ruling with some modifications.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

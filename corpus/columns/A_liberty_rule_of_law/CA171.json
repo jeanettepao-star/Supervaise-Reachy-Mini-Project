@@ -1,0 +1,184 @@
+{
+  "id": "CA171",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 171,
+  "title": "Do the Marcoses have ill-gotten wealth?",
+  "date": "2021-09-26",
+  "link": "https://opinion.inquirer.net/144615/do-the-marcoses-have-ill-gotten-wealth",
+  "keywords": [
+    "Marcos ill-gotten wealth",
+    "martial law Sept. 23 1972",
+    "Republic v. Sandiganbayan July 15 2003",
+    "$658 million forfeiture",
+    "$304,372.43 lawful income ceiling",
+    "Yuchengco v. Sandiganbayan PLDT shares",
+    "Marcos Jr. v. Republic Arelma S.A. $3.37M",
+    "Estate of Marcos v. Republic Malacañang Collection jewelry",
+    "PCGG v. Pena 1988 'well-entrenched plundering regime'",
+    "Chavez v. Albano dismissal 'apathetic prosecution'",
+    "Sandiganbayan dismissed cases procedural failure",
+    "Renato Corona ponente",
+    "CJ Davide",
+    "J Sereno",
+    "J Leonen",
+    "PCGG $5 billion petition Civil Case 0141",
+    "Statement of Assets and Liabilities",
+    "presidential regimes spanning Corazon Aquino to Duterte"
+  ],
+  "primary_topics": [
+    "marcos_ill_gotten_wealth_jurisprudence",
+    "supreme_court_forfeiture_doctrine",
+    "ponencia_attribution_across_presidential_regimes",
+    "pcgg_litigation_record_wins_and_losses"
+  ],
+  "sub_topics": [
+    "republic_v_sandiganbayan_july_15_2003_658_million_forfeiture",
+    "304k_lawful_income_ceiling_as_doctrinal_benchmark",
+    "no_statement_of_assets_and_liabilities_filed_1965_to_1985",
+    "yuchengco_v_sandiganbayan_pldt_controlling_shares",
+    "marcos_jr_v_republic_2012_arelma_sa",
+    "estate_of_marcos_v_republic_2017_malacanang_jewelry_collection",
+    "pcgg_v_pena_1988_plundering_regime_language",
+    "chavez_v_albano_2018_apathetic_prosecution",
+    "republic_v_benedicto_tantoco_gimenez_2019_procedural_dismissals",
+    "martial_law_date_clarification_sept_23_not_sept_21_1972"
+  ],
+  "signature_phrases": [
+    "In many decisions, the Supreme Court answered this question with a clear and unqualified 'Yes'",
+    "well-entrenched plundering regime of twenty years",
+    "magnitude of the past regime's 'organized pillage' and the ingenuity of the plunderers and pillagers with the assistance of the experts and best legal minds",
+    "Perhaps the most damning is Republic v. Sandiganbayan (July 15, 2003)",
+    "the only known lawful income of the Marcos couple from 1965 to 1985",
+    "since they did not file any Statement of Assets and Liabilities (SAL), as required by law",
+    "To be fair, let me add that the Marcoses won some cases",
+    "the prosecution could have done better in this case. Sadly, it failed",
+    "imposition of martial law by Ferdinand Marcos on Sept. 23, 1972 (not Sept. 21)",
+    "due to 'apathetic prosecution'"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author; concurrer in 2003 ruling)",
+      "Ferdinand E. Marcos",
+      "Imelda R. Marcos",
+      "CJ Hilario G. Davide Jr.",
+      "J (later CJ) Renato C. Corona (ponente, 2003)",
+      "JJ Bellosillo, Ynares-Santiago, Austria-Martinez, Carpio Morales, Callejo, Azcuna, Tinga",
+      "JJ Puno, Vitug (concurring 'in the result')",
+      "JJ Quisumbing, Sandoval-Gutierrez (on official leave)",
+      "J Antonio T. Carpio (no part)",
+      "President Gloria Macapagal Arroyo (GMA)",
+      "J (later CJ) Maria Lourdes P.A. Sereno (ponente, Arelma 2012; Malacañang jewelry 2017)",
+      "JJ Brion, Abad, Perez, Reyes (Arelma concurrers)",
+      "JJ Del Castillo, Reyes, Perlas-Bernabe, Caguioa (Malacañang jewelry concurrers)",
+      "President Benigno S. Aquino III",
+      "President Rodrigo Roa Duterte",
+      "CJ Claudio Teehankee (ponente, PCGG v. Pena 1988)",
+      "JJ Yap, Fernan, Narvasa, Melencio-Herrera, Feliciano, Cruz, Paras, Gancayco, Padilla, Bidin, Sarmiento, Cortes",
+      "J Gutierrez (dissented in Pena)",
+      "J Griño-Aquino (no part in Pena)",
+      "President Corazon C. Aquino",
+      "J Marvic M.V.F. Leonen (ponente, Chavez v. Albano)"
+    ],
+    "cases": [
+      "Republic v. Sandiganbayan (July 15, 2003) -- $658M Marcos foundations forfeiture",
+      "Yuchengco v. Sandiganbayan (Jan. 20, 2006) -- 111,415 PTIC/PLDT controlling shares reconveyed",
+      "Marcos Jr. v. Republic (April 25, 2012) -- Arelma S.A. $3,369,975 forfeiture",
+      "Estate of Marcos v. Republic (Jan. 18, 2017) -- Malacañang Collection jewelry forfeiture",
+      "PCGG v. Pena (April 12, 1988) -- 'plundering regime' language",
+      "Chavez v. Albano (July 27, 2018) -- criminal cases vs Imelda dismissed",
+      "Republic v. Benedicto (Aug. 5, 2019) -- Sandiganbayan dismissal",
+      "Republic v. Tantoco (Sept. 25, 2019) -- Sandiganbayan dismissal",
+      "Republic v. Gimenez (Oct. 14, 2019) -- Sandiganbayan dismissal",
+      "Civil Case No. 0141 (PCGG petition, Dec. 17, 1991, $5B estimate)"
+    ],
+    "laws_treaties": [
+      "Statement of Assets and Liabilities filing requirement",
+      "Former law banning foreign currency accounts (basis for criminal indictment vs Imelda)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Sandiganbayan",
+      "Presidential Commission on Good Government (PCGG)",
+      "Philippine Telecommunications Investment Corp. (PTIC)",
+      "Philippine Long Distance Telephone Co. (PLDT)",
+      "Arelma S.A."
+    ],
+    "places": [
+      "Philippines",
+      "Switzerland (implied via front foundations)"
+    ],
+    "dates": [
+      "Sept. 23, 1972 (martial law imposition)",
+      "April 12, 1988 (PCGG v. Pena)",
+      "July 15, 2003 (Republic v. Sandiganbayan)",
+      "Jan. 20, 2006 (Yuchengco)",
+      "April 25, 2012 (Marcos Jr. v. Republic / Arelma)",
+      "Jan. 18, 2017 (Estate of Marcos v. Republic)",
+      "July 27, 2018 (Chavez v. Albano)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Supreme Court has answered the ill-gotten-wealth question with a 'clear and unqualified Yes' across multiple presidential regimes and ponentes.",
+      "rhetorical_move": "Cumulative-jurisprudence argument -- names each case, ponente, concurrers, dissenters, and the presidency under which it issued.",
+      "confidence": "very high -- exhaustive case-by-case roll call"
+    },
+    {
+      "claim": "The 2003 Republic v. Sandiganbayan ruling fixes the Marcoses' 'only known lawful income' from 1965-1985 at roughly $304,000, making any excess presumptively ill-gotten.",
+      "rhetorical_move": "Doctrinal-foundation framing -- treats this figure as the benchmark from which subsequent forfeitures cascade.",
+      "confidence": "very high -- direct quotation"
+    },
+    {
+      "claim": "The Marcoses' procedural wins (Chavez v. Albano, Benedicto, Tantoco, Gimenez) reflect 'apathetic prosecution' and procedural-rule failures, not innocence on the merits.",
+      "rhetorical_move": "Fairness-pivot ('To be fair, let me add') paired with explicit blame on prosecutors.",
+      "confidence": "high -- quotes Leonen's wry rebuke"
+    },
+    {
+      "claim": "The martial law date is Sept. 23, 1972, not Sept. 21 -- a historical-record correction worth restating.",
+      "rhetorical_move": "Parenthetical correction in the opening sentence.",
+      "confidence": "high -- categorical correction"
+    }
+  ],
+  "notable_anecdotes": [
+    {
+      "description": "Roll-call of the 2003 Republic v. Sandiganbayan decision: Corona ponente; Davide CJ; Bellosillo, Panganiban, and ten others concurring (including Puno and Vitug 'in the result'); two on official leave; Carpio no part -- issued under President Gloria Macapagal Arroyo.",
+      "purpose": "Demonstrates broad ideological consensus across the Court in 2003, with CJ Panganiban himself among the concurrers."
+    },
+    {
+      "description": "PCGG's Dec. 17, 1991 petition in Civil Case No. 0141 listing alleged Marcos ill-gotten wealth at approximately US$5 billion.",
+      "purpose": "Anchors the conversation in a contemporaneously documented government estimate."
+    },
+    {
+      "description": "The Malacañang Collection jewelry -- labeled ill-gotten by the First Division in 2017 under a Sereno ponencia, concurred in unanimously, issued under President Duterte.",
+      "purpose": "Shows the jurisprudence continued accumulating into the Duterte presidency."
+    },
+    {
+      "description": "Justice Leonen's wry summation in Chavez v. Albano: 'the prosecution could have done better in this case. Sadly, it failed.'",
+      "purpose": "Captures how Marcos procedural acquittals are framed by the Court itself -- not merits-based exoneration."
+    }
+  ],
+  "target_audience": {
+    "primary": "Filipino voters approaching the May 2022 election with a Marcos restoration candidacy in the field",
+    "secondary": "Lawyers, historians, and martial-law researchers tracking PCGG litigation",
+    "tertiary": "Inquirer readers commemorating the martial-law anniversary"
+  },
+  "register_markers": [
+    "Cumulative-citation register: case → date → ponente → concurrers → dissenters → presidency under which issued",
+    "Wry / forensic prose: 'In the wry words of the ponente'",
+    "Symmetry move: 'To be fair, let me add that the Marcoses won some cases'",
+    "Quoted condemnatory adjectives ('damning,' 'well-entrenched plundering regime,' 'organized pillage')",
+    "Date-corrected opening: 'Sept. 23, 1972 (not Sept. 21)'",
+    "Restrained polemic -- argument carried by case-text rather than authorial denunciation"
+  ],
+  "decision_framework_signals": [
+    "Forfeiture standard: assets in excess of $304,372.43 lawful income from 1965-1985 are presumptively ill-gotten",
+    "No-SAL doctrine: failure to file Statement of Assets and Liabilities defeats lawful-income defenses",
+    "Cross-regime continuity: PCGG litigation produced wins under presidents Aquino, Arroyo, Aquino III, and Duterte",
+    "Procedural-failure fairness: distinguishing 'apathetic prosecution' losses from merits-based acquittals"
+  ],
+  "one_paragraph_summary": "Marking the 49th anniversary of martial law -- and quietly correcting the date to Sept. 23, 1972 (not Sept. 21) -- CJ Panganiban answers the renewed political question of whether the Marcoses possess ill-gotten wealth with a case-by-case roll call drawn from the Supreme Court's own record. The doctrinal centerpiece is Republic v. Sandiganbayan (July 15, 2003), penned by then-J Corona and concurred in by CJ Davide, CJ Panganiban himself, and ten others, which forfeited over $658 million in Marcos foundations and -- crucially -- fixed the couple's 'only known lawful income' from 1965 to 1985 at roughly $304,000, the benchmark below which subsequent forfeitures have cascaded. The column then enumerates Yuchengco v. Sandiganbayan (Jan. 20, 2006, PTIC/PLDT controlling shares, Panganiban concurring as CJ), Marcos Jr. v. Republic (April 25, 2012, Arelma S.A. $3.37M under a Sereno ponencia, Aquino III presidency), Estate of Marcos v. Republic (Jan. 18, 2017, Malacañang jewelry, Sereno again, Duterte presidency), and the foundational PCGG v. Pena (April 12, 1988, Teehankee CJ, Corazon Aquino presidency) which supplied the recurring language of 'well-entrenched plundering regime' and 'organized pillage.' For fairness, CJ acknowledges Marcos wins -- including Chavez v. Albano (Leonen, 2018) dismissed for 'apathetic prosecution,' and the 2019 Benedicto/Tantoco/Gimenez series dismissed for procedural failures -- but pointedly notes that these are prosecutorial collapses, not merits-based exonerations. The piece reads as both anniversary commemoration and pre-election doctrinal reminder: the answer in the case law has been 'a clear and unqualified Yes.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

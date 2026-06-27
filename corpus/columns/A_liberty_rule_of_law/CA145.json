@@ -1,0 +1,153 @@
+{
+  "id": "CA145",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 145,
+  "title": "Why Soce is important",
+  "date": "2022-06-13",
+  "link": "https://opinion.inquirer.net/153888/why-soce-is-important",
+  "keywords": [
+    "statement of contributions and expenses",
+    "RA 7166",
+    "Omnibus Election Code",
+    "Section 102 expenditure items",
+    "Section 95 prohibited donors",
+    "corporation code political donations ban",
+    "campaign finance reform",
+    "antiquated expense limits"
+  ],
+  "primary_topics": [
+    "Why Philippine law requires all candidates (winners and losers) to file Statement of Contributions and Expenses (Soce) within 30 days of Election Day",
+    "RA 7166 Section 13 aggregate expense limits and OEC Section 102 specific expenditure-item limits",
+    "Soce filing obligations of donors, suppliers, and recipients (not just candidates and parties)",
+    "Corporation Code's blanket bar on corporate political donations",
+    "OEC Section 95's eight categories of prohibited contributors",
+    "Need for reform: limits frozen since 1991; 90/45-day reporting windows too short; need US-style per-donor caps"
+  ],
+  "sub_topics": [
+    "Soce filing deadline: 30 days from Election Day (on or before June 8, 2022)",
+    "Four governance reasons IMHO: (1) check whether within prescribed limits; (2) what expenses were for; (3) who donors were and their motives; (4) whether donors could afford the donations",
+    "RA 7166 Section 13 aggregate limits: P10/registered voter (president, VP); P3/voter (senators, party-list reps); P5/voter (candidates without party support)",
+    "2022 voter count ~67.5 million; presidential/VP cap ~P675 million",
+    "RA 7166 passed in 1991; limits unchanged though expenses may have 'ballooned 10 times'",
+    "Reported expenses much less than the archaic limits -- 'faithful (even if sometimes incredible) compliance'",
+    "OEC Section 102 enumerated permissible expenses: travel; compensation of campaigners; telegraph/telephone tolls; stationery/printing/distribution; watchers; rent/maintenance; rallies/meetings; ads (newspaper, radio, TV, other); counsel; voter-list copying; sample-ballot printing",
+    "Trackable expenses (mainstream-media ads) vs untrackable (cash to local candidates, grassroots leaders, rallies, in-kind)",
+    "Donors and suppliers also required to file Soces (Section 99) -- to double-check candidate/party Soces; large donors often use donations as 'badges to access government largesse'",
+    "Corporation Code bars ALL corporations from political-party or candidate donations or partisan political activity",
+    "OEC Section 95 prohibited contributors (eight categories): (a) public or private financial institutions; (b) public-utility or natural-resource operators; (c) government suppliers/contractors; (d) franchise/incentive/exemption/allocation holders; (e) recipients of loans/accommodations over P100,000; (f) educational institutions with public-fund grants; (g) civil service officials/employees and AFP members; (h) foreigners",
+    "Section 99: donors must file under-oath reports with Comelec stating amount, candidate name (or agent/party), date",
+    "Reform proposals: revise antiquated laws for Internet Age; move backward the 90-day (national) and 45-day (local) starting points for expense reporting; cap contributions to ~P10,000/donor US-style to avoid huge political debts",
+    "Candidates start campaigns and spend enormous amounts as early as a year or two ahead of Election Day"
+  ],
+  "signature_phrases": [
+    "Statement of Contributions and Expenses",
+    "IMHO",
+    "for good governance",
+    "to find out",
+    "ballooned 10 times",
+    "faithful (even if sometimes incredible) compliance",
+    "archaic law",
+    "easily tracked",
+    "simply ignore",
+    "double-checking",
+    "badges to access government largesse",
+    "unknown to many",
+    "partisan political activity",
+    "useless mountains of paperwork",
+    "transparency and accountability requirements",
+    "to keep up with the Internet Age",
+    "huge political debts"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "Philippine Congress (1991 RA 7166)",
+      "Philippine corporate community",
+      "Civil Service",
+      "Armed Forces of the Philippines",
+      "Educational institutions (per Section 95)",
+      "Public utility and natural-resource operators",
+      "Financial institutions (public and private)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Republic Act No. 7166 (1991) -- Section 13 (aggregate expense limits)",
+      "Omnibus Election Code (Batas Pambansa Blg. 881, as amended)",
+      "OEC Section 95 (prohibited contributors)",
+      "OEC Section 99 (donor reporting requirements)",
+      "OEC Section 102 (permissible expenditure items)",
+      "Philippine Corporation Code (corporate political-donation ban)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "All candidates -- whether winners or losers -- must file with the Comelec their Statements of Contributions and Expenses (Soce) within 30 days from Election Day (by June 8, 2022) -- for four good-governance reasons: (1) check whether expenses were within statutory limits, (2) document specifically what expenses were for, (3) identify donors and their motives for large contributions, and (4) test whether donors and candidates could truly afford the alleged amounts.",
+      "rhetorical_move": "four-reason rationale enumeration"
+    },
+    {
+      "claim": "RA 7166 Section 13's aggregate expense limits -- P10/registered voter for president and VP (about P675 million given the 67.5 million 2022 voters), P3 for senators and party-list reps, P5 for unaffiliated candidates -- have remained unchanged since 1991 even though campaign expenses may have 'ballooned 10 times,' so candidates report expenses 'much less than this limit -- to show faithful (even if sometimes incredible) compliance with the archaic law.'",
+      "rhetorical_move": "archaic-law-creates-incredible-compliance diagnosis"
+    },
+    {
+      "claim": "OEC Section 102's enumerated permissible expense items create a tractable trackable-vs-untrackable asymmetry: candidates report mainstream-media ads (TV, radio, newspapers -- easily tracked) and 'simply ignore expenses that could not be easily tracked like cash given to local candidates and to their grassroots leaders, or for political rallies and contributions in kind.'",
+      "rhetorical_move": "trackable-vs-untrackable enforcement-gap diagnosis"
+    },
+    {
+      "claim": "The law also requires donors and suppliers (under OEC Section 99) to file under-oath Soces with Comelec -- to enable double-checking candidate/party reports -- though 'many times, the large donors of the winners use their huge donations as badges to access government largesse.'",
+      "rhetorical_move": "structural-cynicism observation"
+    },
+    {
+      "claim": "The Corporation Code, 'unknown to many,' bars ALL corporations from giving 'donations in aid of any political party or candidate or for purposes of partisan political activity.'",
+      "rhetorical_move": "underused-statute spotlight"
+    },
+    {
+      "claim": "OEC Section 95 bars contributions from eight categories: (a) financial institutions; (b) public-utility/natural-resource operators; (c) government suppliers/contractors; (d) franchise/incentive/exemption holders; (e) borrowers of >P100,000; (f) educational institutions with public-fund grants; (g) Civil Service and AFP officials/employees; (h) foreigners.",
+      "rhetorical_move": "exhaustive-prohibition catalog"
+    },
+    {
+      "claim": "While laudable, these transparency and accountability requirements have 'sadly become useless mountains of paperwork that have not reined in political expenses and corruption of voters.' The antiquated laws need to be revised: 'to keep up with the Internet Age,' to move backward the 90-day (national) and 45-day (local) reporting starting points to better capture year-ahead spending, and 'like in the United States, [to limit] contributions... to say P10,000 per donor to avoid huge political debts.'",
+      "rhetorical_move": "reform-proposal closing with US-comparative anchor"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 'faithful (even if sometimes incredible) compliance with the archaic law' aphorism -- capturing in a single phrase the disconnect between RA 7166's 1991 limits and 2022 campaign realities.",
+    "The 'badges to access government largesse' observation -- preserved as the column's most pointed structural-cynicism line about why large donors are not deterred by Soce disclosure.",
+    "Section 95's eight categories of prohibited contributors recited in full -- from financial institutions and public-utility operators down to foreigners -- modeling exhaustive-statutory-catalog discipline.",
+    "The 'useless mountains of paperwork' diagnosis paired with concrete reform proposals (Internet Age update; move 90-day/45-day windows backward; US-style ~P10,000 per-donor cap) -- the column's policy-prescription closing."
+  ],
+  "target_audience": [
+    "Comelec officials administering Soce compliance",
+    "Election lawyers and campaign-finance specialists",
+    "Newly-elected candidates and their finance officers",
+    "Civic-reform advocates pushing campaign-finance reform",
+    "Inquirer readers tracking election integrity",
+    "Congress (target audience for reform proposals)"
+  ],
+  "register_markers": [
+    "'IMHO' as personal-disclosure register",
+    "four-reason rationale enumeration",
+    "exhaustive-statutory-catalog discipline (Section 102; Section 95)",
+    "archaic-law-creates-incredible-compliance diagnosis",
+    "structural-cynicism observation ('badges to access government largesse')",
+    "trackable-vs-untrackable enforcement-gap diagnosis",
+    "'useless mountains of paperwork' aphorism",
+    "US-comparative reform-proposal closing"
+  ],
+  "decision_framework_signals": [
+    "applies four-reason good-governance rationale for transparency requirements",
+    "uses aggregate-vs-itemized limit distinction (RA 7166 Section 13 vs OEC Section 102)",
+    "deploys trackable-vs-untrackable enforcement-gap diagnosis to expose evasion patterns",
+    "treats donor/supplier double-check requirement as integrity-mechanism design",
+    "frames Corporation Code corporate-donation ban as underused statute",
+    "applies eight-category prohibited-contributor analysis as exhaustive statutory map",
+    "uses reform-proposal closing (Internet Age; backward-move reporting windows; US per-donor cap) as deferred-action agenda"
+  ],
+  "one_paragraph_summary": "Why do all Philippine candidates -- winners and losers -- have to file with the Commission on Elections their Statements of Contributions and Expenses (Soce) within 30 days of Election Day (June 8, 2022 for the May 9 vote)? Panganiban's 'obvious IMHO' four-reason answer: for good governance, to find out whether expenses fell within statutory limits, what they specifically funded, who the donors were and their motives, and whether donors and candidates could truly afford the alleged amounts. RA 7166 Section 13 (passed 1991) sets aggregate expenditure limits at P10 per registered voter for president and VP (about P675 million given 67.5 million 2022 voters), P3 for senators and party-list reps, and P5 for candidates without party support. Three decades later, those limits remain unchanged though expenses 'may have ballooned 10 times,' producing 'faithful (even if sometimes incredible) compliance with the archaic law.' Beyond aggregate caps, OEC (BP Blg. 881) Section 102 itemizes the permissible expense categories -- travel, compensation of campaigners, telegraph/telephone tolls, stationery and printing, watchers, headquarters rent and maintenance, rallies, ads in mainstream media, counsel, voter-list copying, sample-ballot printing -- and creates a trackable-vs-untrackable asymmetry that candidates exploit: 'they simply ignore expenses that could not be easily tracked like cash given to local candidates and to their grassroots leaders, or for political rallies and contributions in kind.' Donors and suppliers (under OEC Section 99) must also file under-oath reports with Comelec -- designed to enable double-checking -- though 'many times, the large donors of the winners use their huge donations as badges to access government largesse.' The Corporation Code, 'unknown to many,' bars ALL corporations from political donations or partisan activity. OEC Section 95 then bars contributions from eight specific categories: (a) financial institutions, (b) public-utility/natural-resource operators, (c) government suppliers/contractors, (d) franchise/incentive holders, (e) borrowers of more than P100,000, (f) educational institutions with public-fund grants, (g) Civil Service and AFP officials/employees, and (h) foreigners. While 'laudable,' these transparency and accountability requirements have 'sadly become useless mountains of paperwork that have not reined in political expenses and corruption of voters.' CJ closes with reform proposals: revise the antiquated laws 'to keep up with the Internet Age,' move backward the 90-day (national) and 45-day (local) reporting windows to capture spending that begins 'a year or two ahead of Election Day,' and impose US-style per-donor caps of around P10,000 'to avoid huge political debts.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,162 @@
+{
+  "id": "CA439",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 439,
+  "title": "Pork barrel 101",
+  "date": "2013-10-27",
+  "link": "https://opinion.inquirer.net/64093/pork-barrel-101",
+  "keywords": [
+    "Filipino justice",
+    "judicial independence",
+    "SALN",
+    "PDS",
+    "Diokno",
+    "Marcos era",
+    "immutability of judgments",
+    "chambers practice"
+  ],
+  "primary_topics": [
+    "Dean Diokno's diagnosis of Philippine judiciary against Filipino concept of justice",
+    "Three Marcos-era assaults on judicial independence",
+    "Post-Marcos JBC failure and reentry of purged judges",
+    "Erosion of immutability-of-final-judgments doctrine since the Sixteen Cities case"
+  ],
+  "sub_topics": [
+    "1936 Constitution -- presidential appointment with CA consent",
+    "1972 Martial Law assault #1: all judges required to resign",
+    "1973 Constitution assault #2: judges authorized to 'continue in office until 70 unless sooner replaced'",
+    "Judiciary Act of 1980 assault #3: Marcos allowed to remove perceived dissenters",
+    "Cory Aquino's post-Marcos purge of 'many judges identified with Marcos'",
+    "1987 Constitution's JBC vetting system",
+    "JBC failure: purged judges found way back; promotion required political backers",
+    "SC making it difficult to obtain SALNs of justices/judges, additional conditions not in RA 3019 or RA 6713",
+    "CJ's interjection: June 11 2013 SC granted PCIJ access to all sitting justices' SALNs and PDS from appointment to 2011",
+    "Immutability-of-final-judgments doctrine -- disturbed in 'Sixteen Cities' case",
+    "May 4 2010 SC Internal Rules -- Section 3 of Rule 15 institutionalized second motions for reconsideration",
+    "Court congestion: 26 percent of courts (>1 in 4) have no judges",
+    "Cumbersome court procedures imported from US jury system despite PH having no juries",
+    "Chambers practice: 'old boys' network, political connections, school chums, relatives and friends",
+    "Diokno proposal: justices/judges disclose clients and potential conflicts of interest",
+    "Ka Pepe's amicus in De La Llana vs Alba (March 12 1982) -- BP 129 constitutionality",
+    "Closing Kazantzakis quote on freedom transposed to justice: superior virtue is to fight relentlessly for it"
+  ],
+  "signature_phrases": [
+    "judicial despots",
+    "three assaults on judicial independence",
+    "old boys network",
+    "chambers practice",
+    "Sixteen Cities case",
+    "the demolition of the immutability of final judgments doctrine",
+    "the superior virtue is not to receive justice, it is to fight relentlessly for it",
+    "to struggle for justice in time, yet under the aspect of eternity"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Dean Jose Manuel I. Diokno",
+      "Sen. Jose W. 'Ka Pepe' Diokno",
+      "Ferdinand Marcos",
+      "Cory Aquino",
+      "Aristotle (referenced via Kazantzakis quote)",
+      "Nikos Kazantzakis (quoted)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Judicial and Bar Council (JBC)",
+      "Philippine Center for Investigative Journalism (PCIJ)",
+      "De La Salle University College of Law"
+    ],
+    "cases": [
+      "De La Llana vs Alba (March 12 1982) -- BP 129 constitutionality",
+      "Sixteen Cities case (unnamed party -- immutability of final judgments doctrine)"
+    ],
+    "laws_treaties": [
+      "1936 Constitution",
+      "1973 Constitution",
+      "1987 Constitution",
+      "Judiciary Act of 1980",
+      "BP 129 (Judiciary Reorganization Act of 1981)",
+      "RA 3019 (Anti-Graft and Corrupt Practices Act)",
+      "RA 6713 (Code of Conduct and Ethical Standards)",
+      "SC Internal Rules promulgated May 4 2010 -- Section 3 of Rule 15 (second motions for reconsideration)"
+    ],
+    "events": [
+      "1972 Martial Law declaration -- judges required to resign",
+      "Cory Aquino post-Marcos judicial purge",
+      "June 11 2013 -- SC granted PCIJ access to sitting justices' SALNs and PDS"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Philippine judiciary has suffered three sequential assaults on its independence under Marcos: (1) the 1972 mass-resignation requirement, (2) the 1973 Constitution's 'until 70 unless sooner replaced' authorization, and (3) the 1980 Judiciary Act's removal power -- a layered diminishment best understood as cumulative, not episodic.",
+      "rhetorical_move": "three-assaults framing (using numbered enumeration to make a structural argument)",
+      "confidence": "asserted via Diokno"
+    },
+    {
+      "claim": "Cory Aquino's post-Marcos purge plus the JBC's failure (purged judges returning, promotions requiring political backers) mean the 1987 Constitution's independence-restoration project never fully succeeded.",
+      "rhetorical_move": "promise-vs-practice gap framing",
+      "confidence": "asserted via Diokno"
+    },
+    {
+      "claim": "The Supreme Court has made SALNs of justices and judges difficult to obtain by imposing conditions not found in RA 3019 or RA 6713 -- although CJ interjects that on June 11 2013 the Court granted PCIJ access to all sitting justices' SALNs and PDS from appointment to 2011.",
+      "rhetorical_move": "criticism-with-corrective-interjection (CJ defends recent SC action while preserving Diokno's broader critique)",
+      "confidence": "asserted with author's qualifier"
+    },
+    {
+      "claim": "The immutability-of-final-judgments doctrine -- a time-honored principle -- has been institutionalized away by Section 3 of Rule 15 of the May 4 2010 SC Internal Rules, opening the door to second motions for reconsideration starting with the Sixteen Cities case.",
+      "rhetorical_move": "doctrinal-erosion narrative (locating a precise rule and a precise case as origin point)",
+      "confidence": "asserted via Diokno"
+    },
+    {
+      "claim": "Court congestion is severe (26 percent of courts judge-less) and compounded by US-imported procedures designed for jury systems that PH does not have -- Filipino procedures should reflect the Filipino concept of justice.",
+      "rhetorical_move": "imported-mismatch critique",
+      "confidence": "asserted via Diokno"
+    },
+    {
+      "claim": "Chambers practice (decisions via old-boys networks, political connections, school chums, relatives, friends) requires disclosure mandates for justices/judges on clients and potential conflicts -- transparency is the corrective.",
+      "rhetorical_move": "transparency-as-cure (institutional-design proposal)",
+      "confidence": "asserted via Diokno"
+    },
+    {
+      "claim": "Despite these failures the judiciary remains capable of reform; Ka Pepe's 1981 amicus held that all generations of Filipino lawyers bear shared responsibility for the sorry state of the judiciary, and the struggle for justice must continue 'in time, yet under the aspect of eternity.'",
+      "rhetorical_move": "hope-without-illusion closing (shared-responsibility framing as motivational close)",
+      "confidence": "asserted via Diokno and Ka Pepe"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's rare mid-column interjection -- correcting Diokno's SALN-difficulty claim by pointing to the June 11 2013 SC order granting PCIJ access to all sitting justices' SALNs and PDS from appointment to 2011 -- the column's only moment where CJ defends the institution he led against the lecturer's critique while still publishing the critique.",
+    "The statistic '26 percent of our courts -- more than one out of every four -- have no judges' -- the single most concrete metric in the column, used to bridge philosophical critique into operational reality.",
+    "Ka Pepe's 1981 amicus quote: 'we all must bear some share of responsibility... most of us by unnecessary delays... and all by not speaking out as often and as forcefully as we could' -- transposed into 2013 as still relevant; the patrilineal voice from De La Llana vs Alba carries the column's ethical weight.",
+    "Kazantzakis transposition closing: 'the superior virtue is not to receive justice, it is to fight relentlessly for it -- to struggle for justice in time, yet under the aspect of eternity' -- the freedom-to-justice substitution as the column's philosophical close.",
+    "Diokno's proposal that justices and judges disclose their clients and conflicts of interest -- the single most operationally specific institutional-design reform in the column."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Law students, lawyers, judges",
+    "Judicial-reform advocates",
+    "Civic-minded readers following the Diokno-lecture series"
+  ],
+  "register_markers": [
+    "extended-quotation register (large Diokno passages quoted directly)",
+    "mid-column author interjection signal ('May I, however, interject')",
+    "professorial-chair lecture genre",
+    "patrilineal voice (Ka Pepe Diokno via son Jose Manuel)",
+    "numbered three-assaults enumeration",
+    "Kazantzakis literary close",
+    "shared-responsibility closing register"
+  ],
+  "decision_framework_signals": [
+    "uses three-assaults framing to make cumulative-rather-than-episodic structural arguments",
+    "applies promise-vs-practice gap analysis (1987 JBC restoration promise vs actual reentry of purged judges)",
+    "deploys criticism-with-corrective-interjection when defending one's former institution while preserving critique",
+    "constructs doctrinal-erosion narrative locating precise rule (Sec 3 Rule 15) and precise originating case (Sixteen Cities)",
+    "uses imported-mismatch critique (US jury-system procedures in PH non-jury system) to argue for indigenous procedural reform",
+    "advances transparency-as-cure for chambers-practice problems",
+    "closes with hope-without-illusion through shared-responsibility framing"
+  ],
+  "one_paragraph_summary": "Panganiban continues the Diokno lecture series by presenting the Dean's diagnosis: does the Philippine judiciary reflect the Filipino concept of justice articulated last Sunday? Diokno traces three Marcos-era assaults on judicial independence -- the 1972 forced resignation of all judges, the 1973 Constitution's 'until 70 unless sooner replaced' authorization, and the 1980 Judiciary Act's removal power -- followed by Cory Aquino's post-Marcos purge and the 1987 Constitution's JBC vetting that 'has not lived up to its intended purpose' as purged judges found their way back and promotion came to require political backers. Diokno laments that the Supreme Court made SALNs difficult to obtain by imposing conditions not in RA 3019 or RA 6713; Panganiban interjects that on June 11, 2013 the SC granted PCIJ access to all sitting justices' SALNs and PDS from appointment to 2011 -- a rare mid-column defense of his former institution. Diokno indicts the erosion of the immutability-of-final-judgments doctrine starting with the 'Sixteen Cities' case and institutionalized in Section 3 of Rule 15 of the May 4, 2010 SC Internal Rules allowing second motions for reconsideration. He cites court congestion (26 percent of courts have no judges), cumbersome US-imported procedures designed for jury systems PH does not have, and 'chambers practice' decided via old-boys networks, school chums, relatives and friends -- proposing mandatory disclosure of clients and potential conflicts. He closes with Ka Pepe Diokno's 1981 amicus in De La Llana vs Alba: 'we all must bear some share of responsibility... and all by not speaking out as often and as forcefully as we could' -- and Nikos Kazantzakis transposed: 'the superior virtue is not to receive justice, it is to fight relentlessly for it -- to struggle for justice in time, yet under the aspect of eternity.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

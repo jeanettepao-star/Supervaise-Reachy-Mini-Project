@@ -1,0 +1,173 @@
+{
+  "id": "CE067",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 67,
+  "title": "Huwag kang gunggong'",
+  "date": "2019-05-19",
+  "link": "https://opinion.inquirer.net/121450/huwag-kang-gunggong",
+  "keywords": [
+    "vote-buying",
+    "automation glitches",
+    "overvoting",
+    "3Gs",
+    "5Gs",
+    "VCM",
+    "Hocus-PCOS",
+    "Sheriff Abas",
+    "Oscar Albayalde",
+    "Binay",
+    "ABS-CBN",
+    "voter education"
+  ],
+  "primary_topics": [
+    "Three plagues of the 2019 elections: rampant vote-buying, automation glitches, overvoting",
+    "Why automation has driven cheating from ballot-side to bribery-side ('the 3Gs metastasize into 5Gs')",
+    "VCM failures (1,333 faulty per DepEd; 961/85,769 VCMs and 1,665/85,960 SD cards per Comelec; Binay's eight rejections)",
+    "Overvoting hypothesis: 1.2M invalidated ballots could have shaken the bottom Senate slots",
+    "Voter education prescription: 'Huwag kang gunggong' as new commandment"
+  ],
+  "sub_topics": [
+    "2019 polls 'generally peaceful and orderly' compared with prior exercises, yet infested with three plagues",
+    "Guns/goons prevalent in PNP-Comelec 'red' and 'orange' areas; 'gold' pervaded country-wide",
+    "Pre-May-13 Comelec Chair Sheriff Abas: vote-buying 'rampant'",
+    "Election Day PNP Chief Oscar Albayalde: 'Nakikita natin massive talaga 'yung vote-buying... kaliwa't kanan'",
+    "Traditional cheating modes eliminated by automation + indelible ink: flying voters, multiple-ballot one-hand, delayed-canvass machinations, preproclamation controversies banned",
+    "Remaining evil: bribing citizens to vote certain bets or refrain from voting",
+    "Vote-buying enables graft recoupment: 10,000 voters × P1,000 = P10M 'pittance' vs hundreds of millions in disguised pork, licensing permits, tax perks",
+    "VCMs improved/enhanced 2018 over old 'Hocus-PCOS'",
+    "Seven-hour transmission delay (Comelec: 'bottlenecks'), alleged preshaded ballots, failure to read correctly-shaded ballots",
+    "DepEd: at least 1,333 faulty VCMs",
+    "Comelec admission: 961/85,769 VCMs and 1,665/85,960 SD cards malfunctioned",
+    "'One glitch is enough to disenfranchise a citizen'",
+    "Former VP Jojo Binay's ballot rejected eight times; complained personally at Comelec to vote",
+    "Many others left polling places 'in sheer exasperation without casting their ballots'",
+    "Reserve-judgment on glitch-fraud conversion pending June 4 congressional inquiry",
+    "Overvoting: shading more than 12 senatorial ovals invalidates ballot",
+    "ABS-CBN estimate: 1.2 million overvoted ballots",
+    "11th-to-14th senatorial places separated by 200,000-400,000 votes only",
+    "Comelec's repeated overvoting warnings",
+    "Voter-education prescription: list of choices brought to polling place",
+    "Theological-meme commandments: 'Huwag kang gunggong' added to 'Huwag kang pumatay' and 'Huwag kang magnakaw'",
+    "Closing metastasis line: 3Gs → 5Gs (guns, goons, gold, glitches, gunggong)"
+  ],
+  "signature_phrases": [
+    "generally peaceful and orderly",
+    "numerous plagues",
+    "the most insidious",
+    "3Gs",
+    "5Gs",
+    "guns, goons and gold",
+    "rampant",
+    "Nakikita natin massive talaga 'yung vote-buying... kaliwa't kanan",
+    "Hocus-PCOS",
+    "anxiety and hackles",
+    "bottlenecks",
+    "preshaded ballots",
+    "one glitch is enough to disenfranchise a citizen",
+    "in sheer exasperation",
+    "this single electoral pestilence",
+    "could, just could",
+    "armchair commentators",
+    "Huwag kang gunggong",
+    "Thou shall not be stupid",
+    "Huwag kang pumatay",
+    "Huwag kang magnakaw",
+    "metastasize",
+    "guns, goons, gold, glitches and gunggong"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Comelec Chair Sheriff Abas",
+      "PNP Chief Oscar Albayalde",
+      "Former VP Jejomar 'Jojo' Binay (ballot rejected 8 times)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "Philippine National Police (PNP)",
+      "Department of Education (DepEd)",
+      "ABS-CBN (1.2M overvote estimate)",
+      "Philippine Congress (June 4 inquiry venue)",
+      "Smartmatic (implied 'Hocus-PCOS' history)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Election laws banning preproclamation controversies (post-automation)"
+    ],
+    "events": [
+      "May 13, 2019 -- 2019 mid-term elections",
+      "Pre-May-13 Abas vote-buying warning",
+      "Election Day Albayalde vote-buying observation",
+      "June 4 -- congressional inquiry on glitches"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The 2019 polls were peaceful and orderly relative to past exercises but suffered three insidious plagues -- vote-buying (gold), automation glitches, and overvoting -- and the most consequential is vote-buying, which has become pervasive precisely because automation has eliminated the traditional ballot-side cheating channels.",
+      "rhetorical_move": "comparative-then-itemize taxonomy",
+      "confidence": "asserted with named officials' corroboration (Abas, Albayalde)"
+    },
+    {
+      "claim": "Vote-buying is economically rational for candidates because the bribe outlay (e.g., 10,000 voters × P1,000 = P10M) is a 'pittance' compared with the hundreds of millions recoverable from 'disguised pork barrel, licensing permits and tax perks' in congressional and local races where margins are narrow.",
+      "rhetorical_move": "corruption-arithmetic argument (modeling the cheat as ROI)",
+      "confidence": "asserted with worked example"
+    },
+    {
+      "claim": "Even one VCM glitch is enough to disenfranchise a citizen -- proven by Jojo Binay's eight rejections requiring personal complaint at the Comelec office -- and the many citizens without his standing and patience left polling places 'in sheer exasperation without casting their ballots,' which is 'insidious' regardless of whether the malfunction converts to fraud or wrong count (a question CJ reserves until the June 4 congressional inquiry).",
+      "rhetorical_move": "one-is-enough disenfranchisement principle with VIP anchor",
+      "confidence": "asserted with reservation on fraud-conversion"
+    },
+    {
+      "claim": "Overvoting (>12 senatorial shades) on an ABS-CBN-estimated 1.2 million ballots 'could, just could' have shaken the 11th-to-14th senatorial slots given those slots are separated by only 200,000-400,000 votes -- a single electoral pestilence with arithmetic potential to flip the bottom-tier Senate results.",
+      "rhetorical_move": "could-just-could counterfactual with arithmetic anchor",
+      "confidence": "hedged-asserted ('could, just could')"
+    },
+    {
+      "claim": "Voter education is the answer, with a folk-prescription specificity: voters should list their choices before going to the polling place, and the faithful should add 'Huwag kang gunggong' (Thou shall not be stupid) to 'Huwag kang pumatay' and 'Huwag kang magnakaw' -- otherwise the 3Gs (guns, goons, gold) will metastasize into 5Gs (guns, goons, gold, glitches, gunggong).",
+      "rhetorical_move": "prescription + Decalogue meme + alliterative-metastasis closer",
+      "confidence": "asserted with playful aphorism"
+    }
+  ],
+  "notable_anecdotes": [
+    "Former VP Jojo Binay's ballot rejected eight times by a VCM and his having 'to complain personally at the Comelec office before he was able to exercise his constitutional right to vote' -- the highest-standing citizen who needed unusual recourse, used as proof that ordinary voters with less standing simply walked away disenfranchised.",
+    "Albayalde's untranslated Election Day quote -- 'Nakikita natin massive talaga 'yung vote-buying... kaliwa't kanan' -- left in code-switched Tagalog to preserve the texture of on-the-ground police observation.",
+    "The vote-buying arithmetic -- '10,000 voters with, say, P1,000 each will sum up to only P10 million, a pittance compared with the hundreds of millions that could be recovered from disguised pork barrel, licensing permits and tax perks' -- modeling corruption as recoverable ROI.",
+    "The overvoting counterfactual -- '1.2 million ballots... could, just could, have shaken the last two senatorial slots given that... the 11th to the 14th places are separated by about 200,000 to 400,000 votes only' -- the rare moment CJ flirts openly with the could-have-changed-the-result hypothetical, hedged with the doubled 'could, just could.'",
+    "The Decalogue-meme closer: amending the commandments with 'Huwag kang gunggong' ('Thou shall not be stupid') and warning of the 3Gs-to-5Gs metastasis (guns, goons, gold, glitches, gunggong) -- CJ at his most catechetical-playful."
+  ],
+  "target_audience": [
+    "Inquirer general readership processing the 2019 polls",
+    "Comelec officials reading the catalog of failures",
+    "Voters tempted to vote without preparation (the 'gunggong' target)",
+    "Members of Congress preparing for the June 4 glitches inquiry",
+    "Civic educators designing voter-education curricula",
+    "Civic-minded readers tempted to blame Comelec alone (CJ insists on voter responsibility)"
+  ],
+  "register_markers": [
+    "alliterative cluster register (3Gs → 5Gs metastasis)",
+    "code-switched Tagalog quotation (Albayalde untranslated)",
+    "Tagalog framing throughout (Huwag kang gunggong, Huwag kang pumatay, Huwag kang magnakaw)",
+    "Decalogue meme as policy prescription",
+    "named-VIP anchor (Binay's eight rejections)",
+    "statistical density (1,333 / 961 of 85,769 / 1,665 of 85,960 / 1.2M / 200,000-400,000)",
+    "could-just-could hedged counterfactual",
+    "corruption-arithmetic worked example",
+    "self-quoted 'Hocus-PCOS' nickname for prior PCOS",
+    "playful-catechetical closer (the new commandment)",
+    "reserved-judgment posture for fraud-conversion pending June 4"
+  ],
+  "decision_framework_signals": [
+    "applies channel-substitution analysis (eliminated ballot-side cheating → emergent voter-bribery channel)",
+    "uses corruption-as-ROI arithmetic to argue why vote-buying scales",
+    "treats one-glitch-disenfranchises principle as floor regardless of fraud aggregation",
+    "deploys counterfactual-with-hedge ('could, just could') to flag systemic risk without overclaim",
+    "reserves judgment on fraud-conversion pending designated institutional venue (June 4 inquiry)",
+    "uses Decalogue-amendment meme to make voter-education prescription mnemonic and shareable",
+    "frames system risk as alliterative metastasis (3Gs → 5Gs) for memorability"
+  ],
+  "one_paragraph_summary": "Panganiban surveys the three insidious plagues of the 2019 elections -- vote-buying, automation glitches, and overvoting -- while crediting the polls as 'generally peaceful and orderly' compared with past cycles. Pre-election, Comelec Chair Sheriff Abas had already called vote-buying 'rampant,' and PNP Chief Oscar Albayalde observed on Election Day that 'Nakikita natin massive talaga 'yung vote-buying... kaliwa't kanan.' He argues vote-buying has become pervasive precisely because automation and indelible ink eliminated the older cheating channels -- flying voters, multiple-ballot one-hand, delayed-canvass machinations, banned preproclamation controversies -- leaving the remaining evil of bribing citizens to vote a certain way or to refrain altogether. He models the economics: bribing 10,000 voters with P1,000 each totals only P10M, a 'pittance' relative to the hundreds of millions recoverable from 'disguised pork barrel, licensing permits and tax perks' in narrow-margin local and congressional races. On glitches, even with VCM improvements over the old 'Hocus-PCOS,' there were seven-hour transmission delays (Comelec called them 'bottlenecks'), alleged preshaded ballots, and failures to read correctly-shaded ballots; DepEd counted at least 1,333 faulty VCMs and the Comelec admitted 961 of 85,769 VCMs and 1,665 of 85,960 SD cards malfunctioned. 'One glitch is enough to disenfranchise a citizen': former VP Jojo Binay's ballot was rejected eight times until he personally complained at the Comelec office, and many less-standing citizens 'just waited and waited, or worse, left the polling places in sheer exasperation without casting their ballots.' He reserves judgment on whether the glitches converted to fraud pending the June 4 congressional inquiry. On overvoting (shading more than 12 senatorial ovals invalidates a ballot), ABS-CBN's 1.2-million-ballot estimate 'could, just could, have shaken the last two senatorial slots given that... the 11th to the 14th places are separated by about 200,000 to 400,000 votes only.' His prescription is voter education with folk specificity: voters should write a list of choices to bring to the polling place, and the faithful should add 'Huwag kang gunggong' (Thou shall not be stupid) to 'Huwag kang pumatay' (Thou shall not kill) and 'Huwag kang magnakaw' (Thou shall not steal) -- otherwise the dreaded '3Gs' of manual elections will 'metastasize into the new 5Gs of automated voting: guns, goons, gold, glitches and gunggong.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

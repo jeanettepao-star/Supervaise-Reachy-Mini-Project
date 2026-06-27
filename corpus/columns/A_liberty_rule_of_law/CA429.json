@@ -1,0 +1,172 @@
+{
+  "id": "CA429",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 429,
+  "title": "SC hastens Maguindanao massacre cases",
+  "date": "2014-01-11",
+  "link": "https://opinion.inquirer.net/69393/sc-hastens-maguindanao-massacre-cases",
+  "keywords": [
+    "governance",
+    "public accountability",
+    "Supreme Court",
+    "constitution",
+    "freedom of the press"
+  ],
+  "primary_topics": [
+    "Sen. Grace Poe Senate committee on public information sponsorship + Sept 2013 committee approval",
+    "SP Franklin Drilon end-of-March 2014 passage forecast",
+    "House committee on public information and media inaction -- 19 pending versions, mid-February consolidation deadline",
+    "Sticky points: 'right of reply' rider as free-speech violation + SALN-exemption sneaky-effort critique",
+    "Two-Charter-provision framework: Declaration of Principles state-policy (not self-executory) + Bill of Rights right-to-information (self-executory)",
+    "Jurisprudence roster -- Baldoza v. Dimaano (May 1 1976) + Chavez v. PCGG (July 15 2003) + Senate v. Ermita (April 20 2006)",
+    "Permitted restrictions -- national security, intelligence, trade secrets, banking transactions, criminal matters, confidential information",
+    "Congressional-inaction-vs-SC-action two-example template -- PDAF abolition + Banat v. Comelec Party-List 2% threshold strikedown",
+    "'Pass the FOI bill now!' action-agad imperative closing"
+  ],
+  "sub_topics": [
+    "14-year FOI bill buried in legislative mill backdrop",
+    "Ethical Standards Law + Anti-Graft Law already allow SALN access; SC justices have released SALNs to PCIJ",
+    "Declaration of Principles 'full public disclosure of all its transactions involving public interest' -- subject to reasonable conditions prescribed by law",
+    "Bill of Rights 'right of the people to information on matters of public concern shall be recognized' + 'subject to limitations as may be provided by law'",
+    "Baldoza v. Dimaano (May 1 1976) pre-1987 right-to-public-information recognition -- 'There can be no realistic perception by the public of the nation's problems'",
+    "Chavez v. PCGG (July 15 2003) -- Court directed government to inform public of Marcoses' ill-gotten-wealth negotiations",
+    "Senate v. Ermita (April 20 2006) -- struck down presidential order barring Cabinet from legislative investigations",
+    "Anti-Money Laundering Act exception to banking-transaction confidentiality",
+    "PDAF abolition impelled SC strike-down example",
+    "Banat v. Comelec (April 21 2009) Party-List 2-percent-threshold strikedown -- opening floodgates to microscopic-vote winners"
+  ],
+  "signature_phrases": [
+    "Good news!",
+    "Buried in the legislative mill for the last 14 years",
+    "But the bad news is that the House committee on public information and media has yet to act",
+    "Sticky points",
+    "right of reply rider",
+    "Constitutionalists view this as a violation of the right to free speech of media practitioners",
+    "a sneaky effort to amend the Ethical Standards Law and Anti-Graft Law",
+    "even the Supreme Court justices have released their SALNs to the Philippine Center for Investigative Journalism",
+    "Why should legislators be exempted?",
+    "Subject to reasonable conditions prescribed by law, the State adopts and implements a policy of full public disclosure",
+    "The right of the people to information on matters of public concern shall be recognized",
+    "the latter provision being a part of the Bill of Rights is self-executory and needs no enabling law",
+    "There can be no realistic perception by the public of the nation's problems, nor a meaningful democratic decision-making, if they are denied information of general interest",
+    "Action agad!",
+    "it is better even for the legislators themselves, not just for the citizens to approve a well-crafted FOI Law",
+    "the absence or inadequacy of the limitations provided by law will not deter the Court from using self-executory provisions of the Constitution to blaze landmark jurisprudence",
+    "Congress could have preempted the Court decision had it abolished the PDAF by legislation. But it chose to be timid",
+    "Tired of waiting, the Court struck down the Party-List Law provision",
+    "The moral lesson is that Congress should wisely and proactively use its policy-determining powers, instead of waiting for the Court to strike down its ill-conceived actions",
+    "Pass the FOI bill now!"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Sen. Grace Poe (FOI Senate sponsor)",
+      "SP Franklin Drilon",
+      "House committee on public information and media (inaction target)"
+    ],
+    "institutions": [
+      "Senate committee on public information",
+      "House committee on public information and media",
+      "Philippine Center for Investigative Journalism (PCIJ -- SALN access example)",
+      "Supreme Court (FOI enforcement default)",
+      "Commission on Elections (Banat context)",
+      "Congress (target of action-agad call)"
+    ],
+    "cases": [
+      "Baldoza v. Dimaano (May 1 1976) -- pre-1987 right-to-public-information",
+      "Chavez v. PCGG (July 15 2003) -- Marcoses' ill-gotten-wealth disclosure",
+      "Senate v. Ermita (April 20 2006) -- presidential order barring Cabinet struck down",
+      "Belgica v. Ochoa (implicit -- PDAF strikedown example)",
+      "Banat v. Comelec (April 21 2009) -- Party-List 2% threshold strikedown"
+    ],
+    "laws_treaties": [
+      "1987 Constitution Declaration of Principles (state policy) + Bill of Rights (self-executory right to information)",
+      "Ethical Standards Law (SALN access)",
+      "Anti-Graft Law (SALN access)",
+      "Anti-Money Laundering Acts (banking-transaction exception)",
+      "FOI bill (14-year-stalled, 19 pending House versions)",
+      "Party-List Law (RA 7941, 2% threshold struck)"
+    ],
+    "events": [
+      "Sept 2013 Senate committee FOI bill approval",
+      "Senate plenary deliberation start before holiday adjournment",
+      "Drilon end-of-March 2014 passage forecast",
+      "House committee mid-February consolidation deadline for 19 versions"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "It is better -- even for legislators themselves, not just for citizens -- to approve a well-crafted FOI Law; otherwise the Court will continue to enforce the constitutional right without regard to congressional inputs.",
+      "rhetorical_move": "preemption-incentive framing (legislators' self-interest in shaping the law)",
+      "confidence": "asserted as preference"
+    },
+    {
+      "claim": "The 'right of reply' rider is a violation of the right to free speech of media practitioners, per constitutionalists -- it would compel media outlets to give criticized officials free print space or broadcast time.",
+      "rhetorical_move": "constitutional-objection citing constitutionalists",
+      "confidence": "asserted with constitutionalist-attribution"
+    },
+    {
+      "claim": "The SALN-exemption attempt by some House members is a sneaky effort to amend the Ethical Standards Law and Anti-Graft Law that already allow SALN access -- even SC justices have released their SALNs to PCIJ, so why should legislators be exempted?",
+      "rhetorical_move": "sneaky-effort + comparative-standard (SC-justices-already-released) rhetorical-question",
+      "confidence": "asserted as policy critique"
+    },
+    {
+      "claim": "The Bill of Rights right-to-information provision is self-executory and needs no enabling law -- the Supreme Court has been enforcing it (Baldoza 1976, Chavez 2003, Senate v. Ermita 2006) and will continue to blaze landmark jurisprudence in the absence or inadequacy of legislative limitations.",
+      "rhetorical_move": "self-executory + court-will-act-anyway framing",
+      "confidence": "asserted with jurisprudential anchor"
+    },
+    {
+      "claim": "Congressional inaction in the face of clear demand impels SC strike-downs -- PDAF abolition impelled the Belgica strike-down; legislative failure to revise the Party-list Law impelled Banat v. Comelec to strike down the 2% threshold. The moral lesson: Congress should wisely and proactively use its policy-determining powers instead of waiting for the Court to strike down ill-conceived actions or fill the void left by inaction.",
+      "rhetorical_move": "two-example template + moral-lesson congressional-warning",
+      "confidence": "asserted as cautionary policy thesis"
+    },
+    {
+      "claim": "Pass the FOI bill now!",
+      "rhetorical_move": "action-agad imperative closing",
+      "confidence": "asserted as urgent demand"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Sticky-points opening pair -- 'right of reply' rider (constitutional-free-speech violation per constitutionalists) and SALN-exemption sneaky-effort (already-allowed by Ethical Standards Law and Anti-Graft Law; even SC justices have released SALNs to PCIJ) -- concise dual-target critique of the House committee's stalling tactics.",
+    "The two-Charter-provision framework distinguishing the Declaration of Principles (general state policy needing enabling law) from the Bill of Rights right-to-information (self-executory, courts can enforce without enabling law) -- a tight doctrinal handle for the entire column's argument.",
+    "Baldoza v. Dimaano (May 1 1976) verbatim quotation -- 'There can be no realistic perception by the public of the nation's problems, nor a meaningful democratic decision-making, if they are denied information of general interest' -- the pre-1987 anchoring of the right-to-information.",
+    "The two-example template (PDAF and Party-List Law) showing congressional inaction → SC strike-down -- used as preemption-incentive warning to push Congress to act on FOI before the Court does.",
+    "The closing imperative 'Pass the FOI bill now!' -- among CJP's rare unqualified action-agad imperatives, contrasting with his usual prudence-and-care prescriptive register."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Sen. Grace Poe and FOI-bill advocates",
+    "House committee on public information and media (the inaction target)",
+    "Civic-minded Filipinos demanding transparency",
+    "Media practitioners (right-of-reply rider concern)",
+    "Constitutional law scholars (self-executory-provision argument)",
+    "Senate plenary watchers"
+  ],
+  "register_markers": [
+    "Good news! cheerful opening",
+    "But the bad news is contrast-pivot",
+    "Sticky points section header",
+    "sneaky effort sharp-critique register",
+    "Why should legislators be exempted? rhetorical-question",
+    "Charter provisions section header",
+    "More clearly, the Charter, in its Bill of Rights pivoting register",
+    "In fact, even prior to the 1987 Constitution historical-anchoring register",
+    "Action agad! Tagalog-loanword imperative section header",
+    "Pass the FOI bill now! action-agad closing",
+    "comparative-jurisprudence + congressional-inaction pairing register"
+  ],
+  "decision_framework_signals": [
+    "uses two-Charter-provision framework (Declaration of Principles non-self-executory + Bill of Rights self-executory)",
+    "applies jurisprudence-already-established backing (Baldoza 1976 + Chavez 2003 + Senate v. Ermita 2006)",
+    "deploys preemption-incentive argument (legislators' self-interest in shaping the law before SC acts)",
+    "uses constitutionalist-attribution for right-of-reply objection",
+    "uses comparative-standard (SC justices already release SALNs) for SALN-exemption critique",
+    "applies two-example template (PDAF + Party-List 2% threshold) as congressional-inaction-→-SC-strikedown pattern",
+    "closes with action-agad imperative breaking from usual prudence-register"
+  ],
+  "one_paragraph_summary": "Panganiban reports good news that the Senate, before its holiday adjournment, started plenary deliberation on the freedom of information (FOI) bill -- buried in the legislative mill for 14 years and resurrected by Sen. Grace Poe's Senate committee approval last September, with SP Drilon expecting chamber passage by end of March. The bad news: the House committee on public information and media has yet to act, giving its technical working group until mid-February to consolidate 19 pending versions. He flags two sticky points -- the 'right of reply' rider insisted on by some legislators (which constitutionalists view as a free-speech violation, compelling media outlets to give criticized officials free print space or broadcast time) and a sneaky effort to exempt House members' SALNs from FOI (when the Ethical Standards Law and Anti-Graft Law already allow public access to SALNs, and even SC justices have released theirs to PCIJ -- so why should legislators be exempted?). He distinguishes the Charter's two information provisions: the Declaration of Principles' full-public-disclosure policy is general state policy needing enabling law; the Bill of Rights' right-to-information is self-executory and enforceable by courts without enabling law. He marshals jurisprudence: Baldoza v. Dimaano (May 1 1976) recognized the right pre-1987 -- 'There can be no realistic perception by the public of the nation's problems, nor a meaningful democratic decision-making, if they are denied information of general interest'; Chavez v. PCGG (July 15 2003) directed government disclosure of Marcoses' ill-gotten-wealth negotiations; Senate v. Ermita (April 20 2006) struck down a presidential order barring Cabinet members from legislative investigations. Permitted restrictions include national security, intelligence, trade secrets, banking transactions (subject to AMLA exception), criminal matters, and other confidential information. He warns Congress with a two-example template: congressional inaction on PDAF impelled the SC's strikedown; legislative failure to revise the Party-list Law impelled Banat v. Comelec (April 21 2009) to strike down the 2-percent threshold, opening floodgates to microscopic-vote winners. The moral lesson: Congress should wisely and proactively use its policy-determining powers instead of waiting for the Court to strike down ill-conceived actions or fill the void left by inaction. He closes with the unusually direct imperative: Pass the FOI bill now!",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

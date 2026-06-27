@@ -1,0 +1,111 @@
+{
+  "id": "CE112",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 112,
+  "title": "How to be a tourism billionaire",
+  "date": "2011-09-03",
+  "link": "https://opinion.inquirer.net/11253/how-to-be-a-tourism-billionaire",
+  "keywords": [
+    "Malaysia 23 million tourists 30 billion vs PH 3.5 million",
+    "five tourism fundamentals product transport accommodation facilitation marketing",
+    "Manila airport worst Asia Piatco imbroglio",
+    "open skies PAL national air carrier sacrifice",
+    "Malaysia truly Asia five-year marketing consistency"
+  ],
+  "primary_topics": [
+    "Why Malaysia earns 10x more tourism revenue than the Philippines despite similar attractions",
+    "Five fundamentals for the Philippine tourism program",
+    "The marketing consistency lesson: 'Malaysia Truly Asia' took five years to take root"
+  ],
+  "sub_topics": [
+    "World: 1 billion tourists, $1 trillion spending in 2010",
+    "Top 10: France, US, Spain, China, Italy, UK, Turkey, Germany, Malaysia, Mexico",
+    "China: 51M visitors, $39.7B; Malaysia: 23.6M visitors, $30B (vs PH OFW remittances $18.7B)",
+    "PH: 3.5M visitors, $2.49B -- bottom dweller despite similar attractions to Malaysia",
+    "NTDP: 6.5M tourists and 2.9M new jobs in five years",
+    "Five fundamentals: (1) product, (2) transportation, (3) accommodation, (4) facilitation, (5) marketing",
+    "Product: hospitality, English, reasonable prices, multicultural heritage, Boracay beaches",
+    "Product negatives: Manila airport (worst in Asia), Piatco imbroglio, cruise ship avoidance, vanishing sidewalks",
+    "Transport: open skies confusing; PAL capacity improved + Cebu Pacific; domestic links need review",
+    "Facilitation: airport terminal fee one of few in the world; customs/immigration issues for cruise ships",
+    "Accommodation: great hotels but need more rooms across price ranges",
+    "Marketing: synchronized with product; foreign tourists plan years in advance; tour wholesalers take 3 years for new destinations",
+    "Malaysia Truly Asia: over five years of consistent messaging before taking root",
+    "Lesson: consistency and constancy in marketing campaigns"
+  ],
+  "signature_phrases": [
+    "tourism billionaire",
+    "bottom dweller",
+    "nothing in the world beats Boracay",
+    "worst capital airport in Asia",
+    "no country in the world succeeded in its tourism program by sacrificing its national air carriers",
+    "Malaysia Truly Asia",
+    "consistency and constancy"
+  ],
+  "entities": {
+    "people": [
+      "Tourism Secretary Ramon Jimenez",
+      "Melvin Cruz (Filipino hotel exec in US)"
+    ],
+    "institutions": [
+      "World Tourism Organization (UNWTO)",
+      "Department of Tourism",
+      "Philippine Airlines (PAL)",
+      "Cebu Pacific",
+      "San Miguel Corporation"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "NTDP launch",
+      "Piatco imbroglio (Terminal III NAIA, 10 years pending)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Malaysia earns 10 times more tourists and dollars than the Philippines despite similar attractions -- the gap is not in natural assets but in execution of the five tourism fundamentals.",
+      "rhetorical_move": "peer-comparison benchmark to frame the opportunity",
+      "confidence": "high"
+    },
+    {
+      "claim": "No country in the world has succeeded in its tourism program by sacrificing its national air carriers -- open skies should not be allowed to undermine PAL.",
+      "rhetorical_move": "universal-negative argument for national carrier protection",
+      "confidence": "high"
+    },
+    {
+      "claim": "Successful tourism marketing requires years of consistency -- 'Malaysia Truly Asia' was campaigned for over five years before it took root; PH must match that constancy.",
+      "rhetorical_move": "benchmark-commitment argument for long-term marketing discipline",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Malaysia's $30B tourism revenue exceeding PH's total OFW remittances of $18.7B -- a striking comparison that reframes tourism as potentially larger than the country's biggest export.",
+    "Hotel executive Melvin Cruz sadly reporting that cruise ships avoid the Philippines because of difficulty dealing with immigration and customs personnel -- a lost revenue stream from a fixable operational problem.",
+    "The Manila airport as 'the worst capital airport in Asia' -- the most damaging competitive liability in the product package, requiring an urgent fix as the front door of the country."
+  ],
+  "target_audience": [
+    "Department of Tourism and Secretary Jimenez",
+    "PAL and Cebu Pacific management",
+    "Airport development authorities",
+    "Tourism industry investors",
+    "Congress members on tourism legislation"
+  ],
+  "register_markers": [
+    "Malaysia benchmark throughout",
+    "Five-point enumeration structure",
+    "Global data opening (1B tourists, $1T spending)",
+    "Marketing-timeline prescription (5 years)",
+    "Cruise ship anecdote from insider source"
+  ],
+  "decision_framework_signals": [
+    "Apply the five-fundamental test to any tourism program: product + transport + accommodation + facilitation + marketing all need to work together",
+    "Fix Manila airport first -- it is the country's front door and its current state negates every other tourism investment",
+    "Protect the national air carrier from open-skies competition that undercuts the tourism ecosystem",
+    "Commit to at least five years of a single consistent marketing message before declaring it a failure"
+  ],
+  "one_paragraph_summary": "Tourism is the world's biggest industry (1 billion tourists, $1 trillion in 2010), and Malaysia -- with 23.6 million visitors spending $30 billion -- outearns the Philippines tenfold despite similar attractions; Malaysia's tourism receipts even exceed PH's total OFW remittances of $18.7 billion. Panganiban prescribes five fundamentals for transforming the Philippines into a tourism multi-billionaire. (1) Product: capitalize on hospitable, English-speaking, reasonably priced services and attractions like Boracay; fix the Manila airport (worst in Asia) and the Piatco imbroglio; improve sidewalks and tourist police. (2) Transportation: stop sacrificing national carriers to open skies -- no country in the world has succeeded in tourism by undermining its national airline; review domestic links and cruise ship facilities (a hotel exec reports cruises avoid PH due to customs/immigration friction). (3) Accommodation: great hotels exist but more rooms across price ranges are needed. (4) Facilitation: abolish the airport terminal fee; fix immigration and customs for cruise ships. (5) Marketing: synchronized with the product; foreign tourists plan years in advance; tour wholesalers take three years to include new destinations; 'Malaysia Truly Asia' was consistent for over five years before taking root -- PH must match that consistency and constancy.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

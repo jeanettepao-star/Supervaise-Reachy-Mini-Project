@@ -1,0 +1,141 @@
+{
+  "id": "CA227",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 227,
+  "title": "Eliminating the backlog in all other courts",
+  "date": "2020-01-19",
+  "link": "https://opinion.inquirer.net/126715/eliminating-the-backlog-in-all-other-courts",
+  "keywords": [
+    "judicial backlog",
+    "trial courts",
+    "RTC",
+    "CA",
+    "JBC",
+    "Judges-at-Large",
+    "RA 11459",
+    "CJ Peralta"
+  ],
+  "primary_topics": [
+    "Duterte's career-jurist appointment policy (CA + SBN only, no outsiders)",
+    "CJ Peralta's 10-point program -- backlog elimination first goal",
+    "Severe RTC congestion (582 cases per court average; ~25% salas vacant)",
+    "RA 11459 creating 100 RTC + 50 Municipal Judges-at-Large positions",
+    "JBC under-utilizing the law (opening only 30 + 20, less than half)"
+  ],
+  "sub_topics": [
+    "Elevation of CA Justice Samuel H. Gaerlan to the SC",
+    "Court of Appeals near-zero backlog under Andres B. Reyes Jr.'s 7-year term",
+    "CA handles ~90% of all elevated cases",
+    "Minimal congestion at SBN and CTA (third-level courts)",
+    "First-level courts (CMTC): 160,000 cases / 1,200 courts = 133 average -- no urgent action needed",
+    "Second-level courts (RTC): 640,000 cases / 1,100 courts = 582 average -- congested",
+    "Math of impossibility: 582 cases ÷ 25 working days = 23 hearings/day, calendar alone takes a full day",
+    "Uneven distribution: some salas have 5,000 cases, some have 50",
+    "RA 11459 mechanics: Judges-at-Large with same rank/pay, no permanent salas, deployed as acting/assisting judges",
+    "JBC's Feb 11 application deadline for 30 RTC + 20 Municipal Judges-at-Large posts",
+    "If all 100 RTC posts filled: average drops to 533 -- still large but better",
+    "Half of CJ Peralta's 2.5-year term as the realistic window to solve 50% of congestion"
+  ],
+  "signature_phrases": [
+    "Mr. Duterte's policy may help Chief Justice Diosdado M. Peralta",
+    "they can certainly do the same, if not better, in the Supreme Court",
+    "they will all leave an indelible legacy",
+    "no palpable congestion",
+    "horrendous congestion",
+    "with due respect to the Supreme Court and the JBC",
+    "the 100 would be better than the 30",
+    "make a large dent",
+    "My limited space bars me from digging deeper",
+    "he will truly be acclaimed",
+    "I support his valiant effort and wish him success"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (former CJ, columnist)",
+      "President Rodrigo Duterte (favors career jurists)",
+      "CJ Diosdado M. Peralta (incumbent CJ, 10-point program)",
+      "Justice Samuel H. Gaerlan (recently elevated CA→SC)",
+      "Justice Andres B. Reyes Jr. (former CA Presiding Justice; CJ-disposed CA backlog; later elevated to SC)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Court of Appeals (CA)",
+      "Sandiganbayan (SBN)",
+      "Court of Tax Appeals (CTA)",
+      "Regional Trial Courts (RTC, 1,100 salas)",
+      "City/Municipal Trial Courts (1,200 first-level courts)",
+      "Judicial and Bar Council (JBC)",
+      "Congress of the Philippines"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Republic Act No. 11459 -- creating 100 RTC + 50 MTC Judges-at-Large"
+    ],
+    "events": [
+      "Jan 4, 2020 -- Inquirer report on backlog statistics",
+      "Feb 11 -- JBC application deadline for Judges-at-Large posts"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Duterte's career-jurist-only promotion policy, whether intended or not, helps CJ Peralta achieve his first goal of backlog elimination, because justices who already disposed of the CA backlog under Reyes can repeat the feat at the SC.",
+      "rhetorical_move": "policy-side-effect framing (recasting a criticized policy as having a hidden benefit)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "First-level courts (133 cases per sala average) show no palpable congestion and do not need urgent action; the congestion crisis is concentrated in the second-level RTCs (582 cases per sala average, exacerbated by 25% sala vacancies).",
+      "rhetorical_move": "quantitative differentiation (rejecting blanket diagnosis with arithmetic)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The JBC's decision to open only 30 of the 100 RTC Judges-at-Large posts created by RA 11459 is a significant under-utilization that will limit the dent made in the 640,000-case backlog; all 100 should have been opened.",
+      "rhetorical_move": "with-due-respect public-record disagreement",
+      "confidence": "asserted with deference marker ('with due respect to the Supreme Court and the JBC')"
+    },
+    {
+      "claim": "Even with all 100 new posts, the average load drops only to 533 -- still a large number -- meaning the law alone is insufficient; what is needed is a combination of full filling of RA 11459 posts plus tactical deployment to the most-congested salas.",
+      "rhetorical_move": "math-as-modesty (showing why even the maximum solution is only partial)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Solving even 50% of the horrendous SC + RTC congestion within Peralta's 2.5-year term would earn him acclaim; this is the realistic benchmark for legacy.",
+      "rhetorical_move": "lowered-bar benchmark setting (acclaim attached to partial success)",
+      "confidence": "asserted as endorsement"
+    }
+  ],
+  "notable_anecdotes": [
+    "The arithmetic spectacle: 582 cases per RTC sala ÷ 25 working days = 23 hearings calendared per day, which 'will take almost one whole day' just to read aloud -- leaving no time for actual trial. CJ uses pure arithmetic to demonstrate institutional impossibility.",
+    "The extreme distribution disparity -- some RTCs with 5,000 cases, some with just 50 -- used as a quiet rebuke to the JBC for not concentrating Judges-at-Large where they would matter most.",
+    "Andres B. Reyes Jr.'s 7-year disposal of the CA backlog cited as living proof that 'sheer hard work and automated monitoring' can do the same in the SC; the same justices are now in the SC.",
+    "The 'My limited space bars me from digging deeper' closing -- a recurring CJ device for promising follow-up analysis on a sub-topic he won't fit in 750 words."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Lawyers and judges",
+    "Court reform advocates",
+    "JBC and SC institutional observers",
+    "Civic-minded Filipinos following the judicial reform agenda"
+  ],
+  "register_markers": [
+    "Doctrinal-administrative register with arithmetic interludes",
+    "'with due respect to the Supreme Court and the JBC' as deference-marker before disagreement",
+    "'in my humble opinion' implicit throughout policy critique",
+    "Explicit citation of own prior column dates (1/13/2018) to show longitudinal tracking",
+    "Parenthetical arithmetic ('(160,000/1,200=133)') as evidence-in-text",
+    "'horrendous congestion' as the dramatic descriptor",
+    "Closing benediction structure ('I support his valiant effort and wish him success')",
+    "'truly be acclaimed' as legacy-conditional formula"
+  ],
+  "decision_framework_signals": [
+    "uses Inquirer-stat-citation + own-prior-column-comparison to track longitudinal stability of a problem",
+    "applies per-sala arithmetic to convert aggregate backlog stats into operational impossibility",
+    "treats 'percentage of problem solved within term' as the realistic legacy benchmark for incumbent CJs",
+    "deploys 'with due respect' as the standard CJ deference-marker that authorizes substantive critique of co-equal institutions (SC, JBC)",
+    "uses Reyes Jr.'s CA precedent as proof-of-concept that institutional backlog is tractable with hard work and monitoring"
+  ],
+  "one_paragraph_summary": "Panganiban turns to the second prong of CJ Peralta's backlog elimination goal: the trial courts. He observes that President Duterte's policy of promoting only CA and Sandiganbayan magistrates to the SC -- though it breaks the tradition of balancing insiders with justice secretaries, solicitors-general and academics -- may unintentionally help Peralta, because the same justices who disposed of the CA backlog under then-Presiding Justice Andres B. Reyes Jr. can repeat the feat in the SC. Turning to trial-court congestion, he uses arithmetic to differentiate the two levels: first-level courts hold ~133 cases per sala (no palpable congestion), while RTCs hold ~582 per sala -- meaning 23 hearings would need to be calendared per working day, leaving no time for actual trial. The crisis is worsened by ~25% sala vacancies and grossly uneven distribution (5,000 cases in some salas, 50 in others). Congress's response, RA 11459 -- creating 100 RTC and 50 Municipal Judges-at-Large positions deployable to congested salas -- is sound, but the JBC has opened only 30 + 20 of those positions, less than half. Panganiban argues, 'with due respect to the Supreme Court and the JBC,' that all 100 RTC posts should be opened; even then the average drops only to 533, still large, but better than the smaller dent now planned. He closes endorsing Peralta's valiant effort: solving even 50% of this horrendous congestion within his 2.5-year term would earn him true acclaim.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

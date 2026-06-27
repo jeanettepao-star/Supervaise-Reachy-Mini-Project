@@ -1,0 +1,137 @@
+{
+  "id": "CA220",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 220,
+  "title": "PhilID constitutional, implement it ASAP",
+  "date": "2020-04-19",
+  "link": "https://opinion.inquirer.net/129019/philid-constitutional-implement-it-asap",
+  "keywords": [
+    "PhilID",
+    "RA 11055",
+    "Philippine Identification System",
+    "national ID",
+    "Ople v. Torres",
+    "Kilusang Mayo Uno v. Director General",
+    "EO 420",
+    "PhilSys",
+    "contact tracing"
+  ],
+  "primary_topics": [
+    "Urgent call to fast-track implementation of RA 11055 (the Philippine Identification System / PhilID) amid the COVID-19 emergency",
+    "Constitutional defense of the PhilID against expected legal challenge using Ople v. Torres (1998) and Kilusang Mayo Uno v. Director General (2006)",
+    "Identification utility of the PhilID for delivering the Bayanihan to Heal as One cash subsidy to 18 million low-income households and for COVID-19 contact tracing",
+    "Calling on the Philippine Statistics Authority (PSA) Board to act promptly on mass enrollment originally targeted for mid-2020"
+  ],
+  "sub_topics": [
+    "PhilID data fields: PSN, full name, sex, blood type, marital status (optional), place of birth, front-facing photo, date of birth, address; QR Code with limited fingerprint information and security features",
+    "Comparison with already-public data on driver's licenses, passports, senior ID, SSS and GSIS IDs -- supporting the simplicity argument",
+    "Ople v. Torres (July 23, 1998) invalidated FVR's AO 308 'National Computerized Identification Reference System' solely because only a law (not an executive issuance) can establish a national ID; Justice Puno's privacy concerns did not command a majority",
+    "Kilusang Mayo Uno v. Director General (April 19, 2006), 11-2: validated EO 420 directing uniform data collection across executive agencies (GSIS, SSS, LTO)",
+    "Three-prong legislation-required test from KMU v. DG: appropriation required; compulsory for all branches and citizens; data goes beyond what is routinely required",
+    "RA 11055 enacted Aug 6, 2018; allotment of over P6 billion in the General Appropriations Act over the last three years",
+    "PSA Board chaired by NEDA secretary -- Ernesto Pernia replaced by Finance Usec Karl Chua last Friday -- with a 'large phalanx of undersecretaries as members'",
+    "Senate inquiry signaled by Sotto and Lacson into PhilID implementation delays",
+    "Mass enrollment originally targeted for mid-2020",
+    "Leftists cited by Duterte on national TV-radio as the expected opposition -- author predicts they will fail given the limited data fields"
+  ],
+  "signature_phrases": [
+    "Never has it been more urgent than now",
+    "to help identify the 18 million impoverished households",
+    "in my humble opinion",
+    "valiantly argued",
+    "as soon as possible",
+    "AS SOON AS POSSIBLE",
+    "lest an enraged President Duterte tongue-lashes it again",
+    "Verily, I urge",
+    "the 'leftists' whom President Duterte blamed on national TV-radio last Monday will, I think, fail in their opposition"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "President Rodrigo Duterte",
+      "Senate President Vicente Sotto III",
+      "Sen. Panfilo Lacson (author of RA 11055)",
+      "Former President Fidel V. Ramos (AO 308)",
+      "Then-Justice (later CJ) Reynato S. Puno",
+      "Then-NEDA Secretary Ernesto Pernia",
+      "Finance Usec Karl Chua (replaced Pernia as NEDA chief)"
+    ],
+    "institutions": [
+      "Philippine Statistics Authority (PSA Board)",
+      "National Economic and Development Authority (NEDA)",
+      "Social Security System (SSS)",
+      "Government Service Insurance System (GSIS)",
+      "Land Transportation Office (LTO)",
+      "Senate of the Philippines",
+      "Supreme Court of the Philippines",
+      "Department of Finance"
+    ],
+    "cases": [
+      "Ople v. Torres (July 23, 1998)",
+      "Kilusang Mayo Uno v. Director General (April 19, 2006)"
+    ],
+    "laws_treaties": [
+      "Republic Act No. 11055 (Philippine Identification System Act, 2018)",
+      "Administrative Order No. 308 (FVR, 'National Computerized Identification Reference System')",
+      "Executive Order No. 420 (uniform data collection for executive-branch IDs)",
+      "Bayanihan to Heal as One Act (RA 11469)",
+      "General Appropriations Act (PhilID funding)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "RA 11055 will easily pass constitutional scrutiny because the PhilID's data fields are limited and already publicly disclosed on driver's licenses, passports, senior IDs, SSS and GSIS cards.",
+      "rhetorical_move": "simplicity-and-comparability argument: invokes existing public-disclosure norms as the constitutional baseline",
+      "evidence": "Statutory list of PhilID data fields; comparison to existing government-issued IDs"
+    },
+    {
+      "claim": "Ople v. Torres invalidated FVR's AO 308 solely because executive issuances cannot establish a national ID system; the broader privacy argument by Justice Puno did not command a majority.",
+      "rhetorical_move": "narrow-reading of a hostile precedent",
+      "evidence": "Ople v. Torres holding; absence of majority support for the privacy ground"
+    },
+    {
+      "claim": "Kilusang Mayo Uno v. Director General (11-2) validated EO 420 — limited to executive-branch agencies and aimed at unifying ID data — and articulated the three-prong test (appropriation; universal compulsion; data beyond routine) that determines when legislation is required.",
+      "rhetorical_move": "favorable-precedent application with explicit doctrinal test",
+      "evidence": "KMU v. DG voting record and reasoning"
+    },
+    {
+      "claim": "The PSA Board must implement RA 11055 as soon as possible, given the urgency of identifying 18 million low-income households for the Bayanihan to Heal as One cash subsidy and enabling COVID-19 contact tracing.",
+      "rhetorical_move": "operational-urgency exhortation",
+      "evidence": "Bayanihan-mandated cash subsidy; over P6B allotted in three years of GAA; Senate inquiry signaled by Sotto and Lacson"
+    }
+  ],
+  "notable_anecdotes": [
+    "Justice Puno's 'valiantly argued' privacy stand in Ople v. Torres that the national ID would 'put our people's right to privacy in clear and present danger' — but which failed to command a majority, leaving the case decided on a narrower executive-issuance ground.",
+    "The replacement of NEDA Secretary Ernesto Pernia by Finance Usec Karl Chua 'last Friday' as the new NEDA chief and PSA Board chair — a small but consequential personnel fact tied to the column's urgency.",
+    "The author's wry warning to the PSA Board: 'lest an enraged President Duterte tongue-lashes it again.'"
+  ],
+  "target_audience": [
+    "PSA Board members (NEDA chair plus undersecretary phalanx)",
+    "Senators reviewing PhilID implementation delays",
+    "Civic-minded readers tracking COVID-19 emergency administration",
+    "Constitutionalists and privacy advocates evaluating RA 11055",
+    "Bayanihan cash-subsidy implementing agencies"
+  ],
+  "register_markers": [
+    "policy-advocacy register with urgency timestamp",
+    "in-text capitalization-as-emphasis ('AS SOON AS POSSIBLE')",
+    "'in my humble opinion' deferential constitutional analysis",
+    "'valiantly argued' as a respectful descriptor for a losing opinion",
+    "directive-mode closing ('Verily, I urge')",
+    "personnel-update parenthetical (Pernia replaced by Chua)",
+    "wry political coda ('lest an enraged President Duterte tongue-lashes it again')",
+    "doctrinal-test exposition (three prongs from KMU v. DG)"
+  ],
+  "decision_framework_signals": [
+    "applies the KMU three-prong test (appropriation; universal compulsion; data beyond routine) as the legislation-required threshold",
+    "treats limited and publicly-comparable data fields as the dispositive simplicity argument",
+    "deploys narrow-reading of hostile precedent (Ople v. Torres on the executive-issuance ground only)",
+    "uses operational-urgency (Bayanihan delivery, contact tracing) to convert constitutional analysis into action exhortation",
+    "frames legislative funding ('over P6 billion in GAA') as proof of political-branch buy-in"
+  ],
+  "one_paragraph_summary": "Panganiban argues that with the COVID-19 emergency at full pitch, Congress, the Palace, and the PSA Board must fast-track implementation of RA 11055 (the Philippine Identification System Act of 2018, the 'PhilID') to deliver the Bayanihan to Heal as One cash subsidy of P5,000-P8,000 a month for two months to 18 million low-income households and to enable rapid COVID-19 contact tracing. He defends the law's constitutionality by surveying jurisprudence: Ople v. Torres (July 23, 1998) struck down FVR's AO 308 only because executive issuances cannot establish a national ID -- Justice Puno's privacy-based argument did not command a majority -- and Kilusang Mayo Uno v. Director General (April 19, 2006, 11-2) upheld EO 420, articulating the three-prong test under which legislation is required (appropriation; universal compulsion across branches and citizens; data going beyond what is routinely required). Because the PhilID's data fields -- PSN, name, sex, blood type, optional marital status, place of birth, photo, date of birth, address, plus a QR code with limited fingerprint information -- are already publicly disclosed on driver's licenses, passports, senior IDs, SSS, and GSIS cards, RA 11055 will, 'in my humble opinion,' easily survive challenge, and the leftists Duterte blamed on national TV-radio will fail in their opposition. He notes that Sotto and Lacson have signaled a Senate inquiry into the implementation delay despite over P6 billion in GAA allotments over three years, and points to the recent replacement of NEDA Secretary Pernia by Finance Usec Karl Chua as the new PSA Board chair. He closes with a directive 'Verily, I urge the PSA Board... to act pronto lest an enraged President Duterte tongue-lashes it again.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -268,6 +268,33 @@ CURATED_SCHEMA_COLUMNS: int = _env_int("CJ_CURATED_SCHEMA_COLUMNS", 15)
 # the forthcoming book corpus, PLAN-0005). The shipping code today recognises
 # only S/C/G; 'B' is reserved here so the regex is ready when books land.
 DOC_ID_REGEX: str = _env_str("CJ_DOC_ID_REGEX", r"^[SCGB][A-E]\d+$")
+# Padded canonical doc-ID regex used by the W1.4 full-corpus pipeline:
+# exactly 3 digits (CA034, BE001, GC001, SE012). Stricter than DOC_ID_REGEX.
+DOC_ID_REGEX_PADDED: str = _env_str("CJ_DOC_ID_REGEX_PADDED", r"^[CGBS][A-E]\d{3}$")
+
+
+# ===========================================================================
+# 10. CHUNKING (W1.4 full-corpus heading-aware chunker)         [NEW-ARCH]
+#     Single source for the chunker; no literals live in the chunk script.
+# ===========================================================================
+# Target chunk size band, in approx tokens (~CHARS_PER_TOKEN_APPROX chars/tok).
+# A heading section under MIN may merge with the next; a run over MAX is split
+# on paragraph/sentence boundaries. Smaller -> sharper retrieval, more chunks
+# (↑index size); larger -> more context per hit, fewer chunks (↓recall@k).
+CHUNK_TARGET_TOKENS_MIN: int = _env_int("CJ_CHUNK_TARGET_TOKENS_MIN", 200)
+CHUNK_TARGET_TOKENS_MAX: int = _env_int("CJ_CHUNK_TARGET_TOKENS_MAX", 400)
+# Overlap (approx tokens) carried between adjacent chunks of the SAME section
+# when a section is split — preserves cross-boundary context (↑recall, small
+# ↑redundancy/cost). Small by design.
+CHUNK_OVERLAP_TOKENS: int = _env_int("CJ_CHUNK_OVERLAP_TOKENS", 40)
+# Heading-aware: split on markdown headings first, packing whole sections up to
+# the band before falling back to paragraph/sentence splitting. Keeps anecdote
+# sections intact. Turn off for naive fixed-window chunking.
+CHUNK_HEADING_AWARE: bool = _env_bool("CJ_CHUNK_HEADING_AWARE", True)
+# Never split an anecdote section across chunks even if it exceeds MAX
+# (an over-long anecdote becomes its own oversized chunk). Preserves anecdotes
+# whole for grounding (↑fidelity, occasional ↑chunk size).
+CHUNK_KEEP_ANECDOTES_WHOLE: bool = _env_bool("CJ_CHUNK_KEEP_ANECDOTES_WHOLE", True)
 
 
 # ---------------------------------------------------------------------------

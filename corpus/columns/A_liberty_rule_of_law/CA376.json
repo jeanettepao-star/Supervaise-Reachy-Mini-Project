@@ -1,0 +1,166 @@
+{
+  "id": "CA376",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 376,
+  "title": "How cases are decided",
+  "date": "2015-07-19",
+  "link": "https://opinion.inquirer.net/86836/how-cases-are-decided",
+  "keywords": [
+    "jurisprudence",
+    "CBCP plenary",
+    "case method",
+    "Supreme Court",
+    "judicial reasoning",
+    "stare decisis",
+    "civil law tradition"
+  ],
+  "primary_topics": [
+    "Jurisprudence methodology essay framed by CBCP plenary-conference Q&A on PH-vs-US philosophical divides",
+    "PH Supreme Court has no clear ideological divide unlike the US -- Catholic jurists sometimes vote against Catholic teachings",
+    "School loyalty not determinative: 7 of 15 justices are UP Law graduates but vote on opposite sides",
+    "GMA's 10-appointees-still-detained argument disproving appointing-authority loyalty",
+    "Kennedy swing-vote analysis; US liberal-vs-conservative wing typology",
+    "Austin's analytical school F×L=D formula vs Pound's sociological school S×P=D",
+    "'Plague of ships' coined: kinship, relationship, friendship, fellowship",
+    "Internal Rules of the Supreme Court: MIC procedure, banc vs divisions, TRO/comment/memoranda/deliberations"
+  ],
+  "sub_topics": [
+    "Bishops' question arose from the prior A377 column on Obergefell same-sex marriage decision",
+    "US four conservatives (Roberts/Scalia/Thomas/Alito) vs four liberals (Breyer/Ginsburg/Sotomayor/Kagan)",
+    "Kennedy appointed by Reagan as expected conservative but now swings between groups",
+    "US presidential candidates announce judicial ideology; no such announcements in PH",
+    "Obama appointed Sotomayor and Kagan as known liberals; McCain vowed conservative self-restrained jurists",
+    "PH justices do not vote along philosophical lines; no clear ideological divide",
+    "Catholic jurists have voted against Catholic teachings -- on legal grounds, not religious belief",
+    "Harvard 5 of 9 SCOTUS; still voted regardless of school affiliation",
+    "GMA 10 appointees: still detained (GMA) despite 10-out-of-15 being her own appointees",
+    "Analytical school (Austin): F×L=D -- law applied to facts equals decision",
+    "Sociological school (Pound): S×P=D -- stimuli (law + facts + others) times personality equals decision",
+    "'Others' stimuli: dire consequences on public interest, illness, 'plague of ships'",
+    "Plague of ships: kinship, relationship, friendship, fellowship",
+    "Pound saw law as social engineering, not mathematical tool",
+    "Internal Rules of the SC (38-page document)",
+    "Member-in-charge (MIC) procedure: raffle, summary of facts/issues, dismiss outright or require comment, TRO recommendation",
+    "Banc (all 15) vs three divisions (5 each) allocation",
+    "After comment: dismiss via resolution, or oral argument, or written memoranda",
+    "After memoranda: MIC submits disposal report; deliberations; if majority disagrees with MIC another justice writes decision and MIC submits dissent"
+  ],
+  "signature_phrases": [
+    "plague of ships",
+    "kinship, relationship, friendship and fellowship",
+    "in my humble opinion",
+    "social engineering",
+    "F x L = D",
+    "S x P = D"
+  ],
+  "entities": {
+    "people": [
+      "Justice Anthony Kennedy (US SC, swing vote)",
+      "CJ John Roberts (US SC, conservative)",
+      "Justice Antonin Scalia (US SC, conservative)",
+      "Justice Clarence Thomas (US SC, conservative)",
+      "Justice Samuel Alito (US SC, conservative)",
+      "Justice Stephen Breyer (US SC, liberal)",
+      "Justice Ruth Ginsburg (US SC, liberal)",
+      "Justice Sonia Sotomayor (US SC, liberal)",
+      "Justice Elena Kagan (US SC, liberal)",
+      "President Barack Obama (appointed Sotomayor/Kagan)",
+      "Sen. John McCain (vowed conservative justices)",
+      "President Ronald Reagan (appointed Kennedy as expected conservative)",
+      "John Austin (founder of analytical school)",
+      "Dean Roscoe Pound (Harvard, sociological school)",
+      "Former President Gloria Macapagal-Arroyo (GMA, 10-appointee argument)"
+    ],
+    "institutions": [
+      "US Supreme Court",
+      "Catholic Bishops' Conference of the Philippines (CBCP)",
+      "Harvard Law School",
+      "University of the Philippines College of Law",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "Obergefell v. Hodges (referenced from A377 prior column)"
+    ],
+    "laws_treaties": [
+      "Internal Rules of the Supreme Court (38-page document)"
+    ],
+    "events": [
+      "CBCP plenary conference briefing by CJP (a few days before column)",
+      "Obergefell v. Hodges decision (June 26, 2015)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Unlike their US counterparts, PH Supreme Court justices do not vote along philosophical lines -- CJ finds no clear ideological divide among them; they sometimes quote from American jurists with known ideological leanings but do not follow their ideology",
+      "rhetorical_move": "comparative-distinction opening",
+      "confidence": "high"
+    },
+    {
+      "claim": "Some Catholic jurists have voted against Catholic teachings -- on legal grounds, not religious belief",
+      "rhetorical_move": "church-loyalty rebuttal",
+      "confidence": "high"
+    },
+    {
+      "claim": "7 of 15 current justices are UP Law graduates but still voted on opposite sides in many cases -- school loyalty is not determinative; in the US, 5 of 9 SCOTUS magistrates are Harvard alumni but voted regardless of school affiliation",
+      "rhetorical_move": "school-loyalty rebuttal with US parallel",
+      "confidence": "high"
+    },
+    {
+      "claim": "GMA would not be in detention now if 10 of the 15 incumbent justices being her appointees made them loyal to her -- the contrary result disproves the appointing-authority-loyalty thesis",
+      "rhetorical_move": "reductio-ad-absurdum via GMA argument",
+      "confidence": "high"
+    },
+    {
+      "claim": "The analytical school (Austin) posits F×L=D -- a decision is simply the result of applying law to facts; but this cannot fully explain judgment when complicated issues are involved",
+      "rhetorical_move": "formula-introduction + critique",
+      "confidence": "high"
+    },
+    {
+      "claim": "Roscoe Pound's sociological school offers S×P=D -- stimuli (including law, facts, consequences, illness, and the 'plague of ships': kinship, relationship, friendship and fellowship) times the personality of the judge; Pound looked at law as social engineering, not a mathematical tool",
+      "rhetorical_move": "sociological-formula introduction with plague-of-ships coinage",
+      "confidence": "high"
+    },
+    {
+      "claim": "Process-wise, every petition is raffled to a member-in-charge (MIC) who determines banc vs division handling, prepares a facts/issues summary, recommends TRO and comment; after deliberations, if the majority disagrees the MIC submits a dissent and another justice writes the decision",
+      "rhetorical_move": "procedural-walkthrough of SC Internal Rules",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJP briefed the CBCP at their plenary conference a few days before writing this column",
+    "Kennedy appointed by Reagan as expected conservative now swings between groups",
+    "GMA's 10-appointees-still-detained as the sharpest rebuttal to appointing-authority-loyalty thesis",
+    "Plague of ships coinage: kinship, relationship, friendship, fellowship",
+    "Internal Rules of the Supreme Court: 38-page document governing procedure"
+  ],
+  "target_audience": [
+    "CBCP bishops and Catholic community",
+    "Lawyers, law students, and judges",
+    "Civic-minded readers interested in judicial decision-making",
+    "Legal-philosophy students",
+    "Inquirer readership curious about how justices actually decide"
+  ],
+  "register_markers": [
+    "Q&A-from-briefing framing",
+    "comparative-distinction (PH vs US)",
+    "formula notation (F×L=D, S×P=D)",
+    "reductio-ad-absurdum via GMA argument",
+    "plague-of-ships coinage as CJP neologism",
+    "procedural-walkthrough of Internal Rules",
+    "jurisprudential-school survey register"
+  ],
+  "decision_framework_signals": [
+    "Analytical school: F×L=D (Austin)",
+    "Sociological school: S×P=D (Pound)",
+    "Plague of ships: kinship/relationship/friendship/fellowship as judge-personality stimuli",
+    "Law as social engineering (Pound)",
+    "MIC procedure as SC decision-making backbone",
+    "Banc vs division allocation as case-management framework",
+    "No ideological divide in PH SC as empirical finding"
+  ],
+  "one_paragraph_summary": "Panganiban writes a jurisprudence-methodology essay triggered by the Catholic Bishops' Conference's plenary conference where he briefed them a few days earlier and was asked: 'Are the Supreme Court justices in the Philippines divided along philosophical lines, like their counterparts in the United States?' The question arose from his prior column on Obergefell v. Hodges, which he had explained was decided 5-4 between four liberal and four conservative justices, with Justice Anthony Kennedy breaking the tie. Unlike their US counterparts, PH SC justices do not vote along philosophical lines -- CJ finds no clear ideological divide. Do they decide based on religious belief? No, not necessarily: some Catholic jurists have voted against Catholic teachings, on legal not religious grounds. Do they decide based on school loyalties? No: 7 of the 15 current justices are UP Law graduates but still voted on opposite sides in many cases; in the US, 5 of 9 SCOTUS magistrates are Harvard alumni but also voted regardless of school affiliation. The sharpest rebuttal: GMA would not be in detention now if 10 of the 15 incumbent justices being her appointees made them loyal to her. Kennedy was appointed by Reagan as an expected conservative but now swings between groups. Obama appointed Sotomayor and Kagan as known liberals; McCain vowed to appoint conservative self-restrained jurists opposing liberal activists. No such pronouncements are heard from Philippine presidential candidates. In general, how do judges decide cases? The analytical school (John Austin) posits F×L=D: a decision is simply the result of applying law to given facts; but this cannot fully explain judgment in complicated cases. The sociological school (Harvard Dean Roscoe Pound) offers S×P=D: stimuli times personality equals decision; the law and facts are the two main stimuli, but there are others -- dire consequences on public interest, illness, and what CJ calls the 'plague of ships': kinship, relationship, friendship, and fellowship. The personality of a judge encompasses education, training, intelligence, legal philosophy, integrity, character, and prior opinions. Pound looked at law as social engineering, not a mathematical tool. Process-wise, every petition or appeal is raffled to a 'member-in-charge' (MIC) who determines whether the case goes to the banc (all 15 justices) or one of three court divisions (5 each). The MIC prepares a facts/issues summary and recommends: dismiss outright for lack of merit, or require a comment from respondents, and whether to grant a TRO. After comment, the Court may dismiss via resolution, require oral argument, or ask for written memoranda. After memoranda, the MIC submits a disposal report; deliberations follow; if the majority agrees, the MIC writes the decision; if the majority disagrees, another justice is assigned to write it and the MIC submits a dissent; other justices may write concurring or dissenting opinions.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

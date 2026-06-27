@@ -1,0 +1,204 @@
+{
+  "id": "CC098",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 98,
+  "title": "Season's defining events",
+  "date": "2015-01-11",
+  "link": "https://opinion.inquirer.net/81614/seasons-defining-events",
+  "keywords": [
+    "Pope Francis",
+    "PH visit",
+    "Tan Caktiong",
+    "JGF",
+    "donor legacy",
+    "Ayala Museum",
+    "six papal stops",
+    "six million"
+  ],
+  "primary_topics": [
+    "Christmas-season year-in-review January 11, 2015",
+    "DongYan 'royal wedding' opening -- Dingdong Dantes + Marian Rivera, Dec 30 Immaculate Conception Cathedral Cubao, PNoy 'witness of honor'",
+    "15 men of cloth (Bishop Honesto Ongtioco officiating, Bishop Ted Bacani 'quotable homily'); 40 principal sponsors + 25 secondary + 18 groomsmen + 18 bridesmaids + 8 bridal showers + 2 marriage proposals + 500 security",
+    "Eight as DongYan's favorite number: 8-second kiss, 2:38 PM ceremony at 800-seat Cathedral, 6:08 PM reception at 18,000-seat MOA Arena",
+    "CJP's quiet-dinner-for-16 honoring Dr. Shoichiro Toyoda (89 yo) hosted by Dr. George S.K. Ty -- P1 billion donation to Toyota School of Technology in Sta. Rosa, Laguna",
+    "27-year Metrobank-Toyota partnership -- Toyota Philippines is unique 35% Toyota Japan + 51% Metrobank + 14% Mitsui (only minority-Toyota-ownership country in world)",
+    "Carillon-bells inauguration at Manila Cathedral -- 23 new bells from Alberto and Sylvia Lina (replacing 14 from 2011); CJP as president of Manila Cathedral Foundation",
+    "Three book launches: Felipe G. Gozon 'Autobiography' 75th birthday with CJP 'Gutsy with capital G' tribute; Eduardo H. Yap 'Stirred, Not Shaken' with '6Gs' foreword; Fr. Roberto B. Manansala 'Echoes of God's Love'",
+    "Brief mentions: Ave + Helen Cruz Christmas musicale, Titoy Pardo De La Salle Brotherhood affiliation, Louie + Triccie Sison 50th anniversary, F. Sionil Jose 90th birthday",
+    "Religious-anchor close: 'birth of our Lord Jesus Christ is the real reason for the joyous season'"
+  ],
+  "sub_topics": [
+    "DongYan wedding sidelights: 'reconciliation' of Kris and Ai Ai noted",
+    "Bishop Ongtioco led 15 officiating clergy with Bishop Bacani's homily framed as 'quotable'",
+    "Numerology of eight: 8-second kiss, exact ceremony time 2:38 PM, 800-seat Cubao Cathedral, exact reception time 6:08 PM, 18,000-seat MOA Arena",
+    "'Lesser mortals had their own momentous season events, perhaps not as grand and as eye-popping but momentous nonetheless'",
+    "CJP's dinner ultra-significant not for menu or VIPs but for P1B donation",
+    "Toyota School of Technology in Sta. Rosa, Laguna established in honor of Dr. Toyoda (direct descendant of Toyota founder Sakichi Toyoda)",
+    "27-year continuous Toyota market-leadership in PH -- unmatched by any other country",
+    "Toyota Japan elsewhere always majority owner -- PH is the lone minority-Toyota-ownership country (Toyota Japan 35% + Metrobank group 51% + Mitsui 14%)",
+    "Dr. Ty's gratitude motivated TST establishment; CJP responded that science and technology essential to propel country to sustainable prosperity",
+    "School in honor of Toyota leader but will remain in PH",
+    "Carillon bells: prior to cathedral refitting and renovation, cathedral received 14 carillon bells from Linas in 2011",
+    "After CJP (as Manila Cathedral Foundation president) requested 9 more, Bert Lina volunteered new full set of 23 from Netherlands",
+    "Bert: 'If I ordered nine new bells, they may not be in tune with the 14 existing. So, I will give a complete set of 23 new ones.'",
+    "'To me, bells are the voice of God. When they ring, they call our faithful to worship in His church.'",
+    "What to do with old 14 bells? Bert: 'I can donate them to another church, perhaps in a Yolanda-stricken diocese'",
+    "Felipe G. Gozon 'Autobiography' launched at 75th birthday -- CJP asked Henry in late 1990s to consider joining SC; humbly declined for TV-radio commitment",
+    "CJP earlier tribute quoted on book pages 237-238 -- 'Gutsy with a capital G as in Gozon comes closest'",
+    "Eduardo H. Yap 'Stirred, Not Shaken' -- CJP foreword 6Gs: gift of gab + gift of giving + gift of genius",
+    "Fr. Roberto B. Manansala 'Echoes of God's Love' -- collection of concise, life-touching homilies for one whole liturgical year (Cycle B)",
+    "Brief mentions out of space: Ave + Helen Cruz Christmas musicale at home; Titoy Pardo solemn affiliation to De La Salle Brotherhood; Louie + Triccie Sison 50th wedding anniversary; F. Sionil Jose 90th birthday national artist",
+    "Religious close: 'But let's not ever forget, the birth of our Lord Jesus Christ is the real reason for the joyous season!'"
+  ],
+  "signature_phrases": [
+    "Lesser mortals",
+    "in my humble view (implied)",
+    "Gutsy with a capital G",
+    "6Gs",
+    "season of grace",
+    "the joyous season",
+    "the real reason"
+  ],
+  "entities": {
+    "people": [
+      "Dingdong Dantes (groom)",
+      "Marian Rivera (bride)",
+      "President Benigno S. Aquino III (PNoy, 'witness of honor')",
+      "Bishop Honesto Ongtioco (Cubao Bishop, officiating)",
+      "Bishop Ted Bacani (homily)",
+      "Kris Aquino + Ai Ai delas Alas ('reconciliation' sidelight)",
+      "Dr. Shoichiro Toyoda (89 yo Toyota Motors honorary chair, dinner-honoree)",
+      "Dr. George S.K. Ty (Metrobank group chair, dinner host, P1B donor)",
+      "Sakichi Toyoda (Toyota founder, ancestor of honoree)",
+      "Alberto 'Bert' Lina (carillon-bells donor)",
+      "Sylvia Lina (carillon-bells co-donor)",
+      "Felipe G. 'Henry' Gozon (GMA Network chair, autobiographer at 75)",
+      "Eduardo H. 'Eddie' Yap ('Stirred, Not Shaken' author)",
+      "Fr. Roberto B. Manansala ('Echoes of God's Love' homilist)",
+      "Ave Cruz + Helen Cruz (Christmas musicale hosts)",
+      "Titoy Pardo (De La Salle Brotherhood affiliate)",
+      "Louie Sison + Triccie Sison (50th wedding anniversary)",
+      "F. Sionil Jose (national artist, 90th birthday)"
+    ],
+    "institutions": [
+      "Immaculate Conception Cathedral (Cubao)",
+      "Mall of Asia Arena",
+      "Toyota Motors of Japan",
+      "Toyota Philippines",
+      "Metrobank group / Metrobank Foundation",
+      "Mitsui and Co.",
+      "Toyota School of Technology (Sta. Rosa, Laguna)",
+      "Manila Cathedral",
+      "Manila Cathedral Foundation (CJP president)",
+      "GMA Network",
+      "De La Salle Brotherhood",
+      "Catholic Church"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "December 30, 2014 -- DongYan wedding",
+      "Quiet dinner for 16 honoring Dr. Toyoda hosted by Dr. Ty -- P1B TST donation announced",
+      "23-carillon-bells inauguration at Manila Cathedral",
+      "Felipe G. Gozon 75th-birthday book launch",
+      "Eduardo H. Yap 'Stirred, Not Shaken' launch",
+      "Fr. Manansala 'Echoes of God's Love' launch",
+      "F. Sionil Jose 90th birthday",
+      "Louie + Triccie Sison 50th wedding anniversary"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "For the popular and the show biz, the defining event of the last Christmas season may have been the DongYan 'royal wedding' on December 30 at Immaculate Conception Cathedral in Cubao -- Dingdong Dantes and Marian Rivera, with PNoy as 'witness of honor,' 15 officiating clergy, 40 principal sponsors, and an extensive numerology of eight (8-second kiss, 2:38 PM ceremony, 800-seat cathedral, 6:08 PM reception, 18,000-seat MOA Arena)",
+      "rhetorical_move": "show-biz-opening with numerological cataloging",
+      "confidence": "high"
+    },
+    {
+      "claim": "CJ's own defining season event was the quiet dinner for 16 honoring Dr. Shoichiro Toyoda (89-year-old Toyota Motors honorary chair) hosted by Dr. George S.K. Ty -- ultra-significant not for menu or VIPs but for Dr. Ty's P1 billion donation to the Toyota School of Technology in Sta. Rosa, Laguna established in honor of Dr. Toyoda",
+      "rhetorical_move": "personal-defining-event elevation",
+      "confidence": "high"
+    },
+    {
+      "claim": "Toyota Philippines is the only Toyota affiliate in the world in which the giant Japanese auto maker holds a minority interest (35%) while the local partner Metrobank group owns 51% (Mitsui 14%) -- and Toyota has dominated PH motoring for all 27 years of the Metrobank partnership, an unmatched continuous market-leadership record",
+      "rhetorical_move": "ownership-structure uniqueness + market-dominance record",
+      "confidence": "high"
+    },
+    {
+      "claim": "CJ told Dr. Ty that by establishing TST in honor of Dr. Toyoda he was really performing a great service to our people because science and technology are essential to propel our country to sustainable prosperity -- and though established in honor of the Toyota leader, the school will remain in the Philippines",
+      "rhetorical_move": "science-and-technology-as-sustainable-prosperity rationale",
+      "confidence": "high"
+    },
+    {
+      "claim": "The second major season event was the inauguration of 23 new carillon bells donated by Alberto and Sylvia Lina to the Manila Cathedral -- prior 14 bells from 2011 were augmented by CJP's request (as Manila Cathedral Foundation president) for 9 more, to which Bert volunteered a complete new set of 23 from the Netherlands rather than risk tuning mismatch",
+      "rhetorical_move": "carillon-bells-as-second-defining-event with backstory",
+      "confidence": "high"
+    },
+    {
+      "claim": "Bert Lina explained the philosophy: 'To me, bells are the voice of God. When they ring, they call our faithful to worship in His church' -- and offered to donate the old 14 bells to a Yolanda-stricken diocese",
+      "rhetorical_move": "donor-quotation + Yolanda-charity-disposition",
+      "confidence": "high"
+    },
+    {
+      "claim": "Three significant books launched during the season of grace: (1) GMA Network chair Felipe G. 'Henry' Gozon's 'Autobiography' at his 75th birthday -- CJ had asked Henry in the late 1990s to join SC but he humbly declined for his TV-radio freedom-of-expression mission; CJ's earlier tribute calls him 'Gutsy with a capital G'; (2) Eduardo H. Yap's 'Stirred, Not Shaken' -- CJ foreword characterizes Eddie's '6Gs' (gift of gab, gift of giving, gift of genius); (3) Fr. Roberto B. Manansala's 'Echoes of God's Love' -- homilies for one whole liturgical year (Cycle B)",
+      "rhetorical_move": "three-book-launches enumeration with personal-tribute coloring",
+      "confidence": "high"
+    },
+    {
+      "claim": "Brief mentions for the rest: lovely Christmas musicale at the home of Ave and Helen Cruz; Titoy Pardo's solemn affiliation to the De La Salle Brotherhood; 50th wedding anniversary of Louie and Triccie Sison; F. Sionil Jose's 90th birthday -- but let's not ever forget, the birth of our Lord Jesus Christ is the real reason for the joyous season",
+      "rhetorical_move": "out-of-space brief-mentions + religious-anchor close",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "DongYan 8-themed wedding: 8-second kiss, 2:38 PM ceremony, 800-seat cathedral, 6:08 PM reception, 18,000-seat arena",
+    "PNoy as 'witness of honor' to celebrity wedding",
+    "Kris and Ai Ai 'reconciliation' as sidelight",
+    "P1B Toyota School of Technology donation by Dr. George S.K. Ty in honor of Dr. Shoichiro Toyoda",
+    "Toyota Philippines as unique minority-Toyota-ownership country in world (35% Toyota Japan + 51% Metrobank + 14% Mitsui)",
+    "27 years of continuous Toyota market-leadership in PH",
+    "Lina family carillon-bells donations: 14 in 2011, 23 new from Netherlands to harmonize after CJP request for 9 more",
+    "'Bells are the voice of God' Bert Lina quote",
+    "Bert's offer to donate old 14 bells to Yolanda-stricken diocese",
+    "CJP asked Henry Gozon to join SC in late 1990s -- Henry declined for TV-radio mission",
+    "CJP's 'Gutsy with a capital G as in Gozon comes closest' tribute on book pages 237-238",
+    "CJP's '6Gs' foreword for Eddie Yap's 'Stirred, Not Shaken'",
+    "F. Sionil Jose 90th birthday national-artist milestone"
+  ],
+  "target_audience": [
+    "Inquirer readership over Christmas-New-Year holidays",
+    "Show-biz fans (DongYan opening)",
+    "FLP donors and Metrobank/Toyota corporate community",
+    "Catholic community (carillon bells + religious close)",
+    "GMA Network audience and Gozon admirers",
+    "Literary community (Yap, Manansala, Sionil Jose tributes)",
+    "De La Salle alumni (Pardo affiliation)",
+    "Educators and science-technology advocates (TST donation context)"
+  ],
+  "register_markers": [
+    "show-biz opening with numerological cataloging",
+    "'Lesser mortals' transition register",
+    "personal-defining-event elevation",
+    "ownership-structure uniqueness + market-dominance record",
+    "science-and-technology-as-sustainable-prosperity rationale",
+    "carillon-bells-as-second-defining-event with backstory",
+    "donor-quotation deployment (Bert Lina)",
+    "three-book-launches enumeration with personal-tribute coloring",
+    "'season of grace' phrasing",
+    "out-of-space brief-mentions register",
+    "religious-anchor close ('real reason for the joyous season')",
+    "section labels (P1 billion for education, Carillon bells, Book launches)"
+  ],
+  "decision_framework_signals": [
+    "Defining-event year-in-review framework with multi-tier ranking",
+    "Numerology-as-personality-detail journalistic device",
+    "Science-and-technology-as-sustainable-prosperity policy framework",
+    "Donor-tribute as institutional-philanthropy validation",
+    "Out-of-space-truncation transparency device",
+    "Religious-anchor close as register-correction"
+  ],
+  "one_paragraph_summary": "Panganiban delivers a year-in-review of his Christmas-season defining events. For the popular and the show biz, the defining event of the last Christmas season may have been the 'royal wedding' of DongYan -- Dingdong Dantes and Marian Rivera -- at the Immaculate Conception Cathedral in Cubao, Quezon City on December 30, with PNoy as 'witness of honor.' The star-studded nuptial was officiated by 15 men of the cloth (led by Cubao Bishop Honesto Ongtioco with a quotable homily by Bishop Ted Bacani), attended by 40 principal sponsors, 25 secondary sponsors, 18 groomsmen, 18 bridesmaids, 8 bridal showers, 2 marriage proposals and 500 security personnel, and sidelighted by the 'reconciliation' of Kris and Ai Ai. Eight was obviously the couple's favorite number -- evidenced by their 8-second kiss, exact ceremony time (2:38 PM) at the 800-seat Cubao Cathedral, and exact reception time (6:08 PM) at the 18,000-seat Mall of Asia Arena. Lesser mortals had their own momentous season events, perhaps not as grand and as eye-popping but momentous nonetheless. As for CJ, his season events were topped by a quiet dinner for 16 held in honor of Dr. Shoichiro Toyoda, the 89-year-old honorary chair of Toyota Motors of Japan, hosted by Dr. George S.K. Ty, group chair of the Metrobank conglomerate. What made the dinner ultra-significant was not the menu or the VIP attendees, but Dr. Ty's P1-billion donation to the Toyota School of Technology in Sta. Rosa, Laguna. Toyota Philippines is the only Toyota affiliate in the world in which the giant Japanese auto maker holds a minority interest (35 percent) while the local partner (Metrobank group) owns 51 percent (Mitsui and Co. holds the remaining 14 percent); elsewhere Toyota Japan always owns and controls the majority. Toyota has dominated the Philippine motoring industry consistently for all 27 years of partnership with Metrobank -- in no other country has the Japanese automotive giant topped the market continuously for such a long period. Dr. Ty said that, in gratitude, he thought of establishing the TST in honor of Dr. Toyoda, a direct descendant of Toyota founder Sakichi Toyoda. CJ replied that, in so doing, he was really performing a great service to our people because science and technology are essential to propel our country to sustainable prosperity; besides, though established in honor of the Toyota leader, the school will remain in the Philippines. The second major season event was the formal inauguration of the 23 new carillon bells donated by Alberto and Sylvia Lina to the Manila Cathedral. Prior to its recent refitting and renovation, the cathedral received 14 carillon bells from the Linas in 2011; but after CJ (as president of the Manila Cathedral Foundation) requested Bert to add nine more bells, Bert volunteered to order a complete new set of 23 bells from the Netherlands. Explained Bert: 'If I ordered nine new bells, they may not be in tune with the 14 existing. So, I will give a complete set of 23 new ones. After all, to me, bells are the voice of God. When they ring, they call our faithful to worship in His church.' What to do with the 'old' set of 14? 'Well,' Bert said, smiling, 'I can donate them to another church, perhaps in a Yolanda-stricken diocese.' Significant, too, were three books launched during the season of grace. (1) The 'Autobiography' of GMA Network chair and CEO Felipe G. Gozon, written in simple, easy-to-read English, launched at the author's 75th birthday. CJ met Henry, as friends fondly call him, more than three decades ago when both were actively practicing law; fully convinced of his 'proven competence, integrity, probity and independence,' CJ asked him several times in the late 1990s to consider joining SC, but he humbly declined, citing a commitment to develop TV-radio as the prime embodiment of the freedom of expression to transform society. CJ's earlier tribute, quoted on book pages 237-238, says in part: 'It is difficult to define Henry in one word, but I think Gutsy with a capital G as in Gozon comes closest.' (2) 'Stirred, Not Shaken' by Eduardo H. Yap -- CJ's foreword characterizes Eddie's '6Gs': gift of gab (both written and verbal), gift of giving (of himself and his possessions to favorite charities), and gift of genius (manifested in his persona and writings). (3) 'Echoes of God's Love' by Fr. Roberto B. Manansala -- a collection of concise, life-touching, unforgettable homilies for one whole liturgical year (Cycle B). CJ has run out of space for other notable events -- the lovely Christmas musicale at the home of Ave and Helen Cruz, the solemn affiliation of Titoy Pardo to the De La Salle Brotherhood, the 50th wedding anniversary of Louie and Triccie Sison, the 90th birthday of national artist F. Sionil Jose, etc. But let's not ever forget, the birth of our Lord Jesus Christ is the real reason for the joyous season.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

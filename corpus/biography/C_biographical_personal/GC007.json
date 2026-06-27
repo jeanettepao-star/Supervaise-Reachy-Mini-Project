@@ -1,0 +1,151 @@
+{
+  "id": "GC007",
+  "format": "G",
+  "type": "biography",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 7,
+  "title": "Faith Finds Its Voice",
+  "date": "mid-1980s ",
+  "link": "",
+  "keywords": [
+    "Bukas Loob sa Diyos",
+    "BLD",
+    "Pontifical Council for the Laity",
+    "Pope John Paul II",
+    "lay leadership"
+  ],
+  "primary_topics": [
+    "Faith-arrived-late-and-refused-to-stay-quiet titular thesis",
+    "Mid-1980s entry into Bukas Loob sa Diyos (BLD) with wife Elenita",
+    "Servant-leader + marriage-encounter-facilitator + Life-in-the-Spirit-speaker lay roles",
+    "National lay-leadership trajectory -- Council of the Laity + Second Plenary Council of the Philippines",
+    "Pontifical Council for the Laity appointment by Pope John Paul II -- 'only Filipino' superlative"
+  ],
+  "sub_topics": [
+    "Faith-as-accessory-for-many-men-of-ambition critique",
+    "Faith-arrived-late-and-refused-to-stay-quiet personal-faith framing",
+    "FEU early encounters as faith-planted-questions roots",
+    "Years of reading + listening + reflection following",
+    "Mid-1980s BLD entry -- faith-ceased-to-be-theoretical",
+    "Wife Elenita as partner in BLD entry",
+    "BLD demanded vulnerability -- pray-aloud + confess-uncertainty + submit-ambition-to-discernment",
+    "Not-comfortable-which-is-precisely-why-it-reshaped-him reframe",
+    "Servant-leader role",
+    "Marriage-encounter facilitator role",
+    "Life-in-the-Spirit-seminars speaker role",
+    "Scripture-as-instruction-not-metaphor pedagogical posture",
+    "Leadership-not-granted-by-election-alone-but-discerned conviction",
+    "Secretary of Council of the Laity of the Philippines",
+    "Delegate to Second Plenary Council of the Philippines",
+    "Only Filipino appointed by Pope John Paul II to Pontifical Council for the Laity",
+    "Boy-who-could-not-name-the-Trinity now-advised-the-Vatican irony closing",
+    "Faith-had-not-replaced-law-it-had-disciplined-it convergence-thesis"
+  ],
+  "signature_phrases": [
+    "For many men of ambition, faith is an accessory -- useful in ceremony, silent in decision",
+    "For Art, faith arrived late -- and then refused to stay quiet",
+    "faith ceased to be theoretical",
+    "BLD demanded vulnerability",
+    "It was not comfortable -- which is precisely why it reshaped him",
+    "Scripture not as metaphor but as instruction",
+    "Leadership... was not granted by election alone -- it was discerned",
+    "The boy who once could not name the Trinity now advised the Vatican",
+    "Faith had not replaced law in his life. It had disciplined it"
+  ],
+  "entities": {
+    "people": [
+      "Artemio Villaseñor Panganiban Jr. (subject)",
+      "Elenita Carpio-Panganiban (wife -- BLD partner)",
+      "Pope John Paul II (appointed Art to Pontifical Council for the Laity)"
+    ],
+    "institutions": [
+      "Bukas Loob sa Diyos (BLD -- Catholic lay community joined mid-1980s)",
+      "Council of the Laity of the Philippines (Art served as secretary)",
+      "Second Plenary Council of the Philippines (Art served as delegate)",
+      "Pontifical Council for the Laity (Vatican -- Art only Filipino appointed by JP II)",
+      "Catholic Church",
+      "Far Eastern University (faith-planted-questions roots)"
+    ],
+    "places": [
+      "Vatican (Pontifical Council)",
+      "The Philippines (lay-leadership national venue)"
+    ],
+    "events": [
+      "Second Plenary Council of the Philippines",
+      "Life in the Spirit seminars (Art as speaker)",
+      "Marriage Encounter weekends (Art as facilitator)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "For many men of ambition, faith is an accessory -- useful in ceremony, silent in decision; for Art, faith arrived late and then refused to stay quiet.",
+      "rhetorical_move": "many-men-vs-Art binary opening + accessory-in-ceremony-silent-in-decision critique + arrived-late-refused-to-stay-quiet titular framing",
+      "confidence": "biographer-asserted as character-of-faith thesis"
+    },
+    {
+      "claim": "His early encounters at FEU had planted questions -- years of reading, listening, and reflection followed; but it was only in the mid-1980s, when he and his wife Elenita joined Bukas Loob sa Diyos (BLD), that faith ceased to be theoretical.",
+      "rhetorical_move": "FEU-planted-questions back-reference + years-of-reading-listening-reflection sequencing + BLD-as-faith-ceased-to-be-theoretical turning-point",
+      "confidence": "biographer-asserted as conversion-turning-point thesis"
+    },
+    {
+      "claim": "BLD demanded vulnerability -- it asked professionals to pray aloud, to confess uncertainty, to submit ambition to discernment; it was not comfortable, which is precisely why it reshaped him.",
+      "rhetorical_move": "BLD-as-demanded-vulnerability + three-practice cascade (pray-aloud + confess-uncertainty + submit-ambition) + not-comfortable-precisely-why reframe",
+      "confidence": "biographer-asserted as formation-discipline thesis"
+    },
+    {
+      "claim": "He became a servant leader, a marriage-encounter facilitator, a speaker in Life in the Spirit seminars; he read Scripture not as metaphor but as instruction; leadership, he began to believe, was not granted by election alone -- it was discerned.",
+      "rhetorical_move": "servant-leader + facilitator + speaker lay-role triad + Scripture-as-instruction-not-metaphor + leadership-as-discerned-not-elected conviction-pivot",
+      "confidence": "biographer-asserted as lay-leadership formation"
+    },
+    {
+      "claim": "Faith soon pulled him into national service -- he became secretary of the Council of the Laity of the Philippines, a delegate to the Second Plenary Council of the Philippines, and later, improbably, the only Filipino appointed by Pope John Paul II to the Pontifical Council for the Laity.",
+      "rhetorical_move": "faith-pulled-into-national-service framing + Council-of-the-Laity + Second-Plenary-Council + Pontifical-Council-only-Filipino-by-JP-II credential cascade with 'improbably' qualifier",
+      "confidence": "biographer-asserted with ecclesial-credential anchoring"
+    },
+    {
+      "claim": "The irony was not lost on him -- the boy who once could not name the Trinity now advised the Vatican on the life of the faithful; faith had not replaced law in his life -- it had disciplined it.",
+      "rhetorical_move": "Trinity-failure-callback to FEU-chapter (GC003) + advised-the-Vatican superlative-irony + faith-disciplined-not-replaced-law convergence-thesis closing",
+      "confidence": "biographer-asserted as faith-and-law-convergence thesis"
+    }
+  ],
+  "notable_anecdotes": [
+    "Faith-as-accessory-vs-faith-that-refused-to-stay-quiet opening binary",
+    "Mid-1980s BLD entry with wife Elenita as turning point",
+    "BLD demanded vulnerability -- pray-aloud + confess-uncertainty + submit-ambition-to-discernment three-practice cascade",
+    "Servant-leader + marriage-encounter-facilitator + Life-in-the-Spirit-seminars-speaker lay-role triad",
+    "Secretary of Council of the Laity of the Philippines",
+    "Delegate to Second Plenary Council of the Philippines",
+    "Only-Filipino appointed by Pope John Paul II to Pontifical Council for the Laity -- single-most-quoted ecclesial credential",
+    "Trinity-failure callback ('the boy who once could not name the Trinity now advised the Vatican') -- section-to-section narrative continuity",
+    "Faith-disciplined-not-replaced-law convergence-thesis closing"
+  ],
+  "target_audience": [
+    "Catholic lay-movement members (BLD + Marriage Encounter + Life in the Spirit audience)",
+    "Council of the Laity + Plenary-Council delegates",
+    "Catholic legal professionals reconciling faith and vocation",
+    "Vatican-watchers + Pontifical-Council historians",
+    "FLP readers tracking the safeguard-liberty + nurture-prosperity philosophical formation",
+    "Married couples discerning shared lay vocation"
+  ],
+  "register_markers": [
+    "Many-men-vs-Art binary opening -- 'faith is an accessory'",
+    "Refused-to-stay-quiet personification register",
+    "Three-practice cascade -- pray-aloud + confess-uncertainty + submit-ambition",
+    "Not-comfortable-precisely-why-it-reshaped-him reframe device",
+    "Scripture-as-instruction-not-metaphor pedagogical reframe",
+    "Improbably-the-only-Filipino superlative-with-qualifier device",
+    "Trinity-callback section-to-section narrative continuity device",
+    "Convergence-thesis closing -- faith-disciplined-not-replaced-law"
+  ],
+  "decision_framework_signals": [
+    "Faith-arrived-late-and-refused-to-stay-quiet personal-faith principle",
+    "Vulnerability-not-comfort as formation prerequisite",
+    "Scripture-as-instruction-not-metaphor reading posture",
+    "Leadership-as-discerned-not-elected discernment standard",
+    "Faith-disciplined-not-replaced-law convergence principle",
+    "Ambition-submitted-to-discernment career-and-vocation calibration"
+  ],
+  "one_paragraph_summary": "Art's faith-formation chapter, opening with the binary that 'for many men of ambition, faith is an accessory -- useful in ceremony, silent in decision; for Art, faith arrived late and then refused to stay quiet.' Earlier encounters at FEU had planted questions; years of reading and reflection followed; but it was only in the mid-1980s, when he and his wife Elenita joined Bukas Loob sa Diyos (BLD), that 'faith ceased to be theoretical.' BLD 'demanded vulnerability' -- asking professionals to 'pray aloud, to confess uncertainty, to submit ambition to discernment' -- 'not comfortable, which is precisely why it reshaped him.' He became a servant leader, a marriage-encounter facilitator, a speaker at Life in the Spirit seminars; he read Scripture 'not as metaphor but as instruction'; he came to believe that 'leadership was not granted by election alone -- it was discerned.' Faith pulled him into national service: secretary of the Council of the Laity of the Philippines, delegate to the Second Plenary Council of the Philippines, and ultimately 'improbably -- the only Filipino appointed by Pope John Paul II to the Pontifical Council for the Laity.' The chapter closes with section-to-section narrative continuity: 'the boy who once could not name the Trinity now advised the Vatican on the life of the faithful. Faith had not replaced law in his life. It had disciplined it.'",
+  "source_xlsx": "cjp_biography_curated_normalized.xlsx"
+}

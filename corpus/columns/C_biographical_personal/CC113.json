@@ -1,0 +1,119 @@
+{
+  "id": "CC113",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 113,
+  "title": "Luis Antonio G. Tagle",
+  "date": "2011-12-17",
+  "link": "https://opinion.inquirer.net/19345/luis-antonio-g-tagle",
+  "keywords": [
+    "Archbishop Tagle",
+    "Manila Archbishop",
+    "Catholic Church Philippines",
+    "social issues RH bill",
+    "Vatican theological commission",
+    "Sisters of Mary Boystown",
+    "The Word Exposed",
+    "People Power"
+  ],
+  "primary_topics": [
+    "CJ Panganiban's personal profile of Archbishop Luis Antonio Tagle as the new Archbishop of Manila",
+    "Tagle's vision, mission, and leadership style as articulated in his first homily at Manila Cathedral",
+    "Assessment of Tagle's likely stance on social issues, political interventionism, and Church unity"
+  ],
+  "sub_topics": [
+    "First homily at Manila Cathedral on November 12 -- 'Don't look at me, I am not important; focus on Jesus Christ'",
+    "Episcopal Motto: 'Dominus est! It is the Lord!'",
+    "Theology of faith: child as gift not burden, youth as promise not problem, women as persons not objects, laborers as partners not machines, poor as jewels not nuisance, creation as sign of God's love not object of manipulation",
+    "CJ predicts: firm on social issues (RH bill, sanctity of marriage/divorce)",
+    "CJ predicts: will not interfere in divisive secular political events; emphasis on unity not divisiveness",
+    "Catholic Church's presence in China, India, Russia, Vietnam -- must not be perceived as unwanted interventionist",
+    "Personal connection to Pope Benedict XVI -- worked with him when Benedict was president of Vatican's International Theological Commission",
+    "Former Ambassador Henrietta de Villa: bishop arriving in a tricycle at a Cavite fiesta -- 'Mas praktikal po ang sumakay sa tricycle'",
+    "Inquirer Chair Marixi Prieto: works with Tagle on Sisters of Mary Boystowns and Girlstowns in Cavite and Cebu",
+    "Sunday TV program 'The Word Exposed' -- depth of thought and simplicity of language",
+    "Consensus builder not solo performer",
+    "Agreed to deliver invocation at CJ's 75th birthday musicale",
+    "CJ teased about his baritone voice: 'Sana po isaawit ninyo ang inyong panalangin'"
+  ],
+  "signature_phrases": [
+    "Don't look at me, I am not important",
+    "Dominus est! It is the Lord!",
+    "a child is no longer seen as a burden but a gift",
+    "the youth are not a problem but a promise",
+    "the poor, the differently abled are not nuisance but our jewels",
+    "Mas praktikal po ang sumakay sa tricycle. Madaling makalusot sa traffic",
+    "soft eloquence",
+    "he speaks from the heart",
+    "absent a direct, clear and present danger to the faith",
+    "consensus builder rather than a solo performer"
+  ],
+  "entities": {
+    "people": [
+      "Archbishop Luis Antonio G. Tagle ('Cardinal Chito')",
+      "Pope Benedict XVI (worked with Tagle at Vatican International Theological Commission)",
+      "Former Ambassador Henrietta 'Tita' de Villa (tricycle anecdote source)",
+      "Inquirer Chair Marixi Prieto (works with Tagle on Sisters of Mary)",
+      "Artemio V. Panganiban (author, former CJ; invited Tagle to birthday musicale)"
+    ],
+    "institutions": [
+      "Archdiocese of Manila",
+      "Vatican International Theological Commission",
+      "Sisters of Mary (Boystowns and Girlstowns in Cavite and Cebu)",
+      "Manila Cathedral",
+      "Catholic Church (universal)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Reproductive Health (RH) Bill (pending legislation CJ predicts Tagle will be firm against)"
+    ],
+    "events": [
+      "Tagle's first homily at Manila Cathedral (November 12, 2011)",
+      "CJ Panganiban's 75th birthday musicale (Tagle invited to deliver invocation)",
+      "Tagle's prior role as Bishop of Imus, Cavite"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Archbishop Tagle will be firm on social issues like the RH bill and the sanctity of marriage but will not interfere in divisive secular political events — his homily's emphasis on unity and his pastoral-missionary focus make him a consensus builder, not a firebrand activist or People Power leader.",
+      "rhetorical_move": "predictive-profile argument: reading the homily's theological emphases as a reliable guide to Tagle's future conduct on political-social questions",
+      "confidence": "asserted as CJ's personal prediction ('I think', 'I do not see')"
+    },
+    {
+      "claim": "The Catholic Church's universal missionary presence in China, India, Russia, and Vietnam — countries where interventionism would invite government suppression — makes political restraint not merely a personal preference of Tagle's but a structural institutional necessity.",
+      "rhetorical_move": "geopolitical-constraint argument: the global missionary imperative as the institutional basis for Tagle's expected non-interventionism in secular politics",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Former Ambassador de Villa's story of Bishop Tagle arriving at a Cavite fiesta in a tricycle — 'A bishop riding in a tricycle! But he had no pretenses, no arrogance. He matter-of-factly replied, Mas praktikal po ang sumakay sa tricycle. Madaling makalusot sa traffic' — the most vivid illustration of Tagle's 'legendary humility' that CJ deploys as the character-defining anecdote.",
+    "CJ half-teasing Tagle about his 'brilliant baritone voice' at the invocation for the birthday musicale: 'Sana po isaawit ninyo ang inyong panalangin' — Tagle's characteristically humble reply 'Hindi ko po yata kaya yon' — a brief personal exchange that both humanizes the archbishop and mirrors his 'Don't look at me' theological posture.",
+    "Inquirer Chair Marixi Prieto's collaboration with Tagle on the Sisters of Mary Boystowns and Girlstowns — four schools in Cavite and Cebu where every student is a full scholar receiving food, clothing, shelter, medical-dental services, and free high school/vocational education — presented as the institutional expression of his 'poor are our jewels' theology."
+  ],
+  "target_audience": [
+    "Filipino Catholics seeking to understand their new archbishop's vision",
+    "Political and civic actors wondering whether Tagle will be an activist archbishop",
+    "Church observers and Vatican watchers tracking the next generation of Catholic leadership",
+    "General Inquirer readership curious about the new Archbishop of Manila",
+    "Advocates on both sides of the RH bill debate"
+  ],
+  "register_markers": [
+    "predictive-profile register ('I think', 'I do not see', 'I do not think')",
+    "theological-commentary register (parsing homily theology with jurist's analytical precision)",
+    "Tagalog direct-speech quotes (de Villa's tricycle anecdote; CJ-Tagle birthday exchange)",
+    "geopolitical-constraint register (China, India, Russia, Vietnam missionary presence)",
+    "personal-encounter register (CJ's many meetings with Tagle; birthday musicale invitation)",
+    "consensus-builder characterization as the closing summary"
+  ],
+  "decision_framework_signals": [
+    "applies homily-as-reliable-guide framework: theological emphases in first homily predict future conduct",
+    "uses geopolitical-constraint analysis: global missionary presence makes political restraint institutionally necessary",
+    "applies persona-clarity test: Tagle's 'legendary humility' (tricycle anecdote, 'soft eloquence') as character evidence",
+    "treats Sisters of Mary institutional work as evidence of the 'poor are our jewels' theology in action",
+    "frames consensus-builder-vs-solo-performer distinction as the key leadership-style predictor"
+  ],
+  "one_paragraph_summary": "Writing one week before his 75th birthday musicale, Panganiban profiles Archbishop Luis Antonio Tagle -- the new Archbishop of Manila -- based on his first homily at Manila Cathedral on November 12, 2011 and personal knowledge. Tagle's opening declaration ('Don't look at me, I am not important; focus on Jesus Christ -- Dominus est!') sets his leadership framework: self-effacing, Christ-centered, and theologically transformative in seeing the unborn as a gift not a burden, youth as a promise not a problem, the poor as jewels not nuisance. CJ predicts Tagle will be firm on social issues -- opposing the RH bill and resisting the creeping divorce mentality -- but will not interfere in divisive secular political events, citing the Catholic Church's universal missionary presence in China, India, Russia, and Vietnam as an institutional constraint against being perceived as an unwanted interventionist. His 'legendary humility' is illustrated by Former Ambassador de Villa's tricycle anecdote (Tagle arriving at a Cavite fiesta in a tricycle and defending it: 'Mas praktikal po ang sumakay sa tricycle. Madaling makalusot sa traffic') and by Inquirer Chair Prieto's account of his work with Sisters of Mary establishing free Boystowns and Girlstowns in Cavite and Cebu. CJ describes Tagle as a 'consensus builder rather than a solo performer' who 'speaks from the heart' with 'soft eloquence,' and ends with the personal note that Tagle has agreed to deliver the invocation at CJ's birthday musicale -- where CJ half-teased him about singing the blessing, and Tagle humbly replied 'Hindi ko po yata kaya yon.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

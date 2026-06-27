@@ -1,0 +1,118 @@
+{
+  "id": "CC085",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 85,
+  "title": "Thank you to two presidents",
+  "date": "2016-12-25",
+  "link": "https://opinion.inquirer.net/100267/thank-two-presidents",
+  "keywords": [
+    "80th birthday",
+    "Ageless Passion musicale",
+    "President Ramos",
+    "President Arroyo",
+    "chief justice appointment",
+    "FLP",
+    "Ryan Cayabyab",
+    "thanksgiving"
+  ],
+  "primary_topics": [
+    "CJ's Christmas Day thanksgiving: edited closing remarks from the 'Ageless Passion' 80th birthday musicale",
+    "Tribute to President Fidel V. Ramos who appointed CJ to the Supreme Court",
+    "Tribute to President Gloria Macapagal Arroyo who appointed CJ as Chief Justice without prior interview"
+  ],
+  "sub_topics": [
+    "'Ageless Passion' musicale: staged Dec. 20, 2016 by FLP; produced by Donna May Lina; directed by Bart Guingona; 18 original Ryan Cayabyab songs; lyrics by Jeff Agustin",
+    "Ramos: 'plucked me from anonymity,' sent book '2030 One World, One Community, One Family' with 'Dear Tiger Chief Justice Art' salutation",
+    "Ramos letter: 'life begins at 40'; at 80 one is 'born again'",
+    "CJ's own prayer adaptation at 80: 'grant me the senility to forget people I never liked... the eyesight to tell the difference'",
+    "Dr. Frank Laubach's essay 'Life begins at 80': at 80 you have a perfect excuse, everyone is surprised you're alive -- 'It's the best time of life'",
+    "Arroyo: named CJ without speaking with or interviewing him; vacancy Dec. 20, 2005; CJ informed day after by paper slip during speech; froze at rostrum, went to parish church, prayed on bended knees",
+    "Despite Panganiban Court defeats of Arroyo initiatives, she remained cordial, occasionally invited CJ to Malacañang",
+    "Arroyo present at Dec. 20 celebration -- friends and believers in democracy, rule of law, checks and balances"
+  ],
+  "signature_phrases": [
+    "plucked me from anonymity and conscripted me, though thoroughly unworthy, to the loftiest of the judiciary",
+    "Dear Tiger Chief Justice Art",
+    "harmless and toothless tiger",
+    "life begins at 80",
+    "I immediately froze on the rostrum unable to continue my speech",
+    "on bended knees, fervently thanked the Lord for His bountiful blessings",
+    "Despite the defeat of some of her initiatives in the Panganiban Court, President Arroyo has remained cordial",
+    "we remain friends and firm believers in the vitality of our democracy, the supremacy of the rule of law, and the wisdom of checks and balances"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "President Fidel V. Ramos (appointed CJ to SC)",
+      "President Gloria Macapagal Arroyo (appointed CJ as Chief Justice)",
+      "Ryan Cayabyab (18 original songs for musicale)",
+      "Jeff Agustin (lyrics)",
+      "Donna May Lina (producer)",
+      "Bart Guingona (director)",
+      "Dr. Frank Laubach ('Life begins at 80' essay)",
+      "Reinhold Niebuhr (Serenity Prayer at 40)",
+      "CJ's wife Leni"
+    ],
+    "institutions": [
+      "Foundation for Liberty and Prosperity (FLP, staged the musicale)",
+      "Supreme Court of the Philippines",
+      "Malacañang (post-retirement cordial meetings with Arroyo)"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "'Ageless Passion' musicale (Dec. 20, 2016)",
+      "CJ's 80th birthday (Dec. 20, 2016)",
+      "CJ's appointment to SC by Ramos",
+      "CJ's appointment as CJ by Arroyo (Dec. 20, 2005 vacancy; day-after announcement)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "President Ramos deserves profound gratitude for appointing CJ to the SC despite his being 'thoroughly unworthy' -- a selfless act of discernment that launched CJ's highest judicial career.",
+      "rhetorical_move": "selfless-discernment tribute to appointing president (humility marker throughout)",
+      "confidence": "asserted as personal thanksgiving"
+    },
+    {
+      "claim": "President Arroyo's manner of appointing CJ as Chief Justice -- without prior interview, surprising him completely -- was an act of quiet confidence that overwhelmed CJ with gratitude, sending him to bended-knee prayer.",
+      "rhetorical_move": "surprised-overwhelmed-thanksgiving for unexpected appointment",
+      "confidence": "asserted as personal testimony"
+    },
+    {
+      "claim": "Despite the Panganiban Court ruling against some Arroyo initiatives, their post-retirement friendship -- sustained through cordial Malacañang visits and her presence at the 80th birthday celebration -- demonstrates that judicial independence and personal respect are not mutually exclusive.",
+      "rhetorical_move": "judicial-independence-and-personal-friendship-as-compatible framing",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Ramos's 'Dear Tiger Chief Justice Art' salutation -- and CJ's self-deprecating response: 'Perhaps, what he really meant is that I am a harmless and toothless tiger' -- the most affectionate single exchange in any of CJ's tribute columns.",
+    "The scene of CJ being informed of his CJ appointment by a paper slip during a speech in a five-star hotel ballroom -- freezing at the rostrum, going to the car with Leni, and praying on bended knees at their parish church -- the most vivid and cinematic moment in CJ's personal columns.",
+    "Dr. Frank Laubach's 'Life begins at 80' essay: at 80 everyone helps carry your bags, you have a perfect excuse for everything, people are surprised you're still alive -- 'So, please, folks, try to make it to 80. It's the best time of life.'"
+  ],
+  "target_audience": [
+    "CJ's personal network and FLP supporters",
+    "Civic readers on Christmas Day seeking warmth and inspiration",
+    "Political observers tracking CJ's post-retirement relationships with former presidents",
+    "Admirers of Ramos and Arroyo who appreciate CJ's balanced tribute"
+  ],
+  "register_markers": [
+    "Christmas-day-thanksgiving register",
+    "edited-closing-remarks format (continuation from Dec. 20 musicale)",
+    "Tiger-CJ salutation-and-response banter (most playful exchange in CJ columns)",
+    "Laubach-essay-quotation for aging-with-grace register",
+    "church-on-bended-knees scene as the column's most cinematic moment",
+    "post-retirement-cordial-friendship register for Arroyo tribute",
+    "'harmless and toothless tiger' as self-deprecating humor"
+  ],
+  "decision_framework_signals": [
+    "uses gratitude-to-appointing-president framing to model respect for institutional hierarchy without compromising judicial independence",
+    "treats surprised-overwhelmed-appointment as evidence of providential rather than political appointment",
+    "applies judicial-independence-and-post-retirement-friendship-as-compatible principle to both tributes",
+    "frames Panganiban Court decisions against Arroyo as proof of independence, not ingratitude"
+  ],
+  "one_paragraph_summary": "Panganiban shares edited closing remarks from his December 20 'Ageless Passion' 80th birthday musicale (produced by Donna May Lina, directed by Bart Guingona, featuring 18 original Ryan Cayabyab songs with lyrics by Jeff Agustin) as his Christmas Day column, thanking two presidents. He thanks President Ramos, who 'plucked me from anonymity' and recently sent his book '2030 One World, One Community, One Family' with the salutation 'Dear Tiger Chief Justice Art' -- which CJ joyfully receives, adding self-deprecatingly that Ramos probably meant 'a harmless and toothless tiger.' He quotes Ramos's letter ('life begins at 40, so at 80 one is born again'), adapts Reinhold Niebuhr's Serenity Prayer for age 80 with comic effect, and shares Dr. Frank Laubach's essay 'Life Begins at 80' -- concluding: 'So, please, folks, try to make it to 80. It's the best time of life.' He thanks President Arroyo, who appointed him Chief Justice without prior interview -- the vacancy occurring December 20, 2005, and CJ learning of it the next day from a paper slip while delivering a speech in a five-star hotel ballroom. He froze at the rostrum, descended the stage, went to his car with Leni, drove to their parish church, and 'on bended knees, fervently thanked the Lord for His bountiful blessings.' Despite the Panganiban Court's defeat of some Arroyo initiatives, she remained cordial and occasionally invited CJ to Malacañang after retirement -- and her presence at the December 20 celebration affirmed that they remain 'friends and firm believers in the vitality of our democracy, the supremacy of the rule of law, and the wisdom of checks and balances.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

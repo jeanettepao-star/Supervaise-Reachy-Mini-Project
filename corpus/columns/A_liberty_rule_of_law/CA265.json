@@ -1,0 +1,139 @@
+{
+  "id": "CA265",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 265,
+  "title": "Why did SC acquit Imelda?",
+  "date": "2018-09-30",
+  "link": "https://opinion.inquirer.net/116422/sc-acquit-imelda",
+  "keywords": [
+    "Imelda Marcos acquittal",
+    "Swiss bank accounts",
+    "hearsay evidence",
+    "Frank Chavez",
+    "apathetic prosecution",
+    "Justice Leonen",
+    "foreign currency law",
+    "rules of evidence"
+  ],
+  "primary_topics": [
+    "Why Imelda Marcos was acquitted in the RTC Swiss-funds case affirmed by the SC via Chavez v. Marcos (June 27, 2018)",
+    "Prosecutorial failures: hearsay testimony, failure to depose Swiss officials, worthless 'existence-but-not-truth' stipulation",
+    "Justice Leonen's criticism of 'apathetic prosecution' and CJ's agreement with that assessment"
+  ],
+  "sub_topics": [
+    "Post-EDSA 1986 discovery of Marcos Swiss bank accounts via front establishments and foundations",
+    "Swiss magistrate Cosenday's freeze order at SolGen Ordoñez's request; Swiss Federal SC gave PH 1 year to file cases",
+    "SolGen Chavez filing criminal cases in RTC for violation of foreign currency account ban",
+    "Del Rosario and Chavez as prosecution witnesses; Del Rosario on Swiss bank papers signed by Marcos couple",
+    "Multiple Chavez postponements and absences on 14 intransferable settings in January-February 2007",
+    "Chavez's failure to identify vital documents at April 11 hearing -- prosecutor Yarte at Boracay convention",
+    "PCGG lawyer Galit appearing with DOJ letter -- contentious authority dispute with Yarte",
+    "'Existence-but-not-truth' stipulation by Imelda's lawyer -- a worthless concession",
+    "Judge Pampilo's March 10, 2008 acquittal: testimonies were hearsay, Swiss officials' signatures unauthenticated",
+    "CA affirmed; Chavez v. Marcos (June 27, 2018, J. Leonen) affirmed and lamented 'apathetic prosecution'",
+    "CJ's remedy: depositions of Swiss officials who were regularly visited"
+  ],
+  "signature_phrases": [
+    "Did she not brag to media that they own everything in the Philippines?",
+    "Who bungled her case? Who was the negligent prosecutor?",
+    "the 'existence-but-not-truth' stipulation was worthless",
+    "It was like agreeing to the existence of a witness but not to the truth of his/her testimony",
+    "One thing is knowing a fact, quite another to prove it in court using the stringent rules of evidence",
+    "The prosecution could have done better in this case. Sadly, it failed",
+    "apathetic prosecution"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Imelda R. Marcos (acquitted defendant)",
+      "Swiss magistrate Peter Cosenday (issued freeze order)",
+      "SolGen Sedfrey Ordoñez (requested Cosenday order)",
+      "SolGen Francisco 'Frank' Chavez (filed cases; absent at key hearings)",
+      "PCGG Commissioner Caesario del Rosario (prosecution witness)",
+      "Judge Silvino Pampilo Jr. (RTC judge who acquitted Imelda)",
+      "Prosecutor George Yarte Jr. (at Boracay convention on critical date)",
+      "PCGG Lawyer Napoleon Galit (appeared with DOJ letter from Sec. Gonzales)",
+      "Roberto Sison (Imelda's lawyer; made existence-not-truth stipulation)",
+      "Justice Marvic M.V.F. Leonen (ponente of Chavez v. Marcos)"
+    ],
+    "institutions": [
+      "Regional Trial Court (Judge Pampilo's sala)",
+      "Court of Appeals",
+      "Supreme Court of the Philippines",
+      "Presidential Commission on Good Government (PCGG)",
+      "Swiss Federal Supreme Court",
+      "Office of the Solicitor General"
+    ],
+    "cases": [
+      "Criminal cases vs Imelda in RTC for foreign currency account violation",
+      "Chavez v. Marcos (SC, June 27, 2018, J. Leonen) -- affirmed acquittal, lamented apathetic prosecution"
+    ],
+    "laws_treaties": [
+      "Foreign currency account ban (law violated per charges)",
+      "Rules of Court -- hearsay rule, authentication requirements",
+      "Swiss Federal SC order (Dec. 21, 1990) -- freeze, 1-year deadline for PH cases"
+    ],
+    "events": [
+      "1986 EDSA -- Swiss account documents found in Malacañang",
+      "Dec. 21, 1990 -- Swiss Federal SC sustained Cosenday order",
+      "14 intransferable hearing dates (Jan-Feb 2007) -- Chavez absent for most",
+      "April 11, 2007 -- Chavez present but Yarte at Boracay; documents not identified",
+      "March 10, 2008 -- RTC acquittal",
+      "June 27, 2018 -- SC affirmed in Chavez v. Marcos"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Imelda was acquitted not because she was innocent but because the prosecution committed critical evidentiary failures: testimonies constituted hearsay since witnesses had no personal knowledge of Swiss document contents and could not authenticate Swiss officials' signatures.",
+      "rhetorical_move": "evidentiary-failure explanation distinguishing factual guilt from legal proof",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The 'existence-but-not-truth' stipulation was worthless -- 'like agreeing to the existence of a witness but not to the truth of his/her testimony' -- guaranteeing the documents could not serve as substantive evidence.",
+      "rhetorical_move": "stipulation-critique as prosecutorial blunder identification",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The solution was obvious and accessible: take depositions of Swiss officials who issued or certified the documents -- since both Del Rosario and Chavez regularly traveled to Switzerland -- making the failure inexcusable.",
+      "rhetorical_move": "available-remedy-overlooked argument (deposition was obvious)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Justice Leonen's conclusion that the prosecution 'could have done better. Sadly, it failed' frames the acquittal as an institutional indictment of prosecution quality, not a vindication of Marcos wrongdoing.",
+      "rhetorical_move": "ponente-endorsement as authoritative moral frame",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The opening media-question cascade -- 'Did she not brag to media that they own everything in the Philippines? Who bungled her case?' -- framing public indignation before providing the legally grounded answer.",
+    "The 14 intransferable hearing dates in January-February 2007 individually listed -- and Chavez absent for nearly all -- physicalizing prosecutorial neglect through calendar specificity.",
+    "Prosecutor Yarte being at a prosecutors' convention in Boracay on the exact day Chavez attended (April 11) and needed to identify vital documents -- the single most absurd prosecutorial coordination failure in the entire chronology."
+  ],
+  "target_audience": [
+    "Readers outraged by the Imelda acquittal",
+    "Prosecutors and public lawyers dealing with documentary evidence",
+    "Constitutional law and evidence scholars",
+    "Civic readers tracking Marcos ill-gotten-wealth recovery efforts"
+  ],
+  "register_markers": [
+    "media-question-cascade opening (audience voice before CJ's answer)",
+    "detailed hearing-date chronology (14 intransferable dates listed)",
+    "stipulation-critique register ('worthless' concession)",
+    "deposition-as-obvious-remedy framing",
+    "Justice Leonen quotation as authoritative moral frame",
+    "perceived-vs-legal-facts distinction (knowing a fact vs proving it in court)",
+    "'apathetic prosecution' as the column's damning epithet"
+  ],
+  "decision_framework_signals": [
+    "applies perceived-vs-legal-facts distinction to explain public-vs-judicial outcome gap",
+    "uses hearsay rule and authentication requirements as primary analytical tools",
+    "identifies stipulation-trap as prosecutorial blunder (existence without truth is no concession)",
+    "frames deposition as the available-remedy-overlooked",
+    "treats evidentiary failure as institutional indictment, not judicial exoneration of wrongdoing"
+  ],
+  "one_paragraph_summary": "Panganiban answers friends' indignant questions about why Imelda Marcos was acquitted in the Swiss-funds case upheld by the Supreme Court in Chavez v. Marcos (June 27, 2018, J. Leonen). After the 1986 EDSA revolution, Swiss magistrate Cosenday froze Marcos Swiss accounts and the Swiss Federal SC gave the PH government one year to file cases. SolGen Chavez filed criminal cases in the RTC for violation of the foreign currency account ban, presenting PCGG Commissioner Del Rosario and Chavez himself as witnesses on Swiss bank papers. Chavez missed nearly all of 14 intransferable hearing dates; on April 11 he attended but could not identify vital documents because prosecutor Yarte was at a Boracay convention; a PCGG lawyer then appeared with a DOJ letter causing contentious authority disputes. Imelda's lawyer Sison stipulated on the 'existence' but not the 'truth' of the documents -- what CJ calls a 'worthless' concession 'like agreeing to the existence of a witness but not to the truth of his/her testimony.' Judge Pampilo acquitted Imelda on March 10, 2008: testimonies were hearsay since witnesses could not authenticate Swiss officials' signatures. The CA and SC affirmed; Justice Leonen lamented the 'apathetic prosecution.' CJ agrees: the duo should simply have taken depositions of the Swiss officials they regularly visited, since 'one thing is knowing a fact, quite another to prove it in court using the stringent rules of evidence.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

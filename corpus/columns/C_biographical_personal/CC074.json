@@ -1,0 +1,124 @@
+{
+  "id": "CC074",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 74,
+  "title": "Forums in San Carlos and San Beda",
+  "date": "2018-10-21",
+  "link": "https://opinion.inquirer.net/116890/forums-in-san-carlos-and-san-beda",
+  "keywords": [
+    "writ of prosperity",
+    "economic rights",
+    "Dean Joan Largo",
+    "PALS",
+    "San Carlos University",
+    "San Beda alumni",
+    "liberty and prosperity",
+    "judicial enforcement of economic rights"
+  ],
+  "primary_topics": [
+    "Dean Largo's lecture at University of San Carlos on enforcing economic rights via the judiciary",
+    "CJ's call on PALS to identify which economic rights can be judicially enforced sans legislation",
+    "San Beda Law Alumni testimonial dinner for recently promoted Bedans in public office"
+  ],
+  "sub_topics": [
+    "Contrast between formal constitutional pro-poor declarations and grinding poverty in practice",
+    "Congress's failure to pass enabling legislation for economic rights",
+    "Comparative judicial boldness in South Africa, Colombia, Argentina on enforcing economic rights",
+    "Writ of prosperity as feasible if the Philippine judiciary wants it",
+    "Rule of law as enabler of entrepreneurial ingenuity vs habitual mendicancy and suffocating regulations",
+    "Newly promoted Bedans: SC Justices Reyes and Hernando, Ombudsman Martires, Sandiganbayan Justices Manalac and Vivero",
+    "Ora et Labora as the San Beda motto invoked as governance standard",
+    "Sen. de Lima and former Sen. Saguisag as fellow Bedans and harshest critics"
+  ],
+  "signature_phrases": [
+    "the road to justice is paved by the access to justice of the powerless",
+    "Nowhere can we find a constitution so humane, and a court so powerful than in the Philippines",
+    "making a writ of prosperity truly feasible if the Philippine judiciary wants it",
+    "prod the elected branches to comply with the legal standards and mandates embodied in the Constitution",
+    "a government that affords opportunities for education instead of habitual mendicancy",
+    "fosters free competition instead of suffocating regulations",
+    "rewards talent and hard work instead of sycophancy and connection",
+    "Bedans reached their lofty offices with the expectation that they will outperform"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (FLP chair)",
+      "Dean Joan S. Largo (USC; PALS president)",
+      "SC Justice Jose C. Reyes Jr.",
+      "SC Justice Ramon Paul L. Hernando",
+      "Ombudsman Samuel R. Martires",
+      "SBN Justice Maryann C. Manalac",
+      "SBN Justice Kevin Narce B. Vivero",
+      "SEC Chair Emilio B. Aquino",
+      "BIR Deputy Commissioner Arnel S. Guballa",
+      "Sen. Leila de Lima (fellow Bedan, harsh critic)",
+      "Former Sen. Rene A. V. Saguisag (fellow Bedan, harsh critic)"
+    ],
+    "institutions": [
+      "University of San Carlos School of Law and Governance (Cebu)",
+      "Philippine Association of Law Schools (PALS)",
+      "San Beda Law Alumni Association",
+      "Foundation for Liberty and Prosperity",
+      "Supreme Court of the Philippines",
+      "Sandiganbayan",
+      "Office of the Ombudsman"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution -- Art. II, Art. XIII, Art. XIV, Art. XV (economic rights)"
+    ],
+    "events": [
+      "Dean Largo's lecture at USC Cebu on liberty and prosperity",
+      "San Beda Law Alumni Association testimonial dinner for newly promoted Bedans"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Economic rights have remained 'mere grandiose rhetoric' for over three decades due to Congress's failure to pass enabling legislation -- the solution is urging the SC to be as bold as the highest courts of South Africa, Colombia, and Argentina.",
+      "rhetorical_move": "comparative-judicial-boldness argument",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The writ of prosperity is 'truly feasible if the Philippine judiciary wants it' -- Philippines has the most humane constitution and most powerful court, making judicial enforcement a matter of institutional will.",
+      "rhetorical_move": "capability-not-will diagnosis",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "San Beda graduates who reached lofty offices must outperform graduates of the university that historically cornered those posts, proving their 'Ora et Labora' immersion through prudent and graft-free governance.",
+      "rhetorical_move": "institutional-expectation challenge to new Bedan appointees",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Dean Largo's contrast between formal constitutional pro-poor declarations and grinding poverty in practice, opening with insights from her US clinical education visit.",
+    "CJ's challenge to assembled Bedan officials -- 'amid their roars and cheers' -- reminding them that fellow Red Lions de Lima and Saguisag are 'ready to pounce on their lapses.'",
+    "The framing of the writ of prosperity as dependent entirely on judicial will: 'Nowhere can we find a constitution so humane, and a court so powerful than in the Philippines' -- making inaction an institutional choice."
+  ],
+  "target_audience": [
+    "Law school deans and PALS members",
+    "SC justices and lower court judges considering economic-rights enforcement",
+    "San Beda Law alumni and Bedan public officials",
+    "Civic readers interested in rule-of-law and poverty alleviation"
+  ],
+  "register_markers": [
+    "dual-event column structure (USC Cebu forum + San Beda dinner)",
+    "chair-of-foundation identification",
+    "comparative-jurisdiction naming (South Africa, Colombia, Argentina)",
+    "Ora et Labora as institutional motto invoked as governance standard",
+    "audience-reaction marker ('amid their roars and cheers')",
+    "website reference for full lectures (www.libpros.com)",
+    "adversarial-Bedan-colleague naming (de Lima, Saguisag) as accountability reminder"
+  ],
+  "decision_framework_signals": [
+    "uses comparative-judicial-boldness to argue institutional will over legal impossibility",
+    "applies PALS-as-vetting-body framework for economic rights identification",
+    "treats writ of prosperity as capability question (want it → can have it)",
+    "frames governance as rule-of-law discipline (education, free competition, merit rewards)",
+    "deploys institutional-expectation challenge as accountability mechanism for new appointees"
+  ],
+  "one_paragraph_summary": "Panganiban recounts two forums held on a single Wednesday. At the University of San Carlos School of Law and Governance in Cebu, he seconded Dean Joan Largo's lecture on enforcing economic rights via the judiciary. Largo -- one of the 13 holders of the 'Chief Justice Panganiban Professorial Chairs on Liberty and Prosperity' and newly installed PALS president -- contrasted the 1987 Constitution's repeated pro-poor declarations with the grinding poverty that still afflicts Filipinos more than three decades later, attributing the gap to Congress's failure to pass enabling legislation. She cited the higher courts of South Africa, Colombia, and Argentina as models of judicial boldness and argued that a writ of prosperity is 'truly feasible if the Philippine judiciary wants it.' CJ asked Largo and her PALS colleagues to identify which economic rights can be judicially enforced sans legislation, and urged use of the rule of law to foster education over mendicancy, free competition over suffocating regulations, and merit over sycophancy. At the San Beda Law Alumni Association testimonial dinner for newly promoted Bedans -- including SC Justices Reyes and Hernando, Ombudsman Martires, and Sandiganbayan Justices Manalac and Vivero -- CJ challenged them to outperform graduates of the university that previously cornered these posts, and reminded them amid roars and cheers that fellow Red Lions Sen. de Lima and former Sen. Saguisag are ready to pounce on their lapses.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

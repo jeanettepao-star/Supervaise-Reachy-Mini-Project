@@ -1,0 +1,147 @@
+{
+  "id": "GC018",
+  "format": "G",
+  "type": "biography",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 18,
+  "title": "Retirement Without Retreat",
+  "date": "December 2",
+  "link": "",
+  "keywords": [
+    "retirement December 2006",
+    "With Due Respect column",
+    "Philippine Daily Inquirer",
+    "civic conscience",
+    "ledger of restraint"
+  ],
+  "primary_topics": [
+    "December 2006 stepping-down -- the robe came off but the vocation did not",
+    "Retirement-as-repositioning-not-ending -- from-judgment-rendered-behind-closed-doors to-judgment-articulated-in-open-forum",
+    "February 2007 launch of 'With Due Respect' weekly column in Philippine Daily Inquirer",
+    "Tone-and-posture of the column -- firm-but-civil + critical-but-disciplined + grounded-in-law + attentive-to-human-consequence",
+    "Three-volume book series 'With Due Respect' / 'With Due Respect 2' / 'With Due Respect 3' as ledgers of civic conscience"
+  ],
+  "sub_topics": [
+    "December 2006 -- stepped down from Supreme Court",
+    "Triple-no-retreat -- no-disappearance + no-silence + no-comfort",
+    "Robe came off + vocation did not",
+    "Retirement-as-repositioning -- shift from-judgment-rendered-behind-closed-doors to-judgment-articulated-in-open-forum",
+    "More-than-a-decade-shaping-jurisprudence + now-shape-civic-conscience-through-words",
+    "February 2007 -- began writing weekly column 'With Due Respect' for Philippine Daily Inquirer",
+    "Title-not-accidental -- reflected both tone and posture",
+    "Firm-but-civil + critical-but-disciplined + grounded-in-law + attentive-to-human-consequence column register",
+    "Wrote-not-as-partisan-nor-as-scold-but-as-former-Chief-Justice authorial positioning",
+    "Each-Monday -- measured + precise + occasionally-stern + often-pastoral",
+    "Column topics -- governance + corruption + constitutional limits + judicial independence + moral leadership",
+    "Audience reception -- law-students-dissected-it + policymakers-bristled-at-it + judges-quietly-admired-its-restraint + ordinary-readers-trusted-it-because-it-did-not-shout",
+    "Columns gathered into books -- 'With Due Respect' + 'With Due Respect 2' + 'With Due Respect 3'",
+    "Each-volume-a-ledger-of-civic-conscience + each-page-insisting-that-democracy-survives-not-on-passion-alone-but-on-restraint",
+    "Even-in-retirement-Art-remained-accountable to-history-faith-and-discipline-of-thought"
+  ],
+  "signature_phrases": [
+    "there was no sense of disappearance",
+    "The robe came off, but the vocation did not",
+    "Retirement, for him, was not an ending but a repositioning",
+    "shape civic conscience through words",
+    "With Due Respect",
+    "The title was not accidental",
+    "firm but civil, critical but disciplined",
+    "trusted it because it did not shout",
+    "ledger of civic conscience",
+    "democracy survives not on passion alone, but on restraint"
+  ],
+  "entities": {
+    "people": [
+      "Artemio Villaseñor Panganiban Jr. (retired Chief Justice, now columnist)",
+      "Law students + policymakers + judges + ordinary readers (column audience cascade)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (stepped down December 2006)",
+      "Philippine Daily Inquirer (column publisher)"
+    ],
+    "works": [
+      "'With Due Respect' (weekly Inquirer column launched February 2007)",
+      "'With Due Respect' (book, volume 1)",
+      "'With Due Respect 2' (book, volume 2)",
+      "'With Due Respect 3' (book, volume 3)"
+    ],
+    "places": [],
+    "events": [
+      "December 2006 retirement from Supreme Court",
+      "February 2007 launch of 'With Due Respect' column"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "When Art stepped down from the Supreme Court in December 2006 there was no sense of disappearance -- he did not retreat into silence, he did not retreat into comfort, he did not retreat at all. The robe came off, but the vocation did not.",
+      "rhetorical_move": "December-2006 anchor + triple-no-retreat anaphora + robe-off-vocation-on titular pivot",
+      "confidence": "biographer-asserted as titular thesis"
+    },
+    {
+      "claim": "Retirement, for him, was not an ending but a repositioning -- a shift from judgment rendered behind closed doors to judgment articulated in the open forum of public discourse; he had spent more than a decade shaping jurisprudence through decisions, now he would shape civic conscience through words.",
+      "rhetorical_move": "not-ending-but-repositioning reframe + closed-doors-vs-open-forum binary + jurisprudence-through-decisions-vs-civic-conscience-through-words parallel",
+      "confidence": "biographer-asserted as repositioning-thesis"
+    },
+    {
+      "claim": "In February 2007 he began writing a weekly column for the Philippine Daily Inquirer titled 'With Due Respect' -- the title was not accidental; it reflected both tone and posture: firm but civil, critical but disciplined, grounded in law yet attentive to human consequence. He wrote not as a partisan, nor as a scold, but as a former Chief Justice who understood how easily institutions could be weakened -- and how slowly they were rebuilt.",
+      "rhetorical_move": "February-2007 column-launch + title-not-accidental + firm-but-civil/critical-but-disciplined/grounded-but-attentive triple-binary register-cascade + not-partisan-not-scold-but-former-CJ authorial-positioning + easily-weakened-slowly-rebuilt institutional-asymmetry framing",
+      "confidence": "biographer-asserted as column-philosophy thesis"
+    },
+    {
+      "claim": "Each Monday readers encountered a familiar voice -- measured, precise, occasionally stern, often pastoral; he wrote about governance, corruption, constitutional limits, judicial independence, moral leadership; he wrote as someone who had seen power from the inside and understood how thin its moral margins could be.",
+      "rhetorical_move": "Monday-rhythm + measured/precise/stern/pastoral register-quartet + topic-roster (governance/corruption/constitution/independence/leadership) + power-from-the-inside + thin-moral-margins",
+      "confidence": "biographer-asserted as column-style thesis"
+    },
+    {
+      "claim": "It did not take long for the column to find its audience -- law students dissected it, policymakers bristled at it, judges quietly admired its restraint, ordinary readers trusted it because it did not shout.",
+      "rhetorical_move": "audience-reception four-stakeholder cascade + trusted-it-because-it-did-not-shout closing-couplet",
+      "confidence": "biographer-asserted as reception-thesis"
+    },
+    {
+      "claim": "In time the columns were gathered into books -- 'With Due Respect', 'With Due Respect 2', 'With Due Respect 3' -- each volume a ledger of civic conscience, each page insisting that democracy survives not on passion alone, but on restraint. Even in retirement Art remained accountable -- to history, to faith, to the discipline of thought.",
+      "rhetorical_move": "three-volume series + ledger-of-civic-conscience metaphor + democracy-survives-not-on-passion-but-on-restraint maxim + remained-accountable-to-history-faith-discipline triplet closing",
+      "confidence": "biographer-asserted as legacy-format thesis"
+    }
+  ],
+  "notable_anecdotes": [
+    "December 2006 retirement framed as 'no sense of disappearance' -- triple-no-retreat opening",
+    "Robe came off, but the vocation did not -- titular pivot for retirement-as-repositioning",
+    "February 2007 launch of 'With Due Respect' weekly Inquirer column",
+    "Title-not-accidental -- reflected both tone (firm but civil) and posture (critical but disciplined)",
+    "Audience-reception cascade -- law-students-dissected + policymakers-bristled + judges-quietly-admired + ordinary-readers-trusted-because-it-did-not-shout",
+    "Three-volume book series -- 'With Due Respect' / 'With Due Respect 2' / 'With Due Respect 3'",
+    "Closing maxim -- 'democracy survives not on passion alone, but on restraint'"
+  ],
+  "target_audience": [
+    "Inquirer readers + 'With Due Respect' column followers",
+    "Law students + judges + policymakers (named-audience cascade)",
+    "Retired-jurist biography readers tracing post-bench legacies",
+    "Civic-conscience advocates + restraint-over-passion democratic-philosophy readers",
+    "FLP stakeholders + future biographers compiling Art's columnar archive"
+  ],
+  "register_markers": [
+    "Triple-no-retreat anaphora opening -- 'he did not retreat into silence, he did not retreat into comfort, he did not retreat at all'",
+    "Robe-off-vocation-on titular pivot",
+    "Closed-doors-vs-open-forum binary",
+    "Title-not-accidental device + paired register-cascade (firm-but-civil + critical-but-disciplined + grounded-but-attentive)",
+    "Monday-rhythm authorial-presence + four-adjective register-quartet (measured + precise + stern + pastoral)",
+    "Audience-reception four-stakeholder cascade closing couplet",
+    "Ledger-of-civic-conscience metaphor for collected columns",
+    "Maxim closing -- democracy-survives-not-on-passion-but-on-restraint",
+    "Triple-accountability closing -- history + faith + discipline of thought"
+  ],
+  "decision_framework_signals": [
+    "Retirement-as-repositioning-not-ending vocational-continuity principle",
+    "Closed-doors-vs-open-forum venue-shift for judgment delivery",
+    "Jurisprudence-through-decisions-vs-civic-conscience-through-words parallel-vocation framing",
+    "Title-not-accidental tone-and-posture intentionality test",
+    "Firm-but-civil + critical-but-disciplined + grounded-but-attentive register triplet",
+    "Not-partisan-not-scold-but-former-CJ authorial-positioning standard",
+    "Easily-weakened-slowly-rebuilt institutional-asymmetry awareness",
+    "Trusted-because-it-did-not-shout civic-discourse principle",
+    "Democracy-survives-not-on-passion-but-on-restraint democratic-philosophy maxim"
+  ],
+  "one_paragraph_summary": "Art's post-Supreme-Court chapter, opening with the titular insistence that retirement in December 2006 brought 'no sense of disappearance' -- 'he did not retreat into silence, he did not retreat into comfort, he did not retreat at all. The robe came off, but the vocation did not.' Retirement is reframed as 'not an ending but a repositioning -- a shift from judgment rendered behind closed doors to judgment articulated in the open forum of public discourse.' Having 'spent more than a decade shaping jurisprudence through decisions,' he would now 'shape civic conscience through words.' In February 2007 he launched a weekly column for the Philippine Daily Inquirer titled 'With Due Respect' -- a title not accidental, reflecting tone and posture: 'firm but civil, critical but disciplined, grounded in law yet attentive to human consequence.' He wrote 'not as a partisan, nor as a scold, but as a former Chief Justice who understood how easily institutions could be weakened -- and how slowly they were rebuilt.' Each Monday readers encountered a 'measured, precise, occasionally stern, often pastoral' voice on governance, corruption, constitutional limits, judicial independence, and moral leadership -- 'someone who had seen power from the inside and understood how thin its moral margins could be.' The column quickly found its audiences: 'law students dissected it, policymakers bristled at it, judges quietly admired its restraint, ordinary readers trusted it because it did not shout.' The columns were eventually gathered into a three-volume series ('With Due Respect' / 'With Due Respect 2' / 'With Due Respect 3') -- 'each volume a ledger of civic conscience, each page insisting that democracy survives not on passion alone, but on restraint.' Even in retirement, 'Art remained accountable -- to history, to faith, to the discipline of thought.'",
+  "source_xlsx": "cjp_biography_curated_normalized.xlsx"
+}

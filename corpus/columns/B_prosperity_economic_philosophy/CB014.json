@@ -1,0 +1,182 @@
+{
+  "id": "CB014",
+  "format": "C",
+  "type": "column",
+  "theme": "B",
+  "theme_label": "Prosperity and Economic Philosophy",
+  "number": 14,
+  "title": "Work for peace but brace for war",
+  "date": "2015-06-07",
+  "link": "https://opinion.inquirer.net/85564/work-for-peace-but-brace-for-war",
+  "keywords": [
+    "World War III",
+    "geopolitics",
+    "China",
+    "West Philippine Sea",
+    "flashpoints",
+    "Ukraine",
+    "Middle East",
+    "Asia Pacific"
+  ],
+  "primary_topics": [
+    "Pax Romana → League of Nations → Pax Americana historical-arc framing of war-and-peace cycles",
+    "Spoils of war traditional pattern (slavery, plunder, tribute) vs WWII victors' Marshall/MacArthur rebuild-the-vanquished lesson",
+    "UN Security Council five-veto-permanent structure as limit on collective sanction",
+    "Pax Americana spotty record: Korean Peninsula limit (protected SK but did not sanction NK/China), Vietnam defeat-then-ally arc, Iraq/Afghanistan war-weariness",
+    "American-war-weariness dismaying Saudi + Israel; US 2016 election as determinative",
+    "Three hotspots from B15 plus reader-suggested India-Pakistan fourth",
+    "Best-guarantees-of-peace analysis: nuclear-disarmament-failed; JFK 1962 Cuban-missile mutual-annihilation precedent",
+    "Rule of law as real guarantee of world peace; 'work for peace but brace for war' as series motto and closer"
+  ],
+  "sub_topics": [
+    "Strife-since-time-immemorial historical opening",
+    "Recurring cycle of human violence: enslave the vanquished, rape women, plunder land, loot treasury",
+    "Pax Romana reigned only while Rome was absolutely supreme",
+    "League of Nations formed after WWI as multiparty guarantor; failed because no power to sanction violators",
+    "Nazi rhetoric of Hitler condemning harsh WWI surrender terms as Germany's rise to power",
+    "Marshall Plan and MacArthur Plan rebuilding the vanquished; Germany/Japan as US allies and Europe/Asia (except China) economic leaders",
+    "UN given more teeth than League but sanctions require unanimous vote of 5 permanent SC members (US/Russia/UK/France/China); any veto defeats sanction",
+    "Pax Americana via US sole-guarantor role, sometimes alone, sometimes with token allies",
+    "Korean Peninsula: US-led UN forces protected SK territorial integrity but could not sanction NK invaders (assisted by China) who kept their half of 38th parallel",
+    "Vietnam defeat by defiant North; eventual reconciliation; united Vietnam as US ally in SCS dispute",
+    "War-on-terror spotty record in Iraq and Afghanistan; rising casualties and costs producing exhaustion and confusion",
+    "Saudi Arabia and Israel dismayed by potential US abandonment of world-policeman role",
+    "Three hotspots from B15: (1) South and East China Seas, (2) Ukraine, (3) Middle East; readers added India-Pakistan as fourth",
+    "Crucial question for soon-to-elect-new-president American people: continue bearing high human and economic costs?",
+    "Best way to prevent nuclear war: destroy all nuclear weapons (US-Russia tried; others did not follow)",
+    "Strategy reverted to aim for peace but brace for war",
+    "US asking China to stop SCS reclamation; China refuses claiming sovereign rights; Obama-or-successor risk-of-war question",
+    "Traditional war-avoidance modes: diplomacy, negotiations, good offices, conciliation, arbitration, boycott, embargo, blockade",
+    "Real deterrent to misbehaving nuclear power: mutual annihilation threat (JFK 1962 ICBM-Armageddon-readiness against Khrushchev's Cuba-bound nuclear-arms-carrying Soviet ships)",
+    "WWIII would mean veritable destruction of all combatants; even US cannot avoid nuclear fallout of own ICBMs plus enemy warheads",
+    "Humans conquered the earth by intelligence and reason, not brutal muscles of lions/bears or teeth of sharks",
+    "Rule of law as real guarantee of world peace via faithful observance",
+    "Meanwhile next-best alternative: work for peace but brace for war"
+  ],
+  "signature_phrases": [
+    "Since time immemorial",
+    "in my humble view (implied)",
+    "Pax Romana",
+    "Pax Americana",
+    "work for peace but brace for war",
+    "the world's policeman",
+    "Armageddon",
+    "veritable destruction",
+    "rule of law"
+  ],
+  "entities": {
+    "people": [
+      "Adolf Hitler (Nazi rhetoric, WWI surrender condemnation)",
+      "President John F. Kennedy (1962 Cuban missile deterrent precedent)",
+      "Nikita Khrushchev (1962 Soviet Cuba-bound nuclear-arms-carrying ships)",
+      "President Barack Obama (current US president; SCS-reclamation request to China)"
+    ],
+    "institutions": [
+      "League of Nations",
+      "United Nations Security Council (5 permanent members)",
+      "United States military and Navy",
+      "European Union (implied via 'old allies')",
+      "Saudi Arabia (dismayed ally)",
+      "Israel (dismayed ally)",
+      "Marshall Plan (post-WWII rebuilding)",
+      "MacArthur Plan (post-WWII Japan rebuilding)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Veto power of UN Security Council five permanent members (US/Russia/UK/France/China)"
+    ],
+    "events": [
+      "Pax Romana era",
+      "World War I",
+      "World War II",
+      "Korean War (38th parallel armistice)",
+      "Vietnam War",
+      "October 1962 Cuban Missile Crisis (JFK-Khrushchev deterrence)",
+      "Iraq War and Afghanistan War",
+      "Three current hotspots (SCS/East China Sea, Ukraine, Middle East)",
+      "Upcoming US presidential election"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Since time immemorial, humankind has been torn by strife -- beginning among families and tribes, then crossing nations as humans mastered the earth, with the recurring cycle being that victors enslaved the vanquished, raped their women, plundered their land, and looted their treasury",
+      "rhetorical_move": "since-time-immemorial historical opening",
+      "confidence": "high"
+    },
+    {
+      "claim": "Pax Romana reigned only while Rome remained absolutely supreme; the League of Nations failed because it had no power to sanction violators of its covenants -- exemplified by Hitler's rise riding Nazi rhetoric condemning the harsh WWI surrender terms",
+      "rhetorical_move": "League-failure-causal explanation",
+      "confidence": "high"
+    },
+    {
+      "claim": "After WWII the victors learned their lesson: instead of impoverishing the vanquished with heavy reparations, the US led the Marshall and MacArthur Plans to rebuild Germany and Japan -- both of whom now lead Europe and Asia (except China) in economic development and have become America's great allies",
+      "rhetorical_move": "rebuild-the-vanquished doctrine",
+      "confidence": "high"
+    },
+    {
+      "claim": "Pax Americana has had a spotty record: protected South Korea but could not sanction North Korea/China who kept their half of the 38th parallel; defeated in Vietnam (which paradoxically became a US ally); war-weary after Iraq and Afghanistan to the dismay of Saudi Arabia and Israel -- and the US 2016 election will determine whether Pax Americana continues",
+      "rhetorical_move": "Pax-Americana-spotty-record assessment with electoral pivot",
+      "confidence": "high"
+    },
+    {
+      "claim": "The best way of preventing a nuclear war is to destroy all nuclear weapons -- the US and Russia tried, but other nations did not follow suit and in fact acquired their own atomic arsenals; so the strategy has gone back to aiming for peace but bracing for war",
+      "rhetorical_move": "nuclear-disarmament-failure analysis",
+      "confidence": "high"
+    },
+    {
+      "claim": "The real deterrent to a misbehaving nuclear power is the threat of mutual annihilation, as shown by President Kennedy in 1962 when he made clear that the United States was prepared for Armageddon if Khrushchev did not recall the nuclear-arms-carrying Soviet ships steaming toward Cuba",
+      "rhetorical_move": "mutual-annihilation-deterrent precedent with JFK Cuba example",
+      "confidence": "high"
+    },
+    {
+      "claim": "The real guarantee of world peace is the rule of law -- humans conquered the earth not because of brutal muscles of lions and bears or teeth of sharks but because of their intelligence and reason; only by the same rationality through faithful observance of the rule of law can they assure survival and prosperity",
+      "rhetorical_move": "rule-of-law-as-real-guarantee thesis",
+      "confidence": "high"
+    },
+    {
+      "claim": "Until that ideal state is reached, the next best alternative is to work for peace but brace for war -- restating the column-title aphorism as series motto",
+      "rhetorical_move": "title-aphorism restatement as closer",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Pax Romana reigning only while Rome was absolutely supreme",
+    "League of Nations failure for lack of sanction power",
+    "Hitler's Nazi rhetoric riding on harsh WWI surrender terms",
+    "Marshall Plan + MacArthur Plan as enlightened post-WWII rebuilding",
+    "Korean Peninsula 38th-parallel limit as US-power limit example",
+    "Vietnam defeat-then-ally paradox",
+    "American war-weariness dismaying Saudi Arabia and Israel",
+    "JFK 1962 Cuban-missile mutual-annihilation deterrent",
+    "Reader-suggested India-Pakistan as fourth hotspot"
+  ],
+  "target_audience": [
+    "Inquirer readership and general public",
+    "Foreign-policy analysts and academics",
+    "International-law students",
+    "Civic-minded readers concerned with global stability",
+    "FLP donors and supporters",
+    "Diplomatic corps and DFA"
+  ],
+  "register_markers": [
+    "since-time-immemorial historical opening",
+    "Pax-Romana → League → Pax-Americana three-era arc",
+    "rebuild-the-vanquished doctrine",
+    "Pax-Americana-spotty-record assessment with electoral pivot",
+    "nuclear-disarmament-failure analysis",
+    "mutual-annihilation-deterrent JFK precedent",
+    "rule-of-law-as-real-guarantee thesis",
+    "title-aphorism restatement as closer",
+    "section labels (Spoils of war, Pax Americana, Best guarantees of peace)"
+  ],
+  "decision_framework_signals": [
+    "Sanction-power-required-for-collective-security League/UN distinction",
+    "Rebuild-the-vanquished post-WWII doctrine",
+    "Mutual-annihilation deterrent as nuclear-age peace mechanism",
+    "Rule-of-law-as-ideal-guarantee + work-for-peace-brace-for-war pragmatic-fallback",
+    "Veto-vs-collective-sanction tradeoff",
+    "Electoral-determinacy of foreign-policy continuity (US 2016)"
+  ],
+  "one_paragraph_summary": "Panganiban writes the companion column to B15 -- last Sunday's three-hotspots survey -- by zooming out to historical arcs and strategic options. Since time immemorial, humankind has been torn by strife and war: beginning among families and tribes, then crossing nations as humans mastered the earth and its resources, with victors enslaving the vanquished, raping their women, plundering their land, and looting their treasury. Weak nations paid tribute to the strong. Pax Romana reigned only while Rome remained absolutely supreme. The recurring cycle continued until the end of World War I when the victors formed the League of Nations as multiparty guarantor of world peace -- which utterly failed within two decades because it had no power to sanction violators, allowing Hitler to rise riding the Nazi rhetoric of condemning the harsh WWI surrender terms that impoverished Germans. After WWII the allied powers learned their lesson: instead of totally impoverishing the vanquished with heavy reparations, the US-led victors assisted them to recover through the Marshall Plan and MacArthur Plan (to rebuild Japan); Germany and Japan now lead Europe and Asia (except China) in economic development and have become America's great allies. The UN was equipped with more teeth, except that sanctions only work if the five victors (US, Russia, UK, France, China) who constitute the permanent SC members are unanimous -- any veto defeats a UN sanction. Consequently, the United States, sometimes by its lonesome or with token aid from its allies, became the sole guarantor of peace: Pax Americana reigned because American arms and men intervened in regional aggressions, as in Korea and Vietnam. But it was not absolutely successful: US-led UN forces protected South Korea's territorial integrity but were not able to sanction the North Korean invaders (assisted by China) who retained their half of the 38th parallel; America was defeated by a defiant North Vietnam (though united Vietnam paradoxically became a US ally in the SCS dispute); the war-on-terror record in Iraq and Afghanistan has been spotty; rising casualties and costs have made America war-weary, to the utter dismay of old allies like Saudi Arabia and Israel. In the face of current threats in the three hotspots (SCS/East China Sea, Ukraine, Middle East) and a fourth suggested by readers (India-Pakistan), the US resolve to maintain Pax Americana is being put to severe test. The crucial question faces the American people who will soon elect a new president: will they continue bearing the high human and economic costs of being the world's policeman? Will they prevent World War III? Will they escape its devastation if it happens? The best way of preventing a nuclear war is to destroy all nuclear weapons -- the US and Russia tried, but other nations did not follow suit and in fact acquired their own atomic arsenals; so the strategy has gone back to aiming for peace but bracing for war. Traditional war-avoidance modes include diplomacy, negotiations, good offices, conciliation, arbitration, boycott, embargo, and blockade. Ironically, however, the real deterrent to a misbehaving nuclear power is the threat of mutual annihilation, as shown by President Kennedy in 1962 when he made clear the US was prepared for Armageddon if Khrushchev did not recall the nuclear-arms-carrying Soviet ships steaming toward Cuba. World War III would mean veritable destruction of all combatants; while America escaped direct devastation in WWI and WWII, it cannot avoid the nuclear fallout of its own ICBMs, not to count the warheads flung by its enemies. Ideally, CJP believes the real guarantee of world peace is the rule of law -- humans conquered the earth not because of brutal muscles of lions and bears or teeth of sharks, but because of their intelligence and reason; only by the same rationality through faithful observance of the rule of law can they assure their survival and prosperity. Until that ideal state is reached, the next best alternative is to work for peace but brace for war.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

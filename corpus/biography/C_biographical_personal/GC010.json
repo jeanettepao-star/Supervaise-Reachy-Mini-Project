@@ -1,0 +1,157 @@
+{
+  "id": "GC010",
+  "format": "G",
+  "type": "biography",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 10,
+  "title": "The Reckoning of a Year -- and the Quiet Accumulation of Trust",
+  "date": "1991-06-01",
+  "link": "",
+  "keywords": [
+    "94-page Final Report",
+    "185 of 178 projects",
+    "Rotary valedictory June 1991",
+    "unworthy servant",
+    "trusted steward"
+  ],
+  "primary_topics": [
+    "June 1991 Rotary valedictory -- Art spoke of accounting not legacy",
+    "94-page Final Report -- unprecedented in Rotary Club of Manila history",
+    "Overdelivery -- 185 implemented of 178 projects pledged + nearly all of ₱90M budget responsibly deployed",
+    "Humility-posture -- described himself as unworthy-servant + sustained-by-grace-not-talent-alone",
+    "Quiet accumulation of trust -- passed-a-test-few-recognized-of-governance-not-popularity"
+  ],
+  "sub_topics": [
+    "June 1991 valedictory not-legacy-but-accounting framing",
+    "Refused-to-let-Rotary-presidency-dissolve-into-memory-without-measurement institutional-discipline",
+    "94-page Final Report -- unprecedented in Rotary Club of Manila history",
+    "Exhaustive + almost-severe-in-precision document character",
+    "Numbers tallied + projects itemized + outcomes measured against promises",
+    "185 implemented of 178 pledged at start of term -- overdelivery",
+    "Nearly all of ₱90M budget responsibly deployed",
+    "Committees multiplied + attendance deepened + service expanded beyond rhetoric into reach",
+    "Credibility as what-mattered-most reframe (not arithmetic)",
+    "First time in years -- Manila Rotary spoken of as not-merely-influential-but-effective + not-merely-prestigious-but-purposeful",
+    "Club rediscovered moral center without sacrificing civic breadth",
+    "Art did not claim credit -- offered confession instead",
+    "Closing address described himself as unworthy servant sustained by grace not talent alone",
+    "Humility-did-not-diminish-his-authority-it-clarified-it reframe",
+    "Shift -- men-who-regarded-him-as-capable-lawyer now-saw-him-as-trusted-steward",
+    "Business-leaders-observed + clergy-took-note + public-officials-recognized cascade",
+    "Decisiveness-without-arrogance + conviction-without-cruelty rare-combination",
+    "Passed-a-test-few-recognized-at-time -- not-of-popularity-but-of-governance"
+  ],
+  "signature_phrases": [
+    "Art did not speak of legacy. He spoke of accounting",
+    "True to his nature",
+    "unprecedented in the history of the Rotary Club of Manila",
+    "almost severe in its precision",
+    "It was credibility",
+    "Not merely influential, but effective. Not merely prestigious, but purposeful",
+    "Art did not claim credit. Instead, he offered confession",
+    "an unworthy servant, sustained not by talent alone but by grace",
+    "His humility did not diminish his authority -- it clarified it",
+    "Something had shifted",
+    "a trusted steward",
+    "decisiveness without arrogance, conviction without cruelty",
+    "Not of popularity, but of governance"
+  ],
+  "entities": {
+    "people": [
+      "Artemio Villaseñor Panganiban Jr. (subject)",
+      "Manila Rotarians + business leaders + clergy + public officials (observing audience)"
+    ],
+    "institutions": [
+      "Rotary Club of Manila (Art's outgoing presidency)",
+      "Manila business community (observing)",
+      "Catholic clergy (observing)",
+      "Public officials (observing -- pragmatic and watchful)"
+    ],
+    "places": [
+      "Manila (Rotary venue)"
+    ],
+    "events": [
+      "June 1991 -- Rotary Club of Manila valedictory meeting",
+      "94-page Final Report distribution at valedictory",
+      "Closing address with unworthy-servant confession"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "When June 1991 arrived, Art did not speak of legacy -- he spoke of accounting; true to his nature, he refused to let the Rotary presidency dissolve into memory without measurement.",
+      "rhetorical_move": "not-legacy-but-accounting opening reframe + true-to-his-nature character framing + dissolve-into-memory-without-measurement institutional-discipline anchor",
+      "confidence": "biographer-asserted as character-of-accountability thesis"
+    },
+    {
+      "claim": "At his valedictory meeting he distributed a 94-page Final Report -- a document unprecedented in the history of the Rotary Club of Manila; it was exhaustive, almost severe in its precision; numbers were tallied, projects itemized, outcomes measured against promises; of the 178 projects pledged at the start of his term, 185 had been implemented; of the ₱90 million budget once deemed unrealistic, nearly all had been responsibly deployed; committees had multiplied, attendance had deepened, service had expanded beyond rhetoric into reach.",
+      "rhetorical_move": "94-page-Final-Report unprecedented-credential + exhaustive-and-almost-severe-in-precision document-character + 185-of-178 overdelivery-specifically + budget-responsibly-deployed + four-fold institutional-improvement cascade (committees + attendance + service + reach)",
+      "confidence": "biographer-asserted with document-credential anchoring"
+    },
+    {
+      "claim": "But what mattered most was not arithmetic -- it was credibility; for the first time in years, Manila Rotary was being spoken of not merely as influential, but as effective; not merely prestigious, but purposeful; the Club had rediscovered its moral center without sacrificing its civic breadth.",
+      "rhetorical_move": "not-arithmetic-but-credibility reframe + not-merely-X-but-Y twin-rephrasing (influential→effective + prestigious→purposeful) + rediscovered-moral-center-without-sacrificing-civic-breadth balance closing",
+      "confidence": "biographer-asserted as institutional-reputation thesis"
+    },
+    {
+      "claim": "Art did not claim credit -- instead, he offered confession; in his closing address he described himself not as a successful leader but as an unworthy servant, sustained not by talent alone but by grace; it was an unsettling posture for an audience accustomed to triumphal retrospectives, yet it resonated; his humility did not diminish his authority -- it clarified it.",
+      "rhetorical_move": "did-not-claim-credit-offered-confession reframe + unworthy-servant-sustained-by-grace-not-talent self-characterization + unsettling-posture-yet-resonated + humility-did-not-diminish-authority-but-clarified-it titular maxim",
+      "confidence": "biographer-asserted as humility-thesis"
+    },
+    {
+      "claim": "Something had shifted -- men who had once regarded him as a capable lawyer now saw him as a trusted steward; business leaders observed how he balanced vision with discipline; clergy took note of a layman who understood that faith, to be credible, must translate into service; public officials, watchful and pragmatic, recognized in him a rare combination: decisiveness without arrogance, conviction without cruelty.",
+      "rhetorical_move": "something-had-shifted reputation-pivot + capable-lawyer-to-trusted-steward reframe + four-observer roster (business-leaders + clergy + public-officials + men-who-regarded-him) + decisiveness-without-arrogance + conviction-without-cruelty rare-combination characterization",
+      "confidence": "biographer-asserted as reputation-pivot thesis"
+    },
+    {
+      "claim": "He had passed a test few recognized at the time -- not of popularity, but of governance.",
+      "rhetorical_move": "passed-a-test-few-recognized + not-of-popularity-but-of-governance closing chapter-maxim",
+      "confidence": "biographer-asserted as closing chapter-maxim"
+    }
+  ],
+  "notable_anecdotes": [
+    "June 1991 valedictory -- Art spoke of accounting not legacy",
+    "94-page Final Report -- unprecedented in Rotary Club of Manila history + exhaustive + almost-severe-in-precision",
+    "185 of 178 projects implemented -- overdelivery anchor statistic",
+    "₱90M budget nearly entirely responsibly deployed",
+    "Four-fold institutional-improvement cascade -- committees + attendance + service + reach",
+    "'Unworthy servant, sustained not by talent alone but by grace' self-characterization at closing address",
+    "Humility-did-not-diminish-authority-it-clarified-it titular reframe",
+    "Capable-lawyer-to-trusted-steward reputation pivot",
+    "Decisiveness-without-arrogance + conviction-without-cruelty rare-combination characterization",
+    "Passed-a-test-few-recognized -- not-of-popularity-but-of-governance closing maxim"
+  ],
+  "target_audience": [
+    "Rotary Club members tracking outgoing-president-accounting practice",
+    "Civic-organization leaders learning institutional-discipline through measurement",
+    "Catholic lay leaders integrating humility-and-authority",
+    "Business + clergy + public-officials cohort identified as observing audience",
+    "Future jurists studying governance-vs-popularity calibration",
+    "FLP donors interested in measurable-civic-leadership outcomes"
+  ],
+  "register_markers": [
+    "Not-legacy-but-accounting opening reframe",
+    "Almost-severe-in-precision document-character framing",
+    "Overdelivery numeric anchor -- 185 of 178",
+    "Not-arithmetic-but-credibility pivot device",
+    "Twin not-merely-X-but-Y rephrasing -- influential→effective + prestigious→purposeful",
+    "Unworthy-servant biblical-confession register",
+    "Humility-did-not-diminish-authority-it-clarified-it titular reframe",
+    "Something-had-shifted reputation-pivot device",
+    "Decisiveness-without-arrogance + conviction-without-cruelty rare-combination doublet",
+    "Passed-a-test-few-recognized closing chapter-maxim"
+  ],
+  "decision_framework_signals": [
+    "Accounting-over-legacy outgoing-leader posture",
+    "Refuse-to-dissolve-into-memory-without-measurement institutional-discipline standard",
+    "Severe-precision documentation requirement at term's end",
+    "Overdelivery (185/178) as benchmark of credible leadership",
+    "Credibility-over-arithmetic reputational standard",
+    "Did-not-claim-credit-offered-confession humility-posture at closing",
+    "Humility-clarifies-not-diminishes-authority leadership-philosophy",
+    "Decisiveness-without-arrogance + conviction-without-cruelty leadership-character standard",
+    "Passed-a-test-of-governance-not-of-popularity success-criterion"
+  ],
+  "one_paragraph_summary": "Art's outgoing-Rotary-presidency chapter at the June 1991 valedictory, where he 'spoke not of legacy but of accounting,' distributing a 94-page Final Report 'unprecedented in the history of the Rotary Club of Manila' -- 'exhaustive, almost severe in its precision.' The numbers anchored the year: 185 implemented of 178 projects pledged, nearly all of the once-deemed-unrealistic ₱90M budget responsibly deployed, committees multiplied, attendance deepened, service 'expanded beyond rhetoric into reach.' But 'what mattered most was not arithmetic -- it was credibility'; 'for the first time in years, Manila Rotary was being spoken of not merely as influential, but as effective; not merely prestigious, but purposeful.' At the closing address he did not claim credit -- he offered confession, describing himself 'not as a successful leader, but as an unworthy servant, sustained not by talent alone but by grace.' The posture unsettled an audience accustomed to triumphal retrospectives, yet 'his humility did not diminish his authority -- it clarified it.' Something had shifted: 'men who had once regarded him as a capable lawyer now saw him as a trusted steward'; business leaders, clergy, and public officials began to recognize 'a rare combination: decisiveness without arrogance, conviction without cruelty.' Closing maxim: 'He had passed a test few recognized at the time -- not of popularity, but of governance.'",
+  "source_xlsx": "cjp_biography_curated_normalized.xlsx"
+}

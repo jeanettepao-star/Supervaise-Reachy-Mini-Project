@@ -1,55 +1,116 @@
 {
   "id": "CC001",
+  "format": "C",
   "type": "column",
   "theme": "C",
   "theme_label": "Biographical and Personal",
   "number": 1,
   "title": "Joy in writing for the Inquirer",
   "date": "2017-02-12",
-  "year": 2017,
-  "source_url": "https://opinion.inquirer.net/101589/joy-writing-inquirer",
-  "routing": {
-    "primary_intent": [
-      "biography"
-    ],
-    "secondary_intent": [],
-    "audience_match": [],
-    "complexity": "medium",
-    "emotional_register": []
-  },
-  "topic_paths": {
-    "primary": [
-      "foundation_for_liberty_and_prosperity"
-    ],
-    "secondary": [
-      "with_due_respect_persona",
-      "mentors_and_legal_lineage",
-      "friendships_and_civic_circles"
-    ]
-  },
+  "link": "https://opinion.inquirer.net/101589/joy-writing-inquirer",
   "keywords": [
-    "[Pre-existing demo file C01 - skipped this batch] 10th anniversary column",
-    "first column Feb 11 2007",
-    "Dr. Jovito Salonga discouraging advice",
-    "Inquirer chair Marixi R. Prieto invitation",
-    "iPhone 6-plus and digital pivot",
-    "'With Due Respect 2' book launch",
-    "CJ Sereno preface, Judge Pangalangan foreword"
+    "10th anniversary column",
+    "Inquirer column",
+    "Marixi Prieto",
+    "opinion writing",
+    "With Due Respect 2",
+    "Dr. Jovito Salonga",
+    "FEU Advocate",
+    "liberty and prosperity"
   ],
-  "primary_topics": [],
-  "sub_topics": [],
-  "signature_phrases": [],
+  "primary_topics": [
+    "CJ's 10th anniversary of Inquirer column writing (Feb. 11, 2007 -- Feb. 11, 2017)",
+    "The reasons CJ enjoys writing: editorial freedom, staying updated, contributing to public discourse",
+    "Publication of 'With Due Respect 2' compiling 2011-2016 columns"
+  ],
+  "sub_topics": [
+    "Original hesitation: Dr. Jovito Salonga's advice ('chief justices make history, they do not write it'); no column-writing background; desire to rest after 1,200+ SC decisions",
+    "Marixi Prieto's persistent offer -- compromise: weekly instead of three times per week",
+    "Background: FEU Advocate staffer and FEU Law Review managing editor (student days, six decades ago)",
+    "100% Sunday output for 10 consecutive years -- never missed despite illness, carpal tunnel, travel, business commitments",
+    "Complete editorial freedom: no interference from owners/editors",
+    "Benefits: staying updated on news and judiciary; computer skills; contributing to policy and polity at advanced age with no personal ambition",
+    "Technology pivot: analog to digital, Nokia to iPhone 6-plus -- Google, iMessage, Telegram, Signal, Viber, AI appreciation",
+    "'With Due Respect 2' (2011-2016 columns): foreword by Dr. Raul C. Pangalangan (ICC judge, The Hague); preface by CJ Sereno",
+    "First volume 'With Due Respect' (2007-2011): published 2011 for CJ's 75th birthday"
+  ],
+  "signature_phrases": [
+    "One of the ringing joys of my life is my journey from hawking newspapers in the backstreets of Sampaloc, Manila, to becoming president of the most widely read newspaper in the country",
+    "chief justices make history, they do not write it",
+    "I have faithfully written every Sunday, 100 percent, without fail for 10 consecutive years",
+    "In all humility, I must say that I enjoyed (and still enjoy) writing for the Inquirer",
+    "I have no more ambition for myself or my family",
+    "By writing my opinion, I am able to contribute my humble thoughts to the molding of unfettered policy and polity",
+    "I had to pivot from analog to digital technology"
+  ],
   "entities": {
-    "people": [],
-    "institutions": [],
+    "people": [
+      "Artemio V. Panganiban",
+      "Marixi R. Prieto (former Inquirer chair, persistent offer)",
+      "Dr. Jovito R. Salonga (guru, now deceased, advised against column)",
+      "Dr. Raul C. Pangalangan (former Inquirer publisher, ICC judge, foreword writer)",
+      "CJ Maria Lourdes P. A. Sereno (preface writer for 'With Due Respect 2')"
+    ],
+    "institutions": [
+      "Philippine Daily Inquirer",
+      "FEU Advocate",
+      "FEU Law Review",
+      "Supreme Court of the Philippines",
+      "International Criminal Court (The Hague)"
+    ],
     "cases": [],
     "laws_treaties": [],
-    "events": []
+    "events": [
+      "Feb. 11, 2007 -- first Inquirer column",
+      "Feb. 11, 2017 -- 10th anniversary",
+      "Publication of 'With Due Respect 2' (recent, not yet formally launched)",
+      "'With Due Respect' Vol. 1 (2011, CJ's 75th birthday)"
+    ]
   },
-  "stances": [],
-  "notable_anecdotes": [],
-  "decision_framework_signals": [],
-  "target_audience": [],
-  "register_markers": [],
-  "one_paragraph_summary": ""
+  "stances": [
+    {
+      "claim": "The Inquirer column has given CJ the freedom to contribute to public discourse at an age when he has no personal ambition left -- an opportunity to mold 'unfettered policy and polity' through humble written thoughts.",
+      "rhetorical_move": "no-ambition-service framing for continued public engagement",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Writing a regular column requires continuous self-updating and technological adaptation -- from Googling to smartphones to AI -- making the column a vehicle for CJ's own personal and intellectual growth at advanced age.",
+      "rhetorical_move": "column-as-personal-growth framing",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Despite Dr. Salonga's caution ('chief justices make history, they do not write it'), CJ's 10-year 100% track record proves that a retired chief justice can write weekly opinion columns without diminishing the dignity of the office.",
+      "rhetorical_move": "track-record-as-rebuttal of mentor's caution",
+      "confidence": "asserted (implicitly)"
+    }
+  ],
+  "notable_anecdotes": [
+    "Dr. Jovito Salonga's cautionary advice -- 'chief justices make history, they do not write it. I do not know of any retired chief justice who had penned a column' -- used as the opening resistance before CJ's decade of weekly columns refuted it.",
+    "Marixi Prieto's three-times-a-week proposal rejected, compromised at weekly -- the negotiation that shaped the entire 10-year column project.",
+    "Dr. Raul Pangalangan writing the foreword for 'With Due Respect 2' from his post as ICC judge in The Hague -- a credential that elevates the column collection's international standing."
+  ],
+  "target_audience": [
+    "Inquirer readers who have followed CJ's columns for a decade",
+    "Aspiring opinion writers and retired professionals considering public writing",
+    "Legal academics and students who have used CJ's columns as teaching material",
+    "Media observers tracking opinion journalism in the Philippines"
+  ],
+  "register_markers": [
+    "anniversary-thanksgiving register",
+    "inaugural-column quotation as opening anchor",
+    "mentor-caution-then-rebuttal structure",
+    "100%-attendance-record disclosure",
+    "technology-pivot narrative (Nokia → iPhone 6-plus → AI)",
+    "'In all humility' and 'humble thoughts' as recurring modesty markers",
+    "book-publication announcement register",
+    "no-more-ambition declaration as civic-service framing"
+  ],
+  "decision_framework_signals": [
+    "applies track-record evidence to rebut institutional skepticism about retired-CJ column writing",
+    "treats editorial freedom as the primary condition for authentic opinion journalism",
+    "frames technology adaptation as a duty for anyone contributing to contemporary public discourse",
+    "uses no-personal-ambition declaration to establish civic-service legitimacy of continued writing"
+  ],
+  "one_paragraph_summary": "Panganiban celebrates his 10th anniversary of writing for the Inquirer (first column: February 11, 2007), recounting that he accepted Marixi Prieto's offer with hesitation for three reasons: his guru Dr. Jovito Salonga advised against it ('chief justices make history, they do not write it'), he had no background in opinion writing beyond student journalism at the FEU Advocate and FEU Law Review, and he wanted to rest after authoring over 1,200 SC decisions. As a compromise with Prieto's three-times-a-week request, he agreed to weekly -- and has maintained a perfect 100% Sunday output for 10 consecutive years without fail. He cites two sources of joy: complete editorial freedom (equivalent to his freedom in the SC) and the obligation to stay updated, adapt to digital technology (Nokia to iPhone 6-plus, Googling to AI appreciation), and contribute to policy and polity at advanced age with no personal ambition. He announces the recent publication of 'With Due Respect 2' (2011-2016 columns), with a foreword by Dr. Raul Pangalangan (former Inquirer publisher, now ICC judge in The Hague) and a preface by CJ Sereno -- a sequel to 'With Due Respect' (2007-2011 columns, published in 2011 for CJ's 75th birthday).",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
 }

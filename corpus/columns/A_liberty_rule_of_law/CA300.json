@@ -1,0 +1,137 @@
+{
+  "id": "CA300",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 300,
+  "title": "11 more SC seats to fill",
+  "date": "2017-09-10",
+  "link": "https://opinion.inquirer.net/107008/11-sc-seats-fill",
+  "keywords": [
+    "Supreme Court appointments",
+    "Duterte judiciary",
+    "JBC",
+    "compulsory retirement age 70",
+    "midnight appointments",
+    "De Castro vs JBC",
+    "SC profile",
+    "court composition"
+  ],
+  "primary_topics": [
+    "Duterte's power to appoint 11 of 15 Supreme Court seats by 2022",
+    "Chronological mapping of all SC retirement dates 2017-2022",
+    "Constitutional rules on midnight appointments and the De Castro vs JBC exception"
+  ],
+  "sub_topics": [
+    "Four Duterte appointees already seated (Martires, Tijam, Reyes, Gesmundo)",
+    "Three of four first appointees retiring within Duterte's term, triggering replacement slots",
+    "Retirement schedule: 2 in 2018, 6 in 2019, 1 in 2020, 2 in 2022",
+    "Art. VII Sec. 15 midnight appointments ban and SC's 9-3 ruling in De Castro vs JBC (March 17, 2010)",
+    "GMA's appointment of Corona as CJ despite Art. VII Sec. 15",
+    "SC justices by career origin: CA, Sandiganbayan, private practice",
+    "SC justices by law school: UP (6), Ateneo (5), San Beda (2), UST (1), UE (1)",
+    "Three SC divisions reorganized after recent appointments",
+    "Division decisions as decisions of entire Court; reversal only en banc"
+  ],
+  "signature_phrases": [
+    "11 SC seats to fill",
+    "compulsory retirement age of 70",
+    "midnight appointments",
+    "The question of who will appoint the successors ... can be contentious",
+    "career jurists are happy",
+    "no doctrine or principle of law laid down by the court in a decision rendered en banc or in division may be modified or reversed except by the court sitting en banc"
+  ],
+  "entities": {
+    "people": [
+      "President Rodrigo Duterte",
+      "Justice Samuel R. Martires (retires Jan. 2, 2019)",
+      "Justice Noel G. Tijam (retires Jan. 6, 2019)",
+      "Justice Andres B. Reyes Jr. (retires May 11, 2020)",
+      "Justice Alexander G. Gesmundo (retires Nov. 6, 2026)",
+      "CJ Maria Lourdes P.A. Sereno (retires July 2, 2030)",
+      "Justice Marvic M.B.F. Leonen (retires Dec. 29, 2032)",
+      "Justice Alfredo Benjamin S. Caguioa (retires Sept. 30, 2029)",
+      "Justice Presbitero J. Velasco Jr. (retires Aug. 8, 2018)",
+      "Justice Teresita J. Leonardo-De Castro (retires Oct. 8, 2018)",
+      "Justice Mariano C. Del Castillo (retires July 29, 2019)",
+      "Justice Francis H. Jardeleza (retires Sept. 26, 2019)",
+      "Justice Lucas P. Bersamin (retires Oct. 18, 2019)",
+      "Justice Antonio T. Carpio (retires Oct. 26, 2019)",
+      "Justice Diosdado M. Peralta (retires March 27, 2022)",
+      "Justice Estela M. Perlas-Bernabe (retires May 14, 2022)",
+      "President Gloria Macapagal-Arroyo",
+      "CJ Renato C. Corona (appointed by GMA)",
+      "CJ Reynato S. Puno (retired May 17, 2010)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Judicial and Bar Council (JBC)",
+      "Court of Appeals",
+      "Sandiganbayan",
+      "University of the Philippines (UP) -- 6 justices",
+      "Ateneo de Manila University -- 5 justices",
+      "San Beda College -- 2 justices",
+      "University of Santo Tomas (UST) -- 1 justice",
+      "University of the East (UE) -- 1 justice"
+    ],
+    "cases": [
+      "De Castro vs JBC (March 17, 2010) -- 9-3, midnight appointments ban does not apply to SC vacancies"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution Art. VII Sec. 15 -- midnight appointments ban",
+      "1987 Philippine Constitution -- 90-day window to fill SC vacancies"
+    ],
+    "events": [
+      "Duterte's four SC appointments (Martires, Tijam, Reyes, Gesmundo)",
+      "GMA's appointment of Corona as CJ (2010)",
+      "Reorganization of SC's three divisions after recent appointments"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "By end of his six-year term, Duterte will have named 11 of 15 Supreme Court justices — a constitutional reshaping of the Court's profile that is unprecedented in recent PH history and carries profound long-term implications for jurisprudence.",
+      "rhetorical_move": "arithmetic-projection argument presenting the retirement schedule as a structural fact, not a political critique",
+      "confidence": "asserted as fact"
+    },
+    {
+      "claim": "The De Castro vs JBC ruling (9-3) permitting midnight SC appointments — which allowed GMA to appoint Corona — remains binding precedent and will authorize Duterte to fill the Peralta and Bernabe vacancies in 2022 even within the pre-election ban window.",
+      "rhetorical_move": "precedent-application analysis identifying the constitutional tension and its existing judicial resolution",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Court's growing career-jurist composition (all four Duterte appointees from CA/Sandiganbayan) signals a shift away from the prior practice of appointing private practitioners directly to the bench.",
+      "rhetorical_move": "profile-observation without explicit normative judgment (neutral descriptive framing with 'career jurists are happy' as indirect endorsement)",
+      "confidence": "descriptive, mild implicit endorsement"
+    }
+  ],
+  "notable_anecdotes": [
+    "The arithmetic puzzle of why Duterte gets 11 appointments despite filling only 4 so far — resolved by the fact that three of his own first four appointees will themselves retire within his term, creating replacement slots; CJ uses this as an accessible explainer to demystify a counterintuitive constitutional arithmetic.",
+    "The law school breakdown of all 15 sitting justices (UP 6, Ateneo 5, San Beda 2, UST 1, UE 1) — a rare sociological profile of the Court that is usually undisclosed in mainstream commentary.",
+    "The disclosure that more than 80% of all SC cases are decided by divisions (not en banc), and that even a 3-vote division decision is deemed a decision of the entire 15-member Court — a structural fact that most lay readers are unaware of."
+  ],
+  "target_audience": [
+    "Legal professionals and Court watchers tracking the Duterte-era judiciary",
+    "Law students studying constitutional structure of the SC",
+    "Political analysts assessing Duterte's long-term institutional legacy",
+    "Civic advocates concerned about judicial independence",
+    "General Inquirer readership interested in PH governance"
+  ],
+  "register_markers": [
+    "data-dense tabular register (retirement dates listed per justice in chronological order)",
+    "arithmetic-puzzle explainer format ('How come? This is simply because…')",
+    "constitutional citation register (Art. VII Sec. 15, 90-day vacancy rule)",
+    "sociological profile register (law school, career origin breakdowns)",
+    "neutral-descriptive framing with one implied endorsement ('career jurists are happy')",
+    "caveat-qualifier close ('Of course, the Court's profile will change if…')"
+  ],
+  "decision_framework_signals": [
+    "uses retirement-schedule arithmetic as a primary structural lens — retirement dates as determinative constitutional facts",
+    "applies precedent-identification framework (De Castro vs JBC) to pre-resolve the 2022 midnight-appointment question",
+    "treats law-school and career-origin composition as meaningful institutional-profile variables",
+    "uses division-vs-en banc distinction to calibrate the real decision-making power of the reorganized Court",
+    "frames the entire analysis as factual mapping rather than prescriptive advocacy"
+  ],
+  "one_paragraph_summary": "Panganiban maps all 11 remaining Supreme Court vacancies that President Duterte can fill before his term ends June 30, 2022, explaining the counterintuitive arithmetic: though Duterte has already appointed four justices, three of those four (Martires, Tijam, Reyes) will themselves hit compulsory retirement age of 70 within his term and require replacement. He lists the full retirement chronology -- 2 slots in 2018 (Velasco, De Castro), 6 in 2019 (Martires, Tijam, Del Castillo, Jardeleza, Bersamin, Carpio), 1 in 2020 (Reyes), and 2 in 2022 (Peralta, Bernabe) -- and flags that the 2022 slots fall within the Art. VII Sec. 15 midnight-appointments ban, noting that the SC's 9-3 ruling in De Castro vs JBC (2010) established that this ban does not apply to SC vacancies, a precedent that allowed GMA to appoint Corona and will similarly apply to Duterte. The column also profiles the current 15-member bench by career origin (CA, Sandiganbayan, private practice) and law school (UP 6, Ateneo 5, San Beda 2, UST 1, UE 1), notes that all four Duterte appointees are career jurists, discloses the three newly reorganized divisions, and reminds readers that 80%+ of cases are decided by divisions where even three votes constitute a Court decision.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

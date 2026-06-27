@@ -1,0 +1,110 @@
+{
+  "id": "BE015",
+  "format": "B",
+  "type": "book",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 15,
+  "title": "With Due Respect (Vol. 5) -- Ch. 9: 'Hindi Puede ang Puede na'",
+  "date": "2010-04-18",
+  "link": "https://cjpanganiban.com/books-authored-by-chief-justice-artemio-v-panganiban/",
+  "keywords": [
+    "Hindi Puede ang Puede na",
+    "PCOS",
+    "Smartmatic",
+    "disenfranchisement",
+    "precinct specific",
+    "massive disenfranchisement",
+    "Defense Secretary Norberto Gonzales",
+    "PCOS bidding standards",
+    "Commission on Elections",
+    "Boards of Election Inspectors",
+    "PCOS 'humidity' failure in Hong Kong",
+    "2010"
+  ],
+  "primary_topics": [
+    "Chapter 9 of 'With Due Respect' (Vol. 5) -- CJP's April 18, 2010 Inquirer column attacking the Comelec's contingency plan to manually count 30 percent of the ballots if the PCOS machines failed, arguing 'hindi puede ang puede na' ('what is merely passable will not do')",
+    "Why the plan rests on 'faulty assumptions' -- that precinct-specific automated ballots and machines would all be 'correctly delivered to the correct polling places,' even as the Comelec handpicked Smartmatic to deliver the ballots 'without bidding' despite 'no track record in the courier trade'",
+    "The four problems with manually counting shaded automated ballots -- untrained Boards of Election Inspectors on new forms, voter disenfranchisement during the two-hour wait for standby machines, transmission delays that defeat automation's speed, and a 'lack of safeguards' that makes shaded ballots 'fraud-prone'",
+    "His insistence that a 30-percent manual count is 'not good enough... in fact, it is not good at all,' risking delayed, 'suspect' results and even a 'failure to proclaim the winners' -- for the people, who paid 'P7.2 billion,' set and deserve a '99.995 percent' standard of excellence"
+  ],
+  "sub_topics": [
+    "The plan and its boast: the Comelec was 'preparing for the manual count of 30 percent of the ballots' if the PCOS machines 'snag,' a plan affirmed by Defense Secretary Norberto Gonzales (who had earlier, oddly, proposed an 'unconstitutional transition government in anticipation of failed elections') even as both 'confidently bragged' a failure of elections 'would not happen'",
+    "Faulty assumption -- correct delivery: the plan assumes the precinct-specific automated ballots will all reach 'the correct polling places,' yet the Comelec named 'three unknown companies' and then handpicked Smartmatic to deliver the ballots 'without bidding' despite 'no track record in the courier trade'",
+    "The logistics of care: ballot delivery is not just transport but 'proper printing, vacuum packing, stacking,' and care -- and the PCOS 'humidity problem' in Hong Kong 'could have been easily averted with the proper know-how,' so the 'negligence' did 'not inspire confidence'",
+    "Precinct-specific peril: because both ballots and PCOS are 'precinct specific,' ballots misdelivered to the wrong town cause 'a failure of election in both towns,' since the wrong ballots 'could not be used at all'",
+    "What the 'manual count' really is: not the old 'generic' manual ballots on which voters write names, but the preprinted, precinct-specific automated ballots on which voters merely 'shade' ovals -- so 'if no automated... ballots were delivered, there would be nothing to vote on and nothing to count' (the Comelec not printing generic manual ballots)",
+    "Four problems even assuming correct delivery: (1) the Boards of Election Inspectors are 'not... trained' on the still-being-printed new forms; (2) voters may not 'patiently queue' through the two-hour wait for standby machines, risking 'massive disenfranchisement'; (3) since the PCOS 'would not be able to transmit the manual count,' even one manualized precinct 'cannot be electronically speeded up,' delaying results; and (4) there is a 'lack of safeguards' in counting shaded ballots, where fraud is 'difficult to detect' because no handwriting reveals 'two hands' on a ballot or 'one hand' on several, and the marked-ballot rule cannot apply",
+    "The verdict: a 30-percent manual count of automated ballots is 'not good enough; in fact, it is not good at all' -- results would be 'delayed... suspect and fraud-prone' and could lead to 'a dreaded failure to proclaim the winners'",
+    "The standard of excellence: 'Am I being unduly strict? Not at all' -- the people 'expect 99.995 percent efficiency from the PCOS machines' (a standard the Comelec itself 'laid down... during their bidding'), and having spent 'P7.2 billion of hard-earned taxpayers' money,' they have 'the right to demand and expect excellence' -- 'hindi puede ang puede na'"
+  ],
+  "signature_phrases": [
+    "hindi puede ang puede na",
+    "precinct specific",
+    "nothing to vote on and nothing to count",
+    "massive disenfranchisement",
+    "the right to demand and expect excellence"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (columnist; former Chief Justice)",
+      "Defense Secretary Norberto Gonzales (the manual-count affirmation and 'transition government' proposal)"
+    ],
+    "institutions": [
+      "the Commission on Elections and Smartmatic (the handpicked ballot deliverer)",
+      "the Boards of Election Inspectors (BEIs)",
+      "the taxpaying public (who funded the P7.2-billion program)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "the automated-election framework and the PCOS bidding standards (the 99.995-percent specification)"
+    ],
+    "events": [
+      "the April 2010 contingency planning weeks before the May 10 automated polls; the PCOS 'humidity' failure in Hong Kong"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Comelec's 30-percent manual-count contingency rests on the 'faulty assumption' that precinct-specific ballots and machines will all be 'correctly delivered' -- undermined by handpicking Smartmatic 'without bidding' despite 'no track record in the courier trade' and by the avoidable Hong Kong 'humidity' failure.",
+      "rhetorical_move": "assumption-attack: pulling the foundation out from under the plan",
+      "confidence": "asserted as critique"
+    },
+    {
+      "claim": "Even assuming correct delivery, manually counting shaded automated ballots fails on four fronts -- untrained BEIs, voter disenfranchisement during the two-hour wait, transmission delays that negate automation's speed, and 'a lack of safeguards' that makes shaded ballots 'fraud-prone.'",
+      "rhetorical_move": "enumerated-problems: building a cumulative case against the fallback",
+      "confidence": "asserted systematically"
+    },
+    {
+      "claim": "A 30-percent manual count is 'not good enough... not good at all,' risking 'delayed... suspect and fraud-prone' results and a 'failure to proclaim the winners' -- and since taxpayers paid 'P7.2 billion' and the Comelec set a '99.995 percent' standard, 'hindi puede ang puede na.'",
+      "rhetorical_move": "standard-setting close: invoking cost and the Comelec's own benchmark to demand excellence",
+      "confidence": "asserted emphatically"
+    }
+  ],
+  "notable_anecdotes": [
+    "Gonzales's contradiction: CJP needles Defense Secretary Gonzales for affirming the manual-count plan while having earlier floated an 'unconstitutional transition government' for failed elections.",
+    "Couriers without a track record: he questions why Smartmatic was 'handpicked without bidding' to deliver ballots despite 'no track record in the courier trade.'",
+    "The Hong Kong humidity: he points to the PCOS 'humidity problem' abroad as avoidable negligence that 'does not inspire confidence.'",
+    "Shading hides fraud: he warns that with mere oval-shading 'a facial examination cannot show that two hands wrote a single ballot,' stripping away the safeguards of handwritten ballots."
+  ],
+  "target_audience": [
+    "Inquirer readers ahead of the May 2010 polls",
+    "The Comelec and Smartmatic",
+    "Election-watchdogs and the voting public"
+  ],
+  "register_markers": [
+    "urgent current-events critique register",
+    "assumption-then-problems structure",
+    "technical detail (precinct-specific ballots, transmission, shading)",
+    "vernacular title-thesis ('hindi puede ang puede na')",
+    "cost-and-standard appeal (P7.2 billion; 99.995 percent)"
+  ],
+  "decision_framework_signals": [
+    "no-passable-shortcuts: 'hindi puede ang puede na' -- excellence, not 'good enough'",
+    "precinct-specificity: misdelivery means a failure of election",
+    "anti-disenfranchisement: don't make voters wait out machine failures",
+    "speed-or-nothing: a manual count negates automation's chief advantage",
+    "safeguards-matter: shaded ballots are harder to police than handwriting"
+  ],
+  "one_paragraph_summary": "Chapter 9 of 'With Due Respect' (Vol. 5), CJP's April 18, 2010 Inquirer column, attacks the Comelec's plan to manually count 30 percent of the ballots if the PCOS machines 'snag,' insisting 'hindi puede ang puede na' -- what is merely passable will not do. Defense Secretary Norberto Gonzales had affirmed the plan, and both 'confidently bragged' a failure of elections 'would not happen' (though Gonzales had earlier proposed an 'unconstitutional transition government' for just that). The plan, CJP argues, rests on the 'faulty assumption' that the precinct-specific automated ballots and machines will all be 'correctly delivered to the correct polling places' -- even as the Comelec handpicked Smartmatic to deliver the ballots 'without bidding' despite 'no track record in the courier trade,' and after the avoidable PCOS 'humidity problem' in Hong Kong. Because ballots and machines are 'precinct specific,' misdelivery causes 'a failure of election in both towns'; and the vaunted manual count is of the shaded automated ballots, not old 'generic' ones, so 'if no automated... ballots were delivered, there would be nothing to vote on and nothing to count.' Even assuming correct delivery, he lists four problems: the Boards of Election Inspectors are untrained on the still-printing new forms; voters may not endure the two-hour wait for standby machines, risking 'massive disenfranchisement'; the PCOS cannot transmit a manual count, so one manualized precinct delays the whole result; and there is a 'lack of safeguards,' since shaded ballots hide fraud that handwriting would reveal. A 30-percent manual count, he concludes, is 'not good enough... in fact, it is not good at all,' risking 'delayed... suspect and fraud-prone' results and a 'failure to proclaim the winners.' 'Am I being unduly strict? Not at all' -- the people set a '99.995 percent' standard and spent 'P7.2 billion,' so they 'have the right to demand and expect excellence.'",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

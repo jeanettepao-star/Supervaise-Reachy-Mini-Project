@@ -1,0 +1,115 @@
+{
+  "id": "CE120",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 120,
+  "title": "President Aquino's polestar",
+  "date": "2011-05-29",
+  "link": "https://opinion.inquirer.net/5539/president-aquino%e2%80%99s-polestar",
+  "keywords": [
+    "EO 43 five clusters Cabinet reorganization",
+    "Good Governance Anti-Corruption cluster",
+    "OMB independence cannot represent President plea bargain",
+    "First Pacific 30th anniversary Pangilinan Salim",
+    "Alejandro Roces National Artist"
+  ],
+  "primary_topics": [
+    "EO 43 as the polestar of Aquino's presidency: five clusters, vision, and social contract",
+    "Why the OMB -- being independent -- cannot represent the President as offended party in a plea bargain",
+    "First Pacific Company Limited's 30-year rise from HK$7M to US$44.57 billion"
+  ],
+  "sub_topics": [
+    "Five Cabinet clusters: Good Governance/Anti-Corruption (President); Human Development/Poverty Reduction (Soliman); Economic Development (Purisima); Security/Justice/Peace (Ochoa); Climate Change (Paje)",
+    "Binay team-player statement despite not heading any cluster",
+    "EO 43 as executive summary of Aquino's vision, mission, goals, values, principles: transparency, accountability, integrity, leadership by example",
+    "'Kung walang corrupt, walang mahirap' -- finally a road map",
+    "Garcia PBA: May 15 column argued only the President could consent as offended party",
+    "Alentajan's letter: OMB authorized like fiscals to bind the Republic",
+    "Author's reply: fiscals are subalterns of DOJ secretary → alter ego of President; OMB is independent, not under presidential control and supervision → cannot represent the President",
+    "First Pacific: founded Hong Kong 1981; Pangilinan and Indonesian partner Anthoni Salim; HK$7M capital, 6 employees, 50 sq m office",
+    "Now: US$44.57B aggregate market cap; 104,000 employees; food, agriculture, telecom, power, BPO, water, hospitals, infrastructure, mining",
+    "30th anniversary dinner-musicale; no politicians or regulators; Filipino entertainers: Lea Salonga, Sarah Geronimo, Lani Misalucha, Martin Nievera, Christian Bautista, Jed Madela",
+    "Alejandro Roces: National Artist for Literature; indefatigable student-leader adviser; Secretary of Education 1961-65; retained author as legal counsel post-bar; passed away May 23, 2011 at 86"
+  ],
+  "signature_phrases": [
+    "polestar",
+    "teamwork is as important as talent in shooting the basket",
+    "Kung walang corrupt, walang mahirap",
+    "I am a team player",
+    "OMB is not in the same situation as fiscals",
+    "subaltern of the President",
+    "independent entity"
+  ],
+  "entities": {
+    "people": [
+      "President Benigno Aquino III",
+      "VP Jejomar Binay",
+      "Mar Roxas (incoming presidential chief of staff)",
+      "DSWD Secretary Dinky Soliman",
+      "Finance Secretary Cesar Purisima",
+      "Executive Secretary Paquito Ochoa",
+      "Environment Secretary Ramon Paje",
+      "Lawyer Bonifacio A. Alentajan (letter writer)",
+      "Manuel V. Pangilinan (First Pacific co-founder)",
+      "Anthoni Salim (First Pacific co-founder)",
+      "Alejandro R. Roces (National Artist for Literature, deceased)",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "First Pacific Company Limited",
+      "Office of the Ombudsman (OMB)",
+      "Office of the Solicitor General (OSG)"
+    ],
+    "cases": [
+      "Garcia plea bargain agreement (Garcia PBA)"
+    ],
+    "laws_treaties": [
+      "Executive Order No. 43 (Cabinet cluster reorganization)",
+      "Philippine Development Plan 2011-2016"
+    ],
+    "events": [
+      "First Pacific 30th anniversary dinner-musicale (Hong Kong)",
+      "Death of Alejandro Roces (May 23, 2011)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "EO 43 is the polestar of Aquino's presidency -- it is the executive summary of his vision, mission, goals, values, principles, and methods; upon it, our people will judge him.",
+      "rhetorical_move": "executive-order-as-governing-framework endorsement",
+      "confidence": "high"
+    },
+    {
+      "claim": "The OMB cannot represent the President as offended party in a plea bargain because it is an independent office not under the President's control and supervision; fiscals can (as subalterns of the DOJ Secretary, who is the President's alter ego) but the OMB cannot.",
+      "rhetorical_move": "independence-prevents-agency doctrinal argument",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "First Pacific's 30-year trajectory: HK$7 million (less than US$1 million) in a 50-square-meter office with six employees in 1981 → US$44.57 billion aggregate market cap with 104,000 employees across multiple industries in 2011.",
+    "The 30th anniversary dinner-musicale in Hong Kong with no government regulators or politicians -- and all Filipino entertainers (Lea Salonga, Sarah Geronimo, Lani Misalucha, et al.) -- as a statement of corporate culture and national pride.",
+    "Alejandro Roces as the author's student-leadership adviser who helped organize the National Union of Students of the Philippines, and then retained him as legal counsel and executive consultant right after he passed the bar in 1960-61.",
+    "Binay's team-player statement despite not being named chair of any Cabinet cluster -- a magnanimous public gesture noted by the author."
+  ],
+  "target_audience": [
+    "Civic readership assessing Aquino's first year in office",
+    "Legal practitioners following the Garcia PBA controversy",
+    "Business community tracking First Pacific's growth",
+    "Friends and colleagues of Alejandro Roces"
+  ],
+  "register_markers": [
+    "Multi-topic column (EO 43 + Garcia PBA reply + First Pacific + Roces tribute)",
+    "Executive-order-as-polestar metaphor",
+    "Independence-prevents-agency doctrinal response to a reader letter",
+    "Corporate biography capsule (First Pacific 30-year arc)",
+    "Personal tribute closing (Roces)"
+  ],
+  "decision_framework_signals": [
+    "Use EO 43 as the baseline accountability document against which Aquino's governance decisions should be evaluated",
+    "Apply the subaltern-alter-ego chain: fiscals represent the President because they answer to the DOJ Secretary who is the President's alter ego; OMB cannot because it is constitutionally independent of the President",
+    "Treat OMB independence as a structural constraint, not a deficiency -- it protects prosecutorial independence at the cost of presidential authorization"
+  ],
+  "one_paragraph_summary": "Panganiban identifies EO 43 -- reorganizing the Cabinet into five clusters (Good Governance/Anti-Corruption chaired by Aquino; Human Development/Poverty Reduction by Soliman; Economic Development by Purisima; Security/Justice/Peace by Ochoa; Climate Change by Paje) -- as the polestar of Aquino's presidency: the executive summary of his vision, mission, goals, values, and methods (transparency, accountability, integrity, leadership by example). He notes VP Binay's magnanimous 'I am a team player' statement despite not heading any cluster. Responding to lawyer Alentajan's letter arguing that the OMB can bind the Republic as offended party in the Garcia plea bargain like regular fiscals, the author rebuts: fiscals are subalterns of the DOJ Secretary who is the President's alter ego -- they can represent the President; but the OMB is a constitutionally independent office, not under the President's control and supervision, and therefore cannot represent him. In the second section, he recounts First Pacific Company Limited's 30-year rise -- from HK$7 million with six employees in a 50-square-meter Hong Kong office in 1981 (co-founded by Manuel Pangilinan and Anthoni Salim) to US$44.57 billion aggregate market cap with 104,000 employees across multiple industries -- celebrated with a dinner-musicale featuring exclusively Filipino performers. The column closes with a tribute to Alejandro Roces -- National Artist for Literature, the author's student-leadership adviser, and Secretary of Education 1961-65 who retained him as legal counsel right after he passed the bar -- who passed away on May 23, 2011 at 86.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

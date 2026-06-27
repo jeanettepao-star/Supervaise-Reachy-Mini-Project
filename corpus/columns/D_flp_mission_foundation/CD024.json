@@ -1,0 +1,118 @@
+{
+  "id": "CD024",
+  "format": "C",
+  "type": "column",
+  "theme": "D",
+  "theme_label": "FLP Mission and Foundation",
+  "number": 24,
+  "title": "PCGG, scholarships and dissertations",
+  "date": "2017-08-06",
+  "link": "https://opinion.inquirer.net/106115/pcgg-scholarships-dissertations",
+  "keywords": [
+    "PCGG abolition",
+    "Marcos ill-gotten wealth",
+    "Foundation for Liberty and Prosperity",
+    "FLP scholarship",
+    "law scholarship",
+    "dissertation contest",
+    "DOJ transfer",
+    "Tan Yan Kee Foundation"
+  ],
+  "primary_topics": [
+    "Pending bill to abolish the PCGG and transfer its functions to the DOJ",
+    "PCGG's accountability gap before dissolution: locating and accounting for recovered assets",
+    "Foundation for Liberty and Prosperity (FLP) scholarship and dissertation contest for law students"
+  ],
+  "sub_topics": [
+    "Rightsizing the National Government Act of 2017 -- Budget Secretary Diokno's bill",
+    "Speaker Alvarez bill to transfer PCGG functions to Office of the Solicitor General",
+    "PCGG created by EO No. 1 (1986) by President Corazon Aquino",
+    "First-ever cracking of Swiss and other secret financial havens by PCGG",
+    "P170 billion recovered vs initial $10 billion (P500 billion) estimate",
+    "Reports of wastage, malversation, criminal neglect, and theft of recovered assets",
+    "FLP: 16 new law scholarships (6 seniors, 10 juniors), SY 2017-2018",
+    "Co-sponsors: Tan Yan Kee Foundation, Philippine Association of Law Schools",
+    "Scholarship amount: P200,000 (P100K tuition, P80K stipend, P20K books)",
+    "Eligibility: top 20 batch, GPA ≥85%, no dropped subject, no grade below 75%",
+    "Dissertation contest co-sponsored by Ayala Group: P300K/P200K/P100K prizes",
+    "Top 20 elimination entries: P20,000 each; all winners receive commemorative plaques",
+    "Scholarships restricted to schools above mean national bar passing rate"
+  ],
+  "signature_phrases": [
+    "I think it must first be required to pinpoint, locate and account for these recovered assets",
+    "The many reports of wastage, losses, malversation, criminal neglect, or outright thievery must be verified and put to rest",
+    "internationally hailed for having cracked, for the first time in history, secret deposits in Switzerland",
+    "philosophy of liberty and prosperity",
+    "Good news for law students"
+  ],
+  "entities": {
+    "people": [
+      "Budget Secretary Benjamin E. Diokno",
+      "Speaker Pantaleon Alvarez",
+      "President Corazon Aquino (PCGG creator)",
+      "President Ferdinand Marcos (ill-gotten wealth target)",
+      "Artemio V. Panganiban (author, former CJ; implied FLP connection)"
+    ],
+    "institutions": [
+      "Presidential Commission on Good Government (PCGG)",
+      "Department of Justice (DOJ) -- proposed PCGG successor",
+      "Office of the Solicitor General (OSG) -- alternative PCGG successor under Alvarez bill",
+      "Foundation for Liberty and Prosperity (FLP)",
+      "Tan Yan Kee Foundation (co-sponsor)",
+      "Philippine Association of Law Schools (PALS)",
+      "Ayala Group (dissertation contest co-sponsor)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Executive Order No. 1 (1986) -- created PCGG under revolutionary government of President Aquino",
+      "Rightsizing the National Government Act of 2017 (pending bill)",
+      "Speaker Alvarez bill to transfer PCGG functions to OSG"
+    ],
+    "events": [
+      "PCGG's international recovery of Swiss and other secret financial deposits",
+      "P170 billion total recovered as of 2017 (per Inquirer, July 27, 2017)",
+      "FLP scholarship application deadline: August 15, 2017",
+      "FLP dissertation contest extended deadline: September 15, 2017"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Before the PCGG is dissolved or merged into another agency, it must be required to fully account for all recovered assets — cash, bonds, real estate, shares, paintings, jewelry, domestic and foreign — and the many reports of wastage, malversation, and theft must be verified and resolved.",
+      "rhetorical_move": "sequencing-prerequisite argument: accountability audit as a mandatory precondition to abolition, not an afterthought",
+      "confidence": "asserted as a condition"
+    },
+    {
+      "claim": "The P170 billion recovered by the PCGG, while substantial, represents only a fraction of the initial $10 billion (P500 billion) estimate, and this gap must be explained before institutional closure.",
+      "rhetorical_move": "recovery-gap arithmetic as an accountability trigger",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The PCGG's historic feat of being the first government body in the world to crack Swiss and other secret financial havens — 'internationally hailed' — juxtaposed immediately with the current reports of wastage, malversation, and theft of recovered assets; the irony of a world-first anticorruption body itself becoming a target of corruption allegations is the column's implicit rhetorical punch.",
+    "CJ's dual-purpose column structure: a brief but pointed PCGG-accountability argument in the first half, followed by a detailed FLP scholarship and dissertation contest announcement in the second — reflecting his institutional role as FLP chair and his commitment to law student development as a counterbalancing positive note."
+  ],
+  "target_audience": [
+    "Law students eligible for FLP scholarships and dissertation prizes",
+    "Congress members deliberating the PCGG abolition bill",
+    "Civil society advocates tracking Marcos ill-gotten wealth recovery",
+    "Law school administrators affiliated with PALS",
+    "General civic readership interested in anti-corruption institutional reform"
+  ],
+  "register_markers": [
+    "institutional-accountability register ('must first be required to pinpoint, locate and account')",
+    "arithmetic-gap argument (P170B vs P500B estimate)",
+    "announcement register for second half (FLP scholarship details, amounts, eligibility criteria, deadlines)",
+    "'Good news for law students' as transitional pivot from policy critique to institutional benefaction",
+    "website citation (www.libpros.com) as practical call-to-action",
+    "no legal case citations — policy and institutional commentary register throughout"
+  ],
+  "decision_framework_signals": [
+    "applies sequencing-prerequisite test: institutional closure must follow accountability audit, not precede it",
+    "uses recovery-gap arithmetic (P170B vs P500B) as a quantified accountability trigger",
+    "treats reports of abuse as unverified but serious enough to require formal verification before dissolution",
+    "FLP scholarship criteria (top 20, GPA threshold, no dropped subject) reflect meritocratic access framework",
+    "dissertation judging criteria (significance, comprehensiveness, innovation, writing quality) reflect intellectual-quality framework"
+  ],
+  "one_paragraph_summary": "Panganiban addresses two linked institutional concerns in a single column. In the first half, he notes that Budget Secretary Diokno's pending Rightsizing bill would abolish the PCGG -- created by President Aquino's very first executive order in 1986 and internationally celebrated for being the first body to crack Swiss and other secret financial havens -- and argues that before any dissolution or merger, the PCGG must be required to fully account for all recovered assets (P170 billion, or only about a third of the initial $10 billion/$500 billion estimate), with the 'many reports of wastage, losses, malversation, criminal neglect, or outright thievery' formally verified and resolved. In the second half, he announces the Foundation for Liberty and Prosperity's 16 new law scholarships for SY 2017-2018 (P200,000 each, split P100K/P80K/P20K for tuition, stipend, and books; co-sponsored by the Tan Yan Kee Foundation with PALS cooperation; for top-20 students with ≥85% GPA at schools above the mean national bar passing rate), and a dissertation contest co-sponsored by the Ayala Group offering prizes of P300,000/P200,000/P100,000 (plus P20,000 for each of the top 20 elimination-round entries), with the submission deadline extended from June 30 to September 15, 2017.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

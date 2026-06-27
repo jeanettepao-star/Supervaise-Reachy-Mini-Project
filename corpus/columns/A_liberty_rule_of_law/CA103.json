@@ -1,0 +1,179 @@
+{
+  "id": "CA103",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 103,
+  "title": "Helping the 'conscience of society'",
+  "date": "2023-07-10",
+  "link": "https://opinion.inquirer.net/164636/helping-the-conscience-of-society",
+  "keywords": [
+    "judiciary",
+    "conscience of society",
+    "Felix Frankfurter",
+    "judicial independence",
+    "tenure",
+    "public trust",
+    "rule of law"
+  ],
+  "primary_topics": [
+    "Selective applause / lampoon pattern of public reaction to SC and judiciary",
+    "Distinction between elected branches (popular sentiment as catalyst) and the judiciary (reason, evidence, conscience as yardsticks)",
+    "Tenure and independence as constitutional shields enabling jurists to write/act according to conscience",
+    "Search for principles and doctrines as the essence of judicial work",
+    "Felix Frankfurter's 'conscience of society' frame applied to the PH SC",
+    "Citizens' duty to help the Court remain faithful to its high expectations"
+  ],
+  "sub_topics": [
+    "Case examples of selective applause/lampoon: De Lima acquittal (Branch 204, Judge Alcantara) vs De Lima bail denial (Branch 256, Judge Buenaventura)",
+    "Larry Gadon disbarment vs Jessica 'Gigi' Reyes habeas corpus release",
+    "Erap plunder conviction (Sandiganbayan) vs Erap pardon + run-for-Manila-mayor (SC)",
+    "Members of Congress accountable to constituency; Cabinet to President; President to people -- popular sentiment as catalyst",
+    "Magistrates' world: reason, logic, evidence, conscience -- legitimacy from the Constitution overwhelmingly ratified by the people",
+    "Permanency of tenure and constitutional independence as enabling structures",
+    "Jurists' courage to do what others think is correct but lack courage to write/act on",
+    "Rare luxuries that excise jurists from parochial ties and enable consistent objective decision-making",
+    "Litigation won/lost by law and reasoning, not vote counts or quid-pro-quo bargaining",
+    "Court's effectiveness depends on retaining public faith and trust ('It does not command the army, the police, or the raging mob')",
+    "Distinction between shifting winds of public opinion and long-term public trust in the institution",
+    "Felix Frankfurter quote: SC as 'the conscience of society'",
+    "Test of magistrates' mettle: capacity to stand by convictions when executive/legislators/mob rage, threaten families, chant hate slogans",
+    "Court does not lust for executive's brute power or legislature's patronage; prays only for courage, integrity, sagacity",
+    "CJ's elevation: SC is also 'the last bastion of democracy and the ultimate defender of the people's rights enshrined in the Constitution'",
+    "Citizen-duty closer"
+  ],
+  "signature_phrases": [
+    "applauded or lampooned",
+    "knee-jerk reactions and opportunistic media grabs serve transitory glory but injure public trust",
+    "the current popular sentiment is the powerful catalyst and barometer",
+    "magistrates must live in a world of reason where logic, evidence, and conscience are their only yardsticks",
+    "rare luxuries of tenure and independence",
+    "the very essence and bedrock of the work of jurists",
+    "diplomatic quid pro quo",
+    "the army, the police, or the 'raging mob'",
+    "the shifting winds of public opinion",
+    "the long-term public trust in the institution",
+    "the conscience of society",
+    "tyrants, lynch mobs, and even the best-intentioned but ill-informed crusaders",
+    "courage, integrity, and sagacity",
+    "the last bastion of democracy and the ultimate defender of the people's rights",
+    "Our duty as citizens is to help the Court and the judiciary remain faithful to these high expectations"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Leila de Lima",
+      "Judge Abraham Joseph G. Alcantara (RTC Muntinlupa Br. 204)",
+      "Judge Romeo S. Buenaventura (RTC Muntinlupa Br. 256)",
+      "Lorenzo 'Larry' Gadon",
+      "Jessica Lucila 'Gigi' Reyes",
+      "Joseph Estrada (former president)",
+      "Gloria Macapagal Arroyo (former president)",
+      "Felix Frankfurter (late US Supreme Court Justice)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Regional Trial Court of Muntinlupa, Branch 204",
+      "Regional Trial Court of Muntinlupa, Branch 256",
+      "Sandiganbayan",
+      "Congress of the Philippines",
+      "Office of the President / Cabinet",
+      "City of Manila"
+    ],
+    "cases": [
+      "De Lima drug-trafficking acquittal (RTC Muntinlupa Br. 204)",
+      "De Lima bail denial (RTC Muntinlupa Br. 256)",
+      "Lorenzo Gadon disbarment by the Supreme Court",
+      "Jessica 'Gigi' Reyes habeas corpus / release by the Supreme Court",
+      "Estrada plunder conviction by the Sandiganbayan",
+      "Estrada SC ruling allowing him to run for Manila mayor after the Arroyo pardon"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (judicial tenure, independence, and rule-making provisions)"
+    ],
+    "events": []
+  },
+  "stances": [
+    {
+      "claim": "Public reactions to the SC and judiciary follow a 'selective applause / lampoon' pattern based on whether each ruling matches the public's current preference -- and while fair comment is part of free speech, comments should be 'factually true and legally correct,' not knee-jerk media grabs that injure public trust.",
+      "rhetorical_move": "pattern-diagnosis with normative correction",
+      "confidence": "asserted with case-pair examples"
+    },
+    {
+      "claim": "Elected officials are properly responsive to popular sentiment because that is their accountability mechanism -- but magistrates operate in 'a world of reason where logic, evidence, and conscience are their only yardsticks,' sourcing legitimacy from the people's ratification of the Constitution rather than ongoing electoral approval.",
+      "rhetorical_move": "branches-of-government accountability-mechanism framing",
+      "confidence": "asserted as constitutional design"
+    },
+    {
+      "claim": "Permanency of tenure and constitutional independence are the 'rare luxuries' that enable jurists to decide free of electoral or presidential fear -- to write and act on what others think correct but lack courage to do.",
+      "rhetorical_move": "structural-protection framing (tenure + independence as enabling, not privilege)",
+      "confidence": "asserted as constitutional design"
+    },
+    {
+      "claim": "Litigation is decided by reasoned arguments from legal principles and precedents -- not by vote counts, political palatability, friendship, pecuniary considerations, or 'diplomatic quid pro quo' ('I will vote with you in this case, provided you vote with me in this other case').",
+      "rhetorical_move": "anti-quid-pro-quo framing with reasoning-as-currency principle",
+      "confidence": "asserted as judicial-ethics norm"
+    },
+    {
+      "claim": "The Court depends on public faith and trust because it cannot enforce its own pronouncements -- 'It does not command the army, the police, or the raging mob' -- but its dependency is on 'long-term public trust in the institution,' not the 'shifting winds of public opinion.'",
+      "rhetorical_move": "institutional-credibility framing with long-vs-short-term trust distinction",
+      "confidence": "asserted as judicial-power realism"
+    },
+    {
+      "claim": "Following Felix Frankfurter, the SC is 'the conscience of society' -- and 'the test of the magistrates' mettle is their capacity to stand by their convictions' against executive, legislators, and 'the mob' that may threaten their families and chant hate slogans.",
+      "rhetorical_move": "Frankfurter-warrant framing for moral-courage-under-pressure",
+      "confidence": "asserted via cited authority"
+    },
+    {
+      "claim": "Beyond being the conscience of society, the unelected SC is also 'the last bastion of democracy and the ultimate defender of the people's rights enshrined in the Constitution' -- and citizens have a duty to help it remain faithful to these expectations.",
+      "rhetorical_move": "elevation-of-role with citizen-duty closer",
+      "confidence": "asserted as CJ's personal extension of Frankfurter"
+    }
+  ],
+  "notable_anecdotes": [
+    "Three case-pair examples of selective applause/lampoon: (1) De Lima acquittal (RTC Muntinlupa Br. 204, Judge Alcantara) won critics' praise; same RTC's bail denial (Br. 256, Judge Buenaventura) drew their condemnation. (2) SC disbarred Larry Gadon to applause; but its earlier habeas corpus release of Gigi Reyes drew boos. (3) Sandiganbayan plunder conviction of Estrada thunderously applauded; SC's subsequent allowance for him to run for and win as Manila mayor (after Arroyo's pardon) lampooned.",
+    "Anti-quid-pro-quo formulation reproduced verbatim ('I will vote with you in this case, provided you vote with me in this other case') as the kind of bargain the judiciary must not make.",
+    "'It does not command the army, the police, or the raging mob' -- the most-cited line in CJ's writing on judicial power.",
+    "Felix Frankfurter cited as the source for the 'conscience of society' framing -- a US Supreme Court Justice's idiom imported into PH discourse.",
+    "List of pressures jurists must withstand: 'tyrants, lynch mobs, and even the best-intentioned but ill-informed crusaders' -- the third item is the most unusual, putting well-meaning critics into the same category as tyrants when they are wrong on the law.",
+    "The Court's prayer-list: 'courage, integrity, and sagacity' -- three virtues as the only tools -- contrasted with what it does not desire: 'the brute power of the executive' or 'the patronage of the legislature.'",
+    "CJ's elevation beyond Frankfurter: 'the unelected Supreme Court is not merely the conscience of society; it is also the last bastion of democracy and the ultimate defender of the people's rights' -- a stronger formulation than Frankfurter's original.",
+    "Citizen-duty closer: 'Our duty as citizens is to help the Court and the judiciary remain faithful to these high expectations.'"
+  ],
+  "target_audience": [
+    "PH legal community and judiciary watchers",
+    "Critics of the Court (the explicit reflective audience)",
+    "Civics teachers and democracy advocates",
+    "Members of Congress and the Executive (implicitly addressed)",
+    "Inquirer general readership",
+    "Constitutional law students"
+  ],
+  "register_markers": [
+    "Title-as-thesis ('Helping the conscience of society')",
+    "Three-case-pair structural device (De Lima, Gadon/Reyes, Estrada)",
+    "ALL-CAPS pivot openings ('SIMILARLY, WHEN THE SUPREME COURT DISBARRED,' 'MEMBERS OF CONGRESS,' 'INDEED, THE SEARCH FOR PRINCIPLES')",
+    "Branches-of-government accountability-mechanism framing",
+    "Frankfurter-attribution explicit ('According to the late US Justice Felix Frankfurter')",
+    "Reasoned-rhetorical-question device ('the army, the police, or the raging mob')",
+    "Litany-of-virtues register ('courage, integrity, and sagacity')",
+    "Threat-catalogue register ('tyrants, lynch mobs, and even the best-intentioned but ill-informed crusaders')",
+    "Elevation closer ('not merely the conscience of society; it is also the last bastion of democracy')",
+    "Civic-duty exhortation closer",
+    "Quid-pro-quo reproduced in direct quotation",
+    "Long-vs-short-term trust distinction"
+  ],
+  "decision_framework_signals": [
+    "uses selective-applause/lampoon pattern diagnosis to evaluate quality of public discourse on the judiciary",
+    "applies branches-of-government accountability-mechanism analysis (electoral vs constitutional sourcing of legitimacy)",
+    "treats tenure + independence as enabling structures, not personal privileges",
+    "uses anti-quid-pro-quo framing as judicial-ethics norm",
+    "applies long-term vs short-term public-trust distinction to evaluate judicial responsiveness",
+    "frames Court's enforcement dependency on credibility (not coercive power) as realistic constraint",
+    "uses Frankfurter-warrant framing (US-cited authority) for moral-courage-under-pressure standard",
+    "elevates judicial role from 'conscience of society' to 'last bastion of democracy' as CJ's personal formulation",
+    "treats citizen-duty as completing the loop (the Court protects rights; citizens help the Court stay faithful)"
+  ],
+  "one_paragraph_summary": "Diagnosing the selective applause / lampoon pattern in PH public reactions to the SC and lower judiciary -- Judge Alcantara's RTC Muntinlupa Branch 204 acquittal of former Senator Leila de Lima drew critics' praise but the same RTC's Branch 256 (Judge Buenaventura) denial of her bail drew condemnation; the SC's disbarment of Larry Gadon was applauded while its earlier habeas corpus release of Jessica 'Gigi' Reyes drew boos; the Sandiganbayan's plunder conviction of Joseph Estrada was thunderously applauded while the SC's later allowance for him to run for Manila mayor after Arroyo's pardon was lampooned -- Panganiban argues that while fair comment is part of free speech, comments should be 'factually true and legally correct,' not knee-jerk reactions and opportunistic media grabs that 'serve transitory glory but injure public trust in the courts.' Members of Congress and Cabinet officials properly respond to current popular sentiment because that is their accountability mechanism, but 'magistrates must live in a world of reason where logic, evidence, and conscience are their only yardsticks,' sourcing legitimacy from the Constitution ratified overwhelmingly by the people rather than ongoing electoral approval. Permanency of tenure and constitutional independence are the 'rare luxuries' that excise jurists from parochial ties and enable consistent objective decision-making free of electoral fear or presidential rebuff. Cases are won or lost by reasoned arguments from legal principles and precedents -- not by votes, palatability, friendship, pecuniary considerations, or 'diplomatic quid pro quo' ('I will vote with you in this case, provided you vote with me in this other case'). The Court depends on public faith because 'it does not command the army, the police, or the raging mob' -- but its dependency is on 'long-term public trust in the institution,' not 'the shifting winds of public opinion.' Quoting the late US Justice Felix Frankfurter that the SC is 'the conscience of society,' CJ stresses that the test of magistrates' mettle is their capacity to stand by their convictions when executive, legislators, and the mob 'rage against them, threaten their families, and chant slogans of hate.' The Court 'does not lust for the brute power of the executive,' nor desire 'the patronage of the legislature' -- it 'prays only for courage, integrity, and sagacity.' He then elevates Frankfurter's formulation: 'the unelected Supreme Court is not merely the conscience of society; it is also the last bastion of democracy and the ultimate defender of the people's rights enshrined in the Constitution.' He closes with the citizen-duty completion: 'Our duty as citizens is to help the Court and the judiciary remain faithful to these high expectations.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

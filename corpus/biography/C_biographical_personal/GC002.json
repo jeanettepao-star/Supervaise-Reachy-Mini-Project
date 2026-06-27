@@ -1,0 +1,139 @@
+{
+  "id": "GC002",
+  "format": "G",
+  "type": "biography",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 2,
+  "title": "The Boy Who Slept on Pavement",
+  "date": "Childhood,",
+  "link": "",
+  "keywords": [
+    "Sampaloc childhood",
+    "newspaper boy",
+    "endure first explain later",
+    "UP scholarship denied",
+    "fifteen centavos"
+  ],
+  "primary_topics": [
+    "Sampaloc origins -- youngest of four children + father Artemio Sr. who left school early + mother Patricia Villaseñor",
+    "Newsboy-on-sidewalks childhood economy -- calculation not neglect",
+    "Endure-first-explain-later founding philosophy",
+    "Public-school academic excellence -- Juan Luna Elementary + Victorino Mapa High",
+    "Fifteen-centavo bus fare denial of UP scholarship + walk-to-FEU pivot"
+  ],
+  "sub_topics": [
+    "Cramped rented apartment on Cataluña Street, Sampaloc",
+    "Father Artemio Sr. left school early to support seven younger siblings after his own father's death",
+    "Mother Patricia Villaseñor -- little formal education + quiet endurance",
+    "Selling newspapers before dawn + selling cigarettes during the day",
+    "Slept on sidewalks -- not from neglect, but from calculation (papers arrived early)",
+    "Recalled without sentimentality -- 'cold stone beneath his back' + 'envy he refused to indulge'",
+    "Discipline-would-outlast-deprivation childhood mantra",
+    "School as refuge + studying not for praise but as 'only escape route he could see'",
+    "Public-schools-with-honors trajectory -- Juan Luna Elementary + Victorino Mapa High",
+    "UP scholarship acceptance shattered by fifteen-centavo bus fare",
+    "Walked to Far Eastern University -- no complaint, simply walked",
+    "Sampaloc did not produce future Chief Justices -- it produced workers, survivors"
+  ],
+  "signature_phrases": [
+    "Sampaloc did not produce future Chief Justices",
+    "hunger was not an event but a condition",
+    "for the youngest son, childhood ended early",
+    "he slept on sidewalks -- not from neglect, but from calculation",
+    "discipline would outlast deprivation",
+    "endure first, explain later",
+    "obscurity was the default fate",
+    "Fifteen centavos",
+    "between promise and possibility",
+    "He never complained. He simply walked to Far Eastern University instead"
+  ],
+  "entities": {
+    "people": [
+      "Artemio Villaseñor Panganiban Jr. (subject as child)",
+      "Artemio Panganiban Sr. (father -- left school early to support seven younger siblings)",
+      "Patricia Villaseñor (mother -- little formal education + quiet endurance)",
+      "Three older siblings (Art is the youngest of four -- unnamed)"
+    ],
+    "institutions": [
+      "Juan Luna Elementary School (graduated with honors)",
+      "Victorino Mapa High School (graduated with honors)",
+      "University of the Philippines (admitted on scholarship; could not attend)",
+      "Far Eastern University (FEU -- destination of the bus-fare-foreclosed walk)"
+    ],
+    "places": [
+      "Sampaloc, Manila",
+      "Cataluña Street (rented apartment address)",
+      "Sidewalks of Sampaloc (sleeping place)",
+      "Diliman (UP campus -- unreached due to bus fare)"
+    ],
+    "events": []
+  },
+  "stances": [
+    {
+      "claim": "Sampaloc did not produce future Chief Justices -- it produced workers, survivors, children who learned early that hunger was not an event but a condition.",
+      "rhetorical_move": "rebuttal-of-future-greatness opening + workers-survivors-children triplet + hunger-as-condition-not-event aphorism",
+      "confidence": "biographer-asserted as origin-place framing"
+    },
+    {
+      "claim": "In a cramped rented apartment on Cataluña Street, the youngest of four children grew up listening to adult conversations about money that never stretched far enough -- his father Artemio Sr. had left school early to support seven younger siblings after the death of his own father; his mother Patricia Villaseñor had little formal education but possessed the quiet endurance common to women who carry families through scarcity.",
+      "rhetorical_move": "Cataluña-Street-anchored family-portrait + father-and-mother twin-biography vignette",
+      "confidence": "biographer-asserted with familial-detail anchoring"
+    },
+    {
+      "claim": "He sold newspapers before dawn, he sold cigarettes during the day, he learned which streets produced buyers and which produced trouble -- some nights it made no sense to go home; he slept on sidewalks, not from neglect but from calculation: the papers arrived early, he needed to be there first.",
+      "rhetorical_move": "verb-cascade child-labor description + sidewalks-not-from-neglect-but-from-calculation reframe",
+      "confidence": "biographer-asserted with reframe of survival-not-victimhood"
+    },
+    {
+      "claim": "It was here, long before law books or Latin maxims, that Art learned his first philosophy: endure first, explain later.",
+      "rhetorical_move": "long-before-law-books contrast + endure-first-explain-later coined founding-philosophy",
+      "confidence": "biographer-asserted as origin-of-philosophy claim"
+    },
+    {
+      "claim": "School became refuge -- he studied not because teachers praised him, but because excellence was the only escape route he could see; he graduated with honors from Juan Luna Elementary and Victorino Mapa High, rising in crowded classrooms where obscurity was the default fate.",
+      "rhetorical_move": "school-as-refuge framing + excellence-as-escape-route motive + obscurity-as-default-fate background",
+      "confidence": "biographer-asserted as escape-narrative thesis"
+    },
+    {
+      "claim": "When he was accepted to the University of the Philippines on scholarship it seemed that fate had finally cracked open -- then came the bus fare. Fifteen centavos. That was the distance between Sampaloc and Diliman -- between promise and possibility. He never complained. He simply walked to Far Eastern University instead.",
+      "rhetorical_move": "fate-cracked-open hope + fifteen-centavo singular-detail concrete + between-promise-and-possibility binary + never-complained-simply-walked stoic action closure",
+      "confidence": "biographer-asserted as turning-point vignette"
+    }
+  ],
+  "notable_anecdotes": [
+    "Cataluña Street, Sampaloc, rented apartment as origin location",
+    "Newsboy + cigarette seller -- pre-dawn and daytime child labor",
+    "Sleeping on sidewalks as calculation (papers arrived early), not neglect -- most-quoted Sampaloc-vignette",
+    "Cold stone beneath his back + envy refused at imagined classmates' beds -- interior-discipline detail",
+    "Honor graduate of Juan Luna Elementary + Victorino Mapa High -- public-school excellence anchor",
+    "UP scholarship denied not by qualification but by fifteen-centavo bus fare from Sampaloc to Diliman -- single-most-quoted origin vignette",
+    "He never complained -- he simply walked to Far Eastern University instead -- stoic-action closing line"
+  ],
+  "target_audience": [
+    "Public-school students + scholarship hopefuls (relatable-origin-narrative audience)",
+    "FLP scholarship recipients (origin-of-the-founder framing)",
+    "Filipino diaspora readers nostalgic for Sampaloc/Manila-childhood detail",
+    "Civic-leader biography readers tracing greatness-from-poverty narrative arcs",
+    "Future jurists interested in non-elite origins of judicial leadership"
+  ],
+  "register_markers": [
+    "Place-as-character opening -- 'Sampaloc did not produce future Chief Justices'",
+    "Aphoristic-condition framing -- 'hunger was not an event but a condition'",
+    "Verb-cascade child-labor description -- sold-newspapers + sold-cigarettes + learned-which-streets",
+    "Reframe-not-from-neglect-but-from-calculation rhetorical inversion",
+    "Coined-philosophy device -- 'endure first, explain later'",
+    "Single-detail concrete-noun pivot -- 'Fifteen centavos.' (standalone sentence)",
+    "Stoic-action closure -- 'He never complained. He simply walked to Far Eastern University instead.'"
+  ],
+  "decision_framework_signals": [
+    "Endure-first-explain-later founding-philosophy",
+    "Discipline-outlasts-deprivation childhood mantra",
+    "Calculation-not-neglect reframe of harsh circumstance as deliberate strategy",
+    "Excellence-as-only-escape-route educational motive",
+    "Stoic-action-no-complaint response to denied opportunity (walk-to-FEU pivot)",
+    "Refusal-to-indulge-envy emotional-discipline practice"
+  ],
+  "one_paragraph_summary": "Art's childhood-of-origin chapter, anchored in a cramped rented apartment on Cataluña Street, Sampaloc, where the youngest of four children grew up with a father (Artemio Sr.) who had left school early to support seven younger siblings after his own father's death, and a mother (Patricia Villaseñor) of little formal education but quiet endurance. The boy sold newspapers before dawn and cigarettes during the day, sleeping on sidewalks not from neglect but from calculation (the papers arrived early), recalling those nights later 'without sentimentality' -- 'the cold stone beneath his back' and 'the envy he refused to indulge' when he imagined classmates sleeping in beds. Here, 'long before law books or Latin maxims,' he learned his first philosophy: endure first, explain later. School became refuge -- he graduated with honors from Juan Luna Elementary and Victorino Mapa High, then was accepted to UP on scholarship, only to be foreclosed by a fifteen-centavo bus fare that was 'the distance between Sampaloc and Diliman, between promise and possibility.' He never complained -- he simply walked to Far Eastern University instead.",
+  "source_xlsx": "cjp_biography_curated_normalized.xlsx"
+}

@@ -1,0 +1,159 @@
+{
+  "id": "CA030",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 30,
+  "title": "Legality of arrests, searches, seizures",
+  "date": "2026-03-09",
+  "link": "https://opinion.inquirer.net/190263/legality-of-arrests-searches-seizures",
+  "keywords": [
+    "Bill of Rights",
+    "search and seizure",
+    "due process",
+    "Supreme Court",
+    "constitution"
+  ],
+  "primary_topics": [
+    "Constitutional right against unreasonable arrests, searches, and seizures under Article III Section 2 -- 'inviolable' Bill of Rights guarantee",
+    "Warrant requirement as general rule + judicial scrutiny + probable cause as protective gatekeeper",
+    "Seven jurisprudentially recognized exceptions to the warrant requirement strictly construed against law enforcers",
+    "People v. Bautista (Oct 15 2025 / released Feb 25 2026 per J Rosario) as the column's anchor case illustrating doctrine in operation"
+  ],
+  "sub_topics": [
+    "Probable-cause definition -- facts-and-circumstances leading a reasonably discreet and prudent person to believe an offense was committed and items sought are in the place searched",
+    "Plain-view doctrine + its frequent and sometimes misapplied use in practice",
+    "In flagrante delicto search incident to lawful arrest as Bautista's holding-vehicle",
+    "Knock-and-announce rule -- police must announce presence, identity, and authority before entering homes",
+    "Chain-of-custody requirement in drug cases -- broken chain raises doubt about identity and integrity of corpus delicti",
+    "Warrantless-search exceptions enumerated -- incident to lawful arrest + plain view + moving vehicle + consented + customs + stop-and-frisk + exigent/emergency circumstances",
+    "Private-establishment searches at malls/subdivisions -- plain-sight limit + correlative right to deny entry",
+    "Exclusionary rule barring illegally obtained evidence 'in any proceeding'",
+    "Unverified anonymous text-message tips as insufficient basis for warrants (Sapla rule)",
+    "Warrant-specificity vs contraband-discovered-during-otherwise-lawful-search distinction (Comamo rule)"
+  ],
+  "signature_phrases": [
+    "inviolable",
+    "reasonably discreet and prudent person",
+    "in flagrante delicto",
+    "corpus delicti",
+    "knock-and-announce rule",
+    "presumed innocent unless proven guilty beyond reasonable doubt",
+    "the State's duty to maintain order must be balanced by its higher obligation to preserve liberty",
+    "liberty is best protected by awareness, not by aggression",
+    "rights are asserted firmly and peacefully -- not forcefully",
+    "a validly obtained warrant is not a blank check for forcible entry"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Justice Ricardo R. Rosario (ponente, People v. Bautista)",
+      "Justice Alfredo Benjamin S. Caguioa (ponente, People v. Sapla)",
+      "Senior Associate Justice Marvic M.V.F. Leonen (ponente, People v. Enriquez)",
+      "Justice Mario V. Lopez (ponente, Comamo v. People)",
+      "Justice Jhosep Y. Lopez (ponente, People v. Acdang)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Philippine National Police (implied -- search-warrant executors)",
+      "Bureau of Customs (implied -- customs-search exception)"
+    ],
+    "cases": [
+      "People v. Bautista (Oct 15 2025, released Feb 25 2026)",
+      "People v. Sapla (June 16 2020)",
+      "Comamo v. People (March 4 2025)",
+      "People v. Enriquez (Aug 7 2024)",
+      "People v. Acdang (Feb 4 2025)"
+    ],
+    "laws_and_documents": [
+      "1987 Constitution Article III Section 2 (Bill of Rights)",
+      "Revised Rules of Criminal Procedure"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The constitutional right against unreasonable arrests, searches, and seizures under Article III Section 2 is 'inviolable' -- a core aspect of the right to privacy and security, clear in its command yet nuanced in its application, as shown by the Feb 25 2026 release of People v. Bautista (Oct 15 2025 decision per J Rosario).",
+      "rhetorical_move": "inviolable-but-nuanced opening + Bautista-as-anchor",
+      "confidence": "asserted as constitutional baseline"
+    },
+    {
+      "claim": "As a general rule, no person may be arrested or searched and no article seized without a judge-issued warrant grounded on probable cause -- facts and circumstances that would lead a reasonably discreet and prudent person to believe (1) an offense had been committed and (2) the items sought are in the place to be searched.",
+      "rhetorical_move": "general-rule + probable-cause definitional framing",
+      "confidence": "asserted as black-letter doctrine"
+    },
+    {
+      "claim": "People v. Sapla (June 16 2020, per J Caguioa) correctly held that a search warrant grounded solely on an unverified anonymous text-message tip is illegal, and the Bill of Rights bars use of illegally obtained evidence 'in any proceeding' -- the Court rightly acquitted.",
+      "rhetorical_move": "Sapla-as-exemplar of strict warrant-requirement enforcement",
+      "confidence": "asserted with case-citation endorsement"
+    },
+    {
+      "claim": "Jurisprudence recognizes seven warrantless-search exceptions -- (1) incident to lawful arrest, (2) plain view, (3) moving vehicle, (4) consent, (5) customs authorities, (6) stop-and-frisk, (7) exigent/emergency circumstances -- but the plain-view doctrine deserves particular attention because of its frequent and sometimes misapplied use.",
+      "rhetorical_move": "seven-exceptions enumeration + plain-view-deserves-attention pivot",
+      "confidence": "asserted with selective deep-dive"
+    },
+    {
+      "claim": "People v. Bautista correctly ruled that although some items were not in plain view, the warrantless search remained valid because it was done in flagrante delicto as part of a lawful arrest; and Comamo v. People (March 4 2025) correctly clarified that even where a warrant lacks specificity, contraband discovered during an otherwise lawful search may be seized (firearms beyond the listed unlicensed gun in the same cabinet).",
+      "rhetorical_move": "Bautista + Comamo paired-case validation of in-flagrante and plain-view extensions",
+      "confidence": "asserted with double-case endorsement"
+    },
+    {
+      "claim": "The exceptions are strictly construed against law enforcers precisely because the right against unreasonable searches and seizures is 'inviolable' -- though enforcement is limited by the rights of others, so at gated subdivisions, malls, or private establishments, security personnel may inspect items in plain sight while citizens retain the right to refuse entry (with establishments retaining the correlative right to deny entry).",
+      "rhetorical_move": "strict-construction principle + private-property balancing",
+      "confidence": "asserted as doctrinal balance"
+    },
+    {
+      "claim": "At home, the rules are even more stringent under the knock-and-announce rule -- police must announce presence, identity, and authority before entry; People v. Enriquez (Aug 7 2024, per SAJ Leonen) correctly acquitted the accused because officers failed to announce and failed to justify the omission, since a validly obtained warrant is not a blank check for forcible entry.",
+      "rhetorical_move": "knock-and-announce + Enriquez-as-validating-acquittal + blank-check repudiation",
+      "confidence": "asserted with case-citation endorsement"
+    },
+    {
+      "claim": "In drug cases the prosecution must establish unbroken chain of custody -- People v. Acdang (Feb 4 2025, per J Jhosep Lopez) correctly acquitted the accused because the prosecution failed to establish this chain, raising doubt about the identity and integrity of the corpus delicti.",
+      "rhetorical_move": "chain-of-custody requirement + Acdang-as-exemplar",
+      "confidence": "asserted with case-citation endorsement"
+    },
+    {
+      "claim": "In our democracy, every person is presumed innocent unless proven guilty beyond reasonable doubt -- not a mere technicality but a shield against the excesses of power; the same principle animates the right against unreasonable searches and seizures, a reminder that the State's duty to maintain order must be balanced by its higher obligation to preserve liberty.",
+      "rhetorical_move": "presumption-of-innocence + State's-higher-obligation balancing maxim",
+      "confidence": "asserted as democratic-doctrine principle"
+    },
+    {
+      "claim": "Liberty is best protected by awareness, not by aggression -- rights are asserted firmly and peacefully, not forcefully, and assertion begins with knowledge that CJP hopes readers learned today.",
+      "rhetorical_move": "awareness-not-aggression + firmly-and-peacefully closing pedagogical exhortation",
+      "confidence": "asserted as closing civic charge"
+    }
+  ],
+  "notable_anecdotes": [
+    "Sapla case where Court rejected a search warrant grounded solely on an unverified anonymous text-message tip -- accused acquitted",
+    "Bautista decision (Feb 25 2026 release) where warrantless seizure of items not in plain view was upheld because conducted in flagrante delicto as part of lawful arrest",
+    "Comamo ruling allowing seizure of unlisted firearms and ammunition found in the same cabinet as the warrant-listed unlicensed gun",
+    "Enriquez acquittal because officers failed to announce identity and authority before entry and failed to justify the omission",
+    "Acdang acquittal in a drug case because the prosecution failed to establish unbroken chain of custody",
+    "Mall/subdivision security analogue -- security personnel limited to plain-sight inspection + establishment's correlative right to deny entry"
+  ],
+  "target_audience": [
+    "General Filipino readership -- primary 'every citizen, every law enforcer' addressee",
+    "Lawyers and law students",
+    "Police and law enforcement personnel",
+    "Mall and subdivision security personnel",
+    "Bill-of-Rights advocates and human-rights observers"
+  ],
+  "register_markers": [
+    "Pedagogical legal-opinion register -- explains general doctrine then drills into illustrative cases",
+    "Numbered enumeration of the seven warrantless-search exceptions",
+    "Alternating general-doctrine + recent-case-illustration structure",
+    "Civic-exhortation closing -- 'liberty is best protected by awareness, not by aggression'",
+    "All-caps section-lead-ins ('AS A GENERAL RULE', 'TO BE SURE', 'THE EXCEPTIONS ARE STRICTLY CONSTRUED')"
+  ],
+  "decision_framework_signals": [
+    "Probable-cause test -- facts-and-circumstances leading reasonably discreet and prudent person to believe offense committed + items in place to be searched",
+    "Warrant-requirement-as-rule + seven-enumerated-exceptions strictly construed against the State",
+    "Knock-and-announce-rule preceding home entry",
+    "Presumption of innocence beyond reasonable doubt as shield against State power",
+    "Chain-of-custody requirement in drug cases as corpus-delicti integrity check",
+    "Balance -- State's order-maintenance duty vs higher obligation to preserve liberty",
+    "Exclusionary rule barring illegally obtained evidence in any proceeding"
+  ],
+  "one_paragraph_summary": "Panganiban explains the constitutional protection against unreasonable arrests, searches, and seizures under Article III Section 2, anchored on a freshly released February 25 2026 Supreme Court decision in People v. Bautista penned by Justice Rosario. He lays out the general warrant requirement, the probable-cause standard, and the seven jurisprudentially recognized exceptions where warrantless searches are permitted, then drills into the plain-view doctrine and the knock-and-announce rule with illustrative recent cases -- Sapla rejecting anonymous text tips, Bautista upholding in-flagrante-delicto seizure incident to lawful arrest, Comamo allowing seizure of unlisted contraband during an otherwise lawful search, Enriquez acquitting due to no-announce entry, and Acdang acquitting due to broken chain of custody. He stresses that exceptions are strictly construed against law enforcers, that private establishments may inspect items only in plain sight while citizens retain the right to refuse entry, and closes urging citizens to assert rights firmly and peacefully through knowledge rather than force.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

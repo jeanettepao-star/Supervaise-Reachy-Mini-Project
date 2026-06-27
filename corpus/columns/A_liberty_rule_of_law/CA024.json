@@ -1,52 +1,137 @@
 {
   "id": "CA024",
+  "format": "C",
   "type": "column",
   "theme": "A",
   "theme_label": "Liberty and Rule of Law",
   "number": 24,
   "title": "Martial law, authoritarian rule and Cha-cha",
   "date": "2017-10-01",
-  "year": 2017,
-  "source_url": "https://opinion.inquirer.net/107543/martial-law-authoritarian-rule-cha-cha",
-  "routing": {
-    "primary_intent": [
-      "legal_education",
-      "opinions"
-    ],
-    "secondary_intent": [],
-    "audience_match": [],
-    "complexity": "medium",
-    "emotional_register": []
-  },
-  "topic_paths": {
-    "primary": [
-      "constitutional_doctrine"
-    ],
-    "secondary": []
-  },
+  "link": "https://opinion.inquirer.net/107543/martial-law-authoritarian-rule-cha-cha",
   "keywords": [
-    "constitutional martial law limits",
-    "rebellion/invasion only trigger",
-    "1987 Charter safeguards",
-    "Sec. Lorenzana",
-    "authoritarian rule warning",
-    "coup d'Ã©tat risk",
-    "Cha-cha radical alteration possibilities"
+    "constitutional martial law yes",
+    "authoritarian rule no",
+    "Cha-cha neither yes nor no",
+    "Lorenzana Año constitutional limits",
+    "72-hour detention habeas corpus"
   ],
-  "primary_topics": [],
-  "sub_topics": [],
-  "signature_phrases": [],
+  "primary_topics": [
+    "Yes to constitutional martial law -- no to authoritarian rule",
+    "Cha-cha: neither yes nor no pending specific details",
+    "Lorenzana and Año praised for observing constitutional ML limits"
+  ],
+  "sub_topics": [
+    "September rallies: Sept. 11 (Marcos 100th birthday) and Sept. 21 (45th ML anniversary)",
+    "Author in the US during both dates",
+    "Anti-ML mantra: 'No to martial law! Never again! Martial law is evil!'",
+    "1987 Constitution exorcised Marcos ML evils with adequate safeguards",
+    "ML restricted to actual rebellion or invasion only (not other crimes) when public safety requires",
+    "Congress and SC each authorized to review and strike down",
+    "Art. III (Bill of Rights) not suspended under constitutional ML",
+    "Only immediate adverse effect: 72-hour detention (vs normal 36-hour) for rebellion/invasion suspects, only if habeas corpus also suspended",
+    "Defense Secretary Lorenzana: ML administrator in Mindanao; aware of constitutional limits; author convinced he is a gentleman",
+    "AFP Chief Año: also aware of constitutional limits",
+    "ML not evil per se -- if it were, Constitution should have prohibited it",
+    "Authoritarian rule: Constitution ignored, head of state governs alone",
+    "Authoritarian rule mechanism 1: President with military support sets aside Constitution",
+    "Authoritarian rule mechanism 2: military coup d'état",
+    "Authoritarian rule consequences: Bill of Rights obliterated, Congress and SC abolished, checks and balances abrogated",
+    "Duterte: said a few days ago he respects and will always follow the Constitution",
+    "Neither yes nor no to Cha-cha: no details on specific federal model",
+    "Cha-cha could abolish presidency, Congress, Senate; cut terms; alter Bill of Rights",
+    "Since Spanish colonization: always centralized government; no federal experience",
+    "Federalism will usher in new way of governance, new officials, new rules -- as novel as a RevGov"
+  ],
+  "signature_phrases": [
+    "No to martial law! Never again! Martial law is evil!",
+    "exorcised the evils of ML",
+    "ML not evil per se",
+    "No to authoritarian rule",
+    "Neither yes nor no to Cha-cha for now",
+    "rule by might, not by right",
+    "I am convinced he is a gentleman determined to honor these limits",
+    "will eventually be judged by history",
+    "as novel as a revolutionary government"
+  ],
   "entities": {
-    "people": [],
-    "institutions": [],
+    "people": [
+      "Defense Secretary Delfin Lorenzana",
+      "AFP Chief of Staff Eduardo Año",
+      "President Rodrigo Duterte",
+      "President Ferdinand Marcos",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Congress of the Philippines",
+      "Supreme Court of the Philippines",
+      "Armed Forces of the Philippines"
+    ],
     "cases": [],
-    "laws_treaties": [],
-    "events": []
+    "laws_treaties": [
+      "1987 Constitution (Art. VII Sec. 18 -- martial law; Art. III -- Bill of Rights)"
+    ],
+    "events": [
+      "September 11, 2017 rallies (Marcos 100th birthday)",
+      "September 21, 2017 rallies (45th ML anniversary)",
+      "Marawi siege and Mindanao martial law (2017)",
+      "Proposed Cha-cha federalism"
+    ]
   },
-  "stances": [],
-  "notable_anecdotes": [],
-  "decision_framework_signals": [],
-  "target_audience": [],
-  "register_markers": [],
-  "one_paragraph_summary": ""
+  "stances": [
+    {
+      "claim": "Constitutional martial law need not be feared -- the 1987 Constitution's safeguards (rebellion/invasion-only grounds, 60-day limit, congressional and SC review, no habeas corpus or Bill of Rights suspension) make it a manageable emergency measure.",
+      "rhetorical_move": "yes-to-constitutional-ML affirmation",
+      "confidence": "high"
+    },
+    {
+      "claim": "Defense Secretary Lorenzana and AFP Chief Año are aware of the constitutional limits of Mindanao ML and have carefully observed them -- Lorenzana is a gentleman who knows he will be judged by history.",
+      "rhetorical_move": "personal endorsement of named officials",
+      "confidence": "high"
+    },
+    {
+      "claim": "Authoritarian rule -- where the Constitution is ignored and the head of state governs alone -- must be guarded against; it obliterates the Bill of Rights, abolishes Congress and the SC, and abrogates checks and balances.",
+      "rhetorical_move": "no-to-authoritarian-rule warning",
+      "confidence": "high"
+    },
+    {
+      "claim": "On Cha-cha: the author takes neither yes nor no because there are still no details on the specific federal model -- and the possibilities include abolishing the presidency, Congress, and the Senate.",
+      "rhetorical_move": "principled suspension of judgment pending specifics",
+      "confidence": "high"
+    },
+    {
+      "claim": "ML is not evil per se -- if it were, the 1987 Constitution would have prohibited rather than merely restricted it.",
+      "rhetorical_move": "textualist constitutional argument disproving ML-as-inherently-evil",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The author observing the September 11 and 21 rallies from the United States -- giving him a detached perspective on the anti-ML passion in Philippine streets.",
+    "The 72-hour vs 36-hour detention distinction: the only immediate adverse effect of constitutional ML on ordinary citizens -- and even this requires a simultaneous suspension of the privilege of the writ of habeas corpus.",
+    "The author's personal conversations with Defense Secretary Lorenzana -- convinced he is 'a gentleman determined to honor these limits' who 'knows that he is being watched by our people and that he will eventually be judged by history.'",
+    "Federalism as 'as novel as a revolutionary government' -- a rhetorical equation linking Cha-cha's radicalism to RevGov-level disruption without the illegality."
+  ],
+  "target_audience": [
+    "Anti-ML rally participants and civic activists",
+    "Defense establishment (Lorenzana, Año, AFP) implementing Mindanao ML",
+    "Congress members about to debate Cha-cha",
+    "Civic readership seeking a calibrated position on ML",
+    "Constitutional scholars distinguishing ML from authoritarian rule"
+  ],
+  "register_markers": [
+    "Three-part yes/no/neither structure as organizing principle",
+    "Anti-ML rally mantra quoted before rebutting",
+    "Personal-character endorsement of named officials",
+    "Textualist constitutional argument (if ML were evil, the Charter would prohibit it)",
+    "Principled-suspension-of-judgment framing for Cha-cha",
+    "RevGov-as-Cha-cha-parallel closing comparison"
+  ],
+  "decision_framework_signals": [
+    "Apply the three-position framework: yes to constitutional ML; no to authoritarian rule; neither yes nor no to Cha-cha until details are known",
+    "Evaluate ML by its constitutional constraints, not its historical misuse -- the 1987 safeguards make it a manageable tool",
+    "Identify the one adverse effect: 72-hour detention (not life imprisonment, not Bill of Rights suspension)",
+    "Demand specifics before taking a position on Cha-cha -- federalism models vary dramatically in their constitutional consequences",
+    "Use history as the ultimate check on ML implementors: Lorenzana and Año know they will be judged"
+  ],
+  "one_paragraph_summary": "Observing the September rallies (September 11 for Marcos's 100th birthday; September 21 for the 45th ML anniversary) from the United States, Panganiban takes three positions. First, yes to constitutional martial law: the 1987 Constitution has adequately restricted ML to suppressing actual rebellion or invasion (nothing else) when public safety requires it, with congressional and SC review powers, no suspension of the Bill of Rights, and the only immediate adverse effect being authority to detain suspects for 72 hours (vs the normal 36 hours) -- and only if habeas corpus is also suspended. Defense Secretary Lorenzana and AFP Chief Año, administering Mindanao ML, are personally aware of these limits and have observed them; the author finds Lorenzana a genuine gentleman who knows he will be judged by history. ML is not evil per se -- if it were, the 1987 Constitution would have prohibited rather than merely restricted it. Second, no to authoritarian rule: the scenario where the President, backed by the military, sets aside the Constitution and governs alone -- or where a military coup installs a new regime -- obliterates the Bill of Rights, abolishes Congress and the SC, and abrogates all checks and balances. Duterte has recently said he respects and will always follow the Constitution. Third, neither yes nor no to Cha-cha: the author has no position yet because no specific federal model has been presented; the Philippines has no experience with anything but centralized government since the Spanish colonization; and Cha-cha could also abolish the presidency, Congress, and the Senate, cut all official terms, and alter the Bill of Rights -- making it 'as novel as a revolutionary government.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
 }

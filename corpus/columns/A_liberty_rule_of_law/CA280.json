@@ -1,0 +1,130 @@
+{
+  "id": "CA280",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 280,
+  "title": "Cha-cha stand of the three retired CJs",
+  "date": "2018-03-18",
+  "link": "https://opinion.inquirer.net/111813/cha-cha-stand-three-retired-cjs",
+  "keywords": [
+    "Puno ConCom federalism",
+    "Davide anti-federalism lethal experiment",
+    "Panganiban open to Cha-cha not federalism",
+    "political dynasty ConCom second degree",
+    "constituent assembly PDP-Laban"
+  ],
+  "primary_topics": [
+    "Three retired CJs' divergent positions on Charter change",
+    "Author's conditional openness to constitutional updating",
+    "ConCom's political-dynasty regulation as a notable early vote"
+  ],
+  "sub_topics": [
+    "CJ Puno: definitively for Cha-cha and federalism; heads the ConCom",
+    "ConCom mode: constituent assembly (Con-ass)",
+    "ConCom recommendations → President → Congress",
+    "President has no formal constitutional role but political sway over PDP-Laban supermajority",
+    "Bill of Rights: fear of downgrading is more imagined than real; Puno is libertarian",
+    "CJ Davide: passionately contra; 1987 Constitution is the 'best Constitution of the world'",
+    "Davide's federalism epithets: 'lethal experiment, fatal leap, plunge to death, leap to hell'",
+    "Davide's alternative: effective decentralization under the present Charter; BBL as model",
+    "Author: Constitution is good but not perfect; needs updating",
+    "Author: not convinced on federalism but open to specifics",
+    "Author monitoring ConCom, PDP-Laban, and Congress pronouncements",
+    "ConCom vote: second-degree consanguinity/affinity dynasty prohibition",
+    "Ateneo de Manila School of Governance: 75% of Congress belongs to dynastic families",
+    "Damascus-road experience metaphor for legislative conversion"
+  ],
+  "signature_phrases": [
+    "lethal experiment, fatal leap, plunge to death, leap to hell",
+    "untried and untested in our country and by our people",
+    "best Constitution of the world",
+    "more imagined than real",
+    "not convinced we need federalism",
+    "generic concept with many faces, types and forms",
+    "Damascus-road experience",
+    "Our legislators may yet encounter their Damascus-road experience and surprise us"
+  ],
+  "entities": {
+    "people": [
+      "CJ Reynato S. Puno (youngest retired CJ; ConCom head)",
+      "CJ Hilario G. Davide Jr. (oldest retired CJ)",
+      "Artemio V. Panganiban (author, middle retired CJ)",
+      "President Rodrigo Duterte (ConCom creator; PDP-Laban chair)",
+      "Senate President Aquilino Pimentel III (PDP-Laban president)",
+      "Speaker Pantaleon Alvarez (PDP-Laban secretary general)"
+    ],
+    "institutions": [
+      "Consultative Committee (ConCom)",
+      "PDP-Laban",
+      "Congress of the Philippines",
+      "1986 Constitutional Commission",
+      "Ateneo de Manila School of Governance"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution (amendment/revision via constituent assembly)",
+      "Bangsamoro Basic Law (BBL) -- decentralization model",
+      "ConCom's proposed dynasty prohibition: second-degree consanguinity/affinity"
+    ],
+    "events": [
+      "ConCom daily meetings toward SONA (July 23, 2018)",
+      "ConCom vote on dynasty prohibition (second degree)",
+      "SONA State of the Nation Address (July 23, 2018)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "CJ Puno is definitively for Cha-cha and federalism; as ConCom head he is a libertarian unlikely to downgrade the Bill of Rights.",
+      "rhetorical_move": "characterization with reassurance on rights protection",
+      "confidence": "high"
+    },
+    {
+      "claim": "CJ Davide is passionately contra any constitutional change, calling federalism a 'lethal experiment, fatal leap, plunge to death, and leap to hell,' and proposing effective decentralization under the current Charter plus the BBL as the better path.",
+      "rhetorical_move": "dramatic quotation followed by constructive alternative",
+      "confidence": "high"
+    },
+    {
+      "claim": "The author concedes the 1987 Constitution is good but not perfect and needs updating, but is not convinced federalism is needed -- he is open and willing to listen once the specifics are laid out clearly.",
+      "rhetorical_move": "calibrated openness with conditionality",
+      "confidence": "high"
+    },
+    {
+      "claim": "The ConCom's dynasty prohibition vote (second degree consanguinity/affinity) is a notable reform -- but has little chance of surviving Congress given Ateneo data showing 75% of legislators are from dynastic families.",
+      "rhetorical_move": "realism-based prognosis on the dynasty provision",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ Davide's colorful federalism epithets: 'lethal experiment, fatal leap, plunge to death, and leap to hell' -- paired with calling the 1987 Charter (of which he was a drafter) 'the best Constitution of the world.'",
+    "The ConCom meeting daily toward the July 23 SONA deadline -- the author monitoring its pronouncements as a source of regular column material.",
+    "The Ateneo School of Governance finding: 75% of Congress members belong to dynastic families -- making the ConCom's dynasty provision's constitutional fate unlikely.",
+    "The 'Damascus-road experience' metaphor applied to Congress -- hoping lawmakers will have a conversion moment on dynasty prohibition."
+  ],
+  "target_audience": [
+    "ConCom members debating specific proposals",
+    "Congress deliberating on Cha-cha",
+    "Civic society watching the three retired CJs' positions",
+    "Constitutional law scholars",
+    "Anti-dynasty advocates"
+  ],
+  "register_markers": [
+    "Three-portrait comparative structure (Puno / Davide / Panganiban)",
+    "Vivid quotation from Davide's epithets",
+    "Conditional-openness framing ('not convinced but open')",
+    "Biblical metaphor ('Damascus-road experience')",
+    "Data-based prognosis (Ateneo 75% dynasty statistic)",
+    "First-person monitoring-and-reporting register"
+  ],
+  "decision_framework_signals": [
+    "Three distinct positions on Cha-cha: definite yes (Puno), passionate no (Davide), conditional yes-if-specified (Panganiban) -- none of the three is unreasonable",
+    "Test constitutional-change proposals against the specific needs and realities they are meant to address -- generic federalism is not a plan",
+    "Use the Bill of Rights as a non-negotiable floor -- any revision that weakens it is disqualifying",
+    "Evaluate ConCom reforms individually, not as a package -- some (dynasty provision, SCS language) may be good even if federalism is not",
+    "Assess legislative feasibility using data (Ateneo 75% dynasty finding) rather than hope",
+    "Accept that decentralization goals can be achieved through existing constitutional mechanisms (BBL model) without revision"
+  ],
+  "one_paragraph_summary": "Panganiban maps the three retired chief justices' divergent positions on Charter change. CJ Puno, the youngest, heads the Consultative Committee as a definitive federalism proponent -- his known libertarianism reassuring against any downgrading of the Bill of Rights. CJ Davide, the oldest, is passionately contra: he calls federalism a 'lethal experiment, fatal leap, plunge to death, and leap to hell' -- untried and untested -- and insists the 1987 Constitution (of which he was a drafter) is 'the best Constitution of the world,' arguing that effective decentralization and power-sharing are already assured by the current Charter and that the BBL is the model to follow. The author occupies the middle position: the 1987 Constitution is good but not perfect and needs updating, yet he is not convinced federalism is needed, remaining open to listening once the specifics are laid out clearly and precisely -- since federalism is a generic concept with many faces. He monitors the ConCom (which meets daily toward the July 23 SONA deadline), PDP-Laban, and Congress. He notes the ConCom's early vote to prohibit simultaneous holding of national and regional/local positions by persons within the second degree of consanguinity or affinity, but is skeptical this will survive Congress -- citing Ateneo School of Governance data showing 75% of legislators belong to dynastic families -- while holding out hope for a 'Damascus-road experience' among lawmakers.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

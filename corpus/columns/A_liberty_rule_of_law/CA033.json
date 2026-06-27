@@ -1,0 +1,172 @@
+{
+  "id": "CA033",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 33,
+  "title": "Safeguarding gender justice",
+  "date": "2026-01-05",
+  "link": "https://opinion.inquirer.net/188769/safeguarding-gender-justice",
+  "keywords": [
+    "gender justice",
+    "ASEAN",
+    "Cedaw",
+    "legal pluralism",
+    "constitution"
+  ],
+  "primary_topics": [
+    "ASEAN Law Association Inaugural Lecture Series on Gender Justice -- Kuala Lumpur, keynoted by former Malaysian CJ Tun Tengku Maimun binti Tuan Mat",
+    "Legal pluralism in Philippine and Malaysian systems + its tension with constitutional equality guarantees",
+    "Philippine track record on Cedaw + Magna Carta for Women + gender-justice jurisprudence",
+    "Constitutional equality as prevailing standard when plural systems collide with fundamental rights",
+    "Reframing gender justice as fairness and dignity for half the population, not female privilege over male"
+  ],
+  "sub_topics": [
+    "Philippine legal pluralism -- civil law + common law + IPRA-recognized indigenous customary law + PD 1083 Code of Muslim Personal Law",
+    "Marcos's 2024 creation of three new Shari'a Judicial Districts and 12 additional Shari'a Circuit Courts (first codified by his late father)",
+    "PD 1083 jurisdiction over marriage + divorce + inheritance",
+    "Bondagjy v. Bondagjy (Dec 7 2001) -- inter-religious custody decided under ordinary Philippine civil law when one parent converted to non-Muslim faith + maternal preference for young children + best-interest-of-the-child standard",
+    "CJ Maimun's equality test -- equality does not always demand identical treatment + requires intelligible differentia + rational nexus to law's objective",
+    "Biblical wifely-submission balanced by husbandly-love-unto-death obligation (Christ's love for the Church)",
+    "People v. Genosa (Jan 15 2004 per CJP) -- first Philippine adoption of battered woman syndrome as self-defense or mitigating circumstance + 13-years sustained spousal abuse + parricide context",
+    "Philippines as first ASEAN ratifier of Cedaw (1981)",
+    "Magna Carta for Women (Republic Act 9710) as domestic adoption of Cedaw measures",
+    "Malaysian highest court ruling that pregnancy cannot be a legal basis for gender discrimination",
+    "Supreme Court Strategic Plan for Judicial Innovations (SPJI) 2022-2027 + 'Equal and Inclusive Justice' transformative work",
+    "2025 Campaign to End Violence Against Women -- vigilance + clarity + empathy as continuing decision-making standards"
+  ],
+  "signature_phrases": [
+    "legal pluralism",
+    "intelligible differentia",
+    "rational nexus to the objective of the law",
+    "equal and inclusive justice",
+    "bridge in harmonizing diverse legal traditions",
+    "vigilance, clarity, and empathy",
+    "gender justice is not about privileging women over men, but about fairness, dignity",
+    "do not leave more than half of our population marginalized and vulnerable",
+    "legal pluralism is not a barrier but a source of strength",
+    "battered woman syndrome"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Chief Justice Alexander G. Gesmundo (sending CJP as Philippine representative)",
+      "Tun Tengku Maimun binti Tuan Mat (former CJ of Malaysia + ALA President + lecture keynote speaker)",
+      "President Ferdinand Marcos Jr (2024 Shari'a court expansion)",
+      "President Ferdinand Marcos Sr (PD 1083 original codifier, late father reference)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Malaysian Supreme Court",
+      "ASEAN Law Association (ALA)",
+      "Shari'a Judicial Districts (three new) + Shari'a Circuit Courts (12 additional)",
+      "United Nations (Cedaw treaty body)"
+    ],
+    "cases": [
+      "Bondagjy v. Bondagjy (Dec 7 2001)",
+      "People v. Genosa (Jan 15 2004, ponente CJP as Associate Justice)",
+      "Malaysian highest-court pregnancy-discrimination ruling (cited by CJ Maimun)"
+    ],
+    "laws_and_documents": [
+      "Republic Act 8371 (Indigenous Peoples' Rights Act)",
+      "Presidential Decree 1083 (Code of Muslim Personal Law)",
+      "Convention on the Elimination of All Forms of Discrimination Against Women (Cedaw, 1981 PH ratification)",
+      "Republic Act 9710 (Magna Carta for Women)",
+      "Supreme Court Strategic Plan for Judicial Innovations (SPJI) 2022-2027",
+      "2025 Campaign to End Violence Against Women"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "At the request of CJ Gesmundo, CJP represented the Philippines in the recent ASEAN Law Association (ALA) 'Inaugural Lecture Series on Gender Justice' in Kuala Lumpur, sponsored by the Malaysian Supreme Court and keynoted by ALA President and former Malaysian CJ Tun Tengku Maimun binti Tuan Mat -- whose lecture was both 'intellectually rigorous and deeply humane,' grounded in constitutional interpretation yet attentive to lived realities in societies shaped by multiple legal traditions.",
+      "rhetorical_move": "Gesmundo-request + CJ-Maimun-keynote intellectually-rigorous-deeply-humane characterization opening",
+      "confidence": "asserted as event-anchored tribute"
+    },
+    {
+      "claim": "Many ASEAN countries, including Malaysia and the Philippines, uphold legal pluralism -- the coexistence of multiple laws within one nation. The Philippine legal system blends civil and common law, though it also recognizes the customary laws of indigenous peoples under the IPRA and the Code of Muslim Personal Law (PD 1083).",
+      "rhetorical_move": "legal-pluralism definitional framing + Philippine-blend taxonomy",
+      "confidence": "asserted as comparative-law observation"
+    },
+    {
+      "claim": "Notably, President Marcos approved in 2024 the creation of three new Shari'a Judicial Districts and 12 additional Shari'a Circuit Courts -- these courts, as first codified by his late father, enforce PD 1083 adjudicating marriage, divorce, and inheritance, areas where gender-equality issues are relevant.",
+      "rhetorical_move": "Marcos-2024 expansion + father-precedent + gender-equality-relevant qualifier",
+      "confidence": "asserted with policy-anchoring"
+    },
+    {
+      "claim": "Bondagjy v. Bondagjy (Dec 7 2001) correctly ruled that a custody proceeding between two Muslim parents should be decided according to ordinary Philippine civil law if one parent -- whose fitness to care for the child became the issue -- has converted to a non-Muslim faith; the SC held that the best interest of the child should have the highest priority and affirmed the maternal preference in the custody of young children.",
+      "rhetorical_move": "Bondagjy citation + best-interest-of-child + maternal-preference principles",
+      "confidence": "asserted with case-citation endorsement"
+    },
+    {
+      "claim": "CJ Maimun rightly articulated that the challenge is not to deny pluralism but to ensure that constitutional guarantees of equality prevail when plural systems collide with fundamental rights -- 'Equality does not always demand identical treatment in all circumstances. What it requires is that any difference in treatment must rest on an intelligible differentia and that such differentia must bear a rational nexus to the objective of the law.'",
+      "rhetorical_move": "Maimun verbatim citation + intelligible-differentia + rational-nexus equality-test",
+      "confidence": "asserted with verbatim-quotation endorsement"
+    },
+    {
+      "claim": "The Philippines can be proud of its track record in advancing gender justice and overcoming challenges posed by both legal and religious pluralism -- as a predominantly Catholic country, religious teachings (particularly biblical views on women and life) continue to influence social attitudes and at times policy debates. Husbands citing the Bible insist that wives must be submissive to their husbands as to the Lord -- they however forget the crucial portion that follows: husbands must love their wives as Christ loved the Church to the point of death.",
+      "rhetorical_move": "Philippine-track-record affirmation + biblical-balance corrective (Christ-loved-Church-unto-death matched-obligation)",
+      "confidence": "asserted as scriptural-doctrinal corrective"
+    },
+    {
+      "claim": "The Constitution is clear in recognizing the role of women in nation-building and ensuring the fundamental equality of women and men before the law -- over the years these constitutional commitments have been translated into laws and influenced legal decisions.",
+      "rhetorical_move": "Constitution-clear + commitment-to-laws translation framing",
+      "confidence": "asserted as constitutional-doctrine"
+    },
+    {
+      "claim": "While still an Associate Justice, CJP penned People v. Genosa (Jan 15 2004) -- adopting for the first time the 'battered woman syndrome' as a form of self-defense, or at least as a mitigating circumstance, in a prosecution for parricide committed by a wife against her husband; the ruling acknowledged the mental state of a pregnant woman who at the time of the crime had endured sustained and medically documented abuse by her spouse for over 13 years.",
+      "rhetorical_move": "first-person Genosa-authorship + battered-woman-syndrome first-Philippine-adoption + 13-years-documented-abuse anchoring",
+      "confidence": "asserted with first-person-authorship endorsement"
+    },
+    {
+      "claim": "The Philippines was the first ASEAN country to ratify Cedaw in 1981 and locally adopted the convention's measures through the Magna Carta for Women (RA 9710) -- in CJ Maimun's words, 'Cedaw serves as a bridge in harmonizing diverse legal traditions with universal principles of equality, justice, and fairness.' The Malaysian highest court committed to Cedaw in ruling that pregnancy cannot be a legal basis for gender discrimination.",
+      "rhetorical_move": "first-ASEAN-ratifier + Maimun verbatim Cedaw-as-bridge + Malaysian-pregnancy-discrimination ruling-citation",
+      "confidence": "asserted with multi-jurisdiction track-record"
+    },
+    {
+      "claim": "The SC reiterated its transformative work in fulfilling 'Equal and Inclusive Justice' via its Strategic Plan for Judicial Innovations (SPJI 2022-2027) -- specifically in the '2025 Campaign to End Violence Against Women,' the Court stressed that 'vigilance, clarity, and empathy must be continuing standards in decision-making.'",
+      "rhetorical_move": "SPJI-2022-2027 + 2025-anti-VAW + vigilance-clarity-empathy verbatim triplet",
+      "confidence": "asserted with institutional-commitment citation"
+    },
+    {
+      "claim": "As CJ Maimun concluded, gender justice transcends legal systems and borders -- legal pluralism is not a barrier but a source of strength; it should not become an excuse to perpetuate inequality but rather a pathway toward a more inclusive and just regional order. CJP humbly adds that gender justice is not about privileging women over men, but about fairness, dignity, and assuring that our legal systems -- plural as they may be -- do not leave more than half of our population marginalized and vulnerable.",
+      "rhetorical_move": "Maimun-conclusion + CJP-humble-addition + half-of-population marginalized-and-vulnerable closing-redefinition",
+      "confidence": "asserted as closing redefinition of gender justice"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJP representing the Philippines at the ALA inaugural Lecture Series on Gender Justice in Kuala Lumpur at CJ Gesmundo's request",
+    "CJ Maimun's keynote framing equality as not always demanding identical treatment but requiring intelligible differentia with rational nexus",
+    "Marcos's 2024 expansion creating three new Shari'a Judicial Districts and 12 additional Shari'a Circuit Courts (first codified by his late father)",
+    "CJP's authorship of People v. Genosa (Jan 15 2004) adopting battered woman syndrome for a wife-defendant who endured 13 years of documented abuse",
+    "Bondagjy v. Bondagjy holding that custody between Muslim parents should be decided under ordinary Philippine civil law when one parent converted to non-Muslim faith",
+    "Philippine first-in-ASEAN 1981 ratification of Cedaw",
+    "Malaysian highest-court ruling that pregnancy cannot be a basis for gender discrimination",
+    "Biblical-balance corrective -- husbands invoking wifely submission forget the matched obligation to love wives as Christ loved the Church unto death"
+  ],
+  "target_audience": [
+    "ASEAN judiciary network and gender-justice practitioners",
+    "Inquirer readers tracking gender + religion + law intersections",
+    "Cedaw and Magna Carta for Women implementation advocates",
+    "Shari'a court practitioners and observers",
+    "Constitutional law scholars and pluralism theorists"
+  ],
+  "register_markers": [
+    "Comparative-law register tracking Philippine and Malaysian parallels",
+    "Quotes CJ Maimun's keynote extensively",
+    "Weaves constitutional doctrine with biblical balance and CJP's personal authorship of Genosa",
+    "All-caps section-lead-ins ('MANY ASEAN COUNTRIES', 'THE PHILIPPINES CAN BE PROUD', 'THE FIRST ASEAN COUNTRY')",
+    "Closes with civic redefinition of gender justice as fairness for half the population"
+  ],
+  "decision_framework_signals": [
+    "Constitutional equality prevailing over plural legal systems when fundamental rights collide",
+    "Intelligible differentia with rational nexus to law's objective as equality test",
+    "Best-interest-of-the-child standard for inter-religious custody disputes",
+    "Battered woman syndrome as self-defense or mitigating circumstance",
+    "Cedaw and Magna Carta for Women as binding domestic-international bridge",
+    "Vigilance + clarity + empathy as continuing judicial decision-making standards",
+    "Legal pluralism as strength rather than barrier -- gender justice across plural systems"
+  ],
+  "one_paragraph_summary": "At Chief Justice Gesmundo's request, Panganiban represented the Philippines at the ASEAN Law Association's Inaugural Lecture Series on Gender Justice in Kuala Lumpur, keynoted by former Malaysian Chief Justice Tun Tengku Maimun. He surveys Philippine legal pluralism -- civil law, common law, IPRA-recognized indigenous customary law, and PD 1083's Code of Muslim Personal Law (expanded by Marcos's 2024 creation of three new Shari'a Judicial Districts and 12 Circuit Courts) -- and shows how constitutional equality should prevail when plural systems collide with fundamental rights. He cites Bondagjy on inter-religious custody, his own authorship of People v. Genosa (2004) adopting battered woman syndrome, the Philippines' first-in-ASEAN 1981 Cedaw ratification, and the Magna Carta for Women, alongside the Malaysian ruling that pregnancy cannot ground gender discrimination. Endorsing CJ Maimun's intelligible-differentia framework, he reframes gender justice as fairness and dignity ensuring no plural system leaves more than half the population marginalized.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,136 @@
+{
+  "id": "CE044",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 44,
+  "title": "Withdraw the Comelec Precinct Finder",
+  "date": "2022-05-02",
+  "link": "https://opinion.inquirer.net/152565/withdraw-the-comelec-precinct-finder",
+  "keywords": [
+    "Comelec",
+    "Precinct Finder",
+    "voter disenfranchisement",
+    "2022 elections",
+    "election administration",
+    "suffrage"
+  ],
+  "primary_topics": [
+    "Comelec's unreliable online 'Precinct Finder' as a disenfranchisement risk",
+    "Constitutional right of suffrage protection",
+    "Statutory voter-list posting requirements under RA 8189",
+    "Election Day Computerized Voters List (EDCVL) as the prima facie authority on voting eligibility",
+    "Voter Information Sheet (VIS) under RA 7904 as the reliable replacement"
+  ],
+  "sub_topics": [
+    "CJ's personal 'NO RECORD FOUND' shock when checking his own precinct via voterverifier.comelec.gov.ph",
+    "Engagement of election lawyer Romulo Macalintal and the resolution via physical 'List of Voters'",
+    "4.1 million new young voters (aged 18-21) at risk of false 'NO RECORD FOUND' results",
+    "Statutory posting at Office of the Election Registrar and LGU bulletin boards 90 days prior to Election Day",
+    "Polling-place posting on Election Day and PPCRV citizen-arm copy",
+    "EDCVL custody by Electoral Boards (formerly Board of Election Inspectors)",
+    "Hierarchy of authority: EDCVL trumps Precinct Finder, 90-day posted list, PPCRV copy, polling-place posting",
+    "VIS arrival as practical evidence of Comelec's own better alternative",
+    "Call for immediate withdrawal of the Precinct Finder until tested"
+  ],
+  "signature_phrases": [
+    "I was shocked with the result",
+    "Horrified that I would be disenfranchised despite having dutifully voted during all the past elections",
+    "WHILE MY IMMEDIATE CONCERN WAS SPEEDILY RESOLVED",
+    "the unreliable Comelec Precinct Finder",
+    "this simple VIS put to terrible shame the unhelpful and confusing Comelec Precinct Finder",
+    "veritably exposed it as a nuisance",
+    "the poll body should immediately expurgate it, like it unabashedly purges nuisance candidates",
+    "this useless gimmick",
+    "hi-tech and digital apps should be thoroughly tested before they are inflicted on the public"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Romulo Macalintal",
+      "Leni (CJ's wife)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "Parish Pastoral Council for Responsible Voting (PPCRV)",
+      "Electoral Boards (formerly Board of Election Inspectors)",
+      "Office of the Election Registrar",
+      "Local Government Units"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Republic Act No. 8189 (Voter's Registration Act)",
+      "Republic Act No. 7904 (Voter Information Sheet law)"
+    ],
+    "events": [
+      "May 9, 2022 Philippine national elections",
+      "Macalintal press conference using CJ's screenshot",
+      "Receipt of household VIS hand-out for Precinct 0205A, Dasmariñas Clubhouse"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Comelec Precinct Finder is unreliable, returns false 'NO RECORD FOUND' results to legitimately registered voters, and should be withdrawn immediately until properly tested.",
+      "rhetorical_move": "personal-testimony-as-evidence (CJ's own 'NO RECORD FOUND' screenshot) combined with class-affected framing (hundreds of voters and 4.1M new young voters)",
+      "confidence": "asserted with photographic evidence"
+    },
+    {
+      "claim": "Statutorily-mandated alternatives -- the 90-day posted list under RA 8189, the polling-place posting, the PPCRV copy, and the EDCVL in Electoral Boards' custody -- already provide reliable means of verifying voter registration without the digital Precinct Finder.",
+      "rhetorical_move": "statutory-hierarchy framing (the law already provides better tools than this gimmick)",
+      "confidence": "asserted with citation to RA 8189"
+    },
+    {
+      "claim": "The EDCVL is the prima facie authority -- appearing in the Precinct Finder or any other list is insufficient if the voter's name is not on the EDCVL on Election Day.",
+      "rhetorical_move": "legal-hierarchy clarification (educating readers on what actually controls)",
+      "confidence": "asserted as legal rule"
+    },
+    {
+      "claim": "The VIS hand-out received by CJ's household put 'to terrible shame' the Precinct Finder -- Comelec's own paper alternative under RA 7904 is more reliable than its online tool.",
+      "rhetorical_move": "embarrassment-by-comparison (Comelec already produces a better artifact)",
+      "confidence": "asserted with concrete VIS contents reproduced"
+    },
+    {
+      "claim": "Digital tools 'should be thoroughly tested before they are inflicted on the public' -- a generalizable principle for election technology.",
+      "rhetorical_move": "principle-generalization (move from one defective tool to a category rule)",
+      "confidence": "asserted as governance norm"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ personally accessed voterverifier.comelec.gov.ph and got 'NO RECORD FOUND' -- took a cellphone photo of the screen and was 'horrified' that he, a former Chief Justice who has voted in every past election, was apparently disenfranchised.",
+    "He engaged election lawyer Romulo Macalintal and authorized use of the photo in Macalintal's press conference the very same morning -- turning his personal screenshot into public-interest evidence on behalf of hundreds of similarly-affected voters.",
+    "Macalintal then obtained the physical 'List of Voters' from Comelec showing CJ and his wife Leni properly listed in Precinct 0205A, Makati -- proof the registration existed and the Precinct Finder, not the registration, was at fault.",
+    "While CJ was still drafting the column, a 'Voter Information Sheet' hand-out arrived at his household with his name, address ('PANGANIBAN, ARTEMIO VILLASENOR'), Precinct No. 0205A/CP# 75, and voting center Dasmariñas Clubhouse, Campanilla St. -- the timing dramatized that Comelec already has a working paper system that shames its own digital one.",
+    "Sharp rhetorical pivot: Comelec should 'expurgate' the Precinct Finder 'like it unabashedly purges nuisance candidates' -- turning Comelec's own term for vetting against its defective tool."
+  ],
+  "target_audience": [
+    "Filipino voters one week before Election Day",
+    "4.1 million new young voters aged 18-21",
+    "Election lawyers and poll watchdogs (PPCRV, NAMFREL)",
+    "Comelec leadership (implicitly addressed)",
+    "Civic readers concerned about disenfranchisement",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "Personal-testimony opening ('To be assured of my precinct number...')",
+    "Reproduced screen quotation in caps: 'NO RECORD FOUND'",
+    "Embedded photo reference (cellphone shot of his own result)",
+    "ALL-CAPS pivot openings ('WHILE MY IMMEDIATE CONCERN WAS SPEEDILY RESOLVED,' 'JUST AS I WAS WRITING THIS COLUMN')",
+    "Inline reproduction of VIS contents with field labels",
+    "Legal citation embedded inline (RA 8189, RA 7904)",
+    "Sarcastic-but-formal rhetorical pivot ('expurgate it, like it unabashedly purges nuisance candidates')",
+    "Indignation register ('shocked,' 'horrified,' 'terrible shame,' 'useless gimmick,' 'nuisance')",
+    "Hierarchical enumeration of voter-list sources (90-day posted, polling-place, PPCRV, EDCVL)",
+    "Closing principle as quotable rule ('hi-tech and digital apps should be thoroughly tested before they are inflicted on the public')"
+  ],
+  "decision_framework_signals": [
+    "uses personal-testimony-as-test-case to escalate a private problem into public-interest critique",
+    "applies statutory-hierarchy analysis to show the law already provides better tools than the criticized one",
+    "treats EDCVL as prima facie authority over all other voter lists -- establishes legal pecking order",
+    "uses Comelec's own working artifact (VIS) as immanent critique of its failing artifact (Precinct Finder)",
+    "generalizes from one defective tool to a category principle ('test before inflicting on the public')",
+    "frames disenfranchisement risk as constitutional-rights problem, not mere inconvenience"
+  ],
+  "one_paragraph_summary": "Panganiban opens with the indignation of a former Chief Justice who, checking his own precinct via the Comelec's online 'Precinct Finder' at voterverifier.comelec.gov.ph, was met with 'NO RECORD FOUND' -- a result he photographed on his cellphone and turned over to election lawyer Romulo Macalintal, who used it in a press conference that morning on behalf of hundreds of similarly-affected voters. Macalintal then secured the physical 'List of Voters' confirming CJ and his wife Leni were properly registered in Precinct 0205A, Makati -- proving the registration existed and the tool was the failure. Looking deeper, CJ walks readers through the statutorily-mandated alternatives under RA 8189 (the 90-day posted list at the Office of the Election Registrar and LGU bulletin boards), the Election Day postings at polling places, the PPCRV copy, and most importantly the Election Day Computerized Voters List (EDCVL) which is the prima facie authority on who may vote in a specific precinct. As he wrote, a 'Voter Information Sheet' arrived at his household under RA 7904 with all the correct details -- putting 'to terrible shame' the digital Precinct Finder. He calls on Comelec to 'expurgate' the unreliable tool 'like it unabashedly purges nuisance candidates,' restore it only after thorough testing, and closes with the generalizable principle that hi-tech and digital apps 'should be thoroughly tested before they are inflicted on the public.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

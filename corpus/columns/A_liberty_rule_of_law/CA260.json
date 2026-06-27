@@ -1,0 +1,117 @@
+{
+  "id": "CA260",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 260,
+  "title": "Abolish or reform party-list",
+  "date": "2018-11-11",
+  "link": "https://opinion.inquirer.net/117395/abolish-or-reform-party-list",
+  "keywords": [
+    "Veterans formula",
+    "Panganiban formula",
+    "Banat v. Comelec",
+    "party-list seat allocation",
+    "2% threshold",
+    "20% allocation",
+    "proportional representation",
+    "constitutional convention"
+  ],
+  "primary_topics": [
+    "The four inviolable parameters for party-list seat allocation under Veterans Federation Party v. Comelec",
+    "How Banat v. Comelec modified Veterans by scrapping the 2% threshold and distorting proportional representation",
+    "CJ's argument that only constitutional revision -- not statutory amendment -- can now fix or abolish the party-list"
+  ],
+  "sub_topics": [
+    "Veterans Federation Party v. Comelec (Oct. 6, 2000) -- the 'Panganiban formula' and its four parameters",
+    "20% allocation as ceiling not mandatory floor",
+    "2% threshold as qualification requirement (later voided by Banat)",
+    "3-seat limit per party regardless of votes",
+    "Proportional representation as the fourth parameter (ignored by Banat)",
+    "Banat v. Comelec (April 21, 2009) -- voiding the 2% threshold, awarding 55 winners vs 22",
+    "Buhay Party with 7.33% of votes getting only 3 seats; Cocofed with 0.98% getting 1 seat",
+    "Dominant solons blocking statutory amendment",
+    "Constitutional convention (not constituent assembly) as the only viable path"
+  ],
+  "signature_phrases": [
+    "four inviolable parameters",
+    "the Panganiban formula",
+    "Buhay Party which garnered 1,169,243 votes (7.33 percent) was granted only three seats",
+    "a party that gets only 10,000 votes can win. Preposterous, but certainly possible!",
+    "the rich, the powerful and the dynasties now dominate our mongrelized party-list system",
+    "an experiment that has gone berserk",
+    "Either abolish the party-list... or institute the necessary reforms"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Commission on Elections (Comelec)",
+      "House of Representatives",
+      "Congress of the Philippines"
+    ],
+    "cases": [
+      "Veterans Federation Party v. Comelec (Oct. 6, 2000, 12-3, CJ Panganiban writer)",
+      "Partido ng Manggagawa v. Comelec (March 15, 2006)",
+      "Cibac v. Comelec (April 13, 2007)",
+      "Banat v. Comelec (April 21, 2009) -- 55 winners, voided 2% threshold"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- Art. VI party-list provisions",
+      "Republic Act No. 7941 (Party-List Law)"
+    ],
+    "events": [
+      "Multiple party-list elections post-2009 under Banat formula",
+      "Proposed constitutional convention for party-list reform"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Panganiban formula in Veterans reflected distortions already present in RA 7941 -- it did not create them; Veterans itself suggested Congress revise the law.",
+      "rhetorical_move": "self-defense of own jurisprudence (distortions were legislative, not judicial)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Banat's voiding of the 2% threshold produced a more distorted result than Veterans -- 55 winners vs 22 -- because it abandoned proportional representation while retaining the 3-seat limit.",
+      "rhetorical_move": "cure-worse-than-disease comparison",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Amending RA 7941 is no longer viable because dominant solons who benefited will block it -- only a constitutional convention (not a constituent assembly of Congress) can fix or abolish the party-list.",
+      "rhetorical_move": "conflict-of-interest disqualification of Congress from self-reform",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ self-identifies as the writer of Veterans Federation Party v. Comelec -- the decision the legal community nicknamed the 'Panganiban formula'.",
+    "The stark numerical comparison between Buhay Party (1,169,243 votes, 7.33%, 3 seats) and Cocofed (155,920 votes, 0.98%, 1 seat) under Banat -- illustrating disproportionality with concrete vote counts.",
+    "The rhetorical extreme: 'a party that gets only 10,000 votes can win. Preposterous, but certainly possible!' -- physicalizing how far Banat departed from proportional representation."
+  ],
+  "target_audience": [
+    "Constitutional convention advocates and charter-change debaters",
+    "Party-list organizations and their lawyers",
+    "Legal academics studying election law and proportional representation",
+    "Civic readers following party-list reform discussions"
+  ],
+  "register_markers": [
+    "self-authored-decision citation ('I was the writer of the decision')",
+    "legal-community nickname disclosure ('christened by the legal community as the Panganiban formula')",
+    "numerical-precision register (exact vote counts, percentages, seat numbers)",
+    "exclamation-mark emphasis on absurd scenarios ('Preposterous, but certainly possible!')",
+    "serialized-column cross-reference (question 1 last Sunday, question 2 today)",
+    "conflict-of-interest disqualification argument for constituent assembly",
+    "'mongrelized party-list system' as diagnostic epithet"
+  ],
+  "decision_framework_signals": [
+    "uses parameter-integrity test (all four parameters must be honored for proportional representation)",
+    "applies cure-vs-disease comparison (Banat remedy more distorted than Veterans ailment)",
+    "treats conflict-of-interest as disqualifying venue for self-reform",
+    "distinguishes constitutional convention (independent) from constituent assembly (conflicted Congress)",
+    "frames abolish-or-reform as the binary after statutory amendment is foreclosed"
+  ],
+  "one_paragraph_summary": "Panganiban takes up the second major party-list question -- how many seats -- by tracing the evolution from the 'Panganiban formula' in Veterans Federation Party v. Comelec (October 6, 2000, which he wrote for a 12-3 majority) through to Banat v. Comelec (2009). Veterans mandated four inviolable parameters: 20% ceiling, 2% threshold, 3-seat limit, and proportional representation -- producing 22 winners. Banat voided the 2% threshold to chase the 20% ceiling, awarding 55 winners instead, but retained the 3-seat cap while abandoning proportional representation, creating absurdities like Buhay Party (7.33% of votes, 3 seats) and Cocofed (0.98%, 1 seat), with the theoretical possibility of a 10,000-vote party winning a seat. Combined with the reversal of the 'marginalized and underrepresented' doctrine, the rich and dynasties now dominate the 'mongrelized party-list system.' Statutory amendment is foreclosed -- the dominant beneficiaries will block it -- so CJ argues only a constitutional convention (not a constituent assembly) can either abolish the party-list or institute the necessary reforms.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

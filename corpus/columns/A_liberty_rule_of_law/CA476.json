@@ -1,0 +1,116 @@
+{
+  "id": "CA476",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 476,
+  "title": "Live coverage and the rights of the accused",
+  "date": "2012-11-18",
+  "link": "https://opinion.inquirer.net/41046/live-coverage-and-the-rights-of-the-accused",
+  "keywords": [
+    "Maguindanao massacre trial",
+    "live broadcast",
+    "SC resolution Oct 23 2012",
+    "pro hac vice",
+    "due process",
+    "mistrial",
+    "witness exclusion",
+    "single fixed camera"
+  ],
+  "primary_topics": [
+    "The SC October 23, 2012 resolution modifying its June 14, 2011 pro hac vice live broadcast ruling for the Maguindanao massacre trial -- reverting to audio-visual recording and selected viewing areas only",
+    "The historical SC jurisprudence on live TV/radio coverage: Cory Aquino libel case (1991), Estrada plunder trial (2001)",
+    "CJ personal advocacy for a single fixed camera as the technological middle ground between public right to information and accused right to fair trial"
+  ],
+  "sub_topics": [
+    "Oct. 23, 2012 resolution: disallowed live media broadcast; allowed audio-visual recording and streaming to (i) outside courtroom within Camp Bagong Diwa and (ii) selected trial courts in Maguindanao, Koronadal, South Cotabato, General Santos City",
+    "June 14, 2011 pro hac vice ruling: allowed live TV and radio broadcast with strict guidelines (single fixed compact camera, no panning/zooming, continuous broadcast, no voice-overs)",
+    "Pro hac vice because of unusual circumstances: 57 victim families, 197 accused, 20 sets of lawyers, 200 prosecution and 200 defense witnesses",
+    "Aquino libel case (Oct. 22, 1991): live radio/TV coverage disallowed -- prejudice to defendant due process",
+    "Estrada plunder trial (June 29, 2001, 8-6): balance weighed in favor of accused rights over freedom of press",
+    "Estrada Sept. 13, 2001 resolution: cameras installed for documentation purposes -- seed of 2011 pro hac vice ruling",
+    "Reasons for Oct. 2012 modification: (1) mistrial risk from public pressure and media hype; (2) witness non-exclusion",
+    "SC fears: witnesses frightened, play to camera, nervous; out-of-court influences; judge performance affected; telecasting as mental harassment",
+    "CJ 2001 stand: single fixed camera under court control fed to wide TV monitors inside and outside courtroom"
+  ],
+  "signature_phrases": [
+    "generated a maelstrom of controversy",
+    "pro hac vice, meaning for this instance only",
+    "prejudice it poses to the defendant's rights to due process as well as to the fair and orderly administration of justice",
+    "Witnesses might be frightened, play to the camera, or become nervous",
+    "Judges are human beings also and are subject to the same psychological reactions as laymen",
+    "a form of mental harassment",
+    "The Court became extra careful in avoiding a mistrial",
+    "This single fixed camera allows the public the same view as spectators inside the courtroom",
+    "technology can widen the reach of the right to information without affecting the litigants rights"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (2001 stand -- single fixed camera)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Camp Bagong Diwa (courtroom facility)"
+    ],
+    "cases": [
+      "Maguindanao massacre trial -- SC Oct. 23, 2012 resolution (modified June 14, 2011)",
+      "Cory Aquino libel case vs Luis Beltran (Oct. 22, 1991)",
+      "Estrada plunder trial (June 29, 2001, 8-6; Sept. 13, 2001 documentation cameras)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- Art. III (due process, fair trial, freedom of press, right to information)"
+    ],
+    "events": [
+      "Maguindanao massacre (Nov. 23, 2009)",
+      "SC June 14, 2011 pro hac vice live broadcast ruling",
+      "SC Oct. 23, 2012 modification -- audio-visual recording only"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The SC October 2012 modification was justified by two specific risks: (1) mistrial from public pressure and media hype that could result in acquittal of guilty accused on appeal, and (2) improper non-exclusion of witnesses who heard prior testimony.",
+      "rhetorical_move": "two-risk justification for the modification",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Cory Aquino libel and Estrada plunder precedents establish that between the accused due process rights and the public right to information via live broadcast, the Constitution weighs in favor of the accused.",
+      "rhetorical_move": "doctrinal-hierarchy affirmation (accused rights over press freedom in court proceedings)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "A single fixed camera under court control -- providing the same wide-angle view as spectators, fed to monitors inside and outside the courthouse -- is the technological middle ground that maximizes both the right to information and the accused right to fair trial.",
+      "rhetorical_move": "technology-as-bridge-between-competing-rights (single fixed camera as CJ preferred solution)",
+      "confidence": "asserted as CJ 2001 separate stand"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ disclosure of his 2001 stand as a sitting justice in the Estrada case -- advocating a single fixed camera under court control -- making his current column analysis consistent with a position he held a decade earlier.",
+    "The Estrada Sept. 13, 2001 documentation-cameras resolution as the seed of the 2011 pro hac vice ruling -- tracing a 10-year institutional evolution.",
+    "The SC fear of mistrial -- where the accused could be acquitted on appeal precisely because the trial court deprived them of constitutional rights, meaning media coverage could produce the opposite of the intended accountability outcome."
+  ],
+  "target_audience": [
+    "Media organizations and journalists covering the Maguindanao trial",
+    "Constitutional law scholars on freedom of press vs accused rights",
+    "Trial court judges managing high-profile cases",
+    "Civic readers following the Maguindanao massacre case"
+  ],
+  "register_markers": [
+    "maelstrom-of-controversy opening",
+    "pro-hac-vice Latin explanation",
+    "historical-jurisprudence survey (1991 to 2001 to 2011 to 2012)",
+    "CJ 2001 separate-stand disclosure as personal consistency marker",
+    "two-risk justification for modification (mistrial plus witness non-exclusion)",
+    "technology-as-bridge-between-rights closing (single fixed camera)",
+    "direct quotation of 2012 resolution and 1991 Cory libel ruling"
+  ],
+  "decision_framework_signals": [
+    "applies doctrinal-hierarchy (accused rights over press freedom in court proceedings) as the baseline",
+    "uses two-specific-risk analysis (mistrial plus witness non-exclusion) to justify the modification",
+    "treats technology as the solution to the rights-balancing problem (single fixed camera)",
+    "frames the pro hac vice status as the structural reason the 2011 ruling could be modified without inconsistency",
+    "distinguishes documentation-camera permission from live-broadcast permission as separate procedural steps"
+  ],
+  "one_paragraph_summary": "Panganiban analyzes the SC's October 23, 2012 resolution modifying its earlier pro hac vice June 14, 2011 ruling that had allowed live TV and radio broadcast of the Maguindanao massacre trial -- subject to strict guidelines including a single fixed compact camera, continuous broadcast without commercial breaks, and no voice-overs. The 2011 ruling was itself pro hac vice because of the trial's extraordinary circumstances: 57 victim families, 197 accused, 20 sets of lawyers, 200 prosecution and 200 defense witnesses. The October 2012 resolution reverted to audio-visual recording for documentary purposes and streaming only to selected viewing areas, citing two specific fears: (1) live broadcast could produce public pressure leading to mistrial and acquittal of guilty accused on appeal, and (2) witnesses were not being properly excluded from listening to prior testimony. CJ traces the doctrinal lineage: the 1991 Cory Aquino libel case disallowed live coverage; the 2001 Estrada plunder ruling (8-6) weighed accused rights over press freedom; and the September 13, 2001 documentation-camera resolution became the seed of the 2011 ruling. He discloses his own 2001 stand as a sitting justice: advocate for a single fixed camera under court control whose audio-video output could be fed to wide-screen monitors inside and outside the courthouse -- giving the public the same view as spectators without the intimidating media setup inside the courtroom.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

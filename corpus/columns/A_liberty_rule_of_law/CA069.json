@@ -1,0 +1,172 @@
+{
+  "id": "CA069",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 69,
+  "title": "From awe to dismay at the Scotus",
+  "date": "2024-06-17",
+  "link": "https://opinion.inquirer.net/174492/from-awe-to-dismay-at-the-scotus",
+  "keywords": [
+    "US Supreme Court (Scotus) ethics crisis",
+    "Justice Clarence Thomas (Harlan Crow disclosures)",
+    "Justice Samuel Alito (upside-down flag; Appeal to Heaven flag)",
+    "royalties and book advances (Kavanaugh, Gorsuch, Sotomayor, Jackson)",
+    "Code of ethics with no enforcement mechanism",
+    "Philippine SC ethics comparison",
+    "John Marshall statue and SCOTUS pilgrimages"
+  ],
+  "primary_topics": [
+    "CJ's lifelong reverence for the US Supreme Court turning to dismay over current ethical practices",
+    "Itemized financial disclosures of current Scotus justices (royalties, book advances, gifts, paid vacations)",
+    "Justice Thomas's belated disclosure of Bali and Monte Rio hospitality from billionaire Harlan Crow",
+    "Justice Alito's private-jet Alaska trip and the upside-down US flag and 'Appeal to Heaven' flag controversies",
+    "Recusal refusal in the Jan. 6, 2021 and Trump immunity cases",
+    "Contrast with the Philippine Supreme Court's stricter ethics enforcement"
+  ],
+  "sub_topics": [
+    "CJ's personal pantheon of admired US justices: Oliver Wendell Holmes Jr., Benjamin Cardozo, Felix Frankfurter, Hugo Black, William Brennan, Thurgood Marshall",
+    "CJ's pilgrimages to the SCOTUS office in Washington -- visits to Sandra Day O'Connor, Anthony Kennedy, and Antonin Scalia; homage at the John Marshall bronze statue",
+    "2023 salaries per www.uscourts.gov: $285,400 for justices; $298,500 for the chief justice",
+    "Itemized royalties last year: Brett Kavanaugh $340,000; Neil Gorsuch $250,000; Sonia Sotomayor $87,000",
+    "Justice Ketanji Brown Jackson (assumed office June 30, 2022): $900,000 book advance; four Beyoncé concert tickets worth ~$3,700; $12,500 total for her chamber artwork",
+    "Clarence Thomas's 2019 Bali and Monte Rio (California) hospitality from billionaire Harlan Crow, disclosed only in 2023 as 'inadvertently omitted'; Thomas's justification that ethics officials told him 'personal hospitality' from friends need not be disclosed",
+    "Justice Samuel Alito's alleged private-jet Alaska vacation with a hedge-fund billionaire with interests before the Court -- not in 2023 disclosures because of a 90-day filing extension",
+    "Upside-down US flag photographed in Alito's home (NY Times); US Code limits this signal to 'dire distress or extreme danger'",
+    "January 2021 timing: flag flown around Jan. 17, 2021, linked to the 'stolen 2020 election' narrative and the Jan. 6, 2021 Capitol riot",
+    "Alito's defense: wife Martha Ann hoisted the flag after an altercation with a neighbor (without his consent)",
+    "Neighbor Emily Baden's CNN/Erin Burnett interview saying Alito was 'at best mistaken, but at worst, he's just lying' because the altercation happened in mid-February (police call Feb. 15, 2021) while the upside-down flag was published Jan. 17, 2021",
+    "Second NYT photograph: 'Appeal to Heaven' flag at another Alito home in New Jersey -- a US Revolutionary War flag re-adopted by Trump supporters",
+    "Pending Scotus cases tied to Jan. 6, 2021 and Trump immunity; Thomas and Alito declined to recuse -- 'My wife is fond of flying flags. I am not.'",
+    "Scotus code of ethics promulgated 'late last year' with no enforcement mechanism (analogized to international law)",
+    "Philippine SC contrast: two justices penalized with fines and disqualification from law practice (one for not reporting filial relationship with a bar examinee; another as the source of a premature draft-decision leak); a chief justice ousted by a close 8-6 vote for failure to file SALN as a law professor"
+  ],
+  "signature_phrases": [
+    "I have been in absolute awe of the Supreme Court of the United States",
+    "deities in the legendary Mount Olympus",
+    "Unreachable, unfathomable, and infallible they were",
+    "to pay homage, as it were, to an American deity",
+    "my awe turned to dismay, and my admiration soured to desolation",
+    "what I believe are unethical, if not illegal, practices",
+    "inadvertently omitted at the time of filing",
+    "WORSE, JUSTICE SAMUEL ALITO ALLEGEDLY",
+    "signal of dire distress or extreme danger",
+    "Appeal to Heaven",
+    "My wife is fond of flying flags. I am not.",
+    "Like international law, the code has no enforcement mechanism",
+    "These deplorable practices, with due respect, are unthinkable in our Supreme Court",
+    "In fact, our Court penalizes unethical conduct"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "John Marshall (subject of the bronze statue)",
+      "Oliver Wendell Holmes Jr., Benjamin Cardozo, Felix Frankfurter (revered jurists CJ has quoted)",
+      "Hugo Black, William Brennan, Thurgood Marshall (revered jurists)",
+      "Sandra Day O'Connor, Anthony Kennedy (visited by CJ; retired)",
+      "Antonin Scalia (deceased; visited by CJ)",
+      "Chief Justice (current Scotus CJ, implicit)",
+      "Justice Brett Kavanaugh ($340,000 royalties)",
+      "Justice Neil Gorsuch ($250,000 royalties)",
+      "Justice Sonia Sotomayor ($87,000 royalties)",
+      "Justice Ketanji Brown Jackson ($900,000 book advance; Beyoncé tickets; artwork)",
+      "Senior Justice Clarence Thomas",
+      "Harlan Crow (billionaire Republican mega-donor)",
+      "Justice Samuel Alito",
+      "Martha Ann Alito (Justice Alito's wife)",
+      "Emily Baden (Alito neighbor; CNN interviewee)",
+      "Erin Burnett (CNN host)",
+      "Donald J. Trump (subject of pending cases)"
+    ],
+    "institutions": [
+      "Supreme Court of the United States (Scotus)",
+      "Supreme Court of the Philippines (comparator)",
+      "The New York Times (publisher of the flag photographs)",
+      "CNN (Erin Burnett interview)",
+      "US Capitol (site of Jan. 6, 2021 riot)",
+      "www.uscourts.gov (source for 2023 salaries)",
+      "Republican Party (Harlan Crow's affiliation)"
+    ],
+    "cases": [
+      "Pending Scotus cases tied to the Jan. 6, 2021 riot and former-president immunity"
+    ],
+    "laws_treaties": [
+      "US Code on use of the US flag (no upside-down display except as 'signal of dire distress or extreme danger')",
+      "Scotus Code of Ethics (promulgated late 2023; no enforcement mechanism)",
+      "Philippine constitutional norms on SALN and judicial ethics"
+    ],
+    "events": [
+      "Justice Thomas's 2019 Bali and Monte Rio trips (disclosed only in 2023)",
+      "Alito's alleged Alaska private-jet vacation",
+      "Upside-down US flag at Alito's home (around Jan. 17, 2021)",
+      "Jan. 6, 2021 US Capitol riot",
+      "Feb. 15, 2021 police call by Emily Baden's then-boyfriend over Martha Ann's harassment",
+      "Appeal to Heaven flag photographed at Alito's New Jersey home"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The current US Supreme Court's practices -- undisclosed royalties and gifts, billionaire-funded vacations, hobnobbing in private clubs, and partisan political bias -- represent a fall from the standards CJ revered, turning his lifelong awe into 'dismay' and 'desolation.'",
+      "rhetorical_move": "biographical-arc indictment (awe → dismay)",
+      "confidence": "asserted (personal belief)"
+    },
+    {
+      "claim": "Justice Thomas's late disclosure of Bali and Monte Rio hospitality from Republican mega-donor Harlan Crow as 'inadvertently omitted' -- and his reliance on ethics-official advice that 'personal hospitality from friends need not be disclosed' -- does not absolve the lapse.",
+      "rhetorical_move": "outright skepticism of after-the-fact justifications",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Justice Alito's defense that his wife alone hoisted the upside-down flag is undermined by neighbor Emily Baden's CNN interview: the altercation occurred in mid-February (police called Feb. 15, 2021) while the upside-down flag was published Jan. 17, 2021. He is 'at best mistaken, but at worst, he's just lying.'",
+      "rhetorical_move": "chronology-based credibility audit using a quoted witness",
+      "confidence": "asserted (relayed quote from Baden)"
+    },
+    {
+      "claim": "Thomas and Alito should have recused in the pending Jan. 6 and Trump immunity cases; their refusals are 'stubborn' and damaging to institutional legitimacy.",
+      "rhetorical_move": "recusal-norm critique",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Scotus code of ethics promulgated late last year has 'no enforcement mechanism' -- interpretation is left to each justice -- which renders it analogous to international law: aspirational at best.",
+      "rhetorical_move": "structural-defect diagnosis by analogy",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Philippine Supreme Court, in contrast, penalizes unethical conduct in practice -- two justices fined and disqualified from law practice (one for not reporting filial relationship with a bar examinee, the other for being the source of a premature draft-decision leak), and a chief justice ousted by a close 8-6 vote for failure to file SALN as a law professor before joining the Court.",
+      "rhetorical_move": "comparative-institutional contrast in favor of the PH SC",
+      "confidence": "asserted from recollection"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's pilgrimages to the SCOTUS office: visiting Sandra Day O'Connor and Anthony Kennedy (and Antonin Scalia, deceased), and always passing by John Marshall's bronze statue 'to pay homage, as it were, to an American deity.'",
+    "Mount Olympus framing of the Scotus justices as 'unreachable, unfathomable, and infallible.'",
+    "The chronological pin in the Alito flag controversy: police call on Feb. 15, 2021 vs upside-down-flag photo on Jan. 17, 2021 -- used to puncture the wife-acted-alone defense.",
+    "Alito's deflection: 'My wife is fond of flying flags. I am not.' -- quoted as the dismissive line on recusal.",
+    "The 'Appeal to Heaven' flag -- a US Revolutionary War flag re-adopted by Trump supporters -- at Alito's New Jersey home.",
+    "Philippine SC precedents: two justices fined and disqualified from law practice; a chief justice ousted 8-6 for SALN failure as a law professor -- used to anchor the comparative contrast."
+  ],
+  "target_audience": [
+    "Constitutional-law scholars, lawyers, and law students of both jurisdictions",
+    "PH SC justices and judicial-ethics advocates",
+    "Followers of the SCOTUS ethics debates",
+    "Civic-minded Inquirer readers tracking US-PH legal culture"
+  ],
+  "register_markers": [
+    "biographical-arc opening (law student → law practice → CJ → present-day observer)",
+    "Mount Olympus simile for SCOTUS justices ('deities... unreachable, unfathomable, and infallible')",
+    "naming-pantheon register (Holmes, Cardozo, Frankfurter, Black, Brennan, Marshall)",
+    "small-caps emphasis ('WHENEVER I WENT TO THE SCOTUS OFFICE,' 'WORSE, JUSTICE SAMUEL ALITO ALLEGEDLY,' 'THE SCOTUS IS AT PRESENT FACED WITH VITAL CASES')",
+    "comparative-institutional register (Scotus vs PH SC)",
+    "credibility-audit by chronology",
+    "'with due respect' formality before institutional critique"
+  ],
+  "decision_framework_signals": [
+    "enforcement-mechanism test (a code without enforcement is merely aspirational)",
+    "recusal-norm analysis for cases tied to personal/political affiliations",
+    "disclosure-rigor norm (hospitality from interested parties is disclosable; 'inadvertently omitted' is not absolving)",
+    "comparative-institutional benchmarking (PH SC's enforcement record as the benchmark)",
+    "chronology-based credibility audit of public justifications"
+  ],
+  "one_paragraph_summary": "Panganiban traces a personal arc from lifelong awe at the US Supreme Court -- whose justices he regarded as 'deities in the legendary Mount Olympus,' quoting Oliver Wendell Holmes Jr., Benjamin Cardozo, and Felix Frankfurter, and admiring Hugo Black, William Brennan, and Thurgood Marshall -- to dismay at current ethical practices. He recalls pilgrimages to the SCOTUS office (visits to Sandra Day O'Connor, Anthony Kennedy, and the deceased Antonin Scalia, and homage at John Marshall's bronze statue), then itemizes the recent financial disclosures: royalties of $340,000 (Brett Kavanaugh), $250,000 (Neil Gorsuch), $87,000 (Sonia Sotomayor), and even new Justice Ketanji Brown Jackson's $900,000 book advance, four Beyoncé tickets worth about $3,700, and $12,500 for chamber artwork, all on top of the 2023 salaries of $285,400 (justices) and $298,500 (chief justice) per www.uscourts.gov. Senior Justice Clarence Thomas only belatedly disclosed Republican mega-donor Harlan Crow's 2019 hospitality in Bali and Monte Rio as 'inadvertently omitted,' explaining that ethics officials advised that 'personal hospitality' from friends need not be disclosed. Worse, Justice Samuel Alito allegedly took a private-jet Alaska vacation with a hedge-fund billionaire with interests before the Court -- undisclosed thanks to a 90-day filing extension. The New York Times photographed an upside-down US flag at Alito's home -- a signal the US Code permits only for 'dire distress or extreme danger,' but in January 2021 widely tied to the stolen-2020-election narrative and the Jan. 6 Capitol riot. Alito blamed his wife Martha Ann's altercation with a neighbor, but neighbor Emily Baden told CNN's Erin Burnett that Alito was 'at best mistaken, but at worst, he's just lying,' since the altercation occurred in mid-February (police call Feb. 15, 2021) while the upside-down flag photograph dates to Jan. 17, 2021. A second NYT photo showed an 'Appeal to Heaven' flag -- a Revolutionary War banner re-adopted by Trump supporters -- at Alito's New Jersey home. Both Thomas and Alito refused to recuse from pending Jan. 6 and Trump-immunity cases ('My wife is fond of flying flags. I am not.'). The Scotus code of ethics promulgated late last year has 'no enforcement mechanism' -- like international law. By contrast, CJ recalls, the Philippine Supreme Court penalizes unethical conduct: two justices fined and disqualified from law practice (one for not reporting a filial relationship with a bar examinee, the other as source of a premature draft-decision leak), and a chief justice ousted 8-6 for failing to file SALN as a law professor before joining the Court.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

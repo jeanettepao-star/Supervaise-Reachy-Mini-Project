@@ -1,0 +1,140 @@
+{
+  "id": "CA094",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 94,
+  "title": "Prime duty of lawyers, prosecutors, judges",
+  "date": "2023-10-09",
+  "link": "https://opinion.inquirer.net/166988/prime-duty-of-lawyers-prosecutors-judges",
+  "keywords": [
+    "People v. XXX July 25 2023",
+    "qualified rape vs simple rape downgrade",
+    "use of word 'or' statutory construction",
+    "first cousin fourth degree consanguinity",
+    "third civil degree consanguinity",
+    "Code of Professional Responsibility and Accountability",
+    "Section 1 Rule 118 pre-trial stipulation",
+    "to see that justice is done"
+  ],
+  "primary_topics": [
+    "SC review of People v. XXX (promulgated July 25, 2023, released recently) downgrading the conviction from qualified rape to simple rape because of the prosecutors' use of 'or' in the information",
+    "Statutory-construction lesson on the disjunctive 'or': default alternative-option reading, with a narrow exception when context shows the terms refer to the same thing",
+    "Civil-Code lesson: a first cousin is a relative of the fourth degree of consanguinity, beyond the third civil degree required to qualify the rape",
+    "Counsel-stipulation lesson: the appellant's counsel's pre-trial admission that the victim was a relative within the third civil degree of consanguinity was a 'palpable mistake' attributable to counsel, not the accused -- and the admission was rejected as 'bordering on recklessness and utter incompetence'",
+    "Court's stern triple reminder: (1) prosecutors' prime duty 'is not to convict, but to see that justice is done' under the new CPRA; (2) defense counsel's fiduciary duty of competence and diligence; (3) the bench's duty to intervene when stipulations contravene law, morals, good customs, public order, or public policy"
+  ],
+  "sub_topics": [
+    "Procedural history: CA Cagayan de Oro affirmed RTC Cagayan de Oro conviction; SC reviewed and modified",
+    "Anonymization protocol: 'XXX' used to comply with laws prohibiting language that may identify victims of certain crimes",
+    "Simple-rape elements: (1) carnal knowledge (2) through force or intimidation, or victim deprived of reason / unconscious, or victim under 12",
+    "Qualified-rape elements (RPC Art. 266-B-1): committed by a relative by consanguinity or affinity within the third civil degree of a victim below 18; both qualifying circumstances of minority and relationship must be alleged in the information",
+    "Penalty: reclusion perpetua under RA 9346 (death-penalty prohibition)",
+    "The faulty information's use of 'or': 'first cousin OR relative within the third civil degree of consanguinity'",
+    "Victim's minority proven by certified copy of birth certificate (15 years old at the time)",
+    "Relationship 'proven' by counsel's pre-trial stipulation that the accused was a relative within the third civil degree",
+    "Statutory-construction rule on 'or': general rule = alternative option; exception = context shows the terms refer to the same thing or similar interpretation",
+    "Civil-Code application: first cousin = fourth degree of consanguinity; third-degree relatives are different from first cousins; the two terms are not interchangeable",
+    "Court's concern: the 'or' impermissibly allowed prosecutors to indict in the alternative and elevate the offense to qualified rape with heavier penalty",
+    "Counsel's pre-trial stipulation rejected: 'made through palpable mistake, bordering on recklessness and utter incompetence' -- Section 1, Rule 118, Rules of Criminal Procedure cannot validate an erroneous application of law",
+    "CPRA (newly promulgated) cited as basis for prosecutorial prime duty",
+    "Three-actor stern reminder: prosecutors, defense lawyers, judges -- each with their duty articulated"
+  ],
+  "signature_phrases": [
+    "patiently stressed the importance of precision and clarity",
+    "to see that justice is done",
+    "as a general rule, when the terms that come before and after the disjunctive word 'or' are different from each other, the intention is to provide an alternative option",
+    "the determination of the relationship by civil degree is basic which every lawyer ought to know",
+    "made through palpable mistake, bordering on recklessness and utter incompetence",
+    "parties are allowed to stipulate facts... but they cannot agree on an erroneous application of the law",
+    "A GROSS AND PALPABLE MISTAKE IT WAS",
+    "fiduciary duty to be competent and diligent",
+    "the members of the bench... cannot stipulate for the parties",
+    "the naked truth"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, retired CJ)",
+      "'XXX' (anonymized accused-appellant)",
+      "Anonymized victim (minor at the time)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Court of Appeals -- Cagayan de Oro",
+      "Regional Trial Court -- Cagayan de Oro",
+      "Office of the Prosecutor (information drafter)",
+      "Philippine Bar (CPRA promulgating body context)"
+    ],
+    "cases": [
+      "People v. XXX (SC, promulgated July 25, 2023; released recently)"
+    ],
+    "laws_treaties": [
+      "Revised Penal Code Article 266-B-1 (qualified rape)",
+      "Republic Act No. 9346 (death-penalty prohibition)",
+      "Civil Code (degrees of consanguinity)",
+      "Rules of Criminal Procedure, Section 1, Rule 118 (pre-trial stipulation of facts)",
+      "Code of Professional Responsibility and Accountability (CPRA, newly promulgated)",
+      "Anonymization statutes for victims of certain crimes"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The disjunctive word 'or' must be read as providing an alternative option as a general rule — and on the People v. XXX facts, 'first cousin' (a relative of the fourth degree) and 'relative within the third civil degree of consanguinity' are different relationships, so the 'or' impermissibly let prosecutors elevate the charge to qualified rape and double-track the proof.",
+      "rhetorical_move": "statutory-construction lesson applied to a real charging defect",
+      "evidence": "General rule on disjunctive 'or'; Civil Code degree-of-consanguinity rules; the actual wording of the information"
+    },
+    {
+      "claim": "Counsel's pre-trial stipulation that the accused was a relative within the third civil degree was a 'palpable mistake, bordering on recklessness and utter incompetence' because the determination of relationship by civil degree is basic Civil Code application that every lawyer ought to know — and parties cannot stipulate to an erroneous application of law even where Section 1 Rule 118 allows fact-stipulation.",
+      "rhetorical_move": "counsel-fiduciary-duty diagnosis with named-doctrinal anchor",
+      "evidence": "Civil Code; CPRA; SC's own characterization of the stipulation"
+    },
+    {
+      "claim": "The Court properly downgraded the conviction from qualified rape to simple rape, preserving the conviction on the carnal-knowledge core while declining to give the prosecution alternative-track elevation it did not properly plead and prove.",
+      "rhetorical_move": "doctrinally-disciplined remedy",
+      "evidence": "Simple-rape elements satisfied; qualifying circumstances not adequately pleaded"
+    },
+    {
+      "claim": "All three court-actors share a prime duty 'to see that justice is done': (1) prosecutors under the newly promulgated CPRA; (2) defense counsel via fiduciary duty of competence and diligence; (3) the bench through duty to intervene when stipulations contravene law, morals, good customs, public order, or public policy.",
+      "rhetorical_move": "three-actor stern-reminder framework",
+      "evidence": "CPRA; SC ponencia language"
+    }
+  ],
+  "notable_anecdotes": [
+    "The information's literal use of 'first cousin OR relative within the third civil degree of consanguinity' — with the author rendering the disjunctive in all caps (OR) to spotlight the prosecutorial drafting error.",
+    "The CPRA framing of the prosecutorial duty — 'not to convict, but to see that justice is done' — used as the column's normative anchor for the three-actor reminder.",
+    "The Court's blunt rebuke of defense counsel: 'palpable mistake, bordering on recklessness and utter incompetence' — a rare uncovered judicial characterization of counsel performance.",
+    "The structural irony surfaced: a defective information (prosecutor's error) plus a defective stipulation (defense counsel's error) carried 'mindlessly' through RTC and CA — only corrected at the SC."
+  ],
+  "target_audience": [
+    "Public prosecutors of the DOJ and OMB (information drafters)",
+    "Practicing defense counsel in criminal cases",
+    "Trial-court judges (MTC, RTC) and Court of Appeals justices",
+    "Bar associations and CLE programs on the CPRA",
+    "Law students studying statutory construction, criminal procedure, and the Civil Code",
+    "Crime-victim advocates and women-and-children rights groups",
+    "IBP and the Office of the Bar Confidant (disciplinary implications)"
+  ],
+  "register_markers": [
+    "case-commentary register with statutory-construction tutorial",
+    "anonymization-protocol note ('Note: the accused was named XXX to comply with laws…')",
+    "elements-of-the-offense enumeration mode",
+    "all-caps emphasis device (the 'OR' rendered in caps)",
+    "Court-language direct quotation",
+    "three-actor stern-reminder closer",
+    "doctrinal-anchor language ('the naked truth'; 'the determination of relationship by civil degree is basic')",
+    "twin-doublet pairings ('competent and diligent'; 'recklessness and utter incompetence')",
+    "italicized procedural terms",
+    "fiat-justitia normative undertone"
+  ],
+  "decision_framework_signals": [
+    "applies the statutory-construction default-alternative rule for the disjunctive 'or'",
+    "uses Civil Code degree-of-consanguinity rules as the dispositive substantive law for relationship qualification",
+    "treats counsel-fiduciary duty (competence and diligence) as a parallel test alongside prosecutorial duty",
+    "deploys CPRA prime-duty-to-do-justice rule for prosecutors",
+    "frames bench-intervention duty (against stipulations contravening law/morals/public policy) as the third corrective lever",
+    "applies elements-must-be-pleaded-and-proven discipline to qualifying circumstances under RPC Art. 266-B-1"
+  ],
+  "one_paragraph_summary": "Panganiban analyzes People v. XXX (Supreme Court, promulgated July 25, 2023, released recently), in which the Court -- reviewing a Court of Appeals (Cagayan de Oro) decision affirming the Regional Trial Court (Cagayan de Oro) -- upheld the conviction for simple rape only, not qualified rape, because of the prosecutors' use of the word 'or' in the information. The accused was named 'XXX' to comply with anonymization laws. Simple rape (under settled jurisprudence) is committed by carnal knowledge through force or intimidation, or when the victim is deprived of reason or unconscious, or under 12 years of age. Under RPC Article 266-B-1, simple rape becomes qualified -- a more serious offense -- when committed by a relative by consanguinity or affinity within the third civil degree of a victim below 18, and both qualifying circumstances of minority and relationship must be alleged in the information. The information here alleged that the 'accused, knowing fully well the minority of his first cousin OR relative within the third civil degree of consanguinity through force and intimidation and through grave abuse of authority... feloniously insert[ed] his penis into the vagina of' the victim. The victim's minority (15 years old) was proven by certified birth certificate; the relationship rested on a pre-trial stipulation that the accused was 'a relative within the third civil degree of consanguinity.' The Court held that 'as a general rule, when the terms that come before and after the disjunctive word",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

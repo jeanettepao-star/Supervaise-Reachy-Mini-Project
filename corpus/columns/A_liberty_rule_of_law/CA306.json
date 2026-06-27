@@ -1,0 +1,128 @@
+{
+  "id": "CA306",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 306,
+  "title": "Landmark decision and opinions on ML",
+  "date": "2017-07-09",
+  "link": "https://opinion.inquirer.net/105449/landmark-decision-opinions-ml",
+  "keywords": [
+    "Lagman vs Medialdea",
+    "martial law ponencia",
+    "Del Castillo ponencia",
+    "SC voting 11-2-1-1",
+    "factual basis ML",
+    "presidential discretion ML",
+    "habeas corpus",
+    "congressional vs judicial review"
+  ],
+  "primary_topics": [
+    "Extraction and analysis of four key doctrinal holdings from the Lagman vs Medialdea ponencia",
+    "Delineation of the asymmetric review powers of the Supreme Court vs Congress over ML",
+    "The President's prosecutorial (not judicial) evidentiary standard for declaring ML"
+  ],
+  "sub_topics": [
+    "Petitioners' public service: affording SC the opportunity to review ML",
+    "15 individual opinions -- Leonen dissent (92 pp) longest, Bersamin concurrence (10 pp) shortest; ponencia 82 pp",
+    "Corrected vote count: 11-2-1-1 (not 11-3-1)",
+    "Sereno and Caguioa: factual basis limited to Lanao del Sur, Maguindanao, Sulu",
+    "Carpio: factual basis limited to Marawi only",
+    "Leonen: no factual basis at all",
+    "President's 'sole and exclusive discretion' to declare ML -- but not absolute",
+    "Two preconditions: actual invasion or rebellion + public safety requires it",
+    "Presidential evidentiary standard: 'probable cause' or 'more likely than not'",
+    "SC review limited to information available to President at time of declaration",
+    "SC does not need to find the President correct -- only sufficient factual basis",
+    "Congress: broader review, can consider supervening events, can probe accuracy",
+    "Simultaneous but 'totally different' veto powers of SC and Congress",
+    "ML does not suspend Constitution, civil courts, legislative assemblies, or Bill of Rights",
+    "Habeas corpus suspension applies only to those judicially charged with rebellion",
+    "Ponencia's unity call: 'spirit of unity ... act as one undivided nation'"
+  ],
+  "signature_phrases": [
+    "precious opportunity to review",
+    "sole and exclusive discretion",
+    "the President only needs to convince himself that there is probable cause",
+    "the Court considers only the information and data available to the President prior to or at time of the declaration",
+    "the Court does not need to satisfy itself that the President's decision is correct",
+    "Congress could probe deeper and further; it can delve into the accuracy of the facts",
+    "totally different ... though having the same trajectory",
+    "the Bill of Rights remain[s] in place",
+    "spirit of unity and act as one undivided nation"
+  ],
+  "entities": {
+    "people": [
+      "Justice Mariano C. Del Castillo (ponente, Lagman vs Medialdea)",
+      "Justice Marvic M.V.F. Leonen (92-page dissent)",
+      "Justice Lucas P. Bersamin (10-page concurrence, shortest)",
+      "CJ Maria Lourdes P.A. Sereno (factual basis limited to 3 provinces)",
+      "Justice Alfredo Benjamin S. Caguioa (joined Sereno on territorial limitation)",
+      "Justice Antonio T. Carpio (factual basis limited to Marawi only)",
+      "Rep. Edcel C. Lagman (lead petitioner)",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Congress of the Philippines"
+    ],
+    "cases": [
+      "Lagman vs Medialdea (July 4, 2017) -- SC upheld Proclamation 216, 15 individual opinions"
+    ],
+    "laws_treaties": [
+      "Proclamation No. 216 -- Mindanao martial law edict",
+      "1987 Philippine Constitution -- ML review provisions"
+    ],
+    "events": [
+      "SC promulgation of Lagman vs Medialdea decision (July 4, 2017)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The correct vote count is 11-2-1-1, not 11-3-1: Sereno and Caguioa (2) concurred on factual basis but only for three provinces; Carpio (1) concurred but only for Marawi; Leonen (1) found no factual basis at all.",
+      "rhetorical_move": "vote-count correction as doctrinal precision — the characterization of opinions matters for future precedent",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The SC has a narrower, more deferential review power over ML than Congress: the Court looks only at data available to the President at declaration time and does not need to find him correct, while Congress can consider supervening events and probe the accuracy of facts.",
+      "rhetorical_move": "asymmetric-review-powers argument mapping the constitutional division of checking functions",
+      "confidence": "asserted as doctrinal finding"
+    },
+    {
+      "claim": "The presidential standard for declaring ML is prosecutorial ('probable cause' or 'more likely than not'), not judicial — a deliberately low threshold that reflects the President's role as commander-in-chief rather than as a fact-finder bound by rules of evidence.",
+      "rhetorical_move": "evidentiary-standard-identification as a doctrinal clarification with future implications",
+      "confidence": "asserted as doctrinal finding"
+    }
+  ],
+  "notable_anecdotes": [
+    "The length disparity among the 15 individual opinions — Leonen's 92-page dissent outstripping the 82-page ponencia, with Bersamin's 10-page concurrence as the shortest — used as a structural signal of the case's doctrinal richness and the depth of judicial disagreement.",
+    "CJ's cross-referencing his own prior columns ('Win-win decision on martial law,' June 18, and 'Unity and solidarity amid crisis,' July 2) as the baseline from which he extracts the ponencia's confirmations — a self-citation practice that positions the column series as a running legal commentary.",
+    "The ponencia's closing unity call — 'we, the Filipino people are confronted with a crisis of such magnitude … that we all need to summon the spirit of unity and act as one undivided nation' — quoted approvingly by CJ as the Court's institutional voice transcending legal analysis."
+  ],
+  "target_audience": [
+    "Legal practitioners and academics studying the constitutional law of emergency powers",
+    "Law students and researchers assigned Lagman vs Medialdea",
+    "Judges and future ML petitioners needing to understand the review standards",
+    "Political analysts tracking the Duterte-era constitutionalism",
+    "General Inquirer readers following the Marawi/ML legal discourse"
+  ],
+  "register_markers": [
+    "doctrinal-extraction register ('let me just extract a few items')",
+    "self-cross-reference to prior columns as a serial-commentary signal",
+    "vote-count-correction register (precision as a form of doctrinal responsibility)",
+    "asymmetric-powers mapping (SC vs Congress review: 'totally different … same trajectory')",
+    "direct-quote deployment from ponencia for key constitutional pronouncements",
+    "unity-call close (ending with the Court's own words as a rhetorical capstone)",
+    "forward-reference close ('More in future columns') — serialized legal commentary"
+  ],
+  "decision_framework_signals": [
+    "applies doctrinal-extraction method: identifies four 'crucial' holdings from a comprehensive decision",
+    "uses vote-count precision as a doctrinal-classification tool (11-2-1-1 vs 11-3-1)",
+    "maps evidentiary-standard gradient: prosecutorial (presidential) vs civil/administrative/criminal vs judicial",
+    "frames SC vs Congress review as an asymmetric but complementary checking function",
+    "treats the petitioners' failure to win as compatible with having served the public interest — separating advocacy outcome from constitutional value"
+  ],
+  "one_paragraph_summary": "Panganiban extracts four doctrinal holdings from Justice Del Castillo's ponencia in Lagman vs Medialdea (July 4, 2017) as they relate to his prior columns on the subject. First, even though the petitioners lost, they served the public by giving all 15 justices -- who wrote individual opinions ranging from Leonen's 92-page dissent (longer than the 82-page ponencia) to Bersamin's 10-page concurrence -- the opportunity to define ML's constitutional parameters. Second, the vote is more precisely 11-2-1-1 (not 11-3-1): 11 found sufficient factual basis for all of Mindanao; Sereno and Caguioa (2) limited it to three provinces; Carpio (1) limited it to Marawi; Leonen (1) found no factual basis. Third, the President has sole and exclusive discretion to declare ML -- but only upon actual invasion or rebellion plus public safety necessity, with a prosecutorial 'probable cause' evidentiary standard, not a judicial one. Fourth, SC review is narrower than Congressional review: the Court looks only at data available at declaration time and does not need to find the President correct, while Congress can consider supervening events and probe the accuracy of facts -- with both powers exercisable simultaneously despite being 'totally different.' The ponencia closes with a unity call that CJ quotes approvingly.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

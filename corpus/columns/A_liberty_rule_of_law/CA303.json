@@ -1,0 +1,127 @@
+{
+  "id": "CA303",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 303,
+  "title": "Consequences of martial law",
+  "date": "2017-08-13",
+  "link": "https://opinion.inquirer.net/106299/consequences-martial-law",
+  "keywords": [
+    "martial law consequences",
+    "1987 Constitution",
+    "warrantless arrest",
+    "habeas corpus suspension",
+    "rebellion",
+    "emergency powers",
+    "military courts",
+    "implementing laws"
+  ],
+  "primary_topics": [
+    "Systematic exposition of the four legal consequences of martial law under the 1987 Constitution",
+    "Constitutional requirement of implementing legislation to trigger ML's broader powers",
+    "Distinction between ML's direct effects and its contingent trigger functions"
+  ],
+  "sub_topics": [
+    "1987 Constitution defanged ML but did not define it",
+    "Warrantless arrest of rebellion suspects as direct ML consequence -- Umil vs Ramos (July 9, 1990)",
+    "72-hour detention under suspended habeas corpus vs normal 36-hour limit",
+    "Arbitrary detention liability for exceeding 36 or 72 hours without court charges",
+    "Anti-Wiretapping Act (RA 4200) and Data Privacy Act (RA 10173) as examples of implementing laws",
+    "Philippine Passports Act (RA 8239) -- passport cancellation for national security",
+    "Emergency powers under Art. VI Sec. 23 -- Congress delegation required; cease on adjournment",
+    "RA 6826 as precedent: emergency powers delegated to Corazon Aquino during 1989 AFP rebellion",
+    "Military court jurisdiction -- possible but requires congressional legislation",
+    "Justice Leonen's dissent: ML unconstitutional for vagueness on new powers and curtailed rights",
+    "Justice Carpio's 'four consequences' taxonomy as the column's organizing framework"
+  ],
+  "signature_phrases": [
+    "defanged martial law",
+    "the Charter does not define ML; neither does it directly state what powers are granted",
+    "consequences of the defanged ML",
+    "rebellion as a continuing crime",
+    "the arrest of persons involved in rebellion is thus synonymous with a valid warrantless arrest",
+    "arbitrary detention",
+    "such powers shall cease upon the next adjournment of Congress",
+    "ML may trigger constitutional provisions ... provided there are implementing laws"
+  ],
+  "entities": {
+    "people": [
+      "Justice Marvic M.V.F. Leonen (dissent: ML unconstitutional for vagueness)",
+      "Justice Antonio T. Carpio ('four consequences' taxonomy)",
+      "President Corazon Aquino (RA 6826 emergency powers recipient)",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Congress of the Philippines",
+      "Armed Forces of the Philippines"
+    ],
+    "cases": [
+      "Lagman vs Medialdea (July 14, 2017) -- SC upheld Proclamation 216; Leonen dissent",
+      "Umil vs Ramos (July 9, 1990) -- rebellion as continuing crime, warrantless arrest valid",
+      "David vs Arroyo (May 3, 2006) -- emergency powers, Art. VI Sec. 23"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution -- martial law, habeas corpus, emergency powers provisions",
+      "Art. VI Sec. 23 -- Congress delegation of emergency powers",
+      "Republic Act No. 4200 -- Anti-Wiretapping Act (wiretapping allowed for rebellion with court order)",
+      "Republic Act No. 10173 -- Data Privacy Act of 2012 (national emergency exception)",
+      "Republic Act No. 8239 -- Philippine Passports Act of 1996 (passport cancellation for national security)",
+      "Republic Act No. 6826 -- Emergency powers delegated to President Aquino (1989 AFP rebellion)"
+    ],
+    "events": [
+      "Proclamation 216 -- Mindanao martial law declaration by Duterte",
+      "1989 AFP mutiny -- RA 6826 emergency powers granted to President Aquino",
+      "Marawi siege (ongoing)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The 1987 Constitution deliberately left ML undefined and stripped of autonomous powers, so that its legal effects are limited to: (1) facilitating warrantless arrest of rebellion suspects, (2) extending detention to 72 hours under habeas corpus suspension, (3) potentially triggering congressional emergency-power delegations, and (4) potentially enabling military courts — with items 3 and 4 requiring implementing legislation that Congress has not passed.",
+      "rhetorical_move": "four-category taxonomic exposition using Justice Carpio's own framework, building toward the 'trigger function' conclusion",
+      "confidence": "asserted as doctrinal analysis"
+    },
+    {
+      "claim": "Detaining suspects beyond the constitutional limits (36 or 72 hours) without filing charges exposes authorities to criminal liability for arbitrary detention — a hard legal backstop that the column makes explicit to deter abuse.",
+      "rhetorical_move": "consequence-specification as deterrence: naming the criminal liability to make the limit concrete",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Justice Leonen's vagueness-based dissent — that ML is unconstitutional for failing to specify new presidential powers and curtailed civil liberties — is worth noting precisely because the majority's failure to define those limits could itself generate future constitutional problems.",
+      "rhetorical_move": "minority-opinion preservation: flagging the Leonen dissent as intellectually valuable even while not endorsing it",
+      "confidence": "flagged, not endorsed"
+    }
+  ],
+  "notable_anecdotes": [
+    "The framing of ML as a 'trigger function' rather than an autonomous power grant — CJ uses the electrical metaphor of a constitutional switch that can only activate power if Congress has pre-installed the wiring (implementing laws) — making an abstract constitutional concept viscerally tangible.",
+    "The 1989 precedent of RA 6826 delegating emergency powers to President Corazon Aquino during an AFP rebellion, allowing her to take over private utilities — presented as a real-world example of what could happen under Duterte's ML if Congress chose to pass similar legislation (which it has not).",
+    "The explicit statement that authorities who detain suspects beyond 36/72 hours without filing charges commit the crime of arbitrary detention — a detail rarely highlighted in mainstream ML commentary, here foregrounded as a citizens'-rights guardrail."
+  ],
+  "target_audience": [
+    "Legal practitioners and civil liberties advocates tracking ML's operational limits",
+    "Law students and academics studying the constitutional law of emergency powers",
+    "Military and police officials implementing ML who need to know liability thresholds",
+    "Civic readers seeking a precise, non-sensationalized account of what ML can and cannot do",
+    "Congress members deciding whether to pass ML implementing legislation"
+  ],
+  "register_markers": [
+    "taxonomic-exposition register (numbered four-consequence structure)",
+    "doctrinal-precision register (distinguishing warrantless arrest from detention period, civil from administrative from criminal evidentiary standards)",
+    "specific statute citation (RA 4200, RA 10173, RA 8239, RA 6826, Art. VI Sec. 23)",
+    "consequence-specification for deterrence ('liable for the crime of arbitrary detention')",
+    "minority-opinion preservation register (Leonen dissent flagged without endorsement)",
+    "conditional-trigger language throughout ('may trigger … provided there are implementing laws')",
+    "medical analogy for legal precision ('various types of cancers require specific medical solutions' — echoed from prior column)"
+  ],
+  "decision_framework_signals": [
+    "uses four-category taxonomic framework (Carpio's 'consequences') as the primary organizational lens",
+    "applies implementing-legislation test as the decisive filter for each potential ML power",
+    "distinguishes direct ML effects (no legislation needed) from triggered effects (legislation required)",
+    "uses precedent-stacking (Umil, David, RA 6826) to fill constitutional gaps with existing doctrine",
+    "treats liability-for-abuse specification as an essential component of constitutional-powers analysis"
+  ],
+  "one_paragraph_summary": "Panganiban systematically maps the four legal consequences of martial law under the 1987 Constitution, using Justice Carpio's taxonomy from Lagman vs Medialdea (July 14, 2017) as his organizing framework. The first and only direct consequence requiring no implementing legislation is the facilitation of warrantless arrests of rebellion suspects -- grounded in Umil vs Ramos (1990)'s holding that rebellion is a continuing crime -- combined with habeas corpus suspension extending permissible detention from 36 to 72 hours, beyond which authorities become criminally liable for arbitrary detention. The second and third consequences are contingent triggers: ML can activate congressional delegation of emergency powers under Art. VI Sec. 23 (as happened via RA 6826 during the 1989 AFP rebellion under Aquino, allowing utility takeovers), and can authorize conferral of jurisdiction on military courts -- but both require implementing legislation that Congress has not passed. He briefly flags Justice Leonen's dissent that Proclamation 216 is unconstitutional for failing to specify what new powers the President would wield and what rights would be curtailed, presenting it as a legally serious concern without endorsing it. The column's through-line is the 'trigger function' thesis: ML is not an autonomous power grant but a constitutional switch that can activate additional authority only if Congress has pre-wired it through specific legislation.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

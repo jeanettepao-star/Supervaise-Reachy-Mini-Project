@@ -1,0 +1,77 @@
+{
+  "id": "BC018",
+  "format": "B",
+  "type": "book",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 18,
+  "title": "Justice and Faith -- Ch. 11: Invocation",
+  "date": "1997-09-21",
+  "link": "https://cjpanganiban.com/books-authored-by-chief-justice-artemio-v-panganiban/",
+  "keywords": [
+    "Invocation",
+    "Holy Spirit",
+    "Beloved Son Jesus",
+    "humble, upright, obedient",
+    "faithful to Your word and will",
+    "good health",
+    "peace of mind",
+    "many more years of service",
+    "Trinitarian doxology",
+    "Amen"
+  ],
+  "primary_topics": [
+    "Chapter 11 of 'Justice and Faith' -- a short Trinitarian-form Invocation given as a public occasional prayer, asking the Holy Spirit to enable an unnamed honoree to emulate Jesus (humble, upright, obedient, faithful), petitioning for good health, peace of mind, and many more years of service",
+    "Standard Trinitarian doxological close -- 'in the name of Your Son, Jesus, who lives and rules with You in the unity of the Holy Spirit, one God forever and ever. Amen.' -- marking the chapter as a public liturgical-style invocation rather than a discursive reflection"
+  ],
+  "sub_topics": [
+    "Petition: outpouring of the Holy Spirit to continue emulating Jesus",
+    "Emulation virtues: 'humble, upright, obedient, and faithful to Your word and will'",
+    "Twofold practical request: good health, peace of mind, many more years of service",
+    "Trinitarian doxological close in liturgical form",
+    "NOTE: The source file is a short fragment (about 12 lines, of which the opening phrasing is partly missing in the upload); the curation reflects only the content legibly present"
+  ],
+  "signature_phrases": [
+    "Your Spirit that he may continue to emulate Your Beloved Son Jesus -- humble, upright, obedient and faithful to Your word and will",
+    "Grant him good health, peace of mind and many more years of service to You and to our people",
+    "in the name of Your Son, Jesus, who lives and rules with You in the unity of the Holy Spirit, one God forever and ever. Amen"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (presumed author/deliverer of the Invocation)",
+      "Unnamed honoree being prayed for ('he')",
+      "Jesus (the Beloved Son to be emulated)",
+      "The Father (addressee) and the Holy Spirit (Trinitarian close)"
+    ],
+    "doctrinal_sources": [
+      "Trinitarian doxology -- standard Catholic liturgical close",
+      "Christological emulation framework (humble, upright, obedient, faithful)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Public occasions call for a Trinitarian invocation that prays for an honoree to emulate Christ in humility, uprightness, obedience and fidelity -- and that asks for the practical gifts of health, peace, and years of service.",
+      "rhetorical_move": "liturgical-form: a public petition cast in standard Trinitarian doxological close",
+      "confidence": "medium"
+    }
+  ],
+  "notable_anecdotes": [
+    "The chapter is intentionally short -- a single Invocation preserved between the longer reflective chapters and the Appendix; it serves as a liturgical pivot rather than as discursive content"
+  ],
+  "target_audience": [
+    "The audience at the public occasion where the Invocation was delivered (likely a Court or institutional event ca. September 21, 1997)",
+    "Future Justice-and-Faith readers who want CJP's liturgical-form public prayer"
+  ],
+  "register_markers": [
+    "occasional-Invocation register -- formal, brief, Trinitarian-closed",
+    "honoree-blessing form -- petition for emulation of Christ plus practical gifts (health, peace, years of service)",
+    "doxological close in standard Catholic form",
+    "NOTE: chapter is a short fragment; curation depth here is necessarily lighter than for the discursive chapters"
+  ],
+  "decision_framework_signals": [
+    "Christological-emulation as the standard for public servants",
+    "Trinitarian-form public prayer as the appropriate register for institutional occasions"
+  ],
+  "one_paragraph_summary": "Chapter 11 of 'Justice and Faith' is a short Invocation -- a public occasional prayer in standard Trinitarian doxological form -- that asks the Holy Spirit to enable an unnamed honoree to continue emulating Jesus, the Beloved Son: humble, upright, obedient, and faithful to the Father's word and will. It petitions for the practical gifts of good health, peace of mind, and 'many more years of service' to God and to the people, and closes with the standard Catholic doxology: 'in the name of Your Son, Jesus, who lives and rules with You in the unity of the Holy Spirit, one God forever and ever. Amen.' Unlike the longer discursive chapters of the volume, this one is intentionally brief and liturgical -- it serves as the pivot to the Appendix that follows.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

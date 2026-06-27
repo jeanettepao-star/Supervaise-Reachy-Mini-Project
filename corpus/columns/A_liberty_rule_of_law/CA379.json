@@ -1,0 +1,155 @@
+{
+  "id": "CA379",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 379,
+  "title": "Grace Poe's residency",
+  "date": "2015-06-28",
+  "link": "https://opinion.inquirer.net/86194/grace-poes-residency",
+  "keywords": [
+    "Grace Poe residency",
+    "10-year requirement",
+    "domicile",
+    "presidency",
+    "Constitution",
+    "animus revertendi"
+  ],
+  "primary_topics": [
+    "Residency doctrinal anchor for Grace Poe's presidential eligibility",
+    "Constitutional 10-year residency requirement equated with domicile in election law",
+    "Three kinds of domicile: origin, by operation of law, choice -- with rules and requirements",
+    "Application to Poe: Jaro Iloilo domicile of origin; California domicile by operation of law; PH domicile of choice upon return",
+    "Key evidence for animus manendi: return 2005, children enrolled June 2005, property purchase late 2005, QC home construction early 2006",
+    "Key evidence for animus non revertendi: children delisted May 2005, California home sold April 2006",
+    "Jurisprudence: Marcos v. Comelec, Cordora, Japson, Jalosjos, Maquiling",
+    "Postscript: Pangalangan ICC tribute with CJP's 10-year SC-seat effort confession"
+  ],
+  "sub_topics": [
+    "Constitutional text: 'No person may be elected President (or Vice President) unless he is a resident of the Philippines for at least 10 years'",
+    "Residence in election law is equated with domicile, not home address",
+    "A man may have several residences but only one domicile",
+    "Three kinds: domicile of origin (child follows parents), domicile by operation of law, domicile of choice (freely made by person of legal age)",
+    "Domicile of choice: intention to reside in one fixed place + personal presence + conduct indicative of intention; fixed permanent residence to which one intends to return when absent",
+    "Three settled rules: everyone must always have one domicile; once established, it remains until a new one is acquired; a person can have only one domicile at any given time",
+    "Poe as foundling: domicile of origin is Jaro, Iloilo (parents presumed Filipino under generally-accepted-principles)",
+    "After marriage and move to US: lost domicile of origin, followed husband's domicile in America",
+    "Upon permanent return after FPJ's death: acquired new domicile of choice",
+    "Marcos v. Comelec (Sept 18, 1995): fact of residence, not COC statement, is decisive; Imelda's 'seven months' was honest mistake",
+    "Poe's 'six years and six months' in her COC for Senate is similarly not binding proof",
+    "Cordora v. Comelec (Feb 19, 2009): even foreigners can establish Philippine domicile",
+    "Japson v. Comelec (Jan 19, 2009): former Filipino naturalized abroad may re-establish residency even before reacquisition of citizenship",
+    "Jalosjos v. Comelec (Oct 19, 2010): abandonment of Australian home, renunciation of Australian citizenship, reacquisition of Philippine citizenship, and settling in Zamboanga Sibugay show 'intent to change domicile for good'",
+    "Maquiling v. Comelec (April 16, 2013): use of US passport after renunciation reverses renunciation and disqualifies",
+    "Animus manendi: return to Philippines first half of 2005; children enrolled here in June 2005; property purchase late 2005; QC family home construction early 2006",
+    "Animus non revertendi: children delisted from American schools May 2005; California home sold April 2006",
+    "Physical presence evidenced by passport entries and other authentic documents",
+    "Conclusion: Poe will surpass 10-year requirement by Election Day May 9, 2016",
+    "Postscript: kudos to Raul Pangalangan; CJP tried for over 10 years to help him land SC seat; 'Lord did not will it... he was meant for something bigger, loftier and better-suited'"
+  ],
+  "signature_phrases": [
+    "in my humble view",
+    "animus manendi",
+    "animus non revertendi",
+    "domicile of choice",
+    "the Lord did not will it",
+    "meant for something bigger"
+  ],
+  "entities": {
+    "people": [
+      "Sen. Grace Poe",
+      "Fernando Poe Jr. (FPJ, death triggered Poe's permanent return)",
+      "Imelda Marcos (Marcos v. Comelec precedent)",
+      "Raul C. Pangalangan (postscript ICC tribute)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "Marcos v. Comelec (September 18, 1995) -- fact-of-residence, not COC-statement",
+      "Cordora v. Comelec (February 19, 2009) -- foreigners can establish PH domicile",
+      "Japson v. Comelec (January 19, 2009) -- residency pre-citizenship",
+      "Jalosjos v. Comelec (October 19, 2010) -- intent to change domicile for good",
+      "Maquiling v. Comelec (April 16, 2013) -- passport use reverses renunciation"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- 10-year presidential residency requirement",
+      "Dual Citizenship Law (Republic Act No. 9225)"
+    ],
+    "events": [
+      "First half of 2005 -- Poe's permanent return to Philippines",
+      "June 2005 -- enrollment of Poe children in Philippine schools",
+      "May 2005 -- Poe children delisted from American schools",
+      "Late 2005 -- Poe property purchase in Philippines",
+      "Early 2006 -- Poe family home construction in Quezon City",
+      "April 2006 -- California home sold"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "In election law, 'residence' is equated with 'domicile,' not necessarily a home address -- Poe's 10-year residency must be understood through domicile doctrine, not her COC entry of 'six years and six months'",
+      "rhetorical_move": "foundational-doctrine framing",
+      "confidence": "high"
+    },
+    {
+      "claim": "Poe's domicile of origin is Jaro, Iloilo -- as a foundling, she acquired the domicile and citizenship of her parents who are presumed Filipinos under generally-accepted-principles; after marriage and US move she acquired California domicile by operation of law",
+      "rhetorical_move": "domicile-history application to Poe",
+      "confidence": "high"
+    },
+    {
+      "claim": "Poe's intent to acquire a new domicile of choice (animus manendi) is proven by her return in first half of 2005, enrollment of children in June 2005, property purchase in late 2005, and QC home construction in early 2006",
+      "rhetorical_move": "animus-manendi evidence catalog",
+      "confidence": "high"
+    },
+    {
+      "claim": "Poe's intent to abandon her old domicile (animus non revertendi) is shown by the delisting of her children from American schools in May 2005 and the sale of her California home in April 2006",
+      "rhetorical_move": "animus-non-revertendi evidence catalog",
+      "confidence": "high"
+    },
+    {
+      "claim": "Marcos v. Comelec holds that the fact of residence -- not a COC statement -- is decisive; Imelda's honest mistake of writing 'seven months' does not foreclose her candidacy; Poe's '6 years and 6 months' COC entry is similarly not binding proof",
+      "rhetorical_move": "precedent-application protecting Poe from her COC entry",
+      "confidence": "high"
+    },
+    {
+      "claim": "Based on these acts, facts, laws and jurisprudence -- unless belied by contravening facts unknown to CJP -- Senator Poe will surpass the 10-year residency requirement come Election Day, May 9, 2016",
+      "rhetorical_move": "conditional-conclusion with epistemic caveat",
+      "confidence": "medium"
+    }
+  ],
+  "notable_anecdotes": [
+    "Poe's COC-for-Senate entry of 'six years and six months' -- shown to be a non-binding honest-mistake per Marcos precedent",
+    "Imelda Marcos' 'seven months residence' honest-mistake precedent in Marcos v. Comelec",
+    "CJP's Pangalangan postscript: 10-year effort to help him land SC seat; 'Lord did not will it... meant for something bigger'",
+    "Jalosjos: abandoning Australian home + renouncing Australian citizenship + settling in Zamboanga Sibugay = intent to change domicile for good"
+  ],
+  "target_audience": [
+    "Inquirer readership following Poe's presidential eligibility",
+    "Lawyers and election-law practitioners",
+    "Voters and political observers",
+    "Poe campaign circle",
+    "Critics seeking doctrinal grounds for disqualification"
+  ],
+  "register_markers": [
+    "doctrinal-anchor register",
+    "three-rules enumeration for domicile",
+    "animus-manendi + animus-non-revertendi Latin-terminology use",
+    "evidence-catalog format",
+    "conditional-conclusion with epistemic caveat",
+    "Pangalangan postscript in asterisk-divider format",
+    "case-cascade (Marcos/Cordora/Japson/Jalosjos/Maquiling)"
+  ],
+  "decision_framework_signals": [
+    "Residence-equals-domicile election-law equation",
+    "Three-kinds-of-domicile taxonomy",
+    "Three settled domicile rules (always have one, stays until new one acquired, only one at a time)",
+    "Animus manendi (intent to stay) + physical presence + conduct",
+    "Animus non revertendi (intent to abandon old)",
+    "Fact-of-residence over COC-statement (Marcos doctrine)",
+    "Conditional-conclusion with epistemic caveat"
+  ],
+  "one_paragraph_summary": "Panganiban delivers the doctrinal anchor for Grace Poe's presidential eligibility on residency. The Constitution states no person may be elected President (or Vice President) unless he is 'a resident of the Philippines for at least 10 years immediately preceding such election.' In election law, 'residence' is equated with 'domicile,' not necessarily a home address -- a man may have several residences but only one domicile. There are three kinds: domicile of origin (a child follows the parents'), domicile by operation of law, and domicile of choice (freely made by a person of legal age), which 'imports not only the intention to reside in one fixed place but also personal presence in that place, coupled with conduct indicative of such intention.' Three settled rules govern: everyone must always have one domicile; once established, it remains until a new one is acquired; a person can have only one domicile at any given time. Applied to Poe: as a foundling found in Jaro, Iloilo, she acquired the domicile (and citizenship) of her parents who are presumed Filipinos -- so her domicile of origin is Jaro, Iloilo. After she married an American and moved to the US, she lost her domicile of origin and followed her husband's domicile in America. When she and her husband moved back permanently after FPJ's death, she acquired a new domicile of choice. Settled jurisprudence confirms: in Marcos v. Comelec (Sept 18, 1995), the Court held that the fact of residence -- not a COC statement -- is decisive; Imelda's honest mistake of writing 'seven months' for a congressional seat did not foreclose her; similarly, Poe's honest mistake of writing 'six years and six months' in her Senate COC is not binding proof. Cordora v. Comelec (Feb 19, 2009) held that even foreigners may establish Philippine domicile; Japson v. Comelec (Jan 19, 2009) ruled that a former Filipino naturalized abroad may re-establish domicile here even before reacquisition of citizenship; Jalosjos v. Comelec (Oct 19, 2010) held that abandonment of an Australian home, renunciation of Australian citizenship, and settling in Zamboanga Sibugay show 'intent to change domicile for good'; Maquiling v. Comelec (April 16, 2013) clarified that using an American passport after renouncing American citizenship effectively reverses the renunciation. Poe's intent to acquire a new domicile of choice (animus manendi) is proven by her return to the Philippines in the first half of 2005, enrollment of her children here in June 2005, property purchase in late 2005, and construction of her QC family home in early 2006. Her intent to abandon her old domicile (animus non revertendi) is shown by the delisting of her children from their American schools in May 2005 and the sale of her California home in April 2006. Her physical presence is evidenced by passport entries and other authentic documents. Based on these acts, facts, laws and jurisprudence -- unless belied by contravening facts unknown to CJP -- Senator Poe will surpass the 10-year residency requirement come Election Day, May 9, 2016. In a postscript, CJP congratulates Dean Raul Pangalangan for his ICC election, noting he tried for over 10 years to help him land a Supreme Court seat -- 'But the Lord did not will it. Now I know why. Because he was meant for something bigger, loftier and better-suited to his unique specialization.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

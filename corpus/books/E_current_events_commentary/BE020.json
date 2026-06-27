@@ -1,0 +1,121 @@
+{
+  "id": "BE020",
+  "format": "B",
+  "type": "book",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 20,
+  "title": "With Due Respect (Vol. 6) -- Ch. 5: How to Fight No-PROC",
+  "date": "2010-05-02",
+  "link": "https://cjpanganiban.com/books-authored-by-chief-justice-artemio-v-panganiban/",
+  "keywords": [
+    "How to Fight No-PROC",
+    "automation",
+    "exit polls",
+    "disenfranchisement",
+    "holdover",
+    "continuing body",
+    "no-proc",
+    "a battle for democracy",
+    "guns, goons, and gold",
+    "our sacrifice for democracy",
+    "Gloria Macapagal-Arroyo",
+    "1987 Constitution -- succession",
+    "Commission on Elections",
+    "Smartmatic",
+    "Senate",
+    "pollsters SWS",
+    "Pulse Asia",
+    "Supreme Court",
+    "May 10",
+    "2010 automated elections"
+  ],
+  "primary_topics": [
+    "Chapter 5 of 'With Due Respect' (Vol. 6) -- CJP's May 2, 2010 Inquirer column, written eight days before the polls, offering concrete ways to prevent a 'no-proc' (no-proclamation) gridlock that could trigger a GMA holdover or 'a military power grab'",
+    "His framing of the stakes -- the first-ever leap 'from full manual to full automated count nationwide in just one jump,' with a 28-inch ballot ('a sure entry in the Guinness Book of Records'), under a Comelec that had under a year and was 'neither... efficient nor careful'",
+    "His six measures -- an overwhelming presidential win (lead exceeding the 'glitched' votes), an overwhelming VP win as a fallback acting president, electing enough senators to form a Senate-president quorum, immediate exit polls, vigilant watchdogs, and voter patience against disenfranchisement",
+    "His reframing of the election as 'not just a personal contest among the candidates' but 'a battle for democracy' -- 'more important than the election of any particular candidate is the triumph of democracy over the dark forces of status quo'"
+  ],
+  "sub_topics": [
+    "The stakes: 'not since the snap elections of 1986' had an exercise been so critical -- 'the opportunity... to forge an orderly transfer of power' and 'restore our trust in... our savaged democratic institutions'",
+    "The pitfalls: even the Comelec admitted problems could hit 'as much as 30 percent of the total votes'; this was the world's first jump 'from full manual to full automated count nationwide in just one jump' (others phased it over years with short ballots), while ours was '28 inches long' and 'back-to-back' -- 'a sure entry in the Guinness Book of Records'",
+    "From glitches to holdover: granting there would be 'no total failure... nationwide,' CJP feared scattered glitches that, combined, would block proclamation 'when the lead of the leading candidate over the second best would be less than the number of uncounted ballots' -- a gridlock that could yield 'a holdover presidency... or worse, a military power grab'",
+    "Measure one -- an overwhelming win: 'let the presidential victor win overwhelmingly,' so that if the lead exceeds the 'glitched' votes (a 10-million lead against 8 million questioned ballots), 'a proclamation... would be inevitable'; hence vote for 'the candidate with the best chances... even if he (or she) may not be our first choice,' since 'a huge landslide will also wipe out the effects of cheating'",
+    "Measures two and three -- fallback successors: do 'the same for the vice presidential race' so an overwhelmingly elected VP 'can act as president,' and 'elect at least some senators overwhelmingly' so that, with the 12 holdover senators (terms to 2013), they can 'form a quorum to elect a new Senate president' -- foiling the theory that the present Senate 'is no longer a continuing... body'",
+    "Measure four -- exit polls: have 'reputable polling organizations, like SWS and Pulse Asia' run and release exit polls immediately, since the Court in ABS-CBN Broadcasting v. Comelec (Jan. 28, 2000) declared them 'constitutional,' and a credible 'insurmountable lead' would make manipulation 'extremely difficult'",
+    "Measure five -- watchdogs: 'let the election watchdogs, whether accredited or not,' prevent cheating, because automation 'may speed up the results but will not stop guns, goons, and gold'",
+    "Measure six -- patience against disenfranchisement: voters must be 'very patient' through 'long queues' (clustered precincts now packing 'as many as 1,000 electors' against the old 200-per-precinct max), waiting out machine malfunctions and replacements -- not letting 'the summer heat and the exasperating foibles of automation' deter them, as 'our sacrifice for democracy' and 'our long-awaited opportunity to change our leaders peacefully'"
+  ],
+  "signature_phrases": [
+    "no-proc",
+    "a battle for democracy",
+    "the triumph of democracy over the dark forces of status quo",
+    "guns, goons, and gold",
+    "our sacrifice for democracy"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (columnist; former Chief Justice)",
+      "President Gloria Macapagal-Arroyo (the holdover threat)"
+    ],
+    "institutions": [
+      "the Commission on Elections and Smartmatic (the automated system)",
+      "the Senate (the holdover-quorum strategy); pollsters SWS and Pulse Asia; the election watchdogs",
+      "the Supreme Court (ABS-CBN Broadcasting v. Comelec)"
+    ],
+    "cases": [
+      "ABS-CBN Broadcasting Corp. v. Comelec (Jan. 28, 2000) -- exit polls held constitutional"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- succession and the continuing-Senate question",
+      "the automated-election framework"
+    ],
+    "events": [
+      "the May 10, 2010 automated elections and the no-proclamation / holdover fears"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "A 'no-proc' gridlock -- scattered glitches leaving the lead smaller than the uncounted ballots -- could trigger a GMA holdover 'or worse, a military power grab,' so the overriding goal is 'the triumph of democracy over the dark forces of status quo.'",
+      "rhetorical_move": "stakes-elevation: reframing a logistics risk as an existential threat to democracy",
+      "confidence": "asserted as warning"
+    },
+    {
+      "claim": "The antidote is overwhelming margins -- vote for the candidate 'with the best chances... even if he (or she) may not be our first choice,' and elect a VP and senators decisively too, so a landslide 'wipe[s] out the effects of cheating' and guarantees fallback successors.",
+      "rhetorical_move": "strategic prescription: subordinating preference to the systemic goal of a clean proclamation",
+      "confidence": "urged as strategy"
+    },
+    {
+      "claim": "Reinforce the result with immediate exit polls (constitutional under ABS-CBN v. Comelec), vigilant watchdogs (since automation 'will not stop guns, goons, and gold'), and voter patience against disenfranchisement -- 'our sacrifice for democracy.'",
+      "rhetorical_move": "layered-safeguards: stacking independent checks on the automated count",
+      "confidence": "urged as civic duty"
+    }
+  ],
+  "notable_anecdotes": [
+    "A Guinness ballot: CJP notes the 28-inch, back-to-back Philippine ballot was 'a sure entry in the Guinness Book of Records,' dwarfing the short ballots of countries that automated gradually.",
+    "10 million over 8 million: he illustrates the math -- if the lead (say 10 million) exceeds the questioned ballots (8 million), 'a proclamation... would be inevitable.'",
+    "Exit polls are legal: he reminds readers the Court in ABS-CBN Broadcasting v. Comelec had already declared exit polls 'constitutional.'",
+    "1,000 to a precinct: he warns that clustered precincts now packed 'as many as 1,000 electors' (against the old 200), so voters must wait out long queues and machine failures."
+  ],
+  "target_audience": [
+    "Inquirer readers and voters days before May 10",
+    "Pollsters, watchdogs and the Comelec",
+    "Citizens guarding against a holdover"
+  ],
+  "register_markers": [
+    "election-eve civic-strategy register",
+    "enumerated measures (six points)",
+    "stakes-framing ('battle for democracy')",
+    "appeals to patience and sacrifice",
+    "citation of an exit-poll precedent"
+  ],
+  "decision_framework_signals": [
+    "overwhelming-margins defeat 'no-proc' and cheating alike",
+    "fallback-successors: a clear VP and senators protect the succession",
+    "independent-checks: exit polls and watchdogs backstop the machine count",
+    "democracy-over-personality: the system's integrity outranks any candidate",
+    "voter-patience as a safeguard against disenfranchisement"
+  ],
+  "one_paragraph_summary": "Chapter 5 of 'With Due Respect' (Vol. 6), CJP's May 2, 2010 Inquirer column written eight days before the polls, lays out how to prevent a 'no-proc' (no-proclamation) gridlock that could trigger a GMA holdover 'or worse, a military power grab.' He frames the stakes: this was the world's first leap 'from full manual to full automated count nationwide in just one jump,' with a 28-inch, back-to-back ballot ('a sure entry in the Guinness Book of Records'), under a Comelec given under a year and 'neither... efficient nor careful' -- so scattered glitches could block proclamation 'when the lead of the leading candidate... would be less than the number of uncounted ballots.' His six measures: first, let the presidential victor 'win overwhelmingly,' so a lead exceeding the 'glitched' votes makes proclamation 'inevitable' -- vote for the candidate 'with the best chances... even if he (or she) may not be our first choice,' since 'a huge landslide will also wipe out the effects of cheating'; second, elect a VP decisively as a fallback acting president; third, elect enough senators to let the 12 holdover senators 'form a quorum to elect a new Senate president,' foiling the theory that the Senate is no longer 'continuing'; fourth, have SWS and Pulse Asia release exit polls immediately (constitutional under ABS-CBN Broadcasting v. Comelec) to deter manipulation; fifth, deploy watchdogs, since automation 'will not stop guns, goons, and gold'; and sixth, guard against 'massive disenfranchisement' by waiting out the long queues (clustered precincts now packing 'as many as 1,000 electors') and machine failures. Above all, he reframes the vote as 'not just a personal contest... [but] a battle for democracy,' since 'more important than the election of any particular candidate is the triumph of democracy over the dark forces of status quo' -- 'our sacrifice for democracy.'",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

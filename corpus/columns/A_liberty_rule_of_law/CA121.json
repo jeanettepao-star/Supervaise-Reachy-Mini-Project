@@ -1,0 +1,142 @@
+{
+  "id": "CA121",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 121,
+  "title": "SC prioritizes public interest cases",
+  "date": "2023-01-09",
+  "link": "https://opinion.inquirer.net/160165/sc-prioritizes-public-interest-cases",
+  "keywords": [
+    "Macalintal v. RA 11935 (BSKE postponement)",
+    "KAPIT v. NCAP (No-Contact Apprehension Policy)",
+    "P203-billion Marcos Estate Tax",
+    "Writ of Kalayaan (Justice Leonen)",
+    "TRO / Status Quo Ante (SQA)",
+    "one-subject-one-title rule",
+    "fair-comment doctrine on pending public-interest cases"
+  ],
+  "primary_topics": [
+    "CJ Gesmundo's announcement that the Supreme Court will prioritize four public-interest cases in 2023",
+    "Romulo Macalintal's petition challenging RA 11935 (postponement of the BSKE)",
+    "KAPIT petition against the Metro Manila No Contact Apprehension Policy (NCAP)",
+    "CJ Gesmundo's off-the-cuff comment that the P203-billion Marcos Estate Tax could be reopened",
+    "SAJ Marvic Leonen's proposed 'Writ of Kalayaan'",
+    "Fair-comment doctrine on pending public-interest cases"
+  ],
+  "sub_topics": [
+    "RA 11935 postponed the BSKE from Dec. 5, 2022 to the last Monday of October 2023",
+    "Macalintal's three claims: (a) Congress usurped Comelec's power to postpone, (b) the law unconstitutionally extended term of office disguised as postponement, (c) one-subject-one-title rule violated by three subjects",
+    "Comelec chair George Garcia's offer: Comelec ready to hold the BSKE in May 2023 if the Court grants Macalintal's petition before end of January",
+    "Two 'extremely urgent' motions for TRO / Status Quo Ante (SQA) -- to cease and desist from implementing RA 11935 and resume BSKE preparations for May 2023",
+    "Office of the Solicitor General (OSG) opposing the petition, headed by SolGen Menardo I. Guevarra",
+    "OSG procedural objection: petition failed to allege and prove 'grave abuse of discretion' on the part of Congress",
+    "OSG substantive arguments: Congress exercised police power; hold-over is not a term-of-office change; three subjects interrelated; COVID restrictions; recent presidential election context",
+    "Fair-comment doctrine: truthful, respectful, no personal attacks, in good faith; counsel must argue inside the judicial enclave, not in public fora",
+    "CJ's call for the Court to resolve the urgent motions within January and even issue a full decision by end of the month",
+    "Risk of procrastination making the petition academic",
+    "Writ of Kalayaan: laudable intent (liberate inmates from excessive detention and inhuman conditions) but the constitutional-writ tradition is for self-executory rights; needs enabling legislation"
+  ],
+  "signature_phrases": [
+    "As the New Year dawned",
+    "an off-the-cuff comment",
+    "extremely urgent motions",
+    "cease and desist",
+    "UPHOLDING FREEDOM OF SPEECH",
+    "fair comment on pending public interest cases provided they are truthful, respectful, free of personal attacks, and made in good faith",
+    "argue only within the judicial enclave",
+    "What will be tragic would be for the Court to procrastinate and just let time pass by",
+    "the petition to become academic, despite the vital constitutional issues raised",
+    "I believe the Court could even issue a full decision by the end of this month",
+    "writ of kalayaan",
+    "constitutional writs (like habeas corpus or habeas data) are designed to enforce constitutional rights that are self-executory without need of legislation",
+    "I will take up the other public interest cases later"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "CJ Alexander G. Gesmundo",
+      "Senior Associate Justice Marvic M.V.F. Leonen",
+      "Romulo Macalintal (petitioner)",
+      "Comelec chair George Garcia",
+      "Solicitor General Menardo I. Guevarra"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Office of the Solicitor General (OSG)",
+      "Commission on Elections (Comelec)",
+      "Congress of the Philippines",
+      "KAPIT (petitioner organization vs the NCAP)",
+      "Metro Manila Development Authority and local government units (NCAP implementers)"
+    ],
+    "cases": [
+      "Romulo Macalintal v. RA 11935 (BSKE postponement) -- pending",
+      "KAPIT petition vs No Contact Apprehension Policy -- pending",
+      "Possible reopening of the P203-billion Marcos Estate Tax case"
+    ],
+    "laws_treaties": [
+      "Republic Act No. 11935 -- postponement of the BSKE from Dec. 5, 2022 to October 2023",
+      "1987 Constitution -- Comelec power to postpone elections; one-subject-one-title rule; grave-abuse-of-discretion review; police power",
+      "Rules of Court -- TRO / Status Quo Ante (SQA) Orders"
+    ],
+    "events": [
+      "Postponed BSKE (Dec. 5, 2022 → October 2023)",
+      "CJ Gesmundo's New Year prioritization announcement",
+      "Comelec offer to hold BSKE in May 2023 if SC acts in time"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Supreme Court must resolve Macalintal's TRO/SQA motions within January so that the Comelec can prepare for a possible May 2023 BSKE; further procrastination risks making the petition academic.",
+      "rhetorical_move": "urgent-action call grounded in operational feasibility",
+      "confidence": "asserted ('I believe')"
+    },
+    {
+      "claim": "Given the extensive oral arguments and submitted memoranda, the Court could even issue a full decision by the end of January 2023.",
+      "rhetorical_move": "feasibility argument for accelerated resolution",
+      "confidence": "personal estimate"
+    },
+    {
+      "claim": "Fair comment on pending public-interest cases is permissible -- provided commentary is truthful, respectful, free of personal attacks, and in good faith -- but parties and their lawyers must argue inside the judicial enclave, not in public fora.",
+      "rhetorical_move": "doctrinal placement of the column itself inside permitted commentary",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Justice Leonen's proposed Writ of Kalayaan is laudable in intent but problematic in form: constitutional writs (habeas corpus, habeas data) are designed for self-executory rights; rights requiring legislation (e.g., health care) need enabling laws -- so the Court can issue the writ if Congress first enacts enabling legislation.",
+      "rhetorical_move": "doctrinal-categorization critique that preserves the underlying goal",
+      "confidence": "respectfully agrees with retired colleague's text"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ Gesmundo's 'off-the-cuff comment' that the P203-billion Marcos Estate Tax could be reopened -- used to inventory the prioritization slate.",
+    "Comelec chair George Garcia's accelerated readiness: BSKE in May 2023 if the SC grants Macalintal's petition before end of January.",
+    "The retired-colleague text that crystallizes the constitutional-writ tradition: self-executory rights vs rights needing enabling legislation."
+  ],
+  "target_audience": [
+    "The Supreme Court (especially the Court managing the priority docket)",
+    "Comelec (election operations planning)",
+    "Election lawyers and constitutional-law practitioners",
+    "Commuters and motorists affected by NCAP",
+    "Marcos-Estate-tax observers and tax practitioners",
+    "Inquirer readers following CJ Gesmundo's reform agenda"
+  ],
+  "register_markers": [
+    "New-Year prioritization-survey register",
+    "fair-comment self-positioning ('I will limit my comments to the need...')",
+    "doctrinal placement of column inside the permitted-commentary zone",
+    "operational-urgency register ('within this month,' 'by the end of this month')",
+    "small-caps emphasis ('MACALINTAL ATTACKED,' 'OPPOSING PASSIONATELY,' 'UPHOLDING FREEDOM OF SPEECH,' 'TO CLOSE')",
+    "to-be-continued closer ('I will take up the other public interest cases later')"
+  ],
+  "decision_framework_signals": [
+    "fair-comment doctrine applied as self-discipline for column commentary",
+    "TRO/SQA-feasibility analysis to argue for accelerated SC action",
+    "academic-mootness risk as a substantive reason for urgency",
+    "self-executory-rights test for the propriety of new constitutional writs",
+    "enabling-legislation rule for non-self-executory rights",
+    "remedy-alternatives analysis (mandamus as an alternative path for the Kalayaan goal)"
+  ],
+  "one_paragraph_summary": "As the New Year dawned, CJ Alexander G. Gesmundo announced that the Supreme Court would prioritize public-interest cases in 2023. Panganiban inventories four of them: Romulo Macalintal's constitutional challenge to RA 11935 (which postponed the Barangay and Sangguniang Kabataan Elections from Dec. 5, 2022 to October 2023); the KAPIT petition against the Metro Manila No Contact Apprehension Policy; CJ Gesmundo's off-the-cuff comment that the P203-billion Marcos Estate Tax could be reopened; and Senior Associate Justice Marvic Leonen's proposed 'Writ of Kalayaan.' He focuses chiefly on Macalintal, who argues that RA 11935 usurped the Comelec's power to postpone elections, disguised a term-of-office extension as a postponement, and violated the one-subject-one-title rule by embracing three subjects. Comelec chair George Garcia has offered to hold the BSKE in May 2023 if the Court grants the petition before the end of January, and Macalintal has filed two 'extremely urgent' motions for a TRO or SQA directing the Comelec to cease implementing RA 11935 and resume preparations. The OSG, under Solicitor General Menardo I. Guevarra, opposes 'passionately,' arguing the petition failed to allege grave abuse of discretion, that Congress validly exercised police power, that the hold-over is not a term-of-office change, that the three subjects are interrelated, and that COVID and a recent presidential election justified the deferment. Panganiban places his commentary inside the fair-comment doctrine -- truthful, respectful, free of personal attacks, in good faith -- and limits himself to one urging: the Court must resolve the urgent motions within January (even by full decision, given the extensive oral argument and memoranda) to guide the Comelec and the electorate, lest the petition go moot. On the Writ of Kalayaan, he respectfully agrees with a retired colleague's caution that constitutional writs (habeas corpus, habeas data) are designed for self-executory rights; rights requiring legislation (like health care) need enabling laws -- so the Court can issue the writ if Congress first enacts enabling legislation. The other public-interest cases will be taken up later.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

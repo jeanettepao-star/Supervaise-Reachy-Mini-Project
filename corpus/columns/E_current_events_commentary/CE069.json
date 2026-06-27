@@ -1,0 +1,145 @@
+{
+  "id": "CE069",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 69,
+  "title": "Depoliticizing People Power",
+  "date": "2019-03-03",
+  "link": "https://opinion.inquirer.net/119900/depoliticizing-people-power",
+  "keywords": [
+    "EDSA 1",
+    "EDSA 2",
+    "People Power",
+    "Lawyers League v. Aquino",
+    "Estrada v. Desierto",
+    "depoliticization"
+  ],
+  "primary_topics": [
+    "Contrasting SC justifications for Edsa 1 and Edsa 2 legitimacy",
+    "Edsa 1 as extra-constitutional revolution vs Edsa 2 as intra-constitutional exercise",
+    "Lawyers League v. Aquino (1986) vs Estrada v. Desierto (2001) doctrinal contrast",
+    "Depoliticizing People Power from Liberal Party / Aquino / Arroyo partisan identifications",
+    "Duterte's hailing of Edsa as enduring proof history can be rewritten without violence"
+  ],
+  "sub_topics": [
+    "Edsa 1 (Feb 22-25, 1986) -- peaceful People Power Revolution overthrowing Marcos",
+    "Cory Aquino's Proclamation 3 -- 'direct exercise of the power of the Filipino people'",
+    "Lawyers League v. Aquino (May 22, 1986) -- suit dismissed as non-justiciable",
+    "Edsa 2 (Jan 16-20, 2001) -- equally peaceful, ousting Estrada and elevating Arroyo",
+    "Estrada v. Desierto (March 2, 2001) 13-0 (CJ Davide and CJ Panganiban inhibited) -- intra-constitutional ruling",
+    "1973 Constitution obliterated by Edsa 1 vs 1987 Constitution preserved by Edsa 2",
+    "Verbatim Estrada v. Desierto distinction (406 Phil 1, 44)",
+    "Two-year decline of Edsa 1 anniversary observance",
+    "Edsa 2 mostly ignored, even by Arroyo herself sub silentio",
+    "Liberal Party / Aquino family identification with Edsa 1",
+    "Arroyo / regime identification with Edsa 2 -- disparaging",
+    "Magna Carta and American Declaration of Independence as comparative milestones",
+    "Duterte's skipping personal appearance but hailing Edsa rhetorically"
+  ],
+  "signature_phrases": [
+    "supreme contribution to democracy's intrepid journey",
+    "history can be rewritten without the need to resort to violent means",
+    "Cory, Gloria and their partisans do not own Edsa",
+    "People Power belongs to the Filipino nation, not to any partisan political group or clan or leader",
+    "as momentous as the British Magna Carta and the American Declaration of Independence",
+    "shorn of partisan political color",
+    "biblical eye of the needle",
+    "sub silentio",
+    "EDSA I is extra constitutional... EDSA II is intra constitutional",
+    "EDSA I presented a political question; EDSA II involves legal questions"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (inhibited from Estrada v. Desierto)",
+      "CJ Hilario G. Davide Jr. (inhibited from Estrada v. Desierto)",
+      "President Ferdinand Marcos (1986 declared Batasan winner)",
+      "President Corazon Aquino (Edsa 1 ascender)",
+      "President Joseph Estrada (Edsa 2 ousted)",
+      "President Gloria Macapagal Arroyo (Edsa 2 ascender)",
+      "President Rodrigo Duterte (2019 Edsa hailing)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Batasang Pambansa (1986)",
+      "New Armed Forces of the Philippines",
+      "Catholic Church (military-Church backing referenced)",
+      "Liberal Party",
+      "Aquino family / clan"
+    ],
+    "cases": [
+      "Lawyers League v. Aquino (May 22, 1986) -- non-justiciable dismissal",
+      "Estrada v. Desierto (March 2, 2001, 13-0; Davide and CJ Panganiban inhibited) -- intra-constitutional ruling on Arroyo's ascension"
+    ],
+    "laws_treaties": [
+      "1973 Constitution (obliterated by Edsa 1)",
+      "1987 Constitution (ratified post-Edsa 1; preserved through Edsa 2)",
+      "Proclamation 3 of Cory Aquino",
+      "British Magna Carta (comparative reference)",
+      "American Declaration of Independence (comparative reference)"
+    ],
+    "events": [
+      "Feb 22-25, 1986 -- Edsa 1 People Power Revolution",
+      "May 22, 1986 -- Lawyers League v. Aquino",
+      "Jan 16-20, 2001 -- Edsa 2 People Power Revolution",
+      "March 2, 2001 -- Estrada v. Desierto",
+      "Feb 25 -- annual Edsa anniversary (declared non-working holiday but observance fading)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Edsa 1 and Edsa 2, though similar in methods (peaceful assemblies, military and Church support) and outcomes (presidential ousting and women's elevation), were justified by the SC on contrasting doctrinal grounds -- Edsa 1 as extra-constitutional revolution (Lawyers League v. Aquino's non-justiciability ruling because the 1973 Constitution was obliterated) and Edsa 2 as intra-constitutional exercise of freedom of speech and assembly preserving the 1987 Constitution (Estrada v. Desierto's 13-0 ruling).",
+      "rhetorical_move": "doctrinal-contrast-by-verbatim-citation (using SC's own words in 406 Phil 1, 44)",
+      "confidence": "asserted with verbatim citation"
+    },
+    {
+      "claim": "The fading observance of both Edsa anniversaries -- even by Arroyo herself sub silentio -- is the symptom of Edsa's over-identification with partisan political groups (Edsa 1 with the Liberal Party and Aquino family, Edsa 2 with Arroyo and her regime), making the celebrations a function of partisan victory rather than democratic memory.",
+      "rhetorical_move": "partisan-capture diagnosis of historical-memory decline",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Edsa should be depoliticized -- shorn of partisan color and accepted as the Filipino nation's supreme contribution to democracy's intrepid journey, as momentous as the British Magna Carta and the American Declaration of Independence, belonging to the nation rather than to Cory, Gloria, or any clan or leader.",
+      "rhetorical_move": "comparative-historical-elevation (placing Edsa alongside Magna Carta and Declaration)",
+      "confidence": "asserted with civic-aspirational marker"
+    },
+    {
+      "claim": "Duterte's hailing of Edsa as 'enduring proof that history can be rewritten without the need to resort to violent means' -- despite his skipping the personal appearance -- is a vital milestone in the depoliticization process, because a non-Aquino, non-Arroyo president affirming Edsa breaks the partisan capture pattern.",
+      "rhetorical_move": "unlikely-affirmer-as-depoliticization-evidence (Duterte's distance from the Edsa coalitions makes his affirmation more legitimizing)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's personal disclosure that he and CJ Davide inhibited from Estrada v. Desierto (March 2, 2001) -- making the 13-0 vote rather than 15-0 -- anchoring the column's doctrinal analysis in CJ's first-person institutional experience.",
+    "The verbatim SC quotation from Estrada v. Desierto (406 Phil 1, 44) preserved in CJ's column -- 'EDSA I is extra constitutional... EDSA II is intra constitutional... EDSA I presented a political question; EDSA II involves legal questions' -- used as the column's doctrinal centerpiece.",
+    "Arroyo ignoring her own ascendant moment 'sub silentio' during her presidency -- the most quietly devastating fact in the column, since the very beneficiary chose silence on the event that made her president.",
+    "Duterte hailing Edsa 'while skipping personal appearance' -- the dual-signal of substantive endorsement plus physical absence that CJ reads as a step toward depoliticization rather than as a slight."
+  ],
+  "target_audience": [
+    "Civic-minded Filipino readers concerned about Edsa memory decline",
+    "Constitutional law scholars and democracy advocates",
+    "Liberal Party / Aquino family supporters AND critics",
+    "Duterte administration observers",
+    "Comparative-democracy historians and educators"
+  ],
+  "register_markers": [
+    "doctrinal-historical analysis register",
+    "verbatim SC citation as centerpiece (406 Phil 1, 44)",
+    "first-person institutional disclosure (CJ and Davide inhibition)",
+    "Latin idiom ('sub silentio')",
+    "comparative-historical-elevation (Magna Carta, Declaration of Independence)",
+    "civic-aspirational closing ('belongs to the Filipino nation')",
+    "Duterte-quote integration with editorial framing",
+    "parallel-construction analysis (Edsa 1 vs Edsa 2 contrasted across method, outcome, doctrine)",
+    "lament-of-fading-observance register"
+  ],
+  "decision_framework_signals": [
+    "uses doctrinal-contrast-by-verbatim-citation method (let the SC speak in its own words)",
+    "applies partisan-capture diagnosis to explain decline of historical-memory observances",
+    "deploys unlikely-affirmer-as-depoliticization-evidence pattern (Duterte's distance amplifies his endorsement)",
+    "uses comparative-historical-elevation to argue for national rather than partisan ownership",
+    "treats inhibitions and partial-court compositions as substantively relevant context"
+  ],
+  "one_paragraph_summary": "Panganiban contrasts the Supreme Court's doctrinal justifications for the two People Power revolutions: Edsa 1 (February 22-25, 1986), which Lawyers League v. Aquino (May 22, 1986) treated as non-justiciable because the 1973 Constitution had been obliterated by the revolution itself, and Edsa 2 (January 16-20, 2001), which Estrada v. Desierto (March 2, 2001, 13-0 with CJ Davide and Panganiban inhibited) treated as intra-constitutional -- an exercise of freedom of speech and assembly within the still-existing 1987 Constitution, producing a presidential resignation and vice-presidential succession subject to judicial review. He quotes the SC verbatim: 'EDSA I is extra constitutional... EDSA II is intra constitutional... EDSA I presented a political question; EDSA II involves legal questions.' He then laments the fading observance of both anniversaries -- even by Arroyo herself sub silentio -- diagnosing the cause as Edsa's over-identification with partisan groups: Edsa 1 with the Liberal Party and the Aquino family, Edsa 2 with Arroyo and her regime. He calls for depoliticization, urging that Edsa be 'shorn of partisan political color and accepted as our people's supreme contribution to democracy's intrepid journey, as momentous as the British Magna Carta and the American Declaration of Independence.' He reads Duterte's rhetorical affirmation (despite skipping personal appearance) -- that Edsa is enduring proof history can be rewritten without violence -- as a vital depoliticization milestone, precisely because a non-Aquino, non-Arroyo president's endorsement breaks the partisan-capture pattern. He closes: 'Cory, Gloria and their partisans do not own Edsa. Indeed, People Power belongs to the Filipino nation, not to any partisan political group or clan or leader.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

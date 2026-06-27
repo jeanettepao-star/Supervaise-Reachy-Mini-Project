@@ -1,0 +1,135 @@
+{
+  "id": "CA161",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 161,
+  "title": "Petitioners: BBM lied, COC must be nixed",
+  "date": "2022-01-30",
+  "link": "https://opinion.inquirer.net/149217/petitioners-bbm-lied-coc-must-be-nixed",
+  "keywords": [
+    "false material representation",
+    "perpetual disqualification (accessory penalty)",
+    "Theodore Te motion for reconsideration",
+    "BBM 'No' answer to COC Item No. 22",
+    "Provisional Constitution / continuity of public office",
+    "Ignorantia juris neminem excusat"
+  ],
+  "primary_topics": [
+    "Petitioners' motion for partial reconsideration arguing BBM's COC contains two false material representations (Items 11 and 22)",
+    "Whether the CA's conviction of BBM 'by operation of law' carries the accessory penalty of perpetual disqualification",
+    "Whether BBM remained a public officer on March 18, 1986 (the ITR filing deadline) under the then-Provisional Constitution",
+    "Jalosjos v. Comelec (Oct. 9, 2012) -- a COC can still be cancelled even where past eligibility was approved",
+    "Knowledge attribution: BBM as Vice Governor, Governor, Member of Congress, and Senator presumed to know the legal consequences of his conviction"
+  ],
+  "sub_topics": [
+    "BBM's COC Item No. 11 ('I am eligible for the office I seek to be elected to') and Item No. 22 ('No' answer to having been found liable for an offense carrying perpetual disqualification)",
+    "Petitioners' counsel Theodore O. Te and the motion for partial reconsideration",
+    "Argument 1: penalty 'deemed written into the conviction' by operation of law, even if not expressly imposed by the CA",
+    "Argument 2: BBM still a public officer (governor) on March 18, 1986 because the Provisional Constitution kept officials in office until proclamation/successor designation; Castor Raval sworn in only as 'acting governor' of Ilocos Norte",
+    "Argument 3: abandonment of public office is itself a crime, so the Second Division cannot invoke it as a defense for BBM",
+    "Argument 4: the 'No' answer is false because the question only requires that the offense 'carries with it' the accessory penalty -- not that the penalty be imposed",
+    "Argument 5: BBM is presumed to know -- he appealed his conviction to the CA and the SC (later withdrawn); as a long-time public official, he knew the consequences",
+    "Civil Code maxim: 'Ignorance of the law excuses no one from compliance therewith.' / Ignorantia juris neminem excusat",
+    "Jalosjos v. Comelec (Oct. 9, 2012) -- past eligibility findings and prior service as mayor do not bar later COC cancellation"
+  ],
+  "signature_phrases": [
+    "false material representations",
+    "by operation of law",
+    "deemed written into the conviction",
+    "It is exceedingly ludicrous for the Second Division to invoke the commission of a felony on behalf of the offender as a defense against a penalty prescribed by law for another crime",
+    "All (the question) seeks to elicit is whether (BBM) was convicted of a crime",
+    "mislead, misinform, or hide a fact which would otherwise render him ineligible",
+    "AFTER READING THE RESOLUTION AND TE'S MR, I am convinced",
+    "Ignorance of the law excuses no one from compliance therewith",
+    "Ignorantia juris neminem excusat"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Bongbong Marcos (BBM)",
+      "Theodore O. Te (petitioners' counsel)",
+      "Castor Raval (former 'acting governor' of Ilocos Norte)",
+      "Ferdinand E. Marcos Sr. (BBM's father, exiled to Hawaii Feb. 1986)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec) Second Division",
+      "Court of Appeals (CA)",
+      "Supreme Court of the Philippines",
+      "Provincial Government of Ilocos Norte"
+    ],
+    "cases": [
+      "Court of Appeals decision convicting BBM for failure to file ITRs (1982-1985)",
+      "Jalosjos v. Comelec (Oct. 9, 2012)"
+    ],
+    "laws_treaties": [
+      "Omnibus Election Code (OEC), Sections 74 and 78 -- false material representation",
+      "Provisional Constitution of 1986 (Freedom Constitution)",
+      "Civil Code of the Philippines -- Article on legal presumption of knowledge of law",
+      "Tax laws prescribing perpetual disqualification as an accessory penalty for failure to file ITR"
+    ],
+    "events": [
+      "February 1986 EDSA People Power Revolution; Marcos family exile to Hawaii",
+      "March 18, 1986 -- ITR filing deadline for tax year 1985",
+      "BBM's CA appeal and subsequent withdrawn SC petition",
+      "Comelec Second Division Resolution (January 2022, dismissing the COC-cancellation petition)",
+      "Petitioners' Motion for Partial Reconsideration"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "BBM remained a public officer (Governor of Ilocos Norte) on March 18, 1986, when his ITR was due -- the Provisional Constitution kept incumbent officials in office until proclamation or designation/qualification of a successor, and Castor Raval was sworn in only as 'acting governor.'",
+      "rhetorical_move": "constitutional-text + sworn-record argument to defeat the 'exile relief' defense",
+      "confidence": "asserted ('I am convinced')"
+    },
+    {
+      "claim": "BBM did not present proof that he was 'forced' to be exiled with his father; absent such proof, the exile narrative cannot excuse the March 18, 1986 filing failure.",
+      "rhetorical_move": "burden-shifting evidentiary observation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "BBM's 'No' answer to COC Item No. 22 is false because the question asks whether the offense 'carries with it' the accessory penalty -- not whether a court 'imposed' it. The conviction's offense in fact carries perpetual disqualification.",
+      "rhetorical_move": "close textual reading of the COC question",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "BBM cannot claim ignorance of the consequences of his conviction -- he appealed it to the CA and SC, and as a former Vice Governor, Governor, Member of Congress, and Senator he is presumed (under the Civil Code maxim Ignorantia juris neminem excusat) to know the law.",
+      "rhetorical_move": "presumption-of-knowledge + maxim citation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Jalosjos v. Comelec (Oct. 9, 2012) authorizes COC cancellation even where the candidate's eligibility was earlier upheld and he has previously served (e.g., twice as mayor) -- so BBM's past electoral wins are no shield.",
+      "rhetorical_move": "precedent-anchoring of cancellation power",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Theodore Te's pointed line that 'It is exceedingly ludicrous for the Second Division to invoke the commission of a felony [abandonment of office] on behalf of the offender as a defense against a penalty prescribed by law for another crime' -- quoted as the moral fulcrum of the MR.",
+    "The Latin maxim 'Ignorantia juris neminem excusat,' invoked with mild law-school nostalgia ('a maxim familiar to law students').",
+    "The detail that Castor Raval was sworn in only as 'acting governor' of Ilocos Norte -- narrow textual evidence used to defeat the 'exile' defense."
+  ],
+  "target_audience": [
+    "Comelec en banc as the deciding body on motion for reconsideration",
+    "Election lawyers and constitutional-law practitioners",
+    "Petitioners' counsel and partisans pursuing COC cancellation",
+    "Inquirer readers following the BBM cases"
+  ],
+  "register_markers": [
+    "argument-by-argument structuring (Regarding (A)... Regarding (B)...)",
+    "doctrinal-formal register with precise rebuttal to Comelec Resolution",
+    "Latin maxim invocation (Ignorantia juris neminem excusat) with brief gloss",
+    "constitutional-text + sworn-record evidentiary appeal",
+    "self-assertion of conviction ('I am convinced')",
+    "explicit acknowledgment of debatable point ('This is debatable.')"
+  ],
+  "decision_framework_signals": [
+    "textual close-reading of COC question wording ('carries with it' vs 'imposed by court')",
+    "constitutional-continuity analysis under the Provisional Constitution",
+    "burden-shifting evidentiary test (no proof of forced exile)",
+    "presumption-of-knowledge analysis grounded in Civil Code maxim",
+    "precedent-anchoring with Jalosjos to neutralize past-eligibility defenses"
+  ],
+  "one_paragraph_summary": "Panganiban turns to the petitioners' motion for partial reconsideration of the Comelec Second Division's refusal to cancel BBM's Certificate of Candidacy, presenting and largely endorsing the arguments of counsel Theodore O. Te. Item 11 of BBM's COC ('I am eligible') and Item 22 ('No' to having been found liable for an offense carrying perpetual disqualification) are, the petitioners say, false material representations. Te counters the Second Division by arguing that the CA need not have expressly imposed the perpetual-disqualification penalty because it is 'deemed written into the conviction' by operation of law; that BBM remained a public officer on March 18, 1986 (the 1985 ITR filing deadline) under the Provisional Constitution, since Castor Raval was sworn in only as 'acting governor' of Ilocos Norte; and that abandonment of office is itself a felony -- 'exceedingly ludicrous' to invoke on the offender's behalf. Te further argues that COC Item 22 asks only whether the offense 'carries with it' the accessory penalty (it does) and that BBM, having appealed his conviction to the CA and SC (later withdrawn) and served as Vice Governor, Governor, Member of Congress, and Senator, is presumed to know the consequences -- 'Ignorantia juris neminem excusat.' Jalosjos v. Comelec (Oct. 9, 2012) authorizes cancellation even when past eligibility had been upheld. Panganiban records his own conviction with the petitioners' core claims, while noting one point ('This is debatable') where reasonable minds may diverge -- leaving the doctrinal-strategic posture pointed sharply at the Comelec en banc and ultimately the Supreme Court.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

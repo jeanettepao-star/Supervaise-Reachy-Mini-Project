@@ -1,0 +1,115 @@
+{
+  "id": "CA513",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 513,
+  "title": "Should SC stop Corona's impeachment?",
+  "date": "2012-01-22",
+  "link": "https://opinion.inquirer.net/21567/should-sc-stop-corona%e2%80%99s-impeachment",
+  "keywords": [
+    "SC reverse Senate impeachment GAD",
+    "sole power trial decide checks balances",
+    "Corona due process preliminary hearing denied",
+    "five citizen petitions pending SC",
+    "Concepcion duty cannot be evaded"
+  ],
+  "primary_topics": [
+    "Can the SC reverse Senate rulings and stop Corona's impeachment?",
+    "The GAD exception as the only SC check on the Senate's sole power",
+    "The orphaned-petitions problem if Corona himself does not join them"
+  ],
+  "sub_topics": [
+    "Senate denied Corona's motion for preliminary hearing (improper verification; no notice/hearing)",
+    "Three great branches supreme in their own spheres and co-equal",
+    "House: exclusive power to impeach; Senate: sole power to try and decide",
+    "Self-serving for impeached justices to reverse impeachment actions against themselves",
+    "General rule: SC cannot stop impeachment proceedings",
+    "Exception: SC has constitutional duty to check any branch for GAD (Francisco v. HoR, Nov. 10, 2003)",
+    "Constitution says 'duty' not 'power' -- Concepcion: 'duty cannot under any circumstance be evaded'",
+    "GAD defined: arbitrary, whimsical, capricious or despotic judgment; passion or personal hostility",
+    "Question for readers: did Senate commit GAD in denying the preliminary hearing motion?",
+    "Senate President Enrile's ruling: complaint complied with 1/3 House members constitutional mandate",
+    "Five citizen petitions pending in SC (same grounds: improper verification; no notice/hearing)",
+    "Corona himself is not a petitioner; he could file certiorari",
+    "If Corona does not join: petitions are orphaned; why grant when most-interested party abstains?",
+    "Clarification of 'more political than legal' -- not 'mob rule' but policy orientation"
+  ],
+  "signature_phrases": [
+    "sole power to try and decide",
+    "self-serving",
+    "duty, not power",
+    "duty cannot under any circumstance be evaded",
+    "citizen-judges",
+    "orphaned",
+    "most interested in the outcome has not joined them",
+    "not champion(ing) the rule of the mob"
+  ],
+  "entities": {
+    "people": [
+      "CJ Renato C. Corona",
+      "Senate President Juan Ponce Enrile",
+      "CJ Roberto Concepcion (historical reference)",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Senate of the Philippines (impeachment court)",
+      "House of Representatives"
+    ],
+    "cases": [
+      "Francisco v. House of Representatives (November 10, 2003)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (GAD clause; sole power; exclusive power to impeach)"
+    ],
+    "events": [
+      "Senate's denial of Corona's preliminary-hearing motion (January 2012)",
+      "Five citizen petitions filed in SC challenging the impeachment complaint"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The general rule is that the SC cannot stop impeachment proceedings -- the three branches are co-equal; it would be self-serving for impeached justices to use the SC to reverse actions against themselves.",
+      "rhetorical_move": "general-rule statement with self-serving-rationale support",
+      "confidence": "high"
+    },
+    {
+      "claim": "The exception is the constitutional duty (not power) to check any branch for GAD -- per CJ Concepcion, a duty 'cannot under any circumstance be evaded.'",
+      "rhetorical_move": "Concepcion authority on the duty-vs-power distinction",
+      "confidence": "high"
+    },
+    {
+      "claim": "If Corona does not file his own certiorari petition, the five citizen petitions would be 'orphaned' -- why grant them when the person most interested in the outcome has abstained?",
+      "rhetorical_move": "orphaned-petitions problem as a standing issue",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ Concepcion's formulation: the SC's duty to check GAD 'cannot under any circumstance be evaded' -- the original text distinguishing constitutional duty from discretionary power.",
+    "The orphaned-petitions dilemma: five citizens have petitioned the SC on the same grounds Corona raised but Corona himself is not a petitioner -- raising the question of whether the SC should grant relief that the most-interested party has not sought.",
+    "The 'citizen-judges' designation by a senator for the Philippine public -- framing the electorate as the ultimate arbiters of impeachment."
+  ],
+  "target_audience": [
+    "Five citizen petitioners in the SC challenging the impeachment",
+    "CJ Corona's legal team deciding whether to file certiorari",
+    "SC justices deliberating on the petitions",
+    "Constitutional law scholars on GAD and impeachment jurisdiction",
+    "Civic readership following the legal drama"
+  ],
+  "register_markers": [
+    "General-rule-then-exception structure",
+    "Concepcion authority citation",
+    "Reader-as-citizen-judge engagement",
+    "Orphaned-petitions procedural observation",
+    "Author's self-defense on 'mob rule' misreading"
+  ],
+  "decision_framework_signals": [
+    "Apply the general rule first: SC cannot reverse Senate's sole power over impeachment",
+    "Apply the GAD exception only when Senate acts arbitrarily/capriciously/despotically -- test Enrile's ruling against that standard",
+    "Recognize the orphaned-petitions problem: courts are reluctant to grant relief that the most-interested party has not sought"
+  ],
+  "one_paragraph_summary": "Panganiban addresses whether the SC can reverse Senate rulings and stop Corona's impeachment. The Senate denied Corona's motion for a preliminary hearing (on claims of improper verification and lack of notice/hearing). The general rule: No -- the three great branches are co-equal; the House has the exclusive power to initiate and the Senate has the sole power to try and decide; it would be self-serving for impeached justices to use the SC to reverse proceedings against themselves. The exception: Francisco v. House of Representatives (November 10, 2003) held that the SC has the constitutional duty (not power -- and per CJ Concepcion, a duty 'cannot under any circumstance be evaded') to check any branch for grave abuse of discretion (arbitrary, whimsical, capricious, or despotic exercise arising from passion or personal hostility). The question left to 'citizen-judges' (the readers): did the Senate commit GAD in denying the preliminary hearing? Five private citizens have already petitioned the SC on the same grounds, but Corona himself is not a petitioner. If he does not file his own certiorari, the five petitions would be 'orphaned' -- and the SC may ask why it should grant relief when the person most interested in the outcome has abstained. The column closes by defending the 'more political than legal' formulation against an IBP officer's charge of 'championing mob rule' -- political means policy, not mob rule.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

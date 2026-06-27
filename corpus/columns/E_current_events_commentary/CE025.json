@@ -1,0 +1,153 @@
+{
+  "id": "CE025",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 25,
+  "title": "ICI and OMB: Expectations and questions",
+  "date": "2025-09-22",
+  "link": "https://opinion.inquirer.net/186243/ici-and-omb-expectations-and-questions",
+  "keywords": [
+    "Independent Commission for Infrastructure",
+    "Office of the Ombudsman",
+    "Biraogo v. Philippine Truth Commission",
+    "equal protection",
+    "JBC Oct. 6 shortlist deadline"
+  ],
+  "primary_topics": [
+    "TRILLION PESO MARCH and rallies denouncing the ICI as 'palabas' -- CJ asks for a chance to prove otherwise",
+    "Constitutional and operational questions surrounding the very creation of the ICI",
+    "Reach of the ICI's 'all government officials' mandate to senators and congressmen",
+    "Biraogo v. Philippine Truth Commission (2010) precedent on equal-protection limits to executive truth commissions",
+    "Comparative empowerment of the OMB by Constitution and statute, and the unfilled vacancy since July 27"
+  ],
+  "sub_topics": [
+    "The OMB's constitutional power to 'investigate on its own, or on complaint, any act ... illegal, unjust, improper or inefficient'",
+    "Speaker Faustino 'Bogie' Dy III's vow not to defend the guilty and to fully cooperate with the ICI",
+    "Open question whether honorable lawmakers will allow themselves to be summoned, interrogated, arrested, or detained by the ICI",
+    "Whether Congress will pass laws giving ICI subpoena, contempt, and arrest powers analogous to those it uses against resource persons",
+    "Biraogo v. Philippine Truth Commission (Dec. 7, 2010, J. Mendoza, en banc): EO 1 of PNoy unconstitutional for equal-protection violation since it targeted only the 'previous regime' of GMA",
+    "Question whether the ICI's '10-year' prioritization survives the equal-protection clause",
+    "Risk of becoming an unnecessary bureaucratic layer -- comparable to FVR's PCAGC, GMA's PAGC, and DU30's PACC",
+    "16,000 forwarded complaints + lawsuits against the ICI as a labyrinthine workload",
+    "ICI findings are merely recommendatory, not binding",
+    "Constitutional protections of the Ombudsman: 7-year non-renewable term, impeachment-only removal, undiminishable salary",
+    "JBC pre-vetting; President must select within three months of vacancy",
+    "OMB vacancy since July 27; JBC's super-final voting date set for Oct. 6, leaving the President 20 days",
+    "Only judges and justices with 'proven competence, independence, probity, and integrity' can convict and recover ill-gotten wealth",
+    "CJ's bottom-line view: the ICI's real role is to help and facilitate the OMB, not interfere with it"
+  ],
+  "signature_phrases": [
+    "TRILLION PESO MARCH",
+    "a mere diversion, a fall guy of sorts, and a 'palabas'",
+    "Questions linger around the need for its creation",
+    "Questions dawdle on the power of the President to 'mandate' the ICI",
+    "Will the honorable solons dare pass laws mandating the ICI to summon, investigate, embarrass, hold them in contempt, and detain them",
+    "blockbuster",
+    "a mere historical footnote",
+    "rot in prison for life",
+    "googolplex ill-gotten wealth",
+    "the ICI's real role is to help and facilitate--without interfering with--the work of the independent OMB"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "President Ferdinand R. Marcos Jr.",
+      "Speaker Faustino 'Bogie' Dy III",
+      "Former President Benigno Aquino III",
+      "Former Chief Justice Hilario G. Davide Jr.",
+      "Former President Gloria Macapagal Arroyo",
+      "Former President Fidel V. Ramos",
+      "Former President Rodrigo R. Duterte",
+      "Justice Jose Catral Mendoza (Biraogo ponente)"
+    ],
+    "institutions": [
+      "Independent Commission for Infrastructure (ICI)",
+      "Office of the Ombudsman (OMB)",
+      "Supreme Court of the Philippines",
+      "Philippine Truth Commission (2010, by EO 1)",
+      "Presidential Commission Against Graft and Corruption (FVR)",
+      "Presidential Anti-Graft Commission (GMA)",
+      "Presidential Anti-Corruption Commission (DU30)",
+      "Judicial and Bar Council (JBC)",
+      "Office of the President",
+      "Senate of the Philippines",
+      "House of Representatives"
+    ],
+    "cases": [
+      "Biraogo v. Philippine Truth Commission (Dec. 7, 2010, J. Jose Catral Mendoza, en banc) -- EO 1 declared unconstitutional for equal-protection violation"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (OMB powers; JBC; equal protection)",
+      "Executive Order No. 1 (2010, creating the Philippine Truth Commission)"
+    ],
+    "events": [
+      "TRILLION PESO MARCH and accompanying rallies",
+      "OMB vacancy since July 27, 2025",
+      "JBC's super-final Oct. 6 vote on the OMB shortlist",
+      "16,000 complaints forwarded from the Palace to the ICI"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Despite public denunciation of the ICI as a diversion or 'palabas,' the commission and its members deserve a chance to live up to expectations of jailing the masterminds and recovering the billions plundered -- even as serious constitutional and operational questions linger.",
+      "rhetorical_move": "give-the-chance posture + non-suspension of critique",
+      "confidence": "asserted as deliberate provisional posture"
+    },
+    {
+      "claim": "It is unclear whether the words 'all government officials' in the ICI's mandate reach senators and congressmen, and whether -- and how -- the ICI can compel honorable lawmakers to be summoned, interrogated, arrested, or detained; without coercive power and supportive legislation, the ICI may simply be unable to prosecute them.",
+      "rhetorical_move": "reach-and-power gap diagnostic",
+      "confidence": "asked as open question"
+    },
+    {
+      "claim": "Biraogo v. Philippine Truth Commission (2010) declared EO 1 unconstitutional because it targeted only the 'previous regime' of Arroyo -- raising the question whether the ICI's prioritization of the 'last 10 years' might similarly fail the equal-protection clause.",
+      "rhetorical_move": "precedent-based constitutional doubt",
+      "confidence": "asked, not asserted, but doctrinally framed"
+    },
+    {
+      "claim": "The ICI risks adding an unnecessary bureaucratic layer that fades into a historical footnote, like the PCAGC (Ramos), PAGC (Arroyo), and PACC (Duterte) before it -- its findings being merely recommendatory and inevitably swamped by lawsuits.",
+      "rhetorical_move": "comparative-history of failed presidential anti-corruption bodies",
+      "confidence": "asserted as risk profile"
+    },
+    {
+      "claim": "Only the Office of the Ombudsman -- constitutionally insulated by a 7-year non-renewable term, impeachment-only removal, and salary protection -- possesses the mandate, powers, and independence required to run after trillion-peso plunderers; the ICI's real role is therefore to help and facilitate the OMB without interfering with it.",
+      "rhetorical_move": "constitutional-monopoly + auxiliary-role framing",
+      "confidence": "asserted as the column's bottom line"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 'TRILLION PESO MARCH' branding itself -- an unusually concrete numerical name for a protest, used by CJ as a measure of public anger.",
+    "Biraogo v. Philippine Truth Commission as the constitutional ghost in the ICI's machine -- PNoy's truth commission, chaired by ret. CJ Hilario G. Davide Jr., went down for an equal-protection defect, and the ICI may face the same.",
+    "The lineage of failed presidential anti-graft bodies (PCAGC-Ramos, PAGC-Arroyo, PACC-Duterte) cited as the cautionary historical pattern the ICI risks joining.",
+    "The arithmetical pressure the JBC's Oct. 6 super-final-vote date imposes on the President: only 20 days left of the constitutional 3-month appointment window since the July 27 vacancy.",
+    "CJ's coinage 'googolplex ill-gotten wealth' as a tongue-in-cheek hyperbole for the recoverable amount."
+  ],
+  "target_audience": [
+    "President Marcos and the JBC weighing the Ombudsman shortlist",
+    "ICI commissioners thinking through their own constitutional vulnerabilities",
+    "Senators and congressmen evaluating whether to legislate ICI compulsion powers",
+    "Civil-society and litigators preparing both supportive and adverse suits",
+    "Civic-minded readers tracking the flood-control accountability arc"
+  ],
+  "register_markers": [
+    "give-the-chance opening followed by a battery of critical questions",
+    "questions-as-structure (each paragraph posing a new doubt)",
+    "case-citation register (Biraogo, with date, ponente, en banc)",
+    "comparative-history listing (PCAGC/PAGC/PACC) as a single sweep",
+    "constitutional-anatomy register on OMB protections",
+    "'historical footnote' vs 'blockbuster' antithesis",
+    "calendar-anchored urgency (July 27 vacancy → Oct. 6 vote → 20-day remaining window)",
+    "humorous hyperbole ('googolplex') inside otherwise doctrinal prose"
+  ],
+  "decision_framework_signals": [
+    "applies constitutional-monopoly analysis to identify the OMB as the irreplaceable anticorruption organ",
+    "uses precedent-based constitutional doubt (Biraogo) to test executive-created truth commissions",
+    "applies comparative-history of failed presidential anti-graft bodies as a risk benchmark",
+    "treats coercive-powers gap as the diagnostic of whether a body can actually prosecute lawmakers",
+    "uses calendar-window arithmetic (3-month appointment clock) as a forcing function on JBC and the President",
+    "treats auxiliary-role framing (help, do not interfere) as the principled accommodation of ICI to OMB"
+  ],
+  "one_paragraph_summary": "Panganiban responds to the TRILLION PESO MARCH and other rallies that denounced the Independent Commission for Infrastructure as a 'palabas' by extending the ICI a chance to prove itself, while listing the constitutional and operational questions that linger around its very creation. He asks whether 'all government officials' in the ICI mandate reaches senators and congressmen, whether lawmakers will accept being summoned, interrogated, arrested or detained, and whether Congress will pass laws giving the ICI subpoena, contempt, and arrest powers comparable to those it routinely deploys against legislative resource persons. He invokes Biraogo v. Philippine Truth Commission (Dec. 7, 2010, J. Jose Catral Mendoza, en banc) -- which struck down PNoy's EO 1 for equal-protection violation since it targeted only Arroyo's 'previous regime' -- to ask whether the ICI's prioritization of the 'last 10 years' may similarly fail the equal-protection clause. The ICI risks adding an unnecessary bureaucratic layer doomed to fade like Ramos's PCAGC, Arroyo's PAGC, and Duterte's PACC, especially since its findings are merely recommendatory and it will be swamped by lawsuits. By contrast, the OMB is constitutionally armed and insulated -- 7-year non-renewable term, impeachment-only removal, undiminishable salary -- with the Ombudsman vacancy since July 27 awaiting the JBC's super-final Oct. 6 vote and the President's 20-day window. CJ's bottom line: only the OMB can actually jail trillion-peso plunderers, and the ICI's real role is to help and facilitate that work without interfering with it.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

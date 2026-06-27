@@ -1,0 +1,161 @@
+{
+  "id": "CA377",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 377,
+  "title": "CBCP and same-sex marriage",
+  "date": "2015-07-12",
+  "link": "https://opinion.inquirer.net/86624/cbcp-and-same-sex-marriage",
+  "keywords": [
+    "CBCP",
+    "same-sex marriage",
+    "Obergefell v. Hodges",
+    "religious liberty",
+    "Laudato Si",
+    "Pope Francis",
+    "conservatives and liberals"
+  ],
+  "primary_topics": [
+    "Obergefell v. Hodges (June 26, 2015) -- 5-4 Kennedy ponencia compelling all 50 US states to issue same-sex marriage licenses",
+    "CBCP semestral three-day meeting (July 11-12-13) and 'Laudato Si' encyclical as context",
+    "14th Amendment due process and equal protection as marriage-license constitutional basis",
+    "Four dissenting opinions: Roberts, Scalia, Thomas, Alito -- with quoted language",
+    "Conservative-vs-liberal wing typology of SCOTUS; 'Kennedy Court' framing",
+    "PH long-shadow analysis: three Constitutions' near-identical clauses, May 18 2015 Family Code petition, congressional bill announced",
+    "RH-Law-fight-redux prediction for Catholic and religious groups"
+  ],
+  "sub_topics": [
+    "CBCP three-day semestral meeting discussing Obergefell and Pope Francis' Laudato Si encyclical",
+    "Obergefell decision passed 5-4, penned by Justice Anthony Kennedy",
+    "Basis: due process clause and equal protection clause of the 14th Amendment",
+    "Majority holding: denying marriage licenses to same-sex couples is a denial of the right to liberty and discrimination based on sex",
+    "Analogy: denying marriage license to same-sex couples is like denying school entry to a Black student",
+    "CJ Roberts dissent: 'Five lawyers have closed the debate and enacted their own vision of marriage'; framers would not recognize the majority's judicial role",
+    "Scalia dissent: 'hubris'; 'as pretentious as its content is egoistic'; 'profoundly incoherent'",
+    "Thomas dissent: 'liberty has been understood as freedom from government action, not entitlement to government benefits'; religious-liberty threat",
+    "Alito dissent: 'Today's decision usurps the constitutional right of the people to decide whether to keep or alter the traditional understanding of marriage'",
+    "Conservative wing (Roberts/Scalia/Thomas/Alito): original intent of framers, judicial restraint, state governments over federal",
+    "Liberal wing (Breyer/Ginsburg/Sotomayor/Kagan): Constitution interpreted to solve current problems; can invent new concepts like Miranda rights, right to abortion, right against racial segregation",
+    "Kennedy as ninth/swing member; referred to as 'Kennedy Court' rather than 'Roberts Court'",
+    "Back-reference to CJP's Oct 26, 2014 'Legal philosophy' column",
+    "PH three Constitutions (1935/1973/1987) carry near-identical due process and equal protection language",
+    "May 18, 2015 Family Code nullification petition filed even before Obergefell",
+    "Congressman announcing bill to legalize same-sex marriage after Obergefell",
+    "Prediction: bishops, Catholic/religious groups, concerned citizens will fight as passionately as they did the RH Law"
+  ],
+  "signature_phrases": [
+    "long shadow",
+    "in my humble opinion",
+    "judicial legislation",
+    "original intent of the framers",
+    "social engineering (via liberals' can-invent framing)",
+    "RH-Law-fight-redux"
+  ],
+  "entities": {
+    "people": [
+      "Justice Anthony Kennedy (majority author, swing vote)",
+      "CJ John Roberts (conservative dissenter)",
+      "Justice Antonin Scalia (conservative dissenter)",
+      "Justice Clarence Thomas (conservative dissenter)",
+      "Justice Samuel Alito (conservative dissenter)",
+      "Justice Stephen Breyer (liberal)",
+      "Justice Ruth Ginsburg (liberal)",
+      "Justice Sonia Sotomayor (liberal)",
+      "Justice Elena Kagan (liberal)",
+      "Pope Francis (Laudato Si encyclical referenced)"
+    ],
+    "institutions": [
+      "US Supreme Court",
+      "Catholic Bishops' Conference of the Philippines (CBCP)",
+      "Philippine Supreme Court",
+      "Philippine Congress (bill announced)",
+      "Philippine Family Code (petition target)"
+    ],
+    "cases": [
+      "Obergefell v. Hodges (June 26, 2015) -- US SC same-sex marriage ruling"
+    ],
+    "laws_treaties": [
+      "US Constitution -- 14th Amendment due process and equal protection clauses",
+      "1935 Philippine Constitution -- due process and equal protection",
+      "1973 Philippine Constitution -- due process and equal protection",
+      "1987 Philippine Constitution -- due process and equal protection",
+      "Philippine Family Code (petition filed May 18, 2015)"
+    ],
+    "events": [
+      "CBCP semestral meeting July 11-12-13, 2015",
+      "Obergefell v. Hodges decision June 26, 2015",
+      "May 18, 2015 Family Code nullification petition filed",
+      "Congressman's announcement of same-sex marriage bill after Obergefell"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The CBCP is watching the long shadow cast by Obergefell v. Hodges because PH's three Constitutions carry due process and equal protection clauses in almost identical words to the 14th Amendment basis for the ruling",
+      "rhetorical_move": "long-shadow framing as column anchor",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Obergefell majority held that denying marriage licenses to same-sex couples is equivalent to a denial of the right to liberty under the due process clause and discrimination based on sex under the equal protection clause -- akin to denying school entry based on a student's Black color",
+      "rhetorical_move": "majority-holding summary with racial-discrimination analogy",
+      "confidence": "high"
+    },
+    {
+      "claim": "The four dissenters used scathing language: Roberts accused the majority of judicial legislation ('Five lawyers have closed the debate'); Scalia called it 'hubris' and 'profoundly incoherent'; Thomas warned of religious-liberty threat ('liberty as freedom from government action, not entitlement to benefits'); Alito decried it as usurping the constitutional right of the people",
+      "rhetorical_move": "structured dissent-summary with direct quotations",
+      "confidence": "high"
+    },
+    {
+      "claim": "The conservative wing (Roberts/Scalia/Thomas/Alito) believes in original intent of framers, judicial restraint, and state-over-federal primacy; the liberal wing (Breyer/Ginsburg/Sotomayor/Kagan) believes the Constitution should solve current problems and can invent new concepts like Miranda rights, right to abortion, and right against racial segregation",
+      "rhetorical_move": "wing-typology exposition",
+      "confidence": "high"
+    },
+    {
+      "claim": "Justice Kennedy holds the swing vote -- typically, as in Obergefell, he tilts the balance; this is why the US Supreme Court is often referred to as the 'Kennedy Court' rather than the 'Roberts Court'",
+      "rhetorical_move": "swing-vote framing",
+      "confidence": "high"
+    },
+    {
+      "claim": "The bishops, Catholic and other religious groups, and concerned citizens can be expected to fight the pending PH Family Code petition and any congressional same-sex marriage bill as passionately as they did the Reproductive Health Law",
+      "rhetorical_move": "RH-Law-fight-redux prediction",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "CBCP meeting covering both Obergefell and Laudato Si -- two live controversies at once",
+    "May 18, 2015 Family Code nullification petition filed even before Obergefell was issued",
+    "Congressman announcing same-sex marriage bill the day after the US decision",
+    "Roberts' 'Five lawyers have closed the debate' -- most quotable dissent line",
+    "Scalia's 'hubris' and 'profoundly incoherent' language as most intemperate dissent",
+    "Thomas' liberty-as-freedom-from-government framing",
+    "Alito's usurpation-of-people's-rights framing"
+  ],
+  "target_audience": [
+    "CBCP bishops and Catholic community",
+    "Same-sex rights advocates",
+    "Lawyers and constitutional scholars",
+    "Legislators tracking the proposed bill",
+    "Civil-society groups on both sides of the RH-style debate",
+    "Inquirer readership"
+  ],
+  "register_markers": [
+    "long-shadow framing as anchor",
+    "structured dissent-summary with direct quotations",
+    "wing-typology exposition",
+    "swing-vote analysis",
+    "racial-discrimination analogy",
+    "RH-Law-fight-redux prediction as close",
+    "section labels (Same-sex marriage, Dissenting opinions, Philosophical divide, Long shadow in PH)"
+  ],
+  "decision_framework_signals": [
+    "Due process + equal protection as twin constitutional bases",
+    "Original-intent vs living-Constitution interpretive divide",
+    "Judicial restraint vs judicial activism typology",
+    "Swing-vote structural analysis",
+    "Long-shadow methodology: foreign-ruling + domestic-clause-identity = PH relevance",
+    "RH-Law-fight precedent for predicting future Catholic-bloc response"
+  ],
+  "one_paragraph_summary": "Panganiban writes for the CBCP's semestral three-day meeting (July 11-12-13), which will discuss both current events and Pope Francis' recent encyclical Laudato Si. On current events, the bishops will look at the long shadow cast by the US Supreme Court's decision in Obergefell v. Hodges (June 26, 2015) -- passed 5-4 and penned by Justice Anthony Kennedy -- compelling all 50 US states to issue marriage licenses to same-sex couples 'on the same terms and conditions as marriages between persons of the opposite sex.' The majority held that denying marriage licenses to same-sex couples while granting them to opposite-sex couples constitutes a denial of the right to liberty under the due process clause and discrimination based on sex under the equal protection clause of the 14th Amendment -- akin to denying school entry to a student because of Black color. The four dissenters employed scathing words. CJ Roberts accused the majority of judicial legislation: 'Five lawyers have closed the debate and enacted their own vision of marriage... Those who founded our country would not recognize the majority's conception of the judicial role.' Scalia charged the majority with 'hubris,' its decision 'couched in a style that is as pretentious as its content is egoistic' with 'profundities [that] are often profoundly incoherent.' Thomas argued that 'liberty has been understood as freedom from government action, not entitlement to government benefits' and warned the decision threatens religious liberty. Alito decried it as usurping 'the constitutional right of the people to decide whether to keep or alter the traditional understanding of marriage.' To fully comprehend these acidic exchanges, the conservative wing -- Roberts/Scalia/Thomas/Alito -- believes the US Constitution should be interpreted in accordance with the original intent of the framers, that the Court should exercise judicial restraint and defer to elected officials, and that state governments should prevail over the federal. The liberal wing -- Breyer/Ginsburg/Sotomayor/Kagan -- believes the Charter should be interpreted to solve current problems, which may require inventing new concepts like Miranda rights, the right to abortion, and the right against racial segregation. Kennedy holds the swing vote; typically, as in Obergefell, he tilts the balance -- this is why the US Supreme Court is often referred to as the 'Kennedy Court' rather than the 'Roberts Court.' The CBCP is watching the long shadow because: (1) PH's 1935, 1973, and 1987 Constitutions carry due process and equal protection clauses in almost identical words; (2) a petition anchored on these clauses had already been filed in our SC on May 18, 2015 -- even before Obergefell -- to nullify portions of the Family Code defining marriage between a man and a woman; (3) after Obergefell, a congressman announced a bill legalizing same-sex marriage. CJ predicts the bishops, Catholic and other religious groups, and concerned citizens will fight this petition and bill as passionately as they did the Reproductive Health Law.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

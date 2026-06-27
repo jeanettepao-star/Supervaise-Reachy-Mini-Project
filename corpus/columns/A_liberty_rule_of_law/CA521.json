@@ -1,0 +1,117 @@
+{
+  "id": "CA521",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 521,
+  "title": "Justices' SALN and other FAQs",
+  "date": "2011-10-30",
+  "link": "https://opinion.inquirer.net/16243/justices%e2%80%99-saln-and-other-faqs",
+  "keywords": [
+    "justices SALN secrecy",
+    "SC SALN two decisions",
+    "case citation date",
+    "bar members railing",
+    "Facebook social media retirement",
+    "CJ press conference 2005",
+    "law firm of counsel",
+    "anti-graft SALN exemption"
+  ],
+  "primary_topics": [
+    "Why SC justices are exempted from public SALN disclosure -- two old SC decisions CJ challenged but none picked up",
+    "CJ's personal policy on legal advice: no long-distance advice; only public-interest questions in column",
+    "Miscellaneous FAQs: citation format, why lawyers are 'members of the bar,' social media abstention, law firm status"
+  ],
+  "sub_topics": [
+    "Anti-Graft Law: president, VP, Cabinet, senators, congressmen SALNs released annually -- justices/judges exempted",
+    "Two SC decisions (promulgated before CJ joined) banned justices' SALN release",
+    "Justice Adolfo Azcuna voluntarily released SALN upon induction but withdrew after learning of decisions",
+    "CJ's December 22, 2005 first press conference: challenged reporters and bar to file petition to revisit -- no one did",
+    "Personal legal advice: every problem is unique; requires ascertainment of specific facts and applicable law",
+    "Example: adopted child inheriting from deceased adoptive child -- deceptively simple, many factual predicates",
+    "Referral: practicing lawyer for general cases; Public Attorneys' Office or IBP for indigents",
+    "Public-interest questions published in column (e.g., 'Enfranchising duals and greens,' Sept. 18)",
+    "FAQ: Why cite only case title and date, not Phil or SCRA or case number?",
+    "Answer: Space saving; title + date = sufficient to find via internet or SC Library (chronological)",
+    "Date also indicates recency and authority level",
+    "FAQ: Why are lawyers called 'members of the bar'?",
+    "Answer: Traditional court railing separating lawyers' area from public gallery -- swing doors only lawyers may pass",
+    "FAQ: Why not join Facebook, Twitter?",
+    "Answer: Retired, values privacy, cannot keep up with tweets and small talk; responds to relevant e-mail within 24 hours; does not open unknown attachments",
+    "FAQ: Do you have a law firm?",
+    "Answer: Dissolved when joined SC; not rejoined or 'of counsel' since -- unfair advantage as former CJ knowing incumbent justices/judges; serves as independent director/adviser of some companies"
+  ],
+  "signature_phrases": [
+    "this challenge was published and broadcasted... but no one during my watch picked up my dare",
+    "every legal problem is unique",
+    "deceptively simple",
+    "the best advice I could give is to consult a good practicing lawyer",
+    "members of the bar",
+    "nothing to do with their vaunted voluminous drinking habit",
+    "I am now retired from public service and would rather keep my privacy",
+    "I do not claim to be infallible, only reasonable"
+  ],
+  "entities": {
+    "people": [
+      "Justice Adolfo S. Azcuna (voluntarily released SALN then withdrew after learning of decisions)",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Public Attorneys' Office (PAO)",
+      "Integrated Bar of the Philippines (IBP)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Anti-Graft Law -- SALN disclosure for public officials (justices/judges exempted by two old SC decisions)",
+      "Two old SC decisions banning justices' SALN disclosure without en banc permission (unnamed)"
+    ],
+    "events": [
+      "CJ Panganiban's first press conference as CJ (December 22, 2005) -- challenged reporters/bar to file SALN petition",
+      "CJ's retirement from public service",
+      "Enfranchising duals and greens column (September 18, 2011)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Justices' SALNs should be publicly disclosed — CJ personally challenged reporters and the bar in his December 22, 2005 press conference to file a petition for the SC to revisit the two old decisions banning their release — but no one picked up the dare, leaving the exemption intact by default.",
+      "rhetorical_move": "accountability-by-invitation argument: CJ's own failed challenge as both a personal confession of limits and a standing invitation for bar action",
+      "confidence": "asserted as personal position"
+    },
+    {
+      "claim": "CJ will not join any law firm or practice 'of counsel' after retirement — it would be unfair to other lawyers given his knowledge of incumbent justices and judges who might (wittingly or unwittingly) be accused of bias — making the 'independent director/adviser' role his acceptable professional alternative.",
+      "rhetorical_move": "self-imposed ethical recusal argument: recognizing structural bias risk as the basis for a voluntary professional restraint",
+      "confidence": "asserted as personal ethical standard"
+    }
+  ],
+  "notable_anecdotes": [
+    "Justice Azcuna voluntarily releasing his SALN upon induction — then withdrawing it after learning that two old SC decisions banned such release — illustrating the bind that individual justices who support transparency face: they cannot act unilaterally against binding precedent, regardless of personal inclination.",
+    "CJ's first press conference as Chief Justice (December 22, 2005) where he publicly challenged the press and the bar to file a petition for the SC to revisit the SALN decisions — 'but no one during my watch picked up my dare' — the single most transparent disclosure of CJ's personal views on an issue he was constitutionally prevented from deciding unilaterally.",
+    "The bar-railing etymology: lawyers are 'members of the bar' because of the traditional court railing separating the lawyers' area from the public gallery, with small swing doors that only lawyers may pass — followed immediately by CJ's deadpan disclaimer: 'This nomenclature has nothing to do with their vaunted voluminous drinking habit.'"
+  ],
+  "target_audience": [
+    "General readers curious about why justices' SALNs are not publicly released",
+    "Bar members considering whether to file a petition on the justices' SALN question",
+    "Inquirer readers sending legal questions to CJ's column",
+    "Legal academics and researchers using CJ's citation format guidance",
+    "Social media users who have tried to connect with CJ on Facebook/Twitter"
+  ],
+  "register_markers": [
+    "FAQ-format register (question-and-answer conversational structure)",
+    "accountability-by-invitation register (CJ's 2005 challenge to the bar — 'no one picked up my dare')",
+    "self-imposed-ethical-recusal register (no law firm, no 'of counsel')",
+    "etymological-explanation register (bar railing origin with drinking-habit disclaimer)",
+    "privacy-protection register (no Facebook/Twitter; e-mail only for column-related queries)",
+    "'I do not claim to be infallible, only reasonable' humility close"
+  ],
+  "decision_framework_signals": [
+    "applies institutional-constraint recognition: two old SC decisions bind all justices regardless of personal views",
+    "uses accountability-by-invitation logic: public challenge to bar as the appropriate mechanism for an issue CJ cannot personally resolve",
+    "applies self-imposed-ethical-recusal framework: structural bias risk → voluntary professional restraint",
+    "uses date-as-authority-indicator principle: later promulgation = more current and authoritative",
+    "treats every-legal-problem-is-unique principle as the meta-reason for declining long-distance legal advice"
+  ],
+  "one_paragraph_summary": "Panganiban addresses several frequently asked questions from readers. On justices' SALNs: while all other senior officials' SALNs are released under the Anti-Graft Law, justices and judges are exempted by two old SC decisions promulgated before CJ joined; Justice Azcuna voluntarily released his SALN but withdrew it after learning of these decisions; at his December 22, 2005 first press conference as CJ, Panganiban publicly challenged reporters and the bar to file a petition for the SC to revisit the matter -- 'but no one during my watch picked up my dare.' On personal legal advice: every legal problem is unique and he cannot dispense 'long-distance advice' -- readers should consult practicing lawyers or the PAO/IBP for indigents; but public-interest questions he publishes in the column (e.g., 'Enfranchising duals and greens'). On citation format: he gives only title and promulgation date (not Phil/SCRA/case number) to save space -- title + date is sufficient to find the decision via internet or SC Library, and the date signals recency and authority. On 'members of the bar': a traditional court railing separates lawyers' area from public gallery, with swing doors only lawyers may pass -- 'nothing to do with their vaunted voluminous drinking habit.' On social media: retired, values privacy, cannot keep up with tweets; responds to relevant e-mails within 24 hours, does not open unknown attachments. On a law firm: dissolved when he joined the SC; has not rejoined or served 'of counsel' since retirement because it would be unfair to other lawyers whose cases before incumbent justices and judges might invite (wittingly or unwittingly) accusations of bias -- he serves instead as an independent director/adviser of some companies and closes: 'I do not claim to be infallible, only reasonable.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

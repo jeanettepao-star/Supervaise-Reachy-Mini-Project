@@ -1,0 +1,174 @@
+{
+  "id": "CA347",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 347,
+  "title": "Money Laundering 101",
+  "date": "2016-04-24",
+  "link": "https://opinion.inquirer.net/94432/money-laundering-101",
+  "keywords": [
+    "Money laundering AMLA primer",
+    "Bangladesh Bank heist Senate hearings context",
+    "'unlawful activity' enumeration",
+    "tax evasion exclusion",
+    "covered mediums (banks BSP/insurance IC/securities SEC)",
+    "casinos as glaring gap",
+    "P500,000 covered transaction threshold",
+    "suspicious transaction 7 indicia",
+    "three stages -- placement, layering, integration"
+  ],
+  "primary_topics": [
+    "Money laundering definition and elements",
+    "Catalog of 'unlawful activities' under PH AML law (with tax evasion notably excluded)",
+    "Mediums for laundering -- banks, FX dealers, insurance, securities, casinos (excluded), real estate, art",
+    "Covered (>P500K) and suspicious transactions reporting to AMLC",
+    "Three stages: placement, layering, integration"
+  ],
+  "sub_topics": [
+    "Senate hearings on money laundering glued people to TV-radio-computer",
+    "Staggering amounts + audacity morbidly fascinated public",
+    "Facts still being uncovered; no conclusions/condemnations yet",
+    "Money laundering = transacting cash proceeds of 'unlawful activity' to appear from legitimate sources",
+    "Concealing true nature as illegal-activity proceeds",
+    "Example: ransom money deposited in a bank",
+    "Kidnapping prosecuted separately from laundering",
+    "Bank officials who knew or could have known the funds were ransom can be prosecuted",
+    "Conspirators/aiders/abettors/assistors/counselors also guilty",
+    "AMLC-reporting failure (covered or suspicious transactions) also constitutes laundering",
+    "Not all laundering illegal -- only proceeds from listed 'unlawful activity'",
+    "List of unlawful activities (16-item catalog): kidnapping for ransom, drug trafficking, graft and corruption, plunder, bribery, malversation, car theft, robbery and extortion, jueteng and masiao, piracy, qualified theft, swindling, smuggling, Electronic Commerce Act violations, hijacking, destructive arson, Securities Regulation Code violations, terrorism (RA 9372), terrorism financing (2012 Act), other special laws",
+    "Tax evasion NOT 'unlawful activity' under AMLA -- but can be separately prosecuted",
+    "Mediums: BSP-supervised (FX dealers, pawnshops, money changers, remittance companies, similar), Insurance Commission-supervised (insurance, preneed), SEC-supervised (dealers, brokers, investment houses, mutual funds)",
+    "Casinos NOT included among covered mediums -- cash from illegal sources can buy chips, winnings paid in checks → deposited as legal money",
+    "Real estate + art piece purchases -- paid in cash, resold later with check/legitimate-instrument payment",
+    "Covered transaction: cash deposit/withdrawal >P500,000, banks report to AMLC within 5 banking days",
+    "Suspicious transactions: ≤P500K with qualifying circumstances",
+    "Seven suspicious-circumstance criteria: no underlying legal/trade obligation/purpose/economic justification, client not properly identified, amount not commensurate to client capacity, structured to avoid covered-transaction threshold, deviation from client profile or past transactions, related to unlawful activity, similar circumstances",
+    "Three stages of laundering -- universal three-step process",
+    "Stage 1 -- Placement: introducing illegal funds into financial system, e.g., breaking large cash into small bank deposits, purchasing checks/money orders with illegal cash",
+    "Stage 2 -- Layering: transactions disguising source through multiple layers, e.g., investment instrument trades, wire transfers across global accounts, masked as payments for goods/services",
+    "Stage 3 -- Integration: criminals openly enjoy money via property/stock/investment purchases, illegal origin concealed"
+  ],
+  "signature_phrases": [
+    "Senate hearings on money laundering",
+    "glued many to their TV-radio sets and computer monitors",
+    "staggering amounts and the audacity of the scheme",
+    "morbidly fascinated people",
+    "Simply stated",
+    "'clean money'",
+    "Otherwise stated",
+    "additional malefactors can be prosecuted",
+    "knew, or could have known",
+    "Not all laundering is illegal",
+    "Notably, casinos are not included among the covered mediums",
+    "the player can ask that their winnings be paid in checks to be deposited as legal money",
+    "covered transaction",
+    "suspicious transactions",
+    "Three stages",
+    "placement",
+    "layering",
+    "integration"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban"
+    ],
+    "institutions": [
+      "Philippine Senate (ongoing hearings)",
+      "Anti-Money Laundering Council (AMLC)",
+      "Bangko Sentral ng Pilipinas (BSP -- supervises FX dealers, pawnshops, money changers, remittance companies)",
+      "Insurance Commission (supervises insurance, preneed)",
+      "Securities and Exchange Commission (SEC -- supervises dealers, brokers, investment houses, mutual funds)",
+      "Banks (primary AMLA-covered institutions)",
+      "Casinos (notably excluded from AMLA coverage in 2016)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Anti-Money Laundering Act (AMLA) -- definition + covered transactions framework",
+      "Electronic Commerce Act of 2000 (violations as predicate offense)",
+      "Securities Regulation Code (violations as predicate offense)",
+      "Republic Act No. 9372 -- Human Security Act / terrorism",
+      "Terrorism Financing Prevention and Suppression Act of 2012",
+      "Anti-Graft and Corrupt Practices Act (predicate offense)",
+      "Plunder law (predicate offense)",
+      "Comprehensive Dangerous Drugs Act (predicate offense)",
+      "Anti-Kidnapping law (predicate offense)"
+    ],
+    "events": [
+      "Ongoing Senate hearings on money laundering (2016 context -- RCBC / Bangladesh Bank heist hearings)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Money laundering is the crime of transacting cash proceeds of an 'unlawful activity' to make them appear from legitimate sources -- distinct from the underlying predicate crime; the kidnappers and the launderers of the ransom are prosecuted separately, but bank officials who 'knew, or could have known' the funds were ransom can also be prosecuted, as can conspirators/aiders/abettors/assistors/counselors and those who fail to report covered or suspicious transactions to the AMLC.",
+      "rhetorical_move": "definition + scope-of-liability framing with multiple-party prosecution disclosure",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Not all laundering is illegal -- only when proceeds come from law-listed 'unlawful activity,' which spans 16 categories including kidnapping for ransom, drug trafficking, graft and corruption, plunder, bribery, malversation, car theft, robbery and extortion, jueteng and masiao, piracy, qualified theft, swindling, smuggling, e-commerce/securities violations, hijacking, destructive arson, terrorism (RA 9372), and terrorism financing (2012 Act); notably, tax evasion is NOT included as an unlawful activity, though it can be prosecuted separately.",
+      "rhetorical_move": "scope-limit framing + tax-evasion exclusion disclosure",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Multiple mediums beyond banks can be used for laundering -- BSP-supervised entities (FX dealers, pawnshops, money changers, remittance companies), Insurance Commission-supervised (insurance, preneed), SEC-supervised (securities, brokers, mutual funds) -- but notably casinos are NOT among the covered mediums, despite the ease of using illegal cash to buy chips and laundering via check-paid winnings; similarly, real estate and art-piece purchases allow cash-in / check-out laundering.",
+      "rhetorical_move": "medium-catalog with casino-exclusion critique",
+      "confidence": "asserted with notable-exclusion emphasis"
+    },
+    {
+      "claim": "Cash transactions above P500,000 are 'covered' and must be reported to AMLC within 5 banking days; smaller amounts can also be 'suspicious' under seven enumerated circumstances -- no underlying legal/trade obligation, client not properly identified, amount not commensurate to client capacity, structuring to avoid covered threshold, deviation from client profile/past transactions, relation to unlawful activity, or other similar circumstances.",
+      "rhetorical_move": "threshold + suspicious-circumstance enumeration framework",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Money laundering follows a universal three-stage process: (1) Placement -- introducing illegal funds into the financial system (e.g., breaking large cash amounts into smaller deposits, purchasing checks/money orders with illegal cash); (2) Layering -- disguising source through multiple-layer transactions (investment instrument trades, wire transfers across global accounts, masking as payments for goods/services); (3) Integration -- openly enjoying the laundered money through legitimate property/stock/investment purchases, with illegal origin concealed.",
+      "rhetorical_move": "three-stage process framework with mechanism examples per stage",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 'morbidly fascinated' framing of public attention on the Senate hearings -- captures the simultaneous-fascination-and-disgust that defined the RCBC/Bangladesh-Bank-heist news cycle.",
+    "The ransom-deposit canonical example: 'Money laundering is committed when ransom money is deposited in a bank. Kidnapping is one crime; laundering its proceeds (ransom) by depositing it in a bank is another crime.' -- using two-crime sequencing to establish the predicate/laundering distinction clearly.",
+    "The 'knew, or could have known' standard for bank officials -- capturing the constructive-knowledge culpability standard that extends liability beyond actual participants.",
+    "The 16-item unlawful-activity catalog preserved as a complete inventory -- making AMLA's predicate-offense scope operationally visible.",
+    "The tax-evasion exclusion: 'Is depositing funds derived from tax evasion money laundering? No, because tax evasion is not an unlawful activity under the cited law' -- a Q&A-style clarification highlighting a counterintuitive gap.",
+    "The casino-exclusion critique: 'Notably, casinos are not included among the covered mediums yet cash from illegal sources can be used to buy casino chips and used for gambling' -- naming the most operationally exploitable AMLA gap of 2016 (subsequently closed by later amendments).",
+    "The real-estate / art-piece parallel laundering mechanism: cash purchase → resale paid by check or legitimate instrument -- extending the casino critique to other unregulated asset classes.",
+    "The seven-circumstance suspicious-transaction catalog preserved verbatim with quotation marks -- making the regulator's compliance checklist visible to readers.",
+    "The placement-layering-integration three-stage framework -- CJ's most concise rendering of the global AML doctrinal architecture in pedagogical form."
+  ],
+  "target_audience": [
+    "PH Senate hearing follow-along audience",
+    "Bank compliance officers and AMLC-reporting staff",
+    "BSP/SEC/Insurance Commission supervised entities",
+    "Casino operators (notable-exclusion audience)",
+    "Real estate and art-market participants",
+    "Anti-money-laundering legal practitioners",
+    "Civic readers wanting AML primer"
+  ],
+  "register_markers": [
+    "'101' primer-pedagogy register",
+    "labeled-subhead structure ('Definition', 'Mediums', 'Covered and suspicious transactions', 'Three stages')",
+    "'Simply stated' / 'Otherwise stated' lay-reader-paraphrase signaling",
+    "definition + scope-of-liability framing",
+    "16-item unlawful-activity catalog",
+    "casino-exclusion critique (operational-gap identification)",
+    "Q&A-style clarification ('Is depositing funds derived from tax evasion money laundering?')",
+    "seven-circumstance suspicious-transaction catalog",
+    "three-stage process framework with mechanism examples",
+    "'Notably' emphasis marker for counterintuitive exclusions",
+    "verbatim-statutory quotation in quotation marks",
+    "ongoing-hearings real-time relevance framing"
+  ],
+  "decision_framework_signals": [
+    "applies '101' primer-pedagogy register for high-public-interest legal topics",
+    "uses definition + scope-of-liability framing as standard opening for criminal-law analysis",
+    "deploys exhaustive-catalog preservation for statutory frameworks",
+    "applies counterintuitive-exclusion-disclosure ('notably... excluded') to highlight operational gaps",
+    "uses Q&A-style clarification for predictable reader misconceptions",
+    "structures complex doctrinal processes through three-stage frameworks"
+  ],
+  "one_paragraph_summary": "Panganiban provides a Money Laundering 101 primer amid ongoing Senate hearings that have 'glued many to their TV-radio sets and computer monitors' with 'staggering amounts and the audacity of the scheme' morbidly fascinating the public. Money laundering is the crime of transacting cash proceeds of an 'unlawful activity' to make them appear from legitimate sources -- concealing their true nature as illegal-activity proceeds. Example: ransom money deposited in a bank constitutes laundering (separate from the kidnapping); bank officials who 'knew, or could have known' the funds were ransom can also be prosecuted, as can conspirators/aiders/abettors/assistors/counselors and those who fail to report covered or suspicious transactions to the AMLC. Not all laundering is illegal -- only when proceeds come from law-listed unlawful activity: kidnapping for ransom, drug trafficking and related offenses, graft and corruption, plunder, bribery, malversation, car theft, robbery and extortion, jueteng and masiao, piracy, qualified theft, swindling, smuggling, Electronic Commerce Act violations, hijacking, destructive arson, Securities Regulation Code violations, terrorism (RA 9372), terrorism financing (2012 Act), and other special laws. Tax evasion is notably NOT included, though it can be separately prosecuted. Mediums beyond banks include BSP-supervised entities (FX dealers, pawnshops, money changers, remittance companies), Insurance Commission-supervised (insurance, preneed), and SEC-supervised (securities dealers, brokers, investment houses, mutual funds). Notably, casinos are NOT covered mediums -- yet cash from illegal sources can buy chips, and winnings paid in checks deposit as legal money; the same gap exists for real estate and art-piece purchases (cash in, check or legitimate instrument out). Cash transactions above P500,000 are 'covered' and reportable to AMLC within five banking days; smaller amounts can be 'suspicious' under seven enumerated circumstances: (1) no underlying legal/trade obligation/purpose/economic justification, (2) client not properly identified, (3) amount not commensurate to client capacity, (4) structured to avoid the covered threshold, (5) deviation from client profile or past transactions, (6) relation to unlawful activity, or (7) similar circumstances. Money laundering follows a universal three-stage process: (1) Placement -- introducing illegal funds into the financial system, e.g., by breaking large cash into smaller deposits or purchasing checks/money orders with illegal cash; (2) Layering -- disguising the source through multiple-layer transactions, e.g., investment instrument purchase and sale, wire transfers across global bank accounts masked as payments for goods or services; (3) Integration -- criminals openly enjoy the laundered money since its illegal origin is now concealed, integrating funds into the legitimate economy through property, stocks, and other investments.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "CA488",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 488,
+  "title": "Moving on to greatness",
+  "date": "2012-08-19",
+  "link": "https://opinion.inquirer.net/35050/moving-on-to-greatness",
+  "keywords": [
+    "De Lima JBC disqualification moves on",
+    "Herbosa Jardeleza regular vs prima facie",
+    "Drilon Carpio deference outsider shoo-in",
+    "creative tension mutual cooperation",
+    "JBC 25-year history outsiders short list"
+  ],
+  "primary_topics": [
+    "De Lima's graceful retreat and the distinction between regular and prima facie admin cases",
+    "JBC's historic first: three outsiders on the chief justice short list",
+    "The ideal CJ-President relationship: creative tension, not coziness"
+  ],
+  "sub_topics": [
+    "De Lima decided to move on; retracted conspiracy accusation against SC/IBP/JBC",
+    "Tupas explanation: JBC applied existing rule on 'regular administrative cases'",
+    "Herbosa disbarment dismissed; Jardeleza case only in initial stage (no prima facie)",
+    "Regular case = SC refers disbarment complaint to IBP (prima facie exists)",
+    "Pre-referral: can be summarily dismissed; post-referral: IBP must investigate",
+    "Carpio's disbarment case dismissed for lack of jurisdiction (sitting justices = impeachable only)",
+    "De Lima can challenge rule in SC or ask for amendment as ex officio JBC member",
+    "De Lima's destined greatness: pruned, tested, prepared for higher office",
+    "JBC salute: dispelled tayo-tayo suspicion; first three outsiders in 25-year history short list",
+    "First time: all candidates required SALN, ITR, bank waivers; psycho-neuro tests for sitting justices",
+    "Published voting tally -- six of 19 candidates got zero votes",
+    "Aurora Lagman: unconfirmed JBC member who voted courageously despite political disadvantages",
+    "Drilon would have been a shoo-in -- but declined post-impeachment delicadeza",
+    "De Lima disqualified -- Aquino must choose from less familiar nominees",
+    "Ideal CJ-President relationship: not comfort but creative tension amid mutual cooperation",
+    "From short list: Aquino will choose a tenacious reformist"
+  ],
+  "signature_phrases": [
+    "moving on to greatness",
+    "tayo-tayo club",
+    "creative tension amid mutual cooperation",
+    "delicadeza of the rarest kind",
+    "destined greatness",
+    "pruned, tested and prepared",
+    "shoo-in",
+    "not one of comfort and coziness"
+  ],
+  "entities": {
+    "people": [
+      "DOJ Secretary Leila de Lima",
+      "Rep. Niel Tupas (JBC member)",
+      "SEC Chair Teresita Herbosa",
+      "SolGen Francis Jardeleza",
+      "Justice Antonio T. Carpio",
+      "Ret. Justice Aurora Lagman (unconfirmed JBC member)",
+      "Sen. Franklin Drilon",
+      "President Benigno Aquino III",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Judicial and Bar Council (JBC)",
+      "Supreme Court of the Philippines",
+      "Integrated Bar of the Philippines (IBP)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "JBC disqualification rule (effective December 1, 2000)",
+      "Executive Order 200 (15-day publication requirement)"
+    ],
+    "events": [
+      "De Lima's exclusion from JBC chief justice short list (August 2012)",
+      "JBC voting session (August 2012)",
+      "Drilon's Corona impeachment participation and his subsequent declination"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "De Lima prudently retracted her conspiracy accusation -- Tupas correctly explained that the JBC applied its existing rule uniformly, distinguishing 'regular' (post-SC referral, prima facie) from 'initial stage' (no prima facie yet) administrative cases.",
+      "rhetorical_move": "factual-correction combined with endorsement of the rule's application",
+      "confidence": "high"
+    },
+    {
+      "claim": "The JBC's first three outsiders on the chief justice short list -- plus the SALN/ITR/bank waiver requirement, the psycho-neuro tests, and the published tally -- represent the JBC's finest hour in 25 years.",
+      "rhetorical_move": "institutional-tribute identifying specific historic firsts",
+      "confidence": "high"
+    },
+    {
+      "claim": "The ideal CJ-President relationship is not comfort and coziness but creative tension amid mutual cooperation -- that is how checks and balances best thrive.",
+      "rhetorical_move": "prescriptive institutional-relationship framing",
+      "confidence": "high"
+    },
+    {
+      "claim": "De Lima may be being pruned, tested, and prepared for an office higher than the chief magistracy -- 'move on she must, to reach her destined greatness.'",
+      "rhetorical_move": "consolation with higher-destiny framing",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Drilon's declination on grounds of delicadeza: having actively participated in the Corona impeachment, he felt awkward gunning for the post the ousted CJ vacated -- 'delicadeza of the rarest kind indeed!'",
+    "Ret. Justice Aurora Lagman -- unconfirmed JBC regular member -- voting courageously despite her political, peer, and rank disadvantages, refusing to be intimidated by the powerful candidates she was vetting.",
+    "Six of 19 candidates receiving zero votes after the JBC published its voting tally -- a transparency measure that risked the ire of those not selected.",
+    "The author's prediction that De Lima may be 'pruned, tested and prepared for an office higher than the chief magistracy' -- a notable early forecast of her subsequent political career."
+  ],
+  "target_audience": [
+    "De Lima and her supporters processing the JBC exclusion",
+    "JBC members and applicants understanding the regular-case distinction",
+    "CJ-elect Sereno understanding her institutional relationship with the President",
+    "President Aquino choosing among the JBC nominees",
+    "Civic readership tracking the chief justice selection"
+  ],
+  "register_markers": [
+    "Consolation-with-destiny framing for De Lima",
+    "Regular-vs-prima-facie administrative case distinction",
+    "JBC institutional-tribute with specific historic firsts",
+    "Drilon delicadeza anecdote",
+    "Creative-tension prescription for CJ-President relations",
+    "Lagman-courage spotlight"
+  ],
+  "decision_framework_signals": [
+    "Apply the regular-case distinction: an admin case is 'regular' only after the SC refers it to the IBP (prima facie established); pre-referral cases are not grounds for JBC disqualification",
+    "The JBC disqualification rule applies uniformly -- amending it mid-vacancy to help a specific candidate violates the 15-day publication requirement of EO 200",
+    "Design the CJ-President relationship as creative tension, not comfort -- a CJ perceived as too close to the President loses institutional credibility",
+    "Treat the Lagman standard as the gold standard for JBC members: vote according to conscience despite political disadvantages"
+  ],
+  "one_paragraph_summary": "Following De Lima's exclusion from the JBC's chief justice short list, Panganiban explains the legal distinctions and delivers institutional verdicts. De Lima prudently retracted her conspiracy accusation after Rep. Tupas (a Palace ally) clarified that the JBC applied its existing uniform rule on 'regular administrative cases': Herbosa's disbarment case was already dismissed; Jardeleza's was at an initial stage with no prima facie finding; only when the SC refers a disbarment complaint to the IBP does the case become 'regular.' De Lima can still challenge the rule in the SC or seek its amendment as an ex officio JBC member -- though the 15-day publication requirement of EO 200 made any mid-vacancy amendment moot. The author offers consolation: De Lima may be 'pruned, tested and prepared for an office higher than the chief magistracy.' He salutes the JBC for its finest hour in 25 years: first three outsiders in its short list history; first requirement of SALN, ITR, and bank waivers for all candidates; psycho-neuro tests not waived for sitting justices; and published voting tally (six of 19 candidates received zero votes). Special tribute to Ret. Justice Aurora Lagman -- unconfirmed JBC member -- who voted courageously despite political, peer, and rank disadvantages. Had Sen. Drilon agreed to be vetted, he would have been a shoo-in -- but he cited delicadeza ('of the rarest kind') about gunning for the post just vacated by the CJ he helped oust. The column closes with the author's institutional prescription: the ideal CJ-President relationship is not comfort and coziness but 'creative tension amid mutual cooperation' -- that is how checks and balances best thrive.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

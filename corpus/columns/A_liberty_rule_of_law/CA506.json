@@ -1,0 +1,131 @@
+{
+  "id": "CA506",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 506,
+  "title": "Bank deposits as evidence",
+  "date": "2012-03-10",
+  "link": "https://opinion.inquirer.net/24691/bank-deposits-as-evidence",
+  "keywords": [
+    "bank secrecy",
+    "RA 1405",
+    "fruit of poisonous tree",
+    "RA 6426 dollar deposits",
+    "PSBank TRO",
+    "Salvacion v. Central Bank",
+    "prevent perpetuation of injustice",
+    "Corona dollar accounts"
+  ],
+  "primary_topics": [
+    "The legal framework for using bank deposits as evidence in the Corona impeachment trial -- peso deposits (RA 1405) and dollar deposits (RA 6426)",
+    "The defense fruit-of-the-poisonous-tree motion to suppress peso deposits and the Senate rejection; the PSBank TRO on dollar deposits",
+    "CJ view: Corona must explain not just the legal issues but demonstrate the fitness, integrity, and moral ascendancy worthy of the highest judicial office"
+  ],
+  "sub_topics": [
+    "RA 1405 (Bank Secrecy Law): deposits absolutely confidential except six exceptions -- monetary board authorization, independent auditor, depositor written permission, impeachment cases, court order in bribery/dereliction, money as litigation subject matter",
+    "Impeachment is a clear exception: Senate subpoenaed PSBank and BPI; both divulged peso deposits",
+    "Defense motion to suppress: fruit-of-the-poisonous-tree rule -- specimen signature card illegally leaked to prosecutors; Justice Frankfurter coined the rule; SC adopted in People v. Alicando (Dec. 12, 1995)",
+    "Senate rejection: bank secrecy laws do not bar admission of illegally obtained bank records; signature card not leaked by government",
+    "Corona own statement: source could have come only from PSBank -- explains why he closed three peso accounts on Dec. 12 (day of impeachment); CJ wonders why lawyers still filed the motion",
+    "RA 6426 (Foreign Currency Deposit Act): absolute confidentiality except single exception -- written permission of depositor",
+    "PSBank applied for and secured SC TRO barring disclosure of dollar deposits",
+    "SC exceptions to RA 6426: Salvacion v. Central Bank (Aug. 21, 1997) and China Banking v. Court of Appeals (Dec. 18, 2006) -- examination allowed to prevent perpetuation of injustice",
+    "Senate argument: The statutory rule on absolute confidentiality must yield to CJ Corona's clear constitutional obligation to fully declare and publicly disclose his assets",
+    "PSBank president Garcia admitted five dollar accounts pointed out by Enrile belong to the Chief Justice",
+    "Corona TV promise to bare dollar accounts whether or not TRO exists",
+    "Beyond impeachment: Corona must explain discrepancies in SALNs vs condos, bank deposits, other assets; must demonstrate fitness, integrity, moral ascendancy worthy of highest judicial office"
+  ],
+  "signature_phrases": [
+    "Bank deposits are sacred",
+    "absolutely confidential and may not be examined, inquired or looked into",
+    "Coined by US Supreme Court Justice Felix Frankfurter",
+    "once the primary source (the tree) is shown to have been unlawfully obtained, any secondary or derivative evidence (the fruit) derived from it is also inadmissible",
+    "bank secrecy laws do not bar the admission of illegally obtained bank records",
+    "the source of the leaked documents could have come only from the PSBank",
+    "foreign currency deposits cannot be examined, inquired or looked into, except in only one instance: upon the written permission of the depositor",
+    "The statutory rule on absolute confidentiality must yield to CJ Corona's clear constitutional obligation to fully declare and publicly disclose his assets",
+    "I have always said that there is no problem with my dollar deposit because I can explain it",
+    "He has to face, not just the impeachment court, but the nation as well"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Chief Justice Renato C. Corona (respondent)",
+      "PSBank president Pascual Garcia (admitted five dollar accounts belong to Corona)",
+      "Senate President Juan Ponce Enrile (pointed out five accounts)",
+      "Justice Felix Frankfurter (coined fruit of poisonous tree rule)"
+    ],
+    "institutions": [
+      "Philippine Savings Bank (PSBank)",
+      "Bank of the Philippine Islands (BPI)",
+      "Senate (impeachment court)",
+      "Supreme Court of the Philippines (issued TRO; prior Salvacion and China Banking decisions)"
+    ],
+    "cases": [
+      "People v. Alicando (Dec. 12, 1995) -- fruit of poisonous tree adopted by SC",
+      "Salvacion v. Central Bank (Aug. 21, 1997) -- foreign currency deposit examination to prevent injustice",
+      "China Banking v. Court of Appeals (Dec. 18, 2006) -- same doctrine",
+      "PSBank v. Senate (SC, pending TRO petition)"
+    ],
+    "laws_treaties": [
+      "Republic Act No. 1405 (Bank Secrecy Law) -- six exceptions including impeachment",
+      "Republic Act No. 6426 (Foreign Currency Deposit Act) -- single exception (written permission)",
+      "1987 Constitution -- public accountability and SALN requirement"
+    ],
+    "events": [
+      "Senate subpoenas to PSBank and BPI for peso deposits (complied)",
+      "Defense motion to suppress peso deposits as fruit of poisonous tree (Senate rejected)",
+      "Corona closing three PSBank peso accounts on Dec. 12, 2011 (day of impeachment)",
+      "PSBank application for SC TRO on dollar deposit disclosure (granted)",
+      "Corona national TV promise to bare dollar accounts whether or not TRO exists"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Impeachment is a clear statutory exception to bank secrecy under RA 1405, making the Senate subpoenas legally proper; the defense fruit-of-the-poisonous-tree motion was correctly rejected because bank secrecy law does not bar admission of illegally obtained bank records and the signature card was not leaked by the government.",
+      "rhetorical_move": "two-ground rejection of the fruit-of-the-poisonous-tree motion",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Senate has a stronger argument for the dollar deposit disclosure than the single written-permission exception under RA 6426 suggests: the SC has already allowed such disclosure in Salvacion (1997) and China Banking (2006) to prevent perpetuation of injustice, and Corona constitutional obligation of public accountability overrides the absolute confidentiality rule.",
+      "rhetorical_move": "constitutional-obligation-overrides-statutory-confidentiality argument for dollar deposits",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Beyond the legal technicalities, Corona must demonstrate -- when he takes the stand -- the fitness, integrity, and moral ascendancy worthy of the highest judicial office, because he will be judged not merely on legal hermeneutics but on the much larger perspective of what is best for the country.",
+      "rhetorical_move": "fitness-integrity-moral-ascendancy-as-the-ultimate-test beyond legal maneuvering",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Corona puzzling statement that the leaked specimen signature card could have come only from the PSBank -- which explains why he closed three PSBank peso accounts on the day of his impeachment -- making CJ wonder why his lawyers still filed the fruit-of-the-poisonous-tree motion if the leak was from the bank (not the government).",
+    "Corona national TV promise to bare his dollar accounts whether or not there will be a TRO -- CJ accepts at face value and says he should be given every opportunity to do so.",
+    "The Senate argument that the statutory rule on absolute confidentiality must yield to CJ Corona clear constitutional obligation -- framing RA 6426 confidentiality as a lesser statutory protection unable to override the constitutionally mandated SALN requirement."
+  ],
+  "target_audience": [
+    "Lawyers and constitutional law scholars tracking the bank secrecy and evidence issues",
+    "Civic readers understanding why peso and dollar deposits are being treated differently",
+    "Senator-judges evaluating the peso deposit evidence and awaiting the SC ruling on dollar deposits",
+    "Media commentators covering the legal intricacies of the Corona trial"
+  ],
+  "register_markers": [
+    "bank-deposits-are-sacred as the opening paradox before listing exceptions",
+    "six-exceptions-enumeration for RA 1405 vs single-exception for RA 6426 as the contrast structure",
+    "fruit-of-the-poisonous-tree etymology (Frankfurter coined it; SC adopted in Alicando)",
+    "CJ-wonders marker (I wonder why his lawyers still filed the motion)",
+    "prevent-perpetuation-of-injustice as the SC-created exception to RA 6426",
+    "fitness-integrity-moral-ascendancy as the closing values-based standard",
+    "nation-as-the-ultimate-judge framing (he has to face, not just the impeachment court, but the nation)"
+  ],
+  "decision_framework_signals": [
+    "applies impeachment-as-bank-secrecy-exception to establish lawful basis for peso deposit subpoenas",
+    "uses two-ground rejection (bank secrecy law + non-government leak) to dismiss the fruit-of-the-poisonous-tree motion",
+    "applies prevent-perpetuation-of-injustice doctrine to argue for dollar deposit disclosure despite RA 6426 single exception",
+    "frames constitutional-obligation-overrides-statutory-confidentiality as the hierarchy-of-norms argument",
+    "deploys fitness-integrity-moral-ascendancy as the ultimate standard beyond procedural and technical legal arguments"
+  ],
+  "one_paragraph_summary": "Panganiban explains the legal framework for using bank deposits as evidence in the Corona impeachment trial. Under RA 1405 (Bank Secrecy Law), deposits are absolutely confidential with six exceptions -- including impeachment cases, making the Senate's subpoenas of PSBank and BPI for Corona's peso deposits legally proper. The defense filed a motion to suppress the peso deposits as the fruit of the poisonous tree (a rule coined by Justice Frankfurter and adopted by the Philippine SC in People v. Alicando, 1995) -- claiming the specimen signature card was illegally leaked to the prosecutors. The Senate rejected the motion on two grounds: bank secrecy laws do not bar admission of illegally obtained bank records, and there is no evidence the government leaked the card. CJ notes the puzzle: Corona himself said the source 'could have come only from the PSBank' -- explaining why he closed three PSBank peso accounts on the day of his impeachment, December 12, 2011 -- yet his lawyers still filed the motion. On the dollar deposits: RA 6426 (Foreign Currency Deposit Act) has only one exception (depositor's written permission); PSBank obtained a SC TRO barring disclosure. But the SC has previously allowed such examination in Salvacion v. Central Bank (1997) and China Banking v. Court of Appeals (2006) to 'prevent the perpetuation of an injustice'; and the Senate argues that 'the statutory rule on absolute confidentiality must yield to CJ Corona's clear constitutional obligation to fully declare and publicly disclose his assets.' PSBank president Pascual Garcia admitted the five dollar accounts belong to the CJ. CJ accepts at face value Corona's TV pledge to explain the accounts and calls on him to demonstrate -- before not just the impeachment court but the nation -- the fitness, integrity, and moral ascendancy worthy of the highest judicial office.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,150 @@
+{
+  "id": "CA444",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 444,
+  "title": "Moving the pork mess to justice",
+  "date": "2013-09-21",
+  "link": "https://opinion.inquirer.net/61647/moving-the-pork-mess-to-justice",
+  "keywords": [
+    "PDAF decision",
+    "Belgica",
+    "Perlas-Bernabe",
+    "unanimous",
+    "separation of powers",
+    "Malampaya Fund",
+    "Social Funds",
+    "milestone reform"
+  ],
+  "primary_topics": [
+    "SC unanimous decision banishing PDAF -- Belgica vs Ochoa, J Perlas-Bernabe ponente",
+    "Court's threefold limitation: on legislators, on President, and direction to prosecute scammers",
+    "Invalidation of PD 910 (Malampaya Fund) and PD 1869 (Social Funds) on undue-delegation grounds",
+    "Reform-milestone framework and what additional milestones must follow"
+  ],
+  "sub_topics": [
+    "Decision penned by Justice Estela M. Perlas-Bernabe -- still based on press statement; full text not yet released",
+    "Unanimous justices, emphatic language, all-encompassing coverage",
+    "'All past and present Congressional Pork Barrel Laws, such as the previous PDAF and CDF Articles and the various Congressional insertions'",
+    "Limitation: only laws conferring personal lump sum allocations to legislators with project-determination power are reversed; 1994 precedent (recommendatory-only intervention) not necessarily reversed",
+    "Limitation on legislators: cannot determine specific projects post-enactment",
+    "Limitation on President: lump-sum appropriations only for specific purposes/projects, no unlimited choices",
+    "PD 910 Malampaya Fund -- 'for such other purposes as may be hereafter directed by the President' is undue delegation",
+    "PD 1869 Social Funds -- 'to finance priority infrastructure development projects' is undue delegation (President identifies priorities)",
+    "Unspent PDAF returned to National Treasury -- opening for supplemental budget for earthquake/typhoon survivors",
+    "CJ's Nov 3 recommendation ('Using pork barrel to help calamity victims') being implemented by Drilon and Belmonte through supplemental budget",
+    "Direction to investigate/prosecute officials and individuals for criminal offenses related to pork barrel misuse",
+    "Speedy investigation by Secretary of Justice and Ombudsman as additional milestones",
+    "Speedy conviction (after due process) as greater milestone",
+    "Future milestones: Anti-Dynasty bill, FOI bill, automated election reforms, voter education, election of honest competent president in 2016"
+  ],
+  "signature_phrases": [
+    "major milestone in nation-building",
+    "within the bounds of reasonable dispatch",
+    "pleasantly surprising",
+    "unanimity of the justices, the emphatic language used, and the all-encompassing coverage",
+    "personal lump sum allocations",
+    "undue delegation of legislative power",
+    "the ideal Philippines"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Estela M. Perlas-Bernabe (ponente of Belgica vs Ochoa)",
+      "Franklin Drilon (Senate President -- spearheading supplemental budget)",
+      "Feliciano Belmonte (Speaker -- spearheading supplemental budget)"
+    ],
+    "institutions": [
+      "Supreme Court (en banc)",
+      "Senate of the Philippines",
+      "House of Representatives",
+      "Office of the President",
+      "Department of Justice",
+      "Office of the Ombudsman",
+      "National Treasury"
+    ],
+    "cases": [
+      "Belgica vs Ochoa (Nov 19 2013, J Perlas-Bernabe -- PDAF unconstitutionality)"
+    ],
+    "laws_treaties": [
+      "PDAF provisions of GAA",
+      "CDF (Countrywide Development Fund) Articles",
+      "PD 910 (Malampaya Fund -- partially invalidated)",
+      "PD 1869 (Social Funds -- partially invalidated)",
+      "1987 Constitution -- separation of powers, undue-delegation doctrine"
+    ],
+    "events": [
+      "Belgica decision (Nov 19 2013)",
+      "Bohol/Cebu earthquake (Oct 2013)",
+      "Central PH killer typhoon (Yolanda/Haiyan, Nov 2013) -- implied",
+      "Future supplemental budget being prepared by Drilon and Belmonte",
+      "Future milestones: Anti-Dynasty bill, FOI bill, automated election reforms, voter education, 2016 elections"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Belgica vs Ochoa decision is a 'major milestone in nation-building,' pleasantly surprising not just for the ruling but for three qualities: unanimity of the justices, emphatic language, and all-encompassing coverage -- the form of the decision is as significant as the substance.",
+      "rhetorical_move": "form-as-substance framing (treating procedural qualities of a ruling as carrying independent weight)",
+      "confidence": "asserted enthusiastically"
+    },
+    {
+      "claim": "The Court banished not only PDAF but 'all past and present Congressional Pork Barrel Laws, such as the previous PDAF and CDF Articles and the various Congressional insertions' -- sweeping coverage -- while preserving the 1994 precedent for cases where legislator intervention was merely recommendatory.",
+      "rhetorical_move": "scope-of-ruling clarification (broad new doctrine + preserved narrow old precedent)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The decision also restricted presidential discretion: lump-sum appropriations can be spent only for specific purposes; PD 910 (Malampaya Fund) and PD 1869 (Social Funds) are partly invalid because they delegate to the President the legislative power to identify 'other purposes' or 'priority infrastructure projects.'",
+      "rhetorical_move": "symmetry-of-restriction observation (Court bound both legislative and executive branches, not just legislators)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The decision opens the door to additional milestones: unspent PDAF returned to National Treasury enables a supplemental budget for calamity survivors (CJ's Nov 3 column recommendation, now being implemented by Drilon and Belmonte); criminal investigation/prosecution is another milestone; speedy conviction would be a greater milestone.",
+      "rhetorical_move": "milestone-cascade framing (each post-decision step as additional milestone in nation-building)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "To reach the ideal Philippines, more milestones are needed: Anti-Dynasty bill, FOI bill, automated election reforms, voter education, and the election of an honest competent president in 2016 -- the longer-term reform agenda.",
+      "rhetorical_move": "reform-agenda preview (using this column's closing to forecast the next columns' subjects)",
+      "confidence": "asserted as roadmap"
+    },
+    {
+      "claim": "Hope in the rule of law is the only viable basis for reform; alternatives (revolution, coup d'état, military rule) are worse -- a moral-philosophical anchor in response to doubting readers.",
+      "rhetorical_move": "lesser-evil rule-of-law defense (responding to despair with constitutional incrementalism)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's exchange with doubting readers -- 'I replied that we should never lose hope in the rule of law as the basis of reform because the alternatives, like revolution, coup d'état, or military rule, are worse' -- the most explicit articulation of CJ's lesser-evil constitutionalism, written as direct reply to skeptical correspondence.",
+    "The form-as-substance triple emphasis: 'unanimity of the justices, the emphatic language used, and the all-encompassing coverage' -- the three qualities CJ singles out as carrying independent weight, suggesting that doctrinal precedent and rhetorical force together constitute a ruling's authority.",
+    "The preservation of the 1994 precedent embedded in the new doctrine -- 'the Court did not necessarily reverse previous decisions that declared the pork barrel constitutional in the cases where the legislators had no power to determine the specific projects' -- the subtle observation that the new ruling is narrower than its rhetoric suggests.",
+    "The forecast list of next milestones -- Anti-Dynasty bill, FOI bill, automated election reforms, voter education, 2016 election -- functions as the column's table-of-contents for the months that follow, several of which become standalone columns (FOI in A430, dynasties in A433)."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Reform-minded readers (responding directly to 'doubting readers' from last Sunday)",
+    "Bohol/Cebu earthquake and Yolanda typhoon survivors and advocates",
+    "Civic-engagement and electoral-reform constituencies"
+  ],
+  "register_markers": [
+    "celebratory-milestone register ('major milestone in nation-building')",
+    "form-as-substance triple-emphasis ('unanimity... emphatic language... all-encompassing coverage')",
+    "'Pleasantly surprising' repeated as anaphora",
+    "press-statement-not-full-text qualifier ('the decision's full text has not been released as of this writing')",
+    "milestone-cascade vocabulary",
+    "reform-agenda forecast list",
+    "doubting-readers response register",
+    "lesser-evil rule-of-law defense"
+  ],
+  "decision_framework_signals": [
+    "uses form-as-substance framing to treat procedural qualities of rulings (unanimity, language, coverage) as carrying independent weight",
+    "applies scope-of-ruling clarification (broad new doctrine + preserved narrow old precedent)",
+    "deploys symmetry-of-restriction observation (Court bound both branches, not just legislators) to demonstrate doctrinal evenhandedness",
+    "frames reform as milestone-cascade (each post-decision step as additional milestone)",
+    "uses reform-agenda preview to forecast next columns' subjects",
+    "anchors hope through lesser-evil rule-of-law defense (constitutional incrementalism over revolutionary alternatives)"
+  ],
+  "one_paragraph_summary": "Panganiban hails the SC's unanimous Belgica vs Ochoa decision (penned by Justice Estela M. Perlas-Bernabe) banishing the PDAF as a 'major milestone in nation-building.' Pleasantly surprising, he says, are three qualities: the unanimity of the justices, the emphatic language, and the all-encompassing coverage -- the form-as-substance reading of a landmark ruling. The Court reached not just PDAF but 'all past and present Congressional Pork Barrel Laws, such as the previous PDAF and CDF Articles and the various Congressional insertions,' while preserving the 1994 precedent for cases where legislator intervention was merely recommendatory. He notes the symmetry-of-restriction: the decision also bound the President, ruling that lump-sum appropriations can be spent only for specific purposes, and partly invalidating PD 910 (Malampaya Fund's 'such other purposes as may be hereafter directed by the President') and PD 1869 (Social Funds' 'priority infrastructure development projects') as undue delegation of legislative power. The decision directed return of unspent PDAF to the National Treasury, opening the door to a supplemental budget for earthquake and typhoon survivors -- the very recommendation CJ made in his November 3 column, now being implemented by Senate President Drilon and Speaker Belmonte. The direction to investigate and prosecute scammers 'within the bounds of reasonable dispatch' becomes another milestone; speedy conviction would be a greater one. Responding to doubting readers from last Sunday, he holds that 'we should never lose hope in the rule of law as the basis of reform because the alternatives, like revolution, coup d'état, or military rule, are worse.' He forecasts the milestones still ahead: Anti-Dynasty bill, FOI bill, automated election reforms, voter education, and the election in 2016 of an honest, competent president.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

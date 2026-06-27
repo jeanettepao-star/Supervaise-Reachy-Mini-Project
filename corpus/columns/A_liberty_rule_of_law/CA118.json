@@ -1,0 +1,141 @@
+{
+  "id": "CA118",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 118,
+  "title": "On psychological incapacity and Dengvaxia",
+  "date": "2023-02-13",
+  "link": "https://opinion.inquirer.net/161014/on-psychological-incapacity-and-dengvaxia",
+  "keywords": [
+    "psychological incapacity (Article 36, Family Code)",
+    "Santos v. Court of Appeals (1995)",
+    "Republic v. Molina (1997)",
+    "Tan-Andal v. Andal (2021)",
+    "Macabata v. Macabata / Republic v. Amata",
+    "Abines v. Duque (Dengvaxia)",
+    "24-month constitutional decision rule",
+    "continuing mandamus"
+  ],
+  "primary_topics": [
+    "Doctrinal evolution of psychological incapacity (PI) as a ground to nullify marriage under Article 36 of the Family Code",
+    "Six retained and two abandoned Molina guidelines after Macabata v. Macabata (April 6, 2022) and Republic v. Amata (Nov. 29, 2022)",
+    "Tan-Andal v. Andal (May 11, 2021) -- PI provable by lay testimony; functional convergence with absolute divorce",
+    "Dismissal of the Dengvaxia continuing-mandamus petition in Abines v. Duque (Sept. 20, 2022)",
+    "Compliance question on the constitutional 24-month decision rule (Article VIII)"
+  ],
+  "sub_topics": [
+    "PI imported from Canon Law into the Family Code; no prior constitutional/statutory/jurisprudential precedent",
+    "Santos v. Court of Appeals (Jan. 4, 1995): PI must show gravity, juridical antecedence, and incurability",
+    "Republic v. Molina (Feb. 13, 1997): eight Cruz-influenced guidelines (root cause medically/clinically identified, alleged in complaint, proven by experts, clearly explained in the decision)",
+    "Strict Molina guidelines led to very few nullifications; subsequent 'case-to-case' modifications",
+    "Tan-Andal v. Andal (May 11, 2021): expert evidence not needed; lay testimony sufficient",
+    "Macabata v. Macabata (April 6, 2022) and Republic v. Amata (Nov. 29, 2022) retain six Molina guidelines: (1st) clear-and-convincing burden + doubt resolved for marriage, (3rd) PI existing at or before celebration, (5th) gravity disabling essential obligations, (6th) marital obligations of the couple, (7th) NAMT interpretations persuasive but not controlling, (8th) trial court must order prosecuting attorney and OSG to appear",
+    "Abandoned: (2nd) need for medical experts on 'root cause'; (4th) medical/clinical permanence/incurability -- replaced by 'legal sense' of incompatible/antagonistic personality structures yielding 'inevitable and irreparable breakdown'",
+    "Functional convergence between PI nullification and foreign-style absolute divorce",
+    "Abines v. Duque (Sept. 20, 2022; uploaded Feb. 6, 2023): five-fold ratio for dismissing Dengvaxia continuing-mandamus petition",
+    "Continuing mandamus limited to environmental/ecological rights, not health",
+    "Ordinary mandamus fails where acts sought involve discretion",
+    "Hierarchy of courts and factual-question doctrines applied to Dengvaxia",
+    "Mootness because executive branch acted during pendency",
+    "24-month rule (Article VIII): reckoned from filing of last pending brief or memorandum; Feb. 18, 2020 resolution required memoranda; promulgation Sept. 20, 2022 -- over 24 months"
+  ],
+  "signature_phrases": [
+    "Absolute divorce between Filipinos is not allowed in our country",
+    "PI was copied by the Family Code from Canon Law",
+    "gravity, juridical antecedence, and incurability",
+    "case-to-case basis",
+    "even ordinary lay people can determine the presence of PI",
+    "strikingly similar to absolute divorce in foreign jurisdictions",
+    "TO AVOID THE 'CASE TO CASE' APPLICATION OF PI",
+    "'legal sense'",
+    "inevitable and irreparable breakdown of the marriage",
+    "elegant language in the first paragraphs",
+    "no new doctrine was laid down",
+    "Were depth and elegance worth the risk of violating the 24-month rule?"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Archbishop Oscar V. Cruz (amicus curiae in Molina; presiding judge, NAMT)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Catholic Church -- National Appellate Matrimonial Tribunal (NAMT)",
+      "Office of the Solicitor General (OSG)",
+      "Trial courts (Family Code annulment proceedings)",
+      "Executive branch (Dengvaxia response)"
+    ],
+    "cases": [
+      "Santos v. Court of Appeals (Jan. 4, 1995)",
+      "Republic v. Molina (Feb. 13, 1997)",
+      "Tan-Andal v. Andal (May 11, 2021)",
+      "Macabata v. Macabata (April 6, 2022)",
+      "Republic v. Amata (Nov. 29, 2022)",
+      "Abines v. Duque (Sept. 20, 2022; uploaded Feb. 6, 2023)"
+    ],
+    "laws_treaties": [
+      "Family Code of the Philippines, Article 36 -- psychological incapacity",
+      "1987 Constitution, Article VIII -- 24-month decision rule for the Supreme Court",
+      "Canon Law (origin of PI doctrine)",
+      "Rules on continuing mandamus (environmental cases)"
+    ],
+    "events": [
+      "Valentine's Day eve framing (Feb. 13, 2023 column)",
+      "Upload of Abines v. Duque on Feb. 6, 2023, well after Sept. 20, 2022 promulgation"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Supreme Court's progressive liberalization of psychological incapacity -- from Santos and Molina through Tan-Andal -- has produced a nullification regime 'strikingly similar to absolute divorce in foreign jurisdictions.'",
+      "rhetorical_move": "doctrinal-convergence diagnosis",
+      "confidence": "asserted ('I opined')"
+    },
+    {
+      "claim": "Macabata and Amata helpfully reduce the 'case-to-case' uncertainty by formally retaining six Molina guidelines while abandoning the second (expert proof of root cause) and the fourth (medical/clinical incurability) -- replacing the latter with a 'legal sense' of personality incompatibility leading to inevitable and irreparable breakdown.",
+      "rhetorical_move": "structural-clarification praise",
+      "confidence": "endorsed ('refreshingly clarified')"
+    },
+    {
+      "claim": "Abines v. Duque correctly dismissed the Dengvaxia petition on five grounds -- but should have been resolved through a short unsigned resolution since no new doctrine was laid down.",
+      "rhetorical_move": "outcome-concur, process-dissent",
+      "confidence": "personal disagreement on procedure"
+    },
+    {
+      "claim": "The Court may have violated its constitutional 24-month decision rule: memoranda were required by a Feb. 18, 2020 resolution; the decision was promulgated Sept. 20, 2022 -- beyond the 24-month limit reckoned 'upon the filing of the last pending brief or memorandum.'",
+      "rhetorical_move": "constitutional-compliance audit using dates from the decision itself",
+      "confidence": "asserted concern"
+    }
+  ],
+  "notable_anecdotes": [
+    "Valentine's Day eve framing -- using a holiday tied to romantic love to introduce nullification doctrine.",
+    "Cross-reference to CJ's own April 4, 2022 column on PI as canonical foundation -- self-citation as continuity device.",
+    "The pointed rhetorical question that closes the column: 'Were depth and elegance worth the risk of violating the 24-month rule?' -- combining doctrinal admiration with constitutional reproach."
+  ],
+  "target_audience": [
+    "Family-law practitioners and litigants in nullification proceedings",
+    "Trial-court judges applying PI doctrine",
+    "Constitutional-law scholars tracking SC compliance with the 24-month rule",
+    "Civic-minded readers interested in marriage and family",
+    "Dengvaxia advocates and public-health lawyers"
+  ],
+  "register_markers": [
+    "Valentine's-Day occasion register",
+    "doctrinal-history register (Santos → Molina → Tan-Andal → Macabata/Amata)",
+    "small-caps emphasis ('AS POINTED OUT,' 'TO AVOID,' 'THE RATIONALE')",
+    "self-citation register (CJ's April 4, 2022 column)",
+    "interrogative-audit closing ('Were depth and elegance worth the risk?')",
+    "praise-with-reservation register ('appreciative of the deep research... I believe')"
+  ],
+  "decision_framework_signals": [
+    "doctrinal-evolution tracing across landmark cases as the analytical method",
+    "retain-vs-abandon framework applied to the eight Molina guidelines",
+    "doctrinal-convergence test (PI vs absolute divorce) as a substantive lens",
+    "five-element ratio analysis of Abines v. Duque as the structure for review",
+    "constitutional-compliance audit using on-the-face dates (resolution date, promulgation date) vs the 24-month rule",
+    "procedural-economy test: was a signed decision necessary, or would an unsigned resolution have sufficed?"
+  ],
+  "one_paragraph_summary": "On Valentine's Day eve, Panganiban traces the Supreme Court's progressive liberalization of psychological incapacity (PI) under Article 36 of the Family Code. Imported from Canon Law without prior constitutional, statutory, or jurisprudential precedent, PI was first defined in Santos v. Court of Appeals (Jan. 4, 1995) by gravity, juridical antecedence, and incurability -- and then elaborated in Republic v. Molina (Feb. 13, 1997) into eight guidelines drawn largely from amicus curiae Archbishop Oscar V. Cruz, presiding judge of the Catholic Church's National Appellate Matrimonial Tribunal. The Molina rules proved so strict that very few marriages were nullified, prompting case-by-case relaxations and culminating in Tan-Andal v. Andal (May 11, 2021), which dispensed with the need for expert evidence -- a regime CJ already opined is 'strikingly similar to absolute divorce.' In Macabata v. Macabata (April 6, 2022, reiterated in Republic v. Amata, Nov. 29, 2022), the Court 'refreshingly clarified' that six of the Molina guidelines remain (first, third, fifth, sixth, seventh, and eighth), while the second (expert testimony on 'root cause') and the fourth (medical or clinical permanence/incurability) are set aside -- the latter replaced by a 'legal sense' of personality structures so incompatible and antagonistic as to produce 'inevitable and irreparable breakdown.' He then turns to Abines v. Duque (Sept. 20, 2022, uploaded Feb. 6, 2023), which dismissed a continuing-mandamus petition over Dengvaxia on five grounds: continuing mandamus is limited to ecological rights; ordinary mandamus fails because the acts sought involve discretion; the petition violates the hierarchy of courts; it raises factual questions; and the relief had become moot because the executive branch already acted. While admiring the decision's elegant prose and deep research, Panganiban argues it should have been resolved by a short unsigned resolution since no new doctrine was laid down -- and questions whether the Court complied with the constitutional 24-month rule reckoned from the filing of the last memorandum: the Feb. 18, 2020 memorandum order and the Sept. 20, 2022 promulgation point to a deadline missed. 'Were depth and elegance,' he asks, 'worth the risk of violating the 24-month rule?'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

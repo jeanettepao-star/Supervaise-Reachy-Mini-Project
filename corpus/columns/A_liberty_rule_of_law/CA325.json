@@ -1,0 +1,113 @@
+{
+  "id": "CA325",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 325,
+  "title": "Worse than martial law",
+  "date": "2017-01-08",
+  "link": "https://opinion.inquirer.net/100647/worse-martial-law",
+  "keywords": [
+    "martial law",
+    "constitutional safeguards",
+    "suspension of constitution",
+    "revolutionary government",
+    "Duterte",
+    "Marcos martial law",
+    "1987 Constitution",
+    "authoritarian rule"
+  ],
+  "primary_topics": [
+    "Constitutional martial law under the 1987 Charter is not what should be feared -- it has adequate safeguards",
+    "What is worse than martial law: the suspension or abolition of the Constitution itself",
+    "Comparison: Cory Aquino's short benign RevGov (1986) vs the potential longer, unrestrained version Duterte might declare"
+  ],
+  "sub_topics": [
+    "Duterte's mixed messages: wanted ML 'only one person in control' without constitutional checks",
+    "Marcos's abuse: invented excuses, crafted 'constitutional authoritarianism,' prolonged ML, crushed enemies, established crony dynasties",
+    "1987 safeguards: only two grounds (invasion or rebellion); 60-day duration, Congress-extendable; 48-hour report to Congress; Congress majority can revoke; SC reviews in 30 days",
+    "ML scope under 1987: does not suspend Constitution; no supplanting of civil courts; no military jurisdiction over civilians; does not automatically suspend habeas corpus",
+    "Proposed defanging of Congress and SC: still needs constituent assembly approval and plebiscite -- process takes years",
+    "Immediate concern: suspension or abolition of Constitution -- instantly eliminates Congress, SC, and all safeguards",
+    "Without Constitution: only President's patriotism and health, military/police fidelity, and people's vigilance remain as checks",
+    "Cory Aquino's 1986 RevGov: set aside 1973 Constitution; short (one year); benign; led to 1987 Constitution cherishing rights; but ascended via peaceful revolution not democratic process"
+  ],
+  "signature_phrases": [
+    "What I believe is of immediate concern is not martial law under the Constitution but the suspension, or worse, the abolition of the Constitution",
+    "constitutionally understood and implemented, martial law need not be feared",
+    "He invented excuses to proclaim it, crafted 'constitutional authoritarianism' to justify it",
+    "Once the Constitution is suspended or abolished, so would Congress, the Supreme Court and the safeguards be",
+    "only the patriotism and good health of the President, the fidelity of the military and the police, and the eternal vigilance of our people would mitigate excesses",
+    "her dictatorship was short (one year) and her ensuing 1987 Constitution cherished basic rights and enshrined benign martial law"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "President Rodrigo Duterte (mixed ML messages)",
+      "President Ferdinand Marcos (ML abuse; 'constitutional authoritarianism')",
+      "President Corazon Aquino (1986 RevGov -- short, benign, led to 1987 Constitution)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Congress of the Philippines",
+      "Armed Forces of the Philippines / military"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution -- Art. VII Sec. 18 (martial law safeguards)",
+      "1973 Constitution (set aside by Aquino RevGov)"
+    ],
+    "events": [
+      "Duterte's martial law statements (2016-2017)",
+      "Marcos martial law (1972-1986)",
+      "1986 Edsa People Power Revolution -- Aquino RevGov"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Constitutional ML under the 1987 Charter, if faithfully implemented with all its safeguards, need not be feared -- it is a temporary emergency measure, not Marcos's perversion of it.",
+      "rhetorical_move": "safeguards-make-ML-non-threatening distinction from Marcos-era ML",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "What is of immediate concern -- worse than constitutional ML -- is the suspension or abolition of the Constitution itself, which would instantly eliminate Congress, the SC, and all safeguards, leaving only the President's personal virtue, military loyalty, and popular vigilance as restraints.",
+      "rhetorical_move": "redirection-from-ML-anxiety-to-constitutional-abolition-as-real-threat",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Cory Aquino's 1986 RevGov provides the historical template -- short, benign, leading to the 1987 Constitution -- but she ascended via peaceful revolution, not democratic processes, making her case distinct from a Duterte self-declared RevGov.",
+      "rhetorical_move": "Cory-as-benign-precedent-with-critical-distinction",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Duterte wanting ML 'only one person should be in control' without constitutional checks -- the specific formulation flagging the real anxiety: not constitutional ML but unchecked authoritarian ML.",
+    "Marcos's invention of 'constitutional authoritarianism' as a legal cover for ML abuse -- the most precise single-phrase characterization of how Marcos justified his excesses.",
+    "The reductio ad absurdum of a Constitution-less scenario: 'only the patriotism and good health of the President, the fidelity of the military and the police, and the eternal vigilance of our people would mitigate excesses' -- physicalizing the fragility of governance without institutional safeguards."
+  ],
+  "target_audience": [
+    "Civic readers anxious about Duterte's martial law statements",
+    "Constitutional law scholars and democratic governance advocates",
+    "Media commentators covering the Duterte administration",
+    "Civic leaders tracking the proposed constituent assembly and charter change"
+  ],
+  "register_markers": [
+    "anxiety-framing opening (widespread anxiety, mixed messages)",
+    "safeguards-enumeration as the constitutional-ML-is-safe argument",
+    "immediate-concern redirect as the column's structural pivot",
+    "Cory-as-precedent-with-distinction register",
+    "reductio-ad-absurdum framing for Constitution-less scenario",
+    "future-process-takes-years reassurance for Cha-cha defanging",
+    "'constitutional authoritarianism' as Marcos-era coinage preserved in quotation marks"
+  ],
+  "decision_framework_signals": [
+    "applies safeguards-test to determine whether constitutional ML warrants fear",
+    "uses worse-alternative framing (constitutional abolition > constitutional ML) to redirect public anxiety",
+    "treats Cory's ascent-via-revolution vs democratic-incumbency as the critical distinction for RevGov precedent",
+    "evaluates institutional-safeguard adequacy as the primary criterion for ML risk assessment",
+    "deploys future-process-timeline (constituent assembly → plebiscite → years) as the immediate-threat-discounter for Cha-cha defanging"
+  ],
+  "one_paragraph_summary": "Panganiban addresses widespread anxiety over Duterte's mixed martial law signals -- including his desire for ML where 'only one person should be in control' without constitutional checks -- by distinguishing constitutional ML from what is truly dangerous. He enumerates the 1987 Constitution's safeguards: ML can only be declared for invasion or rebellion when public safety requires it; it lasts only 60 days; the President must report to Congress within 48 hours; Congress can revoke it by majority vote; the SC can review and nullify it within 30 days; and it does not suspend the Constitution, supplant civil courts, authorize military jurisdiction over civilians, or automatically suspend habeas corpus. If these safeguards are faithfully followed, we need not fear constitutional ML. Moreover, the proposed defanging of Congress and SC still requires a constituent assembly and plebiscite -- a process taking years. What CJ identifies as of immediate concern is not ML under the Constitution but the suspension or abolition of the Constitution itself -- which would instantly eliminate Congress, the SC, and all safeguards, leaving only the President's personal virtue, military loyalty, and popular vigilance as the only restraints. He cites Cory Aquino's 1986 RevGov as a benign historical precedent -- short (one year), leading to the 1987 Constitution -- but, crucially, unlike Duterte, she ascended via a peaceful revolution, not the democratic processes of an existing Charter.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

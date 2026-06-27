@@ -1,0 +1,146 @@
+{
+  "id": "CA070",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 70,
+  "title": "Prosecutor, not ICC, seeks arrest of Israeli PM",
+  "date": "2024-05-27",
+  "link": "https://opinion.inquirer.net/173986/prosecutor-not-icc-seeks-arrest-of-israeli-pm",
+  "keywords": [
+    "ICC chief prosecutor Karim Khan",
+    "Rome Statute (1998) and four ICC organs",
+    "complementarity principle",
+    "Israel non-membership in ICC",
+    "Panel of Experts in International Law Report (May 20, 2024)",
+    "Israeli CJ Dorit Beinisch",
+    "Hamas as 'terrorist organization' designation"
+  ],
+  "primary_topics": [
+    "Distinction: ICC chief prosecutor Karim Khan (not the ICC itself) is asking the Pre-Trial Chamber for arrest warrants against Israeli PM Benjamin Netanyahu et al. and Hamas's Yahya Sinwar et al.",
+    "Rome Statute background and four ICC principal organs (Presidency, Judicial Divisions, Office of the Prosecutor, Registry)",
+    "ICC jurisdictional architecture: crimes listed in RS + territory or nationality of a member-state + active membership + complementarity ('unwilling or unable to prosecute')",
+    "Panel of Experts Report (May 20, 2024): Palestine including Gaza is a State for ICC purposes; silence on Israel's non-membership and on complementarity",
+    "CJ's personal acquaintance with Israeli Supreme Court CJ Dorit Beinisch and assessment of Israeli judiciary's independence"
+  ],
+  "sub_topics": [
+    "Initial denunciations: Israel ('historical disgrace'); Hamas ('strongly condemn'); Netanyahu ('with disgust')",
+    "Joining US allies: Biden ('outrageous... there is no equivalence -- none'); German foreign ministry ('false impression of equivalence')",
+    "Khan's stated grounds: Israel's 'widespread and systematic attack against the Palestinian civilian population' and Sinwar's 'criminal responsibility' for the Oct. 7, 2023 Hamas blitz (hostages, rape, sexual violence, torture)",
+    "Rome Statute, July 17, 1998; 124 member-states; non-members include US, Russia, China, Israel",
+    "January 2024 Panel of Experts convened by Khan; nine-page Report dated May 20, 2024",
+    "Panel concluded the ICC 'has jurisdiction over the crimes set out in the applications for arrest warrants'",
+    "Panel held Palestine including Gaza is a State for ICC Statute purposes -- but the Report 'made no mention of Israel's non-membership in the ICC'",
+    "Panel 'omitted the requirement for complementarity' -- Israel may be 'willing and able to prosecute' with functional prosecutorial offices and active, competent, independent judiciary",
+    "CJ's 2001 Supreme Court Centenary Celebrations invited Israeli SC justices including Beinisch (then not yet CJ)",
+    "Beinisch's lecture: 'Protecting Civil Liberties in a State of Continuing Emergency'",
+    "Beinisch's letter quoted in CJ's book 'Reforming the Judiciary' (pp. 178-179)",
+    "CJ's May 2000 visit to the Israeli Supreme Court -- daily demos, tear gas, rubber bullets, yet judiciary functioning 'actively, competently, and independently'",
+    "US and other states' designation of Hamas as a 'terrorist organization' / its members as 'terrorists' to be 'pursued and eliminated anywhere'",
+    "Implication: ICC action against Hamas may be 'irrelevant' to those countries because they 'can deal with Hamas more effectively than the ICC'"
+  ],
+  "signature_phrases": [
+    "To be clear, it is Karim Khan, the chief prosecutor of the International Criminal Court, not the ICC itself",
+    "historical disgrace",
+    "outrageous... there is no equivalence -- none",
+    "false impression of equivalence",
+    "widespread and systematic attack against the Palestinian civilian population",
+    "TO UNDERSTAND THE POLITICAL HARANGUES, a brief background is appropriate",
+    "complementarity",
+    "willing or unable to prosecute",
+    "Protecting Civil Liberties in a State of Continuing Emergency",
+    "active, competent, and independent",
+    "Hence, to these countries, any action by the ICC may be irrelevant"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Karim Khan (ICC chief prosecutor)",
+      "Benjamin Netanyahu (Israeli Prime Minister)",
+      "Yahya Sinwar (top Hamas leader in Gaza)",
+      "President Joe Biden (US)",
+      "Israeli CJ Dorit Beinisch (Israel's first woman chief justice)"
+    ],
+    "institutions": [
+      "International Criminal Court (ICC) -- Pre-Trial Chamber, Trial Chamber, Appeals Chamber, Office of the Prosecutor, Presidency, Registry",
+      "Panel of Experts in International Law (convened January 2024)",
+      "Israeli Supreme Court",
+      "German Foreign Ministry",
+      "United States government / US allies",
+      "Hamas",
+      "Supreme Court of the Philippines (CJ's Centenary Celebrations host)"
+    ],
+    "cases": [
+      "ICC Office of the Prosecutor applications for arrest warrants (May 2024) against Israeli and Hamas suspects"
+    ],
+    "laws_treaties": [
+      "Rome Statute of the International Criminal Court (July 17, 1998)",
+      "Panel of Experts in International Law Report (May 20, 2024, nine pages)"
+    ],
+    "events": [
+      "Oct. 7, 2023 Hamas blitz on Israeli civilians (hostages, rape, sexual violence, torture)",
+      "Ongoing Israel-Hamas war in Gaza",
+      "PH SC Centenary Celebrations (2001) and Beinisch's lecture",
+      "CJ's May 2000 visit to the Israeli Supreme Court",
+      "Designation of Hamas as a 'terrorist organization' by the US and other countries"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "It is ICC chief prosecutor Karim Khan -- not 'the ICC' -- that has applied for arrest warrants against Netanyahu et al. and Sinwar et al.; news sources conflating the two are mistaken.",
+      "rhetorical_move": "definitional precision as opening move",
+      "confidence": "asserted ('To be clear')"
+    },
+    {
+      "claim": "Under the Rome Statute, ICC jurisdiction requires (1) RS-listed crimes, (2) commission in the territory of a member-state or by its national, (3) active state membership, and (4) the absence of complementarity (the state must be 'unwilling or unable to prosecute').",
+      "rhetorical_move": "four-element jurisdictional framework",
+      "confidence": "doctrinal"
+    },
+    {
+      "claim": "The Panel of Experts Report (May 20, 2024) treating Palestine including Gaza as a State for ICC purposes -- while omitting Israel's non-membership and the complementarity requirement -- is doctrinally incomplete; Israel may be 'willing and able to prosecute,' given its 'functioning prosecutorial offices' and 'active, competent, and independent' judiciary.",
+      "rhetorical_move": "doctrinal-completeness audit of the Panel Report",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "CJ's personal acquaintance with then-future Israeli CJ Dorit Beinisch and his May 2000 visit to the Israeli Supreme Court confirm -- to him -- that the Israeli judiciary has remained 'active, competent, and independent to this day,' which is material to the complementarity question.",
+      "rhetorical_move": "personal-acquaintance corroboration of institutional competence",
+      "confidence": "first-person observation"
+    },
+    {
+      "claim": "CJ does not know enough about Hamas to assess the Panel's allusion to it as 'part of the Palestinian state,' and acknowledges that countries that have designated Hamas a 'terrorist organization' may treat ICC action as 'irrelevant' because they 'can deal with Hamas more effectively.'",
+      "rhetorical_move": "epistemic-humility concession on Hamas",
+      "confidence": "modest"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's invitation of Beinisch (pre-CJ) to the PH SC's 2001 Centenary Celebrations to speak on 'Protecting Civil Liberties in a State of Continuing Emergency.'",
+    "Beinisch's letter quoted in CJ's book 'Reforming the Judiciary' (pp. 178-179) reserving 'a special place in my library for your books.'",
+    "CJ's May 2000 visit to the Israeli Supreme Court -- daily 'massive demos and stoning,' tear gas, rubber bullets, yet the judiciary functioning 'actively, competently, and independently.'",
+    "Netanyahu's denunciation 'with disgust' of Khan's 'comparison between democratic Israel and the mass murderers of Hamas.'",
+    "Biden's 'outrageous... there is no equivalence -- none' line, echoed by Germany's 'false impression of equivalence.'"
+  ],
+  "target_audience": [
+    "International-law and ICC practitioners",
+    "Diplomatic-policy observers (PH, US, EU, Middle East)",
+    "Constitutional and judicial-independence scholars",
+    "Inquirer readers tracking the Israel-Hamas war"
+  ],
+  "register_markers": [
+    "definitional-clarification opening ('To be clear, it is Karim Khan, ... not the ICC itself')",
+    "doctrinal-formal exposition of the Rome Statute structure",
+    "first-person institutional-acquaintance register (Beinisch, the Israeli SC visit, the PH SC Centenary)",
+    "small-caps emphasis ('INSTANTLY, ISRAEL DENOUNCED,' 'TO UNDERSTAND,' 'I MET ISRAEL'S FIRST WOMAN CHIEF JUSTICE')",
+    "epistemic-humility close on Hamas",
+    "self-citation register ('my book Reforming the Judiciary')"
+  ],
+  "decision_framework_signals": [
+    "actor-vs-institution distinction (the prosecutor is not the Court)",
+    "four-element Rome Statute jurisdictional test",
+    "complementarity test as gatekeeper between national and ICC prosecution",
+    "judicial-competence assessment as relevant to complementarity",
+    "designation-and-policy lens (terrorist-organization designation may displace ICC relevance for state actors)"
+  ],
+  "one_paragraph_summary": "Panganiban clarifies, against news sources that conflated the two, that it is ICC chief prosecutor Karim Khan -- not the ICC itself -- that is asking the Pre-Trial Chamber for arrest warrants against Israeli PM Benjamin Netanyahu et al. and Hamas's Yahya Sinwar et al. for alleged war crimes and crimes against humanity. Initial denunciations came swiftly: Israel ('historical disgrace'); Hamas ('strongly condemn'); Netanyahu rejecting 'with disgust' the comparison between democratic Israel and mass-murdering Hamas; US President Biden ('outrageous... there is no equivalence -- none'); Germany ('false impression of equivalence'). Khan grounds his applications on Israel's 'widespread and systematic attack against the Palestinian civilian population' in Gaza and on Sinwar's 'criminal responsibility' for the Oct. 7, 2023 Hamas blitz that included hostage-taking, rape and other sexual violence, and torture. CJ then sets out the Rome Statute architecture: July 17, 1998; 124 member-states (non-members include the US, Russia, China, and Israel); four principal organs (Presidency, Judicial Divisions, Office of the Prosecutor, Registry); and a four-element jurisdictional rule -- RS-listed crimes, committed in a member-state's territory or by its national, while membership is active, and only absent 'complementarity' (the state being 'unwilling or unable to prosecute'). To bridge the membership gap, Khan convened a Panel of Experts in International Law in January 2024; its nine-page Report dated May 20, 2024 concluded that the ICC has jurisdiction and that Palestine including Gaza is a State for ICC purposes -- but CJ flags that the Report 'made no mention of Israel's non-membership' and 'omitted the requirement for complementarity,' even though Israel has 'functioning prosecutorial offices' and a judiciary CJ has personally observed (during his May 2000 visit) to be 'active, competent, and independent.' He recalls inviting Israeli CJ Dorit Beinisch -- then not yet CJ -- to the PH SC's 2001 Centenary Celebrations to speak on 'Protecting Civil Liberties in a State of Continuing Emergency,' and quotes her letter from his book 'Reforming the Judiciary' (pp. 178-179). He admits he does not know enough about Hamas to assess the Panel's allusion to it as 'part of the Palestinian state,' noting that countries that have designated Hamas a terrorist organization may treat ICC action as irrelevant because they can 'deal with Hamas more effectively than the ICC.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,176 @@
+{
+  "id": "CA098",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 98,
+  "title": "Makati versus Taguig",
+  "date": "2023-08-21",
+  "link": "https://opinion.inquirer.net/165695/makati-versus-taguig",
+  "keywords": [
+    "Makati v. Taguig",
+    "Fort Bonifacio",
+    "territorial jurisdiction",
+    "EMBO barangays",
+    "Binay vs Cayetano",
+    "Comelec"
+  ],
+  "primary_topics": [
+    "Supreme Court Third Division Dec. 1, 2021 decision in Makati v. Taguig (Rosario ponencia)",
+    "Distinction between jurisdiction over territory and ownership of property within it",
+    "Continuity of national government functions (DepEd, DILG, DOH) regardless of territorial dispute outcome",
+    "Preservation of Torrens-titled proprietary rights despite political-boundary change",
+    "Preservation of political/voting rights of residents",
+    "Practical Comelec recommendations to avoid voter confusion for the Oct. 30 barangay elections"
+  ],
+  "sub_topics": [
+    "Composition of the deciding Third Division: J Rosario (ponente), J Leonen (chair), JJs Carandang, Zalameda, Marquez",
+    "July 8, 2011 RTC Pasig Branch 153 ruling (Judge Briccio C. Ygaña) confirming Parcels 3 and 4 Psu-2031 part of Taguig",
+    "10 barangays in dispute: Pembo, Comembo, Cembo, South Cembo, West Rembo, East Rembo, Pitogo, Rizal, Post Proper Northside, Post Proper Southside",
+    "Binay-family bailiwick status of the disputed barangays",
+    "Facilities funded by Makati: public schools, Ospital ng Makati, Makati Science HS, Fort Bonifacio HS, Makati City Jail, police/fire stations",
+    "CA Special Former Sixth Division 2017 resolutions dismissing Makati's appeal",
+    "Distinction: jurisdiction over territory ≠ ownership of property",
+    "Governance powers transferred to Taguig: taxation (RPT), business permits, national-government revenue share",
+    "National-government functions unchanged: VP Sara Duterte (DepEd), Sec. Benhur Abalos (DILG), Sec. Teodoro Herbosa (DOH)",
+    "Makati's Torrens-titled ownership of buildings/lots preserved per Mayor Abby Binay's assertion",
+    "Voters' rights to vote and be voted for unchanged",
+    "Comelec practical recommendations: no re-registration needed; no new COC needed (with caveat about Taguig barangay assignment); use existing precincts/polling places",
+    "Closing virtues: humility from victors, grace of acceptance from vanquished"
+  ],
+  "signature_phrases": [
+    "spawned high-profile controversies",
+    "TO UNDERSTAND THE DECISION, LET US BEGIN WITH THE FACTS",
+    "dizzying skirmishes",
+    "sadly for Makati",
+    "PROPRIETARY RIGHTS ARE ALSO NOT AFFECTED",
+    "I do not pretend to have absolute power or knowledge, only humble suggestions",
+    "patience, reason, and logic",
+    "the controversies need not deteriorate into confrontation and further confusion",
+    "I plead for the virtue of humility from the victors and for the grace of acceptance from the vanquished"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "J Ricardo R. Rosario (ponente)",
+      "J Marvic M.V.F. Leonen (Division chair)",
+      "J Rosmari D. Carandang",
+      "J Rodil V. Zalameda",
+      "J Jose Midas P. Marquez",
+      "Judge Briccio C. Ygaña (RTC Pasig Br. 153)",
+      "Jejomar Binay (former VP)",
+      "Abby Binay (Makati Mayor)",
+      "Sara Duterte (VP and concurrent Secretary of Education)",
+      "Benhur Abalos (Interior Secretary)",
+      "Teodoro Herbosa (Health Secretary)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (Third Division)",
+      "Regional Trial Court of Pasig, Branch 153",
+      "Court of Appeals (Special Former Sixth Division)",
+      "City of Makati",
+      "City of Taguig",
+      "Department of Education",
+      "Department of the Interior and Local Government",
+      "Department of Health",
+      "Commission on Elections (Comelec)",
+      "Ospital ng Makati",
+      "Makati Science High School",
+      "Fort Bonifacio High School",
+      "Makati City Jail",
+      "Philippine National Police forces in the area"
+    ],
+    "cases": [
+      "Makati v. Taguig (SC Third Division, Dec. 1, 2021)",
+      "RTC Pasig Branch 153 decision (July 8, 2011)",
+      "CA Special Former Sixth Division resolutions (March 8, 2017; Oct. 3, 2017)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (LGU jurisdiction provisions)",
+      "Local Government Code (taxation/business permits/revenue shares)",
+      "Property Registration Decree / Torrens system (implied)"
+    ],
+    "events": [
+      "July 8, 2011 RTC Pasig confirmation of Taguig territory",
+      "CA dismissal of Makati's appeal (March 8 and Oct. 3, 2017)",
+      "SC affirmation Dec. 1, 2021",
+      "Upcoming Oct. 30 barangay elections"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The SC merely held that the contested parcels (Parcels 3 and 4 Psu-2031, comprising 10 EMBO barangays) are part of Taguig's territory and that Taguig may exercise governance jurisdiction over them -- but the Court did NOT rule on ownership of any property within the parcels.",
+      "rhetorical_move": "doctrinal-clarification (separating territorial jurisdiction from proprietary ownership)",
+      "confidence": "asserted as legal reading"
+    },
+    {
+      "claim": "Taguig now exercises the governance powers and functions delegated to it by the Constitution and law -- taxation (especially real estate taxes), issuing/withholding business permits and licenses, and receiving its share of national-government revenues.",
+      "rhetorical_move": "enumeration of transferred governance powers",
+      "confidence": "asserted as direct effect of the ruling"
+    },
+    {
+      "claim": "National government functions remain unaffected by the territorial change -- VP Sara Duterte (DepEd) over schools, Sec. Benhur Abalos (DILG) over police, Sec. Teodoro Herbosa (DOH) over health all retain their supervisory powers regardless of which city the residents live in.",
+      "rhetorical_move": "cabinet-by-portfolio framing to confirm continuity",
+      "confidence": "asserted with named-Cabinet support"
+    },
+    {
+      "claim": "Proprietary rights (Makati's Torrens-titled ownership of the lands underneath the schools, hospitals, police stations, and fire stations it built and funded) subsist regardless of which city governs the political territory -- supporting Mayor Abby Binay's assertion of continued Makati ownership.",
+      "rhetorical_move": "Torrens-system framing (titles aren't extinguished by jurisdictional reassignment)",
+      "confidence": "asserted with Mayor Binay support"
+    },
+    {
+      "claim": "Residents' rights to vote and be voted for are not affected -- and Comelec can prevent confusion for the Oct. 30 barangay elections by ruling that previously-registered voters need not re-register; previously-filed COCs need not be re-submitted (with the caveat about serving Taguig barangays); existing precincts and polling places may be used.",
+      "rhetorical_move": "practical-administrative-recommendation framing",
+      "confidence": "asserted as humble suggestion"
+    },
+    {
+      "claim": "The controversies 'need not deteriorate into confrontation and further confusion' -- with 'patience, reason, and logic,' the practical recommendations and doctrinal clarifications can resolve most disputes.",
+      "rhetorical_move": "appeal-to-civic-virtue framing",
+      "confidence": "asserted as plea"
+    },
+    {
+      "claim": "The proper virtues are 'humility from the victors and grace of acceptance from the vanquished' -- a litigation-disposition counsel applicable broadly, not only to this case.",
+      "rhetorical_move": "litigation-ethics counsel as universal generalization",
+      "confidence": "asserted as plea"
+    }
+  ],
+  "notable_anecdotes": [
+    "Roll-call of the 10 disputed barangays: Pembo, Comembo, Cembo, South Cembo, West Rembo, East Rembo, Pitogo, Rizal, Post Proper Northside, Post Proper Southside -- collectively known as Binay-family bailiwicks, adding political weight to the technical territorial ruling.",
+    "Inventory of Makati-funded facilities in the disputed parcels: public schools, Ospital ng Makati, Makati Science High School ('elite'), Fort Bonifacio High School, Makati City Jail, several police and fire stations -- establishing the practical stakes of the ruling.",
+    "Procedural marathon ('dizzying skirmishes in several RTC branches and appeals therefrom to several divisions of the Court of Appeals') compressed into one sentence -- emphasizing the doctrinal-stability cost of the long litigation.",
+    "Three Cabinet Secretaries named one-by-one (Sara Duterte/DepEd, Benhur Abalos/DILG, Teodoro Herbosa/DOH) to underscore that national-government supervision continues without interruption.",
+    "Mayor Abby Binay's name-cited assertion of Makati's continuing ownership rights -- used as confirming evidence rather than disputed claim.",
+    "Closing personal disclaimer ('I do not pretend to have absolute power or knowledge, only humble suggestions') paired with universal litigation counsel ('humility from the victors and grace of acceptance from the vanquished')."
+  ],
+  "target_audience": [
+    "Makati and Taguig city officials, employees, and residents",
+    "Commission on Elections (especially for the Oct. 30 barangay polls)",
+    "DepEd, DILG, DOH and their regional offices",
+    "Property owners in the disputed parcels",
+    "Local-government-law practitioners and academics",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "Title-as-litigation-caption ('Makati versus Taguig')",
+    "Procedural-history opener ('TO UNDERSTAND THE DECISION, LET US BEGIN WITH THE FACTS')",
+    "ALL-CAPS pivot openings ('WHILE THE SUPREME COURT RULED,' 'PROPRIETARY RIGHTS ARE ALSO NOT AFFECTED')",
+    "Doctrinal-distinction structure (jurisdiction vs ownership vs political rights vs proprietary rights)",
+    "Cabinet-by-portfolio enumeration (three Secretaries named)",
+    "Direct citation: 'Makati v. Taguig (Third Division, Dec. 1, 2021)' with full ponente + division composition",
+    "Practical-recommendations register (Comelec action items)",
+    "Humble-suggestions disclaimer (CJ does not claim absolute power)",
+    "Litigation-ethics-counsel closer ('humility from the victors,' 'grace of acceptance from the vanquished')",
+    "Hyphenated description of CA disposition ('Special Former Sixth (6th) Division')"
+  ],
+  "decision_framework_signals": [
+    "uses jurisdiction-vs-ownership distinction as the core doctrinal frame for understanding the ruling",
+    "applies levels-of-government analysis (city vs national) to identify which functions actually transfer",
+    "uses Torrens-system preservation to protect proprietary rights from political-boundary changes",
+    "treats voter and candidate rights as constitutionally-grounded and therefore continuous regardless of LGU reassignment",
+    "offers practical-administrative recommendations as humble suggestions rather than authoritative rulings",
+    "applies universal litigation-ethics counsel (humility-victors, grace-vanquished) as case-disposition norm"
+  ],
+  "one_paragraph_summary": "Panganiban analyzes the Supreme Court Third Division's Dec. 1, 2021 decision in Makati v. Taguig (penned by Justice Ricardo R. Rosario with concurrence from JJ Leonen -- Division chair -- Carandang, Zalameda, and Marquez), which affirmed RTC Pasig Branch 153's July 8, 2011 ruling that Parcels 3 and 4 Psu-2031 of Fort Bonifacio -- comprising 10 barangays known as Binay-family bailiwicks (Pembo, Comembo, Cembo, South Cembo, West Rembo, East Rembo, Pitogo, Rizal, Post Proper Northside, Post Proper Southside) -- are part of Taguig's territory. The disputed area hosts public schools, Ospital ng Makati, the elite Makati Science High School, Fort Bonifacio High School, the Makati City Jail, and several police and fire stations, all built or funded by Makati. CJ clarifies that the SC merely ruled that Taguig now exercises governance jurisdiction (taxation including real estate taxes, business permits, national-government revenue share) -- but did not rule on ownership. National government functions remain unaffected: VP Sara Duterte (DepEd) over schools, Sec. Benhur Abalos (DILG) over police, Sec. Teodoro Herbosa (DOH) over health all continue their supervisory powers regardless of which city the residents live in. Proprietary rights are also not affected: if Makati holds Torrens-titled ownership of the lands and facilities it built and funded, that ownership 'subsists' -- supporting Mayor Abby Binay's assertion. Political rights of residents are likewise preserved; CJ then offers Comelec 'humble suggestions' to prevent confusion before the Oct. 30 barangay polls: voters already registered need not re-register; candidates who have filed COCs need not file new ones (with a caveat about now serving Taguig barangays); and existing precincts and polling places may be used. He closes with universal litigation counsel: with 'patience, reason, and logic,' confrontation can be avoided -- and 'I plead for the virtue of humility from the victors and for the grace of acceptance from the vanquished in this and in any other litigation.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

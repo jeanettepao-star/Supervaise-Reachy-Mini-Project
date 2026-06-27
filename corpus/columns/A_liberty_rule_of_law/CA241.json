@@ -1,0 +1,166 @@
+{
+  "id": "CA241",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 241,
+  "title": "Bar exams toppers and downers",
+  "date": "2019-07-07",
+  "link": "https://opinion.inquirer.net/122439/bar-exams-toppers-and-downers",
+  "keywords": [
+    "2018 bar exams",
+    "passing rates",
+    "legal education reform",
+    "Legal Education Board",
+    "RA 7662",
+    "PhiLSAT",
+    "Bersamin Legal Education Summit"
+  ],
+  "primary_topics": [
+    "2018 bar-exam Top 10 distribution across schools (Ateneo, USC, UP, DLSU)",
+    "Overall passing rate of 22.07% (1,800 of 8,155) with first-timer vs repeater breakdown",
+    "Top 10 law schools by passing percentage",
+    "Persistent ~25% passing rate and zero-passer law schools as a systemic problem since the 1980s",
+    "Legal Education Summit (July 31-Aug 1, 2019, Manila Hotel) as one of CJ Bersamin's four reform projects",
+    "RA 7662 / Legal Education Board (LEB) constitutional-conflict with SC bar-admission rule-making"
+  ],
+  "sub_topics": [
+    "Top 10 breakdown: 3 Ateneo, 4 USC, 2 UP, 1 DLSU",
+    "First-timers: 4,076 takers, 32.87% passing (1,340 passers); Repeaters: 4,079 takers, 11.28% passing (460 passers)",
+    "Top 10 schools by passing percentage: Ateneo de Manila (86.76%), UP (84.39%), USC (72.45%), UA&P (66.67%), Ateneo de Davao (64.52%), San Beda Manila (64.50%), UST (63.16%), AUF (55.00%), Xavier (54.90%), PLM (50.00%)",
+    "131 law schools represented; only 37 above 22.07% threshold; 25 with zero passers; two zero-passer schools fielded 31 and 30 candidates",
+    "PhiLSAT (Philippine Law School Admission Test) -- LEB Memorandum Order Dec 29, 2016, amended April 20, 2017 and June 8, 2018",
+    "LEB-tested skills: communications, language, critical thinking, verbal and quantitative reasoning",
+    "Supreme Court TRO against LEB implementation",
+    "Summit organizing committee chaired by Justice Alexander G. Gesmundo, vice-chaired by UP Dean Fides Cordero-Tan"
+  ],
+  "signature_phrases": [
+    "the Top 10 places in the last (2018) bar exams were captured by",
+    "That's the good news",
+    "The bad news is that only 1,800 or 22.07 percent of the 8,155 who took the tests passed",
+    "the top law schools in terms of topnotchers are also the best in terms of the passing percentages",
+    "131 law schools",
+    "only 37 schools performed better than the overall 22.07 passing percentage",
+    "only 106 produced at least one passer. Sadly, the rest (25) had zero passers",
+    "Ten of them had double-digit candidates; in fact, one had 31 and another 30 candidates, yet not even one passed",
+    "Something must be awfully unwell about the legal education system",
+    "this problem of having only about 25 percent passers and too many law schools failing with zero passers has bedeviled the bar exams since the 1980s",
+    "In this light, I welcome the Legal Education Summit",
+    "one of the four reform projects of CJ Lucas P. Bersamin",
+    "to 'identify the common problems encountered, and consider the solutions including updating the basic law curriculum'",
+    "best practices to develop students to become practice-ready lawyers",
+    "the upgrading of legal education has been talked about extensively for the longest time",
+    "as early as 1993, Congress tried to help by enacting Republic Act No. 7662",
+    "not until 2009 when its members were appointed by the President",
+    "its functions appear to conflict with the power given by the Constitution to the Supreme Court to '[p]romulgate rules concerning... admission to the practice of law'",
+    "I hope this case would be finally decided prior to the summit"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Lucas P. Bersamin (CJ)",
+      "Alexander G. Gesmundo (Justice; Summit organizing committee chair)",
+      "Fides Cordero-Tan (UP Law Dean; Summit organizing committee vice-chair)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Legal Education Board (LEB)",
+      "Ateneo de Manila School of Law",
+      "University of San Carlos (USC)",
+      "University of the Philippines College of Law",
+      "De La Salle University",
+      "University of Asia and the Pacific",
+      "Ateneo de Davao",
+      "San Beda University, Manila",
+      "University of Santo Tomas",
+      "Angeles University Foundation",
+      "Xavier University",
+      "Pamantasan ng Lungsod ng Maynila",
+      "Manila Hotel (summit venue)",
+      "Philippine Congress (RA 7662 enactment)"
+    ],
+    "cases": [
+      "Pending SC petition to nullify the LEB Memorandum Orders and declare RA 7662 unconstitutional (TRO issued; not yet decided as of column date)"
+    ],
+    "laws_treaties": [
+      "Republic Act No. 7662 (1993, Legal Education Reform Act)",
+      "1987 Philippine Constitution, Art. VIII, Sec. 5 (SC's bar-admission rule-making power)",
+      "LEB Memorandum Order (Dec 29, 2016) and amendments (April 20, 2017; June 8, 2018) on the PhiLSAT"
+    ],
+    "events": [
+      "2018 bar exams (Nov 2018; results 2019)",
+      "Legal Education Summit, July 31-Aug 1, 2019, Manila Hotel",
+      "RA 7662 enactment 1993; first LEB appointments 2009",
+      "SC TRO on LEB Memorandum Orders"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The performance hierarchy is consistent across two metrics -- Top 10 producers (Ateneo 3, USC 4, UP 2, DLSU 1) and passing-rate ranking (Ateneo 86.76%, UP 84.39%, USC 72.45%) -- meaning the same elite schools dominate both topnotchers and overall passing performance.",
+      "rhetorical_move": "two-metrics-converge analysis to confirm a hierarchy",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The systemic facts are alarming: 22.07% overall passing; first-timers 32.87% pass, repeaters 11.28% pass; only 37 of 131 schools above the 22.07% threshold; 25 schools with zero passers, including two with 31 and 30 candidates each.",
+      "rhetorical_move": "concession-counting of distributional failure",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Something is awfully unwell about the legal education system, the law schools, the students, or the exams (or all of them), and this ~25% pass rate problem has 'bedeviled the bar exams since the 1980s.'",
+      "rhetorical_move": "diagnostic-without-blame multi-source attribution",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "CJ Bersamin's Legal Education Summit, with its consultations and organizing committee under Justice Gesmundo and Dean Cordero-Tan, is a welcome reform attempt to identify common problems, update the basic law curriculum, and adopt practices that develop 'practice-ready lawyers.'",
+      "rhetorical_move": "endorsement-of-reform-initiative",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The LEB's functions, as exercised through its Memorandum Orders mandating the PhiLSAT, appear to conflict with the SC's constitutional power to 'promulgate rules concerning... admission to the practice of law' -- a conflict the SC TRO has paused but not yet resolved.",
+      "rhetorical_move": "constitutional-jurisdiction conflict-flagging",
+      "confidence": "asserted-but-pending"
+    },
+    {
+      "claim": "The constitutional case should be finally decided before the Summit, so reform recommendations rest on settled jurisdictional ground rather than continuing tension between RA 7662 and the Constitution.",
+      "rhetorical_move": "process-sequencing recommendation",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The two zero-passer schools that fielded 31 and 30 candidates each -- singled out without naming, the single most damning data point in the column, an arithmetic that turns aggregate statistics into individual-school accountability.",
+    "The convergence-of-rankings finding -- that the same elite schools (Ateneo, UP, USC) dominate both topnotcher production and overall passing rate -- invoked to refute any 'topnotchers come from anywhere' assumption.",
+    "The 'something must be awfully unwell about the legal education system, the law schools, the students, the exams or all of them' formulation -- a rare CJ phrasing that distributes blame across all stakeholders rather than fastening on one, modeling a diagnostic neutrality.",
+    "The chronology of LEB inertia -- RA 7662 in 1993, first appointments only in 2009 -- used to illustrate how slow institutional implementation undermines legislative intent.",
+    "Self-reference to a prior column (3/14/2019) for PhiLSAT details, suggesting the column is one entry in a continuing legal-education-reform arc."
+  ],
+  "target_audience": [
+    "Law-school administrators, deans, and professors",
+    "Bar reviewees and 2018 examinees and their families",
+    "Members of the Philippine bench and bar",
+    "Constitutional-law scholars (RA 7662 / SC rule-making question)",
+    "FLP donors interested in legal-education reform",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "doctrinal-formal register with extensive numerical data",
+    "good-news-bad-news rhetorical structure",
+    "ranked-list enumeration of Top 10 schools by passing percentage",
+    "specific peso-amount-free statistical citation",
+    "constitutional-text quotation ('[p]romulgate rules concerning... admission to the practice of law')",
+    "Self-reference for ongoing arc ('see my 3/14/2019 column')",
+    "diagnostic-distributive blame ('the legal education system, the law schools, the students, the exams or all of them')",
+    "explicit endorsement of named reform initiative (Bersamin's summit) without partisan framing",
+    "no Tagalog markers; legal-statistical English"
+  ],
+  "decision_framework_signals": [
+    "applies two-metrics-converge test (Top 10 production vs passing percentage) to confirm institutional ranking",
+    "uses concession-counting of distributional failure (zero-passer schools, repeater performance gap) as institutional-reform argument",
+    "applies diagnostic-distributive blame across all stakeholders rather than scapegoating one",
+    "uses constitutional-jurisdiction conflict-flagging (LEB vs SC rule-making power) as the pending-question structural device",
+    "applies process-sequencing recommendation (resolve the constitutional case before the substantive reform summit)",
+    "uses chronological-inertia framing (RA 7662 1993 → first LEB appointments 2009) to illustrate slow implementation as a reform problem"
+  ],
+  "one_paragraph_summary": "Panganiban opens with the good news from the 2018 bar-exam results -- the Top 10 captured by three Ateneo de Manila graduates (positions 1, 4, 5), four from the University of San Carlos (2, 3, 9, 10), two from UP (6, 7), and one from DLSU (8). The bad news: only 1,800 of 8,155 takers passed (22.07%), with first-timers at 32.87% and repeaters at 11.28%. The top schools by overall passing percentage are Ateneo de Manila (86.76%), UP (84.39%), USC (72.45%), UA&P (66.67%), Ateneo de Davao (64.52%), San Beda Manila (64.50%), UST (63.16%), AUF (55.00%), Xavier (54.90%), and PLM (50.00%) -- and the convergence of the two metrics confirms that the same elite schools dominate both topnotcher production and overall pass rates. Of 131 law schools, only 37 cleared the 22.07% threshold; 25 produced zero passers, including two schools that fielded 31 and 30 candidates without a single pass. Something, CJ writes, 'must be awfully unwell about the legal education system, the law schools, the students, the exams or all of them' -- a problem that has bedeviled the bar exams since the 1980s. He welcomes CJ Bersamin's Legal Education Summit (Manila Hotel, July 31-Aug 1, 2019), one of Bersamin's four reform projects, organized under Justice Gesmundo and UP Law Dean Cordero-Tan to update curricula and adopt practices producing 'practice-ready lawyers.' He flags the constitutional conflict between RA 7662 (1993, creating the LEB) and the SC's exclusive bar-admission rule-making power, exemplified in the LEB's PhiLSAT Memorandum Orders (Dec 29, 2016 amended in 2017 and 2018), against which the SC has issued a TRO. He hopes that case will be decided before the Summit.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

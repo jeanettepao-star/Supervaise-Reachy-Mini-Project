@@ -1,0 +1,139 @@
+{
+  "id": "CA276",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 276,
+  "title": "Legal and illegal labor contracting",
+  "date": "2018-05-06",
+  "link": "https://opinion.inquirer.net/112965/legal-illegal-labor-contracting",
+  "keywords": [
+    "EO 51 security of tenure",
+    "endo 5-5-5",
+    "labor-only contracting",
+    "job-contracting substantial capital",
+    "Article 239 Revised Penal Code"
+  ],
+  "primary_topics": [
+    "Distinction between legal job-contracting and illegal labor-only contracting",
+    "Limits of presidential and DOLE authority to prohibit contracting",
+    "Congressional action as the only path to prohibiting all subcontracting"
+  ],
+  "sub_topics": [
+    "EO 51 signed on Labor Day -- protecting security of tenure",
+    "Organized labor's disappointment: EO didn't end all subcontracting",
+    "Duterte: cannot prohibit what is allowed by the Labor Code",
+    "Roque: prohibition can only be expanded by legislation",
+    "Endo/5-5-5 -- definitely illegal, circumventing 6-month regularization",
+    "Labor-only contracting: Sasan v. NLRC (Oct. 17, 2008)",
+    "DOLE Department Order 174 (Series 2017): P5M capital threshold, no control",
+    "Agent liability: contractor deemed agent, principal solidarily liable",
+    "Valencia v. Classique Vinyl (Jan. 30, 2017)",
+    "Legal job-contracting: Sasan case three-pronged test",
+    "Fixed-term, project, and seasonal employment",
+    "Ganzon v. Ando (Feb. 20, 2017) definition of project employment",
+    "Art. 239 Revised Penal Code: imprisonment/fine for executive encroachment on legislative power"
+  ],
+  "signature_phrases": [
+    "endo",
+    "5-5-5",
+    "You're asking me to violate the law. What if I am impeached?",
+    "labor-only contracting",
+    "job-contracting",
+    "subversive of public interest",
+    "deemed merely an agent of the principal",
+    "solidarily liable",
+    "should look to Congress, not to the executive branch, for relief"
+  ],
+  "entities": {
+    "people": [
+      "President Rodrigo Duterte",
+      "Presidential Spokesperson Harry Roque",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Department of Labor and Employment (DOLE)",
+      "Congress of the Philippines",
+      "National Labor Relations Commission (NLRC)"
+    ],
+    "cases": [
+      "Sasan v. NLRC (October 17, 2008)",
+      "Valencia v. Classique Vinyl (January 30, 2017)",
+      "Ganzon v. Ando (February 20, 2017)"
+    ],
+    "laws_treaties": [
+      "Executive Order No. 51",
+      "Labor Code of the Philippines, Article 239",
+      "DOLE Department Order 174, Series 2017",
+      "Revised Penal Code, Article 239"
+    ],
+    "events": [
+      "Labor Day 2018 (EO 51 signing)",
+      "Organized labor rallies"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Endo / 5-5-5 -- hiring for exactly five months to evade the six-month regularization threshold -- is definitely illegal and subversive of public interest.",
+      "rhetorical_move": "unambiguous condemnation of the most abusive practice",
+      "confidence": "high"
+    },
+    {
+      "claim": "Labor-only contracting is illegal: the contractor is deemed merely an agent of the principal, making the principal solidarily liable for all rightful worker claims.",
+      "rhetorical_move": "doctrinal statement from Sasan and Valencia",
+      "confidence": "high"
+    },
+    {
+      "claim": "Legal job-contracting is unquestionably valid: independent business, substantial capital or investment, control only over results, and full labor-standard protection for contractual employees.",
+      "rhetorical_move": "three-prong Sasan legitimacy test",
+      "confidence": "high"
+    },
+    {
+      "claim": "The President and DOLE do not have the power to prohibit legitimate job-contracting or mandate only direct hiring -- they can only implement, not modify, expand, or repeal the Labor Code.",
+      "rhetorical_move": "separation-of-powers limitation on executive labor regulation",
+      "confidence": "high"
+    },
+    {
+      "claim": "Article 239 of the Revised Penal Code penalizes any public officer who encroaches upon legislative power by making rules beyond the scope of authority or suspending a law.",
+      "rhetorical_move": "criminal-liability warning against executive overreach",
+      "confidence": "high"
+    },
+    {
+      "claim": "If labor groups want all subcontracting prohibited, they should look to Congress, not the executive, for relief.",
+      "rhetorical_move": "prescriptive institutional redirect",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Duterte's candid Labor Day remark: 'You're asking me to violate the law. What if I am impeached?' -- an unusual presidential self-limitation invoked to defend not issuing a broader executive order.",
+    "DOLE Department Order 174's P5 million capital floor as the quantitative threshold distinguishing substantive job-contractors from labor-only intermediaries.",
+    "Article 239 of the Revised Penal Code -- penalizing public officers who encroach on legislative power -- cited as a criminal backstop against executive overreach in labor regulation.",
+    "Sasan v. NLRC (2008) as the governing case for both the illegal labor-only contracting test and the legal job-contracting three-pronged test."
+  ],
+  "target_audience": [
+    "Organized labor groups pressing for further EO action",
+    "Employers and HR practitioners applying the legal/illegal distinction",
+    "DOLE officials",
+    "Labor lawyers and NLRC practitioners",
+    "Members of Congress who hold the key to further reform"
+  ],
+  "register_markers": [
+    "Legal/illegal binary structure (two sections clearly delineated)",
+    "Statute and case citation at every doctrinal assertion",
+    "Presidential-quote integration ('You're asking me to violate the law')",
+    "Numbered-prong test exposition (Sasan three prongs)",
+    "Closing institutional-redirect prescription",
+    "Article 239 as a rhetorical exclamation point on the limits of executive authority"
+  ],
+  "decision_framework_signals": [
+    "Apply the DOLE DO 174 capital threshold (P5M) and the control-over-performance test to classify any contracting arrangement as legal or illegal",
+    "Use endo/5-5-5 as the paradigm case of illegal contracting -- no defensible rationale",
+    "Apply the Sasan three-prong test for legal job-contracting: (1) independent business under contractor control except for results, (2) substantial capital, (3) full labor-standard protection",
+    "Remind that presidential and DOLE authority ends at implementation -- modification, expansion, or repeal requires legislation",
+    "Invoke Article 239 RPC as the criminal backstop against executive encroachment on legislative labor regulation",
+    "Direct labor advocacy toward Congress rather than Malacañang for structural contracting reform"
+  ],
+  "one_paragraph_summary": "On Labor Day, President Duterte signed Executive Order No. 51 protecting the right to security of tenure and prohibiting contracting used to circumvent that right -- but organized labor was disappointed because the EO did not end all subcontracting or mandate only direct hiring. Duterte defended his restraint frankly: 'You're asking me to violate the law. What if I am impeached?' Spokesperson Roque added that the prohibition could only be expanded by legislation. Panganiban uses this as a teachable moment on the legal/illegal divide. On the illegal side: endo/5-5-5 -- hiring for exactly five months to evade the six-month regularization threshold -- is definitively illegal and subversive of public interest; so is labor-only contracting, where the contractor merely supplies workers without substantial capital (below P5 million per DOLE DO 174), without tools or supervision, and the workers perform activities directly related to the principal's main business -- making the contractor a mere agent and the principal solidarily liable for all worker claims (Sasan v. NLRC, October 17, 2008; Valencia v. Classique Vinyl, January 30, 2017). On the legal side: job-contracting is unquestionably valid under the Sasan three-prong test -- (1) independent business under contractor control except for results, (2) substantial capital or investment, (3) agreement ensuring contractual employees' full labor and occupational safety rights. Fixed-term, project, and seasonal employment are also allowed. The President and DOLE may only implement the Labor Code, not modify or repeal it -- Article 239 of the Revised Penal Code penalizes public officers who encroach on legislative power by making rules beyond their authority. The column closes by redirecting organized labor: for the prohibition of all contracting and a mandate of direct-only hiring, look to Congress, not the executive.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

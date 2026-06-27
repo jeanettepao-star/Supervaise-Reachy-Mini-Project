@@ -1,0 +1,150 @@
+{
+  "id": "CD011",
+  "format": "C",
+  "type": "column",
+  "theme": "D",
+  "theme_label": "FLP Mission and Foundation",
+  "number": 11,
+  "title": "Celebrating AIM and AI management",
+  "date": "2026-02-16",
+  "link": "https://opinion.inquirer.net/189754/celebrating-aim-and-ai-management",
+  "keywords": [
+    "AIM",
+    "FLP",
+    "Washington SyCip",
+    "business education",
+    "artificial intelligence"
+  ],
+  "primary_topics": [
+    "AIM's 58th anniversary + its evolution from face-to-face to online + graduate to undergraduate + business-as-usual to sustainability + corporate governance to AI responsibility",
+    "Tribute to founding chairman Washington SyCip -- business legend, management guru, philanthropist, dear friend",
+    "Master's in International Business Law (MIBL) program proposed by CJP + launched 2024 + inspired by his grandson",
+    "Dr. Jikyeong Kang's stewardship -- first female president and dean of AIM + first Asia-Pacific chair of AACSB",
+    "AIM's institutional tribute to the late Leni Panganiban -- case room + chapel rededication"
+  ],
+  "sub_topics": [
+    "Washington SyCip Graduate School of Business -- flagship college now offering seven graduate degrees with four distinctive programs",
+    "Harvard Business School advisory group + prominent business leaders + academicians in AIM's founding",
+    "MIBL program inspiration -- email from grandson Jose Miguel 'Mig' Sandejas (Babson MBA + Northwestern MS Business Law)",
+    "Mig Sandejas's framing -- 'knowledge of the law rounded out my business thinking... law tells you how far you can go'",
+    "FLP-MPIC Fellowship Awards for MIBL students",
+    "Wash SyCip's founding-trustee P500,000 donation to FLP in 2011",
+    "AIM expansion under Kang from three to 15 degree programs + several-fold enrollment growth",
+    "First Philippine transnational double-degree undergraduate program with the University of Houston",
+    "AIM master's in AI and data analytics + alumni masterclasses (AI applications in business + generative AI fundamentals)",
+    "Leni Panganiban's 37-year AIM stint (first female professor + associate dean) + April 9 2023 passing",
+    "Chapel of the Immaculate Conception 'In Loving Memory of Professor Leni Panganiban'",
+    "Daughter Ma. Theresa 'Tet' P. Mañalac continuing Leni's professorial line at AIM"
+  ],
+  "signature_phrases": [
+    "the lightning pace of hi-tech innovation is both daunting and exciting",
+    "people-centric and nation-builders",
+    "not only does the law tell you what you cannot do, but it tells you how far you can go",
+    "people need both liberty and prosperity under the rule of law",
+    "lead, inspire, and transform",
+    "shared prosperity and alleviating poverty under the rule of law",
+    "Wash"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (FLP founder)",
+      "Washington 'Wash' SyCip (founding chairman of AIM, late)",
+      "Dr. Jikyeong Kang (first female president and dean of AIM, first Asia-Pacific chair of AACSB)",
+      "Jose Miguel 'Mig' Sandejas (CJP's grandson -- MIBL program inspiration)",
+      "Leni Panganiban (CJP's late wife -- passed April 9 2023, AIM's first female professor)",
+      "Ma. Theresa 'Tet' P. Mañalac (CJP's daughter -- continued Leni's AIM professorship)"
+    ],
+    "institutions": [
+      "Asian Institute of Management (AIM)",
+      "Washington SyCip Graduate School of Business",
+      "Harvard Business School (advisory group in AIM founding)",
+      "Association to Advance Collegiate Schools of Business (AACSB)",
+      "University of Houston (transnational double-degree partner)",
+      "Foundation for Liberty and Prosperity (FLP)",
+      "Metro Pacific Investments Corp. (MPIC)",
+      "Babson College (Boston -- Mig's MBA)",
+      "Northwestern University (Chicago -- Mig's MS Business Law)",
+      "University of Michigan (Tet's alma mater)"
+    ],
+    "programs_and_places": [
+      "Master's in International Business Law (MIBL) program at AIM (launched 2024)",
+      "AIM master's in AI and data analytics",
+      "FLP-MPIC Fellowship Awards for MIBL students",
+      "Chapel of the Immaculate Conception 'In Loving Memory of Professor Leni Panganiban'"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The lightning pace of hi-tech innovation is both daunting and exciting -- and AIM, currently celebrating its 58th anniversary, is one educational institution that has, through the years, kept up with this blitzkrieg, expanding from face-to-face to online classes, from graduate to undergraduate degrees, from business-as-usual to sustainability, from corporate governance to AI responsibility.",
+      "rhetorical_move": "daunting-and-exciting + parallel-doublet expansion-roster opening",
+      "confidence": "asserted as anniversary celebration"
+    },
+    {
+      "claim": "The AIM celebration is incomplete without honoring 'a business legend, management guru, philanthropist, and dear friend' -- the late Washington SyCip -- whose vision, wisdom, and passion led to AIM's founding alongside the Harvard Business School advisory group and prominent business leaders and academicians. As founding chairman, he foresaw the need for the institution to lead businesses to be 'people-centric and nation-builders.'",
+      "rhetorical_move": "SyCip-tribute + people-centric-nation-builders vision-anchoring",
+      "confidence": "asserted as founding-vision tribute"
+    },
+    {
+      "claim": "The Master's in International Business Law (MIBL) program that CJP proposed to AIM was successfully launched in 2024, inspired by an email from CJP's grandson Mig Sandejas (Babson MBA + Northwestern MS Business Law) -- 'knowledge of the law rounded out my business thinking. Not only does the law tell you what you cannot do, but it tells you how far you can go.' Several MIBL students have been awarded the FLP-MPIC Fellowship Awards.",
+      "rhetorical_move": "MIBL origin-story + Mig-email verbatim + FLP-MPIC fellowship anchoring",
+      "confidence": "asserted with first-person paternity"
+    },
+    {
+      "claim": "The legacy lives on as the baton was passed to Dr. Jikyeong Kang, the first female president and dean of AIM and the first from the Asia-Pacific to chair AACSB -- the most prestigious global business education alliance and accreditation body. She has expanded AIM's degree programs from three to 15 and increased student enrollment severalfold, including the launching of the Philippines' first transnational double-degree undergraduate program in partnership with the University of Houston.",
+      "rhetorical_move": "baton-passing + Kang-first-female-first-Asia-Pacific firsts-cascade",
+      "confidence": "asserted with credentials-anchoring"
+    },
+    {
+      "claim": "AIM now offers a master's degree in AI and data analytics -- ready-to-learn skills relevant to face business challenges and drive smart decisions. CJP has witnessed how Jikyeong manages transformation with remarkable energy, grit, elegance, and grace; were she not a foreigner, she would have been included in CJP's Jan 26 column as one of the exemplars of empowered women in the private sector.",
+      "rhetorical_move": "AI-degree highlighting + cross-reference to E12 empowered-women column",
+      "confidence": "asserted as eyewitness endorsement"
+    },
+    {
+      "claim": "AIM honored CJP's late wife Leni -- an AIM alumna and the first female professor for 37 years (and associate dean for a few years) who passed to the Eternal Kingdom on April 9 2023 -- by naming a case room after her and rededicating the chapel (which she helped build) as the 'Chapel of the Immaculate Conception In Loving Memory of Professor Leni Panganiban.' CJP's University of Michigan-educated daughter Ma. Theresa 'Tet' P. Mañalac continued Leni's professorial stint after Leni retired in 2009.",
+      "rhetorical_move": "Leni-memorial recognition + Tet-continuation family-line anchoring",
+      "confidence": "asserted as institutional-memorial gratitude"
+    },
+    {
+      "claim": "CJP believes in the value of shared prosperity and in alleviating poverty under the rule of law for more equitable socioeconomic progress -- this is why CJP's interest in AIM remains active, even as the FLP addresses these endeavors in other programs (legal scholarships, dissertation writing, professorial chairs, educational assistance for the poor) to get the country out of its generational problems of poverty, corruption, and abuse of public office.",
+      "rhetorical_move": "shared-prosperity-poverty-alleviation + generational-problems anchoring",
+      "confidence": "asserted as foundational philosophy"
+    },
+    {
+      "claim": "People need both liberty and prosperity under the rule of law -- and with AIM's collaboration, FLP is determined to generate more programs to bring that philosophy more meaningful and useful to the wider public.",
+      "rhetorical_move": "FLP-philosophy closing affirmation + collaboration-anchor",
+      "confidence": "asserted as closing-philosophy commitment"
+    }
+  ],
+  "notable_anecdotes": [
+    "FLP founded in 2011 by CJP with Wash SyCip among others + SyCip's first P500,000 donation as founding trustee",
+    "Grandson 'Mig' Sandejas's email arguing legal knowledge rounded out his business thinking, inspiring the MIBL program",
+    "Leni Panganiban's 37-year stint as AIM's first female professor and associate dean + chapel and case-room legacy after her April 9 2023 passing",
+    "Daughter Tet Mañalac (University of Michigan-educated) continuing Leni's AIM professorship after Leni's 2009 retirement",
+    "Dr. Jikyeong Kang as first Asia-Pacific chair of AACSB -- global business-education alliance and accreditation body",
+    "CJP's cross-reference to his Jan 26 2026 'Seven empowered women' column"
+  ],
+  "target_audience": [
+    "AIM alumni and the business-education community",
+    "FLP supporters and scholarship beneficiaries",
+    "Readers interested in AI integration into management curricula",
+    "Wash SyCip's network and the broader Philippine philanthropy community",
+    "Aspiring MIBL students and business-law learners"
+  ],
+  "register_markers": [
+    "Anniversary-tribute register braided with personal memorial",
+    "Threads institutional milestones with family biography (grandson + wife + daughter)",
+    "All-caps section-lead-ins ('THE AIM CELEBRATION IS INCOMPLETE', 'THE LEGACY LIVES ON', 'AIM HONORED MY LATE WIFE LENI')",
+    "Parallel doublet structure for AIM expansions (face-to-face to online + graduate to undergraduate + business-as-usual to sustainability + corporate governance to AI responsibility)",
+    "Familial intimacy markers ('Wash, as he was fondly called')"
+  ],
+  "decision_framework_signals": [
+    "Liberty and prosperity under the rule of law as FLP's animating philosophy",
+    "People-centric business + nation-builders as the SyCip vision",
+    "Integration of law and business as completing managerial judgment (Mig's insight)",
+    "Educational philanthropy as generational tool against poverty, corruption, and abuse of public office",
+    "AIM's lead-inspire-transform mission as institutional template",
+    "Shared prosperity and poverty alleviation under the rule of law as equitable-socioeconomic-progress framework"
+  ],
+  "one_paragraph_summary": "On AIM's 58th anniversary, Panganiban celebrates its evolution from traditional business education to online classes, undergraduate programs, sustainability focus, and AI responsibility. He honors founding chairman Washington SyCip, recounts his own role in proposing the Master's in International Business Law program (launched in 2024 and inspired by his grandson Mig Sandejas's email about how legal knowledge rounds out business thinking), and praises current president Dr. Jikyeong Kang for expanding offerings from three to 15 degree programs and launching the first Philippine transnational double-degree program with the University of Houston. He recounts AIM's tribute to his late wife Leni -- first female professor for 37 years, who passed April 9 2023 -- by naming a case room after her and rededicating the chapel she helped build as the 'Chapel of the Immaculate Conception In Loving Memory of Professor Leni Panganiban,' with daughter Tet Mañalac continuing the Panganiban professorial line. He closes affirming FLP's philosophy that people need both liberty and prosperity under the rule of law.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

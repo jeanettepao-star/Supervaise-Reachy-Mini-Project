@@ -1,0 +1,134 @@
+{
+  "id": "GC011",
+  "format": "G",
+  "type": "biography",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 11,
+  "title": "From Civic Leadership to National Visibility",
+  "date": "early 1990",
+  "link": "",
+  "keywords": [
+    "PPCRV",
+    "Chief Legal Counsel",
+    "institutional preservation",
+    "language-of-reform-not-partisanship",
+    "quiet civic ascent"
+  ],
+  "primary_topics": [
+    "Quiet return to law practice + business + writing + Catholic lay movements",
+    "Invitations arriving -- chair awards committees + mediate disputes + speak on governance",
+    "Chief Legal Counsel of Parish Pastoral Council for Responsible Voting (PPCRV)",
+    "Guarded-credibility-as-fiercely-as-outcomes posture",
+    "Language-of-institutional-preservation-not-partisanship characterization"
+  ],
+  "sub_topics": [
+    "Did-not-announce-ambition quiet-return framing",
+    "Returned-quietly-to-law-practice + businesses + writing + Catholic lay movements",
+    "Invitations sporadic-then-persistent escalation",
+    "Asked to chair awards committees + mediate disputes + speak on governance + ethics + rule of law",
+    "Chief Legal Counsel of Parish Pastoral Council for Responsible Voting (PPCRV)",
+    "PPCRV as 'moral fault lines of Philippine democracy' venue",
+    "Advised-without-theatrics + guarded-credibility-as-fiercely-as-outcomes",
+    "During elections -- passions-flared + accusations-multiplied + Art insisted on process",
+    "When-activists-demanded-instant-righteousness-Art-cautioned-patience",
+    "When-institutions-faltered-Art-argued-not-for-replacement-but-for-reform",
+    "Not-the-language-of-partisanship + language-of-institutional-preservation reframe",
+    "Presidents noticed setup-for-next-section (GC012 Malacañang call)"
+  ],
+  "signature_phrases": [
+    "Art did not announce ambition",
+    "first sporadically, then persistently",
+    "the moral fault lines of Philippine democracy",
+    "He advised without theatrics. He guarded credibility as fiercely as outcomes",
+    "When activists demanded instant righteousness, he cautioned patience",
+    "When institutions faltered, he argued not for replacement -- but for reform",
+    "This was not the language of partisanship. It was the language of institutional preservation",
+    "Presidents noticed"
+  ],
+  "entities": {
+    "people": [
+      "Artemio Villaseñor Panganiban Jr. (subject)",
+      "Presidents (unnamed -- observing audience cited as 'presidents noticed')"
+    ],
+    "institutions": [
+      "Parish Pastoral Council for Responsible Voting (PPCRV -- Art as Chief Legal Counsel)",
+      "Catholic lay movements (continued involvement)",
+      "PABLAW (law practice continuing)",
+      "Baron Travel + Arpan Tourism (businesses continuing)",
+      "Awards committees + mediation venues (unnamed)"
+    ],
+    "places": [
+      "Philippines (national-civic ascent venue)"
+    ],
+    "events": [
+      "Philippine elections of the early 1990s (PPCRV venue)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "In the years that followed, Art did not announce ambition -- he returned quietly to his law practice, his businesses, his writing, his work in Catholic lay movements; yet invitations began arriving, first sporadically then persistently.",
+      "rhetorical_move": "did-not-announce-ambition continuing-posture opening + quiet-return four-domain roster + sporadically-then-persistently escalation framing",
+      "confidence": "biographer-asserted as quiet-ascent thesis"
+    },
+    {
+      "claim": "He was asked to chair awards committees, to mediate disputes, to speak on governance, ethics, and the rule of law.",
+      "rhetorical_move": "three-role invitation cascade (chair + mediate + speak) + governance-ethics-rule-of-law topical triad",
+      "confidence": "biographer-asserted with role-cascade framing"
+    },
+    {
+      "claim": "He became Chief Legal Counsel of the Parish Pastoral Council for Responsible Voting (PPCRV) -- a role that placed him near the moral fault lines of Philippine democracy; he advised without theatrics; he guarded credibility as fiercely as outcomes.",
+      "rhetorical_move": "PPCRV-Chief-Legal-Counsel role + moral-fault-lines-of-Philippine-democracy positioning + advised-without-theatrics + guarded-credibility-as-fiercely-as-outcomes character framing",
+      "confidence": "biographer-asserted with ecclesial-civic role anchoring"
+    },
+    {
+      "claim": "During elections, when passions flared and accusations multiplied, he insisted on process; when activists demanded instant righteousness, he cautioned patience; when institutions faltered, he argued not for replacement -- but for reform.",
+      "rhetorical_move": "three-when-Art-did cascade (insisted-on-process + cautioned-patience + argued-for-reform-not-replacement)",
+      "confidence": "biographer-asserted as institutional-posture thesis"
+    },
+    {
+      "claim": "This was not the language of partisanship -- it was the language of institutional preservation.",
+      "rhetorical_move": "not-X-but-Y reframe -- partisanship-vs-institutional-preservation titular distinction",
+      "confidence": "biographer-asserted as ideological-framing maxim"
+    },
+    {
+      "claim": "Presidents noticed.",
+      "rhetorical_move": "two-word cliffhanger setup for next section (GC012 Malacañang Call)",
+      "confidence": "biographer-asserted as section-cliffhanger"
+    }
+  ],
+  "notable_anecdotes": [
+    "Quiet return to law + business + writing + Catholic lay movements",
+    "Invitations sporadic-then-persistent escalation",
+    "PPCRV Chief Legal Counsel -- 'moral fault lines of Philippine democracy'",
+    "Advised-without-theatrics + guarded-credibility-as-fiercely-as-outcomes character framing",
+    "Three-when-Art-did cascade -- insisted-on-process + cautioned-patience + argued-for-reform-not-replacement",
+    "Language-of-institutional-preservation-not-partisanship reframe maxim",
+    "'Presidents noticed' two-word cliffhanger closing"
+  ],
+  "target_audience": [
+    "PPCRV volunteers + election watchdogs (Catholic-civic-engagement audience)",
+    "Catholic lay-movement readers tracking Art's parish-level vocation",
+    "Civic-organization leaders balancing process + reform + patience",
+    "Filipino voters and election observers",
+    "Pre-Supreme-Court Art biography readers tracing the path to judicial nomination"
+  ],
+  "register_markers": [
+    "Did-not-announce-ambition quiet-posture opening",
+    "Sporadically-then-persistently temporal-escalation pattern",
+    "Moral-fault-lines-of-Philippine-democracy positioning device",
+    "Three-when-Art-did cascade structure",
+    "Not-X-but-Y reframe maxim -- partisanship vs institutional preservation",
+    "Two-word cliffhanger closing -- 'Presidents noticed.'"
+  ],
+  "decision_framework_signals": [
+    "Did-not-announce-ambition + invitations-came-to-him posture for national role",
+    "Process-over-passion election-period principle",
+    "Patience-over-instant-righteousness counsel to activists",
+    "Reform-not-replacement institutional-faltering response",
+    "Credibility-guarded-as-fiercely-as-outcomes advisory standard",
+    "Institutional-preservation-not-partisanship ideological framing"
+  ],
+  "one_paragraph_summary": "Art's quiet civic-ascent chapter in the years after the 1991 Rotary valedictory: he did not announce ambition but returned quietly to law, business, writing, and Catholic lay movements -- yet invitations began arriving, 'first sporadically, then persistently,' to chair awards committees, mediate disputes, and speak on governance, ethics, and the rule of law. He became Chief Legal Counsel of the Parish Pastoral Council for Responsible Voting (PPCRV), 'a role that placed him near the moral fault lines of Philippine democracy.' He 'advised without theatrics' and 'guarded credibility as fiercely as outcomes.' During elections, when passions flared and accusations multiplied, he insisted on process; when activists demanded instant righteousness, he cautioned patience; when institutions faltered, he argued 'not for replacement -- but for reform.' The chapter's titular maxim: 'This was not the language of partisanship. It was the language of institutional preservation.' The two-word closing cliffhanger -- 'Presidents noticed.' -- sets up the Malacañang call of the next section.",
+  "source_xlsx": "cjp_biography_curated_normalized.xlsx"
+}

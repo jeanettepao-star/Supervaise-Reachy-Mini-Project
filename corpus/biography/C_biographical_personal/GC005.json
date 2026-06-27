@@ -1,0 +1,157 @@
+{
+  "id": "GC005",
+  "format": "G",
+  "type": "biography",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 5,
+  "title": "The Mentor and the Moral Spine",
+  "date": "1961-1963",
+  "link": "",
+  "keywords": [
+    "Salonga Ordoñez Associates",
+    "Jose W. Diokno",
+    "Claudio Teehankee",
+    "PABLAW 1963",
+    "law divorced from morality"
+  ],
+  "primary_topics": [
+    "Yale-unreachable redirected into Salonga-mentorship pivot",
+    "Salonga's offer -- 'If you cannot go to Yale, Yale will come to you'",
+    "Apprenticeship at Salonga, Ordoñez and Associates (1961-1963)",
+    "Filipino-legal-giants lineage -- Jose W. Diokno + Claudio O. Teehankee as embodied-not-merely-interpreted law",
+    "PABLAW founding (1963) carrying success-must-never-outpace-conscience philosophy"
+  ],
+  "sub_topics": [
+    "Yale-scholarship-that-never-materialized as 'one of the most formative disappointments of Art's life'",
+    "Wanted-it-not-for-prestige-but-for-completion motivation",
+    "Sensed-law-was-not-merely-a-profession-but-a-calling early conviction",
+    "Frustration-darker-feeling -- 'no matter how hard he worked, the ceiling might always descend just before he reached it'",
+    "Salonga steps fully into life -- 'not merely as a former dean, but as a moral architect'",
+    "Salonga's UP + Harvard + Yale credential triad as path-Art-had-dreamed",
+    "Salonga's quiet offer -- 'If you cannot go to Yale, Yale will come to you'",
+    "Salonga, Ordoñez and Associates (1961-1963) -- 'law was not practiced as transaction, but as responsibility'",
+    "Victory-without-integrity-considered-failure firm-culture",
+    "Political-expediency-distrusted + conscience-mattered firm-values",
+    "Judgment-as-something-more-valuable-than-advanced-degrees lesson",
+    "Jose W. Diokno introduction -- human-rights-advocacy-would-become-legend characterization",
+    "Claudio O. Teehankee introduction -- judicial-courage-would-later-define-an-era characterization",
+    "They-embodied-it-not-merely-interpreted-it Filipino-legal-giants thesis",
+    "Law-divorced-from-morality-becomes-tyranny-by-another-name doctrinal lesson",
+    "Judges-must-sometimes-stand-alone + accept-isolation-as-the-cost-of-fidelity lesson",
+    "Moral-spine-forged-here characterological metaphor",
+    "PABLAW law-firm founding in 1963",
+    "Success-must-never-outpace-conscience PABLAW founding-philosophy"
+  ],
+  "signature_phrases": [
+    "one of the most formative disappointments of Art's life",
+    "Not for prestige -- but for completion",
+    "money intervened, as it had before",
+    "the ceiling might always descend just before he reached it",
+    "moral architect",
+    "If you cannot go to Yale, Yale will come to you",
+    "law was not practiced as transaction. It was practiced as responsibility",
+    "Victory without integrity was considered failure",
+    "These were not men who merely interpreted law. They embodied it",
+    "law divorced from morality becomes tyranny by another name",
+    "judges must sometimes stand alone -- and accept isolation as the cost of fidelity",
+    "his moral spine",
+    "success must never outpace conscience"
+  ],
+  "entities": {
+    "people": [
+      "Artemio Villaseñor Panganiban Jr. (subject)",
+      "Jovito R. Salonga (former dean now 'moral architect' -- UP + Harvard + Yale credentials)",
+      "Jose W. Diokno (human-rights advocate -- 'would become legend')",
+      "Claudio O. Teehankee (jurist -- 'judicial courage would later define an era')"
+    ],
+    "institutions": [
+      "Salonga, Ordoñez and Associates (apprenticeship firm 1961-1963)",
+      "PABLAW (Art's own firm founded 1963)",
+      "Yale Law School (referent for the 'Yale will come to you' aphorism)",
+      "Harvard Law School (Salonga's credential)",
+      "University of the Philippines (Salonga's credential)"
+    ],
+    "places": [
+      "Salonga firm offices (apprenticeship venue)"
+    ],
+    "philosophical_traditions": [
+      "Ethical traditions of Western jurisprudence (Salonga inheritance)",
+      "Filipino legal-giants lineage (Salonga → Diokno → Teehankee as embodied-not-interpreted law)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Yale scholarship that never materialized became, in retrospect, one of the most formative disappointments of Art's life -- he had wanted it badly, not for prestige but for completion; he sensed even then that law was not merely a profession but a calling that demanded the sharpest tools available.",
+      "rhetorical_move": "in-retrospect retrospective-reframe + not-for-prestige-but-for-completion motive-clarification + calling-demands-sharpest-tools framing",
+      "confidence": "biographer-asserted as retrospective-reframe thesis"
+    },
+    {
+      "claim": "It was at this juncture that Jovito R. Salonga stepped fully into his life -- not merely as a former dean, but as a moral architect. Salonga had walked the path Art dreamed of -- UP, Harvard, Yale -- having absorbed not only legal technique but the ethical traditions of Western jurisprudence; when Yale became unreachable for his young protégé, Salonga made a quiet offer that would change everything: 'If you cannot go to Yale, Yale will come to you.'",
+      "rhetorical_move": "moral-architect-not-merely-dean role-reframe + UP-Harvard-Yale credential-triad + quiet-offer-that-would-change-everything + Yale-will-come-to-you titular-quoted aphorism",
+      "confidence": "biographer-asserted with quoted-mentor framing"
+    },
+    {
+      "claim": "At Salonga, Ordoñez and Associates, where Art apprenticed from 1961 to 1963, law was not practiced as transaction -- it was practiced as responsibility; cases were dissected for principle as much as outcome; victory without integrity was considered failure; political expediency was distrusted; conscience mattered.",
+      "rhetorical_move": "law-as-responsibility-not-transaction firm-culture + principle-as-much-as-outcome value + victory-without-integrity-is-failure + conscience-mattered ethics-roster",
+      "confidence": "biographer-asserted as firm-culture thesis"
+    },
+    {
+      "claim": "Here Art learned something more valuable than advanced degrees: judgment. Salonga introduced him to a lineage of Filipino legal giants -- Jose W. Diokno, whose human rights advocacy would become legend; Claudio O. Teehankee, whose judicial courage would later define an era. These were not men who merely interpreted law. They embodied it.",
+      "rhetorical_move": "judgment-more-valuable-than-degrees thesis + Filipino-legal-giants-lineage Diokno-Teehankee tandem + embodied-not-merely-interpreted titular distinction",
+      "confidence": "biographer-asserted as lineage-formation thesis"
+    },
+    {
+      "claim": "Art absorbed their example with reverence -- he learned that law divorced from morality becomes tyranny by another name, that judges must sometimes stand alone and accept isolation as the cost of fidelity; this apprenticeship forged his moral spine.",
+      "rhetorical_move": "law-divorced-from-morality-becomes-tyranny-by-another-name doctrinal aphorism + judges-must-stand-alone + isolation-as-cost-of-fidelity + moral-spine-forged-here metaphor",
+      "confidence": "biographer-asserted as moral-formation thesis"
+    },
+    {
+      "claim": "When he left to establish his own firm in 1963 -- PABLAW -- he carried with him not only legal competence but a philosophy: success must never outpace conscience.",
+      "rhetorical_move": "PABLAW-founding-1963 fact + carried-philosophy framing + success-must-never-outpace-conscience titular maxim",
+      "confidence": "biographer-asserted as exit-thesis"
+    }
+  ],
+  "notable_anecdotes": [
+    "Salonga as 'moral architect' stepping into Art's life after Yale denial",
+    "Salonga's UP + Harvard + Yale credential triad as the path Art had dreamed of",
+    "'If you cannot go to Yale, Yale will come to you' -- Salonga's quiet offer that would change everything",
+    "Salonga, Ordoñez and Associates apprenticeship 1961-1963 -- law-as-responsibility firm culture",
+    "Jose W. Diokno introduced as 'human-rights advocacy would become legend'",
+    "Claudio O. Teehankee introduced as 'judicial courage would later define an era'",
+    "Embodied-not-merely-interpreted Filipino-legal-giants distinction",
+    "Law-divorced-from-morality-becomes-tyranny-by-another-name doctrinal lesson",
+    "Judges-must-sometimes-stand-alone + accept-isolation-as-cost-of-fidelity lesson",
+    "PABLAW founded 1963 with success-must-never-outpace-conscience philosophy"
+  ],
+  "target_audience": [
+    "Filipino law-firm associates + apprentice lawyers",
+    "Salonga-Diokno-Teehankee-lineage readers (legal-historical audience)",
+    "FLP law-scholarship recipients (lineage-of-mentorship inheritance)",
+    "Law-school students wrestling with calling-vs-profession",
+    "Young lawyers facing victory-vs-integrity tradeoffs"
+  ],
+  "register_markers": [
+    "In-retrospect retrospective-reframe device",
+    "Mentor-as-moral-architect role-reframe",
+    "Credential-triad anchor -- UP + Harvard + Yale",
+    "Quoted-mentor titular aphorism -- 'If you cannot go to Yale, Yale will come to you'",
+    "Firm-culture maxim cascade -- law-as-responsibility + victory-without-integrity-is-failure + conscience-mattered",
+    "Lineage-of-legal-giants Diokno-Teehankee tandem characterization",
+    "Embodied-not-merely-interpreted titular distinction device",
+    "Moral-spine-forged-here metaphor for formation",
+    "PABLAW exit-philosophy closing maxim -- success-must-never-outpace-conscience"
+  ],
+  "decision_framework_signals": [
+    "Law-as-calling-not-merely-profession motivational stance",
+    "Yale-will-come-to-you -- mentorship-as-substitute-for-credentials principle",
+    "Law-as-responsibility-not-transaction practice-philosophy",
+    "Victory-without-integrity-is-failure ethics test",
+    "Judgment-more-valuable-than-advanced-degrees formation-philosophy",
+    "Law-divorced-from-morality-becomes-tyranny doctrinal warning",
+    "Judges-must-sometimes-stand-alone + isolation-as-cost-of-fidelity solitary-courage standard",
+    "Success-must-never-outpace-conscience PABLAW-founding test"
+  ],
+  "one_paragraph_summary": "Art's mentorship chapter, reframing the Yale denial as 'one of the most formative disappointments' that redirected him into Salonga's orbit. Jovito R. Salonga -- UP, Harvard, Yale-credentialed and 'a figure of moral and intellectual authority' -- steps into Art's life 'not merely as a former dean, but as a moral architect,' offering the chapter's titular aphorism: 'If you cannot go to Yale, Yale will come to you.' Apprenticing at Salonga, Ordoñez and Associates (1961-1963), Art encounters a firm culture where 'law was not practiced as transaction -- it was practiced as responsibility,' where 'victory without integrity was considered failure,' and where conscience mattered more than expediency. Salonga introduces him to the Filipino-legal-giants lineage -- Jose W. Diokno ('human rights advocacy would become legend') and Claudio O. Teehankee ('judicial courage would later define an era') -- men who 'were not... merely interpreting law; they embodied it.' From them Art learns that 'law divorced from morality becomes tyranny by another name' and that 'judges must sometimes stand alone and accept isolation as the cost of fidelity.' This apprenticeship 'forged his moral spine.' When he leaves in 1963 to establish his own firm, PABLAW, he carries not only legal competence but a philosophy: 'success must never outpace conscience.'",
+  "source_xlsx": "cjp_biography_curated_normalized.xlsx"
+}

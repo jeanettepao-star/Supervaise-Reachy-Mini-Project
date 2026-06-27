@@ -1,0 +1,126 @@
+{
+  "id": "CA504",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 504,
+  "title": "Bitin'",
+  "date": "2012-03-25",
+  "link": "https://opinion.inquirer.net/25581/bitin",
+  "keywords": [
+    "bitin",
+    "Corona impeachment recess",
+    "PSBank dollar accounts",
+    "TRO Supreme Court",
+    "SALN corrections",
+    "Pulse Asia survey",
+    "Senate proceedings void",
+    "May 7 resumption"
+  ],
+  "primary_topics": [
+    "The Senate impeachment court recessing on March 22 before the defense could explain the most damning prosecution evidence -- the peso deposits and undisclosed dollar accounts",
+    "Two pending SC cases that could be game-changers during the six-week recess: the PSBank TRO petition and Corona petition to nullify the entire Senate proceedings",
+    "The many unanswered questions Corona must resolve during the recess -- SALN corrections, dollar account disclosure, witness stand decision -- that will shape the trial course"
+  ],
+  "sub_topics": [
+    "34 days of trial spanning nearly three months; adjourned March 22 before defense finished on SALN inadequacies and inconsistencies",
+    "Most significant unanswered: dollar accounts -- PSBank president Garcia admitted five foreign currency deposits belonging to Corona; sums not yet disclosed",
+    "Bitin as the Filipino colloquial expression for the frustrating short-of-expectations adjournment",
+    "First SC case: PSBank petition to bar public disclosure of dollar deposits; SC already issued TRO; if SC lifts TRO, defense burden becomes more stringent",
+    "Senate March 12 order: prosecution deemed to have rested case, subject to reservation on dollar account evidence pending SC ruling",
+    "Second SC case: Corona petitions (Feb. 8 and Feb. 13) to nullify impeachment complaint and all Senate proceedings -- due process violation and senator-judge bias",
+    "SC did not issue TRO on the Senate proceedings case (unlike the PSBank case)",
+    "OSG comment (March 13): Senate sole power to try impeachment subject only to three requirements (oath, CJ presides when President on trial, 2/3 conviction); none violated; no grave abuse of discretion",
+    "Pulse Asia survey: 47% believe guilty; 5% innocent; 43% undecided; 60% do not trust; 11% trust; 29% undecided",
+    "Defense strong in legalities but failed to win the people -- 6-week recess gives breathing space to revise PR strategy",
+    "April 30 SALN deadline: six crucial decisions for Corona re declarations, disclosures, corrections; painful irony that corrections could be deemed admissions of guilt"
+  ],
+  "signature_phrases": [
+    "After 34 days of trial spanning nearly three months, the Senate impeachment court recessed last March 22",
+    "Most significant, the defense had not yet explained what many consider as the most damning prosecution evidence",
+    "bitin",
+    "The 6-week recess could give the defense breathing space to revise its public relations strategy",
+    "Will he disclose in his new SALN the acquisition cost of his assets?",
+    "Or will they in fact be deemed admissions of guilt?",
+    "Bitin!"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Chief Justice Renato C. Corona (respondent)",
+      "PSBank president Pascual Garcia III (admitted five dollar accounts)",
+      "Senate President Juan Ponce Enrile (questioned Garcia)"
+    ],
+    "institutions": [
+      "Senate (impeachment court)",
+      "Philippine Savings Bank (PSBank)",
+      "Supreme Court of the Philippines",
+      "Office of the Solicitor General (OSG)",
+      "Pulse Asia"
+    ],
+    "cases": [
+      "Corona impeachment trial -- recessed March 22, resuming May 7",
+      "PSBank v. Senate (SC, pending TRO on dollar deposit disclosure)",
+      "Corona v. Senate (SC petitions Feb. 8 and Feb. 13 -- nullification of impeachment complaint and proceedings)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- Art. XI Sec. 3 (Senate sole power to try impeachment)",
+      "RA 6426 (foreign currency deposits law)",
+      "RA 3019 (Anti-Graft Law)"
+    ],
+    "events": [
+      "Senate recess March 22, 2012 (trial day 34)",
+      "Senate resumption scheduled May 7, 2012",
+      "PSBank TRO from SC",
+      "Pulse Asia survey (47% guilty; 60% do not trust)",
+      "April 30, 2012 SALN deadline during recess"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The trial adjourned short of expectations -- bitin -- because the defense has not yet explained the most damning prosecution evidence: the peso deposits and the admitted but undisclosed dollar accounts.",
+      "rhetorical_move": "bitin-as-analytical-verdict on the incomplete state of the trial",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The two pending SC cases are potentially decisive game-changers: if the SC allows inquiry into dollar accounts, the defense burden becomes more stringent; if the SC voids the Senate proceedings, the entire trial becomes obsolete -- though the OSG argues the Senate acted prudently within its constitutional bounds.",
+      "rhetorical_move": "two-game-changer-SC-cases analysis identifying the most consequential pending decisions",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Corona faces six crucial self-determining decisions during the recess: SALN declarations, peso and dollar account disclosures, real estate admissions, and SALN corrections -- with the painful irony that corrections could constitute admissions of guilt rather than exonerations.",
+      "rhetorical_move": "six-decision-framework for Corona recess choices",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Pulse Asia survey showing 60% of Filipinos do not trust Corona while only 11% do -- and 47% believe him guilty vs only 5% innocent -- establishing that despite the defense legal strength in technicalities, it has catastrophically lost the Court of Public Opinion.",
+    "The ironic SALN correction dilemma: if Corona corrects his previous SALNs to disclose omitted assets, the corrections could be deemed admissions of guilt rather than exonerations -- the perfect legal trap of his own making.",
+    "The 6-week recess framed by CJ as giving the defense breathing space to revise its public relations strategy -- implicitly observing that legal skill without public trust is insufficient in an impeachment trial that is more political than legal."
+  ],
+  "target_audience": [
+    "Civic readers following the Corona impeachment trial and the recess period",
+    "Senator-judges watching the pending SC cases for potential game changers",
+    "Corona and his legal team evaluating recess decisions",
+    "Media commentators analyzing the state of the impeachment case mid-recess"
+  ],
+  "register_markers": [
+    "bitin as the organizing Filipino-language verdict on the incomplete state of proceedings",
+    "six-crucial-decisions framework as the recess analytical structure",
+    "two-game-changer-SC-cases as the legal suspense hook",
+    "OSG-argument-summary as the Senate defense against nullification",
+    "Pulse-Asia-survey-figures as the quantitative public-opinion evidence",
+    "public-relations-strategy-revision observation as the subtle political-vs-legal diagnosis",
+    "bitin! as the resonant closing repetition"
+  ],
+  "decision_framework_signals": [
+    "applies bitin-as-incomplete-verdict to establish what the defense still owes",
+    "uses two-game-changer-SC-cases analysis to identify the most consequential pending decisions",
+    "treats six-crucial-recess-decisions as a framework for evaluating Corona choices",
+    "applies acquisition-cost-vs-market-value question as the SALN valuation benchmark",
+    "frames correction-as-potential-admission-of-guilt as the paradoxical trap in SALN correction"
+  ],
+  "one_paragraph_summary": "Panganiban reports that after 34 days of trial spanning nearly three months, the Senate impeachment court recessed on March 22 -- leaving the defense short of having explained the most damning prosecution evidence: the peso deposits and the undisclosed sums in the five PSBank dollar accounts admitted by PSBank president Pascual Garcia III. He describes the trial's suspended state as 'bitin.' During the six-week recess (resuming May 7), two pending SC cases could prove decisive: the PSBank petition to bar disclosure of the dollar deposits (SC has already issued a TRO; if lifted, the defense burden becomes more stringent); and Corona's petitions (February 8 and 13) to nullify the entire impeachment complaint and Senate proceedings (SC did not issue a TRO; the OSG argues the Senate acted within its constitutional bounds). The Pulse Asia survey shows 47% believe Corona guilty, 60% distrust him -- the defense has failed to win the people, giving it breathing space to revise its public relations strategy. Corona faces six crucial recess decisions: disclose acquisition cost or market values in his new SALN; disclose actual peso and dollar account sums; admit owning more than five real estate assets; correct previous SALNs; and face the painful paradox that SALN corrections could constitute admissions of guilt. Bitin!",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

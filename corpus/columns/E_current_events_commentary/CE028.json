@@ -1,0 +1,145 @@
+{
+  "id": "CE028",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 28,
+  "title": "Would you like to dance the Cha-cha again?",
+  "date": "2025-08-18",
+  "link": "https://opinion.inquirer.net/185438/would-you-like-to-dance-the-cha-cha-again",
+  "keywords": [
+    "Charter change",
+    "Con-ass vs Con-con",
+    "Sara Duterte impeachment",
+    "parliamentary system risk",
+    "grave abuse of discretion"
+  ],
+  "primary_topics": [
+    "Constitutional amendment / revision",
+    "Impeachment fallout from Senate 19-4-1 archiving vote",
+    "Judicial-review powers and presidential-vs-parliamentary system"
+  ],
+  "sub_topics": [
+    "Senate 19-4-1 vote archiving House articles of impeachment vs VP Sara Duterte",
+    "Sen. Tito Sotto reviving Cha-cha via Con-ass",
+    "Deputy Speaker Ronaldo Puno's privilege speech preferring Con-con",
+    "Ambiguity of the word 'forthwith' in impeachment provisions",
+    "President Marcos's 'no opposition' to Cha-cha",
+    "Three constitutional modes: Con-ass (3/4 of Congress), Con-con, People's Initiative (12%/3%)",
+    "Two SC nullifications of past People's Initiative attempts",
+    "Joint vs separate voting arithmetic (256 vs 18+238)",
+    "Pending SC motion for reconsideration filed by House via OSG",
+    "Risks of rebound/revenge Cha-cha: parliamentary supremacy and deletion of grave-abuse-of-discretion duty",
+    "UP Law Center nonpartisan study as prudent alternative"
+  ],
+  "signature_phrases": [
+    "Would you like to dance the Cha-cha again?",
+    "presidential baton",
+    "political music",
+    "virtual rewriting of the basic law",
+    "rebound or revenge Cha-cha",
+    "let us not panic; let us not rebel",
+    "let us pause, think, reflect, and act with simplicity and wisdom",
+    "grave abuse of discretion amounting to lack or excess of jurisdiction",
+    "parliamentary supremacy",
+    "presidential excesses of past regimes"
+  ],
+  "entities": {
+    "people": [
+      "Sen. Vicente 'Tito' Sotto III",
+      "Deputy Speaker Ronaldo Puno",
+      "President Ferdinand Marcos Jr.",
+      "Vice President Sara Duterte"
+    ],
+    "institutions": [
+      "Senate of the Philippines",
+      "House of Representatives",
+      "Supreme Court of the Philippines",
+      "Office of the Solicitor General (OSG)",
+      "University of the Philippines Law Center",
+      "Constitutional Convention (Con-con)",
+      "Constituent Assembly (Con-ass)"
+    ],
+    "cases": [
+      "Senate decision archiving the articles of impeachment vs VP Sara Duterte (19-4-1 vote)",
+      "Supreme Court decision declaring the impeachment articles unconstitutional (subject of pending MR)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution",
+      "Article XVII (amendments and revisions)",
+      "Article VIII Sec. 1 (judicial power and grave-abuse-of-discretion duty)"
+    ],
+    "events": [
+      "Senate 19-4-1 archiving vote on the articles of impeachment",
+      "Deputy Speaker Puno's privilege speech in the House",
+      "Pending SC motion for reconsideration filed by House through the OSG"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "It is more prudent to await the Supreme Court's ruling on the pending motion for reconsideration before embarking on Cha-cha.",
+      "rhetorical_move": "judicial-deference counsel against haste",
+      "confidence": "high"
+    },
+    {
+      "claim": "Cha-cha is a disproportionate response to the archiving of the impeachment articles; simple and doable solutions are within easier reach.",
+      "rhetorical_move": "proportionality argument against constitutional overreach",
+      "confidence": "high"
+    },
+    {
+      "claim": "A rebound Cha-cha risks (a) shifting from the presidential to a parliamentary system where parliament outranks the courts, and (b) deleting or mangling the judiciary's grave-abuse-of-discretion duty under Article VIII Sec. 1.",
+      "rhetorical_move": "structural-risk warning grounded in constitutional design",
+      "confidence": "high"
+    },
+    {
+      "claim": "The grave-abuse-of-discretion duty was deliberately imposed in 1987 to stop presidential excesses and must not be undone.",
+      "rhetorical_move": "historical-purpose defense of judicial review",
+      "confidence": "high"
+    },
+    {
+      "claim": "An in-depth nonpartisan study, such as one by the UP Law Center, should be commissioned before any Cha-cha is undertaken.",
+      "rhetorical_move": "process prescription substituting study for political haste",
+      "confidence": "high"
+    },
+    {
+      "claim": "Without the presidential 'baton,' no transformational political music can be played -- Marcos's 'no opposition' is decisive in the Cha-cha calculus.",
+      "rhetorical_move": "realpolitik observation using the column's dance metaphor",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Senate's 19-4-1 vote 'archiving' the articles of impeachment filed by the House against VP Sara Duterte -- the triggering grievance that revived Cha-cha talk.",
+    "Sen. Tito Sotto's pivot from former Senate President to Cha-cha proponent, framing Con-ass as the only way 'to erase the Supreme Court's virtual rewriting of the basic law.'",
+    "Deputy Speaker Ronaldo Puno's privilege speech spotlighting the ambiguous word 'forthwith' as a single drafting flaw that 'can become the justification for legislative inaction, procedural manipulation, or worse, the loss of accountability itself.'",
+    "Two prior People's Initiative attempts to amend the Constitution being nullified by the Supreme Court -- a recurring cautionary record the column cites without space to detail.",
+    "The arithmetic dispute over 'three-fourths of all its Members': House jointly counts 341 legislators (256 needed) while the Senate insists on separate computation (18 senators + 238 representatives)."
+  ],
+  "target_audience": [
+    "Constitutional law scholars and law students",
+    "Members of Congress weighing Cha-cha modes",
+    "Civil society observers of the Duterte impeachment fallout",
+    "Voters wary of constitutional engineering",
+    "UP Law Center and other academic policy institutions"
+  ],
+  "register_markers": [
+    "Sustained dance metaphor (cha-cha, baton, music)",
+    "Numbered enumeration of constitutional modes",
+    "Specific vote-arithmetic walk-through",
+    "Rhetorical questions inviting reader deliberation",
+    "Latinate constitutional vocabulary ('grave abuse of discretion')",
+    "Closing four-verb prescription ('pause, think, reflect, and act')",
+    "Calm-elder counsel against panic and rebellion"
+  ],
+  "decision_framework_signals": [
+    "Sequence judicial remedies first: await SC ruling on pending MR before pursuing constitutional change",
+    "Match the remedy to the problem's scale -- do not deploy Cha-cha for a single disputed adjective",
+    "Identify second-order risks of constitutional change: system-of-government shift and erosion of judicial review",
+    "Treat the grave-abuse-of-discretion clause as a load-bearing feature of post-1987 governance",
+    "Prefer nonpartisan academic study (UP Law Center) over politically driven drafting",
+    "Read the political feasibility of Cha-cha through the presidency: no Cha-cha advances without the 'presidential baton'",
+    "Resolve voting-mode disputes (joint vs separate) before triggering any Con-ass process"
+  ],
+  "one_paragraph_summary": "Panganiban responds to Sen. Tito Sotto's revival of Charter change -- sparked by the Senate's 19-4-1 vote archiving the House articles of impeachment against VP Sara Duterte and Sotto's claim that Con-ass is the only way to 'erase the Supreme Court's virtual rewriting of the basic law' -- and to Deputy Speaker Ronaldo Puno's privilege speech preferring a constitutional convention on the ground that the impeachment provision's word 'forthwith' is dangerously ambiguous. He walks the reader through the three constitutional modes of amendment (Con-ass via three-fourths of Congress, Con-con, and People's Initiative at 12%/3% -- the last twice nullified by the SC), spotlights the unresolved joint-vs-separate-voting arithmetic (256 jointly versus 18 senators plus 238 representatives), and observes that without the presidential 'baton' no constitutional music can be played, making Marcos's 'no opposition' decisive. His prescription is prudence: wait for the Supreme Court's ruling on the pending motion for reconsideration filed by the House through the OSG, because Cha-cha risks two dangerous second-order outcomes -- a shift to a parliamentary system in which parliament outranks the courts, and the deletion or mangling of the judiciary's Article VIII Sec. 1 duty to strike down grave abuse of discretion, a clause deliberately imposed in 1987 to stop presidential excesses of past regimes. Rather than a rebound or revenge Cha-cha, he proposes a nonpartisan study by the UP Law Center on how the courts have used that duty, and closes with his characteristic counsel: when faced with crisis, do not panic and do not rebel; pause, think, reflect, and act with simplicity and wisdom.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

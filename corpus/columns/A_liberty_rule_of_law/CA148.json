@@ -1,0 +1,162 @@
+{
+  "id": "CA148",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 148,
+  "title": "Bigamy and psychological incapacity",
+  "date": "2022-04-04",
+  "link": "https://opinion.inquirer.net/151754/bigamy-and-psychological-incapacity",
+  "keywords": [
+    "bigamy",
+    "psychological incapacity",
+    "Pulido v. People",
+    "Tan-Andal v. Andal",
+    "Family Code",
+    "canon law"
+  ],
+  "primary_topics": [
+    "Pulido v. People (July 27, 2021) -- bigamy acquittal possible without prior judicial declaration of nullity",
+    "Article 40 of the Family Code and the limits of its application in criminal prosecutions",
+    "Doctrinal evolution of Psychological Incapacity (PI) from Santos (1995) → Molina (1997) → Tan-Andal (2021)",
+    "Critique of Tan-Andal as functionally indistinguishable from absolute divorce",
+    "Catholic-jurisprudence question for the Court's religious-school alumni majority"
+  ],
+  "sub_topics": [
+    "Facts of Pulido: Luisito's 1983 child-bride marriage to Nora; 1995 bigamous second marriage to Rowena; 2007 charge; 2009 RTC conviction; 2009 nullity ruling on the second marriage",
+    "Holding: defense of void ab initio marriage available without prior judicial declaration of nullity",
+    "Judicial declaration still required for remarriage and civil-rights determinations (heirship, legitimacy, estates, property regimes)",
+    "Santos v. CA (1995): PI characterized by gravity, juridical antecedence, incurability (canonical roots)",
+    "Molina (1997): guidelines on root cause -- medically/clinically identified, alleged in complaint, expert-proven, clearly explained",
+    "Case-to-case modification of guidelines to enable more nullifications",
+    "Tan-Andal v. Andal (May 11, 2021): Leonen ponencia, unanimous + 9 SCOs, denounces Santos/Molina as 'restrictive, rigid, and intrusive'",
+    "Tan-Andal abandons expert-evidence requirement; lay people can determine PI",
+    "CJ's IMHO comparison to absolute divorce",
+    "Roll call of religious schools (St. Thomas More, Atenean 'amDg,' Bedan 'Ora et labora,' Thomasian 'Veritas') and the 'Be brave' nonsectarian",
+    "Alternative path: should Court have waited for Congress to legislate absolute divorce?"
+  ],
+  "signature_phrases": [
+    "May an accused be nonetheless acquitted of bigamy even without a final judgment declaring the previous marriage as void?",
+    "'YES,' THE SUPREME COURT RULED",
+    "for purposes of remarriage",
+    "All told, we hold",
+    "restrictive, rigid, and intrusive on our rights to liberty, autonomy, and human dignity",
+    "IMHO",
+    "the newly-installed proceedings to nullify marriages due to PI are strikingly similar to absolute divorce in many jurisdictions",
+    "the King's good servant but God's first",
+    "amDg",
+    "Ora et labora",
+    "Veritas",
+    "Be brave",
+    "Let them judge the judges; I dare not",
+    "Alternatively, instead of mangling the canonical PI"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Ramon Paul L. Hernando (J)",
+      "Marvic M. V. F. Leonen (J)",
+      "Archbishop Oscar V. Cruz",
+      "St. Thomas More",
+      "Luisito (Pulido case)",
+      "Nora (Pulido case)",
+      "Rowena (Pulido case)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Regional Trial Court of Las Piñas City",
+      "Regional Trial Court of Imus, Cavite",
+      "National Appellate Matrimonial Tribunal (Catholic Church)",
+      "Ateneo de Manila Law School (amDg)",
+      "San Beda College of Law (Ora et labora)",
+      "University of Santo Tomas Faculty of Civil Law (Veritas)",
+      "University of the Philippines College of Law (Be brave)"
+    ],
+    "cases": [
+      "Pulido v. People (July 27, 2021)",
+      "Santos v. Court of Appeals (Jan. 4, 1995)",
+      "Republic v. Molina (Feb. 13, 1997)",
+      "Tan-Andal v. Andal (May 11, 2021)"
+    ],
+    "laws_treaties": [
+      "Family Code, Article 40 (judicial declaration of nullity for purposes of remarriage)",
+      "Family Code provisions on Psychological Incapacity (PI)",
+      "Canon Law (as source of PI doctrine)"
+    ],
+    "events": [
+      "Sept. 5, 1983 first marriage Luisito-Nora",
+      "July 31, 1995 second marriage Luisito-Rowena",
+      "Dec. 4, 2007 bigamy charge",
+      "June 22, 2009 RTC Las Piñas conviction of Luisito",
+      "Oct. 25, 2009 RTC Imus nullification of the second marriage",
+      "May 11, 2016 finality of nullification",
+      "Tan-Andal v. Andal decision, May 11, 2021"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Pulido en banc holding correctly allows an accused in a bigamy prosecution to invoke the void-ab-initio nullity of the prior marriage as a defense even without a prior judicial declaration of nullity -- though such declaration remains required for civil-effects purposes (remarriage, heirship, legitimacy, property regimes).",
+      "rhetorical_move": "agreement with holding + clarification of remaining scope",
+      "confidence": "asserted with the Court's own bolded language"
+    },
+    {
+      "claim": "The Family Code's PI ground was copied from Canon Law with no prior constitutional, statutory, or jurisprudential precedent -- making canonical concepts (gravity, juridical antecedence, incurability) the only sensible starting point, as Santos and Molina recognized.",
+      "rhetorical_move": "originalist-source framing (the doctrine's canonical pedigree is constitutive, not optional)",
+      "confidence": "asserted with case-history support"
+    },
+    {
+      "claim": "Tan-Andal's abandonment of the Santos/Molina guidelines and elimination of the expert-evidence requirement makes the new PI proceedings 'strikingly similar to absolute divorce in many jurisdictions' -- functionally producing divorce without legislative authorization.",
+      "rhetorical_move": "functional-equivalence critique (judicial circumvention of legislative non-action)",
+      "confidence": "asserted as personal IMHO opinion"
+    },
+    {
+      "claim": "The Court should have waited for Congress to legislate absolute divorce if that be the sovereign will, rather than 'mangling the canonical PI' to achieve the same effect by doctrinal modification.",
+      "rhetorical_move": "separation-of-powers critique (defer to legislature on policy)",
+      "confidence": "asserted as alternative path with rhetorical question"
+    },
+    {
+      "claim": "Religious-school alumni jurists who joined Tan-Andal should examine whether the result is consistent with the institutional creeds they invoked (St. Thomas More, amDg, Ora et labora, Veritas) -- a question CJ poses but, as a nonsectarian-school alum, declines to answer.",
+      "rhetorical_move": "shame-by-creed (calling alumni jurists to apply their schools' mottos to their own ruling)",
+      "confidence": "framed as deferred judgment ('Let them judge the judges; I dare not')"
+    }
+  ],
+  "notable_anecdotes": [
+    "Pulido facts: Luisito was a 16-year-old student in 1983 marrying his 22-year-old teacher Nora; he later contracted a second marriage with Rowena in 1995; Nora filed bigamy in 2007; RTC convicted in 2009 -- but the second marriage was independently declared void by another RTC after the conviction, raising the chicken-and-egg question Pulido resolved.",
+    "Santos v. CA traced PI's three canonical characteristics -- gravity, juridical antecedence, incurability -- directly to the Family Code's lift from Canon Law.",
+    "Molina relied on amicus curiae Archbishop Oscar V. Cruz, presiding judge of the Church's National Appellate Matrimonial Tribunal -- making the Church the formal doctrinal authority on PI's civil application.",
+    "Tan-Andal denounced Santos and Molina as 'restrictive, rigid, and intrusive on our rights to liberty, autonomy, and human dignity' -- Justice Leonen's ponencia attracted 9 separate concurring opinions, a high-conviction unanimity gesture.",
+    "Roll call of school mottos: Atenean 'amDg' (Ad majorem Dei gloriam -- to the greater glory of God), Bedan 'Ora et labora' (pray and work), Thomasian 'Veritas' (truth), UP's 'Be brave' -- with CJ as 'just a humble offspring of the Be brave tradition of a nonsectarian university that does not have an incumbent member of the Court.'",
+    "Closing rhetorical question with two options: (a) consistency with St. Thomas More's 'the King's good servant but God's first,' (b) defer to Congress to legislate absolute divorce."
+  ],
+  "target_audience": [
+    "Family-law practitioners and academics",
+    "Religious-school alumni and administrators (especially Ateneo, San Beda, UST)",
+    "Catholic readers concerned with marriage doctrine",
+    "Constitutional and statutory-construction scholars",
+    "Supreme Court watchers tracking Leonen's jurisprudence",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "Opening Q&A frame ('Question: ... 'YES,' THE SUPREME COURT RULED')",
+    "Caps emphasis on direct quotations from Tan-Andal and Pulido ('(Bold types in original)')",
+    "Latin doctrinal vocabulary (void ab initio, in pari materia not used here but related)",
+    "Canonical-civil parallel framing throughout (Canon Law → Family Code)",
+    "Acronym IMHO as humility marker on dissenting view",
+    "Roll-call of institutional mottos in a single paragraph (amDg, Ora et labora, Veritas, Be brave)",
+    "Rhetorical-question closer offering alternative path",
+    "Au-contraire-adjacent dissent register ('Alternatively, instead of mangling the canonical PI...')",
+    "Direct citation: 'Pulido v. People (July 27, 2021),' 'Santos v. Court of Appeals (Jan. 4, 1995),' 'Republic v. Molina (Feb. 13, 1997),' 'Tan-Andal v. Andal (May 11, 2021)'",
+    "Self-positioning ('I am just a humble offspring of the Be brave tradition')"
+  ],
+  "decision_framework_signals": [
+    "uses doctrinal-genealogy framing to argue from origin (Canon Law) to scope of permissible interpretation",
+    "applies functional-equivalence test: if new PI proceedings act like divorce, treat the change as substantive law-creation",
+    "applies separation-of-powers deference: judicial doctrinal innovation is improper where legislature has not acted",
+    "uses institutional-creed accountability (school mottos) to surface implicit consistency questions for the jurists",
+    "distinguishes criminal-defense scope (Pulido's void-ab-initio holding) from civil-effects scope (where judicial declaration remains required)",
+    "uses Q&A then 'YES'-then-qualifier rhythm to teach the legal rule before stating personal evaluation"
+  ],
+  "one_paragraph_summary": "Panganiban opens with the Family Code Article 40 puzzle -- whether an accused can be acquitted of bigamy without a prior judicial declaration of the first marriage's nullity -- and reports that the Supreme Court answered YES en banc in Pulido v. People (July 27, 2021), penned by Justice Hernando with three separate concurring opinions, using the chicken-and-egg facts of Luisito (a 16-year-old who married his 22-year-old teacher Nora in 1983, then Rowena in 1995, was convicted of bigamy in 2009, and saw the second marriage independently declared void shortly after). The judicial declaration is now required only 'for purposes of remarriage' and for civil-rights determinations (heirship, legitimacy, estates, property regimes). The column then pivots to Psychological Incapacity, tracing its doctrinal arc from Santos v. CA (1995) -- which adopted the canonical characteristics of gravity, juridical antecedence, and incurability -- through Republic v. Molina (1997), whose guidelines were sourced from amicus Archbishop Oscar V. Cruz of the Church's National Appellate Matrimonial Tribunal, to Tan-Andal v. Andal (May 11, 2021), Justice Leonen's unanimous ponencia (with nine separate concurring opinions) that denounced Santos and Molina as 'restrictive, rigid, and intrusive on our rights to liberty, autonomy, and human dignity' and eliminated the expert-evidence requirement. In CJ's IMHO, the resulting proceedings are 'strikingly similar to absolute divorce in many jurisdictions,' and he poses a pointed shame-by-creed question to the religious-school alumni jurists who joined Tan-Andal: is the result consistent with St. Thomas More's 'the King's good servant but God's first,' with the Atenean 'amDg,' the Bedan 'Ora et labora,' and the Thomasian 'Veritas'? As 'just a humble offspring of the Be brave tradition of a nonsectarian university that does not have an incumbent member of the Court,' he declines to answer and closes by asking whether the Court should instead have waited for Congress to legislate absolute divorce -- if that be the sovereign will -- rather than mangling the canonical PI doctrine to achieve the same effect.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

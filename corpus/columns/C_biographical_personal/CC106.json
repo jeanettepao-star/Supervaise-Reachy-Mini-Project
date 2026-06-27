@@ -1,0 +1,161 @@
+{
+  "id": "CC106",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 106,
+  "title": "What retired SC justices do",
+  "date": "2014-01-04",
+  "link": "https://opinion.inquirer.net/68811/what-retired-sc-justices-do",
+  "keywords": [
+    "Supreme Court",
+    "judicial interpretation",
+    "liberty and prosperity",
+    "constitution",
+    "rule of law"
+  ],
+  "primary_topics": [
+    "Manila Memorial Park v. DSWD (Dec 3 2013, J. Mariano C. del Castillo ponente) -- 20-percent senior-citizen discount constitutionality",
+    "Broad coverage of discount -- hotels, restaurants, recreation centers, medicine, funeral/burial, theaters/cinema/concert halls, circuses/carnivals, medical/dental services",
+    "Legislative evolution -- RA 7432 (April 23 1992, tax credit, government bears full discount) → RA 9257 (Feb 26 2004, tax deduction, sellers bear 68% + government bears 32%) at BIR initiative",
+    "Justices unanimous on discount constitutionality but divided on cost-bearing",
+    "Police-power justification + seller-recoupment-via-non-senior-price-increases reasoning",
+    "Concurring opinions roster -- Velasco, Bersamin, Leonen (concurring and dissenting)",
+    "J. Carpio vigorous dissent -- eminent-domain framing, just-compensation argument, advocates RA 9257 unconstitutional + RA 7432 revival",
+    "Spirit-of-Christmas postscript on Sandiganbayan order allowing GMA family Christmas/New-Year visits at Veterans Memorial Medical Center"
+  ],
+  "sub_topics": [
+    "Discount-scope verbatim quotation from RA 9257",
+    "38-page del Castillo ponencia + 15 justices unanimous on discount-constitutionality",
+    "Police power 'regulate or restrain the use of liberty or property for public welfare' provided not 'unreasonable, oppressive or confiscatory'",
+    "Seller-recoupment reasoning: nothing prevents sellers from recouping subsidies by increasing prices for non-seniors",
+    "Preferential treatment justification -- seniors less likely gainfully employed, more prone to illnesses/disabilities, need subsidy",
+    "Carpio's eminent-domain argument: state forcibly taking part of purchase price from private sellers without payment of just compensation",
+    "Carpio's prescription -- RA 9257 unconstitutional, RA 7432 revived",
+    "CJP signals follow-up column on philosophical-sociological mindset on law-vs-economics and FLP",
+    "Spirit-of-Christmas postscript: SBN order allowing GMA family visits at Veterans Memorial Medical Center",
+    "Three-justification framework for GMA family visits -- presumption of innocence + pending bail petition + frail health (three life-threatening surgeries, metal-brace spine, mental stress) + minimal-escape-risk + Lord-of-Peace reconciliation framing"
+  ],
+  "signature_phrases": [
+    "The Supreme Court assured a Merry Christmas for our senior citizens",
+    "affirmed the constitutionality and mandatory character of the 20-percent discount",
+    "hotels and similar lodging establishments, restaurants and recreation centers, medicine, funeral and burial services, theaters, cinema houses and concert halls, circuses, carnivals and other similar places of culture, leisure and amusement, medical and dental services",
+    "Who bears discount?",
+    "Ably penned by Justice Mariano C. del Castillo, the 15 justices were unanimous in being magnanimous to the seniors, but were divided on who shall shoulder the cost",
+    "Stripped of legalese, the sellers bore 68 percent of the discount, and the government, 32 percent",
+    "Legal justifications",
+    "police power of the state",
+    "regulate or restrain the use of liberty or property for public welfare",
+    "not unreasonable, oppressive or confiscatory",
+    "nothing prevents the sellers from recouping their subsidies to seniors by increasing their prices for the nonseniors",
+    "improve the welfare of senior citizens who, at their age, are less likely to be gainfully employed",
+    "vigorous dissent from Senior Justice Antonio T. Carpio",
+    "the state is actually forcibly taking a part of the purchase price from the private sellers without payment of just compensation",
+    "under the power of eminent domain, private property cannot be taken without the payment of just compensation",
+    "This case is important not only because it upheld the 20-percent senior-citizen discount but also because it disclosed the justices' philosophical and sociological mindset",
+    "the case deserves another column to discuss the magistrates' views vis-à-vis my own legal philosophy of liberty and prosperity under the rule of law",
+    "Spirit of Christmas",
+    "On legal and humanitarian grounds, I agree with the Sandiganbayan's order",
+    "she still enjoys the constitutional presumption of innocence",
+    "Medically, she is not over the hump",
+    "In the spirit of peace and reconciliation commemorating the birth of the Lord of Peace, I believe President Arroyo deserves to enjoy the love and comfort of her family"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "J. Mariano C. del Castillo (ponente, 38-page ponencia)",
+      "J. Presbitero J. Velasco Jr. (concurring opinion)",
+      "J. Lucas P. Bersamin (concurring opinion)",
+      "J. Mario Victor F. Leonen (concurring and dissenting opinion)",
+      "Senior J. Antonio T. Carpio (vigorous dissent)",
+      "Former President Gloria Macapagal-Arroyo (Christmas-visit postscript)"
+    ],
+    "institutions": [
+      "Supreme Court",
+      "Department of Social Welfare and Development (DSWD -- respondent)",
+      "Manila Memorial Park (petitioner)",
+      "Bureau of Internal Revenue (BIR -- RA 9257 initiative)",
+      "Sandiganbayan (GMA-detention order)",
+      "Veterans Memorial Medical Center (GMA detention facility)"
+    ],
+    "cases": [
+      "Manila Memorial Park v. DSWD (Dec 3 2013, J. del Castillo ponente) -- 20% senior-citizen discount constitutional"
+    ],
+    "laws_treaties": [
+      "RA 7492 / RA 7432 (April 23 1992) -- original tax-credit framework, government bears full 20% discount",
+      "RA 9257 (Feb 26 2004) -- tax-deduction framework, sellers bear 68% + government 32%",
+      "RA 9994 (referenced as later seniors law)",
+      "1987 Constitution -- police power, eminent-domain, presumption of innocence, bail clause",
+      "Anti-Graft Law and Plunder Law (GMA-detention context)"
+    ],
+    "events": [
+      "Dec 3 2013 SC Manila Memorial Park v. DSWD decision",
+      "Sandiganbayan order allowing GMA Christmas/New-Year family visits"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The 15 justices were unanimous in being magnanimous to the seniors (upholding the 20% discount), but divided on who shoulders the cost -- del Castillo's majority allowed sellers to bear 68% via tax deduction and government 32% via foregone corporate income tax, justified by police power to regulate liberty/property for public welfare not unreasonable, oppressive or confiscatory, with sellers free to recoup via non-senior price increases.",
+      "rhetorical_move": "unanimous-on-discount-divided-on-cost framing",
+      "confidence": "asserted as Court ruling"
+    },
+    {
+      "claim": "Carpio's vigorous dissent argues government should shoulder the full cost: the discount is not a voluntary sales discount but state forcibly taking part of the purchase price from private sellers without just compensation -- under eminent domain private property cannot be taken without just compensation, so RA 9257 should be declared unconstitutional and RA 7492 (the original tax-credit framework) should be revived.",
+      "rhetorical_move": "eminent-domain reframing of the discount",
+      "confidence": "stated as Carpio's position (CJP signals follow-up rather than endorsing or rejecting)"
+    },
+    {
+      "claim": "The case is important not only for upholding the discount but for disclosing the justices' philosophical and sociological mindset on the role of law in economics, finance, and business -- the case deserves another column on the magistrates' views vis-à-vis Panganiban's own legal philosophy of liberty and prosperity under the rule of law.",
+      "rhetorical_move": "FLP signal-forward for follow-up column",
+      "confidence": "signaled as forthcoming"
+    },
+    {
+      "claim": "On legal and humanitarian grounds, the Sandiganbayan's order allowing GMA family visits at Veterans Memorial Medical Center for Christmas and New Year's Day deserves agreement -- three justifications: presumption of innocence (no conviction), pending bail petition (evidence not yet ruled strong), frail health (three life-threatening surgeries, metal-brace spine subject to slippage), with minimal escape risk and short-duration visits, in the spirit of peace and reconciliation commemorating the birth of the Lord of Peace.",
+      "rhetorical_move": "three-justification + Lord-of-Peace humanitarian framing",
+      "confidence": "asserted as CJP's personal position"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 68%/32% cost-allocation arithmetic -- sellers bear 68% via tax deduction (vs full tax credit), government bears 32% via foregone corporate income tax -- the column's central technical insight stripped of legalese.",
+    "Carpio's eminent-domain reframing as 'forcibly taking part of the purchase price from private sellers without just compensation' -- a sharp doctrinal reconceptualization of what looks like a regulatory measure.",
+    "The seller-recoupment reasoning -- 'nothing prevents the sellers from recouping their subsidies to seniors by increasing their prices for the nonseniors' -- the Court's most pragmatic-economic justification, captured as a passing aside but revealing.",
+    "The four-justice opinion roster (del Castillo majority + Velasco concurrence + Bersamin concurrence + Leonen concurring-and-dissenting + Carpio dissent) compressed into a single paragraph as a glimpse of internal Court divisions.",
+    "The Spirit-of-Christmas postscript -- applying CJP's three-justification humanitarian framework (presumption of innocence + pending bail + frail health) to defend GMA's holiday family visits in the spirit of the Lord of Peace -- a striking CJP move toward a politically polarizing detainee within a column about senior-citizen discounts.",
+    "GMA medical detail -- 'Medically, she is not over the hump, as the metal brace surgically installed on her spine could slip at any time and may result in severe nerve injury, if not death' -- clinical precision rare in CJP's columns."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Senior citizens and their families (the Merry-Christmas audience)",
+    "Restaurant/drugstore/funeral-parlor owners (sellers bearing 68%)",
+    "Tax lawyers and economists (cost-allocation dimension)",
+    "Constitutional law scholars (police-power vs eminent-domain framing)",
+    "GMA partisans and detractors (Christmas-visit postscript)",
+    "Catholic readers (Lord-of-Peace humanitarian framing)"
+  ],
+  "register_markers": [
+    "Merry Christmas seasonal opening",
+    "Who bears discount? section-header rhetorical-question",
+    "Ably penned by Justice Mariano C. del Castillo opinion-craftsmanship register",
+    "Stripped of legalese stripped-of-jargon register",
+    "Legal justifications section header",
+    "vigorous dissent from Senior Justice Antonio T. Carpio opinion-roster register",
+    "This case is important not only because it upheld FLP-signal-forward register",
+    "* * * section-break separator",
+    "Spirit of Christmas humanitarian-postscript header",
+    "On legal and humanitarian grounds personal-position register",
+    "First, / Second, / Third sequential-justification scaffolding for GMA-visit postscript",
+    "Lord of Peace Catholic-seasonal closing"
+  ],
+  "decision_framework_signals": [
+    "uses unanimous-on-discount-divided-on-cost analytical split",
+    "applies police-power-not-unreasonable-oppressive-confiscatory standard from majority",
+    "deploys seller-recoupment-via-non-senior-price-increases pragmatic-economic reasoning",
+    "states Carpio's eminent-domain reframing (state-taking-without-just-compensation) without endorsing or rejecting",
+    "signals FLP follow-up column on philosophical-sociological mindset on law-vs-economics",
+    "applies three-justification humanitarian framework (presumption of innocence + pending bail + frail health) to GMA-visit postscript",
+    "closes postscript with Lord-of-Peace reconciliation register"
+  ],
+  "one_paragraph_summary": "Panganiban reports the Supreme Court's Manila Memorial Park v. DSWD (Dec 3 2013, J. Mariano C. del Castillo ponente) decision affirming the constitutionality and mandatory character of the 20-percent senior-citizen discount on a broad range of purchases (hotels, restaurants, recreation centers, medicine, funeral and burial services, theaters, cinema houses, concert halls, circuses, carnivals, medical and dental services). The 15 justices were unanimous on the discount but divided on cost-bearing. He traces the legislative evolution: under the original RA 7492 (April 23 1992), the government bore the full discount via tax credit; at BIR initiative RA 9257 (Feb 26 2004) treated it as a tax deduction, leaving sellers to bear 68 percent and the government 32 percent (foregone corporate income tax). The majority justified this with police power to regulate liberty/property for public welfare provided not unreasonable, oppressive or confiscatory, noting that nothing prevents sellers from recouping their subsidies by increasing non-senior prices. The 38-page del Castillo ponencia drew lively concurring opinions from Velasco and Bersamin, a novel concurring-and-dissenting opinion from Leonen, and a vigorous dissent from Senior Justice Antonio T. Carpio, who argued the government should shoulder the full cost: the discount is not voluntary but state forcibly taking part of the purchase price from private sellers without just compensation -- under eminent domain, private property cannot be taken without just compensation, so RA 9257 should be declared unconstitutional and the original RA 7492 tax-credit framework should be revived. Panganiban flags that the case is important not only for upholding the discount but for disclosing the justices' philosophical and sociological mindset on the role of law in economics, finance, and business -- deserving another column on those views vis-à-vis his own legal philosophy of liberty and prosperity under the rule of law. He appends a Spirit-of-Christmas postscript agreeing on legal and humanitarian grounds with the Sandiganbayan's order allowing former President Gloria Macapagal-Arroyo's family to visit and stay with her at the Veterans Memorial Medical Center on Christmas and New Year's Day. Three justifications: she has not been convicted (constitutional presumption of innocence still applies); her bail petition is still pending (evidence has not been ruled strong); and she suffers from frail health (three life-threatening surgeries, metal brace surgically installed on her spine that could slip at any time causing severe nerve injury or death) plus mental stress, with minimal escape risk and short-duration well-guarded visits. In the spirit of peace and reconciliation commemorating the birth of the Lord of Peace, he believes President Arroyo deserves to enjoy the love and comfort of her family.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

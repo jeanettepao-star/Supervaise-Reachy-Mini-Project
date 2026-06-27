@@ -1,0 +1,184 @@
+{
+  "id": "CE057",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 57,
+  "title": "Triumph of American democracy",
+  "date": "2021-01-10",
+  "link": "https://opinion.inquirer.net/136863/triumph-of-american-democracy",
+  "keywords": [
+    "Trump shenanigans",
+    "Biden certification",
+    "306-232 Electoral College",
+    "Raffensperger",
+    "Pence rebuff",
+    "10 former defense secretaries",
+    "Scotus appointee votes",
+    "PH-vs-US electoral safeguards"
+  ],
+  "primary_topics": [
+    "Congressional certification of Biden's 306-232 Electoral College victory despite Trump's chaos",
+    "Inventory of Trump's political shenanigans (Mike Flynn martial-law call; Raffensperger call; pressure on Pence)",
+    "Structural comparison of US and PH electoral systems (US has no Comelec, no PPCRV/Namfrel, no Presidential Electoral Tribunal)",
+    "Examples of US institutional resistance to Trump (Raffensperger's defiance; Pence's rebuff; 10 living former defense secretaries' letter; Scotus appointees' votes)",
+    "Concluding question: can the Philippines achieve the same credibility?"
+  ],
+  "sub_topics": [
+    "Federal and state courts and the Supreme Court of the United States dismissing Trump's 50+ post-election suits",
+    "Trump's denunciation of absentee voting while himself using a Florida absentee ballot",
+    "Mike Flynn's unprecedented call for martial law and re-staging of the 2020 election",
+    "Trump's call to Raffensperger to 'find 11,780 votes' to overturn Biden's 11,779-vote Georgia lead with criminal-charge threats",
+    "Trump's request that VP Pence undermine congressional certification",
+    "US lacks: independent nonpartisan Comelec equivalent; privately-run nonpartisan election watchdogs (PPCRV, Namfrel)",
+    "50 states regulate their own elections; usually elected partisan secretary of state (or appointed by partisan governor)",
+    "US lacks Presidential Electoral Tribunal / Senate & House Electoral Tribunals -- once results certified, the polls are deemed finished",
+    "Georgia ballots counted three times (last manual, at Trump's request); same result",
+    "Jan 5, 2021 Georgia Senate runoff: two Democrats vs two incumbent Republicans; gives Kamala Harris the tie-breaking 50-50 vote",
+    "Pence's textual response: 'The Constitution constrains me from claiming unilateral authority...'",
+    "10 living former US secretaries of defense (two from Trump's term) declaring no military role in resolving the election",
+    "Three Trump appointees in Scotus dismissing Trump's suit on short shrift"
+  ],
+  "signature_phrases": [
+    "Despite the baseless legal suits, shameless political shenanigans, chaotic mobs, and incited rioters",
+    "fitting conclusion",
+    "the dismissal by federal and state courts, including the Supreme Court of the United States (Scotus), of Trump's over 50 suits",
+    "My limited space bars me from detailing these baseless cases",
+    "the political shenanigans are even more aplenty",
+    "ironically, he later availed himself of an absentee ballot in Florida",
+    "His shenanigans turned disturbing when Mike Flynn",
+    "find 11,780 votes",
+    "Biden's lead of 11,779 votes",
+    "with threats of criminal charges if he refused his demand",
+    "to undermine the congressional certification",
+    "Unlike us, the US does not have an independent and nonpartisan Commission on Elections",
+    "Parish Pastoral Council for Responsible Voting and the National Citizens' Movement for Free Elections",
+    "absence of standard operating procedures in the casting, counting, and canvassing of ballots",
+    "the chief election officer (usually the secretary of state) is an elected partisan official",
+    "Despite its obvious lack of constitutional safeguards and private sentinels",
+    "Trump's recent fiendishness notwithstanding",
+    "They do not invent facts to suit their political biases",
+    "Raffensperger who firmly stood his ground",
+    "'President Trump... We don't agree that you have won.'",
+    "the result was the same: Biden won in that traditionally Republican bailiwick",
+    "Exemplary, too, was VP Pence's rebuff",
+    "The Constitution constrains me from claiming unilateral authority",
+    "10 living former US secretaries of defense (two of whom served during Trump's presidency)",
+    "no role for the military in resolving any controversy surrounding it",
+    "the affirmative vote of the three Trump appointees in the Scotus dismissing on short shrift",
+    "First, without constitutional safeguards and private sentinels",
+    "Second, Trump did his worst; still, American democracy prevailed",
+    "Can we do the same?"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Donald J. Trump",
+      "Joseph R. Biden Jr.",
+      "Kamala D. Harris",
+      "Michael T. Flynn",
+      "Brad Raffensperger (Georgia Secretary of State)",
+      "Michael R. Pence (US Vice President)"
+    ],
+    "institutions": [
+      "United States Congress",
+      "Supreme Court of the United States (Scotus)",
+      "US Electoral College",
+      "United States Senate (50-50 split)",
+      "10 living former US Secretaries of Defense (collective signatory)",
+      "Commission on Elections (Philippines)",
+      "Parish Pastoral Council for Responsible Voting (PPCRV)",
+      "National Citizens' Movement for Free Elections (Namfrel)",
+      "Presidential Electoral Tribunal (Philippines)",
+      "Senate and House Electoral Tribunals (Philippines)",
+      "Georgia state government"
+    ],
+    "cases": [
+      "Over 50 Trump post-election suits dismissed by federal/state courts and the Scotus"
+    ],
+    "laws_treaties": [
+      "US Constitution (Electoral College certification; presidential succession)"
+    ],
+    "events": [
+      "Congressional certification of Biden as 46th US president (Jan 6/7, 2021)",
+      "Trump's Raffensperger phone call",
+      "Trump's pressure on VP Pence",
+      "Mike Flynn's martial-law and re-staging call",
+      "Jan 5, 2021 Georgia Senate runoff (Democrats win both)",
+      "Letter from 10 former US defense secretaries",
+      "Three Trump appointees' Scotus vote against Trump's suit"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Despite Trump's baseless suits, shameless shenanigans, chaotic mobs, and incited rioters, Congress certified Biden as the new president -- a 'fitting conclusion' to the dismissal of Trump's 50+ post-election suits by federal and state courts including the Scotus.",
+      "rhetorical_move": "triumphant headline-thesis",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Trump's political shenanigans escalated through Mike Flynn's martial-law call, the Raffensperger 'find 11,780 votes' demand with criminal-charge threats, and the request that Pence undermine the congressional certification -- but none succeeded.",
+      "rhetorical_move": "shenanigan-inventory escalation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Unlike the Philippines, the US lacks an independent nonpartisan Comelec equivalent, privately-run nonpartisan election watchdogs (PPCRV, Namfrel), and a Presidential Electoral Tribunal; 50 states regulate their own elections, and chief election officers are usually elected partisan officials.",
+      "rhetorical_move": "comparative-structural critique",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Despite these obvious structural gaps, US elections have been comparatively peaceful, orderly, and credible -- because partisan election officers nonetheless faithfully follow election laws and do not invent facts to fit their political biases (Raffensperger as the example).",
+      "rhetorical_move": "institutional-culture compensates for structural gap",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Concrete examples of US institutional resistance: Raffensperger's defiance; Pence's textual constitutional rebuff; the 10 living former defense secretaries' joint letter blocking any military intervention; the affirmative vote of three Trump-appointed Scotus justices dismissing Trump's suit on short shrift.",
+      "rhetorical_move": "enumerated-resistance examples",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "First, without constitutional safeguards or private sentinels, the US held a credible election sans lengthy post-election protests; second, Trump did his worst and American democracy still prevailed -- and the question is: 'Can we do the same?'",
+      "rhetorical_move": "two-point summary + interrogative challenge close",
+      "confidence": "asserted with open question"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Raffensperger numerical detail -- Trump asking him to 'find 11,780 votes' to overturn Biden's 'lead of 11,779 votes' (i.e., flip by exactly one ballot) with threats of criminal charges if he refused -- the most damning single political fact in the column, the precise arithmetic of the demand exposing its naked illegitimacy.",
+    "The triple-count Georgia detail -- 'ballots had been counted three times, the last one, manually, at Trump's request, and the result was the same' -- a quiet refutation through procedural exhaustiveness.",
+    "Raffensperger's direct quote -- 'President Trump... We don't agree that you have won' -- embedded as the column's central institutional resistance line.",
+    "Pence's constitutional self-restraint -- 'The Constitution constrains me from claiming unilateral authority to determine which electoral votes should be counted and which should not' -- set up as the Vice President textually rebuking his own President's request.",
+    "The 10 former defense secretaries' joint letter (with two Trump-era signatories) -- explicitly preempting any military intervention in the electoral controversy -- used to illustrate cross-administration institutional unity.",
+    "The three Trump-appointed Scotus justices voting to dismiss Trump's suit 'on short shrift' -- the structurally most embarrassing single fact for Trump, his own appointees refusing the favor.",
+    "The closing interrogative -- 'Can we do the same?' -- pointed back at the Philippine reader, turning a column about the US into a domestic challenge."
+  ],
+  "target_audience": [
+    "Filipino observers of US politics in transition",
+    "Election-administration officials and reform advocates",
+    "Constitutional-law scholars",
+    "Civic-minded readers tracking democratic institutional resilience",
+    "Inquirer general readership",
+    "PPCRV/Namfrel volunteer networks"
+  ],
+  "register_markers": [
+    "triumphant headline-thesis ('Triumph of American democracy')",
+    "shenanigan-inventory escalation register",
+    "comparative-structural critique with PH-vs-US institution-by-institution mapping",
+    "direct quotation of Raffensperger and Pence",
+    "ordinal closing summary ('First... Second...')",
+    "interrogative challenge close ('Can we do the same?')",
+    "'fiendishness' as character marker for Trump",
+    "'Unlike us' as comparative-pivot phrase",
+    "no Tagalog markers; civic-comparative English"
+  ],
+  "decision_framework_signals": [
+    "applies comparative-structural critique (US lacks Comelec/PPCRV/Namfrel/PET) to highlight what Philippine institutions provide",
+    "uses the 'institutional culture compensates for structural gaps' diagnostic (partisan officials still followed law in the US)",
+    "applies enumerated-resistance examples (Raffensperger, Pence, defense secretaries, Trump-appointed Scotus) as illustrations of institutional-fidelity-under-pressure",
+    "uses the 'baseline of indisputable facts and laws' principle as the floor against partisan-bias temptation",
+    "treats triple-counted ballots as procedural-exhaustion-as-legitimacy device",
+    "applies cross-administration unity (former defense secretaries from both parties) as a structural civic norm",
+    "ends with comparative-challenge interrogative ('Can we do the same?') as the implicit Philippine reform agenda"
+  ],
+  "one_paragraph_summary": "Despite Trump's baseless suits, shameless shenanigans, chaotic mobs, and incited rioters, the US Congress certified Joe Biden's 306-232 Electoral College victory -- a 'fitting conclusion' to the dismissal of more than 50 Trump post-election suits by federal and state courts including the Supreme Court of the United States. Panganiban inventories the escalating shenanigans: Trump's denunciation of absentee voting while ironically using a Florida absentee ballot; Mike Flynn's unprecedented call for martial law and a re-staging of the 2020 election; the now-infamous Raffensperger call demanding 11,780 votes to flip Biden's 11,779-vote lead in Georgia by a single ballot, with criminal-charge threats; and the request that VP Pence undermine the congressional certification. He then turns to a structural comparison: unlike the Philippines, the US has no independent nonpartisan Comelec, no PPCRV or Namfrel watchdogs, no Presidential Electoral Tribunal -- 50 states regulate their own elections, and chief election officers are usually elected partisan secretaries of state. Yet despite these structural gaps, US elections have been comparatively peaceful, orderly, and credible because partisan officers nonetheless follow the law and do not invent facts to suit their biases. Concrete examples of institutional resistance: Raffensperger's 'President Trump... We don't agree that you have won' after a thrice-counted (once-manually-at-Trump's-request) ballot; the Jan 5 Georgia Senate runoff returning two Democrats and giving VP Harris a 50-50 tie-breaking vote; Pence's textual constitutional rebuff ('The Constitution constrains me from claiming unilateral authority'); the 10 living former US secretaries of defense (two from Trump's own term) declaring no military role in resolving the election; and the affirmative vote of three Trump-appointed Scotus justices dismissing his suit on short shrift. CJ closes with a two-line ordinal summary and a comparative challenge to the Philippine reader: without constitutional safeguards or private sentinels, the US still produced a credible election; Trump did his worst, and American democracy still prevailed -- 'Can we do the same?'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,158 @@
+{
+  "id": "CA214",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 214,
+  "title": "Q&A on cyberlibel",
+  "date": "2020-06-28",
+  "link": "https://opinion.inquirer.net/131235/qa-on-cyberlibel",
+  "keywords": [
+    "cyberlibel",
+    "Maria Ressa",
+    "Disini v. SOJ",
+    "ICCPR",
+    "public figure",
+    "actual malice"
+  ],
+  "primary_topics": [
+    "Whether libel and cyberlibel are 'one and the same crime' (Disini v. SOJ misread)",
+    "Why cyberlibel is more obnoxious and merits heavier penalty",
+    "Constitutionality of cyberlibel under Disini and the ICCPR",
+    "Wilfredo Keng's status as public figure and the actual malice question"
+  ],
+  "sub_topics": [
+    "Disini v. SOJ (Feb 11, 2014) holding -- cyberlibel valid for original author, void for those who merely receive and react",
+    "Cyberlibel as Article 353/355 libel committed via 'similar means' (computer system)",
+    "Murder/homicide analogy -- same genus (killing of a person) but distinct crimes with different penalties",
+    "Why cyberlibel is more obnoxious: computer technology spreads defamation faster and farther",
+    "International Covenant on Civil and Political Rights -- truth defense, special-duties-and-responsibilities caveat",
+    "UN Human Rights Committee did not enjoin PH to decriminalize libel",
+    "Wilfredo Keng's Forbes ranking ('Top 40 Richest'), 'low-key figure with a massive fortune' description, scholarship and sports donations (P2M/year)",
+    "Judge Montesa's actual-malice finding (knowledge of falsity or reckless disregard for truth)",
+    "Three evidence pillars: Santos wrote without verification; contrary to Rappler's testified standard (Hofileña); seven-month refusal to publish Keng's side",
+    "Prescription as next-Sunday topic"
+  ],
+  "signature_phrases": [
+    "My email inbox was peppered with questions",
+    "cyberlibel is actually not a new crime",
+    "online defamation constitutes 'similar means' for committing libel",
+    "they may belong to the same genre of crimes penalizing defamation",
+    "Homicide is the killing of a person. Murder is also the killing of a person, but is a separate crime that carries a heavier penalty",
+    "qualified by evident premeditation, or treachery",
+    "qualified by the use of 'a computer system or similar means,' which makes it more obnoxious",
+    "to unjustly ruin the reputation of [and/or to bully] another",
+    "VALID and CONSTITUTIONAL with respect to the original author of the post",
+    "VOID and UNCONSTITUTIONAL with respect to others who simply receive the post and react to it",
+    "under the condition that the accused has been prompted in making the statement by good motives and for justifiable ends",
+    "did not actually enjoin the Philippines... to decriminalize libel",
+    "defamation laws be crafted with care to ensure that they do not stifle freedom of expression",
+    "carries with it special duties and responsibilities",
+    "ACTUAL, in addition to PRESUMED, MALICE",
+    "Santos wrote the subject article sans verification",
+    "stressing... accuracy, truth telling, fairness and balance",
+    "fairness and balance is all about getting the other side of the story",
+    "more urgent news at the time",
+    "Ressa and Reynaldo Santos Jr., to repeat last Sunday's column, should have taken the witness stand",
+    "Prescription simply means that the accused (even if guilty) can no longer be penalized due to the passing of time",
+    "I have no more space now. I will explain 'how' next Sunday"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Maria Ressa",
+      "Reynaldo Santos Jr.",
+      "Wilfredo Keng",
+      "Chay Hofileña (Rappler defense witness)",
+      "Judge Rainelda H. Estacio-Montesa",
+      "Unnamed Disini v. SOJ critics"
+    ],
+    "institutions": [
+      "Rappler",
+      "Supreme Court of the Philippines",
+      "UN Human Rights Committee",
+      "Forbes Magazine (Keng's 'Top 40 Richest' source)"
+    ],
+    "cases": [
+      "Disini v. SOJ (Feb 11, 2014) -- constitutionality of cyberlibel; valid for original author, void for those merely reacting"
+    ],
+    "laws_treaties": [
+      "Revised Penal Code Articles 353 and 355 (libel)",
+      "Cybercrime Prevention Act of 2012",
+      "International Covenant on Civil and Political Rights (ICCPR)"
+    ],
+    "events": [
+      "Feb 11, 2014 -- Disini v. SOJ decision",
+      "Reader email Q&A on prior week's cyberlibel column"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Critics misread Disini v. SOJ (Feb 11, 2014) when they claim it held libel and cyberlibel are 'really one and the same crime' -- the decision held only that cyberlibel is not a NEW crime since Article 353/355 already punishes libel and that cyberlibel involves 'similar means'; this was constitutional reasoning, not a holding on identity-of-offense or unity-of-prescription.",
+      "rhetorical_move": "close-reading rebuttal (correcting a popular misreading of a constitutional case)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Libel and cyberlibel belong to the same genre of defamation crimes but are different and distinct offenses -- the murder/homicide analogy clarifies: both are the killing of a person, but murder is qualified by treachery or premeditation and carries a heavier penalty; cyberlibel is defamation qualified by computer technology, making it more obnoxious because it spreads farther and faster.",
+      "rhetorical_move": "genus-species analogy (murder/homicide as teaching frame for libel/cyberlibel)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Cyberlibel is constitutional only for the original author of the post -- VOID and UNCONSTITUTIONAL for those who merely receive and react to it -- establishing that liability does not flow to commenters, sharers, or reactors.",
+      "rhetorical_move": "Disini-doctrine restatement (clean summary of the constitutional architecture)",
+      "confidence": "asserted with case citation"
+    },
+    {
+      "claim": "PH libel/cyberlibel laws do NOT violate the ICCPR because the Penal Code recognizes truth as a defense subject to good-motives-and-justifiable-ends qualification, and the UN Human Rights Committee did not enjoin PH to decriminalize libel -- it only suggested careful crafting so as not to stifle freedom of expression, which 'carries with it special duties and responsibilities.'",
+      "rhetorical_move": "international-law-compatibility argument (using ICCPR text and UNHRC posture to defend domestic libel regime)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Even assuming Wilfredo Keng has attained 'public figure' status (Forbes Top 40, scholarship and sports donations of ~P2M/year), Judge Montesa found ACTUAL malice in addition to PRESUMED malice -- based on (a) Santos writing without verification, (b) violation of Rappler's own accuracy/truth/fairness/balance standard as testified by defense witness Hofileña, and (c) seven months of refusing to publish Keng's side; only by testifying could Ressa and Santos have rebutted this and secured outright acquittal.",
+      "rhetorical_move": "even-if-arguendo concession + three-evidence rebuttal-mapping (taking the strongest defense premise and showing why it still fails)",
+      "confidence": "asserted from trial-court record"
+    },
+    {
+      "claim": "Prescription -- even of a guilty defendant -- simply means that the passage of time bars further penalization; how that applies to Ressa's case will be explained in the next Sunday column.",
+      "rhetorical_move": "definitional teaser (closing one column with the conceptual setup for the next)",
+      "confidence": "definitional"
+    }
+  ],
+  "notable_anecdotes": [
+    "The murder/homicide analogy -- 'Homicide is the killing of a person. Murder is also the killing of a person, but is a separate crime that carries a heavier penalty' -- one of CJ's cleanest pedagogical analogies, deployed to clarify the libel/cyberlibel relationship in two lines.",
+    "The 'more obnoxious' framing repeated three times (Q2, Q3) -- turning the heavier-penalty rationale into a moral as well as legal claim.",
+    "Wilfredo Keng's specific public-presence indicators -- Forbes 'Top 40 Richest,' 'low-key figure in business with a massive fortune,' scholarship and sports donations of P2M each year -- preserved verbatim from Keng's own testimony to dramatize the public-figure question.",
+    "The three pillars of actual-malice evidence (Santos wrote without verification; contrary to Rappler's own standard as testified by Hofileña; seven-month refusal to publish Keng's side) -- making this column the cleanest single-paragraph summary of the trial court's malice finding.",
+    "Defense witness Hofileña's testimony being used AGAINST the defense -- establishing Rappler's own accuracy/truth/fairness standard and showing how Santos's article failed it -- the most damaging self-inflicted single piece of evidence in the case.",
+    "The seven Q/A format itself -- unusual for CJ, demonstrating his stated practice (echoed in C54) of replying to relevant emailed questions."
+  ],
+  "target_audience": [
+    "Readers of the prior week's cyberlibel column with follow-up questions",
+    "Journalists and press freedom advocates",
+    "Legal practitioners interested in cyberlibel doctrine",
+    "Disini v. SOJ critics and constitutional scholars",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "epistolary Q1-Q7 format (numbered question-and-answer architecture)",
+    "ALL-CAPS legal terms ('VALID and CONSTITUTIONAL,' 'VOID and UNCONSTITUTIONAL,' 'ACTUAL, in addition to PRESUMED, MALICE')",
+    "murder/homicide pedagogical analogy",
+    "ICCPR international-law citation as defensive authority",
+    "verbatim trial-court excerpts with parenthetical page numbers ('Pages 19-20')",
+    "explicit cross-reference to last Sunday's column",
+    "next-Sunday teaser ('I have no more space now. I will explain how next Sunday')",
+    "doctrinal-pedagogical register with reader-engagement overlay",
+    "judge-as-name-author ('Judge Rainelda Montesa held that')"
+  ],
+  "decision_framework_signals": [
+    "uses close-reading rebuttal to correct popular misreadings of constitutional cases",
+    "deploys genus-species analogy (murder/homicide) to clarify cyberlibel doctrine",
+    "applies even-if-arguendo concession structure to show why the strongest defense premise still fails",
+    "treats trial-court findings (actual malice via three evidence pillars) as the operative record absent successful testimony",
+    "frames cyberlibel's heavier penalty as 'more obnoxious'-driven rather than arbitrary",
+    "uses ICCPR-compatibility as international-law defense of domestic libel regime"
+  ],
+  "one_paragraph_summary": "Panganiban devotes a Q&A column to seven reader follow-up questions on the previous week's Maria Ressa cyberlibel analysis. He corrects the misreading that Disini v. SOJ (February 11, 2014) held libel and cyberlibel are 'really one and the same crime' -- the case said only that cyberlibel is not a NEW crime, since Article 353/355 already punishes libel and the Cybercrime Law merely affirms that online defamation is 'similar means.' Using a murder/homicide analogy -- both are the killing of a person, but murder is qualified by treachery and carries a heavier penalty -- he explains that libel and cyberlibel belong to the same genre but are distinct offenses, with cyberlibel made 'more obnoxious' by computer technology that spreads defamation farther and faster. He restates Disini's architecture: cyberlibel is VALID and CONSTITUTIONAL for the original author but VOID and UNCONSTITUTIONAL for those who merely receive and react. PH libel laws do not violate the ICCPR because the Penal Code recognizes truth (subject to good-motives qualification) as a defense, and the UN Human Rights Committee did not enjoin decriminalization. Even assuming Wilfredo Keng has attained public-figure status (Forbes 'Top 40 Richest,' scholarship and sports donations of P2M/year), Judge Montesa found ACTUAL malice in addition to PRESUMED malice based on three evidence pillars from the trial record: Santos wrote the article sans verification; this contradicted Rappler's own accuracy/truth/fairness standard as testified by defense witness Chay Hofileña; and Rappler refused for seven months to publish Keng's side despite numerous follow-ups. Only testifying could have rebutted this and secured outright acquittal -- but the accused did not, and were convicted. He closes by defining prescription ('the accused, even if guilty, can no longer be penalized due to the passing of time') and promising the next Sunday's column will explain how it would apply on appeal.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,166 @@
+{
+  "id": "CA170",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 170,
+  "title": "Party substitution extends Oct. 8 deadline",
+  "date": "2021-10-03",
+  "link": "https://opinion.inquirer.net/144840/party-substitution-extends-oct-8-deadline",
+  "keywords": [
+    "Quinto v. Comelec",
+    "RA 9369 Section 13",
+    "appointive officials deemed resigned ipso facto",
+    "elective officials retain office",
+    "certificate of candidacy filing Oct. 1-8",
+    "Comelec Resolution No. 10717",
+    "substitution until Nov. 15",
+    "midday May 9, 2022 same-surname substitution",
+    "8-6 to 10-5 voting reversal",
+    "Nachura decision Dec. 1, 2009",
+    "Puno decision Feb. 22, 2010",
+    "equal protection overbreadth",
+    "political party nomination",
+    "independent candidates barred from substitution",
+    "barangay captains exception",
+    "Grace Poe unexpired term"
+  ],
+  "primary_topics": [
+    "appointive_vs_elective_officials_ipso_facto_resignation",
+    "supreme_court_voting_reversal_on_reconsideration",
+    "election_law_substitution_mechanics",
+    "extension_of_coc_filing_through_party_substitution"
+  ],
+  "sub_topics": [
+    "ra_9369_section_13_constitutionality",
+    "quinto_v_comelec_two_rulings_dec_2009_and_feb_2010",
+    "comelec_resolution_10717_aug_18_2021",
+    "midday_may_9_2022_same_surname_substitution",
+    "no_substitution_for_independent_candidates",
+    "barangay_captains_exception",
+    "second_term_bar_on_third_consecutive_term_lacson_sotto",
+    "grace_poe_unexpired_second_term_safety_net",
+    "court_composition_changes_chico_nazario_retirement",
+    "brion_del_castillo_flip_perez_mendoza_new_appointees"
+  ],
+  "signature_phrases": [
+    "Through substitution, the Oct. 8 deadline for filing COCs is extended to Nov. 15 for candidates of registered political parties",
+    "ipso facto resigned from his office upon the filing of his certificate of candidacy",
+    "The Puno decision is controversial because it completely reversed on reconsideration a decision in the same case rendered less than three months earlier",
+    "JJ Brion and Del Castillo flipped sides",
+    "two new appointees, JJs Perez and Mendoza, voted with CJ Puno",
+    "without need of formally tendering their resignations",
+    "should Senator Manny lose in running for any post other than for reelection to the Senate, he would be jobless after June 30, 2022",
+    "the name of the substitute will be included in the printed automated ballots",
+    "No substitution is allowed for independent candidates",
+    "barangay captains can run for any elective position, like councilor, mayor, etc., without being deemed resigned",
+    "provided the substitute bears the same surname as the substituted candidate"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "CJ Reynato S. Puno (ponente, Feb. 22, 2010)",
+      "JJ Brion, Peralta, Del Castillo, Abad, Villarama, Perez, Mendoza (Puno concurrers)",
+      "JJ Carpio, Carpio Morales (concurring opinions)",
+      "J Antonio Eduardo Nachura (ponente of reversed Dec. 1, 2009 ruling; dissenter Feb. 22, 2010)",
+      "JJ Corona, Velasco, Leonardo-De Castro, Bersamin (Nachura concurrers / Puno dissenters)",
+      "J Minita Chico-Nazario (retired between the two votings)",
+      "President Rodrigo Duterte",
+      "VP Leni Robredo",
+      "Mayor Isko Moreno",
+      "Mayor Sara Duterte",
+      "Sen. Manny Pacquiao",
+      "Sen. Panfilo 'Ping' Lacson",
+      "Senate President Vicente 'Tito' Sotto III",
+      "Sen. Grace Poe"
+    ],
+    "cases": [
+      "Quinto v. Comelec, Dec. 1, 2009 (J Nachura ponente, 8-6; later reversed)",
+      "Quinto v. Comelec, Feb. 22, 2010 (CJ Puno ponente, 10-5)"
+    ],
+    "laws_treaties": [
+      "Republic Act No. 9369, Section 13",
+      "Comelec Resolution No. 10717 (Aug. 18, 2021)",
+      "Constitution (term-limit bar on third consecutive term)"
+    ],
+    "institutions": [
+      "Supreme Court en banc",
+      "Commission on Elections (Comelec)",
+      "Armed Forces of the Philippines",
+      "government-owned or -controlled corporations"
+    ],
+    "places": [
+      "Philippines"
+    ],
+    "dates": [
+      "Dec. 1, 2009 (Nachura decision)",
+      "Feb. 22, 2010 (Puno decision on reconsideration)",
+      "Oct. 1-8, 2021 (COC filing window)",
+      "Aug. 18, 2021 (Comelec Resolution 10717 issuance)",
+      "Nov. 15, 2021 (substitution deadline for ballot inclusion)",
+      "June 30, 2022 (term-end for incumbents)",
+      "May 9, 2022 (Election Day midday cutoff for same-surname substitution)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Puno decision was a controversial 'reversal on reconsideration' explained largely by Court composition shifts (Chico-Nazario retiring, Brion and Del Castillo flipping, two new appointees siding with Puno).",
+      "rhetorical_move": "Forensic arithmetic -- names the actual vote-flippers and seat changes to demystify how 8-6 became 10-5.",
+      "confidence": "high -- sourced directly to the two decisions"
+    },
+    {
+      "claim": "Party substitution effectively extends the Oct. 8 COC filing deadline to Nov. 15 for candidates of registered political parties.",
+      "rhetorical_move": "Reframes the formal deadline as functionally porous -- the column's organizing thesis stated in the title.",
+      "confidence": "high -- descriptive of operative rules"
+    },
+    {
+      "claim": "Independent candidates and post-Nov-15 withdrawals fall outside the substitution regime; only death or final disqualification (with same-surname substitute) extends substitution to midday May 9, 2022.",
+      "rhetorical_move": "Crisp enumeration of the narrow exceptions to the substitution cutoff.",
+      "confidence": "high -- direct reading of Comelec Resolution 10717"
+    },
+    {
+      "claim": "Sen. Manny Pacquiao would be 'jobless after June 30, 2022' if he loses a non-reelection bid, unlike Sen. Grace Poe whose unexpired term provides a safety net.",
+      "rhetorical_move": "Politician-specific illustration of the asymmetry built into mid-term electoral arithmetic.",
+      "confidence": "high -- pure statutory application"
+    }
+  ],
+  "notable_anecdotes": [
+    {
+      "description": "Forensic explanation of how the 8-6 Nachura ruling became the 10-5 Puno reversal: J Chico-Nazario retired (subtracting from Nachura's column); JJ Brion and Del Castillo flipped sides; two new appointees, JJ Perez and Mendoza, voted with CJ Puno.",
+      "purpose": "Demonstrates that doctrinal reversals can be a function of Court composition as much as legal reasoning."
+    },
+    {
+      "description": "Hypothetical XYZ Party presidential bet who files COC on Oct. 8, withdraws, and is substituted by another XYZ aspirant up to Nov. 15.",
+      "purpose": "Concrete walk-through of the title thesis -- that party substitution functionally extends the deadline."
+    },
+    {
+      "description": "Side-by-side hypothetical: Pacquiao loses → jobless after June 30, 2022; Grace Poe loses → continues serving unexpired second senatorial term.",
+      "purpose": "Politician-named illustration of which incumbents enjoy 'safety nets' and which do not."
+    },
+    {
+      "description": "Barangay captains can run for any elective position without being deemed resigned -- narrow exception sometimes overlooked.",
+      "purpose": "Reminds readers that the elective/appointive divide has its own embedded carve-outs."
+    }
+  ],
+  "target_audience": {
+    "primary": "Politicians, party officers, and election lawyers tracking COC filing and substitution windows",
+    "secondary": "Inquirer readers preparing to vote in May 2022",
+    "tertiary": "Law students studying equal protection and Supreme Court reversal mechanics"
+  },
+  "register_markers": [
+    "Citation-heavy doctrinal-explanatory register",
+    "Forensic Court-composition arithmetic ('Within the period from Dec. 1, 2009 to Feb. 22, 2010, J Chico-Nazario retired...')",
+    "Politician-named hypotheticals threaded through statutory exposition",
+    "Latin and legalese ('ipso facto resigned') flagged for general readers",
+    "Title functions as standalone thesis statement"
+  ],
+  "decision_framework_signals": [
+    "Statutory text: RA 9369 §13 -- 'ipso facto resigned... upon the filing of his certificate of candidacy'",
+    "Substitution cutoff hierarchy: Oct. 8 (initial) → Nov. 15 (party substitution with ballot reprint) → midday May 9, 2022 (death/disqualification with same surname)",
+    "Equal protection / overbreadth (J Nachura 2009): reversed by 'substantial distinctions' rationale (CJ Puno 2010)",
+    "Court composition as variable in doctrinal continuity"
+  ],
+  "one_paragraph_summary": "Building on the looming Oct. 1-8, 2021 COC filing window, CJ Panganiban unpacks two structures: the asymmetry between appointive officials (deemed ipso facto resigned upon filing) and elective officials (retain office until term-end, June 30, 2022), and the substitution mechanics under Comelec Resolution No. 10717 that effectively extend the filing deadline. The legal anchor is Quinto v. Comelec (Feb. 22, 2010), penned by CJ Puno, which upheld RA 9369 §13 by a 10-5 vote -- but the column's most piercing passage is its forensic explanation of how this came to reverse, less than three months later, the original 8-6 Nachura ruling of Dec. 1, 2009: J Chico-Nazario retired, JJ Brion and Del Castillo flipped sides, and the two new appointees (JJ Perez and Mendoza) voted with CJ Puno. The substitution discussion then walks through the operative mechanics -- withdrawing, disqualified, or deceased candidates of registered political parties or coalitions may be substituted up to Nov. 15 with ballot reprint, while substitution for death or final disqualification under the same-surname rule extends to midday on May 9, 2022. Independent candidates are excluded from the regime entirely. The column closes with politician-specific illustrations -- Pacquiao would be 'jobless after June 30, 2022' if he loses a non-reelection bid; Grace Poe enjoys an unexpired-term safety net; Lacson and Sotto are termed out -- and the title's quiet thesis: in practice, the Oct. 8 deadline is functionally extended to Nov. 15 for candidates of registered political parties.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

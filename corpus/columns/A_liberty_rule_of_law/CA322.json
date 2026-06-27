@@ -1,0 +1,121 @@
+{
+  "id": "CA322",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 322,
+  "title": "SC stood tall in crucial cases",
+  "date": "2017-01-29",
+  "link": "https://opinion.inquirer.net/101207/sc-stood-tall-crucial-cases",
+  "keywords": [
+    "SC independence",
+    "Duterte appointments",
+    "SC against appointing president",
+    "Marcos burial",
+    "GMA PCSO acquittal",
+    "Enrile bail",
+    "judicial courage",
+    "Fiat justitia ruat caelum"
+  ],
+  "primary_topics": [
+    "Rebuttal of critics' concern about SC softness -- citing historical examples of the Court ruling against the interests of the presidents who appointed its justices",
+    "A survey of landmark decisions where the SC voted against Ramos, Estrada, Arroyo, and Aquino administration interests",
+    "CJ's confident prediction that justices will uphold the national interest regardless of perceived loyalty to appointing authority"
+  ],
+  "sub_topics": [
+    "Critics' exhibits: Marcos burial decision, GMA PCSO acquittal, Enrile bail -- same 8-9 justices in majority, same 5-6 in dissent",
+    "CJ's standard reply: cannot predict individual votes; disagreements are honest differences; esteem unfettered unless manifest bias or evident error",
+    "Ramos era: Imelda Marcos acquittal (Marcos v. SBN, Oct. 6, 1998) -- criticized; but SC voided charter change via initiative (Santiago v. Comelec, March 19, 1997) -- hailed",
+    "Estrada era: 13-0 (two abstentions) affirming Estrada ouster, legitimizing Arroyo ascension (Estrada v. Desierto, March 2, 2001)",
+    "Arroyo era: Senate v. Ermita (2006) -- EO 464 voided; Bayan v. Ermita (2006) -- calibrated preemptive response voided; David v. Arroyo (2006) -- state of national emergency parts voided; Lambino v. Comelec (2006, 8-7) -- people's initiative trashed",
+    "Aquino era: Belgica v. Ochoa (2013) -- pork barrel unconstitutional; Araullo v. Aquino (2014) -- certain DAP practices unconstitutional",
+    "History as ultimate judge; Fiat justitia ruat caelum"
+  ],
+  "signature_phrases": [
+    "when deciding crucial cases under the 1987 Constitution, the Court has stood tall, showing courage, independence and wisdom",
+    "Many justices have voted against suits that favor or were initiated by the presidents who appointed them",
+    "I just chalk it up to an honest difference of opinions",
+    "unless their stance is clearly hobbled by manifest bias, evident error, or similar palpable factors",
+    "history will ultimately judge them",
+    "Fiat justitia ruat caelum"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "President Ferdinand Marcos (Imelda acquittal)",
+      "President Fidel V. Ramos (Santiago v. Comelec; Marcos acquittal reproach)",
+      "President Joseph Estrada (13-0 ouster affirmed)",
+      "President Gloria Macapagal Arroyo (multiple adverse SC decisions)",
+      "President Benigno Aquino III (pork barrel, DAP)",
+      "Imelda Marcos (acquitted in Marcos v. SBN)",
+      "Juan Ponce Enrile (bail -- critics' exhibit)",
+      "President Rodrigo Duterte (forthcoming appointments context)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "Marcos v. Sandiganbayan (Oct. 6, 1998) -- Imelda acquittal",
+      "Santiago v. Comelec (March 19, 1997) -- RA 6735 inadequate",
+      "Estrada v. Desierto (March 2, 2001, 13-0) -- ouster affirmed",
+      "Senate v. Ermita (April 20, 2006) -- EO 464 voided",
+      "Bayan v. Ermita (April 25, 2006) -- calibrated preemptive response voided",
+      "David v. Arroyo (May 3, 2006) -- state of emergency parts voided",
+      "Lambino v. Comelec (Oct. 25, 2006, 8-7) -- people's initiative trashed",
+      "Belgica v. Ochoa (Nov. 19, 2013) -- pork barrel unconstitutional",
+      "Araullo v. Aquino (July 1, 2014) -- DAP practices unconstitutional"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- judicial independence",
+      "RA 6735 (people's initiative, found inadequate)"
+    ],
+    "events": [
+      "Forthcoming Duterte SC appointments"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The SC has historically stood tall when deciding crucial cases under the 1987 Constitution -- with many justices voting against the presidents who appointed them, across all administrations from Ramos to Aquino.",
+      "rhetorical_move": "historical-survey-as-institutional-confidence-builder",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The critics' concern about consistent voting blocs in Marcos burial, GMA acquittal, and Enrile bail reflects honest disagreement, but cannot be attributed to manifest bias without more evidence.",
+      "rhetorical_move": "charitable-interpretation of voting blocs while preserving criticism threshold",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Justices know history will ultimately judge them -- law professors and students remember both those who upheld judicial standards and those who betrayed their oaths -- creating an institutional incentive for independence.",
+      "rhetorical_move": "historical-accountability-as-institutional-incentive",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "President Estrada being 'appalled' that his six appointees joined the 13-0 Estrada v. Desierto decision affirming his own ouster -- the most vivid example of judicial independence over appointer loyalty.",
+    "The 8-7 Lambino v. Comelec decision trashing the people's initiative to shift to parliamentary government -- a one-vote margin preserving the presidential system.",
+    "CJ's personal admission that he 'occasionally disagrees with friends in the Court' -- establishing his own non-monolithic relationship with colleagues as evidence of genuine independent evaluation."
+  ],
+  "target_audience": [
+    "Civic readers anxious about Duterte's forthcoming SC appointments",
+    "Constitutional law scholars and law students",
+    "Media commentators covering SC decisions",
+    "Democracy advocates seeking reassurance about institutional resilience"
+  ],
+  "register_markers": [
+    "critics'-laments opening register (citing Duterte-era critics' exhibits)",
+    "historical-survey-across-four-administrations as primary evidence structure",
+    "'I just chalk it up to an honest difference' as collegial-charity marker",
+    "manifest-bias/evident-error as the threshold for CJ's own criticism",
+    "history-as-ultimate-judge closing with Latin maxim",
+    "'Fiat justitia ruat caelum' as valedictory moral statement"
+  ],
+  "decision_framework_signals": [
+    "applies historical-survey-across-administrations to establish baseline SC independence",
+    "uses manifest-bias/evident-error threshold as the minimum required for criticism of colleagues",
+    "treats historical-accountability as an institutional incentive for independence",
+    "applies appointer-loyalty-vs-constitutional-duty distinction as the core independence test"
+  ],
+  "one_paragraph_summary": "Panganiban responds to critics disturbed by the SC's perceived softness -- citing the Marcos burial decision (9-5-1), GMA PCSO acquittal, and Enrile bail -- and worried about Duterte's forthcoming appointments. CJ refuses to predict individual votes or impute bad faith to colleagues unless their stance is 'clearly hobbled by manifest bias, evident error, or similar palpable factors.' He surveys four administrations to show the SC's historical independence: under Ramos, the SC voided the charter change initiative (Santiago v. Comelec, 1997) -- had Ramos appointees voted for it, his tenure might have been extended; under Estrada, his six appointees joined the 13-0 Estrada v. Desierto decision affirming his own ouster; under Arroyo, the SC unanimously voided her EO 464 (Senate v. Ermita, 2006), her calibrated preemptive response policy (Bayan v. Ermita, 2006), parts of her state-of-national-emergency declaration (David v. Arroyo, 2006), and by an 8-7 vote trashed the people's initiative for a parliamentary shift (Lambino v. Comelec, 2006); and under Aquino, the Court unanimously voided the congressional pork barrel (Belgica v. Ochoa, 2013) and declared certain DAP practices unconstitutional (Araullo v. Aquino, 2014). CJ closes: the justices know history will judge them -- law professors and students remember both those who lived up to 'proven competence, integrity, probity and independence' and those who betrayed their oaths. Fiat justitia ruat caelum.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

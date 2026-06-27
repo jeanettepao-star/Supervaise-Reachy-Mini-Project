@@ -1,0 +1,167 @@
+{
+  "id": "CA181",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 181,
+  "title": "Let history be the judge",
+  "date": "2021-05-16",
+  "link": "https://opinion.inquirer.net/140274/let-history-be-the-judge",
+  "keywords": [
+    "Sereno",
+    "quo warranto",
+    "judicial independence",
+    "Jardeleza",
+    "Carpio",
+    "Republic v. Sereno",
+    "transcendental importance"
+  ],
+  "primary_topics": [
+    "Reply to retired Justice Jardeleza's May 8 commentary on the Sereno QW decision",
+    "Restoring the constitutional shroud that justices be removed only by impeachment",
+    "Why CJ called the Republic v. Sereno (May 18, 2018) decision 'harsh'",
+    "Three asymmetries between Sereno's treatment and that of other Court actors",
+    "Four 'just-ethical-wise' questions left to history about the QW process"
+  ],
+  "sub_topics": [
+    "Jardeleza's claim that 'all seven [of the eight]' join him in disputing CJ's views",
+    "Cataloguing of post-QW posts/benefits gained by the eight (4 became CJ, 1 Ombudsman, 1 GSIS chair, 1 JBC member)",
+    "CJ's refusal to comment on those posts/benefits while pointedly listing them",
+    "Procedural deflection via Gios-Samar v. DOTC (March 12, 2019) -- CJ's response: transcendental importance exempts",
+    "'Paralysis of procedural niceties' as the doctrine for first-available-opportunity review",
+    "CJ's personal disinterest disclosure -- would decline any post/gain if offered",
+    "Sereno ponencia 'immediately executory without need of further action' -- eviction same day, before MR period lapsed",
+    "Asymmetry 1: even hardened criminals get 15 days to file MR",
+    "Asymmetry 2: Sereno expunged from list of CJs, stripped of first-woman-CJ honor, picture excluded from Gallery",
+    "Asymmetry 3: denied retirement benefits despite 6-year tenure (longer than predecessors and all successors)",
+    "Counterfoil: 2009 leaked-decision justice given 15 days MR, forgiven 2013, penalties lifted 2014",
+    "Counterfoil: constitutionally impeached and removed CJ (Corona) included in Gallery, granted retirement benefits",
+    "'Self-inflicted sword of Damocles' over incoming justices via revivable QW",
+    "Question: just/ethical/wise for House-impeachment-testifying justices to vote in the QW case?",
+    "Question: just/ethical/wise to accept posts/benefits created by their acts and votes?",
+    "Question: just/ethical/wise for Senior Justice Carpio to have declined CJ nomination after dissenting?"
+  ],
+  "signature_phrases": [
+    "labelled as 'harsh' the decision in Republic v. Sereno",
+    "via quo warranto (QW) by the narrow vote of 8-6",
+    "With a hint of pride",
+    "I will refrain from commenting on the posts and benefits they reached or gained after ousting their chief",
+    "It is time to restore the shroud granted by the Constitution",
+    "transcendental importance",
+    "paralysis of procedural niceties",
+    "of the highest transcendental importance to the nation",
+    "I will respectfully decline if offered any such posts or gains",
+    "To restore independence to our beloved Supreme Court",
+    "immediately executory without need of further action",
+    "Why the inexplicable haste?",
+    "expunged from the list of CJs",
+    "stripped of the honor of being the first woman-chief",
+    "picture excluded from the Court's Gallery of Chief Justices",
+    "this ancient retired CJ",
+    "the self-inflicted sword of Damocles",
+    "Is it just, ethical, and wise",
+    "Let us pause and reflect. And let history be the judge."
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (former CJ, columnist)",
+      "Retired Justice Francis H. Jardeleza (May 8 commentator)",
+      "CJ Maria Lourdes P.A. Sereno (QW-ousted)",
+      "Senior Justice Antonio T. Carpio (one of six dissenters; declined CJ nomination)",
+      "The eight QW majority (4 became CJ; 1 Ombudsman; 1 GSIS chair, also a former CJ; 1 JBC member; 2 retired)",
+      "CJ Renato C. Corona (impeached, included in Gallery, eventually granted retirement benefits -- comparator)",
+      "Unnamed justice penalized in 2009 for leaking partially-signed decision (eventually forgiven 2013; penalties lifted 2014)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Government Service Insurance System (GSIS)",
+      "Office of the Ombudsman",
+      "Judicial and Bar Council (JBC)",
+      "House of Representatives (impeachment proceedings forum)"
+    ],
+    "cases": [
+      "Republic v. Sereno (SC, May 18, 2018) -- 8-6 QW ouster",
+      "Gios-Samar v. DOTC (SC, March 12, 2019) -- procedural-deficiency bar invoked by Jardeleza"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- impeachment as exclusive removal mechanism for SC justices"
+    ],
+    "events": [
+      "May 18, 2018 -- Sereno QW decision",
+      "April 8, 2021 -- CJ's prior column labelling the decision 'harsh'",
+      "May 8, 2021 -- Jardeleza's commentary",
+      "2009 -- leaked-decision discipline of unnamed justice"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "With the Court's new composition (seven of the eight QW majority retired), it is time to restore the constitutional shroud that justices be removed only by impeachment and only on the grounds clearly provided -- Republic v. Sereno should be reopened at the first available opportunity.",
+      "rhetorical_move": "composition-changed-restoration framing",
+      "confidence": "asserted as policy plea"
+    },
+    {
+      "claim": "Jardeleza's Gios-Samar deflection misses the substantive issue; ample jurisprudence exempts cases of transcendental importance from the 'paralysis of procedural niceties,' and the Court's independence is of the highest transcendental importance to the nation.",
+      "rhetorical_move": "transcendental-importance exemption rebuttal",
+      "confidence": "asserted with humility marker"
+    },
+    {
+      "claim": "The Sereno decision was 'harsh' on three asymmetries: same-day eviction before MR period lapsed (criminals get 15 days); expunction from the list of CJs and exclusion from the Gallery (impeached Corona was kept in the Gallery); and denial of retirement benefits despite a 6-year tenure (longer than predecessors and all successors).",
+      "rhetorical_move": "three-asymmetry catalog with counterfoil comparators",
+      "confidence": "asserted with documentary specificity"
+    },
+    {
+      "claim": "The 'self-inflicted sword of Damocles' over incoming justices -- risk of QW removal by present and future administrations -- is unjust, unethical, and unwise; the question of whether to keep dangling it is for the Court itself.",
+      "rhetorical_move": "rhetorical-question catalog (just/ethical/wise) inviting reflection rather than answer",
+      "confidence": "asserted as posed question"
+    },
+    {
+      "claim": "Three further questions deserve reflection: (a) whether justices who testified at the House impeachment proceedings should have voted in the QW case; (b) whether the eight should have accepted posts/benefits created by their own acts and votes; (c) whether dissenter Carpio's decision to decline the CJ post created by the decision he opposed reflects the more honorable answer.",
+      "rhetorical_move": "honorable-counter-example (Carpio's decline) as implicit benchmark",
+      "confidence": "asserted as questions for history"
+    },
+    {
+      "claim": "CJ's own posture is disinterest: he stands to gain nothing whether the Court upholds his views or not, and would respectfully decline any post or benefit if offered -- his only aim is restoring SC independence.",
+      "rhetorical_move": "self-disinterest disclosure to authorize the critique",
+      "confidence": "asserted as personal pledge"
+    }
+  ],
+  "notable_anecdotes": [
+    "Jardeleza's parade of post-QW positions (4 became CJ, 1 Ombudsman, 1 GSIS chair-and-former-CJ, 1 JBC member) recited 'with a hint of pride' -- and CJ's pointed refusal to comment on those gains: 'I will refrain from commenting on the posts and benefits they reached or gained after ousting their chief.'",
+    "The same-day eviction of Sereno before the MR period lapsed -- paired with the criminal-procedure comparator: 'Even hardened criminals convicted of the most despicable crimes are allowed 15 days to file their MRs before their judgments became executory.'",
+    "The Corona-vs-Sereno asymmetry -- Corona, constitutionally impeached and removed, was included in the Gallery of CJs and eventually granted retirement benefits; Sereno, ousted by QW, was expunged and denied -- turning Gallery inclusion into the silent comparator of institutional generosity.",
+    "The 2009 leaked-decision-justice case -- penalties 'lifted' by 2014, no immediate eviction, full 15-day MR -- used as the elephant-in-the-room counterfoil to Sereno's treatment.",
+    "Carpio's principled decline of the CJ nomination created by a decision he dissented from -- surfaced as the honorable benchmark against which the eight's post-QW acceptances are implicitly measured.",
+    "Closing quartet of 'is it just, ethical, and wise' questions -- designed to be answered not now but by history; the rare CJ column that explicitly defers its own judgment to time."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Current SC justices and the judiciary at large",
+    "Legal academics and constitutional-law scholars",
+    "Court-followers tracking the Sereno legacy",
+    "Civic-minded Filipinos invested in judicial independence",
+    "Retired Justice Jardeleza (direct rejoinder addressee)"
+  ],
+  "register_markers": [
+    "rejoinder register (direct reply to a named retired colleague's commentary)",
+    "'with a hint of pride' as understated tonal cue identifying the rhetorical-pride of the addressee",
+    "self-disinterest disclosure ('I will not personally reach any high post')",
+    "asymmetric-comparison cataloging (Sereno vs criminals; Sereno vs Corona; Sereno vs 2009-leak justice)",
+    "'this ancient retired CJ' as self-deprecating positional marker",
+    "'self-inflicted sword of Damocles' as classical-allusion image for institutional self-harm",
+    "quartet of 'is it just, ethical, and wise' rhetorical questions",
+    "closing 'Let us pause and reflect. And let history be the judge' as deferred-verdict closure",
+    "'transcendental importance' / 'paralysis of procedural niceties' as paired doctrinal phrases"
+  ],
+  "decision_framework_signals": [
+    "uses transcendental-importance exemption to neutralize procedural-bar arguments",
+    "applies institutional-asymmetry cataloging to surface unequal treatment as evidence of harshness",
+    "deploys honorable-decline benchmarks (Carpio) as implicit ethical standards for colleagues",
+    "treats composition-change in the Court as the proper window for re-examining contested precedents",
+    "uses self-disinterest disclosure as a register move authorizing critique of an institutional decision",
+    "defers final judgment to history when contemporaneous resolution would lack legitimacy",
+    "treats impeachment as the constitutionally exclusive removal mechanism for justices, against which QW is anomalous"
+  ],
+  "one_paragraph_summary": "Replying to retired Justice Francis H. Jardeleza's May 8 commentary defending the Republic v. Sereno (May 18, 2018) QW decision, Panganiban restates his April 8 position: with the Court's new composition (seven of the eight QW majority have retired), it is time to restore the constitutional shroud that justices be removed only by impeachment, and only on the grounds clearly provided. He notes Jardeleza's parade of post-QW positions (four became CJ, one is Ombudsman, another GSIS chair, another a JBC member) 'with a hint of pride' -- and pointedly refrains from commenting on the posts and benefits gained after ousting their chief. He answers Jardeleza's procedural-bar deflection (Gios-Samar v. DOTC) by invoking the transcendental-importance exemption from the 'paralysis of procedural niceties' -- the Court's independence is of the highest transcendental importance to the nation. He explains why the decision was 'harsh': it was immediately executory, evicting Sereno before the MR period lapsed though even hardened criminals get 15 days; she was expunged from the list of CJs, stripped of the first-woman-CJ honor, and her picture excluded from the Gallery; she was denied retirement benefits despite a 6-year tenure longer than all her successors -- while in 2009 a justice found guilty of leaking a decision was given his 15-day MR and his penalties eventually lifted, and impeached CJ Corona was kept in the Gallery and granted benefits. CJ leaves the reversal question to the new Court but poses four 'just, ethical, and wise' questions for reflection: continuing to dangle the 'self-inflicted sword of Damocles' over incoming justices; the participation of justices who had testified at the House impeachment proceedings; the eight's acceptance of posts and benefits their own votes created; and Senior Justice Carpio's honorable decline of the CJ post created despite his dissent. 'Let us pause and reflect. And let history be the judge.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

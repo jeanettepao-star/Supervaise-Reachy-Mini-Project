@@ -1,0 +1,154 @@
+{
+  "id": "CA191",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 191,
+  "title": "Con-ass: convene, discuss, and vote separately",
+  "date": "2021-02-14",
+  "link": "https://opinion.inquirer.net/137713/con-ass-convene-discuss-and-vote-separately",
+  "keywords": [
+    "Cha-cha",
+    "con-ass",
+    "RBH No. 2",
+    "Velasco",
+    "Art. XVII Sec. 1",
+    "bicameralism",
+    "nationalistic provisions",
+    "separately voting",
+    "Mendoza-Azcuna debate"
+  ],
+  "primary_topics": [
+    "Procedural question: should Congress convene, discuss, and vote separately or jointly when acting as a constituent assembly?",
+    "Resolution of Both Houses No. 2 (Speaker Velasco) amending nationalistic provisions of Articles XII, XIV, XVI by inserting 'unless otherwise provided by law'",
+    "Doctrinal disagreement with retired Justice Vicente V. Mendoza (who would require joint deliberation, separate voting)",
+    "Doctrinal alignment with retired Justice Adolfo S. Azcuna (framer) on the timing of con-ass conversion",
+    "Practical recommendation that both Houses approve 'Internal Rules of the Constituent Assembly' codifying 'separate' concept"
+  ],
+  "sub_topics": [
+    "House Committee on Constitutional Amendments 64-3-3 vote",
+    "Amendments target: Art. XII (natural resources & public utilities; private land remains in Filipino hands); Art. XIV (educational institutions); Art. XVI (mass media and advertising)",
+    "Drafting choice: keep restrictions in the Charter but empower Congress to vary foreign equity/control",
+    "Art. XVII, Sec. 1: 'three-fourths of all its Members' without textual joint-sitting requirement",
+    "Three constitutional instances explicitly requiring joint sitting (declare war, canvass for President/VP, confirm VP nominee on vacancy)",
+    "Well-settled rule: what is not expressly or impliedly prohibited may be done by Congress within its powers",
+    "Separate voting implied from bicameral nature",
+    "RBH text 'each House voting separately' as more-than-enough textual notice",
+    "'Actions speak louder than words' -- the very act of separate convening as proof of conversion to con-ass"
+  ],
+  "signature_phrases": [
+    "Congress has taken it upon itself to amend the Constitution",
+    "My short answer is 'separately' in all these three acts",
+    "After hearing various resource persons and thereafter voting, 64-3-3",
+    "seeks to amend the nationalistic provisions",
+    "however, the ownership of private land shall remain in Filipino hands",
+    "my esteemed friend, retired Justice Vicente V. Mendoza",
+    "I respectfully disagree",
+    "It does not say that the two chambers must convene and debate jointly as one body",
+    "the Constitution, unlike in the amendment provision, says so expressly and in unmistakable language",
+    "Well-settled is the rule that what is not expressly or impliedly prohibited",
+    "If it votes separately during its regular function of legislation, so must it vote separately in its constituent function",
+    "Another esteemed friend, retired Justice Adolfo S. Azcuna, one of the framers",
+    "the act of converting (itself) into a constituent assembly is not completed",
+    "by these texts, the RBH gave more than enough notice",
+    "Indeed, actions speak louder than words",
+    "IN SUM, I respectfully submit",
+    "in my humble opinion, hurdle a challenge in the Supreme Court",
+    "Internal Rules of the Constituent Assembly"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Lord Allan Velasco (Speaker; sponsor of RBH No. 2)",
+      "Vicente V. Mendoza (retired SC Justice; 'joint deliberation, separate voting' view)",
+      "Adolfo S. Azcuna (retired SC Justice; framer of the 1987 Constitution)"
+    ],
+    "institutions": [
+      "Philippine House of Representatives",
+      "House Committee on Constitutional Amendments",
+      "Philippine Senate",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Philippine Constitution, Art. XVII, Sec. 1 (amendment by Congress on three-fourths vote)",
+      "Constitution Art. XII (natural resources, public utilities)",
+      "Constitution Art. XIV (educational institutions)",
+      "Constitution Art. XVI (mass media and advertising)",
+      "Constitutional provisions on declaring war, canvassing presidential vote, confirming VP nominee",
+      "Resolution of Both Houses No. 2 (Velasco sponsorship)"
+    ],
+    "events": [
+      "House Committee on Constitutional Amendments vote 64-3-3",
+      "Endorsement of RBH No. 2 to the House plenary"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Congress should convene, discuss, and vote separately in all three acts of constituent-assembly proceedings -- joint sitting is not constitutionally required for amendment.",
+      "rhetorical_move": "thesis-first opening",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Art. XVII, Sec. 1 says only 'three-fourths of all its Members' without textual joint-sitting requirement; unlike the war-declaration, canvassing, and VP-vacancy provisions, the Constitution does not say so 'expressly and in unmistakable language.'",
+      "rhetorical_move": "textual-comparison argument",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "What is not expressly or impliedly prohibited by the Constitution may be done by Congress within its powers -- separate convening and deliberating is not prohibited and is within congressional power.",
+      "rhetorical_move": "well-settled-rule invocation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Separate voting can be implied from the bicameral nature of Congress: if it votes separately in legislation, it must vote separately in its constituent function.",
+      "rhetorical_move": "consistency-of-bicameralism argument",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Justice Azcuna's framer-view that conversion to con-ass is incomplete until adoption-and-passage by the necessary votes is satisfied by RBH No. 2's express 'each House voting separately' language; the very act of separately assembling and deliberating is itself proof of conversion ('actions speak louder than words').",
+      "rhetorical_move": "framer-citation + conduct-as-proof",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Such proceedings would, in CJ's humble opinion, hurdle a Supreme Court challenge; both Houses should also approve 'Internal Rules of the Constituent Assembly' integrating the 'separate' concept.",
+      "rhetorical_move": "process-recommendation close",
+      "confidence": "asserted with humility marker"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 'esteemed friend' / 'I respectfully disagree' exchange with retired Justice Vicente V. Mendoza -- a model of doctrinal disagreement among peers that names the opponent by full title and explicit respect before stating the disagreement, and then with retired Justice Adolfo S. Azcuna 'one of the framers' on the same side as CJ.",
+    "The 'actions speak louder than words' phrasing -- applied to constitutional procedure to argue that the conduct of separately assembling is itself the proof that Congress converted to a con-ass, beyond the textual signal in the RBH.",
+    "The capitalized 'RESOLVED BY THE SENATE AND THE HOUSE OF REPRESENTATIVES' (caps in original) -- a rare moment of typographic preservation by CJ, marking textual emphasis in the source document.",
+    "Forward-looking 'Internal Rules of the Constituent Assembly' suggestion -- a practical institutional recommendation that goes beyond the immediate procedural question."
+  ],
+  "target_audience": [
+    "Members of Congress (Senate and House) and their constitutional counsel",
+    "Constitutional-law scholars and SC practitioners",
+    "Stakeholders in nationalistic-provisions debate (foreign-equity reformers and opponents)",
+    "FLP donors interested in CJ's constitutional jurisprudence",
+    "Inquirer general readership following the Cha-cha arc"
+  ],
+  "register_markers": [
+    "thesis-first opening ('My short answer is...')",
+    "doctrinal-formal register with explicit textual comparison",
+    "'esteemed friend' honorific for opposing jurist",
+    "'I respectfully disagree' / 'I respectfully submit' lawyerly courtesy markers",
+    "'IN SUM' caps-emphasis as section break",
+    "'in my humble opinion' humility marker on Supreme-Court-survival prediction",
+    "well-settled-rule invocation as authority",
+    "framer-citation (Azcuna 'one of the framers') as interpretive backing",
+    "no Tagalog markers; constitutional-doctrinal English"
+  ],
+  "decision_framework_signals": [
+    "applies textual-comparison interpretation (explicit joint-sitting elsewhere vs silence in Art. XVII, Sec. 1)",
+    "uses the well-settled rule that what is not expressly or impliedly prohibited may be done by Congress within its powers",
+    "applies consistency-of-bicameralism (separate voting in legislation implies separate voting in constituent function)",
+    "uses framer-citation (Azcuna) as interpretive anchor on timing of con-ass conversion",
+    "applies conduct-as-proof principle ('actions speak louder than words') to constitutional procedure",
+    "process-recommendation principle: codify the rule via Internal Rules of the Constituent Assembly",
+    "respectful-disagreement-with-peers convention as the model of professional doctrinal debate"
+  ],
+  "one_paragraph_summary": "On the procedural question of how Congress should act as a constituent assembly (con-ass) to amend the Constitution, Panganiban gives a thesis-first answer: 'separately' in all three acts -- convening, deliberating, and voting. The House Committee on Constitutional Amendments, having voted 64-3-3 on Resolution of Both Houses No. 2 (sponsored by Speaker Velasco), agreed; the resolution amends the nationalistic provisions of Articles XII, XIV, and XVI by inserting 'unless otherwise provided by law' (private land ownership remains in Filipino hands). Respectfully disagreeing with his 'esteemed friend' retired Justice Vicente V. Mendoza -- who reads the Constitution to require joint deliberation with separate voting -- CJ argues that Art. XVII, Sec. 1 mentions only 'three-fourths of all its Members,' without a joint-sitting requirement. The Constitution speaks expressly and in unmistakable language when it does require joint sitting (declaration of war, canvassing the presidential vote, confirming a VP nominee), and is silent here. By the well-settled rule, what is not expressly or impliedly prohibited may be done by Congress; separate voting is also implied from bicameralism (if Congress votes separately in legislation, so must it in its constituent function). Echoing retired Justice Adolfo Azcuna, a framer of the 1987 Constitution, on the timing of con-ass conversion, CJ argues that the RBH's express 'each House voting separately' text plus the very conduct of separately assembling are more than enough proof -- 'actions speak louder than words.' Such proceedings would, in his humble opinion, hurdle a Supreme Court challenge; he recommends that both Houses also adopt 'Internal Rules of the Constituent Assembly' integrating the 'separate' concept.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

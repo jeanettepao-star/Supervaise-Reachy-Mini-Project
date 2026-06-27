@@ -1,0 +1,121 @@
+{
+  "id": "CA216",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 216,
+  "title": "New JBC rule needs clarity",
+  "date": "2020-05-31",
+  "link": "https://opinion.inquirer.net/130316/new-jbc-rule-needs-clarity",
+  "keywords": [
+    "JBC 2020 Revised Rules",
+    "age cap for SC nominees",
+    "Sec. 1 Rule 8",
+    "Justice Tijam",
+    "Sereno quo warranto",
+    "chief justice succession"
+  ],
+  "primary_topics": [
+    "The JBC's 2020 Revised Rules Sec. 1, Rule 8 imposing minimum-remaining-service requirements (2.5 years for appellate justices/SolGen/ConCom chairs/Court Administrator/Dept Secretaries; 5 years for everyone else) for SC associate justice or chief justice nominees",
+    "Ambiguity of the rule's application to sitting SC associate justices seeking elevation to chief justice",
+    "Internal tension created by Justice Tijam's vote for a rule that would have barred his own 2017 nomination",
+    "Risk of needless quo warranto suits and litigation if the rule is left unclarified before its June 8, 2020 effectivity",
+    "Need for amendment particularly regarding chief justiceship succession"
+  ],
+  "sub_topics": [
+    "Composition of the JBC: CJ Diosdado M. Peralta (ex-officio chair), Justice Secretary Menardo I. Guevarra, Sen. Richard J. Gordon, Rep. Vicente S.E. Veloso III (ex-officio); retired Justices Mendoza and Tijam, retired Judges Ilao Jr. and Demonteverde (regular members)",
+    "Voting mechanics: four votes needed for nomination; Gordon and Veloso share one rotating congressional seat with one vote",
+    "Effective age caps: 67.5 for appellate/cabinet-level applicants, 65 for private practitioners/undersecretaries/trial judges",
+    "Stated rationale: give appointees enough time to learn SC Internal Rules and contribute to docket reduction",
+    "Tijam's 2017 vetting: over 68 years old at CA, opposed by then-CJ Sereno, confirmed by four JBC votes on track record (San Beda salutatorian/cum laude) and his commitment to dispose of 1,000 cases during a ~22-month term",
+    "Tijam penned the quo warranto decision ousting Sereno",
+    "Counterfactual: CJs Leonardo-De Castro, Bersamin, and Peralta would have been disqualified under the new rule",
+    "Justice Mendoza's interview comment (abogado.com.ph) that 'a sitting associate justice of the SC is not contemplated in' the rule",
+    "Historical practice of automatically nominating the three (or five) most senior justices for vacant CJ posts"
+  ],
+  "signature_phrases": [
+    "with due respect",
+    "the rule is rather ambiguous",
+    "as lawyers are wont to say, there is a gap in the law",
+    "Let us examine the rule further",
+    "needless suits (like quo warranto)",
+    "to avoid ambiguity and needless suits when the time comes"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Chief Justice Diosdado M. Peralta",
+      "Justice Secretary Menardo I. Guevarra",
+      "Sen. Richard J. Gordon",
+      "Rep. Vicente S.E. Veloso III",
+      "Retired Justice Jose Catral Mendoza",
+      "Retired Justice Noel Gimenez Tijam",
+      "Retired Judge Toribio E. Ilao Jr.",
+      "Retired Judge Franklin J. Demonteverde",
+      "Former Chief Justice Maria Lourdes P.A. Sereno",
+      "Former Chief Justice Teresita J. Leonardo-De Castro",
+      "Former Chief Justice Lucas P. Bersamin"
+    ],
+    "institutions": [
+      "Judicial and Bar Council (JBC)",
+      "Supreme Court of the Philippines",
+      "Court of Appeals",
+      "San Beda College of Law"
+    ],
+    "cases": [
+      "Quo warranto decision against CJ Sereno (penned by Justice Tijam)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (JBC mandate to vet judicial nominees and ombudsman)",
+      "JBC 2020 Revised Rules, Sec. 1, Rule 8 (effective June 8, 2020)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The JBC's new minimum-remaining-service rule has a meritorious purpose — giving appointees enough time to adjust to SC Internal Rules and meaningfully contribute to docket reduction — but is rendered defective by ambiguity over whether sitting SC associate justices are covered when bidding for the chief justiceship.",
+      "rhetorical_move": "concede-then-critique: validate intent, attack execution",
+      "evidence": "Author's own SC experience of newcomer adjustment difficulty; counterfactual that three recent CJs (De Castro, Bersamin, Peralta) would have been disqualified; Justice Mendoza's apparent clarification that sitting AJs are not contemplated"
+    },
+    {
+      "claim": "Justice Tijam's vote for the rule is internally inconsistent with his own 2017 nomination history, in which Sereno's opposition based on his short prospective term was overridden by four JBC members crediting his record and his 1,000-case disposition commitment.",
+      "rhetorical_move": "ad hominem-as-evidence: surfaces personal contradiction to question the rule's coherence",
+      "evidence": "Author's March 19, 2017 column; Tijam's tenure March 8, 2017 – Jan 5, 2019; his authorship of the Sereno quo warranto ouster"
+    },
+    {
+      "claim": "Without amendment clarifying chief-justice-succession scenarios, the rule will invite needless litigation, including quo warranto suits, when a CJ vacancy next arises.",
+      "rhetorical_move": "predictive-warning: invoking the spectre of repeat-litigation to argue for preemptive correction",
+      "evidence": "Past pattern of quo warranto being weaponized in succession disputes (Sereno precedent)"
+    }
+  ],
+  "notable_anecdotes": [
+    "Justice Tijam's 2017 confirmation hearing where, despite being over 68 and opposed by CJ Sereno, four JBC members voted for him after he committed to disposing of 1,000 cases during his roughly 22-month term — a commitment whose actual fulfillment the author candidly admits he cannot verify.",
+    "Tijam's authorship, after his contested elevation, of the quo warranto decision ousting Sereno — the very justice who opposed his nomination — used as an ironic data-point about JBC dynamics.",
+    "The historical practice of automatic nomination of the three (or sometimes five) most senior justices for a CJ vacancy, now unsettled by the new rule's ambiguity."
+  ],
+  "target_audience": [
+    "JBC members (especially regular members who can move amendments)",
+    "Sitting Supreme Court associate justices",
+    "Legal academe and bar examiners of judicial-selection reform",
+    "Senators and House members with oversight interest in judicial qualifications",
+    "Civic-minded readers tracking JBC reform"
+  ],
+  "register_markers": [
+    "doctrinal-procedural register (rule-text exegesis, voting mechanics, Constitutional sourcing)",
+    "'with due respect' as canonical column closer",
+    "in-text legal citation of column dates as cross-references ('See my column on March 19, 2017')",
+    "lawyer-idiom mode ('as lawyers are wont to say, there is a gap in the law')",
+    "rhetorical-question register to expose ambiguity ('did Justice Tijam imply…')",
+    "italicized procedural terms (quo warranto)",
+    "deferential opening before normative recommendation"
+  ],
+  "decision_framework_signals": [
+    "applies a 'minimum-meaningful-tenure' test to judicial nominations as the rule's stated rationale",
+    "uses counterfactual-application (De Castro, Bersamin, Peralta) to test rule coherence",
+    "treats internal voting consistency (Tijam voting against the standard that admitted him) as a coherence test",
+    "deploys predictive-litigation analysis: any ambiguity creates a future quo warranto vulnerability",
+    "frames clarity as a remedial requirement, not a wholesale rejection"
+  ],
+  "one_paragraph_summary": "Panganiban examines the JBC's 2020 Revised Rules (Sec. 1, Rule 8), which require SC associate justice and chief justice applicants to have at least 2.5 years remaining (if they were appellate justices, SolGen, ConCom chairs, Court Administrator, or Cabinet secretaries) or 5 years (everyone else), effectively imposing age caps of 67.5 or 65. He names the full JBC slate -- CJ Peralta, Secretary Guevarra, Senator Gordon, Representative Veloso, retired Justices Mendoza and Tijam, retired Judges Ilao and Demonteverde -- and explains the four-vote nomination threshold. He commends the rule's stated rationale (giving new justices time to learn the Court's Internal Rules and contribute to docket reduction) but quickly turns to its defects: it is ambiguous about whether sitting SC associate justices are covered when seeking elevation to chief justice, and three recent CJs (Leonardo-De Castro, Bersamin, Peralta) would all have been disqualified under it. He surfaces an irony: Justice Tijam, who voted for the rule, was himself confirmed in 2017 over Sereno's objection despite being over 68 and only able to serve about 22 months, on the strength of his record and a personal commitment to dispose of 1,000 cases -- and he later wrote the quo warranto decision that ousted Sereno. Justice Mendoza appears to clarify in a media interview that sitting AJs are not contemplated by the rule. Panganiban closes 'with due respect' urging amendment to add clarity, particularly for chief-justice-succession scenarios, to forestall a fresh round of quo warranto suits.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

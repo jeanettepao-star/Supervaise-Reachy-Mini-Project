@@ -1,0 +1,155 @@
+{
+  "id": "CC047",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 47,
+  "title": "With starkly contrasting results",
+  "date": "2022-05-09",
+  "link": "https://opinion.inquirer.net/152766/with-starkly-contrasting-results",
+  "keywords": [
+    "2022 elections",
+    "Marcos vs Robredo",
+    "Estela Perlas-Bernabe retirement",
+    "Supreme Court tribute",
+    "rule of law"
+  ],
+  "primary_topics": [
+    "2022 presidential Election Day column (Marcos Jr. vs Robredo as the narrowed-down choice)",
+    "Conscience-over-survey voting framework",
+    "Tribute to retiring Senior Justice Estela M. Perlas-Bernabe",
+    "Judicial independence across four-administration appointments"
+  ],
+  "sub_topics": [
+    "Contrast between traditional poll surveys (Pulse Asia, OCTA) and digital Google Trends",
+    "Voter's duty to choose leader who can deliver from extreme poverty, hunger, disease, corruption, hopelessness",
+    "Liberty and prosperity under the rule of law as the standard of choice",
+    "Perlas-Bernabe's 25-year judicial ascent: MTC Makati (Ramos), RTC Makati (Estrada), CA (Arroyo), SC (Aquino III)",
+    "Unanimous SC resolution granting her CJ retirement benefits (honor shared only with Antonio T. Carpio)",
+    "Belgica v. Ochoa pork barrel ruling (Nov. 19, 2013) -- penned by Perlas-Bernabe",
+    "Duterte-era votes: Marcos burial at Libingan, martial law in Mindanao, Anti-Terror Act validity",
+    "Independence votes against Sereno ouster and De Lima detention",
+    "Disagreement with majority's 'main plunderer' requirement in Arroyo plunder acquittal",
+    "Personal connection via FLP Dissertation Writing Contest and Philippine Chapter of ASEAN Law Association"
+  ],
+  "signature_phrases": [
+    "with starkly contrasting results",
+    "the will and the gravitas to deliver us from the evils of extreme poverty, hunger, disease, corruption, and hopelessness",
+    "safeguard liberty and nurture prosperity under the rule of law",
+    "In my humble opinion",
+    "We can live with a bad president but not with a wounded conscience",
+    "YET, SHE HAS NOT GIVEN ANY PRESIDENT ANY UNDUE FAVOR",
+    "the Supreme Court could not be deterred",
+    "TO SUM UP, MAY I QUOTE MY BLURB",
+    "the quintessential career jurist",
+    "in pari materia",
+    "the personification of Athena, Artemis, and Themis of Greek mythology magically transformed into Filipino reality"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Ferdinand 'Bongbong' Marcos Jr.",
+      "Leni Robredo",
+      "Estela M. Perlas-Bernabe",
+      "Fidel V. Ramos",
+      "Joseph Estrada",
+      "Gloria Macapagal-Arroyo",
+      "Benigno Aquino III",
+      "Rodrigo Duterte",
+      "Antonio T. Carpio",
+      "Maria Lourdes P. A. Sereno",
+      "Leila de Lima",
+      "Ferdinand Marcos (Sr.)",
+      "Cecilia Munoz-Palma",
+      "Ameurfina Melencio-Herrera",
+      "Carolina Grino-Aquino"
+    ],
+    "institutions": [
+      "Pulse Asia",
+      "OCTA Research",
+      "Google Trends",
+      "Supreme Court of the Philippines",
+      "Metropolitan Trial Court of Makati",
+      "Regional Trial Court of Makati",
+      "Court of Appeals",
+      "Foundation for Liberty and Prosperity (FLP)",
+      "Ayala Group",
+      "Philippine Chapter of the ASEAN Law Association",
+      "Libingan ng mga Bayani"
+    ],
+    "cases": [
+      "Belgica v. Ochoa (Nov. 19, 2013) -- pork barrel unconstitutionality"
+    ],
+    "laws_treaties": [
+      "Anti-Terrorism Act (ATA)",
+      "Pork Barrel / PDAF provisions"
+    ],
+    "events": [
+      "May 9, 2022 Philippine presidential election",
+      "May 14, 2022 retirement of Senior Justice Perlas-Bernabe",
+      "Marcos burial at Libingan ng mga Bayani",
+      "Mindanao martial law declaration and extensions",
+      "Sereno quo warranto ouster (2018)",
+      "De Lima arrest and detention"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Voters should choose according to conscience, not surveys -- 'we can live with a bad president but not with a wounded conscience.'",
+      "rhetorical_move": "moral-imperative framing (conscience > polling)",
+      "confidence": "asserted as personal humble opinion"
+    },
+    {
+      "claim": "Senior Justice Perlas-Bernabe deserves CJ retirement benefits because, though Duterte declined to elevate her despite her seniority, the Court unanimously recognized her outstanding stint, especially as acting CJ -- a recognition shared only with Carpio.",
+      "rhetorical_move": "institutional-recognition framing (the Court 'could not be deterred')",
+      "confidence": "asserted with documentary support"
+    },
+    {
+      "claim": "Perlas-Bernabe gave no president undue favor -- her Belgica pork barrel ponencia (under Aquino), her Duterte-era votes (mixed), and her independence votes (against Sereno ouster and De Lima detention) collectively show jurisprudential independence across appointing administrations.",
+      "rhetorical_move": "record-review across four appointing presidents (Ramos, Estrada, Arroyo, Aquino III, with key Duterte-era cases)",
+      "confidence": "asserted with case-by-case evidence"
+    },
+    {
+      "claim": "The 2022 election narrows to Marcos Jr. and Robredo as a reprise of their 2016 VP rivalry -- the choice is which of them can secure 'liberty and prosperity under the rule of law.'",
+      "rhetorical_move": "FLP-philosophy framing (using foundation's twin beacons as the standard of vote)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Belgica v. Ochoa: 14-0-1 ruling penned by Perlas-Bernabe that outlawed legislators' pork barrel in unusually detailed language -- quoted at length to demonstrate her doctrinal craftsmanship.",
+    "Despite voting for the Anti-Terror Act, the Marcos burial at Libingan, and the constitutionality of Mindanao martial law, Perlas-Bernabe voted AGAINST the ouster of CJ Sereno and AGAINST the arrest of De Lima -- the most pointed evidence in the column that her record cannot be slotted into a single political camp.",
+    "On Arroyo's plunder acquittal, she voted to acquit but explicitly disagreed with the majority's doctrine requiring identification of a 'main plunderer' -- a separate-opinion gesture showing doctrinal independence even within a result she joined.",
+    "Personal disclosure: she thrice headed the FLP Dissertation Writing Contest board and is an active member of the ASEAN Law Association Philippine Chapter that CJ Panganiban chairs -- declared transparently before the closing blurb tribute.",
+    "Closing blurb compares her to the first three Filipina justices (Munoz-Palma, Melencio-Herrera, Grino-Aquino) and to Athena, Artemis, and Themis of Greek mythology -- the most elaborate mythological tribute in the column."
+  ],
+  "target_audience": [
+    "Inquirer general readership on Election Day morning",
+    "Filipino voters facing the Marcos-Robredo choice",
+    "Legal community honoring Justice Perlas-Bernabe",
+    "FLP scholars and stakeholders",
+    "Court-watchers tracking judicial independence"
+  ],
+  "register_markers": [
+    "ALL-CAPS section openings ('SENIOR JUSTICE ESTELA M. PERLAS-BERNABE,' 'YET, SHE HAS NOT GIVEN ANY PRESIDENT ANY UNDUE FAVOR,' 'TO SUM UP, MAY I QUOTE MY BLURB')",
+    "'In my humble opinion' as humility marker on Election Day exhortation",
+    "Chiastic exhortation: 'live with a bad president but not with a wounded conscience'",
+    "Bullet-by-case enumeration of votes (Marcos burial, Mindanao ML, ATA, Sereno, De Lima, Arroyo plunder)",
+    "Latin tag 'in pari materia' as scholarly closing",
+    "Mythological triad (Athena, Artemis, Themis) as elevation device",
+    "Star-bar transition ('* * *') to pivot from election to judicial tribute",
+    "Quoted blurb format embedded in the column as direct tribute artifact",
+    "Direct citation with date format: 'Belgica v. Ochoa (Nov. 19, 2013)'",
+    "Personal disclosure framing ('On a personal note, may I disclose...')"
+  ],
+  "decision_framework_signals": [
+    "uses conscience-over-survey framing as moral guide for civic choice",
+    "applies four-administration record-review to test judicial independence claims",
+    "uses 'rule of law' twin beacons (liberty + prosperity) as evaluative framework for presidential choice",
+    "treats unanimous institutional recognition (the Court's resolution) as legitimacy-conferring beyond presidential approval",
+    "distinguishes voting with the majority on outcome from agreeing with the majority's doctrine (Arroyo plunder example)",
+    "discloses personal connection before issuing tribute -- transparency-as-credibility move"
+  ],
+  "one_paragraph_summary": "Published on Election Day 2022, Panganiban frames the Marcos Jr.-Robredo contest as a 'starkly contrasting' choice between candidates with different programs and personalities and exhorts voters to follow conscience over poll surveys, declaring that 'we can live with a bad president but not with a wounded conscience' under the rule of law. The column then pivots via a star-bar transition into an extended tribute to Senior Justice Estela M. Perlas-Bernabe, who retires May 14 after a 25-year judicial climb from Makati MTC under Ramos to the Supreme Court under Aquino III. He recounts the unanimous SC resolution granting her CJ-level retirement benefits -- an honor she shares only with Antonio T. Carpio -- and walks through her record to show she gave no president undue favor: her landmark Belgica v. Ochoa pork barrel ponencia under Aquino, her Duterte-era votes for the Marcos burial, Mindanao martial law, and the ATA, balanced by her independence votes against the Sereno ouster and the De Lima detention, and her separate disagreement with the majority's 'main plunderer' doctrine in the Arroyo plunder acquittal. After disclosing his personal connection through her FLP Dissertation Writing Contest service and the ASEAN Law Association, he closes with a coffee-table-book blurb comparing her to the first three Filipina justices and to Athena, Artemis, and Themis of Greek mythology 'magically transformed into Filipino reality.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,127 @@
+{
+  "id": "CA247",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 247,
+  "title": "Will judges-at-large solve huge RTC backlog?",
+  "date": "2019-04-14",
+  "link": "https://opinion.inquirer.net/120766/will-judges-at-large-solve-huge-rtc-backlog",
+  "keywords": [
+    "judges-at-large",
+    "RTC backlog",
+    "jail overcrowding",
+    "JBC vacancy",
+    "Angara-Gordon bill"
+  ],
+  "primary_topics": [
+    "Will judges-at-large solve huge RTC backlog?",
+    "Angara-Gordon bill creating 100 RTC judges-at-large",
+    "640,000+ pending RTC cases and 25% sala vacancy",
+    "Jail overcrowding (six times rated capacity)"
+  ],
+  "sub_topics": [
+    "2017 statistics: 640,000+ pending RTC cases, 1,100 salas, 580 cases/sala average",
+    "Uneven distribution (some salas with 5,000 cases, others with 50)",
+    "1,200 Metro/Municipal Trial Courts averaging only 133 cases/sala (less congested)",
+    "BJMP penal facilities: 466 with 20,653 capacity holding 146,302 inmates (6x overload)",
+    "~60% of inmates are detainees, not convicts",
+    "SC's 'pairing' method merely rotated the problem",
+    "Senators Sonny Angara and Richard Gordon's bill (100 RTC + 50 MeTC/MTC judges-at-large)",
+    "Bill at second reading, not yet third reading",
+    "Displacement allowances for food, housing, transportation",
+    "Inferiority perception for judges-at-large vs regular judges",
+    "JBC's difficulty filling regular RTC posts -- bright lawyers prefer big law firms and conglomerates",
+    "Security risks in remote and rebel-infested areas",
+    "CJ's better solution: fill 25% vacancy + create 150 more regular RTC salas"
+  ],
+  "signature_phrases": [
+    "Any organization or machine that chugs with only 75 percent of its rated capacity is bound to fail",
+    "bilanggo",
+    "this method merely rotated the problem",
+    "subjected to the vagaries of frequent dislocations all over the country",
+    "in my humble opinion",
+    "in my humble view",
+    "The big law firms and the conglomerates entice them with higher pay, perks and benefits",
+    "The better solution, I think, is to speedily fill up the RTC vacancies",
+    "the JBC should actively search for qualified nominees, instead of just waiting for applicants"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Senator Sonny Angara",
+      "Senator Richard Gordon"
+    ],
+    "institutions": [
+      "Regional Trial Courts (RTCs) -- 1,100 salas",
+      "Metropolitan and Municipal Trial Courts -- 1,200 salas",
+      "Supreme Court of the Philippines",
+      "Judicial and Bar Council (JBC)",
+      "Bureau of Jail Management and Penology (BJMP)",
+      "Commission on Audit (COA)",
+      "Senate of the Philippines"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Angara-Gordon bill creating judges-at-large (at second reading)"
+    ],
+    "events": [
+      "2017 RTC caseload audit: 640,000+ pending cases",
+      "2017 BJMP capacity audit: 146,302 inmates in 20,653-capacity facilities",
+      "SC's 'pairing' judges program"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Angara-Gordon bill creating 100 RTC judges-at-large will not solve the backlog because (a) the 50 MeTC/MTC judges-at-large are unnecessary since those courts are not congested, (b) judges-at-large will be perceived as inferior to regular judges, (c) frequent dislocations subject them and their families to unmanageable vagaries, and (d) low pay plus security risks in remote rebel-infested areas will deter qualified applicants -- the same factors already causing the 25% regular-RTC vacancy.",
+      "rhetorical_move": "four-defect taxonomy showing the proposed solution recreates the existing problem",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The 25% vacancy rate in regular RTCs -- meaning 275 of 1,100 salas are always unoccupied -- is itself the largest single contributor to the backlog, and aggressively filling these vacancies would solve more of the problem than creating any new class of judges-at-large.",
+      "rhetorical_move": "fix-existing-before-adding-new (the better solution is filling the 25% vacancy and bringing it to a manageable 10%)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The JBC should actively SEARCH for qualified nominees instead of merely waiting for applicants -- the assumption that supply will materialize on its own has been refuted by the persistent 25% vacancy rate.",
+      "rhetorical_move": "shift-from-passive-to-active-recruitment as institutional reform",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Instead of legislating a new class of 150 judges-at-large, Congress should create 150 more regular RTC salas in the congested areas -- same judicial bench-strength but staffed by regular judges with permanent stations, normal incentive structures, and full institutional dignity.",
+      "rhetorical_move": "substitution-of-equivalent-bench-strength via regular salas",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Commission on Audit's revelation that BJMP's 466 penal facilities -- built for 20,653 inmates -- held 146,302 at end-2017, a six-times overload, which CJ uses to physicalize the human cost of RTC backlog as bodies crammed into jails.",
+    "The ~60% of inmates who are mere detainees, not convicts, many of whom will be acquitted but who 'needlessly suffer deprivation of liberty and bear the unflattering stigma of having been a bilanggo' -- using the Tagalog word for jail inmate as the punchy emotional marker.",
+    "CJ's mechanical-system metaphor: 'Any organization or machine that chugs with only 75 percent of its rated capacity is bound to fail' -- applying industrial-engineering logic to the judicial workforce."
+  ],
+  "target_audience": [
+    "Senators and House members considering the Angara-Gordon bill",
+    "JBC members responsible for judicial recruitment",
+    "Civic-minded readers concerned about judicial reform",
+    "Practicing lawyers and would-be judicial applicants"
+  ],
+  "register_markers": [
+    "doctrinal-policy-critique register",
+    "industrial-engineering metaphor for institutional failure ('75 percent of rated capacity')",
+    "statistical density (640,000 cases, 580 cases/sala, 25% vacancy, 6x overload, P200,000 stipend, etc.)",
+    "Tagalog inflection ('bilanggo') to humanize the abstract",
+    "'in my humble opinion' and 'in my humble view' as recurring humility markers",
+    "named-senator attribution for the bill (Angara, Gordon)",
+    "comparative parenthetical aside on MeTC/MTC contrast",
+    "policy-recommendation closing with specific alternatives"
+  ],
+  "decision_framework_signals": [
+    "applies fix-existing-before-adding-new test to proposed institutional expansions",
+    "uses recruitment-supply-side analysis (incentives, dislocation, security) to predict feasibility of new positions",
+    "treats vacancy rate as primary diagnostic before considering structural reforms",
+    "proposes substitution-of-equivalent-bench-strength (regular salas vs at-large) as preferred reform path",
+    "uses statistical concentration (uneven 50-vs-5,000 distribution) as evidence of management failure not capacity failure"
+  ],
+  "one_paragraph_summary": "Panganiban examines the Angara-Gordon Senate bill creating 100 RTC and 50 MeTC/MTC judges-at-large to ease the trial-court backlog of over 640,000 pending cases distributed unevenly across 1,100 RTC salas (some carrying 5,000 cases, others 50), with 25% of RTC salas vacant and BJMP penal facilities holding 146,302 inmates against a 20,653 capacity. He rejects the bill as theoretically appealing but practically unworkable: judges-at-large would be perceived as inferior to regular judges, subjected to constant family dislocation, paid the same as regulars but exposed to security risks in remote and rebel-infested areas, making it even harder to recruit than the regular posts that already suffer 25% vacancy. He argues that the lower-court 50-judge component is unnecessary since MeTC/MTCs are not congested, and proposes instead two complementary reforms: aggressive JBC recruitment to bring the regular RTC vacancy rate from 25% down to 10%, and creating 150 more regular RTC salas in congested areas presided over by regular judges with full institutional dignity rather than the displaced second-class status of judges-at-large.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

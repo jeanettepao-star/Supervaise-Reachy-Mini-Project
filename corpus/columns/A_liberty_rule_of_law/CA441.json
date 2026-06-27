@@ -1,0 +1,136 @@
+{
+  "id": "CA441",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 441,
+  "title": "Filipino concept of justice",
+  "date": "2013-10-13",
+  "link": "https://opinion.inquirer.net/63245/filipino-concept-of-justice",
+  "keywords": [
+    "PDAF realignment",
+    "calamity funds",
+    "supplemental budget",
+    "appropriated vs unappropriated funds",
+    "Bohol earthquake",
+    "pork savings"
+  ],
+  "primary_topics": [
+    "Why both SC and Congress should act on pork barrel -- not either-or",
+    "Realignment of unspent 2013 PDAF as calamity-fund augmentation under Constitution Art VI Sec 25(5)",
+    "Risk: if SC declares PDAF unconstitutional, savings cannot be realigned because the law is void",
+    "Safer solution: supplemental budget or new law to authorize line-agency use"
+  ],
+  "sub_topics": [
+    "Drilon and Belmonte commitment to banish pork barrel from 2014 budget",
+    "Constitutional prohibition on irrepealable laws as reason congressional ban can be undone by future Congress",
+    "SC declaration of unconstitutionality as more durable bar to revival",
+    "Cold neutrality and absence of pecuniary interest distinguishing justices from lawmakers",
+    "Unspent 2013 PDAF: senators waived; SC TRO blocked releases",
+    "Constitution Art VI Sec 25(5) authority to augment from savings for: President, Senate President, Speaker, Chief Justice, heads of Constitutional Commissions",
+    "Administrative Code of 1987 as implementing statute",
+    "Senate resolution urging Aquino to realign PDAF savings to existing calamity funds",
+    "Problem if PDAF declared unconstitutional: savings revert to unappropriated general funds and cannot be realigned",
+    "Solution: supplemental budget or new law authorizing line agencies to use the savings",
+    "Recovery angle: COA or judiciary may order refund of misspent PDAF as fruits of void law"
+  ],
+  "signature_phrases": [
+    "Banish pork completely",
+    "irrepealable laws",
+    "cold neutrality... unlike lawmakers, have no pecuniary interest",
+    "well and good",
+    "the safer solution",
+    "fruits of a void or nonexistent law"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Franklin Drilon (Senate President)",
+      "Feliciano Belmonte (Speaker)",
+      "Benigno Aquino III (President)"
+    ],
+    "institutions": [
+      "Supreme Court",
+      "Congress (Senate and House)",
+      "Office of the President",
+      "Department of Budget and Management",
+      "Commission on Audit",
+      "Bohol/Cebu earthquake responders (referenced)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution Article VI Section 25(5) -- augmentation power",
+      "Administrative Code of 1987",
+      "2013 General Appropriations Act (containing PDAF)"
+    ],
+    "events": [
+      "Drilon and Belmonte's commitment to remove pork from 2014 budget",
+      "SC TRO blocking PDAF releases",
+      "Senate resolution urging realignment of PDAF savings to calamity funds",
+      "October 2013 Bohol/Cebu killer earthquake",
+      "Senators' waiver of remaining PDAF allocations"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Both SC unconstitutionality declaration AND congressional repeal are needed -- not either-or -- because the Constitution bars irrepealable laws, meaning future Congresses could revive pork barrel after Drilon/Belmonte's terms end; only SC unconstitutionality provides a more durable (though not absolute) bar.",
+      "rhetorical_move": "both-and-not-either-or framing (escaping the binary the question posed)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Justices are better guardians than lawmakers against pork revival because of 'cold neutrality' and 'no pecuniary interest' in the pork barrel -- the structural-incentives argument, not a personal-virtue claim.",
+      "rhetorical_move": "structural-incentive comparison (institutional design over individual character)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Senate resolution urging Aquino to realign unspent 2013 PDAF to augment calamity funds is constitutional under Art VI Sec 25(5) and the Administrative Code -- makes legal, political, and humanitarian sense.",
+      "rhetorical_move": "tri-test validation (constitutional + political + humanitarian)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "BUT if the SC declares PDAF unconstitutional, the unspent funds cease to be 'appropriated funds' and revert to unappropriated general funds -- which cannot be realigned because realignment presupposes appropriation; thus the Senate's realignment plan would be legally orphaned.",
+      "rhetorical_move": "contingent-legal-trap identification (showing how a desired outcome becomes self-defeating under a probable future ruling)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The safer course is for Congress to pass a supplemental budget or new law authorizing line agencies to use the savings -- only Congress can appropriate, neither the President nor the SC can spend unappropriated funds without enabling legislation.",
+      "rhetorical_move": "safer-path recommendation (offering forward-compatible remedy under multiple SC-ruling scenarios)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Misspent PDAF prior to the TRO can still be recovered -- COA or the judiciary in appropriate proceedings can order refunds as 'fruits of a void or nonexistent law,' should the SC declare PDAF unconstitutional.",
+      "rhetorical_move": "recovery-mechanism mapping (closing the loop from unconstitutionality to fund recovery)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 'cold neutrality... no pecuniary interest' distinction between justices and lawmakers -- the structural-incentives argument stated as Justice-vs-Legislator institutional comparison, not a virtue claim. The phrasing positions the SC as more reliable not because justices are better people but because they don't personally benefit from pork.",
+    "The constitutional bar on irrepealable laws as the technical reason future Congresses can revive pork -- the moment where a procedural-constitutional rule becomes the strategic argument for SC over Congress as the more durable abolisher.",
+    "The contingent-trap framing of the Senate realignment proposal: it works only if PDAF survives constitutional challenge, and is legally orphaned if PDAF doesn't. The savings become 'fruits of a void or nonexistent law' -- a phrase whose legal-organic vocabulary makes void-ness feel almost decomposable."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Senate and House staff considering realignment proposals",
+    "Bohol/Cebu earthquake survivors and advocacy groups",
+    "Budget officials and DBM"
+  ],
+  "register_markers": [
+    "question-framing opening ('is there still a need for Congress to act?')",
+    "'well and good' as repeated acknowledgment-then-pivot transition",
+    "constitutional-citation register (Art VI Sec 25(5))",
+    "contingent-legal-trap reasoning style",
+    "structural-incentives vocabulary ('cold neutrality,' 'pecuniary interest')",
+    "safer-path recommendation closing"
+  ],
+  "decision_framework_signals": [
+    "uses both-and-not-either-or framing to escape a falsely-binary question",
+    "deploys structural-incentive comparison over individual-character argument",
+    "applies tri-test validation (constitutional + political + humanitarian) to proposals",
+    "identifies contingent legal traps where desired outcomes become self-defeating under probable future rulings",
+    "recommends forward-compatible remedies that work under multiple ruling scenarios",
+    "closes the loop with recovery-mechanism mapping (linking unconstitutionality to fund-recovery routes)"
+  ],
+  "one_paragraph_summary": "Panganiban rejects the false binary of SC-or-Congress and argues both must act on pork barrel. If Congress alone repeals (as Senate President Franklin Drilon and Speaker Feliciano Belmonte have committed), the Constitution's bar on irrepealable laws means future Congresses could revive pork once Drilon and Belmonte's terms end. Only an SC unconstitutionality declaration provides a more durable bar, because justices have 'cold neutrality' and 'no pecuniary interest' in pork -- a structural-incentives argument, not a virtue claim. Turning to the unspent 2013 PDAF (senators waived allocations; SC TRO blocked releases), he validates the Senate resolution urging President Aquino to realign these savings to augment existing calamity funds under Constitution Art VI Sec 25(5) and the Administrative Code of 1987 -- the move makes legal, political, and humanitarian sense for Bohol/Cebu earthquake survivors. BUT he identifies a contingent legal trap: if the SC declares PDAF unconstitutional, the unspent funds cease to be 'appropriated funds' and revert to unappropriated general funds, which cannot be realigned because realignment presupposes appropriation. The 'safer solution' is for Congress to pass a supplemental budget or new law authorizing line agencies to use the savings -- only Congress can appropriate; neither the President nor the SC can spend unappropriated funds. As to PDAF allegedly misspent prior to the TRO, COA or the judiciary may order refunds as 'fruits of a void or nonexistent law.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

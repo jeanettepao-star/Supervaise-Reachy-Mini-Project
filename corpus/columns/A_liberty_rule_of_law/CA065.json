@@ -1,0 +1,172 @@
+{
+  "id": "CA065",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 65,
+  "title": "Scotus legalizes bribery",
+  "date": "2024-07-29",
+  "link": "https://opinion.inquirer.net/175548/scotus-legalizes-bribery",
+  "keywords": [
+    "Snyder v. United States",
+    "Section 666 US Code",
+    "bribes vs gratuities",
+    "Brett Kavanaugh ponente",
+    "Ketanji Brown Jackson dissent",
+    "6-3 conservative majority",
+    "Biden Harris transition",
+    "John Marshall rolling in his grave",
+    "James Snyder Portage Indiana"
+  ],
+  "primary_topics": [
+    "Snyder v. United States (June 26, 2024) -- Scotus 6-3 acquitting Portage, Indiana Mayor James Snyder of accepting 'illegal gratuity' under Section 666",
+    "Scotus bribes-vs-gratuities timing distinction (before-act = bribe; after-act = potentially-permissible gratuity) and CJ's rejection as non-substantive linguistic dodge",
+    "US political-turmoil context (Biden's July 12 Putin/Ukraine confusion; July 21 withdrawal endorsing Harris; $150M in 24h)",
+    "CJ's recurring dismay with Scotus ethics -- 'flabbergasted! The great chief justice John Marshall must be rolling in his grave'"
+  ],
+  "sub_topics": [
+    "US political turmoil setup: Biden June 27 debate stumble; July 12 press conference confusing Putin/Ukraine and Trump/VP; days of pressure; COVID; July 21 withdrawal endorsing Harris; Harris $150M in 24h",
+    "Harris-vs-Trump framing: 'a relatively young incumbent lady vice president, former US senator, and federal prosecutor with Asian descent versus a former president, Caucasian blabbermouth, and the oldest felon to seek the presidency of the most powerful country in the planet'",
+    "Snyder facts: 2013 Portage purchase of 5 trash trucks from Great Lakes Peterbilt Co. for ~$1.1M; 2014 Peterbilt cut $13,000 check to Snyder",
+    "Federal jury conviction; consulting-services defense rejected; district court 1y9m sentence; US Court of Appeals affirmed",
+    "Section 666(a)(1)(B) preserved verbatim -- penalizes agent of org/state/local/tribal government corruptly soliciting/accepting anything of value of $5,000+",
+    "Scotus 6-3: 6 conservatives appointed by Republican presidents (3 by Trump) vs 3 liberals",
+    "Bribes-vs-gratuities distinction: bribes 'inherently corrupt and unlawful'; gratuities 'more nuanced... Some gratuities might be innocuous'",
+    "16-page Kavanaugh majority: Section 666 is 'bribery statute' requiring 'corrupt state of mind'; left as state matter",
+    "22-page Ketanji Brown Jackson dissent ('veiled swipe'): 'Snyder's absurd and atextual reading of the statute is one [that] only today's Court could love'",
+    "CJ's rejection: 'simple mind cannot grasp and accept' the before/after distinction; 'a simple, plain, and shameful crime against the people'",
+    "CJ's earlier June 17 column on Scotus ethics: royalties, speaking fees, expensive gifts, paid vacations in exclusive hotels with private yachts/planes, hobnobbing with rich and famous, partisan political bias",
+    "Closing: 'Now, I am no longer dismayed. I am flabbergasted! The great chief justice John Marshall must be rolling in his grave'"
+  ],
+  "signature_phrases": [
+    "dizzying political turmoil",
+    "miserably confused",
+    "I am more befuddled by",
+    "practically legalized bribery",
+    "an illegal gratuity",
+    "a corrupt state of mind",
+    "more nuanced",
+    "Some gratuities might be innocuous",
+    "with a veiled swipe at the majority",
+    "absurd and atextual reading",
+    "only today's Court could love",
+    "my simple mind cannot grasp and accept",
+    "a linguistic distinction that does not make a substantive difference",
+    "a simple, plain, and shameful crime against the people",
+    "Now, I am no longer dismayed. I am flabbergasted!",
+    "The great chief justice John Marshall must be rolling in his grave",
+    "Caucasian blabbermouth",
+    "the oldest felon",
+    "unabashed acceptance",
+    "hobnobbing with the rich and famous",
+    "partisan political bias"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "President Joe Biden",
+      "Vice President Kamala Harris",
+      "Former President Donald Trump",
+      "Vladimir Putin",
+      "Mayor James Snyder (Portage, Indiana)",
+      "Justice Brett M. Kavanaugh (majority ponente)",
+      "Justice Ketanji Brown Jackson ('neophyte'; dissenter)",
+      "Chief Justice John Marshall (historical reference)"
+    ],
+    "institutions": [
+      "Supreme Court of the United States (Scotus)",
+      "Supreme Court of the Philippines (implicit comparator)",
+      "US Court of Appeals",
+      "Federal district court",
+      "Federal jury",
+      "Great Lakes Peterbilt Co.",
+      "City of Portage, Indiana",
+      "US Democratic Party",
+      "US Republican Party"
+    ],
+    "cases": [
+      "Snyder v. United States (June 26, 2024) -- 6-3"
+    ],
+    "laws_treaties": [
+      "Section 666(a)(1)(B) of the US Code"
+    ],
+    "concepts": [
+      "Bribe (before-act, inherently corrupt and unlawful)",
+      "Gratuity (after-act, 'more nuanced')",
+      "Corrupt state of mind",
+      "Linguistic distinction without substantive difference"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Snyder v. United States Scotus decision (June 26, 2024, 6-3, Kavanaugh writing for conservatives, Jackson dissenting) 'practically legalized bribery' by distinguishing bribes (given BEFORE an official act to influence) from gratuities (given AFTER as 'reward or token of appreciation') under Section 666 of the US Code -- acquitting Mayor James Snyder despite his accepting a $13,000 Peterbilt check a year after Portage purchased five trash trucks from Peterbilt for ~$1.1M.",
+      "rhetorical_move": "decision-summary with charge-laden verb ('practically legalized')"
+    },
+    {
+      "claim": "Kavanaugh's majority held that Section 666 is a 'bribery statute' requiring a 'corrupt state of mind' -- not proven in Snyder; left as a state, not federal, matter. Jackson's 22-page dissent retorted with a 'veiled swipe' that 'Snyder's absurd and atextual reading of the statute is one [that] only today's Court could love.'",
+      "rhetorical_move": "majority-vs-dissent framing with quoted-swipe preservation"
+    },
+    {
+      "claim": "CJ's 'simple mind cannot grasp and accept' the bribe/gratuity timing distinction -- 'In both, the purpose of the gift is the same -- to influence the public official into performing an official act according to the giver's direction. To me, it does not matter whether the reward or token of appreciation was given before or after the act; or a part was given before and the balance after. The act is a simple, plain, and shameful crime against the people.'",
+      "rhetorical_move": "common-sense-rejection of doctrinal distinction"
+    },
+    {
+      "claim": "The Scotus produced 'a linguistic distinction that does not make a substantive difference' -- CJ 'cannot imagine our Supreme Court proudly posing' such a distinction.",
+      "rhetorical_move": "comparative-court superiority claim (PH SC implicit)"
+    },
+    {
+      "claim": "Snyder is not isolated. CJ's June 17 column already documented Scotus practices -- 'unabashed acceptance of enormous sums as royalties, speaking fees, expensive gifts, paid vacations in exclusive hotels with private yachts and private planes, hobnobbing with the rich and famous in private clubs and, lately, partisan political bias' -- 'unethical, if not illegal.'",
+      "rhetorical_move": "pattern-evidence escalation"
+    },
+    {
+      "claim": "Closing escalation: 'Now, I am no longer dismayed. I am flabbergasted! The great chief justice John Marshall must be rolling in his grave.'",
+      "rhetorical_move": "emotional-escalation closing with historical-Marshall invocation"
+    },
+    {
+      "claim": "Political-context setup: Biden's July 12 press conference 'miserably confused Russian Vladimir Putin to be the president of Ukraine, and Donald Trump to be the US veep'; July 21 withdrawal endorsing Harris who 'worked feverishly... getting a record $150 million in campaign contributions in 24 hours.' The battle: 'a relatively young incumbent lady vice president, former US senator, and federal prosecutor with Asian descent versus a former president, Caucasian blabbermouth, and the oldest felon to seek the presidency of the most powerful country in the planet.'",
+      "rhetorical_move": "political-tableau setup with sharp character-portraits"
+    }
+  ],
+  "notable_anecdotes": [
+    "Biden-Trump-Harris political-tableau opening: July 12 Putin/Ukraine/Trump-veep confusion; July 21 withdrawal endorsing Harris; '$150 million in campaign contributions in 24 hours' -- preserved as framing scene.",
+    "Harris-Trump character contrast preserved verbatim: 'a relatively young incumbent lady vice president, former US senator, and federal prosecutor with Asian descent versus a former president, Caucasian blabbermouth, and the oldest felon to seek the presidency of the most powerful country in the planet.'",
+    "Snyder facts preserved precisely: 2013 Portage purchase of 5 trash trucks for ~$1.1M; 2014 $13,000 Peterbilt check; jury rejecting consulting-services defense; 1y9m sentence; US Court of Appeals affirmance.",
+    "Section 666(a)(1)(B) preserved verbatim -- full statutory-text quotation discipline.",
+    "Justice Ketanji Brown Jackson's 'veiled swipe' dissent line: 'Snyder's absurd and atextual reading of the statute is one [that] only today's Court could love.'",
+    "CJ's earlier June 17 Scotus-ethics catalog preserved as cumulative-pattern documentation.",
+    "Closing peroration: 'Now, I am no longer dismayed. I am flabbergasted! The great chief justice John Marshall must be rolling in his grave.'"
+  ],
+  "target_audience": [
+    "PH legal community (judges, lawyers, academics)",
+    "US-Philippine bilateral observers",
+    "International rule-of-law advocates",
+    "Inquirer readers tracking Scotus jurisprudence",
+    "Anti-corruption and good-governance advocates",
+    "Comparative-law scholars"
+  ],
+  "register_markers": [
+    "dizzying-political-turmoil opening register",
+    "sharp character-portrait coining ('Caucasian blabbermouth'; 'oldest felon')",
+    "decision-summary with charge-laden verb ('practically legalized')",
+    "statutory-text verbatim-quotation discipline (Section 666)",
+    "majority-vs-dissent quoted-swipe framing",
+    "common-sense-rejection register ('my simple mind cannot grasp')",
+    "comparative-court superiority claim (PH SC implicit)",
+    "pattern-evidence escalation",
+    "emotional-escalation closing ('flabbergasted')",
+    "historical-Marshall invocation ('rolling in his grave')",
+    "'unethical, if not illegal' hedged-condemnation marker"
+  ],
+  "decision_framework_signals": [
+    "applies common-sense-rejection of doctrinal distinction (bribe-vs-gratuity timing)",
+    "uses purpose-of-the-gift test as substantive-equivalence demonstration",
+    "deploys statutory-text verbatim quotation as anchor",
+    "treats majority-vs-dissent dynamic as moral-validation device",
+    "frames cumulative-pattern documentation as moral-evidence escalation",
+    "applies comparative-court superiority claim as Philippine-judicial pride",
+    "uses historical-John-Marshall invocation as foundational-moral-baseline appeal"
+  ],
+  "one_paragraph_summary": "Panganiban opens with the 'dizzying political turmoil' in the US -- Biden's July 12 press conference 'miserably confused Russian Vladimir Putin to be the president of Ukraine, and Donald Trump to be the US veep'; his July 21 withdrawal-and-Harris-endorsement after contracting COVID; Harris's record '$150 million in campaign contributions in 24 hours.' The contest is now 'between a relatively young incumbent lady vice president, former US senator, and federal prosecutor with Asian descent versus a former president, Caucasian blabbermouth, and the oldest felon to seek the presidency of the most powerful country in the planet.' But as a lawyer and retired jurist, CJ is 'more befuddled by' the recent decision in Snyder v. United States (June 26, 2024) that 'practically legalized bribery.' The facts: James Snyder, mayor of Portage, Indiana, presided over the city's 2013 purchase of five trash trucks from Great Lakes Peterbilt Co. for about $1.1M; in 2014, Peterbilt 'cut a check for $13,000 to Snyder.' A federal jury convicted him of 'accepting an illegal gratuity in violation of Section 666 of the US Code,' rejecting his 'consulting services' defense; the district court sentenced him to 1 year and 9 months; the US Court of Appeals affirmed. Section 666(a)(1)(B) penalizes any agent of an organization or state/local/tribal government who 'corruptly solicits or demands... or accepts, or agrees to accept, anything of value... intending to be influenced or rewarded in connection with any business, transaction... involving any thing of value of $5,000 or more.' The Scotus, 6-3 (six conservatives appointed by Republican presidents -- three by Trump -- against three liberals appointed by Democratic presidents), acquitted by distinguishing bribes (given BEFORE an official act, 'inherently corrupt and unlawful') from gratuities (given AFTER as 'reward or token of appreciation,' which 'might be innocuous' or might 'raise ethical and appearance concerns,' with 'Federal, state, and local governments... drawn different lines'). Justice Brett M. Kavanaugh's 16-page majority held that Section 666 is a 'bribery statute' requiring a 'corrupt state of mind,' not proven in Snyder's case -- and left the issue as a state, not federal, matter. With a 'veiled swipe at the majority,' the 22-page dissent of 'neophyte Justice Ketanji Brown Jackson' sneered, 'Snyder's absurd and atextual reading of the statute is one [that] only today's Court could love.' Like Justice Jackson, CJ's 'simple mind cannot grasp and accept the Scotus distinction between money or gift given BEFORE and AFTER an official act is performed. In both, the purpose of the gift is the same -- to influence the public official into performing an official act according to the giver's direction. To me, it does not matter whether the reward or token of appreciation was given before or after the act; or a part was given before and the balance after. The act is a simple, plain, and shameful crime against the people.' CJ 'cannot imagine our Supreme Court proudly posing a linguistic distinction that does not make a substantive difference.' But perhaps he should not be shocked: his June 17 column was already 'utterly dismayed' at Scotus practices -- 'their unabashed acceptance of enormous sums as royalties, speaking fees, expensive gifts, paid vacations in exclusive hotels with private yachts and private planes, hobnobbing with the rich and famous in private clubs and, lately, partisan political bias' -- 'unethical, if not illegal.' Closing escalation: 'Now, I am no longer dismayed. I am flabbergasted! The great chief justice John Marshall must be rolling in his grave.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

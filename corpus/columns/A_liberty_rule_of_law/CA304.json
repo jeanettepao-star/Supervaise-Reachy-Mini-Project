@@ -1,0 +1,134 @@
+{
+  "id": "CA304",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 304,
+  "title": "Who's still afraid of martial law?",
+  "date": "2017-07-30",
+  "link": "https://opinion.inquirer.net/105940/whos-still-afraid-martial-law",
+  "keywords": [
+    "martial law fears",
+    "Marcos ML vs Duterte ML",
+    "1987 Constitution",
+    "Proclamation 216",
+    "Marawi rebellion",
+    "constitutional safeguards",
+    "Duterte authoritarianism",
+    "1972 martial law",
+    "Defense Secretary Lorenzana"
+  ],
+  "primary_topics": [
+    "Systematic comparison of Marcos-era ML (1972) vs Duterte-era ML (2017) to rebut ongoing public fear",
+    "1987 Constitution as the primary institutional safeguard that made Duterte's ML structurally different",
+    "CJ's conditional endorsement of Duterte's constitutional discretion while acknowledging its limits"
+  ],
+  "sub_topics": [
+    "SC 11-2-1-1 vote upholding Proclamation 216",
+    "Congress joint session extending ML to end of 2017 (261-18)",
+    "Duterte's Sona vow: not 'stupid' enough for nationwide ML",
+    "Marcos 1972 ML: closed Congress, presidential decrees, letters of instruction",
+    "Marcos: forced 1973 constitution via Constitutional Convention and dubious barangay hand-raising",
+    "Marcos: mass arrests, detention of political enemies, closure of media on Day 1",
+    "Marcos: restriction of right to travel ($200 travel permit limit)",
+    "Marcos: ban on mass actions, warrantless arrests, intimidated judges",
+    "Duterte ML: Congress, local assemblies, courts freely functioning",
+    "No media closures, no mass arrests, no political detention, travel inviolable under Duterte",
+    "ML not evil per se -- 1987 Constitution restricted but did not abolish it",
+    "Credit to Lorenzana and Año for constitutional ML implementation",
+    "Solicitor General Calida: ML is just an 'exclamation point'",
+    "CJ's view: Duterte does not even need ML given military superiority"
+  ],
+  "signature_phrases": [
+    "Who's still afraid of martial law?",
+    "clearly, ML is not evil per se",
+    "victory of our 1987 Constitution",
+    "when guns speak, laws are silent",
+    "Rodrigo Duterte is the President. I am just a humble retired jurist",
+    "the fastest way to end the rebellion in Marawi and Mindanao",
+    "exclamation point",
+    "If he wants to be a dictator, ML is no longer the way. To be that, all he needs is 'to throw away that piece of paper called the Constitution'"
+  ],
+  "entities": {
+    "people": [
+      "President Rodrigo Duterte",
+      "Ferdinand Marcos",
+      "Defense Secretary Delfin Lorenzana",
+      "Armed Forces Chief of Staff Eduardo Año",
+      "Solicitor General Jose C. Calida",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Congress of the Philippines",
+      "Armed Forces of the Philippines"
+    ],
+    "cases": [
+      "Lagman vs Medialdea -- SC upheld Proclamation 216 (11-2-1-1)"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution -- defanged martial law provisions",
+      "1973 Philippine Constitution -- adopted under Marcos via dubious Constitutional Convention and barangay hand-raising"
+    ],
+    "events": [
+      "Ferdinand Marcos Proclamation of Martial Law (1972) -- mass arrests, media closures, Day 1",
+      "Marcos-forced 1973 Constitutional Convention and barangay ratification",
+      "SC ruling upholding Proclamation 216 (11-2-1-1)",
+      "Congress joint session extending ML to end-2017 (261-18 vote)",
+      "Duterte State of the Nation Address (July 24, 2017)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The fear of Duterte's martial law is empirically unjustified: unlike Marcos's 1972 ML which immediately closed Congress, arrested political enemies, shuttered media, and imposed dictatorial lawmaking, Duterte's ML has produced none of those effects — Congress, courts, local assemblies, and media are all freely functioning.",
+      "rhetorical_move": "point-by-point empirical-contrast: Marcos ML effects (list) vs Duterte ML (none of the above)",
+      "confidence": "asserted as observable fact"
+    },
+    {
+      "claim": "The 1987 Constitution itself is the true hero: by defanging ML without abolishing it, it successfully transformed a dictatorial weapon into a limited constitutional tool — its survival in the Charter as a restricted instrument is itself proof that ML is not evil per se.",
+      "rhetorical_move": "constitutional-design vindication argument: the Charter's choice to retain but restrict ML as normative proof of its legitimacy",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "If Duterte truly wanted authoritarian rule, he would not need ML — he would simply 'throw away that piece of paper called the Constitution' and rely on military and police power; his constitutional compliance is therefore a meaningful choice, not a constraint.",
+      "rhetorical_move": "counterfactual-framing: Duterte's non-use of raw force as affirmative evidence of constitutional deference",
+      "confidence": "asserted with 'I think' qualifier"
+    },
+    {
+      "claim": "CJ Panganiban personally believes Duterte does not even need ML because the military's constitutional police powers are sufficient to suppress the Marawi rebellion — but defers completely to the President's sole constitutional discretion.",
+      "rhetorical_move": "humble-dissent-with-deference: registering a disagreement while explicitly withdrawing any prescriptive authority",
+      "confidence": "asserted as personal opinion with full deference to executive prerogative"
+    }
+  ],
+  "notable_anecdotes": [
+    "Duterte's own quote from the Sona — 'the fastest way to end the rebellion' — used as the President's own framing of why he chose ML, immediately followed by CJ's quiet counter-observation that even the SolGen described ML as a mere 'exclamation point' adding no new power, creating a subtle irony.",
+    "Marcos's specific Day-1 actions catalogued in granular detail: mass arrests, media closures, $200 travel permit cap, warrantless searches, intimidated judges — providing a vivid historical baseline that makes the Duterte contrast factually unanswerable rather than merely asserted.",
+    "CJ crediting Defense Secretary Lorenzana and AFP Chief Año by name for the constitutional implementation of Duterte's ML — an unusual direct acknowledgment of military officials as institutional safeguards, reflecting CJ's comfort with executive actors who operate within constitutional bounds."
+  ],
+  "target_audience": [
+    "Citizens fearful of ML based on Marcos-era memory",
+    "Political analysts assessing whether Duterte is replicating authoritarian patterns",
+    "Civil society advocates monitoring constitutional compliance of ML",
+    "General Inquirer readership following the Marawi siege and ML discourse",
+    "Military and government officials implementing ML"
+  ],
+  "register_markers": [
+    "rhetorical-question title as direct public-address ('Who's still afraid of martial law?')",
+    "empirical-contrast register (Marcos ML vs Duterte ML: numbered effects vs observed non-effects)",
+    "constitutional-vindication register ('victory of our 1987 Constitution')",
+    "deferential-executive register ('I am just a humble retired jurist. The discretion … is solely his')",
+    "aphorism ('when guns speak, laws are silent') as rhetorical accent",
+    "direct quotation of Duterte and Calida as authoritative co-witnesses for CJ's argument",
+    "named-official credit (Lorenzana, Año) as institutional-accountability acknowledgment"
+  ],
+  "decision_framework_signals": [
+    "uses empirical-contrast checklist (Marcos Day-1 effects vs Duterte observed non-effects) as primary evidentiary framework",
+    "applies constitutional-design intent argument (1987 Charter retained but restricted ML) as normative baseline",
+    "uses counterfactual-capability test (could Duterte go further without ML?) to assess constitutional deference",
+    "treats executive-discretion doctrine as absolute within constitutional bounds, requiring full deference even when personally disagreeing",
+    "cites military officials (Lorenzana, Año) as institutional guarantors of constitutional ML implementation"
+  ],
+  "one_paragraph_summary": "Writing two weeks after the SC's 11-2-1-1 ruling upholding Proclamation 216 and Congress's 261-18 extension of ML to year-end, Panganiban addresses lingering public fear of martial law by systematically contrasting Marcos's 1972 ML -- which on Day 1 closed Congress, arrested political enemies, shuttered media, imposed travel restrictions and $200 travel permits, banned mass actions, conducted warrantless arrests, and intimidated judges -- against Duterte's ML under which Congress, courts, local assemblies, and media are all freely functioning, no political arrests have occurred, and travel remains inviolable. He argues this contrast vindicates the 1987 Constitution, which defanged ML without abolishing it, making it a constitutional instrument rather than a dictatorial one. He credits Defense Secretary Lorenzana and AFP Chief Año for constitutional implementation, cites Duterte's own Sona statement and Solicitor General Calida's 'exclamation point' characterization to frame ML's limited operational value, and quietly registers his personal view that Duterte does not even need ML -- before closing with full deference to the President's sole constitutional discretion: 'Rodrigo Duterte is the President. I am just a humble retired jurist.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

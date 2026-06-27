@@ -1,0 +1,134 @@
+{
+  "id": "CA282",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 282,
+  "title": "Federal-presidential vs hybrid system",
+  "date": "2018-03-04",
+  "link": "https://opinion.inquirer.net/111476/federal-presidential-vs-hybrid-system",
+  "keywords": [
+    "ConCom federal-presidential 11-7",
+    "hybrid semi-presidential ConCom",
+    "PDP-Laban prime minister",
+    "FLP dissertation Pangalangan Tan",
+    "US federal model Philippines"
+  ],
+  "primary_topics": [
+    "ConCom's 11-7 choice of federal-presidential over hybrid system",
+    "Conflict between ConCom and PDP-Laban draft models",
+    "FLP dissertation contest results announcement"
+  ],
+  "sub_topics": [
+    "Federal-presidential: tripartite separation + nationally elected president/VP + state layer with state courts",
+    "Similar to US model; second layer of regions/states with local governance",
+    "Hybrid semi-presidential (the losing option)",
+    "PDP-Laban concept: president as head of state (defense/foreign affairs) + PM elected by HOR (domestic/economic policy)",
+    "Author's characterization: PDP-Laban model is French/Russian presidential-parliamentary",
+    "Under US model: VP retained with Senate presiding role; SC retains coequal tripartite status",
+    "Under French model: VP redundant; Senate and SC reduced in status and power",
+    "PDP-Laban leadership: Duterte (chair), Pimentel (president), Alvarez (secretary general)",
+    "Will PDP-Laban supermajority in Congress heed the ConCom?",
+    "Pangalangan: first place P300,000 -- 'Enforcing Liberty and Prosperity Through the Courts of Law'",
+    "Tan: second place P200,000 -- 'Liberty and Prosperity in the Digital Age'",
+    "Four finalists: Evora, Frias, Napoles, Odulio at P20,000 each",
+    "Board of Judges: J. Velasco (chair), de Jesus, Hermosura, Candelaria, Lat"
+  ],
+  "signature_phrases": [
+    "federal-presidential",
+    "hybrid semi-presidential",
+    "head of state... responsible for national defense and foreign affairs",
+    "head of government... responsible for domestic and economic policy",
+    "coequal tripartite status",
+    "VP becomes redundant",
+    "Let us wait and see"
+  ],
+  "entities": {
+    "people": [
+      "Raphael Lorenzo Pangalangan (first place)",
+      "Tess Marie Tan (second place)",
+      "Rexlyn Anne Evora (finalist)",
+      "Helen May Frias (finalist)",
+      "Janine Faye Napoles (finalist)",
+      "Joben Mariz Odulio (finalist)",
+      "President Rodrigo Duterte",
+      "Senate President Aquilino Pimentel III",
+      "Speaker Pantaleon Alvarez",
+      "Judge Raul C. Pangalangan (Raphael's father, ICC)",
+      "Prof. Elizabeth Pangalangan (Raphael's mother, UP Law)",
+      "Justice Presbitero J. Velasco Jr. (Board of Judges chair)",
+      "Former Education Sec. Edilberto C. de Jesus",
+      "Ayala Corp. General Counsel Solomon M. Hermosura",
+      "Dean Sedfrey M. Candelaria (PALS president)",
+      "Prof. Tanya Lat",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Consultative Committee (ConCom)",
+      "PDP-Laban",
+      "Foundation for Liberty and Prosperity (FLP)",
+      "Ayala Corporation",
+      "Philippine Association of Law Schools (PALS)",
+      "Congress of the Philippines",
+      "French Republic (comparative reference)",
+      "Russian Federation (comparative reference)",
+      "United States (comparative reference)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution (tripartite separation of powers)",
+      "PDP-Laban federal constitution concept"
+    ],
+    "events": [
+      "ConCom 11-7 vote on federal-presidential system",
+      "FLP Dissertation Contest awarding ceremony (March 23, 2018, Ateneo de Manila Law School)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The ConCom's 11-7 choice of the US-style federal-presidential system preserves the VP, the Senate's coequal status, and the SC's tripartite co-equality -- all of which the French/hybrid model would diminish.",
+      "rhetorical_move": "comparative institutional-design endorsement of the winning option",
+      "confidence": "high"
+    },
+    {
+      "claim": "The ConCom's first major decision runs contrary to PDP-Laban's preferred presidential-parliamentary model -- raising the question of whether the PDP-Laban supermajority in Congress will override it.",
+      "rhetorical_move": "conflict-identification as an open question",
+      "confidence": "high"
+    },
+    {
+      "claim": "The PDP-Laban concept is more akin to the French (or Russian) presidential-parliamentary system than to a true federal model.",
+      "rhetorical_move": "comparative characterization disagreeing with the party label",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 11-7 ConCom vote as its 'first major decision' -- choosing the American-style tripartite federal-presidential over the hybrid semi-presidential model.",
+    "PDP-Laban's website (as of March 2017) explicitly describing the party's preferred federal model as a prime-minister-elected-by-the-HOR system -- which the author characterizes as French or Russian, not American.",
+    "Raphael Lorenzo Pangalangan as both the son of ICC Judge Raul C. Pangalangan and a student at Oxford and UP -- a pedigree the column notes with obvious admiration.",
+    "Four contestants at P20,000 each: Evora (PUP), Frias (FEU), Napoles (CEU), Odulio (Ateneo) -- demonstrating the broad school participation."
+  ],
+  "target_audience": [
+    "ConCom members who need to reconcile with PDP-Laban",
+    "Congress considering which federalism model to adopt",
+    "Constitutional law and comparative government scholars",
+    "FLP dissertation alumni and academic community",
+    "Civic readership tracking the Cha-cha debate"
+  ],
+  "register_markers": [
+    "Institutional-design comparative analysis (US vs French vs Russian)",
+    "Vote-count reporting (11-7)",
+    "Question-to-Congress framing ('Let us wait and see')",
+    "FLP dissertation announcement with full roster and prize amounts",
+    "Pedigree notation for Pangalangan family",
+    "Author's own characterization label ('in my humble view')"
+  ],
+  "decision_framework_signals": [
+    "Evaluate constitutional models by their structural protections for coequal branches -- does the VP survive? Does the SC remain coequal?",
+    "Identify the governing party's preferred model and test whether the ConCom's recommendation aligns with it -- if not, forecast legislative conflict",
+    "Use comparative labels precisely: presidential-parliamentary (French/Russian) ≠ federal-presidential (American)",
+    "Anticipate that a ruling party's supermajority may override a commission's recommendation if they conflict"
+  ],
+  "one_paragraph_summary": "Panganiban reports on the Consultative Committee's first major decision: an 11-7 vote choosing the US-style federal-presidential system over the hybrid semi-presidential model. The winning system preserves a tripartite separation of legislative, executive, and judicial powers with a nationally elected president and vice president, a secondary layer of regions or 'states' with state courts, and the Supreme Court's coequal tripartite status -- mirroring the United States. This stands in direct contrast to PDP-Laban's preferred concept (as described on its March 2017 website) of a president as 'head of state responsible for national defense and foreign affairs' and a prime minister 'elected by the House of Representatives/National Assembly responsible for domestic and economic policy' -- which the author characterizes as more akin to the French or Russian presidential-parliamentary system, under which the VP becomes redundant and the Senate and SC are reduced in status and power. Given that PDP-Laban controls the congressional supermajority through Duterte (chair), Pimentel (president), and Alvarez (secretary general), the author asks whether Congress will heed the ConCom's recommendation and leaves it as an open question: 'Let us wait and see.' The column's second section announces the FLP Dissertation Contest winners: Raphael Lorenzo Pangalangan (Oxford/UP, son of ICC Judge Raul Pangalangan and UP Law Prof. Elizabeth Pangalangan) taking first place with P300,000, Tess Marie Tan (USan Carlos) second with P200,000, and four finalists at P20,000 each -- all to be formally awarded on March 23 at Ateneo Law School with Justice Velasco chairing the board of judges.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

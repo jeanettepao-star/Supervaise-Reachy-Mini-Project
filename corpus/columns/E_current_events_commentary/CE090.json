@@ -1,0 +1,200 @@
+{
+  "id": "CE090",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 90,
+  "title": "The myth of powerful parties",
+  "date": "2016-04-17",
+  "link": "https://opinion.inquirer.net/94327/the-myth-of-powerful-parties",
+  "keywords": [
+    "Myth of powerful parties",
+    "US Democratic/Republican primaries 2016 contrast",
+    "LP-NP pre-Edsa duopoly",
+    "Manahan 1957 Manglapus 1965 Progressive Party",
+    "1987 Constitution discouragement of two-party system",
+    "party-list 'political mongrel' lament",
+    "1992 Mitra/Ramos to 2010 Teodoro/Aquino history showing personal charisma beats party machine",
+    "Arroyo 2004 sole exception"
+  ],
+  "primary_topics": [
+    "PH political parties play minimal role under 1987 Constitution despite party-power myths",
+    "Pre-EDSA LP-NP 'duopoly' contrasted with US Democratic-Republican ideological parties",
+    "1987 Constitution's party-list 'experiment' as confused political mongrel",
+    "1992, 1998, 2010 presidential elections demonstrating personal-charisma victories",
+    "Powerful parties' residual advantages -- watcher appointment, returns access, additional expenditures"
+  ],
+  "sub_topics": [
+    "Ongoing US Democratic and Republican nomination process media coverage",
+    "Clinton vs Sanders state-by-state battle",
+    "Trump vs Cruz vs Kasich Republican showdown",
+    "Pre-EDSA I PH party politics: LP and NP 'duopoly'",
+    "Brief challenges: Progressive Party (Manahan 1957) and Party for Philippine Progress (Manglapus 1965)",
+    "LP-NP did not essentially differ in ideology or platform",
+    "PH parties existed to perpetuate political agenda of party bosses choosing candidates",
+    "US parties stood for opposing principles + millions of active members in primaries/caucuses",
+    "Even incumbent US presidents cannot dictate to primaries",
+    "1987 Constitution discouraged two-party system, encouraged multiple parties",
+    "Party-list scheme borrowed from European parliamentary models",
+    "Injected into American-oriented presidential PH system",
+    "'Experiment' resulting in 'a political mongrel that, in all humility, I cannot comprehend fully'",
+    "1992 presidential race: Ramon Mitra (LDP candidate of party in power) lost to virtual independent Fidel V. Ramos",
+    "Ironically Ramos backed by LDP titular head President Cory Aquino",
+    "Ramos formed Lakas-NUCD to secure/consolidate victory",
+    "1998: Jose de Venecia (Lakas-NUCD + Ramos support) lost to virtual independent Joseph Estrada",
+    "Estrada founded Partido ng Masang Pilipino to support own program",
+    "Conventional logic: powerful parties propel presidential candidates to victory",
+    "History proves myth under present Constitution",
+    "Presidential candidates won on personal charisma, not on powerful political machines",
+    "Only exception: 2004 (Arroyo as incumbent candidate)",
+    "Will history repeat in May 2016 (Duterte and Poe not backed by party in power)?",
+    "Powerful parties not totally irrelevant -- election laws accord dominant majority/minority advantages",
+    "Election watcher appointment + entitlement to election return copies (electronic + COC)",
+    "Allowable additional expenditures by political party supporting candidates",
+    "Independent candidates dying pre-election cannot be substituted; party-affiliated ones can",
+    "Powerful parties crucial for Senate (winning despite presidential loss)",
+    "Independents lack political machines but don't carry baggage of discredited parties + need not defend incumbent shortcomings",
+    "Provincial-level locally-organized parties effective in propelling candidates",
+    "Local dynasties thrive under multiparty system -- distributing local posts to favored members"
+  ],
+  "signature_phrases": [
+    "ongoing nomination process",
+    "duopolized the national landscape",
+    "did not essentially differ from each other",
+    "perpetuate the political agenda of the party bosses",
+    "stood for opposing principles and projects",
+    "the 1987 Constitution discouraged the two-party system",
+    "borrowed from European parliamentary models and injected into our American-oriented presidential form",
+    "an 'experiment'",
+    "a political mongrel that, in all humility, I cannot comprehend fully",
+    "miserably lost to a virtual independent",
+    "pitifully lost",
+    "Conventional logic tells us",
+    "history has proven this to be a myth",
+    "personal charisma, not on the support of powerful political machines",
+    "the baggage of discredited parties",
+    "local dynasties thrive better under the present multiparty system"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Hillary Clinton (US Dem nominee race)",
+      "Sen. Bernie Sanders (US Dem nominee race)",
+      "Donald Trump (US Rep nominee race)",
+      "Sen. Ted Cruz (US Rep nominee race)",
+      "Gov. John Kasich (US Rep nominee race)",
+      "Manuel Manahan (Progressive Party, 1957 race)",
+      "Raul Manglapus (Party for Philippine Progress, 1965 race)",
+      "Ramon Mitra (LDP candidate, lost 1992 race)",
+      "Fidel V. Ramos (virtual independent, won 1992)",
+      "President Cory Aquino (LDP titular head, backed Ramos)",
+      "Jose de Venecia (Lakas-NUCD candidate, lost 1998)",
+      "Joseph Estrada (virtual independent, won 1998, founded PMP)",
+      "President Gloria Macapagal-Arroyo (incumbent winner 2004)",
+      "Rodrigo Duterte (2016 race, not party-in-power)",
+      "Grace Poe (2016 race, not party-in-power)"
+    ],
+    "institutions": [
+      "Liberal Party (LP, pre-EDSA duopoly)",
+      "Nacionalista Party (NP, pre-EDSA duopoly)",
+      "Progressive Party (Manahan 1957)",
+      "Party for Philippine Progress (Manglapus 1965)",
+      "Laban ng Demokratikong Pilipino (LDP, 1992 party in power)",
+      "Lakas-NUCD (Ramos's party)",
+      "Partido ng Masang Pilipino (PMP, Estrada's party)",
+      "US Democratic Party",
+      "US Republican Party",
+      "Philippine Senate (where parties still matter)",
+      "Commission on Elections (Comelec) (election-return distribution)",
+      "Pulse Asia (latest surveys)",
+      "Social Weather Stations (SWS)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution -- multi-party encouragement + party-list system",
+      "Party-list system implementing law",
+      "Philippine Election Laws -- watcher appointment, allowable expenditures, substitution rules"
+    ],
+    "events": [
+      "EDSA I revolution (party-politics watershed)",
+      "1957 presidential race (Manahan Progressive challenge)",
+      "1965 presidential race (Manglapus PPP challenge)",
+      "1992 presidential race (Ramos vs Mitra)",
+      "1998 presidential race (Estrada vs De Venecia)",
+      "2004 presidential race (Arroyo incumbent exception)",
+      "Upcoming May 2016 PH presidential race",
+      "Upcoming November 2016 US presidential election"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Pre-EDSA PH party politics was an LP-NP 'duopoly' that, unlike US parties standing for opposing principles, 'did not essentially differ from each other in their political ideology and platform' -- existing 'mostly to perpetuate the political agenda of the party bosses who chose the party's candidates' -- making the parties nefarious and notorious enough that the 1987 Constitution discouraged the two-party system.",
+      "rhetorical_move": "comparative-party-systems framing (PH duopoly vs US ideological parties)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The 1987 Constitution's party-list scheme -- 'borrowed from European parliamentary models and injected into our American-oriented presidential form of government' -- is an 'experiment' resulting in 'a political mongrel that, in all humility, I cannot comprehend fully,' making it one of CJ's strongest negative judgments on PH constitutional improvisation.",
+      "rhetorical_move": "incompatibility-of-transplanted-system framing (parliamentary into presidential)",
+      "confidence": "asserted with 'in all humility' qualifier"
+    },
+    {
+      "claim": "Under the 1987 Constitution, political parties play a minimal role in PRESIDENTIAL elections -- proven by 1992 (Ramos virtual-independent victory over LDP's Mitra despite Cory Aquino's LDP headship), 1998 (Estrada virtual-independent over Lakas-NUCD's De Venecia with Ramos's full support), with only 2004 as exception (Arroyo as incumbent candidate herself). Presidential candidates 'won on their personal charisma, not on the support of powerful political machines,' and Duterte and Poe (not backed by party in power) appear poised to continue this pattern in 2016.",
+      "rhetorical_move": "historical-pattern with three-cycle evidence + present-prediction",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Powerful parties retain some advantages -- election watcher appointment, election-return access (electronic precinct results + COC), allowable additional expenditures by supporting parties, ability to substitute deceased candidates -- and remain crucial for Senate elections (parties steering many senatorial bets to victory despite presidential loss) and provincial-level races.",
+      "rhetorical_move": "residual-relevance disclosure with specific advantage enumeration",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Independents do not carry 'the baggage of discredited parties' and need not 'defend the shortcomings of incumbent presidents,' selecting their applauded projects/programs freely; meanwhile 'local dynasties thrive better under the present multiparty system' because limited national-party reach lets dynasties distribute local posts to favored members.",
+      "rhetorical_move": "comparative-trade-off analysis (independent advantages + multiparty enabling dynasties)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The pre-EDSA LP-NP characterization: 'They existed mostly to perpetuate the political agenda of the party bosses who chose the party's candidates, and by extension, the country's top officials' -- capturing why CJ characterizes them as 'nefarious and notorious.'",
+    "The 'political mongrel' epithet for party-list system: 'a confused and confusing party-list scheme, borrowed from European parliamentary models and injected into our American-oriented presidential form of government, an experiment which resulted in a political mongrel that, in all humility, I cannot comprehend fully' -- among CJ's harshest constitutional-mechanism characterizations.",
+    "The 1992 Ramos-Mitra paradox: 'Ramon Mitra, the candidate of the party in power (Laban ng Demokratikong Pilipino or LDP), miserably lost to a virtual independent, Fidel V. Ramos who, ironically, was backed by the LDP's titular head, President Cory Aquino.' -- historical irony preserved as evidence.",
+    "The 1998 De Venecia-Estrada parallel: 'Jose de Venecia who -- despite the full support of Ramos and the party in power -- also pitifully lost the 1998 presidential race to yet another virtual independent, Joseph Estrada.' -- using 'miserably' (1992) and 'pitifully' (1998) as parallel adverbs.",
+    "The 'baggage of discredited parties' metaphor -- using luggage imagery for unwanted political associations.",
+    "The closing dynastic-thriving observation: 'On the provincial level, locally-organized parties seem to be effective in propelling their candidates. In the same vein, local dynasties thrive better under the present multiparty system. Due to the limited reach of national parties, dynasties are able to distribute local posts to favored members.' -- connecting party-system design to dynasty entrenchment.",
+    "The Ramos-as-LDP-backed-virtual-independent + Estrada-as-PMP-founder pattern: presidents winning without party machines, then BUILDING parties to consolidate -- capturing the post-election sequencing."
+  ],
+  "target_audience": [
+    "Political analysts and electoral-system scholars",
+    "Constitutional law academics on party-list system",
+    "Voters considering candidate-party associations in 2016",
+    "Senators and senatorial candidates (where parties still matter)",
+    "Anti-dynasty advocates",
+    "Local-government and provincial-politics observers",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "comparative-systems framing (PH vs US, pre-EDSA vs post-1987)",
+    "labeled-subhead structure ('Party politics', 'History and logic', 'Some advantages')",
+    "'duopolized' coinage",
+    "incompatibility-of-transplanted-system framing",
+    "'political mongrel' epithet",
+    "'in all humility, I cannot comprehend fully' framing",
+    "parallel-adverb framing ('miserably' / 'pitifully' lost)",
+    "historical-pattern + present-prediction structure",
+    "residual-relevance disclosure framing",
+    "'baggage of discredited parties' metaphor",
+    "myth-debunking rhetorical move ('Conventional logic tells us... history has proven this to be a myth')",
+    "trade-off comparative-analysis closing"
+  ],
+  "decision_framework_signals": [
+    "applies comparative-party-systems framing for institutional analysis",
+    "uses incompatibility-of-transplanted-system framing for failed constitutional improvisations",
+    "deploys historical-pattern + present-prediction structure for electoral analysis",
+    "uses parallel-adverb framing for repeated-failure narratives",
+    "applies myth-debunking rhetorical move ('conventional logic vs history')",
+    "treats 'in all humility, I cannot comprehend' as legitimate epistemic concession",
+    "structures residual-relevance disclosure for partially-displaced institutions"
+  ],
+  "one_paragraph_summary": "Panganiban debunks the myth of powerful PH parties by contrasting them with their US counterparts. The US Democratic and Republican parties are 'slugging it out with full media coverage and unlimited spending' -- Clinton vs Sanders, Trump vs Cruz vs Kasich -- and stand for 'opposing principles and projects' with millions of members actively selecting candidates through primaries and caucuses that 'not even incumbent US presidents can dictate.' Pre-EDSA PH party politics, by contrast, was an LP-NP 'duopoly' briefly challenged by Manuel Manahan's Progressive Party (1957) and Raul Manglapus's Party for Philippine Progress (1965). The LP and NP 'did not essentially differ from each other in their political ideology and platform' -- existing 'mostly to perpetuate the political agenda of the party bosses who chose the party's candidates.' The two parties became 'nefarious and notorious' enough that the 1987 Constitution discouraged the two-party system and encouraged multiple parties; unfortunately, it also 'instituted a confused and confusing party-list scheme, borrowed from European parliamentary models and injected into our American-oriented presidential form of government, an experiment which resulted in a political mongrel that, in all humility, I cannot comprehend fully.' Under the 1987 Constitution, parties play a minimal role in PRESIDENTIAL elections. In 1992, the first race under the new Charter, Ramon Mitra (the LDP party-in-power candidate) 'miserably lost to a virtual independent, Fidel V. Ramos who, ironically, was backed by the LDP's titular head, President Cory Aquino.' Ramos formed the Lakas-NUCD to consolidate victory, which then backed Jose de Venecia -- who 'despite the full support of Ramos and the party in power -- also pitifully lost the 1998 presidential race to yet another virtual independent, Joseph Estrada,' who had founded Partido ng Masang Pilipino. Conventional logic says powerful parties propel presidential candidates to victory, 'but history has proven this to be a myth under the present Constitution' -- presidential candidates 'won on their personal charisma, not on the support of powerful political machines.' The only exception was 2004, with Arroyo as incumbent candidate herself. Will history repeat in May 2016 with leading candidates Duterte and Poe not backed by the party in power? 'In three weeks, we should definitely know.' Powerful parties retain some residual advantages: appointment of election watchers, entitlement to election returns and certificates of canvass, allowable additional expenditures by supporting parties, and substitution rights for deceased party-affiliated candidates (independents cannot be substituted). Parties remain crucial for the Senate, where they steer many senatorial bets to victory despite presidential losses. Independents 'do not carry the baggage of discredited parties and need not defend the shortcomings of incumbent presidents.' On the provincial level, locally-organized parties effectively propel candidates, and 'local dynasties thrive better under the present multiparty system. Due to the limited reach of national parties, dynasties are able to distribute local posts to favored members.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

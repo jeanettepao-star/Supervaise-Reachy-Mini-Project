@@ -1,0 +1,125 @@
+{
+  "id": "CA525",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 525,
+  "title": "Probing poll frauds",
+  "date": "2011-08-06",
+  "link": "https://opinion.inquirer.net/9515/probing-poll-frauds",
+  "keywords": [
+    "poll fraud investigation",
+    "Joint DoJ-Comelec Panel",
+    "2004 and 2007 elections",
+    "GMA proclamation",
+    "PET dismissal",
+    "FPJ protest",
+    "Susan Poe substitution",
+    "congressional canvass"
+  ],
+  "primary_topics": [
+    "The rationale for and limits of the Joint DoJ-Comelec Panel and congressional investigations into alleged massive cheating in the 2004 and 2007 elections",
+    "Why the GMA proclamation and PET dismissal of FPJ and Legarda protests do not bar new investigations -- but also do not allow removal of GMA from office",
+    "The distinct and limited purposes of the new probes: criminal prosecution, not removal; and legislative reform, not reversal of proclamation"
+  ],
+  "sub_topics": [
+    "Joint DoJ-Comelec Panel (Justice Secretary de Lima and Comelec Chair Brillantes) investigating alleged massive cheating in 2004 and 2007 elections; Congress also poised to begin its own probe",
+    "Critics: repetitive and partisan witch-hunts; charges already laid to rest by congressional proclamation of GMA and De Castro; legitimacy confirmed by PET dismissal of FPJ and Legarda protests",
+    "Rationale for congressional canvass: Congress adds up totals on face of certificates of canvass; passes upon authenticity and due execution only; does not examine ballots or supporting documents; very limited time (30 days from election to June 30 term start)",
+    "GMA proclaimed in wee hours of June 24, 2004; took oath June 30, 2004; Sen. Pangilinan as presiding officer responded with Noted to Sotto's demand to open ballots -- Sotto christened him Mr. Noted",
+    "PET dismissal of FPJ protest: FPJ died Dec. 14, 2004; widow Susan Poe denied substitution -- not a real party in interest; even if GMA cheated, Mrs. Poe could not be proclaimed president since nobody voted for her; PET hinted De Castro or Legarda intervening could have allowed continuation",
+    "PET dismissal of Legarda protest: she ran for and won as senator in 2007; abandoned VP claim by assuming Senate office (cannot hold both simultaneously)",
+    "Purposes of new probes: (1) Joint Panel -- determine whether electoral crimes committed and by whom (criminal prosecutions); (2) Congress -- craft or amend legislation on canvassing authenticity and due execution; Constitution authorizes Congress to promulgate canvassing rules",
+    "GMA within legal rights to keep silent and decline comment on bare allegations -- any statement could be used against her in subsequent legal proceedings; self-serving declarations cannot be used in her favor"
+  ],
+  "signature_phrases": [
+    "all set to conduct an investigation into the alleged massive cheating during the 2004 and 2007 elections",
+    "partisan witch-hunts to discredit the former regime",
+    "Noted",
+    "Mr. Noted",
+    "not a real party in interest",
+    "even assuming that GMA cheated in the elections, Mrs. Poe could not be proclaimed president since nobody voted for her",
+    "GMA would be within her legal rights to keep silent",
+    "when in jeopardy of criminal prosecution, it is best to follow the legal advice to be silent",
+    "Any statement made could be used against the declarant in a subsequent legal proceeding"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Justice Secretary Leila de Lima (co-created Joint Panel)",
+      "Comelec Chair Sixto Brillantes Jr. (co-created Joint Panel)",
+      "Gloria Macapagal-Arroyo (GMA, proclaimed president)",
+      "Noli de Castro (proclaimed VP)",
+      "Fernando Poe Jr. (FPJ; died Dec. 14, 2004)",
+      "Susan Poe (FPJ widow; substitution denied)",
+      "Loren Legarda (VP protest dismissed; won Senate seat 2007)",
+      "Sen. Kiko Pangilinan (presiding officer; Mr. Noted)",
+      "Sen. Tito Sotto (demanded opening of ballots; coined Mr. Noted)"
+    ],
+    "institutions": [
+      "Department of Justice (DoJ)",
+      "Commission on Elections (Comelec)",
+      "Presidential Electoral Tribunal (PET)",
+      "Congress of the Philippines"
+    ],
+    "cases": [
+      "FPJ election protest vs. GMA (PET, dismissed upon FPJ death)",
+      "Legarda VP protest vs. De Castro (PET, dismissed upon Legarda assuming Senate seat)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- canvass of presidential and VP elections; Congress role",
+      "Philippine electoral laws on certificate of canvass authenticity"
+    ],
+    "events": [
+      "2004 presidential election (May 10, 2004; GMA proclaimed June 24, 2004)",
+      "Joint DoJ-Comelec Panel creation (2011)",
+      "FPJ death (Dec. 14, 2004)",
+      "Legarda winning Senate seat (2007)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The congressional proclamation and PET dismissals do not bar new investigations -- those proceedings did not examine the underlying ballots for fraud; they were constitutionally limited to the authenticity and due execution of the certificates of canvass.",
+      "rhetorical_move": "proclamation-and-PET-dismissal-do-not-bar-new-probes argument",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The new investigations have distinct and limited purposes: the Joint Panel can determine whether electoral crimes were committed (criminal prosecution, not removal); Congress can craft or amend legislation governing canvassing -- neither can reverse the proclamation.",
+      "rhetorical_move": "limited-purpose-framing of the new probes",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "GMA is within her legal rights to keep silent and decline comment on bare allegations -- any statement could be used against her in subsequent legal proceedings, while self-serving declarations cannot be used in her favor.",
+      "rhetorical_move": "right-to-silence advisory for GMA as potential criminal respondent",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Sen. Pangilinan's Noted reply to Sotto's demand to open the ballots during the 2004 canvass -- prompting Sotto to christen him Mr. Noted -- the most memorable single exchange in the entire 2004 canvassing saga.",
+    "The PET hint that substitution could have been granted had De Castro or Legarda intervened -- a small but consequential historical counterfactual about the FPJ protest's fate.",
+    "Legarda's strategic self-disqualification: by winning a Senate seat in 2007, she was deemed to have abandoned her VP claim -- illustrating how pursuit of a lesser office can waive a greater one."
+  ],
+  "target_audience": [
+    "Civic readers following the new poll fraud investigation",
+    "Election law scholars evaluating the constitutional limits of the probes",
+    "Politicians and their legal counsel assessing GMA's legal exposure and rights",
+    "Media commentators covering the DoJ-Comelec probe and congressional inquiry"
+  ],
+  "register_markers": [
+    "rationale-for-proclamations-structure (three-part: proclamation rationale, PET dismissal, purposes of new probes)",
+    "Mr. Noted as the preserved colloquial historical nickname",
+    "right-to-silence-advisory as the closing practical counsel",
+    "limited-purpose-framing as the analytical correction of critics misunderstanding",
+    "not-a-real-party-in-interest as the PET legal ruling on Susan Poe substitution"
+  ],
+  "decision_framework_signals": [
+    "applies constitutional-canvass-limitation to explain why the proclamation does not immunize against fraud investigations",
+    "uses distinct-purpose-analysis to define what each probe can and cannot accomplish",
+    "treats PET-dismissal-without-reaching-merits as leaving underlying fraud claims unresolved",
+    "applies right-to-silence principle as the appropriate legal posture for GMA",
+    "frames legislative-reform as Congress's legitimate distinct purpose beyond the presidential race outcome"
+  ],
+  "one_paragraph_summary": "Panganiban analyzes the Joint DoJ-Comelec Panel (Justice Secretary de Lima and Comelec Chair Brillantes) and congressional investigations into alleged massive cheating in the 2004 and 2007 elections, responding to critics who say the charges were already laid to rest. The congressional canvass merely passed upon the authenticity and due execution of certificates of canvass -- it could not examine the actual ballots within the constitutionally limited 30-day period, as illustrated by Senate President Pro Tem Pangilinan's famous 'Noted' reply to Sotto's demand to open the ballots (earning Pangilinan the nickname 'Mr. Noted'). The PET dismissed FPJ's protest because his widow Susan Poe was not a real party in interest (nobody voted for her as president) and dismissed Legarda's protest because she abandoned her VP claim by winning a Senate seat in 2007. Neither dismissal resolved the underlying fraud allegations on the merits. The new probes have limited and distinct purposes: the Joint Panel can determine whether electoral crimes were committed and file criminal cases -- not remove GMA (her term expired June 30, 2010); Congress can craft or amend legislation governing the canvassing process. CJ closes: GMA is within her legal rights to keep silent, since any statement could be used against her in subsequent legal proceedings, while self-serving declarations cannot be used in her favor.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

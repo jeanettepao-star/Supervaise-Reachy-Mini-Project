@@ -1,0 +1,125 @@
+{
+  "id": "CA309",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 309,
+  "title": "Unclogging the Court of Appeals",
+  "date": "2017-06-11",
+  "link": "https://opinion.inquirer.net/104679/unclogging-court-appeals",
+  "keywords": [
+    "Court of Appeals backlog",
+    "Zero Backlog program",
+    "PJ Andres Reyes",
+    "judicial reform",
+    "case disposal rate",
+    "constitutional 12-month limit",
+    "Fabian vs Desierto",
+    "St. Martin vs NLRC"
+  ],
+  "primary_topics": [
+    "CA Presiding Justice Reyes's Zero Backlog program and its sustained positive disposal rates 2010-2016",
+    "The CA's expanded jurisdiction making it a critical third-level court handling 90% of elevated cases",
+    "Commendation of the CA's computerized case monitoring system now adopted by the SC nationwide"
+  ],
+  "sub_topics": [
+    "CA handles ~90% of all cases elevated to third-level courts (CA, Sandiganbayan, CTA)",
+    "Expanded CA jurisdiction: CSC, OP, Ombudsman (Fabian), NLRC (St. Martin), NCIP, death penalty review (Mateo), AMLC freeze orders, Writs of Amparo/Habeas Data/Kalikasan, corporate rehabilitation (RA 10142)",
+    "CA grew from 11 judges (1936) to 69 justices in 23 divisions; 3 in Cebu, 3 in CDO",
+    "Constitutional 12-month decision deadline from date of submission",
+    "Pre-Reyes era: consistent negative performance (2008: -5.93%, 2009: -9.81%)",
+    "Reyes appointed PJ on February 22, 2010; immediate Zero Backlog program",
+    "Year-by-year positive performance: 2010: +4%, 2011: +17%, 2012: +17%, 2013: +13%, 2014: +8%, 2015: +11%, 2016: +13.19%",
+    "80% of submitted cases less than one year old by time of reporting",
+    "Reyes's dashboard and computerized monitoring system adopted by SC for all courts",
+    "COC Teresita R. Marigomen as primary data source"
+  ],
+  "signature_phrases": [
+    "quietly been unclogging its dockets",
+    "unparalleled results",
+    "herculean effort",
+    "our people need and deserve the speedy delivery of quality justice",
+    "deemed submitted for decision or resolution upon the filing of the last pleading",
+    "Zero Backlog program",
+    "performance of +4 percent",
+    "80 percent are less than one year old"
+  ],
+  "entities": {
+    "people": [
+      "Presiding Justice Andres B. Reyes Jr. (CA Zero Backlog architect, appointed Feb. 22, 2010)",
+      "CA Clerk of Court Teresita R. Marigomen (data source)",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Court of Appeals (CA) -- 69 justices, 23 divisions",
+      "Sandiganbayan",
+      "Court of Tax Appeals (CTA)",
+      "Civil Service Commission (CSC)",
+      "Office of the President (OP)",
+      "Office of the Ombudsman",
+      "National Labor Relations Commission (NLRC)",
+      "National Commission on Indigenous People (NCIP)",
+      "Anti-Money Laundering Council (AMLC)",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "Fabian vs Desierto (September 16, 1998) -- Ombudsman admin cases appealable to CA",
+      "St. Martin vs NLRC (September 16, 1998) -- NLRC decisions appealable to CA",
+      "People vs Mateo (July 7, 2004) -- death penalty cases for automatic CA review",
+      "Republic Act No. 8371 -- NCIP jurisdiction",
+      "Republic Act No. 9160 -- AMLC freeze orders",
+      "Republic Act No. 10167 -- ex-parte bank account inquiries",
+      "Republic Act No. 10142 -- corporate rehabilitation"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution -- 12-month decision deadline for CA"
+    ],
+    "events": [
+      "CA 80th anniversary yearbook publication",
+      "PJ Reyes appointment (February 22, 2010)",
+      "SC adoption of Reyes's computerized monitoring system for all courts"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "PJ Reyes's Zero Backlog program produced unparalleled, sustained results — seven consecutive years of positive disposal rates (2010-2016, ranging from +4% to +17%) after years of consistent negative performance — making the CA a model of judicial reform achievable without legislative intervention.",
+      "rhetorical_move": "data-driven commendation: year-by-year disposal statistics as irrefutable evidence of institutional turnaround",
+      "confidence": "asserted as fact"
+    },
+    {
+      "claim": "The CA's computerized dashboard and case-monitoring system — Reyes's administrative innovation — is significant enough that the SC has now adopted it for all courts nationwide, making the CA's reform a system-wide judicial-management upgrade.",
+      "rhetorical_move": "scalability argument: CA innovation validated by SC adoption as a national standard",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "COC Marigomen's data point that 80% of submitted CA cases are now less than one year old — presented as the operational measure of constitutional compliance with the 12-month decision limit, making an abstract constitutional mandate concrete and measurable.",
+    "The pre-Reyes negative performance statistics (2008: -5.93%, 2009: -9.81%) contrasted with his first-year turnaround (+4% in 2010) — a clean before-and-after narrative that anchors the leadership-matters thesis without explicit editorializing.",
+    "The SC adopting Reyes's dashboard and computerized monitoring system for the rest of the courts in the country — making the CA's internal administrative innovation a national judicial infrastructure upgrade, an unusually concrete institutional legacy for a PJ column tribute."
+  ],
+  "target_audience": [
+    "Judges and court administrators looking to replicate the CA Zero Backlog model",
+    "Legal practitioners and litigants with cases pending in the CA",
+    "SC justices and court administrators evaluating systemic reform",
+    "Law students and academics studying judicial administration and backlog reform",
+    "General civic readership interested in justice system improvements"
+  ],
+  "register_markers": [
+    "institutional-commendation register ('I commend the CA')",
+    "data-dense performance register (year-by-year disposal rates, +/- percentages)",
+    "constitutional-compliance framing (12-month limit as the operative standard)",
+    "scalability-validation signal (SC adoption of Reyes's monitoring system)",
+    "COC as named primary data source — attribution precision as credibility marker",
+    "herculean-effort metaphor as rhetorical capstone for the commendation"
+  ],
+  "decision_framework_signals": [
+    "uses year-by-year disposal rate as the primary performance metric for judicial backlog reform",
+    "treats constitutional 12-month limit as the benchmark against which all CA performance is measured",
+    "applies leadership-attribution framework (Reyes's appointment date as reform start point)",
+    "uses pre/post comparison (negative → positive disposal rates) as the analytical structure",
+    "treats scalability (SC adoption) as the ultimate validation of an institutional reform"
+  ],
+  "one_paragraph_summary": "Panganiban commends Court of Appeals Presiding Justice Andres Reyes Jr. for his Zero Backlog program, which reversed the CA's chronic negative disposal performance -- 2008: -5.93%, 2009: -9.81% -- from the moment of his appointment on February 22, 2010, producing seven consecutive years of positive disposal rates: +4% in 2010, +17% in 2011 and 2012, +13% in 2013, +8% in 2014, +11% in 2015, and +13.19% in 2016. He contextualizes the CA's challenge: expanded jurisdiction handling ~90% of all elevated cases (covering Ombudsman admin appeals per Fabian, NLRC appeals per St. Martin, death penalty review per Mateo, AMLC freeze orders, Writs of Amparo/Habeas Data/Kalikasan, corporate rehabilitation, and NCIP cases) with 69 justices in 23 divisions, all subject to the constitutional 12-month decision deadline. The practical result, per CA Clerk of Court Marigomen, is that 80% of submitted cases are now less than one year old -- approaching constitutional compliance. CJ closes by noting that Reyes's dashboard and computerized case-monitoring system has been adopted by the SC for all courts nationwide, making the CA's administrative innovation a system-wide judicial reform.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

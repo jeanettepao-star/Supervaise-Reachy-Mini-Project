@@ -1,0 +1,143 @@
+{
+  "id": "CA044",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 44,
+  "title": "A rare peep inside the Supreme Court",
+  "date": "2025-06-09",
+  "link": "https://opinion.inquirer.net/183788/a-rare-peep-inside-the-supreme-court",
+  "keywords": [
+    "SC member defense",
+    "impeachment as exclusive removal",
+    "Francisco v. House of Representatives",
+    "Cuenco v. Fernan",
+    "stare decisis"
+  ],
+  "primary_topics": [
+    "Constitutional powers of the Supreme Court",
+    "Defense of sitting justices against non-impeachment removal",
+    "Initiation doctrine in impeachment proceedings"
+  ],
+  "sub_topics": [
+    "Five constitutional powers of the SC",
+    "Power to defend and discipline its members as implied",
+    "Cuenco v. Fernan (February 17, 1988) -- disbarment cannot circumvent impeachment",
+    "In Re Gonzalez (April 15, 1988) -- impeachment as exclusive removal method",
+    "Stare decisis as binding force",
+    "Philippine Savings Bank v. Senate Impeachment Court (February 9, 2012) -- Corona injunction",
+    "Foreign Currency Deposit Law confidentiality",
+    "Francisco v. House of Representatives (November 10, 2003, 11-3-1, per CCM)",
+    "Initiation = file + referral to Committee on Justice",
+    "Two impeachment complaints in 2003 against CJ Davide and others",
+    "One-year bar foreclosing the second complaint",
+    "Preview of next Monday's column on Sereno (eventual reversal)"
+  ],
+  "signature_phrases": [
+    "grave abuse of discretion amounting to lack or excess of jurisdiction",
+    "settle actual controversies involving rights which are legally demandable and enforceable",
+    "administrative supervision over all courts and the personnel thereof",
+    "by any other method",
+    "deemed initiated",
+    "the House of Representatives shall have the exclusive power to initiate all cases of impeachment",
+    "No impeachment proceeding shall be initiated against the same official more than once within a period of one year"
+  ],
+  "entities": {
+    "people": [
+      "Chief Justice Hilario G. Davide Jr.",
+      "Chief Justice Renato C. Corona",
+      "Former President Joseph Estrada",
+      "Former Justice Conchita Carpio Morales (ponente, Francisco)",
+      "Chief Justice Maria Lourdes P. A. Sereno (forecasted next column)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (en banc)",
+      "House of Representatives",
+      "House Committee on Justice",
+      "Senate Impeachment Court",
+      "Philippine Savings Bank",
+      "Office of the Court Administrator (OCA)",
+      "Integrity Board (JIB) -- referenced as hearing complaints against non-SC magistrates",
+      "Integrated Bar of the Philippines"
+    ],
+    "cases": [
+      "Cuenco v. Fernan (February 17, 1988)",
+      "In Re Gonzalez (April 15, 1988)",
+      "Philippine Savings Bank v. Senate Impeachment Court (February 9, 2012)",
+      "Francisco v. House of Representatives (November 10, 2003, 11-3-1)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- five powers of the SC",
+      "1987 Constitution -- impeachment provisions and one-year bar",
+      "Foreign Currency Deposit Law (confidentiality)",
+      "House Rules on impeachment ('deemed initiated' definition)",
+      "Canons of Judicial Ethics"
+    ],
+    "events": [
+      "Estrada's June 2, 2003 impeachment complaint against CJ Davide and seven justices",
+      "Referral to Committee on Justice (August 5, 2003)",
+      "Committee's October 23, 2003 dismissal vote (not sufficient in substance)",
+      "Second impeachment complaint (October 23, 2003) against CJ Davide",
+      "SC en banc 11-3-1 ruling holding House Rule unconstitutional and second complaint barred"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Supreme Court has five enumerated constitutional powers, several of which (quasi-legislative, regulatory over the bar, administrative supervision over all courts) are rarely accorded to judiciaries elsewhere.",
+      "rhetorical_move": "comparative framing of judicial powers",
+      "confidence": "high"
+    },
+    {
+      "claim": "The power to defend and discipline members of the Court, though not expressly granted, is exercised as an implied duty rooted in the impeachment-only removal rule.",
+      "rhetorical_move": "implied-power doctrinal explanation",
+      "confidence": "high"
+    },
+    {
+      "claim": "Under Cuenco v. Fernan and In Re Gonzalez, justices could be removed only by impeachment and 'by no other method' -- a principle that became prevailing jurisprudence by stare decisis until reversed in the Sereno case.",
+      "rhetorical_move": "doctrinal-history exposition with foreshadowing",
+      "confidence": "high"
+    },
+    {
+      "claim": "Philippine Savings Bank v. Senate Impeachment Court (February 9, 2012) shows the SC defending then CJ Corona by enjoining a subpoena that sought confidential foreign-currency deposits.",
+      "rhetorical_move": "concrete-case illustration of defense",
+      "confidence": "high"
+    },
+    {
+      "claim": "Francisco v. House of Representatives (November 10, 2003) is perhaps the best-known defense case: the Court held the House Rule on impeachment 'deemed initiated' was unconstitutional, treating initiation as filing plus referral to the Committee on Justice, and thereby barring the second complaint against CJ Davide under the one-year bar.",
+      "rhetorical_move": "marquee-case explication",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Estrada/Davide impeachment saga of 2003: a verified complaint filed by former President Joseph Estrada against CJ Davide and seven other justices on June 2, 2003; referred to the Committee on Justice on August 5; dismissed as insufficient in substance on October 23; and a second complaint filed against CJ Davide the same day -- only to be barred by the SC's reading of the one-year rule.",
+    "Philippine Savings Bank v. Senate Impeachment Court (February 9, 2012) -- SC injunction against a subpoena seeking CJ Corona's suspected dollar deposits, citing Foreign Currency Deposit Law confidentiality.",
+    "Author's preview that next Monday's column will take up the Sereno case, which reversed Cuenco v. Fernan and In Re Gonzalez."
+  ],
+  "target_audience": [
+    "Constitutional and judicial-procedure scholars",
+    "Members of the bench and bar",
+    "Law students and bar reviewees on impeachment and judicial powers",
+    "House members and senators interested in impeachment doctrine",
+    "Civic readership preparing for the follow-up column on discipline"
+  ],
+  "register_markers": [
+    "Five-power enumeration in formal numbered list",
+    "Direct quotation of constitutional clauses",
+    "Latinisms ('inter alia', 'stare decisis')",
+    "Case-by-case citation with full date and ponente attribution",
+    "Two-part column architecture with explicit next-week preview",
+    "Even-keeled doctrinal voice, no editorial heat",
+    "Cross-reference to companion column ('next Monday, how it has disciplined them')"
+  ],
+  "decision_framework_signals": [
+    "Read constitutional powers as a five-fold framework before assessing any specific SC action",
+    "Recognize that defense of members flows from the impeachment-only removal rule -- an implied institutional necessity",
+    "Treat stare decisis as binding only until expressly reversed; flag prevailing doctrines that are vulnerable to challenge",
+    "Define 'initiation' of impeachment as filing plus referral to the Committee on Justice -- not as committee-substance vote",
+    "Apply the one-year bar to foreclose successive impeachment attempts that would otherwise harass officials",
+    "Use bank-secrecy and similar statutes as concrete defenses for justices targeted by impeachment-related subpoenas"
+  ],
+  "one_paragraph_summary": "Setting up the first of a two-part series, Panganiban inventories the Supreme Court's five constitutional powers -- settling actual controversies, determining grave abuse of discretion, promulgating rules of practice, regulating the bar, and exercising administrative supervision over all courts -- and notes that the latter three are rarely accorded to judiciaries elsewhere. He explains that while the Constitution does not expressly grant the SC the power to defend and discipline its members, the Court exercises both as implied duties tied to the impeachment-only removal rule. He cites three illustrative defense cases: Cuenco v. Fernan (February 17, 1988) held that disbarment against a sitting justice would circumvent the impeachment mandate; In Re Gonzalez (April 15, 1988) reinforced that justices may not be removed 'by any other method,' establishing prevailing jurisprudence by stare decisis (later reversed in the Sereno case, his preview for next Monday); Philippine Savings Bank v. Senate Impeachment Court (February 9, 2012) saw the Court defend then CJ Renato C. Corona by enjoining a subpoena that sought his suspected dollar deposits, citing Foreign Currency Deposit Law confidentiality. The marquee case is Francisco v. House of Representatives (November 10, 2003, 11-3-1, per former Justice Conchita Carpio Morales), which arose from the Estrada/Davide impeachment saga of 2003 -- a complaint filed June 2, referred to the Committee on Justice August 5, dismissed October 23, and immediately followed by a second complaint against CJ Davide the same day. The Court held the House Rule defining 'initiated' as the committee's substance vote unconstitutional, ruling that initiation is filing plus referral to the Committee on Justice and that the second complaint was therefore barred under the constitutional one-year bar. The column closes with a teaser: next Monday, how the Court disciplines (rather than defends) its own.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

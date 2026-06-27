@@ -1,0 +1,144 @@
+{
+  "id": "CA274",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 274,
+  "title": "Quo vadis, Meilou?",
+  "date": "2018-06-24",
+  "link": "https://opinion.inquirer.net/114135/quo-vadis-meilou",
+  "keywords": [
+    "Sereno post-ouster options",
+    "quo warranto retirement benefits",
+    "Senate candidacy waiver",
+    "show cause sub judice",
+    "Fernan Miriam precedent"
+  ],
+  "primary_topics": [
+    "Former CJ Sereno's post-ouster legal and political options",
+    "Waiver doctrine -- officeholding as waiver of restored claims",
+    "Retirement benefits, disbarment, and contempt risks"
+  ],
+  "sub_topics": [
+    "Denial of MR and affirmation of May 11 judgment",
+    "8-6 decision text: DISQUALIFIED, GUILTY, OUSTED, EXCLUDED",
+    "Show-cause order for CPR, CJC, sub judice and aspersions violations",
+    "No disqualification from future public office (unlike impeachment)",
+    "Sereno's arguable void-ab-initio claim based on biased majority",
+    "58 years old on July 2; 12 remaining CJ years to 2030",
+    "Putative return to CJ post if Court composition changes",
+    "Senate run as waiver of CJ claim (Miriam Defensor-Santiago analogy)",
+    "Fernan leaving the Court to run for president/VP in 1992",
+    "Option 3: public advocacy preserving CJ claim but exposing to criminal/civil cases",
+    "Option 4: fade away quietly; receive retirement benefits = waiver of remaining term",
+    "Retirement package: 28-year combined service, lifetime incumbent pay extending to spouse",
+    "Sereno's 'murky political thicket' ventured without colleague support",
+    "'You have now become my enemy' as the political plains reaction",
+    "Quo vadis / Peter and Jesus apocryphal encounter"
+  ],
+  "signature_phrases": [
+    "Quo vadis, Meilou?",
+    "DISQUALIFIED... GUILTY... OUSTED and EXCLUDED",
+    "void from the beginning",
+    "putatively be returned to her post",
+    "murky political thicket",
+    "without first securing the support of her colleagues in Mt. Olympus",
+    "You have now become my enemy",
+    "god of the political plains",
+    "return to Calvary to be crucified again",
+    "fade away, be forgotten, avoid further lashings"
+  ],
+  "entities": {
+    "people": [
+      "Former CJ Maria Lourdes P. A. 'Meilou' Sereno",
+      "Justice Noel G. Tijam (ponente)",
+      "CJ Marcelo B. Fernan",
+      "Sen. Miriam Defensor-Santiago",
+      "Former President Joseph Estrada",
+      "CJ Renato C. Corona",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Senate of the Philippines",
+      "University of the Philippines"
+    ],
+    "cases": [
+      "Republic v. Sereno (May 11, 2018, 8-6, per J. Tijam) -- MR denied"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (impeachment disqualification vs QW limitation)",
+      "Code of Professional Responsibility (CPR)",
+      "Code of Judicial Conduct (CJC)",
+      "Sub judice rule",
+      "Revised Penal Code (potential criminal liability)",
+      "National Internal Revenue Code (potential liability)"
+    ],
+    "events": [
+      "Sereno MR denial and affirmation of judgment",
+      "Miriam Santiago running for and winning Senate seat (waiver of electoral protest)",
+      "CJ Fernan leaving the Court to run for president/VP in 1992",
+      "Corona's denial of retirement benefits"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Sereno still has an arguable void-ab-initio claim on the basis that the QW judgment was rendered without due process by a prejudged biased majority.",
+      "rhetorical_move": "presenting the strongest counterclaim without endorsing it",
+      "confidence": "medium"
+    },
+    {
+      "claim": "A Senate run would be deemed a waiver of any remaining CJ claim -- as Miriam Santiago's Senate win waived her presidential protest, and Fernan's 1992 presidential run required him to leave the Court.",
+      "rhetorical_move": "precedent-based waiver warning",
+      "confidence": "high"
+    },
+    {
+      "claim": "Continuing public advocacy preserves the CJ claim putatively but exposes Sereno to criminal/civil cases for alleged violations and further punitive Court action (disbarment, contempt).",
+      "rhetorical_move": "risk-analysis of the advocacy option",
+      "confidence": "high"
+    },
+    {
+      "claim": "Accepting retirement benefits would itself constitute a waiver of any claim to the remaining term.",
+      "rhetorical_move": "benefit-acceptance-as-waiver doctrinal note",
+      "confidence": "high"
+    },
+    {
+      "claim": "Sereno lost her pulpit partly because she unwisely ventured into the murky political thicket without first securing the support of her colleagues in Mt. Olympus, thereby incurring the ire of the 'god of the political plains.'",
+      "rhetorical_move": "gentle retrospective character analysis",
+      "confidence": "medium"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Miriam Defensor-Santiago analogy: running for and winning a Senate seat was deemed abandonment of her electoral protest and presidential claim.",
+    "CJ Marcelo B. Fernan precedent: had to leave the Court when he decided to join the 1992 presidential race (eventually ran for vice president).",
+    "Corona's denial of retirement benefits as the ominous precedent -- Sereno's combined 28-year service (20 UP + 8 Court) would have entitled her to lifetime incumbent's pay extending to her spouse.",
+    "Receiving retirement benefits = waiver of any claim to remaining term -- the legal trap in the 'fade away quietly' option.",
+    "The 'quo vadis' frame: Peter's apocryphal question to the risen Jesus, 'Where are you going?' -- the risen Lord turning back to Calvary to be crucified again -- applied to Sereno's post-ouster choice."
+  ],
+  "target_audience": [
+    "Sereno and her legal counsel",
+    "Political analysts and elections lawyers",
+    "Members of the bench and bar",
+    "Civic readership following post-Sereno developments",
+    "Law students studying waiver of legal claims through political acts"
+  ],
+  "register_markers": [
+    "Latin question title ('Quo vadis?') with intimate Filipino nickname ('Meilou')",
+    "Original court-text capitals preserved (DISQUALIFIED, GUILTY, OUSTED, EXCLUDED)",
+    "Four-option structure with escalating risk analysis",
+    "Biblical/apocryphal literary frame (quo vadis; Mt. Olympus; Calvary)",
+    "Restrained retrospective judgment ('unwisely, in my humble view')",
+    "Insider knowledge of retirement-benefit computation (UP + Court years)"
+  ],
+  "decision_framework_signals": [
+    "Map each post-ouster option against the waiver-of-claim doctrine (Senate run = waiver; retirement benefits = waiver)",
+    "Distinguish the QW ouster from impeachment: no future-office disqualification attaches, leaving political options open",
+    "Apply the Miriam Santiago / Fernan precedents when assessing whether political candidacy forfeits a judicial claim",
+    "Weigh show-cause exposure (CPR, CJC, contempt, disbarment) as a background risk for any public advocacy option",
+    "Note that even a compelling void-ab-initio argument requires a changed Court composition to prevail -- a speculative timeline",
+    "Treat retirement-benefit acceptance and judicial-claim preservation as mutually exclusive -- cannot have both"
+  ],
+  "one_paragraph_summary": "With the denial of her MR and the affirmation of the 8-6 May 11 judgment (per J. Tijam) ousting her -- the decision DISQUALIFYING, finding GUILTY, and OUSTING her -- Panganiban lays out Sereno's four post-ouster options. She still has an arguable claim that the judgment is void ab initio for having been rendered by a prejudged, biased majority without due process, and at 58 (turning on July 2) she had a 12-year remaining CJ term to 2030 -- potentially restored if the Court's composition changes. But a Senate run would be deemed a waiver of that claim (as Miriam Santiago's Senate win waived her presidential protest, and CJ Fernan had to leave the Court to run for president/VP in 1992). She was not barred from future public office by the QW ouster -- unlike impeachment which carries that disqualification. A third option of continuing public advocacy preserves the CJ claim but exposes her to further punitive action: the show-cause order for violating the Code of Professional Responsibility, the Code of Judicial Conduct, the sub judice rule, and casting aspersions on the Court members; potential criminal and civil cases under the RPC and NIRC; and possible disbarment or contempt. Fading away quietly preserves her from further lashing, but accepting retirement benefits -- substantial, given her combined ~28 years of UP professorship and Court service, entitling her to lifetime incumbent's pay extending to her spouse -- would itself constitute a waiver of any remaining CJ claim. The column closes with the scriptural 'Quo vadis?' -- Peter's apocryphal question to the risen Jesus -- asking Sereno whether she will return to 'Calvary to be crucified again' or simply fade away. The author notes with restrained retrospective judgment that she lost her more powerful pulpit partly by venturing unwisely into the 'murky political thicket' without securing her colleagues' support, thereby incurring the ire of the 'god of the political plains.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

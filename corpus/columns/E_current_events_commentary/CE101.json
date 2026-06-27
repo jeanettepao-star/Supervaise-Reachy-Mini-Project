@@ -1,0 +1,132 @@
+{
+  "id": "CE101",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 101,
+  "title": "Japan is back'",
+  "date": "2013-04-06",
+  "link": "https://opinion.inquirer.net/50177/japan-is-back",
+  "keywords": [
+    "Japan Abenomics",
+    "Philja Training Center",
+    "Japan grant Philippines judiciary",
+    "Shinzo Abe",
+    "OFW remittances Japan",
+    "sakura",
+    "wa harmony",
+    "Haruhiko Kuroda"
+  ],
+  "primary_topics": [
+    "CJ Panganiban's personal initiative to report completion of the Philja Training Center to the Japanese Supreme Court",
+    "Japan's economic revival under Abenomics and its continued role as the Philippines' largest aid donor",
+    "Personal travelogue: sakura season, Japanese culture, cuisine, and the bullet train"
+  ],
+  "sub_topics": [
+    "Japan's P300 million no-strings grant to Philippine SC for Philja Center (Jan. 26, 2006)",
+    "CJ's two self-funded trips to Japan (May 2007 and April 2013) -- personal initiative, not official",
+    "Philja Center planned under Chancellor Ameurfina Melencio-Herrera",
+    "Justice Masaharu Ohashi received CJ; CJ Hironubu Takesaki out of town",
+    "Ambassador Manuel M. Lopez and Consul Kit de Jesus facilitating the visit",
+    "Japan still largest PH aid donor despite sluggish economy: ~$700M annually",
+    "Shinzo Abe's 'Japan is back' -- $220B stimulus, 15% yen depreciation, Kuroda as central bank governor",
+    "216,284 Filipinos in Japan remitted $1 billion in 2012",
+    "JPEPA: 25 nurses and 43 caregivers passed rigid exams",
+    "Sakura season: Tokyo, Kyoto, Osaka, Kobe, Nagoya cherry blossoms",
+    "Japanese value of 'wa' (harmony): group cohesion, consensus, no exact word for 'no' or 'yes'",
+    "Ryokan stays, tatami mats, wooden tubs, heated toilet seats, Shinkansen at 280 km/h",
+    "Wagyu at Shokudoen, Kitcho Arashiyama; Ambassador Urabe's private dinner at Forbes Park"
+  ],
+  "signature_phrases": [
+    "Japan is back",
+    "no-strings grant",
+    "absolutely trust reposed in me",
+    "felt it my duty, even in retirement",
+    "a real sense of electricity",
+    "Japan is still resilient, helpful and vibrant",
+    "Hai does not necessarily mean 'I agree'",
+    "nothing beats the delicacies served by Ambassador Toshi",
+    "Available strictly by invitation only"
+  ],
+  "entities": {
+    "people": [
+      "Justice Masaharu Ohashi (received CJ at Japanese SC)",
+      "CJ Hironubu Takesaki (Japanese SC Chief Justice, out of town)",
+      "Former CJ Hiro Shimada (Japanese SC; received architectural plans May 2007)",
+      "Former Japanese Ambassador Ryuichiro Yamazaki (handed P300M check in 2006)",
+      "Ambassador Manuel M. Lopez (PH Ambassador to Japan)",
+      "Consul Kit de Jesus (facilitated visit)",
+      "PM Shinzo Abe (Abenomics architect)",
+      "Haruhiko Kuroda (new Bank of Japan governor; former ADB president; longtime PH resident)",
+      "Chancellor Ameurfina A. Melencio-Herrera (Philja Center construction overseer)",
+      "Ambassador Toshinao Urabe (hosted private dinner at Forbes Park)",
+      "Ekko Urabe (Ambassador's wife)",
+      "Chef Ryohei Kawamoto (trained at Kitcho, Osaka)",
+      "Larry and Peggie Chan (golf group leaders)",
+      "Leni Panganiban (CJ's wife)",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Supreme Court of Japan",
+      "Philippine Judicial Academy (Philja)",
+      "Asian Development Bank (ADB)",
+      "Bank of Japan",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Japan-Philippines Economic Partnership Agreement (JPEPA)"
+    ],
+    "events": [
+      "Japan's P300M grant to PH SC (January 26, 2006)",
+      "Philja Training Center completion and inauguration",
+      "CJ's first Japan trip (May 2007) -- architectural plans delivery",
+      "CJ's second Japan trip (April 2013) -- completion report",
+      "Sakura season 2013 in Japan",
+      "Abenomics launch: $220B stimulus, 15% yen depreciation"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "CJ's two self-funded trips to Japan — to deliver architectural plans in 2007 and to report project completion in 2013 — were a personal moral obligation arising from the absolute trust Japan placed in him when giving P300 million without conditions; stewardship of donated funds creates a duty of account that outlasts one's term.",
+      "rhetorical_move": "personal-honor-as-duty framing: transforming an optional act of courtesy into a moral imperative arising from trust",
+      "confidence": "asserted as personal conviction"
+    },
+    {
+      "claim": "Despite a decade of sluggish economic growth and China displacing it as world's second-largest economy, Japan remains the Philippines' largest aid donor and is experiencing a genuine revival under Abenomics — making it a reliable and resurgent strategic partner.",
+      "rhetorical_move": "resilience-plus-revival argument: Japan's continued generosity during its own recession as evidence of durable bilateral commitment",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Japan handing CJ Panganiban a P300 million check on his verbal assurance alone — no conditions, no timetable, no requirements to hire Japanese architects — while the Philippine SC had no architectural plans yet: an extraordinary act of institutional trust that CJ calls the moral basis for his self-funded follow-up trips.",
+    "Ambassador Toshinao Urabe hosting a private Forbes Park dinner for CJ before his departure, prepared by chef Kawamoto (trained at Kitcho Osaka) — described as 'the best Japanese cuisine in the Philippines,' available 'strictly by invitation only': a playful, name-dropping close that softens the institutional narrative with social warmth.",
+    "Haruhiko Kuroda — a longtime Philippine resident and former ADB president — being named Bank of Japan governor by Abe, connecting the Philippines directly to Japan's monetary revival at the highest institutional level."
+  ],
+  "target_audience": [
+    "Philippine judiciary administrators interested in the Philja Center's backstory",
+    "Diplomatic and foreign-policy readers tracking PH-Japan bilateral relations",
+    "Business and economic analysts following Abenomics and its implications for PH-Japan trade",
+    "General Inquirer readership interested in CJ Panganiban's personal travel narrative",
+    "OFW communities in Japan and stakeholders in JPEPA implementation"
+  ],
+  "register_markers": [
+    "personal-travelogue register (sakura, ryokan, tatami, Shinkansen, wagyu)",
+    "institutional-stewardship register ('felt it my duty, even in retirement')",
+    "no-strings-grant disclosure as institutional-trust narrative anchor",
+    "Abenomics macro-economic commentary amid personal travel",
+    "cultural-observation register (wa, hai, group cohesion, no word for 'no')",
+    "playful gastronomy close ('Available strictly by invitation only')",
+    "OFW-remittance data citation as PH-Japan bilateral economic anchor"
+  ],
+  "decision_framework_signals": [
+    "applies trust-based duty-of-stewardship principle: unconditional donation creates a personal obligation to report its faithful use",
+    "uses resilience-plus-revival framework: Japan's continued aid during its own recession as a bilateral reliability signal",
+    "treats JPEPA performance metrics (nurses/caregivers passing exams) as a practical evaluation of treaty efficacy",
+    "uses OFW-remittance data ($1 billion from Japan) as a concrete measure of bilateral human-capital value",
+    "frames Kuroda's appointment as a PH-Japan human-capital connection at the highest monetary-policy level"
+  ],
+  "one_paragraph_summary": "Panganiban recounts his self-funded second trip to the Supreme Court of Japan to personally report the completion and full operation of the Philippine Judicial Academy Training Center in Tagaytay -- built with a P300 million no-conditions Japanese grant handed to him on his verbal assurance alone in January 2006, during his last year as Chief Justice. He stresses that neither the Philippine SC nor the Japanese government requested the trips (his first being in May 2007 to deliver architectural plans), framing both as a personal moral obligation arising from the absolute trust Japan placed in him. He situates the visit within the larger context of Japan's continued role as the Philippines' largest aid donor (~$700 million annually) despite a decade-long sluggish economy, and the Abe-led revival through a $220-billion stimulus, 15% yen depreciation, and the appointment of longtime Philippine resident Haruhiko Kuroda as Bank of Japan governor. He notes that 216,284 Filipinos in Japan remitted over $1 billion in 2012, and that 25 nurses and 43 caregivers have passed JPEPA qualification exams. The column closes with a personal travelogue of the sakura season, Japanese cultural values of wa (harmony), ryokan stays, the Shinkansen, and a private Forbes Park farewell dinner hosted by Ambassador Urabe -- described as offering 'the best Japanese cuisine in the Philippines, available strictly by invitation only.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

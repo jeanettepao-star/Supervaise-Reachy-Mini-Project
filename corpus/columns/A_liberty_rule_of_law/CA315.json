@@ -1,0 +1,132 @@
+{
+  "id": "CA315",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 315,
+  "title": "Scarborough, Spratlys and Benham",
+  "date": "2017-04-23",
+  "link": "https://opinion.inquirer.net/103399/scarborough-spratlys-benham",
+  "keywords": [
+    "nine-dash line Scarborough Spratlys",
+    "Benham Rise submerged",
+    "Mendoza UNCLOS delegation",
+    "archipelagic principles 200-mile EEZ",
+    "Deng Xiaoping talk talk talk"
+  ],
+  "primary_topics": [
+    "Why China contests Scarborough and Spratlys but concedes Benham Rise",
+    "Estelito Mendoza's insider account of UNCLOS negotiations",
+    "Arbitral award's land-sovereignty limitation and Deng Xiaoping's 'talk' strategy"
+  ],
+  "sub_topics": [
+    "Benham Rise outside the nine-dash line -- China has no claim",
+    "Spratlys and Scarborough in shallower water: mineral extraction plus military construction",
+    "Benham Rise totally submerged 50-5,000m -- very expensive to exploit",
+    "Mendoza's UP Law Center primer on UNCLOS",
+    "PH delegation to Law of the Sea conferences (1973-1982)",
+    "Delegation composition: Mendoza and Ingles as vice chairs; Tolentino and Abad Santos as alternating chairs",
+    "Archipelagic principles accepted by coastal states",
+    "12-NM TS and 200-NM EEZ as the ultimate compromise",
+    "RA 9522 (March 10, 2009) -- baselines defined",
+    "PH claim as archipelagic state + two regimes of islands (Kalayaan + Scarborough)",
+    "China's April 13, 2009 note contesting Scarborough and Kalayaan but not the Philippine archipelago",
+    "Arbitral tribunal had no jurisdiction over land ownership",
+    "Mendoza on Deng Xiaoping's 1975 'talk, talk, talk' advice to Marcos",
+    "Duterte's Code of Conduct pursuit as consistent with Deng's approach"
+  ],
+  "signature_phrases": [
+    "totally submerged in water",
+    "extremely expensive and difficult to undertake",
+    "archipelagic principles",
+    "ultimate compromise",
+    "arbitral tribunal had no jurisdiction to award title or sovereignty over land territory",
+    "talk some more, and more until agreement is reached",
+    "Is this a better strategy to resolve the impasse?"
+  ],
+  "entities": {
+    "people": [
+      "Estelito P. Mendoza (UP Law Center primer author; UNCLOS delegation vice chair)",
+      "Undersecretary Jose Ingles (second vice chair)",
+      "Sen. Arturo Tolentino (alternating chair)",
+      "Justice Secretary Vicente Abad Santos (alternating chair)",
+      "President Ferdinand Marcos",
+      "Chinese Vice Premier Deng Xiaoping",
+      "Acting Foreign Secretary Enrique Manalo",
+      "President Rodrigo Duterte",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "UN Conference on the Law of the Sea",
+      "UN Secretary General",
+      "Arbitral Tribunal (SCS)",
+      "UP Law Center"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "UN Convention on the Law of the Sea (Unclos, 1982)",
+      "Republic Act No. 9522 (March 10, 2009)",
+      "China Note to UNSG (April 13, 2009)"
+    ],
+    "events": [
+      "Deng Xiaoping state visit to PH (June 1975)",
+      "RA 9522 passage (March 10, 2009)",
+      "China's UNSG Note contesting Kalayaan and Scarborough (April 13, 2009)",
+      "Asean-China Code of Conduct negotiations"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "China contests Scarborough and the Spratlys because they are in shallower waters suitable for mineral extraction and military construction; it concedes Benham Rise because it is outside the nine-dash line and too deep to be economically viable.",
+      "rhetorical_move": "strategic-interest explanation demystifying Chinese behavior",
+      "confidence": "high"
+    },
+    {
+      "claim": "The arbitral tribunal had no jurisdiction over land sovereignty -- it could not award title or sovereignty over land territory, so China cannot be expected to surrender its occupation.",
+      "rhetorical_move": "doctrinal scope limitation",
+      "confidence": "high"
+    },
+    {
+      "claim": "China's 2009 Note to the UNSG contested only Scarborough and Kalayaan -- implicitly conceding our rights over the Philippine archipelago and its corresponding Unclos zones including Benham Rise.",
+      "rhetorical_move": "Chinese-admission-by-omission argument",
+      "confidence": "high"
+    },
+    {
+      "claim": "Deng Xiaoping's 1975 advice to Marcos -- 'talk some more, and more until agreement is reached' -- is consistent with and validates Duterte's Code of Conduct negotiation strategy.",
+      "rhetorical_move": "historical-precedent endorsement of the current diplomatic approach",
+      "confidence": "medium"
+    }
+  ],
+  "notable_anecdotes": [
+    "Estelito Mendoza's insider account as UNCLOS vice chair -- PH delegation convincing more numerous 'coastal' states to accept archipelagic principles and an EEZ that far exceeds Hugo Grotius's 3-mile limit.",
+    "The UNCLOS delegation composition: Mendoza and Jose Ingles as vice chairs; alternating chairs Sen. Arturo Tolentino and Justice Secretary Vicente Abad Santos -- all now deceased.",
+    "China's April 13, 2009 Note to the UNSG contesting only Scarborough and Kalayaan -- implicitly not contesting the Philippine archipelago or Benham Rise.",
+    "Deng Xiaoping telling Marcos in June 1975: if no agreement is reached, the answer is 'to talk some more, and more until agreement is reached' -- a 42-year-old conversation still shaping PH-China diplomacy.",
+    "Mendoza's prescription: PH should have initiated proceedings specifically about Chinese occupation and sovereignty before filing the arbitral claim -- a missed opportunity."
+  ],
+  "target_audience": [
+    "PH foreign-policy team and negotiators",
+    "ASEAN and China Code of Conduct drafters",
+    "International law scholars",
+    "Critics demanding harder enforcement of the arbitral award",
+    "General readership seeking to understand why China treats Benham differently from Scarborough"
+  ],
+  "register_markers": [
+    "Comparative-geography register explaining strategic geography",
+    "Insider-account citation (Mendoza as UNCLOS vice chair)",
+    "Delegation-roster historical record",
+    "Deng Xiaoping anecdote as policy insight",
+    "Rhetorical closing question (open to next column)",
+    "Cross-reference to prior Benham Rise column (April 2)"
+  ],
+  "decision_framework_signals": [
+    "Analyze Chinese behavior through strategic-economic lens (shallow water = viable for construction; deep water = not)",
+    "Read China's 2009 UNSG Note for what it did NOT contest -- implicit concessions matter",
+    "Accept the arbitral tribunal's jurisdiction limits: water rights, not land sovereignty",
+    "Use Deng Xiaoping's 'talk, talk, talk' doctrine as China's operating framework -- plan for very long negotiations",
+    "Consider Mendoza's missed-opportunity lesson: file for land-occupation proceedings before arbitral claims on water rights"
+  ],
+  "one_paragraph_summary": "Panganiban explains why China passionately contests Scarborough Shoal and the Spratlys but easily concedes Philippine rights over Benham Rise: Benham Rise is outside the nine-dash line and totally submerged (50-5,000 meters), making resource exploitation prohibitively expensive; the Spratlys and Scarborough are in shallower water where China has built airports, seaports, and military structures. Drawing on Estelito Mendoza's UP Law Center primer, he recounts the UNCLOS delegation's insider story: Mendoza and Jose Ingles as vice chairs (alternating chairs: Sen. Arturo Tolentino and Justice Secretary Vicente Abad Santos, all now deceased) convinced more numerous coastal states to accept archipelagic principles and the 200-NM EEZ as the 'ultimate compromise' far exceeding Hugo Grotius's 3-mile limit. RA 9522 (March 10, 2009) defined the baselines; China's April 13, 2009 Note to the UNSG contested only Scarborough and the Kalayaan Group but not the Philippine archipelago -- implicitly conceding our Unclos rights including over Benham Rise. The arbitral tribunal had no jurisdiction over land sovereignty and could not evict China from the features it occupies. Mendoza recalled Deng Xiaoping telling Marcos in June 1975 that if no agreement is reached, the solution is simply 'to talk some more, and more until agreement is reached' -- a prescription Duterte's Code of Conduct negotiations follow. The column closes with the open question: Is the Code of Conduct strategy a better approach to resolving the SCS impasse?",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

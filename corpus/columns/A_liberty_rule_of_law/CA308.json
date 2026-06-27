@@ -1,0 +1,126 @@
+{
+  "id": "CA308",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 308,
+  "title": "Win-win decision on martial law",
+  "date": "2017-06-18",
+  "link": "https://opinion.inquirer.net/104864/win-win-decision-martial-law",
+  "keywords": [
+    "Proclamation 216",
+    "oral arguments",
+    "martial law constitutionality",
+    "factual basis",
+    "rebellion Marawi",
+    "Lagman petition",
+    "Maute group",
+    "win-win decision"
+  ],
+  "primary_topics": [
+    "Pre-decision analysis of the SC oral arguments on Proclamation 216's constitutionality",
+    "CJ's assessment that actual rebellion exists at least in Marawi City",
+    "Advocacy for a comprehensive, landmark SC decision as a win-win regardless of the petition outcome"
+  ],
+  "sub_topics": [
+    "Three consolidated petitions; oral arguments June 13-15, 2017",
+    "1987 Constitution: two grounds for ML -- invasion or rebellion + public safety requires it",
+    "SC's 30-day mandatory review upon filing of any citizen petition",
+    "Ten issues listed by SC; key issue: 'actual' rebellion of sufficient magnitude for whole Mindanao",
+    "Art. 134 Revised Penal Code -- elements of rebellion",
+    "Proclamation 216's own recital: Maute group took up arms, burned facilities, flew ISIS flag",
+    "Defense Secretary Lorenzana and Gen. Año briefed justices in executive session with classified info",
+    "Legal presumption of regular performance of official duty -- burden on petitioners to show grave abuse",
+    "Terrorism vs rebellion: terrorism suffices if it also constitutes rebellion elements",
+    "Petitioners served public even if they lose -- SC can define ML parameters",
+    "Comprehensive decision as guide for future ML declarations anywhere in the country"
+  ],
+  "signature_phrases": [
+    "not a walk in the park",
+    "win-win for all",
+    "precious opportunity to define the parameters of ML",
+    "actual, not just threatened or anticipated or imagined, rebellion",
+    "the whole of Mindanao",
+    "constitutionally understood and implemented, martial law ... need not be feared",
+    "to exorcise the feared abuses and excesses",
+    "crafted with this valuable teaching"
+  ],
+  "entities": {
+    "people": [
+      "Rep. Edcel C. Lagman (lead petitioner)",
+      "Defense Secretary Delfin Lorenzana",
+      "Gen. Eduardo Año (AFP Chief of Staff)",
+      "Solicitor General Jose C. Calida",
+      "Ferdinand Marcos (historical misuse of ML)",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Department of National Defense",
+      "Armed Forces of the Philippines",
+      "Maute Group",
+      "ISIS (Islamic State of Iraq and Syria)"
+    ],
+    "cases": [
+      "Consolidated petitions on Proclamation 216 (oral arguments June 13-15, 2017)"
+    ],
+    "laws_treaties": [
+      "Proclamation No. 216 -- Mindanao martial law edict",
+      "1987 Philippine Constitution -- Art. VII ML provisions",
+      "Revised Penal Code Art. 134 -- definition of rebellion"
+    ],
+    "events": [
+      "SC oral arguments on Proclamation 216 (June 13, 14, 15, 2017)",
+      "Executive session briefing by Lorenzana and Año to SC justices",
+      "Maute group takeover of parts of Marawi, burning of facilities, ISIS flag-flying"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "There is factual basis for actual rebellion at least in Marawi City: the Maute group took up arms, burned facilities, flew the ISIS flag, and attempted to deprive the President of his powers — facts confirmed by daily media coverage of the prolonged fighting and the classified briefing to the justices.",
+      "rhetorical_move": "evidence-sufficiency assessment pre-ruling: combining Proclamation 216's own recitals, media coverage, and the classified executive-session briefing as a layered factual record",
+      "confidence": "asserted (pre-decision)"
+    },
+    {
+      "claim": "Whether or not the petitioners succeed in nullifying Proclamation 216, the SC proceedings are already a public win because they will produce a comprehensive, landmark decision defining the parameters of ML under the 1987 Constitution — a guide for future declarations anywhere in the country.",
+      "rhetorical_move": "outcome-decoupling argument: separating the petition result from the constitutional value of the judicial exercise",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "ML and the habeas corpus suspension, constitutionally understood and implemented, need not be feared — the 1987 Charter's two-ground limitation and mandatory dual review by Congress and the SC are the essential safeguards Marcos's regime lacked.",
+      "rhetorical_move": "constitutional-reassurance argument: framing current ML within the defanged 1987 framework as the antidote to Marcos-era fears",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Defense Secretary Lorenzana and Gen. Año conducting a classified executive-session briefing for the SC justices — CJ cites this as part of the factual record supporting the rebellion finding, while signaling awareness that classified information unavailable to the public underpins the government's case.",
+    "CJ's pre-decision forecast that the petitioners 'would still have served the public interest' even if they lose — a prescient anticipation of exactly how the SC would ultimately characterize the petition's value in its Lagman vs Medialdea decision three weeks later.",
+    "The framing of ML as a tool 'designed as temporary measures to assist the President in protecting the nation from devastation or dismemberment' — immediately followed by Marcos's misuse as the cautionary counter-example — establishing the constitutional ideal before the historical failure in a single rhetorical move."
+  ],
+  "target_audience": [
+    "General civic readership anxious about Proclamation 216's validity",
+    "Legal practitioners monitoring the oral arguments and pre-ruling analysis",
+    "Constitutional law scholars tracking the SC's ML jurisprudence",
+    "Political analysts and journalists covering the Marawi siege's legal dimensions",
+    "Future ML petitioners and government officials needing constitutional guidance"
+  ],
+  "register_markers": [
+    "pre-decision advisory register ('I believe', 'I think', 'the key issue, I think, is')",
+    "constitutional-reassurance opening ('need not be feared')",
+    "historical-contrast structure (Marcos misuse → 1987 safeguards → present case)",
+    "outcome-decoupling rhetoric ('win-win for all' regardless of petition result)",
+    "classified-information acknowledgment (executive session as supplementary factual record)",
+    "forward-looking landmark framing ('comprehensive and clear decision will guide our officials')",
+    "Revised Penal Code citation for rebellion elements as doctrinal anchor"
+  ],
+  "decision_framework_signals": [
+    "applies two-stage factual analysis: (1) is there actual rebellion? (2) is it sufficient to cover all of Mindanao?",
+    "uses Proclamation 216's own recitals as primary evidentiary text, supplemented by classified briefing and media coverage",
+    "applies legal-presumption of regularity: burden falls on petitioners to show grave abuse",
+    "treats terrorism-as-rebellion as a permissible legal characterization if rebellion elements are met",
+    "uses outcome-decoupling framework: constitutional teaching value independent of petition outcome"
+  ],
+  "one_paragraph_summary": "Writing three weeks before the Lagman vs Medialdea ruling, Panganiban analyzes the SC's oral arguments on Proclamation 216 (June 13-15, 2017) on three consolidated petitions. He identifies the key constitutional question as whether 'actual' (not merely threatened or anticipated) rebellion exists and whether its magnitude justifies covering 'the whole of Mindanao.' He argues the answer for at least Marawi City is yes: Proclamation 216 itself recites that the Maute group took up arms, burned facilities, flew the ISIS flag, and attempted to deprive the President of his powers (meeting Art. 134 RPC's rebellion elements); Lorenzana and Año gave the justices a classified executive-session briefing; daily media coverage confirmed prolonged urban fighting; and the legal presumption of regular official duty places the burden on petitioners to show grave abuse. He also argues that even if Rep. Lagman's group loses, they will have rendered a public service -- giving the SC the 'precious opportunity' to craft a landmark, comprehensive decision defining ML's parameters under the 1987 Constitution for future guidance nationwide. He closes by framing such a decision as a 'win-win for all,' reaffirming that ML constitutionally understood need not be feared, and distinguishing the current defanged Charter from Marcos's misuse.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,126 @@
+{
+  "id": "CA468",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 468,
+  "title": "80 percent of backlog involve criminal cases'",
+  "date": "2013-02-02",
+  "link": "https://opinion.inquirer.net/46147/80-percent-of-backlog-involve-criminal-cases",
+  "keywords": [
+    "Judicial Affidavit Rule",
+    "criminal case backlog",
+    "court delays",
+    "Leila de Lima prosecutors",
+    "Matling vs Coros corporate officers",
+    "NLRC jurisdiction",
+    "daang matuwid",
+    "Gopac Senator Angara"
+  ],
+  "primary_topics": [
+    "SC's Judicial Affidavit Rule (JAR) as the institutional response to the 80% criminal case backlog",
+    "SC's rejection of the Prosecutors' League's deferment request with a one-year modified compliance period",
+    "CJ's call on Justice Secretary De Lima to personally champion the JAR's implementation"
+  ],
+  "sub_topics": [
+    "SC en banc resolution (Jan. 8, 2013): 80% of backlog in first- and second-level courts involves criminal cases",
+    "Causes of delay: lack of prosecutors, absence of prosecution witnesses, lack of PAO lawyers",
+    "JAR adopted Sept. 4, 2012: affidavits replace question-and-answer direct testimony",
+    "40% of criminal cases dismissed annually -- complainants give up after repeated postponements",
+    "Foreign businessmen avoid PH investments due to slow court protection",
+    "JAR effective Jan. 1, 2013 as scheduled despite deferment request",
+    "One-year modified compliance: public prosecutors file sworn statements used in fiscal's office (Jan. 1 - Dec. 31, 2013)",
+    "Moratorium does not apply when private prosecutors assist",
+    "JAR excludes cases with >6-year imprisonment unless accused consents",
+    "Adverse party retains right to cross-examine affiants",
+    "SC expects prosecutors to augment ranks and develop systems during moratorium",
+    "Matling Industrial Commercial Corp. vs Coros (Oct. 13, 2010, Bersamin): regular employees vs corporate officers -- NLRC vs RTC jurisdiction",
+    "Corporate officers per Corporation Code/bylaws: intracorporate controversy → RTC",
+    "Regular employees (positions not in Code/bylaws): illegal dismissal → NLRC",
+    "SEC jurisdiction transferred to RTC by Securities Regulation Code (Aug. 8, 2000)",
+    "Sen. Angara unanimously elected Gopac chair at 5th International Conference"
+  ],
+  "signature_phrases": [
+    "80 percent of the backlog in the first- and second-level courts involve criminal cases",
+    "about 40 percent of criminal cases are dismissed annually",
+    "simply give up coming to court after repeated postponements",
+    "few foreign businessmen make long-term investments",
+    "daang matuwid",
+    "feisty and reform-minded Justice Secretary Leila de Lima",
+    "a job that is really cut out for her",
+    "justice delayed for 20 years is justice atrociously denied"
+  ],
+  "entities": {
+    "people": [
+      "Justice Secretary Leila de Lima",
+      "Justice Lucas P. Bersamin (Matling ponente)",
+      "Sen. Edgardo J. Angara (Gopac chair, unanimously elected)",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Prosecutors' League of the Philippines",
+      "Department of Justice (DOJ)",
+      "Public Attorneys' Office (PAO)",
+      "National Labor Relations Commission (NLRC)",
+      "Securities and Exchange Commission (SEC)",
+      "Global Organization of Parliamentarians Against Corruption (Gopac)"
+    ],
+    "cases": [
+      "Matling Industrial Commercial Corp. vs Coros (October 13, 2010) -- corporate officers vs regular employees; NLRC vs RTC jurisdiction"
+    ],
+    "laws_treaties": [
+      "Judicial Affidavit Rule (JAR) -- adopted Sept. 4, 2012; effective Jan. 1, 2013",
+      "Securities Regulation Code -- transferred intracorporate disputes from SEC to RTC (Aug. 8, 2000)",
+      "Corporation Code -- defines corporate officers"
+    ],
+    "events": [
+      "SC en banc resolution (January 8, 2013) -- 80% backlog statistic",
+      "Prosecutors' League deferment request (December 12, 2012)",
+      "5th Gopac International Conference (Manila, concluded Jan./Feb. 2013)",
+      "Angara's unanimous election as Gopac chair"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The SC was right to reject the Prosecutors' League's deferment request: the JAR's one-year modified compliance period is already an accommodation, and the urgency is underscored by the fact that 40% of criminal cases are being dismissed annually simply because complainants give up — a justice system failure with direct economic consequences on foreign investment.",
+      "rhetorical_move": "urgency-justification: statistical harm (40% dismissal rate, foreign investor deterrence) as the reason the Court cannot delay further",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Justice Secretary De Lima — 'feisty and reform-minded' boss of all prosecutors — is the ideal champion for JAR implementation, consistent with the 'daang matuwid' mandate she shares with President Aquino and the Supreme Court.",
+      "rhetorical_move": "institutional-responsibility assignment: identifying the specific executive actor whose mandate, character, and authority align perfectly with the Court's directive",
+      "confidence": "recommended"
+    }
+  ],
+  "notable_anecdotes": [
+    "The SC's own self-implicating admission in the JAR resolution that 'few foreign businessmen make long-term investments in the Philippines because its courts are unable to provide ample and speedy protection' — CJ quotes this not as criticism but as the Court's own diagnosis of its systemic failure, giving the JAR its economic urgency.",
+    "Sen. Angara's unanimous election as Gopac chair appended as a congratulatory postscript — notable because Angara is ending his Senate term and not running for any other office, making the Gopac role his primary post-Senate anti-corruption platform.",
+    "The Matling vs Coros labor-jurisdiction clarification embedded mid-column — the distinction between corporate officers (bylaws-defined, board-removable, intracorporate RTC) and regular employees (not bylaws-defined, NLRC) — a compact labor law primer inserted as a practical aside for business practitioners."
+  ],
+  "target_audience": [
+    "Justice Secretary De Lima and DOJ prosecutors as the primary implied audience",
+    "Trial judges and courts administrators implementing the JAR",
+    "Business lawyers and HR practitioners affected by the Matling corporate-officer distinction",
+    "Law students studying criminal procedure, judicial affidavit rules, and labor law jurisdiction",
+    "General civic readership following the judicial reform and anti-corruption agenda"
+  ],
+  "register_markers": [
+    "statistical-shock register ('80 percent of backlog', '40 percent dismissed annually')",
+    "direct-address advocacy register ('I urge the feisty and reform-minded Justice Secretary')",
+    "daang-matuwid alignment signal (linking SC reform to Aquino administration)",
+    "economic-consequence register (foreign investment deterrence as backlog's systemic cost)",
+    "appended-postscript structure (Matling labor law and Angara Gopac as separate tacked-on topics)",
+    "modified-compliance explainer (one-year moratorium for public prosecutors)"
+  ],
+  "decision_framework_signals": [
+    "applies urgency-justification test: 40% dismissal rate and foreign investment deterrence as the cost-of-delay that overrides the deferment request",
+    "uses institutional-responsibility assignment: identifying De Lima as the specific actor whose mandate aligns with the SC's directive",
+    "applies Matling corporate-officer test: bylaws/Corporation Code listing as the threshold variable for NLRC vs RTC jurisdiction",
+    "treats the one-year modified compliance period as a proportionate accommodation, not a capitulation to the prosecutors' request",
+    "frames the JAR as the structural fix for a three-cause bottleneck (lack of prosecutors, absent witnesses, lack of PAO lawyers)"
+  ],
+  "one_paragraph_summary": "Panganiban reports on the SC's January 8, 2013 en banc resolution noting that 80% of the backlog in first- and second-level courts involves criminal cases, caused mainly by lack of prosecutors, absent prosecution witnesses, and insufficient PAO lawyers. He explains the Judicial Affidavit Rule (adopted Sept. 4, 2012; effective Jan. 1, 2013) -- requiring affidavits in lieu of the cumbersome question-and-answer direct testimony method -- and the SC's rejection of the Prosecutors' League's deferment request, instead granting a one-year modified compliance period for public prosecutors to file their existing sworn statements. He cites the SC's own diagnosis: 40% of criminal cases are dismissed annually because complainants give up after repeated postponements, and 'few foreign businessmen make long-term investments because courts are unable to provide ample and speedy protection,' giving the JAR economic urgency beyond access-to-justice. He calls directly on Justice Secretary De Lima -- 'feisty and reform-minded' boss of all prosecutors -- to champion JAR implementation consistent with the 'daang matuwid.' Appended as separate items: Matling Industrial vs Coros (defining the NLRC vs RTC jurisdiction line between regular employees and corporate officers expressly mentioned in the Corporation Code or bylaws), and Sen. Angara's unanimous election as Gopac chair.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

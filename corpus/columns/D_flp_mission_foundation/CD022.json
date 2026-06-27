@@ -1,0 +1,118 @@
+{
+  "id": "CD022",
+  "format": "C",
+  "type": "column",
+  "theme": "D",
+  "theme_label": "FLP Mission and Foundation",
+  "number": 22,
+  "title": "Enforcing rights on surveillance capitalism",
+  "date": "2020-05-17",
+  "link": "https://opinion.inquirer.net/129885/enforcing-rights-on-surveillance-capitalism",
+  "keywords": [
+    "PCGG abolition bill",
+    "Rightsizing the National Government Act of 2017",
+    "FLP law scholarships 2017-2018",
+    "FLP dissertation contest",
+    "Tan Yan Kee Foundation",
+    "Ayala Group",
+    "Philippine Association of Law Schools"
+  ],
+  "primary_topics": [
+    "Pending bills (Diokno-cited 'Rightsizing the National Government Act of 2017' and Alvarez bill) seeking to abolish the PCGG and transfer its functions to the DOJ or OSG/OGCC",
+    "Need to require PCGG accountability -- pinpointing, locating, and accounting for all recovered ill-gotten assets -- before any dissolution or merger",
+    "FLP / Tan Yan Kee Foundation law scholarships for SY 2017-2018 (16 new scholarships: 6 senior, 10 junior)",
+    "FLP / Ayala Group dissertation writing contest for SY 2017-2018",
+    "Eligibility and judging criteria as instruments of FLP's liberty-and-prosperity philosophy"
+  ],
+  "sub_topics": [
+    "PCGG created by the very first executive order of President Corazon Aquino's revolutionary government (1986)",
+    "Historical achievement: cracking secret Swiss deposits and other previously impregnable financial havens; favorable rulings in Swiss, US, and Philippine courts",
+    "Inquirer (7/27/17) reporting P170 billion recovered to date -- only a fraction of the initial $10 billion (P500 billion equivalent) estimate, excluding interest and asset appreciation",
+    "Reports of wastage, losses, malversation, criminal neglect, or outright thievery of recovered assets must be verified",
+    "FLP scholarship terms: P200,000 per scholar (P100,000 tuition, P80,000 stipend, P20,000 books); applicants must be top-20 of batch, GPA ≥85%, no dropped subject, no grade lower than 75%; short essay on liberty-and-prosperity philosophy due Aug 15",
+    "Dissertation contest prizes: P300,000 best, P200,000 second, three at P100,000 each; top-20 elimination-round entries receive P20,000 each; commemorative plaques for all winners",
+    "Dissertation judging criteria: significance/relevance/timeliness; comprehensiveness/analysis; innovation/objectivity/depth/exposition/coherence; writing quality/clarity/brevity/literary style",
+    "Scope: scholarships limited to law schools scoring higher than the national mean bar-passing rate; dissertation contest open to all law schools",
+    "Deadline for dissertation entries extended from June 30 to September 15 due to late start of school year"
+  ],
+  "signature_phrases": [
+    "Good news for law students",
+    "internationally hailed for having cracked, for the first time in history, secret deposits in Switzerland",
+    "the philosophy of liberty and prosperity under the rule of law",
+    "the philosophy of liberty and prosperity",
+    "I think it must first be required to pinpoint, locate and account for"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, FLP)",
+      "Budget Secretary Benjamin E. Diokno",
+      "Speaker Pantaleon Alvarez",
+      "President Ferdinand Marcos (subject of PCGG mandate)",
+      "President Corazon Aquino (revolutionary EO No. 1)"
+    ],
+    "institutions": [
+      "Presidential Commission on Good Government (PCGG)",
+      "Department of Justice (DOJ)",
+      "Office of the Solicitor General (OSG)",
+      "Office of the Government Corporate Counsel (OGCC)",
+      "Foundation for Liberty and Prosperity (FLP)",
+      "Tan Yan Kee Foundation",
+      "Ayala Group",
+      "Philippine Association of Law Schools",
+      "Inquirer (cited)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Pending 'Rightsizing the National Government Act of 2017'",
+      "Speaker Alvarez bill (PCGG/OGCC functions to OSG)",
+      "Executive Order No. 1 (1986) creating the PCGG"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Before the PCGG is abolished, dissolved, or merged, Congress should first require it to pinpoint, locate, and account for all recovered ill-gotten assets — cash, bonds, real estate, shares, paintings, jewelry — wherever situated.",
+      "rhetorical_move": "accountability-before-abolition: institutional-housekeeping precondition",
+      "evidence": "Inquirer 7/27/17 report (P170B recovered, fraction of $10B initial estimate); reports of wastage, malversation, and thievery that 'must be verified and put to rest'"
+    },
+    {
+      "claim": "The PCGG's historical achievement — being the first body to crack Swiss banking secrecy and prevail in Swiss, US, and PH courts — is real and internationally recognized, but does not exempt it from accountability before any institutional realignment.",
+      "rhetorical_move": "credit-where-due-then-pivot",
+      "evidence": "Historical record of PCGG asset-recovery in three jurisdictions"
+    },
+    {
+      "claim": "FLP scholarships and dissertation prizes are concrete vehicles for advancing the philosophy of liberty and prosperity under the rule of law in the next generation of Filipino lawyers.",
+      "rhetorical_move": "institutional-advocacy as service announcement",
+      "evidence": "Detailed terms, partners (Tan Yan Kee Foundation, Ayala Group, Philippine Association of Law Schools), and judging rubrics"
+    }
+  ],
+  "notable_anecdotes": [
+    "The PCGG was created by 'the very first executive order' of President Corazon Aquino's revolutionary government in 1986 — a foundational data-point used to underline both its historical pedigree and the gravity of any move to abolish it.",
+    "The international plaudits for the PCGG as the first body in history to crack Swiss and other 'impregnable financial havens' — set against the irony that recovered assets are now plagued by reports of wastage and malversation.",
+    "The P170 billion recovered as 'only a fraction' of the initial $10 billion estimate (P500B), excluding interest and appreciation — used to argue that the recovery story is still unfinished."
+  ],
+  "target_audience": [
+    "Members of Congress considering PCGG-abolition bills",
+    "PCGG officials and their successor agencies",
+    "Aspiring law-school scholars and their families",
+    "Law students contemplating dissertation entries",
+    "Deans and faculty of Philippine law schools",
+    "FLP and Tan Yan Kee Foundation donors"
+  ],
+  "register_markers": [
+    "hybrid policy-commentary + civic-announcement register",
+    "section headers as transitional anchors ('PCGG's accountability', 'FLP scholarships', 'FLP dissertation contest')",
+    "scholarship-pamphlet-style listing of amounts, eligibility, deadlines, and judging criteria",
+    "institutional-pedigree appeals ('the very first executive order')",
+    "numeric-comparison rhetoric (P170B vs. $10B / P500B)",
+    "directive-mode constructive recommendation ('it must first be required to pinpoint, locate and account for')"
+  ],
+  "decision_framework_signals": [
+    "applies accountability-before-restructuring as institutional-reform principle",
+    "treats unfinished asset-recovery as a precondition that subordinates any abolition agenda",
+    "uses meritocratic-eligibility criteria (top-20, GPA, no dropped subjects) as scholarship-design philosophy",
+    "deploys philosophy-of-liberty-and-prosperity as the unifying criterion across both scholarships and dissertation contest",
+    "frames mean-national-bar-passing rate as a quality-control filter for participating schools"
+  ],
+  "one_paragraph_summary": "Panganiban opens with Budget Secretary Benjamin E. Diokno's disclosure of a pending 'Rightsizing the National Government Act of 2017' bill that would abolish the PCGG and transfer its functions to the DOJ (Speaker Alvarez's parallel bill would route them through the OSG and OGCC). Before any such abolition, he argues, the PCGG should be required to pinpoint, locate, and account for every recovered ill-gotten asset -- Inquirer (July 27, 2017) reported P170 billion recovered, only a fraction of the initial $10 billion ($500B-equivalent) estimate, and reports of wastage, malversation, and outright thievery deserve verification. He honors the PCGG's pedigree as the very first executive order of Corazon Aquino's revolutionary government in 1986 and its historic role in cracking Swiss banking secrecy across three jurisdictions, but insists accountability precedes restructuring. The column then pivots to two FLP service announcements: sixteen new law scholarships for SY 2017-2018 (six senior, ten junior), co-sponsored with the Tan Yan Kee Foundation and the Philippine Association of Law Schools -- P200,000 per scholar (P100,000 tuition, P80,000 stipend, P20,000 books), with top-20 rank, ≥85% GPA, no dropped subjects, no grade below 75%, and an essay on the philosophy of liberty and prosperity due August 15; and a dissertation contest co-sponsored with the Ayala Group -- P300,000 best, P200,000 second, P100,000 each for three third-placers, plus P20,000 elimination-round prizes for the top 20, with deadline extended to September 15 -- judged on significance, comprehensiveness, innovation, and literary style. Scholarships are limited to schools above the national-mean bar-passing rate; the dissertation contest is open to all law schools.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

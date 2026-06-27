@@ -1,0 +1,138 @@
+{
+  "id": "CC060",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 60,
+  "title": "What if Tony Carpio became chief justice?",
+  "date": "2019-11-10",
+  "link": "https://opinion.inquirer.net/125151/what-if-tony-carpio-became-chief-justice",
+  "keywords": [
+    "Antonio Carpio",
+    "chief justice tradition",
+    "Renato Corona impeachment",
+    "primus inter pares",
+    "dissents",
+    "martial law Mindanao",
+    "Grace Poe citizenship",
+    "Marcos burial"
+  ],
+  "primary_topics": [
+    "Counterfactual: what would have happened had Carpio been named CJ in 2012 after Corona's ouster",
+    "The over-110-year SC tradition of naming the most or second-most senior justice as CJ",
+    "The First, Second, Third Division chairmanships as 'little chiefs' grooming the 'big chief'",
+    "Carpio's specific dissents 2012-2019 that could have become majority decisions",
+    "Speculative AJ longevity for Sereno had Carpio been CJ (Aug 13, 2010 - Jul 2, 2030 = ~20 years)"
+  ],
+  "sub_topics": [
+    "Court decides ~85% of cases through three Divisions of five members; the rest en banc",
+    "First Division usually chaired by CJ; Second by most senior; Third by second most senior",
+    "Even Marcos bypassed Teehankee but named second most senior -- Teehankee eventually became CJ",
+    "Cory rearranged appointment dates in revolutionary regime; followed semblance of tradition post-1987",
+    "Five times Carpio could have been CJ; three nominations declined; two accepted",
+    "After Corona ouster May 29, 2012: P-Noy told him he was 'most qualified and most senior' but 'some Senate allies and three prominent business leaders' opposed",
+    "CJ Panganiban spoke with one senator and two of the businessmen -- all denied opposing him",
+    "Carpio dissents that could have become decisions: martial law constitutionality in Mindanao only Marawi; ML extension 2018; ML extension 2019; natural-born citizenship of Grace Poe; Marcos burial at Libingan; Arroyo plunder acquittal; bail for Juan Ponce Enrile; validity of Leila de Lima's arrest and detention",
+    "Reference to Teehankee Court and Warren Court as 'courts named after their chiefs'"
+  ],
+  "signature_phrases": [
+    "primus inter pares",
+    "first among equals",
+    "little chiefs",
+    "big chief",
+    "speculative as it may be",
+    "I wonder how many of these dissents could have become the decisions with him as CJ",
+    "moral ascendancy",
+    "Mr. Midnight Chief Justice",
+    "Mr. One-Day Chief Justice",
+    "the most qualified and the most senior"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, former CJ)",
+      "Justice Antonio T. Carpio (retired Oct 26, 2019)",
+      "CJ Reynato S. Puno (retired May 17, 2010)",
+      "CJ Renato C. Corona (impeached and ousted May 29, 2012)",
+      "President Benigno Aquino III (P-Noy)",
+      "Former President Gloria Macapagal Arroyo (Carpio's former client)",
+      "CJ Maria Lourdes P. A. Sereno (ousted; speculative AJ trajectory)",
+      "CJ Teresita J. Leonardo-De Castro",
+      "CJ Lucas P. Bersamin",
+      "President Ferdinand Marcos (bypassed Teehankee)",
+      "Claudio Teehankee Sr. (bypassed but later CJ)",
+      "President Corazon Aquino (revolutionary-regime appointments)",
+      "President Rodrigo Duterte (chose Bersamin over Carpio)",
+      "Senator Grace Poe (natural-born citizenship case)",
+      "Senator Juan Ponce Enrile (bail decision Carpio dissented)",
+      "Senator Leila de Lima (arrest/detention validated, Carpio dissented)",
+      "Earl Warren (US Chief Justice reference)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Judicial and Bar Council (JBC)",
+      "Philippine Senate",
+      "Senate Electoral Tribunal (oblique)"
+    ],
+    "cases": [
+      "Martial law constitutionality in Mindanao (decision and two extensions)",
+      "Poe natural-born citizenship case",
+      "Marcos burial at Libingan ng mga Bayani",
+      "Arroyo plunder acquittal",
+      "Bail grant to Sen. Juan Ponce Enrile",
+      "Validity of Sen. Leila de Lima's arrest and detention",
+      "Republic v. Sereno (quo warranto ouster, implicit)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution Article VII (midnight-appointment ban; referenced for Puno-vacancy Court decision)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Under the over-110-year SC tradition (broken only during Japanese occupation), only the most senior or second-most-senior justice has been named chief -- and this is not 'merely a ritual without reason' but reflects the fact that the Second and Third Division chairmanships are 'little chiefs' grooming the 'big chief,' with the divisions deciding ~85% of cases.",
+      "rhetorical_move": "tradition-as-functionally-grounded defense"
+    },
+    {
+      "claim": "Had Carpio been named CJ in 2012 (after Corona's ouster), he would have served over seven years -- there would have been no CJs Sereno, De Castro, or Bersamin; Sereno could not have been ousted and would have been the most senior AJ now, potentially serving the longest AJ tenure (~20 years, Aug 13, 2010 to July 2, 2030), perhaps still becoming CJ in the future.",
+      "rhetorical_move": "speculative-counterfactual chain of consequences"
+    },
+    {
+      "claim": "Chief justices have moral ascendancy (and leadership as primus inter pares) even though they have only one vote -- Courts are named after their chiefs (Teehankee Court, Warren Court) precisely because the chief's influence shapes the major decisions of the term.",
+      "rhetorical_move": "moral-ascendancy structural-influence claim"
+    },
+    {
+      "claim": "Carpio's dissents 2012-2019 -- including against the constitutionality of martial law in Mindanao (he would have limited it to Marawi only), its two extensions, the natural-born citizenship of Grace Poe, the Marcos burial at Libingan, the acquittal of Arroyo, the grant of bail to Enrile, and the validation of De Lima's arrest -- represent decisions that 'could have become the decisions' had he led the Court.",
+      "rhetorical_move": "dissent-as-prospective-majority counterfactual"
+    }
+  ],
+  "notable_anecdotes": [
+    "P-Noy's reported explanation to Carpio after Corona's ouster: he was 'most qualified and most senior' but 'some of his (P-Noy's) Senate allies and three prominent business leaders opposed his elevation' -- preserved as the saddest of the five missed chances.",
+    "CJ Panganiban's own private inquiry: 'I have spoken with one of the senators and with two of the businessmen, and all denied having opposed him' -- a journalistic-pursuit aside that promises a future full column.",
+    "The historical observation that even Marcos at his most powerful 'carefully adhered to this tradition' -- bypassing Teehankee but naming the second-most senior -- used to underscore that the tradition has bound the most powerful presidents."
+  ],
+  "target_audience": [
+    "Carpio's friends, family, and admirers (retirement-week tribute audience)",
+    "Constitutional-law scholars on CJ-selection tradition",
+    "Civic readers tracking SC composition and decisions",
+    "Future presidents and JBC observers",
+    "Court historians"
+  ],
+  "register_markers": [
+    "speculative-counterfactual register ('What would have happened')",
+    "tradition-as-evidence narrative arc (110 years, exceptions enumerated)",
+    "primus-inter-pares Latin idiom",
+    "dissent-rollcall as quasi-majority-list",
+    "moral-ascendancy structural-influence framing",
+    "Teehankee Court / Warren Court comparative-elevation register",
+    "promise-of-future-column device ('worth a full column')"
+  ],
+  "decision_framework_signals": [
+    "applies tradition-as-functionally-grounded reasoning to defend seniority practice",
+    "uses Division-chairmanship logic as institutional explanation for seniority tradition",
+    "deploys speculative-counterfactual chain to evaluate institutional choices",
+    "treats dissent rollcall as preview of alternative-CJ Court outputs",
+    "frames CJ's role as having moral ascendancy beyond a single vote"
+  ],
+  "one_paragraph_summary": "Responding to reader interest in his October 20 column 'Why Tony Carpio never became chief justice,' Panganiban explores the counterfactual: what would have happened had Carpio been named CJ. He defends the over-110-year SC tradition (broken only during the Japanese occupation) of naming the most or second-most-senior justice as CJ -- even Marcos at his most powerful 'carefully adhered to this tradition,' bypassing Teehankee only to name the second-most-senior -- and grounds it functionally in the Division structure: the Court decides ~85% of cases through three five-member Divisions, with the First Division usually chaired by the CJ, the Second by the most senior, and the Third by the second-most-senior, making the latter two 'little chiefs' grooming the 'big chief.' Of Carpio's five chances, the saddest was after CJ Renato C. Corona's impeachment and ouster on May 29, 2012, when P-Noy reportedly told him he was 'most qualified and most senior' but that 'some Senate allies and three prominent business leaders opposed his elevation' -- CJ Panganiban discloses that he spoke with one of those senators and two of the businessmen, and all denied opposing him, a story 'worth a full column.' Had Carpio been CJ from 2012 to his Oct 26, 2019 retirement, there would have been no CJs Sereno, De Castro, or Bersamin; Sereno could not have been ousted and would have been the most senior AJ today, potentially serving ~20 years (Aug 13, 2010 to July 2, 2030). Because chief justices have 'moral ascendancy' as primus inter pares -- Courts are named after their chiefs, like the Teehankee Court or Warren Court -- Carpio's dissents in this period could have become the decisions: limiting martial law in Mindanao to Marawi City only, rejecting both its extensions, denying the natural-born citizenship of Grace Poe, opposing the Marcos burial at Libingan, refusing to acquit Arroyo of plunder, denying bail to Enrile, and rejecting the validity of De Lima's arrest and detention.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

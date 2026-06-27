@@ -1,0 +1,146 @@
+{
+  "id": "CA331",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 331,
+  "title": "Dismal record in prosecuting drug cases",
+  "date": "2016-10-09",
+  "link": "https://opinion.inquirer.net/98035/dismal-record-in-prosecuting-drug-cases",
+  "keywords": [
+    "Drug cases dismal prosecution record",
+    "Sindac v. People (Oct 3 2016) Perlas-Bernabe ponencia",
+    "People v. Manago (Aug 17 2016)",
+    "fruit of the poisonous tree doctrine",
+    "warrantless arrest three exceptions (flagrante delicto, hot pursuit, escapee)",
+    "surveillance-based reliable information insufficient"
+  ],
+  "primary_topics": [
+    "Dismal drug-case conviction record traced to constitutionally defective arrest/search procedures",
+    "Recent SC jurisprudence: Sindac v People (Oct 3, 2016) and People v Manago (Aug 17, 2016)",
+    "Fruit-of-the-poisonous-tree doctrine -- illegally obtained evidence inadmissible",
+    "Three warrantless-arrest exceptions: in flagrante delicto, hot pursuit, escaped prisoner",
+    "Q&A teaching format showing concrete application of evidentiary rules"
+  ],
+  "sub_topics": [
+    "Past-government dismal drug-case prosecution record",
+    "Police failure to observe constitutionally-mandated arrest/evidence-gathering process",
+    "Sindac v People (Oct 3, 2016) -- Justice Estela M. Perlas-Bernabe ponente",
+    "People v Manago (Aug 17, 2016) -- Justice Perlas-Bernabe ponente",
+    "Fruit of the poisonous tree doctrine",
+    "Typical drug evidence: shabu/marijuana seized from body, effects, vehicle, home",
+    "Search warrant requirement based on probable cause",
+    "Warrantless search exception: incident of lawful arrest (arrest must PRECEDE search)",
+    "Reverse procedure (search → arrest) is unlawful; evidence cannot justify post-facto arrest",
+    "Arrest warrant requirement based on probable cause",
+    "In flagrante delicto: overt act + officer's presence/view (e.g., officer sees actual shooting)",
+    "Hot pursuit: offense just committed + officer's personal knowledge of facts (e.g., officer sees victim fall + suspect fleeing with smoking gun)",
+    "Escaped prisoner/detainee exception",
+    "Sindac Q&A: surveillance-based reliable info ≠ personal knowledge → acquittal",
+    "Manago Q&A: 24-hr-after investigation yields enough info to secure warrant → search before arrest taints evidence → acquittal",
+    "Moral lesson: meticulous study and strict compliance with constitutional process needed"
+  ],
+  "signature_phrases": [
+    "Dismal is the record",
+    "the proverbial fruit of a poisonous tree",
+    "the arrest should precede the search. The process cannot be reversed",
+    "the evidence obtained in an unlawful search cannot justify the post facto arrest of the suspect",
+    "in flagrante delicto",
+    "hot pursuit",
+    "with his very eyes",
+    "smoking gun",
+    "Q and A",
+    "Reliable information alone -- even if it was the product of well-executed surveillance operations -- is not sufficient to justify a warrantless arrest",
+    "Moral lesson",
+    "To improve the conviction rate, the police should study meticulously and follow strictly the constitutional process"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Justice Estela M. Perlas-Bernabe (ponente of both Sindac and Manago)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Philippine National Police (subject of the diagnostic)",
+      "Prosecution services (DOJ, fiscal offices)"
+    ],
+    "cases": [
+      "Sindac v People (Oct 3, 2016) -- surveillance-based warrantless arrest invalidated",
+      "People v Manago (Aug 17, 2016) -- vehicle-search-before-arrest evidence tainted"
+    ],
+    "laws_treaties": [
+      "1987 Constitution Bill of Rights Sec 2 -- searches/seizures with warrant on probable cause",
+      "Rules of Court -- three warrantless arrest exceptions",
+      "Exclusionary rule / fruit-of-the-poisonous-tree doctrine",
+      "Comprehensive Dangerous Drugs Act (implicit -- shabu/marijuana possession)"
+    ],
+    "events": [
+      "Issuance of Sindac and Manago decisions (Aug-Oct 2016)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The dismal drug-case prosecution record across past governments is structurally explained by police failure to observe constitutionally-mandated arrest and evidence-gathering procedures -- and the consequent application of the fruit-of-the-poisonous-tree doctrine, which makes illegally obtained evidence inadmissible even when it tends to prove guilt.",
+      "rhetorical_move": "structural-explanation framing (low conviction rate = procedural defect, not judicial leniency)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The arrest MUST precede the search -- the process cannot be reversed, and evidence obtained in an unlawful search cannot justify a post-facto arrest of the suspect; this temporal-ordering rule is non-negotiable and explains why even shabu seized from a suspect's body can become inadmissible if the procedural sequence is violated.",
+      "rhetorical_move": "temporal-ordering rule emphasis (sequence as legal absolute)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Sindac decision establishes that 'reliable information alone -- even if it was the product of well-executed surveillance operations -- is not sufficient to justify a warrantless arrest' because surveillance-derived information does not constitute the personal knowledge of the arresting officer that the warrantless-arrest exceptions require.",
+      "rhetorical_move": "doctrinal-quotation deployment to establish bright-line rule",
+      "confidence": "asserted via Sindac quotation"
+    },
+    {
+      "claim": "The Manago decision establishes that when post-incident investigation yields sufficient information to enable warrant procurement, the failure to obtain a warrant before searching/arresting taints the evidence -- the constitutional warrant requirement is the default, and warrantless exceptions are construed strictly against the police.",
+      "rhetorical_move": "default-vs-exception framing (warrant is default, exceptions narrow)",
+      "confidence": "asserted via Manago application"
+    },
+    {
+      "claim": "The remedy to the dismal conviction record is not to weaken constitutional protections but for the police to study meticulously and follow strictly the constitutional process -- improving conviction rates by upgrading police procedural compliance, not by undermining the protections themselves.",
+      "rhetorical_move": "moral-lesson framing prescribing institutional self-improvement over rights-relaxation",
+      "confidence": "asserted as moral lesson"
+    }
+  ],
+  "notable_anecdotes": [
+    "The vivid hot-pursuit example: 'the officer sees the victim fall from a bullet wound without seeing who actually pulled the trigger; yet, he personally sees the suspect running away from the origin of the shot while holding a smoking gun' -- using cinematic specificity to make the personal-knowledge requirement concrete.",
+    "The Sindac Q&A: surveillance-based arrest with shabu found in bodily search → 'Reliable information alone -- even if it was the product of well-executed surveillance operations -- is not sufficient to justify a warrantless arrest' → acquittal. The most pedagogically structured single-case treatment in CJ's drug-procedure columns.",
+    "The Manago Q&A: officer witnesses robbery but loses fleeing suspect, traces him next day via investigation, intercepts car and finds shabu → search-before-lawful-arrest renders evidence tainted → acquittal. Pairs with Sindac as a 'two ways to fail' demonstration.",
+    "The 'fruit of the poisonous tree' metaphor preserved verbatim -- the central rhetorical anchor of the entire column, doing more analytical work than any technical phrasing could.",
+    "The closing 'Moral lesson' single-sentence prescription -- pedagogically structured close that mirrors the Q&A format and tells police exactly what to do without dressing it up."
+  ],
+  "target_audience": [
+    "Philippine National Police (primary instructional target)",
+    "Prosecution services and the DOJ",
+    "Criminal-procedure law students and instructors",
+    "Civic readers tracking the Duterte-era drug-war legal landscape",
+    "Civil-libertarians and human-rights advocates",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "diagnostic-pedagogical register",
+    "labeled-subhead structure ('Recent jurisprudence', 'Warrantless arrests', 'Q and A')",
+    "Q&A format with concrete fact patterns",
+    "doctrinal-quotation deployment (preserving SC language verbatim)",
+    "fruit-of-poisonous-tree metaphor anchoring",
+    "cinematic-specificity examples ('smoking gun', 'with his very eyes')",
+    "moral-lesson closing convention (single-sentence prescription)",
+    "Latin tag use ('in flagrante delicto', 'post facto')",
+    "ponente-named citation pattern (Justice Perlas-Bernabe identified for both cases)",
+    "default-vs-exception bright-line framing"
+  ],
+  "decision_framework_signals": [
+    "applies structural-explanation framing to outcome patterns (low conviction = procedural defect, not judicial bias)",
+    "uses temporal-ordering rule emphasis when sequence matters legally (arrest precedes search)",
+    "deploys doctrinal-quotation deployment to establish bright-line rules",
+    "frames warrant requirement as default and warrantless exceptions as narrowly construed",
+    "prescribes institutional self-improvement over rights-relaxation as remedy for outcome failures",
+    "uses Q&A pedagogy to convert doctrine into actionable compliance guidance"
+  ],
+  "one_paragraph_summary": "Panganiban traces the dismal drug-case conviction record of past governments to police failure to observe constitutionally-mandated arrest and evidence-gathering procedures, citing two recent Supreme Court decisions both penned by Justice Estela M. Perlas-Bernabe: Sindac v People (Oct 3, 2016) and People v Manago (Aug 17, 2016), both producing acquittals under the fruit-of-the-poisonous-tree doctrine. Typically the drug evidence is shabu or marijuana seized after a search of the suspect's body, effects, vehicle, or home -- but under the Constitution, searches require warrants based on probable cause, with the narrow exception of a search incident to a lawful arrest (arrest MUST precede search; the sequence cannot be reversed, and evidence from an unlawful search cannot justify a post-facto arrest). Warrantless arrests are limited to three Rules-of-Court exceptions: (1) in flagrante delicto -- the suspect's overt act done within the officer's view (officer sees the actual shooting); (2) hot pursuit -- offense just committed plus officer's personal knowledge of facts (officer sees the victim fall and the suspect fleeing with a smoking gun); and (3) escaped prisoner. CJ applies the doctrine through Q&A: in Sindac, an arrest based on reliable surveillance information producing a shabu seizure was held unlawful because 'reliable information alone -- even if it was the product of well-executed surveillance operations -- is not sufficient to justify a warrantless arrest' since the officer lacked personal knowledge; in Manago, an officer who witnessed a robbery but lost the fleeing suspect and traced him next day via investigation could have secured a warrant -- and his pre-arrest vehicle search tainted the shabu evidence. CJ closes with the moral lesson: to improve the conviction rate, the police should study meticulously and follow strictly the constitutional process -- strengthening compliance rather than weakening protections.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,126 @@
+{
+  "id": "CE104",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 104,
+  "title": "Best in Asean, second best in Asia",
+  "date": "2012-12-08",
+  "link": "https://opinion.inquirer.net/42349/best-in-asean-second-best-in-asia",
+  "keywords": [
+    "Philippine economy",
+    "inclusive growth",
+    "GDP growth",
+    "IMF",
+    "BPI Montinola",
+    "Why Nations Fail",
+    "Conditional Cash Transfer",
+    "extractive vs inclusive institutions"
+  ],
+  "primary_topics": [
+    "Philippines as the best-performing economy in ASEAN and second only to China in Asia for the first nine months of 2012",
+    "The inclusive vs extractive institutions framework (Acemoglu and Robinson) as the lens for understanding why growth must be broadened",
+    "CJ's caution: reasons to smile but not yet to celebrate -- sustainable, inclusive growth remains the goal"
+  ],
+  "sub_topics": [
+    "GDP growth: 6.3% Q1, 6% Q2, 7.1% Q3 -- overall 6.5% for first nine months of 2012",
+    "IMF's Christine Lagarde hailing PH as the only country where IMF increased its growth forecast",
+    "PH graduating from IMF tutelage since 2006, now an IMF lender -- credit also to Arroyo",
+    "Critics: BPO and OFW remittances drove growth, not Aquino; minimal FDI despite hot money in stock market",
+    "CJ's rebuttal: high business morale, record stock market, rising revenues, ratings upgrades, low interest/inflation/forex",
+    "Economic figures not yet impacting the poor -- CCT program continued and expanded from Arroyo era",
+    "Trickle-syndrome question: how to hasten spread to middle class and poor",
+    "World Bank's Jim Yong Kim and Motoo Konishi: inclusive growth as the answer",
+    "'Why Nations Fail' by Acemoglu and Robinson: inclusive economic institutions vs extractive ones",
+    "Filipino translation of WB thesis: level playing field, property rights, innovation, zero corruption/nepotism/cronyism, rule of law",
+    "BPI president Montinola: seeing the peak is different from scaling the peak -- cautionary precedent of mid-90s Asian crisis"
+  ],
+  "signature_phrases": [
+    "Reason to smile, but not yet to celebrate",
+    "probably the only country in which [the IMF] increased its growth forecast",
+    "Since 2006, it has graduated from IMF tutelage and has now become an IMF lender, no longer a borrower",
+    "the old trickle syndrome",
+    "Filipinizing the above jargon",
+    "zero corruption, zero nepotism and zero cronyism",
+    "seeing the peak is very different from scaling the peak",
+    "we were once so close in the mid-90s before the Asian crises threw us back to earth"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "President Benigno Aquino III (P-Noy)",
+      "Christine Lagarde (IMF managing director)",
+      "Finance Secretary Cesar Purisima",
+      "President Gloria Macapagal-Arroyo (CCT originator; IMF graduation credit)",
+      "Jim Yong Kim (World Bank president)",
+      "Motoo Konishi (WB Japan country director)",
+      "Daron Acemoglu and James A. Robinson (Why Nations Fail authors)",
+      "BPI president Aurelio Montinola III"
+    ],
+    "institutions": [
+      "IMF",
+      "World Bank",
+      "BPI"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "PH Q3 2012 GDP 7.1%",
+      "PH graduation from IMF as lender (2006)",
+      "Asian financial crisis 1997 -- cautionary precedent",
+      "Montinola speech"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "PH 6.5% growth for first nine months of 2012 gives reason to smile but not yet to celebrate -- sustainable, inclusive growth benefiting middle class and poor, not just entrepreneurs, is the real test.",
+      "rhetorical_move": "reason-to-smile-but-not-celebrate framing",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Critics who attribute growth entirely to OFW/BPO are partly right but cannot ignore business morale, record stock market, revenue rises, and ratings upgrades, nor the CCT program wisely continued from Arroyo.",
+      "rhetorical_move": "balanced-attribution acknowledging critics while pointing to overlooked evidence",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Acemoglu-Robinson inclusive-vs-extractive institutions framework, Filipinized, requires: level playing field, property rights, innovation tolerance, zero corruption/nepotism/cronyism, transparency, accountability, rule of law.",
+      "rhetorical_move": "academic-framework-domestication",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Asian crisis of the 1990s -- which threw PH back when it was so close to Tiger Economy status -- is the cautionary precedent warning against complacency in 2012.",
+      "rhetorical_move": "historical-cautionary-precedent (1990s Asian crisis as mirror)",
+      "confidence": "asserted via Montinola quote"
+    }
+  ],
+  "notable_anecdotes": [
+    "Montinola speech framing PH as in the cusp of Tiger Economy while warning seeing the peak is different from scaling the peak -- recalling the mid-1990s near-miss before the Asian crisis.",
+    "CJ receiving the 529-page Why Nations Fail from the World Bank as a personal gift -- humanizing the academic framework.",
+    "IMF Lagarde hailing PH as the only country where the IMF raised its growth forecast -- flipping the historical IMF-disciplinarian relationship into an IMF-cheerleader moment."
+  ],
+  "target_audience": [
+    "Business community and economic policy analysts",
+    "Civic readers tracking PH macroeconomic performance",
+    "Politicians and technocrats responsible for inclusive growth policy",
+    "Media commentators covering the Aquino administration economic record"
+  ],
+  "register_markers": [
+    "reason-to-smile-but-not-celebrate as organizing caution",
+    "Acemoglu-Robinson verbatim quotation (pp. 429-430)",
+    "Filipinizing as CJ explicit domestication marker for foreign academic jargon",
+    "Lagarde direct quote as international validation",
+    "Montinola quote as cautionary closing",
+    "trickle-syndrome as economic-justice vocabulary",
+    "personal-book-receipt register (WB sent me the book)"
+  ],
+  "decision_framework_signals": [
+    "uses best-in-ASEAN-growth-data as baseline before qualifying with sustainability concern",
+    "applies inclusive-vs-extractive institutions framework to diagnose PH institutional needs",
+    "treats CCT continuation as evidence of policy wisdom transcending partisan lines",
+    "deploys Asian-crisis-cautionary-precedent to temper growth optimism",
+    "frames zero-corruption/nepotism/cronyism as necessary conditions for sustainable inclusive growth"
+  ],
+  "one_paragraph_summary": "Panganiban surveys the Philippines' remarkable 2012 economic performance -- 6.3% GDP growth in Q1, 6% in Q2, and 7.1% in Q3, for an overall 6.5% in the first nine months, making it the best performer in ASEAN and second only to China in Asia -- noting IMF chief Christine Lagarde's hailing of PH as the only country where the IMF raised its growth forecast. He credits Arroyo's administration for the 2006 graduation from IMF borrower to lender, and the Aquino economic team for continuing and expanding the Conditional Cash Transfer program. He rebuts critics who attribute growth solely to OFW and BPO workers by pointing to high business morale, record stock market performance, rising revenues, and ratings upgrades. He frames the core challenge using the World Bank-sent book 'Why Nations Fail' by Acemoglu and Robinson: inclusive institutions (property rights, level playing field, innovation incentives) vs extractive ones -- 'Filipinized' as zero corruption/nepotism/cronyism plus transparency, accountability, and rule of law. He closes with BPI president Montinola's caution: 'seeing the peak is very different from scaling the peak,' recalling how PH was 'so close in the mid-90s before the Asian crises threw us back to earth.' Reason to smile, but not yet to celebrate.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

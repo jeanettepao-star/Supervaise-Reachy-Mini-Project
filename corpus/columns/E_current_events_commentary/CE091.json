@@ -1,0 +1,205 @@
+{
+  "id": "CE091",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 91,
+  "title": "Internet, the globalization equalizer",
+  "date": "2015-11-22",
+  "link": "https://opinion.inquirer.net/90540/internet-the-globalization-equalizer",
+  "keywords": [
+    "Apec 2015 CEO Summit attendance via Tony Tan Caktiong invitation",
+    "Jack Ma keynote ($23.3B net worth, 18th world)",
+    "Alibaba founded by Ma + 16 friends in small shack, half didn't know PC",
+    "Alibaba 2020 projection $650B trade in China",
+    "comparison with Amazon and Walmart",
+    "Rocket International Germany counter",
+    "Apec vs WTO binding-character distinction",
+    "FVR robust globalization legacy (telecom, banking, insurance, airline liberalization; water+tollways privatization; oil+power deregulation)",
+    "Romeo Bernardo growth data -- 2.9% 1991-2000, 4.8% 2001-2010, 5.9% 2011-2014",
+    "Obama-moderating Jack Ma + Aisa Mijeno (salt-water electricity) panel",
+    "MSME concurrent summit emphasis"
+  ],
+  "primary_topics": [
+    "Apec 2015 CEO Summit attendance and front-row seat to Obama, Xi Jinping, Medvedev",
+    "Jack Ma's keynote speech praising the Internet as the globalization equalizer",
+    "Alibaba's rise from a small shack to the biggest Chinese Internet marketplace ($650B projected 2020)",
+    "Comparison with Amazon and Walmart; Rocket International's German counter-bid",
+    "Apec vs WTO -- both pro-globalization but only WTO has binding character",
+    "FVR's robust globalization legacy in Philippine telecom, banking, insurance, airline, water, tollways, oil, power",
+    "Romeo Bernardo's GDP growth data demonstrating globalization payoff",
+    "Inclusive-growth and MSME emphasis as the propoor trajectory adjustment",
+    "Obama-moderating-Jack-Ma-Aisa-Mijeno panel as iconic Apec moment"
+  ],
+  "sub_topics": [
+    "Tony Tan Caktiong's invitation as Apec conference chair and Jollibee board chair (9th largest QSR by market cap)",
+    "Jack Ma's net worth $23.3 billion -- richest man in China, 18th in the world",
+    "Ma's background: 51-year-old self-made Chinese billionaire and former school teacher",
+    "Internet enables Laguna wood carvers and embroiderers and Manila tailors to sell to New York/London/Beijing",
+    "Alipay digital money facilitating delivery and payment at cheapest rates",
+    "Alibaba does not own any factory -- merely an enabler",
+    "Alibaba founded by Ma + 16 friends in a small shack, half (including Ma) did not know how to operate a PC",
+    "Apec's mission echoed from WTO: sustainable economic growth, free and open trade",
+    "Tariff/quota/tax reduction, privatization of public assets and utilities, deregulation",
+    "Apec as forum without binding character; WTO, EU, Asean require compliance",
+    "FVR liberation of telecom, banking, insurance, airline industries from monopoly",
+    "Water utilities and tollways privatized; oil and power deregulated",
+    "Romeo Bernardo growth data -- 2.9% (1991-2000), 4.8% (2001-2010), 5.9% (2011-2014)",
+    "Inflation reduced from 8.3% (1996) to 1.4% present",
+    "Critics: rich getting richer, poor stagnating; US 20th-century industrial parallel + China 21st-century digital parallel",
+    "Apec leaders' inclusive-growth pivot -- MSMEs concurrent summit",
+    "Aisa Mijeno's salt-water electricity invention as Filipina contribution",
+    "'Indeed, the Internet is the globalization equalizer that worked for Ma. It should equally work for Mijeno.'"
+  ],
+  "signature_phrases": [
+    "in my humble opinion",
+    "the globalization equalizer",
+    "rags-to-riches",
+    "ringside seat",
+    "verily",
+    "indeed",
+    "the rich getting richer first (and the poor next)"
+  ],
+  "entities": {
+    "people": [
+      "Tony Tan Caktiong (Apec 2015 CEO Summit conference chair, Jollibee board chair)",
+      "US President Barack Obama",
+      "Chinese President Xi Jinping",
+      "Russian PM Dmitry Medvedev",
+      "Jack Ma (Alibaba executive chair)",
+      "Aisa Mijeno (Filipina inventor of salt-water electricity)",
+      "President Fidel V. Ramos (FVR)",
+      "Romeo L. Bernardo (economist)"
+    ],
+    "institutions": [
+      "Apec 2015 CEO Summit",
+      "Asia-Pacific Economic Cooperation (Apec)",
+      "Alibaba Group",
+      "Jollibee Foods Corporation",
+      "Forbes (net-worth source)",
+      "Amazon",
+      "Walmart",
+      "Rocket International (Germany)",
+      "World Trade Organization (WTO)",
+      "European Union (EU)",
+      "Association of Southeast Asian Nations (Asean)",
+      "Alipay"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Apec founding charter (1989)",
+      "WTO agreements (binding)",
+      "FVR-era liberalization, privatization, deregulation policies (telecom, banking, insurance, airline; water, tollways; oil, power)"
+    ],
+    "events": [
+      "Apec 2015 CEO Summit (Manila)",
+      "Founding of Apec (1989)",
+      "Founding of Alibaba (~2000)",
+      "Founding of Rocket International (~2013)",
+      "Obama-moderated panel with Jack Ma and Aisa Mijeno",
+      "Concurrent MSME summit at Apec 2015"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "By far, Jack Ma delivered the most moving speech at Apec 2015 -- with passion and conviction explaining that the Internet is the economic equalizer in our globalized world",
+      "rhetorical_move": "best-speaker-of-the-day endorsement",
+      "confidence": "high"
+    },
+    {
+      "claim": "Online, impoverished but ingenious manufacturers can reach any buyer in the world -- Laguna wood carvers, embroiderers, and Manila tailors can sell to New York, London, Beijing -- something nearly impossible in 1989 when Apec was born",
+      "rhetorical_move": "before-after comparative demonstration",
+      "confidence": "high"
+    },
+    {
+      "claim": "Alibaba is merely an enabler -- it owns no factory, yet by 2020 will account for $650 billion in trade in China alone, outselling the older Amazon and almost equaling Walmart's revenue",
+      "rhetorical_move": "scale-of-platform demonstration",
+      "confidence": "high"
+    },
+    {
+      "claim": "In only 15 years, Alibaba became the biggest Chinese Internet marketplace -- founded in a small shack by Ma and 16 friends, half of whom (including Ma) did not even know how to operate a PC",
+      "rhetorical_move": "origin-myth recitation supporting the equalizer thesis",
+      "confidence": "high"
+    },
+    {
+      "claim": "Apec and WTO both believe in competition through lower tariffs/quotas/taxes, privatization, and deregulation -- but Apec is mostly a non-binding forum while WTO, EU, and Asean require member compliance",
+      "rhetorical_move": "comparative-institutional analysis",
+      "confidence": "high"
+    },
+    {
+      "claim": "FVR robustly promoted free trade and implemented globalization, deregulation, privatization, and liberalization -- telecom, banking, insurance, and airlines liberated from monopoly; water and tollways privatized; oil and power deregulated",
+      "rhetorical_move": "FVR-legacy enumeration",
+      "confidence": "high"
+    },
+    {
+      "claim": "Freer trade has uplifted the Philippine economy -- GDP growth rose from 2.9% (1991-2000) to 4.8% (2001-2010) to about 5.9% (2011-2014); inflation dropped from 8.3% (1996) to 1.4% present",
+      "rhetorical_move": "data-citation from named economist (Romeo Bernardo)",
+      "confidence": "high"
+    },
+    {
+      "claim": "Critics lament these statistics benefit mostly the rich -- but the same rich-first trajectory is evident in the US's 20th-century industrial rise and China's 21st-century digital rise; the wealth eventually reaches the poor",
+      "rhetorical_move": "comparative-historical defense of trickle-down sequence",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Apec leaders now stress inclusive growth and MSMEs -- the call to assist MSMEs is as loud as the advocacies for liberalization and deregulation, hence the concurrent MSME summit",
+      "rhetorical_move": "policy-pivot acknowledgment",
+      "confidence": "high"
+    },
+    {
+      "claim": "Obama's 'unorthodox moderating' of the Jack Ma + Aisa Mijeno panel drew the most applause -- showing entrepreneurial ingenuity at its best, an accomplished giant and a very promising startup both buoyed by free enterprise",
+      "rhetorical_move": "iconic-moment recapture as evidence",
+      "confidence": "high"
+    },
+    {
+      "claim": "Ma's rags-to-riches story can help bridge the gap between poor inventors/producers and unreachable foreign markets -- the Internet that worked for Ma should equally work for Mijeno",
+      "rhetorical_move": "Filipina-aspiration closing endorsement",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Front-row seat at Apec 2015 listening to Obama, Xi, Medvedev",
+    "Tony Tan Caktiong's invitation as conference chair and Jollibee board chair (Jollibee = 9th largest QSR globally by market cap)",
+    "Jack Ma the 51-year-old former school teacher worth $23.3B per Forbes",
+    "Alibaba founded by Ma and 16 friends in a small shack; half (including Ma) didn't know how to use a PC",
+    "Alibaba projected to account for $650B in Chinese trade by 2020 -- owns no factory",
+    "Rocket International formed in Germany two years ago to dominate non-US/China Internet trade",
+    "Romeo Bernardo's GDP growth numbers (2.9% / 4.8% / 5.9%)",
+    "Inflation reduced from 8.3% (1996) to 1.4% present",
+    "Obama's 'unorthodox moderating' of Jack Ma and Aisa Mijeno panel -- most applause of the summit",
+    "Aisa Mijeno's pioneering production of electricity from salt water"
+  ],
+  "target_audience": [
+    "Inquirer readership and business community",
+    "Apec attendees and Philippine business leaders",
+    "Critics of globalization concerned about inclusive growth",
+    "MSME owners and aspiring entrepreneurs",
+    "FVR-era policy admirers",
+    "Filipino diaspora interested in Aisa Mijeno's salt-water invention"
+  ],
+  "register_markers": [
+    "front-row personal-witness opening",
+    "data-citation register with growth percentages and net-worth figures",
+    "FVR-legacy enumeration as policy-history",
+    "rags-to-riches narrative arc",
+    "section labels (Best speaker, Borderless world, Championing equality)",
+    "comparative-institutional analysis (Apec vs WTO vs EU vs Asean)",
+    "iconic-moment recapture (Obama panel)",
+    "Filipina-aspiration closing endorsement",
+    "'verily' and 'indeed' as transition markers",
+    "'in my humble opinion' subordinator"
+  ],
+  "decision_framework_signals": [
+    "Internet-as-equalizer thesis (Ma's framing)",
+    "Trickle-down historical-comparative defense (US 20th-century, China 21st-century)",
+    "Inclusive-growth pivot as policy-correction",
+    "MSME-empowerment as the propoor channel",
+    "Apec-non-binding vs WTO-binding institutional distinction",
+    "FVR-legacy as Philippine globalization template",
+    "Data-driven economic-policy argument (Bernardo statistics)",
+    "Filipina aspiration through entrepreneurial channels (Mijeno)"
+  ],
+  "one_paragraph_summary": "Panganiban opens with thanks to Tony Tan Caktiong (Apec 2015 CEO Summit conference chair and Jollibee board chair, 9th largest QSR globally by market cap) for the 'ringside seat' on the first row to hear Obama on climate change, Xi Jinping on trade pacts, Medvedev on terrorism, and several other leaders. But by far, in his humble opinion, Alibaba executive chair Jack Ma delivered the most moving speech: the 51-year-old self-made Chinese billionaire and former school teacher (Forbes-rated $23.3 billion, richest in China, 18th in the world) explained with passion and conviction that the Internet is the economic equalizer in our globalized world. Online, impoverished but ingenious manufacturers can reach any buyer in the world -- Laguna wood carvers and embroiderers, Manila tailors selling to New York, London, Beijing -- something nearly impossible in 1989 when Apec was born. Alibaba facilitates delivery and payment via Alipay digital money at the cheapest rates; by 2020 it will account for $650 billion in Chinese trade. Yet Alibaba 'does not own any factory. It is merely an enabler.' In only 15 years it became the biggest Chinese Internet marketplace, founded in a small shack by Ma and 16 friends, half (including Ma) not knowing how to operate a PC. It outsells the older Amazon, largest US online trader, and almost equals Walmart's revenue. Rocket International was formed in Germany two years ago to dominate Internet trading outside the US and China. Apec and WTO both aim to support sustainable economic growth and prosperity by championing free and open trade -- believing in competition through drastically lowering tariffs, quotas, and taxes; privatizing public assets and utilities; deregulating prices and businesses. Unlike WTO, however, Apec is mostly a forum without binding character; the WTO, EU, and Asean require compliance. Upholding membership in both Apec and WTO, Philippine presidents -- especially FVR -- robustly promoted free trade and implemented globalization, deregulation, privatization, and liberalization: telecom, banking, insurance, and airline industries liberated from monopoly; water utilities and tollways privatized; oil business and power generation deregulated. Economist-friend Romeo L. Bernardo's data: GDP growth from 2.9% annual average (1991-2000, first decade of globalization) to 4.8% (2001-2010) to about 5.9% (2011-2014); inflation reduced from 8.3% (1996) to 1.4% present. Critics lament these statistics benefit mostly the rich while the poor wallow in low pay, malnutrition, inadequate shelter, ill health -- they vehemently oppose Apec/WTO globalization. CJ notes the rich-first trajectory is equally evident in the US's 20th-century industrial rise and China's 21st-century digital rise. To hasten the propoor trajectory, Apec leaders now stress inclusive growth -- the call to assist MSMEs (micro, small, medium enterprises) is as loud as advocacies for liberalization and deregulation, hence the concurrent MSME summit. President Obama's 'unorthodox moderating' of a panel composed of Jack Ma and Aisa Mijeno -- the young Filipina who pioneered electricity from salt water -- drew the most applause, showing entrepreneurial ingenuity at its best, an accomplished giant and a very promising startup both buoyed by free enterprise. Ma's rags-to-riches story shows how entrepreneurship and innovation can bridge the gap between poor inventors/producers and unreachable foreign markets, while providing the needed financial, marketing, and logistics muscles. Indeed, the Internet is the globalization equalizer that worked for Ma. It should equally work for Mijeno.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,132 @@
+{
+  "id": "CA486",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 486,
+  "title": "How the judiciary can help the economy",
+  "date": "2012-09-08",
+  "link": "https://opinion.inquirer.net/36306/how-the-judiciary-can-help-the-economy",
+  "keywords": [
+    "deferential interpretation economic cases",
+    "Tañada Angara WTO ratification",
+    "NAIA Terminal 3 contract voided public bidding",
+    "FDR New Deal court packing Justice Owen Roberts",
+    "judicial restraint political questions"
+  ],
+  "primary_topics": [
+    "Deferential judicial interpretation of economic programs",
+    "Strict judicial scrutiny for human rights vs deference for economic policy",
+    "Two applications: WTO ratification (deference) and NAIA Terminal 3 (intervention)"
+  ],
+  "sub_topics": [
+    "PH economy Q1 6.3%, Q2 5.9%; projected 5.5% year-end; outpacing Malaysia, Thailand, Singapore, Vietnam",
+    "Primary economic responsibility: President, Congress, and private sector",
+    "Judiciary's role: defer to political branches absent clear constitutional violation or GAD",
+    "Contrast: human rights and liberty cases -- strictly construe in favor of people",
+    "Historical shift: from economic nationalism and protectionism to WTO/globalization",
+    "Tañada v. Angara (May 2, 1997): SC unanimously upheld WTO ratification",
+    "Tañada holding: Constitution has bias for Filipino goods but also recognizes globalization need",
+    "SC refused to pass on wisdom of deregulation and globalization -- outside judicial inquiry",
+    "Current policies: CCT, PPP for power, water, tollways, ports",
+    "Courts should use deferential interpretation for these programs",
+    "Long-term investors expect stable, consistent, predictable jurisprudence",
+    "Intervene only when contracts clearly violate Constitution/laws or show GAD",
+    "NAIA Terminal 3 contract voided: plain violation of public bidding law",
+    "SC upheld state's right to regulate monopolies; public bidding must level playing field",
+    "FDR-New Deal parallel: US SC blocking New Deal programs; contemplated court packing",
+    "Justice Owen Roberts joining liberal bloc ('switch in time') -- FDR desisted"
+  ],
+  "signature_phrases": [
+    "deferential interpretation",
+    "absent a clear violation of the Constitution or grave abuse of discretion",
+    "outside the realm of judicial inquiry and review",
+    "That is a matter between the elected policy makers and the people",
+    "level the playing field",
+    "stable, consistent and predictable jurisprudence",
+    "switch in time that saved nine",
+    "creative tension amid mutual cooperation"
+  ],
+  "entities": {
+    "people": [
+      "President Benigno Aquino III",
+      "US President Franklin Delano Roosevelt",
+      "US Justice Owen Roberts"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "World Trade Organization (WTO)",
+      "US Supreme Court"
+    ],
+    "cases": [
+      "Tañada v. Angara (May 2, 1997) -- WTO ratification upheld",
+      "NAIA Terminal 3 contract case -- voided for public bidding violation"
+    ],
+    "laws_treaties": [
+      "WTO Treaty (Philippine ratification)",
+      "Public bidding law",
+      "1987 Constitution (economic nationalism provisions)"
+    ],
+    "events": [
+      "PH Q1 2012 GDP growth (6.3%) and Q2 2012 (5.9%)",
+      "CCT and PPP programs (Aquino administration)",
+      "FDR's New Deal and court-packing plan"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "In economic controversies, courts must defer to the political branches absent a clear constitutional violation or GAD -- elected leaders are accountable to the electorate for economic decisions.",
+      "rhetorical_move": "deferential-interpretation prescription",
+      "confidence": "high"
+    },
+    {
+      "claim": "Human rights and liberty cases are the reverse: courts must strictly construe laws in favor of the people and against the government.",
+      "rhetorical_move": "strict-scrutiny contrast",
+      "confidence": "high"
+    },
+    {
+      "claim": "Tañada v. Angara (1997) correctly upheld WTO ratification using deferential interpretation -- whether globalization is wise is outside judicial inquiry.",
+      "rhetorical_move": "canonical deferential-interpretation precedent",
+      "confidence": "high"
+    },
+    {
+      "claim": "Long-term investors need stable, consistent, and predictable jurisprudence -- courts should interfere only when contracts clearly violate the Constitution or show GAD.",
+      "rhetorical_move": "investor-confidence argument for judicial restraint",
+      "confidence": "high"
+    },
+    {
+      "claim": "The NAIA Terminal 3 voiding was correct -- a clear and specific violation of public bidding law, not a policy disagreement -- illustrating the proper limits of deferential interpretation.",
+      "rhetorical_move": "boundary-case illustration",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Tañada v. Angara (May 2, 1997): senators challenged WTO ratification on economic nationalism grounds; the SC unanimously upheld ratification using deferential interpretation -- one of the author's most frequently cited precedents.",
+    "FDR's New Deal court-packing plan: US SC blocked New Deal programs until Justice Owen Roberts joined the liberal bloc ('switch in time that saved nine') -- FDR desisted; the closest the US came to political capture of its SC.",
+    "NAIA Terminal 3 voiding: the SC as 'not an unwanted interloper' when it enforces the law on public bidding -- the 'level the playing field' principle as the boundary case of permissible judicial economic intervention."
+  ],
+  "target_audience": [
+    "CJ Sereno and the SC en banc setting economic jurisprudence policy",
+    "President Aquino and Cabinet seeking judicial deference on CCT and PPP",
+    "Long-term investors and business groups valuing jurisprudential predictability",
+    "Constitutional law scholars on judicial restraint",
+    "Civic readership following SC-executive branch relations"
+  ],
+  "register_markers": [
+    "Comparative-economics opening (PH vs ASEAN)",
+    "Two-tier doctrine (deference for economy; strict scrutiny for rights)",
+    "Two-case illustrations (Tañada = deference; Terminal 3 = correct intervention)",
+    "FDR-historical parallel as cautionary tale",
+    "Investor-confidence argument for predictability"
+  ],
+  "decision_framework_signals": [
+    "Apply the two-tier test: economic programs → defer absent clear constitutional violation or GAD; human rights → strictly construe in favor of people",
+    "Use Tañada v. Angara as the canonical deferential-interpretation precedent for treaty ratification and trade policy",
+    "Intervene only when a contract has a clear and specific legal defect (Terminal 3: public bidding violation), not merely because the policy may be unwise",
+    "Guarantee jurisprudential stability, consistency, and predictability as the judiciary's primary contribution to long-term economic investment",
+    "Apply the FDR lesson: judicial resistance to economic policy risks institutional delegitimization and political retaliation"
+  ],
+  "one_paragraph_summary": "Against the backdrop of the Philippines' strong 2012 growth (6.3% Q1, 5.9% Q2), Panganiban addresses how the judiciary can help the economy. The primary responsibility for economic growth rests with elected leaders and the private sector -- the judiciary's proper role is deferential interpretation: absent a clear constitutional violation or grave abuse of discretion, courts must respect the economic programs of political leaders who are accountable to voters. In human rights cases the rule is reversed: courts strictly construe laws in favor of the people and against the government. He illustrates with two SC cases. Tañada v. Angara (May 2, 1997) unanimously upheld WTO ratification using deferential interpretation -- the Constitution has a bias for Filipino goods but also recognizes globalization, and 'whether such exercise was wise, beneficial or viable is outside the realm of judicial inquiry.' The NAIA Terminal 3 contract was correctly voided because it had a specific, clear violation of public bidding law -- an 'unwanted interloper' objection the SC rebuffed by enforcing the 'level the playing field' axiom. Long-term investors expect stable, consistent, and predictable jurisprudence; courts should interfere only for specific legal defects or GAD, not policy disagreements. The FDR-New Deal parallel warns against obstruction: the US SC's blocking of New Deal programs prompted court-packing plans, averted only when Justice Owen Roberts joined the liberal bloc ('switch in time that saved nine').",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

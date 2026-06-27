@@ -1,0 +1,204 @@
+{
+  "id": "CA027",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 27,
+  "title": "SC balances protection of journos, public",
+  "date": "2026-05-04",
+  "link": "https://opinion.inquirer.net/191454/sc-balances-protection-of-journos-public",
+  "keywords": [
+    "cyberlibel",
+    "freedom of the press",
+    "Supreme Court",
+    "prescription",
+    "rule of law"
+  ],
+  "primary_topics": [
+    "Cyberlibel-prescriptive-period long-running befuddlement of magistrates/legislators/lawyers/journalists/public -- finally settled by SC en banc April 8 2026",
+    "Tolentino v. People (Aug 6 2018, per J later CJ Teresita Leonardo-de Castro, First Division, unsigned extended resolution) -- held Cybercrime Prevention Act of 2012 in relation to Art. 90 par. 2 RPC prescribes in 15 years; cyberlibel by Wilbert Tolentino had not prescribed",
+    "Causing v. People (Oct 11 2023, per J Henri Jean Paul B. Inting, Third Division) -- applied par. 4 of Art. 90 RPC, held libel 'shall prescribe in one year' since cyberlibel and traditional libel are 'one and the same crime' with same elements ergo same prescriptive periods",
+    "Irony -- accused Causing won battle to fix prescriptive period to one year but lost the war because date of discovery of allegedly libelous article was not established",
+    "CJP Jan 29 2024 column 'Will Maria Ressa, Jinggoy Estrada be acquitted?' back-reference -- observed Tolentino-Causing First-vs-Third-Division conflict must be settled by full Court under Article VIII Section 4 Item 3 (only en banc may modify/reverse doctrine)",
+    "Causing v. People April 8 2026 en banc resolution (per J Inting, 8-7 hairline vote) -- cyberlibel prescribes in one year from 'date of the discovery of the alleged defamatory [online] remarks,' not from publication",
+    "En banc clarified Tolentino is NOT doctrinal/binding precedent since contained in unsigned extended resolution not signed ponencia",
+    "Seven dissenters led by J Antonio T. Kho Jr. -- traditional libel and cyberlibel are not the same because of 'the qualifying aggravating circumstance of [the] use of ICT'; thus one-year-prescription 'no longer controlling, as it is only applicable in traditional libel'",
+    "Settled-law summary -- State's authority to prosecute + courts' power to penalize cyberlibel prescribes in one year, reckoned from discovery (by offended parties or authorities), not publication; date of discovery must be proven at trial",
+    "Balance-of-rights thesis -- ruling balances rights of journos and offended parties",
+    "One-year-prescription-protects-journalists thesis -- mitigates 'chilling effect' of protracted legal uncertainty; 15-year alternative is 'too long for daily grinders such as reporters, columnists, editors, and online podcasters'",
+    "CJP-since-retirement journo-protection track record -- Feb 24 2019 column 'Is Maria Ressa liable for libel?' on Ressa-Santos cyberlibel defenses including prescription; June 21 2020 'Cyberlibel and Maria Ressa'",
+    "Discovery-rule-protects-the-public thesis -- acknowledges unique nature of online libel; social media (Facebook + LinkedIn + Instagram) privacy features limit public exposure",
+    "Vivares v. St. Theresa's College (Sept 29 2014, per J Presbitero J. Velasco Jr., Third Division) -- social media users can control post-visibility through privacy settings; presuming readily-discoverable would be 'grave legal error'",
+    "Discovery rule preserves public right to seek redress where harm is not readily discoverable",
+    "Closing thesis -- 'Speech in cyberspace is not without protection. Neither is it without consequence' -- Court en banc ruling is 'a balanced guardrail in tempering the boundlessness of online expression'"
+  ],
+  "sub_topics": [
+    "Article VIII Section 4 Item 3 of the Constitution -- only Court en banc may modify or reverse doctrine or principle of law",
+    "Date of discovery must be proven during trial -- evidentiary burden",
+    "Cyberlibel cases filed beyond one-year prescription from discovery result in acquittal",
+    "Vivares v. St. Theresa's College -- privacy settings affect discoverability of online content",
+    "8-7 hairline en banc vote -- extremely narrow doctrinal margin",
+    "Kho dissent -- ICT-use-aggravating-circumstance basis for distinguishing cyberlibel from traditional libel"
+  ],
+  "signature_phrases": [
+    "For years, the prescriptive period for cyberlibel has befuddled magistrates, legislators, lawyers, journalists, and the public",
+    "FIVE YEARS THEREAFTER, THE COURT CHANGED ITS MIND",
+    "one and the same crime",
+    "Ironically, though the accused won the battle to fix the prescriptive period to one year, he lost the war because the date of the discovery of the allegedly libelous article was not established",
+    "only the Court en banc may modify or reverse a doctrine or principle of law",
+    "the date of the discovery of the alleged defamatory [online] remarks",
+    "passed by a hairline 8-7 vote",
+    "the Tolentino ruling is not a doctrinal or a binding precedent since it was contained in an unsigned extended resolution, not in a signed ponencia",
+    "the qualifying aggravating circumstance of [the] use of ICT",
+    "the one-year prescriptive period is no longer controlling, as it is only applicable in traditional libel",
+    "All told, I regret I do not have the space to quote the other justices",
+    "the matter is now settled",
+    "This ruling, in my humble opinion, balances the rights of journos and the offended parties",
+    "THE ONE-YEAR PRESCRIPTION PROTECTS JOURNALISTS",
+    "it mitigates the 'chilling effect' of protracted legal uncertainty",
+    "Absent such a limit, every critical cyber publication would expose its author to 15 years of possible criminal prosecution and harassment. That is too long for daily grinders such as reporters, columnists, editors, and online podcasters",
+    "ON THE OTHER HAND, THE 'DISCOVERY RULE' PROTECTS THE PUBLIC",
+    "Social media like Facebook, LinkedIn, and Instagram have privacy features that limit their public exposure",
+    "social media users can control the visibility of their posts through privacy settings",
+    "grave legal error",
+    "Speech in cyberspace is not without protection. Neither is it without consequence",
+    "Though the law should keep pace with the velocity of digital speech, the Court en banc's ruling is a balanced guardrail in tempering the boundlessness of online expression"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Justice (later CJ) Teresita Leonardo-de Castro (Tolentino v. People ponente)",
+      "Wilbert Tolentino (Tolentino v. People accused)",
+      "Justice Henri Jean Paul B. Inting (Causing v. People + April 8 2026 en banc ponente)",
+      "Justice Antonio T. Kho Jr. (April 8 2026 en banc lead dissenter)",
+      "Justice Presbitero J. Velasco Jr. (Vivares v. St. Theresa's College ponente)",
+      "Maria Ressa (Feb 24 2019 + June 21 2020 CJP-column subjects)",
+      "Reynaldo Santos Jr. (Ressa co-accused)",
+      "Jinggoy Estrada (Jan 29 2024 CJP-column co-subject)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (First Division + Third Division + En Banc)",
+      "Facebook + LinkedIn + Instagram (cited social media)",
+      "St. Theresa's College (Vivares-case venue)",
+      "Philippine Daily Inquirer (CJP column platform)"
+    ],
+    "cases": [
+      "Tolentino v. People (Aug 6 2018, J Leonardo-de Castro, First Division, unsigned extended resolution) -- held 15-year prescription",
+      "Causing v. People (Oct 11 2023, J Inting, Third Division) -- held one-year prescription, cyberlibel = traditional libel",
+      "Causing v. People (April 8 2026 en banc resolution, J Inting, 8-7) -- one year from discovery; clarified Tolentino not binding precedent",
+      "Vivares v. St. Theresa's College (Sept 29 2014, J Velasco Jr., Third Division) -- social media privacy settings + 'grave legal error' to presume readily-discoverable"
+    ],
+    "laws_treaties": [
+      "Cybercrime Prevention Act of 2012 (Cybercrime Law)",
+      "Revised Penal Code (RPC) Article 90 par. 2 (15-year prescription, Tolentino interpretation)",
+      "Revised Penal Code (RPC) Article 90 par. 4 (one-year libel prescription, Causing interpretation)",
+      "Constitution Article VIII Section 4 Item 3 -- only Court en banc may modify or reverse doctrine"
+    ],
+    "events": [
+      "Aug 6 2018 First Division Tolentino unsigned extended resolution",
+      "Oct 11 2023 Third Division Causing decision",
+      "Jan 29 2024 CJP column 'Will Maria Ressa, Jinggoy Estrada be acquitted?'",
+      "Separate partial motions for reconsideration filed in Causing by accused and prosecution",
+      "April 8 2026 en banc Causing resolution (8-7, J Inting ponente)",
+      "Feb 24 2019 CJP column 'Is Maria Ressa liable for libel?'",
+      "June 21 2020 CJP column 'Cyberlibel and Maria Ressa'"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "For years, the prescriptive period for cyberlibel has befuddled magistrates, legislators, lawyers, journalists, and the public. In Tolentino v. People (Aug 6 2018, per J later CJ Teresita Leonardo-de Castro, First Division, via unsigned extended resolution), the Court held the Cybercrime Prevention Act of 2012 -- in relation to RPC Article 90 par. 2 -- prescribes in 15 years; on this basis, the cyberlibel allegedly committed by Wilbert Tolentino had not prescribed.",
+      "rhetorical_move": "long-befuddlement + Tolentino-15-year-citation opening",
+      "confidence": "asserted as case-history grounding"
+    },
+    {
+      "claim": "Five years later, the Court changed its mind. Causing v. People (Oct 11 2023, J Inting, Third Division) applied RPC Article 90 par. 4 and held libel 'shall prescribe in one year.' The Third Division reasoned that cyberlibel and traditional libel are 'one and the same crime' since their elements are the same; ergo, their prescriptive periods should be the same -- i.e., one year. Ironically, though the accused won the battle to fix the prescriptive period to one year, he lost the war because the date of discovery of the allegedly libelous article was not established.",
+      "rhetorical_move": "Court-changed-its-mind + Causing-one-year + won-the-battle-lost-the-war irony",
+      "confidence": "asserted as doctrinal-shift narrative"
+    },
+    {
+      "claim": "In CJP's Jan 29 2024 column 'Will Maria Ressa, Jinggoy Estrada be acquitted?,' he observed that the First-Third Division conflict should be settled by the full Court, because under the Constitution (Article VIII, Section 4, Item 3) only the Court en banc may modify or reverse a doctrine or principle of law. Fortunately, the separate partial motions for reconsideration filed by the accused and prosecution in Causing v. People were referred to and resolved by the Court en banc via a resolution promulgated on April 8 2026 -- held that cyberlibel prescribes in one year from the 'date of the discovery of the alleged defamatory [online] remarks,' not from publication.",
+      "rhetorical_move": "CJP-self-citation + Article-VIII-Section-4 only-en-banc-may-reverse-doctrine + April-8-2026-en-banc-resolution",
+      "confidence": "asserted with self-citation + constitutional-basis"
+    },
+    {
+      "claim": "Penned also by J Inting, the resolution -- passed by a hairline 8-7 vote -- clarified that the Tolentino ruling is not a doctrinal or binding precedent since it was contained in an unsigned extended resolution, not in a signed ponencia. Notably, the seven dissenters led by J Antonio T. Kho Jr. argued that traditional libel and cyberlibel are not the same because of 'the qualifying aggravating circumstance of [the] use of ICT'; thus, 'the one-year prescriptive period is no longer controlling, as it is only applicable in traditional libel.'",
+      "rhetorical_move": "8-7-hairline + Tolentino-not-binding-clarification + Kho-dissent ICT-aggravating-circumstance",
+      "confidence": "asserted as doctrinal exposition"
+    },
+    {
+      "claim": "All told, the matter is now settled: the State's authority to prosecute, and the power of courts to penalize, cyberlibel prescribes in one year, reckoned from the discovery by the offended parties or the authorities of the allegedly defamatory article, not from its publication. The date of discovery must be proven during trial. This ruling, in CJP's humble opinion, balances the rights of journos and the offended parties.",
+      "rhetorical_move": "settled-law + date-of-discovery-must-be-proven + balance-of-rights framing",
+      "confidence": "asserted as settled-law-summary"
+    },
+    {
+      "claim": "The one-year prescription protects journalists because it mitigates the 'chilling effect' of protracted legal uncertainty. Absent such a limit, every critical cyber publication would expose its author to 15 years of possible criminal prosecution and harassment -- too long for daily grinders such as reporters, columnists, editors, and online podcasters. Since CJP started writing opinions after retiring from the SC almost two decades ago, he has tried to protect journos -- Feb 24 2019 'Is Maria Ressa liable for libel?' explored Ressa-Santos cyberlibel defenses including prescription; June 21 2020 'Cyberlibel and Maria Ressa.' Today, cyberlibel cases filed beyond the one-year prescription reckoned from discovery would result in acquittal.",
+      "rhetorical_move": "chilling-effect mitigation + daily-grinders + CJP-journo-protection-track-record self-citation",
+      "confidence": "asserted with autobiographical-grounding"
+    },
+    {
+      "claim": "On the other hand, the 'discovery rule' protects the public. By reckoning the one-year period from discovery rather than publication, the Court acknowledged the unique nature of online libel -- social media like Facebook, LinkedIn, and Instagram have privacy features that limit public exposure. Thus, Vivares v. St. Theresa's College (Sept 29 2014, per J Velasco Jr., Third Division) recognized that social media users can control post-visibility through privacy settings; to presume online posts readily discoverable would be a 'grave legal error.' The discovery rule preserves the public right to seek redress where harm is not readily discoverable.",
+      "rhetorical_move": "discovery-rule-protects-public + Vivares-privacy-settings citation",
+      "confidence": "asserted with case-citation"
+    },
+    {
+      "claim": "Speech in cyberspace is not without protection. Neither is it without consequence. Though the law should keep pace with the velocity of digital speech, the Court en banc's ruling is a balanced guardrail in tempering the boundlessness of online expression.",
+      "rhetorical_move": "speech-not-without-protection-nor-consequence + balanced-guardrail closing",
+      "confidence": "asserted as balance-thesis closing"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 'won the battle but lost the war' irony in Causing v. People -- accused succeeded in establishing the one-year prescriptive period but still lost because the date of discovery was not established at trial -- a doctrinal-victory-without-personal-acquittal twist.",
+    "The 8-7 hairline en banc vote on April 8 2026 -- among the narrowest doctrinal-margins in recent SC en banc resolutions, capturing the deep judicial division over cyberlibel prescription.",
+    "The Tolentino-not-doctrinal-because-unsigned-extended-resolution clarification -- a procedural-doctrinal distinction with major doctrinal-precedence consequences (unsigned-extended-resolution-versus-signed-ponencia hierarchy).",
+    "The Kho-dissent ICT-as-qualifying-aggravating-circumstance argument -- sophisticated minority-doctrinal position that cyberlibel is materially distinct from traditional libel, captured for its analytical seriousness even in dissent.",
+    "The 'daily grinders such as reporters, columnists, editors, and online podcasters' framing -- CJP including himself implicitly (as a columnist) in the chilling-effect-protectee class, a meta-rhetorical move.",
+    "The Vivares v. St. Theresa's College privacy-settings citation -- drawing on a 2014 schoolgirl-Facebook-photo case to ground the discovery-rule doctrine, a creative cross-doctrinal connection.",
+    "CJP's self-citation chain -- Feb 24 2019 + June 21 2020 + Jan 29 2024 columns explicitly tracked as part of his journo-protection track record -- among the most concentrated three-column self-citation chains in CJP's corpus.",
+    "The 'velocity of digital speech' framing -- captures the law-must-keep-pace pressure on doctrinal evolution in the digital era.",
+    "The 'balanced guardrail in tempering the boundlessness of online expression' closing -- CJP's signature both-sides-balance closing-phrase calibrating between freedom and consequence.",
+    "The 'Speech in cyberspace is not without protection. Neither is it without consequence' parallel-construction -- CJP's tightest one-sentence balance statement on online-expression rights and limits."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Filipino journalists, columnists, editors, podcasters (daily-grinders direct addressees)",
+    "Maria Ressa + Reynaldo Santos Jr. (ongoing cyberlibel-defendant interest)",
+    "Cyberlibel defendants and complainants generally",
+    "Constitutional law and media law scholars",
+    "Lower-court judges applying cyberlibel prescription",
+    "Office of the Solicitor General + prosecutors (date-of-discovery burden)",
+    "Social media platform users (Vivares privacy-settings context)"
+  ],
+  "register_markers": [
+    "For years, the prescriptive period for cyberlibel has befuddled long-confusion opening register",
+    "FIVE YEARS THEREAFTER, THE COURT CHANGED ITS MIND all-caps doctrinal-shift register",
+    "Ironically, though the accused won the battle to fix the prescriptive period to one year, he lost the war irony-register",
+    "In my Jan. 29, 2024 column self-citation register",
+    "Fortunately, the separate partial motions for reconsideration relief-pivot register",
+    "passed by a hairline 8-7 vote hairline-margin register",
+    "All told, I regret I do not have the space to quote the other justices space-disclaimer register",
+    "Suffice it to say that the matter is now settled settled-law register",
+    "THE ONE-YEAR PRESCRIPTION PROTECTS JOURNALISTS all-caps thesis-section register",
+    "Since I started writing opinions after I retired from the Supreme Court almost two decades ago autobiographical-track-record register",
+    "Clearly, today, cyberlibel cases filed beyond the one-year prescription doctrinal-state register",
+    "ON THE OTHER HAND, THE 'DISCOVERY RULE' PROTECTS THE PUBLIC all-caps balance-pivot register",
+    "Thus, Vivares v. St. Theresa's College case-citation register",
+    "Speech in cyberspace is not without protection. Neither is it without consequence parallel-construction balance register",
+    "the Court en banc's ruling is a balanced guardrail in tempering the boundlessness of online expression balanced-guardrail closing register"
+  ],
+  "decision_framework_signals": [
+    "uses long-befuddlement opening + Tolentino v. People (Aug 6 2018, 15-year) doctrinal-baseline",
+    "applies Causing v. People (Oct 11 2023, one-year, Third Division) doctrinal-shift + one-and-the-same-crime reasoning",
+    "deploys won-the-battle-lost-the-war irony for Causing's date-of-discovery evidentiary failure",
+    "uses CJP-Jan 29 2024 self-citation + Article-VIII-Section-4-Item-3 only-en-banc-may-reverse-doctrine constitutional-anchor",
+    "applies April 8 2026 en banc Causing resolution (8-7 hairline, J Inting) + Tolentino-not-doctrinal-because-unsigned-extended-resolution",
+    "deploys Kho-dissent ICT-as-qualifying-aggravating-circumstance + cyberlibel-not-traditional-libel dissent-summary",
+    "uses settled-law + date-of-discovery-must-be-proven-at-trial + balance-of-rights framing",
+    "applies one-year-prescription-protects-journos + chilling-effect-mitigation + daily-grinders (reporters/columnists/editors/online-podcasters) inclusive-class",
+    "deploys CJP-track-record self-citations (Feb 24 2019 'Is Maria Ressa liable for libel?' + June 21 2020 'Cyberlibel and Maria Ressa')",
+    "uses discovery-rule-protects-public + Vivares v. St. Theresa's College (Sept 29 2014, J Velasco Jr.) privacy-settings + grave-legal-error citation",
+    "closes with speech-not-without-protection-nor-consequence parallel + balanced-guardrail framing"
+  ],
+  "one_paragraph_summary": "Panganiban traces the long-running befuddlement over the prescriptive period for cyberlibel and its recent SC en banc resolution. In Tolentino v. People (Aug 6 2018, per J later CJ Teresita Leonardo-de Castro, First Division, via unsigned extended resolution), the Court held the Cybercrime Prevention Act of 2012 -- in relation to Article 90 par. 2 of the Revised Penal Code -- 'prescribes in fifteen [15] years.' Five years later, in Causing v. People (Oct 11 2023, J Henri Jean Paul B. Inting, Third Division), the Court changed its mind: applying par. 4 of the same RPC Article 90, libel 'shall prescribe in one year,' reasoning that cyberlibel and traditional libel are 'one and the same crime' with the same elements, hence the same prescriptive period. Ironically, the accused won the battle to fix the prescriptive period to one year but lost the war because the date of discovery of the allegedly libelous article was not established. In CJP's Jan 29 2024 column 'Will Maria Ressa, Jinggoy Estrada be acquitted?,' he observed that the First-Third Division conflict should be settled by the full Court -- because under Article VIII, Section 4, Item 3 of the Constitution, only the en banc may modify or reverse a doctrine. The separate partial motions for reconsideration filed in Causing v. People were referred to and resolved by the Court en banc on April 8 2026 -- holding that cyberlibel prescribes in one year from 'the date of the discovery of the alleged defamatory [online] remarks,' not from publication. Penned also by J Inting and passed by a hairline 8-7 vote, the resolution clarified that the Tolentino ruling is not a doctrinal or binding precedent since it was contained in an unsigned extended resolution, not in a signed ponencia. The seven dissenters, led by J Antonio T. Kho Jr., argued that traditional libel and cyberlibel are not the same because of 'the qualifying aggravating circumstance of [the] use of ICT,' so the one-year prescription is 'no longer controlling, as it is only applicable in traditional libel.' All told, the matter is now settled: the State's authority to prosecute, and the courts' power to penalize, cyberlibel prescribes in one year, reckoned from discovery (by offended parties or authorities), not publication; the date of discovery must be proven at trial. The ruling balances the rights of journos and offended parties. The one-year prescription protects journalists by mitigating the 'chilling effect' of protracted legal uncertainty -- absent such a limit, every critical cyber publication would expose its author to 15 years of possible criminal prosecution, too long for daily grinders such as reporters, columnists, editors, and online podcasters. Since CJP started writing opinions after retiring from the SC almost two decades ago, he has tried to protect journos: Feb 24 2019 'Is Maria Ressa liable for libel?' explored Ressa-Santos cyberlibel defenses including prescription; June 21 2020 'Cyberlibel and Maria Ressa.' Today, cyberlibel cases filed beyond the one-year prescription from discovery would result in acquittal. On the other hand, the 'discovery rule' protects the public -- by reckoning from discovery rather than publication, the Court acknowledged the unique nature of online libel, since social media like Facebook, LinkedIn, and Instagram have privacy features that limit public exposure. Vivares v. St. Theresa's College (Sept 29 2014, per J Presbitero J. Velasco Jr., Third Division) recognized that users can control post-visibility through privacy settings; to presume online posts readily discoverable would be a 'grave legal error.' The discovery rule preserves the public right to seek redress where harm is not readily discoverable. Speech in cyberspace is not without protection. Neither is it without consequence. Though the law should keep pace with the velocity of digital speech, the Court en banc's ruling is a balanced guardrail in tempering the boundlessness of online expression.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

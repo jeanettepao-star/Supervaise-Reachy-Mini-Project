@@ -1,0 +1,126 @@
+{
+  "id": "CE083",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 83,
+  "title": "Populism, elitism and liberal democracy",
+  "date": "2017-02-05",
+  "link": "https://opinion.inquirer.net/101395/populism-elitism-liberal-democracy",
+  "keywords": [
+    "populism",
+    "elitism",
+    "liberal democracy",
+    "Oxfam inequality",
+    "Trump",
+    "Brexit",
+    "Duterte",
+    "rule of law",
+    "globalization",
+    "artificial intelligence"
+  ],
+  "primary_topics": [
+    "The global inequality crisis: eight billionaires own as much wealth as half the world's population (Oxfam)",
+    "Populism as a global response to elite failure -- Trump, Brexit, Duterte as manifestations of popular anger",
+    "CJ's defense of liberal democracy, rule of law, and entrepreneurship as the more enduring routes to prosperity"
+  ],
+  "sub_topics": [
+    "Oxfam: eight persons (Gates, Ortega, Buffett, Slim, Bezos, Zuckerberg, Ellison, Bloomberg) own as much as 3.6 billion people",
+    "Oxfam warning: unless elite shares wealth, public anger will produce more seismic political changes",
+    "Stephen Hawking in The Guardian (Dec. 1, 2016): Brexit and Trump as 'cry of anger by people who felt abandoned'",
+    "Populist wave: Greece, Turkey; possible disruption in Germany, France, Italy",
+    "Duterte as PH manifestation: elected without funds, political party, or elite support",
+    "Globalization, free trade, entrepreneurship viewed as villains of unemployment and income inequality",
+    "Rule of law and due process stereotyped as causing misery -- shortcuts in prosecution and strong leadership cults lauded",
+    "Technology acceleration, automation, AI further deepening financial inequality",
+    "Oxfam solutions: increased taxes on wealth, higher minimum wages; Hawking: share wealth more generously",
+    "CJ's solutions: efficient public services, labor training, micro enterprise promotion, speedy quality justice",
+    "No viable alternatives to liberal democracy; PH globalization benefit via OFW and BPO"
+  ],
+  "signature_phrases": [
+    "eight persons own and control as much wealth as one-half (3.6 billion) of the total population of Planet Earth",
+    "a cry of anger by people who felt they have been abandoned by their leaders",
+    "the phenomenal rise of President Duterte likewise signifies our people's cry of anger",
+    "elected against all conventional odds of political correctness: without preconceived personal ambitions, without funds, without any real political party",
+    "shortcuts in criminal prosecutions and strong leadership cults are lauded regardless of their social and human costs",
+    "the present disdain for due process, free enterprise and globalization will in time wane",
+    "no viable alternatives to them"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Bill Gates ($75B)",
+      "Amancio Ortega ($67B)",
+      "Warren Buffett ($60.8B)",
+      "Carlos Slim ($50B)",
+      "Jeff Bezos ($45.2B)",
+      "Mark Zuckerberg ($44.6B)",
+      "Larry Ellison ($43.6B)",
+      "Michael Bloomberg ($40B)",
+      "Stephen Hawking (The Guardian)",
+      "President Donald Trump (US)",
+      "President Rodrigo Duterte (PH)"
+    ],
+    "institutions": [
+      "Oxfam",
+      "The Guardian",
+      "European Union"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "Oxfam analysis release (Jan. 17, 2017)",
+      "Stephen Hawking Guardian essay (Dec. 1, 2016)",
+      "2016 US presidential election",
+      "Brexit vote (2016)",
+      "Duterte's 2016 presidential victory"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The populist surge -- Trump, Brexit, Duterte -- is a cry of anger by people abandoned by political and business elites who failed to solve poverty, criminality, and corruption.",
+      "rhetorical_move": "anger-diagnosis framing (populism as emotional response to elite failure)",
+      "confidence": "asserted with Hawking and Oxfam as authorities"
+    },
+    {
+      "claim": "Shortcuts in criminal prosecutions and strong leadership cults are lauded for efficiency, but their human costs are real -- and the disdain for due process, free enterprise, and globalization will in time wane when people realize there are no viable alternatives.",
+      "rhetorical_move": "historical-waning prediction for anti-liberal-democracy sentiment",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "For the Philippines specifically, globalization of labor via OFWs and BPO is a demonstrated benefit to the working class -- making the anti-globalization narrative inapplicable to the PH context.",
+      "rhetorical_move": "PH-specific exception to the anti-globalization narrative",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The eight-billionaire figure -- named with exact net worths totaling ~$426B owned by eight people against half the world's population -- the most viscerally striking data point.",
+    "Stephen Hawking's The Guardian essay framing Brexit and Trump as a 'cry of anger by people who felt abandoned' -- the most prestigious intellectual authority invoked.",
+    "Duterte's victory described as happening 'without preconceived personal ambitions, without funds, without any real political party' -- the most precise biographical characterization of populist credentials."
+  ],
+  "target_audience": [
+    "Civic readers processing global populism and Philippine politics simultaneously",
+    "Business and policy elites being warned about the consequences of inequality",
+    "Academics studying comparative populism (Trump/Brexit/Duterte parallels)",
+    "Rule-of-law and liberal democracy defenders needing an affirmative case"
+  ],
+  "register_markers": [
+    "Oxfam-data-anchored opening (Inquirer front page citation)",
+    "named-billionaires-with-net-worths register",
+    "Hawking-authority invocation",
+    "PH-populism contextualization within global trend",
+    "no-viable-alternatives-to-liberal-democracy as CJ's core counter-populist assertion",
+    "OFW-and-BPO as PH-specific globalization counterexample",
+    "additive-solution framing (CJ's four prescriptions)"
+  ],
+  "decision_framework_signals": [
+    "applies anger-diagnosis framework to explain populist electoral outcomes",
+    "uses no-viable-alternatives test to defend liberal democracy against populist shortcuts",
+    "applies PH-specific-exception logic to distinguish OFW/BPO globalization from the anti-globalization critique",
+    "treats AI and automation as a future intensifier of inequality requiring preemptive policy",
+    "frames rule-of-law and due process as enduring routes despite their short-term inefficiency perception"
+  ],
+  "one_paragraph_summary": "Panganiban analyzes the global populism wave through the Oxfam finding (January 17, 2017) that eight billionaires -- Gates, Ortega, Buffett, Slim, Bezos, Zuckerberg, Ellison, Bloomberg -- own as much wealth as the bottom 3.6 billion people. Oxfam warned that unless the elite shares, public anger will produce more seismic political changes like Trump and Brexit; Stephen Hawking (in The Guardian, December 1, 2016) described both as a 'cry of anger by people who felt abandoned by their leaders.' CJ identifies Duterte's rise as the Philippine manifestation of the same anger against the elite's failure to address poverty, criminality, and corruption -- elected without funds, political party, or elite support. He notes that globalization, free trade, and the hallmarks of liberal democracy (rule of law and due process) are now being stereotyped as villains, with shortcuts in prosecution and strong leadership cults lauded for efficiency regardless of their human costs. Technology acceleration and AI will further deepen inequality. While endorsing Oxfam's and Hawking's calls for wealth sharing, CJ proposes his own Philippine solutions -- efficient public services, labor training, micro enterprise promotion, and speedy quality justice -- while insisting there are no viable alternatives to liberal democracy and the rule of law, and that the present disdain for these values will in time wane. He notes that for the Philippines, globalization has specifically benefited the working class via OFWs and the BPO sector.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

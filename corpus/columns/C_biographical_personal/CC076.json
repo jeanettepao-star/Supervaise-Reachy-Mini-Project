@@ -1,0 +1,139 @@
+{
+  "id": "CC076",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 76,
+  "title": "Prayer amid crisis, pain; EJA remembered",
+  "date": "2018-05-20",
+  "link": "https://opinion.inquirer.net/113314/prayer-amid-crisis-pain-eja-remembered",
+  "keywords": [
+    "Reinhold Niebuhr Serenity Prayer",
+    "EJA Edgardo Angara",
+    "Sereno QW silence",
+    "Cardinal Tagle Bangkok text",
+    "Asean Law Association"
+  ],
+  "primary_topics": [
+    "Author's principled silence on the Sereno QW ouster",
+    "Tribute to former Senate President Edgardo J. Angara",
+    "Prayer and institutional loyalty as frameworks for crisis"
+  ],
+  "sub_topics": [
+    "Readers and media asking why no public comment on QW ouster",
+    "Family-elder framing of the SC as 'beloved family'",
+    "Reinhold Niebuhr's serenity/courage/wisdom prayer",
+    "Private counsel to incumbent colleagues; delicadeza",
+    "Cardinal Tagle's Bangkok text on May 11 and author's brief reply",
+    "Decision not yet final; MR pending; Senate resolution on QW",
+    "Angara: first met in 1979 at IBP presidency",
+    "Angara: founding president of Asean Law Association (1980)",
+    "Author as current Philippine ALA chair",
+    "1982 UP Oblation miniature replica from Angara",
+    "Author's Mapa High School UP-campus connection",
+    "UP Phi Kappa Phi honorary membership through Angara",
+    "Gopac International Conference January 2013",
+    "113th Anniversary of Siege of Baler / Spanish Friendship Day / Cadiz Constitution (June 30, 2012, Baler)",
+    "Metrobank Foundation association",
+    "Angara as 'one of the best presidents we could have had' (Sen. Zubiri)"
+  ],
+  "signature_phrases": [
+    "Lord, grant me the courage to change the things I can, the serenity to accept those I cannot, and wisdom to know the difference",
+    "delicadeza",
+    "family elder",
+    "I have tried as prudently as I could to 'change the things I can'",
+    "Thanks po and we pray po",
+    "humble, thoughtful and caring friend",
+    "one of the best presidents we could have had"
+  ],
+  "entities": {
+    "people": [
+      "CJ Maria Lourdes P. A. Sereno",
+      "Cardinal Luis Antonio G. Tagle",
+      "Former Senate President Edgardo J. Angara (EJA, Ed, Edong -- deceased)",
+      "Sen. Miguel 'Migz' Zubiri",
+      "Theologian-Ethicist Reinhold Niebuhr",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Integrated Bar of the Philippines (IBP)",
+      "Asean Law Association (ALA)",
+      "University of the Philippines",
+      "UP Phi Kappa Phi Chapter",
+      "Global Organization of Parliamentarians Against Corruption (Gopac)",
+      "Metrobank Foundation",
+      "Mapa High School"
+    ],
+    "cases": [
+      "Republic v. Sereno (QW ouster, May 11, 2018)"
+    ],
+    "laws_treaties": [],
+    "events": [
+      "Sereno QW ouster (May 11, 2018)",
+      "Cardinal Tagle's Bangkok text (May 11, 2018)",
+      "1979 IBP presidential election of Angara",
+      "1980 ALA founding",
+      "1982 UP Oblation gift",
+      "Gopac International Conference (January 2013)",
+      "113th Siege of Baler Anniversary (June 30, 2012)",
+      "Angara's death (implied -- column says 'remembrances')"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Amid the SC's internal crisis, the right response as a 'family elder' is to grieve, listen quietly, give private counsel to those who seek it, and pray -- not to moralize, mock, or justify publicly.",
+      "rhetorical_move": "principled-silence defense via family-elder framing",
+      "confidence": "high"
+    },
+    {
+      "claim": "Reinhold Niebuhr's serenity prayer is the author's operative framework: courage to change what he can (private counsel), serenity to accept what he cannot, wisdom to know the difference.",
+      "rhetorical_move": "theological-ethical anchor for the silence",
+      "confidence": "high"
+    },
+    {
+      "claim": "The QW decision is not yet final -- the MR and the Senate resolution on QW are still pending -- justifying continued restraint.",
+      "rhetorical_move": "procedural-incompleteness argument for silence",
+      "confidence": "high"
+    },
+    {
+      "claim": "Edgardo Angara was more than an outstanding lawyer, banker, educator, and statesman -- he was, in the author's personal experience, a humble, thoughtful, and caring friend.",
+      "rhetorical_move": "valedictory tribute anchored in personal memory",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Reinhold Niebuhr's serenity prayer as the author's operative crisis framework -- 'courage to change the things I can, serenity to accept those I cannot, wisdom to know the difference.'",
+    "Cardinal Tagle texting from Bangkok when the QW ouster broke on May 11 -- author replying briefly with a plea for a 'more extensive and balanced view' later; Tagle's reply: 'Thanks po and we pray po.'",
+    "The 1982 UP Oblation miniature replica from Angara as president of UP -- treasured though the author is not a UP alumnus; the Mapa High School group's college-era promise to enroll at UP.",
+    "Angara enrolling the author as an honorary member of the UP Phi Kappa Phi Chapter despite the author not being a UP alumnus.",
+    "The June 30, 2012 Baler event: '113th Anniversary of the Historic Siege of Baler, the 10th Philippine-Spanish Friendship Day and the 200th-Year Anniversary of the Cadiz Constitution' -- Angara flying in the diplomatic corps and Spanish luminaries especially for the rites.",
+    "Sen. Migz Zubiri calling Angara 'one of the best presidents we could have had.'"
+  ],
+  "target_audience": [
+    "Media and readers pressing for public comment on the Sereno QW",
+    "Incumbent SC justices who sought or may seek the author's private counsel",
+    "Friends and family of Edgardo Angara",
+    "Bar association and civic community",
+    "Anyone grappling with the question of when to speak and when to stay silent"
+  ],
+  "register_markers": [
+    "Two-column composite structure: institutional silence rationale + personal tribute",
+    "Prayer-text quotation (Niebuhr) integrated as first-person framework",
+    "Filipino term for propriety-based restraint ('delicadeza')",
+    "Intimate Cardinal-text anecdote with Tagalog po",
+    "Personal-memoir register (Mapa High School, UP campus visits, Oblation gift)",
+    "Retrospective-tribute cadence for Angara",
+    "Valedictory close: 'humble, thoughtful and caring friend'"
+  ],
+  "decision_framework_signals": [
+    "Apply the Niebuhr framework when facing institutional crises: categorize between what you can change (private counsel) and what you must accept",
+    "Choose silence as an active, principled decision rather than passive avoidance -- delicadeza as an institutional virtue",
+    "Wait for procedural finality (MR, Senate resolution) before pronouncing on ongoing matters",
+    "Treat the SC as a 'family' institution -- internal crises call for quiet counsel, not public moralizing or scoring",
+    "Honor the full private person behind public titles in tributes -- friendship, small acts of kindness, and institutional gestures outlast formal roles"
+  ],
+  "one_paragraph_summary": "Faced with reader and media pressure to comment on the QW ouster of CJ Sereno (May 11, 2018), Panganiban explains his principled silence through Reinhold Niebuhr's serenity prayer: 'Lord, grant me the courage to change the things I can, the serenity to accept those I cannot, and wisdom to know the difference.' He frames himself as a 'family elder' in the SC institution -- and when a beloved family is wracked by internal dissension, excruciating pain, and serious crisis, the right response is to grieve, listen quietly, give private counsel to those who seek it, and pray, not to sermonize, mock, or justify. He cites delicadeza as barring him from disclosing the private conversations with incumbent colleagues, and notes that Cardinal Tagle texted from Bangkok on May 11 when the ouster broke -- the author replying briefly with a plea for a 'more extensive and balanced view' later; Tagle replied, 'Thanks po and we pray po.' He also notes the QW decision is not yet final (MR pending; Senate resolution on QW still to be resolved). He pivots to a tribute for the late Edgardo J. Angara ('EJA, Ed, Edong'), recounting their first meeting in 1979 when Angara was IBP president, his founding of the Asean Law Association in 1980 (of which the author is current Philippine chapter chair), the 1982 UP Oblation miniature from Angara, Angara's facilitation of an honorary UP Phi Kappa Phi membership, the January 2013 Gopac conference in Manila, the June 30, 2012 Baler event celebrating the 113th Siege anniversary and the 200th-Year Cadiz Constitution anniversary, and their Metrobank Foundation association. Against Sen. Zubiri's characterization of Angara as 'one of the best presidents we could have had,' the author chooses to remember him simply as 'a humble, thoughtful and caring friend.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

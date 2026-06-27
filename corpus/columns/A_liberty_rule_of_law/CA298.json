@@ -1,0 +1,131 @@
+{
+  "id": "CA298",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 298,
+  "title": "Checks and balances in public accountability",
+  "date": "2017-11-05",
+  "link": "https://opinion.inquirer.net/108445/checks-balances-public-accountability",
+  "keywords": [
+    "1987 Constitution tripartite checks balances",
+    "Ombudsman RA 6770 investigation impeachable officials",
+    "impeachment one-third House two-thirds Senate",
+    "accountability public officers clause",
+    "Ombudsman Morales impeachment preface"
+  ],
+  "primary_topics": [
+    "The 1987 Constitution's accountability-of-public-officers architecture",
+    "Congress's impeachment power -- ease of indictment, difficulty of conviction",
+    "Ombudsman's dual role: investigator of impeachable officials and criminal/civil prosecutor"
+  ],
+  "sub_topics": [
+    "1935 vs 1987 Constitution: lessons of Marcos ML strengthening Congress and SC",
+    "Three independent commissions: Comelec, COA, CSC",
+    "New 1987 accountability provision: public officers serve with utmost responsibility, integrity, loyalty, efficiency, patriotism, justice, modest lives",
+    "Two accountability mechanisms: impeachment (Congress) and OMB investigation/prosecution",
+    "Impeachable officials: president, VP, SC justices, three commission members, ombudsman",
+    "House: exclusive power to initiate; 1/3 vote for indictment",
+    "Senate: sole power to try; 2/3 vote (16 senators) for conviction",
+    "Impeachment subject only to reason, equity, and people's will",
+    "OMB constitutional mandate: investigate any act/omission of any public official that is illegal/unjust/improper/inefficient",
+    "RA 6770 Sec. 15: investigate impeachable officials for purpose of filing verified impeachment complaint in House",
+    "RA 6770 Sec. 15: recover ill-gotten/unexplained wealth; give priority to high-ranking officials",
+    "OMB duty: (1) recommend impeachment, (2) file civil wealth-recovery cases, (3) file criminal indictments after term",
+    "OMB can investigate/file against Congress members and Cabinet",
+    "OMB checked by Sandiganbayan and SC",
+    "OMB itself can be impeached and ousted",
+    "Preface to forthcoming Ombudsman Morales impeachment proceeding"
+  ],
+  "signature_phrases": [
+    "accountability of public officers",
+    "utmost responsibility, integrity, loyalty, and efficiency",
+    "act with patriotism and justice, and lead modest lives",
+    "ease of obtaining an indictment... checked and balanced by the difficulty of getting a conviction",
+    "subject only to reason and equity",
+    "investigate any serious misconduct in office",
+    "sincere effort to uphold accountability or a mere ploy to extract political vendetta"
+  ],
+  "entities": {
+    "people": [
+      "Ombudsman Conchita Carpio Morales",
+      "President Ferdinand Marcos (historical reference)",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Congress of the Philippines (House and Senate)",
+      "Supreme Court of the Philippines",
+      "Sandiganbayan",
+      "Office of the Ombudsman",
+      "Commission on Elections (Comelec)",
+      "Commission on Audit (COA)",
+      "Civil Service Commission (CSC)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1935 Constitution",
+      "1987 Constitution (accountability clause, Art. XI)",
+      "Ombudsman Act of 1989 (Republic Act No. 6770), Sec. 15"
+    ],
+    "events": [
+      "Marcos martial law (historical reference)",
+      "Forthcoming House impeachment proceedings against Ombudsman Morales"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The 1987 Constitution improved the 1935 tripartite system by limiting presidential powers, strengthening Congress and the SC, and adding three independent commissions -- all lessons from the Marcos regime.",
+      "rhetorical_move": "constitutional-design historical explanation",
+      "confidence": "high"
+    },
+    {
+      "claim": "The ease of House indictment (1/3 vote) is deliberately checked and balanced by the difficulty of Senate conviction (2/3 vote or 16 senators) -- this is not a flaw but a design feature.",
+      "rhetorical_move": "institutional-design defense",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Ombudsman can investigate impeachable officials even while they are in office -- for the purpose of filing a verified impeachment complaint in the House, recovering ill-gotten wealth, or prosecuting them criminally after their term.",
+      "rhetorical_move": "OMB-authority clarification against narrowing misconceptions",
+      "confidence": "high"
+    },
+    {
+      "claim": "The OMB is itself subject to impeachment -- 'every ombudsman is under fire from high officials' because of its broad authority.",
+      "rhetorical_move": "institutional-vulnerability observation",
+      "confidence": "high"
+    },
+    {
+      "claim": "Readers should wisely evaluate whether the forthcoming impeachment of Ombudsman Morales is a sincere effort to uphold accountability or a ploy for political vendetta.",
+      "rhetorical_move": "civic-evaluation call-to-action without prejudging",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 1/3 House indictment vs 2/3 Senate conviction asymmetry -- designed so that getting an indictment is relatively easy but conviction requires a supermajority: 16 of 24 senators.",
+    "The OMB's unique authority under RA 6770 to investigate impeachable officials and file verified impeachment complaints in the House -- a power that makes every ombudsman a target of officials they investigate.",
+    "The column's closing as a framing device for the forthcoming Ombudsman Morales impeachment -- asking whether it is 'a sincere effort to uphold accountability or a mere ploy to extract political vendetta.'",
+    "The 1987 Constitution's new accountability clause -- 'Public officers and employees must at all times be accountable to the people... lead modest lives' -- as a post-Marcos corrective that has no equivalent in the 1935 Constitution."
+  ],
+  "target_audience": [
+    "Civic readership evaluating the Ombudsman Morales impeachment",
+    "House members exercising impeachment initiation power",
+    "Senate members who would try the case",
+    "Constitutional law scholars",
+    "Anti-corruption advocates"
+  ],
+  "register_markers": [
+    "Constitutional-architecture explainer register",
+    "1935-vs-1987 historical contrast",
+    "Three-part OMB-duty enumeration",
+    "Institutional-vulnerability observation",
+    "Civic-evaluation closing question"
+  ],
+  "decision_framework_signals": [
+    "Apply the 1/3 House indictment / 2/3 Senate conviction asymmetry as a deliberate design check -- difficulty of conviction is a feature, not a bug",
+    "Read RA 6770 Sec. 15 as authorizing OMB to investigate impeachable officials even during their term for three purposes: impeachment referral, wealth recovery, and post-term criminal prosecution",
+    "Test any impeachment proceeding against the sincere-accountability vs political-vendetta dichotomy",
+    "Recognize that OMB authority over high officials necessarily makes every ombudsman a target of those officials"
+  ],
+  "one_paragraph_summary": "As preface to the forthcoming impeachment of Ombudsman Conchita Carpio Morales, Panganiban surveys the 1987 Constitution's accountability architecture. The 1987 framers improved the 1935 tripartite system -- using lessons from the Marcos regime -- by limiting presidential powers, strengthening Congress and the SC, and adding three independent commissions (Comelec, COA, CSC). The new accountability clause commands public officers to serve with 'utmost responsibility, integrity, loyalty, and efficiency... act with patriotism and justice, and lead modest lives.' Two accountability mechanisms operate in parallel. Congress can impeach and oust the president, VP, SC justices, three commission members, and the ombudsman -- the House initiates by 1/3 vote, the Senate convicts by 2/3 vote (16 senators); this asymmetry is a deliberate design feature, checked only by reason, equity, and the people's will. The OMB, through RA 6770's Sec. 15, has authority to investigate even impeachable officials for three purposes: (1) filing a verified impeachment complaint in the House, if warranted; (2) filing civil cases for ill-gotten wealth recovery; and (3) filing criminal indictments after the official has served. The OMB is checked by the Sandiganbayan and SC, and is itself subject to impeachment and subsequent criminal and civil suits -- which is why every ombudsman faces fire from the high officials it investigates. The closing call: readers should evaluate whether the Morales impeachment is 'a sincere effort to uphold accountability or a mere ploy to extract political vendetta.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

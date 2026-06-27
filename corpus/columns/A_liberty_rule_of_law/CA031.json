@@ -1,0 +1,153 @@
+{
+  "id": "CA031",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 31,
+  "title": "Partners in rule of law, constitutionalism, AI",
+  "date": "2026-03-02",
+  "link": "https://opinion.inquirer.net/190122/partners-in-rule-of-law-constitutionalism-ai",
+  "keywords": [
+    "rule of law",
+    "constitutionalism",
+    "South Korea",
+    "ASEAN",
+    "artificial intelligence"
+  ],
+  "primary_topics": [
+    "President Lee Jae-myung's two-day Philippine state visit as platform for Korean partnership in rule of law, constitutionalism, and AI",
+    "South Korea's democratic resilience after the 2024 unlawful martial-law declaration + impeachment -- civilian-powered recovery",
+    "Philippine ASEAN chairmanship as platform for rules-based regional order",
+    "Korean leadership in semiconductors, electronics, and AI/robotics + collaboration potential",
+    "Investor-confidence-rule-of-law nexus + Philippine corruption-investigation context"
+  ],
+  "sub_topics": [
+    "Lee Jae-myung biography -- childhood poverty to human-rights lawyer to presidency, paralleled with CJP's own poverty-to-Chief-Justice arc",
+    "South Korean civilian-led democratic recovery led by new generation viewing martial law as bygone relic",
+    "2026 Nobel Peace Prize nominations for South Korean citizens",
+    "Lee's UN speech quoting Nobel laureate Han Kang declaring South Korea's return as 'beacon of light'",
+    "Philippine-Korea Free Trade Agreement + 2025 APEC Summit follow-through",
+    "K-drama + K-pop + K-food cultural ties",
+    "Atlas humanoid by Boston Dynamics acquired by Hyundai Motor Group (cross-reference to CJP's Feb 2 2026 robotics column)",
+    "Semiconductor + electronics collaboration as AI-era growth driver",
+    "Philippine corruption-investigation context + institutional-integrity protection",
+    "2016 Arbitral Award as Philippines choosing arbitration over arms -- moral-leadership precedent for ASEAN chairmanship"
+  ],
+  "signature_phrases": [
+    "beacon of light",
+    "ex dolo malo non oritur actio (a right of action cannot arise from fraud or irregularity)",
+    "ratio legis (the soul of the law)",
+    "prima facie case",
+    "pacta sunt servanda (agreements must be kept)",
+    "ruled by men, not by laws",
+    "constitutionalism is not self-executing",
+    "Asean centrality",
+    "the Philippines earned global respect when it chose arbitration over arms",
+    "liberty and prosperity are best safeguarded and nurtured when the rule of law governs power, not the other way around"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "President Lee Jae-myung (South Korea)",
+      "Han Kang (Nobel Prize-winning novelist)"
+    ],
+    "institutions": [
+      "Boston Dynamics",
+      "Hyundai Motor Group",
+      "United Nations",
+      "ASEAN (Association of Southeast Asian Nations)",
+      "Nobel Peace Prize committee (2026 nominees from South Korea)"
+    ],
+    "cases": [],
+    "events_and_agreements": [
+      "Philippine state visit by President Lee Jae-myung (March 2-3 2026)",
+      "Philippine-Korea Free Trade Agreement",
+      "2025 APEC Summit",
+      "2016 Arbitral Award on the West Philippine Sea",
+      "Late-2024 South Korea martial-law upheaval and impeachment",
+      "Lee's UN General Assembly speech (2025)"
+    ],
+    "products_and_technologies": [
+      "Atlas humanoid robot"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "President Lee Jae-myung's two-day Philippine state visit presents a rare opportunity for Korean partnership with the Philippines in upholding the rule of law and constitutionalism over lawlessness and dictatorship.",
+      "rhetorical_move": "rare-opportunity framing + rule-of-law-over-lawlessness binary opening",
+      "confidence": "asserted as humble-view thesis"
+    },
+    {
+      "claim": "South Korea demonstrated profound democratic resilience during the upheaval caused by the unlawful late-2024 martial-law declaration, which led to the impeachment of the sitting president -- CJP was struck by how swiftly democracy recovered from what could have become a fatal crisis, stressing the power of civilians and a new generation viewing martial law as a relic of a bygone era.",
+      "rhetorical_move": "democratic-resilience case-study + civilian-led + new-generation framing",
+      "confidence": "asserted with admiration"
+    },
+    {
+      "claim": "South Koreans understood that the rule of law is the strongest safeguard against the caprices of power -- proving beyond a shadow of doubt that a true democracy cannot be ruled by men, but by laws; this is a fundamental lesson on liberty that Filipinos have also learned the hard way over their own democratic history. CJP supports the recent nominations of South Korean citizens for the 2026 Nobel Peace Prize.",
+      "rhetorical_move": "ruled-by-laws-not-men + shared-hard-way-lesson + Nobel-Peace-Prize endorsement",
+      "confidence": "asserted with explicit endorsement"
+    },
+    {
+      "claim": "Lee Jae-myung's ascent after the upheaval is deeply instructive -- his journey from childhood poverty to human-rights lawyer to the presidency resonates with CJP, who also wrestled with poverty and setbacks before becoming Chief Justice. In his UN speech, Lee quoted Nobel-laureate Han Kang and declared South Korea's return as a 'beacon of light' for democracy and global citizens.",
+      "rhetorical_move": "biographical-parallel + UN-speech beacon-of-light citation",
+      "confidence": "asserted as personal-resonance affirmation"
+    },
+    {
+      "claim": "Pursuant to the 2025 APEC summit discussions, the state visit will advance shared priorities through best-practices exchange, the Philippine-Korea Free Trade Agreement, and collaboration in electronics and semiconductors -- industries at the heart of AI integration -- generating jobs, promoting competitiveness, and driving shared growth along an automation-defined economic trajectory.",
+      "rhetorical_move": "APEC-follow-through + electronics/semiconductors-as-AI-heart strategic framing",
+      "confidence": "asserted as policy roadmap"
+    },
+    {
+      "claim": "For the business community, the visit signifies a commitment to productivity and transparency that transcends rhetoric -- invoking ex dolo malo non oritur actio (a right of action cannot arise from fraud or irregularity) and ratio legis (the soul of the law). Investor confidence is a byproduct of stable regulatory frameworks; against the backdrop of Philippine corruption investigations, the path forward requires renewed dedication to institutional integrity, since economic growth and the rule of law are intertwined and mutually inclusive -- judicial credibility reinforces investor confidence, and development that neglects justice becomes brittle.",
+      "rhetorical_move": "ex-dolo-malo + ratio-legis Latin-maxim anchoring + brittle-development warning",
+      "confidence": "asserted as Latin-maxim-anchored business case"
+    },
+    {
+      "claim": "As the Philippines assumes ASEAN chairmanship, bilateral successes with Seoul will serve as a prima facie case for a rules-based regional order -- ASEAN stands at a crossroads navigating great-power rivalries and security tensions, and the challenge is to imbue 'ASEAN centrality' with credibility rooted in shared norms. The Philippines earned global respect when it chose arbitration over arms and stood firmly, with dignity and honor, on the side of international maritime law.",
+      "rhetorical_move": "ASEAN-chairmanship pivot + arbitration-over-arms 2016-Award precedent",
+      "confidence": "asserted with precedent-grounded confidence"
+    },
+    {
+      "claim": "Both nations have learned that constitutionalism is not self-executing -- invoking pacta sunt servanda (agreements must be kept), which applies not only among countries but also between a state and its people. The visit offers an opportunity not merely to celebrate friendship but to recalibrate cooperation anchored on shared constitutional values, democratic resilience, and rules-based development.",
+      "rhetorical_move": "pacta-sunt-servanda Latin-maxim + state-citizen extension",
+      "confidence": "asserted as constitutional principle"
+    },
+    {
+      "claim": "Liberty and prosperity are best safeguarded and nurtured when the rule of law governs power, not the other way around.",
+      "rhetorical_move": "closing rule-of-law-governs-power aphorism",
+      "confidence": "asserted as bedrock closing maxim"
+    }
+  ],
+  "notable_anecdotes": [
+    "Lee Jae-myung's trajectory from childhood poverty to human-rights lawyer to presidency, paralleled with Panganiban's own poverty-to-Chief-Justice arc",
+    "Lee's UN speech quoting Nobel laureate Han Kang and declaring South Korea's return as 'beacon of light' for democracy and global citizens",
+    "South Korea's swift democratic recovery from late-2024 unlawful martial-law declaration + ensuing impeachment of sitting president",
+    "Cross-reference to CJP's Feb 2 2026 column 'Robotics, for better or for worse' featuring Atlas humanoid by Boston Dynamics now under Hyundai"
+  ],
+  "target_audience": [
+    "Filipino business community + investors tracking the bilateral state visit",
+    "ASEAN-watchers and regional-order analysts",
+    "Korean diplomatic and business delegations",
+    "Policymakers tracking AI/semiconductor collaboration",
+    "Readers interested in democratic-resilience case studies"
+  ],
+  "register_markers": [
+    "Diplomatic and statesmanlike opinion register",
+    "Latin maxims (ex dolo malo non oritur actio + ratio legis + pacta sunt servanda) interleaved with policy analysis",
+    "First-person parallel -- CJP's own biography aligned with the visiting head of state",
+    "All-caps section-lead-ins ('THE VISIT OF HIS EXCELLENCY', 'PURSUANT TO THE 2025 APEC SUMMIT', 'AS THE PHILIPPINES ASSUMES THE ASEAN CHAIRMANSHIP')",
+    "Closing rule-of-law aphorism"
+  ],
+  "decision_framework_signals": [
+    "Rule of law as safeguard against caprices of power",
+    "Constitutionalism as not self-executing -- requires institutional vigilance",
+    "Pacta sunt servanda extending to state-citizen relations (not just state-to-state)",
+    "Economic growth and rule of law as mutually inclusive",
+    "ASEAN centrality requiring credibility rooted in shared norms",
+    "Investor confidence as byproduct of ratio legis (stable regulatory frameworks)",
+    "Arbitration-over-arms as moral-leadership template for smaller states confronting great-power rivalries"
+  ],
+  "one_paragraph_summary": "Written on the eve of South Korean President Lee Jae-myung's two-day Philippine state visit, the column frames the bilateral encounter as a rare opportunity to forge partnership in upholding the rule of law, constitutionalism, and AI development. Panganiban praises South Korea's democratic resilience during the 2024 martial-law upheaval, endorses the 2026 Nobel Peace Prize nominations for South Korean citizens, and parallels Lee's poverty-to-presidency trajectory with his own poverty-to-Chief-Justice arc. He situates the visit within the 2025 APEC follow-through, the Philippine-Korea FTA, Korean leadership in electronics, semiconductors, and AI (citing Boston Dynamics' Atlas under Hyundai), and the Philippines' incoming ASEAN chairmanship -- recalling that the country earned global respect when it chose arbitration over arms via the 2016 Arbitral Award. Invoking ex dolo malo non oritur actio, ratio legis, and pacta sunt servanda, he closes with the conviction that liberty and prosperity are best safeguarded when the rule of law governs power, not the other way around.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

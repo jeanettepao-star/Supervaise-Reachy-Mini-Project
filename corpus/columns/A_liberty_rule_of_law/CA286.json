@@ -1,0 +1,129 @@
+{
+  "id": "CA286",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 286,
+  "title": "Speedy Cha-cha at the crossroad",
+  "date": "2018-01-28",
+  "link": "https://opinion.inquirer.net/110601/speedy-cha-cha-crossroad",
+  "keywords": [
+    "constituent assembly crossroad",
+    "House-only Cha-cha",
+    "Con-con two-thirds vote",
+    "joint vs separate voting SC",
+    "prohibition petition Cha-cha"
+  ],
+  "primary_topics": [
+    "Con-ass deadlock and procedural crossroad",
+    "SC's powers and limits in the Cha-cha dispute",
+    "Con-con alternative and its vote threshold"
+  ],
+  "sub_topics": [
+    "Four congressional leaders' agreement to discuss specific draft provisions",
+    "Senate's earlier stance: thorny issues first",
+    "Senate wants: separate sessions, separate voting, one year, plebiscite with 2019 midterms",
+    "Lacson: treat Cha-cha like ordinary legislation",
+    "Sen. Bam Aquino's Con-con proposal -- two-thirds of Congress required",
+    "House unlikely to vote for Con-con",
+    "House fast-track: 3 months, joint voting, plebiscite with May 2018 barangay elections",
+    "Alvarez's textual argument: Charter says only 'Congress, vote of three-fourths,' nothing more",
+    "SC cannot force Senate to join House or force House to join Senate -- Con-ass power is discretionary",
+    "SC can rule on joint vs separate voting in a prohibition suit",
+    "SC can bar House from 'House-only' Cha-cha",
+    "SC can bar Comelec from conducting plebiscite on House-only revisions",
+    "Even after separate votes are counted, SC can rule on whether they are addable jointly",
+    "Arturo de Castro's declaratory relief -- no SC jurisdiction",
+    "SC could still rule even if senators attend House sessions",
+    "Cross-reference: 'What Alvarez wants, Alvarez gets' (Jan. 14)"
+  ],
+  "signature_phrases": [
+    "speedy Cha-cha at a crossroad",
+    "House-only Cha-cha",
+    "discretionary functions",
+    "can command the performance only of ministerial duties",
+    "only the Supreme Court can direct the Cha-cha express which fork to take",
+    "no SC jurisdiction over declaratory relief",
+    "blitz"
+  ],
+  "entities": {
+    "people": [
+      "Senate President Aquilino Pimentel III",
+      "Senate Majority Leader Vicente Sotto III",
+      "House Speaker Pantaleon Alvarez",
+      "House Majority Leader Rodolfo Fariñas",
+      "Sen. Panfilo Lacson",
+      "Sen. Bam Aquino",
+      "Lawyer Arturo de Castro"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Senate of the Philippines",
+      "House of Representatives",
+      "Commission on Elections (Comelec)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution (Article XVII -- amendment and revision)",
+      "1987 Constitution (two-thirds vote for Con-con)"
+    ],
+    "events": [
+      "Four congressional leaders' agreement on specific draft provisions",
+      "House starting 'House-only' Cha-cha proceedings",
+      "Arturo de Castro's declaratory relief petition"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The SC cannot force the Senate to join the House in a Con-ass, nor force the House to call for a Con-con -- constitutional revision power is discretionary, not ministerial.",
+      "rhetorical_move": "doctrinal limitation on SC coercive power",
+      "confidence": "high"
+    },
+    {
+      "claim": "In a timely prohibition suit, the SC can rule on joint vs separate voting and can bar the House from proceeding with 'House-only' Cha-cha or bar Comelec from conducting a plebiscite on it.",
+      "rhetorical_move": "delineation of SC's remaining prohibition power",
+      "confidence": "high"
+    },
+    {
+      "claim": "A petition for declaratory relief (like Arturo de Castro's) will not prosper because the SC has no original jurisdiction over declaratory relief -- this must be filed in the proper lower court.",
+      "rhetorical_move": "procedural-jurisdiction correction",
+      "confidence": "high"
+    },
+    {
+      "claim": "Only the Supreme Court can direct the Cha-cha express which fork to take if it maintains its blitz.",
+      "rhetorical_move": "closing institutional-role affirmation using the train/crossroad metaphor",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Sen. Bam Aquino proposing a Con-con instead of a Con-ass -- receiving support from constitutionalists and business groups -- but mathematically impossible without the House (which is unlikely to provide the two-thirds vote).",
+    "The House starting 'House-only' Cha-cha proceedings -- an extreme position the author treats as potentially subject to SC prohibition.",
+    "The declaratory relief petition by lawyer Arturo de Castro -- flagged as fatally defective because SC has no original jurisdiction over declaratory relief.",
+    "The author's formulaic closing cross-reference to his own prior column -- establishing a series of Cha-cha installments."
+  ],
+  "target_audience": [
+    "Senate and House leaders navigating the Con-ass deadlock",
+    "Lawyers considering which SC petition to file",
+    "Constitutional law scholars",
+    "Civic society watching the procedural Cha-cha dispute",
+    "President Duterte and Malacañang managing the Cha-cha timeline"
+  ],
+  "register_markers": [
+    "Crossroad metaphor sustained throughout",
+    "Prohibition-suit technical analysis",
+    "Ministerial vs discretionary duty distinction",
+    "Multiple remedy-option enumeration for petitioners",
+    "Self-referencing series continuity",
+    "Jurisdiction-correction on declaratory relief"
+  ],
+  "decision_framework_signals": [
+    "File prohibition (not declaratory relief) to challenge Cha-cha procedures -- SC has jurisdiction over prohibition, not declaratory relief",
+    "Recognize SC cannot compel discretionary constitutional-revision actions -- only can prohibit their procedurally flawed execution",
+    "Time the SC petition correctly: file before the plebiscite to maximize potential relief",
+    "Use the even-if-separate-votes scenario: challenge whether separately counted votes can be added 'jointly' to reach three-fourths",
+    "Treat the House-only Cha-cha as the most vulnerable target for a prohibition action"
+  ],
+  "one_paragraph_summary": "The four top congressional leaders (Pimentel, Sotto, Alvarez, and Fariñas) agreed to discuss specific draft provisions rather than resolving the joint-vs-separate-voting dispute first -- reversing the Senate's earlier condition-first stance. The Senate wants separate sessions, separate voting, and one year's work with a plebiscite at the 2019 midterms (per Lacson, treat as ordinary legislation); the House is fast-tracking via joint voting and three months toward a May 2018 barangay-election plebiscite, with Alvarez arguing the Charter text says only 'Congress, vote of three-fourths' and nothing more. Sen. Bam Aquino's Con-con alternative requires a two-thirds congressional vote -- mathematically impossible without the House. Panganiban identifies the SC as the ultimate arbiter: it cannot force the Senate to join a Con-ass or the House to call a Con-con (both are discretionary powers, and the SC can only command ministerial duties), but in a timely prohibition suit the SC can rule on joint vs separate voting, bar the House from proceeding with 'House-only' Cha-cha, or prohibit Comelec from conducting a plebiscite on those revisions. He notes that a petition for declaratory relief (like lawyer Arturo de Castro's) will not prosper because the SC has no original jurisdiction over declaratory relief. Even if separate votes are counted, a taxpayer may still sue to determine whether they can be added 'jointly' to reach three-fourths. The column closes: only the SC can direct the Cha-cha express which fork to take -- reinforcing the series title of Jan. 14's 'What Alvarez wants, Alvarez gets.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

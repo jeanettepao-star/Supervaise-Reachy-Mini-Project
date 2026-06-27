@@ -1,53 +1,148 @@
 {
   "id": "CC004",
+  "format": "C",
   "type": "column",
   "theme": "C",
   "theme_label": "Biographical and Personal",
   "number": 4,
   "title": "Diokno, Salonga and Teehankee",
   "date": "2018-04-29",
-  "year": 2018,
-  "source_url": "https://opinion.inquirer.net/112794/diokno-salonga-teehankee",
-  "routing": {
-    "primary_intent": [
-      "biography"
+  "link": "https://opinion.inquirer.net/112794/diokno-salonga-teehankee",
+  "keywords": [
+    "CJ Teehankee summa cum laude",
+    "Diokno Salonga 1944 bar toppers",
+    "constructive resignation doctrine",
+    "Estelito Mendoza delayed cases",
+    "Salonga mentor Panganiban"
+  ],
+  "primary_topics": [
+    "Tribute to three superlawyers: Diokno, Salonga, Teehankee",
+    "Clarification on the constructive-resignation doctrine",
+    "Plea for speedier case resolution"
+  ],
+  "sub_topics": [
+    "Mendoza's praise for GMA right-to-travel decision but lament on delay",
+    "Accused detained 1,400+ days without resolution",
+    "J. Reyes Jr.'s swift right-to-travel decision despite being less than 1 year in office",
+    "Constitutional 24-month rule for pending cases after last pleading",
+    "Constructive resignation doctrine attributed to author -- corrected as CJ Puno's",
+    "Estrada-Arroyo 13-0 decision: Davide and Panganiban took no part",
+    "Teehankee: summa cum laude BA and LLB at Ateneo; No. 1 in 1940 bar",
+    "Greatest Ateneo law alumnus of all time (author's view)",
+    "Diokno: No. 1 in 1944 bar (tied 95.3%) without finishing law school; also topped CPA board",
+    "Salonga: No. 1 in 1944 bar (tied 95.3%); LL.M. Harvard, J.S.D. Yale",
+    "Salonga as author's mentor at FEU; boss at his law firm; lifetime guru",
+    "Salonga's awe of only two lawyers (Diokno and Teehankee)",
+    "Salonga's 'prepare extra well because Pepe Diokno is our opponent'",
+    "Salonga disbanding law office to chair PCGG in 1986 -- author emulating by dissolving own firm (Panganiban, Parlade, Benitez and Africa) in 1995 upon SC appointment",
+    "Phi Kappa Phi and FLP lecture cross-reference (Dean Candelaria)"
+  ],
+  "signature_phrases": [
+    "dismaying insensitivity to humanity",
+    "I have said it before and will say it again",
+    "fake news",
+    "hero-worshipping him since I was a student",
+    "we may not reach his intellectual altitude, but we can certainly try to approximate him",
+    "greatest Ateneo law alumnus of all time",
+    "prepare our trial brief extra well because Pepe Diokno (or Dingdong Teehankee) is our opponent",
+    "in the penumbra of their great shadows"
+  ],
+  "entities": {
+    "people": [
+      "Estelito P. Mendoza (de campanilla lawyer)",
+      "Justice Andres B. Reyes Jr.",
+      "Former President Gloria Macapagal Arroyo",
+      "CJ Claudio Teehankee",
+      "Jose W. Diokno",
+      "Jovito R. Salonga",
+      "CJ Reynato S. Puno (constructive-resignation author)",
+      "CJ Hilario G. Davide Jr.",
+      "Former President Joseph Estrada",
+      "Ateneo Law Dean Sedfrey Candelaria",
+      "Artemio V. Panganiban (author)"
     ],
-    "secondary_intent": [],
-    "audience_match": [],
-    "complexity": "medium",
-    "emotional_register": []
-  },
-  "topic_paths": {
-    "primary": [
-      "mentors_and_legal_lineage"
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Ateneo de Manila University",
+      "University of the Philippines",
+      "Far Eastern University (FEU)",
+      "Harvard Law School",
+      "Yale Law School",
+      "Presidential Commission on Good Government (PCGG)",
+      "Foundation for Liberty and Prosperity (FLP)"
     ],
-    "secondary": [
-      "bar_exam_and_legal_education"
+    "cases": [
+      "Estrada-Arroyo constructive-resignation decision (13-0, per CJ Puno)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (24-month case-resolution rule)",
+      "Bar exam results 1940 (Teehankee, No. 1) and 1944 (Diokno and Salonga, tied No. 1 at 95.3%)"
+    ],
+    "events": [
+      "2001 EDSA People Power II",
+      "Author dissolving law firm Panganiban, Parlade, Benitez and Africa upon SC appointment (1995)",
+      "Salonga disbanding law firm to chair PCGG (1986)",
+      "Dean Candelaria's FLP professorial lecture"
     ]
   },
-  "keywords": [
-    "Estelito P. Mendoza",
-    "constructive resignation doctrine (Puno authorship)",
-    "CJ Claudio Teehankee",
-    "Jose W. Diokno",
-    "Jovito R. Salonga",
-    "1944 bar exam tie",
-    "FEU mentorship"
+  "stances": [
+    {
+      "claim": "The constructive-resignation doctrine should be credited to CJ Reynato S. Puno who wrote the unanimous Estrada-Arroyo decision -- not to the author, who (with CJ Davide) took no part in the 13-0 ruling.",
+      "rhetorical_move": "definitive credit-correction labeled 'fake news'",
+      "confidence": "high"
+    },
+    {
+      "claim": "Cases that have been pending for more than 24 months after the last pleading was filed should be prioritized, per the Constitution.",
+      "rhetorical_move": "constitutional-mandate reminder",
+      "confidence": "high"
+    },
+    {
+      "claim": "CJ Teehankee is the greatest Ateneo law alumnus of all time -- summa cum laude in BA and LLB, No. 1 in the 1940 bar -- and a lifelong hero for the author.",
+      "rhetorical_move": "declarative hero-worship framing",
+      "confidence": "high"
+    },
+    {
+      "claim": "Diokno and Salonga tied for No. 1 in the 1944 bar (95.3%) -- Diokno without finishing law school and also topping the CPA board; Salonga earning LL.M. at Harvard and J.S.D. at Yale.",
+      "rhetorical_move": "biographical superlative record-keeping",
+      "confidence": "high"
+    },
+    {
+      "claim": "In dissolving his law firm upon SC appointment in 1995, the author consciously emulated Salonga who disbanded his firm to chair the PCGG in 1986.",
+      "rhetorical_move": "personal-legacy alignment with a revered mentor",
+      "confidence": "high"
+    }
   ],
-  "primary_topics": [],
-  "sub_topics": [],
-  "signature_phrases": [],
-  "entities": {
-    "people": [],
-    "institutions": [],
-    "cases": [],
-    "laws_treaties": [],
-    "events": []
-  },
-  "stances": [],
-  "notable_anecdotes": [],
-  "decision_framework_signals": [],
-  "target_audience": [],
-  "register_markers": [],
-  "one_paragraph_summary": ""
+  "notable_anecdotes": [
+    "Estelito P. Mendoza's comment lamenting an unnamed accused detained for 'precisely more than 1,400 days' and counting -- citing 'dismaying insensitivity to humanity.'",
+    "Teehankee: summa cum laude in both BA and LLB at Ateneo; No. 1 in the 1940 bar -- the author's lifelong hero since student days.",
+    "Diokno and Salonga tying at 95.3% for No. 1 in the 1944 bar -- Diokno without a law degree (also topped the CPA board); Salonga with LL.M. Harvard and J.S.D. Yale ('a rare feat only a few in the world have attained').",
+    "Salonga as the author's mentor at FEU and boss at his law firm -- in awe of only Diokno and Teehankee, warning his young assistant: 'Please prepare our trial brief extra well because Pepe Diokno (or Dingdong Teehankee) is our opponent.'",
+    "The conscious emulation: Salonga disbanded his firm to chair the PCGG in 1986; the author dissolved Panganiban, Parlade, Benitez and Africa upon SC appointment in 1995.",
+    "The repeated attributions of the constructive-resignation doctrine to the author -- 'fake news,' cleared by the fact that he and CJ Davide took no part in the 13-0 Estrada-Arroyo ruling."
+  ],
+  "target_audience": [
+    "Ateneo law professors and students",
+    "Members of the bench and bar",
+    "Admirers and family of Diokno, Salonga, and Teehankee",
+    "Constitutional law scholars",
+    "Readers seeking role models in the legal profession"
+  ],
+  "register_markers": [
+    "Reader-response/letter format (Mendoza letter, two readers attributing doctrine)",
+    "Record-correction framing ('I have said it before and will say it again', 'fake news')",
+    "Hero-worship acknowledgment ('I admit to hero-worshipping him')",
+    "Academic-credential superlatives (summa, numero uno, Harvard, Yale)",
+    "Personal-mentorship narrative register",
+    "Emulation-of-mentor closing",
+    "FLP cross-reference for institutional context"
+  ],
+  "decision_framework_signals": [
+    "Correct misattributions of doctrines promptly and directly -- institutional record accuracy matters",
+    "Emulate role models in concrete acts, not just aspirationally (dissolving law firm as Salonga did)",
+    "Benchmark junior lawyers against the all-time greats rather than their peers",
+    "Apply the 24-month constitutional deadline as an actionable rule, not a rhetorical aspiration",
+    "Treat mentorship as a chain: the mentor's habits (Salonga's preparation standard) become the apprentice's minimum"
+  ],
+  "one_paragraph_summary": "Responding to reader letters following his previous column, Panganiban addresses three issues. First, on Estelito Mendoza's praise for J. Reyes Jr.'s swift GMA right-to-travel decision alongside his lament about an unnamed accused detained for over 1,400 days, he joins the plea for speedier resolution and invokes the constitutional 24-month rule for cases after the last pleading was filed. Second, he definitively corrects repeated misattributions of the constructive-resignation doctrine to himself -- 'I have said it before and will say it again: fake news.' The doctrine belongs to CJ Reynato S. Puno, who wrote the unanimous Estrada-Arroyo decision; Panganiban and CJ Davide took no part in the 13-0 ruling. Third, he responds to two readers who criticized him for hero-worshipping CJ Claudio Teehankee by confirming it unapologetically: Teehankee earned summa cum laude in both BA and LLB from Ateneo and was No. 1 in the 1940 bar -- 'the greatest Ateneo law alumnus of all time.' He extends equal esteem to Jose W. Diokno and Jovito R. Salonga, who tied for No. 1 in the 1944 bar at 95.3% -- Diokno without finishing law school (also the CPA board topnotcher), and Salonga with LL.M. from Harvard and J.S.D. from Yale. Salonga was the author's mentor at FEU and boss at his law firm -- the boss in awe of only Diokno and Teehankee, warning his young assistant to 'prepare our trial brief extra well' whenever either appeared on the opposite side. When Salonga disbanded his firm to chair the PCGG in 1986, the author consciously emulated him by dissolving his own firm (Panganiban, Parlade, Benitez and Africa) upon SC appointment in 1995, living, as he humbly concludes, 'in the penumbra of their great shadows.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
 }

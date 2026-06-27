@@ -1,43 +1,13 @@
 {
   "id": "CD005",
+  "format": "C",
   "type": "column",
   "theme": "D",
   "theme_label": "FLP Mission and Foundation",
   "number": 5,
   "title": "For FLP scholars, little things mean a lot",
   "date": "2020-05-10",
-  "year": 2020,
-  "source_url": "https://opinion.inquirer.net/129657/for-flp-scholars-little-things-mean-a-lot",
-  "routing": {
-    "primary_intent": [
-      "biography",
-      "institutional"
-    ],
-    "secondary_intent": [],
-    "audience_match": [
-      "FLP donors and supporters (donor-cultivation audience)",
-      "Prospective law-school applicants and current scholarship hopefuls",
-      "Parents and families of FLP scholars",
-      "Law school deans and faculty (placement and recruitment readers)",
-      "Civic-minded readers who appreciate Filipino youth excellence stories"
-    ],
-    "complexity": "medium",
-    "emotional_register": [
-      "warm",
-      "celebratory"
-    ]
-  },
-  "topic_paths": {
-    "primary": [
-      "foundation_for_liberty_and_prosperity",
-      "flp_scholarship_programs"
-    ],
-    "secondary": [
-      "flp_donors_and_partners",
-      "twin_beacons_doctrine",
-      "early_life_sampaloc"
-    ]
-  },
+  "link": "https://opinion.inquirer.net/129657/for-flp-scholars-little-things-mean-a-lot",
   "keywords": [
     "FLP scholars",
     "Tan Yan Kee Foundation",
@@ -49,7 +19,7 @@
   ],
   "primary_topics": [
     "Celebratory profile of FLP and Tan Yan Kee Foundation scholars who passed the most recent Bar exams, led by 6th placer Kenneth Glenn Manuel (UST) and 9th placer Jun Dexter Rojas (PUP)",
-    "Personal narratives of scholarship recipients — working students, summa/magna/cum laudes, debaters, mooters, child-of-farmer story, valedictorians",
+    "Personal narratives of scholarship recipients -- working students, summa/magna/cum laudes, debaters, mooters, child-of-farmer story, valedictorians",
     "FLP's pedagogical philosophy that small acts of institutional support ('little things') compound into transformative outcomes ('mean a lot') for the next generation of Filipino legal leaders"
   ],
   "sub_topics": [
@@ -67,83 +37,17 @@
     "Mikael Gabrielle Ilao (UCordilleras) and Julienne Therese Salvacion (SBC-Manila): no Latin honors in pre-law but same passion-and-diligence pattern in law school"
   ],
   "signature_phrases": [
-    {
-      "phrase": "uplifted me no end",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "reminded me of my own youth",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "the heartwarming stories",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "peering questions of the board of judges at the Supreme Court's inner sanctum",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "the midnight toil of the screening panel",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "our generous donor",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "little things must have meant a lot",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "the modest assistance given the scholars",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "the future leaders of our country",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "the king's good servant but God's first",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "to liberate the people from poverty and misery",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    }
+    "uplifted me no end",
+    "reminded me of my own youth",
+    "the heartwarming stories",
+    "peering questions of the board of judges at the Supreme Court's inner sanctum",
+    "the midnight toil of the screening panel",
+    "our generous donor",
+    "little things must have meant a lot",
+    "the modest assistance given the scholars",
+    "the future leaders of our country",
+    "the king's good servant but God's first",
+    "to liberate the people from poverty and misery"
   ],
   "entities": {
     "people": [
@@ -186,72 +90,30 @@
       "ANC Square-Off Debates"
     ],
     "cases": [],
-    "laws_treaties": [],
-    "events": []
+    "laws_treaties": []
   },
   "stances": [
     {
       "claim": "FLP's modest financial assistance, screening rigor, and inculcation of liberty-and-prosperity values constitute 'little things' that compound into outsized career outcomes for scholarship recipients.",
       "rhetorical_move": "compounding-of-small-causes: ordinary mechanisms reframed as transformative inputs",
-      "evidence": "Profile of 13 scholars including a 6th and 9th bar placer, multiple class valedictorians, and an international moot court world champion",
-      "domain": "",
-      "would_repeat_today": null
+      "evidence": "Profile of 13 scholars including a 6th and 9th bar placer, multiple class valedictorians, and an international moot court world champion"
     },
     {
       "claim": "The FLP scholar profile combines pre-law academic excellence (Latin honors), service-and-activist engagement, working-student grit, and disciplined law-school performance — modeling the institution's vision of next-generation Filipino legal leadership.",
       "rhetorical_move": "exemplar-portrait: showcase as institutional self-definition",
-      "evidence": "Detailed biographical sketches of each scholar",
-      "domain": "",
-      "would_repeat_today": null
+      "evidence": "Detailed biographical sketches of each scholar"
     },
     {
       "claim": "The first FLP batch (2018) — led by Sean James Borja (ADMU, 1st place) and Katrina Gaw (ADMU, 5th place) — also passed 100 percent, indicating sustained institutional performance.",
       "rhetorical_move": "cohort-comparison continuity claim",
-      "evidence": "First-batch pass rate and topnotchers",
-      "domain": "",
-      "would_repeat_today": null
+      "evidence": "First-batch pass rate and topnotchers"
     }
   ],
   "notable_anecdotes": [
-    {
-      "summary": "Jun Dexter Rojas's working-student arc: farmer's son, UP college scholar, years of work to put siblings through college before enrolling in law and becoming PUP's first-ever bar topper.",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Kenneth Glenn Manuel's dedication speech, framing his 6th-place finish as a victory 'for the people who continue to believe that there's a good tomorrow in the sorrows of today… for all the working students who take the burden of living double lives.'",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Tess Marie Tan as 'World Champion and Best Over-all Oralist' — the first Filipina in the 21-year history of the Stetson International Environmental Law Moot Court Competition — while also placing 2nd in the FLP Dissertation Writing Contest 2018.",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "John Anthony Almerino balancing rock-band guitar, occasional poetry, and twice-championship chess captaincy with USC magna cum laude and law valedictorian status.",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    }
-  ],
-  "decision_framework_signals": [
-    "applies a 'little things mean a lot' compounding-effects framework to philanthropic intervention",
-    "treats triangulated excellence (academic + activist + working-student) as the FLP scholarship profile",
-    "uses bar-exam ranking as a primary external-validation metric for scholarship quality",
-    "deploys cohort-to-cohort comparison (2018 batch vs. current batch) to claim institutional consistency",
-    "frames scholarship as identity-formation, not merely financial assistance"
+    "Jun Dexter Rojas's working-student arc: farmer's son, UP college scholar, years of work to put siblings through college before enrolling in law and becoming PUP's first-ever bar topper.",
+    "Kenneth Glenn Manuel's dedication speech, framing his 6th-place finish as a victory 'for the people who continue to believe that there's a good tomorrow in the sorrows of today… for all the working students who take the burden of living double lives.'",
+    "Tess Marie Tan as 'World Champion and Best Over-all Oralist' — the first Filipina in the 21-year history of the Stetson International Environmental Law Moot Court Competition — while also placing 2nd in the FLP Dissertation Writing Contest 2018.",
+    "John Anthony Almerino balancing rock-band guitar, occasional poetry, and twice-championship chess captaincy with USC magna cum laude and law valedictorian status."
   ],
   "target_audience": [
     "FLP donors and supporters (donor-cultivation audience)",
@@ -270,5 +132,13 @@
     "Latin-honors and academic-distinction taxonomy used as biographical shorthand",
     "narrative closer that situates the cohort as 'future leaders of our country'"
   ],
-  "one_paragraph_summary": "Panganiban writes a donor-warm celebration of the Foundation for Liberty and Prosperity (FLP) and Tan Yan Kee Foundation (TYKF) scholars who passed the most recent Bar exams, led by 6th placer Kenneth Glenn Manuel (UST, cum laude, CPA, 'Sir K' to his students) and 9th placer Jun Dexter Rojas (PUP) Ã¢â‚¬â€� a farmer's son and former UP college scholar who worked years to support his siblings before becoming PUP's first-ever bar topper. He profiles each of the 13 scholars in turn: Leo Francis Abot (ADMU summa cum laude in history, class valedictorian, 'the king's good servant but God's first'); John Anthony Almerino (USC magna cum laude, rock guitarist, two-time chess champion, class valedictorian); Arvin Paolo Cortez (UP cum laude, 'to liberate the people from poverty and misery'); King Anthony Perez (UP Cebu cum laude, broadcast journalist, UCebu law valedictorian); Ma. Vida Malaya Villarico (UP Diliman cum laude, PUP law class topper); Micah Celine Carpio (DLSU magna cum laude, DLSU Law valedictorian); Alimar Mohammad Malabad (UP Manila cum laude, San Beda Moot Court champion, 'Youth Leader for the Preservation of the Ibanag Culture'); Dion Ceazar Pascua (FEU magna cum laude, CPA, part-time worker at HRET, Supreme Court, and DOF); Tess Marie Tan (first Filipina 'World Champion and Best Over-all Oralist' in the 21-year history of the Stetson International Environmental Law Moot Court Competition, plus prizes at Price, Jessup, and ANC Square-Off Debates, 2nd place FLP Dissertation 2018); and Mikael Gabrielle Ilao and Julienne Therese Salvacion who, without Latin honors, displayed the same passion in law school. He frames the column with his organizing aphorism Ã¢â‚¬â€� that the scholarship's 'little things' (peering questions at the Supreme Court's inner sanctum, midnight toil of the screening panel, modest financial assistance, and lessons on liberty and prosperity) compound into outsized career outcomes Ã¢â‚¬â€� and closes with a reminder that the first FLP batch (2018, led by Sean James Borja's 1st-place finish and Katrina Gaw's 5th-place) also passed 100 percent, signaling sustained institutional performance."
+  "decision_framework_signals": [
+    "applies a 'little things mean a lot' compounding-effects framework to philanthropic intervention",
+    "treats triangulated excellence (academic + activist + working-student) as the FLP scholarship profile",
+    "uses bar-exam ranking as a primary external-validation metric for scholarship quality",
+    "deploys cohort-to-cohort comparison (2018 batch vs. current batch) to claim institutional consistency",
+    "frames scholarship as identity-formation, not merely financial assistance"
+  ],
+  "one_paragraph_summary": "Panganiban writes a donor-warm celebration of the Foundation for Liberty and Prosperity (FLP) and Tan Yan Kee Foundation (TYKF) scholars who passed the most recent Bar exams, led by 6th placer Kenneth Glenn Manuel (UST, cum laude, CPA, 'Sir K' to his students) and 9th placer Jun Dexter Rojas (PUP) -- a farmer's son and former UP college scholar who worked years to support his siblings before becoming PUP's first-ever bar topper. He profiles each of the 13 scholars in turn: Leo Francis Abot (ADMU summa cum laude in history, class valedictorian, 'the king's good servant but God's first'); John Anthony Almerino (USC magna cum laude, rock guitarist, two-time chess champion, class valedictorian); Arvin Paolo Cortez (UP cum laude, 'to liberate the people from poverty and misery'); King Anthony Perez (UP Cebu cum laude, broadcast journalist, UCebu law valedictorian); Ma. Vida Malaya Villarico (UP Diliman cum laude, PUP law class topper); Micah Celine Carpio (DLSU magna cum laude, DLSU Law valedictorian); Alimar Mohammad Malabad (UP Manila cum laude, San Beda Moot Court champion, 'Youth Leader for the Preservation of the Ibanag Culture'); Dion Ceazar Pascua (FEU magna cum laude, CPA, part-time worker at HRET, Supreme Court, and DOF); Tess Marie Tan (first Filipina 'World Champion and Best Over-all Oralist' in the 21-year history of the Stetson International Environmental Law Moot Court Competition, plus prizes at Price, Jessup, and ANC Square-Off Debates, 2nd place FLP Dissertation 2018); and Mikael Gabrielle Ilao and Julienne Therese Salvacion who, without Latin honors, displayed the same passion in law school. He frames the column with his organizing aphorism -- that the scholarship's 'little things' (peering questions at the Supreme Court's inner sanctum, midnight toil of the screening panel, modest financial assistance, and lessons on liberty and prosperity) compound into outsized career outcomes -- and closes with a reminder that the first FLP batch (2018, led by Sean James Borja's 1st-place finish and Katrina Gaw's 5th-place) also passed 100 percent, signaling sustained institutional performance.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
 }

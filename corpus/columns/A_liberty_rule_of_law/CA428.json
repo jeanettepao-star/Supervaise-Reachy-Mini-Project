@@ -1,0 +1,150 @@
+{
+  "id": "CA428",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 428,
+  "title": "Are the PDAF 'realignments' constitutional?",
+  "date": "2014-01-18",
+  "link": "https://opinion.inquirer.net/69859/are-the-pdaf-realignments-constitutional",
+  "keywords": [
+    "Supreme Court",
+    "judicial reform",
+    "criminal procedure",
+    "human rights",
+    "rule of law"
+  ],
+  "primary_topics": [
+    "SC motu proprio Dec 10 2013 resolution instituting five new measures to speed up Maguindanao massacre trial",
+    "Recap of Nov 23 2009 massacre -- 58 defenseless civilians (34 media workers) shot/mangled/killed/back-hoed in Maguindanao",
+    "197 officials/policemen/coconspirators charged in 58 separate informations",
+    "Cases transferred from RTC Maguindanao to RTC Quezon City Branch 221, Judge Jocelyn Solis-Reyes with 2 assisting judges",
+    "Status: 3 dead, 194 remaining, 106 detained without bail, 88 still at large",
+    "Trial volume: 71 case-record volumes, 38 TSN volumes, 139 witnesses, 560 petitions/motions, 427 resolved",
+    "Five new SC guidelines pro hac vice -- JAR implementation + separate trials + installment decisions + third assisting judge + resolve-despite-higher-court-pendency",
+    "Harry Roque pro bono representation + AMLC bank-freeze + NAPOLCOM administrative dismissal charges"
+  ],
+  "sub_topics": [
+    "Judicial Affidavit Rule promulgated Sept 4 2012 -- effectivity suspended at request of public prosecutors; Court implements it for Maguindanao despite suspension",
+    "JAR mechanism -- affidavits in language known to witnesses + English/Filipino translations + cross-examination still preserved",
+    "Bail-petitions delay context -- 64 accused (8 Ampatuans, 42 police officers, 14 civilians) represented by 39 sets of lawyers",
+    "Pro hac vice ('for this case only') Latin phrase explanation",
+    "Items 2-3 importance -- without these, single final judgment would take decades; under these, judgments can be issued 'in installments' (Ampatuans first, then policemen, etc.)",
+    "Item 4 -- third assisting judge to handle nontrial incidents (arraignment, pretrials) so Solis-Reyes can focus on trials",
+    "Item 5 -- resolve petitions despite higher-court pendency; normally trial courts stop in deference to higher courts, indefinitely delaying trials",
+    "Harry Roque represents 15 media workers + 2 others pro bono",
+    "Justice Sec Leila de Lima expected to respond on reexamination of number of accused and victim compensation"
+  ],
+  "signature_phrases": [
+    "Unknown to many, the Supreme Court issued motu proprio (on its own volition) a resolution",
+    "instituting five new measures or guidelines to speed up the Maguindanao massacre trial",
+    "Most gruesome crime",
+    "the most gruesome crime of our time was discovered; 58 defenseless civilians (34 were media workers) were shot, mangled, killed and back-hoed",
+    "These stats are intimidating and unprecedented",
+    "the cases have become tedious and complicated, even though they are hardly at midstream",
+    "the Supreme Court resolved pro hac vice (for this case only)",
+    "Items 2 and 3 are very important",
+    "the court would take decades to render a single final judgment",
+    "judgments can be issued in installments",
+    "Normally, when petitions are filed in the higher courts the trial court stops its proceedings in deference to the higher courts, thereby indefinitely delaying the trials",
+    "Fresh hopes",
+    "judiciary's attempt to accord speedy justice",
+    "the Executive, as part of the overall judicial pillars, should do its share",
+    "The Maguindanao massacre cases are a litmus test of our judicial system",
+    "The Supreme Court directives raise fresh hopes"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Judge Jocelyn Solis-Reyes (RTC QC Br 221 presiding)",
+      "Harry Roque (pro bono private prosecutor for 15 media workers + 2 others)",
+      "Justice Sec Leila de Lima"
+    ],
+    "institutions": [
+      "Supreme Court",
+      "RTC Maguindanao (original venue)",
+      "RTC Quezon City Branch 221 (transfer venue)",
+      "Department of Justice",
+      "Anti-Money Laundering Council (AMLC)",
+      "National Police Commission (NAPOLCOM)",
+      "Court of Appeals (higher-court-pendency context)"
+    ],
+    "cases": [
+      "Maguindanao massacre cases -- 58 separate murder informations consolidated"
+    ],
+    "laws_treaties": [
+      "Judicial Affidavit Rule (Sept 4 2012 SC promulgation, effectivity suspended, implemented for Maguindanao)",
+      "Rule on bail -- non-bailable capital offenses with strong evidence",
+      "AMLA framework (bank-freeze authority)"
+    ],
+    "events": [
+      "Nov 23 2009 Maguindanao massacre",
+      "Dec 10 2013 SC motu proprio resolution with five guidelines",
+      "Ongoing bail-petition hearings (64 accused, 39 lawyer sets)",
+      "Harry Roque AMLC petition and NAPOLCOM filings"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The SC's Dec 10 2013 motu proprio resolution institutes five pro hac vice measures to hasten the Maguindanao massacre trial -- directing JAR implementation despite its prosecutor-requested suspension, enjoining separate trials and installment decisions to avoid decades-long single judgment, designating a third assisting judge for nontrial incidents, and authorizing resolution of motions despite higher-court pendency.",
+      "rhetorical_move": "five-guideline-roadmap framing",
+      "confidence": "asserted as SC institutional response"
+    },
+    {
+      "claim": "Items 2 and 3 (separate trials + installment decisions) are very important because, ordinarily, judgments are rendered only after all testimonial and documentary evidence for and against ALL accused -- given the numerous accused, witnesses, and voluminous documents, this would take decades for a single final judgment.",
+      "rhetorical_move": "decades-otherwise impossibility argument for installment-judgment innovation",
+      "confidence": "asserted as procedural-realism"
+    },
+    {
+      "claim": "Item 5 (resolve motions despite higher-court pendency) is procedurally significant because normally trial courts stop in deference to higher courts when interlocutory orders are challenged on appeal, indefinitely delaying trials.",
+      "rhetorical_move": "stop-in-deference-default identified-and-overridden",
+      "confidence": "asserted as procedural-innovation"
+    },
+    {
+      "claim": "The Maguindanao massacre cases are a litmus test of our judicial system and the officials tending it -- especially the President and the justices -- and the SC directives raise fresh hopes that the cases will move much faster with partial judgments rendered soon on some accused.",
+      "rhetorical_move": "litmus-test + fresh-hopes closing",
+      "confidence": "asserted as institutional-stakes framing"
+    }
+  ],
+  "notable_anecdotes": [
+    "The stark stats catalog -- 71 case-record volumes, 38 TSN volumes, 139 witnesses, 560 petitions/motions, 427 resolved, 64 accused petitioning for bail (8 Ampatuans + 42 police officers + 14 civilians) represented by 39 sets of lawyers -- among the most concentrated procedural-scale stats in the corpus, used to anchor the 'intimidating and unprecedented' framing.",
+    "The 'back-hoed' detail -- the most visceral single word in the column, describing how the 58 defenseless civilians were disposed of, deployed to remind readers of the case's moral gravity before the procedural exposition.",
+    "The JAR effectivity-suspension reversal -- promulgated Sept 4 2012, suspended at public-prosecutor request for lack of time/personnel, now implemented for Maguindanao despite the suspension -- the Court's most pointed procedural intervention.",
+    "The 'in installments' framing for judgment delivery -- Ampatuans first, then some policemen, etc., while proceedings against others still at large continue -- a procedural innovation unique to this resolution.",
+    "Harry Roque's tripartite pro bono effort -- criminal-case representation + AMLC asset-freeze petition + NAPOLCOM administrative-dismissal charges -- captured concisely as a model of private-prosecutor multi-front strategy.",
+    "Three of the accused have died -- a fact stated baldly without comment, but with implicit weight for the four-year procedural arc."
+  ],
+  "target_audience": [
+    "Inquirer general readership tracking Maguindanao massacre",
+    "Lawyers and law students (JAR + procedural-innovation primer)",
+    "Media-worker community and families of victims",
+    "Justice Sec Leila de Lima and executive officials (CJP's named addressee)",
+    "Trial judges and procedural-reform advocates",
+    "Human-rights and rule-of-law watchers"
+  ],
+  "register_markers": [
+    "Unknown to many discovery-framing opening",
+    "Recall that four years ago time-anchoring register",
+    "Most gruesome crime section header with weight",
+    "These stats are intimidating and unprecedented authorial-evaluation register",
+    "Five new guidelines section header",
+    "verbatim-quoted resolution language with quotation marks and ellipses",
+    "Items 2 and 3 are very important emphasis register",
+    "Ordinarily / However contrast-register for procedural-innovation framing",
+    "Normally / This will allow contrast register for item 4 explanation",
+    "Fresh hopes hopeful section header",
+    "litmus test of our judicial system closing-stakes framing"
+  ],
+  "decision_framework_signals": [
+    "uses five-guideline pro-hac-vice framework as procedural-acceleration template",
+    "applies JAR implementation despite prosecutor-requested suspension as judicial-priority-override",
+    "deploys installment-judgment innovation grounded in decades-otherwise impossibility argument",
+    "uses third-assisting-judge designation for nontrial-incidents to free presiding judge for trial focus",
+    "treats resolve-despite-higher-court-pendency as override of stop-in-deference default",
+    "frames cases as litmus test with shared executive-judicial responsibility",
+    "anticipates partial judgments rendered soon on some accused as success metric"
+  ],
+  "one_paragraph_summary": "Panganiban reports the Supreme Court's Dec 10 2013 motu proprio resolution instituting five new pro hac vice measures to speed up the Maguindanao massacre trial. He recaps the Nov 23 2009 atrocity -- the most gruesome crime of our time, 58 defenseless civilians (34 media workers) shot, mangled, killed, and back-hoed; 197 accused in 58 separate informations originally filed in RTC Maguindanao but transferred to RTC Quezon City Branch 221 under Judge Jocelyn Solis-Reyes with two assisting judges. Status: 3 accused dead, 194 remaining, 106 detained without bail for capital murder, 88 still at large. The procedural scale is intimidating and unprecedented -- 71 case-record volumes, 38 TSN volumes, 139 witnesses, 560 petitions/motions/manifestations filed (427 resolved), with 64 accused petitioning for bail (8 Ampatuans + 42 police officers + 14 civilians) represented by 39 sets of lawyers. The five SC guidelines: (1) DIRECT implementation of the Judicial Affidavit Rule (promulgated Sept 4 2012 but suspended at the public prosecutors' request -- the Court overrides for Maguindanao); (2) ENJOIN the presiding judge to hold, based on her discretion, separate trials for accused against whom no further prosecution evidence is contemplated; (3) AUTHORIZE separate decisions in any of the 58 cases without waiting for completion of evidence-for-all-accused -- items 2 and 3 are very important because ordinarily a single final judgment would take decades, but under these guidelines judgments can be issued 'in installments' (Ampatuans first, then some policemen, etc.); (4) DESIGNATE a third assisting judge for nontrial incidents like arraignment and pretrials so Judge Solis-Reyes can focus on trials; (5) AUTHORIZE the presiding and assisting judges to resolve motions despite higher-court pendency -- overriding the normal stop-in-deference rule that indefinitely delays trials. Harry Roque, pro bono private prosecutor for 15 media workers and 2 others, hailed the directives and asked the Executive to do its share, also petitioning the AMLC for asset freezes and filing NAPOLCOM administrative-dismissal charges against accused policemen. Panganiban frames the cases as a litmus test of the judicial system and its officials, and the SC directives as raising fresh hopes that the cases will move much faster with partial judgments soon on some accused.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

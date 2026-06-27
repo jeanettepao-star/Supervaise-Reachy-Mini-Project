@@ -1,0 +1,101 @@
+{
+  "id": "CC117",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 117,
+  "title": "The same yesterday, today and tomorrow (1)",
+  "date": "2011-04-17",
+  "link": "https://opinion.inquirer.net/4537/the-same-yesterday-today-and-tomorrow-1",
+  "keywords": [
+    "Jesus Christ leadership qualities servant-leader",
+    "Good Samaritan parable question ending",
+    "Palm Sunday triumphal entry Jerusalem",
+    "Woe to scribes and Pharisees whitewashed tombs",
+    "Son of Man came not to be served but to serve"
+  ],
+  "primary_topics": [
+    "Jesus Christ as a leader with clear vision and mission",
+    "Jesus Christ as a leader of enormous courage and unbreakable conviction",
+    "Jesus Christ as a servant-leader who led by example"
+  ],
+  "sub_topics": [
+    "Palm Sunday context: triumphal entry into Jerusalem",
+    "Five leadership qualities of Jesus (part 1 covers first three)",
+    "Quality 1 -- Vision and mission: lofty teaching to disciples; parables to non-disciples; most parables end with questions",
+    "Three parable questions: Good Samaritan ('which was neighbor?'); Forgiven Debtors ('which was more grateful?'); Tenants ('what fate for them?')",
+    "Quality 2 -- Courage and conviction: no freedom of speech then; Jesus mixed with sinners, tax collectors, Samaritan woman, prostitute, adulteress",
+    "Acquired 'glutton and drunkard' reputation; did not seek approval; denounced sin; proclaimed kingdom of God opposite to Jewish/Roman kingdoms",
+    "Kingdom of God: weak is strong, strong is just, just is compassionate",
+    "Woe to scribes and Pharisees: 'whitewashed tombs, beautiful outside but inside full of filth and dead men's bones'",
+    "Quality 3 -- Servant-leader: Gentile leaders lord it over followers; Jesus came to serve, not to be served",
+    "Contrast with PH leaders: pork barrel patronage, seeking personal credit for roads/markets/water systems",
+    "Jesus washed apostles' feet: 'as I have done for you, so you must do'",
+    "Part 1 of at least 2-part series (indicated by '(1)' in title)"
+  ],
+  "signature_phrases": [
+    "the same yesterday, today and tomorrow",
+    "eternal, He is the same yesterday, today and tomorrow",
+    "greatest teaching of all time and for all time",
+    "leaned heavily in favor of the poor",
+    "whitewashed tombs",
+    "outside full of filth and dead men's bones",
+    "Not come to be served but to serve",
+    "as I have done for you, so you must do"
+  ],
+  "entities": {
+    "people": [
+      "Jesus Christ",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [],
+    "cases": [],
+    "laws_treaties": [
+      "Gospel of Mark (Mk 10:42-45)",
+      "Gospel of John (Jn 13:14-16)",
+      "Gospel of Luke (Lk 7:42; 10:36; 20:16)"
+    ],
+    "events": [
+      "Palm Sunday (article date: May 1, 2011)",
+      "JP II beatification (context)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Jesus Christ's five leadership qualities -- beginning with clear vision/mission, courage/conviction, and servant-leadership -- are as relevant and compelling today as they were 2,000 years ago.",
+      "rhetorical_move": "timeless-leadership thesis",
+      "confidence": "high"
+    },
+    {
+      "claim": "Philippine political leaders -- who use pork barrels for patronage, seek personal credit, and make themselves centers of authority -- embody the exact opposite of Jesus's servant-leadership model.",
+      "rhetorical_move": "contemporary-political application of the Gospel teaching",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The pattern of Jesus's parables ending with questions -- Good Samaritan ('Which was neighbor?'), Forgiven Debtors ('Which was more grateful?'), Tenants ('What fate for them?') -- as a teaching method designed to make the listener discover truth for himself.",
+    "Jesus's 'Woe to scribes and Pharisees' rebuke: 'whitewashed tombs, beautiful to look at on the outside but inside full of filth and dead men's bones' -- the most rhetorically striking passage quoted in the column.",
+    "Jesus washing the apostles' feet: 'If I, who am Teacher and Lord, have washed your feet, then you, too, must wash each other's feet' -- the servant-leadership paradigm applied directly to Philippine public officials."
+  ],
+  "target_audience": [
+    "Christian readership on Palm Sunday",
+    "Philippine political leaders measured against the servant-leadership standard",
+    "Business and civic leaders applying leadership frameworks",
+    "General readers seeking inspiration from Gospel leadership"
+  ],
+  "register_markers": [
+    "Palm Sunday devotional register",
+    "Leadership-framework application of Gospel texts",
+    "Parable-question enumeration",
+    "Contemporary-PH contrast embedded in theological reflection",
+    "Series indicator (Part 1)"
+  ],
+  "decision_framework_signals": [
+    "Apply Jesus's parable method: end with questions rather than directives -- good leaders make others discover truth for themselves",
+    "Apply the servant-leadership test to any public official: are they serving the people or using the people's resources to create personal obligation and patronage?",
+    "Apply the whitewashed-tombs test: does an official's public appearance match the ethical reality inside?"
+  ],
+  "one_paragraph_summary": "On Palm Sunday (May 1, 2011), Panganiban delivers Part 1 of a reflection on Jesus Christ as the eternal leader -- 'the same yesterday, today and tomorrow' -- identifying five leadership qualities of which he covers three. First, vision and mission: Jesus communicated His salvific mission differently to different audiences -- lofty and authoritative to disciples ('the greatest teaching of all time'), parables to non-disciples that ended with questions ('Which of these three was neighbor to the man?'; 'Which of them was more grateful?'; 'What fate do you suppose the owner has in store for them?') -- designed to make the listener discover truth for himself. Second, courage and conviction: in a world with no freedom of speech or dissent, Jesus mixed with sinners, tax collectors, a Samaritan woman, and an adulteress; acquired a reputation as 'a glutton and a drunkard'; and boldly denounced the scribes and Pharisees as 'whitewashed tombs, beautiful on the outside but inside full of filth and dead men's bones.' Third, servant-leadership: Jesus explicitly taught 'The Son of Man has not come to be served but to serve' and demonstrated it by washing the apostles' feet -- contrasting sharply with Philippine political leaders who use pork barrel appropriations for personal patronage, and who make themselves the center of authority 'such that no business can be opened without their blessings and no employment can be secured without their recommendation.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

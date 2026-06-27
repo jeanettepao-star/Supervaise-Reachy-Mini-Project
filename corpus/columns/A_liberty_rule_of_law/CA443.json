@@ -1,0 +1,140 @@
+{
+  "id": "CA443",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 443,
+  "title": "Cooperation, not collision",
+  "date": "2013-09-28",
+  "link": "https://opinion.inquirer.net/62209/cooperation-not-collision",
+  "keywords": [
+    "DAP",
+    "political patronage",
+    "presidential discretion",
+    "Aquino",
+    "9 percent vs 91 percent",
+    "reform",
+    "ideal Philippines"
+  ],
+  "primary_topics": [
+    "DAP's three faces: economic, legal, and political",
+    "9-percent vs 91-percent breakdown of DAP usage",
+    "Defense of presidential discretion as constitutionally appropriate",
+    "Long-term reform vision: ideal Philippines, milestone-based change, voter education"
+  ],
+  "sub_topics": [
+    "Economic face: Keynesian stimulus, fastest-growing Asian economy",
+    "Legal face: to be decided by SC at Nov 19 oral argument (CJ refrains from preempting)",
+    "Political face: alleged disguised political patronage, partisanship, unbridled presidential discretion",
+    "9 percent of DAP for legislators' pet projects; 91 percent for non-lawmaker stimulus",
+    "No credible claim that DAP went to bogus NGOs or ghost projects (unlike PDAF)",
+    "Many DAP-funded projects (airports, bridges, roads) are needed",
+    "Defense: 9 percent is 'democratic cost' of avoiding quorum failures when Congress could absent itself to block presidential agenda",
+    "Wide presidential discretion as appropriate -- elected to implement laws; needed for calamities (Bohol/Cebu earthquake, Central PH killer typhoon)",
+    "Grave abuse of discretion as judicially actionable check",
+    "Voter expectations and electoral reality -- demands for largesse at election time",
+    "Ideal Philippines: no horse-trading, no 'I scratch your back,' no pork, no patronage",
+    "Old-style senators as model: Tanada, Recto, Diokno, Salonga -- didn't need to sing/dance/build bridges/rig elections",
+    "Reform as incremental milestone work, not overnight transformation"
+  ],
+  "signature_phrases": [
+    "many faces",
+    "I will take them up sequentially",
+    "9 percent... 91 percent",
+    "democratic cost",
+    "ideal Philippines",
+    "I will scratch your back if you scratch mine",
+    "in the mold of the senators of old",
+    "Any bright ideas on how to identify the milestones, dear readers?"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Florencio Abad (Budget Secretary)",
+      "Benigno Aquino III (President)",
+      "Lorenzo Tanada ('senator of old' model)",
+      "Claro M. Recto ('senator of old' model)",
+      "Jose W. Diokno ('senator of old' model)",
+      "Jovito R. Salonga ('senator of old' model)"
+    ],
+    "institutions": [
+      "Office of the President",
+      "Department of Budget and Management",
+      "Congress",
+      "Supreme Court"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution"
+    ],
+    "events": [
+      "Bohol/Cebu killer earthquake (October 2013)",
+      "Central Philippines killer typhoon (November 2013, Yolanda/Haiyan implied)",
+      "Nov 19 oral argument on DAP constitutionality (forthcoming)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The DAP has three faces -- economic (Keynesian stimulus, fastest-growing Asian economy), legal (to be decided Nov 19 by SC), and political (partisanship and discretion concerns) -- and intelligent debate requires separating them rather than collapsing them.",
+      "rhetorical_move": "three-face decomposition (separating analytically distinct dimensions of a policy)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Critics' political objections to DAP -- disguised patronage, partisanship, unbridled discretion -- are real but proportionate: 9 percent of DAP went to legislators' pet projects, 91 percent to non-lawmaker stimulus, and no credible claim has emerged of bogus NGOs or ghost projects.",
+      "rhetorical_move": "proportionality-counter argument (using the 9/91 split to right-size the partisanship objection)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Even the 9-percent legislator-supportive use is defensible as the 'democratic cost' of getting Aquino's legislative agenda through Congress -- lawmakers don't need to oppose; they only need to absent themselves to break quorum. This is real-world political cost-accounting.",
+      "rhetorical_move": "democratic-cost realism (treating quorum-game political mechanics as priced into reform calculus)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Wide presidential discretion is appropriate to PH governance -- the President is elected to implement laws and needs discretion especially during calamities (Bohol earthquake, Central PH typhoon). Fear of abuse should not handcuff an innovative president, since grave abuse of discretion is judicially actionable.",
+      "rhetorical_move": "discretion-defense via emergency-need framing plus judicial-check backstop",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Reforming political processes cannot be done overnight -- it requires voter education to elect the truly qualified, abandonment of largesse-driven politics, and incremental milestones rather than utopian leaps. The ideal Philippines would feature no pork, no patronage, no horse-trading, and senators in the mold of Tanada, Recto, Diokno, Salonga.",
+      "rhetorical_move": "ideal-vs-real bifocal framing (defining utopia then accepting incrementalism as the actual path)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "CJ extends benefit of the doubt to Aquino 'in matters political' because he still enjoys wide approval, is not running for reelection, and has no remaining personal ambition.",
+      "rhetorical_move": "credibility-extension based on incentive-structure analysis (no-reelection-no-ambition as integrity proxy)",
+      "confidence": "explicit endorsement with caveat"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 9-percent/91-percent split as the column's organizing arithmetic -- 9 percent to legislators' projects, 91 percent stimulus -- the precise numerical breakdown that converts the partisanship objection from categorical to proportional. Whatever the rule, the ratio is the rebuttal.",
+    "The 'democratic cost' framing of the 9 percent -- the President 'probably calculated' the share as the price of avoiding absent-quorum sabotage. The use of 'calculated' acknowledges naked transactional politics as the inherited governing condition.",
+    "The quartet of senators-of-old as moral counter-model -- Tanada, Recto, Diokno, Salonga, 'who did not have to sing and dance, or to point to new bridges and roads, much less to rig elections' -- the most evocative invocation of pre-pork legislative virtue.",
+    "The closing question -- 'Any bright ideas on how to identify the milestones, dear readers?' -- a rare reader-engagement move that explicitly invites participation in column-shaping."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Aquino administration supporters and critics alike",
+    "Reform-minded voters",
+    "Pro-stimulus economists and pro-discretion executive-branch defenders"
+  ],
+  "register_markers": [
+    "three-face decomposition title structure",
+    "'I will take them up sequentially' meta-organization",
+    "proportionality-counter arithmetic (9/91)",
+    "'democratic cost' as political-realist coinage",
+    "ideal-Philippines utopian vocabulary alongside incrementalist concession",
+    "senators-of-old roll-call as virtue invocation",
+    "reader-engagement question close ('Any bright ideas... dear readers?')"
+  ],
+  "decision_framework_signals": [
+    "uses three-face decomposition to separate analytically distinct dimensions of a policy (economic + legal + political)",
+    "applies proportionality-counter argument to right-size categorical objections (9-vs-91)",
+    "deploys democratic-cost realism (treating quorum-game political mechanics as priced into reform calculus)",
+    "balances discretion-defense (emergency-need framing) with judicial-check backstop (grave-abuse-of-discretion remedy)",
+    "frames reform through ideal-vs-real bifocal (utopia defined + incrementalism accepted as actual path)",
+    "extends credibility based on incentive-structure analysis (no-reelection-no-ambition as integrity proxy)"
+  ],
+  "one_paragraph_summary": "Panganiban decomposes the DAP into three faces and treats them sequentially. The economic face he leaves to economists, citing the Keynesian-stimulus argument and PH's status as Asia's fastest-growing economy. The legal face he defers to the SC's November 19 oral argument. The political face he engages directly: critics call DAP disguised patronage, partisanship, and unbridled presidential discretion. He answers with arithmetic: 9 percent of DAP went to legislators' pet projects; 91 percent was spent on non-lawmaker stimulus, with no credible claim of bogus NGOs or ghost projects (the PDAF pathology that did not transfer to DAP). The 9 percent he defends as the 'democratic cost' of getting Aquino's legislative agenda through Congress -- lawmakers don't need to oppose, only to absent themselves and break quorum. He defends wide presidential discretion as constitutionally appropriate for emergencies (Bohol earthquake, Central PH killer typhoon), noting that grave abuse of discretion remains judicially actionable. He extends benefit-of-the-doubt to Aquino 'in matters political' because Aquino still enjoys wide approval, is not running for reelection, and has no remaining personal ambition. He closes by pivoting to the long view: reform cannot be done overnight; the ideal Philippines would have no horse-trading, no 'I scratch your back if you scratch mine,' no pork, no patronage, and senators in the mold of Tanada, Recto, Diokno, Salonga -- 'who did not have to sing and dance, or to point to new bridges and roads, much less to rig elections.' He invites readers: 'Any bright ideas on how to identify the milestones, dear readers?'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

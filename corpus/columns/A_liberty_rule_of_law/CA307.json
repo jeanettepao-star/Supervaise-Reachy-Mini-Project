@@ -1,0 +1,125 @@
+{
+  "id": "CA307",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 307,
+  "title": "Congressional review of ML",
+  "date": "2017-06-25",
+  "link": "https://opinion.inquirer.net/105053/congressional-review-ml",
+  "keywords": [
+    "congressional review martial law",
+    "joint session Congress",
+    "Proclamation 216",
+    "Hilbay mandamus petition",
+    "Fortun vs Arroyo",
+    "Art VII Sec 18",
+    "Florin Hilbay",
+    "obiter dictum"
+  ],
+  "primary_topics": [
+    "Constitutional requirement for Congress to review ML via joint session, not separate sessions",
+    "Hilbay group's mandamus petition compelling Congress to convene jointly",
+    "CJ's recommendation: rule definitively on joint session requirement without issuing a mandatory writ"
+  ],
+  "sub_topics": [
+    "Art. VII Sec. 18 -- Congress may revoke ML by majority vote in joint session",
+    "Congress convened separately (not jointly) on May 31, 2017 -- Senate and House passed separate supportive resolutions",
+    "Congress's position: joint session only required to revoke, not to review",
+    "Hilbay group (331 lawyers, 23-page petition) seeking mandamus to compel joint session",
+    "Framers' intent: Constitutional Commission exchanges (Bernas, Rodrigo, Monsod)",
+    "Monsod as both framer and petitioner",
+    "Fortun vs Arroyo (March 20, 2012): described Congress's duty to convene as 'automatic'",
+    "Fortun pronouncements as obiter dictum -- case dismissed as moot when GMA lifted ML",
+    "CJ's position: Court should rule definitively now for future guidance",
+    "No writ of mandamus needed -- give Congress benefit of good faith",
+    "Rule of law requires a definitive constitutional ruling prospectively"
+  ],
+  "signature_phrases": [
+    "constitutional duty",
+    "voting jointly",
+    "may revoke",
+    "NOT JOINTLY",
+    "a joint session is required only to revoke",
+    "mere 'obiter' (or side remarks)",
+    "ratio decidendi",
+    "give Congress the benefit of good faith",
+    "to uphold the rule of law, I think the Court should definitively rule on this legal issue now",
+    "in case martial law is proclaimed again in the future"
+  ],
+  "entities": {
+    "people": [
+      "Former Solicitor General Florin T. Hilbay (lead petitioner, 331-lawyer group)",
+      "Delegate Joaquin Bernas (1986 Constitutional Commission)",
+      "Delegate Francisco Rodrigo (1986 Constitutional Commission)",
+      "Delegate Christian Monsod (1986 ConCom framer and current petitioner)",
+      "President Gloria Macapagal-Arroyo (ML in Fortun case)",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Senate of the Philippines",
+      "House of Representatives",
+      "Supreme Court of the Philippines",
+      "1986 Constitutional Commission"
+    ],
+    "cases": [
+      "Fortun vs Arroyo (March 20, 2012) -- described Congress's joint-session duty as 'automatic'; dismissed as moot"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution Art. VII Sec. 18 -- congressional review of ML",
+      "Proclamation No. 216 -- Mindanao martial law edict"
+    ],
+    "events": [
+      "Congress's separate sessions on May 31, 2017 supporting Proclamation 216",
+      "Hilbay group filing mandamus petition (June 6, 2017)",
+      "GMA lifting ML before Fortun ruling (rendering it moot)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The constitutional text and framers' intent — supported by the Bernas-Rodrigo-Monsod exchanges in the 1986 ConCom — require Congress to convene in joint session to deliberate and vote as a single body, not merely when revoking but when reviewing ML; the two chambers' separate sessions in May 2017 were less than faithful to this mandate.",
+      "rhetorical_move": "textual-plus-intent argument using framer testimony as co-evidence for joint-session requirement",
+      "confidence": "asserted as probable correct reading, without condemning Congress"
+    },
+    {
+      "claim": "The Fortun vs Arroyo pronouncements on Congress's 'automatic' duty to convene jointly are obiter dictum — not binding ratio decidendi — because the petition was dismissed as moot when GMA lifted ML before the Court could rule; future ML challenges cannot rely on Fortun as precedent for this point.",
+      "rhetorical_move": "obiter-vs-ratio distinction as a precedent-reliability check",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Court should issue a definitive ruling on the joint-session requirement now — for prospective guidance — but need not issue a writ of mandamus compelling Congress, extending the benefit of good faith given the prior ambiguity from Fortun's obiter status.",
+      "rhetorical_move": "split-remedy recommendation: rule on the constitutional question without the coercive writ",
+      "confidence": "recommended as the prudent middle path"
+    }
+  ],
+  "notable_anecdotes": [
+    "Christian Monsod being both a drafter of the 1986 Constitutional Commission provision on congressional ML review and a current petitioner in the Hilbay mandamus group — the same person defending the framers' intent he helped write, an unusual convergence of constitutional authorship and litigant advocacy.",
+    "CJ's disclosure that Fortun's 'automatic' joint-session language — cited extensively by the petitioners — is merely obiter because GMA lifted ML before the Court could rule, effectively stripping what appeared to be a binding precedent of its precedential force.",
+    "The structural irony that Congress chose separate sessions precisely because the sessions were supportive (no revocation needed), yet the Constitution's text on the 24-hour convening requirement applies regardless of intent to revoke — used by CJ to argue that the review duty is independent of, and logically prior to, the revocation decision."
+  ],
+  "target_audience": [
+    "Legal practitioners and academics studying the constitutional law of ML review",
+    "Congress members and constitutional law advisers on future ML proceedings",
+    "SC justices weighing how to resolve the Hilbay mandamus petition",
+    "Law students studying the obiter vs ratio decidendi distinction in Philippine constitutional context",
+    "Civil society advocates for constitutional compliance in emergency powers"
+  ],
+  "register_markers": [
+    "constitutional-textualism register (quoting Art. VII Sec. 18 verbatim with ALL CAPS emphasis on 'NOT JOINTLY')",
+    "framers-intent register (Bernas, Rodrigo, Monsod ConCom exchanges)",
+    "obiter-vs-ratio precision register (identifying Fortun's limits as precedent)",
+    "split-remedy recommendation ('rule but no writ') as a judicial-temperance signal",
+    "prospective-guidance framing ('in case martial law is proclaimed again in the future')",
+    "benefit-of-good-faith qualifier as institutional-comity marker toward Congress"
+  ],
+  "decision_framework_signals": [
+    "applies text-plus-framers-intent dual methodology to resolve the joint-session question",
+    "uses obiter-vs-ratio distinction as a precedent-reliability filter for Fortun",
+    "recommends split remedy: constitutional ruling (yes) + coercive writ (no) as proportionality principle",
+    "treats prospective guidance as the primary institutional value — current case as a vehicle for future clarity",
+    "applies good-faith presumption to Congress's prior separate-session choice given doctrinal ambiguity"
+  ],
+  "one_paragraph_summary": "Panganiban analyzes the Hilbay group's June 6, 2017 mandamus petition (331 lawyers, 23 pages) seeking to compel Congress to convene in joint session to review Proclamation 216, after the Senate and House each passed separate supportive resolutions on May 31 without meeting jointly. He frames the constitutional question: Art. VII Sec. 18 says Congress 'voting jointly ... may revoke' ML, but the petitioners -- quoting the 1986 ConCom exchanges of delegates Bernas, Rodrigo, and Monsod (the last being both framer and current petitioner) -- argue that the Constitution requires joint deliberation as a reviewing duty independent of whether revocation is intended. Congress counters that joint session is required only to revoke, not to review. CJ finds the petitioners more persuasive on the text and framers' intent, and notes that Fortun vs Arroyo (2012) described Congress's joint-session duty as 'automatic' -- but argues that Fortun's pronouncements are mere obiter because GMA lifted ML before the Court could rule, stripping the language of precedential force. He recommends that the SC rule definitively on the joint-session requirement now for prospective guidance, but decline to issue a writ of mandamus compelling Congress -- extending the benefit of good faith given the Fortun ambiguity -- in order to uphold the rule of law for future ML scenarios.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

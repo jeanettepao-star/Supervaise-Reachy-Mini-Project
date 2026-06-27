@@ -1,0 +1,117 @@
+{
+  "id": "CA469",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 469,
+  "title": "Checking the checkpoints",
+  "date": "2013-01-26",
+  "link": "https://opinion.inquirer.net/45659/checking-the-checkpoints",
+  "keywords": [
+    "warrantless arrest",
+    "warrantless search",
+    "plain view doctrine",
+    "in flagrante delicto",
+    "hot pursuit",
+    "checkpoints Comelec gun ban",
+    "stop and frisk",
+    "Malacat vs Court of Appeals"
+  ],
+  "primary_topics": [
+    "Systematic guide to constitutional limits on warrantless arrests and warrantless searches",
+    "Comelec election gun-ban checkpoints as the practical context for the constitutional review",
+    "Six exceptions to the warrant requirement for searches and their strict interpretation"
+  ],
+  "sub_topics": [
+    "Comelec authorized military/police to set up at least one checkpoint per city/municipality for gun ban",
+    "Plain view search restriction: visual inspection only; no opening of glove compartments/trunks",
+    "Arrest/frisk requires reasonable and probable cause",
+    "Warrantless arrests: three main exceptions",
+    "In flagrante delicto: two elements -- overt act + in presence of arresting officer",
+    "Malacat vs CA (Dec. 12, 1997): 'moving very fast and looking at every approaching person' insufficient",
+    "People vs Mengote (June 22, 1992): 'darting eyes' + 'holding one's stomach' insufficient",
+    "Hot pursuit: offense committed + arresting officer's personal knowledge of facts/circumstances",
+    "Intelligence information alone insufficient for hot pursuit",
+    "Continuing offenses (rebellion/sedition): warrantless arrest valid even in hospital -- Umil vs Ramos (July 9, 1990)",
+    "Escaped prisoners and accused attempting to leave without court permission",
+    "Six warrantless search exceptions: (1) incident to lawful arrest; (2) plain view; (3) vehicle searches; (4) customs; (5) consented search; (6) stop and frisk",
+    "Vehicle searches: allowed more liberally for public safety exigencies; checkpoints not illegal per se",
+    "Stop and frisk: carefully limited outer clothing search based on officer's experience",
+    "General rule: no warrant, no arrest, no search -- all exceptions construed strictly against police"
+  ],
+  "signature_phrases": [
+    "plain view search",
+    "no warrant, no arrest and no search",
+    "all exceptions must be construed strictly in favor of the people",
+    "having darting eyes at the same time holding on one's stomach",
+    "moving very fast and looking at every approaching person",
+    "checkpoints are not illegal per se",
+    "anchored on an ideological base",
+    "personal knowledge of facts or circumstances"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "Supreme Court of the Philippines",
+      "Armed Forces of the Philippines",
+      "Philippine National Police"
+    ],
+    "cases": [
+      "Malacat vs Court of Appeals (December 12, 1997) -- 'moving very fast and looking at every approaching person' insufficient for warrantless arrest",
+      "People vs Mengote (June 22, 1992) -- 'darting eyes' + 'holding one's stomach' insufficient",
+      "Umil vs Ramos (July 9, 1990) -- continuing offense of rebellion; warrantless arrest valid even in hospital"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution -- Bill of Rights (warrantless arrest and search exceptions)"
+    ],
+    "events": [
+      "Comelec election period gun ban (2013 midterm elections)",
+      "Comelec authorization of military/police checkpoints"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Comelec's restriction of its checkpoint authority to a 'plain view search' — no opening of glove compartments or trunks, no body search without reasonable probable cause — is constitutionally appropriate: it correctly balances public safety necessity against the right against unreasonable searches.",
+      "rhetorical_move": "constitutional-compliance affirmation: endorsing the Comelec's checkpoint design as a proper application of the plain-view exception",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "All six exceptions to the warrant requirement for searches — and both exceptions for warrantless arrests — must be construed strictly in favor of citizens and against the police officers invoking them; suspicious appearance alone (darting eyes, moving fast) can never substitute for the legal elements of each exception.",
+      "rhetorical_move": "strict-construction mandate: using SC precedents (Malacat, Mengote) to establish that the exceptions are narrow, not broad",
+      "confidence": "asserted as settled doctrine"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Mengote and Malacat examples — 'darting eyes' plus 'holding one's stomach' and 'moving very fast and looking at every approaching person' — as the SC's most vivid illustrations that suspicious appearance alone, however alarming to a police officer, legally cannot justify a warrantless arrest without the specific overt-act and in-presence elements.",
+    "The Umil vs Ramos continuing-offense doctrine — a warrantless arrest valid even when the suspect is confined in a hospital, because rebellion is 'anchored on an ideological base' that never ends — presented as the counterintuitive outer boundary of the in flagrante delicto exception.",
+    "The gun-ban checkpoint as the practical trigger for a comprehensive constitutional primer — CJ uses a timely election-period policy to deliver an accessible public-education guide to arrest and search law, demonstrating his signature approach of using current events as entry points to constitutional doctrine."
+  ],
+  "target_audience": [
+    "General civic readership facing Comelec checkpoints during the 2013 gun ban",
+    "Law enforcement officers (military, police) implementing election checkpoints",
+    "Law students studying constitutional law on arrest and search exceptions",
+    "Lawyers handling search-and-seizure challenges and criminal defense",
+    "Civil liberties advocates monitoring checkpoint compliance during elections"
+  ],
+  "register_markers": [
+    "public-education explainer register (constitutional rights guide triggered by a timely election event)",
+    "six-exception taxonomy structure (numbered list of search exceptions)",
+    "case-example register (Malacat, Mengote — real facts as vivid doctrinal illustrations)",
+    "strict-construction mandate close ('all exceptions construed strictly in favor of the people')",
+    "continuing-offense counterintuitive aside (Umil: hospital arrest valid for rebellion)",
+    "constitutional-balance framing (public safety vs Bill of Rights)"
+  ],
+  "decision_framework_signals": [
+    "applies two-element in-flagrante test: overt act + in presence of arresting officer as threshold for warrantless arrest",
+    "uses personal-knowledge requirement as the decisive filter for hot pursuit (intelligence alone insufficient)",
+    "applies continuing-offense exception (Umil) as the outer boundary case for the in flagrante doctrine",
+    "uses strict-construction mandate as the meta-rule governing all six exceptions",
+    "treats plain-view restriction as the constitutionally appropriate design for Comelec checkpoints"
+  ],
+  "one_paragraph_summary": "Panganiban uses the Comelec's authorization of military/police checkpoints during the 2013 election gun ban as the entry point for a systematic constitutional guide to warrantless arrests and searches. He affirms the Comelec's restriction of its checkpoints to 'plain view search' -- visual inspection only, no opening of glove compartments or trunks, no body search without reasonable probable cause -- as constitutionally sound. He then surveys the three exceptions to the warrant requirement for arrests: in flagrante delicto (overt act + in presence of arresting officer; suspicious appearance alone -- 'darting eyes,' 'moving very fast' -- is insufficient per Mengote and Malacat); hot pursuit (prior committed offense + arresting officer's personal knowledge, not mere intelligence information); and the continuing-offense doctrine (Umil vs Ramos -- rebellion is 'anchored on an ideological base,' so a warrantless arrest is valid even when the suspect is hospitalized). For warrantless searches, he catalogues six exceptions: (1) incident to lawful arrest; (2) plain view; (3) vehicle searches (allowed more liberally for public safety); (4) customs searches; (5) consented searches; (6) stop and frisk. He closes with the governing meta-rule: the general rule is 'no warrant, no arrest, no search,' and all exceptions -- including Comelec checkpoints -- must be construed strictly in favor of the people.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

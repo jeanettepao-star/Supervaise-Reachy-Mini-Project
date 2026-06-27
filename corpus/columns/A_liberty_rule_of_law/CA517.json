@@ -1,0 +1,128 @@
+{
+  "id": "CA517",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 517,
+  "title": "On whom will Arroyo's fate rest?",
+  "date": "2011-11-26",
+  "link": "https://opinion.inquirer.net/18061/on-whom-will-arroyo%e2%80%99s-fate-rest",
+  "keywords": [
+    "GMA Arroyo travel ban",
+    "electoral sabotage",
+    "Justice De Lima watchlist",
+    "Supreme Court TRO travel",
+    "Pasay RTC Judge Mupas",
+    "Sandiganbayan vs RTC jurisdiction",
+    "DOJ Comelec joint panel",
+    "Marcos vs Manglapus right to travel"
+  ],
+  "primary_topics": [
+    "Legal battle over Arroyo's right to travel vs the government's accountability objective",
+    "Three legal challenges to the arrest warrant and RTC jurisdiction in the electoral sabotage case",
+    "The SC as the ultimate arbiter of Arroyo's fate -- and the threat of another constitutional crisis"
+  ],
+  "sub_topics": [
+    "Aquino administration's goal: accountability for electoral sabotage, plunder, and corruption",
+    "Fear: if Arroyo leaves, she will not return; cases will be stalled until arraignment",
+    "Justice Secretary Leila de Lima stopping Arroyo despite SC TRO -- 'nearly precipitating a constitutional crisis'",
+    "Electoral sabotage case: filed by Comelec in Pasay RTC; Judge Jesus Mupas issued arrest warrant",
+    "Capital offense = no bail; detention during trial",
+    "Arroyo's Challenge 1: DOJ-Comelec joint panel compromised Comelec's constitutional independence -- PI void",
+    "Government's counter: RA 9369 gives DOJ 'concurrent' authority with Comelec for election offense PI",
+    "Arroyo's Challenge 2: RTC lacks jurisdiction -- Sandiganbayan has exclusive jurisdiction over high officials",
+    "Government's counter: Omnibus Election Code gives RTC exclusive jurisdiction over election offenses",
+    "Arroyo's Challenge 3: Judge Mupas could not have determined 'probable cause' personally in just 4 hours",
+    "Government's counter: speed was necessary because Arroyo was about to fly; Mupas should be praised",
+    "Government also speeding up PI of other cases in OMB and DOJ as backup to prevent travel",
+    "Precedents: three issues should first go to RTC before SC",
+    "SC TRO implications: would Palace comply or 'do another Leila'?",
+    "Right to travel (Marcos v. Manglapus, Sept. 15, 1989) -- balanced against national security even without law",
+    "DOJ Circular 41 (ironically issued during GMA's own reign) authorizing de Lima's watch-list order",
+    "SC's might rests on its being right -- judgment by people and history; possible impeachment"
+  ],
+  "signature_phrases": [
+    "accountability",
+    "do another Leila and precipitate another crisis",
+    "the might of the Supreme Court rests on its being right",
+    "battery of lawyers",
+    "being right would be judged by our people and by history",
+    "Au contraire",
+    "speeding up the case",
+    "four hours"
+  ],
+  "entities": {
+    "people": [
+      "Former President Gloria Macapagal-Arroyo (GMA -- respondent)",
+      "Justice Secretary Leila de Lima (issued watch-list order; physically stopped GMA at airport)",
+      "President Benigno Aquino III (accountability objective)",
+      "Judge Jesus Mupas (Pasay RTC; issued arrest warrant)",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "Department of Justice (DOJ)",
+      "Regional Trial Court of Pasay",
+      "Sandiganbayan",
+      "Supreme Court of the Philippines",
+      "Office of the Ombudsman (OMB)"
+    ],
+    "cases": [
+      "Marcos v. Manglapus (September 15, 1989) -- right to travel balanced against national security"
+    ],
+    "laws_treaties": [
+      "Republic Act No. 9369 -- DOJ concurrent authority with Comelec for election offense PI",
+      "Omnibus Election Code -- RTC exclusive jurisdiction over election offenses",
+      "DOJ Circular 41 (issued during GMA's reign) -- authorizing watch-list orders",
+      "1987 Philippine Constitution -- right to travel (national security/public safety/public health exceptions)"
+    ],
+    "events": [
+      "De Lima physically stopping GMA at Manila airport despite SC TRO",
+      "Electoral sabotage case filed in Pasay RTC",
+      "SC oral argument scheduled for Tuesday (column's context)",
+      "Arroyo's SC petition filed November 8, 2011"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Supreme Court — not Malacañang — will ultimately rule on Arroyo's fate; the Palace can investigate, prosecute, cite precedents, and huff, but the SC can alter jurisprudence or create exceptions, and its might rests entirely on its being right — a judgment that will come from the people and from history.",
+      "rhetorical_move": "SC-supremacy reminder: institutional reality check distinguishing executive enforcement from judicial determination",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Arroyo case is uniquely politically charged: De Lima's defiance of the SC TRO nearly precipitated a constitutional crisis, and if the SC issues another TRO allowing Arroyo to fly, the question is whether the Palace will comply or 'do another Leila' — testing the rule of law at its most fundamental institutional level.",
+      "rhetorical_move": "constitutional-crisis risk assessment: the practical enforceability of SC rulings as the deeper institutional question",
+      "confidence": "asserted as a genuine open question"
+    }
+  ],
+  "notable_anecdotes": [
+    "The DOJ Circular 41 irony: the very watch-list order authority that De Lima used to block GMA was a circular issued during GMA's own administration — deployed as the ultimate irony of executive accountability, where a former president's own bureaucratic instrument is used to restrain her.",
+    "Judge Mupas determining probable cause in just 4 hours — the government's defense (speed was necessary because Arroyo was about to fly) vs the defense's challenge (inconceivable that voluminous records could be reviewed in 4 hours) — CJ presents both sides without endorsing either, modeling his 'each case is unique' principle.",
+    "The 'do another Leila' formulation — using De Lima's defiance of the SC TRO as the institutional precedent that the Palace might repeat — reducing a complex constitutional crisis scenario to a vivid verb phrase that encapsulates the rule-of-law stakes of the entire dispute."
+  ],
+  "target_audience": [
+    "SC justices deliberating on the Arroyo travel rights and arrest validity",
+    "Political analysts assessing the institutional balance of power between the Palace and the SC",
+    "Legal practitioners advising on the three jurisdictional/constitutional challenges",
+    "General civic readership following the high-stakes GMA accountability drama",
+    "Constitutional law students studying the right to travel and Marcos v. Manglapus"
+  ],
+  "register_markers": [
+    "three-challenges taxonomy register (DOJ-Comelec joint PI + RTC jurisdiction + Judge Mupas probable cause)",
+    "constitutional-crisis risk register ('do another Leila')",
+    "SC-supremacy reminder register ('might rests on being right')",
+    "irony-deployment register (DOJ Circular 41 issued during GMA's own reign)",
+    "balanced-presentation register (government + Arroyo counters on each issue, without endorsing either)",
+    "'Abangan!' closing-anticipation register (oral argument outcome to watch)"
+  ],
+  "decision_framework_signals": [
+    "applies three-challenges analytical taxonomy: jurisdictional + independence + personal-determination issues",
+    "uses SC-supremacy principle as the meta-framework: Palace enforces but SC determines",
+    "applies constitutional-crisis risk assessment: De Lima TRO defiance as the precedent for future non-compliance",
+    "uses Marcos v. Manglapus as the doctrinal baseline for right-to-travel balancing",
+    "treats 'the court's might rests on being right' as the institutional accountability standard for the SC itself"
+  ],
+  "one_paragraph_summary": "Panganiban maps the legal battle over former President Arroyo's right to travel against the Aquino administration's accountability goal. Justice Secretary De Lima issued a watch-list order (ironic note: under DOJ Circular 41 issued during GMA's own administration) and physically blocked Arroyo at the airport despite the SC's TRO, nearly precipitating a constitutional crisis. The Comelec's electoral sabotage case in Pasay RTC (Judge Mupas, arrest warrant issued) is now challenged on three fronts: (1) the DOJ-Comelec joint preliminary investigation compromised Comelec's constitutional independence; the government counters that RA 9369 gives DOJ concurrent jurisdiction; (2) the RTC lacks jurisdiction over a high official, which belongs to the Sandiganbayan; the government counters that the Omnibus Election Code gives the RTC exclusive jurisdiction over election offenses; (3) Judge Mupas could not have personally determined probable cause in only 4 hours; the government counters that speed was essential since Arroyo was about to fly. CJ notes the government is also speeding up other cases as backup travel bars. He frames the ultimate question as: will the SC rule correctly, and if it issues a TRO allowing Arroyo to fly, will the Palace comply or 'do another Leila'? He closes with the institutional reminder that 'the might of the Supreme Court rests on its being right -- a judgment that will come from our people and from history.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

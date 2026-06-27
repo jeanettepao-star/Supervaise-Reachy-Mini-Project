@@ -1,0 +1,143 @@
+{
+  "id": "CA048",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 48,
+  "title": "Labor laws and the gig economy",
+  "date": "2025-05-05",
+  "link": "https://opinion.inquirer.net/182954/labor-laws-and-the-gig-economy",
+  "keywords": [
+    "double jeopardy waiver",
+    "People v. XXX262846",
+    "People v. Balunsat abandoned",
+    "appeal de novo",
+    "unjust vexation attempted rape"
+  ],
+  "primary_topics": [
+    "Double jeopardy doctrine and appellate review",
+    "Acquittal-appeal asymmetry between prosecution and accused",
+    "Equity and access-to-justice consequences"
+  ],
+  "sub_topics": [
+    "Cross-reference to People v. Alcantara (De Lima)",
+    "People v. XXX262846 (February 18, 2025, per J. Kho Jr., en banc, 14-0-1)",
+    "Conviction escalation from unjust vexation to attempted rape",
+    "Revised Penal Code rape provisions",
+    "Identity withholding under RA 7610",
+    "RTC + CA holding of unjust vexation only",
+    "SC reversal -- appeal waives double jeopardy",
+    "Reopening case de novo with full record review",
+    "Asymmetry: state cannot ask for harsher penalty on its own appeal",
+    "Exception: due-process deprivation or grave abuse of discretion",
+    "People v. Balunsat (July 28, 2010, per CJ Leonardo-De Castro) expressly abandoned",
+    "Article III, Section 21 double jeopardy clause",
+    "Old inflexible rule from author's law student days",
+    "Equity rationale: prevents elite from gaming appeals to escape conviction",
+    "Docket-clogging and speedy-disposition consequences"
+  ],
+  "signature_phrases": [
+    "Double jeopardy waived if accused appeals",
+    "no person shall be twice put in jeopardy of punishment for the same offense",
+    "reopen the case de novo",
+    "weaponizing its might to harass and wear down an accused",
+    "jump bail later after exhausting their multiple appeals",
+    "make a mockery of justice",
+    "engender fear among the elite from mocking the justice system",
+    "levels the playing field for the offended parties",
+    "warning to unscrupulous prosecutors... at the bidding of their political patrons"
+  ],
+  "entities": {
+    "people": [
+      "Justice Antonio T. Kho Jr. (ponente, People v. XXX262846)",
+      "Former CJ Teresita J. Leonardo-De Castro (ponente, People v. Balunsat)",
+      "Former Senator, congresswoman-elect Leila de Lima (cross-reference)",
+      "Anonymous accused XXX262846 (identity withheld)",
+      "Anonymous victim AAA262846 (identity withheld)",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (en banc)",
+      "Court of Appeals (CA)",
+      "Regional Trial Court of Mandaluyong City",
+      "Supreme Court First Division (historic Balunsat panel)"
+    ],
+    "cases": [
+      "People v. XXX262846 (February 18, 2025, per J. Kho Jr., en banc, 14-0-1)",
+      "People v. Balunsat (July 28, 2010, per J. Leonardo-De Castro, First Division) -- expressly abandoned",
+      "People v. Alcantara / De Lima case (cross-reference to last week's column)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution, Article III, Section 21 (double jeopardy)",
+      "Revised Penal Code (rape provisions)",
+      "Republic Act No. 7610 (identity protection in cases involving minors and abuse victims)"
+    ],
+    "events": [
+      "Conviction escalation from unjust vexation to attempted rape on appeal",
+      "Imposition of up to 12-year imprisonment plus damages",
+      "SC's express reversal of People v. Balunsat"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "An appeal by the accused constitutes a waiver of the defense of double jeopardy and authorizes the upper courts to reopen the case de novo, examine all the records, modify the judgment, and increase the penalty when warranted.",
+      "rhetorical_move": "doctrinal restatement endorsed in author's voice",
+      "confidence": "high"
+    },
+    {
+      "claim": "When the prosecution challenges an acquittal (as in the De Lima case), it cannot ask for a harsher penalty than that imposed below, and the reviewing court cannot grant one -- unless the state proves deprivation of due process or grave abuse of discretion.",
+      "rhetorical_move": "asymmetry contrast keyed to the prior week's column",
+      "confidence": "high"
+    },
+    {
+      "claim": "People v. XXX262846 correctly reversed People v. Balunsat (2010), which had held that double jeopardy bars review even when the accused is the appellant.",
+      "rhetorical_move": "doctrinal-reversal endorsement",
+      "confidence": "high"
+    },
+    {
+      "claim": "Returning to the old inflexible rule prevents accused parties from using appeals to gain time, jump bail, harass victims, and clog dockets -- and warns unscrupulous prosecutors against political-patron-driven persecution.",
+      "rhetorical_move": "equity-and-policy justification",
+      "confidence": "high"
+    },
+    {
+      "claim": "The reversal will engender fear among the elite from mocking the justice system and level the playing field for marginalized offended parties.",
+      "rhetorical_move": "closing class-justice framing",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The factual narrative: the accused 'tried to mount the victim with his genitals exposed' but was stopped by the victim's blow to his stomach -- and the lower-court reasoning that he 'stopped himself and left the room before completing the act' supported only an unjust vexation conviction.",
+    "Conviction escalation on the accused's appeal: from unjust vexation to attempted rape, with maximum 12-year imprisonment plus damages.",
+    "Identity protection under RA 7610 for both XXX262846 (accused) and AAA262846 (victim) and her relatives.",
+    "Author's law-student-era recollection that this was 'the inflexible rule' -- making People v. Balunsat (2010) the anomaly that was just corrected.",
+    "Cross-reference to last week's column on the De Lima/People v. Alcantara case as the structural counterpoint."
+  ],
+  "target_audience": [
+    "Criminal defense and prosecution lawyers reweighing appellate strategy",
+    "Members of the bench applying the new doctrine",
+    "Law students and bar reviewees on double jeopardy",
+    "Victim-rights advocates",
+    "Civic readers tracking SC doctrinal reversals",
+    "Reform-minded court watchers"
+  ],
+  "register_markers": [
+    "Structural contrast opener (last week → this week)",
+    "Case-by-case citation with full vote count and ponente attribution",
+    "Anonymized-identity notation as required by statute",
+    "Direct quotation of Article III, Section 21",
+    "Equity-and-policy section with explicit class framing",
+    "Author's autobiographical doctrinal recollection",
+    "Strong editorial endorsement language ('correctly in my humble opinion', 'I am glad')"
+  ],
+  "decision_framework_signals": [
+    "Frame double jeopardy waiver as triggered by the act of appeal itself -- accept the appellate cost-benefit before filing",
+    "Distinguish appeals by the accused (full de novo review possible) from appeals by the state (acquittal generally final absent due-process or GAD showing)",
+    "Watch for express reversals of recent doctrine (Balunsat → XXX262846) as their own headline events",
+    "Apply equity lens: a procedural rule that systematically benefits powerful or wealthy accused over marginalized victims is suspect",
+    "Use the double jeopardy clause to constrain prosecutorial weaponization but not to shield accused-initiated appellate gamesmanship",
+    "Anticipate elite-deterrent and victim-empowerment consequences as part of doctrinal evaluation"
+  ],
+  "one_paragraph_summary": "Following up his prior column on People v. Alcantara (the De Lima case), Panganiban explains the asymmetric appellate consequence in People v. XXX262846 (February 18, 2025, per J. Antonio T. Kho Jr., en banc, 14-0-1), where the accused -- convicted by the RTC and CA only of unjust vexation for trying to mount the victim with his genitals exposed before being stopped by her blow to his stomach -- saw his own appeal upgrade his conviction to attempted rape with a maximum 12-year sentence plus damages (identities withheld under RA 7610). The Supreme Court held, correctly in the author's view, that an appeal by the accused waives the constitutional defense of double jeopardy under Article III, Section 21 and authorizes the upper courts to reopen the case de novo, examine all records, modify the judgment, and increase the penalty when warranted. In contrast, when it is the prosecution that challenges an acquittal -- as in De Lima's case -- it cannot ask, and the reviewing court cannot grant, a harsher penalty unless the state proves deprivation of due process or grave abuse of discretion. The decision expressly abandons and reverses People v. Balunsat (July 28, 2010, per J. later CJ Teresita J. Leonardo-De Castro, First Division), which had held that even an accused-initiated appeal could not be reviewed without violating double jeopardy. Panganiban welcomes the return to the 'inflexible rule' of his law-student days, arguing it prevents elite accused from using multiple appeals to gain time, jump bail, harass victims and witnesses, and clog court dockets -- and that it serves as a warning to unscrupulous prosecutors who pursue innocents at the bidding of political patrons. The reversal, he closes, engenders deterrent fear among the elite and levels the playing field for the offended parties, who can now continue their fight without being outlasted by powerful or wealthy adversaries gaming the appellate system.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

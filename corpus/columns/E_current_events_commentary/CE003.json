@@ -1,30 +1,13 @@
 {
   "id": "CE003",
+  "format": "C",
   "type": "column",
   "theme": "E",
   "theme_label": "Signature Current Events Commentary",
   "number": 3,
   "title": "Relentless defender of PH sovereignty",
   "date": "2026-03-30",
-  "year": 2026,
-  "source_url": "https://opinion.inquirer.net/190728/relentless-defender-of-ph-sovereignty",
-  "routing": {
-    "primary_intent": [
-      "opinions"
-    ],
-    "secondary_intent": [],
-    "audience_match": [],
-    "complexity": "medium",
-    "emotional_register": []
-  },
-  "topic_paths": {
-    "primary": [
-      "international_law_disputes"
-    ],
-    "secondary": [
-      "rule_of_law"
-    ]
-  },
+  "link": "https://opinion.inquirer.net/190728/relentless-defender-of-ph-sovereignty",
   "keywords": [
     "sovereignty",
     "West Philippine Sea",
@@ -33,123 +16,217 @@
     "rule of law"
   ],
   "primary_topics": [
-    "Antonio T. Carpio's career as defender of Philippine sovereignty",
-    "West Philippine Sea legal advocacy and 'lawfare'",
-    "historical and treaty-based documentation of Philippine territorial claims"
+    "Tribute-column for retired Senior Associate Justice (SAJ) Antonio T. Carpio -- 'one of the most formidable defenders of Philippine sovereignty'",
+    "Recent occasion -- turnover ceremony of historic map '1875 Carta General del Archipiélago Filipino' to the National Library -- SAJ Tony 'calmly but firmly' urged government to file new arbitration case against China over Scarborough Shoal fishermen-rights denial",
+    "SAJ Carpio's 18-year SC service with distinction",
+    "Almost-decade longest-serving SAJ status -- SAJ as distinct law-granted rank for sitting Court member serving longest among current colleagues",
+    "'Chief Justice we never had' epithet -- stepping in as acting CJ when CJ was absent/incapacitated with 'quiet authority and unassailable integrity'",
+    "Post-retirement choice -- devoting full weight of remaining years to defense of PH waters -- 'far more demanding' than typical-graceful-fade-into-private-life",
+    "Carpio post-retirement framework -- vocal independent figure emphasizing rule of law + UNCLOS + multilateral approaches + PH case as benefiting international community",
+    "Post-retirement work characterization -- nonpartisan + advocacy-driven (not commercial or judicial)",
+    "March 23 Association of Retired Justices of the SC meeting -- CJP as president paid tribute",
+    "10-wealthiest-Filipinos-conglomerate-independent-director offer anecdote -- Carpio politely declined: 'I want to devote my full time, energy, and resources to defending Philippine sovereignty in the West Philippine Sea'",
+    "Carpio as most-articulate-and-relentless-champion of 2016 Arbitral Award -- landmark victory affirming PH sovereignty/sovereign-rights over West Philippine Sea",
+    "Carpio motivation -- international-rule-of-law as shield of smaller nations against superpowers + true-patriot framing",
+    "Why-this-matters-to-ordinary-Filipinos -- fishing rights are not abstract; daily bread of thousands of fishermen; blockages are assault on right to feed families",
+    "Liberty (freedom to navigate territorial waters without fear/harassment) + Overflight (right of aircraft to fly over indisputably-ours waters) + Prosperity (sovereign right to explore/develop oil/gas/resources within exclusive economic zone including promising Reed Bank)",
+    "Reed Bank promise remaining untapped due to outside-forces (Carpio repeatedly bemoaned)",
+    "Foundations of national dignity and economic survival framing",
+    "Carpio as beacon of principled resistance + true-friendship-among-nations-built-on-mutual-respect-for-law thesis",
+    "Government has not yet acted on Carpio's new-case recommendation -- but history will record 'when others wavered, one man -- retired from active government service -- never stopped fighting'",
+    "Some-may-oppose-his-assertions democracy framing + CJP-not-always-agreed-with-Carpio (clashed on death penalty when both incumbents -- Carpio for, CJP fearlessly opposed as violative of Constitution and God's commands)",
+    "Strength-not-through-force-but-through-calm-and-principled-exercise-of-due-process framing",
+    "Closing -- 'SAJ Tony had left the bench, but he has never left the battlefield for the country' + relentless-defender-modern-day-hero designation"
   ],
   "sub_topics": [
-    "Turnover of historic '1875 Carta General del ArchipiÃ©lago Filipino' to the National Library",
-    "Carpio's call for a new arbitration case against China over Scarborough Shoal fishermen's rights",
-    "Carpio's 18 years on the Supreme Court",
-    "almost-decade as longest-serving Senior Associate Justice (SAJ)",
-    "SAJ as a distinct statutory rank for the longest-sitting member",
-    "the 2016 Permanent Court of Arbitration award against China",
-    "'lawfare' as use of legal mechanisms (arbitration) instead of military confrontation",
-    "UNCLOS framework",
-    "Treaty of Paris (1898), Treaty of Washington (1900) as historical/legal bases for Philippine sovereignty",
-    "the 1875 Carta General as the most comprehensive Spanish-colonial-era Philippine territorial map"
+    "1875 Carta General del Archipiélago Filipino map -- Spanish-colonial-era cartographic evidence of PH archipelago",
+    "Scarborough Shoal fishermen-rights denial by China",
+    "Senior Associate Justice (SAJ) distinct rank -- sitting Court member serving longest among current colleagues",
+    "Association of Retired Justices of the SC -- CJP as president",
+    "Reed Bank promising untapped resource within PH EEZ",
+    "United Nations Convention on the Law of the Sea (UNCLOS) -- Carpio's emphasized framework",
+    "2016 Arbitral Award (PCA Hague tribunal) -- landmark PH-China South China Sea ruling",
+    "Carpio-CJP disagreement on death penalty when both incumbents",
+    "Liberty + Overflight + Prosperity tripartite-fishermen-rights framework",
+    "National Library as recipient of 1875 Carta General turnover"
   ],
   "signature_phrases": [
-    {
-      "phrase": "FOR THOSE WHO ADMIRE SAJ TONY'S CAREER",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "clarion call",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "calmly but firmly",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "relentless defender",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "Parenthetically (recurring CJ device)",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "principled and sustained advocacy",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "lawfare",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "rules-based approach",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "lifelong defender of liberty and prosperity under the rule of law (recurring CJ formulation)",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    }
+    "A week ago, the nation was reminded once more why retired Senior Associate Justice (SAJ) Antonio T. Carpio remains one of the most formidable defenders of Philippine sovereignty",
+    "1875 Carta General del Archipiélago Filipino",
+    "SAJ Tony (as he is fondly called by his Supreme Court colleagues) calmly but firmly urged the government to file a new arbitration case against China -- this time over the blatant denial of our fishermen's rights at Scarborough Shoal",
+    "FOR THOSE WHO ADMIRE SAJ TONY'S CAREER, this latest clarion call comes as no surprise",
+    "the appellation 'SAJ' is a distinct rank granted by law to the sitting Court member serving the longest",
+    "Chief Justice we never had",
+    "Time and time again, when the Chief Justice was absent or incapacitated, SAJ Tony stepped in as acting chief, guiding the Court with quiet authority and unassailable integrity",
+    "Yet it is what he did after retirement that truly elevates him to the heroic rank",
+    "Most justices, upon reaching mandatory retirement age, fade gracefully into private life. Not SAJ Tony",
+    "He has remained a vocal, independent figure, emphasizing the rule of law, the United Nations Convention on the Law of the Sea, and multilateral approaches to the maritime dispute",
+    "His postretirement work is nonpartisan and advocacy-driven rather than commercial or judicial",
+    "Thank you, but sorry I cannot accept because I want to devote my full time, energy, and resources to defending Philippine sovereignty in the West Philippine Sea",
+    "He could hardly believe that his offer, which included substantial per diems and bonuses, would be declined",
+    "INDEED, HE IS THE MOST ARTICULATE AND RELENTLESS CHAMPION of the 2016 Arbitral Award",
+    "He does not do it for power or popularity",
+    "the international rule of law is the only shield of smaller nations against the world's superpowers",
+    "fishing rights are not abstract legal concepts. They are the daily bread of thousands of our fishermen",
+    "It is about liberty -- the freedom to navigate our territorial waters without fear and harassment",
+    "It is about overflight -- the right of our aircraft to fly over waters that are indisputably ours",
+    "And it is about prosperity -- the sovereign right to explore and develop the oil, gas, and other resources within our exclusive economic zone, including the promising Reed Bank",
+    "THESE ARE THE FOUNDATIONS OF NATIONAL DIGNITY and economic survival",
+    "In an era when some would rather take the opposite view, SAJ Tony stands as a beacon of principled resistance",
+    "true friendship among nations is built on mutual respect for the law, not on the surrender of sovereign rights",
+    "history will record that when others wavered, one man -- retired from active government service -- never stopped fighting",
+    "In a similar way, though I praise him for his relentlessness and patriotism, I did not always agree with him",
+    "we clashed on his advocacy for the death penalty, while I fearlessly opposed it as violative of the Constitution and God's commands",
+    "He shows strength not through force, but through the calm and principled exercise of due process",
+    "his wisdom and unwavering research are more than enough to prevail in any international tribunal",
+    "SAJ Tony had left the bench, but he has never left the battlefield for the country",
+    "a relentless defender of Philippine sovereignty -- a modern-day hero"
   ],
   "entities": {
-    "people": [],
-    "institutions": [],
-    "cases": [],
-    "laws_treaties": [],
-    "events": []
+    "people": [
+      "Artemio V. Panganiban (CJP -- president of Association of Retired Justices of the SC)",
+      "Senior Associate Justice (SAJ) Antonio T. Carpio (retired, 'SAJ Tony') -- column subject",
+      "Unnamed 10-wealthiest-Filipinos conglomerate-chair (independent-director offerer)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (Carpio's 18-year bench)",
+      "National Library of the Philippines (1875 Carta General recipient)",
+      "Association of Retired Justices of the Supreme Court (CJP-presided)",
+      "United Nations (UNCLOS framework)",
+      "Permanent Court of Arbitration / 2016 Hague arbitral tribunal (implicit)",
+      "China (named opposing-state)",
+      "Government of the Philippines (Carpio's new-case-recommendation addressee)"
+    ],
+    "cases": [
+      "2016 Arbitral Award (PH v. China, PCA Hague tribunal) -- landmark PH sovereignty/sovereign-rights victory over West Philippine Sea",
+      "Potential new arbitration case over Scarborough Shoal fishermen-rights denial (Carpio recommendation)"
+    ],
+    "laws_treaties": [
+      "United Nations Convention on the Law of the Sea (UNCLOS)",
+      "Philippine Constitution (death-penalty-prohibition basis CJP cited)",
+      "International rule of law (Carpio's foundational framework)"
+    ],
+    "events": [
+      "1875 Carta General del Archipiélago Filipino historical map creation (Spanish colonial era)",
+      "Recent turnover ceremony of 1875 Carta General to National Library (week before column)",
+      "Carpio 18-year Supreme Court service",
+      "Carpio almost-decade longest-serving-SAJ tenure",
+      "Multiple Carpio-as-acting-CJ-during-CJ-absence instances",
+      "Carpio retirement (mandatory age) + post-retirement sovereignty-defense pivot",
+      "10-wealthiest-Filipinos conglomerate independent-director offer + Carpio decline (post-retirement)",
+      "March 23 2026 Association of Retired Justices of the SC meeting + CJP tribute",
+      "2016 Arbitral Award promulgation (PCA Hague)",
+      "Carpio-CJP death-penalty clash when both incumbents (historical)"
+    ]
   },
-  "stances": [],
-  "notable_anecdotes": [
+  "stances": [
     {
-      "summary": "Turnover ceremony of the '1875 Carta General del ArchipiÃ©lago Filipino' to the National Library, where Carpio used the occasion to urge a new arbitration case over Scarborough Shoal",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
+      "claim": "A week ago, the nation was reminded once more why retired SAJ Antonio T. Carpio remains one of the most formidable defenders of Philippine sovereignty. At the turnover ceremony of the historic map '1875 Carta General del Archipiélago Filipino' to the National Library, SAJ Tony calmly but firmly urged the government to file a new arbitration case against China -- this time over the blatant denial of PH fishermen's rights at Scarborough Shoal.",
+      "rhetorical_move": "tribute-opening + Carta-General-turnover + Scarborough-Shoal-new-case clarion-call",
+      "confidence": "asserted as recent-occasion anchor"
     },
     {
-      "summary": "CJ explains the SAJ honorific: it is a 'distinct rank granted by law to the sitting Court member serving the longest, compared to his/her current colleagues' â€” Carpio held it for almost a decade",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
+      "claim": "For those who admire SAJ Tony's career, this latest clarion call comes as no surprise. He served with distinction on the SC for 18 years. For almost a decade, he was the Court's longest-serving SAJ -- by the way, the appellation 'SAJ' is a distinct rank granted by law to the sitting Court member serving the longest, compared to current colleagues. So respected was he that he was often called the 'Chief Justice we never had.' Time and time again, when the CJ was absent or incapacitated, SAJ Tony stepped in as acting chief, guiding the Court with 'quiet authority and unassailable integrity.'",
+      "rhetorical_move": "career-credential enumeration + SAJ-rank-explanation + 'Chief Justice we never had' epithet",
+      "confidence": "asserted as biographical-distinction grounding"
     },
     {
-      "summary": "The 2016 arbitral award won by the Philippines against China at the Permanent Court of Arbitration as Carpio's signature lawfare triumph",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
+      "claim": "Yet what he did after retirement truly elevates him to the heroic rank. Most justices, upon reaching mandatory retirement age, fade gracefully into private life. Not SAJ Tony. He made a different and far more demanding choice -- to dedicate the full weight of his remaining years to the defense of our waters. He has remained a vocal, independent figure, emphasizing the rule of law, UNCLOS, and multilateral approaches to the maritime dispute, often positioning the PH case as benefiting the international community. His postretirement work is nonpartisan and advocacy-driven rather than commercial or judicial.",
+      "rhetorical_move": "post-retirement-elevates-to-heroic-rank + most-justices-fade-not-SAJ-Tony contrast + nonpartisan-advocacy-driven framing",
+      "confidence": "asserted as character-elevation thesis"
+    },
+    {
+      "claim": "During the March 23 Association of Retired Justices of the SC meeting, CJP -- as president -- paid tribute. A few years ago, during a reception for a retiring colleague, one of the 10 wealthiest Filipinos approached Carpio, and in CJP's presence, offered him a seat as independent director in his conglomerate. He politely declined: 'Thank you, but sorry I cannot accept because I want to devote my full time, energy, and resources to defending Philippine sovereignty in the West Philippine Sea.' The answer stunned the offeror -- he could hardly believe that his offer, which included substantial per diems and bonuses, would be declined.",
+      "rhetorical_move": "CJP-personally-witnessed + 10-wealthiest-Filipino conglomerate-independent-director-offer + Carpio-polite-decline + stunned-offeror anecdote",
+      "confidence": "asserted with personal-witness anchor"
+    },
+    {
+      "claim": "Indeed, Carpio is the most articulate and relentless champion of the 2016 Arbitral Award -- the landmark victory affirming PH sovereignty and sovereign rights over the West Philippine Sea. He does not do it for power or popularity. He does it because he believes, as every true patriot must, that the international rule of law is the only shield of smaller nations against the world's superpowers.",
+      "rhetorical_move": "most-articulate-relentless-champion + not-power-not-popularity + true-patriot + rule-of-law-as-shield framing",
+      "confidence": "asserted as motivation-attribution"
+    },
+    {
+      "claim": "Why does this matter to ordinary Filipinos? Because fishing rights are not abstract legal concepts. They are the daily bread of thousands of fishermen whose livelihoods depend on rich waters. When they are blocked, it is not merely a diplomatic tiff -- it is an assault on their right to feed their families. It is about liberty -- freedom to navigate territorial waters without fear and harassment. It is about overflight -- right of PH aircraft to fly over waters indisputably ours. And it is about prosperity -- sovereign right to explore and develop oil, gas, and other resources within the exclusive economic zone, including the promising Reed Bank, which SAJ Tony has repeatedly bemoaned has remained untapped due to outside forces. These are the foundations of national dignity and economic survival.",
+      "rhetorical_move": "ordinary-Filipino-fishing-rights-as-daily-bread + liberty + overflight + prosperity (Reed Bank-untapped) tripartite framework",
+      "confidence": "asserted as stakes-articulation"
+    },
+    {
+      "claim": "In an era when some would rather take the opposite view, SAJ Tony stands as a beacon of principled resistance. He reminds us that true friendship among nations is built on mutual respect for the law, not on the surrender of sovereign rights. The government may not have acted yet on his recommendation for a new case. But history will record that when others wavered, one man -- retired from active government service -- never stopped fighting with the same intellectual rigor and patriotic fire that defined his judicial career.",
+      "rhetorical_move": "beacon-of-principled-resistance + true-friendship-mutual-respect-for-law-not-surrender + history-will-record-one-man-never-stopped-fighting framing",
+      "confidence": "asserted as historical-judgment-projection"
+    },
+    {
+      "claim": "Some may oppose his assertions -- that is their right in our democracy. In a similar way, though CJP praises him for his relentlessness and patriotism, CJP did not always agree with him. When both were incumbents, they clashed on Carpio's advocacy for the death penalty, while CJP fearlessly opposed it as violative of the Constitution and God's commands. Carpio shows strength not through force, but through the calm and principled exercise of due process, grounded in respect for the rule of law and international covenants. Critics may disagree, but CJP thinks Carpio's wisdom and unwavering research are more than enough to prevail in any international tribunal. SAJ Tony had left the bench, but he has never left the battlefield for the country. For that, our people owe him a debt of gratitude. He remains, in CJP's humble opinion, a relentless defender of Philippine sovereignty -- a modern-day hero.",
+      "rhetorical_move": "some-may-oppose-democracy + CJP-not-always-agreed (death-penalty-clash) + strength-not-through-force-but-calm-due-process + left-the-bench-never-left-the-battlefield + modern-day-hero closing",
+      "confidence": "asserted as balanced-tribute closing"
     }
   ],
-  "decision_framework_signals": [],
-  "target_audience": [],
-  "register_markers": [],
-  "one_paragraph_summary": ""
+  "notable_anecdotes": [
+    "The 1875 Carta General del Archipiélago Filipino turnover to the National Library -- captures the recent occasion through a Spanish-colonial-era cartographic-evidence anchoring sovereignty claims, with Carpio's calm-but-firm new-arbitration-case-recommendation as occasion-punchline.",
+    "The 'SAJ' rank explanation parenthetical -- CJP educating readers that 'SAJ' is a distinct law-granted rank for the sitting Court member serving longest among current colleagues -- a useful procedural-doctrinal aside that elevates Carpio's almost-decade-longest-serving tenure significance.",
+    "The 'Chief Justice we never had' epithet -- among the most famous Carpio-related judicial-folklore designations, capturing the bitter-sweet acting-CJ-many-times-but-never-formal-CJ career arc.",
+    "The 10-wealthiest-Filipinos independent-director-offer-with-substantial-per-diems-and-bonuses + Carpio polite decline -- among CJP's most concrete principle-over-comfort anecdotes in his post-2024 corpus, with the CJP-personally-witnessed framing adding eyewitness authority.",
+    "Carpio's 'Thank you, but sorry I cannot accept because I want to devote my full time, energy, and resources to defending Philippine sovereignty in the West Philippine Sea' verbatim refusal -- captures a sovereignty-defender's principled-decline of substantial-financial-benefits captured for its civics-textbook quotability.",
+    "The 'fishing rights are not abstract legal concepts. They are the daily bread of thousands of our fishermen' framing -- among CJP's most concrete fisherman-livelihood-grounding of WPS-sovereignty case.",
+    "The liberty + overflight + prosperity tripartite -- among CJP's tightest catalogs of WPS-sovereignty stakes for ordinary Filipinos.",
+    "The Reed Bank 'promising ... untapped ... due to outside forces' framing -- captures Carpio's specific economic-resource grievance beyond fishing-rights, adding the gas-and-oil dimension to the sovereignty-defense rationale.",
+    "The CJP-Carpio death-penalty-clash disclosure -- among CJP's most explicit disclosures of an in-Court doctrinal disagreement with a colleague, used here as evidence that CJP's tribute is not uncritical hero-worship but considered balanced-judgment.",
+    "The 'fearlessly opposed it as violative of the Constitution and God's commands' framing of CJP's death-penalty-opposition -- among CJP's most explicitly faith-grounded constitutional positions in his column corpus.",
+    "The 'left the bench, but he has never left the battlefield for the country' formulation -- among CJP's tightest bench-to-battlefield post-retirement-elevation captures.",
+    "The 'modern-day hero' closing-designation for Carpio -- CJP's strongest column-corpus elevation of a fellow retired-justice colleague.",
+    "The 'true friendship among nations is built on mutual respect for the law, not on the surrender of sovereign rights' formulation -- among CJP's tightest definitions of inter-state-friendship-on-PH-terms, distinguishing principled bilateralism from sovereignty-surrender."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "SAJ Antonio T. Carpio (tribute-honoree)",
+    "Association of Retired Justices of the Supreme Court (CJP-presided body)",
+    "Government of the Philippines (Carpio-new-case-recommendation addressee)",
+    "Department of Foreign Affairs (sovereignty-defense addressees)",
+    "Filipino fishermen (named direct-stakeholders)",
+    "WPS-sovereignty advocates and scholars",
+    "International tribunals (UNCLOS, PCA, etc. -- implied future-audience for new case)",
+    "Conglomerate-board recruiters (10-wealthiest-Filipino-context message)",
+    "Filipino general public ('our people owe him a debt of gratitude' direct addressees)",
+    "Death-penalty policy stakeholders (background mention)"
+  ],
+  "register_markers": [
+    "A week ago, the nation was reminded once more recent-occasion opening register",
+    "calmly but firmly urged the government calm-firmness-register",
+    "FOR THOSE WHO ADMIRE SAJ TONY'S CAREER all-caps section opener",
+    "By the way, the appellation 'SAJ' is a distinct rank parenthetical-explanation register",
+    "Chief Justice we never had epithet-register",
+    "Time and time again ... SAJ Tony stepped in as acting chief temporal-frequency register",
+    "Yet it is what he did after retirement that truly elevates him to the heroic rank post-retirement-elevation register",
+    "Most justices, upon reaching mandatory retirement age, fade gracefully into private life. Not SAJ Tony contrast-register",
+    "His postretirement work is nonpartisan and advocacy-driven rather than commercial or judicial categorical-distinction register",
+    "Thank you, but sorry I cannot accept verbatim-Carpio-quotation register",
+    "He could hardly believe stunned-offeror register",
+    "INDEED, HE IS THE MOST ARTICULATE AND RELENTLESS CHAMPION all-caps emphasis-thesis register",
+    "He does not do it for power or popularity not-power-not-popularity register",
+    "Why does this matter to ordinary Filipinos? rhetorical-question pivot register",
+    "fishing rights are not abstract legal concepts daily-bread register",
+    "It is about liberty ... It is about overflight ... And it is about prosperity tripartite-anaphora register",
+    "THESE ARE THE FOUNDATIONS OF NATIONAL DIGNITY all-caps thesis register",
+    "Some may oppose his assertions democratic-pluralism register",
+    "though I praise him for his relentlessness and patriotism, I did not always agree with him praise-with-disagreement-disclosure register",
+    "we clashed on his advocacy for the death penalty death-penalty-clash disclosure register",
+    "I fearlessly opposed it as violative of the Constitution and God's commands fearlessly-opposed faith-grounded constitutional register",
+    "SAJ Tony had left the bench, but he has never left the battlefield for the country bench-to-battlefield register",
+    "a modern-day hero closing-designation register"
+  ],
+  "decision_framework_signals": [
+    "uses recent-occasion (1875 Carta General turnover to National Library) + Scarborough-Shoal-new-case-recommendation tribute-anchoring opening",
+    "applies career-credential enumeration (18-year SC bench + almost-decade longest-serving SAJ + 'Chief Justice we never had') + SAJ-rank explanation parenthetical",
+    "deploys post-retirement-elevates-to-heroic-rank + most-justices-fade-not-SAJ-Tony contrast + nonpartisan-advocacy-driven characterization",
+    "uses March-23 Association of Retired Justices meeting + CJP-personally-witnessed 10-wealthiest-Filipino conglomerate-independent-director-offer + Carpio-polite-decline anecdote",
+    "applies most-articulate-relentless-champion-of-2016-Arbitral-Award + rule-of-law-as-shield-of-smaller-nations-against-superpowers framing",
+    "deploys ordinary-Filipino-fishing-rights-as-daily-bread + liberty + overflight + prosperity (Reed-Bank-untapped) tripartite stakes framework",
+    "uses beacon-of-principled-resistance + true-friendship-among-nations-built-on-mutual-respect-for-law-not-surrender + history-will-record-one-man-never-stopped-fighting",
+    "applies some-may-oppose-democratic-pluralism + CJP-not-always-agreed (death-penalty-clash disclosure) for balanced-tribute calibration",
+    "deploys CJP-fearlessly-opposed-death-penalty-as-violative-of-Constitution-and-God's-commands faith-grounded constitutional-stance",
+    "uses strength-not-through-force-but-through-calm-and-principled-exercise-of-due-process Carpio-characterization",
+    "closes with left-the-bench-never-left-the-battlefield + modern-day-hero designation"
+  ],
+  "one_paragraph_summary": "Panganiban writes a tribute-column for retired Senior Associate Justice Antonio T. Carpio, 'one of the most formidable defenders of Philippine sovereignty.' A week ago, at the turnover ceremony of the historic '1875 Carta General del Archipiélago Filipino' map to the National Library, SAJ Tony calmly but firmly urged the government to file a new arbitration case against China -- this time over the blatant denial of PH fishermen's rights at Scarborough Shoal. The clarion call surprises no one familiar with his career. He served with distinction on the SC for 18 years; for almost a decade he was the longest-serving SAJ (a distinct law-granted rank for the sitting Court member serving longest among current colleagues). So respected was he that he was often called the 'Chief Justice we never had' -- time and again, when the CJ was absent or incapacitated, SAJ Tony stepped in as acting chief, guiding the Court with 'quiet authority and unassailable integrity.' Yet it is what he did after retirement that truly elevates him to the heroic rank. Most justices fade gracefully into private life upon mandatory retirement -- not SAJ Tony. He made a different and far more demanding choice: to dedicate the full weight of his remaining years to the defense of our waters. He has remained a vocal, independent figure, emphasizing the rule of law, UNCLOS, and multilateral approaches to the maritime dispute, often positioning the PH case as benefiting the international community. His postretirement work is nonpartisan and advocacy-driven rather than commercial or judicial. During the March 23 2026 Association of Retired Justices of the SC meeting, CJP -- as president -- paid tribute. A few years ago, during a reception for a retiring colleague, one of the 10 wealthiest Filipinos approached Carpio in CJP's presence and offered him a seat as independent director in his conglomerate. He politely declined: 'Thank you, but sorry I cannot accept because I want to devote my full time, energy, and resources to defending Philippine sovereignty in the West Philippine Sea.' The answer stunned the offeror, who could hardly believe his offer -- which included substantial per diems and bonuses -- would be declined. Carpio is the most articulate and relentless champion of the 2016 Arbitral Award -- the landmark victory affirming PH sovereignty and sovereign rights over the West Philippine Sea. He does not do it for power or popularity. He does it because he believes, as every true patriot must, that the international rule of law is the only shield of smaller nations against the world's superpowers. Why does this matter to ordinary Filipinos? Because fishing rights are not abstract legal concepts -- they are the daily bread of thousands of fishermen whose livelihoods depend on rich waters. When blocked, it is not merely a diplomatic tiff but an assault on their right to feed their families. It is about liberty -- freedom to navigate territorial waters without fear and harassment. It is about overflight -- the right of PH aircraft to fly over waters indisputably ours. And it is about prosperity -- the sovereign right to explore and develop oil, gas, and other resources within the exclusive economic zone, including the promising Reed Bank, which SAJ Tony has repeatedly bemoaned has remained untapped due to outside forces. These are the foundations of national dignity and economic survival. In an era when some would rather take the opposite view, SAJ Tony stands as a beacon of principled resistance, reminding us that true friendship among nations is built on mutual respect for the law, not on the surrender of sovereign rights. The government may not have acted yet on his recommendation for a new case. But history will record that when others wavered, one man -- retired from active government service -- never stopped fighting with the same intellectual rigor and patriotic fire that defined his judicial career. Some may oppose his assertions -- that is their right in our democracy. In a similar way, though CJP praises him for his relentlessness and patriotism, CJP did not always agree with him: when both were incumbents, they clashed on his advocacy for the death penalty, while CJP fearlessly opposed it as violative of the Constitution and God's commands. He shows strength not through force, but through the calm and principled exercise of due process, grounded in respect for the rule of law and international covenants. Critics may disagree with him, but his wisdom and unwavering research are more than enough to prevail in any international tribunal. SAJ Tony had left the bench, but he has never left the battlefield for the country. For that, our people owe him a debt of gratitude. He remains a relentless defender of Philippine sovereignty -- a modern-day hero.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
 }

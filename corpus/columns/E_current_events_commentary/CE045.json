@@ -1,0 +1,177 @@
+{
+  "id": "CE045",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 45,
+  "title": "A weird race for second place",
+  "date": "2022-04-25",
+  "link": "https://opinion.inquirer.net/152344/a-weird-race-for-second-place",
+  "keywords": [
+    "2022 elections",
+    "Marcos vs Robredo",
+    "presidential debates",
+    "FLP bar passers",
+    "Dissertation Writing Contest"
+  ],
+  "primary_topics": [
+    "Critique of Lacson-Moreno-Gonzales joint presser asking Robredo to withdraw -- 'weird race for second place'",
+    "Survey arithmetic showing Robredo (24%) ahead of the combined challengers (16%)",
+    "Defense of contrast (Marcos vs Robredo) as voter-benefit, not disadvantage",
+    "FLP Scholarship 2021 bar results -- 22 scholars all passed (100% tradition upheld)",
+    "FLP-Ayala Dissertation Writing Contest 2021 winners"
+  ],
+  "sub_topics": [
+    "Lacson, Isko Moreno, Bert Gonzales joint press conference dispelling withdrawal rumors and asking Robredo to step aside",
+    "Pacquiao's absence from the presser despite 6% survey share",
+    "Math comparison: 8% (Moreno) + 2% (Lacson) + 0% (Gonzales) + 6% (Pacquiao) = 16% < Robredo's 24%",
+    "Marcos at 56% as the actual leader voters opted for, not 'abhored' Robredo",
+    "Demotion of Lacson from CJ's 'top of presidential choices' to 'bottom of short list' over the presser",
+    "Degeneration of TV/Comelec debates into 'pitiful debates for the second place' due to Marcos's deliberate absence",
+    "SC's new 'Excellent' (>90%) vs 'Exemplary' (85-90%) classification replacing top-10 announcement",
+    "3 FLP scholars rated 'Excellent' and 11 rated 'Exemplary' in 2021 bar",
+    "10 FLP dissertation-writing winners (all 'Exemplary' or passers)",
+    "Outside-Metro-Manila law school strength: UCor (Baguio), USC (Cebu), FSUU (Butuan)"
+  ],
+  "signature_phrases": [
+    "As a retired jurist, I seldom write on highly partisan matters",
+    "a weird race for second place",
+    "the contrast should be a bonus to voters",
+    "I may have made a mistake and should now consign him to the bottom of my short list",
+    "pitiful debates for the second place",
+    "the 100 percent tradition of excellence",
+    "LET ME NOW TURN TO A MORE PLEASANT TOPIC",
+    "a tribute to the FLP boards of judges and the FLP screening committees"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Ferdinand 'Bongbong' Marcos Jr.",
+      "Leni Robredo",
+      "Panfilo 'Ping' Lacson",
+      "Isko Moreno (Manila Mayor)",
+      "Norberto 'Bert' Gonzales",
+      "Manny Pacquiao",
+      "Stephanie Mae Domingo (UCor)",
+      "Geremae Mata (USC)",
+      "Jani Omamalin (USC)",
+      "Angelette Bulacan (FEU)",
+      "William Christian dela Cruz (FSUU)",
+      "Florida Fomaneg (UP)",
+      "Maria Carissa Guinto (SBU-Manila)",
+      "Rowell Nico Macalino (ADMU)",
+      "Carlo Angelo Negado (USC)",
+      "Laurence Obaob (USC)",
+      "Carmella Gaye Perez (USC)",
+      "Josiah David Quising (FEU)",
+      "Edrea Jean Ramirez (UST)",
+      "Mark Stephen Sy (ADMU)",
+      "Banoar Abratique (UCor)",
+      "Pamela Camille Barredo (FEU)",
+      "Patricia Isabel Cornelio (FEU)",
+      "Ricka Abigael Dumelod (UST)",
+      "Patrick Angelo Gutierrez (FEU)",
+      "Joy Francine Mappang (UCor)",
+      "Mayumi Matsumura (ADMU)",
+      "Juralyn Lilian Obra (UCor)",
+      "Patrick Edward Balisong (ADMU)",
+      "Trisha Aliya Dulanas (USC)",
+      "Genica Therese Endaluz (ADMU)",
+      "Catherine Joy Lim (ADMU)",
+      "Kenneth Limosnero (DLSU)",
+      "Justin Ian Manjares (ADMU)",
+      "Fidel Rico Nini (UP)"
+    ],
+    "institutions": [
+      "Pulse Asia",
+      "OCTA Research",
+      "Foundation for Liberty and Prosperity (FLP)",
+      "Tan Yan Kee Foundation",
+      "Ayala Group",
+      "Supreme Court of the Philippines",
+      "Commission on Elections (Comelec)",
+      "Far Eastern University (FEU)",
+      "University of Santo Tomas (UST)",
+      "Ateneo de Manila University (ADMU)",
+      "University of the Cordilleras (UCor)",
+      "University of San Carlos (USC)",
+      "Fr. Saturnino Urios University (FSUU)",
+      "University of the Philippines (UP)",
+      "San Beda University-Manila (SBU)",
+      "De La Salle University (DLSU)"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "Lacson-Moreno-Gonzales joint press conference",
+      "Postponement of last Comelec presidential debate to May 1",
+      "2021 Philippine Bar Examinations (results)",
+      "FLP scholarship search deadline of April 30",
+      "FLP-Ayala Dissertation Writing Contest 2021"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Lacson-Moreno-Gonzales joint demand that Robredo withdraw is mathematically incoherent -- her 24% Pulse Asia share exceeds the trio's combined 10% (and 16% even with Pacquiao's 6%) -- so if anyone should withdraw, it should be them, not her.",
+      "rhetorical_move": "survey-arithmetic counter-argument (simple addition refutes the strategic premise)",
+      "confidence": "asserted with explicit numbers"
+    },
+    {
+      "claim": "The Marcos-Robredo contrast in programs and personalities is a bonus to voters, not a disadvantage -- giving them a real choice rather than a homogeneous field.",
+      "rhetorical_move": "reframing contrast as benefit (turns the trio's premise on its head)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "CJ formally demotes Senator Lacson from 'top of his presidential choices' to 'bottom of his short list' because of this presser -- a rare on-the-record consequence in a retired jurist's seldom-partisan column.",
+      "rhetorical_move": "explicit-personal-consequence disclosure (rare in CJ's typically reticent partisan voice)",
+      "confidence": "asserted as personal vote-shift"
+    },
+    {
+      "claim": "Marcos's deliberate absence has degenerated the TV/Comelec debates into 'pitiful debates for the second place' -- diminishing voter information.",
+      "rhetorical_move": "metaphorical-degradation diagnosis (institutionalized debates 'pitiful' without the frontrunner)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The 100% bar passing rate of 22 FLP scholars, with 14 rated 'Excellent' or 'Exemplary' under the SC's new top-tier classifications, validates the rigor of the FLP screening committees and boards of judges -- particularly the strong showing of outside-Metro-Manila law schools (UCor, USC, FSUU).",
+      "rhetorical_move": "tradition-of-excellence framing with regional-equity bonus (geographic diversity as institutional virtue)",
+      "confidence": "asserted with named-list documentation"
+    }
+  ],
+  "notable_anecdotes": [
+    "Three presidential aspirants (Lacson, Moreno, Gonzales) held a hyped press conference asking Robredo to withdraw -- CJ does the math out loud and shows their combined 10% is less than half her 24%.",
+    "Lacson had been at the top of CJ's presidential short list 'given his undisputed experience in the public service and his tenacious stand against corruption especially the pork barrel and its reinventions' -- the presser flipped him to the bottom, a rare on-the-record demotion from a retired jurist.",
+    "The SC changed its bar-results practice: no top-10 announcement, instead 'Excellent' (>90%) and 'Exemplary' (85-90%) tiers -- CJ uses this new vocabulary to celebrate FLP scholars under the new schema.",
+    "Three FLP 'Excellent' rated examinees all came from outside Metro Manila: Stephanie Mae Domingo (UCor-Baguio), Geremae Mata (USC-Cebu), Jani Omamalin (USC-Cebu) -- CJ highlights this as a regional-equity success.",
+    "Full named list of 22 scholars + 10 dissertation winners reproduced in the column -- operating as both tribute and historical record of FLP impact."
+  ],
+  "target_audience": [
+    "Filipino voters two weeks before Election Day",
+    "Followers of poll surveys and presidential strategy",
+    "FLP donors and stakeholders",
+    "Law students and law school administrators (especially outside Metro Manila)",
+    "Legal community tracking bar-exam reform",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "Opening hedge ('As a retired jurist, I seldom write on highly partisan matters')",
+    "ALL-CAPS pivot openings ('DURING A HYPED PRESS CONFERENCE,' 'LET ME NOW TURN TO A MORE PLEASANT TOPIC,' 'THE THREE FLP SCHOLARS WHO RATED EXCELLENT')",
+    "Inline arithmetic with parenthetical sum: '(8+2+0+6=16)'",
+    "Star-bar transition ('* * *') to pivot from election critique to FLP celebration",
+    "Named-list documentation as tribute device (all 22 scholars + 10 dissertation winners listed in full)",
+    "Self-correcting register ('I may have made a mistake and should now consign him to the bottom')",
+    "Diminishing-noun rhetoric ('pitiful debates for the second place,' 'a weird race for second place')",
+    "Geographic-equity flag (highlighting outside-Metro-Manila law schools)",
+    "Closing FLP recruitment plug ('visit www.libpros.com')"
+  ],
+  "decision_framework_signals": [
+    "uses survey arithmetic as primary refutation of strategic claims (numbers > rhetoric)",
+    "reframes apparent disadvantages (contrast) as voter benefits (real choice)",
+    "treats one ill-conceived political act as sufficient for revising a long-held endorsement preference",
+    "uses tradition-of-excellence framing (the FLP '100 percent tradition') as institutional warrant",
+    "applies geographic-equity lens to evaluate bar performance and law school strength",
+    "celebrates exemplary outliers without dismissing 'passers' (inclusive tribute structure)"
+  ],
+  "one_paragraph_summary": "Two weeks before Election Day 2022, Panganiban -- opening with the disclaimer that as a retired jurist he 'seldom write[s] on highly partisan matters' -- critiques the joint press conference at which Senator Ping Lacson, Manila Mayor Isko Moreno, and former defense secretary Bert Gonzales asked Vice President Leni Robredo to withdraw and let voters consolidate behind one of them as the viable alternative to Bongbong Marcos. He does the survey arithmetic out loud: Lacson (2%) + Moreno (8%) + Gonzales (0%) + an absent Pacquiao (6%) = 16%, still well below Robredo's 24%, so 'logically then, if anyone should withdraw, it should be the four, not the VP'; the Marcos-Robredo contrast in programs and personalities is a 'bonus to voters,' not a disadvantage. He formally demotes Lacson from the top of his presidential short list to the bottom because of the presser, and laments that Marcos's debate-skipping has reduced the televised forums to 'pitiful debates for the second place.' The column pivots via star-bar transition to a 'more pleasant topic': all 22 FLP scholars (in partnership with Tan Yan Kee Foundation) passed the 2021 bar, with 3 rated 'Excellent' (>90%) and 11 rated 'Exemplary' (85-90%) under the Court's new tier classifications, while 10 FLP-Ayala Dissertation Writing Contest winners also rated 'Exemplary.' He highlights the strong showing of UCor (Baguio), USC (Cebu), and FSUU (Butuan) as regional-equity evidence and closes with the April 30 deadline for the next cohort at www.libpros.com.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

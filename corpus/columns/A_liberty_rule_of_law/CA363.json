@@ -1,0 +1,200 @@
+{
+  "id": "CA363",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 363,
+  "title": "Analyzing the SET decision",
+  "date": "2015-11-29",
+  "link": "https://opinion.inquirer.net/90719/analyzing-the-set-decision",
+  "keywords": [
+    "SET 5-4 decision deep-dive Nov 29 2015",
+    "majority signers -- Bam Aquino, Pia Cayetano, Cynthia Villar, Sotto, Loren Legarda",
+    "dissenters Carpio, De Castro, Brion, Nancy Binay",
+    "'disputable presumption' theory anchored in Poe's physical features (5'2', brown eyes, low nasal bridge, oval face)",
+    "Manuel Roxas 1934-35 ConCon delegate quoted on 'few and far in between' foundlings",
+    "jus sanguinis general rule plus legal-fiction exception",
+    "Bengzon v. HRET (May 7 2001) reacquisition",
+    "Carpio's DNA-match hypothetical",
+    "De Castro on no-exception-to-blood-relationship",
+    "Brion on Bengzon erroneous",
+    "Legarda's 'legalisms can be contradicted by other legalisms' line",
+    "CJP's Frivaldo authorship disclosure"
+  ],
+  "primary_topics": [
+    "Deep-dive into the SET 5-4 decision (Nov 17, 2015) upholding Grace Poe's natural-born citizenship",
+    "Disputable-presumption theory anchored in Poe's physical features as evidence of Filipino parentage",
+    "1934-35 Constitutional Convention delegate Manuel Roxas's framers-intent quote on foundlings",
+    "Jus sanguinis general rule with legal-fiction exception for foundlings",
+    "Three dissenting opinions (Carpio, De Castro, Brion) and their distinct doctrinal positions",
+    "Senator Loren Legarda's 'legalisms can be contradicted by other legalisms' framing and Frivaldo anchor",
+    "CJP's own disclosure of having authored Frivaldo for the SC, and how he would have voted if he were still a SET member"
+  ],
+  "sub_topics": [
+    "Majority signers: Bam Aquino, Pia Cayetano, Cynthia Villar, Vicente Sotto, Loren Legarda",
+    "Dissenters: Antonio T. Carpio, Teresita J. Leonardo-De Castro, Arturo D. Brion (justice-members) + Nancy Binay (senator-member)",
+    "SET majority's physical-features inventory -- 5'2', brown eyes, dark brown/black hair, low nasal bridge, oval-shaped face -- consistent with ordinary Filipino",
+    "Burden-of-rebuttal allocation: petitioner failed to show Poe's father was an alien",
+    "Manuel Roxas's 'few and far in between' line: foundlings were too few to need exhaustive textual treatment",
+    "International-law anchor: children of unknown parents are citizens",
+    "Treaties and customary international law affirming foundling citizenship",
+    "Bengzon v. HRET (May 7, 2001) as authority for reacquisition of natural-born status through Oath of Allegiance",
+    "Poe never used her US passport after Oct 20, 2010 renunciation",
+    "Carpio's burden-of-proof position: Poe failed to prove Filipino father; international law does not 'automatically grant' citizenship; Roxas did not cite international-law principle; future DNA match remains open",
+    "De Castro's no-exception-to-blood-relationship position: 1935 Constitution provided no exception; citizenship cannot be legislated or conferred by executive acts; international conventions not ratified, and if ratified would grant only naturalized status",
+    "Brion's Bengzon-is-erroneous position: foundling's citizenship cannot be established, recognized, or presumed; she had nothing to reacquire",
+    "Legarda's 'lawyers can argue ad infinitum on legalisms' line",
+    "No clear constitutional/legal violation; only interpretation determines outcome",
+    "CJ's confession: he wrote Frivaldo for the SC and would vote with the SET majority"
+  ],
+  "signature_phrases": [
+    "in my humble view",
+    "I would vote with the majority",
+    "I had the honor of writing",
+    "the overarching constitutionally-enshrined social justice principle",
+    "more law to those who have less in life",
+    "legal fiction",
+    "comparable to a landmark Supreme Court decision",
+    "well-written and well-structured"
+  ],
+  "entities": {
+    "people": [
+      "Grace Poe",
+      "Sen. Bam Aquino",
+      "Sen. Pia Cayetano",
+      "Sen. Cynthia Villar",
+      "Sen. Vicente Sotto",
+      "Sen. Loren Legarda",
+      "Justice Antonio T. Carpio",
+      "Justice Teresita J. Leonardo-De Castro",
+      "Justice Arturo D. Brion",
+      "Sen. Nancy Binay",
+      "Manuel Roxas (1934-35 ConCon delegate)",
+      "CJP himself (former SET member, Frivaldo ponente)"
+    ],
+    "institutions": [
+      "Senate Electoral Tribunal (SET)",
+      "Supreme Court of the Philippines",
+      "1934-35 Constitutional Convention",
+      "House of Representatives Electoral Tribunal (HRET)",
+      "Office of the Solicitor General (referenced via Frivaldo)"
+    ],
+    "cases": [
+      "SET decision (Nov 17, 2015) -- 5-4 upholding Poe's natural-born citizenship",
+      "Bengzon v. HRET (May 7, 2001) -- reacquisition through Oath of Allegiance",
+      "Frivaldo v. Comelec (June 26, 1996) -- popular-sovereignty interpretation, CJP authored"
+    ],
+    "laws_treaties": [
+      "1935 Constitution (jus sanguinis natural-born citizenship)",
+      "1987 Constitution",
+      "Universal Declaration of Human Rights (referenced)",
+      "Treaties and customary international law on foundling citizenship",
+      "Oath of Allegiance (Poe's reacquisition instrument)"
+    ],
+    "events": [
+      "SET 5-4 decision (Nov 17, 2015)",
+      "Oct 20, 2010 -- Poe's renunciation of US citizenship",
+      "1934-35 Constitutional Convention deliberations"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The SET 5-4 verdict is comparable to a landmark SC decision -- well-written, well-structured, complete with citation of cases and authorities",
+      "rhetorical_move": "praise-by-comparison elevating the SET ruling",
+      "confidence": "high"
+    },
+    {
+      "claim": "The SET majority held that Poe's being a foundling did not necessarily mean her parents were not citizens; her physical features (5'2', brown eyes, dark brown/black hair, low nasal bridge, oval face) consistent with the ordinary Filipino give rise to a disputable presumption that her parents are Filipinos",
+      "rhetorical_move": "summarization-of-majority-reasoning with direct quotation",
+      "confidence": "high"
+    },
+    {
+      "claim": "The 1935 Constitution did not expressly mention foundlings, but Manuel Roxas explained the framers never intended to exclude them -- the omission was because foundlings were 'few and far in between,' and international law already covered them",
+      "rhetorical_move": "framers'-intent reconstruction with direct delegate quote",
+      "confidence": "high"
+    },
+    {
+      "claim": "Although jus sanguinis is the general rule, the framers created a class of natural-born citizens 'by legal fiction, as an exception,' for foundlings",
+      "rhetorical_move": "doctrinal-fiction analysis",
+      "confidence": "high"
+    },
+    {
+      "claim": "Poe lost her natural-born citizenship through US naturalization but validly reacquired it under Bengzon v. HRET upon taking her Oath of Allegiance; she never used her US passport after renouncing on Oct 20, 2010",
+      "rhetorical_move": "reacquisition-doctrine application with factual corroboration",
+      "confidence": "high"
+    },
+    {
+      "claim": "Carpio dissented arguing Poe had the burden to prove her biological father was Filipino, that international law does not automatically grant citizenship to foundlings at birth, that Roxas cited no specific international-law principle, but that a future DNA match could still establish her natural-born status",
+      "rhetorical_move": "structured-summary of three Carpio sub-arguments",
+      "confidence": "high"
+    },
+    {
+      "claim": "De Castro stressed that natural-born citizenship is based on blood relationship without exception, cannot be legislated or conferred by executive acts, and that cited international conventions are unratified -- and if ratified would grant only naturalized status",
+      "rhetorical_move": "structured-summary of De Castro's positions",
+      "confidence": "high"
+    },
+    {
+      "claim": "Brion argued Poe's foundling status cannot establish, recognize, or presume Philippine citizenship; treaty obligations do not grant outright citizenship; and Bengzon v. HRET is 'erroneous and should not bind the SET'",
+      "rhetorical_move": "structured-summary of Brion's positions including precedent-rejection",
+      "confidence": "high"
+    },
+    {
+      "claim": "Legarda's simple summary captures the heart of the matter: lawyers can argue ad infinitum on legalisms, but legalisms -- however exalted -- can always be contradicted by other legalisms; there is no clear violation, only interpretation determines outcome",
+      "rhetorical_move": "endorsement of Legarda's meta-observation",
+      "confidence": "high"
+    },
+    {
+      "claim": "The disagreement reduces to a burden-of-proof allocation: SET majority presumes foundlings natural-born until rebutted; dissenters presume NOT natural-born until proven otherwise",
+      "rhetorical_move": "doctrinal-simplification of competing presumption frames",
+      "confidence": "high"
+    },
+    {
+      "claim": "If CJ were still a SET member, he would vote with the majority -- consistent with the Frivaldo decision which he had the honor of writing for the SC, and with the overarching constitutionally-enshrined social-justice principle of giving more law to those who have less in life",
+      "rhetorical_move": "personal-disclosure-of-position closing affirmation",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Naming all five majority signers and all four dissenters by name",
+    "Catalog of Poe's specific physical features inventoried by SET majority",
+    "Manuel Roxas's 'few and far in between' quote as framers'-intent anchor",
+    "Carpio's DNA-match hypothetical leaving future-vindication door open",
+    "Brion's outright rejection of Bengzon v. HRET as erroneous precedent",
+    "Legarda's 'legalisms can be contradicted by other legalisms' line",
+    "CJ's own authorship of Frivaldo disclosed at the end as ground for declared vote"
+  ],
+  "target_audience": [
+    "Inquirer readership wanting an authoritative breakdown of the SET vote",
+    "Lawyers, law students, and constitutional scholars",
+    "Senators and electoral-tribunal observers",
+    "Foundling-rights and citizenship-law advocates",
+    "Carpio/De Castro/Brion sympathizers needing the dissent-summary",
+    "Critics of Bengzon v. HRET",
+    "FLP donors and supporters interested in CJ's own positions on natural-born doctrine"
+  ],
+  "register_markers": [
+    "doctrinal-formal register with structured majority/dissent breakdown",
+    "extended block-quotations of both majority and dissents",
+    "Latin tags: 'ad infinitum', 'jus sanguinis'",
+    "section labels (Dissenting opinions, Simple summary)",
+    "burden-of-proof reframing as analytic crystallization",
+    "personal-disclosure formula ('I had the honor of writing')",
+    "social-justice axiom restatement",
+    "praise-by-comparison ('comparable to a landmark Supreme Court decision')"
+  ],
+  "decision_framework_signals": [
+    "Burden-of-proof allocation as central doctrinal hinge",
+    "Disputable-presumption theory anchored in observable features",
+    "Framers'-intent reconstruction with delegate quotation",
+    "Legal-fiction exception to jus sanguinis general rule",
+    "Bengzon v. HRET as authoritative reacquisition doctrine",
+    "International-law harmonization with domestic citizenship law",
+    "Frivaldo popular-sovereignty principle",
+    "Social-justice axiom ('more law to those who have less in life')",
+    "Legarda's meta-observation: legalisms vs legalisms -- interpretation determines outcome",
+    "Personal-authorship as candid declaration-of-position"
+  ],
+  "one_paragraph_summary": "Panganiban delivers a structured deep-dive into the Senate Electoral Tribunal's 5-4 decision upholding Grace Poe's natural-born citizenship -- 'comparable to a landmark Supreme Court decision,' well-written and well-structured, complete with citation of cases and authorities. The majority signers are Senator-members Bam Aquino, Pia Cayetano, Cynthia Villar, Vicente Sotto, and Loren Legarda; the dissenters are Justice-members Antonio T. Carpio, Teresita J. Leonardo-De Castro, and Arturo D. Brion, plus Senator-member Nancy Binay. After setting forth the undisputed facts, issues, and arguments, the SET majority held: (1) Poe's being a foundling did not necessarily mean her parents were not citizens; on the contrary, it did not exclude the possibility that they were Filipinos -- a possibility strengthened by her physical features (5'2', brown eyes and dark brown/black hair, low nasal bridge, and oval-shaped face, consistent with the ordinary Filipino) -- giving rise to a 'disputable presumption' her parents are Filipinos, which the petitioner failed to rebut by showing her father was an alien. (2) The 1935 Constitution did not expressly mention foundlings, but Constitutional Convention delegate Manuel Roxas explained that the framers never intended 'to exclude foundlings from natural born citizenship ... and the only reason that there was no specific reference to foundlings ... was that foundlings are few and far in between so that it was not necessary to include a provision on the subject exhaustively,' adding that 'by international law ... children or people born ... of unknown parents are citizens.' Although jus sanguinis is the general rule, the framers created a class of natural-born citizens by 'legal fiction, as an exception.' (3) Various treaties and customary international law, read with the Constitution, affirm Poe's natural-born citizenship. (4) True, Poe lost her natural-born status when naturalized as American, but the SET -- citing Bengzon v. HRET (May 7, 2001) -- held she 'validly reacquired her natural-born citizenship upon taking her Oath of Allegiance to the Philippines'; she never used her US passport from the moment she renounced her American citizenship on 20 October 2010. The dissents: Carpio argued Poe had the burden to prove her biological father was Filipino, which she failed; international law does not 'automatically grant citizenship to foundlings at birth'; Roxas did not cite any international-law principle granting citizenship to foundlings; but a future DNA match to a Filipino parent could still establish her status. De Castro stressed natural-born citizenship is based on blood relationship to a Filipino parent and Poe, admittedly a foundling, does not come within this principle; the 1935 Constitution provided no exception; natural-born citizenship cannot be legislated or conferred by executive acts; the cited international conventions are unratified, and if ratified would grant only naturalized status. Brion argued Poe's citizenship cannot be established, recognized, or presumed under the 1935 Constitution; treaty obligations do not grant outright citizenship; since she was never a Philippine citizen, she had nothing to reacquire; and Bengzon v. HRET is erroneous and should not bind the SET. Senator Legarda summed it up: 'lawyers can argue ad infinitum on legalisms. However, legalisms -- however exalted -- can always be contradicted by other legalisms. But one thing is obvious: In this case, there is no clear violation of our Constitution or our laws. Only by interpretation can anyone really say that Poe is or is not natural-born.' She anchored her vote on the 'unreversed' doctrine in Frivaldo v. Comelec (June 26, 1996) that in case of doubt involving popular sovereignty, interpret to enable the electorate to freely elect their chosen leader. The 'confusing legal gobbledygook' can be simply summed up as a burden-of-proof allocation: the SET majority presumes a foundling natural-born unless rebutted; the dissenters presume the opposite. CJ closes by disclosing he was once a SET member, and that if he were still one he would vote with the majority -- consistent with the Frivaldo decision which he 'had the honor of writing' for the Supreme Court, and with the overarching constitutionally-enshrined social-justice principle of giving more law to those who have less in life.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

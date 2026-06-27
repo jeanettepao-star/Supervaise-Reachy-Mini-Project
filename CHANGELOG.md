@@ -1,5 +1,54 @@
 # CHANGELOG
 
+## 2026-06-27 — W1.4 Corpus prep + full-corpus chunking + verifiable pin
+
+Branch `feat/full-corpus-chunk` (off `pilot/freeze-subset-v3`). Architecture:
+chunk the FULL ~1,089-doc corpus once; the pilot subset is an eval-time
+allowlist applied later (W1.5/W3), NOT the chunking input.
+
+**Precondition:** all four `data/csv/*_curated_normalized.xlsx` load (utf-8-sig
+content). Row counts: Column 785, Book 115, Speech 154, Biography 35 =
+**1,089 total**. The "1,059" figure remains unsupported by the files; the real
+count read is **1,089**. Biography xlsx has 14 columns (no `Link`) vs 15 for the
+others — benign schema variance, flagged.
+
+**Step 1 — regenerate corpus from xlsx (script repoint):** added
+`scripts/generate_corpus_from_xlsx.py` (a fork; the old
+`generate_corpus_files.py` and its CSV inputs are left intact). It reads the four
+xlsx and writes the full `corpus/{columns,books,speeches,biography}/{theme}/`
+tree — 1,089 paired `.md`+`.json`. doc_id = padded `^[CGBS][A-E]\d{3}$`. `.md`
+carries frontmatter + `# Title` + the article body (merged from
+`data/text/<id>.md` when present — 1,055 docs; the other 34 fall back to the
+curated `one_paragraph_summary`, flagged) + `## Summary` + a `## Notable
+Anecdotes` section (each anecdote under its own `###` so the chunker keeps them
+whole). `.json` holds the full curated record; **`entities` preserved as a JSON
+object**, never flattened. utf-8-sig reads, ensure_ascii=False writes. The legacy
+80-doc tree was **moved aside** to `corpus/_legacy_phase1/` (not deleted).
+
+**Step 2 — verifiable pin:** the four xlsx are now **tracked in git** (<4 MB).
+`scripts/build_corpus_snapshot.py` writes `corpus_snapshot.json` (committed):
+per-file `{sha256,bytes,sheet,row_count}` + per-doc `row_sha256` (sha256 of the
+canonical key-sorted serialization of the 15 curated fields) + header
+(producer/date/source). `scripts/verify_pin.py` recomputes both levels and
+**exits nonzero on any drift** (proven: tampering one row hash → exit 1; intact →
+exit 0).
+
+**Step 3 — heading-aware chunking + doc store:** added chunk knobs to
+`config.py` (`CHUNK_TARGET_TOKENS_MIN/MAX` 200/400, `CHUNK_OVERLAP_TOKENS` 40,
+`CHUNK_HEADING_AWARE`, `CHUNK_KEEP_ANECDOTES_WHOLE`, `DOC_ID_REGEX_PADDED`) —
+the chunker reads all knobs from config, no literals. `scripts/chunk_corpus.py`
+splits each `.md` on headings, packs prose to the band (paragraph/sentence split
+with overlap for over-band sections), and keeps anecdotes whole (consecutive
+short anecdotes packed together, never split mid-anecdote). Outputs the doc
+store `corpus/index/chunks.jsonl` (chunk_id → doc_id + metadata + text) and
+`corpus/index/chunk_index.json` (stats + `by_doc` + source-snapshot ref).
+
+**Step 4 — verify:** 1,089 docs → **8,887 chunks**, avg **311.6** tokens (78% in
+200–400 band; 24 chunks <50). Boundaries + anecdotes spot-checked across all
+formats (CA034 column, CB001, SE012 speech, GC001 biography, BA009 book) — prose
+in-band, anecdotes intact. **All 95 v3 pilot doc_ids resolve to chunks** (the
+missing-89 problem is gone; 0 missing). `verify_pin` → PASS.
+
 ## [pilot-baseline] — 2026-06-25 — W1.1 Stabilise codebase + unified config.py
 
 A **code/config baseline** taken BEFORE the W1.7 topic-map rebuild and the

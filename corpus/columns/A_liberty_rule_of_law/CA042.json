@@ -1,0 +1,147 @@
+{
+  "id": "CA042",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 42,
+  "title": "Prescription in Duterte's case in ICC and in PH",
+  "date": "2025-06-23",
+  "link": "https://opinion.inquirer.net/184067/prescription-in-dutertes-case-in-icc-and-in-ph",
+  "keywords": [
+    "ICC prescription",
+    "Duterte ICC case",
+    "Fatou Bensouda preliminary examination",
+    "People v. Consebido",
+    "two-year jurisdictional limit"
+  ],
+  "primary_topics": [
+    "Prescription/jurisdiction in ICC proceedings against Duterte",
+    "PH jurisprudential pivot on tolling the prescriptive period",
+    "Comparative analysis of ICC and PH prosecutorial structures"
+  ],
+  "sub_topics": [
+    "Two-year ICC limit from Philippine withdrawal (effective March 17, 2019)",
+    "Bensouda's preliminary examination start (February 8, 2018)",
+    "Bensouda's application for formal investigation (May 24, 2021)",
+    "ICC Pre-Trial Chamber's grant of authority (September 15, 2021)",
+    "ICC four organs: Presidency, Judicial Divisions, OP, Registry",
+    "DOJ as executive branch in PH vs OP as ICC organ",
+    "Republic v. Desierto (Jan 16, 2023) -- filing-in-court tolling rule",
+    "Corpuz Jr. v. People (Aug 16, 2023) -- same doctrine",
+    "People v. Consebido (April 2, 2025, per J. Inting, en banc) -- doctrinal reversal",
+    "Tolling now begins from complaint filing at prosecutors' office",
+    "Two reader questions and the column's twin answers",
+    "Effect of the reversal: Duterte's case 'should not be dismissed' under current PH law"
+  ],
+  "signature_phrases": [
+    "the pivotal issue is: When should the limit of two years be counted",
+    "tolled only when the information (or charge sheet) is filed in court",
+    "recent somersault in its application in our country",
+    "the office is responsible for investigating and prosecuting cases",
+    "the crime had prescribed (or had been extinguished)",
+    "the case pending in the ICC should not be dismissed",
+    "It is unjust to deprive the injured party of the right to obtain vindication on account of delays that are not under [their] control"
+  ],
+  "entities": {
+    "people": [
+      "Former President Rodrigo R. Duterte",
+      "Former ICC Chief Prosecutor Fatou Bensouda",
+      "Justice Henri Jean Paul B. Inting",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "International Criminal Court (ICC)",
+      "ICC Office of the Prosecutor (OP)",
+      "ICC Pre-Trial Chamber",
+      "ICC Presidency",
+      "ICC Judicial Divisions (Pre-Trial, Trial, Appeals)",
+      "ICC Registry",
+      "Department of Justice (DOJ) of the Philippines",
+      "Offices of the City and Provincial Prosecutors",
+      "Supreme Court of the Philippines (en banc)"
+    ],
+    "cases": [
+      "Republic v. Desierto (January 16, 2023)",
+      "Corpuz Jr. v. People (August 16, 2023)",
+      "People v. Consebido (April 2, 2025, per J. Inting, en banc) -- doctrinal reversal"
+    ],
+    "laws_treaties": [
+      "Rome Statute of the International Criminal Court (ICC Statute, two-year preliminary-examination window)",
+      "Philippine withdrawal from the ICC (effective March 17, 2019)",
+      "PH rules on prescription of criminal offenses"
+    ],
+    "events": [
+      "Bensouda's preliminary examination start (February 8, 2018)",
+      "PH ICC withdrawal effective (March 17, 2019)",
+      "Bensouda's formal-investigation application (May 24, 2021)",
+      "ICC Pre-Trial Chamber's grant of authority (September 15, 2021)",
+      "Author's prior column 'Pivotal issue in Duterte's ICC case' (March 24)",
+      "Duterte's arrest, detention, and continued litigation in The Hague"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The pivotal issue in Duterte's ICC case is whether the two-year prescriptive period runs from Bensouda's unilateral preliminary examination start or only from her formal application or the Pre-Trial Chamber's grant of authority.",
+      "rhetorical_move": "issue framing restated for the reading public",
+      "confidence": "high"
+    },
+    {
+      "claim": "Under the 2023 PH doctrine in Republic v. Desierto and Corpuz Jr. v. People, prescription is tolled only when the information is filed in court -- not when the complaint is filed at the prosecutor's office.",
+      "rhetorical_move": "summary of the now-superseded PH rule",
+      "confidence": "high"
+    },
+    {
+      "claim": "The argument that prescription should run from Bensouda's February 8, 2018 preliminary examination relies on the OP being an integral organ of the ICC itself -- unlike the PH DOJ, which is in the executive branch.",
+      "rhetorical_move": "structural-comparative distinction",
+      "confidence": "high"
+    },
+    {
+      "claim": "People v. Consebido (April 2, 2025, per J. Inting, en banc) abandoned the old doctrine and now treats the filing of the complaint with PH prosecutors as the tolling event.",
+      "rhetorical_move": "headline doctrinal-reversal report",
+      "confidence": "high"
+    },
+    {
+      "claim": "Applying Consebido analogously to the ICC scenario means the two-year window had not even begun running because Bensouda started her examination while the PH was still an ICC member -- so prescription does not apply and Duterte's case should not be dismissed.",
+      "rhetorical_move": "consequence-drawing argument",
+      "confidence": "high"
+    },
+    {
+      "claim": "The recent doctrinal 'somersault' is a double-edged sword: it could keep Duterte detained in The Hague while it prolongs cases in the Philippines.",
+      "rhetorical_move": "closing dual-implication observation",
+      "confidence": "medium"
+    }
+  ],
+  "notable_anecdotes": [
+    "The five-step timeline laid out for readers: (1) ICC Statute's two-year window from withdrawal, (2) PH withdrawal effective March 17, 2019, (3) Bensouda's preliminary examination begun Feb 8, 2018 while PH was still a member, (4) her formal-investigation application May 24, 2021, (5) Pre-Trial Chamber grant Sept 15, 2021.",
+    "Description of the ICC's four organs (Presidency, Judicial Divisions, OP, Registry) compared with PH's tripartite system in which the DOJ is in the executive branch.",
+    "Two reader questions explicitly transcribed in the column -- why hasn't the ICC dismissed the case, and would PH law have allowed arrest/detention or required release after prescription was established.",
+    "J. Inting's en banc reasoning in Consebido: 'It is unjust to deprive the injured party of the right to obtain vindication on account of delays that are not under [their] control.'"
+  ],
+  "target_audience": [
+    "Constitutional and criminal-law scholars",
+    "Lawyers handling pending criminal cases affected by Consebido",
+    "ICC observers and international-law practitioners",
+    "Civic readers following the Duterte ICC case",
+    "Bar reviewees on prescription doctrine"
+  ],
+  "register_markers": [
+    "ALL-CAPS topic sentences functioning as section headings",
+    "Five-point timeline reconstruction",
+    "Cross-reference to earlier column ('see Pivotal issue in Duterte's ICC case, 3/24/25')",
+    "Direct embedding of reader questions in quotation marks",
+    "Latinisms ('arguendo' tone, 'somersault' as colorful synonym for reversal)",
+    "Comparative-institutional analysis register",
+    "Restrained editorial closing -- 'this explains how prescription could end Duterte's detention'"
+  ],
+  "decision_framework_signals": [
+    "Identify the precise pivotal issue in a complex jurisdictional case rather than arguing the merits broadly",
+    "Use chronology-anchored five-step timelines to make competing tolling theories visible",
+    "Map institutional analogues across jurisdictions (ICC OP ≠ PH DOJ) before applying domestic doctrine extraterritorially",
+    "Track Supreme Court doctrinal reversals as their own actionable events (Consebido reversing Desierto and Corpuz Jr.)",
+    "Apply the equitable principle that injured parties should not lose vindication to delays outside their control",
+    "Recognize that a single doctrinal change can run in opposite directions for different cases -- protective in some, prolonging in others"
+  ],
+  "one_paragraph_summary": "Returning to a topic he addressed on March 24, Panganiban explains how the question of prescription operates in the case of former president Rodrigo R. Duterte at the International Criminal Court and how recent Philippine jurisprudence affects it. He restates the pivotal issue: the ICC Statute gives the Office of the Prosecutor two years from the Philippines' withdrawal (effective March 17, 2019) to conduct its preliminary examination and seek Pre-Trial Chamber authority to investigate; former ICC Chief Prosecutor Fatou Bensouda started her preliminary examination on February 8, 2018 (when the PH was still a member), applied for formal investigation only on May 24, 2021, and received Pre-Trial Chamber authority on September 15, 2021 -- both well past the two-year limit. Under the now-superseded PH rule in Republic v. Desierto (January 16, 2023) and Corpuz Jr. v. People (August 16, 2023), prescription was tolled only when the information was filed in court, not when the complaint was filed at the prosecutor's office; the ICC counterargument was that the OP is an integral organ of the ICC itself (alongside the Presidency, Judicial Divisions, and Registry), unlike the PH DOJ, which sits in the executive branch. But in People v. Consebido (April 2, 2025, per J. Henri Jean Paul B. Inting, en banc), the Supreme Court abandoned the old doctrine and now treats the filing of the complaint at the DOJ or city/provincial prosecutor's office as the tolling event, reasoning that 'it is unjust to deprive the injured party of the right to obtain vindication on account of delays that are not under [their] control.' Applying that analogously, Duterte's ICC case should not be dismissed because the two-year window had not even begun running when Bensouda started her examination while the PH was still a member. He closes by noting the doctrinal 'somersault' is double-edged: it explains how prescription could end Duterte's detention in The Hague while it could also prolong his case in Philippine courts.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

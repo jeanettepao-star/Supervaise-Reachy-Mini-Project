@@ -1,0 +1,219 @@
+{
+  "id": "CA349",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 349,
+  "title": "Choosing new prez is also choosing new SC",
+  "date": "2016-04-03",
+  "link": "https://opinion.inquirer.net/94113/choosing-new-prez-is-also-choosing-new-sc",
+  "keywords": [
+    "Choosing prez = choosing SC",
+    "10 retirements 2016-2019 roster (Perez through Carpio)",
+    "12 of 15 possible appointees",
+    "Art. VII Sec. 15 midnight appointments ban",
+    "De Castro v. JBC (March 17 2010) 9-3 controversial workaround",
+    "Corona-Puno backstory",
+    "Villarama Jr. early-retirement workaround for Caguioa",
+    "JBC 5-of-7 presidential reach",
+    "originalists-vs-liberals US philosophy import",
+    "Scalia-Garland Senate freeze context"
+  ],
+  "primary_topics": [
+    "Choosing new president = choosing new SC (10-12 of 15 justices appointable)",
+    "Retirement schedule of 10 incumbent justices over next 6 years",
+    "De Castro vs JBC midnight-appointments doctrine (March 17, 2010) controversy",
+    "JBC composition + presidential leverage (5 of 7 members)",
+    "Industry + legal philosophy as new vetting criteria"
+  ],
+  "sub_topics": [
+    "May polls president can change SC composition, legal orientation, indirectly its decisions",
+    "10 of 15 justices reaching compulsory retirement age 70 in next 6 years",
+    "10 = 2/3 of Court's full composition",
+    "Possibly 12 new appointees, not just 10",
+    "Retirement schedule: Perez Dec 14 2016, Brion Dec 29 2016, Reyes July 6 2017, Mendoza Aug 13 2017, Velasco Aug 8 2018, Leonardo-De Castro Oct 8 2018, Del Castillo Jul 29 2019, Jardeleza Sep 26 2019, Bersamin Oct 18 2019, Carpio Oct 26 2019",
+    "Two more (Peralta March 27 2022, Perlas-Bernabe May 14 2022) retire within next president's term ending June 30, 2022",
+    "Constitution Art VII Sec 15 bans appointments two months before next presidential elections through end of term, except temporary executive ones for public service/safety",
+    "De Castro vs JBC (March 17, 2010, 9-3) ruled Sec 15 ban does NOT apply to SC because of 90-day vacancy-filling mandate",
+    "Controversial -- enabled Arroyo to name Renato C. Corona CJ after CJ Puno retired May 17, 2010 (within prohibited period)",
+    "2016 alternative: Justice Martin S. Villarama Jr. voluntarily retired early Jan 16, 2016",
+    "Should have retired April 14, 2016 (within prohibited period)",
+    "Early retirement allowed JBC nomination + Aquino appointment of Caguioa without ban violation",
+    "If new president invokes De Castro or early retirement, could name 12 of 15 justices",
+    "Only 3 remaining: CJ Sereno, J Leonen, J Caguioa",
+    "If young justices appointed (as Arroyo and Aquino did), lasting jurisprudential impact",
+    "Critical role of Judicial and Bar Council (JBC) in vetting nominees",
+    "JBC headed by CJ but president names 5 of 7 members: SOJ (ex officio) + 4 regular members",
+    "Constitutional requirements: proven competence, integrity, probity, independence",
+    "SC justices: natural-born, ≥40 years old, ≥15 years as lower-court judge or law practice",
+    "CJ's additional criterion: industry + sense of urgency for heavy caseload",
+    "Career-jurist industry assessable through judicial record",
+    "Noncareer jurist assessment method needed",
+    "Time to weigh legal philosophy of aspiring justices",
+    "US comparison: Republicans appoint 'originalists, textualists or conservatives'; Democrats appoint 'liberals or progressives'",
+    "CJ's earlier columns on philosophical divide (July 12 + 19, 2015; Oct 26, 2014)",
+    "Antonin Scalia's death + Obama nominating Merrick Garland",
+    "Senate Republicans 'freeze' Garland appointment for next US president to decide",
+    "Balance between originalists and liberals at stake",
+    "Closing 'At bottom': presidential candidates should disclose new-justice appointment plans"
+  ],
+  "signature_phrases": [
+    "The president who will be elected in the May polls can change the composition of the Supreme Court",
+    "Let me explain",
+    "the compulsory retirement age of 70",
+    "Not applicable to SC?",
+    "midnight appointments",
+    "This controversial decision",
+    "the JBC can nonetheless be swayed by the new president",
+    "Industry and philosophy",
+    "of proven competence, integrity, probity, and independence",
+    "industrious and have a sense of urgency",
+    "career jurists vs noncareer jurists",
+    "originalists, textualists or conservatives",
+    "liberals or progressives",
+    "freeze Garland's appointment",
+    "the delicate balance between the originalists and the liberals",
+    "At bottom, since the metamorphosis of our Supreme Court is at stake",
+    "the presidential candidates should disclose how they would appoint new justices"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Justice Jose P. Perez (retires Dec 14 2016)",
+      "Justice Arturo D. Brion (retires Dec 29 2016)",
+      "Justice Bienvenido L. Reyes (retires July 6 2017)",
+      "Justice Jose C. Mendoza (retires Aug 13 2017)",
+      "Justice Presbitero J. Velasco Jr. (retires Aug 8 2018)",
+      "Justice Teresita J. Leonardo-De Castro (retires Oct 8 2018)",
+      "Justice Mariano C. Del Castillo (retires July 29 2019)",
+      "Justice Francis H. Jardeleza (retires Sept 26 2019)",
+      "Justice Lucas P. Bersamin (retires Oct 18 2019)",
+      "Justice Antonio T. Carpio (retires Oct 26 2019)",
+      "Justice Diosdado M. Peralta (retires March 27 2022)",
+      "Justice Estela M. Perlas-Bernabe (retires May 14 2022)",
+      "CJ Maria Lourdes P. A. Sereno (retained -- 3 of 15)",
+      "Justice Marvic M. V. F. Leonen (retained)",
+      "Justice Alfredo Benjamin S. Caguioa (retained)",
+      "Former President Gloria Macapagal-Arroyo (Corona appointment)",
+      "Former CJ Renato C. Corona (Arroyo's controversial appointment)",
+      "Former CJ Reynato S. Puno (retired May 17, 2010)",
+      "Justice Martin S. Villarama Jr. (voluntary early retirement Jan 16, 2016)",
+      "President Benigno Aquino III (Caguioa appointer)",
+      "President Barack Obama (Scalia successor controversy)",
+      "Justice Antonin Scalia (deceased, originalist leader)",
+      "Judge Merrick B. Garland (Obama nominee for Scalia seat)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Judicial and Bar Council (JBC)",
+      "Department of Justice (SOJ ex officio JBC member)",
+      "Office of the President",
+      "US Supreme Court (Scalia successor comparison)",
+      "US Senate Republicans (Garland freeze)",
+      "US Court of Appeals (Garland's prior post)"
+    ],
+    "cases": [
+      "De Castro v Judicial and Bar Council (SC, March 17, 2010, 9-3) -- Sec 15 ban inapplicable to SC",
+      "Caguioa appointment (2016, via Villarama early retirement)",
+      "Corona CJ appointment (Arroyo, 2010, post-Puno)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution Article VII Section 15 -- appointments ban two months before next presidential election",
+      "1987 Constitution -- SC 90-day vacancy-filling mandate",
+      "1987 Constitution -- compulsory retirement age 70 for justices",
+      "1987 Constitution -- SC justice qualifications (natural-born, 40+, 15-yr practice/lower-court)",
+      "1987 Constitution -- magistrate requirements (competence, integrity, probity, independence)",
+      "JBC composition rules (CJ chair + SOJ + 4 regular members)"
+    ],
+    "events": [
+      "Upcoming May 2016 PH presidential election",
+      "Antonin Scalia's death (early 2016)",
+      "Obama's nomination of Merrick Garland for Scalia seat",
+      "Senate Republican freeze of Garland appointment",
+      "November 2016 US presidential election",
+      "Villarama's voluntary early retirement Jan 16, 2016",
+      "Caguioa appointment by Aquino",
+      "May 17, 2010 -- Puno retirement; Corona CJ appointment"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Choosing a new president is also choosing a new Supreme Court -- at least 10 of 15 justices reach compulsory retirement age 70 in the next 6 years (potentially 12 if De Castro v JBC or early retirement is invoked), leaving only 3 (Sereno, Leonen, Caguioa) seated, with a possibly lasting jurisprudential impact if young justices are appointed.",
+      "rhetorical_move": "consequence-magnification framing (presidential vote = judicial transformation)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "De Castro v JBC (March 17, 2010, 9-3) controversially held that Article VII Section 15's midnight-appointments ban does not apply to the SC because of the constitutional 90-day vacancy-filling mandate -- enabling Arroyo to appoint Renato C. Corona as CJ after Puno's May 17, 2010 retirement (within the prohibited period); 2016 offered an alternative via Justice Martin S. Villarama Jr.'s voluntary early retirement Jan 16, 2016 (he was supposed to retire April 14, 2016 within the ban), allowing JBC nomination and Aquino's appointment of Caguioa without ban violation.",
+      "rhetorical_move": "doctrine + alternative-pathway framing",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Critical to judicial metamorphosis is the JBC vetting nominees -- though headed by the CJ, the JBC can be swayed by the new president who names 5 of 7 members (SOJ ex officio + 4 regular), giving substantial presidential leverage over the nominee pool before the appointment itself.",
+      "rhetorical_move": "JBC-leverage disclosure (institutional design enables presidential capture)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Beyond the constitutional requirements (proven competence, integrity, probity, independence; natural-born, 40+, 15-year lower-court or law practice), justices must be 'industrious and have a sense of urgency' to handle heavy caseloads -- easily assessed for career jurists via judicial record but requiring a craftable method for noncareer jurists (private practice or academe).",
+      "rhetorical_move": "additional-criterion framing (industry + sense of urgency)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "It is now time to weigh legal philosophy of aspiring justices -- the US model where Republican presidents appoint 'originalists, textualists or conservatives' and Democrats appoint 'liberals or progressives' makes new-justice appointments an election issue, as currently exemplified by Obama-Garland-Senate-Republican standoff over the Scalia successor.",
+      "rhetorical_move": "comparative-borrowing argument (import US legal-philosophy vetting)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "At bottom, since the SC's metamorphosis is at stake in the coming polls, presidential candidates should disclose how they would appoint new justices -- making appointment criteria a campaign-disclosure imperative.",
+      "rhetorical_move": "'At bottom' + disclosure-imperative closing",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The opening lever: 'The president who will be elected in the May polls can change the composition of the Supreme Court, its legal orientation and, indirectly, its decisions. Thus, choosing a new president is also choosing a new Supreme Court' -- three sentences capturing the column's core proposition.",
+    "The ten-justice retirement-date roster preserved in chronological order -- making the institutional turnover operationally visible (Perez Dec 2016 → Carpio Oct 2019, plus Peralta and Perlas-Bernabe 2022).",
+    "The 'three only' remaining: 'CJ Maria Lourdes P.A. Sereno, Justice Marvic M.V.F. Leonen and Justice Caguioa, retaining their seats' -- physicalizing the institutional discontinuity.",
+    "The Villarama early-retirement workaround (Jan 16, 2016 vs scheduled April 14, 2016) -- capturing an alternative-to-De-Castro tactic that avoids the midnight-appointment controversy.",
+    "The Arroyo-Corona controversy preserved: 'this controversial decision enabled then President Gloria Macapagal-Arroyo to name Renato C. Corona chief justice though the post became vacant only after CJ Reynato S. Puno retired on May 17, 2010, which is within the prohibited period' -- capturing the doctrine's most contested application.",
+    "The JBC composition specifics: 'the secretary of justice (as ex officio member) and the four regular members' -- showing 5 of 7 JBC members are presidential-named, hence presidential leverage.",
+    "The originalist-vs-liberal US comparison: 'Republican presidents name originalists, textualists or conservatives while Democrats appoint liberals or progressives' -- using US political-legal taxonomy to import a philosophical vetting standard.",
+    "The Scalia-Garland-Senate-freeze contemporaneous controversy preserved -- making US comparison live and immediate.",
+    "'At bottom' closing pattern repeated (twin to 'Bottom line') -- establishing the discourse-marker.",
+    "Self-citation to three earlier columns on philosophical divide: 'see my columns on July 12 and 19, 2015, and Oct. 26, 2014' -- making the philosophy argument part of a longer CJ project."
+  ],
+  "target_audience": [
+    "2016 PH presidential candidates (explicit disclosure-imperative addressees)",
+    "Voters considering judicial-appointment criteria in choosing president",
+    "Judicial and Bar Council members and applicants",
+    "Sitting SC justices facing retirement (the 10 named)",
+    "Constitutional law academics on appointments and judicial philosophy",
+    "Legal community and law school deans",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "consequence-magnification opening framing",
+    "labeled-subhead structure ('Not applicable to SC?', 'Industry and philosophy')",
+    "retirement-roster chronological catalog",
+    "controversial-precedent disclosure framing (De Castro v JBC)",
+    "alternative-pathway framing (Villarama early retirement)",
+    "JBC-leverage disclosure",
+    "additional-criterion framing (industry + sense of urgency)",
+    "comparative-borrowing argument (US legal-philosophy taxonomy)",
+    "contemporary-event anchoring (Scalia-Garland)",
+    "'At bottom' closing-summary convention",
+    "self-citation of three prior columns",
+    "disclosure-imperative closing",
+    "career-vs-noncareer jurist taxonomy"
+  ],
+  "decision_framework_signals": [
+    "applies consequence-magnification framing for indirect-effects analysis (vote → judicial transformation)",
+    "uses controversial-precedent disclosure framing without false neutrality",
+    "deploys alternative-pathway framing when problematic doctrines have workarounds",
+    "treats JBC-leverage disclosure as essential context for appointment analysis",
+    "applies comparative-borrowing argument selectively (US legal philosophy adoption)",
+    "uses 'At bottom' as precision-summary closing convention (parallel to 'Bottom line')",
+    "structures disclosure-imperative closings for civic-accountability arguments"
+  ],
+  "one_paragraph_summary": "Panganiban argues that 'the president who will be elected in the May polls can change the composition of the Supreme Court, its legal orientation and, indirectly, its decisions. Thus, choosing a new president is also choosing a new Supreme Court.' At least 10 of the 15 incumbent justices reach the compulsory retirement age of 70 in the next 6 years (2/3 of the full composition), and new appointees could even reach 12. The retirement schedule in chronological order: Perez (Dec 14, 2016), Brion (Dec 29, 2016), Reyes (July 6, 2017), Mendoza (Aug 13, 2017), Velasco (Aug 8, 2018), Leonardo-De Castro (Oct 8, 2018), Del Castillo (July 29, 2019), Jardeleza (Sept 26, 2019), Bersamin (Oct 18, 2019), and Carpio (Oct 26, 2019); two more -- Peralta (March 27, 2022) and Perlas-Bernabe (May 14, 2022) -- retire within the next presidential term ending June 30, 2022. Article VII Section 15 of the Constitution bans presidential appointments two months before the next presidential election through end of term, except temporary executive ones for public service/safety; the SC voted 9-3 in De Castro v JBC (March 17, 2010) that this ban does not apply to the Court because of the 90-day vacancy-filling mandate. This controversial decision enabled then-President Arroyo to name Renato C. Corona CJ after Puno's May 17, 2010 retirement (within the prohibited period). To avoid the controversy, an alternative was found this year when Justice Martin S. Villarama Jr. voluntarily retired early on Jan 16, 2016 (he was scheduled to retire April 14, 2016, within the ban), allowing JBC nomination and Aquino's appointment of Alfredo Benjamin S. Caguioa. If the new president invokes either pathway, he or she could name 12 of 15 justices, leaving only CJ Sereno, Justice Leonen, and Justice Caguioa from the present Court. If the appointees are relatively young (as Arroyo and Aquino did with some appointees), the transformation could leave a lasting jurisprudential impact. Critical too is the JBC, which vets nominees -- though headed by the CJ, it can be swayed by the new president who names 5 of 7 members (SOJ ex officio + 4 regular). The Constitution requires magistrates of 'proven competence, integrity, probity, and independence,' with SC justices natural-born, ≥40 years old, and ≥15 years as lower-court judge or in law practice. CJ adds that justices must be 'industrious and have a sense of urgency' to handle heavy caseload -- assessable from judicial record for career jurists but requiring a craftable method for noncareer ones (private practice, academe). It is also time to weigh legal philosophy -- in the US, Republican presidents appoint 'originalists, textualists or conservatives' and Democrats appoint 'liberals or progressives.' An ongoing controversy is whether Obama should name Antonin Scalia's successor; Obama nominated Merrick B. Garland, but Senate Republicans vowed to 'freeze' the appointment for the next US president to avoid skewing the delicate originalist-liberal balance. 'At bottom, since the metamorphosis of our Supreme Court is at stake in the coming polls, I believe the presidential candidates should disclose how they would appoint new justices.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

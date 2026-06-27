@@ -1,0 +1,147 @@
+{
+  "id": "CE046",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 46,
+  "title": "Senate to elect new leader",
+  "date": "2022-01-16",
+  "link": "https://opinion.inquirer.net/148730/senate-to-elect-new-leader",
+  "keywords": [
+    "Senate President as acting President",
+    "holdover senators (2019-2025)",
+    "succession crisis contingency",
+    "quorum and Senate functions",
+    "drug-case follow-up (Espinosa)",
+    "Justice Secretary Menardo Guevarra"
+  ],
+  "primary_topics": [
+    "Proposal to elect a new 'independent' Senate President from among the 12 holdover senators (terms ending 2025)",
+    "Constitutional succession architecture if no President or Vice-President is chosen on May 9, 2022",
+    "Senate President's authority to 'act as President' under Article VII despite reduced post-election Senate",
+    "Reader reactions to last Sunday's 'Embarrassing knockout' column on the Espinosa drug case",
+    "DOJ Secretary Menardo Guevarra's commitment to pursue the truant policemen and prosecutors"
+  ],
+  "sub_topics": [
+    "12 holdover senators eligible as Senate President: Cynthia Villar, Grace Poe, Bong Go, Pia Cayetano, Ronald dela Rosa, Sonny Angara, Lito Lapid, Imee Marcos, Francis Tolentino, Koko Pimentel, Bong Revilla, Nancy Binay",
+    "Three main proponents (Sotto, Lacson, Drilon) -- all ending second terms June 30 and unable to seek reelection",
+    "Scenarios that could collapse the May 9 election: ballot-printing failure, COVID-19 infections, alleged data hacks, 'any other Machiavellian excuse'",
+    "Presidential term hard-coded by the Constitution: six years, noon June 30 to noon June 30",
+    "Article VII succession clause: Senate President or, failing him, House Speaker acts as President until one is chosen and qualified",
+    "Reader reactions: RTC Judge Jovi Rosario-Mercado (90% of drug cases dismissed due to sloppy police work); law professor Victoria Loanzon (assigned reading); Cirilo Noel (former SGV head); retired Justice Adolfo S. Azcuna; civic leader Eduardo Yap; former ambassador Joseph Bernardo; two incumbent justices; former law dean Antonio H. Abad",
+    "Justice Secretary Guevarra's pledge: drug trafficking case at RTC-Manila; a case to be filed soon at RTC-Baybay, Leyte; another undergoing preliminary investigation",
+    "Famous Guevarra line: 'He may get away in one, Chief, but he will not get away in all'"
+  ],
+  "signature_phrases": [
+    "Honorable Senators, I see no harm in your plan. Just do it!",
+    "Machiavellian excuse",
+    "President Duterte cannot hold over",
+    "A RAW NERVE WAS JOLTED",
+    "Texts, emails and calls blitzed my phone",
+    "About 90% of drug cases filed in court are thrown out because of sloppy police work",
+    "shoot first and ask questions later mercenaries",
+    "we'll exhaust all available remedies",
+    "He may get away in one, Chief, but he will not get away in all"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Senate President Tito Sotto",
+      "Senator Panfilo 'Ping' Lacson",
+      "Senator Franklin 'Frank' Drilon",
+      "Holdover senators 2019-2025: Cynthia Villar, Grace Poe, Bong Go, Pia Cayetano, Ronald dela Rosa, Sonny Angara, Lito Lapid, Imee Marcos, Francis Tolentino, Koko Pimentel, Bong Revilla, Nancy Binay",
+      "President Rodrigo Duterte",
+      "Justice Secretary Menardo I. Guevarra",
+      "RTC Judge Jovi Rosario-Mercado (Macabebe, Pampanga)",
+      "Law professor Victoria Loanzon",
+      "Cirilo Noel (former head of SGV and Company)",
+      "Retired Justice Adolfo S. Azcuna",
+      "Eduardo Yap (civic leader)",
+      "Joseph Bernardo (former ambassador)",
+      "Former law dean Antonio H. Abad",
+      "Kerwin Espinosa (alleged drug lord)"
+    ],
+    "institutions": [
+      "Senate of the Philippines",
+      "House of Representatives",
+      "Commission on Elections (Comelec)",
+      "Department of Justice (DOJ)",
+      "Philippine National Police (PNP)",
+      "Regional Trial Court (Manila, Baybay-Leyte)",
+      "SGV and Company"
+    ],
+    "cases": [
+      "Pending follow-on drug trafficking cases in RTC-Manila, RTC-Baybay (Leyte), and preliminary investigation"
+    ],
+    "laws_treaties": [
+      "1987 Constitution, Article VII -- six-year presidential term; Senate President / House Speaker succession",
+      "Republic Act 9165 (Comprehensive Dangerous Drugs Act of 2002)"
+    ],
+    "events": [
+      "Planned Senate election of new 'independent' Senate President",
+      "May 9, 2022 national elections",
+      "Hypothetical election failure scenarios (printing, COVID-19, hacks)",
+      "Reader engagement after the Jan. 9 'Embarrassing knockout' column"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Electing a new Senate President from among the 12 holdover senators is a sound contingency: should the May 9 election fail, the new Senate President -- whose term runs until 2025 -- can constitutionally 'act as President' to prevent a hiatus.",
+      "rhetorical_move": "constitutional-design endorsement of legislative prudence",
+      "confidence": "endorsed ('I see no harm in your plan. Just do it!')"
+    },
+    {
+      "claim": "Even if only 12 senators remain after the election, the Senate President can exercise functions that do not depend on quorum -- including the power to act as President.",
+      "rhetorical_move": "function-specific quorum carveout",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "President Duterte cannot hold over: the constitutional six-year term is hard-coded to end at noon on June 30 following the election.",
+      "rhetorical_move": "textual finality argument against any presidential continuation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Espinosa drug-case acquittal struck 'a raw nerve' across the legal community -- RTC judges, former justices, law deans, ambassadors, and civic leaders all converged on the diagnosis that sloppy police work and procedural shortcuts erode public confidence and tempt authoritarian responses.",
+      "rhetorical_move": "amplifying-chorus argument via reader testimony",
+      "confidence": "documented"
+    },
+    {
+      "claim": "Justice Secretary Guevarra's pledge to pursue remaining cases -- RTC-Manila, RTC-Baybay (Leyte), and one in preliminary investigation -- keeps the door to justice open: 'He may get away in one, Chief, but he will not get away in all.'",
+      "rhetorical_move": "transmittal of executive commitment with monitoring promise",
+      "confidence": "endorsed"
+    }
+  ],
+  "notable_anecdotes": [
+    "Judge Jovi Rosario-Mercado's text: 'About 90% of drug cases filed in court are thrown out because of sloppy police work... [PNP] don't even know the Constitution, RA 9165, basic laws on the rights of the accused and correct procedure on arrests and evidence.'",
+    "Law professor Victoria Loanzon assigning the column as 'assigned reading... this semester.'",
+    "Former Ambassador Joseph Bernardo's laconic line: 'I wouldn't be surprised if this was done intentionally to assure the dismissal of the case!'",
+    "Two incumbent justices chiming in carefully to avoid showing bias ('well-synthesized facts and ruling of a brewing controversial drug case').",
+    "Antonio H. Abad on Guevarra: 'will do what is right and morally good... I am sure he will find a way to file cases against the erring policemen and prosecutors.'"
+  ],
+  "target_audience": [
+    "Senate of the Philippines (the proponents and undecided senators)",
+    "Constitutional-law observers tracking succession contingencies",
+    "DOJ leadership and law-enforcement reformers",
+    "Loyal Inquirer readers of the 'With Due Respect' column",
+    "Civil society monitoring the drug-war prosecutions"
+  ],
+  "register_markers": [
+    "imperative endorsement ('Just do it!')",
+    "scenario-listing register ('printing... COVID-19... data hacks... any other Machiavellian excuse')",
+    "epistolary chorus structure (texts, emails, calls from named correspondents)",
+    "warm vocative ('Honorable Senators')",
+    "doctrinal-formal citation of constitutional text",
+    "promise-of-monitoring close ('the readers and I will help monitor these cases')",
+    "use of 'CJ' / 'Chief' as a relational marker from correspondents"
+  ],
+  "decision_framework_signals": [
+    "constitutional-text reading of the six-year presidential term and succession clauses",
+    "function-vs-quorum analysis to determine what a depleted Senate can still do",
+    "contingency-design reasoning (anticipate failure modes; install a constitutional backstop)",
+    "social-network amplification heuristic (legal-elite consensus as diagnostic of institutional reality)",
+    "executive-pledge-and-monitor framework (record the commitment; promise public follow-up)"
+  ],
+  "one_paragraph_summary": "Panganiban endorses a plan by Senate President Tito Sotto, Senator Ping Lacson, and Senator Frank Drilon -- all ending their second terms June 30 and ineligible for reelection -- to elect a new 'independent' Senate President from among the twelve holdover senators whose 2019-2025 terms keep them in office past the May 9 elections (Villar, Poe, Go, Cayetano, dela Rosa, Angara, Lapid, Marcos, Tolentino, Pimentel, Revilla, Binay). The reason is constitutional contingency: should the May 9 polls fail because of ballot-printing problems, COVID-19 disruptions, alleged data hacks, or 'any other Machiavellian excuse,' President Duterte cannot hold over (the six-year term ends hard at noon on June 30), and Article VII directs that the Senate President -- or failing him the House Speaker -- 'act as President' until one is chosen and qualified. Even a 12-member Senate, while short of a legislative quorum, can still discharge functions that do not require quorum, including providing an acting President. 'Honorable Senators, I see no harm in your plan. Just do it!' He then pivots to reader reactions to the prior Sunday's 'Embarrassing knockout' column on the Espinosa drug-case dismissal: a chorus of RTC judges, law professors, retired justices, ambassadors, civic leaders, and two incumbent justices converging on the diagnosis that sloppy police work explains the knockout, and DOJ Secretary Menardo Guevarra's pledge to vigorously prosecute Espinosa in the remaining cases (RTC-Manila, RTC-Baybay in Leyte, and one in preliminary investigation): 'He may get away in one, Chief, but he will not get away in all.' Panganiban promises that he and his readers will help monitor.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

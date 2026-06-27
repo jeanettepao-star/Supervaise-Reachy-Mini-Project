@@ -1,0 +1,143 @@
+{
+  "id": "CA251",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 251,
+  "title": "Is Maria Ressa liable for libel?",
+  "date": "2019-02-24",
+  "link": "https://opinion.inquirer.net/119761/is-maria-ressa-liable-for-libel",
+  "keywords": [
+    "Maria Ressa",
+    "cyber libel",
+    "Cybercrime Act of 2012",
+    "multiple publication rule",
+    "ex post facto",
+    "press freedom"
+  ],
+  "primary_topics": [
+    "Maria Ressa's DOJ cyber libel indictment under RA 10175",
+    "Multiple-publication rule applied to the Feb 19, 2014 republication",
+    "Ex post facto and prescription defenses analyzed",
+    "Privileged-communication / fair-commentary-on-public-figure defense",
+    "Procedural complaint about after-hours arrest warrant service"
+  ],
+  "sub_topics": [
+    "Original posting May 29, 2012 -- Cybercrime Act not yet effective (passed Sept 2012)",
+    "DOJ Resolution Jan 10, 2019 -- exonerated Ressa from 2012 original posting",
+    "Charged only for 'republication' Feb 19, 2014 -- Reynaldo Santos Jr. co-accused",
+    "Multiple publication rule citation: Soriano v. IAC (Nov 9, 1988)",
+    "RA 10175 (Cybercrime Act of 2012) -- cyber libel prescribes in 12 years",
+    "Ordinary libel under RPC prescribes in 1 year",
+    "Ressa's wobbly prescription defense -- she was charged under RA 10175, not RPC",
+    "Ex post facto defense not viable -- republication happened while Cybercrime Law was effective",
+    "DOJ Sec Menardo Guevarra's defiant invitation to be sued",
+    "Privileged-communication defense -- fair commentary on public-figure conduct",
+    "Borjal v. CA (Jan 14, 1999) -- 'honest criticisms on the conduct of public officials and public figures are insulated from libel judgments'",
+    "Public figure definition -- 'anyone who has arrived at a position where the public attention is focused upon him as a person'",
+    "Complainant Wilfredo Keng -- private individual whose public-figure status Ressa must prove",
+    "After-hours warrant service, overnight detention -- administrative not substantive",
+    "NBI internal investigation into agent liability",
+    "Other possible defenses: republication doctrine to cyber libel, equal protection / selective justice, probable cause"
+  ],
+  "signature_phrases": [
+    "To set the record straight at the outset",
+    "her defense of prescription is wobbly",
+    "Neither is her defense of ex post facto law viable",
+    "vexatious overnight detention",
+    "deplorable but will not, unfortunately for her, have much legal effect",
+    "Ressa has viable defenses in her favor",
+    "the caveat in all litigations is that perceived facts must be converted to legal facts",
+    "in my humble view",
+    "Simply stated, an ex post facto law punishes an act done on an earlier date when it was not punishable"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Maria Ressa",
+      "Reynaldo Santos Jr. (article writer, co-accused)",
+      "Wilfredo Keng (private-individual complainant)",
+      "Justice Secretary Menardo Guevarra"
+    ],
+    "institutions": [
+      "Department of Justice (DOJ)",
+      "Rappler",
+      "National Bureau of Investigation (NBI)",
+      "Supreme Court of the Philippines",
+      "Revised Penal Code (RPC)"
+    ],
+    "cases": [
+      "Soriano v. IAC (Nov 9, 1988) -- multiple publication rule",
+      "Borjal v. CA (Jan 14, 1999) -- privileged commentary on public figures"
+    ],
+    "laws_treaties": [
+      "Republic Act No. 10175 (Cybercrime Prevention Act of 2012) -- 12-year prescription for cyber libel",
+      "Revised Penal Code -- ordinary libel, 1-year prescription",
+      "1987 Constitution -- ex post facto law prohibition, equal protection clause"
+    ],
+    "events": [
+      "May 29, 2012 -- original Rappler article posting (pre-Cybercrime Law)",
+      "September 2012 -- Cybercrime Act effectivity",
+      "Feb 19, 2014 -- Rappler 'republication' giving rise to charge",
+      "Jan 10, 2019 -- DOJ Resolution",
+      "Warrant served after office hours -- overnight detention"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Ressa's prescription defense is wobbly because she was charged under RA 10175 (Cybercrime Act), which prescribes in 12 years, not under the Revised Penal Code's ordinary libel (which prescribes in 1 year and the DOJ already conceded had prescribed for the 2012 original posting).",
+      "rhetorical_move": "statute-identification-as-defense-defeat (the wrong statute is being defended against)",
+      "confidence": "asserted with 'in my humble view' marker"
+    },
+    {
+      "claim": "Ressa's ex post facto defense is also not viable because the charge concerns the Feb 19, 2014 republication, which occurred when the Cybercrime Law was already in effect -- not the May 29, 2012 original posting which the DOJ explicitly exonerated.",
+      "rhetorical_move": "timing-analysis-with-illustrative-jaywalking-example (using a vivid pedagogical analogy to clarify the ex post facto doctrine)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Despite these defense weaknesses, Ressa has VIABLE defenses including: (a) the Rappler article was privileged as 'fair commentary on a matter of public interest' under Borjal v. CA (provided Keng's public-figure status can be established), (b) the inapplicability of the old RPC republication doctrine to new cyber libel, (c) equal protection violation via selective justice, and (d) lack of probable cause.",
+      "rhetorical_move": "defense-strength-redirection (rejecting the headlines defenses, identifying the actually viable ones)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The after-hours warrant service and overnight detention -- though deplorable -- will have minimal legal effect on Ressa's culpability for cyber libel; the appropriate remedy is administrative sanctions against the offending public officials, which the NBI is already investigating.",
+      "rhetorical_move": "procedural-vs-substantive distinction (irregularity in arrest does not absolve substantive liability)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The DOJ's pedagogical clarity that 'the first publication of the article on 29 May 2012 is not covered by the Cybercrime Act of 2012, considering that the law was promulgated only in September 2012' -- used as the column's foundational date-line establishing what Ressa was NOT charged with.",
+    "Justice Secretary Guevarra's defiant public statement: he 'insisted he broke no law in filing the criminal charge and dared Ressa to sue him if she thought he violated her rights' -- capturing the tonal posture of the prosecution.",
+    "CJ's jaywalking illustration of ex post facto: 'A pedestrian crossed a street on Jan. 1, 2019. A month later, a new law was passed punishing that very act of jaywalking on Jan. 1' -- the most accessible pedagogical illustration of the doctrine in the column series.",
+    "The closing legal-realism caveat: 'perceived facts must be converted to legal facts by the lawyers of both sides via the rules of evidence; otherwise, courts cannot use them in their judgments' -- reminding readers that political narrative and legal proof are not the same."
+  ],
+  "target_audience": [
+    "Legal practitioners and media-law specialists",
+    "Press freedom advocates and journalists",
+    "Civic-minded readers tracking the Ressa case",
+    "Rappler staff and supporters seeking analytical clarity",
+    "DOJ and Court observers"
+  ],
+  "register_markers": [
+    "doctrinal-analytical neutrality (refuses to take a position on guilt/innocence)",
+    "set-the-record-straight opening register",
+    "statute-identification-with-prescription-period precision",
+    "pedagogical-analogy register (jaywalking example for ex post facto)",
+    "'in my humble view' as recurring humility marker",
+    "defense-strength taxonomy (wobbly vs viable)",
+    "procedural-vs-substantive distinction pattern",
+    "legal-realism caveat closing ('perceived facts must be converted to legal facts')",
+    "matter-of-fact tonal posture even on politically charged subject matter"
+  ],
+  "decision_framework_signals": [
+    "uses statute-identification as primary diagnostic before evaluating defenses",
+    "applies timing-analysis to ex post facto questions (when did the charged act occur)",
+    "redirects from headlines defenses (prescription, ex post facto) to actually-viable defenses (privilege, probable cause, equal protection)",
+    "separates procedural irregularity from substantive culpability",
+    "treats fact-vs-legal-fact distinction as universal litigation caveat",
+    "anchors public-figure / private-individual analysis in Borjal v. CA doctrine"
+  ],
+  "one_paragraph_summary": "Panganiban sets the record straight on the Maria Ressa cyber libel case: the DOJ in its January 10, 2019 Resolution explicitly exonerated her from libel for the original May 29, 2012 Rappler posting (because the Cybercrime Act was not promulgated until September 2012), and charged her and writer Reynaldo Santos Jr. only for the 'republication' of February 19, 2014 under the multiple publication rule articulated in Soriano v. IAC (November 9, 1988). Because the operative statute is RA 10175 (which prescribes in 12 years for cyber libel) rather than the Revised Penal Code's ordinary libel (which prescribes in 1 year), her prescription defense is 'wobbly.' Her ex post facto defense is similarly inviable because the charged act (the 2014 republication) occurred while the Cybercrime Law was already in effect -- CJ illustrates with a jaywalking analogy. He pivots to the defenses Ressa actually has: (a) the Rappler article may be privileged as 'fair commentary on a matter of public interest' under Borjal v. CA (January 14, 1999), provided that complainant Wilfredo Keng -- a private individual -- can be shown to have attained 'public figure' status; (b) the old RPC multiple-publication doctrine may not transpose to cyber libel; (c) selective justice may breach equal protection; and (d) probable cause itself may be absent. The deplorable after-hours warrant service and overnight detention, he says, will have minimal effect on substantive culpability though administrative sanctions against the agents are appropriate and the NBI is already investigating. He closes with the universal litigation caveat: 'perceived facts must be converted to legal facts by the lawyers of both sides via the rules of evidence; otherwise, courts cannot use them in their judgments.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,157 @@
+{
+  "id": "CC020",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 20,
+  "title": "Drilon should have been PH President",
+  "date": "2026-02-09",
+  "link": "https://opinion.inquirer.net/189581/drilon-should-have-been-ph-president",
+  "keywords": [
+    "Drilon",
+    "tribute",
+    "memoir",
+    "personal reflection",
+    "Chief Justice"
+  ],
+  "primary_topics": [
+    "Tribute to former Senate President Franklin M. Drilon on the launch of his autobiography 'Being Frank, a Memoir'",
+    "Reproduction of CJP's Foreword arguing Drilon was the most qualified man of his time to be President and Chief Justice",
+    "Counterfactual political history -- what would have happened in 2016 if Drilon had run + what happened in 2012 because he declined CJ",
+    "Drilon's two wives -- Violy Calvo (first) and Mila Serrano Genuino (second, chosen by Violy before her death)"
+  ],
+  "sub_topics": [
+    "Drilon's electoral track record -- never lost an election + topped senatorial polls more than once + multiple Senate President + Senate Minority Leader stints",
+    "2016 presidential scenario -- Drilon with Mar Roxas or Grace Poe as VP, hypothesis that Rodrigo Roa Duterte would not have run",
+    "2012 Chief Justice vacancy after Renato C. Corona's impeachment removal by the Senate Impeachment Court",
+    "CJP's daily-call lobbying campaign + Drilon's escape to San Francisco + return-flight detour directly from NAIA to CJP's home",
+    "Aquino III's refusal to appoint Arroyo-named incumbent senior justices",
+    "Maria Lourdes P. A. Sereno appointment despite junior rank (2010-2012 service + bottom-third ranking among 15 justices)",
+    "Sereno's 8-6 quo warranto ouster -- unprecedented mechanism, not impeachment, over unfiled SALN as UP law faculty",
+    "Speaker Jose Yulo's WW2 CJ appointment as the only prior outsider-Chief precedent since 1901",
+    "Violy Calvo as 'wind beneath his sails' + 'activist' driving force from NUSP days",
+    "Violy's selection of Mila Genuino as Drilon's future second wife before her own death from incurable illness",
+    "Drilon's faith -- proclaiming Jesus as his Lord and Master + St. Paul's race-and-faith closing"
+  ],
+  "signature_phrases": [
+    "Should have been President",
+    "competent, prudent and collegial",
+    "the wind beneath his sails",
+    "incorrigible refusal",
+    "the only exception being during World War 2",
+    "I have done my best. I have finished the race. I have kept the faith",
+    "lovingly, tenderly, eternally",
+    "more than this earthly life",
+    "first outsider to become Chief"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (Foreword author)",
+      "Franklin M. Drilon (former Senate President + memoirist)",
+      "President Benigno Aquino III",
+      "Mar Roxas (hypothetical 2016 VP teammate)",
+      "Grace Poe (hypothetical 2016 VP teammate)",
+      "Rodrigo Roa Duterte",
+      "Renato C. Corona (CJ removed via impeachment 2012)",
+      "Maria Lourdes P. A. Sereno (appointed CJ 2012, ousted via quo warranto)",
+      "President Gloria Macapagal-Arroyo",
+      "Speaker Jose Yulo (WW2 CJ -- sole prior outsider precedent)",
+      "Violy Calvo (Drilon's first wife)",
+      "Mila Serrano Genuino (Drilon's second wife)",
+      "St. Paul (closing quotation source)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Senate of the Philippines",
+      "Senate Impeachment Court",
+      "National Union of Students of the Philippines (NUSP, CJP-founded)",
+      "University of the Philippines (Sereno's law-faculty employer)",
+      "Ninoy Aquino International Airport (NAIA)"
+    ],
+    "documents_and_events": [
+      "'Being Frank, a Memoir' (Drilon's autobiography, 2026 launch)",
+      "Corona's impeachment removal (2012)",
+      "Sereno's 8-6 quo warranto ouster"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Franklin M. Drilon should have been President of the Republic of the Philippines -- among all the politicians of his time, he was the most qualified, most experienced, most effective, and most trustworthy, patriotic, sharp, humble, outspoken, pro-poor, unblemished by any scandal, and as a national politician has never lost an election (topped senatorial polls more than once, Senate President several times, Senate Minority Leader a few times).",
+      "rhetorical_move": "titular thesis + superlative-roster + never-lost-election credential",
+      "confidence": "asserted as Foreword's central thesis"
+    },
+    {
+      "claim": "Competent, prudent and collegial, Drilon knew how to think, act and work when leading the majority and how to fiscalize the majority, defend the national will and protect the marginalized when heading the minority.",
+      "rhetorical_move": "competent-prudent-collegial triplet + majority-minority duality",
+      "confidence": "asserted as governance capability"
+    },
+    {
+      "claim": "CJP tried his best to inveigle Drilon to aspire for the presidency, sure that retiring popular President Aquino III would support him -- with either Mar Roxas or Grace Poe as his VP teammate in 2016, Drilon would have been unbeatable; in fact, Rodrigo Roa Duterte would not have run had he known Drilon would be the top contender. CJP pleaded motherland, patriotism, common welfare, and assured victory, but could not budge the distinguished former Senate President.",
+      "rhetorical_move": "counterfactual 2016 + Duterte-would-not-have-run + four-fold pleading-roster",
+      "confidence": "asserted as counterfactual political-history claim"
+    },
+    {
+      "claim": "When the 2012 CJ vacancy opened due to Corona's impeachment removal, CJP asked Drilon to consider being the replacement, hounding him daily with personal meetings -- and after Drilon 'escaped' to San Francisco to avoid CJP, CJP still called him daily; Drilon promised on his return to go direct from NAIA to CJP's home to discuss with finality his refusal.",
+      "rhetorical_move": "daily-lobbying + San-Francisco-escape + NAIA-direct-detour anecdote-cascade",
+      "confidence": "asserted as first-person eyewitness recollection"
+    },
+    {
+      "claim": "By Drilon's incorrigible refusal, he created a crisis in the Supreme Court because Aquino III did not want to appoint any incumbent senior associate justices named there by his predecessor Gloria Macapagal-Arroyo -- the incumbent justices signaled they would not object to Drilon as the first outsider Chief since the Court was founded in 1901 (only exception being Speaker Jose Yulo as CJ during World War 2). Given his impeccable legal track record and near-70 retirement age, Drilon would serve only a few years, giving the senior justices an opportunity to become Chief soon enough.",
+      "rhetorical_move": "incorrigible-refusal critique + first-outsider-since-1901 + Yulo-WW2 precedent anchoring",
+      "confidence": "asserted as crisis-causation analysis"
+    },
+    {
+      "claim": "Because of his steadfast refusal, Aquino III appointed Maria Lourdes P. A. Sereno, a very junior member who had served only two years (2010-2012) as associate justice and was ranked among the last third of the 15 justices; for this and other reasons CJP will no longer discuss, Sereno was ousted by her colleagues voting 8-6 via quo warranto -- not by the constitutional process of impeachment -- due to her failure to file some of her annual SALN while a UP law faculty member.",
+      "rhetorical_move": "Sereno-junior-rank + 8-6 quo-warranto + not-impeachment counterfactual distinction",
+      "confidence": "asserted with discretion-reserving 'other reasons' parenthetical"
+    },
+    {
+      "claim": "CJP will not preempt Frank and leaves it to him to explain to his readers and admirers in his Memoirs why he steadfastly declined to be President and/or Chief Justice.",
+      "rhetorical_move": "memoir-deference + leave-explanation-to-author humility",
+      "confidence": "asserted as respectful reserve"
+    },
+    {
+      "claim": "Frank's first wife Violy Calvo fully and absolutely supported his political career -- CJP ventures she was not merely the wind beneath his sails but the driving force, the 'activist' who inspired and helped catapult him to his meteoric political career; CJP personally knew the lovely, kind and candid Violy, an upcoming NUSP leader CJP had founded and headed earlier on. Before she died of incurable illness, Violy helped choose Frank's new wife Mila Serrano Genuino -- a widow Violy knew would fit Frank's career and take care of him, as indeed she did and still does, 'lovingly, tenderly, eternally.'",
+      "rhetorical_move": "Violy-as-activist-not-just-wind + Violy-chose-Mila + lovingly-tenderly-eternally triplet",
+      "confidence": "asserted with first-person testimony"
+    },
+    {
+      "claim": "More than this earthly life, Mila has uncannily and invisibly led Frank to imitate the Lord Jesus, whom Frank has proclaimed (like many of us) as his Lord and Master and vowed to imitate Him and join Him in Heaven one day. Though now retired from active politics, as he writes his Memoirs, Franklin M. Drilon remains a legend for what he has done and continues to do for our country and people -- he can rightly claim, as St. Paul did, that 'I have done my best. I have finished the race. I have kept the faith.'",
+      "rhetorical_move": "Mila-spiritual-direction + St-Paul race-and-faith closing quotation",
+      "confidence": "asserted as faith-tribute closing"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJP's pleading with Drilon to run for president in 2016 with Roxas or Poe as VP, arguing Duterte would not have run if Drilon were the top contender",
+    "Drilon's escape to San Francisco to avoid CJP's daily calls about the 2012 CJ vacancy",
+    "Drilon's return-flight detour directly from NAIA to CJP's home to deliver his final refusal of the CJ post",
+    "Aquino III's refusal to appoint any Arroyo-named senior justice -- incumbents signaled they would not object to Drilon as first outsider since 1901 founding",
+    "Speaker Jose Yulo's WW2 CJ tenure as the only prior outsider-Chief precedent",
+    "Sereno's eventual 8-6 quo warranto ouster (not by constitutional impeachment process) over unfiled SALNs as UP law faculty",
+    "Violy Calvo's selection of Mila Genuino as Drilon's future second wife before her own death from incurable illness"
+  ],
+  "target_audience": [
+    "Drilon's circle of friends + admirers + book-launch attendees",
+    "Readers interested in counterfactual political history",
+    "Observers of the 2012 Sereno appointment + her later quo warranto ouster",
+    "Inquirer column followers tracking CJP's tribute series",
+    "Philippine legal community interested in CJ-succession history"
+  ],
+  "register_markers": [
+    "Foreword reproduced in quotation marks throughout the central section",
+    "First-person retrospective with biographical detail",
+    "Closes with St. Paul's race-and-faith quotation",
+    "Warm tribute register without hagiography -- acknowledges Drilon's reasons for declining without preempting them",
+    "All-caps section-lead-ins ('FRANKLIN M. DRILON SHOULD HAVE BEEN PRESIDENT', 'BY HIS INCORRIGIBLE REFUSAL', 'FRANK'S FIRST WIFE')"
+  ],
+  "decision_framework_signals": [
+    "Statesmanship measured by qualification + experience + effectiveness + trustworthiness",
+    "Presidential viability assessed by electoral track record + unbeatable-coalition logic + patriotic appeal",
+    "CJ vacancy filling by tradition favoring the two most senior justices except for the WW2 Yulo precedent",
+    "Constitutional impeachment vs quo warranto as alternative removal mechanisms -- preference for the former",
+    "Counterfactual analysis as historical-judgment tool"
+  ],
+  "one_paragraph_summary": "Written as Drilon launched his autobiography 'Being Frank, a Memoir,' Panganiban reproduces the Foreword he authored, arguing that Drilon should have been President of the Republic -- the most qualified, experienced, effective, and trustworthy politician of his time. He recounts his unsuccessful pleas for Drilon to run in 2016 with Roxas or Poe (positing that Duterte would not have entered the race) and his daily lobbying in 2012 for Drilon to fill the post-Corona Chief Justice vacancy, including Drilon's escape to San Francisco and post-flight detour directly from NAIA to CJP's home to deliver his final refusal. The refusals led Aquino III to bypass Arroyo-appointed senior justices and name Sereno, who was later ousted 8-6 via quo warranto over unfiled SALNs. He closes warmly on Drilon's first wife Violy Calvo (the 'wind beneath his sails' and 'activist' driving force from NUSP days), her selection of Mila Genuino as his future second wife before her own death, and Drilon's St. Paul-quoting faith legacy.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

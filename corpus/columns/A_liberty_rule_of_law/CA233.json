@@ -1,0 +1,124 @@
+{
+  "id": "CA233",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 233,
+  "title": "Options in Bongbong-Leni VP row",
+  "date": "2019-10-13",
+  "link": "https://opinion.inquirer.net/124560/options-in-bongbong-leni-vp-row",
+  "keywords": [
+    "Bongbong Marcos",
+    "Leni Robredo",
+    "Presidential Electoral Tribunal",
+    "PET Rule 65",
+    "election protest",
+    "Third Cause of Action",
+    "Maguindanao Lanao del Sur Basilan",
+    "substantial recovery"
+  ],
+  "primary_topics": [
+    "Bongbong Marcos's election protest against VP Leni Robredo before the Supreme Court sitting as the Presidential Electoral Tribunal (PET)",
+    "PET Rule 65 'substantial recovery' threshold and Caguioa report on the three pilot provinces",
+    "Status of the Third Cause of Action seeking annulment of all votes in Maguindanao, Lanao del Sur, and Basilan",
+    "Four procedural options available to the PET and CJ's preferred path"
+  ],
+  "sub_topics": [
+    "Original protest covered 25 provinces and 5 cities, ~39,000 clustered precincts",
+    "Three pilot provinces: Camarines Sur, Iloilo, Negros Occidental",
+    "Recount result: Leni's original 263,473-vote lead grew by ~15,000 more votes",
+    "Romulo B. Macalintal as Leni's lead counsel; George Erwin Garcia as Bongbong's",
+    "PET Rule 65 quoted in full: dismissal authorized when protestant 'will most probably fail to make out his case'",
+    "First Cause of Action dismissed Aug 29, 2017 for 'judicial economy' (same grounds as Second and Third)",
+    "Comelec's prior 'technical examination' (TE) covered only 200 of 2,756 precincts",
+    "Existing PET Rules cover only quo warranto cases and election protests with pilot-area designation; do not contemplate the Third Cause framework"
+  ],
+  "signature_phrases": [
+    "the protestant... will most probably fail to make out his case",
+    "best exemplify",
+    "without passing judgment on the merits",
+    "due process must first be observed",
+    "the prudent way to proceed",
+    "If I were still sitting in the Court, I would vote for the said option",
+    "deprives Leni of due process",
+    "her 'day in court'",
+    "for judicial economy"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, retired CJ)",
+      "Ferdinand 'Bongbong' Marcos Jr. (protestant, former senator)",
+      "Vice President Leni Robredo (protestee)",
+      "Romulo B. Macalintal (Leni's main counsel)",
+      "George Erwin Garcia (Bongbong's lead counsel)",
+      "Justice Alfredo Benjamin S. Caguioa (member-in-charge, pilot-province report author)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Presidential Electoral Tribunal (PET)",
+      "Commission on Elections (Comelec)"
+    ],
+    "cases": [
+      "Marcos v. Robredo (PET election protest, ongoing)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (PET jurisdiction)",
+      "PET Rules -- Rule 65 (substantial-recovery dismissal authority)"
+    ],
+    "places": [
+      "Camarines Sur",
+      "Iloilo",
+      "Negros Occidental",
+      "Maguindanao",
+      "Lanao del Sur",
+      "Basilan"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Leni's argument for outright dismissal under PET Rule 65 is doctrinally strong on the Second Cause of Action, because Caguioa's recount in the pilot provinces showed her lead increasing by ~15,000 votes -- fully satisfying the 'will most probably fail' threshold the Rule expressly contemplates.",
+      "rhetorical_move": "rule-quotation followed by application-to-facts"
+    },
+    {
+      "claim": "However, dismissal cannot be ordered for the whole protest because Bongbong's Third Cause of Action -- seeking annulment of all votes in three Mindanao provinces (2,756 precincts) on grounds of terrorism, threats, intimidation, harassment, and pre-shading -- was not part of the pilot-province framework, so the Rule 65 disposal mechanism does not reach it.",
+      "rhetorical_move": "scope-limiting distinction"
+    },
+    {
+      "claim": "Of four available options -- (1) outright dismissal, (2) adoption of the Comelec's 200-precinct TE, (3) full TE of all 2,756 precincts, (4) calling for position papers and amicus curiae briefs to craft proper rules -- Option 4 is the prudent path because the existing PET Rules do not cover the Third Cause framework, and no fair process can run without agreed-upon rules.",
+      "rhetorical_move": "four-way option enumeration with reasoned preference"
+    },
+    {
+      "claim": "Option 2 (using the Comelec's prior 200-precinct TE) would violate Leni's due-process rights because she was not a party to that other case and never had her 'day in court' on those findings.",
+      "rhetorical_move": "due-process objection to evidentiary shortcut"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's explicit disclosure that he 'vigorously supported' the PET resolution requiring both parties to comment, in interviews with GMA News and ANC's Karen Davila -- anchoring the column in his live public commentary rather than abstract analysis.",
+    "CJ's closing 'If I were still sitting in the Court, I would vote for the said option' -- a retired-jurist counterfactual that gives the column the weight of a draft dissent or concurrence without the constraints of an active role."
+  ],
+  "target_audience": [
+    "PET members (the SC justices themselves)",
+    "Electoral lawyers and constitutional-law practitioners",
+    "Civic readers following the Marcos-Robredo protest",
+    "Macalintal and Garcia legal teams",
+    "Editorial commentators covering the election protest"
+  ],
+  "register_markers": [
+    "doctrinal-procedural register",
+    "Rule-quotation-with-application analytical structure",
+    "four-option enumeration (recurring CJ device)",
+    "'in my humble opinion' implicitly via the closing counterfactual",
+    "due-process insistence even for unpopular litigant",
+    "retired-jurist hypothetical-vote disclosure"
+  ],
+  "decision_framework_signals": [
+    "applies pilot-province scope analysis to limit Rule 65 dismissal authority",
+    "uses due-process as filter on shortcut evidentiary mechanisms (Option 2 rejected)",
+    "treats agreed-upon rules as procedural precondition for fair adjudication (Option 4 preferred)",
+    "frames procedural choices in option-enumeration with explicit preference",
+    "deploys retired-jurist counterfactual as substitute for sitting-jurist vote"
+  ],
+  "one_paragraph_summary": "Panganiban dissects the four procedural options before the Supreme Court, sitting as the Presidential Electoral Tribunal (PET), in the Bongbong Marcos election protest against VP Leni Robredo. He sets out PET Rule 65's 'substantial recovery' standard -- which authorizes outright dismissal when the protestant 'will most probably fail to make out his case' -- and notes that Justice Caguioa's recount in the three pilot provinces (Camarines Sur, Iloilo, Negros Occidental) showed Leni's lead increasing by ~15,000 votes beyond her original 263,473. However, Bongbong's Third Cause of Action -- seeking annulment of all votes in 2,756 clustered precincts across Maguindanao, Lanao del Sur, and Basilan on grounds of terrorism, threats, intimidation, harassment, and pre-shading -- was not part of the pilot framework, so simple dismissal cannot reach the whole protest. Of four options -- outright dismissal, adoption of the Comelec's prior 200-precinct technical examination, a full TE of all 2,756 precincts, or calling for position papers and amicus curiae briefs to craft proper rules -- CJ rejects Option 2 as a due-process violation (Leni was not a party to the other case), notes Option 3 will take very long, and endorses Option 4 as 'the prudent way to proceed' since the existing PET Rules do not contemplate the Third Cause framework. He closes with the retired-jurist counterfactual: 'If I were still sitting in the Court, I would vote for the said option.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

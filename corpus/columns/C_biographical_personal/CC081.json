@@ -1,0 +1,139 @@
+{
+  "id": "CC081",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 81,
+  "title": "Supercitizens of Pampanga",
+  "date": "2017-07-16",
+  "link": "https://opinion.inquirer.net/105600/supercitizens-of-pampanga",
+  "keywords": [
+    "Luis Taruc",
+    "Amando Tetangco",
+    "Pampanga heroes",
+    "BSP independence",
+    "student activism",
+    "Hukbalahap",
+    "monetary policy",
+    "central bank governance"
+  ],
+  "primary_topics": [
+    "Tribute to two contrasting Pampangueño 'supercitizens': Luis Taruc and Amando Tetangco Jr.",
+    "CJ Panganiban's personal connection to Taruc through student leadership in the late 1950s",
+    "Tetangco's nonpartisan central banking as a model of institutional integrity"
+  ],
+  "sub_topics": [
+    "National Historical Commission declaring Taruc a hero posthumously",
+    "Taruc as 'supremo' of the Hukbalahap during WWII",
+    "Taruc's letters to CJ Panganiban when he was FEUCSO and NUS president (late 1950s)",
+    "CJ's near-radicalization: attraction to Jose Maria Sison and Satur Ocampo vs influence of Alejandro Roces and Fr. Michael Nolan",
+    "Taruc's admiration for CJ Jose Abad Santos martyred by Japanese during WWII",
+    "Romeo Taruc (Luis's son) as CJ's ally and compadre",
+    "Tetangco's two consecutive 6-year BSP terms under GMA and PNoy despite their political rivalry",
+    "Tetangco succeeded by protégé Nestor Espenilla Jr.",
+    "BSP created by statute, not the Constitution -- lack of guaranteed independence",
+    "Espenilla joined by Peter Favila and Antonio Abacan Jr. on Monetary Board",
+    "Laissez-faire economic approach under Finance Secretary Dominguez"
+  ],
+  "signature_phrases": [
+    "supercitizens of Pampanga",
+    "Patriots are real people who lead complicated lives",
+    "a distant, self-appointed counselor",
+    "passed to the Great Beyond",
+    "had it not been for the more persuasive influence",
+    "objectivity and uncanny ability to be nonpartisan in navigating monetary and economic imponderables",
+    "the equivalent of the Supreme Court in the banking community",
+    "if the judiciary learns a lesson or two from the way the BSP firmly disciplines erring banks"
+  ],
+  "entities": {
+    "people": [
+      "Luis M. Taruc (Hukbalahap supremo, declared hero by NHCP)",
+      "Amando M. Tetangco Jr. (BSP Governor, two 6-year terms)",
+      "Romeo Taruc (Luis's son, CJ's compadre)",
+      "Jose Maria Sison (Kabataang Makabayan, NDF)",
+      "Satur Ocampo (Kabataang Makabayan, NDF)",
+      "Alejandro Roces (FEU figure, later Secretary of Education under Macapagal)",
+      "Fr. Michael Nolan (FEU chaplain)",
+      "CJ Jose Abad Santos (martyred by Japanese, fellow Pampangueño)",
+      "Pedro Abad Santos (Socialist Party founder)",
+      "President Diosdado Macapagal (another Pampangueño)",
+      "President Gloria Macapagal-Arroyo (appointed Tetangco first term)",
+      "President Benigno Aquino III (reappointed Tetangco second term)",
+      "President Rodrigo Duterte (implied third-term possibility)",
+      "Nestor A. Espenilla Jr. (Tetangco's successor as BSP Governor)",
+      "Peter Favila (Monetary Board member)",
+      "Antonio Abacan Jr. (Monetary Board member)",
+      "Finance Secretary Carlos Dominguez III",
+      "John Nery (Inquirer columnist cited)",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "National Historical Commission of the Philippines (NHCP)",
+      "Far Eastern University (FEU)",
+      "Far Eastern University Central Student Organization (FEUCSO)",
+      "National Union of Students (NUS)",
+      "Kabataang Makabayan (KM)",
+      "National Democratic Front (NDF)",
+      "Hukbong Bayan Laban sa Hapon (Hukbalahap)",
+      "Socialist Party of Pedro Abad Santos",
+      "Bangko Sentral ng Pilipinas (BSP)",
+      "Monetary Board"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "NHCP declaration of Luis Taruc as hero (a few weeks before column, posthumous)",
+      "Tetangco's retirement as BSP Governor",
+      "Espenilla's induction as BSP Governor",
+      "Favila and Abacan inducted to Monetary Board"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Tetangco's defining virtue was not technical competence but nonpartisanship — his appointment by GMA and reappointment by Aquino III (who 'loathed the politics of his predecessor') is the best evidence of institutional objectivity transcending political loyalty.",
+      "rhetorical_move": "cross-partisan appointment as proof of institutional independence — using presidential hostility as the measure of nonpartisanship",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The BSP's disciplinary firmness with erring banks is a model the judiciary should study to solve the perennial problem of delayed justice — with strict enforcement of constitutional time limits for resolving cases.",
+      "rhetorical_move": "cross-institutional lesson: banking regulation discipline as a template for judicial backlog reform",
+      "confidence": "recommended"
+    },
+    {
+      "claim": "Heroism is complicated — Taruc's checkered life as Huk supremo and peasant advocate does not disqualify him from heroic status, consistent with the view that 'patriots are real people who lead complicated lives.'",
+      "rhetorical_move": "moral-complexity defense of contested heroism using Inquirer editorial and Nery column as co-witnesses",
+      "confidence": "asserted with personal distance ('to me he was a distant, self-appointed counselor')"
+    }
+  ],
+  "notable_anecdotes": [
+    "Taruc writing letters to CJ Panganiban in the late 1950s when he was president of FEUCSO and NUS, urging the 'former newsboy and bootblack' to lead the peasants — a politically sensitive personal detail disclosed with characteristic candor, establishing the intimacy of the radical-reformist temptation CJ resisted.",
+    "CJ's near-radicalization: he 'might have joined' Sison and Ocampo's Kabataang Makabayan had Alejandro Roces and Fr. Michael Nolan not persuaded him to instead organize and head the NUS as a counter to the KM — a biographical near-miss that reframes his entire subsequent legal-institutional career.",
+    "Romeo Taruc (Luis's son) being CJ's ally in student government and later his compadre — a cross-generational social bond that humanizes the Taruc-Panganiban connection beyond mere correspondence."
+  ],
+  "target_audience": [
+    "Pampangueño civic readers and regional history enthusiasts",
+    "Legal and banking professionals interested in institutional reform parallels",
+    "Political history readers tracking the Left's evolution in PH student movements",
+    "General Inquirer readership drawn by the personal-memoir register",
+    "Policy advocates for central bank independence"
+  ],
+  "register_markers": [
+    "personal-memoir register ('a distant, self-appointed counselor', 'my compadre')",
+    "near-radicalization disclosure — unusually candid biographical revelation",
+    "cross-generational filial anecdote (Romeo Taruc as ally and compadre)",
+    "institutional-comparison aside (BSP discipline as model for judiciary)",
+    "parenthetical humility qualifier on BSP independence ('created by a mere statute, not by the Constitution')",
+    "triple 'junior' observation (Espenilla Jr., Favila, Abacan Jr.) as a playful aside",
+    "columnist-citation register (Nery, Inquirer editorial) as co-endorsers of heroism complexity"
+  ],
+  "decision_framework_signals": [
+    "uses cross-partisan appointment as the decisive test of institutional nonpartisanship",
+    "applies cross-institutional lesson framework (BSP discipline → judiciary reform)",
+    "treats moral complexity as compatible with heroic status (Taruc case)",
+    "uses personal-biography as evidence of ideological near-miss — counterfactual self-analysis",
+    "frames laissez-faire economic policy as a positive signal (Duterte economic team credit)"
+  ],
+  "one_paragraph_summary": "Panganiban profiles two contrasting 'supercitizens of Pampanga': the controversial Luis Taruc, posthumously declared a hero by the National Historical Commission, and the universally celebrated Amando Tetangco Jr., recently retired as BSP Governor. For Taruc, CJ discloses that as a late-1950s student leader (president of FEUCSO and NUS), he received letters from the Hukbalahap supremo urging the 'former newsboy and bootblack' to lead the peasants -- an appeal CJ acknowledges he 'might have' heeded had Alejandro Roces and Fr. Michael Nolan not persuaded him to organize the NUS as a counter to the Kabataang Makabayan of Sison and Ocampo. For Tetangco, CJ argues that his defining quality was not technical brilliance but nonpartisanship: his appointment by GMA and reappointment by Aquino III -- who 'loathed the politics of his predecessor' -- is the definitive proof that institutional integrity can transcend political cycles. CJ closes with two institutional observations: that the BSP, though created only by statute rather than by the Constitution, disciplines erring banks with a firmness the judiciary should emulate to solve case-delay problems; and that Tetangco's successor Espenilla, together with new Monetary Board members Favila and Abacan, signal continuity of the Duterte administration's laissez-faire approach to economic governance.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

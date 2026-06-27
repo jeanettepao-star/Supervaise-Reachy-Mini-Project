@@ -1,0 +1,157 @@
+{
+  "id": "CA071",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 71,
+  "title": "SC not an enemy of doctors",
+  "date": "2024-05-20",
+  "link": "https://opinion.inquirer.net/173822/sc-not-an-enemy-of-doctors",
+  "keywords": [
+    "Nuñez v. Daz (Jan. 29, 2024)",
+    "Agbayani v. People (June 23, 2021, UER)",
+    "reckless imprudence (medical)",
+    "Rule-of-Court documentary requirements on appeal",
+    "Unsigned Extended Resolution (UER) -- no precedent",
+    "natural and probable causation",
+    "hot water bag bursting incident"
+  ],
+  "primary_topics": [
+    "Nuñez v. Daz (Jan. 29, 2024, ponente J. Maria Filomena D. Singh, Third Division) upholding Dr. Henry Daz's acquittal and reversing civil damages",
+    "Contrast with Agbayani v. People (June 23, 2021, UER, Third Division) affirming Dr. Benigno Agbayani Jr.'s conviction for reckless imprudence",
+    "Counsel-quality difference: Agbayani's counsel repeatedly failed to attach Rule-required documents; Daz's counsel was 'competent and diligent'",
+    "UER vs signed decision: UERs do not create precedents; only signed decisions and resolutions do",
+    "Causation analysis: 'natural and continuous chain' test -- the hot water bag did not set later events in motion"
+  ],
+  "sub_topics": [
+    "Daz facts: Sept. 17, 2014 -- RTC Baguio acquittal of Dr. Daz of reckless imprudence resulting in the death of 2-year-old John Ray Nuñez",
+    "Daz fact pattern: hot water bag placed on the boy's legs to address hypothermia; bag bursting causing third-degree burns; burn surgery delayed chemotherapy; brain tumor recurrence; second surgery during which the boy died",
+    "RTC findings: prosecution failed to prove Daz's negligence regarding the bursting, and failed to prove the causal link to John Ray's death",
+    "RTC civil award (notwithstanding acquittal): P200,000 moral damages, P300,000 exemplary damages, P25,000 actual damages -- all later set aside by the CA",
+    "CA: acquittal final and unappealable; granted Daz's appeal setting aside damages",
+    "SC affirmation: 'Dr. Daz could not be blamed [for] the mere fact that the hot water bag gave way or would have been raptured. Worse, the prosecutor failed to offer any evidence that a hot water bag broke...'",
+    "SC's rhetorical line: 'How can a doctor be responsible for the usability of an instrument that can be safely assumed to be that of the hospital's?'",
+    "Causation reasoning: death during the second operation; the first cause (bag bursting) did not set the chain in motion; final event not the natural and probable result of the first cause",
+    "Agbayani facts (per CJ's Nov. 13, 2023 column): MeTC Manila conviction (July 29, 2013); RTC dismissal for counsel's failure to file appeal memorandum within the 15-day reglementary period despite extension",
+    "CA dismissal: counsel's failure to append witnesses' affidavits, prosecution evidence, and other documents required by the Rules",
+    "SC denial of petition for review for counsel's failure 'again (!)' to submit required documents; SC shortened the imprisonment",
+    "Doctrine on documentary requirements: 'they should not be perfunctorily ignored or violated' -- failure 'hinders the review of cases on the merits'; 'heavy workload' excuse 'does not persuade'",
+    "Bright-line procedural-doctrine teaching: replace incompetent counsel after the first failure, not after the third"
+  ],
+  "signature_phrases": [
+    "the Supreme Court is not an enemy of medical doctors",
+    "Let me explain the difference",
+    "FIRST, LET US RECALL WHAT HAPPENED IN THE AGBAYANI CASE",
+    "NOW, LET US SEE WHAT HAPPENED TO DOCTOR DAZ",
+    "his lawyer's 'failure to file an appeal memorandum within the reglementary period'",
+    "his counsel's failure again (!)",
+    "How can a doctor be responsible for the usability of an instrument that can be safely assumed to be that of the hospital's?",
+    "natural and continuous chain, each having a close causal connection with its immediate predecessor",
+    "CLEAR ARE THE DIFFERENCES BETWEEN THE TWO CASES",
+    "I wonder why the well-known physician did not replace his lawyer",
+    "UERs do not create precedents",
+    "well-written 15-page Singh ponencia"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Dr. Henry Daz (anesthesiologist; acquitted)",
+      "John Ray Nuñez (deceased 2-year-old patient)",
+      "Justice Maria Filomena D. Singh (Daz ponente)",
+      "Dr. Benigno Agbayani Jr. (late; convicted in Agbayani v. People)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (Third Division)",
+      "Court of Appeals",
+      "Regional Trial Court of Baguio (Daz acquittal)",
+      "Regional Trial Court of Manila (Agbayani appeal venue)",
+      "Metropolitan Trial Court of Manila (Agbayani conviction venue)",
+      "Hospitals (institutional providers of medical instruments)"
+    ],
+    "cases": [
+      "Nuñez v. Daz (Jan. 29, 2024, J. Singh, Third Division) -- 15-page signed ponencia",
+      "Agbayani v. People (June 23, 2021, Third Division) -- Unsigned Extended Resolution (UER)"
+    ],
+    "laws_treaties": [
+      "Revised Penal Code -- reckless imprudence resulting in homicide",
+      "Rules of Court -- documentary requirements on petitions for review",
+      "Rules on civil liability arising from acquittal"
+    ],
+    "events": [
+      "Sept. 17, 2014 RTC Baguio acquittal of Dr. Daz",
+      "July 29, 2013 MeTC conviction of Dr. Agbayani",
+      "Death of John Ray Nuñez during second surgery"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Supreme Court is not an enemy of medical doctors -- Nuñez v. Daz upheld the acquittal of Dr. Henry Daz and reversed even the civil damages that the RTC had awarded.",
+      "rhetorical_move": "thesis-stating headline rebuttal",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Agbayani conviction was not driven by hostility to doctors but by counsel's repeated failure to file an appeal memorandum on time and to attach Rule-required documents; the SC even shortened the imprisonment despite the procedural defects.",
+      "rhetorical_move": "process-vs-substance reframing of the prior case",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Documentary requirements under the Rules of Court 'should not be perfunctorily ignored or violated' -- counsel's 'heavy workload' excuse 'does not persuade.'",
+      "rhetorical_move": "procedural-rigor norm endorsement",
+      "confidence": "endorsed"
+    },
+    {
+      "claim": "Dr. Daz could not be blamed for the bursting of a hot water bag that was an instrument 'safely assumed to be that of the hospital's' -- and the prosecution failed even to prove the bag broke.",
+      "rhetorical_move": "evidentiary-failure observation paired with rhetorical question",
+      "confidence": "endorsed"
+    },
+    {
+      "claim": "The boy's death during the second operation was not 'the natural and probable result' of the hot water bag incident -- the first event did not set the chain of later events in motion.",
+      "rhetorical_move": "natural-and-continuous-chain causation test",
+      "confidence": "endorsed"
+    },
+    {
+      "claim": "The UER in Agbayani 'did not create a precedent on the criminal liability of doctors for reckless imprudence' -- UERs do not create precedents; only signed decisions and resolutions, like the 15-page Singh ponencia, do.",
+      "rhetorical_move": "precedent-doctrine clarification",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "It is puzzling that 'the well-known physician did not replace his lawyer in the wake of his series of convictions due to his counsel's palpable negligence.'",
+      "rhetorical_move": "rhetorical wonderment as client-counsel-management lesson",
+      "confidence": "personal observation"
+    }
+  ],
+  "notable_anecdotes": [
+    "The rhetorical sigh of the Court: 'How can a doctor be responsible for the usability of an instrument that can be safely assumed to be that of the hospital's?'",
+    "The pivotal Agbayani procedural arc: counsel missed the 15-day appeal memorandum (despite an extension), then 'failed to append' the required CA documents (witnesses' affidavits, prosecution evidence, lower-court pleadings), then 'again (!)' failed the same way before the SC.",
+    "CJ's wonder why Agbayani did not replace his counsel after the first failure -- a teachable moment on client-counsel management.",
+    "The fact pattern of John Ray Nuñez -- hypothermia, hot water bag, third-degree burns, delayed chemotherapy, brain-tumor recurrence, second surgery, death -- used to show the chain that the Court found did not naturally and probably link bag to death."
+  ],
+  "target_audience": [
+    "Medical doctors and hospital administrators",
+    "Medical-malpractice plaintiffs and defense lawyers",
+    "Trial-court judges and appellate-court justices",
+    "Law students studying causation and the rules on petitions for review",
+    "Inquirer readers concerned about defensive medicine and doctor-patient trust"
+  ],
+  "register_markers": [
+    "thesis-headline rebuttal (the SC 'is not an enemy of medical doctors')",
+    "case-by-case comparative method (Agbayani vs Daz)",
+    "small-caps signposting ('FIRST,' 'NOW,' 'CLEAR ARE THE DIFFERENCES')",
+    "Court-quotation register with exclamation aside ('failure again (!)')",
+    "rhetorical-question reproduction ('How can a doctor be responsible...?')",
+    "natural-and-continuous-chain causation register",
+    "precedent-doctrine sign-off (UER vs signed decision)"
+  ],
+  "decision_framework_signals": [
+    "process-vs-substance diagnosis: separate counsel failure from doctrinal hostility",
+    "natural-and-continuous-chain test for proximate cause",
+    "evidentiary-burden test (prosecutor's failure to prove the bag broke)",
+    "instrument-provenance heuristic (hospital is responsible for hospital-supplied instruments)",
+    "Rules-of-Court compliance norm (documentary attachments mandatory; heavy workload no excuse)",
+    "UER-non-precedent rule",
+    "client-counsel management norm (replace counsel after repeated procedural failures)"
+  ],
+  "one_paragraph_summary": "Panganiban refutes the headline impression that the Supreme Court is hostile to doctors. In Nuñez v. Daz (Jan. 29, 2024, Third Division, ponente Justice Maria Filomena D. Singh -- a well-written 15-page signed ponencia), the Court upheld Dr. Henry Daz's acquittal of reckless imprudence and reversed even the RTC Baguio's civil award of P200,000 moral damages, P300,000 exemplary damages, and P25,000 actual damages tied to the death of two-year-old John Ray Nuñez. The boy was treated for hypothermia with a hot water bag on his legs; the bag allegedly burst and scalded him, requiring burn surgery that delayed chemotherapy for a prior brain tumor; the tumor recurred and the boy died during a second surgery. The Court agreed with the RTC that the prosecution failed to prove Daz's negligence in the bursting -- indeed, 'failed to offer any evidence that a hot water bag broke' -- and asked rhetorically, 'How can a doctor be responsible for the usability of an instrument that can be safely assumed to be that of the hospital's?' Applying a natural-and-continuous-chain test of causation, the Court held that the first event did not set the subsequent operations in motion such that the death could be deemed the natural and probable result of the bag incident. CJ contrasts this with the 2021 Agbayani v. People case -- an Unsigned Extended Resolution (UER), which does not create precedent -- where the late Dr. Benigno Agbayani Jr. was convicted by the MeTC (July 29, 2013) and lost on appeal at every level because his counsel missed the 15-day reglementary period for the appeal memorandum at the RTC despite an extension, then 'failed to append' the witnesses' affidavits, prosecution evidence, and lower-court pleadings required by the Rules of Court at the CA, then failed again at the SC. Documentary attachments 'should not be perfunctorily ignored or violated' and the 'heavy workload' excuse 'does not persuade.' The lesson, CJ concludes, is that the two cases differ not in judicial attitude toward doctors but in counsel quality -- and he wonders 'why the well-known physician did not replace his lawyer in the wake of his series of convictions due to his counsel's palpable negligence.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

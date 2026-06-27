@@ -1,0 +1,177 @@
+{
+  "id": "CC090",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 90,
+  "title": "Fearless, intuitive and spiritual'",
+  "date": "2016-01-03",
+  "link": "https://opinion.inquirer.net/91705/fearless-intuitive-and-spiritual",
+  "keywords": [
+    "Year-opening column Jan 3 2016 tribute to Letty Jimenez-Magsanoc ('fearless, intuitive and spiritual,' 'self-effacing')",
+    "CJP's Sampaloc newsboy boyhood (Manila Times, Chronicle, Herald along España Street)",
+    "changing-lifestyle vignettes -- Kodak, smartphones, Magic Jack/Viber/Skype, iMessaging",
+    "medicine vignettes -- 2008 cataract laser surgery, prostate biopsy, IVF, artificial limbs",
+    "Paris Agreement 1.5°C cap, Hubble + Rosetta comet probe",
+    "globalization defense",
+    "Asean integration 'three days ago'",
+    "lawyer-reciprocity proposal",
+    "Filipino-can closing"
+  ],
+  "primary_topics": [
+    "Tribute to Letty Jimenez-Magsanoc -- 'fearless, intuitive and spiritual,' self-effacing",
+    "Year-opening reflection on civilizational change -- newspapers, smartphones, medicine, science",
+    "CJP's personal newsboy boyhood in Sampaloc and España Street",
+    "Globalization, Asean integration, and the persistence of 'Filipino First' nostalgia",
+    "Proposal for lawyer-reciprocity globalization extending to legal profession",
+    "Filipino-can civic exhortation for the new year"
+  ],
+  "sub_topics": [
+    "Inquirer's multi-channel reach -- print, digital, social media",
+    "Newsboy memory -- racing competitors, hawking Manila Times, Chronicle, Herald to jeepney passengers at red lights",
+    "Smartphones replacing cameras, movie houses, TV, passports, credit cards, keys, even cash",
+    "Land lines overtaken by mobile; SMS giving way to iMessaging",
+    "2008 cataract laser surgery restoring 20/20 vision; wife's preference for eyeglasses as 'becoming a retired chief justice'",
+    "Painless prostate biopsy and minimally-invasive kidney/gall stone excision",
+    "In vitro fertilization, artificial limbs, growing body parts in laboratories",
+    "Paris Agreement 1.5°C cap as ambitious milestone uniting great powers",
+    "Hubble telescope revealing universe scale -- Boracay beach grain-of-sand analogy",
+    "Rosetta spacecraft piggybacking on a comet to investigate cosmic origins",
+    "WTO birth and the four-pillar policy of globalization, liberalization, privatization, deregulation",
+    "China's capitalism-within-communism as model of pragmatic embrace",
+    "North Korea as cautionary opposite of South Korea",
+    "Professional reciprocity already in engineering, accounting, medicine, nursing -- lawyers next",
+    "Filipinos holding their own against the best of the world",
+    "Closing exhortation: 'In facing the new year, let's be like Letty: fearless, intuitive and spiritual'"
+  ],
+  "signature_phrases": [
+    "fearless, intuitive and spiritual",
+    "self-effacing",
+    "How times have changed",
+    "the Filipino can",
+    "the good old days",
+    "abject poverty",
+    "isolationism has no more place in the current world",
+    "let us continue competing freely"
+  ],
+  "entities": {
+    "people": [
+      "Letty Jimenez-Magsanoc (Inquirer editor-in-chief)",
+      "CJP's late mother and family (implied through Sampaloc memory)",
+      "CJP's wife Leni (referenced through eyeglass preference)"
+    ],
+    "institutions": [
+      "Philippine Daily Inquirer",
+      "Manila Times",
+      "Manila Chronicle",
+      "Manila Herald",
+      "Kodak",
+      "World Trade Organization (WTO)",
+      "Association of Southeast Asian Nations (Asean)",
+      "Magic Jack, Viber, Skype (telecom apps)",
+      "Hubble Space Telescope project",
+      "European Space Agency (Rosetta mission)",
+      "Inquirer.net"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Paris Agreement on climate change (1.5°C cap by 2100)",
+      "Asean Economic Community integration (Dec 31, 2015)"
+    ],
+    "events": [
+      "Asean integration 'three days ago' (Dec 31, 2015)",
+      "Rosetta comet probe success (recent weeks)",
+      "CJP's 2008 cataract laser surgery",
+      "Boyhood newsboy work along España Street in Sampaloc"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Letty Jimenez-Magsanoc was fearless, intuitive, and spiritual -- and self-effacing, refusing attention and ascribing her accolades to her people and Inquirer readers",
+      "rhetorical_move": "elegiac tribute by paired adjective catalog with paraphrased follow-up",
+      "confidence": "high"
+    },
+    {
+      "claim": "Newspapers retain value beyond breaking news -- for in-depth opinions, social events, business happenings, and other features that TV/radio/social-media don't replicate",
+      "rhetorical_move": "defense of legacy form despite acknowledged disruption",
+      "confidence": "high"
+    },
+    {
+      "claim": "Smartphones will soon replace not only cameras but movie houses, TV, passports, credit cards, keys, and even cash -- the displacement curve is exponential",
+      "rhetorical_move": "prediction-by-extrapolation",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Medicine and science breakthroughs -- laser cataract surgery, minimally-invasive biopsy, IVF, artificial limbs, lab-grown organs -- promise to prolong life and wellbeing in ways unimaginable a generation ago",
+      "rhetorical_move": "personal-witness testimony grounded in CJ's own 2008 surgery",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Paris Agreement is ambitious and difficult but a huge milestone -- it got the great powers to honor the 1.5°C cap by 2100, uniting heretofore ideological incompatibles into a single voice",
+      "rhetorical_move": "measured optimism on a contested policy commitment",
+      "confidence": "high"
+    },
+    {
+      "claim": "Whether we like it or not and whether ready or not, we have to face the reality of free trade and open competition -- isolationism has no more place in the current world",
+      "rhetorical_move": "categorical-imperative framing of globalization as inevitable",
+      "confidence": "high"
+    },
+    {
+      "claim": "China's embrace of capitalism and private entrepreneurship while keeping its communist political system shows that ideological purity is not required for prosperity -- North Korea's abject poverty proves the opposite",
+      "rhetorical_move": "paired-comparison demonstrating pragmatic case for globalization",
+      "confidence": "high"
+    },
+    {
+      "claim": "It is time for Philippine lawyers to allow foreign counterparts to practice foreign law here on a reciprocal basis, as engineering, accounting, medicine, and nursing have already done",
+      "rhetorical_move": "professional reform proposal grounded in cross-discipline precedent",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Filipino can -- many businessmen and professionals have proven we can hold our own against the best of the world; let us continue competing freely",
+      "rhetorical_move": "civic affirmation closing on slogan",
+      "confidence": "high"
+    },
+    {
+      "claim": "In facing the new year, let us be like Letty -- fearless, intuitive, and spiritual",
+      "rhetorical_move": "circular close returning to opening eulogy and converting it into civic exhortation",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJP's impoverished-boyhood newsboy days in Sampaloc -- waking early, walking 10 minutes to the dealer, waiting for delivery trucks",
+    "Racing other newsboys shouting 'Manila Times, Chronicle, Herald' (the Inquirer was not yet born) along España Street",
+    "Peddling leftover copies to jeepney passengers held momentarily at red lights",
+    "CJP's 2008 cataract laser surgery restoring 20/20 vision -- and his wife's insistence that eyeglasses are 'more becoming a retired chief justice'",
+    "Boracay-beach analogy: if the universe were the kilometric white beaches of Boracay, our sun would be one solitary grain of sand",
+    "Rosetta spacecraft piggybacking on a comet 'in a valiant effort to discover how the universe was born'",
+    "Letty's self-effacing pattern of deflecting credit to her people and readers"
+  ],
+  "target_audience": [
+    "Inquirer readership marking the new year",
+    "Journalists and editors mourning Letty Jimenez-Magsanoc",
+    "Legal community curious about lawyer-reciprocity proposal",
+    "Civic-minded readers interested in CJ's globalization defense",
+    "General Filipino readership receptive to autobiographical-civic register"
+  ],
+  "register_markers": [
+    "memoir-civic register opening with tribute and personal anecdote",
+    "asterisk dividers (* * *) between segments",
+    "section-opening labels (Changing lifestyle, Medicine and science, Globalization)",
+    "vivid imagistic comparison (Boracay-grain-of-sand)",
+    "slogan-style civic close ('The Filipino can!')",
+    "paired-adjective tribute formula ('fearless, intuitive and spiritual')",
+    "circular composition -- opening eulogy returns as closing exhortation",
+    "in-line product/brand naming (Magic Jack, Viber, Skype, iMessaging)"
+  ],
+  "decision_framework_signals": [
+    "Embrace-of-change as default civic posture",
+    "Globalization as inevitable; isolationism as deprecated",
+    "Pragmatic separation of political system from economic system (China model)",
+    "Reciprocity as the engine of professional liberalization",
+    "Personal witness as evidence for civilizational claims (2008 surgery)",
+    "Comparative case (China vs North Korea, US vs PH) as recurring analytic frame"
+  ],
+  "one_paragraph_summary": "Panganiban opens his Jan 3, 2016 column with a self-effacing tribute to the late Letty Jimenez-Magsanoc, Inquirer editor-in-chief -- 'fearless, intuitive and spiritual,' and refusing any attention to herself, preferring to ascribe her success to her people and readers. Picking up the second of two pre-holiday columns, he then surveys civilizational change through personal autobiography. Readers can access him via print bought from newsboys (as he once was, racing competitors in Sampaloc and shouting 'Manila Times, Chronicle, Herald' -- the Inquirer was not yet born -- along España Street, peddling leftover copies to jeepney passengers stopped at red lights), or via digital edition on tablets and smartphones, or via Inquirer.net, or via social media. Newspapers retain value beyond breaking news for in-depth opinions and features. Digital cameras killed Kodak; smartphone apps are now killing cameras and will soon replace movie houses, TV, passports, credit cards, keys, even cash. Land lines have been overtaken by mobile; long-distance has been obliterated by Magic Jack, Viber, and Skype; SMS is giving way to iMessaging. In medicine and science, he testifies personally: 2008 cataract laser surgery restored his 20/20 vision (he still wears eyeglasses occasionally because his wife thinks it more becoming a retired chief justice); prostate biopsy and kidney/gall stone surgery have become minimally invasive; IVF enables barren couples to enjoy parenthood; artificial limbs allow the handicapped to walk; biotechnological breakthroughs presage lab-grown body parts. The Paris Agreement is ambitious but a huge milestone, uniting heretofore ideological incompatibles into a single voice to hold the rise of earth's temperature to 1.5°C by 2100. The Hubble telescope reveals our sun as just one grain of sand on the kilometric beaches of the universe; European astroscientists recently piggybacked the Rosetta spacecraft on a comet to investigate how the universe was born. On globalization, the WTO ushered in the era of liberalization, privatization, and deregulation two decades ago -- but many Filipinos still pine for 'Filipino First.' Whether we like it or not, we have to face free trade and open competition; isolationism has no more place. Asean formally integrated three days ago. China embraced capitalism while keeping its communist political system; only North Korea has refused globalization, plunging its people to abject poverty opposite South Korea's prosperity. Engineering, accounting, medicine, and nursing have already accepted reciprocal globalization; it is time for lawyers to allow foreign counterparts to practice here, provided Philippine lawyers are reciprocally allowed to practice abroad. The world is changing fast and so must we, lest we be left behind in ignorance, regression, and destitution. Many businessmen and professionals have proven Filipinos can hold their own against the best of the world. The Filipino can! He closes circularly: 'In facing the new year, let's be like Letty: fearless, intuitive and spiritual.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

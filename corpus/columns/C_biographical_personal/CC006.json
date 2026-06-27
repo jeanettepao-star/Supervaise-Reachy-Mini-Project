@@ -1,46 +1,13 @@
 {
   "id": "CC006",
+  "format": "C",
   "type": "column",
   "theme": "C",
   "theme_label": "Biographical and Personal",
   "number": 6,
   "title": "For the alumni of Mapa High",
   "date": "2014-03-02",
-  "year": 2014,
-  "source_url": "https://opinion.inquirer.net/72137/for-the-alumni-of-mapa-high",
-  "routing": {
-    "primary_intent": [
-      "biography"
-    ],
-    "secondary_intent": [],
-    "audience_match": [
-      "Mapa High School alumni (Feb 23 speech audience + Inquirer readers)",
-      "Former Cong. Benny Abante Jr. (Alumni Assoc president)",
-      "Inquirer readership of Sunday Opinion column",
-      "Foundation for Liberty and Prosperity (FLP) donors + scholars",
-      "Manila Cathedral Foundation + Metrobank Foundation supporters",
-      "Inquirer Foundation for Newsboys beneficiaries",
-      "Poor Mapan students (8 subsistence scholarships pledged)",
-      "Filipino Catholic faithful (Pope John Paul II Pontifical Council disclosure)",
-      "Salonga's UP-Harvard-Yale community + UST + FEU alumni",
-      "Constitutional + legal scholars on CJ-appointment history",
-      "FVR + GMA political-history community",
-      "Philippine Stock Exchange + corporate boardroom community"
-    ],
-    "complexity": "medium",
-    "emotional_register": []
-  },
-  "topic_paths": {
-    "primary": [
-      "faith_journey",
-      "twin_beacons_doctrine"
-    ],
-    "secondary": [
-      "foundation_for_liberty_and_prosperity",
-      "mentors_and_legal_lineage",
-      "philippine_political_landscape"
-    ]
-  },
+  "link": "https://opinion.inquirer.net/72137/for-the-alumni-of-mapa-high",
   "keywords": [
     "Mapa High alumni",
     "Benny Abante",
@@ -58,13 +25,13 @@
     "Mapa High Alumni Association speech-summary biographical-disclosure column March 2, 2014",
     "Speech context: former Cong Benny Abante Jr. (Mapa HS Alumni Assoc president) invited CJP; Feb 23 speech at Metro Tent Pasig City before 1,000 alumni; full speech at cjpanganiban.com self-citation",
     "Poor-boy-to-CJ origin story: hawked newspapers, peddled cigarettes, shined shoes; promised himself to one day be president of Manila Times (largest-circulated daily then)",
-    "UP scholarship granted but family couldn't afford 15-centavo bus fare to QC campus; UST scholarship refused after CJP failed third Dominican-priest question 'Name them' â†’ 'Susmaryosep!' (Jesus, Mary and Joseph) self-deprecating 'religious ignoramus' confession",
+    "UP scholarship granted but family couldn't afford 15-centavo bus fare to QC campus; UST scholarship refused after CJP failed third Dominican-priest question 'Name them' → 'Susmaryosep!' (Jesus, Mary and Joseph) self-deprecating 'religious ignoramus' confession",
     "FEU scholarship without question; wanted chemical engineering but strict father ordered law; encountered Dean Jovito R. Salonga (UP + Harvard + Yale alum) at FEU",
     "Cum laude graduate, 6th-placer bar exam, Yale scholarship granted but no transport money; practiced + taught law + dabbled in business; organized Baron Travel Corp.; five children all finished graduate degrees at Harvard, Stanford, UC, U. of Chicago, U. of Michigan",
-    "Catholic-faith intensification â†’ Second Plenary Council of Philippines invitation â†’ Pope John Paul II named CJP only Filipino member for 1996-2001 term of Pontifical Council for the Laity in the Vatican; 1991 part-time president of Inquirer",
+    "Catholic-faith intensification → Second Plenary Council of Philippines invitation → Pope John Paul II named CJP only Filipino member for 1996-2001 term of Pontifical Council for the Laity in the Vatican; 1991 part-time president of Inquirer",
     "Supreme Court journey: June 17, 1992 FVR-presidential-elect offered DOJ Secretary; CJP declined 'thank you Mr. President but I am not worthy... I did not campaign for you' (in fact voted for Salonga); after two weeks FVR relented 'Ah sa Supreme Court ka na lang'; decade later GMA named CJP 21st Chief Justice of Philippines",
-    "Legal philosophy 'Liberty and Prosperity Under the Rule of Law' â€” justice and jobs / freedom and food / ethics and economics / democracy and development / liberty and prosperity must always go together (FLP signature six-paired-virtues)",
-    "Time-talent-treasure giving-back close: foundations chaired (Manila Cathedral Foundation + Metrobank Foundation + Foundation for Liberty and Prosperity); 75th-birthday two-years-ago â€” half retirement pay to FLP + one-year column income to Inquirer Foundation for Newsboys; today pledged 8 subsistence scholarships for poor Mapans; magnificent-tapestry-of-pains-and-gains closing with 'one constancy: presence, care and providence of our Lord Jesus Christ'"
+    "Legal philosophy 'Liberty and Prosperity Under the Rule of Law' -- justice and jobs / freedom and food / ethics and economics / democracy and development / liberty and prosperity must always go together (FLP signature six-paired-virtues)",
+    "Time-talent-treasure giving-back close: foundations chaired (Manila Cathedral Foundation + Metrobank Foundation + Foundation for Liberty and Prosperity); 75th-birthday two-years-ago -- half retirement pay to FLP + one-year column income to Inquirer Foundation for Newsboys; today pledged 8 subsistence scholarships for poor Mapans; magnificent-tapestry-of-pains-and-gains closing with 'one constancy: presence, care and providence of our Lord Jesus Christ'"
   ],
   "sub_topics": [
     "'Please talk of how you became a sterling example of what a true-blue Mapan should be and how we can give back to society'",
@@ -136,97 +103,19 @@
     "To Him CJP dedicates all he was, all he is, and all he will ever be"
   ],
   "signature_phrases": [
-    {
-      "phrase": "in my humble view (implied)",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "sterling example",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "true-blue Mapan",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "Susmaryosep",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "religious ignoramus",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "Liberty and Prosperity Under the Rule of Law",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "justice and jobs, freedom and food, ethics and economics, democracy and development, and liberty and prosperity",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "time, talent and treasure",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "magnificent tapestry",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "His mystical presence",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "presence, care and providence of our Lord Jesus Christ",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "sa Supreme Court ka na lang",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "I want a nonpartisan Cabinet",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    }
+    "in my humble view (implied)",
+    "sterling example",
+    "true-blue Mapan",
+    "Susmaryosep",
+    "religious ignoramus",
+    "Liberty and Prosperity Under the Rule of Law",
+    "justice and jobs, freedom and food, ethics and economics, democracy and development, and liberty and prosperity",
+    "time, talent and treasure",
+    "magnificent tapestry",
+    "His mystical presence",
+    "presence, care and providence of our Lord Jesus Christ",
+    "sa Supreme Court ka na lang",
+    "I want a nonpartisan Cabinet"
   ],
   "entities": {
     "people": [
@@ -267,7 +156,7 @@
     "cases": [],
     "laws_treaties": [],
     "events": [
-      "February 23, 2014 â€” CJP speech before 1,000 alumni at Metro Tent Pasig",
+      "February 23, 2014 -- CJP speech before 1,000 alumni at Metro Tent Pasig",
       "Mapa High School student-era newspaper-hawking, cigarette-peddling, shoe-shining",
       "UP scholarship granted (declined due to 15-centavo bus fare)",
       "UST scholarship refused (Susmaryosep answer)",
@@ -278,402 +167,96 @@
       "Five children's graduate degrees at five US universities",
       "Second Plenary Council of Philippines invitation",
       "Pope John Paul II 1996-2001 Pontifical Council for Laity appointment (only Filipino)",
-      "1991 â€” part-time president of Inquirer",
-      "June 17, 1992 â€” FVR offer of DOJ Secretary (declined)",
+      "1991 -- part-time president of Inquirer",
+      "June 17, 1992 -- FVR offer of DOJ Secretary (declined)",
       "FVR 'Ah sa Supreme Court ka na lang' resolution (two weeks later)",
-      "A decade later â€” GMA named CJP 21st Chief Justice",
-      "December 2006 â€” CJP retirement",
-      "75th birthday two years ago (~2012) â€” half-retirement-pay to FLP + one-year-column-income to Inquirer Foundation for Newsboys",
-      "Today's speech â€” pledged 8 subsistence scholarships for poor Mapans"
+      "A decade later -- GMA named CJP 21st Chief Justice",
+      "December 2006 -- CJP retirement",
+      "75th birthday two years ago (~2012) -- half-retirement-pay to FLP + one-year-column-income to Inquirer Foundation for Newsboys",
+      "Today's speech -- pledged 8 subsistence scholarships for poor Mapans"
     ]
   },
   "stances": [
     {
-      "claim": "Mapa-speech context: 'Please talk of how you became a sterling example of what a true-blue Mapan should be and how we can give back to society' was the request of former Cong. Benny Abante Jr., president of the Mapa High School Alumni Association â€” CJ's full speech before 1,000 alumni gathered at the Metro Tent, Pasig City, on Feb 23 may be accessed at cjpanganiban.com; here's a short version to fit in this space",
+      "claim": "Mapa-speech context: 'Please talk of how you became a sterling example of what a true-blue Mapan should be and how we can give back to society' was the request of former Cong. Benny Abante Jr., president of the Mapa High School Alumni Association -- CJ's full speech before 1,000 alumni gathered at the Metro Tent, Pasig City, on Feb 23 may be accessed at cjpanganiban.com; here's a short version to fit in this space",
       "rhetorical_move": "Mapa-Alumni-Assoc-speech anchor + cjpanganiban.com full-speech self-citation",
-      "confidence": "high",
-      "domain": "",
-      "would_repeat_today": null
+      "confidence": "high"
     },
     {
-      "claim": "Mostly poor were the Mapa students of CJ's time; we looked at education and hard work as our keys to success â€” CJ had to hawk newspapers, peddle cigarettes and shine shoes to support his study; tired and weary, CJ promised himself he would one day be president of the Manila Times, the largest-circulated daily then",
+      "claim": "Mostly poor were the Mapa students of CJ's time; we looked at education and hard work as our keys to success -- CJ had to hawk newspapers, peddle cigarettes and shine shoes to support his study; tired and weary, CJ promised himself he would one day be president of the Manila Times, the largest-circulated daily then",
       "rhetorical_move": "poor-boy-to-Manila-Times-aspiration biographical origin-narrative",
-      "confidence": "high",
-      "domain": "",
-      "would_repeat_today": null
+      "confidence": "high"
     },
     {
-      "claim": "After high school the UP granted CJ a scholarship, but his impoverished parents could not afford the then 15-centavo bus fare to the UP campus in Quezon City; the nearby UST refused CJ a scholarship because he failed to answer the last of three questions of an old Dominican priest: first, 'How many Gods are there?'; second, 'How many persons are there in one God?'; and third, the tough question, 'Name them,' to which CJ sheepishly answered, 'Susmaryosep (Jesus, Mary and Joseph)!' â€” yes, CJ was a religious ignoramus; so CJ enrolled at FEU, which gave him a scholarship without any question; CJ wanted to be a chemical engineer but his strict father ordered him to take up law",
+      "claim": "After high school the UP granted CJ a scholarship, but his impoverished parents could not afford the then 15-centavo bus fare to the UP campus in Quezon City; the nearby UST refused CJ a scholarship because he failed to answer the last of three questions of an old Dominican priest: first, 'How many Gods are there?'; second, 'How many persons are there in one God?'; and third, the tough question, 'Name them,' to which CJ sheepishly answered, 'Susmaryosep (Jesus, Mary and Joseph)!' -- yes, CJ was a religious ignoramus; so CJ enrolled at FEU, which gave him a scholarship without any question; CJ wanted to be a chemical engineer but his strict father ordered him to take up law",
       "rhetorical_move": "UP-15-centavo-bus-fare + UST-Susmaryosep + FEU-without-question three-school origin-anecdote",
-      "confidence": "high",
-      "domain": "",
-      "would_repeat_today": null
+      "confidence": "high"
     },
     {
-      "claim": "Inconsolable was CJ's grief at his inability to enroll at UP and to study chemical engineering, but his life turned at FEU â€” there CJ met the brilliant law dean Jovito R. Salonga, who taught CJ his insights from the three schools he studied in: UP, Harvard and Yale; after graduating cum laude and placing sixth in the bar exam, CJ was granted a scholarship at Yale â€” but, like his UP problem, he did not have transport money; so, he forthwith practiced and taught law, and dabbled in business; CJ organized Baron Travel Corp., which enabled his five children to travel, and finish their graduate degrees at Harvard, Stanford, UC, U. of Chicago, and U. of Michigan",
+      "claim": "Inconsolable was CJ's grief at his inability to enroll at UP and to study chemical engineering, but his life turned at FEU -- there CJ met the brilliant law dean Jovito R. Salonga, who taught CJ his insights from the three schools he studied in: UP, Harvard and Yale; after graduating cum laude and placing sixth in the bar exam, CJ was granted a scholarship at Yale -- but, like his UP problem, he did not have transport money; so, he forthwith practiced and taught law, and dabbled in business; CJ organized Baron Travel Corp., which enabled his five children to travel, and finish their graduate degrees at Harvard, Stanford, UC, U. of Chicago, and U. of Michigan",
       "rhetorical_move": "Dean-Salonga-mentor + cum-laude + 6th-placer-bar + Yale-no-transport-money + Baron-Travel-Corp + 5-children-5-US-universities biographical chain",
-      "confidence": "high",
-      "domain": "",
-      "would_repeat_today": null
+      "confidence": "high"
     },
     {
-      "claim": "CJ also intensified his study of his Catholic faith â€” as a result, he was invited to the Second Plenary Council of the Philippines; later, he was named by Pope John Paul II as the only Filipino member for the 1996-2001 term of the Pontifical Council for the Laity in the Vatican; in 1991, he became part-time president of the Inquirer",
+      "claim": "CJ also intensified his study of his Catholic faith -- as a result, he was invited to the Second Plenary Council of the Philippines; later, he was named by Pope John Paul II as the only Filipino member for the 1996-2001 term of the Pontifical Council for the Laity in the Vatican; in 1991, he became part-time president of the Inquirer",
       "rhetorical_move": "Catholic-faith-intensification + Second-Plenary-Council + Pope-John-Paul-II-Pontifical-Council-for-Laity-1996-2001 + Inquirer-1991-part-time-president religious-and-publishing-trajectory",
-      "confidence": "high",
-      "domain": "",
-      "would_repeat_today": null
+      "confidence": "high"
     },
     {
-      "claim": "SC journey: like his entry into the law profession, CJ did not plan his journey to the SC â€” on June 17, 1992, then President-elect Fidel V. Ramos offered CJ to be his Secretary of Justice; CJ respectfully declined, saying, 'Thank you, Mr. President, but I am not worthy to join your Cabinet; I did not campaign for you during the last elections'; however, FVR was insistent: 'I know you did not campaign for me; in fact, you did not even vote for me; you voted for Jovy Salonga; but that is all right; I want a nonpartisan Cabinet'; after two weeks, FVR finally relented: 'Ah, sa Supreme Court ka na lang'; a decade later, GMA named CJ the 21st Chief Justice of the Philippines",
+      "claim": "SC journey: like his entry into the law profession, CJ did not plan his journey to the SC -- on June 17, 1992, then President-elect Fidel V. Ramos offered CJ to be his Secretary of Justice; CJ respectfully declined, saying, 'Thank you, Mr. President, but I am not worthy to join your Cabinet; I did not campaign for you during the last elections'; however, FVR was insistent: 'I know you did not campaign for me; in fact, you did not even vote for me; you voted for Jovy Salonga; but that is all right; I want a nonpartisan Cabinet'; after two weeks, FVR finally relented: 'Ah, sa Supreme Court ka na lang'; a decade later, GMA named CJ the 21st Chief Justice of the Philippines",
       "rhetorical_move": "FVR-June-17-1992-DOJ-offer + 'sa Supreme Court ka na lang' Tagalog-quote + GMA-21st-CJ-decade-later disclosure",
-      "confidence": "high",
-      "domain": "",
-      "would_repeat_today": null
+      "confidence": "high"
     },
     {
-      "claim": "As a jurist, CJ espoused his legal philosophy of 'Liberty and Prosperity Under the Rule of Law' â€” CJ believes justice and jobs, freedom and food, ethics and economics, democracy and development, and liberty and prosperity must always go together; one is useless without the other; after his retirement in December 2006, he embarked on a new journey as an independent director or adviser of some of the largest firms listed in the PSE, and also writes a column in the Inquirer",
+      "claim": "As a jurist, CJ espoused his legal philosophy of 'Liberty and Prosperity Under the Rule of Law' -- CJ believes justice and jobs, freedom and food, ethics and economics, democracy and development, and liberty and prosperity must always go together; one is useless without the other; after his retirement in December 2006, he embarked on a new journey as an independent director or adviser of some of the largest firms listed in the PSE, and also writes a column in the Inquirer",
       "rhetorical_move": "FLP-signature-five-paired-virtues philosophy + post-retirement-directorships + Inquirer-column post-judicial trajectory",
-      "confidence": "high",
-      "domain": "",
-      "would_repeat_today": null
+      "confidence": "high"
     },
     {
-      "claim": "Giving back: CJ asks his successful co-alumni to give back to society by sharing their time, talent and treasure â€” the sharing of time and talent is just as important as the sharing of treasure; no one is so poor he cannot share something, and no one is so rich he does not need anything; CJ gives back his time and talent by being chair or president of several foundations (Manila Cathedral Foundation, Metrobank Foundation, FLP); the sharing of treasure should really remain anonymous, so CJ will just mention two items already of public knowledge: to celebrate his 75th birthday two years ago, CJ gave half of his retirement pay to FLP and his one-year income as a columnist to the Inquirer Foundation for Newsboys; and today, may CJ contribute eight subsistence scholarships for poor Mapans â€” to conclude, education, hard work and God transformed CJ from a poor newsboy to being president of the most widely-read newspaper in our country; from an ignorant Catholic to being a member of the highest lay council of the Church in the Vatican; from a frustrated applicant for graduate studies to being father of five wonderful children who each achieved CJ's impossible dream of graduating from a pedigreed US university; from a fumbling shoeshine boy to the boardrooms of the best corporate giants; from an aspiring chemical engineer to a reluctant lawyer; and finally to the highest judicial position in our country â€” as CJ contemplates his life and moves toward its sunset, he knows that God has woven his many pains and gains into a magnificent tapestry showing His mystical presence; truly, there is one constancy in his life: the presence, care and providence of our Lord Jesus Christ; to Him CJ dedicates all he was, all he is, and all he will ever be",
+      "claim": "Giving back: CJ asks his successful co-alumni to give back to society by sharing their time, talent and treasure -- the sharing of time and talent is just as important as the sharing of treasure; no one is so poor he cannot share something, and no one is so rich he does not need anything; CJ gives back his time and talent by being chair or president of several foundations (Manila Cathedral Foundation, Metrobank Foundation, FLP); the sharing of treasure should really remain anonymous, so CJ will just mention two items already of public knowledge: to celebrate his 75th birthday two years ago, CJ gave half of his retirement pay to FLP and his one-year income as a columnist to the Inquirer Foundation for Newsboys; and today, may CJ contribute eight subsistence scholarships for poor Mapans -- to conclude, education, hard work and God transformed CJ from a poor newsboy to being president of the most widely-read newspaper in our country; from an ignorant Catholic to being a member of the highest lay council of the Church in the Vatican; from a frustrated applicant for graduate studies to being father of five wonderful children who each achieved CJ's impossible dream of graduating from a pedigreed US university; from a fumbling shoeshine boy to the boardrooms of the best corporate giants; from an aspiring chemical engineer to a reluctant lawyer; and finally to the highest judicial position in our country -- as CJ contemplates his life and moves toward its sunset, he knows that God has woven his many pains and gains into a magnificent tapestry showing His mystical presence; truly, there is one constancy in his life: the presence, care and providence of our Lord Jesus Christ; to Him CJ dedicates all he was, all he is, and all he will ever be",
       "rhetorical_move": "Time-talent-treasure giving-back close + 75th-birthday + 8-Mapan-subsistence-scholarships + 'magnificent tapestry of His mystical presence' theological-coda",
-      "confidence": "high",
-      "domain": "",
-      "would_repeat_today": null
+      "confidence": "high"
     }
   ],
   "notable_anecdotes": [
-    {
-      "summary": "Benny Abante Jr. Mapa HS Alumni Assoc president invitation",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Feb 23 speech at Metro Tent Pasig before 1,000 alumni",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "cjpanganiban.com full-speech self-citation",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "'Mostly poor were the Mapa students of my time'",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Hawked newspapers + peddled cigarettes + shined shoes",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Aspiration to be president of Manila Times (largest-circulated daily then)",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "UP scholarship + 15-centavo bus-fare impoverished-parents obstacle",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "UST scholarship refused over 'Susmaryosep' (Jesus, Mary, Joseph) answer to 'Name them' question",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "'Religious ignoramus' self-deprecating confession",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "FEU scholarship without any question",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Wanted to be chemical engineer; strict father ordered law",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Dean Jovito R. Salonga (UP + Harvard + Yale alum) FEU mentor",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Cum laude graduate + 6th-placer bar exam",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Yale scholarship granted but no transport money",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Baron Travel Corp. founding",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Five children's graduate degrees at Harvard + Stanford + UC + Chicago + Michigan",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Catholic faith intensification",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Second Plenary Council of the Philippines invitation",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Pope John Paul II named CJP only Filipino member of Pontifical Council for the Laity 1996-2001",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "1991 part-time president of Inquirer",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "June 17, 1992 â€” FVR (then President-elect) offered DOJ Secretary",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "'I am not worthy... I did not campaign for you' decline",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "FVR: 'I know you did not... in fact you did not even vote for me, you voted for Jovy Salonga... I want a nonpartisan Cabinet'",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Two weeks later FVR relented: 'Ah sa Supreme Court ka na lang'",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Decade later GMA named CJP 21st Chief Justice of the Philippines",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "FLP philosophy 'Liberty and Prosperity Under the Rule of Law'",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "FLP signature: justice-and-jobs / freedom-and-food / ethics-and-economics / democracy-and-development / liberty-and-prosperity",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "December 2006 retirement",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Post-retirement independent-director-or-adviser of largest PSE firms",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Time-talent-treasure giving-back framework",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "'No one is so poor he cannot share something, no one is so rich he does not need anything'",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Foundations chaired: Manila Cathedral Foundation + Metrobank Foundation + FLP",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "75th birthday two years ago: half retirement pay to FLP + one-year column income to Inquirer Foundation for Newsboys",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Today: 8 subsistence scholarships for poor Mapans pledged",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Six-fold transformation: poor newsboy â†’ largest-paper-president / ignorant Catholic â†’ Vatican lay-council member / frustrated grad-school applicant â†’ father of 5 US-pedigreed-grad children / shoeshine boy â†’ corporate-giant boardrooms / aspiring chem engineer â†’ reluctant lawyer / poor student â†’ highest judicial position",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "'Magnificent tapestry showing His mystical presence' theological close",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "'One constancy: presence, care and providence of our Lord Jesus Christ'",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "'To Him I dedicate all I was, all I am, and all I will ever be'",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    }
-  ],
-  "decision_framework_signals": [
-    "Education-and-hard-work-as-keys-to-success poor-student framework",
-    "Three-school-application-sequence (UP-scholarship-no-bus-fare + UST-refused-Susmaryosep + FEU-no-question) biographical-test",
-    "Strict-father-ordered-law father-vs-aspiration framework",
-    "Dean-Salonga-three-schools-insight mentor-transmission model",
-    "Cum-laude + 6th-placer + Yale-scholarship academic-excellence track",
-    "Yale-no-transport-money repeat-obstacle pattern",
-    "Baron-Travel-Corp-funded-children US-pedigreed-grad-school strategy",
-    "Catholic-faith-intensification â†’ Vatican-Pontifical-Council-Laity faith-trajectory",
-    "Inquirer-1991-part-time-president pre-SC publishing-career",
-    "FVR-DOJ-Secretary decline + 'I did not campaign for you' nonpartisan-principle",
-    "FVR-'sa-Supreme-Court-ka-na-lang' SC-appointment-genesis",
-    "GMA-21st-CJ-decade-later appointment-trajectory",
-    "FLP signature 'Liberty and Prosperity Under the Rule of Law' philosophy",
-    "FLP five-paired-virtues: justice-jobs / freedom-food / ethics-economics / democracy-development / liberty-prosperity",
-    "One-is-useless-without-the-other paired-virtues principle",
-    "Time-talent-treasure giving-back framework (sharing-of-time-and-talent-just-as-important-as-treasure)",
-    "Anonymous-treasure-sharing default + 'two public-knowledge items' disclosure-exception",
-    "75th-birthday halving-retirement-pay + one-year-column-income gift-pattern",
-    "8-subsistence-scholarships live-pledge for-poor-Mapans",
-    "Six-fold-transformation aspirational-arc",
-    "Magnificent-tapestry-of-pains-and-gains theological-narrative framework",
-    "'One constancy: presence, care and providence of our Lord Jesus Christ' faith-anchor"
+    "Benny Abante Jr. Mapa HS Alumni Assoc president invitation",
+    "Feb 23 speech at Metro Tent Pasig before 1,000 alumni",
+    "cjpanganiban.com full-speech self-citation",
+    "'Mostly poor were the Mapa students of my time'",
+    "Hawked newspapers + peddled cigarettes + shined shoes",
+    "Aspiration to be president of Manila Times (largest-circulated daily then)",
+    "UP scholarship + 15-centavo bus-fare impoverished-parents obstacle",
+    "UST scholarship refused over 'Susmaryosep' (Jesus, Mary, Joseph) answer to 'Name them' question",
+    "'Religious ignoramus' self-deprecating confession",
+    "FEU scholarship without any question",
+    "Wanted to be chemical engineer; strict father ordered law",
+    "Dean Jovito R. Salonga (UP + Harvard + Yale alum) FEU mentor",
+    "Cum laude graduate + 6th-placer bar exam",
+    "Yale scholarship granted but no transport money",
+    "Baron Travel Corp. founding",
+    "Five children's graduate degrees at Harvard + Stanford + UC + Chicago + Michigan",
+    "Catholic faith intensification",
+    "Second Plenary Council of the Philippines invitation",
+    "Pope John Paul II named CJP only Filipino member of Pontifical Council for the Laity 1996-2001",
+    "1991 part-time president of Inquirer",
+    "June 17, 1992 -- FVR (then President-elect) offered DOJ Secretary",
+    "'I am not worthy... I did not campaign for you' decline",
+    "FVR: 'I know you did not... in fact you did not even vote for me, you voted for Jovy Salonga... I want a nonpartisan Cabinet'",
+    "Two weeks later FVR relented: 'Ah sa Supreme Court ka na lang'",
+    "Decade later GMA named CJP 21st Chief Justice of the Philippines",
+    "FLP philosophy 'Liberty and Prosperity Under the Rule of Law'",
+    "FLP signature: justice-and-jobs / freedom-and-food / ethics-and-economics / democracy-and-development / liberty-and-prosperity",
+    "December 2006 retirement",
+    "Post-retirement independent-director-or-adviser of largest PSE firms",
+    "Time-talent-treasure giving-back framework",
+    "'No one is so poor he cannot share something, no one is so rich he does not need anything'",
+    "Foundations chaired: Manila Cathedral Foundation + Metrobank Foundation + FLP",
+    "75th birthday two years ago: half retirement pay to FLP + one-year column income to Inquirer Foundation for Newsboys",
+    "Today: 8 subsistence scholarships for poor Mapans pledged",
+    "Six-fold transformation: poor newsboy → largest-paper-president / ignorant Catholic → Vatican lay-council member / frustrated grad-school applicant → father of 5 US-pedigreed-grad children / shoeshine boy → corporate-giant boardrooms / aspiring chem engineer → reluctant lawyer / poor student → highest judicial position",
+    "'Magnificent tapestry showing His mystical presence' theological close",
+    "'One constancy: presence, care and providence of our Lord Jesus Christ'",
+    "'To Him I dedicate all I was, all I am, and all I will ever be'"
   ],
   "target_audience": [
     "Mapa High School alumni (Feb 23 speech audience + Inquirer readers)",
@@ -732,5 +315,30 @@
     "'To Him I dedicate all I was, all I am, and all I will ever be' closing-doxology",
     "Section labels (Supreme Court journey, Giving back)"
   ],
-  "one_paragraph_summary": "Panganiban writes one of his rare biographical-disclosure columns, summarizing his Mapa High School Alumni Association speech delivered the previous Sunday â€” Feb 23, 2014, at Metro Tent Pasig before 1,000 alumni. 'Please talk of how you became a sterling example of what a true-blue Mapan should be and how we can give back to society,' was the request of former Cong. Benny Abante Jr., president of the Mapa High School Alumni Association â€” CJ's full speech may be accessed at cjpanganiban.com; here's a short version to fit in this space. Mostly poor were the Mapa students of CJ's time; we looked at education and hard work as our keys to success â€” CJ had to hawk newspapers, peddle cigarettes and shine shoes to support his study; tired and weary, CJ promised himself he would one day be president of the Manila Times, the largest-circulated daily then. After high school the UP granted CJ a scholarship, but his impoverished parents could not afford the then 15-centavo bus fare to the UP campus in Quezon City. The nearby UST refused CJ a scholarship because he failed to answer the last of three questions of an old Dominican priest: first, 'How many Gods are there?'; second, 'How many persons are there in one God?'; and third, the tough question, 'Name them,' to which CJ sheepishly answered, 'Susmaryosep (Jesus, Mary and Joseph)!' â€” yes, CJ was a religious ignoramus. So CJ enrolled at FEU, which gave him a scholarship without any question; CJ wanted to be a chemical engineer but his strict father ordered him to take up law. Inconsolable was CJ's grief at his inability to enroll at UP and to study chemical engineering, but his life turned at FEU â€” there CJ met the brilliant law dean Jovito R. Salonga, who taught CJ his insights from the three schools he studied in: UP, Harvard and Yale. After graduating cum laude and placing sixth in the bar exam, CJ was granted a scholarship at Yale; but, like his UP problem, he did not have transport money â€” so, he forthwith practiced and taught law, and dabbled in business; CJ organized Baron Travel Corp., which enabled his five children to travel, and finish their graduate degrees at Harvard, Stanford, U. of California, U. of Chicago, and U. of Michigan. CJ also intensified his study of his Catholic faith â€” as a result, he was invited to the Second Plenary Council of the Philippines; later, he was named by Pope John Paul II as the only Filipino member for the 1996-2001 term of the Pontifical Council for the Laity in the Vatican; in 1991, he became part-time president of the Inquirer. Supreme Court journey: like his entry into the law profession, CJ did not plan his journey to the SC. On June 17, 1992, then President-elect Fidel V. Ramos offered CJ to be his Secretary of Justice; CJ respectfully declined, saying, 'Thank you, Mr. President, but I am not worthy to join your Cabinet; I did not campaign for you during the last elections.' However, FVR was insistent: 'I know you did not campaign for me; in fact, you did not even vote for me; you voted for Jovy Salonga; but that is all right; I want a nonpartisan Cabinet.' After two weeks, FVR finally relented: 'Ah, sa Supreme Court ka na lang.' A decade later, President GMA named CJ the 21st Chief Justice of the Philippines. As a jurist, CJ espoused his legal philosophy of 'Liberty and Prosperity Under the Rule of Law' â€” CJ believes justice and jobs, freedom and food, ethics and economics, democracy and development, and liberty and prosperity must always go together; one is useless without the other. After his retirement in December 2006, he embarked on a new journey as an independent director or adviser of some of the largest firms listed in the PSE, and also writes a column in the Inquirer. Giving back: CJ asks his successful co-alumni to give back to society by sharing their time, talent and treasure â€” the sharing of time and talent is just as important as the sharing of treasure; no one is so poor he cannot share something, and no one is so rich he does not need anything. CJ gives back his time and talent by being chair or president of several foundations, like the Manila Cathedral Foundation, Metrobank Foundation, and FLP. The sharing of treasure should really remain anonymous, so CJ will just mention two items already of public knowledge: to celebrate his 75th birthday two years ago, CJ gave half of his retirement pay to FLP and his one-year income as a columnist to the Inquirer Foundation for Newsboys; and today, may CJ contribute eight subsistence scholarships for poor Mapans. To conclude, education, hard work and God transformed CJ from a poor newsboy to being president of the most widely-read newspaper in our country; from an ignorant Catholic to being a member of the highest lay council of the Church in the Vatican; from a frustrated applicant for graduate studies to being father of five wonderful children who each achieved CJ's impossible dream of graduating from a pedigreed US university; from a fumbling shoeshine boy to the boardrooms of the best corporate giants; from an aspiring chemical engineer to a reluctant lawyer; and, finally, to the highest judicial position in our country. As CJ contemplates his life and moves toward its sunset, he knows that God has woven his many pains and gains into a magnificent tapestry showing His mystical presence â€” truly, there is one constancy in his life: the presence, care and providence of our Lord Jesus Christ; to Him CJ dedicates all he was, all he is, and all he will ever be."
+  "decision_framework_signals": [
+    "Education-and-hard-work-as-keys-to-success poor-student framework",
+    "Three-school-application-sequence (UP-scholarship-no-bus-fare + UST-refused-Susmaryosep + FEU-no-question) biographical-test",
+    "Strict-father-ordered-law father-vs-aspiration framework",
+    "Dean-Salonga-three-schools-insight mentor-transmission model",
+    "Cum-laude + 6th-placer + Yale-scholarship academic-excellence track",
+    "Yale-no-transport-money repeat-obstacle pattern",
+    "Baron-Travel-Corp-funded-children US-pedigreed-grad-school strategy",
+    "Catholic-faith-intensification → Vatican-Pontifical-Council-Laity faith-trajectory",
+    "Inquirer-1991-part-time-president pre-SC publishing-career",
+    "FVR-DOJ-Secretary decline + 'I did not campaign for you' nonpartisan-principle",
+    "FVR-'sa-Supreme-Court-ka-na-lang' SC-appointment-genesis",
+    "GMA-21st-CJ-decade-later appointment-trajectory",
+    "FLP signature 'Liberty and Prosperity Under the Rule of Law' philosophy",
+    "FLP five-paired-virtues: justice-jobs / freedom-food / ethics-economics / democracy-development / liberty-prosperity",
+    "One-is-useless-without-the-other paired-virtues principle",
+    "Time-talent-treasure giving-back framework (sharing-of-time-and-talent-just-as-important-as-treasure)",
+    "Anonymous-treasure-sharing default + 'two public-knowledge items' disclosure-exception",
+    "75th-birthday halving-retirement-pay + one-year-column-income gift-pattern",
+    "8-subsistence-scholarships live-pledge for-poor-Mapans",
+    "Six-fold-transformation aspirational-arc",
+    "Magnificent-tapestry-of-pains-and-gains theological-narrative framework",
+    "'One constancy: presence, care and providence of our Lord Jesus Christ' faith-anchor"
+  ],
+  "one_paragraph_summary": "Panganiban writes one of his rare biographical-disclosure columns, summarizing his Mapa High School Alumni Association speech delivered the previous Sunday -- Feb 23, 2014, at Metro Tent Pasig before 1,000 alumni. 'Please talk of how you became a sterling example of what a true-blue Mapan should be and how we can give back to society,' was the request of former Cong. Benny Abante Jr., president of the Mapa High School Alumni Association -- CJ's full speech may be accessed at cjpanganiban.com; here's a short version to fit in this space. Mostly poor were the Mapa students of CJ's time; we looked at education and hard work as our keys to success -- CJ had to hawk newspapers, peddle cigarettes and shine shoes to support his study; tired and weary, CJ promised himself he would one day be president of the Manila Times, the largest-circulated daily then. After high school the UP granted CJ a scholarship, but his impoverished parents could not afford the then 15-centavo bus fare to the UP campus in Quezon City. The nearby UST refused CJ a scholarship because he failed to answer the last of three questions of an old Dominican priest: first, 'How many Gods are there?'; second, 'How many persons are there in one God?'; and third, the tough question, 'Name them,' to which CJ sheepishly answered, 'Susmaryosep (Jesus, Mary and Joseph)!' -- yes, CJ was a religious ignoramus. So CJ enrolled at FEU, which gave him a scholarship without any question; CJ wanted to be a chemical engineer but his strict father ordered him to take up law. Inconsolable was CJ's grief at his inability to enroll at UP and to study chemical engineering, but his life turned at FEU -- there CJ met the brilliant law dean Jovito R. Salonga, who taught CJ his insights from the three schools he studied in: UP, Harvard and Yale. After graduating cum laude and placing sixth in the bar exam, CJ was granted a scholarship at Yale; but, like his UP problem, he did not have transport money -- so, he forthwith practiced and taught law, and dabbled in business; CJ organized Baron Travel Corp., which enabled his five children to travel, and finish their graduate degrees at Harvard, Stanford, U. of California, U. of Chicago, and U. of Michigan. CJ also intensified his study of his Catholic faith -- as a result, he was invited to the Second Plenary Council of the Philippines; later, he was named by Pope John Paul II as the only Filipino member for the 1996-2001 term of the Pontifical Council for the Laity in the Vatican; in 1991, he became part-time president of the Inquirer. Supreme Court journey: like his entry into the law profession, CJ did not plan his journey to the SC. On June 17, 1992, then President-elect Fidel V. Ramos offered CJ to be his Secretary of Justice; CJ respectfully declined, saying, 'Thank you, Mr. President, but I am not worthy to join your Cabinet; I did not campaign for you during the last elections.' However, FVR was insistent: 'I know you did not campaign for me; in fact, you did not even vote for me; you voted for Jovy Salonga; but that is all right; I want a nonpartisan Cabinet.' After two weeks, FVR finally relented: 'Ah, sa Supreme Court ka na lang.' A decade later, President GMA named CJ the 21st Chief Justice of the Philippines. As a jurist, CJ espoused his legal philosophy of 'Liberty and Prosperity Under the Rule of Law' -- CJ believes justice and jobs, freedom and food, ethics and economics, democracy and development, and liberty and prosperity must always go together; one is useless without the other. After his retirement in December 2006, he embarked on a new journey as an independent director or adviser of some of the largest firms listed in the PSE, and also writes a column in the Inquirer. Giving back: CJ asks his successful co-alumni to give back to society by sharing their time, talent and treasure -- the sharing of time and talent is just as important as the sharing of treasure; no one is so poor he cannot share something, and no one is so rich he does not need anything. CJ gives back his time and talent by being chair or president of several foundations, like the Manila Cathedral Foundation, Metrobank Foundation, and FLP. The sharing of treasure should really remain anonymous, so CJ will just mention two items already of public knowledge: to celebrate his 75th birthday two years ago, CJ gave half of his retirement pay to FLP and his one-year income as a columnist to the Inquirer Foundation for Newsboys; and today, may CJ contribute eight subsistence scholarships for poor Mapans. To conclude, education, hard work and God transformed CJ from a poor newsboy to being president of the most widely-read newspaper in our country; from an ignorant Catholic to being a member of the highest lay council of the Church in the Vatican; from a frustrated applicant for graduate studies to being father of five wonderful children who each achieved CJ's impossible dream of graduating from a pedigreed US university; from a fumbling shoeshine boy to the boardrooms of the best corporate giants; from an aspiring chemical engineer to a reluctant lawyer; and, finally, to the highest judicial position in our country. As CJ contemplates his life and moves toward its sunset, he knows that God has woven his many pains and gains into a magnificent tapestry showing His mystical presence -- truly, there is one constancy in his life: the presence, care and providence of our Lord Jesus Christ; to Him CJ dedicates all he was, all he is, and all he will ever be.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
 }

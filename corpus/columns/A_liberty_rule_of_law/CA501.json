@@ -1,0 +1,125 @@
+{
+  "id": "CA501",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 501,
+  "title": "Prima facie case",
+  "date": "2012-05-05",
+  "link": "https://opinion.inquirer.net/28187/prima-facie-case",
+  "keywords": [
+    "prima facie case",
+    "Corona impeachment",
+    "SALN omissions",
+    "dollar deposits",
+    "PSBank Garcia",
+    "willfully suppressed evidence",
+    "SWS poll",
+    "Article 2"
+  ],
+  "primary_topics": [
+    "The prosecution has established a prima facie case on Article 2 of the impeachment complaint -- Corona's repeated failure to declare properties in his SALNs",
+    "The dollar deposit issue: admitted five PSBank accounts, at least $10M per Ombudsman, and the willfully suppressed evidence risk of non-disclosure",
+    "The Court of Public Opinion: SWS poll showing 63% believe Corona has hidden wealth"
+  ],
+  "sub_topics": [
+    "Prosecution withdrew five of eight Articles; three remain; resuming May 7 after six-week recess",
+    "Article 2 prima facie case: repeated failure to include properties in SALNs culpably violates Constitution and betrays public trust",
+    "Senate Jan. 27, 2012 order: failure to include assets substantially and inextricably linked to constitutional duty; undisclosed assets disproportionate to known income = betrayal of public trust",
+    "Defense choosing full-blown trial implies concession of prima facie validity",
+    "Prosecution evidence: undeclared/undervalued houses, condos, peso deposits manifestly disproportionate to Corona's legal income",
+    "Five PSBank dollar accounts admitted by PSBank president Pascual Garcia III; TRO from SC barring exact amount disclosure",
+    "Ombudsman Morales: at least $10M in PSBank and other banks; Corona lawyers flatly denied and challenged OMB jurisdiction",
+    "Willfully suppressed evidence rule (Rule 131 Sec. 3): TRO addressed to Senate and prosecution NOT to defense/Corona himself; he can voluntarily consent to bank inquiry without violating TRO",
+    "Senate March 21, 2012 order: allowed prosecution to present dollar account evidence if SC rules it will not violate RA 6425",
+    "SWS poll (March 10-13): 63% convinced Corona has hidden wealth; only 12% unconvinced; 24% undecided"
+  ],
+  "signature_phrases": [
+    "the prosecution has proven a prima facie case on at least one (Article II)",
+    "culpably violated the Constitution and betrayed public trust by his repeated failure to include some of his properties in his SALNs",
+    "undisclosed assets show betrayal of public trust when they are disproportionate to known legitimate income",
+    "By opting for a full-blown trial, the defense may also have conceded the prima facie validity",
+    "evidence willfully suppressed would be adverse if produced",
+    "nothing prevents the Chief Justice, as the bank depositor, from giving his written consent to the bank inquiry",
+    "Should he fail or neglect to do so, the presumption of willfully suppressed evidence may apply to him",
+    "the Court of Public Opinion appears likewise to have been persuaded"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Chief Justice Renato C. Corona (respondent)",
+      "PSBank president Pascual Garcia III (admitted five dollar accounts)",
+      "Ombudsman Conchita Carpio Morales (wrote $10M letter)",
+      "Senate President Juan Ponce Enrile"
+    ],
+    "institutions": [
+      "Senate (impeachment court)",
+      "Philippine Savings Bank (PSBank)",
+      "Supreme Court of the Philippines (issued TRO)",
+      "Office of the Ombudsman",
+      "Social Weather Stations (SWS)"
+    ],
+    "cases": [
+      "Corona impeachment trial -- Article 2 prima facie case",
+      "PSBank petition for TRO on dollar deposit disclosure (SC-pending)"
+    ],
+    "laws_treaties": [
+      "Rules of Court -- Rule 131 Sec. 3 (willfully suppressed evidence)",
+      "RA 6770 (Ombudsman Act) -- Sec. 26 (due process), Sec. 22 (impeachment complaint)",
+      "RA 6425 (foreign currency deposits law)",
+      "1987 Constitution -- SALN requirement"
+    ],
+    "events": [
+      "Senate Jan. 27, 2012 order on SALN duty",
+      "Senate March 21, 2012 order on dollar account evidence",
+      "SWS poll March 10-13, 2012 -- 63% believe Corona has hidden wealth",
+      "Senate six-week recess ending May 7, 2012"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The prosecution has established a prima facie case on Article 2 -- which, if not overturned by the defense, is sufficient to justify Corona's ouster from the highest judicial office.",
+      "rhetorical_move": "prima-facie-case-sufficiency-affirmation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The defense's choice to present a full-blown countervailing case implies a concession of the prima facie validity of the prosecution evidence.",
+      "rhetorical_move": "defense-choice-as-implied-concession argument",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The willfully suppressed evidence rule cuts against Corona: the TRO was addressed to the Senate and prosecution, not to Corona himself -- he can give written consent to the bank inquiry without violating it; failure to do so may trigger the adverse presumption.",
+      "rhetorical_move": "TRO-scope-limitation argument shifting the burden to Corona to voluntarily disclose",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "PSBank president Pascual Garcia III admitting five dollar accounts belong to the Chief Justice -- the most pivotal single admission in the entire dollar-deposit chapter of the trial.",
+    "The SC TRO being addressed to the Senate and prosecution but NOT to the defense/depositor -- meaning Corona can voluntarily consent to disclosure without violating the TRO.",
+    "The SWS poll showing 63% believe Corona has hidden wealth while only 12% are unconvinced -- the Court of Public Opinion has already rendered a preliminary verdict."
+  ],
+  "target_audience": [
+    "Civic readers following the Corona impeachment trial",
+    "Lawyers and constitutional law scholars tracking the SALN and dollar deposit issues",
+    "Senator-judges evaluating the prosecution prima facie case",
+    "Media commentators covering the impeachment trial"
+  ],
+  "register_markers": [
+    "prima-facie-case-as-analytical-centerpiece register",
+    "defense-choice-as-implied-concession argument",
+    "willfully suppressed evidence rule cited with specific Rules of Court provision (Rule 131 Sec. 3)",
+    "TRO-scope-limitation argument (addressed to Senate/prosecution, not to Corona himself)",
+    "Court of Public Opinion as the parallel tribunal alongside the Senate",
+    "SWS poll cited as quantitative evidence of public judgment"
+  ],
+  "decision_framework_signals": [
+    "applies prima-facie-case-sufficiency standard to assess prosecution standing",
+    "uses defense-choice-as-implied-concession to infer acknowledgment of evidentiary weight",
+    "applies willfully suppressed evidence rule to shift burden to Corona to voluntarily disclose",
+    "treats TRO-scope-limitation as enabling voluntary disclosure without legal constraint",
+    "deploys Court-of-Public-Opinion parallel to show political as well as legal burden on Corona"
+  ],
+  "one_paragraph_summary": "Panganiban writes as the six-week Senate recess ends and the impeachment trial resumes on May 7, 2012. Though the prosecution withdrew five of eight Articles, it established a prima facie case on Article 2: CJ Corona's repeated failure to include properties in his SALNs culpably violates the Constitution and betrays public trust. The Senate's January 27, 2012 order linked non-disclosure to the constitutional duty to completely, truthfully and faithfully declare assets, and held that undisclosed assets disproportionate to known income constitute betrayal of public trust. Prosecution evidence includes undeclared/undervalued houses, condos, and peso deposits appearing manifestly disproportionate to Corona's legal income. On the dollar deposits: PSBank president Garcia admitted five dollar accounts belong to the CJ; the SC issued a TRO; the Ombudsman wrote that the CJ has at least $10M in PSBank and other banks. CJ applies the willfully suppressed evidence rule (Rule 131 Sec. 3): the TRO was addressed to the Senate and prosecution, not to Corona himself -- he can voluntarily give written consent to the bank inquiry without violating it; failure to do so may trigger the adverse presumption. The SWS poll (March 10-13) shows 63% of Filipinos believe Corona has hidden wealth, 12% are unconvinced, 24% undecided -- the Court of Public Opinion has also been persuaded.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

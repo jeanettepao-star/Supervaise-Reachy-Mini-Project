@@ -1,0 +1,174 @@
+{
+  "id": "CB009",
+  "format": "C",
+  "type": "column",
+  "theme": "B",
+  "theme_label": "Prosperity and Economic Philosophy",
+  "number": 9,
+  "title": "Saving democracy and capitalism",
+  "date": "2021-02-28",
+  "link": "https://opinion.inquirer.net/138068/saving-democracy-and-capitalism",
+  "keywords": [
+    "Jan 6 Capitol attack",
+    "inclusive capitalism",
+    "conglomerate philanthropy",
+    "Grameen",
+    "Aravind",
+    "Filipino corporate foundations",
+    "least-government governance"
+  ],
+  "primary_topics": [
+    "Jan 6, 2021 Capitol riot as an unthinkable assault on democracy and capitalism",
+    "Failure of Marx-style wealth redistribution; revival of capitalism in former communist states (China especially)",
+    "International examples of inclusive capitalism (Grameen Bank, Aravind Eye Hospital, InfoGeekie)",
+    "Filipino corporate-foundation programs sharing capitalism's fruits with the marginalized",
+    "Conglomerate stewardship of private universities and pandemic response",
+    "Governing principles: govern the least, level the playing field, build just societies"
+  ],
+  "sub_topics": [
+    "Trump partisans' Jan 6 riot framed as attack on the 'very temple' of American liberalism",
+    "Profligacy markers fueling discontent (private jets, luxury yachts, sports cars, mansions, red diamonds)",
+    "China as the best contemporary example: capitalism + private initiative → second/soon-largest economy",
+    "Netflix documentaries 'Saving Capitalism' and 'A New Capitalism'",
+    "Three international examples: Grameen Bank (Yunus, Bangladesh) -- collateral-free loans; Aravind Eye Hospital (India) -- cataract surgery regardless of economic status; InfoGeekie -- digital + personalized learning",
+    "Filipino corporate inclusiveness: Jollibee Group's Farmer Entrepreneurship Program; BPI BanKo; Jaime Aristotle Alip's CARD MRI; Metrobank Foundation's Manila Doctors Hospital; Lopez Group Green advocacies; Metro Pacific's GabayKabuhayan",
+    "Conglo stewardship of universities: UE (Tan Yan Kee Foundation/Lucio Tan); Mapua, U. Nueva Caceres (Yuchengco, Ayala); National U. (SM); 8 Phinma institutions; PLDT's GabayGuro for teachers",
+    "San Miguel's P1B vaccine purchase for 70,000 employees"
+  ],
+  "signature_phrases": [
+    "a heretofore unthinkable assault on democracy and capitalism",
+    "the very temple where the American brand of liberalism, freedom, and private initiative is worshipped, practiced, and exported",
+    "Discontent morphs into insurrection",
+    "an arrogant display of profligacy (private jets, luxury yachts, flamboyant sports cars, mansions galore, red diamonds)",
+    "embraces strong, populist demagogues like Trump",
+    "Defenders of Lincoln's democracy and Smith's capitalism",
+    "The world needs a new kind of capitalism that uplifts the marginalized",
+    "Karl Marx's old answer on wealth distribution has utterly failed",
+    "The staunchest communists abandoned it long ago",
+    "China which used capitalism and private initiative to propel itself",
+    "close the chasm between the haves and have-nots",
+    "Grameen Bank of Nobel laureate Muhammad Yunus",
+    "an enviable track record of on-time repayments",
+    "to alleviate the COVID-19 emergency, conglomerates have responded magnificently",
+    "liberal democracy and performance-driven capitalism are still the best catalysts for liberty and prosperity",
+    "they must scale up and intensify the inclusion of the poor and powerless",
+    "the best way of governing is to govern the least",
+    "interfering only to check avarice and to level the playing field",
+    "to create just societies",
+    "food, water, education, infrastructure, health care, decent incomes and jobs"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Donald J. Trump",
+      "Abraham Lincoln (referenced)",
+      "Adam Smith (referenced)",
+      "Karl Marx (referenced)",
+      "Muhammad Yunus (Nobel laureate, Grameen Bank)",
+      "Jaime Aristotle Alip (CARD MRI founder)",
+      "Lucio Tan (Tan Yan Kee Foundation)"
+    ],
+    "institutions": [
+      "United States Congress / US Capitol",
+      "Grameen Bank (Bangladesh)",
+      "Aravind Eye Hospital (India)",
+      "InfoGeekie",
+      "Jollibee Group Foundation",
+      "Bank of the Philippine Islands (BPI BanKo)",
+      "CARD MRI",
+      "Metrobank Foundation",
+      "Manila Doctors Hospital",
+      "Lopez Group",
+      "Metro Pacific (GabayKabuhayan)",
+      "University of the East",
+      "Tan Yan Kee Foundation",
+      "Mapua University",
+      "University of Nueva Caceres",
+      "Yuchengco Group",
+      "Ayala Group",
+      "National University",
+      "SM Group",
+      "Phinma Group",
+      "PLDT (GabayGuro)",
+      "San Miguel Corporation",
+      "Netflix (documentaries 'Saving Capitalism' and 'A New Capitalism')"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "Jan 6, 2021 US Capitol riot",
+      "Collapse of the Soviet Union (referenced)",
+      "China's three-decade rise to second/soon-largest economy",
+      "COVID-19 pandemic emergency response by Filipino conglomerates",
+      "San Miguel's P1B vaccine purchase for 70,000 employees"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Jan 6 Capitol attack was a heretofore-unthinkable assault on democracy and capitalism in the very temple where American liberalism is worshipped, practiced, and exported -- making it not merely a domestic incident but a global system threat.",
+      "rhetorical_move": "symbolic-magnification opening",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Discontent morphs into insurrection when the rich-poor gap becomes unconscionably wide and is aggravated by ostentatious profligacy; populations then embrace populist demagogues like Trump, so the structural cause is inequality plus arrogance, not just political rhetoric.",
+      "rhetorical_move": "structural-cause analysis",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Marx's wealth-redistribution answer has utterly failed -- the staunchest communists abandoned it, the Soviet Union collapsed, and even China rose only by adopting capitalism and private initiative; the answer is not to replace capitalism but to make it inclusive.",
+      "rhetorical_move": "negative-precedent appeal",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The international model is corporate inclusiveness -- Grameen Bank's collateral-free loans, Aravind Eye Hospital's universal cataract surgery, InfoGeekie's digital personalized learning -- proving inclusive capitalism is self-sustainable, not charity.",
+      "rhetorical_move": "international-example enumeration",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Filipino conglomerates and their foundations are already practicing the same inclusiveness -- Jollibee, BPI, CARD MRI, Metrobank Foundation, Lopez, Metro Pacific, PLDT, the conglo-stewarded universities, and San Miguel's P1B pandemic vaccine purchase -- making the inclusive-capitalism path locally credible.",
+      "rhetorical_move": "domestic-example enumeration",
+      "confidence": "asserted with praise"
+    },
+    {
+      "claim": "The best way of governing is to govern the least, allow people their innovation and initiative, and interfere only to check avarice and level the playing field; government's primary role is to create just societies and improve access to basic necessities, encourage philanthropy, honor commitments, and protect property rights.",
+      "rhetorical_move": "concluding governance manifesto",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 'temple' framing of the US Capitol -- 'the very temple where the American brand of liberalism, freedom, and private initiative is worshipped, practiced, and exported' -- one of CJ's most intensely sacralized images of an American institution.",
+    "The catalog of profligacy markers -- 'private jets, luxury yachts, flamboyant sports cars, mansions galore, red diamonds' -- five rapid-fire concrete signifiers used as the explanatory cause of populist discontent.",
+    "The China observation -- capitalism and private initiative propelling it from poverty to 'second largest (and soon, the largest) economy in the world in barely three decades' -- used as the empirical refutation of Marx without ideological hostility.",
+    "The Yunus-Aravind-InfoGeekie triad ranked as international cases, paired against an extended Filipino enumeration (Jollibee, BPI, CARD MRI, Metrobank, Lopez, Metro Pacific, plus seven university/educational entries) -- the column's structural assertion that Philippine practice already matches global best practice.",
+    "The San Miguel P1B-for-70,000-employees vaccine line -- the single concrete pandemic-response figure in the column, presented as proof of conglomerate scale and seriousness.",
+    "The closing governance manifesto -- 'the best way of governing is to govern the least' -- a rare CJ articulation of his libertarian-leaning political philosophy in a single sentence."
+  ],
+  "target_audience": [
+    "FLP donors and conglomerate-foundation networks",
+    "Corporate leaders and philanthropy directors",
+    "Political-economy and constitutional-democracy readership",
+    "Civic-minded business community",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "doctrinal-civic register with extensive institutional enumeration",
+    "'temple' / 'worshipped' religious metaphor for the Capitol",
+    "Lincoln-Smith doublet ('Lincoln's democracy and Smith's capitalism')",
+    "explicit pairing of liberty and prosperity (FLP twin-beacons motif)",
+    "concrete examples with named persons and amounts (P1 billion, 70,000 employees)",
+    "numbered Filipino-conglo enumeration (1)-(11)",
+    "concluding governance manifesto register ('the best way of governing is to govern the least')",
+    "no Tagalog markers; political-economic English"
+  ],
+  "decision_framework_signals": [
+    "applies the 'twin beacons' framing (liberty and prosperity) to democracy + capitalism",
+    "uses negative-precedent appeal (Marx failed; the Soviet Union collapsed) to defend capitalism against socialist alternatives",
+    "applies the 'inclusive-capitalism' principle (scale up, intensify inclusion) as the reform path, not replacement",
+    "uses international-example + domestic-example pairing to argue feasibility at home",
+    "applies the 'govern the least' minimalist-state principle balanced with role-of-government enumeration (just societies, basic necessities, philanthropy, commitments, property rights)",
+    "treats conglomerate stewardship of universities as a substitute for failing public delivery",
+    "applies the 'rich-poor chasm + ostentatious profligacy' diagnostic for democratic erosion"
+  ],
+  "one_paragraph_summary": "Reading the Jan 6, 2021 Capitol riot as a 'heretofore unthinkable assault on democracy and capitalism' in the 'very temple' of American liberalism, Panganiban argues that discontent morphs into insurrection when the gap between rich and poor becomes unconscionably wide and is aggravated by an arrogant display of profligacy -- private jets, luxury yachts, sports cars, mansions, red diamonds -- pushing populations toward populist demagogues like Trump. Marx's redistribution answer has utterly failed; even China rose only by embracing capitalism. The path is therefore not replacement but inclusion. He cites three international examples -- Muhammad Yunus's Grameen Bank, India's Aravind Eye Hospital, and InfoGeekie -- and then enumerates Filipino counterparts: Jollibee's Farmer Entrepreneurship Program, BPI BanKo, Jaime Aristotle Alip's CARD MRI, Metrobank Foundation's Manila Doctors Hospital, Lopez Group's Green advocacies, Metro Pacific's GabayKabuhayan, and the conglomerate stewardship of UE (Tan Yan Kee), Mapua and U. Nueva Caceres (Yuchengco/Ayala), National University (SM), eight institutions under Phinma, and PLDT's GabayGuro for teachers. San Miguel's P1B vaccine commitment for 70,000 employees illustrates the pandemic response. He closes with a governance manifesto: 'the best way of governing is to govern the least,' interfering only to check avarice and level the playing field, while improving access to food, water, education, infrastructure, health care, and decent incomes -- liberal democracy and performance-driven capitalism remain the best catalysts for liberty and prosperity, but must scale up the inclusion of the poor and powerless.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

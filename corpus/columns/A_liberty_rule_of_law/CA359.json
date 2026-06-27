@@ -1,0 +1,211 @@
+{
+  "id": "CA359",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 359,
+  "title": "Judicial greatness",
+  "date": "2016-01-10",
+  "link": "https://opinion.inquirer.net/91896/judicial-greatness",
+  "keywords": [
+    "Year-opening jurisprudence essay Jan 10 2016",
+    "'LxF=D' Austin Analytical School formula",
+    "verba legis vs 'dura lex sed lex' textualist default",
+    "abstraction-vs-reality water-drop and wood metaphors",
+    "Civil Code Art. 9 ('No judge shall decline...')",
+    "Civil Code Art. 10 ('lawmaking body intended right and justice')",
+    "great-jurist 6-source hierarchy (constitutional principles, framers' intent, axioms, precedents, international conventions, presumptions)",
+    "Poe foundling case as 'rare moment for judicial greatness'",
+    "SolGen Florin Hilbay's 'gutsy Comment' praise",
+    "Frivaldo v. Comelec popular-sovereignty doctrine",
+    "Bengzon v. HRET repatriation",
+    "Marcos v. Comelec truth-over-mistaken-statements"
+  ],
+  "primary_topics": [
+    "Two formulas for judicial decision-making: Austin's analytical formula (LxF=D) vs the great-jurist alternative",
+    "The Analytical School of Jurisprudence pioneered by John Austin and its limits in real-world cases",
+    "Failures of verba legis: incomplete, unclear, confusing, contradictory, or obsolete laws",
+    "Civil Code mandate: no judge shall decline judgment for silence, obscurity, or insufficiency of law",
+    "Six sources of 'right and justice' beyond the text -- the great-jurist toolkit",
+    "Why the Grace Poe case is a 'rare moment for judicial greatness'",
+    "Solicitor General Florin Hilbay as exemplar of one who has 'seen the moment' for greatness"
+  ],
+  "sub_topics": [
+    "Most law schools' verba legis training and the 'judicial legislation' bogey",
+    "Dura lex sed lex as the textualist's escape hatch",
+    "Aristotelian syllogism applied to law (major premise, minor premise, conclusion)",
+    "Math analogy: abstract validity vs real-world reality (drops of water, pieces of wood)",
+    "Problems of fact-finding: lying witnesses, faulty memory, vague documents, fake records, poorly preserved evidence",
+    "Problems of law: lacuna, ambiguity, contradiction, obsolescence",
+    "Civil Code presumption: 'lawmaking body intended right and justice to prevail'",
+    "Six sources for great jurists: (1) overarching constitutional principles, (2) framers' intent, (3) judicial axioms, (4) landmark precedents, (5) international conventions, (6) legal presumptions",
+    "Foundlings and social-justice principle of 'more law to those who have less in life'",
+    "1935 Constitution framers' explanation that excluding foundlings was never their intention",
+    "Salus populi est suprema lex invoked 'extra-constitutionally' per Justice Jose P. Laurel",
+    "Frivaldo vs Comelec: doubt in interpreting election laws resolved in favor of electorate's free choice",
+    "Bengzon vs HRET: natural-born Filipinos who became aliens reacquire citizenship upon repatriation",
+    "Marcos vs Comelec: truth prevails over mistaken COC entries",
+    "International instruments: Universal Declaration of Human Rights, ICCPR, Convention on Reduction of Statelessness, Convention on the Rights of the Child",
+    "Presumptions: good faith, nondiscrimination, regularity in performance of duties",
+    "Hilbay's bar-topnotcher track record, law-professor credentials, and 'gutsy Comment' in the Poe cases"
+  ],
+  "signature_phrases": [
+    "in my humble view",
+    "verba legis",
+    "dura lex sed lex",
+    "law times fact equals decision",
+    "Salus populi est suprema lex",
+    "the welfare of the people is the supreme law",
+    "more law to those who have less in life",
+    "the eminent Justice",
+    "judicial greatness",
+    "abstraction vs reality"
+  ],
+  "entities": {
+    "people": [
+      "John Austin (founder of Analytical School of Jurisprudence)",
+      "Senator Grace Poe",
+      "Justice Jose P. Laurel ('the eminent Justice Jose P. Laurel')",
+      "Solicitor General Florin Hilbay"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Commission on Elections (Comelec)",
+      "House of Representatives Electoral Tribunal (HRET)",
+      "Office of the Solicitor General",
+      "Most law schools (referenced collectively)",
+      "United Nations (via Universal Declaration and conventions)"
+    ],
+    "cases": [
+      "Frivaldo vs Comelec -- liberal interpretation of election laws favoring free choice",
+      "Bengzon vs HRET -- natural-born Filipinos reacquiring citizenship through repatriation",
+      "Marcos vs Comelec -- truth prevailing over mistaken COC entries"
+    ],
+    "laws_treaties": [
+      "Civil Code (no judge may decline judgment for silence, obscurity, insufficiency)",
+      "Civil Code (presumption of lawmaker's intent for right and justice)",
+      "1935 Constitution (framers' intent on foundlings)",
+      "1987 Constitution",
+      "Universal Declaration of Human Rights",
+      "International Covenant on Civil and Political Rights (ICCPR)",
+      "Convention on the Reduction of Statelessness",
+      "Convention on the Rights of the Child"
+    ],
+    "events": [
+      "Pending Grace Poe Comelec appeals at the SC",
+      "Hilbay's filing of the OSG Comment in the Poe cases"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Austin's analytical formula (LxF=D) is consistent in the abstract but fails in real-world application -- like one plus one not always equaling two drops of water",
+      "rhetorical_move": "math-analogy demonstration of abstract-real divergence",
+      "confidence": "high"
+    },
+    {
+      "claim": "Textualists' 'dura lex sed lex' is doctrinal hand-washing -- they pass the blame to lawmakers when verba legis produces a bad result",
+      "rhetorical_move": "critique-by-naming of a doctrinal escape hatch",
+      "confidence": "high"
+    },
+    {
+      "claim": "Two distinct problems plague Austin's formula: fact-finding uncertainty and law-incompleteness -- both routinely arise in practice",
+      "rhetorical_move": "doubled-problem enumeration",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Civil Code itself forecloses textualist hand-washing: 'No judge or court shall decline to render judgment by reason of the silence, obscurity or insufficiency of the laws'",
+      "rhetorical_move": "statutory rebuttal of the analytic school",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Civil Code's general guideline -- that in doubt the lawmaker intended right and justice to prevail -- opens the door to extra-textual reasoning",
+      "rhetorical_move": "doctrinal authorization of broader judicial method",
+      "confidence": "high"
+    },
+    {
+      "claim": "When verba legis fails, great jurists rise -- they search beyond the text in six identified sources (constitutional principles, framers' intent, judicial axioms, landmark precedents, international conventions, legal presumptions)",
+      "rhetorical_move": "enumeration of the great-jurist toolkit",
+      "confidence": "high"
+    },
+    {
+      "claim": "Grace Poe's case is unique because both the texts of citizenship laws and her residency facts contain real ambiguity -- it is a rare moment for judicial greatness",
+      "rhetorical_move": "framing the pending decision as historic opportunity",
+      "confidence": "high"
+    },
+    {
+      "claim": "Poe as a foundling deserves the social-justice principle of giving 'more law to those who have less in life'",
+      "rhetorical_move": "doctrine-of-social-justice as the first ground for her favorable disposition",
+      "confidence": "high"
+    },
+    {
+      "claim": "The 1935 framers explicitly stated they never intended to exclude foundlings from natural-born citizenship -- the textual silence was because foundlings were few and international law already covered them",
+      "rhetorical_move": "framers'-intent argument with direct citation",
+      "confidence": "high"
+    },
+    {
+      "claim": "Salus populi est suprema lex may be invoked 'extra-constitutionally' (beyond the text) to render social justice -- per Justice Jose P. Laurel",
+      "rhetorical_move": "great-jurist axiom citation",
+      "confidence": "high"
+    },
+    {
+      "claim": "Frivaldo, Bengzon, and Marcos vs Comelec collectively teach that doubt in election cases should favor electorate's free choice, that repatriated natural-born Filipinos retain their original citizenship, and that truth prevails over mistaken COC statements",
+      "rhetorical_move": "triplet-of-precedents establishing doctrinal momentum",
+      "confidence": "high"
+    },
+    {
+      "claim": "Universal Declaration, ICCPR, Conventions on Statelessness and the Rights of the Child favor foundlings like Poe -- international conventions as the fifth great-jurist source",
+      "rhetorical_move": "transnational-law invocation",
+      "confidence": "high"
+    },
+    {
+      "claim": "Presumptions of good faith, nondiscrimination, and regular performance of duties undoubtedly benefit Poe",
+      "rhetorical_move": "presumption-stacking",
+      "confidence": "high"
+    },
+    {
+      "claim": "SG Hilbay's gutsy Comment shows he has seen the moment for judicial greatness -- if he were a sitting jurist, he could rise to craft a grand historic decision",
+      "rhetorical_move": "personal endorsement and counterfactual elevation",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Math-analogy: one drop of water plus another is not two drops but one bigger drop; one piece of wood divided by four is not one-fourth but four smaller pieces",
+    "Pedro-kills-Juan Aristotelian syllogism as illustrative example",
+    "Personal endorsement of Hilbay from 15 years prior, when Hilbay was a court attorney whose writing and reports Panganiban personally observed"
+  ],
+  "target_audience": [
+    "Inquirer readership and the broader legal community",
+    "SC justices about to decide the Poe cases -- implicit appeal to greatness",
+    "Law students, professors, and bar examinees grappling with jurisprudential schools",
+    "Critics who advocate strict verba legis interpretation",
+    "Foundling-rights advocates and social-justice constituencies",
+    "Solicitor General Florin Hilbay (as named addressee of endorsement)"
+  ],
+  "register_markers": [
+    "jurisprudential-philosophical register opening",
+    "Latin tags: verba legis, dura lex sed lex, Salus populi est suprema lex",
+    "mathematical-analogical demonstration (LxF=D, 1+1=2, drops of water, pieces of wood)",
+    "Aristotelian-syllogism illustration",
+    "enumeration formula (1, 2, 3, 4, 5, 6 sources of right and justice)",
+    "social-justice axiom 'more law to those who have less in life'",
+    "endorsement-by-CV (bar topnotcher, law professor, court attorney) of named individual",
+    "framing-the-moment for judicial greatness as historic opportunity",
+    "extended block quotation of 1935 framers' intent"
+  ],
+  "decision_framework_signals": [
+    "Six-source great-jurist toolkit: (1) constitutional principles, (2) framers' intent, (3) judicial axioms, (4) landmark precedents, (5) international conventions, (6) legal presumptions",
+    "Civil Code mandate against declining judgment for textual silence/obscurity/insufficiency",
+    "Civil Code presumption that lawmaker intended right and justice to prevail",
+    "Social-justice principle ('more law to those who have less in life')",
+    "Salus populi est suprema lex as extra-textual constitutional anchor",
+    "Liberal construction of election laws (Frivaldo)",
+    "Repatriation doctrine preserving original natural-born status (Bengzon)",
+    "Truth-over-mistaken-statement principle (Marcos vs Comelec)",
+    "International-law harmonization with domestic statelessness/child-rights regimes",
+    "Presumption-stacking (good faith, nondiscrimination, regularity of official duty)",
+    "Abstraction vs reality test as meta-doctrine on judicial method"
+  ],
+  "one_paragraph_summary": "Panganiban opens with a jurisprudential meditation: most judges apply Austin's Analytical School formula -- law times fact equals decision (LxF=D) -- taught consciously or unconsciously in most law schools, where students master codes, statutes, and precedents and apply them to hypothetical facts under verba legis discipline, with departures denounced as 'judicial legislation' and bad results shrugged off as 'dura lex sed lex.' This formula, he shows, reduces decision-making to an Aristotelian syllogism: 'Anyone who kills shall be jailed; Pedro killed Juan; ergo, Pedro goes to jail.' Like math, the formula is consistent in the abstract -- but math itself fails in reality: one drop of water plus another is not two drops but one bigger drop; one piece of wood divided by four is not one-fourth but four smaller pieces. Two problems plague Austin's formula. First, no science assures discovery of 'the truth, the whole truth and nothing but the truth' -- witnesses lie, forget, confuse, or fail to observe; documents are incomplete, vague, or fake; scientific and historical evidence is faultily extracted or badly preserved. Second, laws themselves are incomplete, unclear, confusing, contradictory, or obsolete. Textualists default at this point and say what's outside the text is outside legal contemplation -- but justice must be served. The Civil Code itself forecloses this hand-washing: 'No judge or court shall decline to render judgment by reason of the silence, obscurity or insufficiency of the laws,' and 'in case of doubt in the interpretation or application of laws, it is presumed that the lawmaking body intended right and justice to prevail.' When verba legis fails, great jurists rise -- they search 'beyond the text' in six sources: (1) overarching constitutional principles, (2) grand intentions of the framers, (3) great judicial axioms, (4) landmark precedents, (5) international conventions, (6) legal presumptions. He applies this toolkit to Grace Poe's case, which presents 'a rare moment for judicial greatness': the texts of governing laws neither include nor exclude foundlings; her residency facts are torn between her mistaken 2013 COC computation and the truth that she had actually transferred her domicile to the Philippines in 2005. He enumerates six pillars favoring her: (1) as a foundling, she deserves the social-justice principle of giving 'more law to those who have less in life'; (2) the 1935 Constitution framers explicitly stated it was never their intention 'to exclude foundlings from natural-born citizenship'; (3) the grand axiom Salus populi est suprema lex may be invoked extra-constitutionally to render social justice, famously wrote 'the eminent Justice Jose P. Laurel'; (4) Frivaldo vs Comelec teaches that doubt in interpretation favors enabling the electorate's free choice, Bengzon vs HRET affirms that repatriated natural-born Filipinos reacquire their original citizenship, and Marcos vs Comelec instructs that truth (not mistaken COC statements) prevails; (5) the Universal Declaration of Human Rights, the covenants on civil and political rights, on the reduction of statelessness, and on the rights of the child all favor foundlings; (6) presumptions of good faith, nondiscrimination, and regularity in performance of duties undoubtedly benefit her. Judging from the 'gutsy Comment' filed by SG Florin Hilbay, Panganiban believes he too has seen the moment for judicial greatness -- and given Hilbay's sterling track record as bar topnotcher and law professor and Panganiban's personal knowledge of his writing ability and excellent reports as a court attorney 15 years ago, if Hilbay were a sitting jurist he could 'rise to the moment and craft a grand historic decision.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

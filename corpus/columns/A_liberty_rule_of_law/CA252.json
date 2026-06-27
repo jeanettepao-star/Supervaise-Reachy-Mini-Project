@@ -1,0 +1,148 @@
+{
+  "id": "CA252",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 252,
+  "title": "SBN: Not all Araneta assets freed of sequestration",
+  "date": "2019-02-10",
+  "link": "https://opinion.inquirer.net/119452/sbn-not-all-araneta-assets-freed-of-sequestration",
+  "keywords": [
+    "Sandiganbayan",
+    "PCGG",
+    "Greggy Araneta",
+    "Marcos ill-gotten wealth",
+    "sequestration",
+    "due process"
+  ],
+  "primary_topics": [
+    "Sandiganbayan ruling lifting sequestration of properties 'in the name of' Gregorio Araneta III",
+    "Distinction between properties 'in his name' vs properties 'attributed to him'",
+    "PCGG ill-gotten wealth recovery proceedings since 1987",
+    "CJ's argument for liberal vs literal reading of the 2006 SBN resolution",
+    "Three reasons for releasing 'attributed' assets"
+  ],
+  "sub_topics": [
+    "July 16, 1987 -- PCGG complaint vs Marcos and heirs including Greggy Araneta",
+    "Greggy as son-in-law (still married to Irene, Marcos's daughter)",
+    "Sequestered firms: Northern Express Transport, Imexco, Phil. Semi-Conductor Devices, Golden Needle, High Five Philippines",
+    "Northern Express bought Pantranco North Express properties",
+    "Dec 6, 2005 -- SBN granted Greggy's demurrer to evidence",
+    "Feb 8, 2012 -- SC upheld SBN in Republic v. Marcos-Manotoc",
+    "Greggy's motion to lift sequestration of all assets 'attributed to him'",
+    "PCGG opposition: motion premature, Civil Case 0002 not yet finally adjudged",
+    "Civil Case 0002 covers alleged P200-billion ill-gotten wealth of Marcos",
+    "SBN Special Fourth Division: Justices Quiroz (chair, ponente), Mendoza-Arcega, Trespeces",
+    "SBN ruling: 2006 resolution + SC 2012 decision nullified only sequestration of properties 'in the name of Araneta'",
+    "SBN: did not make similar ruling regarding properties 'attributed' to Araneta",
+    "Doctrine of immutability of final judgments",
+    "Civil Code requirement of at least five owners per corporation",
+    "30+ years under PCGG custodianship"
+  ],
+  "signature_phrases": [
+    "My humble comment",
+    "the 2006 resolution should be understood liberally, not literally",
+    "Basic fairness demands their release",
+    "under the yoke of PCGG custodianship for over 30 years",
+    "judged to be improvident and can no longer justify further PCGG custodianship",
+    "the crusaders for good government would be no different from the raiders of the nation's treasures",
+    "While I sympathize and support the struggle to track, trace and recover criminally-acquired wealth",
+    "this effort must be pursued in accordance with the rule of law and due process"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Gregorio 'Greggy' Araneta III (Marcos son-in-law, husband of Irene Marcos)",
+      "Irene Marcos (still married to Greggy)",
+      "President Ferdinand Marcos (decedent)",
+      "SBN Justice Alex L. Quiroz (Division chair, ponente)",
+      "SBN Justice Maria Theresa Y. Mendoza-Arcega",
+      "SBN Justice Zaldy V. Trespeces"
+    ],
+    "institutions": [
+      "Sandiganbayan (SBN) Special Fourth Division",
+      "Supreme Court of the Philippines",
+      "Presidential Commission on Good Government (PCGG)",
+      "Northern Express Transport Inc.",
+      "Pantranco North Express Inc.",
+      "Imexco Enterprise Inc.",
+      "Phil. Semi-Conductor Devices Inc.",
+      "Golden Needle Inc.",
+      "High Five Philippines Inc."
+    ],
+    "cases": [
+      "PCGG v. Marcos et al. (Civil Case No. 0002, July 16, 1987 filing) -- P200B ill-gotten wealth complaint",
+      "SBN's Dec 6, 2005 grant of Greggy's demurrer to evidence",
+      "Republic v. Marcos-Manotoc (SC, Feb 8, 2012) -- upheld SBN",
+      "Recent 2019 SBN order lifting sequestration 'in the name of' Greggy"
+    ],
+    "laws_treaties": [
+      "Civil Code -- minimum five owners per corporation requirement",
+      "Constitutional due process clause",
+      "Doctrine of immutability of final judgments"
+    ],
+    "events": [
+      "July 16, 1987 -- PCGG complaint filing",
+      "Dec 6, 2005 -- Greggy's demurrer granted",
+      "Feb 8, 2012 -- SC affirmation",
+      "30+ years of PCGG sequestration",
+      "Recent 2019 SBN lifting order (column written Feb 10, 2019)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Contrary to media reports, the SBN did NOT free all sequestered Araneta assets -- only properties 'in the name of' Greggy were cleared, not those 'attributed to him,' because the SBN read its own 2006 resolution literally rather than liberally.",
+      "rhetorical_move": "correction-of-mischaracterization opening (media got it wrong)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The 2006 SBN resolution should be understood LIBERALLY (covering both 'in name' and 'attributed' assets) rather than LITERALLY, for three reasons: (1) the basis for sequestration was the ill-gotten-wealth assumption, and Greggy's exoneration after PCGG's evidentiary failure dissolves the predicate; (2) the sequestered corporations have no party-standing in Civil Case 0002 to ask for their own release; (3) due process must be accorded to the other shareholders and officers of those corporations who have suffered prejudice.",
+      "rhetorical_move": "three-reason liberal-construction argument grounded in (a) predicate-failure, (b) party-standing gap, (c) due-process to non-parties",
+      "confidence": "asserted with 'My humble comment' opener"
+    },
+    {
+      "claim": "If the PCGG believes the 'attributed' assets should remain sequestered for some independent reason, it must apply for a NEW sequestration order -- the old sequestrations issued because of Greggy's alleged Marcos involvement have been judged 'improvident' and can no longer justify continued PCGG custodianship.",
+      "rhetorical_move": "exhaustion-then-renewal procedural requirement",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Ill-gotten wealth recovery must be pursued in accordance with the rule of law and due process -- otherwise 'the crusaders for good government would be no different from the raiders of the nation's treasures.'",
+      "rhetorical_move": "moral-equivalence warning (crusaders becoming raiders if process is ignored)",
+      "confidence": "asserted as principled closing"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's correction of media mischaracterization in the opening sentence -- 'Contrary to some media reports, not all the sequestered assets of Gregorio Greggy Araneta III, son-in-law of former president Ferdinand Marcos, have been freed' -- establishing the column's purpose as journalistic clarification before legal analysis.",
+    "The list of sequestered companies -- Northern Express Transport, Imexco, Phil. Semi-Conductor Devices, Golden Needle, High Five Philippines -- and the fact that Northern Express had acquired Pantranco North Express properties, showing the post-1987 economic life that PCGG sequestration interrupted for 30+ years.",
+    "The civil-code requirement that corporations have at least five owners -- used as the structural reason why non-Greggy shareholders cannot be ignored in the sequestration analysis, since by definition they exist as protected stakeholders.",
+    "The closing aphorism: 'the crusaders for good government would be no different from the raiders of the nation's treasures' -- the most compact moral framing in the column, equating procedural shortcuts with the very corruption being investigated."
+  ],
+  "target_audience": [
+    "Sandiganbayan justices and PCGG officials",
+    "Corporate law practitioners",
+    "Ill-gotten-wealth recovery advocates AND critics",
+    "Marcos family / Araneta family observers",
+    "Constitutional and procedural-law scholars"
+  ],
+  "register_markers": [
+    "media-correction opening register",
+    "literal-vs-liberal construction analysis",
+    "enumerated three-reason argument structure (First, Second, Third)",
+    "due-process insistence even when defendants are unpopular",
+    "'My humble comment' as recurring humility marker",
+    "principled-closing aphorism (crusaders becoming raiders)",
+    "doctrinal-historical chronology (1987 → 2005 → 2012 → 2019)",
+    "named-Justice attribution for SBN Division (Quiroz, Mendoza-Arcega, Trespeces)",
+    "balanced-sympathy register (supporting recovery struggle while insisting on due process)"
+  ],
+  "decision_framework_signals": [
+    "applies literal-vs-liberal-construction analysis to dispositive court rulings",
+    "uses predicate-failure logic (no more ill-gotten basis → no more sequestration justification)",
+    "extends due-process analysis to non-party stakeholders (corporate shareholders, officers)",
+    "requires fresh procedural application when old orders' predicates are dissolved",
+    "deploys moral-equivalence warning when good-government goals threaten procedural integrity"
+  ],
+  "one_paragraph_summary": "Panganiban corrects media mischaracterization that the Sandiganbayan freed all of Gregorio 'Greggy' Araneta III's sequestered assets: the SBN's Special Fourth Division (Justices Quiroz as ponente, Mendoza-Arcega, and Trespeces) lifted sequestration only over properties 'in the name of' Araneta -- not those 'attributed to him' -- by reading its own 2006 resolution literally rather than liberally. He traces the chronology: the PCGG's July 16, 1987 complaint against Marcos and heirs including Greggy (Marcos son-in-law and Irene's husband) targeting Northern Express Transport, Imexco, Phil. Semi-Conductor Devices, Golden Needle, and High Five Philippines; the SBN's grant of Greggy's demurrer on December 6, 2005; the SC's affirmation in Republic v. Marcos-Manotoc on February 8, 2012; and Greggy's subsequent motion to lift sequestration of all 'attributed' assets, which the SBN literally limited to 'in-name' properties. CJ argues for liberal construction on three grounds: (a) the predicate for sequestration was the ill-gotten-wealth assumption, which collapsed when PCGG failed to present evidence; (b) the sequestered corporations are not parties to Civil Case 0002 and have no standing to ask for their own release despite 30+ years 'under the yoke of PCGG custodianship'; (c) due process must be accorded to the other shareholders and officers of those corporations (the Civil Code requires at least five owners), who have suffered prejudice. He concludes that if PCGG believes the 'attributed' assets should remain sequestered, it must apply for a fresh order -- the old ones are 'improvident' -- and warns that without rule-of-law fidelity, 'the crusaders for good government would be no different from the raiders of the nation's treasures.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

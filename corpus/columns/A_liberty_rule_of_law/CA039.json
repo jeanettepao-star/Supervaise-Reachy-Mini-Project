@@ -1,0 +1,148 @@
+{
+  "id": "CA039",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 39,
+  "title": "The Supreme Court disciplines its members",
+  "date": "2025-07-14",
+  "link": "https://opinion.inquirer.net/184639/the-supreme-court-disciplines-its-members",
+  "keywords": [
+    "Duterte v. House of Representatives",
+    "motion for reconsideration",
+    "operative fact doctrine",
+    "oral argument plea",
+    "rule of law"
+  ],
+  "primary_topics": [
+    "Impeachment case against VP Sara Duterte",
+    "Motion for reconsideration as constitutional opportunity",
+    "Due process via oral argument and memoranda"
+  ],
+  "sub_topics": [
+    "Duterte v. HOR (July 25, 2025) -- 13-0-2, Leonen ponente",
+    "Status of MR filed by HOR through OSG Berberabe",
+    "Three serious issues for the Court to address on MR",
+    "Operative fact doctrine -- prospective vs retroactive application",
+    "Court can reverse itself even after unanimous decisions",
+    "Lopez v. Lopez (April 21, 2025) -- stock-and-transfer-book primacy",
+    "La Bugal-B'laan v. Ramos (Jan 27, 2004; reversed Dec 1, 2004)",
+    "Senate Impeachment Court's archiving of the complaint",
+    "Plea for oral argument and required memoranda",
+    "PhilHealth petitions and foreign divorce recognition as comparators",
+    "Acceptance of any final ruling as the rule of law"
+  ],
+  "signature_phrases": [
+    "A plea for the rule of law",
+    "the decision is not yet final",
+    "immediately executory",
+    "openness to rethink and to change their stance if convinced by their conscience",
+    "if the Court had patiently heard oral argument on less important problems... why not on this monumental case?",
+    "in my humble opinion",
+    "to accord respect to a coequal branch of the government",
+    "I leave that to the better judgment of my incumbent brethren"
+  ],
+  "entities": {
+    "people": [
+      "Vice President Sara Duterte",
+      "Senior Associate Justice Marvic M.V.F. Leonen",
+      "Solicitor General Darlene Marie B. Berberabe",
+      "Justice Ramon Paul L. Hernando",
+      "Justice Ricardo R. Rosario",
+      "Former Justice Conchita Carpio Morales",
+      "Former Justice Antonio T. Carpio",
+      "Former President Fidel V. Ramos",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (en banc)",
+      "House of Representatives",
+      "Senate Impeachment Court",
+      "Office of the Solicitor General (OSG)",
+      "Securities and Exchange Commission (SEC)"
+    ],
+    "cases": [
+      "Duterte v. House of Representatives (July 25, 2025, 13-0-2, per SAJ Leonen)",
+      "Lopez v. Lopez (April 21, 2025, per J. Hernando) -- reversed on MR",
+      "La Bugal-B'laan v. Ramos (Jan 27, 2004, 8-5-1) -- reversed Dec 1, 2004, 10-4-1"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (impeachment, one-year bar)",
+      "Republic Act No. 7942 (Mining Law)",
+      "Financial and Technical Assistance Agreement (FTAA)",
+      "Foreign Currency Deposit Law (implicit comparator)"
+    ],
+    "events": [
+      "SC Duterte v. HOR decision (July 25, 2025)",
+      "HOR's filing of motion for reconsideration via OSG",
+      "Senate Impeachment Court's archiving of the complaint",
+      "Author's July 27, 2025 public statement",
+      "Oral arguments in La Bugal-B'laan post-MR"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Duterte v. HOR decision is not yet final and remains subject to the pending motion for reconsideration filed by the HOR through the OSG.",
+      "rhetorical_move": "factual clarification anchoring the column's premise",
+      "confidence": "high"
+    },
+    {
+      "claim": "'Immediately executory' merely means the Senate Impeachment Court should desist from conducting proceedings during the SC litigation -- which it effectively did by archiving the complaint.",
+      "rhetorical_move": "interpretive narrowing of a contested phrase",
+      "confidence": "high"
+    },
+    {
+      "claim": "On MR, the Court should address three serious issues: alleged factual errors on the one-year bar, the self-serving effect of making high-official impeachment nearly impossible, and the proper application of the operative-fact doctrine for prospective effect.",
+      "rhetorical_move": "structured request for the Court's specific re-engagement",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Court can reverse itself even after a unanimous decision -- demonstrated by Lopez v. Lopez (with dissent by J. Rosario) and La Bugal-B'laan v. Ramos (8-5-1 reversed to 10-4-1).",
+      "rhetorical_move": "two-case precedent showing reversal is feasible",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Court should set the case for oral argument and require memoranda -- given it did so for arguably less important matters like foreign-divorce recognition and PhilHealth petitions.",
+      "rhetorical_move": "comparative-precedent argument with light reproach",
+      "confidence": "high"
+    },
+    {
+      "claim": "Whatever the Court ultimately decides after due process, everyone should respect and accept it -- that is the rule of law.",
+      "rhetorical_move": "closing principled appeal that gives the column its title",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Lopez v. Lopez (April 21, 2025, per J. Hernando) -- Court initially held the SEC general information sheet plus witnesses sufficient to prove share ownership, then reversed on MR (with J. Rosario dissenting) and clarified the stock-and-transfer book is the primary and official record.",
+    "La Bugal-B'laan v. Ramos -- 8-5-1 January 27, 2004 decision penned by then J. Conchita Carpio Morales (with Panganiban as main dissenter) struck down parts of the Mining Law; on December 1, 2004, after MR and oral argument, the Court reversed itself 10-4-1 in a resolution penned by Panganiban, with spirited dissents from Morales and Carpio.",
+    "Author's July 27, 2025 public statement reiterated within the column itself -- 'if the Court had patiently heard oral argument on less important problems like the recognition of foreign divorces and the PhilHealth petitions, why not on this monumental case?'",
+    "Acting swiftly on the MRs, the Court directed petitioners to comment within 10 days, non-extendible."
+  ],
+  "target_audience": [
+    "Sitting Supreme Court justices weighing the MR",
+    "House of Representatives counsel and the OSG team",
+    "Vice President Sara Duterte and her counsel",
+    "Constitutional law scholars and bar associations",
+    "Civic readership debating the Duterte impeachment decision"
+  ],
+  "register_markers": [
+    "Title in plea/petition register ('A plea for the rule of law')",
+    "Repeated humility hedges ('in my humble opinion', 'I leave that to the better judgment of my incumbent brethren')",
+    "Numbered listing of issues for the Court to address",
+    "First-person disclosure of authorship of past reversal resolution",
+    "Cross-references to prior column and prior public statement",
+    "Closing universalist appeal to acceptance of final rulings",
+    "Restrained advocacy that respects judicial independence"
+  ],
+  "decision_framework_signals": [
+    "Treat 'immediately executory' as a pause-mechanism for parallel proceedings rather than as foreclosing reconsideration",
+    "On MR, identify the precise factual or doctrinal errors the Court should address -- do not argue the merits generically",
+    "Invoke operative-fact doctrine to apply new restrictive procedural rules prospectively rather than retroactively",
+    "Cite prior reversals (Lopez v. Lopez; La Bugal-B'laan) to show even unanimous or near-unanimous decisions are reversible",
+    "Request oral argument and memoranda as procedural complements that build legitimacy regardless of outcome",
+    "Frame all advocacy within respect for judicial independence -- voice the plea, accept the result, defend the rule of law"
+  ],
+  "one_paragraph_summary": "Panganiban acknowledges the heavy public criticism of the Supreme Court's unanimous July 25, 2025 decision in Duterte v. House of Representatives (per SAJ Marvic M.V.F. Leonen, 13-0-2) declaring the articles of impeachment against VP Sara Duterte unconstitutional, but reminds readers the decision is not yet final because the HOR -- through Solicitor General Darlene Marie B. Berberabe -- has filed a motion for reconsideration, and the phrase 'immediately executory' only means the Senate Impeachment Court should pause its proceedings (which it effectively did by archiving the complaint). He asks the Court to address three serious issues on MR: alleged factual errors underlying the one-year bar conclusion, the self-serving effect of making high-official impeachment almost impossible, and at minimum the operative-fact doctrine that would apply any new restrictive impeachment requirements prospectively. To show reversal is feasible, he cites Lopez v. Lopez (April 21, 2025, per J. Hernando, reversed on MR with J. Rosario dissenting) and La Bugal-B'laan v. Ramos (January 27, 2004, 8-5-1 striking down parts of the Mining Law, then reversed December 1, 2004, 10-4-1 in a resolution he himself penned after oral argument). He pleads, drawing from his July 27 public statement, that the Court set the case for oral argument and require memoranda -- as it did for foreign-divorce recognition and PhilHealth petitions -- and closes with the title's plea: whatever the Court finally decides after due process, everyone should respect and accept it as the rule of law.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

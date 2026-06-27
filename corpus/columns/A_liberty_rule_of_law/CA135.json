@@ -1,0 +1,170 @@
+{
+  "id": "CA135",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 135,
+  "title": "Reviewing the Marcos estate tax",
+  "date": "2022-09-26",
+  "link": "https://opinion.inquirer.net/157310/reviewing-the-marcos-estate-tax",
+  "keywords": [
+    "Marcos estate tax",
+    "P23B / P203B",
+    "Marcos II v. CTA",
+    "finality of judgment",
+    "reopening",
+    "Agrava-Board parallel",
+    "BIR factual disclosure",
+    "independent review panel"
+  ],
+  "primary_topics": [
+    "PBBM's Toni Gonzaga interview asking to reopen the Marcos estate tax",
+    "Marcos II v. Court of Tax Appeals (June 5, 1997) as the final and executory ruling",
+    "Conditions under which a final and executory decision may still be reviewed (grossly erroneous facts or gravely misapplied law producing miscarriage of justice)",
+    "Procedural roadmap CJ proposes: BIR factual disclosure first, then an independent Agrava-style review panel"
+  ],
+  "sub_topics": [
+    "P23B original estate tax ballooning to P203B with penalties and surcharges",
+    "BIR Commissioner Lilia Guillermo's 'P'wede ba maging role model kayo?' viral reply",
+    "Marcos II v. CTA penned by J Justo Torres Jr.; concurred by JJ Florenz Regalado, Flerida Ruth Romero, Reynato Puno, Vicente Mendoza",
+    "BIR levy on Marcos properties; presumption of correctness of assessments",
+    "US illustrative example -- DNA/alibi evidence overturning a rape conviction",
+    "Philippine illustrative example -- post-EDSA nullification of the Pamaran SBN verdict acquitting Ninoy-murder suspects",
+    "Agrava Board's 125 sessions, 194 witnesses, 20,377 pages of transcript",
+    "Proposed independent review group co-led by IBP and PICPA",
+    "Outstanding factual questions: how much collected; how P23B was computed; how it ballooned to P203B; ill-gotten assets included in the estate"
+  ],
+  "signature_phrases": [
+    "asked for the reopening of the estate taxes",
+    "ballooned to P203 billion due to penalties and surcharges",
+    "P'wede ba maging role model kayo?",
+    "had become final and executory",
+    "petitioner and the other heirs never questioned the assessments",
+    "assessments [of the BIR] are presumed correct and made in good faith",
+    "disregard or even repugnance of the established institutions for governance in the scheme of a well-ordered society",
+    "MAY THIS FINAL AND EXECUTORY DECISION STILL BE REVIEWED",
+    "in my humble opinion",
+    "when the facts are shown to be grossly erroneous and/or the law gravely misapplied",
+    "a glaring miscarriage of justice",
+    "Verdicts of acquittal are immediately final and executory",
+    "newly reconstituted Supreme Court found the SBN trial 'to be a sham'",
+    "jurists are not mere legal robots churning out automated results",
+    "They do not dispense legalism in a sterile vacuum without a social milieu",
+    "render justice--in its purest form--to live human beings",
+    "give everyone his (or her) due",
+    "before any reopening can be considered, the BIR should first answer some factual questions",
+    "an independent group (similar to the Agrava Board)",
+    "Integrated Bar of the Philippines and the Philippine Institute of Certified Public Accountants"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Ferdinand 'Bongbong' Marcos Jr. (PBBM)",
+      "Ferdinand E. Marcos Sr.",
+      "Toni Gonzaga",
+      "Lilia Guillermo (BIR Commissioner)",
+      "Justo Torres Jr. (Justice; ponente)",
+      "Florenz Regalado (Justice)",
+      "Flerida Ruth Romero (Justice)",
+      "Reynato S. Puno (Justice; later CJ)",
+      "Vicente V. Mendoza (Justice)",
+      "Corazon Agrava (former CA Justice; Board chair)",
+      "Fabian Ver (former AFP chief of staff)",
+      "Luther Custodio (Brig. Gen.; convicted)",
+      "Regino Hermosisima Jr. (Justice; SBN re-trial ponente)",
+      "Manuel Pamaran (Justice; original SBN ponente, nullified)",
+      "Benigno 'Ninoy' Aquino Jr. (referenced in parallel)"
+    ],
+    "institutions": [
+      "Bureau of Internal Revenue (BIR)",
+      "Supreme Court of the Philippines",
+      "Court of Tax Appeals (CTA)",
+      "Sandiganbayan (SBN)",
+      "Agrava Board (Fact-Finding Board on the Aquino Assassination)",
+      "Integrated Bar of the Philippines (IBP)",
+      "Philippine Institute of Certified Public Accountants (PICPA)"
+    ],
+    "cases": [
+      "Marcos II v. Court of Tax Appeals (June 5, 1997)",
+      "Sandiganbayan re-trial decision (Sept 28, 1990) -- 16 soldiers convicted of double murder",
+      "SBN Pamaran decision (Dec 2, 1985) -- nullified post-EDSA"
+    ],
+    "laws_treaties": [
+      "National Internal Revenue Code (estate tax provisions)",
+      "1987 Philippine Constitution"
+    ],
+    "events": [
+      "PBBM's Toni Gonzaga interview",
+      "March 9, 1999 finality of the Marcos estate tax judgment",
+      "1986 EDSA People Power Revolution and SC reconstitution",
+      "BIR levy and auction of Marcos properties",
+      "Agrava Board (created Oct 22, 1983) hearings"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Marcos II v. Court of Tax Appeals (June 5, 1997) -- penned by J Torres and concurred in unanimously by JJ Regalado, Romero, Puno, and Mendoza -- became final and executory and stands as a stark indictment of the heirs' 'disregard or even repugnance of the established institutions for governance.'",
+      "rhetorical_move": "doctrinal-foundation establishment",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Ordinarily, a final and executory decision cannot be reopened -- but where facts are shown to be grossly erroneous, or law gravely misapplied, producing a glaring miscarriage of justice, review may be entertained.",
+      "rhetorical_move": "principled-exception introduction",
+      "confidence": "asserted with humility marker"
+    },
+    {
+      "claim": "Two illustrations show that finality is not absolute: a US rape conviction overturned by uncontroverted DNA/alibi evidence, and the post-EDSA Supreme Court nullification of the Pamaran SBN's acquittal of Ninoy's killers (notwithstanding that acquittals are immediately final and executory).",
+      "rhetorical_move": "twin-illustration (foreign + domestic)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Jurists are 'not mere legal robots churning out automated results' and do not dispense legalism in a 'sterile vacuum'; they render justice 'to live human beings' and 'give everyone his (or her) due.'",
+      "rhetorical_move": "judicial-philosophy invocation (social-engineer ethos)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Before any reopening can be entertained, the BIR should first publicly answer factual questions -- how much was collected from levy/auction, how P23B was computed, how it ballooned to P203B, whether crony-returned and ill-gotten assets were included -- and an independent review group co-led by IBP and PICPA, modeled on the Agrava Board, should be formed to examine the factual bases of the Torres ponencia.",
+      "rhetorical_move": "procedural-sequencing recommendation",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Commissioner Lilia Guillermo's viral reply to PBBM -- 'P'wede ba maging role model kayo?' (Can you be a role model?) -- quoted as the column's sociological data point that the public-sector technocracy itself is pushing back on the reopening request.",
+    "CJ's own jurisprudential aphorism -- 'jurists are not mere legal robots churning out automated results. They do not dispense legalism in a sterile vacuum without a social milieu' -- one of the densest single-paragraph CJ articulations of the legal-technician-versus-social-engineer ethos in the late columns.",
+    "The Agrava-Board parallel deployed not as historical filler but as the operational model for the proposed IBP+PICPA review panel -- letting CJ argue for reopening without naming Marcos heirs as suspects, only as taxpayers whose factual record deserves an independent look.",
+    "Specific case anatomy: the four concurring Justices (Regalado, Romero, Puno, Mendoza) named for the Torres ponencia -- making the column read like an internal SC briefing rather than ordinary political commentary.",
+    "The 'P23B → P203B' shorthand turned into the column's central numerical motif, with the precise unanswered question 'How did it balloon to P203 billion?' put as the BIR's homework."
+  ],
+  "target_audience": [
+    "BIR officials and tax administrators",
+    "Members of the Philippine bench and bar",
+    "IBP and PICPA leadership",
+    "Constitutional-law and tax-law scholars",
+    "PBBM's legal team",
+    "FLP donors interested in CJ's commentary on Marcos restoration",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "doctrinal-formal register with ALL-CAPS section openers ('MEDIA IMMEDIATELY RESPONDED,' 'MAY THIS FINAL AND EXECUTORY DECISION STILL BE REVIEWED,' 'THESE TWO EXAMPLES SHOW, IMHO')",
+    "'IMHO' / 'in my humble opinion' humility marker",
+    "Tagalog quotation preserved ('P'wede ba maging role model kayo?') with English gloss",
+    "self-reference to prior columns ('I wrote last June 27')",
+    "specific peso-figure usage (P23 billion, P203 billion)",
+    "named-concurrence enumeration (four Justices) as authority signal",
+    "Agrava-Board parallel as procedural-template device",
+    "social-engineer aphorism inserted between two case examples",
+    "no Tagalog elsewhere; doctrinal-tax English register"
+  ],
+  "decision_framework_signals": [
+    "applies the 'finality + grossly erroneous fact or gravely misapplied law producing miscarriage of justice' exception framework",
+    "uses twin-illustration pattern (foreign DNA-exoneration example + domestic post-EDSA SBN nullification) to ground the exception",
+    "invokes the legal-technicians-vs-social-engineers ethos (CJ's recurring framework, see C65 / 2019)",
+    "applies the 'give everyone his or her due' Aristotelian-justice principle as the operative norm",
+    "uses procedural-sequencing recommendation: BIR factual disclosure first → independent IBP+PICPA panel second → judicial reopening only third",
+    "treats the Agrava Board as a transferable institutional template for independent fact-finding bodies",
+    "self-referencing prior column on factual questions as continuing-arc device"
+  ],
+  "one_paragraph_summary": "After PBBM, in a Toni Gonzaga interview, asked for the reopening of the estate taxes imposed on his deceased father's properties, the media noted that the Supreme Court judgment requiring the heirs to pay P23B had become final and executory on March 9, 1999 and had since ballooned to P203B with penalties and surcharges. BIR Commissioner Lilia Guillermo's now-viral reply -- 'P'wede ba maging role model kayo?' -- frames the column. Panganiban revisits Marcos II v. Court of Tax Appeals (June 5, 1997), penned by Justice Justo Torres Jr. and concurred in unanimously by JJ Regalado, Romero, Puno, and Mendoza, which faulted the heirs for never questioning the BIR assessments and described their conduct as 'disregard or even repugnance of the established institutions for governance.' May a final and executory decision still be reviewed? Ordinarily no -- but in CJ's humble opinion, when facts are shown to be grossly erroneous, or law gravely misapplied, producing a glaring miscarriage of justice, review may be entertained. He illustrates with a US DNA-evidence rape exoneration and with the post-EDSA Supreme Court nullification of Justice Pamaran's Sandiganbayan acquittal of Ninoy's killers -- proving that even acquittals, normally immediately final and executory, can be undone in extreme cases. 'Jurists are not mere legal robots,' he writes; they render justice 'to live human beings' and 'give everyone his (or her) due.' His procedural recommendation: before any reopening, the BIR must first publicly answer the unanswered factual questions (how much has been collected, how P23B was computed, how it ballooned to P203B, whether ill-gotten assets were included), and an independent review group modeled on the Agrava Board -- co-led by the IBP and the Philippine Institute of Certified Public Accountants -- should examine the factual bases of the Torres ponencia.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,151 @@
+{
+  "id": "CA354",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 354,
+  "title": "Speeding up the Grace Poe cases",
+  "date": "2016-02-21",
+  "link": "https://opinion.inquirer.net/93062/speeding-up-the-grace-poe-cases",
+  "keywords": [
+    "Drilon and Belmonte clamor for urgency",
+    "Inquirer Feb 13 editorial 'Of the highest urgency'",
+    "four 'dark scenarios' chain (pre-election DQ, post-election win, post-proclamation, post-assumption Presidential Electoral Tribunal)",
+    "Pormento v. Comelec (Aug 31 2010) Estrada-runs-2010 mootness",
+    "Vidal v. Comelec (Jan 21 2015) Estrada Manila mayor pardon",
+    "Tecson v. Comelec lightning-speed timeline contrast",
+    "Duterte DQ suits still in Comelec en banc warning"
+  ],
+  "primary_topics": [
+    "Speedy resolution of the Grace Poe eligibility cases as constitutional and political imperative",
+    "Dark scenarios from disqualification at different stages: before election, after canvass, after proclamation, after assumption",
+    "Comparison with the 2010 Joseph Estrada eligibility case (slow Comelec, mooted by his loss)",
+    "Comparison with the 2004 FPJ citizenship case (lightning-fast Comelec and SC)",
+    "The Comelec's contrasting treatment: included Estrada on ballots but cancelled Poe's COC",
+    "Calling for equal critical scrutiny of the Comelec, not just the SC"
+  ],
+  "sub_topics": [
+    "Automated election system counting all printed-ballot names regardless of disqualification",
+    "Geeks computing canvass results even if board of canvassers is barred from canvassing Poe votes",
+    "Second-placer proclamation scenario if Poe is disqualified post-canvass but wins highest votes",
+    "Presidential Electoral Tribunal as the constitutional remedy if disqualification happens after assumption",
+    "CJ Sereno's promise to prioritize election cases; Court's request for memos in six days",
+    "Disqualification suits against Rodrigo Duterte pending in Comelec en banc",
+    "Pormento vs Comelec (Aug. 31, 2010): Estrada case mooted by his loss",
+    "Vidal vs Comelec (Jan. 21, 2015): absolute pardon as legal basis for Estrada's mayoral run"
+  ],
+  "signature_phrases": [
+    "in my humble opinion",
+    "with due respect",
+    "I am confident",
+    "in this age of computers",
+    "to be fair"
+  ],
+  "entities": {
+    "people": [
+      "Senate President Franklin Drilon",
+      "Speaker Feliciano Belmonte Jr.",
+      "Grace Poe",
+      "Mayor Rodrigo Duterte",
+      "Joseph Estrada",
+      "Fernando Poe Jr. (FPJ)",
+      "Chief Justice Maria Lourdes P. A. Sereno"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Commission on Elections (Comelec)",
+      "Boards of Canvassers",
+      "Philippine Congress",
+      "Presidential Electoral Tribunal (PET)",
+      "Philippine Daily Inquirer (editorial 'Of the highest urgency')"
+    ],
+    "cases": [
+      "Tecson vs Comelec (March 3, 2004) -- FPJ citizenship",
+      "Pormento vs Comelec (Aug. 31, 2010) -- Estrada presidential eligibility, mooted",
+      "Vidal vs Comelec (Jan. 21, 2015) -- Estrada mayoral eligibility post-pardon",
+      "Romualdez-Marcos vs Comelec -- material misrepresentation standard"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (presidential eligibility, no reelection clause)",
+      "Plunder Law (Estrada's conviction triggering disqualification)",
+      "Omnibus Election Code, Sec. 78"
+    ],
+    "events": [
+      "Inquirer editorial Feb. 13, 2016 ('Of the highest urgency')",
+      "Comelec Second Division dismissal of Estrada petition (Jan. 10, 2010)",
+      "Comelec en banc denial of MR vs Estrada (May 4, 2010)",
+      "Certiorari petition filed in SC vs Estrada (May 7, 2010)",
+      "Comelec First Division dismissal of FPJ petition (Jan. 23, 2004)",
+      "Comelec en banc affirmance vs FPJ (Feb. 6, 2004)",
+      "SC Tecson decision (March 3, 2004)",
+      "SC closing of oral argument and memo deadline (six days, Feb 2016)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Disqualification of Poe at different stages produces escalating constitutional and political crises -- only NOT disqualifying her avoids the dark scenarios",
+      "rhetorical_move": "graduated scenario analysis from least to most catastrophic outcome",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Supreme Court is alive to the urgency; CJ Sereno publicly prioritized election cases and the Court closed oral argument with a six-day memo deadline comparable to FPJ's pace",
+      "rhetorical_move": "evidentiary defense of the Court against the 'too slow' critique",
+      "confidence": "high"
+    },
+    {
+      "claim": "Critics should turn equal -- if not more critical -- scrutiny on the Comelec, not just on the SC; the Comelec is the real bottleneck (Duterte cases also unresolved)",
+      "rhetorical_move": "redirect of public criticism; 'with due respect' softener",
+      "confidence": "high"
+    },
+    {
+      "claim": "Estrada's 2010 eligibility case slept in the Comelec for months but produced no crisis because he lost -- by contrast, FPJ's 2004 case showed lightning speed at both Comelec and SC",
+      "rhetorical_move": "contrastive paired-precedent analysis",
+      "confidence": "high"
+    },
+    {
+      "claim": "In both Estrada (2010) and FPJ (2004), neither candidate was disqualified, the electorate had freedom of choice, votes were counted, and no dark scenarios occurred",
+      "rhetorical_move": "empirical pattern-finding to predict that NOT disqualifying Poe is the path of stability",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Comelec's contrasting treatment is striking: it kept Estrada on the ballots but cancelled Poe's COC, requiring SC TRO intervention",
+      "rhetorical_move": "asymmetry-highlighting comparative observation",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Supreme Court will produce a 'speedy and fair decision' avoiding gruesome constitutional and political crises",
+      "rhetorical_move": "expression of institutional confidence as closing affirmation",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Inquirer's own editorial of Feb. 13, 2016 ('Of the highest urgency') joining Drilon and Belmonte's clamor",
+    "Detailed timeline of Estrada's 2010 case: Comelec Second Division dismissal Jan 10, en banc denial May 4 (less than a week before election), SC certiorari May 7, SC dismissal as moot Aug 31",
+    "Detailed timeline of FPJ's 2004 case: petition filed Jan 9, Comelec First Division dismissal Jan 23, en banc affirmance Feb 6, SC decision March 3 -- under two months total"
+  ],
+  "target_audience": [
+    "Inquirer readership and the broader political class",
+    "Senate President Drilon, Speaker Belmonte, and editorialists pressing for SC urgency",
+    "Lawyers and election watchers comparing the speed of past eligibility cases",
+    "Critics of the Comelec -- particularly those treating SC delay as the only problem"
+  ],
+  "register_markers": [
+    "scenario-graduation rhetoric (BEFORE/AFTER election, canvass, proclamation, assumption)",
+    "ALL-CAPS for emphasis ('BEFORE the election', 'AFTER THE ELECTION AND CANVASS', 'AFTER she is PROCLAIMED', 'AFTER she ASSUMES office', 'NOT disqualified')",
+    "'in this age of computers' as contemporary aside",
+    "'with due respect' softener before redirecting criticism",
+    "detailed dated timelines as comparative apparatus",
+    "asterisk dividers between argument sections",
+    "civic-confident close ('I am confident it will come up with a speedy and fair decision')"
+  ],
+  "decision_framework_signals": [
+    "Scenario analysis as ex ante risk-mapping",
+    "Comparative precedent timelines as benchmarks for institutional pace",
+    "Comelec-as-bottleneck thesis: the real critique should be aimed there",
+    "Constitutional remedies hierarchy: Comelec → SC → PET",
+    "Liberal-construction default: NOT disqualifying preserves stability and electorate choice"
+  ],
+  "one_paragraph_summary": "Panganiban joins Senate President Drilon, Speaker Belmonte, and the Inquirer's own Feb. 13 editorial 'Of the highest urgency' in urging speedy resolution of the Grace Poe eligibility cases, but redirects part of the critical gaze to the Comelec. He first outlines graduated dark scenarios: if Poe is disqualified BEFORE the election, votes for her will still be counted by the automated machines (programmed to count all printed-ballot names) but boards of canvassers may be barred from canvassing them -- though 'in this age of computers, geeks could still compute the results'; if AFTER the election and canvass but she fails to win, no problem; if AFTER she wins by highest votes, the second-placer would still be proclaimed, spawning political troubles; if AFTER she is proclaimed and AFTER she assumes office, only an election contest at the PET resolves the crisis. The unifying lesson: only NOT disqualifying her avoids dark scenarios. He then defends the SC: CJ Sereno publicly prioritized election cases; oral argument closed with a six-day memo deadline comparable to FPJ's pace. By contrast, he notes the disqualification suits against Rodrigo Duterte remain unresolved at the Comelec en banc -- so dark scenarios persist for him too. He builds two contrasting precedent timelines. Estrada's 2010 case slept in the Comelec for months (Second Division dismissal Jan 10, en banc denial May 4 -- less than a week before election day) and reached the SC only on May 7; the Court dismissed as moot in Pormento vs Comelec (Aug 31, 2010) because Estrada lost. (He notes Vidal vs Comelec, Jan 21, 2015, later held that Estrada's absolute pardon restored his right to seek public office.) FPJ's 2004 case was lightning-fast: petition filed Jan 9, Comelec First Division dismissal Jan 23, en banc affirmance Feb 6, SC Tecson decision March 3 -- Comelec en banc dismissal was 'noteworthy for its deep sleep' in Estrada's case, FPJ's for its 'blinding speed.' In both cases neither candidate was disqualified, the electorate had freedom of choice, votes were counted, and no dark scenarios occurred. The Comelec's asymmetric treatment is striking: it included Estrada on the ballots but cancelled Poe's COC. He closes with confident institutional faith: the Court 'will come up with a speedy and fair decision that will avoid the gruesome constitutional and political crises that critics fear.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,125 @@
+{
+  "id": "CE115",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 115,
+  "title": "Not for the faint-hearted",
+  "date": "2011-07-31",
+  "link": "https://opinion.inquirer.net/8973/not-for-the-faint-hearted",
+  "keywords": [
+    "Gamboa v. Teves",
+    "PLDT shares",
+    "beneficial ownership",
+    "voting vs preferred shares",
+    "judicial self-restraint",
+    "par value",
+    "market value",
+    "Ombudsman Morales appointment"
+  ],
+  "primary_topics": [
+    "CJ detailed rebuttal of the Gamboa v. Teves majority beneficial ownership conclusion -- arguing it is neither legally nor logically sound because it uses par value and dividends rather than market value and actual rate of return",
+    "The risk-reward distinction between common and preferred shares -- why common shareholders earn less per peso invested than preferred shareholders despite higher dividends per share",
+    "Brief tribute to the appointment of Justice Conchita Carpio Morales as the new Ombudsman"
+  ],
+  "sub_topics": [
+    "Two readers challenged CJ to demonstrate his judicial self-restraint thesis from the prior column",
+    "Gamboa v. Teves (June 28, 2011): PLDT common shares par value P5; earned P70 in 2009; PLDT preferred shares par value P10; earned P1 per share; Court concluded beneficial ownership rests with foreign common shareholders",
+    "CJ rebuttal -- not legal: Constitution does not speak of dividends or how much each type of share should earn; Charter speaks only of control of corporations engaged in public utilities, not of beneficial ownership",
+    "CJ rebuttal -- not logical: ignored market value and rate of return; PLDT common shares market price P2,328 (earn P70 = ~3% return); preferred shares market price ~P11 (earn P1 = ~9% return); preferred shares earn three times more per peso invested",
+    "Par values not determinative of real worth; investors buy based on risk appetite; conservatives prefer preferred (fixed, like bank deposits); adventurous choose common (potentially exponential growth)",
+    "Classic examples: Microsoft/Bill Gates; PLDT under Pangilinan -- net income P3.4B (2001) to P34B (2005, 10x in 4 years) to P40B (2010); common share price P417 to P2,554",
+    "In bad times, common shares can collapse -- billionaires to paupers in 1997 (PH) and 2008 (US)",
+    "Business is about taking and managing risks, not about legislating profits or promulgating decisions on economic benefits -- not for the faint-hearted or for jurists to intrude into unnecessarily",
+    "New Ombudsman: longest and most thunderous ovation at P-Noy SONA when Morales appointment announced; differed with Morales a few times on economic issues but never doubted her probity, integrity, independence and love of country; fully supported her appointment"
+  ],
+  "signature_phrases": [
+    "Two readers, probably lawyers, dared me to demonstrate my thesis",
+    "it is neither legal nor logical",
+    "It is not legal because the Constitution does not speak of dividends",
+    "preferred shares earn three times more than the common shares",
+    "The par values of shares are not determinative of their real worth or earning potential",
+    "Investors buy shares depending on their appetite for risks, not on the shares' par values",
+    "Business is about taking and managing risks, not about legislating profits or promulgating decisions on economic benefits",
+    "It is not for the faint-hearted or for jurists to intrude into unnecessarily",
+    "the longest and most thunderous ovation during President Aquino's Sona",
+    "I have never doubted her probity, integrity, independence and love of country"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Justice Antonio T. Carpio (ponente of Gamboa v. Teves)",
+      "Manuel V. Pangilinan (PLDT -- led exponential growth)",
+      "Bill Gates (Microsoft exponential growth example)",
+      "Justice Conchita Carpio Morales (appointed new Ombudsman; longest SONA ovation)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "PLDT",
+      "Microsoft"
+    ],
+    "cases": [
+      "Gamboa v. Teves (June 28, 2011) -- PLDT foreign ownership and capital definition"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- public utility ownership provisions (Art. XII Sec. 11)"
+    ],
+    "events": [
+      "P-Noy SONA -- Morales appointment (longest and most thunderous ovation)",
+      "PLDT net income growth P3.4B (2001) to P34B (2005) to P40B (2010)",
+      "1997 Asian financial crisis and 2008 US financial crisis (common shares can collapse)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Gamboa majority beneficial ownership conclusion is neither legally nor logically sound: not legal because the Constitution does not speak of dividends or beneficial ownership but only of control of public utility corporations; not logical because it ignores market value and actual rate of return.",
+      "rhetorical_move": "neither-legal-nor-logical two-ground rebuttal",
+      "confidence": "asserted with financial calculations"
+    },
+    {
+      "claim": "Preferred shares in PLDT actually earn three times more per peso invested than common shares (~9% vs ~3% based on market prices), demolishing the majority conclusion that beneficial ownership rests with foreign common shareholders.",
+      "rhetorical_move": "rate-of-return-calculation as the decisive financial counter-argument",
+      "confidence": "asserted with computed figures"
+    },
+    {
+      "claim": "Business is about taking and managing risks -- not for jurists to intrude into unnecessarily, consistent with CJ judicial self-restraint thesis on economic issues.",
+      "rhetorical_move": "business-is-about-risk-management reinforcing judicial-self-restraint thesis",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Despite differing with Justice Morales on economic issues, CJ fully supported her Ombudsman appointment because he has never doubted her probity, integrity, independence and love of country.",
+      "rhetorical_move": "collegial-disagreement-does-not-preclude-institutional-endorsement",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ specific rate-of-return calculation: a PLDT preferred share costs ~P11 and earns P1 (9% return); a PLDT common share costs P2,328 and earns P70 (3% return) -- the most devastating single financial argument against the Gamboa majority conclusion.",
+    "PLDT exponential growth under Pangilinan: net income from P3.4B (2001) to P34B (2005) to P40B (2010); common share price from P417 to P2,554 -- the most compelling Philippine example of how common shares grow in value despite lower dividend yields.",
+    "The longest and most thunderous ovation at P-Noy SONA when Morales was announced as Ombudsman -- capturing public enthusiasm for a robust anti-graft enforcer."
+  ],
+  "target_audience": [
+    "Business readers and investors who can appreciate the rate-of-return calculation",
+    "Constitutional law scholars evaluating the Gamboa ruling on beneficial ownership",
+    "Civic readers following the judicial self-restraint debate on economic issues",
+    "Supporters of the new Ombudsman Morales appointment"
+  ],
+  "register_markers": [
+    "reader-challenge-as-opening (two readers dared me to demonstrate my thesis)",
+    "neither-legal-nor-logical two-ground structure",
+    "financial-calculation-register (par value, market price, dividend, rate of return in percentages)",
+    "business-risk-appetite-register (conservatives vs adventurous investors)",
+    "exponential-growth-narrative (Microsoft/Gates; PLDT/Pangilinan)",
+    "not-for-the-faint-hearted as the closing philosophical statement",
+    "thunderous-SONA-ovation as the Morales tribute opener"
+  ],
+  "decision_framework_signals": [
+    "applies constitutional-text-analysis to show Charter speaks of control not beneficial ownership or dividends",
+    "uses rate-of-return-calculation as the decisive financial counter-argument to the Gamboa majority",
+    "treats par-value-vs-market-value distinction as the critical error in majority reasoning",
+    "deploys risk-appetite-framework to explain the legitimate difference in returns",
+    "frames judicial-self-restraint on economic issues as the overarching principle the majority violated"
+  ],
+  "one_paragraph_summary": "Responding to two readers who challenged him to demonstrate his judicial self-restraint thesis, Panganiban mounts a two-ground rebuttal of the Gamboa v. Teves (June 28, 2011) majority's 'beneficial ownership' conclusion. First, it is not legal: the Constitution does not speak of dividends or how much each type of share should earn -- it speaks only of control of public utility corporations, not 'beneficial ownership.' Second, it is not logical: the majority noted PLDT preferred shares earn P1 while common shares earn P70 -- but failed to compute actual rates of return. By CJ's calculation, a preferred shareholder earns ~9% per peso invested (P1 on ~P11 market price); a common shareholder earns only ~3% (P70 on P2,328 market price). Preferred shares earn three times more than common shares. Par values are not determinative of real worth; investors buy based on risk appetite -- conservatives prefer preferred (fixed, like bank deposits); the adventurous choose common (potentially exponential growth, as with Microsoft/Gates, or PLDT under Pangilinan -- net income from P3.4B in 2001 to P34B in 2005 and P40B in 2010 while the common share price rose from P417 to P2,554). Common shares can also collapse, as in 1997 and 2008. Business is about taking and managing risks -- not for jurists to intrude into unnecessarily. CJ closes with a tribute to Justice Morales's appointment as Ombudsman -- the longest and most thunderous ovation at P-Noy's SONA -- saying that despite their few differences on economic issues, he has never doubted her probity, integrity, independence and love of country.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

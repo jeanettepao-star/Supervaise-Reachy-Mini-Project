@@ -1,0 +1,113 @@
+{
+  "id": "BD001",
+  "format": "B",
+  "type": "book",
+  "theme": "D",
+  "theme_label": "FLP Mission and Foundation",
+  "number": 1,
+  "title": "With Due Respect (Vol. 2) -- Ch. 3: How the SC Decides Cases",
+  "date": "2009-06-21",
+  "link": "https://cjpanganiban.com/books-authored-by-chief-justice-artemio-v-panganiban/",
+  "keywords": [
+    "How the SC Decides Cases",
+    "transparency",
+    "a passive branch of the government",
+    "amici curiae (friends of the court)",
+    "primus inter pares seating by seniority",
+    "retired Justice Florenz D. Regalado",
+    "1987 Constitution",
+    "Rules of Court",
+    "Supreme Court",
+    "hearing hall on Padre Faura Street",
+    "2009 controversy over House Resolution 1109",
+    "2009"
+  ],
+  "primary_topics": [
+    "Chapter 3 of 'With Due Respect' (Vol. 2) -- CJP's June 21, 2009 Inquirer column, a 'primer on how the Court decides cases in the normal course,' prompted by the Court's signed resolution throwing out the petitions against House Resolution 1109",
+    "How the Court works as a 'review court' and a 'passive branch': it rarely takes initial cognizance, acts only when a proper party files a petition, and keeps its internal deliberations confidential (Regalado: in trial courts the rule is transparency, in the Supreme Court, confidentiality)",
+    "How the justices decide collegially -- debating and voting independently but binding the Court only in session, working largely 'in chambers and at home,' writing far more than they talk, with rare oral arguments and amici curiae for difficult cases",
+    "The mechanics of sitting en banc or in three five-member divisions (a division ruling is the Court's), majority voting, and the strict seniority rule governing seating and the 'working chairman' role"
+  ],
+  "sub_topics": [
+    "The trigger: the Court 'correctly threw out' the petitions assailing House Resolution 1109 but gave them a signed explanatory resolution -- special treatment compared with the one-sentence dismissals it reserves for 'utterly unmeritorious and cerebrally deficient' petitions",
+    "A 'review court': the Court does not take initial cognizance; it mainly affirms, modifies or reverses lower-court decisions and determines whether a court or agency (including the President and Congress) acted without/with excess of jurisdiction or grave abuse",
+    "A 'passive branch': the Court cannot act on its own -- its authority 'must be triggered by the filing of a petition by a proper party'",
+    "Confidential deliberations: unlike open trial courts, the Court releases only its net results (decisions, resolutions, orders, and concurring/dissenting/separate opinions); Justice Regalado's maxim contrasts trial-court transparency with Supreme Court confidentiality",
+    "Collegial decision-making: justices debate and vote independently but decide collegially; no justice can bind the Court alone, and even motions for extension are calendared and acted on as a body",
+    "The workload and method: an agenda of 150-250 items per session, with the 'backbreaking job' done in chambers and at home (study, read, reflect, pray, write); verbal discussion is limited -- beyond five minutes the CJ asks members to put their views in writing",
+    "Oral arguments and amici curiae: rare, held in the Padre Faura hearing hall for difficult cases, roughly 20 minutes a side (often extended by questions), with amicus curiae invitations a 'rare privilege' for lawyers of 'unquestioned stature,' followed by written memoranda",
+    "En banc or in division: the Court sits en banc (all 15) or in three five-member divisions (a division decision is the Court's), deciding by a majority of those taking part; the CJ assigns justices among divisions, and strict seniority governs seating, with the most senior chairing each division and a 'working chairman' standing in for the CJ"
+  ],
+  "signature_phrases": [
+    "a passive branch of the government",
+    "in trial courts, the rule is transparency; but in the Supreme Court, it is confidentiality",
+    "they do not talk too much; rather, they write a lot",
+    "amici curiae (friends of the court)",
+    "primus inter pares seating by seniority"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (columnist; former Chief Justice)",
+      "retired Justice Florenz D. Regalado (the transparency-vs-confidentiality maxim)"
+    ],
+    "institutions": [
+      "the Supreme Court (en banc and its three divisions)",
+      "lower courts and administrative agencies (reviewed by the Court)",
+      "the hearing hall on Padre Faura Street"
+    ],
+    "cases": [
+      "the petitions assailing House Resolution 1109 (the Con-ass resolution) -- dismissed"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (judicial review; grave-abuse jurisdiction)",
+      "the Rules of Court (procedures, oral argument, amici curiae)"
+    ],
+    "events": [
+      "the 2009 controversy over House Resolution 1109"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Supreme Court is a 'review court' and a 'passive branch': it does not take initial cognizance of controversies and can act only when 'a proper party' files a petition -- its role is to affirm, modify or reverse lower rulings and to police jurisdiction and grave abuse.",
+      "rhetorical_move": "role-definition: correcting the public's image of the Court by stressing its reactive, review-only character",
+      "confidence": "asserted as institutional fact"
+    },
+    {
+      "claim": "The Court decides collegially and confidentially -- justices 'debate and vote independently' but bind the Court only in session, 'write a lot' rather than talk, and release only their net results -- so its internal deliberations are sacrosanct ('in the Supreme Court, it is confidentiality').",
+      "rhetorical_move": "demystification: walking readers through the hidden mechanics to explain why the Court is opaque by design",
+      "confidence": "asserted from first-hand experience"
+    },
+    {
+      "claim": "A division ruling is as 'valid, binding, effective, and final' as an en banc one, with cases distributed by the CJ and decided by a majority of those taking part under a strict seniority order -- the everyday machinery behind the Court's judgments.",
+      "rhetorical_move": "procedural primer: laying out en banc/division mechanics and seniority to make the Court legible",
+      "confidence": "asserted as standing practice"
+    }
+  ],
+  "notable_anecdotes": [
+    "'Cerebrally deficient' petitions: CJP notes the Court usually disposes of 'utterly unmeritorious' petitions with one-sentence resolutions, so the signed explanation given to the House Resolution 1109 petitioners was unusual 'special treatment.'",
+    "Regalado's maxim: he quotes the late Justice Florenz Regalado -- in trial courts the rule is transparency, but in the Supreme Court it is confidentiality -- to capture the sacredness of collegial deliberation.",
+    "They write, not talk: against the popular image of voluble justices, he reports that 'when the verbal discussion of a case exceeds five minutes,' the chief justice asks members to commit their views to writing.",
+    "Seating by seniority: he describes the precise seniority seating -- the CJ at the head, the most senior on his right, down to the fifteenth at the foot -- and the 'working chairman' who runs the CJ's own division."
+  ],
+  "target_audience": [
+    "Inquirer readers curious how the Court actually works",
+    "Law students and practitioners",
+    "Citizens following the House Resolution 1109 dispute"
+  ],
+  "register_markers": [
+    "explicit 'primer' / civic-education register",
+    "review-court and 'passive branch' role definitions",
+    "insider procedural detail (agenda size, five-minute rule, raffle of work)",
+    "quoted maxim (Regalado) as authority",
+    "demystifying intent -- pulling back the curtain on a confidential institution"
+  ],
+  "decision_framework_signals": [
+    "review-court / passive-branch: the Court acts only on a proper party's petition, never sua sponte",
+    "collegiality: independent debate and votes, but binding action only as a body in session",
+    "confidentiality of deliberations vs. transparency of results",
+    "writing-over-talking: reasoned opinions, not oral debate, drive decisions",
+    "en banc vs. division and the strict seniority order as the operating structure"
+  ],
+  "one_paragraph_summary": "Chapter 3 of 'With Due Respect' (Vol. 2), CJP's June 21, 2009 Inquirer column, is 'a primer on how the Court decides cases in the normal course,' prompted by the Court's unusual signed resolution throwing out the petitions against House Resolution 1109 -- special treatment, he notes, compared with the one-sentence dismissals reserved for 'utterly unmeritorious and cerebrally deficient' petitions. He explains that the Court is a 'review court' that does not take initial cognizance of controversies but mainly affirms, modifies or reverses lower-court rulings and polices jurisdiction and grave abuse, and that it is a 'passive branch' whose authority 'must be triggered by the filing of a petition by a proper party.' Unlike open trial courts, its internal deliberations are confidential -- only the net results (decisions, resolutions, and concurring, dissenting and separate opinions) are released -- and he quotes Justice Regalado that 'in trial courts, the rule is transparency; but in the Supreme Court, it is confidentiality.' The justices decide collegially: they debate and vote independently but bind the Court only in session, with no justice acting alone, and the 'backbreaking job' is done in chambers and at home through study, reflection and writing -- 'they do not talk too much; rather, they write a lot,' the CJ steering discussion to written opinions once it exceeds five minutes. Oral arguments are rare, held in the Padre Faura hearing hall for difficult cases at about 20 minutes a side (often extended), sometimes aided by amici curiae invited as a 'rare privilege,' and followed by written memoranda. Finally he lays out the structure: the Court sits en banc or in three five-member divisions (a division ruling being as final as an en banc one), deciding by a majority of those taking part, with the CJ assigning justices and a strict seniority rule governing seating and the 'working chairman' who runs the CJ's division.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

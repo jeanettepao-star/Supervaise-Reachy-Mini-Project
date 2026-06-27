@@ -1,0 +1,166 @@
+{
+  "id": "CA329",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 329,
+  "title": "3 Marcos cases to watch",
+  "date": "2016-11-06",
+  "link": "https://opinion.inquirer.net/99000/3-marcos-cases-to-watch",
+  "keywords": [
+    "3 Marcos cases preview",
+    "Libingan ng mga Bayani burial petitions",
+    "status quo ante order Oct 18-Nov 8",
+    "PET Bongbong protest 39,221 precincts",
+    "Smartmatic hash code controversy",
+    "Miriam vs Ramos 1992 protest mootness",
+    "Roxas vs Binay 2010 mootness",
+    "Speaker Alvarez Soce petition"
+  ],
+  "primary_topics": [
+    "Three SC cases that may change PH political landscape (Marcos burial, election protest, Soce)",
+    "Battle over burial: spirit of 1987 Constitution vs Dura lex sed lex literalism",
+    "Battle over alleged fraud: Bongbong's PET protest against Robredo (250,000 margin)",
+    "Battle over Soce: Speaker Alvarez's petition vs Comelec extension (4-3 vote)",
+    "Historical track record: no presidential/VP unseating ever succeeded"
+  ],
+  "sub_topics": [
+    "Marcos rehabilitation/glamorization possibility via burial at Libingan ng mga Bayani",
+    "Status quo ante order until Oct 18, extended to Nov 8",
+    "Petitions: ouster by people = unworthiness for heroes' cemetery",
+    "Opposing camp: plain letter of law allows presidents/soldiers regardless of heroism",
+    "Dura lex sed lex argument",
+    "Expected division among justices; liberal vs literal interpretive choice",
+    "Bongbong's PET protest against Robredo's 250,000-vote winning margin",
+    "39,221 clustered precincts in 25 provinces, 5 cities",
+    "Smartmatic hash code in transparency server allegation",
+    "Criminal aspect dismissed by Manila Prosecutors Office (appealable)",
+    "Miriam Defensor-Santiago 1992 protest vs Ramos -- dismissed for mootness after senate win 1995",
+    "Mar Roxas 2010 protest vs Binay -- dismissed after Roxas's 2016 presidential run",
+    "Speaker Pantaleon Alvarez's Soce petition",
+    "Comelec 4-3 resolution extending Soce filing from June 8 to June 30",
+    "RA 7166 Sec 14 penalties: fines + bar from office until filing + perpetual disqualification for repeat offenders",
+    "Party-related penalty kicker: same prohibition applies if winner's party fails to file Soce timely",
+    "Liberal Party filed Soce only during extension (not within prescribed period)",
+    "Marcos partisans' claim: Robredo + all LP-affiliated winners should be perpetually disqualified, Bongbong replaces VP pronto",
+    "CJ's verdict: claim is 'a major leap in law and logic'"
+  ],
+  "signature_phrases": [
+    "Worth watching are three Supreme Court cases that may change our political landscape",
+    "the rehabilitation and glamorization of the martial law regime of Ferdinand Marcos",
+    "Or so his partisans hope",
+    "Battle over burial",
+    "the unwritten yet underlying spirit animating the 1987 Constitution",
+    "by its very name, is reserved only for heroes",
+    "Dura lex sed lex",
+    "decide liberally or literally",
+    "Battle over alleged fraud",
+    "a thin margin of 250,000 votes",
+    "no one has succeeded in unseating the proclaimed winner in the past presidential and vice-presidential races",
+    "tedious route",
+    "Battle over Soce",
+    "and here is the kicker",
+    "Ergo, the Marcos partisans claim",
+    "a major leap in law and logic, and deserves a column in the future"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Ferdinand Marcos (former president, burial subject)",
+      "Ferdinand 'Bongbong' Marcos Jr.",
+      "VP Leni Robredo",
+      "Speaker Pantaleon Alvarez (Soce petitioner)",
+      "Miriam Defensor-Santiago (1992 election protest vs Ramos)",
+      "Fidel V. Ramos (1992 election respondent)",
+      "Mar Roxas (2010 protest vs Binay)",
+      "Jejomar Binay (2010 election respondent)"
+    ],
+    "institutions": [
+      "Supreme Court (Presidential Electoral Tribunal/PET)",
+      "Commission on Elections (Comelec)",
+      "Smartmatic (VCM lessor, hash code allegation)",
+      "Manila Prosecutors Office (criminal aspect dismissed)",
+      "Liberal Party (alleged late Soce filer)",
+      "Libingan ng mga Bayani (burial venue at issue)",
+      "House of Representatives (Speaker Alvarez)"
+    ],
+    "cases": [
+      "Marcos burial petitions at SC (status quo ante order until Oct 18, extended Nov 8)",
+      "Bongbong Marcos PET protest vs Leni Robredo (39,221 clustered precincts)",
+      "Alvarez petition vs Comelec Soce extension resolution",
+      "Miriam Defensor-Santiago v. Ramos (1992 election protest, dismissed for mootness)",
+      "Mar Roxas v. Binay (2010 protest, dismissed)",
+      "Comelec resolution 4-3 extending Soce from June 8 to June 30"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- unwritten spirit re: hero cemetery",
+      "Republic Act No. 7166 Sec 14 -- Soce filing penalties, perpetual disqualification, party-related kicker",
+      "Cemetery law allowing burial of presidents and soldiers without distinction"
+    ],
+    "events": [
+      "Marcos burial petitions hearings at SC",
+      "Status quo ante extension to Nov 8",
+      "2016 election (Bongbong-Robredo 250,000 margin)",
+      "Comelec 4-3 Soce extension vote (June 8 to June 30)",
+      "Manila Prosecutors Office dismissal of hash code criminal aspect"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Marcos burial case pits the unwritten yet underlying spirit of the 1987 Constitution (ouster by direct act of the people = unworthiness for heroes' cemetery) against the plain letter of the law allowing interment of presidents and soldiers without heroism distinction -- a classic spirit-vs-letter division that will divide the justices.",
+      "rhetorical_move": "spirit-vs-letter framing (constitutional interpretation as fundamental axis of division)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Regardless of merit, Bongbong's PET protest will not produce immediate VP replacement of Robredo -- historically, no presidential or VP unseating has ever succeeded; Miriam Defensor-Santiago's 1992 protest against Ramos was dismissed for mootness when she ran for senate in 1995, and Mar Roxas's 2010 protest against Binay was dismissed after Roxas ran in 2016.",
+      "rhetorical_move": "historical-precedent argument with paired cases (Santiago-Roxas pattern of dismissed VP protests)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Marcos partisans' Soce-based claim -- that the Liberal Party's late Soce filing under Comelec's extension should perpetually disqualify Robredo and all LP-affiliated winners under RA 7166 Sec 14's party-related kicker, replacing Robredo pronto with Bongbong -- is 'a major leap in law and logic' that deserves a separate column treatment.",
+      "rhetorical_move": "preliminary-skepticism framing with promise of fuller analysis later",
+      "confidence": "asserted as preliminary judgment"
+    },
+    {
+      "claim": "The three cases collectively constitute a partisan project to rehabilitate Marcos and catapult Bongbong to VP and eventually presidency -- but each case faces structural obstacles (interpretive division on burial, multi-year revision on protest, leap-in-logic on Soce) that make immediate success unlikely.",
+      "rhetorical_move": "convergent-analysis framing (three cases as coordinated partisan strategy with shared obstacles)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's framing of the political stakes: 'One may usher in the rehabilitation and glamorization of the martial law regime of Ferdinand Marcos, while two others may catapult Ferdinand Bongbong Marcos Jr. to the vice presidency and eventually to the presidency. Or so his partisans hope' -- the column's most consequential single-paragraph political read.",
+    "The Dura lex sed lex Latin tag deployed for the literalist burial-law camp -- capturing in three words the entire 'plain letter of the law' argument.",
+    "The paired-precedent demonstration: Miriam Defensor-Santiago vs Ramos (1992 dismissed for mootness after 1995 senate win) and Mar Roxas vs Binay (2010 dismissed after 2016 presidential run) -- using two analogous dismissals to show the structural pattern.",
+    "The 'and here is the kicker' phrasing introducing RA 7166 Sec 14's party-related Soce penalty -- using colloquial-attention marker to flag a technically dense legal provision.",
+    "CJ's preliminary verdict 'a major leap in law and logic' on the Marcos Soce claim -- combining legal and logical critique in five words, with explicit promise of future column treatment."
+  ],
+  "target_audience": [
+    "SC observers tracking Marcos-rehabilitation litigation",
+    "Civic readers anxious about VP succession scenarios",
+    "Election lawyers and PET observers",
+    "Constitutional law academics on spirit-vs-letter interpretive divides",
+    "Liberal Party and Robredo camp",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "three-battle catalog structure with labeled subheads ('Battle over burial', 'Battle over alleged fraud', 'Battle over Soce')",
+    "Latin tag deployment ('Dura lex sed lex', 'Ergo')",
+    "spirit-vs-letter interpretive framing",
+    "paired-precedent demonstration (Santiago + Roxas)",
+    "colloquial-attention marker ('and here is the kicker')",
+    "preliminary-skepticism framing with future-column promise",
+    "self-citation of prior column ('Soce extension abets impunity, 6/19/16')",
+    "qualifier-laden judicial-neutrality voice (regardless of merit, in the normal course)",
+    "convergent-analysis framing (three cases as coordinated strategy)"
+  ],
+  "decision_framework_signals": [
+    "applies spirit-vs-letter interpretive framing to constitutional disputes",
+    "uses historical-precedent argument with paired cases to establish structural patterns",
+    "deploys preliminary-skepticism + promise-of-fuller-treatment when complex legal claims warrant separate analysis",
+    "treats convergent litigation as coordinated partisan strategy when patterns align",
+    "applies leap-in-law-and-logic critique to legal claims requiring multiple inferential steps"
+  ],
+  "one_paragraph_summary": "Panganiban surveys three Supreme Court cases worth watching that may change PH political landscape -- one rehabilitating the Marcos martial law regime and two potentially catapulting Bongbong Marcos Jr. to the vice presidency and eventually the presidency, 'or so his partisans hope.' First, the Marcos burial petitions at Libingan ng mga Bayani: petitioners invoke the unwritten yet underlying spirit of the 1987 Constitution (ouster by direct act of the people = unworthiness for heroes' cemetery), opponents invoke Dura lex sed lex -- the plain letter allowing interment of presidents and soldiers without heroism distinction; the SC issued a status quo ante order until Oct 18, extended to Nov 8, and the justices will definitely be divided between liberal and literal interpretation. Second, Bongbong's PET protest against Robredo's 250,000-vote winning margin alleges fraud in 39,221 clustered precincts in 25 provinces and 5 cities and includes the Smartmatic hash-code-in-transparency-server allegation whose criminal aspect was dismissed (appealably) by the Manila Prosecutors Office; historically no presidential or VP unseating has ever succeeded -- Miriam Defensor-Santiago's 1992 protest against Ramos was dismissed for mootness after her 1995 senate win, and Mar Roxas's 2010 protest against Binay was dismissed after his 2016 presidential run -- meaning regardless of merit, Bongbong has no immediate prospect of replacing Robredo via this tedious route. Third, Speaker Alvarez's petition to reverse the Comelec's 4-3 resolution extending the Soce filing deadline from June 8 to June 30: under RA 7166 a candidate's late or non-filing produces fines, bar from office until compliance, and perpetual disqualification for repeat offenders -- and here is the kicker, Sec 14 prescribes the same prohibition if the winner's nominating party fails to file timely. Unquestionably, the Liberal Party filed only during the extension, not within the prescribed period; ergo, Marcos partisans claim, Robredo and all LP-affiliated winners should be perpetually disqualified and Bongbong should replace her pronto as VP -- but this claim is 'a major leap in law and logic, and deserves a column in the future.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

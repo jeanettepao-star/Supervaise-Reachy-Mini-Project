@@ -1,0 +1,133 @@
+{
+  "id": "CA436",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 436,
+  "title": "Many faces of DAP",
+  "date": "2013-11-16",
+  "link": "https://opinion.inquirer.net/65495/many-faces-of-dap",
+  "keywords": [
+    "pork barrel scam",
+    "inter-agency coordination",
+    "Senate Blue Ribbon",
+    "Ombudsman",
+    "Napoles subpoena",
+    "institutional comity"
+  ],
+  "primary_topics": [
+    "Inter-agency turf conflict between Senate Blue Ribbon Committee and Ombudsman over Napoles testimony",
+    "Three-part program to banish pork barrel scam (identify-prosecute-penalize; recover funds; prevent repetition)",
+    "Plea for cooperation over collision among prosecutorial and investigative agencies",
+    "Practical timing solution: Senate defers, Omb hastens"
+  ],
+  "sub_topics": [
+    "Sen. Teofisto Guingona III's subpoena request to Senate President Franklin Drilon",
+    "Ombudsman Morales' unfavorable comment citing RA 6770 and Omb Rules of Procedure",
+    "Drilon's decision not to sign the subpoena",
+    "Guingona's counter that Senate authority cannot be diminished by Omb filings",
+    "Agency mandates: OMB, DOJ, COA, BIR, PCGG, AMLC -- prosecution/recovery role",
+    "Congress and judiciary's role in preventing repetition",
+    "COA 2007-2009 audit findings already publicly announced",
+    "BIR investigating tax-law violations",
+    "Bangko Sentral / AMLC pursuing money trail",
+    "DOJ's filed plunder complaint vs 38 individuals",
+    "Senate Blue Ribbon's legislative-inquiry mandate",
+    "'At this time' qualifier in Morales' comment as the opening for compromise"
+  ],
+  "signature_phrases": [
+    "cooperation, not collision; coordination, not unbridled competition",
+    "dark, labyrinthine tentacles and wide web of corruption",
+    "battle of legalities",
+    "at this time",
+    "just in the meantime",
+    "hasten, yes, hasten",
+    "the first crack at Napoles' testimony",
+    "the more critical question of the guilt or innocence of the suspects"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Janet Lim Napoles",
+      "Teofisto Guingona III (Senate Blue Ribbon chair)",
+      "Franklin Drilon (Senate President)",
+      "Conchita Carpio Morales (Ombudsman)"
+    ],
+    "institutions": [
+      "Senate Blue Ribbon Committee",
+      "Office of the Ombudsman",
+      "Department of Justice",
+      "Commission on Audit",
+      "Bureau of Internal Revenue",
+      "Presidential Commission on Good Government",
+      "Anti-Money Laundering Council",
+      "Bangko Sentral ng Pilipinas",
+      "Sandiganbayan"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "RA 6770 (Ombudsman Act -- authority to determine what cases may not be made public)",
+      "Omb Rules of Procedure (publicity bar)"
+    ],
+    "events": [
+      "DOJ filing of plunder complaint vs 38 individuals",
+      "COA public release of 2007-2009 audit findings",
+      "Senate Blue Ribbon investigation in aid of legislation"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "An enraged public expects cooperation and coordination, not collision and unbridled competition, among the agencies tasked to crack the pork barrel mess -- and the current Senate-vs-Omb subpoena standoff disserves the public interest.",
+      "rhetorical_move": "institutional-comity appeal (framing collision itself as the public-interest harm)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "All the agencies -- COA, BIR, AMLC/BSP, DOJ, Omb, Senate Blue Ribbon -- are performing their respective laudable tasks; the problem is not effort but coordination among parallel streams.",
+      "rhetorical_move": "credit-where-due framing (validate agency work, then locate the failure at the interface)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Both Guingona's and Morales' legal positions have constitutional and statutory foundations -- CJ explicitly declines to take sides because joining the battle of legalities would harden positions and sideline the substantive mission.",
+      "rhetorical_move": "deliberate-non-adjudication (refusing the role of arbiter precisely to keep options open)",
+      "confidence": "asserted as principled abstention"
+    },
+    {
+      "claim": "The practical solution is timing: the Senate Blue Ribbon should defer the Napoles subpoena 'in the meantime' while the Omb hastens (yes, hastens) its PI -- a mutual concession that lets both mandates be honored without judicial showdown.",
+      "rhetorical_move": "compromise-via-sequencing (resolving rights conflict by ordering rather than ranking)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "If legalities become the order of the day, the dispute will end up in courts and the main issue will degenerate into which agency gets 'the first crack at Napoles' testimony,' eclipsing the real issue of guilt-or-innocence and the legislative work of banishing pork barrel.",
+      "rhetorical_move": "consequence-of-non-compromise warning (showing the litigated outcome to motivate the negotiated one)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's rare self-restraint: 'Although a lawyer, I will not join the battle of legalities... I will not contribute to the hardening of their legal opinions by joining the fray and taking sides' -- the most explicit non-adjudication move CJ makes in any pork-barrel column, treating his own intervention as a destabilizing variable.",
+    "CJ's close reading of Morales' phrase 'at this time' -- he repeats it twice and italicizes the implication, turning a single qualifier into the doorway out of the standoff. The textual close-reading is the column's analytical center."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Senate and Ombudsman staff",
+    "Civic-minded observers of inter-branch conflict",
+    "Government-reform advocates"
+  ],
+  "register_markers": [
+    "formal civic-comity register",
+    "deliberate non-adjudication signal ('Although a lawyer, I will not join the battle of legalities')",
+    "close-reading of a single phrase ('at this time') as analytical fulcrum",
+    "repetition for emphasis ('hasten, yes, hasten')",
+    "labyrinth-imagery for institutional complexity ('dark, labyrinthine tentacles')",
+    "'in the meantime, just in the meantime' -- syntactic urgency through repeated qualifier"
+  ],
+  "decision_framework_signals": [
+    "frames inter-agency disputes through institutional-comity lens (collision-itself-is-the-harm)",
+    "applies credit-where-due framing before locating the coordination failure",
+    "uses deliberate non-adjudication when his own intervention could harden positions",
+    "resolves rights conflicts through compromise-via-sequencing (timing) rather than ranking",
+    "deploys consequence-of-non-compromise warning to motivate negotiated outcome"
+  ],
+  "one_paragraph_summary": "Panganiban pleads for cooperation, not collision, among the agencies converging on the pork barrel scandal. He recaps his earlier three-part program -- identify-prosecute-penalize, recover funds, prevent repetition -- and locates each mandate: COA, BIR, AMLC, BSP, DOJ and Omb on the first two; Congress and the judiciary on the third. He notes that each agency is doing its job: COA released 2007-2009 audit findings, BIR is investigating tax violations, AMLC is chasing the money trail, DOJ has filed plunder complaints against 38 individuals, and the Senate Blue Ribbon is investigating for legislation. The trouble is the interface: Senate Blue Ribbon chair Teofisto Guingona III asked Senate President Franklin Drilon to subpoena Janet Lim Napoles; Drilon referred the request to Ombudsman Conchita Carpio Morales, who invoked RA 6770 and Omb Rules of Procedure to oppose publicity that might prejudice witnesses, the case, and the respondents. Drilon withheld the subpoena; Guingona objected. Panganiban deliberately refuses to adjudicate -- 'Although a lawyer, I will not join the battle of legalities... I will not contribute to the hardening of their legal opinions' -- because his intervention would worsen rather than resolve the standoff. Instead he close-reads Morales' qualifier 'at this time' (repeating it twice) and proposes a timing compromise: the Senate defers 'in the meantime, just in the meantime' while the Omb 'hastens, yes, hastens' its preliminary investigation. The warning is that if legalities prevail, the dispute will end up in court fighting over 'which agency should have the first crack at Napoles' testimony' -- eclipsing the real question of guilt or innocence and the legislative task of banishing pork barrel.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

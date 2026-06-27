@@ -1,0 +1,125 @@
+{
+  "id": "CA509",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 509,
+  "title": "TRO on Senate subpoena",
+  "date": "2012-02-18",
+  "link": "https://opinion.inquirer.net/23327/tro-on-senate-subpoena",
+  "keywords": [
+    "TRO Senate subpoena PSBank dollar deposits",
+    "Walter Nixon sole power US impeachment",
+    "Francisco House of Representatives GAD",
+    "Sereno Carpio dissent TRO",
+    "Gutierrez status quo order lifted"
+  ],
+  "primary_topics": [
+    "Can the SC restrain a Senate subpoena? The US vs PH answer",
+    "The GAD exception and the TRO's actual rationale",
+    "The SC TRO as a democratic maturing process, not a power grab"
+  ],
+  "sub_topics": [
+    "US answer: absolute No -- Walter Nixon v. United States (Jan. 13, 1993) unanimous",
+    "PH answer: No, but with the GAD exception -- Francisco v. House of Representatives (Nov. 10, 2003)",
+    "GAD defined: arbitrary, capricious, whimsical or despotic judgment; arising from passion or personal hostility",
+    "Act without/in excess of authority = void; arbitrary act = also deemed void",
+    "Errors of judgment / simple abuse ≠ GAD; Senate is sui generis, not inferior to SC",
+    "SC TRO of Feb. 9, 2012 -- barred Senate subpoena on Corona's PSBank dollar deposits",
+    "Sereno dissent: Senate was 'superbly careful'; only 31 impeachable officers; only 2 impeachment trials in history",
+    "Carpio dissent: TRO 'makes a mockery' of transparency laws; dollar accounts now better than Swiss accounts for hiding loot",
+    "Brion concurrence: TRO only precautionary, not an attribution of GAD to the Senate",
+    "Senate respected TRO not in agreement but to avoid collision of wills",
+    "Senate's argument: it did not gravely abuse its discretion in issuing the subpoena",
+    "Precedent: Gutierrez TRO/Status Quo Order later lifted after House proved right to impeach",
+    "Larger context: TRO, subpoena, trial as maturing processes of democracy",
+    "Archbishop Tagle's 'culture of integrity'"
+  ],
+  "signature_phrases": [
+    "sole power to try and decide",
+    "sui generis, one of a kind",
+    "superbly careful",
+    "makes a mockery",
+    "better safe haven for ill-gotten wealth than Swiss bank accounts",
+    "precautionary measure",
+    "maturing processes of our democracy",
+    "culture of integrity"
+  ],
+  "entities": {
+    "people": [
+      "CJ Renato C. Corona",
+      "Justice Maria Lourdes P. A. Sereno (dissenter)",
+      "Justice Antonio T. Carpio (dissenter)",
+      "Justice Arturo D. Brion (concurring)",
+      "Archbishop Luis Antonio G. Tagle",
+      "Former Ombudsman Merceditas Gutierrez"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Senate of the Philippines",
+      "Philippine Savings Bank (PSBank)",
+      "US Supreme Court"
+    ],
+    "cases": [
+      "Walter Nixon v. United States (January 13, 1993)",
+      "Francisco v. House of Representatives (November 10, 2003)",
+      "Former Ombudsman Gutierrez TRO/Status Quo Order"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (GAD clause; Senate sole power)",
+      "US Constitution (sole power to try impeachments)"
+    ],
+    "events": [
+      "SC TRO on PSBank subpoena (February 9, 2012)",
+      "Senate's decision to respect the TRO"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "In the US, the answer is absolute No -- the SC cannot restrain the Senate's impeachment power. In the PH, No but with the GAD exception under Francisco v. House of Representatives.",
+      "rhetorical_move": "comparative-constitutional synthesis",
+      "confidence": "high"
+    },
+    {
+      "claim": "The TRO was not an attribution of GAD to the Senate -- Brion correctly stated it was merely precautionary to prevent the case from becoming academic by a premature dollar-deposit revelation.",
+      "rhetorical_move": "TRO-rationale clarification against misreading",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Senate respected the TRO not in agreement but to show its own prudence and avoid an unnecessary collision of wills -- it still plans to argue against GAD at the SC hearing.",
+      "rhetorical_move": "diplomatic-self-interest explanation for Senate compliance",
+      "confidence": "high"
+    },
+    {
+      "claim": "These incidents -- trial, subpoena, TRO, Senate response -- are essential parts of the maturing processes of democracy, hopefully leading to Archbishop Tagle's 'culture of integrity.'",
+      "rhetorical_move": "democratic-maturing-process framing",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Justice Carpio's dissent warning that the TRO makes dollar accounts 'a much better safe haven for ill-gotten wealth than Swiss bank accounts' -- the sharpest anti-TRO argument in the opinions.",
+    "Justice Sereno's dissent noting that there are only 31 impeachable officers and only 2 impeachment trials in constitutional history -- making the Senate's caution in canalizing the subpoena self-evident.",
+    "The Gutierrez precedent: SC later lifted its Status Quo Order after the House proved its right to impeach -- cited as the template for how the TRO drama would likely resolve."
+  ],
+  "target_audience": [
+    "SC justices deliberating on the TRO's finality",
+    "Senator-judges deciding whether to comply or resist",
+    "Constitutional law scholars on GAD and impeachment",
+    "Civic readership following the PSBank subpoena controversy"
+  ],
+  "register_markers": [
+    "US-PH comparative structure",
+    "Dissent and concurrence citation to show internal SC division",
+    "Precautionary-TRO rationale clarification",
+    "Larger-context democratic-maturing framing"
+  ],
+  "decision_framework_signals": [
+    "Apply Walter Nixon (US): no SC review of Senate impeachment power; apply Francisco (PH): yes but only for GAD",
+    "Test the TRO for what it actually says: precautionary, not a GAD finding",
+    "Apply the Gutierrez precedent as the template: TRO → SC hearing → TRO lifted if no GAD established",
+    "Treat the TRO compliance as diplomatic, not substantive -- Senate reserves its GAD argument"
+  ],
+  "one_paragraph_summary": "Panganiban addresses whether the SC can restrain a Senate impeachment subpoena. In the US, the answer is an absolute No (Walter Nixon v. United States, January 13, 1993 -- 'sole' means reposed in the Senate alone). In the Philippines, the answer is also No but with the GAD exception: Francisco v. House of Representatives (November 10, 2003) held that the SC has a constitutional duty to review any branch for grave abuse of discretion (arbitrary, capricious, whimsical, or despotic exercise arising from passion or personal hostility). The SC's February 9, 2012 TRO on the PSBank dollar-deposit subpoena prompted two notable dissents: Justice Sereno argued the Senate was 'superbly careful' in canalizing the subpoena to only 31 impeachable officers and 2 impeachment trials in history; Justice Carpio warned the TRO made dollar accounts 'a much better safe haven for ill-gotten wealth than Swiss bank accounts.' Justice Brion's concurrence clarified that the TRO was merely precautionary -- not an attribution of GAD to the Senate. The Senate respected the TRO not because it agreed but to avoid an unnecessary collision of wills, reserving its no-GAD argument for the SC hearing. The author draws the Gutierrez precedent (TRO later lifted after the House proved its right to impeach) as the likely resolution template, and frames the entire episode as part of the maturing processes of democracy toward Archbishop Tagle's 'culture of integrity.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

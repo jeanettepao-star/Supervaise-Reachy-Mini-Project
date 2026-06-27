@@ -1,0 +1,147 @@
+{
+  "id": "CC061",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 61,
+  "title": "Agreeing to disagree with Justice Carpio",
+  "date": "2019-10-27",
+  "link": "https://opinion.inquirer.net/124847/agreeing-to-disagree-with-justice-carpio",
+  "keywords": [
+    "Antonio Carpio",
+    "Diosdado Peralta",
+    "Bongbong-Leni protest",
+    "West Philippine Sea alternatives",
+    "party-list",
+    "Ang Bagong Bayani",
+    "Veterans Party",
+    "Atong Paglaum",
+    "Banat v. Comelec"
+  ],
+  "primary_topics": [
+    "Congratulating new CJ Diosdado M. Peralta and previewing his ideological alignment with Bersamin",
+    "Personal-professional friendship with Senior Justice Carpio despite doctrinal disagreement",
+    "Three documented disagreements: Bongbong-Leni protest disposition; West Philippine Sea alternatives; party-list jurisprudence",
+    "Reversal of CJ's own party-list ponencias (Ang Bagong Bayani; Veterans Party) by Carpio (Atong Paglaum; Banat)"
+  ],
+  "sub_topics": [
+    "Executive Secretary Salvador C. Medialdea's reported framing of Duterte's CJ choice: 'instill stability in the Court'",
+    "Peralta as the most senior of the three nominees; ideological partner of outgoing CJ Bersamin",
+    "Carpio's testimonial dinner -- 'long (since 1992) and close, even if at times testy, friendship'",
+    "Two recent Carpio-penned decisions adverse to a publicly-listed company where CJ is independent director",
+    "Carpio's dissent from PET resolution requiring Leni and Bongbong to comment",
+    "CJ's GMA News and ANC (Karen Davila) interviews supporting the PET resolution",
+    "Carpio's argument: dismiss for no 'substantial recovery' under Caguioa report",
+    "CJ's counter: due process required before PET could act with finality",
+    "China's April 13, 2009 Note Verbale to UN Secretary General as alternative path",
+    "November 2018 PH-China MoA: 60-40 resource-sharing in PH favor",
+    "Ang Bagong Bayani v. Comelec (June 26, 2001) -- party-list limited to marginalized and underrepresented",
+    "Veterans Party v. Comelec (Oct 6, 2000) -- 2% threshold; 20% allocation directory not mandatory",
+    "Atong Paglaum v. Comelec (April 2, 2013) -- Carpio reversal; no longer required to represent marginalized",
+    "Banat v. Comelec (April 21, 2009) -- Carpio: 20% allocation mandatory"
+  ],
+  "signature_phrases": [
+    "long (since 1992) and close, even if at times testy, friendship",
+    "we have agreed to disagree",
+    "of one mind on important national issues",
+    "without loss of face for China",
+    "win-win solutions",
+    "consistent with our Constitution",
+    "opening the party-list floodgates",
+    "we (and our spouses) remain the best of personal friends",
+    "95-percent harmony and overlooking our 5-percent cacophony",
+    "friends can differ without being difficult"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "CJ Diosdado M. Peralta (newly appointed)",
+      "Executive Secretary Salvador C. Medialdea",
+      "Senior Justice Antonio T. Carpio (retiring, testimonial honoree)",
+      "Ruth Carpio (Antonio Carpio's wife)",
+      "Leni Panganiban (CJ's wife)",
+      "Vice President Leni Robredo",
+      "Bongbong Marcos (former senator)",
+      "Karen Davila (ANC interviewer)",
+      "Justice Alfredo Benjamin S. Caguioa (PET member-in-charge)",
+      "President Rodrigo Duterte (appointing authority)",
+      "Outgoing CJ Lucas P. Bersamin",
+      "Xi Jinping (oblique -- China's posture)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Presidential Electoral Tribunal (PET)",
+      "Commission on Elections (Comelec)",
+      "GMA News",
+      "ANC",
+      "United Nations Secretary General",
+      "Chinese government"
+    ],
+    "cases": [
+      "Marcos v. Robredo (PET protest, ongoing)",
+      "Ang Bagong Bayani v. Comelec (June 26, 2001)",
+      "Veterans Party v. Comelec (Oct 6, 2000)",
+      "Atong Paglaum v. Comelec (April 2, 2013)",
+      "Banat v. Comelec (April 21, 2009)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (party-list provisions; PET jurisdiction)",
+      "China's April 13, 2009 Note Verbale (UN Secretary General)",
+      "PH-China Memorandum of Agreement (November 2018, 60-40 sharing)",
+      "PET Rules"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Duterte's choice of Peralta as CJ -- the most senior of the three nominees -- is consistent with the stated goal of 'instill[ing] stability' and assures a smooth transition because Peralta is an ideological partner of outgoing CJ Bersamin (voting together most but not all of the time).",
+      "rhetorical_move": "presidential-rationale-framing with caveat"
+    },
+    {
+      "claim": "Carpio's argument that the Bongbong-Leni protest should be dismissed outright (no 'substantial recovery' in Caguioa's report) is doctrinally clear, but CJ Panganiban argues 'without passing judgment on the merits' that due process must first be observed before the PET could act with finality.",
+      "rhetorical_move": "due-process-priority counter-argument"
+    },
+    {
+      "claim": "Alongside celebrating the WPS arbitral award, the Philippines should explore alternative ways to uphold sovereign rights -- particularly invoking China's never-denied April 13, 2009 Note Verbale and the November 2018 MoA (60-40 sharing) -- as win-win solutions allowing resource harvest 'without loss of face for China' and 'consistent with our Constitution.'",
+      "rhetorical_move": "alternative-paths to sovereign-rights enforcement"
+    },
+    {
+      "claim": "CJ's own party-list ponencias -- Veterans Party v. Comelec (Oct 6, 2000) and Ang Bagong Bayani v. Comelec (June 26, 2001), limiting the system to the marginalized and underrepresented and treating the 20% allocation as directory -- were reversed by Carpio after CJ's retirement in Atong Paglaum (April 2, 2013) and Banat (April 21, 2009), 'opening the party-list floodgates.'",
+      "rhetorical_move": "self-citation as overturned-doctrine source"
+    },
+    {
+      "claim": "Despite these doctrinal differences, the Carpios and Panganibans 'remain the best of personal friends, enjoying our 95-percent harmony and overlooking our 5-percent cacophony' -- 'friends can differ without being difficult.'",
+      "rhetorical_move": "personal-relations equilibrium aphorism"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Carpio testimonial dinner exchange: CJ describing a 'long (since 1992) and close, even if at times testy, friendship'; Carpio responding that 'we have agreed to disagree' on specific decisions adverse to a company where CJ is an independent director -- used as the column's setup for documenting the three disagreements.",
+    "Reader feedback aside: 'You're such good friends, have you really taken opposite sides?' -- modeling the column-as-public-correspondence register.",
+    "Closing aphorism: '95-percent harmony and overlooking our 5-percent cacophony... friends can differ without being difficult' -- the column's signature ending and the human counterweight to the doctrinal disagreements catalogued."
+  ],
+  "target_audience": [
+    "Carpio and Panganiban families and circle",
+    "New CJ Peralta and incoming SC observers",
+    "Civic readers tracking Bongbong-Leni protest and WPS dispute",
+    "Election-law and party-list specialists",
+    "Editorial commentators on the new Court composition"
+  ],
+  "register_markers": [
+    "testimonial-occasion register",
+    "personal-friendship anchoring (spouses named)",
+    "three-disagreement enumeration with full case citations",
+    "'without passing judgment on the merits' due-process disclaimer",
+    "self-citation of overturned party-list ponencias",
+    "'opening the party-list floodgates' as recurring CJ critique phrase",
+    "civic-aphorism closing ('friends can differ without being difficult')"
+  ],
+  "decision_framework_signals": [
+    "applies due-process priority over efficiency in election-protest disposition",
+    "uses alternative-paths framework for sovereign-rights enforcement (Note Verbale + MoA + arbitral award)",
+    "deploys self-citation of overturned doctrine to contrast judicial philosophies",
+    "frames party-list jurisprudence as gatekeeping question (marginalized representation vs floodgates)",
+    "treats personal friendship and doctrinal disagreement as fully compatible ('5% cacophony')"
+  ],
+  "one_paragraph_summary": "Panganiban congratulates newly appointed CJ Diosdado M. Peralta -- chosen by Duterte to 'instill stability,' and ideologically aligned with outgoing CJ Lucas P. Bersamin -- and then turns to his other reason for writing: documenting his 'long (since 1992) and close, even if at times testy, friendship' with Senior Justice Antonio T. Carpio. At Carpio's testimonial dinner, Carpio said the two were 'of one mind on important national issues' but had 'agreed to disagree' on a few specific occasions. CJ catalogues three disagreements. First, on the Bongbong-Leni election protest, Carpio dissented from the PET resolution requiring both parties to comment, arguing the protest should be dismissed outright since Caguioa's pilot-province report showed no 'substantial recovery'; CJ countered in GMA News and ANC interviews that 'without passing judgment on the merits,' due process must first be observed. Second, on the West Philippine Sea, while celebrating the arbitral award, CJ argues for alternative paths -- invoking China's never-denied April 13, 2009 Note Verbale (implied admission of PH maritime entitlements) and the November 2018 MoA for 60-40 sharing -- as win-win solutions allowing resource harvest 'without loss of face for China' and 'consistent with our Constitution.' Third, on the party-list system, Carpio reversed CJ's own ponencias (Veterans Party v. Comelec, Oct 6, 2000; Ang Bagong Bayani v. Comelec, June 26, 2001) in Atong Paglaum (April 2, 2013) and Banat (April 21, 2009), 'opening the party-list floodgates' by removing the marginalized-and-underrepresented requirement and making the 20% allocation mandatory. Despite these differences, the Carpios and Panganibans 'remain the best of personal friends, enjoying our 95-percent harmony and overlooking our 5-percent cacophony. Indeed, friends can differ without being difficult.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

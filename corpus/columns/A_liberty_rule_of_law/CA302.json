@@ -1,0 +1,123 @@
+{
+  "id": "CA302",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 302,
+  "title": "Ending martial law",
+  "date": "2017-08-27",
+  "link": "https://opinion.inquirer.net/106651/ending-martial-law",
+  "keywords": [
+    "martial law Mindanao",
+    "Duterte ML",
+    "Marawi siege",
+    "1987 Constitution",
+    "rebellion",
+    "habeas corpus",
+    "economic impact ML",
+    "normalization Mindanao"
+  ],
+  "primary_topics": [
+    "Assessment of martial law's limited operational necessity in suppressing the Marawi rebellion",
+    "Economic and reputational costs of prolonged martial law in Mindanao",
+    "Advocacy for early ML termination as a signal of normalization"
+  ],
+  "sub_topics": [
+    "Ninoy Aquino martyrdom anniversary (August 21, 1983) as ML remembrance backdrop",
+    "Constitutional constraints defanging Marcos-style ML under 1987 Charter",
+    "ML's two limited functions: warrantless arrest of rebels and 72-hour detention",
+    "Absence of implementing laws expanding presidential powers under ML",
+    "Bloated international recognition given to Maute/ISIS-linked Hapilon group by ML",
+    "Foreign tourist arrivals: national growth 12.73% vs Mindanao cancellations",
+    "Agricultural jobs and long-term investment suppressed by ML",
+    "Congress extension of ML to December 31, 2017",
+    "Military recommendation to terminate ML as final assault nears completion",
+    "Early ML lifting as signal: military competence, tourist return, investment revival"
+  ],
+  "signature_phrases": [
+    "bloated international recognition",
+    "from where I sit",
+    "ML has had, from where I sit, a limited role in suppressing the rebellion",
+    "I am just a humble retired jurist",
+    "The discretion on whether to impose ML is solely his, not mine",
+    "when guns speak, laws are silent",
+    "If he wanted to impose authoritarian rule, he would simply set aside the Constitution"
+  ],
+  "entities": {
+    "people": [
+      "President Rodrigo Duterte",
+      "Benigno Aquino III (former president, ML survivor leader)",
+      "Ninoy Aquino (martyred August 21, 1983)",
+      "Ferdinand Marcos",
+      "Isnilon Hapilon (ISIS-linked rebel leader)",
+      "Defense Secretary Delfin Lorenzana",
+      "Armed Forces Chief of Staff Eduardo Año",
+      "Solicitor General Jose C. Calida"
+    ],
+    "institutions": [
+      "Congress of the Philippines",
+      "Armed Forces of the Philippines",
+      "Maute Group",
+      "ISIS (Islamic State-connected)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Philippine Constitution -- martial law provisions"
+    ],
+    "events": [
+      "Ninoy Aquino martyrdom anniversary (August 21, 1983 / commemorated August 21, 2017)",
+      "Marawi siege (ongoing at time of writing)",
+      "Duterte's State of the Nation Address (July 24, 2017)",
+      "Congress extension of ML to December 31, 2017",
+      "Tourist arrivals: 3.36M first half 2017 (+12.73% national)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Martial law has had a limited role in suppressing the Marawi rebellion because its only concrete legal effects — facilitating warrantless arrest of rebels and extending detention from 36 to 72 hours — are marginal operational advantages relative to what the military could do anyway; Congress has not passed any implementing laws to expand presidential powers further.",
+      "rhetorical_move": "constitutional-minimalism argument: defanged ML + no implementing laws = exclamation point only",
+      "confidence": "asserted (citing SolGen Calida's own description of ML as 'exclamation point')"
+    },
+    {
+      "claim": "Prolonging ML has unintentionally 'bloated' the international reputation of the Maute and Hapilon groups, enabling them to attract more logistics, funding, and recruits — making ML extension counterproductive on its own strategic logic.",
+      "rhetorical_move": "unintended-consequences argument turning ML's own strategic rationale against itself",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Early termination of ML before December 31, 2017 would serve Duterte's own interests: signal military competence, normalize Mindanao, attract tourist and investment return, and do so without any legal barrier since no law prevents the President from lifting ML at any time.",
+      "rhetorical_move": "interest-alignment argument framing early lifting as politically rational for Duterte, not as criticism",
+      "confidence": "recommended"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Ninoy Aquino martyrdom anniversary commemoration at the Manila airport tarmac, Luneta, and Manila Memorial Park as the backdrop — former President Aquino III and ML survivors 'ominously warned against a repetition of ML' — providing the emotional-historical frame before pivoting to the constitutional analysis of why Duterte's ML is structurally different.",
+    "CJ quoting Solicitor General Calida's own Supreme Court statement that ML is just an 'exclamation point' — using the government's own characterization to argue that ML adds no real operational power and thus its costs outweigh its marginal benefits.",
+    "The foreign tourist growth paradox: national arrivals grew 12.73% in first-half 2017 to 3.36 million, but Mindanao saw cancellations specifically because foreign tourists still associate ML with its Marcos-era image of suspended rule of law — illustrating the reputational cost of ML independent of its actual constitutional constraints."
+  ],
+  "target_audience": [
+    "President Duterte and his administration as the primary implied audience",
+    "Military commanders considering a recommendation to lift ML",
+    "Civil society and business community in Mindanao affected by ML's economic impact",
+    "General civic readership following the Marawi siege and ML extension debate",
+    "Foreign investors and tourists as the indirect affected constituency"
+  ],
+  "register_markers": [
+    "deferential-address register to executive authority ('I am just a humble retired jurist. The discretion … is solely his')",
+    "interest-alignment persuasion (framing early ML lifting as rational for Duterte, not as criticism)",
+    "constitutional-minimalism register (defanged ML, no implementing laws, 72-hour limit)",
+    "economic-data citation (12.73% tourist growth nationally, Mindanao cancellations)",
+    "unintended-consequences framing ('bloated international recognition')",
+    "aphorism deployment ('when guns speak, laws are silent') as rhetorical accent",
+    "historical-memorial backdrop (Ninoy anniversary) as emotional-anchor opening"
+  ],
+  "decision_framework_signals": [
+    "applies constitutional-minimalism lens: measures ML's value by its actual legal effects (warrantless arrest + 72-hr detention) against its costs",
+    "uses unintended-strategic-consequences test: does ML achieve its own declared objective (suppress rebellion) or undermine it (by elevating rebels)?",
+    "treats absence of implementing legislation as a decisive limiting factor on ML's reach",
+    "frames the recommendation as interest-aligned advice to the executive, not normative criticism",
+    "uses economic-data triangulation (tourist arrivals, investment suppression, agricultural jobs) to monetize the cost of prolonged ML"
+  ],
+  "one_paragraph_summary": "Writing against the backdrop of the 34th anniversary of Ninoy Aquino's martyrdom and the ongoing Marawi siege, Panganiban argues that martial law has played only a marginal role in suppressing the Mindanao rebellion: the 1987 Constitution's defanged ML grants the President nothing beyond facilitating warrantless arrests of suspected rebels and extending detention from 36 to 72 hours, and Congress has not passed any implementing laws that would expand presidential powers further -- a point underlined by Solicitor General Calida's own characterization of ML as a mere 'exclamation point.' He argues that prolonging ML has backfired strategically by giving 'bloated international recognition' to the Maute and Hapilon groups, enabling them to attract more logistics, funding, and recruits, while also suppressing Mindanao tourism (even as national arrivals rose 12.73% in the first half of 2017) and chilling long-term investment and agricultural employment. Since the final assault on remaining rebels is underway and no law prevents the President from ending ML at any time before the December 31 deadline, Panganiban recommends early termination as a signal of military competence and Mindanao normalization -- framing the advice not as criticism of Duterte's prerogative but as interest-aligned counsel from 'a humble retired jurist.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,133 @@
+{
+  "id": "CA323",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 323,
+  "title": "Selection of SC justices in PH and US",
+  "date": "2017-01-22",
+  "link": "https://opinion.inquirer.net/101031/selection-sc-justices-ph-us",
+  "keywords": [
+    "JBC",
+    "SC appointments",
+    "Merrick Garland",
+    "Neil Gorsuch",
+    "Trump",
+    "Duterte",
+    "judicial selection",
+    "JBC composition",
+    "Congress representative"
+  ],
+  "primary_topics": [
+    "Comparison of the PH JBC-based SC appointment system vs the US Senate-confirmation process",
+    "The current JBC process: two new PH vacancies, composition, vetting criteria, contentious Congress-representative issue",
+    "The US Garland-Gorsuch standoff as a contrast case demonstrating the partisan nature of the US system"
+  ],
+  "sub_topics": [
+    "Two PH SC vacancies: Justices Perez (Dec. 16, 2016) and Brion (Dec. 29, 2016) -- 90-day constitutional deadline",
+    "JBC composition: CJ as ex officio chair, Secretary of Justice, one Congress representative; Integrated Bar, law professor, retired SC member, private sector representative",
+    "Current regular JBC members: Fernan-Cayosa, Mejia, Sandoval-Gutierrez, Ilao Jr.",
+    "Congress-representative controversy: split calendar year -- Sen. Gordon (second half 2016), Rep. Umali (first half 2017)",
+    "Umali's SC petition (Dec. 29, 2016): allow Congress two votes, claiming Charter expected unicameral legislature",
+    "Constitutional vetting criteria: natural-born, 40+ years old, 15+ years as judge/law practice; four traits: proven competence, integrity, probity, independence",
+    "US: presidential nomination + Senate confirmation; no JBC, no four-trait requirement, no 90-day deadline",
+    "Garland nominated by Obama (D) -- ignored by Republican Senate for full year",
+    "Trump vowed 'textualist, originalist, conservative' nominee within two weeks of inauguration",
+    "Closing question: 'You be the judge'"
+  ],
+  "signature_phrases": [
+    "Shortly, both President Duterte and US President Donald Trump will name new justices to their respective Supreme Courts",
+    "To insulate the Court from partisan politics and learning from the sad experiences under the martial law regime",
+    "proven competence, integrity, probity and independence",
+    "The nomination a year ago by US President Barack Obama... was not acted upon by the Republican-dominated US Senate",
+    "a textualist, originalist, and conservative",
+    "Which is the better (or worse) system? You be the judge"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "President Rodrigo Duterte",
+      "US President Donald Trump",
+      "Justice Jose P. Perez (retired Dec. 16, 2016)",
+      "Justice Arturo D. Brion (retired Dec. 29, 2016)",
+      "Maria Milagros N. Fernan-Cayosa (JBC regular member)",
+      "Jose V. Mejia (JBC regular member)",
+      "Angelina Sandoval-Gutierrez (JBC regular member)",
+      "Toribio E. Ilao Jr. (JBC regular member)",
+      "Sen. Richard Gordon (JBC second half 2016)",
+      "Rep. Reynaldo Umali (JBC first half 2017; SC petitioner)",
+      "Merrick B. Garland (Obama SC nominee, not confirmed)",
+      "Justice Antonin Scalia (died Feb. 13, 2016)",
+      "Judge Neil Gorsuch (Trump nominee)",
+      "President Barack Obama"
+    ],
+    "institutions": [
+      "Judicial and Bar Council (JBC)",
+      "Supreme Court of the Philippines",
+      "US Supreme Court",
+      "US Senate",
+      "Commission on Appointments (PH historical)",
+      "Integrated Bar of the Philippines"
+    ],
+    "cases": [
+      "Umali's SC petition (Dec. 29, 2016)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- JBC provisions (Art. VIII Sec. 8); 90-day appointment deadline (Art. VIII Sec. 9)",
+      "US Constitution -- presidential nomination and Senate confirmation"
+    ],
+    "events": [
+      "Perez retirement (Dec. 16, 2016)",
+      "Brion retirement (Dec. 29, 2016)",
+      "Scalia death (Feb. 13, 2016)",
+      "Garland nomination blocked by Republican Senate",
+      "Trump inauguration (Jan. 20, 2017)",
+      "Umali SC petition (Dec. 29, 2016)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The PH JBC system is superior to the US Senate-confirmation process in three structural ways: it insulates justices from partisan politics by limiting presidential choices to a JBC shortlist, mandates four positive traits (competence, integrity, probity, independence), and imposes a 90-day deadline.",
+      "rhetorical_move": "three-structural-advantage framing of the PH system",
+      "confidence": "implied ('You be the judge' withholds explicit endorsement)"
+    },
+    {
+      "claim": "The contentious Congress-representative issue -- shifting between half-vote, full-vote, and split-calendar-year arrangements -- reflects an unresolved constitutional ambiguity, with Umali's petition raising legitimate fairness concerns.",
+      "rhetorical_move": "constitutional-ambiguity documentation without taking sides",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The US Senate's one-year refusal to act on Garland's nomination is the most concrete example of partisan capture of judicial selection -- demonstrating exactly the vice the PH JBC system was designed to prevent.",
+      "rhetorical_move": "negative-exemplar argument (Garland as what PH avoids)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Republican Senate refusing for an entire year to act on Merrick Garland's nomination -- the most vivid demonstration of US partisan judicial selection.",
+    "Rep. Umali's complaint that his first-half-2017 JBC slot missed all four SC vacancies (two in December 2016, two in July-August 2017) -- making his participation purely ceremonial, motivating his SC petition.",
+    "Trump's vow to name a 'textualist, originalist, and conservative' -- openly partisan judicial philosophy criteria implicitly contrasted with the JBC's four neutral traits."
+  ],
+  "target_audience": [
+    "Legal academics and SC observers comparing judicial selection systems",
+    "JBC members and reform advocates",
+    "Civic readers watching Duterte's SC appointments",
+    "Comparative law scholars and US politics followers"
+  ],
+  "register_markers": [
+    "parallel-timing hook (Duterte and Trump both naming justices simultaneously)",
+    "JBC-composition enumeration (full membership listed)",
+    "Congress-representative controversy narrated neutrally",
+    "Garland-as-negative-exemplar framing",
+    "'You be the judge' as deliberately open closing question",
+    "90-day-constitutional-deadline as PH advantage marker"
+  ],
+  "decision_framework_signals": [
+    "applies three-structural-advantage test (shortlist, four traits, deadline) to compare PH vs US systems",
+    "treats partisan-capture-of-nomination (Garland blocked) as the primary vice the JBC was designed to prevent",
+    "uses constitutional-ambiguity documentation for Congress-representative issue without prescribing resolution",
+    "deploys 'You be the judge' as a reader-engagement device that withholds CJ's comparative preference"
+  ],
+  "one_paragraph_summary": "Panganiban uses the simultaneous SC appointment processes of Duterte (two vacancies from Perez's and Brion's December 2016 retirements) and Trump (Scalia's February 2016 vacancy) to compare the PH JBC system with the US Senate-confirmation process. The PH system -- designed to insulate the Court from partisan politics after the Marcos martial law experience -- limits presidential choices to a JBC shortlist of at least three nominees, mandates four traits (proven competence, integrity, probity, independence), and imposes a 90-day deadline. The JBC composition includes the CJ as ex officio chair, the Secretary of Justice, a Congress representative (currently split: Sen. Gordon for second half 2016, Rep. Umali for first half 2017), plus four regular members (Fernan-Cayosa, Mejia, Sandoval-Gutierrez, Ilao Jr.). Umali filed an SC petition on December 29, 2016 seeking two Congress votes, claiming the Charter was written expecting a unicameral legislature. The US system requires presidential nomination and Senate confirmation -- and lacks a JBC, four-trait mandate, or deadline. The Republican Senate refused to act on Obama's Garland nomination for a full year; Trump vowed to name a 'textualist, originalist, and conservative' within two weeks of his January 20 inauguration. CJ closes: 'Which is the better (or worse) system? You be the judge.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

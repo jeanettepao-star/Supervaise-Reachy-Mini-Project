@@ -1,0 +1,168 @@
+{
+  "id": "CE065",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 65,
+  "title": "Trump's impeachment: judicial or political?",
+  "date": "2020-01-26",
+  "link": "https://opinion.inquirer.net/126892/trumps-impeachment-judicial-or-political",
+  "keywords": [
+    "Trump Senate impeachment trial",
+    "judicial or political impeachment",
+    "sui generis impeachment",
+    "McConnell partisan defense",
+    "abuse of power high crimes and misdemeanors"
+  ],
+  "primary_topics": [
+    "Whether US presidential impeachment is a judicial or political process -- and how that classification governs Trump's fate",
+    "Substance of the two impeachment articles: (1) abuse of power (Ukraine aid withholding tied to Biden investigation); (2) obstruction of the House investigation",
+    "Republican (Trump-camp) argument led by Alan Dershowitz and Kenneth Starr: articles fail to allege 'treason, bribery, or other high crimes and misdemeanors'",
+    "Democratic counter: abuse of power was the principal reason the framers conceived of impeachment",
+    "Senate Majority Leader Mitch McConnell's openly partisan stance and rejection of House subpoena/witness/document requests",
+    "Vote arithmetic and historical context (Democrats need 67 to oust; House passed articles 228-193)",
+    "CJ's central thesis: impeachment is neither purely judicial nor purely political but sui generis -- judicial in its search for truth, political in its pursuit of the public weal"
+  ],
+  "sub_topics": [
+    "99 of 100 US senators (Inhofe absent) sworn before CJ John Roberts to 'do impartial justice'",
+    "Article 1: Trump 'abused his power' by withholding economic and military aid to Ukraine unless that country investigated Biden's alleged misconduct",
+    "Article 2: Trump obstructed the House investigation by stopping White House assistants from testifying",
+    "Trump-camp argument: the articles fail to allege any violation of law and therefore fall short of 'treason, bribery, or other high crimes and misdemeanors'",
+    "Democratic counter: 'abuse of power' was precisely the framers' principal reason for inventing impeachment",
+    "McConnell's openly partisan posture: announced support for Trump as a matter of party discipline even before the articles were filed",
+    "McConnell's failed early call for summary dismissal without trial (retreated after Republican-senator dissuasion)",
+    "Senate composition: 53 R, 45 D, 2 independents -- McConnell secured the majority's rejection of House subpoena requests",
+    "House composition: 235 D, 199 R, 1 independent -- articles passed 228-193 largely along party lines",
+    "Ouster threshold: 67 votes (2/3) required -- all 45 Democrats + 2 independents + 20 Republicans needed; 'Definitely a tough job!'",
+    "CJ's institutional argument: if purely judicial, the impeachment trial should have been lodged in the Supreme Court or an independent legal body -- not the Senate composed of individuals with varied education, training, calling, and social status",
+    "CJ's purpose argument: impeachment empowers Congress to discipline officials who 'become unworthy of their trust'",
+    "Sui generis characterization: 'judicial in its search for truth and political in its pursuit of the public weal'",
+    "Closing: 'a veneer of legalism' over 'an imbedded core of public wisdom'; the world (including the Philippines) is 'keenly watching this public display of the American brand of democracy and sense of fairness, decency, integrity and accountability'"
+  ],
+  "signature_phrases": [
+    "the bedeviling question",
+    "swearing they 'will do impartial justice'",
+    "Bragging that impeachment is a political process",
+    "as a matter of party discipline",
+    "To paraphrase his tit-for-tat argument",
+    "Definitely a tough job!",
+    "In my humble opinion, impeachment is neither purely judicial nor purely political; it is sui generis with its own unique genre",
+    "the labyrinths of the law",
+    "alter egos to enact laws and to discipline those who have become unworthy of their trust",
+    "shrouded in constitutional undertones, legal rituals and judicial formalities",
+    "Reason and logic, emotion and passion there would be",
+    "their sense of what is beneficial for the folks back home",
+    "judicial in its search for truth and political in its pursuit of the public weal",
+    "neither overwhelmingly legalistic as claimed by the legalists nor blindly partisan as perceived by McConnell",
+    "It may show a veneer of legalism, but it has an imbedded core of public wisdom",
+    "the American brand of democracy and sense of fairness, decency, integrity and accountability"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Donald Trump (US President, impeached)",
+      "Joe Biden (probable Democratic rival; Ukraine aid issue)",
+      "Bill Clinton (1999 impeachment comparator)",
+      "CJ John Roberts (presiding officer of US Senate trial)",
+      "Sen. Mitch McConnell (US Senate Majority Leader)",
+      "Sen. James Inhofe (sole absentee from the impartial-justice oath)",
+      "Alan Dershowitz (Trump defense counsel; former Clinton-impeachment lawyer)",
+      "Kenneth Starr (Trump defense counsel; former Clinton-impeachment lawyer)"
+    ],
+    "institutions": [
+      "US Senate (100 senators; 53 R, 45 D, 2 I)",
+      "US House of Representatives (235 D, 199 R, 1 I)",
+      "United States Supreme Court (CJ John Roberts as Senate-trial presiding officer)",
+      "Republican Party (Senate majority)",
+      "Democratic Party (Senate minority)",
+      "White House (assistants barred from testifying)",
+      "Ukraine (foreign-aid recipient)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "US Constitution -- impeachment grounds clause ('treason, bribery, or other high crimes and misdemeanors')",
+      "US Constitution -- House (impeach) / Senate (try and oust) division of labor",
+      "US Constitution -- 2/3 Senate ouster threshold"
+    ],
+    "events": [
+      "Trump's withholding of economic and military aid to Ukraine pending a Biden investigation",
+      "House passage of articles of impeachment (228-193, largely partisan)",
+      "Swearing-in of 99 US senators (Inhofe absent) by CJ Roberts to 'do impartial justice'",
+      "McConnell's pre-filing announcement of support for Trump 'as a matter of party discipline'",
+      "McConnell's failed early call for summary dismissal",
+      "Bill Clinton's 1999 impeachment trial (comparator with Dershowitz/Starr involvement)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Trump impeachment trial raises the 'bedeviling question' of whether impeachment is a judicial or political process -- and how that classification is answered will partly determine Trump's fate.",
+      "rhetorical_move": "frame-setting question opening that organizes the entire column's analysis",
+      "confidence": "framed as inquiry"
+    },
+    {
+      "claim": "Evidence for the judicial framing includes the swearing-in of 99 senators before CJ John Roberts to 'do impartial justice,' the existence of two articles of impeachment alleging discrete misconduct (Ukraine aid abuse and obstruction of House investigation), and the Trump-camp's legalistic argument (led by Alan Dershowitz and Kenneth Starr) that the articles fail to allege violations of 'treason, bribery, or other high crimes and misdemeanors.'",
+      "rhetorical_move": "evidence-for-judicial enumeration to balance against political evidence below",
+      "confidence": "reported"
+    },
+    {
+      "claim": "Evidence for the political framing includes Senate Majority Leader Mitch McConnell's open announcement of Trump support 'as a matter of party discipline' before the articles were even filed, his failed early call for summary dismissal without trial, his successful blockade of House subpoena/witness/document requests, and his tit-for-tat argument that if the Democratic-majority House could impeach, the Republican-majority Senate can acquit.",
+      "rhetorical_move": "evidence-for-political enumeration symmetric to the judicial side",
+      "confidence": "reported"
+    },
+    {
+      "claim": "Impeachment is neither purely judicial nor purely political; it is sui generis with its own unique genre. If it were purely judicial, the trial would have been lodged in the Supreme Court or in an independent legal body -- but the framers lodged it in the House (impeach) and Senate (try/oust), composed of individuals elected from varied education, training, calling, and social status to act as the people's alter egos to enact laws and discipline officials who 'have become unworthy of their trust.'",
+      "rhetorical_move": "institutional-design argument grounded in where the framers placed the trial",
+      "confidence": "asserted as 'In my humble opinion'"
+    },
+    {
+      "claim": "While impeachment may be 'shrouded in constitutional undertones, legal rituals and judicial formalities,' the ultimate decision is one of policy: will the senators' constituencies be served better by retaining or ousting the impeached official? The senators' judgment will always be justified by their sense of what is beneficial for the folks back home -- reason and logic, emotion and passion all in play.",
+      "rhetorical_move": "policy-decision characterization of the substantive question beneath the legal form",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "At bottom, impeachment is judicial in its search for truth and political in its pursuit of the public weal -- neither overwhelmingly legalistic as claimed by the legalists nor blindly partisan as perceived by McConnell. It shows 'a veneer of legalism' over 'an imbedded core of public wisdom.'",
+      "rhetorical_move": "twin-aphorism synthesis (judicial-search-for-truth + political-pursuit-of-public-weal)",
+      "confidence": "asserted as conclusion"
+    }
+  ],
+  "notable_anecdotes": [
+    "The ironic re-emergence of Alan Dershowitz and Kenneth Starr -- 'the celebrated lawyers against former US president Bill Clinton, a Democrat, during his own impeachment in 1999' -- now defending Trump, a Republican; a historical reversal CJ uses to underline how impeachment defense crosses partisan lines over time.",
+    "McConnell's pre-articles announcement that he was standing by Trump 'as a matter of party discipline' -- a single rhetorical fact that crystallizes the political-framing of the trial, used by CJ as the symmetric counterweight to the senatorial 'impartial justice' oath.",
+    "Senator James Inhofe's solitary absence from the swearing-in of 99 senators -- a tiny but precise detail anchoring the ceremonial-judicial framing in concrete numbers (99 out of 100).",
+    "The 'tit-for-tat' formulation -- 'if the Democratic majority in the House could impeach Trump, so can the Republicans majority in the Senate acquit him' -- used to capture McConnell's logic in a single line that CJ then rebuts via the sui generis thesis.",
+    "The vote-arithmetic punchline -- 67 votes (2/3) required to oust, meaning all 45 Democrats + 2 independents + at least 20 Republicans must vote together -- followed by the deadpan exclamation 'Definitely a tough job!' -- a rare CJ humor beat in an otherwise doctrinal column.",
+    "The closing vista -- the peoples of the world, 'including us,' are 'keenly watching this public display of the American brand of democracy and sense of fairness, decency, integrity and accountability' -- turning the analysis into a planetary civic-observation moment."
+  ],
+  "target_audience": [
+    "Filipino readers following US politics ahead of the Senate vote",
+    "Constitutional-law students wrestling with the judicial-vs-political characterization of impeachment",
+    "Senators and House members who will use this framing in future PH impeachment proceedings",
+    "Comparative-constitutional commentators and political scientists",
+    "Editorial readers across the Inquirer's general audience",
+    "Civic readers interested in the 'American brand of democracy'"
+  ],
+  "register_markers": [
+    "frame-setting question opening ('the bedeviling question of whether...')",
+    "'In my humble opinion' as the signature deference marker",
+    "Latin terminology ('sui generis,' 'alter egos')",
+    "twin-aphorism synthesis ('judicial in its search for truth and political in its pursuit of the public weal')",
+    "chiastic doublet on legalism/wisdom ('a veneer of legalism, but... an imbedded core of public wisdom')",
+    "vote-arithmetic register punctuated with humor ('Definitely a tough job!')",
+    "named-counsel attribution (Dershowitz, Starr) with historical-reversal aside",
+    "world-is-watching closing vista on the 'American brand of democracy'",
+    "constitutional-textual citation ('treason, bribery, or other high crimes and misdemeanors')",
+    "Spanish/Latin doctrinal terms threaded through plain prose"
+  ],
+  "decision_framework_signals": [
+    "applies sui generis classification to impeachment as a doctrinal third way between judicial and political",
+    "uses institutional-design analysis (where the framers placed the trial) to reject the purely-judicial framing",
+    "treats impeachment's substantive question as a policy decision about constituency interest, even within legal form",
+    "frames the trial outcome as a function of vote arithmetic conditioned on judgments about 'the folks back home'",
+    "uses comparative historical context (Clinton 1999 with same defense counsel) to underscore the cross-partisan trans-temporal pattern",
+    "applies twin-aphorism synthesis ('search for truth' + 'pursuit of public weal') as the doctrinal-political balancing act",
+    "anchors closing perspective in international observation as a civic-accountability lever"
+  ],
+  "one_paragraph_summary": "Panganiban opens with the 'bedeviling question' of whether the ongoing US Senate impeachment trial of President Donald Trump is a judicial or political process -- and how the classification governs Trump's fate. Evidence for the judicial framing: 99 of 100 senators (only Inhofe absent) were sworn before CJ John Roberts to 'do impartial justice,' and the two articles allege discrete misconduct (Article 1: abuse of power by withholding economic and military aid to Ukraine unless Biden's alleged misconduct was investigated; Article 2: obstruction of the House investigation by barring White House assistants from testifying). The Trump-camp legal argument -- led by Alan Dershowitz and Kenneth Starr, the celebrated lawyers against Bill Clinton in 1999 -- is that the articles fail to allege any violation of law and therefore fall short of the constitutional grounds of 'treason, bribery, or other high crimes and misdemeanors,' while Democrats counter that 'abuse of power' was the principal framers' reason for inventing impeachment. Evidence for the political framing: Senate Majority Leader Mitch McConnell openly announced his support for Trump 'as a matter of party discipline' before the articles were even filed, asked for summary dismissal without trial (retreating after Republican-senator dissuasion), and secured the Senate's rejection of the House's subpoena requests for witnesses and documents Trump had barred -- arguing tit-for-tat that if the Democratic-majority House (228-193 along largely party lines) could impeach, the Republican-majority Senate can acquit. The 67-vote ouster threshold (2/3) means all 45 Democrats + 2 independents + at least 20 Republicans must vote together -- 'Definitely a tough job!' CJ's thesis: impeachment is neither purely judicial nor purely political but sui generis with its own unique genre. If purely judicial, the trial would have been lodged in the Supreme Court or an independent legal body -- but the framers placed it in the House and Senate, composed of individuals from varied education, training, calling, and social status, elected as 'the people's alter egos to enact laws and to discipline those who have become unworthy of their trust.' Beneath the constitutional undertones, legal rituals, and judicial formalities lies a policy question -- will the senators' constituencies be served better by retaining or ousting? -- answered through reason, logic, emotion, and passion, but always justified by senators' sense of what is beneficial for the folks back home. At bottom, impeachment is 'judicial in its search for truth and political in its pursuit of the public weal' -- neither overwhelmingly legalistic as the legalists claim nor blindly partisan as McConnell perceives. It shows 'a veneer of legalism' over 'an imbedded core of public wisdom' -- and the peoples of the world, including the Philippines, are keenly watching this public display of the American brand of democracy and sense of fairness, decency, integrity, and accountability.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

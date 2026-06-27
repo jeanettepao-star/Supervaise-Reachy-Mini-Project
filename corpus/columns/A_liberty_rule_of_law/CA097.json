@@ -1,0 +1,158 @@
+{
+  "id": "CA097",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 97,
+  "title": "Was the Smartmatic election system rigged?",
+  "date": "2023-08-28",
+  "link": "https://opinion.inquirer.net/165859/was-the-smartmatic-election-system-rigged",
+  "keywords": [
+    "Smartmatic",
+    "VCMs",
+    "Eliseo Rio",
+    "Lagman",
+    "192.168.0.2",
+    "mandamus",
+    "2022 election integrity"
+  ],
+  "primary_topics": [
+    "Rio-Lagman-Ysaac SC petition challenging the 2022 May 9 Smartmatic transmission of 20M+ votes in one hour",
+    "Mootness analysis of the time-bound TRO and preliminary mandatory injunction prayers",
+    "Mandamus standards under Rule 65 Section 3 and the 'specifically enjoined as a duty' test",
+    "The IP 192.168.0.2 mystery and the alleged single-private-IP transmission anomaly",
+    "Three remedial paths: SC discretion to require comment; refiled prohibition petition; congressional inquiry"
+  ],
+  "sub_topics": [
+    "Nov. 3, 2022 filing of the 'politically neutral urgent petition' in the Supreme Court",
+    "Voter procedure recap: shading ovals → VCMs → automatic tabulation → election returns",
+    "Three canvassing points and instantaneous transmission with no public witness of the count",
+    "Three specific prayers: TRO preserving data 7 PM-9 PM May 9, preliminary mandatory injunction, final writ of mandamus",
+    "Court's All Saints' Day leave + Saturday/Sunday timing on the 6-day-window request",
+    "Court's continuing silence as IMHO denial",
+    "Rule 65 Section 3 mandamus standard: respondents 'unlawfully neglect the performance of an act which the law specifically enjoins as a duty'",
+    "Three rays of light: (a) SC may relax rules and require comment; (b) amend to a prohibition petition with facts; (c) congressional inquiry in aid of legislation",
+    "Alleged post-facto Comelec media admission that the 20M votes transmitted through 'single, private, internet protocol address 192.168.0.2,' not through telcos",
+    "CJ's explicit non-doubt of the 2022 results for Marcos Jr. and Sara Duterte"
+  ],
+  "signature_phrases": [
+    "highly improbable if not impossible",
+    "FROM THE FOREGOING, THESE CONCLUSIONS APPEAR INDUBITABLE",
+    "moot and academic",
+    "I can't blame the Court",
+    "the Court has been silent, implying, IMHO, a denial",
+    "THE FUTURE OF THE PETITION IS DARK",
+    "yet I can see three rays of light",
+    "BACKED UP BY FACTS AND TRUTHS, not by mere allegations, suspicions, or speculations",
+    "POST FACTO admission",
+    "the IP 192.168.0.2 mystery",
+    "If indeed it is vulnerable, let Comelec change it to a better system"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Eliseo Rio Jr.",
+      "Augusto Lagman",
+      "Franklin Ysaac",
+      "Ferdinand Marcos Jr.",
+      "Sara Duterte"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Commission on Elections (Comelec)",
+      "Smartmatic",
+      "Smart Communications",
+      "Globe Telecom",
+      "Dito Telecommunity",
+      "Congress of the Philippines"
+    ],
+    "cases": [
+      "Rio, Lagman, and Ysaac v. Comelec et al. (SC petition filed Nov. 3, 2022)"
+    ],
+    "laws_treaties": [
+      "Rules of Court, Rule 65, Section 3 (mandamus)"
+    ],
+    "events": [
+      "May 9, 2022 presidential election",
+      "Nov. 3, 2022 SC petition filing",
+      "All Saints' Day SC leave (Nov. 1-2)",
+      "Nov. 5-6, 2022 weekend overlap"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Rio-Lagman-Ysaac petition has become moot and academic because the prayers for TRO and preliminary mandatory injunction were time-bound to a six-day window from Nov. 3 to Nov. 9, 2022 -- a window that included the SC's All Saints' Day leave and a weekend, making instant action infeasible.",
+      "rhetorical_move": "mootness-by-procedural-arithmetic (the dates make the relief impossible regardless of merit)",
+      "confidence": "asserted with calendar-math support"
+    },
+    {
+      "claim": "The mandamus prayer for data preservation 'for posterity' fails Rule 65 Section 3's 'specifically enjoined as a duty' test -- the petition does not establish that the Comelec and private telcos have a ministerial duty to preserve the historically-important data.",
+      "rhetorical_move": "statutory-standard-application (the rule's elements aren't met)",
+      "confidence": "asserted with rule citation"
+    },
+    {
+      "claim": "The SC's continuing silence on the petition implies, in CJ's humble opinion, a denial of the two prayers -- but the SC may at sole discretion still relax the rules and require comment without giving due course.",
+      "rhetorical_move": "silence-as-denial interpretation with discretionary-escape valve",
+      "confidence": "asserted with IMHO marker"
+    },
+    {
+      "claim": "A better legal strategy is to withdraw and refile as a petition for prohibition to stop future Smartmatic use -- but only if 'BACKED UP BY FACTS AND TRUTHS, not by mere allegations, suspicions, or speculations.'",
+      "rhetorical_move": "strategic-redirection with evidentiary-discipline demand",
+      "confidence": "asserted as alternative path"
+    },
+    {
+      "claim": "The alleged Comelec post-facto media admission that the 20M votes transmitted through 'single, private, internet protocol address 192.168.0.2' instead of through the telcos is a critical fact that could undergird the new prohibition petition or a congressional inquiry in aid of legislation.",
+      "rhetorical_move": "factual-pivot framing (one new fact reframes the legal options)",
+      "confidence": "asserted as contingent-on-verification"
+    },
+    {
+      "claim": "CJ does not doubt the 2022 election results, specifically the majority votes for Marcos Jr. and Sara Duterte -- his three suggestions are explicitly aimed at 'clearing up the doubts created by the media frenzy,' not undermining the outcome.",
+      "rhetorical_move": "explicit-disclaimer framing (separating doubt-clearing from result-doubting)",
+      "confidence": "explicitly disclaimed"
+    },
+    {
+      "claim": "If the Smartmatic system is indeed vulnerable to rigging, hacking, cheating, fraud, or preloading, then Comelec should 'change it to a better system' -- a conditional reform recommendation.",
+      "rhetorical_move": "conditional reform proposal (the if-vulnerable-then-replace contingency)",
+      "confidence": "asserted as policy contingency"
+    }
+  ],
+  "notable_anecdotes": [
+    "The petitioners (Rio, Lagman, Ysaac) self-styled their filing 'politically neutral urgent petition' -- CJ uses the label sympathetically while still finding the legal vehicle defective.",
+    "The 6-day-window collision with the SC calendar: petition filed Nov. 3, asks for action by Nov. 9 -- but Nov. 1-2 was the SC's regular All Saints' Day leave and Nov. 5-6 was a weekend, leaving effectively only Nov. 7-9 as working days.",
+    "The IP 192.168.0.2 admission is treated as the central new fact since the petition's filing -- CJ flags it as 'POST FACTO admission ... made via media only recently and thus not included in the original petition.'",
+    "Three remedial paths laid out as 'three rays of light' against the otherwise 'dark' future of the petition -- CJ structures the column to leave the petitioners with options rather than just an obituary.",
+    "Disclaimer paragraph at the close: 'I do not doubt the election results particularly the more than majority votes obtained by President Ferdinand Marcos Jr. and Vice President Sara Duterte' -- a clear separation of legal critique from result-validation, given that CJ's column will reach both pro- and anti-administration audiences."
+  ],
+  "target_audience": [
+    "Election lawyers and Comelec watchers",
+    "Petitioners Rio, Lagman, Ysaac and similarly-positioned advocates",
+    "Members of Congress considering election-system inquiries",
+    "Civic readers concerned about election integrity",
+    "SC watchers tracking the petition's silent fate",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "Title-as-question framing ('Was the Smartmatic election system rigged?')",
+    "ALL-CAPS pivot openings ('FROM THE FOREGOING, THESE CONCLUSIONS APPEAR INDUBITABLE,' 'THOUGH, IMHO, THE FUTURE OF THE PETITION IS DARK')",
+    "(A)/(B) lettered enumeration of conclusions",
+    "First/Second/Third structural device for the 'three rays of light'",
+    "Caps emphasis on demand ('BACKED UP BY FACTS AND TRUTHS,' 'POST FACTO admission')",
+    "IMHO humility marker (twice)",
+    "Direct citation of Rule 65 Section 3 with quoted text",
+    "Verbatim reproduction of the three petition prayers with internal punctuation preserved",
+    "Disclaimer paragraph format ('To be clear, I do not doubt ...')",
+    "Conditional closer ('If indeed it is vulnerable, let Comelec change it')"
+  ],
+  "decision_framework_signals": [
+    "uses mootness-by-procedural-arithmetic to assess whether a time-bound petition has become legally academic",
+    "applies Rule 65 Section 3's 'specifically enjoined as a duty' test to evaluate mandamus prayers",
+    "uses silence-as-denial inference to characterize SC inaction on pending petitions",
+    "distinguishes facts-and-truths petitions from allegation-and-speculation petitions as evidentiary discipline",
+    "treats post-facto admissions as basis for refiled petitions with stronger factual foundation",
+    "offers procedural-strategic alternatives (refile as prohibition; congressional inquiry) rather than only denying relief",
+    "uses explicit-disclaimer framing to separate critique-of-legal-vehicle from doubt-of-results"
+  ],
+  "one_paragraph_summary": "Panganiban analyzes the Nov. 3, 2022 Supreme Court 'politically neutral urgent petition' by Eliseo Rio Jr., Augusto Lagman, and Franklin Ysaac alleging that it was 'highly improbable if not impossible' for VCMs to count and transmit over 20 million votes in the first hour after the May 9, 2022 polls closed -- implying that results were rigged or preloaded. He walks through the three prayers -- a TRO preserving 7 PM-9 PM May 9 data, an after-due-hearing preliminary mandatory injunction directing Comelec and the telcos (Smart, Globe, Dito) to deliver records to the SC, and a final writ of mandamus directing preservation 'for posterity' -- and finds the petition 'moot and academic' because the relief sought was time-bound to a six-day window (Nov. 3-9, 2022) that included the SC's All Saints' Day leave and a weekend ('I can't blame the Court'), making instant action infeasible. The mandamus prayer also fails Rule 65 Section 3's 'specifically enjoined as a duty' test because the petition did not establish that data preservation is a ministerial duty of Comelec or the telcos. Though the petition's future is 'dark,' CJ sees 'three rays of light': (1) the SC may at sole discretion still relax the rules and require comment without giving due course; (2) the petitioners may withdraw and refile as a petition for prohibition to stop future Smartmatic use, 'BACKED UP BY FACTS AND TRUTHS, not by mere allegations,' particularly the alleged post-facto Comelec media admission that the 20M votes transmitted through 'single, private, internet protocol address 192.168.0.2' rather than through the telcos; or (3) Congress may launch an inquiry into the IP 192.168.0.2 mystery in aid of legislation to amend election laws. He explicitly disclaims any doubt of the 2022 results -- particularly Marcos Jr.'s and Sara Duterte's majorities -- emphasizing that his three suggestions are aimed at clearing the doubts produced by the media frenzy: 'If indeed it is vulnerable, let Comelec change it to a better system.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

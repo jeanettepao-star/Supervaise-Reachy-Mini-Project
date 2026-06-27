@@ -1,59 +1,133 @@
 {
   "id": "CB007",
+  "format": "C",
   "type": "column",
   "theme": "B",
   "theme_label": "Prosperity and Economic Philosophy",
   "number": 7,
   "title": "SC decisions on the economy",
   "date": "2013-04-27",
-  "year": 2013,
-  "source_url": "https://opinion.inquirer.net/51551/sc-decisions-on-the-economy",
-  "routing": {
-    "primary_intent": [
-      "legal_education",
-      "opinions"
+  "link": "https://opinion.inquirer.net/51551/sc-decisions-on-the-economy",
+  "keywords": [
+    "Manila Prince Hotel vs GSIS",
+    "La Bugal FTAA",
+    "Gamboa vs Teves",
+    "PSALM water rights",
+    "constitutional interpretation",
+    "national patrimony",
+    "foreign investment",
+    "Scalia Kennedy originalism"
+  ],
+  "primary_topics": [
+    "Four landmark SC decisions on the economic provisions of the 1987 Constitution",
+    "Policy volatility in mining as a deterrent to long-term foreign investment",
+    "Originalism vs liberal constitutional interpretation in economic jurisprudence"
+  ],
+  "sub_topics": [
+    "Manila Prince Hotel vs GSIS (Feb. 3, 1997): Filipino preference in national economy and patrimony -- CJ Panganiban dissent",
+    "La Bugal-B'laan vs Ramos: Jan. 27, 2004 (8-5) struck down Mining Law; Dec. 1, 2004 (10-4) reversal upholding FTAA -- CJ wrote the reversal",
+    "Gamboa vs Teves (June 28, 2011): 40% foreign ownership limit computed on voting shares only",
+    "Initiatives for Dialogue vs PSALM (Oct. 9, 2012): river water as national resource; water in dam = private",
+    "Justice Azcuna as 1 of 10 holders of Chief Justice Panganiban Professorial Chair on Liberty and Prosperity",
+    "Mining Law policy volatility preventing industry growth",
+    "CJ's dissent in Manila Prince: hotel not part of national patrimony; public bidding subverted",
+    "Two methods of constitutional interpretation: original intent vs liberal/living constitution",
+    "Scalia's originalism: US Constitution only, no international law",
+    "Kennedy agreeing to speak at 2006 Global Forum on Liberty and Prosperity via video teleconference"
+  ],
+  "signature_phrases": [
+    "the scores are tied. But not when the ballgame is over and the foreigners clearly posted the highest score",
+    "full control and supervision of the State",
+    "ultimate full control remained with the President",
+    "festering policy volatility",
+    "Mr. Chief Justice, you do not really want me there",
+    "I swore to defend and implement the US Constitution and nothing else",
+    "Please see my friend next door, Justice Anthony Kennedy"
+  ],
+  "entities": {
+    "people": [
+      "Justice Adolfo S. Azcuna (lecturer, 1986 ConCom member, Philja chancellor)",
+      "Justice Josue N. Bellosillo (Manila Prince ponente)",
+      "CJ Andres R. Narvasa (Manila Prince dissenter)",
+      "Justice Jose A.R. Melo (Manila Prince dissenter)",
+      "Justice Reynato S. Puno (Manila Prince dissenter)",
+      "Justice Conchita Carpio Morales (La Bugal Jan. 2004 ponente)",
+      "President Fidel V. Ramos (FTAA signatory)",
+      "Justice Antonio T. Carpio (La Bugal Dec. 2004 dissent leader)",
+      "Justice Martin S. Villarama Jr. (PSALM ponente)",
+      "US SC Justice Antonin Scalia (originalist)",
+      "US SC Justice Anthony Kennedy (international law, Global Forum speaker)",
+      "Artemio V. Panganiban (author, former CJ; La Bugal Dec. 2004 ponente; Manila Prince dissenter)"
     ],
-    "secondary_intent": [],
-    "audience_match": [],
-    "complexity": "medium",
-    "emotional_register": []
-  },
-  "topic_paths": {
-    "primary": [
-      "supreme_court_history"
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Ateneo Law School",
+      "Philippine Judicial Academy",
+      "Foundation on Liberty and Prosperity (FLP)",
+      "University of San Carlos (USC) -- implicit from context of chair holders",
+      "US Supreme Court"
     ],
-    "secondary": [
-      "twin_beacons_doctrine",
-      "foundation_for_liberty_and_prosperity",
-      "flp_scholarship_programs"
+    "cases": [
+      "Manila Prince Hotel vs GSIS (Feb. 3, 1997) -- Filipino preference in national patrimony; CJ dissented",
+      "La Bugal-B'laan vs Ramos (Jan. 27, 2004; reversed Dec. 1, 2004) -- Mining Law and FTAA constitutionality",
+      "Gamboa vs Teves (June 28, 2011) -- 40% foreign ownership limit on voting shares only",
+      "Initiatives for Dialogue vs PSALM (Oct. 9, 2012) -- river water as national resource; dam water as private"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution -- national economy and patrimony provisions",
+      "Mining Law of 1995 (upheld on reconsideration)",
+      "Financial and Technical Assistance Agreement (FTAA) -- Australia-Philippines large-scale mining"
+    ],
+    "events": [
+      "Azcuna lecture at Ateneo Law School on SC economic decisions",
+      "Global Forum on Liberty and Prosperity (Oct. 18-20, 2006) -- CJ Panganiban's last event before retirement",
+      "CJ's conversation with Justice Scalia (invitation to Global Forum)"
     ]
   },
-  "keywords": [
-    "Foundational SC-economic-jurisprudence survey column April 28 2013 â€” OVERWRITES demo entry (7th demo-collision-overwrite after B06/C08/C07/A22/C06/C05)",
-    "retired Justice Adolfo S. Azcuna (1986 ConCom member + Philja chancellor) Ateneo Law School lecture vehicle as FLP Professorial Chair holder",
-    "FOUR-CONSTITUTIONAL-ECONOMIC-CASES dissection â€” (1) Manila Prince Hotel v. GSIS (Feb 3 1997, J. Josue N. Bellosillo ponente) Filipino-First-doctrine GSIS-Manila-Hotel-award-to-losing-Filipino-bidder after Malaysian-equal-match + 'In the grant of rights, privileges and concessions covering the national economy and patrimony, the State shall give preference to qualified Filipinos' Charter citation + CJP-OWN-DISSENT disclosure (Manila Hotel not part of national-economy-and-patrimony + bidding-essence-subverted + 'the scores are tied. But not when the ballgame is over and the foreigners clearly posted the highest score') joined by CJ Andres R. Narvasa + Justices Jose A.R. Melo and Reynato S. Puno",
-    "(2) La Bugal-B'laan v. Ramos Jan 27 2004 (J. Conchita Carpio Morales ponente) 8-5 striking-down Mining Law of 1995 + FTAA-with-Australian-company + 'under the full control and supervision of the State' Charter dictum + DEC 1 2004 10-4 reversal CJP-OWN-PONENCIA disclosure upholding FTAAs + impliedly-allowing-foreign-management-covenants subject-to-ultimate-Presidential-control + J. Antonio T. Carpio led-dissenters",
-    "(3) Gamboa v. Teves June 28 2011 (J. Carpio ponente) 40-percent-foreign-ownership-of-public-utilities-applies-only-to-voting-shares-not-total-outstanding-capital-stock",
-    "(4) Initiatives for Dialogue v. PSALM Oct 9 2012 (J. Martin S. Villarama Jr. ponente) river-water-natural-resource-for-Filipinos-only + once-appropriated-by-qualified-local-company-and-collected-in-dam-becomes-private-usable-by-Korean-firm",
-    "mining-industry-policy-volatility critique",
-    "CONSTITUTIONAL-INTERPRETATION two-ways framework â€” originalist vs liberal-living-Charter",
-    "J. Antonin Scalia US-SC originalist-confession verbatim 'Mr. Chief Justice, you do not really want me there. I would be useless in the Forum. When I joined the US Supreme Court, I swore to defend and implement the US Constitution and nothing else. And I interpret it according to the original intent of our framers, which did not include international law. Please see my friend next door, Justice Anthony Kennedy' anecdote with CJP Global Forum on Liberty and Prosperity Oct 18-20 2006 invitation backstory",
-    "J. Anthony Kennedy international-philosophy alternative spoke-via-video-teleconferencing acceptance"
+  "stances": [
+    {
+      "claim": "The Manila Prince Hotel was not part of the national 'economy and patrimony' warranting constitutional Filipino preference, and the majority subverted the essence of public bidding by giving the award to a losing Filipino bidder who merely equaled — not bettered — the Malaysian offer.",
+      "rhetorical_move": "dissent-resurrection: re-asserting CJ's own minority view as the legally correct position against the majority's holding",
+      "confidence": "asserted as personal dissent"
+    },
+    {
+      "claim": "Mining industry underperformance is directly traceable to 'festering policy volatility' — the SC reversing itself (8-5 to 10-4) on the Mining Law in the same year — proving that credible, stable long-term policy is a prerequisite for venture capital in gestation-heavy extractive industries.",
+      "rhetorical_move": "policy-consequence attribution: linking doctrinal instability directly to investor lukewarmness",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Charter's economic provisions can be construed more liberally to attract investment without amendment, as demonstrated by Gamboa (limiting the 40% foreign ownership cap to voting shares) and PSALM (allowing dam-collected water to be used commercially by a Korean firm).",
+      "rhetorical_move": "interpretive-flexibility argument: liberal reading as an investment-friendly alternative to constitutional amendment",
+      "confidence": "implied through case analysis"
+    }
   ],
-  "primary_topics": [],
-  "sub_topics": [],
-  "signature_phrases": [],
-  "entities": {
-    "people": [],
-    "institutions": [],
-    "cases": [],
-    "laws_treaties": [],
-    "events": []
-  },
-  "stances": [],
-  "notable_anecdotes": [],
-  "decision_framework_signals": [],
-  "target_audience": [],
-  "register_markers": [],
-  "one_paragraph_summary": ""
+  "notable_anecdotes": [
+    "Justice Scalia declining CJ Panganiban's invitation to the 2006 Global Forum, saying 'you do not really want me there' because he swore to defend only the US Constitution as originally intended and not international law — then directing CJ to 'my friend next door, Justice Kennedy,' who agreed to speak via video teleconference: a cameo that dramatizes the originalism vs internationalism divide at the highest judicial level.",
+    "CJ Panganiban writing the December 1, 2004 reversal in La Bugal — upholding the very Mining Law his own Court had struck down 11 months earlier — while Justice Carpio, who led the dissenters in that reversal, now leads a reconstituted Court being asked to revisit the same issues: a doctrinal pendulum CJ cites as the root cause of mining industry stagnation.",
+    "Justice Azcuna as one of the 10 holders of the 'Chief Justice Panganiban Professorial Chair on Liberty and Prosperity' — a quiet self-referential institutional disclosure that situates the lecture within CJ Panganiban's own endowed academic legacy."
+  ],
+  "target_audience": [
+    "Foreign and domestic investors and business lawyers monitoring economic constitutional jurisprudence",
+    "Law students and academics studying the constitutional law of the national economy and patrimony",
+    "Policy makers and Congress members considering Mining Law revisions",
+    "Constitutional law scholars comparing Philippine and US approaches to interpretation",
+    "General Inquirer readership following economic governance debates"
+  ],
+  "register_markers": [
+    "dissent-citation register ('My dissent said…') — CJ quoting his own minority opinion",
+    "sports metaphor ('ballgame over, foreigners posted highest score') as accessible illustration of bidding law",
+    "policy-consequence attribution register (policy volatility → investor lukewarmness)",
+    "anecdote-as-doctrinal-illustration (Scalia-Kennedy exchange on originalism vs internationalism)",
+    "self-citation as ponente (La Bugal Dec. 2004 reversal) without false modesty",
+    "liberal vs originalist interpretive debate framed as the underlying constitutional question"
+  ],
+  "decision_framework_signals": [
+    "applies public-bidding integrity test to assess Manila Prince: winning requires the highest score, not merely equaling it",
+    "uses policy-stability test for mining: judicial reversals within 11 months = credibility failure for long-term investors",
+    "applies full-control-retained standard (La Bugal) as the constitutional threshold for FTAA permissibility",
+    "uses voting-share vs total-outstanding-capital distinction (Gamboa) as the interpretive variable for foreign ownership limits",
+    "frames originalism vs liberal interpretation as the meta-framework governing all four economic decisions"
+  ],
+  "one_paragraph_summary": "Panganiban reports on Justice Azcuna's lecture at the Ateneo Law School dissecting four controversial SC decisions on the economic provisions of the Constitution. First, Manila Prince Hotel vs GSIS (1997): the SC directed the award of Manila Hotel to a losing Filipino bidder who equaled a Malaysian competitor's higher bid, citing the Filipino-preference clause -- CJ Panganiban dissented, arguing the hotel was not part of national patrimony and that public bidding was subverted when the 'ballgame is over.' Second, La Bugal-B'laan vs Ramos: the SC struck down the Mining Law 8-5 in January 2004, then reversed itself 10-4 in December 2004 -- CJ wrote the reversal upholding the FTAA on condition that ultimate control remained with the President -- but this 'festering policy volatility' has kept the mining industry from growing. Third, Gamboa vs Teves (2011): the 40% foreign ownership cap in public utilities applies only to voting shares. Fourth, PSALM (2012): river water is a national resource, but once appropriated and collected in a dam it becomes private and usable by a Korean firm for electricity generation. CJ closes with a Scalia-Kennedy anecdote on originalism vs international-law interpretation, framing it as the meta-debate underlying all four decisions.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
 }

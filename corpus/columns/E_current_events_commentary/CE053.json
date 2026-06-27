@@ -1,0 +1,162 @@
+{
+  "id": "CE053",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 53,
+  "title": "Modify 'no vaccine, no work' ban",
+  "date": "2021-08-15",
+  "link": "https://opinion.inquirer.net/143100/modify-no-vaccine-no-work-ban",
+  "keywords": [
+    "DOLE advisory March 12 2021 no vaccine no work ban",
+    "RA 11525 vaccine card not mandatory requirement",
+    "Emmanuel Macron RT-PCR alternative",
+    "frontliner exposure clear and present danger",
+    "bona fide occupational qualification BFOQ",
+    "Yrasuegi v. PAL Nov. 17 2008 obesity flight attendant BFOQ",
+    "police power Salus populi est suprema lex",
+    "California compulsory vaccination",
+    "modified sanctions backend work-from-home forced leave",
+    "due process for refusers allergies comorbidities",
+    "private corporation procurement sufficiency",
+    "Anna Maria D. Abad labor law specialist",
+    "Delta variant",
+    "lockdown right to mobility worship segregation"
+  ],
+  "primary_topics": [
+    "labor_law_and_workplace_vaccination_policy",
+    "police_power_vs_constitutional_rights",
+    "bona_fide_occupational_qualification_doctrine",
+    "covid_pandemic_public_health_regulation"
+  ],
+  "sub_topics": [
+    "dole_advisory_march_12_2021_no_vaccine_no_work_ban",
+    "ra_11525_vaccine_card_not_additional_mandatory_requirement",
+    "macron_alternative_negative_rt_pcr_for_unvaccinated",
+    "frontliner_clear_and_present_danger_exposure",
+    "graduated_sanctions_backend_wfh_forced_leave_not_dismissal",
+    "due_process_for_refusal_allergies_comorbidities_needle_fear",
+    "yrasuegi_v_pal_nov_17_2008_obesity_bfoq_dismissal_with_social_justice_pay",
+    "bfoq_yields_to_public_health_when_company_procures_enough_vaccines",
+    "police_power_doctrine_salus_populi_est_suprema_lex",
+    "california_compulsory_vaccination_precedent",
+    "reasonable_and_lawful_means_and_purpose_test",
+    "labor_law_specialist_anna_maria_d_abad_consultation"
+  ],
+  "signature_phrases": [
+    "With due respect, this Dole policy should be modified",
+    "clear and present danger of being infected and/or of infecting others",
+    "Salus populi est suprema lex",
+    "the welfare of the people is the supreme law",
+    "in law as in life, the means never justifies the end",
+    "If the President can order a lockdown, severely restrict the right to mobility and to worship, and segregate COVID-19 patients from their families, certainly, the DOLE can modify its 'no vaccine, no work' ban",
+    "Vaccination is essential to the occupation of frontliners, in the same way that the obesity of a flight attendant had been held to be a BFOQ",
+    "bona fide occupational qualifications (BFOQ)",
+    "with separation pay as an act of social justice",
+    "should be allowed",
+    "should depend on the kind of work the employee performs, the kind of sanction to be imposed, and the availability of vaccines"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Unnamed friend/correspondent (texted the framing question)",
+      "Anna Maria D. Abad (law dean, labor law specialist consulted)",
+      "Emmanuel Macron (French president, alternative-policy referent)",
+      "President Rodrigo Duterte (Philippine lockdown authority)"
+    ],
+    "cases": [
+      "Yrasuegi v. PAL (Nov. 17, 2008) -- obesity as BFOQ for flight attendants, dismissal with separation pay"
+    ],
+    "laws_treaties": [
+      "DOLE Advisory of March 12, 2021 (no vaccine, no work ban)",
+      "Republic Act No. 11525 (vaccine card not additional mandatory requirement)",
+      "Philippine Labor Code (insubordination/disobedience provisions)",
+      "Constitution (police power, rights to liberty/property/business/profession/employment)"
+    ],
+    "institutions": [
+      "Department of Labor and Employment (DOLE)",
+      "Philippine Airlines (Yrasuegi v. PAL)",
+      "State of California (cited as compulsory-vaccination precedent)"
+    ],
+    "places": [
+      "Philippines",
+      "France (Macron alternative)",
+      "California (compulsory vaccination)"
+    ],
+    "dates": [
+      "March 12, 2021 (DOLE advisory issuance)",
+      "Nov. 17, 2008 (Yrasuegi v. PAL)",
+      "Aug. 15, 2021 (column publication, during Delta variant lockdown)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "DOLE's blanket 'no vaccine, no work' ban should be modified to depend on (a) the kind of work performed, (b) the kind of sanction imposed, and (c) the availability of vaccines.",
+      "rhetorical_move": "Three-pronged refinement framework that converts an absolute prohibition into a calibrated policy.",
+      "confidence": "very high -- title-thesis statement, explicit prescription"
+    },
+    {
+      "claim": "For frontliners (doctors, nurses, security guards, fast-food dispensers, bank tellers, toll collectors), refusal to be vaccinated should be sanctioned -- not by dismissal but by backend work, work-from-home, or forced leave; only outright insubordination under the Labor Code triggers dismissal.",
+      "rhetorical_move": "Graduated-sanctions ladder grounded in occupational exposure risk.",
+      "confidence": "high -- concrete enumerated alternatives"
+    },
+    {
+      "claim": "RA 11525 yields to the BFOQ doctrine: when a company has procured sufficient vaccines for all employees, a 'no jab, no work' policy (or Macron-style negative-RT-PCR alternative) becomes lawful.",
+      "rhetorical_move": "Synthesizes statute, doctrine, and consulted-specialist position (Anna Maria D. Abad).",
+      "confidence": "high -- endorsed jointly with the labor-law specialist"
+    },
+    {
+      "claim": "The state may invoke police power to mandate compulsory vaccination -- under California-style conditions of adequate supply, convenient and timely facilities, and proportionate means -- because the welfare of the people is the supreme law (Salus populi est suprema lex).",
+      "rhetorical_move": "Doctrinal escalation from private-employer BFOQ to state-mandate police power.",
+      "confidence": "high -- qualified by reasonableness conditions"
+    },
+    {
+      "claim": "Due process must be accorded to refusers -- they may have valid reasons (allergies, comorbidities, genuine fear of the needle) that must be assessed before sanctions attach.",
+      "rhetorical_move": "Inserts a procedural-rights safeguard inside the substantive policy reform.",
+      "confidence": "high -- explicit procedural condition"
+    }
+  ],
+  "notable_anecdotes": [
+    {
+      "description": "A friend's text question opening the column: 'May a private corporation require its employees to be vaccinated? Alternatively, can it require negative RT-PCR tests for those who refuse à la French President Emmanuel Macron?'",
+      "purpose": "Anchors abstract doctrinal argument in a real reader's practical query."
+    },
+    {
+      "description": "Yrasuegi v. PAL (Nov. 17, 2008): flight attendant's obesity held to be a BFOQ, with failure to control it sanctionable by dismissal 'with separation pay as an act of social justice.'",
+      "purpose": "Doctrinal analogy demonstrating that occupational requirements can justify dismissal when essential to the role."
+    },
+    {
+      "description": "Law dean Anna Maria D. Abad's texted opinion: 'There is no law requiring mandatory vaccination,' but a company that has procured enough vaccines for all employees 'should be able to enforce vaccination as a condition to enter its premises.'",
+      "purpose": "Specialist endorsement reinforcing CJ's calibrated synthesis."
+    },
+    {
+      "description": "A-fortiori closing argument: 'If the President can order a lockdown, severely restrict the right to mobility and to worship, and segregate COVID-19 patients from their families, certainly, the DOLE can modify its no vaccine, no work ban.'",
+      "purpose": "Police-power escalation argument -- if greater restrictions are permitted, lesser ones must follow."
+    }
+  ],
+  "target_audience": {
+    "primary": "Filipino employers, HR professionals, and labor lawyers navigating workplace vaccination policy",
+    "secondary": "DOLE policymakers and legislators considering RA 11525 implementation",
+    "tertiary": "Workers (especially frontliners), employees with comorbidities, and the public concerned with pandemic regulation"
+  },
+  "register_markers": [
+    "'With due respect' as formula for departing from a government policy",
+    "Doctrinal-formal register with police-power Latin maxim",
+    "Three-pronged refinement framework as organizing structure",
+    "Reader-question opening sets up an explainer arc",
+    "Specialist citation via texted opinion (Anna Maria D. Abad)",
+    "Closing a-fortiori escalation ('If the President can... certainly, the DOLE can...')",
+    "Compact maxim closure: 'in law as in life, the means never justifies the end'"
+  ],
+  "decision_framework_signals": [
+    "Three-factor refinement: kind of work + kind of sanction + availability of vaccines",
+    "Graduated sanctions ladder: backend / work-from-home / forced leave / dismissal-as-last-resort",
+    "BFOQ doctrine (Yrasuegi v. PAL): vaccination is essential to frontliner occupations, sanctionable when refused",
+    "Police power test: both purpose and means must be reasonable and lawful",
+    "Salus populi est suprema lex -- welfare of the people is the supreme law",
+    "Vaccine-supply sufficiency as the trigger for lifting the DOLE ban"
+  ],
+  "one_paragraph_summary": "Triggered by a friend's text question -- 'May a private corporation require its employees to be vaccinated?' -- CJ Panganiban examines the DOLE's March 12, 2021 'no vaccine, no work' ban and RA 11525's rule that vaccine cards are not an additional mandatory requirement. Under the 'with due respect' formula, he proposes a calibrated modification turning on three factors: the kind of work performed, the kind of sanction imposed, and the availability of vaccines. For frontliners -- doctors, nurses, security guards, fast-food dispensers, bank tellers, toll collectors -- refusal to vaccinate, given their 'clear and present danger' exposure, should attract graduated sanctions (backend work, work-from-home, forced leave) with dismissal reserved only for outright Labor Code insubordination, and always subject to due process for refusers with valid reasons (allergies, comorbidities, fear of the needle). He invokes Yrasuegi v. PAL (Nov. 17, 2008), where a flight attendant's obesity was held to be a 'bona fide occupational qualification,' to argue that RA 11525 yields to BFOQ doctrine: once a company has procured sufficient vaccines for all employees, the 'no jab, no work' rule (or Macron's negative-RT-PCR alternative) becomes lawful. Labor-law specialist Anna Maria D. Abad's texted opinion confirms the synthesis. He then escalates from private-employer BFOQ to state police power, citing California's compulsory-vaccination regime and the maxim 'Salus populi est suprema lex' -- but qualified by the reasonableness-of-means-and-purpose test ('in law as in life, the means never justifies the end'). The column closes with an a-fortiori clincher: if the President may order lockdowns and restrict mobility and worship, certainly DOLE may modify its ban.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

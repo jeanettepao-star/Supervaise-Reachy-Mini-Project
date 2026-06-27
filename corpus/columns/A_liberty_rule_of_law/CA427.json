@@ -1,0 +1,158 @@
+{
+  "id": "CA427",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 427,
+  "title": "Disagree, but not disobey",
+  "date": "2014-01-25",
+  "link": "https://opinion.inquirer.net/70311/disagree-but-not-disobey",
+  "keywords": [
+    "pork barrel",
+    "constitution",
+    "Supreme Court",
+    "judicial interpretation",
+    "due process"
+  ],
+  "primary_topics": [
+    "Did the 'realignments' by nine senators violate Belgica v. Ochoa (Nov 19 2013, J. Estela M. Perlas-Bernabe ponente)?",
+    "Constitutional framework -- appropriation bills shall originate exclusively in the House, but the Senate may propose or concur with amendments",
+    "16-senator-PDAF-deletion roster (15 senators + VP Binay) saving P3.2 billion (P200M x 16)",
+    "Nine-senator-realignment roster grouped by destination -- Calamity Fund (5), specific schools/hospitals/projects (3), LGU lump sums (1)",
+    "Belgica doctrine -- 'specific appropriation, stated purpose' rule + lump-sum-appropriations banned + post-enactment-power-prohibition",
+    "Realignment/augmentation power belongs only to President, Senate President, Speaker, CJ, ConCom heads -- NOT individual legislators",
+    "Four-answer quartet on the realignments -- (1) erroneous to call it realignment, it's an amendment (2) Calamity Fund constitutional (3) specific schools/hospitals constitutional (4) LGU lump sums RISK UNCONSTITUTIONAL",
+    "'Laudable ends cannot justify unconstitutional means' meta-doctrinal closing"
+  ],
+  "sub_topics": [
+    "Calamity Fund 5-senator group: Alan Peter Cayetano, Pia Cayetano, Ralph Recto, Miriam Defensor-Santiago, JV Ejercito",
+    "Specific schools-hospitals-projects 3-senator group: Lito Lapid, Ramon Revilla Jr., Antonio Trillanes IV",
+    "LGU single-senator: Jinggoy Estrada -- Manila (P100M), Caloocan (P50M), Lla-lo town in Cagayan (P50M)",
+    "Doctrine of separation of powers -- Congress enacts, President implements, legislators cannot participate in implementation",
+    "Calamity/contingency/intelligence-fund carve-out from 'specific appropriation, stated purpose' rule -- calamities cannot be predicted line-item",
+    "Bicameral conference committee approval mechanism for amendments to House budget bill",
+    "Specific schools/hospitals constitutional 'provided they do not increase the appropriations recommended by the President for the operation of the Government'",
+    "LGU lump-sums unconstitutionality argument -- if President is banned from lump sums without breakdowns and specific purposes, LGUs (parts of executive branch) cannot exercise more power"
+  ],
+  "signature_phrases": [
+    "Did the 'realignment' made by nine senators of their Priority Development Assistance Fund in the 2014 national budget violate the unanimous landmark decision of the Supreme Court",
+    "all appropriation bills shall originate exclusively in the House of Representatives, but the Senate may propose or concur with amendments",
+    "In deference to the Court's decision, 15 senators, including Senate President Franklin Drilon, completely deleted their PDAF allocations",
+    "Under the doctrine of separation of powers, Congress enacts the law while the President implements it",
+    "Legislators cannot participate in the implementation",
+    "specific appropriation, stated purpose rule",
+    "neither the President nor the legislators have any postenactment power to determine how such lump sums shall be spent",
+    "legislators have no power to realign or augment budget items. The Charter grants such power only to the President, the Senate President, the Speaker, the Chief Justice and the constitutional commissions",
+    "it is erroneous to say that Senator So-and-so realigned his/her PDAF",
+    "calamity funds cannot be given line-item breakdowns because no one can predict what and how many calamities would befall the country",
+    "If the President is banned from using lump sums without breakdowns and specific purposes, how can LGUs, which are merely parts of the executive branch, exercise more power than the President",
+    "Unconstitutionality signifies that the allocation is void and cannot be used for the goals intended",
+    "Laudable ends cannot justify unconstitutional means"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "J. Estela M. Perlas-Bernabe (Belgica ponente)",
+      "Senate President Franklin Drilon (15-senator-deletion leader)",
+      "VP Jejomar Binay (deleted own pork)",
+      "Sen. Alan Peter Cayetano",
+      "Sen. Pia Cayetano",
+      "Sen. Ralph Recto",
+      "Sen. Miriam Defensor-Santiago",
+      "Sen. JV Ejercito",
+      "Sen. Lito Lapid",
+      "Sen. Ramon Revilla Jr.",
+      "Sen. Antonio Trillanes IV",
+      "Sen. Jinggoy Estrada (LGU realigner)"
+    ],
+    "institutions": [
+      "Supreme Court",
+      "Congress (House and Senate)",
+      "Bicameral conference committee",
+      "Office of the President",
+      "Constitutional commissions (Comelec, COA, CSC)",
+      "Calamity Fund (exempted)",
+      "Contingency Fund (exempted)",
+      "Intelligence Fund (exempted)",
+      "LGUs (Manila, Caloocan, Lla-lo Cagayan)"
+    ],
+    "cases": [
+      "Belgica v. Ochoa (Nov 19 2013, J. Perlas-Bernabe ponente) -- unanimous PDAF strikedown"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- appropriation bills exclusively from House; realignment/augmentation power roster (President, SP, Speaker, CJ, ConCom heads)",
+      "2014 General Appropriations Act (GAA) under analysis"
+    ],
+    "events": [
+      "15-senator + VP Binay PDAF deletion saving P3.2B",
+      "Nine-senator realignment to Calamity Fund / specific projects / LGUs",
+      "Bicameral conference committee approval of amendments"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "It is erroneous to say that Senator So-and-so 'realigned' his/her PDAF -- legislators have no constitutional power to realign or augment; the Charter grants such power only to the President, Senate President, Speaker, Chief Justice, and constitutional commissions. What the nine senators actually did was propose amendments to the House-approved budget bill, which were then approved by the bicameral conference committee and by the entire Congress, becoming integral parts of the 2014 GAA.",
+      "rhetorical_move": "terminological-correction-with-doctrinal-grounding",
+      "confidence": "asserted as Charter-mandated correction"
+    },
+    {
+      "claim": "The 5-senator amendment adding P200M each to the Calamity Fund is constitutional -- although the Calamity Fund is a huge lump sum without a singular purpose, the justices exempted it (with the contingency and intelligence funds) from the 'specific appropriation, stated purpose' rule, because calamity funds cannot be given line-item breakdowns when no one can predict what calamities will befall the country.",
+      "rhetorical_move": "exemption-grounded-in-impossibility-of-line-item-prediction",
+      "confidence": "asserted as Belgica carve-out"
+    },
+    {
+      "claim": "The 3-senator diversion to specific schools, hospitals, public works, scholarships, charity patients, and soldiers' barracks have specific purposes and are implemented by executive offices without post-enactment legislator intervention -- therefore constitutional, provided they do not increase the appropriations recommended by the President for government operations.",
+      "rhetorical_move": "specific-purpose + executive-implementation + non-increase doctrinal-test",
+      "confidence": "asserted with provided-clause qualification"
+    },
+    {
+      "claim": "Jinggoy Estrada's PDAF allocation to Manila/Caloocan/Lla-lo as LGU lump sums RISKS UNCONSTITUTIONALITY -- if the President is banned from using lump sums without breakdowns and specific purposes, how can LGUs (which are merely parts of the executive branch) exercise MORE power than the President and determine specific projects for the lump sums?",
+      "rhetorical_move": "a-fortiori-from-president-prohibition",
+      "confidence": "asserted as constitutional-risk diagnosis"
+    },
+    {
+      "claim": "Unconstitutionality means the allocation is void and cannot be used even for laudable goals -- laudable ends cannot justify unconstitutional means.",
+      "rhetorical_move": "ends-do-not-justify-unconstitutional-means meta-doctrine",
+      "confidence": "asserted as closing maxim"
+    }
+  ],
+  "notable_anecdotes": [
+    "The terminological correction that 'realignment' is the wrong word for what the nine senators did -- they actually proposed amendments to the House-approved budget bill, which were then approved bicamerally -- a small-but-important doctrinal precision that CJP makes the foundation of his entire four-answer quartet.",
+    "The four-answer quartet structure (erroneous-terminology + Calamity-Fund-OK + specific-projects-OK + LGU-lump-sums-RISK) -- among CJP's tightest doctrinal taxonomies in the PDAF doctrinal arc.",
+    "The a-fortiori-from-President argument for LGU-lump-sums-unconstitutionality -- if the President can't, how can LGUs (parts of the executive branch) do MORE? -- a sharp structural-constitutional argument anchored in executive-hierarchy logic.",
+    "The 16-senator deletion roster (15 senators + VP Binay) saving P3.2 billion (P200M x 16) -- a concrete arithmetic anchor for the 'deference to the Court's decision' framing.",
+    "The closing maxim 'Laudable ends cannot justify unconstitutional means' -- among CJP's most quotable single-line constitutional maxims."
+  ],
+  "target_audience": [
+    "Inquirer general readership tracking PDAF aftermath",
+    "Senators and their staff (the named-senator audience)",
+    "Lawyers and budget law specialists",
+    "Constitutional law scholars and students",
+    "Civic-minded Filipinos parsing legislator-by-legislator PDAF decisions",
+    "LGU officials in Manila, Caloocan, and Lla-lo (Jinggoy's beneficiaries)"
+  ],
+  "register_markers": [
+    "Did the 'realignment' rhetorical-question opening",
+    "Before answering, let us first review setup-bridging device",
+    "The Constitution and the facts section header",
+    "Yearly, the President sends to Congress... narrative-procedural register",
+    "However, nine senators did not pivot register",
+    "Now, the answers section-pivot to four-answer quartet",
+    "First, / Second, / Third, / Fourth, sequential-answer scaffolding",
+    "verbatim Charter citation with quotation marks",
+    "If the President is banned... how can LGUs... rhetorical-a-fortiori register",
+    "Laudable ends cannot justify unconstitutional means maxim-clinch"
+  ],
+  "decision_framework_signals": [
+    "uses Belgica 'specific appropriation, stated purpose' rule as foundational framework",
+    "applies terminological-correction (amendments, not realignments) as doctrinal-precision-first move",
+    "deploys Charter realignment/augmentation power-roster (President + SP + Speaker + CJ + ConCom heads) as exclusive-list",
+    "treats Calamity Fund (with contingency + intelligence) as exempted-from-specific-purpose carve-out grounded in impossibility-of-line-item-prediction",
+    "uses specific-purpose + executive-implementation + non-increase test for specific projects",
+    "applies a-fortiori-from-President prohibition to LGU lump sums",
+    "closes with laudable-ends-cannot-justify-unconstitutional-means meta-doctrine"
+  ],
+  "one_paragraph_summary": "Panganiban tests whether the nine senators' 2014 PDAF 'realignments' violate Belgica v. Ochoa (Nov 19 2013, J. Perlas-Bernabe). He reviews the Charter (appropriation bills originate exclusively in the House; the Senate may propose or concur with amendments) and the facts: 15 senators plus VP Binay deleted their P200M PDAF allocations entirely (saving P3.2 billion); nine did not -- five (Alan Peter and Pia Cayetano, Ralph Recto, Miriam Defensor-Santiago, JV Ejercito) shifted theirs to the Calamity Fund; three (Lito Lapid, Ramon Revilla Jr., Antonio Trillanes IV) to specific schools, hospitals, public works, scholarships, charity patients, and soldiers' barracks; and one (Jinggoy Estrada) gave his to Manila (P100M), Caloocan (P50M), and Lla-lo town in Cagayan (P50M). Belgica's doctrine: under separation of powers, Congress enacts and the President implements; legislators cannot participate in implementation; the 'specific appropriation, stated purpose' rule bans lump-sum appropriations and prohibits post-enactment legislator power over lump sums. His four-answer quartet: First, it is erroneous to call these 'realignments' -- legislators have no realignment/augmentation power, which the Charter grants only to the President, Senate President, Speaker, Chief Justice, and constitutional commissions. What actually happened is the senators proposed amendments to the House bill, approved by the bicameral conference committee and by Congress, becoming integral parts of the 2014 GAA. Second, the Calamity Fund amendment is constitutional -- though it is a huge lump sum, the justices exempted it (with contingency and intelligence funds) from the specific-purpose rule because calamities cannot be predicted line-item. Third, the specific schools/hospitals diversion is constitutional because the purposes are specific, executive offices implement without legislator intervention, and provided the items do not increase the President's recommended appropriations. Fourth, Jinggoy Estrada's LGU lump-sums RISK UNCONSTITUTIONALITY -- if the President is banned from lump sums without breakdowns and specific purposes, how can LGUs (parts of the executive branch) exercise MORE power and determine specific projects for the lump sums? He closes with the maxim: unconstitutionality means the allocation is void, even if the goals are laudable -- laudable ends cannot justify unconstitutional means.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,147 @@
+{
+  "id": "CA169",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 169,
+  "title": "Q&A on substitution of bets",
+  "date": "2021-10-10",
+  "link": "https://opinion.inquirer.net/145100/qa-on-substitution-of-bets",
+  "keywords": [
+    "substitution of candidates",
+    "certificate of candidacy",
+    "Section 77 Omnibus Election Code",
+    "Comelec Resolution No. 10717",
+    "nuisance candidate",
+    "Romulo Macalintal",
+    "equal protection clause",
+    "Quinto v. Comelec",
+    "appointive vs elective officials",
+    "Nov. 15 deadline",
+    "political party coalition",
+    "senatorial slot realignment",
+    "deemed resigned",
+    "same surname rule",
+    "2022 elections"
+  ],
+  "primary_topics": [
+    "election_law_substitution_of_candidates",
+    "equal_protection_doctrine_quinto_v_comelec",
+    "comelec_rule_making_authority",
+    "electoral_reform_advocacy"
+  ],
+  "sub_topics": [
+    "nuisance_candidate_doctrine",
+    "section_77_omnibus_election_code",
+    "comelec_resolution_10717_aug_18_2021",
+    "death_or_disqualification_after_nov_15_same_surname_rule",
+    "cross_party_substitution_pacquiao_ong_hypothetical",
+    "appointive_officials_deemed_resigned_upon_filing_coc",
+    "elective_officials_retain_office_until_term_ends",
+    "registered_political_party_or_coalition_certification_requirement"
+  ],
+  "signature_phrases": [
+    "With due respect",
+    "I believe all candidates should be treated equally without discrimination and without giving undue advantage to any one or to any group",
+    "All public officials, whether elective or appointive, should be deemed resigned upon filing their COCs",
+    "Macalintal's stance is sensible, even patriotic",
+    "the better solution is to abolish substitution for any reason except the death of the candidate",
+    "the name of the substitute will be reflected in the official ballots",
+    "in this example, substitution can result in a realignment of political forces",
+    "the law does not recognize 'factions,' it recognizes only political parties",
+    "Q&A format reader-response column",
+    "to prevent them from using their offices to promote their electoral campaigns"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, retired CJ)",
+      "Romulo Macalintal (election lawyer)",
+      "Manny Pacquiao (presidential aspirant cited as example)",
+      "Willie Ong (vice presidential aspirant cited as example)",
+      "Leni Robredo (LP leader, hypothetical example)"
+    ],
+    "cases": [
+      "Quinto v. Comelec, Feb. 22, 2010 (cited for equal protection ruling)"
+    ],
+    "laws_treaties": [
+      "Omnibus Election Code, Section 77",
+      "Comelec Resolution No. 10717 (Aug. 18, 2021)",
+      "Constitution, equal protection clause"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "Liberal Party (LP)",
+      "Promdi Party (hypothetical)"
+    ],
+    "places": [
+      "Philippines"
+    ],
+    "dates": [
+      "Oct. 8, 2021 (filing deadline)",
+      "Nov. 15, 2021 (substitution deadline)",
+      "May 9, 2022 (Election Day, midday cutoff)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Substitution should be abolished except for death of the candidate; the nuisance-candidate ouster proposed by Macalintal still causes uncertainty during ouster proceedings.",
+      "rhetorical_move": "Acknowledges a peer's proposal as 'sensible, even patriotic,' then advances his own stricter reform.",
+      "confidence": "high -- direct first-person prescriptive claim"
+    },
+    {
+      "claim": "All public officials, whether elective or appointive, should be deemed resigned upon filing their COCs.",
+      "rhetorical_move": "Pivots from quoting Quinto v. Comelec verbatim to expressly disagreeing with it under the 'with due respect' formula.",
+      "confidence": "high -- explicit personal departure from binding doctrine"
+    },
+    {
+      "claim": "The Quinto v. Comelec 'substantial distinction' between elective and appointive officials is rationally insufficient; it gives elected incumbents undue campaign advantage.",
+      "rhetorical_move": "Equal-protection critique grounded in fairness rather than the Court's mandate-of-the-electorate rationale.",
+      "confidence": "medium-high -- argues against settled jurisprudence"
+    },
+    {
+      "claim": "Sworn-in-just-before-substitution party membership is a tolerated but cynical practice that the law currently permits.",
+      "rhetorical_move": "Descriptive-then-critical: states 'as practiced by many politicians' without endorsing.",
+      "confidence": "medium -- implied disapproval through framing"
+    }
+  ],
+  "notable_anecdotes": [
+    {
+      "description": "Hypothetical: Promdi Party presidential nominee Manny Pacquiao withdraws, then nominated by LP to a senatorial slot vacated by an LP withdrawal -- provided he is first sworn in as LP member.",
+      "purpose": "Illustrates how cross-party substitution can produce 'realignment of political forces.'"
+    },
+    {
+      "description": "Romulo Macalintal's nuisance-candidate proposal: any aspirant who files a COC solely to reserve a slot for a substitute should be declared a nuisance bet and the COC denied due course.",
+      "purpose": "Foil against which CJ advances his own stricter position."
+    },
+    {
+      "description": "Cabinet members, military officers, and GOCC officials are 'automatically deemed resigned' upon COC filing, while senators and mayors keep their offices and powers.",
+      "purpose": "Concrete asymmetry that grounds the equal-protection complaint."
+    },
+    {
+      "description": "Reference back to last Sunday's column 'Party substitution extends Oct. 8 deadline' as the question-generator for this Q&A piece.",
+      "purpose": "Series continuity device tying A169 to A170."
+    }
+  ],
+  "target_audience": {
+    "primary": "Filipino lawyers, election lawyers, and Comelec watchers preparing for the 2022 polls",
+    "secondary": "Politically literate general readers tracking the COC filing window",
+    "tertiary": "Law students studying election law and equal protection doctrine"
+  },
+  "register_markers": [
+    "Q&A reader-letter response format",
+    "Doctrinal-formal register softened by personal 'I think' / 'I believe'",
+    "'With due respect' as the standard disagreement formula",
+    "Hypothetical-driven exposition ('For example, if Promdi Party...')",
+    "Statutory text quoted verbatim with section numbers",
+    "Plain-language gloss following each legal citation"
+  ],
+  "decision_framework_signals": [
+    "Equal protection: 'all persons shall be treated alike, under like circumstances and conditions both as to privileges conferred and liabilities enforced'",
+    "Reform principle: prevent incumbents from using office to promote electoral campaigns",
+    "Statutory construction: substitution permitted only for candidates of registered political parties or coalitions, not independents",
+    "Same-surname rule as the only post-Nov-15 substitution mechanism"
+  ],
+  "one_paragraph_summary": "Written as a Q&A column following reader response to his October 3 piece, CJ Panganiban walks through six election-law puzzles around candidate substitution under Section 77 of the Omnibus Election Code and Comelec Resolution No. 10717. He concedes that Romulo Macalintal's proposal to declare 'reservation' filers as nuisance candidates is 'sensible, even patriotic,' but argues the ouster process is itself uncertainty-generating; his own fix is more radical -- abolish substitution for any reason except the death of the candidate. He clarifies that withdrawing presidential or vice-presidential bets can lawfully substitute for senatorial vacancies provided the same political party (or a properly sworn-in member of a new party) makes the nomination, and that this mechanism can produce 'a realignment of political forces.' Post-Nov-15 substitution is permitted only for death or final disqualification and only when the substitute bears the same surname, so the votes flow through to the substitute. The column closes with the most consequential stance: under the 'with due respect' formula CJ openly departs from Quinto v. Comelec (Feb. 22, 2010), arguing that the Court's 'substantial distinctions' rationale for treating elective and appointive officials differently is insufficient, and that all candidates -- elective or appointive -- should be deemed resigned upon filing their COCs to prevent incumbents from leveraging office for campaign advantage. The piece functions as both clarifier of working election law for 2022 aspirants and quiet manifesto for an unrealized electoral reform.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

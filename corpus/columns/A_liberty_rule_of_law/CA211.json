@@ -1,0 +1,143 @@
+{
+  "id": "CA211",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 211,
+  "title": "Substantial justice, not legal gobbledygook",
+  "date": "2020-07-19",
+  "link": "https://opinion.inquirer.net/131912/substantial-justice-not-legal-gobbledygook",
+  "keywords": [
+    "Anti-Terror Act",
+    "substantial justice",
+    "analytical vs sociological jurisprudence",
+    "transcendental importance",
+    "warrantless arrest"
+  ],
+  "primary_topics": [
+    "Court's choice to require 'Comment' instead of dismissing ATA petitions on procedural grounds",
+    "Analytical school vs sociological school of jurisprudence",
+    "Three novel and transcendental constitutional issues raised by the ATA",
+    "Call for clear, simple language: substantial justice over legal gobbledygook"
+  ],
+  "sub_topics": [
+    "Procedural grounds the Court could have used: prematurity (Sec. 58 -- ATA effective 15 days AFTER complete publication; July 18 inflection date), lack of actual controversy, lack of clear legal right, lack of cause of action, lack of locus standi",
+    "Death penalty parallel: only those who suffer 'direct injury' (arrested, investigated, detained) can challenge",
+    "De Leon v. Duterte (May 8, 2020) -- outright dismissal for failing to establish legal right (the President's health-records case)",
+    "Transcendental-importance doctrine via David v. Arroyo (May 3, 2006, J Sandoval-Gutierrez)",
+    "ATA constitutional issues: (1) warrantless arrest by Anti-Terrorism Council vs constitutional probable cause/personal-judge requirement; (2) Congress vs Supreme Court rule-making power on Rules of Court; (3) due process / overbreadth / vagueness of terrorism acts",
+    "Constitutional limit: Court 'shall promulgate rules concerning the protection and enforcement of constitutional rights, pleadings, practice and procedure'",
+    "Historical parallels: terrorism, cybercrime, money laundering as crimes unknown to Framers but adjudicated on the merits with minimal esoteric legalese",
+    "ATA's Anti-Terrorism Council composed only of executive officials -- no judges -- authorized to order arrest and detain up to 24 days"
+  ],
+  "signature_phrases": [
+    "Had it wanted to, the Supreme Court could have dismissed at sight the many petitions",
+    "the Court could have made short shrift of them",
+    "shall take effect [15] days AFTER its complete publication",
+    "PROBABLE CAUSE to be determined PERSONALLY BY THE JUDGE",
+    "transcendental importance",
+    "far-reaching implications",
+    "the analytical school of jurisprudence",
+    "the sociological school of jurisprudence",
+    "superbly penned by Justice Angelina Sandoval-Gutierrez during my term as CJ",
+    "novel and transcendental issues that, I think, need to be resolved clearly",
+    "innovative interpretation of the constitutional guarantee",
+    "the Constitution and the Rules were composed when terrorism was not yet born",
+    "could not have been contemplated by the Framers",
+    "I fervently hope the Court will speedily decide the petitions head-on, on their merit, in clear and simple language",
+    "deliver substantial justice understandable by ordinary citizens",
+    "free of legal gobbledygook intelligible only to lawyers"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Justice Angelina Sandoval-Gutierrez (David v. Arroyo ponente, 'superbly penned')",
+      "President Rodrigo Duterte (signatory of ATA July 3, 2020)",
+      "Framers of the Constitution (referenced collectively)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Congress of the Philippines",
+      "Anti-Terrorism Council (executive officials, per ATA)",
+      "Office of the President"
+    ],
+    "cases": [
+      "David v. Arroyo (May 3, 2006, J Sandoval-Gutierrez) -- transcendental importance / public interest doctrine",
+      "De Leon v. Duterte (May 8, 2020) -- outright dismissal of presidential health-records petition"
+    ],
+    "laws_treaties": [
+      "Republic Act No. 11479 -- Anti-Terrorism Act of 2020 (ATA)",
+      "ATA Section 58 -- 15-day effectivity clause after Official Gazette publication",
+      "1987 Constitution -- probable-cause, personal-judge, due-process clauses; Court's rule-making power",
+      "Rules of Court (warrantless arrest provisions)"
+    ],
+    "events": [
+      "July 3, 2020 -- ATA signed by President Duterte and posted in Official Gazette",
+      "July 18, 2020 -- ATA effectivity (15 days post-publication)",
+      "Court's order requiring 'Comment' rather than outright dismissal"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Court could have legitimately dismissed the ATA petitions at sight on multiple procedural grounds -- prematurity (Section 58 makes the law effective only 15 days after publication), lack of actual controversy, lack of clear legal right, lack of cause of action, lack of locus standi -- as it did in De Leon v. Duterte (May 8, 2020); but it chose not to.",
+      "rhetorical_move": "procedural-dismissal-could-have-happened (anchoring institutional choice against available alternative)",
+      "confidence": "asserted with case citation"
+    },
+    {
+      "claim": "By requiring respondents to file Comment instead of dismissing the petitions, the Court has signaled willingness to veer from the analytical school of jurisprudence (Austin-style strict syllogism, dismissal-on-defects) toward the sociological school (Pound-style transcendental-importance doctrine, as in David v. Arroyo) to address ATA's substantive constitutional issues.",
+      "rhetorical_move": "jurisprudential-school identification (using the analytical/sociological dichotomy as institutional choice frame)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The ATA raises three novel and transcendental issues that need clear resolution: (1) whether terrorism-war emergency can justify executive arrest power that bypasses the constitutional requirement of probable cause personally determined by a judge; (2) whether Congress can modify the Rules of Court on warrantless arrests when the Constitution expressly grants that rule-making power to the Supreme Court; (3) whether the ATA's acts of terrorism are unconstitutionally vague or overbroad.",
+      "rhetorical_move": "three-issue enumeration (clear-headed framing of the substantive constitutional questions)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Court has successfully adjudicated novel laws -- cybercrime, money laundering -- that the Framers could not have contemplated, deciding them on the merits with minimal esoteric legalese; ATA deserves the same treatment.",
+      "rhetorical_move": "precedent-of-novel-adjudication (citing prior practice to anchor expected practice)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Court should decide the petitions speedily, head-on, on their merit, in clear and simple language -- delivering substantial justice understandable by ordinary citizens, free of legal gobbledygook intelligible only to lawyers.",
+      "rhetorical_move": "plain-language imperative (institutional virtue framed as accessibility)",
+      "confidence": "asserted with 'I fervently hope'"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's parenthetical tribute embedded in citation: 'David v. Arroyo (May 3, 2006, superbly penned by Justice Angelina Sandoval-Gutierrez during my term as CJ)' -- the very citation that Sandoval-Gutierrez emailed CJ about the following week ('I wonder why you keep citing me'), giving this column anecdotal context that resurfaces in C54.",
+    "The death-penalty parallel as exemplar of 'actual controversy': only those arrested, investigated, or detained under a death-penalty law can challenge it -- a clean teaching example for distinguishing legal-standing rules.",
+    "The historical observation that 'The Constitution and the Rules were composed when terrorism was not yet born' -- making the ATA case a genuine constitutional novelty rather than a routine challenge.",
+    "The closing call for 'substantial justice understandable by ordinary citizens, free of legal gobbledygook intelligible only to lawyers' -- one of CJ's most concise democratic-accessibility credos.",
+    "The contrasting case De Leon v. Duterte (May 8, 2020) where the Court dismissed at sight a petition to disclose the President's health records -- invoked as the analytical-school move the Court could have but did not deploy here."
+  ],
+  "target_audience": [
+    "Constitutional law scholars",
+    "ATA petitioners and counsel",
+    "Civic-minded readers tracking the ATA",
+    "Law students and practitioners",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "ALL-CAPS keywords for emphasis ('AFTER its complete publication,' 'PROBABLE CAUSE,' 'PERSONALLY BY THE JUDGE')",
+    "jurisprudential-school dichotomy as organizing analytical frame",
+    "parenthetical tribute to a sitting justice's prior opinion",
+    "three-issue enumeration as structural device",
+    "Latin and legal-term explanations ('locus standi,' 'cause of action,' 'actual controversy')",
+    "'fervently hope' as personal-appeal marker",
+    "'substantial justice' vs 'legal gobbledygook' as core dichotomy",
+    "doctrinal-pedagogical register with reformist-pleading overlay",
+    "self-reference to 'my term as CJ' as biographical anchor"
+  ],
+  "decision_framework_signals": [
+    "uses analytical-vs-sociological jurisprudence dichotomy to characterize institutional choice",
+    "treats the Court's procedural choice (Comment vs dismissal) as a tell about substantive intent",
+    "applies transcendental-importance / public-interest doctrine to justify merits-review",
+    "deploys precedent-of-novel-adjudication argument (cybercrime, money laundering)",
+    "frames plain-language imperative as democratic-accessibility duty of the Court",
+    "uses death-penalty parallel as clarifying example for legal-standing doctrine"
+  ],
+  "one_paragraph_summary": "Panganiban observes that the Supreme Court could have dismissed at sight the many petitions challenging the Anti-Terrorism Act of 2020 on familiar procedural grounds -- prematurity (since Section 58 of the ATA itself makes the law effective only 15 days after Official Gazette publication, an inflection date of July 18, 2020), lack of actual controversy, lack of clear legal right, lack of cause of action, lack of locus standi -- as it did just two months earlier in De Leon v. Duterte (May 8, 2020). Instead, the Court ordered respondents to file Comment without yet giving due course, signaling its willingness to veer from John Austin's analytical school of jurisprudence toward the sociological school epitomized by David v. Arroyo (May 3, 2006, 'superbly penned by Justice Angelina Sandoval-Gutierrez during my term as CJ') and address transcendental-importance issues on the merits. He frames the ATA case around three novel and transcendental constitutional issues: (1) whether the war on terrorism can justify an innovative reading of the constitutional guarantee that 'no warrant of arrest shall issue except upon probable cause to be determined personally by the judge' vis-à-vis the ATA's Anti-Terrorism Council (composed only of executive officials) authorizing arrest and 24-day detention; (2) whether Congress can amend the Rules of Court on warrantless arrests when the Constitution expressly grants that rule-making power to the Supreme Court; (3) whether the ATA's terrorism acts are unconstitutionally vague or overbroad. Citing the Court's successful adjudication of other novel laws (cybercrime, money laundering) the Framers could not have contemplated, he closes with a 'fervent hope' that the Court will decide the petitions 'speedily, head-on, on their merit, in clear and simple language' -- delivering 'substantial justice understandable by ordinary citizens, free of legal gobbledygook intelligible only to lawyers.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

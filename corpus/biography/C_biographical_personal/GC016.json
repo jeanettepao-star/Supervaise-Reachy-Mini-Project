@@ -1,0 +1,174 @@
+{
+  "id": "GC016",
+  "format": "G",
+  "type": "biography",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 16,
+  "title": "EDSA, Judgment at Dawn",
+  "date": "2001-01-20",
+  "link": "",
+  "keywords": [
+    "EDSA II",
+    "Hilario Davide Jr.",
+    "swear her in",
+    "Arroyo oath",
+    "Estrada motion for reconsideration"
+  ],
+  "primary_topics": [
+    "January 2001 as moral emergency outpacing doctrine and precedent",
+    "Constitutional paralysis -- Estrada-still-technically-President + Arroyo-tethered-by-constraint",
+    "Art's prayer-and-judgment withdrawal followed by call to CJ Davide",
+    "Swear-her-in three-imperative directive + noon-oath of Arroyo",
+    "Recusal + 13-justice unanimous validation + history-continued-to-argue closing"
+  ],
+  "sub_topics": [
+    "January 2001 not legal-puzzle-to-be-solved-by-precedent-or-procedure -- moral-emergency-unfolding-faster-than-doctrine",
+    "Streets-already-rendered-their-verdict + Estrada-lost-confidence-of-the-people",
+    "Authority-eroded-by-public-withdrawal (not by court ruling)",
+    "EDSA protesters massed + Mendiola barricades hardened + chants louder/angrier/less patient",
+    "Yet in-the-cold-language-of-law Estrada-remained-President",
+    "Arroyo endowed-with-moral-authority + buoyed-by-popular-support but still-tethered-by-constitutional-constraint",
+    "Constitution-designed-to-ensure-order-now-threatened-paralysis",
+    "Military-hesitation + each-hour-increased-danger-of-miscalculation",
+    "Coup-open-or-disguised no-longer-unthinkable + Republic-suspended-between-legality-and-collapse",
+    "Art-watched-the-situation-darken-from-within-Supreme-Court",
+    "Imagined-violence-at-the-barricades + bloodshed-justified-by-confusion + Constitution-rendered-irrelevant-by-force",
+    "Feared-violence-more-than-controversy + feared-constitutional-collapse-more-than-personal-criticism",
+    "Withdrew-from-noise-to-reflection-prayer-judgment lifelong-trained reflex",
+    "Pre-dawn January 20 conclusion -- Constitution-had-to-be-saved-from-annihilation-by-inaction",
+    "Call to Chief Justice Hilario Davide Jr.",
+    "Direct + unembellished + grave word -- 'Swear her in.'",
+    "Davide-listened + extraordinary-not-illegal-but-unprecedented characterization",
+    "By noon -- Arroyo took the oath of office",
+    "Immediate crisis passed + Republic held",
+    "Decision divided opinion for decades -- scholars-debate + politicians-weaponize + critics-accuse-intervention + defenders-call-it-constitutional-rescue",
+    "Recusal of Art and Davide when legality of Arroyo's presidency reached the Court",
+    "Thirteen justices voted unanimously to uphold Arroyo's ascension + later denied with finality Estrada's motion for reconsideration",
+    "Art-did-not-act-to-seize-power + did-not-act-to-choose-a-president + acted-to-preserve-order-when-order-was-about-to-fail",
+    "Jurist-judged-by-whether-when-Constitution-trembles-he-chooses-courage-over-comfort-and-responsibility-over-silence closing"
+  ],
+  "signature_phrases": [
+    "It was a moral emergency, unfolding faster than doctrine could keep pace",
+    "the streets had already rendered their verdict",
+    "in the cold language of law, he remained President",
+    "the Constitution, designed to ensure order, now threatened paralysis",
+    "He feared violence more than controversy",
+    "He feared constitutional collapse more than personal criticism",
+    "the Constitution had to be saved from annihilation by inaction",
+    "Swear her in",
+    "extraordinary -- not because it was illegal, but because it was unprecedented",
+    "continuity of constitutional order without resort to force",
+    "history would refuse easy consensus",
+    "to preserve order when order was about to fail",
+    "chooses courage over comfort and responsibility over silence"
+  ],
+  "entities": {
+    "people": [
+      "Artemio Villaseñor Panganiban Jr. (Associate Justice -- placed the dawn call)",
+      "Chief Justice Hilario G. Davide Jr. (recipient of the swear-her-in call + administered the noon oath)",
+      "President Joseph Estrada (still technically President; lost confidence of the people)",
+      "Vice President Gloria Macapagal Arroyo (took the oath at noon Jan 20, 2001)",
+      "Thirteen Justices of the Supreme Court (unanimously upheld Arroyo's ascension after Art and Davide recused)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Office of the President / Malacañang",
+      "Office of the Vice President",
+      "Philippine military (hesitated)",
+      "The Constitution itself (as institutional actor)"
+    ],
+    "places": [
+      "EDSA (protests)",
+      "Mendiola (barricades)",
+      "Supreme Court (Art's vantage point)",
+      "Site of the noon oath-taking"
+    ],
+    "events": [
+      "EDSA II / EDSA Dos (Jan 16-20, 2001)",
+      "January 20, 2001 noon oath-of-office of Gloria Macapagal Arroyo",
+      "Estrada motion for reconsideration (denied with finality)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "January 2001 was not a legal puzzle to be solved by precedent or procedure -- it was a moral emergency, unfolding faster than doctrine could keep pace.",
+      "rhetorical_move": "not-legal-puzzle-but-moral-emergency reframe + faster-than-doctrine-could-keep-pace urgency",
+      "confidence": "biographer-asserted as stakes-framing"
+    },
+    {
+      "claim": "The streets had already rendered their verdict -- Estrada had lost the confidence of the people, his authority eroded not by court ruling but by public withdrawal; protesters massed at EDSA, barricades hardened around Mendiola, chants grew louder, angrier, less patient; yet in the cold language of law, he remained President.",
+      "rhetorical_move": "streets-rendered-verdict + authority-eroded-by-public-withdrawal-not-court-ruling + cold-language-of-law contrastive closing",
+      "confidence": "biographer-asserted as paradox-framing"
+    },
+    {
+      "claim": "On the other side stood Vice President Arroyo -- endowed with moral authority, buoyed by popular support, but still tethered by constitutional constraint; she could not act without risking illegitimacy. The Constitution, designed to ensure order, now threatened paralysis.",
+      "rhetorical_move": "endowed-with-moral-authority + buoyed-by-popular-support + tethered-by-constitutional-constraint triplet + Constitution-designed-for-order-now-threatened-paralysis irony",
+      "confidence": "biographer-asserted as paralysis-framing"
+    },
+    {
+      "claim": "From within the Supreme Court Art watched the situation darken -- he saw the abyss clearly, imagined what hesitation could unleash (violence at the barricades, bloodshed justified by confusion, the Constitution rendered irrelevant by force); he understood that once order dissolved, no court ruling could restore it intact. He feared violence more than controversy. He feared constitutional collapse more than personal criticism.",
+      "rhetorical_move": "darken-and-imagined-the-abyss interior framing + feared-X-more-than-Y twin parallel construction",
+      "confidence": "biographer-asserted as interior-decision-rationale"
+    },
+    {
+      "claim": "In the quiet hours before dawn on January 20 he reached the conclusion that would mark him permanently -- the Constitution had to be saved from annihilation by inaction; if the law could not move forward decisively, it would be overtaken by events beyond its control. There was only one path left.",
+      "rhetorical_move": "saved-from-annihilation-by-inaction aphoristic conclusion + one-path-left climax",
+      "confidence": "biographer-asserted as decisional-thesis"
+    },
+    {
+      "claim": "He placed the call to Chief Justice Hilario Davide Jr. -- his words were direct, unembellished, grave: 'Swear her in.' Davide listened. The proposal was extraordinary -- not because it was illegal, but because it was unprecedented; it carried risk, invited criticism, would be misunderstood, but it offered one essential thing: continuity of constitutional order without resort to force. By noon, before uncertainty could metastasize into violence, Gloria Macapagal Arroyo took the oath of office. The immediate crisis passed. The Republic held.",
+      "rhetorical_move": "direct-unembellished-grave triplet + Swear-her-in quoted-imperative + extraordinary-not-illegal-but-unprecedented reframe + by-noon-before-metastasize-into-violence timeline + crisis-passed Republic-held closing",
+      "confidence": "biographer-asserted as decisive-act narration"
+    },
+    {
+      "claim": "When the legality of Arroyo's presidency later reached the Supreme Court, Art did what his conscience and integrity required: he recused himself. So did Davide. The Court deliberated without them. The result was unequivocal -- thirteen justices voted unanimously to uphold Arroyo's ascension to the presidency, and later to deny with finality Estrada's motion for reconsideration.",
+      "rhetorical_move": "recusal-as-conscience-and-integrity + 13-justice-unanimous + Estrada-motion-denied-with-finality validation cascade",
+      "confidence": "biographer-asserted with vote-count anchoring"
+    },
+    {
+      "claim": "He had not acted to seize power. He had not acted to choose a president. He had acted, as he understood it, to preserve order when order was about to fail. In moments like that, he believed, a jurist is not judged by popularity or applause -- but by whether, when the Constitution trembles, he chooses courage over comfort and responsibility over silence.",
+      "rhetorical_move": "triple-not + acted-to-preserve-order-when-order-was-about-to-fail thesis + jurist-not-judged-by-popularity + courage-over-comfort + responsibility-over-silence closing maxim",
+      "confidence": "biographer-asserted as closing-charge"
+    }
+  ],
+  "notable_anecdotes": [
+    "Pre-dawn January 20, 2001 conclusion -- 'the Constitution had to be saved from annihilation by inaction'",
+    "Three-word imperative call to CJ Davide -- 'Swear her in.' delivered direct, unembellished, grave",
+    "Noon oath of Gloria Macapagal Arroyo administered by Davide -- Republic held",
+    "Recusal of both Art and Davide when legality of Arroyo's presidency reached the Court",
+    "Thirteen justices voted unanimously to uphold Arroyo's ascension",
+    "Estrada motion for reconsideration denied with finality",
+    "Feared-violence-more-than-controversy + feared-constitutional-collapse-more-than-personal-criticism twin-fear interior-rationale",
+    "Closing maxim -- 'a jurist is not judged by popularity or applause -- but by whether, when the Constitution trembles, he chooses courage over comfort and responsibility over silence'"
+  ],
+  "target_audience": [
+    "Constitutional-law students + EDSA II historians",
+    "Future jurists weighing role of judgment at moments of institutional crisis",
+    "Filipino electorate revisiting the 2001 transition",
+    "Davide-legacy readers (twin-recusal companion legacy)",
+    "International readers of Philippine constitutional history",
+    "FLP-philosophy stakeholders tracing the Constitution-must-protect-liberty thesis to a defining moment"
+  ],
+  "register_markers": [
+    "Moral-emergency-not-legal-puzzle stakes-elevation reframe",
+    "Streets-rendered-verdict + cold-language-of-law paradox-framing",
+    "Tethered-by-constitutional-constraint + Constitution-threatened-paralysis irony-framing",
+    "Feared-X-more-than-Y twin parallel construction",
+    "Direct-unembellished-grave triplet for the call",
+    "Extraordinary-not-illegal-but-unprecedented reframe device",
+    "Triple-not negation + acted-to-preserve-order maxim",
+    "Closing-charge maxim -- courage-over-comfort + responsibility-over-silence"
+  ],
+  "decision_framework_signals": [
+    "Moral-emergency-trumps-doctrinal-precedent test under constitutional crisis",
+    "Feared-violence-more-than-controversy + feared-collapse-more-than-criticism prioritization",
+    "Saved-from-annihilation-by-inaction action-imperative principle",
+    "Extraordinary-not-illegal-but-unprecedented test for radical-simplicity intervention",
+    "Continuity-of-constitutional-order-without-resort-to-force outcome standard",
+    "Recusal-as-conscience-and-integrity after-the-act ethics",
+    "Jurist-judged-by-courage-over-comfort + responsibility-over-silence closing standard"
+  ],
+  "one_paragraph_summary": "The EDSA II chapter dramatizes Art's defining act of judgment. January 2001 is framed not as a legal puzzle but as 'a moral emergency, unfolding faster than doctrine could keep pace' -- Estrada had lost the confidence of the people, his authority eroded 'not by court ruling but by public withdrawal,' yet 'in the cold language of law, he remained President'; Arroyo was 'tethered by constitutional constraint,' the Constitution 'designed to ensure order' now 'threatened paralysis,' and a coup was 'no longer unthinkable.' From within the Supreme Court Art imagined the abyss -- violence at the barricades, bloodshed justified by confusion, Constitution rendered irrelevant by force -- and concluded he 'feared violence more than controversy' and 'constitutional collapse more than personal criticism.' Withdrawing into prayer and judgment in the pre-dawn hours of January 20, he reaches the conclusion that 'the Constitution had to be saved from annihilation by inaction.' He places the call to CJ Hilario Davide Jr. with the direct, unembellished, grave imperative 'Swear her in.' Davide listens; the proposal is 'extraordinary -- not because it was illegal, but because it was unprecedented.' By noon Arroyo takes the oath; the immediate crisis passes; the Republic holds. When the legality of her presidency later reaches the Court, Art recuses himself (so does Davide), and the Court rules 13-0 to uphold her ascension, later denying with finality Estrada's motion for reconsideration. The chapter closes with the charge: 'He had not acted to seize power. He had not acted to choose a president. He had acted, as he understood it, to preserve order when order was about to fail' -- judged not by popularity but by 'whether, when the Constitution trembles, he chooses courage over comfort and responsibility over silence.'",
+  "source_xlsx": "cjp_biography_curated_normalized.xlsx"
+}

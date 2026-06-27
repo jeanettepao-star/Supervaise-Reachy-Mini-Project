@@ -1,0 +1,147 @@
+{
+  "id": "CA272",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 272,
+  "title": "Most formidable challenge to federalism",
+  "date": "2018-07-15",
+  "link": "https://opinion.inquirer.net/114609/formidable-challenge-federalism",
+  "keywords": [
+    "federalism timetable",
+    "midterm election cancellation",
+    "Alvarez plebiscite timeline",
+    "ConCom draft vs PDP-Laban draft",
+    "four federal high courts"
+  ],
+  "primary_topics": [
+    "Timeline impossibility of ratifying a federal constitution by May 2019",
+    "Divergence between the ConCom and HOR/PDP-Laban draft constitutions",
+    "Constitutional design controversies in the ConCom draft"
+  ],
+  "sub_topics": [
+    "Midterm election on May 13, 2019 as ratification target",
+    "60-90 day plebiscite window -- Congress must approve by March 13, 2019",
+    "Speaker Alvarez's election-cancellation proposal",
+    "Senate President Sotto's initial support, then reversal after public mood signal",
+    "Roque: President wants midterm polls held as scheduled",
+    "1986 ConCom took ~1 year including ratification",
+    "2018 ConCom took ~6 months (January-July)",
+    "Congress cannot work full-time; budget passage takes 4 months",
+    "All Saints Day (2 weeks) and Christmas (1 month) recesses",
+    "ConCom draft (bicameral, American system, bicameral coequal of president)",
+    "House committee draft (presidential-parliamentary / French model, prime minister elected by HOR, no VP)",
+    "PDP-Laban concept (president = head of state, national defense, foreign affairs; PM = head of government, domestic and economic policy)",
+    "Four federal high courts controversy: Federal SC, Federal Constitutional Court, Federal Administrative Court, Federal Electoral Court",
+    "Regional Supreme Court and Regional Court of Appeals",
+    "Impeachment committee in Congress but trial/removal by constitutional and administrative courts",
+    "Roque's 'national projects transferred to LGU allotments' as partial allayment"
+  ],
+  "signature_phrases": [
+    "most formidable challenge",
+    "utter lack of time",
+    "the bonanza of extending their terms indefinitely",
+    "forbidding",
+    "working full-time daily",
+    "six months would be utterly insufficient",
+    "supreme in their own spheres",
+    "more characteristic of the Russian system than the American one"
+  ],
+  "entities": {
+    "people": [
+      "Speaker Pantaleon Alvarez",
+      "Senate President Vicente 'Tito' Sotto III",
+      "Presidential Spokesperson Harry Roque",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Congress of the Philippines (House and Senate)",
+      "ConCom (Consultative Committee)",
+      "PDP-Laban",
+      "House Committee on Constitutional Amendments",
+      "1986 Constitutional Commission (historical comparator)",
+      "French system (comparative reference)",
+      "American system (comparative reference)",
+      "Russian system (comparative reference)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution (amendment/revision procedure: 60-90 day plebiscite window)",
+      "ConCom Bayanihan Constitution draft",
+      "PDP-Laban federal constitution concept",
+      "House committee draft"
+    ],
+    "events": [
+      "May 13, 2019 midterm elections (target ratification date)",
+      "All Saints Day recess (2 weeks)",
+      "Christmas break (1 month)",
+      "Alvarez's election-cancellation proposal",
+      "Roque's clarification that President wants midterms held"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The most formidable challenge to federalism is the utter lack of time: Congress must pass the revision by March 13, 2019, but loses weeks to recesses, the budget, and political campaigning.",
+      "rhetorical_move": "timeline-arithmetic demolition of the 2019 ratification goal",
+      "confidence": "high"
+    },
+    {
+      "claim": "Speaker Alvarez's election-cancellation proposal was 'the unthinkable' -- and the lawmakers' bonanza of indefinitely extended terms exposed the self-interest behind it.",
+      "rhetorical_move": "conflict-of-interest exposure",
+      "confidence": "high"
+    },
+    {
+      "claim": "The ConCom's bicameral American-model draft is substantially different from -- and in many ways contradictory to -- the PDP-Laban and House committee drafts, making unification within six months virtually impossible.",
+      "rhetorical_move": "inter-draft-conflict analysis",
+      "confidence": "high"
+    },
+    {
+      "claim": "The ConCom's proposal of four separate high courts (each 'supreme in their own spheres') with a chief justice each is confusing and more characteristic of the Russian than the American system it claims to follow.",
+      "rhetorical_move": "comparative-constitutional design critique",
+      "confidence": "high"
+    },
+    {
+      "claim": "Splitting the impeachment power (Congress) from the trial/removal power (Constitutional and Administrative Courts) is another controversial design flaw.",
+      "rhetorical_move": "institutional-design critique",
+      "confidence": "high"
+    },
+    {
+      "claim": "Six months would be utterly insufficient to resolve all these problems for a Congress saddled with other vital work and members campaigning for political survival.",
+      "rhetorical_move": "closing definitive verdict on feasibility",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Speaker Alvarez proposing the cancellation of the midterm election so lawmakers can focus on Cha-cha -- and the implicit benefit of extending their terms indefinitely without facing the electorate.",
+    "The 1986 Constitutional Commission (working full-time daily) taking about a year including ratification; the 2018 ConCom (also full-time daily) taking six months -- vs a Congress that cannot work full-time and needs four months for the budget alone.",
+    "The four-supreme-court design: Federal Supreme Court, Federal Constitutional Court, Federal Administrative Court, and Federal Electoral Court -- each with its own chief justice -- compared to the Russian system.",
+    "The split of impeachment (Joint Impeachment Committee of Congress) from trial and removal (Federal Constitutional Court and Federal Administrative Court) -- a constitutional anomaly."
+  ],
+  "target_audience": [
+    "Congress deliberating constitutional revision",
+    "President Duterte and Malacañang",
+    "ConCom members",
+    "Constitutional law scholars and comparative-constitution researchers",
+    "Civic readership evaluating the federalism push"
+  ],
+  "register_markers": [
+    "Timeline-arithmetic structure as the primary argument",
+    "Comparative-constitutional references (American, French, Russian systems)",
+    "'Unthinkable' descriptor for Alvarez's proposal",
+    "Legislative-calendar recess accounting",
+    "Three-draft-comparison format",
+    "Numbered controversy list for the ConCom design",
+    "Definitive closing verdict ('utterly insufficient')"
+  ],
+  "decision_framework_signals": [
+    "Count available working days before mandated deadlines -- timeline feasibility is a constitutional constraint",
+    "Expose legislator self-interest when it aligns with constitutional revision (term-extension bonus)",
+    "Unify competing drafts before ratification campaigns -- contradictory versions cannot be approved by voters",
+    "Apply comparative-constitutional benchmarking: does the design resemble the stated model or a different one?",
+    "Separate the power to impeach from the power to try/remove at peril of institutional incoherence",
+    "Test complex constitutional designs against the simpler alternative (LGC implementation) for proportionality"
+  ],
+  "one_paragraph_summary": "Panganiban identifies the most formidable challenge to federalism as the sheer lack of time: the 1987 Constitution requires revisions to be approved by Congress and then ratified in a plebiscite held 60-90 days afterward, meaning Congress must pass the revision by March 13, 2019 to hit the May 13, 2019 midterm coincidence. Deducting the All Saints Day recess (two weeks), Christmas break (one month), and the four months typically consumed by the budget, Congress has only about six months -- and cannot work full-time daily as the 1986 Constitutional Commission (one year) and the 2018 ConCom (six months, both full-time) did. Speaker Alvarez's proposal to cancel the midterm election -- so lawmakers could focus on Cha-cha rather than campaign for 'political survival' -- was 'the unthinkable,' transparently offering legislators the bonanza of extending their terms indefinitely; Senate President Sotto initially agreed but reversed after reading the public mood, and Roque clarified the President wants the midterms held. Beyond timeline, the column identifies deep substantive conflicts among three versions: the ConCom's Bayanihan Constitution (bicameral, American model), the PDP-Laban concept (president as head of state for defense and foreign affairs; prime minister elected by the HOR as head of government), and the House committee draft (more French presidential-parliamentary with no VP). The ConCom also proposed four separate high courts -- Federal Supreme Court, Federal Constitutional Court, Federal Administrative Court, and Federal Electoral Court -- each 'supreme in their own spheres' with its own chief justice, a structure the author finds more Russian than American, plus a split between the impeachment power (Congress) and the trial/removal power (Constitutional and Administrative Courts). Six months would be utterly insufficient to resolve all of these problems, concludes Panganiban.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

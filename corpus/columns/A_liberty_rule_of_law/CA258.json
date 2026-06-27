@@ -1,0 +1,163 @@
+{
+  "id": "CA258",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 258,
+  "title": "Imelda convicted, but why only now?",
+  "date": "2018-11-25",
+  "link": "https://opinion.inquirer.net/117706/imelda-convicted-but-why-only-now",
+  "keywords": [
+    "Imelda Marcos conviction",
+    "27-year delay",
+    "Sandiganbayan Fifth Division",
+    "Anti-Graft Law RA 3019",
+    "Swiss foundations",
+    "Justice Mañalac"
+  ],
+  "primary_topics": [
+    "Why Imelda's conviction took 27 years (graft cases filed 1991, 1993, 1995)",
+    "Why she was convicted only of graft (RA 3019), not plunder",
+    "Why her ill-gotten wealth was not forfeited in the criminal case",
+    "Why she was granted bail despite criminal conviction",
+    "Strange immediate release order signed solely by PJ Lagos"
+  ],
+  "sub_topics": [
+    "10 cases lodged against Imelda -- 5 filed Dec 16, 1991; 1 filed Dec 21, 1993; 4 filed Aug 17, 1995",
+    "Cases raffled to different SBN divisions, later consolidated in Fifth Division",
+    "Allegations: Imelda and Ferdinand Marcos used Swiss foundations to hide wealth",
+    "Causes of delay: inhibitions of former ponentes, midstream amendments of charges, motions to quash (reaching SC), Ombudsman reinvestigations, multiple postponements",
+    "Memoranda submitted Aug 29 and Sept 19, 2017",
+    "Justice Maryann E. Corpus-Mañalac -- ponente, appointed to Sandiganbayan Dec 8, 2017",
+    "Mañalac diligently read 5-foot-thick records and gargantuan transcripts",
+    "Testimonies from former PM Cesar Virata, former CB Governor Jaime Laya, former SG Frank Chavez, former Ambassador Luis Ascalon, others",
+    "70-page single-spaced decision with 226 footnotes",
+    "Imelda convicted in 7 of 10 offenses, acquitted in 3",
+    "Anti-Graft Law (RA 3019) in relation to 1973 Constitution",
+    "Anti-Plunder Law enacted after Marcos ouster -- could not be retroactively applied",
+    "Forfeiture handled in separate civil suits, not criminal case",
+    "Perpetual disqualification from public office",
+    "Bail granted because no capital offense charged",
+    "Original bail bond P150,000 forfeited due to absence at promulgation",
+    "Nov 9, 2018 -- arrest order issued",
+    "Nov 16, 2018 -- Imelda posted new P150,000 bail bond",
+    "Same-day release ordered by PJ Rafael R. Lagos (Fifth Division chairman)",
+    "Strange aspects: only Lagos signed (not Mendoza-Arcega or Mañalac); 'Motion for Leave to Avail of Post-Conviction Remedies' not yet ruled upon; prosecution did not object"
+  ],
+  "signature_phrases": [
+    "Why did it take all of 27 years?",
+    "Why was she not jailed after being convicted?",
+    "Why was she granted bail?",
+    "Why was her ill-gotten wealth not forfeited?",
+    "Why was she convicted only of graft?",
+    "Why not of plunder, a nonbailable offense, given the enormous amounts involved?",
+    "the questions befuddling readers",
+    "Clearly, she can't be blamed for the delay",
+    "She immediately buckled down to work",
+    "gargantuan 5-foot-thick court records",
+    "Justice Mañalac should be praised, not criticized, for diligently writing the 70-page, single-spaced decision",
+    "authoritatively buttressed by 226 footnotes",
+    "With unassailable logic, she patiently traversed each element",
+    "the Anti-Plunder Law was enacted after Marcos was ousted",
+    "Strange is her immediate release",
+    "Strange also why the prosecution did not object"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Imelda R. Marcos",
+      "Former President Ferdinand Marcos",
+      "Justice Maryann E. Corpus-Mañalac (Sandiganbayan ponente)",
+      "Justice Rafael R. Lagos (SBN Fifth Division chairman, sole signatory of release order)",
+      "Justice Maria Theresa V. Mendoza-Arcega (SBN Fifth Division member)",
+      "Former PM Cesar Virata (witness)",
+      "Former CB Governor Jaime Laya (witness)",
+      "Former SG Frank Chavez (witness)",
+      "Former Ambassador Luis Ascalon (witness)"
+    ],
+    "institutions": [
+      "Sandiganbayan Fifth Division",
+      "Office of the Ombudsman",
+      "Presidential Commission on Good Government (implicit through ill-gotten-wealth focus)",
+      "Swiss foundations (used by Marcoses to hide wealth)",
+      "Supreme Court (motions to quash had to reach and be decided by it first)"
+    ],
+    "cases": [
+      "10 graft cases against Imelda -- 5 filed Dec 16, 1991; 1 Dec 21, 1993; 4 Aug 17, 1995",
+      "Mañalac's 70-page, single-spaced decision with 226 footnotes (7 convictions, 3 acquittals)"
+    ],
+    "laws_treaties": [
+      "Republic Act No. 3019 (Anti-Graft Law)",
+      "1973 Constitution (in relation to which Imelda was convicted)",
+      "Anti-Plunder Law (enacted post-Marcos ouster, hence inapplicable)"
+    ],
+    "events": [
+      "Dec 16, 1991 -- first 5 cases filed",
+      "Dec 21, 1993 -- sixth case filed",
+      "Aug 17, 1995 -- last 4 cases filed",
+      "Aug 29 / Sept 19, 2017 -- memoranda submitted",
+      "Dec 8, 2017 -- Mañalac appointed to Sandiganbayan",
+      "Promulgation date -- Imelda absent",
+      "Nov 9, 2018 -- arrest order",
+      "Nov 16, 2018 -- bail posted, same-day release ordered"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The 27-year delay between filing (1991-1995) and conviction (2018) is attributable to systemic factors -- inhibitions of former ponentes, midstream amendments, multiple motions to quash reaching the SC, Ombudsman reinvestigations, prosecution and defense postponements -- not to the current ponente, Justice Mañalac, who was appointed only December 8, 2017 and diligently produced a 70-page single-spaced decision with 226 footnotes in under a year.",
+      "rhetorical_move": "blame-attribution-correction (defend Mañalac from delay-blame)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Imelda could not be charged with plunder because the Anti-Plunder Law was enacted AFTER Marcos was ousted -- making the only available charge under the 1973 Constitution the Anti-Graft Law (RA 3019), which is bailable and produces less severe consequences than plunder would have.",
+      "rhetorical_move": "retroactive-application impossibility argument",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Forfeiture of ill-gotten wealth was not part of the criminal judgment because separate civil suits were instituted to recover the Swiss-foundation millions -- the criminal judgment did, however, perpetually disqualify Imelda from holding any public office.",
+      "rhetorical_move": "procedure-channel clarification (civil vs criminal venue)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Imelda's same-day release on Nov 16, 2018 is procedurally strange in three ways: only PJ Lagos signed the release order (not the two division members Mendoza-Arcega and Mañalac); her 'Motion for Leave of Court to Avail of Post-Conviction Remedies' had not yet been ruled upon; and the prosecution did not object -- meekly accepting the bail grant.",
+      "rhetorical_move": "three-strange-fact enumeration (procedural anomalies as analytical concern)",
+      "confidence": "asserted with 'Strange is/also' marker"
+    }
+  ],
+  "notable_anecdotes": [
+    "The six-question opening cascade -- 'Why did it take all of 27 years? Why was she not jailed after being convicted? Why was she granted bail? Why was her ill-gotten wealth not forfeited? Why was she convicted only of graft? Why not of plunder?' -- capturing the public's befuddlement in a single salvo before CJ provides systematic answers.",
+    "Justice Mañalac's gargantuan task: 'she had to peruse minutely the gargantuan 5-foot-thick court records' -- physicalizing the literal volume of paperwork a new SBN appointee inherited and processed.",
+    "The named-witness list -- former PM Cesar Virata, former CB Governor Jaime Laya, former SG Frank Chavez, former Ambassador Luis Ascalon -- quietly establishing that the conviction rests on testimony from credentialed government insiders.",
+    "The 226-footnote-buttressed 70-page decision with unassailable logic patiently traversing each element of 10 offenses -- making Mañalac's diligence the column's defensive shield against critics who might attribute the delay (or any acquittals) to inadequate work.",
+    "Triple strangeness: only PJ Lagos signing the release order, the 'Motion for Leave' not yet ruled upon, and the prosecution's meek non-objection -- flagged as the column's most consequential procedural-anomaly inventory."
+  ],
+  "target_audience": [
+    "Readers of headline coverage demanding explanations",
+    "Criminal-procedure practitioners and academics",
+    "Marcos family / regime critics and observers",
+    "Anti-Plunder Law historians",
+    "Sandiganbayan observers and reformers"
+  ],
+  "register_markers": [
+    "six-question cascade opening",
+    "systematic-answer structure addressing each question in turn",
+    "defend-the-ponente framing (Mañalac protected from delay-blame)",
+    "procedural-channel clarification register (criminal vs civil venues)",
+    "retroactive-application impossibility argument",
+    "'Strange is/Strange also' triple-anomaly enumeration",
+    "named-witness list as credibility evidence",
+    "70-page / 226-footnote precision",
+    "'in a relation to the 1973 Constitution' constitutional anchoring",
+    "5-foot-thick record physicalization"
+  ],
+  "decision_framework_signals": [
+    "uses blame-attribution-correction to defend new appointees from inherited-delay blame",
+    "applies retroactive-application impossibility argument to charge-selection constraints",
+    "deploys procedural-channel clarification (civil vs criminal) to explain absence of remedies",
+    "treats procedural anomalies (single-signature, unresolved motion, prosecution non-objection) as analytically significant beyond outcome",
+    "marshals named-witness credentials as conviction-credibility evidence"
+  ],
+  "one_paragraph_summary": "Panganiban systematically answers the six questions befuddling readers about Imelda Marcos's conviction: why it took 27 years, why she was not jailed, why she was granted bail, why her ill-gotten wealth was not forfeited, why she was convicted only of graft, and why not of plunder. He explains that of the 10 cases lodged against her, five were filed by the Office of the Ombudsman on December 16, 1991, one on December 21, 1993, and four on August 17, 1995 -- alleging the use of Swiss foundations by Imelda and Ferdinand Marcos to hide wealth -- and were raffled to different Sandiganbayan divisions before consolidation in the Fifth Division. The delay was attributable to inhibitions of former ponentes, midstream amendments of charges, multiple motions to quash that had to reach and be decided by the Supreme Court, Ombudsman reinvestigations, and numerous postponements by both sides; the prosecution and defense memoranda were submitted only on August 29 and September 19, 2017. The new ponente, Justice Maryann E. Corpus-Mañalac -- appointed to the Sandiganbayan only on December 8, 2017 -- cannot be blamed for the delay; she diligently perused the gargantuan five-foot-thick records and produced a 70-page, single-spaced decision buttressed by 226 footnotes, convicting Imelda in seven of ten offenses and acquitting her in three. Imelda was convicted under the Anti-Graft Law (RA 3019) in relation to the 1973 Constitution; she could not be charged with plunder because the Anti-Plunder Law was enacted only after Marcos was ousted. Forfeiture was not part of the criminal judgment because separate civil suits exist to recover the Swiss-foundation millions, though the judgment perpetually disqualified her from public office. She was granted bail because none of her offenses was a capital one; her original P150,000 bond was forfeited due to her absence at promulgation, an arrest order was issued November 9, 2018, and she posted a new P150,000 bond on November 16, with PJ Rafael R. Lagos ordering her release the same day. Panganiban flags as strange that only Lagos signed the release order (without his Fifth Division co-members Mendoza-Arcega and Mañalac), that her 'Motion for Leave of Court to Avail of Post-Conviction Remedies' had not yet been ruled upon, and that the prosecution did not object to and meekly accepted the bail grant.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

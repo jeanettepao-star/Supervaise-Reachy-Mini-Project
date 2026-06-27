@@ -1,0 +1,174 @@
+{
+  "id": "CA381",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 381,
+  "title": "Grace Poe's citizenship",
+  "date": "2015-06-14",
+  "link": "https://opinion.inquirer.net/85819/grace-poes-citizenship",
+  "keywords": [
+    "Grace Poe",
+    "natural-born",
+    "foundling",
+    "citizenship",
+    "presidential bid",
+    "international law",
+    "treaty obligations"
+  ],
+  "primary_topics": [
+    "Foundational Grace Poe citizenship column -- most back-referenced piece in the corpus",
+    "Three critic-objections framed and refuted: (1) stateless as foundling, (2) lost citizenship via American marriage, (3) adoption by FPJ/Susan Roces did not confer natural-born status",
+    "1987 natural-born definition and 1935 Constitution as governing law for Poe's 1968 birth",
+    "Framers' silence on foundlings explained via generally-accepted-principles incorporation clause",
+    "Mijares v. Ranada (April 12, 2005): two-element test for generally-accepted-principles",
+    "1961 Convention on Statelessness Article 2 quoted; Jaro Iloilo biographical detail",
+    "Razon v. Taglis (Dec 3, 2009): international-custom evidence sources",
+    "1948 UDHR 'right to a nationality' bridge; 'high time PH acceded to 1961 Convention' policy call",
+    "1930 Hague Convention: each state determines its own nationals; adoption-does-not-confer-citizenship cases distinguished",
+    "DNA coda via Tijing and Vallejo"
+  ],
+  "sub_topics": [
+    "ALL-CAPS opening: 'CRITICS CHALLENGE the citizenship qualifications of Sen. Grace Poe'",
+    "Three critic-objections: (1) as foundling she was stateless, (2) acquired American citizenship by marriage, (3) FPJ adoption did not confer natural-born status",
+    "1987 natural-born definition: 'citizens of the Philippines from birth without having to perform any act to acquire or perfect their Philippine citizenship'",
+    "Since natural-born requires citizenship 'from birth' and Poe was born in 1968 -- 1935 Constitution governs",
+    "Neither 1935 Constitution nor any statute as of 1968 expressly conferred citizenship on foundlings",
+    "But framers said expressive provision was unnecessary -- determinable from international law",
+    "1935 Constitution + 1987 Constitution both have generally-accepted-principles-of-international-law incorporation clause",
+    "Mijares v. Ranada (April 12, 2005): generally-accepted-principles have two elements: (1) established, widespread and consistent state practice; (2) opinio juris sive necessitates (belief the practice is obligatory)",
+    "1961 Convention Article 2: 'A foundling found in the territory of a Contracting State shall, in the absence of proof to the contrary, be considered to have been born within the territory of parents possessing the nationality of that State'",
+    "Poe found near a church in Jaro, Iloilo, when only a few days old -- parents presumed Filipinos",
+    "PH is not a signatory -- but the treaty possesses both generally-accepted-principles elements because grant of nationality to foundlings is established, widespread, consistent practice since 1961",
+    "Razon v. Taglis (Dec 3, 2009): international custom shown from State practice, legislation, judicial decisions, treaties, pattern of treaties, international organ practice, UN General Assembly resolutions",
+    "1948 UDHR (PH is signatory; consistently enforced by SC): 'Everyone has a right to a nationality' -- denial to Poe would violate UDHR",
+    "Policy call: 'high time the Philippines acceded to and joined the 1961 Convention on Statelessness for the benefit of all Filipinos, especially illegitimate children whose parents are unknown, not just Senator Poe'",
+    "American citizenship: she acquired it by marriage to her American husband; renounced under American law; American Embassy affirmed renunciation",
+    "1930 Hague Convention: each state determines its own nationals -- American, not Philippine, law determines who are American citizens",
+    "Adoption: SC ruled several times adoption does not confer citizenship -- only gives civil rights of legitimate child",
+    "But those rulings do not apply to foundlings -- they were to prevent aliens from short-circuiting strict naturalization rules via adult adoption",
+    "Poe does not derive natural-born citizenship from adoption but from generally-accepted-principles",
+    "Presumed citizenship can become indisputable by DNA evidence",
+    "Tijing v. CA (March 8, 2001) + People v. Vallejo (May 2, 2002): DNA test is conclusive way of proving filiations",
+    "Will take up Poe's residence qualification in another column"
+  ],
+  "signature_phrases": [
+    "I respectfully disagree",
+    "in my humble opinion",
+    "Parenthetically",
+    "high time",
+    "from birth without having to perform any act",
+    "opinio juris sive necessitates"
+  ],
+  "entities": {
+    "people": [
+      "Sen. Grace Poe",
+      "Fernando Poe Jr. (FPJ, adoptive father)",
+      "Susan Roces (adoptive mother)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "American Embassy (affirmed renunciation)",
+      "United Nations General Assembly (UDHR)"
+    ],
+    "cases": [
+      "Mijares v. Ranada (April 12, 2005) -- generally-accepted-principles two-element test",
+      "Razon v. Taglis (December 3, 2009) -- international-custom evidence sources",
+      "Tijing v. Court of Appeals (March 8, 2001) -- DNA-evidence recognition",
+      "People v. Vallejo (May 2, 2002) -- DNA as conclusive filiation proof"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- natural-born definition + generally-accepted-principles clause",
+      "1935 Constitution -- generally-accepted-principles clause (governing for 1968 birth)",
+      "1961 Convention on the Reduction of Statelessness -- Article 2",
+      "1948 Universal Declaration of Human Rights -- right to nationality",
+      "1930 Hague Convention on Conflict of Nationality Laws"
+    ],
+    "events": [
+      "Poe found near a church in Jaro, Iloilo, as a few-days-old foundling",
+      "Poe's marriage to American husband + US citizenship acquisition",
+      "Poe's renunciation of American citizenship"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "CJP respectfully disagrees with all three critic-objections -- Poe as foundling is not stateless, her American citizenship was validly renounced, and adoption cases are distinguishable",
+      "rhetorical_move": "three-objection-rebuttal thesis",
+      "confidence": "high"
+    },
+    {
+      "claim": "The 1935 Constitution governs because Poe was born in 1968 -- neither that Charter nor any statute of that era expressly conferred citizenship on foundlings; but the framers said an express provision was unnecessary because it could be determined from international law",
+      "rhetorical_move": "time-of-birth controlling-law + framers-intent explanation",
+      "confidence": "high"
+    },
+    {
+      "claim": "Under Mijares v. Ranada's two-element test, the 1961 Convention's grant of nationality to foundlings has become a generally-accepted-principle of international law -- established, widespread, and consistent state practice since 1961, combined with opinio juris -- making it 'part of the law of the Nation' even though PH is not a signatory",
+      "rhetorical_move": "two-element-test application to establish binding force of non-ratified treaty",
+      "confidence": "high"
+    },
+    {
+      "claim": "Article 2 of the 1961 Convention: 'A foundling found in the territory of a Contracting State shall, in the absence of proof to the contrary, be considered to have been born within the territory of parents possessing the nationality of that State' -- Poe, found near a church in Jaro, Iloilo, when only a few days old, is presumed to have Filipino biological parents",
+      "rhetorical_move": "verbatim treaty-text citation as dispositive provision with biographical application",
+      "confidence": "high"
+    },
+    {
+      "claim": "Under the 1948 UDHR, which PH is a signatory and which the SC has consistently enforced, 'Everyone has a right to a nationality' -- a denial of nationality to Poe would be a plain violation of the UDHR",
+      "rhetorical_move": "UDHR as supplementary-rights bridge",
+      "confidence": "high"
+    },
+    {
+      "claim": "It is high time the Philippines acceded to and joined the 1961 Convention for the benefit of all Filipinos, especially illegitimate children whose parents are unknown -- not just for Poe's sake",
+      "rhetorical_move": "policy-call beyond-the-case framing",
+      "confidence": "high"
+    },
+    {
+      "claim": "SC rulings that adoption does not confer citizenship do not apply to foundlings -- those rulings were issued to prevent aliens from short-circuiting strict naturalization rules via adult adoption; Poe does not derive natural-born citizenship from adoption but from generally-accepted-principles",
+      "rhetorical_move": "adoption-cases-distinguished argument",
+      "confidence": "high"
+    },
+    {
+      "claim": "Poe's presumed citizenship can become indisputable if paternity is established by DNA evidence -- the SC has recognized DNA testing as conclusive proof of filiations since Tijing v. CA (March 8, 2001) and People v. Vallejo (May 2, 2002)",
+      "rhetorical_move": "DNA coda as confirmatory alternative",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Poe found near a church in Jaro, Iloilo, when only a few days old",
+    "American Embassy's affirmation of Poe's renunciation of American citizenship",
+    "CJP's policy call to accede to the 1961 Convention -- for all illegitimate children with unknown parents, not just Poe",
+    "Adoption-does-not-confer-citizenship cases distinguished as being for aliens attempting to circumvent naturalization",
+    "DNA evidence as the route to making Poe's presumed citizenship indisputable"
+  ],
+  "target_audience": [
+    "Inquirer readership and the general public",
+    "Lawyers and constitutional scholars",
+    "Poe campaign circle and critics",
+    "UNHCR and international human-rights advocates",
+    "Congress members considering the 1961 Convention accession",
+    "Foundling-rights and children's-rights advocates"
+  ],
+  "register_markers": [
+    "ALL-CAPS opening for emphasis",
+    "three-objection-rebuttal thesis structure",
+    "verbatim treaty-text citation (1961 Convention Article 2)",
+    "opinio juris Latin term",
+    "biographical-detail grounding (Jaro Iloilo church)",
+    "UDHR supplementary bridge",
+    "policy-call beyond-the-case framing",
+    "DNA coda as forward-reference",
+    "Parenthetically marker for policy call"
+  ],
+  "decision_framework_signals": [
+    "Three-critic-objection rebuttal structure",
+    "Time-of-birth controlling-law principle (1935 Constitution)",
+    "Generally-accepted-principles two-element test (Mijares)",
+    "Non-signatory binding-by-doctrine argument",
+    "Foundling-presumption doctrine (1961 Article 2)",
+    "UDHR as supplementary rights basis",
+    "Adoption-cases-distinguished argument",
+    "DNA evidence as confirmatory alternative channel"
+  ],
+  "one_paragraph_summary": "Panganiban opens with an ALL-CAPS declaration: 'CRITICS CHALLENGE the citizenship qualifications of Sen. Grace Poe to run for, be elected to and hold a higher public office allegedly because (1) as a foundling, she was stateless, (2) by her marriage, she acquired the American citizenship of her husband, and (3) her adoption by Fernando Poe Jr. and Susan Roces did not confer natural-born citizenship on her. I respectfully disagree.' Under the 1987 Constitution, natural-born citizens are 'those who are citizens of the Philippines from birth without having to perform any act to acquire or perfect their Philippine citizenship.' Since natural-born citizenship requires citizenship 'from birth' and Poe was born in 1968, the governing law is the 1935 Constitution -- which neither expressly conferred citizenship on foundlings, nor did any statute of that era. But the framers explained that an express provision was unnecessary since it could be determined from international law. Both Constitutions adopt 'the generally accepted principles of international law as part of the law of the Nation.' Under Mijares v. Ranada (April 12, 2005), such principles have two elements: (1) established, widespread and consistent state practice; and (2) opinio juris sive necessitates (a belief that the practice is obligatory). Under Article 2 of the 1961 Convention on Statelessness: 'A foundling found in the territory of a Contracting State shall, in the absence of proof to the contrary, be considered to have been born within the territory of parents possessing the nationality of that State.' Applied to Poe -- a foundling found near a church in Jaro, Iloilo, when she was only a few days old -- her parents are presumed to be Filipinos. True, the Philippines is not a signatory. However, the treaty possesses both generally-accepted-principles elements because the grant of nationality to foundlings has been an established, widespread, and consistent practice of many states since 1961. According to Razon v. Taglis (Dec 3, 2009), this international custom could be shown from State practice, legislation, international and national judicial decisions, treaties, patterns of treaties, practice of international organs, and UN General Assembly resolutions. Further, under the 1948 UDHR -- to which the Philippines is a signatory and which the SC has consistently enforced -- 'Everyone has a right to a nationality'; a denial of nationality to Poe would be a plain violation of the UDHR. CJP adds that it is 'high time the Philippines acceded to and joined the 1961 Convention on Statelessness for the benefit of all Filipinos, especially illegitimate children whose parents are unknown, not just of Senator Poe. After all, it is not their fault that their parents have abandoned them.' On American citizenship: Poe acquired it after marrying her American husband but renounced it in accordance with American law; the American Embassy affirmed this renunciation -- and under the 1930 Hague Convention, it is American, not Philippine, law that determines who are American citizens. On adoption: the SC has ruled several times that adoption does not confer citizenship -- but those rulings do not apply to foundlings; they were issued to prevent aliens from short-circuiting strict naturalization rules via adult adoption processes. Poe does not derive natural-born citizenship from adoption but from generally-accepted-principles of international law. Her presumed citizenship can become indisputable if her paternity is established by DNA evidence -- the SC has recognized DNA tests as conclusive proof of filiations since Tijing v. Court of Appeals (March 8, 2001) and People v. Vallejo (May 2, 2002). CJP will take up Poe's residence qualification in another column.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

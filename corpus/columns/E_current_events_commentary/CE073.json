@@ -1,0 +1,140 @@
+{
+  "id": "CE073",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 73,
+  "title": "Forging peace with MILF, NDFP",
+  "date": "2018-06-03",
+  "link": "https://opinion.inquirer.net/113641/forging-peace-milf-ndfp",
+  "keywords": [
+    "Bangsamoro Basic Law",
+    "MILF peace process",
+    "NDFP CPP NPA Hague Declaration",
+    "North Cotabato MOA-AD",
+    "CARHRIHL"
+  ],
+  "primary_topics": [
+    "Status of dual peace processes: MILF (BBL) and NDFP",
+    "Hague Declaration four-point agenda",
+    "Legal status of CARHRIHL"
+  ],
+  "sub_topics": [
+    "BBL congressional approval -- Senate and House versions disparate",
+    "Bicameral conference committee to harmonize for July 23 session",
+    "MILF final version: must satisfy ardent longing and avoid constitutional pitfalls",
+    "North Cotabato v. Government (Oct. 14, 2008) MOA-AD debunked",
+    "CPP founding: December 26, 1968, Alaminos, Pangasinan, Jose Maria Sison",
+    "Marxist-Maoist 'from each according to ability' ideology",
+    "NPA 'protracted people's war' -- longest-running communist insurgency in the world",
+    "Cease-fire negotiations with Cory Aquino (December 10, 1986)",
+    "Ramos exploratory talks (1992-1998); formal Brussels opening (June 26, 1995)",
+    "Hague Declaration four topics: (1) human rights/IHL, (2) socioeconomic reforms, (3) political/constitutional reforms, (4) end of hostilities",
+    "Only topic 1 completed: CARHRIHL (March 16, 1998)",
+    "CARHRIHL legal status: not a treaty (no Senate concurrence; Vienna Convention states-only rule)",
+    "Indirect enforcement via Constitution Arts. II, III, XIII and ICESCR",
+    "GRP-NDFP June 28 meeting on socioeconomic reforms",
+    "Preview of next column on CASER"
+  ],
+  "signature_phrases": [
+    "peace is finally within reach",
+    "longest-running communist insurgency in the world",
+    "from each according to his ability, to each according to his needs",
+    "acid test",
+    "not a final and binding agreement",
+    "important milestone because it enables the parties to reach a final agreement",
+    "I will take it up next Sunday"
+  ],
+  "entities": {
+    "people": [
+      "Jose Maria Sison (CPP founder)",
+      "Ateneo Law Dean Sedfrey Candelaria",
+      "President Corazon Aquino",
+      "President Fidel V. Ramos",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Moro Islamic Liberation Front (MILF)",
+      "Communist Party of the Philippines (CPP)",
+      "New People's Army (NPA)",
+      "National Democratic Front of the Philippines (NDFP)",
+      "Government of the Republic of the Philippines (GRP)",
+      "Foundation for Liberty and Prosperity (FLP)",
+      "Supreme Court of the Philippines",
+      "Senate and House of Representatives"
+    ],
+    "cases": [
+      "North Cotabato v. Government (October 14, 2008) -- MOA-AD debunked"
+    ],
+    "laws_treaties": [
+      "Bangsamoro Basic Law (BBL) -- congressional approval pending bicam",
+      "The Hague Declaration (1992)",
+      "Comprehensive Agreement on Respect for Human Rights and International Humanitarian Law (CARHRIHL, March 16, 1998)",
+      "Vienna Convention on the Law of Treaties",
+      "International Covenant on Economic, Social and Cultural Rights (ICESCR)",
+      "1987 Constitution Articles II, III, XIII"
+    ],
+    "events": [
+      "BBL congressional approval",
+      "July 23, 2018 Congress session resumption and SONA",
+      "CPP founding (December 26, 1968)",
+      "Cease-fire negotiations with Cory Aquino (December 10, 1986)",
+      "Brussels formal negotiations opening (June 26, 1995)",
+      "CARHRIHL signing (March 16, 1998)",
+      "June 28, 2018 GRP-NDFP formal talks on socioeconomic reforms"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "After decades of on-and-off negotiations, peace with both the MILF and the NDFP is finally within reach.",
+      "rhetorical_move": "cautious optimism as opening frame",
+      "confidence": "medium"
+    },
+    {
+      "claim": "The BBL final version must satisfy the MILF's longing while avoiding the constitutional pitfalls that led the SC to debunk the MOA-AD in North Cotabato v. Government.",
+      "rhetorical_move": "prescriptive constitutional warning for the bicam",
+      "confidence": "high"
+    },
+    {
+      "claim": "CARHRIHL is not a treaty or international agreement -- neither Senate concurrence nor Vienna Convention state-party requirements are met -- but it is an important milestone enabling a final agreement.",
+      "rhetorical_move": "legal status clarification with pragmatic positive framing",
+      "confidence": "high"
+    },
+    {
+      "claim": "The GRP can indirectly enforce CARHRIHL by adverting to the Constitution's Arts. II, III, and XIII and the ICESCR as generally accepted principles forming part of the law of the land.",
+      "rhetorical_move": "indirect enforcement bridge",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Dean Sedfrey Candelaria's FLP public lecture (accessible at www.libpros.com) as the source of CPP historical background.",
+    "The CPP founding on December 26, 1968 in Alaminos, Pangasinan by Jose Maria Sison -- establishing the NPA as the vehicle of the 'longest-running communist insurgency in the world.'",
+    "The Hague Declaration's four-topic architecture and the fact that only the first topic (CARHRIHL) was completed in 20+ years of negotiations.",
+    "North Cotabato v. Government (October 14, 2008) debunking the MOA-AD as the cautionary precedent for what the final BBL must avoid."
+  ],
+  "target_audience": [
+    "Bicameral Conference Committee members harmonizing the BBL",
+    "GRP and NDFP peace panels",
+    "Constitutional law and international law practitioners",
+    "Civic readership tracking both peace processes simultaneously",
+    "MILF and communist rebel leadership"
+  ],
+  "register_markers": [
+    "Dual-peace-process parallel structure",
+    "Constitutional-case citation as cautionary precedent",
+    "Academic lecture citation with URL (Candelaria/FLP)",
+    "Legal-status tangle explanation (treaty vs agreement)",
+    "Historical-backgrounder register (CPP founding, ceasefire timeline)",
+    "Preview of continuation column ('I will take it up next Sunday')"
+  ],
+  "decision_framework_signals": [
+    "Test the final BBL against North Cotabato v. Government's constitutional-pitfall criteria before ratification",
+    "Manage pacing: MILF process is at 'very advanced stage'; NDFP is still 'work in progress' -- treat them separately",
+    "Accept CARHRIHL's non-treaty legal status without abandoning it as a practical peace-building instrument",
+    "Use constitutional provisions and ICESCR as indirect enforcement bridges when direct CARHRIHL implementation is legally blocked",
+    "Sequence the four Hague Declaration topics: only after completing human rights/IHL can substantive socioeconomic talks resume"
+  ],
+  "one_paragraph_summary": "Panganiban surveys the state of two simultaneous peace processes. On the MILF front, the Bangsamoro Basic Law has received congressional approval, with the Senate and House versions still disparate; the bicameral conference committee will harmonize them for ratification when Congress resumes on July 23 -- the same day as the SONA. He urges the final version to satisfy the MILF's longing while avoiding the constitutional pitfalls that led the Supreme Court to debunk the MOA-AD in North Cotabato v. Government (October 14, 2008). On the NDFP front, the CPP was founded by Jose Maria Sison on December 26, 1968 in Alaminos, Pangasinan, espousing Marxist-Maoist ideology; its armed wing, the NPA, has sustained the 'longest-running communist insurgency in the world.' Peace negotiations opened with President Cory Aquino on December 10, 1986, continued under Ramos, formally opened in Brussels on June 26, 1995, and produced The Hague Declaration listing four agenda items: (1) human rights and international humanitarian law, (2) socioeconomic reforms, (3) political and constitutional reforms, and (4) end of hostilities. Of these, only the first has been completed -- CARHRIHL, signed March 16, 1998. He clarifies CARHRIHL's legal status: it is not a treaty (no Senate concurrence; Vienna Convention applies only to states) nor a final binding agreement, but an important milestone. The GRP can indirectly enforce it by invoking the Constitution's Articles II, III, and XIII and the ICESCR as generally accepted principles of international law forming part of the law of the land. Formal talks on the second topic -- socioeconomic reforms -- are scheduled to resume June 28, and the column previews the continuation.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

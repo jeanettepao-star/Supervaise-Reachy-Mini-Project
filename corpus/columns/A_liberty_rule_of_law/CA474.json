@@ -1,0 +1,123 @@
+{
+  "id": "CA474",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 474,
+  "title": "Overhauling the criminal justice system",
+  "date": "2012-12-01",
+  "link": "https://opinion.inquirer.net/41887/overhauling-the-criminal-justice-system",
+  "keywords": [
+    "criminal justice reform",
+    "inquisitorial vs adversarial system",
+    "Judicial Affidavit Rule",
+    "certiorari delays",
+    "Maguindanao massacre",
+    "jury system",
+    "Spanish Penal Code",
+    "US procedure"
+  ],
+  "primary_topics": [
+    "The structural mismatch at the root of PH criminal justice delays: a Spanish inquisitorial Penal Code enforced through an American adversarial procedure without juries",
+    "The Judicial Affidavit Rule (effective Jan. 1, 2013) as a partial but limited reform -- inapplicable to capital cases like Maguindanao unless accused agrees",
+    "Criminal justice overhaul as a joint executive-judicial-legislative responsibility, with certiorari abuse as a major systemic delay mechanism"
+  ],
+  "sub_topics": [
+    "Spanish Penal Code: inquisitorial -- judges actively gather evidence and prosecute",
+    "US procedure: adversarial -- judges passive, rely on parties; designed for juries of nonlawyers",
+    "PH adopted US adversarial procedure but has no juries -- Filipino judges decide both facts and law personally, yet rules sanitize proceedings as if judges were laypersons",
+    "Rules protecting accused from media exposure designed for juries who can be influenced; PH judges trained to ignore external pressures",
+    "Judges waste time ruling on objections whose answers would not affect the judgment",
+    "Judicial Affidavit Rule (Sept. 4, 2012, effect Jan. 1, 2013): witnesses submit affidavits instead of long direct-examination; cross-examination still allowed",
+    "BUT: Rule excludes criminal cases with maximum penalty exceeding 6 years -- excludes Maguindanao (life imprisonment) unless accused agrees",
+    "Constitutional over-protection of accused: crafted in reaction to martial law persecution of activists",
+    "Same rights now abused by the powerful and privileged to hinder, baffle and frustrate justice",
+    "Certiorari abuse: interlocutory orders contested causing multi-year delays; lower court judges must defend themselves in certiorari proceedings",
+    "Criminal justice overhaul requires: police investigation, DOJ prosecutorial diligence, legislative precision, AND judicial reform -- joint responsibility"
+  ],
+  "signature_phrases": [
+    "the herculean job of reforming--yes, overhauling--the criminal justice system",
+    "our criminal justice system was copied from two countries, which have diverse philosophies and processes",
+    "Filipino judges just listen most of the time and do not participate in the gathering and introduction of evidence",
+    "the proceedings as if the judge were a layperson",
+    "Unfortunately, these same rights are now used, sometimes abused, by the powerful and privileged to hinder, baffle and frustrate justice",
+    "reckless petitions for certiorari have caused needless delays and harassment of lower court judges",
+    "the speedy dispensation of criminal justice is a joint responsibility of both the executive and judicial branches"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Sandiganbayan",
+      "Department of Justice",
+      "Court of Appeals"
+    ],
+    "cases": [
+      "Maguindanao massacre trials (context)"
+    ],
+    "laws_treaties": [
+      "Spanish Penal Code (Revised Penal Code) -- inquisitorial basis",
+      "US Rules of Criminal Procedure -- adversarial basis",
+      "Judicial Affidavit Rule (SC-issued Sept. 4, 2012; effective Jan. 1, 2013)",
+      "1987 Constitution -- accused rights"
+    ],
+    "events": [
+      "SC issuance of Judicial Affidavit Rule (Sept. 4, 2012)",
+      "Maguindanao massacre (Nov. 23, 2009)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The core structural mismatch is that adversarial US procedure designed for juries was transplanted to PH where judges are seasoned lawyers deciding both facts and law personally -- making many protective rules unnecessary and counterproductive.",
+      "rhetorical_move": "structural-mismatch-diagnosis (jury-designed rules applied to jury-less system)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The constitutional over-protection of accused was crafted in reaction to Marcos martial law persecution -- but those same rights are now being abused by the powerful and privileged, requiring recalibration without violating equal protection.",
+      "rhetorical_move": "historical-origin-vs-current-abuse dichotomy requiring rights recalibration",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Judicial Affidavit Rule is useful but partial -- it speeds up civil and non-capital criminal trials but cannot help with capital cases like Maguindanao unless the accused consents.",
+      "rhetorical_move": "qualified-reform-endorsement with explicit limitation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Criminal justice overhaul is a joint responsibility of all three branches -- police, DOJ, judiciary, and legislature -- not merely judicial supervision.",
+      "rhetorical_move": "whole-of-government accountability framing",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The paradox of a legal system that sanitizes proceedings as if the judge were a layperson despite Filipino judges being seasoned lawyers who personally decide both facts and law.",
+    "The certiorari-abuse cycle: defense lawyers contest interlocutory orders in appellate courts, suspending trials for years, forcing trial judges to defend themselves in proceedings eventually adjudged unmeritorious.",
+    "The Constitution being extra-protective of the accused as a reaction to Marcos-era persecution -- only to see those protections weaponized by the powerful and privileged."
+  ],
+  "target_audience": [
+    "SC justices and court administrators responsible for procedural reform",
+    "DOJ prosecutors and law enforcement officials",
+    "Legal academics and criminal procedure scholars",
+    "Civic readers following the Maguindanao massacre trial"
+  ],
+  "register_markers": [
+    "structural-mismatch-diagnosis register (Spain/US hybrid system analysis)",
+    "qualified-reform endorsement with explicit capital-case exclusion",
+    "historical-martial-law-origin as context for constitutional over-protection",
+    "joint-responsibility closing (not solely SC fault)",
+    "herculean job of reforming -- yes, overhauling as emphasis marker",
+    "certiorari-abuse-as-systemic-delay-mechanism framing",
+    "the powerful and privileged as the rights-abuser epithet"
+  ],
+  "decision_framework_signals": [
+    "applies structural-mismatch-diagnosis to explain why jury-designed rules fail in a jury-less PH system",
+    "uses historical-origin-vs-current-abuse distinction to justify rights recalibration without abolition",
+    "treats Judicial Affidavit Rule as a valid but limited reform requiring additional measures",
+    "applies whole-of-government accountability to prevent judicial-branch monopolization of blame",
+    "frames certiorari abuse as the specific procedural mechanism requiring targeted reform"
+  ],
+  "one_paragraph_summary": "Panganiban identifies the core structural mismatch haunting PH criminal justice: the Penal Code was copied from Spain's inquisitorial system while the procedure for enforcing it was borrowed from the United States' adversarial system, which was designed for juries of nonlawyers who can be influenced by media and leading questions. But the Philippines has no juries -- Filipino judges are seasoned lawyers who personally decide both facts and law, making many protective rules unnecessary and counterproductive. The 1987 Constitution's extra-protective provisions were crafted in partial reaction to Marcos-era persecution of activists -- but the same rights are now being 'used, sometimes abused, by the powerful and privileged to hinder, baffle and frustrate justice.' The SC's newly issued Judicial Affidavit Rule (effective January 1, 2013) is a useful reform but excludes criminal cases with maximum penalties exceeding six years (like Maguindanao, with life imprisonment) unless the accused agrees. CJ also flags certiorari abuse -- defense lawyers contesting interlocutory orders in appellate courts, suspending trials for years -- as a systemic delay mechanism. He closes emphasizing that criminal justice overhaul is a joint responsibility: the executive (police, DOJ), the judiciary (procedural reform), and the legislature (precise definition and penalization of crimes).",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

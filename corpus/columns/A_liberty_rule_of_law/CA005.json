@@ -1,281 +1,128 @@
 {
   "id": "CA005",
+  "format": "C",
   "type": "column",
   "theme": "A",
   "theme_label": "Liberty and Rule of Law",
   "number": 5,
   "title": "Due process and judicial compensation",
   "date": "2011-07-03",
-  "year": 2011,
-  "source_url": "https://opinion.inquirer.net/7199/due-process-and-judicial-compensation",
-  "routing": {
-    "primary_intent": [
-      "legal_education",
-      "opinions"
-    ],
-    "secondary_intent": [],
-    "audience_match": [
-      "Foreign investors in Philippine public utilities (audience by interest)",
-      "Members of the Supreme Court (diplomatic critique addressed to colleagues)",
-      "Members of Congress (for the funding recommendation)",
-      "Justices and judges of the trial and appellate courts (the SAJ beneficiaries)",
-      "Inquirer Opinion readers and constitutional-law practitioners",
-      "Department of Budget and Management officials"
-    ],
-    "complexity": "medium",
-    "emotional_register": [
-      "diplomatic"
-    ]
-  },
-  "topic_paths": {
-    "primary": [
-      "constitutional_doctrine",
-      "due_process"
-    ],
-    "secondary": [
-      "supreme_court_history",
-      "economic_governance_and_business_law",
-      "friendships_and_civic_circles"
-    ]
-  },
+  "link": "https://opinion.inquirer.net/7199/due-process-and-judicial-compensation",
   "keywords": [
-    "Gamboa vs Teves",
-    "due process",
+    "Gamboa v. Teves due process",
     "foreign investors not heard",
-    "Themistocles",
-    "Daniel Webster",
-    "Bill of Rights",
-    "Special Allowance for Justices and Judges",
-    "SAJ",
+    "judicial compensation",
+    "Special Allowance for Justices",
     "RA 9227",
     "Salary Standardization Law",
-    "Joint Resolution No. 4",
-    "judicial compensation",
-    "Manuel V. Pangilinan",
-    "First Pacific"
+    "SAJ surpluses",
+    "docket fees"
   ],
   "primary_topics": [
-    "Critique of Gamboa vs Teves (June 28, 2011) for procedural-due-process failure: foreign investors who relied on decades-old SEC interpretation were never summoned or heard before being forced to unload investments",
-    "Restatement of the Themistocles/Webster due-process tradition: 'Strike, but hear me first' / 'a law that hears before it condemns'",
-    "Separate column-topic: explanation of the Supreme Court's June 7, 2011 resolution implementing the long-delayed judicial compensation adjustment",
-    "How RA 9227 (effective November 11, 2006) doubled magistrate pay via the Special Allowance for Justices and Judges (SAJ) — fully implemented during CJP's term",
-    "The new resolution's tax-free SAJ structure, retroactive to June 24, 2010, and its problems (rank-and-file employees losing SAJ surpluses; possible docket-fee increases on poor litigants)"
+    "CJ due process objection to Gamboa v. Teves: foreign investors whose property rights would be adversely affected were never summoned or given the opportunity to be heard",
+    "The history and complexity of the adjusted judicial compensation framework under RA 9227 (SAJ), subsequent Arroyo salary increases, and the Joint Resolution No. 4 tranches -- and the new SC resolution of June 7, 2011 attempting to stabilize judges pay"
   ],
   "sub_topics": [
-    "Gamboa vs Teves decision date: June 28, 2011; ponente Justice Antonio T. Carpio",
-    "SEC's uniform interpretation since 1935 — 'capital' includes both voting and non-voting shares",
-    "Foreigners 'enticed' by SEC interpretation; their investments 'forced to unload at bargain prices'",
-    "Manuel V. Pangilinan sued 'in his capacity as managing director of First Pacific Co. Ltd.' but First Pacific itself not impleaded",
-    "Foreign chambers of commerce also not impleaded",
-    "Bill of Rights Section 1: 'No person shall be deprived of life, liberty or property without due process of law' — 'person' includes foreigners and corporations",
-    "RA 9227 — SAJ funded by Supreme Court-authorized docket-fee increases",
-    "600 trial-court vacancies (about 30%) prior to the pay increase",
-    "Two 10% basic-pay increases under President Gloria Macapagal-Arroyo — charged to SAJ, subjected to withholding tax ? judicial take-home pay effectively DECREASED",
-    "Joint Resolution No. 4 of June 17, 2009 — Salary Standardization Law revision with four yearly tranches; magistrates' tranches again charged to SAJ",
-    "New SC resolution dated June 7, 2011 — base pay sourced from national government; increases sourced from SAJ; DBM covers deficiency; retroactive to June 24, 2010, tax-free",
-    "Problems: SAJ insufficient ? rank-and-file lose surpluses ? possible docket-fee increases burden poor litigants",
-    "CJP's recommendation: Congress should fund pay increases from national coffers (like other government offices)"
+    "Gamboa v. Teves (June 28, 2011, J. Carpio): foreign investments in public utilities limited to 40% of voting shares; SEC has uniformly held since 1935 that entire capital stock is used in determining 40% allocation -- foreigners invested relying on this representation",
+    "Due process objection: foreigners most adversely affected were never summoned or heard; one foreigner mentioned in title not served with petition; Pangilinan sued as managing director of First Pacific but First Pacific itself not included; foreign chambers of commerce not impleaded",
+    "Constitution Bill of Rights: No person shall be deprived of life, liberty or property without due process of law -- person includes foreigners and corporations forced to unload investments at bargain prices",
+    "Themistocles: Strike, but hear me first! Webster: due process is a law that hears before it condemns, proceeds upon inquiry, and renders judgment only after trial",
+    "CJ refrains from discussing substance; confines comment to absolute need for due process without which any decision would be void",
+    "Judicial compensation history: RA 9227 (effective Nov. 11, 2006) doubled compensation via Special Allowance for Justices and Judges (SAJ) -- implemented during CJ tenure; filled ~600 vacancies (30% of trial courts); decent pay to discourage graft",
+    "After CJ retired: GMA twice increased basic pay by 10% each time -- increases for judges charged to SAJ; increases formed part of basic salaries and subjected to withholding taxes (unlike non-taxable SAJ) -- take-home pay effectively decreased despite nominal increases",
+    "Joint Resolution No. 4 (June 17, 2009): revised Salary Standardization Law; four yearly tranches starting 2009 -- again charged to magistrates SAJ",
+    "New SC resolution (June 7, 2011): pay tax-free retroactively from June 24, 2010; SAJ as of Nov. 11, 2006 preserved; base pay increases taken from SAJ; DBM covers deficiency if SAJ insufficient",
+    "New problems: SAJ insufficient to cover full pay increases -- rank and file cease getting SAJ surpluses; SC may be forced to increase docket fees (chagrin of poor litigants)",
+    "CJ recommendation: Congress should fund pay increases from national coffers, as done for other government offices -- not rely on SAJ"
   ],
   "signature_phrases": [
-    {
-      "phrase": "Foreign investors not heard",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "Strike, but hear me first",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "a law that hears before it condemns, proceeds upon inquiry and renders judgment only after trial",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "no one, not even the highest court of the land",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "with due respect",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "the absolute need for due process without which any decision would be void",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "I will refrain from discussing the substance of the ponencia",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "instead of being increased, judicial take home pay was effectively decreased!",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "to the chagrin of poor litigants",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "More problems",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "Adjusted judicial compensation",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    }
+    "The decision, I note, does not show that the foreigners who relied on this representation and invested here, have been summoned and asked their side",
+    "No person shall be deprived of life, liberty or property without due process of law",
+    "the word person includes foreigners and corporations that would be forced to unload their investments at bargain prices",
+    "Strike, but hear me first!",
+    "a law that hears before it condemns, proceeds upon inquiry and renders judgment only after trial",
+    "no one, not even the highest court of the land, may impose it without first hearing the persons who would be most adversely affected",
+    "I will refrain from discussing the substance of the ponencia and will confine my comment, in the meantime, to the absolute need for due process without which any decision would be void",
+    "instead of being increased, judicial take home pay was effectively decreased",
+    "Congress I think should fund the pay increases. After all, adjustments in other government offices are sourced from the national coffers"
   ],
   "entities": {
     "people": [
-      "Artemio V. Panganiban (columnist; former CJ who fully implemented SAJ)",
-      "Justice Antonio T. Carpio (Gamboa ponente)",
-      "Manuel V. Pangilinan (named defendant in Gamboa)",
-      "President Gloria Macapagal-Arroyo (two 10% increases)",
-      "Themistocles (cited)",
-      "Daniel Webster (cited)"
+      "Artemio V. Panganiban",
+      "Justice Antonio T. Carpio (ponente of Gamboa v. Teves)",
+      "Manuel V. Pangilinan (sued as managing director of First Pacific)",
+      "Themistocles (Strike, but hear me first -- due process historical origin)",
+      "Daniel Webster (most oft-quoted due process definition)",
+      "President Gloria Macapagal-Arroyo (twice increased basic pay; charged to SAJ)"
     ],
     "institutions": [
       "Supreme Court of the Philippines",
-      "Securities and Exchange Commission",
+      "Securities and Exchange Commission (SEC)",
       "Department of Budget and Management (DBM)",
       "Philippine Judges Association",
-      "First Pacific Co. Ltd.",
-      "Congress of the Philippines",
-      "Trial Courts (600 vacancies)"
+      "First Pacific Co. Ltd. (not impleaded)"
     ],
     "cases": [
-      "Gamboa vs Teves (June 28, 2011) — 60-40 capital limited to voting shares only; ponente Carpio"
+      "Gamboa v. Teves (June 28, 2011, J. Carpio)"
     ],
     "laws_treaties": [
-      "1987 Philippine Constitution — Bill of Rights Section 1 (due process)",
-      "1987 Philippine Constitution — Article XII Section 11 (60% Filipino capital for public utilities)",
-      "Republic Act 9227 — doubled magistrate compensation via SAJ (effective November 11, 2006)",
-      "Salary Standardization Law (SSL)",
-      "Joint Resolution No. 4 (June 17, 2009)",
-      "Memorandum of Agreement between DBM and Philippine Judges Association (April 6, 2011)",
-      "Supreme Court Resolution (June 7, 2011) — implementing SAJ + base-pay structure"
+      "1987 Constitution -- Art. III Sec. 1 (due process)",
+      "Republic Act No. 9227 (Special Allowance for Justices and Judges -- effective Nov. 11, 2006)",
+      "Joint Resolution No. 4 (June 17, 2009 -- Salary Standardization Law revision)",
+      "SC Resolution dated June 7, 2011 (adjusted judicial compensation framework)"
     ],
     "events": [
-      "Gamboa vs Teves promulgation — June 28, 2011",
-      "RA 9227 effectivity — November 11, 2006",
-      "Salary Standardization Law revision — June 17, 2009",
-      "DBM-PJA MOA — April 6, 2011",
-      "Supreme Court Resolution — June 7, 2011"
+      "Gamboa v. Teves promulgated June 28, 2011",
+      "RA 9227 effective Nov. 11, 2006 (SAJ; implemented during CJ tenure)",
+      "GMA two 10% pay increases charged to SAJ; effectively decreased take-home pay",
+      "Joint Resolution No. 4 (June 17, 2009) four yearly tranches charged to SAJ",
+      "SC Resolution June 7, 2011 new adjusted judicial compensation framework"
     ]
   },
   "stances": [
     {
-      "claim": "Gamboa vs Teves (June 28, 2011) is procedurally void for due-process failure: the foreign investors who, since 1935, relied on the SEC's uniform interpretation of 'capital' as including both voting and non-voting shares — and who would now be forced to unload their investments at bargain prices — were never summoned, served, or given the opportunity to defend themselves. The Bill of Rights' word 'person' clearly includes foreigners and corporations.",
-      "rhetorical_move": "procedural-due-process objection that brackets the merits ('one may even agree with the substantive restriction, but...')",
-      "confidence": "asserted with 'with due respect' — diplomatic critique of colleagues' ruling",
-      "domain": "",
-      "would_repeat_today": null
+      "claim": "Gamboa v. Teves is procedurally void regardless of whether its substantive ruling is correct, because foreign investors whose property rights would be adversely affected were never summoned, served, or given the opportunity to be heard -- no court, not even the Supreme Court, may impose obligations without first hearing those most adversely affected.",
+      "rhetorical_move": "due-process-void argument as the overriding procedural objection",
+      "confidence": "asserted"
     },
     {
-      "claim": "Due process is the absolute prerequisite for any valid decision — 'without which any decision would be void' — traceable to Themistocles ('Strike, but hear me first!') and Daniel Webster's classic definition ('a law that hears before it condemns'). No one, not even the highest court of the land, may impose substantive restrictions without first hearing those most adversely affected.",
-      "rhetorical_move": "natural-law-tradition citation + 'not even the highest court' as judicial-humility check",
-      "confidence": "asserted as foundational principle",
-      "domain": "",
-      "would_repeat_today": null
+      "claim": "The post-RA 9227 trajectory of judicial compensation is a cautionary tale: GMA 10% increases and Joint Resolution No. 4 tranches were both charged to the SAJ, effectively decreasing judges take-home pay rather than increasing it (increases became part of taxable base pay while SAJ was non-taxable).",
+      "rhetorical_move": "good-intentions-bad-outcomes diagnosis of the judicial compensation history",
+      "confidence": "asserted"
     },
     {
-      "claim": "The new judicial compensation structure (June 7, 2011 SC Resolution) stabilizes judges' take-home pay by routing the SAJ tax-free, but creates two new problems: rank-and-file court employees lose SAJ surpluses, and the SC may be forced to raise docket fees, burdening poor litigants. The proper solution is for Congress to fund judicial pay increases from national coffers — as it does for other government offices.",
-      "rhetorical_move": "policy-critique with constructive-alternative",
-      "confidence": "asserted as personal opinion ('I think')",
-      "domain": "",
-      "would_repeat_today": null
+      "claim": "Congress should fund judicial pay increases from national coffers -- as done for all other government offices -- rather than forcing the SC to increase docket fees, which would burden poor litigants.",
+      "rhetorical_move": "congressional-funding-recommendation to relieve the SAJ deficit",
+      "confidence": "asserted"
     }
   ],
   "notable_anecdotes": [
-    {
-      "summary": "Personal disclosure of institutional history: RA 9227's doubled magistrate compensation via SAJ was 'fully implemented during my tenure as chief justice' — the pay increase was necessary to fill 600 trial-court vacancies (about 30% of the bench) which were causing delays.",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Anti-graft rationale stated openly: 'decent compensation, I thought, would discourage graft in the judiciary.'",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Counter-intuitive math: under President Arroyo's two 10% pay increases charged to SAJ and made taxable, 'instead of being increased, judicial take home pay was effectively decreased!'",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Manuel V. Pangilinan was sued as managing director of First Pacific — but First Pacific itself was not impleaded, nor were the foreign chambers of commerce — a procedural gap CJP flags as constitutional violation.",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    }
-  ],
-  "decision_framework_signals": [
-    "applies procedural due process as threshold inquiry — even concurring substance doesn't cure procedural void",
-    "uses Themistocles-Webster natural-law tradition as the foundational due-process anchor",
-    "treats 'person' in Bill of Rights broadly to include foreigners and corporations",
-    "applies relied-upon-government-representation principle (SEC's pre-1935-onward interpretation) as creating procedural standing",
-    "frames judicial-compensation policy in terms of: anti-vacancy + anti-graft + non-burden-on-poor-litigants",
-    "treats Congress-funded compensation (rather than docket-fee-funded SAJ) as the equity-preserving structural solution"
+    "Themistocles Strike, but hear me first! and Daniel Webster law that hears before it condemns -- CJ two canonical due process anchors deployed against the Supreme Court own failure to hear affected foreign investors.",
+    "The paradox of the judicial pay trajectory: GMA 10% pay increases actually decreased judges take-home pay -- because increases were charged to the non-taxable SAJ and reclassified as taxable basic salary.",
+    "The docket-fee-burden-on-poor-litigants risk: if the SAJ is insufficient, the SC may be forced to raise filing fees -- directly burdening the least resourced litigants."
   ],
   "target_audience": [
-    "Foreign investors in Philippine public utilities (audience by interest)",
-    "Members of the Supreme Court (diplomatic critique addressed to colleagues)",
-    "Members of Congress (for the funding recommendation)",
-    "Justices and judges of the trial and appellate courts (the SAJ beneficiaries)",
-    "Inquirer Opinion readers and constitutional-law practitioners",
-    "Department of Budget and Management officials"
+    "Constitutional law scholars evaluating the due process objection to Gamboa v. Teves",
+    "Foreign investors and their lawyers assessing the procedural validity of Gamboa",
+    "Judges and justices affected by the compensation adjustments",
+    "Congress members who should consider funding judicial pay increases from the national budget"
   ],
   "register_markers": [
-    "two-topic column structure separated by '* * *'",
-    "diplomatic critique-of-colleagues register ('with due respect')",
-    "natural-law tradition citations (Themistocles, Webster)",
-    "procedural-vs-substantive distinction as analytical scaffolding",
-    "personal-institutional-memory anchor (tenure as CJ)",
-    "exclamation-point emphasis on counterintuitive consequence ('effectively decreased!')",
-    "policy-recommendation closer (Congress should fund)",
-    "matter-of-fact technical explanation register for compensation mechanics",
-    "subheadings within the column ('Foreign investors not heard', 'Adjusted judicial compensation', 'More problems')"
+    "due-process-void argument as the overriding procedural objection before substantive analysis",
+    "Themistocles and Webster as the two canonical due process historical anchors",
+    "refraining-from-substance register (confining comment to due process only, in the meantime)",
+    "good-intentions-bad-outcomes judicial compensation diagnosis",
+    "paradox-of-effective-decrease despite nominal increase as the punchline",
+    "poor-litigants as the docket-fee-burden victims",
+    "congressional-funding-recommendation"
   ],
-  "one_paragraph_summary": "Published July 3, 2011 in two paired parts. The first critiques Gamboa vs Teves (June 28, 2011, penned by Justice Antonio T. Carpio) — which limited the 60-40 Filipino-capital rule to voting common shares only — on procedural-due-process grounds. Since 1935, the SEC has uniformly held that 'capital' includes both voting and non-voting shares; foreign investors relied on this and invested accordingly. Yet none of them were summoned, served, or heard before the SC ruling that would force them to unload their investments at bargain prices. Manuel V. Pangilinan was sued as managing director of First Pacific, but First Pacific itself was not impleaded, nor were the foreign chambers of commerce. CJP invokes Themistocles ('Strike, but hear me first!') and Daniel Webster ('a law that hears before it condemns, proceeds upon inquiry and renders judgment only after trial') and concludes 'with due respect' that 'no one, not even the highest court of the land' may impose such a restriction without hearing those most adversely affected — bracketing the merits to focus on procedure. The second part explains the Supreme Court's June 7, 2011 resolution implementing the long-delayed Memorandum of Agreement (April 6, 2011) between the DBM and the Philippine Judges Association. RA 9227 (effective November 11, 2006), fully implemented during CJP's tenure as Chief Justice, doubled magistrate compensation via the SAJ — necessary to fill 600 trial-court vacancies (~30%) and to discourage graft. But two subsequent rounds of pay increases (Arroyo's twin 10% increments and the 2009 Joint Resolution No. 4 tranches) were charged to the SAJ and made taxable, so 'instead of being increased, judicial take home pay was effectively decreased!' The new SC resolution restores tax-free treatment retroactive to June 24, 2010, but creates new problems: SAJ surpluses for rank-and-file vanish, and possible docket-fee increases would burden poor litigants. CJP's recommended fix: Congress should fund magistrate pay increases from national coffers, as it does for other government offices."
+  "decision_framework_signals": [
+    "applies due-process-void principle to establish procedural invalidity before any substantive critique",
+    "uses Themistocles-and-Webster as the historical anchors for the due-process-hearing requirement",
+    "treats person-includes-foreigners-and-corporations as the constitutional scope of due process protection",
+    "applies good-intentions-bad-outcomes framework to trace the judicial compensation paradox",
+    "frames congressional-funding-from-national-coffers as the only equitable solution"
+  ],
+  "one_paragraph_summary": "Panganiban raises a fundamental due process objection to Gamboa v. Teves (June 28, 2011, J. Carpio): the foreign investors whose property would be adversely affected -- forced to unload investments at bargain prices -- were never summoned or given the opportunity to be heard. The SEC had uniformly construed 'capital' as including all shares since 1935; foreigners invested relying on this representation. Yet the decision does not show they were summoned; one foreigner mentioned in the title was not served; First Pacific itself was not impleaded; and foreign chambers of commerce were not joined. The Constitution (Art. III Sec. 1) protects 'persons' including foreigners and corporations -- invoking Themistocles ('Strike, but hear me first!') and Daniel Webster ('a law that hears before it condemns'). CJ refrains from discussing the substance and confines his comment to the absolute need for due process, without which any decision would be void. In the second part, CJ traces the torturous judicial compensation history: RA 9227 (effective Nov. 11, 2006, implemented during his tenure) doubled judicial pay via the tax-free SAJ, filling 600 vacancies. But GMA's subsequent 10% pay increases and Joint Resolution No. 4 tranches were both charged to the SAJ and reclassified as taxable basic salary -- effectively decreasing judges' take-home pay despite nominal increases. The new SC resolution (June 7, 2011) attempts to stabilize the framework retroactively from June 24, 2010, but new problems arise: the SAJ may be insufficient, forcing the SC to raise docket fees -- burdening poor litigants. CJ recommends Congress fund judicial pay increases from national coffers, as done for all other government offices.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
 }

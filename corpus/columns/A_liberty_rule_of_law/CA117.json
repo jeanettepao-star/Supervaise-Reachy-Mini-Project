@@ -1,0 +1,182 @@
+{
+  "id": "CA117",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 117,
+  "title": "Don't charge what you can't prove",
+  "date": "2023-02-20",
+  "link": "https://opinion.inquirer.net/161173/dont-charge-what-you-cant-prove",
+  "keywords": [
+    "Jesus Crispin Remulla Feb. 10 2023 order",
+    "MTCs MTCCs MeTCs prosecutors reasonable certainty of conviction",
+    "withdraw information motion",
+    "probable cause definition ordinary caution honest strong suspicion",
+    "proof beyond reasonable doubt moral certainty",
+    "ground-breaking standard change",
+    "Rules of Court revision needed",
+    "expand to all criminal cases Sandiganbayan RTCs capital offenses",
+    "SC en banc Jan. 8 2013 80% backlog",
+    "Sept. 4 2012 40% dismissed annually",
+    "Leila de Lima 6 years detained without bail",
+    "Gloria Macapagal Arroyo NAIA arrest watch list orders",
+    "Arroyo acquittal beyond reasonable doubt",
+    "sworn certification by prosecutors testimonial documentary evidence legal admissibility sufficient for conviction",
+    "weaponization of criminal prosecutions",
+    "due process equal protection"
+  ],
+  "primary_topics": [
+    "criminal_procedure_reform_filing_standards",
+    "remulla_doj_directive_critique_and_expansion",
+    "probable_cause_vs_proof_beyond_reasonable_doubt_doctrinal_gap",
+    "indefinite_detention_in_capital_offenses"
+  ],
+  "sub_topics": [
+    "doj_secretary_remulla_feb_10_2023_order_to_prosecutors",
+    "scope_mtc_mtcc_metc_only_in_original_order",
+    "reasonable_certainty_of_conviction_new_standard",
+    "motion_to_withdraw_information_for_cases_failing_test",
+    "current_probable_cause_definition_ordinary_caution_honest_strong_suspicion",
+    "proof_beyond_reasonable_doubt_moral_certainty_definition",
+    "panganiban_proposal_to_align_filing_standard_with_conviction_standard",
+    "rules_of_court_revision_required",
+    "expand_remulla_order_to_sandiganbayan_and_rtcs_capital_offenses",
+    "sc_en_banc_jan_8_2013_80_percent_backlog_in_first_second_level_courts",
+    "sept_4_2012_40_percent_criminal_cases_dismissed_annually",
+    "leila_de_lima_six_years_detained_without_bail",
+    "gloria_macapagal_arroyo_naia_arrest_watch_list_orders",
+    "arroyo_acquittal_after_four_years_for_failure_to_prove_beyond_reasonable_doubt",
+    "sworn_certification_by_prosecutors_proposal",
+    "deter_weaponization_frivolous_reckless_malevolent_politically_motivated_charges"
+  ],
+  "signature_phrases": [
+    "Praiseworthy, though IMHO can still be improved",
+    "DON'T FILE AND PROSECUTE CHARGES YOU CAN'T PROVE",
+    "the many befuddling standards used in judging legal controversies and investigations",
+    "abstruse",
+    "almost blanket discretion",
+    "moral certainty of the culpability of the accused",
+    "ground-breaking",
+    "I will go even further to say that the standard for filing prosecuting cases should be the same as that for securing conviction",
+    "ALL CRIMINAL CASES",
+    "WORSE, IN CAPITAL OFFENSES, THE ACCUSED CAN BE DETAINED INDEFINITELY",
+    "the repeated lament of former senator Leila de Lima",
+    "the cyclical weaponization of criminal prosecutions",
+    "frivolous, reckless, malevolent, and politically motivated charges",
+    "clog the judicial dockets, harass political opponents",
+    "since then, the situation has not improved; it has deteriorated"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Justice Secretary Jesus Crispin C. 'Boying' Remulla",
+      "Former senator Leila de Lima (six years detained without bail)",
+      "Former president Gloria Macapagal Arroyo (NAIA arrest, four years detention, acquitted)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Rules of Court (target of proposed revision)",
+      "1987 Constitution, Bill of Rights (life, liberty, property; due process; equal protection)",
+      "Existing law defining probable cause (jurisprudential definition cited)",
+      "Existing law on proof beyond reasonable doubt (jurisprudential definition cited)"
+    ],
+    "institutions": [
+      "Department of Justice (DOJ)",
+      "Office of the City/Provincial Prosecutor (handling prosecutors)",
+      "Municipal Trial Courts (MTCs)",
+      "Municipal Trial Courts in Cities (MTCCs)",
+      "Metropolitan Trial Courts (MeTCs)",
+      "Regional Trial Courts (RTCs)",
+      "Sandiganbayan",
+      "Supreme Court of the Philippines (en banc resolution citations)",
+      "Ninoy Aquino International Airport (NAIA -- site of Arroyo arrest)"
+    ],
+    "places": [
+      "Philippines",
+      "NAIA (Arroyo arrest site)"
+    ],
+    "dates": [
+      "Feb. 10, 2023 (Remulla order)",
+      "Feb. 20, 2023 (column publication)",
+      "Jan. 8, 2013 (SC en banc resolution: 80% backlog)",
+      "Sept. 4, 2012 (SC observation: 40% criminal cases dismissed annually)",
+      "Approx. 2017 onward (De Lima detention)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Remulla's Feb. 10, 2023 order requiring prosecutors to assess 'reasonable certainty of conviction' before filing and to withdraw cases lacking it is 'ground-breaking' -- it shifts the filing standard from 'probable cause' to a higher conviction-oriented threshold.",
+      "rhetorical_move": "Endorsement framed as 'Praiseworthy, though IMHO can still be improved.'",
+      "confidence": "very high -- explicit endorsement"
+    },
+    {
+      "claim": "Even Remulla's order does not go far enough: the filing standard should be the same as the conviction standard -- 'proof beyond reasonable doubt' -- so that the evidence at hand before filing is sufficient to convict; this requires revising the Rules of Court.",
+      "rhetorical_move": "Constructive escalation: 'I will go even further to say...'",
+      "confidence": "high -- explicit reform proposal"
+    },
+    {
+      "claim": "Remulla's order is currently limited to MTC/MTCC/MeTC cases but 'can be improved to cover not only minor cases... but also, and more vitally, ALL CRIMINAL CASES, including those cognizable by the Sandiganbayan and the regional trial courts where capital offenses are prosecuted.'",
+      "rhetorical_move": "Scope-expansion proposal grounded in docket-clogging and indefinite-detention concerns.",
+      "confidence": "very high -- explicit scope critique"
+    },
+    {
+      "claim": "Probable cause as currently defined is so 'abstruse' as to give prosecutors 'almost blanket discretion' -- it merely requires 'an honest or strong suspicion' rather than sufficient evidence to convict, and is the engine of weaponized prosecution.",
+      "rhetorical_move": "Doctrinal demolition of the operative standard, supported by jurisprudential quotations.",
+      "confidence": "very high -- direct critique of settled law"
+    },
+    {
+      "claim": "Prosecutors should be required to certify under oath that (a) the information's allegations constitute the crime charged, (b) the evidence at hand passes legal admissibility, and (c) that evidence is sufficient to secure conviction -- to deter the 'cyclical weaponization of criminal prosecutions.'",
+      "rhetorical_move": "Concrete enforcement mechanism for the proposed reform.",
+      "confidence": "high -- explicit prescriptive proposal"
+    },
+    {
+      "claim": "The De Lima and Arroyo cases -- De Lima 'detained without bail for over six years now due to a charge filed on the basis of probable cause,' and Arroyo arrested at NAIA on De Lima's watch-list orders 'that defied a temporary restraining order of the Supreme Court' then later acquitted after four years for failure to prove beyond reasonable doubt -- show that weaponization cuts across political lines.",
+      "rhetorical_move": "Even-handed pairing of accuser-and-accused victims (De Lima both prosecutor in one case and prisoner in another) -- defuses partisan reading.",
+      "confidence": "very high -- explicit cross-political illustration"
+    }
+  ],
+  "notable_anecdotes": [
+    {
+      "description": "Doctrinal gap: 'probable cause' (jurisprudentially defined as 'a state of facts... as would lead a person of ordinary caution to believe, or entertain an honest or strong suspicion, that a thing is so' -- and 'does not require an inquiry into whether there is sufficient evidence to procure a conviction') is the filing standard, while 'proof beyond reasonable doubt' ('moral certainty of the culpability of the accused') is the conviction standard.",
+      "purpose": "Reproduces both definitions to make the doctrinal gap visible."
+    },
+    {
+      "description": "SC en banc resolution (Jan. 8, 2013) observation that '80% of the backlog in the first and second level courts involves criminal cases'; an earlier (Sept. 4, 2012) note that 'about 40% of criminal cases are dismissed annually.' Since then, 'the situation has not improved; it has deteriorated.'",
+      "purpose": "Empirical-statistical anchor for the systemic critique."
+    },
+    {
+      "description": "Leila de Lima 'detained without bail for over six years now due to a charge filed on the basis of probable cause' -- the indefinite-detention reality in capital offenses.",
+      "purpose": "Named living example of the indefinite-detention problem."
+    },
+    {
+      "description": "Gloria Macapagal Arroyo's reciprocal example -- 'chased and arrested at the Ninoy Aquino International Airport because of the so-called watch list orders of -- ironically -- then DOJ Secretary De Lima that defied a temporary restraining order of the Supreme Court'; after more than four years of detention, acquitted because prosecutors failed to prove the charges beyond reasonable doubt.",
+      "purpose": "Notes the cross-political symmetry -- De Lima as accuser in Arroyo's case, then accused in her own; weaponization is bipartisan."
+    }
+  ],
+  "target_audience": {
+    "primary": "Justice Secretary Remulla, DOJ prosecutors, and Rules of Court reformers",
+    "secondary": "Politicians and public figures vulnerable to weaponized prosecutions (both opposition and administration)",
+    "tertiary": "Inquirer readers, law students, and judicial-reform advocates"
+  },
+  "register_markers": [
+    "Endorsement-with-improvement framing ('Praiseworthy, though IMHO can still be improved')",
+    "ALL-CAPS thesis statements and section markers ('DON'T FILE AND PROSECUTE CHARGES YOU CAN'T PROVE,' 'WORSE, IN CAPITAL OFFENSES...')",
+    "Doctrinal-formal register with verbatim quotation of jurisprudential definitions",
+    "Empirical-statistical anchoring (80% backlog, 40% dismissal)",
+    "Cross-political even-handed illustration (De Lima + Arroyo)",
+    "Constitutional-rights echo: 'life, liberty or property without due process of law... den[ies] [them] the equal protection of the laws'",
+    "Constructive-escalation pattern: order good, but should go further"
+  ],
+  "decision_framework_signals": [
+    "Filing standard vs conviction standard alignment: same threshold should govern both",
+    "Probable cause defined: 'honest or strong suspicion' -- currently sufficient to file",
+    "Proof beyond reasonable doubt defined: 'moral certainty of the culpability of the accused' -- required to convict",
+    "Scope-expansion principle: reform should cover ALL CRIMINAL CASES including Sandiganbayan and RTC capital offenses",
+    "Sworn-certification mechanism: prosecutor certifies (a) sufficient allegations, (b) admissible evidence, (c) sufficient evidence for conviction",
+    "Weaponization-deterrence rationale: prevents frivolous, reckless, malevolent, politically motivated charges from clogging dockets and harassing opponents",
+    "Empirical anchors: 80% backlog (Jan. 8, 2013) + 40% dismissal rate (Sept. 4, 2012) -- and deteriorating"
+  ],
+  "one_paragraph_summary": "Praising -- 'though IMHO can still be improved' -- Justice Secretary Jesus Crispin C. Remulla's Feb. 10, 2023 order requiring prosecutors handling MTC/MTCC/MeTC cases to assess each prosecution for 'reasonable certainty of conviction' (filing motions to withdraw information where that standard is not met), CJ Panganiban identifies the underlying problem as the doctrinal gap between the two operative standards. To file, prosecutors need only show 'probable cause' -- jurisprudentially 'a state of facts... as would lead a person of ordinary caution to believe, or entertain an honest or strong suspicion, that a thing is so,' and explicitly not requiring 'whether there is sufficient evidence to procure a conviction.' To convict, prosecutors must show 'proof beyond reasonable doubt' -- 'moral certainty of the culpability of the accused.' Remulla's order is 'ground-breaking' because it shifts the filing standard upward, but CJ proposes going further: align the filing standard with the conviction standard via Rules of Court revision, and expand the order beyond minor cases to 'ALL CRIMINAL CASES, including those cognizable by the Sandiganbayan and the regional trial courts where capital offenses are prosecuted.' The stakes are made tangible by SC en banc data -- 'as early as Jan. 8, 2013... 80% of the backlog in the first and second level courts involves criminal cases'; on Sept. 4, 2012 'about 40% of criminal cases are dismissed annually'; 'the situation has not improved; it has deteriorated' -- and by the indefinite-detention reality in capital offenses illustrated by two cross-political examples: former senator Leila de Lima 'detained without bail for over six years now due to a charge filed on the basis of probable cause,' and former president Gloria Macapagal Arroyo arrested at NAIA on watch-list orders 'of -- ironically -- then DOJ Secretary De Lima that defied a temporary restraining order of the Supreme Court,' detained for more than four years, then acquitted by the SC for prosecutors' failure to prove beyond reasonable doubt. To implement the reform, CJ proposes a sworn prosecutorial certification covering (a) sufficient allegations, (b) admissible evidence, and (c) sufficient evidence to convict -- designed to deter 'the cyclical weaponization of criminal prosecutions' and the filing of 'frivolous, reckless, malevolent, and politically motivated charges' that 'clog the judicial dockets, harass political opponents, and deprive our people of their constitutional right to life, liberty or property without due process of law.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

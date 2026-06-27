@@ -1,0 +1,169 @@
+{
+  "id": "CA173",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 173,
+  "title": "Who won the ICC withdrawal case?",
+  "date": "2021-08-29",
+  "link": "https://opinion.inquirer.net/143580/who-won-the-icc-withdrawal-case",
+  "keywords": [
+    "Pangilinan v. Cayetano March 16 2021",
+    "ICC withdrawal Instrument of Withdrawal",
+    "two-thirds Senate concurrence treaty doctrine",
+    "Velarde v. Social Justice Party April 28 2004 dispositive portion rule",
+    "ratio decidendi vs obiter dicta",
+    "mootness dismissal",
+    "Fatou Bensouda war on drugs murder finding",
+    "July 21 decision text release",
+    "senators' July 22 press release",
+    "SC March 16 press release",
+    "Harry Roque obiter side comments",
+    "retired Justice Vicente V. Mendoza advisory opinion critique",
+    "J Marvic Leonen ponente",
+    "UP law forum",
+    "cooperation obligation despite withdrawal",
+    "July 1 2016 to March 16 2019 jurisdiction window"
+  ],
+  "primary_topics": [
+    "icc_jurisdiction_post_philippine_withdrawal",
+    "doctrine_of_dispositive_portion_and_obiter_dicta",
+    "treaty_termination_and_senate_concurrence_requirement",
+    "supreme_court_advisory_opinion_critique"
+  ],
+  "sub_topics": [
+    "pangilinan_v_cayetano_march_16_2021",
+    "dismissal_for_mootness",
+    "obiter_dicta_on_continuing_icc_cooperation_obligation",
+    "velarde_v_social_justice_party_april_28_2004_dispositive_rule",
+    "ratio_decidendi_binding_vs_obiter_non_binding",
+    "fait_accompli_timing_doctrine_for_treaty_petitions",
+    "fatou_bensouda_war_on_drugs_finding_july_1_2016_to_march_16_2019",
+    "bensouda_alternate_finding_back_to_nov_1_2011",
+    "marvic_leonen_ponente_signaling_for_future_live_petition",
+    "vicente_v_mendoza_advisory_opinion_critique"
+  ],
+  "signature_phrases": [
+    "in my humble view",
+    "Given these conflicting claims, who really won?",
+    "Plainly then, the respondents won because, to repeat, the petitions were 'DISMISSED for being moot'",
+    "Only the portions supporting this disposition constitute the ratio decidendi (rationale for the decision) and are binding",
+    "the decision -- penned by the erudite Justice Marvic M.V.F. Leonen, a UP alumnus and former law dean -- was probably signaling",
+    "Was there a decision? Is Pangilinan v. Cayetano a decision? To me, it is not a decision; it is a mere advisory opinion",
+    "the legal eagles in the University of the Philippines critiqued the Court for talking too much",
+    "before the withdrawal of the Philippine membership in the ICC became a fait accompli",
+    "conform to the basic requisites of justiciability"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Sen. Francis 'Kiko' Pangilinan (lead petitioner)",
+      "Foreign Secretary Alan Peter Cayetano (lead respondent, in caption)",
+      "Executive Secretary Salvador Medialdea (respondent)",
+      "Foreign Secretary Teodoro Locsin Jr. (respondent)",
+      "Presidential Spokesperson Harry Roque",
+      "J Marvic M.V.F. Leonen (ponente, Pangilinan v. Cayetano)",
+      "Retired Justice Vicente V. Mendoza (UP forum critic)",
+      "Fatou Bensouda (former ICC prosecutor)",
+      "President Rodrigo Duterte (object of ICC inquiry, war on drugs)"
+    ],
+    "cases": [
+      "Pangilinan v. Cayetano (March 16, 2021) -- ICC withdrawal challenge dismissed for mootness",
+      "Velarde v. Social Justice Party (April 28, 2004) -- dispositive portion controls"
+    ],
+    "laws_treaties": [
+      "Rome Statute of the International Criminal Court",
+      "Constitution -- Senate concurrence requirement for treaty actions",
+      "Supreme Court Internal Rules"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (en banc)",
+      "Philippine Senate",
+      "International Criminal Court (ICC)",
+      "Office of the United Nations Secretary-General",
+      "University of the Philippines (UP) College of Law",
+      "ICC Office of the Prosecutor"
+    ],
+    "places": [
+      "Philippines",
+      "The Hague (ICC seat, implied)"
+    ],
+    "dates": [
+      "March 16, 2021 (decision date and press release)",
+      "July 21, 2021 (text release of 101-page decision)",
+      "July 22, 2021 (Senate press release)",
+      "March 16, 2019 (Philippine ICC withdrawal effective)",
+      "July 1, 2016 (Bensouda jurisdiction window start)",
+      "Nov. 1, 2011 (Bensouda alternate start date)",
+      "April 28, 2004 (Velarde v. Social Justice Party)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Under Velarde v. Social Justice Party (April 28, 2004), the dispositive portion controls who won; here, the petitions were 'DISMISSED for being moot,' so the respondents (executive branch) formally won.",
+      "rhetorical_move": "Doctrinal anchoring -- quotes the controlling rule then applies it cleanly.",
+      "confidence": "very high -- direct doctrinal application"
+    },
+    {
+      "claim": "The extensive 'guideline' language about continuing ICC cooperation obligation is obiter dicta -- not binding, not citable as precedent.",
+      "rhetorical_move": "Adopts Harry Roque's procedural framing on the binding/non-binding distinction.",
+      "confidence": "high -- straight rule-of-precedent argument"
+    },
+    {
+      "claim": "Notwithstanding non-binding status, the Leonen decision was 'probably signaling' that a future live, non-moot petition would meet a Court ready to uphold the obiter.",
+      "rhetorical_move": "Reads Court tea leaves; explicit predictive forecast.",
+      "confidence": "medium -- qualified as 'probably,' framed as 'in my humble view'"
+    },
+    {
+      "claim": "Retired Justice Vicente V. Mendoza's UP-forum complaint that the decision is a 'mere advisory opinion' barred by the Court's Internal Rules has substantial merit and should be reckoned with.",
+      "rhetorical_move": "Quotes a respected critic without fully adopting the position.",
+      "confidence": "medium-high -- sympathetic citation"
+    },
+    {
+      "claim": "Petitioners' failure to file before the Philippine withdrawal became a 'fait accompli' is the dispositive procedural defect; future petitions framed under proper justiciability requirements remain open.",
+      "rhetorical_move": "Identifies the operative procedural lesson for future litigators.",
+      "confidence": "high -- direct application of the decision text"
+    }
+  ],
+  "notable_anecdotes": [
+    {
+      "description": "Both sides claimed victory: petitioners citing the Court's March 16 press release ('the President... is subject to the Constitution and existing statute'); respondents citing the dispositive order of dismissal for mootness; senators then issuing a July 22 press release after the full text release of July 21 welcoming the obiter on continuing cooperation.",
+      "purpose": "Concrete tableau of dueling victory claims that the column then adjudicates by formal doctrine."
+    },
+    {
+      "description": "Bensouda's much-publicized finding that 'the crime against humanity of murder has been committed... in the Philippines between 1 July 2016 and 16 March 2019' in the war-on-drugs context, with possible reach back to Nov. 1, 2011.",
+      "purpose": "Substantive backdrop explaining why the senators cared about the obiter."
+    },
+    {
+      "description": "Retired Justice Vicente V. Mendoza, the Court's resident constitutionalist, at a UP forum: 'Was there a decision? Is Pangilinan v. Cayetano a decision? To me, it is not a decision; it is a mere advisory opinion' barred by the Court's Internal Rules.",
+      "purpose": "Senior-jurist critique amplifying CJ's restrained version of the same complaint."
+    },
+    {
+      "description": "Author refers readers to his own June 27 column 'Demystifying the ICC prosecutor's bravado' for the substantive Bensouda analysis.",
+      "purpose": "Series-continuity device pointing to the substantive companion piece."
+    }
+  ],
+  "target_audience": {
+    "primary": "Lawyers, constitutionalists, and human-rights advocates tracking ICC litigation",
+    "secondary": "Journalists and politicians interpreting the conflicting victory claims",
+    "tertiary": "Law students studying ratio decidendi vs obiter dicta and treaty-termination doctrine"
+  },
+  "register_markers": [
+    "Adjudicative-meta register -- column itself decides who really won",
+    "'In my humble view' as soft prediction marker",
+    "Direct verbatim quotation of dispositive language with original ALL-CAPS preserved",
+    "Affectionate-respectful descriptors ('the erudite Justice Marvic M.V.F. Leonen, a UP alumnus and former law dean')",
+    "Senior-jurist amplification through Mendoza quote",
+    "Series-continuity via June 27 column reference"
+  ],
+  "decision_framework_signals": [
+    "Dispositive-portion controls (Velarde v. SJP, 2004): who 'won' is determined by the operative order, not the analysis around it",
+    "Ratio decidendi vs obiter dicta: only the rationale supporting the disposition is binding",
+    "Mootness doctrine: a petition filed after withdrawal becomes fait accompli is non-justiciable",
+    "Cooperation obligation persists: 'Whatever process was already initiated before the (ICC) obliges the state party to cooperate' (cited as obiter, persuasive)",
+    "Future-petition pathway: 'conform to the basic requisites of justiciability'"
+  ],
+  "one_paragraph_summary": "After Pangilinan v. Cayetano (March 16, 2021) issued -- and after the Court's March 16 press release, the July 21 text release of the 101-page unanimous decision, and the Senate's July 22 press release -- both petitioners and respondents claimed victory. CJ Panganiban adjudicates the conflict by applying Velarde v. Social Justice Party (April 28, 2004): the dispositive portion controls. Because the petitions were 'DISMISSED for being moot,' the respondents -- Executive Secretary Medialdea and Foreign Secretary Locsin -- formally won. The extended discussion that delighted the senators -- that the Philippines remains bound to cooperate on ICC proceedings initiated before the March 16, 2019 withdrawal, and that the President 'is subject to the Constitution and existing statute' -- is obiter dicta, not binding precedent, as Presidential Spokesperson Harry Roque correctly noted. CJ then offers a qualified forecast 'in my humble view': the unanimous, no-separate-opinions Leonen ponencia 'was probably signaling' that a future live, non-moot petition would meet a Court ready to uphold the obiter. He amplifies the complaint via retired Justice Vicente V. Mendoza at a UP forum -- 'it is not a decision; it is a mere advisory opinion' barred by the Court's Internal Rules -- without fully adopting the harsher framing. The procedural lesson for future litigators is the dispositive lesson of the case: petitioners should have filed before the Philippine withdrawal became a 'fait accompli,' and any successor petition must 'conform to the basic requisites of justiciability.' Substantively, the column rests on Fatou Bensouda's war-on-drugs murder finding (July 1, 2016 - March 16, 2019, possibly reaching back to Nov. 1, 2011) -- material CJ treats more fully in his June 27 column.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

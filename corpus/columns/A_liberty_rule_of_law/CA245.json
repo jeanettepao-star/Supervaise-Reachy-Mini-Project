@@ -1,0 +1,163 @@
+{
+  "id": "CA245",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 245,
+  "title": "Hackles on judicial delays",
+  "date": "2019-04-28",
+  "link": "https://opinion.inquirer.net/121003/hackles-on-judicial-delays",
+  "keywords": [
+    "judicial delays",
+    "Estelito Mendoza",
+    "Republic v. Lucio Tan",
+    "Section 15 Art VIII",
+    "24-month rule",
+    "date of submission",
+    "inherited cases",
+    "Luis Ermitano",
+    "judges punctuality"
+  ],
+  "primary_topics": [
+    "Estelito Mendoza's complaint about SC delays in Republic v. Lucio C. Tan, et al. (G.R. 203592)",
+    "Constitutional 24-month rule (Art. VIII, Sec. 15) and what 'date of submission' really means",
+    "The 27-respondent service problem that prevents the case from being 'submitted for decision'",
+    "Inherited cases -- when does the 24-month clock start for newly-appointed justices?",
+    "Luis Ermitano's RTC critique: judges who don't start on time, exhaust calendars, mediate, or use pretrial proceedings"
+  ],
+  "sub_topics": [
+    "CJ's two prior columns on judicial delays: 'Confronting SC's mounting backlog' (4/7/19) and 'Will judges-at-large solve huge RTC backlog?' (4/14/19)",
+    "Estelito P. Mendoza ('abogado de campanilla') -- multiple SC cases pending beyond 24 months from submission",
+    "Particular case: 'Republic vs Lucio C. Tan, et al., G.R. 203592'",
+    "Constitution Art. VIII Sec. 15: 24 months SC, 12 months lower courts (unless reduced), 3 months all other courts, from 'date of submission'",
+    "Mendoza's email question: penalties for trial judges by separation, what about SC?",
+    "CJ's answer: SC has not penalized itself or any member for the 24-month violation",
+    "Definition issue: 'date of submission' = 'upon receipt by the Court of the memoranda of the parties' -- clear when only one petitioner/respondent",
+    "Republic v. Tan facts: one petitioner, at least 27 respondents",
+    "Tan, his wife Carmen, and several controlled companies (Mendoza-represented) filed memos 'more than four years ago'; other respondents have not",
+    "Feb 20, 2018 SC resolution noted 2017 orders couldn't be served because lawyers 'moved' offices and one respondent 'was not residing at given address'",
+    "Result: case not deemed 'submitted for decision'",
+    "CJ's proposed fix: deem case submitted on the date the Court ordered memos submitted (over 4 years ago); waive rights of those who didn't comply; penalize their lawyers",
+    "Inherited-cases problem: new appointees 'inherit' retired predecessors' cases; if below average, more old cases 'unloaded' from incumbents; if above, retains all",
+    "Open question: does 24 months begin when assigned to new justice or original memo-receipt date?",
+    "CJ position: 'the Court (and the retired justice) may have violated the 24-month limit, the new justice has not'",
+    "Lawyer Luis M. Ermitano: augment-judges-good but judges must be 'versed in the law and equally important, if not more so, industrious'",
+    "Ermitano critique: 'most judges do not start on time'; don't exhaust calendars; don't use stipulations of facts, mediation, pretrial",
+    "CJ position: beyond constitutional requirements ('proven competence, integrity, probity, and independence'), justices and judges must be 'industrious and diligent'",
+    "Space limitation closer: 'Sorry, I have no more space for other equally important reactions'"
+  ],
+  "signature_phrases": [
+    "raised hackles",
+    "abogado de campanilla",
+    "particularly aggrieved",
+    "My answer:",
+    "the Constitution is not really clear",
+    "easy to determine when there are only two parties",
+    "the case Mendoza is so pissed about",
+    "the Court noted that its orders in 2017 could not be served on some respondents",
+    "the case could not be deemed 'submitted for decision'",
+    "I think the solution",
+    "without commenting on the merits of the case",
+    "inherit",
+    "industrious and diligent",
+    "Sorry, I have no more space"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Estelito P. Mendoza ('abogado de campanilla'; complainant)",
+      "Lucio C. Tan (taipan; respondent in G.R. 203592)",
+      "Carmen Tan (Lucio Tan's wife, co-respondent)",
+      "Atty. Luis M. Ermitano (reader, RTC-judges critic)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Regional Trial Courts",
+      "Republic of the Philippines (petitioner in G.R. 203592)",
+      "Several companies controlled by Lucio Tan (corespondents)",
+      "Philippine Daily Inquirer (publication context)"
+    ],
+    "cases": [
+      "Republic vs Lucio C. Tan, et al. (PH SC, G.R. 203592 -- pending beyond 24 months from submission per Mendoza)"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution Art. VIII Sec. 15 -- 24/12/3-month decision-period rule"
+    ],
+    "events": [
+      "April 7, 2019 -- CJ's prior column 'Confronting SC's mounting backlog'",
+      "April 14, 2019 -- CJ's prior column 'Will judges-at-large solve huge RTC backlog?'",
+      "Feb 20, 2018 -- SC resolution noting non-service to some respondents",
+      "Lucio Tan-side memoranda filed 'more than four years ago'",
+      "Reader feedback (Mendoza and Ermitano) prompting this column"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The 24-month rule of Constitution Art. VIII Sec. 15 is not as clear as it appears, because the period starts only 'from the date of submission,' meaning 'upon receipt by the Court of the memoranda of the parties' -- a definition that is simple with two parties but complex with multiparty cases like Republic v. Lucio Tan, where one petitioner faces at least 27 respondents and not all have filed memos.",
+      "rhetorical_move": "constitutional-definition exegesis (against the headline simplicity)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The SC has not penalized itself or any of its members for failing to comply with the 24-month deadline, in contrast to RTC judges who 'are penalized at times by separation from service' -- an asymmetry between trial-court and supreme-court accountability that Estelito Mendoza's complaint surfaces.",
+      "rhetorical_move": "asymmetry-of-accountability observation",
+      "confidence": "direct admission"
+    },
+    {
+      "claim": "In multiparty cases like Republic v. Tan, where some respondents' counsel 'moved' offices and another respondent 'was not residing at given address,' the Court has procedural cover for non-decision -- but CJ's proposed fix is to deem the case submitted on the date the Court ordered memoranda filed (over four years ago), treat non-filing parties as having waived their right, and penalize their lawyers for failure to comply.",
+      "rhetorical_move": "procedural-cover acknowledgment + corrective-prescription",
+      "confidence": "prescriptive with 'I think'"
+    },
+    {
+      "claim": "When new appointees 'inherit' cases from retired predecessors -- receiving 'unloaded' old cases to reach the incumbent average -- the question whether the 24-month clock begins on the assignment date or on the original memo-receipt date is genuinely open; CJ's view is that the Court and the retired justice may have violated the limit but the new justice has not.",
+      "rhetorical_move": "clock-attribution clarification (protect successors from inherited blame)",
+      "confidence": "asserted as personal view"
+    },
+    {
+      "claim": "Beyond the constitutional requirements of 'proven competence, integrity, probity, and independence,' justices and judges must also be 'industrious and diligent' -- endorsing reader Luis M. Ermitano's RTC critique that most judges don't start on time, don't exhaust calendared cases, and don't fully use stipulations of facts, mediation, or pretrial proceedings.",
+      "rhetorical_move": "extra-constitutional-virtues prescription",
+      "confidence": "endorsing with longstanding-advocacy framing"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 'hackles raised' framing -- CJ's two prior columns produced strong pushback 'especially in the legal community,' converting reader anger into the column's opening occasion.",
+    "Estelito P. Mendoza characterized as 'abogado de campanilla' (bell-class lawyer) -- the elite-bar respect title placed alongside his complaint, which makes the pushback higher-stakes than ordinary reader correspondence.",
+    "The Republic v. Tan multiparty arithmetic -- 'one petitioner' against 'at least 27 respondents,' with Tan, Carmen Tan, and several controlled companies represented by Mendoza filing memos 'more than four years ago,' while other respondents (with lawyers who 'moved' or who were 'not residing at given address') still have not -- physicalizing why the 24-month rule under-determines outcomes in complex litigation.",
+    "CJ's uncharacteristic register-break -- 'the case Mendoza is so pissed about' -- a rare colloquial flash in an otherwise doctrinal column, marking CJ's amused acknowledgment of the great lawyer's annoyance.",
+    "The inherited-cases mechanics -- new appointees with under-average inherited dockets get more old cases 'unloaded' to them by incumbents to equalize the average, while those above the average retain all theirs -- exposing the SC's internal load-balancing pragmatics few outsiders see.",
+    "The closing space-acknowledgment -- 'Sorry, I have no more space for other equally important reactions' -- CJ's regular nod to the column-format constraint and the volume of reader correspondence."
+  ],
+  "target_audience": [
+    "Estelito P. Mendoza personally (column responds to his email)",
+    "Atty. Luis M. Ermitano (column responds to his reader letter)",
+    "Members of the Supreme Court (especially newer appointees inheriting cases)",
+    "Bar leaders and senior litigators tracking judicial delays",
+    "RTC judges named in the punctuality-and-industry critique",
+    "Constitutional law academics on Art. VIII Sec. 15",
+    "Inquirer general readership following the multi-column judicial-delays series"
+  ],
+  "register_markers": [
+    "reader-engagement register (responding to Mendoza email and Ermitano letter)",
+    "elite-bar honorific ('abogado de campanilla')",
+    "verbatim-quote of constitutional text",
+    "verbatim-quote of Feb 20, 2018 SC resolution",
+    "rare colloquial flash ('so pissed about')",
+    "Q-and-A pattern ('My answer:')",
+    "'I think' as repeated hedge-with-position marker",
+    "constitutional-quote-plus-doctrinal-virtues structure",
+    "longstanding-advocacy framing ('have always advocated')",
+    "space-acknowledgment closer ('Sorry, I have no more space')",
+    "self-citation of two prior columns by date"
+  ],
+  "decision_framework_signals": [
+    "applies definition-exegesis test ('date of submission' = receipt of memoranda)",
+    "uses multiparty-complexity argument to explain procedural-cover for non-decision",
+    "deploys waiver-and-penalty fix as procedural-clarity prescription",
+    "treats clock-attribution as analytical problem (assigned date vs original date) to protect successors",
+    "applies extra-constitutional-virtues principle (industrious and diligent beyond competence/integrity)",
+    "uses asymmetry-of-accountability observation to surface institutional-self-exception",
+    "frames endorsement of named-lawyer critique as engagement-respect for legal-community feedback"
+  ],
+  "one_paragraph_summary": "Panganiban responds to the pushback his two prior columns on judicial delays -- 'Confronting SC's mounting backlog' (April 7, 2019) and 'Will judges-at-large solve huge RTC backlog?' (April 14, 2019) -- provoked in the legal community. Leading the pack is 'abogado de campanilla' Estelito P. Mendoza, who complains that he has several SC cases unresolved beyond the 24-month constitutional deadline (Art. VIII Sec. 15) -- particularly Republic v. Lucio C. Tan, et al. (G.R. 203592) -- and asks what consequences attach to the Court's own violation, given that RTC judges 'are penalized at times by separation from service.' CJ answers directly that the SC has not penalized itself or its members. He then explains the definitional complication: the 24 months start from 'date of submission,' meaning receipt of the parties' memoranda -- easy with two parties but unclear with the 27-respondent Republic v. Tan, where Tan, his wife Carmen, and Mendoza-represented controlled companies filed memos 'more than four years ago' while the remaining respondents have not. A February 20, 2018 SC resolution noted that 2017 orders 'could not be served on some respondents' because their lawyers 'moved' and one respondent 'was not residing at given address.' Without commenting on the merits, CJ proposes that the case be deemed submitted on the date the Court ordered memos filed (over four years ago), with non-filing parties waiving their right and their lawyers penalized for failure to comply. He raises a second structural difficulty: new SC appointees 'inherit' cases from retired predecessors and may be 'unloaded' with old cases by incumbents to equalize the per-justice average -- leaving open whether the 24 months begin on assignment date or original memo-receipt date. His view is that 'the Court (and the retired justice) may have violated the 24-month limit, the new justice has not.' Finally, he endorses lawyer Luis M. Ermitano's complementary critique of RTC judges who 'do not start on time,' do not take up calendared cases, and do not fully use stipulations of facts, mediation, or pretrial proceedings -- agreeing that beyond the constitutional requirements of 'proven competence, integrity, probity, and independence,' justices and judges must also be 'industrious and diligent.' He closes by acknowledging the column-space constraint: 'Sorry, I have no more space for other equally important reactions.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

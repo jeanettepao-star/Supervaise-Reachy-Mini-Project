@@ -1,0 +1,122 @@
+{
+  "id": "CA494",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 494,
+  "title": "First among equals",
+  "date": "2012-06-23",
+  "link": "https://opinion.inquirer.net/31295/first-among-equals",
+  "keywords": [
+    "primus inter pares",
+    "chief justice duties",
+    "SC backlog",
+    "Operation Zero Backlog",
+    "SC divisions en banc",
+    "CJ certification decisions",
+    "judicial reform",
+    "EO 464 CPR PP1094 peoples initiative"
+  ],
+  "primary_topics": [
+    "The chief justice's most important duty: being primus inter pares in the Supreme Court",
+    "The CJ's unique role of certifying all SC decisions -- en banc and divisional -- for consistency",
+    "CJ Panganiban's own Operation Zero Backlog and the persistent SC caseload challenge"
+  ],
+  "sub_topics": [
+    "CJ spends only ~30% of time on decision-making due to seven other duties",
+    "Trust, respect, esteem from associate justices as prerequisite for leadership",
+    "CJ requires superior intellectual gravitas, unassailable integrity, unquestioned independence",
+    "CJ has only one vote -- leads by moral ascendancy and persuasive skill, not boss-subordinate authority",
+    "CJ who loses in minority risks the 'Chief, you lost again' remark",
+    "CJ Panganiban's major case victories: EO 464, CPR policy, PP 1094, people's initiative for parliamentary system",
+    "CJ's caseload is lightened: raffled one-third of new cases compared to associate justices",
+    "CJ certifies all decisions: en banc and three divisions -- eagle-eyed review for consistency",
+    "Three divisions vs en banc: divisions decide ~85% of cases; only banc can reverse/modify old decisions",
+    "SC has ~6,000 pending cases; another ~6,000 new cases filed annually",
+    "Operation Zero Backlog: CJ segregated old cases, gave them priority; reduced backlog to near-zero",
+    "CJ entered SC in 1995 with 1,000+ cases; retired Dec. 6, 2006 with ~200 cases",
+    "New CJ must find ways to reduce persistent backlog",
+    "US Supreme Court writes only ~100 cases yearly vs PH SC ~1,000 ponencias"
+  ],
+  "signature_phrases": [
+    "primus inter pares",
+    "first among equals",
+    "moral ascendancy and persuasive skill",
+    "Chief, you lost again",
+    "eagle-eyed CJ",
+    "Operation Zero Backlog",
+    "judicial bayanihan",
+    "only one vote",
+    "little chief"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, former CJ; Operation Zero Backlog; own case victories)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "US Supreme Court (comparison benchmark)"
+    ],
+    "cases": [
+      "EO 464 case -- SC struck down executive order barring officials from legislative inquiries",
+      "Calibrated Preemptive Response (CPR) policy case -- SC struck down",
+      "Presidential Proclamation 1094 (PP 1094) emergency rule case -- SC struck down",
+      "People's initiative for parliamentary system case -- SC struck down"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution -- CJ certification duty; only en banc can reverse old decisions"
+    ],
+    "events": [
+      "CJ Panganiban joining SC in 1995 with 1,000+ cases",
+      "CJ Panganiban's retirement December 6, 2006 with ~200 cases",
+      "Operation Zero Backlog during CJ Panganiban's term"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The chief justice's single most important duty is being primus inter pares in the SC — but this requires trust, respect, and esteem from associate justices built on superior intellectual gravitas, unassailable integrity, and unquestioned independence, not on hierarchical authority (the CJ has only one vote).",
+      "rhetorical_move": "authority-without-hierarchy argument: the CJ's leadership power derives from moral ascendancy, making personal qualities — not positional power — the decisive variable",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The CJ's certification duty over all SC decisions — en banc and three divisions — is the structural mechanism for ensuring doctrinal consistency, as divisions can inadvertently issue conflicting decisions without awareness of each other's judgments.",
+      "rhetorical_move": "certification-as-consistency-guardian argument: the CJ's review function as an institutional safeguard against intra-court doctrinal conflict",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The SC backlog (6,000 pending + 6,000 new cases annually) is a recurring structural problem that each new CJ must actively address; CJ Panganiban's Operation Zero Backlog succeeded but is not self-sustaining, proving that backlog reduction requires continuous institutional effort.",
+      "rhetorical_move": "self-citation of institutional success with honest-limitation disclosure: backlog reduced to near-zero but recurred, requiring continuous vigilance",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The colleague's joke to a CJ who often voted with the minority — 'Chief, you lost again' — which CJ found 'a cruel joke on the CJ's leadership' even in jest, used to make concrete the power of moral ascendancy: a CJ who cannot win major cases loses institutional credibility regardless of formal title.",
+    "CJ entering the SC in 1995 with 1,000+ cases assigned, working 'day and night' to reduce the caseload, and retiring December 6, 2006 with only ~200 cases — a personal institutional accountability metric that models exactly what Operation Zero Backlog means in practice.",
+    "The four landmark cases CJ Panganiban led the Court to win — striking down EO 464, the CPR policy, PP 1094, and the people's initiative for parliamentary system — deployed as proof that a CJ who wins the trust of colleagues can lead the Court to resolve even the most politically contentious public interest cases."
+  ],
+  "target_audience": [
+    "Chief justice nominees needing to understand the primus inter pares duty",
+    "JBC members designing interview criteria for the CJ candidates",
+    "Associate justices of the SC as the ultimate judges of any new CJ's moral ascendancy",
+    "Legal academics and judicial reform advocates",
+    "General civic readership following the CJ succession process"
+  ],
+  "register_markers": [
+    "primus-inter-pares Latin formula as organizing concept",
+    "authority-without-hierarchy argument (one vote + moral ascendancy)",
+    "self-disclosure institutional-accountability register (1,000+ cases upon entry; ~200 upon retirement)",
+    "self-citation of landmark case victories (EO 464, CPR, PP 1094, people's initiative)",
+    "Operation-Zero-Backlog self-citation as the institutional-success model with honest-limitation disclosure",
+    "comparative-SC-caseload register (US SC 100 ponencias vs PH SC ~1,000)"
+  ],
+  "decision_framework_signals": [
+    "applies authority-without-hierarchy framework: moral ascendancy as the operative leadership mechanism",
+    "uses certification-as-consistency-guardian principle: CJ's eagle-eyed review as structural doctrinal safeguard",
+    "applies recurring-structural-problem test: backlog as a continuous management challenge requiring permanent institutional attention",
+    "uses self-citation of institutional success with honest-limitation disclosure as the modeling standard for new CJ",
+    "treats trust-respect-esteem triad from associate justices as the necessary precondition for effective CJ leadership"
+  ],
+  "one_paragraph_summary": "Panganiban identifies the CJ's most important duty as being primus inter pares -- first among equals -- in the Supreme Court, but clarifies that this leadership rests entirely on moral ascendancy and persuasive skill (the CJ has only one vote) rather than boss-subordinate authority, meaning the CJ must earn the trust, respect, and esteem of associate justices through superior intellectual gravitas, unassailable integrity, and unquestioned independence. He notes that a CJ who regularly votes with the minority risks the cruel jest 'Chief, you lost again,' citing his own effort to win all major cases during his term -- striking down EO 464, the Calibrated Preemptive Response policy, PP 1094 emergency rule, and the people's initiative for parliamentary system. Structurally, the CJ is raffled only one-third of the new cases assigned to associate justices (spending only ~30% of time on decision-making), but must certify all decisions of all three divisions and the en banc -- an eagle-eyed review that guards against the inadvertent doctrinal conflicts that can arise when three separately operating divisions are unaware of each other's rulings. On the backlog, he discloses entering the SC in 1995 with 1,000+ cases and retiring December 6, 2006 with only ~200 via his Operation Zero Backlog -- a judicial bayanihan of collegial case redistribution -- while noting that 6,000 pending cases plus 6,000 new annual filings make backlog a structural recurring problem requiring each new CJ's continuous institutional attention.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,142 @@
+{
+  "id": "CA046",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 46,
+  "title": "De Lima's remedies to remain free",
+  "date": "2025-05-26",
+  "link": "https://opinion.inquirer.net/183446/de-limas-remedies-to-remain-free",
+  "keywords": [
+    "gig economy",
+    "Article 106 contractualization",
+    "regular employee criteria",
+    "SSS coverage gig workers",
+    "labor bias in Constitution"
+  ],
+  "primary_topics": [
+    "Legal status of gig workers in the Philippines",
+    "Application of existing Labor Code to non-regular workers",
+    "Need for digital-age labor legislation"
+  ],
+  "sub_topics": [
+    "May 1 organized-labor demands (wages, tenure, prices, endo)",
+    "Unorganized labor and the self-employed",
+    "Etymology of 'gig' (musicians' Tagalog usage)",
+    "Income spread: P1M/day movie stars to P500/day garbage collectors",
+    "SSS coverage initiative under RA 11199 (Jay de Claro)",
+    "Article XIII, Section 3 -- constitutional bias for labor",
+    "Article 4 of the Labor Code -- doubts resolved for labor",
+    "Article 106 -- labor-only contractor/agent rule",
+    "Grab driver case -- vehicle ownership and app-only model = independent contractor",
+    "SC's five criteria for regular vs project employment",
+    "Continuous rehiring + indispensable tasks → regular status",
+    "No-work-no-pay vs management prerogatives",
+    "DOLE termination-report submission as indicator only",
+    "Call for new digital-age labor legislation"
+  ],
+  "signature_phrases": [
+    "endo-contractualization",
+    "5-5-5",
+    "May gig ka ba ngayon?",
+    "the Labor Code was enacted prior to the digital age",
+    "the gigs were exponentially expanded by the digital age",
+    "no work, no pay",
+    "labor-only contractor",
+    "ripen into regular status",
+    "bias for labor"
+  ],
+  "entities": {
+    "people": [
+      "Jay de Claro (SSS President, AI-trained)",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Social Security System (SSS)",
+      "Supreme Court of the Philippines",
+      "Department of Labor and Employment (DOLE) Field Offices",
+      "Grab Philippines",
+      "Angkas",
+      "Jollibee",
+      "Congress of the Philippines"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution, Article XIII, Section 3 (bias for labor)",
+      "Labor Code, Article 4 (doubts resolved in favor of labor)",
+      "Labor Code, Article 106 (contractualization / labor-only contractor)",
+      "Republic Act No. 11199 (SSS Law)"
+    ],
+    "events": [
+      "Annual May 1 organized-labor rallies",
+      "SSS's pending issuance of coverage rules for gig workers"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "May 1 calls for organized labor traditionally rally for the same demands; this year, attention should turn to unorganized gig-economy workers, especially the lowest-paid like garbage collectors and canal diggers at P500 a day.",
+      "rhetorical_move": "thematic pivot from organized to unorganized labor",
+      "confidence": "high"
+    },
+    {
+      "claim": "SSS's planned coverage of gig workers under RA 11199 is laudable.",
+      "rhetorical_move": "endorsement of named institutional initiative",
+      "confidence": "high"
+    },
+    {
+      "claim": "Although the Labor Code does not directly cover gig workers, Article 106's labor-only contractor rule can indirectly apply when the intermediary lacks substantial capital and the workers perform activities directly related to the principal's major business.",
+      "rhetorical_move": "doctrinal stretch via existing provision",
+      "confidence": "high"
+    },
+    {
+      "claim": "A 'freelance' driver given a company vehicle, working regular hours under company control is a regular employee; a Grab driver who owns or leases his vehicle and merely uses the app to secure passengers is an independent contractor.",
+      "rhetorical_move": "concrete comparator pair illustrating the test",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Supreme Court's five criteria determine whether an occasional worker is entitled to regular-employee benefits.",
+      "rhetorical_move": "doctrinal enumeration",
+      "confidence": "high"
+    },
+    {
+      "claim": "Congress should legislate on the status, benefits, and risks of the gig economy because the Labor Code was enacted prior to the digital age and does not directly cover these workers.",
+      "rhetorical_move": "closing call to legislative action",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Tagalog/Filipino etymology of 'gig' from musicians' 'May gig ka ba ngayon?' expanded to include riders, food delivery, online sellers, college professors, movie stars, stuntmen, and dance instructors.",
+    "Income spread illustration: P1 million per taping day for movie stars vs P500 per day for garbage collectors and canal diggers -- the rhetorical pivot to the unprotected workers the author writes for.",
+    "SSS President Jay de Claro described as 'AI-trained' -- a small but telling tonal flag for the digital-age framing of the column.",
+    "The Grab driver hypothetical: app-mediated work + driver-owned/leased vehicle = independent contractor, not regular employee."
+  ],
+  "target_audience": [
+    "Members of Congress drafting digital-age labor legislation",
+    "DOLE policymakers and SSS administrators",
+    "Labor lawyers and HR practitioners",
+    "Gig workers and platform operators (Grab, Angkas, etc.)",
+    "Law students studying labor doctrine",
+    "Civic readers interested in worker protection"
+  ],
+  "register_markers": [
+    "Filipino-language slang embedded with translation ('May gig ka ba ngayon?')",
+    "ALL-CAPS topic sentences as section anchors",
+    "Article-number citations within the Labor Code",
+    "Numbered ordinal exposition ('First... Second... Third... Fourth... Fifth')",
+    "Casual examples paired with formal doctrine",
+    "Closing legislative-prescription cadence",
+    "Empathetic class consciousness ('lowly workers')"
+  ],
+  "decision_framework_signals": [
+    "Pivot policy attention from organized to unorganized labor when the latter is more numerous and less protected",
+    "Apply the constitutional 'bias for labor' as a tiebreaker in interpretive doubt",
+    "Use Article 106's labor-only contractor framework to reach platform-mediated arrangements when the intermediary lacks substantial capital",
+    "Apply the two-prong control test: vehicle/tools ownership + working hours + control = regular; app-only with worker-owned tools = independent contractor",
+    "Use the SC's five regularization criteria as a checklist: presumption of regular, attachment of tenure, ripening through continuous rehiring + indispensable tasks, no-work-no-pay subject to management prerogatives, and DOLE termination-report as indicator only",
+    "Push for new legislation when existing law predates the technological context (digital age)",
+    "Layer protections: even when employment status is unclear, expand SSS coverage as a baseline floor"
+  ],
+  "one_paragraph_summary": "On Labor Day, Panganiban shifts the conversation from organized labor's perennial demands for higher wages, security of tenure, lower prices, and the end of endo-contractualization to the unorganized self-employed workers of the gig economy -- musicians, dance instructors, online sellers, influencers, delivery drivers, seasonal workers, and construction laborers -- whose income spread runs from P1 million per taping day for movie stars to P500 per day for garbage collectors and canal diggers. He notes SSS President Jay de Claro's planned issuance of gig-worker coverage under RA 11199 and turns to legal protection more broadly. The 1987 Constitution's Article XIII, Section 3 instills a 'bias for labor' echoed in Article 4 of the Labor Code, which resolves doubts in favor of labor. Although gig workers are not directly covered by the Labor Code, Article 106 on labor-only contractors can indirectly reach them when the intermediary lacks substantial capital and the workers perform tasks directly related to the principal's business. He illustrates the line with two driver hypotheticals: a freelance driver given a company vehicle and working under company control is a regular employee, while a Grab driver who owns or leases his vehicle and merely uses the app is an independent contractor. He then enumerates the Supreme Court's five criteria for determining when occasional workers qualify as regular employees -- the presumption of regular status absent specific project elements, the attachment of security of tenure, the ripening of project employment into regular status through continuous rehiring of workers performing indispensable tasks, the no-work-no-pay rule moderated by management prerogatives, and the indicative-only character of DOLE termination-report submissions. He closes with a call for Congress to enact legislation specifically for the gig economy because the Labor Code was written before the digital age and does not directly cover these workers.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "BA021",
+  "format": "B",
+  "type": "book",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 21,
+  "title": "With Due Respect (Vol. 5) -- Ch. 3: Law, Mathematics, and the Party-list System",
+  "date": "2007-07-15",
+  "link": "https://cjpanganiban.com/books-authored-by-chief-justice-artemio-v-panganiban/",
+  "keywords": [
+    "Law, Mathematics, and the Party-list System",
+    "four inviolable parameters",
+    "the two percent threshold",
+    "the three-seat limit",
+    "provided by law",
+    "the Panganiban formula",
+    "Vicente V. Mendoza",
+    "Reynato Puno",
+    "Dean Raul Pangalangan",
+    "Joaquin Bernas",
+    "Veterans Federation Party v. Comelec",
+    "Republic Act 7941",
+    "1987 Constitution",
+    "Supreme Court",
+    "Commission on Elections",
+    "House of Representatives",
+    "German Bundestag",
+    "2007 party-list seat-allocation question",
+    "2007"
+  ],
+  "primary_topics": [
+    "Chapter 3 of 'With Due Respect' (Vol. 5) -- CJP's July 15, 2007 Inquirer column explaining the 'law and mathematics' of party-list seat allocation, anchored in Veterans Federation Party v. Comelec (2000), which he calls one of the most debated cases of his 11 years on the Court",
+    "The 'four inviolable parameters' the Court drew from the Constitution and RA 7941 -- the 20-percent allocation, the 2-percent threshold, the three-seat limit, and proportional representation -- and its unanimous ruling that the threshold and limit are not unconstitutional (the system being 'provided by law')",
+    "Why converting those parameters into a workable formula divided the Court, and the rejected alternatives -- the simple '2%-per-seat' proposal (which broke the three-seat limit on lopsided votes) and Justice Mendoza's German 'Niemeyer Formula' (inapplicable because RA 7941 imposes a seat limit to encourage small parties)",
+    "The 'Panganiban Formula' he devised to honor all four parameters -- giving the topnotcher 'first party' one or two additional seats by vote share and computing the rest proportionally -- which the Court adopted and unanimously reiterated in later cases"
+  ],
+  "sub_topics": [
+    "The framing: with Dean Raul Pangalangan calling it a 'conundrum' and Fr. Joaquin Bernas an 'experiment,' and the Comelec having named 13 party-list winners (one 'qualifying' seat each), the 'Gordian question' is which winners get more than one seat",
+    "The governing case: Veterans Federation Party v. Comelec (Oct. 6, 2000), a 53-page decision CJP ranks among 'the most debated' of his 11 years, set the framework",
+    "The four inviolable parameters: (1) the 20-percent allocation (party-list members capped at 20 percent of the House), (2) the 2-percent threshold (a party needs at least 2 percent of party-list votes to qualify for a seat), (3) the three-seat limit (one 'qualifying' plus two additional, maximum), and (4) proportional representation (additional seats computed in proportion to votes)",
+    "The constitutional challenge: some litigants argued the 2-percent threshold and three-seat limit were 'arbitrary and unconstitutional' and that the 20-percent allocation is 'mandatory,' so sub-2-percent parties should win and big parties should exceed three seats -- but the Court 'unanimously ruled' the threshold and limit valid, since the Constitution leaves the system to be 'provided by law' and gave Congress 'wide latitude'",
+    "What divided the Court: not the parameters' validity but 'how to convert the four legal parameters into a mathematical formula' for the additional seats",
+    "Rejected formula one: a senior justice's '2 percent = one seat, 4 percent = two, 6 percent = three' proposal -- simple but, on lopsided votes (a 20-percent party would get 10 seats), it broke the three-seat limit and ignored proportional representation, so it was discarded",
+    "Rejected formula two: Justice Mendoza's 'Niemeyer Formula' from the German Bundestag -- inapplicable because German law has no seat limits (to discourage small parties) whereas RA 7941 imposes a three-seat limit precisely 'to encourage small parties'",
+    "The Panganiban Formula: CJP devised a method that would 'not contravene, circumvent or amend' the four parameters -- giving the 'first party' (topnotcher) one more seat at 4-to-under-6 percent and two at 6 percent or more, then computing the other qualified parties' additional seats proportionally (their votes ÷ the topnotcher's votes × the topnotcher's seats); the majority accepted it, CJP wrote the decision, Mendoza (with two others) dissented and Puno concurred, and the Court 'unanimously reiterated' the formula in Partido ng Manggagawa (2006) and CIBAC (2007)"
+  ],
+  "signature_phrases": [
+    "four inviolable parameters",
+    "the two percent threshold",
+    "the three-seat limit",
+    "provided by law",
+    "the Panganiban formula"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (columnist; former Chief Justice; the formula's author)",
+      "Justice Vicente V. Mendoza (the Niemeyer Formula and original ponente/dissenter); Justice (later Chief Justice) Reynato Puno (concurrence)",
+      "Dean Raul Pangalangan and Fr. Joaquin Bernas (cited commentators)"
+    ],
+    "institutions": [
+      "the Supreme Court and the Commission on Elections",
+      "the House of Representatives (the seats at stake); the German Bundestag (the Niemeyer comparison)"
+    ],
+    "cases": [
+      "Veterans Federation Party v. Comelec (Oct. 6, 2000)",
+      "Partido ng Manggagawa v. Comelec (March 15, 2006); CIBAC v. Comelec (April 13, 2007)"
+    ],
+    "laws_treaties": [
+      "Republic Act 7941 (the Party-List Law)",
+      "1987 Constitution (the party-list system 'provided by law')"
+    ],
+    "events": [
+      "the 2007 party-list seat-allocation question"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The 2-percent threshold and three-seat limit are not unconstitutional: the Constitution leaves the party-list system to be 'provided by law,' giving Congress 'wide latitude,' so the Court must apply the parameters, not strike them down.",
+      "rhetorical_move": "deference-to-statute: grounding the parameters' validity in the constitutional delegation to Congress",
+      "confidence": "asserted as unanimous holding"
+    },
+    {
+      "claim": "The simple '2%-per-seat' and German 'Niemeyer' formulas both fail here -- the first breaks the three-seat limit and ignores proportionality on lopsided votes, the second presupposes no seat limit -- so neither could honor all four parameters.",
+      "rhetorical_move": "elimination argument: ruling out the alternatives to justify the adopted method",
+      "confidence": "asserted with reasons"
+    },
+    {
+      "claim": "The Panganiban Formula honors all four parameters by giving the topnotcher one or two additional seats by vote share and computing the rest proportionally -- and, though criticized, no viable alternative has been advanced, so the Court 'unanimously reiterated' it.",
+      "rhetorical_move": "best-available-solution: defending the formula by the absence of a workable rival",
+      "confidence": "asserted and defended"
+    }
+  ],
+  "notable_anecdotes": [
+    "One of the most debated cases: CJP recalls that the 53-page Veterans decision was among 'the most debated' of his 11 years on the Court.",
+    "The discarded simple formula: he recounts how even its proponent abandoned the '2%-per-seat' idea once lopsided votes showed it breaking the three-seat limit.",
+    "Why Germany doesn't fit: he explains that Mendoza's Niemeyer Formula assumed no seat limits, whereas RA 7941 imposes a three-seat limit 'to encourage small parties.'",
+    "From dissent's ponente to majority's: he notes that the original ponente, Mendoza, ended up writing the dissent, while CJP -- whose math the majority accepted -- wrote the decision."
+  ],
+  "target_audience": [
+    "Inquirer readers and election lawyers",
+    "Law students and political scientists (party-list mechanics)",
+    "Court-watchers and party-list groups"
+  ],
+  "register_markers": [
+    "law-and-mathematics explainer register",
+    "parameter-by-parameter exposition",
+    "comparative formula analysis (rejected alternatives)",
+    "first-person account of authoring the decision",
+    "citations to reaffirming cases"
+  ],
+  "decision_framework_signals": [
+    "four-inviolable-parameters as the fixed constraints",
+    "statutory-deference: threshold and limit are policy choices, not unconstitutional",
+    "honor-all-parameters: any formula must satisfy every constraint at once",
+    "topnotcher-anchored proportionality for additional seats",
+    "best-available-method: adopt the workable formula absent a viable rival"
+  ],
+  "one_paragraph_summary": "Chapter 3 of 'With Due Respect' (Vol. 5), CJP's July 15, 2007 Inquirer column, explains the 'law and mathematics' of party-list seat allocation. With commentators calling the system a 'conundrum' (Pangalangan) and an 'experiment' (Bernas), and the Comelec having named 13 winners with one 'qualifying' seat each, the 'Gordian question' is which winners get more than one. The answer, he writes, lies in Veterans Federation Party v. Comelec (2000) -- a 53-page decision he ranks among 'the most debated' of his 11 years -- which drew from the Constitution and RA 7941 'four inviolable parameters': the 20-percent allocation, the 2-percent threshold, the three-seat limit, and proportional representation. Litigants argued the threshold and limit were arbitrary and that the 20-percent allocation must always be filled, but the Court 'unanimously' upheld them, since the system is 'provided by law' and Congress has 'wide latitude.' What divided the Court was how to turn the parameters into a formula. A simple '2 percent = one seat, 4 percent = two' proposal was discarded because lopsided votes (a 20-percent party getting 10 seats) broke the three-seat limit and ignored proportionality; Justice Mendoza's German 'Niemeyer Formula' was inapplicable because German law has no seat limits, whereas RA 7941 imposes one 'to encourage small parties.' So CJP devised the 'Panganiban Formula' to honor all four parameters: the 'first party' (topnotcher) gets one more seat at 4-to-under-6 percent and two at 6 percent or more, while the other qualified parties' additional seats are computed proportionally (their votes divided by the topnotcher's, times the topnotcher's seats). The majority accepted his math, so he wrote the decision (Mendoza, with two others, dissented; Puno concurred), and though criticized, the formula drew no viable alternative and was 'unanimously reiterated' in Partido ng Manggagawa (2006) and CIBAC (2007).",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "CA478",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 478,
+  "title": "Party-list: Legislation is the solution (2)",
+  "date": "2012-11-03",
+  "link": "https://opinion.inquirer.net/40068/party-list-legislation-is-the-solution-2",
+  "keywords": [
+    "Veterans formula",
+    "Panganiban formula",
+    "Banat v. Comelec",
+    "party-list seat allocation",
+    "2% threshold",
+    "20% allocation",
+    "proportional representation",
+    "RA 7941"
+  ],
+  "primary_topics": [
+    "How party-list winners are determined -- the Veterans formula (Panganiban formula) and the Banat modification",
+    "The mathematical inscrutability and contradictions of RA 7941 as the root cause of recurring party-list controversies",
+    "CJ call for Congress to redefine, reengineer, or repeal the party-list system via legislation"
+  ],
+  "sub_topics": [
+    "Veterans Federation Party v. Comelec (Oct. 6, 2000) -- first SC ruling on party-list winners; the Veterans/Panganiban formula",
+    "RA 7941 four parameters: (1) 20% allocation, (2) 2% threshold, (3) 3-seat limit, (4) proportional representation",
+    "Veterans formula criticized: allegedly violated proportional representation; did not result in a rough straight line when graphed",
+    "Formula merely reflected RA 7941 parameters -- precise proportional representation requires amending the law",
+    "Veterans affirmed unanimously: Partido ng Manggagawa v. Comelec (March 15, 2006); Cibac v. Comelec (April 13, 2007)",
+    "Banat v. Comelec (April 21, 2009): declared 2% threshold unconstitutional; authorized seats for groups with less than 2% of votes",
+    "Banat distortions: topnotchers still limited to 3 seats; parties with less than 1% can win; Veterans allowed 14 party-list reps, Banat authorized 55",
+    "SC does not make, amend or invent laws -- only declares them valid or invalid",
+    "Congress options: (1) define PH party-list system clearly; (2) declare whether reserved for marginalized or open to all; (3) reengineer winner-determination method; OR (4) repeal RA 7941 altogether"
+  ],
+  "signature_phrases": [
+    "the party-list system always becomes a vortex of controversies",
+    "the Party-list Law (RA 7941) is vague, contradictory and mathematically inscrutable",
+    "mongrelized it into our presidential system",
+    "Mathematically speaking, proportional representation as mandated by the Party-list Law cannot be perfected if all the parameters are observed",
+    "It is also referred to as the Panganiban formula because I was the ponente of the decision",
+    "regardless of how few its votes are, a party-list candidate could win",
+    "The Supreme Court does not make, amend or invent laws",
+    "confound and confuse everyone, including its own honorable members. And the people"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (ponente of Veterans decision)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Commission on Elections (Comelec)",
+      "House of Representatives"
+    ],
+    "cases": [
+      "Veterans Federation Party v. Comelec (Oct. 6, 2000) -- Panganiban formula",
+      "Partido ng Manggagawa v. Comelec (March 15, 2006) -- Veterans affirmed",
+      "Cibac v. Comelec (April 13, 2007) -- Veterans affirmed",
+      "Banat v. Comelec (April 21, 2009) -- 2% threshold unconstitutional; 55 winners"
+    ],
+    "laws_treaties": [
+      "Republic Act No. 7941 (Party-List Law) -- vague, contradictory, mathematically inscrutable",
+      "1987 Constitution -- Art. VI (20% party-list allocation)"
+    ],
+    "events": [
+      "Multiple election cycles with recurrent party-list controversies",
+      "Banat decision (April 21, 2009) -- opening floodgates to 55 party-list representatives"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "RA 7941 is vague, contradictory and mathematically inscrutable -- its four parameters cannot all be satisfied simultaneously, making any judicial formula including the Panganiban formula necessarily imperfect.",
+      "rhetorical_move": "self-critical-yet-justified defense of own formula (the law is the problem, not the formula)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Banat modification -- voiding the 2% threshold while retaining the 3-seat cap -- produced worse distortions than Veterans: parties with less than 1% of votes can now win, topnotchers still limited to 3 seats, and 55 reps entered instead of 14.",
+      "rhetorical_move": "Banat-produces-worse-distortions argument (cure worse than disease)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The real and only lasting solution is congressional legislation: Congress must either clearly define and reengineer the party-list system or repeal RA 7941 -- leaving RA 7941 as is will continue to confound everyone.",
+      "rhetorical_move": "legislative-action-as-the-only-solution with repeal-as-the-ultimate-option",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ identifying himself as the ponente of Veterans -- Panganiban formula because I was the ponente -- disclosing personal authorship before defending the formula while attributing its flaws to RA 7941 own contradictions.",
+    "The German parliamentary system as the origin of the party-list concept, mongrelized into the Philippine presidential system -- the most evocative word in the column for the structural mismatch.",
+    "Banat extreme outcome: a party with less than 1% of total votes cast can now win a party-list seat -- the single most absurd concrete consequence of voiding the 2% threshold while retaining the 3-seat cap."
+  ],
+  "target_audience": [
+    "Congress members considering party-list legislation",
+    "Election law scholars and Comelec officials",
+    "Party-list organizations and their lawyers",
+    "Civic readers frustrated by recurring party-list controversies"
+  ],
+  "register_markers": [
+    "vortex-of-controversies as recurring party-list characterization",
+    "four-parameter enumeration as the mathematical framework",
+    "self-critical ponente disclosure (I was the ponente) before defending own formula",
+    "mongrelized as the key structural-mismatch descriptor",
+    "Banat-distortion-quantification (Veterans: 14 reps; Banat: 55 reps)",
+    "three-or-four legislative options as closing prescription",
+    "confound and confuse everyone, including its own honorable members. And the people as drily ironic closing"
+  ],
+  "decision_framework_signals": [
+    "applies four-parameter-internal-contradiction analysis to show why any judicial formula is necessarily imperfect",
+    "uses Banat-produces-worse-distortions argument to show judicial modification cannot solve the underlying problem",
+    "deploys SC-does-not-make-laws principle to establish legislative responsibility as the only legitimate solution",
+    "treats repeal as a legitimate option when the law is beyond repair",
+    "frames congressional inaction as the root cause of recurring controversies"
+  ],
+  "one_paragraph_summary": "Panganiban takes up the second major party-list question -- how winners are determined -- tracing the evolution from Veterans Federation Party v. Comelec (October 6, 2000), where he was the ponente of what became known as the 'Veterans/Panganiban formula,' through Banat v. Comelec (April 21, 2009). The root problem is RA 7941 itself, which is 'vague, contradictory and mathematically inscrutable': its four parameters -- 20% allocation, 2% threshold, 3-seat limit, and proportional representation -- are internally contradictory and cannot be satisfied simultaneously, making any judicial formula imperfect. The Veterans formula was unanimously affirmed in Partido ng Manggagawa (2006) and Cibac (2007), but Banat modified it by declaring the 2% threshold unconstitutional -- producing worse distortions: groups with less than 1% of votes can now win, poll topnotchers are still capped at 3 seats, and 55 party-list representatives entered the House instead of 14. Since the SC can only declare laws valid or invalid (not make or amend laws), the only lasting solution is congressional action: either clearly define and reengineer the PH party-list system, or repeal RA 7941 altogether. CJ closes dryly: leaving RA 7941 as is will 'continue to confound and confuse everyone, including its own honorable members. And the people.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

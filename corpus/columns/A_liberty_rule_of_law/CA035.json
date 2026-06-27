@@ -1,0 +1,129 @@
+{
+  "id": "CA035",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 35,
+  "title": "A plea for the rule of law",
+  "date": "2025-08-11",
+  "link": "https://opinion.inquirer.net/185288/a-plea-for-the-rule-of-law",
+  "keywords": [
+    "SC member discipline",
+    "Sereno quo warranto",
+    "leaked ponencia",
+    "1999 Bar Exam censure",
+    "de facto officer doctrine"
+  ],
+  "primary_topics": [
+    "Discipline of Supreme Court justices",
+    "Quo warranto vs impeachment",
+    "Validity of acts by de facto officers"
+  ],
+  "sub_topics": [
+    "In Re: 1990 Bar Examinations -- censure and 50% forfeiture of fees",
+    "In Re: Undated Letter of Mr. Louis C. Biraogo -- leaked unpromulgated ponencia",
+    "Republic v. Sereno -- ouster by quo warranto, not impeachment",
+    "Sereno's denial of retirement honors and emoluments",
+    "Pre-incumbency wrongs (failure to file SALNs) → quo warranto",
+    "In-office wrongs (bribery, graft) → impeachment",
+    "Reversal of Cuenco v. Fernan and In Re: Gonzalez",
+    "De facto officer doctrine -- validity of Sereno's acts as CJ"
+  ],
+  "signature_phrases": [
+    "the Supreme Court disciplines its members",
+    "breach of duty and confidence",
+    "error in judgment",
+    "GRAVE MISCONDUCT for leaking... a confidential document",
+    "unpromulgated ponencia",
+    "UNLAWFULLY HOLDING and EXERCISING the OFFICE OF THE CHIEF JUSTICE",
+    "OUSTED and EXCLUDED therefrom",
+    "immediately executory",
+    "deemed a de facto officer",
+    "official acts are just as valid for all purposes as those of a de jure judge"
+  ],
+  "entities": {
+    "people": [
+      "Chief Justice Maria Lourdes P. A. Sereno",
+      "Justice Noel G. Tijam",
+      "Louis C. Biraogo"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (en banc)",
+      "1999 Bar Examination Committee",
+      "University of the Philippines"
+    ],
+    "cases": [
+      "In Re: 1990 Bar Examinations (Resolution, March 22, 2000)",
+      "In Re: Undated Letter of Mr. Louis C. Biraogo (per curiam, February 24, 2009)",
+      "Republic v. Sereno (May 11, 2018)",
+      "Cuenco v. Fernan (reversed)",
+      "In Re: Gonzalez (reversed)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (impeachment provisions)",
+      "New Code of Conduct for the Philippine Judiciary",
+      "Code of Judicial Conduct",
+      "Canons of Judicial Ethics",
+      "Code of Professional Responsibility",
+      "Sub judice rule"
+    ],
+    "events": [
+      "Leaking of unpromulgated ponencia (Biraogo case)",
+      "Sereno's quo warranto ouster (May 11, 2018) and immediate departure"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Supreme Court not only defends its members but also disciplines them, as shown by three concrete sample cases spanning censure, fine + disqualification, and full ouster.",
+      "rhetorical_move": "doctrinal exposition through tiered case sampling",
+      "confidence": "high"
+    },
+    {
+      "claim": "Republic v. Sereno is 'probably the most controversial' of the disciplinary cases, ousting a sitting CJ by quo warranto rather than the constitutionally specified impeachment route.",
+      "rhetorical_move": "characterization with restrained editorial flag",
+      "confidence": "high"
+    },
+    {
+      "claim": "When the nefarious acts were committed prior to appointment or election (e.g., failure to file SALNs as a UP professor), the remedy is quo warranto; when done during incumbency (bribery, graft), the remedy is impeachment.",
+      "rhetorical_move": "doctrinal distinction with timing-of-act test",
+      "confidence": "high"
+    },
+    {
+      "claim": "All of CJ Sereno's actions, decisions, and votes are valid because she is deemed a de facto officer whose official acts are just as valid for all purposes as those of a de jure judge.",
+      "rhetorical_move": "closing legal-protection assertion",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 1999 Bar Examination Committee chair (a retiring justice) failing to disclose that his nephew, son of an older brother, was an examinee -- censured and stripped of 50% of his Bar Committee fees.",
+    "A retired justice, while still incumbent, leaking an unpromulgated ponencia to a party-litigant; after investigation by three senior justices, fined P500,000 against his retirement benefits, disqualified from any government office, and directed to show cause as a member of the Bar.",
+    "CJ Sereno, upon receipt of the immediately executory decision, packing up her personal belongings in a rush and leaving the court premises 'without much ado,' denied the usual retirement honors and benefits.",
+    "Sereno's substantial forgone benefits: 20 years as UP professor tacked to 8 years on the Court would have totaled ~28 years, entitling her to lifetime incumbent's pay extending to her spouse."
+  ],
+  "target_audience": [
+    "Members of the bench and bar",
+    "Law students and bar reviewees studying judicial discipline",
+    "Constitutional-law scholars",
+    "Court watchers and journalists",
+    "General civic readership tracking SC accountability"
+  ],
+  "register_markers": [
+    "Numbered case-by-case exposition with full citations and dates",
+    "Verbatim quotation from court resolutions with original CAPS and bold preserved",
+    "Latinisms ('per curiam', 'stare decisis' implied, 'de facto', 'de jure')",
+    "Acronyms with first-mention expansions (SALN, QW)",
+    "Concluding 'to conclude, may I say' rhetorical signpost",
+    "Elder-statesman didactic tone with implicit defense of due process"
+  ],
+  "decision_framework_signals": [
+    "Apply timing-of-act test to choose remedy: pre-incumbency wrongs → quo warranto; in-office wrongs → impeachment",
+    "Treat unanimous (with affected member non-participating) votes as a procedural marker of institutional cohesion",
+    "Consider mitigating factors (apology, open admission) when calibrating penalties even at the highest court",
+    "Preserve the validity of acts performed by a later-ousted official under the de facto officer doctrine",
+    "Use investigating committees of senior justices to develop the factual record before imposing stiff penalties",
+    "Note that disciplinary cases against justices may be triggered motu proprio or by 'any interested person', including private citizens"
+  ],
+  "one_paragraph_summary": "Following up his previous column on how the Supreme Court defends its members, Panganiban presents three samples of how the Court disciplines them. In In Re: 1990 Bar Examinations (Resolution, March 22, 2000), a retiring justice who chaired the 1999 Bar Examination Committee was unanimously censured and stripped of 50% of his Bar Committee fees for failing to disclose that his nephew was an examinee, with the Court noting his apology and admission of an 'error in judgment.' In In Re: Undated Letter of Mr. Louis C. Biraogo (per curiam, February 24, 2009), a retired justice was found liable for GRAVE MISCONDUCT for leaking, while incumbent, an unpromulgated ponencia to a party-litigant -- fined P500,000 against his retirement benefits, disqualified from any government office, and directed to show cause as a member of the Bar. Most controversially, in Republic v. Sereno (May 11, 2018, 8-6 vote, ponente J. Noel G. Tijam), the Court adjudged then CJ Maria Lourdes Sereno guilty of unlawfully holding the office of Chief Justice and ousted her -- by quo warranto rather than impeachment -- for failing to file substantial SALNs as a UP professor; the decision was immediately executory, costing her not just the post but the retirement honors and lifetime benefits her 28 years of combined UP and SC service would have earned. The column closes with the doctrinal clarification that pre-incumbency wrongs are properly remedied by quo warranto while in-office wrongs require impeachment (reversing Cuenco v. Fernan and In Re: Gonzalez), and the reassurance that all of Sereno's acts as CJ remain valid under the de facto officer doctrine.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

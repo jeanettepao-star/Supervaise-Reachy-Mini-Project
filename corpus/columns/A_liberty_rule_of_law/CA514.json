@@ -1,0 +1,117 @@
+{
+  "id": "CA514",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 514,
+  "title": "More political than legal",
+  "date": "2012-01-07",
+  "link": "https://opinion.inquirer.net/20707/more-political-than-legal",
+  "keywords": [
+    "impeachment political not legal sui generis",
+    "litmus test will people nation be better served",
+    "second envelope Estrada EDSA people power",
+    "Gutierrez resigned before Senate trial",
+    "Davide impeachment blocked SC approved"
+  ],
+  "primary_topics": [
+    "Impeachment is sui generis -- more political than legal in substance",
+    "Three examples proving impeachment belongs to the people",
+    "The litmus test: will the people and nation be better served by ousting or retaining?"
+  ],
+  "sub_topics": [
+    "Common misconception: impeachment is a legal/judicial matter",
+    "Constitution uses legal language but lodges power in non-judicial bodies (House, Senate)",
+    "If mainly legal: power should be in SC, limited to lawyers with CIPI qualifications",
+    "House members: people's alter egos, not pseudo-lawyers",
+    "Litmus test: policy-oriented -- will people/nation be better served by ousting or retaining?",
+    "Senators carry people's aspirations, pains, frustrations, sense of right and wrong",
+    "Impeachment: legal in processes, political in substance; legalisms = veneer; core = public wisdom",
+    "Example 1: open to live TV/radio -- public inevitably integral part; people's evaluation → public opinion polls",
+    "When truth blocked by technicalities: people feel shortchanged → Estrada second-envelope EDSA II",
+    "Example 2: private life opened to scrutiny (spouses, children, siblings) -- social media, internet",
+    "Gutierrez resigned before Senate trial to spare family from media scrutiny",
+    "Example 3: Davide impeachment blocked by SC -- House blinked; no public upheaval",
+    "Reason: Davide still enjoyed high public trust; SC had very high approval ratings",
+    "This capitulation proves impeachment is political more than legal"
+  ],
+  "signature_phrases": [
+    "more political than legal",
+    "sui generis",
+    "pseudo-lawyers",
+    "litmus test of an impeachment is policy-oriented",
+    "imbedded core of public wisdom",
+    "hifalutin' legalisms",
+    "people inevitably become an integral part",
+    "second envelope"
+  ],
+  "entities": {
+    "people": [
+      "President Joseph Estrada",
+      "CJ Hilario G. Davide Jr.",
+      "Former Ombudsman Merceditas Gutierrez",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "House of Representatives",
+      "Senate of the Philippines",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "Estrada impeachment and EDSA II (2001)",
+      "Davide impeachment attempt blocked by SC"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (impeachment provisions; Art. XI)"
+    ],
+    "events": [
+      "Estrada second-envelope EDSA II",
+      "Gutierrez resignation before Senate trial",
+      "Davide impeachment blocked by SC ruling"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Impeachment is sui generis -- legal in its processes but political in its substance; its core is public wisdom, not legalisms.",
+      "rhetorical_move": "sui generis characterization as the column's thesis",
+      "confidence": "high"
+    },
+    {
+      "claim": "The litmus test of impeachment is policy-oriented: will the people and nation be better served by retaining or ousting the impeached official?",
+      "rhetorical_move": "policy-as-litmus-test prescription",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Davide capitulation -- the House blinked when the SC blocked his impeachment, and there was no public upheaval because the people trusted him -- proves that public trust, not legality, is the ultimate arbiter.",
+      "rhetorical_move": "Davide example as the political-not-legal thesis's strongest proof",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Estrada second-envelope EDSA II: the Senate's technical refusal to open the envelope frustrated the people's truth-seeking; they took over and ousted Estrada at EDSA -- the clearest proof that when technicalities block truth in impeachment, the people settle it themselves.",
+    "Gutierrez resigning before her Senate trial to spare her family from media scrutiny -- an example of how the public nature of impeachment extends to family members.",
+    "The Davide paradox: the SC legally blocked his impeachment, the House capitulated, and yet there was no public upheaval -- because the people trusted Davide and the SC. If the people had wanted him out, the legal block would not have been enough."
+  ],
+  "target_audience": [
+    "Defense lawyers overusing legal technicalities",
+    "Senator-judges deciding on policy vs legality grounds",
+    "Civic readership following the Corona impeachment",
+    "Constitutional law scholars on the sui generis nature of impeachment",
+    "Commentators who believe impeachment is purely legal"
+  ],
+  "register_markers": [
+    "Thesis-first structure (political not legal)",
+    "Three-example supporting structure",
+    "Estrada/Gutierrez/Davide trio covering all outcomes",
+    "Public-wisdom-vs-legalisms contrast",
+    "Sui generis as the conceptual anchor"
+  ],
+  "decision_framework_signals": [
+    "Apply the sui generis test to any impeachment issue: legal processes are the vehicle; political-policy wisdom is the substance",
+    "Apply the litmus test: will the people/nation be better served by ousting or retaining?",
+    "Read public opinion polls and approval ratings as legitimate inputs into the senatorial decision -- senators are the people's alter egos, not pseudo-jurists"
+  ],
+  "one_paragraph_summary": "Panganiban opens the Corona impeachment series with the foundational thesis: impeachment is sui generis -- more political than legal. While the Constitution uses legal language and sets out impeachment parameters in legalese, it lodged initiation in the House and decision in the Senate -- both bodies mostly of non-lawyers chosen by the people as their alter egos. If impeachment were mainly legal, the power would have been given to the SC, limited to lawyers with CIPI qualifications. The litmus test is policy-oriented: will the people and nation be better served by retaining or ousting the official? Senators carry the people's aspirations, pains, and sense of right and wrong. Three examples prove impeachment belongs to the people: (1) Live TV/radio coverage makes public opinion an integral part of the trial -- when technicalities block truth-discovery, the people take over (Estrada second-envelope → EDSA II); (2) the private lives of impeached officials and their families are opened to media scrutiny -- Gutierrez resigned before her Senate trial to spare her family; (3) the SC legally blocked the Davide impeachment, the House capitulated, and there was no public upheaval -- because the people trusted Davide and the SC. The Davide capitulation itself proves the thesis: public trust, not legal rulings, is the ultimate impeachment arbiter.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "CA324",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 324,
+  "title": "Will SC oust Leni and other LPs?",
+  "date": "2017-01-15",
+  "link": "https://opinion.inquirer.net/100848/will-sc-oust-leni-lps",
+  "keywords": [
+    "Soce extension",
+    "Liberal Party",
+    "Leni Robredo",
+    "Speaker Alvarez petition",
+    "RA 7166",
+    "Comelec extension",
+    "perpetual disqualification",
+    "VP succession",
+    "second placer doctrine"
+  ],
+  "primary_topics": [
+    "Analysis of Speaker Alvarez's petition to reverse the Comelec's 4-3 extension of the Soce filing deadline from June 8 to June 30, 2016",
+    "Whether LP's use of the extended Soce period -- if the extension is illegal -- would perpetually disqualify Leni Robredo and all LP winners",
+    "Who would replace Robredo as VP if she is ousted -- second placer Marcos or a Congress-nominated successor per constitutional succession"
+  ],
+  "sub_topics": [
+    "RA 7166 Sec. 14: party that nominated winning candidate and failed to file Soce within prescribed period is subject to 'same prohibition' (disqualification)",
+    "LP filed Soce only during the extension period, not within RA 7166's 30-day post-election prescribed period",
+    "Three main issues: (1) Does Comelec have power to extend Soce deadline? (2) If not, are LP winners perpetually disqualified? (3) Who replaces Robredo as VP?",
+    "Comelec's claimed power: implied from residual constitutional power to enforce election laws; RA 7166 silent on extension power",
+    "Pre-election vs post-election cause: when cause arose before election, second placer deemed elected; when arose after election/proclamation/assumption, constitutional succession applies",
+    "VP succession provision: President nominates VP from senators and representatives, confirmed by majority vote of both houses",
+    "Robredo not impleaded -- due process issue",
+    "Column ends with 'Let me continue on another day'"
+  ],
+  "signature_phrases": [
+    "the kicker -- Sec. 14 of RA 7166",
+    "The same prohibition shall apply if the political party which nominated the winning candidate fails to file",
+    "Ergo, the Marcos partisans claim, Robredo should be disqualified perpetually",
+    "questions of first impression with no settled answers",
+    "the second placer is deemed elected on the theory that the winner's votes are invalid for having been cast for a noncandidate",
+    "should Robredo be adversely affected by a case in which she was not impleaded as a party"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Speaker Pantaleon Alvarez (petitioner)",
+      "Vice President Leni Robredo (LP standard bearer, potential disqualification)",
+      "Bongbong Marcos (election protest; potential VP replacement if pre-election cause)",
+      "Liberal Party (LP)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "Supreme Court of the Philippines",
+      "Congress of the Philippines",
+      "Liberal Party"
+    ],
+    "cases": [
+      "Alvarez petition to reverse Comelec Soce extension (4-3 Comelec vote)",
+      "Marcos election protest vs Robredo (pending, referenced)"
+    ],
+    "laws_treaties": [
+      "Republic Act No. 7166 -- Soce filing requirement and penalties (Sec. 14)",
+      "1987 Constitution -- Art. VII Sec. 9 (VP vacancy succession)"
+    ],
+    "events": [
+      "May 9, 2016 general election",
+      "Comelec's 4-3 Soce extension from June 8 to June 30, 2016",
+      "LP filing Soce during extension period"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The three-issue framework -- (1) Comelec extension power, (2) LP winner disqualification, (3) VP succession -- is the correct analytical structure for the Alvarez petition, with each issue turning on distinct questions of first impression.",
+      "rhetorical_move": "three-issue-framework presentation for a complex unresolved case",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "If the cause for ouster arose after Robredo's election, proclamation, and assumption to office, then constitutional succession (not the second-placer doctrine) applies -- meaning an incumbent senator or representative, not Marcos, would become VP.",
+      "rhetorical_move": "pre-vs-post-election-cause distinction as the dispositive VP succession question",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Robredo's non-impleading in the Alvarez petition raises a fundamental due process concern -- she should not be adversely affected by a case in which she had no opportunity to defend herself.",
+      "rhetorical_move": "due-process-to-non-party as an independent legal barrier to Robredo's ouster",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 'kicker' in Sec. 14 of RA 7166 -- the party's failure carries the 'same prohibition' as the candidate's failure -- framed as the unexpected statutory trap the Marcos partisans are exploiting.",
+    "The LP filing its Soce only during the extension period and not within the 30-day statutory window -- the factual trigger for the entire disqualification argument.",
+    "Robredo not being impleaded in the Alvarez petition -- a due process anomaly CJ highlights as potentially fatal to the entire disqualification effort."
+  ],
+  "target_audience": [
+    "Legal practitioners and Comelec observers following the Soce extension case",
+    "Partisan political readers tracking Marcos vs Robredo",
+    "Constitutional law scholars on VP succession and election law",
+    "Civic readers seeking neutral analytical guidance on a politically charged case"
+  ],
+  "register_markers": [
+    "three-issue-framework presentation as analytical structure",
+    "'the kicker' as colloquial emphasis marker for the decisive statutory provision",
+    "first-impression-question acknowledgment",
+    "pre-vs-post-election-cause distinction as doctrinal clarity",
+    "due-process-to-non-party as independent barrier",
+    "column-continuation announcement ('Let me continue on another day')",
+    "verbatim constitutional provision quotation for VP succession"
+  ],
+  "decision_framework_signals": [
+    "applies three-issue decomposition to analyze a multi-pronged petition",
+    "uses pre-election-vs-post-election-cause distinction as the dispositive succession test",
+    "deploys due-process-to-non-party as an independent procedural barrier",
+    "treats RA 7166 Sec. 14 silence on extension power as the foundational statutory ambiguity",
+    "frames second-placer vs constitutional-succession as the VP-replacement question hinging on timing of the cause"
+  ],
+  "one_paragraph_summary": "Panganiban takes up Speaker Alvarez's petition to reverse the Comelec's 4-3 vote extending the Soce filing deadline from June 8 to June 30, 2016, identifying three main issues. First: does the Comelec have power to extend the Soce period? RA 7166 is silent on this, but the Comelec claims the power is implied from its residual constitutional authority. Second: assuming the Comelec had no such power, are LP winners including Robredo perpetually disqualified? RA 7166 Sec. 14's 'kicker' provides that 'the same prohibition shall apply if the political party which nominated the winning candidate fails to file' Soce within the prescribed period -- and the LP did file only during the extension. Third: who replaces Robredo if she is ousted? CJ explains: when the cause arose before the election (winner's votes cast for a non-candidate), the second placer (Marcos) is deemed elected; but when the cause arose after election, proclamation, and assumption to office, constitutional succession applies -- the President nominates a VP from among senators and representatives, confirmed by majority vote of both houses voting separately. CJ also flags that Robredo was not impleaded in the Alvarez petition, raising a fundamental due process concern. Column ends noting more to say on another day.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

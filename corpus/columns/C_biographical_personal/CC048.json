@@ -1,0 +1,142 @@
+{
+  "id": "CC048",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 48,
+  "title": "Reminiscing, praying, and caring",
+  "date": "2022-04-18",
+  "link": "https://opinion.inquirer.net/152153/reminiscing-praying-and-caring",
+  "keywords": [
+    "FEU-NRMF graduation",
+    "personal testimony",
+    "faith",
+    "medical practice",
+    "competence and care"
+  ],
+  "primary_topics": [
+    "FEU-NRMF graduation speech adapted as Easter-season Inquirer column",
+    "Personal testimony of miraculous escapes from death and chronic illness",
+    "Faith as the source of life and achievement -- 'pray and trust God always'",
+    "Two-C framework for medical practice: Competence and Care",
+    "Contrast between depersonalized US hospital care and Filipino bedside humanism"
+  ],
+  "sub_topics": [
+    "1957 FEU sophomore year -- student leader who opposed the P6 hospitalization fee",
+    "Dr. Ricardo Alfonso's bedside exchange about the ruptured appendix and withdrawal of CJ's opposition",
+    "1942 dysentery at age six (WWII) -- saved by his mother's vigil",
+    "1983 diabetes diagnosis controlled with Dr. Augusto Litonjua's care",
+    "Three hemorrhoid operations; ECG/2D-echo/treadmill failures but angiogram pass; Dr. Dante Morales's reassurance",
+    "1949 jeepney-jump escape under a 6x6 army truck",
+    "Catholic upbringing without catechesis until FEU -- Fr. Michael Nolan as catechist",
+    "Four basic prayers (Our Father, Hail Mary, Glory Be, FEU Prayer)",
+    "FEU Prayer as a source of the 2001 'Centennial Prayer of the Courts'",
+    "Filipino multibillionaire's story of depersonalized US hospital care as illustration of the 'care' deficit",
+    "Closing Ignatian maxim: 'Pray as though everything depended on God; work as though everything depended on you.'"
+  ],
+  "signature_phrases": [
+    "To spread further the glory of the resurrection",
+    "I softly replied amid my indescribably wrenching pain",
+    "Doctor, you win",
+    "But my mother refused to surrender",
+    "I had skips in my heart rhythm",
+    "thank God",
+    "Though born a Catholic, I had no knowledge of my religion",
+    "my miraculous escapes from death",
+    "Always pray and trust God",
+    "God will always help us -- in His own way, in His own time, not in our way, not in our time",
+    "two 'Cs' -- competence and care",
+    "Pray as though everything depended on God; work as though everything depended on you"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Dr. Ricardo Alfonso (FEU Hospital director, 1957)",
+      "CJ's mother (unnamed)",
+      "Dr. Augusto Litonjua",
+      "Dr. Dante Morales",
+      "Fr. Michael Nolan (FEU chaplain)",
+      "Jesus Christ",
+      "Mary (mother of Jesus)",
+      "Unnamed Filipino multibillionaire (deceased)"
+    ],
+    "institutions": [
+      "Far Eastern University (FEU)",
+      "FEU-Nicanor Reyes Medical Foundation (FEU-NRMF)",
+      "FEU Hospital",
+      "FEU Central Student Organization",
+      "Supreme Court of the Philippines (Centennial Prayer of the Courts)",
+      "(Unnamed) top US hospital"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "1942 dysentery episode during WWII",
+      "1949 jeepney accident with 6x6 army truck",
+      "1957 FEU election as Central Student Organization president; ruptured-appendix operation",
+      "1983 diabetes diagnosis",
+      "2001 composition of the Centennial Prayer of the Courts",
+      "Recent FEU-NRMF graduation exercises (the source speech)",
+      "Easter / Resurrection season of 2022"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Every life-threatening escape and chronic illness CJ has survived -- ruptured appendix at 21, dysentery at six, diabetes, heart-rhythm anomalies, hemorrhoid surgeries, the 6x6 army truck -- was attributable to Jesus Christ and his mother Mary, even before he was catechized.",
+      "rhetorical_move": "testimonial-attribution (retrospective religious reading of secular biography)",
+      "confidence": "confessional, not argumentative"
+    },
+    {
+      "claim": "Prayer should not be for the removal of evils, devils, defeats, difficulties, and obstacles -- these will always be there -- but for the strength and will to triumph over them, 'in His own way, in His own time.'",
+      "rhetorical_move": "redirection of petition (asking for capacity, not relief)",
+      "confidence": "asserted as advice"
+    },
+    {
+      "claim": "Filipino doctors and nurses should practice with both competence (already trained-for) and care -- the second 'C' being the humanity, companionship, and family-presence dimension that depersonalized US hospital care lacks.",
+      "rhetorical_move": "two-Cs framework with comparative-case illustration (the multibillionaire's US-hospital ordeal)",
+      "confidence": "asserted as graduation advice"
+    },
+    {
+      "claim": "The Ignatian formulation -- 'pray as though everything depended on God; work as though everything depended on you' -- synthesizes faith and effort without contradiction.",
+      "rhetorical_move": "synthesizing maxim (resolves the prayer-vs-work tension)",
+      "confidence": "asserted as life rule"
+    }
+  ],
+  "notable_anecdotes": [
+    "1957 ruptured-appendix story: as elected FEU Central Student Organization president CJ had publicly opposed the P6 hospitalization fee -- then was rushed to the FEU Hospital and Dr. Alfonso asked him whether he wanted to pay the full bill or the P6 fee. CJ replied 'Doctor, you win. I withdraw my opposition to the six-peso fee.' The ruptured appendix was found at the rear left, not the usual front right, two weeks old but contained by fat envelopment.",
+    "1942 dysentery at age six during WWII: no hospital, no medicine, no doctor, no nurse -- given up for dead but his mother 'refused to surrender' and watched over him until he recovered in her arms.",
+    "1949 jeepney accident: peddling newspapers, he jumped from a speeding jeepney, fell flat on the road as a 6x6 army truck rolled over him -- his 'lean and thin body' slid under its axles thanks to the truck's high road clearance.",
+    "Born Catholic but neither catechized nor evangelized until FEU, where chaplain Fr. Michael Nolan taught him the Our Father, Hail Mary, Glory Be, and the FEU Prayer -- the FEU Prayer later becoming one source of the 'Centennial Prayer of the Courts' composed in 2001 and still recited in the Supreme Court.",
+    "Unnamed Filipino multibillionaire's testimony of US hospital alienation -- visited only at specific hours, treated as 'an object to be studied, operated on, and monitored, not as a human being with emotions of fear, loneliness, and desperation' -- used as illustration of the 'care' deficit."
+  ],
+  "target_audience": [
+    "FEU-NRMF medical graduates (the original speech audience)",
+    "Filipino medical practitioners",
+    "Catholic Inquirer readers in Easter season",
+    "Readers interested in CJ's personal formation and faith biography",
+    "General readers of the column's reflective register"
+  ],
+  "register_markers": [
+    "Easter-season framing opener ('To spread further the glory of the resurrection')",
+    "ALL-CAPS pivot openings ('THOUGH MERELY A SOPHOMORE LAW STUDENT IN 1957,' 'THOUGH BORN A CATHOLIC,' 'NOW, FOR MY SECOND ADVICE')",
+    "Direct dialogue reproduction (Dr. Alfonso quote, CJ's 'Doctor, you win' reply)",
+    "Chronological vignette structure (1942 → 1949 → 1957 → 1983 → present)",
+    "Reverent register ('our Lord Jesus,' 'His mother Mary,' 'thank God')",
+    "Two-C mnemonic (Competence and Care)",
+    "Four-prayer enumeration (Our Father, Hail Mary, Glory Be, FEU Prayer)",
+    "Chiastic-Ignatian closer ('Pray as though everything depended on God; work as though everything depended on you')",
+    "First-person physical detail (white blood count 36,000; ruptured-appendix location; heart-rhythm skips)",
+    "Humility marker ('whatever I may have achieved in my humble life and career')"
+  ],
+  "decision_framework_signals": [
+    "uses retrospective testimonial framing -- reads secular life events as religious providence after the fact",
+    "redirects petitionary prayer from relief-of-obstacles to strength-to-triumph",
+    "applies a two-C mnemonic (Competence and Care) as the practitioner's lifework formula",
+    "uses one extended cautionary tale (US-hospital depersonalization) to ground a positive virtue (Filipino bedside care)",
+    "closes with a synthesizing maxim that resolves the prayer-vs-work tension",
+    "treats personal biography as didactic material for younger professionals (graduation-speech convention)"
+  ],
+  "one_paragraph_summary": "Repurposing his recent commencement address at the FEU-Nicanor Reyes Medical Foundation as an Easter-season column, Panganiban walks through five life-threatening episodes -- the 1942 dysentery at age six saved by his mother's vigil during WWII, the 1949 jeepney-jump escape under a 6x6 army truck whose road clearance let his lean body slide under its axles, the 1957 ruptured appendix at the FEU Hospital (where Dr. Ricardo Alfonso had him withdraw, in pain, his student-leader opposition to the P6 hospitalization fee), the 1983 diabetes diagnosis under Dr. Augusto Litonjua, and the heart-rhythm anomalies cleared by Dr. Dante Morales's angiogram. Though born Catholic, he had no catechesis until FEU chaplain Fr. Michael Nolan taught him the Our Father, Hail Mary, Glory Be, and the FEU Prayer -- the FEU Prayer becoming a source of the 2001 'Centennial Prayer of the Courts.' From this, his first advice to the medical graduates is to 'pray and trust God always,' asking not for the removal of evils but for the strength to triumph over them 'in His own way, in His own time.' His second advice is to work with 'two Cs -- competence and care,' illustrated by a deceased Filipino multibillionaire's testimony of dehumanizing US hospital care where he was treated as an object rather than a human being needing the companionship, care, and love of Filipino doctors and nurses. The column closes with the Ignatian synthesis: 'Pray as though everything depended on God; work as though everything depended on you.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

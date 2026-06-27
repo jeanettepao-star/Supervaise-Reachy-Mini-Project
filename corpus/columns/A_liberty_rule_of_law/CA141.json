@@ -1,0 +1,157 @@
+{
+  "id": "CA141",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 141,
+  "title": "Rights to worship and to bear arms",
+  "date": "2022-07-18",
+  "link": "https://opinion.inquirer.net/155134/rights-to-worship-and-to-bear-arms",
+  "keywords": [
+    "religious freedom",
+    "right to bear arms",
+    "Second Amendment",
+    "establishment clause",
+    "free exercise clause",
+    "Centennial Prayer",
+    "benevolent neutrality",
+    "In Re Valenzuela"
+  ],
+  "primary_topics": [
+    "Comparative constitutional treatment of religious freedom in the Philippines vs the United States",
+    "The 1987 Constitution's Article III Section 5 (establishment + free-exercise + non-discrimination + no religious test) as more expansive than the US First Amendment",
+    "The Philippine Supreme Court's 2001 Centennial Prayer for the Courts and In Re: Valenzuela (March 7, 2017) permitting Catholic Masses in Halls of Justice",
+    "American Second Amendment right to keep and bear arms -- historical militia origin expanded via 14th Amendment due-process/equal-protection clauses",
+    "Philippine constitutional absence of any bear-arms right; stringent statutory gun controls"
+  ],
+  "sub_topics": [
+    "Reference to prior Monday column on the three June Scotus 6-3 decisions (abortion, religious worship, arms)",
+    "Philippine Constitution's prayer-bearing Preambles (1987 'Almighty God'; 1973 and 1935 'Divine Providence')",
+    "US Constitution has no preamble prayer but uses 'In God We Trust' motto on currency",
+    "First Amendment dual-clause structure: establishment + free exercise",
+    "Philippine Article III Sec 5 four-part expansion: establishment, free exercise, no discrimination/preference, no religious test",
+    "2001 Centennial Prayer for the Courts -- recited at each session of the Court and all courts",
+    "In Re: Valenzuela (March 7, 2017) -- SC en banc, one dissent, allowed Catholic Masses and other religious rituals in Halls of Justice",
+    "Both Houses of Congress and Cabinet also pray; ecumenical SONA prayer (July 25)",
+    "Benevolent-neutrality doctrine: no basilica building, no dogma promotion, no salaries for clergy, no religious work-prerequisite",
+    "Author's thesis: PH is theist (monotheist), not atheist, not agnostic -- separation of church and state, but no separation of state from God",
+    "Second Amendment text: 'A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear arms, shall not be infringed'",
+    "1775-1783 American independence struggle as Second Amendment historical origin",
+    "Scotus conservatives' enlargement of Second Amendment via 14th Amendment due-process and equal-protection clauses to cover all citizens, not just militia",
+    "State-regulation difficulty re: gun ownership/use despite recent US shootings"
+  ],
+  "signature_phrases": [
+    "Last Monday, I wrote",
+    "construing the due process clause",
+    "Our Constitution abhors abortion",
+    "imploring the aid of Almighty God",
+    "imploring the aid of Divine Providence",
+    "In God We Trust",
+    "establishment clause",
+    "free exercise clause",
+    "Almighty God, we stand in Your holy presence as our Supreme Judge",
+    "effective channels of truth, justice, and peace",
+    "the path of righteousness for the fulfillment of your greater glory",
+    "benevolently neutral",
+    "in the 'competition,' as it were, amongst different religious denominations",
+    "the Philippines is theist, not atheist, not even agnostic",
+    "it is monotheist; it worships one God",
+    "while there is separation of church and state, there is no separation of the state from God",
+    "A well regulated Militia, being necessary to the security of a free State",
+    "shall not be infringed",
+    "the ancient 'militia'"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, retired CJ)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Supreme Court of the United States (Scotus)",
+      "Both Houses of Philippine Congress",
+      "Cabinet of the Philippines",
+      "Halls of Justice (PH)"
+    ],
+    "cases": [
+      "In Re: Valenzuela (March 7, 2017)",
+      "The three June 2022 Scotus 6-3 rulings (referenced: Dobbs, Kennedy v Bremerton, New York v Bruen)"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution -- Preamble; Article III Section 5",
+      "1973 Philippine Constitution -- Preamble",
+      "1935 Philippine Constitution -- Preamble",
+      "US Constitution -- First Amendment (establishment + free-exercise clauses)",
+      "US Constitution -- Second Amendment (right to keep and bear arms)",
+      "US Constitution -- Fourteenth Amendment (due process + equal protection)",
+      "Philippine Revised Penal Code (criminalizing abortion)",
+      "Philippine statutes on gun ownership and use (stringent)"
+    ],
+    "concepts": [
+      "Benevolent neutrality (PH separation-of-church-and-state doctrine)",
+      "Establishment clause",
+      "Free exercise clause",
+      "Theist / monotheist / atheist / agnostic taxonomy"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The 1987 Philippine Constitution safeguards religious worship more expansively than the US First Amendment: Article III Section 5 includes both the establishment and free-exercise clauses but goes beyond them by expressly guaranteeing the 'free exercise and enjoyment of religious profession and worship, without discrimination or preference,' and prohibiting any 'religious test... for the exercise of civil or political rights.'",
+      "rhetorical_move": "comparative-text expansion claim"
+    },
+    {
+      "claim": "Voluntary recitation of the SC's 2001 Centennial Prayer for the Courts at every court session, and the allowance of Catholic Masses (and other religious rituals) in the Halls of Justice under In Re: Valenzuela (March 7, 2017, SC en banc, one dissent), does NOT violate the separation of church and state.",
+      "rhetorical_move": "precedent-anchored permissibility ruling"
+    },
+    {
+      "claim": "Philippine separation of church and state requires only that the government be 'benevolently neutral' in the 'competition... amongst different religious denominations' -- meaning Congress cannot appropriate, and the President cannot spend, public funds to build a basilica for one denomination, promote one dogma to the detriment of others, pay clergy salaries for strictly religious duties, or use religion as a work prerequisite.",
+      "rhetorical_move": "benevolent-neutrality doctrinal explication"
+    },
+    {
+      "claim": "Personal-thesis disclosure: 'the Philippines is theist, not atheist, not even agnostic. In fact, it is monotheist; it worships one God. At bottom, while there is separation of church and state, there is no separation of the state from God.'",
+      "rhetorical_move": "personal-thesis paradox formulation"
+    },
+    {
+      "claim": "The American right to keep and bear arms -- born of the 1775-1783 independence struggle and codified in the Second Amendment -- has been progressively enlarged by Scotus conservatives via the Fourteenth Amendment's due-process and equal-protection clauses, extending coverage from the 'ancient militia' to all American citizens, making it 'difficult [for states] to regulate and control gun ownership and use' despite recent shootings.",
+      "rhetorical_move": "doctrinal-evolution diagnosis with consequence-flagging"
+    },
+    {
+      "claim": "Our Constitution does not grant a similar right to keep and bear arms; Philippine Congress has passed stringent laws on gun ownership and use -- a deliberate constitutional-statutory contrast with the American framework.",
+      "rhetorical_move": "absence-of-counterpart contrast"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 2001 Centennial Prayer for the Courts preserved verbatim -- 'Almighty God, we stand in Your holy presence as our Supreme Judge. We humbly beseech You to bless and inspire us so that what we think, say, and do will be in accordance with your will... so that we can be effective channels of truth, justice, and peace... guide us in the path of righteousness for the fulfillment of your greater glory. Amen.' -- used as the column's most distinctive Philippine-institutional artifact illustrating state-faith intersection without church-state breach.",
+    "The trans-charter Preamble comparison: 1987 ('imploring the aid of Almighty God'), 1973 and 1935 ('imploring the aid of Divine Providence') as evidence of unbroken Philippine constitutional theism, contrasted with the US Constitution's silence (offset by the 'In God We Trust' currency motto).",
+    "CJ's signature paradox formulation -- 'while there is separation of church and state, there is no separation of the state from God' -- a quotable theological-civic distinction that crystallizes Philippine benevolent-neutrality doctrine.",
+    "In Re: Valenzuela (March 7, 2017) en banc 'with one dissent' permitting Catholic Masses and other religious rituals in Halls of Justice -- preserved as the boldest concrete extension of benevolent-neutrality reasoning into court premises."
+  ],
+  "target_audience": [
+    "Filipino readers tracking the June 2022 Scotus decisions",
+    "Constitutional-law scholars (comparative US-PH religious-freedom jurisprudence)",
+    "Catholic and other religious leaders interested in church-state doctrine",
+    "Lawyers and judges who recite the Centennial Prayer",
+    "Civic readers preparing for the July 25 SONA ecumenical prayer"
+  ],
+  "register_markers": [
+    "Monday-prior self-citation as continuity register",
+    "comparative-constitutional structural analysis (PH vs US, with three-Charter Preamble sequence)",
+    "verbatim Centennial Prayer recitation",
+    "verbatim Second Amendment text recitation",
+    "personal-thesis paradox formulation ('separation of church and state, no separation of state from God')",
+    "'IN CONTRAST' / 'LET ME NOW MOVE' caps-headed pivot markers (column-structure signature)",
+    "doctrinal-evolution diagnosis register (militia → all citizens via 14th Amendment)",
+    "benevolent-neutrality vocabulary"
+  ],
+  "decision_framework_signals": [
+    "applies comparative-text expansion analysis (PH Article III Sec 5 > US First Amendment)",
+    "uses benevolent-neutrality doctrine as church-state framework",
+    "deploys constitutional-preamble theism evidence to defeat secularist readings",
+    "treats In Re: Valenzuela as concrete-extension precedent of benevolent neutrality",
+    "frames Second Amendment expansion via 14th-Amendment incorporation as cautionary tale",
+    "applies absence-of-counterpart contrast (PH has no bear-arms right) to defend stringent gun controls",
+    "uses theist/monotheist/atheist/agnostic taxonomy as classificatory diagnostic"
+  ],
+  "one_paragraph_summary": "Continuing from his previous Monday column on the three June 2022 Scotus 6-3 decisions (abortion, religious worship, right to bear arms), Panganiban turns to the second and third rulings and contrasts US with Philippine treatment of these rights. He argues that the 1987 Philippine Constitution safeguards religious worship more expansively than the US First Amendment: Article III Section 5 includes both the establishment and free-exercise clauses but goes beyond them by guaranteeing 'free exercise and enjoyment of religious profession and worship, without discrimination or preference' and prohibiting any 'religious test... for the exercise of civil or political rights.' Across three Philippine charters (1987, 1973, 1935), the Preamble has always invoked Almighty God or Divine Providence -- unlike the US Constitution, though the US Congress adopted 'In God We Trust' as currency motto. He recounts the SC's 2001 Centennial Prayer for the Courts (preserved verbatim) recited at every court session and the bolder extension in In Re: Valenzuela (March 7, 2017, SC en banc, one dissent) permitting Catholic Masses and other religious rituals in Halls of Justice -- neither violates separation of church and state because that doctrine requires only 'benevolent neutrality' in the 'competition... amongst different religious denominations,' meaning the government cannot fund a basilica, promote one dogma, pay clergy salaries, or impose a religious work prerequisite. He offers his signature paradox: 'the Philippines is theist, not atheist, not even agnostic. In fact, it is monotheist; it worships one God. At bottom, while there is separation of church and state, there is no separation of the state from God.' On the American right to keep and bear arms -- anchored in the Second Amendment ('A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear arms, shall not be infringed') and born of the 1775-1783 independence struggle -- he diagnoses doctrinal evolution: Scotus conservatives have progressively enlarged its coverage from the 'ancient militia' to all American citizens via the Fourteenth Amendment's due-process and equal-protection clauses, making it 'difficult [for states] to regulate and control gun ownership' despite recent US shootings. The Philippine Constitution grants no similar right, and Congress has passed stringent gun-ownership laws -- a deliberate constitutional-statutory contrast.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

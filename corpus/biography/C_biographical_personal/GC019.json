@@ -1,0 +1,170 @@
+{
+  "id": "GC019",
+  "format": "G",
+  "type": "biography",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 19,
+  "title": "The Elder Statesman",
+  "date": "2007-prese",
+  "link": "",
+  "keywords": [
+    "independent director",
+    "Permanent Court of Arbitration 2017",
+    "Journalist of the Year Law 2023",
+    "Bantayog ng mga Bayani",
+    "Pro Ecclesia et Pontifice"
+  ],
+  "primary_topics": [
+    "Age-sharpened-not-softened post-retirement civic engagement",
+    "Sought-after independent director + adviser + trustee + chairman -- not for prestige but to steady institutions",
+    "Foundation work -- liberty + prosperity + judicial education + dispute resolution + Church + civic formation",
+    "2017 Chairman of Philippine National Group to the Permanent Court of Arbitration in The Hague",
+    "Recognition triad -- 2023 'Journalist of the Year - Law' (MOPC first-ever) + Haligi ng Bantayog (Bantayog ng mga Bayani) + Pro Ecclesia et Pontifice (papal award)"
+  ],
+  "sub_topics": [
+    "Age-did-not-soften-Art-into-ceremonial-irrelevance -- sharpened-him",
+    "Became sought-after independent director + adviser + trustee + chairman",
+    "Not-because-of-prestige but-because-of-trust",
+    "Corporations-and-institutions did-not-ask-him-to-decorate-their-boards -- they-asked-him-to-steady-them",
+    "Tables where decisions affected power grids + energy policy + banking stability + telecommunications + mass media + ports + hospitals + food systems + national investment",
+    "Chaired audit committees + risk oversight bodies + governance panels",
+    "Insisted on process + insisted on independence",
+    "Institutions-matter + institutions-require-guardians sustained answer to why-continue-accepting-roles",
+    "Returned-again-and-again-to-foundations -- quieter arenas of nation-building",
+    "Led and advised organizations devoted to liberty + prosperity + judicial education + dispute resolution + Church + civic formation",
+    "2017 -- appointed Chairman of the Philippine National Group to the Permanent Court of Arbitration in The Hague",
+    "Fitting-circularity -- once-denied-Yale-for-lack-of-fare now-represented-country-in-one-of-worlds-most-venerable-legal-institutions",
+    "Recognition-followed-but-he-never-chased-it",
+    "2023 -- 'Journalist of the Year - Law' award from Manila Overseas Press Club -- first-such-award-in-its-long-history",
+    "Accepted-as-responsibility-not-validation",
+    "Honored by Bantayog ng mga Bayani as Haligi ng Bantayog -- among-figures-associated-with-resistance-integrity-moral-courage",
+    "Understood-the-symbolism-and-the-burden",
+    "Church conferred papal award Pro Ecclesia et Pontifice",
+    "Received-not-as-culmination-but-as-confirmation -- faith-discovered-late-could-still-be-lived-fully"
+  ],
+  "signature_phrases": [
+    "Age did not soften Art into ceremonial irrelevance. It sharpened him",
+    "they asked him to steady them",
+    "Institutions matter. And institutions require guardians",
+    "the quieter arenas of nation-building",
+    "the former Chief Justice, once denied Yale for lack of fare, now represented his country",
+    "Recognition followed -- but he never chased it",
+    "he received it not as validation, but as responsibility",
+    "He understood the symbolism -- and the burden",
+    "received it not as culmination, but as confirmation",
+    "a faith discovered late could still be lived fully"
+  ],
+  "entities": {
+    "people": [
+      "Artemio Villaseñor Panganiban Jr. (subject, as Elder Statesman)"
+    ],
+    "institutions": [
+      "Permanent Court of Arbitration, The Hague (Art appointed Chairman of Philippine National Group, 2017)",
+      "Manila Overseas Press Club (conferred 2023 'Journalist of the Year - Law' -- first such award)",
+      "Bantayog ng mga Bayani (honored Art as Haligi ng Bantayog)",
+      "The Catholic Church / Vatican (conferred Pro Ecclesia et Pontifice papal award)",
+      "Corporate boards in power-grid + energy + banking + telecom + mass-media + ports + hospitals + food-systems + national-investment sectors (unnamed individually)",
+      "Foundations devoted to liberty + prosperity + judicial education + dispute resolution + Church + civic formation (unnamed individually)"
+    ],
+    "places": [
+      "The Hague (PCA seat)"
+    ],
+    "honors_and_awards": [
+      "Chairman, Philippine National Group to the Permanent Court of Arbitration, The Hague (2017)",
+      "'Journalist of the Year - Law,' Manila Overseas Press Club (2023, first-ever)",
+      "Haligi ng Bantayog, Bantayog ng mga Bayani",
+      "Pro Ecclesia et Pontifice (papal award)"
+    ],
+    "sectors_served": [
+      "Power grids",
+      "Energy policy",
+      "Banking stability",
+      "Telecommunications",
+      "Mass media",
+      "Ports",
+      "Hospitals",
+      "Food systems",
+      "National investment",
+      "Liberty + prosperity foundations",
+      "Judicial education",
+      "Dispute resolution",
+      "Church",
+      "Civic formation"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Age did not soften Art into ceremonial irrelevance -- it sharpened him. He became a sought-after independent director, adviser, trustee, and chairman -- not because of prestige, but because of trust; corporations and institutions did not ask him to decorate their boards, they asked him to steady them.",
+      "rhetorical_move": "age-sharpened-not-softened-into-ceremonial-irrelevance reframe opening + sought-after-roles roster + not-prestige-but-trust motive + decorate-vs-steady binary",
+      "confidence": "biographer-asserted as post-retirement-positioning thesis"
+    },
+    {
+      "claim": "He sat at tables where decisions affected power grids, energy policy, banking stability, telecommunications infrastructure, mass media, ports, hospitals, food systems, and national investment -- he chaired audit committees, risk oversight bodies, governance panels; he insisted on process; he insisted on independence.",
+      "rhetorical_move": "nine-sector cascade + audit/risk/governance committee-types triplet + insisted-on-process + insisted-on-independence anaphora",
+      "confidence": "biographer-asserted as scope-of-engagement thesis"
+    },
+    {
+      "claim": "When asked why he continued to accept such roles long after he could have rested, his answer was consistent: Institutions matter. And institutions require guardians.",
+      "rhetorical_move": "rest-vs-continue-serving + consistent-answer + institutions-matter + institutions-require-guardians paired-maxim closing",
+      "confidence": "biographer-asserted with quoted-answer attribution"
+    },
+    {
+      "claim": "Beyond corporate governance, he returned again and again to foundations -- the quieter arenas of nation-building; he led and advised organizations devoted to liberty, prosperity, judicial education, dispute resolution, the Church, and civic formation.",
+      "rhetorical_move": "quieter-arenas-of-nation-building reframe + six-area-roster (liberty/prosperity/judicial-education/dispute-resolution/Church/civic-formation)",
+      "confidence": "biographer-asserted as foundation-work thesis"
+    },
+    {
+      "claim": "In 2017 he was appointed Chairman of the Philippine National Group to the Permanent Court of Arbitration in The Hague -- a role that carried international consequence and symbolic weight; it was fitting: the former Chief Justice, once denied Yale for lack of fare, now represented his country in one of the world's most venerable legal institutions.",
+      "rhetorical_move": "2017 PCA-Hague chairmanship + fitting-circularity callback to fifteen-centavo bus-fare and Yale-denial vignettes + once-denied-now-represented redemption-arc",
+      "confidence": "biographer-asserted as redemption-circularity thesis"
+    },
+    {
+      "claim": "Recognition followed -- but he never chased it. When he received the 'Journalist of the Year - Law' award in 2023 from the Manila Overseas Press Club (the first such award in its long history), he accepted it not as validation but as responsibility. When he was honored by the Bantayog ng mga Bayani as a Haligi ng Bantayog, he stood among figures associated with resistance, integrity, and moral courage -- he understood the symbolism, and the burden. And when the Church conferred upon him the papal award Pro Ecclesia et Pontifice, he received it not as culmination but as confirmation: that a faith discovered late could still be lived fully.",
+      "rhetorical_move": "recognition-followed-but-never-chased + three-award recognition-triad (MOPC 2023 + Bantayog Haligi + Pro Ecclesia) + not-validation-but-responsibility + symbolism-and-the-burden + not-culmination-but-confirmation parallel-reception triplet closing",
+      "confidence": "biographer-asserted as honors-reception thesis"
+    }
+  ],
+  "notable_anecdotes": [
+    "Age sharpened-not-softened Art into post-retirement institutional engagement",
+    "Nine-sector board engagement cascade -- power grids + energy + banking + telecom + mass media + ports + hospitals + food systems + national investment",
+    "Sustained answer to why-continue-serving -- 'Institutions matter. And institutions require guardians.'",
+    "Six-area foundation work -- liberty + prosperity + judicial education + dispute resolution + Church + civic formation",
+    "2017 PCA-Hague chairmanship as fitting-circular redemption of the fifteen-centavo bus-fare / Yale-denial origin foreclosures",
+    "Three-award recognition triad -- MOPC 'Journalist of the Year - Law' 2023 (first-ever) + Bantayog ng mga Bayani's Haligi ng Bantayog + Pro Ecclesia et Pontifice papal award",
+    "Three-fold reception posture -- responsibility-not-validation + symbolism-and-the-burden + confirmation-not-culmination",
+    "Closing maxim -- 'a faith discovered late could still be lived fully'"
+  ],
+  "target_audience": [
+    "Corporate-governance practitioners + board independent-directors",
+    "Foundation leaders + philanthropy practitioners (FLP-extended audience)",
+    "Comparative-arbitration scholars (PCA-Hague engagement)",
+    "Bantayog ng mga Bayani + Filipino civic-resistance audiences",
+    "Catholic-lay leaders + Pro Ecclesia recipients (Vatican papal-award audience)",
+    "Manila Overseas Press Club + journalist-of-the-year-Law audience"
+  ],
+  "register_markers": [
+    "Age-sharpened-not-softened reframe opening device",
+    "Decorate-vs-steady binary",
+    "Nine-sector cascade for scope",
+    "Insisted-on-process + insisted-on-independence anaphora",
+    "Paired-maxim closing -- 'Institutions matter. And institutions require guardians.'",
+    "Quieter-arenas-of-nation-building reframe for foundation work",
+    "Fitting-circularity callback device -- Yale-denied / PCA-Hague-chaired",
+    "Triple-reception parallel -- responsibility-not-validation + symbolism-and-the-burden + confirmation-not-culmination",
+    "Faith-discovered-late-could-still-be-lived-fully closing maxim"
+  ],
+  "decision_framework_signals": [
+    "Age-as-sharpening-not-softening engagement-philosophy",
+    "Trust-not-prestige acceptance test for board service",
+    "Decorate-vs-steady purpose-test for institutional roles",
+    "Process + independence twin-insistence for governance committees",
+    "Institutions-matter + institutions-require-guardians service-continuation rationale",
+    "Quieter-arenas-of-nation-building foundation-priority orientation",
+    "Recognition-as-responsibility-not-validation reception-posture",
+    "Symbolism-and-burden dual-awareness for civic honors",
+    "Confirmation-not-culmination late-honors framing"
+  ],
+  "one_paragraph_summary": "Art's Elder Statesman chapter, opening with the titular reframe that 'Age did not soften Art into ceremonial irrelevance -- it sharpened him.' He becomes a sought-after independent director, adviser, trustee, and chairman 'not because of prestige, but because of trust' -- 'corporations and institutions did not ask him to decorate their boards, they asked him to steady them.' His engagement spans a nine-sector cascade (power grids + energy policy + banking stability + telecommunications + mass media + ports + hospitals + food systems + national investment), chairing audit, risk-oversight, and governance committees with twin-insistence on 'process' and 'independence.' Asked why he continued accepting such roles long after he could have rested, his consistent answer was 'Institutions matter. And institutions require guardians.' Beyond corporate governance, he returned again and again to 'the quieter arenas of nation-building' -- leading and advising foundations on liberty, prosperity, judicial education, dispute resolution, the Church, and civic formation. In 2017 he was appointed Chairman of the Philippine National Group to the Permanent Court of Arbitration in The Hague -- 'fitting: the former Chief Justice, once denied Yale for lack of fare, now represented his country in one of the world's most venerable legal institutions.' Recognition followed but he never chased it -- the chapter closes with a three-award reception-triad: the 2023 'Journalist of the Year - Law' award from the Manila Overseas Press Club (first-ever) accepted 'not as validation, but as responsibility'; being named Haligi ng Bantayog by Bantayog ng mga Bayani, standing 'among figures associated with resistance, integrity, and moral courage,' where he 'understood the symbolism -- and the burden'; and the papal award Pro Ecclesia et Pontifice, received 'not as culmination, but as confirmation: that a faith discovered late could still be lived fully.'",
+  "source_xlsx": "cjp_biography_curated_normalized.xlsx"
+}

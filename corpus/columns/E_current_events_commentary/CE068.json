@@ -1,0 +1,119 @@
+{
+  "id": "CE068",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 68,
+  "title": "Choosing senatorial candidates",
+  "date": "2019-03-31",
+  "link": "https://opinion.inquirer.net/120468/choosing-senatorial-candidates",
+  "keywords": [
+    "2019 senatorial elections",
+    "voter ignorance",
+    "senatorial qualifications",
+    "constitutional minimums",
+    "SWS survey"
+  ],
+  "primary_topics": [
+    "Voter dichotomy: SWS-stated desire for incorruptibility vs actual preference for movie/TV/sports celebrities",
+    "Constitutional inadequacy of senatorial qualifications (only 5 generic requirements)",
+    "Six-job-description framework for evaluating senators",
+    "Comparison with household-help (kasambahay) hiring standards"
+  ],
+  "sub_topics": [
+    "SWS survey Dec 16-19, 2018: 'will not be corrupt' topped voter desires",
+    "63 senatorial aspirants for 12 slots in 2019",
+    "Name recall basis: Senate incumbency, movie/TV/radio/sports, media ad expertise, entertainment ability",
+    "'Guns, goons, gold,' 'relationship, kinship, friendship,' 'profligate vote-buying' (the 3Gs and 3Rs)",
+    "Constitutional qualifications: natural-born, 35 years old, can read/write, registered voter, 2-year PH residence",
+    "Kasambahay analogy -- trustworthiness, honesty, diligence as required for household help",
+    "Six job descriptions of senators (scattered throughout Constitution)",
+    "Lawmaking knowledge + parliamentary rules + bill-to-law process",
+    "Oversight hearings and investigations in aid of legislation",
+    "Budget review -- detecting disguised pork insertions",
+    "Quasi-judicial roles: impeachment, electoral tribunals, Commission on Appointments, treaty ratification",
+    "Statesperson exercises: ratify treaties, declare war, approve amnesties, emergency powers, martial law/habeas corpus",
+    "Constitutional amendment/revision oversight"
+  ],
+  "signature_phrases": [
+    "Will not be corrupt",
+    "While mentally idealizing it, voters nonetheless fail to actualize it in their choices",
+    "circus-like campaign sorties",
+    "nauseous grandstanding and intellectual nihilism",
+    "kasambahay",
+    "Many of the candidates are not fit even for barangay kagawad",
+    "guns, goons and gold",
+    "relationship, kinship and friendship",
+    "profligate vote-buying",
+    "Do our senatorial choices possess all, or at least some, of these general qualities, and fit into these job descriptions?"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban"
+    ],
+    "institutions": [
+      "Social Weather Stations (SWS)",
+      "Senate of the Philippines",
+      "Commission on Appointments",
+      "Senate Electoral Tribunal",
+      "Constitution (1987)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution Article VI -- senatorial qualifications (natural-born, 35 yo, read/write, registered voter, 2-yr residence)",
+      "1987 Constitution -- scattered senatorial roles (lawmaking, oversight, budget, judicial functions, treaty ratification, war powers, emergency powers, martial law, charter change)"
+    ],
+    "events": [
+      "SWS survey Dec 16-19, 2018",
+      "2019 senatorial election (63 aspirants for 12 slots)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Filipino voters paradoxically idealize incorruptibility (SWS-confirmed top priority) but actualize the opposite -- choosing candidates by name recall from showbiz, sports, and media expertise rather than by demonstrated honesty -- and this dichotomy is born of ignorance about which candidates actually embody the elusive quality of honesty.",
+      "rhetorical_move": "stated-preference vs revealed-preference dichotomy diagnosis",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Constitution's minimal senatorial qualifications (citizenship, age, literacy, voter registration, residence) are dangerously inadequate -- even household help (kasambahay) hiring requires more substantive virtues like trustworthiness, honesty, and diligence, plus specific skills.",
+      "rhetorical_move": "absurd-comparison argument (the Constitution requires less of senators than households require of domestic help)",
+      "confidence": "asserted with irony"
+    },
+    {
+      "claim": "Voters should evaluate senatorial candidates against the six actual job descriptions scattered through the Constitution: (1) lawmaking competence with parliamentary skill, (2) substantive oversight-hearing preparation, (3) budget literacy detecting pork insertions, (4) quasi-judicial probity in impeachment/electoral/CA roles, (5) statesperson serenity on war/treaty/emergency/martial law decisions, (6) constitutional-amendment independence and intelligence.",
+      "rhetorical_move": "six-fold-job-description framework for voter education",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The kasambahay analogy -- domestic-help hiring requires more substantive virtue than the Constitution requires of senators -- used as the column's most viscerally democratic insult to political class pretensions.",
+    "'Many of the candidates are not fit even for barangay kagawad' -- the most stinging single judgment in the column, ranking some senatorial aspirants below the lowest elected village position.",
+    "The acid descriptors of campaign behavior: 'circus-like campaign sorties' and 'nauseous grandstanding and intellectual nihilism' -- uncharacteristically harsh tonal markers for an electoral analysis."
+  ],
+  "target_audience": [
+    "Filipino voters preparing for May 2019 senatorial elections",
+    "Civic-education organizations and voter-formation programs",
+    "Editorial readers seeking pre-election analytical framework",
+    "Critics of celebrity-driven electoral politics"
+  ],
+  "register_markers": [
+    "civic-pedagogical editorial register",
+    "polling-data-anchored opening (SWS survey)",
+    "irony-with-purpose register (kasambahay comparison)",
+    "enumerated job-description framework (First, Second, ... Sixth)",
+    "alliteration in vice taxonomies ('guns, goons, gold' / 'relationship, kinship, friendship')",
+    "Tagalog inflections for grounded resonance ('kasambahay,' 'barangay kagawad')",
+    "rhetorical-question closing ('Do our senatorial choices possess all, or at least some, of these general qualities?')",
+    "sharp tonal markers ('circus-like,' 'nauseous grandstanding,' 'intellectual nihilism')"
+  ],
+  "decision_framework_signals": [
+    "applies stated-preference vs revealed-preference diagnostic to voter behavior",
+    "uses absurd-comparison logic (household help vs senator) to expose constitutional inadequacy",
+    "frames evaluative criteria as job-description-derived rather than personality-derived",
+    "treats incorruptibility as an actualization problem (voter information gap) rather than a value problem (voter wrong values)",
+    "structures voter-education around scattered constitutional duties rather than charisma metrics"
+  ],
+  "one_paragraph_summary": "Panganiban opens with a paradox from an SWS survey of December 2018: while 'will not be corrupt' topped the qualities Filipino voters seek in senators, the same surveys showed several probable winners not known for honesty. He attributes this stated-preference-vs-revealed-preference gap to voter ignorance about which of the 63 aspirants for 12 slots actually embody incorruptibility, leaving name recall (from Senate incumbency, showbiz, sports, media ads, and entertainment) to dominate choices alongside the '3Gs' (guns, goons, gold), '3Rs' (relationship, kinship, friendship), and 'profligate vote-buying.' He argues the Constitution's bare-minimum qualifications -- natural-born citizenship, 35 years old, ability to read and write, voter registration, two-year residence -- are absurdly less demanding than what households require when hiring a kasambahay (trustworthiness, honesty, diligence plus specific skills). He proposes a six-fold framework derived from scattered constitutional provisions on senatorial duties: lawmaking competence with parliamentary skill; substantive oversight-hearing preparation (avoiding 'nauseous grandstanding and intellectual nihilism'); budget literacy detecting disguised pork; quasi-judicial probity in impeachment, electoral tribunals, the Commission on Appointments, and treaty ratification; statesperson serenity on war, amnesty, emergency powers, and martial law/habeas corpus; and constitutional-amendment independence. He closes by asking voters whether their senatorial choices possess any of these qualities -- leaving the diagnostic question rather than naming candidates.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

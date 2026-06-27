@@ -1,0 +1,168 @@
+{
+  "id": "CA337",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 337,
+  "title": "PDAF and DAP in new budget?",
+  "date": "2016-08-28",
+  "link": "https://opinion.inquirer.net/96856/pdaf-and-dap-in-new-budget",
+  "keywords": [
+    "P3.35-trillion 2017 budget",
+    "Belgica v. Ochoa (Nov 19 2013) PDAF unconstitutional",
+    "Araullo v. Aquino (July 1 2014) DAP four-acts unconstitutional",
+    "specific appropriation stated purpose rule",
+    "lump sum ban (except calamity/contingency/intelligence)",
+    "power of augmentation three actual-savings conditions",
+    "cross-border transfer prohibition"
+  ],
+  "primary_topics": [
+    "Duterte 2017 budget -- P3.35 trillion 'budget for real change' (+11.6%)",
+    "Allegation that the new budget is peppered with PDAF and DAP (denied by Diokno, Alvarez)",
+    "Belgica v Ochoa (Nov 19, 2013) PDAF unconstitutional jurisprudence",
+    "Araullo v Aquino (July 1, 2014) DAP -- four acts unconstitutional (not DAP itself)",
+    "Power of augmentation -- actual savings within same branch only"
+  ],
+  "sub_topics": [
+    "P3.35T 2017 budget; P3.002T 2016; +11.6% increase",
+    "Main thrusts: infrastructures (airports, seaports, railways, roads) + human capital (education, health, social welfare)",
+    "Department of Education biggest share P570.4B (+31%)",
+    "Judiciary share P32.54B (from P26.79B)",
+    "CJ Sereno's request: 50 more family courts (in addition to 48 funded 2016); child-friendly equipment",
+    "Family courts created by law 1997 but funded only starting 2016",
+    "Lawmakers each asked to submit DBM list of P80M projects",
+    "Allegation: P80M lists = PDAF/DAP smuggled in; Diokno and Alvarez deny",
+    "Belgica v Ochoa (Nov 19, 2013, J Perlas-Bernabe ponente) -- PDAF unconstitutional",
+    "Empowering legislators to specify projects from lump sums AFTER GAA becomes law violates separation of powers",
+    "Legislators cannot determine projects, authorize fund releases, identify implementing agencies/NGOs (except congressional oversight)",
+    "Budget items require specific purposes; lump-sum appropriations banned",
+    "Exception: calamity funds, contingency funds, intelligence funds",
+    "'Specific appropriation, stated purpose' rule",
+    "Pre-enactment proposals are OK; post-enactment lawmaker intervention is not",
+    "Araullo v Aquino (July 1, 2014, J Bersamin ponente) -- four DAP acts unconstitutional",
+    "Constitutional rule: no money paid except per appropriation by law; no law authorizing transfer of appropriations",
+    "Power of augmentation exception -- limited to specified officials augmenting their own offices from actual savings",
+    "Augmenting officials: President, Senate President, House Speaker, Chief Justice, heads of Constitutional Commissions",
+    "Three definitions of 'actual savings': PAP completed/discontinued/abandoned; vacant positions/unpaid leaves; targets realized at lesser cost via improved systems",
+    "DAP unconstitutional act 1: transferring funds before fiscal year end without meeting savings criteria",
+    "DAP unconstitutional act 2: cross-border transfers (executive → Congress / Comelec / COA)",
+    "DAP unconstitutional act 3: funding PAPs not covered by any GAA appropriation",
+    "DAP unconstitutional act 4: using unprogrammed funds absent national treasurer's revenue-collection certification"
+  ],
+  "signature_phrases": [
+    "a whopping P3.35 trillion 'budget for real change' for 2017",
+    "the bulk of the budget",
+    "Using the record-high budget mainly for infrastructures and human capital is undoubtedly praiseworthy",
+    "the graft-prone Priority Development Assistance Fund (PDAF) and the discredited Disbursement Acceleration Program (DAP)",
+    "vehemently denied",
+    "Legislators are prohibited from participating or intervening in the implementation",
+    "specific appropriation, stated purpose",
+    "lump sum ban",
+    "designed to prevent graft",
+    "power of augmentation",
+    "actual savings",
+    "cross-border transfer",
+    "(bold types mine)"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "President Rodrigo Duterte",
+      "Budget Secretary Benjamin Diokno",
+      "House Speaker Pantaleon Alvarez",
+      "CJ Maria Lourdes P.A. Sereno (judiciary budget requestor)",
+      "Justice Estela M. Perlas-Bernabe (Belgica ponente)",
+      "Justice Lucas P. Bersamin (Araullo ponente)"
+    ],
+    "institutions": [
+      "Department of Budget and Management (DBM)",
+      "Congress (PH House and Senate)",
+      "Department of Education (P570.4B share)",
+      "Judiciary (P32.54B share)",
+      "Family Courts (48 funded, 50 more requested)",
+      "Commission on Elections (Comelec -- cross-border transfer example)",
+      "Commission on Audit (COA -- cross-border transfer example)"
+    ],
+    "cases": [
+      "Belgica v Ochoa (SC, Nov 19, 2013, J Perlas-Bernabe ponente) -- PDAF unconstitutional",
+      "Araullo v Aquino (SC, July 1, 2014, J Bersamin ponente) -- four DAP acts unconstitutional"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- appropriation-by-law requirement, no transfer of appropriations",
+      "1987 Constitution Art VI Sec 25(5) -- power of augmentation exception",
+      "General Appropriations Act (GAA) framework",
+      "Priority Development Assistance Fund (PDAF -- pork-barrel mechanism)",
+      "Disbursement Acceleration Program (DAP -- executive budget acceleration)"
+    ],
+    "events": [
+      "Duterte 2017 budget proposal submission",
+      "Lawmaker P80M project-list submissions to DBM",
+      "Belgica decision (Nov 19, 2013) -- PDAF struck down",
+      "Araullo decision (July 1, 2014) -- four DAP acts struck down",
+      "2016 -- first family-court funding (47 years after 1997 creation)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Belgica v Ochoa (Nov 19, 2013) struck down PDAF as unconstitutional -- empowering legislators to specify projects from lump sums AFTER the GAA becomes law violates separation of powers; legislators cannot determine projects, authorize fund releases, or identify implementing agencies/NGOs post-enactment, except through congressional oversight.",
+      "rhetorical_move": "doctrine-summary framing of striking-down jurisprudence",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The 'specific appropriation, stated purpose' rule bans lump-sum appropriations except for calamity, contingency, and intelligence funds -- meaning neither the president nor legislators have post-enactment power to determine how such lump sums shall be spent, with the rule designed to prevent graft.",
+      "rhetorical_move": "doctrine-summary with rationale-disclosure (anti-graft design)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Araullo v Aquino (July 1, 2014) declared four DAP acts unconstitutional (NOT the DAP itself): (1) transferring funds prior to fiscal year end without meeting any savings criteria; (2) cross-border transfers from executive to Congress/Comelec/COA; (3) funding PAPs not covered by any GAA appropriation; (4) using unprogrammed funds absent national-treasurer revenue certification -- all four violate the appropriation-by-law and no-transfer rules of the Constitution.",
+      "rhetorical_move": "four-act enumeration with doctrinal-specificity",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The power of augmentation is a limited constitutional exception -- only specified officials (President, Senate President, House Speaker, CJ, heads of Constitutional Commissions) can augment items in their respective offices from 'actual savings' (defined three ways), and crucially only within the same branch -- making cross-branch transfers categorically unconstitutional.",
+      "rhetorical_move": "exception-narrowness framing (limited officials + actual savings + same-branch only)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 'budget for real change' label preserved verbatim -- the Duterte administration's branding for the P3.35T proposal, used by CJ without further editorial gloss.",
+    "DepEd as biggest single share: P570.4B (+31%) -- using the largest-line-item disclosure as the headline budget fact.",
+    "CJ Sereno's specific requests: 50 more family courts (added to 48 funded 2016) + child-friendly equipment, with the 1997-law / 2016-first-funded 19-year delay quietly highlighted.",
+    "The P80M-per-lawmaker DBM project-list submission as the empirical hook for the PDAF/DAP smuggling allegation -- Diokno and Alvarez deny 'vehemently'; the column lays out the constitutional tests without rendering verdict.",
+    "The augmentation exception's narrow-band specification -- President, Senate President, House Speaker, CJ, and heads of Constitutional Commissions named explicitly with the constitutional bracketed quote and CJ's '(bold types mine)' notation marking his own emphasis.",
+    "The three definitions of 'actual savings' enumerated: PAP completed/discontinued/abandoned; vacant positions or unpaid leaves; targets realized at lesser cost via improved efficiency -- making the bright line operationally testable.",
+    "The four DAP unconstitutional acts as a numbered list -- each act being a precise constitutional test that the new 2017 budget would be measured against."
+  ],
+  "target_audience": [
+    "Congress members (House and Senate)",
+    "Department of Budget and Management staff",
+    "Budget Secretary Benjamin Diokno (named subject)",
+    "Speaker Pantaleon Alvarez (named subject)",
+    "Constitutional law academics and budget-process researchers",
+    "Anti-corruption advocates",
+    "Civic readers tracking PDAF/DAP doctrinal developments"
+  ],
+  "register_markers": [
+    "doctrinal-summary register with budget-process specificity",
+    "labeled-subhead structure ('Main thrusts', 'PDAF explained', 'DAP explained')",
+    "ponente-named citation pattern (Justices Perlas-Bernabe and Bersamin identified)",
+    "doctrine-summary framing of striking-down jurisprudence",
+    "four-act enumeration for DAP unconstitutionality",
+    "exception-narrowness framing for augmentation power",
+    "constitutional-text-quotation with '(bold types mine)' authorial marker",
+    "rationale-disclosure pattern (anti-graft design)",
+    "year-anniversary delay notation (1997 → 2016)",
+    "operationally-testable bright-line specification (three definitions of actual savings)"
+  ],
+  "decision_framework_signals": [
+    "applies doctrine-summary framing to make striking-down jurisprudence operative",
+    "uses four-act enumeration when complex doctrinal rulings have multiple components",
+    "deploys exception-narrowness framing when constitutional exceptions exist (augmentation power)",
+    "treats rationale-disclosure as essential when rules might otherwise seem arbitrary (anti-graft design)",
+    "uses operationally-testable bright-line specification for compliance evaluation",
+    "preserves authorial-emphasis markers '(bold types mine)' for citation-precision"
+  ],
+  "one_paragraph_summary": "Panganiban analyzes the Duterte administration's proposed P3.35 trillion 'budget for real change' for 2017 (11.6% larger than the P3.002 trillion 2016 outlay), with bulk going to infrastructures (airports, seaports, railways, roads) and human capital (education, health, social welfare). DepEd gets the biggest share at P570.4 billion (+31%); the judiciary's share rises from P26.79 billion to P32.54 billion, with CJ Sereno requesting 50 more family courts (added to 48 funded in 2016 -- the courts were created by law in 1997 but funded only starting 2016) and child-friendly equipment. Some lawmakers allege the budget is peppered with the graft-prone Priority Development Assistance Fund (PDAF) and discredited Disbursement Acceleration Program (DAP) -- vehemently denied by Diokno and Alvarez -- stemming from each lawmaker being asked to submit a DBM list of P80M projects. To test the allegation, CJ revisits two SC decisions: Belgica v Ochoa (Nov 19, 2013, J Perlas-Bernabe ponente) struck down PDAF because empowering legislators to specify projects from lump sums AFTER the GAA becomes law violates separation of powers (legislators cannot determine projects, authorize releases, or identify implementing agencies/NGOs post-enactment, except via congressional oversight); the Court enunciated the 'specific appropriation, stated purpose' rule banning lump sums except calamity, contingency, and intelligence funds -- designed to prevent graft. Pre-enactment proposals during DBM drafting and pending congressional consideration remain proper. Araullo v Aquino (July 1, 2014, J Bersamin ponente) declared four DAP acts unconstitutional (not the DAP itself): (1) transferring funds prior to fiscal year end without meeting savings criteria; (2) cross-border transfers from executive to Congress/Comelec/COA; (3) funding PAPs not covered by any GAA appropriation; and (4) using unprogrammed funds absent the national treasurer's revenue-collection certification. The constitutional baseline is strict: 'No public money shall be paid out of the Treasury except in pursuance of an appropriation made by law' and 'No law shall be passed authorizing the transfer of appropriations.' The limited exception is the power of augmentation, allowing only the President, Senate President, House Speaker, Chief Justice, and heads of Constitutional Commissions to augment items in their respective offices from 'actual savings' (defined three ways: PAP completed/discontinued/abandoned; vacant positions or unpaid leaves; targets realized at lesser cost via improved systems and efficiencies) and only within the same branch.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

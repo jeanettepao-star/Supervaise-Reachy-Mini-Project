@@ -1,0 +1,122 @@
+{
+  "id": "CA438",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 438,
+  "title": "Using pork barrel to help calamity victims",
+  "date": "2013-11-02",
+  "link": "https://opinion.inquirer.net/64587/using-pork-barrel-to-help-calamity-victims",
+  "keywords": [
+    "Filipino justice",
+    "katarungan",
+    "karapatan",
+    "Diokno lecture",
+    "CJ Panganiban Professorial Chairs",
+    "social justice"
+  ],
+  "primary_topics": [
+    "Dean Jose Manuel I. Diokno's lecture as CJ Panganiban Professorial Chair holder",
+    "Linguistic argument that Filipinos have a native concept of justice (katarungan)",
+    "Historical argument that Filipino justice = continuous struggle for just society",
+    "Five-element definition of Filipino social justice (Ka Pepe Diokno)"
+  ],
+  "sub_topics": [
+    "10 holders of CJ Panganiban Professorial Chairs on Liberty and Prosperity",
+    "Katarungan root: tarong (Visayan) = straight, upright, appropriate, correct",
+    "Karapatan root: dapat = fitting, correct, appropriate -- ties justice to right",
+    "Filipino word for law: batas = command -- different from katarungan",
+    "Filipino language distinguishes legal from just (unlike Spanish/Italian/French/German conflation of right/law)",
+    "Kapangyarihan (authority) vs poder/lakas (naked power) -- emerging vocabulary distinction",
+    "Karapatan (right, native) vs pribelehiyo (privilege, Spanish derivative) -- fairness as native, privilege as alien",
+    "Language = bones; history = flesh of the concept of justice (Ka Pepe analogy)",
+    "Historical resistance: Spanish, American, Japanese invaders, Marcos dictatorship, US bases",
+    "Five-element social justice: (1) rights, (2) repair injustice to poor, (3) self-sustaining economy distributing benefits, (4) institutional change so inequalities are not caused by institutions/structures, (5) means capable of attaining objectives"
+  ],
+  "signature_phrases": [
+    "Is justice an imported Western concept?",
+    "katarungan, karapatan, kapangyarihan, batas, poder, lakas, pribelehiyo",
+    "the fundamental element in the Filipino concept of justice is fairness",
+    "privilege and naked power--two of the worst enemies of fairness--are alien to the Filipino mind",
+    "language to the bones... history its flesh",
+    "continuous and continuing struggle to create a just society",
+    "First, Second, Third, Fourth, Fifth (5-element social justice definition)"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Dean Jose Manuel I. Diokno (DLSU College of Law)",
+      "Sen. Jose W. 'Ka Pepe' Diokno"
+    ],
+    "institutions": [
+      "De La Salle University College of Law",
+      "CJ Panganiban Professorial Chairs on Liberty and Prosperity (10 chairs)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution (referenced via history)"
+    ],
+    "events": [
+      "Marcos dictatorship (resisted)",
+      "EDSA democratic restoration",
+      "Removal of US military bases (referenced as historical struggle)",
+      "Spanish, American, Japanese invasions (resisted historically)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Filipinos have a native, indigenous concept of justice (katarungan), not borrowed from the West -- its root tarong means 'straight, upright, appropriate, correct,' tying justice to moral rectitude and right action rather than mere legality.",
+      "rhetorical_move": "etymological-sovereignty argument (using language to establish cultural authenticity)",
+      "confidence": "asserted via Diokno"
+    },
+    {
+      "claim": "Filipino language is more discriminating than European languages on the concept of justice: where Spanish/Italian/French/German conflate 'right' and 'law,' Tagalog distinguishes karapatan (right) from batas (command/law), recognizing that what is legal may not always be just.",
+      "rhetorical_move": "comparative-linguistics framing (using European conflation as foil for Filipino precision)",
+      "confidence": "asserted via Diokno"
+    },
+    {
+      "claim": "The fundamental element of Filipino justice is fairness; privilege (pribelehiyo -- Spanish loanword) and naked power (poder, lakas -- distinct from legitimate kapangyarihan) are alien to the Filipino mind, evidenced by the borrowed/native word boundary.",
+      "rhetorical_move": "loanword-vs-native-word argument (using lexical provenance as evidence of cultural attitude)",
+      "confidence": "asserted via Diokno"
+    },
+    {
+      "claim": "Filipino history puts 'flesh' on the linguistic 'bones' -- a continuous struggle against Spanish, American, Japanese invaders and the Marcos dictatorship demonstrates an unbending Filipino intent to create a just society.",
+      "rhetorical_move": "bones-and-flesh dual-method (language + history as twin proofs)",
+      "confidence": "asserted via Diokno"
+    },
+    {
+      "claim": "Filipino social justice has five elements: (1) respect for rights, (2) repair of injustices to the poor, (3) self-sustaining economy distributing benefits to all, (4) institutional change so inequalities are not produced by institutions/structures (unless temporarily favoring the least favored at the most-favored's cost), and (5) means capable of attaining these objectives.",
+      "rhetorical_move": "five-element systematic definition",
+      "confidence": "asserted via Diokno as authoritative thesis"
+    }
+  ],
+  "notable_anecdotes": [
+    "Diokno's root-word analysis -- tarong (Visayan, root of katarungan) = straight/upright/appropriate/correct -- the etymology functions as the column's primary argument, the rare opinion column where a single word's root carries the philosophical thesis.",
+    "The lexical asymmetry: karapatan (right) is native Filipino, but pribelehiyo (privilege) is a Spanish loanword -- Diokno reads the borrowed/native boundary as evidence that Filipinos historically had no concept of privilege as legitimate, which is the single sharpest cultural-philosophical move in the lecture.",
+    "Ka Pepe's bones-and-flesh metaphor for language and history as the dual sources of the Filipino concept of justice -- the structural device that organizes the entire column.",
+    "The fifth element of Diokno's social-justice definition -- institutional change so that inequalities are not caused by institutions -- with the qualifier that inequality may be temporarily acceptable only if it favors the least favored at the cost of the most favored, a Rawlsian difference principle stated in Filipino voice."
+  ],
+  "target_audience": [
+    "Filipino law students and faculty",
+    "Philosophy and political-theory readers",
+    "Inquirer general readership",
+    "Civic-minded Filipinos interested in cultural identity"
+  ],
+  "register_markers": [
+    "extended-quotation register (large blocks quoted directly from Diokno lecture)",
+    "etymological-comparative analysis",
+    "professorial-chair lecture genre",
+    "patrilineal citation (Ka Pepe Diokno through son Jose Manuel)",
+    "FIRST, SECOND, THIRD, FOURTH, FIFTH numbered enumeration of social-justice elements"
+  ],
+  "decision_framework_signals": [
+    "uses etymological-sovereignty argument to establish cultural authenticity of legal concepts",
+    "applies comparative-linguistics framing to expose where European languages conflate what Tagalog distinguishes",
+    "reads loanword-vs-native-word boundaries as evidence of cultural attitude (borrowed = alien concept)",
+    "deploys bones-and-flesh dual-method (language + history) as twin epistemological proofs",
+    "systematizes complex concept into numbered enumeration (five-element social-justice definition)"
+  ],
+  "one_paragraph_summary": "Panganiban devotes his column to Dean Jose Manuel I. Diokno's lecture as one of the 10 CJ Panganiban Professorial Chair holders on Liberty and Prosperity, asking whether justice is an imported Western concept or whether Filipinos have a native one. Citing his father Sen. Jose W. 'Ka Pepe' Diokno, Diokno argues that Filipinos have katarungan, whose root tarong (Visayan) means 'straight, upright, appropriate, correct' -- making justice for Filipinos a matter of moral rectitude and right action, not mere legality. Karapatan (right) shares the root dapat (fitting, appropriate), tying justice to right; batas (law) merely means command. Unlike Spanish/Italian/French/German, which conflate 'right' and 'law,' Tagalog distinguishes the two, recognizing that what is legal may not always be just. Kapangyarihan (authority) is differentiated from poder and lakas (naked power), and karapatan (native, right) from pribelehiyo (Spanish loanword, privilege) -- with the loanword/native boundary itself read as evidence that privilege and naked power are alien to the Filipino mind. Ka Pepe likened language to the 'bones' and history to the 'flesh': Filipino history's continuous resistance to Spanish, American, Japanese, Marcos and US-bases impositions provides the historical struggle that puts flesh on the linguistic bones. Diokno closes with a five-element definition of Filipino social justice: (1) respect for rights, (2) repair of injustices to the poor, (3) self-sustaining economy distributing benefits, (4) institutional change so that inequalities are not caused by institutions (unless temporarily favoring the least favored at the most-favored's cost -- a Rawlsian difference principle in Filipino voice), and (5) means capable of attaining these objectives. Panganiban closes by previewing the next installment: does our current justice system reflect this concept?",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

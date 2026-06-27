@@ -1,0 +1,199 @@
+{
+  "id": "CA373",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 373,
+  "title": "House arrest for GMA",
+  "date": "2015-08-16",
+  "link": "https://opinion.inquirer.net/87646/house-arrest-for-gma",
+  "keywords": [
+    "GMA house arrest",
+    "PNoy Sona",
+    "PCSO plunder",
+    "daang matuwid",
+    "electoral sabotage",
+    "Maguindanao 2007",
+    "Ampatuan",
+    "SBN demurrer",
+    "Valencia malversation"
+  ],
+  "primary_topics": [
+    "Third in a series on PNoy's Sona-cited daang matuwid achievements -- GMA cases follow A375 (Maguindanao) and A374 (3 senators)",
+    "Two cases against GMA: electoral sabotage in RTC Pasay (Maguindanao 2007) and plunder in SBN First Division (PCSO P366M)",
+    "RTC bail grant June 12, 2012 in sabotage case on 'not strong' lone-witness evidence; CA dismissal of prosecution's appeal",
+    "SBN First Division demurrer denial April 6, 2015: 3-2 Special Division of five",
+    "Coaccused outcomes: Morato/Roquero/Taruc/Villar acquitted; Valencia downgraded to malversation with P500K bail; Aguas remaining without bail",
+    "Minority view (Ponferrada/Quiroz): elements of plunder not proven; should be malversation with bail",
+    "April 8, 2015 motion to transfer confinement from Veterans Memorial Medical Center to 14 Badjao Street, La Vista, QC",
+    "Estrada Tanay-farm and Salonga Lydia-Salonga-custody house-arrest precedents",
+    "Aug 11 SC ruling on Enrile bill-of-particulars; bail petition pending"
+  ],
+  "sub_topics": [
+    "Column-series continuity: A375 Maguindanao massacre and A374 three-senator PDAF as prior installments",
+    "Aug 11 SC Resolution granting Enrile's bill-of-particulars petition; arrest-and-detention annulment denied; bail petition pending",
+    "Electoral sabotage as capital offense in RTC Pasay for alleged manipulation of 2007 Maguindanao election results",
+    "Coaccused in sabotage case: former Maguindanao governor Andal Ampatuan Sr. (recently passed away) and Lintang Bedol (former provincial Comelec supervisor)",
+    "June 12, 2012 RTC bail grant on 'not strong' prosecution evidence -- lone witness, not credible",
+    "CA dismissal of prosecution's appeal: agreed evidence was not 'strong' as required",
+    "Second case (plunder) prevents release: SBN First Division, alleged P366M PCSO unauthorized disbursement",
+    "SBN First Division split 3 members; Special Division of five created per Internal Rules",
+    "April 6, 2015 majority (Efren Dela Cruz, Napoleon Inoturan, Rafael Lagos as ponente) denied demurrer; prima facie case of plunder",
+    "GMA and Aguas at risk of conviction unless countervailing evidence presented; detention without bail upheld",
+    "Valencia downgrade to malversation with P500K bail",
+    "Morato (former PCSO chair), Roquero and Taruc (former PCSO board members), Villar (former COA chair) acquitted via granted demurrer",
+    "Minority (Rodolfo Ponferrada, Alex Quiroz): elements of plunder not proven; GMA and Aguas should be charged with malversation only",
+    "GMA's MR pending; Aug 26 SBN-scheduled hearing to receive her countervailing evidence",
+    "April 8, 2015 transfer-of-detention motion from VMMC to 14 Badjao Street, La Vista, QC",
+    "GMA self-description: '68 years old, three spinal surgeries, frail and thin, presumption of innocence'",
+    "Estrada precedent: SBN transferred him to his Tanay, Rizal farm during plunder detention",
+    "Salonga precedent: under Marcos regime, released from military custody 'under house arrest in the custody of Mrs. Lydia Salonga'",
+    "Will-not-be-decided-by-June-30-2016 prediction; next-Sunday-tease for what happens after"
+  ],
+  "signature_phrases": [
+    "in my humble view (implied through register)",
+    "frail and thin",
+    "presumption of innocence",
+    "soon",
+    "daang matuwid",
+    "Next Sunday, I will answer this crucial question",
+    "Ineluctably (implied)"
+  ],
+  "entities": {
+    "people": [
+      "Former President Gloria Macapagal-Arroyo (GMA)",
+      "President Benigno S. Aquino III (PNoy)",
+      "Former PCSO executive Benigno Aguas (remaining coaccused without bail)",
+      "Former PCSO chair Sergio Valencia (downgraded to malversation)",
+      "Former PCSO chair Manuel Morato (acquitted)",
+      "Former PCSO board member Raymundo Roquero (acquitted)",
+      "Former PCSO board member Jose Taruc (acquitted)",
+      "Former COA chair Reynaldo Villar (acquitted)",
+      "SBN Justice Efren Dela Cruz (majority)",
+      "SBN Justice Napoleon Inoturan (majority)",
+      "SBN Justice Rafael Lagos (majority, ponente)",
+      "SBN Justice Rodolfo Ponferrada (dissent)",
+      "SBN Justice Alex Quiroz (dissent)",
+      "Andal Ampatuan Sr. (electoral sabotage coaccused, recently passed away)",
+      "Lintang Bedol (former Maguindanao Comelec provincial supervisor, coaccused)",
+      "Sen. Juan Ponce Enrile (Aug 11 bill-of-particulars context)",
+      "Former President Joseph Estrada (Tanay-farm precedent)",
+      "Sen. Jovito R. Salonga (Marcos-era house-arrest precedent)",
+      "Mrs. Lydia Salonga"
+    ],
+    "institutions": [
+      "Regional Trial Court of Pasay",
+      "Court of Appeals",
+      "Sandiganbayan First Division",
+      "Sandiganbayan Special Division of five",
+      "Supreme Court of the Philippines",
+      "Veterans Memorial Medical Center",
+      "Office of the Ombudsman",
+      "Philippine Charity Sweepstakes Office (PCSO)",
+      "Commission on Elections (Maguindanao office)",
+      "Commission on Audit"
+    ],
+    "cases": [
+      "GMA electoral sabotage case (RTC Pasay) -- bail granted June 12, 2012",
+      "GMA plunder case (SBN First Division, PCSO P366M) -- demurrer denied April 6, 2015"
+    ],
+    "laws_treaties": [
+      "Anti-Plunder Law (RA 7080)",
+      "Election sabotage statute",
+      "1987 Constitution -- bail provisions for capital offenses",
+      "1987 Constitution -- presumption of innocence",
+      "Internal Rules of the Sandiganbayan"
+    ],
+    "events": [
+      "PNoy's last Sona -- opening reference for the three-column series",
+      "June 12, 2012 -- RTC bail grant in sabotage case",
+      "April 6, 2015 -- SBN 3-2 demurrer denial",
+      "April 8, 2015 -- motion to transfer to 14 Badjao Street",
+      "Aug 11, 2015 -- SC ruling on Enrile bill-of-particulars",
+      "Aug 26, 2015 -- SBN-scheduled hearing for GMA countervailing evidence"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "This column is the third in a series on PNoy's Sona-cited daang matuwid achievements -- following A375 (Maguindanao) and A374 (three-senator PDAF) -- and continues the analytical theme that none of these cases will be resolved within PNoy's term",
+      "rhetorical_move": "series-continuity opening",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Aug 11 SC Resolution granted Enrile's bill-of-particulars petition but denied his prayer to annul his arrest and detention; the more crucial bail petition is poised for ruling soon",
+      "rhetorical_move": "interim-update on prior column's prediction",
+      "confidence": "high"
+    },
+    {
+      "claim": "GMA's electoral sabotage case in RTC Pasay led to bail-granted June 12, 2012 because the prosecution's evidence -- only a lone witness -- was not credible and failed to establish the 'strong' evidence required; the CA agreed and dismissed the prosecution's appeal",
+      "rhetorical_move": "case-status summary for first case",
+      "confidence": "high"
+    },
+    {
+      "claim": "On April 6, 2015, the SBN Special Division of five denied GMA's demurrer 3-2 -- majority (Dela Cruz, Inoturan, Lagos as ponente) found a prima facie case of plunder; minority (Ponferrada and Quiroz) opined the elements of plunder were not proven and the charges should be downgraded to malversation, which would entitle GMA and Aguas to bail",
+      "rhetorical_move": "majority-vs-minority doctrinal contrast",
+      "confidence": "high"
+    },
+    {
+      "claim": "Coaccused differential is stark: Morato, Roquero, Taruc, and Villar had their demurrers granted and were acquitted; Valencia was downgraded to malversation with P500,000 bail; only GMA and former PCSO executive Aguas remain without bail",
+      "rhetorical_move": "coaccused-outcomes catalog highlighting GMA's exception",
+      "confidence": "high"
+    },
+    {
+      "claim": "GMA's April 8 motion to transfer detention to her La Vista home rests on her self-description as '68 years old, has undergone three spinal surgeries, remains frail and thin' and not a flight risk -- invoking the presumption of innocence and the prospect of better recovery",
+      "rhetorical_move": "factual-status-with-direct-quote summary",
+      "confidence": "high"
+    },
+    {
+      "claim": "Two precedents support GMA's house-arrest motion: Estrada was transferred to his Tanay farm during his plunder detention under GMA's own presidency; Salonga was placed 'under house arrest in the custody of Mrs. Lydia Salonga' during the Marcos regime -- both demonstrate the SBN's institutional flexibility on house arrest",
+      "rhetorical_move": "two-precedent invocation",
+      "confidence": "high"
+    },
+    {
+      "claim": "Like the other PNoy-Sona-cited achievements, GMA's cases will not be decided within PNoy's term ending June 30, 2016 -- and CJ promises to answer what happens after he relinquishes the presidency in next Sunday's column",
+      "rhetorical_move": "will-not-resolve prediction + next-column tease",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Aug 11 SC Resolution on Enrile bill-of-particulars: granted, but arrest-and-detention annulment denied",
+    "Lone-witness evidence in RTC Pasay deemed not credible; CA agreed",
+    "3-2 SBN Special Division split with named majority (Dela Cruz, Inoturan, Lagos as ponente) and dissenters (Ponferrada, Quiroz)",
+    "Valencia downgrade to malversation with P500K bail",
+    "GMA's self-description: '68 years old, has undergone three spinal surgeries, remains frail and thin'",
+    "Estrada Tanay-farm precedent during GMA's own presidency",
+    "Salonga 'under house arrest in the custody of Mrs. Lydia Salonga' Marcos-era precedent",
+    "Andal Ampatuan Sr. -- coaccused in sabotage case -- recently passed away",
+    "Aug 26 SBN-scheduled countervailing-evidence hearing despite pending MR"
+  ],
+  "target_audience": [
+    "Inquirer readership tracking the daang matuwid trilogy",
+    "Pro-GMA and anti-GMA constituencies",
+    "Lawyers and SBN/RTC practitioners on bail and demurrer mechanics",
+    "Civic-minded readers following PNoy's Sona claims",
+    "Human-rights advocates concerned with detention conditions"
+  ],
+  "register_markers": [
+    "series-continuity opening referencing two prior columns",
+    "interim-update on prior column's prediction (Enrile bill of particulars)",
+    "case-status summaries with named justices and dates",
+    "majority-vs-minority doctrinal contrast",
+    "coaccused-outcomes catalog",
+    "direct-quote of GMA's self-description",
+    "two-precedent invocation (Estrada + Salonga)",
+    "next-column tease as cliffhanger close",
+    "ALL-CAPS sentence-start convention ('IN TWO previous columns')"
+  ],
+  "decision_framework_signals": [
+    "Three-column-series framework on PNoy daang matuwid achievements",
+    "'Not strong' evidence standard for bail in capital offenses",
+    "Demurrer-to-evidence as defense procedural device",
+    "Special Division of five for split-First-Division cases (SBN Internal Rules)",
+    "Coaccused-differential as analytic signal",
+    "House-arrest precedent doctrine (Estrada, Salonga)",
+    "Will-not-resolve-by-end-of-presidential-term prediction framework"
+  ],
+  "one_paragraph_summary": "Panganiban writes the third installment of his series on PNoy's daang matuwid Sona-cited achievements, following his prior columns on the Maguindanao massacre trial (A375) and the PDAF cases of three senators (A374). On a specific point from the prior column, he notes that on August 11 the Supreme Court released a Resolution granting Senator Enrile's petition for a bill of particulars but denied his prayer to annul his arrest and detention -- the more crucial bail petition is still pending. This column takes up the third set of Sona-cited cases: those involving former President Gloria Macapagal-Arroyo. Two cases have been filed against her. The first charged her with electoral sabotage for her alleged role in the 2007 Maguindanao election manipulation; her coaccused include former Maguindanao governor Andal Ampatuan Sr. (recently passed away) and Lintang Bedol, the former provincial Comelec supervisor of Maguindanao. Because she was indicted with a capital offense, she was arrested by the Regional Trial Court of Pasay, but on June 12, 2012, the RTC granted her bail on the ground that the prosecution's evidence -- the testimony of a lone witness -- was not strong; the Court of Appeals dismissed the prosecution's appeal. However, she was not released because of the second case: plunder before the Sandiganbayan First Division for the alleged unauthorized disbursement of P366 million in PCSO funds. After the prosecution rested, GMA and her coaccused filed a demurrer. Because the three members of the First Division were divided, a Special Division of five was created per the SBN Internal Rules. On April 6, 2015, a majority of three (Justices Efren Dela Cruz, Napoleon Inoturan, and Rafael Lagos as ponente) denied the demurrer, holding a prima facie case of plunder; unless GMA and her remaining coaccused (former PCSO executive Benigno Aguas) present countervailing evidence, they would be convicted. The minority of two (Justices Rodolfo Ponferrada and Alex Quiroz) opined that the elements of plunder were not proven; charges should be downgraded to malversation, entitling GMA and Aguas to bail. The coaccused outcomes are stark: former PCSO chair Manuel Morato, former board members Raymundo Roquero and Jose Taruc, and former COA chair Reynaldo Villar were all acquitted; former PCSO chair Sergio Valencia was downgraded to malversation with P500,000 bail. Frustrated, GMA filed on April 8, 2015 a motion to transfer her detention from the Veterans Memorial Medical Center to her house at 14 Badjao Street, La Vista, Quezon City, averring she is not a flight risk because she is '68 years old, has undergone three spinal surgeries, remains frail and thin, and to this day enjoys the presumption of innocence... [and] hopes that [her] house arrest can help her recuperate and heal more quickly and fully.' Two precedents support the motion: former President Estrada was allowed to be transferred to his Tanay, Rizal farm during his plunder detention under GMA's own presidency, and during the Marcos regime opposition Senator Jovito Salonga was placed 'under house arrest in the custody of Mrs. Lydia Salonga.' Despite the SBN's MR being pending, hearing on GMA's countervailing evidence is scheduled for August 26. Like the other Sona-cited achievements, GMA's cases will not be decided within PNoy's term ending June 30, 2016 -- CJ promises to answer what happens after he relinquishes the presidency next Sunday.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

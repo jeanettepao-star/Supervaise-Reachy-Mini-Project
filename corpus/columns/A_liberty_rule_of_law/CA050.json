@@ -1,0 +1,172 @@
+{
+  "id": "CA050",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 50,
+  "title": "Marcos, Cojuangco, JPE, Accra win coco levy",
+  "date": "2025-04-07",
+  "link": "https://opinion.inquirer.net/182232/marcos-cojuangco-jpe-accra-win-coco-levy",
+  "keywords": [
+    "Philippine Airlines Chapter 11",
+    "Debtor-in-Possession financing",
+    "First-Day motions",
+    "permanent haircut",
+    "fleet reduction"
+  ],
+  "primary_topics": [
+    "PAL's Chapter 11 restructuring strategy",
+    "Bankruptcy-court approvals and DIP financing",
+    "Operational reinvention rather than liquidation"
+  ],
+  "sub_topics": [
+    "Congratulations to Justice Japar B. Dimaampao",
+    "Davide family ties and Muslim-Christian neighborly framing",
+    "Chapter 11 filing under US Bankruptcy Code (Forms 201, 202, 204)",
+    "Voluntary filing by PAL after consensual creditor agreement",
+    "$655M fresh capital, $505M DIP financing",
+    "Buona Sorte Holdings and PAL Holdings (Lucio Tan-controlled)",
+    "US Bankruptcy Court (Southern District of New York) Sept. 9 hearing",
+    "First-Day motions granted (operations, customer programs, suppliers, wages, flights, DIP access)",
+    "$2 billion / P100 billion permanent haircut target",
+    "Safe Travel Barometer top-10 safest airlines (rating 4.2/5)",
+    "Top 5 secured creditors listed",
+    "40 largest unsecured claims",
+    "Comparators: Delta Air Lines, General Motors emerging leaner",
+    "25% fleet trim (return of 22 aircraft)",
+    "Exit from NYC and London long-haul routes",
+    "Focus on Philippine, China, Australia routes",
+    "Year-end exit hope from PAL president Gilbert Santa Maria"
+  ],
+  "signature_phrases": [
+    "For PAL's reinvention, not liquidation",
+    "leaner and sprightlier",
+    "permanent haircut",
+    "First-Day motions",
+    "prepackaged and prenegotiated",
+    "honor and maintain all customer programs",
+    "as devout a faithful Muslim is to the teachings of Allah, as a good Christian is to the commands of Jesus Christ"
+  ],
+  "entities": {
+    "people": [
+      "Justice Japar B. Dimaampao (newly promoted to SC at 57)",
+      "Ret. CJ Hilario G. Davide Jr. (uncle of Dimaampao)",
+      "Gigi Davide (aunt of Dimaampao)",
+      "Lucio C. Tan (taipan, controlling shareholder)",
+      "Gilbert Santa Maria (PAL president)",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Philippine Airlines (PAL)",
+      "Supreme Court of the Philippines",
+      "US Bankruptcy Court for the Southern District of New York",
+      "Buona Sorte Holdings Inc.",
+      "PAL Holdings Inc.",
+      "PK Airfinance (Luxembourg)",
+      "Philippine National Bank (PNB)",
+      "Banco de Oro (BDO)",
+      "China Banking Corp.",
+      "Air Philippines",
+      "MacroAsia Airport Services",
+      "Manila International Airport Authority (MIAA)",
+      "Civil Aviation Authority of the Philippines (CAAP)",
+      "Asia United Bank",
+      "Union Bank",
+      "Safe Travel Barometer",
+      "Lufthansa",
+      "Alaska Airlines",
+      "Delta Air Lines",
+      "General Motors"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "United States Bankruptcy Code, Chapter 11 (Official Forms 201, 202, 204)"
+    ],
+    "events": [
+      "PAL's voluntary Chapter 11 filing",
+      "September 9, 2021 initial hearing at US Bankruptcy Court (SDNY)",
+      "First $20M draw on the $505M DIP facility",
+      "Targeted year-end Chapter 11 exit",
+      "Justice Dimaampao's promotion to the Supreme Court"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "PAL's Chapter 11 petition aims to restructure finances, assure recovery, and reinvent itself stronger -- not to liquidate or cease operations.",
+      "rhetorical_move": "thesis stated in the column's title and reinforced throughout",
+      "confidence": "high"
+    },
+    {
+      "claim": "Three indicators support the reinvention thesis: voluntary filing by PAL itself, prior consensual agreement with creditors and majority shareholders, and firm commitments of up to $655M fresh capital including $505M DIP financing.",
+      "rhetorical_move": "three-point evidentiary defense",
+      "confidence": "high"
+    },
+    {
+      "claim": "The SDNY court's grant of all PAL's 'First-Day' motions on September 9 confirms operational continuity (customer programs honored, suppliers paid, wages maintained, flights operating, DIP access).",
+      "rhetorical_move": "procedural-confirmation argument",
+      "confidence": "high"
+    },
+    {
+      "claim": "Securing a permanent haircut of over $2B (P100B) is essential to recovering PAL's accumulated deficit as of June 30, 2021.",
+      "rhetorical_move": "financial-strategy framing",
+      "confidence": "high"
+    },
+    {
+      "claim": "PAL remains one of the world's top 10 safest airlines per the Safe Travel Barometer (4.2/5), behind Lufthansa (4.5) and ahead of Alaska Airlines (4.1) at tenth.",
+      "rhetorical_move": "reassuring quality-signal",
+      "confidence": "high"
+    },
+    {
+      "claim": "A Chapter 11 filing does not necessarily mean the filer is going out of business -- Delta and General Motors emerged 'leaner and sprightlier' after similar processes.",
+      "rhetorical_move": "comparator-precedent argument",
+      "confidence": "high"
+    },
+    {
+      "claim": "Trimming the fleet by 25% (22 aircraft returned), relinquishing losing NYC and London long-haul routes, and focusing on Philippine, China, and Australia routes is the right reinvention path.",
+      "rhetorical_move": "operational-strategy endorsement",
+      "confidence": "high"
+    },
+    {
+      "claim": "Given the prepackaged and prenegotiated nature of the restructuring, PAL can successfully exit Chapter 11 by year-end as PAL president Gilbert Santa Maria hopes.",
+      "rhetorical_move": "closing forecast",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Opening congratulations to Justice Japar B. Dimaampao on his long-delayed but well-deserved promotion to the SC -- known to author as trustworthy as his uncle ret. CJ Hilario G. Davide Jr., gentle as his aunt Gigi Davide, and devout as a faithful Muslim is to Allah's teachings 'as a good Christian is to the commands of Jesus Christ to love God and neighbor.'",
+    "PAL filing 18-page petition under Chapter 11 (Official Forms 201, 202, 204) -- voluntarily, with creditor consent already locked in.",
+    "Initial SDNY hearing on September 9 granting all 'First-Day' motions including first $20M draw of the $505M DIP facility.",
+    "Top 5 secured creditors: PK Airfinance (Luxembourg, $334.23M), 'EXIM Guaranteed Loans' to four international banks ($240.1M), PNB ($156.51M), BDO ($80.42M), China Banking Corp. ($54.83M).",
+    "Comparators Delta Air Lines and General Motors as precedent for emerging stronger after Chapter 11.",
+    "Operational reinvention: 25% fleet trim, exit from NYC and London long-haul, focus on Philippines, China, and Australia."
+  ],
+  "target_audience": [
+    "PAL stakeholders (employees, shareholders, creditors, lessors)",
+    "Airline industry analysts and aviation reporters",
+    "Bankruptcy practitioners and corporate counsel",
+    "Civic readers concerned about the flag carrier",
+    "Investors tracking Lucio Tan group restructurings"
+  ],
+  "register_markers": [
+    "Opening congratulations to a newly promoted SC justice (genre convention)",
+    "Bankruptcy-procedure technical vocabulary (Forms 201/202/204, DIP, First-Day motions)",
+    "Numbered listing of indicators and First-Day approvals",
+    "Specific dollar-and-peso parenthetical conversions",
+    "Comparator-precedent register (Delta, GM)",
+    "Forecast-toned closing",
+    "Inclusive Muslim-Christian framing in the personal introduction",
+    "Aviation safety-ranking insertion"
+  ],
+  "decision_framework_signals": [
+    "Read Chapter 11 not as failure but as a structured reinvention tool",
+    "Validate restructuring thesis through three indicators: voluntariness, prior consensual agreement, and committed fresh capital + DIP",
+    "Use 'First-Day' motion outcomes as early credibility signals for the broader plan",
+    "Quantify the haircut target relative to accumulated deficit (e.g., $2B haircut against equivalent deficit)",
+    "Cite comparator precedents (Delta, GM) to manage stakeholder expectations",
+    "Pair financial restructuring with operational reinvention: fleet rightsizing, route rationalization, focus on profitable corridors",
+    "Use safety-ranking benchmarks to preserve brand value through the bankruptcy"
+  ],
+  "one_paragraph_summary": "After opening with congratulations to newly promoted Supreme Court Justice Japar B. Dimaampao, Panganiban explains that PAL's 18-page Chapter 11 petition (Official Forms 201, 202, 204) under the US Bankruptcy Code aims to restructure finances and reinvent the flag carrier -- not liquidate. He cites three indicators of good-faith reinvention: PAL filed voluntarily; it secured consensual agreement with substantially all lenders, lessors, aircraft and engine suppliers, and majority shareholders before filing; and it locked in up to $655 million in fresh capital, including $505 million DIP financing from Lucio Tan-controlled Buona Sorte Holdings and PAL Holdings plus local banks. At the September 9 initial hearing, the US Bankruptcy Court for the Southern District of New York granted all of PAL's 'First-Day' motions -- normal operations, customer programs (valid tickets, vouchers, Mabuhay Miles), supplier payments, employee wages and benefits, continued domestic and international flights, and the first $20 million from the DIP facility. The strategy targets a 'permanent haircut' of over $2 billion (P100 billion) to address PAL's accumulated deficit as of June 30, 2021, while the carrier remains one of the world's top 10 safest airlines per the Safe Travel Barometer (4.2/5, with Lufthansa first at 4.5 and Alaska Airlines tenth at 4.1). The petition listed the top five secured creditors -- PK Airfinance ($334.23M), 'EXIM Guaranteed Loans' to four international banks ($240.1M), PNB ($156.51M), BDO ($80.42M), and China Banking Corp. ($54.83M) -- and the 40 largest unsecured claims from affiliates, agencies, banks, lessors, and service providers. He cites Delta Air Lines and General Motors as precedents for emerging 'leaner and sprightlier,' and describes PAL's operational reinvention: 25% fleet trim (returning 22 aircraft), relinquishing the loss-making NYC and London long-haul routes, and focusing on profitable Philippine, China, and Australia destinations. Given the prepackaged and prenegotiated structure, he forecasts a successful Chapter 11 exit by year-end as PAL president Gilbert Santa Maria hopes.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "CA296",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 296,
+  "title": "The what and why of a RevGov",
+  "date": "2017-11-19",
+  "link": "https://opinion.inquirer.net/108837/the-what-and-why-of-a-revgov",
+  "keywords": [
+    "revolutionary government Duterte",
+    "outsider revgov Cory Aquino",
+    "insider self-coup Marcos",
+    "1987 Constitution castrated presidential powers",
+    "dictatorship best infrastructures Razon"
+  ],
+  "primary_topics": [
+    "What a revolutionary government is and how it differs by source of power",
+    "Why Duterte might want a RevGov -- and why it is risky for him",
+    "Comparative analysis of Cory Aquino's outsider RevGov vs an insider self-coup"
+  ],
+  "sub_topics": [
+    "Ordinary RevGov: armed rebels scrap constitution, oust officials, rule by might",
+    "NPA threatened RevGov (Sison from Netherlands)",
+    "Outsider RevGov: supported by people and military; Cory Aquino model",
+    "Cory: won snap election but not proclaimed under 1973 Constitution; took power via EDSA + military allegiance",
+    "Insider RevGov (self-coup): insiders with actual constitutional control set aside constitution",
+    "Duterte's RevGov warning: backpedaled after military did not agree",
+    "Insider RevGov consequences: abrogation of 1987 Constitution; loss of all official terms",
+    "Success requires firm popular support + guns and guts; failure = coup attempts (Cory's experience)",
+    "Reason to risk: crush destabilizers, propel reforms faster",
+    "Razon on dictatorships and best infrastructure",
+    "1987 Constitution: castrated presidential powers, strengthened Congress and SC",
+    "Even rebellion/invasion martial law requires Congress and SC support",
+    "Marawi martial law gave Duterte a quarter of Marcos's 1972 clout",
+    "Risk shifts to defenders of 1987 Constitution if President succeeds",
+    "Cha-cha as an alternative: could also abolish presidency, Congress, Senate"
+  ],
+  "signature_phrases": [
+    "RevGov",
+    "rule by actual might, not by legal right",
+    "outsiders who were able to gain control",
+    "self-coup",
+    "castrated the powers of the president",
+    "The best infrastructures are in the countries ruled by dictatorships",
+    "dictatorship, no more no less",
+    "Will the President take the plunge?"
+  ],
+  "entities": {
+    "people": [
+      "President Rodrigo Duterte",
+      "President Corazon Aquino",
+      "President Ferdinand Marcos",
+      "Jose Ma. Sison",
+      "Defense Secretary Delfin Lorenzana",
+      "Businessman Enrique Razon",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "New People's Army (NPA)",
+      "Armed Forces of the Philippines",
+      "Congress of the Philippines",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution",
+      "1973 Constitution (set aside 1986)"
+    ],
+    "events": [
+      "1986 Edsa People Power Revolution",
+      "Marcos's 1972 martial law proclamation",
+      "Marawi siege and martial law (2017)",
+      "ASEAN 50 Summit forum (Razon comment)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "A RevGov led by the incumbent President would automatically strip him of his constitutional mandate and term -- making him more vulnerable to military adventurers than he is now.",
+      "rhetorical_move": "self-defeating risk analysis of a revgov",
+      "confidence": "high"
+    },
+    {
+      "claim": "Cory Aquino's RevGov was an outsider power grab -- legitimate in its circumstance (Marcos's manufactured martial law) but structurally similar: she set aside the 1973 Constitution and governed outside it.",
+      "rhetorical_move": "neutral comparative framing of the Cory precedent",
+      "confidence": "high"
+    },
+    {
+      "claim": "The 1987 Constitution deliberately 'castrated' the president's powers and empowered Congress and the SC, making even martial law dependent on their support -- limiting Marawi's military utility.",
+      "rhetorical_move": "constitutional-design explanation of the president's constrained power",
+      "confidence": "high"
+    },
+    {
+      "claim": "Cha-cha is also a pathway to radical structural change -- potentially abolishing the presidency, Congress, the Senate, and removing all protected terms of incumbents.",
+      "rhetorical_move": "Cha-cha-as-revgov-alternative framing",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Enrique Razon at the ASEAN 50 Summit forum: 'The best infrastructures are in the countries ruled by dictatorships' -- providing the most candid elite argument for authoritarian efficiency.",
+    "Duterte backpedaling on his RevGov warning after the military did not agree -- illustrating the central truth that a RevGov without military support fails.",
+    "Cory Aquino's 1986 experience: winning the snap election but not being proclaimed under the 1973 Constitution, taking power only after military allegiance -- an outsider RevGov as the template.",
+    "Sison's NPA RevGov threat from the Netherlands -- cited as the starting point of the outsider-RevGov taxonomy."
+  ],
+  "target_audience": [
+    "Civic readership worried about Duterte's RevGov threat",
+    "Constitutionalists and democratic-governance advocates",
+    "Military and security-sector observers",
+    "Political scientists and comparative-government scholars",
+    "Cha-cha advocates who may see it as a safer alternative to RevGov"
+  ],
+  "register_markers": [
+    "Definitional-taxonomy opening (ordinary revgov → outsider → insider)",
+    "Razon-quote as blunt business-elite anchor",
+    "Risk-analysis framing for the President himself",
+    "Cory-as-cautionary-parallel acknowledgment",
+    "Open-ending questions",
+    "Cha-cha as RevGov-light closing comparison"
+  ],
+  "decision_framework_signals": [
+    "Classify any power transfer by legitimacy source: armed rebellion (outsider), EDSA-people-power (outsider), or self-coup (insider) -- each carries different constitutional and political risks",
+    "Test the RevGov's viability: people's support + military might = necessary conditions; absence of either = failure",
+    "Recognize that a RevGov president loses his own constitutional mandate and term -- the self-defeating logic of an insider coup",
+    "Treat Cha-cha as a legitimate but equally radical path to structural change -- it can accomplish the same term/office abolitions without the illegality of a RevGov"
+  ],
+  "one_paragraph_summary": "Panganiban explains what a revolutionary government is and why Duterte might consider one. Ordinarily, a RevGov is installed by armed rebels who scrap the constitution and rule by might -- as the NPA's Sison threatens from the Netherlands. Alternatively, outsiders (civilians supported by the people and military) can wrest power without arms -- as Cory Aquino did in 1986: she won the snap election but was never proclaimed under the 1973 Constitution, taking power only after Marcos fled and the military pledged allegiance to her. A third type is the insider self-coup: the sitting president, backed by the military, sets aside the constitution, abolishes official terms, and rules by will. Duterte signaled this but backpedaled after the military declined. If it had succeeded, it would have meant abrogation of the 1987 Constitution, loss of all official terms (including his own), and exposure to coup attempts -- as Cory faced several after her own RevGov. Why risk it? To crush destabilizers and speed reforms: businessman Enrique Razon articulated the business case at the ASEAN 50 Summit -- 'The best infrastructures are in the countries ruled by dictatorships.' But a RevGov is a dictatorship and the 1987 Constitution's deliberate 'castration' of presidential powers means Duterte currently has far less clout than Marcos had in 1972 -- Marawi martial law gave him only about a quarter of that. If the RevGov fails, the risk shifts to the President; if it succeeds, the risk shifts to defenders of the Constitution. Cha-cha is also a radical alternative -- it could also abolish the presidency, Congress, and the Senate, remove all protected terms, and alter the Bill of Rights.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

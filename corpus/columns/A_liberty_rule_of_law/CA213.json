@@ -1,0 +1,163 @@
+{
+  "id": "CA213",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 213,
+  "title": "Saving Maria Ressa",
+  "date": "2020-07-05",
+  "link": "https://opinion.inquirer.net/131450/saving-maria-ressa",
+  "keywords": [
+    "Maria Ressa",
+    "cyberlibel",
+    "Rappler",
+    "appeal strategy",
+    "press freedom",
+    "barren acquittal"
+  ],
+  "primary_topics": [
+    "Search for legal and honorable ways to save Maria Ressa and Reynaldo Santos Jr.",
+    "Two viable but barren defenses: republication and prescription",
+    "Why Ressa and Santos should have testified",
+    "Independent judiciary and independent media as natural partners"
+  ],
+  "sub_topics": [
+    "May 29, 2012 original article publication vs Feb 19, 2014 republication (with typo correction)",
+    "Republication theory: every republication is a separate crime per existing jurisprudence",
+    "Prescription theory: cyberlibel as new form of libel, should retain 1-year libel prescription",
+    "Tolentino v. People (Aug 6, 2018) Supreme Court resolution -- cyberlibel prescribes in 15 years; only en banc can reverse",
+    "Wilfredo Keng's status as 'public figure' as crucial undertested defense",
+    "Why testifying could have shown truth, justifiable motives, public interest, lack of malice",
+    "Direct appeal to Supreme Court (not lower tribunal) because only en banc can reverse Tolentino",
+    "Sociological school of jurisprudence as basis for one-year rule preference",
+    "Society better served when cases are filed and prosecuted speedily",
+    "Independent judiciary and independent media as 'natural partners in safeguarding truth, fairness, and accountability'",
+    "Barren vs triumphant acquittal -- legal hermeneutics vs absence-of-crime judgment"
+  ],
+  "signature_phrases": [
+    "I reread the decision convicting Maria Ressa and Reynaldo Santos Jr. of cyberlibel",
+    "I wanted to find legal and honorable ways showing that they were innocent of defamation",
+    "Regrettably, I did not find any",
+    "the only viable defenses, I think, are",
+    "like the movie 'Saving Private Ryan,' can be risky and costly",
+    "could result in a barren, not triumphant, acquittal",
+    "Ressa and Santos should have testified to defend themselves",
+    "widen the crack in the prosecution's armor",
+    "A complete and honorable victory!",
+    "judges decide cases only from the evidence vetted in court, not from street parliaments and media utterances",
+    "It is unfair to accuse the judiciary of bias, incompetence, subservience, or corruption for ignoring out-of-court tirades",
+    "Think of this parallel",
+    "if a girl is raped on the earlier date and raped again on the later date, wasn't there a new commission of rape?",
+    "in case of doubt, penal laws should be interpreted to favor the accused",
+    "this defense goes squarely against a resolution of the Supreme Court in Tolentino v. People",
+    "only the Supreme Court en banc can reverse or modify a Court resolution or decision",
+    "I would, like me, veer to the sociological school of jurisprudence",
+    "I adhere to the one-year rule because, philosophically, I believe that society is better served when cases are filed and prosecuted speedily",
+    "independent judiciaries and independent media are natural partners in safeguarding truth, fairness, and accountability",
+    "one from the silence of the peaks and the other from the blare of the valley",
+    "They do not serve truth, only legal hermeneutics",
+    "The best acquittal is a judgment that the accused did not commit any crime"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Maria Ressa (Rappler CEO, accused)",
+      "Reynaldo Santos Jr. (Rappler journalist, accused)",
+      "Wilfredo Keng (private citizen, complainant)",
+      "Judge Rainelda H. Estacio-Montesa (trial court ponente, implicit from prior column)"
+    ],
+    "institutions": [
+      "Rappler",
+      "Supreme Court of the Philippines (en banc as appellate forum)",
+      "Trial court (Montesa sala)",
+      "Duterte administration (mentioned as alleged backdrop)"
+    ],
+    "cases": [
+      "Tolentino v. People (Aug 6, 2018) -- SC resolution holding cyberlibel prescribes in 15 years",
+      "Maria Ressa cyberlibel conviction (June 15, 2020 trial court decision; subject of this column)"
+    ],
+    "laws_treaties": [
+      "Cybercrime Prevention Act of 2012",
+      "Revised Penal Code Article 353/355 (libel)",
+      "Act No. 3326 (prescription of special-law offenses)"
+    ],
+    "events": [
+      "May 29, 2012 -- original article publication on Rappler",
+      "Feb 19, 2014 -- republication of article (with typo correction)",
+      "Feb 5, 2019 -- Information filed in court",
+      "June 15, 2020 -- trial court conviction",
+      "Aug 6, 2018 -- Tolentino v. People resolution"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "After rereading the trial court decision, the only viable defenses available to Ressa and Santos are (1) the republication theory (they cannot be punished for the May 29, 2012 original publication because the Information did not allege or prove it, and the Feb 19, 2014 republication should not be a separate source of conviction) and (2) prescription (cyberlibel should retain the one-year libel prescription) -- but both defenses, like 'Saving Private Ryan,' can yield only a barren rather than triumphant acquittal because they do not deny the crime, only its punishability.",
+      "rhetorical_move": "viable-but-barren-defense framing (acknowledging legal options while flagging their moral limits)",
+      "confidence": "asserted with acknowledged regret"
+    },
+    {
+      "claim": "Ressa and Santos should have testified to defend themselves and widen the crack in the prosecution's armor on Wilfredo Keng's status as a 'public figure'; testifying could have shown Keng was truthfully charged or investigated for the imputed offenses, that the accused had justifiable motives or were protecting public interest in good faith, or that they had good reasons for not posting Keng's side -- and could have produced a complete and honorable victory.",
+      "rhetorical_move": "missed-opportunity counterfactual (mapping the alternative defense that would have addressed merits rather than mechanics)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Judges decide cases only from evidence vetted in court, not from street parliaments and media utterances -- so it is unfair to accuse the judiciary of bias, incompetence, subservience, or corruption for ignoring out-of-court tirades; if the accused thought the Duterte administration was suppressing press freedom, they should have testified to that effect in court.",
+      "rhetorical_move": "in-court-only-evidence principle (institutional defense of judicial process against media-based criticism)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The republication theory is weak because it does not deny the crime -- only that it was committed on an earlier date -- and parallels other recurring crimes: if a defamation printed earlier is reprinted later, that is a new libel via republication; if a website article is reposted, that is a new cyberlibel; if a girl raped earlier is raped again later, that is a new commission of rape.",
+      "rhetorical_move": "parallel-recurring-crime analogy (using sexual-violence parallel to dramatize the legal logic of republication-as-new-offense)",
+      "confidence": "asserted, though controversial in choice of parallel"
+    },
+    {
+      "claim": "Appeal should go directly to the Supreme Court (not to any lower tribunal), because only the SC en banc can reverse or modify the Aug 6, 2018 Tolentino v. People resolution holding that cyberlibel prescribes in 15 years; if the appeal happens, the justices should veer to the sociological school of jurisprudence and adopt the one-year libel prescription, because society is better served when cases are filed and prosecuted speedily.",
+      "rhetorical_move": "forum-shopping-with-doctrinal-school-preference (combining procedural advice with jurisprudential-school preference)",
+      "confidence": "asserted as personal philosophy"
+    },
+    {
+      "claim": "Independent judiciaries and independent media are natural partners in safeguarding truth, fairness, and accountability -- 'one from the silence of the peaks and the other from the blare of the valley' -- but acquittal via republication or prescription does not serve truth, only legal hermeneutics; the best acquittal is a judgment that the accused did not commit any crime.",
+      "rhetorical_move": "partnership-of-institutions framing with merit-as-best-acquittal closing (institutional ideal capped with substantive-justice principle)",
+      "confidence": "asserted as personal credo"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 'Saving Private Ryan' framing in the title and opening -- invoking the film's costly-rescue motif to characterize the available defenses as risky and morally barren rather than triumphant.",
+    "CJ's controversial use of the rape-recurrence parallel -- 'if a girl is raped on the earlier date and raped again on the later date, wasn't there a new commission of rape?' -- to argue that republication is a new offense; a structurally clean but rhetorically fraught analogy choice.",
+    "The poetic formulation that an independent judiciary and independent media safeguard truth 'one from the silence of the peaks and the other from the blare of the valley' -- one of CJ's most lyrical institutional metaphors.",
+    "The closing distinction between 'barren acquittal' (winning on legal hermeneutics) and 'triumphant acquittal' (a judgment that the accused did not commit any crime) -- a clean moral framework for thinking about strategic versus substantive vindication.",
+    "The direct critique embedded mid-column that if the accused thought the Duterte administration was suppressing press freedom, they should have said so in court -- making the column simultaneously sympathetic to Ressa's plight and stern about her defense team's strategic choices."
+  ],
+  "target_audience": [
+    "Maria Ressa, her counsel, and her supporters",
+    "Journalists and press freedom advocates",
+    "Legal practitioners interested in cyberlibel doctrine",
+    "Supreme Court watchers",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "'Saving Private Ryan' film-title allusion in column title",
+    "'Regrettably, I did not find any' as honest-disappointed opening",
+    "'A complete and honorable victory!' as exclamatory ideal",
+    "'Think of this parallel' as teaching-by-analogy marker",
+    "rape-parallel as rhetorically aggressive teaching analogy",
+    "self-citation to June 14 column",
+    "'sociological school of jurisprudence' vs analytical-school dichotomy (echoing A211)",
+    "'one from the silence of the peaks and the other from the blare of the valley' as lyrical institutional metaphor",
+    "'best acquittal' as substantive-justice closer",
+    "doctrinal-strategic register with literary touches",
+    "regret-and-prescription tone (mourning the missed strategy while still defending the institutional process)"
+  ],
+  "decision_framework_signals": [
+    "applies viable-but-barren defense framework (legal viability without moral satisfaction)",
+    "treats failure to testify as the case-defining strategic error",
+    "deploys in-court-only-evidence principle to defend judiciary against extra-judicial criticism",
+    "uses parallel-recurring-crime analogies to clarify legal logic (with controversial choice)",
+    "applies sociological-school preference to advocate the one-year prescription doctrine",
+    "frames independent media and judiciary as natural-partner institutions",
+    "elevates merit-acquittal over hermeneutical-acquittal as moral ideal"
+  ],
+  "one_paragraph_summary": "Panganiban reads the Maria Ressa cyberlibel conviction in search of legal and honorable ways to show that Ressa and Reynaldo Santos Jr. were innocent of defamation -- and regrets that he found none. The only viable defenses, he concludes, are republication (the May 29, 2012 original publication was not alleged or proven in the Information, and the February 19, 2014 republication should not be a separate source of conviction) and prescription (cyberlibel as a new form of libel should retain libel's one-year prescription rather than the 15-year period the Supreme Court announced in Tolentino v. People, August 6, 2018). Both, like the rescue mission in 'Saving Private Ryan,' can be risky and costly and at best yield a barren rather than triumphant acquittal, because they do not deny the crime, only its punishability. He argues forcefully that Ressa and Santos should have testified to widen the crack in the prosecution's armor on Wilfredo Keng's status as a public figure, prove their lack of actual malice, or show good faith protection of public interest -- and reminds readers that 'judges decide cases only from the evidence vetted in court, not from street parliaments and media utterances.' If the accused appeal, he urges direct appeal to the Supreme Court en banc -- the only forum that can reverse Tolentino -- and hopes the justices will veer toward the sociological school of jurisprudence to restore the one-year libel prescription, because society is better served when cases are prosecuted speedily. He closes with his characteristic institutional credo that independent judiciaries and independent media are natural partners in safeguarding truth, fairness, and accountability -- 'one from the silence of the peaks and the other from the blare of the valley' -- and a final caution: 'The best acquittal is a judgment that the accused did not commit any crime.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

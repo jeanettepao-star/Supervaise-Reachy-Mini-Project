@@ -1,0 +1,122 @@
+{
+  "id": "CE079",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 79,
+  "title": "Andy Bautista's legal conundrums",
+  "date": "2017-08-20",
+  "link": "https://opinion.inquirer.net/106478/andy-bautistas-legal-conundrums",
+  "keywords": [
+    "Andres Bautista",
+    "Comelec chair impeachment",
+    "impeachable official immunity",
+    "spousal privilege",
+    "SALN",
+    "Anti-Graft Law",
+    "marital disqualification rule",
+    "sui generis"
+  ],
+  "primary_topics": [
+    "Legal immunities of impeachable officials from criminal prosecution and disbarment",
+    "Constitutional mechanics of impeaching the Comelec chair",
+    "Spousal privilege as a legal conundrum in the Bautista impeachment scenario"
+  ],
+  "sub_topics": [
+    "Patricia 'Tish' Bautista's August 1, 2017 affidavit alleging graft, money laundering, and SALN dishonesty",
+    "Andy Bautista's immunity from criminal prosecution and disbarment while in office",
+    "Constitution's requirement that Comelec chair be a member of the Philippine bar",
+    "Any criminal penalty including removal/disqualification triggers ouster only through impeachment",
+    "BIR can investigate but cannot criminally indict an impeachable official",
+    "NBi/DOJ/Ombudsman investigation permissible but indictment deferred until after term",
+    "Two impeachment pathways under 1987 Constitution",
+    "One-third House vote to transmit, two-thirds Senate vote to convict",
+    "Rule 130 Sec. 22 spousal disqualification rule -- cannot testify for or against spouse",
+    "Impeachment as sui generis proceeding -- neither civil nor criminal",
+    "Whether Andy's filing of criminal cases against Tish waived his spousal privilege"
+  ],
+  "signature_phrases": [
+    "legal conundrums",
+    "virtually immune from suits where the prescribed penalty would oust them from their offices",
+    "can be done only through impeachment",
+    "more a political rather than a legal exercise",
+    "sui generis (or one of a kind)",
+    "More on these legal conundrums later",
+    "fodder of TV, radio and newspaper interviews"
+  ],
+  "entities": {
+    "people": [
+      "Andres 'Andy' Bautista (Comelec chair, respondent)",
+      "Patricia 'Tish' Bautista (wife, affidavit executor)",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "National Bureau of Investigation (NBI)",
+      "Department of Justice (DOJ)",
+      "Office of the Ombudsman",
+      "Bureau of Internal Revenue (BIR)",
+      "House of Representatives",
+      "Senate of the Philippines"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Philippine Constitution Art. IX Sec. C-1 -- Comelec chair must be member of Philippine bar",
+      "Anti-Graft and Corrupt Practices Act",
+      "Anti-Money Laundering Act",
+      "Rules of Court Rule 130 Sec. 22 -- spousal disqualification rule"
+    ],
+    "events": [
+      "Patricia Bautista affidavit (August 1, 2017) alleging graft, money laundering, SALN dishonesty",
+      "Andy Bautista filing criminal cases (robbery, extortion) against his wife"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Andy Bautista is virtually immune from criminal prosecution under the Anti-Graft Law and Anti-Money Laundering Act, and from disbarment, while he remains Comelec chair — because any penalty including removal/disqualification from public office can only be imposed through impeachment, not through criminal or administrative proceedings.",
+      "rhetorical_move": "constitutional-immunity application: Comelec chair's bar membership requirement creates an automatic disqualification trigger that collapses criminal and disbarment proceedings into the impeachment-exclusive channel",
+      "confidence": "asserted as settled jurisprudence"
+    },
+    {
+      "claim": "Patricia Bautista faces a spousal disqualification bar under Rule 130 Sec. 22 — she cannot testify for or against Andy in impeachment proceedings — because impeachment is sui generis (neither civil nor criminal) and is not a case by one spouse against the other.",
+      "rhetorical_move": "procedural-classification argument: the sui generis nature of impeachment places it outside both exceptions to the spousal privilege",
+      "confidence": "asserted as probable legal outcome, left open as question for follow-up"
+    },
+    {
+      "claim": "Andy Bautista may have inadvertently waived his spousal privilege and effectively consented to Tish's testimony by filing criminal cases (robbery, extortion) against her — an unresolved legal conundrum that the column flags for future analysis.",
+      "rhetorical_move": "waiver-by-conduct hypothesis — filing suit against spouse as implied consent to spouse's adverse testimony",
+      "confidence": "posed as open question ('did Andy effectively waive…?')"
+    }
+  ],
+  "notable_anecdotes": [
+    "The full media circus framing in the opening — Tish's affidavit becoming 'fodder of TV, radio and newspaper interviews by the couple themselves, their lawyers and relatives,' opening 'their private lives to ugly rumors, unfair social media trolls and salacious coffee talk' — before CJ pivots to public-interest analysis only, modeling disciplined legal commentary over tabloid engagement.",
+    "The constitutional twist: because the 1987 Constitution requires the Comelec chair to be a member of the Philippine bar, any criminal indictment or disbarment order would automatically oust him from a constitutionally-defined office — which can only happen through impeachment, creating an ironclad immunity that most commentators missed.",
+    "The spousal-privilege paradox: Andy's own decision to file criminal cases against Tish — for robbery and extortion — could be read as waiving his right to block her testimony, meaning his legal counter-offensive may have undermined his own privilege defense; CJ flags this and defers resolution to a follow-up column."
+  ],
+  "target_audience": [
+    "Legal practitioners advising on impeachment mechanics and constitutional immunities",
+    "Political analysts tracking the Bautista controversy",
+    "Law students studying spousal privilege and impeachable-official immunity",
+    "General civic readership following the Bautista marital scandal's legal dimensions",
+    "House members considering the impeachment complaint against Bautista"
+  ],
+  "register_markers": [
+    "tabloid-distancing register ('I will limit myself to what is of public interest')",
+    "constitutional-immunity precision register (distinguishing investigation from indictment)",
+    "sui generis classification argument as analytical pivot",
+    "open-question serial close ('More on these legal conundrums later')",
+    "rhetorical-question format for unresolved issues (spousal waiver question)",
+    "Latin legal phrase deployment (sui generis) without translation, then parenthetical gloss",
+    "neutral tone on marital breakdown — zero moral commentary on the couple"
+  ],
+  "decision_framework_signals": [
+    "applies constitutional-immunity doctrine by tracing the causal chain: bar membership requirement → removal penalty → impeachment exclusivity → prosecution immunity",
+    "uses sui generis classification to determine which procedural rules apply to impeachment testimony",
+    "tests spousal privilege by mapping each available exception against the nature of the proceeding",
+    "identifies waiver-by-conduct as a potential exception to privilege, leaving it unresolved as an analytical prompt",
+    "strictly limits analysis to public-interest legal questions, excluding private/moral dimensions"
+  ],
+  "one_paragraph_summary": "Panganiban uses the Bautista marital scandal -- Patricia 'Tish' Bautista's August 1, 2017 affidavit alleging her husband Comelec Chair Andy Bautista's violations of the Anti-Graft Law, Anti-Money Laundering Act, SALN obligations, and professional ethics -- to analyze three distinct legal conundrums while deliberately sidestepping the tabloid dimensions. First, he establishes that Andy is virtually immune from criminal prosecution and disbarment while in office: because the Constitution requires the Comelec chair to be a bar member, any criminal penalty or disbarment order would automatically oust him from a constitutionally-defined position, and such ouster can only be accomplished through impeachment -- meaning indictments must wait until he leaves office. Second, he examines whether Tish can testify against Andy in impeachment proceedings under Rule 130 Sec. 22's spousal disqualification rule, arguing that since impeachment is sui generis (neither civil nor criminal) and is not a case by one spouse against the other, the rule's exceptions do not apply and she faces a testimonial bar. Third, he raises -- but does not resolve -- whether Andy's filing of criminal cases (robbery, extortion) against Tish constitutes an implied waiver of his spousal privilege and consent to her adverse testimony, promising further analysis in a follow-up column.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

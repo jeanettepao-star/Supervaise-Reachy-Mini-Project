@@ -1,0 +1,151 @@
+{
+  "id": "CC073",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 73,
+  "title": "10% of Dr. Ty's wealth to philanthropy",
+  "date": "2018-12-02",
+  "link": "https://opinion.inquirer.net/117856/10-of-dr-tys-wealth-to-philanthropy",
+  "keywords": [
+    "Dr. George S.K. Ty",
+    "Metrobank Foundation",
+    "10% wealth to philanthropy",
+    "Toyota Motor Philippines School of Technology",
+    "humility"
+  ],
+  "primary_topics": [
+    "Eulogy at Dr. George S. K. Ty's wake (Nov 24, 2018)",
+    "Dr. Ty's commitment to donate 10% of his wealth to philanthropy",
+    "Metrobank Foundation, Toyota Motor Philippines School of Technology, Manila Cathedral renovation",
+    "CJ's institutional relationships with Dr. Ty over 20 years",
+    "Mary the Queen Catholic Church in Nanjing, China"
+  ],
+  "sub_topics": [
+    "Full eulogy access at cjpanganiban.com",
+    "First night of wake reserved for family and Metrobank Group officers",
+    "Metrobank's founding and growth into respected Asian financial institution",
+    "Branches in US, China, Japan, other places",
+    "Conglomerate: banking, insurance, motor vehicles, real estate, power",
+    "Dr. Ty as business leader, towering patriarch, exemplary father, caring husband, generous philanthropist",
+    "First meeting ~20 years before -- Metrobank Foundation 'Search for the 10 Outstanding Teachers' board of judges",
+    "Dr. Ty patient bedside presence during 2-day interviews, never intruding",
+    "CJ as Senior Adviser of Metrobank after judicial retirement",
+    "Board of advisers of Metrobank Foundation",
+    "Replacement of late Cory Aquino as Metrobank Foundation board chair (Aug 1, 2009)",
+    "BPI independent directorship invitation from Jaime Augusto Zobel de Ayala (eight years ago, declined)",
+    "Dr. Ty's full-trust endorsement: 'I know you will never reveal any business secret'",
+    "Dr. Ty's home visit explaining 10% philanthropy commitment",
+    "10% of total wealth vs corporate norm of max 2% of net income",
+    "P1 billion initial gift establishing nonprofit Toyota Motor Philippines School of Technology",
+    "Science/technology focus to eradicate extreme poverty",
+    "Dr. Shoichiro Toyoda (retired Toyota Japan chair) matching gift of P1B",
+    "Mary the Queen Catholic Church in Nanjing China -- thanksgiving for Metrobank China branches",
+    "Largest donor to Manila Cathedral renovation",
+    "Family/Metrobank gathering invitations including foreign office inaugurations",
+    "Humble and meek despite achievements (Bible-based reflection)",
+    "Dwelling place in heaven for humble and meek",
+    "Free spirit now with/above/watching/inspiring"
+  ],
+  "signature_phrases": [
+    "I am pleased to summarize my eulogy for Dr. George S. K. Ty",
+    "I was hesitant to speak before you",
+    "to taste its full flavor, please access the complete copy at cjpanganiban.com",
+    "He was always present on a side chair, patiently listening but never intruding",
+    "I fully trust you. I know you will never reveal any business secret",
+    "God had been kind to him because all his business ventures have been successful",
+    "10 percent of his wealth to philanthropy",
+    "the heart and soul of SM (no -- applies to Henry Sy; for Dr. Ty: 'the heart and soul of Metrobank' implicit)",
+    "humble and meek",
+    "our Father reserved a dwelling place in heaven for the humble and meek",
+    "now enjoying a new eternal life of peace and love in the bosom of the Father",
+    "a free spirit capable of being with us on earth",
+    "watching us and inspiring us to be the best of what we can be"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Dr. George S. K. Ty (deceased Nov 2018)",
+      "Former President Corazon C. Aquino (Metrobank Foundation board chair, died Aug 1, 2009)",
+      "Jaime Augusto Zobel de Ayala (BPI invitation)",
+      "Dr. Shoichiro Toyoda (retired Toyota Japan chair, matching P1B gift)"
+    ],
+    "institutions": [
+      "Metrobank Group (banking, insurance, motor vehicles, real estate, power)",
+      "Metrobank Foundation",
+      "Search for the 10 Outstanding Teachers (Metrobank Foundation program)",
+      "Bank of the Philippine Islands (BPI)",
+      "Toyota Motor Philippines School of Technology (P2B endowment)",
+      "Mary the Queen Catholic Church (Nanjing, China)",
+      "Manila Cathedral (Dr. Ty as largest renovation donor)",
+      "Metrobank branches: US, China, Japan, etc."
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "First night of Dr. Ty's wake (Nov 24, 2018)",
+      "~20 years ago -- first CJ-Ty meeting via Metrobank Foundation OYTeachers",
+      "Aug 1, 2009 -- Cory Aquino's death (CJ succeeded her as Metrobank Foundation board chair)",
+      "Eight years ago -- Ayala's BPI invitation",
+      "Mary the Queen Church Nanjing construction",
+      "Manila Cathedral renovation"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Dr. Ty's commitment to donate 10% of his total wealth to philanthropy -- rather than the corporate norm of a maximum 2% of net income -- represented an extraordinary philanthropic threshold, one of the largest single private commitments in PH business history because of the absolute size of his fortune.",
+      "rhetorical_move": "comparative-norm framing (10% personal wealth vs 2% corporate ceiling)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Dr. Ty's character was defined by humility, patience, and quiet attentiveness -- exemplified by his side-chair presence during multi-day Outstanding Teachers interviews, his never-intruding-but-listening stance, and his trust-based instruction to CJ to accept a competing BPI directorship despite Metrobank conflict ('I fully trust you. I know you will never reveal any business secret').",
+      "rhetorical_move": "character-portrait through specific behavioral evidence",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Dr. Ty's faith -- though never flaunted -- manifested in concrete acts: building the Mary the Queen Catholic Church in Nanjing as thanksgiving for the success of Metrobank's Chinese branches, becoming one of the largest donors to the Manila Cathedral renovation, and ultimately inheriting (per scripture) 'a dwelling place in heaven for the humble and meek.'",
+      "rhetorical_move": "faith-through-acts framing with scriptural closing",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Dr. Ty's continuing influence operates in two registers: spiritually he is 'a free spirit capable of being with us on earth, watching us and inspiring us to be the best of what we can be'; institutionally his achievements, principles, and values are to be constantly remembered, personified, and championed by those who admired him.",
+      "rhetorical_move": "dual-mode-legacy framing (spiritual presence + institutional inheritance)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Dr. Ty's 20-year-prior bedside presence during Search for the 10 Outstanding Teachers interviews -- 'During several hours of interviews lasting two days, he was always present on a side chair, patiently listening but never intruding in the proceedings. At that time, he was the active chairman of his conglomerate, yet he found precious time to listen to the long interviews' -- the column's signature character-illustrating detail.",
+    "Dr. Ty's response to the Ayala BPI invitation: 'Please accept the offer. I fully trust you. I know you will never reveal any business secret, whether of Metrobank or of BPI or of anyone' -- the most compact single-quote demonstration of Dr. Ty's trust-based ethos.",
+    "Dr. Ty's home visit explaining the 10% commitment: 'God had been kind to him because all his business ventures have been successful. In thanksgiving, he wanted to donate 10 percent of his wealth to philanthropy' -- capturing the spiritual motivation behind the largest single philanthropic commitment.",
+    "Dr. Shoichiro Toyoda's matching P1 billion gift after CJ advised him of Dr. Ty's Toyota Motor Philippines School of Technology endowment -- a Japanese-PH philanthropic collaboration triggered by a single CJ communication.",
+    "Dr. Ty's appointment of CJ to succeed the late Cory Aquino as Metrobank Foundation board chair after Aquino's August 1, 2009 death -- the most institutionally significant succession recorded in the column."
+  ],
+  "target_audience": [
+    "Metrobank Group family and officers",
+    "PH business and philanthropic community",
+    "Catholic philanthropy network (Manila Cathedral, Nanjing Mary the Queen donors)",
+    "Outstanding Teachers Awardees and Metrobank Foundation network",
+    "Readers of CJ's eulogy and tribute columns"
+  ],
+  "register_markers": [
+    "eulogy / personal-tribute register",
+    "first-night-of-wake framing (deferential opening)",
+    "reference-to-website-for-full-eulogy ('cjpanganiban.com')",
+    "side-chair vignette as character-illustrating detail",
+    "direct-quote preservation (Dr. Ty's trust statement, philanthropy explanation)",
+    "matching-gift anecdote (Toyoda's P1B response)",
+    "scriptural closing ('dwelling place in heaven for the humble and meek')",
+    "dual-mode-legacy framing (spiritual + institutional)",
+    "humility-as-defining-trait portrait pattern (same pattern as Henry Sy in C70)"
+  ],
+  "decision_framework_signals": [
+    "applies comparative-norm framing to evaluate philanthropic generosity (10% vs 2% benchmark)",
+    "uses character-portrait through specific behavioral evidence rather than abstract praise",
+    "deploys faith-through-acts framing rather than declaratory religiosity",
+    "frames continuing-influence as both spiritual and institutional",
+    "treats single-vignette behaviors (side-chair presence, trust statement) as more revelatory than enumerated achievements"
+  ],
+  "one_paragraph_summary": "Panganiban summarizes the eulogy he delivered on the evening of November 24, 2018 -- the first night of Dr. George S. K. Ty's wake -- directing readers to cjpanganiban.com for the full text. He acknowledges hesitancy to speak first when the family and Metrobank Group officers had known Dr. Ty far longer, and chooses to share personal stories illustrating Dr. Ty's principles. He recounts meeting Dr. Ty about twenty years earlier when invited to join (and later chair) the board of judges for the Metrobank Foundation's 'Search for the 10 Outstanding Teachers,' during which Dr. Ty -- then active chairman of the conglomerate -- sat patiently on a side chair throughout multi-day interviews without ever intruding. After CJ's retirement from the judiciary, Dr. Ty invited him to become a Senior Adviser of Metrobank and a board member of the Metrobank Foundation, eventually succeeding the late Cory Aquino as board chair after her August 1, 2009 death. When Jaime Augusto Zobel de Ayala invited CJ to BPI, Dr. Ty told him directly: 'Please accept the offer. I fully trust you. I know you will never reveal any business secret, whether of Metrobank or of BPI or of anyone' -- the column's compact demonstration of trust-based ethos. He recounts Dr. Ty's home visit explaining his commitment to donate 10% of his wealth to philanthropy in thanksgiving for his business success -- an extraordinary commitment given that he was one of the country's richest, and that corporations typically give only a maximum 2% of net income. From this commitment, P1 billion initially established the nonprofit Toyota Motor Philippines School of Technology focused on science and technology to eradicate extreme poverty, with Dr. Shoichiro Toyoda (retired Toyota Japan chair) matching the gift with another P1 billion after CJ informed him. Despite never flaunting his faith, Dr. Ty built the Mary the Queen Catholic Church in Nanjing, China, in thanksgiving for the success of his Chinese Metrobank branches, and became one of the largest donors to the Manila Cathedral renovation. Panganiban closes with the scriptural assurance that 'our Father reserved a dwelling place in heaven for the humble and meek' and that Dr. Ty is now 'a free spirit capable of being with us on earth -- watching us and inspiring us to be the best of what we can be.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

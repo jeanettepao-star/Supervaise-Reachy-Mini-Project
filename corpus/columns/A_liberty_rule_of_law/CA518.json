@@ -1,0 +1,119 @@
+{
+  "id": "CA518",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 518,
+  "title": "Rights of illegitimate children",
+  "date": "2011-11-19",
+  "link": "https://opinion.inquirer.net/17607/rights-of-illegitimate-children",
+  "keywords": [
+    "illegitimate children rights",
+    "Revilla Law RA 9255",
+    "father's surname",
+    "support Family Code",
+    "inheritance legitime",
+    "Ramon Revilla Sr",
+    "Ramgen Bautista murder",
+    "legitimation adoption"
+  ],
+  "primary_topics": [
+    "Legal rights of illegitimate children: surname, support, and succession/inheritance under the Civil Code, Family Code, and Revilla Law (RA 9255)",
+    "CJ's moral position: there are no illegitimate children, only illegitimate parents",
+    "Practical application of these rights to the Revilla family situation following the Ramgen Bautista murder"
+  ],
+  "sub_topics": [
+    "Ramgen Bautista murder allegedly masterminded by siblings RJ and Ramona -- motive: unequal allowance distribution",
+    "Former Sen. Ramon Revilla Sr. (Jose Acuña Bautista) admitted 'around 80' children with ~16 women",
+    "Genelyn Magsaysay -- herself illegitimate daughter of former senator Genaro Magsaysay",
+    "CJ's moral position: 'no illegitimate children, only illegitimate fathers and mothers'",
+    "Civil Code and Family Code default: illegitimate children use mother's surname",
+    "Revilla Law (RA 9255, 2004) -- allows use of father's surname if expressly recognized: birth certificate signed by father, notarized document, or private written instrument",
+    "Express (not implied) recognition required -- Revilla children use 'Bautista' and 'Revilla' surnames",
+    "Support: everything indispensable for sustenance, dwelling, clothing, medical attendance, education, transportation -- in proportion to means and needs; education extends beyond age of majority",
+    "Brothers and sisters not legitimately related must also support each other (Family Code)",
+    "Succession/inheritance: illegitimate children are compulsory heirs once recognized",
+    "Legitime of recognized illegitimate child = one-half the legitime of legitimate child",
+    "Adopted and legitimated children have same rights as legitimate children",
+    "Legitimation: if parents could have married at time of conception (no legal impediment)"
+  ],
+  "signature_phrases": [
+    "there are really no illegitimate children; there are only illegitimate fathers and mothers",
+    "conceived and born out of wedlock",
+    "express (not implied) recognition",
+    "education can extend beyond the age of majority",
+    "in proportion to the resources or means of the giver and to the necessities of the recipient",
+    "brothers and sisters not legitimately related ... bound to support each other",
+    "one-half of the legitime of legitimate children",
+    "Revilla Law"
+  ],
+  "entities": {
+    "people": [
+      "Former Sen. Ramon Revilla Sr. (Jose Acuña Bautista -- admitted ~80 children with ~16 women)",
+      "Ramgen Bautista (murder victim)",
+      "RJ Bautista (Ramon Joseph -- arrested suspect)",
+      "Maria Ramona Bautista (Ramona -- fled to Hong Kong/Turkey)",
+      "Sen. Ramon 'Bong' Revilla Jr. (commented on Ramona's flight)",
+      "Genelyn Magsaysay (most publicly known Revilla partner; herself illegitimate daughter of former senator)",
+      "Former Senator Genaro Magsaysay (Genelyn's father)",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (implied for jurisprudence)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Civil Code of the Philippines -- illegitimate children use mother's surname",
+      "Family Code of the Philippines -- support and succession for illegitimate children",
+      "Republic Act No. 9255 -- Revilla Law (2004): allows father's surname with express recognition",
+      "Civil Register -- birth certificate as proof of recognition"
+    ],
+    "events": [
+      "Ramgen Bautista murder (shot and stabbed to death)",
+      "Ramona Bautista's flight to Hong Kong en route to Turkey",
+      "RJ Bautista and two others arrested"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "There are really no illegitimate children — only illegitimate fathers and mothers — because children bear no fault in their conception and birth; our law's labeling is a legal necessity, not a moral judgment on the children themselves.",
+      "rhetorical_move": "moral-correction of legal language: repositioning the 'illegitimate' label from children to parents as the proper moral locus of responsibility",
+      "confidence": "asserted as personal moral position"
+    },
+    {
+      "claim": "Under the Revilla Law, express recognition through a signed birth certificate, notarized document, or written instrument — not mere implied acknowledgment — is required for an illegitimate child to use the father's surname and thereby access surname, support, and succession rights.",
+      "rhetorical_move": "legal-precision clarification: distinguishing express from implied recognition as the operative legal trigger",
+      "confidence": "asserted as settled doctrine"
+    }
+  ],
+  "notable_anecdotes": [
+    "Former Sen. Revilla Sr. himself authored the 2004 law (RA 9255 — the 'Revilla Law') allowing illegitimate children to use the father's surname — deployed with a quiet irony: the senator whose own illegitimate children became the focus of a murder case was the very legislator who expanded their surname rights.",
+    "Genelyn Magsaysay being herself the illegitimate daughter of former Senator Genaro Magsaysay — creating a multi-generational illegitimacy narrative that CJ uses to show the pervasiveness of the legal issues he is discussing.",
+    "The text messages from Ramgen's cell phone revealing 'money rifts among the siblings' over unequal allowance distribution — used as the factual anchor that makes the abstract legal discussion of support proportionality and sibling support obligations immediately concrete and urgent."
+  ],
+  "target_audience": [
+    "Illegitimate children and their legal guardians seeking to understand their rights",
+    "Unmarried parents navigating recognition and support obligations",
+    "Lawyers advising on surname, support, and inheritance for recognized illegitimate children",
+    "Law students studying family law and succession",
+    "General civic readership following the Revilla family murder case"
+  ],
+  "register_markers": [
+    "moral-correction register ('no illegitimate children, only illegitimate fathers and mothers')",
+    "Family Code explainer register (support components, proportionality, sibling obligations)",
+    "Revilla Law self-reference irony (the same senator authored the surname law)",
+    "express-vs-implied recognition precision register",
+    "legitime one-half rule as the succession-law anchor",
+    "legitimation-conditions register (no legal impediment at time of conception)"
+  ],
+  "decision_framework_signals": [
+    "applies express-vs-implied recognition test as the threshold for surname and succession rights",
+    "uses proportionality principle (means of giver + needs of recipient) as the support-amount framework",
+    "applies legitime-half-rule as the inheritance quantum for recognized illegitimate children",
+    "uses legitimation-conditions test (no impediment at conception) as the upgrade pathway from illegitimate to legitimate status",
+    "frames moral-correction of legal language as a normative preliminary before doctrinal analysis"
+  ],
+  "one_paragraph_summary": "Using the Ramgen Bautista murder case -- allegedly masterminded by siblings RJ and Ramona, with money rifts over the ailing Sen. Revilla Sr.'s unequal allowance distribution as the theorized motive -- as his entry point, Panganiban surveys the legal rights of illegitimate children under Philippine law. He opens with his personal moral position: 'there are really no illegitimate children; there are only illegitimate fathers and mothers' who beget offspring outside valid marriage. Under the Civil Code and Family Code, illegitimate children use the mother's surname by default, but the 2004 Revilla Law (RA 9255 -- authored by the senator himself) allows use of the father's surname through express (not implied) recognition in a signed birth certificate, notarized document, or written instrument. Once expressly recognized, illegitimate children gain support rights (sustenance, dwelling, clothing, medical care, education extending beyond majority, transportation -- proportional to the giver's means and the recipient's needs), and siblings of any filiation must support each other under the Family Code. On succession, recognized illegitimate children are compulsory heirs entitled to a legitime equivalent to one-half of what a legitimate child receives -- they cannot be disinherited from their legitime. Adopted and legitimated children (whose parents had no legal impediment to marry at the time of their conception) enjoy the same rights as legitimate children.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

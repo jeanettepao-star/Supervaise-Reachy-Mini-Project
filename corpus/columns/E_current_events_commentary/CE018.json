@@ -1,0 +1,189 @@
+{
+  "id": "CE018",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 18,
+  "title": "AI and the freedom to ask",
+  "date": "2025-11-24",
+  "link": "https://opinion.inquirer.net/187708/ai-and-the-freedom-to-ask",
+  "keywords": [
+    "artificial intelligence",
+    "AI governance",
+    "chatbots",
+    "leadership",
+    "technology ethics"
+  ],
+  "primary_topics": [
+    "Second installment in AI-cluster (A34 → E19 → E18) -- freedom-to-ask + AI-governance-as-museum-curation framing",
+    "PLDT/MVP-sponsored 'Decision Intelligence and Supercreativity Leading in the Age of AI' seminar -- Cassie Kozyrkov keynote",
+    "Freedom-to-ask thesis -- no judgment + no humiliation + no awkwardness = genuinely new mode of knowledge access",
+    "Two-question framework -- how does AI reshape what matters + what does AI governance mean for leaders",
+    "Museum-curation analogy for AI governance -- Louvre + Google personalized-virtual-tour example"
+  ],
+  "sub_topics": [
+    "Cassie Kozyrkov 'beautiful' guest-speaker characterization + her 'ask ANY silly question' encouragement",
+    "Will-you-marry-me? probe -- Kozyrkov's instant 'Yes' vs chatbot's 'I can't' courteous refusal",
+    "Virtual-assistant forms-no-romantic-ties + ever-ready-to-chat distinction",
+    "No-death-stare + no-rebuke + no-awkwardness register for AI judgment-free interaction",
+    "Cal Newport 'Digital Minimalism' intentional-curation framing -- ask which tools add real value",
+    "Tension -- freedom-to-ask drives curiosity but risks shallow engagement when unchecked",
+    "AI-translation utility-vs-cultural-empathy tradeoff for tourists",
+    "Choice-architect leadership-as-cultural-design framing (cross-reference to E19)",
+    "'Culture eats strategy for breakfast' business adage",
+    "Museum-curation analogy -- curators optimize space + align with institutional goals + prioritize visitor experience",
+    "Which-algorithms-deliver-value-without-ethical-pitfalls + privacy-safeguards + features-enhance-decision-making AI-leader questions",
+    "Louvre Museum + Google personalized-virtual-tour AI deployment as positive example",
+    "Biased-algorithms misrepresentation/misinformation risk",
+    "Effective-governance-as-intentional-selection-and-thoughtful-integration (not restriction)",
+    "Courtroom-AI parallel -- access-to-evidence-meaningless-without-wisdom-to-weigh-it",
+    "AI-will-not-marry-me -- some questions still require human wisdom and sensitivity"
+  ],
+  "signature_phrases": [
+    "the freedom to ask is real",
+    "no such thing as a stupid question",
+    "no death stare, no rebuke, no awkwardness",
+    "AI cannot be a romantic partner (for now)",
+    "culture eats strategy for breakfast",
+    "AI governance is akin to museum curation",
+    "Which pieces tell our story?",
+    "intentional selection and thoughtful integration",
+    "having access to evidence is meaningless without the wisdom to weigh it properly",
+    "AI will definitely not marry me",
+    "leaders must evolve in tandem, not just in knowledge and creativity but also in judgment"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Cassie Kozyrkov (PLDT/MVP-seminar guest speaker, 'beautiful')",
+      "Cal Newport ('Digital Minimalism' author)"
+    ],
+    "institutions": [
+      "PLDT",
+      "MVP companies (PLDT-affiliated group)",
+      "Louvre Museum (Paris)",
+      "Google (Louvre's AI-tour collaborator)"
+    ],
+    "cases": [],
+    "laws_and_documents": [
+      "'Digital Minimalism' by Cal Newport"
+    ],
+    "events_and_artifacts": [
+      "'Decision Intelligence and Supercreativity Leading in the Age of AI' seminar (PLDT/MVP-sponsored)",
+      "Kozyrkov's 'Will you marry me?' guffaw-eliciting exchange",
+      "CJP's parallel chatbot 'I can't' query",
+      "Louvre + Google personalized virtual-tour AI-tool deployment"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Since retiring from the bench, CJP has witnessed how tech wonderfully reshapes the pursuit of knowledge and justice -- recently at a 'Decision Intelligence and Supercreativity Leading in the Age of AI' seminar sponsored by PLDT and other MVP companies, he heard that AI chatbots dive far beyond simple search engines: they converse, synthesize, and delve deeply.",
+      "rhetorical_move": "retirement-vantage-point + PLDT/MVP-seminar context + chatbot-beyond-search distinction opening",
+      "confidence": "asserted as eyewitness framing"
+    },
+    {
+      "claim": "Out of curiosity, CJP posed a whimsical query from guest speaker Cassie Kozyrkov, who encouraged the audience to ask ANY silly question -- 'Will you marry me?' Her response was an instant 'Yes' to the guffaws of the audience; CJP privately repeated the same question to a chatbot -- the answer was a courteous yet firm 'I can't,' since as a virtual assistant it forms no romantic ties but is ever ready to chat at any time.",
+      "rhetorical_move": "Kozyrkov-Yes vs chatbot-I-can't paired contrast + virtual-assistant-distinction framing",
+      "confidence": "asserted with vignette-anchored framing"
+    },
+    {
+      "claim": "The freedom to ask is real -- with AI, there is no such thing as a stupid question; it may not give us all the answers but is not designed to humiliate anyone. It allows us to ask without judgment, no death stare, no rebuke, no awkwardness -- this readiness to reply to any inquiry represents something genuinely new in how we access knowledge.",
+      "rhetorical_move": "no-stupid-question + no-death-stare-no-rebuke-no-awkwardness triplet + genuinely-new mode-of-access thesis",
+      "confidence": "asserted as titular thesis"
+    },
+    {
+      "claim": "Yet does the question itself matter? Consider the marriage proposal -- normally such questions take months or years of building trust and sensibility; asking risks one's credibility. AI cannot be a romantic partner (for now), so CJP's question was admittedly futile -- but as an assistant it can offer guidance on how to build good relationships, including love relationships.",
+      "rhetorical_move": "does-the-question-matter + futile-but-guidance-capable assistance-redefinition",
+      "confidence": "asserted with humble-acknowledgment qualification"
+    },
+    {
+      "claim": "The liberty to ask raises broader questions about guiding AI's integration into society -- CJP ponders two: How does AI reshape what matters to us? And what does AI governance mean for leaders?",
+      "rhetorical_move": "two-question framework pivot",
+      "confidence": "asserted as section-organizing thesis"
+    },
+    {
+      "claim": "AI channels our naturally curious minds -- historically, seeking knowledge was limited by access and the social fear of judgment; the internet lowered these barriers, and AI has removed them almost entirely. Unlike humans, AI tirelessly answers queries on anything, including the essentials, even relationships.",
+      "rhetorical_move": "internet-lowered-AI-removed-entirely barrier-removal chronology + tireless-anything inclusivity",
+      "confidence": "asserted as knowledge-access framing"
+    },
+    {
+      "claim": "Amid this convenience, we must ask: Does constant digital connectivity add more value than it takes away? As Cal Newport argues in 'Digital Minimalism,' we must adopt intentionality -- ask which tools add real value, cut low-value noise, and optimize for meaning. It is not about banning tech but curating it wisely.",
+      "rhetorical_move": "Newport 'Digital Minimalism' citation + intentionality-and-curation framing",
+      "confidence": "asserted with book-citation endorsement"
+    },
+    {
+      "claim": "Here lies the essential tension -- the freedom to ask drives curiosity; unchecked, it risks shallow engagement. AI translation offers immediate utility for tourists navigating foreign streets, yet it should not ignore the cognitive benefits and cultural empathy that come from actually learning a language.",
+      "rhetorical_move": "freedom-curiosity-vs-shallow-engagement tension + AI-translation-vs-language-learning concrete example",
+      "confidence": "asserted as tradeoff diagnosis"
+    },
+    {
+      "claim": "AI governance is akin to museum curation -- CJP previously highlighted the role of leaders as choice architects designing cultures that subtly influence behavior. As a business adage reminds us, 'culture eats strategy for breakfast,' stressing that even the smartest strategies fail without a supportive culture, and both depend on leaders who ask the right questions and know what truly matters.",
+      "rhetorical_move": "museum-curation analogy + choice-architect back-reference to E19 + culture-eats-strategy adage",
+      "confidence": "asserted with cross-column anchoring"
+    },
+    {
+      "claim": "Envision AI governance as museum curation -- curators are not overwhelmed by countless artifacts; they optimize space with creativity and precision, designing exhibits that align with institutional goals while prioritizing visitor experience. They ask: Which pieces tell our story? Similarly, AI leaders must curate tools, data, and processes -- which algorithms deliver value without ethical pitfalls? What safeguards ensure privacy? How do features enhance decision-making? Just as the Louvre Museum in Paris employs AI tools in collaboration with Google to analyze visitor engagement and create personalized virtual tours, leaders must balance technological capability with human values.",
+      "rhetorical_move": "curator-not-overwhelmed + which-pieces-tell-our-story + Louvre-Google personalized-tour exemplar",
+      "confidence": "asserted with concrete-exemplar anchoring"
+    },
+    {
+      "claim": "Yet we must acknowledge the risks -- while some use AI to enhance experience, others may have deployed biased algorithms that misrepresent or misinform. Effective governance is not restriction but intentional selection and thoughtful integration. Leaders must ask: What 'exhibits' in the AI ecosystem truly serve our mission and solve real problems? By curating wisely, we transform complexity into clarity.",
+      "rhetorical_move": "biased-algorithms risk + intentional-selection-not-restriction definitional framing + complexity-to-clarity closing",
+      "confidence": "asserted as governance-philosophy"
+    },
+    {
+      "claim": "AI grants not just the freedom to pose questions but opens myriad channels to exercise it -- as a retired jurist, CJP sees parallels to the courtroom: having access to evidence is meaningless without the wisdom to weigh it properly. Justice requires not just information but discernment about what truly matters.",
+      "rhetorical_move": "courtroom-parallel + evidence-access-meaningless-without-wisdom-to-weigh-it framing",
+      "confidence": "asserted with judicial-parallel framing"
+    },
+    {
+      "claim": "What truly matters is not just what we can ask but why and how we integrate the answers into meaningful action -- AI reshapes our relationship with knowledge by making it abundant; our challenge is ensuring this abundance leads to wisdom rather than distraction. AI will definitely not marry CJP -- some questions still require human wisdom and sensitivity. As these innovations unfold, leaders must evolve in tandem -- not just in knowledge and creativity but also in judgment.",
+      "rhetorical_move": "abundance-to-wisdom-not-distraction + marriage-question-recursion + leaders-must-evolve-in-judgment closing charge",
+      "confidence": "asserted as closing charge"
+    }
+  ],
+  "notable_anecdotes": [
+    "PLDT/MVP 'Decision Intelligence and Supercreativity Leading in the Age of AI' seminar attendance",
+    "Cassie Kozyrkov characterized as 'beautiful' guest speaker -- encouraging 'ANY silly question'",
+    "Will-you-marry-me? + Kozyrkov-instant-Yes guffaws-of-audience public moment",
+    "CJP's parallel private chatbot query + 'I can't' courteous refusal contrast",
+    "No-death-stare-no-rebuke-no-awkwardness triplet for AI judgment-free interaction",
+    "Cal Newport 'Digital Minimalism' citation -- banning-tech-vs-curating-wisely distinction",
+    "Culture-eats-strategy-for-breakfast business adage deployed in AI-governance context",
+    "Louvre Museum + Google AI personalized-virtual-tour as concrete AI-curation exemplar",
+    "Courtroom evidence-access-vs-wisdom-to-weigh-it judicial-parallel framing",
+    "AI-will-definitely-not-marry-me recursion to opening anecdote",
+    "Closing leaders-must-evolve-in-judgment charge"
+  ],
+  "target_audience": [
+    "Business leaders (choice-architect + culture-eats-strategy audience)",
+    "AI policymakers + technology-ethics practitioners",
+    "Curious general readers (no-stupid-question reassurance audience)",
+    "Tech-anxious older readers (CJP-as-fellow-curious-retired-jurist audience)",
+    "Museum + cultural-institution leaders (Louvre-Google exemplar audience)",
+    "Judiciary readers (courtroom-parallel audience)"
+  ],
+  "register_markers": [
+    "Personal-vignette opening -- Kozyrkov seminar + Will-you-marry-me anecdote",
+    "All-caps section-lead-ins ('OUT OF CURIOSITY', 'AI CHANNELS OUR NATURALLY CURIOUS MINDS', 'AI GOVERNANCE IS AKIN TO MUSEUM CURATION')",
+    "Recursion-to-opening-anecdote closing -- 'AI will definitely not marry me'",
+    "Museum-curation sustained analogy -- Which-pieces-tell-our-story + curate-tools-data-processes parallel",
+    "Cross-column anchoring -- explicit back-reference to E19 choice-architect framing",
+    "Cal Newport book-citation + Filipino-jurist-quoting-American-author register"
+  ],
+  "decision_framework_signals": [
+    "Freedom-to-ask thesis -- judgment-free knowledge access as a genuinely new mode",
+    "Two-question AI-integration framework -- what-AI-reshapes + what-governance-means-for-leaders",
+    "Newport-Digital-Minimalism intentionality -- which-tools-add-real-value + cut-low-value-noise + optimize-for-meaning",
+    "Choice-architect leadership-as-cultural-design (cross-column anchor to E19)",
+    "Culture-eats-strategy-for-breakfast business-adage anchoring",
+    "Museum-curation analogy -- optimize-space + align-with-institutional-goals + prioritize-visitor-experience",
+    "Which-algorithms-deliver-value-without-ethical-pitfalls + privacy-safeguards + features-enhance-decision-making AI-leader question-set",
+    "Intentional-selection-and-thoughtful-integration (not restriction) governance philosophy",
+    "Courtroom-evidence-wisdom-to-weigh-it judicial-parallel test",
+    "Abundance-to-wisdom-not-distraction closing-aspiration test"
+  ],
+  "one_paragraph_summary": "Second installment in the AI cluster (A34→E19→E18), opening with CJP's PLDT/MVP-sponsored 'Decision Intelligence and Supercreativity Leading in the Age of AI' seminar attendance -- featuring guest speaker Cassie Kozyrkov whose 'Will you marry me?' invitation got an instant 'Yes' from her while CJP's parallel chatbot query got a courteous 'I can't.' From this vignette he develops the freedom-to-ask thesis -- no death stare, no rebuke, no awkwardness -- as a genuinely new mode of knowledge access, then pivots to two organizing questions: how AI reshapes what matters and what governance means for leaders. He invokes Cal Newport's 'Digital Minimalism' for the intentionality principle (which tools add real value, cut low-value noise, optimize for meaning) and develops a sustained museum-curation analogy -- curators not overwhelmed by countless artifacts but asking 'Which pieces tell our story?' -- illustrated by the Louvre's Google-collaborated AI personalized virtual tours. Closing with a judicial-parallel that access to evidence is meaningless without wisdom to weigh it, he insists that the challenge is ensuring abundance leads to wisdom rather than distraction, and that leaders must evolve in tandem -- not just in knowledge and creativity but also in judgment.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,126 @@
+{
+  "id": "CE080",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 80,
+  "title": "Unity and solidarity amid crisis",
+  "date": "2017-07-02",
+  "link": "https://opinion.inquirer.net/105268/unity-solidarity-amid-crisis",
+  "keywords": [
+    "Marawi siege",
+    "unity solidarity",
+    "martial law",
+    "Maute group",
+    "VP Robredo",
+    "Cardinal Tagle",
+    "Archbishop Villegas",
+    "Mindanao rehabilitation"
+  ],
+  "primary_topics": [
+    "Defense of CJ Panganiban's 'soft' ML columns as deliberate unity-focused strategy",
+    "Ecumenical and cross-partisan calls for solidarity during the Marawi siege",
+    "Advocacy for shifting focus from legal-political debate to humanitarian relief and military support"
+  ],
+  "sub_topics": [
+    "Readers noting the 'softness' of CJ's prior two ML columns",
+    "June 18 column: ML validly declared at least for Marawi; petitioners served public interest",
+    "June 25 column: Congress's separate (not joint) sessions possibly less than faithful to Constitution; no fault-finding recommended",
+    "422 people killed (militants, soldiers, civilians) as of July 1; 200,000+ victims displaced",
+    "CNN description: 'the deadliest urban fighting in the Philippines'",
+    "VP Robredo leading opposition in visiting Marawi evacuees -- 'this is the time we need to show that we are one'",
+    "Robredo praising military effort against Maute group",
+    "Cardinal Tagle meditation on human capacity for violence",
+    "Archbishop Villegas pleading for hostage safety (Fr. Chito Suganob + ~200 civilians)",
+    "Muslim, Protestant, ecumenical groups joining the unity call",
+    "Ilocos Norte intramural spilling over to Congress, judiciary, provincial board",
+    "Relief, rehabilitation, family reunification, psychological healing as post-siege agenda",
+    "Comprehensive peace process with moderate Moro groups and NDF"
+  ],
+  "signature_phrases": [
+    "softness of my last two columns",
+    "win-win decision",
+    "precious opportunity",
+    "the deadliest urban fighting in the Philippines",
+    "this is the time we need to show that we are one",
+    "We ask ourselves, 'Why are humans capable of hurting other fellow human beings?'",
+    "seething intramural in Ilocos Norte",
+    "unity and solidarity will be indispensable even after the shooting is over"
+  ],
+  "entities": {
+    "people": [
+      "Rep. Edcel Lagman (lead ML petitioner)",
+      "Former Solicitor General Florin Hilbay (congressional review petitioner)",
+      "Vice President Leni Robredo",
+      "Cardinal Luis Antonio Tagle",
+      "Archbishop Socrates B. Villegas (CBCP president)",
+      "Fr. Teresito 'Chito' Suganob (Marawi vicar general, hostage)",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Congress of the Philippines",
+      "Liberal Party",
+      "Catholic Bishops' Conference of the Philippines (CBCP)",
+      "Al Markhazie Islamic Institute (Lanao del Norte)",
+      "National Democratic Front (NDF)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Proclamation No. 216 -- Mindanao martial law edict"
+    ],
+    "events": [
+      "Marawi siege (ongoing; 422 killed as of July 1, 2017)",
+      "VP Robredo visit to Marawi evacuees at Al Markhazie Islamic Institute",
+      "Ilocos Norte political intramural spilling into Congress and judiciary",
+      "CJ's prior columns: 'Win-win decision on martial law' (June 18) and 'Congressional review of ML' (June 25)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "CJ's deliberate 'softness' on ML — opining on validity while recommending no fault-finding — was a strategic choice to avoid divisive bickering and focus national energy on supporting the military, relieving 200,000 displaced civilians, and enabling future constitutional guidance.",
+      "rhetorical_move": "meta-commentary self-defense: explaining the rhetorical intent behind prior columns as unity-promotion rather than legal timidity",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Marawi crisis requires unity that transcends political and religious lines — as demonstrated by VP Robredo (opposition leader) visiting evacuees and praising the military, Cardinal Tagle meditating on violence, and Muslim, Protestant, and ecumenical groups all joining the call.",
+      "rhetorical_move": "cross-partisan and cross-religious coalition-building as normative argument for setting aside legal-political debate",
+      "confidence": "asserted through curated testimony of diverse voices"
+    },
+    {
+      "claim": "Even after the siege ends, unity and solidarity will be essential for relief, rehabilitation, family reunification, psychological healing, and the pursuit of a comprehensive peace process with moderate Moro groups and the NDF.",
+      "rhetorical_move": "post-crisis agenda-setting: expanding the unity call beyond military operations to long-term peace and rehabilitation",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "VP Robredo — head of the Liberal Party and primary opposition figure — visiting Marawi evacuees and declaring 'More than at any other time in our country today, this is the time we need to show that we are one,' while praising the military: CJ presents this as a paradigmatic example of unity transcending partisan lines.",
+    "Archbishop Villegas's plea for the safety of Fr. 'Chito' Suganob (vicar general of the Marawi prelature) and ~200 civilian hostages kidnapped by the rebels — adding a concrete human face to the abstract unity call and creating urgency beyond political discourse.",
+    "CJ's disclosure that he was responding to readers who noted the 'softness' of his ML columns — a rare instance of direct reader-response meta-commentary that reframes the prior two columns as a deliberate rhetorical strategy rather than a lapse in analytical rigor."
+  ],
+  "target_audience": [
+    "Readers who questioned the 'softness' of CJ's prior ML columns",
+    "Political actors being asked to set aside partisan rivalry during the Marawi crisis",
+    "Religious leaders and civil society organizations mobilizing for humanitarian relief",
+    "Congress and local government leaders distracted by the Ilocos Norte intramural",
+    "General civic readership of Inquirer Opinion"
+  ],
+  "register_markers": [
+    "reader-response meta-commentary register (defending prior columns' tone)",
+    "curated-testimony register (Robredo, Tagle, Villegas quoted as cross-partisan co-witnesses)",
+    "humanitarian-urgency register (422 dead, 200,000 displaced, CNN 'deadliest urban fighting')",
+    "post-crisis agenda-setting close (rehabilitation, peace process as sequel to military operations)",
+    "Ilocos Norte aside as a 'what not to do' contrast to the desired unity",
+    "ecumenical roll-call (Catholic, Muslim, Protestant, ecumenical) as inclusivity signal"
+  ],
+  "decision_framework_signals": [
+    "uses meta-commentary self-defense to retroactively explain the rhetorical framework of prior columns",
+    "applies cross-partisan/cross-religious coalition evidence as proof that unity is achievable",
+    "treats humanitarian cost (422 dead, 200,000 displaced) as the decisive argument for prioritizing relief over legal debate",
+    "frames long-term peace process (Moro groups, NDF) as the structural sequel to short-term military unity",
+    "uses the Ilocos Norte intramural as a negative exemplar of misplaced political energy"
+  ],
+  "one_paragraph_summary": "Responding to readers who noted the 'softness' of his previous two ML columns, Panganiban explains that his deliberate avoidance of blame -- opining on June 18 that ML was validly declared at least for Marawi while calling Lagman's petition a public service, and opining on June 25 that Congress's separate sessions were constitutionally questionable while recommending no fault-finding -- was a strategic choice to avoid divisive bickering and focus national energy on the Marawi crisis: 422 dead (militants, soldiers, civilians) as of July 1, 200,000+ displaced civilians, CNN calling it 'the deadliest urban fighting in the Philippines,' and ~200 hostages including Fr. 'Chito' Suganob held by the Maute rebels. He marshals cross-partisan and cross-religious voices for unity: VP Robredo visiting evacuees and praising the military despite being the opposition leader, Cardinal Tagle meditating on human violence, Archbishop Villegas pleading for hostage safety, and Muslim, Protestant, and ecumenical groups all joining the call. He closes by noting the Ilocos Norte political intramural as a misplaced distraction, calling on Congress and local leaders to redirect their energy toward Marawi relief, rehabilitation, and the long-term pursuit of a comprehensive peace process with moderate Moro groups and the National Democratic Front.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

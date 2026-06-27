@@ -1,0 +1,156 @@
+{
+  "id": "CA032",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 32,
+  "title": "Make America Great Alone",
+  "date": "2026-02-23",
+  "link": "https://opinion.inquirer.net/189939/make-america-great-alone",
+  "keywords": [
+    "rule of law",
+    "Trump",
+    "SCOTUS",
+    "tariffs",
+    "multilateralism"
+  ],
+  "primary_topics": [
+    "SCOTUS 6-3 invalidation of Trump's tariffs as unconstitutional usurpation of congressional taxing power -- CJ Roberts joined by Gorsuch + Barrett + the three liberals",
+    "Trump's pattern of defying judicial orders + withdrawing from treaties + undermining multilateral institutions",
+    "Resulting threats to liberty, prosperity, and rule of law both domestically and globally",
+    "Title-slogan inversion -- 'Make America Great Again' becomes 'Make America Great Alone' (transactional unilateralism surrendering global-commerce-hub leverage)",
+    "Cascading consequences for Philippine enforcement of rights in the West Philippine Sea"
+  ],
+  "sub_topics": [
+    "ICE detention of over 60,000 individuals, most without criminal convictions",
+    "New memo rescinding prior leniency on failure to apply for green card within a year as grounds for detention/deportation",
+    "Trump's defiance of court orders + judicial halts on immigration crackdown",
+    "Zigzagging tariff and trade-policy reversals -- 'imposed, reversed, reimposed, expanded, narrowed, threatened'",
+    "Environmental rollbacks + energy deregulation disrupting supply chains",
+    "Attacks on UN and humanitarian agencies undermining rules-based norms",
+    "US capture of the Venezuelan President",
+    "US military buildup posing potential strikes on Iranian nuclear sites",
+    "Implications for Philippine enforcement leverage in the West Philippine Sea",
+    "CJ Roberts polite-but-firm language contrasted with Trump's 'gutter verbiage' counterattack"
+  ],
+  "signature_phrases": [
+    "tariff terrorism",
+    "gutter verbiage",
+    "ashamed, absolutely ashamed",
+    "Trump has repeatedly trumped these ideals",
+    "tantrums",
+    "Make America Great Alone (not Again)",
+    "the language of rules was always a fiction",
+    "raw power is the only currency that matters",
+    "the infrastructure of democracy itself",
+    "the Constitution did not vest any part of the taxing power to the Executive Branch"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "President Donald Trump",
+      "Chief Justice John Roberts (Scotus)",
+      "Justice Neil Gorsuch (Scotus)",
+      "Justice Amy Coney Barrett (Scotus)",
+      "Justice Sonia Sotomayor (Scotus)",
+      "Justice Elena Kagan (Scotus)",
+      "Justice Ketanji Brown Jackson (Scotus)",
+      "Venezuelan President (recently captured by US forces, unnamed)"
+    ],
+    "institutions": [
+      "US Supreme Court (Scotus)",
+      "US Immigration and Customs Enforcement (ICE)",
+      "United Nations",
+      "UN humanitarian agencies"
+    ],
+    "cases": [
+      "Scotus 6-3 tariff-invalidation ruling (Feb 20 2026, per CJ Roberts) -- cross-reference to Learning Resources, Inc. v. Trump"
+    ],
+    "events": [
+      "Trump's tariff impositions on Canada, Mexico, China",
+      "US capture of the Venezuelan President (early 2026)",
+      "US military buildup in the Middle East posing potential strikes on Iranian nuclear sites"
+    ],
+    "places": [
+      "West Philippine Sea (cross-reference for PH enforcement leverage)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "SCOTUS voting 6-3 declared unconstitutional and 'smashed' Trump's tariff terrorism that upset the global order and the rule of law -- CJ Roberts (a conservative jurist) joined by conservatives Gorsuch and Barrett and the three liberals (Sotomayor, Kagan, Jackson) ruled that the US Constitution 'did not vest any part of the taxing power to the Executive Branch.'",
+      "rhetorical_move": "tariff-terrorism + smashed verbiage + verbatim-Roberts citation opening",
+      "confidence": "asserted with strong-rhetoric celebration"
+    },
+    {
+      "claim": "A defiant Trump typically used 'personal and gutter verbiage' (in contrast to CJ Roberts' polite but firm language) in his counterattack -- 'ashamed, absolutely ashamed' of certain Court members 'for not having the courage to do what is right.' With due respect, CJP believes the contrary -- these six justices, especially the three conservatives, had the courage and grit to defy the temperamental US President and restore confidence in the rule of law.",
+      "rhetorical_move": "Roberts-vs-Trump register-contrast + with-due-respect-contrary corrective",
+      "confidence": "asserted with respectful defiance"
+    },
+    {
+      "claim": "The rule of law is a foundational principle of democratic governance -- no individual, not even the country's chief executive, is above the law. It encompasses equality before the law, accountability through checks and balances, adherence to due process, and respect for judicial independence and international commitments. However, Trump has repeatedly 'trumped' these ideals -- sidelining legal/institutional constraints and undermining democratic processes and international commitments.",
+      "rhetorical_move": "rule-of-law definitional taxonomy + Trump-has-trumped wordplay critique",
+      "confidence": "asserted with explicit critique"
+    },
+    {
+      "claim": "The ongoing immigration crackdown defies court orders and judicial halts -- ICE detains over 60,000 individuals, the majority without criminal convictions, expected to worsen as a new memo rescinds prior policy not treating failure to apply for a green card within a year as grounds for detention/deportation. Judicial pushback underscores the tension -- while courts uphold the law, Trump's persistent defiance erodes public trust in institutions and causes security risks even to law-abiding citizens.",
+      "rhetorical_move": "ICE-60K-detention statistic + judicial-pushback-vs-Trump-defiance dialectic",
+      "confidence": "asserted with statistical anchoring"
+    },
+    {
+      "claim": "The unpredictability of a leader is a danger in and of itself -- Trump's impulsive zigzagging policy reversals on environmental rollbacks, energy deregulation, and trade measures have disrupted supply chains, raised prices, and invited retaliation. Tariffs have been 'imposed, reversed, reimposed, expanded, narrowed, and threatened' in a dizzying cycle that has made the phrase 'trade policy' functionally meaningless. His 'tantrums' resonate globally and confuse both friends and foes.",
+      "rhetorical_move": "unpredictability-as-danger + verb-cascade tantrum framing",
+      "confidence": "asserted with rhetorical cascade"
+    },
+    {
+      "claim": "Predictability is essential for leadership -- it builds trust, enables planning, and reduces conflict; without it, credibility is gravely impaired. Supporters praise this as decisive disruption, yet a closer look shows a deep erosion of the rule of law, economic uncertainty, and US isolation.",
+      "rhetorical_move": "predictability-as-essential + supporters-praise-but-closer-look corrective",
+      "confidence": "asserted as governance principle"
+    },
+    {
+      "claim": "Liberty, prosperity, and the rule of law are threatened simultaneously -- not as an unintended consequence but as the predictable result of elevating executive caprice and unchecked strategies above institutional restraint. The incessant attacks on international organizations, including the UN and humanitarian agencies, undermine rules-based norms as well as territorial integrity and resource protection. Early-2026 US capture of the Venezuelan President + Middle East military buildup posing potential strikes on Iranian nuclear sites subvert accepted sovereignty principles and signal a retreat from multilateralism -- weakening the international law that smaller states depend on. For the Philippines, these interventions threaten enforcement in the West Philippine Sea.",
+      "rhetorical_move": "triple-threat (liberty/prosperity/rule-of-law) simultaneity + Venezuela + Iran case-cascade + WPS implications",
+      "confidence": "asserted as cascading-consequence warning"
+    },
+    {
+      "claim": "Trump has proven that, after all, he is not promoting 'Make America Great Again' but 'Make America Great Alone' -- surrendering the leverage that comes from being the indispensable hub of global commerce. His transactional approach to trade and governance risks undermining the global economic order; when the US abruptly withdraws from treaties, mocks international organizations, and treats allies as adversaries, it does not merely weaken those institutions -- it tells every authoritarian on earth that the language of rules was always a fiction, and that raw power is the only currency that matters.",
+      "rhetorical_move": "title-slogan inversion + tells-every-authoritarian global-signal warning",
+      "confidence": "asserted as titular thesis"
+    },
+    {
+      "claim": "What is at stake is the infrastructure of democracy itself -- the rules, norms, institutions, and commitments that make disagreements possible without descending into chaos or tyranny. When a president abandons those commitments, it falls to the rest of humankind -- the lawmakers, the courts, the media, and above all, the citizens -- to defend them and to restore the foundations of justice.",
+      "rhetorical_move": "infrastructure-of-democracy + four-tier defender call-to-action closing",
+      "confidence": "asserted as civic-defender closing charge"
+    }
+  ],
+  "notable_anecdotes": [
+    "Trump's reaction declaring he was 'ashamed, absolutely ashamed' of certain SCOTUS members for not having the courage to do what is right for the country",
+    "CJ Roberts joined by two other conservatives (Gorsuch + Barrett) plus three liberals (Sotomayor + Kagan + Jackson) in the 6-3 ruling that 'the Constitution did not vest any part of the taxing power to the Executive Branch'",
+    "ICE detention of 60,000+ individuals, majority without criminal convictions, with new memo rescinding prior green-card-application leniency",
+    "Early-2026 US capture of the Venezuelan President",
+    "Massive US military buildup in the Middle East signaling potential strikes on Iranian nuclear sites"
+  ],
+  "target_audience": [
+    "Filipino readers tracking US politics and its global ripple effects",
+    "Philippine policymakers concerned about the rules-based order in the West Philippine Sea",
+    "Regional and international-law observers",
+    "American expatriate readers and Inquirer's diaspora following"
+  ],
+  "register_markers": [
+    "Opinion-column polemic with strong rhetorical contrasts (CJ Roberts' polite-firm language vs Trump's 'gutter verbiage')",
+    "Slogan-flip in title -- Great Again becomes Great Alone",
+    "All-caps section-lead-ins ('A DEFIANT TRUMP', 'THE UNPREDICTABILITY OF A LEADER', 'INDEED, LIBERTY, PROSPERITY, AND THE RULE OF LAW ARE THREATENED')",
+    "Closes with civic call to lawmakers + courts + media + citizens to defend the foundations of justice",
+    "Verb-cascade for tariff zigzag ('imposed, reversed, reimposed, expanded, narrowed, threatened')"
+  ],
+  "decision_framework_signals": [
+    "Rule of law as encompassing equality before the law + accountability through checks and balances + due process + judicial independence + respect for international commitments",
+    "Predictability as essential to leadership credibility, planning, and trust",
+    "Multilateralism and the rules-based order as the infrastructure of democracy",
+    "Indispensable-hub-of-global-commerce leverage surrendered through transactional unilateralism",
+    "Cascading-erosion framing -- when US abandons commitments it tells every authoritarian that rules are fiction",
+    "Lawmakers + courts + media + citizens as the four-tier defenders when an executive abandons institutional commitments"
+  ],
+  "one_paragraph_summary": "Panganiban celebrates the SCOTUS 6-3 ruling striking down Trump's tariffs as unconstitutional usurpation of congressional taxing power, with CJ Roberts joined by conservatives Gorsuch and Barrett plus the three liberal justices -- Sotomayor, Kagan, and Jackson. He contrasts the Court's polite firmness with Trump's gutter verbiage and praises the three conservatives for courage and grit. The column then catalogs Trump's wider pattern of defiance: ICE detentions exceeding 60,000 mostly without criminal convictions, defiance of judicial orders on deportation, zigzagging tariff reversals that have rendered 'trade policy' functionally meaningless, environmental rollbacks, attacks on UN agencies, the capture of the Venezuelan President, and a military buildup signaling strikes on Iranian nuclear sites. Panganiban concludes that Trump's transactional unilateralism is not 'Make America Great Again' but 'Make America Great Alone,' threatening Philippine enforcement leverage in the West Philippine Sea, and calls on lawmakers, courts, media, and citizens to defend the rules-based order.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

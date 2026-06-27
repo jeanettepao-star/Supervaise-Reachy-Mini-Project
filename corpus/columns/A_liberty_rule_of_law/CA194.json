@@ -1,0 +1,149 @@
+{
+  "id": "CA194",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 194,
+  "title": "Can presidents pardon themselves?",
+  "date": "2020-12-20",
+  "link": "https://opinion.inquirer.net/136289/can-presidents-pardon-themselves",
+  "keywords": [
+    "self-pardon",
+    "Trump pardon",
+    "Ford-Nixon pardon",
+    "verba legis",
+    "Risos-Vidal v. Comelec",
+    "Estrada pardon",
+    "Anti-Graft Law",
+    "separation of powers"
+  ],
+  "primary_topics": [
+    "Comparative pardon power: Philippines (post-final-conviction only) vs US (pre-charge, pre-conviction permitted)",
+    "Whether US presidents can pardon themselves -- no precedent, no jurisprudence",
+    "Trump's reported self-pardon contemplation and possible Pence-as-acting-president escapade",
+    "Famous US pardons: Ford-Nixon (1974), Carter-draft-dodgers (1977), Clinton-Roger (2000), Trump-Flynn (recent)",
+    "Philippine self-pardon impossibility -- Anti-Graft Law and Ethical Standards Law as additional barriers"
+  ],
+  "sub_topics": [
+    "PH rule: pardon only after conviction by final judgment",
+    "US rule: pardon possible even before conviction, even before charges; absolute, conditional, penalty-reduction, or fine waiver",
+    "Ford's Sept 8, 1974 pardon of Nixon -- covered all federal crimes 'committed or may have been committed' during term",
+    "US jurisprudence: acceptance of a pardon implies a confession of guilt",
+    "Carter's Jan 21, 1977 pardon of Vietnam War draft dodgers (unnamed thousands)",
+    "Clinton's January 2000 full clemency to actor-brother Roger Clinton for cocaine conviction",
+    "Trump's recent pardons led by Michael Flynn (former national security adviser); reportedly inclined to pardon lawyers who tried to overturn Biden's victory",
+    "Verba legis (literal) interpretation: 'grant' assumes one person giving and another receiving",
+    "Federal-vs-state pardon limit: state AGs in NY, CA, and others preparing post-Jan-20 suits",
+    "Pence-as-acting-president self-pardon caper as theoretical workaround",
+    "Doctrine of separation of powers: pardon as check on judicial excesses; presidential immunity from suits while in office",
+    "Arroyo's pardon of Estrada post-conviction -- Sandiganbayan plunder verdict with reclusion perpetua, public-office disqualification, and asset return",
+    "Risos-Vidal v. Comelec (Jan 21, 2015) -- SC held Estrada pardon, though 'hazily worded,' was absolute; restored civil-political rights; lifted disqualification; Estrada subsequently ran and won as mayor of Manila",
+    "Only PH self-pardon scenario CJ can imagine: pre-presidency conviction -- but Anti-Graft and Ethical Standards Laws bar using office for private benefit"
+  ],
+  "signature_phrases": [
+    "the answer is certainly 'No'",
+    "the answer is not as certain",
+    "Trump wants to forgive himself",
+    "preempt a lot of people and institutions",
+    "verba legis",
+    "the word 'grant' used by the US Constitution assumes one person giving and another person receiving",
+    "Machiavellian inclinations",
+    "this caper which could damn them both in history",
+    "though hazily worded, was absolute",
+    "a check on possible excesses of the judiciary",
+    "the wiles and whims of the governors",
+    "the only way I can think of"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "President Donald Trump",
+      "President-elect Joe Biden",
+      "President Richard Nixon (pardoned 1974)",
+      "Vice President / President Gerald Ford (pardoner)",
+      "President Jimmy Carter (draft-dodger pardon 1977)",
+      "President Bill Clinton (Roger Clinton pardon 2000)",
+      "Roger Clinton (cocaine conviction)",
+      "Michael Flynn (Trump pardonee, former NSA)",
+      "Vice President Mike Pence (hypothetical acting-president pardoner)",
+      "President Gloria Macapagal Arroyo (pardoner of Estrada)",
+      "Former President Joseph Estrada (pardonee)"
+    ],
+    "institutions": [
+      "United States Federal Bureau of Investigation (FBI)",
+      "Attorneys General of New York, California, and other US states",
+      "United States Congress / Senate",
+      "Sandiganbayan",
+      "Supreme Court of the Philippines",
+      "Commission on Elections (Comelec)"
+    ],
+    "cases": [
+      "Risos-Vidal v. Comelec (Jan 21, 2015)",
+      "Estrada plunder conviction (Sandiganbayan)"
+    ],
+    "laws_treaties": [
+      "US Constitution (pardon power except impeachment)",
+      "1987 Philippine Constitution (pardon-after-final-conviction)",
+      "Anti-Graft and Corrupt Practices Act (PH)",
+      "Ethical Standards Law (PH; Code of Conduct for Public Officials)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Under the Philippine Constitution, a president categorically cannot self-pardon because pardon may be granted only after a conviction by final judgment -- meaning incumbents cannot grant themselves pardons, commutations, or reprieves in advance.",
+      "rhetorical_move": "categorical-rule statement"
+    },
+    {
+      "claim": "Under the US Constitution, the self-pardon question is unresolved (no precedent, no jurisprudence), but a verba legis reading favors 'No': the word 'grant' assumes one person giving and another receiving -- implying the giver and the receiver cannot be the same person.",
+      "rhetorical_move": "textualist-construction analytical preference"
+    },
+    {
+      "claim": "Even if Trump succeeds in self-pardoning (or extracts a Ford-style pardon from Biden), the clemency would cover only federal offenses -- state AGs in New York, California, and other states are already preparing post-Jan-20 criminal and tax suits unaffected by any federal pardon.",
+      "rhetorical_move": "federalism-limitation observation"
+    },
+    {
+      "claim": "Trump's possible workaround -- taking leave from office before Jan 20 to enable VP Pence as acting president to grant him absolute pardon -- is theoretically available given Trump's 'Machiavellian inclinations,' but the question is whether 'his more sedate vice president [will] participate in this caper which could damn them both in history.'",
+      "rhetorical_move": "scenario-construction with character-prediction"
+    },
+    {
+      "claim": "The Risos-Vidal v. Comelec doctrine (Jan 21, 2015) confirms that even ambiguously worded pardons can be construed as absolute when intended to be so -- Arroyo's pardon of Estrada (post-plunder-conviction, post-reclusion-perpetua sentence) restored his civil-political rights and lifted his disqualification, enabling his mayoral run in Manila.",
+      "rhetorical_move": "comparative-jurisprudence anchoring"
+    },
+    {
+      "claim": "Even imagining a Philippine self-pardon scenario (a president with a preexisting pre-incumbency conviction), the Anti-Graft Law and Ethical Standards Law independently bar 'public officials from using or exercising their powers to benefit them privately' -- so the formal constitutional bar is reinforced by statutory anti-corruption barriers.",
+      "rhetorical_move": "redundant-barrier argument (Constitution + statute)"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Ford-Nixon pardon (Sept 8, 1974) and its broad coverage of all federal crimes 'committed or may have been committed' during Nixon's term, paired with the US-jurisprudence principle that 'the acceptance of a pardon implies a confession of guilt' -- used as the column's anchoring historical example.",
+    "Speculative Pence-as-acting-president self-pardon scenario -- 'But will his more sedate vice president participate in this caper which could damn them both in history?' -- a CJ-signature pairing of strategic-legal analysis with character assessment.",
+    "Risos-Vidal v. Comelec (Jan 21, 2015) ruling that Arroyo's Estrada pardon, 'though hazily worded, was absolute' -- restoring civil-political rights and enabling Estrada's later mayoral run in Manila, modeling how textual ambiguity gets construed in favor of the pardonee."
+  ],
+  "target_audience": [
+    "Constitutional-law scholars (comparative US-PH)",
+    "Filipino readers following the Trump transition",
+    "Lawyers and political observers tracking executive-clemency questions",
+    "Civic-minded readers concerned about presidential accountability",
+    "Future PH presidents and their counsel"
+  ],
+  "register_markers": [
+    "comparative-jurisdictional register (PH vs US side-by-side)",
+    "verba legis Latin-textualist marker",
+    "Machiavellian-character coloring of legal scenarios",
+    "speculative-workaround construction ('this caper which could damn them both')",
+    "redundant-barrier argument structure (constitutional + statutory)",
+    "Risos-Vidal as recurring PH-pardon-doctrine anchor",
+    "'hazily worded, was absolute' -- preserved verbatim as construction principle"
+  ],
+  "decision_framework_signals": [
+    "applies verba legis textualist construction to constitutional ambiguity",
+    "uses federalism-limitation analysis to defeat blanket-pardon strategy",
+    "deploys redundant-barrier argument (Constitution plus Anti-Graft plus Ethical Standards)",
+    "treats acceptance-of-pardon-implies-guilt as deterrent built into the institution",
+    "frames self-pardon scenarios via character-prediction overlay (Machiavellian disposition test)",
+    "applies pardon-as-check-on-judicial-excesses doctrine to limit self-pardon scope"
+  ],
+  "one_paragraph_summary": "Panganiban addresses whether presidents can pardon themselves -- categorically 'No' in the Philippines (where pardon requires conviction by final judgment), but unsettled in the United States (where presidents may pardon even before charges are filed, except in impeachment cases). He surveys famous US pardons: Ford's broad September 8, 1974 grant to Nixon covering all federal crimes 'committed or may have been committed' (paired with the US-jurisprudence rule that acceptance of a pardon implies confession of guilt); Carter's January 21, 1977 pardon of Vietnam draft dodgers; Clinton's January 2000 clemency to his actor-brother Roger; and Trump's recent pardons led by Michael Flynn, with reported inclinations to extend clemency to lawyers who tried to overturn Biden's victory. On the self-pardon question proper, a verba legis reading disfavors Trump: the word 'grant' in the US Constitution 'assumes one person giving and another person receiving,' implying giver and receiver cannot be the same. Even if Trump succeeds in self-pardoning (or extracts a Ford-style pardon from Biden), clemency would cover only federal offenses -- state AGs in New York, California, and other states are already preparing post-January 20 suits. CJ raises a possible workaround -- Trump taking leave from office before January 20 to let VP Pence, as acting president, grant absolute pardon -- but asks whether 'his more sedate vice president [will] participate in this caper which could damn them both in history.' In the Philippines, the categorical bar is reinforced by the Anti-Graft Law and Ethical Standards Law prohibiting officials from using office for private benefit; the only imaginable self-pardon scenario (a pre-incumbency conviction) would still run into these statutory barriers. He closes by recalling Risos-Vidal v. Comelec (January 21, 2015), in which the SC held that Arroyo's pardon of Estrada (post-plunder-conviction with reclusion perpetua, disqualification, and asset return) -- 'though hazily worded, was absolute' -- restored his civil-political rights and lifted his disqualification, enabling his successful mayoral run in Manila.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

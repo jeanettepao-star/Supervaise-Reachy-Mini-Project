@@ -1,0 +1,126 @@
+{
+  "id": "CA461",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 461,
+  "title": "Most powerful court in the world?",
+  "date": "2013-03-30",
+  "link": "https://opinion.inquirer.net/49657/most-powerful-court-in-the-world",
+  "keywords": [
+    "expanded certiorari jurisdiction",
+    "grave abuse of discretion",
+    "Philippine SC powers",
+    "judicial review",
+    "Marbury vs Madison",
+    "Garcia vs BOI",
+    "Dean Largo",
+    "judicial restraint economy"
+  ],
+  "primary_topics": [
+    "The Philippine SC as the most powerful court in the world due to its three unique judicial prerogatives",
+    "Dean Largo's challenge: is the expanded certiorari power still necessary in a post-ML constitutional order?",
+    "CJ's partial agreement: retain expanded certiorari for liberty protection but exercise utmost restraint on economic decisions"
+  ],
+  "sub_topics": [
+    "Dean Joan Largo (USC Cebu, youngest/only woman CJ Panganiban Professorial Chair holder)",
+    "Three judicial prerogatives: (1) traditional power to settle actual controversies; (2) judicial review; (3) expanded certiorari over grave abuse of discretion",
+    "Marbury vs Madison (Feb. 24, 1803): US SC asserted judicial review by implication, not from constitutional text",
+    "France's Cour de Cassation: no power to nullify statutes",
+    "Philippine SC as only court with expanded certiorari as constitutional 'duty' not just 'power'",
+    "Grave abuse definition: arbitrary, capricious, whimsical by passion or hostility -- evasion of positive duty",
+    "Garcia vs BOI (Nov. 9, 1990): SC voided BOI decision transferring petrochemical plant Bataan → Batangas",
+    "Lagman vs Ochoa (Dec. 10, 2010): SC nullified Truth Commission",
+    "Largo's argument: expanded certiorari not needed since constitutional guarantees now codified",
+    "Largo's democratic concern: unelected judges reversing elected officials",
+    "CJ Roberto Concepcion as proposer of expanded certiorari -- to guard against abusive President",
+    "CJ's agreement: Garcia vs BOI is glaring misuse -- economic/investment questions outside judicial expertise",
+    "Petrochemical project abandoned after SC intervention -- upset budding industrialization in early 1990s"
+  ],
+  "signature_phrases": [
+    "most powerful court in the world",
+    "weakest and least dangerous",
+    "eternal vigilance is the price of liberty",
+    "duty cannot be waived",
+    "who is to guard the guardians themselves?",
+    "torpedo economic decisions",
+    "unwelcome judicial intervention in a purely economic matter",
+    "not judicial in character"
+  ],
+  "entities": {
+    "people": [
+      "Dean Joan S. Largo (USC School of Law and Governance, Cebu; 38 years old, CJ Panganiban Chair holder)",
+      "CJ Roberto Concepcion (proposer of expanded certiorari in 1986 ConCom)",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "University of San Carlos (USC) School of Law and Governance, Cebu",
+      "US Supreme Court",
+      "France's Cour de Cassation",
+      "Board of Investments (BOI)",
+      "Foundation on Liberty and Prosperity (FLP)",
+      "Metrobank Foundation",
+      "Metro Pacific Investments Corp."
+    ],
+    "cases": [
+      "Marbury vs Madison (February 24, 1803) -- US SC asserted judicial review power",
+      "Garcia vs BOI (November 9, 1990) -- SC voided petrochemical plant transfer Bataan to Batangas",
+      "Lagman vs Ochoa (December 10, 2010) -- SC nullified Truth Commission"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution -- Art. VIII Sec. 1 expanded certiorari duty"
+    ],
+    "events": [
+      "Largo lecture at USC Audio-Visual Room packed with CA justices, trial judges, lawyers, business leaders, students",
+      "Abandonment of petrochemical project in early 1990s following Garcia vs BOI"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Philippine SC is the most powerful court in the world because it alone holds all three judicial prerogatives — settling controversies, judicial review, and expanded certiorari over grave abuse — with the third being a constitutional 'duty' that cannot be waived, unique globally.",
+      "rhetorical_move": "superlative-institutional-claim grounded in comparative constitutional survey (US, France, parliamentary systems)",
+      "confidence": "asserted as comparative legal fact"
+    },
+    {
+      "claim": "The expanded certiorari duty is still necessary to protect liberty against an abusive President — consistent with CJ Concepcion's original design intent — but Dean Largo's critique that it threatens democratic legitimacy by enabling unelected judges to reverse elected officials deserves serious attention.",
+      "rhetorical_move": "partial-endorsement of Largo's critique while preserving the liberty-protection rationale",
+      "confidence": "asserted with partial agreement"
+    },
+    {
+      "claim": "Garcia vs BOI is the most glaring misuse of expanded certiorari: choosing between Bataan and Batangas for a petrochemical plant, and whether its feedstock should be naphtha or LPG, are purely economic questions outside judicial expertise — the SC's unwanted intervention caused investors to abandon the project and disrupted PH industrialization.",
+      "rhetorical_move": "case-study-of-harm: concrete economic damage caused by judicial overreach as the argument for restraint",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Dean Largo as the youngest (38) and only woman among the 10 CJ Panganiban Professorial Chair holders — a demographic detail CJ highlights with evident pride, embedding the institutional recognition of a young female legal scholar from Cebu within his own endowed academic legacy.",
+    "The Garcia vs BOI petrochemical plant case — SC forcing the plant to stay in Bataan over investor preference for Batangas, with LPG vs naphtha feedstock as a judicial decision — leading directly to the abandonment of the entire project and disrupting PH industrialization in the early 1990s: a vivid case study of judicial overreach with measurable economic consequences.",
+    "CJ Concepcion's original rationale for the expanded certiorari as a guard against an intrusive and abusive President — disclosed as the framers' specific intent — giving CJ Panganiban his constitutional-history anchor for retaining the power while advocating for restraint in its exercise."
+  ],
+  "target_audience": [
+    "Legal academics and judges studying the comparative constitutional powers of supreme courts",
+    "Business and economic policy stakeholders concerned about judicial overreach in economic matters",
+    "Law students studying the expanded certiorari jurisdiction and its limits",
+    "Constitutional framers and reform advocates debating the scope of judicial review",
+    "General Inquirer readership interested in the SC's unique global constitutional position"
+  ],
+  "register_markers": [
+    "comparative-constitutional register ('most powerful court in the world' via three-prerogative analysis)",
+    "Dean-tribute register (youngest, only woman, Cebu — demographic specificity as institutional pride)",
+    "duty-vs-power distinction as constitutional precision marker",
+    "partial-endorsement register (agreeing with Largo on economic restraint, disagreeing on liberty protection)",
+    "case-study-of-harm register (Garcia vs BOI petrochemical abandonment as concrete cost of overreach)",
+    "CJ Concepcion as framers'-intent anchor for expanded certiorari"
+  ],
+  "decision_framework_signals": [
+    "applies three-prerogative comparative framework to establish PH SC's unique global constitutional position",
+    "uses constitutional-duty-vs-power distinction to argue the expanded certiorari cannot be waived",
+    "applies judicial-competence test: economic/investment location decisions are outside judicial expertise",
+    "uses concrete-harm attribution (petrochemical project abandonment) as evidence for economic restraint principle",
+    "frames CJ Concepcion's original intent as the authoritative design rationale for the liberty-protection function"
+  ],
+  "one_paragraph_summary": "Panganiban reports on Dean Joan Largo's lecture at USC Cebu -- one of the 10 holders of the CJ Panganiban Professorial Chair -- arguing that the Philippine SC is the most powerful court in the world: unlike most supreme courts (which have only the traditional power to settle controversies) and most parliamentary systems (where judicial review is vested in separate constitutional courts), the Philippine SC has all three judicial prerogatives, including the unique expanded certiorari jurisdiction to strike down grave abuse of discretion by any branch or instrumentality of government -- framed by the Constitution as a non-waivable 'duty.' He acknowledges Dean Largo's democratic concern that unelected judges reversing elected officials is problematic and that constitutional guarantees are now codified, making the third prerogative less necessary. CJ agrees on economic matters: Garcia vs BOI (1990), where the SC voided a BOI decision on petrochemical plant location and feedstock choice -- purely economic questions outside judicial expertise -- caused investors to abandon the project and disrupted PH industrialization, making it 'the most glaring example of the misuse of the expanded certiorari duty.' But on liberty, CJ insists the power must remain: CJ Concepcion proposed it specifically to guard against an intrusive and abusive President, and 'eternal vigilance is the price of liberty.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

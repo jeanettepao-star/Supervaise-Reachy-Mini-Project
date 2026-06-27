@@ -1,0 +1,158 @@
+{
+  "id": "CA172",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 172,
+  "title": "The law and PDP-Laban",
+  "date": "2021-09-05",
+  "link": "https://opinion.inquirer.net/143814/the-law-and-pdp-laban",
+  "keywords": [
+    "PDP-Laban factions Cusi vs Pacquiao",
+    "Alfonso Cusi president",
+    "Melvin Matibag secretary general",
+    "Aquilino Pimentel III chair",
+    "Manny Pacquiao president",
+    "Ron Munsayac executive director",
+    "LDP v. Comelec Feb. 24 2004",
+    "rights of registered political parties",
+    "election returns copies",
+    "major political party watchers",
+    "Sworn Information and Update Statement SIUS",
+    "Aug. 15 filing deadline",
+    "Comelec adjudication of party leadership",
+    "six accredited major political parties",
+    "dominant majority Liberal Party dominant minority",
+    "Aksyon Demokratiko Isko Moreno",
+    "Leni Robredo opposition coalition",
+    "Panfilo Lacson pork barrel nemesis"
+  ],
+  "primary_topics": [
+    "intra_party_disputes_and_comelec_jurisdiction",
+    "rights_and_privileges_of_registered_political_parties",
+    "2022_election_party_landscape",
+    "coalition_strategy_for_opposition"
+  ],
+  "sub_topics": [
+    "pdp_laban_cusi_vs_pacquiao_factions",
+    "sworn_information_and_update_statement_sius_aug_15_deadline",
+    "internal_resolution_first_then_comelec_adjudication",
+    "ldp_v_comelec_feb_24_2004_party_privileges_doctrine",
+    "election_returns_certificate_of_canvass_distribution",
+    "principal_watchers_dominant_coalitions_accredited_parties",
+    "per_voter_spending_advantage_for_party_endorsed_candidates",
+    "comelec_30_day_decision_window_after_sept_5",
+    "candidates_of_losing_faction_become_independent_candidates",
+    "isko_moreno_joining_aksyon_demokratiko",
+    "open_coalition_invitation_from_leni_robredo"
+  ],
+  "signature_phrases": [
+    "the law does not recognize 'factions,' it recognizes only political parties",
+    "the candidates of the losing 'faction' will be deemed independent candidates",
+    "Small wonder, Manila Mayor Isko Moreno, probably to prepare for a presidential run, joined the Aksyon Demokratiko",
+    "Is any accredited party willing to adopt Sen. Panfilo Lacson, the incorrigible nemesis of pork barrel?",
+    "Why is it legally important to be an official candidate of the PDP-Laban Party?",
+    "the rift--if not internally healed soon--will cause 'the party, its officers and members big, serious and conflicting claims'",
+    "candidates for national offices prefer to be endorsed by the dominant majority party"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "President Rodrigo Duterte (PDP-Laban chair, Cusi faction)",
+      "Energy Secretary Alfonso Cusi (Cusi faction president)",
+      "Melvin Matibag (Cusi faction secretary general)",
+      "Sen. Aquilino 'Koko' Pimentel III (Pacquiao faction chair)",
+      "Sen. Manny Pacquiao (Pacquiao faction president)",
+      "Ron Munsayac (Pacquiao faction executive director)",
+      "Romulo Macalintal (election lawyer cited)",
+      "VP Leni Robredo (Liberal Party leader, open to coalition)",
+      "Manila Mayor Isko Moreno (joined Aksyon Demokratiko)",
+      "Sen. Panfilo 'Ping' Lacson (described as 'incorrigible nemesis of pork barrel')"
+    ],
+    "cases": [
+      "LDP v. Comelec (Feb. 24, 2004) -- party privileges doctrine"
+    ],
+    "laws_treaties": [
+      "Election laws on dominant majority/minority and accredited major parties",
+      "Sworn Information and Update Statement (SIUS) filing requirement, Aug. 15 deadline"
+    ],
+    "institutions": [
+      "Partido Demokratiko Pilipino-Lakas ng Bayan (PDP-Laban)",
+      "Commission on Elections (Comelec)",
+      "Supreme Court (reviewing court)",
+      "Liberal Party (LP)",
+      "Aksyon Demokratiko"
+    ],
+    "places": [
+      "Philippines"
+    ],
+    "dates": [
+      "Aug. 15 (annual SIUS deadline)",
+      "Feb. 24, 2004 (LDP v. Comelec)",
+      "Oct. 1-8 (candidate list filing window)",
+      "May 2022 (target elections)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Intra-party disputes must first be resolved internally; if unresolved, the Comelec is legally mandated to determine the legitimate party officers, subject to Supreme Court review.",
+      "rhetorical_move": "Doctrinal pathway recital -- internal first, Comelec second, Court last.",
+      "confidence": "high -- straight statement of jurisprudential order"
+    },
+    {
+      "claim": "Legally, 'factions' do not exist -- only registered political parties do; candidates of the losing faction become independent candidates and lose party privileges.",
+      "rhetorical_move": "Categorical legal-purist correction of media usage.",
+      "confidence": "very high -- direct statutory framing"
+    },
+    {
+      "claim": "Party endorsement carries substantial operational privileges -- copies of election returns, principal watchers, certificate-of-canvass copies, election-returns watermarking watchers, and higher per-voter spending allowance -- that materially advantage party-endorsed candidates.",
+      "rhetorical_move": "Quotes LDP v. Comelec verbatim to inventory the privileges; lets the doctrine speak for the strategic implication.",
+      "confidence": "very high -- direct quotation of binding precedent"
+    },
+    {
+      "claim": "Manny Pacquiao's best play if PDP-Laban's leadership is settled against him is coalition with the dominant minority (likely LP) or one of the six accredited major parties -- not running as independent.",
+      "rhetorical_move": "Strategic political-advice register grounded in the statutory privileges just inventoried.",
+      "confidence": "medium-high -- explicit recommendation"
+    }
+  ],
+  "notable_anecdotes": [
+    {
+      "description": "Cusi faction offered Pacquiao a slot in its senatorial slate; Pacquiao summarily declined, with his faction touting him as their top presidential choice and open to coalition (but not joining) other parties.",
+      "purpose": "Concrete factional standoff that frames the column's legal-pathway exposition."
+    },
+    {
+      "description": "Election lawyer Romulo Macalintal's warning that an unhealed PDP-Laban rift will produce 'big, serious and conflicting claims as to who has the authority to call a national convention to nominate candidates, and to sign official documents.'",
+      "purpose": "Practitioner voice anchoring the doctrinal abstraction in operational consequences."
+    },
+    {
+      "description": "Manila Mayor Isko Moreno's move to join Aksyon Demokratiko -- read as preparation for a presidential run.",
+      "purpose": "Real-time evidence that aspirants are pricing in the privileges of an accredited party."
+    },
+    {
+      "description": "Closing rhetorical question: 'Is any accredited party willing to adopt Sen. Panfilo Lacson, the incorrigible nemesis of pork barrel?'",
+      "purpose": "Captures the asymmetry between candidate quality and party openness."
+    }
+  ],
+  "target_audience": {
+    "primary": "Politicians, party officers, and election lawyers tracking PDP-Laban's internal crisis",
+    "secondary": "Inquirer readers preparing to vote in May 2022",
+    "tertiary": "Law students studying intra-party adjudication and the privileges of registered political parties"
+  },
+  "register_markers": [
+    "Doctrinal exposition built around an extended verbatim quote from LDP v. Comelec",
+    "Strategic-counsel register at the close ('Pacquiao may opt to coalesce...')",
+    "Bracketed inventory of party privileges read as a single roll",
+    "Affectionate honorifics for politicians ('the incorrigible nemesis of pork barrel')",
+    "Procedural-pathway exposition (internal → Comelec → SC)",
+    "Title structured as a juxtaposition: law as constraint on the party"
+  ],
+  "decision_framework_signals": [
+    "Adjudication hierarchy: internal party resolution → Comelec determination → Supreme Court review",
+    "SIUS doctrine: both 'factions' must file a Sworn Information and Update Statement; Comelec selects the valid one",
+    "Party-privilege doctrine (LDP v. Comelec, 2004): registered political parties enjoy enumerated rights that 'redound to the benefit of [their] candidates'",
+    "Strategic implication: losing factions face independent-candidate disadvantages, motivating coalition over solo runs"
+  ],
+  "one_paragraph_summary": "Two PDP-Laban 'factions' -- one led by President Duterte as chair, Sec. Alfonso Cusi as president, and Melvin Matibag as secretary general; the other by Sen. Koko Pimentel as chair, Sen. Manny Pacquiao as president, and Ron Munsayac as executive director -- claim authority over the ruling party. CJ Panganiban lays out the jurisprudential pathway: internal resolution first, then Comelec adjudication (selecting between the two competing Sworn Information and Update Statements filed by the Aug. 15 deadline), then Supreme Court review. Crucially, he insists the law does not recognize 'factions' -- only registered political parties -- so candidates of the losing side become independent candidates. To explain why party affiliation matters operationally, he quotes at length from LDP v. Comelec (Feb. 24, 2004), inventorying the privileges that 'redound to the benefit of [a party's] candidates': election-return and certificate-of-canvass copies, principal watchers in precincts and at watermarking/printing sites, and -- most concretely -- higher per-voter spending allowances. From this doctrinal base he advances his strategic counsel: rather than running independent, Pacquiao should coalesce with the dominant minority (likely the Liberal Party, whose leader Leni Robredo has signaled openness) or one of the six accredited major parties. He closes with two real-time signals: Manila Mayor Isko Moreno has joined Aksyon Demokratiko (an accredited party, likely presidential prelude), and the rhetorical question of whether any accredited party would 'adopt Sen. Panfilo Lacson, the incorrigible nemesis of pork barrel.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

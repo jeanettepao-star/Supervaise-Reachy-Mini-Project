@@ -1,0 +1,105 @@
+{
+  "id": "CE111",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 111,
+  "title": "Titanic debate, titanic delay",
+  "date": "2011-10-08",
+  "link": "https://opinion.inquirer.net/14917/titanic-debate-titanic-delay",
+  "keywords": [
+    "judicial fiscal autonomy P2 billion vacancies",
+    "Abad realignment savings augmentation",
+    "600 vacant judgeships 30 percent",
+    "win-win P2 billion budget increase",
+    "Black Monday rallies judicial employees"
+  ],
+  "primary_topics": [
+    "Executive-judicial budget dispute over 600 vacant judgeships and 'savings' realignment",
+    "Why filling vacancies is systemically resisted and how it causes titanic judicial delay",
+    "Win-win solution: P2 billion budget increase + prohibition on realignment"
+  ],
+  "sub_topics": [
+    "Budget Secretary Abad: savings from 600 vacant judgeships should revert to treasury, not be realigned",
+    "Court Administrator Marquez: Abad's proposal violates fiscal autonomy",
+    "Budget mechanism: appropriation for 2,000+ judgeships released to SC; 600 vacant → 'savings'",
+    "CJ realigns savings to augment salaries, bonuses, allowances beyond original budget",
+    "Abad's critique: covert inflation of judicial pay; unfair vs offices without fiscal autonomy",
+    "Marquez's counter: fiscal autonomy clause bars reduction and mandates automatic release",
+    "Awkward scenario: SC would have to rule in its own favor on fiscal autonomy issue",
+    "Underlying problem: 600 vacancies = 30% of judgeships non-functional",
+    "JBC has been 'shy' in processing nominations because filling vacancies eliminates savings",
+    "During author's CJ term: vacancies reduced to 300; later went back to 600",
+    "70% functional judiciary = titanic delay for ordinary litigants",
+    "Win-win: increase judicial budget by P2B to cover raises transparently; prohibit realignment of vacancy appropriations; JBC immediately fills vacancies",
+    "PCCI kudos for accepting anti-corruption challenge from last Sunday's column"
+  ],
+  "signature_phrases": [
+    "titanic debate, titanic delay",
+    "covertly inflating judicial pay",
+    "shy in processing nominations",
+    "only 70 percent functional",
+    "win-win solution",
+    "plague of delayed justice",
+    "titanic word war ended totally"
+  ],
+  "entities": {
+    "people": [
+      "Budget Secretary Florencio Abad",
+      "Court Administrator Jose Midas Marquez",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Judicial and Bar Council (JBC)",
+      "Department of Budget and Management",
+      "Philippine Chamber of Commerce and Industry (PCCI)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution (fiscal autonomy clause for the judiciary)"
+    ],
+    "events": [
+      "Black Monday rallies by judicial employees",
+      "Budget dispute 2011"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The true underlying problem is not the fiscal-autonomy legal dispute but the titanic judicial delay caused by 600 unfilled judgeships -- a 30% capacity deficit driven by the incentive to preserve savings.",
+      "rhetorical_move": "reframing from legal dispute to systemic-delay consequence",
+      "confidence": "high"
+    },
+    {
+      "claim": "The win-win solution is to increase the judicial budget by P2 billion to cover pay enhancements transparently, prohibit realignment of vacancy appropriations, and direct the JBC to fill all 600 vacancies immediately.",
+      "rhetorical_move": "constructive three-part prescription",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "During the author's CJ term, vacancies were reduced from 600 to 300 -- but instead of further reducing after his retirement, the count went back up to 600, suggesting the systemic incentive to preserve savings is structural.",
+    "The awkward scenario: if the fiscal-autonomy lawsuit reaches the SC, the Court would have to rule in its own financial interest -- a textbook conflict-of-interest problem for the highest court.",
+    "The JBC being 'shy in processing nominations' because filling vacancies eliminates the savings pool -- an extraordinary institutional perverse incentive that directly causes the justice backlog."
+  ],
+  "target_audience": [
+    "Budget Secretary Abad and the executive branch",
+    "Supreme Court and JBC leadership",
+    "Congress allocating the judiciary budget",
+    "Litigants experiencing delayed justice"
+  ],
+  "register_markers": [
+    "Titanic wordplay (debate + delay)",
+    "Budget mechanism explanation",
+    "Author's own CJ-term data (300 vacancies)",
+    "Win-win three-part solution",
+    "PCCI kudos as closing footnote"
+  ],
+  "decision_framework_signals": [
+    "Address the perverse incentive: JBC must be directed to fill vacancies regardless of the savings impact",
+    "Separate the compensation problem from the vacancy problem: fund raises transparently in the budget, not through vacancy savings",
+    "Prohibit any future realignment of vacancy appropriations by law -- the fiscal-autonomy clause should not be a shield for pay manipulation"
+  ],
+  "one_paragraph_summary": "Budget Secretary Abad proposed that appropriations for 600+ vacant judicial positions should revert to the national treasury rather than be realigned by the CJ to augment judicial salaries -- Court Administrator Marquez objected that this violates the Constitution's judicial fiscal autonomy clause (no reduction; automatic and regular release). Panganiban accepts both arguments but identifies the true underlying problem: the reluctance to fill the 600 vacancies (about 30% of the judiciary) is driven by the incentive to preserve those savings for pay augmentation, and the result is a judiciary running at only 70% capacity, causing titanic delay for ordinary litigants. During his own CJ term, vacancies were reduced from 600 to 300; instead of continuing the reduction, they reverted to 600 after his retirement. He notes the awkward scenario: if the fiscal-autonomy suit reaches the SC, the Court would have to rule in its own financial favor. His win-win solution: increase the judicial budget by P2 billion to cover pay enhancements transparently; prohibit realignment of vacancy-appropriation savings by law; and direct the JBC to fill all 600 vacancies immediately -- ending the titanic word war, paying judicial personnel satisfactorily, and solving the underlying plague of delayed justice.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

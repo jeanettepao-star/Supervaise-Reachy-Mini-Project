@@ -1,0 +1,139 @@
+{
+  "id": "CA267",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 267,
+  "title": "Restoration of seniority and collegiality",
+  "date": "2018-09-02",
+  "link": "https://opinion.inquirer.net/115783/restoration-seniority-collegiality",
+  "keywords": [
+    "CJ De Castro appointment",
+    "shortest CJ tenure",
+    "seniority norm",
+    "Risos-Vidal Comelec",
+    "Estrada plunder conviction"
+  ],
+  "primary_topics": [
+    "CJ Teresita Leonardo-De Castro's appointment and record",
+    "Seniority norm and its institutional value",
+    "Division vs Banc caseload and the 'little chiefs' framework"
+  ],
+  "sub_topics": [
+    "Seniority as Duterte's stated reason for choosing De Castro over Carpio",
+    "Carpio's declining his nomination",
+    "De Castro's 42-day tenure as historically shortest (at time)",
+    "Comparison with CJ Pedro L. Yap's 72-day record",
+    "De Castro's over 10-year AJ service vs Yap's 2 years",
+    "First justice to serve as CJ and SBN Presiding Justice",
+    "SBN decision convicting Estrada of plunder (Sept. 12, 2007)",
+    "Risos-Vidal v. Comelec (Jan. 21, 2015) -- pardon restored Estrada's rights",
+    "De Castro's seven key votes as AJ",
+    "Press conference restoration-of-seniority-and-collegiality statement",
+    "Division chair assignments: SAJ chairs 2nd, second senior chairs 3rd, third senior chairs 1st as 'working chairman'",
+    "85% Divisions, 15% Banc caseload split",
+    "Three seniors as 'little chiefs' -- guide toward speedy, jurisprudence-consistent decisions",
+    "Danger of nonsenior/outsider appointees: strife and dissensions"
+  ],
+  "signature_phrases": [
+    "seniority and collegiality were restored",
+    "little chiefs",
+    "working chairman",
+    "85 percent of all cases are decided by the Divisions",
+    "seniority gains relevance in the choice of a new CJ",
+    "strife and dissensions arise",
+    "eons of row over some 4,915 hectares of land"
+  ],
+  "entities": {
+    "people": [
+      "CJ Teresita J. Leonardo-De Castro",
+      "SAJ Antonio T. Carpio",
+      "CJ Pedro L. Yap",
+      "Former President Joseph Estrada",
+      "Former President Gloria Macapagal Arroyo",
+      "CJ Maria Lourdes P. A. Sereno",
+      "President Rodrigo Duterte",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Sandiganbayan (SBN)",
+      "Commission on Elections (Comelec)",
+      "Judicial and Bar Council (JBC)"
+    ],
+    "cases": [
+      "SBN plunder conviction of Estrada (September 12, 2007, penned by De Castro as SBN Presiding Justice)",
+      "Risos-Vidal v. Comelec (January 21, 2015) -- Estrada's political rights restored via pardon",
+      "Republic v. Sereno (QW ouster)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (mandatory retirement at 70, Division/Banc structure)",
+      "Hacienda Luisita legislation (PARC)",
+      "Priority Development Assistance Fund (pork barrel) and DAP (declared unconstitutional)"
+    ],
+    "events": [
+      "CJ De Castro's appointment and 42-day tenure (Aug. 28 - Oct. 9, 2018)",
+      "Estrada's pardon by Arroyo",
+      "De Castro's press conference on Aug. 28 on seniority and collegiality restoration"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "President Duterte chose De Castro because she was the most senior of the three JBC nominees, and he could not have appointed Carpio because Carpio declined his nomination.",
+      "rhetorical_move": "factual attribution of appointment rationale",
+      "confidence": "high"
+    },
+    {
+      "claim": "De Castro will have the shortest CJ tenure -- 42 days -- though her 10-plus-year AJ service is far longer than CJ Yap's two years.",
+      "rhetorical_move": "record-keeping framing that contextualizes the brevity",
+      "confidence": "high"
+    },
+    {
+      "claim": "De Castro's record is notable: first justice to serve as both CJ and SBN Presiding Justice; her SBN plunder conviction of Estrada was landmark; Risos-Vidal later modified it by restoring his political rights via the Arroyo pardon.",
+      "rhetorical_move": "balanced record summary with self-referencing modification",
+      "confidence": "high"
+    },
+    {
+      "claim": "Seniority gains relevance precisely because three senior AJs serve as 'little chiefs' guiding 85% of cases decided in Divisions -- they are observed and rated as future CJ candidates.",
+      "rhetorical_move": "institutional-design justification of the seniority norm",
+      "confidence": "high"
+    },
+    {
+      "claim": "When nonseniors or outsiders are appointed and are estranged from the members and unable to lead, strife and dissensions arise.",
+      "rhetorical_move": "cautionary historical observation",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "De Castro's 42-day tenure -- shorter even than CJ Pedro Yap's prior record of 72 days -- but paired with over 10 years of AJ service, making her total judicial experience far more extensive.",
+    "De Castro as the only justice to have served as both Chief Justice and Sandiganbayan Presiding Justice -- the SBN decision convicting Estrada was a 211-page landmark; she later effectively modified it via Risos-Vidal.",
+    "The seven key votes tracked by the column: Hacienda Luisita land distribution, midnight judiciary appointments (Corona), pork barrel/DAP unconstitutionality, Marcos burial, Truth Commission strike-down, Mindanao martial law, and Sereno QW ouster.",
+    "De Castro's statement at her Aug. 28 press conference that 'seniority and collegiality were restored' by her appointment -- the column's title phrase."
+  ],
+  "target_audience": [
+    "Supreme Court justices and JBC members",
+    "President Duterte weighing the next CJ appointment",
+    "Bar associations and judicial reform advocates",
+    "Court watchers tracking the post-Sereno institutional repair",
+    "Law students and scholars on SC internal structure"
+  ],
+  "register_markers": [
+    "Precise tenure arithmetic with calendar dates",
+    "Numbered vote-record list for De Castro",
+    "Insider structural exposition (Divisions vs Banc, working chairman)",
+    "Percentage-weighted caseload analysis (85-15 split)",
+    "Collegial institutional tone",
+    "Closing prescriptive hope for team performance"
+  ],
+  "decision_framework_signals": [
+    "Weight seniority as a proxy for observed leadership in the Divisions -- the 'little chiefs' model",
+    "Track a CJ's lifetime judicial record (AJ years + CJ tenure) not just the CJ stint itself",
+    "Expect internal harmony when the seniority norm is respected; anticipate strife when it is not",
+    "Note that 85% of SC cases are decided by Divisions -- Division chairs matter as much as the CJ",
+    "Read a justice's seven key votes as the relevant record for succession evaluation",
+    "Frame post-conflict institutional repair (seniority + collegiality restored) as the baseline goal"
+  ],
+  "one_paragraph_summary": "Panganiban profiles the appointment of CJ Teresita J. Leonardo-De Castro -- chosen, the President explained, because she was the most senior of the three JBC nominees, while the most senior of all (SAJ Carpio) had declined his nomination. He notes that De Castro will have the historically shortest CJ tenure: 42 days (Aug. 28 - Oct. 9, 2018), shorter than CJ Pedro Yap's prior record of 72 days, though her over 10 years of AJ service dwarf Yap's two. He flags her unique distinction as the first justice to serve as both CJ and SBN Presiding Justice -- her 211-page SBN decision convicting Estrada of plunder (September 12, 2007) was landmark, later effectively modified by her own Risos-Vidal v. Comelec (January 21, 2015) that allowed Estrada to run for Manila mayor after President Arroyo's pardon restored his political rights. He lists her seven key AJ votes (Hacienda Luisita, midnight appointments enabling Corona, pork barrel/DAP unconstitutionality, Marcos burial, Truth Commission strike-down, Mindanao martial law upholding, and Sereno QW ouster) and notes her press conference statement that seniority and collegiality were restored. He explains the structural rationale: 85% of SC cases are decided by Divisions (not the Banc), so the three senior AJs serve as 'little chiefs' -- the SAJ chairs the 2nd Division, the second senior the 3rd, and the third senior is the 'working chairman' of the 1st -- and they are observed, rated, and weighed as future CJs. When nonseniors or outsiders are appointed and cannot lead, strife and dissensions arise. He closes with the hope that the restored collegiality will help the team reduce the court's docket backlog.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

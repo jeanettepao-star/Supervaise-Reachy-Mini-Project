@@ -1,0 +1,162 @@
+{
+  "id": "CE039",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 39,
+  "title": "Wrong time for Cha-cha",
+  "date": "2023-01-23",
+  "link": "https://opinion.inquirer.net/160496/wrong-time-for-cha-cha",
+  "keywords": [
+    "Charter change / Cha-cha",
+    "House committee on constitutional amendments",
+    "Rep. Rufus B. Rodriguez invitation",
+    "Santiago v. Comelec (1997) / Lambino v. Comelec (2006)",
+    "Bayanihan Constitution (Puno commission)",
+    "Bongbong Marcos's silence on Cha-cha",
+    "change of leaders → change in leaders"
+  ],
+  "primary_topics": [
+    "Why this is the wrong time for Cha-cha -- public weariness and political vacuum",
+    "Imperfections in the 1987 Constitution that nonetheless deserve revisiting at the right time (national territory, party-list, foreign restrictions on natural resources)",
+    "Historical pattern: no Charter change without presidential backing (Quezon, Roxas, Marcos Sr., Cory Aquino, Ramos, Arroyo, Estrada, Duterte)",
+    "President Bongbong Marcos's apparent disinterest in Cha-cha",
+    "True remedy: change of leaders + change in leaders -- change from the inside out, of hearts and values"
+  ],
+  "sub_topics": [
+    "Invitation from Rep. Rufus B. Rodriguez (chair, House committee on constitutional amendments) for the Jan. 26 public hearing",
+    "Three questions posed: necessity, mode of amendment, specific proposed amendments",
+    "Personal decline due to schedule and doctor's advice; CJ answers via the column",
+    "Public fatigue: 'mere mention of Cha-cha turns them off completely'",
+    "Imperfect provisions: verbose; vague; awkwardly phrased",
+    "US Constitution as the world's oldest (Sept. 17, 1787; ratified June 21, 1788); amended 27 times; still imperfect (electoral-college mismatches -- Bush/Gore, Trump/Clinton)",
+    "1935 amendments under Quezon and Roxas; 1973 Constitution and amendments under Marcos Sr.; 1987 Constitution under Cory Aquino",
+    "Ramos and Arroyo attempts via people's initiative; struck down in Santiago v. Comelec (March 19, 1997) and Lambino v. Comelec (Oct. 25, 2006)",
+    "Estrada's Preparatory Commission on Constitutional Reforms (chaired by CJ Andres R. Narvasa) -- unacted upon due to Estrada's ouster by Edsa II",
+    "Duterte's Consultative Commission (chaired by CJ Reynato S. Puno) drafting the 'Bayanihan Constitution' -- went nowhere in Congress",
+    "Bongbong Marcos: no mention of Cha-cha in pre-election speeches or SONA last July; without his enthusiastic support, no revision is possible",
+    "Diagnosis: the real problem is officials subverting institutions",
+    "Antinomic 'more / less' value list: more patriotism, less formalism; more delicadeza, less legalism; more substance, less rhetoric; more action, less talk; more dedication to duty, less posturing; more economics, less politics; more truth, less duplicity; more ethics, less image-building; more integrity, less bigotry"
+  ],
+  "signature_phrases": [
+    "I THANK THE ESTEEMED CONGRESSMAN FOR HIS INVITATION",
+    "this is not the right time to discuss Charter change",
+    "the mere mention of Cha-cha turns them off completely",
+    "at the right time, in the right way, for the right reasons, and by the right persons/entities",
+    "NO CONSTITUTION IN THE WORLD IS PERFECT",
+    "no Charter change is possible without their intervention and support",
+    "Bayanihan Constitution",
+    "Without his enthusiastic support, no constitutional revision is possible",
+    "useless divisionary chatter",
+    "what we need is not just a change of leaders, but a change in our leaders",
+    "A change from the inside out, a change of hearts, a change of values",
+    "courageous, competent, ethical, and patriotic leaders",
+    "more patriotism, less formalism; more delicadeza, less legalism",
+    "more substance, less rhetoric; more action, less talk",
+    "more economics, less politics; more truth, less duplicity",
+    "more ethics, less image-building; more integrity, less bigotry"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Rep. Rufus B. Rodriguez (chair, House committee on constitutional amendments; Cagayan de Oro)",
+      "Manuel L. Quezon, Manuel A. Roxas (1935 Charter amendments)",
+      "Ferdinand E. Marcos Sr. (1973 Constitution + amendments)",
+      "Corazon C. Aquino (1987 Charter)",
+      "Fidel V. Ramos, Gloria Macapagal Arroyo (people's-initiative attempts)",
+      "Joseph Estrada (Preparatory Commission on Constitutional Reforms)",
+      "CJ Andres R. Narvasa (chair of Estrada's PCCR)",
+      "Rodrigo Duterte (Consultative Commission for federalism)",
+      "CJ Reynato S. Puno (chair of Duterte's Consultative Commission)",
+      "Bongbong Marcos / Ferdinand Marcos Jr. (incumbent president)",
+      "George W. Bush, Al Gore, Donald Trump, Hillary Clinton (US electoral-college examples)"
+    ],
+    "institutions": [
+      "House of Representatives -- committee on constitutional amendments",
+      "Supreme Court of the Philippines",
+      "Commission on Elections (Comelec)",
+      "Preparatory Commission on Constitutional Reforms (PCCR, Estrada era)",
+      "Consultative Commission (Duterte era)",
+      "United States Constitution / Electoral College (referenced)"
+    ],
+    "cases": [
+      "Santiago v. Comelec (March 19, 1997)",
+      "Lambino v. Comelec (Oct. 25, 2006)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution of the Philippines",
+      "1935 Constitution and its amendments",
+      "1973 Constitution and its amendments",
+      "US Constitution (Sept. 17, 1787 / ratified June 21, 1788)"
+    ],
+    "events": [
+      "Public hearing on Jan. 26, 2023 of the House committee on constitutional amendments",
+      "Bongbong Marcos's SONA (July 2022, no mention of Cha-cha)",
+      "Edsa People Power II ousting Estrada"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "This is the wrong time for Cha-cha -- the public is so wary of past attempts that the topic itself 'turns them off completely.'",
+      "rhetorical_move": "public-fatigue diagnosis",
+      "confidence": "asserted ('I believe')"
+    },
+    {
+      "claim": "The Constitution is imperfect (verbose, vague, awkwardly phrased) and certain provisions deserve revisiting -- national territory, party-list, foreign restrictions on natural resources -- but only 'at the right time, in the right way, for the right reasons, and by the right persons/entities.'",
+      "rhetorical_move": "right-time/right-way conditional concession",
+      "confidence": "personal view ('IMHO')"
+    },
+    {
+      "claim": "No revision of the Charter is historically possible without presidential backing -- every successful change has had the incumbent president's intervention and support.",
+      "rhetorical_move": "historical-pattern inductive argument",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "President Bongbong Marcos has shown no interest in Cha-cha -- not in his pre-election speeches or in his July SONA -- so without his enthusiastic support 'no constitutional revision is possible' and any further discussion would be 'useless divisionary chatter.'",
+      "rhetorical_move": "executive-silence dispositive of feasibility",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The right answer to joblessness, high prices, and agonizing poverty is not Cha-cha but changing the officials who subvert our institutions -- both a change of leaders and a change in our leaders, 'from the inside out, a change of hearts, a change of values.'",
+      "rhetorical_move": "reframing the problem from constitutional to moral-institutional",
+      "confidence": "central thesis"
+    },
+    {
+      "claim": "We need 'more patriotism, less formalism; more delicadeza, less legalism; more substance, less rhetoric; more action, less talk; more dedication to duty, less posturing; more economics, less politics; more truth, less duplicity; more ethics, less image-building; more integrity, less bigotry.'",
+      "rhetorical_move": "antinomic civic-virtue catalogue ('more / less' refrain)",
+      "confidence": "imperative"
+    }
+  ],
+  "notable_anecdotes": [
+    "Rep. Rufus B. Rodriguez's invitation to the Jan. 26 public hearing -- and CJ's decline due to schedule and doctor's advice, replaced by this written answer.",
+    "US Constitution comparison: oldest in the world (Sept. 17, 1787; ratified June 21, 1788), 27 amendments, yet still imperfect -- Bush/Gore and Trump/Clinton both elected with fewer popular votes.",
+    "Catalogue of failed Cha-cha efforts: Ramos and Arroyo (people's initiative, struck down in Santiago and Lambino); Estrada's PCCR (Narvasa-chaired) overtaken by Edsa II; Duterte's Bayanihan Constitution (Puno-chaired) that 'did not see any light in Congress.'",
+    "The 'more / less' civic-virtue litany as the closing rhetorical signature."
+  ],
+  "target_audience": [
+    "Rep. Rufus B. Rodriguez and the House committee on constitutional amendments",
+    "Cha-cha advocates in Congress and civil society",
+    "Constitutional-law scholars and political-reform analysts",
+    "Civic-minded Inquirer readers wary of Cha-cha attempts",
+    "President Bongbong Marcos and his advisers"
+  ],
+  "register_markers": [
+    "epistolary register (column as a written answer to a congressional invitation)",
+    "respectful-decline opening ('I THANK THE ESTEEMED CONGRESSMAN')",
+    "comparative-constitutional register (US, with electoral-college examples)",
+    "historical-pattern enumeration (Quezon → Marcos Sr. → Cory → Ramos → Arroyo → Estrada → Duterte → BBM)",
+    "civic-pedagogical close",
+    "antinomic refrain ('more X, less Y') as climactic rhetorical signature",
+    "'IMHO' marker for personal modulated claims"
+  ],
+  "decision_framework_signals": [
+    "right-time / right-way / right-reasons / right-persons four-fold conditional test for constitutional revision",
+    "historical-pattern induction: presidential backing as necessary condition for Cha-cha",
+    "executive-silence as dispositive of feasibility",
+    "reframing test: when a proposed solution is the wrong solution, identify the right problem",
+    "antinomic value catalogue as a leadership-formation rubric"
+  ],
+  "one_paragraph_summary": "Invited by Rep. Rufus B. Rodriguez (chair of the House committee on constitutional amendments) to a Jan. 26 public hearing 'consulting' him on the necessity, mode, and substance of Charter change, Panganiban -- citing schedule and doctor's advice -- declines personally and answers in writing. He believes this is 'not the right time' for Cha-cha: the public has grown so wary of past attempts that the very mention turns them off. He concedes the 1987 Constitution is imperfect -- verbose, vague, awkwardly phrased, with provisions on national territory, the party-list system, and foreign restrictions on natural resources that deserve revisiting 'at the right time, in the right way, for the right reasons, and by the right persons/entities.' He reminds readers that no Charter in the world is perfect (the US Constitution, oldest at September 17, 1787, ratified June 21, 1788, amended 27 times, still permits Electoral-College results where Bush and Trump won despite fewer popular votes than Gore and Clinton), and that historically no revision succeeds without presidential backing -- from Quezon and Roxas (1935 amendments) to Marcos Sr. (1973 Constitution) and Cory Aquino (1987 Constitution). Subsequent attempts have failed: Ramos and Arroyo's people's-initiative drives were struck down in Santiago v. Comelec (March 19, 1997) and Lambino v. Comelec (Oct. 25, 2006); Estrada's Preparatory Commission on Constitutional Reforms under CJ Andres R. Narvasa was overtaken by his Edsa II ouster; and Duterte's Consultative Commission under CJ Reynato S. Puno drafted a sweeping 'Bayanihan Constitution' that went nowhere in Congress. President Bongbong Marcos has shown no interest in Cha-cha -- not in his pre-election speeches, not in his July SONA -- so without his enthusiastic support 'no constitutional revision is possible' and further discussion would be 'useless divisionary chatter.' The right answer to joblessness, high prices, and agonizing poverty is not Cha-cha but 'changing the officials who subvert our institutions' -- both a change of leaders and a change in our leaders, 'from the inside out, a change of hearts, a change of values.' He closes with the antinomic civic-virtue catalogue: more patriotism, less formalism; more delicadeza, less legalism; more substance, less rhetoric; more action, less talk; more dedication to duty, less posturing; more economics, less politics; more truth, less duplicity; more ethics, less image-building; more integrity, less bigotry.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

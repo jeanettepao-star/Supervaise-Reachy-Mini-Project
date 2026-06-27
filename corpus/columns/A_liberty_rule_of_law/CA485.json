@@ -1,0 +1,135 @@
+{
+  "id": "CA485",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 485,
+  "title": "Three reforms to speed up justice",
+  "date": "2012-09-15",
+  "link": "https://opinion.inquirer.net/36810/three-reforms-to-speed-up-justice",
+  "keywords": [
+    "Judicial Affidavit Rule Carpio Abad",
+    "591 vacant trial courts Drilon",
+    "judicial compensation RTC P128,198",
+    "FLP professorial chairs Sept 18 launch",
+    "Ampatuan cases special attention"
+  ],
+  "primary_topics": [
+    "Three interrelated justice-reform initiatives: Judicial Affidavit Rule, vacancy filling, and compensation stabilization",
+    "Drilon's discovery of 591 vacant funded trial courts",
+    "The private meeting hosted by the author to secure executive-legislative funding commitment"
+  ],
+  "sub_topics": [
+    "Judicial Affidavit Rule promulgated Sept. 4; effective Jan. 1, 2013",
+    "Committees headed by JJ Carpio and Abad",
+    "Witnesses submit affidavits in known language + translation; adverse party retains cross-examination right",
+    "Applies to all civil cases + criminal cases max 6-year penalty OR accused's agreement",
+    "Quezon City pilot: two-thirds time reduction in direct testimonies",
+    "Comparison to prosecutor's preliminary investigation: no cross-exam, faster",
+    "591 vacant courts (26% of organized trial courts); funded but money realigned for sitting judge compensation",
+    "SAJ (Special Allowance for Judges) from docket fees -- source of past friction between SC and Malacañang/Congress",
+    "Sereno (as JBC chair) agreed to hasten short lists for all vacancies -- fully functioning by 2015",
+    "Private meeting hosted by author: Budget Sec Abad + Drilon + Rep. Abaya agreed to stabilize compensation",
+    "RTC judges: P128,198.66/month (P73,099 basic + P29,766.66 allowances + P25,333 SAJ)",
+    "MeTC judges: P119,209.66/month",
+    "MTC judges: P110,925.33 to P102,612.33/month",
+    "Three reforms interrelated: first shortens trial time, second adds 25%+ more judges, third raises quality via stable pay",
+    "Stable pay helps judges resist indecent proposals",
+    "FLP launch Sept. 18 -- 10 CJ Panganiban Professorial Chairs, Metrobank Auditorium"
+  ],
+  "signature_phrases": [
+    "Judicial Affidavit Rule",
+    "reducing by about two-thirds the time used for presenting the testimonies",
+    "591 trial courts",
+    "savings... realigned",
+    "SAJ",
+    "fully functioning judiciary by 2015",
+    "resist indecent proposals from litigants",
+    "good beginnings"
+  ],
+  "entities": {
+    "people": [
+      "Justice Antonio T. Carpio (Judicial Affidavit Rule committee)",
+      "Justice Roberto A. Abad (Judicial Affidavit Rule committee)",
+      "Sen. Franklin Drilon (Senate finance committee chair)",
+      "CJ Maria Lourdes P. A. Sereno (JBC chair)",
+      "Budget Secretary Florencio 'Butch' Abad",
+      "Rep. Joseph Emilio Abaya (House appropriations committee chair)",
+      "Artemio V. Panganiban (author; hosted private meeting)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Judicial and Bar Council (JBC)",
+      "Senate (finance committee)",
+      "House of Representatives (appropriations committee)",
+      "Department of Budget and Management",
+      "Foundation for Liberty and Prosperity (FLP)",
+      "Metrobank Foundation"
+    ],
+    "cases": [
+      "Ampatuan multiple-murder cases (pending)"
+    ],
+    "laws_treaties": [
+      "Judicial Affidavit Rule (promulgated September 4, 2012; effective January 1, 2013)"
+    ],
+    "events": [
+      "Judicial Affidavit Rule promulgation (September 4, 2012)",
+      "Drilon's Senate hearing revealing 591 vacancies",
+      "Private meeting hosted by author (Abad, Drilon, Abaya)",
+      "FLP Professorial Chairs launch (September 18, 2012)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Judicial Affidavit Rule -- shortcutting direct examination -- is a proven reform: the Quezon City pilot reduced by two-thirds the time for witness testimony.",
+      "rhetorical_move": "evidence-based endorsement of the rule",
+      "confidence": "high"
+    },
+    {
+      "claim": "591 funded but vacant trial courts represent 26% of the organized trial court system -- filling them would increase judicial capacity by more than 25%.",
+      "rhetorical_move": "quantified vacancy argument",
+      "confidence": "high"
+    },
+    {
+      "claim": "The private meeting the author hosted -- producing an executive-legislative agreement on stable judicial compensation -- is a practical example of the creative dialogue needed between the branches.",
+      "rhetorical_move": "personal facilitation disclosed as best-practice",
+      "confidence": "high"
+    },
+    {
+      "claim": "The three reforms are interrelated: the first shortens trials, the second adds capacity, and the third raises quality by enticing better lawyers and insulating judges from bribery.",
+      "rhetorical_move": "system-design argument showing interlocking reform logic",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Quezon City pilot of the Judicial Affidavit Rule reducing direct testimony time by two-thirds -- the most concrete evidence-based endorsement of the rule.",
+    "Drilon discovering during a Senate finance hearing that 591 funded trial courts were vacant -- and the money budgeted for them was being 'realigned' as SAJ supplements to sitting judges.",
+    "The author hosting a private meeting between Budget Secretary Abad, Sen. Drilon, and Rep. Abaya to produce the executive-legislative agreement stabilizing judicial compensation -- a rare instance of the author's facilitation role disclosed in a column.",
+    "The exact monthly compensation figures for each trial court level -- RTC (P128,198.66), MeTC (P119,209.66), MTC (P102,612-P110,925) -- the most granular salary data in the corpus."
+  ],
+  "target_audience": [
+    "CJ Sereno and the SC en banc implementing the reforms",
+    "President Aquino and Budget Secretary Abad honoring the compensation commitment",
+    "Trial court judges and staff",
+    "Law practitioners adjusting to the Judicial Affidavit Rule",
+    "Congress members on judiciary budget"
+  ],
+  "register_markers": [
+    "Three-reform enumeration structure",
+    "Quezon City pilot data as endorsement",
+    "Exact salary figures for all three court levels",
+    "Private-meeting disclosure as facilitation model",
+    "FLP launch plug at end of column",
+    "Interrelated-reforms system-design argument"
+  ],
+  "decision_framework_signals": [
+    "Implement the Judicial Affidavit Rule broadly -- the Quezon City pilot proves it cuts direct testimony time by two-thirds",
+    "Fill the 591 vacant funded trial courts before adding new courts -- the funding is already there",
+    "Stabilize judicial compensation at the specific agreed levels to attract better candidates and reduce vulnerability to corruption",
+    "Link the three reforms as a package: trial-time reduction + vacancy-filling + compensation stabilization work as an interrelated system, not independent initiatives",
+    "Treat stable pay as an anti-corruption measure, not just a retention incentive"
+  ],
+  "one_paragraph_summary": "Panganiban surveys three interrelated judicial reforms. First, the Judicial Affidavit Rule (promulgated September 4, 2012; effective January 1, 2013), drafted by committees led by JJ Carpio and Abad: witnesses no longer give direct testimony through Q&A but instead submit affidavits in their language with translation, while the adverse party retains cross-examination rights; applies to all civil cases and criminal cases with a maximum 6-year penalty or with the accused's consent; a Quezon City pilot showed it reduced direct testimony time by two-thirds. Second, the vacancy problem: Drilon discovered at a Senate finance hearing that 591 trial courts (26% of organized courts) were funded but vacant, with their budget realigned as SAJ and other supplements for sitting judges. CJ Sereno (as JBC chair) committed to hasten short lists so all vacancies could be filled by 2015. Third, compensation stabilization: at a private meeting hosted by the author, Budget Secretary Abad and legislative leaders Drilon and Rep. Abaya agreed to fund stable monthly compensation for trial judges -- RTC judges at P128,198.66, MeTC judges at P119,209.66, MTC judges at P102,612-P110,925 -- eliminating the need for 'savings realignment.' The three reforms are interlocking: the first shortens trial time, the second adds 25%+ judicial capacity, and the third raises quality by attracting better lawyers and helping judges resist bribery. The column closes with a plug for the FLP Professorial Chairs launch on September 18.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

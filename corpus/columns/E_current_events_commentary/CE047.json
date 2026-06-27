@@ -1,0 +1,138 @@
+{
+  "id": "CE047",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 47,
+  "title": "Embarrassing knockout",
+  "date": "2022-01-09",
+  "link": "https://opinion.inquirer.net/148462/embarrassing-knockout",
+  "keywords": [
+    "demurrer to the evidence",
+    "Kerwin Espinosa drug case",
+    "Marcelo Adorco state-witness denial",
+    "Kontra Salaysay (recantation)",
+    "right against self-incrimination",
+    "double jeopardy"
+  ],
+  "primary_topics": [
+    "RTC Makati's dismissal of drug trafficking charges against Kerwin Espinosa and three co-accused on demurrer to the evidence",
+    "Failed effort by prosecutors to discharge Marcelo Adorco as a state witness",
+    "Recantation of Adorco's testimony via 'Kontra Salaysay' (Aug. 11, 2020)",
+    "Constitutional rights of the accused: counsel of choice; right against self-incrimination",
+    "Public outrage and the search for appellate remedies amid the double-jeopardy bar"
+  ],
+  "sub_topics": [
+    "July 23, 2018 accusation of illegal trading/trafficking of dangerous drugs with electronic devices at a Makati mall parking area",
+    "Oct. 8, 2018 prosecutors' motion to discharge Adorco as state witness -- denied Dec. 10, 2020",
+    "Five prosecution witnesses: PO3 Norman Abellanosa, SPO3 Benjamin Lamiseria, P/Supt. Richard Vercels, SPO2 Roberto Conol, and Adorco himself",
+    "Reliance on Adorco's affidavits and newspaper publications from the internet -- flagged by CJ as inadequate evidentiary foundation",
+    "RTC grounds for granting demurrers: (1) prior denial of state-witness discharge bars use of Adorco's testimony, (2) affidavits taken without counsel of choice, (3) right against self-incrimination violated, (4) even if admitted, testimonies were error-laden and self-recanting",
+    "Inquirer editorial Jan. 4 ('Grossly bungled case')",
+    "DOJ Secretary Menardo Guevarra's administrative and criminal options against erring policemen and prosecutors",
+    "Possible appellate remedies: motion for reconsideration before the RTC; certiorari to the CA or SC depending on issues",
+    "Double-jeopardy and constitutional-rights obstacles to reversing the dismissal"
+  ],
+  "signature_phrases": [
+    "So lackadaisical and inept were the police and the prosecution",
+    "the champion was embarrassingly knocked out without need for the challenger to punch him",
+    "If this were a boxing match",
+    "Verily, without Adorco's testimonies, the prosecution's case against the Espinosa Group necessarily crumbles",
+    "the ignominious collapse of this high-profile case will define the twilight months of the administration's drug war",
+    "not off the hook yet",
+    "it is difficult, if not unfair, to fault the RTC for the shortcomings of the police and the prosecution",
+    "shoot first and ask questions later mercenaries",
+    "authoritarian shortcuts"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Kerwin Espinosa (alleged drug lord, accused)",
+      "Wu Tuan Yuan (co-accused)",
+      "Lovely Imperial (co-accused)",
+      "Marcelo Adorco (co-accused; would-be state witness; recanted via Kontra Salaysay)",
+      "PO3 Norman Abellanosa",
+      "SPO3 Benjamin Lamiseria",
+      "P/Supt. Richard Vercels",
+      "SPO2 Roberto Conol",
+      "DOJ Secretary Menardo I. Guevarra",
+      "President Rodrigo Duterte (implicit beneficiary of the drug war)"
+    ],
+    "institutions": [
+      "Regional Trial Court of Makati",
+      "Department of Justice (DOJ)",
+      "Philippine National Police (PNP)",
+      "Court of Appeals",
+      "Supreme Court of the Philippines",
+      "Philippine Daily Inquirer (editorial board)"
+    ],
+    "cases": [
+      "People v. Espinosa et al. -- drug-trafficking case in RTC Makati (dismissed via demurrer to evidence)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- rights of the accused, counsel of choice, right against self-incrimination, double jeopardy",
+      "Republic Act 9165 (Comprehensive Dangerous Drugs Act of 2002)",
+      "Rules of Court -- demurrer to evidence; state-witness discharge"
+    ],
+    "events": [
+      "July 23, 2018 accusation filing",
+      "Oct. 8, 2018 motion to discharge Adorco; Dec. 10, 2020 denial",
+      "Aug. 11, 2020 Adorco 'Kontra Salaysay' (recantation)",
+      "RTC ruling granting the demurrers (late 2021)",
+      "Jan. 4, 2022 Inquirer editorial ('Grossly bungled case')"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The drug-trafficking case against the Espinosa Group collapsed because the police and prosecutors built it on Adorco's affidavits, which were inadmissible after the court denied his discharge as state witness, were taken without counsel of choice, violated his right against self-incrimination, and were recanted.",
+      "rhetorical_move": "multi-grounded evidentiary diagnosis of failure",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "It is 'difficult, if not unfair' to fault the RTC for the shortcomings of the police and prosecution -- the court's hands were tied by the constitutional infirmities of the evidence.",
+      "rhetorical_move": "exonerating the judiciary from the political backlash",
+      "confidence": "asserted with reasoned restraint"
+    },
+    {
+      "claim": "DOJ Secretary Guevarra has the authority and the gravitas to discipline the erring policemen and prosecutors and pursue remaining appellate remedies (RTC motion for reconsideration, then certiorari to the CA or SC).",
+      "rhetorical_move": "calibrated executive-confidence endorsement",
+      "confidence": "endorsed"
+    },
+    {
+      "claim": "Public confidence in the democratic process must be restored -- otherwise the failure tempts the citizenry toward authoritarian shortcuts and 'shoot first and ask questions later' mercenaries.",
+      "rhetorical_move": "civic-stakes warning about democratic erosion",
+      "confidence": "warning"
+    }
+  ],
+  "notable_anecdotes": [
+    "The boxing-match metaphor: 'the champion was embarrassingly knocked out without need for the challenger to punch him.'",
+    "Quoting the Inquirer editorial of Jan. 4 ('Grossly bungled case'): 'the ignominious collapse of this high-profile case will define the twilight months of the administration's drug war.'",
+    "Guevarra's 'admirable pose' in declaring the Espinosa Group 'not off the hook yet,' despite the embarrassment of the outcome.",
+    "Adorco's 'Kontra Salaysay' (Aug. 11, 2020) -- the recanted affidavit that destroyed the prosecution's case from within."
+  ],
+  "target_audience": [
+    "DOJ leadership (especially Secretary Guevarra)",
+    "Philippine National Police command on investigation discipline",
+    "Bar and bench observers of evidence law",
+    "Civic-minded readers of the Duterte drug war",
+    "Editorial peers at the Philippine Daily Inquirer"
+  ],
+  "register_markers": [
+    "sports-metaphor opening ('boxing match... embarrassingly knocked out')",
+    "evidentiary-stacking register (numbered RTC grounds 1-4)",
+    "editorial-co-citation (Inquirer's 'Grossly bungled case')",
+    "judicial-deference register ('it is difficult, if not unfair, to fault the RTC')",
+    "civic-warning close ('authoritarian shortcuts and shoot first and ask questions later mercenaries')",
+    "doctrinal-formal vocabulary ('demurrer to the evidence,' 'double jeopardy,' 'certiorari')"
+  ],
+  "decision_framework_signals": [
+    "evidentiary admissibility cascade analysis (each disqualifying ground compounds the failure)",
+    "constitutional-rights review (counsel of choice; right against self-incrimination)",
+    "double-jeopardy bar as an outer limit on remedial options",
+    "institutional-allocation reasoning (police error → DOJ remedy; court limitations bind only the judiciary)",
+    "civic-consequence reasoning (procedural shortcuts breed authoritarian temptations)"
+  ],
+  "one_paragraph_summary": "Panganiban diagnoses the Makati RTC's outright dismissal of the drug-trafficking charges against Kerwin Espinosa and three co-accused (Wu Tuan Yuan, Lovely Imperial, and Marcelo Adorco) as an 'embarrassing knockout' caused not by the court but by the lackadaisical and inept police and prosecution. The case stood on the affidavits and testimony of Adorco, whom prosecutors tried to convert into a state witness in October 2018 -- a motion the RTC denied on December 10, 2020. Without that discharge, Adorco's affidavits and statements (taken by PO3 Norman Abellanosa, SPO3 Benjamin Lamiseria, SPO2 Roberto Conol, and used by P/Supt. Richard Vercels alongside 'newspaper publications from the internet') were inadmissible -- they had been extracted without counsel of choice and in violation of the right against self-incrimination. Adorco then recanted via a 'Kontra Salaysay' on August 11, 2020. The RTC granted demurrers to the evidence, observing that without Adorco's testimony the prosecution's case 'necessarily crumbles.' Panganiban echoes the Inquirer editorial ('Grossly bungled case'): the ignominious collapse will define the twilight months of the drug war. But he refuses to scapegoat the court -- 'it is difficult, if not unfair, to fault the RTC for the shortcomings of the police and prosecution' -- and turns instead to Justice Secretary Menardo Guevarra, who has the authority to discipline the erring policemen and prosecutors and to pursue motion for reconsideration in the RTC or certiorari in the CA or SC. The civic stakes, he warns, are larger than this case: unless justice is restored, citizens may turn to 'authoritarian shortcuts' and 'shoot first and ask questions later' mercenaries.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

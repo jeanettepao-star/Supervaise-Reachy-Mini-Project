@@ -1,0 +1,220 @@
+{
+  "id": "CE092",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 92,
+  "title": "Who killed SAF 44, not who killed Marwan",
+  "date": "2015-09-20",
+  "link": "https://opinion.inquirer.net/88686/who-killed-saf-44-not-who-killed-marwan",
+  "keywords": [
+    "Mamasapano massacre commentary Sept 20 2015",
+    "Marwan-vs-SAF-44 reframing",
+    "PNoy press conference closing 'who killed Marwan'",
+    "90-MILF-BIFF-charges 'too feeble' critique",
+    "BOI vs MILF conflicting bullet-trajectory accounts (18-inches-above-floor angle)",
+    "Marwan house burned to ground, grave location unknown",
+    "Agrava Board template -- Corazon Agrava (chair), Salazar, Dante Santos, Ernesto Herrera, Amado Dizon",
+    "Andres Narvasa general counsel, Bienvenido Tan Jr. public coordinator",
+    "125 sessions, 194 witnesses, 20,377 pages transcript",
+    "Pamaran-decision 1985 acquittal then 1990 SBN 16-soldier conviction including Luther Custodio",
+    "Fabian Ver conspiracy finding",
+    "CJP 1991 SC affirmance and March 8 2005 third-trial denial",
+    "'let justice be done though the heavens may fall'"
+  ],
+  "primary_topics": [
+    "Reframing the Mamasapano massacre debate from 'who killed Marwan' to 'who killed the SAF 44'",
+    "P-Noy's press-conference closing of the Marwan-killing question",
+    "P-Noy's announcement of 90 MILF/BIFF charges as 'too feeble' response",
+    "BOI vs MILF conflicting bullet-trajectory accounts (Marwan standing vs lying)",
+    "Marwan's house burned to ground, grave location unknown -- forensic impossibility",
+    "Agrava Board as template for an independent investigative panel",
+    "Agrava-to-Pamaran-to-SBN-conviction historical-juridical arc on Ninoy's murder",
+    "CJP's 1991 SC affirmance and March 8, 2005 third-trial denial",
+    "'Let justice be done though the heavens may fall' closing maxim"
+  ],
+  "sub_topics": [
+    "Marwan a.k.a. Zulkifli bin Hir -- terrorist whose killing-issue P-Noy himself reopened at Inquirer office",
+    "Senate, House, and PNP BOI multiple investigations 'ad nauseam'",
+    "Congressional inquiries primarily 'in aid of legislation' should have yielded remedial laws by now",
+    "BOI first-person account: terrorist killed in firefight with SAF, 'shot in the chest causing his death,' implying standing position",
+    "MILF counter-claim: bullet-trajectory 18 inches above floor; fatal shot at close range while Marwan lying on floor",
+    "Forensic impossibility -- Marwan's house burned to ground; grave location unknown precluding exhumation",
+    "SAF 44 families grieving; wounds cannot heal until accountability questions answered",
+    "90 MILF/BIFF/private-armed-group charges for the death of 35 of the 55th Special Action Company",
+    "Three reasons P-Noy assurance is 'too feeble': (1) targets are still rebels beyond reach, (2) several civilian/military officials directly or indirectly involved in planning/execution may have failed leadership duties, (3) election-season risk of partisan taint",
+    "De Lima resigning soon to run for Senate -- partisan-agenda concern",
+    "Agrava Board composition: Corazon Agrava (chair), Luciano Salazar, Dante Santos, Ernesto Herrera, Amado Dizon",
+    "Agrava Board staff: Andres Narvasa (general counsel), Bienvenido Tan Jr. (public coordinator, later Ambassador to Germany)",
+    "Agrava Board work: 125 sessions, 194 witnesses, 20,377 pages transcript",
+    "Agrava findings: several military officers including AFP chief Fabian Ver conspired to kill Ninoy",
+    "Pamaran SBN decision (Dec 2, 1985) acquitting all accused",
+    "Edsa revolution 1986 -- newly-reconstituted SC nullified Pamaran verdict, returned case for retrial",
+    "Sept 28, 1990 -- 177-page SBN decision convicting 16 soldiers including Brig. Gen. Luther Custodio",
+    "July 23, 1991 -- SC dismissal of soldiers' petition for review (CJP-affirmed)",
+    "March 8, 2005 -- SC unanimous denial of belated third-trial motion (CJP-affirmed)",
+    "Closing: 'Let justice be done though the heavens may fall'"
+  ],
+  "signature_phrases": [
+    "in my humble opinion",
+    "with due respect",
+    "too feeble",
+    "ad nauseam",
+    "Let justice be done though the heavens may fall",
+    "Fiat justitia ruat caelum (implied via translation)"
+  ],
+  "entities": {
+    "people": [
+      "President Benigno S. Aquino III (P-Noy)",
+      "Zulkifli bin Hir alias 'Marwan' (terrorist)",
+      "The SAF 44 (fallen Special Action Force commandos)",
+      "55th Special Action Company members (35 killed)",
+      "Justice Secretary Leila de Lima (resigning to run for Senate)",
+      "Corazon Agrava (retired CA Justice, Agrava Board chair)",
+      "Luciano Salazar (Agrava Board lawyer)",
+      "Dante Santos (Agrava Board businessman)",
+      "Ernesto Herrera (Agrava Board labor leader)",
+      "Amado Dizon (Agrava Board educator)",
+      "Andres R. Narvasa (later Chief Justice; Agrava general counsel)",
+      "Bienvenido A. Tan Jr. (Agrava public coordinator; later Ambassador to Germany)",
+      "Sen. Benigno 'Ninoy' Aquino Jr. (murdered Aug 21, 1983)",
+      "AFP chief of staff Fabian Ver",
+      "Brig. Gen. Luther Custodio (convicted)",
+      "Justice Manuel Pamaran (1985 acquittal ponente)"
+    ],
+    "institutions": [
+      "Moro Islamic Liberation Front (MILF)",
+      "Bangsamoro Islamic Freedom Fighters (BIFF)",
+      "PNP Board of Inquiry (BOI)",
+      "PNP Special Action Force (SAF)",
+      "55th Special Action Company",
+      "Senate of the Philippines",
+      "House of Representatives",
+      "Sandiganbayan (SBN)",
+      "Supreme Court of the Philippines (post-Edsa-reconstituted)",
+      "Armed Forces of the Philippines (AFP)",
+      "Department of Justice",
+      "Agrava Board (Fact-Finding Board on the Aquino Assassination)"
+    ],
+    "cases": [
+      "SBN Pamaran-decision (Dec 2, 1985) -- acquittal of all accused in Ninoy's murder",
+      "SBN Sept 28, 1990 decision -- 16-soldier conviction including Custodio",
+      "SC dismissal of soldiers' petition for review (July 23, 1991)",
+      "SC unanimous denial of belated third-trial motion (March 8, 2005)"
+    ],
+    "laws_treaties": [
+      "Congressional inquiries 'in aid of legislation' framework"
+    ],
+    "events": [
+      "Mamasapano operation killing the SAF 44 (Jan 25, 2015)",
+      "P-Noy's Inquirer-office visit reopening Marwan-killing issue",
+      "P-Noy's televised press conference closing the Marwan question",
+      "P-Noy's 90-MILF/BIFF-charges announcement",
+      "Aug 21, 1983 -- Ninoy Aquino's murder at MIA tarmac",
+      "Dec 2, 1985 -- Pamaran-decision acquittal",
+      "1986 Edsa revolution",
+      "Sept 28, 1990 -- SBN 16-soldier conviction",
+      "July 23, 1991 -- SC affirmance of conviction",
+      "March 8, 2005 -- SC denial of third-trial motion"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "CJ is glad P-Noy put to rest the issue of who killed Marwan -- an issue P-Noy himself reopened during his Inquirer-office visit",
+      "rhetorical_move": "presidential-credit observation with implicit critique",
+      "confidence": "high"
+    },
+    {
+      "claim": "The relevant question that pines for reopening is: Who killed the 44 Special Action Force commandos? More pointedly, who are responsible for their massacre?",
+      "rhetorical_move": "reframing-the-question thesis",
+      "confidence": "high"
+    },
+    {
+      "claim": "P-Noy's promise to charge 90 MILF/BIFF/private-armed-group personnel for the death of 35 of the 55th Special Action Company is a good start but, with due respect, too feeble a response",
+      "rhetorical_move": "diplomatic-but-pointed inadequacy critique",
+      "confidence": "high"
+    },
+    {
+      "claim": "It is now pointless to look further into who killed Marwan -- Senate, House, and BOI have already investigated 'ad nauseam'; congressional inquiries should already have yielded remedial laws",
+      "rhetorical_move": "diminishing-returns observation",
+      "confidence": "high"
+    },
+    {
+      "claim": "BOI reports the terrorist was killed in a firefight, 'shot in the chest causing his death,' implying standing position -- MILF counters that bullet trajectories were 18 inches above floor, suggesting close-range execution while Marwan was lying on floor",
+      "rhetorical_move": "conflicting-accounts juxtaposition",
+      "confidence": "high"
+    },
+    {
+      "claim": "At this point it is no longer possible to verify the bullet holes -- Marwan's house has been burned to the ground; exhuming the corpse is extremely difficult because the grave's location is not known",
+      "rhetorical_move": "forensic-impossibility observation foreclosing further inquiry",
+      "confidence": "high"
+    },
+    {
+      "claim": "P-Noy's 90-MILF/BIFF/PAG charge announcement is too feeble because (1) targets are still rebels beyond the reach of law and even subpoena service would be extremely difficult; (2) several civilian and military officials may have failed leadership duties or assumed powers beyond their authority or failed to coordinate; (3) we are in election season and the search for justice should not be tainted by partisan attack -- De Lima will soon resign to run for Senate, so the probe must be visibly free of partisan agenda",
+      "rhetorical_move": "three-numbered-reasons enumeration",
+      "confidence": "high"
+    },
+    {
+      "claim": "CJ proposes an independent panel like the Agrava Board that investigated Ninoy's murder -- Corazon Agrava (chair), Luciano Salazar, Dante Santos, Ernesto Herrera, Amado Dizon, assisted by Andres Narvasa (general counsel) and Bienvenido Tan Jr. (public coordinator); after 125 sessions, 194 witnesses, and 20,377 pages of transcript, the Agrava Board concluded several military officers including AFP chief Fabian Ver conspired to kill Ninoy",
+      "rhetorical_move": "institutional-template proposal with detailed precedent",
+      "confidence": "high"
+    },
+    {
+      "claim": "Despite Agrava's findings, the SBN under Pamaran acquitted all accused (Dec 2, 1985); but after the 1986 Edsa revolution, the newly-reconstituted SC nullified the verdict and returned the case for retrial -- leading to a 177-page Sept 28, 1990 SBN conviction of 16 soldiers including Brig. Gen. Luther Custodio, affirmed July 23, 1991, with a unanimous March 8, 2005 SC denial of a belated third-trial motion",
+      "rhetorical_move": "juridical-arc demonstration of how independent-fact-finding enables eventual accountability",
+      "confidence": "high"
+    },
+    {
+      "claim": "Without the credible factual findings of the independent Agrava Board, the judiciary may not have been able to decide courageously and with finality the accountability of those responsible for Ninoy's death -- the fallen SAF 44 may not be as famous as Ninoy but deserve equal justice",
+      "rhetorical_move": "lesson-of-history closing with equal-treatment exhortation",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "P-Noy reopening then closing the Marwan-killing issue in successive Inquirer visits / press conferences",
+    "BOI 'shot in the chest' standing-position implication vs MILF 18-inches-above-floor close-range claim",
+    "Marwan's house burned to ground + unknown grave location as forensic-foreclosure facts",
+    "Agrava Board's 125 sessions, 194 witnesses, 20,377 pages transcript as scale benchmark",
+    "Narvasa as Agrava general counsel later becoming Chief Justice",
+    "Tan Jr. as Agrava public coordinator later becoming Ambassador to Germany",
+    "Pamaran's Dec 2, 1985 SBN acquittal of all accused",
+    "Newly-reconstituted post-Edsa SC nullifying Pamaran verdict",
+    "Sept 28, 1990 SBN 16-soldier conviction including Custodio",
+    "CJP's signature 'Let justice be done though the heavens may fall' closing"
+  ],
+  "target_audience": [
+    "Inquirer readership and the general public still mourning the SAF 44",
+    "SAF 44 families and the PNP community",
+    "Lawyers, judges, and prosecutors",
+    "P-Noy administration officials and their critics",
+    "Congressional investigators",
+    "Edsa-1-generation readers familiar with Agrava Board lore",
+    "MILF/BIFF/peace-process observers"
+  ],
+  "register_markers": [
+    "reframing-the-question rhetorical pivot ('not who killed Marwan, but who killed SAF 44')",
+    "'with due respect' as diplomatic-criticism softener",
+    "'in my humble opinion' subordinator",
+    "Latin/literary tag 'ad nauseam'",
+    "three-numbered-reasons enumeration as structural device",
+    "institutional-template proposal with detailed precedent (Agrava Board)",
+    "juridical-arc demonstration (Agrava → Pamaran → SBN reversal → SC)",
+    "Latin-tradition closing maxim ('Let justice be done though the heavens may fall' = Fiat justitia ruat caelum)",
+    "section labels (Relevant question, Conflicting versions, Justice for the SAF 44)",
+    "forensic-impossibility observation as analytic constraint"
+  ],
+  "decision_framework_signals": [
+    "Reframing-the-question as analytic discipline",
+    "Diminishing-returns observation on duplicate inquiries",
+    "Forensic-impossibility as foreclosure of further inquiry",
+    "Independent-fact-finding as precondition for eventual judicial accountability",
+    "Agrava Board as institutional template",
+    "Multi-tier accountability -- direct perpetrators vs leadership failures vs partisan-cleanliness concerns",
+    "Election-season-non-partisanship as procedural integrity norm",
+    "Equal-justice-regardless-of-fame principle",
+    "'Fiat justitia ruat caelum' as ultimate axiom"
+  ],
+  "one_paragraph_summary": "Panganiban reframes the post-Mamasapano debate. CJ is glad P-Noy, in a televised press conference last Thursday, put to rest the issue of who killed the terrorist Zulkifli bin Hir, alias 'Marwan' -- an issue P-Noy himself reopened during his Inquirer-office visit. But the relevant question that pines for reopening, in his humble opinion, is: 'Who killed the 44 Special Action Force commandos, collectively known as the SAF 44? More pointedly, who are responsible for their massacre?' The President partially answered when he said 90 people from the MILF, BIFF, and private armed groups will be charged for the death of 35 members of the 55th Special Action Company. 'That is a good start but, with due respect, I believe it is far too feeble a response.' Meanwhile, it is pointless to look further into who killed Marwan: Senate, House, and PNP BOI have already investigated 'ad nauseam'; both houses should have gathered enough data to enact remedial laws (congressional inquiries are primarily in aid of legislation). The BOI reports, in what appears to be a first-person account, that the terrorist was killed in a firefight with SAF, with a 'shot in the chest causing his death,' implying he was standing. The MILF counters that 'the trajectory of the bullets indicates that the fatal shot did not come from the shots fired outside the house as the bullet holes are roughly 18 inches above the floor ... In all likelihood, the fatal shot must have been fired at close range and while Marwan was lying on the floor.' At this point it is no longer possible to verify the bullet holes because Marwan's house has been burned to the ground; exhuming the corpse for post-mortem examination is extremely difficult because the grave's location is not known. The SAF 44 families are still grieving and clamoring for justice; their wounds cannot heal until the accountability questions are satisfactorily answered. P-Noy's assurance is too feeble for three reasons. First, his targets -- MILF, BIFF, and others -- are still rebels beyond the reach of law; even serving subpoenas would be extremely difficult. Second, several civilian and military officials were involved directly or indirectly in planning and executing the Mamasapano caper: did some fail in leadership duties? Assume powers beyond their authority? Neglect coordination resulting in or contributing to the SAF 44's death? CJ is not accusing anyone -- that is for the probers to determine. Third, we are in election season; the search for justice should not be tainted with partisan attack -- CJ has great faith in Justice Secretary Leila de Lima, but she will resign soon to run for the Senate, so the public must view the probe as free of any partisan agenda. CJ proposes an independent panel like the Agrava Board that investigated Ninoy Aquino's murder at the Manila International Airport tarmac in 1983 -- composed of retired CA Justice Corazon Agrava (chair), lawyer Luciano Salazar, businessman Dante Santos, labor leader Ernesto Herrera, and educator Amado Dizon, assisted by then-Dean (later Chief Justice) Andres R. Narvasa as general counsel and lawyer Bienvenido A. Tan Jr. (later Ambassador to Germany) as public coordinator. After holding 125 sessions, hearing 194 witnesses, and consuming 20,377 pages of transcript, the Agrava Board concluded that several military officers including then-AFP chief of staff Fabian Ver conspired to kill Ninoy. Despite this, the SBN -- in a Dec 2, 1985 decision penned by Justice Manuel Pamaran -- acquitted all the accused. However, after the 1986 Edsa revolution, the newly-reconstituted SC nullified the Pamaran verdict and returned the case to the SBN for retrial. In a 177-page Sept 28, 1990 decision, the SBN convicted 16 soldiers including Brig. Gen. Luther Custodio of Ninoy's murder. This judgment became final after the SC dismissed the soldiers' petition for review on July 23, 1991; on March 8, 2005, the Court unanimously denied a belated motion for a third trial. 'Without the credible factual findings of the independent Agrava Board, the judiciary may not have been able to decide courageously and with finality the accountability of those responsible for Ninoy's death.' Although the fallen SAF 44 may not be as famous as Ninoy, they deserve equal justice. As we lawyers fondly say, 'Let justice be done though the heavens may fall.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

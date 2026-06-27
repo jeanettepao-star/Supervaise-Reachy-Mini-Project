@@ -1,0 +1,173 @@
+{
+  "id": "CA165",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 165,
+  "title": "Falsities and moral turpitude",
+  "date": "2021-12-05",
+  "link": "https://opinion.inquirer.net/147196/falsities-and-moral-turpitude",
+  "keywords": [
+    "Bongbong Marcos COC",
+    "false material representation",
+    "moral turpitude",
+    "Ty-Delgado v. HRET",
+    "Section 12 OEC",
+    "five-year prescription"
+  ],
+  "primary_topics": [
+    "Two main issues stripped of legalese: false material representation and moral turpitude",
+    "Petitioners' three assertions vs. Mendoza Answer's three rebuttals",
+    "Federal Party's Answer-in-Intervention (AI) alleging payment of fine and deficiency income taxes",
+    "Why the prohibition under PD 1994 (effective Jan. 1, 1986) reaches BB's 1985 ITR but not 1982-1984 ITRs",
+    "Moral turpitude as the surviving alternative ground if payment defense succeeds"
+  ],
+  "sub_topics": [
+    "Petition: BB falsely represented eligibility; falsely denied past liability for offense with accessory penalty of perpetual disqualification; CA conviction involved moral turpitude",
+    "Mendoza Answer: Petition lacks specific allegation of false material representation; BB qualified for president; CA did not convict him of moral-turpitude crime",
+    "Estelito P. Mendoza as lead respondent counsel",
+    "Federal Party's AI: payment of fine and deficiency income taxes per CA Decision of October 31, 1997",
+    "Omnibus Election Code Section 74 -- COC eligibility statement requirement",
+    "OEC Section 78 -- cancellation of COC for false material representation",
+    "OEC Section 12 -- disqualification for moral turpitude; five-year prescription after service of sentence",
+    "Ty-Delgado v. HRET (Jan. 26, 2016) -- false-material-representation doctrine; libel as moral turpitude",
+    "Moral turpitude defined as 'everything done contrary to justice, modesty, or good morals; an act of baseness, vileness or depravity'",
+    "PD 1994 (Nov. 5, 1985, effective Jan. 1, 1986) -- perpetual-disqualification amendment to NIRC, now Section 253 of 1997 NIRC",
+    "Retroactivity bar: cannot reach BB's 1982-1984 ITRs but covers 1985 ITR (due April 15, 1986)",
+    "Payment of fine as 'service of the sentence' triggering five-year prescription",
+    "Comelec Second Division as appropriate forum; Memoranda procedure; MR to en banc; SC review",
+    "Prof. Dante Gatmaytan's observation that Duterte is the only post-Edsa president who has never lost in the Court"
+  ],
+  "signature_phrases": [
+    "Stripped of legalese",
+    "Did BB commit false material representations in his certificate of candidacy",
+    "did his conviction by the Court of Appeals (CA) involve moral turpitude?",
+    "'YES,' THE PETITION ASSERTED",
+    "'NO,' THE ANSWER COUNTERED",
+    "should be read together with this piece",
+    "Petition is bereft of any specific allegation of a false material representation",
+    "To strengthen the Answer submitted by Estelito P. Mendoza",
+    "the Federal Party filed an 'Answer-in-Intervention (AI)'",
+    "NOW, MY HUMBLE OPINION",
+    "the COC 'shall state that the person filing it... is eligible'",
+    "exclusively on the ground that any material representation contained therein... is false",
+    "sentenced by final judgment... for a crime involving moral turpitude",
+    "deemed removed... five years from his service of the sentence",
+    "everything... done contrary to justice, modesty, or good morals; an act of baseness, vileness or depravity",
+    "AT FIRST SIGHT, THESE LAWS AND JURISPRUDENCE seem to favor the Petition",
+    "the prohibition became effective only on Jan. 1, 1986; thus, it cannot be retroactively applied",
+    "the prohibition covered his ITR for 1985 which was due on April 15, 1986",
+    "The payment of the fine is the 'service of the sentence'",
+    "if true, timely, and adequate",
+    "the Petition's third argument that BB's conviction involves 'moral turpitude'",
+    "IN SUM",
+    "if the petitioners can show that BB's conviction by the CA involves moral turpitude",
+    "OR his alleged payment is false, inadequate, or ill-timed",
+    "I urge the Comelec Second Division to resolve this case speedily",
+    "the only post-Edsa president who has never lost in the Court"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Ferdinand 'Bongbong' Marcos Jr. (BB)",
+      "Estelito P. Mendoza (lead respondent counsel)",
+      "President Rodrigo Duterte (referenced via Gatmaytan observation)",
+      "Prof. Dante Gatmaytan (UP College of Law)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec) -- Second Division and en banc",
+      "Supreme Court of the Philippines",
+      "Court of Appeals",
+      "Federal Party (Bongbong's party; filed Answer-in-Intervention)",
+      "House of Representatives Electoral Tribunal (HRET) -- Ty-Delgado venue",
+      "UP College of Law"
+    ],
+    "cases": [
+      "Ty-Delgado v. HRET (Jan. 26, 2016) -- false-material-representation doctrine; libel as moral turpitude",
+      "Court of Appeals decision of October 31, 1997 -- BB conviction for failure to file ITRs 1982-1985"
+    ],
+    "laws_treaties": [
+      "Omnibus Election Code Sections 12, 74, 78",
+      "Presidential Decree No. 1994 (Nov. 5, 1985; effective Jan. 1, 1986) -- perpetual-disqualification accessory penalty",
+      "1977 National Internal Revenue Code (as amended)",
+      "1997 National Internal Revenue Code Section 253",
+      "Comelec Rules of Procedure (Memoranda; en banc MR)"
+    ],
+    "events": [
+      "October 31, 1997 -- CA decision conviction of BB for ITR-non-filing 1982-1985",
+      "January 1, 1986 -- PD 1994 effectivity",
+      "April 15, 1986 -- due date of BB's 1985 ITR",
+      "Filing of petition, Mendoza Answer, and Federal Party Answer-in-Intervention"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The case strips down to two main issues: did Bongbong Marcos commit false material representations in his COC, and did his CA conviction involve moral turpitude? -- both governed by Omnibus Election Code Sections 12, 74, and 78, and clarified by Ty-Delgado v. HRET (Jan. 26, 2016).",
+      "rhetorical_move": "issue-distillation framing (reducing legalese to two pivotal questions)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Under Ty-Delgado v. HRET and similar cases, a candidate 'barred by final judgment from running for public office' who nonetheless states in his COC that he is eligible 'clearly makes a false material representation' -- and that case held libel to be a crime involving moral turpitude.",
+      "rhetorical_move": "doctrinal-precedent anchoring (using one core case for both the falsity and moral-turpitude doctrines)",
+      "confidence": "asserted with case citation"
+    },
+    {
+      "claim": "At first sight the laws and jurisprudence favor the Petition because the CA's conviction for BB's failure to file ITRs 1982-1985 indirectly prohibited him from holding public office -- but the prohibition under PD 1994 took effect only January 1, 1986, so it cannot be retroactively applied to the 1982-1984 ITRs; it covers only the 1985 ITR (due April 15, 1986).",
+      "rhetorical_move": "retroactivity-bar pivot (favorable-at-first-sight then narrowing the reach of the statute)",
+      "confidence": "asserted with date-anchored reasoning"
+    },
+    {
+      "claim": "The Federal Party's Answer-in-Intervention's allegation that BB has paid the fine and deficiency income taxes -- IF true, timely, and adequate -- may save him under Section 12 of the OEC, because the disqualification expires five years from service of sentence, and 'the payment of the fine is the service of the sentence.'",
+      "rhetorical_move": "if-true-then-saves conditional analysis (laying out the payment defense without yet adjudicating it)",
+      "confidence": "conditional"
+    },
+    {
+      "claim": "Even if the payment defense succeeds, the petitioners can still prevail if they show (a) BB's conviction involves moral turpitude AND (b) the five-year prescription does not embrace moral turpitude -- making moral turpitude the surviving alternative ground.",
+      "rhetorical_move": "alternative-grounds preservation (mapping the second route to cancellation)",
+      "confidence": "asserted as the case's surviving question"
+    },
+    {
+      "claim": "In sum: if the petitioners can show (i) moral turpitude plus non-application of the five-year prescription to it, OR (ii) that the alleged payment is false, inadequate, or ill-timed, the COC should be cancelled; otherwise BB should be allowed to continue his quest. The Comelec Second Division should resolve this speedily -- Memoranda are sufficient per the Rules -- with MR to the en banc and possible SC review.",
+      "rhetorical_move": "two-prong summation with procedural-pathway closer (clean tabulation of the dispositive alternatives)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's signature 'Stripped of legalese' opener -- among the cleanest uses of the formula in his COC series, framing the two-issue analytical core in lay vocabulary before legalist deep-dive.",
+    "The PD 1994 / NIRC Section 253 retroactivity analysis turning on the technical fact that the law took effect January 1, 1986 -- meaning the 1985 ITR (due April 15, 1986) is the only one that triggers the perpetual-disqualification accessory penalty, while the 1982-1984 ITRs cannot retroactively do so. The case literally turns on one tax year.",
+    "The 'payment of the fine IS the service of the sentence' equation -- CJ's cleanest single-sentence framing of how the five-year Section 12 prescription clock starts, key to the payment defense.",
+    "The closing Gatmaytan observation that President Duterte is the only post-Edsa president who has never lost in the Court -- used as a one-line provocation about how Duterte 'looks at this case' given his unbeaten SC record, the most political-temperature-taking single sentence in CJ's COC-series columns.",
+    "The Ty-Delgado v. HRET (January 26, 2016) moral-turpitude definition quoted verbatim -- 'everything done contrary to justice, modesty, or good morals; an act of baseness, vileness or depravity in the private and social duties which a man owes' -- preserved as the doctrinal standard to be applied to BB's ITR-non-filing conviction."
+  ],
+  "target_audience": [
+    "Comelec commissioners and staff",
+    "COC petitioners and Bongbong's counsel",
+    "Constitutional and election-law scholars",
+    "Civic-minded readers tracking the 2022 election",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "'Stripped of legalese' as accessibility opener",
+    "ALL-CAPS section openings ('YES, THE PETITION ASSERTED,' 'NO, THE ANSWER COUNTERED,' 'NOW, MY HUMBLE OPINION,' 'AT FIRST SIGHT,' 'IN SUM')",
+    "verbatim statutory and case-law quotations with internal ellipses",
+    "two-prong if/OR summation closer",
+    "self-cross-reference to last Sunday's column ('should be read together with this piece')",
+    "'in my humble opinion' as recurring humility marker",
+    "doctrinal-pedagogical register with procedural-pathway overlay",
+    "political-temperature-taking closer (Gatmaytan observation)",
+    "Tagalog/Spanish loanwords absent",
+    "tabulated-alternative summation as analytical signature"
+  ],
+  "decision_framework_signals": [
+    "uses 'stripped of legalese' issue-distillation as primary analytical method",
+    "anchors falsity and moral-turpitude doctrines in single dispositive precedent (Ty-Delgado v. HRET)",
+    "applies retroactivity bar to limit the reach of a perpetual-disqualification statute",
+    "treats fine-payment as service-of-sentence equation for prescription-clock purposes",
+    "preserves alternative grounds (moral turpitude as surviving route if payment defense succeeds)",
+    "frames moral turpitude as definitionally separate from the prescription regime -- the unresolved doctrinal question",
+    "treats procedural-pathway mapping (Memoranda → MR → SC) as part of analytical closure"
+  ],
+  "one_paragraph_summary": "Panganiban strips the Bongbong Marcos COC case to its two main issues: did BB commit false material representations in his certificate of candidacy, and did his CA conviction involve moral turpitude? The Petition asserts YES on three grounds -- BB falsely represented eligibility, falsely denied past liability carrying perpetual disqualification, and was convicted of a moral-turpitude crime. Estelito P. Mendoza's Answer counters NO on all three. To strengthen Mendoza's pleading, the Federal Party filed an Answer-in-Intervention alleging that BB has paid the fine and deficiency income taxes from the October 31, 1997 CA decision. Citing OEC Sections 12, 74, and 78 plus Ty-Delgado v. HRET (January 26, 2016) -- which held that a candidate barred by final judgment who declares eligibility in his COC 'clearly makes a false material representation,' and that libel is a moral-turpitude crime -- Panganiban observes that at first sight the law favors the Petition because the CA conviction indirectly imposed perpetual disqualification. However, the accessory penalty under PD 1994 took effect only January 1, 1986 and cannot be retroactively applied to BB's 1982-1984 ITRs; it covers only the 1985 ITR (due April 15, 1986). If the Federal Party's allegation of payment is true, timely, and adequate, BB may be saved because Section 12 says the disqualification 'is deemed removed five years from service of the sentence,' and payment of the fine IS the service of the sentence -- meaning he did not make a false material representation. What remains is the moral-turpitude argument, which Section 12 would disqualify him on independently. In sum: if petitioners can show (i) BB's conviction involves moral turpitude AND the five-year prescription does not embrace moral turpitude, OR (ii) the alleged payment is false, inadequate, or ill-timed, the COC should be cancelled; if not, BB should continue his quest. He urges the Comelec Second Division to resolve this speedily through Memoranda -- reviewable by MR to the en banc and ultimately by the Supreme Court -- and closes by wondering how President Duterte views the case given Prof. Dante Gatmaytan's observation that Duterte is the only post-Edsa president who has never lost in the Court.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

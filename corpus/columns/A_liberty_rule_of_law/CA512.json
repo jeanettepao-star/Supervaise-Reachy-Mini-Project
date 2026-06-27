@@ -1,0 +1,118 @@
+{
+  "id": "CA512",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 512,
+  "title": "Katotohanan lamang ang panalo sa bayan'",
+  "date": "2012-01-29",
+  "link": "https://opinion.inquirer.net/21949/katotohanan-lamang-ang-panalo-sa-bayan",
+  "keywords": [
+    "prosecution media strategy TV radio",
+    "defense technicalities legalese",
+    "second envelope Estrada impeachment EDSA",
+    "walang taguan walang takipan",
+    "Corona ponencia Alonso Villamor technicalities"
+  ],
+  "primary_topics": [
+    "Contrasting prosecution (media-power) vs defense (technicality-legalese) strategies",
+    "Why over-reliance on technicalities is counter-productive in impeachment",
+    "The second-envelope Estrada lesson: technicalities that block truth trigger people power"
+  ],
+  "sub_topics": [
+    "Prosecution uses live TV/radio to influence non-lawyer senators and the public",
+    "Defense uses Rules of Court objections and bars 'impertinent' evidence",
+    "Article II chosen first by prosecution (SALN/ill-gotten wealth resonates better with public)",
+    "Senate allowed SALN non-disclosure evidence but barred ill-gotten wealth without proper basis",
+    "Henares testimony on Corona income vs assets -- disparity as prima facie ill-gotten wealth",
+    "Prosecution's new media: Twitter, Facebook, YouTube, texts -- analogy to Arab Spring",
+    "Defense's seasoned trial lawyers using every possible objection",
+    "Senate blocked ill-gotten wealth evidence; but prima facie presumption if disparity shown",
+    "Corona's own ponencia (Republic v. SBN, July 15, 2003) citing Alonso v. Villamor (1910): litigation is not a game of technicalities",
+    "Second envelope lesson: Senate refused to open on technical grounds; people took over at EDSA",
+    "Second envelope turned out to contain no harmful evidence -- defense technicality was self-defeating",
+    "Best strategy: transparent, open, forthright; abandon unnecessary technicalities",
+    "Impeachment belongs to the people, not to lawyers",
+    "Walang taguan, walang takipan. Katotohanan lamang ang panalo sa bayan"
+  ],
+  "signature_phrases": [
+    "Walang taguan, walang takipan",
+    "Katotohanan lamang ang panalo sa bayan",
+    "litigation is not a game of technicalities",
+    "rapier's thrust",
+    "second envelope",
+    "the power of new media cannot be underestimated",
+    "incomprehensible barriers to the discovery of truth"
+  ],
+  "entities": {
+    "people": [
+      "CJ Renato C. Corona",
+      "BIR Commissioner Kim Henares",
+      "President Joseph Estrada",
+      "Former Ombudsman Merceditas Gutierrez"
+    ],
+    "institutions": [
+      "House of Representatives",
+      "Senate of the Philippines"
+    ],
+    "cases": [
+      "Republic v. Sandiganbayan (July 15, 2003) -- Corona ponencia citing Alonso v. Villamor",
+      "Alonso v. Villamor (1910)"
+    ],
+    "laws_treaties": [],
+    "events": [
+      "Estrada second-envelope incident and EDSA II",
+      "Gutierrez resignation before Senate trial",
+      "Arab Spring (Tunisia, Egypt, Libya) as new media analogy"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The prosecution's media strategy is more effective than the defense's technicality strategy in an impeachment -- the people are the ultimate judges and they want truth, not legal gymnastics.",
+      "rhetorical_move": "media-power-vs-technicality comparative assessment",
+      "confidence": "high"
+    },
+    {
+      "claim": "Corona's own ponencia (Republic v. SBN, 2003) cited Alonso v. Villamor (1910): 'A litigation is not a game of technicalities' -- the defense's own lead counsel's prior words indict their current strategy.",
+      "rhetorical_move": "self-incriminating-precedent irony",
+      "confidence": "high"
+    },
+    {
+      "claim": "The second-envelope lesson is permanent: when technicalities block truth-discovery in impeachment, the people take over -- and the Estrada defense turned out to be self-defeating since the envelope contained nothing harmful.",
+      "rhetorical_move": "cautionary historical example of self-defeating technicalism",
+      "confidence": "high"
+    },
+    {
+      "claim": "The best strategy is transparency and openness, captured in: 'Walang taguan, walang takipan. Katotohanan lamang ang panalo sa bayan.'",
+      "rhetorical_move": "lyrical Filipino maxim as the column's climax",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Corona's own ponencia in Republic v. Sandiganbayan (July 15, 2003) citing the 1910 case: 'A litigation is not a game of technicalities... Lawsuits, unlike duels, are not to be won by a rapier's thrust' -- the exact doctrine his defense is now ignoring.",
+    "The second-envelope lesson: the Senate's refusal to open it on technical grounds triggered EDSA II; when it was finally opened, it contained no harmful evidence -- the defense's technicality proved both self-defeating and ultimately pointless.",
+    "Gutierrez's resignation before her Senate trial to spare herself and her family from media scrutiny -- an example of how a public figure can preempt the worst of impeachment's people-power dynamic."
+  ],
+  "target_audience": [
+    "Corona defense team overusing technicalities",
+    "Prosecution team managing media strategy",
+    "Senator-judges evaluating the two strategies",
+    "Civic readership following the trial on live TV",
+    "Constitutional scholars on impeachment as a people's proceeding"
+  ],
+  "register_markers": [
+    "Prosecution-vs-defense contrast structure",
+    "Corona's own ponencia used against his defense",
+    "Arab Spring analogy for new media power",
+    "Filipino lyrical maxim as climax",
+    "Second-envelope cautionary tale"
+  ],
+  "decision_framework_signals": [
+    "In impeachment, choose transparency over technicality -- the people are watching and they will punish technicalities that appear to hide the truth",
+    "Apply the second-envelope lesson: never bet the outcome on a technicality that you cannot guarantee will not backfire",
+    "Let the respondent's own prior pronouncements guide the standard of conduct -- Corona's Alonso v. Villamor citation is self-binding"
+  ],
+  "one_paragraph_summary": "Panganiban analyzes the opposing strategies in the Corona impeachment: the prosecution relies on media power (live TV/radio coverage, Twitter, Facebook, YouTube) to reach non-lawyer senators and the public, while the defense relies on courtroom technicalities and Rule-of-Court objections to block evidence. He notes that BIR Commissioner Henares's testimony on the income-vs-assets disparity laid the basis for a prima facie ill-gotten-wealth presumption even if the Senate blocked direct ill-gotten-wealth evidence. The column's central irony: Corona's own ponencia in Republic v. Sandiganbayan (July 15, 2003) cited the 1910 Alonso v. Villamor case: 'A litigation is not a game of technicalities... Lawsuits, unlike duels, are not to be won by a rapier's thrust' -- the exact principle his defense lawyers are now ignoring. The second-envelope lesson from the Estrada impeachment is permanent: the Senate's technical refusal to open the envelope triggered EDSA II; when the envelope was later opened, it contained nothing harmful -- a self-defeating technicality that caused the fall of a president. The best strategy is captured in lyrical Filipino: 'Walang taguan, walang takipan. Katotohanan lamang ang panalo sa bayan' -- hide nothing, cover up nothing; only truth wins the people.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

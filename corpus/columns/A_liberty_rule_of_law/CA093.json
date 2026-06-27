@@ -1,0 +1,150 @@
+{
+  "id": "CA093",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 93,
+  "title": "Please exclude CJs from popularity surveys",
+  "date": "2023-10-16",
+  "link": "https://opinion.inquirer.net/167190/please-exclude-cjs-from-popularity-surveys",
+  "keywords": [
+    "CJ Gesmundo 34% approval",
+    "Pulse Asia survey Sept 2023",
+    "unelected vs elected officials",
+    "five qualifications competence integrity probity independence",
+    "judicial independence shields",
+    "Pilate-mob analogy",
+    "Rizal-Spanish-conquistadores analogy",
+    "though heavens may fall fiat justitia"
+  ],
+  "primary_topics": [
+    "Recent Pulse Asia survey (Sept 10-14, 2023) showing top-officials' approval ratings -- including CJ Gesmundo at 34 percent -- and the historical pattern that no CJ has exceeded 50 percent approval in the last ~15 years",
+    "Author's argument that unelected CJs should be excluded from the same approval/awareness/trust/performance surveys applied to elected leaders -- under the same standards and metrics",
+    "Constitutional asymmetry: justices are required five additional qualities (proven competence, integrity, probity, independence, plus Philippine Bar membership) not required of elected officials",
+    "Judicial-independence shields: security of tenure; removal only via impeachment (and 'arguably, with my respectful dissent, through quo warranto'); fixed compensation; peace and tranquility from election-campaign vagaries",
+    "Author's normative warning: 'I will fret the day if and when CJs would vie for popularity instead of independence, surrender to the mob instead of to the truth based on a fair trial, and judge wickedly to gain fame and favor instead of rendering justice though the heavens may fall'"
+  ],
+  "sub_topics": [
+    "Pulse Asia poll dates: Sept 10-14, 2023",
+    "Approval ratings cited: President Marcos 65%; VP Sara Duterte 73%; SP Migz Zubiri 50%; Speaker Romualdez 41%; CJ Gesmundo 34%",
+    "Author's empirical claim: 'I have yet to see a CJ who exceeded a 50-percent approval rating during the last 15 or so years'",
+    "Constitutional qualifications for top officials: natural-born citizenship, minimum age, ability to read and write",
+    "Fixed terms: 6 years (President, VP, senators); 3 years (representatives); until age 70 (justices)",
+    "Five additional qualifications for justices/judges: 'proven competence, integrity, probity, and independence' plus Philippine Bar membership",
+    "Constitution does not prohibit unschooled, dishonest, dropouts, sycophants, and criminals from running for executive/legislative posts (unless disqualified by law or final judicial decision)",
+    "Independence as the most prized quality among the five",
+    "Judicial-independence shields: security of tenure; removal only via impeachment (with author's 'respectful dissent' on the QW alternative); fixed compensation that cannot be reduced by Congress and continues into retirement until death",
+    "CJs and judiciary should have continuing confidence and residual trust of the populace despite the fickleness of public perception",
+    "'Under the rule of law' as critical component of jurists' work -- not by mob, not by rich and powerful",
+    "Pilate-condemned-Jesus analogy as rule-of-mob warning",
+    "Spanish-conquistadores-executed-Rizal analogy as rule-of-powerful warning",
+    "Examples of independence-requires-unpopularity: senator or former president cannot be acquitted simply because of popularity or to avoid street rallies",
+    "Litigants' devices for reaching justices: spouses, children, close relatives, school chums, doctors, even fathers-confessors -- 'avoid them like a plague'",
+    "Closing self-quotation invoked in later columns ('vie for popularity instead of independence, surrender to the mob... though the heavens may fall')"
+  ],
+  "signature_phrases": [
+    "in my humble opinion",
+    "embarrassment at least, or even harassment",
+    "the last bastion of democracy",
+    "though the heavens may fall",
+    "vie for popularity instead of independence",
+    "surrender to the mob instead of to the truth based on a fair trial",
+    "judge wickedly to gain fame and favor",
+    "Litigants have devised ways of reaching justices via their spouses, children, close relatives, school chums, doctors, even fathers-confessors",
+    "Jurists must avoid them like a plague",
+    "with my respectful dissent",
+    "the unelected, not the elected, should be the final repository of our people's liberty and prosperity under the rule of law"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, retired CJ)",
+      "Chief Justice Alexander G. Gesmundo",
+      "President Ferdinand Marcos Jr.",
+      "Vice President Sara Duterte",
+      "Senate President Migz Zubiri",
+      "Speaker Martin Romualdez",
+      "Pontius Pilate (analogical reference)",
+      "Jesus Christ (analogical reference)",
+      "Jose Rizal (analogical reference)"
+    ],
+    "institutions": [
+      "Pulse Asia",
+      "Social Weather Stations (SWS, referenced)",
+      "Supreme Court of the Philippines",
+      "Senate of the Philippines",
+      "House of Representatives",
+      "Office of the President / VP",
+      "Philippine Bar",
+      "Spanish colonial regime (historical analog)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution (qualifications for top officials; fixed terms; security of tenure; removal via impeachment; fixed compensation for justices)",
+      "Quo warranto procedure (referenced with 'respectful dissent')"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Unelected CJs should be excluded from the same approval/awareness/trust/performance surveys applied to elected leaders under the same standards and metrics — such surveys constitute embarrassment at least, or even harassment, for the CJs and the Supreme Court.",
+      "rhetorical_move": "categorical-exclusion proposal: an institutional ask to pollsters",
+      "evidence": "Pulse Asia ratings; empirical claim that no CJ has exceeded 50% approval in 15+ years"
+    },
+    {
+      "claim": "Justices and judges are constitutionally required five additional qualities (competence, integrity, probity, independence, Bar membership) not required of elected officials — and they land their jobs based on those qualities, not on popular mandate and political skills.",
+      "rhetorical_move": "constitutional-asymmetry argument: different qualifications imply different evaluation standards",
+      "evidence": "Constitutional text on qualifications; absence of equivalent qualifications for elected officials"
+    },
+    {
+      "claim": "Independence is the most prized of the five additional qualifications and is protected by security of tenure, impeachment-only removal (with author's respectful dissent on QW), and fixed compensation continuing into retirement until death.",
+      "rhetorical_move": "structural-design argument: institutional shields exist precisely to insulate from popularity",
+      "evidence": "Constitutional protections; structural design of judicial-independence safeguards"
+    },
+    {
+      "claim": "Jurists must decide by conscience and the law — 'though the heavens may fall' — regardless of mob, the powerful, the media, the influential, social media practitioners, or even via approaches through spouses, children, relatives, school chums, doctors, or fathers-confessors. They must avoid such approaches 'like a plague.'",
+      "rhetorical_move": "absolutist-independence creed via plague-avoidance metaphor",
+      "evidence": "Pilate-Jesus analogy (rule-of-mob warning); Spanish-conquistadores-Rizal analogy (rule-of-powerful warning); litigant-approach taxonomy"
+    },
+    {
+      "claim": "The unelected, not the elected, should be the final repository of the people's liberty and prosperity under the rule of law — an institutional irony but indispensable to constitutional democracy.",
+      "rhetorical_move": "structural-irony assertion: democratic legitimacy via non-democratic institution",
+      "evidence": "Constitutional design; FLP creed continuity"
+    }
+  ],
+  "notable_anecdotes": [
+    "The specific Pulse Asia ratings line-up — Marcos 65%, Sara Duterte 73%, Zubiri 50%, Romualdez 41%, Gesmundo 34% — used as the column's data hook for the constitutional-asymmetry argument.",
+    "Two analogical warnings: Pilate condemning Jesus Christ according to the rule of the mob, and the Spanish conquistadores executing Jose Rizal according to the rule of the powerful — paired as the dual failure-modes of non-rule-of-law judgment.",
+    "Litigant-approach taxonomy ('via their spouses, children, close relatives, school chums, doctors, even fathers-confessors') with the plague-avoidance directive — a vivid catalogue of the everyday-influence channels jurists must refuse.",
+    "Author's parenthetical 'arguably, with my respectful dissent, through quo warranto' — quietly maintaining his long-standing position against QW as a removal mode while not derailing the column's main argument."
+  ],
+  "target_audience": [
+    "Polling firms (Pulse Asia, SWS, and others)",
+    "Sitting CJs and Supreme Court justices",
+    "Civic-minded readers tracking judicial-independence questions",
+    "Media organizations using polling data on judicial officials",
+    "Constitutional-law academe",
+    "Senators and House members involved in judicial confirmation/oversight"
+  ],
+  "register_markers": [
+    "institutional-advocacy register (formal exclusion proposal to pollsters)",
+    "'in my humble opinion' / 'IMHO' deferential markers",
+    "constitutional-asymmetry exposition mode (qualifications and terms compared)",
+    "five-additional-qualities catalogue device",
+    "analogical-warning pairings (Pilate-Jesus; Spanish-Rizal)",
+    "absolutist-independence creed register ('though the heavens may fall')",
+    "plague-avoidance directive metaphor",
+    "respectful-dissent parenthetical for the QW position",
+    "litigant-approach taxonomy as catalogue device",
+    "self-foreshadowing closer (the language later self-cited in subsequent columns)"
+  ],
+  "decision_framework_signals": [
+    "applies elected-vs-unelected asymmetry as the dispositive ground for differential evaluation standards",
+    "treats independence as the most-prized of the five additional judicial qualifications",
+    "uses structural-shields catalogue (tenure, impeachment-only, fixed compensation) as institutional-design evidence",
+    "deploys 'though the heavens may fall' fiat-justitia maxim as the absolutist judicial-independence creed",
+    "applies plague-avoidance categorical-rejection to all influence channels (mob, powerful, media, intimates, confessors)",
+    "frames the unelected-as-final-repository structural irony as a positive constitutional feature"
+  ],
+  "one_paragraph_summary": "Panganiban writes in response to a recent Pulse Asia survey (Sept 10-14, 2023) showing approval ratings for top officials -- President Marcos at 65 percent, VP Sara Duterte at 73, SP Migz Zubiri at 50, Speaker Romualdez at 41, and CJ Alexander G. Gesmundo at 34 -- and reflects on the broader pattern that no CJ has exceeded a 50-percent approval rating in the last fifteen or so years. He argues that unelected CJs should be excluded from such approval/awareness/trust/performance surveys when conducted under the same standards and metrics applied to elected leaders, because such surveys constitute 'embarrassment at least, or even harassment' for the CJs and the Supreme Court. He grounds the argument in constitutional asymmetry: while the President, VP, senators, representatives, and SC justices share three basic qualifications (natural-born citizenship, minimum age, ability to read and write), justices and judges are constitutionally required five additional qualities -- 'proven competence, integrity, probity, and independence,' plus 'Member of the Philippine Bar' -- that are not required of elected officials, who acquire office through popular mandate and political skills (with the Constitution not prohibiting the unschooled, dishonest, dropouts, sycophants, and criminals from running for top executive and legislative posts unless disqualified by a law or a final judicial decision). Of the five additional qualifications, independence is the most prized and is protected by security of tenure, removal only via impeachment ('and arguably, with my respectful dissent, through quo warranto'), and fixed compensation that cannot be reduced by Congress and continues into retirement until death. Jurists must judge cases according to what is just and humane after due process -- not like Pilate who condemned Jesus Christ according to the rule of the mob, or like the Spanish conquistadores who executed Jose Rizal according to the rule of the powerful. Independence may mean working against the popular: a senator or former president cannot be acquitted simply because of popularity or to avoid street rallies, and decisions cannot be influenced through kins, friends, admirers, critical media, investigative journalists, opinion writers, social media practitioners, or even approaches via spouses, children, close relatives, school chums, doctors, or fathers-confessors -- these must be avoided 'like a plague.' Because CJs were not elected by poll respondents and are 'politically unknown,' they will always rank low, so 'let us spare them the embarrassment, nay, the harassment of being badly perceived vis-à-vis our elected officials.' He closes with a warning he will self-quote in subsequent columns: 'I will fret the day if and when CJs would vie for popularity instead of independence, surrender to the mob instead of to the truth based on a fair trial, and judge wickedly to gain fame and favor instead of rendering justice though the heavens may fall.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,164 @@
+{
+  "id": "CA137",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 137,
+  "title": "Moral turpitude",
+  "date": "2022-09-12",
+  "link": "https://opinion.inquirer.net/156885/moral-turpitude",
+  "keywords": [
+    "moral turpitude",
+    "failure to file ITR",
+    "tax evasion distinguished",
+    "Macatangay v. CSC",
+    "Republic v. Marcos II",
+    "Buenafe v. Comelec",
+    "en banc affirmation",
+    "duty to follow"
+  ],
+  "primary_topics": [
+    "Definition of moral turpitude as 'baseness, vileness or depravity'",
+    "Macatangay v. CSC (June 15, 2022) -- bigamy is moral turpitude; DFA employee dismissed",
+    "Republic v. Marcos II (Aug 4, 2009) -- failure to file ITRs is not moral turpitude; doctrine reaffirmed in Buenafe v. Comelec (June 28, 2022)",
+    "Asymmetry: lowly DFA employee dismissed vs presidential candidate gathering 31.6M votes treated differently",
+    "CJ's reluctant duty-to-follow stance pending reversal or clarification"
+  ],
+  "sub_topics": [
+    "Doctrinal definition: 'contrary to justice, modesty, or good morals; an act of baseness, vileness or depravity'",
+    "Macatangay v. CSC -- penned by J Ramon Paul I. Hernando (First Division); bigamy → dismissal of DFA employee",
+    "Three ITR violations distinguished: false return, fraudulent return with intent to evade, failure to file",
+    "Republic v. Marcos II -- penned by J (later CJ) Diosdado M. Peralta (Third Division)",
+    "Rule 78, Section 1 (Rules of Court): no convict of moral-turpitude offense as executor/administrator",
+    "Buenafe v. Comelec -- 83-page en banc, penned by J Rodil V. Zalameda",
+    "Tax evasion vs neglect: 'tax evasion connotes fraud through pretenses and forbidden devices'; 'Negligence, whether slight or gross, is not equivalent to fraud'",
+    "Court's brush-aside of petitioners' 'reexamine the totality of circumstances' request",
+    "PBBM's 31,629,783 votes (58.77%) cited by Court",
+    "CJ's call to follow even disagreed-with rulings until reversed, modified, or clarified as obiter dictum"
+  ],
+  "signature_phrases": [
+    "defiant of exact legal definition",
+    "an act 'contrary to justice, modesty, or good morals; an act of baseness, vileness or depravity'",
+    "DISMISSAL FROM EMPLOYMENT WAS THE ANSWER OF THE SUPREME COURT",
+    "It is easy to agree with this decision",
+    "IT MAY NOT BE EASY TO AGREE WITH THIS DECISION",
+    "Some may even rage against its cryptic and strained explanation",
+    "as long as the ruling is not reversed, or modified, or clarified to be merely an obiter dictum",
+    "the prevailing jurisprudence and all of us are duty-bound to follow it",
+    "while working to reverse or modify or clarify it",
+    "instead of reversing this ruling, the Court en banc affirmed and reiterated it",
+    "low profile Justice Rodil V. Zalameda",
+    "tax evasion connotes fraud through the use of pretenses and forbidden devices",
+    "Negligence, whether slight or gross, is not equivalent to fraud",
+    "It is not of itself immoral",
+    "BRUSHING ASIDE PETITIONERS' SUGGESTION",
+    "We deem it unnecessary to go through the same exercise",
+    "With due respect, I believe the Court should have tackled this challenge",
+    "to add flavor to the, I must admit, already meaty ponencia",
+    "a lowly employee had to be dismissed from the DFA while a candidate--who... gathered 31,629,783 votes",
+    "But the Court has spoken",
+    "we all have a duty to follow it",
+    "to undo an election, there must be compelling and unequivocal evidence"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Ramon Paul I. Hernando (Justice; Macatangay ponente)",
+      "Diosdado M. Peralta (Justice; later CJ; Marcos II ponente)",
+      "Rodil V. Zalameda (Justice; Buenafe ponente)",
+      "Ferdinand 'Bongbong' Marcos Jr. (referenced)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (First Division, Third Division, En Banc)",
+      "Civil Service Commission (CSC)",
+      "Department of Foreign Affairs (DFA)",
+      "Court of Appeals (referenced -- CA conviction of Marcos II)",
+      "Commission on Elections (Comelec)"
+    ],
+    "cases": [
+      "Macatangay v. CSC (June 15, 2022) -- J Hernando, First Division",
+      "Republic v. Marcos II (Aug 4, 2009) -- J Peralta, Third Division",
+      "Buenafe v. Comelec (June 28, 2022) -- J Zalameda, En Banc"
+    ],
+    "laws_treaties": [
+      "Rules of Court, Rule 78, Section 1 (executor/administrator disqualification)",
+      "National Internal Revenue Code (ITR provisions; tax-evasion penalties)"
+    ],
+    "events": [
+      "Macatangay DFA dismissal",
+      "Marcos II non-filing of ITRs for 1982-1985",
+      "May 9, 2022 presidential election (Marcos Jr.'s 31.6M votes / 58.77%)",
+      "Buenafe en banc petitions against Marcos Jr. candidacy"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Moral turpitude is generally understood as 'an act contrary to justice, modesty, or good morals; an act of baseness, vileness or depravity in the private and social duties which a man owes his fellowmen.'",
+      "rhetorical_move": "doctrinal-definition statement",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Macatangay v. CSC (June 15, 2022, J Hernando) correctly held bigamy to be moral turpitude warranting dismissal of a DFA employee -- an easy decision to agree with.",
+      "rhetorical_move": "first-case endorsement",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Republic v. Marcos II (Aug 4, 2009, J Peralta) -- distinguishing false return, fraudulent return with intent to evade, and failure to file ITRs, and holding only the first two to involve moral turpitude -- is harder to agree with; the cryptic and strained explanation may even draw rage, but it remains the prevailing jurisprudence and all of us are duty-bound to follow it while working to reverse, modify, or clarify it.",
+      "rhetorical_move": "respectful-disagreement with duty-to-follow caveat",
+      "confidence": "asserted critically"
+    },
+    {
+      "claim": "Buenafe v. Comelec (June 28, 2022, J Zalameda, en banc) affirmed and reiterated Republic v. Marcos II, distinguishing tax evasion (fraud through pretenses and forbidden devices) from negligent failure to file (not immoral, not depraved).",
+      "rhetorical_move": "doctrinal-development tracing",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "With due respect, the Court should have engaged petitioners' request to 'reexamine the totality of circumstances' -- to add flavor to the already-meaty ponencia and to explain why a lowly DFA employee is dismissed while a candidate with 31,629,783 votes is treated differently.",
+      "rhetorical_move": "asymmetry-critique with humility marker",
+      "confidence": "asserted critically"
+    },
+    {
+      "claim": "But the Court has spoken; we all have a duty to follow -- 'to undo an election, there must be compelling and unequivocal evidence of the candidate's disqualification,' and Marcos Jr.'s COC contains 'no false material representation.'",
+      "rhetorical_move": "duty-to-follow closing concession",
+      "confidence": "asserted reluctantly"
+    }
+  ],
+  "notable_anecdotes": [
+    "The deliberate juxtaposition of ALL-CAPS section openers -- 'DISMISSAL FROM EMPLOYMENT WAS THE ANSWER OF THE SUPREME COURT' (easy to agree) and 'IT MAY NOT BE EASY TO AGREE WITH THIS DECISION' (Marcos II) -- making the column's structural critique itself typographic.",
+    "CJ's verdict on the Marcos II reasoning -- 'cryptic and strained explanation' -- one of the sharpest editorial adjective-pairs in the late columns about a sitting doctrine.",
+    "The lowly-DFA-employee-vs-31.6M-voter contrast as the central justice asymmetry -- CJ does not name the unfairness explicitly but the structural pairing renders it unmistakable.",
+    "The duty-to-follow doctrine articulated as a civic discipline: 'as long as the ruling is not reversed, or modified, or clarified to be merely an obiter dictum... it is the prevailing jurisprudence and all of us are duty-bound to follow it, while working to reverse or modify or clarify it.'",
+    "The compliment-with-criticism move -- 'low profile Justice Rodil V. Zalameda' and 'the already meaty ponencia' -- preserving respect for the ponente while disputing the result."
+  ],
+  "target_audience": [
+    "Members of the Philippine bench and bar",
+    "Constitutional-law scholars and election-law practitioners",
+    "Civil-service and HR officers (CSC and other agencies)",
+    "Anti-Marcos opposition lawyers and civil-society advocates",
+    "FLP donors interested in CJ's analysis of Marcos restoration",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "doctrinal-formal register with ALL-CAPS section openers as structural rhetoric",
+    "'It is easy to agree with this decision' / 'IT MAY NOT BE EASY TO AGREE WITH THIS DECISION' parallel-construction critique",
+    "'With due respect' professional-courtesy marker",
+    "'low profile Justice' character-praise epithet",
+    "'cryptic and strained' editorial adjective-pair",
+    "bold-types-in-original parenthetical preservation",
+    "doctrine of duty-to-follow articulated as civic norm",
+    "specific vote-tally citation (31,629,783 votes / 58.77%)",
+    "no Tagalog markers; doctrinal-political English"
+  ],
+  "decision_framework_signals": [
+    "applies the doctrinal-definition test (baseness, vileness, depravity) as the operative moral-turpitude standard",
+    "uses three-way distinction among false / fraudulent / failure-to-file returns to map the doctrine",
+    "applies the duty-to-follow principle (prevailing jurisprudence binds until reversed/modified/clarified as obiter)",
+    "uses asymmetry-critique frame (lowly employee dismissed vs 31.6M-vote candidate excused)",
+    "applies respectful-disagreement convention (challenge while obeying)",
+    "treats en banc affirmation as doctrinal hardening that closes a question for the moment",
+    "preserves the route to reversal/modification/clarification as the legitimate avenue for change"
+  ],
+  "one_paragraph_summary": "Panganiban examines the doctrine of moral turpitude through three Supreme Court decisions. In Macatangay v. CSC (June 15, 2022), penned by Justice Ramon Paul I. Hernando (First Division), the Court ruled that bigamy is a crime involving moral turpitude and consequently dismissed a Department of Foreign Affairs employee convicted of it -- a decision easy to agree with. In Republic v. Marcos II (Aug 4, 2009), penned by Justice (later CJ) Diosdado M. Peralta (Third Division), the Court held that Ferdinand Marcos II's failure to file ITRs for 1982-1985 was not moral turpitude -- distinguishing false returns, fraudulent returns with intent to evade, and mere failure to file, and treating only the first two as involving the requisite 'willfulness and fraudulent intent.' This decision, CJ concedes, is harder to agree with -- some may rage against its 'cryptic and strained' explanation -- but it is the prevailing jurisprudence and all are duty-bound to follow it 'while working to reverse or modify or clarify it.' Instead of reversal, however, the en banc in Buenafe v. Comelec (June 28, 2022), penned by 'low profile' Justice Rodil V. Zalameda, affirmed and reiterated it -- clarifying that tax evasion involves fraud through pretenses and forbidden devices while negligent failure to file is 'not of itself immoral.' The Court brushed aside petitioners' request to 'reexamine the totality of circumstances,' which CJ -- with due respect -- believes it should have engaged, if only to explain why a lowly DFA employee is dismissed for bigamy while a presidential candidate who 'gathered 31,629,783 votes, or 58.77%' is treated differently. 'But the Court has spoken' -- and to undo an election requires compelling and unequivocal evidence the COC simply does not bear.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

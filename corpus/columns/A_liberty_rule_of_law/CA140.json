@@ -1,0 +1,170 @@
+{
+  "id": "CA140",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 140,
+  "title": "Is appointment of Comelec chair constitutional?",
+  "date": "2022-08-15",
+  "link": "https://opinion.inquirer.net/156070/is-appointment-of-comelec-chair-constitutional",
+  "keywords": [
+    "George Garcia",
+    "Comelec chair",
+    "ad interim appointment",
+    "CA bypass",
+    "Funa v. COA",
+    "promotional vs reappointment",
+    "inhibition",
+    "Pangarungan",
+    "Neri"
+  ],
+  "primary_topics": [
+    "Three reader questions on the ad interim appointment of George Garcia as Comelec chair",
+    "Constitutional and statutory framework for Comelec appointments (Article IX-C, Section 1, paragraph 2)",
+    "Funa v. COA (April 24, 2012) on promotional vs reappointment within the three constitutional commissions",
+    "Why Pangarungan and Neri cannot return to the Comelec",
+    "Garcia's many former clients and the role of inhibition"
+  ],
+  "sub_topics": [
+    "Article IX-C, Section 1, paragraph 2: appointment by President with CA consent for 7 years; no reappointment; unexpired-term-only for vacancies; no temporary or acting capacity",
+    "Ad interim appointments as permanent in nature (fixed by law until next adjournment of Congress)",
+    "Pangarungan as ad interim chair; Garcia and Neri as ad interim commissioners (Feb 2022)",
+    "CA bypass leading to lapse upon adjournment and vacating of posts",
+    "Garcia's second ad interim appointment, this time as chair",
+    "Funa v. COA -- resignation, death, disability, removal-by-impeachment trigger; promotional appointment for the unexpired portion; 7-year aggregate cap",
+    "CJ's stretch: CA-inaction equated 'in pari materia' with the four enumerated triggers",
+    "Why Neri cannot be reappointed commissioner (express constitutional bar); could be chair but no vacancy",
+    "Why Pangarungan cannot be returned (post now occupied; constitutional bar on reappointment to same post)",
+    "Garcia's many clients including the President, senators, representatives, governors, mayors",
+    "Inhibition as standard ethical practice; analogy with former SolGens promoted to SC"
+  ],
+  "signature_phrases": [
+    "A professor and habitual reader asked me three questions",
+    "Compañero George Garcia",
+    "LET US BEGIN THE ANSWERS WITH THE CONSTITUTION",
+    "Their appointments were neither temporary nor acting in nature",
+    "an ad interim appointment is permanent in nature",
+    "they cannot be removed from their offices except for cause and after due process",
+    "contributing immensely to the peaceful and orderly holding of the last presidential elections",
+    "Unfortunately for them, the CA failed to act (or by-passed) their appointments",
+    "their ad interim appointments lapsed upon the adjournment of Congress",
+    "THE SUPEME COURT EN BANC HELD in Funa v. COA",
+    "is eligible for an appointment to the position of Chairman for the unexpired portion of the term",
+    "a 'promotional appointment'--unlike a 'reappointment' to the same position--is not barred",
+    "Though Garcia did not 'resign,' I believe",
+    "such inaction can be considered equal to and in pari materia with",
+    "Neri can no longer be reappointed Comelec commissioner because of the express constitutional prohibition",
+    "she could no longer aspire for that post because it is no longer vacant",
+    "GARCIA OPENLY ADMITS",
+    "The law allows him to inhibit",
+    "Inhibition is neither novel nor unethical",
+    "former solicitor generals who have been promoted to the Supreme Court inhibit, too",
+    "is not legally abominable",
+    "careful in desisting from influencing in any manner the remaining decision-makers"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "George Garcia (Comelec chair, ad interim)",
+      "Saidamen Pangarungan (former ad interim Comelec chair)",
+      "Aimee Torrefranca-Neri (former ad interim Comelec commissioner)",
+      "Ferdinand 'Bongbong' Marcos Jr. (referenced as one of Garcia's clients)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "Supreme Court of the Philippines",
+      "Commission on Appointments (CA)",
+      "Commission on Audit (COA)",
+      "Civil Service Commission (CSC)",
+      "Office of the Solicitor General (referenced -- analogous inhibition practice)"
+    ],
+    "cases": [
+      "Funa v. COA (April 24, 2012) -- en banc"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution, Article IX-C, Section 1, paragraph 2 (Comelec appointments)",
+      "Constitutional provisions on the three constitutional commissions (Comelec, COA, CSC)"
+    ],
+    "events": [
+      "Feb 2022 -- Garcia, Neri ad interim commissioner appointments; Pangarungan ad interim chair",
+      "May 9, 2022 -- presidential elections supervised by the ad interim Comelec",
+      "CA bypass and lapse of ad interim appointments",
+      "Garcia's second ad interim appointment as chair"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Article IX-C, Section 1, paragraph 2 of the Constitution requires presidential appointment with CA consent for a seven-year term, bars reappointment, limits replacement appointments to the unexpired term of the predecessor, and prohibits temporary or acting capacity.",
+      "rhetorical_move": "constitutional-text statement",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "An ad interim appointment is constitutionally permanent in nature because the term is fixed by law (until the next adjournment of Congress); the holder cannot be removed except for cause and after due process -- unlike temporary or acting appointees.",
+      "rhetorical_move": "settled-jurisprudence clarification",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Garcia, Neri, and Pangarungan validly served and contributed to the peaceful and orderly conduct of the 2022 presidential elections; their appointments lapsed only because the CA bypassed them and Congress adjourned.",
+      "rhetorical_move": "service-record acknowledgment",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Under Funa v. COA (April 24, 2012), a commissioner who resigns with less than seven years served can be appointed chair for the unexpired portion of the departing chair's term -- provided the vacancy resulted from death, resignation, disability, or removal by impeachment. A promotional appointment is not barred by the no-reappointment rule.",
+      "rhetorical_move": "Funa-doctrine citation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Although Garcia did not 'resign' and the vacancy did not arise from one of Funa's four enumerated triggers, CA inaction can be considered equal to and 'in pari materia' with death/resignation/disability/impeachment -- so Garcia can validly serve as Comelec chair for the unexpired portion of Pangarungan's term, with total tenure capped at 7 years including his commissioner service.",
+      "rhetorical_move": "in-pari-materia doctrinal extension",
+      "confidence": "asserted as CJ's view"
+    },
+    {
+      "claim": "Neri cannot be reappointed commissioner (express constitutional bar); she could be named chair but no longer can because the post is now occupied. Pangarungan cannot be returned to chair (now occupied and barred from reappointment to the same post) but could be a commissioner if appointed and he accepts.",
+      "rhetorical_move": "applied-rule walkthrough for each individual",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Garcia's many former clients -- including the President, senators, representatives, governors, mayors -- are addressed by routine inhibition, a practice neither novel nor unethical; former SolGens promoted to the Supreme Court inhibit too when government cases are heard. The key is genuine inhibition plus desisting from influencing the remaining decision-makers.",
+      "rhetorical_move": "ethical-practice normalization with SC-SolGen analogy",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 'professor and habitual reader' device -- three questions itemized -- modeling a Q&A column structure that hands the reader-correspondent the framing rather than CJ inventing it.",
+    "'Compañero' for George Garcia -- bench-and-bar honorific signaling collegial regard for a fellow lawyer despite the constitutional scrutiny that follows.",
+    "The 'in pari materia' extension of Funa -- equating CA inaction with death/resignation/disability/impeachment -- a doctrinal stretch CJ flags explicitly with 'I believe' to signal it is his interpretation, not settled law.",
+    "The SolGen-promoted-to-SC inhibition analogy -- used to normalize Garcia's inhibition obligation without making it sound exotic.",
+    "The 'desisting from influencing in any manner the remaining decision-makers' refinement -- moving inhibition beyond formal recusal to a substantive non-influence duty."
+  ],
+  "target_audience": [
+    "Comelec officials and election-law practitioners",
+    "Members of the Commission on Appointments and their staff",
+    "Constitutional-law scholars",
+    "Election lawyers and political-party counsel",
+    "Civil-society groups monitoring Comelec appointments",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "Q&A column structure responding to a reader-correspondent",
+    "'Compañero' bench-and-bar honorific",
+    "ALL-CAPS section openers ('LET US BEGIN THE ANSWERS WITH THE CONSTITUTION,' 'THE SUPEME COURT EN BANC HELD,' 'GARCIA OPENLY ADMITS')",
+    "Latinism 'in pari materia'",
+    "'I believe' interpretive humility marker",
+    "applied-rule walkthrough for each individual (Garcia, Neri, Pangarungan)",
+    "ethical-practice normalization analogy (SolGens promoted to SC)",
+    "no Tagalog markers; constitutional-doctrinal English"
+  ],
+  "decision_framework_signals": [
+    "applies constitutional-text-as-starting-point method ('LET US BEGIN THE ANSWERS WITH THE CONSTITUTION')",
+    "uses ad-interim-as-permanent distinction (vs temporary or acting) for tenure analysis",
+    "applies Funa v. COA's promotional-vs-reappointment doctrine",
+    "uses the in-pari-materia analogical extension to fill enumerated-trigger gaps",
+    "applies the 7-year aggregate cap across commissioner + chair tenure",
+    "uses the express-prohibition-against-reappointment as the operative constitutional floor",
+    "applies the inhibition-plus-non-influence ethical standard for officials with extensive prior client lists",
+    "uses peer-practice analogy (SolGens promoted to SC) to normalize ethical practices"
+  ],
+  "one_paragraph_summary": "A professor-reader asked Panganiban three questions about the ad interim appointment of George Garcia as Comelec chair: can it withstand constitutional scrutiny; should he have declined given his many clients with pending Comelec matters; and can Saidamen Pangarungan and Aimee Torrefranca-Neri be returned to the Comelec? CJ begins with Article IX-C, Section 1, paragraph 2 of the Constitution: presidential appointment with Commission on Appointments consent for a seven-year term, no reappointment, replacement appointments only for the unexpired predecessor's term, no temporary or acting capacity. Ad interim appointments, per settled jurisprudence, are permanent in nature (term fixed by law until the next adjournment of Congress); in February 2022, Pangarungan was named ad interim chair and Garcia and Neri ad interim commissioners -- all contributing to the peaceful and orderly 2022 elections -- but the CA bypassed them and their appointments lapsed at adjournment. Garcia was then given a second ad interim appointment, this time as chair. Funa v. COA (April 24, 2012) allows a commissioner who resigns with less than seven years served to be promoted to chair for the unexpired portion of the departing chair's term -- provided the vacancy arose from death, resignation, disability, or removal by impeachment -- because a promotional appointment (unlike a same-position reappointment) is not constitutionally barred. Although Garcia did not resign and the vacancy did not arise from one of the four enumerated triggers, CJ argues CA inaction can be considered 'in pari materia' with them, allowing Garcia to validly serve as chair for the unexpired portion, capped at seven aggregate years. Neri cannot be reappointed commissioner (express constitutional bar) and the chair is now occupied; Pangarungan cannot return as chair (no reappointment to the same post) but could be a commissioner if appointed and accepting. As to Garcia's many former clients including the President, senators, representatives, governors, and mayors -- inhibition is neither novel nor unethical; former Solicitors General promoted to the Supreme Court inhibit too. The obligation, however, extends beyond formal inhibition to 'desisting from influencing in any manner the remaining decision-makers.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

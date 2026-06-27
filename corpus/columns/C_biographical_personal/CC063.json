@@ -1,0 +1,142 @@
+{
+  "id": "CC063",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 63,
+  "title": "Conversation with ICJ Judge Iwasawa",
+  "date": "2019-09-22",
+  "link": "https://opinion.inquirer.net/124125/conversation-with-icj-judge-iwasawa",
+  "keywords": [
+    "ICJ",
+    "Yuji Iwasawa",
+    "Peace Palace",
+    "collegial decision writing",
+    "ad hoc tribunal",
+    "Permanent Court of Arbitration",
+    "UN Charter",
+    "Nicaragua v. United States"
+  ],
+  "primary_topics": [
+    "ICJ Judge Yuji Iwasawa's Philippine visit and DFA private lunch",
+    "How the ICJ writes decisions: collegial committee drafting after en banc deliberation, no single ponente",
+    "Ad hoc judges available when a litigant lacks an ICJ judge of its nationality",
+    "Why ICJ judgments are usually obeyed: jurisdictional consent under the UN Charter",
+    "Distinction between ICJ (permanent court under UN Charter) and ad hoc arbitral tribunal (UNCLOS-based, registry at PCA)"
+  ],
+  "sub_topics": [
+    "ICJ as highest judicial organ of the United Nations",
+    "Address: 'Judge' (not 'Justice')",
+    "DFA private lunch hosted in Iwasawa's honor -- arranged by Usec Eduardo Malaya and Amb. Jaime Victor Ledda",
+    "ICJ collegial procedure: oral arguments + written briefs/memorials; 15 judges deliberate en banc; committee drafts; part-by-part votes; dissenters write under own name",
+    "5-judge panel possible at parties' request",
+    "Ad hoc judge of any nationality may be chosen -- case may be heard by 16 judges",
+    "Voluntary compliance with judgments, except the 1986 Nicaragua v. United States case (US vetoed Security Council compliance call; ignored General Assembly resolution; eventually settled diplomatically)",
+    "Jurisdiction under UN Charter only after state-party consent",
+    "Ad hoc arbitral tribunal (PH-China) chosen by litigants; nine-year fixed terms for ICJ judges in contrast",
+    "ICJ decisions form international law and judicial precedents; ad hoc tribunal awards do not",
+    "Permanent Court of Arbitration (PCA) as 'Registry,' not a court -- referenced via CJ's Sept 11, 2016 column",
+    "Iwasawa's prior career; succeeded Hisashi Owada (retired after daughter became Empress of Japan)",
+    "Nominated by CJ Panganiban, retired CJ Puno, retired Justice Vitug, Judge Raul C. Pangalangan (ICC) -- the four Filipino PCA members",
+    "Activities: Asian Society of International Law Conference (Harry Roque chair; Elizabeth Pangalangan as PH chapter chair); lecture at Philippine Judicial Academy"
+  ],
+  "signature_phrases": [
+    "Judge (that's how he is addressed, not 'Justice')",
+    "softspoken jurist",
+    "discussed, deliberated and vote en banc",
+    "discussed, scrutinized, corrected and voted upon part by part",
+    "ad hoc",
+    "After rendering their 'award,' they were disbanded",
+    "is not a part of international law",
+    "the rough equivalent of our Office of the Clerk of Court",
+    "Filipino members of the PCA",
+    "highest judicial organ of the United Nations"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, PCA Filipino member)",
+      "Judge Yuji Iwasawa (ICJ, Japan, succeeded Owada)",
+      "Judge Hisashi Owada (Japan, retired)",
+      "Empress Masako of Japan (Owada's daughter, oblique reference)",
+      "Usec Eduardo Malaya (DFA lunch organizer)",
+      "Ambassador Jaime Victor Ledda (PH Ambassador to The Netherlands)",
+      "Retired CJ Reynato S. Puno (PCA Filipino member; co-nominator)",
+      "Retired Justice Jose C. Vitug (PCA Filipino member; co-nominator)",
+      "Judge Raul C. Pangalangan (ICC, PCA Filipino member; co-nominator)",
+      "Prof. Elizabeth Pangalangan (ASIL PH chapter chair; Judge Pangalangan's wife)",
+      "Harry Roque (former presidential spokesperson; ASIL conference chair)"
+    ],
+    "institutions": [
+      "International Court of Justice (ICJ)",
+      "United Nations (UN)",
+      "UN Security Council",
+      "UN General Assembly",
+      "Permanent Court of Arbitration (PCA)",
+      "Peace Palace, The Hague",
+      "Department of Foreign Affairs (Philippines)",
+      "Asian Society of International Law (ASIL)",
+      "Philippine Judicial Academy"
+    ],
+    "cases": [
+      "Nicaragua v. United States (ICJ, June 27, 1986)",
+      "Philippines v. China arbitral award (July 12, 2016)"
+    ],
+    "laws_treaties": [
+      "United Nations Charter (1945) -- ICJ jurisdiction by consent",
+      "1982 UN Convention on the Law of the Sea (UNCLOS) -- ad hoc tribunal authority"
+    ],
+    "places": [
+      "Peace Palace, The Hague, Netherlands"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Unlike the Philippine and US Supreme Courts, the ICJ does not assign decisions to a single ponente -- after oral arguments and written briefs, the 15 judges deliberate and vote en banc, then elect a committee to draft the decision collegially, with the draft 'discussed, scrutinized, corrected and voted upon part by part'; dissenters may write separately under their own names.",
+      "rhetorical_move": "comparative-procedure descriptive contrast"
+    },
+    {
+      "claim": "Voluntary compliance with ICJ judgments is the norm because the UN Charter requires the Court to assume jurisdiction only after all state-parties have consented to participate -- and even the singular exception (the June 27, 1986 Nicaragua judgment that the US vetoed at the Security Council and ignored at the General Assembly) was 'in the end... settled peacefully through diplomacy and negotiation.'",
+      "rhetorical_move": "consent-based-enforcement explanation"
+    },
+    {
+      "claim": "The ICJ is structurally different from the ad hoc arbitral tribunal that recognized PH maritime entitlements: the ICJ is a permanent court whose nine-year-term judges are not chosen by litigants and whose decisions constitute international law and judicial precedents; the ad hoc tribunal was created to decide only one case, was disbanded after rendering its award, and its award 'is not a part of international law.'",
+      "rhetorical_move": "permanent-vs-ad-hoc structural distinction"
+    },
+    {
+      "claim": "The Permanent Court of Arbitration (PCA) is not a court but a 'Registry' (the rough equivalent of an Office of the Clerk of Court), despite being headquartered alongside the ICJ at the Peace Palace.",
+      "rhetorical_move": "common-misconception correction"
+    }
+  ],
+  "notable_anecdotes": [
+    "Hisashi Owada's retirement from the ICJ after his daughter became Empress of Japan -- the dynastic backstory to the vacancy Iwasawa filled.",
+    "CJ Panganiban's disclosure that he was one of the four Filipino PCA members (with retired CJ Puno, retired Justice Vitug, and Judge Pangalangan of the ICC) who nominated Iwasawa -- modeling how international-jurist appointments work via Filipino PCA membership.",
+    "DFA private lunch arranged by Usec Eduardo Malaya and Ambassador Jaime Victor Ledda -- anchoring the column in face-to-face diplomatic protocol.",
+    "Judge Pangalangan's absence from the lunch noted ('based in The Netherlands') with his wife Elizabeth Pangalangan named as ASIL PH chapter chair -- a paired-jurist family detail that recurs across CJ columns."
+  ],
+  "target_audience": [
+    "International-law practitioners and academics",
+    "ASIL and PH Judicial Academy attendees",
+    "DFA officials and PH diplomats",
+    "Civic readers tracking PH maritime arbitration",
+    "Comparative-jurisprudence scholars"
+  ],
+  "register_markers": [
+    "diplomatic-occasion register (DFA private lunch)",
+    "comparative-procedure descriptive contrast",
+    "address-correction marker ('Judge' not 'Justice')",
+    "self-citation of prior Sept 11, 2016 column",
+    "common-misconception correction (PCA as 'Registry,' not court)",
+    "named-co-nominator disclosure (Puno, Vitug, Pangalangan)",
+    "softspoken-jurist descriptor"
+  ],
+  "decision_framework_signals": [
+    "applies comparative-jurisdiction analysis (ICJ vs ad hoc tribunal vs PCA)",
+    "uses consent-based-enforcement to explain voluntary-compliance norm",
+    "deploys permanent-vs-ad-hoc structural distinction for jurisprudential weight",
+    "treats common-misconception correction (PCA-as-Registry) as pedagogical duty",
+    "frames collegial-decision-writing as procedural alternative worth considering"
+  ],
+  "one_paragraph_summary": "Panganiban recounts a private DFA-hosted lunch in honor of visiting ICJ Judge Yuji Iwasawa -- arranged by Usec Eduardo Malaya and Ambassador Jaime Victor Ledda -- during which the 'softspoken jurist' explained how the International Court of Justice reaches and writes its decisions. Unlike the Philippine and US Supreme Courts, the ICJ does not assign a single ponente; after oral arguments and written briefs or memorials, the 15 judges deliberate and vote en banc (5-judge panels are possible at the parties' request), elect a committee to draft the decision collegially, then discuss, scrutinize, correct, and vote on the draft part by part, with dissenters writing under their own names. Ad hoc judges of any nationality may be chosen when a litigant lacks an ICJ judge of its nationality -- making 16-judge benches possible. Iwasawa attributed near-universal voluntary compliance with ICJ judgments to the UN Charter's requirement of state-party consent to jurisdiction; the singular exception was the June 27, 1986 Nicaragua v. United States decision (the US vetoed Security Council compliance and ignored a General Assembly resolution) which was 'in the end... settled peacefully through diplomacy and negotiation.' CJ Panganiban then draws his own structural distinction: the ICJ is a permanent court whose nine-year-term judges form international law and judicial precedents, while the ad hoc arbitral tribunal that recognized Philippine maritime entitlements was created to decide one case, was disbanded after rendering its award, and its award 'is not a part of international law'; the Permanent Court of Arbitration (PCA), which served as the tribunal's 'Registry,' is not a court but 'the rough equivalent of our Office of the Clerk of Court.' Iwasawa thanked CJ Panganiban, retired CJ Reynato S. Puno, and retired Justice Jose C. Vitug -- the four Filipino PCA members along with ICC Judge Raul C. Pangalangan -- for nominating him to succeed Hisashi Owada, who retired after his daughter became Empress of Japan. His PH activities included the ASIL Conference (chaired by Harry Roque, with Elizabeth Pangalangan as PH chapter chair) and a Philippine Judicial Academy lecture.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

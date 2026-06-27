@@ -1,0 +1,162 @@
+{
+  "id": "CC089",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 89,
+  "title": "Mediating a Church dispute on people power",
+  "date": "2016-02-14",
+  "link": "https://opinion.inquirer.net/92855/mediating-a-church-dispute-on-people-power",
+  "keywords": [
+    "Behind-the-scenes Edsa-2 mediation memoir Feb 14 2016",
+    "CJP as Pontifical Council for the Laity member",
+    "Cardinal Sin vs Vatican via Nuncio Antonio Franco standoff",
+    "Msgr. Socrates Villegas as conduit",
+    "Msgr. Robinson Wijesinghe meeting Jan 18 2001",
+    "Vatican Vietnam-China-India activism worry",
+    "due-process and church-state separation explained to Nuncio",
+    "Franco's 'We have won!' whisper at Jan 20 Edsa Shrine oath",
+    "Archdiocese of Manila later split into 5 dioceses",
+    "Gaudencio Cardinal Rosales succession"
+  ],
+  "primary_topics": [
+    "Cardinal Jaime Sin's pivotal role in Edsa 1 and Edsa 2 as Archbishop of Manila",
+    "Internal Vatican dispute over Cardinal Sin's people-power activism in January 2001",
+    "Panganiban as the mediator between Cardinal Sin and Papal Nuncio Antonio Franco",
+    "The two Vatican concerns: due process violation against Estrada and church-state separation",
+    "Panganiban's reply on biased tribunals: the Senate impeachment court ceased to be objective after the 11-10 vote against opening the second envelope",
+    "The doctrine of church-state separation in the Philippine context: neutrality among sects, not state atheism",
+    "Post-Edsa-2 reorganization of the Archdiocese of Manila and Cardinal Sin's retirement"
+  ],
+  "sub_topics": [
+    "Sin's mobilizing power: 300+ parishes, 70 parochial schools, 200,000 warm bodies on call",
+    "Always-propeace exhortation during demonstrations",
+    "Vatican concerns about Vietnam, China, India bishops replicating activism",
+    "Panganiban's prior role as member of the Pontifical Council for the Laity",
+    "Monsignor Socrates Villegas as Cardinal Sin's assistant (later Archbishop of Lingayen-Dagupan and CBCP president)",
+    "Monsignor Robinson Wijesinghe as assistant to the nuncio",
+    "Three pillars of due process: hearing before condemnation, inquiry before judgment, judgment only after trial",
+    "Sin's threat to resign if the Vatican insisted on dispersing the demonstrators",
+    "First-line constitutional invocation of 'Almighty God' as evidence that separation does not mean state atheism",
+    "Oath-taking ending 'So help me God'; congressional and SC prayers preface sessions",
+    "Carving of five dioceses from the Archdiocese of Manila (Caloocan, Cubao, Novaliches, Parañaque, Pasig) by 2003",
+    "Gaudencio Cardinal Rosales as Sin's successor"
+  ],
+  "signature_phrases": [
+    "in my humble opinion",
+    "doctrinally",
+    "history is written by the victors",
+    "We have won!",
+    "Quite the contrary"
+  ],
+  "entities": {
+    "people": [
+      "Jaime Cardinal Sin (Archbishop of Manila)",
+      "Msgr. Socrates Villegas",
+      "Msgr. Antonio Franco (Papal Nuncio)",
+      "Msgr. Robinson Wijesinghe (assistant to nuncio)",
+      "Joseph Estrada",
+      "Gaudencio Cardinal Rosales"
+    ],
+    "institutions": [
+      "Archdiocese of Manila",
+      "Roman Catholic Church (the Vatican / Holy See)",
+      "Pontifical Council for the Laity",
+      "Catholic Bishops' Conference of the Philippines (CBCP)",
+      "Senate Impeachment Court (2001)",
+      "Philippine Senate",
+      "Diocese of Lingayen-Dagupan",
+      "Carved dioceses: Caloocan, Cubao, Novaliches, Parañaque, Pasig"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution (preamble: 'imploring the aid of Almighty God')",
+      "Presidential and vice-presidential oath ('So help me God')",
+      "Church-state separation doctrine"
+    ],
+    "events": [
+      "Edsa 1 (Feb 22-25, 1986)",
+      "Edsa 2 (Jan 16-20, 2001)",
+      "Senate impeachment trial of Estrada (Jan 2001)",
+      "Walkout of 11 prosecutors (Jan 16, 2001)",
+      "Phone consultation between Villegas and Panganiban (Jan 17, 2001)",
+      "Private conference between Panganiban, Franco, and Wijesinghe (Jan 18, 2001)",
+      "Oath-taking at Edsa Shrine (Jan 20, 2001)",
+      "Cardinal Sin's retirement (2003)",
+      "Reorganization of Archdiocese of Manila -- five new dioceses carved out"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Cardinal Sin's role in Edsa 1 and Edsa 2 was indispensable; his mobilizing capacity (300+ parishes, 200,000-strong flock) provided the critical mass for both peaceful revolutions",
+      "rhetorical_move": "quantitative establishment of institutional weight",
+      "confidence": "high"
+    },
+    {
+      "claim": "Despite his activism, Cardinal Sin always exhorted peace and nonviolence -- propeace exhortation was constant",
+      "rhetorical_move": "moral characterization to forestall criticism that activism was destabilizing",
+      "confidence": "high"
+    },
+    {
+      "claim": "Vatican concern about Asian bishops replicating activism (Vietnam, China, India) had legitimate geopolitical foundation but should not have curtailed the moral imperative in the Philippines",
+      "rhetorical_move": "acknowledging the opposing view while preparing the rebuttal",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Senate impeachment court ceased to be an 'objective tribunal' after the 11-10 vote against opening the second envelope; due process presumes objectivity, and once objectivity is forfeited, the demand for further hearing is doctrinally moot",
+      "rhetorical_move": "subtle indictment via Socratic invitation ('I did not say the Senate was biased, but I asked Monsignor Franco ... to determine for themselves')",
+      "confidence": "high"
+    },
+    {
+      "claim": "Pulling the Philippine Church back at that point would have plunged the nation into chaotic revolution for which the Vatican (a foreign state) could be blamed -- a dismal defeat for peace and the Church",
+      "rhetorical_move": "consequentialist argument tied to the Vatican's own institutional interest",
+      "confidence": "high"
+    },
+    {
+      "claim": "Church-state separation in Philippine constitutional doctrine requires state neutrality among religious groups -- not state hostility to faith; the Constitution's preamble itself invokes 'Almighty God'",
+      "rhetorical_move": "textual argument from the preamble and oath structure",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Church should prioritize the faith and morals of the flock over secular activities; after People Power 2, the hierarchy should reexamine its position and strengthen its primary re-evangelizing and re-pastoring function",
+      "rhetorical_move": "concession to Vatican concern; ecclesiological prescription",
+      "confidence": "high"
+    },
+    {
+      "claim": "History is written by the victors -- the victors in any revolution, peaceful or bloody, dictate the flow of history; the Philippine Church chose the right side",
+      "rhetorical_move": "aphoristic close to the consequentialist argument",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Phone call from Villegas (Jan 17, 2001) revealing the Vatican directive to disperse demonstrators and Sin's refusal -- preferring resignation",
+    "Private conference with Nuncio Franco and Msgr. Wijesinghe (Jan 18, 2001) -- Panganiban as mediator on the strength of his prior membership in the Pontifical Council for the Laity",
+    "Nuncio Franco's whisper to Panganiban at the Edsa Shrine oath-taking: 'We have won!' -- a quiet vindication that the mediation had succeeded",
+    "Reorganization of the Archdiocese of Manila reducing it to roughly a fourth of its original size by Sin's 2003 retirement"
+  ],
+  "target_audience": [
+    "Inquirer readership interested in the spiritual and ecclesiastical dimensions of Edsa 2",
+    "Catholic faithful and clergy curious about internal Vatican dynamics",
+    "Historians and political analysts studying the role of the Church in people-power movements",
+    "Readers who have followed Panganiban's earlier Edsa 2 columns and want the church-side narrative"
+  ],
+  "register_markers": [
+    "memoir-historical narrative voice",
+    "doctrinally-precise terminology ('doctrinally', 'church-state separation', 'apriori')",
+    "use of religious titles consistently (Msgr., Cardinal)",
+    "quoted constitutional preamble fragment for textual evidence",
+    "aphoristic close ('history is written by the victors')",
+    "subtle indictment via question rather than direct accusation",
+    "intimate-historical reveal ('Upon seeing me, he whispered, We have won!')"
+  ],
+  "decision_framework_signals": [
+    "Due process presumes an objective tribunal -- once objectivity is lost, demand for more hearing is moot",
+    "Consequentialist test: what does intervention here produce -- peace or chaos?",
+    "Church-state separation as state neutrality among sects, not state atheism",
+    "Hierarchy of ecclesiastical priorities: faith and morals over secular activities (post-crisis)",
+    "Victor's-history aphorism as final justification"
+  ],
+  "one_paragraph_summary": "Panganiban reveals a little-known chapter in Edsa 2's history: his role as mediator in a serious internal Vatican dispute over Cardinal Jaime Sin's activism in January 2001. He begins by establishing Sin's indispensable mobilizing capacity -- 300+ parishes and 70 parochial schools under his archbishopric, capable of producing nearly 200,000 warm bodies marching to a single drummer with their own provisions -- and his constant propeace, nonviolent exhortation. But despite this peaceableness, Sin's activism drew Vatican criticism, which surfaced silently during Edsa 2. On Jan 17, 2001, the day after the prosecutors' walkout from the Senate impeachment trial, Msgr. Socrates Villegas phoned Panganiban: Papal Nuncio Antonio Franco, on directive from his Vatican superiors, had asked Cardinal Sin to disperse the demonstrators at the Edsa Shrine. Sin refused -- preferring to resign if the Vatican insisted. To defuse the crisis, both the cardinal and the nuncio asked Panganiban, in his prior capacity as a member of the Pontifical Council for the Laity, to mediate. On Jan 18, Panganiban conferred privately with Franco and Msgr. Robinson Wijesinghe. The Vatican's two concerns were (1) whether Estrada's due process was being violated by demands for resignation without the prosecutors completing their case, and (2) whether church-state separation was being breached by clerical involvement in people power. Panganiban replied on the first point that due process presumes an objective tribunal -- and after the Senate's 11-10 refusal to open the second envelope, the bishops had seen enough to make their own evaluation; pulling the Church back at that point would plunge the nation into chaotic, bloody revolution for which the Vatican (a foreign state) could be blamed, a dismal defeat for peace and for the Church alike, since 'history is written by the victors.' On the second point, he explained that church-state separation in Philippine constitutional doctrine requires state neutrality among religious groups, not state hostility -- the Constitution's preamble itself invokes 'Almighty God,' presidential and vice-presidential oaths end with 'So help me God,' and Congress, the Cabinet, and the SC preface sessions with prayer. The state cannot fund a basilica for one sect or promote one sect's dogmas, but priests as citizens may hold public office. Doctrinally he conceded the Vatican's concern that the hierarchy should prioritize the faith and morals of the flock over secular activities, and prescribed that after Edsa 2 the Church should reexamine its position and strengthen its re-evangelizing and re-pastoring function. Franco said he would report to his superiors. Panganiban was never told what was reported, but at the Jan 20 oath-taking at the Edsa Shrine, Franco was in the front row and whispered upon seeing him: 'We have won!' He closes by noting that by Sin's 2003 retirement, the Archdiocese of Manila had been reduced to about a fourth of its original size, with five new dioceses carved out (Caloocan, Cubao, Novaliches, Parañaque, Pasig), and the low-profile conservative Gaudencio Cardinal Rosales installed in Sin's place.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

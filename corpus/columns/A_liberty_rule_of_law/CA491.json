@@ -1,0 +1,123 @@
+{
+  "id": "CA491",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 491,
+  "title": "Transparent, accountable and dignified",
+  "date": "2012-07-21",
+  "link": "https://opinion.inquirer.net/33087/transparent-accountable-and-dignified",
+  "keywords": [
+    "JBC interviews",
+    "chief justice selection",
+    "JBC reform",
+    "judicial appointments",
+    "transparency accountability",
+    "CJ Concepcion",
+    "Commission on Appointments",
+    "judicial independence"
+  ],
+  "primary_topics": [
+    "JBC's challenge to conduct the chief justice interview process transparently, accountably, and with dignity",
+    "CJ Panganiban's proposal to amend the Constitution to strengthen JBC membership composition",
+    "Standards the JBC should apply when screening nominees for chief justice in the post-Corona era"
+  ],
+  "sub_topics": [
+    "JBC's 25-year history -- most challenged moment now to prove the council system works",
+    "Critics attacking JBC for leniency, allowing Palace favorites to be nominated",
+    "Proposal to abolish JBC and return to President + Commission on Appointments appointment system",
+    "CJ Roberto Concepcion instituted JBC to depoliticize judicial appointments",
+    "Old CA confirmation hearings: crude questions, demands for personal favors, political power plays",
+    "JBC system adopted in 20+ countries, especially Europe and Latin America",
+    "France, Italy, Portugal, Spain: judicial councils with ~20 members who appoint (not merely nominate) judges",
+    "Judge Sandra Oxner of Commonwealth Judicial Institute of Canada study on international trend",
+    "JBC innovation: live media coverage of interviews",
+    "Proposed constitutional amendment: SC appoints JBC members for retired justices, integrated bar, law professors",
+    "President continues to appoint private-sector representative; Congress gets one member each chamber",
+    "Resulting balance: SC with 4 members, political branches with 4 members",
+    "Criteria for nominees: proven competence, integrity, probity, independence",
+    "Post-Corona lessons: JBC to comb candidates' SALNs and ITRs",
+    "CJ as leader and CEO: grilled on familiarity with all eight chief justice duties"
+  ],
+  "signature_phrases": [
+    "transparent and accountable while preserving the dignity",
+    "not only the candidates who will be judged but also the JBC itself",
+    "never in its 25-year history has the JBC been more challenged",
+    "returning our magistrates to the political mud",
+    "best and the brightest",
+    "proven competence, integrity, probity, and independence",
+    "living models of the four constitutional ideals",
+    "circus-like CA confirmation process",
+    "heralded as a way of depoliticizing the appointments"
+  ],
+  "entities": {
+    "people": [
+      "CJ Roberto Concepcion (instituted JBC in 1987 Constitution)",
+      "Judge Sandra Oxner (Commonwealth Judicial Institute of Canada -- JBC study)",
+      "CJ Renato C. Corona (impeachment context)",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Judicial and Bar Council (JBC)",
+      "Supreme Court of the Philippines",
+      "Commission on Appointments (CA) -- old system",
+      "Philippine Judicial Academy",
+      "Commonwealth Judicial Institute of Canada"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Philippine Constitution -- JBC provisions, four constitutional ideals for judiciary"
+    ],
+    "events": [
+      "JBC daily live-media-coverage interviews starting July 24, 2012 for chief justice vacancy",
+      "Corona impeachment trial (post-conviction context)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The proposal to abolish the JBC and return to the President + Commission on Appointments system is misguided: under the old system, no SC appointee was ever rejected by the CA despite some proving unworthy, and the old hearings were demeaned by crude questions and demands for personal favors.",
+      "rhetorical_move": "historical-failure rebuttal: using the CA system's own zero-rejection record as proof of its inadequacy",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Constitution should be amended to have the Supreme Court appoint three JBC members (retired justices, integrated bar, law professors) while the President retains the private-sector representative and each chamber of Congress gets one member — creating a 4-4 balance between judicial and political branches.",
+      "rhetorical_move": "structural-reform proposal: rebalancing JBC composition to reduce political pressure while preserving democratic representation",
+      "confidence": "recommended as a future constitutional amendment"
+    },
+    {
+      "claim": "Post-Corona, the JBC must comb candidates' SALNs and ITRs and grill them on their familiarity with all eight chief justice duties, vision-mission for reform, and plans to speed up the delivery of quality justice.",
+      "rhetorical_move": "impeachment-lesson-as-reform-standard: using the Corona SALN scandal as the operational template for JBC vetting",
+      "confidence": "recommended"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ Concepcion's lament that the old CA confirmation hearings 'demeaned the appointees not only with crude and impertinent questions but also with demands for personal favors' — deployed as the historical justification for the JBC system, directly contrasting its dignity-preserving design with the political circus it replaced.",
+    "Judge Sandra Oxner's study showing the JBC's council model has been adopted in 20+ countries, with France, Italy, Portugal, and Spain having councils that actually appoint (not just nominate) judges — used as international validation for strengthening rather than abolishing the JBC.",
+    "The unnamed justice who was snubbed at his retirement dinner after being 'held liable for grave misconduct for leaking a confidential internal document and fined P500,000' — used in prior context as a cautionary example of the post-impeachment scrutiny now being applied to the chief justice selection process."
+  ],
+  "target_audience": [
+    "JBC members conducting the chief justice interviews",
+    "President Aquino as the ultimate appointing authority",
+    "Chief justice nominees preparing for the JBC screening",
+    "Legal academics and constitutional reform advocates",
+    "General civic readership following the post-Corona judicial succession"
+  ],
+  "register_markers": [
+    "civic-challenge register ('the JBC itself will be judged')",
+    "historical-failure rebuttal (old CA system's zero-rejection record)",
+    "international-validation register (20+ countries, France/Italy/Portugal/Spain)",
+    "constitutional-amendment proposal register ('at the proper time, the Constitution should be amended')",
+    "four-ideals constitutional citation ('proven competence, integrity, probity, independence')",
+    "post-impeachment-lesson register (SALN/ITR scrutiny as new JBC standard)"
+  ],
+  "decision_framework_signals": [
+    "applies historical-failure test to rebut JBC abolition: old CA system's zero-rejection record as proof of inadequacy",
+    "uses international-benchmarking framework (20+ countries) to validate strengthening vs abolishing JBC",
+    "proposes 4-4 judicial-political balance as the constitutional reform standard for JBC composition",
+    "applies post-impeachment-lesson framework: Corona SALN scandal as the operational template for vetting",
+    "treats four constitutional ideals (competence, integrity, probity, independence) as the non-negotiable screening baseline"
+  ],
+  "one_paragraph_summary": "Writing as daily live-media-coverage JBC interviews begin July 24, 2012 for the chief justice vacancy, Panganiban identifies the JBC's central challenge: to prove in its 25-year history that the council system works -- interviewing candidates assiduously but not rudely, scrutinizing thoroughly but not brusquely -- while critics push to abolish it and return to President + Commission on Appointments appointments. He rebuts the abolition proposal by noting that under the old CA system, no SC appointee was ever rejected despite some proving unworthy, and that CJ Concepcion specifically designed the JBC to replace confirmation hearings that 'demeaned appointees with crude questions and demands for personal favors.' He cites Judge Oxner's study showing the JBC model has been adopted in 20+ countries (with France, Italy, Portugal, and Spain having councils that actually appoint judges) as proof of a growing international depoliticization trend. He proposes a future constitutional amendment: the SC should appoint three JBC members (retired justices, integrated bar, law professors) while the President retains the private-sector representative and each congressional chamber gets one member, creating a 4-4 judicial/political balance. Post-Corona, he urges the JBC to comb candidates' SALNs and ITRs and grill them on familiarity with all eight chief justice duties, vision-mission for reform, and plans to speed up the delivery of quality justice.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

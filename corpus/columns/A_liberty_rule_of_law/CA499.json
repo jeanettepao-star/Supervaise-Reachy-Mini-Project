@@ -1,0 +1,126 @@
+{
+  "id": "CA499",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 499,
+  "title": "Will Corona testify?",
+  "date": "2012-05-19",
+  "link": "https://opinion.inquirer.net/29033/will-corona-testify",
+  "keywords": [
+    "Corona testify",
+    "Ombudsman Morales hostile witness",
+    "AMLC dollar accounts",
+    "SALN yearend balances",
+    "PSBank TRO",
+    "Basa-Guidote Enterprises",
+    "Cuevas defense strategy",
+    "Senate Enrile hostile witness rule"
+  ],
+  "primary_topics": [
+    "Strategic analysis of why calling Ombudsman Morales was the defense's costliest blunder",
+    "CJ's prediction that Corona should NOT testify -- the risks far outweigh the benefits",
+    "The paradox of the hostile witness: the OMB's testimony bound Corona despite being called by the defense"
+  ],
+  "sub_topics": [
+    "Cardinal rule: never call a witness whose testimony is not known; never ask a question without knowing the answer",
+    "OMB Morales testified about AMLC documents: 82 accounts in 5 banks; $10-12 million transaction balances in 2003-2012",
+    "82 accounts may not have existed simultaneously; may be more than yearend balances",
+    "Senate unanimously allowed OMB to use PowerPoint to explain to ordinary citizens",
+    "Hostile witness rule: party calling a witness is bound by that testimony -- JPE quickly upheld this",
+    "Admissibility of AMLC documents: senators' doubts; OMB invoked constitutional authority to seek government agency help",
+    "JPE: even illegally obtained evidence admissible in impeachment court",
+    "Defense lined up Corona as last witness -- reversal of earlier stance of 'no necessity'",
+    "Yearend vs. total transaction balances: OMB did not focus on yearend balances but on 2003-2012 transactions",
+    "By testifying that OMB 'bloated' figures, Corona would be admitting dollar accounts exist",
+    "Once on stand: forced to point to yearend balances = conclusive proof of non-disclosure",
+    "PSBank TRO: cannot refuse consent given repeated public promises to 'bare all accounts'",
+    "PSBank case would become moot; TRO rendered academic",
+    "Testimony would be fodder for future criminal cases -- senators' questions not objectable by counsel",
+    "Basa-Guidote Enterprises: daughter bought company with P34M+ net cash assets for P28,000",
+    "Defense trapped by prosecution's dare into damaging witness calls"
+  ],
+  "signature_phrases": [
+    "cannot fathom why",
+    "cardinal rule: never call a witness whose testimony is not known",
+    "demolished it",
+    "manna or free gifts from the defense to the prosecution",
+    "bloated or exaggerated the figures",
+    "baring all his accounts",
+    "fodder for future cases",
+    "labyrinthine secrets",
+    "tender mercies of the prosecutors and senator-judges",
+    "I guess not, but let us wait and see"
+  ],
+  "entities": {
+    "people": [
+      "CJ Renato C. Corona (defense client; to testify as last witness)",
+      "Ombudsman Conchita Carpio Morales (called by defense; testimony demolished defense case)",
+      "Senate President Juan Ponce Enrile (ruled on hostile witness rule and AMLC admissibility)",
+      "Justice Serafin Cuevas (lead defense counsel)",
+      "Sen. Alan Peter Cayetano (mentioned in context of prior admissions)",
+      "Sen. Franklin Drilon (mentioned in context of exhibits)",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Senate of the Philippines (impeachment court)",
+      "Office of the Ombudsman",
+      "Anti-Money Laundering Council (AMLC)",
+      "Supreme Court of the Philippines (issued PSBank TRO)",
+      "PSBank"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Philippine Constitution -- Ombudsman's mandate to investigate and seek government agency assistance",
+      "Rules of Court -- hostile witness rule"
+    ],
+    "events": [
+      "Ombudsman Morales's testimony with AMLC PowerPoint (82 accounts, $10-12M transactions)",
+      "JPE ruling that party is bound by all witnesses it calls, including hostile ones",
+      "Defense's reversal announcing Corona would testify as last witness",
+      "Basa-Guidote Enterprises purchase by Corona's daughter for P28,000 (net cash assets P34M+)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The defense committed the cardinal trial blunder of calling Ombudsman Morales without knowing her testimony — violating the foundational rule that you never call a witness whose testimony is unknown — and the result was the demolition of the defense case with evidence the prosecution could not itself have introduced.",
+      "rhetorical_move": "cardinal-rule-violation framing: the fundamental trial advocacy principle as the standard against which the defense is judged and found fatally wanting",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Corona should not testify: whether he admits the OMB's figures or contests them, he will be providing conclusive proof of SALN non-disclosure, surrendering his PSBank TRO protection, and generating fodder for future criminal cases from senatorial questions his counsel cannot object to.",
+      "rhetorical_move": "no-win-scenario analysis: mapping every possible outcome of testifying as worse than not testifying",
+      "confidence": "predicted as CJ's recommendation ('I guess not')"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's utter bafflement ('I cannot fathom why') that the defense called Ombudsman Morales — one of the most experienced legal observers of the trial reducing the decision to a visceral expression of disbelief, signaling that the blunder was so elementary it defied professional explanation.",
+    "The PSBank TRO paradox: Corona's repeated public promises to 'bare all his accounts' created a political-moral commitment that made it impossible for him to invoke the TRO's legal protection on the stand, effectively rendering his own legal shield moot through his own public statements.",
+    "The Basa-Guidote Enterprises revelation — Corona's daughter buying a company with P34 million+ in net cash assets for a mere P28,000 — introduced not by the prosecution but by witnesses the defense itself called, making it the most extreme example of the 'labyrinthine secrets' the defense strategy inadvertently exposed."
+  ],
+  "target_audience": [
+    "Defense lawyers and Justice Serafin Cuevas as the primary implied audience",
+    "Senate senator-judges assessing the defense's remaining strategy",
+    "Trial lawyers and law students studying witness examination strategy",
+    "General civic readership following the impeachment's climactic phase",
+    "Legal commentators and academics analyzing the trial's strategic dynamics"
+  ],
+  "register_markers": [
+    "'cannot fathom' bafflement register as the column's emotional anchor",
+    "cardinal-rule-violation register (never call a witness without knowing the testimony)",
+    "no-win-scenario mapping register (each outcome of testifying worse than not testifying)",
+    "PSBank-TRO paradox register (public promises rendering legal protection moot)",
+    "Basa-Guidote 'labyrinthine secrets' register as the emblem of inadvertently exposed damaging evidence",
+    "conditional-prediction close ('I guess not, but let us wait and see')"
+  ],
+  "decision_framework_signals": [
+    "applies cardinal-trial-rule test: never call a witness whose testimony is unknown as the primary standard",
+    "uses no-win-scenario analysis: maps each testify/not-testify outcome as worse than not testifying",
+    "applies hostile-witness-bound-by-testimony rule as the legal framework making the OMB disaster irreversible",
+    "uses PSBank-TRO-public-promise-paradox as the mechanism rendering Corona's legal shield moot",
+    "treats senatorial-question-immunity-from-objection as the structural risk making Corona's testimony 'fodder for future cases'"
+  ],
+  "one_paragraph_summary": "Writing the week before the verdict with Corona's defense having reversed course to call him as its last witness, Panganiban opens with genuine bafflement at the decision to call Ombudsman Morales -- violating the cardinal trial rule of never calling a witness whose testimony is unknown -- with the result that she 'demolished' the defense case rather than helping it. The OMB presented a PowerPoint from AMLC documents covering 82 accounts in 5 banks from 2003-2012, showing transaction balances of $10-12 million, which she explained to the Senate's unanimous approval; JPE quickly ruled that the party calling a witness -- even a 'hostile' one -- is bound by all testimony, and that even illegally obtained evidence is admissible in the impeachment court. Now facing Corona's own testimony, CJ maps a no-win-scenario: if he contests the OMB's figures as 'bloated,' he admits the dollar accounts exist; once on the stand, he will be forced to identify the yearend balances, providing conclusive non-disclosure proof; he cannot invoke the PSBank TRO given his repeated public promises to 'bare all accounts' (rendering the TRO moot); and senators' questions -- which his counsel cannot object to -- will become 'fodder for future cases.' Additionally, the defense trapped itself into calling witnesses who exposed the 'labyrinthine secrets' of the Basa-Guidote Enterprises purchase (P28,000 for a company with P34M+ net cash assets). CJ predicts Justice Cuevas will not throw his client to 'the tender mercies of the prosecutors' -- 'I guess not, but let us wait and see.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

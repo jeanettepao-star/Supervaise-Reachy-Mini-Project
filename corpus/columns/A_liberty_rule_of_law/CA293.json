@@ -1,0 +1,144 @@
+{
+  "id": "CA293",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 293,
+  "title": "Controversial national ID system",
+  "date": "2017-12-10",
+  "link": "https://opinion.inquirer.net/109359/controversial-national-id-system",
+  "keywords": [
+    "national ID system right to privacy",
+    "Ople v. Torres AO 308",
+    "Kilusang Mayo Uno EO 420",
+    "Congress vs President ID authority",
+    "incentive-based security-based ID"
+  ],
+  "primary_topics": [
+    "Constitutional right to privacy and limits on national ID",
+    "Dual-precedent analysis: Ople v. Torres (voiding AO 308) and KMU (upholding EO 420)",
+    "Author's proposals for a constitutionally sound national ID bill"
+  ],
+  "sub_topics": [
+    "Lacson: Senate will pass its version after Christmas recess",
+    "AO 308 (December 12, 1996) -- national computerized ID by President Ramos",
+    "Ople v. Torres (July 23, 1998) -- divided SC invaliding AO 308",
+    "Two grounds: right to privacy violation, and ID can only be by Congress",
+    "J. Puno: 'vast reservoir of personal information' as covert invitation to misuse",
+    "Dissent led by J. Mendoza: only data from existing agencies, identification not thought control",
+    "Vote count: 8-6 to invalidate; only 3 of 8 unqualified majority concurrences",
+    "J. Davide joined Panganiban separate opinion: AO only needs Congress, not privacy",
+    "J. Vitug: law indispensable; J. Regalado: concurred in result",
+    "EO 420 (April 13, 2005) -- GMA directing unified format for existing agency IDs",
+    "KMU v. Director General (April 19, 2006) -- Court upheld EO 420",
+    "Rationale: purely administrative, directed only at executive offices",
+    "Three conditions when legislation is needed (appropriation, compulsory for all, beyond routinary data)",
+    "Dissenters (JJ Ynares-Santiago and Azcuna): reiterated Puno's privacy arguments",
+    "Author's prescriptions: basics only (name, birthdate, birthplace, age, gender); incentive-based not security-based"
+  ],
+  "signature_phrases": [
+    "right to privacy in clear and present danger",
+    "vast reservoir of personal information",
+    "covert invitation to misuse",
+    "instrument of thought control",
+    "incentive-based, not security-based",
+    "basics, like full name, birthdate, birthplace, age and gender"
+  ],
+  "entities": {
+    "people": [
+      "Sen. Panfilo Lacson",
+      "Sen. Franklin Drilon",
+      "President Fidel V. Ramos (issued AO 308)",
+      "President Gloria Macapagal Arroyo (issued EO 420)",
+      "Justice (later CJ) Reynato Puno (Ople ponente)",
+      "Justice Vicente Mendoza (Ople dissent lead)",
+      "Justice Hilario Davide Jr. (joined Panganiban separate opinion)",
+      "Justice Artemio Panganiban (separate opinion in Ople)",
+      "Justice Jose Vitug (separate opinion)",
+      "Justice Florenz Regalado (concurred in result)",
+      "CJ Andres Narvasa (Ople dissenter)",
+      "Justices Jose Melo, Santiago Kapunan, Leonardo Quisumbing, Fidel Purisima (Ople dissenters)",
+      "Justice Antonio Carpio (KMU ponente)",
+      "CJ Artemio Panganiban (KMU concurrence)",
+      "Justices Quisumbing, Sandoval-Gutierrez, Austria-Martinez, Corona, Carpio Morales, Callejo, Tinga, Chico-Nazario, Garcia (KMU majority)",
+      "Justices Consuelo Ynares-Santiago, Adolfo Azcuna (KMU dissenters)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Senate of the Philippines",
+      "House of Representatives",
+      "Government Service Insurance System (GSIS)",
+      "Social Security System (SSS)",
+      "Land Transportation Office (LTO)"
+    ],
+    "cases": [
+      "Ople v. Torres (July 23, 1998) -- voiding AO 308, 8-6",
+      "Kilusang Mayo Uno v. Director General (April 19, 2006) -- upholding EO 420"
+    ],
+    "laws_treaties": [
+      "Administrative Order No. 308 (December 12, 1996) -- voided",
+      "Executive Order No. 420 (April 13, 2005) -- upheld",
+      "1987 Constitution (right to privacy)",
+      "Proposed national ID legislation (House approved, Senate pending)"
+    ],
+    "events": [
+      "Senate announcement of post-Christmas passage of national ID bill",
+      "AO 308 issuance (1996) and Ople v. Torres (1998)",
+      "EO 420 issuance (2005) and KMU (2006)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The constitutional issue was not fully resolved in Ople v. Torres -- only three of the eight majority justices gave unqualified concurrence to the ponencia's privacy holding; the author himself voted to invalidate AO 308 only because it required a congressional act.",
+      "rhetorical_move": "internal majority analysis revealing doctrinal ambiguity",
+      "confidence": "high"
+    },
+    {
+      "claim": "EO 420 was correctly upheld in KMU because it was purely administrative -- directing only executive offices to use a unified format for data they already collected -- not expanding data collection beyond routinary requirements.",
+      "rhetorical_move": "doctrinal endorsement of the KMU holding",
+      "confidence": "high"
+    },
+    {
+      "claim": "Legislation is needed only when (1) the ID requires an appropriation, (2) it is compulsory for all branches and all citizens, or (3) the data go beyond routinary transactional requirements.",
+      "rhetorical_move": "three-condition threshold for legislative necessity",
+      "confidence": "high"
+    },
+    {
+      "claim": "The data in any national ID should be confined to basics (full name, birthdate, birthplace, age, gender) and the ID should be incentive-based rather than security-based, to facilitate government transactions, not to screen people.",
+      "rhetorical_move": "privacy-protective prescriptions for the pending bill",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Author's own Ople v. Torres separate opinion: he voted to void AO 308 only on the ground that a national ID can be instituted only by Congress, not on the privacy ground -- a narrower holding than J. Puno's ponencia.",
+    "J. Davide joining Panganiban's separate opinion in Ople -- revealing a two-justice bloc with a narrower, legislative-authority-only ground for invalidation.",
+    "J. Puno's vivid Ople language: 'vast reservoir of personal information constitutes a covert invitation to misuse, a temptation that may be just too great for some of our authorities to resist' -- the strongest privacy-rights rhetoric in PH case law.",
+    "The KMU vote lineup: nine majority justices including CJ Panganiban, with only two dissenters (Ynares-Santiago and Azcuna), in contrast to the 8-6 Ople split -- showing the Court's shifting consensus when the ID is administrative-only.",
+    "Lacson's prescription: confine data to basics; Drilon's prescription: incentive-based not security-based -- both endorsed by the author as constitutional fixes."
+  ],
+  "target_audience": [
+    "Senate committee members drafting the national ID bill",
+    "Data privacy advocates",
+    "Constitutional law scholars",
+    "Government agencies that will operate the ID system",
+    "Citizens weighing privacy vs convenience of a national ID"
+  ],
+  "register_markers": [
+    "Dual-precedent comparative analysis (Ople vs KMU)",
+    "Vote-count transparency (8-6; 3 unqualified concurrences)",
+    "Author's own separate opinion cited as first-person authority",
+    "Three-condition legislative-necessity test",
+    "Senator-endorsement wrap-up (Lacson + Drilon prescriptions)",
+    "Colloquial language for privacy risk ('covert invitation to misuse')"
+  ],
+  "decision_framework_signals": [
+    "Test any national ID proposal against the three KMU conditions: appropriation required? Compulsory for all? Data beyond routinary? If yes on any → legislation needed",
+    "Accept the narrower Panganiban/Davide holding: the privacy ground is contested; the congressional-authority ground is safer",
+    "Follow J. Puno's warning: limit data to what cannot be misused -- 'basics only'",
+    "Design the ID as incentive-based (facilitates government transactions) rather than security-based (screens people) to avoid constitutional objection",
+    "Treat EO 420's administrative-only, executive-offices-only model as the template for what can be done without legislation"
+  ],
+  "one_paragraph_summary": "Noting the House has passed a national ID bill and the Senate will follow after Christmas, Panganiban traces the constitutional controversy through two key rulings. First, Ople v. Torres (July 23, 1998, 8-6) voided President Ramos's AO 308 on two grounds: violation of the right to privacy (J. Puno's ponencia, warning of a 'vast reservoir of personal information' as a 'covert invitation to misuse') and the principle that a national ID can only be instituted by Congress -- though importantly, only three of the eight majority justices gave unqualified concurrence to the ponencia; Panganiban himself wrote a separate opinion (joined by J. Davide) invalidating the AO solely on the congressional-authority ground, not the privacy ground. Six dissented, led by J. Mendoza (data already gathered from existing agencies; identification, not thought control). Second, Kilusang Mayo Uno v. Director General (April 19, 2006) upheld President Arroyo's EO 420 directing executive offices to adopt a unified ID format -- because it was purely administrative, covered only offices under executive control, and did not expand data collection beyond what was routinely required. The Court set three conditions for when legislation is needed: (1) appropriation required, (2) compulsory for all branches and citizens, and (3) data beyond routinary transactional requirements. The author endorses Sen. Lacson's prescription (confine data to basics: name, birthdate, birthplace, age, gender) and Sen. Drilon's prescription (incentive-based, not security-based, to facilitate government transactions rather than screen people) as the constitutional fixes for the pending bill.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,153 @@
+{
+  "id": "CA136",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 136,
+  "title": "Dual citizenship from birth of FilAms",
+  "date": "2022-09-19",
+  "link": "https://opinion.inquirer.net/157093/dual-citizenship-from-birth-of-filams",
+  "keywords": [
+    "natural-born citizens",
+    "dual citizens at birth",
+    "RA 9225",
+    "Gana-Carait v. Comelec",
+    "Cordora v. Comelec",
+    "CRBA",
+    "FilAm",
+    "David v. SET (foundlings)"
+  ],
+  "primary_topics": [
+    "Constitutional grant of natural-born Filipino citizenship to children of Filipino parents",
+    "Distinction between dual citizens at birth and dual citizens by naturalization",
+    "RA 9225's two requirements (renunciation + oath of allegiance) apply only to dual citizens by naturalization",
+    "Gana-Carait v. Comelec (Aug 12, 2022) -- clarifying that CRBA documentation merely confirms citizenship at birth, not naturalization",
+    "Practical implication for ~10% of Filipinos living abroad, especially in the US"
+  ],
+  "sub_topics": [
+    "Article IV, Section 1 of the 1987 Constitution -- automatic Filipino citizenship via Filipino parent(s)",
+    "David v. SET (Sept 20, 2016) -- foundlings are natural-born citizens",
+    "Exclusive constitutional rights of natural-born citizens (president, VP, senator, representative, SC justice)",
+    "Naturalized citizens distinguished",
+    "RA 9225 (Citizenship Retention and Re-acquisition Act of 2003)",
+    "Multiple citizenships under foreign laws; PH law determines only who is Filipino",
+    "Hypothetical 'Maria' case -- born 1991 in PH, Filipino father, American mother, listed in CRBA, US passport",
+    "Consular Report of Birth Abroad of Citizens of the United States (CRBA)",
+    "Cordora v. Comelec (Feb 19, 2009) -- penned by J Antonio T. Carpio; parent's positive petition treated as superfluity",
+    "Stat: about 1 in every 10 Filipinos lives and works abroad"
+  ],
+  "signature_phrases": [
+    "natural-born citizens or 'citizens from birth without having to perform any act'",
+    "CITIZENS FROM BIRTH ARE CONSTITUTIONALLY GRANTED EXCLUSIVE RIGHTS",
+    "to reacquire their lost Philippine nationality",
+    "To stress, these two requirements apply only to dual citizens who acquired their foreign citizenship by naturalization",
+    "A SIMPLE QUESTION",
+    "they are 'dual citizens'",
+    "A person can have multiple citizenships",
+    "Our laws determine merely the question of who are Filipinos, not the nationality of aliens",
+    "A MORE COMPLICATED QUESTION",
+    "Follow-up question",
+    "was presented merely to establish",
+    "the CRBA process to recognize her US citizenship was not an application for naturalization",
+    "the petition was regarded as a superfluity",
+    "the child being already a dual Filipino-American at birth",
+    "In short, dual citizens--Filipinos and Americans--at their birth need not fulfill the two requirements",
+    "This clarification should provide comfort to many FilAms and their families",
+    "about one of every 10 Filipinos lives and works abroad",
+    "without the need to go through the rather tedious process under RA 9225"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Ricardo R. Rosario (Justice; ponente of Gana-Carait)",
+      "Antonio T. Carpio (Justice; ponente of Cordora)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Commission on Elections (Comelec)",
+      "US Embassy in Manila",
+      "Senate Electoral Tribunal (SET)",
+      "Senate of the Philippines (referenced for senatorial qualification)"
+    ],
+    "cases": [
+      "Gana-Carait v. Comelec (Aug 12, 2022) -- penned by J Ricardo R. Rosario",
+      "Cordora v. Comelec (Feb 19, 2009) -- penned by J Antonio T. Carpio",
+      "David v. SET (Sept 20, 2016) -- foundlings as natural-born citizens"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution, Article IV, Section 1 (citizenship)",
+      "Republic Act No. 9225 (Citizenship Retention and Re-acquisition Act of 2003)",
+      "US immigration laws (CRBA process -- referenced)"
+    ],
+    "events": []
+  },
+  "stances": [
+    {
+      "claim": "Under Article IV, Section 1 of the Constitution, children with at least one Filipino parent automatically inherit Filipino citizenship and are 'natural-born citizens' or 'citizens from birth without having to perform any act'; David v. SET (Sept 20, 2016) extends this to foundlings.",
+      "rhetorical_move": "constitutional-foundation statement",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Natural-born citizens enjoy constitutionally exclusive rights (president, VP, senator, representative, SC justice) not extended to naturalized citizens.",
+      "rhetorical_move": "rights-asymmetry enumeration",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "RA 9225's two requirements -- renunciation under oath of foreign citizenship and oath of allegiance to the Philippines -- apply only to natural-born Filipinos who lost citizenship through naturalization, not to dual citizens at birth.",
+      "rhetorical_move": "statutory-scope clarification",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Per Gana-Carait v. Comelec (Aug 12, 2022, J Rosario), where a dual citizen at birth uses the CRBA process and a US passport, this is not naturalization -- the documentation merely confirms what was already true at birth.",
+      "rhetorical_move": "recent-controlling-doctrine citation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Cordora v. Comelec (Feb 19, 2009, J Carpio) further establishes that even where a parent 'petitioned' the child for US citizenship, the petition is treated as a 'superfluity' because the child was already dual at birth.",
+      "rhetorical_move": "precedent-reinforcement citation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "About 1 in 10 Filipinos lives and works abroad, especially in the US; this Gana-Carait clarification provides legal comfort that they need not undergo the 'rather tedious process' under RA 9225 to retain Philippine citizenship.",
+      "rhetorical_move": "demographic-relevance close",
+      "confidence": "asserted with FilAm-comfort framing"
+    }
+  ],
+  "notable_anecdotes": [
+    "The hypothetical 'Maria' -- born 1991 in the Philippines to a Filipino father and American mother, listed in the CRBA, US passport bearer for extensive travel -- constructed as the prototypical FilAm whose situation is now legally settled.",
+    "The doctrinal pairing of Gana-Carait (2022, J Rosario) and Cordora (2009, J Carpio) -- newer ruling joined to older ruling -- modeling how CJ tracks the development of a doctrine across more than a decade.",
+    "The Cordora 'superfluity' move -- where a parent's positive petition under US law is judicially deemed legally redundant because the child was already dual at birth -- highlighted as a quintessentially Filipino-protective interpretation.",
+    "The 1-in-10-Filipinos-abroad statistic deployed not as anti-emigration commentary but as the demographic warrant for legal accommodation.",
+    "Foundlings expressly included via David v. SET (2016) -- a quiet doctrinal generosity that extends natural-born status without parental proof."
+  ],
+  "target_audience": [
+    "Filipino-Americans (FilAms) and their families",
+    "Overseas Filipinos navigating dual-citizenship status",
+    "Immigration and election lawyers",
+    "Aspirants to elective/appointive office who hold dual citizenship",
+    "Comelec staff and registration officers",
+    "Inquirer general readership",
+    "Filipino communities in the US"
+  ],
+  "register_markers": [
+    "doctrinal-formal register with ALL-CAPS section openers ('CITIZENS FROM BIRTH ARE CONSTITUTIONALLY GRANTED EXCLUSIVE RIGHTS,' 'A SIMPLE QUESTION,' 'A MORE COMPLICATED QUESTION')",
+    "pedagogical Q&A structure (simple question / more complicated question / follow-up question)",
+    "hypothetical-name device ('Maria') for accessibility",
+    "explicit ponente attribution for each precedent",
+    "no Tagalog markers; constitutional-doctrinal English",
+    "demographic-stat close (about 1 in 10 Filipinos abroad)",
+    "'To stress' transitional marker"
+  ],
+  "decision_framework_signals": [
+    "applies the at-birth-vs-naturalization doctrinal distinction as the operative test for RA 9225 scope",
+    "uses constitutional-rights-asymmetry enumeration (which offices require natural-born status)",
+    "applies the 'documentary evidence merely confirms' principle from Gana-Carait to recharacterize CRBA-style processes",
+    "uses the Cordora 'superfluity' move to neutralize parental positive acts under foreign law",
+    "applies the 'PH law determines only who is Filipino, not nationality of aliens' sovereignty principle",
+    "uses pedagogical Q&A structure (simple → complicated → follow-up) as legal-explainer device",
+    "demographic-relevance close as social-impact framing"
+  ],
+  "one_paragraph_summary": "Panganiban explains why most Filipino-Americans need not undertake the tedious renunciation-and-oath process under RA 9225 to retain Philippine citizenship. Article IV, Section 1 of the Constitution provides that children of Filipino parents automatically inherit Filipino citizenship as 'natural-born citizens' -- and David v. SET (Sept 20, 2016) extends this to foundlings. These citizens-from-birth enjoy constitutionally exclusive rights -- only they may run for President, Vice President, senator, or representative, or be appointed Supreme Court (or lower collegiate court) justice -- that naturalized citizens cannot claim. RA 9225's two requirements (renunciation under oath of foreign citizenship and an oath of allegiance to the Philippines) apply only to natural-born Filipinos who lost citizenship through naturalization, not to dual citizens at birth. Walking the reader through a 'simple question' (US-born children of Filipino parents running for senator) and a 'more complicated question' (the hypothetical Maria, born 1991 in the PH to a Filipino father and American mother, listed in the CRBA, US passport for extensive travel), he cites Gana-Carait v. Comelec (Aug 12, 2022, J Ricardo R. Rosario): the CRBA process recognizes US citizenship she already held at birth, not naturalization. The earlier Cordora v. Comelec (Feb 19, 2009, J Antonio T. Carpio) had already held that even an American parent's positive petition for US citizenship was a 'superfluity' because the child was already dual at birth. Roughly one in ten Filipinos lives and works abroad -- most of them, CJ concludes, are recognized by the Philippines (not necessarily by the US) as dual citizens 'without the need to go through the rather tedious process under RA 9225.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

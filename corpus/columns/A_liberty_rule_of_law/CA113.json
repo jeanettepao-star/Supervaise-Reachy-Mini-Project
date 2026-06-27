@@ -1,0 +1,162 @@
+{
+  "id": "CA113",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 113,
+  "title": "Going beyond the normal in Lazada",
+  "date": "2023-03-27",
+  "link": "https://opinion.inquirer.net/161994/going-beyond-the-normal-in-lazada",
+  "keywords": [
+    "Ditiangkin v. Lazada Sept. 21 2022 uploaded Jan. 19 2023",
+    "SAJ Marvic Leonen ponente",
+    "JJ Lazaro-Javier Jhosep Lopez Kho Jr. concurring",
+    "Mario Lopez official business",
+    "labor arbiter NLRC Court of Appeals appellate progression",
+    "1-2-3 rule unsigned resolution",
+    "factual review prohibition",
+    "four-fold test selection wages dismissal control",
+    "power of control most significant",
+    "independent job contractor doctrine",
+    "unique skills talents test columnist referee masiador sentenciador",
+    "gig economy delivery riders regular employees not independent contractors",
+    "security of tenure social justice",
+    "liberty and prosperity under rule of law CJ philosophy reminiscence"
+  ],
+  "primary_topics": [
+    "labor_law_gig_economy_employment_classification",
+    "supreme_court_activist_liberterian_streak_labor",
+    "appellate_procedure_in_labor_cases",
+    "four_fold_test_and_power_of_control_doctrine"
+  ],
+  "sub_topics": [
+    "ditiangkin_v_lazada_sept_21_2022_uploaded_jan_19_2023",
+    "second_division_leonen_ponente_unanimous",
+    "labor_arbiter_nlrc_court_of_appeals_progression",
+    "grave_abuse_standard_for_certiorari_review_of_nlrc",
+    "1998_doctrine_arbitrary_despotic_passion_personal_hostility",
+    "later_doctrine_violation_of_constitution_law_jurisprudence_already_grave_abuse",
+    "1_2_3_rule_unsigned_resolution_no_reversible_error",
+    "factual_review_prohibition_default",
+    "four_fold_test_selection_wages_dismissal_control",
+    "power_of_control_as_most_significant_factor",
+    "independent_job_contractor_distinct_business_test",
+    "unique_skills_talents_exception_columnist_referee_masiador_sentenciador",
+    "constitutional_protection_of_labor_full_protection_clause",
+    "security_of_tenure_as_act_of_social_justice",
+    "liberty_and_prosperity_under_rule_of_law_cj_philosophy_echo"
+  ],
+  "signature_phrases": [
+    "the Supreme Court once more demonstrated its activist and libertarian streak",
+    "going beyond two sets of normal rules in labor controversies",
+    "1-2-3 rule",
+    "without much ado via an unsigned resolution",
+    "The power of control is the most significant factor in the four-fold test",
+    "carr[y] on a distinct and independent business",
+    "unique skills and talents which set them apart from ordinary employees",
+    "Picking up and delivering goods from warehouse to buyers does not call for specific expertise",
+    "When a person has no property, his job may possibly be his only possession or means of livelihood",
+    "The last paragraph, if I may say so myself, is reminiscent of my own philosophy of liberty and prosperity under the rule of law",
+    "an act of social justice",
+    "Game-changing ruling for workers"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, retired CJ)",
+      "SAJ Marvic M.V.F. Leonen (ponente)",
+      "J Amy C. Lazaro-Javier (concurring)",
+      "J Jhosep Y. Lopez (concurring)",
+      "J Antonio T. Kho Jr. (concurring)",
+      "J Mario V. Lopez (on official business, not participating)",
+      "Petitioner-riders led by Ditiangkin"
+    ],
+    "cases": [
+      "Ditiangkin v. Lazada (Sept. 21, 2022; uploaded Jan. 19, 2023; Second Division) -- Lazada delivery riders held regular employees"
+    ],
+    "laws_treaties": [
+      "1987 Constitution, Labor Protection provisions (full protection to labor, security of tenure, humane conditions, living wage)",
+      "Labor Code (regular employment, four-fold test doctrine)",
+      "Rules of Court (Rule 65 certiorari to CA, Rule 45 to SC)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (Second Division)",
+      "Court of Appeals (CA)",
+      "National Labor Relations Commission (NLRC)",
+      "Labor Arbiters (LA)",
+      "Lazada (e-commerce platform, respondent)",
+      "Philippine Daily Inquirer (editorial cited: 'Game-changing ruling for workers')"
+    ],
+    "places": [
+      "Philippines"
+    ],
+    "dates": [
+      "Sept. 21, 2022 (decision promulgated)",
+      "Jan. 19, 2023 (decision uploaded/released)",
+      "1998 (grave-abuse 'arbitrary or despotic' formula entrenched)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Court 'went beyond two sets of normal rules' -- discarding the unsigned-resolution '1-2-3 rule' and the no-factual-review default -- to conduct an exhaustive factual review and overturn the unanimous lower-tribunal finding that Lazada riders were independent contractors.",
+      "rhetorical_move": "Procedural-departure framing: identifies the deviation from default appellate behavior as itself the activist signal.",
+      "confidence": "very high -- direct procedural observation"
+    },
+    {
+      "claim": "Under the four-fold test (selection/engagement, wages, dismissal power, control), with control as 'the most significant factor,' Lazada riders are regular employees because Lazada failed to discharge its burden of proving otherwise.",
+      "rhetorical_move": "Doctrinal exposition of the operative test before applying it to the gig-economy facts.",
+      "confidence": "very high -- direct application of binding doctrine"
+    },
+    {
+      "claim": "The riders cannot qualify as independent contractors because they neither carried on a 'distinct and independent business' nor possessed the 'unique skills and talents' that distinguish the small class of genuinely independent service providers (the columnist, the basketball referee, the masiador/sentenciador in cockfighting).",
+      "rhetorical_move": "Negative-pattern matching: contrasts the rider against the canonical exception class.",
+      "confidence": "very high -- direct doctrinal application"
+    },
+    {
+      "claim": "The Court's closing paragraph -- 'When a person has no property, his job may possibly be his only possession or means of livelihood. Therefore, he should be protected against any arbitrary deprivation of his job' -- is 'reminiscent of my own philosophy of liberty and prosperity under the rule of law.'",
+      "rhetorical_move": "Personal-philosophical claim of lineage: Court echoes Panganiban's own framework.",
+      "confidence": "high -- explicit personal endorsement"
+    }
+  ],
+  "notable_anecdotes": [
+    {
+      "description": "The procedural normalcy violated in three ways: (1) the 1-2-3 rule -- when the CA affirms NLRC and LA, the SC normally dismisses via unsigned resolution finding 'no reversible error'; (2) the no-factual-review default -- the SC normally reviews only errors of law because lower tribunals are better equipped to find facts; and (3) the grave-abuse threshold for certiorari review of NLRC -- 'arbitrary or despotic manner by reason of passion or personal hostility... so patent and gross as to amount to an evasion of positive duty.'",
+      "purpose": "Itemizes the procedural defaults the Court bypassed, making the activist deviation legible."
+    },
+    {
+      "description": "The canonical 'unique skills and talents' exception class enumerated by the Court: 'a columnist who was hired because of her talent, skill, experience, and feminist standpoint, a basketball referee who has special skills and independent judgment, and a masiador or sentenciador who had expertise in cockfight gambling.'",
+      "purpose": "Preserves the doctrinal taxonomy of who counts as a genuinely independent contractor -- and shows why riders do not."
+    },
+    {
+      "description": "The Inquirer editorial labeled the decision a 'game-changing ruling for workers' -- a label that CJ Panganiban quotes approvingly.",
+      "purpose": "External editorial validation amplifying the column's activist-streak framing."
+    },
+    {
+      "description": "The Court's closing dictum on security of tenure: 'When a person has no property, his job may possibly be his only possession or means of livelihood. Therefore, he should be protected against any arbitrary deprivation of his job' -- CJ adds, 'if I may say so myself, is reminiscent of my own philosophy of liberty and prosperity under the rule of law.'",
+      "purpose": "Personal-philosophical claim of lineage between Court doctrine and CJ's own FLP framework."
+    }
+  ],
+  "target_audience": {
+    "primary": "Labor lawyers and gig-economy stakeholders (riders, platforms, HR) parsing the post-Lazada classification regime",
+    "secondary": "Filipino e-commerce workers and platform operators",
+    "tertiary": "Law students studying the four-fold test, the 1-2-3 rule, and SC factual-review limits"
+  },
+  "register_markers": [
+    "Doctrinal-formal register with verbatim quotations of the four-fold test",
+    "Procedural-normalcy contrast structure ('Normally... However, in the Lazada case...')",
+    "Approving citation of an Inquirer editorial",
+    "Liberty-and-prosperity philosophy callback at close",
+    "Activist-libertarian dyad maintained from the broader Gesmundo-Court series",
+    "Twin doctrinal label: 'activist and libertarian streaks'"
+  ],
+  "decision_framework_signals": [
+    "Procedural-departure-as-activism: discarding the 1-2-3 rule and the no-factual-review default signals activist commitment",
+    "Four-fold test: selection/engagement + wages + dismissal power + control (control is most significant)",
+    "Independent-contractor exception: distinct business + unique skills/talents (columnist, referee, masiador/sentenciador class)",
+    "Burden of proof on the employer to defeat regular-employment presumption",
+    "Constitutional labor-protection clause: full protection to labor + security of tenure + humane conditions + living wage",
+    "Liberty-and-prosperity-under-rule-of-law philosophy echo as endorsement"
+  ],
+  "one_paragraph_summary": "Even though the media had already reported it, CJ Panganiban gives Ditiangkin v. Lazada (Sept. 21, 2022; uploaded Jan. 19, 2023; Second Division, penned by SAJ Marvic M.V.F. Leonen with JJ Lazaro-Javier, Jhosep Lopez, and Kho Jr. concurring, J Mario Lopez on official business) a lookback because the Supreme Court 'once more demonstrated its activist and libertarian streak' by going beyond two sets of normal rules. The first set concerns appellate procedure: the SC normally dismisses Rule 45 petitions through the unsigned-resolution '1-2-3 rule' when the CA has affirmed the NLRC and the labor arbiter, and it normally refuses to review facts. In Lazada, the Court did the opposite -- waded deep into an exhaustive factual review and overturned the unanimous lower-tribunal finding that the riders were independent contractors. The second set concerns substantive labor classification: under the four-fold test (selection/engagement, wages, dismissal power, control -- with control 'the most significant factor'), Lazada failed to discharge its burden of showing the riders were not regular employees. The Court rejected the independent-contractor framing because the riders neither carried on 'a distinct and independent business' nor possessed the 'unique skills and talents' that distinguish the genuinely independent service class -- canonically the columnist, the basketball referee, and the masiador/sentenciador of cockfighting -- since 'picking up and delivering goods from warehouse to buyers does not call for specific expertise.' The constitutional anchor is the full-protection-to-labor clause and the corollary that 'when a person has no property, his job may possibly be his only possession or means of livelihood' so 'he should be protected against any arbitrary deprivation of his job' -- a closing dictum CJ explicitly recognizes as 'reminiscent of my own philosophy of liberty and prosperity under the rule of law.' The Inquirer editorial called it a 'game-changing ruling for workers'; CJ quotes the label approvingly.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

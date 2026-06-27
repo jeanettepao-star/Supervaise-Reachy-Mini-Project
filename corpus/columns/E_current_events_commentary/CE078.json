@@ -1,0 +1,109 @@
+{
+  "id": "CE078",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 78,
+  "title": "The future is now",
+  "date": "2017-09-17",
+  "link": "https://opinion.inquirer.net/107181/the-future-is-now-2",
+  "keywords": [
+    "digital technology",
+    "senior citizens",
+    "smartphone",
+    "internet research",
+    "legal research digitization",
+    "communication evolution",
+    "Gutenberg printing press",
+    "personal computer"
+  ],
+  "primary_topics": [
+    "CJ Panganiban's personal experience adapting to digital technology at age 81",
+    "Historical evolution of communication from oral tradition to the Digital Age",
+    "Advocacy for senior citizens to embrace smartphones and digital tools"
+  ],
+  "sub_topics": [
+    "Personal typing and research workflow post-retirement",
+    "Transition from manual law reports (Phil, SCRA) to online Supreme Court website research",
+    "Gutenberg printing press (c.1440) as first communication revolution",
+    "World Wide Web (1990s) as second communication revolution",
+    "Smartphone features as 'killer add-ons' for seniors",
+    "Viber group chats, Netflix, Iflix as practical digital tools",
+    "Future convergence: smartphone as credit card, car key, and CCTV",
+    "Corporate board and advisory roles forcing digital upskilling"
+  ],
+  "signature_phrases": [
+    "at almost 81, I personally type and research on them on my desktop computer",
+    "communication compresses knowledge and conveys it exponentially",
+    "That belongs to a bygone era",
+    "killer add-ons",
+    "Fellow seniors, let's reinvent ourselves. The future is now.",
+    "make my brain (or what is left of it) active, curious and inquisitive",
+    "dementia-proof"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (website as research source)",
+      "Philippine Reports (Phil) -- manual law reports",
+      "Supreme Court Reports Annotated (SCRA) -- manual law reports"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "CJ Panganiban's retirement as Chief Justice on December 7, 2006",
+      "Gutenberg's invention of the printing press (c.1440)",
+      "Advent of computers (1950s) and WorldWide Web (1990s)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Senior citizens can and should master digital technology — at minimum the smartphone — to remain cognitively active, professionally relevant, and socially connected; the old Nokia analog world 'belongs to a bygone era.'",
+      "rhetorical_move": "generational-solidarity appeal ('fellow seniors') combined with personal-example credibility (typing and researching at 81)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Communication technology is the primary accelerator of knowledge acquisition: each revolution (printing press → computers → WWW → smartphone) exponentially compresses the time and cost of learning.",
+      "rhetorical_move": "historical-progression macro-argument from Gutenberg to Viber",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Digital legal research — instant access to the SC website, cut-and-paste quotation accuracy — is strictly superior to the old method of manually opening Philippine Reports and copying quotes by hand.",
+      "rhetorical_move": "practitioner-efficiency comparison (old vs. new research workflow)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ Panganiban disclosing that at almost 81 he personally types all his columns and does his own research on a desktop computer — a deliberate credibility anchor for his digital-adoption advocacy aimed at fellow seniors.",
+    "The self-deprecating aside that board meetings and column writing keep 'my brain (or what is left of it) active, curious and inquisitive' and that he hopes they make it 'dementia-proof' — humanizing the aging jurist as a peer rather than a lecturer to his senior audience.",
+    "The detail that corporate meetings are now facilitated via PowerPoints on pop-up individual screens and the 'MeetX' app on laptops and tablets — illustrating that high-level professional settings have already gone fully digital, leaving behind anyone still operating in analog mode."
+  ],
+  "target_audience": [
+    "Senior citizens uncertain about digital technology adoption",
+    "Retired professionals considering continued engagement via digital tools",
+    "Younger readers who want to encourage elderly relatives to go digital",
+    "Legal practitioners transitioning from manual to online research",
+    "General civic readership of Inquirer Opinion"
+  ],
+  "register_markers": [
+    "direct-address solidarity register ('Fellow seniors, let's reinvent ourselves')",
+    "self-disclosure as credibility device ('at almost 81, I personally type…')",
+    "self-deprecating humor ('what is left of it', 'dementia-proof')",
+    "historical-sweep macro-narrative (Gutenberg → WWW → smartphone)",
+    "consumer-product enumeration register (Waze, Uber, Grab, Skype, Viber, Netflix, iPhone, Samsung Galaxy)",
+    "aphoristic close ('The future is now') as rallying call",
+    "absence of legal citation — purely personal-experiential and journalistic register"
+  ],
+  "decision_framework_signals": [
+    "uses personal-practice evidence (own typing and research habits at 81) as primary proof of feasibility",
+    "applies historical-progression model to argue that digital adoption is not optional but inevitable",
+    "treats cognitive health (dementia prevention) as a practical co-benefit of digital engagement, not merely convenience",
+    "frames professional board/advisory roles as exogenous forcing function for upskilling",
+    "distinguishes 'mastering at least one device' (minimum viable threshold) from full social-media fluency as the realistic senior target"
+  ],
+  "one_paragraph_summary": "Writing as an 81-year-old who personally types and researches all his columns on a desktop computer, Panganiban makes the case that senior citizens must embrace digital technology -- at minimum the smartphone -- by situating the current moment in a macro-history of communication revolutions: from oral transmission and manuscript copying, through Gutenberg's printing press (c.1440) and the analog media of telegraph, telephone, and television, to the computers of the 1950s and the World Wide Web of the 1990s, arriving at today's smartphone ecosystem of Viber, Waze, Uber, Netflix, and soon-to-come convergences of phone-as-credit-card, car-key, and home CCTV. He grounds the argument personally: his post-retirement column writing and corporate board/advisory roles have forced him to keep digitally current, keeping his brain 'active, curious and inquisitive' and hopefully 'dementia-proof.' On legal research specifically, he notes the shift from manually opening Philippine Reports and hand-copying quotes to instant SC website access and cut-and-paste accuracy. The column closes with a generational rallying call -- 'Fellow seniors, let's reinvent ourselves. The future is now' -- applying to his peer group the same spirit of modernization he championed for the judiciary.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

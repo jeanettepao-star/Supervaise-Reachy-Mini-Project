@@ -1,0 +1,170 @@
+{
+  "id": "CA193",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 193,
+  "title": "The four 'Ws' of Cha-cha",
+  "date": "2021-01-17",
+  "link": "https://opinion.inquirer.net/137053/the-four-ws-of-cha-cha",
+  "keywords": [
+    "Charter change",
+    "four Ws",
+    "What Why When Who",
+    "party-list abolition",
+    "nationalistic provisions",
+    "con-ass",
+    "plebiscite timing",
+    "presidential trust rating"
+  ],
+  "primary_topics": [
+    "The four 'Ws' framework -- What, Why, When, Who -- for evaluating any Cha-cha attempt",
+    "Brief history of failed Cha-cha attempts from Ramos through Duterte",
+    "Duterte's two surgical proposals (party-list abolition/modification; lifting nationalistic restrictions)",
+    "Procedural complication of constituent-assembly joint-vs-separate debate",
+    "The trust-question as the actual gate: 34 years of public suspicion of politicians' motives"
+  ],
+  "sub_topics": [
+    "Ramos and Arroyo people's-initiative attempts shot down by Supreme Court",
+    "Estrada's Preparatory Commission on Constitutional Reforms chaired by retired CJ Andres R. Narvasa (unacted)",
+    "Duterte's Consultative Commission chaired by retired CJ Reynato S. Puno; drafted 'Bayanihan Constitution' (unused)",
+    "What (1): party-list as 'an experiment' from parliamentary regimes inserted into presidential system",
+    "What (2): nationalistic-provisions amendment does not really remove restrictions, only authorizes Congress to vary foreign-equity percentages",
+    "Why: Duterte's terrorism/rebel justification; Velasco's foreign-investment / jobs / poverty rationale; Carlos Dominguez III on 'opening up of our economy'",
+    "When: PCCI's Ambassador Benedicto Yujuico urging pandemic-recovery bills first; tight calendar with COC filing in October and May 9, 2022 polls; constitutional 60-to-90-day plebiscite window",
+    "Who: legislators (especially those running) as the proponents; risk of self-benefiting amendments like term extensions; SC litigation over joint-vs-separate adding more delay",
+    "Bottom line: trust is the gate; if lawmakers ride on the President's 91% trust rating, stick to two proposals, vote separately, and pass CREATE/recovery bills concurrently, Cha-cha may finally overcome the four Ws"
+  ],
+  "signature_phrases": [
+    "Charter change (Cha-cha) has never been popular",
+    "All our Presidents who succeeded Cory Aquino, except Benigno Aquino III, attempted it",
+    "no one has succeeded in overcoming the four 'Ws' of Cha-cha, namely: What? Why? When? and Who?",
+    "shot down by the Supreme Court",
+    "remained unacted upon",
+    "drafted a sweeping 'Bayanihan Constitution' which to this day remains unused",
+    "two surgical amendments",
+    "the party-list was really 'an experiment'",
+    "a hybrid that invited attacks for being merely an expensive duplication of district solons",
+    "the texts of the Constitution and the party-list law are vague, if not convoluted",
+    "It flipped from limiting the party-list only to the marginalized",
+    "does not really remove the restrictions; it merely authorizes Congress",
+    "the President's burning desire for its abolition",
+    "Indeed, Congress has very little time",
+    "Can the honorable legislators, especially those running in the next election, be trusted",
+    "term extensions",
+    "this method brings up the delicate issue",
+    "From where I sit",
+    "Charter change has not gained momentum during the last 34 years because of public suspicion",
+    "the bottom line can be reduced to a simple question of trust",
+    "ride on the President's 91-percent trust rating",
+    "stick to the two proposals and nothing else",
+    "vote separately",
+    "concurrently pass CREATE and the other urgent recovery bills"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Corazon Aquino (referenced)",
+      "Fidel V. Ramos (failed people's initiative)",
+      "Gloria Macapagal-Arroyo (failed people's initiative)",
+      "Joseph Estrada (Narvasa commission)",
+      "Benigno Aquino III (did not attempt Cha-cha)",
+      "Rodrigo Duterte",
+      "Andres R. Narvasa (retired CJ; Preparatory Commission chair)",
+      "Reynato S. Puno (retired CJ; Consultative Commission chair)",
+      "Vicente 'Tito' Sotto III (Senate President)",
+      "Lord Allan Velasco (Speaker)",
+      "Carlos Dominguez III (Finance Secretary)",
+      "Benedicto Yujuico (PCCI president)"
+    ],
+    "institutions": [
+      "Philippine Congress (Senate and House)",
+      "Supreme Court of the Philippines",
+      "Commission on Elections (Comelec)",
+      "Preparatory Commission on Constitutional Reforms (Narvasa, Estrada era)",
+      "Consultative Commission (Puno, Duterte era)",
+      "Philippine Chamber of Commerce and Industry (PCCI)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Philippine Constitution (amendment provisions Art. XVII)",
+      "Republic Act No. 7941 (Party-list Law, by inference)",
+      "CREATE Act (Corporate Recovery and Tax Incentives for Enterprises) -- pending recovery bill"
+    ],
+    "events": [
+      "Ramos and Arroyo people's-initiative failures (SC takedown)",
+      "Estrada's Narvasa commission report (unacted)",
+      "Duterte's Puno Consultative Commission and 'Bayanihan Constitution' (unused)",
+      "Sotto's disclosure of Duterte's two surgical proposals",
+      "May 9, 2022 polls; COC filing in early October"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Cha-cha has never been popular and no post-Cory president (except Aquino III, who did not attempt it) has overcome the four 'Ws' -- What, Why, When, Who.",
+      "rhetorical_move": "framework-first thesis",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "On What: the party-list is 'really an experiment' borrowed from parliamentary regimes and inserted into a presidential system, vague in both Constitution and law, and was flipped by the Supreme Court itself between restrictive and permissive interpretations; the nationalistic-provisions proposal does not actually remove restrictions, only delegates the foreign-equity percentage to Congress.",
+      "rhetorical_move": "doctrinal-substance critique",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "On Why: Duterte cites terrorism/rebel misuse; Velasco cites foreign investment / jobs / poverty; Dominguez argues for opening the economy in all areas except land ownership.",
+      "rhetorical_move": "neutral attribution of rationales",
+      "confidence": "asserted as report"
+    },
+    {
+      "claim": "On When: PCCI's Yujuico is correct that pandemic-recovery bills should be prioritized; Congress has very little time because COC filing is in early October for the May 9, 2022 polls, and the Constitution requires a 60-to-90-day plebiscite window.",
+      "rhetorical_move": "calendar-constraints argument",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "On Who: con-ass by sitting legislators raises the trust problem -- those running for re-election will be tempted to insert self-benefiting amendments like term extensions; and the SC will likely have to resolve the joint-vs-separate-vote question, adding more delay.",
+      "rhetorical_move": "self-interest + litigation-delay concern",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The bottom line is trust: if lawmakers ride on the President's 91% trust rating, stick to the two proposals only, vote separately, and concurrently pass CREATE and other urgent recovery bills, they could overcome the four 'Ws' this time.",
+      "rhetorical_move": "conditional-recommendation close (four bullets)",
+      "confidence": "asserted as if-then"
+    }
+  ],
+  "notable_anecdotes": [
+    "The four-Ws mnemonic itself -- What, Why, When, Who -- as the column's organizing schema, applied uniformly to a complex constitutional question, and serving as a generic framework reusable on any future Cha-cha attempt.",
+    "The historical inventory of failed Cha-cha attempts -- Ramos/Arroyo people's initiatives shot down by the SC; Estrada's Narvasa Preparatory Commission report 'remained unacted upon'; Duterte's Puno Consultative Commission 'Bayanihan Constitution' 'to this day remains unused' -- three named former-CJ-chaired bodies all yielding nothing.",
+    "The observation that the nationalistic-provisions amendment is procedural rather than substantive -- 'does not really remove the restrictions; it merely authorizes Congress to determine from time to time the allowable percentage' -- defusing one of the polarizing claims about Cha-cha.",
+    "The candid Who-question -- 'Can the honorable legislators, especially those running in the next election, be trusted to devote their best in tackling these amendments? What will prevent them from presenting proposals to benefit themselves, like term extensions?' -- naming the self-interest hazard plainly.",
+    "The four-bullet conditional close riding on the President's 91% trust rating -- one of the rare moments where CJ explicitly invokes presidential popularity as political capital that could be spent on a procedural reform."
+  ],
+  "target_audience": [
+    "Members of Congress weighing Cha-cha proposals",
+    "Constitutional-law scholars and election-law practitioners",
+    "Business community (PCCI; foreign-equity reformers)",
+    "Civic-minded readers tracking Cha-cha history",
+    "FLP donors interested in CJ's constitutional commentary",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "framework-first thesis (the four Ws mnemonic)",
+    "doctrinal-formal register with historical-inventory enumeration",
+    "neutral attribution of officials' rationales ('Velasco justified... Dominguez argued for')",
+    "'From where I sit' first-person assessment marker",
+    "conditional-recommendation close with four explicit bullets",
+    "'two surgical amendments' phrase as quietly evaluative",
+    "no Tagalog markers; constitutional-political English",
+    "rhetorical question on legislator self-interest"
+  ],
+  "decision_framework_signals": [
+    "applies a structured four-question framework (What/Why/When/Who) as the analytic schema for any constitutional-amendment proposal",
+    "uses historical-inventory accounting (three former-CJ-chaired commissions all dormant) to argue that procedural alone has consistently been insufficient",
+    "applies calendar-and-process realism (COC filing; 60-90-day plebiscite window) as the When-test",
+    "uses self-interest + litigation-delay concern as the Who-test (will-they-add-term-extensions question)",
+    "applies the 'trust as the actual gate' diagnostic -- Cha-cha is a trust problem first, doctrinal problem second",
+    "uses conditional-recommendation close (four if-conditions) to convert the four-Ws diagnostic into a feasibility checklist"
+  ],
+  "one_paragraph_summary": "Panganiban offers a generic framework for evaluating any Cha-cha proposal -- the four 'Ws': What, Why, When, Who. He recalls the long inventory of failed attempts: Ramos and Arroyo's people's-initiative bids were shot down by the Supreme Court; Estrada's Preparatory Commission on Constitutional Reforms chaired by retired CJ Andres Narvasa produced a report that 'remained unacted upon'; Duterte's Consultative Commission chaired by retired CJ Reynato Puno drafted a sweeping 'Bayanihan Constitution' that 'to this day remains unused.' On What: the present surgical amendments are (1) abolishing or modifying the party-list -- itself 'an experiment' from parliamentary regimes uncomfortably grafted onto a presidential system, with vague text and a Supreme Court that has flipped between restrictive and permissive interpretations -- and (2) lifting the nationalistic provisions, which does not actually remove the restrictions but only authorizes Congress to vary the allowable foreign-equity percentages. On Why: Duterte cites terrorism and rebel misuse of the party-list; Speaker Velasco cites foreign investment, jobs, and poverty alleviation; Finance Secretary Dominguez argues for opening the economy in all areas except land ownership. On When: PCCI's Ambassador Yujuico is right that pandemic-recovery bills should come first, and Congress has very little time before COC filing in October and the May 9, 2022 polls, with the Constitution requiring a 60-to-90-day plebiscite window. On Who: con-ass by sitting legislators -- especially those running for re-election -- raises the trust hazard (term extensions, self-benefiting insertions), and the SC will likely have to resolve the joint-vs-separate-vote question, adding more delay. CJ concludes that Cha-cha's 34-year failure is fundamentally a trust problem, and offers a four-bullet conditional: if lawmakers ride on the President's 91% trust rating, stick to the two proposals only, vote separately, and concurrently pass CREATE and other urgent recovery bills, they could finally overcome the four 'Ws' this time.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

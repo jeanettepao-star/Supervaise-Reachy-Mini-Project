@@ -1,0 +1,163 @@
+{
+  "id": "CE055",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 55,
+  "title": "Readers thinking for themselves",
+  "date": "2021-01-31",
+  "link": "https://opinion.inquirer.net/137390/readers-thinking-for-themselves",
+  "keywords": [
+    "reader correspondence",
+    "Trump impeachment",
+    "Biden-Lincoln parallel",
+    "Al Gore 2000 concession",
+    "Carpio Morales testimony",
+    "columnist's vocation"
+  ],
+  "primary_topics": [
+    "Reader engagement and CJ's three published replies to letters on prior week's column",
+    "Refusal to defend Biden personally while explaining the impeachment process and electoral mandate",
+    "Comparison with Randy David and Tony Carpio as ideas-oriented columnists",
+    "Conchita Carpio Morales's letter contrasting Biden's and Trump's character backgrounds",
+    "CJ's articulated columnist's vocation: present facts, conflicting claims, laws, and jurisprudence so readers form their own opinions"
+  ],
+  "sub_topics": [
+    "Yvette San Luis on Democratic 'hatefulness' over impeaching an ex-president; immigration caravans",
+    "CJ's reply distinguishing Pelosi-led impeachment from Biden-driven action; Biden's 7M-vote popular win and 306-262 electoral count",
+    "Al Gore 2000 concession as the model of minority-following-majority duty",
+    "Lincoln-Biden parallel of reconciliation, with hope Biden 'is not shot like Lincoln'",
+    "Lawyer-reader urging idea-focused columns (Eleanor Roosevelt quote)",
+    "CJ's response naming Randy David, Tony Carpio, and Conchita Carpio Morales as peers with respective styles",
+    "Carpio Morales's emailed character contrast (Biden's poverty, grief, culture vs Trump's silver spoon, colorful life, bad manners, 'LIAR')",
+    "Eddie Yap's question on Biden's healing approach and Lincoln's non-punishment of Gen. Lee",
+    "CJ's list of accountability mechanisms short of revenge politics: impeachment, criminal cases, tax collection, disqualification legislation",
+    "Closing credo: 'I do not proselytize, indoctrinate, or impose'"
+  ],
+  "signature_phrases": [
+    "Numerous were the responses emailed or texted to me",
+    "edited to fit my limited space",
+    "Not to defend Biden (for he is capable of defending himself)",
+    "the popular (Biden got 7 million more votes than Trump) and electoral (306-262)",
+    "while the minority can still disagree peacefully, it has the duty to follow. As Al Gore did in 2000",
+    "I do not expect Biden to unite ALL Americans",
+    "I hope he is not shot like Lincoln",
+    "The barrel of a gun should not settle an electoral disagreement",
+    "incited riots and chaotic mobs that sought to take over the seat of the US government have no place in the democratic space",
+    "Randy David and Tony Carpio have their own way of writing their opinions, which I respect",
+    "Justice Conchita Carpio Morales, who wrote me",
+    "Unlike Trump who was born with a silver spoon",
+    "That is the kind of reaction I expect and often get",
+    "I expect my readers... to form their own opinions",
+    "There are many ways to exact accountability",
+    "Let's see what Biden does and how he will tiptoe the delicate problem",
+    "my columns present relevant facts, conflicting claims, laws and jurisprudence",
+    "inspire readers to think critically and form their conclusions",
+    "I do not proselytize, indoctrinate, or impose",
+    "The freedom to think and to believe is boundless",
+    "for us Christians, the Bible covers thoughts, words, and deeds"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Joseph R. Biden Jr.",
+      "Donald J. Trump",
+      "Abraham Lincoln (parallel)",
+      "Nancy Pelosi",
+      "Al Gore",
+      "Robert E. Lee (general, post-civil-war context)",
+      "John Wilkes Booth (referenced via Lincoln)",
+      "Randy David (academic-columnist peer)",
+      "Antonio T. Carpio (columnist peer; Senior Justice)",
+      "Conchita Carpio Morales (former Ombudsman; correspondent)",
+      "Yvette San Luis (reader correspondent)",
+      "Eddie Yap (reader correspondent)",
+      "Eleanor Roosevelt (quoted)"
+    ],
+    "institutions": [
+      "US House of Representatives (impeachment vote)",
+      "US Senate (impeachment trial)",
+      "Philippine Daily Inquirer",
+      "Inquirer.net"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "Biden's 7M-popular-vote and 306-262 electoral victory",
+      "Al Gore's 2000 concession after Bush v. Gore",
+      "Jan 6, 2021 US Capitol riot (referenced)",
+      "Pelosi-led US House second impeachment of Trump",
+      "Lincoln's assassination by John Wilkes Booth"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "CJ does not defend Biden personally -- Biden 'is capable of defending himself' -- but corrects the factual record: Pelosi and the House Democrats (with some Republicans) drove the impeachment, not Biden.",
+      "rhetorical_move": "non-advocacy + factual correction",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Both popular (Biden +7M votes) and electoral (306-232) majorities have already decided the contested questions in the Democrats' favor; the minority may continue to disagree peacefully but has the duty to follow, as Al Gore did in 2000.",
+      "rhetorical_move": "majoritarian-democratic-duty argument with Al Gore precedent",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "CJ does not expect Biden to unite ALL Americans, but Biden faces the same Lincoln-style problem and is taking the same reconciliation-and-unity approach; the barrel of a gun should not settle electoral disagreements.",
+      "rhetorical_move": "historical-parallel framing with normative line",
+      "confidence": "asserted with worry that Biden could be 'shot like Lincoln'"
+    },
+    {
+      "claim": "Randy David, Tony Carpio, and Conchita Carpio Morales each have their own style; CJ writes to provoke independent thinking, and Carpio Morales's spontaneous character contrast (Biden's poverty/grief/culture vs Trump's silver spoon/bad manners/'LIAR') is the kind of reader response his columns aim to inspire.",
+      "rhetorical_move": "peer-acknowledgment + reader-as-co-thinker exemplification",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "There are many ways to exact accountability -- impeachment, criminal cases, tax collection, disqualification legislation -- and Biden's choice among them remains to be seen.",
+      "rhetorical_move": "enumerated-options agnosticism",
+      "confidence": "asserted / pending"
+    },
+    {
+      "claim": "CJ's columns present relevant facts, conflicting claims, laws, and jurisprudence to inspire critical reader thinking -- he does not proselytize, indoctrinate, or impose; the freedom to think and to believe is boundless, while the freedom to act is limited by Constitution and laws (and for Christians, the Bible covers thoughts, words, and deeds).",
+      "rhetorical_move": "explicit vocational credo close",
+      "confidence": "asserted as personal commitment"
+    }
+  ],
+  "notable_anecdotes": [
+    "Direct verbatim publication of Yvette San Luis's letter (with capitalized 'HATEFUL,' 'SO VERY STUPID,' 'EX-PRESIDENT' preserved) -- a rare visible-anger reader voice in a CJ column, treated respectfully rather than edited down to euphemism.",
+    "Conchita Carpio Morales's emailed contrast of Biden and Trump -- Biden's poverty and grief 'unlike Trump who was born with a silver spoon... clad with bad manners, a braggart and, worst, a LIAR' -- quoted in full as the modeled reader response.",
+    "CJ's 'I hope he is not shot like Lincoln' -- a worry voiced casually mid-column, registering the genuine danger of Biden's reconciliation posture in a violent partisan moment.",
+    "The Eleanor Roosevelt quote from the lawyer-reader ('Great minds discuss about ideas') used as a critique of CJ, which CJ accommodates by naming peers (David, Carpio, Carpio Morales) who write differently while not retreating from his own approach.",
+    "The closing credo -- 'I do not proselytize, indoctrinate, or impose. The freedom to think and to believe is boundless, while the freedom to act (and to write/speak) is limited by the Constitution and the laws. However, for us Christians, the Bible covers thoughts, words, and deeds' -- one of the clearest CJ articulations of his theory of column-writing."
+  ],
+  "target_audience": [
+    "Inquirer readers actively engaging with CJ's columns",
+    "Filipino observers of US politics and Trump-era polarization",
+    "Christian-Catholic readership comfortable with biblical closure",
+    "Younger columnists and editorial-page peers",
+    "Civic-minded readership thinking about democratic norms"
+  ],
+  "register_markers": [
+    "epistolary-column hybrid format (three reader letters + three CJ replies)",
+    "preservation of reader CAPS and emphasis for fidelity",
+    "named-peer acknowledgment (Randy David, Tony Carpio, Conchita Carpio Morales)",
+    "embedded Carpio Morales full-paragraph quotation",
+    "'Not to defend Biden (for he is capable of defending himself)' parenthetical-detachment marker",
+    "'The barrel of a gun should not settle an electoral disagreement' aphoristic normative line",
+    "vocational credo close ('I do not proselytize, indoctrinate, or impose')",
+    "biblical reference ('for us Christians, the Bible covers thoughts, words, and deeds')",
+    "no Tagalog markers; epistolary-civic English"
+  ],
+  "decision_framework_signals": [
+    "applies non-advocacy + factual-correction principle when a reader misattributes responsibility",
+    "uses majoritarian-democratic-duty argument with concrete precedent (Al Gore 2000)",
+    "applies the 'minority may disagree peacefully but must follow' civic discipline norm",
+    "uses peer-acknowledgment as inclusive epistemic generosity rather than competitive comparison",
+    "applies enumerated-accountability-options framing (impeachment / criminal cases / tax / disqualification) for political accountability questions",
+    "treats the columnist's vocation as facilitator-of-thinking, not opinion-imposer",
+    "applies the 'thought-belief boundless / act constitutional-limited' division",
+    "for Christian readership, applies the Bible-covers-thoughts-words-deeds extension"
+  ],
+  "one_paragraph_summary": "Reflecting on the volume of correspondence triggered by his prior column on the divided United States, Panganiban publishes three letters and his replies. Yvette San Luis accuses Democrats of hatefulness for impeaching an ex-president and welcoming immigrant caravans; CJ corrects the factual attribution -- Pelosi, not Biden, drove the impeachment -- and reminds her that both the popular vote (Biden +7M) and the Electoral College (306-232) have already settled the contested questions in the Democrats' favor, with the minority's civic duty being to disagree peacefully but follow, 'as Al Gore did in 2000.' He does not expect Biden to unite all Americans, but Biden faces Lincoln's problem and is taking Lincoln's reconciliation approach; CJ hopes 'he is not shot like Lincoln,' insisting that 'the barrel of a gun should not settle an electoral disagreement.' A lawyer-reader, citing Eleanor Roosevelt, urges CJ to write about ideas like Randy David and Tony Carpio; CJ accommodates the comparison gracefully and quotes a long emailed character contrast from Justice Conchita Carpio Morales (Biden's poverty, grief, and culture vs Trump's silver spoon, braggadocio, and 'LIAR') as a model of the spontaneous reader response his columns aim to inspire. Eddie Yap asks how far Biden will go to heal the nation; CJ enumerates accountability options short of revenge -- impeachment, criminal cases, tax collection, disqualification legislation -- and waits to see Biden's choice. He closes with his columnist's credo: he does not proselytize, indoctrinate, or impose; his columns present facts, conflicting claims, laws, and jurisprudence to inspire critical thinking. The freedom to think and to believe is boundless; the freedom to act is bounded by Constitution and law -- and for Christians, by a Bible that covers thoughts, words, and deeds.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

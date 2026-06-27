@@ -1,174 +1,199 @@
 {
   "id": "CD003",
+  "format": "C",
   "type": "column",
   "theme": "D",
   "theme_label": "FLP Mission and Foundation",
   "number": 3,
   "title": "20 law grants at P250k, 5 MBA at P500k",
   "date": "2025-08-25",
-  "year": 2025,
-  "source_url": "https://opinion.inquirer.net/185590/20-law-grants-at-p250k-5-mba-at-p500k",
-  "routing": {
-    "primary_intent": [
-      "biography",
-      "institutional"
-    ],
-    "secondary_intent": [],
-    "audience_match": [],
-    "complexity": "medium",
-    "emotional_register": []
-  },
-  "topic_paths": {
-    "primary": [
-      "twin_beacons_doctrine",
-      "flp_scholarship_programs"
-    ],
-    "secondary": [
-      "flp_donors_and_partners",
-      "bar_exam_and_legal_education",
-      "rule_of_law"
-    ]
-  },
+  "link": "https://opinion.inquirer.net/185590/20-law-grants-at-p250k-5-mba-at-p500k",
   "keywords": [
-    "FLP",
-    "law scholarship",
-    "legal education",
-    "liberty and prosperity",
-    "bar exam"
+    "FLP law scholarships",
+    "ESMEL MBA fellowships",
+    "dissertation writing contest",
+    "Tan Yan Kee partnership",
+    "Master's in International Business Law"
   ],
   "primary_topics": [
-    "FLP's 2025-2026 grants: 20 legal scholarships (P250k each) and 5 MBA fellowships (P500k)",
-    "Ayala Corp partnership for dissertation writing contest awards",
-    "perpetuating CJ's core philosophy of liberty and prosperity under the rule of law"
+    "Foundation for Liberty and Prosperity awards announcement",
+    "Legal and business education philanthropy",
+    "Curriculum innovation in business law"
   ],
   "sub_topics": [
-    "20 legal scholarships at P250,000 each (total P5 million), partnered with the Tan Yan Kee Foundation",
-    "5 MBA-equivalent fellowships at P500,000 each â€” 'Esmel' Fellowships (entrepreneurship, sustainability, management, economics, business law) in partnership with Metro Pacific Investments Corporation",
-    "10 third-year FLP scholars: Althea Acidre (Vicente Orestes Romualdez College), Danielle Caliosan (U of Southeastern Philippines), Kim Humarang (UST), Alyannah Mabelin (UCebu), Lia Manalo (UP), Joselino Poquiz (ADMU), Myka Reambonanza (USC), Lorraine Tumolva (UST), Brian Unabia (USC), Michelle Vergara (USC)",
-    "10 fourth-year FLP scholars: Kryster Bellen (UP), Kerstein Despi (USC), Cicily Mirasol (UP), Christa Mutuc (USC), Jayson Orajay (Xavier U), Enrico Paguia (ADMU), Ricardo SobreviÃ±as (ADMU), Mary Te (USC), Chinzen Viernes (UP), Ignacio Villareal (UP)",
-    "FLP-Ayala Corp dissertation writing contest awards: first prize P320,000 to Isabelle Ginez (ADMU), second prize P220,000 to Laurice Sy (ADMU), three third placers at P120,000 each (Chaira Ferran of De La Salle Lipa, Jadel Gines of ADMU, Kristine Kalalo of ADMU), four finalists at P20,000 each (Susanna Gruyal of UP, Christine Lopez of UST, Jose Vilchez of UP, Darren Zamudio of FEU)",
-    "Board of Judges (BOJ) led by SC Justice Jhosep Y. Lopez with members Dean Anna Maria D. Abad, lawyer Franchette M. Acosta, CTA Justice Marian Ivy Reyes Fajardo, lawyer Joel Emerson Gregorio",
-    "FLP founded 2011 to perpetuate CJ's core judicial philosophy: safeguard liberty and nurture prosperity under the rule of law",
-    "Bar-exam topnotchers from past FLP batches: Kyle Tutor (UP, 1st place 2024), Love Quebrar (UP, 6th place 2024), Sean James Borja (Ateneo law valedictorian, 1st place 2018)",
-    "five winning dissertations accessible at www.libpros.com"
+    "20 law scholarships at P250,000 each (P5M total) via Tan Yan Kee Foundation",
+    "5 ESMEL MBA fellowships at P500,000 each (P2.5M total) via Metro Pacific Investments Foundation",
+    "Dissertation writing contest (~P1M total) via Ayala Corporation",
+    "ESMEL focus areas: entrepreneurship, sustainability, management, economics, business law",
+    "Master's in International Business Law (MIBL) program at AIM",
+    "Law scholars Board of Judges chaired by CJ Gesmundo",
+    "ESMEL Board of Judges chaired by ret. BSP Gov. Tetangco",
+    "Dissertation Board of Judges chaired by SC Justice Jhosep Y. Lopez",
+    "FLP board of trustees and officers roster",
+    "FLP philosophical core: safeguard liberty, nurture prosperity under the rule of law"
   ],
   "signature_phrases": [
-    {
-      "phrase": "IN PARTNERSHIP WITH THE AYALA CORP.",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "the best and the brightest law students",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "perpetuate my core judicial philosophy",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "safeguard liberty and nurture prosperity under the rule of law",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "merit-based",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "the program has always produced Bar toppers",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "Tan Yan Kee Foundation",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "Esmel",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "Master of Business Administration or its equivalent",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    }
+    "20 law grants at P250k, 5 MBA at P500k",
+    "Knowledge of the law rounds out business thinking",
+    "Not only does the law tell what one cannot do, but it tells how far one can go",
+    "help our people help themselves through private entrepreneurship",
+    "safeguard liberty and nurture prosperity under the rule of law",
+    "act with confidence and sail forward without fear",
+    "Esmel"
   ],
   "entities": {
-    "people": [],
-    "institutions": [],
+    "people": [
+      "First Lady Marie Louise 'Louise' Araneta-Marcos",
+      "Fernando Zobel de Ayala",
+      "Chief Justice Alexander G. Gesmundo",
+      "Solicitor General Darlene Marie 'Lelen' Berberabe",
+      "Dean Teodoro Pastrana",
+      "Atty. Maria Angela Benecario",
+      "Atty. Joel Emerson Gregorio",
+      "Althea Acidre (Vicente Orestes Romualdez College)",
+      "Danielle Caliosan (U of Southeastern Philippines)",
+      "Kim Humarang (UST)",
+      "Alyannah Mabelin (UCebu)",
+      "Lia Manalo (UP)",
+      "Joselino Poquiz (ADMU)",
+      "Myka Reambonanza (USC)",
+      "Lorraine Tumolva (UST)",
+      "Brian Unabia (USC)",
+      "Michelle Vergara (USC)",
+      "Kryster Bellen (UP)",
+      "Kerstein Despi (USC)",
+      "Cicily Mirasol (UP)",
+      "Christa Mutuc (USC)",
+      "Jayson Orajay (Xavier U)",
+      "Enrico Paguia (ADMU)",
+      "Ricardo Sobreviñas (ADMU)",
+      "Mary Te (USC)",
+      "Chinzen Viernes (UP)",
+      "Ignacio Villareal (UP)",
+      "Kyle Tutor (UP -- 1st place, 2024 Bar)",
+      "Love Quebrar (UP -- 6th place, 2024 Bar)",
+      "Sean James Borja (ADMU -- 1st place, 2018 Bar)",
+      "Carl Balagtas (UP -- ESMEL)",
+      "Aingel Domingo (ADMU -- ESMEL)",
+      "Giselle Geronimo (AIM -- ESMEL)",
+      "Czarina Santos (AIM -- ESMEL)",
+      "Caroline So (AIM -- ESMEL)",
+      "BSP Gov. Amando M. Tetangco Jr.",
+      "Chaye Cabal-Revilla",
+      "Dr. Charo Santos-Concio",
+      "Maria Elena P. S. Yaptangco",
+      "Dr. Jikeong Kang (AIM President and Dean)",
+      "Prof. Olivier Roche (AIM)",
+      "Prof. Felipe Calderon (AIM)",
+      "Isabelle Ginez (ADMU -- 1st prize, P320k)",
+      "Laurice Sy (ADMU -- 2nd prize, P220k)",
+      "Chaira Ferran (DLSU-Lipa -- 3rd, P120k)",
+      "Jadel Gines (ADMU -- 3rd, P120k)",
+      "Kristine Kalalo (ADMU -- 3rd, P120k)",
+      "Susanna Gruyal (UP -- finalist, P20k)",
+      "Christine Lopez (UST -- finalist, P20k)",
+      "Jose Vilchez (UP -- finalist, P20k)",
+      "Darren Zamudio (FEU -- finalist, P20k)",
+      "SC Justice Jhosep Y. Lopez",
+      "Dean Anna Maria D. Abad",
+      "Atty. Franchette M. Acosta",
+      "CTA Justice Marian Ivy Reyes-Fajardo",
+      "Artemio V. Panganiban (FLP chair)",
+      "Ret. SC Justice Angelina Sandoval-Gutierrez (FLP president)",
+      "Ret. SAJ Estela M. Perlas-Bernabe",
+      "Former Education Secretary Edilberto de Jesus",
+      "AIM Prof. Maria Theresa P. Mañalac",
+      "Atty. Arvin Paolo D. Cortez",
+      "Rebecca G. Felix (FLP treasurer)",
+      "Susan N. Gavino (FLP executive director)",
+      "Jacob Barbosa (FLP project director)"
+    ],
+    "institutions": [
+      "Foundation for Liberty and Prosperity (FLP)",
+      "Tan Yan Kee Foundation",
+      "Metro Pacific Investments Corp.",
+      "Metro Pacific Investments Foundation",
+      "Ayala Corporation",
+      "Supreme Court of the Philippines",
+      "Manila Polo Club",
+      "Asian Institute of Management (AIM)",
+      "Ateneo de Manila University (ADMU)",
+      "University of the Philippines (UP)",
+      "University of Santo Tomas (UST)",
+      "University of San Carlos (USC)",
+      "University of Cebu (UCebu)",
+      "University of Southeastern Philippines",
+      "Vicente Orestes Romualdez College",
+      "Xavier University",
+      "De La Salle University-Lipa",
+      "Far Eastern University (FEU)",
+      "Bangko Sentral ng Pilipinas (BSP)",
+      "Court of Tax Appeals (CTA)"
+    ],
     "cases": [],
     "laws_treaties": [],
-    "events": []
+    "events": [
+      "August 29, 2025 FLP award ceremony at Manila Polo Club, Makati City",
+      "Launch of FLP's Master's in International Business Law (MIBL) program at AIM",
+      "FLP's 2018 inaugural Bar exam batch (with Sean James Borja topping)",
+      "2024 Bar exam (Kyle Tutor 1st, Love Quebrar 6th)"
+    ]
   },
-  "stances": [],
-  "notable_anecdotes": [
+  "stances": [
     {
-      "summary": "FLP's 2025-2026 grant tally: P5 million in legal scholarships across 20 students (P250,000 each), plus P2.5 million in MBA-equivalent Esmel fellowships across 5 students (P500,000 each), plus an FLP-Ayala Corp dissertation writing contest with a graduated cash-prize ladder",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
+      "claim": "Entrepreneurs should be armed with law backgrounders -- obligations and contracts, patents, trademarks, data privacy, property rights, statutory construction -- in addition to traditional business subjects.",
+      "rhetorical_move": "curriculum prescription with practical justification",
+      "confidence": "high"
     },
     {
-      "summary": "Two of the 10 FLP scholars who took the 2024 bar exams placed in the top six â€” Kyle Tutor (UP) at 1st place and Love Quebrar (UP) at 6th",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
+      "claim": "Knowledge of the law rounds out business thinking: it tells not only what one cannot do, but how far one can go.",
+      "rhetorical_move": "aphoristic framing of the law-business synthesis",
+      "confidence": "high"
     },
     {
-      "summary": "Sean James Borja (Ateneo de Manila law valedictorian, 2018) â€” FLP's first bar topper at 1st place â€” invoked as the program's foundational success",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
+      "claim": "The best way to nurture prosperity is to help our people help themselves through private entrepreneurship.",
+      "rhetorical_move": "first-principles statement of FLP philosophy",
+      "confidence": "high"
     },
     {
-      "summary": "The Board of Judges led by SC Justice Jhosep Y. Lopez, with Dean Anna Maria D. Abad, lawyer Franchette M. Acosta, CTA Justice Marian Ivy Reyes Fajardo, and lawyer Joel Emerson Gregorio",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
-    },
-    {
-      "summary": "Full texts of the five winning dissertations accessible at www.libpros.com",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
+      "claim": "Business schools should offer courses that combine business, law, and technology -- exemplified by AIM's new MIBL.",
+      "rhetorical_move": "endorsement of curricular reform via successful pilot",
+      "confidence": "high"
     }
   ],
-  "decision_framework_signals": [],
-  "target_audience": [],
-  "register_markers": [],
-  "one_paragraph_summary": ""
+  "notable_anecdotes": [
+    "FLP's 2018 inaugural Bar batch already producing a topnotcher in Ateneo law valedictorian Sean James Borja -- proof of concept for the program from its first year.",
+    "In the 2024 Bar exams, Kyle Tutor (UP) copping first place and Love Quebrar (UP) sixth place -- both FLP scholars from the same year's cohort of ten takers.",
+    "Dr. Jikeong Kang and her AIM team (Profs. Olivier Roche and Felipe Calderon) 'feverishly' designing a Master's in International Business Law curriculum in just eight months -- and all three AIM ESMEL fellows enrolling in MIBL.",
+    "Ayala Corp.-funded dissertation prizes with full winning texts publicly accessible at www.libpros.com -- democratizing access to FLP-sponsored legal scholarship.",
+    "FLP's 2011 founding to perpetuate the author's core judicial philosophy of safeguarding liberty and nurturing prosperity under the rule of law."
+  ],
+  "target_audience": [
+    "Law school applicants and current law students",
+    "MBA candidates considering business-law concentrations",
+    "AIM, ADMU, UP, USC, UST, and other partner-school communities",
+    "Corporate philanthropy decision-makers and CSR officers",
+    "Bench and bar following FLP's institutional programs",
+    "Aspiring entrepreneurs interested in legal literacy"
+  ],
+  "register_markers": [
+    "Announcement-and-roster format with peso amounts and partner credits",
+    "Formal honorifics with school affiliations in parentheses",
+    "First-person philosophical interludes between rosters",
+    "Aphoristic insertions ('Knowledge of the law rounds out business thinking')",
+    "Sponsor-acknowledgment cadence ('In partnership with...')",
+    "Civic-philanthropic tone with institutional pride",
+    "URL plug to www.libpros.com for public access"
+  ],
+  "decision_framework_signals": [
+    "Pair scholarships with named corporate-foundation partners to scale philanthropy",
+    "Use a Board of Judges with sitting CJ/Justices and senior officers to confer legitimacy on selection",
+    "Design fellowships around interdisciplinary clusters (ESMEL: entrepreneurship, sustainability, management, economics, business law)",
+    "Co-create curricula with academic partners (AIM's MIBL) when existing programs do not fit the need",
+    "Reward research output (dissertations) at multiple prize tiers to incentivize a broad funnel of submissions",
+    "Make winning work publicly accessible (libpros.com) to amplify scholarly return on philanthropy",
+    "Anchor a foundation's governance with a recognizable, multi-sector board of trustees and clear officer roles"
+  ],
+  "one_paragraph_summary": "Panganiban announces that on August 29, 2025 at the Manila Polo Club in Makati -- with First Lady Louise Araneta-Marcos as special guest and Fernando Zobel de Ayala as guest speaker -- the Foundation for Liberty and Prosperity will award 20 law scholarships at P250,000 each (P5M, via Tan Yan Kee Foundation), 5 ESMEL MBA fellowships at P500,000 each (P2.5M, via Metro Pacific Investments Foundation, covering entrepreneurship, sustainability, management, economics, or business law), and roughly P1M in dissertation prizes (via Ayala Corp.). He names the full rosters: ten third-year law scholars (Acidre, Caliosan, Humarang, Mabelin, Manalo, Poquiz, Reambonanza, Tumolva, Unabia, Vergara), ten fourth-year scholars (Bellen, Despi, Mirasol, Mutuc, Orajay, Paguia, Sobreviñas, Te, Viernes, Villareal), the five ESMEL fellows (Balagtas, Domingo, Geronimo, Santos, So -- all three AIM fellows enrolling in AIM's new eight-month-built Master's in International Business Law program led by Dr. Jikeong Kang with Profs. Olivier Roche and Felipe Calderon), and the dissertation winners headed by Isabelle Ginez (1st, P320k) and Laurice Sy (2nd, P220k) with three P120k third-placers and four P20k finalists. He details the three Boards of Judges -- for law scholarships (chaired by CJ Gesmundo), for ESMEL (chaired by ret. BSP Gov. Tetangco), and for dissertations (chaired by SC Justice Jhosep Y. Lopez) -- and lays out the FLP board of trustees and officers. Threaded through the announcement is his philosophical refrain that 'knowledge of the law rounds out business thinking' -- telling entrepreneurs not only what they cannot do but how far they can go -- and his belief that the best way to nurture prosperity is to help Filipinos help themselves through private entrepreneurship under the rule of law, the founding philosophy FLP has carried since 2011.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
 }

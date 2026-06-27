@@ -1,0 +1,160 @@
+{
+  "id": "CA063",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 63,
+  "title": "A puzzlement for our Supreme Court",
+  "date": "2024-08-12",
+  "link": "https://opinion.inquirer.net/175936/a-puzzlement-for-our-supreme-court",
+  "keywords": [
+    "Robinhood Padilla",
+    "Article XVII three-fourths vote",
+    "joint vs separate voting",
+    "constitutional amendment",
+    "declaratory relief",
+    "advisory opinion ban",
+    "transcendental importance",
+    "Rule 63 Section 1",
+    "due process intervention"
+  ],
+  "primary_topics": [
+    "Sen. Robin Padilla's pro-se petition (Aug 5) asking the SC for a binding opinion on 'vote of three-fourths of all its Members' under Article XVII",
+    "Substantive controversy: joint-voting vs separate-voting interpretation of congressional charter-change action",
+    "Three remedial-law problems: declaratory-relief jurisdiction (RTC, not SC); absence of opposing party; prohibition on advisory opinions",
+    "CJ's proposed pathway: SC should not summarily dismiss given transcendental importance -- direct OSG/Senate President/House Speaker to comment, then issue a full decision"
+  ],
+  "sub_topics": [
+    "Padilla as 2022 senatorial topnotcher; filed petition Aug 5 'by his lonesome' without lawyers",
+    "Padilla as Senate committee chair on constitutional amendment and revision of codes; 54 years old; 'champion of federalism'",
+    "Article XVII Section 1: 3/4 vote of all Members for amendment/revision",
+    "Article XVII Section 3: 2/3 for concon; majority to submit concon-calling to electorate",
+    "Joint-voting view: sum senators + congressmen, extract 3/4",
+    "Separate-voting view: two Houses vote independently",
+    "Senators insist on separate voting; otherwise 'drown in the sea of the much more numerous representatives'",
+    "Padilla frames irreconcilable differences as 'actual controversy' or 'gloomy atmosphere'",
+    "Padilla concedes declaratory relief (Rule 63 Section 1) should be filed in RTCs",
+    "Asks SC exception due to 'transcendental importance'",
+    "CJ's THREE remedial-law problems: (1) declaratory-relief jurisdiction in RTCs, SC only on appeal; (2) no opposing party -- adversarial system; (3) advisory opinions disallowed (unlike ICJ)",
+    "CJ's path: don't dismiss; let OSG/Senate President/Speaker intervene voluntarily or be directed to comment; then promulgate full decision",
+    "Closing speculation: if Padilla wins, he could be admitted to Philippine Bar as exception to four-year-law-degree-and-bar-exam requirement"
+  ],
+  "signature_phrases": [
+    "by his lonesome",
+    "the multitalented senator",
+    "the neophyte senator",
+    "champion of federalism",
+    "actual controversy",
+    "gloomy atmosphere",
+    "transcendental importance",
+    "declaratory relief",
+    "I deeply admire the patriotic intentions",
+    "IMHO",
+    "his petition is befuddled by at least three difficult remedial law problems",
+    "essentially adversarial in nature",
+    "passive participants",
+    "advisory opinion",
+    "to comply with the constitutional edicts of due process",
+    "puzzlement",
+    "seemingly insurmountable procedural mountain peaks",
+    "drown in the sea of the much more numerous representatives"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Sen. Robinhood C. Padilla (petitioner; 2022 topnotcher; 54)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Senate of the Philippines",
+      "House of Representatives",
+      "Senate committee on constitutional amendment and revision of codes",
+      "Office of the Solicitor General (OSG)",
+      "Office of the Senate President",
+      "Office of the Speaker of the House",
+      "Regional Trial Courts (RTCs)",
+      "International Court of Justice (ICJ)",
+      "Philippine Bar"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution -- Article XVII Section 1",
+      "1987 Constitution -- Article XVII Section 3",
+      "Rules of Court -- Section 1, Rule 63 (declaratory relief)",
+      "Rules of Court -- Philippine Bar admission requirements"
+    ],
+    "concepts": [
+      "Declaratory relief",
+      "Advisory opinion (foreign/international vs PH ban)",
+      "Adversarial judicial system",
+      "Transcendental importance (exception doctrine)",
+      "Joint vs separate voting"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Sen. Robin Padilla, the 2022 senatorial topnotcher, personally signed under oath and filed a petition on Aug 5 -- 'by his lonesome -- without being represented or assisted by lawyers' -- asking the SC for a binding opinion on what 'a vote of three-fourths of all its Members' means under Article XVII Section 1, the question on which his Senate committee's invited legal experts could not agree.",
+      "rhetorical_move": "petition-setup with pro-se posture-flagging"
+    },
+    {
+      "claim": "The substantive controversy: joint-voting view sums senators and congressmen and extracts 3/4 from the total; separate-voting view treats the two Houses independently. 'Most senators insist on separate voting; otherwise, they would drown in the sea of the much more numerous representatives, who, understandably, want joint voting.'",
+      "rhetorical_move": "two-camp framing with self-interest diagnosis"
+    },
+    {
+      "claim": "Padilla concedes he is asking for 'declaratory relief' (Rule 63 Section 1) which 'should be filed in the Regional Trial Courts (RTCs)' but pleads exception due to 'transcendental importance.'",
+      "rhetorical_move": "petitioner-concession-flagging"
+    },
+    {
+      "claim": "CJ admires Padilla's 'patriotic intentions' but identifies three difficult remedial-law problems: (1) declaratory-relief jurisdiction is initially in RTCs, SC only on appeal -- though SC has granted 'transcendental importance' exceptions; (2) the petition includes no opposing party -- 'our judicial system is essentially adversarial in nature' with justices/judges as 'passive participants'; (3) the petition pleads for an 'advisory opinion' which our Constitution does not allow (unlike the ICJ).",
+      "rhetorical_move": "three-problem doctrinal diagnosis"
+    },
+    {
+      "claim": "CJ's procedural recommendation: the Court should NOT simply dismiss -- because Padilla furnished copies to OSG, Senate President, and Speaker -- but should let them intervene voluntarily or be directed to file comments 'to comply with the constitutional edicts of due process,' and then 'promulgate a full decision and thereby avoid issuing an advisory opinion.'",
+      "rhetorical_move": "procedural-pathway converting advisory-opinion problem into adversarial-decision opportunity"
+    },
+    {
+      "claim": "CJ's closing speculation: 'Should Padilla win this case on its merits despite its seemingly insurmountable procedural mountain peaks, he could be admitted to the Philippine Bar and become a full-fledged lawyer as an exception to the Rules of Court's requirement to pass a four-year basic law degree and the stringent bar exam.'",
+      "rhetorical_move": "speculative-reward closing as quiet incentive"
+    }
+  ],
+  "notable_anecdotes": [
+    "Pro-se filing posture preserved verbatim: 'He did this by his lonesome -- without being represented or assisted by lawyers.'",
+    "Senators' self-interest diagnosis: 'most senators insist on separate voting; otherwise, they would drown in the sea of the much more numerous representatives, who, understandably, want joint voting.'",
+    "Three-problem catalog in numbered FIRST/SECOND/THIRD caps structure -- CJ's signature numbered-problem doctrinal-diagnosis register.",
+    "'Essentially adversarial' / 'passive participants' system-characterization as concise observation on PH judicial-system architecture.",
+    "Closing speculative-reward: 'Should Padilla win this case on its merits despite its seemingly insurmountable procedural mountain peaks, he could be admitted to the Philippine Bar...' -- CJ's gentle-incentive close."
+  ],
+  "target_audience": [
+    "Supreme Court justices (procedural-pathway recommendation recipients)",
+    "Sen. Robin Padilla (petitioner)",
+    "OSG, Senate President, Speaker (potential intervenors)",
+    "Constitutional-law and remedial-law scholars",
+    "Charter-change advocates and skeptics",
+    "Bar-admission policy observers"
+  ],
+  "register_markers": [
+    "pro-se posture marker ('by his lonesome')",
+    "honorifics ('multitalented senator'; 'neophyte senator'; 'champion of federalism')",
+    "two-camp framing with self-interest diagnosis",
+    "petitioner-concession-flagging",
+    "numbered-problem doctrinal-diagnosis (FIRST/SECOND/THIRD)",
+    "'IMHO' first-person disclosure",
+    "'essentially adversarial' / 'passive participants' system-characterization",
+    "procedural-pathway proposal as constructive alternative",
+    "speculative-reward closing",
+    "'puzzlement' as title-keyword",
+    "'transcendental importance' technical marker"
+  ],
+  "decision_framework_signals": [
+    "applies declaratory-relief jurisdictional-allocation (RTC, SC on appeal)",
+    "uses adversarial-system architecture as opposing-party-requirement basis",
+    "deploys advisory-opinion ban as constitutional-judicial limit",
+    "treats transcendental-importance as legitimate exception doctrine",
+    "frames due-process intervention pathway as procedural rescue mechanism",
+    "applies three-problem diagnostic as structured doctrinal evaluation",
+    "treats Padilla's copy-furnishing to OSG/Senate President/Speaker as opportunity for adversarial-system conversion"
+  ],
+  "one_paragraph_summary": "Sen. Robinhood C. Padilla, the 2022 senatorial topnotcher, personally signed under oath and filed on August 5 a petition -- 'by his lonesome -- without being represented or assisted by lawyers' -- asking the Supreme Court for a binding opinion on how Congress should vote in revising or amending the Constitution. He quoted Article XVII: Section 1 (amendments/revisions proposed by Congress 'upon a vote of three-fourths of all its Members') and Section 3 ('two-thirds of all its Members' to call a concon; 'majority vote' to submit concon-calling to the electorate). As chair of the Senate committee on constitutional amendment and revision of codes, the 54-year-old 'champion of federalism' has called public hearings, but invited legal experts could not agree on the meaning of 'vote of three-fourths.' One camp argues joint voting (sum senators + congressmen, extract 3/4); another argues separate voting (as in ordinary legislation). 'Most senators insist on separate voting; otherwise, they would drown in the sea of the much more numerous representatives, who, understandably, want joint voting.' Padilla frames the irreconcilable differences as 'actual controversy' or 'gloomy atmosphere' and pleads transcendental national interest. He concedes he is asking for 'declaratory relief' (Rule 63 Section 1) which 'should be filed in the Regional Trial Courts (RTCs)' but asks for an exception due to 'transcendental importance.' CJ deeply admires Padilla's patriotic intentions but identifies -- IMHO -- three difficult remedial-law problems. FIRST, declaratory-relief jurisdiction is initially vested in RTCs with SC review only on appeal; though SC has granted exceptions for 'transcendental importance' in rare cases, it could dismiss the petition on short shrift. SECOND, the petition includes no opposing party with adverse interest, but 'our judicial system is essentially adversarial in nature. Justices and judges are passive participants in conducting trials in the lower courts and in reviewing the records when they pass upon appeals.' THIRD -- flowing from the second -- Padilla is asking for an 'advisory opinion' which 'our Constitution does not allow the judiciary to promulgate' (unlike the International Court of Justice and some foreign tribunals). CJ recommends: the Court should NOT simply dismiss given the transcendental issue. Because Padilla already furnished copies to OSG, Senate President, and Speaker, the Court should let them intervene voluntarily or be directed to file comments -- to comply with 'the constitutional edicts of due process' -- and then 'promulgate a full decision and thereby avoid issuing an advisory opinion.' CJ closes: 'Should Padilla win this case on its merits despite its seemingly insurmountable procedural mountain peaks, he could be admitted to the Philippine Bar and become a full-fledged lawyer as an exception to the Rules of Court's requirement to pass a four-year basic law degree and the stringent bar exam.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,222 @@
+{
+  "id": "CE050",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 50,
+  "title": "Sara, the game changer",
+  "date": "2021-10-17",
+  "link": "https://opinion.inquirer.net/145340/sara-the-game-changer",
+  "keywords": [
+    "Sara Duterte substitution",
+    "Bato dela Rosa",
+    "PDP-Laban",
+    "Lakas-CMD",
+    "Isko Moreno",
+    "Bongbong sister Imee",
+    "Liberal Party",
+    "Damon Centola Change",
+    "strength of weak ties"
+  ],
+  "primary_topics": [
+    "Pre-November 15 decision: will Sara Duterte substitute for Bato dela Rosa as PDP-Laban / Lakas-CMD presidential bet?",
+    "If Sara runs: ample logistics, slate selection privilege, donation-management problem",
+    "If Sara refuses: candidates seek administration blessing; admin 10% vote-shepherding leverage",
+    "Isko Moreno as primary beneficiary of Sara cop-out -- 'Healing President' positioning",
+    "Bongbong joining PDP-Laban via Imee's 'dream team' Sara-Bongbong / Bongbong-Sara",
+    "Leni Robredo's strategic choice to run as independent (not LP) and its costs",
+    "Social media campaigning, 'kakampinks,' Mocha Uson, Damon Centola's 'Change'"
+  ],
+  "sub_topics": [
+    "November 15 substitution deadline",
+    "Sara as substitute candidate for Sen. Ronald 'Bato' dela Rosa",
+    "PDP-Laban (ruling) and Lakas-CMD (GMA) party affiliations",
+    "Sara as poll-survey top choice -- 'Run, Sara, Run' street/rally hypothetical",
+    "Administration's 10% vote-shepherding capacity in tight multiparty contests",
+    "Isko Moreno's pandemic critique + adoption of 'good policies and projects' of Duterte and Marcos + rejection of dubious ones",
+    "Isko as 'Healing President' / national-reconciliation apostle",
+    "Bongbong's earlier choice to run under little-known Federal Party (not tarnished KBL of martial-law vintage)",
+    "Imee Marcos's 'dream team' framing",
+    "Sen. Ping Lacson in Pulse Asia cellar; partner Sen. Tito Sotto possibly switching to Yorme Akyon Demokratiko / Manny Pacquiao Promdi / PDP-Laban / Liberal Party",
+    "Sen. Kiko Pangilinan's publicly stated willingness to withdraw for Robredo (with wife Sharon's comfort)",
+    "Leni Robredo as opposition hallowed candidate (anti-Duterte and anti-Marcos crowd)",
+    "If Sara runs, Leni loses 'only lady' distinction",
+    "Leni running as independent, not LP -- depriving herself of dominant-minority-party legal pluses",
+    "No independent has ever been elected president",
+    "LP's 75-year history; CJ as LP chief legal counsel after Edsa under Senate President Jovito R. Salonga",
+    "Pandemic shifting campaigns from face-to-face to online",
+    "'kakampinks' as Robredo supporters; question of their social-media expertise",
+    "Mocha Uson's 2016 Duterte campaign: 4 million likes, 1.2 million engagements per ISEAS-Yusof Ishak white paper (2020)",
+    "Damon Centola's 'Change' (January 2021): 'strength of weak ties' and 'weakness of strong ties' in spreading beliefs"
+  ],
+  "signature_phrases": [
+    "On or before Nov. 15",
+    "Mayor Sara Duterte will have to decide with finality",
+    "the feisty Inday has steadfastly refused to chase any national post",
+    "I will not be surprised if her teeming supporters would flood the country's streets and plazas",
+    "Run, Sara, Run",
+    "her enviable problem would be which donations to accept and which ones to reject",
+    "most of the candidates will review their campaigns and seek the blessing of the people in power",
+    "Past elections have shown that the administration can shepherd up to 10 percent of the votes",
+    "Mayor Isko Moreno will probably be a big beneficiary of an Inday cop-out",
+    "the apostle of national reconciliation",
+    "his rather canny adoption of the 'good policies and projects' of President Duterte and of former president Ferdinand Marcos",
+    "the rejection of their dubious ones",
+    "His posture as the 'Healing President'",
+    "convincing its favorite son, Bongbong Marcos, to be the substitute of Willie Ong",
+    "actualize his sister Imee's 'dream team' of Sara-Bongbong or Bongbong-Sara",
+    "Bongbong has chosen to run under the little-known Federal Party and not under the tarnished KBL of martial law vintage",
+    "the redoubtable pork barrel nemesis Sen. Ping Lacson",
+    "may have to bite the bullet if he remains in the Pulse Asia cellar",
+    "Yorme's Akyon Demokratiko",
+    "Manny Pacquiao's Promdi",
+    "publicly expressed his willingness (to his wife Sharon's comfort) to withdraw if VP Leni Robredo's bid would thereby be enhanced",
+    "Leni would lose the distinction of being the only lady gunning for the top job",
+    "Strange, however, why Leni chose to run as an independent and not as a nominee of the LP she chairs",
+    "Leni deprived herself of the legal pluses of the LP as the dominant minority party",
+    "No independent has ever been elected president",
+    "The LP has a long and storied history since it was founded 75 years ago",
+    "I know a bit of LP politics because after the Edsa revolution when Senate President Jovito R. Salonga was the LP president, I was the LP's chief legal counsel",
+    "Practically abandoning the LP cadres and the unsung 'yellows'",
+    "Do her 'kakampinks' have the expertise and wherewithal to tap social media successfully?",
+    "Do they have influencers the likes of Mocha Uson",
+    "attracted 4 million likes and recorded around 1.2 million engagements",
+    "the 'strength of weak ties' and the 'weakness of strong ties'",
+    "Change by Penn professor Damon Centola",
+    "whether she runs or not, Sara will be the game changer of the political landscape come Nov. 15"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Mayor Sara Duterte ('feisty Inday,' 'lady from Davao')",
+      "Sen. Ronald 'Bato' dela Rosa",
+      "Former president Gloria Macapagal-Arroyo (GMA)",
+      "President Rodrigo Duterte",
+      "Mayor Isko Moreno (Yorme)",
+      "Ferdinand 'Bongbong' Marcos Jr.",
+      "Imee Marcos (Bongbong's sister)",
+      "Willie 'Doc' Ong",
+      "Sen. Ping Lacson (Pulse Asia 'cellar')",
+      "Senate President Tito Sotto",
+      "Sen. Manny Pacquiao",
+      "Sen. Kiko Pangilinan (LP VP bet)",
+      "Sharon Cuneta (Pangilinan's wife)",
+      "VP Leni Robredo (LP chair)",
+      "Senate President Jovito R. Salonga (former LP president)",
+      "Mocha Uson (2016 Duterte campaign influencer)",
+      "Damon Centola (Penn professor, 'Change' January 2021)"
+    ],
+    "institutions": [
+      "PDP-Laban (ruling party)",
+      "Lakas-CMD (GMA's party)",
+      "Federal Party (Bongbong's nominal party)",
+      "KBL (Kilusang Bagong Lipunan -- 'tarnished, martial-law vintage')",
+      "Akyon Demokratiko (Moreno's party)",
+      "Promdi (Pacquiao's party)",
+      "Liberal Party (LP) -- 75 years old; Robredo chair",
+      "Pulse Asia",
+      "ISEAS-Yusof Ishak Institute (Singapore) -- 2020 white paper"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Omnibus Election Code provisions on substitution and COC filing deadlines"
+    ],
+    "events": [
+      "November 15 substitution deadline (looming)",
+      "Bongbong's COC filing under Federal Party",
+      "Robredo's COC filing as independent",
+      "Pandemic-driven shift from face-to-face to online campaigning",
+      "2016 Duterte campaign (Mocha Uson social-media benchmark)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "On or before November 15, Sara Duterte must decide with finality whether to substitute for Bato dela Rosa as the PDP-Laban / Lakas-CMD presidential bet -- and if her teeming supporters flood streets and rallies with 'Run, Sara, Run,' she may relent.",
+      "rhetorical_move": "deadline-anchored decision framing (Nov 15 as the operative pivot point)",
+      "confidence": "asserted with conditional 'if she relents'"
+    },
+    {
+      "claim": "If Sara runs, she gets ample logistics, slate-selection privileges, and an 'enviable problem' of managing donations; if she refuses, candidates will review campaigns and seek administration blessing -- and 'past elections have shown that the administration can shepherd up to 10 percent of the votes,' decisive in tight multiparty contests.",
+      "rhetorical_move": "two-scenario consequence-mapping (run/no-run with concrete electoral arithmetic)",
+      "confidence": "asserted with quantified administration leverage"
+    },
+    {
+      "claim": "Isko Moreno would probably be the big beneficiary of an Inday cop-out because of his 'canny' positioning as 'Healing President' -- pandemic critic AND adopter of 'good policies and projects' of Duterte and Marcos with rejection of dubious ones -- and his posture may even secure Solid North blessings by convincing Bongbong to substitute Willie Ong as his running mate.",
+      "rhetorical_move": "scenario-favorite identification with positioning-analysis grounding",
+      "confidence": "asserted as electoral-analytical prediction"
+    },
+    {
+      "claim": "Bongbong may alternatively join PDP-Laban to actualize Imee's 'dream team' of Sara-Bongbong or Bongbong-Sara -- which would not be strange because Bongbong already chose the little-known Federal Party rather than the 'tarnished KBL of martial law vintage,' showing party-affiliation pragmatism.",
+      "rhetorical_move": "alternative-scenario projection with party-affiliation history analysis",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Sen. Ping Lacson, stuck in the Pulse Asia 'cellar,' may have to 'bite the bullet' and save his partner Tito Sotto a slot in Akyon Demokratiko, Promdi, PDP-Laban, or even the Liberal Party -- where VP bet Sen. Kiko Pangilinan has publicly stated willingness 'to his wife Sharon's comfort' to withdraw if it would enhance Robredo's bid.",
+      "rhetorical_move": "party-shopping projection across multiple parties with family-comfort marker",
+      "confidence": "asserted as conditional"
+    },
+    {
+      "claim": "Leni Robredo will remain the opposition's 'hallowed candidate especially of the anti-Duterte and anti-Marcos crowd' -- but if Sara runs, Leni loses the 'only lady' distinction, AND her strange choice to run as independent (not as LP nominee, despite chairing the LP) deprives her of the LP's dominant-minority-party legal pluses, the LP's 75-year history, and 'an army of loyal cadres down to the barangay level' -- and 'no independent has ever been elected president.'",
+      "rhetorical_move": "multi-loss enumeration of Robredo's strategic choices ('only-lady,' LP-pluses, cadres) with categorical-precedent capstone",
+      "confidence": "asserted with autobiographical-credibility marker"
+    },
+    {
+      "claim": "The pandemic-driven online campaign shift raises crucial questions for Robredo: do her 'kakampinks' have the expertise to tap social media; do they have influencers like Mocha Uson (4M likes, 1.2M engagements in 2016, per ISEAS-Yusof Ishak's 2020 white paper); and to avoid preaching to the converted, her team may want to read Damon Centola's 'Change' (January 2021) on 'strength of weak ties' and 'weakness of strong ties' in spreading beliefs.",
+      "rhetorical_move": "specific-resource recommendation (named book + named institute's white paper as analytical prescriptions)",
+      "confidence": "asserted as strategic counsel"
+    },
+    {
+      "claim": "In sum, whether she runs or not, Sara will be the game changer of the political landscape come November 15 -- making her decision the singular pivot of the 2022 race.",
+      "rhetorical_move": "title-affirming closer (asserting the column's headline thesis)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's autobiographical credential as the LP's chief legal counsel after Edsa under Senate President Jovito R. Salonga -- making the Robredo-as-independent critique a personally-informed institutional judgment rather than partisan commentary, and tying this column back to D21 and C17 as part of the Salonga personal-lineage thread.",
+    "The Sharon-Pangilinan family detail -- '(to his wife Sharon's comfort)' -- preserving Kiko Pangilinan's withdrawal-willingness with a quietly affectionate parenthetical reference to Sharon Cuneta.",
+    "Mocha Uson's 2016 Duterte campaign metrics -- 4 million likes, 1.2 million engagements -- preserved from the ISEAS-Yusof Ishak Institute's 2020 white paper as the social-media benchmark Robredo's 'kakampinks' must match.",
+    "CJ's specific reading recommendation -- Damon Centola's 'Change' (January 2021) on 'strength of weak ties' and 'weakness of strong ties' -- a rare CJ-as-strategist book-recommendation moment in his political-analysis columns.",
+    "The Imee 'dream team' framing reference -- embedding the Marcos-sibling network into the 2022 strategy without naming it as scheme.",
+    "Bongbong's KBL-avoidance fact -- 'has chosen to run under the little-known Federal Party and not under the tarnished KBL of martial law vintage' -- among CJ's most explicit references to martial-law era branding in his 2022-election analysis.",
+    "The 'no independent has ever been elected president' line -- categorical historical-precedent statement deployed against Robredo's strategic choice.",
+    "The Isko Moreno 'Healing President' positioning -- 'canny adoption of the good policies and projects of President Duterte and of former president Ferdinand Marcos, and the rejection of their dubious ones' -- one of CJ's most concise characterizations of Moreno's reconciliation pitch.",
+    "The 'Yorme's Akyon Demokratiko' Tagalog-loanword usage (Yorme being a syllable-reversal Filipino term for Mayor) -- preserving Manila political vernacular in the column."
+  ],
+  "target_audience": [
+    "Sara Duterte's supporters and her undecided base",
+    "Opposition strategists (Robredo, Pangilinan, Lacson camps)",
+    "Civic-minded readers tracking the 2022 race",
+    "Liberal Party cadres and 'kakampinks'",
+    "Social-media campaign organizers",
+    "Election lawyers and political analysts",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "deadline-anchored framing ('On or before Nov. 15')",
+    "Tagalog loanwords ('Inday,' 'Yorme,' 'kakampinks,' 'Promdi')",
+    "scare-quoted political slogans ('Run, Sara, Run,' 'dream team,' 'Healing President,' 'good policies and projects')",
+    "scenario-bifurcation analysis (if-she-runs vs if-she-refuses)",
+    "quantified electoral leverage (administration 'up to 10 percent')",
+    "named-resource recommendation (Damon Centola's 'Change'; ISEAS white paper)",
+    "specific-metrics citation (Mocha Uson's 4M likes / 1.2M engagements)",
+    "autobiographical credential parenthesis (CJ as LP chief legal counsel)",
+    "family-detail parenthesis ('to his wife Sharon's comfort')",
+    "categorical historical-precedent statements ('No independent has ever been elected president')",
+    "electoral-strategy register with insider-network detail",
+    "title-affirming closer as structural device"
+  ],
+  "decision_framework_signals": [
+    "uses deadline-anchored decision pivots (Nov 15) as central analytical structure",
+    "applies scenario-bifurcation (run/no-run) with quantified electoral leverage as analytical engine",
+    "treats party-affiliation history as predictive of future party choices (KBL-avoidance precedent)",
+    "deploys multi-loss enumeration of strategic choices to critique a specific candidate's decisions",
+    "uses categorical historical-precedent ('No independent has ever been elected president') as decisional-warning",
+    "treats social-media expertise and influencer access as measurable campaign capacities",
+    "applies named-book strategic recommendation ('strength of weak ties / weakness of strong ties') as actionable counsel",
+    "anchors institutional critique in autobiographical credential (CJ as LP chief legal counsel)",
+    "uses third-party institute white paper (ISEAS-Yusof Ishak) as analytical authority on social-media campaigning"
+  ],
+  "one_paragraph_summary": "Panganiban frames the 2022 election around a single deadline-anchored pivot: on or before November 15, Mayor Sara Duterte must decide with finality whether to substitute for Sen. Bato dela Rosa as the PDP-Laban / Lakas-CMD presidential bet. Though the 'feisty Inday' has steadfastly refused any national post, CJ would not be surprised if her teeming supporters flood streets, rallies, and social media with 'Run, Sara, Run.' If she relents, she gets ample logistics, slate-selection privileges, and an 'enviable problem' of donation-management; if she refuses, candidates will scramble for administration blessing -- and 'past elections have shown that the administration can shepherd up to 10 percent of the votes,' decisive in tight multiparty contests. Manila Mayor Isko Moreno would probably be the big beneficiary of an Inday cop-out via his 'canny' 'Healing President' positioning -- pandemic critic AND adopter of 'good policies and projects' of Duterte and Marcos, with rejection of dubious ones -- and may even win Solid North blessings by convincing Bongbong Marcos to substitute for Willie Ong as his running mate. Alternatively, Bongbong may join PDP-Laban to actualize Imee Marcos's 'dream team' of Sara-Bongbong (he already chose the little-known Federal Party over 'the tarnished KBL of martial law vintage'). Sen. Ping Lacson, stuck in the Pulse Asia 'cellar,' may have to bite the bullet and save his partner Sen. Tito Sotto a slot elsewhere -- Akyon Demokratiko (Yorme), Promdi (Pacquiao), PDP-Laban, or even the Liberal Party, where VP bet Sen. Kiko Pangilinan has publicly stated willingness (to his wife Sharon's comfort) to withdraw if it enhances Robredo. VP Leni Robredo will remain the opposition's 'hallowed candidate' especially of the anti-Duterte and anti-Marcos crowd, but if Sara runs, Leni loses her 'only lady' distinction -- and her strange choice to run as independent (not as LP nominee, despite chairing the LP) deprives her of the LP's dominant-minority-party legal pluses and 'an army of loyal cadres down to the barangay level' from a 75-year-old party (CJ knows this from his own post-Edsa role as LP chief legal counsel under Senate President Jovito R. Salonga). And 'no independent has ever been elected president.' The pandemic-driven online campaign shift raises crucial questions for Robredo: do her 'kakampinks' have the expertise to match Mocha Uson's 2016 Duterte campaign (4 million likes, 1.2 million engagements per ISEAS-Yusof Ishak's 2020 white paper), and her team should read Damon Centola's 'Change' (January 2021) on 'strength of weak ties' and 'weakness of strong ties' in spreading beliefs to avoid preaching to the converted. In sum, whether she runs or not, 'Sara will be the game changer of the political landscape come Nov. 15.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

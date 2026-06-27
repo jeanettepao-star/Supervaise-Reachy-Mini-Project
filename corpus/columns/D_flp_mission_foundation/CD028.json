@@ -1,0 +1,107 @@
+{
+  "id": "CD028",
+  "format": "C",
+  "type": "column",
+  "theme": "D",
+  "theme_label": "FLP Mission and Foundation",
+  "number": 28,
+  "title": "PCCI can fight graft at the grass roots",
+  "date": "2011-10-02",
+  "link": "https://opinion.inquirer.net/13189/pcci-can-fight-graft-at-the-grass-roots",
+  "keywords": [
+    "SME petty corruption anti-corruption manual",
+    "AIM Hills Program Governance SME study",
+    "PCCI Francis Chua grass roots campaign",
+    "sari-sari permit health clearance bribe",
+    "seven anti-corruption practices SMEs"
+  ],
+  "primary_topics": [
+    "Petty corruption targeting SMEs: the most pervasive grassroots form of graft",
+    "Seven anti-corruption practices for SMEs from the AIM Hills Program study",
+    "Challenge to PCCI to extend the big-business integrity initiative to micro and SMEs"
+  ],
+  "sub_topics": [
+    "Big-business Integrity Initiative: Makati Business Club, MAP, ECCI, AmCham, AIM Hills Program",
+    "Core idea: corruption cannot flourish unless business allows it",
+    "SME definition: micro (<P3M assets, <10 workers); small (P3-15M, 11-99); medium (P15-100M, 100-199)",
+    "SMEs = 99.6% of all businesses; 63.2% of labor force; 35.7% of total sales",
+    "Petty graft examples: permits, health clearances, customs tips, tax assessment reductions, fire extinguisher racket, traffic violations",
+    "Facilitations have become normalized -- no longer shocking",
+    "7 AIM-recommended practices: (1) prohibit bribery policy; (2) gifts and entertainment policy; (3) conflict of interest disclosure; (4) Code of Conduct; (5) training; (6) transparent systems and records; (7) correct taxes",
+    "How to resist bribe demands verbally: 'My company has a very strict policy against bribes'",
+    "Challenge to PCCI president Francis Chua to launch SME anti-corruption drive",
+    "PCCI: undisputed champion of SMEs"
+  ],
+  "signature_phrases": [
+    "corruption cannot flourish unless business allows it",
+    "facilitations have become so commonplace",
+    "parts of a culture of corruption that no longer shocks the senses",
+    "My company has a very strict policy against bribes",
+    "It is against my religion to pay bribes",
+    "Nakakahiya!",
+    "champion of SMEs"
+  ],
+  "entities": {
+    "people": [
+      "PCCI President Francis Chua",
+      "Columnist Ciel Habito (cited on micro vs SME distinction)"
+    ],
+    "institutions": [
+      "Philippine Chamber of Commerce and Industry (PCCI)",
+      "Makati Business Club",
+      "Management Association of the Philippines (MAP)",
+      "European Chamber of Commerce (ECCI)",
+      "American Chamber of Commerce (AmCham)",
+      "AIM Hills Program on Governance"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "Integrity Initiative launch (big business)",
+      "PCCI national conference (October 2011)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "For the culture of integrity to succeed, it must permeate not just big corporations but the entire business community -- especially SMEs which are 99.6% of all businesses.",
+      "rhetorical_move": "scale-of-problem argument for grassroots expansion",
+      "confidence": "high"
+    },
+    {
+      "claim": "Petty graft has been so normalized that it no longer outrages -- this acceptance is what makes corruption flourish and multiply ever more.",
+      "rhetorical_move": "normalization-as-the-real-enemy argument",
+      "confidence": "high"
+    },
+    {
+      "claim": "PCCI is the undisputed champion of SMEs and should match the big leaguers by launching an anti-corruption drive among grassroots enterprises.",
+      "rhetorical_move": "direct challenge to a named institution",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The fire extinguisher racket: fire department inspectors requiring SMEs to buy from a recommended 'pre-cleared' supplier list -- a concrete example of petty graft embedded in regulatory compliance.",
+    "Sari-sari store owners having to bribe municipal functionaries for operating permits -- the most intimate, everyday form of petty corruption.",
+    "The verbal resistance scripts: 'My company has a very strict policy against bribes, and I would lose my job if I violate it' and 'It is against my religion to pay bribes' -- practical tools for individual SME owners."
+  ],
+  "target_audience": [
+    "PCCI President Francis Chua and PCCI leadership",
+    "SME owners and operators nationwide",
+    "Anti-corruption advocates extending integrity initiatives",
+    "Business associations below the big-league level"
+  ],
+  "register_markers": [
+    "Challenge-to-named-institution closing",
+    "Seven-point enumeration structure",
+    "Petty-graft example catalogue",
+    "AIM study citation as authority",
+    "Verbal-resistance-script prescriptions"
+  ],
+  "decision_framework_signals": [
+    "Apply the seven AIM practices as a minimum anti-corruption compliance checklist for any SME",
+    "Train employees on verbal resistance scripts for bribe demand situations",
+    "Use accurate tax compliance as a structural defense against extortion -- correct taxpayers have less vulnerability",
+    "Treat normalization of facilitation payments as the primary enemy -- zero tolerance must be culturally enforced, not just legally mandated"
+  ],
+  "one_paragraph_summary": "Following the big-business Integrity Initiative (Makati Business Club, MAP, ECCI, AmCham, AIM Hills Program), Panganiban argues that the culture of integrity must reach the grassroots: SMEs (micro/small/medium enterprises) constitute 99.6% of all businesses, employ 63.2% of the labor force, and account for 35.7% of total sales -- yet are the favorite victims of petty grafters. The column catalogs normalized petty-corruption examples: bribes for sari-sari permits, health clearances, customs releases, tax assessment reductions, fire-extinguisher rackets from 'pre-cleared' suppliers, and traffic violations. The AIM Hills Program on Governance recommends seven practices: (1) prohibit bribery in any form, communicated to all stakeholders; (2) gifts/entertainment policy with nominal-value limits and a central register; (3) conflict-of-interest disclosure form; (4) Code of Conduct with incentives and penalties; (5) periodic anti-corruption training from hire; (6) transparent systems, accurate books, official receipts; and (7) correct tax declarations, using verbal scripts to resist bribe demands ('My company has a very strict policy' / 'It is against my religion to pay bribes'). The column closes with a direct challenge to PCCI president Francis Chua -- who accepted in response to last Sunday's column -- to launch an SME anti-corruption drive at the PCCI national conference.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

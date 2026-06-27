@@ -1,0 +1,121 @@
+{
+  "id": "CA510",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 510,
+  "title": "Impeachment and resignation",
+  "date": "2012-02-12",
+  "link": "https://opinion.inquirer.net/22895/impeachment-and-resignation",
+  "keywords": [
+    "Nixon Watergate resignation Aug 9 1974",
+    "Ford pardon Sept 8 1974",
+    "fitness public office people's trust",
+    "Clinton retained Nixon resigned trust",
+    "one sentence resignation letter"
+  ],
+  "primary_topics": [
+    "Nixon's resignation as the paradigm of choosing dignity over impeachment",
+    "Fitness for public office and people's trust as the true impeachment standard",
+    "Clinton retained vs Nixon resigned: the decisive role of public trust"
+  ],
+  "sub_topics": [
+    "Nixon's voluntary resignation rather than face Senate impeachment trial",
+    "Three House articles: obstruction of justice, abuse of power, contempt of Congress",
+    "PH vs US impeachment grounds (PH includes culpable violation, graft, betrayal of public trust)",
+    "Nixon's one-sentence resignation letter (Aug. 9, 1974)",
+    "Nixon's Oval Office valedictory -- live TV; recited achievements; asked support for Ford",
+    "Ford's pardon (Sept. 8, 1974) -- Nixon accepted, putting the controversy to rest",
+    "Watergate: 1972 election, five men caught burglarizing Democratic HQ",
+    "Bernstein and Woodward investigation; John Dean, H.R. Haldeman",
+    "Nixon lost legal battle in US SC over audiotape release",
+    "Nixon's 'lapse in memory' -- only 15 senators backing him (needed 34)",
+    "Republican leaders told Nixon his conduct was indefensible",
+    "Congress appropriated $850,000 (reduced to $200,000) for Nixon's transition",
+    "Nixon's rehabilitation: 1986 Soviet trip; Gallup top 10 most admired; 50,000 mourners at casket (five km line)",
+    "Clinton vs Nixon: Clinton retained people's trust (sexual dalliance, not fitness); Nixon lost trust (lies about Watergate)"
+  ],
+  "signature_phrases": [
+    "I hereby resign as President of the United States",
+    "lapse in memory",
+    "converted to a personal triumph what was intended to be an unprecedented humiliation",
+    "No words can describe the depth of my regret",
+    "not by filibustering",
+    "more political than legal",
+    "fitness and the ascendancy to lead his people",
+    "retained the people's trust"
+  ],
+  "entities": {
+    "people": [
+      "President Richard Nixon",
+      "President Gerald Ford",
+      "President Bill Clinton",
+      "Reporters Carl Bernstein and Bob Woodward",
+      "John Dean",
+      "H. R. Haldeman",
+      "Independent Counsel Kenneth Starr",
+      "Monica Lewinsky",
+      "Conrad Black (Nixon biographer)",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "US House of Representatives",
+      "US Senate",
+      "US Supreme Court",
+      "Democratic Party"
+    ],
+    "cases": [
+      "Nixon audiotape case (US Supreme Court)",
+      "Nixon impeachment (House articles, 1974)",
+      "Clinton impeachment (House, 1998-1999)"
+    ],
+    "laws_treaties": [
+      "US Constitution (impeachment grounds: treason, bribery, high crimes and misdemeanors)"
+    ],
+    "events": [
+      "Watergate break-in (1972)",
+      "Nixon's resignation (August 9, 1974)",
+      "Ford's pardon (September 8, 1974)",
+      "Nixon's 1986 Soviet trip",
+      "Nixon's death (April 22, 1994)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Nixon's resignation -- rather than cripple the Senate and the nation with a tedious trial -- was the more dignified and ultimately redemptive choice, converting intended humiliation into a personal triumph.",
+      "rhetorical_move": "resignation-as-dignity paradigm",
+      "confidence": "high"
+    },
+    {
+      "claim": "The decisive factor in impeachment is not legal guilt but the people's trust: Clinton was retained because his sexual dalliance did not diminish his ability to run the country; Nixon was forced out because his Watergate lies betrayed his fitness for office.",
+      "rhetorical_move": "trust-as-the-decisive-variable argument",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Nixon's one-sentence resignation letter of August 9, 1974: 'I hereby resign as President of the United States' -- the most economical exit from the most powerful office in the world.",
+    "Conrad Black's observation that Nixon 'converted to a personal triumph what was intended to be an unprecedented humiliation.'",
+    "Nixon's rehabilitation: after personal anguish, he met Gorbachev in 1986 and ranked in a Gallup poll among the 10 most admired men; at his death in 1994 at 81, five kilometers of mourners lined up.",
+    "The Ford pardon: Nixon initially reluctant to accept it (accepting implies guilt) but ultimately did, saying 'No words can describe the depth of my regret and pain.'"
+  ],
+  "target_audience": [
+    "CJ Corona and his legal team weighing a possible resignation",
+    "Senator-judges deliberating on the standard of fitness",
+    "General civic readership using US history as a mirror for the Corona trial",
+    "Constitutional law scholars on impeachment and resignation"
+  ],
+  "register_markers": [
+    "Nixon-as-paradigm historical narrative",
+    "One-sentence-resignation dramatic detail",
+    "Clinton/Nixon comparative ending",
+    "Trust-not-legality as the organizing argument"
+  ],
+  "decision_framework_signals": [
+    "Apply the trust-not-legality test: does the respondent still hold the people's trust despite any legal technicalities?",
+    "Consider resignation over impeachment trial when public approval has collapsed and the Senate count is clearly against you",
+    "Distinguish fitness-for-office (Nixon) from personal moral lapses (Clinton) in evaluating what warrants removal"
+  ],
+  "one_paragraph_summary": "Panganiban uses Nixon's 1974 resignation as the paradigm of choosing dignity over an impeachment trial, then draws the Clinton contrast to identify public trust as the decisive variable. When it became clear that only 15 of 100 senators backed him -- far below the 34 needed to avoid ouster -- Nixon did not filibuster or challenge the proceedings in the US Supreme Court. He submitted his one-sentence resignation letter ('I hereby resign as President of the United States') on August 9, 1974, followed by a live-TV Oval Office valedictory. President Ford's September 8, 1974 pardon was initially resisted but finally accepted; Nixon apologized 'no words can describe the depth of my regret.' Biographer Conrad Black observed he 'converted to a personal triumph what was intended to be an unprecedented humiliation.' After years of anguish, Nixon rehabilitated himself as an elder statesman; his 1994 death drew 50,000 mourners across a five-kilometer line. The Clinton-Nixon contrast is instructive: Clinton was retained because the people did not believe his sexual dalliance impaired his fitness to govern; Nixon was forced out because his repeated Watergate lies betrayed his fitness for office. The decisive factor is always the people's trust -- more political than legal.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

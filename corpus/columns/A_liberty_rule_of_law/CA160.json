@@ -1,0 +1,117 @@
+{
+  "id": "CA160",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 160,
+  "title": "Disqualification and COC cancellation",
+  "date": "2022-02-06",
+  "link": "https://opinion.inquirer.net/149459/disqualification-and-coc-cancellation",
+  "keywords": [
+    "BBM disqualification cases",
+    "moral turpitude",
+    "Republic v. Marcos II (Aug. 4, 2009)",
+    "OEC Section 12 (DQ) vs Section 78 (COC cancellation)",
+    "substitution of candidates",
+    "failure to file ITR (1982-1985)"
+  ],
+  "primary_topics": [
+    "Doctrinal distinction between disqualification (DQ) under OEC Section 12 and Certificate of Candidacy (COC) cancellation under Sections 78 and 74",
+    "Whether BBM's CA conviction for failure to file Income Tax Returns (ITR) for 1982-1985 was a 'crime involving moral turpitude'",
+    "Republic v. Marcos II (Aug. 4, 2009) -- failure to file ITR is not a crime involving moral turpitude",
+    "Substitution consequences: substitutable if DQ'd; not substitutable if COC is cancelled (stray votes)",
+    "Strategic implication for petitioners pursuing DQ vs cancellation"
+  ],
+  "sub_topics": [
+    "OEC Section 12: a person sentenced by final judgment for a crime involving moral turpitude is disqualified",
+    "Plenary pardon or amnesty as cure for DQ",
+    "Three ITR-related offenses distinguished by the Court: (1) false return, (2) fraudulent return with intent to evade tax -- both involve moral turpitude; (3) mere failure to file -- does NOT involve moral turpitude",
+    "OEC Sections 74 and 78 -- false material representation as exclusive ground for COC cancellation",
+    "Cancellation legal effect: COC void from the beginning; votes counted as stray",
+    "DQ legal effect: candidate can be substituted by another person of same surname and same political party",
+    "Hypothetical substitution by Imee Marcos if BBM is disqualified",
+    "Possible elevation of Comelec en banc ruling to the Supreme Court"
+  ],
+  "signature_phrases": [
+    "Was BBM convicted by the Court of Appeals (CA) of a crime involving moral turpitude?",
+    "everything which is done contrary to justice, honesty, or good morals",
+    "mere omission is already a violation regardless of the fraudulent intent or willfulness",
+    "Some may disagree with, even rage against, this cryptic explanation",
+    "lower courts and quasi-judicial agencies like the Comelec are duty-bound to follow it",
+    "DISQUALIFICATION AND CANCELLATION of a Certificate of Candidacy (COC) are two different ways of taking out a candidate from an electoral race",
+    "A COC is considered a sacred public announcement of candidacy",
+    "GIVEN THIS IMPORTANT DIFFERENCE"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Bongbong Marcos (BBM)",
+      "Imee Marcos (potential substitute)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec, Second Division and en banc)",
+      "Supreme Court of the Philippines (Third Division)",
+      "Court of Appeals"
+    ],
+    "cases": [
+      "Republic v. Marcos II (Aug. 4, 2009)"
+    ],
+    "laws_treaties": [
+      "Omnibus Election Code (OEC), Section 12 -- disqualification for moral turpitude",
+      "OEC, Sections 74 and 78 -- false material representation as exclusive ground for COC cancellation",
+      "Rules of Court, Rule 78, Section 1 -- executor/administrator disqualification for moral turpitude"
+    ],
+    "events": [
+      "Pending DQ cases against BBM in the Comelec",
+      "May 9, 2022 elections"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "DQ and COC cancellation are doctrinally distinct: DQ rests on Section 12 grounds (e.g., moral turpitude); COC cancellation rests on the exclusive ground of false material representation under Sections 78 and 74.",
+      "rhetorical_move": "twin-pronged doctrinal distinction",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Under Republic v. Marcos II (Aug. 4, 2009, SC Third Division), failure to file ITR is not a crime involving moral turpitude -- it is a mere omission, distinct from false or fraudulent returns. Unless reversed, modified, or downgraded to obiter by the en banc, this binds the Comelec.",
+      "rhetorical_move": "precedent-deference argument with epistemic concession that critics 'may rage against' it",
+      "confidence": "asserted with sympathy to critics"
+    },
+    {
+      "claim": "The legal effect of COC cancellation is more severe than DQ for the Marcos camp: a cancelled COC is void ab initio, votes are stray, and BBM cannot be substituted; a DQ allows substitution by another Marcos (e.g., Imee).",
+      "rhetorical_move": "consequentialist comparison of remedies",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Petitioners who genuinely want to remove BBM from the race should aim for COC cancellation (Comelec en banc, then SC) rather than DQ -- because DQ leaves substitution open and a Marcos may still be on the ballot.",
+      "rhetorical_move": "strategic-implication framing of doctrinal differences",
+      "confidence": "implied advice"
+    }
+  ],
+  "notable_anecdotes": [
+    "The catalog of allegations against BBM that a substitute (e.g., Imee) might escape -- 'certified convict,' 'fake Oxford and Wharton degrees,' 'carefree and lazy,' 'weak leader' -- listed not as endorsements but as the petitioners' own framing.",
+    "Highlights the 'cryptic' single-paragraph Marcos II ratio on failure-to-file-ITR-as-non-moral-turpitude, against which critics 'may disagree, even rage.'"
+  ],
+  "target_audience": [
+    "Election lawyers and Comelec practitioners",
+    "Petitioners and partisans in the BBM disqualification cases",
+    "Civic-minded readers seeking doctrinal clarity ahead of May 9",
+    "Law students studying the OEC"
+  ],
+  "register_markers": [
+    "doctrinal-explanatory register with twin-track structuring",
+    "small-caps emphasis ('DISQUALIFICATION AND CANCELLATION,' 'GIVEN THIS IMPORTANT DIFFERENCE')",
+    "concessive framing ('Some may disagree with, even rage against')",
+    "sacralizing language ('a sacred public announcement of candidacy')",
+    "strategic-counsel close addressed at 'partisans'"
+  ],
+  "decision_framework_signals": [
+    "applies the trichotomy of ITR offenses (false return / fraudulent return / mere failure) to locate moral turpitude",
+    "uses void-ab-initio analysis to derive the cascade consequence of COC cancellation (stray votes, no substitution)",
+    "treats precedent (Marcos II) as binding on lower bodies absent en banc reversal, modification, or obiter clarification",
+    "consequentialist comparison of remedies to advise petitioners on strategic posture"
+  ],
+  "one_paragraph_summary": "Panganiban draws the doctrinal line between two remedies for removing a candidate from an electoral race: disqualification under Section 12 of the Omnibus Election Code and cancellation (denial of due course) of the Certificate of Candidacy under Sections 78 and 74. The pending DQ cases against Bongbong Marcos turn on whether his Court of Appeals conviction for failure to file Income Tax Returns for 1982-1985 is a crime involving moral turpitude under Section 12. He cites Republic v. Marcos II (Aug. 4, 2009, SC Third Division), which distinguished three ITR-related violations -- false return, fraudulent return with intent to evade tax (both involving moral turpitude), and mere failure to file (which does not) -- and held that BBM's offense was not one of moral turpitude. He notes critics may rage against this 'cryptic' ratio but until reversed, modified, or downgraded to obiter by the en banc, it binds the Comelec. The remedies have very different consequences: a cancelled COC is void from the beginning, the votes cast for the erstwhile candidate are stray, and no substitution is allowed; a disqualified candidate, by contrast, can be substituted by another bearing the same surname and political party -- opening the door for a sister such as Imee Marcos to inherit the slot. Panganiban therefore counsels partisans that, if their real goal is to take the Marcoses out of the presidential race, pursuit of COC cancellation (Comelec en banc, then the Supreme Court) is the more potent path than disqualification -- which only rotates the Marcos name on the ballot.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

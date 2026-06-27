@@ -1,0 +1,144 @@
+{
+  "id": "CA037",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 37,
+  "title": "KP: Nobly aimed, constitutionally flawed (2)",
+  "date": "2025-07-28",
+  "link": "https://opinion.inquirer.net/184981/kp-nobly-aimed-constitutionally-flawed-2",
+  "keywords": [
+    "essential facilities doctrine",
+    "regulatory taking",
+    "nondelegation doctrine",
+    "one-subject-one-title rule",
+    "non-impairment of contracts"
+  ],
+  "primary_topics": [
+    "Compulsory infrastructure access and regulatory taking",
+    "Delegation of regulatory authority across agencies",
+    "Treatment of legislative franchises as property rights"
+  ],
+  "sub_topics": [
+    "Sections 7, 12, 13 -- PTE infrastructure access requirement",
+    "'Necessary' standard vs the global 'indispensability' test",
+    "Essential facilities doctrine -- three classical requisites",
+    "Reference Access Offer eliminating negotiation",
+    "Article III, Section 9 -- regulatory taking and just compensation",
+    "Southern Luzon Drug Corp. v. DSWD (April 25, 2017)",
+    "Article VI, Section 26(1) -- one-subject-one-title rule",
+    "Implied amendments to the Philippine Competition Act",
+    "Section 5(e) -- DICT power without sufficient standards",
+    "Nondelegation doctrine and undue discretion",
+    "Multi-agency regulatory redistribution (DICT, DEPDev, PCC, NTC)",
+    "Transitory clause limiting legislative franchises to non-data services",
+    "Constitutional due process and non-impairment of contracts"
+  ],
+  "signature_phrases": [
+    "indispensability test",
+    "essential facilities doctrine",
+    "regulatory taking",
+    "simply unconscionable",
+    "vague lines of authority risk delays, overlapping mandates, and diluted accountability",
+    "implied amendments... without clear legislative notice",
+    "The Constitution does not hinder progress; it provides the very structure through which reforms gain legitimacy",
+    "forward-looking yet firmly grounded"
+  ],
+  "entities": {
+    "people": [],
+    "institutions": [
+      "Public Telecommunications Entities (PTEs)",
+      "Data Transmission Industry Participants (DTIPs)",
+      "Department of Information and Communications Technology (DICT)",
+      "Department of Economy, Planning, and Development (DEPDev)",
+      "Philippine Competition Commission (PCC)",
+      "National Telecommunications Commission (NTC)",
+      "Congress of the Philippines",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "Southern Luzon Drug Corp. v. DSWD (April 25, 2017) -- regulatory-taking doctrine"
+    ],
+    "laws_treaties": [
+      "Konektadong Pinoy (KP) bill, Sections 5(e), 7, 12, 13, transitory clause",
+      "1987 Constitution, Article III, Section 9 (just compensation)",
+      "1987 Constitution, Article VI, Section 26(1) (one-subject-one-title rule)",
+      "1987 Constitution (due process and non-impairment of contracts clauses)",
+      "Philippine Competition Act (impliedly amended)",
+      "Nondelegation doctrine"
+    ],
+    "events": [
+      "Congressional passage of the KP bill awaiting presidential action"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Compulsory infrastructure access under a 'necessary' standard is a radical departure from the globally accepted indispensability test, which requires dominance, non-replicability, and refusal that would eliminate competition.",
+      "rhetorical_move": "doctrinal-deviation argument against the access threshold",
+      "confidence": "high"
+    },
+    {
+      "claim": "Forcing telcos to open privately built infrastructure to competitors without negotiation or market-based compensation amounts to a regulatory taking that is 'simply unconscionable.'",
+      "rhetorical_move": "property-rights and proportionality argument",
+      "confidence": "high"
+    },
+    {
+      "claim": "The KP impliedly amends the Philippine Competition Act and redistributes regulatory roles without clear legislative notice, violating the one-subject-one-title rule.",
+      "rhetorical_move": "procedural-constitutional defect identification",
+      "confidence": "high"
+    },
+    {
+      "claim": "Section 5(e)'s grant to DICT to define 'other segments' of digital infrastructure lacks sufficient standards and runs afoul of the nondelegation doctrine.",
+      "rhetorical_move": "delegation-without-standards challenge",
+      "confidence": "high"
+    },
+    {
+      "claim": "Splitting regulatory authority among DICT, DEPDev, PCC, and the traditional NTC produces vague lines of authority that risk delays, overlap, and diluted accountability.",
+      "rhetorical_move": "governance-design critique",
+      "confidence": "high"
+    },
+    {
+      "claim": "The transitory clause limiting legislative franchises to non-data services violates due process and the non-impairment of contracts by modifying property-like rights midstream.",
+      "rhetorical_move": "investor-confidence and contracts argument",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Constitution does not hinder progress -- it is the very structure through which reforms gain legitimacy.",
+      "rhetorical_move": "closing principled affirmation",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The author's use of Southern Luzon Drug Corp. v. DSWD (April 25, 2017) to anchor the principle that regulatory taking does not always require physical appropriation but occurs when a party is substantially deprived of beneficial use or value of its property.",
+    "The KP transitory clause stating legislative franchises 'shall remain valid only to the extent they do not involve data transmission' -- flagged as midstream modification of franchise rights upon which infrastructure financing was planned.",
+    "The contrast between a 'necessary' access test (KP) and the global 'indispensability' essential-facilities test (dominance + non-replicability + refusal eliminating competition)."
+  ],
+  "target_audience": [
+    "Office of the President weighing veto or signature",
+    "Congressional staff drafting the final version of KP",
+    "Telecommunications operators, investors, and franchise holders",
+    "Constitutional law scholars and competition-law practitioners",
+    "Civic readers tracking digital policy and property rights"
+  ],
+  "register_markers": [
+    "Numbered 'ON THE FIRST/SECOND/THIRD ITEM' structural markers",
+    "Cross-reference to Part 1 of the series",
+    "Latinate doctrinal vocabulary ('essential facilities doctrine', 'sui generis' implied)",
+    "Specific section-and-paragraph citations to the KP bill",
+    "Aphoristic closing line ('The Constitution does not hinder progress...')",
+    "Restrained-but-firm dissent register",
+    "Cumulative-argument cadence ending in synthesis"
+  ],
+  "decision_framework_signals": [
+    "Apply the three-prong essential-facilities test (dominance, non-replicability, refusal eliminates competition) before compelling access",
+    "Require market-based compensation and negotiation room before treating private infrastructure as compulsorily shareable",
+    "Test new statutes for implied amendments to existing laws -- implicit overrides violate the one-subject-one-title rule",
+    "Require sufficient standards in any delegation to an agency to avoid undue discretion",
+    "Prefer clear, non-overlapping lines of regulatory authority over multi-agency redistribution",
+    "Treat legislative franchises as property-like rights protected by due process and non-impairment clauses",
+    "Frame the Constitution as enabling infrastructure for legitimacy of reform, not as a brake on progress"
+  ],
+  "one_paragraph_summary": "In Part 2 of his Konektadong Pinoy critique, Panganiban takes up three further constitutional defects. On infrastructure access, he argues that Sections 7, 12, and 13 -- requiring PTEs to grant access to registered DTIPs whenever 'necessary' to compete, and mandating a Reference Access Offer that eliminates negotiation -- radically depart from the global 'indispensability' test under the essential facilities doctrine (dominance, non-replicability, refusal eliminating competition), and risk regulatory taking under Article III, Section 9, citing Southern Luzon Drug Corp. v. DSWD (April 25, 2017) for the rule that substantial deprivation of beneficial use suffices. He also flags implied amendments to the Philippine Competition Act that violate Article VI, Section 26(1)'s one-subject-one-title rule. On delegation, Section 5(e)'s grant to DICT to define 'other segments' of digital infrastructure lacks sufficient standards under the nondelegation doctrine, and the redistribution of regulatory roles among DICT, the Department of Economy, Planning, and Development, the Philippine Competition Commission, and the traditional NTC produces vague lines of authority that risk delays, overlap, and diluted accountability. On private property, the transitory clause limiting legislative franchises to non-data services modifies franchise rights midstream and violates due process and the non-impairment of contracts, undermining investor confidence and long-term infrastructure planning. He closes -- as in Part 1 -- by reaffirming support for the KP's noble aims of access, competition, and innovation, but insists that reforms must remain within constitutional bounds because the Constitution is not a hindrance but the very structure through which reforms gain legitimacy.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

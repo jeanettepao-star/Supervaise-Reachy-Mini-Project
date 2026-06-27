@@ -1,0 +1,133 @@
+{
+  "id": "CA040",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 40,
+  "title": "The Supreme Court defends its members",
+  "date": "2025-07-07",
+  "link": "https://opinion.inquirer.net/184451/the-supreme-court-defends-its-members",
+  "keywords": [
+    "Supreme Court culture",
+    "Justice Mario V. Lopez retirement",
+    "judicial deliberations",
+    "banc dynamics",
+    "Chief Justice Abad Santos Award"
+  ],
+  "primary_topics": [
+    "Internal culture of the Supreme Court",
+    "Retirement ceremony for a sitting justice",
+    "Anecdotal insight into judicial deliberations"
+  ],
+  "sub_topics": [
+    "Public image of justices vs their human side",
+    "Maroon-lined robes for retirement sessions",
+    "Souvenirs handed by each incumbent (flag, lapel pin, watch, robe, gavel, CJ Abad Santos Award)",
+    "Bantering quips by Justices J. Lopez, Hernando, and SAJ Leonen",
+    "Two agendas in Divisions, one agenda in Banc",
+    "Interpellation 'with no holds barred' in deliberations",
+    "Diverse temperaments of justices (diligent, citation-from-memory, quiet-but-sharp, joke-teller)",
+    "'So must it be' warning signal from a senior justice",
+    "Equalizer justice advocating 'meaningful freedoms' and liberty",
+    "Poker-faced CJ as referee voting last to forge unanimity",
+    "Honoree's reflection on growth through difficulty",
+    "Tagging of references: passion and obfuscation, reclusion perpetua"
+  ],
+  "signature_phrases": [
+    "a rare peep inside the Supreme Court",
+    "demigods loftily perched on Mount Olympus",
+    "gruff, unsmiling, cold, and unreachable",
+    "marites in street language",
+    "passion and obfuscation",
+    "one man standing",
+    "So must it be",
+    "meaningful freedoms",
+    "moments of pain are worth a lifetime of glory",
+    "in reclusion perpetua",
+    "the better Lopez"
+  ],
+  "entities": {
+    "people": [
+      "Justice Mario V. Lopez (honoree, retiring)",
+      "Senior Associate Justice Marvic M.V.F. Leonen (master of ceremonies)",
+      "Justice Jhosep Y. Lopez",
+      "Justice Ramon Paul L. Hernando",
+      "Justice Samuel H. Gaerlan",
+      "Chief Justice (unnamed in piece -- incumbent CJ during deliberations)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (en banc)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Ten Commandments (referenced in connection with the Supreme Court seal)"
+    ],
+    "events": [
+      "Retirement session honoring Justice Mario V. Lopez (week prior to June 9, 2025)",
+      "Conferral of the 'Chief Justice Abad Santos Award'"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Supreme Court justices, normally seen as gruff and unreachable demigods, are also common folks who smile, banter, and reveal philosophical, religious, and even 'gossipy' inclinations on rare ceremonial occasions.",
+      "rhetorical_move": "demystification of an institution through observed humanity",
+      "confidence": "high"
+    },
+    {
+      "claim": "Internal deliberations are intense, with 14 justices in the Banc taking advantage of their 'superior strength' to test the ponente's theories and arguments with no holds barred.",
+      "rhetorical_move": "reportorial framing of deliberation dynamics",
+      "confidence": "high"
+    },
+    {
+      "claim": "Justices bring unique characters, temperaments, and styles to the bench -- the diligent reflector, the photographic-memory citer, the quiet-but-sharp interrogator, the joker who lightens the mood, and the equalizer who advocates liberty.",
+      "rhetorical_move": "typology of judicial personalities through anonymized portraits",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Chief Justice acts as poker-faced referee, voting last, calling ceasefires, and arbitrating heated discussions toward compromise and unanimity as a symbol of unity and cooperation in the Court.",
+      "rhetorical_move": "leadership-style portrait drawn from the honoree's testimony",
+      "confidence": "high"
+    },
+    {
+      "claim": "Difficulty and challenge from colleagues, though painful in the moment, push a justice to grow stronger, persevere, and stand firm -- building a legacy that justifies the pain.",
+      "rhetorical_move": "valedictory wisdom recounted from honoree",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The ceremonial entrance: clerk of court chanting 'Hear ye, hear ye,' justices in maroon-lined robes filing in single file, CJ at the center and the most junior at each end of the curved rostrum, gavel banged to open the program.",
+    "J. Jhosep Y. Lopez's quip after his namesake's retirement: 'Now, I would be the only Lopez left in the Court. I would no longer be mistaken as the 'better Lopez.'",
+    "J. Ramon Paul L. Hernando's quip to the honoree: 'In my heart and in our hearts, you shall stay in reclusion perpetua.'",
+    "SAJ Leonen's quip about the Supreme Court seal: 'Justice Samuel H. Gaerlan will now handover to our honoree, the Supreme Court seal with my continuing objection since Ten Commandments are inscribed therein.'",
+    "Honoree's confession of yielding 'with the mitigating circumstance of passion and obfuscation' when overwhelmed, but standing his ground at other times as 'only one man standing.'",
+    "Honoree's character sketches: a justice who cites cases with GR numbers and dates without notes, whose sophisticated words required Googling; another whose reflections are longer than the ponencias themselves; one whose anecdotes provided 'good laughter' respite; and a senior whose 'So must it be' signaled the end of debate ('beware... prepare for war'); balanced by an 'equalizer justice' advocating 'meaningful freedoms' and liberty.",
+    "Closing 'sacrifice I endured was a small price to pay compared to the legacy they helped me build. Truly, my moments of pain are worth a lifetime of glory.'"
+  ],
+  "target_audience": [
+    "General civic readership curious about how the Supreme Court actually works",
+    "Members of the bench and bar",
+    "Law students and judicial-clerkship aspirants",
+    "Journalists and court watchers",
+    "Friends and admirers of Justice Mario V. Lopez"
+  ],
+  "register_markers": [
+    "Literary opening evoking Mount Olympus and demigods",
+    "Use of Filipino slang ('marites') with translation",
+    "Direct quotation of bantering quips with attribution",
+    "Numbered enumeration of honoree's reflections",
+    "Anonymized character sketches preserving collegial decorum",
+    "Mix of grand register and gentle humor",
+    "Sentimental valedictory closing"
+  ],
+  "decision_framework_signals": [
+    "Read judicial deliberation as a high-pressure peer-review process -- be well-prepared because 14 justices will test every argument",
+    "Identify the equalizer voice in any group decision -- the one who guards 'meaningful freedoms' against majoritarian pressure",
+    "Notice the CJ's role as referee and ceasefire-caller, not necessarily as first mover -- voting last is a leadership tool",
+    "Treat 'So must it be' moments as turning points: agree, keep quiet, or fully prepare for principled war",
+    "Yield with grace ('mitigating circumstance of passion and obfuscation') on issues not worth dying for; stand firm as 'one man standing' on issues that matter",
+    "Reframe painful collegial challenges as legacy-building inputs rather than personal slights"
+  ],
+  "one_paragraph_summary": "Panganiban offers a warm, behind-the-curtain glance at the Supreme Court through the lens of a retirement session for Justice Mario V. Lopez. Justices, normally seen as gruff demigods perched on Mount Olympus during oral arguments, donned their maroon-lined ceremonial robes and revealed their human side -- banter, 'marites' inclinations, and self-deprecating humor. The clerk of court's 'Hear ye, hear ye' opened the proceeding, with SAJ Marvic M.V.F. Leonen serving as master of ceremonies, the incumbent justices presenting souvenirs from flags and lapel pin to the 'Chief Justice Abad Santos Award.' Witty exchanges included J. Jhosep Y. Lopez quipping he would no longer be mistaken as the 'better Lopez,' J. Ramon Paul L. Hernando telling the honoree he would stay 'in reclusion perpetua' in their hearts, and Leonen voicing his 'continuing objection' to the Ten Commandments inscribed on the Court seal. The honoree then opened the inside of the Court: weekly deliberations with two Division agendas and one Banc agenda; 14 justices testing the ponente's arguments 'with no holds barred'; anonymized portraits of colleagues -- a justice citing cases with GR numbers from memory in words that required Googling, another whose reflections ran longer than the ponencias, one who cracked jokes for collective laughter, a senior whose 'So must it be' ended debate, and an equalizer who advocated 'meaningful freedoms.' He described the poker-faced CJ voting last as referee and ceasefire-caller forging unanimity. He closed by thanking the colleagues who made his journey difficult, because they pushed him to grow stronger and build a legacy: 'my moments of pain are worth a lifetime of glory.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

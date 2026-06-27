@@ -1,0 +1,144 @@
+{
+  "id": "CA043",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 43,
+  "title": "Senators, do you know where you're going to?",
+  "date": "2025-06-16",
+  "link": "https://opinion.inquirer.net/183924/senators-do-you-know-where-youre-going-to",
+  "keywords": [
+    "High-Performance Courts",
+    "Strategic Plan for Judicial Innovations",
+    "key performance indicators",
+    "Caguioa committee",
+    "trial court efficiency"
+  ],
+  "primary_topics": [
+    "Judicial reform via performance metrics",
+    "Four-quadrant KPI framework for trial courts",
+    "Cross-pollination of private-sector practices into the judiciary"
+  ],
+  "sub_topics": [
+    "Strategic Plan for Judicial Innovations (SPJI) 2022-2027",
+    "Trial courts as 'frontliners of the judiciary'",
+    "Four administrative principles characterizing HPCs",
+    "Q1 -- Internal process metrics (40%)",
+    "Q2 -- Decision-making quality (20%) measured by CA upholding rate",
+    "Q3 -- Court users' satisfaction survey (25%) with 10 sub-dimensions",
+    "Q4 -- Internal/employee engagement (15%) survey",
+    "Five-point Likert scale design (strongly disagree → strongly agree)",
+    "Anonymous, identity-protecting questionnaire design",
+    "Pilot rollout in 8 trial-court branches near Metro Manila",
+    "Self-rating 'will not be used to punish anyone'",
+    "Private-sector KPI cross-reference (Lance Gokongwei / Cebu Pacific)"
+  ],
+  "signature_phrases": [
+    "High-Performance Courts",
+    "frontliners of the judiciary",
+    "every case individual attention",
+    "treating cases proportionately",
+    "demonstrating procedural justice",
+    "exercising judicial control over the legal process",
+    "self-rating will not be used to punish anyone",
+    "a unified standard of performance across all trial courts",
+    "be honest with the KPIs"
+  ],
+  "entities": {
+    "people": [
+      "Associate Justice Alfredo Benjamin S. Caguioa (committee chair)",
+      "Dr. Ramon Segismundo (consultant)",
+      "Dr. Marshall Valencia (consultant)",
+      "Ronaldo Ruiz (consultant)",
+      "Chief Justice (approving the framework)",
+      "Lance Gokongwei (president and CEO, summa cum laude Wharton)",
+      "Artemio V. Panganiban (author, public-company director and adviser)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Court of Appeals (used as upholding-rate measure)",
+      "Trial courts of the Philippines (RTC, MTC)",
+      "Cebu Pacific",
+      "Wharton School of Business at the University of Pennsylvania",
+      "Pilot trial-court branches in Pampanga, La Union, Cavite, Antipolo, Mandaluyong"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Strategic Plan for Judicial Innovations (SPJI) 2022-2027"
+    ],
+    "events": [
+      "Caguioa committee meetings to design HPCs",
+      "Chief Justice's approval of the four-quadrant KPI framework",
+      "Pilot rollout in eight trial-court branches",
+      "COVID-19 years (referenced via Cebu Pacific's billions in losses)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Trial courts are properly the focus of the HPC initiative because they are the 'frontliners of the judiciary' that the public has contact with.",
+      "rhetorical_move": "frontline-prioritization argument",
+      "confidence": "high"
+    },
+    {
+      "claim": "Four KPI quadrants -- internal process (40%), decision quality (20%), user satisfaction (25%), employee engagement (15%) -- together capture HPC performance through the lens of all judicial stakeholders.",
+      "rhetorical_move": "framework summary with rationale",
+      "confidence": "high"
+    },
+    {
+      "claim": "Self-rating that will not be used to punish anyone helps judges identify whether they are going in the right direction and supports honest improvement.",
+      "rhetorical_move": "incentive-design defense of non-punitive scoring",
+      "confidence": "high"
+    },
+    {
+      "claim": "Geographically close pilot sites (Pampanga, La Union, Cavite, Antipolo, Mandaluyong) with high disposition and clearance rates were the right starting points for logistical reasons.",
+      "rhetorical_move": "pilot-design endorsement",
+      "confidence": "high"
+    },
+    {
+      "claim": "Private-sector KPIs at the publicly listed companies the author advises show that strict, honest self-rating drives genuine performance improvement, as Lance Gokongwei did during the COVID-19 years.",
+      "rhetorical_move": "cross-domain analogy with a named exemplar",
+      "confidence": "high"
+    },
+    {
+      "claim": "The major lesson for the judiciary is to be honest with the KPIs and establish a unified standard of performance across all trial courts.",
+      "rhetorical_move": "closing prescriptive lesson",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Lance Gokongwei (Wharton summa cum laude) rating himself as low as 60% -- a failing grade -- because Cebu Pacific lost billions of pesos during the COVID-19 years, modeling strict self-assessment for his subordinates and producing improved performance once the COVID years ended.",
+    "The Caguioa committee's four administrative principles -- give every case individual attention, treat cases proportionately, demonstrate procedural justice, and exercise judicial control over the legal process.",
+    "The eight pilot branches: two each in Pampanga, La Union, and Cavite plus one each in Antipolo and Mandaluyong, chosen for high disposition/clearance rates and geographical closeness to the SC.",
+    "The five-point Likert design and the identity-protecting questionnaire that asks only for gender, age, user type, branch number, and geographical location -- answerable in a few minutes.",
+    "Sample survey questions including 'I have access to the necessary tools and resources to perform my job effectively,' 'I have a positive and supportive relationship with my judge,' and 'Overall, I am satisfied with my experience in the court and its services.'"
+  ],
+  "target_audience": [
+    "Sitting trial-court judges and court personnel",
+    "Court of Appeals justices whose upholding rate is the Q2 metric",
+    "Judicial-reform advocates and academic researchers",
+    "Court watchers and the litigating public",
+    "Private-sector corporate-governance practitioners interested in cross-sector KPI adoption"
+  ],
+  "register_markers": [
+    "Acronym-heavy reporting register (SPJI, HPC, KPI, Q1-Q4)",
+    "Percentage-weighted enumeration of quadrants",
+    "Direct quotation of survey questions",
+    "Personal disclosure of board-and-advisory positions",
+    "Named-exemplar testimonial (Lance Gokongwei)",
+    "Closing prescriptive maxim ('be honest with the KPIs')",
+    "Optimistic-reformist tone throughout"
+  ],
+  "decision_framework_signals": [
+    "Begin reform at the front line (trial courts) before scaling to appellate levels",
+    "Use multi-stakeholder KPI frameworks (judges, staff, litigants, lawyers, public) to avoid metric tunnel vision",
+    "Weight internal process highest (40%) but balance with quality (20%), users (25%), and employees (15%)",
+    "Use upholding rate by a higher court as a defensible decision-quality proxy",
+    "Design self-rating as a non-punitive improvement tool, not a sanction trigger",
+    "Pilot in geographically and operationally favorable sites first to manage logistical risk",
+    "Set honest self-rating from the top (Gokongwei model) to discipline subordinate ratings",
+    "Anchor reform to a strategic plan with a defined horizon (SPJI 2022-2027)"
+  ],
+  "one_paragraph_summary": "Panganiban reports on the Supreme Court's High-Performance Courts (HPC) initiative under its Strategic Plan for Judicial Innovations (SPJI) 2022-2027, which adapts private-sector key performance indicators to address the perennial complaints of clogged dockets and case delays in the trial courts -- the 'frontliners of the judiciary.' A committee chaired by Associate Justice Alfredo Benjamin S. Caguioa, with consultants Dr. Ramon Segismundo, Dr. Marshall Valencia, and Ronaldo Ruiz, adopted four administrative principles for HPCs -- individual case attention, proportionality, procedural justice, and judicial control -- and a four-quadrant KPI framework, since approved by the Chief Justice: Q1 internal process (40%), measuring resolution percentages, ratios, on-time processing, and case-processing time; Q2 decision-making quality (20%), measured by the percentage of decisions upheld by the Court of Appeals; Q3 court users' satisfaction (25%), surveyed across ten dimensions from accessibility to overall experience; and Q4 internal employee engagement (15%), surveying workload, growth, relationships, compensation, and environment via a five-point Likert scale on an identity-protecting questionnaire answerable in a few minutes. The framework was piloted in eight branches near Metro Manila -- two each in Pampanga, La Union, and Cavite, and one each in Antipolo and Mandaluyong -- selected for high clearance rates and logistical convenience. Self-rating 'will not be used to punish anyone' but to help judges chart improvement. Drawing on his experience as a director and adviser of publicly listed companies, he points to Lance Gokongwei's habit of giving himself failing grades during the COVID-19 years (when Cebu Pacific lost billions) as the disciplining tone-from-the-top model, and closes with the lesson: be honest with the KPIs to establish, in J. Caguioa's words, 'a unified standard of performance across all trial courts.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

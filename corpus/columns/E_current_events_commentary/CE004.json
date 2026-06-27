@@ -1,30 +1,13 @@
 {
   "id": "CE004",
+  "format": "C",
   "type": "column",
   "theme": "E",
   "theme_label": "Signature Current Events Commentary",
   "number": 4,
   "title": "RA 6713, the 'Bible' of public officials",
   "date": "2025-10-27",
-  "year": 2025,
-  "source_url": "https://opinion.inquirer.net/187016/ra-6713-the-bible-of-public-officials",
-  "routing": {
-    "primary_intent": [
-      "opinions"
-    ],
-    "secondary_intent": [],
-    "audience_match": [],
-    "complexity": "medium",
-    "emotional_register": []
-  },
-  "topic_paths": {
-    "primary": [
-      "mentors_and_legal_lineage"
-    ],
-    "secondary": [
-      "lawyer_ethics_initiative"
-    ]
-  },
+  "link": "https://opinion.inquirer.net/187016/ra-6713-the-bible-of-public-officials",
   "keywords": [
     "anti-graft",
     "public accountability",
@@ -33,156 +16,155 @@
     "Ombudsman"
   ],
   "primary_topics": [
-    "RA 6713 (Ethical Standards Law) as 'Bible' of public officials",
-    "anti-corruption legal arsenal alongside the Constitution, RA 3019, and RA 1379",
-    "norms, prohibited acts, SALN obligations, and graduated penalties"
+    "RA 6713 (Ethical Standards Law) characterized as the 'Bible' of public officials alongside the Constitution + Anti-Graft Law (RA 3019) + Law of Forfeiture of Ill-Gotten Wealth (RA 1379)",
+    "Three-part column structure -- (1) norms of conduct and duties + (2) prohibited acts and transactions + (3) penalties for violations",
+    "Salonga + Saguisag sponsorship credit + Feb 20 1989 approval-date anchoring",
+    "Comprehensive public-official definition spanning elective/appointive + permanent/temporary + career/non-career + military/police",
+    "SALN (sworn statement of assets/liabilities/net worth) + disclosures filing-timeline regime",
+    "Penalty taxonomy -- administrative (fine + suspension + removal) vs criminal (imprisonment + fine + disqualification)"
   ],
   "sub_topics": [
-    "RA 6713 (Code of Conduct and Ethical Standards for Public Officials and Employees), approved Feb. 20, 1989",
-    "co-sponsors Jovito R. Salonga and Rene A. V. Saguisag",
-    "scope: elective and appointive, permanent or temporary, career or non-career, military and police, compensated or not",
-    "norms and duties: public interest over personal",
-    "justness and sincerity",
-    "no undue favors to relatives (except strictly confidential / co-terminus staff)",
-    "no party discrimination",
-    "prompt courteous adequate service",
-    "transparency",
-    "modest lives",
-    "duty to respond to public communications within 15 working days",
-    "process documents with no more than three official signatures where practicable",
-    "make documents accessible during reasonable working hours",
-    "prohibited acts: direct/indirect financial interest in office transactions, owning/managing regulated enterprises, private practice without authority, recommending to private enterprises with pending business",
-    "one-year cooling-off period after separation",
-    "SALN and disclosure filings (within 30 days of assumption, every April 30, within 30 days of separation)",
-    "general violations: fine â‰¤ six months' salary, suspension â‰¤ 1 year, or removal",
-    "criminal conviction for prohibited acts / SALN failure: imprisonment â‰¤ 5 years, fine â‰¤ P5,000, and/or disqualification",
-    "OMB administrative proceedings as sufficient cause for removal even without criminal prosecution",
-    "private conspirators tried jointly with public officials and subject to the same penalties"
+    "Pork-barrel + trillion-peso-legislative-insertions + mind-bending-scams as contextual scandal-anchoring",
+    "OMB + Civil Service Commission as primary enforcement bodies",
+    "Norms-and-duties -- (a) public-interest-over-personal + efficient-effective-honest-economic + (b) just-and-sincere + especially-the-poor-and-underprivileged + (c) no-undue-favors-to-relatives except strictly-confidential/coterminous-staff + (d) no-discrimination-by-party-affiliation",
+    "Service-delivery duties -- prompt + courteous + adequate + understandable-language + openness + public-consultations + simplify-systematize + avoid-red-tape",
+    "Modest-lives-appropriate-to-position-and-income duty for officials and families",
+    "Specific obligations -- (a) 15-working-day response with action-taken + (b) not-more-than-three-official-signatures + (c) documents-accessible-and-readily-available-for-inspection",
+    "Prohibited acts -- (a) direct/indirect financial-or-material interest in transactions requiring office approval + (b) ownership/control/management of regulated/supervised/licensed private enterprise + (c) private-practice of profession + (d) recommendation to private-enterprise positions with pending official transactions",
+    "One-year post-separation continuation of prohibitions (except professional private practice, but not in matters before former office)",
+    "SALN coverage -- official's + spouse's + unmarried-children-under-18-in-household",
+    "SALN filing timeline -- within 30 days after assumption + on/before April 30 every year thereafter + within 30 days after separation",
+    "General RA-6713 penalties -- fine ≤ six-months-salary OR suspension ≤ one-year OR removal depending on gravity, after due-notice-and-hearing",
+    "Heavier criminal penalties for prohibited-acts + SALN-failure -- imprisonment ≤ five-years + fine ≤ P5,000 + disqualification-to-hold-public-office",
+    "OMB administrative-proceeding sufficient cause for removal/dismissal even without criminal prosecution",
+    "Private-individuals-who-conspire same-penalties + tried-jointly provision"
   ],
   "signature_phrases": [
-    {
-      "phrase": "SPONSORED BY MY GURU",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "PUBLIC OFFICIALS ARE BARRED",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "IN GENERAL, VIOLATIONS OF RA 6713",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "stupefying billion-peso pork barrel, trillion-peso legislative insertions and other mind-bending scams",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "Very importantly",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "live modest lives appropriate to their positions and income",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "To stress",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "the Bible of public officials",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "render public duties and use public funds",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    },
-    {
-      "phrase": "professional private practitioners (recurring CJ device)",
-      "type": "tbd",
-      "voice_marker": true,
-      "reusable": true,
-      "context": ""
-    }
+    "the 'Bible' of public officials",
+    "amid these stupefying billion-peso pork barrel, trillion-peso legislative insertions, and other mind-bending scams",
+    "could have been prevented and the crooks penalized by its strict enforcement",
+    "my guru, the late Senate President Jovito R. Salonga",
+    "shall live modest lives appropriate to their positions and income",
+    "directly or indirectly",
+    "tried jointly with them"
   ],
   "entities": {
-    "people": [],
-    "institutions": [],
+    "people": [
+      "Artemio V. Panganiban",
+      "Late Senate President Jovito R. Salonga (CJP's guru + RA 6713 sponsor)",
+      "Late Sen. Rene A. V. Saguisag (RA 6713 sponsor)"
+    ],
+    "institutions": [
+      "Office of the Ombudsman (OMB)",
+      "Civil Service Commission",
+      "Senate of the Philippines (RA 6713 sponsoring body)",
+      "Philippine bureaucracy (public-official audience)"
+    ],
     "cases": [],
-    "laws_treaties": [],
-    "events": []
+    "laws_and_documents": [
+      "Republic Act 6713 (Ethical Standards Law, approved Feb 20 1989)",
+      "Republic Act 3019 (Anti-Graft and Corrupt Practices Act)",
+      "Republic Act 1379 (Law of Forfeiture of Ill-Gotten Wealth)",
+      "1987 Constitution",
+      "Statement of Assets, Liabilities and Net Worth (SALN) -- RA 6713 mandated"
+    ]
   },
-  "stances": [],
-  "notable_anecdotes": [
+  "stances": [
     {
-      "summary": "CJ's authorial framing: RA 6713 was 'sponsored by my guru, the late Senate President Jovito R. Salonga, the late Senator Rene A. V. Saguisag and others' â€” and approved Feb. 20, 1989",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
+      "claim": "Together with the Constitution, the Anti-Graft Law (RA 3019) and the Law of Forfeiture of Ill-Gotten Wealth (RA 1379), CJP considers the Ethical Standards Law (RA 6713) as the 'Bible' of public officials, who must therefore obey it -- especially amid these stupefying billion-peso pork barrel, trillion-peso legislative insertions, and other mind-bending scams. All these could have been prevented and the crooks penalized by its strict enforcement, especially by the Office of the Ombudsman (OMB) and the Civil Service Commission.",
+      "rhetorical_move": "Bible-titular characterization + four-pillar framework (Constitution + RA 3019 + RA 1379 + RA 6713) + scandal-timing anchoring + OMB-and-CSC enforcement charge",
+      "confidence": "asserted as titular thesis"
     },
     {
-      "summary": "Topical anchor: 'stupefying billion-peso pork barrel, trillion-peso legislative insertions and other mind-bending scams' â€” the current scandal cycle that the law could have prevented through strict enforcement",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
+      "claim": "Sponsored by CJP's guru the late Senate President Jovito R. Salonga, the late Sen. Rene A. V. Saguisag, and others, the law was approved on Feb 20 1989; due to space limits, CJP will take up only (1) the norms of conduct and duties of public officials, (2) their prohibited acts and transactions, and (3) the penalties for the law's violations. Public officials under this and other laws 'include elective and appointive officials and employees, permanent or temporary, whether in the career or noncareer service, including military and police personnel, whether or not they receive compensation, regardless of amount.' They render public duties and use public funds.",
+      "rhetorical_move": "Salonga-and-Saguisag sponsorship credit + Feb-20-1989 approval anchor + three-part organizational structure + comprehensive-public-official verbatim-definition",
+      "confidence": "asserted with sponsorship-and-definition anchoring"
     },
     {
-      "summary": "The 'modest lives' clause cited as 'very importantly' â€” a norm directly implicating the contemporary lifestyle-check controversies CJ has tracked across multiple columns",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
+      "claim": "Under norms and duties, public officials shall (a) always observe public interest over personal interest and use their powers 'efficiently, effectively, honestly and economically'; (b) act with justness and sincerity without discriminating against anyone 'especially the poor and underprivileged'; (c) not extend 'undue favors on account of their office to their relatives whether by consanguinity or affinity' except to their strictly confidential or coterminous staff; and (d) provide service without discrimination 'regardless of party affiliation or preference.'",
+      "rhetorical_move": "four-letter norms-and-duties (a-b-c-d) verbatim recitation",
+      "confidence": "asserted with verbatim-statutory citation"
     },
     {
-      "summary": "OMB and Civil Service Commission named as the primary enforcement agents",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
+      "claim": "Moreover, officials shall extend prompt + courteous + adequate service and 'provide information of their policies and procedures in clear and understandable language... ensure openness of information, public consultations, and hearings whenever appropriate, encourage suggestions, simplify, and systematize policy rules and procedures, avoid red tape...' Very importantly, public officials and 'their families shall live modest lives appropriate to their positions and income.'",
+      "rhetorical_move": "service-delivery duties + modest-lives-appropriate-to-position-and-income highlight emphasis",
+      "confidence": "asserted with verbatim-statutory citation + emphasis-italicization"
     },
     {
-      "summary": "Joint-liability doctrine: private individuals who conspire with public officials are tried jointly and subject to the same penalties â€” a doctrinal pointer toward the flood-control-scam contractor liability frame",
-      "characters": [],
-      "deployable_when": [],
-      "tone": "tbd",
-      "length": "tbd",
-      "deployable_in_solemn_register": false
+      "claim": "Among other duties and obligations are to (a) respond, within 15 working days from receipt, to communications sent by the public with action-taken contained in the reply; (b) process documents and papers expeditiously, containing as far as practicable not more than three official signatures; (c) make documents accessible to and readily available for inspection by the public within reasonable working hours.",
+      "rhetorical_move": "specific-obligations 15-day + three-signature + accessible-documents triplet",
+      "confidence": "asserted with verbatim-statutory citation"
+    },
+    {
+      "claim": "Public officials are barred from committing these prohibited acts -- (a) having directly or indirectly any financial or material interest in any transaction requiring their office's approval; (b) owning, controlling, managing, or accepting employment as officer/employee/consultant/counsel/broker/agent/trustee/nominee in any private enterprise regulated/supervised/licensed by their office unless expressly allowed by law; (c) engaging in private practice of their profession unless authorized by Constitution or law; or (d) recommending any person to any position in a private enterprise that has regular or pending official transactions with their office.",
+      "rhetorical_move": "four-letter prohibited-acts (a-b-c-d) verbatim recitation + role-cascade (officer/employee/consultant/counsel/broker/agent/trustee/nominee)",
+      "confidence": "asserted with verbatim-statutory citation"
+    },
+    {
+      "claim": "These prohibitions shall continue to apply for one year after resignation, retirement, or separation from public office, except in the case of professional private practitioners -- but the professional concerned cannot practice his/her profession in connection with any matter before the office he or she used to be with.",
+      "rhetorical_move": "one-year-post-separation continuation + professional-practice carve-out + can't-practice-before-former-office qualification",
+      "confidence": "asserted with verbatim-statutory citation"
+    },
+    {
+      "claim": "Public officials shall likewise submit SALNs and disclose their financial and business interests, including those of their spouses and of unmarried children under 18 living in their households. SALNs and disclosures must be filed (a) within 30 days after assumption of office; (b) on or before April 30 every year thereafter; and (c) within 30 days after separation from the service.",
+      "rhetorical_move": "SALN scope (self + spouse + minor-children-in-household) + three-stage timeline (30-days-after-assumption + April-30-annually + 30-days-after-separation)",
+      "confidence": "asserted with verbatim-statutory citation"
+    },
+    {
+      "claim": "In general, violations of RA 6713 shall be punished with a fine not exceeding six months' salary OR suspension not exceeding one year OR removal, depending on the gravity, after due notice and hearing by the appropriate body. However, criminal conviction of the prohibited acts and/or the failure to file SALNs and disclosures shall be more heavily punished -- imprisonment not exceeding five years, OR a fine not exceeding P5,000, OR both, AND/OR disqualification to hold public office.",
+      "rhetorical_move": "administrative-vs-criminal penalty taxonomy + due-notice-and-hearing procedural anchor",
+      "confidence": "asserted with verbatim-statutory citation"
+    },
+    {
+      "claim": "Any violation proven in a proper administrative proceeding by the OMB shall be sufficient cause for removal or dismissal, even if no criminal prosecution is instituted; private individuals who conspire with public officials shall be subject to the same penalties and tried jointly with them.",
+      "rhetorical_move": "OMB-administrative-proceeding sufficient-cause + private-individual-conspirator equal-treatment closing",
+      "confidence": "asserted with verbatim-statutory citation"
     }
   ],
-  "decision_framework_signals": [],
-  "target_audience": [],
-  "register_markers": [],
-  "one_paragraph_summary": ""
+  "notable_anecdotes": [
+    "Bible-titular characterization + four-pillar framework -- Constitution + RA 3019 (Anti-Graft) + RA 1379 (Forfeiture) + RA 6713 (Ethical Standards)",
+    "Stupefying billion-peso-pork-barrel + trillion-peso-legislative-insertions + mind-bending-scams scandal contextual-anchoring",
+    "Salonga 'my guru' personal endorsement + Saguisag co-sponsorship -- Feb 20 1989 approval anchor",
+    "Modest-lives-appropriate-to-position-and-income duty highlighted as the column's most-actionable provision",
+    "Comprehensive public-official definition spanning compensation-or-not + amount-regardless + career/non-career + military/police",
+    "15-working-day response duty + three-signature processing duty + accessible-documents duty triplet",
+    "Eight-role prohibited-employment cascade -- officer + employee + consultant + counsel + broker + agent + trustee + nominee",
+    "One-year-post-separation continuation of prohibitions",
+    "SALN coverage of unmarried-children-under-18-in-household + three-stage timeline (30 days + April 30 + 30 days)",
+    "Penalty escalation taxonomy -- administrative (fine/suspension/removal) → criminal (5-year imprisonment + P5,000 fine + disqualification)",
+    "OMB administrative-proceeding sufficient even without criminal prosecution",
+    "Private-individual-conspirator equal-penalty + tried-jointly closing provision"
+  ],
+  "target_audience": [
+    "All Philippine public officials -- elective + appointive + permanent + temporary + career + non-career + military + police (statutory-audience)",
+    "Office of the Ombudsman (primary enforcement audience)",
+    "Civil Service Commission (primary enforcement audience)",
+    "General electorate (citizen-vigilance audience amid scandal context)",
+    "Law students + legal practitioners (statutory primer audience)",
+    "Salonga + Saguisag legacy-honoring readership"
+  ],
+  "register_markers": [
+    "Bible-titular metaphor as organizing device",
+    "Three-part organizational structure -- norms-and-duties + prohibited-acts + penalties",
+    "Letter-numeration cascade (a-b-c-d) for both norms and prohibited acts",
+    "All-caps section-lead-ins ('SPONSORED BY MY GURU', 'PUBLIC OFFICIALS ARE BARRED', 'IN GENERAL, VIOLATIONS OF RA 6713')",
+    "Verbatim-statutory citation with quotation marks throughout",
+    "Personal anchoring -- 'my guru' for Salonga"
+  ],
+  "decision_framework_signals": [
+    "Four-pillar public-official-discipline framework -- Constitution + RA 3019 + RA 1379 + RA 6713",
+    "Three-part organizational analysis -- norms + prohibited acts + penalties",
+    "Public-interest-over-personal-interest + efficient-effective-honest-economic norms",
+    "No-undue-favors-to-relatives except strictly-confidential/coterminous-staff carve-out",
+    "Modest-lives-appropriate-to-position-and-income lifestyle duty",
+    "15-day + three-signature + accessible-documents service-delivery triplet",
+    "Eight-role prohibited-employment scope in regulated/supervised/licensed private enterprises",
+    "One-year-post-separation continuation of prohibitions",
+    "SALN three-stage timeline -- 30-days-after-assumption + April-30-annually + 30-days-after-separation",
+    "Administrative-vs-criminal penalty taxonomy with gravity-graduation",
+    "OMB administrative-proceeding sufficient-cause-for-removal independent track",
+    "Private-individual-conspirator equal-treatment + joint-trial provision"
+  ],
+  "one_paragraph_summary": "CJP characterizes RA 6713 (Ethical Standards Law) as the 'Bible' of public officials alongside the Constitution + Anti-Graft Law (RA 3019) + Law of Forfeiture of Ill-Gotten Wealth (RA 1379), arguing that the pork-barrel + trillion-peso-legislative-insertion + flood-control scams could have been prevented and the crooks penalized by its strict enforcement, especially by the OMB and Civil Service Commission. Crediting his guru the late Senate President Salonga and the late Sen. Saguisag as co-sponsors (Feb 20 1989 approval), he structures the column in three parts. On norms and duties: (a) public-interest-over-personal + efficient-effective-honest-economic, (b) just-and-sincere especially-for-the-poor, (c) no-undue-favors-to-relatives except strictly-confidential/coterminous staff, (d) no-discrimination-by-party-affiliation -- with the highlighted duty that officials and families 'shall live modest lives appropriate to their positions and income,' plus specific obligations (15-working-day response + three-signature processing + accessible documents). On prohibited acts: financial-interest-in-office-transactions + employment in regulated private enterprises + unauthorized private practice + recommendations to private enterprises with pending official transactions -- continuing for one year post-separation. SALNs must be filed within 30 days of assumption, annually by April 30, and within 30 days of separation, covering officials + spouses + unmarried minor children in household. Penalties graduate from administrative (fine/suspension/removal) to criminal (imprisonment ≤ 5 years + fine ≤ P5,000 + disqualification), with OMB administrative proceedings sufficient for removal even without criminal prosecution and private-individual conspirators tried jointly with public officials.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
 }

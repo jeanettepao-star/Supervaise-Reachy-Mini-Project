@@ -1,0 +1,162 @@
+{
+  "id": "GC015",
+  "format": "G",
+  "type": "biography",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 15,
+  "title": "The Bench",
+  "date": "October 19",
+  "link": "",
+  "keywords": [
+    "Associate Justice 1995",
+    "Antonio Carpio quote",
+    "most prolific writer",
+    "Liberty and Prosperity philosophy",
+    "thousand decisions"
+  ],
+  "primary_topics": [
+    "October 1995 -- Ramos appointed Panganiban as Associate Justice of Supreme Court",
+    "'I did not do it. The Lord did.' answer to Ramos",
+    "Bench changed him -- and revealed him",
+    "Antonio Carpio called him 'the most prolific writer of the Court'",
+    "More than a thousand decisions bore his name",
+    "Judicial philosophy crystallized -- 'The judiciary must protect liberty and nurture prosperity'"
+  ],
+  "sub_topics": [
+    "October 1995 -- Fidel V. Ramos appointed Artemio Panganiban Jr. as Associate Justice of Supreme Court",
+    "Ramos's later question -- 'How did you finally pass the JBC?'",
+    "Art's answer -- 'I did not do it. The Lord did.'",
+    "Bench changed him -- and revealed him",
+    "Wrote relentlessly -- opinions poured from chambers",
+    "Decisions not-merely-rendered-but-reasoned",
+    "Colleagues noticed pattern -- clarity-without-arrogance + firmness-without-cruelty",
+    "Justice Antonio Carpio quote -- 'the most prolific writer of the Court'",
+    "More than a thousand decisions bore his name",
+    "Chaired divisions + led reform committees + wrote books -- one each year",
+    "Compelled-to-account-for-stewardship motive for book-writing",
+    "Judicial philosophy crystallized into simple, audacious premise -- 'The judiciary must protect liberty and nurture prosperity'",
+    "Law-not-merely-restraint-but-enablement",
+    "Predictable-justice-encouraged-economic-growth",
+    "Fair-courts-strengthened-democracy",
+    "Liberty-without-order-was-chaos + order-without-liberty-was-tyranny twin-aphorism",
+    "Then-history-intruded setup for EDSA section (GC016)"
+  ],
+  "signature_phrases": [
+    "I did not do it. The Lord did",
+    "The bench changed him -- and revealed him",
+    "Decisions were not merely rendered; they were reasoned",
+    "clarity without arrogance, firmness without cruelty",
+    "the most prolific writer of the Court",
+    "More than a thousand decisions bore his name",
+    "compelled to account for his stewardship",
+    "The judiciary must protect liberty and nurture prosperity",
+    "Law... was not merely restraint. It was enablement",
+    "Liberty without order was chaos; order without liberty was tyranny",
+    "Then history intruded"
+  ],
+  "entities": {
+    "people": [
+      "Artemio Villaseñor Panganiban Jr. (subject -- Associate Justice as of October 1995)",
+      "President Fidel V. Ramos (appointing authority)",
+      "Justice Antonio Carpio (Supreme Court colleague -- 'most prolific writer of the Court' attribution)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Office of the President (Ramos administration)",
+      "Judicial and Bar Council (the body that had finally cleared Art)",
+      "Various SC divisions and reform committees (Art chaired/led)"
+    ],
+    "places": [],
+    "events": [
+      "October 1995 -- Art's appointment as Associate Justice",
+      "Oath-taking and assumption of office",
+      "1995-2005 -- Associate Justice tenure (decade of decision-writing + leadership)"
+    ],
+    "works_authored": [
+      "More than 1,000 SC decisions (collective)",
+      "Books written -- one each year (titles unspecified in section)"
+    ],
+    "doctrinal_foundations": [
+      "Liberty-and-Prosperity titular philosophy (later FLP namesake)",
+      "Law-as-enablement-not-merely-restraint doctrinal premise",
+      "Liberty-without-order-was-chaos + order-without-liberty-was-tyranny twin-balance"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "In October 1995 President Fidel V. Ramos appointed Artemio Panganiban Jr. as Associate Justice of the Supreme Court -- when Ramos later asked him how he had finally passed the Judicial and Bar Council, Art answered without irony: 'I did not do it. The Lord did.'",
+      "rhetorical_move": "October-1995 appointment-date + Ramos-asked-Art retrospective dialogue + I-did-not-do-it-the-Lord-did quoted-without-irony attribution",
+      "confidence": "biographer-asserted with quoted-attribution framing"
+    },
+    {
+      "claim": "The bench changed him -- and revealed him; he wrote relentlessly, opinions poured from his chambers; decisions were not merely rendered, they were reasoned; colleagues soon noticed the pattern: clarity without arrogance, firmness without cruelty.",
+      "rhetorical_move": "changed-him-and-revealed-him twin-effect + wrote-relentlessly + opinions-poured + not-merely-rendered-but-reasoned + clarity-without-arrogance + firmness-without-cruelty rare-combination",
+      "confidence": "biographer-asserted as judicial-character thesis"
+    },
+    {
+      "claim": "Justice Antonio Carpio would later call him 'the most prolific writer of the Court.' More than a thousand decisions bore his name. He chaired divisions, led reform committees, wrote books -- one each year -- as if compelled to account for his stewardship.",
+      "rhetorical_move": "Carpio-attributed superlative + thousand-decisions credential + chaired-led-wrote three-role cascade + book-a-year + compelled-to-account-for-stewardship motivation framing",
+      "confidence": "biographer-asserted with peer-attribution + statistical anchoring"
+    },
+    {
+      "claim": "His judicial philosophy crystallized into a simple, audacious premise: 'The judiciary must protect liberty and nurture prosperity.' Law, he argued, was not merely restraint -- it was enablement; predictable justice encouraged economic growth; fair courts strengthened democracy; liberty without order was chaos; order without liberty was tyranny.",
+      "rhetorical_move": "judicial-philosophy crystallization + titular Liberty-and-Prosperity premise + law-as-enablement-not-restraint reframe + predictable-justice-encouraged-economic-growth + fair-courts-strengthened-democracy + liberty-without-order-was-chaos + order-without-liberty-was-tyranny twin-aphorism",
+      "confidence": "biographer-asserted as doctrinal-thesis"
+    },
+    {
+      "claim": "Then history intruded.",
+      "rhetorical_move": "two-word cliffhanger setup for next section (GC016 EDSA Judgment at Dawn)",
+      "confidence": "biographer-asserted as section-cliffhanger"
+    }
+  ],
+  "notable_anecdotes": [
+    "October 1995 Ramos appointment as Associate Justice",
+    "Ramos's retrospective question + Art's 'I did not do it. The Lord did.' answer -- single-most-quoted bench-section vignette",
+    "Wrote-relentlessly + opinions-poured-from-his-chambers productive characterization",
+    "Decisions-not-merely-rendered-but-reasoned distinction",
+    "Clarity-without-arrogance + firmness-without-cruelty rare-combination character framing",
+    "Justice Antonio Carpio's peer attribution -- 'the most prolific writer of the Court'",
+    "More than 1,000 decisions bore his name -- statistical anchor",
+    "Book-a-year output compelled-to-account-for-stewardship motivation",
+    "'The judiciary must protect liberty and nurture prosperity' -- titular doctrinal premise birthing the future FLP namesake",
+    "Law-as-enablement-not-merely-restraint doctrinal reframe",
+    "Liberty-without-order-was-chaos + order-without-liberty-was-tyranny twin-balance aphorism",
+    "'Then history intruded.' two-word cliffhanger closing"
+  ],
+  "target_audience": [
+    "Filipino legal scholars + jurisprudence historians",
+    "Law students studying Panganiban-decisions corpus",
+    "FLP donors + scholars tracing the Liberty-and-Prosperity-under-the-rule-of-law philosophical origin",
+    "Constitutional-law scholars studying enablement-vs-restraint judicial-philosophy",
+    "Future Supreme Court justices studying productivity + judicial-character patterns",
+    "Catholic readers tracking 'I did not do it. The Lord did.' attribution"
+  ],
+  "register_markers": [
+    "October-1995 appointment-date concrete-anchor",
+    "Quoted-attribution-without-irony device -- 'I did not do it. The Lord did.'",
+    "Changed-him-and-revealed-him twin-effect framing",
+    "Productivity-cascade -- wrote-relentlessly + opinions-poured + thousand-decisions",
+    "Not-merely-X-but-Y reframe -- decisions not-rendered-but-reasoned",
+    "Rare-combination character framing -- clarity-without-arrogance + firmness-without-cruelty",
+    "Peer-attribution superlative -- Carpio's 'most prolific writer of the Court'",
+    "Book-a-year output framing",
+    "Compelled-to-account-for-stewardship motivation reframe",
+    "Crystallization metaphor for judicial-philosophy formation",
+    "Twin-aphorism balance closing -- liberty-without-order-was-chaos + order-without-liberty-was-tyranny",
+    "Two-word cliffhanger -- 'Then history intruded.'"
+  ],
+  "decision_framework_signals": [
+    "I-did-not-do-it-the-Lord-did attribution posture for institutional achievement",
+    "Decisions-not-merely-rendered-but-reasoned writing standard",
+    "Clarity-without-arrogance + firmness-without-cruelty judicial-character standard",
+    "Productivity-as-accountability -- book-a-year output reflecting compelled-to-account-for-stewardship",
+    "Liberty-and-Prosperity titular premise -- 'The judiciary must protect liberty and nurture prosperity'",
+    "Law-as-enablement-not-merely-restraint doctrinal reframe",
+    "Predictable-justice-encouraged-economic-growth jurisprudential principle",
+    "Fair-courts-strengthened-democracy institutional-purpose principle",
+    "Liberty-without-order-was-chaos + order-without-liberty-was-tyranny twin-balance test"
+  ],
+  "one_paragraph_summary": "Art's Associate-Justice decade (October 1995-2005), opening with Ramos's appointment and the single-most-quoted vignette: when Ramos later asked how he had finally passed the JBC, Art answered 'without irony: I did not do it. The Lord did.' The bench 'changed him -- and revealed him.' He wrote relentlessly; opinions poured from his chambers; 'decisions were not merely rendered; they were reasoned'; colleagues noticed 'clarity without arrogance, firmness without cruelty.' Justice Antonio Carpio later called him 'the most prolific writer of the Court'; more than a thousand decisions bore his name; he chaired divisions, led reform committees, and wrote books -- 'one each year -- as if compelled to account for his stewardship.' His judicial philosophy crystallized into a 'simple, audacious premise': 'The judiciary must protect liberty and nurture prosperity.' Law, he argued, was 'not merely restraint -- it was enablement': predictable justice encouraged economic growth, fair courts strengthened democracy, 'liberty without order was chaos; order without liberty was tyranny.' Closing two-word cliffhanger: 'Then history intruded.'",
+  "source_xlsx": "cjp_biography_curated_normalized.xlsx"
+}

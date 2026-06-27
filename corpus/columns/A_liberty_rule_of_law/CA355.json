@@ -1,0 +1,161 @@
+{
+  "id": "CA355",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 355,
+  "title": "Edsa 1 and Edsa 2 compared",
+  "date": "2016-02-07",
+  "link": "https://opinion.inquirer.net/92660/edsa-1-and-edsa-2-compared",
+  "keywords": [
+    "Edsa 1 vs Edsa 2 doctrinal comparison",
+    "both 'confluence of unplanned events' with Church+military",
+    "Edsa 1 contravened 1973 Constitution while Edsa 2 protected 1987",
+    "Cory Proclamation 1 (Feb 25 1986) and Proclamation 3 (March 25 1986)",
+    "Lawyers League v. Aquino (May 22 1986) non-justiciability and de jure recognition",
+    "Estrada v. Desierto (March 2 2001) political-question rejection",
+    "1987 Charter trimmed political thicket",
+    "SC's own 'extra' vs 'intra' constitutional formulation"
+  ],
+  "primary_topics": [
+    "30th anniversary of Edsa 1 and 15th anniversary of Edsa 2 -- confluence of unplanned events",
+    "Similarities between Edsa 1 and Edsa 2: Church and military support, middle-class and masses, Metro Manila locus",
+    "Legal contrast: Edsa 1 in contravention of 1973 Constitution; Edsa 2 within the 1987 Charter",
+    "Lawyers League vs Aquino (May 22, 1986): legitimacy of Cory government as non-justiciable political question",
+    "Estrada vs Desierto (March 2, 2001): Edsa 2 as 'intra-constitutional' and subject to judicial review",
+    "1987 Constitution's trimming of the 'political thicket' and expanded judicial review powers"
+  ],
+  "sub_topics": [
+    "'Perfumed' middle class vs 'unperfumed' masses -- pundit's labeling",
+    "Bourgeois vs proletariat -- ideologue's framing",
+    "Active Church support personified by Jaime Cardinal Sin",
+    "Military support as indispensable factor in both revolutions",
+    "Cory's Proclamation 1 and Proclamation 3 establishing legitimacy 'through a direct exercise of the power of the Filipino people'",
+    "De jure status conferred by people's acceptance and international recognition",
+    "Arroyo's lawyers' invocation of Cory parallel -- and the Court's rejection of the 'political thicket' argument",
+    "Definition of political question: 'wisdom, not the legality' of an issue",
+    "Expanded judicial review: grave abuse of discretion, martial law factual basis, habeas corpus suspension",
+    "Edsa 1's repeated military coup challenges to legitimacy",
+    "Edsa 2 preserving the 1987 Constitution and public institutions",
+    "Arroyo's plunging satisfaction rating post-2004 election controversy"
+  ],
+  "signature_phrases": [
+    "in fine",
+    "the Court added",
+    "Quite the contrary",
+    "in fine",
+    "at another time, I will write on this"
+  ],
+  "entities": {
+    "people": [
+      "President Benigno S. Aquino III",
+      "Ferdinand Marcos",
+      "Joseph Estrada",
+      "Corazon Cojuangco Aquino",
+      "Gloria Macapagal Arroyo",
+      "Salvador P. Laurel (VP under Cory)",
+      "Jaime Cardinal Sin"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (Cory-era and Arroyo-era compositions)",
+      "Armed Forces of the Philippines (then New Armed Forces of the Philippines)",
+      "Roman Catholic Church / Archdiocese of Manila",
+      "Vatican (briefly referenced)"
+    ],
+    "cases": [
+      "Lawyers League vs Aquino (May 22, 1986) -- legitimacy of Cory government non-justiciable",
+      "Estrada vs Desierto (March 2, 2001) -- Arroyo succession constitutional"
+    ],
+    "laws_treaties": [
+      "1973 Constitution (Marcos-era, contravened by Edsa 1)",
+      "1987 Constitution (preserved by Edsa 2)",
+      "Proclamation 1 (Feb 25, 1986) -- Cory and Laurel taking power",
+      "Proclamation 3 (March 25, 1986) -- new government via 'direct exercise of the power of the Filipino people'"
+    ],
+    "events": [
+      "Edsa 1 (Feb 22-25, 1986)",
+      "Edsa 2 (Jan 16-20, 2001)",
+      "30th anniversary of Edsa 1 (Feb 2016, upcoming)",
+      "15th anniversary of Edsa 2 (Jan 2016, passed without fanfare)",
+      "Snap election under 1973 Constitution",
+      "Multiple coup attempts against Cory government",
+      "Ratification of 1987 Constitution"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Both Edsa Revolutions were confluences of unplanned events, joined by both the 'perfumed' middle class and the 'unperfumed' masses",
+      "rhetorical_move": "definitional framing through pundit/ideologue labels in parallel",
+      "confidence": "high"
+    },
+    {
+      "claim": "Without Church and military support, neither revolution would have succeeded in ousting an incumbent president",
+      "rhetorical_move": "causal claim stated as historical fact",
+      "confidence": "high"
+    },
+    {
+      "claim": "Edsa 1 was extraconstitutional -- undertaken against the then-prevailing 1973 Constitution under which Marcos had been proclaimed snap-election winner",
+      "rhetorical_move": "doctrinal labeling that frames the legal contrast",
+      "confidence": "high"
+    },
+    {
+      "claim": "Edsa 2 was intraconstitutional -- happening within and aiming to protect the 1987 Charter -- and is therefore subject to judicial review",
+      "rhetorical_move": "doctrinal labeling completing the contrast",
+      "confidence": "high"
+    },
+    {
+      "claim": "The 1987 Constitution trimmed the 'political thicket' by giving the judiciary more duties and prerogatives than its forebears, including grave-abuse-of-discretion review and review of martial-law factual basis",
+      "rhetorical_move": "constitutional progress narrative -- the Charter as an expansion of judicial responsibility",
+      "confidence": "high"
+    },
+    {
+      "claim": "Edsa 1's legitimacy could be repeatedly challenged through coup attempts precisely because it had obliterated the prior constitutional order, while Edsa 2 preserved its constitutional framework and was thus more legally secure",
+      "rhetorical_move": "comparative historical assessment grounded in legal categories",
+      "confidence": "high"
+    },
+    {
+      "claim": "Estrada vs Desierto went to great lengths in explaining Edsa 2's constitutionality, while Lawyers League vs Aquino is 'notable for its sheer brevity' -- the difference reflects the deeper doctrinal stakes",
+      "rhetorical_move": "comparative jurisprudential observation",
+      "confidence": "high"
+    },
+    {
+      "claim": "Arroyo's public satisfaction plunged after her 2004 electoral victory was questioned and her governance vilified as corrupt and ineffective -- a fall whose causes are political, not legal",
+      "rhetorical_move": "factual acknowledgment without endorsement of accusations",
+      "confidence": "medium"
+    }
+  ],
+  "notable_anecdotes": [
+    "Cory's Proclamation 1 (Feb 25, 1986) announcing the takeover with VP Laurel",
+    "Cory's Proclamation 3 (March 25, 1986) -- government 'installed through a direct exercise of the power of the Filipino people'",
+    "The Cory-era Court (justices she appointed) declining to rule on her legitimacy as non-justiciable",
+    "Arroyo's lawyers invoking the Cory parallel -- only to have the SC reject the 'political thicket' framing because the 1987 Charter expanded judicial review",
+    "Forward-pointer: 'At another time, I will write on this conflict' -- referring to the Vatican-Sin dispute (which becomes C89)"
+  ],
+  "target_audience": [
+    "Inquirer readership marking the two anniversaries",
+    "Students of Philippine constitutional history",
+    "Lawyers and legal scholars",
+    "Civic-minded readers and Edsa veterans"
+  ],
+  "register_markers": [
+    "anniversary-marking civic register",
+    "doctrinal-formal exposition with extensive case quotation",
+    "Latin tags ('ergo', 'ipso facto' -- implicit in tone if not surface)",
+    "'in fine' as summary-marker (repeated)",
+    "extended block quotation of SC text",
+    "forward-pointer formula ('At another time, I will write on this')",
+    "pundit/ideologue labels in parallel construction",
+    "comparative table-style argument in prose"
+  ],
+  "decision_framework_signals": [
+    "Extra-constitutional vs intra-constitutional as doctrinal categories",
+    "Political question doctrine and its trimming under the 1987 Constitution",
+    "Judicial review expansion: grave abuse, martial-law factual basis, habeas corpus suspension",
+    "De jure status by acceptance + international recognition (Cory test)",
+    "Constitutional-preservation criterion distinguishing Edsa 2 from Edsa 1",
+    "Wisdom vs legality as the political-question line"
+  ],
+  "one_paragraph_summary": "Panganiban marks the 30th anniversary of Edsa 1 (Feb 22-25, 1986) and the 15th of Edsa 2 (Jan 16-20, 2001, recently passed without fanfare) by drawing both parallels and contrasts. Both revolutions were confluences of unplanned events joined by the middle class and the masses (the 'perfumed' and 'unperfumed' to one pundit, 'bourgeois' and 'proletariat' to an ideologue), happening at the corner of Edsa and Ortigas with the active support of the Church (personified by Cardinal Sin) and the military -- without which neither revolution would have ousted its president or installed Cory and Arroyo respectively. From the legal view, however, the similarity ends there. Edsa 1 was extra-constitutional -- undertaken against the then-prevailing 1973 Constitution under which Marcos had been proclaimed snap-election winner. Cory issued Proclamation 1 announcing she and VP Laurel were taking power, then Proclamation 3 stating that the 'new government was installed through a direct exercise of the power of the Filipino people assisted by units of the New Armed Forces of the Philippines.' She did not ascend via the snap election or the 1973 Constitution. The Cory-era Supreme Court -- composed of her appointees -- summarily concluded in Lawyers League vs Aquino (May 22, 1986) that the legitimacy of her government was not a 'justiciable' controversy; nonetheless, popular acceptance and international recognition made it a de jure government. By contrast, in Estrada vs Desierto (March 2, 2001), an SC with mostly non-Cory appointees affirmed the legitimacy of her ascent -- and rejected Arroyo's lawyers' attempt to invoke the same 'political thicket' defense. The Court held that political questions relate to matters of 'wisdom, not the legality,' delegated by the people to the executive or legislative branch; the 1987 Constitution, unlike its forebears, had trimmed the political thicket by giving the judiciary expanded duties: determining grave abuse of discretion by any branch of government, and reviewing the factual basis of martial law or habeas corpus suspension. The Court distinguished Edsa 1 as 'an exercise of the people power of revolution which overthrew the whole government' from Edsa 2 as 'an exercise of people power of freedom of speech and freedom of assembly to petition the government for redress of grievances which only affected the office of the President' -- Edsa 1 extra-constitutional, Edsa 2 intra-constitutional and subject to judicial review. In other words, Edsa 1 obliterated the 1973 Constitution and all the government institutions under it (including the SC itself), which is why its legitimacy was repeatedly challenged through coup attempts until the people ratified the 1987 Constitution; Edsa 2 preserved the 1987 Charter and its institutions. This is why Estrada vs Desierto explained Edsa 2's constitutionality at length while Lawyers League vs Aquino is notable for its sheer brevity. Sadly for Arroyo, her public satisfaction plunged after her 2004 electoral victory was severely questioned and her governance vilified as corrupt and ineffective. In both revolutions the Church played a pivotal role -- and a 'little-known but serious internal conflict, involving Cardinal Sin and the Vatican, nearly blurred that role,' which Panganiban promises to write about at another time (the column that becomes C89).",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

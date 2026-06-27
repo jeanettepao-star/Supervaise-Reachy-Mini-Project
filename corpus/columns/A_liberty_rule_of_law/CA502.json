@@ -1,0 +1,123 @@
+{
+  "id": "CA502",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 502,
+  "title": "Preparing SALNs",
+  "date": "2012-04-28",
+  "link": "https://opinion.inquirer.net/27723/preparing-salns",
+  "keywords": [
+    "SALN filing",
+    "acquisition cost",
+    "market value",
+    "assessed value",
+    "RA 3019",
+    "RA 6713",
+    "Ombudsman powers",
+    "public accountability"
+  ],
+  "primary_topics": [
+    "Practical guide to filling out the SALN form -- prompted by the Corona impeachment trial questions about declaration requirements",
+    "The proper value to declare for real properties: acquisition cost (not market or assessed value) as the anti-graft law benchmark",
+    "The legal consequences of incomplete, inaccurate, or untruthful SALN declarations -- administrative, criminal, and civil sanctions"
+  ],
+  "sub_topics": [
+    "April 30, 2012 deadline for all public officials and employees to file SALNs -- required by Constitution, Anti-Graft Law (RA 3019) and Ethical Standards Law (RA 6713)",
+    "SALN form prescribed by the Civil Service Commission (CSC) since 1994: two-page, back-to-back",
+    "Three real estate values required: assessed value, current fair market value, and acquisition cost",
+    "Republic v. Sandiganbayan (Jan. 30, 2002, CJ Davide): acquisition cost, not market or assessed value, is used in computing ill-gotten wealth under RA 1379",
+    "Acquisition cost: amount stated in deed of sale; improvement costs require honest, educated good-faith estimate",
+    "Assessed and market values: city/provincial assessors assessment acceptable; honest errors in approximation should not constitute SALN falsification",
+    "Personal and other properties: three columns (kind, year acquired, acquisition cost) from invoices and receipts",
+    "Motor vehicles must be declared: Flores v. Montemayor (June 8, 2011) -- employee dismissed for omitting two expensive cars",
+    "Business interests and financial connections (backside): Rabe v. Flores (May 14, 1997) -- employee dismissed with forfeiture for failing to disclose a market stall",
+    "Ombudsman v. Valeroso (Apr. 2, 2007): SALN requires true, detailed and sworn declaration; valid check and balance mechanism to verify undisclosed properties",
+    "Consequences of failure: administrative (reprimand, fine, suspension, dismissal, forfeiture, permanent ban); criminal (perjury, falsification, RA 3019/RA 6713 -- imprisonment or fine); civil (forfeiture of manifestly disproportionate properties)",
+    "OMB constitutional mandate and RA 6770 to investigate and initiate recovery of ill-gotten wealth; for impeachable officials, may file verified impeachment complaint"
+  ],
+  "signature_phrases": [
+    "Tomorrow, April 30, is the last day for all public officials and employees to file their statement of assets, liabilities and net worth (SALN)",
+    "many government workers are still at a loss on how to fill out the two-page, back-to-back SALN form",
+    "the acquisition cost, not the market or assessed value, should be used in computing whether public functionaries had amassed ill-gotten wealth",
+    "An honest, educated estimate made in good faith should suffice",
+    "I do not think employees should be accused of falsifying their SALNs simply because they made honest errors in approximating market values",
+    "SALN is a valid check and balance mechanism to verify undisclosed properties and wealth",
+    "complete, accurate and truthful declarations are required"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "CJ Hilario G. Davide Jr. (ponente of Republic v. Sandiganbayan 2002)"
+    ],
+    "institutions": [
+      "Civil Service Commission (CSC)",
+      "Office of the Ombudsman (OMB)",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "Republic v. Sandiganbayan (Jan. 30, 2002, CJ Davide) -- acquisition cost as anti-graft benchmark",
+      "Flores v. Montemayor (June 8, 2011) -- dismissal for omitting two cars",
+      "Rabe v. Flores (May 14, 1997) -- dismissal for failing to disclose market stall",
+      "Ombudsman v. Valeroso (Apr. 2, 2007) -- SALN as valid check and balance"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- SALN requirement",
+      "Republic Act No. 3019 (Anti-Graft Law)",
+      "Republic Act No. 6713 (Ethical Standards Law)",
+      "Republic Act No. 1379 (Unexplained Wealth Law)",
+      "Republic Act No. 6770 (Ombudsman Act of 1989)"
+    ],
+    "events": [
+      "April 30, 2012 SALN filing deadline",
+      "Corona impeachment trial raising SALN filing questions"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Acquisition cost -- not market or assessed value -- is the legally correct basis for determining whether a public official has amassed ill-gotten wealth disproportionate to lawful income, as held by the SC in Republic v. Sandiganbayan (2002).",
+      "rhetorical_move": "doctrinal-clarification of the legally correct SALN value to declare",
+      "confidence": "asserted with SC citation"
+    },
+    {
+      "claim": "Honest errors in approximating market values should not constitute SALN falsification because anti-graft laws are focused on acquisition cost, not market value.",
+      "rhetorical_move": "good-faith-estimate defense against over-zealous prosecution of SALN declarants",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The SALN is a valid check and balance mechanism requiring true, detailed and sworn declarations; incomplete, inaccurate, or untruthful declarations may subject the declarant to administrative, criminal, and civil penalties.",
+      "rhetorical_move": "public-accountability-mechanism framing with consequence enumeration",
+      "confidence": "asserted with SC citation"
+    }
+  ],
+  "notable_anecdotes": [
+    "The timing: April 30, 2012 SALN deadline for all public officials -- making this a timely practical guide prompted by the Corona impeachment trial public education effect.",
+    "The Rabe v. Flores case: an employee dismissed with forfeiture of all benefits for failing to disclose a single market stall -- illustrating that even minor undisclosed interests can produce severe consequences.",
+    "The Flores v. Montemayor case: dismissal for omitting two expensive cars -- motor vehicles must be declared under personal and other properties, sourced from invoices or sales receipts."
+  ],
+  "target_audience": [
+    "All public officials and employees facing the April 30 SALN deadline",
+    "Government personnel offices and CSC officials",
+    "Legal practitioners advising public sector clients on SALN compliance",
+    "Civic readers educated by the Corona trial about the SALN requirements"
+  ],
+  "register_markers": [
+    "practical-guide register (how-to for SALN filers)",
+    "SALN-deadline-as-opening-hook (tomorrow, April 30)",
+    "doctrinal-clarification with SC case citations",
+    "good-faith-estimate defense against over-prosecution",
+    "consequence-enumeration (administrative, criminal, civil) as deterrence framing",
+    "CSC-advice incorporation (fill all spaces; put N.A. if not applicable)",
+    "OMB mandate as the enforcement closing"
+  ],
+  "decision_framework_signals": [
+    "applies acquisition-cost-as-anti-graft-benchmark to resolve the SALN valuation question",
+    "uses good-faith-estimate defense to calibrate appropriate prosecution standards",
+    "treats SALN as a public-accountability-mechanism requiring completeness",
+    "applies three-category-consequence framework (administrative, criminal, civil) to motivate compliance",
+    "deploys OMB mandate as the ultimate enforcement authority over SALN violations"
+  ],
+  "one_paragraph_summary": "Panganiban writes on the eve of the April 30, 2012 SALN filing deadline for all public officials and employees, providing a practical guide to filling out the two-page Civil Service Commission form -- prompted by the Corona impeachment trial's public education effect on SALN requirements. He clarifies the most contested issue: the SALN form requires three real estate values (assessed, current fair market, and acquisition cost), but acquisition cost -- not market or assessed value -- is the legally correct basis for determining whether a public official has amassed ill-gotten wealth, as held by the SC in Republic v. Sandiganbayan (January 30, 2002, CJ Davide). Acquisition cost is the amount in the deed of sale; improvement costs require an honest good-faith estimate; honest errors in approximating market values should not constitute falsification. For personal properties, invoices and receipts provide the data; motor vehicles must be declared (Flores v. Montemayor, 2011 -- dismissal for omitting two cars). Business interests and financial connections must also be declared (Rabe v. Flores, 1997 -- dismissal for failing to disclose a market stall). The SC in Ombudsman v. Valeroso (2007) described the SALN as 'a valid check and balance mechanism to verify undisclosed properties and wealth.' Failure to file complete, accurate, and truthful SALNs may subject the declarant to administrative sanctions (reprimand to dismissal plus forfeiture and permanent ban), criminal liability, and civil forfeiture of properties manifestly disproportionate to legitimate income -- all enforced primarily by the OMB.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

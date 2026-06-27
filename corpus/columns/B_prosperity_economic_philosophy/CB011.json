@@ -1,0 +1,123 @@
+{
+  "id": "CB011",
+  "format": "C",
+  "type": "column",
+  "theme": "B",
+  "theme_label": "Prosperity and Economic Philosophy",
+  "number": 11,
+  "title": "Enforcing rights to prosperity",
+  "date": "2018-09-16",
+  "link": "https://opinion.inquirer.net/116104/enforcing-rights-prosperity",
+  "keywords": [
+    "economic rights",
+    "political rights",
+    "writ of amparo",
+    "tutelage action",
+    "Dean Festin",
+    "interdependence principle",
+    "self-executory rights",
+    "liberty and prosperity"
+  ],
+  "primary_topics": [
+    "The dichotomy between self-executory political/civil rights and non-self-executory economic/social rights",
+    "Dean Festin's proposal to import the 'principle of tutelage action' from Colombia to enforce economic rights",
+    "CJ's call to bring the proposal to PALS for vetting and elevation to the SC as the 'writ of prosperity'"
+  ],
+  "sub_topics": [
+    "Positive vs negative language in constitutional rights: economic rights need enabling legislation; liberty rights bar government action directly",
+    "Economic rights scattered across 1987 Constitution: Art. II, Art. III, Art. XIII, Art. XIV, Art. XV",
+    "Economic rights also in UN Charter, UDHR, International Covenant on Economic, Social and Cultural Rights",
+    "Historical explanation: 'Give me liberty or give me death' as the founding era battle cry",
+    "Modern opinion polls: poverty alleviation, job creation, price reduction as top concerns",
+    "Dean Festin's 'principle of tutelage action' from Colombia",
+    "SC's rule-making power under Art. VIII Sec. 5 par. 5 as constitutional basis",
+    "Analogy: Court transplanted Mexico's 'writ of amparo' for enforced disappearances/extrajudicial killings",
+    "Interdependence principle: economic rights encompassed within the right to life",
+    "Government of Hong Kong v. Olalia (April 19, 2007): UDHR as generally accepted principles of international law",
+    "CJ's suggestion: bring thesis to PALS for vetting, then elevate to SC for 'writ of prosperity'"
+  ],
+  "signature_phrases": [
+    "since my student days to my professional life and throughout my years in the Supreme Court up to the present, I have always championed 'liberty and prosperity under the rule of law'",
+    "Freedom and food, justice and jobs, liberty and prosperity must always be together: One is useless without the other",
+    "those of prosperity... are not self-executory",
+    "Give me liberty or give me death",
+    "our people are more focused on their economic needs and wants",
+    "economic rights [are] encompassed within the larger sphere of the people's right to life",
+    "The Universal Declaration of Human Rights [constitutes] generally accepted principles of international law",
+    "the possible promulgation of the 'writ of prosperity'"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Dean Gemy Lito L. Festin (PUP law dean; holder of CJ Panganiban Professorial Chair on Liberty and Prosperity)"
+    ],
+    "institutions": [
+      "Polytechnic University of the Philippines (PUP)",
+      "Supreme Court of the Philippines",
+      "Philippine Association of Law Schools (PALS)",
+      "Foundation for Liberty and Prosperity"
+    ],
+    "cases": [
+      "Government of Hong Kong v. Olalia (April 19, 2007) -- UDHR as generally accepted principles of international law"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- Art. II, Art. III, Art. XIII, Art. XIV, Art. XV (economic rights)",
+      "1987 Constitution -- Art. VIII Sec. 5 par. 5 (SC rule-making power)",
+      "UN Charter",
+      "Universal Declaration of Human Rights (UDHR)",
+      "International Covenant on Economic, Social and Cultural Rights"
+    ],
+    "events": [
+      "Dean Festin's seminal lecture proposing tutelage action",
+      "CJ's suggestion to bring to PALS and then SC for writ promulgation"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Liberty and prosperity are equally important and mutually necessary -- 'one is useless without the other' -- making the enforceability dichotomy (self-executory liberty rights vs non-self-executory economic rights) a structural injustice demanding correction.",
+      "rhetorical_move": "equal-importance-of-both-pillars framing making the gap a normative problem",
+      "confidence": "asserted as lifelong conviction"
+    },
+    {
+      "claim": "The SC can use its rule-making power under Art. VIII Sec. 5 par. 5 to promulgate a writ of prosperity -- justified by the interdependence principle (economic rights within the right to life) and by the UDHR's status as generally accepted principles of international law.",
+      "rhetorical_move": "two-basis argument (interdependence + UDHR) for rule-making legitimacy",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Colombian 'tutelage action' and the Mexican 'writ of amparo' (already transplanted to PH for enforced disappearances) are models proving that judicial rule-making can enforce rights that would otherwise remain unenforceable -- making the writ of prosperity a proven transplant, not a novel experiment.",
+      "rhetorical_move": "proven-transplant framing (writ of amparo as successful precedent)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's lifelong personal declaration -- 'since my student days to my professional life and throughout my years in the Supreme Court' -- framing liberty-and-prosperity as a lifelong commitment predating any institutional role.",
+    "The modern opinion polls showing poverty alleviation, job creation, and price reduction as top public concerns -- showing that the 'Give me liberty or give me death' era has yielded to 'Give me food, jobs, and affordable prices.'",
+    "Dean Festin's academic proposal elevated by CJ's column to an institutional pathway -- tracing how academic ideas become judicial writs through the PALS → SC promulgation channel."
+  ],
+  "target_audience": [
+    "SC justices considering whether to promulgate a writ of prosperity",
+    "PALS members and law school deans",
+    "Social justice advocates and constitutional law scholars",
+    "Civic readers concerned about poverty and economic inequality"
+  ],
+  "register_markers": [
+    "lifelong-conviction opening ('since my student days')",
+    "twin-pillar philosophical assertion ('Freedom and food, justice and jobs')",
+    "positive vs negative language dichotomy in constitutional rights analysis",
+    "historical-explanation register ('Give me liberty or give me death')",
+    "modern-opinion-poll anchor for popular economic concerns",
+    "proven-transplant framing (writ of amparo precedent)",
+    "'To be continued next Sunday' serialization marker",
+    "UDHR-as-domestic-law citation (Government of Hong Kong v. Olalia)",
+    "interdependence principle as rule-making legitimacy bridge"
+  ],
+  "decision_framework_signals": [
+    "uses equal-importance-of-both-pillars principle to frame enforceability gap as structural injustice",
+    "applies two-basis argument (interdependence + UDHR) for judicial rule-making legitimacy",
+    "treats successful transplant (writ of amparo) as proof-of-concept for new writ",
+    "routes academic proposal through PALS-vetting → SC-promulgation institutional channel",
+    "anchors international law sources (UDHR, ICESCR) in domestic constitutional doctrine"
+  ],
+  "one_paragraph_summary": "Panganiban opens by declaring his lifelong championship of 'liberty and prosperity under the rule of law,' asserting that freedom and food, justice and jobs must always go together -- one is useless without the other. He identifies the structural problem: political and civil rights are self-executory (courts can bar government from violating them without enabling legislation) while economic and social rights are non-self-executory (worded in positive language requiring legislative action). These economic rights are scattered across the 1987 Constitution (Art. II, III, XIII, XIV, XV) and in international instruments including the UDHR and the International Covenant on Economic, Social and Cultural Rights. Modern opinion polls show Filipinos now prioritize poverty alleviation, job creation, and price reduction over the founding era's liberty-dominated concerns. The solution is offered by Dean Gemy Lito Festin (PUP law dean, holder of a CJ Panganiban Professorial Chair): importing the Colombian 'principle of tutelage action' to enforce economic rights via judicial rule-making, justified by (1) the interdependence principle -- economic rights encompassed within the right to life -- and (2) Government of Hong Kong v. Olalia (April 19, 2007), establishing the UDHR as generally accepted principles of international law. The SC has used its rule-making power before -- transplanting Mexico's writ of amparo for enforced disappearances and promulgating environmental rules. CJ suggests bringing Dean Festin's thesis to PALS for vetting and then elevating to the SC for the possible promulgation of the 'writ of prosperity.' To be continued next Sunday.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

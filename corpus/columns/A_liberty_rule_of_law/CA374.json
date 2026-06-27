@@ -1,0 +1,178 @@
+{
+  "id": "CA374",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 374,
+  "title": "Update on PDAF cases of 3 senators",
+  "date": "2015-08-09",
+  "link": "https://opinion.inquirer.net/87445/update-on-pdaf-cases-of-3-senators",
+  "keywords": [
+    "PDAF scam",
+    "three senators",
+    "Enrile bail",
+    "Revilla bail",
+    "Jinggoy Estrada",
+    "pork barrel",
+    "Ombudsman",
+    "Sandiganbayan",
+    "daang matuwid"
+  ],
+  "primary_topics": [
+    "PDAF cases status update for three senators (Estrada, Revilla, Enrile) as second in series -- Maguindanao prior, GMA next",
+    "Three major battles framework for capital-offense accused: probable cause, bail, acquittal",
+    "Estrada Fifth Division -- probable cause upheld; bail hearings Mon/Wed/Fri; AMLC, Benhur Luy, and PNP Custodial Center transfer petitions",
+    "Revilla First Division -- probable cause challenge dismissed; bail denied Dec 1 2014; MR denied March 26 2015; Sept 30 pretrial; OOO Camp Bagong Diwa transfer attempt",
+    "Enrile Third Division -- proactive Mendoza/Reyes two-petition strategy: bill of particulars and constitutional bail",
+    "Reclusion-perpetua mitigation: over-70 + voluntary surrender",
+    "Interlocutory orders challenged by certiorari to the SC",
+    "Will-not-be-decided-by-June-30-2016 prediction"
+  ],
+  "sub_topics": [
+    "PNoy's Sona pointed to PDAF cases as among the daang matuwid achievements alongside Maguindanao, GMA, and Corona ouster",
+    "DOJ preliminary investigation + OOO probable cause finding + separate informations raffled to three SBN divisions",
+    "Revilla → First Division; Enrile → Third Division; Estrada → Fifth Division",
+    "Three battles for capital-offense accused: (1) stop arrest warrants on lack of probable cause, (2) bail because evidence not 'strong,' (3) acquittal because guilt not proven beyond reasonable doubt",
+    "Interlocutory orders by SBN challenged via certiorari to SC",
+    "Estrada: SC upheld probable cause; SBN bail hearings Mon/Wed/Fri",
+    "Estrada three SC petitions: (1) Estrada to exclude AMLC bank transactions, (2) Estrada to suppress Benhur Luy cash/check reports and testimony, (3) OOO contesting SBN's refusal to transfer Estrada from PNP Custodial Center to Camp Bagong Diwa",
+    "Revilla: probable-cause certiorari dismissed by SC; bail fully heard then denied Dec 1, 2014; MR denied March 26, 2015",
+    "Revilla pretrial set Sept 30; no trial-on-merits schedule yet",
+    "Revilla three SC petitions: (1) Revilla on OOO probable cause finding, (2) Revilla on SBN denial of bail, (3) OOO seeking transfer from PNP Custodial Center to Camp Bagong Diwa",
+    "Enrile two-petition strategy via Estelito Mendoza and Eleazar Reyes",
+    "First petition: plunder Information invalid for failure to allege specific facts enabling defense preparation",
+    "Second petition: Constitution guarantees bail except (1) evidence of guilt strong AND (2) penalty is reclusion perpetua/life -- current procedure of immediate detention without bail prior to strong-evidence ruling is illogical and unconstitutional",
+    "Reclusion-perpetua-inapplicability argument: even if convicted of plunder, two mitigating circumstances (over-70 and voluntary surrender) should reduce penalty",
+    "SC to resolve Enrile petitions soon; victory in any one may free him",
+    "Final-paragraph prediction: trial on merits has not even begun for any of the three; cases cannot be decided by June 30, 2016"
+  ],
+  "signature_phrases": [
+    "three major battles",
+    "in my humble view (implied)",
+    "interlocutory orders",
+    "evidence of guilt is strong",
+    "beyond reasonable doubt",
+    "trial on the merits has not even begun"
+  ],
+  "entities": {
+    "people": [
+      "President Benigno S. Aquino III (PNoy)",
+      "Sen. Jose 'Jinggoy' Estrada",
+      "Sen. Ramon 'Bong' Revilla Jr.",
+      "Sen. Juan Ponce Enrile",
+      "Atty. Estelito Mendoza (Enrile counsel)",
+      "Atty. Eleazar Reyes (Enrile counsel)",
+      "Benhur Luy (Estrada PDAF whistleblower)",
+      "Former President Gloria Macapagal-Arroyo (referenced; GMA cases for next column)",
+      "Former Chief Justice Renato C. Corona (referenced; ouster cited in Sona)"
+    ],
+    "institutions": [
+      "Sandiganbayan Fifth Division (Estrada)",
+      "Sandiganbayan Third Division (Enrile)",
+      "Sandiganbayan First Division (Revilla)",
+      "Supreme Court of the Philippines",
+      "Department of Justice",
+      "Office of the Ombudsman (OOO)",
+      "Anti-Money Laundering Council (AMLC)",
+      "PNP Custodial Center",
+      "Camp Bagong Diwa (Taguig)"
+    ],
+    "cases": [
+      "Estrada PDAF plunder and graft case (SBN Fifth Division)",
+      "Enrile PDAF plunder and graft case (SBN Third Division)",
+      "Revilla PDAF plunder and graft case (SBN First Division)"
+    ],
+    "laws_treaties": [
+      "Anti-Plunder Law (RA 7080)",
+      "1987 Constitution -- bail provisions for capital offenses",
+      "1987 Constitution -- right to be informed (bill-of-particulars basis)",
+      "Revised Penal Code -- reclusion perpetua and mitigating circumstances (over-70, voluntary surrender)",
+      "Rules on certiorari for interlocutory orders"
+    ],
+    "events": [
+      "PNoy's last Sona",
+      "Dec 1, 2014 -- Revilla bail denial",
+      "March 26, 2015 -- Revilla MR denial",
+      "Sept 30, 2015 -- Revilla pretrial date",
+      "Ongoing Estrada bail hearings Mon/Wed/Fri"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "When charged with capital offenses, accused usually launch three major battles to win their freedom: (1) stop arrest warrants on lack of probable cause, (2) win bail because prosecution evidence is not 'strong,' (3) win acquittal because evidence failed to prove guilt 'beyond reasonable doubt'",
+      "rhetorical_move": "analytical-framework introduction",
+      "confidence": "high"
+    },
+    {
+      "claim": "Estrada's probable-cause challenge was upheld by the SC at the SBN's interlocutory-order stage; the SBN is now conducting bail hearings every Monday, Wednesday and Friday to determine the 'strength' of the prosecution's evidence -- meanwhile three certiorari petitions are pending in the SC",
+      "rhetorical_move": "multi-front-status summary for Estrada",
+      "confidence": "high"
+    },
+    {
+      "claim": "Revilla's probable-cause certiorari was dismissed by the SC; his application for bail was fully heard and denied Dec 1, 2014; MR denied March 26, 2015; pretrial set Sept 30 -- three SC petitions remain pending; proceedings are in a more advanced stage than Estrada's",
+      "rhetorical_move": "factual-status summary for Revilla with comparative-pace observation",
+      "confidence": "high"
+    },
+    {
+      "claim": "Enrile is taking a more proactive stance via Mendoza/Reyes with two SC petitions: first arguing the Information is invalid for failing to allege specific facts enabling defense preparation; second contending the Constitution guarantees bail at all times except when both (1) evidence of guilt is strong and (2) penalty is reclusion perpetua/life imprisonment",
+      "rhetorical_move": "two-pronged-strategy exposition",
+      "confidence": "high"
+    },
+    {
+      "claim": "Enrile contends the present procedure of immediately detaining the accused without bail prior to the court's ruling that evidence is 'strong' is illogical and unconstitutional -- until the prosecution proves its evidence is strong, the accused cannot be detained",
+      "rhetorical_move": "constitutional-architecture argument summary",
+      "confidence": "high"
+    },
+    {
+      "claim": "Even if convicted of plunder, Enrile argues that reclusion perpetua cannot be imposed because he should be credited with two mitigating circumstances: old age (over 70 years) and voluntary surrender -- and the SC will resolve these petitions soon; victory in any one may free him from detention",
+      "rhetorical_move": "alternative-relief argument with prediction",
+      "confidence": "high"
+    },
+    {
+      "claim": "Given that trial on the merits has not even begun for any of the three senators, these plunder and graft cases cannot be decided during PNoy's term ending June 30, 2016",
+      "rhetorical_move": "will-not-resolve prediction as analytic conclusion",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "SBN raffle split: Estrada to Fifth, Enrile to Third, Revilla to First Division",
+    "Estrada bail hearings on a strict Mon/Wed/Fri schedule",
+    "Three Estrada certiorari petitions: AMLC bank transactions, Benhur Luy reports, and OOO transfer to Camp Bagong Diwa",
+    "Revilla as procedurally furthest along -- bail denied Dec 1 2014; MR denied March 26 2015",
+    "Enrile's two-counsel strategy via Mendoza and Reyes",
+    "Reclusion-perpetua-mitigation argument: over-70 + voluntary surrender",
+    "Closing prediction: trial on merits has not even begun for any of the three"
+  ],
+  "target_audience": [
+    "Inquirer readership tracking the PDAF senators",
+    "Lawyers and SBN practitioners on capital-offense mechanics",
+    "Anti-corruption advocates",
+    "PNoy administration officials and supporters",
+    "Future-president watchers for daang matuwid durability",
+    "Constitutional-law students on the bail clause"
+  ],
+  "register_markers": [
+    "three-battles analytical framework",
+    "factual-status summaries per senator",
+    "comparative-pace observation (Revilla furthest along)",
+    "constitutional-architecture argument summary (Enrile)",
+    "two-counsel two-petition strategy framing (Enrile)",
+    "will-not-resolve prediction as close",
+    "ALL-CAPS sentence-start convention ('IN HIS last Sona')",
+    "Sona-citation framing"
+  ],
+  "decision_framework_signals": [
+    "Three-battles framework: probable cause → bail → acquittal",
+    "Interlocutory-order-certiorari procedural path",
+    "'Not strong' evidence standard for bail",
+    "'Beyond reasonable doubt' standard for conviction",
+    "Bill-of-particulars right to specific information",
+    "Constitutional-bail-default with two-exception test (strong evidence + reclusion perpetua)",
+    "Reclusion-perpetua-mitigation: over-70 + voluntary surrender",
+    "Multi-front-litigation analysis per accused",
+    "Will-not-resolve-by-end-of-presidential-term prediction"
+  ],
+  "one_paragraph_summary": "Panganiban delivers the second of a three-column series on PNoy's Sona-cited daang matuwid achievements -- focusing on the PDAF (Priority Development Assistance Fund) cases against Senators Jinggoy Estrada, Bong Revilla, and Juan Ponce Enrile. After DOJ preliminary investigation and OOO probable-cause findings, separate Informations were filed and raffled to three different Sandiganbayan divisions: the First Division for Revilla, the Third for Enrile, the Fifth for Estrada. When charged with capital offenses, accused usually launch three major battles to win their freedom: (1) an initial battle to stop the court from issuing warrants of arrest and detention on the ground that the Information and supporting documents do not show 'probable cause'; (2) an ensuing fight for bail on the ground that the prosecution's evidence is not 'strong'; and (3) a final battle for acquittal on the ground that evidence failed to prove guilt 'beyond reasonable doubt.' Interlocutory orders along the way are often challenged via certiorari petitions in the SC. Estrada: the Fifth Division found probable cause; the SC upheld it; the SBN is now conducting bail hearings every Monday, Wednesday, and Friday. Three certiorari petitions are pending -- two by Estrada (to exclude alleged AMLC-reported bank transactions, and to suppress Benhur Luy's cash/check reports and testimony) and one by the OOO (contesting the SBN's refusal to transfer Estrada from the PNP Custodial Center to Camp Bagong Diwa in Taguig). Revilla: probable-cause certiorari dismissed by the SC; SBN fully heard and denied bail Dec 1, 2014; MR denied March 26, 2015; pretrial set Sept 30 -- proceedings in a more advanced stage than Estrada's. Three SC petitions pending: two by Revilla (probable cause and bail denial) and one by the OOO (transfer to Camp Bagong Diwa). Enrile, taking a more proactive stance via counsels Estelito Mendoza and Eleazar Reyes, is challenging the usual procedure with two SC certiorari petitions. First: the Information for plunder filed by the OOO is invalid because it did not allege enough specific facts to enable him to prepare his defense (bill of particulars). Second: the Constitution guarantees bail to the accused at all times -- the only exception being when (1) the evidence of guilt is strong AND (2) the penalty prescribed is reclusion perpetua or life imprisonment. Until the prosecution proves its evidence is 'strong,' the accused cannot be detained; the present procedure of immediately detaining accused prior to that ruling is illogical and unconstitutional. He further argues that even if convicted, reclusion perpetua cannot be imposed because he should be credited with two mitigating circumstances: old age (over 70 years) and voluntary surrender. The SC will resolve these petitions soon; should Enrile win any of them, he may be freed from detention. In sum, given that trial on the merits has not even begun for any of the three senators, these plunder and graft cases cannot be decided during PNoy's term, which ends on June 30, 2016.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

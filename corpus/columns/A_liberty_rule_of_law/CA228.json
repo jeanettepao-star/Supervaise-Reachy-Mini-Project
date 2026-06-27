@@ -1,0 +1,143 @@
+{
+  "id": "CA228",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 228,
+  "title": "CJ Peralta to eliminate SC's backlog",
+  "date": "2020-01-12",
+  "link": "https://opinion.inquirer.net/126553/cj-peralta-to-eliminate-scs-backlog",
+  "keywords": [
+    "Supreme Court backlog",
+    "CJ Peralta",
+    "Operation Zero Backlog",
+    "minute resolutions",
+    "judicial reform"
+  ],
+  "primary_topics": [
+    "CJ Peralta's 10-point program centered on swift, efficient, fair justice",
+    "SC's institutional backlog crisis (14,491 cases in 2016 docket)",
+    "Panganiban's own 'Operation Zero Backlog' during his CJ term (2005-2006)",
+    "The 2007 'Internal Policy to Achieve and Maintain Zero Backlog' and why it failed",
+    "Estelito Mendoza's 12/5/2019 letter on Republic v. Lucio C. Tan as constitutional-deadline violation"
+  ],
+  "sub_topics": [
+    "SC's 2016 stats: 6,526 new cases received, only 1,028 decided (105 En Banc + 923 Divisions)",
+    "Each of 15 justices carried ~966 case backlog + 400 new cases annually",
+    "Panganiban's 'judicial bayanihan' -- pool of old cases voluntarily picked up by light-load justices",
+    "Footnote disclosure technique -- citing pool-pickup so ponente isn't tagged a laggard",
+    "Panganiban-era reduction: backlog down to ~200 cases by Dec 7, 2006",
+    "July 31, 2007 plan premised on 1,000 signed decisions/year capacity ceiling",
+    "Plan's four criteria for minute-resolution dismissal: not novel, reiterate settled doctrine, factual questions, no grave abuse",
+    "Monitoring assignments -- Clerk of Court (Banc), Deputy Clerks (3 Divisions), judicial staff heads (per justice)",
+    "Why the plan failed: 8,741 cases (Jan 2007) ballooned to 14,491 (Dec 2016); retiring justices left backlogs to successors who didn't know the plan",
+    "Plan was promulgated 'not for release' -- succession ignorance baked in",
+    "Estelito Mendoza's complaint: Republic v. Lucio C. Tan (GR 203592) unresolved in violation of constitutional deadline"
+  ],
+  "signature_phrases": [
+    "ushered 2020 with a resounding plea for support",
+    "swift, efficient, fair and responsive justice for all",
+    "geared towards providing",
+    "Worded simply and clearly, his program dives deep",
+    "festering problems of delivering speedy justice",
+    "judicial 'bayanihan'",
+    "Operation Zero Backlog",
+    "INTERNAL POLICY TO ACHIEVE AND MAINTAIN A ZERO BACKLOG",
+    "Though the plan, in my humble opinion, was viable",
+    "the plan was not implemented properly",
+    "Having been a CJ myself, I sympathize with and support",
+    "doable and transparent plan to rally the full cooperation of his colleagues",
+    "super lawyer Estelito P. Mendoza"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (former CJ, columnist, author of Operation Zero Backlog)",
+      "CJ Diosdado M. Peralta (incumbent CJ, 10-point program author)",
+      "Estelito P. Mendoza ('super lawyer'; complaining counsel in Republic v. Tan)",
+      "Lucio C. Tan (subject of unresolved petition)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (En Banc + 3 Divisions of 15 justices)",
+      "Office of the Clerk of Court (Banc)",
+      "Three Deputy Clerks of Court (one per Division)",
+      "Judicial staffs of individual justices"
+    ],
+    "cases": [
+      "Gio-Samar v. DOTC (March 12, 2019) -- source of 2016 backlog stats (6,526 new cases, 14,491 docket)",
+      "Republic v. Lucio C. Tan (GR 203592) -- Mendoza's complaint case, unresolved"
+    ],
+    "laws_treaties": [
+      "Constitution of the Philippines -- 24-month decision deadline at issue",
+      "SC Resolution dated July 31, 2007 -- Internal Policy to Achieve and Maintain a Zero Backlog ('not for release')"
+    ],
+    "events": [
+      "Dec 7, 2006 -- end of Panganiban's CJ term (Operation Zero Backlog reached ~200)",
+      "July 31, 2007 -- adoption of the failed zero-backlog plan",
+      "Dec 31, 2016 -- docket peaked at 14,491 cases",
+      "Dec 5, 2019 -- Mendoza letter to CJ Peralta"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "CJ Peralta's 10-point program is well-conceived but Peralta would be acclaimed even for just achieving its first goal -- elimination of SC and lower-court backlog -- because that single achievement addresses the festering core of speedy-justice failure.",
+      "rhetorical_move": "single-goal-as-legacy framing (collapsing a 10-point program into one acclaim-conferring achievement)",
+      "confidence": "asserted as endorsement"
+    },
+    {
+      "claim": "The 2016 SC stats -- 6,526 new cases received but only 1,028 decided (a 6:1 ratio) -- and a 14,491-case docket are a damning failure of institutional output, with each of 15 justices carrying ~966 old cases plus 400 new ones.",
+      "rhetorical_move": "stats-as-indictment, with explicit ratio framing",
+      "confidence": "asserted (citing case)"
+    },
+    {
+      "claim": "His own 'Operation Zero Backlog' -- a judicial bayanihan with voluntary pool-pickup and footnote disclosure to protect ponente reputation -- worked, reducing the backlog to about 200 by his retirement; it was a viable model that was abandoned.",
+      "rhetorical_move": "personal-precedent vindication (his model worked when followed)",
+      "confidence": "asserted with modesty marker"
+    },
+    {
+      "claim": "The July 31, 2007 successor plan was viable in design ('in my humble opinion') but failed because it was promulgated 'not for release,' meaning incoming justices never learned of it, and retiring justices left their backlogs uncleared.",
+      "rhetorical_move": "design-versus-implementation diagnosis (the plan didn't fail, its execution did)",
+      "confidence": "asserted with humility marker"
+    },
+    {
+      "claim": "What Peralta needs is not another plan but a doable and transparent one that rallies the full cooperation of his colleagues -- implying the missing ingredient is collective commitment, not procedural design.",
+      "rhetorical_move": "prescriptive-conditional support (endorsement contingent on transparency/commitment)",
+      "confidence": "asserted as guidance"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 'judicial bayanihan' coinage -- CJ's framing of Operation Zero Backlog as a Filipino communal labor tradition transposed into the SC, with light-load justices voluntarily picking cases from a common pool, and the footnote disclosure protecting the ponente from the laggard charge.",
+    "The '6:1 ratio' arithmetic: 6,526 cases in vs 1,028 decided in 2016 -- used as a one-line indictment of post-2006 SC output.",
+    "Estelito P. Mendoza's 12/5/2019 letter on Republic v. Lucio C. Tan -- a 'super lawyer' writing publicly to invoke the constitutional 24-month deadline, used by CJ as evidence that the backlog problem is now drawing complaint from the bar's top echelon.",
+    "The 'not for release' designation on the 2007 plan -- CJ's quiet diagnosis that the procedural secrecy itself caused the succession-ignorance that doomed implementation.",
+    "Panganiban-era figure: backlog reduced to ~200 cases by Dec 7, 2006 -- offered as living proof that institutional backlog is tractable."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Supreme Court justices (especially the incumbent En Banc)",
+    "Lawyers tracking SC delays",
+    "Court reform advocates",
+    "Constitutional-deadline scholars",
+    "Estelito Mendoza and other litigants with pending long-delayed cases"
+  ],
+  "register_markers": [
+    "Doctrinal-administrative register with reformer-personal interjections",
+    "'in my humble opinion' as humility-marker on his own past plan endorsement",
+    "Self-quotation from CJ's own term ('Operation Zero Backlog,' 'judicial bayanihan')",
+    "'Having been a CJ myself, I sympathize with and support' -- peer-to-peer solidarity formula",
+    "Self-citation of own prior column (4/7/19) to demonstrate longitudinal tracking",
+    "Parenthetical statistical formulas ('(105+923)', '(6,000/15=400)') as evidence-in-text",
+    "Capitalized formal designation of the 2007 plan ('INTERNAL POLICY TO ACHIEVE AND MAINTAIN A ZERO BACKLOG')",
+    "Closing prescriptive guidance with 'doable and transparent' as the operative pairing"
+  ],
+  "decision_framework_signals": [
+    "uses ratio-arithmetic (received-to-decided) to convert backlog stats into institutional indictment",
+    "applies design-vs-implementation diagnosis to explain why apparently sound plans fail",
+    "treats institutional memory (whether successor justices know of a prior plan) as a critical implementation variable",
+    "deploys peer-solidarity formula ('Having been a CJ myself, I sympathize') to authorize CJ-to-CJ public advice",
+    "uses 'doable and transparent' as the canonical pairing for legitimately effective institutional plans",
+    "treats letters from senior bar counsel (Mendoza) as evidence-events that elevate the urgency of constitutional-deadline compliance"
+  ],
+  "one_paragraph_summary": "Panganiban opens 2020 endorsing CJ Diosdado Peralta's 10-point program and arguing that Peralta would be acclaimed for achieving just the first goal -- elimination of SC and lower-court backlog. He uses 2016 stats from Gio-Samar v. DOTC to indict post-2006 institutional output: 6,526 new cases received but only 1,028 decided (a 6:1 ratio), leaving a 14,491-case docket and giving each of 15 justices an average load of ~966 old cases plus ~400 new ones a year. He revisits his own term's 'Operation Zero Backlog,' a judicial 'bayanihan' in which light-load justices voluntarily picked cases from a shared pool, with a footnote disclosing the pool-pickup to protect the ponente from the laggard charge; by his retirement on Dec 7, 2006, the backlog had fallen to ~200. The successor plan -- the formal July 31, 2007 'Internal Policy to Achieve and Maintain a Zero Backlog' -- was, 'in my humble opinion,' viable in design but failed in implementation: promulgated 'not for release,' it never reached the incoming justices, and retiring justices simply left their backlogs to successors who did not even know the plan existed. By 2016 the docket had ballooned from 8,741 (Jan 2007) to 14,491. Now even super lawyer Estelito P. Mendoza has written CJ Peralta complaining that Republic v. Lucio C. Tan (GR 203592) remains unresolved in violation of the constitutional deadline. Panganiban -- speaking as a former CJ himself -- supports Peralta's effort and prescribes the missing ingredient: a 'doable and transparent' plan that rallies full collegial cooperation, not just procedural design.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

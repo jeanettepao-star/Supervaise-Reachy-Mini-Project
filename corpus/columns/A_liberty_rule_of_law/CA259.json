@@ -1,0 +1,120 @@
+{
+  "id": "CA259",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 259,
+  "title": "Lessons from the party-list fiasco",
+  "date": "2018-11-18",
+  "link": "https://opinion.inquirer.net/117535/lessons-from-the-party-list-fiasco",
+  "keywords": [
+    "party-list experiment",
+    "1987 Constitution",
+    "RA 7941",
+    "marginalized and underrepresented",
+    "constitutional reform",
+    "federalism",
+    "verba legis",
+    "rhetorical questions"
+  ],
+  "primary_topics": [
+    "Post-mortem of the party-list system as a failed constitutional experiment",
+    "Seven rhetorical questions on constitutional caution, comparative transplants, and institutional accountability",
+    "Warning against reckless charter change (federalism, multiple highest courts)"
+  ],
+  "sub_topics": [
+    "Framers' noble intent vs. textual scarcity in the 1987 Constitution on party-list",
+    "RA 7941's laudable aim hobbled by its own textual provisions (2% threshold, 3-seat limit)",
+    "SC's shift from liberal to literal (verba legis) interpretation post-Panganiban retirement",
+    "Scuttling of 'marginalized and underrepresented' doctrine via Atong Paglaum",
+    "Congress's failure to reform the law despite repeated SC calls",
+    "Cautionary comparison: party-list from parliamentary Germany transplanted to presidential Philippines",
+    "Parallel warning against importing federalism and multiple supreme courts from foreign models",
+    "Proposal for constitutional experiments to carry expiry clauses"
+  ],
+  "signature_phrases": [
+    "the imported system would be abused and result in further marginalizing the already marginalized and further empowering the already powerful",
+    "should we experiment at all with our Constitution?",
+    "just because it succeeded in parliamentary Germany, should we have expected the party-list to succeed also in presidential Philippines?",
+    "giving the experiment an expiry period of, say, 20 years",
+    "in the guise of verba legis",
+    "bastardization of an experiment so nobly conceived",
+    "readers can conjure and circulate their own"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Congress of the Philippines",
+      "Bangsamoro government",
+      "Presidential Consultative Committee",
+      "House of Representatives"
+    ],
+    "cases": [
+      "Ang Bagong Bayani v. Comelec (referenced)",
+      "Atong Paglaum v. Comelec (referenced)",
+      "Banat v. Comelec (referenced)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- party-list provisions (Art VI)",
+      "Republic Act No. 7941 (Party-List Law)"
+    ],
+    "events": [
+      "Party-list elections (multiple cycles)",
+      "Proposal for federalism and multiple highest courts by Presidential Consultative Committee"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The party-list experiment failed through three sequential institutional failures: framers left too much to Congress, Congress crafted self-contradicting textual provisions, and the SC shifted to verba legis post-Panganiban dismantling the marginalized-and-underrepresented safeguard.",
+      "rhetorical_move": "three-institutional-failure cascading blame",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Constitutional experiments should carry built-in expiry clauses of 20 years, after which they automatically end unless extended by amendment.",
+      "rhetorical_move": "sunset-clause proposal for constitutional experiments",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Federalism should not proceed before the Bangsamoro pilot is fully functioning -- applying experiment-verification-before-scaling.",
+      "rhetorical_move": "wait-for-pilot-before-scaling argument",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Replacing one SC with four highest courts modeled on authoritarian Russia is not a solution to clogged dockets.",
+      "rhetorical_move": "foreign-model-source-questioning (Russia as problematic precedent)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's self-disclosure that during his incumbency the SC liberally interpreted party-list provisions -- and after his retirement the Court turned textual and literal, scuttling the marginalized-and-underrepresented doctrine.",
+    "The rhetorical-question format itself as the column's structural device -- seven unanswered questions as civic Socratic method, inviting readers to 'conjure and circulate their own.'",
+    "The warning against importing federalism from the US, Canada, and Germany framed as the same reasoning error that produced the party-list fiasco."
+  ],
+  "target_audience": [
+    "Constitutional revision advocates and charter-change critics",
+    "Congress members and law academics studying party-list reform",
+    "Civic readers tracking federalism debates",
+    "SC observers and legal scholars"
+  ],
+  "register_markers": [
+    "rhetorical-question cascade as primary structural device (seven consecutive questions)",
+    "first-person institutional self-disclosure ('while I was still an incumbent')",
+    "cautionary-comparative-transplant framing (Germany → PH; Russia → PH)",
+    "'in the guise of verba legis' as critical legal-philosophy marker",
+    "nobility-of-intention concession before critique",
+    "civic-engagement closing ('readers can conjure and circulate their own')"
+  ],
+  "decision_framework_signals": [
+    "applies experiment-requires-safeguards principle to constitutional design",
+    "uses transplant-source-scrutiny test (parliamentary Germany ≠ presidential Philippines)",
+    "deploys pilot-before-scaling logic (Bangsamoro before full federalism)",
+    "treats verba legis vs liberal construction as dispositive interpretive choice",
+    "applies foreign-model-source-vetting (authoritarian Russia as disqualifying context)"
+  ],
+  "one_paragraph_summary": "Panganiban draws seven rhetorical lessons from the party-list fiasco, tracing how a nobly-conceived constitutional experiment collapsed through three sequential institutional failures: the framers left almost everything to Congress without safeguards; Congress enacted RA 7941 with textual provisions -- the 2-percent threshold, 3-seat limit -- that contradicted its own laudable aim; and the Supreme Court, after CJ Panganiban's retirement, abandoned the liberal 'marginalized and underrepresented' doctrine in favor of verba legis, allowing the rich, powerful, and dynasties to invade the party-list as a cheaper backdoor to Congress. He asks: Should constitutional experiments carry built-in expiry clauses of 20 years? Should parliamentary Germany's party-list be expected to succeed in presidential Philippines? Should federalism be imported before the Bangsamoro pilot is fully functioning? Should one SC be replaced with four courts modeled on authoritarian Russia? Should Congress have been more careful? Should it have responded to SC's calls for revision? Should the SC have continued its liberal interpretation? CJ leaves the questions unanswered, inviting readers to conjure and circulate their own.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,143 @@
+{
+  "id": "CA195",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 195,
+  "title": "Conundrums in attempts to oust Leonen",
+  "date": "2020-12-13",
+  "link": "https://opinion.inquirer.net/136116/conundrums-in-attempts-to-oust-leonen",
+  "keywords": [
+    "Marvic Leonen",
+    "impeachment",
+    "quo warranto",
+    "SALN",
+    "Larry Gadon",
+    "Republic v. Sereno",
+    "Francisco v. House",
+    "Corona impeachment"
+  ],
+  "primary_topics": [
+    "Larry Gadon's impeachment complaint vs Justice Leonen (post-SC denial of SALN requests by Gadon and Calida)",
+    "Gadon's strategy: subpoena UP registrar and SC clerk of court for Leonen's pre-SC SALNs as UP law professor",
+    "Doctrinal conundrum: Sereno (2018) limited QW to pre-appointment omissions; impeachment proper only for incumbency acts",
+    "Leonen's own dilemma: he dissented in Sereno calling QW for sitting justices 'a legal abomination'",
+    "Whether SC can stop House from hearing improper impeachment complaint -- Francisco v. House (2003) precedent"
+  ],
+  "sub_topics": [
+    "Larry Gadon as counsel for Edwin Cordevilla; endorsement by Rep. Angelo Marcos Barba",
+    "Justice Antonio T. Carpio's Dec 10 column debunking other Gadon allegations (failure to decide cases on time)",
+    "Constitutional-statutory SALN-filing requirement for all public officials",
+    "Senate's May 28, 2012 'Judgment' unseating CJ Renato C. Corona -- did not explain 'clearly and distinctly the facts and the law'",
+    "Corona SALN-obtention via the Senate trial (not before House impeachment): Sen. Franklin M. Drilon persuaded clerk Enriqueta Vidal to surrender; Sen. Alan Peter Cayetano extracted $2.4M-plus-P80M admission from Corona on witness stand",
+    "Republic v. Sereno (May 11, 2018), 8-6 -- Calida's QW petition ousted Sereno 'on account of her failure to file a substantial number of SALNs' as UP professor",
+    "Sereno doctrine quoted: QW proper for 'subject act or omission... committed prior to or at the same time of the appointment'; incumbency acts 'cannot be the subject of a quo warranto proceeding but of impeachment'",
+    "Leonen's pre-SC SALN omissions were as UP College of Law faculty (15 years)",
+    "Francisco v. House of Representatives (Nov 10, 2003) -- SC 'barred' second impeachment vs CJ Davide; House complied (reluctantly)",
+    "Wrong-remedy doctrine cuts both ways: Gadon may not get the House to subpoena; Court could stop subpoenaed officials",
+    "Leonen's dilemma matrix: ask dismissal, abandon his Sereno dissent, or accept Sereno binding despite his dissent"
+  ],
+  "signature_phrases": [
+    "but has no conclusive proof",
+    "clearly and distinctly the facts and the law",
+    "subtly persuaded",
+    "the damning admission",
+    "a substantial number of SALNs",
+    "conundrums both to Gadon and J. Leonen",
+    "QW is proper only 'when the subject act or omission was committed prior to or at the same time of the appointment'",
+    "a legal abomination",
+    "should be overturned in the near future",
+    "Will he abandon his dissent?",
+    "even if reluctantly"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Justice Marvic M. V. F. Leonen (target of impeachment)",
+      "Larry Gadon (counsel; complainant)",
+      "Edwin Cordevilla (Gadon's client)",
+      "Rep. Angelo Marcos Barba (endorser)",
+      "Solicitor General Jose C. Calida",
+      "Justice Antonio T. Carpio (referenced for Dec 10 column debunking other allegations)",
+      "CJ Renato C. Corona (impeachment precedent)",
+      "Sen. Franklin M. Drilon (Corona-trial SALN role)",
+      "Sen. Alan Peter Cayetano (Corona-trial witness-stand role)",
+      "Enriqueta Vidal (SC clerk of court during Corona trial)",
+      "CJ Maria Lourdes P. A. Sereno (QW precedent)",
+      "CJ Hilario G. Davide Jr. (Francisco v. House precedent)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Supreme Court (sitting as Presidential Electoral Tribunal, implied parallel)",
+      "House of Representatives -- Committee on Justice",
+      "Senate (impeachment court)",
+      "University of the Philippines College of Law (Leonen's pre-SC employer)"
+    ],
+    "cases": [
+      "Republic v. Sereno (May 11, 2018) -- 8-6",
+      "Senate Judgment in Corona impeachment (May 28, 2012)",
+      "Francisco v. House of Representatives (Nov 10, 2003)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (SALN filing requirement)",
+      "RA 6713 (Code of Conduct and Ethical Standards) -- implied SALN basis",
+      "Rules of Court (impeachment procedure context)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Gadon's impeachment complaint against Justice Leonen runs into a doctrinal conundrum: the Sereno decision (May 11, 2018) firmly ruled that QW is proper 'only when the subject act or omission was committed prior to or at the same time of the appointment,' while incumbency acts 'cannot be the subject of a quo warranto proceeding but of impeachment.'",
+      "rhetorical_move": "doctrinal-bar identification"
+    },
+    {
+      "claim": "Since Leonen's alleged SALN omissions were committed before his SC appointment (as UP College of Law faculty), the proper remedy is QW, not impeachment -- meaning Gadon may not be able to convince the House or Senate to subpoena Leonen's SALNs, and even if a subpoena issues, the Court may stop subpoenaed officials from complying.",
+      "rhetorical_move": "doctrinal-bar-to-remedy application"
+    },
+    {
+      "claim": "A symmetrical conundrum afflicts Leonen because he dissented in Sereno, opining that QW to oust 'a sitting member of the Supreme Court is a legal abomination... [that] should be overturned in the near future' -- leaving him to choose among (a) asking dismissal based on the very Sereno doctrine he attacked, (b) abandoning his dissent, or (c) saying that despite his dissent, all parties remain bound by Sereno.",
+      "rhetorical_move": "dilemma-matrix construction (three forks)"
+    },
+    {
+      "claim": "Yes, the Supreme Court can halt the House from hearing an invalid or improper impeachment complaint -- Francisco v. House of Representatives (Nov 10, 2003) 'barred' the second impeachment complaint against CJ Davide and 'the House complied even if reluctantly.'",
+      "rhetorical_move": "precedent-confirmed institutional authority"
+    },
+    {
+      "claim": "Implicit comparative critique: Corona was ousted by the Senate based on incumbency-period SALN omissions (proper for impeachment); Sereno was ousted by the Court via QW for pre-incumbency SALN omissions -- the two precedents create the procedural template that now defeats Gadon's choice of remedy for Leonen.",
+      "rhetorical_move": "Corona-Sereno-template-vs-Gadon analytical synthesis"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Corona trial backstory: Sen. Franklin M. Drilon 'subtly persuaded' SC clerk of court Enriqueta Vidal to surrender Corona's SALNs from the witness stand, and Sen. Alan Peter Cayetano then 'extracted from the former chief justice... the damning admission that he omitted to declare $2.4 million plus P80 million in his SALNs' -- preserved as the procedural-mechanism explanation of how the Corona conviction was actually engineered.",
+    "Reference to Justice Antonio T. Carpio's Dec 10 column already debunking the non-SALN Gadon allegations -- modeling cross-columnist deference and reinforcing CJ's narrow focus on the SALN issue alone.",
+    "Sereno doctrine quoted verbatim: QW proper only 'when the subject act or omission was committed prior to or at the same time of the appointment'; incumbency acts 'cannot be the subject of a quo warranto proceeding but of impeachment' -- the precise procedural template that traps Gadon.",
+    "Francisco v. House precedent: SC 'barred' the second Davide impeachment and 'the House complied even if reluctantly' -- modeled as institutional-authority precedent for stopping the Leonen impeachment if it proceeds."
+  ],
+  "target_audience": [
+    "Larry Gadon and the impeachment complaint sponsors",
+    "Justice Marvic M. V. F. Leonen (direct dilemma audience)",
+    "House Committee on Justice members",
+    "Senate (in case of trial)",
+    "Constitutional-law scholars on QW vs impeachment",
+    "Civic readers tracking the post-Sereno judicial-removal landscape"
+  ],
+  "register_markers": [
+    "doctrinal-conundrum register ('conundrums both to Gadon and J. Leonen')",
+    "Corona-Sereno-comparison structural pattern",
+    "Sereno verbatim-quotation centerpiece",
+    "dilemma-matrix three-fork construction",
+    "self-restricting scope ('I will take up only the SALN issue')",
+    "cross-columnist deference (Carpio Dec 10 column referenced)",
+    "Francisco v. House as precedent invocation"
+  ],
+  "decision_framework_signals": [
+    "applies Sereno-doctrine timing-of-omission rule (pre- vs post-appointment) to choose remedy",
+    "uses Corona-vs-Sereno template to diagnose Gadon's procedural mismatch",
+    "deploys dilemma-matrix construction to expose Leonen's dissent-vs-precedent conflict",
+    "treats Francisco v. House (2003) as precedent for SC stopping invalid impeachment",
+    "frames same-doctrine-binds-dissenter principle as rule-of-law requirement",
+    "applies cross-columnist labor division to focus analytical resources"
+  ],
+  "one_paragraph_summary": "Panganiban analyzes the procedural conundrums embedded in Larry Gadon's impeachment complaint against Justice Marvic M. V. F. Leonen -- filed (with the endorsement of Rep. Angelo Marcos Barba and on behalf of Edwin Cordevilla) after the Supreme Court unanimously rejected the prior SALN requests of Gadon and SolGen Jose C. Calida. (CJ limits himself to the SALN issue because Justice Antonio T. Carpio's December 10 column already debunked Gadon's other allegations on Leonen's alleged failure to decide cases on time.) Gadon intends to ask the House Committee on Justice to subpoena the SC clerk of court and the UP registrar for Leonen's SALNs from his 15 years as UP College of Law faculty before his SC appointment. The doctrinal trap: Republic v. Sereno (May 11, 2018, 8-6) ruled that QW is proper 'only when the subject act or omission was committed prior to or at the same time of the appointment,' while incumbency acts 'cannot be the subject of a quo warranto proceeding but of impeachment.' Since Leonen's alleged SALN omissions occurred before his SC appointment, the proper remedy is QW, not impeachment -- meaning Gadon may not be able to convince the House or Senate to subpoena, and even if a subpoena issues, the Court may halt compliance. A symmetrical conundrum afflicts Leonen: he dissented in Sereno, calling QW for sitting justices 'a legal abomination... [that] should be overturned in the near future.' He must now choose among asking dismissal based on the very Sereno doctrine he attacked, abandoning his dissent, or accepting that despite his dissent all parties remain bound by Sereno. CJ also notes that the SC can halt invalid impeachments: Francisco v. House of Representatives (November 10, 2003) 'barred' the second impeachment complaint against CJ Davide, and the House complied 'even if reluctantly.' Comparative context: Corona was Senate-ousted (2012) based on incumbency-period SALN omissions (impeachment-proper), with the SALNs obtained during trial by Sen. Drilon persuading clerk Enriqueta Vidal to surrender them and Sen. Cayetano extracting from Corona himself the 'damning admission' of omitted $2.4 million plus P80 million; Sereno was QW-ousted (2018) for pre-incumbency SALN omissions -- the two precedents create the procedural template that now defeats Gadon's choice of remedy for Leonen.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

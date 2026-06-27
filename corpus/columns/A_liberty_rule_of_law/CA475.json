@@ -1,0 +1,122 @@
+{
+  "id": "CA475",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 475,
+  "title": "Options to stop political dynasties",
+  "date": "2012-11-24",
+  "link": "https://opinion.inquirer.net/41421/options-to-stop-political-dynasties",
+  "keywords": [
+    "political dynasties",
+    "anti-dynasty law",
+    "Art. II Sec. 26",
+    "peoples initiative",
+    "Lambino v. Comelec",
+    "Comelec Brillantes",
+    "Kapal",
+    "2013 elections"
+  ],
+  "primary_topics": [
+    "Four options for enforcing the constitutional anti-dynasty provision (Art. II Sec. 26): legislative, judicial/quasi-judicial, sovereign (peoples initiative), and political",
+    "Why the legislative, judicial, and sovereign options are legally untenable or practically foreclosed at this time",
+    "Political action -- voting down dynasty candidates in 2013 elections -- as the most doable option under present circumstances"
+  ],
+  "sub_topics": [
+    "Art. II Sec. 26: The state shall guarantee equal access to opportunities for public service, and prohibit political dynasties as may be defined by law",
+    "25 years of legislative inaction -- legislators with relatives in office have no incentive to pass an enabling law",
+    "Judicial petitions to compel Comelec to enforce the ban -- untenable because Comelec cannot legislate without an enabling law",
+    "Mandamus to compel Congress to pass enabling law -- iffy because the duty is not purely ministerial",
+    "Term limits as self-executory (contrast with dynasty ban): courts can disqualify candidates using bare constitutional limits",
+    "Peoples initiative: Brillantes proposed initiative for anti-dynasty law -- novel, no law ever approved via peoples initiative in PH",
+    "Lambino v. Comelec (Oct. 25, 2006): peoples initiative limited to simple matters, not basic principles requiring deliberative body with recorded proceedings",
+    "By analogy: anti-dynasty law too controversial to be enacted via peoples initiative",
+    "Political option: form KAPAL (Kamag-anak sa Politika Aayawan Lahat), use social media (Obama model)",
+    "2013 elections as a referendum on dynasties -- if people vote down dynasty candidates, new Congress will enact enabling law"
+  ],
+  "signature_phrases": [
+    "The state shall guarantee equal access to opportunities for public service, and prohibit political dynasties as may be defined by law",
+    "the no-brainer option",
+    "Realistically, such measures cannot be expected to be approved at this time",
+    "the Comelec cannot legislate",
+    "Without a law defining political dynasties, implementing rules have no leg to stand on",
+    "unlike the dynasty ban, term limits are self-executory",
+    "Let the 2013 elections then be a sort of referendum on the issue"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Comelec Chair Sixto Brillantes Jr. (proposed peoples initiative for anti-dynasty law)",
+      "US President Barack Obama (social media model)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "Congress of the Philippines",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "Lambino v. Comelec (Oct. 25, 2006) -- peoples initiative limited to simple non-basic-principle matters"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- Art. II Sec. 26 (anti-dynasty provision)",
+      "Electoral law provisions on certificates of candidacy"
+    ],
+    "events": [
+      "25 years of legislative inaction on anti-dynasty law",
+      "Brillantes announcement of proposed peoples initiative",
+      "2013 elections as proposed political referendum"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The legislative option is the no-brainer solution but practically foreclosed because legislators with relatives in office have no incentive -- 25 years of inaction confirm this.",
+      "rhetorical_move": "conflict-of-interest-explains-legislative-inaction",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Judicial and quasi-judicial options are legally untenable: the dynasty ban is not self-executory unlike term limits, the Comelec cannot legislate without an enabling law, and courts cannot compel discretionary legislative acts via mandamus.",
+      "rhetorical_move": "doctrinal-infeasibility analysis for judicial/quasi-judicial routes",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The peoples initiative for an anti-dynasty law faces the Lambino v. Comelec bar by analogy: an anti-dynasty law is too controversial and complex for a simple initiative; it requires a deliberative body with recorded proceedings.",
+      "rhetorical_move": "Lambino-analogy extension to block the sovereign option",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The political option -- voting down dynasty candidates in 2013, forming movements like KAPAL, using social media -- is most doable and if successful would produce a Congress with the mandate to enact the enabling law.",
+      "rhetorical_move": "most-doable-option endorsement with democratic-mandate mechanism",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The coinage of KAPAL (Kamag-anak sa Politika Aayawan Lahat) -- a play on kapal-mukha (shamelessness) -- as the proposed political movement name that doubles as a civic and linguistic joke.",
+    "Obama 2012 social media reelection strategy cited as the model for PH political action against dynasties.",
+    "Brillantes promise of a peoples initiative for an anti-dynasty law -- described as very novel since no Philippine law has ever been approved via this process."
+  ],
+  "target_audience": [
+    "Anti-dynasty advocates and civic movement organizers",
+    "Comelec officials and election law scholars",
+    "Constitutional law academics evaluating self-executory vs non-self-executory provisions",
+    "Civic readers deciding how to vote in 2013"
+  ],
+  "register_markers": [
+    "four-option enumeration as primary analytical structure",
+    "no-brainer as the ironic label for the practically impossible option",
+    "term-limits-as-self-executory contrast as the doctrinal pivot",
+    "Lambino-analogy extension framing",
+    "KAPAL acronym coinage as civic-linguistic invention",
+    "Obama social media model citation",
+    "2013-elections-as-referendum closing proposition"
+  ],
+  "decision_framework_signals": [
+    "applies self-executory vs non-self-executory distinction to identify which constitutional provisions courts can directly enforce",
+    "uses conflict-of-interest-analysis to explain legislative inaction",
+    "applies Lambino-analogy to block the peoples initiative route",
+    "treats mandamus as unavailable for discretionary legislative duties",
+    "frames political action as the residual option when legal routes are foreclosed"
+  ],
+  "one_paragraph_summary": "Panganiban analyzes four options for enforcing the 25-year-old unenforced constitutional anti-dynasty provision (Art. II Sec. 26). The legislative option is the 'no-brainer' but practically foreclosed because legislators with relatives in office have no incentive. Judicial and quasi-judicial options -- petitions to compel the Comelec to deny certificates of candidacy, or mandamus against Congress -- are legally untenable: the Comelec cannot legislate without an enabling law, the dynasty ban is not self-executory (unlike term limits), and mandamus cannot compel a discretionary legislative act. Comelec Chair Brillantes's proposed people's initiative faces the Lambino v. Comelec bar by analogy: a controversial anti-dynasty law requires a deliberative body with recorded proceedings, not a simple initiative process. That leaves political action -- forming movements like KAPAL (Kamag-anak sa Politika Aayawan Lahat), using social media as Obama successfully did, and letting the 2013 elections serve as a referendum. If voters demonstrably reject dynasty candidates, the new Congress will have the mandate to finally enact the enabling law.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

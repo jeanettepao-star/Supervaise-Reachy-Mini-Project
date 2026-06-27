@@ -1,0 +1,155 @@
+{
+  "id": "CC054",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 54,
+  "title": "Reactions to comments and questions",
+  "date": "2020-07-26",
+  "link": "https://opinion.inquirer.net/132127/reactions-to-comments-and-questions",
+  "keywords": [
+    "reader engagement",
+    "judicial backlog",
+    "Operation Zero Backlog",
+    "free expression",
+    "legal humility"
+  ],
+  "primary_topics": [
+    "CJ's policy of not responding to online comments under Inquirer's 'Balanced News, Fearless Views'",
+    "Why CJ refuses to dispense long-distance legal advice",
+    "Defense of CJ's chief-justice record via personal docket history and Operation Zero Backlog",
+    "Appreciating fair disagreement (Justice Adolf S. Azcuna, Justice Angelina Sandoval-Gutierrez, Gen. Antonio Sotelo)"
+  ],
+  "sub_topics": [
+    "Free expression including freedom to remain silent -- 'stoic silence washes more than a torrent of invectives'",
+    "Distinction between irrelevant invectives (left in 'basket of wasted opinions') vs. cybercrime-actionable threats (will sue)",
+    "Reasons CJ refused to rejoin law practice after retirement (potential bias suspicion against former subordinates)",
+    "Public Attorney's Office and IBP as referrals for legal advice",
+    "Reader's hostile-but-good-faith email asking 5 questions on delay, equity, and conscience",
+    "CJ's 1,100 initial docket + 45/month thereafter, reduced to 200 current cases at retirement (2006)",
+    "Justice Antonio T. Carpio's tribute: 'Chief Justice Panganiban is the Court's most prolific writer, bar none'",
+    "'Plaque of Acclamation' signed unanimously by 14 associate justices in 2006",
+    "Justice Azcuna's disagreement on the Hickenlooper Amendment and MDT validity",
+    "Gen. Antonio Sotelo's '10 lawyers, 11 opinions' aphorism",
+    "Justice Angelina Sandoval-Gutierrez's reaction to CJ citing her David v. Arroyo ponencia"
+  ],
+  "signature_phrases": [
+    "Online comments are uploaded by inquirer.net in the spirit of 'Balanced News, Fearless Views'",
+    "the freedom to be silent",
+    "stoic silence washes more than a torrent of invectives",
+    "I am peeved by gutter language, ad hominem, non sequitur, misquotation, and anonymity",
+    "I will not hesitate to sue violators of the cybercrime law",
+    "the basket of wasted opinions",
+    "General propositions do not decide concrete cases",
+    "I dissolved our law office",
+    "judges -- who have been under me -- may be suspected of bias",
+    "I usually reply to emailed questions that are relevant to my column",
+    "even if they are veiled with innuendo, sarcasm, or disbelief, if not of disrespect",
+    "I invariably assume good faith, and answer without meanness",
+    "in all humility, I retired with no backlog in my personal docket",
+    "Operation Zero Backlog",
+    "Chief Justice Panganiban is the Court's most prolific writer, bar none",
+    "Plaque of Acclamation",
+    "I have no 'holier-than-thou' complex in dealing with the incumbent Court and its justices",
+    "If 10 lawyers read your article, you will receive 11 opinions",
+    "I will not cease doing so because your career and your decision exemplify how to rise from human mortality to judicial immortality",
+    "Be humble enough"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Oliver Wendell Holmes Jr. (quoted on general propositions)",
+      "Justice Antonio T. Carpio (tribute quote)",
+      "Justice Adolf S. Azcuna (text disagreement on Hickenlooper Amendment)",
+      "Gen. Antonio Sotelo ('10 lawyers, 11 opinions' aphorism)",
+      "Justice Angelina Sandoval-Gutierrez (David v. Arroyo ponente)",
+      "Unnamed hostile reader (5-question emailer)"
+    ],
+    "institutions": [
+      "Philippine Daily Inquirer ('Balanced News, Fearless Views')",
+      "Public Attorney's Office (PAO)",
+      "Integrated Bar of the Philippines (IBP)",
+      "Supreme Court of the Philippines",
+      "Supreme Court library",
+      "cjpanganiban.com"
+    ],
+    "cases": [
+      "David v. Arroyo (May 3, 2006, J Sandoval-Gutierrez) -- referenced as 'example of rising from human mortality to judicial immortality'"
+    ],
+    "laws_treaties": [
+      "Cybercrime Prevention Act of 2012",
+      "Mutual Defense Treaty / Hickenlooper Amendment to US Foreign Aid Act (Azcuna context)"
+    ],
+    "events": [
+      "CJ's retirement as Chief Justice in 2006",
+      "Plaque of Acclamation signing by 14 associate justices (2006)",
+      "Operation Zero Backlog initiative",
+      "CJ writing one book per year of incumbency"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Responding to online comments -- even outrageous, malicious, or hideous ones -- is generally unnecessary because Inquirer's 'Balanced News, Fearless Views' policy lets comments balance and correct one another, and 'stoic silence washes more than a torrent of invectives'; only gutter language with cybercrime liability warrants legal action.",
+      "rhetorical_move": "silence-as-strategy (positioning non-response as discipline rather than disengagement)",
+      "confidence": "asserted as personal policy"
+    },
+    {
+      "claim": "CJ refuses long-distance legal advice because (Holmes) 'general propositions do not decide concrete cases' -- every case requires specific facts and applicable laws; readers should consult licensed counsel, PAO, or IBP.",
+      "rhetorical_move": "Holmes-citation principle (anchoring practical refusal in jurisprudential authority)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "CJ refused to rejoin law practice after retirement, even as 'of counsel,' because his appearance before judges who had served under him could create perception of bias -- especially if he won -- making post-judicial private practice a perception-tax that the office cannot absorb.",
+      "rhetorical_move": "perception-as-ethics (extending recusal logic past the bench into post-retirement life)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Hostile reader questions deserve good-faith, evidenced answers -- CJ's chief-justice record is documented in his annual books, the Court library, and the unanimous Plaque of Acclamation signed by all 14 associate justices in 2006, and his personal docket fell from 1,100 + 45/month to 200 current cases at retirement.",
+      "rhetorical_move": "evidence-of-record rebuttal (responding to ad hominem with documentary proof)",
+      "confidence": "asserted with citations to his own books and the Plaque"
+    },
+    {
+      "claim": "Fair disagreement -- even from justices, generals, or readers -- deserves printing rather than suppression, and the best response to a colleague's challenge is to honor their accomplishments rather than to retaliate.",
+      "rhetorical_move": "magnanimity-in-disagreement (publishing opposing views and lauding their authors)",
+      "confidence": "asserted in practice"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's correction to his own quoted reply (in brackets in the column): the initial docket was 1,100 not 1,200, and the monthly accretion was 45 not 30 -- the rare moment when CJ visibly amends a previously-given factual claim in real time within the same column.",
+    "Justice Antonio T. Carpio's tribute on CJ's retirement: 'Chief Justice Panganiban is the Court's most prolific writer, bar none' -- invoked here as documentary evidence rather than mere flattery.",
+    "The 'Plaque of Acclamation signed unanimously by all the 14 associate justices' as the most institutionally weighty endorsement of CJ's chief-justice record, hosted on cjpanganiban.com.",
+    "Gen. Antonio Sotelo's quip 'If 10 lawyers read your article, you will receive 11 opinions' -- affectionately included as evidence that legal pluralism is unavoidable.",
+    "Justice Angelina Sandoval-Gutierrez's email -- 'Chief, thank you but I wonder why you keep citing me and my decision in David v. Arroyo' -- answered by CJ with one of his most memorable single-line tributes: 'your career and your decision exemplify how to rise from human mortality to judicial immortality.'",
+    "The hostile reader closing with 'be humble enough' invoking God -- and CJ replying without meanness, demonstrating his stated policy that 'I invariably assume good faith, and answer without meanness.'"
+  ],
+  "target_audience": [
+    "Inquirer column readers",
+    "Online commenters and critics",
+    "Legal practitioners observing post-retirement ethics",
+    "Justices and judges interested in CJ's chief-justice record",
+    "Civic-minded readers"
+  ],
+  "register_markers": [
+    "epistolary structure (questions and answers as primary architecture)",
+    "Q1, Q2 format with verbatim reader text quoted in full",
+    "Oliver Wendell Holmes citation as opening doctrinal authority",
+    "Latin term 'ad hominem' alongside English idioms",
+    "'in all humility' and 'with due respect' implicit",
+    "self-citation to books, Court library, website (cjpanganiban.com), Plaque of Acclamation",
+    "courtroom-correction marker ('[should be 1,100]') for in-column factual amendment",
+    "magnanimous-disagreement closing (printing dissents from Azcuna, Sandoval-Gutierrez, Sotelo)",
+    "personal-reflective register with documentary anchoring",
+    "viz. as elevated diction marker"
+  ],
+  "decision_framework_signals": [
+    "uses silence-as-strategy in response to bad-faith criticism",
+    "applies Holmes principle ('general propositions do not decide concrete cases') to refuse case-specific advice",
+    "extends recusal logic into post-judicial life (no law-firm affiliation even 'of counsel')",
+    "rebuts ad hominem attacks with documentary record rather than counter-attack",
+    "treats fair disagreement as worth printing -- magnanimity as institutional ethic",
+    "amends factual errors in real time within the same column (intellectual humility)"
+  ],
+  "one_paragraph_summary": "Panganiban explains why he generally declines to respond to online comments -- Inquirer's 'Balanced News, Fearless Views' policy lets comments balance one another, and 'stoic silence washes more than a torrent of invectives,' though he will sue violators of the cybercrime law. Citing Oliver Wendell Holmes Jr. ('General propositions do not decide concrete cases'), he refuses to dispense long-distance legal advice and instead refers readers to licensed counsel, the Public Attorney's Office, or the IBP. He reiterates that he dissolved his law office on joining the Court and has not rejoined any firm post-retirement -- even as 'of counsel' -- because his appearance before judges who had served under him would create perception of bias. He then reproduces verbatim a hostile reader's five-question email and prints his straight answers to questions 2 and 4 about his own chief-justice record: he retired with no backlog in his personal docket, reducing his caseload from 1,100 initial cases (plus 45 raffled monthly) to 200 current cases, and instituted 'Operation Zero Backlog' across the entire Court -- facts documented in his annual books (one per year of incumbency), in the Supreme Court library, and on cjpanganiban.com, where the Plaque of Acclamation signed unanimously by all 14 associate justices is hosted. He closes by appreciating dissenting reactions to his recent columns -- Justice Adolf S. Azcuna's text disagreement on the MDT and Hickenlooper Amendment, Gen. Antonio Sotelo's '10 lawyers, 11 opinions' quip, and Justice Angelina Sandoval-Gutierrez's wonder at his frequent citation of her David v. Arroyo ponencia -- with his memorable rejoinder: 'I will not cease doing so because your career and your decision exemplify how to rise from human mortality to judicial immortality.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

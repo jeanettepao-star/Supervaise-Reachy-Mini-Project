@@ -1,0 +1,134 @@
+{
+  "id": "CA328",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 328,
+  "title": "Win the votes yet lose the election",
+  "date": "2016-11-20",
+  "link": "https://opinion.inquirer.net/99369/win-votes-yet-lose-election",
+  "keywords": [
+    "Electoral College quirks 2016",
+    "538 electors, 270 to win",
+    "winner-takes-all (except Maine and Nebraska)",
+    "9-state hypothetical illustration",
+    "Clinton 260K vs Trump 240K popular but 10-40 electoral",
+    "Alaska vs California per-voter voting power",
+    "Putin democratic rhetorical"
+  ],
+  "primary_topics": [
+    "How the US Electoral College allows popular-vote winner to lose the election",
+    "Clinton-Trump 2016 demonstrating this exception (joining 1824, 1876, 1888, 2000)",
+    "Worked example: 9-state simplified illustration",
+    "Per-elector population disparity (Alaska vs California)",
+    "Constitutional relic preserved despite ridicule (Putin's mockery cited)"
+  ],
+  "sub_topics": [
+    "American voters vote for 'electors' pledged to vote later for prechosen candidate",
+    "Each of 50 states + DC determines elector allocation by local law",
+    "Electoral allocation supposedly proportional to state population",
+    "California: 55 electors (most populous); Alaska/Montana/Wyoming/DC: 3 each (least populous)",
+    "Total Electoral College: 538 electors; winning threshold: 270 votes",
+    "Winner-takes-all rule (all states except Maine and Nebraska)",
+    "Exception years: 1824, 1876, 1888, 2000, 2016",
+    "Simplified 9-state, 500,000-voter, 50-elector model",
+    "Model assumption: State 1 has 100,000 voters + 10 electors; States 2-9 have 50,000 each + 5 electors each",
+    "Clinton gets 80% in State 1 (80,000), 45% in States 2-9 (22,500 each = 180,000) = 260,000 popular total",
+    "Trump gets 20% in State 1 (20,000), 55% in States 2-9 (27,500 each = 220,000) = 240,000 popular total",
+    "Winner-takes-all result: Clinton 10 electors (State 1 only), Trump 40 electors (States 2-9)",
+    "Population-elector disparity: Alaska 750,000/3 vs California 39M/55 → every Alaskan has ~3x voting power of every Californian",
+    "EC as founding-father compromise between direct popular election and indirect congressional election",
+    "Constitutional reforms over time (slaves, women) but EC preserved",
+    "Senators, representatives, governors all elected by popular vote",
+    "Putin's mockery: 'And you call your presidential election democratic?'"
+  ],
+  "signature_phrases": [
+    "More Americans voted for Hillary Clinton, yet she lost to Donald Trump. They chose her but got him",
+    "the quirks of the Electoral College",
+    "American voters do not write or indicate their choices on their ballots. Instead, they vote for 'electors'",
+    "winner-takes-all",
+    "a candidate may capture a majority of the popular vote nationwide, yet lose the electoral vote",
+    "To simplify the math, let us assume",
+    "Ergo, though she got the majority of the popular votes nationwide (260,000), Clinton would lose the election to Trump",
+    "And win!",
+    "every Alaskan has almost thrice the voting power of every Californian",
+    "Undemocratic",
+    "a constitutional relic",
+    "And you call your presidential election democratic?"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Hillary Clinton",
+      "Donald Trump",
+      "Vladimir Putin (quoted on EC mockery)"
+    ],
+    "institutions": [
+      "US Electoral College (538 electors)",
+      "50 US states + DC",
+      "US Congress (founding-father alternative)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "US Constitution -- Electoral College provisions",
+      "State laws determining elector allocation",
+      "Constitutional amendments ending slavery and women's exclusion (referenced)"
+    ],
+    "events": [
+      "2016 US presidential election (Clinton popular-vote majority, Trump EC win)",
+      "Historical popular-vs-EC divergences: 1824, 1876, 1888, 2000",
+      "Founding-era compromise creating the Electoral College"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The US Electoral College allows a presidential candidate to win the national popular vote yet lose the election -- a counter-democratic exception that happened in 2016 (Clinton-Trump) joining 1824, 1876, 1888, and 2000, demonstrable through a simplified 9-state worked example where 260,000 popular votes lose to 240,000 because of winner-takes-all elector allocation.",
+      "rhetorical_move": "worked-example demonstration of structural anomaly",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Electoral College's per-elector population disparity -- Alaska's 750,000 inhabitants share 3 electors while California's 39 million share 55 -- gives every Alaskan almost thrice the voting power of every Californian, structurally violating one-person-one-vote at the presidential level even while it is observed at every other electoral level (senators, representatives, governors).",
+      "rhetorical_move": "comparative-disparity quantification (Alaska 3x California)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Electoral College is a 'constitutional relic' -- a founding-father compromise between direct popular election and indirect congressional election -- that has been ridiculed even by Vladimir Putin ('And you call your presidential election democratic?'), and survives only because constitutional reform has retired biases against slaves and women but not the EC itself.",
+      "rhetorical_move": "relic-framing with comparative-reform argument (other biases removed, this one wasn't)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The column's opening compression of the paradox: 'More Americans voted for Hillary Clinton, yet she lost to Donald Trump. They chose her but got him' -- the most economical statement of the popular-vs-EC anomaly in CJ's election commentary.",
+    "The 9-state, 500,000-voter, 50-elector simplified model with Clinton at 80%/45% and Trump at 20%/55% -- the most pedagogically structured worked example in any of CJ's US-election columns, showing 260,000 popular votes losing to 240,000.",
+    "Putin's rhetorical jab quoted: 'And you call your presidential election democratic?' -- the column's parting snark from an unlikely commentator on US democratic credentials.",
+    "The historical list of EC-popular vote divergences (1824, 1876, 1888, 2000, 2016) -- five events spanning 192 years showing this is a recurring structural feature, not a one-off accident."
+  ],
+  "target_audience": [
+    "Filipino readers puzzled by Trump's victory despite Clinton's popular-vote win",
+    "Civic-education readers and students of comparative democracy",
+    "US election observers in the PH press community",
+    "Constitutional law academics on electoral systems",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "two-sentence opening compression of paradox",
+    "labeled-subhead structure ('Electoral College', 'Simple illustration', 'Undemocratic')",
+    "worked-example pedagogy (9-state model with explicit arithmetic)",
+    "Latin tag use ('Ergo')",
+    "exclamation interjection ('And win!') marking the punchline",
+    "comparative-disparity quantification (Alaska 3x Californian voting power)",
+    "self-citation of own column (10/30/16 'Will Trump emulate Gore?')",
+    "Putin-quote closing snark",
+    "pedagogical-explanatory register without partisan editorializing"
+  ],
+  "decision_framework_signals": [
+    "uses worked-example pedagogy to demonstrate structural anomalies",
+    "deploys comparative-disparity quantification to show one-person-one-vote violation",
+    "frames Electoral College as constitutional relic against the trajectory of other reforms",
+    "treats popular-vs-EC divergences as recurring structural feature, not aberration",
+    "uses unlikely-commentator quotes (Putin) for closing rhetorical force"
+  ],
+  "one_paragraph_summary": "Panganiban explains how Hillary Clinton won the 2016 US popular vote yet lost the presidency to Donald Trump -- and answers friends' how-and-why questions by walking through the Electoral College's quirks. American voters do not directly indicate presidential choices on their ballots; they vote for 'electors' who later vote for the prechosen candidate. Each of the 50 states plus DC allocates electors by local law, supposedly proportional to population -- California with 55, Alaska/Montana/Wyoming/DC with 3 each, totaling 538 with a 270-vote winning threshold under most states' winner-takes-all rule (except Maine and Nebraska). He demonstrates the anomaly with a simplified 9-state, 500,000-voter, 50-elector model: assuming Clinton gets 80% in State 1 (100,000 voters, 10 electors) and 45% in the 8 other states (50,000 each, 5 electors each), and Trump gets the inverse, Clinton totals 260,000 popular votes nationwide but earns only 10 electoral votes (State 1 alone), while Trump's 240,000 popular votes earn him 40 electoral votes from the other 8 -- and wins. He flags the per-elector population disparity (Alaska's 750,000 share 3 electors against California's 39M sharing 55), giving every Alaskan almost thrice the voting power of every Californian, and notes that this same Constitution has been reformed to remove biases against slaves and women but not against this 'constitutional relic' that even Vladimir Putin has mocked: 'And you call your presidential election democratic?'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

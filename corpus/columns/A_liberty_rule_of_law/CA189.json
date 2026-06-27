@@ -1,0 +1,149 @@
+{
+  "id": "CA189",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 189,
+  "title": "Libertarian struggle through jurisprudence",
+  "date": "2021-03-21",
+  "link": "https://opinion.inquirer.net/138662/libertarian-struggle-through-jurisprudence",
+  "keywords": [
+    "libertarian jurisprudence",
+    "SCOTUS landmark cases",
+    "Trump populism",
+    "racial equality",
+    "abortion rights",
+    "Miranda rights",
+    "electoral dispute",
+    "constitutional history"
+  ],
+  "primary_topics": [
+    "US Supreme Court landmark decisions and their libertarian legacy",
+    "Trump populism as a threat to constitutional rights",
+    "Racial, gender, and political equality through jurisprudence",
+    "Comparative constitutional law (US vs Philippines)"
+  ],
+  "sub_topics": [
+    "Dred Scott v. Sandford (1857) -- Black slaves denied citizenship",
+    "Plessy v. Ferguson (1896) -- separate but equal doctrine",
+    "Brown v. Board of Education (1954) -- reversal of racial segregation",
+    "Miranda v. Arizona (1966) -- rights of criminal suspects",
+    "Roe v. Wade (1973) and subsequent challenges -- abortion rights",
+    "Bush v. Gore (2000) -- electoral vote dispute and judicial partisanship",
+    "Philippine Constitution's embedding of Miranda rights in Bill of Rights",
+    "Trump's three conservative SCOTUS appointees tipping the 6-3 balance"
+  ],
+  "signature_phrases": [
+    "libertarian struggle for equality",
+    "damned forever in US constitutional history",
+    "hideous decision",
+    "separate but equal doctrine",
+    "You have the right to remain silent",
+    "We did better: Our Constitution, not just our courts, embedded these 'Miranda rights'",
+    "Trump's populism -- aided by his three conservative appointees in the Scotus (tilting the delicate balance there to 6-3) -- endangers this libertarian struggle",
+    "There is something greater than me... The Supreme Court has spoken",
+    "Then, the US would not have spent trillions of dollars in those wars"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, former CJ)",
+      "Donald Trump",
+      "Al Gore",
+      "George W. Bush",
+      "Jeb Bush (Florida Governor)",
+      "Katherine Harris (Florida election body head, co-chair of Bush's Florida campaign)",
+      "CJ Roger Taney (Dred Scott decision writer)",
+      "Ernesto Miranda (Miranda v. Arizona)"
+    ],
+    "institutions": [
+      "Supreme Court of the United States (SCOTUS)",
+      "Florida Supreme Court",
+      "Republican Party",
+      "Democratic Party"
+    ],
+    "cases": [
+      "Dred Scott v. Sandford (March 6, 1857) -- 7-2, denied citizenship to Black slaves",
+      "Plessy v. Ferguson (May 18, 1896) -- 7-1, racial segregation 'separate but equal'",
+      "Brown v. Board of Education (May 17, 1954) -- unanimous, overturned Plessy",
+      "Miranda v. Arizona (June 13, 1966) -- Miranda warning rights",
+      "Roe v. Wade (January 22, 1973) -- 7-2, abortion rights as constitutional privacy",
+      "Planned Parenthood v. Casey (June 29, 1992)",
+      "Gonzales v. Carhart (April 18, 2007)",
+      "Whole Woman's Health v. Hellerstedt (June 27, 2016)",
+      "June Medical Services v. Russo (June 29, 2020)",
+      "Bush v. Gore (December 12, 2000) -- 5-4, halted Florida recount"
+    ],
+    "laws_treaties": [
+      "13th Amendment to US Constitution (abolished slavery)",
+      "14th Amendment to US Constitution (citizenship, equal protection, due process)",
+      "Philippine Constitution Bill of Rights (Miranda rights embedded)"
+    ],
+    "events": [
+      "2000 US Presidential Election dispute -- Bush vs. Gore",
+      "Al Gore's visit to the Philippines in 2006 during CJ Panganiban's tenure",
+      "US invasion of Iraq and Afghanistan",
+      "January 6 US Capitol riot (implied by 'riotous partisans')"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Trump's populism — powered by his three conservative SCOTUS appointees creating a 6-3 conservative supermajority — poses the gravest current threat to two centuries of American libertarian struggle for social, racial, gender, and political equality.",
+      "rhetorical_move": "threat-identification framing: using a chronological survey of five landmark cases to build a historical baseline, then casting Trump's court-packing as the singular endangerment of that entire arc",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The five SCOTUS cases — Dred Scott, Brown v. Board, Miranda, Roe v. Wade, and Bush v. Gore — collectively trace a libertarian arc that defines America's constitutional identity, with Dred Scott and Plessy as its nadir and Brown and Miranda as its zenith.",
+      "rhetorical_move": "teleological-historical-narrative mapping liberty's expansion across 150 years of American jurisprudence",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Philippines exceeded American constitutional achievement in Miranda rights by embedding the right to counsel and right to silence directly in the Constitution's Bill of Rights rather than leaving them as court-created doctrine — violation of which could lead to acquittal.",
+      "rhetorical_move": "comparative-law pride claim positioning Philippine constitutionalism as superior to US court-created doctrine on at least one metric",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Bush v. Gore was a partisan decision: the five Republican-appointed justices voted for Bush while the four Democratic-appointed justices voted for Gore, compounded by state-level conflicts of interest (Governor Jeb Bush, election chair Katherine Harris as Bush campaign co-chair).",
+      "rhetorical_move": "structural-partisanship indictment using appointment-origin analysis and conflict-of-interest stacking",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Gore's acceptance of the Bush v. Gore ruling — despite disagreeing with it — in deference to the Supreme Court's institutional authority stands in explicit moral contrast to Trump's refusal to concede, establishing Gore as the libertarian-democratic ideal of loser conduct.",
+      "rhetorical_move": "personal-anecdote-as-moral-contrast (Gore's direct words to CJ Panganiban in 2006 vs. Trump's no-concession stance)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Al Gore's 2006 visit to the Philippines during CJ Panganiban's tenure, where Gore told him: 'Mr. Chief Justice, there is something greater than me… The Supreme Court has spoken. Though I disagreed with the decision, I had the duty to respect and obey it' — used as a direct moral contrast to Trump's no-concession stance.",
+    "CJ Panganiban pressing Gore on whether he would have ordered the invasion of Iraq and Afghanistan, to which Gore replied 'No, never. That was my campaign promise,' prompting CJ to ask if the US would then have spent those trillions reducing global poverty — and Gore's chuckling confirmation, 'Yes, yes, including the Philippines.' — an intimate diplomatic exchange that frames American geopolitical tragedy through a personal Makati conversation.",
+    "CJ Roger Taney and the six justices who voted with him in Dred Scott being described as 'damned forever in US constitutional history' — CJ Panganiban's explicit moral condemnation as a jurist of a fellow chief justice across 164 years."
+  ],
+  "target_audience": [
+    "Filipino legal professionals and law academics tracking comparative constitutional law",
+    "Civic-minded readers concerned about democratic backsliding and populism",
+    "Philippine Supreme Court watchers and constitutional reform advocates",
+    "Readers familiar with US jurisprudence and its influence on Philippine law",
+    "Those following Trump-era political and judicial developments"
+  ],
+  "register_markers": [
+    "jurist-as-narrator register ('As a jurist, I will relate within my limited space')",
+    "chronological five-case taxonomy as formal pedagogic structure",
+    "explicit moral condemnation of historical judicial actors ('damned forever')",
+    "first-person diplomatic anecdote (Gore's direct quoted speech to CJ in 2006)",
+    "comparative constitutional law aside ('We did better: Our Constitution…')",
+    "parenthetical vote tallies after each case name (7-2, 7-1, unanimous, 7-2, 5-4)",
+    "precise date-citation format (month-day-year) for all five decisions",
+    "closing threat-summary framing ('To conclude, Trump's populism… endangers this libertarian struggle')",
+    "forward reference ('Next Sunday: Five contentious PH cases') as serialized-column marker"
+  ],
+  "decision_framework_signals": [
+    "uses chronological doctrinal survey as the primary analytical lens — cases as data points in a liberty-expansion narrative",
+    "applies appointment-origin analysis (Republican vs. Democratic appointees) as the decisive variable in partisan-decision detection",
+    "employs comparative constitutionalism (PH Bill of Rights vs. US court-created Miranda doctrine) to evaluate institutional quality",
+    "treats historical judicial actors' moral legacy as a jurisprudential accountability mechanism ('damned forever')",
+    "uses personal-diplomatic anecdote (Gore conversation) as evidential substitute for formal comparative-law argument on the normative duty to accept court rulings",
+    "frames current political threat (Trump's SCOTUS balance) as a historical regression risk against a 150-year baseline of cases"
+  ],
+  "one_paragraph_summary": "Writing as a jurist with a personal encounter with Al Gore, Panganiban surveys five landmark SCOTUS decisions to argue that two centuries of American libertarian struggle -- from the nadir of Dred Scott (1857), which denied Black slaves citizenship and was later overturned by the 13th and 14th Amendments, through the racial victories of Brown v. Board of Education (1954) reversing Plessy's 'separate but equal' doctrine, the due-process triumph of Miranda v. Arizona (1966) whose protections the Philippines embedded directly into its Constitution, the privacy-rights holding of Roe v. Wade (1973) which despite repeated challenges was never overturned in four subsequent decisions, to the politically partisan Bush v. Gore (2000) in which five Republican-appointed justices handed the presidency to Bush against four Democratic-appointees' dissent -- is now endangered by Trump's populism, amplified by his three conservative SCOTUS nominees who tipped the Court's ideological balance to 6-3. The column's moral centerpiece is a personal 2006 exchange in Manila, where Gore told CJ Panganiban that despite disagreeing with Bush v. Gore he felt duty-bound to respect and obey it, and where Gore's admission that he would never have invaded Iraq or Afghanistan frames Trump's no-concession stance as not merely a democratic failure but a geopolitical one whose costs -- trillions in war spending withheld from global poverty reduction -- fall partly on the Philippines.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

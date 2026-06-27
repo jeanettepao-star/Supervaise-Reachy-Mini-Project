@@ -1,0 +1,193 @@
+{
+  "id": "CC025",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 25,
+  "title": "Mysterious stem cells: LCT procedure (3)",
+  "date": "2024-12-30",
+  "link": "https://opinion.inquirer.net/179588/mysterious-stem-cells-lct-procedure-3",
+  "keywords": [
+    "Living Cell Therapy LCT procedure",
+    "July 14-19 2024 Germany trip",
+    "Bad Tölz BSW Isarwinkel Hotel",
+    "Room 220 daughter Len Room 219 Leonor Ching personal nurse",
+    "nine companions",
+    "male nurse Almer electrocardiogram",
+    "Dr. Andres Morato medical history physical exam",
+    "six health complaints prostate cancer Pirads 4 lumbar pain knee pain carpal tunnel varicose veins general weakness",
+    "Luprolex hormones Duodart",
+    "Pletaal SR 100 mg stopped two days",
+    "Filipino congressmen also undergoing LCT",
+    "Dr. Siegfried Block founder lineage",
+    "Pope Paul XII de Gaulle Eisenhower Madonna Picasso patients",
+    "Pontifical Scientific Academy Alexander Fleming",
+    "Dr. Petra Block English diagnosis to German",
+    "18500 euros medical fee full board",
+    "emulsified sheep embryo parts",
+    "Tuesday July 16 buttocks injection 10 syringes 30 cc 5 each side 6 minutes",
+    "Cortisone gargle swallow 10 ml cough nose drips tears 2 hours",
+    "Cathy Serrano Filipino assistant",
+    "Lake Tegernsee Seehotel zur Post lunch",
+    "Augsburg Munich Airport return"
+  ],
+  "primary_topics": [
+    "living_cell_therapy_lct_clinical_procedure_walkthrough",
+    "block_clinic_lineage_and_celebrity_patients",
+    "patient_intake_and_six_complaints_baseline",
+    "germany_clinical_logistics_bad_tolz"
+  ],
+  "sub_topics": [
+    "july_14_to_19_2024_germany_trip_with_nine_companions",
+    "bad_tolz_bsw_isarwinkel_hotel_lenggries_renovation",
+    "room_220_assignment_daughter_len_nurse_leonor_ching_room_219",
+    "male_nurse_almer_electrocardiogram",
+    "dr_andres_morato_medical_history_physical_exam",
+    "six_baseline_complaints_prostate_cancer_pirads_4_lumbar_knee_carpal_tunnel_varicose_weakness",
+    "luprolex_hormone_injections_duodart_daily",
+    "blood_thinner_pletaal_sr_100_mg_stopped_two_days",
+    "filipino_congressmen_co_patients_dinner_meeting",
+    "dr_siegfried_block_assistant_to_dr_paul_niehans_1931_founder",
+    "pontifical_scientific_academy_membership_alongside_alexander_fleming",
+    "celebrity_patient_roster_pope_paul_xii_de_gaulle_eisenhower_madonna_picasso",
+    "petra_block_current_medical_director_daniel_administrative",
+    "english_to_german_diagnosis_translation_morato",
+    "organ_specific_embryo_part_injection_principle",
+    "18500_euros_fee_full_board_group_discount",
+    "agie_blood_chemistry_extraction",
+    "cathy_serrano_filipino_assistant_cortisone_gargle_protocol",
+    "10_syringes_30cc_pink_cloudy_white_six_minute_injection",
+    "30_minute_prone_immobility_post_injection",
+    "wednesday_room_confinement_all_meals_brought_in",
+    "morato_villa_medica_parkinson_miracle_healing_2023_transfer",
+    "lake_tegernsee_cruise_seehotel_zur_post_lunch",
+    "augsburg_tour_munich_airport_friday_july_19_2024_return"
+  ],
+  "signature_phrases": [
+    "For confidentiality, I will not identify the patients",
+    "miraculous healing",
+    "the embryo's heart for heart ailments, lungs for lung ailments, etc.",
+    "mostly pink in color or cloudy white in appearance",
+    "Almost painless injections were done in six minutes, as timed by nurse Leonor",
+    "alternative medicine",
+    "stage Pirads 4, though under control",
+    "after two hours (no breakfast), I calmed down",
+    "Nine friends joined me",
+    "Filipino congressmen and their companions who were also undergoing the LCT",
+    "I remained in bed for most of Tuesday"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, patient)",
+      "CJ's daughter Len",
+      "Leonor Ching (CJ's personal nurse)",
+      "Male nurse Almer (ECG)",
+      "Dr. Andres Morato (Filipino physician, Berlin-trained, joined Block Clinic 2023)",
+      "Dr. Petra Block (current medical director)",
+      "Dr. Daniel Block (administrative director)",
+      "Dr. Siegfried Block (deceased, assistant to Niehans, succeeded as LCT proponent)",
+      "Dr. Paul Niehans (1931 LCT founder)",
+      "Nurse Agie (blood chemistry)",
+      "Cathy Serrano (Filipino clinic assistant)",
+      "Pope Paul XII (celebrity patient)",
+      "Charles de Gaulle (celebrity patient)",
+      "Dwight Eisenhower (celebrity patient)",
+      "Madonna (celebrity patient)",
+      "Pablo Picasso (celebrity patient)",
+      "Alexander Fleming (referenced via Pontifical Scientific Academy)",
+      "Filipino congressmen (unnamed co-patients)"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "institutions": [
+      "Block Clinic (Lenggries / Bad Tölz, Germany)",
+      "BSW Isarwinkel Hotel (Bad Tölz)",
+      "Villa Medica (Germany, closed by authorities, Morato's prior post)",
+      "Pontifical Scientific Academy",
+      "Seehotel zur Post (Lake Tegernsee)"
+    ],
+    "places": [
+      "Lenggries, Germany",
+      "Bad Tölz, Germany",
+      "Lake Tegernsee, Germany",
+      "Augsburg, Germany",
+      "Munich Airport"
+    ],
+    "dates": [
+      "1931 (Dr. Niehans founds LCT)",
+      "2023 (Morato joins Block Clinic; Villa Medica closed)",
+      "July 14, 2024 (arrival)",
+      "July 15, 2024 (free morning, walking tour, Petra Block briefing)",
+      "July 16, 2024 (LCT injection day)",
+      "July 17, 2024 (Wednesday room confinement)",
+      "July 18, 2024 (Lake Tegernsee tour)",
+      "July 19, 2024 (departure)"
+    ],
+    "amounts": [
+      "18,500 euros normal medical fee (full board, group-discount possible)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "LCT operates on an organ-specific matching principle -- the embryo's heart parts for heart ailments, lungs for lung ailments, etc. -- administered as 10 emulsified syringes (5 per side of the buttocks) in a near-painless six-minute procedure, followed by 30 minutes of prone immobility.",
+      "rhetorical_move": "Operational walkthrough explaining the matching logic by example.",
+      "confidence": "very high -- eyewitness procedural account"
+    },
+    {
+      "claim": "Block-clinic lineage and credentials are substantial: Dr. Siegfried Block was assistant to LCT founder Dr. Paul Niehans (1931), honored as member of the Pontifical Scientific Academy alongside penicillin discoverer Alexander Fleming; celebrity-patient roster includes Pope Paul XII, de Gaulle, Eisenhower, Madonna, and Picasso.",
+      "rhetorical_move": "Credentialing-by-association establishing legitimacy through prestigious patients.",
+      "confidence": "high -- descriptive recital of clinic history"
+    },
+    {
+      "claim": "Dr. Andres Morato's 'alternative medicine' commitment is grounded in a witnessed 'miraculous healing' at the Villa Medica of a Parkinson's-afflicted boy who walked again 48 hours after LCT injections; he joined the Block Clinic in 2023 after Villa Medica was closed by German authorities.",
+      "rhetorical_move": "Practitioner-biography vignette legitimizing the Filipino physician's role.",
+      "confidence": "high -- reported eyewitness account"
+    }
+  ],
+  "notable_anecdotes": [
+    {
+      "description": "Six baseline complaints documented in CJ's intake with Dr. Morato: (1) prostate cancer, stage Pirads 4, under control via Luprolex hormones and daily Duodart; (2) sharp lumbar pain radiating through legs to feet; (3) knee pain; (4) carpal tunnel syndrome; (5) varicose veins; and (6) general body and mental weakness. CJ was advised to stop Pletaal SR 100 mg blood thinner for two days.",
+      "purpose": "Complete clinical baseline against which Part 4 will measure outcomes."
+    },
+    {
+      "description": "Tuesday July 16 protocol: nurse Agie extracted blood for chemistry; Cathy Serrano (Filipino assistant) asked CJ to gargle 30 seconds and swallow 10 mL of liquid Cortisone -- which he 'promptly expelled,' coughing violently with nose drips, tear flows, and heavy sweating for two hours requiring towel and bed rest. After calming down, a female nurse had him prone face-down; at 10:21 a.m., Dr. Morato came in with 10 syringes (about 30 cc each, two or three larger, 'mostly pink in color or cloudy white in appearance') and injected them in rapid succession -- 5 on each side of the buttocks -- in six minutes timed by nurse Leonor; CJ remained motionless prone for 30 minutes.",
+      "purpose": "Step-by-step clinical chronicle from blood draw through Cortisone gargle to buttocks injection."
+    },
+    {
+      "description": "Dr. Morato's biography: he studied and practiced medicine in Berlin; as a medical staff member at the Villa Medica in Germany, he witnessed the 'miraculous healing' of a young boy 'afflicted with advanced Parkinson's with his saliva drooling, confined to a wheelchair, unable to stand up and walk, and with stiff hand muscles' -- '48 hours after the LCT injections, he walked, his saliva drooling ceased, and looked very normal.' Immensely impressed, Morato devoted his remaining career to 'alternative medicine' and moved to the Block Clinic in 2023 after Villa Medica was closed by German authorities.",
+      "purpose": "Practitioner-witness story legitimizing the Filipino-physician connection."
+    },
+    {
+      "description": "Block Clinic celebrity-patient roster: Pope Paul XII, Charles de Gaulle, Dwight Eisenhower, Madonna, Pablo Picasso, and 'other celebrities.' Dr. Siegfried Block was honored by Pope Paul XII as a member of the Pontifical Scientific Academy alongside Alexander Fleming (discoverer of penicillin). His daughter Dr. Petra Block is current medical director; grandson Dr. Daniel Block is administrative director.",
+      "purpose": "Prestige-by-association catalog underwriting the clinic's claims."
+    },
+    {
+      "description": "Group logistics: Nine friends accompanied CJ; the LCT was relocated to Bad Tölz because the Lenggries hotel was under renovation; the group stayed at the BSW Isarwinkel Hotel; CJ in Room 220, daughter Len and personal nurse Leonor Ching in Room 219; Thursday tour to Lake Tegernsee with lunch at Seehotel zur Post; Friday checkout at 9:30 a.m. with Augsburg tour and Munich Airport departure.",
+      "purpose": "Trip-itinerary documentation supplying full operational context."
+    }
+  ],
+  "target_audience": {
+    "primary": "Filipino readers considering LCT treatment in Germany",
+    "secondary": "Family caregivers and physicians weighing referral options for older patients",
+    "tertiary": "Readers of the four-part stem-cell series following the narrative arc"
+  },
+  "register_markers": [
+    "Patient-diary register: hourly chronology, named nurses, room numbers",
+    "Privacy markers: 'For confidentiality, I will not identify the patients'",
+    "Clinical-procedural specificity: syringe count, cc volumes, injection minute-marker",
+    "Celebrity-patient prestige roster",
+    "Multilingual workflow notation (English diagnosis translated to German)",
+    "Itinerary closure with named restaurant and lake destinations",
+    "Series-bridge close: 'Next Monday, I will summarize...'"
+  ],
+  "decision_framework_signals": [
+    "Organ-specific embryo matching: heart parts for heart ailments, lungs for lung ailments, etc.",
+    "10-syringe, 5-per-side, 6-minute injection protocol followed by 30-minute prone immobility",
+    "Pre-injection prep: blood thinner cessation 48 hours prior, blood chemistry, Cortisone gargle/swallow",
+    "Credentialing-by-association: Niehans 1931 lineage + Pontifical Scientific Academy + celebrity patients",
+    "Cost benchmark: 18,500 euros for full board + treatment, with group discount available"
+  ],
+  "one_paragraph_summary": "Part 3 of the stem-cell series is a procedural walkthrough of CJ Panganiban's July 14-19, 2024 Living Cell Therapy treatment at the Block Clinic in Germany. Nine friends accompanied him; because the Lenggries hotel was under renovation, the LCT was conducted in Bad Tölz at the BSW Isarwinkel Hotel (CJ in Room 220, daughter Len and personal nurse Leonor Ching in Room 219). After arrival on Sunday July 14, male nurse Almer took CJ's ECG and Filipino physician Dr. Andres Morato (Berlin-trained, who joined the Block Clinic in 2023 after Villa Medica was closed by German authorities) took CJ's medical history, documenting six baseline complaints: prostate cancer at stage Pirads 4 (managed with Luprolex hormones and daily Duodart), sharp lumbar pain radiating to feet, knee pain, carpal tunnel syndrome, varicose veins, and general weakness -- with instructions to suspend Pletaal SR 100 mg blood thinner for two days. Monday afternoon, Dr. Petra Block briefed CJ via Morato's English-to-German translation, explaining LCT's organ-specific matching principle (embryo heart parts for heart ailments, lung parts for lung ailments) and the 18,500-euro normal fee inclusive of full board with group discounts available. Tuesday July 16 was injection day: nurse Agie drew blood; Cathy Serrano (Filipino clinic assistant) had CJ gargle and swallow 10 mL of liquid Cortisone -- which CJ promptly expelled with two hours of violent coughing, nose drips, tears, and heavy sweating; then prone face-down, at 10:21 a.m. Dr. Morato administered 10 syringes (about 30 cc each, mostly pink or cloudy white) in rapid succession -- five per buttocks side -- in six minutes timed by nurse Leonor, followed by 30-minute prone immobility. Wednesday July 17 brought room confinement with all meals delivered. Morato shared the practitioner-witness story that converted him to 'alternative medicine': a young Parkinson's-afflicted boy at Villa Medica who walked again 48 hours after LCT injections. Thursday brought a Lake Tegernsee cruise with lunch at Seehotel zur Post; Friday brought 9:30 a.m. checkout, an Augsburg tour, and the Munich Airport return. The Block Clinic lineage (Niehans 1931 founder, Siegfried as Niehans's assistant honored by Pope Paul XII at the Pontifical Scientific Academy alongside Fleming, daughter Petra as current medical director, grandson Daniel as administrative director) and celebrity patient roster (Pope Paul XII, de Gaulle, Eisenhower, Madonna, Picasso) frame the credentials story.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

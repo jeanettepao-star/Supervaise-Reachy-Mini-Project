@@ -1,0 +1,152 @@
+{
+  "id": "CA284",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 284,
+  "title": "Constitutional balance in the BBL",
+  "date": "2018-02-11",
+  "link": "https://opinion.inquirer.net/110942/constitutional-balance-bbl",
+  "keywords": [
+    "Bangsamoro Basic Law",
+    "North Cotabato MOA-AD",
+    "control vs supervision",
+    "Bangsamoro parliamentary structure",
+    "national scope police"
+  ],
+  "primary_topics": [
+    "Constitutional parameters for a valid Bangsamoro Basic Law",
+    "Control vs supervision distinction for autonomous regions",
+    "Presumption of constitutionality and the balancing approach"
+  ],
+  "sub_topics": [
+    "Author's four prior Cha-cha columns and substitute BBL column for Senate",
+    "Senate BBL subcommittee chaired by Sen. Juan Miguel Zubiri",
+    "North Cotabato v. Government (Oct. 14, 2008) as essential guide",
+    "Justice (later Ombudsman) Conchita Carpio Morales as ponente",
+    "SAJ Carpio's separate opinion: 36 unconstitutional MOA-AD provisions",
+    "CJ Sereno's 72-page memorandum as Drilon's counsel in North Cotabato",
+    "Philconsa v. Government (Nov. 29, 2016) -- premature suit on CAB and FAB",
+    "Constitutional caveat: autonomous regions within PH framework, sovereignty, territorial integrity",
+    "BBL cannot cede territory or impair three-branch prerogatives",
+    "Control (review, reverse, modify acts of subalterns) vs supervision (ensure faithful execution by local officials)",
+    "Independent commissions: regional offices allowed but cannot replace national offices",
+    "Bangsamoro police as part of PNP (national in scope)",
+    "Parliamentary Bangsamoro structure headed by chief minister: not unconstitutional",
+    "Presumption of constitutionality -- BBL too vital to be invalidated in entirety",
+    "Delicate balancing: Charter requirements + Bangsamoro aspirations"
+  ],
+  "signature_phrases": [
+    "constitutional balance",
+    "debacle of the Memorandum of Agreement on Ancestral Domain",
+    "36 unconstitutional provisions",
+    "control and supervision",
+    "the justness and legitimacy of the cause of the Bangsamoro people",
+    "delicate balancing of these parameters",
+    "what the Constitution does not prohibit expressly or impliedly is allowed",
+    "too vital to our country to be invalidated in its entirety"
+  ],
+  "entities": {
+    "people": [
+      "Sen. Juan Miguel Zubiri (BBL subcommittee chair)",
+      "Justice / later Ombudsman Conchita Carpio Morales (North Cotabato ponente)",
+      "SAJ Antonio T. Carpio",
+      "CJ Maria Lourdes P. A. Sereno (Drilon's counsel in North Cotabato)",
+      "Sen. Franklin M. Drilon",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Senate of the Philippines",
+      "Supreme Court of the Philippines",
+      "Moro Islamic Liberation Front (MILF) -- implied",
+      "Philippine National Police (PNP)",
+      "Commission on Elections (Comelec)",
+      "Civil Service Commission (CSC)",
+      "Commission on Audit (COA)",
+      "Commission on Human Rights (CHR)"
+    ],
+    "cases": [
+      "North Cotabato v. Government (October 14, 2008, per J. Carpio Morales)",
+      "Philconsa v. Government (November 29, 2016)"
+    ],
+    "laws_treaties": [
+      "Bangsamoro Basic Law (BBL) -- pending",
+      "Comprehensive Agreement on the Bangsamoro (CAB)",
+      "Framework Agreement on the Bangsamoro (FAB)",
+      "1987 Constitution (autonomous regions, police, independent commissions)"
+    ],
+    "events": [
+      "Senate subcommittee hearings on BBL",
+      "Author's absence at two Senate hearings on Cha-cha and two on BBL"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Senate should use North Cotabato v. Government (especially SAJ Carpio's separate opinion listing 36 unconstitutional MOA-AD provisions and CJ Sereno's 72-page memorandum) as its essential guide to craft a constitutionally sound BBL.",
+      "rhetorical_move": "reference-recommendation to the legislative body",
+      "confidence": "high"
+    },
+    {
+      "claim": "The BBL cannot cede territory, impair three-branch prerogatives, or override the president's control over executive offices -- but the president has only general supervision (not control) over local governments.",
+      "rhetorical_move": "constitutional-parameter enumeration",
+      "confidence": "high"
+    },
+    {
+      "claim": "Regional offices of independent commissions may be established but cannot replace or lessen the national offices' constitutional authority.",
+      "rhetorical_move": "limiting principle on devolution of constitutional bodies",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Bangsamoro police must remain part of and answerable to the PNP because the Constitution mandates a nationally-scoped police force.",
+      "rhetorical_move": "constitutional textual argument against a separate Bangsamoro police",
+      "confidence": "high"
+    },
+    {
+      "claim": "A parliamentary Bangsamoro structure with a chief minister elected by Bangsamoro MPs is not unconstitutional -- what the Constitution does not prohibit is allowed.",
+      "rhetorical_move": "permissive constitutional reading",
+      "confidence": "high"
+    },
+    {
+      "claim": "Laws are presumed constitutional and the BBL is too vital to be invalidated in its entirety -- only clearly unconstitutional parts should be set aside.",
+      "rhetorical_move": "presumption-of-constitutionality as a saving principle",
+      "confidence": "high"
+    },
+    {
+      "claim": "The key to Mindanao peace is a delicate balancing of constitutional parameters with the justness and legitimacy of the Bangsamoro people's aspirations.",
+      "rhetorical_move": "synthesizing-balance prescription",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Author substituting written columns for his in-person Senate appearances -- a gesture of institutional respect for the Senate's need for his views, even in his absence.",
+    "SAJ Carpio's separate opinion in North Cotabato listing 36 specific unconstitutional provisions of the MOA-AD -- a still-actionable legislative checklist for the Senate.",
+    "CJ Sereno's 72-page memorandum in North Cotabato as counsel for petitioner Sen. Drilon -- a document the Senate was advised to study for BBL crafting.",
+    "The control-vs-supervision distinction: the President controls executive offices (review/reverse/modify acts) but merely supervises LGUs/autonomous regions (ensure faithful execution) -- a constitutional line the BBL must not cross."
+  ],
+  "target_audience": [
+    "Senate BBL subcommittee chaired by Sen. Zubiri",
+    "Senators and House members drafting the final BBL",
+    "MILF peace panel and Bangsamoro negotiators",
+    "Constitutional law scholars",
+    "Citizens invested in Mindanao peace"
+  ],
+  "register_markers": [
+    "Legislative-advice register addressed directly to the Senate",
+    "Case-citation checklist style (North Cotabato + Philconsa)",
+    "Constitutional-parameter enumeration",
+    "Control/supervision definitional distinction",
+    "Permissive-constitutional-reading formula ('what is not prohibited is allowed')",
+    "Balancing-test closing"
+  ],
+  "decision_framework_signals": [
+    "Use North Cotabato v. Government as the constitutional checklist -- particularly Carpio's 36-provision list",
+    "Apply the control-vs-supervision distinction to every devolution of power: President controls executive offices; merely supervises autonomous regions",
+    "Preserve national scope for the police, independent commissions, and military -- the Constitution's mandates here are explicit",
+    "Read what is not prohibited as allowed -- the parliamentary Bangsamoro structure passes this test",
+    "Apply the presumption of constitutionality -- invalidate only clearly unconstitutional provisions, not the entire law",
+    "Balance constitutional rigor with recognition of the Bangsamoro people's legitimate aspirations -- peace requires both"
+  ],
+  "one_paragraph_summary": "Having been invited by the Senate twice to speak on Cha-cha and twice on the BBL -- all four times absent due to prior commitments -- Panganiban substitutes written analysis for the BBL hearing. He advises the Senate BBL subcommittee (chaired by Sen. Juan Miguel Zubiri) to use North Cotabato v. Government (October 14, 2008, per J. Conchita Carpio Morales) as its essential constitutional guide -- particularly SAJ Carpio's separate opinion listing 36 unconstitutional provisions of the MOA-AD, and CJ Sereno's 72-page memorandum as counsel for petitioner Sen. Drilon. He notes that Philconsa v. Government (November 29, 2016) held that a pre-enactment challenge to the CAB and FAB was premature. He lays out the constitutional parameters: autonomous regions must fall within PH sovereignty and territorial integrity; the BBL cannot cede territory or impair three-branch prerogatives; executive offices are subject to the president's control while autonomous regions are subject only to general supervision (not control); regional offices of independent commissions may be established but cannot replace national offices; the Bangsamoro police must remain part of the PNP (constitutionally national in scope); and a parliamentary Bangsamoro structure with a chief minister elected by MPs is permissible because what the Constitution does not prohibit is allowed. He closes with the presumption of constitutionality -- the BBL is too vital to be invalidated in its entirety -- and the synthesizing principle: a delicate balancing of constitutional parameters with the justness and legitimacy of the Bangsamoro people's aspirations is the key to peace.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

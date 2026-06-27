@@ -1,0 +1,207 @@
+{
+  "id": "CA112",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 112,
+  "title": "Origin of judicial activism",
+  "date": "2023-04-03",
+  "link": "https://opinion.inquirer.net/162141/origin-of-judicial-activism",
+  "keywords": [
+    "US Supreme Court Warren Court 1950s",
+    "Eisenhower two mistakes still sitting in the Supreme Court",
+    "CJ Earl Warren J William Brennan",
+    "Hugo Black William Douglas",
+    "Thurgood Marshall Abe Fortas",
+    "Brown v. Board of Education May 17 1954",
+    "Miranda v. Arizona June 13 1966",
+    "Terry v. Ohio June 10 1968",
+    "Mapp v. Ohio June 19 1961",
+    "NY Times v. Sullivan March 9 1964",
+    "Gideon v. Wainwright March 18 1963",
+    "Baker v. Carr March 26 1962",
+    "separate is not equal",
+    "read him his rights",
+    "one-man-one-vote",
+    "fruit of the poisonous tree",
+    "Felix Frankfurter Harvard School judicial restraint political thicket",
+    "Robert Jackson Nuremberg",
+    "conservative-liberal 5-4 sway",
+    "Sandra Day O'Connor first woman Jan. 31 2006 retirement",
+    "Anthony Kennedy sway vote",
+    "Trump appointees Gorsuch Kavanaugh Barrett 6-3",
+    "Roe v. Wade Jan. 22 1973",
+    "Dobbs v. Jackson June 24 2022"
+  ],
+  "primary_topics": [
+    "us_supreme_court_warren_court_activist_origins",
+    "judicial_activism_vs_judicial_restraint_intellectual_history",
+    "republican_appointments_vs_democratic_appointments_dynamics",
+    "scotus_swing_to_conservative_bulwark_post_trump"
+  ],
+  "sub_topics": [
+    "philippine_constitutions_1935_to_present_bearing_from_us",
+    "republican_presidential_system_and_tripartite_powers",
+    "eisenhower_two_mistakes_warren_and_brennan",
+    "warren_brennan_black_douglas_quartet",
+    "later_addition_thurgood_marshall_and_abe_fortas",
+    "warren_initially_despised_then_heralded_as_great_chief_justice",
+    "brown_v_board_may_17_1954_separate_is_not_equal",
+    "miranda_v_arizona_june_13_1966_read_him_his_rights",
+    "terry_v_ohio_june_10_1968",
+    "mapp_v_ohio_june_19_1961_fruit_of_poisonous_tree",
+    "ny_times_v_sullivan_march_9_1964",
+    "gideon_v_wainwright_march_18_1963",
+    "baker_v_carr_march_26_1962_one_man_one_vote",
+    "frankfurter_harvard_school_judicial_restraint",
+    "robert_jackson_nuremberg_critique_of_activist_radicals",
+    "sandra_day_oconnor_first_woman_jan_31_2006_retirement",
+    "anthony_kennedy_sway_vote",
+    "trump_appointees_gorsuch_kavanaugh_barrett_6_3_bulwark",
+    "dobbs_v_jackson_june_24_2022_overturning_roe_v_wade_jan_22_1973"
+  ],
+  "signature_phrases": [
+    "Yes, two, and they are still sitting in the Supreme Court",
+    "separate is not equal",
+    "read him his rights",
+    "one-man-one-vote",
+    "fruit of the poisonous tree",
+    "to establish rules of law, not to provide justice",
+    "too mechanical",
+    "all heart out of the law",
+    "the political thicket",
+    "the amiable but fiercely independent Sandra Day O'Connor",
+    "our friend, the brilliant Justice Anthony Kennedy",
+    "Since membership in the Scotus is for life, the liberals will take generations to reverse Dobbs v. Jackson, as it did for the conservatives to reverse Roe v. Wade",
+    "While US justices have a choice on whether to be liberal or conservative, their Philippine counterparts do not have such luxury",
+    "Why? Read the answer next Monday"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "President Dwight D. Eisenhower",
+      "Fred Friendly (CBS news producer)",
+      "CJ Earl Warren",
+      "J William Brennan",
+      "J Hugo Black",
+      "J William Douglas",
+      "J Thurgood Marshall",
+      "J Abe Fortas",
+      "J Felix Frankfurter (Harvard School restraint)",
+      "J Robert Jackson (Nuremberg prosecutor)",
+      "J Sandra Day O'Connor (first woman SCOTUS, retired Jan. 31, 2006)",
+      "J Anthony Kennedy ('our friend')",
+      "President Donald Trump (named three conservatives)",
+      "J Neil Gorsuch",
+      "J Brett Kavanaugh",
+      "J Amy Coney Barrett"
+    ],
+    "cases": [
+      "Brown v. Board of Education (May 17, 1954)",
+      "Miranda v. Arizona (June 13, 1966)",
+      "Terry v. Ohio (June 10, 1968)",
+      "Mapp v. Ohio (June 19, 1961)",
+      "NY Times v. Sullivan (March 9, 1964)",
+      "Gideon v. Wainwright (March 18, 1963)",
+      "Baker v. Carr (March 26, 1962)",
+      "Roe v. Wade (Jan. 22, 1973)",
+      "Dobbs v. Jackson (June 24, 2022)"
+    ],
+    "laws_treaties": [
+      "US Constitution",
+      "Philippine Constitutions of 1935 and later (taking bearing from the US)"
+    ],
+    "institutions": [
+      "Supreme Court of the United States (Scotus)",
+      "CBS News (Fred Friendly interview)",
+      "Harvard Law School (Frankfurter's 'Harvard School')",
+      "Nuremberg war crimes tribunal"
+    ],
+    "places": [
+      "United States",
+      "Nuremberg, Germany",
+      "Philippines (comparative referent)"
+    ],
+    "dates": [
+      "1950s (Scotus turned activist and libertarian)",
+      "1961 (Eisenhower 'two mistakes' interview)",
+      "May 17, 1954 (Brown)",
+      "March 26, 1962 (Baker)",
+      "March 18, 1963 (Gideon)",
+      "March 9, 1964 (Sullivan)",
+      "June 19, 1961 (Mapp)",
+      "June 13, 1966 (Miranda)",
+      "June 10, 1968 (Terry)",
+      "Jan. 22, 1973 (Roe)",
+      "Jan. 31, 2006 (O'Connor retirement)",
+      "June 24, 2022 (Dobbs)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The 1950s Warren Court turn was the origin point of judicial activism -- quartet of Warren, Brennan, Black, Douglas (later joined by Marshall and Fortas) overhauled American jurisprudence to expand civil rights and personal liberties.",
+      "rhetorical_move": "Historicizing the activism debate around a named quartet and a presidential regret ('Yes, two, and they are still sitting in the Supreme Court').",
+      "confidence": "high -- historical-narrative claim"
+    },
+    {
+      "claim": "The Frankfurter/Harvard School view that the Court exists 'to establish rules of law, not to provide justice' is one defensible pole; the activist counterclaim -- that the threat comes not from liberal justices but from justices 'abdicating their responsibility to protect the people from tyrannies of the Establishment' -- is the other.",
+      "rhetorical_move": "Even-handed framing of the internal Court debate, presenting both philosophies before privileging the activist line.",
+      "confidence": "medium-high -- balanced exposition before the Philippine pivot"
+    },
+    {
+      "claim": "Trump-appointed conservatives (Gorsuch, Kavanaugh, Barrett) have transformed SCOTUS into a 6-3 conservative bulwark, with Dobbs v. Jackson (June 24, 2022) overturning Roe v. Wade (Jan. 22, 1973) -- and 'the liberals will take generations to reverse Dobbs.'",
+      "rhetorical_move": "Current-events application demonstrating how appointment-driven composition shifts cement doctrinal eras.",
+      "confidence": "high -- descriptive of current SCOTUS state"
+    },
+    {
+      "claim": "Philippine judges do not enjoy the US choice between liberalism and conservatism -- they are constitutionally bound. The reasoning is set up here and resolved in A111.",
+      "rhetorical_move": "Cliffhanger close: 'Why? Read the answer next Monday.'",
+      "confidence": "high -- programmatic preview"
+    }
+  ],
+  "notable_anecdotes": [
+    {
+      "description": "Eisenhower interview with CBS's Fred Friendly in 1961: asked whether he had made any great mistakes as president, Eisenhower 'immediately and without hesitation' snapped, 'Yes, two, and they are still sitting in the Supreme Court' -- referring to CJ Earl Warren and J William Brennan, both of whom he had appointed expecting deference to government policymaking.",
+      "purpose": "Anchors the entire activist origin narrative in a single quotable presidential regret."
+    },
+    {
+      "description": "Warren was initially despised by the liberals as 'a bluff,' 'a mediocre,' 'an outgoing politician' with no judicial experience and no intellectual gravitas -- but by retirement was heralded by the same critics as one of the greatest US chief justices.",
+      "purpose": "Reputational reversal demonstrating how activist consequentialism redeems unconventional appointments."
+    },
+    {
+      "description": "Felix Frankfurter (Harvard School) and Robert Jackson (former Nuremberg prosecutor) 'never tired of lecturing the radicals on the need for judicial restraint and of condemning them for periodically entering the political thicket.'",
+      "purpose": "Names the conservative-restraint pole with marquee figures."
+    },
+    {
+      "description": "Sandra Day O'Connor (first woman SCOTUS, retired Jan. 31, 2006) and Anthony Kennedy (CJ's 'friend, the brilliant Justice') held the 'sway vote' case-to-case for decades -- until Trump's three conservative appointments produced the 6-3 bulwark.",
+      "purpose": "Personal-connection disclosure (CJ knew Kennedy personally) inside the swing-vote era recap."
+    },
+    {
+      "description": "Dobbs v. Jackson (June 24, 2022) overturning Roe v. Wade (Jan. 22, 1973) -- and the observation that, because Scotus membership is lifetime, 'the liberals will take generations to reverse Dobbs v. Jackson, as it did for the conservatives to reverse Roe v. Wade.'",
+      "purpose": "Generation-scale durability point grounding the warning against tying constitutional rights to judge-made precedent."
+    }
+  ],
+  "target_audience": {
+    "primary": "Filipino lawyers, judges, and law students orienting themselves in the activism-vs-restraint debate",
+    "secondary": "Comparative constitutionalists tracking US-PH judicial interaction",
+    "tertiary": "Inquirer readers interested in the Roe-to-Dobbs arc and what it portends"
+  },
+  "register_markers": [
+    "Intellectual-history register: named protagonists, dates, signature decisions",
+    "Quotation-as-anchor: opening Eisenhower line carries the whole piece",
+    "Comparative-doctrinal framing US vs PH",
+    "Affectionate personal disclosure inside scholarly exposition ('our friend, the brilliant Justice Anthony Kennedy')",
+    "Series-cliffhanger close: 'Read the answer next Monday'",
+    "Parallel famous-phrase enumeration ('separate is not equal,' 'read him his rights,' 'one-man-one-vote,' 'fruit of the poisonous tree')"
+  ],
+  "decision_framework_signals": [
+    "Eisenhower regret as parable: appointing for expected deference does not guarantee it",
+    "Activism-vs-restraint dyad: Frankfurter/Harvard School (rules of law, narrow rulings, seldom certiorari) vs Warren/Brennan/Black/Douglas (protect from Establishment tyrannies)",
+    "Sway-vote regime ended by appointment surge -- composition shapes era",
+    "Lifetime appointments + generational reversal lag = doctrinal eras measured in decades",
+    "Anchor-jurisprudence-vs-anchor-constitution argument (cliffhanger to A111): the choice is the difference between rollback-vulnerable and rollback-resistant rights"
+  ],
+  "one_paragraph_summary": "CJ Panganiban traces the origin of judicial activism to the 1950s turn of the US Supreme Court -- a turn that Philippine constitutional thought has inherited because the 1935 and later Philippine Constitutions 'took their bearing from the Constitution of the United States,' especially in the republican presidential system, the tripartite allocation of powers, and the sanctity of human rights. The anchoring anecdote is President Dwight D. Eisenhower's 1961 CBS interview with Fred Friendly: asked whether he had made any great mistakes, Eisenhower snapped 'Yes, two, and they are still sitting in the Supreme Court' -- meaning CJ Earl Warren and J William Brennan, both of whom Eisenhower had appointed expecting deference but who instead teamed with Justices Hugo Black and William Douglas (later joined by Thurgood Marshall and Abe Fortas) to overhaul American jurisprudence via Brown v. Board of Education (May 17, 1954), Miranda v. Arizona (June 13, 1966), Terry v. Ohio (June 10, 1968), Mapp v. Ohio (June 19, 1961), NY Times v. Sullivan (March 9, 1964), Gideon v. Wainwright (March 18, 1963), and Baker v. Carr (March 26, 1962) -- supplying the famous phrases 'separate is not equal,' 'read him his rights,' 'one-man-one-vote,' and 'fruit of the poisonous tree.' The internal opposition came from Felix Frankfurter's Harvard School of judicial restraint and Nuremberg-veteran Robert Jackson, who believed the Court existed 'to establish rules of law, not to provide justice'; the activists countered that 'all heart' had been excised from the law and that abdication, not intervention, was the real threat. CJ then traces the sway-vote era through Sandra Day O'Connor (first woman SCOTUS, retired Jan. 31, 2006) and Anthony Kennedy (CJ's personal 'friend, the brilliant Justice') to the Trump-era transformation: three conservative appointments (Gorsuch, Kavanaugh, Barrett) producing the current 6-3 bulwark, with Dobbs v. Jackson (June 24, 2022) overturning Roe v. Wade (Jan. 22, 1973), and the generational-reversal warning that 'liberals will take generations to reverse Dobbs.' The piece closes with a cliffhanger pointing to A111: while US justices may choose between activist and passivist leanings, their Philippine counterparts cannot -- 'Why? Read the answer next Monday.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

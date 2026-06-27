@@ -1,0 +1,186 @@
+{
+  "id": "CA230",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 230,
+  "title": "Dismissals, convictions and acquittals",
+  "date": "2019-12-08",
+  "link": "https://opinion.inquirer.net/125754/dismissals-convictions-and-acquittals",
+  "keywords": [
+    "Sandiganbayan",
+    "ill-gotten wealth",
+    "Ombudsman Morales",
+    "GMA",
+    "Bong Revilla",
+    "JPE",
+    "plunder",
+    "bail"
+  ],
+  "primary_topics": [
+    "Reader-question synthesis: why dismissals for Marcoses but convictions for honest officials?",
+    "Defense of Ombudsman Conchita Carpio Morales's reputation despite acquittals downstream",
+    "Three SBN ill-gotten wealth dismissals attributed to OSG/PCGG procedural failure (referenced)",
+    "Padaca conviction pending MR -- legal philosophy of SBN justices as outcome variable",
+    "GMA acquittal (Bersamin ponente): failure to identify the 'main plunderer'",
+    "JPE bail grant (Bersamin ponente): advanced age and fragile health, not capital-offense bail test",
+    "Bong Revilla acquittal (Econg ponente): proof beyond reasonable doubt failed",
+    "Republic v. Africa (Dec 4, 2019) showing recovery is possible with sufficient proof against cronies but not against Enrile/Imelda/Marcos Jr."
+  ],
+  "sub_topics": [
+    "Reader questions as rhetorical-but-real complaints about judicial outcomes",
+    "Common-answer impossibility ('No common answer can be given to these tough questions')",
+    "Per-case uniqueness and per-justice philosophical variation as twin explanations",
+    "Morales's recognition: UP honorary doctorate of law + Ramon Magsaysay Award + AIM honorary doctorate of management Dec 8 9am",
+    "Cumulative SBN/OSG/PCGG officials over 30 years -- no single accountability for procedural failures",
+    "Civil Code Art. 8: 'judicial decisions ... form a part of (our) legal system' regardless of dissent",
+    "Bersamin's later elevation to CJ as supporters' defense of his earlier controversial ponencias",
+    "Strict-literal vs liberal-interpretation as legal-philosophy axis affecting Padaca MR outcome",
+    "Repeated finger-pointing at prosecution as cumulative SBN frustration"
+  ],
+  "signature_phrases": [
+    "My recent columns",
+    "drew a barrage of questions",
+    "Why was an honest official convicted",
+    "the ill-gotten wealth cases against the Marcoses (and their alleged cronies) were dismissed",
+    "former president Gloria Macapagal-Arroyo (GMA)",
+    "Senator Bong Revilla",
+    "former senator Juan Ponce Enrile (JPE)",
+    "facing a capital offense, granted bail",
+    "the fearless and indefatigable Ombudsman",
+    "her integrity and dignity restored the people's faith in the rule of law",
+    "No common answer can be given to these tough questions",
+    "rhetorical",
+    "the cases have their own unique facts and features",
+    "may have differing philosophies of law",
+    "elementary rules of evidence",
+    "I will no longer repeat why",
+    "languished for 30 years in the judicial dockets",
+    "incompetence, negligence and malfeasance",
+    "a thorough investigation should be conducted",
+    "preponderance of evidence",
+    "the legal philosophy of the SBN justices",
+    "If they continue to apply the law strictly and literally",
+    "more liberal in their interpretation",
+    "failure of the prosecution to identify the 'main plunderer'",
+    "guilt beyond reasonable doubt",
+    "If these rulings were wrong or misplaced, why was Bersamin later named chief justice?",
+    "form a part of (our) legal system",
+    "repetitive finger-pointing",
+    "esteem for Morales remains vibrant"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (former CJ, columnist)",
+      "Ferdinand Marcos (former president)",
+      "Imelda Marcos (first lady)",
+      "Ferdinand 'Bongbong' Marcos Jr. (defendant in Africa case)",
+      "Juan Ponce Enrile (JPE; bail beneficiary; Africa defendant)",
+      "Gloria Macapagal-Arroyo (GMA; acquitted of plunder)",
+      "Senator Bong Revilla (acquitted of plunder)",
+      "Grace Padaca (Isabela ex-governor; convicted; MR pending)",
+      "Ombudsman Conchita Carpio Morales (retired; defended)",
+      "Justice Lucas P. Bersamin (later CJ; ponente of GMA acquittal and JPE bail)",
+      "Justice Geraldine Faith A. Econg (ponente of Revilla acquittal, 186 pages)"
+    ],
+    "institutions": [
+      "Sandiganbayan (SBN)",
+      "Supreme Court of the Philippines",
+      "Office of the Ombudsman (OMB)",
+      "Office of the Solicitor General (OSG)",
+      "Presidential Commission on Good Government (PCGG)",
+      "University of the Philippines (Morales's alma mater; honorary doctorate)",
+      "Asian Institute of Management (AIM; honorary doctorate Dec 8 9am)",
+      "Ramon Magsaysay Award Foundation"
+    ],
+    "cases": [
+      "Republic v. Africa (SBN, Dec 4, 2019) -- recovery from cronies, dismissal against Enrile/Imelda/Marcos Jr. for failure of preponderance",
+      "Padaca conviction (SBN, Nov 15, 2019; MR pending)",
+      "GMA plunder acquittal (SC, Bersamin ponente)",
+      "JPE bail grant (SC, Bersamin ponente)",
+      "Revilla plunder acquittal (SBN, Econg ponente, 186 pages)",
+      "Three SBN ill-gotten wealth dismissals referenced from CJ's Nov 7 column (Benedicto, Tantoco, Gimenez)"
+    ],
+    "laws_treaties": [
+      "Civil Code of the Philippines, Article 8 -- judicial decisions form a part of the legal system",
+      "Constitution of the Philippines -- bail-in-capital-offenses provision (evidence-of-guilt-strong standard)"
+    ],
+    "events": [
+      "Dec 4, 2019 -- Republic v. Africa SBN decision",
+      "Dec 8, 2019 9am -- AIM honorary doctorate of management for Morales",
+      "Nov 24, 2019 -- CJ's column on Marcos wealth dismissals",
+      "Dec 1, 2019 -- CJ's column on Padaca conviction"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "There is no common answer to the apparent contradiction of dismissals for the powerful and convictions for the rest; each case has unique facts and features, and the justices' philosophies of law differ -- to give one answer is to misunderstand judicial reality.",
+      "rhetorical_move": "per-case-uniqueness rebuttal (refusing the rhetorical-aggregate question)",
+      "confidence": "asserted as framework"
+    },
+    {
+      "claim": "The dismissals of the three Marcos ill-gotten wealth cases trace to elementary procedural failures of the OSG and PCGG; while CJ won't repeat why, he affirms that a thorough investigation should identify which of the many solicitors-general, OSG prosecutors, PCGG chairs and commissioners over 30 years bears accountability.",
+      "rhetorical_move": "accountability-localization (cumulative failure must be disaggregated to individual officials)",
+      "confidence": "asserted as recommendation"
+    },
+    {
+      "claim": "The Africa decision (Dec 4, 2019) showed that the SBN does recover ill-gotten wealth from cronies when sufficient proof is presented; the simultaneous dismissal against Enrile, Imelda Marcos and Ferdinand Marcos Jr. shows that the procedural failure was selective, not universal.",
+      "rhetorical_move": "counter-example deployment (recovery is possible -- the failure was not categorical)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Padaca MR's outcome depends on the SBN justices' legal philosophy -- strict-literal application would reiterate conviction; more liberal interpretation would create an acquittal possibility; CJ withholds his own view pending the MR.",
+      "rhetorical_move": "judicial-philosophy variable framing (outcome contingent on interpretive school)",
+      "confidence": "asserted with reservation ('I will just await her MR')"
+    },
+    {
+      "claim": "The GMA acquittal was based on failure to identify the 'main plunderer' and the JPE bail grant on advanced age + fragile health (not constitutional capital-offense bail test); both were strongly dissented from to no avail, but Bersamin's subsequent elevation to CJ functions as a partial defense of his ponencias -- though regardless, per Civil Code Art. 8, these verdicts 'form a part of (our) legal system.'",
+      "rhetorical_move": "controversial-ponencia legitimization (combining institutional-elevation argument and Civil Code finality)",
+      "confidence": "asserted with mixed neutrality and acceptance"
+    },
+    {
+      "claim": "The repetitive finger-pointing at prosecution failure across the dismissed/acquitted cases does NOT diminish Morales -- her reputation 'remains vibrant,' as evidenced by the AIM honorary doctorate of management being conferred on her this very morning.",
+      "rhetorical_move": "reputation-preservation via concurrent honor citation",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The timing precision -- 'at 9 o'clock this morning, Dec. 8' Morales receives the AIM honorary doctorate -- published in a column dated Dec 8, deployed as concurrent evidence that her reputation survives the downstream acquittals.",
+    "The 'why was Bersamin later named chief justice?' rhetorical defense of controversial ponencias -- a quietly devastating use of subsequent elevation as legitimation logic, presented as 'his supporters argue' (CJ does not personally adopt it).",
+    "Civil Code Art. 8 invoked to remind readers that controversial rulings -- once final -- 'form a part of (our) legal system' regardless of subsequent criticism.",
+    "The 30-year accountability problem -- many OSG/PCGG officials over 30 years bungled the Marcos cases, making single-actor accountability impossible without a 'thorough investigation' to disaggregate fault.",
+    "Republic v. Africa (Dec 4, 2019) -- the SBN simultaneously recovering from cronies AND dismissing against Enrile/Imelda/Marcos Jr. used as proof that the failure is selective, not categorical.",
+    "The 186-page Econg ponencia on Revilla -- the very length of the acquittal opinion implicitly raised as evidence of prosecutorial-failure cataloging."
+  ],
+  "target_audience": [
+    "Inquirer general readership (especially readers who wrote in with the 'why this and not that' question)",
+    "Court-followers and legal academics",
+    "Followers of Morales's reputation and post-Ombudsman career",
+    "Lawyers and law students studying plunder-prosecution doctrine",
+    "Civic-minded Filipinos frustrated by acquittal outcomes"
+  ],
+  "register_markers": [
+    "Reader-correspondence framing ('drew a barrage of questions')",
+    "Direct quotation of reader questions in full",
+    "Question-cataloging structure (numbered or sequential)",
+    "Self-citation of prior columns (11/24/19, 12/1/19, 11/7) as scaffolding",
+    "Per-case sequential analysis ('First, ... Second, ... Third, ... Lastly, ...')",
+    "'rhetorical' as classifier marker for self-answering questions",
+    "Civil Code citation ('Art. 8 of the Civil Code') as institutional-finality marker",
+    "Reservation marker ('Without preempting the SBN's action thereon, may I just say...')",
+    "Reputation-preservation closing on Morales",
+    "Time-stamp inserted as concurrent-evidence ('at 9 o'clock this morning, Dec. 8')"
+  ],
+  "decision_framework_signals": [
+    "treats reader-aggregated rhetorical questions as occasions for case-by-case differentiation",
+    "uses 'per-case uniqueness + per-justice philosophical variation' as the canonical CJ explanation for outcome contradictions",
+    "applies Civil Code Art. 8 to enforce respect for final judgments regardless of CJ's or critics' substantive disagreement",
+    "uses subsequent institutional elevation (Bersamin → CJ) as a noted-but-not-endorsed legitimation argument",
+    "deploys strict-literal vs liberal-interpretation axis as predictive framework for MR outcomes",
+    "preserves senior officials' reputations against downstream-outcome blame via concurrent-honor citation",
+    "calls for institutional accountability investigations when 30-year procedural failures lack a single locatable actor"
+  ],
+  "one_paragraph_summary": "Panganiban responds to the 'barrage of questions' from readers who could not reconcile why honest officials like Grace Padaca are convicted while alleged ill-gotten wealth cases against the Marcoses and their cronies are dismissed, why GMA and Bong Revilla were acquitted of humongous plunder, and why Juan Ponce Enrile -- facing a capital offense -- was granted bail. He frames the answers by rejecting the rhetorical-aggregate form of the question: 'No common answer can be given to these tough questions, some of which are really rhetorical. The cases have their own unique facts and features... and the justices... may have differing philosophies of law and may have viewed the cases from different perspectives.' First, the three ill-gotten wealth dismissals trace to OSG/PCGG procedural failures -- explained in his Nov 7 column -- and 30 years of cumulative bungling makes individual accountability hard to locate without a thorough investigation. Republic v. Africa (Dec 4, 2019) is offered as proof that recovery is possible against cronies even as it dismissed cases against Enrile, Imelda Marcos and Ferdinand Marcos Jr. for the same preponderance-of-evidence failure. Second, the Padaca MR's outcome will turn on whether the SBN justices apply law strictly and literally (reiteration of conviction) or liberally (acquittal possibility) -- CJ withholds his view pending the MR. Third, the GMA acquittal rested on failure to identify the 'main plunderer'; the JPE bail grant was grounded in advanced age and fragile health rather than the constitutional capital-offense bail test (evidence-of-guilt-strong) -- both Bersamin ponencias attracted strong dissent to no avail, but his subsequent elevation to CJ functions, per his supporters, as a partial vindication; regardless, Civil Code Art. 8 makes these verdicts 'form a part of (our) legal system.' Lastly, Justice Econg's 186-page Revilla acquittal repeated the prosecution's reasonable-doubt failure. CJ closes by defending Ombudsman Morales: despite the repetitive finger-pointing, her esteem 'remains vibrant,' as the Asian Institute of Management confers on her, at 9 a.m. this very morning of Dec 8, an Honorary Doctorate in Management.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

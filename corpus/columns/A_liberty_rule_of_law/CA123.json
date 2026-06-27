@@ -1,0 +1,149 @@
+{
+  "id": "CA123",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 123,
+  "title": "What if the US asks for Quiboloy's extradition?",
+  "date": "2022-12-19",
+  "link": "https://opinion.inquirer.net/159629/what-if-the-us-asks-for-quiboloys-extradition",
+  "keywords": [
+    "US Treasury sanctions on Quiboloy",
+    "Kingdom of Jesus Christ (KJC)",
+    "RP-US Extradition Treaty (Nov. 13, 1994)",
+    "Secretary of Justice v. Lantion (2000) -- original + MR",
+    "Mark Jimenez extradition case",
+    "Human Rights Day (Dec. 10) framing"
+  ],
+  "primary_topics": [
+    "US Treasury sanctions imposed on Apollo C. Quiboloy and the Kingdom of Jesus Christ (KJC) on Dec. 10 (Human Rights Day)",
+    "RP-US Extradition Treaty (signed Nov. 13, 1994; Senate-ratified) -- two-phase process (executive evaluation; judicial hearing)",
+    "Secretary of Justice v. Lantion (Jan. 18, 2000) initial 9-6 ruling and Oct. 17, 2000 reversal on motion for reconsideration",
+    "Comparison of Quiboloy's possible extradition with the Mark Jimenez precedent",
+    "Justice Secretary Boying Remulla's noncommittal posture given no official US notice and no extradition request yet made"
+  ],
+  "sub_topics": [
+    "Sanctions impact: Quiboloy was no longer in the US but his and KJC's US properties and bank accounts were frozen; US citizens and residents barred from transactions",
+    "Quiboloy's local media counter-claim that the sanctions deprived him of human rights for lack of notice and due process",
+    "Extradition Phase 1: DFA evaluation of treaty-required documents",
+    "Extradition Phase 2: DFA-DOJ filing of extradition charge before an RTC, which decides extradition",
+    "Lantion question: whether the wanted person is entitled to notice and copies of documents during Phase 1",
+    "Initial Lantion majority (Melo ponencia; Bellosillo, Vitug, Kapunan, Quisumbing, Purisima, Buena, Santiago, De Leon): yes -- risk of provisional arrest under 'in case of urgency'",
+    "Initial Lantion dissent (Puno, Panganiban, Davide, Mendoza, Pardo, Reyes): no -- DFA merely checks documents; RTC issues arrest",
+    "Reversal on Oct. 17, 2000 (same 9-6 vote, with Quisumbing, Purisima, and De Leon 'somersaulting'): extradition is not criminal in nature; purpose is to surrender wanted person to face charges abroad",
+    "Mark Jimenez post-Lantion arc: faced US criminal charges with the full panoply of US constitutional rights",
+    "Mark Jimenez was prosecuted for donating to Bill Clinton's campaign (foreigners are barred from US political donations); proceeded despite Jimenez's closeness to GMA and Estrada -- neither intervened",
+    "Quiboloy's alleged offenses: human rights violations, dollar trafficking, rape of young women KJC members"
+  ],
+  "signature_phrases": [
+    "'Appointed Son of God'",
+    "his and the KJC's properties and bank accounts there were frozen",
+    "in fairness",
+    "in an abundance of caution",
+    "TO BE CLEAR, AN EXTRADITION TREATY BETWEEN THE PHILIPPINES AND THE US",
+    "essentially an executive determination, while the second is a judicial process",
+    "in case of urgency",
+    "an extradition case is not criminal in nature",
+    "Quisumbing, Purisima, and De Leon somersaulted",
+    "to close, for fairness sake again",
+    "will have no choice but to follow the Extradition Treaty"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author; dissenter in original Lantion ruling)",
+      "Apollo Carreon Quiboloy (founder, KJC)",
+      "Justice Secretary Jesus Crispin 'Boying' Remulla",
+      "Justice Jose A. R. Melo (original Lantion ponente)",
+      "Justices Bellosillo, Vitug, Kapunan, Quisumbing, Purisima, Buena, Santiago, De Leon (original majority)",
+      "Justice (later CJ) Reynato S. Puno (dissenter)",
+      "CJ Hilario G. Davide Jr., Justices Mendoza, Pardo, Reyes (dissenters)",
+      "Mark Jimenez (former congressman; precedent extraditee)",
+      "Bill Clinton (US president; beneficiary of Jimenez's prohibited donations)",
+      "Gloria Macapagal Arroyo (former president; closeness to Jimenez)",
+      "Joseph Estrada (former president; closeness to Jimenez)"
+    ],
+    "institutions": [
+      "US Department of the Treasury (sanctions issuer)",
+      "Kingdom of Jesus Christ (KJC, religious sect)",
+      "Department of Foreign Affairs (DFA)",
+      "Department of Justice (DOJ)",
+      "Regional Trial Court (Phase 2 venue)",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "Secretary of Justice v. Lantion (Jan. 18, 2000; reversed on MR Oct. 17, 2000)"
+    ],
+    "laws_treaties": [
+      "RP-US Extradition Treaty (signed Nov. 13, 1994; Senate-ratified)",
+      "US Federal Election Campaign Act -- bar on foreign political donations",
+      "US Treasury sanctions authorities",
+      "Bill of Rights protections invoked by Jimenez (and by Quiboloy in his local media counterclaim)"
+    ],
+    "events": [
+      "Dec. 10 (Human Rights Day) -- US Treasury sanctions on Quiboloy and KJC",
+      "Nov. 13, 1994 -- signing of RP-US Extradition Treaty",
+      "Jan. 18, 2000 -- initial Lantion ruling (9-6)",
+      "Oct. 17, 2000 -- Lantion reversal on MR (same 9-6 vote)",
+      "Mark Jimenez's eventual US criminal proceedings"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "If and when the US requests Quiboloy's extradition, the Philippines 'will have no choice but to follow the Extradition Treaty,' just as it did in the Mark Jimenez case.",
+      "rhetorical_move": "treaty-obligation finality framing",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Extradition has two phases: an executive evaluation (DFA) and a judicial extradition hearing (RTC). The wanted person is NOT entitled to due process at the evaluation phase because he is not yet at risk of arrest -- only the RTC determines whether a warrant should issue.",
+      "rhetorical_move": "doctrinal-stage framework consistent with CJ's own dissent and the eventual Lantion reversal",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Extradition is not criminal in nature; its purpose is merely to determine whether the wanted person should be surrendered to the requesting state to face charges and present defenses there.",
+      "rhetorical_move": "characterization-of-process argument that disposes of the due-process objection",
+      "confidence": "asserted ('Principally...')"
+    },
+    {
+      "claim": "Political closeness to local presidents does not exempt one from extradition: Jimenez was extradited despite ties to Arroyo and Estrada, who 'did not intervene' to avoid endangering diplomatic relations with the US.",
+      "rhetorical_move": "historical-parallel argument to deflect anticipated political interference",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The gravity of Quiboloy's alleged conduct (human-rights violations, dollar trafficking, rape of young women KJC members) materially exceeds Jimenez's (prohibited election contribution), heightening the likelihood that extradition, if requested, will proceed without political obstacle.",
+      "rhetorical_move": "gravity-comparison framing",
+      "confidence": "implied"
+    }
+  ],
+  "notable_anecdotes": [
+    "Date framing: US Treasury sanctions imposed on Dec. 10 -- Human Rights Day -- 'fittingly' according to CJ's framing.",
+    "Quiboloy's local media counter-claim that the sanctions deprived him of human rights for lack of notice and due process.",
+    "The 9-6 to 9-6 Lantion reversal: Quisumbing, Purisima, and De Leon 'somersaulted' on motion for reconsideration to adopt the Puno-Panganiban dissents.",
+    "Jimenez's offense (prohibited campaign donation to Bill Clinton) -- Clinton subsequently elected and did nothing to stop the suit -- contrasted with Arroyo and Estrada's noninterference despite closeness to Jimenez."
+  ],
+  "target_audience": [
+    "Justice Secretary Boying Remulla and the DOJ",
+    "DFA officials handling treaty-based requests",
+    "Constitutional-law and international-law practitioners",
+    "Civic-minded readers concerned about KJC and human-rights enforcement",
+    "Diplomatic observers of PH-US relations"
+  ],
+  "register_markers": [
+    "Human-Rights-Day occasion framing",
+    "'in fairness' fairness-disclosure register (twice deployed)",
+    "self-citation register (CJ's own dissent and the eventual reversal)",
+    "two-phase doctrinal exposition",
+    "comparative-case mode (Jimenez vs Quiboloy)",
+    "diplomatic-realism register ('will have no choice but to follow the Treaty')",
+    "small-caps emphasis ('WHEN THE SANCTIONS WERE IMPOSED,' 'TO BE CLEAR,' 'IN SECRETARY OF JUSTICE V. LANTION,' 'THIS INITIAL VICTORY OF JIMENEZ WAS SHORTLIVED')"
+  ],
+  "decision_framework_signals": [
+    "two-phase executive/judicial allocation of due-process protections",
+    "non-criminal characterization of extradition as the doctrinal pivot in Lantion",
+    "treaty-obligation finality once a request is filed",
+    "comparative-precedent reasoning (Jimenez precedent governs Quiboloy)",
+    "gravity-comparison heuristic to predict political feasibility"
+  ],
+  "one_paragraph_summary": "The US Treasury's Dec. 10 (Human Rights Day) sanctions on Apollo C. Quiboloy -- founder and self-proclaimed 'Appointed Son of God' of the Kingdom of Jesus Christ -- for alleged human-rights violations and other offenses freeze his and KJC's US properties and bar US persons from transacting with him. Quiboloy was no longer in the US when the sanctions hit, and he has claimed in local media that the sanctions deprived him of human rights for lack of notice and due process. While no extradition request has been made, Panganiban revisits how one would proceed under the RP-US Extradition Treaty (signed Nov. 13, 1994; Senate-ratified) and the Mark Jimenez precedent. Extradition has two phases: a Phase 1 executive evaluation by the DFA of the requesting state's documentation, and a Phase 2 judicial hearing where the DFA and DOJ file the extradition charge in an RTC, which decides. In Secretary of Justice v. Lantion (Jan. 18, 2000), the Court initially ruled 9-6 -- Justice Melo's ponencia, joined by Bellosillo, Vitug, Kapunan, Quisumbing, Purisima, Buena, Santiago, and De Leon -- that Jimenez was entitled to notice and copies during Phase 1 because under the Treaty the US could request provisional arrest 'in case of urgency,' putting him at risk of deprivation of liberty. Justice (later CJ) Puno and Panganiban dissented, joined by CJ Davide and Justices Mendoza, Pardo, and Reyes, arguing that the DFA only checks documents while the RTC alone issues warrants. On Oct. 17, 2000 -- same 9-6 vote, with Quisumbing, Purisima, and De Leon 'somersaulting' -- the Court reversed itself and adopted the dissents: an extradition case is not criminal in nature; its purpose is merely to determine whether the wanted person should be surrendered to face the charges abroad with all the constitutional rights of the accused. Jimenez eventually faced US criminal proceedings. Though a congressman and close to both Arroyo and Estrada, neither president intervened -- protecting diplomatic relations with America. Quiboloy's alleged offenses (human rights, dollar trafficking, rape of young KJC women) materially exceed Jimenez's (a prohibited foreign donation to Bill Clinton's campaign), so if and when a request comes, the Philippines 'will have no choice but to follow the Extradition Treaty,' just as it did with Jimenez.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

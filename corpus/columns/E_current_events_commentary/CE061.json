@@ -1,0 +1,221 @@
+{
+  "id": "CE061",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 61,
+  "title": "Sorting the good news from the sad",
+  "date": "2020-08-30",
+  "link": "https://opinion.inquirer.net/133141/sorting-the-good-news-from-the-sad",
+  "keywords": [
+    "RevGov",
+    "Delfin Lorenzana",
+    "Teodoro Locsin",
+    "IBP Cayosa",
+    "flattening the curve",
+    "OCTA Research",
+    "West Philippine Sea",
+    "nine-dash line",
+    "Scarborough Shoal",
+    "Sangley Point",
+    "US-China tensions",
+    "Asean alignment",
+    "pro-Filipino"
+  ],
+  "primary_topics": [
+    "Sorting good news from bad amid coronavirus, PhilHealth plunder, Jolo blasts, and Duterte's Barrett's-esophagus health disclosure",
+    "Good news 1: Duterte's firm disavowal of RevGov; IBP-led 'inciting to sedition' push against promoters",
+    "Good news 2: Flattening of the COVID-19 curve per OCTA Research's Prof. Guido David -- with caveat that flattening ≠ over",
+    "Good news 3: More aggressive WPS posture led by Lorenzana and Locsin; nine-dash-line 'fabrication' charge; standing 12-mile Duterte order",
+    "US-China escalation context: Taiwan F-16 sale, missile firings, sanctions, Sangley Point International Airport contract review",
+    "CJ's prescription: neither pro-American nor pro-Chinese -- 'pro-Filipino' aligned with Asean brethren"
+  ],
+  "sub_topics": [
+    "Background of sadness: 'worrying rise in the ABSOLUTE NUMBER of coronavirus infections,' 'shocking plunder of PhilHealth funds,' 'deadly Jolo blasts,' Duterte's doctors' Barrett's-esophagus Stage-One-cancer worsening warning",
+    "RevGov disavowed: Defense Secretary Delfin Lorenzana -- 'illegal and unconstitutional'; FS Teodoro Locsin Jr. -- 'unique in its insanity'",
+    "IBP president Domingo Egon Cayosa wants to charge RevGov promoters with 'inciting to sedition'; CJ agrees subject to rules-of-evidence proof",
+    "Historical RevGov frame: 'No RevGov is possible without the military's backing'; Cory Aquino set aside 1973 Constitution; revolutionary government's first year succeeded because of people-backed-by-military support; 1987 Constitution took effect a year later",
+    "COVID-19 curve flattening per OCTA Research Team Prof. Guido David (UP)",
+    "David's caveat: 'flattening does not mean it is over. It means there are still cases but the [TRANSMISSION RATE] is on the decline. Flattening is a long process.'",
+    "Asymptomatic-return risk: 'more people -- many of them asymptomatic -- return to their offices, rehabilitate their livelihood, shop in the malls, and normalize their activities, the chances of contact surge'",
+    "Required care: isolation, physical distancing, face masks and shields, hand-washing",
+    "WPS assertion led by Lorenzana and Locsin",
+    "DFA diplomatic protest over Chinese Coast Guard's 'illegal confiscation' of fishing equipment of Filipino fishermen near Scarborough Shoal",
+    "Lorenzana follow-up: debunked China's 'nine-dash line' as 'fabrication'; accused Beijing of 'illegally occupying' our maritime territory",
+    "Palace spokesperson Harry Roque support: military movements in WPS align with sovereign rights; supply missions in Spratlys and overflights in Scarborough continue",
+    "PH refusal to join US Navy's 'world's largest maritime military exercises' in SCS",
+    "Lorenzana on standing order: 'President Rodrigo Duterte has a standing order to us, to me, that we should not involve ourselves in naval exercises in the [SCS] except in our national waters, the 12-mile distance from our shores'",
+    "US-China war of nerves and tech: US Health Secretary Alex Azar's Taiwan visit; China flew fighters across median maritime line Aug. 10 (second day of visit); F-16C-D fighter-jet sale 66 units to Taiwan Aug. 20",
+    "Recent China missile firings into SCS demonstrating sink-capability against US warships",
+    "US sanctions on 24 Chinese companies that constructed SCS artificial islands",
+    "Locsin's response: would ask for termination of government contracts with these companies -- one of which (with MacroAsia Corp.) was awarded the $10-billion Sangley Point International Airport build",
+    "Roque hope: US and China resolve disputes 'amicably and peacefully'",
+    "Malaysia FM Datuk Seri Hishammuddin Hussein: Asean countries must get together to avoid being 'dragged and trapped' in superpower struggle",
+    "CJ's prescription: 'neither be pro-American nor pro-Chinese. Rather, we should always be pro-Filipino and align ourselves with our Asean brethren'"
+  ],
+  "signature_phrases": [
+    "Amid the sad news dimming our horizon",
+    "I welcome some shiny good news",
+    "ABSOLUTE NUMBER",
+    "shocking plunder of PhilHealth funds",
+    "deadly Jolo blasts",
+    "RevGov",
+    "illegal and unconstitutional",
+    "unique in its insanity",
+    "inciting to sedition",
+    "subject to the caveat that facts must be proven according to the rules of evidence, not necessarily according to media reports",
+    "this 'insanity'",
+    "flattening the curve",
+    "Flattening is a long process",
+    "the chances of contact surge",
+    "more aggressive assertion of our maritime rights",
+    "illegal confiscation",
+    "nine-dash line",
+    "fabrication",
+    "illegally occupying",
+    "hawkish stance",
+    "world's largest maritime military exercises",
+    "standing order",
+    "war of nerves and tech",
+    "dragged and trapped",
+    "neither be pro-American nor pro-Chinese",
+    "pro-Filipino",
+    "align ourselves with our Asean brethren"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "President Rodrigo Duterte",
+      "Defense Secretary Delfin Lorenzana",
+      "Foreign Secretary Teodoro L. Locsin Jr.",
+      "IBP president Domingo Egon Cayosa",
+      "Cory Aquino (1973 Constitution set-aside reference)",
+      "Prof. Guido David (UP OCTA Research Team)",
+      "Palace spokesperson Harry Roque",
+      "US Health Secretary Alex Azar (Taiwan visit)",
+      "Malaysia Foreign Minister Datuk Seri Hishammuddin Hussein"
+    ],
+    "institutions": [
+      "Department of National Defense (DND)",
+      "Department of Foreign Affairs (DFA)",
+      "Integrated Bar of the Philippines (IBP)",
+      "Office of the President (Palace)",
+      "Philippine military (Armed Forces of the Philippines)",
+      "UP OCTA Research Team",
+      "Chinese Coast Guard",
+      "People's Republic of China (Beijing)",
+      "US Navy",
+      "US Department of Health and Human Services",
+      "Government of Taiwan",
+      "Asean (Association of Southeast Asian Nations)",
+      "Government of Malaysia",
+      "PhilHealth (Philippine Health Insurance Corporation)",
+      "MacroAsia Corp. (Sangley Point partner)",
+      "24 Chinese companies (US-sanctioned SCS construction firms)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1973 Philippine Constitution (set aside by Cory Aquino)",
+      "1987 Philippine Constitution (current)",
+      "Unclos and arbitral ruling (implied background)",
+      "Philippine penal law on inciting to sedition"
+    ],
+    "events": [
+      "Recent (pre-column) -- RevGov movement and Duterte's disavowal",
+      "Pre-column -- Chinese Coast Guard fishing-equipment confiscation near Scarborough Shoal",
+      "Pre-column -- Lorenzana 'nine-dash line' fabrication and 'illegally occupying' charges",
+      "Recent -- US Navy 'world's largest maritime military exercises' in SCS (PH did not join)",
+      "Aug. 10, 2020 -- China fighter planes across Taiwan median maritime line (second day of Azar visit)",
+      "Aug. 20, 2020 -- US sale of 66 F-16C-D fighter jets to Taiwan",
+      "Recent -- China missile firings into SCS",
+      "Recent -- US sanctions on 24 Chinese SCS-island-construction companies",
+      "Background -- $10-billion Sangley Point International Airport award to MacroAsia + sanctioned Chinese partner",
+      "Background -- Duterte's Barrett's-esophagus Stage-One-cancer disclosure"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Amid sad news -- coronavirus surge, PhilHealth plunder, Jolo blasts, Duterte's health disclosure -- three pieces of 'shiny good news' deserve recognition: Duterte's RevGov disavowal, COVID curve flattening, and more aggressive WPS assertion.",
+      "rhetorical_move": "sad-vs-good-news sorting structural framing",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Duterte's firm RevGov disavowal -- backed by DefSec Lorenzana ('illegal and unconstitutional') and FS Locsin ('unique in its insanity') -- settles the question because 'No RevGov is possible without the military's backing,' as Cory Aquino's 1986 set-aside of the 1973 Constitution succeeded only with people-and-military support that's now absent. IBP president Cayosa's push to charge RevGov promoters with 'inciting to sedition' is correct, 'subject to the caveat that facts must be proven according to the rules of evidence, not necessarily according to media reports.'",
+      "rhetorical_move": "historical-analogy reassurance + rules-of-evidence caveat",
+      "confidence": "asserted with named-officials and history"
+    },
+    {
+      "claim": "The COVID-19 curve is flattening per UP OCTA Research Team's Prof. Guido David -- but his caveat is dispositive: 'flattening does not mean it is over. It means there are still cases but the [TRANSMISSION RATE] is on the decline. Flattening is a long process.' As more asymptomatic carriers return to offices, malls, and normal life, 'the chances of contact surge,' requiring continued vigilance on isolation, distancing, face masks/shields, and hand-washing.",
+      "rhetorical_move": "named-scientist relay with caveat-as-dispositive",
+      "confidence": "asserted via verbatim quotation"
+    },
+    {
+      "claim": "The third good news is a more aggressive WPS posture led by Lorenzana and Locsin -- DFA diplomatic protest over Chinese Coast Guard's 'illegal confiscation' of Filipino fishing equipment near Scarborough Shoal; Lorenzana's debunking of the 'nine-dash line' as 'fabrication' and his 'illegally occupying' charge against Beijing; Roque's affirmation of supply missions to the Spratlys and overflights in Scarborough -- yet with the 12-mile Duterte standing order limiting PH naval involvement to 'our national waters.'",
+      "rhetorical_move": "hawkish-stance-with-constraint observation",
+      "confidence": "asserted with named-actors and named-locations"
+    },
+    {
+      "claim": "The US-China 'war of nerves and tech' is escalating -- Azar's Taiwan visit, China's fighters across the median maritime line Aug. 10, the US $66-unit F-16C-D sale Aug. 20, China's SCS missile firings demonstrating warship-sink capability, US sanctions on 24 SCS-construction Chinese companies (one a MacroAsia partner on the $10-billion Sangley Point International Airport) -- and Malaysia's FM Hishammuddin Hussein is right that Asean must get together to avoid being 'dragged and trapped' between the two superpowers.",
+      "rhetorical_move": "escalation-chronology with named-economic-stake (Sangley Point) impact",
+      "confidence": "asserted with chronology and figures"
+    },
+    {
+      "claim": "PH should 'neither be pro-American nor pro-Chinese. Rather, we should always be pro-Filipino and align ourselves with our Asean brethren in dealing with the two giants.' This is the operational doctrine that reconciles the WPS-pushback (against China) with the non-participation in US-led SCS exercises (independent of US).",
+      "rhetorical_move": "pro-Filipino + pro-Asean alignment prescription",
+      "confidence": "prescriptive"
+    }
+  ],
+  "notable_anecdotes": [
+    "The sorting-good-from-sad opening device -- itemizing four sad-news items (coronavirus, PhilHealth plunder, Jolo blasts, Duterte's Barrett's-esophagus warning) before pivoting to three good-news items -- gives the column its title structure and its measured emotional register.",
+    "The Lorenzana-Locsin twin condemnation of RevGov -- 'illegal and unconstitutional' (DefSec) and 'unique in its insanity' (FS) -- quoted in tandem to demonstrate cabinet-level consensus across two of Duterte's strongest departments.",
+    "The historical-analogy reassurance -- Cory Aquino's 1986 set-aside of the 1973 Constitution 'succeeded because our people, backed up by the military, supported it' -- making explicit why current RevGov efforts lack the foundational condition (military backing) for success.",
+    "Prof. Guido David's caveat preserved verbatim -- 'Flattening is a long process' -- used as the dispositive science-relay that prevents premature relief.",
+    "Lorenzana's 'fabrication' attack on the nine-dash line -- a defense-secretary-level escalation of WPS language from 'disputed' to 'illegally occupying' that signals administration-line hardening.",
+    "Duterte's '12-mile standing order' as quoted by Lorenzana -- 'we should not involve ourselves in naval exercises in the [SCS] except in our national waters, the 12-mile distance from our shores' -- explaining PH's non-participation in US-led exercises in operational specifics.",
+    "The Sangley Point International Airport contract review -- Locsin's plan to terminate government contracts with US-sanctioned Chinese companies (one a $10-billion MacroAsia partner) -- making the US-China escalation's financial-stake bite at the PH infrastructure level.",
+    "The Malaysian FM Hishammuddin Hussein quote -- Asean must avoid being 'dragged and trapped' -- anchoring CJ's pro-Filipino-and-pro-Asean prescription in a regional foreign-minister's own framing.",
+    "The Aug. 10 / Aug. 20 / 66 F-16 / 24 sanctioned companies sequence -- making the US-China escalation chronology audit-able by specific dates and counts.",
+    "CJ's tri-stance closer -- 'neither pro-American nor pro-Chinese' but 'pro-Filipino' aligned with Asean -- distilling the column's geopolitical doctrine into a single declarative sentence."
+  ],
+  "target_audience": [
+    "President Rodrigo Duterte and the Office of the President (RevGov disavowal endorsement)",
+    "Defense Secretary Lorenzana and FS Locsin (column endorses their WPS stance)",
+    "IBP president Cayosa and bar leadership",
+    "UP OCTA Research Team and public-health communicators",
+    "Inquirer general readership processing competing news streams",
+    "RevGov promoters (column subject of sedition-charge advocacy)",
+    "Asean diplomatic counterparts and foreign-ministers",
+    "US and Chinese embassies in PH (column's audience-by-publication)",
+    "MacroAsia Corp. and Sangley Point International Airport stakeholders",
+    "PH foreign-policy analysts and academic observers"
+  ],
+  "register_markers": [
+    "sad-vs-good-news sorting structural device",
+    "CAPS for emphasis ('ABSOLUTE NUMBER')",
+    "named-cabinet-officials quoted in tandem (Lorenzana + Locsin)",
+    "historical-analogy reassurance device (Cory + 1986)",
+    "rules-of-evidence caveat insertion",
+    "named-scientist relay with verbatim caveat (Prof. Guido David)",
+    "diplomatic-vocabulary register (illegal confiscation, fabrication, illegally occupying)",
+    "operational-specificity in standing orders (12-mile, national waters)",
+    "escalation-chronology with dates and counts (Aug. 10 / Aug. 20 / 66 / 24)",
+    "regional-foreign-minister quotation device (Hishammuddin Hussein)",
+    "tri-stance alliterative closer (pro-American / pro-Chinese / pro-Filipino + Asean brethren)",
+    "current-events digest register (multiple topics covered briefly)",
+    "newsroom-update quality with editorializing throughout"
+  ],
+  "decision_framework_signals": [
+    "applies sad-vs-good-news sorting taxonomy to organize competing news streams",
+    "uses historical-analogy reassurance (Cory 1986 success conditions) to assess RevGov viability",
+    "deploys rules-of-evidence caveat as criminal-charge prerequisite",
+    "treats named-scientist caveat as dispositive over headline narrative (Prof. David)",
+    "applies hawkish-stance-with-constraint observation (WPS push + 12-mile order) as policy-coherence test",
+    "uses escalation-chronology to assess US-China tension trajectory",
+    "deploys regional-foreign-minister framing ('dragged and trapped') to anchor Asean-alignment prescription",
+    "applies pro-Filipino + pro-Asean alignment doctrine as operational reconciliation of competing pushes",
+    "channels current-events digest format to model civic-reader news literacy"
+  ],
+  "one_paragraph_summary": "Panganiban sorts the good news from the sad. The sad: the 'worrying rise in the ABSOLUTE NUMBER of coronavirus infections,' the 'shocking plunder of PhilHealth funds,' the 'deadly Jolo blasts,' and the President's revelation that his doctors warned his Barrett's esophagus 'may worsen to Stage One cancer.' Against this, he welcomes three 'shiny good news' items. First, Duterte's firm disavowal of RevGov: Defense Secretary Delfin Lorenzana declared it 'illegal and unconstitutional' and Foreign Secretary Teodoro Locsin Jr. condemned it as 'unique in its insanity.' IBP president Domingo Egon Cayosa wants to charge RevGov promoters with 'inciting to sedition'; CJ agrees, 'subject to the caveat that facts must be proven according to the rules of evidence, not necessarily according to media reports.' Historically, 'No RevGov is possible without the military's backing': Cory Aquino's 1986 set-aside of the 1973 Constitution succeeded only 'because our people, backed up by the military, supported it' before the 1987 Constitution took effect a year later -- current RevGov efforts lack that foundational condition. Second, the flattening of the COVID-19 curve per UP OCTA Research Team's Prof. Guido David, with his dispositive caveat: 'flattening does not mean it is over. It means there are still cases but the [TRANSMISSION RATE] is on the decline. Flattening is a long process.' As asymptomatic carriers return to offices, malls, and normal life, 'the chances of contact surge,' requiring continued isolation, physical distancing, face masks and shields, and hand-washing. Third, a more aggressive assertion of WPS maritime rights led by Lorenzana and Locsin: a DFA diplomatic protest over the Chinese Coast Guard's 'illegal confiscation' of Filipino fishermen's equipment near Scarborough Shoal; Lorenzana's debunking of China's 'nine-dash line' as 'fabrication' and accusation of Beijing 'illegally occupying' PH maritime territory; Palace spokesperson Harry Roque's affirmation that military movements in the WPS align with sovereign rights and that supply missions in the Spratlys and overflights in Scarborough will continue. Yet PH refused to join the US Navy's recent 'world's largest maritime military exercises' in the SCS -- Lorenzana citing Duterte's standing order: 'we should not involve ourselves in naval exercises in the [SCS] except in our national waters, the 12-mile distance from our shores.' Meanwhile, the US-China 'war of nerves and tech' escalates: US Health Secretary Alex Azar visited Taiwan; on August 10 China flew fighter planes across the median maritime line separating the mainland from Taiwan; on August 20 the US sold 66 ultra-hi-tech F-16C-D fighter jets to Taiwan; China fired missiles into the SCS showing it could sink US warships; and the US imposed sanctions on 24 Chinese companies that constructed the artificial islands in the SCS. Locsin said he would ask for termination of government contracts with the sanctioned companies -- one of which (with MacroAsia Corp.) was awarded the $10-billion Sangley Point International Airport build. Roque hoped the US and China would resolve their disputes 'amicably and peacefully,' and Malaysian FM Datuk Seri Hishammuddin Hussein was clearer: Asean countries must get together to avoid being 'dragged and trapped' between the two superpowers. CJ closes: 'we should neither be pro-American nor pro-Chinese. Rather, we should always be pro-Filipino and align ourselves with our Asean brethren in dealing with the two giants.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

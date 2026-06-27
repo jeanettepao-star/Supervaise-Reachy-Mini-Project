@@ -1,0 +1,133 @@
+{
+  "id": "CE066",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 66,
+  "title": "Back to manual elections?",
+  "date": "2019-06-16",
+  "link": "https://opinion.inquirer.net/122004/back-to-manual-elections",
+  "keywords": [
+    "manual elections",
+    "automated elections",
+    "Comelec",
+    "dagdag-bawas",
+    "lansadera",
+    "preproclamation controversies",
+    "Namfrel hybrid system",
+    "Smartmatic",
+    "PCOS"
+  ],
+  "primary_topics": [
+    "Whether to revert to manual elections in response to 2019 automation glitches",
+    "Catalogue of cheating modalities in the 'mano-mano' era (illegible ballots, identifying marks, lansadera, dagdag-bawas, preproclamation controversies)",
+    "Namfrel hybrid proposal (manual writing + manual precinct count + electronic transmission)",
+    "Defense of automation despite imperfections, with three-year runway for Comelec reform"
+  ],
+  "sub_topics": [
+    "Illegible penmanship and voter writing-ability dependence under manual system",
+    "Identifying marks, peculiar name sequencing, middle-initial inclusions as ballot-tracing techniques used by 'guns, goons and gold'",
+    "'Lansadera' scheme -- genuine ballot spirited out, filled in safe house, cycled through precinct with Board of Election Inspectors connivance",
+    "Manual precinct counting lasting through the wee hours; 'taras' tally errors; ballot boxes stolen or destroyed with acid/water",
+    "'Wholesale' cheating via altered/substituted Election Returns (ERs) and Statements of Votes (SOVs) -- the classic dagdag-bawas",
+    "ERs at precinct level; SOVs as consolidation at municipal/city level; one-digit changes flipping town/district/provincial outcomes",
+    "Preproclamation controversies -- tedious, expensive ER-validity litigation eliminated by automation",
+    "Post-proclamation election protests and ballot substitution while in municipal treasurer custody",
+    "Namfrel's hybrid proposal (manual write + manual count + electronic transmission to remote servers for consolidation)",
+    "CJ's critique: hybrid retains manual-era vulnerabilities; opaque Smartmatic still problematic",
+    "Three-year window before next elections for Comelec to improve transparency and reduce glitches",
+    "Imperfection-acceptance frame: no computer system (banking, airlines, logistics) is perfect"
+  ],
+  "signature_phrases": [
+    "anger and frustration",
+    "mano-mano",
+    "guns, goons and gold",
+    "lansadera",
+    "dagdag-bawas",
+    "wholesale cheating",
+    "preproclamation controversies",
+    "the horrors of manual voting",
+    "the opaque Smartmatic way",
+    "no computer system... is perfect",
+    "there are always ways to minimize the imperfections"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Election watchdog members, losing candidates, and millennial voters (the clamor for reversion)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "Smartmatic (vendor)",
+      "Board of Election Inspectors (BEI)",
+      "Board of Canvassers (BOC)",
+      "National Citizens' Movement for Free Elections (Namfrel)",
+      "Municipal treasurers (custodians of post-election ballots)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Election laws governing manual-era counting and proclamation"
+    ],
+    "events": [
+      "2019 mid-term elections (with automation glitches)",
+      "Manual-era elections (pre-2010) -- catalog of cheating modes",
+      "Three-year runway to next national elections (2022)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Reverting to manual elections to escape automation glitches would be a far worse outcome than the glitches themselves, because manual voting was structurally vulnerable to a long catalogue of cheating modalities -- illegible ballots, identifying marks, lansadera, dagdag-bawas in ERs and SOVs, ballot-box theft, preproclamation controversies -- that automation has either eliminated or rendered visible.",
+      "rhetorical_move": "comparative-history rebuttal (don't compare automation to perfection; compare it to what it replaced)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Namfrel's hybrid proposal (voters write on ballots, manual precinct count, electronic transmission to safely located servers) gains precinct-level transparency at the cost of reintroducing the entire manual-era attack surface; if the goal is transparency, the answer is a less-opaque automation, not a return to manual voting.",
+      "rhetorical_move": "preserved-vulnerability critique of hybrid alternatives",
+      "confidence": "asserted with reasoned dissent"
+    },
+    {
+      "claim": "With three years until the next elections, Comelec has the runway to minimize glitches and reduce the opacity of the Smartmatic system -- addressing Namfrel's valid transparency concerns without 'risking the horrors of manual voting.'",
+      "rhetorical_move": "third-way reformist closer",
+      "confidence": "prescriptive"
+    },
+    {
+      "claim": "Imperfection is the universal condition of complex computer systems -- banking, airlines, logistics -- and the responsible engineering posture is to minimize imperfection iteratively, not to demolish the system.",
+      "rhetorical_move": "imperfection-is-universal cross-industry analogy",
+      "confidence": "asserted as general principle"
+    }
+  ],
+  "notable_anecdotes": [
+    "The taxonomy of 'identifying marks' that allowed manual-era cheaters to verify the bribed/coerced voter actually voted correctly -- peculiar name sequencing across multiple races, inclusion of middle initials or full names of favored candidates -- physicalizing how voter intimidation was made auditable to the perpetrator.",
+    "The 'lansadera' technique in full mechanical detail -- a genuine ballot smuggled out of the precinct (often with the Board of Election Inspectors' connivance), filled up in a safe house, given to a voter who casts it and brings back the blank he was issued, repeated 'on and on' -- captures the systemic complicity that automation broke.",
+    "The 'wholesale' SOV manipulation arithmetic -- '1,000 to 10,000, or vice versa, spelled victory or defeat at the district or provincial level' -- making concrete how a single digit change at the canvassing level translated into political outcomes."
+  ],
+  "target_audience": [
+    "Election watchdogs, losing candidates, and millennial voters tempted by the manual-reversion clamor",
+    "Civic-minded Filipinos comparing automated and manual systems",
+    "Comelec officials with three-year runway to reform",
+    "Namfrel members proposing the hybrid alternative",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "comparative-history rebuttal register",
+    "taxonomic enumeration of cheating modes (illegible, identifying marks, lansadera, dagdag-bawas, ballot-box destruction)",
+    "Tagalog inflection ('mano-mano,' 'lansadera,' 'dagdag-bawas,' 'taras') to anchor the manual-era memory",
+    "alliterative cluster 'guns, goons and gold'",
+    "concrete-arithmetic illustration of SOV manipulation (1,000 to 10,000)",
+    "cross-industry-imperfection analogy (banking, airlines, logistics)",
+    "policy-runway closing ('next elections are still three years away')",
+    "named-organization engagement with Namfrel proposal rather than dismissal",
+    "vivid-horror image ('the horrors of manual voting')"
+  ],
+  "decision_framework_signals": [
+    "applies comparative-history test (judge the new system against what it replaced, not against perfection)",
+    "uses preserved-vulnerability analysis to reject hybrid compromises",
+    "treats elimination of preproclamation controversies as significant institutional gain to be protected",
+    "deploys cross-industry imperfection principle to recalibrate expectations",
+    "frames the policy question as a runway-and-reform problem, not a choose-system problem",
+    "uses taxonomic enumeration of past cheating modes as evidence of structural (not contingent) failure"
+  ],
+  "one_paragraph_summary": "Responding to the post-2019-polls clamor -- from election watchdogs, losing candidates, and millennial voters -- to revert to manual elections, Panganiban catalogues why the 'mano-mano' era was structurally worse than the glitchy present. Under manual voting, ballots depended on voter penmanship and were frequently invalidated for illegibility; the 'guns, goons and gold' could verify coerced votes through identifying marks, peculiar name sequencing, and middle-initial inclusions; the 'lansadera' scheme cycled genuine ballots through safe houses with Board of Election Inspectors complicity; manual counting lasted into the wee hours with ballots misread or untallied, and ballot boxes were stolen or doused with acid; and 'wholesale' cheating altered Election Returns and Statements of Votes -- the classic dagdag-bawas -- with one-digit changes flipping town, district, or provincial outcomes through tedious preproclamation controversies that automation has eliminated. Even Namfrel's proposed hybrid system -- manual writing, manual precinct count, electronic transmission for consolidation -- would gain precinct-level transparency at the cost of reintroducing the entire manual-era vulnerability surface; if transparency is the goal, the answer is a less-opaque automation, not a manual return. With three years before the next elections, Comelec has the runway to reduce glitches and answer 'Namfrel's valid concerns without risking the horrors of manual voting.' No computer system in banking, airlines, or logistics is perfect; the engineering posture is to minimize imperfection, not to demolish the system.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,174 @@
+{
+  "id": "CA130",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 130,
+  "title": "Aliens may explore, develop, utilize RE",
+  "date": "2022-10-31",
+  "link": "https://opinion.inquirer.net/158303/aliens-may-explore-develop-utilize-re",
+  "keywords": [
+    "renewable energy",
+    "aliens",
+    "foreign ownership",
+    "potential vs kinetic energy",
+    "Boying Remulla DOJ Opinion 21 S2022",
+    "noscitur a sociis",
+    "ejusdem generis",
+    "solar wind hydro tidal",
+    "Article XII Section 2",
+    "EEZ Constitution"
+  ],
+  "primary_topics": [
+    "Justice Secretary Remulla's DOJ Opinion No. 21 S2022 opening RE (solar, wind, hydro, ocean/tidal) to foreign EDU",
+    "Statutory-construction reasoning: noscitur a sociis and ejusdem generis applied to 'natural resources'",
+    "Potential-vs-kinetic energy distinction: the ball-drop example and RE as kinetic",
+    "CJ's alternative reasoning (agreeing on result, differing on rationale): RE not exclusively located in PH",
+    "Practical and policy advantages: capital, technology, risk-taking, end-use, freedom from foreign oil/coal, clean energy"
+  ],
+  "sub_topics": [
+    "Article XII Section 2: state ownership of natural resources, including 'all forces of potential energy'",
+    "EDU 'under the full control and supervision of the State'; direct undertaking or 60%-Filipino joint ventures",
+    "Strict reading: aliens 'banned from the EDU of such resources and forces'",
+    "DOJ Justice Secretary Jesus Crispin 'Boying' Remulla's Opinion No. 21 S2022",
+    "Opinion holding: RE 'especially solar, wind, hydro and ocean or tidal energy sources' open to foreign EDU because 'beyond the ambit of natural resources... and all forces of potential energy'",
+    "Statutory construction principles invoked: noscitur a sociis (interpretation by association) and ejusdem generis (interpretation by class)",
+    "Enumeration accompanying 'natural resources' -- 'lands, fisheries, forests and wildlife' -- 'all susceptible to appropriation'",
+    "Conclusion: sun, wind, ocean 'not subject to appropriation [or ownership by the state or anyone else]'",
+    "Remulla's energy taxonomy: potential energy = 'energy at rest' (position-relative); kinetic energy = 'energy in motion'",
+    "Ball-drop example: ball at head height has potential energy relative to floor; release transforms it to kinetic",
+    "Remulla's classification: RE sources (solar, wind, hydro, ocean/tidal) are kinetic energy sources, inexhaustible, incapable of anyone's ownership",
+    "'All mankind owns them, and their EDU cannot be limited to the nationals of any state'",
+    "CJ agrees on result; offers different reasoning anchored in geography rather than energy-state physics",
+    "CJ's reason: natural resources (petroleum, oil, coal, gold, minerals) found 'in the bowels of our land and maritime territory, as well as in our exclusive economic zone' -- recognized by Unclos and 2016 AA -- 'belong to the Philippines'",
+    "REs / kinetic sources 'not owned exclusively by Filipinos because they are not found solely in the Philippines' -- therefore framers could not have intended exclusivity",
+    "Practical/policy rationale: RE EDU requires capital, technological know-how, risk-taking PH may lack or be unwilling to commit",
+    "End-product benefits: electric power will benefit Filipinos directly; foreign concessionaires can't viably export it given PH distance from other countries",
+    "RE's clean/sustainable/nonpolluting advantage: safe for planet, healthy for people",
+    "Energy-independence benefit: free PH from foreign oil/coal dependence; preserve FX reserves; assure industrial power",
+    "Final reminder: regardless of foreign EDU openness, all EDU still subject to 'full control and supervision of the State'"
+  ],
+  "signature_phrases": [
+    "EDU",
+    "explore, develop, and utilize",
+    "all forces of potential energy",
+    "natural resources",
+    "noscitur a sociis",
+    "ejusdem generis",
+    "energy at rest",
+    "energy in motion",
+    "inexhaustible and incapable of ownership",
+    "All mankind owns them",
+    "the bowels of our land and maritime territory",
+    "not found solely in the Philippines",
+    "the framers could not have intended",
+    "tremendous amounts of capital, technological know-how, and risks-taking",
+    "logistics of bringing them abroad",
+    "too complicated and unprofitable",
+    "clean, sustainable, nonpolluting energy",
+    "preserving our foreign exchange reserves",
+    "full control and supervision of the State"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Justice Secretary Jesus Crispin 'Boying' Remulla (author of DOJ Opinion No. 21 S2022)",
+      "1987 Constitution framers (collective; whose intent CJ analyzes)"
+    ],
+    "institutions": [
+      "Department of Justice (DOJ)",
+      "Office of the President of the Philippines",
+      "PH Department of Energy (implied)",
+      "United Nations (Unclos venue)",
+      "Permanent Court of Arbitration (2016 AA)"
+    ],
+    "cases": [
+      "Permanent Court of Arbitration ruling (July 2016) -- 2016 Arbitral Award (referenced as EDU-rights anchor)"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution Article XII Section 2 (state ownership of natural resources, EDU regime, 60% Filipino capital)",
+      "United Nations Convention on the Law of the Sea (Unclos)",
+      "Department of Justice Opinion No. 21, Series of 2022 (Remulla)"
+    ],
+    "events": [
+      "DOJ Opinion No. 21 S2022 issuance (Remulla) -- RE opened to foreign EDU"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "DOJ Secretary Remulla's Opinion No. 21 S2022 correctly opens RE (solar, wind, hydro, ocean/tidal) to foreign EDU. His statutory-construction reasoning -- that 'natural resources' under Article XII §2 must be read via noscitur a sociis and ejusdem generis to mean only resources sharing the characteristic of being 'susceptible to appropriation' (like lands, fisheries, forests, wildlife) -- places sun, wind, and ocean outside the enumeration because 'they are not subject to appropriation.'",
+      "rhetorical_move": "DOJ-opinion-relay with statutory-construction reasoning",
+      "confidence": "expository with endorsement-of-result"
+    },
+    {
+      "claim": "Remulla further argues that the constitutional phrase 'all forces of potential energy' refers only to position-relative energy at rest (ball-at-head-height example), excluding kinetic energy in motion. RE sources are kinetic, inexhaustible, and 'incapable of ownership by anyone' -- 'All mankind owns them, and their EDU cannot be limited to the nationals of any state.'",
+      "rhetorical_move": "potential-vs-kinetic energy-physics doctrinal recital (Remulla's framing)",
+      "confidence": "expository with endorsement-of-result"
+    },
+    {
+      "claim": "CJ agrees RE should be open to foreigners but his reasoning is geographic, not physics-based: traditional natural resources (petroleum, oil, coal, gold, minerals) in the 'bowels of our land and maritime territory' and the EEZ recognized by Unclos and the 2016 AA 'belong to the Philippines' -- but RE sources like sun, wind, and tides 'are not found solely in the Philippines,' so 'our Charter and its framers could not have intended them for the exclusive EDU of our citizens.'",
+      "rhetorical_move": "alternative-reasoning differentiation (agree on result, differ on rationale)",
+      "confidence": "asserted with framer-intent analysis"
+    },
+    {
+      "claim": "Practical and policy considerations reinforce the legal conclusion: RE EDU requires 'tremendous amounts of capital, technological know-how, and risks-taking' PH lacks or has other priorities for; foreign concessionaires cannot viably export the resulting electric power given PH's geographic distance -- 'the logistics of bringing them abroad will just be too complicated and unprofitable' -- so foreigners producing PH RE must sell it to PH; and RE produces 'clean, sustainable, nonpolluting energy that is safe for our planet and healthy for our people.'",
+      "rhetorical_move": "policy-rationale enumeration (capital + export-impracticability + green-energy)",
+      "confidence": "asserted with reasoned support"
+    },
+    {
+      "claim": "Foreign EDU of RE would free PH from foreign oil/coal dependence, preserve foreign exchange reserves, and assure industrial power -- major macro-economic benefits beyond the immediate energy supply. The 'final word' is that all EDU -- whether RE or not, whether potential or kinetic, whether open to foreigners or not -- remains subject to 'the full control and supervision of the State.'",
+      "rhetorical_move": "macro-benefits inventory + state-supervision-reservation closer",
+      "confidence": "asserted with constitutional-anchor reaffirmation"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Article XII Section 2 verbatim quote opening the column -- making the full constitutional text available before introducing the Remulla interpretation that reads it down.",
+    "The Latin doctrinal principles named in pair -- noscitur a sociis and ejusdem generis -- preserved verbatim as the statutory-construction architecture for Remulla's opinion.",
+    "Remulla's ball-drop physics example -- 'if a ball is held up at head height, it has potential energy relative to [the] floor due to gravity. But when the ball is released, its potential energy decreases and such is transformed into increasing kinetic energy until it hits the floor and stops' -- making the abstract energy-state distinction tangible.",
+    "The 'All mankind owns them' framing -- converting RE sources into global commons by Remulla's logic, with implications for foreign-investor argumentation across other extractive sectors.",
+    "CJ's quiet declaration of alternative reasoning -- 'WHILE I AGREE THAT RENEWABLE ENERGY SHOULD BE OPEN TO FOREIGNERS, not just to Filipinos, my reason is simple' -- modeling the agree-on-result-but-differ-on-rationale move that distinguishes a careful columnist from a relay reporter.",
+    "The geographic-uniqueness analytical move -- 'they are not found solely in the Philippines' as the framers'-intent inferential basis -- a textually-modest reasoning that doesn't require contestable physics distinctions.",
+    "The 'bowels of our land and maritime territory' phrasing for traditional resources -- evocative anatomical-geographical compression.",
+    "The export-impracticability argument -- 'foreigners who undertake the EDU... will not be able to sell them viably except to us... the logistics of bringing them abroad will just be too complicated and unprofitable' -- making the foreign-extraction concern empirically self-limiting.",
+    "The final-word state-supervision reservation -- ensuring the column doesn't read as foreign-investor advocacy but as bounded regulatory recategorization."
+  ],
+  "target_audience": [
+    "Justice Secretary Jesus Crispin Remulla (column endorses DOJ Opinion No. 21 S2022)",
+    "Department of Energy planners on RE-investment frameworks",
+    "Foreign RE investors and project developers",
+    "Constitutional law academics on Article XII jurisprudence",
+    "Statutory-construction scholars on noscitur a sociis / ejusdem generis",
+    "Climate / clean-energy advocates",
+    "Inquirer general readership on the RE-investment debate",
+    "Filipino-first nationalists and economic-sovereignty advocates",
+    "PH-China policy observers (column complements the A125 EEZ-extraction argument)"
+  ],
+  "register_markers": [
+    "Article XII Section 2 verbatim citation opener",
+    "Latin statutory-construction principles paired (noscitur a sociis + ejusdem generis)",
+    "physics-pedagogical example (ball drop)",
+    "energy-state distinction register (potential / kinetic)",
+    "DOJ-opinion-relay register",
+    "alternative-reasoning declarative ('my reason is simple')",
+    "geographic-uniqueness analytical move",
+    "anatomical-geographical compression ('bowels of our land and maritime territory')",
+    "policy-rationale enumeration (capital, technology, risk, export, clean energy, FX reserves)",
+    "export-impracticability self-limiting argument",
+    "macro-benefits inventory",
+    "final-word state-supervision reservation closer",
+    "agree-on-result-differ-on-rationale rhetorical move",
+    "EDU acronym throughout"
+  ],
+  "decision_framework_signals": [
+    "applies statutory-construction principles (noscitur a sociis / ejusdem generis) to read 'natural resources' enumeration",
+    "uses potential-vs-kinetic energy-physics distinction (Remulla framing) to bound 'forces of potential energy'",
+    "deploys geographic-uniqueness analytical move (CJ alternative) as framer-intent inference",
+    "treats appropriability-test as constitutional-categorization criterion",
+    "channels policy-rationale enumeration (capital + tech + risk + export-impracticability + clean energy + FX) as supporting framework",
+    "applies state-supervision-reservation as bounded-deregulation principle",
+    "uses agree-on-result-differ-on-rationale rhetorical structure to distinguish endorsement from reasoning"
+  ],
+  "one_paragraph_summary": "Panganiban examines Justice Secretary Jesus Crispin 'Boying' Remulla's Department of Justice Opinion No. 21, Series of 2022, which holds that renewable energy (RE) -- 'especially solar, wind, hydro and ocean or tidal energy sources' -- is open to foreign exploration, development, and utilization (EDU). Under Article XII Section 2 of the Constitution, all 'natural resources' and 'all forces of potential energy' are owned by the State, with EDU 'under the full control and supervision of the State' and limited to Filipino citizens or 60%-Filipino-owned entities -- meaning aliens are banned from EDU of such resources and forces. Remulla argues that under the statutory-construction principles noscitur a sociis (interpretation by association) and ejusdem generis (interpretation by class), 'natural resources' covers only resources sharing the characteristic of being 'susceptible to appropriation,' like the enumerated lands, fisheries, forests, and wildlife -- so 'the sun, the wind or the ocean' fall outside because 'they are not subject to appropriation.' Remulla further distinguishes potential energy ('energy at rest,' position-relative -- illustrated by a ball held at head height that loses potential energy and gains kinetic energy as it falls to the floor) from kinetic energy ('energy in motion'), classifying RE sources as kinetic and therefore inexhaustible and 'incapable of ownership by anyone' -- 'All mankind owns them, and their EDU cannot be limited to the nationals of any state.' CJ agrees RE should be open to foreigners but his reasoning is geographic, not physics-based: traditional natural resources like 'petroleum, oil, coal, gold, and other minerals found in the bowels of our land and maritime territory, as well as in our exclusive economic zone' recognized by Unclos and the 2016 Arbitral Award 'belong to the Philippines' and should be reserved solely for Filipinos. But RE sources like sun, wind, and tides 'are not found solely in the Philippines,' so 'our Charter and its framers could not have intended them for the exclusive EDU of our citizens.' Practically, RE EDU 'requires tremendous amounts of capital, technological know-how, and risks-taking that we do not have or are unwilling to undertake'; foreign concessionaires cannot viably export the resulting electric power given PH's distance from other countries -- 'the logistics of bringing them abroad will just be too complicated and unprofitable'; and RE provides 'clean, sustainable, nonpolluting energy that is safe for our planet and healthy for our people,' freeing PH from foreign oil/coal dependence and preserving foreign exchange reserves while assuring 'enough power and energy to turn the wheels of our industries and factories.' The final word: EDU of natural resources, whether renewable or not, whether potential or kinetic, whether open to foreigners or not, remains 'subject to the full control and supervision of the State.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

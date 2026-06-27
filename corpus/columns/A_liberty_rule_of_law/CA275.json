@@ -1,0 +1,128 @@
+{
+  "id": "CA275",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 275,
+  "title": "Unintended peril in VP electoral protest",
+  "date": "2018-06-17",
+  "link": "https://opinion.inquirer.net/113976/unintended-peril-vp-electoral-protest",
+  "keywords": [
+    "50-percent shading rule",
+    "PET Bongbong-Leni protest",
+    "SD card ballot images",
+    "disenfranchisement arithmetic",
+    "25-percent shading threshold"
+  ],
+  "primary_topics": [
+    "Unintended disenfranchisement risk of the 50% shading rule",
+    "Arithmetic projection of net voter loss for Leni Robredo",
+    "SD card digital images as the superior remedy"
+  ],
+  "sub_topics": [
+    "2016 automated ballots -- blank ovals shaded by voters",
+    "Comelec calibration at 25% shading threshold",
+    "PET's 50% rule and the 25-50% gap disenfranchisement",
+    "Pilot provinces: Camarines Sur, Iloilo, Negros Oriental",
+    "Vote tallies in pilot provinces (Bongbong vs Leni)",
+    "5% gap-ballot assumption for arithmetic projection",
+    "Net loss projection: 64,568 for Leni across three pilot provinces",
+    "Leni's overall canvassed lead of 263,473",
+    "Significance of net loss to manual recount of 22 remaining provinces",
+    "Possible overturning not due to cheating but due to shading loophole",
+    "Obvious remedy: revert to 25% threshold",
+    "Better remedy: rerun SD cards",
+    "Tinga v. Cayetano (Taguig, 2010) SD card use in destroyed/unreadable ballots",
+    "Cost savings: 50 revisors at P1,500/day per party avoided",
+    "Speed: pilot precincts alone = 7 months; 9 million protested ballots = years"
+  ],
+  "signature_phrases": [
+    "unintended peril",
+    "25- and 50-percent gap",
+    "NOT during the manual ballot revision at the PET",
+    "not because of cheating but because of a mere shading loophole",
+    "obvious remedy... better remedy",
+    "cheaper, fairer and faster",
+    "SD cards that contain digital copies of all the ballots",
+    "snail-paced processes of a bygone era"
+  ],
+  "entities": {
+    "people": [
+      "Former Sen. Bongbong Marcos (protestant)",
+      "Vice President Leni Robredo (protestee)",
+      "Ret. Justice Dante O. Tinga (Tinga v. Cayetano reference)",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Presidential Electoral Tribunal (PET)",
+      "Commission on Elections (Comelec)"
+    ],
+    "cases": [
+      "Marcos v. Robredo (PET election protest, ongoing)",
+      "Tinga v. Cayetano (Taguig mayoralty, 2010)"
+    ],
+    "laws_treaties": [
+      "PET Rules (pilot provinces, manual recount)",
+      "Election laws (ultra-high priority)"
+    ],
+    "events": [
+      "2016 VP election",
+      "PET's imposition of 50% shading rule",
+      "Pending manual recount of pilot provinces"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The 50% shading rule creates an unintended peril: it disenfranchises voters who shaded between 25% and 50%, and the disenfranchisement will fall proportionately heavier on Leni's voters than on Bongbong's.",
+      "rhetorical_move": "vote-arithmetic demonstration of systemic unfairness",
+      "confidence": "high"
+    },
+    {
+      "claim": "Using the 5% assumption, the net loss for Leni across three pilot provinces is approximately 64,568 -- significant relative to her 263,473 lead and potentially determinative across the remaining 22 provinces.",
+      "rhetorical_move": "numerical projection as policy alarm",
+      "confidence": "medium"
+    },
+    {
+      "claim": "If the 50% rule overturns Leni's lead, it would be because of a shading loophole disenfranchising her voters -- not because of any cheating -- which is unfair to her and more so to the electorate.",
+      "rhetorical_move": "fairness framing separating procedural flaw from merit",
+      "confidence": "high"
+    },
+    {
+      "claim": "The obvious remedy is to revert to the 25% threshold; the better remedy is to rerun the SD cards, which is cheaper, fairer, and faster.",
+      "rhetorical_move": "ranked-remedy prescription",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The three pilot province vote tallies: Camarines Sur (Bongbong 41,219 / Leni 664,190), Iloilo excl. Iloilo City (Bongbong 94,411 / Leni 573,729), Negros Oriental (Bongbong 66,506 / Leni 255,598) -- Bongbong identifying provinces most unfavorable to him.",
+    "The arithmetic projection: at a 5% gap-ballot assumption, Leni loses 74,675 vs Bongbong losing 10,107, a net loss of 64,568 for Leni against her 263,473 lead.",
+    "Tinga v. Cayetano (Taguig mayoralty, 2010) as the precedent for SD card use in election contests -- cited here as the anchor for the 'better remedy' proposal.",
+    "Cost-savings argument: 50 revisors per party at P1,500/day avoided; time-savings argument: pilot precincts alone would take 7 months of manual revision, and the full nine million protested ballots would take years."
+  ],
+  "target_audience": [
+    "PET justices considering the shading-threshold remedy",
+    "Both Marcos and Robredo camps' election lawyers",
+    "Comelec officials",
+    "Election-law scholars and data-driven reformers",
+    "Civic readership tracking the fairness of the protest process"
+  ],
+  "register_markers": [
+    "Vote-arithmetic exposition with specific numbers",
+    "Ranked-remedy framework ('obvious' vs 'better')",
+    "Precautionary 'could -- repeat, could' hedge",
+    "Cost-and-speed analysis of competing remedies",
+    "Cross-reference to Tinga v. Cayetano for precedent",
+    "Fairness-to-electorate framing (not just to Leni)"
+  ],
+  "decision_framework_signals": [
+    "Run vote-arithmetic projections before finalizing procedural rules to avoid unintended disenfranchisement",
+    "Distinguish between a ruling that overturns an election because of cheating vs one that overturns it because of a mechanical loophole",
+    "Apply a proportionality check: does the rule fall disproportionately on one side?",
+    "Rank available remedies by their combined cheapness, fairness, and speed",
+    "Use digital ballot images (SD cards) as a superior substitute for paper-ballot revision in the digital age",
+    "Cite existing precedent (Tinga v. Cayetano) to show the proposed remedy is not novel"
+  ],
+  "one_paragraph_summary": "Panganiban alerts readers to an unintended peril lurking in the Presidential Electoral Tribunal's 50% shading rule in the Bongbong Marcos v. Leni Robredo election protest. The 2016 automated voting machines were calibrated by Comelec to read ballots shaded by at least 25%, but the PET has ruled that only 50%-shaded ballots will count during its manual recount -- thereby disenfranchising voters who shaded between 25% and 50%. The peril is arithmetical: Bongbong identified three pilot provinces where he was most disadvantaged (Camarines Sur, Iloilo excluding Iloilo City, and Negros Oriental), all areas where Leni's margins are enormous. Assuming 5% of ballots fall in the 25-50% gap, Leni would lose approximately 74,675 votes across those three provinces while Bongbong would lose only 10,107 -- a net loss for Leni of 64,568 against her overall canvassed lead of 263,473. That net loss could be significant enough to trigger a full recount of the remaining 22 protested provinces with about nine million votes. The possible overturning of Leni's lead, the column stresses, would not be because of any proven cheating but because of a mechanical shading loophole -- unfair to her and more so to the electorate. The obvious remedy is to revert to the 25% threshold; the better remedy is to rerun the SD cards that contain digital copies of all the ballots -- as was done in Tinga v. Cayetano in Taguig in 2010 -- which is cheaper (avoids paying 50 revisors per party at P1,500 per day), fairer, and faster (pilot precincts alone will take seven months of manual revision; the remaining nine million ballots would take years).",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

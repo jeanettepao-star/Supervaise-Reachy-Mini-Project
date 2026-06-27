@@ -1,0 +1,139 @@
+{
+  "id": "CA041",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 41,
+  "title": "SC innovation: High-Performance Courts",
+  "date": "2025-06-30",
+  "link": "https://opinion.inquirer.net/184271/sc-innovation-high-performance-courts",
+  "keywords": [
+    "Impeachment Court remand",
+    "non-forum shopping certification",
+    "forthwith proceed",
+    "Senate Impeachment Court powers",
+    "20th Congress carryover"
+  ],
+  "primary_topics": [
+    "Senate Impeachment Court's unprecedented remand",
+    "Constitutional and procedural anchors of the IC's powers",
+    "Carryover of impeachment proceedings across Congresses"
+  ],
+  "sub_topics": [
+    "18-5 vote remanding the Articles of Impeachment to the HOR",
+    "Writ of Summons directing the VP to file her answer in 10 days",
+    "Required certification of non-violation of the one-year impeachment bar",
+    "Akin (or not) to certificate of non-forum shopping in civil cases",
+    "Absence of constitutional or Senate Rules basis for remand",
+    "Constitutional 'shall forthwith proceed' command",
+    "Sui generis quasi-judicial nature of the IC",
+    "Risk of bias and possible inhibition of senator-judges",
+    "Continuity of the IC across the 19th and 20th Congresses",
+    "Office vs occupant -- institutional continuity principle",
+    "Four possible destinations the IC could take the case to"
+  ],
+  "signature_phrases": [
+    "Senators, do you know where you're going to?",
+    "the same shall constitute the Articles of Impeachment, and trial by the Senate shall forthwith proceed",
+    "should not lawyer for any party",
+    "the office is different from the occupant thereof",
+    "sui generis quasi-judicial entity",
+    "to the Supreme Court... to the waste basket... to embarrass the VP... to the battle in July",
+    "credibility as independent and unbiased judges",
+    "song popularized by the chanteuse Diana Ross"
+  ],
+  "entities": {
+    "people": [
+      "Vice President Sara Duterte",
+      "Diana Ross (cultural reference)",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Senate Impeachment Court",
+      "House of Representatives (20th Congress, incoming)",
+      "House of Representatives (19th Congress, outgoing)",
+      "Supreme Court of the Philippines",
+      "Senate of the Philippines (regular sessions)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution (impeachment, 'shall forthwith proceed' clause)",
+      "1987 Constitution (one-year bar on impeachment)",
+      "Senate Rules of Procedure on Impeachment",
+      "Rules of Court (certificate of non-forum shopping)"
+    ],
+    "events": [
+      "18-5 IC vote remanding the Articles of Impeachment",
+      "Issuance of Writ of Summons to the VP",
+      "Upcoming July 2025 Senate President election for the 20th Congress",
+      "Pending VP defense announcement to raise constitutional infirmities"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The IC's remand of the Articles of Impeachment to the HOR and demand for a non-forum-shopping-like certification has no constitutional, legal, or procedural anchor.",
+      "rhetorical_move": "doctrinal challenge to a body-of-elected-officials action",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Constitution merely requires that trial 'shall forthwith proceed' once one-third of the House files the verified complaint -- there is no remand power, and the Rules of Court certificate analogy applies only to civil cases.",
+      "rhetorical_move": "textualist refutation grounded in constitutional language",
+      "confidence": "high"
+    },
+    {
+      "claim": "Even if the IC has implied sui generis powers, it should not exercise them unilaterally without notice and due process to the affected parties; it should simply 'forthwith proceed' to trial.",
+      "rhetorical_move": "due-process limitation on inherent powers",
+      "confidence": "high"
+    },
+    {
+      "claim": "Senator-judges should maintain credibility as independent and unbiased judges and should not lawyer for any party -- by acting without motion or request, they risk being asked to inhibit or recuse.",
+      "rhetorical_move": "judicial-ethics caution",
+      "confidence": "high"
+    },
+    {
+      "claim": "The IC's existence is not coterminous with the 19th Congress -- it continues into the 20th, in the same way courts continue despite changes in justices and judges, because the office is different from the occupant.",
+      "rhetorical_move": "institutional-continuity affirmation (the one stance agreeing with the IC)",
+      "confidence": "high"
+    },
+    {
+      "claim": "The IC's actions raise legitimate destination questions: a Supreme Court detour, a wastebasket dismissal, an embarrassment-by-archive of the VP, or a delay until the new Senate President is elected in July 2025.",
+      "rhetorical_move": "rhetorical destination-list provoking accountability",
+      "confidence": "medium"
+    }
+  ],
+  "notable_anecdotes": [
+    "Use of the Diana Ross song 'Do You Know Where You're Going To?' as the column's central refrain and title hook.",
+    "The 18-5 IC vote remanding the AI to the HOR while simultaneously issuing a Writ of Summons to the VP -- an unusual and unprecedented action.",
+    "Pollster-cited 78-88% majorities of Filipinos wanting accountability and transparency -- the civic backdrop the IC's procedural move ignores.",
+    "Author's restraint in not naming specific senator-judges he believes risk inhibition challenges -- leaving identification to readers based on live coverage and printed media reports.",
+    "Cross-reference to the VP's lawyers having publicly announced intent to raise constitutional infirmities allegedly committed by the HOR -- making the IC's unilateral remand procedurally premature."
+  ],
+  "target_audience": [
+    "Members of the Senate sitting as the Impeachment Court",
+    "Counsel for the House prosecutors and for the Vice President",
+    "Constitutional law scholars",
+    "Civic readership demanding accountability for the impeachment process",
+    "Incoming 20th Congress members preparing for July 2025 Senate President election"
+  ],
+  "register_markers": [
+    "Pop-culture song reference embedded as title and refrain",
+    "Numbered/lettered enumeration of constitutional and procedural anchors",
+    "'IN SHORT', 'IN FACT', 'IRONICALLY', 'AT ALL EVENTS' connective signposts",
+    "Restrained but pointed editorial voice ('with due respect to the majority')",
+    "Rhetorical-question cascade in the closing destination list",
+    "Latinisms ('arguendo', 'sui generis', 'motu proprio')",
+    "Cultivated decorum: refuses to name specific senator-judges"
+  ],
+  "decision_framework_signals": [
+    "Test any IC action against the constitutional command to 'forthwith proceed' -- extra steps require textual or rule-based anchors",
+    "Distinguish civil-case forum-shopping certificate from impeachment-case requirements; they are not analogous",
+    "Decline to lawyer for any party as a sitting judge; act on motions filed by the parties to preserve impartiality",
+    "When asserting implied or sui generis powers, observe notice-and-due-process limits",
+    "Treat institutional offices as continuous across personnel changes (Congress, SC, trial courts alike) -- office ≠ occupant",
+    "Frame procedural choices through the public-trust lens (78-88% want accountability) rather than through partisan or self-protective calculations",
+    "Anticipate inhibition risk: actions taken without party motion may invite recusal demands"
+  ],
+  "one_paragraph_summary": "Panganiban critiques the Senate Impeachment Court's unusual 18-5 vote remanding the Articles of Impeachment against VP Sara Duterte to the House of Representatives -- while simultaneously issuing a Writ of Summons giving her 10 non-extendible days to file an answer -- and the IC's demand that the HOR of the 20th Congress certify it did not violate the one-year impeachment bar and confirm willingness to pursue the complaint. He argues that the remand has no constitutional, legal, or procedural anchor: the Constitution textually commands that once one-third of the House files the verified complaint, the Senate 'shall forthwith proceed'; the Senate Rules grant no such remand power; and the analogy to the certificate of non-forum shopping in the Rules of Court applies only to civil, not criminal, cases. Even if the IC has implied sui generis powers, he says, it cannot exercise them unilaterally without notice and due process to the parties -- especially since the VP's own counsel had already announced an intent to raise constitutional infirmities, making the IC's pre-emption procedurally premature and potentially biased enough to invite inhibition motions from the prosecutors. He concedes one point: the IC's existence is properly continuous across the 19th and 20th Congresses because the office is different from the occupant, just as courts continue despite the retirement, resignation, or death of their judges. He closes by asking, in the refrain of the Diana Ross song that titles the column, whether the senator-judges know where they are taking this -- to the Supreme Court (where it could be delayed and forgotten), to the wastebasket (ignoring the 78-88% of Filipinos who want accountability), to embarrass the VP, or to the July 2025 battle for the 20th Congress's Senate Presidency -- leaving the answer to their public-trust discretion.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

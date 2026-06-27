@@ -1,0 +1,166 @@
+{
+  "id": "CA153",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 153,
+  "title": "Mail-in, early ballots to decide US polls",
+  "date": "2024-11-04",
+  "link": "https://opinion.inquirer.net/178068/mail-in-early-ballots-to-decide-us-polls",
+  "keywords": [
+    "US presidential election",
+    "mail-in ballots",
+    "early voting",
+    "Electoral College",
+    "Pennsylvania",
+    "swing states",
+    "Harris vs Trump",
+    "USPS DeJoy",
+    "winner-takes-all"
+  ],
+  "primary_topics": [
+    "Nov 5, 2024 US presidential election as a 'Divided States of America' moment",
+    "68 million Americans already voted by mail or early -- ~43% of total expected ballots",
+    "Republican historical suspicion of mail-in ballots; Trump's unproven Pennsylvania fraud claim",
+    "Mechanics of the US Electoral College compared with Philippine elections",
+    "Pennsylvania as the decisive swing state with 19 electoral votes; seven battleground states totaling 93",
+    "Postmaster General Louis DeJoy's testimony on USPS delivery performance",
+    "Implications: first woman / first South Asian president, or a Trump comeback as oldest, convict, 'fascist'"
+  ],
+  "sub_topics": [
+    "2020 baseline: Biden 81,284,666 / Trump 74,224,319; Biden 306 EC / Trump 232; total ~155.5M",
+    "2024 survey tie at 49% each nationally; remaining 2% decides",
+    "Trump's Pennsylvania-fraud accusation; Penn SecState Al Schmidt (Republican) emphatically denies",
+    "Voters elect electors, not the president directly; Election Day = first Tuesday after first Monday of November",
+    "Allocation by population; California 55; least populous (Alaska, Montana, Wyoming, Washington) 3 each",
+    "538 total electors; 270 needed to win; winner-takes-all except Maine and Nebraska",
+    "Seven swing states: PA (19), AZ (11), GA (16), NV (6), NC (16), MI (15), WI (10)",
+    "43 predictable states + DC: Dems 226 / Republicans 219 baseline",
+    "USPS performance: First-Class Mail 94.29% on-time; Election Mail 97.67% on-time; averages 1.3 / 2.1 days",
+    "Result likely delayed ~2.1 days past Nov 5",
+    "Historic outcome either way"
+  ],
+  "signature_phrases": [
+    "one of the most vicious and divisive elections",
+    "'Divided States of America,' as one commentator derisively called the USA",
+    "about 68 million--per a Nov. 1 CBS News report--have mailed their ballots or have voted early in person",
+    "more or less, of the total votes cast and to be cast",
+    "the remaining two percent will therefore decide the election winner",
+    "the Republicans have historically been suspicious of mail-in and early ballots",
+    "Trump already boisterously claimed, without proof",
+    "a true-red Republican who supervises the elections--emphatically denied",
+    "UNLIKE IN THE PHILIPPINES, US voters choose the 'electors,' who in turn elect their president",
+    "the first Tuesday after the first Monday of November",
+    "All in all, the 'Electoral College' is composed of 538 electors",
+    "the 'winner-takes-all' rule",
+    "WHY IS TRUMP SO FOCUSED ON PENN",
+    "It has become the election barometer",
+    "battleground or swing states",
+    "the race to 270 votes is really to capture enough of the seven swing states",
+    "openly admitted being a Republican",
+    "On average, it is being delivered in just 1.3 days",
+    "the actual election results will not be known till after 2.1 days",
+    "a deeply divided United States will make history",
+    "its first woman president, its first noncolored rooted in South Asia, a prosecutor",
+    "billionaire Trump, a Caucasian male, the oldest presidential candidate ever, an inveterate liar, a 'fascist,' and a convict",
+    "the ramifications will stir the world including the Philippines"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Kamala D. Harris (Democratic nominee)",
+      "Donald J. Trump (Republican nominee)",
+      "Joseph R. Biden Jr. (2020 winner)",
+      "Al Schmidt (Pennsylvania Secretary of State; Republican)",
+      "Louis DeJoy (US Postmaster General)",
+      "Michael Smerconish (podcaster)"
+    ],
+    "institutions": [
+      "United States Postal Service (USPS)",
+      "US Electoral College",
+      "US Congress",
+      "CBS News (Nov 1 report)",
+      "Pennsylvania state government",
+      "Democratic Party",
+      "Republican Party"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "US Constitution (Electoral College; Election Day fixed by federal law)",
+      "Various state election laws (50 states + DC)"
+    ],
+    "events": [
+      "Nov 5, 2024 US presidential election",
+      "2020 US presidential election (baseline figures)",
+      "Oct 26 Smerconish interview with DeJoy",
+      "Trump's Pennsylvania-fraud accusation"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Mail-in and early in-person ballots -- about 68 million per a Nov 1 CBS News report, roughly 43% of the total expected -- have effectively decided the Nov 5 election because national surveys place Harris and Trump even at 49% each, leaving only 2% to settle the outcome.",
+      "rhetorical_move": "data-driven thesis",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Republicans have historically been suspicious of mail-in voting and the USPS; Trump's recent Pennsylvania-fraud claim was made 'without proof' and was emphatically denied by Pennsylvania Secretary of State Al Schmidt, a 'true-red Republican' who supervises the elections.",
+      "rhetorical_move": "partisan-suspicion neutralized by intra-party institutional rebuke",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Unlike the Philippines, US voters elect electors who in turn elect the President; states determine their own selection laws but Election Day is fixed nationally, the Electoral College has 538 members, 270 are needed to win, and most states are winner-takes-all (except Maine and Nebraska).",
+      "rhetorical_move": "comparative-civics primer",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Pennsylvania (19 EVs) is the decisive battleground because in past elections its winner carried the presidency; the seven swing states (PA, AZ, GA, NV, NC, MI, WI) total 93 electoral votes, with the other 43 states + DC giving Democrats a 226-219 baseline.",
+      "rhetorical_move": "battleground-mechanics exposition",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "USPS performance per DeJoy's congressional testimony (94.29% First-Class on-time; 97.67% Election Mail on-time; averages 1.3-2.1 days) indicates the actual election result will likely not be known until roughly 2.1 days after Nov 5, unless a candidate sweeps the non-swing states for 270.",
+      "rhetorical_move": "operational-delivery analysis",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Either outcome will be historic: the first woman president, first noncolored rooted in South Asia, a prosecutor -- or a Trump comeback as oldest presidential candidate ever, 'inveterate liar,' 'fascist,' and convict (with pending appeals).",
+      "rhetorical_move": "historic-stakes close with sharp characterizations",
+      "confidence": "asserted with explicit value-loading"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 'Divided States of America' coinage -- attributed to 'one commentator' -- used as the column's framing motif rather than a throwaway joke.",
+    "Al Schmidt's emphatic denial as 'a true-red Republican who supervises the elections' -- modeling intra-party institutional integrity, recalling Raffensperger in 2020 (E57).",
+    "Louis DeJoy openly admitting his Republican affiliation in the Smerconish interview while vowing objectivity -- paired with USPS performance statistics to defuse partisan suspicion through operational evidence.",
+    "The remarkable USPS delivery numbers (Election Mail 97.67% on-time, 99.27% within a day, 2.1-day average) presented verbatim -- letting institutional self-report stand for itself.",
+    "CJ's value-loaded characterization of Trump -- 'an inveterate liar, a fascist, and a convict (with pending appeals)' -- one of the sharpest editorial adjective strings in this set, contrasted directly with Harris's prosecutorial credential.",
+    "The Pennsylvania 19-EV barometer claim -- 'in past elections, the winner in Penn with 19 electoral votes carried the presidency' -- used as the analytic key to the seven-swing-state map."
+  ],
+  "target_audience": [
+    "Filipino observers of US politics",
+    "Comelec officials and election-administration reformers (US comparative reference)",
+    "Civic-minded readers tracking democratic resilience",
+    "Inquirer general readership",
+    "Filipino-American voters"
+  ],
+  "register_markers": [
+    "data-driven analytical register with verbatim statistical quotations",
+    "ALL-CAPS section openers ('IN THE 2020 PRESIDENTIAL ELECTIONS,' 'UNLIKE IN THE PHILIPPINES,' 'WHY IS TRUMP SO FOCUSED ON PENN,' 'IN AN INTERVIEW ON OCT. 26')",
+    "comparative-civics primer mode (US vs PH)",
+    "value-loaded adjective close ('inveterate liar, fascist, convict')",
+    "explicit comparative framing 'Unlike in the Philippines'",
+    "no Tagalog markers; civic-comparative English",
+    "scare-quoted coinage ('Divided States of America') as framing device"
+  ],
+  "decision_framework_signals": [
+    "applies data-driven thesis pattern (68M / 43% / 49-49 / 2%) to identify the operative decision variable",
+    "uses comparative-civics primer (US vs PH) as the explanatory scaffold",
+    "applies battleground-mechanics framework (winner-takes-all + 270 threshold + 7 swing states totaling 93)",
+    "uses operational-delivery analysis (USPS rates → 2.1-day delay) to predict timing of result",
+    "treats intra-party institutional rebuke (Schmidt, DeJoy) as the strongest defense against partisan-fraud claims",
+    "applies historic-stakes close framing (first woman / first South Asian / prosecutor vs oldest / fascist / convict)"
+  ],
+  "one_paragraph_summary": "Panganiban frames Nov 5, 2024 as one of the most vicious and divisive elections in the history of the 'Divided States of America' -- with about 68 million Americans (per a Nov 1 CBS News report) having already voted by mail or early in person, roughly 43% of the total expected ballots. Using the 2020 baseline (Biden 81.3M / Trump 74.2M; 306-232 in the Electoral College; ~155.5M total), and with all credible national surveys placing Kamala Harris and Donald Trump even at 49% each, the remaining 2% will decide the race. Republicans have historically been suspicious of mail-in voting and the US Post Office; Trump's recent Pennsylvania-fraud accusation was made 'without proof' and was emphatically denied by Penn Secretary of State Al Schmidt, 'a true-red Republican.' Unlike the Philippines, US voters elect electors who in turn elect the President; states set their own selection rules but Election Day is federally fixed, the Electoral College has 538 members, 270 are required to win, and most states (except Maine and Nebraska) are winner-takes-all. Trump's Pennsylvania focus reflects that PA's 19 EVs have lately carried the presidency; the seven swing states (PA, AZ, GA, NV, NC, MI, WI) total 93 EVs, while the other 43 states + DC give Democrats a 226-219 baseline. Postmaster General Louis DeJoy -- who openly admits being a Republican but vows objectivity -- testified that First-Class Mail is delivered on-time 94.29% of the time and Election Mail 97.67%, with averages of 1.3 and 2.1 days; the actual result is therefore likely not known until ~2.1 days after Nov 5, unless a candidate sweeps the non-swing states for 270. Either way, the Divided States will make history -- the first woman president, first noncolored rooted in South Asia, a prosecutor; or billionaire Trump, the oldest presidential candidate ever, 'an inveterate liar, a fascist, and a convict (with pending appeals),' returning triumphantly -- and the ramifications will stir the world, including the Philippines.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

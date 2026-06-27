@@ -1,0 +1,143 @@
+{
+  "id": "CE076",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 76,
+  "title": "Guevarra, Albayalde can easily chase Espinosa, Lim",
+  "date": "2018-04-08",
+  "link": "https://opinion.inquirer.net/112285/guevarra-albayalde-can-easily-chase-espinosa-lim",
+  "keywords": [
+    "Kerwin Espinosa Peter Lim drug charges",
+    "probable cause insufficiency",
+    "automatic review Justice Secretary",
+    "Menardo Guevarra SC qualification",
+    "double jeopardy avoided"
+  ],
+  "primary_topics": [
+    "DOJ prosecutor resolution dismissing drug charges and its automatic review",
+    "Probable cause deficiency in the PNP's single-witness case",
+    "Author's endorsement of Guevarra for the Supreme Court"
+  ],
+  "sub_topics": [
+    "DOJ prosecutors (Catalan, Gingoyon, A. Reyes, Humarang): 42-page dismissal resolution",
+    "Automatic review by the Secretary of Justice",
+    "Option to refile with stronger evidence",
+    "SPPAA statement supporting dismissed prosecutors",
+    "Single witness Marcelo Adorco -- three contradictory affidavits",
+    "Six inconsistency categories in Adorco's affidavits",
+    "Outgoing PNP Chief Dela Rosa admitting 'weak case'",
+    "PNP failed to present Senate-hearing strong evidence",
+    "Adversarial system: prosecutors consider only evidence before them",
+    "No double jeopardy: case dismissed before court filing",
+    "New opportunity with strong evidence after Albayalde assumes command",
+    "Guevarra's academic credentials: BA magna cum laude, LLB second honors, Ateneo; 2nd place 1985 bar",
+    "Guevarra's teaching at Ateneo Law; law partner of Medialdea",
+    "Guevarra under Aquino III: Philippine Truth Commission, Deputy Exec. Sec. Legal Affairs",
+    "Guevarra under Duterte: PCC commissioner, Senior Deputy Exec. Sec.",
+    "Author's public recommendation of Guevarra as SC justice"
+  ],
+  "signature_phrases": [
+    "easily review and rise from",
+    "ELEVATED to the Secretary of Justice for AUTOMATIC REVIEW",
+    "reckless and malicious",
+    "woefully failed to show probable cause",
+    "weak case",
+    "strong additional evidence",
+    "double jeopardy would have attached",
+    "nonpartisan gravitas",
+    "proven competence, integrity, probity and independence"
+  ],
+  "entities": {
+    "people": [
+      "Justice Secretary Menardo I. Guevarra",
+      "Incoming PNP Chief Oscar Albayalde",
+      "Kerwin Espinosa",
+      "Peter Lim",
+      "Acting Prosecutor General Jorge Catalan",
+      "Prosecutor Rassendell Rex Gingoyon",
+      "Prosecutor Aristotle Reyes",
+      "Prosecutor Michael John Humarang",
+      "Witness Marcelo Adorco",
+      "Outgoing PNP Chief Ronald 'Bato' dela Rosa",
+      "Executive Secretary Salvador Medialdea",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Department of Justice (DOJ)",
+      "Philippine National Police (PNP)",
+      "State Prosecutors and Prosecuting Attorneys Association (SPPAA)",
+      "Presidential Anti-Crime Commission",
+      "Philippine Truth Commission",
+      "Philippine Competition Commission (PCC)",
+      "Ateneo de Manila Law School"
+    ],
+    "cases": [
+      "DOJ prosecution resolution dismissing drug charges vs Espinosa, Lim et al."
+    ],
+    "laws_treaties": [
+      "1987 Constitution (double jeopardy clause)",
+      "Rules on criminal procedure (probable cause standard)"
+    ],
+    "events": [
+      "DOJ 42-page dismissal resolution",
+      "Albayalde assuming PNP command",
+      "Guevarra's induction as Justice Secretary"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The dismissal resolution provides for automatic review by the Secretary of Justice and authorizes refiling with stronger evidence -- so all is not lost.",
+      "rhetorical_move": "reassuring procedural clarification",
+      "confidence": "high"
+    },
+    {
+      "claim": "The PNP woefully failed to show probable cause -- relying on a single witness with three contradictory affidavits; the prosecutors acted correctly in recommending dismissal.",
+      "rhetorical_move": "evidentiary analysis endorsing the dismissal",
+      "confidence": "high"
+    },
+    {
+      "claim": "Had the weak case been filed in court, double jeopardy would have attached upon dismissal -- the pre-court dismissal actually preserved the prosecution's ability to refile.",
+      "rhetorical_move": "double-jeopardy-avoidance benefit of the dismissal",
+      "confidence": "high"
+    },
+    {
+      "claim": "Guevarra has the nonpartisan gravitas, proven competence, integrity, probity, and independence to be a Supreme Court member -- a public recommendation the author has made before and reiterates.",
+      "rhetorical_move": "SC-candidacy endorsement with four-constitutional-standard framing",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Outgoing PNP Chief Dela Rosa publicly admitting the PNP 'filed a weak case' -- an unusual concession that corroborates the prosecutors' probable-cause finding.",
+    "The six categories of contradiction in Adorco's three affidavits: dates and places of meetings, months/years of transactions, drug volumes, number and quantities of deliveries, identities of couriers, persons present when deals were hatched.",
+    "The adversarial system constraint: prosecutors may consider only the evidence presented to them, even if the Senate hearings produced stronger material -- a key explanation for the dismissal.",
+    "Guevarra's bipartisan record: Truth Commission and Deputy Exec. Sec. under Aquino III; PCC Commissioner and Senior Deputy Exec. Sec. under Duterte -- a rare nonpartisan credential."
+  ],
+  "target_audience": [
+    "Justice Secretary Guevarra implementing the automatic review",
+    "PNP Chief Albayalde building the stronger evidence file",
+    "Civic readership following the drug-suspect accountability issue",
+    "Legal practitioners on probable cause and double jeopardy",
+    "Judicial appointment watchers interested in Guevarra's SC candidacy"
+  ],
+  "register_markers": [
+    "Forensic-analysis register for the affidavit contradictions",
+    "CAPS-bold quotation from the DOJ resolution",
+    "Adversarial-system procedural explanation",
+    "Double-jeopardy benefit-framing of the dismissal",
+    "Biographical-endorsement register for Guevarra",
+    "Four-constitutional-standard citation as SC-candidacy benchmark",
+    "Author's repeated public recommendation reference"
+  ],
+  "decision_framework_signals": [
+    "Require single-witness evidence to be internally consistent across all affidavits before establishing probable cause",
+    "Use pre-court dismissal strategically to preserve refiling option -- court dismissal would attach double jeopardy",
+    "Distinguish between evidence available in hearings and evidence submitted to prosecutors -- only the latter counts under the adversarial system",
+    "Evaluate a candidate for high office through the four constitutional standards: competence, integrity, probity, independence",
+    "Treat bipartisanship across administrations as evidence of nonpartisan gravitas",
+    "Frame automatic review as an institutional safeguard -- the Secretary of Justice has independent authority to find probable cause"
+  ],
+  "one_paragraph_summary": "Panganiban explains why newly inducted Justice Secretary Guevarra and incoming PNP Chief Albayalde can easily rise from the prosecutors' recommendation to dismiss drug charges against Kerwin Espinosa, Peter Lim, and others: the 42-page DOJ resolution by prosecutors Catalan, Gingoyon, Reyes, and Humarang expressly directed the entire record to be elevated to the Secretary of Justice for automatic review and allowed the PNP to refile if it gathered more concrete and competent evidence. After reviewing the resolution, the author concludes the PNP woefully failed to show probable cause -- it presented only one witness, Marcelo Adorco, whose three separate affidavits were inconsistent on at least six material categories (meeting dates/places, transaction months/years, drug volumes, delivery quantities, courier identities, and persons present). Outgoing PNP Chief Dela Rosa himself admitted to media that the PNP 'filed a weak case.' Under the adversarial system, prosecutors could only consider the evidence presented to them, not the Senate hearing material. The pre-court dismissal is actually beneficial: had the weak case been filed, the court would have dismissed it anyway, and double jeopardy would have attached -- barring any future prosecution. With strong additional evidence from Albayalde's strict command, Guevarra can find probable cause on automatic review. The column closes with a biographical endorsement of Guevarra -- BA magna cum laude and LLB second honors from Ateneo, second place in the 1985 bar, teaching at Ateneo Law while partnering with Medialdea, nonpartisan government service under both Aquino III and Duterte -- repeating the author's public recommendation that Guevarra has the nonpartisan gravitas, proven competence, integrity, probity, and independence to be a Supreme Court member.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

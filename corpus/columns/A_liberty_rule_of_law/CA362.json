@@ -1,0 +1,180 @@
+{
+  "id": "CA362",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 362,
+  "title": "Contrasting the Comelec and SET decisions",
+  "date": "2015-12-06",
+  "link": "https://opinion.inquirer.net/90921/contrasting-the-comelec-and-set-decisions",
+  "keywords": [
+    "Nine-question explainer column on Comelec 2nd Div Poe COC cancellation vs SET 5-4 upholding citizenship",
+    "Rizalino David SC elevation",
+    "SET justice-members can no longer judge on SC review",
+    "landmark 1-vote precedents (Lambino v. Comelec 8-7 + Bush v. Gore 5-4)",
+    "Frivaldo v. Comelec 'literal or liberal' passage quoted at length via Legarda",
+    "Duterte typographical-DQ Frivaldo-doctrine extension",
+    "social-justice-extends-beyond-the-poor framing",
+    "foundlings barred from thousands of natural-born-citizenship offices",
+    "political-not-legal question on Poe's American period",
+    "'Vox populi vox Dei' close"
+  ],
+  "primary_topics": [
+    "Comelec 2nd Division cancellation of Grace Poe COC for 'false' citizenship and residency representations",
+    "SET's contrasting 5-4 ruling upholding Poe's natural-born citizenship",
+    "Nine-question explainer format addressing reader queries",
+    "SET justice-members' inability to vote at SC on review",
+    "Landmark 1-vote precedents: Lambino v. Comelec (8-7) and Bush v. Gore (5-4)",
+    "Frivaldo v. Comelec 'literal or liberal' interpretation passage as Legarda's basis",
+    "Duterte typographical-error DQ and Frivaldo-doctrine extension",
+    "Social justice as inclusive principle beyond the merely poor",
+    "Foundlings barred from thousands of natural-born-citizenship offices",
+    "Poe's American period as political-not-legal question -- 'Vox populi vox Dei'"
+  ],
+  "sub_topics": [
+    "Three pending cases in Comelec's First Division to be consolidated at SC",
+    "Rizalino David's SC review of SET decision",
+    "Inclusion of Poe's name on printed ballots -- Estrada 2010 parallel",
+    "Lambino v. Comelec (Oct 26, 2006) -- 8-7 SC ruling trashing parliamentary-system PI",
+    "Bush v. Gore (Dec 12, 2000) -- 5-4 US SC ruling halting Florida recount",
+    "Loren Legarda quoting Frivaldo's 'literal or liberal' passage at length",
+    "Spirit-not-letter approach to election law interpretation",
+    "Duterte typographical-error DQ as Frivaldo-doctrine test case",
+    "Distinguishing legal eligibility from electoral acceptability (Duterte cussing/human rights shortcuts noted but distinguished)",
+    "Social justice including the disabled, sick, abandoned (foundlings), infirm, mentally retarded, disaster-stricken",
+    "Analytical School / verba legis critique repeated from A359",
+    "Lawyers as social engineers, not mere automatons",
+    "Catalog of natural-born-citizenship offices: Comelec commissioners, audit, civil service, human rights, ombudsman, judicial/prosecutorial, bureau directorships, board examiners, scholarship grantees",
+    "Q9 redirection: Poe's American period is political, not legal -- let people decide via ballot"
+  ],
+  "signature_phrases": [
+    "in my humble opinion",
+    "I believe",
+    "Vox populi vox Dei",
+    "Dura lex sed lex",
+    "verba legis",
+    "social engineers",
+    "the spirit, the intent and the substance of the law",
+    "more law to those who have less in life",
+    "legal eligibility is different from electoral acceptability"
+  ],
+  "entities": {
+    "people": [
+      "Grace Poe",
+      "Rizalino David (SET petitioner appealing to SC)",
+      "Joseph Estrada (referenced via 2010 parallel)",
+      "Senator Loren Legarda",
+      "Mayor Rodrigo Duterte",
+      "John Austin (referenced via Analytical School)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec) Second Division",
+      "Comelec First Division",
+      "Comelec en banc",
+      "Senate Electoral Tribunal (SET)",
+      "Supreme Court of the Philippines",
+      "United States Supreme Court (referenced via Bush v. Gore)"
+    ],
+    "cases": [
+      "Frivaldo v. Comelec (June 26, 1996) -- popular-sovereignty interpretation",
+      "Lambino v. Comelec (Oct 26, 2006) -- 8-7 ruling trashing parliamentary PI",
+      "Bush v. Gore (Dec 12, 2000) -- 5-4 US SC ruling halting Florida recount"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (natural-born citizenship requirements for various offices)",
+      "Omnibus Election Code"
+    ],
+    "events": [
+      "Comelec 2nd Division COC cancellation of Poe",
+      "SET 5-4 decision upholding Poe's natural-born citizenship",
+      "Estrada 2010 presidential election parallel",
+      "Pending consolidation of Comelec and SET appeals at SC"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Poe will file her MR with the Comelec en banc Monday; David, having been denied at SET, will go to the SC; all cases will be consolidated for a final ruling -- meanwhile Poe's name will be printed on the ballots as in Estrada's 2010 case",
+      "rhetorical_move": "procedural-timeline forecast",
+      "confidence": "high"
+    },
+    {
+      "claim": "The three SET justice-members can no longer participate at the SC review -- having judged below, they can no longer judge above",
+      "rhetorical_move": "principled-disqualification statement",
+      "confidence": "high"
+    },
+    {
+      "claim": "A 5-4 SET vote is not 'unreliable' -- many landmark cases have been decided by one vote (Lambino 8-7, Bush v. Gore 5-4)",
+      "rhetorical_move": "rebuttal-by-precedent against the unreliability charge",
+      "confidence": "high"
+    },
+    {
+      "claim": "Legarda did not ask the electorate to decide legal issues -- she quoted Frivaldo's 'literal or liberal' passage at length and chose the liberal way: in case of doubt involving popular sovereignty, interpret so as to enable electorate to elect freely their chosen leader",
+      "rhetorical_move": "defending-quoted-jurist by repeating her quoted basis",
+      "confidence": "high"
+    },
+    {
+      "claim": "If Duterte's alleged DQ rests only on a typographical error, he should be allowed to run under Frivaldo's substantial-justice principle -- though this does not mean CJ approves his human rights shortcuts or habitual cussing; legal eligibility is different from electoral acceptability",
+      "rhetorical_move": "doctrinal application + moral disclaimer + categorical distinction",
+      "confidence": "high"
+    },
+    {
+      "claim": "Poe is not poor, but social justice does not favor only the impoverished -- it equally favors the disabled, sick, abandoned (like foundlings), infirm, mentally retarded, disaster-stricken, and everyone economically, socially, politically, racially, and medically disadvantaged",
+      "rhetorical_move": "expansion of social-justice frame beyond economic poverty",
+      "confidence": "high"
+    },
+    {
+      "claim": "Dura lex sed lex is a favorite expression of lawyers educated under the Analytical School; the better way is to look at the spirit, intent, and substance of the law -- lawyers should be 'social engineers' who help build just societies, not mere automatons",
+      "rhetorical_move": "jurisprudential critique repeated from A359",
+      "confidence": "high"
+    },
+    {
+      "claim": "Beyond president/VP/Senate/House membership, thousands of other offices require natural-born citizenship -- Comelec commissioners, COA, CSC, CHR, ombudsman, most judicial/prosecutorial posts, bureau directorships, board examiners, scholarship grantees -- foundlings should not be barred from all these",
+      "rhetorical_move": "consequentialist-stakes enumeration",
+      "confidence": "high"
+    },
+    {
+      "claim": "Poe's American period is a political not legal question -- let her explain to the people, and if the majority accepts her explanation and votes her to office, so be it; Vox populi vox Dei",
+      "rhetorical_move": "political-question redirection closing on Latin maxim",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Joseph Estrada 2010 ballot parallel -- name printed despite pending challenges",
+    "Lambino v. Comelec 8-7 ruling as Philippine 1-vote precedent",
+    "Bush v. Gore 5-4 US SC ruling as foreign 1-vote precedent",
+    "Loren Legarda quoting Frivaldo's passage at length",
+    "Duterte typographical-error DQ raised but treated separately from his moral conduct",
+    "Catalog of natural-born offices including obscure ones like board examiners and scholarship grantees"
+  ],
+  "target_audience": [
+    "Inquirer readership wanting plain-language explanation of the dual rulings",
+    "Lawyers and election watchers tracking SET-Comelec-SC architecture",
+    "Foundling-rights and social-justice advocates",
+    "Duterte supporters questioning the apparent disparity",
+    "Critics of SET's 5-4 vote questioning legitimacy"
+  ],
+  "register_markers": [
+    "Q&A explainer format with numbered questions and direct answers",
+    "Latin tags ('Vox populi vox Dei', 'Dura lex sed lex', 'verba legis')",
+    "extended block-quote of Frivaldo passage via Legarda",
+    "categorical-distinction formula ('legal eligibility is different from electoral acceptability')",
+    "social-justice expansion-of-frame catalog",
+    "jurisprudential-school critique (Analytical School / social engineers)",
+    "consequentialist-stakes enumeration of natural-born offices",
+    "political-question redirection ('That is a political, not legal, question')",
+    "moral-disclaimer formula ('this does not mean I approve of his ...')"
+  ],
+  "decision_framework_signals": [
+    "Frivaldo 'literal or liberal' interpretive choice as doctrinal axis",
+    "Popular-sovereignty default in case of doubt",
+    "Substantial justice over verba legis textualism",
+    "Lawyers as social engineers (Pound/Cardozo-tradition critique of analytical school)",
+    "Social-justice expanded beyond economic poverty to include all disadvantaged classes",
+    "Categorical distinction: legal eligibility vs electoral acceptability",
+    "Political-question doctrine as final redirection on Poe's American period",
+    "Vox populi vox Dei as closing axiom"
+  ],
+  "one_paragraph_summary": "Panganiban uses a nine-question Q&A format to explain the contrasting Comelec 2nd Division and SET rulings on Sen. Grace Poe. Q1 (procedure): Poe will file her MR with the Comelec en banc Monday; David, denied at SET, is poised to go to the SC; all cases -- plus three others pending in Comelec's First Division -- will be consolidated at the SC for a final ruling; meanwhile Poe's name will be printed on the ballots as in Estrada's 2010 case. Q2 (SET justices at SC review): No, having judged below, they can no longer judge above. Q3 (5-4 vote reliability): Not unreliable at all -- many landmark cases have been decided by one vote, including Lambino v. Comelec (8-7, Oct 26, 2006) trashing the parliamentary-system people's initiative and the US Supreme Court's Bush v. Gore (5-4, Dec 12, 2000) halting the Florida recount and ushering in Bush's election. Q4 (Legarda asking electorate to decide legal issues): No -- Legarda quoted Frivaldo v. Comelec (June 26, 1996) at length: 'the question really boils down to a choice of ... how to interpret and apply laws relating to elections: literal or liberal, the letter or the spirit, the naked provision or the ultimate purpose, legal syllogism or substantial justice, in isolation of or in the context of social conditions, harshly against or gently in favor of the voters' choice. In applying election laws, it would be far better to err in favor of popular sovereignty than to be right in complex but little understood legalisms.' She chose the liberal way: in case of doubt involving popular sovereignty, interpret to enable the electorate to elect freely their chosen leader. Q5 (Duterte): If Duterte's alleged DQ rests only on a typographical error, he should be allowed to run under Frivaldo's substantial-justice principle -- this does not mean CJ approves his human rights shortcuts or habitual cussing; legal eligibility is different from electoral acceptability. Q6 (social justice for a non-poor Poe): Social justice equally favors the disabled, sick, abandoned (like foundlings), infirm, mentally retarded, disaster-stricken, and everyone economically, socially, politically, racially, and medically disadvantaged -- not only the impoverished. Q7 (Dura lex sed lex for foundlings?): Dura lex sed lex is a favorite expression of lawyers educated under the Analytical School who interpret verba legis; the better way is to look at the spirit, intent, and substance of the law -- lawyers should be social engineers who help build just societies, not mere automatons or legal technicians applying laws strictly without considering effects on society. Q8 (other natural-born offices): Yes, thousands -- Comelec commissioners, COA, CSC, CHR, ombudsman, most judicial/prosecutorial posts, bureau directorships, board examiners, scholarship grantees, and others too numerous to fit. Foundlings should not be denied entry to all these offices. Q9 (Poe's American period): That is a political, not legal, question better answered by the people via their ballots. Not every question can or should be decided by tribunals. Let Poe explain to the people, and if the majority accepts her explanation and votes her to office, so be it. This is the essence of democracy. Vox populi vox Dei.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

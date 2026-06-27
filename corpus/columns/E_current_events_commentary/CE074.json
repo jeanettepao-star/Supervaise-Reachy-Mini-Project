@@ -1,0 +1,132 @@
+{
+  "id": "CE074",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 74,
+  "title": "Alleviating high fuel prices",
+  "date": "2018-05-27",
+  "link": "https://opinion.inquirer.net/113475/alleviating-high-fuel-prices",
+  "keywords": [
+    "Dubai crude oil price",
+    "TRAIN Law excise tax petroleum",
+    "oil deregulation",
+    "VAT suspension threshold",
+    "supply demand crude oil"
+  ],
+  "primary_topics": [
+    "Analysis of the pump-price surge and its causes",
+    "Three viable remedies tied to the Dubai crude benchmark",
+    "Rejection of minimum-wage increases and oil-deregulation repeal as solutions"
+  ],
+  "sub_topics": [
+    "Pump price increases: P1/liter/week in last two weeks; P10/liter Jan-May 22",
+    "Dubai crude benchmark: $30.42/bbl (Q1 2016) → $53.12 (Q1 2017) → $63.88 (Q1 2018) → nearly $80",
+    "Geopolitical tension and civil strife in oil-producing countries",
+    "Venezuela production decline: 3M to 1.5M bbl/day",
+    "OPEC production cuts; Russia following suit",
+    "Rising demand: China, EU, US, Philippines",
+    "Law of supply and demand",
+    "Domino effect: electricity, food, water",
+    "Peso depreciation: P47 to P52.50 (12%) over two years",
+    "TRAIN Law (RA 10963) excise taxes on petroleum",
+    "Revenue Regulation 2-2018: gasoline schedule (P7→P9→P10), diesel schedule (P2.50→P4.50→P6)",
+    "Minimum wage increase as inflationary -- rejected",
+    "Repeal of Oil Deregulation Law -- rejected",
+    "Remedy 1: TRAIN Sec. 43 automatic suspension of new excise when Dubai ≥ $80",
+    "Remedy 2: Suspend 12% VAT when Dubai ≥ $63",
+    "Remedy 3: Consumer savings -- car pools, unnecessary trips, alternate routes",
+    "'Asiong Aksaya' from five decades ago"
+  ],
+  "signature_phrases": [
+    "irrepealable law of supply and demand",
+    "domino effect",
+    "Dubai crude",
+    "Asiong Aksaya",
+    "pump price",
+    "main villain in high pump prices",
+    "suspended when the average Dubai crude oil price... reaches or exceeds eighty dollars"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Organization of Petroleum Exporting Countries (OPEC)",
+      "Russian Federation",
+      "Bureau of Internal Revenue (BIR)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Republic Act No. 10963 (TRAIN Law), Section 43",
+      "Revenue Regulation 2-2018 (excise tax schedules)",
+      "Oil Deregulation Law"
+    ],
+    "events": [
+      "Pump price surges in May 2018 (P1/liter/week for two weeks)",
+      "Venezuela production collapse",
+      "OPEC and Russia production cuts",
+      "Peso depreciation (2016-2018)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The pump price surge is driven mainly by the nearly 200% rise in Dubai crude over two years, compounded by peso depreciation and the TRAIN Law excise -- not by any single domestic policy failure.",
+      "rhetorical_move": "multi-cause diagnosis that contextualizes the problem",
+      "confidence": "high"
+    },
+    {
+      "claim": "Increasing the minimum wage would only be temporary relief: more money in circulation stokes inflation that lingers even after crude prices stabilize.",
+      "rhetorical_move": "knee-jerk-remedy rejection",
+      "confidence": "high"
+    },
+    {
+      "claim": "Repealing the Oil Deregulation Law has proven over the years not viable -- subsidizing pump prices merely encourages wasteful consumption.",
+      "rhetorical_move": "experience-based policy rejection",
+      "confidence": "high"
+    },
+    {
+      "claim": "Three linked-to-crude remedies work: TRAIN Sec. 43's automatic excise suspension at $80/bbl, government suspension of 12% VAT at $63/bbl, and consumer savings (car pools, fewer trips, alternate routes).",
+      "rhetorical_move": "ranked constructive alternatives",
+      "confidence": "high"
+    },
+    {
+      "claim": "Instead of subsidizing pump prices like other countries, the Philippines can suspend its additional tax take when Dubai crude reaches an unaffordable threshold.",
+      "rhetorical_move": "comparative policy preference framing",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Dubai crude price trajectory: $30.42/bbl (Q1 2016) → $53.12 (Q1 2017, +75%) → $63.88 (Q1 2018, +20%) → nearly $80 (May 2018) -- an almost 200% run-up in two years.",
+    "Venezuela production decline from 3 million to 1.5 million barrels per day as a geopolitical production-cut example.",
+    "Peso depreciation of 12% (P47 → P52.50) over two years contributing to pump-price escalation independent of crude prices.",
+    "The TRAIN Law's automatic excise suspension trigger at $80/bbl (Section 43) as a ready-made relief mechanism already in the statute.",
+    "'Asiong Aksaya' -- a five-decades-old consumer-savings campaign invoked as still relevant."
+  ],
+  "target_audience": [
+    "Legislators and the DOF considering VAT suspension legislation",
+    "Motoring public and consumers",
+    "Economists and energy-policy analysts",
+    "Business community affected by fuel cost pass-through",
+    "Civic readers seeking practical policy alternatives"
+  ],
+  "register_markers": [
+    "Quarterly price-series data with percentages",
+    "Named statute section citations (TRAIN Sec. 43, RR 2-2018)",
+    "Cause-enumeration followed by remedy-enumeration structure",
+    "Named rejection of two popular but flawed remedies",
+    "Consumer-behavior closing appeal",
+    "Historical pop-culture reference ('Asiong Aksaya')"
+  ],
+  "decision_framework_signals": [
+    "Trace pump prices to their upstream cause (Dubai crude, not domestic policy) before prescribing remedies",
+    "Reject inflationary remedies (minimum wage hike) even if politically popular",
+    "Reject supply-subsidy remedies (deregulation repeal) that reward wasteful consumption",
+    "Use automatic statutory triggers already in the law (TRAIN Sec. 43 at $80) rather than legislating new emergency measures",
+    "Add a VAT suspension at the lower $63 threshold as a supplementary legislative measure tied to the same Dubai crude benchmark",
+    "Pair macro-policy remedies with micro-behavioral changes (consumer savings, car pools) for a layered response"
+  ],
+  "one_paragraph_summary": "Panganiban diagnoses the May 2018 fuel price surge -- pump prices up P1/liter/week for two weeks; P10/liter since January 1 -- as driven mainly by the nearly 200% rise in Dubai crude from $30.42/bbl (Q1 2016) to nearly $80 (May 2018), compounded by geopolitical tensions, Venezuela's production halving, OPEC/Russia output cuts, rising Asian demand, a 12% peso depreciation (P47 → P52.50), and the TRAIN Law's new excise taxes (RA 10963, RR 2-2018: gasoline P7→P9→P10 per liter; diesel P2.50→P4.50→P6 per liter). He rejects two popular knee-jerk reactions: minimum-wage increases would only stoke inflation that lingers beyond any crude-price decline, and repealing the Oil Deregulation Law has proven over the years not viable because subsidizing pump prices encourages wasteful consumption. Instead, he proposes three remedies linked directly to the main villain -- crude prices. First, TRAIN Section 43 already provides an automatic suspension of the 2019-and-beyond excise increases when Dubai crude averages $80/bbl or more in the prior three months -- a ready-made relief mechanism. Second, Congress can legislate a suspension of the 12% VAT when Dubai crude reaches $63/bbl -- the Q1 2018 average, i.e., the price already straining consumers -- instead of outright subsidizing pump prices as other countries do. Third, consumers themselves can help through practical savings: minimizing unnecessary trips, popularizing car pools, using alternate routes during heavy traffic -- revisiting the 'Asiong Aksaya' tips of five decades ago.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

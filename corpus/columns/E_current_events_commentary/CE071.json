@@ -1,0 +1,136 @@
+{
+  "id": "CE071",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 71,
+  "title": "Church-state separation and cooperation",
+  "date": "2018-07-01",
+  "link": "https://opinion.inquirer.net/114291/church-state-separation-cooperation",
+  "keywords": [
+    "church-state separation",
+    "render unto Caesar",
+    "Aglipay v. Ruiz",
+    "Pontifical Council for the Laity",
+    "Cardinal Tagle sobriety"
+  ],
+  "primary_topics": [
+    "Constitutional and biblical foundations of church-state separation",
+    "The Church's policy of non-interference in secular matters",
+    "Call for national unity amid the 'stupid God' controversy"
+  ],
+  "sub_topics": [
+    "1987 Constitution Preamble -- theist state",
+    "Aglipay v. Ruiz (March 13, 1937) -- 'elevating influence of religion'",
+    "Article II Section 6 -- inviolable wall of separation",
+    "Bill of Rights -- no establishment of religion",
+    "State neutrality among denominations",
+    "Prohibited state actions: basilica funding, salary of priests, condemning beliefs",
+    "Matthew 22 / Mark 12 -- 'Render unto Caesar' response to the Pharisees",
+    "Author's appointment to Pontifical Council for the Laity (1996-2002)",
+    "General Church policy: avoid political confrontation, intervene on faith and morals only",
+    "2001 EDSA dilemma that nearly split the Catholic hierarchy",
+    "Bishops and lay leaders remonstrating against the 'stupid God' remark",
+    "Cardinal Tagle's call to 'be calm' and not be 'distracted'",
+    "Closing triple-refrain structure: build/build/build, jobs/jobs/jobs, food/food/food, kill/kill/kill, chase/chase/chase, curse/curse/curse"
+  ],
+  "signature_phrases": [
+    "Render unto Caesar what is Caesar's and to God what is God's",
+    "inviolable wall of separation",
+    "elevating influence of religion",
+    "the god of the political plains",
+    "build, build, build",
+    "jobs, jobs, jobs",
+    "food, food, food",
+    "kill, kill, kill... chase, chase, chase... curse, curse, curse",
+    "be calm",
+    "safeguard liberty, prosperity and the rule of law"
+  ],
+  "entities": {
+    "people": [
+      "Cardinal Luis Antonio G. Tagle",
+      "Jesus Christ (scriptural reference)",
+      "Artemio V. Panganiban (author, member of Pontifical Council for the Laity 1996-2002)",
+      "Late Pope / Saint John Paul II"
+    ],
+    "institutions": [
+      "Catholic Bishops' Conference of the Philippines (CBCP)",
+      "Pontifical Council for the Laity (Vatican)",
+      "Catholic Church",
+      "Evangelical / Protestant churches"
+    ],
+    "cases": [
+      "Aglipay v. Ruiz (March 13, 1937)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution, Preamble (theist state)",
+      "1987 Constitution, Article II, Section 6 (inviolable separation)",
+      "1987 Constitution, Bill of Rights (non-establishment clause)"
+    ],
+    "events": [
+      "2001 EDSA People Power II",
+      "President Duterte's 'stupid God' remark",
+      "Author's Pontifical Council term (1996-2002)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Both the Constitution and the Bible ordain the separation of Church and state -- the constitutional wall is 'inviolable' and the biblical command is 'render unto Caesar.'",
+      "rhetorical_move": "dual-source (constitutional and scriptural) mandate",
+      "confidence": "high"
+    },
+    {
+      "claim": "The state is neutral among religious denominations and may not fund exclusive religious infrastructure, subsidize dogmas, pay clergy for strictly religious duties, or condemn beliefs.",
+      "rhetorical_move": "doctrinal-content enumeration",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Church's general policy -- based partly on the 'render unto Caesar' command -- is to avoid confronting the state on political issues and to intervene only on matters of faith and morals.",
+      "rhetorical_move": "insider ecclesiastical-policy disclosure from Pontifical Council experience",
+      "confidence": "high"
+    },
+    {
+      "claim": "The 'stupid God' confrontation will escalate and needlessly divide the nation unless handled properly -- Cardinal Tagle's call for calm and not being 'distracted' is the right response.",
+      "rhetorical_move": "de-escalation endorsement grounded in named Church authority",
+      "confidence": "high"
+    },
+    {
+      "claim": "Crossing the wall of separation to find what unites -- build roads, create jobs, feed the hungry, help the poor -- is the constructive alternative to the 'kill, kill, kill' of poor addicts and loiterers.",
+      "rhetorical_move": "triple-refrain rallying call",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Author's appointment by the late Pope (now Saint) John Paul II to the Vatican-based Pontifical Council for the Laity for the 1996-2002 term -- the only Filipino so appointed -- cited as the basis for his insider knowledge of the Church's political-intervention policy.",
+    "The 2001 EDSA dilemma that 'nearly split the Catholic hierarchy' -- deliberately deferred for another column without details.",
+    "Cardinal Tagle texting the author from Bangkok when news of the Sereno ouster broke (May 11) and the author replying briefly with a plea for a later balanced view (C76 cross-reference).",
+    "The triple-refrain closing structure: 'build, build, build' / 'jobs, jobs, jobs' / 'food, food, food' paired against 'kill, kill, kill' / 'chase, chase, chase' / 'curse, curse, curse' -- a rhetorical architecture unique to this column."
+  ],
+  "target_audience": [
+    "Religious leaders (Catholic, Evangelical, Protestant) involved in the controversy",
+    "Government officials, especially Malacañang",
+    "Civic-minded Filipinos seeking to de-escalate the church-state tension",
+    "Constitutional law students and scholars",
+    "Members of the Catholic faithful"
+  ],
+  "register_markers": [
+    "Dual-authority register (constitutional + scriptural)",
+    "Latin-origin language ('render unto Caesar', 'denarius')",
+    "First-person ecclesiastical disclosure (Pontifical Council membership)",
+    "Triple-anaphora closing structure",
+    "Homiletic-civic blend",
+    "Name-drop of Cardinal Tagle with Thai setting for intimacy",
+    "Cross-reference to future column on 2001 EDSA dilemma"
+  ],
+  "decision_framework_signals": [
+    "Anchor state neutrality in the constitutional non-establishment clause, not just policy preference",
+    "Apply the 'render unto Caesar' framework to determine which issues fall within secular jurisdiction vs faith-and-morals Church authority",
+    "When Church and state clash, defer to the Cardinal Tagle-style 'be calm, be not distracted' model before escalating",
+    "Distinguish legitimate Church intervention (faith, morals, sanctity of life, marriage) from prohibited political entanglement",
+    "Use the triple-refrain structure as a rhetorical device to redirect attention from conflict to shared civic goals",
+    "Invoke insider ecclesiastical knowledge (Pontifical Council) as a credibility source for Church-policy claims"
+  ],
+  "one_paragraph_summary": "Panganiban takes up the constitutional and biblical foundations of church-state separation amid the controversy over President Duterte's 'stupid God' remark. The 1987 Constitution's Preamble recognizes the 'elevating influence of religion' (Aglipay v. Ruiz, March 13, 1937) but Article II, Section 6 mandates an 'inviolable' wall of separation, reinforced by the Bill of Rights' non-establishment clause -- meaning the state cannot fund exclusive religious infrastructure, subsidize dogmas, pay clergy for strictly religious duties, or condemn beliefs. Scripturally, the Lord's 'Render unto Caesar what is Caesar's and to God what is God's' (Matthew 22 / Mark 12) establishes the same divide. Drawing on his unique credential as the only Filipino appointed by Saint Pope John Paul II to the Vatican-based Pontifical Council for the Laity (1996-2002), the author explains that the Church's general policy is to avoid confronting the state on political issues and to intervene only on matters of faith and morals -- though it faced a painful dilemma during the 2001 EDSA Revolution that nearly split the Catholic hierarchy (details deferred to another column). Against this backdrop, he endorses Cardinal Tagle's call to 'be calm' and not be 'distracted' by the 'stupid God' confrontation, warning it will needlessly divide the nation. He closes with a triple-refrain rallying cry: crossing the wall to find what unites -- 'build, build, build' roads; 'jobs, jobs, jobs' for the unemployed; 'food, food, food' for the hungry; 'help, help, help' the poor -- while abandoning the 'kill, kill, kill' of poor addicts and loiterers in favor of chasing the rich drug lords, and ending the 'curse, curse, curse' of God, Allah, and Yahweh.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

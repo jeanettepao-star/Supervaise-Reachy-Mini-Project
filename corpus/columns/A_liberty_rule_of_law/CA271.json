@@ -1,0 +1,148 @@
+{
+  "id": "CA271",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 271,
+  "title": "SC orders devolution, ignites federalism joust",
+  "date": "2018-07-22",
+  "link": "https://opinion.inquirer.net/114792/sc-orders-devolution-ignites-federalism-joust",
+  "keywords": [
+    "LGU just share national taxes",
+    "SC Bersamin devolution ruling",
+    "Build build build deficit risk",
+    "Bernardo Villegas federalism costs",
+    "Rosario Manasan P55 billion annual cost"
+  ],
+  "primary_topics": [
+    "Supreme Court ruling expanding LGU just share to all national taxes",
+    "Economic risks and the federalism debate",
+    "Prospective vs retroactive implementation"
+  ],
+  "sub_topics": [
+    "Article X Section 6 -- LGU 'just share' of national taxes",
+    "Local Government Code 1991 -- 40% of national internal revenue taxes",
+    "SC ruling: 40% of all national taxes (customs, tariffs, airport fees)",
+    "Prospective implementation (not retroactive from 1992)",
+    "Finance Sec. Dominguez's P1.5 trillion retroactivity concern",
+    "Budget Sec. Diokno's 6% deficit and credit-rating-downgrade worry",
+    "NEDA Sec. Pernia's devolution-federalism connection",
+    "Spokesperson Roque's allayment (no comment on Diokno's deficit concern)",
+    "Economist Villegas: federalism expensive and unnecessary",
+    "Economist Abola: hyperinflation risk (1,000% in some countries)",
+    "PIDS Manasan: P55B annual federalism cost to taxpayers",
+    "Sen. Lacson tweet: implement the LGC instead of revising the Constitution",
+    "Conflicting federalism drafts: ConCom Bayanihan, PDP-Laban, House committee"
+  ],
+  "signature_phrases": [
+    "just share, as determined by law, in the national taxes which shall be automatically released",
+    "staggering P1.5 trillion",
+    "cavalierly ignored",
+    "refreshing pause",
+    "diverse and confusing voices",
+    "prospective, not retroactive",
+    "implement the [LGC] and achieve the same purpose"
+  ],
+  "entities": {
+    "people": [
+      "Justice Lucas P. Bersamin (ponente)",
+      "Finance Secretary Carlos G. Dominguez III",
+      "Budget Secretary Benjamin Diokno",
+      "Socioeconomic Planning Secretary Ernesto Pernia",
+      "Presidential Spokesperson Harry Roque",
+      "Economist Bernardo Villegas",
+      "Economist Victor Abola",
+      "PIDS Researcher Rosario Manasan",
+      "Sen. Panfilo Lacson",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Department of Finance",
+      "Department of Budget and Management",
+      "National Economic and Development Authority (NEDA)",
+      "Philippine Institute for Development Studies (PIDS)",
+      "University of Asia and the Pacific",
+      "Senate of the Philippines",
+      "PDP-Laban",
+      "House Committee on Constitutional Amendments",
+      "ConCom"
+    ],
+    "cases": [
+      "SC devolution ruling (July 10, 2018, 10-3, per J. Bersamin) -- LGU just share expanded to all national taxes"
+    ],
+    "laws_treaties": [
+      "1987 Constitution, Article X, Section 6 (LGU just share)",
+      "Local Government Code of 1991 (40% of national internal revenue taxes)",
+      "ConCom Bayanihan Constitution draft",
+      "PDP-Laban federal constitution draft",
+      "House committee draft"
+    ],
+    "events": [
+      "SC July 10, 2018 vote (10-3) on LGU just share",
+      "Dominguez's P1.5 trillion retroactivity concern",
+      "Diokno's 6% deficit warning",
+      "Lacson tweet calling for LGC implementation instead of Cha-cha"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The SC correctly read the Constitution: LGUs' 40% share should be based on all 'national taxes,' not just NIRC taxes, and must be automatically released.",
+      "rhetorical_move": "textual-constitutional affirmation",
+      "confidence": "high"
+    },
+    {
+      "claim": "The prospective (not retroactive) implementation was the right call -- Dominguez's P1.5 trillion retroactivity concern is thus allayed.",
+      "rhetorical_move": "practical-relief reporting of confidential-source information",
+      "confidence": "high"
+    },
+    {
+      "claim": "The SC decision provides a 'refreshing pause' for federalism proponents to restudy the economic costs -- Diokno, Villegas, Abola, and Manasan's candid warnings cannot be cavalierly ignored.",
+      "rhetorical_move": "reframing an SC ruling as a policy pause signal",
+      "confidence": "high"
+    },
+    {
+      "claim": "Federalism proponents need to unify and simplify their proposals -- three divergent drafts (ConCom, PDP-Laban, House committee) with confusing voices explain why opinion polls show very little support.",
+      "rhetorical_move": "message-discipline prescription for proponents",
+      "confidence": "high"
+    },
+    {
+      "claim": "Sen. Lacson's argument that implementing the LGC is sufficient to achieve devolution's grand goal without revising the Constitution deserves serious consideration.",
+      "rhetorical_move": "endorsement of the simpler, law-respecting alternative",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The SC voted July 10, but copies had not yet been released -- media caught glimpses of highlights, illustrating the deliberate 'release after promulgation' practice.",
+    "Author's confidential sources reporting the prospective-only implementation -- critical information that allays the P1.5 trillion concern.",
+    "Sen. Lacson's tweet: a rare and pithy articulation of the anti-Cha-cha position ('We only need to implement the [LGC] and achieve the same purpose').",
+    "Abola's hyperinflation warning: some federal countries in Latin America and Europe experienced consumer prices surging 1,000%.",
+    "Manasan's P55 billion annual additional cost estimate for federalism -- the most specific fiscal price tag in the debate."
+  ],
+  "target_audience": [
+    "LGU executives and local government advocates",
+    "Economic team (Finance, DBM, NEDA)",
+    "ConCom members and Congress deliberating the federal draft",
+    "Voters and civic society tracking federalism costs",
+    "Economists and policy researchers"
+  ],
+  "register_markers": [
+    "SC-ruling-report opening followed by economic-reaction survey",
+    "Confidential-source disclosure with attribution ('my confidential sources')",
+    "Senator-tweet citation as concise rebuttal",
+    "Economist parade with institutional affiliations",
+    "Closing diagnosis of proponent coordination failure",
+    "Cautionary-pause framing ('refreshing pause')"
+  ],
+  "decision_framework_signals": [
+    "Read constitutional mandates textually: 'national taxes' means all national taxes, not just NIRC",
+    "Apply prospective-only implementation to prevent staggering retroactive burdens",
+    "Treat SC fiscal-devolution rulings as policy signals that require recalibration by the executive",
+    "Require federalism proponents to consolidate divergent drafts before seeking public ratification",
+    "Test federalism against the simpler alternative: can LGC implementation achieve the same goal?",
+    "Weight fiscal risks (deficit, credit rating, inflation) as relevant to constitutional design -- economics and law are not separable"
+  ],
+  "one_paragraph_summary": "Panganiban reports on the Supreme Court's 10-3 ruling (July 10, 2018, per J. Bersamin) that LGUs are entitled to 40% of all national taxes -- not just national internal revenue taxes under the Local Government Code of 1991 -- plus automatic release, pursuant to Article X, Section 6. Per his confidential sources, the Court decided on prospective (not retroactive) implementation, thus allaying Finance Secretary Dominguez's concern that a retroactive computation from 1992 could reach a staggering P1.5 trillion. Budget Secretary Diokno still warned of a potential 6% deficit and credit-rating downgrade threatening the 'Build, build, build' program; NEDA Secretary Pernia connected fiscal devolution to federalism's economic risks. Presidential spokesperson Roque allayed Pernia but did not address Diokno's concerns. Economists Villegas and Abola of the University of Asia and the Pacific warned that federalism is expensive, unnecessary, and potentially hyperinflationary (1,000% consumer price surges in some Latin American and European federal states); PIDS researcher Manasan estimated P55 billion in annual additional costs. Sen. Lacson tweeted that simply implementing the LGC could achieve devolution without revising the Constitution. The column closes with two prescriptions: the SC ruling is a 'refreshing pause' for proponents to restudy costs, and the proponents urgently need to unify three divergent and confusing drafts (ConCom, PDP-Laban, House committee) whose incoherence explains why opinion polls show very little support for federalism.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

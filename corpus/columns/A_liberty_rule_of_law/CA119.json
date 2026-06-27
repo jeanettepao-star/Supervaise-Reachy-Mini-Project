@@ -1,0 +1,144 @@
+{
+  "id": "CA119",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 119,
+  "title": "Gigi freed, Leila next?",
+  "date": "2023-01-30",
+  "link": "https://opinion.inquirer.net/160676/gigi-freed-leila-next",
+  "keywords": [
+    "Reyes v. Director (Jan. 17, 2023)",
+    "habeas corpus vs bail",
+    "vexatious, capricious, and oppressive detention",
+    "right to speedy trial",
+    "Sandiganbayan one-witness-per-day pacing",
+    "Leila de Lima bail bid"
+  ],
+  "primary_topics": [
+    "Reyes v. Director (Jan. 17, 2023, SC First Division, J. Hernando) -- habeas corpus for Jessica 'Gigi' Reyes via vexatious-detention exception",
+    "Whether the same writ can be extended to Sen. Leila de Lima",
+    "Two remedies for temporary liberty: bail (Bill of Rights guarantee with capital-offense exception) vs habeas corpus (illegal detention regardless of charge)",
+    "Outright dismissal as the further remedy where speedy-trial/disposition violations are extreme",
+    "Procedural caution from de Lima's counsel: case-to-case factual comparison required"
+  ],
+  "sub_topics": [
+    "19-page First Division ruling with libertarian disposition",
+    "Right to speedy trial and right to liberty as constitutional anchors",
+    "Dino de Leon (de Lima counsel) admitting on TV they must first study whether facts are 'on all fours' with Reyes before seeking a similar ruling",
+    "Solicitor General Menardo I. Guevarra: ruling 'will have to be applied on a case-to-case basis, depending on the facts of each particular case, and not as a blanket precedent'",
+    "Gigi's counsel Estelito P. Mendoza: 'I do not know enough of De Lima's case to comment'",
+    "Boni Tacardon (another de Lima counsel) preferring to secure bail; expects Muntinlupa RTC ruling 'at the end of March'",
+    "Bail constitutional rule: guaranteed even when habeas corpus is suspended, but not for offenses punishable by reclusion perpetua when evidence of guilt is strong",
+    "Habeas corpus rule: available to any illegally detained person regardless of charge; no bail bond required",
+    "Court-jurisdiction default: habeas corpus will not liberate someone in lawful custody -- exception when custody becomes 'vexatious, capricious, and oppressive'",
+    "Sandiganbayan delays: wrong markings in the prosecution's evidence; trial commenced only on March 3, 2022 though information filed June 5, 2014; only one witness per day",
+    "Court finding: prosecution failed to explain the prolonged proceedings; no assurance of termination; nine years' detention is 'far too long'"
+  ],
+  "signature_phrases": [
+    "libertarian resolution",
+    "May this grant of the writ of habeas corpus to her be extended to detained former senator Leila de Lima?",
+    "Not necessarily; at least not immediately; much needs to be done still",
+    "on all fours",
+    "case-to-case basis",
+    "with whom I respectfully agree",
+    "two remedies to secure temporary liberty for detainees: bail and habeas corpus",
+    "vexatious, capricious, and oppressive",
+    "nine years is far too long of a detention",
+    "outright dismissal of the charges and the acquittal of the accused regardless of whether the accused is factually guilty or not",
+    "will they go for broke",
+    "Abangan!"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Jessica Lucila 'Gigi' Reyes (granted writ)",
+      "Sen. Leila de Lima (still detained)",
+      "Justice Ramon Paul L. Hernando (ponente of Reyes)",
+      "Estelito P. Mendoza (Gigi's counsel)",
+      "Dino de Leon (de Lima counsel)",
+      "Boni Tacardon (de Lima counsel)",
+      "Solicitor General Menardo I. Guevarra"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (First Division)",
+      "Sandiganbayan",
+      "Muntinlupa Regional Trial Court",
+      "Office of the Solicitor General (OSG)",
+      "abogado.com.ph (media source)",
+      "Philippine Daily Inquirer"
+    ],
+    "cases": [
+      "Reyes v. Director (Jan. 17, 2023, SC First Division, J. Hernando)",
+      "Pending Sandiganbayan case against Gigi Reyes (information filed June 5, 2014; trial began March 3, 2022)",
+      "Pending Muntinlupa RTC case and bail petition of Leila de Lima"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- Bill of Rights: right to bail; right to speedy trial; writ of habeas corpus",
+      "Rule on habeas corpus (Rules of Court)",
+      "Rule on bail (Rules of Court)"
+    ],
+    "events": [
+      "Jan. 17, 2023 SC ruling granting Gigi Reyes habeas corpus",
+      "Anticipated Muntinlupa RTC ruling on de Lima bail 'at the end of March' 2023"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The writ of habeas corpus granted to Gigi Reyes cannot be automatically extended to Leila de Lima -- precedents apply only when the facts are 'substantially alike,' and 'much needs to be done still' before the same outcome can be claimed.",
+      "rhetorical_move": "precedent-discipline against political pressure for blanket relief",
+      "confidence": "asserted ('Not necessarily; at least not immediately')"
+    },
+    {
+      "claim": "Solicitor General Guevarra is correct that the ruling 'will have to be applied on a case-to-case basis, depending on the facts of each particular case, and not as a blanket precedent.'",
+      "rhetorical_move": "endorsement of executive's doctrinal restraint",
+      "confidence": "asserted ('with whom I respectfully agree')"
+    },
+    {
+      "claim": "There are two distinct routes to temporary liberty: bail (constitutional guarantee, with the capital-offense exception when evidence is strong) and habeas corpus (illegal-detention remedy, no bail bond required). Counsel must choose the route best matched to the facts.",
+      "rhetorical_move": "doctrinal-distinction framework",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Habeas corpus does not normally liberate a person in custody pursuant to a court order with jurisdiction -- but the Reyes exception applies where 'custody becomes vexatious, capricious, and oppressive,' as it had in Gigi's case after nine years of detention, prosecution errors in evidence marking, and one-witness-per-day Sandiganbayan pacing.",
+      "rhetorical_move": "exception-doctrine elaboration with the Reyes facts as template",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "De Lima's counsel may consider going beyond temporary liberty toward outright dismissal of charges on speedy-trial/disposition grounds -- a remedy available regardless of factual guilt.",
+      "rhetorical_move": "expanding-remedy invitation to counsel",
+      "confidence": "open question"
+    }
+  ],
+  "notable_anecdotes": [
+    "Dino de Leon's televised admission that the de Lima legal team must first study whether the facts are 'on all fours' with Reyes -- a refusal to join the 'frenetic chorus' of politicians demanding immediate release.",
+    "Estelito Mendoza's prudent reply when asked: 'I do not know enough of De Lima's case to comment.'",
+    "The damning Sandiganbayan particulars: information filed June 5, 2014, trial commencing only on March 3, 2022, one witness per day -- almost a decade of detention without a path to termination.",
+    "Striking framing line: 'the frenetic chorus of many politicians and hangers-on who immediately demanded the former solon's release' -- modeling counsel's reserve over political clamor."
+  ],
+  "target_audience": [
+    "Counsel of detained accused (de Lima legal team and others)",
+    "Lawyers and law students studying habeas corpus and bail doctrine",
+    "Sandiganbayan and trial-court judges",
+    "Civic-minded readers and rule-of-law advocates",
+    "Political followers of the de Lima case"
+  ],
+  "register_markers": [
+    "Q-and-A column register (open question → CJ's short answer)",
+    "small-caps emphasis ('DINO DE LEON,' 'BONI TACARDON,' 'AS A RULE')",
+    "doctrinal-formal exposition of bail vs habeas corpus",
+    "counsel-deference register (quoting Mendoza, de Leon, Tacardon, Guevarra)",
+    "rhetorical-question close ('Abangan!')",
+    "Latin / formal phrasing ('on all fours')"
+  ],
+  "decision_framework_signals": [
+    "precedent-discipline: facts must be 'substantially alike' before invoking a prior ruling",
+    "two-remedy framework (bail vs habeas corpus) with exception logic for each",
+    "vexatious-custody exception as a narrow gateway through a normal jurisdictional bar",
+    "speedy-trial/disposition cascade: temporary liberty → outright dismissal as the further remedy",
+    "case-to-case analysis as the SolGen's and CJ's shared norm against blanket precedent"
+  ],
+  "one_paragraph_summary": "Panganiban probes whether the Supreme Court's 'libertarian' First Division ruling in Reyes v. Director (Jan. 17, 2023, ponencia by Justice Ramon Paul L. Hernando) freeing Jessica 'Gigi' Reyes via habeas corpus can be extended to Sen. Leila de Lima. His short answer: 'Not necessarily; at least not immediately; much needs to be done still.' He aligns with Solicitor General Menardo I. Guevarra that the ruling 'will have to be applied on a case-to-case basis, depending on the facts of each particular case, and not as a blanket precedent,' and with Gigi's counsel Estelito P. Mendoza's reserve. De Lima's counsel agree: Dino de Leon says they must study whether the facts are 'on all fours,' refusing to join 'the frenetic chorus of many politicians and hangers-on who immediately demanded the former solon's release,' while Boni Tacardon prefers to pursue bail at the Muntinlupa RTC (a ruling he expects 'at the end of March'). The column then teaches the doctrinal distinction: the Bill of Rights guarantees bail to all persons before conviction (even when the writ is suspended) except in capital offenses when evidence of guilt is strong, while habeas corpus is available to any illegally detained person regardless of charge and requires no bail bond. The Reyes exception lets habeas corpus reach lawful custody when it becomes 'vexatious, capricious, and oppressive' -- as it had for Gigi after wrong markings in the prosecution's evidence, Sandiganbayan one-witness-per-day pacing, and trial commencement only on March 3, 2022 though the information was filed June 5, 2014 -- 'nine years is far too long of a detention.' He invites de Lima's counsel to consider the further remedy where speedy-trial violations are extreme: outright dismissal of charges, available 'regardless of whether the accused is factually guilty or not.' Will it be bail, habeas corpus, or dismissal? Abangan!",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

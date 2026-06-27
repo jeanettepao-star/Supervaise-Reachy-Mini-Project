@@ -1,0 +1,161 @@
+{
+  "id": "CC032",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 32,
+  "title": "Student activism",
+  "date": "2024-05-06",
+  "link": "https://opinion.inquirer.net/173470/student-activism",
+  "keywords": [
+    "Columbia University pro-Palestinian rallies",
+    "FEUCSO / NUSP founding-era activism",
+    "First Quarter Storm (1970)",
+    "Wenceslao Q. Vinzons (1941 origin)",
+    "Karl Marx → Christian conversion arc",
+    "Fr. Michael Nolan + Elenita 'Leni' Carpio influence",
+    "Pontifical Council for the Laity (1996-2002)"
+  ],
+  "primary_topics": [
+    "Columbia University and US-campus pro-Palestinian rallies and their global spread",
+    "Infiltration of student protests by 'outside actors' resulting in vandalism, violence, and NYC police crackdowns",
+    "Origins of CJ's own student-activist career (FEUCSO and NUSP)",
+    "Two-person conversion arc from Marxism to Catholic Christianity -- Fr. Michael Nolan and Elenita 'Leni' Carpio",
+    "Philippine student-activism history: Vinzons (1941) → FQS (1970)"
+  ],
+  "sub_topics": [
+    "Columbia and 30+ US universities spawning rallies; spread to France, UK, Norway, Australia",
+    "CJ's view that US student rallies influenced US insistence on Israeli restraint in Gaza and on a ceasefire-plus-hostage-release framework",
+    "NYC police response in 'full force, shields, sticks, and arms' subduing the protesters",
+    "CJ's pity for student protesters who sacrificed time, resources, possible suspension and expulsion",
+    "CJ's own activist origin: president of Far Eastern University Central Student Organization (FEUCSO) and National Union of Students of the Philippines (NUSP)",
+    "Initial campus rallies in private nonsectarian schools and outreach to Catholic institutions (Ateneo, La Salle, St. Theresa, St. Scholastica, Maryknoll/now Miriam)",
+    "Parallel UP movements: UP Student Council (Fernando Lagua), UP 'Collegian' (editor-in-chief Homobono Adaza), UPSCA (Emmanuel Soriano)",
+    "Karl Marx attraction: 'From each according to his ability, and to each according to his needs' as an early motto",
+    "Fr. Michael Nolan (FEU chaplain; spiritual director, Manila SCA) -- catechesis and a challenge to study communist Red China and Russia in practice",
+    "Elenita A. Carpio -- editor of 'Scholastican'; 'accidental' seatmate on a 10-hour Manila-Naga train ride to a NUSP seminar; aspiring Benedictine nun",
+    "Conversion arc: Marxist sympathy → Christian conversion; three years of conversation → marriage; her steering of CJ into Catholic movements",
+    "Pope John Paul II named CJ to the Pontifical Council for the Laity (1996-2002 term); earlier slot held by Ambassador Henrietta 'Tita' de Villa until 1996",
+    "Wenceslao Q. Vinzons leading student resistance to Japanese invasion in 1941 as the local origin of student activism",
+    "First Quarter Storm (Jan. 26 - Mar. 17, 1970): NUSP president Edgar Jopson (Ateneo), UP Student Council president Jerry Barican, Kabataang Makabayan's Jose Ma. Sison and Satur Ocampo; rallies against Marcos Sr.",
+    "Prediction: present-day Filipino student leaders are 'not yet' engaged in Israel-Hamas, Russia-Ukraine, or West Philippine Sea -- but will be when 'they realize that, after all, there is no dispute so remote and so misunderstood they would not take a stand on'"
+  ],
+  "signature_phrases": [
+    "Pity the poor, victimized students of Columbia and other universities",
+    "the 'cloistered' colleges of St. Theresa, St. Scholastica, and Maryknoll (now Miriam)",
+    "Karl Marx's cry of 'From each according to his ability, and to each according to his needs'",
+    "while communism may be theoretically attractive, it was not implementable",
+    "'accidental' seatmate in a 10-hour train ride",
+    "Eventually and 'irresistibly,' I won her heart",
+    "blessed singlehood",
+    "soldier of Christ",
+    "My Leni tenderly opened the clenched fist of this activist",
+    "First Quarter Storm",
+    "no dispute so remote and so misunderstood they would not take a stand on"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "The late Leni / Elenita A. Carpio (CJ's wife; 'Scholastican' editor; aspiring Benedictine nun)",
+      "Fr. Michael Nolan (FEU chaplain; Manila SCA spiritual director)",
+      "Wenceslao Q. Vinzons (1941 student leader vs Japanese invasion)",
+      "Edgar Jopson (NUSP president during FQS; Ateneo)",
+      "Jerry Barican (UP Student Council president)",
+      "Jose Ma. Sison (Kabataang Makabayan)",
+      "Satur Ocampo (Kabataang Makabayan)",
+      "Fernando Lagua (UP Student Council, CJ's era)",
+      "Homobono Adaza (UP 'Collegian' editor-in-chief, CJ's era)",
+      "Emmanuel Soriano (UPSCA, CJ's era)",
+      "President Ferdinand Marcos Sr.",
+      "Pope John Paul II",
+      "Ambassador Henrietta 'Tita' de Villa (predecessor on Pontifical Council for the Laity)"
+    ],
+    "institutions": [
+      "Columbia University (NYC)",
+      "30+ US universities; universities in France, UK, Norway, Australia",
+      "NYC Police Department",
+      "Far Eastern University Central Student Organization (FEUCSO)",
+      "National Union of Students of the Philippines (NUSP)",
+      "Ateneo de Manila University; De La Salle University",
+      "St. Theresa's, St. Scholastica's, Maryknoll/Miriam",
+      "University of the Philippines (Student Council; 'Collegian'; UPSCA)",
+      "Pontifical Council for the Laity (Vatican)",
+      "Kabataang Makabayan (KM)"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "Columbia University pro-Palestinian rallies (May 2024)",
+      "First Quarter Storm -- Jan. 26 to March 17, 1970",
+      "Wenceslao Q. Vinzons's 1941 student-led resistance to Japanese invasion",
+      "Manila-Naga 10-hour train ride that began CJ's friendship-and-courtship with Leni",
+      "CJ's 1996-2002 term on the Pontifical Council for the Laity"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Columbia-led US campus protests, then spreading to France, UK, Norway, Australia and elsewhere, influenced US pressure on Israel to temper Gaza attacks and to pursue a ceasefire coupled with hostage release.",
+      "rhetorical_move": "civic-efficacy claim about student protest",
+      "confidence": "personal opinion ('IMHO')"
+    },
+    {
+      "claim": "The protests were 'inevitably and unfortunately' infiltrated by 'outside actors,' shifting them from free speech to vandalism and violence -- for which the NYC police responded in full force.",
+      "rhetorical_move": "regrettable-progression observation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Communism is 'theoretically attractive' but 'not implementable' -- proved by reality in Red China and Russia, per Fr. Michael Nolan's challenge.",
+      "rhetorical_move": "theory-vs-practice repudiation of youthful Marxist sympathy",
+      "confidence": "personal conviction"
+    },
+    {
+      "claim": "Marriage to Elenita 'Leni' Carpio reoriented CJ from activist Marxist sympathy to Catholic discipleship, eventually leading to his Pontifical Council appointment (1996-2002).",
+      "rhetorical_move": "personal-conversion narrative",
+      "confidence": "personal testimony"
+    },
+    {
+      "claim": "Filipino student activism owes its origin to Wenceslao Q. Vinzons (1941); the peacetime activism of the late 1950s 'bloomed to fruition' in the 1970 First Quarter Storm against Marcos Sr.",
+      "rhetorical_move": "historical-origin claim",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Present-day Filipino student leaders are 'not yet' engaged with the Israel-Hamas war, Russia-Ukraine war, or West Philippine Sea tensions -- but will engage when they realize 'there is no dispute so remote and so misunderstood they would not take a stand on.'",
+      "rhetorical_move": "predictive observation with the 'not yet' caveat",
+      "confidence": "speculative endorsement"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 10-hour Manila-Naga train ride that began CJ's friendship with 'accidental' seatmate Elenita 'Leni' Carpio, en route to a NUSP seminar -- and led, three years later, to marriage.",
+    "Fr. Michael Nolan, FEU chaplain, challenging young CJ to study the communist reality in Red China and Russia.",
+    "CJ as president of FEUCSO and NUSP outreaching to the 'cloistered' Catholic women's colleges (St. Theresa, St. Scholastica, Maryknoll/Miriam).",
+    "Pope John Paul II naming CJ to the Pontifical Council for the Laity (1996-2002), succeeding Ambassador Henrietta 'Tita' de Villa.",
+    "The First Quarter Storm cast: Edgar Jopson (NUSP), Jerry Barican (UP), Jose Ma. Sison and Satur Ocampo (KM) -- Jan. 26 to March 17, 1970.",
+    "CJ's framing of Leni's spiritual influence: 'My Leni tenderly opened the clenched fist of this activist.'"
+  ],
+  "target_audience": [
+    "Filipino student leaders and campus organizers",
+    "Catholic university chaplains and formation directors",
+    "Diplomatic-policy and protest-movement observers",
+    "Veterans of FEUCSO/NUSP/FQS-era activism",
+    "Inquirer readers across generations"
+  ],
+  "register_markers": [
+    "memoir register interleaved with current-events commentary",
+    "personal-conversion narrative ('From Marx to Christ' via Fr. Nolan and Leni)",
+    "alma-mater enumeration (FEU, Ateneo, La Salle, St. Theresa, St. Scholastica, Maryknoll, UP)",
+    "small-caps emphasis ('INEVITABLY AND UNFORTUNATELY,' 'HOWEVER, TWO PEOPLE DISSUADED ME,' 'STUDENT ACTIVISM HERE OWES ITS ORIGIN')",
+    "tender-private register for Leni ('My Leni tenderly opened the clenched fist of this activist')",
+    "predictive-cautionary close ('maybe not yet is the correct term')",
+    "alliterative civic listing ('workers, peasants, and urban poor')"
+  ],
+  "decision_framework_signals": [
+    "infiltration-watchfulness lens for protest movements (separate free expression from vandalism/violence)",
+    "theory-vs-practice test for ideological commitments (Marxism's theoretical pull vs operational record)",
+    "personal-formation framework as the deeper layer beneath public engagement (catechesis + marriage)",
+    "historical-arc method (Vinzons → FEUCSO/NUSP → FQS) as continuity argument for present-day activism",
+    "'no dispute so remote' civic-engagement maxim (call to engage even apparently distant conflicts)"
+  ],
+  "one_paragraph_summary": "Columbia University students in NYC ignited pro-Palestinian rallies that within days spread to at least thirty other US universities and then to France, the United Kingdom, Norway, Australia, and elsewhere -- joining longer-running demonstrations in Arab and Muslim countries. CJ believes -- IMHO -- that the headline-grabbing US student rallies influenced US pressure on Israel to temper its Gaza attacks and to pursue a ceasefire coupled with hostage release. Inevitably and unfortunately, 'outside actors' infiltrated the ranks, shifting the events from free expression to vandalism and violence, and the NYC police responded 'in full force, shields, sticks, and arms.' The Columbia students remind him of his own days as president of the Far Eastern University Central Student Organization (FEUCSO) and of the National Union of Students of the Philippines (NUSP), when he 'led the birth of campus activism here,' battling alongside the UP Student Council under Fernando Lagua, the UP 'Collegian' under editor-in-chief Homobono Adaza, and the UP Student Catholic Action under Emmanuel Soriano. He confesses that, as an impoverished youth who could not study without scholarships and who 'had to hawk newspapers and textbooks,' he was 'enamored by Karl Marx's cry of From each according to his ability, and to each according to his needs.' Two people dissuaded him. First, Fr. Michael Nolan, FEU chaplain and Manila SCA spiritual director, taught him simple catechesis and challenged him to study the actual economic reality of Red China and Russia -- proving communism 'theoretically attractive' but 'not implementable.' Second, Elenita 'Leni' Carpio, editor of the 'Scholastican' and aspiring Benedictine nun, met him as an 'accidental' seatmate on a ten-hour Manila-to-Naga train ride to an NUSP seminar; over three years of conversations she 'converted' him into a 'willing soldier of Christ,' and married him to the 'chagrin of the St. Scho nuns who expected her to join them in blessed singlehood.' Pope John Paul II later named him to the Pontifical Council for the Laity in the Vatican for the 1996-2002 term, succeeding Ambassador Henrietta 'Tita' de Villa. CJ closes with the Philippine arc: student activism here owes its origin to Wenceslao Q. Vinzons (resisting the Japanese invasion in 1941); the late-1950s peacetime activism bloomed into the 1970 First Quarter Storm led by NUSP's Edgar Jopson, UP's Jerry Barican, and Kabataang Makabayan's Jose Ma. Sison and Satur Ocampo -- Jan. 26 to March 17, 1970, against Marcos Sr. While present-day Filipino student leaders are 'not yet' engaged with the Israel-Hamas war, Russia-Ukraine war, or West Philippine Sea tensions, CJ expects they will engage when they realize 'there is no dispute so remote and so misunderstood they would not take a stand on.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

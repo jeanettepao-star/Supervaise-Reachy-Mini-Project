@@ -1,0 +1,143 @@
+{
+  "id": "CA413",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 413,
+  "title": "Overprotective of the guilty?",
+  "date": "2014-05-25",
+  "link": "https://opinion.inquirer.net/74918/overprotective-of-the-guilty",
+  "keywords": [
+    "criminal procedure",
+    "due process",
+    "judiciary",
+    "rule of law",
+    "anti-graft"
+  ],
+  "primary_topics": [
+    "Why our criminal justice system is overprotective of the guilty -- reader-question framing",
+    "Better-to-acquit-10-guilty-than-convict-1-innocent maxim -- and CJP's caveat that ratio worsens to 100:1 or 1000:1 with corruption",
+    "Adversarial system: passive-magistrate cold-neutrality-of-impartial-judge",
+    "Inquisitorial system: active-magistrate evidence-search and witness-examination (Europe/Latin America)",
+    "PH split-system: judiciary adversarial, prosecutorial agencies (OOO/DOJ/city-provincial prosecutors) inquisitorial",
+    "Probable-cause-to-file vs proof-beyond-reasonable-doubt-to-convict standards gap",
+    "Low conviction rates as predictable consequence + CJP prudence-and-common-sense argument for prosecutors"
+  ],
+  "sub_topics": [
+    "Adversarial three-evidence-source rule: facts proven by parties per law on evidence + admitted/confessed by accused + judicially noticed",
+    "Judges as referees not players in a basketball game metaphor",
+    "Judges cannot convict or acquit based on personal knowledge -- must inhibit and take stand as witnesses, subject to cross-examination",
+    "Prosecutors mandated to help victims of crimes -- can call PNP/NBI assistance + do not need outside complainant",
+    "Constitution mandates OOO to investigate any public official's illegal/unjust/improper/inefficient act on its own or on complaint",
+    "OOO Field Investigation Office (FIO) as internal-complainant -- served as complainant in GMA plunder case Morales dismissed",
+    "Probable cause definition: existence of facts and circumstances as would excite belief in a reasonable mind that respondent is guilty",
+    "Capital-offense detention indefinite + acquittal-after-years problem",
+    "Promise of future columns on due process abuse and misuse"
+  ],
+  "signature_phrases": [
+    "Why is our criminal justice system overprotective of the guilty?",
+    "passionately safeguards individual life and liberty",
+    "it is better to acquit 10 guilty persons than to convict one innocent",
+    "the ratio of 10 to 1 sometimes worsens to 100 to 1, or even 1,000 to 1, when corruption, negligence and incompetence, if not outright malevolence, seep into the system",
+    "the adversarial method of dispensing justice whereby magistrates sit passively and objectively",
+    "the cold neutrality of an impartial judge",
+    "They act like referees, not players, in a basketball game. They cannot take sides",
+    "the inquisitorial system employed in some countries in Europe and Latin America",
+    "in the name of speedy justice",
+    "the attainment of substantial justice, sometimes at the expense of procedural rights",
+    "the prosecutorial agencies use the inquisitorial method",
+    "Field Investigation Office",
+    "lack of any factual or legal basis",
+    "the existence of such facts and circumstances as would excite the belief in a reasonable mind that the respondent is guilty",
+    "proof beyond reasonable doubt",
+    "if all that prosecutors would prove during the trial is probable cause then the accused would surely be acquitted",
+    "No wonder prosecutors have such low conviction rates",
+    "Is this not unfair to those accused of capital offenses and detained indefinitely while the case is pending trial",
+    "Should not prosecutors make sure they have enough evidence to convict before filing criminal cases"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Ombudsman Conchita Carpio Morales (dismissed GMA fertilizer case)",
+      "Former President Gloria Macapagal-Arroyo (FIO-complainant GMA plunder case context)",
+      "Singapore/Malaysia government (reader-comparison crime-control models)"
+    ],
+    "institutions": [
+      "Office of the Ombudsman (OOO)",
+      "OOO Field Investigation Office (FIO)",
+      "Department of Justice (DOJ)",
+      "City and provincial prosecutors",
+      "PNP / NBI (prosecutor-assistance bodies)",
+      "European and Latin American judiciaries (inquisitorial-model exemplars)",
+      "PH judiciary (adversarial system)"
+    ],
+    "cases": [
+      "GMA plunder case dismissed by Morales for lack of factual or legal basis (FIO as complainant) -- back-reference to A414"
+    ],
+    "laws_treaties": [
+      "Constitution Art XI on OOO mandate ('investigate on its own or on complaint by any person')",
+      "Rules of evidence (adversarial-system three-source framework)",
+      "Definition of probable cause from jurisprudence"
+    ],
+    "events": [
+      "Morales's GMA-fertilizer dismissal (back-reference to A414 last week)",
+      "Reader questions about justice-system inefficiency"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Our criminal justice system is overprotective of the guilty because it passionately safeguards individual life and liberty, adhering to the maxim better to acquit 10 guilty than convict 1 innocent -- but the ratio sometimes worsens to 100:1 or 1000:1 when corruption, negligence, incompetence, or outright malevolence seeps in.",
+      "rhetorical_move": "maxim-citation + ratio-degradation-caveat",
+      "confidence": "asserted with empirical caveat"
+    },
+    {
+      "claim": "Our judiciary strictly adheres to the adversarial system (passive magistrates, cold neutrality, referees not players, three-evidence-source rule) while our prosecutorial agencies (OOO, DOJ, city/provincial prosecutors) use the inquisitorial method -- this split-system is itself part of the problem.",
+      "rhetorical_move": "adversarial-inquisitorial split-system diagnosis",
+      "confidence": "asserted as structural observation"
+    },
+    {
+      "claim": "Prosecutors are authorized by law to file criminal charges including capital offenses based only on probable cause, but to secure conviction they must reach proof-beyond-reasonable-doubt -- this standards gap means that if all prosecutors prove at trial is probable cause, the accused will surely be acquitted, explaining low conviction rates.",
+      "rhetorical_move": "standards-gap explains-low-conviction-rates structural argument",
+      "confidence": "asserted as doctrinal-empirical"
+    },
+    {
+      "claim": "Is it not unfair to accused who face capital offenses and indefinite detention pending trial only to be acquitted for insufficient evidence -- and a waste of state resources? Prosecutors should make sure they have enough evidence to convict before filing criminal cases, especially capital offenses.",
+      "rhetorical_move": "twin-injustice + prosecutorial-prudence prescription",
+      "confidence": "asserted as policy critique with rhetorical questions"
+    }
+  ],
+  "notable_anecdotes": [
+    "The basketball-referee metaphor for adversarial judges -- 'They act like referees, not players, in a basketball game. They cannot take sides' -- among CJP's more vivid procedural-doctrine images.",
+    "The judge-must-inhibit-and-take-the-stand rule for personally-witnessed events -- converted from judge to ordinary witness subject to cross-examination -- a procedural detail rarely surfaced even by lawyer-readers.",
+    "The Field Investigation Office (FIO) as OOO internal-complainant explained -- served as complainant in the GMA plunder case dismissed by Morales last week (A414 cross-reference) -- illustrates the OOO's self-starting investigative capacity.",
+    "The ratio-worsening caveat (10:1 → 100:1 → 1000:1) -- a rare moment where CJP openly acknowledges that the noble adversarial maxim degrades catastrophically when systemic corruption sets in."
+  ],
+  "target_audience": [
+    "Inquirer general readership (reader-question framing)",
+    "Frustrated citizens following PDAF and GMA cases",
+    "Law students and practitioners (procedural-comparative primer)",
+    "Prosecutors and OOO/DOJ staff (prudence-and-common-sense audience)",
+    "Singapore/Malaysia-as-crime-control-models curious readers"
+  ],
+  "register_markers": [
+    "reader-question opening (Why is our criminal justice system overprotective of the guilty?)",
+    "let me attempt some explanations and answers gentle teacher-register",
+    "to be more specific bridging device",
+    "basketball-referee metaphor as concrete vivid image",
+    "Yet, to secure the conviction of the accused, the law requires standards-gap rhetorical pivot",
+    "Is this not unfair? rhetorical-question prescriptive close",
+    "In future columns, I will continue discussing this subject series-promise close",
+    "doctrinal-procedural-comparative register braiding"
+  ],
+  "decision_framework_signals": [
+    "uses adversarial-vs-inquisitorial comparative-systems framework",
+    "applies cold-neutrality-of-impartial-judge passive-magistrate doctrine",
+    "deploys three-evidence-source rule (proven facts + admissions + judicial notice) for adversarial-system judges",
+    "treats probable-cause-vs-proof-beyond-reasonable-doubt standards gap as structural explanation for low conviction rates",
+    "advocates prosecutorial-prudence-over-haste before filing capital offenses",
+    "uses twin-injustice framing (unfair to accused + wasteful for state)"
+  ],
+  "one_paragraph_summary": "Panganiban responds to weekly reader questions about why our criminal justice system is overprotective of the guilty -- why it takes so long to investigate, prosecute, and convict, why conviction rates remain dismal -- with a structural diagnosis. He begins with the foundational maxim 'better to acquit 10 guilty than convict 1 innocent,' adding the bleak caveat that the ratio worsens to 100:1 or 1,000:1 when corruption, negligence, incompetence, or outright malevolence seeps in. The judiciary strictly adheres to the adversarial system -- passive magistrates sitting with the cold neutrality of an impartial judge, acting like referees not players in a basketball game, restricted to three evidence sources (facts proven by parties per the law on evidence, admissions/confessions, judicial notice), forbidden to convict or acquit based on personal knowledge (which would require inhibition and a turn as ordinary witness subject to cross-examination). By contrast, the prosecutorial agencies -- OOO, DOJ, city/provincial prosecutors -- use the inquisitorial method, mandated to help victims of crimes, free to call PNP/NBI assistance, with the OOO's Field Investigation Office serving even as internal-complainant (as in the GMA plunder case Morales dismissed last week). The structural problem he identifies: prosecutors may file criminal charges including capital offenses on mere probable cause (existence of facts and circumstances as would excite belief in a reasonable mind that respondent is guilty), but must secure proof-beyond-reasonable-doubt for conviction -- and if all they can prove at trial is probable cause, the accused will surely be acquitted, explaining low conviction rates. He poses rhetorical questions: Is this not unfair to capital-offense accused detained indefinitely only to be acquitted for insufficient evidence -- and a waste of state resources? Should not prosecutors make sure they have enough evidence to convict before filing, especially capital offenses? He promises to continue in future columns on the due-process concept that is sometimes abused and misused to miscarry justice.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

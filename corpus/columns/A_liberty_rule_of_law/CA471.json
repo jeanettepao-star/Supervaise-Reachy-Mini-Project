@@ -1,0 +1,117 @@
+{
+  "id": "CA471",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 471,
+  "title": "Ban! Ban! Ban!",
+  "date": "2013-01-12",
+  "link": "https://opinion.inquirer.net/44753/ban-ban-ban",
+  "keywords": [
+    "gun ban",
+    "logging ban",
+    "mining ban",
+    "Sandy Hook shooting",
+    "Ronald Bae Cavite",
+    "selective logging",
+    "responsible mining",
+    "regulation vs prohibition"
+  ],
+  "primary_topics": [
+    "CJ's critique of the 'Ban! Ban! Ban!' mentality as a simplistic response to gun violence, logging, and mining disasters",
+    "Argument that careful regulation and strict enforcement -- not total prohibition -- is the appropriate policy response",
+    "Application of the advantages-disadvantages framework to guns, logging, and mining as legitimate but regulable activities"
+  ],
+  "sub_topics": [
+    "Sandy Hook Connecticut shooting and Ronald Bae Cavite shooting as triggers for gun ban calls",
+    "Reductio ad absurdum: ban electricity, petroleum, chicharon, swimming pools, automobiles by same logic",
+    "Criminals will still have guns even after a total gun ban -- government cannot protect everyone everywhere",
+    "Sen. Panfilo Lacson: license guns only for home use, low-caliber weapons only",
+    "President Aquino rejected total gun ban -- will not solve gun-related crimes",
+    "Logging: selective logging with replanting (10 trees for every one cut) vs indiscriminate kaingin",
+    "Lopez Group (First Philippine Holdings, First Gen): voluntarily reforests even without logging business",
+    "US national parks: giant sequoias and redwoods totally protected; other areas allow regulated logging",
+    "Mining: steel, copper, and metals essential to civilization -- ban would make Inquirer printing presses impossible",
+    "Illegal miners and those violating Environmental Clearance Certificates should be banned, not the industry",
+    "Chile, Australia, Canada depend on responsible mining for economic expansion",
+    "Philippine government has not sorted out a progressive mining policy"
+  ],
+  "signature_phrases": [
+    "Ban! Ban! Ban!",
+    "simplistic solution",
+    "almost everything has advantages and disadvantages",
+    "choices are seldom between black and white but among shades and hues",
+    "maximize the advantages and minimize the disadvantages",
+    "criminals and outlaws will still have guns and terrorize the gunless",
+    "Without metals, the Inquirer cannot be produced",
+    "Difficult? Well, nothing good is ever easy"
+  ],
+  "entities": {
+    "people": [
+      "Sen. Panfilo Lacson (gun licensing proposal: home use, low-caliber only)",
+      "President Benigno Aquino III (rejected total gun ban)",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "First Philippine Holdings Corp. (Lopez Group -- voluntary reforestation)",
+      "First Gen Corp. (Lopez Group -- voluntary reforestation)",
+      "Congress of the Philippines"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "Sandy Hook Elementary School shooting (Newtown, Connecticut)",
+      "Ronald Bae shooting rampage (Kawit, Cavite)",
+      "Typhoon flooding causing boulder slides and calls for logging ban",
+      "Mine tailings spills from tailing ponds"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Total bans on guns, logging, and mining are simplistic, unrealistic, and counterproductive: almost everything has advantages and disadvantages, and the way forward is to maximize benefits and minimize harms through careful regulation and strict enforcement — not prohibition.",
+      "rhetorical_move": "reductio-ad-absurdum + advantages-disadvantages framework: if the ban logic applies, we must also ban electricity, petroleum, and automobiles",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "A total gun ban is ineffective because criminals will retain guns and terrorize the gunless, while government cannot protect every citizen everywhere — Sen. Lacson's home-use-only, low-caliber licensing is a constitutionally and practically superior alternative.",
+      "rhetorical_move": "enforcement-reality argument: the ban's fundamental flaw is that it disarms law-abiding citizens without disarming criminals",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Responsible mining — selective, environmentally compliant, with strict penalties for violators — should be encouraged and protected, not banned: metals are essential to all of civilization, and countries like Chile, Australia, and Canada prosper precisely because of responsible mining.",
+      "rhetorical_move": "civilizational-necessity argument: metals as the enabling material for modern life, using the Inquirer's own printing press as the ironic local example",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Inquirer's printing presses as the ironic example of mining's necessity — 'Without metals, the Inquirer cannot be produced because its printing machines are made of iron and steel' — making the anti-mining argument self-defeating for the newspaper's own readers.",
+    "The Lopez Group (First Philippine Holdings and First Gen) voluntarily planting millions of trees even though logging is not their business — used as a corporate-responsibility model showing that responsible stewardship is achievable and practiced, not a theoretical ideal.",
+    "The reductio ad absurdum list — ban electricity (shrivel and burn houses), petroleum (explode and conflagrate), chicharon (block arteries), swimming pools (drown and kill), automobiles (smash and maim) — as CJ's most accessible rhetorical device for dismantling the ban-as-solution mentality."
+  ],
+  "target_audience": [
+    "Policy makers and legislators drafting gun control, logging, and mining legislation",
+    "General civic readership reacting emotionally to gun violence and environmental disasters",
+    "Business community in mining, logging, and firearms industries",
+    "Environmental advocates and civil society groups pushing for bans",
+    "Opinion leaders and columnists debating the regulation vs prohibition question"
+  ],
+  "register_markers": [
+    "rhetorical-repetition register ('Ban! Ban! Ban!' as the column's organizing ironic device)",
+    "reductio-ad-absurdum list (electricity, petroleum, chicharon, pools, automobiles)",
+    "advantages-disadvantages framework as the meta-analytical tool",
+    "Tagalog aside (chicharon) as accessible colloquial anchor amid formal policy argument",
+    "civilizational-necessity argument (metals → printing press → Inquirer itself)",
+    "closing aphorism ('Difficult? Well, nothing good is ever easy')",
+    "corporate-model citation (Lopez Group voluntary reforestation)"
+  ],
+  "decision_framework_signals": [
+    "applies advantages-disadvantages cost-benefit framework to evaluate ban vs regulation",
+    "uses reductio ad absurdum to test the logical consistency of the ban-as-solution approach",
+    "applies enforcement-reality test: will a total ban actually disarm the people it targets (criminals)?",
+    "uses international-benchmark argument (Chile, Australia, Canada, US national parks) to show responsible regulation works",
+    "treats strict enforcement of violators as the functional substitute for a total ban"
+  ],
+  "one_paragraph_summary": "Panganiban critiques the 'Ban! Ban! Ban!' mentality triggered by the Sandy Hook and Ronald Bae Cavite shootings, typhoon-related flooding blamed on logging, and mine tailings spills. He applies a reductio ad absurdum -- if the ban logic is consistent, we must also ban electricity (fire risk), petroleum (explosion risk), chicharon (artery blockage), swimming pools (drowning), and automobiles (crashes) -- before arguing that the real solution is 'careful regulation and strict enforcement of enlightened rules,' not total prohibition. On guns: criminals will retain firearms regardless of a ban, making the law-abiding gunless against armed outlaws; Sen. Lacson's home-use-only, low-caliber licensing is the superior alternative. On logging: selective logging with mandatory replanting (10 trees for every one cut) is the answer, not a blanket ban; the Lopez Group voluntarily reforests even without logging operations as a corporate-responsibility model. On mining: metals are essential to all of civilization -- 'Without metals, the Inquirer cannot be produced because its printing machines are made of iron and steel' -- and countries like Chile, Australia, and Canada prove responsible mining expands economies; illegal miners and those violating Environmental Clearance Certificates are the proper targets, not the industry. He closes: 'Difficult? Well, nothing good is ever easy.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

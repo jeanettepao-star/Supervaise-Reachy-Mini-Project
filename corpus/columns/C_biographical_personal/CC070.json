@@ -1,0 +1,159 @@
+{
+  "id": "CC070",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 70,
+  "title": "Henry Sy Sr.: Vision and passion",
+  "date": "2019-01-27",
+  "link": "https://opinion.inquirer.net/119147/henry-sy-sr-vision-and-passion",
+  "keywords": [
+    "Henry Sy Sr.",
+    "SM Prime",
+    "BDO",
+    "humble billionaire",
+    "Edsa malls",
+    "SM Foundation",
+    "National University"
+  ],
+  "primary_topics": [
+    "Tribute and obituary tribute to Henry Sy Sr. ('Tatang')",
+    "CJ's 70-year personal connection (1940s Carriedo to present)",
+    "Henry Sy's SM empire from Carriedo shoe store to global retail giant",
+    "Sy's humility, family-centered values, and judicial independence respect",
+    "SM Foundation, National University expansion, philanthropic legacy"
+  ],
+  "sub_topics": [
+    "Park Avenue Shoe Store on Carriedo (late 1940s)",
+    "CJ as impoverished grade-school newsboy and shoe-shiner",
+    "P10 shoes haggled to P9.70, then free pair via 30-schoolmate referral deal",
+    "2-centavo earnings per newspaper, P0.10 broadsheet and Coke prices, $1 = P2",
+    "30 years later: Shoemart at Makati Commercial Center, SM ACA at Makati Arcade",
+    "Baron Travel Corp. (CJ's family) -- Hong Kong tourist bus to Shoemart partnership",
+    "Edsa vision -- Sy foresaw it as the artery of metropolitan progress",
+    "Supermalls: SM City North Edsa, SM Megamall, SM Mall of Asia (all among world's largest)",
+    "Xiamen China SM Department Store (encountered on tour with wife)",
+    "SM Prime current scale: 9.3M sqm gross floor area, 5.6M sqm leasable",
+    "Comparison: SM leasable area exceeds 6 posh Makati villages combined; twice next competitor",
+    "BDO -- largest Philippine bank under Sy",
+    "Sy's family-centered quote about six children and wife Molly",
+    "Sy's restraint -- never spoke to CJ or intervened during 11+ years on SC",
+    "Quiet appearance at CJ's retirement reception (greeted, left unobtrusively)",
+    "SM Foundation as 'heart and soul of SM'",
+    "Henry Sy's deathbed directive to son Hans: National University expansion to 20 campuses, 100,000 scholars"
+  ],
+  "signature_phrases": [
+    "Tatang",
+    "an impoverished grade-school boy hawking newspapers and shining shoes",
+    "haggled a few centavos less from his last price",
+    "a grand deal: If I could bring 30 of my schoolmates to his store, he would give my chosen pair for free",
+    "Edsa, which at that time was just a four-lane road unpaved in many parts, was destined to be the artery of progress",
+    "singular passion, hard work and grit",
+    "voila",
+    "concreted leasable area, complete with polished flooring, sidings, ceilings and air-conditioning, is larger than the six posh Makati villages combined",
+    "humble, self-effacing and family-centered",
+    "my six children who are my teammates and friends in the office and at home",
+    "my lifetime companion, treasurer, adviser and best friend",
+    "he respected my independence as a jurist",
+    "quietly greeted me and left as unobtrusively as when he came in",
+    "the heart and soul of SM",
+    "May Tatang's soul rest in peace"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Henry Sy Sr. ('Tatang')",
+      "Molly Sy (wife)",
+      "Tessie Sy (eldest daughter)",
+      "Hans Sy (son tasked with NU expansion)",
+      "CJ's wife (unnamed in this column)"
+    ],
+    "institutions": [
+      "Park Avenue Shoe Store (Carriedo, 1940s)",
+      "Shoemart / SM",
+      "SM City North Edsa",
+      "SM Megamall",
+      "SM Mall of Asia",
+      "SM ACA (Appliances and Car Accessories)",
+      "Makati Commercial Center",
+      "Makati Arcade (now Makati Shangri-la site)",
+      "Old Rizal Theater (former arcade landmark)",
+      "Baron Travel Corp. (CJ's family business)",
+      "Air Manila (now defunct)",
+      "SM Prime (real estate holding)",
+      "SM Xiamen China branch",
+      "BDO (Banco de Oro) -- Sy-owned",
+      "SM Foundation",
+      "National University (Sy-owned, slated for 20-campus expansion)",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "Late 1940s -- post-WWII Carriedo encounter (CJ as newsboy)",
+      "30 years later -- Shoemart Makati branch, renewed acquaintance via Baron Travel",
+      "60 years later -- Xiamen SM encounter on family tour",
+      "CJ's retirement reception (2006) -- Tatang's quiet visit",
+      "Henry Sy's wake -- Hans Sy's confiding about NU expansion progress"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Henry Sy's lifelong arc -- from immigrant shoe-store proprietor in 1940s Carriedo to wealthiest Filipino with a 930-hectare global retail footprint by his death -- illustrates that singular vision and passion, sustained over decades, can transform a national landscape (notably his prescient 1970s vision of Edsa as the metropolitan artery for supermalls).",
+      "rhetorical_move": "longitudinal-biographical arc demonstrating vision-realized-over-decades",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Sy's most distinctive personal quality was his humble self-effacement -- never flaunting wealth, calling his children 'teammates,' calling Molly 'best friend,' tending SM Foundation 'as passionately as he did his gigantic businesses,' and refusing to speak with CJ during his 11+ Supreme Court years out of respect for judicial independence.",
+      "rhetorical_move": "humility-as-defining-trait portrait with specific behavioral evidence",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Sy's quiet, unobtrusive appearance at CJ's retirement reception -- 'showed up, quietly greeted me and left as unobtrusively as when he came in' -- captures the essence of his character: he gave honor without seeking it, expressed friendship without claiming it.",
+      "rhetorical_move": "single-vignette character distillation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Hans Sy's private confidence at Tatang's wake -- that the National University 20-campus 100,000-scholar expansion was not yet reached but 'would [be] in a few years' -- is the most consequential legacy commitment in the Sy succession, transforming SM's commercial empire into an educational philanthropy at unprecedented scale.",
+      "rhetorical_move": "legacy-transmission anecdote with quantified commitment",
+      "confidence": "reported-from-direct-conversation"
+    }
+  ],
+  "notable_anecdotes": [
+    "The grand deal in 1940s Carriedo: CJ as poor newsboy haggling from Tatang's P9.70 'last price,' Tatang amused enough to offer free shoes if CJ brought 30 schoolmates -- CJ brought more than 30, got his pair even though 'some of my chums didn't buy anything' -- the founding anecdote that establishes both Tatang's amused generosity and CJ's lifelong hustle.",
+    "The price-detail period color: 'broadsheets and bottled Coke during those bygone days sold for only 10 centavos each. One US dollar exchanged for two pesos' -- using monetary specifics to time-stamp the 1940s.",
+    "Sy's Edsa vision recounted 'over sips of tea' at Baron Travel's Makati Arcade office in the 1970s -- describing Edsa then as 'just a four-lane road unpaved in many parts' -- making the supermall prophecy biographically locatable.",
+    "Sy's restraint during CJ's 11+ years on the Supreme Court -- 'never spoke with me or intervened in any manner' -- the most institutionally consequential single behavior in the entire portrait, demonstrating that a personal friend of the chief justice can also be a friend of judicial integrity.",
+    "Tatang's quiet visit to CJ's retirement reception -- 'showed up, quietly greeted me and left as unobtrusively as when he came in' -- the most poetic single behavioral detail in the column.",
+    "Comparison of SM's 5.6 million sqm leasable area to 'the six posh Makati villages (Forbes Park, Dasmariñas, Urdaneta, San Lorenzo, Bel-Air and Magallanes) combined' -- using a uniquely Makati measurement to physicalize SM's scale."
+  ],
+  "target_audience": [
+    "Filipino business community and SM stakeholders",
+    "Sy family and Metrobank/conglomerate observers",
+    "Civic readers tracking PH philanthropic capitalism",
+    "Tatang's admirers and SM Foundation scholars",
+    "Readers of CJ's tribute / obituary columns"
+  ],
+  "register_markers": [
+    "personal-tribute / obituary register",
+    "longitudinal-decade-by-decade narrative structure (1940s → 1970s → 2000s → present)",
+    "period-detail price markers (P10 shoes, P0.10 Coke, $1=P2)",
+    "Tagalog inflection ('voila' as exclamation, 'Tatang' as honorific)",
+    "Sy-quoted direct speech preserved in column",
+    "scale-comparison through Makati villages (uniquely PH frame of reference)",
+    "single-vignette character distillation (retirement reception visit)",
+    "humility-as-virtue tonal marker throughout",
+    "valedictory closing ('May Tatang's soul rest in peace')",
+    "self-disclosing intimacy (CJ's newsboy past openly stated)"
+  ],
+  "decision_framework_signals": [
+    "uses longitudinal-arc evidence to demonstrate that vision-realized requires decades-long sustained passion",
+    "applies humility-as-distinguishing-trait test to portrait subjects",
+    "treats single-vignette behaviors (quiet retirement visit) as more revelatory than enumerated achievements",
+    "frames philanthropic succession (NU expansion through Hans) as legacy-transmission rather than estate planning",
+    "anchors business-scale claims in PH-specific comparative measurements (Makati villages, competitor capitalization)"
+  ],
+  "one_paragraph_summary": "Panganiban delivers a personal tribute to Henry Sy Sr. ('Tatang'), tracing their 70-year acquaintance from 1940s Carriedo -- where Sy ran the Park Avenue Shoe Store and CJ was an impoverished grade-school newsboy and shoe-shiner who haggled P9.70 shoes down to free pairs by bringing 30 schoolmates -- to the Sy retail empire of supermalls, BDO bank, and global presence. He recalls Sy's prescient 1970s vision (delivered 'over sips of tea' at the Makati Arcade) that the then-unpaved Edsa would become the metropolitan artery for air-conditioned shopping malls, a prophecy fulfilled through SM City North Edsa, SM Megamall, and SM Mall of Asia -- and now extended via SM Prime's 9.3-million-sqm global footprint, whose leasable 5.6-million sqm exceeds the combined area of the six posh Makati villages. He stresses Sy's defining humility: his self-description of his six children as 'teammates' and Molly as his 'lifetime companion, treasurer, adviser and best friend'; his refusal to speak with or intervene in CJ's affairs during the latter's 11+ years on the Supreme Court out of respect for judicial independence; and his quiet, unobtrusive appearance at CJ's retirement reception. He closes on Sy's philanthropic succession -- the SM Foundation he tended 'as passionately as he did his gigantic businesses' and his deathbed directive to son Hans to expand the Sy-owned National University into 20 campuses with 100,000 scholars -- and prays Tatang's soul rest in peace.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

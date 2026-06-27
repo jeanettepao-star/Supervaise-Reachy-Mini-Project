@@ -1,0 +1,152 @@
+{
+  "id": "CA378",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 378,
+  "title": "Reactions to 'Grace Poe's residency'",
+  "date": "2015-07-05",
+  "link": "https://opinion.inquirer.net/86420/reactions-to-grace-poes-residency",
+  "keywords": [
+    "Grace Poe",
+    "residency",
+    "natural-born",
+    "presidential qualifications",
+    "Maquiling v. Comelec",
+    "reactions Q&A",
+    "domicile"
+  ],
+  "primary_topics": [
+    "Reactions to 'Grace Poe's residency' -- follow-up Q&A to A379",
+    "Maquiling v. Comelec (April 16, 2013): US-passport-after-renunciation reversal doctrine",
+    "Agueda Kahabagan pen-name email: arrival/departure passport-use roster Nov 9 2003 through Dec 27 2009",
+    "Oct 2010 renunciation defense; multiple-renunciation-permitted Maquiling holding",
+    "Japson v. Comelec (Jan 19, 2009): residency-pre-citizenship doctrine",
+    "Cordora v. Comelec (Feb 19, 2009): even foreigners may establish Philippine domicile",
+    "Andrew Ramoso 'why residence not domicile' query and medical-prescription analogy",
+    "CJP's non-endorsement principle and four vote-choice criteria"
+  ],
+  "sub_topics": [
+    "Last Sunday: CJP wrote that Poe's domicile of origin was Jaro Iloilo; California became domicile by operation of law after marriage; she acquired new domicile of choice when she returned for good after FPJ's death",
+    "Intent to remain: evidenced by several acts in 2005 and early 2006 -- CJP concluded she would surpass the 10-year requirement by Election Day May 9, 2016",
+    "Maquiling doctrine: use of US passport after renunciation of American citizenship effectively reverses the renunciation and disqualifies one from being elected to public office",
+    "Kahabagan email: immigration records show Poe arriving Nov 9 2003, Dec 13 2004, Sept 2005, March 11 2006, July 5 2006, July 23 2007, Oct 5 2008, May 21 2009, Aug 3 2009",
+    "Departures: July 2 2006, July 26 2006, Sept 11 2006, Nov 1 2006, Oct 31 2007, April 20 2009, July 31 2009, Dec 27 2009 aboard PAL 112",
+    "Anonymous reader: Poe renounced American citizenship in October 2010 after last use Dec 27 2009 -- and has not used it since",
+    "If Anonymous is correct: Maquiling will not affect Poe; residency still surpasses 10-year requirement",
+    "If Anonymous is wrong: all Poe needs to do is renounce again her American citizenship before filing COC; Maquiling saw nothing wrong in multiple renunciation affidavits",
+    "Maquiling secondary holding: use of foreign passport does not divest Filipino citizenship regained by repatriation under Dual Citizenship Law",
+    "Residency not interrupted by renunciation oath or oath of allegiance -- Japson",
+    "Even foreigners may establish domicile in PH -- Cordora",
+    "Renunciation did not divest Poe of natural-born citizenship or residency when she ran for Senate in 2013; neither will it disqualify her from running in 2016",
+    "Ramoso query: why does Constitution use 'resident of' when it means 'domiciliary of'? -- Law has its own technical interchangeable words, like medicine's tongue-twisting terminologies",
+    "Poe has not decided whether to run or for what position -- CJP writing objective legal views, not political endorsement",
+    "Four vote-choice criteria: (1) whether candidate, (2) for what position, (3) platform, (4) opposing candidates and their platforms"
+  ],
+  "signature_phrases": [
+    "in my humble view",
+    "Verily",
+    "misleading question",
+    "objective legal views",
+    "Parenthetically"
+  ],
+  "entities": {
+    "people": [
+      "Sen. Grace Poe",
+      "Fernando Poe Jr. (FPJ, whose death triggered Poe's return)",
+      "Agueda Kahabagan (pen-name emailer)",
+      "Anonymous reader (Oct 2010 renunciation source)",
+      "Andrew Ramoso (reader query on residence vs domicile)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "Supreme Court of the Philippines",
+      "Philippine Airlines (PAL Flight 112 referenced)"
+    ],
+    "cases": [
+      "Maquiling v. Comelec (April 16, 2013) -- US passport after renunciation",
+      "Japson v. Comelec (January 19, 2009) -- residency pre-citizenship",
+      "Cordora v. Comelec (February 19, 2009) -- foreign-domicile in PH"
+    ],
+    "laws_treaties": [
+      "Dual Citizenship Law (Republic Act No. 9225)",
+      "1987 Constitution -- residency requirement for president/VP"
+    ],
+    "events": [
+      "Oct 2010 -- Poe's renunciation of American citizenship",
+      "Dec 27, 2009 -- last Poe US-passport use per anonymous reader"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Maquiling v. Comelec holds that the use of a US passport after renouncing American citizenship effectively reverses the renunciation and disqualifies one from being elected to public office -- this is the key doctrine raised by Kahabagan's email",
+      "rhetorical_move": "doctrine-framing of reader concern",
+      "confidence": "high"
+    },
+    {
+      "claim": "If the anonymous reader is factually correct that Poe renounced her American citizenship in October 2010 (after her last US-passport use on Dec 27, 2009) and has not used it since, then Maquiling will not affect Poe and her residency still surpasses the 10-year requirement",
+      "rhetorical_move": "conditional-analysis favoring Poe",
+      "confidence": "medium"
+    },
+    {
+      "claim": "If the anonymous reader is wrong, all Poe needs to do is renounce again her American citizenship before filing her COC -- Maquiling saw nothing wrong in executing more than one affidavit of renunciation of foreign citizenship",
+      "rhetorical_move": "alternative-remedy analysis",
+      "confidence": "high"
+    },
+    {
+      "claim": "The use of a foreign passport after renouncing foreign citizenship does not divest Filipino citizenship regained by repatriation under the Dual Citizenship Law -- Maquiling's secondary holding",
+      "rhetorical_move": "limited-scope-of-Maquiling clarification",
+      "confidence": "high"
+    },
+    {
+      "claim": "Residency is not interrupted by taking an oath of renunciation of foreign citizenship or an oath of allegiance to the Philippines -- Japson; even foreigners may establish their domicile in PH -- Cordora",
+      "rhetorical_move": "supplementary-doctrine citations",
+      "confidence": "high"
+    },
+    {
+      "claim": "The law has its own interchangeable technical words -- 'residence' vs 'domicile' -- just as medicine has tongue-twisting terminologies better memorized by physicians when scribbling seemingly inscrutable prescriptions",
+      "rhetorical_move": "medical-prescription analogy for technical-language query",
+      "confidence": "high"
+    },
+    {
+      "claim": "Asking whether CJP is campaigning or voting for Poe is a 'misleading question' because it assumes a fact not in existence -- Poe has not decided whether to run or for what position; his columns are objective legal views, not political endorsements",
+      "rhetorical_move": "misleading-question rebuttal with non-endorsement principle",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Agueda Kahabagan's pen-name email listing specific arrival and departure dates with flight details",
+    "Anonymous reader providing the Oct 2010 renunciation defense",
+    "Ramoso's 'why residence not domicile' query -- answered with medical-prescription analogy",
+    "PAL Flight 112 referenced in Kahabagan's departure roster",
+    "CJP's four vote-choice criteria as non-endorsement principle"
+  ],
+  "target_audience": [
+    "Inquirer readership following the Poe eligibility debate",
+    "Lawyers and election-law practitioners",
+    "Poe supporters and critics",
+    "Voters seeking to understand the residency doctrine",
+    "Readers who emailed CJP after A379"
+  ],
+  "register_markers": [
+    "reactions-follow-up Q&A register",
+    "conditional-analysis ('if correct... if wrong')",
+    "doctrine-framing of reader concerns",
+    "misleading-question rebuttal",
+    "non-endorsement principle declaration",
+    "medical-prescription analogy",
+    "reader-attribution format (Kahabagan, Anonymous, Ramoso)"
+  ],
+  "decision_framework_signals": [
+    "Maquiling reversal-of-renunciation doctrine",
+    "Multiple-renunciation-permitted Maquiling secondary holding",
+    "Citizenship-does-not-divest-by-passport-use Maquiling tertiary holding",
+    "Residency-pre-citizenship doctrine (Japson)",
+    "Foreigner-domicile doctrine (Cordora)",
+    "Conditional-analysis framework: facts-determine-doctrine-application",
+    "Non-endorsement principle: four vote-choice criteria"
+  ],
+  "one_paragraph_summary": "Panganiban follows up his 'Grace Poe's residency' column with a Q&A on reader reactions, anchored on one central legal concern: the Maquiling v. Comelec (April 16, 2013) ruling that the use of a US passport after renouncing American citizenship effectively reverses the renunciation and disqualifies one from being elected to public office. He had concluded last Sunday that Poe's domicile of origin was Jaro, Iloilo; that California became her domicile by operation of law after her marriage; and that when she returned for good to the Philippines after the death of Fernando Poe Jr., she acquired a new domicile of choice -- with several acts in 2005 and early 2006 showing her intent to remain -- leading him to conclude she would surpass the 10-year residency requirement by Election Day, May 9, 2016. But a pen-named emailer, Agueda Kahabagan, presented immigration records showing Poe arriving in the Philippines using a US passport on November 9, 2003, December 13, 2004, September 2005, March 11, 2006, July 5, 2006, July 23, 2007, October 5, 2008, May 21, 2009, and August 3, 2009, and departing on July 2, 2006, July 26, 2006, September 11, 2006, November 1, 2006, October 31, 2007, April 20, 2009, July 31, 2009, and December 27, 2009 aboard PAL Flight 112 -- asking: under Maquiling, is Poe disqualified? An anonymous reader replies that Poe renounced her American citizenship in October 2010 -- after her last US-passport use on December 27, 2009 -- and has not used it since. CJ's analysis: if the anonymous reader is factually correct, Maquiling will not affect Poe and her residency still surpasses the 10-year requirement; if he is wrong, all Poe needs to do is renounce again her American citizenship before filing her COC, since Maquiling saw nothing wrong in executing more than one renunciation affidavit. The use of a foreign passport after renouncing foreign citizenship does not divest Filipino citizenship regained by repatriation under the Dual Citizenship Law. Residency is not interrupted by taking a renunciation or allegiance oath -- Japson v. Comelec (Jan 19, 2009); even foreigners may establish Philippine domicile -- Cordora v. Comelec (Feb 19, 2009). Reader Andrew Ramoso asked why the Constitution uses 'resident of' when it means 'domiciliary of' -- CJ replies that the law has its own interchangeable technical words, just as medicine has tongue-twisting terminologies better memorized by physicians scribbling seemingly inscrutable prescriptions. To those who asked whether CJP is campaigning or voting for Poe: that is a 'misleading question' -- it assumes a fact not in existence, since Poe has not decided whether to run or for what position. His columns are objective legal views, not political endorsements. CJ makes his election choices based on: (1) whether there is a candidate, (2) for what position, (3) their platform, and (4) the opposing candidates and their platforms.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

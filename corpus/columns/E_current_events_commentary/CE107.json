@@ -1,0 +1,127 @@
+{
+  "id": "CE107",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 107,
+  "title": "Aquino and Binay, invincible together",
+  "date": "2012-04-21",
+  "link": "https://opinion.inquirer.net/27269/aquino-and-binay-invincible-together",
+  "keywords": [
+    "Aquino Binay alliance",
+    "NoyBi",
+    "2013 elections",
+    "Liberal Party",
+    "UNA",
+    "VP Binay 2016",
+    "political unity",
+    "anti-corruption"
+  ],
+  "primary_topics": [
+    "CJ argument that an Aquino-Binay political confrontation will not benefit either or the country -- their continued partnership is invincible and best for the nation",
+    "The historical and political basis for the NoyBi alliance: Binay's debt to the Aquinos, the Samar faction connection, and shared anti-corruption/poverty agenda",
+    "The 2013 and 2016 election calculus: why their interests intertwine rather than conflict"
+  ],
+  "sub_topics": [
+    "Warmongers claiming split between Aquino and Binay is inevitable",
+    "Binay political rise: Cory Aquino named him Makati mayor in 1986; defended Cory during coup attempts (Rambotito nickname with submachine gun)",
+    "Binay never unhitched from Aquinos; VP victory partly due to NoyBi faction of Aquino campaign",
+    "P-Noy named Binay to Cabinet: HUDCC chair and presidential adviser on OFW concerns",
+    "Binay as housing czar: maximizing benefits to 10 million Pag-Ibig members",
+    "Both support same 2013 reelectionist senators: Cayetano, Escudero, Honasan, Legarda, Pimentel III, Trillanes IV",
+    "LP-UNA coalition most logical: Binay has 2016 presidential ambitions; no LP leader has presidential designs; Mar Roxas disavowed interest",
+    "Binay denied wanting Corona retained -- impeachment trial is a test of democracy to be decided fairly and impartially",
+    "Senate Rules require senators political neutrality in impeachment",
+    "Indelible communality: both fought Marcos dictatorship, defended human rights, opposed Arroyo presidency, won people's trust",
+    "Both support kung walang corrupt walang mahirap",
+    "Early birds do not always catch worms: Cory, Ramos, P-Noy were latecomers who won",
+    "Opinion polls: people value endorsement of both; incumbent presidents endorsees historically win midterm elections"
+  ],
+  "signature_phrases": [
+    "I believe, however, that a political confrontation will not benefit either or both of them, or the country",
+    "Together, they are invincible",
+    "Rambotito",
+    "NoyBi team",
+    "a coalition between the Liberal Party and the Union of Nationalist Alliance is most logical",
+    "a vote for Corona's acquittal is a vote for Binay is a craven insult to both the senator-judges and the Chief Justice",
+    "indelible communality in fighting the Marcos dictatorship",
+    "kung walang corrupt, walang mahirap",
+    "Early birds do not always catch the worms",
+    "an unnecessary war of attrition will be costly to both"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "President Benigno Aquino III (P-Noy)",
+      "Vice President Jejomar Binay",
+      "Former President Cory Aquino (named Binay Makati mayor 1986)",
+      "Mar Roxas (LP president, disavowed presidential interest)",
+      "Senators Cayetano, Escudero, Honasan, Legarda, Pimentel III, Trillanes IV (both camps support for 2013)"
+    ],
+    "institutions": [
+      "Liberal Party (LP)",
+      "Union of Nationalist Alliance (UNA)",
+      "HUDCC",
+      "Pag-Ibig Fund",
+      "Senate (impeachment court)",
+      "Pulse Asia, SWS"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Senate Rules on impeachment (political neutrality requirement)"
+    ],
+    "events": [
+      "2012 Corona impeachment trial (context)",
+      "2013 midterm elections",
+      "2016 presidential election (Binay ambitions)",
+      "Binay defense of Cory during coup attempts (1986-1992)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "An Aquino-Binay political split would harm both leaders and the country -- their continued partnership is invincible because they share an indelible commonality (anti-Marcos, pro-democracy, anti-Arroyo, anti-corruption/poverty) that transcends tactical disagreements.",
+      "rhetorical_move": "invincibility-of-unity argument anchored in shared history and mission",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The 2013 election calculus actually unites rather than divides Aquino and Binay: both support the same reelectionist senators, an LP-UNA coalition is most logical, and Binay's 2016 ambitions are best served by P-Noy's endorsement.",
+      "rhetorical_move": "interests-intertwine-rather-than-conflict electoral analysis",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The claim that a vote for Corona's acquittal equals a vote for Binay is a craven insult to both the senator-judges and the CJ -- because impeachment is a political process in the sense that senators decide what is best for the people, not according to partisan whims.",
+      "rhetorical_move": "corona-binay-linkage-as-craven-insult rebuttal",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Binay's Rambotito nickname: earning it by sporting a submachine gun during several coup attempts against Cory Aquino -- the most vivid biographical detail establishing his personal loyalty to the Aquinos.",
+    "Binay's quote attributing his success to P-Noy's trust -- the most diplomatically savvy self-characterization.",
+    "CJ observation that early birds do not always catch the worms -- citing Cory, Ramos, and P-Noy as latecomers who won -- counseling Binay against premature distancing from P-Noy."
+  ],
+  "target_audience": [
+    "Political analysts and media commentators covering the Aquino-Binay relationship",
+    "LP and UNA leaders evaluating coalition prospects for 2013-2016",
+    "Civic readers concerned about political unity during the impeachment period",
+    "Senators and their political allies following the impeachment-politics nexus"
+  ],
+  "register_markers": [
+    "war-and-peace political metaphor (warmongers, war of attrition, invincible)",
+    "Rambotito as the most vivid biographical-loyalty detail",
+    "NoyBi team as the shorthand for the political partnership",
+    "craven-insult as the strongest condemnation marker",
+    "kung-walang-corrupt-walang-mahirap as the shared programmatic mantra",
+    "early-birds-do-not-always-catch-worms as political-timing counsel",
+    "indelible-communality as the historical-bond framing"
+  ],
+  "decision_framework_signals": [
+    "applies interests-intertwine-rather-than-conflict electoral analysis to rebut split narrative",
+    "uses shared-history-and-mission as the strongest and most durable bond",
+    "treats incumbent-president-endorsement-advantage as a structural political reality",
+    "frames political neutrality in impeachment as both constitutionally mandated and politically necessary",
+    "deploys latecomers-won-presidency as the argument against Binay premature positioning"
+  ],
+  "one_paragraph_summary": "Panganiban rejects the war-mongering narrative of an inevitable Aquino-Binay split, arguing that their continued partnership is invincible and best for both and for the nation. He traces Binay's political history: Cory Aquino named him Makati mayor in 1986; he earned the 'Rambotito' nickname by sporting a submachine gun to defend her during coup attempts; his VP victory was partly due to the NoyBi faction of the Aquino campaign; and he was named to P-Noy's Cabinet as HUDCC chair and OFW presidential adviser. On the 2013 elections: both support the same reelectionist senators; an LP-UNA coalition is most logical; Binay's 2016 ambitions are best served by P-Noy's endorsement since no LP leader has shown presidential designs; and Binay has explicitly denied the canard that he wants Corona retained. CJ calls 'craven insult' the claim that a vote for Corona's acquittal equals a vote for Binay. Their indelible communality -- fighting the Marcos dictatorship, defending human rights, opposing the Arroyo presidency, and sharing the kung walang corrupt walang mahirap agenda -- makes continued unity the rational choice. He counsels Binay that 'early birds do not always catch the worms,' noting Cory, Ramos, and P-Noy himself were latecomers who won.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "CA522",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 522,
+  "title": "Canard of a leak",
+  "date": "2011-09-25",
+  "link": "https://opinion.inquirer.net/12735/canard-of-a-leak",
+  "keywords": [
+    "WikiLeaks canard Panganiban Nocom IP piracy",
+    "Judicial appointments Reyes Bernabe P-Noy",
+    "Ellen Tordesillas broadsheet retraction",
+    "Eugenio IP commercial court warrant",
+    "Marquez denial letter"
+  ],
+  "primary_topics": [
+    "Profile of two new SC appointees: JJ Reyes and Bernabe",
+    "The WikiLeaks canard falsely accusing the author of protecting a piracy suspect",
+    "How a credible journalist printed an unverified WikiLeaks cable as gospel truth"
+  ],
+  "sub_topics": [
+    "J. Reyes replaced J. Nachura; J. Bernabe replaced J. Carpio Morales (who became Ombudsman)",
+    "J. Sereno as P-Noy's first SC appointee (non-career, academe, private practice)",
+    "J. Reyes: 20+ years judicial experience; RTC Malabon 1990; CA Aug. 2000; serves till 2017",
+    "Critics: promoted because of friendship with Aquino family from mid-1980s",
+    "Author's personal knowledge: knew Reyes 30 years; no undue favor to Aquino family; CIPI",
+    "J. Bernabe: unblemished track record -- MTC Makati 1996; RTC Makati 2000; CA 2004",
+    "Born May 14, 1952; salutatorian Ateneo Law 1976; BS Commerce magna cum laude St. Paul's",
+    "Serves SC for 11 years",
+    "WikiLeaks cable: Paul Jones (US Embassy DCM), September 2006, alleging Panganiban was 'protector' of Nocom",
+    "Nocom's malls allegedly selling pirated goods; Optical Media Board (OMB) headed by Edu Manzano",
+    "Judge Antonio Eugenio: issued most search warrants for OMB",
+    "Cable alleged Nocom used Panganiban connection to have Eugenio 'yanked out' from IP cases",
+    "Author called Marquez from Morocco to deny; Marquez letter to broadsheet: Eugenio never replaced; Panganiban barely knew Nocom",
+    "Tordesillas backtracked: 'friend in the SC' said protectors exist but 'not former CJ Panganiban'",
+    "Marquez's letter eventually printed on inside page",
+    "US Embassy never denied the cable; could have checked easily with OCA"
+  ],
+  "signature_phrases": [
+    "canard of a leak",
+    "love WikiLeaks",
+    "double-life of many officials that we respect",
+    "unabashedly love WikiLeaks",
+    "Elementary, my dear Watson",
+    "I know him only by name and face",
+    "ludicrous article"
+  ],
+  "entities": {
+    "people": [
+      "Justice Bienvenido L. Reyes (new SC appointee)",
+      "Justice Estela Perlas-Bernabe (new SC appointee)",
+      "Justice Maria Lourdes P. A. Sereno (first P-Noy SC appointee)",
+      "Justice Antonio Eduardo B. Nachura (replaced by Reyes)",
+      "Ombudsman Conchita Carpio Morales (replaced by Bernabe)",
+      "Ellen Tordesillas (journalist)",
+      "Paul Jones (US Embassy DCM, Manila)",
+      "Mariano Nocom (businessman)",
+      "Edu Manzano (OMB head)",
+      "Judge Antonio Eugenio (IP commercial court judge)",
+      "Court Administrator Jose Midas Marquez",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "US Embassy Manila",
+      "Optical Media Board",
+      "WikiLeaks"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Intellectual property laws"
+    ],
+    "events": [
+      "WikiLeaks cable release (September 2006 cable, publicized 2011)",
+      "Tordesillas front-page story and partial retraction"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The WikiLeaks cable was a brazen lie: the author never met Nocom meaningfully; Eugenio was never replaced as an IP court judge; Marquez's denial letter confirms both.",
+      "rhetorical_move": "factual-rebuttal of each specific accusation",
+      "confidence": "high"
+    },
+    {
+      "claim": "Tordesillas printed the unverified leak as gospel truth without basic fact-checking -- the US Embassy could have verified with the OCA in one phone call ('Elementary, my dear Watson').",
+      "rhetorical_move": "Sherlock Holmes journalistic-responsibility critique",
+      "confidence": "high"
+    },
+    {
+      "claim": "JJ Reyes and Bernabe are qualified SC appointees possessing CIPI -- their P-Noy connections do not impair their independence or fitness.",
+      "rhetorical_move": "CIPI-standards endorsement of both appointees",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The author calling Court Administrator Marquez long-distance from Morocco to deny the WikiLeaks accusations -- and Marquez immediately sending a letter to the broadsheet.",
+    "Tordesillas's partial retraction: a 'friend in the SC' confirmed that Nocom has protectors, but 'not former CJ Panganiban' -- acknowledging the core falsehood while attributing the correction to a nameless insider.",
+    "The Sherlock Holmes closing: 'The US Embassy could have easily called the Office of the Court Administrator to verify that Eugenio was never replaced. As Sherlock Holmes would say, Elementary my dear Watson.'"
+  ],
+  "target_audience": [
+    "Readers who read the Tordesillas article",
+    "US Embassy Manila and journalists who rely on diplomatic cables",
+    "Court watchers evaluating P-Noy's SC appointments",
+    "Constitutional law scholars on judicial fitness"
+  ],
+  "register_markers": [
+    "Two-part column (SC appointments + WikiLeaks rebuttal)",
+    "Personal-testimony register ('I have known Justice Reyes for 30 years')",
+    "Point-by-point denial structure",
+    "Sherlock Holmes closing",
+    "Tordesillas-retraction account"
+  ],
+  "decision_framework_signals": [
+    "Verify diplomatic cables against OCA and official records before publishing",
+    "Apply CIPI as the SC appointment standard -- friendship with the appointing president is not disqualifying if independence is demonstrated",
+    "Treat partial retractions as insufficient -- full corrections on equal prominence are required"
+  ],
+  "one_paragraph_summary": "Panganiban profiles two new P-Noy SC appointees -- Justice Bienvenido Reyes (20+ years of judicial experience; CIPI; author's personal voucher despite critics' friendship-connection allegations) and Justice Estela Perlas-Bernabe (unblemished track record from MTC Makati 1996 to CA 2004; salutatorian Ateneo Law 1976; magna cum laude St. Paul's) -- then devotes the main column to rebutting a WikiLeaks canard. A broadsheet ran a front-page article by Ellen Tordesillas citing a September 2006 US Embassy cable from DCM Paul Jones claiming the author was the 'protector' of Mariano Nocom, whose malls allegedly sold pirated goods, and that the author had Judge Antonio Eugenio (OMB's most productive search-warrant issuer) removed from IP cases. The author, learning of the article in Morocco, called Court Administrator Marquez long-distance; Marquez sent a prompt letter to the broadsheet stating the author barely knew Nocom and that Eugenio was never replaced as an IP court judge. Three days later, Tordesillas backtracked in an inside-page article, attributing to 'a friend in the SC' the clarification that the protector was 'not former CJ Panganiban.' The author concludes with the Sherlock Holmes rebuke: the US Embassy could have verified with the OCA in one call. He expresses amazement that a credible journalist 'could write a canard of a leak that is completely false and baseless' without checking.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,179 @@
+{
+  "id": "CA202",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 202,
+  "title": "Probable cause, De Lima, GMA, and Guevarra",
+  "date": "2020-10-04",
+  "link": "https://opinion.inquirer.net/134141/probable-cause-de-lima-gma-and-guevarra",
+  "keywords": [
+    "probable cause",
+    "proof beyond reasonable doubt",
+    "Leila De Lima",
+    "Gloria Macapagal-Arroyo",
+    "Menardo Guevarra",
+    "sworn certification",
+    "DOJ guidelines",
+    "conviction rate",
+    "jail congestion",
+    "watch list orders",
+    "revolving door"
+  ],
+  "primary_topics": [
+    "The huge chasm between 'probable cause' (for filing) and 'proof beyond reasonable doubt' (for conviction)",
+    "Consequence: poor prosecutor conviction rate, court-docket clogging, jail congestion",
+    "Detained-without-bail cases as the human cost: Sen. Leila De Lima (4+ years) and former President GMA (4+ years before acquittal)",
+    "Proposed reform: new DOJ guidelines + sworn certification by prosecutors",
+    "Why Guevarra is the right official to lead the reform"
+  ],
+  "sub_topics": [
+    "Probable cause definition (jurisprudence): 'a state of facts in the mind of the prosecutor as would lead a person of ordinary caution to believe, or entertain an honest or strong suspicion, that a thing is so' -- 'so abstruse... almost blanket discretion to fiscals'",
+    "Proof beyond reasonable doubt definition (jurisprudence): 'that degree of proof which, after an examination of the entire records of the case, produces in an unprejudiced mind moral certainty of the culpability of the accused'",
+    "Statistical anchors from SC en banc: Jan. 8, 2013 -- '80% of the backlog in the first and second level courts involves criminal cases'; Sept. 5, 2012 -- 'about 40% of criminal cases are dismissed annually... due to mishandling'",
+    "Consequences: clogged dockets, unnecessary detention of poor who can't post bail, appalling jail congestion",
+    "Capital offenses: accused detained indefinitely without bail when evidence of guilt is strong",
+    "Sen. Leila De Lima -- 4-year detention without bail (RTC arrest warrant on prohibited drugs charge filed by DOJ prosecutors on probable cause)",
+    "Former President GMA -- chased and arrested at NAIA under De Lima's 'watch list orders' that 'defied a temporary restraining order of the Supreme Court' -- 'a dash of karma'",
+    "GMA detained later under RTC arrest order from DOJ information, then plunder charge by Ombudsman",
+    "All detentions on probable-cause basis",
+    "GMA acquitted and released after 'more than four years of detention in a hospital near where De Lima is now confined'",
+    "The 'revolving door of probable cause and proof beyond reasonable doubt must end'",
+    "Justice Secretary Menardo I. Guevarra credentials: 'sufficient gravitas, integrity, and independence... having served the immediate past -- and is still serving the present -- President of the Republic'",
+    "Proposed mechanism: new DOJ guidelines with higher probable-cause thresholds barring filings 'dismissible on the plain ground that the information is wantonly insufficient and/or that the evidence is direly wanting'",
+    "CJ's earlier column reference (Nov. 23, 2014)",
+    "Anonymous reader's suggested sworn certification: (1) allegations in information enough to constitute crime charged; (2) evidence on hand passes legal admissibility; (3) evidence sufficient to convict despite preliminary-investigation and trial defenses",
+    "Deterrent function: certification 'should deter the filing of frivolous, reckless, malevolent, and politically-motivated charges' that clog dockets and 'deprive our people of their constitutional right' to life/liberty/property without due process and equal protection"
+  ],
+  "signature_phrases": [
+    "probable cause",
+    "proof beyond reasonable doubt",
+    "abstruse",
+    "almost blanket discretion to fiscals",
+    "moral certainty of the culpability of the accused",
+    "needless clogging of court dockets",
+    "appalling congestion of our jails",
+    "internationally reverberating lament",
+    "watch list orders",
+    "a dash of karma",
+    "revolving door",
+    "must end",
+    "gravitas, integrity, and independence",
+    "frivolous, reckless, malevolent, and politically motivated charges",
+    "wantonly insufficient",
+    "direly wanting",
+    "Why should they sue if they cannot secure the conviction of the accused?"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Justice Secretary Menardo I. Guevarra (current -- proposed reform-leader)",
+      "Senator Leila De Lima (detained without bail 4+ years)",
+      "Former President Gloria Macapagal-Arroyo (detained 4+ years, eventually acquitted by SC)",
+      "Anonymous reader (suggested sworn-certification language)",
+      "DOJ prosecutors and fiscals (institutional target of reform)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Department of Justice (DOJ)",
+      "Office of the Ombudsman (filed GMA plunder charge)",
+      "Regional trial courts (issuers of arrest warrants on probable cause)",
+      "Philippine jails (congested by detentions)",
+      "National Prosecution Service (NPS, prosecutorial body)",
+      "Ninoy Aquino International Airport (NAIA, site of GMA arrest)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Philippine Constitution -- due-process and equal-protection provisions",
+      "SC en banc resolution Jan. 8, 2013 (80% backlog criminal cases)",
+      "SC en banc resolution Sept. 5, 2012 (40% criminal cases dismissed annually)",
+      "Probable-cause and proof-beyond-reasonable-doubt jurisprudential definitions"
+    ],
+    "events": [
+      "Jan. 8, 2013 -- SC en banc resolution noting backlog statistic",
+      "Sept. 5, 2012 -- SC en banc resolution on annual dismissals",
+      "GMA NAIA arrest (under De Lima 'watch list orders' defying SC TRO)",
+      "GMA's 4+ year detention then SC acquittal",
+      "De Lima's ongoing 4-year detention without bail",
+      "Nov. 23, 2014 -- CJ's prior column on the topic (cross-referenced)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The huge gap between 'probable cause' -- defined jurisprudentially as 'a state of facts in the mind of the prosecutor as would lead a person of ordinary caution to believe, or entertain an honest or strong suspicion, that a thing is so' (so abstruse it gives 'almost blanket discretion to fiscals') -- and 'proof beyond reasonable doubt,' which requires 'moral certainty of the culpability of the accused,' accounts to a large degree for the poor prosecutor conviction rate.",
+      "rhetorical_move": "two-standards definitional gap as diagnostic frame",
+      "confidence": "asserted with verbatim jurisprudential definitions"
+    },
+    {
+      "claim": "The poor conviction rate is institutionally costly -- SC en banc admissions show '80% of the backlog in the first and second level courts involves criminal cases' (Jan. 8, 2013) and 'about 40% of criminal cases are dismissed annually... due to mishandling' (Sept. 5, 2012) -- producing 'needless clogging of court dockets,' 'unnecessary detention of the poor who could not afford to post bail,' and 'appalling congestion of our jails.'",
+      "rhetorical_move": "institutional-cost itemization with SC-admitted statistics",
+      "confidence": "asserted with SC-quoted resolutions"
+    },
+    {
+      "claim": "The human cost is most visible in capital offenses where the accused is detained indefinitely without bail on probable cause -- Sen. Leila De Lima detained four years and counting on a prohibited-drugs charge ('the internationally reverberating lament'), and former President GMA detained over four years (NAIA arrest under De Lima's 'watch list orders' that 'defied a temporary restraining order of the Supreme Court' -- 'ironically, and some say, with a dash of karma'; later RTC arrest plus Ombudsman plunder) before SC acquittal 'on the main ground that the prosecutors failed to prove the charges beyond reasonable doubt.'",
+      "rhetorical_move": "paired-detentions illustration with reversal-narrative",
+      "confidence": "asserted with named-cases"
+    },
+    {
+      "claim": "The 'revolving door of probable cause and proof beyond reasonable doubt must end' -- and Justice Secretary Menardo I. Guevarra is the right official to end it because he 'possesses sufficient gravitas, integrity, and independence to do it without partisanship, having served the immediate past -- and is still serving the present -- President of the Republic.'",
+      "rhetorical_move": "named-official-can-end-it endorsement with cross-administration legitimacy claim",
+      "confidence": "endorsing"
+    },
+    {
+      "claim": "The mechanism: new DOJ guidelines defining probable cause with higher thresholds to bar filings that are dismissible on plain grounds (information 'wantonly insufficient' or evidence 'direly wanting'), plus a reader-suggested sworn certification by prosecutors that (1) the information's allegations constitute the crime charged, (2) the evidence passes legal admissibility, and (3) the evidence is sufficient to convict despite expected preliminary-investigation and trial defenses -- which would 'deter the filing of frivolous, reckless, malevolent, and politically motivated charges' that violate due-process and equal-protection rights.",
+      "rhetorical_move": "three-prong sworn-certification reform design",
+      "confidence": "prescriptive with operational specifics"
+    }
+  ],
+  "notable_anecdotes": [
+    "The verbatim jurisprudential definitions of 'probable cause' ('a state of facts in the mind of the prosecutor as would lead a person of ordinary caution to believe, or entertain an honest or strong suspicion, that a thing is so') and 'proof beyond reasonable doubt' ('that degree of proof which, after an examination of the entire records of the case, produces in an unprejudiced mind moral certainty of the culpability of the accused') -- preserved as exhibit A and exhibit B of the statutory chasm.",
+    "Two SC en banc statistics with dates: 'on Jan. 8, 2013 noted the startling statistic that 80% of the backlog... involves criminal cases' and 'in another resolution, dated Sept. 5, 2012, it cryptically observed that about 40% of criminal cases are dismissed annually... due to mishandling' -- institutional self-admissions converted into evidence for reform.",
+    "The De Lima detention as 'internationally reverberating lament' -- coupled with the 'pitiful lament' of GMA 'chased and arrested at the Ninoy Aquino International Airport' -- using both opposed political figures (one pro-Aquino, one Arroyo) to make the procedural critique nonpartisan.",
+    "The 'dash of karma' aside in the GMA-arrest narrative ('ironically, and some say, with a dash of karma') -- referencing the watch-list orders De Lima had issued as Justice Secretary against GMA that 'defied a temporary restraining order of the Supreme Court' before she herself faced detention on a similar procedural mechanism.",
+    "The architectural detail of GMA's acquittal -- 'in a hospital near where De Lima is now confined' -- physicalizing the two cases in the same hospital geography.",
+    "The 'revolving door of probable cause and proof beyond reasonable doubt must end' framing -- recasting the structural problem as a single mechanical image (revolving door) for easy memetic carry.",
+    "Anonymous-reader credit for the sworn-certification design -- 'as suggested by a reader who requested anonymity' -- recognizing reader-contributed reform proposals without forced attribution.",
+    "The closing rhetorical question -- 'Why should they sue if they cannot secure the conviction of the accused?' (with cross-reference to CJ's Nov. 23, 2014 column) -- collapsing the reform into a single-line test prosecutors should ask themselves."
+  ],
+  "target_audience": [
+    "Justice Secretary Menardo I. Guevarra (named reform-leader)",
+    "DOJ prosecutors and fiscals (institutional target)",
+    "National Prosecution Service",
+    "Members of the Supreme Court and Committee on Revision of Rules on Criminal Procedure",
+    "Sen. Leila De Lima and her supporters",
+    "Former President GMA and her supporters",
+    "Civic-minded readers concerned with criminal justice",
+    "Bar members on criminal-procedure reform",
+    "Anonymous reader who suggested the sworn-certification language",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "two-standards definitional pairing (probable cause / proof beyond reasonable doubt)",
+    "verbatim-jurisprudential-quote discipline (both standards quoted)",
+    "abstruse-statute critique register",
+    "SC-statistic-quotation citation method (resolutions by date)",
+    "paired-political-figures illustration (De Lima + GMA, opposite affiliations)",
+    "'dash of karma' aside",
+    "watch-list-orders-defied-TRO narrative beat",
+    "'revolving door' image as memetic compression",
+    "named-official endorsement with cross-administration legitimacy",
+    "three-prong sworn-certification operational specifics",
+    "anonymous-reader credit (reform proposal attribution)",
+    "constitutional-rights anchor (due process, equal protection)",
+    "closing rhetorical question with self-citation (11/23/14)",
+    "'frivolous, reckless, malevolent, and politically-motivated' alliterative cluster"
+  ],
+  "decision_framework_signals": [
+    "applies two-standards definitional gap as diagnostic frame for institutional dysfunction",
+    "uses SC-admitted statistics as institutional self-evidence",
+    "deploys paired-political-figures illustration to demonstrate nonpartisan procedural critique",
+    "treats cross-administration tenure as legitimacy signal (Guevarra serving past and present presidents)",
+    "applies three-prong sworn-certification design (information / admissibility / conviction-likelihood)",
+    "uses constitutional-rights anchor (due process, equal protection) to frame stakes",
+    "deploys 'why should they sue if they cannot secure conviction' test as prosecutor self-discipline standard",
+    "channels reader-contributed proposal as collaborative reform-design"
+  ],
+  "one_paragraph_summary": "Panganiban identifies and proposes a fix for the institutional chasm between 'probable cause' -- the abstruse standard prosecutors need to file criminal charges, defined by jurisprudence as 'a state of facts in the mind of the prosecutor as would lead a person of ordinary caution to believe, or entertain an honest or strong suspicion, that a thing is so' (giving 'almost blanket discretion to fiscals') -- and 'proof beyond reasonable doubt,' the much higher standard for conviction defined as the degree of proof producing 'moral certainty of the culpability of the accused.' This huge gap accounts for the poor prosecutor conviction rate, evidenced by SC en banc resolutions: on January 8, 2013, the Court noted '80% of the backlog in the first and second level courts involves criminal cases,' and on September 5, 2012, it cryptically observed 'about 40% of criminal cases are dismissed annually... due to mishandling.' The institutional costs are needless docket clogging, unnecessary detention of the poor who cannot post bail, and 'appalling congestion of our jails.' Worse, in capital offenses the accused is detained indefinitely without bail when evidence of guilt is deemed strong -- the 'internationally reverberating lament' of Sen. Leila De Lima, detained without bail for four years on a prohibited-drugs charge filed by DOJ prosecutors on probable cause, and the 'pitiful lament' of former President GMA, chased and arrested at NAIA 'ironically, and some say, with a dash of karma' under De Lima's own 'watch list orders' that 'defied a temporary restraining order of the Supreme Court,' then by RTC arrest and Ombudsman plunder charge -- all on probable cause -- before SC acquittal 'on the main ground that the prosecutors failed to prove the charges beyond reasonable doubt' after more than four years of detention in a hospital 'near where De Lima is now confined.' This 'revolving door of probable cause and proof beyond reasonable doubt must end,' and CJ believes Justice Secretary Menardo I. Guevarra can end it because he 'possesses sufficient gravitas, integrity, and independence to do it without partisanship, having served the immediate past -- and is still serving the present -- President of the Republic.' The mechanism: new DOJ guidelines with higher probable-cause thresholds barring filings 'dismissible on the plain ground that the information is wantonly insufficient and/or that the evidence is direly wanting' -- 'Why should they sue if they cannot secure the conviction of the accused?' (cross-referencing CJ's Nov. 23, 2014 column). Together with a reader-suggested sworn certification by prosecutors that (1) the allegations in the information are enough to constitute the crime charged, (2) the evidence on hand passes legal admissibility, and (3) the evidence is sufficient to convict despite defenses proffered during preliminary investigation or reasonably expected at trial. This sworn certification 'should deter the filing of frivolous, reckless, malevolent, and politically motivated charges' that clog dockets and deprive citizens of constitutional rights to life, liberty, or property without due process and equal protection of the laws.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

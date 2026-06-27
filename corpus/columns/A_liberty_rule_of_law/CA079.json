@@ -1,0 +1,186 @@
+{
+  "id": "CA079",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 79,
+  "title": "Cha-cha laws and jurisprudence 101",
+  "date": "2024-02-26",
+  "link": "https://opinion.inquirer.net/171328/cha-cha-laws-and-jurisprudence-101",
+  "keywords": [
+    "Charter change",
+    "Cha-cha",
+    "Con-ass",
+    "Con-con",
+    "People's Initiative",
+    "Article XVII",
+    "joint vs separate voting",
+    "Lambino v. Comelec"
+  ],
+  "primary_topics": [
+    "Three Charter-change modes under Article XVII: Con-ass, Con-con, People's Initiative (PI)",
+    "Constitutional silence on joint vs separate voting of two Chambers in Con-ass",
+    "Three-fourths and two-thirds vote requirements based on ALL members (including absent)",
+    "PI's 12 percent national + 3 percent per legislative district double threshold",
+    "Lambino v. Comelec (Oct. 25, 2006) on 'amendment' vs 'revision' distinction",
+    "Joint Resolutions adding 'UNLESS OTHERWISE PROVIDED BY LAW' to three constitutional economic restrictions",
+    "Two logical conclusions: solons/delegates have prerogative on amendments-and-revisions via Con-ass/Con-con; people have prerogative on amendments only via PI",
+    "Senators-cannot-double-as-Con-con-delegates rule",
+    "37-year-old Constitution updating with pop-culture touchstones (Dingdong Dantes, Taylor Swift, bitcoin, AI, Unclos)"
+  ],
+  "sub_topics": [
+    "Reluctant-engagement framing ('I no longer wanted to add to the ongoing noise')",
+    "President Marcos had 'already settled months ago' but readers still confused",
+    "Article XVII provisions: Con-ass via 3/4 of all members; Con-con via 2/3 of all members; PI via voter signatures",
+    "Constitution silent on whether two Chambers vote jointly or separately in Con-ass -- CJ's opinion: separately",
+    "Constitution silent on whether two Chambers convene jointly or separately -- CJ's opinion: may convene jointly but vote separately, or convene-and-vote separately, at their option",
+    "Suggested SC test case to settle the hiatuses",
+    "Senate 24 incumbents: 3/4 means 18 affirmative votes; 2/3 means 16",
+    "Article XVII Section 2 PI: 12 percent national signatures, with 3 percent per legislative district minimum",
+    "PI may propose only 'amendments,' not 'revisions' (Lambino doctrine)",
+    "Lambino definition: revision alters a basic constitutional principle (separation of powers, checks and balances); amendment adds, reduces, or deletes words without altering basic principles",
+    "Joint Resolutions in 2024 proposing the addition of 'UNLESS OTHERWISE PROVIDED BY LAW' to three provisions: public utilities, basic education, ad agencies (60 percent / 70 percent Filipino-owned)",
+    "House version provides for joint, not separate, voting -- would kill the Resolutions because Senate won't agree",
+    "Two logical conclusions on prerogatives: solons/delegates exclusive on revisions and amendments via Con-ass/Con-con; people exclusive on amendments only via PI",
+    "Constitution bars members of Congress from holding 'any other office or employment in the Government ... during his term without forfeiting his seat' -- so they cannot be concurrent Con-con delegates",
+    "37-year-old Constitution needs updating per CJ: 'no internet, no mobile phone, no bitcoin, no AI, no Arbitral Award, no Unclos, no neurotechnology, no Facebook, no Dingdong Dantes, no Taylor Swift'",
+    "CJ's recommended path: proceed only with the least controversial public-utilities proviso as model for future updating"
+  ],
+  "signature_phrases": [
+    "Cha-cha",
+    "the ongoing 'noise'",
+    "When there is a hiatus, I will hazard my opinion",
+    "constituent assembly",
+    "Con-ass",
+    "Con-con",
+    "people's initiative",
+    "I encourage those who sincerely believe",
+    "ALL members, including those absent during the voting",
+    "every legislative district must be represented by at least three per centum",
+    "amendment vs revision",
+    "grand deception",
+    "gigantic fraud",
+    "exclusive prerogative",
+    "UNLESS OTHERWISE PROVIDED BY LAW",
+    "concurrent Con-con delegates",
+    "our 37-year-old Constitution needs updating",
+    "no Dingdong Dantes, no Taylor Swift",
+    "the 'noise' would have served the nation"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Ferdinand Marcos Jr. (President)",
+      "Dingdong Dantes (pop-culture touchstone)",
+      "Taylor Swift (pop-culture touchstone)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Senate of the Philippines (24 incumbents)",
+      "House of Representatives",
+      "Commission on Elections (Comelec)",
+      "Congress acting as Constituent Assembly (Con-ass)",
+      "Constitutional Convention (Con-con)"
+    ],
+    "cases": [
+      "Lambino v. Comelec (Oct. 25, 2006)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution, Article XVII (modes of amendment/revision)",
+      "1987 Constitution, Article XVII Section 2 (People's Initiative)",
+      "1987 Constitution provisions on public utilities, basic education, ad agencies (60-70 percent Filipino-owned)",
+      "1987 Constitution provision barring Congress members from holding other government offices during term"
+    ],
+    "events": [
+      "Ongoing Cha-cha 'noise' in early 2024",
+      "2024 Joint Resolutions proposing 'UNLESS OTHERWISE PROVIDED BY LAW' to three economic provisions"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Charter change may proceed via three modes under Article XVII: (1) Con-ass with 3/4 of all members of Congress; (2) Con-con called by 2/3 of all members; (3) People's Initiative for amendments only. Each path has distinctive procedural requirements.",
+      "rhetorical_move": "doctrinal-restatement framing",
+      "confidence": "asserted as constitutional doctrine"
+    },
+    {
+      "claim": "Where the Constitution is silent on Con-ass voting procedure, CJ's opinion is that the two chambers should vote separately (not jointly) because Congress is composed of Senate and House that 'meet and vote separately and independently' in making ordinary laws -- and 'no law requires them to meet as one body when proposing constitutional revisions or amendments.'",
+      "rhetorical_move": "constitutional-silence-IMHO-fills framing",
+      "confidence": "asserted as CJ's opinion with structural analogy"
+    },
+    {
+      "claim": "On whether the chambers may convene jointly but vote separately, or convene separately, CJ's opinion is they may do either at their option -- given the Constitution's silence and the same structural-independence reason.",
+      "rhetorical_move": "option-allowing framing (default flexibility)",
+      "confidence": "asserted as CJ's opinion"
+    },
+    {
+      "claim": "CJ encourages those who sincerely disagree to bring the issue to the SC for definitive guidance -- converting his column's IMHO opinions into a public invitation to litigate the hiatuses.",
+      "rhetorical_move": "litigation-invitation framing",
+      "confidence": "asserted as advice"
+    },
+    {
+      "claim": "Lambino v. Comelec's distinction governs: 'revision' broadly implies a change that alters a basic constitutional principle (separation of powers, checks and balances), while 'amendment' broadly refers to a 'change that adds, reduces, or deletes words without altering the basic principles involved' -- and PI may propose only amendments, not revisions.",
+      "rhetorical_move": "Lambino-doctrine restatement",
+      "confidence": "asserted with case-quotation"
+    },
+    {
+      "claim": "The 2024 Joint Resolutions adding 'UNLESS OTHERWISE PROVIDED BY LAW' to three economic provisions (public utilities, basic education, ad agencies) are 'amendments' (not revisions) -- and the House version's insistence on joint voting will kill the Resolutions because the Senate will not agree.",
+      "rhetorical_move": "practical-political-arithmetic with doctrinal-classification",
+      "confidence": "asserted as political reading"
+    },
+    {
+      "claim": "Two logical conclusions: (1) solons and Con-con delegates have the exclusive prerogative to propose revisions and amendments via Con-ass/Con-con; (2) the people have the exclusive prerogative to propose amendments only via PI -- and members of Congress cannot serve as concurrent Con-con delegates because the Constitution bars 'holding any other office.'",
+      "rhetorical_move": "exclusive-prerogative twin-conclusion framing",
+      "confidence": "asserted as doctrinal consequence"
+    },
+    {
+      "claim": "The 37-year-old Constitution needs updating because it predates 'the internet, mobile phone, bitcoin, AI, Arbitral Award, Unclos, neurotechnology, Facebook, Dingdong Dantes, Taylor Swift' -- but the path forward should be to 'proceed, with the guidance of the Supreme Court on the hiatuses, but only on the least controversial proviso, the operation of public utilities.'",
+      "rhetorical_move": "modernity-pop-culture-touchstone framing with cautious-incremental recommendation",
+      "confidence": "asserted as policy preference"
+    }
+  ],
+  "notable_anecdotes": [
+    "Reluctant-engagement opener: CJ 'truthfully no longer wanted to add to the ongoing noise' but friends asked him to help understand what 'President Marcos had already settled months ago.'",
+    "Numerical worked-example: Senate with 24 incumbents -- 3/4 means 18 affirmative votes; 2/3 means 16 -- including counting absent members in the base.",
+    "Litigation-invitation: 'I encourage those who sincerely believe the two Chambers should meet jointly but vote separately, or vice versa (meet separately but vote jointly) to bring the issue to the Supreme Court to settle this hiatus for our definitive guidance.'",
+    "Lambino doctrine quoted on the revision/amendment distinction -- the same case features prominently in A77 the following month as part of the PH SC's courage-and-grit catalog.",
+    "Practical-political reading: the House version of the Joint Resolutions provides for joint voting (which would let the much-larger House overwhelm the 24-member Senate); the Senate will not agree, killing the Resolutions.",
+    "Senators-cannot-be-Con-con-delegates rule: the Constitution bars members of Congress from 'holding any other office or employment in the Government ... during his term without forfeiting his seat' -- so a sitting senator cannot concurrently serve as a Con-con delegate.",
+    "Pop-culture-modernity catalog: 'no internet, no mobile phone, no bitcoin, no AI, no Arbitral Award, no Unclos, no neurotechnology, no Facebook, no Dingdong Dantes, no Taylor Swift' -- closing the column with a memorable taxonomy of what the 1987 Constitution did not anticipate.",
+    "Recommended path: 'proceed, with the guidance of the Supreme Court on the hiatuses, but only on the least controversial proviso, the operation of public utilities' as a model for future updating."
+  ],
+  "target_audience": [
+    "Filipino voters and civic readers tracking Cha-cha",
+    "Senators, representatives, and their staff",
+    "Constitutional law academics",
+    "Marcos administration officials",
+    "Comelec",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "Reluctant-engagement opener ('Truthfully, I no longer wanted to add to the ongoing noise')",
+    "Simple-and-clear-explanation register ('a simple and clear discussion of the basic law and jurisprudence')",
+    "Hiatus-IMHO device ('When there is a hiatus, I will hazard my opinion')",
+    "ALL-CAPS pivot openings ('LET ME BEGIN WITH THE CONSTITUTION,' 'SECTION 2 OF THE SAME ARTICLE,' 'TWO LOGICAL CONCLUSIONS BECOME OBVIOUS')",
+    "Numbered enumeration of three Cha-cha modes (1), (2)",
+    "Litigation-invitation phrasing ('I encourage those who sincerely believe... to bring the issue to the Supreme Court')",
+    "Caps-quoted phrase in joint resolutions ('UNLESS OTHERWISE PROVIDED BY LAW')",
+    "Pop-culture-modernity-catalog closer ('no internet, no mobile phone ... no Dingdong Dantes, no Taylor Swift')",
+    "Pragmatic-political-arithmetic register",
+    "Worked-example with chamber-size numbers (Senate 24 incumbents)",
+    "Cha-cha shorthand throughout (informal-but-precise)"
+  ],
+  "decision_framework_signals": [
+    "uses three-mode taxonomy (Con-ass, Con-con, PI) as organizing framework for Charter change",
+    "applies constitutional-silence-IMHO-fills framing for procedural hiatuses",
+    "treats structural-independence of Senate-House as analogical guide for Con-ass voting procedure",
+    "uses Lambino doctrine (revision vs amendment) as case-controlled classification rule",
+    "applies practical-political-arithmetic to project likely outcomes of joint vs separate voting",
+    "uses exclusive-prerogative-by-method framing (Con-ass/Con-con for revisions+amendments; PI for amendments only)",
+    "applies one-office rule to bar concurrent Con-con delegate service",
+    "uses pop-culture-modernity touchstones to argue for periodic constitutional updating",
+    "recommends cautious-incremental reform (least controversial proviso first, with SC guidance)"
+  ],
+  "one_paragraph_summary": "Engaging reluctantly with the ongoing Charter-change 'noise' -- at friends' request, despite his sense that President Marcos had 'already settled' the issue months ago -- Panganiban offers a simple, clear walk-through of the law and jurisprudence governing Cha-cha. Article XVII of the Constitution provides three modes: (1) Con-ass, with Congress acting in constituent-assembly capacity via 3/4 of all members; (2) Con-con, which Congress may call by 2/3 of all members; and (3) People's Initiative under Section 2, requiring at least 12 percent of registered voters nationwide with at least 3 percent in every legislative district -- a double threshold that fails the PI even with 12 percent national if 3 percent is missed in even one district. He flags two constitutional hiatuses and offers his IMHO: first, the Constitution is silent on whether the two chambers vote jointly or separately in Con-ass, and CJ's opinion is they should vote separately because Congress 'meet[s] and vote[s] separately and independently' in ordinary lawmaking and 'no law requires them to meet as one body' for constitutional proposals; second, the Constitution is silent on whether the chambers must even convene jointly, and CJ's opinion is they may convene jointly or separately at their option. He encourages those who sincerely disagree to bring the question to the SC for definitive guidance. The 3/4 and 2/3 requirements are based on ALL members, including absentees -- with 24 Senate incumbents, that means 18 affirmative for 3/4 and 16 for 2/3. Under Lambino v. Comelec (Oct. 25, 2006), 'revision' broadly alters a basic constitutional principle (separation of powers, checks and balances), while 'amendment' adds, reduces, or deletes words without altering principles -- and PI may propose only amendments, not revisions. The 2024 Joint Resolutions adding 'UNLESS OTHERWISE PROVIDED BY LAW' to three economic provisions (public utilities, basic education, ad agencies -- 60-70 percent Filipino-owned) are amendments by Lambino, but the House version's insistence on joint voting will kill the Resolutions because the Senate will not agree. Two logical conclusions follow: solons and Con-con delegates have the exclusive prerogative for revisions and amendments via Con-ass/Con-con; the people have the exclusive prerogative for amendments only via PI; and because the Constitution bars Congress members from holding 'any other office or employment in the Government ... during his term without forfeiting his seat,' they cannot serve as concurrent Con-con delegates. CJ closes with a wider point: our 37-year-old Constitution needs updating because it predates 'internet, mobile phone, bitcoin, AI, Arbitral Award, Unclos, neurotechnology, Facebook, Dingdong Dantes, Taylor Swift' -- but the path should be incremental, proceeding only with the least controversial proviso (public utilities) under SC guidance on the hiatuses; if only for this, 'the noise would have served the nation.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

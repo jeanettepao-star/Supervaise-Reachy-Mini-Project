@@ -1,0 +1,161 @@
+{
+  "id": "CA445",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 445,
+  "title": "Abolishing the pork barrel",
+  "date": "2013-09-14",
+  "link": "https://opinion.inquirer.net/61131/abolishing-the-pork-barrel-2",
+  "keywords": [
+    "pork barrel",
+    "anti-graft",
+    "Supreme Court",
+    "freedom of expression",
+    "constitution"
+  ],
+  "primary_topics": [
+    "Pork-barrel-as-democratic-on-face-appearance -- US-inherited equal-allocation theory of congressional-district fund-distribution",
+    "Legislators-main-job-is-to-enact-laws-not-build-roads/schoolhouses/clinics/orphan-feeding/scholarships/fertilizers",
+    "Deodorizing-rename historical sequence -- pork barrel → Countryside Development Fund → Priority Development Assistance Fund",
+    "Safeguards-instituted-but-circumvented -- public bidding for NGOs + staggered releases + negotiated procurement bonds -- all bypassed",
+    "Sen. Francis Escudero exasperated Senate-committee-hearing quotation 'ghost deliveries, fake receipts, NGOs that you can't locate, and nonexistent suppliers'",
+    "Checks-and-balances solution -- Congress enacts, executive agencies spend, judiciary decides disputes",
+    "Congress-should-legislate-out-pork preferred-path but legislators acting-against-their-interest",
+    "Reader Perry Libre's 'results-based' vs 'line-budgeting' budgeting-reform proposal -- forwarded to Budget Sec Florencio 'Butch' Abad",
+    "SC-can-declare-unconstitutional alternative-path -- TRO already issued on PDAF releases for rest of 2013, jurisprudence-can-be-overturned",
+    "Safeguarding-the-treasury beyond-pork -- public-vigilance armed with pro-people FOI Law as most-effective safeguard",
+    "FOI-bill exceptions discussion -- executive privilege + military/diplomatic secrets + presidential conversations/correspondences + SC internal deliberations"
+  ],
+  "sub_topics": [
+    "Pork-barrel theory -- congressional district representatives know constituents' urgent needs best",
+    "Legislators-on-the-side serve-constituents-better-by-directing-resources framing",
+    "NGO-public-bidding requirement circumvented",
+    "Negotiated-procurement strict requirements -- posting of bond for inadequate/substandard performance -- ignored",
+    "Net-result -- pork barrel in billion pesos rolled into private pockets",
+    "Sept 7 Inquirer editorial detailing long-line-of-cases upholding pork-barrel validity (jurisprudence-backdrop)",
+    "Senate v. Ermita (April 20 2006) executive-privilege foundational citation -- overturned EO banning Cabinet secretaries from Senate investigation appearance",
+    "Almonte v. Vasquez (May 23 1995) presidential-conversations-and-correspondences confidentiality citation -- 'the President and those who assist him must be free to explore alternatives in the process of shaping policies and making decisions and to do so in a way many would be unwilling to express except privately'",
+    "Internal-deliberations-of-SC-and-collegiate-courts privileged-status carve-out -- if exposed publicly, justices would be hindered in finding novel solutions to sensitive cases",
+    "Pork-barrel-scandal-as-FOI-passage-justification meta-argument"
+  ],
+  "signature_phrases": [
+    "On its face, the pork barrel system appears to be a democratic way of apportioning government resources",
+    "And who know the needs of these congressional communities better than the people they elected to represent them?",
+    "Over the decades, efforts have been made to deodorize the pork barrel",
+    "ghost deliveries, fake receipts, NGOs that you can't locate, and nonexistent suppliers",
+    "The net result: The pork barrel, in the billion pesos, rolled into private pockets",
+    "the solution is not really complicated. It is simply going back to the basic system of checks and balances",
+    "Executive officials implement what legislators enact",
+    "The obvious but not so easy answer is: Congress should legislate out pork",
+    "Not so easy because the legislators would be acting against their interest, and would be rejecting what they really want",
+    "Yes, the Supreme Court can declare it unconstitutional",
+    "the Court can overturn jurisprudence if given cogent reasons to do so",
+    "the most effective way to safeguard the public treasury is public vigilance, armed with a pro-people Freedom of Information (FOI) Law",
+    "the President and those who assist him must be free to explore alternatives in the process of shaping policies",
+    "internal deliberations of the Supreme Court and other collegiate courts are privileged. If exposed to the public, the justices would be hindered in finding novel solutions to sensitive cases",
+    "The current scandal involving the pork barrel should be enough reason to hasten its passage into law"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Sen. Francis Escudero (Senate-committee-hearing quote)",
+      "Reader Perry Libre (results-based-budgeting proposal)",
+      "Budget Sec Florencio 'Butch' Abad"
+    ],
+    "institutions": [
+      "Supreme Court",
+      "Congress",
+      "Malacañang (executive)",
+      "Senate (committee hearing)",
+      "Department of Budget and Management (DBM)",
+      "Office of the President",
+      "Cabinet (Senate v. Ermita context)",
+      "Philippine Daily Inquirer (Sept 7 editorial)"
+    ],
+    "cases": [
+      "Senate v. Ermita (April 20 2006) -- executive-privilege landmark, overturned EO banning Cabinet appearance at Senate investigations",
+      "Almonte v. Vasquez (May 23 1995) -- presidential conversations/correspondences confidentiality"
+    ],
+    "laws_treaties": [
+      "Constitution -- separation of powers + checks-and-balances framework",
+      "Pending FOI bill",
+      "Pork-barrel-deodorizing rename sequence -- Countryside Development Fund → PDAF"
+    ],
+    "events": [
+      "SC TRO on PDAF releases for rest of 2013",
+      "Senate committee hearing where Escudero made his quote",
+      "Reader Perry Libre's letter on results-based budgeting"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "On its face, the pork barrel system appears democratic -- supposed to allocate funds equally to every congressional district for the residents' urgent needs -- but in actual implementation, safeguards (public bidding for NGOs, staggered releases, negotiated procurement bonds) were circumvented or ignored, and billions rolled into private pockets.",
+      "rhetorical_move": "face-of-democracy-but-actual-corruption framing",
+      "confidence": "asserted as descriptive history"
+    },
+    {
+      "claim": "The solution is going back to the basic system of checks and balances -- Congress enacts, executive agencies spend (subject to congressional safeguards), judiciary decides conflicts. Members of Congress should be stripped of their prerogative to direct or allocate funds.",
+      "rhetorical_move": "back-to-basics constitutional-structure prescription",
+      "confidence": "asserted as constitutional-order restoration"
+    },
+    {
+      "claim": "How do we return to this basic system? Congress should legislate out pork -- but this is not easy because legislators would be acting against their interest. Reader Perry Libre proposes adopting 'results-based' budgeting to replace the antiquated 'line-budgeting' system. The Supreme Court can also declare pork unconstitutional -- petitions have been filed, and though they run counter to a long line of cases upholding validity, the Court can overturn jurisprudence if given cogent reasons; it has already issued a TRO on PDAF releases for the rest of 2013.",
+      "rhetorical_move": "two-path framework (legislative + judicial) with self-interest-acknowledged obstacle",
+      "confidence": "asserted as policy paths"
+    },
+    {
+      "claim": "Even if pork is abolished, the public treasury still needs safeguarding when executive agencies dispense public funds (including presidential discretionary and social funds). At least here, legislators -- instead of gorging on public money -- would be safeguarding it via oversight functions and legislative investigations. But the most effective way to safeguard the public treasury is public vigilance, armed with a pro-people Freedom of Information (FOI) Law.",
+      "rhetorical_move": "beyond-pork-treasury-still-vulnerable + FOI-as-most-effective-safeguard",
+      "confidence": "asserted as policy-priority"
+    },
+    {
+      "claim": "Opposition to the pending FOI bill cites need for confidentiality in some matters -- there is no dispute on the need for exceptions. Senate v. Ermita (April 20 2006) and Almonte v. Vasquez (May 23 1995) already establish executive privilege for military/diplomatic secrets and the President's conversations/correspondences; internal deliberations of the SC and other collegiate courts are similarly privileged. But the exceptions should not delay enactment -- the current pork-barrel scandal should be enough reason to hasten passage into law.",
+      "rhetorical_move": "exceptions-already-jurisprudentially-handled + scandal-as-passage-justification",
+      "confidence": "asserted as FOI advocacy"
+    }
+  ],
+  "notable_anecdotes": [
+    "Sen. Francis Escudero's exasperated Senate-committee-hearing outburst -- 'ghost deliveries, fake receipts, NGOs that you can't locate, and nonexistent suppliers' -- among the most quoted senator-quotes from the early-PDAF-scandal phase, captured here verbatim.",
+    "The deodorizing-rename historical sequence -- pork barrel → Countryside Development Fund → Priority Development Assistance Fund -- a wry account of how successive names tried (and failed) to launder the same scheme.",
+    "Reader Perry Libre's results-based-budgeting proposal forwarded to Budget Sec Butch Abad -- among the rare instances of CJP relaying a reader letter directly to a sitting Cabinet secretary, an interactive-column-as-policy-conduit moment.",
+    "The Senate v. Ermita + Almonte v. Vasquez paired executive-privilege citations -- used not to defend secrecy but to disarm the confidentiality objection to FOI by showing exceptions are already jurisprudentially handled.",
+    "The internal-deliberations-of-collegiate-courts privilege parenthetical -- CJP's gentle insider note that the justices would be hindered in finding novel solutions to sensitive cases if their deliberations were exposed, applying the same privilege logic to his own former institution.",
+    "The 'legislators acting against their interest' realism -- CJP's acknowledgement that the legislative path is not easy because pork is what legislators 'really want', a candid political-realism aside."
+  ],
+  "target_audience": [
+    "Inquirer general readership in early-PDAF-scandal phase",
+    "Congress (House + Senate) -- target of the legislate-out-pork prescription",
+    "Supreme Court justices (TRO-already-issued context)",
+    "Budget Sec Butch Abad (Perry Libre proposal recipient)",
+    "FOI-bill advocates",
+    "Civic-minded Filipinos pondering pork-barrel constitutional remedies",
+    "Constitutional law scholars (Senate v. Ermita + Almonte v. Vasquez citation context)"
+  ],
+  "register_markers": [
+    "On its face descriptive-opening register",
+    "True, the main job of legislators concession-pivot register",
+    "Over the decades, efforts have been made to deodorize the pork barrel sardonic-history register",
+    "However, in the actual implementation pivoting register",
+    "Checks and balances section header",
+    "In short, the solution is not really complicated stripped-of-complexity register",
+    "How do we return to this basic system? rhetorical-question",
+    "Is there any other way? rhetorical-question pivot",
+    "Safeguarding the treasury section header",
+    "But the most effective way... emphasis pivot",
+    "In sum closing register"
+  ],
+  "decision_framework_signals": [
+    "uses face-of-democracy-but-actual-corruption framing for pork barrel diagnosis",
+    "applies basic-checks-and-balances structural-restoration as primary remedy",
+    "deploys two-path framework -- Congress-legislate-out + SC-declare-unconstitutional",
+    "acknowledges legislators-acting-against-their-interest realism",
+    "uses jurisprudence-can-be-overturned + cogent-reasons standard for SC pivot",
+    "applies beyond-pork-treasury-still-vulnerable + FOI-as-most-effective-safeguard meta-framework",
+    "deploys exceptions-already-jurisprudentially-handled (Senate v. Ermita + Almonte v. Vasquez + SC-internal-deliberations) to disarm FOI confidentiality objection",
+    "closes with scandal-as-passage-justification urgency framing"
+  ],
+  "one_paragraph_summary": "Panganiban delivers the second installment of his pork-abolition doctrinal series. On its face, the pork barrel system appears to be a democratic way of apportioning government resources -- inherited from the United States, supposed to allocate funds equally to every congressional district for residents' most urgent needs. The theory: legislators, while their main job is to enact laws not build roads/schoolhouses/clinics/feed orphans/grant scholarships/distribute fertilizers, can on the side serve constituents better by directing government resources to their communities' urgent needs. Over the decades, efforts have been made to deodorize the pork barrel -- renamed Countryside Development Fund, then Priority Development Assistance Fund. Safeguards were instituted (public bidding when implemented by NGOs, staggered releases based on deliveries/performance, posting of bonds for negotiated procurements) -- but in actual implementation all were circumvented or ignored. As Sen. Francis Escudero blurted out after a Senate committee hearing, PDAF was riddled with 'ghost deliveries, fake receipts, NGOs that you can't locate, and nonexistent suppliers'; billions rolled into private pockets. The solution is going back to basic checks and balances -- strip Congress of the prerogative to direct or allocate funds; let executive agencies spend (subject to congressional safeguards); let the judiciary decide conflicts. How to return? Congress should legislate out pork -- not easy because legislators would be acting against their interest. Reader Perry Libre's letter proposes adopting results-based budgeting (CJP will forward to Butch Abad). Alternatively, the Supreme Court can declare pork unconstitutional; petitions have been filed, running counter to a long line of cases (per Sept 7 Inquirer editorial) upholding validity, but the Court can overturn jurisprudence if given cogent reasons -- and has already issued a TRO on PDAF releases for the rest of 2013. Even if pork is abolished, the treasury still needs safeguarding when executive agencies dispense public funds; legislators would be safeguarding via oversight functions and legislative investigations. But the most effective safeguard is public vigilance armed with a pro-people FOI Law. The opposition cites need for confidentiality -- but exceptions are already jurisprudentially handled: Senate v. Ermita (April 20 2006) overturned an EO banning Cabinet secretaries from Senate investigation, while extending executive privilege to military/diplomatic secrets and presidential conversations/correspondences (citing Almonte v. Vasquez, May 23 1995, that 'the President and those who assist him must be free to explore alternatives in the process of shaping policies'); similarly, SC and collegiate-court internal deliberations are privileged. The exceptions should not delay enactment -- the current pork-barrel scandal should be enough reason to hasten passage into law.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

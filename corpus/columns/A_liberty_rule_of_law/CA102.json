@@ -1,0 +1,164 @@
+{
+  "id": "CA102",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 102,
+  "title": "How to read the Constitution and the laws",
+  "date": "2023-07-17",
+  "link": "https://opinion.inquirer.net/164802/how-to-read-the-constitution-and-the-laws",
+  "keywords": [
+    "statutory construction",
+    "verba legis",
+    "ratio legis",
+    "Maharlika Investment Fund",
+    "Republic v. Manalo",
+    "Salvacion v. Central Bank",
+    "Civil Code Article 10"
+  ],
+  "primary_topics": [
+    "Reader-prompted introduction to statutory construction triggered by the Maharlika Investment Fund (MIF) law",
+    "Verba legis (plain meaning rule) -- Republic v. Manalo as primary illustration",
+    "Ratio legis et anima (reason/spirit of the law) -- Salvacion v. Central Bank as illustration",
+    "Civil Code Article 10 as CJ's personal interpretive lodestar ('right and justice to prevail')",
+    "Endorsement of Prof. Ricardo M. Pilares III's revised 'Statutory Construction: Concept and Cases'"
+  ],
+  "sub_topics": [
+    "Pilares as Ateneo law valedictorian and 2006 bar second placer",
+    "Plain-meaning rule: lawmakers presumed to know words, used advisedly, intent gleaned from what is said, not what they may have intended to say",
+    "Interpretation resorted to only when literal meaning would be 'impossible, absurd or would lead to injustice'",
+    "Republic v. Manalo (April 24, 2018): Filipino wife's foreign divorce -- Article 26(2) Family Code allows her to remarry; statute doesn't distinguish petitioner vs respondent in foreign divorce",
+    "Court even discussed arguendo ambiguity in 'obtained' -- would have construed consistent with intent against the absurd unequal-remarriage result",
+    "Ratio legis et anima: 'the reason of the law is the soul of the law'",
+    "League of Cities v. Comelec (Dec. 21, 2009): 'A statute must be read according to its spirit or intent, for what is within the spirit is within the statute although it is not within its letter'",
+    "Naval v. Comelec (July 8, 2014): 'Effect will be given the real intention even though contrary to the letter of the law'",
+    "Salvacion v. Central Bank (Aug. 21, 1997): minor rape victim's separate civil suit for damages -- bank invoked RA 6426 dollar-deposit attachment exemption -- Court ignored letter of law to release the perpetrator's dollar deposits",
+    "RA 6426 context: enacted 1983 'when the economy was in a shamble' to incentivize foreign deposits -- original intent good, but produced 'outright injustice and inequality' in this case",
+    "Civil Code Article 10: 'In case of doubt ... it is presumed that the lawmaking body intended right and justice to prevail'",
+    "CJ's personal practice: decided cases 'pursuant to my firm belief, after prayer and reflection, to achieve right and justice'",
+    "Closing: agrees with both Manalo (verba legis) and Salvacion (ratio legis) because each produced right and justice"
+  ],
+  "signature_phrases": [
+    "The question seems simple but there is no simple answer",
+    "Ricardo M. Pilares III, a young professor, Ateneo law valedictorian, and second placer in the 2006 bar exams",
+    "verba legis or the plain meaning rule",
+    "the intent of the authors is gleaned from what is said, not from what they may have intended to say",
+    "impossible, absurd or would lead to injustice",
+    "the absurd situation where the alien spouse is capacitated to remarry while the Filipino spouse is not allowed to remarry",
+    "Ratio legis et anima",
+    "the reason of the law is the soul of the law",
+    "what is within the spirit is within the statute although it is not within its letter",
+    "Effect will be given the real intention even though contrary to the letter of the law",
+    "the economy was in a shamble",
+    "outright injustice and inequality",
+    "INAPPLICABLE",
+    "right and justice to prevail",
+    "after prayer and reflection",
+    "the Court nonetheless rendered 'right and justice' in both cases"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Ricardo M. Pilares III (Ateneo law valedictorian, 2006 bar second placer)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Bangko Sentral ng Pilipinas (then Central Bank)",
+      "Ateneo Law School (Pilares's alma mater)"
+    ],
+    "cases": [
+      "Republic v. Manalo (April 24, 2018)",
+      "League of Cities v. Comelec (Dec. 21, 2009)",
+      "Naval v. Comelec (July 8, 2014)",
+      "Salvacion v. Central Bank (Aug. 21, 1997)"
+    ],
+    "laws_treaties": [
+      "Maharlika Investment Fund (MIF) Law",
+      "Family Code, Article 26(2)",
+      "Republic Act No. 6426 (Foreign Currency Deposit Act)",
+      "Civil Code, Article 10 (right and justice to prevail)"
+    ],
+    "events": [
+      "Passage of the Maharlika Investment Fund law (the prompting context)",
+      "Pilares's revised edition of 'Statutory Construction: Concept and Cases'"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The basic principle of statutory construction is to find the meaning intended by the framers and apply it to the facts -- via either verba legis or ratio legis, and 'the question seems simple but there is no simple answer.'",
+      "rhetorical_move": "frame-setting (acknowledging the simplicity of the question and the complexity of the answer)",
+      "confidence": "asserted as foundational rule"
+    },
+    {
+      "claim": "Under verba legis (plain meaning), if a statute is clear, plain, and free from ambiguity, it must be accorded its literal meaning without other rules of interpretation -- interpretation is resorted to only when the literal meaning would be 'impossible, absurd or would lead to injustice.'",
+      "rhetorical_move": "rule-statement with exception (verba legis as default with absurdity-injustice escape)",
+      "confidence": "asserted as SC doctrine"
+    },
+    {
+      "claim": "Republic v. Manalo (April 24, 2018) illustrates plain meaning: the Filipino wife may also remarry after a valid foreign divorce, because Article 26(2) Family Code 'does not distinguish whether the Filipino spouse is the petitioner or the respondent in the foreign divorce proceeding' -- and even assuming arguendo ambiguity in 'obtained,' the Court would have construed it consistently with intent to avoid 'the absurd situation' of unequal remarriage capacity.",
+      "rhetorical_move": "verba-legis-plus-arguendo illustration (the Court covered both rules)",
+      "confidence": "asserted with case-illustration"
+    },
+    {
+      "claim": "Under ratio legis et anima, 'a statute must be read according to its spirit or intent, for what is within the spirit is within the statute although it is not within its letter' (League of Cities v. Comelec, Dec. 21, 2009; Naval v. Comelec, July 8, 2014: 'Effect will be given the real intention even though contrary to the letter of the law').",
+      "rhetorical_move": "rule-statement via paired SC dicta",
+      "confidence": "asserted with twin citations"
+    },
+    {
+      "claim": "Salvacion v. Central Bank (Aug. 21, 1997) illustrates ratio legis: the Court ignored RA 6426's letter (which exempted dollar deposits from attachment to encourage foreign-currency inflows during the 1983 'shamble' economy) and ordered the perpetrator's dollar account released to a Filipino minor rape victim's family -- because the literal application produced 'outright injustice and inequality.'",
+      "rhetorical_move": "ratio-legis illustration with named case and historical context",
+      "confidence": "asserted with case-and-context"
+    },
+    {
+      "claim": "Civil Code Article 10 is CJ's personal lodestar -- 'In case of doubt ... it is presumed that the lawmaking body intended right and justice to prevail' -- and he decided cases as a sitting jurist 'pursuant to my firm belief, after prayer and reflection, to achieve right and justice.'",
+      "rhetorical_move": "personal-jurisprudential-disclosure framing",
+      "confidence": "asserted as personal practice"
+    },
+    {
+      "claim": "Manalo (verba legis) and Salvacion (ratio legis) are both correct because each produced right and justice -- the two methods are not in opposition, but tools that converge when applied properly.",
+      "rhetorical_move": "harmonization framing (both methods serve the same end)",
+      "confidence": "asserted as personal endorsement"
+    }
+  ],
+  "notable_anecdotes": [
+    "Pilares introduced with his credentials in one sentence ('Ateneo law valedictorian, and second placer in the 2006 bar exams') -- endorsing the book and the author simultaneously.",
+    "Republic v. Manalo: Filipino wife secured valid foreign divorce that capacitated the foreigner husband to remarry -- but the SC held she too could remarry under Article 26(2), refusing to read 'INITIATED' into the statute.",
+    "League of Cities v. Comelec quote so circumlocutorily framed that CJ challenges readers to 'reread that quote from the Court and see whether you can figure it out' -- a rare gentle critique of SC prose.",
+    "Salvacion v. Central Bank facts: Filipino minor detained and raped by an American tourist who escaped to flee the country, indefinite delay of criminal case, family files separate civil suit for damages -- the bank invoked RA 6426's attachment exemption -- Court ignored the statute's letter and released the dollar deposits 'in anguish' to the victim.",
+    "RA 6426's 1983 enactment context: 'the economy was in a shamble' and needed foreign-currency-deposit incentives -- Court conceded 'the intention of the questioned law may have been good' but 'failed to anticipate the iniquitous effects.'",
+    "Personal disclosure: 'When I was an incumbent, I leaned on Article 10 of the Civil Code ... I decided on cases pursuant to my firm belief, after prayer and reflection, to achieve right and justice' -- embedding faith into juridical practice.",
+    "Closing harmonization: both Manalo (plain meaning) and Salvacion (spirit) are correct because each produced right and justice -- the methods are tools, the standard is right-and-justice."
+  ],
+  "target_audience": [
+    "Senators and readers asking about the Maharlika Investment Fund law (the explicit prompting audience)",
+    "Law students and bar reviewees",
+    "Lawyers and judges",
+    "Civic-minded citizens reading laws",
+    "Pilares's book audience (overlap)",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "Reader-prompted opener ('Many senators and readers ask...')",
+    "Concession of complexity ('The question seems simple but there is no simple answer')",
+    "Endorsement-of-textbook embedded ('a young professor, Ateneo law valedictorian, and second placer')",
+    "Latin doctrinal vocabulary (verba legis, ratio legis et anima)",
+    "ALL-CAPS pivot openings ('ANYWAY,' 'WHICH BRINGS US TO THE SECOND RULE,' 'BUT NOW, WE ARE BACK TO THE ORIGINAL QUESTION')",
+    "Direct case-text quotation with attribution and parenthetical dates",
+    "Mild critique of judicial prose ('explained rather circumlocutorily,' 'see whether you can figure it out')",
+    "Caps-in-original markings ('INITIATED (caps supplied)', 'INAPPLICABLE,' 'RELEASE (caps in original)')",
+    "Personal-jurisprudential-disclosure register ('When I was an incumbent...,' 'after prayer and reflection')",
+    "Harmonization closer (both methods produced right and justice)"
+  ],
+  "decision_framework_signals": [
+    "uses verba-legis-as-default with absurdity-injustice-escape rule for statutory interpretation",
+    "applies ratio-legis-et-anima as alternative method when literal meaning produces injustice",
+    "uses Civil Code Article 10 ('right and justice to prevail') as ultimate interpretive lodestar",
+    "treats personal faith ('prayer and reflection') as legitimate input to jurisprudential decision-making",
+    "applies harmonization framing (verba legis and ratio legis are tools toward the same end)",
+    "uses absurdity-result test (Manalo's unequal-remarriage scenario) to override literal reading",
+    "uses original-intent-good-but-anticipated-result-bad analysis (Salvacion / RA 6426) to override literal exemption"
+  ],
+  "one_paragraph_summary": "Prompted by senators and readers asking how the newly-passed Maharlika Investment Fund (MIF) law should be read -- 'according to the language used or according to the intents of the authors?' -- Panganiban opens with the concession that 'the question seems simple but there is no simple answer,' and endorses Prof. Ricardo M. Pilares III's revised 'Statutory Construction: Concept and Cases' (Ateneo law valedictorian, 2006 bar second placer) as a layman-accessible guide. The basic principle, agreed with Pilares, is to find the meaning intended by the framers and apply it via verba legis (plain meaning) or ratio legis (spirit/reason). Under verba legis, lawmakers are 'presumed to know the meaning of the words, to have used such words advisedly, and to have expressed their intent by the use of such words as are found in the statute,' with interpretation resorted to only when the literal meaning would be 'impossible, absurd or would lead to injustice' -- illustrated by Republic v. Manalo (April 24, 2018), where a Filipino wife whose foreign husband secured a valid divorce was held capacitated to remarry under Article 26(2) Family Code because the statute does not distinguish petitioner from respondent, the Court even noting arguendo that any ambiguity in 'obtained' would be construed against the 'absurd situation' of unequal remarriage. The second rule, ratio legis et anima ('the reason of the law is the soul of the law'), was illustrated in League of Cities v. Comelec (Dec. 21, 2009) -- 'what is within the spirit is within the statute although it is not within its letter' -- and Naval v. Comelec (July 8, 2014) -- 'effect will be given the real intention even though contrary to the letter of the law' -- and dramatized in Salvacion v. Central Bank (Aug. 21, 1997), where the Court ignored RA 6426's letter (which had exempted dollar deposits from attachment to incentivize foreign-currency inflows when the 1983 economy was 'in a shamble') and ordered the release of an escaped American tourist's dollar deposits to a Filipino minor rape victim's family because literal application produced 'outright injustice and inequality.' CJ closes with his own interpretive lodestar -- Civil Code Article 10, 'In case of doubt ... it is presumed that the lawmaking body intended right and justice to prevail' -- which he applied as an incumbent justice 'after prayer and reflection,' and finds both Manalo (verba legis) and Salvacion (ratio legis) correct because each produced right and justice.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

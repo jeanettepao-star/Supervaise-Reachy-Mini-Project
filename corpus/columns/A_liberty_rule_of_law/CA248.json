@@ -1,0 +1,138 @@
+{
+  "id": "CA248",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 248,
+  "title": "Confronting SC's mounting backlog",
+  "date": "2019-04-07",
+  "link": "https://opinion.inquirer.net/120612/confronting-scs-mounting-backlog",
+  "keywords": [
+    "Supreme Court docket congestion",
+    "Gio-Samar v. DOTC",
+    "Operation Zero Backlog",
+    "ASEAN Law Institute",
+    "hierarchy of courts"
+  ],
+  "primary_topics": [
+    "SC backlog has doubled from ~6,000 (CJ's term) to 14,491 cases (Dec 31, 2016)",
+    "Gio-Samar v. DOTC (March 12, 2019) -- Court's candid admission of staggering numbers",
+    "Suggested reform: outright rejection of facially unmeritorious appeals",
+    "Comparison with US Supreme Court's filtering (6,305 filings, 61 signed decisions)",
+    "ASEAN Law Institute launch on April 13, 2019"
+  ],
+  "sub_topics": [
+    "SC en banc admission: 6,526 new cases + reinstated/revived → 14,491 docket as of Dec 31, 2016",
+    "Court En Banc disposed of 105 cases; Divisions disposed of 923 (by decision or signed resolution)",
+    "Unsigned resolutions not counted in those numbers",
+    "14,491 cases average 966 per justice across 15 justices",
+    "Accumulation outpaces disposal (6,526 new vs 1,028 disposed)",
+    "Court's hierarchy-of-courts warning to bench and bar",
+    "US SC 2016 comparison: 6,305 filings, ~6,000 thrown out facially, less than 100 given due course, 61 signed decisions, NO backlog",
+    "Operation Zero Backlog during CJ's term -- judicial 'bayanihan'",
+    "Discontinuation of Operation Zero Backlog after CJ retired",
+    "ASEAN Law Institute launch (April 13, 2019, New World Hotel Makati) by FA Secretary Locsin Jr.",
+    "Singapore CJ Sundaresh Menon as ALA president",
+    "CJ Bersamin, ES Medialdea, Amb. Cruz, CJ Panganiban participation",
+    "ALA Philippine Chapter board composition (Carpio, Perlas-Bernabe, Aquino, Lim, Cruz, Concepcion, De Leon, Parulan, Geraldez, Drilon)"
+  ],
+  "signature_phrases": [
+    "These, clearly, are staggering numbers",
+    "the situation is far worse than I calculated",
+    "During my term as CJ, the Court had about 6,000 cases and we were already struggling to cope",
+    "the really bad news",
+    "the good news, however, is that the Court is trying its best",
+    "may I suggest that the Court reject outright all appeals which, on their face, are obviously unmeritorious",
+    "Operation Zero Backlog",
+    "judicial 'bayanihan'",
+    "yours truly as chair of the ALA Philippine Chapter"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, ALA Philippine Chapter chair)",
+      "Justice Francis H. Jardeleza (ponente, Gio-Samar)",
+      "Justice Marvic M.V.F. Leonen (concurring)",
+      "Senior Justice Antonio T. Carpio (joined Leonen's concurrence)",
+      "Foreign Affairs Secretary Teodoro Locsin Jr.",
+      "Singapore CJ Sundaresh Menon (ALA president)",
+      "CJ Lucas P. Bersamin (ALA honorary chair)",
+      "Executive Secretary Salvador C. Medialdea",
+      "Ambassador Avelino V. Cruz",
+      "Justice Estela M. Perlas-Bernabe",
+      "SEC Chair Emilio B. Aquino",
+      "Pagcor President Alfredo C. Lim",
+      "UP President Danilo C. Concepcion",
+      "Retired CA Justice Magdangal M. De Leon",
+      "Lawyer Jerry Z. Parulan",
+      "Lawyer Regina P. Geraldez",
+      "Senator Franklin M. Drilon"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "US Supreme Court (comparison benchmark)",
+      "Asean Law Association (ALA)",
+      "Asean Law Institute (newly created)",
+      "ALA Philippine National Committee",
+      "Asean (10 member-countries)"
+    ],
+    "cases": [
+      "Gio-Samar v. DOTC (March 12, 2019, J Jardeleza) -- Court's candid admission of 14,491-case docket"
+    ],
+    "laws_treaties": [],
+    "events": [
+      "Dec 31, 2016 -- SC's measured docket date (14,491 cases)",
+      "Operation Zero Backlog (CJ Panganiban's term)",
+      "April 12, 2019 -- CJ Menon's courtesy call to CJ Panganiban's Makati home",
+      "April 13, 2019 -- ASEAN Law Institute launch at New World Hotel Makati"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The SC's docket congestion has more than doubled from ~6,000 cases during CJ Panganiban's term to 14,491 cases by Dec 31, 2016, with new filings (6,526) outpacing disposals (1,028) -- meaning the backlog is structurally getting worse, not improving.",
+      "rhetorical_move": "comparative-historical-statistics (using CJ's own institutional memory as the prior benchmark)",
+      "confidence": "asserted with self-citation"
+    },
+    {
+      "claim": "The Court should reject outright all appeals which on their face are obviously unmeritorious -- following the US Supreme Court model where ~6,000 of 6,305 filings are facially dismissed, leaving only ~61 signed decisions per year and producing NO backlog.",
+      "rhetorical_move": "best-practice-import argument (US SC efficiency as benchmark)",
+      "confidence": "asserted as humble suggestion"
+    },
+    {
+      "claim": "Operation Zero Backlog -- the judicial 'bayanihan' during CJ Panganiban's term where justices with light caseloads voluntarily took surrendered old cases from a pool -- was a workable institutional mechanism that should be revived; its discontinuation after CJ retired was an inexplicable institutional regression.",
+      "rhetorical_move": "self-citation of prior institutional success + lament-of-discontinuation",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ Menon and his delegation of 11 Singapore justices and lawyers honoring CJ Panganiban's household with a courtesy call at his Makati home on April 12, 2019 -- a rare personal-hospitality detail that anchors the ASEAN Law Institute launch in face-to-face diplomatic ritual.",
+    "CJ's discovery of the 14,491 figure not from any internal SC memo but from reading 'its recent decision in Gio-Samar v. DOTC' -- meaning the Court's institutional self-awareness has become a matter of public-record candor rather than confidential management.",
+    "The naming of 'Operation Zero Backlog' as 'a kind of judicial bayanihan' -- applying the Filipino communal-labor concept to inter-justice case redistribution, a uniquely PH institutional metaphor for collegial court management."
+  ],
+  "target_audience": [
+    "Sitting SC justices and CA justices",
+    "Legal academics and reform advocates",
+    "Practicing lawyers concerned about appellate delay",
+    "ASEAN regional legal community",
+    "Civic-minded readers of judicial reform commentary"
+  ],
+  "register_markers": [
+    "self-citation register (using own CJ tenure as historical benchmark)",
+    "statistical-comparative analysis (US vs PH SC throughput)",
+    "'may I suggest' / 'I will write' as deferential opening for reform proposals",
+    "explicit good-news/bad-news structuring",
+    "dual-purpose column (analytical + announcement of ASEAN event)",
+    "'yours truly as chair' self-reference",
+    "Filipino-concept import ('bayanihan') applied to judicial process",
+    "alphabetical roster of event participants in closing section"
+  ],
+  "decision_framework_signals": [
+    "uses comparative-jurisdiction benchmarking (US SC efficiency) as analytical lens for PH reform",
+    "treats facial-merit screening as the primary lever for docket compression",
+    "applies institutional-memory argument (Operation Zero Backlog) to recommend reviving discontinued practices",
+    "frames docket statistics as accumulation-vs-disposal rate problem rather than absolute volume problem",
+    "anchors ASEAN regional integration in CJ's institutional roles (ALA Philippine Chapter chair)"
+  ],
+  "one_paragraph_summary": "Panganiban discloses the Supreme Court's own candid admission in Gio-Samar v. DOTC (March 12, 2019, ponente Justice Jardeleza) that as of December 31, 2016, the Court held 14,491 cases in its docket -- more than double the ~6,000 cases during his own CJ tenure -- with new filings of 6,526 outpacing the year's 1,028 disposals by decision or signed resolution. Each of the 15 justices averages 966 pending cases. He suggests the Court adopt the US Supreme Court's model of rejecting facially unmeritorious appeals outright (the US SC threw out ~6,000 of 6,305 filings in 2016 and issued only 61 signed decisions, eliminating its backlog), and calls for the revival of his own term's discontinued 'Operation Zero Backlog' -- a judicial bayanihan in which justices with light caseloads voluntarily took surrendered old cases from a pool. The column doubles as an announcement of the ASEAN Law Institute launch on April 13, 2019, at the New World Hotel Makati, hosted by FA Secretary Locsin Jr. with Singapore CJ Sundaresh Menon (ALA president), CJ Bersamin, ES Medialdea, and CJ Panganiban as ALA Philippine Chapter chair, preceded by Menon's April 12 courtesy call at CJ's Makati home.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

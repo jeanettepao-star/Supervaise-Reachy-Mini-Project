@@ -1,0 +1,109 @@
+{
+  "id": "CA507",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 507,
+  "title": "Standards of proof",
+  "date": "2012-03-03",
+  "link": "https://opinion.inquirer.net/24229/standards-of-proof",
+  "keywords": [
+    "impeachment standard of proof national interest",
+    "beyond reasonable doubt preponderance substantial evidence",
+    "senators alter egos political truth",
+    "Senate sole power try decide",
+    "non-lawyer senators standard"
+  ],
+  "primary_topics": [
+    "Survey of proof standards across disciplines and why none binds impeachment",
+    "The Senate's sole power to choose its own standard of proof",
+    "National interest as the ultimate impeachment standard"
+  ],
+  "sub_topics": [
+    "Criminal standard: proof beyond reasonable doubt -- moral certainty after examining entire record",
+    "Civil standard: preponderance of evidence -- greater weight; probability of truth",
+    "Administrative standard: substantial evidence -- adequate to justify a reasonable conclusion",
+    "Impeachment standard: not judicial because not lodged in a judicial tribunal",
+    "Non-lawyers in Senate disadvantaged by insisting on judicial standards",
+    "Laboratory standard: repeatable under same conditions",
+    "Sensory standard: 'To see is to believe'",
+    "Faith standard: 'To believe is to see'",
+    "Historical standard: hearsay rules limit what can be proven about Rizal, Bonifacio, Magellan",
+    "Senate's unique political standard: senators as people's alter egos",
+    "Constitution gives Senate sole power to decide including ancillary authority to set standards",
+    "Even respondent Corona concedes impeachment is 'admittedly political in character'",
+    "Ultimate standard: national interest -- will the nation be better served by ousting or retaining?",
+    "Senators -- not lawyers -- are experts on national interest"
+  ],
+  "signature_phrases": [
+    "standards of proof",
+    "moral certainty of the culpability",
+    "probability of truth",
+    "adequate to justify a conclusion",
+    "To see is to believe",
+    "To believe is to see",
+    "political truth",
+    "sole power necessarily includes the ancillary authority",
+    "national interest",
+    "policy than by strict legality"
+  ],
+  "entities": {
+    "people": [
+      "Chief Justice Renato C. Corona",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Senate of the Philippines (impeachment court)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution (Senate sole power to try and decide impeachment)"
+    ],
+    "events": [
+      "Corona impeachment trial (2012)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Impeachment is not a judicial case and should not be decided according to judicial standards (beyond reasonable doubt, preponderance, or substantial evidence) -- to insist otherwise puts non-lawyer senators at an unconstitutional disadvantage.",
+      "rhetorical_move": "institutional-design argument",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Senate's sole power to try and decide necessarily includes the ancillary authority to set its own standard of proof -- even Corona's own answer concedes impeachment is 'admittedly political in character.'",
+      "rhetorical_move": "respondent's own admission used as supporting authority",
+      "confidence": "high"
+    },
+    {
+      "claim": "The ultimate impeachment standard is the national interest: will the nation be better served by ousting or retaining the impeached official? This is a policy, not legality, question -- and senators are the experts.",
+      "rhetorical_move": "national-interest standard as the prescriptive climax",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The faith standard: 'To believe is to see' -- miracles happen when the faithful start believing in the inexplicable -- contrasted with the sensory standard ('To see is to believe') and the laboratory standard.",
+    "The historical-standard irony: under strict hearsay rules, accounts of Rizal's heroism, Bonifacio's murder, and Magellan's landing cannot be 'proven' if written by non-experts who lacked personal knowledge.",
+    "Corona's own pleading conceding that impeachment is 'admittedly political in character' -- a strategic admission that undermines his own defense lawyers' reliance on strict judicial standards."
+  ],
+  "target_audience": [
+    "Senator-judges in the Corona trial",
+    "Non-lawyer senators puzzled by proof standards",
+    "Constitutional law scholars",
+    "Civic readership following the impeachment"
+  ],
+  "register_markers": [
+    "Multi-discipline survey structure",
+    "Faith/science/hearsay contrast",
+    "Respondent's own concession as anchor",
+    "National-interest prescription as closing"
+  ],
+  "decision_framework_signals": [
+    "Do not apply criminal, civil, or administrative proof standards to impeachment -- the Senate's sole power carries its own standard-setting authority",
+    "Apply the national-interest test: will ousting or retaining the official better serve the nation?",
+    "Treat senators as political experts on national interest, not as pseudo-jurists applying evidentiary rules"
+  ],
+  "one_paragraph_summary": "Panganiban surveys proof standards across disciplines -- beyond reasonable doubt (criminal), preponderance of evidence (civil), substantial evidence (administrative), laboratory reproducibility (scientific), sensory perception, faith, and hearsay rules of history -- to argue that none of them binds the Senate in an impeachment. Since the Constitution lodged impeachment in the Senate (not a judicial tribunal), and since even non-lawyers serve as senator-judges, insisting on judicial proof standards would be constitutionally inappropriate and disadvantageous. The Senate's sole power to try and decide necessarily includes the ancillary authority to set its own standard of proof -- a point even Corona's own answer concedes by calling impeachment 'admittedly political in character.' The author identifies the ultimate impeachment standard as the national interest: whether the nation will be better served by ousting or retaining the official. This is a policy question driven by political wisdom, not strict legality -- and senators, not lawyers, are its experts.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

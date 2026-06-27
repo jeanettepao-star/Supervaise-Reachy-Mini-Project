@@ -1,0 +1,161 @@
+{
+  "id": "CC021",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 21,
+  "title": "The pope of the peripheries to visit PH",
+  "date": "2025-05-19",
+  "link": "https://opinion.inquirer.net/183313/the-pope-of-the-peripheries-to-visit-ph",
+  "keywords": [
+    "Article 370 Civil Code",
+    "married women's names",
+    "Article 371 annulment surname",
+    "women in the legal profession",
+    "Japan name-change marriage"
+  ],
+  "primary_topics": [
+    "Naming rights of married women under PH Civil Code",
+    "Cultural and professional name choices",
+    "Demographic shift of women in the legal profession"
+  ],
+  "sub_topics": [
+    "Japan Kyodo News survey on common-law relationships",
+    "Sato and Suzuki as Japan's most common surnames",
+    "Civil Code Article 370 -- three naming options",
+    "Maiden-name and hyphenated surname practice",
+    "'Mrs.' as abbreviation of 'Mistress' grammatical note",
+    "Professional name retention for licenses, passports, drivers' licenses",
+    "Pen names and aliases (Kyla, Heart Evangelista, Coco Martin, etc.)",
+    "Widow's naming options and rules on remarriage",
+    "Civil Code Article 371 -- annulment and void marriages",
+    "Female representation across PH courts (trial, CTA, CA, Sandiganbayan)",
+    "13% female representation at the Supreme Court",
+    "J. Amy C. Lazaro-Javier's November 16, 2026 retirement",
+    "AI-generated 64-36 gender split in the legal profession",
+    "1960 bar reviewer's misogynist remark anecdote",
+    "Author's prediction of women outnumbering men in law"
+  ],
+  "signature_phrases": [
+    "Land of the Rising Sun",
+    "bastion of masculinity",
+    "Mrs. is the abbreviation of Mistress",
+    "What are not prohibited by the Constitution and the law... are allowed and may be availed of",
+    "guffaw from the men but grit and smirk from the women",
+    "make the men work harder, scrutinize details more closely, and prepare for trial more avidly"
+  ],
+  "entities": {
+    "people": [
+      "Chief Justice Alexander G. Gesmundo",
+      "Justice Amy C. Lazaro-Javier (retiring November 16, 2026)",
+      "Melanie Hernandez Calumpad-Alvarez (Kyla)",
+      "Love Marie Ongpauco (Heart Evangelista)",
+      "Sharon Magdayao (Vina Morales)",
+      "Erika Chryselle Gonzales Gancayco (Erich Gonzales)",
+      "Rodel Pacheco Nacianceno Jr. (Coco Martin)",
+      "Jose Sixto Gonzalez Dantes III (Dingdong Dantes)",
+      "Maria Evelyn Panganiban Reagan (author's youngest daughter)",
+      "Pete Reagan (son-in-law)",
+      "Joseph and Matthew Reagan (grandsons)",
+      "Evelyn Santos Camus Alcantara (cousin)",
+      "Boots Anson Roa Rodrigo (illustrative widow-remarriage name)",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Trial courts of the Philippines",
+      "Court of Tax Appeals (CTA)",
+      "Court of Appeals (CA)",
+      "Sandiganbayan",
+      "Kyodo News (Japan)",
+      "Inquirer (Philippine Daily Inquirer)",
+      "Civil Registry (implicit)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Civil Code of the Philippines, Article 370 (married woman's name options)",
+      "Civil Code of the Philippines, Article 371 (annulment and surname reversion)",
+      "Japanese law requiring shared surname for married couples"
+    ],
+    "events": [
+      "Kyodo News private survey (~30% of Japanese in common-law relationships avoid marriage to preserve names; 40% among 20-year-olds)",
+      "CJ Gesmundo's recent speech on women in the judiciary",
+      "Author's 1960 bar review class anecdote",
+      "J. Lazaro-Javier's scheduled retirement (November 16, 2026)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Japanese law requiring married couples to share a single surname is a 'bastion of masculinity' driving ~30% of common-law couples to avoid marriage, including 40% among 20-year-olds.",
+      "rhetorical_move": "comparative cultural framing",
+      "confidence": "medium"
+    },
+    {
+      "claim": "PH Civil Code Article 370 gives a married woman three name options; an informal hyphenated form is widely tolerated though not in the Code.",
+      "rhetorical_move": "doctrinal-practical exposition",
+      "confidence": "high"
+    },
+    {
+      "claim": "'Mrs. Maria Castillo' is grammatically inaccurate because 'Mrs.' is the abbreviation of 'Mistress' -- strictly, she is mistress of Juan, not of Maria; a parenthetical (Mrs.) would be more literally accurate, though usage now tolerates it.",
+      "rhetorical_move": "etymological pedantry softened by usage-tolerance concession",
+      "confidence": "high"
+    },
+    {
+      "claim": "Married women are traditionally allowed to continue using their maiden names, especially where professional licenses or public recognition were earned in the single name.",
+      "rhetorical_move": "professional-practice exception",
+      "confidence": "high"
+    },
+    {
+      "claim": "Under Article 371, the guilty party in an annulled or void marriage reverts to her single name; the innocent party retains options including her husband's surname unless the court decrees otherwise or remarriage intervenes.",
+      "rhetorical_move": "doctrinal summary",
+      "confidence": "high"
+    },
+    {
+      "claim": "Women already dominate trial courts (56%), the CTA (77%), the CA (45%), and the Sandiganbayan (35%), but comprise only 13% of the Supreme Court (2 of 15), shrinking further with J. Lazaro-Javier's November 16, 2026 retirement.",
+      "rhetorical_move": "data-grounded representation report",
+      "confidence": "high"
+    },
+    {
+      "claim": "Women soon outnumbering men in the legal profession is not a bad idea because it will push men to work harder, scrutinize details more closely, and prepare for trial more avidly.",
+      "rhetorical_move": "competitive-equality argument",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Author's youngest daughter Maria Evelyn Panganiban still uses her maiden name in the Philippines and in New York City where she, her husband Pete, and their two sons Joseph and Matthew live.",
+    "His cousin Evelyn Santos Camus Alcantara illustrating the widow's first-name + mother's surname + father's surname + deceased husband's name pattern.",
+    "Boots Anson Roa Rodrigo cited as the live example of a widow-then-remarried woman using first name + father's surname + first husband's surname + second husband's surname.",
+    "The 1960 bar reviewer (an incumbent judge) gazing at the fewer-than-10 ladies in a 100-student class and pontificating: 'What are you girls doing here? If you want a lawyer in your family, all you need to do is to marry one... You will be spared the rigors and difficulties of the bar exam' -- met by 'guffaw from the men but grit and smirk from the women.'",
+    "Celebrity name examples: Kyla (Melanie Hernandez Calumpad-Alvarez), Heart Evangelista (Love Marie Ongpauco), Vina Morales (Sharon Magdayao), Erich Gonzales (Erika Chryselle Gonzales Gancayco), Coco Martin (Rodel Pacheco Nacianceno Jr.), Dingdong Dantes (Jose Sixto Gonzalez Dantes III)."
+  ],
+  "target_audience": [
+    "Married, single, widowed, and annulled women navigating name choices",
+    "Professionals balancing maiden and married name for licenses",
+    "Family-law practitioners and civil registry officers",
+    "Law students and the gender-equity community",
+    "Civic readers interested in cross-cultural naming customs",
+    "Members of the bench and bar tracking female representation"
+  ],
+  "register_markers": [
+    "Informal personal anecdotes interspersed with code citations",
+    "Maria Santos / Juan Castillo as didactic hypothetical pair",
+    "Grammatical micro-analysis ('Mrs.' = Mistress)",
+    "Celebrity stage-name parade in parentheticals",
+    "First-person family disclosures (daughter, cousin)",
+    "Civil Code article-number citations",
+    "Comparative jurisdictional opening (Japan → Philippines)",
+    "Anecdotal close with strong feminist undertone"
+  ],
+  "decision_framework_signals": [
+    "Apply Article 370's three options as a menu, not a hierarchy -- none of the three is doctrinally preferred",
+    "Permit informal hyphenated surnames as customary practice even where not codified",
+    "Preserve maiden-name continuity where professional or public recognition was earned in it",
+    "Annulment outcome determines surname rights: guilty party reverts, innocent party retains options",
+    "Read 'what is not prohibited is allowed' as the operating principle for naming choices",
+    "Treat surname etymology (Mrs. = Mistress) as a minor pedantic flag tolerated by usage",
+    "Track judicial gender representation by court level -- measure progress and regression separately"
+  ],
+  "one_paragraph_summary": "Sparked by a Kyodo News item that nearly 30% of Japanese in common-law relationships avoid marriage to preserve their own or a partner's surname (40% among 20-year-olds), Panganiban surveys the names married women may use under the Civil Code of the Philippines. Article 370 offers three options -- maiden name + maiden surname + husband's surname (with a widely tolerated hyphenated form), maiden name + husband's surname, or husband's full name prefixed by 'Mrs.' -- paired with an etymological caveat that 'Mrs.' is the abbreviation of 'Mistress' so strictly 'Mrs. Maria Castillo' is inaccurate, though usage now tolerates it. Married women may also continue using their maiden names, especially where professional licenses, passports, or driver's licenses were earned in the single name; his own youngest daughter, Maria Evelyn Panganiban, still does. Performers may use pen names and aliases (Kyla, Heart Evangelista, Coco Martin, Dingdong Dantes). Widows may continue the married name, revert to the maiden name, or chain mother's-and-father's-and-deceased-husband's surnames (his cousin Evelyn Santos Camus Alcantara illustrates the pattern), and remarried widows may chain first and second husbands' surnames (Boots Anson Roa Rodrigo). Article 371 governs annulled and void marriages: the guilty party reverts to her single name; the innocent party may resume her single name or retain the husband's surname unless the court decrees otherwise or remarriage intervenes. Citing CJ Gesmundo's recent speech, he reports women make up 56% of trial judges, 77% of the CTA, 45% of the CA, and 35% of the Sandiganbayan, but only 13% (2 of 15) of the Supreme Court -- soon to drop further with J. Amy C. Lazaro-Javier's November 16, 2026 retirement. He closes with a 1960 bar-review-class anecdote in which the reviewer dismissed the fewer-than-10 ladies in a 100-student class -- 'guffaw from the men but grit and smirk from the women' -- and his prediction that women soon outnumbering men in the profession will make the men work harder, scrutinize more closely, and prepare for trial more avidly.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

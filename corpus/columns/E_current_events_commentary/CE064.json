@@ -1,0 +1,158 @@
+{
+  "id": "CE064",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 64,
+  "title": "Trump acquitted without trial",
+  "date": "2020-02-09",
+  "link": "https://opinion.inquirer.net/127259/trump-acquitted-without-trial",
+  "keywords": [
+    "Trump impeachment acquittal",
+    "Senate Republican-Democrat partisan vote",
+    "abuse of power high crimes and misdemeanors",
+    "betrayal of public trust comparison",
+    "Estrada Corona Philippine impeachment"
+  ],
+  "primary_topics": [
+    "Feb 5, 2020 US Senate partisan acquittal of President Donald Trump on both impeachment articles, without trial, without testimonial evidence, without documentary evidence",
+    "Vote breakdown: Article 1 (abuse of power, Ukraine aid) 52-48; Article 2 (obstruction of House investigation) 53-47; Romney's lone Republican defection on Article 1",
+    "Jan 31 evening 51-49 vote barring presentation of oral and testimonial evidence (Romney and Collins crossing over)",
+    "US Constitution's narrow impeachment grounds: 'treason, bribery, or other high crimes and misdemeanors' -- and the Republican textual argument that abuse of power is not a 'criminal act'",
+    "Historical context: in 250 years of the US Constitution, no president has ever been ousted by the Senate (Johnson 1868, Clinton 1999, Trump 2020 acquitted; Nixon resigned)",
+    "1987 Philippine Constitution's broader impeachment grounds -- including 'betrayal of public trust' -- and how this would have prevented the Trump-style 'abuse of power' dismissal",
+    "Philippine comparators: Joseph Estrada's truncated trial (Edsa II) and Renato Corona's full Senate trial and ouster",
+    "CJ's conclusion: the Philippine impeachment process, though sui generis, is fairer, more democratic, less partisan, and uses a higher 3/4 threshold (vs US 2/3)"
+  ],
+  "sub_topics": [
+    "Senate composition: 53 Republicans, 45 Democrats, 2 independents",
+    "All 53 Republicans voted to dismiss Article 2 (obstruction); all 45 Democrats + 2 independents to convict -- 53-47",
+    "Article 1 (abuse of power): all Democrats + 2 independents + Mitt Romney = 48 to convict; 52 to acquit",
+    "Romney crossed over on Article 1 only; Collins crossed over on the Jan 31 evidence-barring vote",
+    "Ceremonial Senate processes: (1) oath of 'impartial justice,' (2) listening to oral arguments, (3) written questions submitted to CJ John Roberts, (4) responses from managers and defense lawyers, (5) latitude for Democratic senators in questioning",
+    "Republican legal argument: 'abuse of power' and 'obstruction of the House' are not among the constitutional impeachment grounds ('treason, bribery, or other high crimes and misdemeanors')",
+    "Republican textual stance: to be ousted, a US president must have committed a 'criminal act'",
+    "Historical impeachment record: Andrew Jackson [Johnson] 1868, Bill Clinton 1999, Trump -- all acquitted by the Senate; Nixon resigned before vote",
+    "Philippine 1987 Charter grounds: 'culpable violation of the Constitution, treason, bribery, graft and corruption, other high crimes and betrayal of public trust'",
+    "Philippine impeachment removal threshold: more than 3/4 of Senate (vs US 2/3)",
+    "Joseph Estrada impeachment: 'betrayal of trust' (and SALN Law violation) partly used as grounds; Senate trial truncated by House prosecutors' walkout, precipitating Edsa II People Power Revolution",
+    "Renato Corona impeachment: multi-month Senate trial, no testimonial blockade; witnesses included Ombudsman Conchita Carpio Morales and Corona himself; convicted by more than 3/4 vote without 'unabashedly partisan' alignment"
+  ],
+  "signature_phrases": [
+    "In an unabashedly partisan vote",
+    "acquitted US President Donald Trump without trial, without hearing any testimony and without looking at any documentary evidence",
+    "After listening for several days to impassioned oral arguments",
+    "do impartial justice",
+    "the Republicans used their plainly numerical superiority to bar any testimonial or documentary evidence",
+    "this verbal legis or literal (as contradistinguished from liberal) interpretation",
+    "Aware of this literal exclusion",
+    "more encompassing grounds for impeachment",
+    "the Republican senators could not have dumped 'abuse of power' so easily even in a very partisan way",
+    "precipitating the Edsa II People Power Revolution",
+    "without any unabashedly partisan alignment",
+    "fairer, more democratic and less partisan than its US counterpart",
+    "the higher threshold of three-fourths, compared with only two-thirds in the United States"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Donald Trump (US President, acquitted)",
+      "Joe Biden (probable Democratic rival; Ukraine aid issue)",
+      "Mitt Romney (lone Republican defector on Article 1)",
+      "Susan Collins (Republican who joined Romney on Jan 31 evidence vote)",
+      "CJ John Roberts (presiding officer of US Senate trial)",
+      "Andrew Johnson (1868 impeached US president; CJ writes 'Andrew Jackson' -- likely typo for Johnson)",
+      "Bill Clinton (1999 impeached US president, acquitted)",
+      "Richard Nixon (resigned before House impeachment vote)",
+      "Joseph Estrada (former PH President, truncated impeachment trial)",
+      "Renato C. Corona (ousted CJ via Senate impeachment)",
+      "Conchita Carpio Morales (former Ombudsman, witness at Corona trial)"
+    ],
+    "institutions": [
+      "US Senate (100 members; 53 R, 45 D, 2 I)",
+      "US House of Representatives (235 D, 199 R, 1 I)",
+      "United States Supreme Court (CJ John Roberts as Senate-trial presiding officer)",
+      "Senate of the Philippines",
+      "Philippine House of Representatives",
+      "Office of the Ombudsman (Philippines)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "US Constitution -- impeachment grounds clause ('treason, bribery, or other high crimes and misdemeanors')",
+      "1987 Philippine Constitution -- impeachment grounds ('culpable violation of the Constitution, treason, bribery, graft and corruption, other high crimes and betrayal of public trust') and 3/4 Senate threshold",
+      "Statement of Assets, Liabilities, and Net Worth (SALN) Law -- partly used in Estrada and Corona impeachments"
+    ],
+    "events": [
+      "Feb 5, 2020 -- US Senate acquittal vote (52-48 and 53-47)",
+      "Jan 31, 2020 evening -- 51-49 US Senate vote barring testimonial/documentary evidence",
+      "Andrew Johnson 1868 House impeachment (Senate acquittal)",
+      "Bill Clinton 1999 House impeachment (Senate acquittal)",
+      "Trump's withholding of ~$400M in military aid to Ukraine",
+      "Edsa II People Power Revolution (precipitated by House prosecutors' walkout in Estrada trial)",
+      "Renato Corona's multi-month Senate trial and ouster (2012)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The US Senate's 52-48 and 53-47 acquittal of Donald Trump on Feb 5, 2020 was 'unabashedly partisan' -- conducted without trial, without testimonial evidence, and without documentary evidence -- and the preceding 51-49 vote on Jan 31 barring oral and testimonial evidence (with only Romney and Collins crossing over) made the partisan acquittal inevitable.",
+      "rhetorical_move": "vote-tabulation analysis exposing the partisan structure beneath the ceremonial processes",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Republican legal argument -- that 'abuse of power' and 'obstruction of the House' fall outside the US Constitution's enumerated grounds of 'treason, bribery, or other high crimes and misdemeanors' because they are not 'criminal acts' -- represents a verbal-legis / literal interpretation (as contradistinguished from a liberal one) that, applied for 250 years, explains why no US president has ever been ousted by the Senate.",
+      "rhetorical_move": "literal-vs-liberal interpretive characterization to frame the doctrinal source of Senate-trial outcomes",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The framers of the 1987 Philippine Constitution provided 'more encompassing' impeachment grounds -- including the catch-all 'betrayal of public trust' alongside 'culpable violation of the Constitution, treason, bribery, graft and corruption, other high crimes' -- precisely so that abuses of power could not be textually dumped the way Republicans dumped the Trump charges.",
+      "rhetorical_move": "Filipino-framers-anticipated-this-problem framing to credit the 1987 Charter's drafters",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Philippine impeachment record bears out the constitutional difference: Estrada's trial was truncated by House prosecutors' walkout (precipitating the Edsa II People Power Revolution), but the Corona impeachment proceeded for several months without testimonial blockade, included testimony from former Ombudsman Conchita Carpio Morales and Corona himself, and culminated in a more-than-three-fourths Senate vote 'without any unabashedly partisan alignment' -- making the Philippine process fairer, more democratic, and less partisan than its US counterpart.",
+      "rhetorical_move": "comparative case study (Estrada + Corona) as empirical evidence for the comparative-doctrine claim",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Beyond the broader grounds, the Philippine guilty-judgment threshold is more than three-fourths of the Senate, while the US threshold is only two-thirds -- a structural reinforcement that further raises the legitimacy bar for an ouster verdict.",
+      "rhetorical_move": "threshold-comparison reinforcement of the constitutional-fairness claim",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The five ceremonial Senate processes that produced no substantive trial -- (1) oath of 'impartial justice,' (2) listening to oral arguments, (3) written questions submitted to CJ John Roberts who read them aloud, (4) answers from managers and defense lawyers, (5) latitude for Democratic senators in questioning -- used by CJ as the carapace of judicial form around a 'plainly numerical' partisan outcome.",
+    "The Romney-Collins crossover on the Jan 31 evidence-barring vote (51-49) and Romney's lone Article-1 conviction vote -- used to underline how slender the bipartisanship became and how thoroughly the 53-45 GOP-Dem split otherwise held.",
+    "The Edsa II People Power Revolution as the contingent eruption when House prosecutors walked out of Estrada's truncated trial -- a flagship instance of impeachment-process failure converting into street power, with CJ implicitly contrasting that to the rule-of-law completion of Corona's later trial.",
+    "Corona's trial inclusion of Ombudsman Conchita Carpio Morales and Corona himself as witnesses, contrasted with Trump's Senate denying any witness testimony at all -- a sharp empirical illustration of the doctrinal-process gap."
+  ],
+  "target_audience": [
+    "Filipino readers following US politics during the 2020 impeachment cycle",
+    "Constitutional-law students comparing US and PH impeachment doctrine",
+    "Senators and House members responsible for future PH impeachment proceedings",
+    "Filipino civic readers proud of Edsa II / Corona-trial institutional history",
+    "Political analysts of partisanship vs constitutional structure",
+    "Editorial readers across the Inquirer's general audience"
+  ],
+  "register_markers": [
+    "comparative-constitutional register (US vs PH impeachment doctrine)",
+    "vote-tabulation register (52-48, 53-47, 51-49)",
+    "Latin/legal terminology ('verbal legis,' 'contradistinguished,' 'sui generis')",
+    "'unabashedly partisan' as a recurring tonal marker",
+    "literal-vs-liberal interpretive dichotomy as analytic frame",
+    "Filipino-Charter pride register ('Aware of this literal exclusion, the framers of our 1987 Charter provided more encompassing grounds')",
+    "comparative case-study (Estrada + Corona) embedded in the doctrinal argument",
+    "rhetorical understatement in moral-critical conclusions ('fairer, more democratic and less partisan than its US counterpart')",
+    "historical-record recitation (Johnson, Clinton, Trump -- all acquitted; Nixon resigned)"
+  ],
+  "decision_framework_signals": [
+    "applies textual-grounds analysis to test whether constitutional impeachment provisions enable or disable removal of misbehaving executives",
+    "uses literal-vs-liberal interpretive dichotomy as the diagnostic for impeachment outcomes",
+    "treats catch-all 'betrayal of public trust' as the doctrinal innovation that prevents textual escape hatches",
+    "uses comparative case studies (Estrada walkout vs Corona full trial) as empirical evidence",
+    "applies threshold-comparison (3/4 vs 2/3) as a structural reinforcement of the doctrinal-grounds argument",
+    "frames partisan voting patterns against a backdrop of ceremonial process to expose substance-vs-form gaps"
+  ],
+  "one_paragraph_summary": "Panganiban reports the Feb 5, 2020 US Senate acquittal of President Donald Trump as 'an unabashedly partisan vote' -- without trial, without testimonial evidence, and without documentary evidence -- with all 53 Republicans voting to dismiss Article 2 (obstruction of House investigation) 53-47, and all 53 Republicans except Mitt Romney voting to dismiss Article 1 (abuse of power for withholding ~$400M in military aid to Ukraine unless Joe Biden was investigated) 52-48. The preceding 51-49 vote on Jan 31 barring oral and testimonial evidence (with Romney and Susan Collins crossing) made the partisan outcome inevitable. The five ceremonial Senate processes -- oath of 'impartial justice,' oral arguments, written questions read aloud by CJ John Roberts, manager/defense replies, and latitude for Democratic questioners -- formed the carapace of judicial form around a plainly numerical outcome. Republicans argued that 'abuse of power' and 'obstruction' fall outside the US Constitution's enumerated grounds ('treason, bribery, or other high crimes and misdemeanors') because they are not 'criminal acts' -- a verbal-legis literal interpretation that, in 250 years, has produced no Senate-ousted US president (Andrew Johnson 1868, Clinton 1999, and Trump all acquitted; Nixon resigned). The 1987 Philippine Charter's framers, aware of this literal exclusion, provided 'more encompassing' grounds -- 'culpable violation of the Constitution, treason, bribery, graft and corruption, other high crimes and betrayal of public trust' -- so that abuses cannot be textually dumped. The catch-all 'betrayal of public trust' (plus the SALN Law) was partly used in both the Estrada and Corona impeachments. Estrada's trial was truncated by House prosecutors' walkout, precipitating the Edsa II People Power Revolution, but Corona's ran for several months without testimonial blockade -- including testimony from Ombudsman Conchita Carpio Morales and Corona himself -- and ended in a more-than-three-fourths Senate vote 'without any unabashedly partisan alignment.' The Philippine 3/4 threshold (vs the US 2/3) is also structurally higher. CJ concludes that the Philippine impeachment process, though also sui generis, is 'fairer, more democratic and less partisan' than its US counterpart.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

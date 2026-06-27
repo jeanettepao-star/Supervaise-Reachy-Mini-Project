@@ -1,0 +1,121 @@
+{
+  "id": "CA482",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 482,
+  "title": "Decision-making 101",
+  "date": "2012-10-06",
+  "link": "https://opinion.inquirer.net/38204/decision-making-101",
+  "keywords": [
+    "judicial decision-making",
+    "Aristotelian syllogism",
+    "L x F = D",
+    "trial court fact-finding",
+    "double jeopardy",
+    "jurisdiction",
+    "GMA Sandiganbayan",
+    "credibility of witnesses"
+  ],
+  "primary_topics": [
+    "The simplified Aristotelian syllogism framework for judicial decision-making: L x F = D (law times facts equals decision)",
+    "Why most cases are won or lost on factual issues rather than legal ones -- and why trial court fact-finding is authoritative",
+    "How legal complications (jurisdiction, bail, novel crimes, appeals) delay and complicate criminal prosecutions beyond the simple syllogism"
+  ],
+  "sub_topics": [
+    "Aristotelian syllogism: major (legal) premise x minor (factual) premise = logical conclusion; example: homicide charge",
+    "Nine years of tertiary study to become a lawyer -- yet law conclusively presumes everyone knows the law; ignorance is no excuse; truth is not a valid defense (jaywalking example)",
+    "Most litigations won or lost on factual issues (minor premise), not legal ones",
+    "Facts proven only in RTC or municipal courts -- not CA or SC which does not examine witnesses",
+    "SC relies on trial court fact-finding because trial judges have firsthand impressions (People v. Delavin, Feb. 27, 1987)",
+    "Witness credibility indicators from People v. Rivera (Oct. 1, 1993): timidity, forthrightness, surliness, belligerence, indignation, embarrassment, hesitancy, glibness, evasiveness, insolence",
+    "Trial judges: lowest in hierarchy but indispensable; virtual kings in acquittals (immediately executory, cannot be appealed -- double jeopardy)",
+    "Double jeopardy: No person shall be put twice in jeopardy of punishment for the same offense",
+    "Legal complications: jurisdiction (GMA charged in RTC but Sandiganbayan has jurisdiction), bail, preliminary investigation, novel crime constitutionality (plunder)",
+    "Post-judgment complications: self-defense claims, homicide vs murder, improper penalty"
+  ],
+  "signature_phrases": [
+    "judicial decision-making can be reduced to an Aristotelian syllogism",
+    "law times facts equals decision, or L x F = D",
+    "Ignorance of the law is never an excuse for violating it",
+    "truth is not a valid defense!",
+    "The trial judge had the opportunity to observe the witnesses personally",
+    "Timidity, forthrightness, surliness, belligerence, indignation, embarrassment, hesitancy, glibness, evasiveness, insolence",
+    "Trial judges are virtual kings and almost irreversible when they acquit",
+    "a judgment of acquittal is immediately executory and cannot be appealed",
+    "All these questions of law could interminably complicate and delay a criminal prosecution"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Former President Gloria Macapagal-Arroyo (jurisdiction example)"
+    ],
+    "institutions": [
+      "Regional Trial Courts (RTCs)",
+      "Municipal/Metropolitan Trial Courts",
+      "Court of Appeals",
+      "Supreme Court of the Philippines",
+      "Sandiganbayan"
+    ],
+    "cases": [
+      "People v. Delavin (Feb. 27, 1987) -- trial court fact-finding authority",
+      "People v. Rivera (Oct. 1, 1993) -- witness credibility indicators"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- Art. III Sec. 21 (double jeopardy)",
+      "Rules of Evidence (PH)"
+    ],
+    "events": [
+      "GMA charged in RTC (jurisdiction challenge illustration)",
+      "Plunder as novel crime (constitutionality challenged)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Judicial decision-making follows L x F = D, but most cases turn not on the legal premise but on the factual premise -- whether the accused committed the act -- making trial court fact-finding the critical and most contested battleground.",
+      "rhetorical_move": "syllogism-then-complication framing",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Trial courts are the indispensable foundation of the judicial system because they are the only courts that can determine facts firsthand -- making their factual findings authoritative on appeal and their acquittals absolutely final (double jeopardy).",
+      "rhetorical_move": "trial-court-primacy argument (lowest in hierarchy but indispensable and often irreversible)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Legal complications -- jurisdiction challenges, bail petitions, novel-crime constitutionality questions, and post-conviction appeals -- can delay criminal prosecutions interminably.",
+      "rhetorical_move": "legal-complications-as-delay-multiplier analysis",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The jaywalking example for ignorance-of-law: if caught jaywalking, you cannot be acquitted because you did not know it was prohibited -- here, truth is not a valid defense! -- the most accessible illustration of the conclusive presumption of legal knowledge.",
+    "People v. Rivera (1993) witness credibility vocabulary -- timidity, forthrightness, surliness, belligerence, indignation, embarrassment, hesitancy, glibness, evasiveness, insolence -- preserved verbatim as the most vivid judicial vocabulary list in any CJ column.",
+    "The GMA jurisdiction example: charged in RTC but counsel challenges because the Sandiganbayan has jurisdiction over high officials even after their terms -- a preliminary legal issue that can delay a trial for years before it begins."
+  ],
+  "target_audience": [
+    "Law students and incoming bar examinees seeking a foundational overview",
+    "Non-lawyers following high-profile criminal cases who want to understand why trials take so long",
+    "Civic readers following the GMA Sandiganbayan case",
+    "Judges and practitioners reflecting on fundamental principles"
+  ],
+  "register_markers": [
+    "pedagogical-explainer register (Decision-making 101 as explicit educational framing)",
+    "Aristotelian-syllogism as the foundational framework",
+    "L x F = D formula abbreviation",
+    "jaywalking as the accessible everyday example",
+    "verbatim SC quotation of witness-credibility vocabulary (People v. Rivera)",
+    "double-jeopardy finality as the constitutional absolute",
+    "GMA jurisdiction example as real-world complication",
+    "101 as the title signal for first-principles treatment"
+  ],
+  "decision_framework_signals": [
+    "applies L x F = D as the baseline framework before exposing complications",
+    "uses trial-court-primacy argument to establish why appellate courts defer to factual findings",
+    "treats double-jeopardy finality as an absolute constitutional constraint making acquittals irreversible",
+    "frames legal complications (jurisdiction, bail, novel-crime constitutionality) as additive delay multipliers",
+    "uses ignorance-not-an-excuse principle to show law operates on a presumption of universal knowledge"
+  ],
+  "one_paragraph_summary": "Panganiban introduces judicial decision-making through the Aristotelian syllogism framework: law times facts equals decision (L x F = D). He illustrates with a homicide example (major premise: anyone who kills shall be jailed; minor premise: Pedro killed Juan; conclusion: Pedro shall be jailed) and notes that despite nine years of tertiary study required to become a lawyer, ignorance of the law is never an excuse -- 'truth is not a valid defense' against jaywalking, for instance. Most litigations are won or lost not on legal issues but on the factual minor premise -- whether the act was committed. Facts are proven only in trial courts, not in the CA or SC, which rely on the trial court's fact-finding authority because the trial judge has firsthand impressions of witnesses' demeanor, tone, and credibility (quoting People v. Delavin, 1987, and People v. Rivera, 1993 -- the latter listing 'timidity, forthrightness, surliness, belligerence, indignation, embarrassment, hesitancy, glibness, evasiveness, insolence' as credibility indicators). Though lowest in the judicial hierarchy, trial judges are 'virtual kings' in acquittals -- which are immediately executory and cannot be appealed under the double jeopardy prohibition. He then shows how legal complications -- jurisdiction challenges (e.g., GMA charged in RTC when the Sandiganbayan has jurisdiction over high officials), bail petitions, preliminary investigation disputes, novel-crime constitutionality questions (e.g., plunder), and post-judgment appeals on crime classification or penalty -- can delay criminal prosecutions interminably, preventing the simple syllogism from producing a timely result.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,139 @@
+{
+  "id": "CA292",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 292,
+  "title": "Confidentiality of SC deliberations",
+  "date": "2017-12-17",
+  "link": "https://opinion.inquirer.net/109529/confidentiality-sc-deliberations",
+  "keywords": [
+    "SC deliberations confidentiality",
+    "Senate v. Ermita separation of powers",
+    "CJ Sereno impeachment administrative testimony",
+    "leaked ponencia P500000 fine",
+    "judicial sanctum"
+  ],
+  "primary_topics": [
+    "Constitutional and institutional basis for SC deliberation confidentiality",
+    "Limits of congressional inquiry into SC deliberations",
+    "Why confidentiality protects judicial integrity"
+  ],
+  "sub_topics": [
+    "Senate v. Ermita (April 20, 2006) -- SC members exempt from congressional inquiry",
+    "Separation of powers, fiscal autonomy, and constitutional independence",
+    "Executive privilege analogy (conversations with subalterns, cabinet meetings)",
+    "Congressional executive sessions",
+    "Transparency as the rule; confidentiality of deliberations as the exception",
+    "SC en banc resolution (Nov. 28, 2017, released later) -- CJ Sereno impeachment",
+    "Administrative officials may testify only on administrative matters",
+    "JJ Del Castillo, Jardeleza, Tijam, Reyes Jr., CA J. Salazar-Fernando: administrative/non-adjudicatory only",
+    "J. Leonardo-De Castro: restricted to specific cases (TRO, Coalition of Senior Citizens, Aguinaldo, Jardeleza cases)",
+    "No secretaries, clerks, or stenographers in deliberation room",
+    "Only 15 justices (5 in Division) allowed inside",
+    "Sanctity begins from receipt of petition to promulgation",
+    "2009 leaked unpromulgated ponencia -- P500,000 fine, disqualification from office",
+    "Session agenda: ~50 pages, ~250 items; drafted decisions become official if majority accepts",
+    "Verbal skirmishes rare; written arguments preferred",
+    "Sessions seldom exceed 3 hours; multiple sessions before final judgment",
+    "Why confidentiality matters: full vent of arguments; protection from bribery, rumors, inhibition pressure"
+  ],
+  "signature_phrases": [
+    "judicial sanctum",
+    "sanctity of deliberations",
+    "transparency is the rule, confidentiality of deliberations is an exception",
+    "full vent to their arguments",
+    "appeals to their family, pastors and friends",
+    "Ugly rumors could be circulated to demonize or inhibit them",
+    "from the receipt by the Court of the petition or appeal till an official order or decision is promulgated"
+  ],
+  "entities": {
+    "people": [
+      "CJ Maria Lourdes P. A. Sereno (subject of House impeachment proceedings)",
+      "Justice Mariano C. Del Castillo",
+      "Justice Francis H. Jardeleza",
+      "Justice Noel G. Tijam",
+      "Justice Andres B. Reyes Jr.",
+      "CA Justice Remedios A. Salazar-Fernando",
+      "Justice Teresita J. Leonardo-De Castro",
+      "Former CJ Artemio V. Panganiban (chairing oral argument in Senate v. Ermita)",
+      "Sen. Joker Arroyo (Senate counsel in Senate v. Ermita)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (en banc)",
+      "Senate of the Philippines",
+      "House of Representatives (impeachment proceedings)"
+    ],
+    "cases": [
+      "Senate v. Ermita (April 20, 2006, unanimous)",
+      "Coalition of Association of Senior Citizens v. Comelec",
+      "Aguinaldo v. Aquino",
+      "Jardeleza v. Sereno",
+      "2009 leaked-ponencia case (unnamed justice)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (separation of powers, fiscal autonomy, judicial independence)",
+      "SC en banc resolution dated November 28, 2017"
+    ],
+    "events": [
+      "House impeachment proceedings vs CJ Sereno",
+      "SC en banc resolution limiting testimony of SC members to administrative matters",
+      "2009 leaked ponencia investigation and fine"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "SC members are constitutionally exempt from congressional inquiry based on separation of powers, fiscal autonomy, and judicial independence -- as confirmed by the unanimous Senate v. Ermita ruling.",
+      "rhetorical_move": "constitutional-authority citation (own case as CJ)",
+      "confidence": "high"
+    },
+    {
+      "claim": "Transparency is the rule; confidentiality of deliberations is the exception -- but the exception is constitutionally justified and essential to judicial integrity.",
+      "rhetorical_move": "balance-framing that concedes the general rule",
+      "confidence": "high"
+    },
+    {
+      "claim": "Judicial deliberations must be confidential to allow justices to give full vent to their arguments without fear of bribery, family pressure, pastor pressure, or ugly rumors designed to demonize or inhibit them.",
+      "rhetorical_move": "consequentialist defense of confidentiality",
+      "confidence": "high"
+    },
+    {
+      "claim": "The 2009 leaked-ponencia case -- where an unnamed justice was fined P500,000 and disqualified from office for leaking an unpromulgated decision -- illustrates the seriousness of deliberation-secrecy violations.",
+      "rhetorical_move": "concrete-enforcement example",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Senate v. Ermita (April 20, 2006): the Court unanimously held SC members are exempt from congressional inquiry -- with even Senate counsel Sen. Joker Arroyo admitting it during oral arguments before CJ Panganiban.",
+    "The 2009 leaked-ponencia case: an unnamed justice was fined P500,000 against retirement benefits and disqualified from any public office after an investigation showed an unpromulgated decision was leaked while being routed for signatures.",
+    "The deliberation-room protocol: only 15 justices inside (5 in Divisions); no secretaries, clerks, or stenographers; sanctity begins from receipt of the petition to promulgation of the decision.",
+    "The typical session agenda: ~50 pages, ~250 items, supported by member-in-charge draft orders and decisions -- verbal skirmishes rare, written arguments preferred, sessions seldom exceeding 3 hours.",
+    "The SC's three-layer boundary for the Sereno impeachment testimony: administrative officials testify only on administrative matters; some justices restricted to specific cases' TRO/merits/ponencia but not the deliberations."
+  ],
+  "target_audience": [
+    "House members conducting impeachment proceedings involving SC members",
+    "Senators and committee chairs trying to inquire into SC deliberations",
+    "Constitutional law scholars",
+    "Journalists covering the Sereno impeachment",
+    "Civic readership curious about the inner workings of the SC"
+  ],
+  "register_markers": [
+    "Rhetorical Q&A opening",
+    "Constitutional-case precedent as anchor (Senate v. Ermita)",
+    "Three-layer testimony-limit analysis for specific justices",
+    "Procedural description of session mechanics",
+    "Consequentialist-defense reasoning",
+    "Historical penalty example for emphasis"
+  ],
+  "decision_framework_signals": [
+    "Apply separation of powers, fiscal autonomy, and judicial independence as triple shields against congressional inquiry into SC deliberations",
+    "Permit testimony only on administrative (non-adjudicatory) matters when SC members are summoned by Congress",
+    "Extend executive privilege analogy to judicial privilege -- if the President can shield cabinet discussions, the SC can shield deliberations",
+    "Apply the 'transparency-as-rule, confidentiality-as-exception' balance: oral arguments are transparent; deliberations are not",
+    "Treat leaks of unpromulgated decisions as serious offenses subject to dismissal, heavy fines, and disqualification",
+    "Design deliberation rooms to physically exclude all non-justices -- the protocol is the institution's security"
+  ],
+  "one_paragraph_summary": "Panganiban explains why the Supreme Court is so protective of its deliberations, beginning with the constitutional anchor: Senate v. Ermita (April 20, 2006, unanimous) held that SC members are exempt from congressional inquiry based on separation of powers, fiscal autonomy, and judicial independence -- even Senate counsel Sen. Joker Arroyo conceded this during oral arguments before CJ Panganiban. He notes analogous confidentiality protections for executive privilege (presidential conversations, cabinet meetings) and congressional executive sessions. The rule is transparency; the exception is deliberation confidentiality. Against the backdrop of the House impeachment proceedings against CJ Sereno, the SC's November 28 en banc resolution permitted administrative officials to testify only on administrative matters, and specifically limited JJ Del Castillo, Jardeleza, Tijam, Reyes Jr., and CA Justice Salazar-Fernando to administrative/non-adjudicatory testimony, with J. Leonardo-De Castro restricted to narrow case-specific subjects (TRO issuance, ponencia merits) but never the deliberations. He describes the deliberation protocol: only the 15 justices (5 in Divisions) are allowed inside the sanctum during deliberations -- no secretaries, clerks, or stenographers -- with sanctity beginning from receipt of the petition to promulgation. In 2009, a justice was fined P500,000 and disqualified from office for leaking an unpromulgated ponencia while it was being routed for signature. Sessions run about three hours covering ~50-page agendas with ~250 items; verbal skirmishes are rare, written arguments preferred. The justification for confidentiality is consequentialist: without it, justices would hesitate to give full vent to their arguments, and leakages would tempt parties to pressure justices through bribery, family appeals, pastoral persuasion, or ugly rumors designed to demonize or inhibit them.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

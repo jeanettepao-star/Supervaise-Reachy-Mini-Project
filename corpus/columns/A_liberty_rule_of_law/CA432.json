@@ -1,0 +1,174 @@
+{
+  "id": "CA432",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 432,
+  "title": "Power sharing",
+  "date": "2013-12-14",
+  "link": "https://opinion.inquirer.net/67357/power-sharing",
+  "keywords": [
+    "pork barrel",
+    "judicial reform",
+    "anti-graft",
+    "due process",
+    "rule of law"
+  ],
+  "primary_topics": [
+    "Universal acclaim greeted SC's PDAF strikedown but the people now demand speedy prosecution of malefactors",
+    "Investigation/prosecution not direct responsibility of judiciary -- case buildup with police, then DOJ/OOO",
+    "CJP vouches for ability, sincerity, and probity of Justice Sec Leila de Lima and Ombudsman Conchita Carpio Morales",
+    "Balancing of rights -- prosecutors must respect due process; railroaded prosecution as obnoxious as delayed justice",
+    "Five-prong suffering enumeration for wrongly-accused -- anxiety + besmirched reputation + unnecessary expenses + bail + arrest/detention",
+    "'An injustice to one person is an injustice to all, the way an injury to an eye is an injury to the whole body' aphoristic framing",
+    "Triple-protection mnemonic -- protect the powerless from the powerful, shield the lonely from the corruption induced by the vengeful, safeguard the guileless from the schemes of the shrewd",
+    "Justice Jose P. Laurel 'approximation of social justice' citation",
+    "CJ Hilario G. Davide Jr. APJR (Action Program for Judicial Reforms) history -- World Bank model, CJP continuation, post-Dec 2006 discontinuation"
+  ],
+  "sub_topics": [
+    "Court's PDAF decision welcomed not as end but as auspicious milestone in long search for honest governance",
+    "Beyond the decision -- speedy investigation and prosecution; what practical use is PDAF's death if scammers frolic on stolen money?",
+    "Lingering doubt over whether justice system can ever catch and penalize malefactors -- readers cite sensational graft exposés that resulted in grafters still roaming free",
+    "Capital offenses like plunder -- suspects detained while awaiting final judgments which could last years or decades",
+    "Even if acquitted, physical suffering + mental agony + lost opportunities + social humiliation + prohibitive cost of lawyers and litigations can never be adequately compensated",
+    "Constitution like the sun shines equally on everyone -- victims and suspects, rich and poor, powerful and powerless",
+    "Equality clouded by misuse and abuse of influence/power/money → total failure of justice (acquittal of guilty + conviction of innocent)",
+    "Constitutional rights granted to innocent misused/abused by guilty to delay/escape justice",
+    "SC public information officer Prof. Theodore Te -- CJP's unanswered request for advisory on reform program"
+  ],
+  "signature_phrases": [
+    "Almost universal acclaim greeted the Supreme Court's decision slaying the Priority Development Assistance Fund or PDAF",
+    "the Court nonetheless calmed the seething anger against the scams associated with the PDAF, but heightened the clamor for the prosecution of the scammers",
+    "Speedy prosecution",
+    "an auspicious step or milestone in the long search for honest governance",
+    "of what practical use is the death of the PDAF if the scammers will remain free to frolic on their stolen money?",
+    "Speed up the prosecution",
+    "Railroaded prosecution is as obnoxious as delayed justice",
+    "Balancing of rights",
+    "even if acquitted later, the physical suffering, mental agony, lost opportunities, social humiliation, and prohibitive cost of lawyers and litigations can never be adequately compensated",
+    "An injustice to one person is an injustice to all, the way an injury to an eye is an injury to the whole body",
+    "even the most competent and trustworthy judges -- being passive players in the justice system -- cannot convict the accused",
+    "Our Constitution, like the sun, shines equally on everyone, on both the victims and the suspects, the rich and the poor, the powerful and the powerless",
+    "Abhorrent it is when this equality is clouded by the misuse and abuse of influence, power and money",
+    "More revolting it is when the constitutional rights granted to the innocent are misused and abused by the guilty to delay or escape justice",
+    "protect the powerless from the manipulations of the powerful, to shield the lonely from the corruption induced by the vengeful, and to safeguard the guileless from the schemes of the shrewd",
+    "approximation of social justice",
+    "Action Program for Judicial Reforms",
+    "Reform is always a work in progress, even in the most developed nations",
+    "to date, I still await his response",
+    "another granite milestone to our nation-building"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Justice Sec Leila de Lima",
+      "Ombudsman Conchita Carpio Morales",
+      "CJ Hilario G. Davide Jr. (APJR architect)",
+      "Justice Jose P. Laurel ('approximation of social justice' citation)",
+      "Prof. Theodore Te (SC public information officer -- unanswered-request target)"
+    ],
+    "institutions": [
+      "Supreme Court",
+      "Department of Justice",
+      "Office of the Ombudsman",
+      "Police agencies (case-buildup originators)",
+      "World Bank (APJR-as-model adopter)",
+      "Judiciary (the institution undergoing reform)"
+    ],
+    "cases": [
+      "Belgica v. Ochoa (Nov 19 2013) -- PDAF strikedown (implied as 'the Court's decision')"
+    ],
+    "laws_treaties": [
+      "Constitution Bill of Rights -- due process + equal protection ('like the sun' equality framing)",
+      "Plunder Law (capital-offense detention context)"
+    ],
+    "events": [
+      "Universal acclaim for PDAF strikedown",
+      "Growing clamor for prosecution of PDAF scammers",
+      "APJR launched by CJ Davide",
+      "APJR continued by CJP",
+      "APJR discontinued post-Dec 2006 (after CJP retirement)",
+      "CJP's unanswered request to Te for current reform program"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The SC's PDAF decision was welcomed not as an end in itself but as an auspicious milestone in the long search for honest governance -- but the people now demand speedy prosecution of malefactors, asking what practical use the PDAF's death is if scammers remain free to frolic on stolen money.",
+      "rhetorical_move": "milestone-not-endpoint + practical-use rhetorical-question",
+      "confidence": "asserted as public mood reading"
+    },
+    {
+      "claim": "Investigation and prosecution are not the direct responsibility of the judiciary -- they begin with the police and the DOJ/OOO. Panganiban has no doubt about the ability, sincerity, and probity of Justice Sec de Lima and Ombudsman Morales, but they also have the corresponding responsibility to respect suspects' constitutional right to due process. Railroaded prosecution is as obnoxious as delayed justice.",
+      "rhetorical_move": "vouch-for-prosecutors + balance-rights-warning",
+      "confidence": "asserted with named-official vouching"
+    },
+    {
+      "claim": "Prosecutors must ensure the innocent are spared the rigors of court trials -- true, they could eventually be acquitted, but if wrongly charged they will suffer intolerable anxiety, besmirched reputation, unnecessary expenses, bail, and arrest/detention pending trial. For capital offenses like plunder, suspects are detained while awaiting final judgments that could last years or decades; even if acquitted, the suffering can never be adequately compensated.",
+      "rhetorical_move": "five-prong-suffering enumeration + capital-offense-detention extension",
+      "confidence": "asserted as due-process consequence"
+    },
+    {
+      "claim": "An injustice to one person is an injustice to all, the way an injury to an eye is an injury to the whole body -- the Constitution like the sun shines equally on everyone, victims and suspects, rich and poor, powerful and powerless. The compelling need is to protect the powerless from the powerful, shield the lonely from the corruption induced by the vengeful, and safeguard the guileless from the schemes of the shrewd.",
+      "rhetorical_move": "aphoristic-injury-to-eye + sun-shines-equally + triple-protection-mnemonic",
+      "confidence": "asserted as constitutional-equity creed"
+    },
+    {
+      "claim": "The need for judicial reforms -- to balance conflicting rights and protect the powerless toward Justice Laurel's 'approximation of social justice' -- was successfully pursued through CJ Davide's APJR (adopted as World Bank model for developing countries, continued by CJP, discontinued after his Dec 2006 retirement). The present SC is presumably crafting its own reform program; CJP has asked SC PIO Prof. Theodore Te for advisory but to date still awaits response.",
+      "rhetorical_move": "APJR-history + pointed-await-response signal",
+      "confidence": "asserted with named-PIO-request-unanswered detail"
+    },
+    {
+      "claim": "Beyond the monumental PDAF decision, the SC can provide stability and trust in democracy by making public its new reform program to speed up justice -- adding another granite milestone to nation-building.",
+      "rhetorical_move": "nation-building granite-milestone closing",
+      "confidence": "asserted as institutional aspiration"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 'scammers will remain free to frolic on their stolen money' question -- captures the public's exasperated impatience in a single image.",
+    "The five-prong-suffering enumeration of the wrongly-accused (anxiety + besmirched reputation + unnecessary expenses + bail + arrest/detention) extending into capital-offense indefinite detention -- a comprehensive due-process-cost catalog.",
+    "The 'Constitution, like the sun, shines equally on everyone' metaphor -- among CJP's most-quoted equal-protection coinages, here applied to victims-vs-suspects symmetry.",
+    "The triple-protection mnemonic -- protect-the-powerless-from-the-powerful, shield-the-lonely-from-the-corruption-induced-by-the-vengeful, safeguard-the-guileless-from-the-schemes-of-the-shrewd -- among CJP's most polished tripartite rhetorical structures.",
+    "The pointed APJR retirement-aftermath narrative -- 'discontinued after my term ended in December 2006' -- and the CJP-asked-Te-but-still-awaits-response detail, a rare moment of institutional reproach against the sitting Court for not publicizing its reform program.",
+    "The injury-to-eye-injury-to-whole-body adage -- recurring CJP framing for indivisible-justice.",
+    "Justice Jose P. Laurel's 'approximation of social justice' citation -- the only direct named-jurist-quote in the column."
+  ],
+  "target_audience": [
+    "Inquirer general readership impatient over post-PDAF prosecution",
+    "Justice Sec Leila de Lima and Ombudsman Conchita Carpio Morales (vouched-for officials)",
+    "The sitting Supreme Court (institutional-reproach audience)",
+    "Prof. Theodore Te (SC PIO -- explicit recipient of unanswered request)",
+    "Civic-minded Filipinos parsing balance-of-rights tensions",
+    "Lawyers and law students (due-process-cost catalog)",
+    "Judicial-reform advocates"
+  ],
+  "register_markers": [
+    "Almost universal acclaim opening",
+    "Speedy prosecution section header",
+    "of what practical use rhetorical-question pivot",
+    "Speed up the prosecution voice-of-the-people register",
+    "Balancing of rights section header",
+    "Railroaded prosecution is as obnoxious as delayed justice aphoristic register",
+    "An injustice to one person is an injustice to all, the way an injury to an eye is an injury to the whole body aphoristic register",
+    "Abhorrent it is when... More revolting it is when escalating-evaluative register",
+    "to protect the powerless... to shield the lonely... to safeguard the guileless triple-mnemonic register",
+    "Judicial reforms section header",
+    "Many years ago, Chief Justice Hilario G. Davide Jr. historical-narrative register",
+    "However, it was discontinued after my term ended in December 2006 institutional-reproach signal",
+    "But to date, I still await his response pointed-aside register",
+    "granite milestone to our nation-building closing aspiration"
+  ],
+  "decision_framework_signals": [
+    "uses milestone-not-endpoint + frolic-on-stolen-money framing for public-mood reading",
+    "applies division-of-labor framework (police buildup + DOJ/OOO PI + judiciary adjudication)",
+    "deploys vouch-for-named-officials + balance-rights-warning structure",
+    "uses five-prong-suffering due-process-cost enumeration",
+    "applies 'Constitution like the sun shines equally' equal-protection framework",
+    "deploys triple-protection mnemonic (powerless-vs-powerful + lonely-vs-vengeful-corruption + guileless-vs-shrewd-schemes)",
+    "cites Justice Laurel 'approximation of social justice' as judicial-reform end-goal",
+    "uses APJR-history-as-template + unanswered-Te-request institutional-reproach signal",
+    "closes with granite-milestone-to-nation-building register"
+  ],
+  "one_paragraph_summary": "Panganiban observes that the Supreme Court's PDAF strikedown received almost universal acclaim but it calmed the seething anger only by heightening the clamor for prosecution of scammers. The decision is welcomed not as an end in itself but as an auspicious milestone in the long search for honest governance: what practical use is the death of the PDAF if the scammers remain free to frolic on their stolen money? Many readers, lingering doubt over the justice system's ability to catch and penalize malefactors, recall sensational graft exposés that ended with grafters still roaming free. Investigation and prosecution are not the direct responsibility of the judiciary -- case buildup begins with the police, and the principal investigation-prosecution agencies are the DOJ and OOO. Panganiban has no doubt about the ability, sincerity, and probity of Justice Sec Leila de Lima and Ombudsman Conchita Carpio Morales, but they also have the corresponding responsibility to respect the suspects' constitutional right to due process -- railroaded prosecution is as obnoxious as delayed justice. He catalogs the wrongly-accused's suffering (anxiety + besmirched reputation + unnecessary expenses + bail + arrest/detention pending trial, sometimes more devastating to health than physical illness); for capital offenses like plunder, suspects are detained for years or even decades awaiting final judgment, and even if acquitted, the physical suffering, mental agony, lost opportunities, social humiliation, and prohibitive cost of lawyers and litigations can never be adequately compensated. On the other hand, the freeing of the guilty by skewed judgments or prosecutor malfeasance/incompetence appalls both private offended parties and the people at large: an injustice to one person is an injustice to all, the way an injury to an eye is an injury to the whole body. The Constitution, like the sun, shines equally on everyone -- victims and suspects, rich and poor, powerful and powerless. Abhorrent it is when equality is clouded by the misuse and abuse of influence, power, and money, resulting in delayed justice or in the total failure of justice -- the acquittal of the guilty and the conviction of the innocent. More revolting it is when constitutional rights granted to the innocent are misused and abused by the guilty to delay or escape justice. While the Constitution ordains equality under the law, the compelling need is to protect the powerless from the manipulations of the powerful, to shield the lonely from the corruption induced by the vengeful, and to safeguard the guileless from the schemes of the shrewd. He turns to judicial reform: many years ago, CJ Hilario G. Davide Jr. instituted the highly successful Action Program for Judicial Reforms (APJR), adopted as a World Bank model for developing countries; Panganiban continued the APJR during his stint heading the judiciary, but it was discontinued after his term ended in December 2006. The present SC is presumably crafting its own reform program -- CJP has asked the SC's hardworking public information officer Prof. Theodore Te to advise him on these reforms, but to date he still awaits the response. Beyond this monumental PDAF decision, and during these critical times when public approval ratings of political leaders are plunging, the SC can provide stability and trust in democracy by now making public its new reform program to speed up justice -- adding another granite milestone to nation-building.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

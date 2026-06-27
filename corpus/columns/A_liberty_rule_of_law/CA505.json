@@ -1,0 +1,128 @@
+{
+  "id": "CA505",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 505,
+  "title": "Gut issues",
+  "date": "2012-03-17",
+  "link": "https://opinion.inquirer.net/25147/gut-issues",
+  "keywords": [
+    "gut legal issue",
+    "Article 2 SALN",
+    "Corona SALN omissions",
+    "Senator Enrile",
+    "Senator Estrada Jinggoy",
+    "bank deposits evidence",
+    "fitness as chief magistrate",
+    "dichotomy"
+  ],
+  "primary_topics": [
+    "The gut legal issue at the heart of the impeachment: Corona SALN omissions and undervaluations, not peripheral procedural matters",
+    "The Senate formal admission of the prosecution bank deposit evidence linking SALNs to actual deposits as the key evidentiary ruling",
+    "The gut policy issue: Corona fitness to remain as Chief Justice -- the political reality running alongside the legal proceedings"
+  ],
+  "sub_topics": [
+    "Jinggoy Estrada nearly fell asleep listening to Rep. Toby Tiangco (defense first witness on irrelevant matters) -- expected explanation of SALN omissions",
+    "Senators Sotto, Pangilinan, Lacson, Angara: Tiangco testimony was irrelevant; Senate President Enrile: go directly to substance of Article 2",
+    "Jan. 27, 2012 impeachment court resolution: respondent has duty to completely, truthfully and faithfully declare assets; less than full and faithful disclosure may open to sanctions",
+    "Anti-Graft Law (RA 3019): dismissal if official acquires property manifestly out of proportion to salary",
+    "RA 1379: property manifestly out of proportion to salary is prima facie unlawfully acquired",
+    "Senate March 6, 2012 resolution formally admitted bank deposit evidence: linked SALNs to bank deposits to compare balances from 2005 to 2010 with declared cash and investments",
+    "Defense heeded warnings and presented evidence tending to explain discrepancies -- CJ will not comment till full ventilation",
+    "Corona media blitz: willing to testify; willing to open dollar deposits; branded Basa revelations as lies; vowed to respect Senate and accept verdict",
+    "But lawyers said no necessity to testify or open dollar deposits; filed SC petitions Feb. 8 and Feb. 13 to nullify impeachment complaint and all Senate proceedings",
+    "Dichotomy: Corona says ready to testify and open accounts; lawyers insist Senate proceedings are void; how will people and senator-judges view this conflict?"
+  ],
+  "signature_phrases": [
+    "he almost fell asleep listening to the defense's first witness",
+    "the gut legal issue in Article 2",
+    "They should go directly to the substance of Article 2",
+    "a less than full and faithful disclosure may open him to sanctions",
+    "said property shall be presumed prima facie to have been unlawfully acquired",
+    "The Senate has formally admitted these damaging pieces of evidence",
+    "compare the bank balances in the said bank accounts with the cash and investments declared by the Chief Justice in his SALNs from 2005 to 2010",
+    "the gut policy issue -- the respondent's fitness to remain in his office",
+    "While Corona tries to convince the public of his readiness to testify... his lawyers seem to avow the opposite",
+    "this dichotomy or conflict between the political and legal postures of the respondent and his lawyers remains to be seen"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Senate President Pro Tem Jinggoy Estrada (nearly fell asleep)",
+      "Rep. Toby Tiangco (defense first witness, deemed irrelevant)",
+      "Senators Vicente Sotto III, Francis Pangilinan, Panfilo Lacson, Edgardo Angara (said irrelevant)",
+      "Senate President Juan Ponce Enrile (told defense to go directly to Article 2)",
+      "Sen. Antonio Trillanes IV (asked about Corona testifying)",
+      "Chief Justice Renato C. Corona (respondent)",
+      "Ana Basa and Sr. Flory Basa (made character/fitness revelations)"
+    ],
+    "institutions": [
+      "Senate (impeachment court)",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "Corona impeachment trial -- Article 2 (SALN omissions)",
+      "Senate March 6, 2012 resolution on bank deposit evidence admission",
+      "Corona SC petitions (Feb. 8, Feb. 13) to nullify impeachment complaint and proceedings"
+    ],
+    "laws_treaties": [
+      "Republic Act No. 3019 (Anti-Graft Law)",
+      "Republic Act No. 1379 (Unexplained Wealth Law)",
+      "1987 Constitution -- SALN requirement"
+    ],
+    "events": [
+      "Senate Jan. 27, 2012 resolution on SALN duty",
+      "Senate March 6, 2012 resolution admitting bank deposit evidence",
+      "Defense presenting Tiangco as first witness",
+      "Ana Basa and Sr. Flory Basa revelations about Corona",
+      "Corona media blitz pledging to testify and open dollar accounts"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The gut legal issue in Article 2 is the SALN omissions and undervaluations -- whether the assets Corona failed to disclose are manifestly out of proportion to his lawful income -- not the peripheral procedural matters the defense initially chose to present.",
+      "rhetorical_move": "gut-legal-issue-identification reorienting the analytical focus to the substantive SALN question",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Senate March 6, 2012 formal admission of the bank deposit evidence -- linking the deposits to the SALNs -- is the critical evidentiary ruling; the prosecution has proven its prima facie case and it is squarely on Corona to explain the discrepancies.",
+      "rhetorical_move": "formal-evidentiary-admission-as-the-legal-turning-point",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The dichotomy between Corona public pledge to testify and open his dollar accounts and his lawyers simultaneous insistence that the Senate proceedings are void is a damaging conflict that the people and senator-judges will have to evaluate in both political and legal terms.",
+      "rhetorical_move": "political-legal-posture-dichotomy as the most consequential unresolved tension in the case",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Jinggoy Estrada nearly falling asleep during Tiangco testimony -- the most politically revealing single observation about the irrelevance of the defense opening strategy as assessed by the senator-judges themselves.",
+    "The Ana Basa and Sr. Flory Basa revelations branded as lies by Corona -- referenced briefly as the character fitness dimension going beyond the SALN legal issues.",
+    "The Corona-lawyers dichotomy: Corona publicly pledges readiness to testify and open accounts; lawyers simultaneously insist the proceedings are void -- the most damaging political optics conflict in the trial."
+  ],
+  "target_audience": [
+    "Civic readers following the Corona impeachment trial in real time",
+    "Senator-judges determining what evidence and explanations they need",
+    "Legal practitioners tracking the SALN-bank deposit evidentiary connection",
+    "Political analysts assessing the Corona team strategy coherence"
+  ],
+  "register_markers": [
+    "gut-legal-issue and gut-policy-issue as the column organizing conceptual frame",
+    "senatorial-sleep observation as the most vivid single relevance verdict",
+    "formally-admitted-evidence as the critical Senate evidentiary ruling",
+    "dichotomy-as-the-unresolved-tension closing",
+    "prima-facie-presumption-of-unlawful-acquisition as the statutory consequence",
+    "I will not comment on the adequacy and cogency of the defense evidence till its full ventilation as CJ judicial restraint marker"
+  ],
+  "decision_framework_signals": [
+    "applies gut-legal-issue-identification to separate substantive from peripheral evidence",
+    "uses formal-evidentiary-admission to establish the prosecution baseline in the SALN-bank deposit linkage",
+    "treats prima-facie-unlawful-acquisition presumption as the statutory consequence of manifestly disproportionate assets",
+    "frames political-vs-legal-posture-dichotomy as the core strategic vulnerability of the Corona team",
+    "reserves judgment on defense evidence adequacy pending full ventilation -- modeling judicial restraint in real-time commentary"
+  ],
+  "one_paragraph_summary": "Panganiban identifies the gut legal issue and gut policy issue in the Corona impeachment trial. Senate President Pro Tem Jinggoy Estrada nearly fell asleep during the defense's first witness Rep. Toby Tiangco -- whose testimony senators Sotto, Pangilinan, Lacson, and Angara deemed 'irrelevant' -- because what was expected was an explanation of the SALN omissions and undervaluations. Senate President Enrile told the defense: 'They should go directly to the substance of Article 2.' The gut legal issue is whether the assets Corona failed to disclose are manifestly out of proportion to his lawful income -- triggering dismissal under RA 3019 and prima facie unlawfully acquired status under RA 1379. The Senate's March 6, 2012 resolution formally admitted the bank deposit evidence, linking it to the SALNs to compare what was declared from 2005 to 2010 against actual balances. The defense heeded senators' warnings and began presenting evidence -- CJ withholds judgment on adequacy until full ventilation. Beyond the legal issues, the gut policy issue -- Corona's fitness to remain as Chief Justice -- is actively debated outside the court. Corona went on a media blitz pledging readiness to testify, open dollar accounts, and accept the Senate's verdict, and branded the Basa revelations as lies. But simultaneously, his lawyers told Sen. Trillanes there was no necessity for Corona to testify or open accounts and filed petitions in the SC on February 8 and 13 to nullify the entire proceedings. CJ closes on the damaging dichotomy: how will the people and senator-judges view this conflict between Corona's political posture and his lawyers' legal stance?",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

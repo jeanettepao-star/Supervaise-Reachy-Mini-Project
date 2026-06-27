@@ -1,0 +1,184 @@
+{
+  "id": "CA034",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 34,
+  "title": "AI in justice and governance",
+  "date": "2025-11-10",
+  "link": "https://opinion.inquirer.net/187344/ai-in-justice-and-governance",
+  "keywords": [
+    "artificial intelligence",
+    "judiciary",
+    "SPJI",
+    "e-governance",
+    "data privacy"
+  ],
+  "primary_topics": [
+    "First installment in AI-cluster (A34 → E19 → E18) -- AI-in-judiciary-and-governance opening",
+    "Strategic Plan for Judicial Innovations (SPJI) third-year milestone -- five-year blueprint for efficient + accessible + responsive judiciary",
+    "Age-of-revolutions taxonomy -- agricultural (land/food laws) + industrial (commerce/labor laws) + information (computer/data/behavior laws) + AI (technology that thinks/decides/acts)",
+    "Three-sector relevance triangulation -- private sector + public sector + judiciary",
+    "RA 12254 E-Governance Act + Data Privacy Act (RA 10173) + Cybercrime Prevention Act (RA 10175) + IP Code (RA 8293) as digital-domain legislation framework"
+  ],
+  "sub_topics": [
+    "CJP's 2003 book 'The Bio-Age Dawns on the Judiciary' -- urging courts to bridge science and jurisprudence",
+    "SPJI five-year timeline extending beyond CJ Gesmundo's term",
+    "Pandemic-induced familiarity with digital space -- virus-confined-us-to-homes anchoring",
+    "Telesurgery as AI + 5G + robotics convergence + new liability/ethics inquiries",
+    "Twin guardians -- Data Privacy Act (RA 10173) + Cybercrime Prevention Act (RA 10175)",
+    "Intellectual Property Code (RA 8293) confronting AI human-vs-machine creativity blurring",
+    "RA 12254 E-Governance Act definition -- friendly + convenient + affordable + efficient + transparent",
+    "Senate blockchain hearings on government budgeting and procurement",
+    "Pandemic doctors-and-nurses-frontliner parallel -- IT experts as new digital frontliners",
+    "Aon Consulting projection -- one in five skilled Filipinos may change employers next year + IT bearing heaviest losses",
+    "SC CALESA Digital project + AI Governance Framework for courts",
+    "AI Governance Framework safeguards against inaccuracies + fake case-law citations",
+    "Speedy-justice emphasis -- 'Emphasis on speedy'",
+    "Governance-led + ethically-grounded + people-centric response framework"
+  ],
+  "signature_phrases": [
+    "Every great revolution reshaped human life and the laws that protect it",
+    "technology no longer merely assists us; it begins to think, decide, and act",
+    "Emphasis on speedy",
+    "in this marketplace, trust has become the most valuable currency",
+    "twin guardians of our digital domain",
+    "innovation alone cannot reform governance; any more than elections alone can ensure democracy",
+    "Our response must be governance-led, ethically grounded, and people-centric",
+    "ready to safeguard liberty and nurture prosperity in an ever-expanding digital space"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (2003 'Bio-Age' book author)",
+      "Chief Justice Alexander G. Gesmundo (SPJI champion + ChR target)",
+      "President Marcos (E-Governance Act signer)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (SPJI + CALESA Digital project + AI Governance Framework)",
+      "Senate of the Philippines (blockchain budgeting/procurement hearings)",
+      "Philippine BPO/IT sector",
+      "Aon Consulting (employer-turnover projection source)"
+    ],
+    "cases": [],
+    "laws_and_documents": [
+      "Strategic Plan for Judicial Innovations (SPJI) -- five-year blueprint",
+      "Republic Act 12254 (E-Governance Act)",
+      "Republic Act 10173 (Data Privacy Act)",
+      "Republic Act 10175 (Cybercrime Prevention Act)",
+      "Republic Act 8293 (Intellectual Property Code)",
+      "'The Bio-Age Dawns on the Judiciary' (CJP 2003 book)"
+    ],
+    "programs_and_initiatives": [
+      "SC CALESA Digital project",
+      "AI Governance Framework (in development for courts)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Every great revolution reshaped human life and the laws that protect it -- the agricultural age gave us laws on land and food; the industrial age, on commerce and labor; the information age, on computers, data, and behavior. Now with the dawn of the age of AI, technology no longer merely assists us -- it begins to think, decide, and act; this evolution demands that our legal system transform with equal speed and clarity.",
+      "rhetorical_move": "age-of-revolutions taxonomy opening + AI-as-thinking-deciding-acting paradigm-shift framing",
+      "confidence": "asserted as foundational thesis"
+    },
+    {
+      "claim": "Last month marked the third year of the SC's Strategic Plan for Judicial Innovations (SPJI) -- a five-year blueprint to render the judiciary more efficient, accessible, and responsive; while its timeline extends beyond CJ Gesmundo's term, it lays a foundation that future jurists must not only preserve but also strengthen.",
+      "rhetorical_move": "SPJI-third-year milestone + beyond-Gesmundo-term durability framing",
+      "confidence": "asserted as institutional-continuity charge"
+    },
+    {
+      "claim": "CJP expects more legal research, transactions, and even hearings to be conducted electronically in real time, extending beyond the traditional halls of justice -- a transformation that has not happened from law school days to the bench. But the SPJI does more than modernize processes -- it challenges the justice sector to embrace AI responsibly, with wisdom and foresight; the greater task lies not just in innovating but in monitoring its ethical, social, and political implications.",
+      "rhetorical_move": "law-school-to-bench-never-happened-before autobiographical + innovate-but-monitor charge",
+      "confidence": "asserted with personal-trajectory anchoring"
+    },
+    {
+      "claim": "In 2003, CJP wrote 'The Bio-Age Dawns on the Judiciary,' urging courts to bridge science and jurisprudence -- since then, knowledge has expanded from the genetic codes of the biosciences to the intricate algorithms of computers; the dialogue between law and science has grown ever more complex and has never been more indispensable.",
+      "rhetorical_move": "2003-Bio-Age book autobiographical credential + science-jurisprudence-dialogue indispensability framing",
+      "confidence": "asserted with self-citation anchoring"
+    },
+    {
+      "claim": "The SPJI is not only timely but profoundly relevant -- it speaks to (1) the private sector that transforms business models through AI and technology, (2) the public sector that must empower IT experts to strengthen governance, and (3) the judiciary itself whose mission remains to deliver fair, speedy, and accessible justice. Emphasis on speedy.",
+      "rhetorical_move": "three-sector relevance triangulation + Emphasis-on-speedy short-sentence rhetorical-flourish",
+      "confidence": "asserted as relevance-triangulation"
+    },
+    {
+      "claim": "The digital space is expanding at an accelerated pace -- not long ago a deadly virus confined us to our homes and ushered in a realm unfamiliar yet quickly comprehensible; there we learned to access our needs, to connect, to express ourselves. Businesses too evolved not just to endure but to reach people on screens in real time.",
+      "rhetorical_move": "pandemic-anchored digital-space normalization framing",
+      "confidence": "asserted as historical-grounding"
+    },
+    {
+      "claim": "Clearly, the same innovation that empowers us also exposes us to new risks -- in this marketplace, trust has become the most valuable currency; every action leaves a trace in an ocean of data, one that when analyzed can either assure security or invite harm. Even telesurgery, made possible by AI + 5G + robotics, demonstrates how innovation can save lives across borders while also raising new inquiries of liability and ethics.",
+      "rhetorical_move": "trust-as-currency framing + telesurgery convergence-example + liability-and-ethics inquiry-anchoring",
+      "confidence": "asserted as dual-edge framing"
+    },
+    {
+      "claim": "As data breaches and cybercrimes rise, progress must be matched with protection -- the Data Privacy Act (RA 10173) and the Cybercrime Prevention Act (RA 10175) stand as twin guardians of our digital domain; yet the Intellectual Property Code (RA 8293) confronts new challenges as AI blurs the boundaries between human and machine creativity. The future of our digital society depends not only on innovation but also on the integrity that sustains it.",
+      "rhetorical_move": "twin-guardians legislative-frame + IP-Code-confronting-AI-creativity tension + integrity-sustains-innovation closing",
+      "confidence": "asserted with legislative-citation anchoring"
+    },
+    {
+      "claim": "Behind every digital system must stand a skilled and trusted workforce -- Marcos recently approved RA 12254, the E-Governance Act, defining e-governance as the use of ICT 'to provide public services in a more friendly, convenient, affordable, efficient, and transparent manner.' The Senate has held hearings on blockchain use in government budgeting and procurement, moves that may further ensure transparency and accountability.",
+      "rhetorical_move": "RA-12254 verbatim-definition citation + Senate-blockchain-hearings policy-anchoring",
+      "confidence": "asserted with legislative-citation"
+    },
+    {
+      "claim": "Innovation alone cannot reform governance, any more than elections alone can ensure democracy -- success rests on the people who implement it. During the pandemic, we honored doctors and nurses as frontliners; today, digital platforms demand a new generation of frontliners -- IT experts. Like nurses, many IT professionals seek opportunities abroad or in the private sector; Aon Consulting projections suggest that by next year, one in five skilled Filipinos may change employers, with the IT sector bearing the heaviest losses.",
+      "rhetorical_move": "innovation-alone-cannot-reform aphorism + doctors-and-nurses-vs-IT-experts frontliner parallel + Aon-1-in-5 turnover statistic",
+      "confidence": "asserted with statistical-projection anchoring"
+    },
+    {
+      "claim": "CJP commends the SC and its partners for the CALESA Digital project and its ongoing work to craft an AI Governance Framework to guide AI adoption in courts while preserving judicial integrity -- he hopes this offers essential precautions against inaccuracies in legal documents and fake case-law citations, and reminds the public to exercise critical judgment.",
+      "rhetorical_move": "CALESA + AI-Governance-Framework commendation + fake-case-law-citation precaution charge",
+      "confidence": "asserted with commendation framing"
+    },
+    {
+      "claim": "Nonetheless, we must move forward with creativity and vigilance -- AI is transforming the world faster than the law can catch up. Our response must be governance-led, ethically grounded, and people-centric; in this era, people deserve a judiciary that is not merely efficient in its systems but steadfast in its principles and values -- ready to safeguard liberty and nurture prosperity in an ever-expanding digital space.",
+      "rhetorical_move": "AI-transforms-faster-than-law diagnosis + governance-led/ethically-grounded/people-centric triplet + FLP-signature-philosophy closing",
+      "confidence": "asserted as closing charge"
+    }
+  ],
+  "notable_anecdotes": [
+    "Age-of-revolutions taxonomy opening -- agricultural + industrial + information + AI",
+    "CJP's 2003 'The Bio-Age Dawns on the Judiciary' self-citation as predecessor work to AI bridge",
+    "Emphasis-on-speedy short-sentence rhetorical flourish -- calling out the speedy element of fair-speedy-accessible justice trilogy",
+    "Pandemic-virus-confined-us-to-homes anchoring for digital-space normalization",
+    "Telesurgery (AI + 5G + robotics) lives-across-borders + new-liability-and-ethics-inquiries convergence example",
+    "Twin-guardians of digital domain -- Data Privacy Act (RA 10173) + Cybercrime Prevention Act (RA 10175)",
+    "RA 12254 E-Governance Act verbatim-definition citation",
+    "Senate blockchain budgeting/procurement hearings",
+    "Doctors-and-nurses-vs-IT-experts pandemic-frontliner parallel",
+    "Aon Consulting 1-in-5-skilled-Filipinos-changing-employers projection",
+    "SC CALESA Digital project + AI Governance Framework commendation",
+    "Fake-case-law-citation precaution warning (real concern in AI-era judicial filings)",
+    "Closing FLP-signature philosophy -- safeguard liberty + nurture prosperity"
+  ],
+  "target_audience": [
+    "Judiciary leaders (CJ Gesmundo + post-Gesmundo successors + SC AI Governance Framework drafters)",
+    "Marcos administration policymakers (E-Governance Act implementers)",
+    "Senate (blockchain budgeting/procurement hearings audience)",
+    "Private-sector business leaders (AI business-model transformation audience)",
+    "Filipino IT professionals (Aon turnover-projection audience)",
+    "Legal practitioners (fake-case-law-citation precaution audience)"
+  ],
+  "register_markers": [
+    "Age-of-revolutions historical-taxonomy opening",
+    "Self-citation of 2003 'The Bio-Age Dawns on the Judiciary' as predecessor work",
+    "'Emphasis on speedy' two-word rhetorical-flourish sentence",
+    "All-caps section-lead-ins ('LAST MONTH MARKED THE THIRD YEAR', 'THE DIGITAL SPACE IS EXPANDING', 'BEHIND EVERY DIGITAL SYSTEM')",
+    "Triplet closing -- governance-led + ethically-grounded + people-centric",
+    "Closing FLP-signature philosophy -- safeguard liberty + nurture prosperity"
+  ],
+  "decision_framework_signals": [
+    "Age-of-revolutions taxonomy -- laws transform with technology epochs",
+    "SPJI five-year blueprint -- efficient + accessible + responsive judiciary mission",
+    "Three-sector relevance -- private + public + judiciary",
+    "Twin-guardians legislative model -- Data Privacy + Cybercrime Prevention Acts",
+    "IP-Code-confronts-AI-creativity tension principle",
+    "Innovation-alone-cannot-reform-governance + elections-alone-cannot-ensure-democracy implementation-people principle",
+    "IT-experts-as-digital-frontliners parallel to pandemic doctors/nurses",
+    "AI-transforms-faster-than-law-can-catch-up urgency principle",
+    "Governance-led + ethically-grounded + people-centric response triplet",
+    "Fake-case-law-citation precaution as concrete AI-Governance-Framework safeguard"
+  ],
+  "one_paragraph_summary": "First installment in CJP's AI cluster (A34→E19→E18), opening with the age-of-revolutions taxonomy -- agricultural laws on land and food, industrial laws on commerce and labor, information-age laws on computers and behavior, and now the AI age where technology no longer merely assists but thinks, decides, and acts. He anchors the column on the third-year milestone of the SC's Strategic Plan for Judicial Innovations (SPJI), self-citing his 2003 'The Bio-Age Dawns on the Judiciary' as predecessor work bridging science and jurisprudence. Through a three-sector relevance triangulation (private sector + public sector + judiciary), he flags trust-as-marketplace-currency and the telesurgery liability/ethics example, then invokes the twin guardians (Data Privacy Act RA 10173 + Cybercrime Prevention Act RA 10175) alongside the IP Code (RA 8293) confronting AI human-vs-machine creativity blurring. He celebrates RA 12254 (E-Governance Act) and Senate blockchain hearings, parallels pandemic doctors/nurses with IT experts as new digital frontliners (citing Aon's projection that 1-in-5 skilled Filipinos may change employers next year with IT bearing heaviest losses), and commends the SC's CALESA Digital project + AI Governance Framework -- particularly its precautions against fake case-law citations. He closes that the response must be governance-led, ethically grounded, and people-centric, with the judiciary ready to safeguard liberty and nurture prosperity in an ever-expanding digital space.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

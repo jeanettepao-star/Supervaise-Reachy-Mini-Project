@@ -1,0 +1,182 @@
+{
+  "id": "CA049",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 49,
+  "title": "Quixotic chances of anti-dynasty petitions",
+  "date": "2025-04-14",
+  "link": "https://opinion.inquirer.net/182417/quixotic-chances-of-anti-dynasty-petitions",
+  "keywords": [
+    "Woman Suffrage Day",
+    "PD 2346",
+    "April 30 1937 plebiscite",
+    "gender-based harassment in campaigns",
+    "PPCRV"
+  ],
+  "primary_topics": [
+    "Filipino woman suffrage history",
+    "Misogynistic conduct in current campaigns",
+    "Recognition of Filipina women across politics, judiciary, business, and law"
+  ],
+  "sub_topics": [
+    "Election lawyer Romulo B. Macalintal's reminder on PD 2346",
+    "April 30 proclamation by Marcos Sr. (March 29, 1984)",
+    "1907 American grant of male-only suffrage",
+    "April 30, 1937 plebiscite -- 447,725 Filipino women in favor",
+    "Lawyer-congressional candidate's 'menstruating mothers' remark -- disqualification and disbarment risk",
+    "Video of male candidate urging a kiss with a misogynistic quip",
+    "Leila de Lima's 'deeply appalled and angered' reaction",
+    "Malacañang condemnation; Marcos calling such behavior 'unacceptable'",
+    "PPCRV founder Henrietta 'Tita' De Villa and current chair Evelyn R. Singson",
+    "Female presidents (Aquino, Macapagal-Arroyo) and senators",
+    "Loren Legarda topping Senate race twice",
+    "Bar-topping female SC justices",
+    "J. Singh elected president of International Association of Women Judges",
+    "Tessie Sy Coson and other top businesswomen",
+    "Roster of active female law practitioners"
+  ],
+  "signature_phrases": [
+    "extensions of their husbands and fathers",
+    "the 447,725 brave souls",
+    "turning in their graves",
+    "props or punchlines in political campaigns",
+    "honest, orderly, and peaceful election",
+    "gender-based harassment disguised as campaign humor",
+    "ebullient fighter for gender equality"
+  ],
+  "entities": {
+    "people": [
+      "Atty. Romulo B. Macalintal",
+      "Late President Ferdinand E. Marcos Sr.",
+      "President Ferdinand Marcos Jr.",
+      "Former Senator Leila de Lima",
+      "Henrietta 'Tita' De Villa (former Ambassador to the Vatican; PPCRV founder)",
+      "Evelyn R. Singson (current PPCRV chair)",
+      "Former President Corazon C. Aquino",
+      "Former President Gloria Macapagal-Arroyo",
+      "Sen. Geronima T. Pecson",
+      "Sen. Eva Estrada Kalaw",
+      "Sen. Loren Legarda",
+      "Justice Cecilia A. Muñoz-Palma",
+      "Justice Ameurfina A. Melencio-Herrera",
+      "Justice Carolina C. Griño-Aquino",
+      "Justice Maria Filomena D. Singh",
+      "Tessie Sy Coson",
+      "Betty Ang",
+      "Liza Gokongwei-Cheng",
+      "Susan Co",
+      "Gretchen Oppen-Cojuangco",
+      "Helen Yuchengco-Dee",
+      "Robina Y. Gokongwei-Pe",
+      "Elizabeth T. Sy",
+      "Maria Grace Yao-Uy",
+      "Josephine Gotianun-Yap",
+      "Franchette M. Acosta (Ayala general counsel)",
+      "Marilyn A. Victorio-Aquino (MVP Group senior adviser)",
+      "Darlene Marie B. Berberabe (UP College of Law dean)",
+      "Cynthia del Castillo (Romulo Law)",
+      "Estrella C. Elamparo (Divina Law)",
+      "Joan de Venecia-Fabul (PLDT general counsel)",
+      "Macel Fernandez-Estavillo (Gokongwei Group general counsel)",
+      "Lorna Patajo-Kapunan",
+      "Patricia T. Prodigalidad (ACCRALAW managing partner)",
+      "Sylvette Y. Tankiang (V&A Law)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "Supreme Court of the Philippines",
+      "Parish Pastoral Council for Responsible Voting (PPCRV)",
+      "Senate of the Philippines",
+      "International Association of Women Judges",
+      "BDO",
+      "SM Investments Corp.",
+      "Ayala Corporation",
+      "MVP Group",
+      "University of the Philippines College of Law",
+      "Romulo Law",
+      "Divina Law",
+      "PLDT",
+      "Gokongwei Group",
+      "ACCRALAW",
+      "V&A Law",
+      "Malacañang"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Presidential Decree No. 2346 (March 29, 1984)",
+      "Code of Professional Responsibility and Accountability",
+      "1907 Philippine Bill / American colonial suffrage rule (male-only)"
+    ],
+    "events": [
+      "April 30, 1937 plebiscite (447,725 women in favor of suffrage)",
+      "Lawyer-candidate's 'menstruating mothers' campaign remark",
+      "Video of male candidate's misogynistic quip about a widowed candidate",
+      "J. Singh's unanimous election as IAWJ president in Cape Town",
+      "Loren Legarda topping Senate races in 1998 and 2007"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "April 30 is Woman Suffrage Day under Marcos Sr.'s PD 2346 (March 29, 1984), commemorating the 447,725 Filipino women who voted themselves into the franchise in the 1937 plebiscite.",
+      "rhetorical_move": "historical anchoring with statute citation",
+      "confidence": "high"
+    },
+    {
+      "claim": "The hard-won victory of 1937 is under assault today by individuals -- including a lawyer-candidate facing Comelec disqualification and SC disbarment -- who treat women as props or punchlines in political campaigns.",
+      "rhetorical_move": "present-tense indictment grounded in named incidents",
+      "confidence": "high"
+    },
+    {
+      "claim": "Lawyers' offensive or improper remarks violate the SC's Code of Professional Responsibility and Accountability.",
+      "rhetorical_move": "professional-ethics anchor",
+      "confidence": "high"
+    },
+    {
+      "claim": "President Marcos's condemnation of such behavior as 'unacceptable' is a timely reminder consistent with his father's proclamation of Woman Suffrage Day.",
+      "rhetorical_move": "intergenerational continuity framing",
+      "confidence": "high"
+    },
+    {
+      "claim": "Filipinas have broken glass ceilings across politics, judiciary, business, and law -- a roster worth naming so that the suffragists' legacy is not diminished.",
+      "rhetorical_move": "closing honor-roll affirmation",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 447,725 Filipino women who cast ballots on April 30, 1937 in favor of granting themselves the right to suffrage -- 88 years earlier as of column date.",
+    "A lawyer-congressional candidate at risk of Comelec disqualification and SC disbarment for saying single, still menstruating mothers could sleep with him once a year if he got elected.",
+    "Another male candidate caught on video urging a man to kiss a widowed female board-member candidate, quipping her 'something' was 'already closed' and needed to be 'loosened' -- drawing Leila de Lima's 'deeply appalled and angered' reaction.",
+    "J. Maria Filomena D. Singh's recent unanimous election as president of the International Association of Women Judges in Cape Town, South Africa.",
+    "Author's parenthetical 'in alphabetical order' format used as a fairness device across the women's rosters."
+  ],
+  "target_audience": [
+    "Voters preparing for upcoming elections",
+    "Lawyer-candidates and other lawyers facing ethics scrutiny",
+    "Comelec and the Supreme Court (Bar discipline)",
+    "PPCRV volunteers and election watchdogs",
+    "Filipina professionals across politics, law, judiciary, and business",
+    "Civic readers commemorating Woman Suffrage Day"
+  ],
+  "register_markers": [
+    "Commemorative-civic register",
+    "Statistical historical anchor (447,725; 88 years)",
+    "Named-and-shamed (without naming) campaign incidents",
+    "ALL-CAPS exhortation transitions",
+    "Multi-domain honor rosters in alphabetical order",
+    "Hortatory closing call to action",
+    "Linkage to lawyer-ethics enforcement (Code of Professional Responsibility and Accountability)"
+  ],
+  "decision_framework_signals": [
+    "Tie celebration of suffrage to ongoing vigilance against misogynistic conduct",
+    "Use professional codes (lawyer's CPR) as enforceable backstops against campaign abuses",
+    "Anchor reminders in named statutes (PD 2346) to give civic memorials durable footing",
+    "Track multi-domain female firsts (presidency, Senate, SC, MAP, IAWJ) as integrated progress",
+    "Use alphabetical ordering of names as a fairness/parity device",
+    "Pair condemnation from the highest office (President) with continued grassroots vigilance (PPCRV)",
+    "Frame gender-based harassment 'disguised as campaign humor' as a category of harm worth naming"
+  ],
+  "one_paragraph_summary": "Prompted by election lawyer Romulo B. Macalintal's reminder, Panganiban marks April 30 as Woman Suffrage Day under Marcos Sr.'s Presidential Decree No. 2346 (March 29, 1984), commemorating the 447,725 Filipino women who, in a plebiscite on April 30, 1937, voted themselves into the franchise -- 88 years before this column. He recalls that suffrage in the Philippines, granted by American colonizers in 1907, was male-only because women were dismissed as 'extensions of their husbands and fathers' and classed with minors, illiterates, aliens, and the insane. He warns the hard-won victory is now under assault -- not by law but by misogynistic campaign conduct -- citing a lawyer-congressional candidate facing both Comelec disqualification and SC disbarment for proposing that single, still menstruating mothers could sleep with him once a year if elected, and another male candidate caught on video urging a man to kiss a widowed female board-member candidate while quipping her 'something' was 'already closed' and needed to be 'loosened,' which drew former senator Leila de Lima's 'deeply appalled and angered' rebuke. Even Malacañang has condemned such behavior, with President Marcos calling it 'unacceptable' -- a continuity with his father's 1984 proclamation. He honors Henrietta 'Tita' De Villa as founder and chair emeritus of the Parish Pastoral Council for Responsible Voting and Evelyn R. Singson as its current chair, then catalogues Filipina firsts: presidents Cory Aquino and Gloria Macapagal-Arroyo; senators Pecson, Kalaw, and Loren Legarda (topping the Senate race twice in 1998 and 2007); bar-topping SC justices Muñoz-Palma, Melencio-Herrera, and Griño-Aquino; and J. Maria Filomena D. Singh's unanimous election as president of the International Association of Women Judges in Cape Town. He closes with rosters of leading businesswomen led by Tessie Sy Coson and active lady law practitioners across Ayala, MVP, UP, Romulo, Divina, PLDT, Gokongwei, ACCRALAW, and V&A Law -- calling on the public not to diminish the suffragists' legacy by tolerating or laughing at gender-based harassment disguised as campaign humor.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "CA311",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 311,
+  "title": "Not easy to bring Duterte to ICC",
+  "date": "2017-05-21",
+  "link": "https://opinion.inquirer.net/104168/not-easy-bring-duterte-icc",
+  "keywords": [
+    "ICC complaint Duterte",
+    "Rome Statute",
+    "complementarity principle",
+    "crimes against humanity",
+    "Fatou Bensouda",
+    "drug war ICC",
+    "Office of Special Prosecutor",
+    "Raul Pangalangan"
+  ],
+  "primary_topics": [
+    "Systematic analysis of the multiple legal hurdles to indicting Duterte in the ICC",
+    "Complementarity principle as the primary barrier: Philippine domestic remedies must be exhausted first",
+    "ICC prosecutorial process and the Pre-Trial Chamber authorization requirement"
+  ],
+  "sub_topics": [
+    "Rome Statute signed July 17, 1998; in force July 1, 2002",
+    "Philippines signed December 20, 2000; Senate ratified April 23, 2011 (17-1)",
+    "Dr. Raul Pangalangan (UP Law dean, former Inquirer publisher) as ICC member",
+    "Complementarity principle (Art. 17): ICC declines if state is investigating/prosecuting, unless unwilling or unable",
+    "Impeachment dismissal insufficient proof of unwillingness/inability -- impeachment ≠ criminal prosecution",
+    "Other domestic remedies: Ombudsman motu proprio investigation, post-term suit",
+    "Three OSP initiation routes: (1) member-state request, (2) UN Security Council, (3) OSP proprio motu",
+    "Only viable route: OSP proprio motu -- PH won't self-refer; China likely to veto UNSC",
+    "OSP must analyze seriousness → submit to Pre-Trial Chamber for authorization",
+    "Pre-Trial Chamber has declined authorization in prior cases -- not rubber stamp",
+    "Bensouda's office monitoring PH but no formal preliminary investigation authorization yet",
+    "Art. 25 individual criminal responsibility as additional hurdle (not elaborated -- ran out of space)",
+    "Three key ICC documents: Rome Statute, ICC Rules of Procedure, Elements of Crimes"
+  ],
+  "signature_phrases": [
+    "not a walk in the park",
+    "unwilling or unable genuinely to carry out the investigation or prosecution",
+    "complementarity",
+    "court of last resort",
+    "China will probably veto it",
+    "closely monitor developments in the Philippines",
+    "ran out of space",
+    "one must master at least three vital documents"
+  ],
+  "entities": {
+    "people": [
+      "President Rodrigo Duterte (respondent in ICC complaint)",
+      "ICC Chief Prosecutor Fatou Bensouda",
+      "Dr. Raul C. Pangalangan (ICC member, UP Law dean, former Inquirer publisher)",
+      "Ombudsman (unnamed -- authorized to investigate motu proprio)",
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "International Criminal Court (ICC)",
+      "Office of the Special Prosecutor (OSP)",
+      "ICC Pre-Trial Chamber",
+      "ICC Appeals Chamber",
+      "ICC Trial Chamber",
+      "Department of Foreign Affairs (DFA)",
+      "Office of the Ombudsman",
+      "UN Security Council",
+      "Senate of the Philippines"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Rome Statute (signed July 17, 1998; in force July 1, 2002) -- Art. 15 (OSP initiation), Art. 17 (complementarity), Art. 25 (individual criminal responsibility)",
+      "ICC Rules of Procedure",
+      "ICC Elements of Crimes"
+    ],
+    "events": [
+      "Philippines signing of Rome Statute (December 20, 2000)",
+      "Philippine Senate ratification (April 23, 2011, 17-1)",
+      "ICC complaint filed against Duterte for alleged crimes against humanity",
+      "Dismissal of impeachment complaint against Duterte",
+      "Bensouda announcing monitoring of PH developments"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The complementarity principle (Art. 17) is the primary barrier: the ICC will decline jurisdiction unless the Philippines is 'unwilling or unable genuinely' to investigate/prosecute Duterte — and the dismissal of his impeachment complaint is insufficient proof, because impeachment is not a criminal investigation.",
+      "rhetorical_move": "procedural-hurdle identification: distinguishing impeachment from criminal prosecution to rebut the unwillingness argument",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The only realistically viable ICC prosecutorial pathway is OSP proprio motu initiation — the Philippines will not self-refer, and China will likely veto any UNSC referral — and even that pathway requires Pre-Trial Chamber authorization that has been denied in prior cases.",
+      "rhetorical_move": "three-option elimination analysis: ruling out two pathways (self-referral, UNSC) to identify the sole viable route and then qualifying its difficulty",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Bensouda's public monitoring statement does not constitute a formal preliminary investigation — the Pre-Trial Chamber authorization has not been sought, let alone granted — making any ICC prosecution of Duterte still very far from initiation.",
+      "rhetorical_move": "procedural-status update as a reality check on public misperceptions about ICC progress",
+      "confidence": "asserted as factual status"
+    }
+  ],
+  "notable_anecdotes": [
+    "Dr. Raul Pangalangan — former UP Law dean and former Inquirer publisher — being an ICC member: CJ notes this Philippine connection to the Court as a quiet signal of the country's institutional investment in the ICC, before proceeding to explain why that investment does not make the Duterte case easy.",
+    "The China veto observation — 'the Security Council … given that China will probably veto it' — as a geopolitical realism aside that diplomatically but unmistakably identifies China's protective posture toward Duterte as a structural obstacle to UNSC referral.",
+    "CJ's rare admission that he 'ran out of space' before covering Art. 25 individual criminal responsibility — a candid acknowledgment of the column's space constraint that also signals the ICC case's complexity exceeds a single column's analytical capacity."
+  ],
+  "target_audience": [
+    "Legal practitioners and advocates considering ICC strategies against Duterte",
+    "Human rights organizations tracking the PH drug war accountability landscape",
+    "Law students and academics studying international criminal law and the Rome Statute",
+    "Political analysts assessing the feasibility of international accountability mechanisms",
+    "General civic readership following ICC developments related to the drug war"
+  ],
+  "register_markers": [
+    "international-law explainer register (Rome Statute provisions cited by article number)",
+    "three-option elimination register (member-state, UNSC, OSP proprio motu)",
+    "geopolitical-realism aside (China veto as structural obstacle)",
+    "procedural-status-update register (Bensouda monitoring ≠ formal investigation)",
+    "humility-of-space qualifier ('ran out of space', 'suffice it to say')",
+    "practitioner-advisory close (three documents to master for ICC litigation)"
+  ],
+  "decision_framework_signals": [
+    "applies complementarity-principle test as the threshold gateway — domestic remedies exhausted first",
+    "uses three-option elimination to identify the sole viable ICC prosecutorial pathway",
+    "distinguishes impeachment from criminal prosecution as procedural categories for complementarity analysis",
+    "treats Pre-Trial Chamber authorization as a meaningful independent check (not a rubber stamp)",
+    "uses Bensouda's public statement to calibrate the actual procedural status vs public perception"
+  ],
+  "one_paragraph_summary": "Panganiban systematically identifies the multiple legal hurdles to indicting President Duterte in the ICC for alleged crimes against humanity. The primary barrier is the complementarity principle (Art. 17 Rome Statute): the ICC will decline unless the Philippines is 'unwilling or unable genuinely' to investigate or prosecute him, and the mere dismissal of his impeachment complaint is insufficient proof -- impeachment is not a criminal investigation, and the Ombudsman retains authority to investigate motu proprio and sue him after his term. Even if complementarity is overcome, the three prosecutorial initiation pathways each have obstacles: the Philippines will not self-refer; China would likely veto a UNSC referral; and even OSP proprio motu initiation requires Pre-Trial Chamber authorization that has been denied in prior cases. He notes that ICC Chief Prosecutor Bensouda has only said her office will 'closely monitor developments' -- no formal preliminary investigation authorization has been sought or granted. He closes by noting that Art. 25 (individual criminal responsibility) presents additional hurdles he has no space to address, and that anyone seriously pursuing an ICC case must master three key documents: the Rome Statute, the ICC Rules of Procedure, and the Elements of Crimes.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,142 @@
+{
+  "id": "CA487",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 487,
+  "title": "Aquino's angels",
+  "date": "2012-09-01",
+  "link": "https://opinion.inquirer.net/35908/aquinos-angels",
+  "keywords": [
+    "Aquino angels four INs Sereno Morales Tan",
+    "Ombudsman Morales protector of the people",
+    "COA Chair Tan sentinel government assets",
+    "De Lima DOJ Secretary prosecution arm",
+    "BIR Commissioner Henares RATE program"
+  ],
+  "primary_topics": [
+    "Aquino's three constitutional 'angels' -- Sereno, Morales, Tan -- independent of the President",
+    "Three other key female appointees under the President's direction",
+    "Independence as the paramount trait of constitutional officers"
+  ],
+  "sub_topics": [
+    "Historically variable CJ appointment luck: Marcos, Cory, Arroyo named multiple; Ramos none",
+    "P-Noy breaking insider tradition with Sereno",
+    "Four INs: intelligent, independent, industrious, incorruptible",
+    "Matuwid na daan vision",
+    "Sereno: loyalty first to Constitution (CIPI: competence, integrity, probity, independence)",
+    "Independence of CJ: from President, Congress, business, labor, NGOs, media",
+    "Ombudsman Conchita Carpio Morales: 'protector of the people'; investigates illegal/unjust/improper/inefficient acts",
+    "RA 6770: OMB has disciplinary authority over elective/appointive officials, Cabinet, but not impeachable officials",
+    "OMB can investigate impeachable officials for: (1) impeachment complaint filing, (2) ill-gotten wealth civil cases, (3) criminal indictments post-term",
+    "Historical contrast: 1935 Constitution -- DoJ prosecuted officials (partisan); 1987 -- OMB independent",
+    "COA Chair Grace Pulido Tan: sentinel of government assets; examines all revenue/expenditures/government property",
+    "COA chair 7-year fixed term; fiscal independence; removed only by impeachment",
+    "Both Morales and Tan will outlast P-Noy's 6-year term",
+    "DOJ Secretary Leila de Lima: prosecution arm; determines crime and probable perpetrators",
+    "DSWD Secretary Dinky Soliman: CCT program for the poor",
+    "BIR Commissioner Kim Henares: RATE program; tax cases against celebrities/businessmen",
+    "SEC Chair Teresita Herbosa: investor protection, corporate governance, business ethics",
+    "PMS Chief Julia Abad: gatekeeper, background intelligence, reads P-Noy's mind"
+  ],
+  "signature_phrases": [
+    "angels armed with four INs",
+    "intelligent, independent, industrious and incorruptible",
+    "matuwid na daan",
+    "CIPI",
+    "protector of the people",
+    "sentinel of government assets",
+    "prosecution arm of the executive branch",
+    "RATE program",
+    "brilliant lawyer-descendant of Jose Rizal",
+    "can read P-Noy's mind like no one else"
+  ],
+  "entities": {
+    "people": [
+      "CJ Maria Lourdes P. A. Sereno",
+      "Ombudsman Conchita Carpio Morales",
+      "COA Chair Grace Pulido Tan",
+      "DOJ Secretary Leila de Lima",
+      "DSWD Secretary Dinky Soliman",
+      "BIR Commissioner Kim Henares",
+      "SEC Chair Teresita Herbosa",
+      "PMS Chief Julia Abad",
+      "Executive Secretary Paquito Ochoa Jr.",
+      "President Benigno Aquino III",
+      "President Ferdinand Marcos",
+      "President Corazon Aquino",
+      "President Gloria Macapagal Arroyo",
+      "President Fidel Ramos"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Office of the Ombudsman",
+      "Commission on Audit (COA)",
+      "Department of Justice (DOJ)",
+      "Department of Social Welfare and Development (DSWD)",
+      "Bureau of Internal Revenue (BIR)",
+      "Securities and Exchange Commission (SEC)",
+      "Presidential Management Staff (PMS)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution (CIPI; OMB as protector of people)",
+      "Republic Act No. 6770 (Ombudsman Act)"
+    ],
+    "events": [
+      "Sereno's appointment as CJ (August 2012)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The three constitutional 'angels' -- Sereno, Morales, and Tan -- are independent of the President and owe their loyalty first to the Constitution; they will outlast P-Noy's term.",
+      "rhetorical_move": "independence-as-design-feature framing",
+      "confidence": "high"
+    },
+    {
+      "claim": "Independence of constitutional officers from the President, Congress, business, labor, NGOs, and media is the most important of the four INs.",
+      "rhetorical_move": "hierarchy-of-virtues assertion",
+      "confidence": "high"
+    },
+    {
+      "claim": "The shift from DoJ prosecution (1935 Constitution) to OMB investigation (1987) reflects the lesson that partisan prosecution of officials under the old system corrupted accountability.",
+      "rhetorical_move": "constitutional-evolution explanation",
+      "confidence": "high"
+    },
+    {
+      "claim": "The three other female appointees -- de Lima, Soliman, Henares, Herbosa, and Abad -- are under the President's direction and their actions are appealable to the Office of the President.",
+      "rhetorical_move": "dependent-vs-independent officer distinction",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Aquino's 'uncanny knack and good luck' in appointing a 'gutsy corps of angels' -- the author's characterization of the President's record of female appointment choices as a distinctive personnel style.",
+    "Herbosa described as a 'brilliant lawyer-descendant of Jose Rizal' -- the most striking personal biography detail in the list of Aquino's women appointees.",
+    "PMS Chief Julia Abad described as able to 'read P-Noy's mind like no one else' -- the most intimate institutional-proximity description in the column.",
+    "Both Morales and Tan will outlast P-Noy's six-year term -- highlighting that the constitutional officers are designed to be a check even on the president who appointed them."
+  ],
+  "target_audience": [
+    "Civic readership assessing the Aquino administration's institutional roster",
+    "Constitutional law scholars on the independence of constitutional officers",
+    "Business community evaluating SEC governance under Herbosa",
+    "Taxpayers interested in BIR's RATE program",
+    "Anti-corruption advocates tracking OMB independence"
+  ],
+  "register_markers": [
+    "Angel metaphor for all six female appointees",
+    "Four INs mnemonic (intelligent, independent, industrious, incorruptible)",
+    "CIPI code word for constitutional judicial standards",
+    "Independent vs dependent officer distinction",
+    "Jose Rizal lineage bio-detail",
+    "Mind-reading intimacy descriptor for PMS chief"
+  ],
+  "decision_framework_signals": [
+    "Evaluate constitutional officers against four INs: intelligent, independent, industrious, incorruptible",
+    "Apply the independence test broadly: independent from President, Congress, business, labor, NGOs, and media",
+    "Distinguish constitutional angels (independent, 7-year or longer terms, impeachable only) from executive angels (under presidential direction, orders appealable to OP)",
+    "Track whether constitutional officers -- especially those with terms outlasting the appointing president -- maintain their independence through the full term"
+  ],
+  "one_paragraph_summary": "Panganiban profiles President Aquino's 'gutsy corps of angels' -- female appointees to critical posts -- distinguishing three constitutional officers independent of the President from three others under his direct supervision. The three independent constitutional angels: (1) CJ Maria Lourdes P. A. Sereno, first woman CJ, whose loyalty is first to the Constitution (CIPI: competence, integrity, probity, independence -- with independence most paramount), chosen from the JBC list without owing any debt to P-Noy; (2) Ombudsman Conchita Carpio Morales, the 'protector of the people,' authorized under RA 6770 to investigate any public official for illegal, unjust, improper, or inefficient acts -- not impeachable officials directly but for the purpose of impeachment complaint filing, ill-gotten wealth civil cases, and post-term criminal indictments; (3) COA Chair Grace Pulido Tan, sentinel of government assets, with a 7-year fixed term and fiscal independence -- both Morales and Tan will outlast P-Noy's term. The three dependent officials: DOJ Secretary de Lima (prosecution arm, determines probable cause for crime), DSWD Secretary Soliman (CCT program), and BIR Commissioner Henares (RATE program, tax cases against celebrities and businessmen), plus SEC Chair Herbosa (investor protection; 'brilliant lawyer-descendant of Jose Rizal') and PMS Chief Julia Abad (presidential gatekeeper who 'can read P-Noy's mind like no one else'). The author notes that the shift from 1935's partisan DoJ prosecution to 1987's independent OMB reflects the lesson that partisan accountability mechanisms are unreliable.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

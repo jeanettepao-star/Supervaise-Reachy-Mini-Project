@@ -1,0 +1,128 @@
+{
+  "id": "CA288",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 288,
+  "title": "What Alvarez wants, Alvarez gets",
+  "date": "2018-01-14",
+  "link": "https://opinion.inquirer.net/110248/alvarez-wants-alvarez-gets",
+  "keywords": [
+    "Con-ass timeline Pimentel Alvarez",
+    "joint vs separate voting three-fourths",
+    "SC key role Cha-cha voting",
+    "parliamentary system alternative",
+    "60-90 day plebiscite window"
+  ],
+  "primary_topics": [
+    "Pimentel vs Alvarez split on Cha-cha timeline and voting procedure",
+    "SC's decisive role in joint vs separate voting issue",
+    "Four hurdles to speedy Cha-cha"
+  ],
+  "sub_topics": [
+    "Pimentel: Con-ass now through end 2018, plebiscite with May 2019 midterms, separate voting",
+    "Alvarez: fast-track in 3 months, plebiscite with May 2018 barangay elections, joint voting",
+    "1986 ConCom took ~1 year full-time including ratification",
+    "Verba legis argument: Charter says 'Congress... three-fourths of all its Members' without 'separate'",
+    "Legislative intent argument: 1986 ConCom framers' clear intent for separate voting (Puno and Mendoza testified)",
+    "SC's key role: rule on joint vs separate voting swiftly",
+    "Hurdle 1: thinking Senate (Lacson: cannot be dictated upon, not even by the President)",
+    "Hurdle 2: SC may not go along with joint vote",
+    "Hurdle 3: lack of popular support for federalism; vague and complicated proposals",
+    "Alternative: parliamentary system only (lengthily discussed in two prior Cha-cha attempts)",
+    "Hurdle 4: 60-90 day constitutional plebiscite window compliance",
+    "Politician-friends' verdict: what Alvarez wants, Alvarez gets"
+  ],
+  "signature_phrases": [
+    "the thinking Senate",
+    "what Alvarez wants, Alvarez gets",
+    "near-miraculous",
+    "verba legis",
+    "one-year sleeper voting separately",
+    "three-month express voting jointly",
+    "the key to speedy Cha-cha is to ask the Supreme Court"
+  ],
+  "entities": {
+    "people": [
+      "Senate President Aquilino Pimentel III",
+      "House Speaker Pantaleon Alvarez",
+      "Sen. Panfilo Lacson",
+      "Ret. CJ Reynato S. Puno",
+      "Ret. Justice Vicente V. Mendoza",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Senate of the Philippines",
+      "House of Representatives",
+      "1986 Constitutional Commission (historical reference)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution, Article XVII (amendment/revision procedure)",
+      "1987 Constitution (60-90 day plebiscite window)"
+    ],
+    "events": [
+      "Pimentel-Alvarez agreement on Con-ass mode",
+      "House hearings on joint vs separate voting (Puno and Mendoza testified)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The verba legis argument favors joint voting -- the Charter says 'three-fourths of all its Members' without the word 'separate'; but legislative intent as shown in the 1986 ConCom proceedings favors separate voting.",
+      "rhetorical_move": "even-handed presentation of both sides before SC assignment",
+      "confidence": "high"
+    },
+    {
+      "claim": "The key to speedy Cha-cha is a swift SC ruling on joint vs separate voting.",
+      "rhetorical_move": "institutional-routing prescription",
+      "confidence": "high"
+    },
+    {
+      "claim": "Four hurdles block speedy Cha-cha: the thinking Senate, the SC, lack of popular support for federalism, and the 60-90 day plebiscite timeline.",
+      "rhetorical_move": "obstacle-enumeration as analytical framework",
+      "confidence": "high"
+    },
+    {
+      "claim": "The alternative to fast-track federalism is a parliamentary-system-only change -- it has the advantage of having been lengthily discussed in two prior Cha-cha attempts.",
+      "rhetorical_move": "simpler-alternative endorsement",
+      "confidence": "high"
+    },
+    {
+      "claim": "Based on Alvarez's track record as Speaker, what Alvarez wants, Alvarez gets -- but the four hurdles may be too formidable even for him.",
+      "rhetorical_move": "politician-observation closing with implicit caution",
+      "confidence": "medium"
+    }
+  ],
+  "notable_anecdotes": [
+    "Ret. CJ Puno and Ret. Justice Mendoza both testifying in House hearings that the 1986 ConCom framers clearly intended separate voting -- a remarkable instance of former SC justices providing legislative-history evidence in a constitutional debate.",
+    "Sen. Lacson's blunt statement that the Senate 'cannot be dictated upon, not even by the President' -- illustrating why the 'thinking Senate' is the first hurdle.",
+    "The '1986 ConCom took about a year full-time' benchmark against the proposed three-month Alvarez express -- a timeline impossibility comparison.",
+    "Politician-friends' verdict as the column's closing punch line: 'what Alvarez wants, Alvarez gets' -- a folk-wisdom summary from political insiders."
+  ],
+  "target_audience": [
+    "Senate and House leadership deciding the Con-ass modalities",
+    "SC justices being asked to rule on joint vs separate voting",
+    "Constitutional law scholars",
+    "Federalism proponents and opponents",
+    "Civic society tracking the Cha-cha speedometer"
+  ],
+  "register_markers": [
+    "Two-camp structure (Pimentel vs Alvarez)",
+    "Verba legis vs legislative intent doctrinal exposition",
+    "Four-hurdle enumeration",
+    "Politician-observation closing",
+    "Train/express metaphor",
+    "Cross-reference to prior Jan. 7 column"
+  ],
+  "decision_framework_signals": [
+    "Route the joint-vs-separate-voting dispute to the SC for a swift declaratory ruling",
+    "Apply verba legis: when the Charter is silent on 'separate,' that silence is the textual basis for joint voting",
+    "But test against legislative intent: ConCom proceedings show framers intended separate -- so the SC must weigh both",
+    "Map the four hurdles before assessing any Cha-cha timeline as feasible",
+    "Consider the parliamentary-only alternative as a lower-resistance path when federalism cannot achieve consensus"
+  ],
+  "one_paragraph_summary": "Panganiban reports that Pimentel and Alvarez agreed on the Con-ass mode but split on timeline and voting: Pimentel wants one year with separate voting and a 2019 plebiscite; Alvarez wants three months with joint voting and a May 2018 barangay-election plebiscite. The author identifies the SC as the key: it must swiftly rule on joint vs separate voting. The verba legis argument favors joint voting (the Charter says 'three-fourths of all its Members' without 'separate'); the legislative intent argument (supported by Ret. CJ Puno and Ret. Justice Mendoza in House hearings) favors separate. He identifies four hurdles: (1) the 'thinking Senate' that Lacson says cannot be dictated upon, not even by the President; (2) the SC, which may not go along with joint voting; (3) lack of popular support for federalism -- vague and complicated, with no traction for any specific model; and (4) the constitutional requirement of a plebiscite 60-90 days after approval, a tight timeline. He suggests that if federalism cannot be sold, the alternative is to install only the parliamentary system -- a proposal with a long discussion history from two prior Cha-cha attempts. He closes with his politician-friends' verdict: based on Alvarez's track record as Speaker, what Alvarez wants, Alvarez gets.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

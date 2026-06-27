@@ -1,0 +1,183 @@
+{
+  "id": "CE019",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 19,
+  "title": "AI can create value and build trust",
+  "date": "2025-11-17",
+  "link": "https://opinion.inquirer.net/187542/ai-can-create-value-and-build-trust",
+  "keywords": [
+    "artificial intelligence",
+    "business",
+    "cybersecurity",
+    "trust",
+    "leadership"
+  ],
+  "primary_topics": [
+    "Third in AI-cluster (A34 → E19 → E18) -- business-and-consumer-and-leader three-lens AI framing",
+    "Alexa-in-living-room domestic-vignette -- AI evolving from tool to assistant + agent influencing language and actions",
+    "Three-lens framework -- (1) businessperson delivering customer value + (2) consumer seeking better quality of life + (3) leader balancing innovation's promise and peril",
+    "AI-akin-to-fire metaphor -- useful but dangerous if uncontrolled; chemistry-of-fire-remains-what-it-is invariance principle",
+    "Leaders-as-choice-architects designing cultures that influence behavior + creating value + building trust"
+  ],
+  "sub_topics": [
+    "CJP self-positioning -- 'ancient me' + 'just a curious learner' + not-an-expert",
+    "Alexa-in-CJP's-living-room domestic vignette -- isolated + starved of data + embedded in cloud larger than CJP's social network",
+    "Programmed-vs-organic intelligence line-blurring",
+    "Small-business-vs-large-company feedback asymmetry -- AI as great-equalizer for Philippines's mostly-small businesses",
+    "AI strengths -- processing vast data + personalizing offers + forecasting demands + automating tasks",
+    "2017 Equifax incident -- 140M-customer data breach as trust-erosion exemplar",
+    "AI cybersecurity counter-application -- instant anomaly detection",
+    "Concrete AI breakthroughs -- AlphaFold (drug discovery + antibiotic resistance) + Seeing AI (visually impaired image recognition) + self-driving cars + research assistants",
+    "Trade-offs -- saved time wasted on plagiarism + excessive screen use + social withdrawal",
+    "Overreliance critique -- critical thinking + independent problem-solving + emotional intelligence + tone-reading + authenticity-detection skills eroded",
+    "AI-fluent-story-in-seconds eroding healthy-skepticism",
+    "Scientific-community self-correcting spirit + cannot-rely-solely-on-AI-to-handle-scrutiny",
+    "AI-akin-to-fire metaphor -- discovery + controlled use + cooked food + brain-intelligence-boost",
+    "Bushfires-tamed-not-by-rain-but-by-skilled-firefighters/water-cannons/sprinklers -- adaptive-system imagery",
+    "DeepMind AlphaGo defeats -- Fan Hui + Lee Sedol with millennia-unseen novel moves",
+    "Industrialization-environmental-ruin sobering reminder -- mind-and-morality-realm parallel warning",
+    "Choice-architect leadership coinage -- designing cultures + creating value + building trust"
+  ],
+  "signature_phrases": [
+    "I do not claim to be an expert. I am just a curious learner",
+    "ancient me",
+    "Alexa",
+    "speed must not outrun responsibility",
+    "AI can be a great equalizer",
+    "I consider AI akin to fire",
+    "the chemistry of fire remains what it is and will always be",
+    "we must be movers",
+    "choice architects",
+    "create value and build trust",
+    "blurring lines between programmed and organic intelligence"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban ('ancient me' + 'curious learner')",
+      "Fan Hui (Go master defeated by AlphaGo)",
+      "Lee Sedol (Go master defeated by AlphaGo)"
+    ],
+    "institutions": [
+      "Equifax (2017 data breach -- 140M customers)",
+      "DeepMind (AlphaGo developer)",
+      "Philippine small-business sector"
+    ],
+    "cases": [],
+    "products_and_technologies": [
+      "Alexa (Amazon voice assistant -- in CJP's living room)",
+      "AlphaFold (DeepMind protein-structure prediction for drug discovery)",
+      "Seeing AI (Microsoft visually-impaired image-recognition)",
+      "Self-driving cars",
+      "AI research assistants (student deadline use)",
+      "AlphaGo (DeepMind Go-playing AI)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Last week CJP took up AI as it relates to the judiciary; now AI is a force that reshapes every sector and challenges even enthusiasts like 'ancient me' to keep up -- CJP is lucky to witness this unfolding phenomenon for two reasons: (1) it renews his awe for human super-creativity, and (2) it gives him the energy and fire to contribute to the discourse. CJP does not claim to be an expert; he is just a curious learner.",
+      "rhetorical_move": "back-reference to A34 + ancient-me + curious-learner humble-positioning opening",
+      "confidence": "asserted with humble-curious-learner self-positioning"
+    },
+    {
+      "claim": "In CJP's living room sits Alexa -- if she could emote, she would admit feeling isolated, starved of data and interaction. Though CJP considers it merely a tool, AI is evolving into assistants and agents that influence his language and actions; AI mimics collaborations once deemed exclusive to humans, blurring lines between programmed and organic intelligence. Alexa, after all, is never truly detached; she is embedded in a cloud of data far larger than CJP's social network.",
+      "rhetorical_move": "Alexa-in-living-room domestic-vignette + programmed-vs-organic-line-blurring framing",
+      "confidence": "asserted with personal-vignette anchoring"
+    },
+    {
+      "claim": "Businesswise, CJP explores AI through three lenses -- (1) the businessperson delivering customer value; (2) the consumer seeking a better quality of life; and (3) the leader balancing innovation's promise and peril.",
+      "rhetorical_move": "three-lens organizational framework",
+      "confidence": "asserted as section-organizing thesis"
+    },
+    {
+      "claim": "Business is really about understanding people -- at its core, business offers value to customers, solving problems and providing products and services. To be customer-centric and enhance value, it needs capable teams, decisive plans, trusted partners, and deep customer insight. Small businesses get quick but limited feedback while large companies face overwhelming data -- AI excels in processing vast data in real time, personalizing offers, forecasting demands, and automating tasks. But speed must not outrun responsibility.",
+      "rhetorical_move": "business-fundamentals reminder + AI-strengths-cascade + speed-must-not-outrun-responsibility caveat",
+      "confidence": "asserted as business-context framing"
+    },
+    {
+      "claim": "Data breaches -- like the 2017 Equifax incident that exposed private information of over 140 million customers -- can erode trust; conversely, AI can strengthen cybersecurity by detecting anomalies instantly. In the Philippines where businesses are mostly small, AI can be a great equalizer, offering affordable tools to expand markets, cut inefficiencies, and compete globally. Used wisely, it can democratize opportunity.",
+      "rhetorical_move": "Equifax-140M-customers exemplar + AI-as-cybersecurity-counter-application + Philippine-small-business equalizer framing",
+      "confidence": "asserted with concrete-exemplar anchoring"
+    },
+    {
+      "claim": "AI promises convenience and breakthroughs -- AlphaFold accelerates drug discovery to combat antibiotic resistance + Seeing AI aids visually impaired with image recognition + self-driving cars navigate traffic easily + research assistants help students meet deadlines.",
+      "rhetorical_move": "AI-breakthrough roster -- AlphaFold + Seeing AI + self-driving + research assistants",
+      "confidence": "asserted as benefit-cascade"
+    },
+    {
+      "claim": "But trade-offs loom -- is 'saved' time and effort truly liberating, or is it masked by hidden or unrealized costs? A student who uses AI for research may gain precious hours for rest and leisure; yet that saved time could be wasted on plagiarism, excessive screen use, or social withdrawal. Emerging studies warn that overreliance on AI undermines essential skills -- critical thinking and independent problem-solving; without these, we can lose our ability to discern truth from deception and fact from disinformation. This erosion also diminishes emotional intelligence and the capacity to decipher tone, read between the lines, and detect authenticity. Journeys into virtual spaces may impair the sensitivities that make us human.",
+      "rhetorical_move": "saved-time-question + plagiarism/screen-use/withdrawal cascade + skill-erosion + emotional-intelligence-cascade warnings",
+      "confidence": "asserted with cascading-tradeoff warnings"
+    },
+    {
+      "claim": "In a free market of ideas, accessibility brings convenience -- when AI delivers a fluent story in seconds, it can erode our healthy skepticism about its fallibility. As with any scientific hypothesis, an innovation must be tested to see if it stands up to scrutiny, or if it needs to be reformulated or rejected. The scientific community thrives on this self-correcting spirit, a mechanism vital to the ethical pursuit of knowledge. We cannot rely solely on AI to handle this scrutiny for us.",
+      "rhetorical_move": "AI-fluency-erodes-skepticism + scientific-self-correcting-spirit invocation + cannot-rely-solely-on-AI scrutiny-charge",
+      "confidence": "asserted as epistemic-vigilance charge"
+    },
+    {
+      "claim": "CJP considers AI akin to fire -- experts argue that the discovery and controlled use of fire boosted brain intelligence by enabling cooked food, which provides more nutrients and frees up energy from digestion. Fire can be useful but dangerous if uncontrolled; even bushfires can be tamed -- not by waiting for rain, but through systems with skilled firefighters, water cannons, and sprinklers. But the chemistry of fire remains what it is and will always be.",
+      "rhetorical_move": "AI-akin-to-fire titular metaphor + cooked-food-brain-intelligence-boost evolutionary anchoring + chemistry-of-fire-invariance principle",
+      "confidence": "asserted as central-metaphor anchoring"
+    },
+    {
+      "claim": "When DeepMind's AlphaGo defeated Go masters Fan Hui and Lee Sedol with novel moves unseen for millennia, it revealed AI's potential to outsmart us in ways still unimaginable. We must follow AI's evolving nature and design adaptive systems to keep pace with its changes -- but more than being observers, we must be movers.",
+      "rhetorical_move": "AlphaGo-Fan-Hui-Lee-Sedol case + millennia-unseen-novel-moves + observers-vs-movers binary charge",
+      "confidence": "asserted with case-anchored charge"
+    },
+    {
+      "claim": "This presents a challenge to today's leaders and readers -- to view and shape transformation through ethical lens. Industrialization offers a sobering reminder: our quest for progress has also brought environmental ruin. Let this new revolution avoid such errors in the realm of mind and morality.",
+      "rhetorical_move": "industrialization-environmental-ruin sobering-reminder + mind-and-morality realm-of-new-revolution warning",
+      "confidence": "asserted as historical-cautionary framing"
+    },
+    {
+      "claim": "Great leaders act as choice architects, designing cultures that influence behavior and action -- CJP hopes that as leaders aim for increasingly lofty goals, they also guide people toward choices that prioritize intelligent decisions: those that create value and build trust.",
+      "rhetorical_move": "choice-architects coinage + lofty-goals + intelligent-decisions + create-value-and-build-trust titular closing maxim",
+      "confidence": "asserted as closing-charge maxim"
+    }
+  ],
+  "notable_anecdotes": [
+    "Alexa-in-CJP's-living-room domestic vignette -- 'isolated + starved of data + embedded in cloud far larger than my social network'",
+    "Three-lens framework -- businessperson + consumer + leader",
+    "2017 Equifax data breach as 140M-customer trust-erosion exemplar",
+    "AI-breakthrough roster -- AlphaFold (drug discovery + antibiotic resistance) + Seeing AI (visually impaired image recognition) + self-driving cars + research assistants",
+    "Trade-off cascade -- saved time wasted on plagiarism + excessive screen use + social withdrawal",
+    "Skill-erosion + emotional-intelligence-erosion + tone-reading + authenticity-detection cascade",
+    "AI-akin-to-fire central metaphor -- cooked-food-brain-intelligence-boost evolutionary anchor + bushfire-firefighters-water-cannons-sprinklers adaptive-system imagery",
+    "DeepMind AlphaGo defeating Fan Hui + Lee Sedol with millennia-unseen novel moves",
+    "Industrialization-environmental-ruin historical parallel warning for AI's mind-and-morality realm",
+    "Choice-architects coinage + create-value-and-build-trust titular closing maxim"
+  ],
+  "target_audience": [
+    "Business leaders (three-lens framework's first lens)",
+    "General Filipino consumers (second lens)",
+    "Policymakers and ethics-minded leaders (third lens)",
+    "Small-business owners (AI-as-great-equalizer audience)",
+    "Cybersecurity-aware audiences (Equifax-exemplar audience)",
+    "Educators and parents (skill-erosion + overreliance critique audience)"
+  ],
+  "register_markers": [
+    "Humble-curious-learner self-positioning -- 'ancient me' + 'just a curious learner'",
+    "Alexa-domestic-vignette opening -- emotive-personification register ('she would admit feeling isolated')",
+    "Three-lens organizational structure (businessperson + consumer + leader)",
+    "All-caps section-lead-ins ('IN MY LIVING ROOM SITS ALEXA', 'BUSINESS IS REALLY ABOUT UNDERSTANDING PEOPLE', 'AI PROMISES CONVENIENCE', 'I CONSIDER AI AKIN TO FIRE')",
+    "AI-akin-to-fire sustained-metaphor as titular-anchoring device",
+    "Closing-charge create-value-and-build-trust returning to title"
+  ],
+  "decision_framework_signals": [
+    "Three-lens AI-evaluation framework -- businessperson + consumer + leader",
+    "Speed-must-not-outrun-responsibility AI-business principle",
+    "AI-as-cybersecurity-counter-application (anomaly detection)",
+    "AI-as-great-equalizer for small-business markets",
+    "Saved-time-question test -- is liberation real or masked by hidden costs?",
+    "Skill-erosion + emotional-intelligence-erosion overreliance warnings",
+    "Scientific self-correcting-spirit + cannot-rely-solely-on-AI epistemic principle",
+    "AI-akin-to-fire metaphor -- useful-but-dangerous + adaptive-systems-not-rain + chemistry-of-fire-invariance",
+    "Observers-vs-movers binary -- beyond-watching to shape-transformation",
+    "Industrialization-environmental-ruin sobering historical parallel for mind-and-morality realm",
+    "Choice-architects leadership framing -- create-value-and-build-trust intelligent-decisions standard"
+  ],
+  "one_paragraph_summary": "Third in CJP's AI cluster (A34→E19→E18), pivoting from the judiciary focus of A34 to a business-and-consumer-and-leader three-lens analysis. He opens with the Alexa-in-his-living-room domestic vignette -- anthropomorphized as 'isolated + starved of data' -- and positions himself humbly as 'ancient me' + 'just a curious learner.' Through the businessperson lens he flags the 2017 Equifax breach (140M customers) as trust-erosion exemplar while celebrating AI as cybersecurity counter-application and 'great equalizer' for the Philippines's mostly-small businesses. Through the consumer lens he catalogs breakthroughs (AlphaFold drug discovery + Seeing AI visually-impaired aid + self-driving cars + research assistants) but warns of saved-time-tradeoffs and overreliance eroding critical thinking, problem-solving, and emotional intelligence. Through the leader lens he invokes scientific self-correcting spirit and the AI-akin-to-fire metaphor -- useful but dangerous, tamable through adaptive systems (skilled firefighters + water cannons + sprinklers) but with invariant chemistry. He cites DeepMind's AlphaGo defeating Fan Hui and Lee Sedol with millennia-unseen moves, warns against the industrialization-environmental-ruin parallel in the mind-and-morality realm, and closes by urging great leaders to act as choice architects designing cultures that create value and build trust.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "CA472",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 472,
+  "title": "Decision-making 102",
+  "date": "2012-12-29",
+  "link": "https://opinion.inquirer.net/43705/decision-making-102",
+  "keywords": [
+    "judicial decision-making",
+    "Velarde vs Social Justice Society",
+    "good decision writing",
+    "Aristotelian syllogism",
+    "witness credibility",
+    "cross-examination",
+    "dispositive portion",
+    "facts and law"
+  ],
+  "primary_topics": [
+    "The anatomy of a well-written judicial decision: the five essential parts from Velarde vs Social Justice Society",
+    "Credibility assessment as the most crucial element of fact-finding -- trial judges vs appellate courts",
+    "Specific requirements for the dispositive portion in criminal and civil cases"
+  ],
+  "sub_topics": [
+    "Sequel to October 7 column on judicial decision-making as Aristotelian syllogism",
+    "Facts: admitted, judicially noticed, or proven by documentary and verbal evidence",
+    "Trial judges assess credibility via demeanor on the stand; appellate courts rely only on transcripts",
+    "Everyday credibility analogies: crying son vs elder sister; irate wife vs wayward husband",
+    "Witness integrity test: capacity to observe, opportunity to know, ability to remember, consistency with common experience",
+    "Cross-examination as the best credibility test -- three 'Cs': coherence, consistency, correctness",
+    "Affidavits are often one-sided (lawyer-prepared, not by witnesses) -- require searing cross-examination",
+    "Velarde vs Social Justice Society (April 28, 2004) -- CJ Panganiban's ponencia -- five-part decision structure",
+    "Five essential parts: (1) statement of case; (2) statement of facts; (3) issues/assignment of errors; (4) court ruling; (5) dispositive portion",
+    "Optional: prologue (concise summary of facts/issues) and epilogue (summary of key legal principles)",
+    "Statement of facts: per-witness summary or per-court evaluation",
+    "Court ruling: each issue addressed individually unless intertwined",
+    "Criminal case disposition: innocence/guilt, specific crime, penalty, participation, modifying circumstances, civil liability, costs",
+    "Acquittal: immediate release order + director of Bureau of Corrections report within 10 days",
+    "Civil case disposition: complaint granted or denied, specific relief, costs",
+    "Completeness test: parties know rights/obligations; know how to execute; no further proceedings needed; proper relief granted"
+  ],
+  "signature_phrases": [
+    "Decision-making 102",
+    "the best trial lawyer is really the best cross-examiner",
+    "coherence, consistency and correctness",
+    "searing cross-examination",
+    "the letter that killeth or the spirit that giveth life",
+    "the facts and the law on which it is based",
+    "no decision shall be rendered by any court without expressing therein clearly and distinctly",
+    "test of completeness"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, former CJ; Velarde vs SJS ponente)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Bureau of Corrections"
+    ],
+    "cases": [
+      "Velarde vs Social Justice Society (April 28, 2004) -- five-part decision structure; CJ Panganiban ponente"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution -- mandate for courts to express clearly the facts and law in decisions",
+      "Rules of Court -- decision writing requirements"
+    ],
+    "events": [
+      "October 7 column (Decision-making 101) -- Aristotelian syllogism as prior installment"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Credibility assessment is the most crucial dimension of judicial fact-finding: trial judges have the decisive advantage over appellate courts because they observe witnesses on the stand, while appellate courts rely only on cold transcripts — making the trial judge's assessment of demeanor and conduct the least reversible finding.",
+      "rhetorical_move": "institutional-competence argument: trial-court primacy in credibility grounded in observational access that appellate courts structurally lack",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Cross-examination is the best — and historically unmatched — method for testing witness credibility, especially for lawyer-prepared affidavits that are inherently one-sided; the best trial lawyer is the best cross-examiner, testing coherence, consistency, and correctness.",
+      "rhetorical_move": "practitioner-wisdom assertion: distilling centuries of trial advocacy into a three-C framework",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The five-part Velarde decision structure — statement of case, facts, issues, court ruling, dispositive portion — is the constitutional standard for good decision writing, and the completeness test (parties know rights, know how to execute, no further proceedings needed, proper relief granted) is the operational measure of a valid disposition.",
+      "rhetorical_move": "self-citation as institutional standard: CJ's own Velarde ponencia as the authoritative template",
+      "confidence": "asserted as settled doctrine"
+    }
+  ],
+  "notable_anecdotes": [
+    "The everyday credibility analogies — a crying son describing his elder sister's scolding, an irate wife examining lipstick on her husband's shirt — used to bridge the abstract judicial concept of witness credibility assessment to universal human experiences of evaluating truthfulness.",
+    "The disclosure that affidavits are 'often prepared by lawyers, not by the witnesses' — making them inherently one-sided and requiring 'searing cross-examination' to expose their constructed nature: a practitioner insight that reveals the gap between the formal appearance of sworn testimony and its actual reliability.",
+    "The acquittal-specific disposition requirement — immediate release order plus a mandatory report from the director of the Bureau of Corrections within 10 days on the exact date of release — as a procedural safeguard often overlooked in commentary on judicial decisions, embedded in the five-part framework as an accountability mechanism."
+  ],
+  "target_audience": [
+    "Judges at all levels writing and reviewing decisions",
+    "Law students and young lawyers learning judicial writing",
+    "Senior advocates who prepare cases for judicial decision-making",
+    "Legal academics studying judicial reasoning and decision structure",
+    "General educated readership interested in how courts arrive at and write their decisions"
+  ],
+  "register_markers": [
+    "sequel-column structure ('sequel to my Oct. 7 column' — Decision-making 101 → 102)",
+    "everyday-life analogy register (crying son, lipstick on shirt) bridging judicial and domestic credibility",
+    "three-Cs mnemonic register (coherence, consistency, correctness) as practitioner shorthand",
+    "self-citation as institutional standard (Velarde as CJ's own contribution to decision-writing doctrine)",
+    "completeness-test enumeration (four criteria) as the operational standard for valid dispositions",
+    "acquittal-specific procedural detail (10-day Bureau of Corrections reporting requirement)"
+  ],
+  "decision_framework_signals": [
+    "applies Aristotelian syllogism framework: major premise (law) + minor premise (facts) + conclusion (ruling)",
+    "uses institutional-competence hierarchy: trial courts > appellate courts for credibility because of observational access",
+    "applies three-C credibility test (coherence, consistency, correctness) as the cross-examination standard",
+    "uses Velarde five-part structure as the constitutional template for decision validity",
+    "applies completeness test (four criteria) as the operational measure of a valid disposition"
+  ],
+  "one_paragraph_summary": "Panganiban continues his Decision-making series (sequel to his October 7 column on the Aristotelian syllogism) by focusing on the fact-finding and decision-writing dimensions of judicial decision-making. He argues that witness credibility is the most crucial element of fact-finding: trial judges have a structural advantage over appellate courts because they observe witnesses on the stand while appellate courts rely only on transcripts -- an advantage he illustrates with everyday analogies (a mother hearing her son describe a sibling's scolding; an irate wife examining lipstick marks). He identifies cross-examination -- testing coherence, consistency, and correctness -- as the historically unmatched credibility tool, especially essential for lawyer-prepared affidavits that are inherently one-sided. For decision structure, he draws on his own Velarde vs Social Justice Society ponencia (April 28, 2004) to articulate the five essential parts: statement of the case, statement of facts, issues/assignment of errors, court ruling (each issue addressed separately), and dispositive portion -- with optional prologue and epilogue for high-profile cases. He specifies the content required for criminal dispositions (guilt/innocence, specific crime, penalty, participation, modifying circumstances, civil liability, costs; plus -- for acquittals -- an immediate release order and a mandatory Bureau of Corrections report within 10 days), civil dispositions (relief granted or denied, costs), and the four-part completeness test: parties know their rights and obligations, know how to execute the decision, no further proceedings are needed, and proper relief is granted.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

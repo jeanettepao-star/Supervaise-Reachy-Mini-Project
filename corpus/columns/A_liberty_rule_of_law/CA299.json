@@ -1,0 +1,133 @@
+{
+  "id": "CA299",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 299,
+  "title": "Bank deposits as evidence of corruption",
+  "date": "2017-10-08",
+  "link": "https://opinion.inquirer.net/107711/bank-deposits-evidence-corruption",
+  "keywords": [
+    "Bank Secrecy Law RA 1405 six exceptions",
+    "RA 6426 foreign currency deposit single exception",
+    "Corona impeachment PSBank TRO",
+    "Salvacion Central Bank prevent injustice",
+    "Philippines Lebanon last stringent bank secrecy"
+  ],
+  "primary_topics": [
+    "Bank secrecy law framework: RA 1405 (peso deposits) vs RA 6426 (foreign currency)",
+    "Corona impeachment as the paradigm case for bank-secrecy conflict",
+    "International AML movement and the global trend toward lifting bank secrecy"
+  ],
+  "sub_topics": [
+    "Corona impeachment: $10M alleged ill-gotten wealth in PSBank not in SALN",
+    "PSBank TRO (SC, Feb. 9, 2012) barring Senate from requiring disclosure",
+    "Corona's admission to Cayetano: $2.4M (not $10M) not in SALN -- key evidence",
+    "SC dismissed petition as academic (Nov. 20, 2012) after Corona's ouster (May 29, 2012)",
+    "RA 1405: six exceptions -- Monetary Board, independent bank auditor, written permission, impeachment, competent court order, subject matter of litigation",
+    "RA 6426: foreign currency deposits -- only one exception: written permission of depositor",
+    "PSBank TRO: RA 6426 shields dollar deposits even in impeachment",
+    "Salvacion v. Central Bank (Aug. 21, 1997): foreign currency deposit examined to prevent perpetuation of injustice",
+    "China Banking v. Court of Appeals (Dec. 18, 2006): same exception",
+    "Swiss banks historically most secretive; corrupt dictators, drug lords, crime syndicates",
+    "Philippines breach of Swiss banks in 1986 -- first ever -- Marcos hidden deposits returned",
+    "AML movement triggered by Swiss breach: KYC requirement",
+    "Covered transactions: $10,000 / P500,000 or more",
+    "Suspicious transactions: any amount",
+    "Politically exposed persons (PEPs): enhanced scrutiny",
+    "PH and Lebanon: last two countries with stringent bank secrecy protection",
+    "Pending bills in Congress to pierce the veil on criminal deposits"
+  ],
+  "signature_phrases": [
+    "secrecy of bank deposits inevitably pops up",
+    "the honor of breaching for the first time the thick protective walls of Swiss banks",
+    "Know Your Customers",
+    "politically exposed persons",
+    "last two countries",
+    "pierce the veil that shrouds the evidence and proceeds of criminal activities",
+    "prevent the perpetuation of an injustice"
+  ],
+  "entities": {
+    "people": [
+      "CJ Renato C. Corona (deceased; impeachment subject)",
+      "Sen. Alan Peter Cayetano (questioned Corona)",
+      "President Ferdinand Marcos (Swiss bank deposits)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Senate (sitting as impeachment court)",
+      "Philippine Savings Bank (PSBank)",
+      "Central Bank of the Philippines",
+      "Swiss banks (implied)",
+      "Congress of the Philippines"
+    ],
+    "cases": [
+      "PSBank v. Senate (November 20, 2012) -- TRO and dismissal as academic",
+      "Salvacion v. Central Bank (August 21, 1997)",
+      "China Banking v. Court of Appeals (December 18, 2006)"
+    ],
+    "laws_treaties": [
+      "Republic Act No. 1405 (Bank Secrecy Law -- peso deposits, six exceptions)",
+      "Republic Act No. 6426 (Foreign Currency Deposit Act -- one exception)",
+      "Anti-Money Laundering Act (implied)",
+      "Pending bills on bank secrecy reform"
+    ],
+    "events": [
+      "Corona impeachment (2012)",
+      "SC TRO on PSBank disclosure (February 9, 2012)",
+      "Corona ouster (May 29, 2012)",
+      "PH breach of Swiss banks (1986)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Corona impeachment illustrates the conflict between RA 1405's impeachment exception and RA 6426's single written-permission-only exception for foreign currency deposits -- a conflict unresolved by the SC's academic dismissal.",
+      "rhetorical_move": "case-study illustration of the legal tension",
+      "confidence": "high"
+    },
+    {
+      "claim": "Salvacion v. Central Bank and China Banking v. CA have allowed foreign currency deposit examination to 'prevent the perpetuation of an injustice' -- a judicially created exception that goes beyond the text of RA 6426.",
+      "rhetorical_move": "judicial-exception identification",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Philippines has the historic honor of being the first country to breach Swiss bank secrecy in 1986, triggering the global AML movement and the KYC standard.",
+      "rhetorical_move": "positive national-achievement framing",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Philippines and Lebanon are the last two countries with stringent bank secrecy protection -- pending bills to pierce the veil on criminal deposits are needed and timely.",
+      "rhetorical_move": "international-comparison argument for reform",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Corona's admission to Sen. Cayetano that he had $2.4 million (not $10 million) in PSBank not included in his SALN -- making the PSBank TRO academic and providing the key evidence for his ouster.",
+    "The Philippines breaching Swiss bank secrecy in 1986 -- the first time Swiss bank confidentiality was ever pierced, to recover Marcos's hidden deposits -- an event that triggered the global AML/KYC movement.",
+    "The RA 6426 single-exception irony: foreign currency deposits have less protection against crime disclosure than peso deposits under RA 1405 (which has six exceptions) -- yet PSBank successfully used RA 6426 to obtain a TRO against the Senate."
+  ],
+  "target_audience": [
+    "Congress members deliberating bank-secrecy reform bills",
+    "Anti-corruption advocates and Ombudsman's office",
+    "Commercial banks navigating AML compliance",
+    "Constitutional law and evidence scholars",
+    "Civic readership following corruption prosecutions"
+  ],
+  "register_markers": [
+    "Case-study anchor (Corona impeachment) before doctrinal exposition",
+    "Two-law comparison (RA 1405 vs RA 6426)",
+    "International-historical narrative (Swiss breach, AML movement)",
+    "KYC and PEP technical terms explained",
+    "International-comparison closing (PH and Lebanon as outliers)"
+  ],
+  "decision_framework_signals": [
+    "Apply the correct law to the correct deposit type: RA 1405 (six exceptions) for peso; RA 6426 (one exception: written permission) for foreign currency",
+    "Invoke the Salvacion/China Banking 'prevent perpetuation of injustice' judicially created exception when the single written-permission exception is insufficient",
+    "Leverage the 1986 Swiss bank breach as precedent that bank secrecy is not absolute when facing documented ill-gotten wealth",
+    "Treat PEPs as a special category requiring enhanced KYC scrutiny beyond standard covered/suspicious transaction reporting",
+    "Support pending reform bills -- the Philippines-Lebanon outlier status on bank secrecy is not a competitive advantage but a shield for corruption"
+  ],
+  "one_paragraph_summary": "Panganiban examines bank deposits as evidence of corruption, using the Corona impeachment as the paradigm. When the Senate sought PSBank's disclosure of CJ Corona's alleged $10 million foreign currency deposit, the SC issued a TRO (February 9, 2012) based on RA 6426 (Foreign Currency Deposit Act), which has only one exception: written permission of the depositor. By contrast, RA 1405 (Bank Secrecy Law for peso deposits) has six exceptions including impeachment. The TRO became academic when Corona admitted to Sen. Cayetano that he had $2.4 million (not $10 million) in PSBank not included in his SALN -- key evidence that led to his ouster on May 29, 2012. Despite RA 6426's single exception, the SC has allowed foreign currency deposit examination in at least two cases -- Salvacion v. Central Bank (August 21, 1997) and China Banking v. CA (December 18, 2006) -- to 'prevent the perpetuation of an injustice.' Historically, Swiss banks were the most secretive; the Philippines has the distinction of being the first country to breach Swiss bank secrecy in 1986, convincing Swiss authorities to open and return Marcos's hidden deposits under pseudonyms and dubious foundations -- triggering the global AML movement, the KYC standard, covered-transaction reporting ($10,000/P500,000 threshold), suspicious-transaction reporting, and enhanced scrutiny of politically exposed persons (PEPs). The Philippines and Lebanon are now the last two countries with stringent bank secrecy protection; Congress has pending bills to pierce the veil on criminal deposits while still protecting legitimate wealth.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

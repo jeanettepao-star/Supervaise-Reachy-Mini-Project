@@ -1,0 +1,150 @@
+{
+  "id": "CA352",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 352,
+  "title": "How will SC decide Grace Poe's cases?",
+  "date": "2016-03-06",
+  "link": "https://opinion.inquirer.net/93495/how-will-sc-decide-grace-poes-cases",
+  "keywords": [
+    "Five-day oral argument explained",
+    "representation must be material + false + deliberate-intent-to-deceive trifecta",
+    "Jardeleza due-process angle",
+    "Tecson v. Comelec (March 3 2004) doctrinal anchor",
+    "Lorenzo Pou 1870-1954 presumption mechanics",
+    "Vitug ponencia 8-justice majority",
+    "Puno 'unelected members' line",
+    "Sandoval-Gutierrez 'cherish electoral competition' line",
+    "Carpio dissent on 11 April 1899 cutoff",
+    "framing-the-coming-decision column"
+  ],
+  "primary_topics": [
+    "The gut issue in the Comelec Poe cases: did the poll body gravely abuse its discretion in cancelling her COC?",
+    "The three-part test for cancelling a COC: material, false, and deliberately misleading",
+    "Why the Court explored citizenship and residency during oral argument despite the narrow gut issue",
+    "Tecson vs Comelec (FPJ case, 2004) as the controlling precedent",
+    "The 8-5 FPJ majority's liberal interpretation of election laws and the 'people decide' principle",
+    "The dissenting strict-interpretation approach of Justices Carpio and others"
+  ],
+  "sub_topics": [
+    "Materiality, falsity, and intent as cumulative requirements for COC cancellation",
+    "Due process concern raised by Justice Jardeleza about Comelec's treatment of Poe",
+    "The 'presumption' chain in Tecson: Lorenzo Pou's residence and birth dates inferring Filipino citizenship by mass Filipinization (1902 Philippine Bill)",
+    "1935 Constitution: citizenship conferred on all children of Filipino fathers regardless of legitimacy",
+    "Romualdez-Marcos vs Comelec: misrepresentation must be material, deliberate, and willful",
+    "Reynato Puno's vote-of-the-people doctrine: 'the sovereign people will not err' on political questions",
+    "Angelina Sandoval-Gutierrez's warning against disqualifying popular candidates 'on the basis of doubtful claims'",
+    "The Treaty of Paris and Philippine Bill of 1902 as the foundation for derived citizenship"
+  ],
+  "signature_phrases": [
+    "in my humble opinion",
+    "Note, however",
+    "Assuming arguendo",
+    "settled jurisprudence",
+    "We should know soon enough",
+    "Ergo",
+    "the better policy approach is to let the people decide"
+  ],
+  "entities": {
+    "people": [
+      "Grace Poe",
+      "Fernando Poe Jr. (FPJ)",
+      "Bessie Kelly (FPJ's American mother)",
+      "Allan Poe (FPJ's father)",
+      "Lorenzo Pou (FPJ's Spanish-subject grandfather)",
+      "Justice Jose C. Vitug (ponente in Tecson)",
+      "Justice/Chief Justice Reynato S. Puno",
+      "Justice Angelina Sandoval-Gutierrez",
+      "Justice Antonio T. Carpio",
+      "Justice Francis H. Jardeleza"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Commission on Elections (Comelec)",
+      "Senate Electoral Tribunal (SET) -- referenced as institution"
+    ],
+    "cases": [
+      "Tecson vs Comelec (March 3, 2004) -- natural-born citizenship of FPJ",
+      "Romualdez-Marcos vs Comelec -- material, deliberate, willful misrepresentation standard"
+    ],
+    "laws_treaties": [
+      "Sec. 78, Omnibus Election Code (COC cancellation authority)",
+      "Sec. 4, Art. VII, 1987 Constitution (SC as sole judge of presidential election contests)",
+      "1935 Constitution (citizenship of children of Filipino fathers)",
+      "Philippine Bill of 1902 (mass Filipinization)",
+      "Treaty of Paris (1898)"
+    ],
+    "events": [
+      "Oral argument across five days on the Poe cases (2016)",
+      "Tecson vs Comelec decision (March 3, 2004)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Before any COC can be cancelled, the misrepresentation must be (1) material, (2) false, AND (3) made with deliberate intent to mislead -- all three are required",
+      "rhetorical_move": "numbered enumeration of cumulative legal elements; emphasis through repetition",
+      "confidence": "high"
+    },
+    {
+      "claim": "Poe's statements about citizenship and residency are material; whether they are false is genuinely contested among the justices",
+      "rhetorical_move": "concession-then-qualification; acknowledging division on the bench",
+      "confidence": "high"
+    },
+    {
+      "claim": "Even if Poe's statements were false, her COC cannot be cancelled if she made them in good faith with no intent to deceive -- the standard of proof for intent is the determinative question",
+      "rhetorical_move": "conditional reasoning ('assuming arguendo'); legal precision",
+      "confidence": "high"
+    },
+    {
+      "claim": "Tecson vs Comelec is the good guide because it concerned the same statutory and constitutional architecture for cancelling a presidential candidate's COC",
+      "rhetorical_move": "analogy-by-precedent; positioning a prior case as controlling",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Tecson majority's liberal interpretation -- that doubts must be resolved in favor of giving the people free choice -- is the better policy approach",
+      "rhetorical_move": "endorsement-by-extensive-quotation; allowing Puno and Sandoval-Gutierrez to make the argument",
+      "confidence": "high"
+    },
+    {
+      "claim": "Disqualifying a popular candidate on doubtful claims 'does not result to a genuine, free and fair election' but 'results to violence'",
+      "rhetorical_move": "alarming-prediction; quoting Sandoval-Gutierrez to underscore stakes",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Carpio strict-interpretation dissent, by demanding conclusive proof that Lorenzo Pou was a Philippine inhabitant on April 11, 1899, would have a profoundly disenfranchising effect",
+      "rhetorical_move": "presenting the opposing view with implicit critique",
+      "confidence": "medium"
+    }
+  ],
+  "notable_anecdotes": [
+    "Reader queries asking why oral argument took five days if the gut issue was narrow",
+    "Detailed exposition of the FPJ ponencia's 'presumption' chain about Lorenzo Pou's birth and residence"
+  ],
+  "target_audience": [
+    "Inquirer general readership confused by the breadth of the SC oral argument",
+    "Legal community and bar following the Poe litigation",
+    "Political observers and election lawyers",
+    "Historians and citizens interested in the FPJ-Poe parallel"
+  ],
+  "register_markers": [
+    "doctrinal-formal register throughout",
+    "Latin tags: 'arguendo', 'Ergo', 'ipso facto'",
+    "numbered legal elements ('(1) material, (2) false, (3) made with deliberate intent')",
+    "extensive direct quotation from Tecson opinions",
+    "rhetorical engagement with reader queries: 'So readers asked'",
+    "promise of continuation: 'We should know soon enough'",
+    "italics for emphasis ('Italics in original' notation for Sandoval-Gutierrez quote)"
+  ],
+  "decision_framework_signals": [
+    "Three-part test for COC cancellation as governing legal framework",
+    "Liberal vs strict interpretation of election laws as the doctrinal axis",
+    "Tecson precedent as guide to current Poe disposition",
+    "People's sovereignty in political questions ('the sovereign people will not err')",
+    "Good-faith presumption protecting candidate from disqualification",
+    "Court's jurisdiction over presidential 'qualifications' arises only after election, not before -- distinct from Comelec's COC authority"
+  ],
+  "one_paragraph_summary": "Panganiban returns to the Grace Poe cases to address reader queries about why the Supreme Court spent five days of combative oral argument on her citizenship and residency when (as he argued the prior week) the gut issue was simply whether the Comelec gravely abused its discretion in cancelling her COC. He answers by laying out the three cumulative requirements for COC cancellation: the misrepresentation must be (1) material, (2) false, and (3) made with deliberate intent to mislead. Poe's statements about citizenship and residency are concededly material, but whether they were false -- and if false, whether made in good faith -- is genuinely contested among the justices. He flags Justice Jardeleza's separate concern that the Comelec may have denied Poe due process, which would ipso facto void the cancellation. Panganiban then offers Tecson vs Comelec (March 3, 2004), the FPJ disqualification case, as the controlling precedent. He recounts how Justice Vitug's 8-justice majority strung together presumptions about Lorenzo Pou's Philippine residence to conclude that mass Filipinization under the Philippine Bill of 1902 extended Filipino citizenship to FPJ's father Allan Poe, and thus to FPJ himself under the 1935 Constitution -- but more importantly, that even if 'the totality of the evidence may not establish conclusively that respondent FPJ is a natural-born citizen,' he could not be held guilty of material misrepresentation since it must be 'deliberate and willful' per Romualdez-Marcos. He extensively quotes Justice Puno's preference to 'let the people decide who will be the next President' on political questions and Justice Sandoval-Gutierrez's warning that disqualifying popular candidates on doubtful claims 'results to violence.' He contrasts these with the strict-interpretation dissent of Justice Carpio, who demanded conclusive proof that Lorenzo Pou was a Philippine inhabitant on April 11, 1899. The closing question: will the Court adopt the FPJ majority's liberal or the minority's strict interpretation in the cases of his adoptive daughter? 'We should know soon enough.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,149 @@
+{
+  "id": "CC031",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 31,
+  "title": "Scholarships to three 'apo' by top US schools",
+  "date": "2024-06-03",
+  "link": "https://opinion.inquirer.net/174148/scholarships-to-three-apo-by-top-us-schools",
+  "keywords": [
+    "Andrea P. Manalac (UMich MBA)",
+    "Rafa P. Yaptangco (Fordham MBA dean's scholarship)",
+    "Victoria P. Hannett (UPenn Master of Biotechnology)",
+    "Taylor Swift / 'champagne problems' framing",
+    "Walt Disney World 36-of-47 attractions",
+    "Lance Gokongwei pattern (alluded to)",
+    "Lola Leni 'from heaven'"
+  ],
+  "primary_topics": [
+    "Simultaneous but separate master's scholarships granted to CJ's three grandchildren by top US universities",
+    "Profile of Andrea P. Manalac (University of Michigan MBA)",
+    "Profile of Rafa P. Yaptangco (Fordham University MBA, dean's scholarship)",
+    "Profile of Victoria P. Hannett (University of Pennsylvania, Master of Biotechnology)",
+    "Family thanksgiving -- 'My Leni joins me from heaven'"
+  ],
+  "sub_topics": [
+    "Andrea: natural artist; lead-singer roles since age 5 in Hoboken, New Jersey; 'Hamilton' five times in three countries; 'Ageless Passion' favorite",
+    "Andrea -- Panganiban Disney expert: 36 of 47 Walt Disney World attractions in one day (8 a.m. - 1 a.m. next day); Disney Parks in Hong Kong, Tokyo, Paris, LA, and Orlando in 12 months (2011-2012)",
+    "Andrea's career arc: Shopee recruiter → HR business partner → PwC senior consultant for workforce transformation",
+    "Andrea chose UMich (her mom's school) for industries-and-leadership development",
+    "Rafa: grew up in Makati home; quiet but not shy; lead roles at Ridgefield Kindergarten; great dancer at Southridge; passed Filipino finals to graduate from Ateneo as scheduled in June 2019",
+    "Rafa's golf trajectory: held a club at age 3; COVID-era handicap 30 → 10 in one year; now single-digit; played at the world-famous Pebble Beach Golf Club",
+    "Rafa's tech romance: childhood tonsillitis kept him at his desktop; became family/friends' tech support",
+    "Rafa's career: Lazada user-growth analyst → TikTok e-commerce growth marketing manager → Fordham MBA with dean's scholarship (Fr. Bobby Yap connection)",
+    "Victoria: born and raised in Greenwich, Connecticut; avid dancer ages 2-17",
+    "Victoria's Spotify ranking: top 0.1% Taylor Swift fan",
+    "Victoria's academic acceleration: skipped sixth-grade math (fifth → seventh); high honors in high school; Georgetown University B.S. in Neurobiology (two weeks before column)",
+    "Victoria's research focus: drug discovery for migraine, stroke, dementia, ADHD",
+    "Victoria applied to seven US grad programs; accepted by all; scholarships from five; chose Penn -- 'champagne problems'"
+  ],
+  "signature_phrases": [
+    "Please indulge this ancient grandfather",
+    "A NATURAL ARTIST, ANDREA BEGAN SINGING AT AGE THREE",
+    "'Hamilton' five times in three countries, but 'Ageless Passion' remains her favorite. Hahaha!",
+    "the Panganiban Disney expert",
+    "RAFA GREW UP IN OUR MAKATI HOME",
+    "Just like that.",
+    "Who said letting a child spend too much time on a computer is bad?",
+    "VICTORIA WAS BORN AND RAISED IN GREENWICH, CONNECTICUT",
+    "top 0.1 percent Taylor Swift fan",
+    "champagne problems",
+    "Mabuhay!",
+    "My Leni joins me from heaven in thanking our Lord",
+    "How blessed is she to have the privilege of picking one diamond (Penn) among five equally valuable diamonds"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author; 'Lolo Art')",
+      "The late Leni Panganiban ('Lola Leni from heaven')",
+      "Andrea P. Manalac (UMich MBA scholar)",
+      "Rafa P. Yaptangco (Fordham MBA scholar)",
+      "Victoria P. Hannett (UPenn Master of Biotechnology scholar)",
+      "Noy and Tet (Andrea's parents)",
+      "Alex and Len (Rafa's parents)",
+      "Mama Lin and Papa Tong (Andrea's family elders)",
+      "Lola Nena (Rafa family elder)",
+      "Fr. Bobby Yap (referenced in Rafa's Fordham choice)",
+      "Taylor Swift (cultural reference for Victoria)"
+    ],
+    "institutions": [
+      "University of Michigan (UMich) Ross School of Business",
+      "Fordham University (MBA)",
+      "University of Pennsylvania (Penn)",
+      "Georgetown University",
+      "Ateneo de Manila University",
+      "Southridge School",
+      "Ridgefield Kindergarten",
+      "Shopee, PwC, Lazada, TikTok (career employers)",
+      "Walt Disney World; Disney Parks (Hong Kong, Tokyo, Paris, LA, Orlando)",
+      "Pebble Beach Golf Club",
+      "Spotify"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "Simultaneous but separate scholarship grants (referenced as recent)",
+      "Andrea's Hong Kong-Tokyo-Paris-LA-Orlando Disney circuit (2011-2012)",
+      "Rafa's June 2019 Ateneo graduation",
+      "Victoria's Georgetown graduation 'two weeks ago'",
+      "Rafa's recent round at Pebble Beach"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Andrea earned the UMich MBA scholarship through musical artistry, extracurricular leadership (FEU/Lolo parallel implied), and a substantive HR-business career from Shopee through PwC.",
+      "rhetorical_move": "biography-as-merit profile",
+      "confidence": "personal endorsement"
+    },
+    {
+      "claim": "Rafa's path from quiet kid to dancer, golfer, tech-support natural, and TikTok e-commerce growth manager justifies his Fordham dean's scholarship -- and tonsillitis-era computer time was 'his competitive advantage,' not a hazard.",
+      "rhetorical_move": "reframing screen-time concerns as a competitive asset",
+      "confidence": "personal endorsement"
+    },
+    {
+      "claim": "Victoria's neurobiology degree and seven-for-seven graduate admissions (with scholarships from five of the seven) reflect a math-and-science whiz with focused intent on drug discovery for migraine, stroke, dementia, and ADHD.",
+      "rhetorical_move": "data-anchored profile (seven applications; five scholarships)",
+      "confidence": "personal endorsement"
+    },
+    {
+      "claim": "The simultaneous granting of scholarships to all three apo -- who applied only for admission -- is an 'incalculable blessing' to be received in thanksgiving 'to our Lord.'",
+      "rhetorical_move": "thanksgiving framing of family blessing",
+      "confidence": "personal Christian gratitude"
+    }
+  ],
+  "notable_anecdotes": [
+    "Andrea's 36-of-47 Walt Disney World attractions in a single day (8 a.m. - 1 a.m. next day); Disney Parks in Hong Kong, Tokyo, Paris, LA, and Orlando across 2011-2012.",
+    "Andrea's running joke: she has seen 'Hamilton' five times in three countries, but 'Ageless Passion' remains her favorite ('Hahaha!').",
+    "Rafa's announcement on the eve of his Ateneo graduation: 'Dad and Mom, I passed my Filipino final exams! I will graduate as scheduled.'",
+    "Rafa held a golf club at age 3; COVID-era handicap 30 → 10 in one year; single-digit by 2024; played at the world-famous Pebble Beach Golf Club.",
+    "Rafa's tonsillitis years that turned screen-time into 'competitive advantage.'",
+    "Victoria's Spotify ranking as a top 0.1% Taylor Swift fan and her math-class acceleration (5th → 7th).",
+    "Victoria's 'champagne problems': admitted to all seven US programs she applied to, with scholarships from five."
+  ],
+  "target_audience": [
+    "CJ's extended Panganiban family",
+    "FLP donor and friend community",
+    "Filipino parents and grandparents of scholarship-seeking youth",
+    "Aspiring graduate-school applicants in the US",
+    "Inquirer readers who follow CJ's family columns"
+  ],
+  "register_markers": [
+    "grandfather-tribute register",
+    "small-caps openers per grandchild ('A NATURAL ARTIST,' 'RAFA GREW UP IN OUR MAKATI HOME,' 'VICTORIA WAS BORN AND RAISED IN GREENWICH, CONNECTICUT')",
+    "pop-culture references (Taylor Swift's 'champagne problems'; Hamilton; Disney parks)",
+    "self-deprecating asides ('this ancient grandfather'; 'like her Lolo, ehem')",
+    "warm Tagalog and family-relational vocabulary ('apo,' 'Lolo,' 'Lola,' 'Mabuhay!')",
+    "Christian closing with the late Leni 'from heaven'",
+    "diamond-among-diamonds metaphor for Victoria's choice"
+  ],
+  "decision_framework_signals": [
+    "biography-as-merit framework (extracurricular leadership + career trajectory → scholarship)",
+    "reframing test for screen-time / interests (childhood passion → adult competitive advantage)",
+    "diversification heuristic (apply broadly; accept the best offer)",
+    "Christian-gratitude framing of family achievements"
+  ],
+  "one_paragraph_summary": "Please indulge this ancient grandfather as he revels in the simultaneous but separate grants of master's degree scholarships by top schools in the United States to his three grandchildren.' Panganiban profiles each. Andrea P. Manalac -- natural artist since age three, lead-singer roles from age five in Hoboken, New Jersey, 'Hamilton' five times in three countries but 'Ageless Passion' her favorite (Hahaha!), 36 of 47 Walt Disney World attractions in one day, Disney Parks in Hong Kong, Tokyo, Paris, LA, and Orlando across 2011-2012, and a career arc from Shopee recruiter to HR business partner to PwC senior consultant -- eagerly chose the University of Michigan MBA, her mother's alma mater. Rafa P. Yaptangco -- quiet but not shy, lead dancer at Ridgefield Kindergarten and Southridge, Ateneo graduate of June 2019 ('Dad and Mom, I passed my Filipino final exams!'), held a golf club at age three with a single-digit handicap by 2024 (after a 30→10 COVID-era jump and a recent round at Pebble Beach), and tonsillitis-era screen time that turned into a tech-support 'competitive advantage' -- went from Lazada user-growth analyst to TikTok e-commerce growth marketing manager and now Fordham University MBA with a 'formidable dean's scholarship' (to the delight of Fr. Bobby Yap). Victoria P. Hannett -- Greenwich, Connecticut native; avid dancer from age two to seventeen; top 0.1% Taylor Swift fan on Spotify; math whiz skipping sixth-grade math; Georgetown Neurobiology graduate two weeks before the column -- pursues a Master of Biotechnology at the University of Pennsylvania, focused on drug discovery for migraine (her mother's affliction), stroke (cause of death of both paternal grandparents), dementia, and ADHD; she applied to seven top US universities, was accepted by all, and was offered scholarships in five -- 'champagne problems,' to borrow Taylor Swift's phrase. 'Mabuhay! Amazing indeed, all my three apo applied merely for admissions but were offered multiple scholarships. My Leni joins me from heaven in thanking our Lord for His grant of these incalculable blessings to my family.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

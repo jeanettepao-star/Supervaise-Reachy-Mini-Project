@@ -1,0 +1,149 @@
+{
+  "id": "CA410",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 410,
+  "title": "Spotlight on Sandiganbayan",
+  "date": "2014-06-15",
+  "link": "https://opinion.inquirer.net/75613/spotlight-on-sandiganbayan",
+  "keywords": [
+    "Sandiganbayan",
+    "pork barrel",
+    "plunder",
+    "due process",
+    "criminal procedure"
+  ],
+  "primary_topics": [
+    "SBN as new focus of public scrutiny after OOO plunder/graft information filing",
+    "Interlocutory orders preceding trial proper -- raffle, probable cause, bail, place of detention",
+    "Double determination of probable cause (prosecutor + judge) as Charter-mandated check",
+    "Right to bail in capital offenses -- non-bailable when evidence of guilt is strong",
+    "Place of detention discretion (jails vs NBI/PNP facilities vs house/hospital arrest)",
+    "State-witness discharge under Rule 119 Sec 17 -- five requirements",
+    "Forecast of motions: quash, postpone, medical, suspension from office"
+  ],
+  "sub_topics": [
+    "Three-division raffle assignments -- First (Dela Cruz/Ponferrada/Lagos): Revilla; Third (Tang/Quiroz/Martires): Enrile; Fifth (Jurado/Gesmundo/Quiroz): Jinggoy",
+    "Fifth Division vacancy temporarily filled by Quiroz (concurrent Third)",
+    "Constitution Art III Sec 2 -- no warrant of arrest except upon probable cause to be determined personally by the judge",
+    "Reclusion perpetua = non-bailable when evidence of guilt is strong (plunder qualifies)",
+    "Detention pending trial not a penalty but a flight-prevention measure",
+    "Five state-witness requirements: absolute necessity, no other direct evidence, substantial corroboration, not most guilty, no moral-turpitude prior conviction",
+    "Anticipated Napoles/Cunanan motions for state-witness discharge after OOO denials"
+  ],
+  "signature_phrases": [
+    "the SBN will now be the focus of public scrutiny",
+    "interlocutory orders",
+    "well-founded belief that the crimes have been committed, and that the accused are probably guilty thereof",
+    "no warrant of arrest shall issue except upon probable cause to be determined personally by the judge",
+    "this double determination of probable cause",
+    "the judiciary to check abuses of prosecutors who indiscriminately file criminal charges",
+    "the SBN justices cannot rely on the say-so of the prosecutors",
+    "as a matter of right before conviction",
+    "when the evidence of guilt is strong",
+    "Detention pending trial is not deemed a penalty, but only a measure to prevent the flight of the accused",
+    "the battle for bail could take years",
+    "celebrities and other VIPs fight for confinement in the more comfortable detention facilities",
+    "I will not be surprised if some accused, like Napoles or Dennis Cunanan, will later ask the SBN to be discharged accused to be state witness",
+    "expect many more twists and turns",
+    "the spotlight will be focused on the SBNs competence, integrity, probity and independence"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Sen. Bong Revilla",
+      "Sen. Juan Ponce Enrile",
+      "Sen. Jinggoy Estrada",
+      "Janet Lim Napoles",
+      "Dennis Cunanan",
+      "J. Efren dela Cruz (First Division chair)",
+      "J. Rodolfo Ponferrada (First)",
+      "J. Rafael Lagos (First)",
+      "PJ Amparo Tang (Third Division chair)",
+      "J. Alex Quiroz (Third + temp Fifth)",
+      "J. Samuel Martires (Third)",
+      "J. Roland Jurado (Fifth Division chair)",
+      "J. Alexander Gesmundo (Fifth)",
+      "Ombudsman Conchita Carpio Morales (implied)"
+    ],
+    "institutions": [
+      "Sandiganbayan First, Third, Fifth Divisions",
+      "Office of the Ombudsman (OOO)",
+      "Philippine National Police (PNP) -- arrest serving",
+      "National Bureau of Investigation (NBI) -- arrest serving / VIP detention",
+      "PNP General Hospital (potential VIP detention)"
+    ],
+    "cases": [
+      "Plunder informations against three senators and co-accused",
+      "Anti-Graft Law Sec 3(e) charges"
+    ],
+    "laws_treaties": [
+      "1987 Constitution Bill of Rights Art III Sec 2 (probable cause)",
+      "Anti-Graft Law Sec 3(e)",
+      "Plunder Law (RA 7080)",
+      "Rules of Court Rule 119 Sec 17 (state-witness discharge)",
+      "Constitution -- bail right + reclusion perpetua exception"
+    ],
+    "events": [
+      "OOO information filing two days prior",
+      "Three-division SBN raffle"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Constitution requires SBN justices to determine probable cause personally -- they cannot rely on the prosecutors say-so -- and this double determination check exists to curb abuses of prosecutors who indiscriminately file criminal charges.",
+      "rhetorical_move": "Charter-mandated-double-check framing of judicial probable cause",
+      "confidence": "asserted with Charter citation"
+    },
+    {
+      "claim": "Once the SBN finds probable cause in plunder, the accused will be arrested and detained indefinitely (because plunder is punishable with reclusion perpetua and bail is denied when evidence of guilt is strong) -- detention pending trial is not a penalty but a flight-prevention measure.",
+      "rhetorical_move": "detention-as-measure-not-penalty distinction",
+      "confidence": "asserted as black-letter doctrine"
+    },
+    {
+      "claim": "Celebrities and other VIPs will fight for confinement in the more comfortable NBI/PNP detention facilities or seek house/hospital arrest -- the place of detention will be another battlefield.",
+      "rhetorical_move": "VIP-detention-realism observation",
+      "confidence": "asserted as forecast"
+    },
+    {
+      "claim": "Napoles or Dennis Cunanan, having failed to secure state-witness status from the OOO, may still seek it from the SBN during trial under Rule 119 Sec 17, provided they satisfy the five requirements.",
+      "rhetorical_move": "forecast-via-rule-citation framing",
+      "confidence": "hedged (will not be surprised if)"
+    }
+  ],
+  "notable_anecdotes": [
+    "The three-division raffle outcome catalogued with full chair-and-member listings (Dela Cruz/Ponferrada/Lagos got Revilla; Tang/Quiroz/Martires got Enrile; Jurado/Gesmundo/Quiroz got Jinggoy) -- the most procedurally detailed assignment-roster in the corpus for the PDAF prosecution.",
+    "The Fifth Division vacancy quirk -- Quiroz concurrently serving Third and Fifth -- flagged as a temporary anomaly awaiting a new appointee, the kind of micro-procedural detail CJP routinely captures.",
+    "Verbatim quotation of Rule 119 Sec 17 five state-witness requirements -- applied forward-looking to Napoles and Cunanan as candidates, a rare instance of CJP forecasting which accused will likely attempt which procedural move.",
+    "The detention-place forecast -- house/hospital arrest as the VIP fight -- written in May 2014 before the actual Enrile/Revilla/Jinggoy detention-place skirmishes materialized."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Lawyers tracking the PDAF prosecution",
+    "Sandiganbayan watchers",
+    "Civic-minded Filipinos",
+    "Law students and faculty (procedural primer dimension)"
+  ],
+  "register_markers": [
+    "Interlocutory-orders procedural primer register",
+    "A word of clarification mid-paragraph register marker",
+    "this brings us to an even more urgent issue continuity device",
+    "Normally / But / This is another issue to be decided sequencing",
+    "In fact, I will not be surprised if forecast hedge",
+    "verbatim Charter and Rules citations with quotation marks",
+    "In sum, expect many more twists and turns roadmap closer",
+    "competence, integrity, probity and independence (CIPI) constitutional-magistrate mnemonic closer"
+  ],
+  "decision_framework_signals": [
+    "uses interlocutory-orders sequencing as roadmap structure (raffle → probable cause → bail → detention place)",
+    "anchors judicial-probable-cause-check in martial-law-era abuse-prevention rationale (Charter intent)",
+    "applies non-bailable-when-evidence-strong as the bail framework for plunder",
+    "treats detention-place as VIP-celebrity battlefield (sociological-procedural prediction)",
+    "deploys Rule 119 Sec 17 five-requisite framework to forecast Napoles/Cunanan discharge motions",
+    "closes with CIPI (competence, integrity, probity, independence) constitutional-magistrate standard"
+  ],
+  "one_paragraph_summary": "Two days after the Office of the Ombudsman filed plunder and graft (Sec 3-e Anti-Graft Law) informations against Senators Bong Revilla, Juan Ponce Enrile, and Jinggoy Estrada, Janet Lim Napoles, and several others, Panganiban turns the spotlight on the Sandiganbayan. He walks the reader through the interlocutory orders that must precede trial proper: the three-division raffle (already done -- First Division of Dela Cruz/Ponferrada/Lagos got Revilla, Third of Tang/Quiroz/Martires got Enrile, Fifth of Jurado/Gesmundo/Quiroz got Jinggoy, with Quiroz concurrent Third/Fifth); the Charter-mandated double determination of probable cause (the judges cannot rely on the prosecutors say-so but must personally peruse the information, affidavits, and evidence, a check designed to curb prosecutorial abuses); the right to bail (granted as a matter of right except in capital offenses like plunder when the evidence of guilt is strong, with detention pending trial framed as a flight-prevention measure rather than a penalty); and the place of detention (the VIP fight for NBI/PNP comfortable facilities or house/hospital arrest, against the normal city/provincial jail). He forecasts the further skirmishes -- motions to quash for defective information, postponement motions, medical-treatment requests, opposition to suspension-from-office under the Plunder Law -- and singles out Napoles and Dennis Cunanan as likely candidates to seek state-witness discharge from the SBN under Rule 119 Sec 17, having failed at the OOO. The five Rule 119 requirements (absolute necessity, no other direct evidence, substantial corroboration, not most guilty, no moral-turpitude conviction) are quoted in full. He closes with the CIPI standard: the spotlight will be focused on the SBN's competence, integrity, probity, and independence.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

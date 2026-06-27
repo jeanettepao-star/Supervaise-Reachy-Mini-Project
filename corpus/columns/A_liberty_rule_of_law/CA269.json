@@ -1,0 +1,152 @@
+{
+  "id": "CA269",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 269,
+  "title": "Judicial brinkmanship",
+  "date": "2018-08-19",
+  "link": "https://opinion.inquirer.net/115477/judicial-brinkmanship",
+  "keywords": [
+    "presidential capture judiciary",
+    "judicial independence",
+    "Duterte supermajority SC",
+    "Javellana Executive Secretary",
+    "four constitutional standards"
+  ],
+  "primary_topics": [
+    "Risk of presidential capture of the Supreme Court",
+    "Historical resilience of judicial independence against presidential dominance",
+    "The four constitutional standards as the ultimate safeguard"
+  ],
+  "sub_topics": [
+    "Reaction to author's Aug. 5 column on Duterte's SC appointments",
+    "Foreboding cases: Marcos burial, Mindanao martial law, Sereno ouster",
+    "Duterte naming 13 of 15 justices by end of term",
+    "JBC composition and political lean",
+    "JBC slots: Guevarra (Justice Sec.), Ilao and Mendoza (San Beda regulars), Fernan-Cayosa (IBP)",
+    "Javellana v. Executive Secretary (March 31, 1973) -- Marcos martial law constitution",
+    "Judicial heroes under Marcos: Concepcion, Teehankee, Muñoz-Palma, Melencio-Herrera",
+    "Judicial villains omitted for space",
+    "Cory Aquino appointing all justices -- still independent",
+    "GMA naming majority and totality in 9.5 years -- three chief justices",
+    "GMA failures: people's initiative for parliamentary system, emergency powers issuance",
+    "Four constitutional standards: proven competence, integrity, probity, independence",
+    "Court's duty to presume regularity of executive actions",
+    "Grave abuse of discretion power as extraordinary protection",
+    "Brinkmanship: balancing people's rights vs executive respect"
+  ],
+  "signature_phrases": [
+    "Judicial brinkmanship",
+    "presidential capture",
+    "foreboding cases",
+    "judicial heroes... judicial villains",
+    "Panic, no. But be vigilant, yes.",
+    "proven competence, integrity, probity and independence",
+    "prima facie presumption of the regularity and validity of executive actions",
+    "brinkmanship in balancing its protection of the people's rights vis-à-vis its axiomatic respect for executive actions",
+    "no one wants to be remembered as a judicial villain"
+  ],
+  "entities": {
+    "people": [
+      "President Rodrigo Duterte",
+      "Justice Secretary Menardo Guevarra",
+      "JBC member Toribio Ilao Jr.",
+      "JBC member Jose Mendoza",
+      "Maria Milagros Fernan-Cayosa (IBP JBC slot)",
+      "CJ Roberto Concepcion",
+      "Justice Claudio Teehankee (later CJ)",
+      "Justice Cecilia Muñoz-Palma",
+      "Justice Ameurfina Melencio-Herrera",
+      "President Ferdinand Marcos",
+      "President Corazon Cojuangco Aquino",
+      "President Gloria Macapagal Arroyo",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Judicial and Bar Council (JBC)",
+      "Integrated Bar of the Philippines (IBP)"
+    ],
+    "cases": [
+      "Javellana v. Executive Secretary (March 31, 1973)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (GAD clause, Article VIII Section 1)",
+      "1987 Constitution (judicial standards: proven competence, integrity, probity, independence)",
+      "1973 Constitution (ratified by hand-raising in barangay assemblies)"
+    ],
+    "events": [
+      "Marcos burial at Libingan ng mga Bayani",
+      "Mindanao martial law and extension",
+      "Sereno QW ouster",
+      "GMA's failed people's initiative for parliamentary system",
+      "GMA's struck-down emergency powers issuance"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Panic is not warranted by Duterte's eventual naming of 13 of 15 SC justices, but public vigilance is.",
+      "rhetorical_move": "calibrated response -- fear-reduction paired with civic responsibility",
+      "confidence": "high"
+    },
+    {
+      "claim": "Presidential attempts to dominate the judiciary are not new -- every president, here and in the US, names justices expected to support their programs.",
+      "rhetorical_move": "historical normalization to contextualize the present concern",
+      "confidence": "high"
+    },
+    {
+      "claim": "Even Marcos could not prevent the rise of judicial heroes among his own appointees -- Concepcion, Teehankee, Muñoz-Palma, and Melencio-Herrera.",
+      "rhetorical_move": "historical-resilience evidence",
+      "confidence": "high"
+    },
+    {
+      "claim": "Even GMA, who named a majority and eventually all 15 justices, could not get everything she wanted -- she lost on the people's initiative for parliamentary shift and on emergency powers.",
+      "rhetorical_move": "second historical-resilience evidence",
+      "confidence": "high"
+    },
+    {
+      "claim": "The ultimate test of judicial independence is the Court's brinkmanship in balancing protection of people's rights against axiomatic respect for executive actions -- guided by the four constitutional standards.",
+      "rhetorical_move": "thesis-as-closing-prescription",
+      "confidence": "high"
+    },
+    {
+      "claim": "Public vigilance insisting on the four constitutional standards (proven competence, integrity, probity, independence) will protect people's rights and secure justices' place in history.",
+      "rhetorical_move": "civic-mobilization appeal",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Javellana v. Executive Secretary (March 31, 1973) -- the Court validated the 1973 Constitution ratified by a raising of hands in barangay assemblies rather than secret ballots in a nationwide plebiscite, the paradigm case of judicial capitulation under Marcos.",
+    "Despite Marcos's dominance, judicial heroes emerged: CJ Roberto Concepcion, Justices Claudio Teehankee, Cecilia Muñoz-Palma, and Ameurfina Melencio-Herrera -- proof that appointment does not guarantee loyalty.",
+    "GMA naming a majority and eventually all 15 justices in 9.5 years (second in tenure only to Marcos's 21), yet the Court still blocked her people's initiative for parliamentary shift and struck down her emergency powers issuance.",
+    "Three of the JBC's seven members already Duterte allies; the IBP slot held by Fernan-Cayosa appeared to be the only member outside the President's loop."
+  ],
+  "target_audience": [
+    "Civic society and the reading public worried about judicial capture",
+    "Sitting SC justices sensitive to their place in history",
+    "JBC members aware of political pressure",
+    "Law schools and the bar",
+    "International observers of Philippine democratic institutions"
+  ],
+  "register_markers": [
+    "Direct reader-reaction hook ('reacting to my column')",
+    "Binary framing ('Panic, no. But be vigilant, yes.')",
+    "Historical-trilogy structure: Marcos → Cory → GMA",
+    "Judicial-hero / judicial-villain typology",
+    "Four-standard constitutional citation as climax",
+    "Civic-call closing on place-in-history stakes",
+    "Column self-reference ('my column on Aug. 5')"
+  ],
+  "decision_framework_signals": [
+    "Calibrate public response to executive judicial dominance: vigilance, not panic",
+    "Use historical precedent (Marcos, GMA) to show presidential appointment power has never guaranteed full court control",
+    "Apply the four constitutional standards (competence, integrity, probity, independence) as the evaluative lens for each new appointee",
+    "Treat the GAD clause as the Court's extraordinary tool for protecting rights -- not to be weaponized or paralyzed",
+    "Balance: when the Court must protect rights, it should; when executive actions deserve regularity presumption, it must observe that too",
+    "Frame each justice's historical legacy around the judicial-hero / judicial-villain binary as a motivational structure"
+  ],
+  "one_paragraph_summary": "Responding to alarmed reader reactions to his August 5 column forecasting that President Duterte would name a majority of SC justices before his midterm -- and eventually 13 of 15 by end of term -- Panganiban urges vigilance but not panic. He acknowledges the 'foreboding cases' cited by readers (Marcos burial, Mindanao martial law, Sereno ouster) and notes the JBC's political tilt (three Duterte allies among seven, with only the IBP slot held by Fernan-Cayosa appearing outside the President's loop). But he places this in historical context: presidential attempts to dominate the judiciary are not new anywhere in the world, and the Philippines has experienced this before. Under Marcos, Javellana v. Executive Secretary (March 31, 1973) validated a constitution ratified by hand-raising rather than secret ballots -- yet judicial heroes still emerged among Marcos's own appointees: CJ Roberto Concepcion, Justices Teehankee, Muñoz-Palma, and Melencio-Herrera. Under GMA, who had the second-longest incumbency and named a majority and eventually all 15 justices (including three chiefs), the Court still blocked her people's initiative for parliamentary shift and struck down her emergency powers issuance. The ascendancy of the Court ultimately depends on the justices' adherence to the four constitutional standards of 'proven competence, integrity, probity, and independence.' The Court's brinkmanship -- balancing protection of people's rights against the prima facie presumption of regularity of executive actions -- is the ultimate test of independence. Public vigilance insisting on those four standards will protect rights and secure justices' places in history; while not all will be judicial heroes, no one wants to be remembered as a judicial villain.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

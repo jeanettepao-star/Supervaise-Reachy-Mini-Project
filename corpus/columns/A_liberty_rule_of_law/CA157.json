@@ -1,0 +1,129 @@
+{
+  "id": "CA157",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 157,
+  "title": "The controversial ATA decision (1)",
+  "date": "2022-02-27",
+  "link": "https://opinion.inquirer.net/150383/the-controversial-ata-decision-1",
+  "keywords": [
+    "Anti-Terrorism Act (ATA)",
+    "Calleja v. Executive Secretary",
+    "facial challenge",
+    "free-speech tests (strict scrutiny, overbreadth, vagueness)",
+    "Section 4 deconstruction (Main Part / Proviso)",
+    "judicial review of grave abuse of discretion"
+  ],
+  "primary_topics": [
+    "Constitutionality of the Anti-Terrorism Act (Calleja v. Executive Secretary, Dec. 7, 2021)",
+    "Scope and limits of a 'facial challenge' (confined to free-speech cases)",
+    "Section 4 of the ATA -- Main Part (conduct) vs Proviso (speech)",
+    "Three free-speech tests: strict scrutiny, overbreadth, vagueness",
+    "Judiciary's expanded constitutional duty to determine grave abuse of discretion"
+  ],
+  "sub_topics": [
+    "Carandang ponencia: 235 single-spaced pages, 560 footnotes; separate opinions totalling 640 pages by Gesmundo, Perlas-Bernabe, Leonen, Caguioa, Lazaro-Javier, Inting, Zalameda, M.V. Lopez, Gaerlan, J.Y. Lopez, Dimaampao",
+    "Short history of 19th-century origins of 'terrorism' as subversive activity against the ruling class",
+    "Five rulings CJ fully concurs with: (1) 37 petitions not summarily dismissible, (2) covered by expanded judicial review, (3) facial challenge usable only in free-speech cases, (4) only speech-related portions can be facially invalidated, (5) 'as applied' challenges via trial courts",
+    "Section 4 Main Part: overt acts (death, serious injury, infrastructure damage, biological/nuclear/chemical/radiological weapons, dangerous substances, fire/floods/explosives) + intents (intimidate public, spread fear, influence government, destabilize, foment public emergencies, undermine public safety) + penalty (life imprisonment without parole)",
+    "Section 4 Proviso: advocacies, protests, dissents, mass actions, civil and political rights -- 'not intended to cause death or serious physical harm, endanger a person's life, or create a serious risk to public safety'",
+    "Court holding: Main Part is 'bodily movements' (conduct) -- cannot be facially challenged; Proviso (quoted portion) involves speech and fails the three free-speech tests due to chilling effect and shifted burden of proof",
+    "Justice Carandang's elevation to chancellor of the Philippine Judicial Academy following retirement"
+  ],
+  "signature_phrases": [
+    "one of the longest and most-discussed in our judicial history",
+    "superb scholarship and research poured into them",
+    "transforming them into a doctoral dissertation on constitutional law",
+    "the storied judicial career of Justice Rori",
+    "I FULLY CONCUR WITH THESE FIVE RULINGS",
+    "GIVEN ITS LENGTH AND COMPLICATED NATURE",
+    "the MAIN PART and the PROVISO",
+    "'bodily movements'",
+    "chilling effect",
+    "some of the most controversial grids of constitutional law that even the most seasoned constitutionalists rarely agree on their correct application"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Justice Rosmari D. Carandang (ponente, retiring)",
+      "CJ Alexander G. Gesmundo",
+      "Justice Estela M. Perlas-Bernabe",
+      "Justice Marvic M.V.F. Leonen",
+      "Justice Alfredo Benjamin S. Caguioa",
+      "Justice Amy C. Lazaro-Javier",
+      "Justice Henri Jean Paul B. Inting",
+      "Justice Rodil V. Zalameda",
+      "Justice Mario V. Lopez",
+      "Justice Samuel H. Gaerlan",
+      "Justice Jhosep Y. Lopez",
+      "Justice Japar B. Dimaampao"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (en banc)",
+      "Philippine Judicial Academy",
+      "Trial courts (for 'as applied' challenges)"
+    ],
+    "cases": [
+      "Calleja v. Executive Secretary (G.R. cluster on the ATA, Dec. 7, 2021; released Feb. 15, 2022)"
+    ],
+    "laws_treaties": [
+      "Anti-Terrorism Act of 2020 (Republic Act 11479) -- particularly Section 4",
+      "1987 Constitution -- expanded judicial review of grave abuse of discretion (Article VIII, Section 1)"
+    ],
+    "events": [
+      "Release of the ATA decision on February 15, 2022",
+      "Filing of 37 petitions challenging the ATA"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Whatever one's disagreements, the ATA decision and separate opinions amount to a 'doctoral dissertation on constitutional law' whose scholarship cannot be denigrated.",
+      "rhetorical_move": "concede critique but defend institutional craft",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Five core rulings of the ATA decision are correct: (1) the 37 petitions survive summary dismissal, (2) they fall within the expanded judicial review duty, (3) a facial challenge is available only in free-speech cases, (4) only the speech-related parts can be facially struck down, and (5) new 'as applied' cases must be filed in trial courts.",
+      "rhetorical_move": "five-fold concurrence with reasoned grounds",
+      "confidence": "asserted ('I fully concur')"
+    },
+    {
+      "claim": "The Main Part of Section 4 is conduct (overt acts + intents + penalty) and is properly outside facial review; only the Proviso's quoted phrase, which touches speech, fails strict scrutiny, overbreadth, and vagueness because of its chilling effect and the shift of the burden of proof to the accused.",
+      "rhetorical_move": "structural deconstruction of the statute to localize the constitutional infirmity",
+      "confidence": "asserted with reasoned doctrinal support"
+    },
+    {
+      "claim": "The three free-speech tests (strict scrutiny, overbreadth, vagueness) are 'some of the most controversial grids of constitutional law' on which even seasoned constitutionalists rarely agree.",
+      "rhetorical_move": "epistemic humility framing the doctrinal terrain",
+      "confidence": "observed"
+    }
+  ],
+  "notable_anecdotes": [
+    "Justice 'Rori' Carandang's transition from her storied SC career into the chancellorship of the Philippine Judicial Academy -- used to humanize the court even amid a controversial ruling.",
+    "Page-count tally of opinions (Carandang 235 / Gesmundo 199 / Caguioa 130 / Leonen 65 / others) as a quantitative tribute to the depth of the ruling."
+  ],
+  "target_audience": [
+    "Lawyers, law students, and constitutional scholars",
+    "Civil-society groups and petitioners on the ATA",
+    "Members of the bar interested in free-speech doctrine",
+    "Inquirer readers following the post-EJK/post-ATA constitutional landscape"
+  ],
+  "register_markers": [
+    "doctrinal-explanatory register with controlled praise for craft",
+    "page-count statistics as institutional reverence ('235 single-spaced pages with 560 footnotes')",
+    "structural-deconstruction style ('MAIN PART and the PROVISO')",
+    "small-caps emphasis ('I FULLY CONCUR') as didactic anchoring",
+    "metaphor ('doctoral dissertation on constitutional law')",
+    "epistemic humility close ('rarely agree on their correct application')"
+  ],
+  "decision_framework_signals": [
+    "applies the doctrinal rule that facial challenges are confined to free-speech cases",
+    "uses the three-prong free-speech test (strict scrutiny, overbreadth, vagueness) as the constitutional grid",
+    "distinguishes conduct ('bodily movements') from speech to delimit the proper mode of review",
+    "treats 'as applied' challenges before trial courts as the constitutional next step",
+    "invokes the expanded grave-abuse-of-discretion jurisdiction as the gateway for substantive review"
+  ],
+  "one_paragraph_summary": "Panganiban anatomizes the Supreme Court's Calleja v. Executive Secretary ruling (Dec. 7, 2021; released Feb. 15, 2022) on the Anti-Terrorism Act, calling Justice Rosmari Carandang's 235-page, 560-footnote ponencia -- and the 640 pages of separate opinions from CJ Gesmundo, Perlas-Bernabe, Leonen, Caguioa, Lazaro-Javier, Inting, Zalameda, M.V. Lopez, Gaerlan, J.Y. Lopez, and Dimaampao -- a 'doctoral dissertation on constitutional law.' He fully concurs with five rulings: the 37 petitions cannot be summarily dismissed, they fall within the expanded judicial review of grave abuse of discretion, a facial challenge is properly confined to free-speech cases, only the speech-touching portions of the ATA can be facially invalidated, and 'as applied' challenges must go to the trial courts. Focusing on Section 4, he deconstructs it into a Main Part (overt acts, intents, and the penalty of life imprisonment without parole) and a Proviso protecting advocacies, protests, dissents, and mass actions. The Main Part involves conduct or 'bodily movements,' beyond the reach of a facial challenge; but the Proviso's quoted phrase -- which conditions protected speech on absence of intent to cause death, serious physical harm, life endangerment, or serious risk to public safety -- fails the three free-speech tests of strict scrutiny, overbreadth, and vagueness because it produces a chilling effect and shifts the burden of proof to the accused. He closes by noting that these three tests are 'some of the most controversial grids of constitutional law' on which even seasoned constitutionalists rarely agree, signaling more installments to come.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

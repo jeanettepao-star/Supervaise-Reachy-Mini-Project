@@ -1,0 +1,110 @@
+{
+  "id": "CA523",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 523,
+  "title": "Enfranchising 'duals' and 'greens'",
+  "date": "2011-09-17",
+  "link": "https://opinion.inquirer.net/12299/enfranchising-%e2%80%98duals%e2%80%99-and-%e2%80%98greens%e2%80%99",
+  "keywords": [
+    "dual citizens duals RA 9225 no residency requirement",
+    "green card holders greens affidavit chilling effect",
+    "Macalintal Comelec domicile of origin",
+    "Nicolas Comelec duals no affidavit required",
+    "Information Age fulfills residency purpose"
+  ],
+  "primary_topics": [
+    "Legal distinction between duals (no affidavit, no residency) and greens (affidavit required)",
+    "Argument that the Information Age has fulfilled the purpose of the residency requirement",
+    "Author's concurrence in Macalintal: residency purpose fulfilled by globalization of information"
+  ],
+  "sub_topics": [
+    "Three constitutional qualifications to vote: citizenship, 18 years old, one-year PH residency + 6-month local",
+    "Congress mandated to provide absentee voting for qualified Filipinos abroad",
+    "RA 9189: greens may vote for national candidates if they execute affidavit to resume residence within 3 years",
+    "Macalintal v. Comelec (July 10, 2003, per J. Austria-Martinez): mere foreign residence doesn't erase domicile of origin",
+    "Affidavit required to overcome presumption of domicile abandonment",
+    "RA 9225: duals (naturalized foreigners who reacquired PH citizenship) retain PH citizenship",
+    "Nicolas v. Comelec (Aug. 4, 2006, per J. Garcia): duals need not establish PH residence or sign affidavit to vote",
+    "Constitution implicitly allows non-resident exception through absentee voting mandate",
+    "Fil-American lawyer Ted Laguatan: greens should be on equal footing with duals; affidavit has chilling effect",
+    "Author agrees with Laguatan",
+    "Author's Macalintal concurrence: anchored not on domicile theory but on Information Age fulfillment",
+    "Interactive news websites, cable TV, Facebook, Twitter, Skype, Magic Jack, e-mail fulfill residency purpose",
+    "Overseas Filipinos should vote freely -- they are the single biggest source of foreign exchange"
+  ],
+  "signature_phrases": [
+    "duals and greens",
+    "chilling effect",
+    "domicile of origin",
+    "Information Age",
+    "globalization of information",
+    "anachronistic roadblocks",
+    "single biggest source of foreign exchange"
+  ],
+  "entities": {
+    "people": [
+      "Fil-American lawyer Ted Laguatan",
+      "Justice Ma. Alicia Austria-Martinez (Macalintal ponente)",
+      "Justice Cancio C. Garcia (Nicolas ponente)",
+      "Artemio V. Panganiban (author; Macalintal concurring)"
+    ],
+    "institutions": [
+      "Commission on Elections",
+      "Congress of the Philippines"
+    ],
+    "cases": [
+      "Macalintal v. Comelec (July 10, 2003, per J. Austria-Martinez)",
+      "Nicolas v. Comelec (August 4, 2006, per J. Garcia)"
+    ],
+    "laws_treaties": [
+      "Republic Act No. 9189 (Overseas Absentee Voting Law)",
+      "Republic Act No. 9225 (Dual Citizenship Law)"
+    ],
+    "events": []
+  },
+  "stances": [
+    {
+      "claim": "Duals need not observe the one-year residency requirement or execute the affidavit required of greens -- Nicolas v. Comelec (2006) established this clearly.",
+      "rhetorical_move": "doctrinal statement",
+      "confidence": "high"
+    },
+    {
+      "claim": "Greens should be on equal footing with duals -- the affidavit requirement has a chilling effect and the residency purpose is already fulfilled by the Information Age.",
+      "rhetorical_move": "endorsement of Laguatan's argument with the author's own Macalintal concurrence as anchor",
+      "confidence": "high"
+    },
+    {
+      "claim": "The purpose of the residency requirement -- ensuring voters know their country's needs and candidates -- is now fulfilled by interactive news websites, social media, Skype, and other digital tools without physical presence.",
+      "rhetorical_move": "purpose-fulfillment argument using Information Age technology",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "The author's Macalintal concurrence anchored not on the old domicile theory but on the Information Age -- a forward-looking judicial philosophy that anticipated the digital era's fulfillment of the residency purpose.",
+    "Ted Laguatan's argument: greens who remain Filipino citizens (unlike duals who became foreign nationals) are being treated worse than those who actually took foreign citizenship -- a constitutional anomaly.",
+    "The enumeration of digital communication tools -- 'Interactive news websites, cable TV programs, social networks like Facebook and Twitter, cell phones, Skype, Magic Jack, e-mails, teleconferencing' -- as evidence that physical presence is no longer needed to be informed about Philippine political life."
+  ],
+  "target_audience": [
+    "Dual citizens and green card holders asking about voting rights",
+    "Congress members drafting amendments to RA 9189",
+    "Comelec officials implementing overseas voting rules",
+    "Constitutional law scholars on absentee voting"
+  ],
+  "register_markers": [
+    "Reader-question framing (US readers first to e-mail)",
+    "Dual vs green distinction structure",
+    "Two-case survey (Macalintal + Nicolas)",
+    "Author's own concurrence cited as authority",
+    "Information Age purpose-fulfillment argument"
+  ],
+  "decision_framework_signals": [
+    "Apply Nicolas v. Comelec: duals vote freely without affidavit or residency",
+    "Reform RA 9189 to remove the greens' affidavit requirement -- it has a chilling effect inconsistent with the Constitution's mandate to enfranchise all qualified Filipinos abroad",
+    "Apply the purpose-fulfillment test: if the Information Age has already achieved what residency was supposed to ensure (knowledge of PH political life), the residency requirement is no longer necessary"
+  ],
+  "one_paragraph_summary": "Responding to frequent questions from US-based readers, Panganiban explains the legal distinction between 'duals' (Filipinos who became naturalized foreign citizens but reacquired PH citizenship under RA 9225) and 'greens' (Filipino immigrants and permanent residents who have not changed citizenship). Under RA 9189 (Overseas Absentee Voting Law), greens may vote for national candidates only if they execute an affidavit declaring they will resume physical residence in the Philippines within three years of registration -- the affidavit overcoming the Macalintal v. Comelec (2003) presumption that permanent foreign residency abandons PH domicile. By contrast, under Nicolas v. Comelec (2006), duals need not establish PH residence or execute the affidavit at all -- the Constitution's implicit authorization of non-resident absentee voting removes the residency requirement. Fil-American lawyer Ted Laguatan argues that greens who remain Filipino citizens (unlike duals who took foreign citizenship) should not be treated worse, and that the affidavit has a 'chilling effect' that negates the constitutional intent to enfranchise all overseas Filipinos. The author agrees -- and anchors the agreement on his own Macalintal concurrence: he did not rely on domicile theory but argued that the Information Age (interactive websites, cable TV, Facebook, Twitter, Skype, Magic Jack, teleconferencing) has already fulfilled the residency requirement's purpose of ensuring voters know PH political life. The residency requirement is now an 'anachronistic roadblock' -- overseas Filipinos, the single biggest source of foreign exchange, should vote freely in national elections.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

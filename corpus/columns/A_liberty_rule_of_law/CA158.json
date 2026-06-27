@@ -1,0 +1,138 @@
+{
+  "id": "CA158",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 158,
+  "title": "Extradition, Quiboloy and BBM",
+  "date": "2022-02-20",
+  "link": "https://opinion.inquirer.net/150085/extradition-quiboloy-and-bbm",
+  "keywords": [
+    "RP-US Extradition Treaty",
+    "Secretary of Justice v. Lantion",
+    "Apollo Quiboloy / FBI charges",
+    "Mark Jimenez extradition",
+    "national interest as diplomatic principle",
+    "Marcos contempt judgment ($356M / $2B)"
+  ],
+  "primary_topics": [
+    "Two-phase structure of extradition under the RP-US Treaty (evaluation stage; judicial extradition hearing)",
+    "Apollo Quiboloy and the FBI sex-trafficking and criminal charges",
+    "Secretary of Justice v. Lantion (Jan. 18, 2000) -- extraditee's right to be heard at the evaluation stage",
+    "Extradition as essentially a diplomatic process governed by national interest",
+    "Marcos family US contempt judgment and its extradition implications for BBM"
+  ],
+  "sub_topics": [
+    "DFA and DOJ ascertain treaty-required documentation in the preliminary stage",
+    "RTC determines extradition in the judicial stage",
+    "Note Verbale No. 0522 (June 18, 1999) -- US extradition request for Mark Jimenez",
+    "Estelito Mendoza's bid for copies of US documents; Manila RTC 'status quo' order",
+    "Initial 9-6 Lantion ruling (Melo ponencia) granting due process at the evaluation stage; Puno-Panganiban-led dissent",
+    "Reversal on motion for reconsideration (also 9-6) -- flipped votes by Justices Quisumbing, Purisima, De Leon",
+    "CJ's book 'Transparency, Unanimity and Diversity' (Dec. 2000), pp. 326-339, for the full account",
+    "Carranza's claim of a US contempt judgment for failure to pay the $2B human-rights damages -- original 1995 order extended to 2031, $356M penalty as of 2012",
+    "Why the US has not initiated extradition proceedings against BBM despite the contempt ruling",
+    "Comparison: Jimenez extradition pursued though close ally of then-President Joseph Estrada"
+  ],
+  "signature_phrases": [
+    "UNDER THE RP-US EXTRADITION TREATY",
+    "essentially an executive determination while the second is a judicial process",
+    "AT BOTTOM, I BELIEVE THAT EXTRADITION is essentially a diplomatic process",
+    "national interest is the essential consideration",
+    "Note Verbale",
+    "'maintain the status quo'",
+    "the reversal happened because three justices flipped their votes",
+    "former PCGG commissioner Ruben Carranza from his US enclave",
+    "If this contempt ruling has turned the Marcos cases into an extraditable offense, why has the US not initiated extradition proceedings on BBM?"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author; dissenter in original Lantion ruling)",
+      "Apollo Quiboloy (pastor, 'Kingdom of Jesus Christ')",
+      "Mark Jimenez (extraditee)",
+      "Estelito P. Mendoza (Jimenez's counsel)",
+      "Justice Jose A. R. Melo (Lantion ponente)",
+      "Justice (later CJ) Reynato S. Puno (dissenter)",
+      "Justice Leonardo Quisumbing (flipped vote)",
+      "Justice Fidel Purisima (flipped vote)",
+      "Justice Sabino de Leon (flipped vote)",
+      "Joseph Estrada (then-President at time of Jimenez extradition)",
+      "Ruben Carranza (former PCGG commissioner)",
+      "Bongbong Marcos / BBM",
+      "Imelda Marcos (mother, co-respondent in US contempt)"
+    ],
+    "institutions": [
+      "Department of Foreign Affairs (DFA)",
+      "Department of Justice (DOJ)",
+      "US Federal Bureau of Investigation (FBI)",
+      "Regional Trial Court of Manila",
+      "Supreme Court of the Philippines",
+      "Presidential Commission on Good Government (PCGG)",
+      "US federal court issuing 1995 contempt judgment"
+    ],
+    "cases": [
+      "Secretary of Justice v. Lantion (Jan. 18, 2000) -- initial ruling and reversal on MR",
+      "US contempt judgment (1995, extended to 2031) against Marcos family in human-rights damages action"
+    ],
+    "laws_treaties": [
+      "RP-US Extradition Treaty",
+      "Two-stage process: executive evaluation + judicial hearing"
+    ],
+    "events": [
+      "FBI filing of sex-trafficking and other criminal charges against Quiboloy",
+      "1999 US extradition request for Mark Jimenez via Note Verbale No. 0522",
+      "1995 US contempt judgment against the Marcoses; extension to 2031"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Extradition has two distinct phases -- an executive evaluation by DFA/DOJ and a judicial hearing in the RTC -- and conflating their procedural protections is a doctrinal mistake.",
+      "rhetorical_move": "two-stage structural framework for understanding due-process entitlements",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The extraditee is NOT entitled to due process at the preliminary evaluation stage because he is not yet at risk of being deprived of life, liberty, or property -- vindicating CJ's original dissent and the Court's reversal on MR.",
+      "rhetorical_move": "self-vindicating recounting of the 9-6 reversal",
+      "confidence": "asserted ('I believe')"
+    },
+    {
+      "claim": "Extradition is fundamentally a diplomatic process governed by the national interests of both states -- initiation depends on US national interest, and accession depends on Philippine national interest.",
+      "rhetorical_move": "elevation of the principle above procedural minutiae",
+      "confidence": "asserted ('At bottom, I believe')"
+    },
+    {
+      "claim": "Carranza's claim that BBM is subject to a US contempt judgment with a $356M penalty (separate from the $2B damages owed to human-rights victims) raises the question why the US has not initiated extradition -- a question pressed at Carranza and his militant Filipino-American allies, not assumed.",
+      "rhetorical_move": "Socratic challenge to advocates without endorsing the legal conclusion",
+      "confidence": "open question"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 9-6 to 9-6 reversal in Lantion: Justices Quisumbing, Purisima, and De Leon flipping their votes on motion for reconsideration -- narrated as a teaching moment in deliberative judicial change.",
+    "Mark Jimenez's extradition being pursued despite his being 'a close ally and friend of then president Joseph Estrada' -- used to illustrate that national interest, not personal loyalty, drives extradition.",
+    "CJ citing his own 2000 book 'Transparency, Unanimity and Diversity' (Supreme Court press, pp. 326-339) for the full Lantion account."
+  ],
+  "target_audience": [
+    "Lawyers and law students studying extradition",
+    "Diplomats and DFA/DOJ officials",
+    "Politically engaged readers concerned about US-PH bilateral exposure of Quiboloy and BBM",
+    "Anti-Marcos civic groups and human-rights advocates"
+  ],
+  "register_markers": [
+    "two-stage doctrinal framing ('first, a preliminary or evaluation stage; second, the extradition hearing')",
+    "self-citation register (referring to his own book and prior dissent)",
+    "comparative-case mode (Jimenez vs Quiboloy vs BBM)",
+    "Socratic-question close ('why has the US not initiated extradition proceedings on BBM?')",
+    "doctrinal-formal Latin/diplomatic vocabulary ('Note Verbale,' 'ad interim,' 'national interest')",
+    "small-caps doctrinal markers ('AT BOTTOM, I BELIEVE')"
+  ],
+  "decision_framework_signals": [
+    "stage-based due-process analysis (procedural rights attach where deprivation looms)",
+    "national-interest test as the governing principle of extradition policy",
+    "applies precedent (Lantion reversal) as authoritative on the no-due-process-at-evaluation rule",
+    "uses comparative case reasoning (Jimenez precedent vs Quiboloy possibility) to predict diplomatic outcomes",
+    "tests the inconsistency between asserted legal exposure (BBM contempt) and absence of US action as a heuristic for whether the legal claim holds"
+  ],
+  "one_paragraph_summary": "Panganiban uses the FBI's sex-trafficking and related criminal charges against Apollo Quiboloy as a doorway into a primer on extradition under the RP-US Treaty. Extradition has two phases: an executive evaluation by the DFA and DOJ of the requesting state's documentation, and a judicial extradition hearing at the Regional Trial Court. He revisits Secretary of Justice v. Lantion (Jan. 18, 2000), in which Justice Melo's ponencia initially held 9-6 that extraditee Mark Jimenez was entitled to due process even at the preliminary stage, over the dissent of CJ (then-Justice) Puno, Panganiban, and four others. On motion for reconsideration, the Court reversed itself 9-6 -- Justices Quisumbing, Purisima, and De Leon flipped -- and ruled that no due-process right attaches at the evaluation phase because no deprivation of life, liberty, or property is yet at stake. Panganiban grounds his deeper claim that extradition is 'essentially a diplomatic process' driven by national interest (the US pursued Mark Jimenez even though he was close to then-President Estrada). He closes by pressing former PCGG commissioner Ruben Carranza's claim that BBM and his mother remain under a 1995 US contempt judgment (extended to 2031, with a $356M penalty as of 2012 alongside the $2B human-rights damages) -- asking why, if the contempt is extraditable, the US has not initiated proceedings, and whether Carranza and his militant Filipino-American allies have actually pressed Washington to do so.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

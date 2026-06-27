@@ -1,0 +1,191 @@
+{
+  "id": "CA131",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 131,
+  "title": "Window to acquit Maria Ressa",
+  "date": "2022-10-24",
+  "link": "https://opinion.inquirer.net/158117/window-to-acquit-maria-ressa",
+  "keywords": [
+    "Maria Ressa",
+    "Rappler",
+    "Reynaldo Santos Jr.",
+    "cyberlibel",
+    "Wilfredo Keng",
+    "Cybercrime Prevention Act 2012",
+    "prescriptive period",
+    "Tolentino v People",
+    "CA Quiroz decision",
+    "SC en banc",
+    "press freedom",
+    "one-year vs 15-year"
+  ],
+  "primary_topics": [
+    "CA's Oct. 10, 2022 denial of Ressa-Santos MR (CA decision penned by J Quiroz, concurred in by JJ Bato and Legaspi)",
+    "Cyberlibel doctrine: presumed malice for private individuals; burden on accused; Rappler's defense failures",
+    "The 'window' to acquittal on SC appeal: skipping CA and arguing one-year prescriptive period vs Tolentino v. People's 15-year cyberlibel period",
+    "Tolentino v. People (Aug. 6, 2018) as an unsigned resolution only the SC en banc can reverse",
+    "Ressa's bitterness vs Santos's reconciliation -- CJ's plea for SC to rise above emotional outbursts"
+  ],
+  "sub_topics": [
+    "CA Oct. 10, 2022 MR denial affirming 37-page Manila RTC decision finding Ressa and Santos guilty of cyberlibel",
+    "CA decision penned by Justice Roberto P. Quiroz; concurred in by Justices Ramon M. Bato Jr. and Germano Francisco D. Legaspi",
+    "DOJ charge: 'on or about 19 February 2014' re-published Rappler article 'maliciously and publicly branded' Wilfredo Keng (private citizen) as 'human trafficker, a drug and contraband smuggler, and worst, a murderer'",
+    "Libel under Revised Penal Code: public + malicious imputation of crime/vice/defect tending to cause dishonor via printed media",
+    "Cybercrime Prevention Act of 2012: extended libel to 'computer system or any other similar means' + increased penalty",
+    "Imputation established: Keng never charged with, much less convicted of, the imputed crimes",
+    "Private-citizen plaintiff: malice presumed by law; need not be proven by prosecution; burden shifts to accused",
+    "Lower courts: 'Lamentably, the defense miserably failed' to rebut presumption; even 'actual,' not just 'presumed' malice was proven",
+    "Procedural oddity: 'both accused did not take the witness stand to contest this point and to explain their defenses'",
+    "Three rebuttals CJ argues should have been raised on the stand: (1) fair comment on public-interest matter; (2) government weaponization of cybercrime law to harass/intimidate/silence Rappler; (3) sufficient reasons for seven-month refusal to publish Keng's side",
+    "Forum-choice critique: chose 'public fora and the media' instead of testifying -- but 'courts do not base their rulings on media reports and public assemblies'",
+    "CJ's prior recommendation: skip CA after RTC decision and appeal directly to SC raising the 'truly viable defense' -- prescription",
+    "One-year libel prescriptive period vs Tolentino v. People (Aug. 6, 2018) unsigned resolution setting cyberlibel prescription at 15 years",
+    "Only SC en banc can reverse or modify the Tolentino resolution",
+    "Santos reaction (reconciliatory): MR denial 'not surprising but disheartening, nevertheless... we elevate our case to the SC, our fight against intimidation and suppression of press freedom continues. We still believe that the rule of law will prevail'",
+    "Ressa reaction (bitter): 'Philippine legal system is not doing enough to stop it. I am disappointed by today's ruling but sadly not surprised'",
+    "CJ's hope: SC justices 'rise above the emotional outbursts' and 'veer toward the one-year prescriptive period because, philosophically, I believe that society is better served when cases are filed and prosecuted speedily'",
+    "CJ's principled close: by defending themselves with all available legal weapons, both accused 'have shown their trust in our judicial system; thus, they should accept whatever may be the final decision of the highest court' -- otherwise they should have refused participation 'from the very beginning like what former senator Benigno Aquino Jr. did when he was tried by a military tribunal that subsequently sentenced him to death'"
+  ],
+  "signature_phrases": [
+    "Window to acquit",
+    "cyberlibel",
+    "human trafficker, a drug and contraband smuggler, and worst, a murderer",
+    "public and malicious imputation",
+    "malice is presumed by law",
+    "Lamentably, the defense miserably failed",
+    "actual, not just presumed malice",
+    "Oddly, both accused did not take the witness stand",
+    "in my past pieces, I opined",
+    "fair comment on a matter of public interest",
+    "weaponized the cybercrime law",
+    "harass, intimidate and silence",
+    "the crime has prescribed",
+    "the one-year prescriptive period for libel had already lapsed",
+    "unsigned resolution",
+    "Only the Supreme Court en banc can reverse or modify this resolution",
+    "rise above the emotional outbursts",
+    "philosophically, I believe that society is better served when cases are filed and prosecuted speedily",
+    "trust in our judicial system",
+    "should accept whatever may be the final decision",
+    "former senator Benigno Aquino Jr."
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Maria Ressa (multi-awarded Rappler CEO)",
+      "Reynaldo Santos Jr. (former Rappler staffer; co-accused)",
+      "Wilfredo Keng (private citizen complainant)",
+      "Court of Appeals Justice Roberto P. Quiroz (decision ponente)",
+      "Court of Appeals Justice Ramon M. Bato Jr. (concurring)",
+      "Court of Appeals Justice Germano Francisco D. Legaspi (concurring)",
+      "Late Senator Benigno Aquino Jr. (cited for refusal-to-participate precedent in military tribunal)"
+    ],
+    "institutions": [
+      "Rappler (online media; Ressa and Santos's employer)",
+      "Department of Justice (DOJ; original charge filer)",
+      "Regional Trial Court of Manila (37-page decision court)",
+      "Court of Appeals (PH; Oct. 10, 2022 MR denial venue)",
+      "Supreme Court of the Philippines (En Banc; only body able to reverse Tolentino)",
+      "Philippine Daily Inquirer",
+      "Military tribunal that tried Sen. Aquino Jr. (historical reference)"
+    ],
+    "cases": [
+      "Ressa-Santos cyberlibel case (Manila RTC 37-page decision; CA decision penned by J Quiroz; pending SC appeal)",
+      "Tolentino v. People (PH SC, Aug. 6, 2018, unsigned resolution) -- set cyberlibel prescriptive period at 15 years"
+    ],
+    "laws_treaties": [
+      "Revised Penal Code (libel provisions; one-year prescriptive period)",
+      "Cyber Crime Prevention Act of 2012 (extending libel and increasing penalty)"
+    ],
+    "events": [
+      "On or about Feb. 19, 2014 -- Rappler republication of the article imputing crimes to Keng",
+      "Seven-month Rappler refusal to publish Keng's side despite numerous follow-ups",
+      "Aug. 6, 2018 -- Tolentino v. People unsigned resolution",
+      "Manila RTC 37-page guilty decision",
+      "Oct. 10, 2022 -- CA MR denial",
+      "Post-CA-denial -- Ressa and Santos's SC appeal"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Manila RTC and the Court of Appeals (CA decision penned by J Roberto P. Quiroz, concurred in by JJ Bato and Legaspi) correctly found Ressa and Santos guilty of cyberlibel given the evidence: the Feb. 19, 2014 Rappler republication 'maliciously and publicly branded' Wilfredo Keng as 'human trafficker, a drug and contraband smuggler, and worst, a murderer'; Keng was never charged with those crimes; he is a private citizen so malice is presumed by law; the burden to rebut shifted to the accused; and 'lamentably, the defense miserably failed.'",
+      "rhetorical_move": "lower-courts-correctness affirmation",
+      "confidence": "asserted with cited findings"
+    },
+    {
+      "claim": "Beyond the presumed-malice burden, lower courts found 'actual, not just presumed malice' -- yet 'oddly, both accused did not take the witness stand to contest this point and to explain their defenses.' Their three available rebuttals -- fair comment on public-interest matter; government weaponization of cybercrime law to 'harass, intimidate and silence' Rappler; and sufficient reasons for the seven-month refusal to publish Keng's side -- were aired in 'public fora and the media' rather than courtroom testimony, but 'courts do not base their rulings on media reports and public assemblies.'",
+      "rhetorical_move": "missed-defenses inventory + forum-choice critique",
+      "confidence": "asserted with named alternative-defenses"
+    },
+    {
+      "claim": "The 'window' to acquittal on SC appeal lies in the 'truly viable defense' Ressa and Santos should have raised by skipping the CA and going directly to the SC: the crime has prescribed because the one-year libel prescriptive period had lapsed when the DOJ filed the charge. The CA was bound by Tolentino v. People (Aug. 6, 2018), an unsigned resolution setting cyberlibel prescription at 15 years -- and only the SC en banc can reverse or modify Tolentino.",
+      "rhetorical_move": "viable-defense identification with procedural-route prescription",
+      "confidence": "asserted with named-resolution"
+    },
+    {
+      "claim": "Santos's reconciliatory response ('the rule of law will prevail') and Ressa's bitter response ('Philippine legal system is not doing enough') diverge sharply. CJ hopes 'the high court justices will rise above the emotional outbursts' and 'would -- like me if I were still an incumbent -- veer toward the one-year prescriptive period because, philosophically, I believe that society is better served when cases are filed and prosecuted speedily.'",
+      "rhetorical_move": "judicial-restraint plea + personal-philosophy disclosure",
+      "confidence": "prescriptive with self-positioning"
+    },
+    {
+      "claim": "By defending themselves with all available legal weapons, both accused 'have shown their trust in our judicial system; thus, they should accept whatever may be the final decision of the highest court' -- otherwise they should have refused to participate in the proceedings from the start, as Sen. Benigno Aquino Jr. did when he was tried by a military tribunal that 'subsequently sentenced him to death.'",
+      "rhetorical_move": "rule-of-law-acceptance principle with historical Aquino precedent",
+      "confidence": "asserted with named-precedent"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 37-page RTC decision detail -- making concrete the lower-court production CJ characterizes as 'carefully crafted.'",
+    "The verbatim DOJ-charge language -- 'human trafficker, a drug and contraband smuggler, and worst, a murderer' -- preserved as the imputation that triggered the libel finding.",
+    "The seven-month Rappler refusal to publish Keng's side 'despite numerous follow-up' -- concrete fact-pattern detail that undermines the fair-comment defense if not affirmatively rebutted.",
+    "CJ's diagnostic 'Oddly, both accused did not take the witness stand' -- the procedural choice CJ identifies as decisive for the lower-courts' rulings.",
+    "The Tolentino v. People unsigned-resolution detail -- making explicit the precedent that binds the CA and identifying the specific institutional handoff (en banc only) needed to dislodge it.",
+    "Santos's quoted reconciliatory line -- 'the rule of law will prevail' -- contrasted with Ressa's bitter quoted line about the 'Philippine legal system' -- modeling the two responses for SC justices to read.",
+    "CJ's hypothetical incumbency self-positioning -- 'like me if I were still an incumbent' -- rare counterfactual disclosure of how he would rule, transparent about his philosophical leaning.",
+    "The Sen. Aquino Jr. precedent -- refusing to participate before a military tribunal that 'subsequently sentenced him to death' -- used as the moral exemplar of forum-rejection-as-principled-protest, the contrapositive of Ressa's participation.",
+    "The 'speedy filing and prosecution' philosophy disclosure -- anchoring CJ's prescriptive lean toward the one-year prescriptive period in a substantive jurisprudential preference rather than personal sympathy."
+  ],
+  "target_audience": [
+    "Maria Ressa and Reynaldo Santos Jr. (column subjects with prescriptive guidance)",
+    "Ressa-Santos defense counsel preparing SC appeal",
+    "Members of the Supreme Court En Banc (only body able to reverse Tolentino)",
+    "Court of Appeals (decision-makers whose ruling is reviewed)",
+    "Wilfredo Keng (private complainant)",
+    "Press-freedom advocates and journalists",
+    "Constitutional law and criminal-procedure academics",
+    "Inquirer general readership tracking the Rappler case",
+    "International observers of PH press-freedom situation"
+  ],
+  "register_markers": [
+    "title-as-prescription register ('Window to acquit Maria Ressa')",
+    "named-CA-panel disclosure (Quiroz, Bato, Legaspi)",
+    "verbatim DOJ-charge quotation",
+    "lower-court-correctness affirmation with reluctance ('Lamentably')",
+    "'Oddly' diagnostic marker",
+    "'in my past pieces, I opined' self-citation register",
+    "alternative-defenses inventory enumeration (three)",
+    "viable-defense identification ('truly viable')",
+    "prescription-doctrine technical vocabulary",
+    "unsigned-resolution institutional-mechanics disclosure",
+    "judicial-restraint plea ('rise above the emotional outbursts')",
+    "counterfactual incumbency self-positioning ('like me if I were still an incumbent')",
+    "philosophy-disclosure marker ('philosophically, I believe')",
+    "historical-precedent gravity (Sen. Aquino military tribunal)",
+    "rule-of-law-acceptance principle closer"
+  ],
+  "decision_framework_signals": [
+    "applies lower-courts-correctness affirmation as starting point for SC-appeal analysis",
+    "uses missed-defenses inventory + forum-choice critique to diagnose litigation strategy",
+    "deploys viable-defense identification (prescription) with procedural-route prescription (skip CA → SC en banc)",
+    "treats Tolentino v. People as institutionally-fixed by unsigned resolution requiring en banc reversal",
+    "applies judicial-restraint plea ('rise above the emotional outbursts') as institutional-tone prescription",
+    "uses personal-philosophy disclosure (speedy filing and prosecution) as transparent-bias acknowledgment",
+    "deploys counterfactual-incumbency self-positioning to model how CJ would have voted",
+    "channels historical Aquino-precedent as forum-rejection-as-protest framework",
+    "applies rule-of-law-acceptance principle as participation-implies-acceptance corollary"
+  ],
+  "one_paragraph_summary": "Panganiban analyzes the path forward for multi-awarded Rappler CEO Maria Ressa and former Rappler staffer Reynaldo Santos Jr. after the Court of Appeals' October 10, 2022 denial of their motion for reconsideration of the CA's earlier judgment (penned by Justice Roberto P. Quiroz, concurred in by Justices Ramon M. Bato Jr. and Germano Francisco D. Legaspi) affirming the 37-page Manila RTC decision finding them guilty of cyberlibel. The Department of Justice charged that on or about February 19, 2014, the accused re-published a Rappler article that 'maliciously and publicly branded' Wilfredo Keng -- a private citizen -- 'as a human trafficker, a drug and contraband smuggler, and worst, a murderer.' Libel under the Revised Penal Code requires public and malicious imputation of a crime/vice/defect causing dishonor via printed media; the Cybercrime Prevention Act of 2012 extended this to 'computer system or any other similar means' and increased the penalty. Keng was never charged with the imputed crimes; because he is a private citizen, malice is presumed by law and the burden to rebut shifted to the accused -- and 'lamentably, the defense miserably failed.' Worse, the lower courts found 'actual,' not just 'presumed,' malice. 'Oddly, both accused did not take the witness stand to contest this point and to explain their defenses.' In past pieces, CJ had opined they should have testified to show that (1) the republished article was fair comment on a matter of public interest, (2) the government weaponized the cybercrime law to 'harass, intimidate and silence' them and Rappler, and (3) Rappler had sufficient reasons for its seven-month refusal to publish Keng's side. Instead they aired their defenses in 'the public fora and the media' -- but 'courts do not base their rulings on media reports and public assemblies.' He had also opined that after the trial court's decision, they should have skipped the CA and appealed directly to the SC to raise their 'truly viable defense' -- that the crime had prescribed because the one-year libel prescriptive period had lapsed when the DOJ filed the charge. The CA was bound by Tolentino v. People (August 6, 2018), an unsigned resolution setting cyberlibel prescription at 15 years; only the Supreme Court en banc can reverse or modify that resolution. Santos was reconciliatory after the MR denial -- 'not surprising but disheartening, nevertheless... we still believe that the rule of law will prevail' -- but Ressa was bitter: 'Philippine legal system is not doing enough to stop it. I am disappointed by today's ruling but sadly not surprised.' Ignoring Ressa's bitterness, CJ hopes the high court justices 'will rise above the emotional outbursts' and 'would -- like me if I were still an incumbent -- veer toward the one-year prescriptive period because, philosophically, I believe that society is better served when cases are filed and prosecuted speedily.' He closes on a rule-of-law principle: by defending themselves with all available legal weapons, both accused 'have shown their trust in our judicial system; thus, they should accept whatever may be the final decision of the highest court. Otherwise, they should have refused to participate in the judicial proceedings from the very beginning like what former senator Benigno Aquino Jr. did when he was tried by a military tribunal that subsequently sentenced him to death.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

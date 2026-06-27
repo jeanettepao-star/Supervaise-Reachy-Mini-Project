@@ -1,0 +1,123 @@
+{
+  "id": "CA305",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 305,
+  "title": "A legal feast on ML",
+  "date": "2017-07-23",
+  "link": "https://opinion.inquirer.net/105770/legal-feast-ml",
+  "keywords": [
+    "Lagman vs Medialdea",
+    "separate opinions",
+    "martial law SCOTUS",
+    "Sereno dissent",
+    "Carpio dissent",
+    "Leonen dissent",
+    "sui generis standard",
+    "void for vagueness",
+    "reasonableness standard"
+  ],
+  "primary_topics": [
+    "Scholarly analysis of the 14 separate opinions in Lagman vs Medialdea (July 4, 2017)",
+    "Competing evidentiary standards for reviewing martial law (probable cause vs reasonableness vs sui generis)",
+    "Leonen's lone true dissent as the juridical counter-pole to the majority"
+  ],
+  "sub_topics": [
+    "Concurrences of Justices Perlas-Bernabe and Jardeleza -- sui generis ML review, government bears burden of proof",
+    "Government bears burden (not petitioners) because it holds classified information",
+    "Jardeleza's 'reasonableness' standard vs ponencia's 'probable cause' standard vs Carpio's 'probable cause'",
+    "Discarding all four ordinary review thresholds (substantial evidence, preponderance, proof beyond reasonable doubt, grave abuse)",
+    "Jardeleza on 'state of rebellion' vs 'crime of rebellion' as basis of ML",
+    "Jardeleza on public access to oral arguments in ML cases",
+    "Sereno and Carpio opinions: titled 'Dissenting' but actually 'Concurring and Dissenting'",
+    "Sereno (with Caguioa): ML territorial coverage limited to Lanao del Sur, Maguindanao, Sulu",
+    "Carpio: ML territorial coverage limited to Marawi only",
+    "Sereno's comprehensive dissertation on arrest/seizure procedures, rights of accused, government powers",
+    "Carpio's four general consequences of martial law",
+    "Leonen's 92-page dissent -- ML over entire Mindanao grants undefined presidential powers",
+    "'Void for vagueness' and 'void for overbreadth' doctrines as applied to ML",
+    "Leonen: ML as proclaimed is vague, thus unconstitutional"
+  ],
+  "signature_phrases": [
+    "indigestible legal gobbledygook for lay people",
+    "veritable legal feast for law scholars",
+    "sui generis (one of a kind)",
+    "peregrinations may be lonely now, but they could be cheerful at another time",
+    "legal gems",
+    "nitpicking to the uninitiated, but they make a lot of legal sense",
+    "like the various types of cancers require specific medical solutions",
+    "the Court cannot grant the President undefined powers of martial law over the entire Mindanao region",
+    "should be stricter, more precise, and more vigilant of the fundamental rights of our people"
+  ],
+  "entities": {
+    "people": [
+      "Justice Estela M. Perlas-Bernabe (concurring -- sui generis, government burden)",
+      "Justice Francis H. Jardeleza (concurring -- reasonableness standard, state vs crime of rebellion)",
+      "Justice Antonio T. Carpio (concurring-dissenting -- probable cause, Marawi-only coverage, four ML consequences)",
+      "CJ Maria Lourdes P.A. Sereno (concurring-dissenting -- Lanao/Maguindanao/Sulu coverage, arrest/seizure dissertation)",
+      "Justice Alfredo Benjamin Caguioa (joined Sereno on territorial limitation)",
+      "Justice Marvic M.V.F. Leonen (sole true dissent -- 92-page opus, void for vagueness)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "Lagman vs Medialdea (July 4, 2017) -- SC upheld Proclamation 216 with 14 separate opinions"
+    ],
+    "laws_treaties": [
+      "Proclamation No. 216 (P216) -- Mindanao martial law edict"
+    ],
+    "events": [
+      "Lagman vs Medialdea oral arguments -- Jardeleza's argument for public access"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The concurring opinions of Perlas-Bernabe and Jardeleza represent the most jurisprudentially significant contributions: their sui generis standard (placing the burden of proof on the government, not petitioners) and the 'reasonableness' test (not probable cause) will be pivotal when future ML declarations or extensions are challenged.",
+      "rhetorical_move": "prospective-relevance argument: flagging minority doctrinal positions as future governing standards",
+      "confidence": "asserted as probable future relevance"
+    },
+    {
+      "claim": "Sereno's and Carpio's opinions are mischaracterized as 'Dissenting' when they actually concurred on the factual basis of P216 but dissented only on territorial coverage — they should properly be titled 'Concurring and Dissenting,' and their mislabeling causes valuable legal gems in those opinions to be overlooked.",
+      "rhetorical_move": "taxonomic-correction argument: proper opinion classification as a precondition for doctrinal uptake",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Leonen's 92-page dissent — arguing that the Court cannot grant undefined ML powers over all of Mindanao and that ML as proclaimed is vague and thus unconstitutional — is the only true dissent and deserves to be 'read and reread,' because its 'peregrinations may be lonely now but could be cheerful at another time.'",
+      "rhetorical_move": "minority-vindication prophecy: the lonely dissent as a seed for future jurisprudential reversal",
+      "confidence": "asserted with temporal hedge ('at another time')"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ Panganiban's opening framing of the 14 opinions as 'indigestible legal gobbledygook for lay people' but a 'veritable legal feast for law scholars' — a rare self-aware acknowledgment that the column is deliberately written for legal specialists, not the lay audience he usually targets.",
+    "The taxonomic correction of Sereno's and Carpio's opinions: both labeled 'Dissenting' in the official reports but actually 'Concurring and Dissenting' in substance — CJ notes this not as pedantry but because the mislabeling buries their 'legal gems' (Sereno's comprehensive arrest/seizure rights dissertation, Carpio's four ML consequences) which the majority could and should have adopted.",
+    "The elegant prophecy for Leonen's lone 92-page dissent: 'His peregrinations may be lonely now, but they could be cheerful at another time' — a classic CJ Panganiban rhetorical move of validating the dissenter's intellectual courage while suggesting that jurisprudential history may yet vindicate him."
+  ],
+  "target_audience": [
+    "Law scholars and academics studying the jurisprudence of emergency powers",
+    "Practicing lawyers preparing future ML constitutional challenges",
+    "Law students assigned Lagman vs Medialdea for study",
+    "Judges and justices writing on ML-related cases",
+    "Constitutional law commentators and court watchers"
+  ],
+  "register_markers": [
+    "legal-academic register ('legal feast for law scholars', 'legal gems', 'nitpicking to the uninitiated')",
+    "culinary metaphor for doctrinal density ('indigestible legal gobbledygook' vs 'veritable legal feast')",
+    "taxonomic-correction register (opinion mislabeling as a substantive doctrinal issue)",
+    "medical analogy for legal precision ('various types of cancers require specific medical solutions')",
+    "minority-vindication prophecy register ('peregrinations may be lonely now…')",
+    "prospective-relevance framing ('will be relevant when the putative challenges… are reviewed')",
+    "opinion-by-opinion walkthrough without direct quotation — synthesis-and-signal register"
+  ],
+  "decision_framework_signals": [
+    "uses prospective-relevance test to prioritize which concurring opinions deserve closest attention",
+    "applies proper-classification argument (Concurring-and-Dissenting vs pure Dissent) as a doctrinal-access tool",
+    "treats burden-of-proof allocation (government vs petitioner) as the pivotal procedural variable for future ML reviews",
+    "identifies standard-of-review selection (reasonableness vs probable cause vs grave abuse) as the decisive analytical fork",
+    "applies minority-vindication framework to Leonen dissent: temporal hedge ('at another time') as a judicial-history prediction method"
+  ],
+  "one_paragraph_summary": "Panganiban opens by acknowledging that the 14 separate opinions in Lagman vs Medialdea (July 4, 2017) constitute 'indigestible legal gobbledygook for lay people' but a 'veritable legal feast for law scholars,' and proceeds to curate the most jurisprudentially significant contributions. He highlights the concurrences of Perlas-Bernabe and Jardeleza, which argued that ML review is sui generis: the government, not the petitioners, bears the burden of proving the sufficiency of facts because only the government has access to classified information, and the applicable standard is 'reasonableness' rather than the ponencia's 'probable cause' -- with all four ordinary judicial review thresholds (substantial evidence, preponderance, proof beyond reasonable doubt, grave abuse of discretion) to be discarded. He then makes a taxonomic correction: Sereno's and Carpio's opinions -- which concurred on P216's factual basis but dissented only on territorial coverage (Lanao/Maguindanao/Sulu for Sereno with Caguioa; Marawi-only for Carpio) -- are mislabeled as 'Dissenting' and should be 'Concurring and Dissenting,' since their mislabeling buries valuable 'legal gems': Sereno's comprehensive dissertation on arrest/seizure procedures and rights of the accused, and Carpio's four-consequence taxonomy of ML. Finally, he identifies Leonen's 92-page opus as the only true dissent, recommending it be 'read and reread' for its holding that the Court cannot grant the President undefined ML powers over all of Mindanao and its application of the 'void for vagueness' and 'void for overbreadth' doctrines -- predicting with characteristic elegance that Leonen's 'peregrinations may be lonely now, but they could be cheerful at another time.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

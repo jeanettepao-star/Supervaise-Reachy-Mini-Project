@@ -1,0 +1,119 @@
+{
+  "id": "CA235",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 235,
+  "title": "SC disregards Charter in making decisions",
+  "date": "2019-09-29",
+  "link": "https://opinion.inquirer.net/124286/sc-disregards-charter-in-making-decisions",
+  "keywords": [
+    "Estelito Mendoza",
+    "consultation requirement",
+    "ponente assignment",
+    "Internal Rules of the Court",
+    "24-month deadline",
+    "SC backlog",
+    "Operation Zero Backlog",
+    "Gio-Samar v. DOTC"
+  ],
+  "primary_topics": [
+    "Estelito P. Mendoza's critique that the SC's Internal Rules disregard the constitutional consultation-before-assignment requirement",
+    "Constitutional mandate that conclusions be 'reached in consultation before the case is assigned to a Member for the writing of the opinion'",
+    "Constitutional 24-month deadline for deciding cases",
+    "SC's worsening backlog (8,741 in 2007 → 14,491 by Dec 31, 2016; 3,201 breaching 24-month limit)",
+    "Carpio's 2007 plan to limit accepted cases and dispose by minute resolution"
+  ],
+  "sub_topics": [
+    "Mendoza's 42-page Philippine Law Journal article (March 2013) on the consultation requirement",
+    "Internal Rules of the Court (May 4, 2010) -- pre-deliberation assignment to 'Member-in-charge'",
+    "Member-in-charge submits a 'report' that in actual practice takes the form of a draft decision",
+    "Other justices then concur, dissent, or write separate opinions on the draft",
+    "Reference to author's prior column 'Why SC's plan to end backlog failed' (May 5, 2019)",
+    "Gio-Samar v. DOTC (March 12, 2019) -- SC's own admission of 14,491-case docket",
+    "Carpio plan: limit cases accepted; dispose facially-non-meritorious petitions by minute resolution",
+    "Transparency proposal: publicize per-justice load and monthly outputs (minute resolutions + signed decisions)"
+  ],
+  "signature_phrases": [
+    "Our Constitution, and incidentally the PET rules, have similar requirements as the ICJ in the writing of decisions but are disregarded",
+    "the 'member of the Court who writes the decision shall only be designated or assigned after the vote is taken'",
+    "must be decided or resolved within twenty-four months from the date of submission",
+    "the insidious plague of delayed justice",
+    "justice delayed is justice denied",
+    "prompt at last",
+    "in this space and elsewhere, I have repeatedly bewailed",
+    "a little transparency"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Estelito P. Mendoza (superlawyer, critic, PLJ article author)",
+      "Justice Antonio T. Carpio (author of 2007 backlog-reduction plan)",
+      "Chief Justice Lucas P. Bersamin (retiring Oct 18; departing CJ)",
+      "Yuji Iwasawa (ICJ judge -- referenced via Sept 22 column)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Presidential Electoral Tribunal (PET)",
+      "International Court of Justice (ICJ)",
+      "Philippine Law Journal"
+    ],
+    "cases": [
+      "Gio-Samar v. DOTC (March 12, 2019)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution Article VIII Section 13 (consultation requirement; 24-month deadline)",
+      "PET Rules (referenced for parallel requirement)",
+      "Internal Rules of the Court (May 4, 2010)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The SC's Internal Rules of May 4, 2010 -- which immediately raffle new petitions to a 'Member-in-charge' before deliberation and voting -- disregard the Constitution's unequivocal command that the Court's 'conclusions... shall be reached in consultation before the case is assigned to a Member for the writing of the opinion of the Court.'",
+      "rhetorical_move": "constitutional-text confrontation with internal-rules practice"
+    },
+    {
+      "claim": "In actual practice the 'report' that the Member-in-charge submits 'takes the form of a draft decision, to which the other justices may concur by affixing their signatures or otherwise dissent from or write separate opinions on' -- meaning the Court does not first read, study, and deliberate on the pleadings before voting, but simply relies on the draft.",
+      "rhetorical_move": "practice-vs-rule descriptive critique"
+    },
+    {
+      "claim": "The 24-month constitutional deadline for case disposition is being violated systemically: by the Court's own admission in Gio-Samar v. DOTC (March 12, 2019), the docket reached 14,491 cases as of Dec 31, 2016 (up from 8,741 in Jan 2007), with 3,201 having breached the 24-month constitutional deadline.",
+      "rhetorical_move": "own-mouth admission citation"
+    },
+    {
+      "claim": "While some justices have worked diligently to dispose of their assigned cases, others have obviously not done their part; the incoming CJ should implement the Carpio plan (or a better one), and 'a little transparency' -- publicizing per-justice load and monthly outputs -- would help replace 'justice delayed is justice denied' with 'prompt at last.'",
+      "rhetorical_move": "name-and-shame-by-transparency reform proposal"
+    }
+  ],
+  "notable_anecdotes": [
+    "Mendoza's text-message reaction to CJ's Sept 22 ICJ column -- 'Our Constitution, and incidentally the PET rules, have similar requirements as the ICJ in the writing of decisions but are disregarded' -- preserved verbatim as the column's seed, modeling reader-prompted columnry.",
+    "The SC's own candid admission in Gio-Samar v. DOTC (March 12, 2019) of a 14,491-case docket with 3,201 cases past the 24-month constitutional deadline -- used as institutional self-incrimination.",
+    "Mendoza's 42-page, 12-font PLJ article (March 2013) as the analytical foundation, modeling deference to fellow-bar scholarship within a 700-word column."
+  ],
+  "target_audience": [
+    "Sitting and incoming SC justices (especially the new CJ to succeed Bersamin)",
+    "Constitutional-law scholars and Court observers",
+    "Estelito P. Mendoza and the practicing appellate bar",
+    "Civic readers concerned about judicial delay",
+    "Court of Appeals justices and lower-court observers"
+  ],
+  "register_markers": [
+    "reader-prompt opening register ('Reacting to last Sunday's column')",
+    "verbatim text-message preservation",
+    "constitutional-text-confrontation analytical structure",
+    "self-citation of own prior columns ('Why SC's plan to end backlog failed,' May 5)",
+    "Gio-Samar self-admission citation pattern",
+    "'a little transparency' as understated reform proposal",
+    "civic-aphorism inversion ('justice delayed... prompt at last')"
+  ],
+  "decision_framework_signals": [
+    "applies constitutional-text confrontation as primary diagnostic for institutional practice",
+    "uses own-mouth admission citation (Gio-Samar) as authoritative concession",
+    "deploys transparency-as-reform-lever for institutional accountability",
+    "treats the 24-month deadline as a hard constitutional rule, not aspirational",
+    "frames per-justice output publication as low-cost high-leverage reform"
+  ],
+  "one_paragraph_summary": "Panganiban amplifies superlawyer Estelito P. Mendoza's critique -- raised in a text message responding to CJ's Sept 22 column on ICJ Judge Yuji Iwasawa and elaborated in Mendoza's 42-page March 2013 Philippine Law Journal article -- that the Supreme Court's Internal Rules (May 4, 2010) disregard the Constitution's unequivocal command that the Court's 'conclusions... shall be reached in consultation before the case is assigned to a Member for the writing of the opinion of the Court.' The Internal Rules instead raffle petitions immediately to a 'Member-in-charge' who submits a 'report' that 'in actual practice... takes the form of a draft decision' on which the others concur, dissent, or write separately -- meaning the justices do not first read, study, and deliberate before voting. Compounding the problem, CJ Panganiban argues, is the systemic violation of the 24-month constitutional deadline: in Gio-Samar v. DOTC (March 12, 2019), the Court admitted a 14,491-case docket (up from 8,741 in 2007) with 3,201 cases past the deadline. He urges the incoming CJ -- to succeed Bersamin after his Oct 18 retirement -- to implement Carpio's 2007 backlog-reduction plan (limit accepted cases; dispose facially-non-meritorious petitions by minute resolution) or craft a better one, and proposes 'a little transparency' -- publication of per-justice case load and monthly outputs -- so that 'justice delayed is justice denied' can give way to 'prompt at last.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,147 @@
+{
+  "id": "CA047",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 47,
+  "title": "Names married women may use",
+  "date": "2025-05-12",
+  "link": "https://opinion.inquirer.net/183141/names-married-women-may-use",
+  "keywords": [
+    "Leila de Lima acquittal voided",
+    "Velarde v. Social Justice Party",
+    "decision-writing guidelines",
+    "motion for reconsideration",
+    "certiorari for grave abuse"
+  ],
+  "primary_topics": [
+    "Leila de Lima's post-CA remedies",
+    "Constitutional requirements for writing a decision",
+    "Risk analysis across appellate pathways"
+  ],
+  "sub_topics": [
+    "CA Eighth Division decision (April 30, 2025) voiding the RTC acquittal",
+    "Composition of the CA division: JJ Antonio-Valenzuela (chair), Bathan (ponente), Mamauag Jr.",
+    "RTC Judge Abraham Joseph B. Alcantara's May 12, 2023 acquittal",
+    "De Lima's over seven years of pre-trial detention",
+    "Remedy 1 -- MR in the CA preserving liberty",
+    "Remedy 2 -- return to RTC for Alcantara to rewrite the decision",
+    "Two risks of Remedy 2: re-detention pending rewrite, and renewed certiorari",
+    "Remedy 3 -- appeal to the Supreme Court",
+    "Velarde v. Social Justice Party (April 28, 2004) -- how to write a decision",
+    "Five required parts of a court decision",
+    "Constitutional rule on stating facts and law in decisions",
+    "Restraint due to space limits"
+  ],
+  "signature_phrases": [
+    "De Lima's remedies to remain free",
+    "NULL AND VOID",
+    "I believe De Lima is not at risk of detention or incarceration",
+    "I am just a humble lawyer",
+    "no pretension of being a 'know-it-all opinion writer'",
+    "a single day of detention is one day too many for an innocent person",
+    "miasma of unintelligible English",
+    "inexplicable haste, total ignorance of the law... cavalier disregard of the rules of procedure",
+    "I wish I could explain further, but I must observe my space limits"
+  ],
+  "entities": {
+    "people": [
+      "Former Senator, congresswoman-elect Leila de Lima",
+      "Judge Abraham Joseph B. Alcantara (RTC Muntinlupa)",
+      "Justice Nina G. Antonio-Valenzuela (CA Eighth Division chair)",
+      "Justice Eleuterio L. Bathan (CA ponente)",
+      "Justice Florencio M. Mamauag Jr. (CA member)",
+      "Atty. Dino de Leon (De Lima's counsel)",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Court of Appeals (Eighth Division)",
+      "Regional Trial Court of Muntinlupa City",
+      "Supreme Court of the Philippines",
+      "Social Justice Party (historic petitioner in Velarde)"
+    ],
+    "cases": [
+      "People v. De Lima / People v. Alcantara (RTC decision May 12, 2023; CA decision April 30, 2025)",
+      "Velarde v. Social Justice Party (April 28, 2004)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- requirement that decisions state clearly the facts and law",
+      "Rules of Court -- certiorari for lack of due process and grave abuse of discretion",
+      "PH dangerous-drugs law (illegal drug trading as nonbailable crime)"
+    ],
+    "events": [
+      "April 30, 2025 CA Eighth Division decision voiding the acquittal",
+      "Atty. Dino de Leon's public announcement of an MR",
+      "De Lima's over-seven-year detention concurrent with her Senate term"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "De Lima is not at risk of detention or incarceration as a direct consequence of the CA decision because it has not attained finality and enforceability.",
+      "rhetorical_move": "reassuring threshold reading",
+      "confidence": "high"
+    },
+    {
+      "claim": "A timely motion for reconsideration in the CA is the first obvious remedy and preserves liberty during pendency, though chances of reversal appear small.",
+      "rhetorical_move": "remedy-ranking with realistic prognosis",
+      "confidence": "high"
+    },
+    {
+      "claim": "If she returns to the RTC for Alcantara to rewrite the decision, two risks attach: prosecution may seek detention during the rewrite, and any new acquittal remains subject to certiorari challenge.",
+      "rhetorical_move": "risk decomposition of an apparently safer path",
+      "confidence": "high"
+    },
+    {
+      "claim": "An appeal to the Supreme Court asserting that the Alcantara decision was compliant with constitutional and jurisprudential requirements is the third available remedy.",
+      "rhetorical_move": "doctrinal-positioning argument for the apex court",
+      "confidence": "high"
+    },
+    {
+      "claim": "Velarde v. Social Justice Party (April 28, 2004) established that decisions should ideally contain five parts (Statement of the Case, Statement of Facts, Issues, Court's Ruling, Disposition), though strict sequence is not required if all parts are plainly identifiable.",
+      "rhetorical_move": "first-person citation of own ponencia as governing framework",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Alcantara decision could have been better written but contains the Velarde guidelines or at least conforms to the constitutional requirement.",
+      "rhetorical_move": "qualified defense of the trial-court ruling",
+      "confidence": "medium"
+    }
+  ],
+  "notable_anecdotes": [
+    "The CA decision was 12 pages with 'NULL AND VOID' in caps and bold preserved from the original.",
+    "De Lima was detained for over seven years, a major portion of which was concurrent with her term as senator, because the crime charged was capital in nature and nonbailable.",
+    "Author's deferential framing of De Lima's counsel Atty. Dino de Leon: 'I am just a humble lawyer and have no pretension of being a 'know-it-all opinion writer.'",
+    "Velarde v. Social Justice Party arose from RTC litigation on whether religious leaders endorsing candidates violate church-state separation; the Court found the petition and RTC decision a 'miasma of unintelligible English, full of vague speculations, and unproven assumptions.'",
+    "Author's space-limited closing: 'I wish I could explain further, but I must observe my space limits' -- flagging the column's truncated treatment."
+  ],
+  "target_audience": [
+    "Leila de Lima and her counsel Atty. Dino de Leon",
+    "Members of the bench reviewing the case",
+    "Trial-court judges crafting decisions",
+    "Constitutional and criminal-procedure scholars",
+    "Civic readers tracking the De Lima saga",
+    "Bar reviewees studying decision-writing standards"
+  ],
+  "register_markers": [
+    "Three-remedy structural exposition",
+    "Risk-by-risk decomposition of each remedy",
+    "Self-deprecating qualifiers ('humble lawyer', 'no pretension')",
+    "First-person ponencia citation ('When I was an incumbent, I remember writing...')",
+    "ALL-CAPS / bold preservation from court output",
+    "Latinisms ('inter alia', 'certiorari')",
+    "Compassionate closing on the cost of detention",
+    "Honest signal of column-length constraint"
+  ],
+  "decision_framework_signals": [
+    "Treat non-final adverse appellate rulings as risks to be managed, not immediate enforceable threats",
+    "Use MR first to preserve liberty and force the appellate court to confront its reversible errors",
+    "Decompose each available remedy by the specific re-detention or re-litigation risks it carries",
+    "When trial-court craftsmanship is the issue, distinguish between style (could be better written) and constitutional adequacy (facts and law stated)",
+    "Apply the Velarde five-part decision structure as an ideal but recognize that strict sequence is not required if all parts are plainly identifiable",
+    "Weigh 'a single day of detention is one day too many' as a heuristic against any remedy that risks even brief re-incarceration of an acquitted person",
+    "Defer to counsel of record on tactical choice while sharing doctrinal observations as an opinion writer"
+  ],
+  "one_paragraph_summary": "Panganiban analyzes the remedies available to former senator, congresswoman-elect Leila de Lima after the Court of Appeals Eighth Division -- composed of JJ Nina G. Antonio-Valenzuela (chair), Eleuterio L. Bathan (ponente), and Florencio M. Mamauag Jr. -- declared 'NULL AND VOID' on April 30, 2025 the May 12, 2023 RTC Muntinlupa decision of Judge Abraham Joseph B. Alcantara acquitting her of illegal drug trading. He stresses at the outset that De Lima is not at risk of detention because the CA decision has not yet attained finality. He outlines three remedies. First, a timely motion for reconsideration in the CA -- announced by her counsel Atty. Dino de Leon -- would preserve her liberty during pendency, though the author thinks the chances of reversal are slim. Second, a return to the RTC so Judge Alcantara can rewrite his decision following the form prescribed by the CA carries two risks: prosecution may ask the RTC to detain her as 'reverted to the original status' of one facing a nonbailable charge, and any rewritten acquittal would again be subject to certiorari for lack of due process or grave abuse of discretion. Third, she may appeal to the Supreme Court arguing that the Alcantara decision was compliant with constitutional and jurisprudential requirements. Drawing on his own ponencia in Velarde v. Social Justice Party (April 28, 2004), he restates the constitutional rule that no decision shall be rendered without expressing clearly and distinctly the facts and the law on which it is based, and the five ideal parts of a decision: Statement of the Case, Statement of Facts (both prosecution and defense versions in criminal cases), Issues or Assignment of Errors, the Court's Ruling, and the Disposition or Dispositive Portion. He believes the Alcantara decision, though it could have been better written, conforms to those requirements -- closing with the apology that he cannot explain further because of space limits.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

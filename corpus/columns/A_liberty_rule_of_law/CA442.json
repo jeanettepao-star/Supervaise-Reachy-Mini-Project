@@ -1,0 +1,134 @@
+{
+  "id": "CA442",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 442,
+  "title": "Pushing for peace in Mindanao",
+  "date": "2013-10-05",
+  "link": "https://opinion.inquirer.net/62729/pushing-for-peace-in-mindanao",
+  "keywords": [
+    "Disbursement Acceleration Program",
+    "DAP",
+    "PDAF distinction",
+    "savings",
+    "unprogrammed funds",
+    "augmentation",
+    "Abad",
+    "Habito"
+  ],
+  "primary_topics": [
+    "Distinguishing DAP from PDAF as separate legal instruments",
+    "DAP's two funding sources: savings + unprogrammed funds",
+    "Constitutional and statutory basis for savings-based augmentation under Art VI Sec 25(5)",
+    "Legal-test preview for DAP's constitutionality (without preempting Nov 19 oral argument)"
+  ],
+  "sub_topics": [
+    "PDAF's detestability: unconstitutional separation-of-powers violation + corruption via fake NGOs and ghost projects",
+    "Budget Secretary Florencio Abad's description of DAP as Aquino administration stimulus package",
+    "Ciel Habito's economic evaluation: DAP-driven growth, PH as fastest-growing economy in Asia",
+    "Distinction: DAP is not lump-sum appropriation in GAA, not disbursed at lawmaker direction to NGOs",
+    "DAP source #1: savings or unspent appropriations",
+    "DAP source #2: unprogrammed funds -- windfall collections, large dividends from SSS/GSIS/Landbank, asset sales, new loans",
+    "Constitutional basis: Art VI Sec 25(5) augmentation power for President, Senate President, Speaker, CJ, ConCom heads from their respective savings",
+    "Administrative Code's 13 obligations savings may settle, most crucial: 'priority activities that will produce the economic wellbeing of the nation, including food production, agrarian reform, energy development, disaster relief, and rehabilitation'",
+    "AC sections on (a) deficit coverage with presidential approval and (b) presidential authority to suspend/stop expenditures",
+    "2011, 2012, 2013 GAAs reauthorizing augmentation from savings",
+    "Savings definition: portions/balances free from obligation due to (1) discontinuance, (2) personnel vacancies/unused leaves, (3) completion at lesser cost",
+    "Unprogrammed funds: revenues collected beyond budget targets used to finance unprogrammed projects",
+    "Why no SC TRO on DAP (unlike PDAF): DAP is structurally different",
+    "Legal-test preview: (a) public money requires congressional authority, (b) savings only augment existing budget items in same GAA, (c) no creation of new items or projects not previously authorized, (d) transfer only within same branch, (e) legislator recommendations only for previously-authorized projects and only non-binding"
+  ],
+  "signature_phrases": [
+    "DAP is not the same as the PDAF",
+    "It is not pork barrel",
+    "stimulus package",
+    "in my humble view",
+    "constitutional test that no public money may be spent without congressional authority",
+    "Augmentation cannot be used to create a new item or to fund a new project not previously authorized by law"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Florencio Abad (Budget Secretary)",
+      "Cielito 'Ciel' Habito (fellow Inquirer columnist, economist)"
+    ],
+    "institutions": [
+      "Department of Budget and Management",
+      "Office of the President",
+      "Supreme Court",
+      "Congress",
+      "Social Security System (SSS)",
+      "Government Service Insurance System (GSIS)",
+      "Landbank",
+      "Inquirer (Habito column reference)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution Art VI Sec 25(5) -- augmentation power",
+      "Administrative Code of 1987 (multiple sections cited)",
+      "2011, 2012, 2013 General Appropriations Acts -- augmentation reauthorization"
+    ],
+    "events": [
+      "DAP's use to stimulate economy",
+      "Nov 19 oral argument on DAP constitutionality (forthcoming)",
+      "Bohol/Cebu earthquake and Central Philippines typhoon (referenced as emergencies justifying executive discretion)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The DAP is NOT the PDAF and the two should not be conflated -- DAP is not a lump-sum appropriation in the GAA, is not disbursed at lawmaker direction to NGOs, and is structurally a savings-and-unprogrammed-funds vehicle for stimulus and augmentation.",
+      "rhetorical_move": "structural-distinction defense (separating legally similar-looking instruments to prevent guilt-by-association)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Economists, not lawyers, should evaluate DAP's stimulus effectiveness -- CJ defers to Habito's assessment that DAP drove PH to fastest-growing Asian economy.",
+      "rhetorical_move": "disciplinary-deference framing (boundary-setting between legal and economic analysis)",
+      "confidence": "explicit deferral"
+    },
+    {
+      "claim": "The DAP's legal foundation rests on Art VI Sec 25(5) augmentation power plus Administrative Code authorizations plus 2011-2013 GAA reauthorizations -- savings transfer is constitutionally permitted under specific conditions.",
+      "rhetorical_move": "constitutional-and-statutory grounding inventory",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "DAP's constitutionality -- to be ruled on Nov 19 -- hinges on five legal tests: (1) congressional authority for all public spending, (2) savings only augment existing items in same GAA, (3) no creation of new items or non-authorized projects, (4) transfer only within same branch, (5) legislator recommendations only for previously-authorized projects and non-binding.",
+      "rhetorical_move": "legal-test preview (mapping the constitutionality framework without prejudging)",
+      "confidence": "previewed without endorsement"
+    },
+    {
+      "claim": "Why the SC did not issue a DAP TRO (unlike for PDAF) may itself indicate DAP's structural difference -- a procedural-signal reading of the Court's caution.",
+      "rhetorical_move": "procedural-signal reading (inferring substantive distinction from procedural treatment)",
+      "confidence": "asserted as plausible inference"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's explicit disciplinary boundary: 'I defer to the above economic evaluation of the DAP' -- citing fellow Inquirer columnist Ciel Habito's assessment that DAP made PH the fastest-growing Asian economy. The rare moment where a former CJ defers analysis to a colleague-economist, modeling intellectual humility in a column genre that usually claims comprehensive authority.",
+    "The procedural-signal reading: the SC did NOT issue a TRO against DAP (unlike PDAF), which CJ reads as the Court's implicit acknowledgment of structural difference. Using non-action as evidence is the column's subtlest analytical move.",
+    "The Administrative Code's curiously expansive savings-use authorization -- 'priority activities that will produce the economic wellbeing of the nation, including food production, agrarian reform, energy development, disaster relief, and rehabilitation' -- a list whose breadth previews the difficulty of confining executive discretion."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Lawyers and constitutional-law students",
+    "Economists following stimulus policy",
+    "Aquino administration supporters and DBM staff"
+  ],
+  "register_markers": [
+    "distinction-establishing title ('X is not Y')",
+    "explicit deferral signal ('I defer to the above economic evaluation')",
+    "preview-without-prejudgment caveat ('without preempting the oral argument on Nov. 19')",
+    "'in my humble view' formal hedge",
+    "five-test enumeration of constitutional standards",
+    "fellow-Inquirer-columnist citation (collegial register)"
+  ],
+  "decision_framework_signals": [
+    "uses structural-distinction defense to prevent guilt-by-association between similar-looking instruments",
+    "applies disciplinary-deference framing (boundary-setting between legal and economic analysis)",
+    "deploys constitutional-and-statutory grounding inventory (Art VI Sec 25(5) + AC + GAAs as triple foundation)",
+    "previews multi-factor legal tests without prejudging the case",
+    "reads procedural treatment (TRO or no TRO) as substantive signal"
+  ],
+  "one_paragraph_summary": "Panganiban defends the analytical distinction between PDAF and DAP. PDAF is detested for unconstitutional separation-of-powers violations and corruption via fake NGOs and ghost projects; DAP is structurally different -- not a lump-sum GAA appropriation, not disbursed at lawmaker direction. Budget Secretary Florencio Abad describes DAP as a 'stimulus package' designed to fast-track public spending; CJ defers to fellow Inquirer columnist Ciel Habito's economic verdict that DAP drove PH to be Asia's fastest-growing economy. He maps DAP's two funding sources: 'savings' (unspent appropriations) and 'unprogrammed funds' (windfall revenues like SSS/GSIS/Landbank dividends, asset sales, new loans). The legal scaffolding rests on Constitution Art VI Sec 25(5), which authorizes augmentation 'by law' for the President, Senate President, Speaker, Chief Justice, and Constitutional Commission heads from savings in their respective offices; on the Administrative Code which authorizes savings use for 13 obligations including 'priority activities that will produce the economic wellbeing of the nation'; and on the 2011, 2012, 2013 GAAs reauthorizing such augmentation. 'Savings' are defined as portions free from obligation due to discontinuance, personnel vacancies, or under-cost completion. Without preempting the November 19 oral argument, CJ previews the five-factor constitutional test: (1) congressional authority for all spending, (2) augmentation only to existing items in the same GAA, (3) no creation of new items, (4) intra-branch transfer only, (5) lawmaker recommendations only for previously-authorized projects and non-binding. He reads the SC's non-issuance of a DAP TRO (unlike PDAF) as a procedural signal of the structural distinction.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,155 @@
+{
+  "id": "CA250",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 250,
+  "title": "Tribute to women jurists",
+  "date": "2019-03-17",
+  "link": "https://opinion.inquirer.net/120174/tribute-to-women-jurists",
+  "keywords": [
+    "Amy C. Lazaro-Javier",
+    "Rosmari D. Carandang",
+    "Estela M. Perlas-Bernabe",
+    "women jurists",
+    "SC appointments"
+  ],
+  "primary_topics": [
+    "Duterte's appointment of Justice Amy C. Lazaro-Javier to the SC during Women's Month",
+    "Tribute to women jurists in the SC",
+    "The Javier-Carandang-Perlas-Bernabe triumvirate",
+    "Law school representation in SC women jurists (UP vs Ateneo vs UST)",
+    "Pending vacancies and JBC nominee field"
+  ],
+  "sub_topics": [
+    "Justice Amy C. Lazaro-Javier -- UST magna cum laude (1982), zero CA backlog (2007-2019)",
+    "Javier's 24 years at OSG (1983-2007, 14 as Assistant Solicitor General)",
+    "Justice Rosmari D. Carandang -- UP salutatorian (1975), 1975 bar 9th place (84.95)",
+    "Justice Antonio T. Carpio -- UP valedictorian (1975), 1975 bar 6th place (bested Carandang)",
+    "Both Javier and Carandang needed 8 JBC nominations each before SC appointment",
+    "Justice Estela M. Perlas-Bernabe -- Ateneo de Manila 1976 salutatorian",
+    "Three-justice women's triumvirate (Javier + Carandang + Perlas-Bernabe)",
+    "Independence example: Bernabe voted to allow Marcos burial at LNMB; Carandang and Javier said they would have joined minority",
+    "UST Faculty of Civil Law: 10 male SC members (6 CJs), only 2 women (Javier + Sandoval-Gutierrez)",
+    "UP College of Law: 11 women SC members (1 incumbent + 10 retired)",
+    "Ateneo de Manila Law School: only 1 woman (Bernabe)",
+    "Justice Noel G. Tijam retired Jan 5, named JBC member",
+    "JBC renominees for Tijam vacancy: Dimaampao, Garcia, Lopez, Cabotaje-Tang, Marquez, Villanueva + 6 new",
+    "Duterte's fondness for promoting appellate jurists"
+  ],
+  "signature_phrases": [
+    "President Duterte, intentionally or unintentionally, bestowed a rousing tribute to women-jurists",
+    "the biblical eye of the needle",
+    "a formidable triumvirate",
+    "they can, I dare say, match the gravitas of the gentlemen in the Court",
+    "please do not expect them to vote together all the time",
+    "they fiercely value their independence",
+    "retired feisty Justice Angelina Sandoval-Gutierrez"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "President Rodrigo Duterte",
+      "Salvador Panelo (Duterte spokesperson)",
+      "Justice Amy C. Lazaro-Javier (new SC appointee, UST '82 magna cum laude)",
+      "Justice Rosmari D. Carandang (Nov 28, 2018 appointee, UP '75 salutatorian)",
+      "Senior Justice Antonio T. Carpio (UP '75 valedictorian, 1975 bar 6th place)",
+      "Justice Estela M. Perlas-Bernabe (Ateneo de Manila '76 salutatorian)",
+      "Retired Justice Angelina Sandoval-Gutierrez",
+      "Justice Noel G. Tijam (retired Jan 5, named JBC member)",
+      "CA Justice Manuel M. Barrios",
+      "CA Justice Japar B. Dimaampao",
+      "CA Justice Ramon A. Cruz",
+      "CA Justice Ramon D. Garcia",
+      "CA Justice Mario V. Lopez",
+      "CA Justice Apolinario D. Bruselas Jr.",
+      "Sandiganbayan PJ Amparo M. Cabotaje-Tang",
+      "Court Administrator Jose Midas P. Marquez",
+      "Former Ateneo law dean Cesar L. Villanueva",
+      "CA Justice Edgardo L. Delos Santos",
+      "CA Justice Henri Jean Paul B. Inting",
+      "CA Justice Jhosep Y. Lopez",
+      "CA Justice Eduardo B. Peralta Jr.",
+      "CA Justice Ricardo D. Rosario",
+      "Court of Tax Appeals PJ Roman G. Del Rosario"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Court of Appeals",
+      "Sandiganbayan",
+      "Court of Tax Appeals",
+      "Judicial and Bar Council (JBC)",
+      "Office of the Solicitor General",
+      "University of Santo Tomas (UST) Faculty of Civil Law (400+ years old)",
+      "University of the Philippines (UP) College of Law (108 years old)",
+      "Ateneo de Manila School of Law (83 years old)",
+      "Libingan ng mga Bayani (LNMB) -- Marcos burial controversy backdrop"
+    ],
+    "cases": [
+      "Marcos burial at Libingan ng mga Bayani case (referenced)"
+    ],
+    "laws_treaties": [],
+    "events": [
+      "March 2019 (Women's Month) -- Justice Javier appointment",
+      "Nov 28, 2018 -- Justice Carandang appointment",
+      "Jan 5, 2019 -- Justice Tijam retirement",
+      "1975 bar exam (Carpio 6th place, Carandang 9th place)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "President Duterte's appointment of Justice Amy C. Lazaro-Javier during Women's Month -- following his November 2018 appointment of Justice Carandang -- constitutes a rousing tribute to women jurists, intentionally or unintentionally, and the resulting Javier-Carandang-Perlas-Bernabe triumvirate represents top graduates of the three premier PH law schools who 'can match the gravitas of the gentlemen in the Court.'",
+      "rhetorical_move": "tribute-attribution framing with parallel-credentialing recognition",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Javier's and Carandang's path through the 'biblical eye of the needle' -- each requiring eight JBC nominations before SC appointment despite outstanding CA records -- illustrates the unusually high barrier women jurists must clear, even when their substantive qualifications match or exceed those of their male counterparts.",
+      "rhetorical_move": "biblical-metaphor barrier-quantification (the eye-of-the-needle imagery applied to JBC repeat nominations)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The three women justices must not be expected to vote uniformly -- Bernabe voted for the Marcos LNMB burial while Carandang and Javier publicly disagreed during their JBC interviews -- and this internal independence is a feature, not a bug, of their judicial integrity.",
+      "rhetorical_move": "independence-celebration via specific voting-divergence example",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Law school representation in the women's SC contingent is starkly uneven: UP has produced 11 women SC justices, UST has produced 2 (Javier and Sandoval-Gutierrez), and Ateneo has produced only 1 (Bernabe) -- and this distribution does not reflect the institutional age or prestige of these schools.",
+      "rhetorical_move": "comparative-institutional-tally exposing demographic imbalance",
+      "confidence": "asserted with statistical reportage"
+    }
+  ],
+  "notable_anecdotes": [
+    "Carpio besting Carandang in their 1975 UP law class -- Carpio as valedictorian and 6th in the bar (Carandang salutatorian and 9th) -- a class hierarchy that Carandang has now inverted in seniority terms by joining the same Court that Carpio leads as Senior Justice, with Carpio about to retire and Carandang remaining.",
+    "Javier and Carandang each surviving 'eight JBC nominations' before finally being appointed -- the most specific quantification of the barrier women jurists must clear in any of CJ's tribute columns.",
+    "The 400-year-old UST having produced only 2 women SC justices (Javier and Sandoval-Gutierrez) compared with the 108-year-old UP's 11 -- making institutional age inversely correlated with women's representation in the SC pipeline.",
+    "Javier's zero CA backlog over 12 years -- the most institutionally important credential CJ flags, since it directly addresses the SC's own backlog crisis covered in adjacent columns (A248)."
+  ],
+  "target_audience": [
+    "Legal community and bar members",
+    "Women lawyers and aspiring jurists",
+    "Civic readers tracking SC appointments",
+    "Law school faculty and alumni networks (UP, Ateneo, UST)",
+    "JBC observers and judicial reform advocates"
+  ],
+  "register_markers": [
+    "Women's Month tribute register",
+    "credentialing-density register (graduation honors, bar placement, JBC nominations, tenure lengths)",
+    "alphabetical-roster format for JBC nominees (recurring CJ device)",
+    "parenthetical-aside chronology (CA tenures, bar placements)",
+    "comparative-institutional-tally framing (UST vs UP vs Ateneo women-SC counts)",
+    "independence-celebration tonal marker ('please do not expect them to vote together all the time')",
+    "'biblical eye of the needle' metaphor for barrier-clearing",
+    "self-citation of prior column ('per my column on Dec. 16, 2018 titled Duterte's appointees dominate SC')",
+    "'I dare say' as confident-assertion marker"
+  ],
+  "decision_framework_signals": [
+    "applies institutional-credentialing framework (graduation honors, bar placement, tenure record) as primary metric for SC fitness",
+    "uses repeat-JBC-nomination count as proxy for barrier women jurists must clear",
+    "tracks law-school demographic representation as separate analytical dimension from individual merit",
+    "treats voting-divergence among women justices as feature of judicial independence, not failure of solidarity",
+    "uses backlog-record (zero at CA) as direct evidence of fitness for backlogged SC"
+  ],
+  "one_paragraph_summary": "Panganiban interprets President Duterte's March 2019 (Women's Month) appointment of Justice Amy C. Lazaro-Javier -- UST magna cum laude valedictorian of the law class of 1982, 12 years on the Court of Appeals with zero backlog, 24 years at the Office of the Solicitor General -- as a 'rousing tribute to women jurists,' following his November 2018 appointment of Justice Rosmari D. Carandang (UP salutatorian of the law class of 1975, ninth-placer in that year's bar exam where she was bested only by Antonio Carpio). Both women required eight JBC nominations apiece -- what CJ calls 'the biblical eye of the needle' -- before finally reaching the Court. Together with incumbent Estela M. Perlas-Bernabe (Ateneo 1976 salutatorian), they form a triumvirate that 'can match the gravitas of the gentlemen in the Court,' though their independence shows in voting divergences (Bernabe favored the Marcos LNMB burial; Carandang and Javier publicly said they would have joined the minority). He notes the striking institutional imbalance: UP has produced 11 women SC justices, UST only 2 (Javier and Sandoval-Gutierrez), and Ateneo only 1 (Bernabe), despite the inverse correlation with each school's institutional age. He closes with the slate of JBC renominees and new entrants competing for the Tijam vacancy -- mostly from the CA, Sandiganbayan, and CTA -- confirming Duterte's documented fondness for appellate-jurist appointments.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

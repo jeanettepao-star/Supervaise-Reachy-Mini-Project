@@ -1,0 +1,190 @@
+{
+  "id": "CA433",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 433,
+  "title": "Political dynasties: bane or boon?",
+  "date": "2013-12-07",
+  "link": "https://opinion.inquirer.net/66933/political-dynasties-bane-or-boon",
+  "keywords": [
+    "judiciary",
+    "Supreme Court",
+    "memoir",
+    "personal reflection",
+    "FLP"
+  ],
+  "primary_topics": [
+    "Charter age-70-or-incapacitation retirement-rule for SC and lower-court judges",
+    "Reader question: what do SC justices do after retirement? How do they adjust from 'Mount Olympus' to normal life?",
+    "Government-job track -- MCLE chair (J. Bernardo Pardo), Philja chancellor (J. Adolfo Azcuna), JBC retired-member-seat (vacant since July 2013)",
+    "International-tribunal track -- CJ Cesar Bengzon (ICJ), J. Florentino Feliciano (WTO Appellate Tribunal), J. Flerida Ruth Romero (ILO)",
+    "Independent-office track -- J. Conchita Carpio Morales (Ombudsman), J. Conrado Vasquez (first Ombudsman), J. Jose Melo (Comelec chair)",
+    "UN-ambassador track -- CJ Hilario Davide Jr., CJ Claudio Teehankee",
+    "Private-sector track -- law-school deanships (Bellosillo, Chico-Nazario, Austria-Martinez, Sandoval-Gutierrez), law practice (Cuevas, Narvasa), choosy practice (Feliciano, Puno, Mendoza), corporate directorships roster",
+    "CJP's own post-retirement journey -- Inquirer column writing (Dec 2006 onward) + independent directorships + foundations roster"
+  ],
+  "sub_topics": [
+    "MCLE chair must be a retired SC justice",
+    "Philippine Judicial Academy chancellor must likewise be a retired SC justice",
+    "JBC requires one retired SC member (vacant since July 2013)",
+    "CJ Bengzon deceased (ICJ)",
+    "J. Conrado Vasquez deceased, first Ombudsman",
+    "J. Jose Melo retired voluntarily after 2010 elections",
+    "Justice Serafin Cuevas -- Senate Impeachment Court counsel for Joseph Ejercito Estrada and later for Renato C. Corona",
+    "CJ Narvasa (deceased) also served as Estrada counsel",
+    "Justice Feliciano (post-WTO) -- appears only in SC and international arbitration tribunals in Washington, Paris, Singapore",
+    "CJ Puno + retired J. Vicente V. Mendoza -- counsel for Chamber of Mines in current SC litigation challenging 1995 Mining Law's constitutionality",
+    "Corporate-director roster -- CJ Puno (SMC, Union Bank), CJ Davide (Manila Bulletin, Philippine Trust), J. Bellosillo (Philippine Trust), J. Gutierrez (Purefoods, Ginebra), J. Melo (Fontana, Citystate Savings), J. Nazario (San Miguel Properties, Ginebra), J. Ynares-Santiago (San Miguel Global Power), J. Vitug (Aboitiz Equity Ventures, ABS-CBN)",
+    "CJP retired Dec 7 2006",
+    "Inquirer Chair Marixi R. Prieto invited CJP to write column; SP Jovito R. Salonga discouraged ('No retired chief justice has become a columnist')",
+    "CJP independent-director role -- help companies observe canons of good corporate governance, not representing management or shareholders",
+    "Foundation roster -- Metrobank Foundation chair-of-advisers, Manila Cathedral Foundation president, FLP chair-of-trustees (10 professorial chairs in 10 law schools), Philippine Dispute Resolution Center chair-emeritus"
+  ],
+  "signature_phrases": [
+    "Members of the Supreme Court and judges of lower courts shall hold office during good behavior until they reach the age of seventy years or become incapacitated to discharge the duties of their office",
+    "What do Supreme Court justices do after they retire?",
+    "Given their reclusive life on Mount Olympus, how do they adjust to normal life?",
+    "They just change tires to embark on a new journey",
+    "Life does not end at 70",
+    "they too celebrate the New Year. They do not just stay home and sulk",
+    "Some retired SC members go international",
+    "My post-retirement journey",
+    "Inquirer Chair Marixi R. Prieto invited me to write for this paper",
+    "Former Senate President Jovito R. Salonga discouraged me from accepting, saying No retired chief justice has become a columnist",
+    "I thought that column writing would force my mind to be agile and enable me to share my humble views on public issues",
+    "I do not represent management or any specific shareholder or private interest",
+    "I enjoy my work because it requires independence, integrity, probity and competence -- values I was used to in the Supreme Court",
+    "I prefer not to practice law at this point in my life",
+    "After I joined the Supreme Court, my partners and I dissolved our law firm",
+    "Neither have I accepted any regular teaching job or offer to rejoin government"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (CJP)",
+      "J. Bernardo P. Pardo (MCLE chair)",
+      "J. Adolfo S. Azcuna (Philja chancellor)",
+      "CJ Cesar Bengzon (deceased, ICJ)",
+      "J. Florentino P. Feliciano (WTO Appellate Tribunal)",
+      "J. Flerida Ruth P. Romero (ILO)",
+      "Ombudsman Conchita Carpio Morales",
+      "J. Conrado M. Vasquez (deceased, first Ombudsman)",
+      "J. Jose A. R. Melo (former Comelec chair)",
+      "CJ Hilario G. Davide Jr. (UN ambassador)",
+      "CJ Claudio Teehankee (deceased, UN ambassador)",
+      "CJ Reynato S. Puno (UP Board of Regents + Chamber of Mines counsel)",
+      "J. Josue N. Bellosillo (CEU dean)",
+      "J. Minita Chico-Nazario (UPHSD dean)",
+      "J. Alicia Austria-Martinez (Adamson dean)",
+      "J. Angelina Sandoval-Gutierrez (PLM dean)",
+      "J. Serafin Cuevas (Estrada and Corona impeachment counsel)",
+      "CJ Andres R. Narvasa (deceased, Estrada counsel)",
+      "J. Vicente V. Mendoza (Chamber of Mines counsel with Puno)",
+      "J. Consuelo Ynares-Santiago (San Miguel Global Power director)",
+      "J. Jose C. Vitug (Aboitiz Equity Ventures + ABS-CBN director)",
+      "Inquirer Chair Marixi R. Prieto",
+      "Former SP Jovito R. Salonga (discouraged CJP column-writing)"
+    ],
+    "institutions": [
+      "Supreme Court",
+      "MCLE (Mandatory Continuing Legal Education Office)",
+      "Philippine Judicial Academy (Philja)",
+      "Judicial and Bar Council (JBC)",
+      "International Court of Justice (ICJ)",
+      "WTO Appellate Tribunal",
+      "International Labor Organization (ILO)",
+      "Office of the Ombudsman",
+      "Commission on Elections (Comelec)",
+      "UN -- Philippine Mission",
+      "UP Board of Regents",
+      "Senate Impeachment Court",
+      "Law schools -- CEU, UPHSD, Adamson, PLM",
+      "Chamber of Mines of the Philippines",
+      "Corporate boards -- San Miguel Corp, Union Bank, Manila Bulletin, Philippine Trust, Purefoods, Ginebra San Miguel, Fontana Resort, Citystate Savings Bank, San Miguel Properties, San Miguel Global Power, Aboitiz Equity Ventures, ABS-CBN",
+      "Foundations -- Metrobank Foundation, Manila Cathedral Foundation, Foundation for Liberty and Prosperity (FLP), Philippine Dispute Resolution Center",
+      "Philippine Daily Inquirer (column platform)"
+    ],
+    "cases": [
+      "Chamber of Mines challenge to 1995 Mining Law constitutionality (current SC litigation, Puno + Mendoza as counsel)",
+      "Estrada impeachment (Cuevas + Narvasa as counsel)",
+      "Corona impeachment (Cuevas as counsel)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- Art VIII Sec 11 retirement-age-70-or-incapacitation rule for SC and lower-court judges"
+    ],
+    "events": [
+      "CJP retirement Dec 7 2006",
+      "Marixi Prieto's Inquirer column invitation",
+      "Salonga's discouraging remark to CJP",
+      "FLP's 10 professorial chairs in 10 law schools setup"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Retired SC justices do not just stay home and sulk -- they change tires to embark on new journeys, with longer life spans than their predecessors a generation ago allowing them new careers in government (MCLE chair, Philja chancellor, JBC seat), international tribunals (ICJ, WTO, ILO), independent offices (Ombudsman, Comelec), UN ambassadorship, UP regency, and private-sector roles (law-school deanships, choosy law practice, corporate directorships).",
+      "rhetorical_move": "change-tires-not-stay-home enumerative framing",
+      "confidence": "asserted as institutional-pattern observation"
+    },
+    {
+      "claim": "Some retired SC members are choosy with their law practice -- Justice Feliciano (post-WTO) appears only in the SC and in Washington/Paris/Singapore international arbitration tribunals; CJ Puno with retired J. Mendoza serves as counsel for the Chamber of Mines in current SC litigation challenging the 1995 Mining Law's constitutionality.",
+      "rhetorical_move": "choosy-practice subcategory framing",
+      "confidence": "asserted with named examples"
+    },
+    {
+      "claim": "Many retired justices become directors of private firms -- Puno (SMC, Union Bank), Davide (Manila Bulletin, Philippine Trust), and others on various corporate boards.",
+      "rhetorical_move": "private-board-roster enumerative framing",
+      "confidence": "asserted with named examples"
+    },
+    {
+      "claim": "CJP's own post-retirement journey: Inquirer column writing (despite Salonga's discouragement that no retired chief justice has been a columnist -- CJP took it as agility-discipline for his mind and a platform to share humble views), independent directorships (where independence/integrity/probity/competence are required values familiar from the SC), declined regular teaching jobs and law-practice offers, but involved in Metrobank Foundation, Manila Cathedral Foundation, FLP (10 professorial chairs in 10 law schools), and Philippine Dispute Resolution Center.",
+      "rhetorical_move": "self-as-case-study + Salonga-discouragement-overcome biographical framing",
+      "confidence": "asserted as autobiographical disclosure"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 'reclusive life on Mount Olympus' framing -- CJP's recurring metaphor for the SC justices' insulated working life, used as the setup for the change-tires-not-stay-home thesis.",
+    "Salonga's discouraging quote -- 'No retired chief justice has become a columnist' -- and CJP's quiet decision to proceed anyway, taking the column as agility-discipline for his mind and a platform to share humble views. Among the most concrete anecdotes of CJP's post-retirement-Inquirer-column origin in the corpus.",
+    "Justice Feliciano's choosy practice -- appearing only in the SC and in Washington/Paris/Singapore international arbitration tribunals after his WTO Appellate Tribunal stint -- a model of dignified post-retirement practice.",
+    "CJ Puno + retired J. Vicente V. Mendoza serving as counsel for the Chamber of Mines in current SC litigation challenging the 1995 Mining Law's constitutionality -- a current-litigation detail flagged for readers.",
+    "The corporate-director roster -- Puno (SMC + Union Bank), Davide (Manila Bulletin + Philippine Trust), Bellosillo, Gutierrez (Purefoods + Ginebra), Melo (Fontana + Citystate), Nazario (San Miguel Properties + Ginebra), Ynares-Santiago (San Miguel Global Power), Vitug (Aboitiz Equity Ventures + ABS-CBN) -- among the most concentrated retired-justice-corporate-board listings in the corpus.",
+    "The four-track-private-sector taxonomy -- law-school deanship + return-to-law-practice + choosy-practice + corporate-director -- comprehensive coverage of retirement careers.",
+    "CJP's foundation portfolio -- Metrobank Foundation chair-of-advisers, Manila Cathedral Foundation president, FLP chair-of-trustees with 10 professorial chairs in 10 law schools, Philippine Dispute Resolution Center chair-emeritus -- among the most complete enumerations of CJP's post-retirement institutional roles.",
+    "The 'independence, integrity, probity and competence -- values I was used to in the Supreme Court' framing for independent-director work -- early CJP articulation of what later becomes the CIPI mnemonic in subsequent columns."
+  ],
+  "target_audience": [
+    "Inquirer general readership curious about retired-justices' lives",
+    "Lawyers and law students considering judicial careers",
+    "Civic-minded Filipinos tracking SC alumni in public/private roles",
+    "Other retired SC justices (the column maps the field for them)",
+    "Corporate-governance audience (independent-director dimension)",
+    "FLP/Metrobank/Manila Cathedral Foundation stakeholders",
+    "Comparative-institutional readers (judicial-retirement-pattern dimension)"
+  ],
+  "register_markers": [
+    "verbatim Charter Art VIII Sec 11 retirement-age citation opening",
+    "Readers ask reader-question framing",
+    "reclusive life on Mount Olympus recurring CJP metaphor",
+    "Another government job section header",
+    "Private office section header",
+    "Some others land... Some retired SC members go international... enumerative subcategory register",
+    "My post-retirement journey section header",
+    "After I retired on Dec. 7, 2006 personal-disclosure register",
+    "Former Senate President Jovito R. Salonga discouraged me named-figure-discouraged-but-CJP-proceeded register",
+    "I prefer not to practice law at this point in my life prefer-not register",
+    "Neither have I accepted... neither-nor register",
+    "But I am involved in a number of foundations contrast-pivot to involvement-list",
+    "comprehensive enumerative-list register throughout"
+  ],
+  "decision_framework_signals": [
+    "uses charter-rule (age-70-or-incapacitation) as opening framework",
+    "applies change-tires-not-stay-home enumerative framing across government + international + independent-office + UN + private-sector tracks",
+    "deploys choosy-practice subcategory framing for dignified post-retirement law work",
+    "uses corporate-director-roster as private-sector pattern",
+    "applies independence-integrity-probity-competence (precursor to CIPI mnemonic) as values-transferred-from-SC-to-independent-directorship",
+    "uses self-as-case-study + Salonga-discouragement-overcome biographical framing for column-writing origin",
+    "closes with FLP/Metrobank/Manila Cathedral/Dispute Resolution Center foundation-portfolio register"
+  ],
+  "one_paragraph_summary": "Panganiban answers reader questions about what Supreme Court justices do after retirement, given their reclusive life on Mount Olympus. Quoting the Constitution (justices hold office during good behavior until age 70 or incapacitation), he frames the answer: they just change tires for new journeys; life does not end at 70. Several government offices require retirement from the SC as a qualification -- MCLE chair (incumbent J. Bernardo P. Pardo), Philja chancellor (incumbent J. Adolfo S. Azcuna), and one of the four regular JBC members (vacant since July 2013). Some retired SC members go international -- CJ Cesar Bengzon (ICJ), J. Florentino P. Feliciano (WTO Appellate Tribunal), J. Flerida Ruth P. Romero (ILO). Others land in constitutionally independent offices -- J. Conchita Carpio Morales (Ombudsman; J. Conrado M. Vasquez was first Ombudsman), J. Jose A. R. Melo (Comelec, voluntarily retired after 2010). CJs Hilario G. Davide Jr. and Claudio Teehankee served as UN ambassadors; CJ Reynato S. Puno is a UP Board of Regents member. In the private sector, deanships of law schools -- Bellosillo (CEU), Chico-Nazario (UPHSD), Austria-Martinez (Adamson), Sandoval-Gutierrez (PLM). Some return to law practice -- J. Serafin Cuevas as Estrada and later Corona Senate-impeachment counsel; CJ Andres R. Narvasa as Estrada counsel. Some are choosy -- Feliciano appears only in the SC and in Washington/Paris/Singapore international arbitration tribunals; CJ Puno and retired J. Vicente V. Mendoza serve as counsel for the Chamber of Mines in current SC litigation challenging the 1995 Mining Law. Many become directors of private firms -- Puno (SMC, Union Bank), Davide (Manila Bulletin, Philippine Trust), Bellosillo, Gutierrez (Purefoods, Ginebra), Melo (Fontana, Citystate), Nazario (San Miguel Properties, Ginebra), Ynares-Santiago (San Miguel Global Power), Vitug (Aboitiz Equity Ventures, ABS-CBN). On his own post-retirement journey (after Dec 7 2006): Inquirer Chair Marixi R. Prieto invited him to write a column; former SP Jovito R. Salonga discouraged him with 'No retired chief justice has become a columnist,' but he proceeded -- column writing would force his mind to be agile and let him share humble views on public issues. He serves as independent member/adviser of boards of Philippine Stock Exchange-listed firms, helping them observe good-corporate-governance canons without representing management or any specific shareholder -- work that requires independence, integrity, probity, and competence, the same values he was used to in the SC. He prefers not to practice law (his old law firm dissolved when he joined the SC) and has declined regular teaching jobs and offers to rejoin government, but is involved in several foundations: chair of the board of advisers of Metrobank Foundation (which rewards excellence among teachers, soldiers, policemen, artists, journalists), president of the Manila Cathedral Foundation (overseeing the cathedral's reconstruction), chair of the board of trustees of the Foundation for Liberty and Prosperity (which administers 10 professorial chairs in 10 law schools), and chair emeritus of the Philippine Dispute Resolution Center (promoting arbitration and mediation as alternatives to court litigation).",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,140 @@
+{
+  "id": "CC055",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 55,
+  "title": "WFH amid COVID-19",
+  "date": "2020-03-29",
+  "link": "https://opinion.inquirer.net/128402/wfh-amid-covid-19",
+  "keywords": [
+    "work-from-home",
+    "COVID-19 lockdown",
+    "videoconferencing platforms",
+    "judiciary digitalization",
+    "teleconferenced court proceedings"
+  ],
+  "primary_topics": [
+    "Work-from-home (WFH) as pandemic-era continuity mechanism",
+    "Videoconferencing platforms (Zoom, Microsoft Teams, FaceTime, Adobe Connect) for corporate governance",
+    "Judiciary's need to adopt teleconferencing for non-evidentiary judicial proceedings",
+    "Data-privacy trade-offs between free and paid videoconferencing platforms"
+  ],
+  "sub_topics": [
+    "March 23, 2020 House Special Session conducted with handful of solons present and the majority joining via video/audio teleconferencing",
+    "First Philippine Holdings board/committee meetings on Zoom; Meralco board meetings on Microsoft Teams",
+    "Pre-meeting circulation of PowerPoint slides and materials via email",
+    "Directors' per diems credited directly to bank accounts instead of physical checks",
+    "Family 'kumustahan' via free Zoom across Makati, Alabang, NYC, Connecticut, Chicago",
+    "Privacy warning from Judith Duavit Vazquez (PHCOLO chair) that free Zoom owns user data",
+    "Apple FaceTime restricted to Apple devices",
+    "Adobe Connect's confidentiality advantage -- subscriber owns the data; used by US publicly listed companies",
+    "Witness body language, facial expression, eye contact, indicia of credibility as reasons trials still need in-person elements",
+    "Courts' reluctance to allow live TV-radio coverage of trials for accused's constitutional rights",
+    "Pretrial conferences, marking of documentary exhibits, ordinary motion arguments as digitally tractable",
+    "Supreme Court and appellate collegiate courts especially suited (mostly written pleadings, no witness testimony) for teleconferenced oral arguments"
+  ],
+  "signature_phrases": [
+    "our struggle with the ongoing war on COVID-19",
+    "workplaces must continue humming",
+    "though quite primitively",
+    "WFH is no stranger in many countries",
+    "the novel way of transacting business",
+    "we met each other face to face in virtual deliberations",
+    "kumustahan",
+    "the charming Judith Duavit Vazquez",
+    "High time it is also for the judiciary to keep up with the digital age",
+    "the clutches of COVID-19",
+    "indicia of their credibility (or their lack of it)",
+    "Telecommuting is likewise suitable for oral arguments"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, independent director)",
+      "Judith Duavit Vazquez (GMA Network co-director, PHCOLO founder/chair)",
+      "Archie Panganiban (son, New York City)",
+      "Mabel Panganiban (daughter, New York City)",
+      "Celine Panganiban (daughter, Greenwich, Connecticut)",
+      "Tet Panganiban (daughter, Makati)",
+      "Len Panganiban (eldest daughter, Alabang, Muntinlupa)"
+    ],
+    "institutions": [
+      "House of Representatives of the Philippines",
+      "First Philippine Holdings Corp.",
+      "Manila Electric Company (Meralco)",
+      "GMA Network",
+      "PHCOLO (Philippine Center of Online Learning Operations)",
+      "Supreme Court of the Philippines",
+      "Court of Appeals",
+      "Sandiganbayan"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "March 23, 2020 -- Special Session of the House of Representatives held with most members participating remotely",
+      "Enhanced community quarantine / Metro Manila lockdown (March 2020)",
+      "COVID-19 pandemic onset in the Philippines"
+    ],
+    "products_platforms": [
+      "Zoom (free and paid versions)",
+      "Microsoft Teams",
+      "Apple FaceTime",
+      "Adobe Connect (subscription, confidentiality-preserving)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Work-from-home is not only feasible but already operationally proven for corporate governance during lockdown -- board and committee meetings via Zoom and Microsoft Teams can match the substantive deliberation of in-person meetings, with even per diems handled by direct bank credit.",
+      "rhetorical_move": "personal-witness validation (CJ's own First Philippine Holdings and Meralco board experiences) as proof-of-concept",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Free videoconferencing platforms carry an under-appreciated data-ownership cost -- Zoom (free tier) owns the data of its users -- so corporate users handling sensitive matters should pay for platforms like Adobe Connect where the subscriber owns the data.",
+      "rhetorical_move": "expert-attribution (Judith Duavit Vazquez's warning) used to surface a privacy distinction lay readers miss",
+      "confidence": "asserted via attribution"
+    },
+    {
+      "claim": "The judiciary cannot remain closed indefinitely under lockdown; while full trials require in-person observation of witness credibility, many judicial proceedings -- pretrial conferences, marking of exhibits, arguing ordinary motions, and especially appellate oral arguments -- can be conducted entirely via teleconferencing without violating any constitutional right of the accused.",
+      "rhetorical_move": "stage-by-stage segmentation of judicial proceedings to identify the digitally tractable subset",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Appellate collegiate courts (Supreme Court, Court of Appeals, Sandiganbayan) are particularly well-suited for teleconferenced oral arguments because their work is dominated by written pleadings and parties seldom face each other physically anyway.",
+      "rhetorical_move": "court-tier differentiation (trial vs appellate) to make the strongest case at the top of the hierarchy",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The televised March 23 House Special Session -- conducted with only a handful of solons physically present in the Session Hall while the majority participated, voted, and tracked debate in real time from their homes via video and audio teleconferencing devices -- used as the column's working demonstration that WFH legislative work is already viable in the Philippines, even if 'quite primitively.'",
+    "CJ's family 'kumustahan' via free Zoom -- five children and ten grandchildren spread across Makati, Alabang, New York City, Greenwich, and Chicago all virtually reassembled -- offered as the warmest personal proof that the platform works across thousands of kilometers, with the editorial doubling as a snapshot of his transnational family during quarantine.",
+    "Judith Duavit Vazquez's caution that the free version of Zoom does not guarantee privacy 'as the platform owns the data of its users' -- surfacing a distinction between free and paid videoconferencing that most lay users in March 2020 had not yet learned to make.",
+    "The reform of corporate per diems being credited directly to directors' bank accounts instead of being issued as physical checks that had to be deposited in person -- a quiet operational dividend of pandemic-era WFH that CJ highlights as small but emblematic."
+  ],
+  "target_audience": [
+    "Corporate directors and executives navigating lockdown governance",
+    "Supreme Court and appellate justices considering digital reform",
+    "Trial-court judges and judicial-process reformers",
+    "General readers adapting to remote work during community quarantine",
+    "Privacy-conscious users selecting videoconferencing platforms"
+  ],
+  "register_markers": [
+    "conversational-modernization register (warm, first-person, anecdotal)",
+    "personal-witness pattern (board meetings I attended, family Zoom I joined)",
+    "named-platform specificity (Zoom, Teams, FaceTime, Adobe Connect) rather than generic 'videoconferencing'",
+    "transnational family snapshot as proof-of-concept rhetorical device",
+    "'Of course,' 'In fact,' 'High time it is also' as conversational connectors",
+    "deferential attribution to a named expert (Judith Duavit Vazquez) for the privacy point",
+    "stage-by-stage judicial-process segmentation in the closing argument",
+    "soft policy proposal ('High time it is also for the judiciary...')"
+  ],
+  "decision_framework_signals": [
+    "applies operational-proof-of-concept reasoning (it already works in the boardroom, so it can work in the courtroom)",
+    "uses court-tier differentiation (trial vs appellate) to identify where digital adoption is least controversial",
+    "frames privacy as a free-vs-paid tradeoff with named platforms as anchor points",
+    "preserves the constitutional-rights constraint on full witness trials even while expanding digital scope elsewhere",
+    "treats the lockdown as an institutional forcing function for overdue judicial digitalization"
+  ],
+  "one_paragraph_summary": "Panganiban argues that the COVID-19 enhanced community quarantine, far from halting institutional life, is normalizing work-from-home arrangements that the Philippines should embrace and extend -- including, importantly, into the judiciary. He cites the March 23, 2020 House Special Session held with only a handful of solons physically present while the rest joined by video and audio teleconferencing, and his own experience as an independent director of First Philippine Holdings (using Zoom) and Meralco (using Microsoft Teams), where board and committee meetings ran smoothly with materials circulated by email in advance and even directors' per diems credited directly to bank accounts. He also recounts a family 'kumustahan' over free Zoom that reunited his five children and ten grandchildren spread across Makati, Alabang, New York City, Greenwich, and Chicago. He flags Judith Duavit Vazquez's warning that the free version of Zoom does not guarantee privacy because the platform owns user data, and contrasts this with paid platforms like Adobe Connect, used by US publicly listed companies, where the subscriber owns the data. He then argues that the judiciary must keep up with the digital age: while full trials require in-person observation of witness credibility and body language, many proceedings -- pretrial conferences, exhibit marking, ordinary motion arguments, and especially appellate oral arguments in the Supreme Court, Court of Appeals, and Sandiganbayan, which seldom involve face-to-face party encounters -- can readily be done by teleconferencing without violating any constitutional right.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

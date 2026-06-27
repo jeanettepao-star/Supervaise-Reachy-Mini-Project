@@ -1,0 +1,142 @@
+{
+  "id": "BC011",
+  "format": "B",
+  "type": "book",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 11,
+  "title": "Justice and Faith -- Front Matter: Foreword (by CJ Andres R. Narvasa)",
+  "date": "1997-12-01",
+  "link": "https://cjpanganiban.com/books-authored-by-chief-justice-artemio-v-panganiban/",
+  "keywords": [
+    "Justice and Faith",
+    "Andres R. Narvasa",
+    "Foreword",
+    "twin beacons",
+    "Artemio V. Panganiban",
+    "Supreme Court",
+    "High Court",
+    "230 ponencias",
+    "decision-writing style",
+    "advice to would-be lawyers",
+    "mental skills",
+    "sitting judge",
+    "crucial issues",
+    "evidence and arguments",
+    "applicable law",
+    "clear, precise and logical",
+    "pithy advice",
+    "frankness and humility"
+  ],
+  "primary_topics": [
+    "Foreword to 'Justice and Faith' -- CJ Andres R. Narvasa frames the book's twin-beacon thesis (Justice + Faith) as the title CJP himself chose",
+    "Narvasa singles out the chapter on CJP's JBC quest as 'particularly impressive' for its frankness and humility -- much-cherished ambition + long-difficult-road acknowledged plainly",
+    "Industry-credential -- Narvasa records CJP's '230 ponencias in the two years following his elevation' as the jurist's reckoning",
+    "Two chapters Narvasa specifically commends for reader uptake -- decision-writing-style chapter + advice-for-would-be-lawyers chapter",
+    "Skills-for-sitting-judges paragraph -- issue-finding + evidence-and-arguments-analysis + applicable-law-determination + clear-precise-logical conclusion-expression"
+  ],
+  "sub_topics": [
+    "'The collection of writings and speeches of the author's own choice and excerpting' -- Narvasa's framing of the volume's curatorial nature",
+    "Modest-in-volume-though-not-in-quality qualifying clause",
+    "Suffices to give the serious reader an insight into the twin beacons that have guided CJP's professional and personal life",
+    "Justice and Faith -- the twin-beacon title CJP himself chose for the offering",
+    "Frankness and humility with which CJP acknowledges his much-cherished ambition for a seat in the High Court",
+    "Long and difficult road to its fulfillment -- described in one of the chapters (the JBC quest)",
+    "Culmination when it came -- celebrated with exemplary industry as jurist",
+    "230 ponencias in the two years following elevation -- by CJP's own reckoning",
+    "'Absorbing reading' and 'useful to those who aspire for the profession' -- for the decision-writing-style + advice-for-would-be-lawyers chapters",
+    "Sitting-judge advice -- possess and put to use mental skills and disciplines in seeking out crucial issues",
+    "Analyzing evidence and arguments + determining applicable law + expressing conclusions in clear, precise and logical manner",
+    "Pithy advice judges would do well to follow",
+    "Book leaves the reader looking for more in the same vein -- Narvasa's closing wish that the author will not disappoint"
+  ],
+  "signature_phrases": [
+    "twin beacons that have guided the professional and personal life of Mr. Justice Artemio Panganiban",
+    "those with which he has chosen to title this offering: Justice and Faith",
+    "the frankness and humility with which, in one address, he acknowledges his much-cherished ambition for a seat in the High Court",
+    "no less than 230 ponencias in the two years following his elevation",
+    "should prove useful to those who aspire for the profession",
+    "in clear, precise and logical manner",
+    "pithy advice he gives that judges would do well to follow",
+    "the book leaves the reader looking for more in the same vein"
+  ],
+  "entities": {
+    "people": [
+      "Chief Justice Andres R. Narvasa (author of the Foreword)",
+      "Mr. Justice Artemio V. Panganiban (subject of the Foreword; book author)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (Justice Panganiban's seat at elevation; CJ Narvasa as incumbent CJ)",
+      "Judicial and Bar Council (JBC -- implied as the screening body in the 'long and difficult road' chapter)"
+    ],
+    "works_referenced": [
+      "Chapter on CJP's road to the High Court ('Faith Brought Me to the Supreme Court' -- implied)",
+      "Chapter on decision-writing style ('On Developing My Decision-Writing Style')",
+      "Chapter of advice for would-be lawyers ('Advice for Aspiring Attorneys')"
+    ],
+    "numerical_credentials": [
+      "230 ponencias written in two years of CJP's incumbency"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The collection of writings and speeches, modest in volume though not in quality, suffices to give the serious reader insight into the twin beacons that have guided CJP's professional and personal life -- those with which he has chosen to title this offering: Justice and Faith.",
+      "rhetorical_move": "modest-in-volume-not-in-quality qualifier + twin-beacons titular framing + author-chose-the-title attribution",
+      "confidence": "asserted by Narvasa as the volume's thesis"
+    },
+    {
+      "claim": "Particularly impressive are the frankness and humility with which CJP acknowledges his much-cherished ambition for a seat in the High Court and describes the long and difficult road to its fulfillment -- that culmination, when it came, he celebrated with exemplary industry: 230 ponencias in the two years following his elevation.",
+      "rhetorical_move": "frankness-and-humility paired-virtue + much-cherished-ambition admitted + long-and-difficult-road characterization + 230-ponencias industry-credential by CJP's own reckoning",
+      "confidence": "asserted by Narvasa as commendatory observation"
+    },
+    {
+      "claim": "CJP's account of how he developed his decision-writing style, as well as his words of advice to would-be lawyers, make absorbing reading and should prove useful to those who aspire for the profession.",
+      "rhetorical_move": "absorbing-reading + should-prove-useful-to-those-who-aspire-for-the-profession recommendation cascade",
+      "confidence": "asserted by Narvasa as chapter-selection endorsement"
+    },
+    {
+      "claim": "CJP does not forget the sitting judge -- he expounds on the mental skills and disciplines that official should possess and put to use in seeking out crucial issues, analyzing evidence and arguments, determining applicable law, and expressing conclusions in clear, precise and logical manner; it is pithy advice judges would do well to follow.",
+      "rhetorical_move": "does-not-forget-sitting-judge + four-skill cascade (seek-issues + analyze-evidence + determine-law + express-conclusions) + pithy-advice judges-would-do-well closing",
+      "confidence": "asserted by Narvasa as judicial-craft endorsement"
+    },
+    {
+      "claim": "The book leaves the reader looking for more in the same vein -- which is the least that can be said in praise of it -- and the hope that the author will not disappoint him.",
+      "rhetorical_move": "looking-for-more-in-the-same-vein left-wanting compliment + author-will-not-disappoint forward-hope closing",
+      "confidence": "asserted by Narvasa as closing recommendation"
+    }
+  ],
+  "notable_anecdotes": [
+    "Twin-beacons-of-Justice-and-Faith as CJP's own self-chosen title for the offering",
+    "230 ponencias in two years -- Narvasa records CJP's own reckoning as industry-credential",
+    "JBC-quest-chapter highlighted as 'particularly impressive' for its frankness and humility",
+    "Two chapters singled out for the would-be-lawyer reader: decision-writing-style + advice for aspiring attorneys",
+    "Judges-mental-skills paragraph as Narvasa's compressed restatement of CJP's craft",
+    "Closing line -- the book 'leaves the reader looking for more in the same vein'"
+  ],
+  "target_audience": [
+    "Serious readers approaching CJP's 'Justice and Faith' for the first time",
+    "Aspiring lawyers + would-be members of the legal profession",
+    "Sitting judges -- for the decision-writing-style and judicial-craft commendation",
+    "Catholic lay readers drawn by the Faith half of the twin-beacon thesis",
+    "Bench-and-bar readers approaching CJP's first-two-years jurist legacy"
+  ],
+  "register_markers": [
+    "Chief-Justice-voice foreword register -- measured + commendatory + spare",
+    "Twin-beacons titular framing as the organizing image",
+    "Modest-in-volume-not-in-quality dignified qualifier",
+    "Frankness-and-humility paired-virtue characterization",
+    "Long-and-difficult-road biographical compression",
+    "230-ponencias industry-credential single number",
+    "Four-skill cascade for judicial craft (seek/analyze/determine/express)",
+    "Looking-for-more-in-the-same-vein closing compliment"
+  ],
+  "decision_framework_signals": [
+    "Twin-beacons framing -- Justice and Faith as paired guides for the lawyer's professional and personal life",
+    "Frankness-and-humility paired-virtue as the standard for self-acknowledgment of ambition",
+    "Industry-as-celebration-of-elevation -- the response to a long-sought seat is exemplary output, not entitlement",
+    "Judicial-craft standard -- issue-finding + evidence-analysis + applicable-law + clear/precise/logical expression",
+    "Modest-in-volume-not-in-quality readerly economy -- value of a curated, restrained collection"
+  ],
+  "one_paragraph_summary": "Chief Justice Andres R. Narvasa's Foreword to 'Justice and Faith' frames the book around CJP's own self-chosen title -- the 'twin beacons that have guided the professional and personal life of Mr. Justice Artemio Panganiban': Justice and Faith. The collection, Narvasa writes, is 'modest in volume though not in quality' but suffices to give the serious reader insight into that twin-beacon thesis. He singles out as 'particularly impressive' the chapter in which CJP acknowledges with 'frankness and humility' his 'much-cherished ambition for a seat in the High Court' and the 'long and difficult road to its fulfillment'; that culmination, when it came, CJP celebrated with 'exemplary industry' -- 'no less than 230 ponencias in the two years following his elevation,' by his own reckoning. Narvasa commends two chapters in particular as 'absorbing reading' that should 'prove useful to those who aspire for the profession': CJP's account of how he developed his decision-writing style, and his advice to would-be lawyers. The Foreword also notes that CJP 'does not forget the sitting judge' -- expounding the 'mental skills and disciplines' a judge should possess in 'seeking out crucial issues, analyzing the evidence and arguments, determining the applicable law and, finally, expressing his conclusions in clear, precise and logical manner' -- 'pithy advice that judges would do well to follow.' Narvasa closes with the compliment that 'the book leaves the reader looking for more in the same vein' and the hope that 'the author will not disappoint him.'",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

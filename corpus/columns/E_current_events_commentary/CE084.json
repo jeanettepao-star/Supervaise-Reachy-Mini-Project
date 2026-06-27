@@ -1,0 +1,157 @@
+{
+  "id": "CE084",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 84,
+  "title": "America first'",
+  "date": "2016-11-13",
+  "link": "https://opinion.inquirer.net/99185/america-first",
+  "keywords": [
+    "Trump 'America First' platform analysis",
+    "first outsider-president",
+    "Clinton popular-vote concession",
+    "protectionism and WTO reversal",
+    "German/Japanese/Chinese industrial competition narrative",
+    "harm to PH BPO ($22B) and OFW remittances ($25B)",
+    "vulgarity-unorthodoxy-hostility framing"
+  ],
+  "primary_topics": [
+    "Trump's stunning EC win despite losing popular vote",
+    "First outsider-president and oldest-ever",
+    "'America First' platform -- protectionism, isolationism, immigration restrictions",
+    "Why the electorate ignored Trump's vulgarity, bigotry, sexual assault allegations",
+    "Dire consequences for Philippines: BPO industry ($22B/yr) and OFW remittances ($25B/yr)"
+  ],
+  "sub_topics": [
+    "Pre-election Clinton-favored conditions: poll surveys, media acclaim, Wall Street, formidable machine",
+    "Antiquated American Electoral College springing surprise",
+    "Clinton's patriotic concession (like fellow Democrat Al Gore 2000)",
+    "First time in memory: election result will radically alter US foreign policy",
+    "Political novice, no public office experience, defied political correctness",
+    "Overrode party leaders, employed unorthodox methods",
+    "Trump's catalog of disregarded liabilities: vulgarity, buffoonery, sexual perversion, tax-dodging, lies, bullying, insults, refusal to release tax returns",
+    "Bias against blacks, Muslims, Mexicans, Latinos, Asians",
+    "Electorate viewed Trump as less objectionable than Clinton's email issues, Obamacare support, foreign adventurism",
+    "'America first' platform components",
+    "Pep up economy, jobs to locals, lower taxes, raise living standard",
+    "End US role as world policeman, stop massive foreign aid, bill allies for defense",
+    "Befriend Russia, toughen immigration, rebalance trade favoring America",
+    "Protectionism: ban/heavily tax foreign goods, encourage US-made consumption",
+    "Bar American companies from outsourcing, require citizen employment, stop foreign sweat factories",
+    "Reversal of free-trade-flow America itself initiated via WTO",
+    "Original US WTO motivation: more markets, better professional/technical service deployment",
+    "Subsequent reality: Germans/Japanese outsold Americans; China became world's factory with cheap labor",
+    "Domestic consequences: unemployment, financial hemorrhage, huge borrowings",
+    "PH harm #1: BPO industry threat via outsourcing-tax -- 1M+ Filipinos, $22B revenue 2015",
+    "PH harm #2: OFW remittance threat via professional/blue-collar restrictions + deportation -- $25B 2015",
+    "BPO + OFW as backbone of PH economy + multiplier industries (real estate, housing, food, transportation, entertainment)",
+    "Regime of vulgarity, unorthodoxy, hostility eroding urbanity, predictability, liberty"
+  ],
+  "signature_phrases": [
+    "buoyed by poll surveys, acclaimed by the media, bankrolled by Wall Street and propelled by a formidable electoral machine",
+    "the better half of the first power couple",
+    "the land of the free and the home of the brave",
+    "the antiquated American Electoral College sprang a stunning surprise",
+    "the oldest and the first outsider-president",
+    "Clinton patriotically conceded",
+    "for the first time in memory, the election result will radically alter US foreign policy",
+    "defied political correctness, overrode his party's leaders, employed unorthodox methods",
+    "make America great again",
+    "The electorate ignored his vulgarity, buffoonery, sexual perversion, tax-dodging issues, lies, bullying, insults",
+    "Trump's platform was beguilingly simple: 'America first'",
+    "China became the world's favorite factory",
+    "demolished local industries",
+    "harm the Philippine economy in at least two insidious ways",
+    "the backbone of our economy",
+    "a regime of vulgarity, unorthodoxy and hostility that will erode the era of urbanity, predictability and liberty with dire domino consequences"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Hillary Clinton (Wall Street, media, machine-backed)",
+      "Bill Clinton (would-be first power couple)",
+      "Donald Trump (outsider-president, MAGA)",
+      "Al Gore (referenced -- 2000 patriotic concession)"
+    ],
+    "institutions": [
+      "American Electoral College ('antiquated')",
+      "World Trade Organization (WTO -- US initiated)",
+      "Philippine BPO industry (1M+ employees, $22B revenue 2015)",
+      "OFW community (~$25B remittances 2015)",
+      "US Wall Street",
+      "US media (acclaimed Clinton)",
+      "US Republican Party (Trump overrode leaders)",
+      "Trade competitors: Germany, Japan, China"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Obamacare (Affordable Care Act -- Clinton-supported)",
+      "WTO free-trade framework (Trump promised to reverse)"
+    ],
+    "events": [
+      "Nov 2016 US presidential election",
+      "Clinton's patriotic concession",
+      "Trump's 'America First' campaign platform announcements",
+      "PH BPO industry's 2015 employment of 1M+ Filipinos / $22B revenue",
+      "PH OFW remittances 2015: $25B"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Trump's electorate ignored his catalog of disqualifying behaviors -- vulgarity, buffoonery, sexual perversion, tax-dodging issues, lies, bullying, insults, refusal to release tax returns, bias against blacks/Muslims/Mexicans/Latinos/Asians -- viewing him as the less objectionable alternative to Clinton's email imponderables, Obamacare support, and continuation of foreign adventurism that cost American lives.",
+      "rhetorical_move": "lesser-evil voting explanation (catalog of ignored disqualifiers as evidence of how strong the Clinton aversion was)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Trump's 'America First' platform reverses the very free-trade framework America itself initiated through the WTO in the last century -- when the US sought more markets and better deployment of its professional services -- but the framework backfired when Germany, Japan outproduced US industrials and China became the 'world's favorite factory,' demolishing local industries and producing the unemployment, financial hemorrhage, and huge borrowings that Trump's protectionism now answers.",
+      "rhetorical_move": "historical-irony framing (America reversing what America itself initiated)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Trump's protectionism and isolationism will harm the Philippine economy in two insidious ways: (1) outsourcing taxes will dry up the PH BPO industry employing 1M+ Filipinos and generating $22B in 2015 revenue; (2) restrictions on professionals/blue-collar workers + merciless deportation of illegal aliens will dent OFW remittances ($25B in 2015) -- and these inflows are 'the backbone of our economy' with multiplier effects in real estate, housing, food, transportation, and entertainment.",
+      "rhetorical_move": "two-vector economic-impact projection (BPO + OFW vulnerability) with quantified backbone-of-economy framing",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Trump's promises, if fully implemented, will presage 'a regime of vulgarity, unorthodoxy and hostility that will erode the era of urbanity, predictability and liberty with dire domino consequences in the Philippines and the rest of the world.'",
+      "rhetorical_move": "categorical-evaluation closing with three-pair antithesis (vulgarity/urbanity, unorthodoxy/predictability, hostility/liberty)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Clinton's pre-election advantages catalogued: 'buoyed by poll surveys, acclaimed by the media, bankrolled by Wall Street and propelled by a formidable electoral machine' -- the column's opening salvo demonstrating the magnitude of Trump's upset.",
+    "Trump as 'the oldest and the first outsider-president' -- using superlatives to physicalize the institutional shock of his victory.",
+    "The catalog of Trump's ignored liabilities listed without break: 'vulgarity, buffoonery, sexual perversion, tax-dodging issues, lies, bullying, insults, refusal to release his tax returns, and unbridled bias against blacks, Muslims, Mexicans, Latinos and Asians' -- the most uninhibited single sentence of disapproval in CJ's US-election commentary.",
+    "The three-pair antithesis closing: 'a regime of vulgarity, unorthodoxy and hostility that will erode the era of urbanity, predictability and liberty' -- capturing the entire stakes in six contrasting nouns.",
+    "Quantified PH economic backbone: BPO $22B + OFW $25B = $47B/year -- the most precise dollar-figure stake in any PH-impact-of-US-policy column from this era."
+  ],
+  "target_audience": [
+    "Filipino readers absorbing the Trump upset",
+    "PH BPO industry stakeholders and OFW community",
+    "Government policy planners on US-PH economic exposure",
+    "Trade and immigration policy observers",
+    "Inquirer general readership tracking US politics"
+  ],
+  "register_markers": [
+    "labeled-subhead structure ('First outsider', 'Simple program', 'Harmful to Filipinos')",
+    "catalog-of-ignored-disqualifiers technique (long uninterrupted list)",
+    "historical-irony framing (America reversing what America initiated)",
+    "quantified-economic-impact framing ($22B BPO, $25B OFW)",
+    "three-pair antithesis closing structure",
+    "alarmed-civic register without descending to invective",
+    "'beguilingly simple' as critical-distance marker on Trump's platform",
+    "'antiquated' as recurring EC modifier (also used in E85, A328)",
+    "comparison to Gore's patriotic concession (cross-referenced)"
+  ],
+  "decision_framework_signals": [
+    "applies lesser-evil voting explanation when electorate ignores disqualifying behaviors",
+    "uses historical-irony framing when policy reverses prior policy of same actor",
+    "deploys quantified-economic-impact projection with backbone-of-economy framing",
+    "structures categorical-evaluation closings as three-pair antithesis",
+    "treats catalog-of-disqualifiers as evidence of strength of opposing aversion"
+  ],
+  "one_paragraph_summary": "Panganiban surveys the stunning 2016 US presidential election: Hillary Clinton -- 'buoyed by poll surveys, acclaimed by the media, bankrolled by Wall Street and propelled by a formidable electoral machine' -- won the popular vote but lost the antiquated Electoral College to Donald Trump, the oldest and first outsider-president, and patriotically conceded like fellow Democrat Al Gore in 2000. For the first time in memory, a US election will radically alter US foreign policy, as the political novice with no public-office experience defied political correctness, overrode party leaders, and convinced his compatriots that he alone could 'make America great again.' The electorate ignored his catalog of disqualifying behaviors -- vulgarity, buffoonery, sexual perversion, tax-dodging issues, lies, bullying, insults, refusal to release tax returns, and bias against blacks, Muslims, Mexicans, Latinos, and Asians -- viewing him as less objectionable than Clinton's email imponderables, Obamacare support, and continuation of foreign adventurism. Trump's 'America first' platform was beguilingly simple: pep up the economy, give jobs to locals, lower taxes, end the US role as world policeman, stop massive foreign aid, bill allies for defense, befriend Russia, toughen immigration, and rebalance trade -- implemented through protectionism (ban or heavily tax foreign goods), required citizen employment, and an end to outsourcing. This reverses the very WTO free-trade framework America itself initiated in the last century to expand markets -- a framework that backfired when Germany/Japan outproduced US industrials and China became 'the world's favorite factory,' demolishing local US industries. For the Philippines, Trump's protectionism will harm the economy in two insidious ways: (1) outsourcing taxes will dry up the BPO industry that employed 1M+ Filipinos and generated $22B in 2015; (2) professional/blue-collar restrictions + merciless deportation will dent OFW remittances ($25B in 2015) -- and these inflows are 'the backbone of our economy' with multiplier effects in real estate, housing, food, transportation, and entertainment. In sum, Trump's promises 'will presage a regime of vulgarity, unorthodoxy and hostility that will erode the era of urbanity, predictability and liberty with dire domino consequences in the Philippines and the rest of the world.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

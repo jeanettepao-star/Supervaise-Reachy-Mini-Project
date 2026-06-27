@@ -1,0 +1,163 @@
+{
+  "id": "CA150",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 150,
+  "title": "Speedy, independent, and trustworthy",
+  "date": "2022-03-20",
+  "link": "https://opinion.inquirer.net/151213/speedy-independent-and-trustworthy",
+  "keywords": [
+    "Comelec leadership",
+    "ad interim nominations",
+    "BBM disqualification",
+    "Funa v. Comelec",
+    "constitutional commissions"
+  ],
+  "primary_topics": [
+    "Demand that the newly-completed Comelec resolve pending Marcos Jr. (BBM) MRs speedily",
+    "Catalog of pending administrative challenges (ballot printing observation, Smartmatic hacking allegations)",
+    "Vetting of three new ad interim appointees: Chair Pangarungan, Commissioners Garcia and Torrefranca-Neri",
+    "Funa v. Comelec (2012) doctrine on fixed seven-year terms in constitutional commissions",
+    "Confirmation-hearing accountability via Commission on Appointments"
+  ],
+  "sub_topics": [
+    "Pending MRs on (a) cancellation of BBM's COC and (b) BBM's disqualification -- unacted since Jan. 24",
+    "Smartmatic data-breach allegations by Senate President Sotto and Sen. Imee Marcos; denial by Smartmatic",
+    "Pangarungan's limited election experience + San Beda fraternity tie to Duterte -- vs benefit of doubt",
+    "Why Inting was not promoted: Funa v. Comelec (April 24, 2012) ruling on seven-year fixed terms",
+    "Inting's resignation-and-reappointment workaround as 'constitutional brinkmanship'",
+    "Garcia as former principal lawyer of BBM, Isko Moreno, Ping Lacson -- recusal in advance",
+    "Garcia's standing among competent election specialists (Brillantes, Macalintal)",
+    "Neri accused by lawyer Topacio of allegedly receiving P10M as DOJ asst. secretary, returning only P7M",
+    "Drilon quote on the Commission on Appointments' vetting duty"
+  ],
+  "signature_phrases": [
+    "Speedy, independent, and trustworthy",
+    "with deliberate speed, independence, and trustworthiness",
+    "To deserve the people's trust, the Comelec should decide these cases NOW",
+    "constitutional brinkmanship",
+    "I would rather give him the benefit of the doubt",
+    "would unhesitatingly denounce any election shenanigan",
+    "a more daunting challenge to her integrity",
+    "this deadly accusation",
+    "can be merciless sometimes and rightly so",
+    "Abangan!"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Saidamen Pangarungan (Comelec Chair, ad interim)",
+      "George Erwin Garcia (Comelec Commissioner, ad interim)",
+      "Aimee Torrefranca-Neri (Comelec Commissioner, ad interim)",
+      "Socorro B. Inting (Senior Commissioner)",
+      "Ferdinand 'Bongbong' Marcos Jr.",
+      "Rodrigo Duterte",
+      "Isko Moreno",
+      "Panfilo 'Ping' Lacson",
+      "Tito Sotto (Senate President)",
+      "Imee Marcos (Senator)",
+      "Sixto Brillantes Jr. (former Comelec chair)",
+      "Romulo Macalintal",
+      "Ferdinand Topacio (lawyer)",
+      "Franklin Drilon (Senator)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "Comelec First Division",
+      "Comelec Second Division",
+      "Comelec en banc",
+      "Supreme Court of the Philippines",
+      "Smartmatic",
+      "Department of Justice",
+      "Commission on Appointments",
+      "San Beda College of Law"
+    ],
+    "cases": [
+      "Funa v. Comelec (April 24, 2012)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution provisions on independent constitutional commissions (fixed seven-year terms)"
+    ],
+    "events": [
+      "Ad interim appointments of Pangarungan, Garcia, and Torrefranca-Neri",
+      "Comelec Second Division dismissal of petition to cancel BBM's COC",
+      "Jan. 24 filing of MR by petitioners",
+      "Comelec First Division denial of BBM disqualification petitions",
+      "Smartmatic alleged data breach allegations",
+      "Refusal to allow representatives to observe ballot printing",
+      "Topacio's accusation against Neri"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Comelec en banc must decide the pending MRs on BBM's COC cancellation and disqualification NOW -- since whatever ruling will be elevated to the Supreme Court for final review, delay only erodes voter trust.",
+      "rhetorical_move": "speed-as-trust framing with appellate-pathway awareness",
+      "confidence": "asserted in caps emphasis"
+    },
+    {
+      "claim": "The Funa v. Comelec doctrine (April 24, 2012) -- that constitutional-commission appointments are always for fixed seven-year terms -- meant promoting Senior Commissioner Inting to Chair via the unexpired-term route was a workaround the President avoided via 'constitutional brinkmanship,' explaining why the President instead picked outsider Pangarungan.",
+      "rhetorical_move": "constitutional-doctrine framing to explain executive non-promotion",
+      "confidence": "asserted with case citation"
+    },
+    {
+      "claim": "Pangarungan's limited election experience and San Beda fraternity tie to Duterte are valid concerns, but he deserves the benefit of the doubt -- to be judged by performance, since 'many appointees to independent agencies have proven to be independent and upright.'",
+      "rhetorical_move": "presumption-of-good-faith framing with performance-test",
+      "confidence": "cautiously asserted"
+    },
+    {
+      "claim": "Garcia's pre-emptive recusal from his former clients' cases (BBM, Isko, Ping, etc.) shows ethical anticipation, and his standing among competent election specialists (alongside Brillantes and Macalintal) gives him the strongest baseline credibility.",
+      "rhetorical_move": "personal-vouching with peer-grouping (placing Garcia in a competence-specialist trio)",
+      "confidence": "personally vouched"
+    },
+    {
+      "claim": "Neri faces a more daunting integrity challenge -- Topacio's accusation that as DOJ assistant secretary she received P10M to 'fix' a robbery case and returned only P7M after the client was convicted, pocketing P3M -- and 'must satisfactorily explain this deadly accusation to the electorate, especially during her confirmation hearings.'",
+      "rhetorical_move": "accusation-with-demand-to-respond framing",
+      "confidence": "asserted as accusation requiring response, not as adjudication"
+    },
+    {
+      "claim": "The Commission on Appointments can and should be 'merciless' in vetting credentials of appointees, as Sen. Drilon's quote affirms.",
+      "rhetorical_move": "appeal-to-existing-statement (using Drilon's quote as institutional warrant)",
+      "confidence": "asserted via embedded quote"
+    }
+  ],
+  "notable_anecdotes": [
+    "Pangarungan was Duterte's fraternity brother at San Beda College of Law -- flagged as a concern but met with the benefit of the doubt.",
+    "Funa v. Comelec brinkmanship: had Duterte resigned Senior Commissioner Inting and reappointed her as Chair for the unexpired chairmanship term, she would have served less than a total of seven years and the move would have been constitutional -- but the President 'risked' avoidance by going outside.",
+    "Garcia's pre-emptive recusal from his former clients' cases is contrasted with the political risk of his lawyer-client history with BBM, Moreno, and Lacson.",
+    "Topacio's accusation against Neri: P10M for fixing a robbery case at the SC, P7M returned after conviction, P3M kept -- laid out without endorsement but framed as 'deadly accusation' she must address at her CA hearings.",
+    "Drilon's quote on the Commission on Appointments being 'merciless sometimes and rightly so because we will be remiss in our constitutional duties if we do not vet the credentials of the appointees' -- used as institutional warrant for the vetting demand.",
+    "Closing 'Abangan!' (Filipino exclamation, 'Watch out for it!' or 'Stay tuned!') as cliffhanger device."
+  ],
+  "target_audience": [
+    "Filipino voters approaching the May 9 election",
+    "Comelec leadership (implicitly addressed)",
+    "Commission on Appointments members",
+    "Legal community and election lawyers",
+    "Court-watchers tracking BBM cases",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "Title-as-thesis triad ('Speedy, independent, and trustworthy')",
+    "ALL-CAPS pivot openings ('TOPPING THE LIST OF PENDING QUASI-JUDICIAL MATTERS,' 'TOPPING THE LIST OF ADMINISTRATIVE MATTERS,' 'DESPITE THESE ASSURANCES')",
+    "Emphatic NOW in caps for urgency",
+    "Latin-style 'brinkmanship' as critique register",
+    "Direct citation with date ('Funa v. Comelec (April 24, 2012)')",
+    "Embedded direct quote from Sen. Drilon as institutional warrant",
+    "Tagalog cliffhanger closer ('Abangan!')",
+    "Presumption-of-good-faith hedges ('I would rather give him the benefit of the doubt')",
+    "Peer-grouping vouching device (Garcia alongside Brillantes, Macalintal)",
+    "Triadic enumeration structure (one commissioner-by-commissioner per paragraph block)"
+  ],
+  "decision_framework_signals": [
+    "uses appellate-pathway awareness to justify speedy lower-tribunal action (whatever the Comelec decides, SC will review)",
+    "applies fixed-term-doctrine analysis (Funa) to explain executive promotion choices in constitutional commissions",
+    "uses benefit-of-the-doubt presumption to handle concerns short of disqualification",
+    "uses pre-emptive recusal as evidence of ethical anticipation in lawyers transitioning to public office",
+    "treats outstanding accusations as requiring affirmative explanation rather than presumption of guilt",
+    "frames Commission on Appointments confirmation hearings as the constitutional remedy for vetting concerns"
+  ],
+  "one_paragraph_summary": "With the ad interim appointments of Chair Saidamen Pangarungan and Commissioners George Erwin Garcia and Aimee Torrefranca-Neri, the Comelec is now complete -- and Panganiban demands it act with 'deliberate speed, independence, and trustworthiness.' First on the quasi-judicial docket are the long-unacted MRs from petitioners seeking the cancellation of Bongbong Marcos's COC and his disqualification, filed promptly after the Second and First Divisions' adverse rulings; CJ insists the Comelec en banc decide NOW since whatever the result, the Supreme Court will review it on final appeal. On the administrative side, he flags ballot-printing observation refusals and Smartmatic data-breach allegations from Sotto and Imee Marcos (with Smartmatic's denial). He then commissioner-by-commissioner vets the three new appointees: Pangarungan, whose limited election experience and Duterte-fraternity tie at San Beda raise concerns but who deserves the benefit of the doubt, accompanied by a Funa v. Comelec (April 24, 2012) explanation of the 'constitutional brinkmanship' the President avoided by not resigning-and-reappointing Senior Commissioner Inting; Garcia, who as former principal lawyer of BBM, Moreno, and Lacson recused in advance and stands among the competent election specialists alongside Brillantes and Macalintal, in CJ's personal vouch; and Neri, who faces 'a more daunting challenge to her integrity' from Topacio's accusation that she received P10M as DOJ assistant secretary to fix a robbery case at the SC, returning only P7M after the conviction and pocketing P3M -- an accusation she 'must satisfactorily explain to the electorate' at her CA hearings, where the Commission on Appointments, in Drilon's words, 'can be merciless sometimes and rightly so.' Closes with the Tagalog cliffhanger 'Abangan!'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

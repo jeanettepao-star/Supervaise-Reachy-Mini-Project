@@ -1,0 +1,156 @@
+{
+  "id": "CA199",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 199,
+  "title": "Lessons from River",
+  "date": "2020-11-08",
+  "link": "https://opinion.inquirer.net/135101/lessons-from-river",
+  "keywords": [
+    "baby River Nasino",
+    "Reina Mae Nasino",
+    "bail jurisprudence",
+    "Enrile v. Sandiganbayan",
+    "humanitarian grounds",
+    "best interests of the child",
+    "Convention on the Rights of the Child",
+    "Juvenile Justice and Welfare Act"
+  ],
+  "primary_topics": [
+    "Public outrage over baby River Nasino's death after separation from detained mother Reina Mae Nasino",
+    "Five-step constitutional-statutory bail framework (Art III Sec 13; Sec 7 Rule 114; trial-court discretion; intent to assure appearance; humanitarian grounds)",
+    "Enrile v. Sandiganbayan (Aug 18, 2015) -- 'special humanitarian grounds' for bail",
+    "Whether Enrile humanitarian grounds extend by analogy to a detained mother of a newborn",
+    "Liberal proposal: bail via Article 3 of 1989 Convention on the Rights of the Child + Juvenile Justice and Welfare Act 2006 'best interests of the child' standard"
+  ],
+  "sub_topics": [
+    "Inquirer Oct 29 editorial cited: 'egregious failure of the justice system that led to the death of baby River Nasino'",
+    "Step 1: Constitution Art III Sec 13 -- right to bail except capital offenses with strong evidence",
+    "Step 2: Rules of Court Sec 7 Rule 114 -- repeats in negative terms",
+    "Step 3: 'strong evidence' is factual matter; trial-court discretion exercised only after four procedural steps (hearing, prosecution notice, accused chance to counter, summary determination)",
+    "Step 4: Intent is to assure appearance during trial and at judgment, and minimize flight risk",
+    "Step 5: Enrile humanitarian grounds -- advanced age (91), ill health, social-political standing, immediate surrender",
+    "Nasino timeline: petition filed April; SC acted July 28; announced Sept 10 -- 'too unreasonably long'",
+    "CJ's prior 9/27/20 column: 'Dismissed on short shrift' -- SC should have dismissed facially defective petition outright",
+    "Nasino's lawyers also faulted: should have insisted on trial-court hearing first; should have gone to SC only to contest trial-court denial",
+    "Trial court 'unduly strict' post-remand: denied hospital stay and 'needlessly separated the baby from her detained mother, to quote again the Inquirer editorial, to tragic results'",
+    "Strict answer: humanitarian grounds in Enrile refer to accused; grounds in Nasino refer to baby -- 'No' to direct application",
+    "Liberal approach by Naga RTC Judge Soliman M. Santos Jr. (via email to CJ): bail by analogy via Convention on the Rights of the Child Article 3",
+    "Convention Art 3: 'In all actions concerning children... undertaken by... courts of law..., the best interests of the child shall be a primary consideration'",
+    "Juvenile Justice and Welfare Act of 2006 definition: 'best interest of the child' = 'totality of circumstances and conditions which are most congenial to the survival, protection and feelings of security of the child and most encouraging to the child's physical, psychological and emotional development'",
+    "Closing call: SC and/or Congress should study and possibly codify new rules and/or laws to protect unborn and young children of detained mothers"
+  ],
+  "signature_phrases": [
+    "egregious failure of the justice system",
+    "to listen to, and take lessons from, the cries of the poor and the powerless",
+    "the question of whether or not the evidence of guilt is strong is a factual matter",
+    "summarily",
+    "special humanitarian grounds",
+    "uncontrolled hypertension, arrhythmia, coronary calcification and exacerbations of ACOS",
+    "with due respect, it took too unreasonably long to act",
+    "facially defective petition",
+    "Dismissed on short shrift",
+    "unduly strict",
+    "mindlessly denied",
+    "needlessly separated",
+    "to tragic results",
+    "by analogy",
+    "the best interests of the child shall be a primary consideration",
+    "the totality of circumstances and conditions",
+    "I hope the Supreme Court and/or Congress will respond"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Baby River Nasino (deceased; subject of Inquirer editorial)",
+      "Reina Mae Nasino (River's mother; detained accused)",
+      "Senator Juan Ponce Enrile (Enrile v. Sandiganbayan precedent)",
+      "Naga RTC Judge Soliman M. Santos Jr. (emailed CJ; liberal-approach proponent)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Trial court (Manila RTC handling Nasino case, implied)",
+      "Sandiganbayan (Enrile precedent)",
+      "Philippine Daily Inquirer (Oct 29 editorial)",
+      "Congress of the Philippines"
+    ],
+    "cases": [
+      "Enrile v. Sandiganbayan (Aug 18, 2015)",
+      "Nasino bail petition (April-Sept 2020 SC proceedings)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- Art III Sec 13 (right to bail)",
+      "Rules of Court -- Sec 7 Rule 114 (bail in capital offenses)",
+      "Convention on the Rights of the Child (1989) -- Article 3",
+      "Juvenile Justice and Welfare Act of 2006"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Constitution and the Rules of Court establish a clear bail framework: everyone has a right to bail except those charged with capital offenses when evidence of guilt is strong -- and the strength-of-evidence determination is a factual matter committed to the sound discretion of the trial court, exercised only after a four-step procedural sequence (hearing, prosecution notice, accused's chance to counter, summary determination).",
+      "rhetorical_move": "constitutional-statutory framework recitation"
+    },
+    {
+      "claim": "Enrile v. Sandiganbayan (Aug 18, 2015) established that bail may also be granted on 'special humanitarian grounds' -- citing advanced age (91 at the time), ill health (uncontrolled hypertension, arrhythmia, coronary calcification, ACOS exacerbations), 'social and political standing,' and 'immediate surrender to the authorities.'",
+      "rhetorical_move": "precedent-citation with verbatim grounds"
+    },
+    {
+      "claim": "The Supreme Court correctly remanded the matter to the trial court -- but, 'with due respect, it took too unreasonably long to act': the petition was filed in April, the Court acted only on July 28, and announced its action only on September 10. It should have 'immediately dismissed the facially defective petition outright' (per CJ's Sept 27 column 'Dismissed on short shrift').",
+      "rhetorical_move": "institutional-critique-with-deference"
+    },
+    {
+      "claim": "Part of the fault also lies with Nasino's lawyers, who went to the Supreme Court too soon -- they should have insisted on the trial court setting a bail hearing first and gone to the SC only to contest a trial-court denial rendered with grave abuse of discretion.",
+      "rhetorical_move": "shared-responsibility procedural critique"
+    },
+    {
+      "claim": "Strictly speaking, the Enrile 'humanitarian grounds' do not extend by direct application to Nasino because Enrile's grounds referred to the accused while Nasino's grounds referred to the baby, not the mother.",
+      "rhetorical_move": "strict-reading limitation acknowledgment"
+    },
+    {
+      "claim": "Nonetheless, CJ endorses Naga RTC Judge Soliman M. Santos Jr.'s liberal approach: bail could have been granted by analogy under Article 3 of the 1989 Convention on the Rights of the Child ('the best interests of the child shall be a primary consideration') -- operationalized through the Juvenile Justice and Welfare Act of 2006's definition of 'best interest of the child' as 'the totality of circumstances and conditions which are most congenial to the survival, protection and feelings of security of the child and most encouraging to the child's physical, psychological and emotional development.'",
+      "rhetorical_move": "liberal-analogy endorsement with named-jurist attribution"
+    },
+    {
+      "claim": "Looking forward, the SC and/or Congress should respond to the public outrage by 'studying and possibly codifying new rules and/or new laws to protect the unborn and the young children of detained mothers.'",
+      "rhetorical_move": "institutional-reform-call closing"
+    }
+  ],
+  "notable_anecdotes": [
+    "Inquirer Oct 29 editorial quoted twice as the framing voice -- 'egregious failure of the justice system that led to the death of baby River Nasino after she was separated from her mother' -- and again on the trial court's 'mindlessly denied... needlessly separated... to tragic results' -- modeling the column-as-amplifier-of-editorial-conscience.",
+    "Naga RTC Judge Soliman M. Santos Jr.'s email to CJ proposing the Convention-on-the-Rights-of-the-Child Article 3 analogy -- modeling how reader-jurists shape CJ's columns and how cross-court intellectual exchange develops doctrine.",
+    "CJ's verbatim citation of Enrile v. Sandiganbayan's humanitarian-grounds catalogue (advanced age 91; 'uncontrolled hypertension, arrhythmia, coronary calcification and exacerbations of ACOS'; social-political standing; immediate surrender) -- preserved with clinical precision to set up the analogy question.",
+    "CJ's self-citation of the Sept 27, 2020 column 'Dismissed on short shrift' -- reinforcing that the SC's failure to dismiss the facially defective petition outright was both predicted and avoidable."
+  ],
+  "target_audience": [
+    "Supreme Court justices (institutional-critique audience)",
+    "Trial-court judges handling bail petitions",
+    "Congress (legislative-reform audience)",
+    "Public-interest lawyers and human-rights advocates",
+    "Inquirer editorial readers (continuity with Oct 29 piece)",
+    "Civic-minded readers outraged by River Nasino's death"
+  ],
+  "register_markers": [
+    "five-step-enumeration analytical structure",
+    "constitutional-statutory recitation register",
+    "Inquirer-editorial-as-framing-voice (twice quoted)",
+    "'with due respect' institutional-critique humility marker",
+    "self-citation of own column 'Dismissed on short shrift'",
+    "shared-responsibility procedural critique",
+    "named-jurist liberal-approach attribution (Judge Soliman M. Santos Jr.)",
+    "Convention-on-the-Rights-of-the-Child verbatim citation",
+    "institutional-reform-call closing"
+  ],
+  "decision_framework_signals": [
+    "applies constitutional-statutory bail framework as analytical baseline",
+    "uses Enrile precedent's humanitarian-grounds catalogue as comparative template",
+    "deploys strict-vs-liberal interpretive dichotomy to handle Enrile-Nasino analogy gap",
+    "treats Convention-on-the-Rights-of-the-Child Article 3 as bridge for liberal extension",
+    "frames best-interests-of-the-child standard via JJWA-2006 definition operationalization",
+    "applies shared-responsibility framework distributing fault across SC, trial court, and counsel",
+    "closes via institutional-reform-call (SC and/or Congress codification)"
+  ],
+  "one_paragraph_summary": "Panganiban responds to the Inquirer's October 29 editorial decrying the 'egregious failure of the justice system that led to the death of baby River Nasino after she was separated from her mother,' detainee Reina Mae Nasino. He sets out a five-step bail framework: (1) Constitution Article III Section 13 -- everyone has a right to bail except those charged with capital offenses when evidence of guilt is strong; (2) Rules of Court Section 7 Rule 114 repeats the rule negatively; (3) the strength-of-evidence question is a factual matter committed to the sound discretion of the trial court, exercised only after a four-step procedure (hearing, prosecution notice, accused's chance to counter, summary determination); (4) the intent is to assure appearance and minimize flight risk; and (5) Enrile v. Sandiganbayan (August 18, 2015) added 'special humanitarian grounds' -- citing advanced age (91), ill health (uncontrolled hypertension, arrhythmia, coronary calcification, ACOS exacerbations), 'social and political standing,' and 'immediate surrender to the authorities.' CJ believes the Supreme Court correctly remanded the matter to the trial court but, 'with due respect, it took too unreasonably long to act' -- the petition was filed in April, the Court acted only on July 28, and announced its action only on September 10. It should have dismissed the facially defective petition outright (per CJ's September 27, 2020 column 'Dismissed on short shrift'). Part of the fault lies with Nasino's lawyers, who went to the SC too soon rather than first insisting on a trial-court bail hearing. Post-remand, the trial court was 'unduly strict' -- it 'mindlessly denied the petition for hospital stay and needlessly separated the baby from her detained mother, to quote again the Inquirer editorial, to tragic results.' Strictly speaking, the Enrile humanitarian grounds do not extend to Nasino because those referred to the accused while Nasino's referred to the baby, not the mother. Nonetheless, CJ endorses the liberal approach proposed by Naga RTC Judge Soliman M. Santos Jr. in an email: bail could have been granted by analogy under Article 3 of the 1989 Convention on the Rights of the Child ('the best interests of the child shall be a primary consideration'), operationalized via the Juvenile Justice and Welfare Act of 2006's definition of 'best interest of the child' as 'the totality of circumstances and conditions which are most congenial to the survival, protection and feelings of security of the child and most encouraging to the child's physical, psychological and emotional development.' He closes with a hope that 'the Supreme Court and/or Congress will respond to the public outrage by studying and possibly codifying new rules and/or new laws to protect the unborn and the young children of detained mothers.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

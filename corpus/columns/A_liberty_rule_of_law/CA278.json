@@ -1,0 +1,134 @@
+{
+  "id": "CA278",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 278,
+  "title": "Who owns Boracay?",
+  "date": "2018-04-15",
+  "link": "https://opinion.inquirer.net/112458/who-owns-boracay",
+  "keywords": [
+    "Regalian Doctrine",
+    "Proclamation 1064 Boracay",
+    "DENR v. Mayor Yap",
+    "judicial confirmation imperfect title",
+    "alienable disposable land"
+  ],
+  "primary_topics": [
+    "Ownership of Boracay under the Regalian Doctrine and Proclamation 1064",
+    "Classification and private acquisition of public lands",
+    "Duterte's option to reconvert Boracay to national park"
+  ],
+  "sub_topics": [
+    "Secretary of DENR v. Mayor Yap (October 8, 2008)",
+    "Proclamation 1064 (May 22, 2006): 400 ha protected forest + 628.96 ha alienable/disposable",
+    "Tirol OCT No. 19502 (August 7, 1933) and successors-in-interest",
+    "Regalian Doctrine origin (Spanish conquest); continued in 1935, 1973, 1987 Constitutions",
+    "Philippine Bill of 1902 and Spanish royal decrees for pre-Constitution private acquisition",
+    "Commonwealth Act 141 (CA 141) -- governing classification and disposition of public lands",
+    "Four kinds of public lands under 1987 Constitution: agricultural, forest/timber, mineral, national parks",
+    "Only agricultural lands may be alienated",
+    "Two requisites for judicial confirmation under CA 141",
+    "PD No. 705 -- unclassified land treated as public forest",
+    "Forest cover stripped by settlers/resorts doesn't convert land to alienable",
+    "Proc 1064 allows subsequent alienation via CA 141",
+    "Duterte's option to repeal/modify Proc 1064 or convert to national park"
+  ],
+  "signature_phrases": [
+    "Regalian Doctrine",
+    "not otherwise appearing to be clearly within private ownership",
+    "alienable and disposable",
+    "judicial confirmation of imperfect or incomplete title",
+    "time immemorial or from June 12, 1945",
+    "a forested area does not lose such classification simply because loggers or settlers may have stripped it",
+    "automatically converted from public forest to alienable public land",
+    "repeal or modify Proc 1064... or better still, into a national park"
+  ],
+  "entities": {
+    "people": [
+      "Former President Gloria Macapagal Arroyo (issued Proc 1064)",
+      "Heirs of Ciriaco S. Tirol (Tirol OCT, 1933)",
+      "President Rodrigo Duterte",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Department of Environment and Natural Resources (DENR)",
+      "Office of the Mayor, Malay, Aklan"
+    ],
+    "cases": [
+      "Secretary of DENR v. Mayor Yap (October 8, 2008)"
+    ],
+    "laws_treaties": [
+      "Proclamation No. 1064 (May 22, 2006)",
+      "1987 Constitution (four classes of public land)",
+      "1935 and 1973 Constitutions (Regalian Doctrine)",
+      "Philippine Bill of 1902",
+      "Commonwealth Act No. 141 (CA 141)",
+      "Presidential Decree No. 705 (Revised Forestry Code)"
+    ],
+    "events": [
+      "Boracay closure order by President Duterte",
+      "Proc 1064 classification of Boracay (May 22, 2006)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Except for portions vested privately under the Torrens System (like the Tirol OCT and its derivatives), the entire island of Boracay is owned by the state.",
+      "rhetorical_move": "definitive ownership answer distilled from DENR v. Mayor Yap",
+      "confidence": "high"
+    },
+    {
+      "claim": "Prior to Proc 1064, Boracay was unclassified public land treated as public forest under PD 705 -- private parties could not acquire ownership regardless of the length or nature of their possession.",
+      "rhetorical_move": "pre-Proc 1064 status clarification",
+      "confidence": "high"
+    },
+    {
+      "claim": "Stripping a forest of its cover (by resorts, restaurants, and commercial establishments) does not convert it from public forest to alienable public land.",
+      "rhetorical_move": "anti-adverse-possession forestland rule",
+      "confidence": "high"
+    },
+    {
+      "claim": "Proc 1064 opened the path for Filipinos to apply for judicial confirmation of imperfect titles or other modes of acquiring alienable public land under CA 141.",
+      "rhetorical_move": "constructive post-Proc 1064 acquisition pathway",
+      "confidence": "high"
+    },
+    {
+      "claim": "Duterte can repeal or modify Proc 1064 and reconvert the public lands in Boracay into a protected forest or, better still, a national park that cannot be owned privately.",
+      "rhetorical_move": "author's prescriptive option for Boracay protection",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Tirol OCT No. 19502 (August 7, 1933) -- a pre-constitutional Torrens title issued to the Heirs of Ciriaco S. Tirol as the paradigm example of validly private Boracay land.",
+    "The counter-intuitive holding: even beach resorts and restaurants replacing forest cover cannot convert the land from public forest to alienable agricultural land.",
+    "The CA 141 two-prong test for judicial confirmation: open/continuous/exclusive/notorious possession from June 12, 1945 AND prior alienable-and-disposable classification -- the second prong was absent in Boracay before Proc 1064.",
+    "The author's prescription: national park status would permanently prevent private ownership of Boracay's public lands, a stronger protection than the current alienable-and-disposable classification."
+  ],
+  "target_audience": [
+    "Boracay resort operators and land claimants",
+    "DENR and LGU Malay, Aklan",
+    "President Duterte's legal team crafting the Boracay rehabilitation policy",
+    "Real estate and land registration practitioners",
+    "Constitutional and property law scholars"
+  ],
+  "register_markers": [
+    "Question-title inviting lay readership",
+    "Legalese-simplified subheading",
+    "Regalian Doctrine historical genealogy",
+    "Four-kinds-of-public-lands constitutional enumeration",
+    "Two-prong CA 141 test for judicial confirmation",
+    "Author's personal prescription closing"
+  ],
+  "decision_framework_signals": [
+    "Apply the Regalian Doctrine as the default: all land belongs to the state unless clearly proven private",
+    "Trace the title chain: was the land classified alienable-and-disposable before the possession claim was made?",
+    "Test possession duration against both the CA 141 two-prong test and the specific presidential proclamation timeline",
+    "Remember that forest cover removal by commercial development does not reclassify public forest to agricultural land",
+    "Use Torrens title issuance date as the cutoff for validly private Boracay parcels",
+    "Leverage executive power to reclassify (via proclamation) or protect (via national park designation) public lands"
+  ],
+  "one_paragraph_summary": "Panganiban answers the question 'Who owns Boracay?' by distilling Secretary of DENR v. Mayor Yap (October 8, 2008), which upheld Proclamation No. 1064 (May 22, 2006) classifying the island into 400 hectares of protected forestland and 628.96 hectares of alienable and disposable agricultural land. Under the Regalian Doctrine -- rooted in Spanish conquest and continued through the 1935, 1973, and 1987 Constitutions -- all land not clearly within private ownership belongs to the state. Only the portions covered by valid Torrens titles, like the 1933 Tirol OCT and its successors-in-interest, are privately owned. Prior to Proc 1064, Boracay was entirely unclassified public land treated as public forest under PD 705, and no one could acquire ownership through possession alone, no matter how long or notorious -- because the essential second prong of the CA 141 judicial-confirmation test (prior alienable-and-disposable classification) was absent. Stripping the forest cover to build beach resorts, restaurants, and commercial establishments does not convert the land from public forest to alienable agricultural land. Proc 1064 changed the status of 628.96 hectares, opening the path for Filipinos to now apply for judicial confirmation of imperfect titles or other modes of acquisition under CA 141. The column closes with the author's own prescription: President Duterte may repeal or modify Proc 1064 and reconvert Boracay's public lands to protected forest, or better still, designate them a national park that cannot be owned privately -- a stronger and more permanent protection.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,148 @@
+{
+  "id": "CA124",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 124,
+  "title": "Foreign divorce of mixed couples valid here",
+  "date": "2022-12-12",
+  "link": "https://opinion.inquirer.net/159456/foreign-divorce-of-mixed-couples-valid-here",
+  "keywords": [
+    "Article 26, Family Code",
+    "Republic v. Bayog-Saito (Aug. 17, 2022)",
+    "Japanese mayoral 'divorce notification'",
+    "Republic v. Manalo (April 24, 2018)",
+    "Republic v. Galapon (Jan. 22, 2020)",
+    "verba legis non est recedendum",
+    "anomaly: Filipino tied while alien remarries"
+  ],
+  "primary_topics": [
+    "Liberalized SC recognition of foreign divorces obtained by mixed couples -- by any body, for any cause, regardless of which spouse initiated",
+    "Republic v. Bayog-Saito (Aug. 17, 2022, J. Inting) -- recognition of a Japanese mayoral 'divorce notification' between Toru Saito (Japanese) and Helen Bayog (Filipino)",
+    "Continuing ban on absolute divorce between Filipino couples (Muslim Filipinos separately treated)",
+    "Republic v. Manalo (April 24, 2018, J. Peralta) -- Article 26 covers divorces regardless of who initiated",
+    "Republic v. Galapon (Jan. 22, 2020, J. Caguioa) -- three-way scenario coverage: divorce obtained (i) by the foreign spouse, (ii) jointly, or (iii) solely by the Filipino spouse"
+  ],
+  "sub_topics": [
+    "Procedural anchor: Article 26, second paragraph -- Filipino spouse 'shall likewise have the capacity to remarry' when divorce 'is validly obtained by the alien spouse'",
+    "Bayog-Saito facts: marriage celebrated Aug. 30, 1999 in Pasay City; uncontested divorce recorded in Official Family Registry of Minami-ku on Oct. 16, 2012",
+    "Documentary requirements before the RTC of Tarlac City: Certificate of Marriage; Certificate of Acceptance of Divorce Notification (Mayor Takashi); Family Register of Toru (Mayor Takashi); Divorce Certificate (Vice Consul Kengo Fukasawa, Japanese Embassy); pertinent Japanese Civil Code provisions with English translation; all DFA-authenticated",
+    "Why Japanese divorce is easy: no court appearance needed for uncontested divorce",
+    "Filipino-only marriages: 'Once married, forever married' (Muslim Filipinos governed by separate law)",
+    "Parenthetical reference to liberalized PI annulments (deferred to a full column -- published as A118)",
+    "Manalo doctrinal grounds: text-bound interpretation ('Verba legis non est recedendum') + purposive interpretation when text would otherwise yield results contrary to legislative purpose",
+    "Galapon doctrinal expansion: three-pathway coverage (foreign spouse, joint, or Filipino spouse) -- authored by Caguioa, who had dissented from but was bound to obey Manalo",
+    "Animating principle: avoid the 'anomaly' of the Filipino spouse remaining bound while the foreigner is free to remarry"
+  ],
+  "signature_phrases": [
+    "for any cause or reason, and regardless of which spouse initiated the proceedings",
+    "'divorce notification'",
+    "Once married, forever married",
+    "the second paragraph of said article provides",
+    "subject to certain exceptions",
+    "to avoid the 'anomaly that results ... from a Filipino spouse being tied to the marriage while the foreigner spouse is free to remarry'",
+    "Verba legis non est recedendum",
+    "the Court will not follow the letter of the statute when to do so would depart from the true intent of the legislature",
+    "Laws have ends to achieve",
+    "dissented from -- but had to obey -- the ruling in Republic v. Manalo",
+    "obtained by the foreign spouse... obtained jointly... obtained solely by the Filipino spouse"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Justice Henri Jean Paul B. Inting (ponente of Bayog-Saito)",
+      "Justice (later CJ) Diosdado M. Peralta (ponente of Manalo)",
+      "Justice Alfredo Benjamin S. Caguioa (ponente of Galapon, Manalo dissenter)",
+      "Toru Saito (Japanese spouse)",
+      "Helen Bayog (Filipino spouse)",
+      "Mayor Takashi Yamaguchi (Minami-ku, Yokohama)",
+      "Vice Consul Kengo Fukasawa (Japanese Embassy, Manila)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Regional Trial Court of Tarlac City",
+      "Court of Appeals",
+      "Department of Foreign Affairs (DFA)",
+      "Office of the Mayor of Minami-ku, Yokohama City",
+      "Japanese Embassy in the Philippines",
+      "Civil Registry / Official Family Registry of Minami-ku (Japan)"
+    ],
+    "cases": [
+      "Republic v. Bayog-Saito (Aug. 17, 2022, J. Inting)",
+      "Republic v. Manalo (April 24, 2018, J. Peralta) -- with three dissents",
+      "Republic v. Galapon (Jan. 22, 2020, J. Caguioa)"
+    ],
+    "laws_treaties": [
+      "Family Code, Article 26 (second paragraph) -- capacity of Filipino spouse to remarry",
+      "Civil Code of Japan (English translation authenticated by DFA)",
+      "Code of Muslim Personal Laws of the Philippines (referenced -- Muslim Filipinos separately treated)",
+      "Family Code, Article 36 -- PI (referenced in parenthetical aside)"
+    ],
+    "events": [
+      "Aug. 30, 1999 -- marriage of Helen Bayog and Toru Saito in Pasay City",
+      "Oct. 16, 2012 -- divorce notification recorded in Minami-ku Official Family Registry",
+      "Aug. 17, 2022 -- SC ruling in Bayog-Saito"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Foreign divorces obtained by mixed couples -- by judicial or non-judicial bodies, for any cause, regardless of which spouse initiated -- are recognizable in the Philippines as long as the divorce is valid in the place where it was obtained.",
+      "rhetorical_move": "summary-rule statement at the top of the column",
+      "confidence": "asserted (settled doctrine)"
+    },
+    {
+      "claim": "Republic v. Bayog-Saito (Aug. 17, 2022) properly recognized a Japanese mayoral 'divorce notification' -- a non-judicial, uncontested process -- because the divorce is valid under Japanese law, allowing Helen Bayog to remarry just as Toru Saito may.",
+      "rhetorical_move": "case-application illustration of the rule",
+      "confidence": "endorsed"
+    },
+    {
+      "claim": "Divorce between Filipino couples remains invalid here regardless of where obtained and for whatever reason -- 'Once married, forever married.' Muslim Filipinos are governed by a separate law.",
+      "rhetorical_move": "doctrinal-limit statement",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Republic v. Manalo (April 24, 2018) correctly interpreted Article 26 to cover any divorce 'validly obtained by the alien spouse,' regardless of who initiated -- under both the verba legis canon and the purposive principle that statutes should be construed to carry out, not defeat, their ends.",
+      "rhetorical_move": "doctrinal-justification recital with twin canons",
+      "confidence": "asserted ('justified the liberal interpretation')"
+    },
+    {
+      "claim": "Republic v. Galapon (Jan. 22, 2020) properly extended Manalo by holding that the Filipino spouse may remarry where the divorce was obtained (i) by the foreign spouse, (ii) jointly, or (iii) solely by the Filipino spouse -- authored by Caguioa who had dissented from Manalo but was bound to obey it.",
+      "rhetorical_move": "stare-decisis discipline applied to the dissenting-author paradox",
+      "confidence": "endorsed"
+    }
+  ],
+  "notable_anecdotes": [
+    "Bayog-Saito's Japanese mayoral divorce: no court appearance required, just a 'divorce notification' with the written acquiescence of the Filipino spouse, recorded in the Official Family Registry of Minami-ku.",
+    "Five documentary requirements before the RTC of Tarlac City -- itemized to show the procedural rigor that remains even when the divorce itself is simple.",
+    "Caguioa as author of Galapon despite having dissented in Manalo -- 'dissented from -- but had to obey -- the ruling in Republic v. Manalo.'",
+    "Parenthetical advance billing of the PI column (which became A118 two months later).",
+    "Latin maxim 'Verba legis non est recedendum' -- used as the canon authorizing literal reading."
+  ],
+  "target_audience": [
+    "Filipino spouses of foreign nationals contemplating remarriage",
+    "Family-law practitioners and trial-court judges",
+    "Consular officers and DFA authenticators",
+    "Statutory-interpretation scholars",
+    "Inquirer readers seeking guidance on mixed-marriage dissolution"
+  ],
+  "register_markers": [
+    "doctrinal-explanatory register with case-tour structure",
+    "documentary-checklist register (five DFA-authenticated documents itemized)",
+    "Latin-maxim register ('Verba legis non est recedendum')",
+    "axiomatic close ('Once married, forever married') for Filipino-only marriages",
+    "small-caps emphasis ('THE SUPREME COURT'S LATEST DECISION,' 'DIVORCE BETWEEN FILIPINO COUPLES,' 'REPUBLIC V. MANALO')",
+    "comparative-doctrinal register (PH vs Japan)",
+    "advance-billing of next column (PI annulment column)"
+  ],
+  "decision_framework_signals": [
+    "validity-in-place-of-issuance test as the gateway for foreign-divorce recognition",
+    "any-initiator rule -- coverage regardless of which spouse initiated the proceeding",
+    "anomaly-avoidance principle (Filipino tied while alien remarries) as the equitable warrant",
+    "twin canons of interpretation: verba legis + purposive interpretation",
+    "documentary-rigor checklist for RTC recognition",
+    "stare-decisis discipline: dissenters bound to apply prior majority rulings"
+  ],
+  "one_paragraph_summary": "Panganiban catalogues how the Supreme Court has liberally interpreted Article 26 of the Family Code to recognize foreign divorces obtained by mixed couples -- by judicial or non-judicial bodies, for any cause, and regardless of which spouse initiated -- provided the divorce is valid in the place where it was obtained. The latest decision, Republic v. Bayog-Saito (Aug. 17, 2022, ponente Justice Henri Jean Paul B. Inting), recognizes the divorce granted by the mayor of Minami-ku, Yokohama City, Japan, based merely on a 'divorce notification' filed by Japanese husband Toru Saito with the written acquiescence of his Filipino wife Helen Bayog, and recorded in the Official Family Registry of Minami-ku -- no court appearance required. To obtain Philippine recognition, however, Helen had to submit five DFA-authenticated documents to the Tarlac City RTC: the Certificate of Marriage (Aug. 30, 1999, Pasay City), the Certificate of Acceptance of Divorce Notification by Mayor Takashi Yamaguchi (Oct. 16, 2012), the duly authenticated Family Register of Toru, the Divorce Certificate from Vice Consul Kengo Fukasawa at the Japanese Embassy, and pertinent provisions of the Civil Code of Japan with English translation. He stresses the limit: divorce between Filipino couples remains invalid here -- 'Once married, forever married,' with Muslim Filipinos under a separate law -- and advance-bills a future column on the liberalized PI doctrine. The animating principle of the liberalization is to avoid the 'anomaly that results ... from a Filipino spouse being tied to the marriage while the foreigner spouse is free to remarry.' Republic v. Manalo (April 24, 2018, Justice Peralta) justified the liberal reading on twin canons -- 'Verba legis non est recedendum' (no departure from statutory words) and the purposive principle that laws should be construed to carry out, not defeat, their ends. Republic v. Galapon (Jan. 22, 2020, Justice Caguioa, who had dissented from but had to obey Manalo) extended the rule: the Filipino spouse may remarry where the divorce was obtained (i) by the foreign spouse, (ii) jointly, or (iii) solely by the Filipino spouse.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

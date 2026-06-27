@@ -1,0 +1,140 @@
+{
+  "id": "CA283",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 283,
+  "title": "Making sense of the ICC brouhaha",
+  "date": "2018-02-18",
+  "link": "https://opinion.inquirer.net/111118/making-sense-icc-brouhaha",
+  "keywords": [
+    "ICC preliminary examination Philippines",
+    "Rome Statute motu proprio OTP",
+    "Fatou Bensouda war on drugs",
+    "complementarity principle",
+    "Pangalangan ICC judge"
+  ],
+  "primary_topics": [
+    "Correcting media inaccuracies on the ICC preliminary examination",
+    "ICC procedure: preliminary examination vs preliminary investigation",
+    "Complementarity as the cornerstone of the Rome Statute"
+  ],
+  "sub_topics": [
+    "Roque as only Filipino ICC defense counsel",
+    "Dr. Raul Pangalangan as only Filipino ICC judge",
+    "Three ways OTP can initiate: member-state, Security Council, motu proprio",
+    "Bensouda's motu proprio initiative -- not triggered by Jude Sabio's complaint",
+    "Sabio complaint: 77-page complaint re: Davao Death Squad vs Duterte and 11 officials",
+    "Edgar Matobato as confessed Davao Death Squad hitman",
+    "Bensouda's language: 'a number of communications and reports' not naming Duterte",
+    "Preliminary examination: examining information, not a formal investigation",
+    "Affidavits as 'inputs' not 'complaints'",
+    "OTP is proactive (unlike passive Philippine prosecutors)",
+    "Article 15: OTP must secure Pre-Trial Chamber approval before proceeding to preliminary investigation",
+    "Afghanistan example: preliminary exam started 2007, PTC sought 2017",
+    "ICC's becoming conduct: strict independence, no socializing between judges and lawyers",
+    "Article 17 complementarity: ICC declines if state is genuinely willing and able to prosecute",
+    "Philippines must show willingness and ability to genuinely investigate/prosecute to exclude ICC jurisdiction"
+  ],
+  "signature_phrases": [
+    "ICC brouhaha",
+    "becoming conduct",
+    "old-fashioned independence and integrity",
+    "arm's-length and deferential magistrate-lawyer relations",
+    "complementarity is the cornerstone of the Rome Statute",
+    "willing and able genuinely to carry out the investigation or prosecution",
+    "a number of communications and reports",
+    "not triggered by"
+  ],
+  "entities": {
+    "people": [
+      "Secretary Harry L. Roque Jr.",
+      "Dr. Raul C. Pangalangan (ICC judge, Roque's former professor)",
+      "Chief Prosecutor Fatou Bensouda (ICC)",
+      "Atty. Jude Sabio",
+      "Edgar Matobato (confessed Davao Death Squad hitman)",
+      "President Rodrigo Duterte",
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "International Criminal Court (ICC)",
+      "ICC Office of the Prosecutor (OTP)",
+      "ICC Pre-Trial Chamber",
+      "UN Security Council",
+      "University of the Philippines College of Law"
+    ],
+    "cases": [
+      "ICC preliminary examination of the Philippines' 'war on drugs' situation (initiated 2018)",
+      "ICC Afghanistan preliminary examination (started 2007; PTC sought 2017)"
+    ],
+    "laws_treaties": [
+      "Rome Statute (Article 15 -- PTC approval; Article 17 -- complementarity)",
+      "Philippines' membership in the ICC (prior to 2019 withdrawal)"
+    ],
+    "events": [
+      "Bensouda's video announcement of the preliminary examination",
+      "Jude Sabio's 77-page complaint submission to the OTP",
+      "Philippines' pending withdrawal from the ICC"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Media reports saying the OTP's preliminary examination was 'triggered by' or 'was the result of' the Sabio complaint are inaccurate -- it was initiated motu proprio by Bensouda herself.",
+      "rhetorical_move": "factual correction of media inaccuracy",
+      "confidence": "high"
+    },
+    {
+      "claim": "Bensouda did not specifically name Duterte or anyone else -- she announced examination of a 'situation in the Philippines' based on 'a number of communications and reports.'",
+      "rhetorical_move": "textual precision on what Bensouda actually said",
+      "confidence": "high"
+    },
+    {
+      "claim": "The OTP must still secure Pre-Trial Chamber approval before proceeding to a formal preliminary investigation -- and that process takes years (as shown by the Afghanistan example).",
+      "rhetorical_move": "procedural timeline context reducing urgency",
+      "confidence": "high"
+    },
+    {
+      "claim": "Complementarity is the cornerstone of the Rome Statute -- if the Philippines can show it is genuinely willing and able to investigate or prosecute, the ICC will not have jurisdiction.",
+      "rhetorical_move": "pragmatic defense option highlighted for the government",
+      "confidence": "high"
+    },
+    {
+      "claim": "The ICC is a judicial entity that observes strict independence and 'becoming conduct' -- judges, prosecutors, and lawyers do not socialize except in the courtroom.",
+      "rhetorical_move": "institutional-character note distinguishing the ICC from domestic political processes",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Secretary Roque's distinction as the only Filipino allowed to practice as defense counsel in the ICC -- a unique credential the author uses to introduce a gentle but pointed correction.",
+    "Dr. Raul Pangalangan as the only Filipino ICC judge -- also Roque's former UP law professor and dean who recruited Roque to the faculty; and father of FLP dissertation first-placer Raphael Lorenzo Pangalangan.",
+    "The Afghanistan example: OTP started a preliminary examination in 2007 but only sought PTC approval in 2017 -- a 10-year timeline used to contextualize the Philippines situation.",
+    "The ICC's 'becoming conduct' of old-fashioned independence: judges, prosecutors, and lawyers don't socialize outside the courtroom -- reminiscent of 1950s-60s Philippine magistrate-lawyer formality.",
+    "Bensouda's actual words: 'a number of communications and reports documenting alleged crimes potentially falling within the jurisdiction of the ICC' -- not naming Duterte or using the word 'complaint.'"
+  ],
+  "target_audience": [
+    "Secretary Roque and Malacañang managing the ICC situation",
+    "Media and journalists covering the ICC story",
+    "International law practitioners and scholars",
+    "Civic readership seeking accurate ICC procedure information",
+    "Philippines' legal team preparing a complementarity defense"
+  ],
+  "register_markers": [
+    "Correction-of-inaccuracies framing",
+    "Insider credentials deployed as authority ('with his leave, may I humbly clarify')",
+    "Rome Statute article-number citation",
+    "Comparative example (Afghanistan) for procedural timeline",
+    "ICC institutional culture description ('becoming conduct')",
+    "Complementarity as the practical closing prescription"
+  ],
+  "decision_framework_signals": [
+    "Distinguish what triggered a proceeding (motu proprio vs complaint) before assessing its implications",
+    "Read the OTP's actual announcement language precisely -- not what media characterizes it as",
+    "Contextualize ICC timelines with the Afghanistan precedent (years from examination to investigation)",
+    "Identify complementarity as the primary legal defense: demonstrate genuine domestic willingness and ability to investigate",
+    "Treat preliminary examination as a procedural starting point, not a finding or indictment",
+    "Respect the ICC's judicial independence -- it cannot be managed through political pressure"
+  ],
+  "one_paragraph_summary": "Correcting local media inaccuracies on the ICC preliminary examination, Panganiban notes that Secretary Roque -- the only Filipino ICC defense counsel -- and ICC Judge Dr. Raul Pangalangan (Roque's former UP law professor) have singular credentials on the ICC. Under the Rome Statute, the ICC's Office of the Prosecutor (OTP) may initiate a preliminary examination only on the request of a member-state, the UN Security Council, or motu proprio -- and Chief Prosecutor Bensouda's initiative was clearly motu proprio, not triggered by Jude Sabio's 77-page complaint against Duterte and 11 officials (in Bensouda's own words, based on 'a number of communications and reports'). A preliminary examination is merely a process of examining information to determine whether there is a reasonable basis to proceed further -- affidavits are 'inputs,' not 'complaints'; the OTP is proactive, unlike the Philippines' passive prosecutors. Before the OTP can proceed to a formal preliminary investigation, it must secure approval from the ICC Pre-Trial Chamber under Article 15 -- a process that can take years (the Afghanistan preliminary examination began in 2007 but the PTC approval was only sought in 2017). The ICC is a judicial entity observing strict 'becoming conduct' -- judges, prosecutors, and lawyers do not socialize except in the courtroom, reminiscent of 1950s-60s Philippine formality. Most crucially, complementarity is the Rome Statute's cornerstone (Article 17): the ICC will decline a case if the state is genuinely willing and able to investigate or prosecute -- so if the Philippines demonstrates genuine domestic action, the ICC will not have jurisdiction.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

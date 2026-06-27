@@ -1,0 +1,152 @@
+{
+  "id": "CA152",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 152,
+  "title": "The controversial ATA decision (2)",
+  "date": "2022-03-06",
+  "link": "https://opinion.inquirer.net/150687/the-controversial-ata-decision-2",
+  "keywords": [
+    "Anti-Terrorism Act",
+    "Calleja v. Executive Secretary",
+    "CJ Gesmundo separate opinion",
+    "strict scrutiny",
+    "facial challenge"
+  ],
+  "primary_topics": [
+    "Calleja v. Executive Secretary (Dec. 7, 2021, released Feb. 15, 2022) -- ATA constitutionality ruling",
+    "CJ Gesmundo's 199-page separate opinion (with 762 footnotes) firmly upholding the ATA's constitutionality",
+    "CJ Gesmundo's two outvoted-but-prevailing instances: Section 10 last paragraph and Section 25 'third mode of designation'",
+    "Strict scrutiny without overbreadth/vagueness as the appropriate level of judicial review",
+    "Government as the 'clear winner' overall, with only two ATA provisions struck (Section 4 proviso, Section 25 second mode)"
+  ],
+  "sub_topics": [
+    "Sequel context: last Sunday's column on the Carandang ponencia (235 pages, 560 footnotes)",
+    "Comparison: 11 justices wrote separate opinions totaling 640 pages",
+    "Gesmundo joined by Marquez on key arguments: ATA penalizes overt acts including 'speech integral to criminal conduct'; 'as-applied' challenges do not foreclose vagueness/overbreadth tests",
+    "Vote of 7-6 (with Gesmundo) to admit only 4 of 37 petitions and dismiss 33 outright",
+    "All four admitted petitions dismissed 'for lack of merit' after strict-scrutiny analysis without overbreadth/vagueness",
+    "9-6 vote upholding Section 10 last paragraph (membership in proscribed/UN-designated/'organized for terrorism' groups) -- Gesmundo's first win",
+    "Ponente Carandang's view: 'organized for the purpose of engaging in terrorism' is impermissibly vague -- CJ disagrees, citing Section 4's clear acts",
+    "8-7 vote upholding 'third mode of designation' in Section 25 (ATC may designate on probable cause; AMLC may freeze accounts) -- Gesmundo's second win",
+    "Two provisions actually struck: Section 4 PROVISO and Section 25 paragraph 2 'second mode of designation'",
+    "Author's verdict: government 'emerged the clear winner' though 'a little scathed'",
+    "Petitioners' 71-page Joint MR characterized as pale by comparison; advice to wage 'low-intensity, libertarian as-applied challenges'"
+  ],
+  "signature_phrases": [
+    "MASTERFULLY-CRAFTED AND DELIGHTFUL TO READ",
+    "the libertarian leanings of the ponencia",
+    "firmly upheld the constitutionality of ATA",
+    "In dealing with terrorism, we should utilize all possible kinds of legally available measures and approaches--pre-emptive, preventive, proactive, remedial, and rehabilitative",
+    "lest we defeat the legislative purpose and the objectives of our Constitution through overzealous legalism, imaginative speculation, or very narrow perspectives",
+    "DISMISS OUTRIGHT",
+    "NOT UNCONSTITUTIONAL",
+    "for lack of merit",
+    "speech integral to criminal conduct",
+    "AT BOTTOM",
+    "the government, IMHO, emerged the clear winner",
+    "a little scathed",
+    "With due respect",
+    "low-intensity, libertarian 'as applied' challenges"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Rosmari D. Carandang (J, ponente)",
+      "Alexander G. Gesmundo (CJ)",
+      "Jose Midas P. Marquez (J)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Anti-Terrorism Council (ATC)",
+      "Anti-Money Laundering Council (AMLC)",
+      "United Nations Security Council"
+    ],
+    "cases": [
+      "Calleja v. Executive Secretary (Dec. 7, 2021; released Feb. 15, 2022)"
+    ],
+    "laws_treaties": [
+      "Anti-Terrorism Act (ATA) -- Republic Act No. 11479",
+      "ATA Section 4 (definition of terrorism + proviso)",
+      "ATA Section 10 (membership / recruitment provisions, last paragraph)",
+      "ATA Section 25 (modes of designation by ATC)",
+      "ATA Section 26 (proscription)"
+    ],
+    "events": [
+      "Promulgation of Calleja v. Executive Secretary on Dec. 7, 2021",
+      "Release of decision on Feb. 15, 2022",
+      "Filing of petitioners' 71-page Joint Motion for Reconsideration"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "CJ Gesmundo's 199-page separate opinion (with 762 footnotes) is 'masterfully-crafted and delightful to read' -- firmly upholding the constitutionality of ATA in contrast to the libertarian leanings of the Carandang ponencia, and advocating the use of all 'legally available measures and approaches' against terrorism without 'overzealous legalism.'",
+      "rhetorical_move": "doctrinal-acknowledgement framing (acknowledging craftsmanship while taking a position)",
+      "confidence": "asserted with embedded direct quotes"
+    },
+    {
+      "claim": "Strict scrutiny -- without resort to overbreadth and vagueness -- is the appropriate level of judicial review for the ATA's challenged provisions; on this basis, even the four admitted petitions should be dismissed 'for lack of merit.'",
+      "rhetorical_move": "doctrinal-framework-positioning (rejecting wider-net challenge tools for narrower strict-scrutiny test)",
+      "confidence": "endorsed via Gesmundo opinion"
+    },
+    {
+      "claim": "Section 10's last paragraph (membership in proscribed or 'organized for the purpose of engaging in terrorism' organizations) is not unconstitutionally vague because Section 4's acts are clear and not subject to facial challenge -- CJ agrees with Gesmundo here, against the ponente.",
+      "rhetorical_move": "selective-agreement with CJ Gesmundo (specifying the exact instance of agreement)",
+      "confidence": "personally asserted"
+    },
+    {
+      "claim": "Section 25's 'third mode of designation' (ATC designation upon probable cause, triggering AMLC authority to freeze accounts) was rightly upheld 8-7.",
+      "rhetorical_move": "narrow-victory documentation",
+      "confidence": "documented with vote count"
+    },
+    {
+      "claim": "Only two ATA portions were struck -- Section 4's PROVISO and Section 25's 'second mode of designation' -- so the government 'emerged the clear winner' though 'a little scathed.'",
+      "rhetorical_move": "AT-BOTTOM scoreboard framing (counting up provisions to net the result)",
+      "confidence": "asserted as personal IMHO bottom-line"
+    },
+    {
+      "claim": "The petitioners' 71-page Joint Motion for Reconsideration is pale by comparison and should be pivoted to 'low-intensity, libertarian as-applied challenges' in the implementation of the ATA -- a strategic recommendation for civil-liberties advocates.",
+      "rhetorical_move": "strategic redirection ('with due respect' civil softening into practical advice)",
+      "confidence": "asserted with formal humility marker"
+    }
+  ],
+  "notable_anecdotes": [
+    "Quantitative dimension: Carandang ponencia 235 pages with 560 footnotes; Gesmundo separate opinion 199 pages with 762 footnotes (202 more); 11 justices wrote separate opinions totaling 640 pages -- making the column the second installment of a two-part deep dive.",
+    "Gesmundo's voted-and-prevailed instances: outvoted in many places, but won 9-6 on Section 10's last paragraph and 8-7 on the Section 25 'third mode of designation' -- CJ specifically highlights these two near-misses.",
+    "The 'organized for the purpose of engaging in terrorism' phrase in Section 10 was the ponente's vagueness target; CJ argues with Gesmundo that Section 4's clear acts make the phrase non-vague (one of the few places CJ takes a directly anti-libertarian position).",
+    "Gesmundo's bolded language: 'In dealing with terrorism, we should utilize all possible kinds of legally available measures and approaches--pre-emptive, preventive, proactive, remedial, and rehabilitative...' -- a five-mode terrorism-response framework reproduced verbatim.",
+    "Vote-of-7 'DISMISS OUTRIGHT' on 33 of 37 petitions 'for failure to satisfy the requirements of judicial review' -- and then dismissal even of the four admitted ones 'for lack of merit.'",
+    "Closing advice to civil-liberties petitioners: shift from facial challenges to 'low-intensity, libertarian as-applied challenges' as the ATA is enforced -- a strategic concession that frontal constitutional attack has failed but operational litigation remains viable."
+  ],
+  "target_audience": [
+    "Constitutional and human-rights lawyers",
+    "Civil-liberties advocates evaluating next litigation steps",
+    "Supreme Court watchers and academics",
+    "Government law-enforcement and ATC implementers",
+    "Inquirer general readership following the ATA cases"
+  ],
+  "register_markers": [
+    "Sequel-marker title ('(2)')",
+    "ALL-CAPS pivot openings ('MASTERFULLY-CRAFTED AND DELIGHTFUL TO READ,' 'TOGETHER WITH SIX JUSTICES,' 'FOR BEING IMPERMISSIBLY VAGUE,' 'AT BOTTOM')",
+    "Direct verbatim quotation of Gesmundo's bolded ATA-defense paragraph",
+    "ALL-CAPS-and-bold preservation note ('bold types in original,' 'bold types and caps in original,' 'all caps supplied')",
+    "Vote counts as scorecard ('9-6,' '8-7,' '7 vs.')",
+    "AT BOTTOM scoreboard summary",
+    "'With due respect' formal humility before disagreement",
+    "Latin-style strict-scrutiny doctrinal vocabulary",
+    "Strategic-advice closer ('low-intensity, libertarian as-applied challenges')",
+    "Self-reference to the prior Sunday's column ('Last Sunday, I took up...')"
+  ],
+  "decision_framework_signals": [
+    "uses page-count and footnote-count metrics as proxy for doctrinal weight (Gesmundo's 762 footnotes vs ponente's 560)",
+    "applies strict-scrutiny (without overbreadth/vagueness) as the doctrinal test of choice",
+    "distinguishes facial challenge from as-applied challenge -- strategic doctrinal recommendation for petitioners",
+    "scoreboards provisions struck-vs-upheld to determine the 'clear winner' net result",
+    "uses 'overt acts' / 'speech integral to criminal conduct' to draw the speech-vs-conduct line",
+    "frames terrorism response with five modes (pre-emptive, preventive, proactive, remedial, rehabilitative) as the policy frame for constitutional interpretation"
+  ],
+  "one_paragraph_summary": "In the second installment of his two-part deep dive into Calleja v. Executive Secretary (Dec. 7, 2021, released Feb. 15, 2022), Panganiban turns from Justice Carandang's 235-page ponencia (with 560 footnotes) to Chief Justice Alexander G. Gesmundo's 'masterfully-crafted and delightful to read' 199-page separate opinion (with 762 footnotes, 202 more than the ponencia), which firmly upholds the Anti-Terrorism Act's constitutionality in contrast to the ponencia's libertarian leanings. Gesmundo, advocating that 'we should utilize all possible kinds of legally available measures and approaches -- pre-emptive, preventive, proactive, remedial, and rehabilitative' against terrorism without 'overzealous legalism, imaginative speculation, or very narrow perspectives,' joined six other justices in voting to admit only four of 37 petitions and 'DISMISS OUTRIGHT' the remaining 33, then dismissed the four admitted petitions 'for lack of merit' using strict scrutiny without overbreadth/vagueness. With Justice Marquez, he argued that the ATA penalizes only overt acts including 'speech integral to criminal conduct,' and that as-applied challenges don't foreclose the use of vagueness/overbreadth as tools of scrutiny. Though outvoted in many places, Gesmundo prevailed in two: a 9-6 vote upholding Section 10's last paragraph on membership in proscribed or 'organized for the purpose of engaging in terrorism' organizations (where CJ Panganiban agrees with him against the ponente's vagueness finding), and an 8-7 vote upholding Section 25's 'third mode of designation' empowering the ATC to designate on probable cause and the AMLC to freeze accounts. AT BOTTOM, with only Section 4's PROVISO and Section 25 paragraph 2's 'second mode of designation' struck, 'the government, IMHO, emerged the clear winner' -- 'a little scathed' but intact -- and the petitioners' 71-page Joint Motion for Reconsideration 'pales in comparison' with the exhaustive opinions; their best path forward, with due respect, is to 'wage low-intensity, libertarian as-applied challenges' as the ATA is enforced.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

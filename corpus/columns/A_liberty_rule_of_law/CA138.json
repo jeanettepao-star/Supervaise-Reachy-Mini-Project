@@ -1,0 +1,172 @@
+{
+  "id": "CA138",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 138,
+  "title": "TRO on NCAP correct and proper",
+  "date": "2022-09-05",
+  "link": "https://opinion.inquirer.net/156663/tro-on-ncap-correct-and-proper",
+  "keywords": [
+    "no-contact apprehension policy",
+    "NCAP",
+    "TRO",
+    "due process",
+    "non-participant penalization",
+    "data privacy",
+    "LTO",
+    "SolGen Guevarra",
+    "rule of law shortcuts"
+  ],
+  "primary_topics": [
+    "Supreme Court's Aug 30, 2022 TRO halting NCAP implementation in five LGUs and the LTO's data-sharing",
+    "Three constitutional grounds for TRO: due process (no contest before penalty); oppressive penalization of registered owner not the actual driver; Data Privacy Act violation",
+    "Procedural soundness of an ex parte TRO when constitutional violations are alleged under oath",
+    "TRO as temporary, revocable, and not a prejudgment of the final decision",
+    "Welcome of new SolGen Menardo I. Guevarra and his 'baptism of fire'",
+    "Closing maxim: laudable purposes accomplished within the rule of law"
+  ],
+  "sub_topics": [
+    "LGUs concerned: Manila, Quezon City, Valenzuela, Parañaque, Muntinlupa",
+    "MMDA Resolution dated Feb 16, 2016 establishing NCAP",
+    "LTO's release of motorist information to LGUs",
+    "Petitioner counsel Juman Paa's plate-number demonstration of website data exposure",
+    "Right to due process; right against penalizing non-participant; right to privacy / Data Privacy Act",
+    "Standard for ex parte TRO: 'serious allegations under oath' + irreparable injury + no irremediable damage to public interest",
+    "10-day NON-EXTENDIBLE period for respondent Comment",
+    "Oral Arguments set for Jan 24, 2023",
+    "Acknowledged laudable intentions: discipline, anti-corruption, digitalization",
+    "Adage close: 'the road to hell is paved with good intentions'"
+  ],
+  "signature_phrases": [
+    "Legally correct and proper, IMHO",
+    "issued ex parte or without notice to the respondents",
+    "the two petitions' cogent allegations made under oath",
+    "violates, firstly, the constitutional right to due process",
+    "does not allow the alleged traffic violators sufficient time and opportunity",
+    "oppressive and unfair because it penalizes the registered owner of the vehicle instead of the driver",
+    "punishes a non-participant, an innocent person in an alleged crime",
+    "the NCAP crosses the right to privacy",
+    "without their prior consent in violation of the Data Privacy Act",
+    "any person can view the name of the vehicle's registered owner, address, and the number of traffic violations",
+    "Well-settled in jurisprudence",
+    "courts are granted sound discretion to stop the continued transgressions immediately",
+    "irreparable injury",
+    "to protect substantial rights",
+    "the interest of expediency, and without necessarily giving due course",
+    "moto proprio",
+    "feared constitutional or legal violations are baseless",
+    "a more overriding public interest",
+    "does not constitute a prejudgment",
+    "the respondents are entitled to due process",
+    "with, I hope, deliberate speed",
+    "well-respected counsel in the person of new Solicitor General Menardo I. Guevarra",
+    "nonpartisan justice secretary in the Duterte administration",
+    "first 'baptism of fire' as the tribune of the people",
+    "I am aware of the laudable intentions of the NCAP",
+    "there is a right way to do the right thing at the right time by the right person and for the right reasons",
+    "laudable purposes and programs should be accomplished within the parameters of the rule of law",
+    "Autocratic shortcuts done in violation of basic rights are abhorred in democratic societies",
+    "the road to hell is paved with good intentions"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Juman Paa (petitioner counsel)",
+      "Menardo I. Guevarra (Solicitor General; former DOJ Sec; former P-Noy deputy executive secretary for legal affairs)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Metropolitan Manila Development Authority (MMDA)",
+      "Land Transportation Office (LTO)",
+      "Office of the Solicitor General (OSG)",
+      "Local Government Units: Manila, Quezon City, Valenzuela, Parañaque, Muntinlupa",
+      "Department of Justice (referenced for Guevarra's prior tenure)"
+    ],
+    "cases": [
+      "Supreme Court TRO dated Aug 30, 2022 on NCAP"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution (due process; privacy)",
+      "Data Privacy Act of 2012 (Republic Act No. 10173)",
+      "Rules of Court (TRO/status-quo-ante provisions)",
+      "MMDA Resolution dated Feb 16, 2016 (NCAP)"
+    ],
+    "events": [
+      "Aug 30, 2022 SC issuance of TRO on NCAP",
+      "Oral Arguments scheduled Jan 24, 2023",
+      "Guevarra's appointment as Solicitor General"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Supreme Court's Aug 30, 2022 TRO on NCAP is legally correct, though issued ex parte, because the two petitions' sworn allegations of three constitutional violations are cogent and facially valid: due-process deprivation, penalization of the registered owner (a non-participant) instead of the actual driver, and a Data Privacy Act breach enabling public exposure of owner data via a plate-number lookup.",
+      "rhetorical_move": "three-ground constitutional-violation enumeration",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Well-settled jurisprudence grants courts sound discretion to halt continued transgressions immediately when sworn allegations of constitutional rights violations appear facially truthful and valid -- provided the halt does not cause irremediable damage to public interest.",
+      "rhetorical_move": "jurisprudential-standard articulation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The TRO is legally proper because the petitions show irreparable injury from continued enforcement, and under the Rules of Court a TRO is meant precisely to protect substantial rights and prevent continuous irremediable injury pending full hearing.",
+      "rhetorical_move": "rules-of-court procedural validation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The TRO is temporary and not a prejudgment of the final decision -- the SC may revoke, modify, or change it moto proprio if the respondents' 10-day non-extendible Comment or the Jan 24, 2023 Oral Arguments show fallacy in petitioners' allegations or a more overriding public interest.",
+      "rhetorical_move": "temporariness-and-reversibility caveat",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Solicitor General Menardo I. Guevarra -- distinguished nonpartisan DOJ Secretary in the Duterte administration and P-Noy deputy executive secretary for legal affairs -- is a well-respected counsel for the LTO, and this will be his first 'baptism of fire' as the tribune of the people.",
+      "rhetorical_move": "personnel-credit acknowledgment",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "NCAP's laudable intentions -- discipline, minimizing physical-apprehension corruption, digitalization -- must still be accomplished within the rule of law; autocratic shortcuts in violation of basic rights are abhorred in democratic societies, for 'the road to hell is paved with good intentions.'",
+      "rhetorical_move": "ends-vs-means rule-of-law close with adage",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Juman Paa plate-number demonstration -- that anyone can type a plate number into the LGU's NCAP website and view the registered owner's name, address, and number of violations -- turning an abstract privacy claim into a concrete demonstrable test.",
+    "The personnel-credit paragraph for SolGen Menardo I. Guevarra -- distinguished nonpartisan DOJ Sec in Duterte administration and P-Noy deputy executive secretary for legal affairs -- paired with the gentle 'baptism of fire' framing, modeling CJ's habit of professional warmth even when the institutional client (LTO) is on the losing side of the TRO.",
+    "The 'right way to do the right thing at the right time by the right person and for the right reasons' five-Rs aphorism -- a quintessentially CJ-style framework-as-aphorism device.",
+    "The closing adage -- 'the road to hell is paved with good intentions' -- invoked not as cliché but as the encapsulation of the column's ends-vs-means rule-of-law argument.",
+    "The non-participant framing of penalty under NCAP -- 'punishes a non-participant, an innocent person in an alleged crime' -- collapsing the entire vehicle-registration-vs-driver-identity critique into a single sentence."
+  ],
+  "target_audience": [
+    "MMDA, LTO, and LGU traffic-enforcement officers",
+    "Constitutional-law and privacy-law practitioners",
+    "Office of the Solicitor General",
+    "Civil libertarians and Data Privacy Act stakeholders",
+    "Motorists and registered vehicle owners",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "doctrinal-formal register with ALL-CAPS section openers ('THE TRO IS LEGALLY CORRECT,' 'THE TRO IS LEGALLY PROPER,' 'THE FOREGOING DISCUSSION')",
+    "'IMHO' humility marker",
+    "Latinism 'moto proprio'",
+    "Latinism 'ex parte'",
+    "respondents-also-entitled-to-due-process balance marker",
+    "'deliberate speed' implicit Brown-v-Board allusion",
+    "five-Rs aphorism device ('right way... right thing... right time... right person... right reasons')",
+    "closing-adage device ('the road to hell is paved with good intentions')",
+    "no Tagalog markers; constitutional-procedural English"
+  ],
+  "decision_framework_signals": [
+    "applies the three-ground constitutional-violation test (due process / non-participant penalization / Data Privacy Act)",
+    "uses the well-settled facial-validity-of-sworn-allegations standard for ex parte TROs",
+    "applies the irreparable-injury + no-irremediable-public-interest-damage balancing test",
+    "treats TRO as temporary, revocable, and explicitly non-prejudgmental",
+    "applies the laudable-ends-do-not-justify-unconstitutional-means principle",
+    "uses the five-Rs framework as the operational rule-of-law test",
+    "preserves personnel-credit for the institutional client even while their policy is restrained",
+    "applies adage-as-encapsulation device (the-road-to-hell)"
+  ],
+  "one_paragraph_summary": "Defending the Supreme Court's Aug 30, 2022 temporary restraining order on the no-contact apprehension policy (NCAP) -- which halted implementation by the LGUs of Manila, Quezon City, Valenzuela, Parañaque, and Muntinlupa under an MMDA Resolution dated Feb 16, 2016, and barred the LTO from sharing motorist information -- Panganiban explains why the TRO is both legally correct and legally proper. Although issued ex parte, it rests on the petitions' cogent sworn allegations of three constitutional violations: NCAP denies due process by not allowing alleged violators sufficient time to contest before penalty; it oppressively penalizes the registered owner of the vehicle (a non-participant, innocent person) instead of the actual driver; and it crosses the right to privacy because, as petitioner counsel Juman Paa demonstrated, anyone can type a plate number into the LGU website and view the owner's name, address, and violation history -- in violation of the Data Privacy Act. Well-settled jurisprudence grants courts sound discretion to halt such transgressions immediately when sworn allegations appear facially valid. The TRO is also procedurally proper to prevent irreparable injury pending full hearing, and is expressly temporary -- the SC may revoke, modify, or change it moto proprio if the respondents' 10-day non-extendible Comment, or the Jan 24, 2023 Oral Arguments, show fallacy in the petitions or a more overriding public interest. CJ welcomes new SolGen Menardo I. Guevarra -- distinguished nonpartisan DOJ Secretary under Duterte and deputy executive secretary for legal affairs under P-Noy -- to his 'baptism of fire' as the tribune of the people. He acknowledges NCAP's laudable intentions (discipline, anti-corruption, digitalization), but insists that 'there is a right way to do the right thing at the right time by the right person and for the right reasons' -- laudable purposes must be accomplished within the rule of law, because 'autocratic shortcuts done in violation of basic rights are abhorred in democratic societies, for as the adage goes, the road to hell is paved with good intentions.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

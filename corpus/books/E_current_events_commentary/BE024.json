@@ -1,0 +1,122 @@
+{
+  "id": "BE024",
+  "format": "B",
+  "type": "book",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 24,
+  "title": "With Due Respect (Vol. 6) -- Ch. 9: Exercise in Courage",
+  "date": "2010-07-18",
+  "link": "https://cjpanganiban.com/books-authored-by-chief-justice-artemio-v-panganiban/",
+  "keywords": [
+    "Exercise in Courage",
+    "PCOS",
+    "Smartmatic",
+    "source code",
+    "electoral protest",
+    "disenfranchisement",
+    "an exercise in courage",
+    "null/misread votes",
+    "lingering doubts about the Comelec-Smartmatic system",
+    "Mar Roxas",
+    "Jejomar Binay",
+    "Comelec Chair Jose A. R. Melo",
+    "past protestants Miriam Defensor-Santiago",
+    "Loren Legarda",
+    "Fernando Poe Jr",
+    "Aquilino Pimentel Jr",
+    "Aquilino 'Koko' Pimentel III",
+    "the Roxas v. Binay vice-presidential protest",
+    "1987 Constitution",
+    "Presidential Electoral Tribunal"
+  ],
+  "primary_topics": [
+    "Chapter 9 of 'With Due Respect' (Vol. 6) -- CJP's July 18, 2010 Inquirer column calling Mar Roxas's electoral protest against VP Jejomar Binay 'an exercise in courage,' given the 'herculean effort, enormous time, and humongous expense' (up to P50 million) and the fact that 'no one has won an electoral protest for any national position... since the 1987 Constitution'",
+    "The graveyard of past national protests -- Defensor-Santiago, Legarda and Pimentel Jr. dismissed for winning Senate seats, and Poe's dismissed as 'academic' on his death -- with only Koko Pimentel III's still pending alongside Roxas's",
+    "The substance of the Roxas protest -- about 2.6 million ballots the PCOS machines classified as 'null/misread,' which Roxas wants opened and manually recounted by PET revisors to reverse Binay's 727,084-vote lead, against Chairman Melo's claim that only the same machines can recount",
+    "Roxas's broader allegations that Comelec and Smartmatic disabled 'legally mandated safeguards' -- an un-reviewed and 'inadequate' source code, missing voter-verification, compromised audit trails, and compact flash cards 'reconfigured not to read votes' for him -- and CJP's aim to push for 'definitive answers' before the next PCOS election"
+  ],
+  "sub_topics": [
+    "The courage and the odds: prosecuting the protest 'requires herculean effort, enormous time, and humongous expense that could reach P50 million without any assurance of victory' -- indeed 'no one has won an electoral protest for any national position (president, vice president, and senator) since the 1987 Constitution took effect'",
+    "The cautionary precedents: Miriam Defensor-Santiago's protest against Ramos (1992) was dismissed when she became a senator (deemed to have abandoned her claim); Legarda's against de Castro (2004) was thrown out after she won a Senate seat; Poe's against Arroyo (2004) was dismissed as 'academic' on his death; and Pimentel Jr.'s against Enrile was dismissed on his own Senate win -- leaving only Koko Pimentel III's (vs. Zubiri) pending besides Roxas's",
+    "Why protests are tedious: they require 'the visual examination of the ballots' by teams of 'revisors,' plus forensic experts, all paid for by the litigants",
+    "The null/misread core: Roxas's 100-page protest covers about three million ballots, of which he claims 2.6 million were mis-handled as 'null/misread' -- where a voter abstained for VP, 'under shaded' the ovals, over-voted, or the machine simply 'omitted counting' -- and, since 'no human eye saw how the votes were appreciated by the PCOS machine,' he asks that the boxes be opened and manually recounted to avoid 'wholesale disenfranchisement of 2.6 million electors' and overtake Binay's 727,084-vote lead",
+    "The cost and the counter-protest: revising 2.6 million ballots would cost about five times Koko Pimentel's 500,000, and Binay would 'probably file a counter protest involving several million votes too' -- normal due process that makes protests 'tedious and expensive'",
+    "The manual-vs-machine question: Chairman Melo told media that automated ballots 'cannot be manually examined' and only the same PCOS machines can recount -- but Roxas 'is precisely contesting the accuracy of the machine count,' and the Supreme Court's April 27, 2010 Rules of Procedure for PCOS election contests 'expressly recognize manual revision of ballots'",
+    "The disabled-safeguards allegations: Roxas blames Comelec and Smartmatic for removing safeguards against 'system-wide electoral frauds' -- a source code never given the law-mandated 'independent review' (and found by SysTest Labs to be 'inadequate and not professionally written'), no voter-verification system, 'improper printing of official ballots,' missing ultraviolet security marks, compact flash cards distributed a week before the polls 'reconfigured not to read votes for' Roxas, a 'compromised' audit trail (wrong dates and times), and an 'improperly and irregularly conducted' random manual audit",
+    "CJP's purpose: 'not to divine whether Roxas will win or lose' but to encourage Roxas (and Binay in any counter-protest) to secure, 'within the limited time available,' definitive answers to the 'lingering doubts about the Comelec-Smartmatic system before we undertake another PCOS-automated election'"
+  ],
+  "signature_phrases": [
+    "an exercise in courage",
+    "no one has won an electoral protest for any national position... since the 1987 Constitution",
+    "null/misread votes",
+    "no human eye saw how the votes were appreciated by the PCOS machine",
+    "lingering doubts about the Comelec-Smartmatic system"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (columnist; former Chief Justice)",
+      "Mar Roxas and VP Jejomar Binay (the protest); Comelec Chair Jose A. R. Melo",
+      "past protestants Miriam Defensor-Santiago, Loren Legarda, Fernando Poe Jr., Aquilino Pimentel Jr. and Aquilino 'Koko' Pimentel III"
+    ],
+    "institutions": [
+      "the Presidential Electoral Tribunal (PET) and the Supreme Court",
+      "the Commission on Elections and Smartmatic; SysTest Labs (the source-code reviewer)"
+    ],
+    "cases": [
+      "the Roxas v. Binay vice-presidential protest",
+      "past protests: Defensor-Santiago v. Ramos, Legarda v. de Castro, Poe v. Arroyo, Pimentel v. Enrile, Pimentel III v. Zubiri"
+    ],
+    "laws_treaties": [
+      "1987 Constitution (electoral protests for national office)",
+      "the Supreme Court's Rules of Procedure for PCOS election contests (April 27, 2010)"
+    ],
+    "events": [
+      "the 2010 vice-presidential count dispute and the first automated-election protest"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Roxas's protest is 'an exercise in courage' against long odds -- costing up to P50 million with 'no assurance of victory,' since 'no one has won an electoral protest for any national position... since the 1987 Constitution.'",
+      "rhetorical_move": "odds-framing with precedent: setting the protest against a record of dismissals",
+      "confidence": "asserted as assessment"
+    },
+    {
+      "claim": "Because the PCOS classified 2.6 million ballots as 'null/misread' and 'no human eye saw how the votes were appreciated,' the boxes should be opened for manual revision -- which the Court's own April 27, 2010 PCOS rules 'expressly recognize,' contrary to Melo's machine-only claim.",
+      "rhetorical_move": "rule-citation rebuttal: countering the chairman with the Court's procedural rules",
+      "confidence": "asserted on the rules"
+    },
+    {
+      "claim": "The protest matters less for its winner than for forcing 'definitive answers' to the disabled-safeguard allegations (un-reviewed source code, reconfigured flash cards, compromised audit trail) 'before we undertake another PCOS-automated election.'",
+      "rhetorical_move": "reframing-purpose: elevating system accountability over the personal contest",
+      "confidence": "asserted as the real stake"
+    }
+  ],
+  "notable_anecdotes": [
+    "Zero national wins since 1987: CJP notes no protestant for president, VP or senator has prevailed since 1987 -- Santiago, Legarda and Pimentel all dismissed for winning Senate seats, Poe's mooted by death.",
+    "2.6 million 'null/misread': he explains Roxas's claim that the PCOS misclassified 2.6 million ballots -- abstentions, under-shaded ovals, over-votes, or omissions 'no human eye' could check.",
+    "Melo vs. the Court's rules: he flags that while Chairman Melo said automated ballots 'cannot be manually examined,' the Court's April 27, 2010 PCOS rules 'expressly recognize manual revision.'",
+    "Flash cards 'reconfigured': he lists Roxas's allegation that compact flash cards distributed a week before the polls were 'reconfigured not to read votes' for him, among compromised safeguards."
+  ],
+  "target_audience": [
+    "Inquirer readers following the Roxas-Binay protest",
+    "Election lawyers and the PET",
+    "Reform advocates scrutinizing the PCOS system"
+  ],
+  "register_markers": [
+    "current-events legal-explainer register",
+    "precedent survey of national protests",
+    "technical detail (null/misread, source code, audit trail)",
+    "rule-vs-official rebuttal (PCOS revision rules)",
+    "accountability-over-outcome framing"
+  ],
+  "decision_framework_signals": [
+    "courage-against-odds: national protests rarely succeed, yet accountability demands them",
+    "manual-revision is allowed: the Court's PCOS rules trump a machine-only stance",
+    "verify-the-count: 'no human eye' saw the PCOS appreciation of 2.6 million ballots",
+    "safeguards-must-hold: source-code review, audit trails and secure flash cards",
+    "settle-doubts-before-the-next-election, regardless of who wins"
+  ],
+  "one_paragraph_summary": "Chapter 9 of 'With Due Respect' (Vol. 6), CJP's July 18, 2010 Inquirer column, calls Mar Roxas's electoral protest against VP Jejomar Binay 'an exercise in courage,' demanding 'herculean effort, enormous time, and humongous expense' (up to P50 million) with 'no assurance of victory' -- for 'no one has won an electoral protest for any national position... since the 1987 Constitution.' He surveys the graveyard of national protests (Defensor-Santiago, Legarda and Pimentel Jr. dismissed on winning Senate seats; Poe's mooted by death), leaving only Koko Pimentel III's pending alongside Roxas's. The Roxas protest, over 100 pages and about three million ballots, claims 2.6 million were mis-handled as 'null/misread' -- abstentions, 'under shaded' ovals, over-votes, or machine omissions -- and, since 'no human eye saw how the votes were appreciated by the PCOS machine,' asks that the boxes be opened and manually recounted by PET revisors to avoid 'wholesale disenfranchisement' and overtake Binay's 727,084-vote lead. Revising 2.6 million ballots would cost about five times Koko Pimentel's 500,000, and Binay would likely counter-protest -- making the process 'tedious and expensive.' On the novel manual-vs-machine question, Chairman Melo said automated ballots 'cannot be manually examined' and only the same PCOS can recount, but CJP notes Roxas 'is precisely contesting the accuracy of the machine count' and that the Court's April 27, 2010 PCOS rules 'expressly recognize manual revision.' Roxas further alleges Comelec and Smartmatic disabled 'legally mandated safeguards': a source code never given the required 'independent review' (and found 'inadequate and not professionally written'), no voter-verification, 'improper printing of official ballots,' missing ultraviolet marks, compact flash cards 'reconfigured not to read votes' for him, a 'compromised' audit trail, and an irregular random manual audit. CJP writes 'not to divine whether Roxas will win or lose' but to push both camps to secure 'definitive answers to lingering doubts about the Comelec-Smartmatic system before we undertake another PCOS-automated election.'",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

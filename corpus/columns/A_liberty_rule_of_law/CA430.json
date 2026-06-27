@@ -1,0 +1,171 @@
+{
+  "id": "CA430",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 430,
+  "title": "Freedom of information",
+  "date": "2013-12-28",
+  "link": "https://opinion.inquirer.net/68367/freedom-of-information-3",
+  "keywords": [
+    "sovereignty",
+    "constitution",
+    "rule of law",
+    "geopolitics",
+    "Supreme Court"
+  ],
+  "primary_topics": [
+    "Annex on Power Sharing of Framework Agreement on the Bangsamoro (FAB) signed Dec 8 2013 -- significant peace milestone with MILF",
+    "Birth-pains metaphor -- Prof. Miriam Coronel-Ferrer (Philippine panel chair): 'laborious document' carried 'in our wombs' for 16 months",
+    "Asymmetry of secessionist negotiations -- rebels not constrained by Constitution, government negotiators are duty-bound to it",
+    "Constitutional supremacy as design principle -- careful FAB wording avoiding independence/secession implications",
+    "North Cotabato v. Republic (Oct 14 2008) MOA-AD strikedown as cautionary precedent",
+    "Three-foreign-peace-model contrast -- Machakos South Sudan referendum + Good Friday Agreement Northern Ireland + 1965 Malaysia-Singapore separation",
+    "FAB three-power-categories -- Reserved Powers (Central) + Concurrent Powers (shared) + Exclusive Powers (Bangsamoro)",
+    "Ministerial Bangsamoro government -- chief minister elected by Bangsamoro Assembly (50+ members)",
+    "Federalized-parliamentary harmonization with PH presidential system as conceptual and implementation challenge"
+  ],
+  "sub_topics": [
+    "Machakos Agreement (2002) gave South Sudan 'right to self-determination through referendum'",
+    "Good Friday Agreement (1998) -- referendum-based Northern Ireland secession-to-Ireland option",
+    "Malaysia 1965 Singapore separation (Lee Kuan Yew tearful) as illustrative parallel",
+    "Bangsamoro Basic Law (BBL) to be enacted by Congress + approved by President",
+    "Constitutional challenge to FAB may be premature until BBL passage and approval",
+    "Malaysia as MILF peace-process official facilitator -- federalized parliamentary government parallel observed",
+    "Sedfrey Candelaria (Ateneo Law dean, CJP Professorial Chair on Liberty and Prosperity) lecture citation -- 'peace agreement remains vulnerable to constant test of public scrutiny at every stage of its implementation'",
+    "Fourth and last annex on normalization forecast for February signing (Ferrer projection)"
+  ],
+  "signature_phrases": [
+    "The recent signing of the Annex on Power Sharing of the Framework Agreement on the Bangsamoro (FAB) is a significant milestone in the elusive search for lasting peace",
+    "Birth pains",
+    "the laborious document was carried in our wombs for 16 months, and after the labor pains, we heaved our collective sigh of relief",
+    "the most difficult part of any negotiation to end an armed conflict with secessionist undertones is the determination of what powers to cede to the rebels",
+    "rebels do not usually recognize the legitimacy of the government and the Constitution overarching it",
+    "government negotiators are necessarily limited by the Constitution",
+    "should they stray beyond its parameters, all their grand intentions and laborious pains would be for naught because the Supreme Court will strike down the peace agreement",
+    "Constitutional supremacy",
+    "Aware of this constitutional danger, our negotiators, I think, have been careful in wording the FAB and its annexes",
+    "the right to self-determination, inter alia, through a referendum to determine their future status",
+    "Neither did they include separation of the Bangsamoro, as Malaysia did to Singapore in 1965",
+    "the annex merely detailed the particular competencies and authorities of the Central Government and the Bangsamoro Government",
+    "Reserved powers / Concurrent Powers / Exclusive Powers",
+    "I got the impression that this delineation of powers is more akin to a federalized parliamentary government like that of Malaysia, which by the way is the official facilitator",
+    "the Bangsamoro government will be ministerial in structure",
+    "Governmental harmony",
+    "the underlying supremacy of the Constitution, quite a refreshing departure from the Sudanese and Irish peace models",
+    "any constitutional challenge to the FAB and its annexes may be premature",
+    "How this can be harmonized with the centralized presidential type of government in the Philippines would be quite a hurdle, both conceptually in the basic law and practically in its implementation",
+    "a peace agreement, no matter how well crafted, remains vulnerable to the constant test of public scrutiny at every stage of its implementation",
+    "May our people be gifted with lasting peace as the New Year dawns"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Prof. Miriam Coronel-Ferrer (Philippine peace-panel chair)",
+      "MILF leadership (implied)",
+      "Dean Sedfrey Candelaria (Ateneo Law, CJP Professorial Chair on Liberty and Prosperity)",
+      "Former President Gloria Macapagal-Arroyo (MOA-AD context)",
+      "Lee Kuan Yew (Singapore-separation context)"
+    ],
+    "institutions": [
+      "Moro Islamic Liberation Front (MILF)",
+      "Philippine peace-negotiating panel",
+      "Government of the Philippines (Central Government)",
+      "Bangsamoro Government (to be created)",
+      "Bangsamoro Assembly (50+ members)",
+      "Congress (BBL enactor)",
+      "Supreme Court (peace-agreement strike-down power)",
+      "Malaysia (MILF peace-process official facilitator + federalized parliamentary parallel)",
+      "Foundation for Liberty and Prosperity (Professorial Chairs)"
+    ],
+    "cases": [
+      "North Cotabato v. Republic (Oct 14 2008) -- MOA-AD strikedown by SC"
+    ],
+    "laws_treaties": [
+      "Framework Agreement on the Bangsamoro (FAB)",
+      "Annex on Power Sharing of FAB (signed Dec 8 2013)",
+      "Memorandum of Agreement on Ancestral Domain (MOA-AD, 2008 -- struck down)",
+      "Machakos Agreement (2002, Sudan-South Sudan)",
+      "Good Friday Agreement (1998, Northern Ireland)",
+      "1965 Malaysia-Singapore separation (historical parallel)",
+      "1987 Constitution (supremacy framework)",
+      "Bangsamoro Basic Law (BBL -- pending Congress + Presidential approval)"
+    ],
+    "events": [
+      "Dec 8 2013 FAB Annex on Power Sharing signing",
+      "16-month FAB drafting period",
+      "Forecast February signing of fourth annex on normalization",
+      "Sedfrey Candelaria FLP Professorial Chair lecture (referenced)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Annex on Power Sharing of FAB is a significant milestone but its 16-month gestation was characterized by birth pains because the most difficult part of any negotiation with secessionist undertones is determining what powers to cede -- rebels don't recognize the Constitution, but government negotiators are duty-bound to it, on pain of SC strike-down.",
+      "rhetorical_move": "constitutional-asymmetry framing of peace negotiations",
+      "confidence": "asserted as structural insight"
+    },
+    {
+      "claim": "The PH negotiators were careful to word the FAB and its annexes to avoid any grant of independence or right of secession -- avoiding the Machakos South Sudan (referendum-for-self-determination), Good Friday Northern Ireland (referendum-to-secede-to-Ireland), and 1965 Malaysia-Singapore (separation) models -- recognizing instead the sovereignty of the Philippines, its Constitution, and its legal processes.",
+      "rhetorical_move": "three-foreign-model contrast highlighting PH constitutional-supremacy",
+      "confidence": "asserted with comparative-precedent analysis"
+    },
+    {
+      "claim": "The annex's three-power categorization (Reserved + Concurrent + Exclusive) and ministerial-Bangsamoro-government structure resembles a federalized parliamentary government like Malaysia (the official facilitator of the MILF peace process) -- and harmonizing this with the PH's centralized presidential system will be a hurdle, both conceptually in drafting the basic law and practically in implementing it.",
+      "rhetorical_move": "federalized-parliamentary identification + harmonization-challenge framing",
+      "confidence": "asserted as analytical impression"
+    },
+    {
+      "claim": "That the basic law must be passed by Congress connotes Constitutional supremacy (a refreshing departure from the Sudanese and Irish peace models that resulted in South Sudan becoming an independent state that eventually declared war on Sudan) -- and means any constitutional challenge to the FAB and its annexes may be premature until BBL passage and Presidential approval, because it is the basic law that will create and govern Bangsamoro, not the FAB and its annexes.",
+      "rhetorical_move": "premature-challenge + constitutional-supremacy-via-Congress framing",
+      "confidence": "asserted with foreign-failure cautionary tale"
+    },
+    {
+      "claim": "Per Dean Sedfrey Candelaria (FLP Professorial Chair holder), 'a peace agreement, no matter how well crafted, remains vulnerable to the constant test of public scrutiny at every stage of its implementation' -- and a deeper study is needed to intertwine the two contrasting types of democratic governance if cherished peace must endure.",
+      "rhetorical_move": "Candelaria-citation + cherished-peace closing",
+      "confidence": "asserted with academic-citation"
+    }
+  ],
+  "notable_anecdotes": [
+    "Coronel-Ferrer's birth-pains metaphor -- 'laborious document carried in our wombs for 16 months, and after the labor pains, we heaved our collective sigh of relief' -- among the most vivid negotiator's quotes in the CJP peace-process columns.",
+    "The three-foreign-peace-model contrast (Machakos South Sudan + Good Friday Northern Ireland + 1965 Malaysia-Singapore) -- concise comparative-constitutional precedent-handling that anchors the constitutional-supremacy argument.",
+    "The cautionary tale about South Sudan -- 'an independent South Sudan that eventually declared war on Sudan, its parent-state' -- used as the punchline of why PH chose the constitutional-supremacy path rather than the referendum path.",
+    "The federalized-parliamentary-with-Malaysia-as-facilitator-irony observation -- Malaysia, whose government structure is being replicated in Bangsamoro, is also the official facilitator of the MILF peace process -- a sharp comparative-institutional insight.",
+    "Dean Candelaria's quoted aphorism on peace-agreement vulnerability to public-scrutiny at every stage of implementation -- a Professorial Chair holder's epigram CJP folds into his FLP-aligned closing.",
+    "The 'May our people be gifted with lasting peace as the New Year dawns' closing -- among CJP's seasonal closings in his December columns, here applied to a peace process rather than a Catholic-liturgical context."
+  ],
+  "target_audience": [
+    "Inquirer general readership tracking Bangsamoro peace process",
+    "Mindanao readers and MILF-area stakeholders",
+    "Constitutional law scholars (FAB constitutionality dimension)",
+    "Peace-process negotiators and observers",
+    "Comparative-government scholars (federalized-parliamentary vs presidential)",
+    "Catholic readers seeking peace-themed New Year framing"
+  ],
+  "register_markers": [
+    "The recent signing news-current opening",
+    "Birth pains section header with Ferrer-quote anchoring",
+    "Indeed, the most difficult part structural-insight register",
+    "Otherwise, should they stray cautionary-conditional register",
+    "Constitutional supremacy section header",
+    "Aware of this constitutional danger negotiator-attribution register",
+    "Quite the contrary contrast pivot",
+    "Essentially, the annex delineated structural-summary register",
+    "Perusing the annex, I got the impression authorial-impression register",
+    "Governmental harmony section header",
+    "First, / Second sequential-significance scaffolding",
+    "More on Dean Candelaria's thesis later forward-promise register",
+    "May our people be gifted with lasting peace as the New Year dawns seasonal closing"
+  ],
+  "decision_framework_signals": [
+    "uses constitutional-asymmetry framework (rebels-unconstrained-vs-government-bound) for peace negotiations",
+    "applies three-foreign-model contrast (Machakos + Good Friday + 1965 Malaysia-Singapore) to highlight PH constitutional-supremacy choice",
+    "deploys MOA-AD strike-down precedent (North Cotabato v. Republic) as cautionary anchor",
+    "identifies federalized-parliamentary-government parallel (Malaysia as model and facilitator)",
+    "treats three-power categorization (Reserved + Concurrent + Exclusive) as governance-architecture frame",
+    "uses premature-constitutional-challenge + Congress-must-enact-BBL framing",
+    "closes with Candelaria-cited vulnerability-to-public-scrutiny + harmonization-challenge thesis"
+  ],
+  "one_paragraph_summary": "Panganiban analyzes the Dec 8 2013 signing of the Annex on Power Sharing of the Framework Agreement on the Bangsamoro (FAB) as a significant milestone in the elusive search for lasting peace with the MILF. Prof. Miriam Coronel-Ferrer, the Philippine peace-panel chair, described the 'laborious document' as carried 'in our wombs' for 16 months, with collective relief after the labor pains. He explains the structural difficulty of any negotiation with secessionist undertones: rebels do not recognize the legitimacy of the government or the Constitution overarching it, so their demands are not constrained by the Charter, while government negotiators are duty-bound to it -- on pain of SC strike-down, as in North Cotabato v. Republic (Oct 14 2008), which voided the GMA-administration MOA-AD with the MILF. He observes that the PH negotiators were careful to word the FAB and its annexes to avoid any implication of independence or secession -- they did not include anything similar to the Machakos Agreement (2002), which gave South Sudan the right to self-determination through referendum; nor the Good Friday Agreement (1998), which provided that upon a referendum Northern Ireland may secede from the UK and join Ireland; nor the 1965 Malaysia-Singapore separation. Instead the FAB recognizes the sovereignty of the Philippines, its Constitution, and its legal processes. The annex delineates three governmental power categories: Reserved Powers (retained by the Central Government), Concurrent Powers (shared), and Exclusive Powers (Bangsamoro). The Bangsamoro government will be ministerial in structure, headed by a chief minister elected by a Bangsamoro Assembly of at least 50 members -- a federalized-parliamentary-government structure akin to Malaysia (which is by the way the official facilitator of the MILF peace process). That the basic law must be passed by Congress connotes Constitutional supremacy -- a refreshing departure from the Sudanese and Irish models, the former having resulted in an independent South Sudan that eventually declared war on Sudan, its parent-state -- and means any constitutional challenge to the FAB and its annexes may be premature until the Bangsamoro Basic Law (BBL) is passed by Congress and approved by the President, because it is the BBL that will create and govern the Bangsamoro. He flags the harmonization hurdle: how to fit a ministerial-federalized-parliamentary Bangsamoro government inside the PH's centralized presidential system, both conceptually in the BBL and practically in implementation. Citing Dean Sedfrey Candelaria (CJP Professorial Chair on Liberty and Prosperity), 'a peace agreement, no matter how well crafted, remains vulnerable to the constant test of public scrutiny at every stage of its implementation.' He looks forward to the fourth and last annex on normalization (Ferrer's February forecast) and closes: May our people be gifted with lasting peace as the New Year dawns.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

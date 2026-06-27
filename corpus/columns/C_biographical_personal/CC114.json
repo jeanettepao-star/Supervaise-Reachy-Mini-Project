@@ -1,0 +1,110 @@
+{
+  "id": "CC114",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 114,
+  "title": "Union of hearts and wealth",
+  "date": "2011-06-11",
+  "link": "https://opinion.inquirer.net/6143/union-of-hearts-and-wealth",
+  "keywords": [
+    "absolute community of property",
+    "prenuptial agreement",
+    "conjugal partnership of gains",
+    "Family Code",
+    "marriage settlement",
+    "marital privilege",
+    "property regime",
+    "divorce"
+  ],
+  "primary_topics": [
+    "The legal framework governing marital property relations in the Philippines: the default absolute community of property system under the Family Code and its exclusions",
+    "How to avoid the default system: prenuptial agreements (marriage settlements) and the conjugal partnership of gains as the most commonly chosen alternative",
+    "Marital evidentiary privileges and the legal effects of saying I do on property ownership"
+  ],
+  "sub_topics": [
+    "Column triggered by divorce as a current buzzword -- CJ first addresses the beginning of marriage before writing about its termination",
+    "Marital evidentiary privilege: during marriage or after dissolution, a spouse cannot be examined without the other consent as to any communication received during marriage; neither can testify for or against the other without consent (except in civil or criminal cases filed by one against the other)",
+    "Absolute community of property (default under Family Code): all property owned prior to marriage or acquired thereafter ipso facto becomes commonly/jointly owned; titles remaining in one name do not change the communal nature",
+    "Land, condominiums, cars, bank deposits, jewelry automatically become communal upon saying I do",
+    "Exclusions from joint ownership: (1) property for personal use (clothing, shoes, cosmetics); (2) property acquired by gratuitous title during marriage; (3) property of widow/widower with legitimate children by former marriage",
+    "Widow/widower must liquidate and distribute estate of deceased spouse within six months -- otherwise mandatory complete separation of property governs subsequent marriage",
+    "Administration: both spouses jointly; neither may sell, mortgage or donate communal asset without other consent; either may exercise profession without consent of other (other may object only on valid, serious and moral grounds); but income derived is communal",
+    "Prenuptial agreement: in writing, signed before wedding; can agree on any regime; cannot be revised after the wedding -- like the marriage vow",
+    "Conjugal partnership of gains (prior to Family Code Aug. 3, 1988): each spouse retains ownership of separate assets; but products, fruits, rentals and income from separate profession accrue to common fund; conjugal partnership most commonly opted in marriage settlements",
+    "Man and woman who live as husband and wife without benefit of marriage or under void marriage: wages owned in equal shares; property acquired through joint effort owned in equal shares; BUT if one is validly married to another, his/her share accrues to the absolute community or conjugal partnership of that valid marriage"
+  ],
+  "signature_phrases": [
+    "Divorce is a current buzzword in the public discourse",
+    "When a groom and a bride exchange I do's, the law instantly takes over their personal and property relationship",
+    "Union of wallets",
+    "ipso facto become commonly or jointly owned by both spouses",
+    "By saying I do, each of the spouses automatically loses sole ownership",
+    "the absolute community of property",
+    "Like the marriage vow, the marriage settlement cannot be ended or modified even by mutual agreement after the wedding",
+    "The regime most commonly opted by those who enter into marriage settlements is the conjugal property of gains"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban"
+    ],
+    "institutions": [
+      "Family Code of the Philippines (primary legal basis)",
+      "Supreme Court of the Philippines (jurisprudence)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Family Code of the Philippines (effective Aug. 3, 1988) -- absolute community of property, conjugal partnership of gains, prenuptial agreements",
+      "Rules of Court (marital evidentiary privilege)"
+    ],
+    "events": [
+      "Family Code effectivity: August 3, 1988 (dividing line between conjugal partnership auto-coverage and absolute community auto-coverage)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Family Code default absolute community of property means that by saying I do, each spouse automatically loses sole ownership of all property owned before the marriage -- even assets whose titles remain in only one name -- making pre-wedding legal planning crucial.",
+      "rhetorical_move": "ipso-facto-community-as-warning about the automatic and comprehensive nature of the default property regime",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The prenuptial agreement is the only way to avoid the all-embracing default system, and must be executed in writing before the wedding -- it cannot be modified after the wedding, like the marriage vow itself.",
+      "rhetorical_move": "prenuptial-agreement-as-the-only-escape-route from the default system",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The conjugal partnership of gains -- where each spouse retains ownership of separate assets but their income and fruits accrue to a common fund -- is the most commonly chosen alternative in marriage settlements.",
+      "rhetorical_move": "conjugal-partnership-as-the-most-practical-alternative",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The instant property-loss upon saying I do: a spouse automatically loses sole ownership of all property owned before the marriage -- even if titles remain registered in only one name -- making the wedding vow a legal transfer of co-ownership without any further act.",
+    "The widow/widower liquidation deadline: must distribute the estate of the deceased spouse within six months of death -- failure automatically triggers complete separation of property for any subsequent marriage.",
+    "The prenuptial agreement being like the marriage vow itself: cannot be ended or modified even by mutual agreement after the wedding -- reflecting the Family Code philosophy that property consequences are as permanent as the marriage itself."
+  ],
+  "target_audience": [
+    "Engaged couples and their families planning the property aspects of the upcoming marriage",
+    "Lawyers advising clients on prenuptial agreements and property regimes",
+    "Widows and widowers planning or entering subsequent marriages",
+    "Civic readers following the divorce law debate"
+  ],
+  "register_markers": [
+    "union-of-wallets as CJ playful property-regime sub-heading parallel to union of hearts",
+    "divorce-as-buzzword-opening repositioning the column to address the beginning before the end of marriage",
+    "ipso-facto-community as the legal-automatic-consequence register",
+    "by-saying-I-do as the ceremony-as-legal-trigger register",
+    "like-the-marriage-vow characterization of prenuptial agreement irrevocability",
+    "most-commonly-opted as the practical-popular-choice marker for conjugal partnership"
+  ],
+  "decision_framework_signals": [
+    "applies ipso-facto-community-as-warning to explain the comprehensive automatic nature of the default regime",
+    "uses pre-wedding-execution requirement to establish the timing constraint on prenuptial agreements",
+    "treats irrevocability-like-marriage-vow as the key normative principle of prenuptial agreements",
+    "frames conjugal-partnership-most-commonly-opted as the empirical guide for readers choosing alternatives",
+    "deploys six-month-liquidation-deadline as the consequence of failing to timely settle deceased spouse estate"
+  ],
+  "one_paragraph_summary": "Panganiban introduces the column as a prelude to the ongoing divorce debate -- before addressing marriage's termination, he first writes about its beginning and its property consequences. The law 'instantly takes over' upon the exchange of vows: the default regime under the Family Code is the absolute community of property, under which all property owned by either spouse before the marriage -- or acquired thereafter -- ipso facto becomes jointly owned, even if titles remain in only one name. Land, condominiums, cars, bank deposits, jewelry and other assets all become communal upon saying 'I do.' The marital evidentiary privilege also kicks in: a spouse cannot testify for or against the other without consent (except in civil or criminal cases filed by one against the other). Exclusions include personal-use property, property acquired by gratuitous title (donations) during marriage, and a widow or widower's property where legitimate children by the prior marriage stand to inherit (subject to a six-month liquidation deadline, failing which complete separation governs any subsequent marriage). Neither spouse may sell, mortgage or donate communal assets without the other's consent; but each may practice their profession, with the income becoming communal. The only escape is a prenuptial agreement -- in writing, signed before the wedding, irrevocable after it (like the marriage vow itself). The most commonly chosen alternative is the conjugal partnership of gains (the regime before the Family Code's August 3, 1988 effectivity): each spouse retains ownership of separate assets, but their income, fruits, and rentals accrue to a common fund.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

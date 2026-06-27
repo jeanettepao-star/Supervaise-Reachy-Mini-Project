@@ -1,0 +1,171 @@
+{
+  "id": "CE089",
+  "format": "C",
+  "type": "column",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 89,
+  "title": "Macho power vs woman power",
+  "date": "2016-05-01",
+  "link": "https://opinion.inquirer.net/94532/macho-power-vs-woman-power",
+  "keywords": [
+    "Side-by-side candidate quotes survey column May 1 2016",
+    "Duterte vs Poe macho-vs-mother framing",
+    "Marcos vs Robredo vision-vs-mother framing",
+    "Trump-Clinton US parallel",
+    "quotes on peace and order, corruption, poverty (4Ps), SCS jet ski quip, the Davao 'rape joke,' VP role",
+    "partial transcript-style column"
+  ],
+  "primary_topics": [
+    "Duterte-Marcos macho power vs Poe-Robredo woman power phenomenon",
+    "Trump-Clinton parallel in US presidential primaries",
+    "Direct candidate quotations on peace and order, corruption, poverty alleviation, foreign relations, women",
+    "Marcos vs Robredo VP candidate quotation comparison",
+    "Contrast in tone: macho hyperbolic/brash vs woman polished/compassionate/motherly"
+  ],
+  "sub_topics": [
+    "Pulse Asia + SWS surveys showing DD and BM as candidates to beat",
+    "GP and LR as closest credible chances to overtake",
+    "Macho: strong-willed, hyperbolic, magnetic, unorthodox, brash",
+    "Woman: polished, compassionate, motherly, loving, humble",
+    "US parallel: Trump-Clinton -- sweep of Northeast primaries",
+    "Uncanny typing of macho power vs woman power",
+    "DD peace and order: 'three to six months' to eliminate crime/drugs/corruption",
+    "DD threat: 'it will be bloody... I will order the killing of all criminals'",
+    "DD policy: recommend Congress restore death penalty by hanging in public",
+    "GP peace and order: 'As a mother, I am deeply troubled'",
+    "GP: 'I cannot rest easy until my children are home safe at night'",
+    "GP: personal crusade with police discipline and skills",
+    "DD corruption: 'appropriations are good... If there is no corruption, there's really no problem'",
+    "DD self-stake: 'if I fail, kill me'",
+    "GP corruption: hold the corrupt accountable friend or foe; push FOI bill",
+    "DD poverty: food terminals, Land Bank for farmers, DTI credit unions/coops, continue + enhance 4Ps",
+    "GP poverty (Tagalog): root cause is poverty; continue/strengthen + expand 4Ps with livelihood for additional income",
+    "DD foreign relations on China: 'cannot afford to war,' joint exploration",
+    "DD bravado: 'ride a jet ski carrying the Philippine flag, plant it [in the Spratlys]'",
+    "DD threat to US/Australia: 'go ahead and sever [diplomatic ties]'",
+    "GP foreign relations: strengthen military + constructive talks with China + ASEAN leadership for code of conduct",
+    "DD women incident (the rape quote): 'Son of a b*tch, what a waste... the mayor should have been first'",
+    "GP women: more women in government because they 'have empathy' + family-care orientation",
+    "BM vision: 'leaders that seek to unite, not to divide, leaders that look to the future, not to the past'",
+    "LR vision: 'I am a mother and I will not abandon my children, I will not abandon the country' (Tagalog)",
+    "BM on VP role: ask to run DOLE because employment biggest problem",
+    "LR on VP role: streamline all anti-poverty programs (not cabinet position)"
+  ],
+  "signature_phrases": [
+    "the candidates to beat",
+    "strong-willed, hyperbolic, magnetic, unorthodox and brash",
+    "polished, compassionate, motherly, loving and humble",
+    "Uncannily, they also typify the phenomenon",
+    "macho power vs woman power",
+    "if I fail, kill me",
+    "Kung walang corruption",
+    "ride a jet ski carrying the Philippine flag",
+    "go ahead and sever [diplomatic ties]",
+    "Sayang",
+    "ang mayor muna ang mauna",
+    "sapagkat tayo ay nakakaramdam",
+    "Inaalagaan natin ang ating pamilya",
+    "leaders that seek to unite, not to divide",
+    "leaders that look to the future, not to the past",
+    "Isa po akong ina",
+    "hindi ko po papabayaan iyong aking mga anak",
+    "hindi ko po papabayaan ang bayan"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Rodrigo 'Digong' Duterte (DD)",
+      "Bongbong Marcos (BM)",
+      "Grace Poe (GP)",
+      "Leni Robredo (LR)",
+      "Donald Trump (US Republican)",
+      "Hillary Clinton (US Democrat)"
+    ],
+    "institutions": [
+      "Pulse Asia (survey firm)",
+      "Social Weather Stations (SWS)",
+      "PH presidential candidate pool (2016)",
+      "US Republican Party",
+      "US Democratic Party",
+      "Department of Labor and Employment (DOLE -- BM aspiration)",
+      "ASEAN (LR-cited)",
+      "Land Bank (DD policy)",
+      "Department of Trade (DD policy)",
+      "Department of Justice (DD restoration of death penalty)",
+      "Pantawid Pamilyang Pilipino Program (4Ps)",
+      "Philippine Congress (death penalty recommendation venue)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Death penalty (proposed restoration)",
+      "Freedom of Information bill",
+      "4Ps / Pantawid Pamilyang Pilipino Program (CCT)"
+    ],
+    "events": [
+      "Recent Pulse Asia + SWS surveys",
+      "US Northeast Republican + Democratic primary sweeps",
+      "Upcoming May 9, 2016 PH elections",
+      "Upcoming November 2016 US presidential election",
+      "The mayor-rape comment incident (DD quoted in full)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The PH and US 2016 electoral landscapes both demonstrate the 'macho power vs woman power' phenomenon -- Duterte/Marcos and Trump are strong-willed, hyperbolic, magnetic, unorthodox, and brash; Poe/Robredo and Clinton are polished, compassionate, motherly, loving, and humble -- making this dichotomy a transnational pattern observable in two democracies simultaneously.",
+      "rhetorical_move": "transnational-pattern identification with five-trait contrast catalogs",
+      "confidence": "asserted as observation"
+    },
+    {
+      "claim": "The candidate-quotation comparison method -- using direct quotes on peace/order, corruption, poverty alleviation, foreign relations, and women -- allows readers to evaluate the macho-woman contrast on substantive policy positions rather than mere style, with Duterte's bloody-killing language and 'jet ski' Spratlys bravado contrasted against Poe's mother-and-child empathy register and constructive-engagement framework.",
+      "rhetorical_move": "direct-quotation comparison method with policy-domain categories",
+      "confidence": "asserted as analytical method"
+    },
+    {
+      "claim": "The Marcos-Robredo VP race exhibits parallel macho-woman contrasts: Marcos seeks to 'unite, not divide' and 'look to the future, not to the past' with aspiration to run DOLE for employment; Robredo identifies herself as 'a mother' refusing to abandon children or country, aspiring to streamline anti-poverty programs rather than hold cabinet position.",
+      "rhetorical_move": "VP-race parallel-contrast extension",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The CJ-coined contrast: 'macho power vs woman power' -- used as both column title and analytical frame, capturing the 2016 electoral phenomenon in three words.",
+    "The transnational symmetry observation: Trump-Clinton 'Uncannily, they also typify the phenomenon of macho power vs woman power' -- making the PH pattern visible as part of a global moment.",
+    "Duterte's 'if I fail, kill me' self-stake -- preserved verbatim as the column's most extreme example of his macho-hyperbolic register.",
+    "Duterte's jet-ski Spratlys vow: 'Bababa ako, sasakay ako ng jet ski, dala-dala ko yung flag ng Pilipino at pupunta ako doon sa airport nila tapos itanim ko' -- preserved with Tagalog-to-English translation, capturing the unrealistic-bravado register that defined his campaign.",
+    "The Duterte rape comment quoted in full with Tagalog + translation: 'Sayang. Ang nagpasok sa isip ko, ni-rape nila, pinagpilahan nila doon. Nagalit ako kasi ni-rape, oo, isa rin yun. Pero napakaganda, dapat ang mayor muna ang mauna. Sayang.' (Son of a b*tch, what a waste. They raped her, they lined up. I was angry because she was raped... But she was so beautiful, the mayor should have been first. What a waste.) -- CJ preserving the verbatim text without editorial comment, leaving readers to evaluate.",
+    "Poe's women quote: 'dapat mas maraming mga babae... ang bigyan ng pagkakataon sa gobyerno, sapagkat tayo ay nakakaramdam. Inaalagaan natin ang ating pamilya' (There should be more women given an opportunity to serve in government because we have empathy. We take care of our family) -- the antipodal contrast to Duterte's rape comment.",
+    "Robredo's defining vision quote: 'Isa po akong ina, at hindi ko po papabayaan iyong aking mga anak, hindi ko po papabayaan ang bayan' (I am a mother and I will not abandon my children, I will not abandon the country) -- captures the mother-as-leader register defining her campaign.",
+    "Marcos vision quote: 'leaders that seek to unite, not to divide, leaders that look to the future, not to the past' -- using parallel-construction-antithesis to position himself."
+  ],
+  "target_audience": [
+    "Voters undecided in 2016 PH elections (column written 8 days before election)",
+    "Political analysts and commentators",
+    "International observers of PH-US electoral parallels",
+    "Gender studies and political-rhetoric scholars",
+    "Civic readers comparing candidate substance vs style",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "labeled-subhead structure ('Duterte vs Poe', 'Marcos vs Robredo')",
+    "transnational-pattern identification (PH + US simultaneously)",
+    "five-trait contrast catalogs (macho vs woman)",
+    "direct-quotation comparison method",
+    "policy-domain categories (peace and order, corruption, poverty alleviation, foreign relations, women)",
+    "verbatim Tagalog quotation with English translation",
+    "VP-race parallel-contrast extension",
+    "neutral-presentation register (CJ withholds editorial verdict)",
+    "candidate-initial abbreviation (DD, GP, BM, LR)",
+    "campaign-rhetoric-preservation including offensive content",
+    "'macho power vs woman power' as CJ-coined analytical frame"
+  ],
+  "decision_framework_signals": [
+    "applies transnational-pattern identification when domestic phenomena have global parallels",
+    "uses direct-quotation comparison method to let candidates' own words anchor analysis",
+    "deploys policy-domain categories to structure side-by-side comparisons",
+    "preserves Tagalog-with-translation for bilingual-context honesty",
+    "treats neutral-presentation register as legitimate even for objectionable content (rape comment)",
+    "extends parallel-contrast analysis from presidential to VP race"
+  ],
+  "one_paragraph_summary": "Panganiban applies a 'macho power vs woman power' frame to the 2016 PH presidential race -- observing that recent Pulse Asia and SWS surveys show Digong Duterte (DD) and Bongbong Marcos (BM) as the candidates to beat, with Grace Poe (GP) and Leni Robredo (LR) as the closest credible challengers. The two men, especially DD, are 'strong-willed, hyperbolic, magnetic, unorthodox and brash,' while the women are 'polished, compassionate, motherly, loving and humble.' Parenthetically, the same phenomenon appears in the US, where Trump and Clinton 'uncannily... typify the phenomenon of macho power vs woman power.' To demonstrate, CJ uses direct quotations across five policy domains. On peace and order, DD threatens 'it will be bloody because I will order the killing of all criminals... I will recommend to Congress the restoration of the death penalty by hanging in public,' while GP says 'As a mother, I am deeply troubled by the proliferation of crime and drugs. Like every parent, I cannot rest easy until my children are home safe at night.' On corruption, DD bets his life ('if I fail, kill me'); GP commits to hold the corrupt accountable 'whether they be friend or foe' and to push FOI legislation. On poverty alleviation, DD proposes food terminals, Land Bank lending to farmers, DTI-supported credit unions, and continuation/enhancement of 4Ps; GP says (in Tagalog) that alleviating poverty is her priority -- strengthening 4Ps and adding livelihood for additional income. On foreign relations, DD says 'We cannot afford to war with China' but vows to 'ride a jet ski carrying the Philippine flag' to a Chinese-occupied airport (Spratlys), and threatens to sever ties with America and Australia; GP advocates strengthening the military, constructive talks with China, and ASEAN leadership for a code of conduct. On women, DD's mayor-rape comment is preserved verbatim with Tagalog + English translation; GP says (in Tagalog) that more women should be in government because 'we have empathy' and care for family. The Marcos-Robredo VP race exhibits parallel contrasts: Marcos seeks 'leaders that seek to unite, not to divide, leaders that look to the future, not to the past,' aspiring to run DOLE (since employment is the biggest problem); Robredo identifies herself as 'a mother' refusing to abandon children or country, aspiring to streamline anti-poverty programs (not hold a cabinet position).",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

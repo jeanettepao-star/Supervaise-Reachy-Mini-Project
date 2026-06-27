@@ -1,0 +1,130 @@
+{
+  "id": "CA492",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 492,
+  "title": "Two JBC problems",
+  "date": "2012-07-14",
+  "link": "https://opinion.inquirer.net/32609/two-jbc-problems",
+  "keywords": [
+    "JBC congressional representation",
+    "JBC two votes",
+    "Chavez vs JBC",
+    "Dulay vs JBC",
+    "acting presiding officer JBC",
+    "bicameral Congress",
+    "obiter vs ratio decidendi",
+    "RA 296"
+  ],
+  "primary_topics": [
+    "Whether Congress is entitled to two seats and two votes in the JBC -- constitutional text vs. practice",
+    "Who should preside over JBC proceedings in the absence of the chief justice -- Dulay vs JBC ruling",
+    "CJ's personal account of the 2006 Dimayuga proposal to revert to one Congressional vote"
+  ],
+  "sub_topics": [
+    "Constitutional text: 'a representative of the Congress' = singular = one vote",
+    "Current practice: senator and congressman sit simultaneously -- 8 members, not 7",
+    "Majority vote implications: 5 of 8 vs 4 of 7 depending on total membership count",
+    "CJ Teehankee's 1987 original JBC: Congress had one representative, alternating senator/congressman",
+    "Later: two members but only one-half vote each -- effectively still 7 votes",
+    "CJ Davide era: Sen. Pimentel convinced JBC to allow two full votes -- unicameral premise argument",
+    "Constitutional Commission Committee on Style oversight: failed to update JBC composition after bicameral shift",
+    "CJ Panganiban's 2006 experience: Dean Dimayuga formally proposed reversion to one vote",
+    "Sen. Pangilinan tabled the proposal -- only SC has jurisdiction",
+    "Chavez petition: Congress should have only one vote",
+    "CJ agrees with Chavez: Constitution is clear -- 'a representative'",
+    "Congress with two votes has unfair advantage over executive and judicial branches (one each)",
+    "Dulay vs JBC (July 3, 2012): most senior non-applicant justice presides over JBC for CJ vacancy",
+    "Some JBC members claim Dulay ruling is only obiter -- CJ disagrees: issue specifically raised = ratio decidendi",
+    "RA 296: duties of CJ vacancy devolve to most senior associate justice",
+    "Acting CJ Antonio Carpio inhibited from presiding"
+  ],
+  "signature_phrases": [
+    "a representative of the Congress",
+    "bloating the JBC's membership to eight",
+    "unfair advantage",
+    "under the supervision of the Supreme Court",
+    "ratio decidendi, not merely an obiter",
+    "devolve upon the Associate Justice who is first in precedence",
+    "Committee on Style of the Constitutional Commission overlooked"
+  ],
+  "entities": {
+    "people": [
+      "CJ Claudio Teehankee (originally convened JBC in 1987)",
+      "CJ Hilario G. Davide Jr. (era when two full votes introduced)",
+      "Sen. Aquilino Pimentel Jr. (convinced JBC to allow two full votes)",
+      "Dean Amado L. Dimayuga (JBC academe member; 2006 proposal to revert to one vote)",
+      "Sen. Francis Pangilinan (tabled Dimayuga proposal in 2006)",
+      "Former Solicitor General Francisco I. Chavez (filed petition on dual representation)",
+      "Acting CJ Antonio T. Carpio (inhibited from presiding JBC)",
+      "Artemio V. Panganiban (author, former CJ; was JBC chair ex officio in 2006)"
+    ],
+    "institutions": [
+      "Judicial and Bar Council (JBC)",
+      "Supreme Court of the Philippines",
+      "Senate of the Philippines",
+      "House of Representatives",
+      "1986 Constitutional Commission"
+    ],
+    "cases": [
+      "Dulay vs JBC (July 3, 2012) -- most senior non-applicant justice presides over JBC for CJ vacancy",
+      "Chavez petition on JBC dual representation (pending before SC)"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution Art. VIII -- JBC composition ('a representative of the Congress')",
+      "Republic Act No. 296 -- duties of CJ devolve to most senior associate justice during vacancy",
+      "JBC Rules Rule 10 Sec. 1 -- majority vote requirement for shortlist inclusion"
+    ],
+    "events": [
+      "Original JBC convened by CJ Teehankee (1987)",
+      "Pimentel persuading JBC to grant two full Congressional votes (CJ Davide era)",
+      "Dean Dimayuga's 2006 reversion proposal at JBC",
+      "Chavez petition filed challenging dual representation",
+      "Dulay vs JBC ruling (July 3, 2012)",
+      "Acting CJ Carpio's inhibition from JBC proceedings"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Congress should be allowed only one JBC vote because the Constitution is unambiguous — 'a representative of the Congress' — and granting two votes gives Congress an unfair advantage over the executive and judicial branches, each of which has only one ex officio member.",
+      "rhetorical_move": "textual-clarity argument: the singular 'a representative' as the dispositive constitutional text, backed by structural-equality principle",
+      "confidence": "asserted in agreement with the Chavez petition"
+    },
+    {
+      "claim": "The Dulay vs JBC ruling's identification of the most senior non-applicant justice as the proper JBC presiding officer is ratio decidendi, not obiter — the issue was specifically raised and resolved in that case, making JBC members' contrary claim legally incorrect.",
+      "rhetorical_move": "obiter-vs-ratio precision argument: issue-specifically-raised test as the dispositive distinction",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ Panganiban's first-person account of the 2006 JBC episode: Dean Dimayuga formally proposed reverting to one Congressional vote, but Sen. Pangilinan tabled it claiming only the SC had jurisdiction — while CJ himself could not render his opinion because he would have had to inhibit if the matter came to the Court, creating a catch-22 that left the constitutional defect unresolved for six more years.",
+    "CJ Teehankee's original 1987 practice of having one alternating senator/congressman — the historical baseline from which the Pimentel-era bloating departed — used as the constitutional-intent anchor for the one-representative argument.",
+    "The Committee on Style oversight: the 1986 Constitutional Commission voted to shift from a unicameral to a bicameral legislature but its Committee on Style failed to update the JBC composition provision accordingly — the textual basis for Pimentel's creative two-vote argument, and the reason the constitutional ambiguity persisted."
+  ],
+  "target_audience": [
+    "JBC members and their institutional advisers on the dual-representation question",
+    "SC justices deciding the Chavez petition",
+    "Constitutional law practitioners and academics studying JBC composition",
+    "Law students learning the obiter vs ratio decidendi distinction",
+    "General civic readership following the JBC proceedings for the CJ vacancy"
+  ],
+  "register_markers": [
+    "constitutional-textual analysis register ('a representative' = singular = one vote)",
+    "structural-equality argument (executive and judicial branches each get one — Congress should too)",
+    "first-person institutional-memory register (CJ's 2006 JBC experience with Dimayuga and Pangilinan)",
+    "obiter-vs-ratio precision register (issue-specifically-raised test)",
+    "historical-baseline register (Teehankee's 1987 original alternating practice)",
+    "legal-arithmetic register (8 members → 5-vote majority vs 7 members → 4-vote majority)"
+  ],
+  "decision_framework_signals": [
+    "applies constitutional-text-as-dispositive test: 'a representative' = singular = one vote",
+    "uses structural-equality principle: all other branches and sectors get one — Congress should not get two",
+    "applies historical-intent reconstruction: Teehankee's original practice as the constitutional baseline",
+    "uses Committee-on-Style-oversight as the explanation for the textual anomaly supporting the two-vote argument",
+    "applies issue-specifically-raised test to distinguish Dulay's ratio decidendi from obiter"
+  ],
+  "one_paragraph_summary": "Panganiban identifies two urgent constitutional problems facing the JBC in selecting the new chief justice. First, the dual-representation issue: the Constitution says 'a representative of the Congress' -- singular -- yet a senator and a congressman currently sit and each cast a full vote, bloating membership to eight from the constitutional seven, with significant implications for the majority-vote threshold (5 of 8 vs 4 of 7). He traces the history: CJ Teehankee's original practice was one alternating representative; under CJ Davide, Sen. Pimentel persuaded the JBC to grant two full votes on the theory that the unicameral legislature premise became obsolete when the Constitutional Commission adopted bicameralism -- but the Committee on Style failed to update the JBC composition provision. In 2006, CJ Panganiban recounts, Dean Dimayuga formally proposed reverting to one vote but Sen. Pangilinan tabled it, and CJ himself could not opine without prejudging the case. Former SolGen Chavez has now filed a formal SC petition -- CJ agrees Congress should have only one vote given the Constitution's clear text and the structural-equality principle (executive and judicial branches each get one). Second, the presiding-officer issue: CJ finds that Dulay vs JBC (July 3, 2012) definitively resolved that the most senior non-applicant justice presides over JBC proceedings, making JBC members' claim that this is only obiter incorrect -- the issue was specifically raised and decided, making it ratio decidendi, additionally supported by RA 296 which devolves CJ duties to the most senior associate justice during a vacancy.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

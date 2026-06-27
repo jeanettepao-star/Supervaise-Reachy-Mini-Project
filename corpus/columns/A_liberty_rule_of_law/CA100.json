@@ -1,0 +1,158 @@
+{
+  "id": "CA100",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 100,
+  "title": "ICC: The temporal vs the strategic",
+  "date": "2023-08-07",
+  "link": "https://opinion.inquirer.net/165376/icc-the-temporal-vs-the-strategic",
+  "keywords": [
+    "ICC Appeals Chamber",
+    "Karim Khan",
+    "Rome Statute Article 17",
+    "complementarity",
+    "jurisdiction",
+    "Philippine withdrawal"
+  ],
+  "primary_topics": [
+    "July 18 ICC Appeals Chamber 3-2 decision authorizing prosecutor Karim Khan to resume PH drug-war investigation",
+    "Two issues on appeal: complementarity (Article 17) and jurisdiction",
+    "Why the 3-judge majority skirted the jurisdiction question on procedural grounds (alleged waiver)",
+    "Why the 2-judge minority would have ruled on jurisdiction and dismissed for lack of it",
+    "CJ's framing: 'temporal' prosecutorial victory vs 'strategic' PH-government victory in knowing two judges already lean toward dismissal"
+  ],
+  "sub_topics": [
+    "Bensouda's Feb. 8, 2018 announcement of preliminary 'examination' of the PH situation",
+    "PH withdrawal from ICC on March 17, 2018; effective one year later on March 17, 2019",
+    "May 24, 2021 Bensouda PTC request (more than two years after effective withdrawal)",
+    "Sept. 15, 2021 PTC grant of authority to commence preliminary investigation",
+    "Khan agreed to suspend investigation at PH government's request",
+    "Jan. 26, 2023 PTC grant for Khan to continue (because government inquiry deemed 'allegedly superficial')",
+    "Article 17 Statute: ICC declines case if a State 'unwilling or unable genuinely to carry out' investigation",
+    "AC majority of three: PH failed to show genuine willingness/ability; alleged jurisdictional lack should have been raised in appeal of Sept. 15, 2021 decision (not Jan. 26, 2023); PH waived right by appealing only the latter",
+    "AC minority of two: refusal to take up jurisdiction was error; perpetrators could raise it later anyway when warrants issue; wasted time and resources to proceed without ruling",
+    "Minority's core jurisdictional argument: Bensouda's PTC petition was filed May 24, 2021 and granted Sept. 15, 2021 -- both more than two years past the March 17, 2019 effective withdrawal",
+    "Khan's silence and inaction since the AC ruling -- has he changed his mind given the minority's persuasive opinion?",
+    "Prosecutor's strategic calculation: better to redirect effort to clearer 'situations' like Russia's war on Ukraine",
+    "Core statutory-construction question: Is the Office of the Prosecutor an integral part of the ICC? CJ's short answer: No."
+  ],
+  "signature_phrases": [
+    "The temporal vs the strategic",
+    "a celebrated Queen's Counsel in the United Kingdom",
+    "Has he changed his mind due to the rather convincing opinion of the two dissenters?",
+    "Please note the dates carefully",
+    "complementarity",
+    "unwilling or unable genuinely to carry out the investigation or prosecution",
+    "allegedly superficial",
+    "the AC said that it was legally inappropriate",
+    "wasted time and resources",
+    "TEMPORARY, I BELIEVE, WAS THE VICTORY",
+    "won strategic knowledge",
+    "could be better used to win new 'situations'",
+    "Is the Office of the Prosecutor an integral part of the ICC?",
+    "My short answer is 'No.'"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Karim Khan (ICC chief prosecutor, KC/Queen's Counsel)",
+      "Fatou Bensouda (former ICC chief prosecutor)",
+      "Rodrigo Duterte"
+    ],
+    "institutions": [
+      "International Criminal Court (ICC)",
+      "ICC Appeals Chamber (AC)",
+      "ICC Pre-Trial Chamber (PTC)",
+      "ICC Office of the Prosecutor",
+      "Government of the Philippines"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Rome Statute, Article 17 (complementarity)",
+      "Rome Statute, Article 127 (withdrawal, referenced implicitly)"
+    ],
+    "events": [
+      "Feb. 8, 2018 Bensouda preliminary examination announcement",
+      "March 17, 2018 PH submission of ICC withdrawal",
+      "March 17, 2019 effective date of PH withdrawal",
+      "May 24, 2021 Bensouda PTC request",
+      "Sept. 15, 2021 PTC grant of authority",
+      "Jan. 26, 2023 PTC grant for Khan to continue",
+      "July 18, 2023 AC 3-2 decision authorizing Khan to resume",
+      "Russia's war on Ukraine (referenced as alternative ICC situation)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "On complementarity (Article 17), the AC correctly found that the PH government had not shown genuine willingness and ability to investigate the situation and prosecute the perpetrators 'especially the brains' of the alleged crime -- agreeing with Khan.",
+      "rhetorical_move": "doctrinal-acknowledgement of the AC majority's complementarity holding",
+      "confidence": "neutrally reported"
+    },
+    {
+      "claim": "On jurisdiction, the AC majority of three improperly skirted the issue on procedural grounds -- claiming the PH should have appealed the Sept. 15, 2021 decision (not the Jan. 26, 2023 one) and had thereby 'waived' its right to challenge jurisdiction.",
+      "rhetorical_move": "doctrinal-skepticism (the AC's procedural-waiver theory is questionable)",
+      "confidence": "reported with critical posture"
+    },
+    {
+      "claim": "The two-judge minority got it right: jurisdiction will inevitably resurface when Khan seeks warrants, so refusing to rule now produces only wasted time and resources -- and the ICC did not acquire jurisdiction because Bensouda's PTC petition was filed and granted more than two years past the March 17, 2019 effective withdrawal.",
+      "rhetorical_move": "minority-endorsement framing with anticipated-future-litigation argument",
+      "confidence": "asserted with date-arithmetic support"
+    },
+    {
+      "claim": "Khan's victory is 'temporary' because the ICC may dismiss the complaints or warrant petitions for lack of jurisdiction once he files them -- and Khan may not pursue the case knowing his effort could be wasted, better redirected to new 'situations' like Russia's war on Ukraine.",
+      "rhetorical_move": "temporal-vs-strategic binary framing with prosecutorial-calculus prediction",
+      "confidence": "asserted as informed speculation"
+    },
+    {
+      "claim": "The PH government, though it 'suffered a temporary defeat,' may have won 'strategic knowledge' -- at least two ICC judges are minded to dismiss, and notably no judge (including the three majority) has taken an opposing stance on the jurisdiction issue.",
+      "rhetorical_move": "strategic-knowledge framing (defeat in form, win in substance)",
+      "confidence": "asserted as analytical reading"
+    },
+    {
+      "claim": "The jurisdiction question hinges on a single statutory-construction issue: Is the Office of the Prosecutor an integral part of the ICC for purposes of the Article 127 'already under consideration' exception? CJ's short answer: No.",
+      "rhetorical_move": "statutory-construction reduction (the whole controversy collapses to one yes/no question)",
+      "confidence": "asserted as 'short answer'"
+    }
+  ],
+  "notable_anecdotes": [
+    "Karim Khan introduced as 'a celebrated Queen's Counsel in the United Kingdom' -- a credentialing flourish that highlights the prosecutor's prestige even as CJ critiques his procedural posture.",
+    "Date-by-date chronological reconstruction with the explicit instruction 'Please note the dates carefully' -- turning the column into a teaching exercise on jurisdictional-timing arithmetic.",
+    "The 3-2 AC split: majority of three skirted jurisdiction on alleged waiver; minority of two would have tackled it and dismissed for lack of jurisdiction.",
+    "CJ's prosecutorial-calculus speculation: Khan's silence and inaction since the AC ruling may reflect his strategic decision to redirect to clearer cases like Russia/Ukraine rather than press a possibly losing PH case.",
+    "Strategic-knowledge framing: 'at least two ICC judges are minded to dismiss the suit while none, not even any of the three majority judges, has taken an opposing stance on the vital issue of jurisdiction' -- a count of expressed positions, not just votes.",
+    "Closing reduction of the entire controversy to one question: 'Is the Office of the Prosecutor an integral part of the ICC? My short answer is No.' -- the same question A99 will pick up the following Monday."
+  ],
+  "target_audience": [
+    "International criminal law specialists",
+    "PH government counsel and DFA officials",
+    "Human-rights and drug-war-accountability advocates",
+    "Filipino legal community tracking ICC developments",
+    "ICC observers and academics",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "Title-as-thesis binary ('The temporal vs the strategic')",
+    "Pedagogical instruction embedded ('Please note the dates carefully')",
+    "ALL-CAPS pivot openings ('TO ANSWER THE QUESTION, LET US FIRST RECALL,' 'TWO MAIN ISSUES WERE TACKLED,' 'TEMPORARY, I BELIEVE, WAS THE VICTORY')",
+    "Direct treaty quotation with 'Bold types supplied' attribution",
+    "Date-by-date chronology with explicit time-stamps",
+    "Voting-arithmetic framing ('3-2,' 'majority of three,' 'minority of two')",
+    "Prosecutorial-calculus speculation register ('may no longer be minded to pursue,' 'better used')",
+    "Strategic-knowledge framing register ('won strategic knowledge')",
+    "Short-answer closer ('My short answer is No.')",
+    "Comparative ICC-situations reference (Russia/Ukraine as alternative)"
+  ],
+  "decision_framework_signals": [
+    "uses date-by-date jurisdictional-timing arithmetic to evaluate whether ICC obtained jurisdiction in time",
+    "applies Article 17 complementarity test as separate from jurisdictional question",
+    "distinguishes appealed-decision-scope from underlying-merits for procedural-waiver analysis",
+    "uses temporal-vs-strategic binary framing to characterize multi-stage litigation outcomes",
+    "applies prosecutorial-calculus analysis (resource allocation, win probability) to predict prosecutor behavior",
+    "uses strategic-knowledge framing (count of expressed judicial positions) as litigation-intelligence asset",
+    "reduces multi-issue controversy to a single statutory-construction question (prosecutor-as-ICC-integral-part)"
+  ],
+  "one_paragraph_summary": "Panganiban analyzes the July 18 ICC Appeals Chamber 3-2 decision authorizing chief prosecutor Karim Khan -- 'a celebrated Queen's Counsel in the United Kingdom' -- to resume his investigation of the alleged 'crime against humanity of murder, committed in the Philippines between Nov. 1, 2011, and March 16, 2019, in the context of the so-called war on drugs.' He walks the reader carefully through the date chronology: Bensouda's Feb. 8, 2018 preliminary 'examination' announcement; PH withdrawal submitted March 17, 2018, effective March 17, 2019; Bensouda's PTC request only on May 24, 2021 (more than two years past effective withdrawal); PTC grant on Sept. 15, 2021; Khan's agreement to suspend at the PH government's request; PTC's Jan. 26, 2023 grant for Khan to continue because the government's inquiry was deemed 'allegedly superficial.' On appeal, the AC took up two issues: complementarity (where the majority agreed with Khan that the PH had not shown genuine willingness/ability under Article 17) and jurisdiction (which the majority skirted, claiming the PH waived the issue by appealing only the Jan. 26, 2023 decision instead of the underlying Sept. 15, 2021 one). The two-judge minority asserted this was error -- jurisdiction will resurface when warrants are sought, so refusing to rule now wastes resources -- and held that the ICC did not acquire jurisdiction because Bensouda's PTC petition was both filed and granted more than two years after effective withdrawal. CJ reads Khan's silence and inaction since the AC ruling as possibly meaning he 'may no longer be minded to pursue the case,' redirecting effort to clearer 'situations' like Russia's war on Ukraine. The PH government's strategic knowledge: two ICC judges are minded to dismiss, and notably no judge has taken an opposing stance on jurisdiction. CJ closes by reducing the whole controversy to one statutory-construction question -- 'Is the Office of the Prosecutor an integral part of the ICC?' -- and answers, 'My short answer is No.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

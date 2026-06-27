@@ -1,0 +1,157 @@
+{
+  "id": "CA330",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 330,
+  "title": "Overdue process?",
+  "date": "2016-10-23",
+  "link": "https://opinion.inquirer.net/98446/overdue-process",
+  "keywords": [
+    "Constitutional due process Bill of Rights Sec. 1-2",
+    "warrant requirements (probable cause, personal examination)",
+    "flagrante delicto and hot pursuit exceptions",
+    "Miranda rights",
+    "exclusionary rule on torture confessions",
+    "libertarian pendulum post-martial-law",
+    "extrajudicial shortcuts critique"
+  ],
+  "primary_topics": [
+    "Constitutional 'due process' protections vs the rise of 'overdue process'",
+    "Bill of Rights Sec 1 (no deprivation without due process) and Sec 2 (against unreasonable searches/seizures)",
+    "Strict-construction exceptions: in flagrante delicto, hot pursuit, Miranda rights",
+    "Libertarian pendulum: 1987 anti-martial-law reaction now produces police timidity",
+    "Public revulsion to overdue process and turn to extralegal/extrajudicial shortcuts"
+  ],
+  "sub_topics": [
+    "Constitution Bill of Rights Sec 1 -- no deprivation of life, liberty, property without due process",
+    "Deprivation not necessarily unconstitutional -- only deprivation without due process",
+    "Sec 2 -- right to be secure in persons, houses, papers, effects against unreasonable searches/seizures",
+    "Arrest/search warrant requirements: judge must personally determine probable cause under oath",
+    "Warrant specificity: place to be searched, persons/things to be seized",
+    "Cannot search beyond specified place or seize beyond specified items",
+    "Exceptions: in flagrante delicto, hot pursuit (per CJ's Oct 6 column)",
+    "Strict construction of exceptions: judge must personally examine witnesses; officer must have personal knowledge",
+    "Surveillance operations not sufficient basis",
+    "Miranda rights: right to silence, right to competent independent counsel",
+    "Confessions extracted with torture/force/violence/threat/intimidation are illegal",
+    "Illegally obtained evidence inadmissible -- produces acquittal even if guilt evident",
+    "1987 Constitution framers' motivation: fresh memory of martial law abuses",
+    "Iron-clad protection for innocent, especially poor and marginalized",
+    "Libertarian pendulum swung too far -- police timidity due to admin/criminal liability fears",
+    "Net result: rise in criminality, grafters/killers/rapists/drug lords misuse Constitution",
+    "Even when police strictly observe rights: prosecutorial/judicial failure (ignorance, apathy, laziness, corruption)",
+    "Witnesses bribed, memory-loss, disappear",
+    "Many lawyers thrive in technicalities and delays rather than justice",
+    "Public revulsion against democratic methods (overlooking means as important as ends)",
+    "Due process equated with costly suits, tiring delays, technicalities, long-winded trials, interminable appeals, unwelcome acquittals",
+    "Frustration → extralegal/extrajudicial shortcuts (implicit reference to Duterte-era killings)",
+    "Solution: police + prosecutors + lawyers + judges cooperate, think outside box, moderate pendulum",
+    "Goal: safeguard constitutional rights without the 'over' in due process"
+  ],
+  "signature_phrases": [
+    "the most basic right enshrined in the first section of our Constitution's Bill of Rights",
+    "Deprivation is not necessarily unconstitutional. What is prohibited is deprivation without due process",
+    "Illegal arrests and searches",
+    "the judge is required to personally determine 'probable cause'",
+    "Note that courts strictly construe these exceptions",
+    "Miranda rights",
+    "the libertarian pendulum swung too much to the opposite direction",
+    "the timidity of the police",
+    "the rise in criminality",
+    "Grafters, killers, rapists and drug lords misuse the liberality of the Constitution",
+    "sheer ignorance, apathy, laziness, or corruption",
+    "many lawyers thrive in technicalities and delays, rather than in their sworn duty to do justice to everyone",
+    "a general revulsion against democratic methods",
+    "means are as important as ends",
+    "costly suits, tiring delays, inexplicable technicalities, long-winded trials, interminable appeals, unwelcome acquittals and plain injustice",
+    "people tend to take matters into their own hands and turn to extralegal and extrajudicial shortcuts",
+    "moderate the pendulum swing",
+    "without the 'over' in due process"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban"
+    ],
+    "institutions": [
+      "Philippine National Police (PNP) -- police behavioral subject",
+      "Prosecution offices (DOJ, fiscal services)",
+      "Philippine judiciary (courts, judges)",
+      "Philippine Bar (lawyers thriving in technicalities)",
+      "1987 Constitutional Commission (framers reacting to martial law)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution Bill of Rights Sec 1 -- due process clause",
+      "1987 Constitution Bill of Rights Sec 2 -- unreasonable searches/seizures protection",
+      "Miranda doctrine -- right to silence + independent counsel",
+      "Constitutional prohibition on torture-extracted confessions",
+      "Exclusionary rule -- illegally obtained evidence inadmissible"
+    ],
+    "events": [
+      "Martial law abuses (motivating 1987 framers)",
+      "Rise in criminality / extrajudicial-killing era (implicit Duterte-era backdrop)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Constitution prohibits not deprivation per se but deprivation without due process -- a critical distinction often lost in public discourse that conflates due-process protections with absolute protection against deprivation, when in fact lawful deprivation (e.g., post-trial conviction) is constitutionally permissible.",
+      "rhetorical_move": "definitional-clarification at front (precise scope of due-process clause)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The 1987 Constitution's iron-clad suspect protections -- strict warrant requirements, strict-construction exceptions, Miranda rights, exclusionary rule for illegally obtained evidence -- were motivated by fresh memory of martial law abuses and aimed at protecting the innocent, especially the poor and marginalized.",
+      "rhetorical_move": "historical-context-as-justification framing for constitutional protections",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The libertarian pendulum has swung too far -- producing police timidity (out of administrative/criminal liability fears) that has enabled a rise in criminality, with grafters/killers/rapists/drug lords misusing the Constitution's liberality, exacerbated by prosecutorial/judicial failure (ignorance, apathy, laziness, corruption), missing witnesses, and lawyers who thrive in technicalities rather than justice.",
+      "rhetorical_move": "pendulum-overcorrection framing + multi-actor failure catalog",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The consequent public revulsion conflates due process with overdue process (costly suits, tiring delays, technicalities, long-winded trials, interminable appeals, unwelcome acquittals, plain injustice), driving people to extralegal/extrajudicial shortcuts -- the solution requires police, prosecutors, lawyers, and judges to cooperate, think outside the box, moderate the pendulum, and craft innovative ways to provide quality and speedy justice without the 'over' in due process.",
+      "rhetorical_move": "diagnostic-then-prescriptive arc (revulsion explained + multi-actor coordination prescribed)",
+      "confidence": "asserted with constructive-reform framing"
+    }
+  ],
+  "notable_anecdotes": [
+    "The column's central title-and-thesis pun 'Overdue process' -- the most concise statement of the analytical frame in any CJ column on this theme, condensing the entire diagnosis into a single word-play coinage.",
+    "The libertarian-pendulum metaphor: 'the libertarian pendulum swung too much to the opposite direction, resulting in the timidity of the police' -- the column's central diagnostic image, attributing post-martial-law overcorrection.",
+    "The multi-actor failure catalog: 'even when police officers strictly observe constitutional rights, some prosecutors and judges, out of sheer ignorance, apathy, laziness, or corruption, fail the justice system. So, too, witnesses are bribed, lose their memory, or otherwise disappear. Many lawyers thrive in technicalities and delays' -- distributing blame across the entire criminal-justice ecosystem.",
+    "The list of overdue-process discontents: 'costly suits, tiring delays, inexplicable technicalities, long-winded trials, interminable appeals, unwelcome acquittals and plain injustice' -- using accumulated grievances to physicalize public frustration.",
+    "The 'extralegal and extrajudicial shortcuts' phrase -- an unambiguous implicit reference to the Duterte-era extrajudicial killings without naming them, preserving editorial discretion while still flagging the phenomenon."
+  ],
+  "target_audience": [
+    "Police, prosecutors, lawyers, judges (the four named actors needing to cooperate)",
+    "Civic readers frustrated with criminal-justice slowness",
+    "Constitutional law academics on due-process doctrine",
+    "Human rights advocates and pendulum-balance commentators",
+    "Duterte-era extrajudicial-killing observers and critics",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "title-as-pun coinage ('Overdue process')",
+    "labeled-subhead structure ('Illegal arrests and searches', 'Libertarian pendulum', 'Extralegal solutions')",
+    "constitutional-text-front-and-center pattern (Bill of Rights Sec 1 quoted)",
+    "definitional-clarification framing at outset",
+    "pendulum metaphor as central diagnostic image",
+    "multi-actor failure catalog (police, prosecutors, judges, lawyers, witnesses)",
+    "list-of-discontents accumulation",
+    "implicit-reference framing for politically sensitive phenomena ('extralegal and extrajudicial shortcuts' without naming Duterte)",
+    "diagnostic-then-prescriptive structural arc",
+    "self-citation of prior column (Oct 6 'Dismal record in prosecuting drug cases')",
+    "constructive-reform closing register"
+  ],
+  "decision_framework_signals": [
+    "applies definitional-clarification at outset of analyses",
+    "uses pendulum-metaphor for ideological overcorrection diagnosis",
+    "deploys multi-actor failure catalog when distributing blame across criminal-justice ecosystem",
+    "uses implicit-reference framing for politically sensitive phenomena to preserve editorial discretion",
+    "structures arguments as diagnostic-then-prescriptive arcs ending with reform call",
+    "frames 'means as important as ends' as core democratic principle threatened by extralegal shortcuts"
+  ],
+  "one_paragraph_summary": "Panganiban examines the Bill of Rights' due-process and search-and-seizure protections -- and how the post-1987 libertarian pendulum has swung too far. He clarifies that the Constitution prohibits not deprivation per se but deprivation 'without due process'; arrest and search warrants require judges to personally determine probable cause under oath with specified place and items, with strict-construction exceptions only for in flagrante delicto and hot pursuit (per his Oct 6 column), Miranda rights to silence and counsel, and exclusion of evidence obtained through torture, force, violence, threat, or intimidation. These iron-clad protections were motivated by fresh memory of martial law abuses, aimed at protecting innocent suspects especially the poor and marginalized. But 'the libertarian pendulum swung too much to the opposite direction,' producing police timidity from admin/criminal liability fears, and 'the net result is the rise in criminality. Grafters, killers, rapists and drug lords misuse the liberality of the Constitution to evade liability.' Even when police strictly observe rights, prosecutorial and judicial failure (ignorance, apathy, laziness, corruption), bribed or missing witnesses, and 'many lawyers thrive in technicalities and delays, rather than in their sworn duty to do justice to everyone' compound the breakdown. The consequence is general revulsion against democratic methods -- overlooking that 'means are as important as ends' -- with due process equated with 'costly suits, tiring delays, inexplicable technicalities, long-winded trials, interminable appeals, unwelcome acquittals and plain injustice'; in frustration, people turn to 'extralegal and extrajudicial shortcuts' (an unmistakable if unnamed reference to the Duterte-era killings). To solve the revulsion to 'overdue process,' police, prosecutors, lawyers, and judges must cooperate, think outside the box, moderate the pendulum swing, and craft innovative ways to provide quality and speedy justice for all -- safeguarding precious constitutional rights without the 'over' in due process.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,123 @@
+{
+  "id": "BE018",
+  "format": "B",
+  "type": "book",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 18,
+  "title": "With Due Respect (Vol. 6) -- Ch. 2: How Do You Solve a Problem Like Estrada?",
+  "date": "2009-10-25",
+  "link": "https://cjpanganiban.com/books-authored-by-chief-justice-artemio-v-panganiban/",
+  "keywords": [
+    "How Do You Solve a Problem Like Estrada?",
+    "automation",
+    "reelection ban",
+    "pardon",
+    "plunder",
+    "absolute and unconditional",
+    "restored his civil and political rights",
+    "any reelection",
+    "let the people decide",
+    "Joseph 'Erap' Estrada",
+    "Jojo Binay",
+    "Juan Ponce Enrile",
+    "Jinggoy Estrada",
+    "Gloria Macapagal-Arroyo",
+    "Reynato Puno",
+    "Commissioner Rene Sarmiento",
+    "Penera v. Comelec",
+    "Tecson v. Comelec",
+    "the anticipated Estrada eligibility suits",
+    "executive pardon granted to Estrada"
+  ],
+  "primary_topics": [
+    "Chapter 2 of 'With Due Respect' (Vol. 6) -- CJP's October 25, 2009 Inquirer column on the legal and administrative tangle created by Joseph 'Erap' Estrada's presidential bid, framed by the 'Sound of Music' refrain 'how do you solve a problem like' Estrada",
+    "The two expected challenges to Estrada's eligibility -- that GMA's plunder pardon carried a continuing disqualification, and that the Constitution bars all former presidents from the office again -- and CJP's read that the pardon was 'absolute and unconditional,' having expressly 'restored his civil and political rights'",
+    "The contested reelection ban -- the textual dispute over 'any reelection' versus the clause on those who 'succeeded' for under four years, and the argument (citing Puno in Tecson v. Comelec) that 'the better policy approach is to let the people decide'",
+    "The administrative thicket for the Comelec -- eligibility suits winding from a division to the En Banc to the Court, and, under automation, whether to print Estrada's name by the January 9 deadline, whether his votes would count if he is disqualified, and the substitution puzzles (Binay or a same-surnamed stand-in like Jinggoy)"
+  ],
+  "sub_topics": [
+    "The launch: Estrada announced his bid at an October 21 Tondo rally under 'Tapat sa Mahirap, Samahang Tunay,' with running mate Makati Mayor Jojo Binay and a senatorial slate led by Senate President Enrile -- a spectacle of 'no legal significance' until he files his certificate of candidacy",
+    "Timing the COC: he would 'probably file... on November 30,' the Comelec deadline, since an earlier filing would expose him to the ban on premature campaigning under Penera v. Comelec (Sept. 11, 2009)",
+    "Challenge one -- the pardon: CJP, recalling his Nov. 18, 2007 column, argues GMA's clemency was 'absolute and unconditional,' erasing both the imprisonment and the 'accessory penalty of electoral disqualification' -- since a retained accessory 'should have been couched in clear language' and the pardon instead expressly 'restored his civil and political rights'",
+    "Challenge two -- the reelection ban: the Constitution says 'the President shall not be eligible for any reelection,' and bars one who 'has succeeded as President and has served as such for more than four years'; some scholars read 'any reelection' as a perpetual bar on all elected presidents (Ramos, Arroyo, Estrada)",
+    "The counter-reading: others say 'the President' refers only to the incumbent, and the second sentence impliedly lets those who 'succeeded' for under four years run again -- invoking the principle that 'the interpretation of the people who adopted the Constitution prevails over those who framed it,' so 'the people's vote should ultimately prevail'",
+    "The Puno citation: they rely on CJ Puno's separate opinion in Tecson v. Comelec (March 3, 2004), that 'the better policy approach is to let the people decide,' for on political questions 'this Court may err but the sovereign people will not' -- prompting CJP to ask whether the Court would dare reject an overwhelmingly elected Erap",
+    "The Comelec ladder: once the COC is filed, eligibility suits would be heard first by a Comelec division, then the En Banc, and finally the Supreme Court",
+    "The automation puzzles: with a January 9 printing deadline likely to precede any ruling, CJP poses the unknowns -- whether to print Estrada's name (since voters only 'shade the ovals'), whether the machines would count his votes if he is disqualified, and whether a substitute (Binay, whose name could not be printed for president, or a same-surnamed Jinggoy Estrada) could inherit his votes -- likening the riddle to holding 'a moonbeam in your hands,' and trusting the Comelec to post answers on the ehope2010.ph site"
+  ],
+  "signature_phrases": [
+    "how do you solve a problem like Estrada?",
+    "absolute and unconditional",
+    "restored his civil and political rights",
+    "any reelection",
+    "let the people decide"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (columnist; former Chief Justice)",
+      "Joseph 'Erap' Estrada; running mate Jojo Binay; Senate President Juan Ponce Enrile; Jinggoy Estrada (the hypothetical stand-in)",
+      "President Gloria Macapagal-Arroyo (the pardon); Chief Justice Reynato Puno (the Tecson opinion); Commissioner Rene Sarmiento (ehope2010.ph)"
+    ],
+    "institutions": [
+      "the Commission on Elections (division and En Banc) and the Supreme Court",
+      "Estrada's coalition ('Tapat sa Mahirap, Samahang Tunay')"
+    ],
+    "cases": [
+      "Penera v. Comelec (Sept. 11, 2009)",
+      "Tecson v. Comelec (March 3, 2004)",
+      "the anticipated Estrada eligibility suits"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- the presidential reelection / succession ban",
+      "the executive pardon granted to Estrada (and its scope)"
+    ],
+    "events": [
+      "Estrada's October 2009 presidential announcement and the 2010 candidacy questions"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "GMA's pardon was 'absolute and unconditional,' erasing both Estrada's imprisonment and his electoral disqualification, since a retained accessory penalty 'should have been couched in clear language' and the pardon instead expressly 'restored his civil and political rights.'",
+      "rhetorical_move": "text-of-the-pardon analysis: reading silence as restoration, not retained burden",
+      "confidence": "asserted as CJP's opinion"
+    },
+    {
+      "claim": "The reelection ban is genuinely contestable -- 'any reelection' may bar all elected presidents, or 'the President' may mean only the incumbent while those who 'succeeded' under four years may run again -- so reasonable scholars divide.",
+      "rhetorical_move": "even-handed framing: laying out both textual readings without resolving",
+      "confidence": "presented as contested"
+    },
+    {
+      "claim": "On a political question like this, 'the better policy approach is to let the people decide' (Puno in Tecson) -- raising whether the Court would dare reject an overwhelmingly elected Erap -- while the Comelec must first untangle a thicket of ballot-printing and substitution problems under automation.",
+      "rhetorical_move": "defer-to-the-electorate plus practical-problem cascade",
+      "confidence": "leans toward letting voters decide"
+    }
+  ],
+  "notable_anecdotes": [
+    "The musical refrain: CJP frames the eligibility tangle with 'The Sound of Music' -- 'how do you solve a problem like' Estrada, and how do you 'hold a moonbeam in your hands'?",
+    "Print it or not: he flags that, because voters merely 'shade the ovals,' if Estrada's name is not printed by the January 9 deadline 'he could not be voted regardless of the verdict.'",
+    "The surname loophole: he asks whether a same-surnamed substitute like Jinggoy Estrada could inherit Erap's votes -- one of automation's novel puzzles.",
+    "Let the people decide: he invokes Puno's Tecson line that on political questions 'the sovereign people will not' err, even if the Court might."
+  ],
+  "target_audience": [
+    "Inquirer readers following Estrada's 2010 bid",
+    "The Comelec and election lawyers",
+    "Voters and constitutional commentators"
+  ],
+  "register_markers": [
+    "current-events legal-explainer register",
+    "two-challenges framing (pardon; reelection ban)",
+    "even-handed textual debate",
+    "cascade of administrative what-ifs",
+    "pop-culture framing ('Sound of Music')"
+  ],
+  "decision_framework_signals": [
+    "pardons-construed-by-their-text: silence means restoration, not retained burden",
+    "contested-constitutional-text: 'any reelection' vs. the succession clause",
+    "adopters-over-framers and defer-to-the-electorate on political questions",
+    "tribunal-ladder: Comelec division → En Banc → Supreme Court",
+    "automation-constraints: printing deadlines and substitution shape eligibility's real effect"
+  ],
+  "one_paragraph_summary": "Chapter 2 of 'With Due Respect' (Vol. 6), CJP's October 25, 2009 Inquirer column, takes up the legal and administrative tangle of Joseph 'Erap' Estrada's presidential bid -- launched at an October 21 Tondo rally under 'Tapat sa Mahirap' with running mate Jojo Binay -- framing it with 'The Sound of Music': 'how do you solve a problem like' Estrada? Estrada would likely file his COC on the November 30 deadline (an earlier filing risking the premature-campaigning ban under Penera v. Comelec), after which adversaries would 'feast on him' with two eligibility challenges. First, that GMA's plunder pardon carried a continuing disqualification -- which CJP rejects, arguing the clemency was 'absolute and unconditional,' since a retained accessory penalty 'should have been couched in clear language' and the pardon instead expressly 'restored his civil and political rights.' Second, the more 'contentious' claim that the Constitution bars all former presidents: some read 'any reelection' as a perpetual bar on elected presidents (Ramos, Arroyo, Estrada), while others say 'the President' means only the incumbent and the clause on those who 'succeeded' for under four years lets Erap run -- invoking that 'the interpretation of the people who adopted the Constitution prevails' and Puno's Tecson v. Comelec line that 'the better policy approach is to let the people decide,' for on political questions 'this Court may err but the sovereign people will not.' Before any ruling, though, the Comelec must climb its own ladder (division → En Banc → Court) and solve automation puzzles: whether to print Estrada's name by the January 9 deadline (since voters merely 'shade the ovals'), whether his votes would count if he is disqualified, and whether a substitute like Binay or a same-surnamed Jinggoy could inherit them -- a riddle CJP likens to holding 'a moonbeam in your hands.'",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

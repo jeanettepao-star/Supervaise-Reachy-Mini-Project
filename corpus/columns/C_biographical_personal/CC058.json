@@ -1,0 +1,161 @@
+{
+  "id": "CC058",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 58,
+  "title": "Make each day count!",
+  "date": "2019-12-22",
+  "link": "https://opinion.inquirer.net/126042/make-each-day-count",
+  "keywords": [
+    "retired justices",
+    "aging",
+    "Christmas",
+    "longevity",
+    "future technology",
+    "senior reflections"
+  ],
+  "primary_topics": [
+    "Christmas message to retired SC justices on disagreement-as-collegiality",
+    "Gratitude for bonus longevity beyond the Philippine average of 70 years",
+    "Snoopy-Charlie-Brown cartoon as the day-by-day living frame",
+    "Generational reminiscence -- 1950s/60s/70s university belt law schools and 15-centavo bus fares",
+    "Near-future technology vision: 5G, AI, cryptocurrencies, IoT, stem-cell-based regenerative medicine",
+    "Forecast of optional natural-cause death within 25 years (telomere lengthening, body-part regeneration)",
+    "Closing Einstein-vs-bar-flunker brain auction joke"
+  ],
+  "sub_topics": [
+    "Retired justices' Christmas party -- CJ delivers a message (original text at cjpanganiban.com)",
+    "Mantra: 'disagree without being disagreeable... differ without being difficult'",
+    "Philippine longevity stats: 69 men, 71 women, 70 average",
+    "Charlie Brown vs Snoopy cartoon -- 'We only live once' / 'Wrong! We only die once. We live every day'",
+    "1950s-70s Manila university-belt law schools: UP, Ateneo, USC, UST, San Beda, MLQ, UE, FEU",
+    "Halili Transit and JD Bus at 15 centavos/fare",
+    "Exchange rate: 4 pesos per US dollar in that era",
+    "Date venues: Moonlit Terrace, Jai Alai Sky Room, Winter Garden",
+    "Favorite singers (then): Sylvia La Torre, Ruben Tagalog, Diomedes Maturan, Pilita Corrales",
+    "Favorite singers (now): Derrick Monasterio, Moira de la Torre, Vanjoss Bayaban",
+    "5G technology: shop via smartphone, monitor home CCTV from abroad",
+    "Beyond internet: AI, cryptocurrencies, IoT in the next 5 years",
+    "Stem cell technology to extend life to 150 years; replacement body parts",
+    "Telomere shortening as cause of aging; lab experiments showing telomere lengthening is possible",
+    "Death from disease becoming 'optional' in 25 years",
+    "Brain auction joke: Einstein's brain ($1,000) vs. three-time bar flunker's brain ($100,000) -- because Einstein's is overused, the flunker's is almost new",
+    "Closing 'Mabuhay!' as the signature CJ valedictory"
+  ],
+  "signature_phrases": [
+    "I will sum up my talk within my limited space",
+    "Original at cjpanganiban.com, then click 'Speeches'",
+    "we could disagree without being disagreeable",
+    "differ without being difficult",
+    "Lay people cannot believe",
+    "after exchanging strongly-worded opposing opinions, we remain the best of colleagues",
+    "Because we disagree only with our views and thoughts, and not with our persons",
+    "We thank our Lord for gifting us with long lives",
+    "the Good God has granted us bonus days and years",
+    "we wake up each morning with a prayer of thanksgiving",
+    "We only die once. We live every day",
+    "let us make each day count",
+    "Smile, laugh, sing, dance, help the poor, enjoy life",
+    "pray for a few more years, till we reach 100 and beyond",
+    "Ah, them were the days",
+    "now traffic-laden",
+    "we dated our girlfriends (who became our wives)",
+    "Who are the newest singing sensations today?",
+    "the advent of the fifth generation (or 5G) technology",
+    "the wonders of artificial intelligence, cryptocurrencies and the Internet of Things",
+    "a revolution in health care",
+    "death from disease will be 'optional'",
+    "aging will be reversed",
+    "they will have the advantage of growing their replacement body parts",
+    "Humans would no longer die from natural causes",
+    "shortening of the telomeres of the chromosomes",
+    "the brains of the dead would be sold to replace those of the living",
+    "Mabuhay!"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (speaker; 'fellow seniors')",
+      "Retired SC justices (audience at Christmas party)",
+      "Charlie Brown and Snoopy (cartoon characters cited)",
+      "Sylvia La Torre, Ruben Tagalog, Diomedes Maturan, Pilita Corrales (then-singers)",
+      "Derrick Monasterio, Moira de la Torre, Vanjoss Bayaban (now-singers)",
+      "Albert Einstein (brain auction joke)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (retired justices' association)",
+      "1950s-70s Manila law schools: UP, Ateneo, USC, UST, San Beda, MLQ, UE, FEU",
+      "Halili Transit, JD Bus (1950s/60s bus lines)",
+      "Moonlit Terrace, Jai Alai Sky Room, Winter Garden (Manila date venues)"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "Christmas party of retired SC justices (the speech occasion)",
+      "Year 2019 Christmas season"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "True collegiality means disagreeing without being disagreeable and differing without being difficult -- because the disagreement is with views and thoughts, not with persons or with comradeship.",
+      "rhetorical_move": "collegiality-as-disposition framing (defining institutional harmony by intellectual independence)",
+      "confidence": "asserted as personal credo"
+    },
+    {
+      "claim": "Filipinos at retired-justice age (well past the national average of 70) live on 'bonus days' granted by the Lord; the appropriate response is daily thanksgiving and intentional living, not regret about the past.",
+      "rhetorical_move": "longevity-as-grace framing (faith-grounded gratitude as posture)",
+      "confidence": "asserted as exhortation"
+    },
+    {
+      "claim": "Snoopy is right and Charlie Brown is wrong: 'We only die once. We live every day' -- meaning each additional day is the unit of moral attention, not 'one life.'",
+      "rhetorical_move": "cartoon-aphorism-as-philosophy (using popular culture to convey existential framing)",
+      "confidence": "asserted as exhortation"
+    },
+    {
+      "claim": "Within 25 years, the convergence of 5G, AI, cryptocurrencies, IoT and especially stem-cell regenerative medicine will make natural-cause death 'optional' for the grandchildren of today's seniors -- humans will routinely live to 150 by growing or trading replacement body parts.",
+      "rhetorical_move": "near-future-extrapolation (treating laboratory telomere experiments as foreshadowing of routine human practice)",
+      "confidence": "asserted with confident futurism"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Snoopy-Charlie-Brown cartoon -- gifted via Viber, used as the philosophical centerpiece of the talk; 'We only die once. We live every day' has become a quotable CJ-favored aphorism.",
+    "The 1950s/60s Manila nostalgia inventory -- 15-centavo bus fares on Halili Transit and JD Bus, four pesos to the dollar, dating at Moonlit Terrace, Jai Alai Sky Room and Winter Garden, and singers like Pilita Corrales -- used to bond with fellow seniors via shared period reference.",
+    "The university-belt law school roll call (UP, Ateneo, USC, UST, San Beda, MLQ, UE, FEU) -- invoking the now-traffic-laden alma maters of his cohort.",
+    "The futurist arc -- 5G smartphone shopping, monitored home CCTV from abroad, AI, cryptocurrencies, IoT, stem-cell body-part replacement, telomere lengthening -- wrapped up with 'death from disease will be optional' in 25 years.",
+    "The Einstein-vs-bar-flunker brain auction joke -- Einstein's brain at $1,000 because it's overused, the flunker's brain at $100,000 because it's 'almost new and underused' -- the most quotable CJ humor moment of the column.",
+    "The closing 'Mabuhay!' -- CJ's recurring signature Filipino valedictory."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Retired SC justices (primary audience of the speech being summarized)",
+    "Seniors and elderly Filipinos",
+    "CJ's personal-essay following",
+    "Filipinos of the 1950s/60s/70s generation seeking shared nostalgia",
+    "Readers interested in CJ's Christmas/year-end reflections"
+  ],
+  "register_markers": [
+    "Personal-conversational register with speech-summary frame",
+    "Self-referencing original speech ('Original at cjpanganiban.com, then click Speeches')",
+    "Chiastic doublets ('disagree without being disagreeable... differ without being difficult')",
+    "Question-and-answer rhetorical rhythm ('Who are the newest singing sensations today? Derrick Monasterio...')",
+    "Nostalgic period inventory (bus fares, exchange rates, venues, singers)",
+    "Faith-language interjections ('thank our Lord,' 'Good God has granted')",
+    "Futurist-optimist register ('the wonders of artificial intelligence')",
+    "Self-deprecating jokes (Einstein vs bar flunker)",
+    "Closing 'Mabuhay!' -- recurrent CJ valedictory",
+    "Exhortation-list ('Smile, laugh, sing, dance, help the poor')",
+    "Embedded jokes flagged as such ('see my original talk for more jokes')"
+  ],
+  "decision_framework_signals": [
+    "uses chiastic doublets ('disagree without being disagreeable') as the canonical CJ formula for principled collegiality",
+    "frames advanced age as a faith-grounded 'bonus days' grace rather than burden",
+    "treats popular-culture aphorisms (Snoopy) as legitimate philosophical anchors for senior-living guidance",
+    "applies confident near-future technology extrapolation to broaden seniors' temporal horizon",
+    "uses period-shared nostalgia inventory to build solidarity with the cohort being addressed",
+    "deploys self-deprecating jokes to balance the doctrinal-formal SC-speech genre",
+    "closes with 'Mabuhay!' as CJ's distinctive Filipino farewell"
+  ],
+  "one_paragraph_summary": "In a Christmas-season column summarizing his talk to retired SC justices at their Christmas party, Panganiban offers a meditation on collegiality, gratitude, nostalgia, and futurism. He opens with his canonical formula for principled disagreement -- 'disagree without being disagreeable... differ without being difficult' -- and explains why lay people are surprised that justices remain the best of colleagues after strongly worded opposing opinions: the disagreement is with views, not with persons. He thanks God for the 'bonus days and years' beyond the Philippine average longevity of 70 (69 men, 71 women), citing a Snoopy-Charlie-Brown cartoon -- 'We only die once. We live every day' -- and exhorts seniors to make each day count: 'Smile, laugh, sing, dance, help the poor, enjoy life... till we reach 100 and beyond.' He indulges generational nostalgia -- 1950s university-belt law schools (UP, Ateneo, USC, UST, San Beda, MLQ, UE, FEU), 15-centavo bus fares on Halili Transit and JD Bus, four pesos to the dollar, dates at Moonlit Terrace and Jai Alai Sky Room, and the singers Sylvia La Torre, Ruben Tagalog, Diomedes Maturan and Pilita Corrales -- and pivots to the futurist arc: 5G smartphone shopping and home CCTV, AI, cryptocurrencies, IoT, and the stem-cell revolution that will let grandchildren live 150 years via grown or traded replacement body parts. 'Death from disease will be optional' in 25 years; aging will be reversed via telomere lengthening, already shown possible in lab experiments. He closes with the trademark Einstein-vs-bar-flunker brain auction joke (Einstein's brain is cheaper because it's already overused) and his signature Filipino valedictory: 'Mabuhay!'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

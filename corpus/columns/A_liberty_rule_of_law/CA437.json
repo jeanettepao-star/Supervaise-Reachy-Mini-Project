@@ -1,0 +1,159 @@
+{
+  "id": "CA437",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 437,
+  "title": "DAP is not PDAF",
+  "date": "2013-11-09",
+  "link": "https://opinion.inquirer.net/65091/dap-is-not-pdaf",
+  "keywords": [
+    "Mindanao peace",
+    "MNLF",
+    "MILF",
+    "Zamboanga siege",
+    "Bangsamoro",
+    "Tripoli Agreement",
+    "FAB",
+    "Misuari"
+  ],
+  "primary_topics": [
+    "Mindanao peace process history and current status",
+    "Distinction between MNLF (Misuari) and MILF (Salamat/Murad) tracks",
+    "Zamboanga City attack as MNLF faction's attempt to block MILF-led Bangsamoro inevitability",
+    "Framework Agreement on the Bangsamoro (FAB) and its annexes"
+  ],
+  "sub_topics": [
+    "'When guns speak, laws are silent' framing",
+    "Comparative bloody conflicts: France, US, China, Vietnam, Serbia, Egypt, Tunisia, Libya, Syria",
+    "PH peaceful colored revolutions -- yellow 1986, Rose (Georgia 2003), orange (Ukraine 2004), tulip (Kyrgyzstan 2005)",
+    "Two ongoing bloody fronts: NPA rebellion and Mindanao secessionist movements",
+    "Presidential continuity from Quezon to Aquino III in dealing with insurrections",
+    "MNLF founded 1969 by Nur Misuari, OIC recognition 1974",
+    "1976 Tripoli Agreement -- autonomy not independence",
+    "1977 MNLF split with MILF formation under Hashim Salamat",
+    "1987 Constitution and RA 6734 ARMM creation 1989 -- denounced by both fronts",
+    "Ramos-era 1996 Final Peace Agreement; Misuari elected ARMM governor same month",
+    "Implementation: Shariah courts, MNLF integration into AFP",
+    "Parouk Hussein succeeded Misuari as ARMM governor Nov 26, 2001",
+    "GPH-OIC-MNLF tripartite meetings continuing",
+    "Aquino-era Deles-led pursuit through Saudi Arabia, Indonesia, Kazakhstan, Djibouti meetings",
+    "42 consensus points to amend RA 9054; Bangsamoro Development Assistance Fund",
+    "FAB signed Oct 15, 2012 with MILF",
+    "Annex on Revenue Generation and Wealth Sharing (July 13, 2013); Annex on Transitional Arrangements and Modalities (Feb 27, 2013)",
+    "EO 120 (Dec 17, 2012) creating Transition Commission for Bangsamoro Basic Law",
+    "MILF's less-than-200-fighter faction attempt to derail inevitability via Zamboanga attack"
+  ],
+  "signature_phrases": [
+    "When guns speak, laws are silent",
+    "colored revolutions",
+    "tiptoe through separate peace negotiations",
+    "the Zamboanga caper",
+    "stormy river to peace",
+    "fix their gaze on their destination of prosperity and wellbeing for all",
+    "lasting peace is the ultimate goal"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Nur Misuari (MNLF founder, former ARMM governor)",
+      "Hashim Salamat (MILF founder)",
+      "Parouk Hussein (succeeded Misuari as ARMM governor Nov 26 2001)",
+      "Teresita Deles (Presidential Adviser on Peace Process)",
+      "Fidel Ramos",
+      "Cory Aquino",
+      "Benigno Aquino III",
+      "Presidents Quezon, Osmeña, Roxas, Quirino, Magsaysay, Garcia, Macapagal, Marcos, Estrada, Arroyo (listed)"
+    ],
+    "institutions": [
+      "Moro National Liberation Front (MNLF)",
+      "Moro Islamic Liberation Front (MILF)",
+      "New People's Army (NPA)",
+      "Organization of Islamic Conference (OIC)",
+      "Government of the Philippines (GPH) peace panel",
+      "Autonomous Region in Muslim Mindanao (ARMM)",
+      "Armed Forces of the Philippines",
+      "Shariah courts",
+      "Bangsamoro Transition Commission"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution (denounced by both MNLF and MILF originally)",
+      "RA 6734 (ARMM Organic Act 1989)",
+      "RA 9054 (ARMM expanded organic act)",
+      "1976 Tripoli Agreement",
+      "1996 Final Peace Agreement",
+      "Framework Agreement on the Bangsamoro (FAB, Oct 15 2012)",
+      "Annex on Revenue Generation and Wealth Sharing (July 13 2013)",
+      "Annex on Transitional Arrangements and Modalities (Feb 27 2013)",
+      "Executive Order 120 (Dec 17 2012 -- Transition Commission)"
+    ],
+    "events": [
+      "1969 MNLF founding",
+      "1974 OIC recognition of MNLF",
+      "1975 Jeddah meetings",
+      "1976 Tripoli Agreement signing",
+      "1977 MILF split",
+      "1986 EDSA yellow revolution",
+      "1989 ARMM creation",
+      "1996 Final Peace Agreement signing; Misuari ARMM gubernatorial election",
+      "Nov 26 2001 -- Hussein succession as ARMM governor",
+      "Oct 15 2012 -- FAB signing",
+      "Feb 27 2013 -- Transitional Arrangements Annex",
+      "July 13 2013 -- Wealth Sharing Annex",
+      "Dec 17 2012 -- EO 120 Transition Commission",
+      "Zamboanga City attack (Sept 2013)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Philippines is fortunate to have built a tradition of bloodless colored revolutions -- yellow in 1986 inspired Georgia's Rose, Ukraine's orange, and Kyrgyzstan's tulip -- but two armed fronts (NPA rebellion and Mindanao secessionist movements) remain stubbornly unresolved.",
+      "rhetorical_move": "global-comparative pride framing then domestic-exception locating",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Every Philippine president from Quezon through Aquino III has shifted between military warfare and peace negotiations -- the binary itself is the inherited toolkit, and the only variable is the intensity of each phase.",
+      "rhetorical_move": "presidential-continuity-of-tactics framing (using the full presidential roster to depersonalize the dilemma)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Misuari's MNLF faction -- reduced to fewer than 200 fighters -- staged the Zamboanga attack precisely because it sees MILF leadership of the Bangsamoro people as inevitable before Aquino's 2016 term ends, and the attack is a desperate spoiler move, not a viable counter-strategy.",
+      "rhetorical_move": "spoiler-strategy reading (interpreting violence as evidence of weakness rather than strength)",
+      "confidence": "asserted, hedged ('experts say, not without reason')"
+    },
+    {
+      "claim": "The GPH and MILF are 'inexorably headed to stable peace' before Aquino's 2016 term ends, ushering in MILF leadership of the Bangsamoro -- the trajectory is set, the Zamboanga caper notwithstanding.",
+      "rhetorical_move": "trajectory-assertion framing (treating outcome as already determined despite spoilers)",
+      "confidence": "asserted with hope register"
+    }
+  ],
+  "notable_anecdotes": [
+    "The MNLF Zamboanga faction reduced to 'less than 200 fighters' -- the precise numerical diminishment is the column's most concrete evidence for the spoiler-not-strength reading.",
+    "The colored-revolutions lineage -- PH yellow 1986 -> Georgia Rose 2003 -> Ukraine orange 2004 -> Kyrgyzstan tulip 2005 -- the rare CJ passage that positions PH not as follower but as global model for democratic transitions.",
+    "The roster of Mindanao-negotiation venues -- Jeddah, Saudi Arabia, Indonesia, Kazakhstan, Djibouti -- the geographic span as evidence of the OIC-facilitated diplomatic-arc the GPH has cultivated."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Mindanao peace-process watchers",
+    "Foreign-policy and comparative-conflict observers",
+    "Aquino administration supporters and Deles team"
+  ],
+  "register_markers": [
+    "historical-survey register opening ('When guns speak, laws are silent')",
+    "long presidential roster (Quezon through Aquino III) as continuity device",
+    "'caper' as deliberately diminishing label for Zamboanga attack",
+    "'tiptoe' verb for delicate dual-track negotiations",
+    "stormy-river/destination metaphor at close",
+    "hopeful but not naive closing register ('I hope Secretary Deles and her team will persevere')"
+  ],
+  "decision_framework_signals": [
+    "uses global-comparative framing (colored revolutions) to anchor domestic exceptions",
+    "applies presidential-continuity-of-tactics to depersonalize policy choices",
+    "reads political violence through spoiler-strategy lens (violence as evidence of weakness, not strength)",
+    "treats stable diplomatic trajectories as effectively determined despite isolated spoilers",
+    "distinguishes parallel tracks (MNLF vs MILF) requiring separate but coordinated negotiation architecture"
+  ],
+  "one_paragraph_summary": "Panganiban opens with 'When guns speak, laws are silent' to frame both inter-state wars (France, US, China, Vietnam, Serbia, and recently Egypt, Tunisia, Libya, Syria) and civil strife, then notes the Philippines' fortunate tradition of bloodless colored revolutions -- yellow in 1986, followed globally by Georgia's Rose (2003), Ukraine's orange (2004), and Kyrgyzstan's tulip (2005). Yet two armed fronts remain: the NPA rebellion and the Mindanao secessionist movements, where every president from Quezon to Aquino III has shifted between warfare and negotiation. He traces the MNLF track from its 1969 founding under Nur Misuari, the 1974 OIC recognition, the 1976 Tripoli Agreement settling on autonomy (not independence), the 1977 MILF split under Hashim Salamat, ARMM's 1989 creation, Ramos' 1996 Final Peace Agreement and Misuari's ARMM gubernatorial victory, his 2001 displacement by Parouk Hussein, and the continuing tripartite meetings with the OIC. He then traces the MILF track culminating in the October 15, 2012 Framework Agreement on the Bangsamoro and its already-signed Transitional Arrangements (Feb 27, 2013) and Wealth Sharing (July 13, 2013) annexes, with EO 120 creating the Transition Commission. He reads the Zamboanga 'caper' by a Misuari faction of fewer than 200 fighters as a desperate spoiler against the 'inexorable' MILF-led Bangsamoro before Aquino's 2016 term ends, and urges Presidential Adviser Teresita Deles to persevere in 'navigating the stormy river to peace': 'lasting peace is the ultimate goal.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,170 @@
+{
+  "id": "CA386",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 386,
+  "title": "MILF aspiration unchanged",
+  "date": "2015-03-22",
+  "link": "https://opinion.inquirer.net/83509/milf-aspiration-unchanged",
+  "keywords": [
+    "Bangsamoro Basic Law",
+    "BBL",
+    "constitutionality",
+    "SB 2408",
+    "territory",
+    "political subdivisions",
+    "opt-in plebiscite",
+    "sub judice"
+  ],
+  "primary_topics": [
+    "Second in BBL doctrinal arc March 22 2015 -- focuses on the constitutionality obstacle (vs the political-palatability obstacle)",
+    "Senate Bill No. 2408 (119-page BBL document) as the 'present form' being analyzed",
+    "No-advisory-opinion-on-pending-bills doctrine -- SC power limited to 'actual controversies'",
+    "Best methodology for predicting SC's BBL ruling: analyze North Cotabato v. Government (Oct 14 2008) and compare with BBL",
+    "Three lessons from North Cotabato (decision written by then-Justice Conchita Carpio Morales)",
+    "Lesson 1: right-to-be-informed-even-without-demand on peace negotiations -- 'ours is an open society'",
+    "Lesson 2: peace negotiators as mere agents of President with no binding effect on legislature or judiciary",
+    "Lesson 3: 'associative' relation between Bangsamoro Juridical Entity (BJE) and central government unconstitutional -- implies state-within-a-state",
+    "BBL's 'asymmetric' word change is cosmetic -- underlying meaning same as 'associative' per BBL's own 'Central Government shall respect the exercise of competencies and exclusive powers' phrasing",
+    "Two solutions to save peace: amend BBL to conform to Constitution OR amend Constitution to empower Congress to grant MILF's asymmetric aspiration"
+  ],
+  "sub_topics": [
+    "Two major obstacles beset BBL: (1) constitutionality, (2) political palatability -- column takes up first",
+    "Mere guesses by all sides on BBL's constitutionality -- SC does not render advisory opinions",
+    "SC power 'limited to actual controversies' -- actual violations of existing constitutional rights, not academic questions or anticipated laws",
+    "Cannot render opinion on pending legislation like SB 2408",
+    "Best way to predict ruling: analyze North Cotabato v. Government promulgated Oct 14 2008",
+    "Landmark decision by Justice (now Ombudsman) Conchita Carpio Morales invalidated MOA-AD",
+    "Court delved into 'the extent of the power of the President in pursuing the peace process' (bold type in original)",
+    "Principles 'should guide future peace talks in all areas of the country'",
+    "Lesson 1: people's constitutional right to be informed; government's duty to disclose 'even if nobody demands' details of peace negotiations",
+    "Lesson 2: government's peace negotiators are mere agents of the President; cannot have more powers than principal; do not represent or bind legislature and judiciary",
+    "Lesson 3: 'associative' relation unconstitutional -- 'No province, city, or municipality, not even the ARMM, is recognized under our laws as having an associative relationship with the national government'",
+    "'[Associative] concept implies powers that go beyond anything ever granted by the Constitution to any local or regional government'",
+    "Constitution does not contemplate any state other than the Philippine State, much less provide for transitory status preparing any part of territory for independence (italics and underscoring in original)",
+    "Spirit animating BJE betrays itself by use of association concept; runs counter to national sovereignty and territorial integrity",
+    "Defining concept being contrary to Constitution, many specific MOA-AD provisions in conflict",
+    "BBL abandons 'associative' for 'asymmetric' but meaning the same",
+    "Smoking gun: BBL phrasing 'Central Government shall respect the exercise of competencies and exclusive powers of the Bangsamoro Government'",
+    "MILF aspiration unchanged: distinct and exclusive powers beyond what given to any LGU including ARMM",
+    "CJP respects MILF aspiration -- MILF rebelled because of inability to obtain longing for distinct/exclusive powers",
+    "Two solutions: (1) amend BBL to conform to Constitution OR (2) amend Constitution to empower Congress to grant asymmetric aspiration",
+    "Back-reference to 'Saving the peace' (2/8/15) -- i.e., A389"
+  ],
+  "signature_phrases": [
+    "Verily",
+    "in my humble opinion (implied)",
+    "state within a state (via Court quotation)",
+    "mere guesses",
+    "defining concept",
+    "asymmetric aspiration"
+  ],
+  "entities": {
+    "people": [
+      "Justice (now Ombudsman) Conchita Carpio Morales (North Cotabato ponente)",
+      "Moro Islamic Liberation Front (MILF) leadership"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Bangsamoro Juridical Entity (BJE) -- original MOA-AD concept",
+      "Moro Islamic Liberation Front (MILF)",
+      "Autonomous Region in Muslim Mindanao (ARMM)",
+      "Congress of the Philippines",
+      "Office of the Ombudsman"
+    ],
+    "cases": [
+      "North Cotabato v. Government (October 14, 2008)"
+    ],
+    "laws_treaties": [
+      "Senate Bill No. 2408 (119-page proposed BBL)",
+      "Memorandum of Agreement on Ancestral Domain (MOA-AD) -- invalidated 2008",
+      "1987 Constitution"
+    ],
+    "events": [
+      "October 14, 2008 -- SC promulgates North Cotabato v. Government",
+      "Filing of SB 2408 as BBL's present form"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Two major obstacles beset the BBL: its constitutionality and its political palatability -- this column takes up the first; political palatability will require its own treatment",
+      "rhetorical_move": "dual-obstacle framing as scope-setter",
+      "confidence": "high"
+    },
+    {
+      "claim": "All opinions on BBL constitutionality are mere guesses -- the Court does not render advisory opinions on pending bills; its power to decide is limited to 'actual controversies'",
+      "rhetorical_move": "no-advisory-opinion doctrinal grounding",
+      "confidence": "high"
+    },
+    {
+      "claim": "The best way to predict what the Court would do is to analyze North Cotabato v. Government (Oct 14 2008) -- a landmark decision by Justice Carpio Morales that invalidated the MOA-AD and delved into the larger issue of the extent of the President's power in pursuing the peace process",
+      "rhetorical_move": "methodology-grounding via landmark-decision analysis",
+      "confidence": "high"
+    },
+    {
+      "claim": "Lesson 1: the people have a constitutional right to be informed and the government has a corresponding duty to disclose 'even if nobody demands' the details of peace negotiations -- ours is an open society with all government acts subject to public scrutiny",
+      "rhetorical_move": "doctrinal-extraction with quoted-text grounding",
+      "confidence": "high"
+    },
+    {
+      "claim": "Lesson 2: peace negotiators are mere agents of the President; they cannot have more powers than their principal; they do not represent or bind the legislature and the judiciary -- they cannot guarantee that the peace agreement will be enacted into law or that the law will pass judicial review",
+      "rhetorical_move": "doctrinal-extraction emphasizing limits of executive power",
+      "confidence": "high"
+    },
+    {
+      "claim": "Lesson 3: the 'associative' relation between the BJE and central government is unconstitutional -- no province, city, or municipality, not even the ARMM, is recognized under Philippine laws as having such relationship; it implies powers beyond anything granted by the Constitution and recognition as a state",
+      "rhetorical_move": "doctrinal-extraction with full Court-quote",
+      "confidence": "high"
+    },
+    {
+      "claim": "Though the BBL abandoned 'associative' for 'asymmetric,' the underlying meaning is basically the same -- the smoking-gun phrase is BBL's own 'Central Government shall respect the exercise of competencies and exclusive powers of the Bangsamoro Government'",
+      "rhetorical_move": "word-change-but-same-meaning forensic-textual analysis",
+      "confidence": "high"
+    },
+    {
+      "claim": "The MILF rebelled because of its inability to obtain its longing for distinct and exclusive powers; CJ respects this aspiration -- the way to peace is either to amend the BBL to conform to the Constitution or to amend the Constitution to empower Congress to grant the MILF's asymmetric aspiration (back-referenced to 'Saving the peace,' A389)",
+      "rhetorical_move": "respectful-empathy + two-solution offer with back-reference",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "SB 2408 as the 'present form' being analyzed -- 119-page document",
+    "Court does not render advisory opinions on pending legislation",
+    "Use of bold/italic/underscoring in the original Court decision against 'associative' as state-within-a-state concept",
+    "BBL's own phrasing ('Central Government shall respect the exercise of competencies and exclusive powers') betrays unchanged meaning",
+    "Justice Carpio Morales who wrote North Cotabato later became Ombudsman"
+  ],
+  "target_audience": [
+    "Members of Congress on BBL deliberations",
+    "Lawyers and constitutional scholars",
+    "MILF leadership and government peace panel",
+    "Inquirer readership following BBL constitutionality debate",
+    "Mindanao political stakeholders",
+    "Civil-society groups invested in peace process"
+  ],
+  "register_markers": [
+    "dual-obstacle framing as scope-setter",
+    "no-advisory-opinion doctrinal grounding",
+    "methodology-grounding via landmark-decision analysis",
+    "three-lessons enumeration with quoted-text grounding",
+    "preserved-Court-formatting (italics, bold, underscoring) for fidelity",
+    "word-change-but-same-meaning forensic-textual analysis",
+    "respectful-empathy + two-solution offer",
+    "back-reference to prior 'Saving the peace' column",
+    "Verily as opening register marker"
+  ],
+  "decision_framework_signals": [
+    "Dual-obstacle framework for constitutional legislation: constitutionality + political palatability",
+    "No-advisory-opinion principle for predicting SC rulings",
+    "Landmark-decision-as-predictor methodology",
+    "Three-lessons doctrinal-extraction format",
+    "Word-change-but-same-meaning textual-analysis tool",
+    "Spirit-animating doctrine (Court's framing of underlying intent)",
+    "Two-solutions framework: amend-bill OR amend-Constitution",
+    "Respectful-empathy for rebel aspirations as starting-point"
+  ],
+  "one_paragraph_summary": "Panganiban writes the second installment in his BBL doctrinal arc, taking up the first of two major obstacles besetting the proposed Bangsamoro Basic Law: its constitutionality (the second, political palatability, gets its own column). Much has been said about BBL's constitutionality, but all opinions are mere guesses as to what the Supreme Court would do if the BBL -- in its present form (Senate Bill No. 2408, a 119-page document) -- is brought to it. The Court does not render advisory opinions on the constitutionality of pending bills; its power is limited to actual controversies -- that is, to actual violations of existing constitutional and legal rights, not to academic questions or anticipated laws. Hence, it cannot render an opinion on the constitutionality of pending legislation like SB 2408. CJ thinks the best way to predict what the Court would do is to analyze its decision in North Cotabato v. Government, promulgated October 14, 2008, and compare it with the BBL. This landmark decision, written by Justice (now Ombudsman) Conchita Carpio Morales, invalidated the MOA-AD between government and the MILF -- and fortunately, it also delved deep into the larger issue of the extent of the President's power in pursuing the peace process. The Court explained that while the facts surrounding the controversy center on the armed conflict in Mindanao, the principles and doctrines enunciated should guide future peace talks in all areas of the country. What are the lessons? First: the people have a constitutional right to be informed and the government has a corresponding duty to disclose even if nobody demands the details of peace negotiations -- ours is an open society, with all the acts of the government subject to public scrutiny and available always to public cognizance. Second: since the government's peace negotiators are mere agents of the President, they cannot have more powers than their principal; moreover, they do not represent and do not bind the legislature and the judiciary. Consequently, they cannot guarantee that any peace agreement they entered into will be enacted into law, much less that the law thus enacted will pass judicial review. Third: the associative relation between the Bangsamoro Juridical Entity and the central government, as provided in the MOA-AD, is unconstitutional. The Court solemnly ruled: No province, city, or municipality, not even the ARMM, is recognized under our laws as having an associative relationship with the national government. Indeed, the associative concept implies powers that go beyond anything ever granted by the Constitution to any local or regional government. It also implies the recognition of the associated entity as a state. The Constitution, however, does not contemplate any state in this jurisdiction other than the Philippine State, much less does it provide for a transitory status that aims to prepare any part of the Philippine territory for independence (italics and underscoring in original). The Court explained that the spirit animating the BJE -- which has betrayed itself by its use of the concept of association -- runs counter to the national sovereignty and territorial integrity of the Republic (italics and bold types in original). Consequently, because the defining concept underlying the relationship between the national government and the BJE is itself contrary to the Constitution, it is not surprising that many of the specific provisions of the MOA-AD on the formation and powers of the BJE are in conflict with the Constitution and the laws. Deferring to the Court's invalidation, the BBL abandoned the word associative, instead proposing that the relationship between the Central Government and the Bangsamoro Government shall be asymmetric -- reflective of the recognition of their Bangsamoro identity and their aspiration for self-governance, distinct from other regions and other local governments. Though the descriptive word has changed from associative to asymmetric, the underlying meaning is basically the same. The smoking gun is BBL's own next sentence: The Central Government shall respect the exercise of competencies and exclusive powers of the Bangsamoro Government. Verily, the basic aspiration for self-governance of the MILF has not changed. Like in the old MOA-AD, it still wants self-governance distinct from and not given to other LGUs (not even ARMM) and aspires for powers exclusive to itself -- these distinction and exclusivity are the defining concepts that animated the invalidated MOA-AD. CJ respects this aspiration -- the MILF rebelled because of its inability to obtain its longing for distinct and exclusive powers. The way to peace, as he wrote in 'Saving the peace' (2/8/15, i.e., A389), would be either to amend the BBL to conform to the Constitution, or to amend the Constitution to empower Congress to grant the MILF's asymmetric aspiration.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

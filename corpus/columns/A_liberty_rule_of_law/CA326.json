@@ -1,0 +1,146 @@
+{
+  "id": "CA326",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 326,
+  "title": "Will Bongbong replace Leni?",
+  "date": "2016-12-18",
+  "link": "https://opinion.inquirer.net/100101/will-bongbong-replace-leni",
+  "keywords": [
+    "Bongbong election protest 1,000-page petition",
+    "PET preliminary precautionary order",
+    "39,221 clustered precincts 97,366 VCMs",
+    "SD cards as ballot images",
+    "Smartmatic P2-B turnover",
+    "Robredo counterprotest 8,042 precincts",
+    "George Garcia vs Romulo Macalintal",
+    "Phnom Penh Duterte health speech"
+  ],
+  "primary_topics": [
+    "Bongbong Marcos's PET election protest against VP Leni Robredo",
+    "Duterte's Dec 14 Phnom Penh disclosure of poor health (Buerger's, migraine, back pains)",
+    "1,000-page petition + 20,000 affidavits raising VCM and hash-code issues",
+    "Comelec's potential P2.078B Smartmatic VCM lease cost if recount uses machines",
+    "Timeline estimate: 2+ years for Marcos protest, 1+ year for Robredo counterprotest"
+  ],
+  "sub_topics": [
+    "Duterte's Dec 14 Phnom Penh speech to Filipino community on possible non-completion of term",
+    "Buerger's disease, daily migraine, terrible back pains",
+    "Marcos's 1,000-page petition + 20,000+ affidavits",
+    "Allegation: VCM violations + machines not previously demonstrated",
+    "Counter-argument: if VCM allegation true, all 2016 victors (including Duterte) would be unseated",
+    "2016 elections were generally peaceful, orderly, credible",
+    "Hash code introduction into Transparency Server -- debunked by Comelec, PPCRV, technology experts",
+    "Traditional cheating allegations: vote-buying, pre-shading, intimidation, erroneous counting",
+    "39,221 clustered precincts involving 97,366 VCMs in 25 provinces and 5 cities",
+    "PET preliminary precautionary order -- preserve VCMs, ballots, SD cards",
+    "PET resolution Dec 6, 2016 -- potential P2,078,304,225.76 to Smartmatic",
+    "CJ's view: Marcos should pay; VCMs need not be used due to dust/water exposure in warehouses",
+    "SD cards as faster source -- decryptable in special laptops at Comelec",
+    "Revision logistics: AFP/PNP gather election documents; revision committees compensated by Marcos deposits per PET rules",
+    "4.3 established precincts average per clustered precinct",
+    "Robredo's counterprotest: 8,042 clustered precincts in 13 provinces",
+    "Two brightest election lawyers facing off: George Garcia (Marcos) vs Romulo Macalintal (Robredo)"
+  ],
+  "signature_phrases": [
+    "overheated the already viral media hype on the alleged attempt to 'steal the vice presidency from Leni Robredo'",
+    "to calm public anxiety, let us briefly examine the election case",
+    "If this allegation were true, then all the victors in the 2016 elections, including Rodrigo Duterte, would be dislodged. This is simply preposterous",
+    "an unfortunate incident that did not affect the integrity of the results",
+    "Why the Comelec would have to pay this staggering amount is beyond me. I think Marcos should pay it",
+    "Feeding the ballots into these machines would be impractical and time-consuming because of their exposure to dust, water and the like",
+    "If properly preserved and safeguarded, they are the speedy source of the election data",
+    "without judging the merits of the protest",
+    "in the normal course, it will take a few more years of hard work before we see light in the case",
+    "two of the brightest election lawyers are facing each other here"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "President Rodrigo Duterte",
+      "Ferdinand 'Bongbong' Marcos Jr.",
+      "VP Leni Robredo",
+      "George Garcia (Marcos counsel)",
+      "Romulo Macalintal (Robredo counsel)"
+    ],
+    "institutions": [
+      "Supreme Court (acting as Presidential Electoral Tribunal/PET)",
+      "Commission on Elections (Comelec)",
+      "Parish Pastoral Council for Responsible Voting (PPCRV)",
+      "Smartmatic (VCM lessor)",
+      "Armed Forces of the Philippines (election-document gathering)",
+      "Philippine National Police (election-document gathering)"
+    ],
+    "cases": [
+      "Bongbong Marcos election protest vs Leni Robredo at PET",
+      "PET preliminary precautionary order (preserve VCMs/ballots/SD cards)",
+      "PET resolution Dec 6, 2016 (P2,078,304,225.76 Smartmatic exposure)",
+      "Robredo counterprotest (8,042 clustered precincts, 13 provinces)"
+    ],
+    "laws_treaties": [
+      "PET Rules (governing election protests, deposits, revision committees)"
+    ],
+    "events": [
+      "Dec 14, 2016 -- Duterte's Phnom Penh speech to Filipino community",
+      "May 2016 elections (the contested vote)",
+      "Dec 6, 2016 -- PET resolution noting Smartmatic exposure"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Marcos petition's allegation that VCMs were uniformly defective is self-defeating because if true, ALL 2016 election winners -- including Duterte himself -- would be unseated; this preposterous breadth undermines the credibility of the broader fraud claim.",
+      "rhetorical_move": "reductio-ad-absurdum (extending the allegation reveals its absurd consequence)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The hash-code-into-Transparency-Server allegation has been repeatedly debunked by Comelec, PPCRV, and independent technology experts as an unfortunate incident not affecting results integrity -- making it a non-serious basis for protest.",
+      "rhetorical_move": "expert-consensus citation against fraud allegation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Comelec should not bear the P2.078B Smartmatic VCM lease cost -- Marcos as the protestant should pay; further, the VCMs need not be used in the recount at all because dust/water exposure in warehouses makes feeding ballots into them impractical, and SD card images decrypted in Comelec laptops (in the presence of parties and lawyers) provide a faster, cleaner data source.",
+      "rhetorical_move": "cost-allocation + technical-alternative argument (the protestant pays + use SD cards not VCMs)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "In the normal course, the Marcos protest will take at least 2 years and the Robredo counterprotest at least 1 more year -- meaning the case will not see light for several years, removing any 'immediate prospect' of Marcos replacing Robredo via this route.",
+      "rhetorical_move": "timeline-projection grounded in PET procedural requirements",
+      "confidence": "asserted as 'inevitable conclusion'"
+    }
+  ],
+  "notable_anecdotes": [
+    "Duterte's Phnom Penh disclosure of his health conditions (Buerger's disease, daily migraine, terrible back pains) and possible non-completion of term -- used as the column's opening hook explaining why public attention shifted to the VP succession question.",
+    "The specific Smartmatic exposure figure 'P2,078,304,225.76' -- preserved to the centavo to physicalize the absurdity of Comelec bearing the cost rather than Marcos.",
+    "CJ's pithy verdict 'Why the Comelec would have to pay this staggering amount is beyond me. I think Marcos should pay it' -- the most personally direct intervention in the column.",
+    "The two election-law titans matched in this case: 'George Garcia for Marcos and Romulo Macalintal for Robredo' -- CJ's parting note treating the litigation as also a generational lawyer-vs-lawyer contest."
+  ],
+  "target_audience": [
+    "Civic readers anxious about VP succession",
+    "Marcos and Robredo camp supporters and observers",
+    "Election lawyers and PET procedure students",
+    "Comelec officials concerned about VCM cost allocation",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "anxiety-calming editorial register",
+    "preserved P2,078,304,225.76 exact figure to centavo",
+    "'without judging the merits' as neutrality marker",
+    "reductio-ad-absurdum framing of fraud allegation",
+    "named-lawyer parting note ('two of the brightest election lawyers')",
+    "Tagalog-untouched (column in straight English for general readership)",
+    "concrete procedural-cost analysis (revision committees, deposits, AFP/PNP assistance)",
+    "labeled-subhead structure ('Marcos petition', 'Alleged cheating', 'No light yet')"
+  ],
+  "decision_framework_signals": [
+    "applies reductio-ad-absurdum to test breadth of fraud allegations",
+    "uses expert-consensus citation (Comelec + PPCRV + technology experts) to dismiss hash-code claim",
+    "deploys cost-allocation principle (protestant pays, not state agency)",
+    "offers technical-alternative (SD cards over VCMs) as practical procedural improvement",
+    "projects timeline based on procedural requirements rather than political prediction",
+    "treats named-counsel quality as analytically relevant context for litigation outcome"
+  ],
+  "one_paragraph_summary": "Panganiban addresses public anxiety triggered by Duterte's December 14, 2016 Phnom Penh speech disclosing his Buerger's disease, daily migraine, and back pains and the possibility he may not finish his six-year term -- which has refocused attention on Bongbong Marcos's PET election protest against VP Leni Robredo. He examines the 1,000-page petition backed by over 20,000 affidavits: the broad VCM-defect allegation is self-defeating because if true, all 2016 winners including Duterte would be unseated; the hash-code-into-Transparency-Server claim has been repeatedly debunked by Comelec, PPCRV, and technology experts. What caught the PET's attention is the narrower 'traditional modes of cheating' allegation in 39,221 clustered precincts (97,366 VCMs) in 25 provinces and 5 cities. The PET's December 6, 2016 resolution flagged a potential P2,078,304,225.76 Smartmatic VCM lease cost -- which CJ argues Marcos (not Comelec) should pay, and notes the VCMs need not be used because warehouse dust/water exposure makes them impractical; SD card images decrypted in Comelec laptops in the presence of parties and lawyers offer a cleaner faster data source. Even with this efficiency, revision logistics (document gathering by AFP/PNP, revision committees compensated from Marcos deposits, 4.3 average established precincts per clustered precinct) mean the Marcos protest will take at least 2 years and Robredo's 8,042-clustered-precinct counterprotest in 13 provinces at least 1 more year. The 'inevitable conclusion is that, in the normal course, it will take a few more years of hard work before we see light in the case,' which is being litigated by 'two of the brightest election lawyers' -- George Garcia for Marcos and Romulo Macalintal for Robredo.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

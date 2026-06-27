@@ -1,0 +1,160 @@
+{
+  "id": "CA101",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 101,
+  "title": "How to interpret marks, words, qualifiers",
+  "date": "2023-07-24",
+  "link": "https://opinion.inquirer.net/165009/how-to-interpret-marks-words-qualifiers",
+  "keywords": [
+    "statutory construction",
+    "punctuation",
+    "'shall' vs 'may'",
+    "'and/or'",
+    "'involving'",
+    "restrict-or-modify rule"
+  ],
+  "primary_topics": [
+    "Sequel to A102 on statutory construction methodology",
+    "Role of the 14 punctuation marks in legal interpretation (buttressing, not determining)",
+    "Construction of 'and/or' -- Romulo v. Home Development Mutual Fund (June 19, 2000)",
+    "'Shall' vs 'may' -- and the contextual permissive-shall (Marcelino v. Cruz)",
+    "'Involving' as 'including' -- La Bugal-B'laan v. Ramos (Dec. 14, 2004)",
+    "Restrict-or-modify rule: qualifying words apply only to immediately associated words",
+    "'Cases' vs 'matters' -- Fortich v. Corona (Aug. 19, 1999) on division MR voting"
+  ],
+  "sub_topics": [
+    "Inventory of 14 punctuation marks (period, question mark, exclamation, comma, semicolon, colon, dash, hyphen, parentheses, brackets, braces, apostrophe, quotation marks, ellipses)",
+    "Agcaoili v. Suguitan (Feb. 13, 1926) on semicolon vs comma -- cited in Ricardo M. Pilares III's 'Statutory Construction: Concept and Cases'",
+    "Romulo v. HDMF: 'and/or' means 'either and or'; 'and' and 'or' interchangeable",
+    "Marcelino v. Cruz (March 18, 1983): 'shall' in 18/24-month case-resolution constitutional provision construed as permissive because procedural",
+    "Article VIII Section 5 of 1987 Constitution: SC's rule-making power on procedure",
+    "La Bugal-B'laan v. Ramos (Dec. 14, 2004): 'involving' = 'including' in Article XII Section 2 FTAA provision",
+    "Restrict-or-modify rule illustration: 'motorbikes, cars, vans, and trucks under two tons' -- 'under two tons' modifies only trucks",
+    "Constitutional provision on division decisions: minimum three concurrence; en banc fallback; no doctrine modified or reversed except en banc",
+    "Fortich v. Corona (Aug. 19, 1999): MR resolved 2-2 in division -- 'cases' decided by at least three; 'matters' resolved by majority -- MR deemed lost; no referral to en banc",
+    "Closing invitation: 'take up law and join the fascinating world of lawyers'"
+  ],
+  "signature_phrases": [
+    "the answer is not easy or simple",
+    "As a rule, punctuation marks are not reliable indicators of intent, but they can buttress interpretations",
+    "in elegant language",
+    "ordinary signification, i.e., 'either and or'",
+    "the use of the word 'may' means that the provision is permissive",
+    "depending on its context",
+    "implies that these agreements with foreign corporations are not limited",
+    "in a verba legis approach",
+    "RESTRICT OR MODIFY",
+    "the qualifier 'under two tons' refers only to trucks",
+    "deemed lost",
+    "the fascinating world of lawyers"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Ricardo M. Pilares III (professor, author of 'Statutory Construction: Concept and Cases')"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Home Development Mutual Fund (HDMF / Pag-IBIG)",
+      "Ateneo Law School (implied, via Pilares)"
+    ],
+    "cases": [
+      "Agcaoili v. Suguitan (Feb. 13, 1926)",
+      "Romulo v. Home Development Mutual Fund (June 19, 2000)",
+      "Marcelino v. Cruz (March 18, 1983)",
+      "La Bugal-B'laan v. Ramos (Dec. 14, 2004)",
+      "Fortich v. Corona (Aug. 19, 1999)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution, Article VIII, Section 5 (SC rule-making)",
+      "1987 Constitution, Article XII, Section 2 (FTAA / agreements with foreign-owned corporations)",
+      "1973 Constitution (18-month case-resolution period)",
+      "1987 Constitution (24-month case-resolution period for SC)",
+      "Constitutional provisions on division voting and en banc fallback"
+    ],
+    "events": []
+  },
+  "stances": [
+    {
+      "claim": "Punctuation marks are 'not reliable indicators of intent' but they 'can buttress interpretations' -- a calibrated rule that neither dismisses nor over-weights typography.",
+      "rhetorical_move": "calibrated-weight framing (not determinative, but supportive)",
+      "confidence": "asserted as general rule"
+    },
+    {
+      "claim": "'And/or' is to be taken in its ordinary signification -- 'either and or,' with 'and' and 'or' used interchangeably (Romulo v. HDMF) -- settling a recurring statutory-drafting ambiguity.",
+      "rhetorical_move": "case-citation rule-statement",
+      "confidence": "asserted with named case"
+    },
+    {
+      "claim": "'Shall' is mandatory and 'may' is permissive as a default rule -- but the Court sometimes construes 'shall' as permissive depending on context, as in Marcelino v. Cruz where the constitutional case-resolution period was deemed procedural and therefore subject to SC's rule-making power.",
+      "rhetorical_move": "default-with-exception framing (context-sensitive shall)",
+      "confidence": "asserted with case-illustration"
+    },
+    {
+      "claim": "'Involving' in Article XII Section 2 of the 1987 Constitution should be understood in the sense of 'including' -- meaning FTAAs with foreign-owned corporations are not limited to mere financial or technical assistance (La Bugal-B'laan v. Ramos).",
+      "rhetorical_move": "synonym-construction in verba legis approach",
+      "confidence": "asserted with constitutional-case citation"
+    },
+    {
+      "claim": "The restrict-or-modify rule: a qualifier applies only to the words immediately associated with it, not to distantly or remotely located words -- 'under two tons' qualifies only 'trucks' in the list 'motorbikes, cars, vans, and trucks under two tons.'",
+      "rhetorical_move": "rule-with-illustration (qualifier-scope test)",
+      "confidence": "asserted as construction rule"
+    },
+    {
+      "claim": "Under Fortich v. Corona, 'cases' are 'decided' by at least three members of a division while 'matters' are 'resolved' by a majority -- so a 2-2 vote on an MR in a division means the MR is lost and is NOT referred to en banc.",
+      "rhetorical_move": "word-distinction-with-procedural-consequence (cases vs matters)",
+      "confidence": "asserted with named case"
+    },
+    {
+      "claim": "Many more interpretation rules await those willing to study law -- a closing invitation framed as both pedagogical and recruiting.",
+      "rhetorical_move": "invitation-to-the-profession closer",
+      "confidence": "asserted as light-touch invitation"
+    }
+  ],
+  "notable_anecdotes": [
+    "Enumeration of the 14 punctuation marks in one sentence -- a teaching device making the column accessible to non-lawyers.",
+    "Agcaoili v. Suguitan (1926) cited via Pilares's book as the 'elegant' source for the comma-semicolon distinction -- a rare invocation of nearly-century-old jurisprudence.",
+    "Romulo v. HDMF's homely example: 'butter and/or eggs means butter and eggs, or butter or eggs' -- turning the rule into a kitchen analogy.",
+    "Marcelino v. Cruz's procedural-vs-substantive distinction: the 18-month (1973 Constitution) and 24-month (1987 Constitution) case-resolution provisions for the SC are construed as permissive because procedural -- invoking the SC's Article VIII Section 5 rule-making power.",
+    "La Bugal-B'laan v. Ramos: 'involving' synonymous with 'including' -- a high-stakes constitutional case where one word's reading determined the scope of permissible FTAAs with foreign-owned corporations.",
+    "Truck illustration of the restrict-or-modify rule: 'motorbikes, cars, vans, and trucks under two tons' -- clearest possible classroom example of qualifier-scope.",
+    "Fortich v. Corona's 'cases vs matters' distinction with the 2-2 division-MR-deemed-lost outcome -- sharp procedural rule embedded in vocabulary choice.",
+    "Closing recruiting line: 'Who knows, they may reach the Supreme Court and help frame new rules of interpretation or modify existing ones.'"
+  ],
+  "target_audience": [
+    "Law students and bar reviewees (the explicit audience for the closing invitation)",
+    "Lawyers and judges working with statutory texts",
+    "Senators and legislative drafters",
+    "Civil-society researchers reading laws",
+    "Ricardo M. Pilares III's book audience (overlap)",
+    "Inquirer general readership"
+  ],
+  "register_markers": [
+    "Sequel framing ('An appropriate follow-up to last Monday's column')",
+    "Enumeration of 14 punctuation marks in a single sentence",
+    "ALL-CAPS pivot openings ('LET US NOW SEE HOW THE SUPREME COURT CONSTRUES SOME KEYWORDS,' 'THE QUALIFYING WORDS RESTRICT OR MODIFY')",
+    "Direct quotation of older case ('in elegant language')",
+    "Case-citation register with parenthetical dates",
+    "Kitchen-example device (butter and/or eggs)",
+    "Truck-list example for restrict-or-modify (most-cited classroom illustration)",
+    "Pedagogical inviting register ('Who knows, they may reach the Supreme Court')",
+    "Bilingual-friendly explanation (no Latin without translation)",
+    "Closing-recruiting register ('take up law and join the fascinating world of lawyers')",
+    "Use of caps in quoted phrases preserved ('RESTRICT OR MODIFY,' 'INITIATED')"
+  ],
+  "decision_framework_signals": [
+    "uses punctuation-as-buttress-not-determinant rule for typographical interpretation",
+    "applies 'and/or' = 'either and or' as ordinary-signification rule",
+    "uses 'shall' mandatory / 'may' permissive as default with context-sensitive exceptions",
+    "treats procedural-vs-substantive distinction as basis for re-reading 'shall' provisions",
+    "applies synonym-construction in verba legis (involving = including) for keyword interpretation",
+    "uses restrict-or-modify rule for qualifier-scope analysis in lists",
+    "distinguishes 'cases' (decided by ≥3 in division) from 'matters' (resolved by majority) per Fortich",
+    "frames interpretation rules as catalog teachable to non-lawyers with illustrations"
+  ],
+  "one_paragraph_summary": "Continuing from A102 the prior Monday, Panganiban turns to the second half of statutory construction: how courts read punctuation marks, words, phrases, and qualifiers. The 14 punctuation marks are catalogued in one sentence (period, question mark, exclamation point, comma, semicolon, colon, dash, hyphen, parentheses, brackets, braces, apostrophe, quotation marks, ellipses), with the calibrated rule that they 'are not reliable indicators of intent, but they can buttress interpretations,' illustrated by Agcaoili v. Suguitan (Feb. 13, 1926) -- cited via Prof. Ricardo M. Pilares III's 'Statutory Construction: Concept and Cases' -- which 'in elegant language' distinguished the semicolon (greater separation in thought) from the comma. He then walks through SC constructions of key words: in Romulo v. HDMF (June 19, 2000), 'and/or' takes its ordinary signification 'either and or' with 'and' and 'or' used interchangeably ('butter and/or eggs means butter and eggs, or butter or eggs'); 'shall' is generally mandatory and 'may' is permissive, but Marcelino v. Cruz (March 18, 1983) construed the 18-month (1973 Const.) / 24-month (1987 Const.) case-resolution 'shall' as merely permissive because procedural, invoking the SC's Article VIII Section 5 rule-making power; La Bugal-B'laan v. Ramos (Dec. 14, 2004) held that 'involving' in Article XII Section 2 of the 1987 Constitution should be understood as 'including,' meaning FTAAs with foreign-owned corporations are not limited to mere financial or technical assistance. The restrict-or-modify rule holds that qualifying words apply only to immediately associated words -- 'under two tons' in 'motorbikes, cars, vans, and trucks under two tons' modifies only trucks. And Fortich v. Corona (Aug. 19, 1999) distinguished 'cases' (decided by at least three members of a division) from 'matters' (resolved by a majority): when a division 2-2 vote occurs on an MR, the MR is deemed lost and not referred to en banc. CJ closes with a pedagogical-recruiting invitation: 'To know the many more rules of construction, readers may want to take up law and join the fascinating world of lawyers. Who knows, they may reach the Supreme Court and help frame new rules of interpretation or modify existing ones.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

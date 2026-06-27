@@ -1,0 +1,113 @@
+{
+  "id": "CC080",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 80,
+  "title": "Writing simply and concisely",
+  "date": "2017-09-24",
+  "link": "https://opinion.inquirer.net/107369/writing-simply-concisely",
+  "keywords": [
+    "judicial writing reform",
+    "legal language simplification",
+    "Velarde decision",
+    "information age",
+    "legalese",
+    "column writing",
+    "Digital Age",
+    "ponencia style"
+  ],
+  "primary_topics": [
+    "CJ Panganiban's personal reform of judicial writing style",
+    "Transition from hermetic judicial culture to public accountability",
+    "Challenges of writing law for lay audiences in the Digital Age"
+  ],
+  "sub_topics": [
+    "Historical reverence for the Supreme Court as sacrosanct institution",
+    "Information revolution's dismantling of judicial hermetic isolation",
+    "Velarde vs Social Justice Party (April 28, 2004) as template for decision-writing",
+    "Five essential parts of a well-written judicial decision",
+    "Annual books explaining the Court's internal processes and major decisions",
+    "Inquirer column character limit reduction from 5,600 to 4,100 characters",
+    "CJ's personal adjustment from legalese to unadorned English"
+  ],
+  "signature_phrases": [
+    "little deities on Mount Olympus, whose decisions and pronouncements were revered with biblical finality",
+    "hermetic isolation",
+    "kilometric sentences",
+    "for better or for worse, media cameras and inquisitive reporters have invaded the judicial enclave",
+    "simplify, and get to the point pronto",
+    "unadorned English, with as little legalese as possible",
+    "lay people can understand jurisprudence",
+    "more responsible and participative citizens"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author, former CJ)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Ateneo Law Journal",
+      "Philippine Daily Inquirer"
+    ],
+    "cases": [
+      "Velarde vs Social Justice Party (April 28, 2004) -- template for five-part decision structure"
+    ],
+    "laws_treaties": [
+      "1987 Philippine Constitution -- mandate that decisions express clearly the facts and law on which they are based"
+    ],
+    "events": [
+      "CJ Panganiban joining the Supreme Court in 1995",
+      "CJ Panganiban's retirement from the Court",
+      "Inquirer format change reducing column limit from 5,600 to 4,100 characters"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The old judicial culture of hermetic isolation and esoteric legalese was a barrier to public understanding and democratic participation; the information revolution rightly dismantled it.",
+      "rhetorical_move": "historical-contrast narrative: Mount Olympus reverence vs. the current transparent information age",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "CJ Panganiban's Velarde decision (2004) established a replicable five-part structure for judicial decisions that successfully simplified writing without losing legal precision or nuance.",
+      "rhetorical_move": "self-citation as institutional reform legacy",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Column writers — especially legally trained ones — must adapt to Digital Age constraints by abandoning long-winded legalese and getting to the point quickly, particularly under tighter character limits.",
+      "rhetorical_move": "self-implicating reform commitment (CJ applies same standard to himself as columnist)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJ's foreword to an Ateneo Law Journal issue recalling how Supreme Court justices were once treated as 'little deities on Mount Olympus' — a vivid mythological metaphor drawn from his own 50+ years of legal experience.",
+    "The Inquirer's reduction of the column character limit from 5,600 to 4,100 — disclosed as a personal constraint CJ must comply with — framing the column itself as a live exercise in the brevity it advocates.",
+    "CJ's admission that as a law student he personally struggled to decipher ratio decidendi buried in 'kilometric sentences,' and that this formative difficulty drove his lifetime reform agenda."
+  ],
+  "target_audience": [
+    "Law students and young lawyers learning judicial writing",
+    "Judges and justices engaged in decision-writing reform",
+    "Civic-minded lay readers seeking to understand court decisions",
+    "Legal academics and journal editors",
+    "Fellow columnists and journalists covering jurisprudence"
+  ],
+  "register_markers": [
+    "memoir register ('When I was still a law student over 50 years ago')",
+    "mythological metaphor ('little deities on Mount Olympus', 'hermetic isolation', 'immortal status')",
+    "self-reform commitment narrative (I endeavored, I tried my best, I followed)",
+    "explicit pedagogic structure (five-part Velarde template quoted)",
+    "self-implicating admission of ongoing challenge ('my biggest challenge is still how to shorten')",
+    "forward-looking digital-adaptation imperative ('simplify, and get to the point pronto')",
+    "Tagalog/Filipino-inflected phrase absent — purely formal English register throughout"
+  ],
+  "decision_framework_signals": [
+    "applies student-experience-as-diagnostic test (personal difficulty reading decisions = evidence of institutional writing failure)",
+    "uses self-citation of own ponencia (Velarde) as precedent for institutional writing reform",
+    "treats constitutional mandate ('clearly and distinctly the facts and the law') as the operative standard for decision quality",
+    "frames Digital Age compression (4,100-character limit) as the current constraint shaping all analytical choices",
+    "links judicial transparency to democratic citizenship ('responsible and participative citizens')"
+  ],
+  "one_paragraph_summary": "Panganiban traces his lifelong campaign for simpler judicial writing from its origin in his personal struggle as a law student to decipher ratio decidendi buried in 'kilometric sentences,' through his 1995 appointment to the Supreme Court where he wrote in 'unadorned English with as little legalese as possible,' to his landmark Velarde vs Social Justice Party ponencia (April 28, 2004) which codified a five-part decision structure -- statement of the case, facts, issues, court ruling, and dispositive portion -- that most decisions now follow. He situates this reform within the broader transition from a judicial culture of 'hermetic isolation,' where justices lived as 'little deities on Mount Olympus' immune from public scrutiny, to an information-age accountability culture where media cameras, investigative journalists, and social media have humanized the Court. The column doubles as a self-imposed commitment: writing as a columnist after retirement, his ongoing challenge is compressing legal complexity for lay readers within an Inquirer character limit now reduced from 5,600 to 4,100 characters, requiring him to 'simplify, and get to the point pronto' -- the same standard he advocated for the judiciary now applied to himself.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

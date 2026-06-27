@@ -1,0 +1,175 @@
+{
+  "id": "CB016",
+  "format": "C",
+  "type": "column",
+  "theme": "B",
+  "theme_label": "Prosperity and Economic Philosophy",
+  "number": 16,
+  "title": "Eradicating poverty",
+  "date": "2015-05-03",
+  "link": "https://opinion.inquirer.net/84609/eradicating-poverty",
+  "keywords": [
+    "FLP",
+    "economic philosophy",
+    "poverty reduction",
+    "World Bank",
+    "one generation",
+    "liberty and prosperity",
+    "Labor Day"
+  ],
+  "primary_topics": [
+    "FLP economic-philosophy column for Labor Day -- Will our government ever be able to eradicate poverty?",
+    "World Bank one-generation eradication thesis at 6% sustained annual growth -- per-capita-income projection $3,300 (2013) to $35,000 (2043)",
+    "Singapore-China-Malaysia precedent and the 'at the cost of freedom' Time magazine critique of Lee Kuan Yew",
+    "Lee Kuan Yew's suppressive measures vs his lead-by-example virtues -- balance assessment",
+    "World Bank 'Making Growth Work for the Poor' paper -- invest, enhance competition, simplify regulations, protect property rights",
+    "Jim Yong Kim WB twin goals: end extreme poverty by 2030, boost shared prosperity of poorest 40% -- without altering political systems",
+    "Authoritarianism outmoded everywhere -- Information Age makes suppression impossible; ICC and arbitration as cross-border accountability tools",
+    "FLP signature passage from Asean Law Association speech -- different histories but all peoples need liberty and prosperity in equal measure"
+  ],
+  "sub_topics": [
+    "Labor Day timing (May 3, 2015) as occasion for poverty question",
+    "World Bank confident 'Yes!' -- within one generation at 6% growth",
+    "Math: double per capita in a decade, 5x in two decades, 11x in three decades",
+    "Time magazine (4/6/15) on Singapore prospering 'at the cost of freedom'",
+    "Lee Kuan Yew biography: PM 1959-1990, 'mentor' thereafter until death March 23 2015",
+    "LKY trumped the individual in favor of the community",
+    "Suppressive measures: dissent jailed, oppositors jailed, press freedom curbed, chewing gum ban (to prevent littering), educated-elite marriage push (to upgrade genes), childbirth limit (to control population), toilet-flush rules (to prevent diseases)",
+    "Fairness counterpoint: led by example in modest living, stopped communist insurgency, jailed corrupt, paid public servants higher than private sector, rewarded meritocracy",
+    "Singapore now among best places to live; eased speech controls; allowed more dissent while keeping tight grip on good governance",
+    "WB 'Making Growth Work for the Poor' paper: invest in health/education/infrastructure, enhance competition, simplify regulations, protect property rights",
+    "Local validators: Romeo Bernardo (economist), Ramon del Rosario (business leader)",
+    "International validators: aid agencies, think tanks",
+    "WB president Jim Yong Kim -- CJP met personally during his PH visit -- boldly announced twin goals: end extreme poverty by 2030, boost shared prosperity of poorest 40%",
+    "No mention of altering political systems by WB",
+    "Marcos-authoritarianism-failure precedent: cheered discipline initially, but corruption and cronyism crept in (unlike Singapore's intelligent + selfless + honest leadership)",
+    "Authoritarian rule outmoded -- Asia, old Soviet republics, Middle East, South America, Africa -- whole world",
+    "Information Age makes suppression impossible; Internet and digital data cannot be confined by sovereign/territorial boundaries",
+    "Despots and autocrats can no longer hide crimes; ICC prosecutes outside national borders; voluntary arbitration breaks judicial-tribunal monopoly",
+    "Filipinos must work together in freedom, rely on own systems/traditions/history",
+    "Asean Law Association speech FLP signature passage -- different histories/traditions/cultures/ideologies/mindsets but all need liberty and prosperity in equal measure",
+    "Three growth paths: economy-first-then-liberty, liberty-first-then-economy, both-at-once -- all valid but eventually-and-inevitably all peoples need both"
+  ],
+  "signature_phrases": [
+    "Yes! within one generation",
+    "at the cost of freedom",
+    "twin goals",
+    "in freedom",
+    "different histories, traditions, cultures, ideologies and mindsets",
+    "eventually and inevitably",
+    "liberty and prosperity in equal measure",
+    "Making Growth Work for the Poor"
+  ],
+  "entities": {
+    "people": [
+      "Lee Kuan Yew (Singapore PM 1959-1990, died March 23 2015)",
+      "Jim Yong Kim (World Bank president)",
+      "Romeo Bernardo (credible local economist)",
+      "Ramon del Rosario (business leader)",
+      "President Ferdinand Marcos (PH authoritarianism-failure precedent)"
+    ],
+    "institutions": [
+      "World Bank",
+      "Singapore government (LKY administration)",
+      "Time magazine",
+      "Asean Law Association",
+      "International Criminal Court (ICC)",
+      "Foundation for Liberty and Prosperity (FLP, implicit)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Rome Statute (ICC) -- implied",
+      "Voluntary arbitration frameworks (implied)"
+    ],
+    "events": [
+      "Labor Day (May 3, 2015) as column occasion",
+      "March 23, 2015 -- death of Lee Kuan Yew",
+      "Time magazine April 6, 2015 issue on Singapore",
+      "Jim Yong Kim's recent PH visit (CJP met him)",
+      "CJP's recent Asean Law Association speech"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Despite the pessimism of many Filipinos, the World Bank's confident answer is yes -- the Philippines can eradicate poverty within one generation provided the economy sustains 6 percent annual growth, which would raise per capita income from $3,300 in 2013 to $35,000 by 2043",
+      "rhetorical_move": "WB-thesis introduction with quantitative projection",
+      "confidence": "high"
+    },
+    {
+      "claim": "Singapore-China-Malaysia have demonstrated poverty eradication is achievable, but the usual objection is that this came 'at the cost of freedom' -- Time magazine documented Lee Kuan Yew's suppression of dissent, press freedom curbs, and micromanagement extending to chewing gum bans, marriage-pushing, childbirth limits, and toilet-flush rules",
+      "rhetorical_move": "precedent-with-caveat presentation",
+      "confidence": "high"
+    },
+    {
+      "claim": "To be fair, Lee Kuan Yew led by example -- modest living, stopped communist insurgency, jailed the corrupt, paid public servants higher than private sector, rewarded meritocracy -- making Singapore one of the best places to live, especially now that controls on speech have eased",
+      "rhetorical_move": "fairness-counterpoint balance",
+      "confidence": "high"
+    },
+    {
+      "claim": "To eradicate poverty within a generation, the Philippines need not ape Singapore or China -- per the WB's 'Making Growth Work for the Poor,' what matters is investing in health/education/infrastructure, enhancing competition, simplifying regulations, and protecting property rights",
+      "rhetorical_move": "WB-paper-as-alternative-framework",
+      "confidence": "high"
+    },
+    {
+      "claim": "WB president Jim Yong Kim -- whom CJP met personally -- boldly announced the Bank's twin goals of ending extreme poverty by 2030 and boosting shared prosperity among the poorest 40 percent in developing countries, without any mention of altering political systems",
+      "rhetorical_move": "Jim-Yong-Kim-twin-goals as authoritative confirmation",
+      "confidence": "high"
+    },
+    {
+      "claim": "Authoritarianism -- whether Chinese or Singaporean variety -- will not work in the Philippines: after our sad experience under Marcos, the people will not allow a return to one-party or one-man rule; martial law's discipline gave way to corruption and cronyism unlike Singapore's intelligent and selfless leadership",
+      "rhetorical_move": "Marcos-failure-precedent rebuttal of authoritarianism",
+      "confidence": "high"
+    },
+    {
+      "claim": "Authoritarian rule has become outmoded everywhere -- in the Information Age, suppression is no longer possible; the Internet defies territorial boundaries; the ICC prosecutes despots across borders; voluntary arbitration breaks judicial-tribunal monopolies -- Filipinos will just work together in freedom",
+      "rhetorical_move": "Information-Age-makes-authoritarianism-impossible argument",
+      "confidence": "high"
+    },
+    {
+      "claim": "As CJP said in his recent Asean Law Association speech: peoples differ in histories, traditions, cultures, ideologies, and mindsets, but all need liberty and prosperity; some start with economic-first-then-liberty, some with liberty-first, some both at once -- but eventually and inevitably, all peoples need and deserve liberty and prosperity in equal measure",
+      "rhetorical_move": "FLP-signature-passage closing quotation",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Time magazine's 'at the cost of freedom' framing of LKY's Singapore",
+    "LKY's chewing-gum ban (to prevent littering)",
+    "LKY's educated-elite marriage push (to upgrade the people's genes)",
+    "LKY's childbirth-limit and toilet-flush rules",
+    "LKY led by example in modest living and paid public servants higher than private",
+    "CJP met Jim Yong Kim personally during the WB president's PH visit",
+    "Marcos-era corruption and cronyism vs Singapore's selfless leadership",
+    "FLP signature passage from Asean Law Association speech as the column's close"
+  ],
+  "target_audience": [
+    "Inquirer readership on Labor Day",
+    "FLP donors and supporters",
+    "Civic-minded readers on poverty eradication",
+    "Business community and economic policymakers",
+    "Asean Law Association audience (CJP cross-references his speech)",
+    "Young Filipinos curious about Singapore's growth model"
+  ],
+  "register_markers": [
+    "Labor-Day occasional-essay opening",
+    "WB-thesis introduction with quantitative projection",
+    "fairness-counterpoint balance (LKY suppression vs lead-by-example)",
+    "WB-paper-as-alternative-framework structure",
+    "Marcos-failure-precedent rebuttal pattern",
+    "Information-Age-makes-authoritarianism-impossible argument",
+    "FLP-signature-passage closing block-quote",
+    "section labels (No need to suppress freedom, No to authoritarianism)",
+    "Jim-Yong-Kim personal-connection framing"
+  ],
+  "decision_framework_signals": [
+    "6%-growth-for-one-generation thesis as policy benchmark",
+    "Twin goals: end extreme poverty by 2030, boost shared prosperity poorest 40%",
+    "Four WB-paper levers: invest, enhance competition, simplify regulations, protect property rights",
+    "Liberty-vs-prosperity tradeoff framing (rejected as false)",
+    "Three growth paths: economy-first, liberty-first, both-at-once",
+    "FLP twin-beacons doctrine: liberty + prosperity in equal measure",
+    "Information-Age-defeats-authoritarianism premise",
+    "ICC + voluntary arbitration as cross-border accountability tools"
+  ],
+  "one_paragraph_summary": "Panganiban writes for Labor Day a foundational FLP economic-philosophy column asking: Will our government ever be able to eradicate poverty? Despite the pessimism of many Filipinos, the World Bank's confident answer is yes -- within one generation, provided the economy sustains its current 6 percent annual growth. The math is striking: at this rate, the Philippines can double per capita income in a decade, raise it five times in two decades, and 11 times in three decades -- average yearly per capita income of $3,300 in 2013 would increase to $35,000 in 2043. Singapore, China, and Malaysia have done it. The usual objection is that they eradicated poverty 'at the cost of freedom.' As Time magazine (April 6, 2015) noted, Lee Kuan Yew -- who died March 23 after serving as PM from 1959 to 1990 and 'mentor' thereafter -- trumped the individual in favor of the community: suppressing dissent, jailing oppositors, curbing press freedom, and micromanaging life to the extent of banning chewing gum (to prevent littering), pushing the educated elite to marry one another (to upgrade the people's genes), limiting childbirth (to control population), and telling everyone to flush toilets (to prevent diseases). To be fair, however, LKY led by example in living modestly, stopped communist insurgency, jailed the corrupt, paid public servants higher than the private sector, and rewarded meritocracy -- making Singapore one of the best places to live, especially now that it has eased speech controls. To eradicate poverty within a generation, must the Philippines ape Singapore or China? Not necessarily, says the WB. What matters per its paper 'Making Growth Work for the Poor' is investing more in health, education, and infrastructure, enhancing competition, simplifying regulations, and protecting property rights -- validated by international aid agencies, think tanks, and credible local economists like Romeo Bernardo and business leaders like Ramon del Rosario. WB president Jim Yong Kim -- whom CJP met personally during his recent PH visit -- boldly announced the Bank's twin goals: ending extreme poverty in the world by 2030 (only half a generation from now) and boosting shared prosperity among the poorest 40 percent in developing countries, without any mention of altering political systems. Authoritarianism, whether Chinese or Singaporean variety, will not work in the Philippines. After the sad experience under Marcos, the people will not allow a return to one-party or one-man rule. True, many cheered the discipline and respite from chaos that martial law brought during its first few years, but later on corruption and cronyism crept in -- unlike Singapore where the leadership was intelligent, single-minded, selfless, and honest. Authoritarian rule has become outmoded -- not just in Asia but in the old Soviet republics, the Middle East, South America, and Africa -- yes, in the whole world. Suppression of individual freedom is no longer possible in the Information Age: the Internet and digital transmission cannot be confined by traditional sovereign and territorial boundaries; despots can no longer hide their crimes; serious offenses can be prosecuted across borders via the ICC; commercial and civil disputes are no longer the monopoly of judicial tribunals because parties can now choose laws and judges through voluntary arbitration. Yes, we Filipinos will just have to work together in freedom to continue the reforms in good governance and the economy. CJ closes with his FLP signature passage from a recent Asean Law Association speech: 'The peoples of the world and of Asean have different histories, traditions, cultures, ideologies and mindsets. But I dare say all of them need liberty and prosperity. Some countries... start with improving their people's economic lives first and restrict temporarily in measured stages their political liberty. Some others begin with political liberty thinking that their economy would flourish as a necessary consequence. Still some others rise with a combination of both liberty and prosperity at the very beginning... But I also firmly believe that eventually and inevitably, all the peoples of the world need and deserve liberty and prosperity in equal measure.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

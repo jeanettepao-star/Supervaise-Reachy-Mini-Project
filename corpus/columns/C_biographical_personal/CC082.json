@@ -1,0 +1,124 @@
+{
+  "id": "CC082",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 82,
+  "title": "Teehankee's heroes",
+  "date": "2017-04-09",
+  "link": "https://opinion.inquirer.net/103083/teehankees-heroes",
+  "keywords": [
+    "Teehankee separate opinion Olaguer",
+    "Benigno Aquino Jr. martial law detention",
+    "Jose Diokno detention Fort Laur",
+    "Edgar Jopson killed Mindanao",
+    "Evelio Javier gunned down Antique"
+  ],
+  "primary_topics": [
+    "CJ Teehankee's tribute to martial law heroes in the Olaguer separate opinion",
+    "Detention, disappearance, and murder of activists and leaders under Marcos",
+    "Kagitingan Day commemoration of the regime's victims"
+  ],
+  "sub_topics": [
+    "Kagitingan Day as occasion for column",
+    "Olaguer v. Military Commission (May 22, 1987) -- Teehankee separate opinion",
+    "Ninoy Aquino: assassination at MIA, Aug. 21, 1983; eight years detention + three years exile",
+    "Sen. Jose W. Diokno: first martial law detainee; blindfolded to Fort Laur; solitary confinement in dark cells; lost 30-40 lbs; released Sept. 1974 without charges",
+    "Horacio Morales Jr.: TOYM 1977 awardee, Development Academy VP; went underground night of his TOYM award",
+    "Abraham Sarmiento Jr.: UP Collegian editor; 'Sino ang kikibo kung hindi tayo kikibo?'; imprisoned, released near-death from asthma, died",
+    "Edgar Jopson: Ateneo honor student, TOYM awardee; pressed for non-partisan ConCon in 1971; went underground at martial law; killed at 34 by 21 military troops in Mindanao",
+    "Emmanuel Yap: honor student activist; disappeared Valentine's Day 1976, age 24; picked up by military agents in front of Channel 7",
+    "Evelio Javier: governor of Antique at 28; Harvard-trained lawyer; unarmed, gunned down in broad daylight at 10 a.m., 24 bullets, M-16 armalites; 'last straw' before EDSA"
+  ],
+  "signature_phrases": [
+    "treacherous assassination",
+    "to strive for genuine national reconciliation founded on justice",
+    "pitiable sight, having lost about 30 to 40 lbs in weight",
+    "Sino ang kikibo kung hindi tayo kikibo? Sino ang kikilos kung hindi tayo kikilos? Kung hindi ngayon, kailan pa?",
+    "instinctively pinpointed the gut issue",
+    "son of a grocer",
+    "mad-dog killers",
+    "riddled his body with 24 bullets",
+    "last straw and the bloodless EDSA revolt was soon to unfold"
+  ],
+  "entities": {
+    "people": [
+      "CJ Claudio Teehankee (author of the Olaguer separate opinion)",
+      "Sen. Benigno 'Ninoy' Aquino Jr.",
+      "Sen. Jose W. Diokno",
+      "Horacio Morales Jr. (TOYM 1977)",
+      "Abraham Sarmiento Jr. (UP Collegian editor)",
+      "Edgar Jopson (TOYM; Ateneo; rebel)",
+      "Emmanuel Yap (activist; disappeared 1976)",
+      "Evelio B. Javier (Antique governor)",
+      "President Ferdinand Marcos"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Military Commission",
+      "Development Academy of the Philippines",
+      "Ateneo de Manila University",
+      "University of the Philippines",
+      "Channel 7 (now GMA Network)"
+    ],
+    "cases": [
+      "Olaguer v. Military Commission (May 22, 1987) -- Teehankee separate opinion"
+    ],
+    "laws_treaties": [
+      "Martial law proclamation (implicit)"
+    ],
+    "events": [
+      "Kagitingan Day observance",
+      "Ninoy Aquino's assassination (August 21, 1983)",
+      "Diokno's detention (September 21, 1972 - September 1974)",
+      "Morales going underground (TOYM award night 1977)",
+      "Jopson killed in Mindanao (age 34)",
+      "Emmanuel Yap's disappearance (Valentine's Day, 1976)",
+      "Evelio Javier's murder (1986)",
+      "EDSA People Power I (February 1986)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Teehankee's Olaguer separate opinion is a permanent judicial tribute to the heroes of the martial law resistance -- their sacrifices deserve commemoration on Kagitingan Day.",
+      "rhetorical_move": "commemorative framing elevating a judicial opinion to historical tribute",
+      "confidence": "high"
+    },
+    {
+      "claim": "The arbitrary detentions, enforced disappearances, and political murders documented in Teehankee's opinion represent the tyranny and repression of the Marcos regime.",
+      "rhetorical_move": "judicial record as historical truth",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Ninoy Aquino and Jose Diokno blindfolded and flown to Fort Laur in Nueva Ecija for solitary confinement in dark, boarded cells with barely any ventilation after Ninoy smuggled out a written statement critical of martial law -- a response so swift that personal effects including eyeglasses were ominously returned to their homes before the transfer.",
+    "Abraham Sarmiento Jr.'s UP Collegian front-page challenge: 'Sino ang kikibo kung hindi tayo kikibo? Sino ang kikilos kung hindi tayo kikilos? Kung hindi ngayon, kailan pa?' -- imprisoned, released near death from an asthma attack, and then died.",
+    "Edgar Jopson pressing Marcos in 1971 to put in writing that he would not manipulate the Constitution for a third term, and being publicly called down as 'son of a grocer' -- killed at 34 by 21 military troops.",
+    "Emmanuel Yap's disappearance on Valentine's Day 1976, age 24, reportedly picked up by military agents in front of Channel 7 in Quezon City -- never to be seen again.",
+    "Evelio Javier gunned down unarmed in broad daylight at 10 a.m. in front of the Antique provincial capitol by six 'mad-dog killers' who 'riddled his body with 24 bullets fired from M-16 armalite rifles' -- described as the 'last straw' that triggered EDSA."
+  ],
+  "target_audience": [
+    "Civic readership on Kagitingan Day",
+    "Students and teachers learning the human cost of martial law",
+    "Human rights advocates",
+    "Members of the bench and bar honoring judicial heroes",
+    "Historians and archivists of the Marcos resistance"
+  ],
+  "register_markers": [
+    "Long-form direct quotation from a judicial opinion (Teehankee's separate opinion)",
+    "Kagitingan Day framing as occasion",
+    "Named victim narrative with biographical detail",
+    "Filipino-language quote embedded within English text",
+    "Solemn valedictory register",
+    "Historical-record tone without editorial commentary"
+  ],
+  "decision_framework_signals": [
+    "Preserve judicial opinions as permanent historical records -- Teehankee's Olaguer separate opinion is as much a history as it is a legal document",
+    "Use commemorative occasions to restore suppressed historical memory through judicial text",
+    "Honor resistance through specific named acts of courage -- generalities do not carry the same weight",
+    "Read each hero's story as a data point on the cost of speaking truth to power under authoritarian rule"
+  ],
+  "one_paragraph_summary": "On Kagitingan Day, Panganiban quotes extensively from Chief Justice Claudio Teehankee's separate opinion in Olaguer v. Military Commission (May 22, 1987), which documented the martial law heroes whose courage Teehankee witnessed. Ninoy Aquino and Jose Diokno were among the first detainees when martial law was declared; after Ninoy smuggled out a written critique, both were blindfolded and flown to Fort Laur in Nueva Ecija for solitary confinement in dark, boarded cells with barely any ventilation -- appearing before the Court on habeas corpus a 'pitiable sight, having lost about 30 to 40 lbs in weight.' Diokno was released in September 1974 after almost two years without any charges. Horacio Morales Jr., 1977 TOYM awardee and Development Academy VP, went underground the night he was to receive his award. Abraham Sarmiento Jr., UP Collegian editor, challenged his readers -- 'Sino ang kikibo kung hindi tayo kikibo? Kung hindi ngayon, kailan pa?' -- was imprisoned, released near death from asthma, and died. Edgar Jopson, Ateneo honor student and TOYM awardee, pressed Marcos in 1971 to put in writing that he would not seek a third term, was publicly called 'son of a grocer,' went underground, and was killed at 34 by 21 military troops in Mindanao. Emmanuel Yap disappeared on Valentine's Day 1976, age 24, picked up by military agents in front of Channel 7 and never seen again. Evelio Javier, Harvard-trained Antique governor, was gunned down unarmed in broad daylight by six 'mad-dog killers' who 'riddled his body with 24 bullets fired from M-16 armalite rifles' -- the last straw before EDSA.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

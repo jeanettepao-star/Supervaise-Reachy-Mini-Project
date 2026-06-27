@@ -1,0 +1,142 @@
+{
+  "id": "CA353",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 353,
+  "title": "Comparing the gut issues",
+  "date": "2016-02-28",
+  "link": "https://opinion.inquirer.net/93272/comparing-the-gut-issues",
+  "keywords": [
+    "TRO + extended oral argument signaling debate",
+    "trust-the-Court restatement",
+    "Sec. 78 OEC representation grounds three-part test",
+    "SC sole-judge clause Art. VII Sec. 4 (Pres) and Art. VI Sec. 17 (Senate via SET)",
+    "Comelec-vs-SET gut-issue distinction",
+    "Carpio-De Castro-Brion partial inhibition mechanics",
+    "Comelec Chair Bautista separate-opinion split (false but no deliberate intent)"
+  ],
+  "primary_topics": [
+    "Did the extended oral argument signal a SC tilt toward Poe's eligibility?",
+    "The gut issue in the Comelec cases vs the SET appeal: 'representation' vs 'qualification'",
+    "Why three justices (Carpio, De Castro, Brion) inhibited from the SET appeal but participated in the Comelec appeals",
+    "The Comelec's authority under Sec. 78 of the Omnibus Election Code: limited to COC cancellation for false material representation",
+    "The Constitution reserves judging of presidential 'qualifications' to the SC sitting en banc -- but only after election, not before",
+    "How Comelec Chair Andres Bautista voted: statements 'false' but no 'deliberate intent' -- Poe's COC therefore cannot be cancelled"
+  ],
+  "sub_topics": [
+    "Speedy and fair decision-making as a constitutional imperative",
+    "Dark scenarios from delayed adjudication: ballots already printed with Poe's name",
+    "TRO from the SC permitting Poe's name on the printed ballots",
+    "Inhibition under the Rules of Court: voluntary, sound discretion",
+    "Why the issue of 'representation' (Comelec cases) differs from 'qualification' (SET case)",
+    "Pre-election vs post-election jurisdictional boundaries between Comelec and SC",
+    "The SET as 'sole judge' of senatorial qualifications under Sec. 17, Art. VI"
+  ],
+  "signature_phrases": [
+    "in my humble opinion",
+    "concededly",
+    "Note that",
+    "settled jurisprudence",
+    "It necessarily follows",
+    "let us leave to the judgment of history",
+    "Ergo",
+    "Laypersons may find it awkward but, yes"
+  ],
+  "entities": {
+    "people": [
+      "Grace Poe",
+      "Justice Antonio T. Carpio",
+      "Justice Teresita J. Leonardo de Castro",
+      "Justice Arturo D. Brion",
+      "Comelec Chair Andres D. Bautista"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Commission on Elections (Comelec)",
+      "Senate Electoral Tribunal (SET)",
+      "Presidential Electoral Tribunal (PET)"
+    ],
+    "cases": [
+      "Grace Poe Comelec cases (appealed to SC, 2016)",
+      "Grace Poe SET case (appealed to SC, 2016)"
+    ],
+    "laws_treaties": [
+      "Sec. 78, Omnibus Election Code (COC cancellation)",
+      "Sec. 4, Art. VII, 1987 Constitution (SC as sole judge of presidential election contests)",
+      "Sec. 17, Art. VI, 1987 Constitution (SET as sole judge of senatorial contests)",
+      "Rules of Court (voluntary and compulsory inhibition)"
+    ],
+    "events": [
+      "SC oral argument on Poe cases (multi-day, early 2016)",
+      "SC TRO preserving Poe's name on the printed ballots"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The extended oral argument is not a 'subtle signal' of any particular outcome; the Court is responsibly weighing the issues, and I trust it will produce a speedy and fair decision",
+      "rhetorical_move": "rebut reader speculation by reasserting institutional trust",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Comelec's COC-cancellation authority under Sec. 78 is exclusively limited to false material representation made with deliberate intent -- not constitutional 'qualifications'",
+      "rhetorical_move": "textual exegesis with emphasis on 'exclusively'",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Supreme Court's jurisdiction to judge presidential 'qualifications' arises only AFTER election (under Sec. 4, Art. VII), not before -- settled jurisprudence holds this",
+      "rhetorical_move": "ALL-CAPS emphasis on 'AFTER' to make the temporal point unmistakable",
+      "confidence": "high"
+    },
+    {
+      "claim": "The gut issues in the Comelec appeals and the SET appeal are technically different because 'representation' and 'qualification' are different legal categories",
+      "rhetorical_move": "doctrinal distinction-drawing to explain the three justices' inconsistent-looking choices",
+      "confidence": "high"
+    },
+    {
+      "claim": "Whether Carpio, De Castro, and Brion exercised their inhibition discretion 'soundly' in the Comelec appeals is for history to judge",
+      "rhetorical_move": "deferral to history -- typical CJ move when criticism would be unbecoming",
+      "confidence": "medium"
+    },
+    {
+      "claim": "It is legally possible for the three justices to vote in favor of Poe in the Comelec appeals after voting against her in the SET -- as Comelec Chair Bautista's separate opinion demonstrates",
+      "rhetorical_move": "concrete example proving an abstract legal possibility",
+      "confidence": "high"
+    },
+    {
+      "claim": "Comelec Chair Bautista's separate opinion concluded the statements were false but lacked deliberate intent to mislead, therefore the COC cannot be cancelled -- this is the doctrinally correct path",
+      "rhetorical_move": "endorsement-by-quotation; Bautista's logic provides the template for the SC",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Reader queries repeatedly asking whether the long oral argument signals a Poe-favorable verdict",
+    "Bautista's separate opinion as a real-world demonstration that one can find falsity without finding deliberate intent"
+  ],
+  "target_audience": [
+    "Inquirer readership following the Poe litigation week by week",
+    "Lawyers and legal scholars",
+    "Election watchers concerned about ballot-printing timeline and dark scenarios",
+    "Critics of the three justices who inhibited inconsistently between SET and Comelec appeals"
+  ],
+  "register_markers": [
+    "doctrinal-formal register with legal-textbook clarity",
+    "ALL-CAPS for stress ('AFTER' in jurisdictional point)",
+    "Latin tags ('Ergo', 'ipso facto', 'arguendo')",
+    "numbered enumeration of cumulative legal elements",
+    "extensive direct quotation of constitutional and statutory text",
+    "deferral-to-history formula ('let us leave to the judgment of history')",
+    "rhetorical engagement with reader queries"
+  ],
+  "decision_framework_signals": [
+    "Three-part COC cancellation test (material, false, deliberately misleading)",
+    "Pre-election vs post-election jurisdictional split between Comelec and SC",
+    "'Representation' (Comelec power) vs 'qualification' (SC/SET power) as doctrinal categories",
+    "Bautista's reasoning as template: even if false, no deliberate intent = no cancellation",
+    "Voluntary inhibition under sound discretion (Rules of Court)",
+    "Liberal construction in election cases favoring popular choice"
+  ],
+  "one_paragraph_summary": "Panganiban addresses readers who wonder whether the Supreme Court's extended oral argument -- which overtook the Comelec's printing deadline -- telegraphs a favorable decision for Grace Poe. He answers by reasserting institutional trust: the Court is weighing the issues responsibly and will produce a speedy and fair decision avoiding the dark scenarios he outlined the previous Sunday. He then sharpens the doctrinal architecture: the gut issue in the Comelec appeals is whether the poll body gravely abused its discretion in cancelling Poe's COC under Sec. 78 of the Omnibus Election Code, which 'exclusively' permits cancellation for false material representation made with deliberate intent to deceive -- the three-part test from settled jurisprudence (material, false, deliberately misleading). He emphasizes in ALL-CAPS that the SC's constitutional power to judge presidential 'qualifications' under Sec. 4, Art. VII arises only AFTER election, not before -- meaning the Comelec lacks any pre-election authority over constitutional qualifications as such. He contrasts this with the SET appeal, where Sec. 17, Art. VI grants the SET sole-judge authority over senatorial qualifications, and explains that the gut issue there is whether the SET gravely abused its discretion in finding Poe a natural-born citizen. This doctrinal distinction -- 'representation' (Comelec power) vs 'qualification' (SET/SC power) -- explains why three justices (Carpio, De Castro, Brion) inhibited from the SET appeal (having voted against Poe at the SET level) but participated actively in the Comelec appeals. He notes the Rules of Court grant voluntary inhibition to 'sound discretion,' and whether the three justices exercised their discretion 'soundly' he leaves 'to the judgment of history.' He closes by showing that it is legally possible to vote against Poe at the SET (on qualification) but for Poe at the Comelec level (on representation), pointing to Comelec Chair Andres Bautista's separate opinion: 'while I find that the statements of [Poe] ... are false, I do not believe that ... there was a deliberate intent on [her] part to mislead, misinform or hide a fact which would otherwise render a candidate ineligible' -- ergo, the COC cannot be cancelled.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

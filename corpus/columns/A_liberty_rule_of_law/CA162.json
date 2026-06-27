@@ -1,0 +1,142 @@
+{
+  "id": "CA162",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 162,
+  "title": "Comelec: No reason to cancel BBM's COC",
+  "date": "2022-01-23",
+  "link": "https://opinion.inquirer.net/148971/comelec-no-reason-to-cancel-bbms-coc",
+  "keywords": [
+    "Comelec Second Division Resolution",
+    "false material representation",
+    "perpetual disqualification (CA decision)",
+    "Republic v. Marcos (Aug. 4, 2009)",
+    "tax evasion vs failure to file ITR",
+    "exclusive ground for COC cancellation"
+  ],
+  "primary_topics": [
+    "Comelec Second Division's 32-page Resolution unanimously dismissing the COC-cancellation petition against BBM",
+    "False material representation as the exclusive ground for COC cancellation under Section 78 of the OEC",
+    "Three-element test of false material representation: materiality, falsity, deliberate intent to mislead",
+    "Disposition of two added grounds (moral turpitude; mandatory imprisonment > 18 months) as DQ grounds, not cancellation grounds",
+    "Whether failure to file ITR is a crime involving moral turpitude or tax evasion"
+  ],
+  "sub_topics": [
+    "Second Division composition: Presiding Commissioner Socorro B. Inting, Antonio T. Kho Jr. (with Separate Opinion), Rey E. Bulay",
+    "Two alleged false material representations: (a) BBM's eligibility statement and (b) 'No' answer on perpetual-disqualification penalty",
+    "Three-element test: (1) materiality, (2) falsity, (3) deliberate attempt to mislead",
+    "Materiality conceded: BBM averred all qualifications and no ineligibilities",
+    "Falsity rejected: nothing in CA's dispositive portion expressly imposed perpetual disqualification; law prescribing penalty effective only Jan. 1, 1986 -- no retroactive application to 1982-1984 ITRs",
+    "March 18, 1986 ITR filing deadline for 1985 -- BBM 'no longer a public officer' per Resolution (CJ disagrees)",
+    "Third element rejected: nothing in CA Decision categorically apprised BBM of perpetual ineligibility -- CJ notes 'This is debatable'",
+    "Addition of two grounds (moral turpitude + mandatory imprisonment > 18 months) violated OEC Section 78 and Comelec Rules -- could have been outright dismissed",
+    "Resolution citing Republic v. Marcos (Aug. 4, 2009): failure to file ITR is not a crime involving moral turpitude",
+    "Resolution holding: not tax evasion because taxes were withheld at source from BBM's public salaries",
+    "Resolution holding: petitioners 'deliberately misquoted' the law -- courts had discretion to impose fine OR imprisonment OR both, not mandatory imprisonment; mandatory imprisonment only after Jan. 1, 1988 amendment",
+    "Pending motion for reconsideration to be filed by Theodore O. Te on January 24"
+  ],
+  "signature_phrases": [
+    "FALSE MATERIAL REPRESENTATION is the exclusive ground to cancel a COC. 'There is no other possible ground'",
+    "the petitioners 'appear to have deliberately misquoted the applicable law'",
+    "I summarized the Resolution as clearly as I can to help lay readers understand the delicate issues resolved",
+    "in deference to -- and to avoid preempting -- the motion for reconsideration",
+    "THE RESOLUTION HELD, AND I AGREE AGAIN, THAT THE REPRESENTATIONS WERE 'MATERIAL'",
+    "HOWEVER, THEY WERE 'NOT FALSE'",
+    "to which I disagree",
+    "(This is debatable.)",
+    "CIRCLING BACK TO THE PETITION'S ADDITION OF TWO MORE GROUNDS, to which I disagree"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Bongbong Marcos (BBM)",
+      "Commissioner Socorro B. Inting (Presiding)",
+      "Commissioner Antonio T. Kho Jr. (Separate Opinion)",
+      "Commissioner Rey E. Bulay",
+      "Theodore O. Te (anticipated MR filer)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec) Second Division",
+      "Court of Appeals",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "Republic v. Marcos (Aug. 4, 2009) -- failure to file ITR is not moral turpitude",
+      "Court of Appeals decision convicting BBM for failure to file ITRs (1982-1985)"
+    ],
+    "laws_treaties": [
+      "Omnibus Election Code (OEC), Section 78 -- exclusive ground (false material representation) for COC cancellation",
+      "OEC Section 74 -- sworn statements required in the COC",
+      "OEC Section 12 -- grounds for disqualification (moral turpitude; mandatory imprisonment > 18 months)",
+      "Tax laws prescribing perpetual disqualification -- effective Jan. 1, 1986",
+      "Tax law amendments effective Jan. 1, 1988 -- making imprisonment mandatory"
+    ],
+    "events": [
+      "Issuance of the 32-page Comelec Second Division Resolution (January 2022)",
+      "Anticipated filing of the motion for reconsideration on Jan. 24, 2022"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "False material representation is the exclusive ground for cancelling a COC -- 'no other possible ground,' as the Second Division correctly ruled.",
+      "rhetorical_move": "doctrinal-exclusivity affirmation",
+      "confidence": "asserted ('I agree')"
+    },
+    {
+      "claim": "BBM's COC representations were 'material' (he averred all qualifications and no ineligibilities) -- the Second Division was right on the first element.",
+      "rhetorical_move": "concurring on the materiality prong",
+      "confidence": "asserted ('I agree again')"
+    },
+    {
+      "claim": "The Second Division was wrong to conclude that BBM was 'no longer a public officer' on March 18, 1986 -- Panganiban disagrees with this factual-legal claim.",
+      "rhetorical_move": "express dissent on the constitutional-continuity question",
+      "confidence": "asserted ('to which I disagree')"
+    },
+    {
+      "claim": "The Second Division's third-element holding (no deliberate attempt to mislead because the CA Decision did not categorically apprise BBM) is 'debatable.'",
+      "rhetorical_move": "explicit epistemic-flag concession",
+      "confidence": "open / debatable"
+    },
+    {
+      "claim": "Adding moral turpitude and mandatory-imprisonment-over-18-months grounds to a Section 78 cancellation petition is a procedural violation that could have justified outright dismissal -- but the Second Division generously addressed the merits.",
+      "rhetorical_move": "procedural-rigor + magnanimity observation",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Resolution correctly observed that the petitioners 'deliberately misquoted' the law by characterizing imprisonment as mandatory -- the original law gave the courts discretion to impose fine OR imprisonment OR both; mandatory imprisonment came only with the Jan. 1, 1988 amendment.",
+      "rhetorical_move": "textual rebuke of petitioners on statutory accuracy",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Doc's self-imposed restraint: 'I summarized the Resolution as clearly as I can to help lay readers understand the delicate issues resolved' and 'in deference to -- and to avoid preempting -- the motion for reconsideration' he refrained from detailing comments.",
+    "Page-count gesture: a 32-page unanimous Resolution as institutional weight.",
+    "The Resolution's use of CAPS for 'OR' to underscore that the original tax law was disjunctive ('fine OR imprisonment OR both')."
+  ],
+  "target_audience": [
+    "Election lawyers and Comelec practitioners",
+    "Comelec commissioners deliberating the MR",
+    "Petitioners and partisans in the BBM cases",
+    "Inquirer readers seeking a balanced summary of a charged Resolution"
+  ],
+  "register_markers": [
+    "page-and-paragraph citation style (Pp. 6-9, P. 14, etc.) for doctrinal precision",
+    "running 'I agree' / 'to which I disagree' commentary alongside the Resolution's recitation",
+    "small-caps emphasis ('FALSE MATERIAL REPRESENTATION,' 'CIRCLING BACK')",
+    "self-imposed restraint to avoid preempting the pending MR",
+    "explicit epistemic flag '(This is debatable.)'",
+    "lay-translation register ('to help lay readers understand the delicate issues resolved')"
+  ],
+  "decision_framework_signals": [
+    "exclusive-ground analysis (Section 78 as the only doorway to COC cancellation)",
+    "three-element false-material-representation test (materiality + falsity + deliberate intent)",
+    "non-retroactivity of penal laws to pre-effectivity ITR years (1982-1984)",
+    "constitutional-continuity analysis under the Provisional Constitution (March 18, 1986)",
+    "remedy-channeling: moral turpitude and mandatory-imprisonment grounds belong to DQ (Section 12), not cancellation (Section 78)",
+    "procedural-restraint norm: avoid preempting a pending MR"
+  ],
+  "one_paragraph_summary": "Panganiban walks lay readers through the Comelec Second Division's 32-page, unanimous Resolution (Presiding Commissioner Socorro B. Inting, with Antonio T. Kho Jr. concurring via Separate Opinion, and Rey E. Bulay) dismissing the petition to cancel Bongbong Marcos's Certificate of Candidacy. He agrees with the Resolution that false material representation is the exclusive ground for COC cancellation under Section 78 of the OEC, and that adding moral-turpitude and mandatory-imprisonment-over-18-months grounds confuses cancellation with disqualification under Section 12. He concurs that BBM's COC statements were 'material' but parts ways with the Division's rejection of falsity: he disagrees that BBM 'ceased to be a public officer' on March 18, 1986 (the ITR filing deadline for tax year 1985) and flags as 'debatable' the third-element holding that BBM lacked deliberate intent to mislead since the CA Decision did not categorically apprise him of perpetual ineligibility. He records the Resolution's reliance on Republic v. Marcos (Aug. 4, 2009) for the proposition that failure to file ITR is not a crime of moral turpitude, and its observation that the petitioners 'deliberately misquoted' the original tax law, which gave courts discretion between fine, imprisonment, or both -- mandatory imprisonment only entered with the Jan. 1, 1988 amendment. Out of deference to Theodore O. Te's anticipated motion for reconsideration the next day, Panganiban refrains from full commentary -- modeling the kind of measured doctrinal summary he says lay readers need.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

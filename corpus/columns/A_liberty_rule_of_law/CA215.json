@@ -1,0 +1,142 @@
+{
+  "id": "CA215",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 215,
+  "title": "VFA, MDT not enforceable in US, PH",
+  "date": "2020-06-07",
+  "link": "https://opinion.inquirer.net/130548/vfa-mdt-not-enforceable-in-us-ph",
+  "keywords": [
+    "Visiting Forces Agreement (VFA)",
+    "Mutual Defense Treaty (MDT)",
+    "Medellin v. Texas",
+    "treaty self-executory doctrine",
+    "Sec. 25 Art. XVIII",
+    "Bayan v. Zamora",
+    "Nicolas v. Romulo",
+    "Daniel Smith rape case"
+  ],
+  "primary_topics": [
+    "Non-enforceability of the VFA and MDT in the United States as domestic federal law",
+    "Application of the Medellin v. Texas (2008) self-executory doctrine to PH-US security treaties",
+    "Constitutional requirement under Sec. 25, Art. XVIII that the foreign contracting state must 'recognize as a treaty' any agreement permitting foreign troops, bases, or facilities",
+    "Why Duterte's six-month suspension of the VFA abrogation invites reexamination of both treaties' legal force"
+  ],
+  "sub_topics": [
+    "Historical timeline: MDT (Aug 30, 1951), VFA Senate concurrence (May 27, 1999), VFA entry into force (June 1, 1999)",
+    "Bayan v. Zamora (Oct 10, 2000) upheld VFA constitutionality with author's recusal due to ties to petitioner Sen. J.R. Salonga",
+    "Romulo-Kenney accord (Dec 19, 2006) transferring Lance Cpl. Daniel Smith from Makati City Jail to US Embassy detention",
+    "Nicolas v. Romulo (Feb 11, 2009) invalidating the Romulo-Kenney accord but leaving Smith in US Embassy pending diplomatic agreement",
+    "Smith's CA acquittal (April 23, 2009) and subsequent return to the US",
+    "Discovery that the VFA was never ratified by the US Senate; defenders' argument that it is an adjunct to the MDT",
+    "Medellin v. Texas (March 25, 2008) CJ Roberts ruling: a Senate-ratified treaty is not enforceable as US domestic federal law unless implementing legislation exists or the treaty is by its terms self-executory",
+    "Application of Medellin to the VFA (no US Senate ratification, no implementing law, not self-executory by terms) and to the MDT (Senate-ratified but not self-executory by terms, no implementing law)",
+    "Author's personal account of declining-invitation conversation with US Justice Antonin Scalia (May 17, 2006) on the Global Forum on Liberty and Prosperity",
+    "Vienna Convention on Consular Relations (April 24, 1963) as the treaty at issue in Medellin",
+    "Speculation that the Medellin conundrum may have informed Duterte's Feb 11 abrogation of the VFA"
+  ],
+  "signature_phrases": [
+    "To my surprise",
+    "Recall that",
+    "and this was the strange part of the decision",
+    "Amid this seething imbroglio",
+    "I believe this argument was blown away",
+    "EVEN IF RATIFIED BY THE US SENATE",
+    "BY ITS TERMS",
+    "RECOGNIZED AS A TREATY BY THE OTHER CONTRACTING STATE",
+    "Small wonder",
+    "Inevitably then",
+    "as a self-respecting sovereign nation",
+    "I wonder if President Duterte had this conundrum in mind"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "President Rodrigo Duterte",
+      "Sen. Jovito R. Salonga",
+      "Lance Cpl. Daniel Smith (US Marine)",
+      "Foreign Secretary Alberto G. Romulo",
+      "US Ambassador Kristie A. Kenney",
+      "US Chief Justice John G. Roberts",
+      "US Justice Antonin Scalia (deceased)"
+    ],
+    "institutions": [
+      "Philippine Senate",
+      "US Senate",
+      "US Congress",
+      "Supreme Court of the Philippines",
+      "Court of Appeals (Philippines)",
+      "Makati Regional Trial Court",
+      "Makati City Jail",
+      "US Embassy in Manila",
+      "US Supreme Court",
+      "Global Forum on Liberty and Prosperity"
+    ],
+    "cases": [
+      "Bayan v. Zamora (Oct 10, 2000)",
+      "Nicolas v. Romulo (Feb 11, 2009)",
+      "Medellin v. Texas (March 25, 2008)"
+    ],
+    "laws_treaties": [
+      "Visiting Forces Agreement (VFA, 1999)",
+      "Mutual Defense Treaty (MDT, Aug 30, 1951)",
+      "1987 Constitution Sec. 25, Art. XVIII (foreign military bases/troops/facilities clause)",
+      "Vienna Convention on Consular Relations (April 24, 1963)",
+      "Diplomatic Note No. 2020-2622 (June 1, 2020)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Under the Medellin v. Texas doctrine, the VFA is not enforceable in the US because the US Congress has enacted no implementing law, the VFA is not self-executory by its terms, and it was never even ratified by the US Senate.",
+      "rhetorical_move": "doctrinal-application: imports a US Supreme Court holding into PH legal analysis to argue reciprocal non-enforceability",
+      "evidence": "Medellin v. Texas (March 25, 2008), CJ Roberts opinion; verified non-ratification by US Senate; absence of US implementing legislation"
+    },
+    {
+      "claim": "The MDT, though ratified by the US Senate, is likewise unenforceable in the US because it is not self-executory by its terms and has no US implementing law.",
+      "rhetorical_move": "parallel-application of the same Medellin test",
+      "evidence": "Treaty text analysis under Medellin's two-prong standard"
+    },
+    {
+      "claim": "Because Sec. 25, Art. XVIII of the 1987 Constitution requires the other contracting state to recognize the agreement as a treaty, and because the US no longer enforces the VFA as one, the Philippines as a self-respecting sovereign has no choice but to deem the VFA and MDT unenforceable here.",
+      "rhetorical_move": "constitutional-reciprocity argument grounded in sovereign dignity",
+      "evidence": "Sec. 25, Art. XVIII; Medellin doctrine read as supervening to Bayan v. Zamora"
+    },
+    {
+      "claim": "Justice Scalia's confession that he believed the US Supreme Court is tasked to enforce only US Constitution and US laws — not cross-border concepts without implementing statutes — exemplifies the philosophical foundation of the Medellin doctrine.",
+      "rhetorical_move": "anecdotal authority: uses a personal encounter to humanize a doctrinal point",
+      "evidence": "May 17, 2006 personal conversation in Washington DC"
+    }
+  ],
+  "notable_anecdotes": [
+    "The author's May 17, 2006 Washington DC visit to US Justice Antonin Scalia, where Scalia declined the invitation to the Global Forum on Liberty and Prosperity by explaining 'I am useless in international meetings because I believe that our Supreme Court is tasked to enforce only the US Constitution and US laws, not cross-border concepts that do not find implementing US statutes' — used as personal-encounter evidence of the philosophical undercurrent of Medellin.",
+    "The Dec 29, 2006 stealth transfer of Lance Cpl. Daniel Smith from Makati City Jail to US Embassy detention 25 days after his rape conviction, executed under the Romulo-Kenney accord and later invalidated in Nicolas v. Romulo as a violation of the VFA's requirement of Philippine custody on Philippine soil.",
+    "Author's recusal in Bayan v. Zamora due to 'close personal and former professional relations with a petitioner, Sen. J.R. Salonga' — a rare self-disclosure of the personal-history reasons behind a no-part vote."
+  ],
+  "target_audience": [
+    "Filipino constitutionalists and treaty-law scholars",
+    "Senators and policy-makers reviewing the VFA suspension",
+    "DFA officials and diplomatic counterparts",
+    "Civic-minded readers tracking PH-US security relations",
+    "Legal academe interested in self-executory treaty doctrine"
+  ],
+  "register_markers": [
+    "doctrinal-comparative register (PH constitutional law engaged with US Supreme Court doctrine)",
+    "capitalization-as-emphasis for treaty-clause terms ('EVEN IF RATIFIED BY THE US SENATE', 'BY ITS TERMS', 'RECOGNIZED AS A TREATY BY THE OTHER CONTRACTING STATE', 'AS SOON AS POSSIBLE'-style)",
+    "first-person doctrinal speculation ('I believe', 'I wonder')",
+    "anecdotal interlude as authority device (the Scalia encounter)",
+    "chronological-legal narration (1951 → 1999 → 2000 → 2006 → 2008 → 2009 → 2020)",
+    "parenthetical self-citation of prior recusal as historical disclosure",
+    "use of italicized Latin and parenthetical case-date citations"
+  ],
+  "decision_framework_signals": [
+    "applies the Medellin two-prong self-executory test (implementing law OR self-executory by terms) as the dispositive lens",
+    "treats sovereign reciprocity as a constitutional command under Sec. 25, Art. XVIII",
+    "treats supervening US Supreme Court doctrine as a fact altering the constitutional analysis upheld in Bayan v. Zamora",
+    "uses the 'self-respecting sovereign nation' frame to convert a legal inference into a national-dignity imperative",
+    "deploys parallel-application reasoning (if VFA, then MDT) for symmetric treaty analysis"
+  ],
+  "one_paragraph_summary": "Panganiban responds to President Duterte's surprise six-month suspension of the VFA abrogation (Diplomatic Note No. 2020-2622, June 1, 2020) by tracing the layered history of the VFA (Senate-concurred May 27, 1999; upheld in Bayan v. Zamora, Oct 10, 2000, from which he recused due to ties to petitioner Salonga) and the MDT (Aug 30, 1951), then walks through the 2006 Daniel Smith rape case and the Romulo-Kenney transfer of Smith to the US Embassy -- which was invalidated in Nicolas v. Romulo (Feb 11, 2009) yet strangely left Smith in embassy custody pending diplomatic agreement. He pivots to the dispositive supervening doctrine: Medellin v. Texas (March 25, 2008, CJ Roberts) held that a treaty, even one ratified by the US Senate, is not enforceable as US domestic federal law unless Congress enacts implementing legislation or the treaty is by its terms self-executory and Senate-ratified as such. Applying this test, he argues the VFA fails on all counts (no US Senate ratification, no implementing law, not self-executory) and the MDT also fails (no implementing law, not self-executory), making both treaties unenforceable in the US. Because Sec. 25, Art. XVIII of the 1987 Constitution requires the other contracting state to 'recognize as a treaty' any agreement permitting foreign troops, the Philippines as a self-respecting sovereign has no choice but to deem both treaties unenforceable here. He punctuates the argument with a personal anecdote about Justice Antonin Scalia's May 17, 2006 confession in Washington that he was 'useless in international meetings' because the US Supreme Court enforces only the US Constitution and US statutes -- and closes by wondering whether this Medellin conundrum is what truly informed Duterte's Feb 11 abrogation.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

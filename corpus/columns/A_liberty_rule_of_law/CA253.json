@@ -1,0 +1,143 @@
+{
+  "id": "CA253",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 253,
+  "title": "Why were the Ligots acquitted?",
+  "date": "2019-02-03",
+  "link": "https://opinion.inquirer.net/119295/why-were-the-ligots-acquitted",
+  "keywords": [
+    "Ligot acquittal",
+    "Court of Tax Appeals",
+    "Bank Secrecy Law",
+    "rules of evidence",
+    "SALN",
+    "Anti-Money Laundering Council"
+  ],
+  "primary_topics": [
+    "Court of Tax Appeals acquittal of Gen. Jacinto Ligot and wife Erlinda",
+    "Inadmissibility of Senate-hearing-derived bank deposit evidence under Bank Secrecy Law",
+    "Failure to authenticate property documents (PH and California)",
+    "Distinction between perceived facts (Senate hearings) and legal facts (rules of evidence)",
+    "Three remaining venues: Sandiganbayan forfeiture, Makati RTC AMLA, BIR tax collection"
+  ],
+  "sub_topics": [
+    "2011 Senate hearings exposing Ligot couple's assets disproportionate to income",
+    "BIR indictment for incorrect ITR and tax evasion (2001-2004)",
+    "CTA 83-page decision penned by Justice Ma. Belen M. Ringpis-Liban",
+    "Inquirer Jan 22 editorial 'The lucky Ligots'",
+    "Republic Act No. 1405 (Bank Secrecy Law) -- absolute confidentiality",
+    "Four exceptions to bank secrecy (written consent, impeachment, bribery/dereliction court order, money as litigation subject matter)",
+    "Anti-Money Laundering Council memo wrongly directed to RTC Makati, not CTA",
+    "AMLA case pending in Makati RTC (separate from BIR-CTA case)",
+    "Property: Malaybalay Bukidnon land -- titles not formally offered",
+    "Essensa East Forbes Condo Taguig -- titles not formally offered",
+    "Paseo Parkview Tower II Makati -- registered to Miguela L. Paragas, no nexus shown",
+    "5-hectare Tanay Rizal property -- held in trust for military officers",
+    "Anaheim and Buena Park, California properties -- not authenticated by PH consular officials",
+    "Sandiganbayan asset forfeiture case (separate civil suit)",
+    "BIR independent tax collection right despite criminal acquittal"
+  ],
+  "signature_phrases": [
+    "the public's dismay and disgust",
+    "the lucky Ligots",
+    "exactly the lucky break they needed to squeak out of the law's grasp",
+    "absolute confidentiality",
+    "did not show the nexus",
+    "all is not lost",
+    "the nation can still mitigate its defeat",
+    "transform the perceived facts during the Senate hearing into legal facts in a court of law",
+    "though complicated, the rules of evidence were designed to discover the truth, free from bias, popular belief and error",
+    "May the truth prevail"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Gen. Jacinto Ligot",
+      "Erlinda Ligot",
+      "Justice Ma. Belen M. Ringpis-Liban (CTA ponente)",
+      "Miguela L. Paragas (Paseo Parkview condos registered owner)"
+    ],
+    "institutions": [
+      "Court of Tax Appeals (CTA)",
+      "Bureau of Internal Revenue (BIR)",
+      "Sandiganbayan (asset forfeiture venue)",
+      "Regional Trial Court of Makati (AMLA venue)",
+      "Anti-Money Laundering Council (AMLC)",
+      "Philippine Senate (2011 hearings)",
+      "Philippine Daily Inquirer (Jan 22 editorial)"
+    ],
+    "cases": [
+      "CTA Ligot acquittal decision (83 pages, J Ringpis-Liban ponente)",
+      "Sandiganbayan asset forfeiture case (pending)",
+      "Makati RTC AMLA case (pending)"
+    ],
+    "laws_treaties": [
+      "Republic Act No. 1405 (Bank Secrecy Law) -- absolute confidentiality with 4 exceptions",
+      "Anti-Money Laundering Act (AMLA)",
+      "National Internal Revenue Code -- BIR collection procedures"
+    ],
+    "events": [
+      "2001-2004 -- period covered by ITR/SALN charges",
+      "2011 -- Senate hearings exposing Ligot wealth",
+      "Jan 22, 2019 -- Inquirer editorial 'The lucky Ligots'",
+      "CTA acquittal decision (the column's subject)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Ligots were acquitted not because they were innocent of having unexplained wealth -- the Senate hearings made that plain -- but because the prosecution failed to convert those perceived facts into legal facts admissible under the strict rules of evidence: the bank deposits were excluded by the Bank Secrecy Law, the AMLC memo was misdirected, key property documents were not formally offered, and the California properties were unauthenticated by PH consular officials.",
+      "rhetorical_move": "perceived-vs-legal-facts distinction explaining the gap between public knowledge and judicial outcome",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Bank Secrecy Law's absolute confidentiality (RA 1405) admits only four exceptions -- written consent, impeachment, court order in bribery/dereliction cases, and where the money itself is the litigation subject matter -- and none of these applied to the BIR's tax evasion charge, making the deposit evidence categorically inadmissible regardless of how persuasive the Senate hearings were.",
+      "rhetorical_move": "exception-enumeration showing categorical inadmissibility, not discretionary exclusion",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The nation can still mitigate its defeat through three other venues: the Sandiganbayan asset forfeiture case, the Makati RTC AMLA case, and the BIR's independent right to collect taxes despite the criminal acquittal -- provided the prosecution learns its lesson on converting perceived facts into legal facts.",
+      "rhetorical_move": "remaining-venues optimism with conditional caveat (prosecution must improve)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The rules of evidence -- though complicated -- exist precisely to filter out bias, popular belief, and error in the search for truth, and the Ligot acquittal is a cost of that filtering system, not a failure of it; the appropriate response is better prosecutorial preparation, not procedural shortcuts that would compromise the rules.",
+      "rhetorical_move": "rules-of-evidence vindication despite unpopular outcome",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Quotation of the Inquirer's Jan 22 editorial title 'The lucky Ligots' and its accusation that someone produced 'so remiss and shoddy a work that gave the Ligots exactly the lucky break they needed to squeak out of the law's grasp' -- using the paper's own indignant editorial framing to set up the legal analysis that follows.",
+    "The detailed property catalog -- Malaybalay Bukidnon land, Essensa East Forbes Condo Taguig, two Paseo Parkview Tower II condos (registered to one Miguela L. Paragas), 5-hectare Tanay Rizal property held in trust for military officers, Anaheim and Buena Park California properties -- each falling for a different technical evidentiary reason, demonstrating that the prosecution failed across the entire asset base in different ways.",
+    "The cross-reference to CJ's own Jan 20 column 'Commenting on high-profile cases' -- making the Ligots acquittal a concrete demonstration of the perceived-vs-legal-facts framework articulated two weeks earlier."
+  ],
+  "target_audience": [
+    "Civic-minded readers angry at the Ligots acquittal",
+    "Inquirer editorial readers (responding to Jan 22 piece)",
+    "BIR, Sandiganbayan, and Makati RTC prosecutors handling remaining venues",
+    "Legal practitioners on evidence and tax law",
+    "Senate hearing observers misled into thinking exposure equals conviction"
+  ],
+  "register_markers": [
+    "doctrinal-evidentiary critique with editorial-response framing",
+    "self-citation of CJ's own Jan 20 column on perceived-vs-legal facts",
+    "Bank Secrecy Law exception enumeration (the four exceptions presented as taxonomic)",
+    "property-by-property procedural autopsy (each asset failed for different reason)",
+    "'in my humble view' implicit through reasoned-counter-narrative posture",
+    "closing aphoristic affirmation of rules-of-evidence ('May the truth prevail')",
+    "responsive register (answering an Inquirer editorial's indignant question)",
+    "consolation-with-caveat closing (three remaining venues + lesson to be learned)"
+  ],
+  "decision_framework_signals": [
+    "applies perceived-vs-legal-facts distinction to explain public-vs-judicial outcome gap",
+    "uses exception-enumeration to show categorical (not discretionary) inadmissibility",
+    "performs asset-by-asset procedural autopsy to identify specific prosecutorial failures",
+    "frames acquittal as cost of evidentiary integrity, not failure of justice system",
+    "directs corrective attention to prosecutorial preparation rather than judicial discretion",
+    "preserves remaining-venue optimism while requiring lesson-learned condition"
+  ],
+  "one_paragraph_summary": "Panganiban answers the Inquirer's Jan 22 editorial demanding accountability for the Court of Tax Appeals' acquittal of Gen. Jacinto Ligot and his wife Erlinda -- whose 2001-2004 income tax returns and SALNs were dwarfed by hundreds of millions of pesos in bank deposits and properties exposed in 2011 Senate hearings. Examining the CTA's 83-page decision by Justice Ma. Belen M. Ringpis-Liban, he explains that the prosecution failed to convert the Senate-hearing 'perceived facts' into legal facts: the bank deposit evidence was categorically excluded by the Bank Secrecy Law (RA 1405), whose absolute confidentiality admits only four exceptions (written consent, impeachment, court order in bribery/dereliction cases, money-as-litigation-subject), none applicable to the BIR's tax evasion charge; the AMLC memo was wrongly directed to the Makati RTC rather than the CTA; the Malaybalay Bukidnon land and Essensa East Forbes Condo titles were never formally offered in evidence; the two Paseo Parkview Tower II condos showed no nexus to the registered owner Miguela L. Paragas; the 5-hectare Tanay property was held in trust for military officers; and the Anaheim and Buena Park, California properties were not authenticated by PH consular officials as required. He closes that 'all is not lost' -- the asset forfeiture case in the Sandiganbayan, the AMLA case in the Makati RTC, and the BIR's independent tax collection right all remain available, provided the prosecution learns its lesson on converting perceived facts into legal facts; the rules of evidence, 'though complicated, were designed to discover the truth, free from bias, popular belief and error.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

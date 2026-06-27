@@ -1,0 +1,144 @@
+{
+  "id": "CA255",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 255,
+  "title": "Focus on trial judges",
+  "date": "2019-01-13",
+  "link": "https://opinion.inquirer.net/118848/focus-on-trial-judges",
+  "keywords": [
+    "trial judges",
+    "Filipinos of the Year 2018",
+    "RTC dockets",
+    "judicial workhorses",
+    "immediate finality of acquittals"
+  ],
+  "primary_topics": [
+    "Inquirer's Filipinos of the Year 2018 -- RTC Judges Azucena, Palabrica, Soriano, Tamayo",
+    "The 'lowly' courts as judicial frontliners closest to the masses",
+    "Trial court statistics: 800,000 pending cases, uneven distribution, criminal/drugs dominance",
+    "Trial judges' security risks, public exposure, and unique acquittal/finding prerogatives",
+    "Contrast with appellate/SC justices' seclusion"
+  ],
+  "sub_topics": [
+    "Four Inquirer awardees: RTC Judges Rodolfo Azucena Jr., Arlene Lirag Palabrica, Andres Soriano, Alexander Tamayo",
+    "Inquirer citation: 'breath to the faltering idea that even those with neither wealth nor power can receive fair treatment'",
+    "Lowly courts closest to great masses = frontliners and workhorses",
+    "Media bias toward high-profile SC/CA cases",
+    "2017 stats: 160,000 pending in 1,200 first-level courts (133/court avg)",
+    "640,000 pending in 1,100 RTCs (580/court avg)",
+    "Uneven RTC distribution: some 5,000, some 50",
+    "80% criminal cases, 50% of those drug-related",
+    "20% noncriminal -- mediable, compromisable",
+    "Drug cases require tedious time, cannot be mediated",
+    "~400,000 trial-court resolutions/year, less than 10% appealed",
+    "Appellate court pending stats: CA 18,500; Sandiganbayan 5,500; CTA 1,200; SC 8,500",
+    "Less than 200 of 2,000+ judges have pending complaints",
+    "Less than 20% of complaints found meritorious (rest are harassment suits)",
+    "Trial judges shot, injured, killed in remote areas",
+    "Trial sessions open to public; appellate work secluded",
+    "Trial judge acquittals immediately final (except grave abuse of discretion)",
+    "Trial judge factual findings unreviewable except in exceptional circumstances"
+  ],
+  "signature_phrases": [
+    "Hail to the Inquirer's Filipino(s) of the Year 2018",
+    "breath to the faltering idea that even those with neither wealth nor power can receive fair treatment in a court of law",
+    "the 'lowly' courts which are closest to the great masses",
+    "the frontliners, the 'workhorses' of the judiciary",
+    "Justice delayed is justice denied",
+    "deserving exemplars",
+    "the great majority of trial judges are equally courageous, competent and upright",
+    "some scalawags taint the judiciary",
+    "harassment suits",
+    "unreachable, secluded and faceless",
+    "sanitized confines of their chambers",
+    "Though lowest in the judicial totem pole",
+    "May they continue dispensing unheralded justice for the great masses"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "RTC Judge Rodolfo Azucena Jr.",
+      "RTC Judge Arlene Lirag Palabrica",
+      "RTC Judge Andres Soriano",
+      "RTC Judge Alexander Tamayo"
+    ],
+    "institutions": [
+      "Philippine Daily Inquirer (Filipinos of the Year 2018)",
+      "Regional Trial Courts (1,100 RTCs, 640,000 cases pending)",
+      "Metropolitan and Municipal Trial Courts (1,200 first-level, 160,000 cases pending)",
+      "Court of Appeals (18,500 cases pending)",
+      "Sandiganbayan (5,500 cases pending)",
+      "Court of Tax Appeals (1,200 cases pending)",
+      "Supreme Court of the Philippines (8,500 cases pending)",
+      "Judicial integrity board / OCA (implied complaint-handler)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "Rules of Court -- acquittal finality, grave abuse of discretion review"
+    ],
+    "events": [
+      "2017 caseload statistics",
+      "Inquirer's Filipino of the Year 2018 award",
+      "Killings and assaults on trial judges (referenced)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The four Inquirer Filipino-of-the-Year RTC awardees -- Azucena, Palabrica, Soriano, Tamayo -- are deserving exemplars, but they are NOT exceptions; the great majority of trial judges are equally courageous, competent, and upright, and the public's negative generalization from a few scalawags is statistically unwarranted (under 200 of 2,000+ judges have complaints; under 20% of complaints are meritorious).",
+      "rhetorical_move": "exemplar-as-rule-not-exception reframing + statistical-rebuttal of negative generalization",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Trial courts are the judicial frontliners closest to the great masses and where the vast majority of cases (~400,000 per year, less than 10% appealed) are resolved -- yet media disproportionately covers high-profile appellate and SC cases, distorting public perception of where justice actually lives.",
+      "rhetorical_move": "media-attention-misallocation diagnosis + workhorse-revaluation argument",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Trial judges enjoy unique judicial prerogatives -- acquittals immediately final (except grave abuse), factual findings unreviewable in normal circumstances -- precisely BECAUSE they face the parties and witnesses directly in open court, whereas appellate justices work from cold records 'in the sanitized confines of their chambers.'",
+      "rhetorical_move": "prerogative-justified-by-proximity argument (the privilege follows from the burden)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The drug-case dominance (50% of 80% criminal load = ~40% of trial-court workload) makes mediation/compromise inapplicable to most RTC cases, structurally producing slower resolution -- meaning the 'Justice delayed is justice denied' lament has a structural cause beyond judicial diligence.",
+      "rhetorical_move": "structural-explanation for delay (not just management failure)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Inquirer's specific citation honoring the four judges for giving 'breath to the faltering idea that even those with neither wealth nor power can receive fair treatment in a court of law' -- preserved verbatim as the column's moral anchor.",
+    "The dramatic security contrast: trial judges 'dispersed to remote areas where they face serious security risks; in fact, many have been shot, injured and killed' -- versus appellate justices who are 'unreachable, secluded and faceless, deciding cases based largely on pleadings, memoranda and records elevated by the trial courts to the sanitized confines of their chambers.'",
+    "The statistical rebuttal of the scalawag generalization: 'less than 200 of the over 2,000 incumbent judges of both levels have pending complaints, and less than 20 percent of the complaints have been found meritorious' -- using ratios to flip the popular impression.",
+    "CJ's challenge to critics: 'Instead of just griping, those who disagree with the said data should lodge complaints against their perceived scalawags' -- translating gripe into procedural action."
+  ],
+  "target_audience": [
+    "Inquirer readers reacting to the 2018 Filipino-of-the-Year selection",
+    "Trial judges themselves (validation and morale)",
+    "Civic readers with negative generalized impressions of the judiciary",
+    "Media outlets covering high-profile cases at the expense of trial courts",
+    "Judicial reform advocates"
+  ],
+  "register_markers": [
+    "Hail-opening register ('Hail to the Inquirer's Filipino(s) of the Year 2018')",
+    "exemplar-then-statistical-context narrative arc",
+    "verbatim Inquirer citation preservation",
+    "scare-quote framing ('lowly,' 'ordinary,' 'workhorses')",
+    "statistical rebuttal of public impression (200/2000, <20% meritorious)",
+    "dramatic contrast register (frontline trial judges vs secluded appellate justices)",
+    "'I dare add to my congratulations' as expansion marker",
+    "valedictory closing ('May they continue dispensing unheralded justice')",
+    "civic-action prescription ('lodge complaints' instead of gripe)"
+  ],
+  "decision_framework_signals": [
+    "uses exemplar-as-rule-not-exception reframing for public-impression correction",
+    "applies statistical rebuttal to generalizations (complaint counts as denominator check)",
+    "treats media-attention misallocation as analytically relevant factor for public misperception",
+    "frames judicial prerogatives (acquittal finality, factual finality) as following from proximity burden",
+    "uses structural explanation (drug-case dominance) to account for outcomes attributed to management",
+    "translates gripe into procedural-action prescription (lodge complaints)"
+  ],
+  "one_paragraph_summary": "Panganiban hails the Inquirer's Filipinos of the Year 2018 -- RTC Judges Rodolfo Azucena Jr., Arlene Lirag Palabrica, Andres Soriano, and Alexander Tamayo -- for giving 'breath to the faltering idea that even those with neither wealth nor power can receive fair treatment in a court of law,' and uses the citation as a springboard to defend trial judges generally as the judicial frontliners closest to the masses. He cites 2017 statistics -- 160,000 cases pending in 1,200 first-level courts and 640,000 in 1,100 RTCs with uneven distributions (some salas carrying 5,000 cases, others 50) -- and notes that 80% of cases are criminal (half drug-related and thus non-mediable), producing structural delay beyond judicial diligence. He observes that the vast majority of litigations end in trial courts (less than 10% of ~400,000 yearly resolutions are appealed, confirmed by appellate pending counts: CA 18,500, Sandiganbayan 5,500, CTA 1,200, SC 8,500). The four Inquirer awardees are deserving exemplars, he argues, but NOT exceptions: the great majority of trial judges are equally courageous, competent, and upright; the public's negative generalization from scalawags is statistically unwarranted, since fewer than 200 of the 2,000+ judges have pending complaints and fewer than 20% of those are meritorious. He stresses the contrast between trial judges -- dispersed to remote, often dangerous areas where many have been shot, injured, and killed, facing parties and witnesses directly in open court -- and appellate justices 'unreachable, secluded and faceless' in 'the sanitized confines of their chambers,' and explains that trial judges' unique prerogatives (acquittals immediately final, factual findings unreviewable in normal circumstances) follow from their proximity burden. He closes by hailing the unsung but equally courageous, competent, and upright trial judges who continue dispensing unheralded justice for the great masses.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,120 @@
+{
+  "id": "CA500",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 500,
+  "title": "Face-off at the Senate: CJ vs OMB",
+  "date": "2012-05-12",
+  "link": "https://opinion.inquirer.net/28599/face-off-at-the-senate-cj-vs-omb",
+  "keywords": [
+    "Corona impeachment",
+    "Ombudsman Morales",
+    "OMB jurisdiction",
+    "ill-gotten wealth",
+    "10 million dollars",
+    "SALN",
+    "PSBank",
+    "prima facie case"
+  ],
+  "primary_topics": [
+    "CJ Corona agreeing to testify before the Senate -- on the condition the Ombudsman testifies first about her mind-boggling $10M initial finding",
+    "The Ombudsman's constitutional and statutory authority to investigate impeachable officials including the Chief Justice",
+    "CJ's strategic gamble: putting Morales on the defensive, and the risk that backfires if the OMB discloses prima facie evidence"
+  ],
+  "sub_topics": [
+    "Corona dares Ombudsman Morales to testify ahead of him and reveal under oath her initial finding that the CJ had amassed at least $10M purportedly grossly disproportionate to his salary",
+    "Ombudsman accepted the dare without hesitation",
+    "OMB initial investigation: three separate complaints plus own investigation; OMB wrote Corona a letter asking him to explain several bank accounts in PSBank and other banks denominated in US dollars aggregating at least $10M",
+    "Corona lawyers flatly denied the $10M and challenged OMB jurisdiction -- argued only House can initiate and only Senate can try and remove CJ",
+    "OMB constitutional power (Art. XI Sec. 13): investigate any act or omission of any public official appearing illegal, unjust, improper, or inefficient",
+    "RA 6770 (Ombudsman Act): empowers OMB to investigate misconduct by impeachable officials for purpose of filing verified impeachment complaint in the House",
+    "RA 6770 Sec. 15: duty to investigate and initiate recovery of ill-gotten/unexplained wealth and give priority to high-ranking officials",
+    "OMB mandate: (1) file impeachment charges; (2) civil cases for ill-gotten wealth; (3) criminal indictments for antigraft violations",
+    "Corona strategy: put Morales on defensive, trip her into failing to substantiate; strategy favors Corona only if OMB fudges; backfires if OMB discloses substantial prima facie evidence",
+    "Impeachment is more political than legal: Corona cannot hide behind technicalities; must demonstrate high moral character, integrity, independence, probity and fitness"
+  ],
+  "signature_phrases": [
+    "Rising to the challenge of several senators, Chief Justice Renato C. Corona agreed to testify",
+    "he dared Ombudsman Conchita Carpio Morales to testify ahead of him",
+    "mind-boggling",
+    "Without hesitation, the gutsy OMB confidently accepted the CJ's dare",
+    "This strategy will favor Corona only if the OMB fudges her Senate testimony",
+    "huge chasm between his legally known income and the putative value of his assets and deposits",
+    "impeachment is more political than legal",
+    "he cannot hide behind technicalities and legalities",
+    "high moral character, integrity, independence, probity and fitness to remain as the highest magistrate of the land"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Chief Justice Renato C. Corona (respondent)",
+      "Ombudsman Conchita Carpio Morales (accepted the face-off dare)"
+    ],
+    "institutions": [
+      "Senate (acting as impeachment court)",
+      "Office of the Ombudsman (OMB)",
+      "Philippine Savings Bank (PSBank)"
+    ],
+    "cases": [
+      "Corona impeachment trial (Senate)",
+      "OMB investigation of Corona"
+    ],
+    "laws_treaties": [
+      "1987 Constitution -- Art. XI Sec. 13 (OMB powers)",
+      "1987 Constitution -- Art. XI Sec. 3 (House exclusive impeachment initiation)",
+      "Republic Act No. 6770 (Ombudsman Act of 1989) -- Sec. 15 (ill-gotten wealth), Sec. 22 (impeachment complaint)"
+    ],
+    "events": [
+      "Corona agreeing to testify before the Senate (May 2012)",
+      "Ombudsman accepting the face-off dare",
+      "OMB sending 72-hour letter to Corona re $10M deposits"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The OMB has clear constitutional and statutory authority to investigate the Chief Justice -- Art. XI Sec. 13 and RA 6770 Sec. 22 specifically empower the OMB to investigate impeachable officials for the purpose of filing an impeachment complaint, making Corona's jurisdictional challenge legally unfounded.",
+      "rhetorical_move": "OMB-jurisdiction-affirmation rebutting Corona's challenge",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Corona's strategy of daring the OMB to testify first backfires if Morales discloses substantial prima facie evidence of the $10M -- and the prosecution has already established a prima facie case on Article 2 through undeclared/undervalued assets disproportionate to his legal income.",
+      "rhetorical_move": "strategy-risk-analysis (the dare is a high-stakes gamble)",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Because impeachment is more political than legal, Corona cannot hide behind technicalities before the senator-judges -- he must ultimately demonstrate the high moral character, integrity, independence, probity and fitness to remain as the highest magistrate.",
+      "rhetorical_move": "political-vs-legal-distinction elevating character evidence over procedural maneuvering",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The face-off dare itself: Corona challenging the Ombudsman to testify first -- and Morales accepting without hesitation -- framing the Senate hearing as an institutional showdown between the OMB and the highest judicial office.",
+    "The OMB characterization of the deposits as mind-boggling -- a colloquial intensifier CJ preserves in quotation marks as the most emotionally charged single word in the Ombudsman's official communication.",
+    "CJ observation that the Basa-Guidote saga could be raised when Corona takes the witness stand, broadening the trial beyond SALN issues into his personal fitness as the highest magistrate."
+  ],
+  "target_audience": [
+    "Civic readers following the Corona impeachment trial",
+    "Senators acting as impeachment judges weighing the legal and political issues",
+    "Constitutional law scholars evaluating the OMB jurisdiction question",
+    "Media commentators covering the face-off between the CJ and OMB"
+  ],
+  "register_markers": [
+    "dare-and-acceptance dramatic framing",
+    "mind-boggling as the OMB quoted colloquial intensifier",
+    "strategy-risk-analysis register (favors Corona only if OMB fudges)",
+    "impeachment-is-more-political-than-legal as CJ closing analytical frame",
+    "five-virtue judicial standard (high moral character, integrity, independence, probity, fitness)",
+    "cross-reference to prior column (as I wrote last May 6)"
+  ],
+  "decision_framework_signals": [
+    "applies constitutional-power-enumeration to affirm OMB jurisdiction over the CJ",
+    "uses strategy-risk-analysis to identify when the dare backfires",
+    "treats prima-facie-prosecution-evidence as the baseline CJ must overcome",
+    "frames impeachment-is-more-political-than-legal as the meta-framework requiring character evidence beyond legalities",
+    "applies chasm-between-income-and-assets test as the ill-gotten-wealth predicate"
+  ],
+  "one_paragraph_summary": "Panganiban reports that Chief Justice Corona agreed to testify before the Senate on the condition that Ombudsman Morales testify first and reveal under oath her initial finding that the CJ had amassed at least a 'mind-boggling' $10 million 'purportedly grossly disproportionate to his salary and other lawful income.' Morales accepted without hesitation. Two weeks earlier, the OMB had written Corona a letter asking him to explain within 72 hours 'several bank accounts in PSBank and several other banks denominated in US dollars the aggregate value of which amounts to at least US$10 million.' Instead of responding, Corona's lawyers flatly denied the $10M and challenged the OMB's jurisdiction. CJ rejects the jurisdictional challenge: Art. XI Sec. 13 and RA 6770 specifically empower the OMB to investigate impeachable officials for the purpose of filing an impeachment complaint, recovering ill-gotten wealth, and filing criminal indictments. On Corona's strategy: it will favor Corona only if Morales fudges her testimony; it will backfire if she discloses substantial prima facie evidence of the $10M, given the already heavy prima facie prosecution showing of omitted/undervalued assets disproportionate to his legal income. Since impeachment is more political than legal, Corona cannot hide behind technicalities before the senator-judges -- he must demonstrate the high moral character, integrity, independence, probity, and fitness to remain as the highest magistrate.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}
