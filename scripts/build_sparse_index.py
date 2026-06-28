@@ -61,22 +61,22 @@ def _parse_entities(cell):
 
 
 def _parse_keywords(cell):
-    """Atomic keywords from the Keyword/s cell. NOTE: the W1.6 brief says 'split
-    on ;' but the curated field is actually a JSON array (the form W1.3/W1.4
-    parse) — splitting on ';' would fuse a whole doc's keywords into one bogus
-    phrase. So we parse the list and FALL BACK to ';' only for non-list cells.
-    (Flagged in the report, not silently 'fixed'.)"""
+    """Atomic keywords from the Keyword/s cell -> (items, mode). NOTE: the W1.6
+    brief says 'split on ;' but the curated field is actually a JSON array (the
+    form W1.3/W1.4 parse) — splitting on ';' would fuse a whole doc's keywords
+    into one bogus phrase. So we parse the list and FALL BACK to ';' only for
+    non-list cells. mode in {'empty','list','fallback'}."""
     if cell is None or str(cell).strip() == "":
-        return []
+        return [], "empty"
     s = str(cell).strip()
     for loader in (json.loads, ast.literal_eval):
         try:
             v = loader(s)
             if isinstance(v, list):
-                return [str(x) for x in v if str(x).strip()]
+                return [str(x) for x in v if str(x).strip()], "list"
         except Exception:
             continue
-    return [p for p in s.split(";") if p.strip()]
+    return [p for p in s.split(";") if p.strip()], "fallback"
 
 
 def build_phrase_dict():
@@ -91,6 +91,7 @@ def build_phrase_dict():
             phrases[key] = prov
 
     kw_total = kw_multi = 0
+    parse_modes = {"list": 0, "fallback": 0, "empty": 0}
     for path in sorted(glob.glob(str(PROJECT_ROOT / config.CURATED_XLSX_GLOB))):
         wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
         ws = wb[wb.sheetnames[0]]
@@ -100,8 +101,10 @@ def build_phrase_dict():
         ki = idx.get("Keyword/s")
         ei = idx.get("entities")
         for row in it:
-            if ki is not None and ki < len(row) and row[ki]:
-                for kw in _parse_keywords(row[ki]):
+            if ki is not None and ki < len(row):
+                kws, mode = _parse_keywords(row[ki] if ki < len(row) else None)
+                parse_modes[mode] += 1
+                for kw in kws:
                     key = sparse.phrase_key(kw)
                     if key:
                         kw_total += 1
@@ -125,7 +128,7 @@ def build_phrase_dict():
                             if stripped and stripped != v:
                                 add(stripped, "entity")
         wb.close()
-    return phrases, kw_total, kw_multi
+    return phrases, kw_total, kw_multi, parse_modes
 
 
 def main() -> int:
@@ -134,27 +137,51 @@ def main() -> int:
         config.SPARSE_INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
 
         # 1. dictionary (in memory)
-        phrases, kw_total, kw_multi = build_phrase_dict()
+        phrases, kw_total, kw_multi, parse_modes = build_phrase_dict()
         by_prov = {"keyword": 0, "entity": 0, "case": 0}
         for prov in phrases.values():
             by_prov[prov] += 1
-        print(f"[sparse] phrase dict: {len(phrases)} unique "
+        print(f"[sparse] phrase dict (pre-prune): {len(phrases)} unique "
               f"(keyword={by_prov['keyword']} entity={by_prov['entity']} case={by_prov['case']}); "
               f"keywords multi-word {kw_multi}/{kw_total} "
               f"({100*kw_multi/max(1,kw_total):.0f}%)")
+        print(f"[sparse] keyword cells parsed: list={parse_modes['list']} "
+              f"fallback={parse_modes['fallback']} empty={parse_modes['empty']}")
 
-        # prime the shared tokenizer with the in-memory dict (no file yet)
+        # prime the shared tokenizer with the FULL in-memory dict (no file yet)
         sparse.prime_phrases(phrases.keys())
 
-        # 2-3. tokenise chunks + BM25
+        # 2. tokenise chunks (pruning dead phrases below does NOT change any chunk's
+        #    tokenisation — a phrase that never appears can't have matched — so the
+        #    BM25 built here is identical to one built from the pruned dict, i.e.
+        #    byte-reproducible against the committed pruned dictionary).
         chunk_ids, doc_ids, corpus = [], [], []
+        seen_tokens: set[str] = set()
         for line in CHUNKS_JSONL.read_text(encoding=config.FILE_ENCODING).splitlines():
             c = json.loads(line)
             chunk_ids.append(c["chunk_id"])
             doc_ids.append(c["doc_id"])
-            corpus.append(sparse.tokenize(c["text"]))
+            toks = sparse.tokenize(c["text"])
+            corpus.append(toks)
+            seen_tokens.update(toks)
+
+        # 3. PRUNE phrases that match zero chunks (dead tokens — e.g. entity
+        #    variants with parenthetical annotations that never appear in prose).
+        live = {p: prov for p, prov in phrases.items() if p in seen_tokens}
+        dead_by_prov = {k: by_prov[k] - sum(1 for q, pr in live.items() if pr == k)
+                        for k in by_prov}
+        n_dead = len(phrases) - len(live)
+        sparse.prime_phrases(live.keys())   # resident dict = pruned
+        live_by_prov = {"keyword": 0, "entity": 0, "case": 0}
+        for prov in live.values():
+            live_by_prov[prov] += 1
+        print(f"[sparse] coverage: {len(live)} phrases occur in >=1 chunk; "
+              f"{n_dead} dead (pruned) — by provenance dead={dead_by_prov}")
+
         bm25 = BM25Okapi(corpus, k1=config.BM25_K1, b=config.BM25_B)
         print(f"[sparse] BM25 over {len(chunk_ids)} chunks (k1={config.BM25_K1} b={config.BM25_B})")
+        phrases = live          # write the pruned dictionary
+        by_prov = live_by_prov
 
         # 4. write all outputs (only now that everything succeeded)
         config.SPARSE_DICT_PATH.write_text(
@@ -171,6 +198,9 @@ def main() -> int:
             "n_chunks": len(chunk_ids),
             "n_phrases": len(phrases),
             "n_phrases_by_provenance": by_prov,
+            "n_phrases_pruned_dead": n_dead,
+            "dead_phrases_by_provenance": dead_by_prov,
+            "keyword_cell_parse_modes": parse_modes,
             "bm25_k1": config.BM25_K1,
             "bm25_b": config.BM25_B,
             "chunk_index_sha256": sha256(CHUNK_INDEX),

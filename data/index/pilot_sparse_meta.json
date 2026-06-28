@@ -1,10 +1,21 @@
 {
   "n_chunks": 8887,
-  "n_phrases": 34035,
+  "n_phrases": 8913,
   "n_phrases_by_provenance": {
-    "keyword": 9476,
-    "entity": 23250,
-    "case": 1309
+    "keyword": 3945,
+    "entity": 4805,
+    "case": 163
+  },
+  "n_phrases_pruned_dead": 25122,
+  "dead_phrases_by_provenance": {
+    "keyword": 5531,
+    "entity": 18445,
+    "case": 1146
+  },
+  "keyword_cell_parse_modes": {
+    "list": 1089,
+    "fallback": 0,
+    "empty": 1729
   },
   "bm25_k1": 1.5,
   "bm25_b": 0.75,
