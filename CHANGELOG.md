@@ -1,5 +1,40 @@
 # CHANGELOG
 
+## 2026-06-29 — W1.7 Step 0 done; Steps 2–5 BLOCKED (compute + topic-set source)
+
+Box 6 (centroid model). Step 0 (embedding fast-path) completed; the full-corpus
+embed and centroid regeneration are **blocked** in this environment — reported,
+not silently worked around.
+
+- **Step 0 — fast-path assessed, backend chosen, parity PASS.** No GPU (torch is
+  +cpu); CPU is an AMD Zen+ APU (AVX2, no AVX-512/VNNI). Throughput is
+  compute-bound: threads=8 + batch 32/64 → **0.26–0.27 chunks/s** (= W1.5's
+  0.25; tuning gives nothing). int8 was ~0.31/s (W1.5); ONNX absent and ~2× at
+  best on this APU with uncertain fp32 parity. **Full 8,887-chunk embed ≈ 9.5 hrs.**
+  `EMBED_BACKEND=cpu_fp32` + `EMBED_BATCH_SIZE` recorded in config. Sample parity
+  vs `pilot_dense.npy`: **min cosine 1.000000** — the path is numerically faithful,
+  so a future GPU run keeps W1.5's index valid (one regime, no re-embed).
+- **`scripts/build_corpus_dense.py`** (Step 2 tool, GPU-ready): full-corpus embed
+  with a checkpoint keyed on (EMBED_MODEL_ID, EMBED_BACKEND, EMBED_NORMALIZE,
+  chunk-index sha256, chunk-set hash) — invalidates on any drift (validated); an
+  end-of-run parity gate refuses to write a mixed regime. Config-driven, exits 0,
+  no leftovers. Intended for a CUDA box (`CJ_EMBED_BACKEND=cuda_fp32`).
+- Config: section 13 (centroid model) — `CORPUS_DENSE_PATH`/meta,
+  `CENTROIDS_PATH`/meta, `N_EXEMPLAR_CHUNKS`, `TOPIC_ASSIGN_MIN_COSINE`
+  (placeholder; derivation pending the full embed).
+
+**⚠ BLOCKER 1 (compute):** Step 0's "workable embed throughput" hard precondition
+is not met here (no GPU; 9.5-hr CPU embed; the run cannot complete under the
+10-min foreground cap / background-teardown execution model). Per the brief's
+precondition gate → STOP and report.
+
+**⚠ BLOCKER 2 (topic-set source):** Step 3 says build the topic set from the
+curated `primary_topics`/`sub_topics`, but those fields are **5,568 / 16,249
+distinct free-text per-doc labels** (≈1:1 with docs), not a ~38-topic taxonomy.
+A topic set can't be read off them directly — it needs clustering or use of the
+35-topic curated taxonomy labels (which the brief says not to start from). Needs
+a design decision before Steps 3–5.
+
 ## 2026-06-28 — W1.6 Sparse arm (BM25 + curated atomic-phrase dictionary)
 
 Builds box 7 — the exact-identifier complement to the dense arm (statutes, case

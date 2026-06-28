@@ -317,6 +317,14 @@ EMBED_QUERY_PREFIX: str = _env_str(
     "CJ_EMBED_QUERY_PREFIX",
     "Represent this sentence for searching relevant passages: ")
 EMBED_DOCUMENT_PREFIX: str = _env_str("CJ_EMBED_DOCUMENT_PREFIX", "")
+# Embedding backend / precision (W1.7 Step 0). "cpu_fp32" = torch fp32 on CPU
+# (numerically faithful to W1.5; benchmarked ~0.27 chunks/s on this AMD Zen+ APU).
+# "cuda_fp32" when a GPU is present (orders of magnitude faster). Recorded in the
+# index meta so the system never mixes two embedding regimes (parity gate).
+EMBED_BACKEND: str = _env_str("CJ_EMBED_BACKEND", "cpu_fp32")
+# Encode batch size (throughput knob; on this CPU 32 vs 64 made no difference —
+# compute-bound).
+EMBED_BATCH_SIZE: int = _env_int("CJ_EMBED_BATCH_SIZE", 64)
 # Persisted pilot dense index (float32 matrix) + sidecar meta.
 DENSE_INDEX_PATH: Path = _env_path("CJ_DENSE_INDEX_PATH", REPO_ROOT / "data" / "index" / "pilot_dense.npy")
 DENSE_INDEX_META_PATH: Path = _env_path("CJ_DENSE_INDEX_META_PATH", REPO_ROOT / "data" / "index" / "pilot_dense_meta.json")
@@ -346,6 +354,26 @@ CURATED_XLSX_GLOB: str = _env_str("CJ_CURATED_XLSX_GLOB", "data/csv/*_curated_no
 SPARSE_INDEX_PATH: Path = _env_path("CJ_SPARSE_INDEX_PATH", REPO_ROOT / "data" / "index" / "pilot_sparse.pkl")
 SPARSE_DICT_PATH: Path = _env_path("CJ_SPARSE_DICT_PATH", REPO_ROOT / "data" / "index" / "sparse_phrase_dict.json")
 SPARSE_META_PATH: Path = _env_path("CJ_SPARSE_META_PATH", REPO_ROOT / "data" / "index" / "pilot_sparse_meta.json")
+
+
+# ===========================================================================
+# 13. CENTROID TOPIC MODEL (W1.7 box 6 — full-corpus dense + centroids) [NEW-ARCH]
+# ===========================================================================
+# Full-corpus dense matrix (all chunks) + meta. The 827 pilot rows must equal
+# pilot_dense.npy (one embedding regime — parity gate).
+CORPUS_DENSE_PATH: Path = _env_path("CJ_CORPUS_DENSE_PATH", REPO_ROOT / "data" / "index" / "corpus_dense.npy")
+CORPUS_DENSE_META_PATH: Path = _env_path("CJ_CORPUS_DENSE_META_PATH", REPO_ROOT / "data" / "index" / "corpus_dense_meta.json")
+# Persisted topic centroids (n_topics x EMBED_DIM) + meta.
+CENTROIDS_PATH: Path = _env_path("CJ_CENTROIDS_PATH", REPO_ROOT / "data" / "index" / "topic_centroids.npy")
+CENTROIDS_META_PATH: Path = _env_path("CJ_CENTROIDS_META_PATH", REPO_ROOT / "data" / "index" / "topic_centroids_meta.json")
+# Exemplar member chunks averaged into each centroid (with label/description/
+# signature_phrases). More → smoother centroid (↑stability, ↑build cost).
+N_EXEMPLAR_CHUNKS: int = _env_int("CJ_N_EXEMPLAR_CHUNKS", 8)
+# Assignment floor: a doc/chunk whose nearest centroid cosine is below this is
+# ORPHANED (no matching topic). DERIVED from the bge doc-vs-centroid distribution
+# in W1.7 Step 1 — PENDING the full-corpus embed (compute-blocked); placeholder
+# until then. (TOPIC_MERGE_COSINE lives in section 4; also pending recalibration.)
+TOPIC_ASSIGN_MIN_COSINE: float = _env_float("CJ_TOPIC_ASSIGN_MIN_COSINE", 0.45)
 
 
 # ---------------------------------------------------------------------------
