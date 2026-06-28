@@ -1,0 +1,18 @@
+{
+  "n_chunks": 8887,
+  "n_phrases": 34035,
+  "n_phrases_by_provenance": {
+    "keyword": 9476,
+    "entity": 23250,
+    "case": 1309
+  },
+  "bm25_k1": 1.5,
+  "bm25_b": 0.75,
+  "chunk_index_sha256": "d3146664a9c3ffd2737ac4deb48fec60e0ad00864d12ab7e46664e2c98a9be67",
+  "curated_xlsx_sha256": {
+    "cjp_biography_curated_normalized.xlsx": "6a6cce14825017262febc835f63f3f03a05d8407e7de7980474ba7b4f370fc15",
+    "cjp_books_curated_normalized.xlsx": "4cfaf2c024802a2c44e15ff230e9cf60004e890bca8c8a1c9468695ce908d707",
+    "cjp_columns_curated_normalized.xlsx": "572d4b11b19d06275e132c3638dee79a8abcd374a616d9b1c293a8588e8b8f83",
+    "cjp_speeches_curated_normalized.xlsx": "e7816b2e8d7d67455d1ec0a61500f5684157dd4e0b5b92f59bf431328d7d266a"
+  }
+}

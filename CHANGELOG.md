@@ -1,5 +1,38 @@
 # CHANGELOG
 
+## 2026-06-28 — W1.6 Sparse arm (BM25 + curated atomic-phrase dictionary)
+
+Builds box 7 — the exact-identifier complement to the dense arm (statutes, case
+names, entities that no embedding reliably matches). Built once over the FULL
+corpus chunks; an allowlist filter aligns it 1:1 with W1.5's pilot subset for RRF.
+
+- **Config:** `BM25_K1`(1.5), `BM25_B`(0.75), `SPARSE_TOP_K`(50),
+  `CURATED_XLSX_GLOB`, `SPARSE_INDEX_PATH`/`SPARSE_DICT_PATH`/`SPARSE_META_PATH`
+  — defaults only (BM25 tuning is W3.3/W3.4).
+- **Atomic-phrase dictionary** (`app/sparse.py` tokenizer; `scripts/build_sparse_index.py`):
+  34,035 phrases — keyword 9,476, entity 23,250, case 1,309 — NFKC+lowercase,
+  entities keep canonical + trailing-parenthetical-stripped variants, `cases`
+  verbatim. Shared greedy longest-match tokenizer (first-word index) so a
+  multi-word keyword / case name becomes ONE atomic BM25 term with its own IDF.
+- **BM25** over all 8,887 chunks (rank_bm25 BM25Okapi, k1/b from config). Pinned
+  meta records n_chunks, phrase counts by provenance, k1/b, and sha256 of the
+  curated xlsx + chunk index (staleness detectable). Build exits 0, writes
+  outputs only on success (full cleanup on error — no partial leftovers), no
+  checkpoint scaffolding.
+- **sparse_score(query, allowlist, k)** → chunk_ids (mirrors the dense contract).
+  allowlist=None ranks full corpus; allowlist=pilot restricts the universe to
+  match W1.5's 827-chunk dense subset for RRF.
+- **Verify:** verify_pin PASS; tokenization atomic ("rule of law", "morfe v.
+  mutuc" → 1 term); complementarity — "RA 10173" sparse #3 vs dense #202,
+  "Morfe v. Mutuc" #2 vs #52, "Roe v. Wade" #1 vs #45; allowlist returns only
+  subset chunks.
+- **⚠ Spec/data inconsistency (flagged, not silently accepted):** the brief said
+  "Keyword/s: split on ';'", but the curated field is a JSON array (the form
+  W1.3/W1.4 parse). Splitting on ';' fused each doc's keywords into one bogus
+  mega-phrase; parsing the list (with a ';' fallback) yields atomic keywords —
+  89% multi-word, matching the brief's stated ~91%.
+- **deps:** `rank-bm25`.
+
 ## 2026-06-28 — W1.5 Embed the pilot subset (runtime dense index)
 
 Builds the runtime dense arm (box 5): embeds ONLY the <100 pilot-subset chunks

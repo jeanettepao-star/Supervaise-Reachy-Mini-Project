@@ -48,3 +48,6 @@ desktop.ini
 
 # Claude Code per-project local settings (machine-specific)
 .claude/settings.local.json
+
+# W1.6 sparse BM25 index — large, regenerable in ~1min via scripts/build_sparse_index.py
+data/index/pilot_sparse.pkl

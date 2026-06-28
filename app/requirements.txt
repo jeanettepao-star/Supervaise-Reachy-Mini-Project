@@ -41,3 +41,4 @@ scipy>=1.10.0
 # pipeline does NOT need it. MiniLM-384 / OpenAI text-embedding-3 are W3.4
 # benchmark alternatives, swapped via config (no code change).
 sentence-transformers>=2.7.0   # resident local embedding model (bge-large)
+rank-bm25>=0.2.2               # sparse arm (W1.6 BM25Okapi over chunk text)

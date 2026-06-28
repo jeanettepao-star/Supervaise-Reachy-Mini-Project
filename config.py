@@ -326,6 +326,28 @@ EMBEDDING_MODEL_ID = EMBED_MODEL_ID
 EMBEDDING_DIM = EMBED_DIM
 
 
+# ===========================================================================
+# 12. SPARSE ARM (W1.6 BM25 over full chunk text + atomic-phrase dict) [NEW-ARCH]
+#     Exact-identifier complement to the dense arm (statutes, case names,
+#     entities). Defaults only — BM25 tuning is W3.3/W3.4, do NOT tune here.
+# ===========================================================================
+# BM25 term-frequency saturation. Higher → repeated terms count more (↑recall
+# of keyword-dense chunks); standard default 1.5.
+BM25_K1: float = _env_float("CJ_BM25_K1", 1.5)
+# BM25 length normalisation (0=none, 1=full). 0.75 = standard; higher penalises
+# long chunks more.
+BM25_B: float = _env_float("CJ_BM25_B", 0.75)
+# Default number of ranked chunks sparse_score returns. Higher → more candidates
+# for fusion (↑recall, ↑W1.8 fusion cost).
+SPARSE_TOP_K: int = _env_int("CJ_SPARSE_TOP_K", 50)
+# Glob for the curated source of the atomic-phrase dictionary (Keyword/s + entities).
+CURATED_XLSX_GLOB: str = _env_str("CJ_CURATED_XLSX_GLOB", "data/csv/*_curated_normalized.xlsx")
+# Persisted sparse index state + atomic-phrase dictionary + pin meta.
+SPARSE_INDEX_PATH: Path = _env_path("CJ_SPARSE_INDEX_PATH", REPO_ROOT / "data" / "index" / "pilot_sparse.pkl")
+SPARSE_DICT_PATH: Path = _env_path("CJ_SPARSE_DICT_PATH", REPO_ROOT / "data" / "index" / "sparse_phrase_dict.json")
+SPARSE_META_PATH: Path = _env_path("CJ_SPARSE_META_PATH", REPO_ROOT / "data" / "index" / "pilot_sparse_meta.json")
+
+
 # ---------------------------------------------------------------------------
 # Introspection — single call that surfaces every knob (for logs / sweeps).
 # ---------------------------------------------------------------------------
