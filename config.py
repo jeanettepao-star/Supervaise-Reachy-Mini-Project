@@ -125,6 +125,11 @@ LAMBDA: float = _env_float("CJ_LAMBDA", 0.25)
 # Below this top-affinity score the question is treated as out-of-scope and
 # the OOC reasoning policy fires. Higher → stricter scope (more "I haven't
 # written on that"); lower → more answers attempted (risks ungrounded ones).
+# P3 (W1.8): PROVISIONAL / UNCALIBRATED. This gates QUERY→centroid cosine — a
+# DIFFERENT distribution from W1.7's 0.68 doc/chunk→centroid coverage floor; do
+# NOT reuse 0.68 here. Real calibration needs draft queries (post-W1.8). Below
+# this, the soft prior is treated as out-of-scope and retrieval falls through to
+# global (the bias is dropped, never gated).
 OUT_OF_SCOPE_THRESHOLD: float = _env_float("CJ_OUT_OF_SCOPE_THRESHOLD", 0.15)
 # Softmax temperature over topic affinities → soft prior (not a hard pick).
 # Higher temperature = flatter prior (more topics contribute, ↑recall);
@@ -183,6 +188,12 @@ TOPIC_DOMINANT_TERM_FRAC: float = _env_float("CJ_TOPIC_DOMINANT_TERM_FRAC", 0.80
 MAX_TOKENS: int = _env_int("CJ_MAX_TOKENS", 300)
 # Wall-clock budget for one composer call before giving up (latency guard).
 COMPOSER_TIMEOUT_S: float = _env_float("CJ_COMPOSER_TIMEOUT_S", 30.0)
+# Composer HTTP transport. "schannel_curl" routes the Anthropic call through the
+# Windows curl (schannel / OS cert store) instead of the Python SDK's httpx —
+# a workaround for this env where a shadowing OpenSSL DLL hard-aborts outbound
+# Python HTTPS (OPENSSL_Uplink: no OPENSSL_Applink; broke pip + anthropic; git
+# uses schannel). Verification stays ON. "sdk" uses the normal anthropic client.
+COMPOSER_HTTP_TRANSPORT: str = _env_str("CJ_COMPOSER_HTTP_TRANSPORT", "schannel_curl")
 # SDK-level retries on transient 429/5xx (exponential backoff). Higher →
 # more resilient to overload (↑tail latency); lower → fails faster.
 MAX_RETRIES: int = _env_int("CJ_MAX_RETRIES", 4)
@@ -219,10 +230,16 @@ EMBEDDING_DIM: int = None       # set after EMBED_DIM is defined (see below)
 COMPOSER_MODEL_ID: str = _env_str(
     "INFERENCE_MODEL", _env_str("CJ_COMPOSER_MODEL_ID", "claude-sonnet-4-6")
 )
-# [BASELINE] Router / gate / fidelity model (Haiku) — cheap, fast classifier.
+# DEPRECATED (W1.8): the Haiku pre-retrieval router/gate is REMOVED from the new
+# serial path — routing is now a local centroid soft-prior (zero LLM round-trips
+# before composition). Retained only for the legacy cj_chat.py path; do not add
+# new pre-composition uses.
 ROUTER_MODEL_ID: str = _env_str(
     "ROUTER_MODEL", _env_str("CJ_ROUTER_MODEL_ID", "claude-haiku-4-5-20251001")
 )
+# Versioned service contract (W1.8 seam) — bump on request/response shape change.
+SERVICE_VERSION: str = _env_str("CJ_SERVICE_VERSION", "1.0")
+RETRIEVAL_ARCH_VERSION: str = _env_str("CJ_RETRIEVAL_ARCH_VERSION", "w1.8-rrf-softprior")
 # [BASELINE] Local STT model size (faster-whisper). Larger → better Tagalog
 # mix accuracy (↑latency, ↑memory); smaller → faster.
 WHISPER_MODEL_SIZE: str = _env_str("WHISPER_MODEL", "medium")

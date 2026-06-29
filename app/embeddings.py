@@ -34,15 +34,37 @@ _LOAD_COUNT = 0
 _INDEX = None          # (matrix float32 [n,dim], meta dict)
 
 
+def _local_snapshot(model_id: str):
+    """Resolve a cached HF model to its local snapshot DIRECTORY. Loading from
+    the local path (vs the 'org/name' hub id) avoids the hub-resolution code
+    path that, on this Windows env, loads a non-applink OpenSSL DLL and aborts
+    (OPENSSL_Uplink: no OPENSSL_Applink). Returns None if not cached."""
+    import glob
+    import os
+    if os.path.isdir(model_id):
+        return model_id
+    hub = os.environ.get("HF_HOME") or os.path.join(os.path.expanduser("~"), ".cache", "huggingface")
+    base = os.path.join(hub, "hub", "models--" + model_id.replace("/", "--"))
+    ref = os.path.join(base, "refs", "main")
+    if os.path.isfile(ref):
+        snap = os.path.join(base, "snapshots", open(ref).read().strip())
+        if os.path.isdir(snap):
+            return snap
+    snaps = sorted(glob.glob(os.path.join(base, "snapshots", "*")))
+    return snaps[-1] if snaps else None
+
+
 def get_model():
     """Lazy-load the embedding model ONCE and keep it resident. Subsequent
     calls return the same object (no cold-start reload per request)."""
     global _MODEL, _LOAD_COUNT
     if _MODEL is None:
         from sentence_transformers import SentenceTransformer  # heavy import, deferred
+        src = _local_snapshot(config.EMBED_MODEL_ID) or config.EMBED_MODEL_ID
         print(f"[embeddings] loading resident model {config.EMBED_MODEL_ID} "
-              f"on {config.EMBED_DEVICE} (load #{_LOAD_COUNT + 1})", file=sys.stderr)
-        _MODEL = SentenceTransformer(config.EMBED_MODEL_ID, device=config.EMBED_DEVICE)
+              f"on {config.EMBED_DEVICE} (load #{_LOAD_COUNT + 1}; "
+              f"{'local-snapshot' if src != config.EMBED_MODEL_ID else 'hub'})", file=sys.stderr)
+        _MODEL = SentenceTransformer(src, device=config.EMBED_DEVICE)
         _LOAD_COUNT += 1
         # st<5 used get_sentence_embedding_dimension; st>=5 renamed it.
         _dim_fn = (getattr(_MODEL, "get_embedding_dimension", None)

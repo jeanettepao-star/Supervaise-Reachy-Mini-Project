@@ -1,5 +1,44 @@
 # CHANGELOG
 
+## 2026-06-29 — W1.8 BUILD: Haiku-out · centroid soft-prior · RRF hybrid · dynamic cutoff
+
+New deterministic retrieval architecture assembled from W1.5 (dense) + W1.6
+(sparse) + W1.7 (centroids), with a working composition. Branch
+`feat/retrieval-pipeline`. Config-driven, no new literals, no tuning (W3.4 owns
+weights/thresholds — config defaults used).
+
+- **P1 sparse case short-form fix** (committed 26acbfa): annotated citations now
+  atomize via canonical short form; cited-case queries rank correctly.
+- **P2 RRF universe alignment:** both arms over the SAME pilot universe — dense
+  827, sparse allowlist-filtered to 827; `retrieve()` asserts dense==sparse==827
+  before fusing. Global fallback un-restricts the THEME bias within the 827 (not
+  the full corpus).
+- **P3 OUT_OF_SCOPE_THRESHOLD provisional:** gates query→centroid cosine (a
+  different distribution from W1.7's 0.68); config default, marked uncalibrated.
+- **Haiku removed:** new serial path (`app/service.py`→`app/retrieval.py`) has
+  ZERO LLM round-trips before composition (proven by per-stage timing).
+  `ROUTER_MODEL_ID` marked deprecated.
+- **`app/retrieval.py`:** query embed (resident bge, local-snapshot load) →
+  centroid soft-prior (softmax relevance over 34 topics; OUT_OF_SCOPE decides
+  in/out, BIASES never GATES) → dense+BM25 RRF (RRF_K) → score = passage_sim +
+  LAMBDA·topic_affinity → dynamic cutoff (score ≥ TAU·top, MIN_K..MAX_K). Weak
+  prior → uniform relevance → global retrieval (orphaned-content guard).
+- **`app/service.py`:** versioned service contract v1.0 {query_text} →
+  {answer, envelope}; deterministic selection (register/theme cue, Theme-A
+  disclaimer, date resolution); slim payload (top-k chunks); grounded Sonnet call.
+- **e2e PASS** ("What is the rule of law?"): route→rule_of_law (0.769); 827==827
+  aligned; 12 chunks (RRF promotes sparse-strong CD003::c006 s_rank=1 d_rank=22);
+  in-voice grounded answer; `llm_calls_before_composition=0`.
+- **Env fixes (this session):** (1) bge model load hard-aborted on the OpenSSL
+  applink shadow during hub resolution → load from the local snapshot DIR
+  (`embeddings._local_snapshot`). (2) Python HTTPS (pip + anthropic httpx) hard-
+  aborts on the same shadow → compose routes through the Windows schannel curl
+  (`COMPOSER_HTTP_TRANSPORT=schannel_curl`; `--ssl-no-revoke` skips revocation
+  only, chain verification stays ON). Same fix family as git's schannel switch.
+
+STOP after the functional e2e: NOT running W1.9 (warmed latency), W1.11 (arch
+tag), or W2.1 (streaming/envelope/caps).
+
 ## 2026-06-29 — W1.7 FINALIZE: floor locked, model closed, W3.x carry-forwards
 
 Closes W1.7. No recomputation — the 34-topic model, merge, scan, and tags from
