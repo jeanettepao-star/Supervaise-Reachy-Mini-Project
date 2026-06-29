@@ -264,9 +264,12 @@ TAXONOMY: list[dict[str, Any]] = [
         "tier": "subordinate",
         "theme_anchor": "A",
         "matchers": {
+            # W1.7 GATE A2: "deferential interpretation" removed — it is OWNED by
+            # economic_governance_and_business_law (its defining phrase). The shared
+            # phrase inflated both centroids (cosine 0.944) and caused ambiguous dual
+            # assignment. Activism keeps the general "deference".
             "keywords": [
-                "judicial activism", "political question", "deferential interpretation",
-                "deference",
+                "judicial activism", "political question", "deference",
             ],
             "entities": [],
         },

@@ -1,0 +1,800 @@
+{
+  "n_pilot": 95,
+  "n_tagged": 95,
+  "n_orphaned": 0,
+  "tag_distribution": {
+    "with_due_respect_persona": 20,
+    "honors_received": 19,
+    "judicial_activism_and_political_question": 17,
+    "judicial_reform": 16,
+    "friendships_and_civic_circles": 16,
+    "flp_scholarship_programs": 15,
+    "msme_and_entrepreneurship+prosperity_fund_msme": 15,
+    "twin_beacons_doctrine": 13,
+    "bar_exam_and_legal_education": 13,
+    "museum_for_liberty_and_prosperity": 13,
+    "foundation_for_liberty_and_prosperity": 13,
+    "ai_and_technology": 11,
+    "lawyer_ethics_initiative": 11,
+    "supreme_court_history": 11,
+    "philippine_political_landscape": 10,
+    "due_process": 8,
+    "economic_governance_and_business_law": 7,
+    "early_life_sampaloc": 6,
+    "eez_resource_sovereignty": 5,
+    "global_geopolitics": 4,
+    "international_law_disputes": 4,
+    "constitutional_doctrine": 4,
+    "faith_journey": 4,
+    "flp_donors_and_partners": 4,
+    "eulogies_and_passing": 4,
+    "mentors_and_legal_lineage": 3,
+    "jbc_discernment_and_appointment": 3,
+    "death_penalty_and_echegaray": 3,
+    "icc_and_duterte": 2,
+    "impeachment_accountability": 2,
+    "family_and_marriage": 2,
+    "robot_identity_meta": 2,
+    "rule_of_law": 1,
+    "asean_law_association": 1
+  },
+  "orphaned_pilot_docs": [],
+  "tags": {
+    "CA003": {
+      "primary": "icc_and_duterte",
+      "primary_cos": 0.8368,
+      "secondary": [
+        "global_geopolitics",
+        "due_process"
+      ]
+    },
+    "CA004": {
+      "primary": "impeachment_accountability",
+      "primary_cos": 0.8306,
+      "secondary": [
+        "due_process",
+        "with_due_respect_persona"
+      ]
+    },
+    "CA005": {
+      "primary": "due_process",
+      "primary_cos": 0.8426,
+      "secondary": [
+        "economic_governance_and_business_law",
+        "judicial_activism_and_political_question"
+      ]
+    },
+    "CA009": {
+      "primary": "international_law_disputes",
+      "primary_cos": 0.8489,
+      "secondary": [
+        "global_geopolitics",
+        "eez_resource_sovereignty"
+      ]
+    },
+    "CA010": {
+      "primary": "international_law_disputes",
+      "primary_cos": 0.848,
+      "secondary": [
+        "eez_resource_sovereignty",
+        "global_geopolitics"
+      ]
+    },
+    "CA011": {
+      "primary": "eez_resource_sovereignty",
+      "primary_cos": 0.8263,
+      "secondary": [
+        "international_law_disputes",
+        "with_due_respect_persona"
+      ]
+    },
+    "CA013": {
+      "primary": "international_law_disputes",
+      "primary_cos": 0.8481,
+      "secondary": [
+        "eez_resource_sovereignty",
+        "global_geopolitics"
+      ]
+    },
+    "CA031": {
+      "primary": "rule_of_law",
+      "primary_cos": 0.8275,
+      "secondary": [
+        "twin_beacons_doctrine",
+        "asean_law_association"
+      ]
+    },
+    "CA034": {
+      "primary": "ai_and_technology",
+      "primary_cos": 0.8649,
+      "secondary": [
+        "judicial_reform",
+        "economic_governance_and_business_law"
+      ]
+    },
+    "CA060": {
+      "primary": "lawyer_ethics_initiative",
+      "primary_cos": 0.7892,
+      "secondary": [
+        "economic_governance_and_business_law",
+        "bar_exam_and_legal_education"
+      ]
+    },
+    "CA095": {
+      "primary": "ai_and_technology",
+      "primary_cos": 0.8751,
+      "secondary": [
+        "judicial_reform",
+        "supreme_court_history"
+      ]
+    },
+    "CA127": {
+      "primary": "judicial_reform",
+      "primary_cos": 0.8107,
+      "secondary": [
+        "ai_and_technology",
+        "supreme_court_history"
+      ]
+    },
+    "CA242": {
+      "primary": "judicial_activism_and_political_question",
+      "primary_cos": 0.7597,
+      "secondary": [
+        "due_process",
+        "supreme_court_history"
+      ]
+    },
+    "CA330": {
+      "primary": "due_process",
+      "primary_cos": 0.8124,
+      "secondary": [
+        "judicial_activism_and_political_question",
+        "constitutional_doctrine"
+      ]
+    },
+    "CA377": {
+      "primary": "judicial_activism_and_political_question",
+      "primary_cos": 0.8015,
+      "secondary": [
+        "judicial_reform",
+        "constitutional_doctrine"
+      ]
+    },
+    "BA009": {
+      "primary": "with_due_respect_persona",
+      "primary_cos": 0.7833,
+      "secondary": [
+        "judicial_activism_and_political_question",
+        "due_process"
+      ]
+    },
+    "BA027": {
+      "primary": "faith_journey",
+      "primary_cos": 0.7831,
+      "secondary": [
+        "judicial_activism_and_political_question",
+        "honors_received"
+      ]
+    },
+    "SA011": {
+      "primary": "judicial_activism_and_political_question",
+      "primary_cos": 0.8344,
+      "secondary": [
+        "twin_beacons_doctrine",
+        "lawyer_ethics_initiative"
+      ]
+    },
+    "SA049": {
+      "primary": "impeachment_accountability",
+      "primary_cos": 0.8254,
+      "secondary": [
+        "supreme_court_history",
+        "judicial_reform"
+      ]
+    },
+    "CB001": {
+      "primary": "ai_and_technology",
+      "primary_cos": 0.8292,
+      "secondary": [
+        "twin_beacons_doctrine",
+        "museum_for_liberty_and_prosperity"
+      ]
+    },
+    "CB003": {
+      "primary": "flp_scholarship_programs",
+      "primary_cos": 0.8576,
+      "secondary": [
+        "foundation_for_liberty_and_prosperity",
+        "twin_beacons_doctrine"
+      ]
+    },
+    "CB004": {
+      "primary": "foundation_for_liberty_and_prosperity",
+      "primary_cos": 0.8555,
+      "secondary": [
+        "museum_for_liberty_and_prosperity",
+        "msme_and_entrepreneurship+prosperity_fund_msme"
+      ]
+    },
+    "CB005": {
+      "primary": "twin_beacons_doctrine",
+      "primary_cos": 0.844,
+      "secondary": [
+        "museum_for_liberty_and_prosperity",
+        "foundation_for_liberty_and_prosperity"
+      ]
+    },
+    "CB006": {
+      "primary": "twin_beacons_doctrine",
+      "primary_cos": 0.8583,
+      "secondary": [
+        "museum_for_liberty_and_prosperity",
+        "msme_and_entrepreneurship+prosperity_fund_msme"
+      ]
+    },
+    "CB007": {
+      "primary": "economic_governance_and_business_law",
+      "primary_cos": 0.8317,
+      "secondary": [
+        "judicial_activism_and_political_question",
+        "supreme_court_history"
+      ]
+    },
+    "CB008": {
+      "primary": "twin_beacons_doctrine",
+      "primary_cos": 0.7994,
+      "secondary": [
+        "msme_and_entrepreneurship+prosperity_fund_msme",
+        "museum_for_liberty_and_prosperity"
+      ]
+    },
+    "BB001": {
+      "primary": "msme_and_entrepreneurship+prosperity_fund_msme",
+      "primary_cos": 0.773,
+      "secondary": [
+        "flp_donors_and_partners",
+        "friendships_and_civic_circles"
+      ]
+    },
+    "BB002": {
+      "primary": "philippine_political_landscape",
+      "primary_cos": 0.752,
+      "secondary": [
+        "economic_governance_and_business_law",
+        "friendships_and_civic_circles"
+      ]
+    },
+    "BB003": {
+      "primary": "philippine_political_landscape",
+      "primary_cos": 0.8087,
+      "secondary": [
+        "early_life_sampaloc",
+        "bar_exam_and_legal_education"
+      ]
+    },
+    "SB006": {
+      "primary": "foundation_for_liberty_and_prosperity",
+      "primary_cos": 0.8617,
+      "secondary": [
+        "twin_beacons_doctrine",
+        "friendships_and_civic_circles"
+      ]
+    },
+    "SB028": {
+      "primary": "twin_beacons_doctrine",
+      "primary_cos": 0.859,
+      "secondary": [
+        "msme_and_entrepreneurship+prosperity_fund_msme",
+        "flp_scholarship_programs"
+      ]
+    },
+    "SB039": {
+      "primary": "friendships_and_civic_circles",
+      "primary_cos": 0.7689,
+      "secondary": [
+        "early_life_sampaloc",
+        "msme_and_entrepreneurship+prosperity_fund_msme"
+      ]
+    },
+    "SB040": {
+      "primary": "foundation_for_liberty_and_prosperity",
+      "primary_cos": 0.8722,
+      "secondary": [
+        "twin_beacons_doctrine",
+        "flp_scholarship_programs"
+      ]
+    },
+    "SB042": {
+      "primary": "friendships_and_civic_circles",
+      "primary_cos": 0.7798,
+      "secondary": [
+        "judicial_reform",
+        "philippine_political_landscape"
+      ]
+    },
+    "SB050": {
+      "primary": "friendships_and_civic_circles",
+      "primary_cos": 0.7889,
+      "secondary": [
+        "honors_received",
+        "eulogies_and_passing"
+      ]
+    },
+    "SB051": {
+      "primary": "twin_beacons_doctrine",
+      "primary_cos": 0.8245,
+      "secondary": [
+        "flp_scholarship_programs",
+        "judicial_reform"
+      ]
+    },
+    "SB063": {
+      "primary": "twin_beacons_doctrine",
+      "primary_cos": 0.8281,
+      "secondary": [
+        "foundation_for_liberty_and_prosperity",
+        "msme_and_entrepreneurship+prosperity_fund_msme"
+      ]
+    },
+    "SB065": {
+      "primary": "lawyer_ethics_initiative",
+      "primary_cos": 0.7441,
+      "secondary": [
+        "with_due_respect_persona",
+        "friendships_and_civic_circles"
+      ]
+    },
+    "CC001": {
+      "primary": "with_due_respect_persona",
+      "primary_cos": 0.795,
+      "secondary": [
+        "honors_received",
+        "supreme_court_history"
+      ]
+    },
+    "CC002": {
+      "primary": "mentors_and_legal_lineage",
+      "primary_cos": 0.822,
+      "secondary": [
+        "eulogies_and_passing",
+        "honors_received"
+      ]
+    },
+    "CC004": {
+      "primary": "mentors_and_legal_lineage",
+      "primary_cos": 0.8677,
+      "secondary": [
+        "honors_received",
+        "bar_exam_and_legal_education"
+      ]
+    },
+    "CC005": {
+      "primary": "judicial_activism_and_political_question",
+      "primary_cos": 0.8038,
+      "secondary": [
+        "with_due_respect_persona",
+        "bar_exam_and_legal_education"
+      ]
+    },
+    "CC006": {
+      "primary": "early_life_sampaloc",
+      "primary_cos": 0.824,
+      "secondary": [
+        "bar_exam_and_legal_education",
+        "philippine_political_landscape"
+      ]
+    },
+    "CC007": {
+      "primary": "bar_exam_and_legal_education",
+      "primary_cos": 0.8131,
+      "secondary": [
+        "judicial_reform",
+        "with_due_respect_persona"
+      ]
+    },
+    "CC008": {
+      "primary": "family_and_marriage",
+      "primary_cos": 0.7531,
+      "secondary": [
+        "honors_received",
+        "early_life_sampaloc"
+      ]
+    },
+    "CC009": {
+      "primary": "with_due_respect_persona",
+      "primary_cos": 0.7828,
+      "secondary": [
+        "friendships_and_civic_circles",
+        "honors_received"
+      ]
+    },
+    "CC069": {
+      "primary": "lawyer_ethics_initiative",
+      "primary_cos": 0.7795,
+      "secondary": [
+        "philippine_political_landscape",
+        "friendships_and_civic_circles"
+      ]
+    },
+    "GC001": {
+      "primary": "constitutional_doctrine",
+      "primary_cos": 0.7729,
+      "secondary": [
+        "supreme_court_history",
+        "with_due_respect_persona"
+      ]
+    },
+    "GC002": {
+      "primary": "early_life_sampaloc",
+      "primary_cos": 0.792,
+      "secondary": [
+        "mentors_and_legal_lineage",
+        "bar_exam_and_legal_education"
+      ]
+    },
+    "GC003": {
+      "primary": "early_life_sampaloc",
+      "primary_cos": 0.7816,
+      "secondary": [
+        "bar_exam_and_legal_education",
+        "jbc_discernment_and_appointment"
+      ]
+    },
+    "BC001": {
+      "primary": "honors_received",
+      "primary_cos": 0.784,
+      "secondary": [
+        "friendships_and_civic_circles",
+        "death_penalty_and_echegaray"
+      ]
+    },
+    "BC002": {
+      "primary": "jbc_discernment_and_appointment",
+      "primary_cos": 0.7762,
+      "secondary": [
+        "faith_journey",
+        "honors_received"
+      ]
+    },
+    "SC003": {
+      "primary": "eulogies_and_passing",
+      "primary_cos": 0.831,
+      "secondary": [
+        "faith_journey",
+        "honors_received"
+      ]
+    },
+    "SC005": {
+      "primary": "jbc_discernment_and_appointment",
+      "primary_cos": 0.8261,
+      "secondary": [
+        "faith_journey",
+        "lawyer_ethics_initiative"
+      ]
+    },
+    "SC007": {
+      "primary": "museum_for_liberty_and_prosperity",
+      "primary_cos": 0.8173,
+      "secondary": [
+        "honors_received",
+        "family_and_marriage"
+      ]
+    },
+    "SC008": {
+      "primary": "supreme_court_history",
+      "primary_cos": 0.7983,
+      "secondary": [
+        "honors_received",
+        "friendships_and_civic_circles"
+      ]
+    },
+    "SC010": {
+      "primary": "honors_received",
+      "primary_cos": 0.8458,
+      "secondary": [
+        "flp_scholarship_programs",
+        "friendships_and_civic_circles"
+      ]
+    },
+    "CD001": {
+      "primary": "flp_scholarship_programs",
+      "primary_cos": 0.8399,
+      "secondary": [
+        "foundation_for_liberty_and_prosperity",
+        "bar_exam_and_legal_education"
+      ]
+    },
+    "CD003": {
+      "primary": "flp_scholarship_programs",
+      "primary_cos": 0.8644,
+      "secondary": [
+        "msme_and_entrepreneurship+prosperity_fund_msme",
+        "flp_donors_and_partners"
+      ]
+    },
+    "CD005": {
+      "primary": "flp_scholarship_programs",
+      "primary_cos": 0.8097,
+      "secondary": [
+        "foundation_for_liberty_and_prosperity",
+        "bar_exam_and_legal_education"
+      ]
+    },
+    "CD008": {
+      "primary": "flp_scholarship_programs",
+      "primary_cos": 0.8449,
+      "secondary": [
+        "msme_and_entrepreneurship+prosperity_fund_msme",
+        "museum_for_liberty_and_prosperity"
+      ]
+    },
+    "CD009": {
+      "primary": "bar_exam_and_legal_education",
+      "primary_cos": 0.8475,
+      "secondary": [
+        "flp_scholarship_programs",
+        "foundation_for_liberty_and_prosperity"
+      ]
+    },
+    "CD011": {
+      "primary": "ai_and_technology",
+      "primary_cos": 0.7803,
+      "secondary": [
+        "eulogies_and_passing",
+        "foundation_for_liberty_and_prosperity"
+      ]
+    },
+    "CD022": {
+      "primary": "flp_scholarship_programs",
+      "primary_cos": 0.8388,
+      "secondary": [
+        "bar_exam_and_legal_education",
+        "msme_and_entrepreneurship+prosperity_fund_msme"
+      ]
+    },
+    "BD001": {
+      "primary": "due_process",
+      "primary_cos": 0.8013,
+      "secondary": [
+        "judicial_activism_and_political_question",
+        "with_due_respect_persona"
+      ]
+    },
+    "BD002": {
+      "primary": "judicial_reform",
+      "primary_cos": 0.8112,
+      "secondary": [
+        "judicial_activism_and_political_question",
+        "supreme_court_history"
+      ]
+    },
+    "BD003": {
+      "primary": "supreme_court_history",
+      "primary_cos": 0.7984,
+      "secondary": [
+        "due_process",
+        "with_due_respect_persona"
+      ]
+    },
+    "BD004": {
+      "primary": "judicial_reform",
+      "primary_cos": 0.8108,
+      "secondary": [
+        "judicial_activism_and_political_question",
+        "with_due_respect_persona"
+      ]
+    },
+    "BD005": {
+      "primary": "judicial_activism_and_political_question",
+      "primary_cos": 0.8112,
+      "secondary": [
+        "judicial_reform",
+        "lawyer_ethics_initiative"
+      ]
+    },
+    "BD006": {
+      "primary": "judicial_reform",
+      "primary_cos": 0.8204,
+      "secondary": [
+        "lawyer_ethics_initiative",
+        "judicial_activism_and_political_question"
+      ]
+    },
+    "SD002": {
+      "primary": "museum_for_liberty_and_prosperity",
+      "primary_cos": 0.8796,
+      "secondary": [
+        "flp_scholarship_programs",
+        "msme_and_entrepreneurship+prosperity_fund_msme"
+      ]
+    },
+    "SD004": {
+      "primary": "museum_for_liberty_and_prosperity",
+      "primary_cos": 0.8589,
+      "secondary": [
+        "msme_and_entrepreneurship+prosperity_fund_msme",
+        "flp_scholarship_programs"
+      ]
+    },
+    "SD009": {
+      "primary": "msme_and_entrepreneurship+prosperity_fund_msme",
+      "primary_cos": 0.8297,
+      "secondary": [
+        "twin_beacons_doctrine",
+        "museum_for_liberty_and_prosperity"
+      ]
+    },
+    "SD016": {
+      "primary": "msme_and_entrepreneurship+prosperity_fund_msme",
+      "primary_cos": 0.8723,
+      "secondary": [
+        "flp_donors_and_partners",
+        "museum_for_liberty_and_prosperity"
+      ]
+    },
+    "SD021": {
+      "primary": "msme_and_entrepreneurship+prosperity_fund_msme",
+      "primary_cos": 0.8552,
+      "secondary": [
+        "flp_donors_and_partners",
+        "foundation_for_liberty_and_prosperity"
+      ]
+    },
+    "SD035": {
+      "primary": "flp_scholarship_programs",
+      "primary_cos": 0.8116,
+      "secondary": [
+        "foundation_for_liberty_and_prosperity",
+        "lawyer_ethics_initiative"
+      ]
+    },
+    "CE001": {
+      "primary": "eez_resource_sovereignty",
+      "primary_cos": 0.7434,
+      "secondary": [
+        "museum_for_liberty_and_prosperity",
+        "friendships_and_civic_circles"
+      ]
+    },
+    "CE003": {
+      "primary": "honors_received",
+      "primary_cos": 0.8106,
+      "secondary": [
+        "supreme_court_history",
+        "death_penalty_and_echegaray"
+      ]
+    },
+    "CE004": {
+      "primary": "lawyer_ethics_initiative",
+      "primary_cos": 0.81,
+      "secondary": [
+        "economic_governance_and_business_law",
+        "with_due_respect_persona"
+      ]
+    },
+    "CE007": {
+      "primary": "judicial_activism_and_political_question",
+      "primary_cos": 0.8081,
+      "secondary": [
+        "with_due_respect_persona",
+        "judicial_reform"
+      ]
+    },
+    "CE008": {
+      "primary": "judicial_activism_and_political_question",
+      "primary_cos": 0.7703,
+      "secondary": [
+        "with_due_respect_persona",
+        "judicial_reform"
+      ]
+    },
+    "CE009": {
+      "primary": "honors_received",
+      "primary_cos": 0.7856,
+      "secondary": [
+        "friendships_and_civic_circles",
+        "philippine_political_landscape"
+      ]
+    },
+    "CE010": {
+      "primary": "lawyer_ethics_initiative",
+      "primary_cos": 0.7648,
+      "secondary": [
+        "with_due_respect_persona",
+        "philippine_political_landscape"
+      ]
+    },
+    "CE011": {
+      "primary": "ai_and_technology",
+      "primary_cos": 0.7407,
+      "secondary": [
+        "robot_identity_meta"
+      ]
+    },
+    "CE018": {
+      "primary": "ai_and_technology",
+      "primary_cos": 0.7827,
+      "secondary": [
+        "robot_identity_meta",
+        "museum_for_liberty_and_prosperity"
+      ]
+    },
+    "CE019": {
+      "primary": "ai_and_technology",
+      "primary_cos": 0.7613,
+      "secondary": []
+    },
+    "CE072": {
+      "primary": "judicial_reform",
+      "primary_cos": 0.7606,
+      "secondary": [
+        "friendships_and_civic_circles",
+        "icc_and_duterte"
+      ]
+    },
+    "CE078": {
+      "primary": "ai_and_technology",
+      "primary_cos": 0.7859,
+      "secondary": [
+        "honors_received",
+        "with_due_respect_persona"
+      ]
+    },
+    "CE102": {
+      "primary": "honors_received",
+      "primary_cos": 0.7499,
+      "secondary": [
+        "lawyer_ethics_initiative",
+        "death_penalty_and_echegaray"
+      ]
+    },
+    "BE001": {
+      "primary": "philippine_political_landscape",
+      "primary_cos": 0.8232,
+      "secondary": [
+        "with_due_respect_persona",
+        "honors_received"
+      ]
+    },
+    "BE002": {
+      "primary": "philippine_political_landscape",
+      "primary_cos": 0.8235,
+      "secondary": [
+        "economic_governance_and_business_law",
+        "with_due_respect_persona"
+      ]
+    },
+    "BE003": {
+      "primary": "philippine_political_landscape",
+      "primary_cos": 0.815,
+      "secondary": [
+        "with_due_respect_persona",
+        "judicial_activism_and_political_question"
+      ]
+    },
+    "SE012": {
+      "primary": "ai_and_technology",
+      "primary_cos": 0.8622,
+      "secondary": [
+        "constitutional_doctrine",
+        "judicial_reform"
+      ]
+    },
+    "SE013": {
+      "primary": "ai_and_technology",
+      "primary_cos": 0.7607,
+      "secondary": [
+        "friendships_and_civic_circles",
+        "honors_received"
+      ]
+    },
+    "SE036": {
+      "primary": "flp_scholarship_programs",
+      "primary_cos": 0.8742,
+      "secondary": [
+        "bar_exam_and_legal_education",
+        "foundation_for_liberty_and_prosperity"
+      ]
+    }
+  }
+}

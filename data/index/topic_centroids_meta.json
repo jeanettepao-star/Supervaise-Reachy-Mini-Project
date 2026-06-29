@@ -2,7 +2,7 @@
   "model_id": "BAAI/bge-large-en-v1.5",
   "dim": 1024,
   "backend": "cuda_fp32",
-  "n_topics": 35,
+  "n_topics": 34,
   "centroid_source_fields": [
     "label",
     "description",
@@ -29,7 +29,7 @@
     "bar_exam_and_legal_education",
     "economic_governance_and_business_law",
     "eez_resource_sovereignty",
-    "msme_and_entrepreneurship",
+    "msme_and_entrepreneurship+prosperity_fund_msme",
     "family_and_marriage",
     "mentors_and_legal_lineage",
     "faith_journey",
@@ -40,7 +40,6 @@
     "honors_received",
     "flp_scholarship_programs",
     "museum_for_liberty_and_prosperity",
-    "prosperity_fund_msme",
     "flp_donors_and_partners",
     "lawyer_ethics_initiative",
     "ai_and_technology",
@@ -364,5 +363,34 @@
       "n_exemplar_chunks": 0,
       "n_field_vecs": 10
     }
-  ]
+  ],
+  "merged_from": {
+    "msme_and_entrepreneurship+prosperity_fund_msme": [
+      "msme_and_entrepreneurship",
+      "prosperity_fund_msme"
+    ]
+  },
+  "merged_pairs": [
+    [
+      0.9758,
+      "msme_and_entrepreneurship",
+      "prosperity_fund_msme"
+    ]
+  ],
+  "premerge_n_topics": 35,
+  "merge_cosine": 0.95,
+  "assign_floor": 0.68,
+  "assign_floor_locked": false,
+  "known_orphan_validation": {
+    "GC006": {
+      "doc_nearest": 0.7566,
+      "nearest_topic": "museum_for_liberty_and_prosperity",
+      "caught_by_floor": false
+    },
+    "CA330": {
+      "doc_nearest": 0.8124,
+      "nearest_topic": "due_process",
+      "caught_by_floor": false
+    }
+  }
 }

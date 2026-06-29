@@ -1,0 +1,19 @@
+{
+  "floor": 0.68,
+  "granularity": "doc-level (max over a doc's chunks); chunk-level count also reported",
+  "n_chunk_orphans": 400,
+  "n_doc_orphans": 0,
+  "known_orphan_validation": {
+    "GC006": {
+      "doc_nearest": 0.7566,
+      "nearest_topic": "museum_for_liberty_and_prosperity",
+      "caught_by_floor": false
+    },
+    "CA330": {
+      "doc_nearest": 0.8124,
+      "nearest_topic": "due_process",
+      "caught_by_floor": false
+    }
+  },
+  "doc_orphans": []
+}
