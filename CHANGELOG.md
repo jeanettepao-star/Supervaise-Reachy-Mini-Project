@@ -1,5 +1,43 @@
 # CHANGELOG
 
+## 2026-06-30 — W1.8b TRANSPORT REMEDIATION → Phase 5 escalation (deploy signal)
+
+Goal: native anthropic SDK + native model load, so W1.9 latency/cost is measured
+on the real path. Outcome: native TLS is **unfixable on this build laptop**
+(machine-level) → escalate; code is made native-ready for the Service host.
+
+- **Phase 0 root cause:** OS-level injection into outbound Python TLS. Reproduces
+  in a clean shell with **no torch/cuda** (so NOT the CUDA install for Python) and
+  for **any** HTTPS host (example.com too). A security product (McAfee, running on
+  this box) hooks the TLS handshake and loads an applink-less OpenSSL that aborts
+  python.exe (`OPENSSL_Uplink: no OPENSSL_Applink`). Python's own
+  libcrypto-3-x64.dll works for non-network SSL ops; the abort is at connection
+  time. **Machine-level — recurs on any host with this product**, not venv-specific.
+- **Phase 1 (pip TLS): FAIL.** pip aborts the same way — even `pip install` of a
+  LOCAL wheel (pip's startup SSL init aborts). Worked around to obtain truststore:
+  fetched the wheel via Windows curl (schannel) and extracted the zip into
+  site-packages (no pip).
+- **Phase 2:** truststore installed + `inject_into_ssl()` wired at the service
+  entry (before any TLS). Added to requirements for clean hosts.
+- **Phase 3:** `EMBED_MODEL_PATH` config knob; get_model resolution =
+  EMBED_MODEL_PATH → HF cache snapshot (derived) → EMBED_MODEL_ID (hub). No
+  machine-specific literal remains. On this box it loads via `cache-snapshot`.
+- **Phase 4: FAIL on this box.** truststore does NOT fix it — `inject_into_ssl()`
+  + a raw httpx GET still aborts (the abort is in the handshake transport, BELOW
+  truststore's cert-verification layer). Native SDK cannot run here. **Retrieval
+  parity PROVEN exact** via auto→curl: same route (rule_of_law 0.7694), same
+  827==827==827, same 12 chunk_ids as the W1.8 curl run, llm-before-compose=0.
+  Native SDK streaming confirmed available (`Messages.stream`) for W2.1.
+- **`COMPOSER_HTTP_TRANSPORT="auto"` (new default):** probes native TLS once in an
+  isolated subprocess (the failure is an uncatchable hard abort) → `native_sdk`
+  where Python HTTPS works (fresh clone / Service host), else `schannel_curl`
+  (this laptop). Both explicit values retained. Verification stays ON everywhere.
+- **Phase 5 escalation:** the embedding+composition Service should run on the
+  off-board Service host (clean Python TLS → auto resolves to native_sdk); this
+  laptop stays the build/GPU box. curl is the documented fallback, NOT a permanent
+  baseline. **W1.9 warmed latency must NOT be measured on this laptop** (curl path
+  is unrepresentative) — run it on the Service host.
+
 ## 2026-06-29 — W1.8 BUILD: Haiku-out · centroid soft-prior · RRF hybrid · dynamic cutoff
 
 New deterministic retrieval architecture assembled from W1.5 (dense) + W1.6

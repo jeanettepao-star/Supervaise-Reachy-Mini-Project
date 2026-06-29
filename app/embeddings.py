@@ -60,10 +60,17 @@ def get_model():
     global _MODEL, _LOAD_COUNT
     if _MODEL is None:
         from sentence_transformers import SentenceTransformer  # heavy import, deferred
-        src = _local_snapshot(config.EMBED_MODEL_ID) or config.EMBED_MODEL_ID
+        # Resolution (portable; no machine-specific literal):
+        #   EMBED_MODEL_PATH (config) → HF cache snapshot dir → EMBED_MODEL_ID (hub)
+        import os
+        if config.EMBED_MODEL_PATH and os.path.isdir(config.EMBED_MODEL_PATH):
+            src, how = config.EMBED_MODEL_PATH, "config-path"
+        elif _local_snapshot(config.EMBED_MODEL_ID):
+            src, how = _local_snapshot(config.EMBED_MODEL_ID), "cache-snapshot"
+        else:
+            src, how = config.EMBED_MODEL_ID, "hub"
         print(f"[embeddings] loading resident model {config.EMBED_MODEL_ID} "
-              f"on {config.EMBED_DEVICE} (load #{_LOAD_COUNT + 1}; "
-              f"{'local-snapshot' if src != config.EMBED_MODEL_ID else 'hub'})", file=sys.stderr)
+              f"on {config.EMBED_DEVICE} (load #{_LOAD_COUNT + 1}; {how})", file=sys.stderr)
         _MODEL = SentenceTransformer(src, device=config.EMBED_DEVICE)
         _LOAD_COUNT += 1
         # st<5 used get_sentence_embedding_dimension; st>=5 renamed it.

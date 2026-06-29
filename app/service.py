@@ -42,13 +42,15 @@ import config
 sys.path.insert(0, str(_REPO_ROOT / "app"))
 import retrieval  # noqa: E402
 
-# Defensive: keep Python TLS on certifi's CA bundle so Anthropic httpx calls are
-# unaffected by the system OpenSSL that shadowed git (resolved for git via
-# schannel). Does NOT disable verification.
+# Route Python TLS through the Windows cert store (schannel) so the native
+# anthropic SDK works on hosts where Python's OpenSSL TLS is intact. MUST run
+# before any anthropic/httpx use. (On THIS build laptop a security product
+# injects an applink-less OpenSSL that hard-aborts ALL outbound Python HTTPS
+# below this layer, so truststore can't help here — the transport falls back to
+# schannel_curl; see config.COMPOSER_HTTP_TRANSPORT.) Does NOT disable verification.
 try:
-    import certifi
-    import os
-    os.environ.setdefault("SSL_CERT_FILE", certifi.where())
+    import truststore
+    truststore.inject_into_ssl()
 except Exception:
     pass
 
@@ -136,15 +138,42 @@ def _api_key() -> str:
     return k
 
 
+_TRANSPORT = None
+
+
+def _resolve_transport() -> str:
+    """native_sdk | schannel_curl. 'auto' probes native TLS ONCE in an isolated
+    subprocess (the failure mode is a hard process abort, so it can't be caught
+    in-process) and caches the result: native_sdk if Python HTTPS works, else
+    schannel_curl."""
+    global _TRANSPORT
+    if _TRANSPORT:
+        return _TRANSPORT
+    t = config.COMPOSER_HTTP_TRANSPORT
+    if t in ("native_sdk", "schannel_curl"):
+        _TRANSPORT = t
+        return t
+    import subprocess
+    probe = ("import truststore; truststore.inject_into_ssl(); import httpx; "
+             "httpx.get('https://api.anthropic.com/', timeout=10)")
+    try:
+        r = subprocess.run([sys.executable, "-c", probe], capture_output=True, timeout=30)
+        _TRANSPORT = "native_sdk" if r.returncode == 0 else "schannel_curl"
+    except Exception:
+        _TRANSPORT = "schannel_curl"
+    print(f"[service] transport auto-resolved to {_TRANSPORT}", file=sys.stderr)
+    return _TRANSPORT
+
+
 def _messages(system_text: str, user_text: str) -> str:
-    """Anthropic messages call. Default transport = schannel curl (this env's
-    OpenSSL shadow hard-aborts Python HTTPS; see config.COMPOSER_HTTP_TRANSPORT)."""
+    """Anthropic messages call via the resolved transport (native_sdk preferred;
+    schannel_curl fallback where Python HTTPS is shadow-aborted)."""
     body = {
         "model": config.COMPOSER_MODEL_ID, "max_tokens": config.MAX_TOKENS,
         "system": [{"type": "text", "text": system_text, "cache_control": {"type": "ephemeral"}}],
         "messages": [{"role": "user", "content": user_text}],
     }
-    if config.COMPOSER_HTTP_TRANSPORT == "schannel_curl":
+    if _resolve_transport() == "schannel_curl":
         import subprocess
         import tempfile
         fd, path = tempfile.mkstemp(suffix=".json")
@@ -220,6 +249,7 @@ def answer(query_text: str, allowlist_version: str = "v4") -> dict:
             "timing_ms": timing,
             "llm_calls_before_composition": r["llm_calls_before_composition"],
             "composer_model": config.COMPOSER_MODEL_ID,
+            "composer_transport": _resolve_transport(),
         },
     }
 

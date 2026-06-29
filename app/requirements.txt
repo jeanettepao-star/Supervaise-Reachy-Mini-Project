@@ -43,3 +43,8 @@ scipy>=1.10.0
 sentence-transformers>=2.7.0   # resident local embedding model (bge-large)
 rank-bm25==0.2.2              # sparse arm (W1.6 BM25Okapi). PINNED: the gitignored
                               # pilot_sparse.pkl must rebuild byte-reproducibly.
+truststore>=0.10             # native_sdk composer transport: Python TLS via the OS
+                              # cert store (W1.8b). On hosts where outbound Python
+                              # HTTPS is intact this enables the native anthropic SDK
+                              # (+ streaming for W2.1); the build laptop falls back to
+                              # schannel_curl (a security product aborts Python TLS there).

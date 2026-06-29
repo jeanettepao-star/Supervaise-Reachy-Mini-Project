@@ -188,12 +188,20 @@ TOPIC_DOMINANT_TERM_FRAC: float = _env_float("CJ_TOPIC_DOMINANT_TERM_FRAC", 0.80
 MAX_TOKENS: int = _env_int("CJ_MAX_TOKENS", 300)
 # Wall-clock budget for one composer call before giving up (latency guard).
 COMPOSER_TIMEOUT_S: float = _env_float("CJ_COMPOSER_TIMEOUT_S", 30.0)
-# Composer HTTP transport. "schannel_curl" routes the Anthropic call through the
-# Windows curl (schannel / OS cert store) instead of the Python SDK's httpx —
-# a workaround for this env where a shadowing OpenSSL DLL hard-aborts outbound
-# Python HTTPS (OPENSSL_Uplink: no OPENSSL_Applink; broke pip + anthropic; git
-# uses schannel). Verification stays ON. "sdk" uses the normal anthropic client.
-COMPOSER_HTTP_TRANSPORT: str = _env_str("CJ_COMPOSER_HTTP_TRANSPORT", "schannel_curl")
+# Composer HTTP transport — one of:
+#   "native_sdk"   : anthropic SDK + truststore (OS cert store). The DESIRED
+#                    baseline; supports streaming. Works where Python OpenSSL TLS
+#                    is intact (a fresh clone / the off-board Service host).
+#   "schannel_curl": route the Anthropic call through Windows curl (schannel).
+#                    FALLBACK for hosts where a security product injects an
+#                    applink-less OpenSSL that HARD-ABORTS outbound Python HTTPS
+#                    (OPENSSL_Uplink: no OPENSSL_Applink — observed on THIS build
+#                    laptop; breaks pip + anthropic + httpx; truststore does NOT
+#                    fix it as the abort is in the handshake transport). Cert
+#                    verification stays ON (--ssl-no-revoke skips revocation only).
+#   "auto"         : probe native TLS once (subprocess); use native_sdk if it
+#                    works, else schannel_curl. Default — correct on both host types.
+COMPOSER_HTTP_TRANSPORT: str = _env_str("CJ_COMPOSER_HTTP_TRANSPORT", "auto")
 # SDK-level retries on transient 429/5xx (exponential backoff). Higher →
 # more resilient to overload (↑tail latency); lower → fails faster.
 MAX_RETRIES: int = _env_int("CJ_MAX_RETRIES", 4)
@@ -329,6 +337,11 @@ EMBED_MODEL_ID: str = _env_str("CJ_EMBED_MODEL_ID", "BAAI/bge-large-en-v1.5")
 EMBED_DIM: int = _env_int("CJ_EMBED_DIM", 1024)
 # Device for local embedding inference ("cpu" or "cuda"). cuda ↓latency if present.
 EMBED_DEVICE: str = _env_str("CJ_EMBED_DEVICE", "cuda")
+# Optional local snapshot DIR for the embedding model (portable; retires any
+# machine-specific path). get_model() resolution: EMBED_MODEL_PATH (if set+exists)
+# → the HF cache snapshot (if present) → EMBED_MODEL_ID (hub download). Empty by
+# default so a fresh clone / the Service host resolves by hub name.
+EMBED_MODEL_PATH: str = _env_str("CJ_EMBED_MODEL_PATH", "")
 # Unit-normalise embeddings so dot product == cosine (required for the index).
 EMBED_NORMALIZE: bool = _env_bool("CJ_EMBED_NORMALIZE", True)
 # bge query/document asymmetry: queries get the instruction prefix, documents
