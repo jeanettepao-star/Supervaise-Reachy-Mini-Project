@@ -1,5 +1,39 @@
 # CHANGELOG
 
+## 2026-06-29 — W1.7 GPU path: full-corpus embeddings (one regime, cuda_fp32)
+
+Compute unblocked via the local GTX 1650. Full-corpus embed DONE; STOP before
+centroid steps (threshold recalibration reviewed first).
+
+- **Phase 1 (CUDA install):** replaced torch 2.12.1+cpu with **2.5.1+cu121**
+  (driver 536.67 → CUDA 12.2 caps at cu121; cu124 would need driver ≥550).
+  Asserted +cu121 / cuda available / GTX 1650 / cuda 12.1 / model on cuda:0.
+- **Phase 2 (config truth-up):** `EMBED_BACKEND=cuda_fp32`, `EMBED_DEVICE=cuda`,
+  `EMBED_BATCH_SIZE=8`. Version block (torch/cuda/cudnn/driver/device) captured
+  into the dense meta = the embedding-regime fingerprint.
+- **Phase 3 (smoke test):** 64 chunks fp32 batch 8 → **8.3 chunks/s**, peak VRAM
+  **1.64 GB** (no OOM; 3.9 GB free), full-corpus projection ~17 min (33× the
+  CPU's 9.5 hrs). batch 16 = same speed (GPU-bound).
+- **Phase 4 (full embed + one regime):** `build_corpus_dense.py` on cuda embedded
+  all 8,887 chunks → `corpus_dense.npy` (8887×1024 f32, unit-norm) + meta. The new
+  `pilot_dense.npy` is **sliced** from the full matrix (not re-embedded) →
+  **bit-identical** to the corpus subset rows; old CPU file overwritten (backend
+  now cuda_fp32). Parity sanity old_cpu vs new_cuda: **min cosine 1.000000** / 827
+  rows. Checkpoint keyed on (model, backend, normalize, chunk-index sha, chunk-set
+  hash). verify_pin PASS.
+- **Bug fixed (not reported benign):** first completion run hit a Windows
+  `PermissionError` on the checkpoint unlink (np.load kept the npz handle open /
+  AV lock), and the broad except deleted the good outputs. Fixed: close the npz
+  via context manager on resume; final cleanup unlink is now best-effort with
+  retry and never endangers written outputs. Recovered from the intact checkpoint
+  (no re-embed) + git-restored CPU pilot for a valid cpu-vs-cuda sanity.
+- 36 MB `corpus_dense.npy` gitignored (regenerable on GPU in ~17 min); meta +
+  regenerated `pilot_dense.npy` committed.
+
+STOP per instruction: Steps 1 (threshold recalibration) and 3–5 (centroids,
+independence/coverage, tagging) await review of TOPIC_MERGE_COSINE /
+TOPIC_ASSIGN_MIN_COSINE before any centroid merge runs.
+
 ## 2026-06-29 — W1.7 Step 0 done; Steps 2–5 BLOCKED (compute + topic-set source)
 
 Box 6 (centroid model). Step 0 (embedding fast-path) completed; the full-corpus

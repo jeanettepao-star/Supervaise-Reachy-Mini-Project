@@ -5,7 +5,7 @@
   "allowlist_version": "v4",
   "n_docs": 95,
   "n_chunks": 827,
-  "build_date": "2026-06-28",
+  "build_date": "2026-06-29",
   "chunk_ids": [
     "CA003::c000",
     "CA003::c001",
@@ -1664,5 +1664,7 @@
     "SE036",
     "SE036"
   ],
-  "unresolved_docs": []
+  "unresolved_docs": [],
+  "backend": "cuda_fp32",
+  "derived_from": "corpus_dense.npy slice (W1.7 Phase 4 — one regime)"
 }

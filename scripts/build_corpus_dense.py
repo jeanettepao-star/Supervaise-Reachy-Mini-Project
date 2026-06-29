@@ -42,6 +42,42 @@ def _sha256_file(p: Path) -> str:
     return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 
 
+def _safe_unlink(path: Path) -> bool:
+    """Best-effort delete; tolerates a transient Windows lock (np handle / AV
+    scan). Returns True if gone. Never raises — a leftover checkpoint must not
+    nuke good outputs."""
+    import time
+    for _ in range(5):
+        try:
+            Path(path).unlink(missing_ok=True)
+            return True
+        except OSError:
+            time.sleep(0.5)
+    return not Path(path).exists()
+
+
+def _version_block() -> dict:
+    """Capture the embedding regime's version fingerprint (recorded in meta)."""
+    import subprocess
+    block = {"backend": config.EMBED_BACKEND}
+    try:
+        import torch
+        block["torch"] = torch.__version__
+        block["torch_cuda"] = torch.version.cuda
+        block["cudnn"] = torch.backends.cudnn.version() if torch.cuda.is_available() else None
+        block["device_name"] = (torch.cuda.get_device_name(0)
+                                if torch.cuda.is_available() else "cpu")
+    except Exception as e:
+        block["torch_error"] = str(e)
+    try:
+        out = subprocess.run(["nvidia-smi", "--query-gpu=driver_version",
+                              "--format=csv,noheader"], capture_output=True, text=True, timeout=15)
+        block["driver"] = out.stdout.strip() or None
+    except Exception:
+        block["driver"] = None
+    return block
+
+
 def _checkpoint_key(chunk_ids: list[str], chunk_index_sha: str) -> str:
     h = hashlib.sha256()
     for part in (config.EMBED_MODEL_ID, config.EMBED_BACKEND,
@@ -67,57 +103,101 @@ def main() -> int:
         # resume only if the checkpoint key matches (else invalidate)
         done: dict[str, np.ndarray] = {}
         if ckpt.exists():
-            z = np.load(ckpt, allow_pickle=True)
-            if str(z["key"]) == key:
-                for cid, row in zip(z["ids"].tolist(), z["mat"]):
-                    done[cid] = row.astype(np.float32)
+            with np.load(ckpt, allow_pickle=True) as z:   # close handle (Win lock)
+                same = str(z["key"]) == key
+                if same:
+                    ids = z["ids"].tolist()
+                    mat = np.asarray(z["mat"], dtype=np.float32)
+            if same:
+                for cid, row in zip(ids, mat):
+                    done[cid] = row
                 print(f"[corpus-dense] resume: {len(done)} chunks (key match)")
             else:
-                ckpt.unlink()
+                _safe_unlink(ckpt)
                 print("[corpus-dense] checkpoint key drift -> discarded (no mixed regime)")
 
         remaining = [c for c in chunk_ids if c not in done]
         print(f"[corpus-dense] {len(chunk_ids)} chunks total, {len(remaining)} to embed "
               f"(backend={config.EMBED_BACKEND}, batch={config.EMBED_BATCH_SIZE})")
         BATCH = config.EMBED_BATCH_SIZE
+        CKPT_EVERY = 512   # checkpoint roughly every 512 chunks (not every batch —
+                           # rewriting the growing matrix per-batch is O(n^2) I/O)
+        since_ckpt = 0
+
+        def _save_ckpt():
+            np.savez(ckpt, key=key,
+                     ids=np.array(list(done.keys()), dtype=object),
+                     mat=np.stack(list(done.values())).astype(np.float32))
+
         for i in range(0, len(remaining), BATCH):
             bids = remaining[i:i + BATCH]
             vecs = embeddings.embed_documents([text_of[c] for c in bids])
             for c, v in zip(bids, vecs):
                 done[c] = v
-            np.savez(ckpt, key=key,
-                     ids=np.array(list(done.keys()), dtype=object),
-                     mat=np.stack(list(done.values())).astype(np.float32))
-            print(f"[corpus-dense]   {len(done)}/{len(chunk_ids)}", flush=True)
+            since_ckpt += len(bids)
+            if since_ckpt >= CKPT_EVERY:
+                _save_ckpt(); since_ckpt = 0
+                print(f"[corpus-dense]   {len(done)}/{len(chunk_ids)}", flush=True)
+        if since_ckpt:
+            _save_ckpt()
 
         matrix = np.stack([done[c] for c in chunk_ids]).astype(np.float32)
         assert matrix.shape == (len(chunk_ids), config.EMBED_DIM)
+        pos = {cid: r for r, cid in enumerate(chunk_ids)}
 
-        # parity gate: 827 pilot rows must match pilot_dense.npy
-        parity = "skipped (pilot index absent)"
+        # --- Phase 4 one-regime: derive the new pilot_dense by SLICING the full
+        #     matrix (NOT re-embedding the subset separately), so subset and full
+        #     corpus are bit-identical (both cuda_fp32). Sanity-compare to the OLD
+        #     cpu pilot (expect >=0.9999; cpu vs cuda differ only in float
+        #     reduction order). Compute BEFORE writing so a failure leaves nothing.
+        sanity = "skipped (no prior pilot index)"
+        new_pilot = None
+        pmeta = None
         if Path(config.DENSE_INDEX_PATH).exists():
-            pmat = np.load(config.DENSE_INDEX_PATH).astype(np.float32)
+            old_pmat = np.load(config.DENSE_INDEX_PATH).astype(np.float32)
             pmeta = json.loads(Path(config.DENSE_INDEX_META_PATH).read_text(encoding="utf-8"))
-            pos = {cid: r for r, cid in enumerate(chunk_ids)}
-            cos = [float(np.dot(matrix[pos[cid]], pmat[i]))
-                   for i, cid in enumerate(pmeta["chunk_ids"]) if cid in pos]
-            mn = min(cos) if cos else 0.0
-            parity = f"min_cosine={mn:.6f} over {len(cos)} rows ({'PASS' if mn >= 0.9999 else 'FAIL'})"
-            if cos and mn < 0.9999:
-                raise SystemExit(f"PARITY FAIL ({parity}); refusing to write a mixed regime. "
-                                 "Re-embed pilot_dense.npy from this matrix per the W1.7 gate.")
+            sub_ids = pmeta["chunk_ids"]
+            miss = [c for c in sub_ids if c not in pos]
+            if miss:
+                raise RuntimeError(f"{len(miss)} pilot chunks absent from corpus matrix: {miss[:5]}")
+            new_pilot = np.stack([matrix[pos[c]] for c in sub_ids]).astype(np.float32)
+            cos = [float(np.dot(new_pilot[i], old_pmat[i])) for i in range(len(sub_ids))]
+            mn = min(cos)
+            sanity = f"min_cosine(old_cpu vs new_cuda)={mn:.6f} over {len(cos)} rows"
+            if mn < 0.999:
+                raise SystemExit(f"PARITY SANITY FAIL ({sanity}); materially below 0.9999 -> "
+                                 "normalization/ordering bug, not float drift. STOP.")
 
+        # --- write full-corpus matrix + meta ---
         np.save(config.CORPUS_DENSE_PATH, matrix)
         Path(config.CORPUS_DENSE_META_PATH).write_text(json.dumps({
             "model_id": config.EMBED_MODEL_ID, "dim": config.EMBED_DIM,
             "backend": config.EMBED_BACKEND, "normalize": config.EMBED_NORMALIZE,
+            "batch_size": config.EMBED_BATCH_SIZE,
+            "version_block": _version_block(),
             "n_chunks": len(chunk_ids), "build_date": datetime.date.today().isoformat(),
-            "chunk_index_sha256": chunk_index_sha, "pilot_parity": parity,
+            "chunk_index_sha256": chunk_index_sha, "pilot_parity_sanity": sanity,
             "chunk_ids": chunk_ids,
         }, ensure_ascii=config.JSON_ENSURE_ASCII, indent=2) + "\n",
             encoding=config.OUTPUT_ENCODING)
-        ckpt.unlink(missing_ok=True)
-        print(f"[corpus-dense] wrote {config.CORPUS_DENSE_PATH.name} {matrix.shape}; parity {parity}")
+
+        # --- overwrite pilot_dense + meta from the slice (backend now cuda_fp32) ---
+        if new_pilot is not None:
+            np.save(config.DENSE_INDEX_PATH, new_pilot)
+            pmeta["backend"] = config.EMBED_BACKEND
+            pmeta["build_date"] = datetime.date.today().isoformat()
+            pmeta["derived_from"] = "corpus_dense.npy slice (W1.7 Phase 4 — one regime)"
+            Path(config.DENSE_INDEX_META_PATH).write_text(
+                json.dumps(pmeta, ensure_ascii=config.JSON_ENSURE_ASCII, indent=2) + "\n",
+                encoding=config.OUTPUT_ENCODING)
+
+        # best-effort checkpoint cleanup — non-fatal, must not endanger the
+        # already-written outputs if a transient lock holds the file.
+        if not _safe_unlink(ckpt):
+            print(f"[corpus-dense] WARN: could not remove {ckpt.name} (locked); "
+                  "outputs are complete — delete it manually.", file=sys.stderr)
+        print(f"[corpus-dense] wrote {config.CORPUS_DENSE_PATH.name} {matrix.shape}; "
+              f"pilot sliced+overwritten; {sanity}")
         return 0
     except SystemExit:
         raise

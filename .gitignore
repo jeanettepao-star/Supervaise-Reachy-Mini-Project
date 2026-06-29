@@ -51,3 +51,6 @@ desktop.ini
 
 # W1.6 sparse BM25 index — large, regenerable in ~1min via scripts/build_sparse_index.py
 data/index/pilot_sparse.pkl
+
+# W1.7 full-corpus dense matrix — 36MB, regenerable on GPU in ~17min (build_corpus_dense.py)
+data/index/corpus_dense.npy

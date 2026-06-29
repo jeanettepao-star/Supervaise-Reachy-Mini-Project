@@ -308,7 +308,7 @@ EMBED_MODEL_ID: str = _env_str("CJ_EMBED_MODEL_ID", "BAAI/bge-large-en-v1.5")
 # Output dimensionality of EMBED_MODEL_ID; matrix/centroid shape depends on it.
 EMBED_DIM: int = _env_int("CJ_EMBED_DIM", 1024)
 # Device for local embedding inference ("cpu" or "cuda"). cuda ↓latency if present.
-EMBED_DEVICE: str = _env_str("CJ_EMBED_DEVICE", "cpu")
+EMBED_DEVICE: str = _env_str("CJ_EMBED_DEVICE", "cuda")
 # Unit-normalise embeddings so dot product == cosine (required for the index).
 EMBED_NORMALIZE: bool = _env_bool("CJ_EMBED_NORMALIZE", True)
 # bge query/document asymmetry: queries get the instruction prefix, documents
@@ -321,10 +321,10 @@ EMBED_DOCUMENT_PREFIX: str = _env_str("CJ_EMBED_DOCUMENT_PREFIX", "")
 # (numerically faithful to W1.5; benchmarked ~0.27 chunks/s on this AMD Zen+ APU).
 # "cuda_fp32" when a GPU is present (orders of magnitude faster). Recorded in the
 # index meta so the system never mixes two embedding regimes (parity gate).
-EMBED_BACKEND: str = _env_str("CJ_EMBED_BACKEND", "cpu_fp32")
-# Encode batch size (throughput knob; on this CPU 32 vs 64 made no difference —
-# compute-bound).
-EMBED_BATCH_SIZE: int = _env_int("CJ_EMBED_BATCH_SIZE", 64)
+EMBED_BACKEND: str = _env_str("CJ_EMBED_BACKEND", "cuda_fp32")
+# Encode batch size. GPU path uses small batches (GTX 1650, 4 GB VRAM — ~3 GB
+# free after the display); 8 is the smoke-tested fp32 batch.
+EMBED_BATCH_SIZE: int = _env_int("CJ_EMBED_BATCH_SIZE", 8)
 # Persisted pilot dense index (float32 matrix) + sidecar meta.
 DENSE_INDEX_PATH: Path = _env_path("CJ_DENSE_INDEX_PATH", REPO_ROOT / "data" / "index" / "pilot_dense.npy")
 DENSE_INDEX_META_PATH: Path = _env_path("CJ_DENSE_INDEX_META_PATH", REPO_ROOT / "data" / "index" / "pilot_dense_meta.json")
