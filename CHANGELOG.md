@@ -1,5 +1,40 @@
 # CHANGELOG
 
+## 2026-06-29 — W1.7 FINALIZE: floor locked, model closed, W3.x carry-forwards
+
+Closes W1.7. No recomputation — the 34-topic model, merge, scan, and tags from
+`e87dea3` are unchanged; this commit records the floor decision + provenance.
+
+- **Floor LOCKED (Option 1, chunk-level):** `TOPIC_ASSIGN_MIN_COSINE=0.68`
+  recorded as the CHUNK-LEVEL taxonomy-coverage floor (chunk-nearest p5).
+  `assign_floor_locked: true` in config rationale + centroids/orphan meta, with:
+  GC006 (0.7566) and CA330 (0.8124) are keyword-rarity / retrieval-gap cases, NOT
+  taxonomy orphans — they map cleanly to real topics; doc-level coverage is
+  complete (0/1,089 below floor). The 400/8,887 chunk-level flags are a REVIEW
+  SURFACE (taxonomy-gap vs rare-language), not an orphan defect count. This floor
+  is calibrated for taxonomy COVERAGE, not retrieval recall (that's the dense+sparse
+  arms' job — W1.8 / W1.6). Kept distinct from W1.8's query-time
+  OUT_OF_SCOPE_THRESHOLD.
+- **Closed-state model:** 34-topic merged centroids + meta (35 pre-merge retained);
+  meta records `TOPIC_MERGE_COSINE=0.95`, `TOPIC_ASSIGN_MIN_COSINE=0.68` (chunk,
+  locked), the A2 keyword fix, and the embedding regime (cuda_fp32 + version block).
+  `reports/w1_7_orphan_review.json` (400-chunk review) + `reports/w1_7_pilot_topic_tags.json`
+  (95/95 tagged, 0 orphaned, all 34 topics). verify_pin PASS; no leftovers.
+
+### W3.x carry-forwards (logged, NOT acted on)
+- **Exemplar-selection bias:** centroids use the first chunk of the top
+  matcher-hit member docs → doubly matcher-biased, a likely contributor to bge
+  centroid-cosine compression. W3.x: switch to diverse/representative member
+  chunks and re-check the centroid-pair spread.
+- **Watch pair:** `judicial_activism_and_political_question` ~
+  `economic_governance_and_business_law` @ 0.9443 (just under the 0.95 merge bar,
+  intrinsically close). W1.8: expect frequent co-activation in the soft prior; if
+  eval shows them muddying each other, fix taxonomy-side (sharpen definitions),
+  not threshold-side.
+
+> Diagram TODO (noted W1.7 Step 1): update the "cosine > 0.85" label → 0.95 and
+> "38 topic dimensions" → 34 topics.
+
 ## 2026-06-29 — W1.7 Step 1: preliminary centroids + bge threshold recalibration
 
 Topic set = the 35-topic hand-curated taxonomy (build_topic_map.py), with FRESH

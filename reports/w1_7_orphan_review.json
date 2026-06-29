@@ -15,5 +15,8 @@
       "caught_by_floor": false
     }
   },
-  "doc_orphans": []
+  "doc_orphans": [],
+  "assign_floor_locked": true,
+  "assign_floor_level": "chunk-level (derived from chunk-nearest p5)",
+  "assign_floor_note": "GC006 (0.7566) and CA330 (0.8124) are keyword-rarity / retrieval-gap cases, NOT taxonomy orphans — they map cleanly to real topics. Doc-level coverage is complete (0/1,089 below floor). The 400/8,887 chunk-level flags are a REVIEW SURFACE (taxonomy-gap vs rare-language), not an orphan defect count. The floor is calibrated for taxonomy coverage, not retrieval recall; GC006-style recall is the dense+sparse arms job (W1.8 / W1.6 case short-form fix)."
 }

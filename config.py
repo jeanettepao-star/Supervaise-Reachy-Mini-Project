@@ -372,13 +372,16 @@ CENTROIDS_META_PATH: Path = _env_path("CJ_CENTROIDS_META_PATH", REPO_ROOT / "dat
 # Exemplar member chunks averaged into each centroid (with label/description/
 # signature_phrases). More → smoother centroid (↑stability, ↑build cost).
 N_EXEMPLAR_CHUNKS: int = _env_int("CJ_N_EXEMPLAR_CHUNKS", 8)
-# Assignment floor: a chunk/doc whose nearest centroid cosine is below this is
-# ORPHANED (no matching topic). RECALIBRATED for bge-large (W1.7 Step 1) on the
-# full-corpus distribution: chunk-vs-nearest-centroid sits p50 0.76, p25 0.73,
-# p5 0.68, p1 0.64; doc-level (max over a doc's chunks) bottoms out ~0.72.
-# 0.68 (chunk p5) flags the weakest ~5% of chunks as taxonomy-gap content for the
-# orphan scan; at doc level few docs fall below it (the genuine GC006-style gaps).
-# Higher → stricter (more orphans flagged); lower → laxer.
+# CHUNK-LEVEL assignment floor (LOCKED, W1.7): a chunk whose nearest centroid
+# cosine is below this is flagged as taxonomy-gap content. Derived from the bge
+# chunk-vs-nearest-centroid p5 (full corpus: p50 0.76, p25 0.73, p5 0.68, p1 0.64).
+# GC006 (0.7566) and CA330 (0.8124) are keyword-rarity / retrieval-gap cases, NOT
+# taxonomy orphans — they map cleanly to real topics. Doc-level coverage is
+# complete (0/1,089 below floor). The 400/8,887 chunk-level flags are a REVIEW
+# SURFACE (taxonomy-gap vs rare-language), not an orphan defect count. This floor
+# is calibrated for taxonomy COVERAGE, not retrieval recall; GC006-style recall is
+# the dense+sparse arms' job (W1.8 / W1.6 case short-form fix). NOT the same as
+# W1.8's query-time OUT_OF_SCOPE_THRESHOLD (query→centroid, a different distribution).
 TOPIC_ASSIGN_MIN_COSINE: float = _env_float("CJ_TOPIC_ASSIGN_MIN_COSINE", 0.68)
 
 
