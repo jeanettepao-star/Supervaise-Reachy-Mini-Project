@@ -1,5 +1,30 @@
 # CHANGELOG
 
+## 2026-06-29 — W1.7 Step 1: preliminary centroids + bge threshold recalibration
+
+Topic set = the 35-topic hand-curated taxonomy (build_topic_map.py), with FRESH
+bge centroids. STOP before the merge (Step 4) — thresholds reviewed first.
+
+- **`scripts/build_centroids.py`:** for each of 35 topics, centroid = unit-norm
+  mean of bge embeddings of CENTROID_SOURCE_FIELDS = [label, description,
+  signature_phrases (matcher keywords+entities), exemplar_chunks (≤8 top member-doc
+  chunks, vectors pulled from corpus_dense.npy — no re-embed)]. Members assigned by
+  the taxonomy matchers over the full 1,089-doc corpus. Persisted
+  `topic_centroids.npy` (35×1024) + meta.
+- **Step 1 distributions (bge is compressed — old 0.85 is meaningless):**
+  - centroid-vs-centroid (595 pairs): max 0.976, p50 **0.84**, p95 0.91, p99 0.93.
+    0.85 would merge ~half of ALL pairs.
+  - chunk-vs-nearest-centroid (8,887): p1 0.64, p5 0.68, p50 0.76.
+  - doc-vs-nearest-centroid (1,089): p1 0.72, p5 0.745, p50 0.80.
+- **Recalibrated, written to config with rationale:**
+  - `TOPIC_MERGE_COSINE` 0.85 → **0.95** (only genuine dups exceed it:
+    msme_and_entrepreneurship≡prosperity_fund_msme @0.976; the 0.93–0.94 cluster is
+    bge compression, reported for review).
+  - `TOPIC_ASSIGN_MIN_COSINE` 0.45 → **0.68** (chunk-nearest p5; orphan-gap floor).
+
+STOP per gate: Step 4 (merge + orphan scan) and Step 5 (tag pilot subset) await
+review of these two thresholds before any centroid merge runs.
+
 ## 2026-06-29 — W1.7 GPU path: full-corpus embeddings (one regime, cuda_fp32)
 
 Compute unblocked via the local GTX 1650. Full-corpus embed DONE; STOP before

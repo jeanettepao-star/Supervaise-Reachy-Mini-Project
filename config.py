@@ -145,10 +145,13 @@ TOPIC_MAP_PATH: Path = _env_path(
 # so consumers can detect a stale on-disk map (no runtime trade-off, hygiene).
 TOPIC_MAP_VERSION: str = _env_str("CJ_TOPIC_MAP_VERSION", "2.0")
 # Independence check: two topics whose centroids exceed this cosine are flagged
-# as non-independent (merge candidates). Lower → more merges (fewer, broader
-# topics, ↓precision); higher → keeps near-duplicates apart (↑precision, risk
-# of redundant topics). Default 0.85 per W1.1 brief.
-TOPIC_MERGE_COSINE: float = _env_float("CJ_TOPIC_MERGE_COSINE", 0.85)
+# as non-independent (merge candidates). RECALIBRATED for bge-large (W1.7 Step 1):
+# bge cosines are compressed, so distinct hand-curated topics already pair at a
+# median 0.84 (p95 0.91, p99 0.93) — the old MiniLM-era 0.85 would merge ~half of
+# ALL topic pairs. 0.95 isolates genuine duplicates (only
+# msme_and_entrepreneurship≡prosperity_fund_msme @0.976 exceeds it); the 0.93-0.94
+# cluster is compression, not duplication. Lower→more merges (↓precision).
+TOPIC_MERGE_COSINE: float = _env_float("CJ_TOPIC_MERGE_COSINE", 0.95)
 # Max topic tags (primary + secondary) attached to a question/doc, clamped to
 # 1–3. More tags → broader context pulled (↑recall, ↑cost); fewer → tighter.
 MAX_TOPIC_TAGS: int = max(1, min(3, _env_int("CJ_MAX_TOPIC_TAGS", 3)))
@@ -369,11 +372,14 @@ CENTROIDS_META_PATH: Path = _env_path("CJ_CENTROIDS_META_PATH", REPO_ROOT / "dat
 # Exemplar member chunks averaged into each centroid (with label/description/
 # signature_phrases). More → smoother centroid (↑stability, ↑build cost).
 N_EXEMPLAR_CHUNKS: int = _env_int("CJ_N_EXEMPLAR_CHUNKS", 8)
-# Assignment floor: a doc/chunk whose nearest centroid cosine is below this is
-# ORPHANED (no matching topic). DERIVED from the bge doc-vs-centroid distribution
-# in W1.7 Step 1 — PENDING the full-corpus embed (compute-blocked); placeholder
-# until then. (TOPIC_MERGE_COSINE lives in section 4; also pending recalibration.)
-TOPIC_ASSIGN_MIN_COSINE: float = _env_float("CJ_TOPIC_ASSIGN_MIN_COSINE", 0.45)
+# Assignment floor: a chunk/doc whose nearest centroid cosine is below this is
+# ORPHANED (no matching topic). RECALIBRATED for bge-large (W1.7 Step 1) on the
+# full-corpus distribution: chunk-vs-nearest-centroid sits p50 0.76, p25 0.73,
+# p5 0.68, p1 0.64; doc-level (max over a doc's chunks) bottoms out ~0.72.
+# 0.68 (chunk p5) flags the weakest ~5% of chunks as taxonomy-gap content for the
+# orphan scan; at doc level few docs fall below it (the genuine GC006-style gaps).
+# Higher → stricter (more orphans flagged); lower → laxer.
+TOPIC_ASSIGN_MIN_COSINE: float = _env_float("CJ_TOPIC_ASSIGN_MIN_COSINE", 0.68)
 
 
 # ---------------------------------------------------------------------------
