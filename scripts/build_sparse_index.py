@@ -41,7 +41,21 @@ import sparse  # noqa: E402
 CHUNKS_JSONL = PROJECT_ROOT / "corpus" / "index" / "chunks.jsonl"
 CHUNK_INDEX = PROJECT_ROOT / "corpus" / "index" / "chunk_index.json"
 _TRAIL_PAREN = re.compile(r"\s*\([^)]*\)\s*$")
+_DASH_ANNOT = re.compile(r"\s+(?:--|—|–)\s+")     # ' -- annotation' / em/en dash
 _PRIO = {"entity": 0, "keyword": 1, "case": 2}   # higher wins on duplicate
+
+
+def case_shortform(s: str) -> str:
+    """P1: canonical SHORT form of an annotated case citation, so cited cases
+    atomize from prose. Drops a trailing/dash annotation and trailing
+    parenthetical(s): 'David v. Arroyo (May 3, 2006) -- the mootness anchor'
+    -> 'David v. Arroyo'."""
+    s = _DASH_ANNOT.split(s, 1)[0].strip()
+    prev = None
+    while prev != s:                              # peel nested/trailing "(...)"
+        prev = s
+        s = _TRAIL_PAREN.sub("", s).strip()
+    return s
 
 
 def sha256(path: Path) -> str:
@@ -121,7 +135,10 @@ def build_phrase_dict():
                         if not isinstance(v, str) or not v.strip():
                             continue
                         if is_case:
-                            add(v, "case")            # verbatim — no strip variant
+                            add(v, "case")            # verbatim citation
+                            sf = case_shortform(v)    # P1: canonical short form
+                            if sf and sf != v:
+                                add(sf, "case")       # re-admitted from prose
                         else:
                             add(v, "entity")          # canonical surface form
                             stripped = _TRAIL_PAREN.sub("", v).strip()

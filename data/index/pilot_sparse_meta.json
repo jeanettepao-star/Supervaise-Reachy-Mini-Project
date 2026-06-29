@@ -1,16 +1,16 @@
 {
   "n_chunks": 8887,
-  "n_phrases": 8913,
+  "n_phrases": 9200,
   "n_phrases_by_provenance": {
-    "keyword": 3945,
-    "entity": 4805,
-    "case": 163
+    "keyword": 3786,
+    "entity": 4794,
+    "case": 620
   },
-  "n_phrases_pruned_dead": 25122,
+  "n_phrases_pruned_dead": 25503,
   "dead_phrases_by_provenance": {
-    "keyword": 5531,
-    "entity": 18445,
-    "case": 1146
+    "keyword": 5505,
+    "entity": 18449,
+    "case": 1549
   },
   "keyword_cell_parse_modes": {
     "list": 1089,
