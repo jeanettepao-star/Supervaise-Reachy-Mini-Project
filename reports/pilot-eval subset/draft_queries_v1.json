@@ -1,16 +1,1586 @@
 {
-  "_note": "CONSTRUCTED STAND-IN for the W1.9 latency baseline. No frozen pilot draft-query set existed in the repo (the v4 allowlist is DOCS, not user queries) — flagged. These ~10 queries span the 5 coarse themes + query types (doctrinal, biographical, current-events, cited-case/sparse-heavy, identity-probe) to exercise the path and yield a representative latency distribution. The OFFICIAL frozen draft-query set should be defined deliberately (eval/W3 scope), like the doc allowlist was.",
-  "version": "v1-constructed",
+  "meta": {
+    "version": "v1",
+    "frozen": true,
+    "n": 40,
+    "sha256_of_queries": "65492b650aec8dda5e76be21c32aaae3faf61f9663c6c58ace02b5a6c4bc9a63",
+    "sha256_canonicalization": "sha256( '\\n'.join(sorted(query_strings)).encode('utf-8') )",
+    "created": "2026-06-30",
+    "embed_regime": "BAAI/bge-large-en-v1.5/1024d/cuda_fp32/allowlist_v4",
+    "universe": "v4 allowlist (95 docs / 827 chunks)",
+    "supersedes": "W1.9 constructed stand-in (same filename, 10 queries). NOTE: run_baseline.py reads q['text']/q['id']; this schema uses q['query'] — FLAG if W1.9 harness is re-run.",
+    "retrieval_only": true,
+    "no_api_calls": true,
+    "verify_pin": "PASS",
+    "frozen_at": "2026-06-30T23:25:31+08:00"
+  },
   "queries": [
-    {"id": "q01", "theme": "A", "type": "doctrinal", "text": "What is the rule of law?"},
-    {"id": "q02", "theme": "B", "type": "doctrinal", "text": "Tell me about the twin beacons of liberty and prosperity."},
-    {"id": "q03", "theme": "D", "type": "program", "text": "What is the Prosperity Fund for MSMEs?"},
-    {"id": "q04", "theme": "C", "type": "biographical", "text": "Describe your childhood in Sampaloc."},
-    {"id": "q05", "theme": "C", "type": "biographical", "text": "How did your Catholic faith develop later in life?"},
-    {"id": "q06", "theme": "E", "type": "current-events", "text": "How should artificial intelligence be governed in the courts?"},
-    {"id": "q07", "theme": "A", "type": "cited-case", "text": "What did the Supreme Court rule in Francisco v. House of Representatives?"},
-    {"id": "q08", "theme": "D", "type": "program", "text": "What are the FLP scholarship and fellowship programs?"},
-    {"id": "q09", "theme": "A", "type": "doctrinal", "text": "What is your view on the death penalty and the Echegaray case?"},
-    {"id": "q10", "theme": "META", "type": "identity-probe", "text": "Are you really Chief Justice Panganiban, or an AI?"}
+    {
+      "id": "A1",
+      "query": "What does the rule of law actually mean?",
+      "theme": "A",
+      "type": "def",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded",
+      "grounded": "Y",
+      "routed_theme": "A",
+      "routed_topic": "rule_of_law",
+      "routed_cos": 0.7465,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CA031::c000",
+        "SB028::c004",
+        "CA031::c003",
+        "CA031::c002",
+        "SB028::c011"
+      ],
+      "top_score": 1.1837,
+      "top5_scores": [
+        1.1837,
+        1.1434,
+        1.0855,
+        1.0447,
+        0.9815
+      ],
+      "kept_doc_ids": [
+        "CA031",
+        "CB001",
+        "CD003",
+        "SB028"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "A2",
+      "query": "Why is an independent judiciary important in a democracy?",
+      "theme": "A",
+      "type": "doc",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded",
+      "grounded": "Y",
+      "routed_theme": "A",
+      "routed_topic": "judicial_activism_and_political_question",
+      "routed_cos": 0.6681,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "SB065::c005",
+        "BD002::c005",
+        "SB065::c002",
+        "CA031::c000",
+        "BD001::c001"
+      ],
+      "top_score": 1.1597,
+      "top5_scores": [
+        1.1597,
+        1.0797,
+        1.0406,
+        1.0242,
+        0.9461
+      ],
+      "kept_doc_ids": [
+        "BD001",
+        "BD002",
+        "BD003",
+        "BD005",
+        "CA031",
+        "CA127",
+        "CC006",
+        "SB065"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "A3",
+      "query": "What did the courts decide about the right to be forgotten?",
+      "theme": "A",
+      "type": "case",
+      "expected_grounding_doc_ids": [
+        "CA242"
+      ],
+      "grounding_status": "grounded_exp",
+      "grounded": "Y",
+      "routed_theme": "A",
+      "routed_topic": "due_process",
+      "routed_cos": 0.6526,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CA242::c000",
+        "CA242::c004",
+        "CA242::c003",
+        "CA242::c001",
+        "CA242::c002"
+      ],
+      "top_score": 1.1546,
+      "top5_scores": [
+        1.1546,
+        1.1358,
+        1.1234,
+        1.1103,
+        1.1097
+      ],
+      "kept_doc_ids": [
+        "BA009",
+        "BD001",
+        "BD003",
+        "BD005",
+        "CA242",
+        "CA330",
+        "CE008"
+      ],
+      "notes": "exp CA242 rank 1; top-5 saturated CA242 (RTBF/Google Spain doc that cites Morfe v. Mutuc)."
+    },
+    {
+      "id": "A4",
+      "query": "What is your view on judicial activism?",
+      "theme": "A",
+      "type": "stance",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded",
+      "grounded": "Y",
+      "routed_theme": "A",
+      "routed_topic": "judicial_activism_and_political_question",
+      "routed_cos": 0.7592,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CE003::c006",
+        "SA049::c002",
+        "CE003::c002",
+        "CA377::c003",
+        "SE036::c004"
+      ],
+      "top_score": 1.1838,
+      "top5_scores": [
+        1.1838,
+        1.0012,
+        0.9912,
+        0.9774,
+        0.9483
+      ],
+      "kept_doc_ids": [
+        "CA095",
+        "CA377",
+        "CE003",
+        "CE008",
+        "SA011",
+        "SA049",
+        "SB040",
+        "SB065",
+        "SD035",
+        "SE036"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "A5",
+      "query": "How can the Philippine judiciary be reformed?",
+      "theme": "A",
+      "type": "doc",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded",
+      "grounded": "Y",
+      "routed_theme": "A",
+      "routed_topic": "judicial_reform",
+      "routed_cos": 0.7419,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CA095::c000",
+        "BE003::c002",
+        "BE003::c001",
+        "BE001::c005",
+        "BD003::c000"
+      ],
+      "top_score": 1.1738,
+      "top5_scores": [
+        1.1738,
+        0.8663,
+        0.8143,
+        0.8116,
+        0.8077
+      ],
+      "kept_doc_ids": [
+        "BD003",
+        "BD006",
+        "BE001",
+        "BE002",
+        "BE003",
+        "CA095",
+        "SD002",
+        "SE012"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "A6",
+      "query": "What is due process, and why does it matter?",
+      "theme": "A",
+      "type": "def",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded",
+      "grounded": "Y",
+      "routed_theme": "A",
+      "routed_topic": "due_process",
+      "routed_cos": 0.7769,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CA004::c002",
+        "CA004::c001",
+        "CA005::c001",
+        "CA330::c000",
+        "CA004::c004"
+      ],
+      "top_score": 1.1475,
+      "top5_scores": [
+        1.1475,
+        1.1215,
+        1.1033,
+        1.0752,
+        1.0266
+      ],
+      "kept_doc_ids": [
+        "BA009",
+        "CA004",
+        "CA005",
+        "CA330",
+        "CA377",
+        "SB028"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "B7",
+      "query": "What is the Liberty and Prosperity doctrine?",
+      "theme": "B",
+      "type": "doc",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded",
+      "grounded": "Y",
+      "routed_theme": "B",
+      "routed_topic": "twin_beacons_doctrine",
+      "routed_cos": 0.7163,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "SB040::c002",
+        "SB028::c004",
+        "CB005::c003",
+        "SB040::c011",
+        "SA011::c006"
+      ],
+      "top_score": 1.18,
+      "top5_scores": [
+        1.18,
+        1.1708,
+        1.1479,
+        1.1444,
+        1.1425
+      ],
+      "kept_doc_ids": [
+        "CB005",
+        "CB006",
+        "SA011",
+        "SB028",
+        "SB040",
+        "SB051"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "B8",
+      "query": "What did you mean by 'those who have less in life should have more in law'?",
+      "theme": "B",
+      "type": "doc",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded",
+      "grounded": "Y",
+      "routed_theme": "B",
+      "routed_topic": "twin_beacons_doctrine",
+      "routed_cos": 0.6437,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "SA011::c001",
+        "SB028::c004",
+        "SE036::c008",
+        "SB028::c005",
+        "SE036::c004"
+      ],
+      "top_score": 1.1921,
+      "top5_scores": [
+        1.1921,
+        1.1224,
+        0.9589,
+        0.9255,
+        0.8953
+      ],
+      "kept_doc_ids": [
+        "CC002",
+        "CC006",
+        "CD003",
+        "CD005",
+        "SA011",
+        "SB028",
+        "SD016",
+        "SE036"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "B9",
+      "query": "How does the law help small entrepreneurs and MSMEs?",
+      "theme": "B",
+      "type": "doc",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded",
+      "grounded": "Y",
+      "routed_theme": "B",
+      "routed_topic": "economic_governance_and_business_law",
+      "routed_cos": 0.6107,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CD003::c002",
+        "CD003::c006",
+        "SD021::c003",
+        "SD009::c005",
+        "CD008::c003"
+      ],
+      "top_score": 1.1749,
+      "top5_scores": [
+        1.1749,
+        1.1078,
+        1.0787,
+        0.9759,
+        0.9751
+      ],
+      "kept_doc_ids": [
+        "CB008",
+        "CD003",
+        "CD008",
+        "CD011",
+        "SB028",
+        "SB051",
+        "SD009",
+        "SD016",
+        "SD021"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "B10",
+      "query": "What is the Prosperity Fund for MSMEs?",
+      "theme": "B",
+      "type": "def",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded",
+      "grounded": "Y",
+      "routed_theme": "B",
+      "routed_topic": "msme_and_entrepreneurship+prosperity_fund_msme",
+      "routed_cos": 0.7462,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "SD009::c005",
+        "CD008::c008",
+        "CD008::c006",
+        "CD008::c003",
+        "SB006::c009"
+      ],
+      "top_score": 1.1758,
+      "top5_scores": [
+        1.1758,
+        1.1483,
+        1.1201,
+        1.1058,
+        1.1004
+      ],
+      "kept_doc_ids": [
+        "CD008",
+        "SB006",
+        "SD009",
+        "SD016",
+        "SD021"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "B11",
+      "query": "Why should economic development inform judicial decisions?",
+      "theme": "B",
+      "type": "stance",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded",
+      "grounded": "Y",
+      "routed_theme": "B",
+      "routed_topic": "economic_governance_and_business_law",
+      "routed_cos": 0.7084,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CB005::c000",
+        "CB007::c000",
+        "SB040::c010",
+        "CA031::c002",
+        "CB007::c001"
+      ],
+      "top_score": 1.1771,
+      "top5_scores": [
+        1.1771,
+        1.1125,
+        1.0889,
+        1.0032,
+        0.9979
+      ],
+      "kept_doc_ids": [
+        "BD002",
+        "BD005",
+        "CA031",
+        "CA095",
+        "CB005",
+        "CB007",
+        "SB040"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "B12",
+      "query": "How do you balance liberty and prosperity when they pull in opposite directions?",
+      "theme": "B",
+      "type": "multi",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded",
+      "grounded": "Y",
+      "routed_theme": "B",
+      "routed_topic": "twin_beacons_doctrine",
+      "routed_cos": 0.7237,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "SB028::c005",
+        "CB008::c003",
+        "SB028::c010",
+        "CB008::c002",
+        "CB006::c006"
+      ],
+      "top_score": 1.1734,
+      "top5_scores": [
+        1.1734,
+        1.1176,
+        1.1145,
+        1.1091,
+        1.0883
+      ],
+      "kept_doc_ids": [
+        "CB006",
+        "CB008",
+        "SB028",
+        "SB040",
+        "SD016",
+        "SD035"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "C13",
+      "query": "How has your faith shaped your work as a justice?",
+      "theme": "C",
+      "type": "stance",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded",
+      "grounded": "Y",
+      "routed_theme": "C",
+      "routed_topic": "jbc_discernment_and_appointment",
+      "routed_cos": 0.6764,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "BC001::c002",
+        "SB042::c017",
+        "BC001::c003",
+        "CC006::c002",
+        "GC003::c002"
+      ],
+      "top_score": 1.1657,
+      "top5_scores": [
+        1.1657,
+        1.0499,
+        1.025,
+        0.9826,
+        0.9662
+      ],
+      "kept_doc_ids": [
+        "BC001",
+        "CC002",
+        "CC006",
+        "GC003",
+        "SA011",
+        "SB042",
+        "SD016",
+        "SE036"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "C14",
+      "query": "What lessons did your years on the Supreme Court teach you?",
+      "theme": "C",
+      "type": "stance",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "REVIEW_theme_mismatch",
+      "grounded": "REVIEW",
+      "routed_theme": "A",
+      "routed_topic": "supreme_court_history",
+      "routed_cos": 0.6807,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "SA011::c001",
+        "SB042::c017",
+        "CC006::c002",
+        "CC002::c002",
+        "CC006::c006"
+      ],
+      "top_score": 1.1921,
+      "top5_scores": [
+        1.1921,
+        1.0757,
+        1.0714,
+        0.9499,
+        0.938
+      ],
+      "kept_doc_ids": [
+        "BD003",
+        "CC002",
+        "CC006",
+        "SA011",
+        "SB039",
+        "SB042",
+        "SE036"
+      ],
+      "notes": "routed_theme A != tag C (topic supreme_court_history); human plausibility check."
+    },
+    {
+      "id": "C15",
+      "query": "What does justice mean to you personally?",
+      "theme": "C",
+      "type": "doc",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "REVIEW_theme_mismatch",
+      "grounded": "REVIEW",
+      "routed_theme": "A",
+      "routed_topic": "death_penalty_and_echegaray",
+      "routed_cos": 0.6437,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "BC001::c003",
+        "CC006::c002",
+        "SB028::c004",
+        "BC001::c002",
+        "SE036::c004"
+      ],
+      "top_score": 1.1766,
+      "top5_scores": [
+        1.1766,
+        1.1087,
+        1.0523,
+        1.045,
+        0.9617
+      ],
+      "kept_doc_ids": [
+        "BC001",
+        "CB007",
+        "CC006",
+        "SA011",
+        "SB006",
+        "SB028",
+        "SD016",
+        "SE036"
+      ],
+      "notes": "routed_theme A != tag C (topic death_penalty_and_echegaray); human plausibility check."
+    },
+    {
+      "id": "C16",
+      "query": "What do you enjoy about writing your weekly Inquirer column?",
+      "theme": "C",
+      "type": "stance",
+      "expected_grounding_doc_ids": [
+        "CC001"
+      ],
+      "grounding_status": "grounded_exp",
+      "grounded": "Y",
+      "routed_theme": "E",
+      "routed_topic": "with_due_respect_persona",
+      "routed_cos": 0.585,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CC001::c001",
+        "CC001::c005",
+        "CC001::c004",
+        "CC001::c002",
+        "BE002::c000"
+      ],
+      "top_score": 1.1756,
+      "top5_scores": [
+        1.1756,
+        1.1403,
+        1.1216,
+        1.0877,
+        1.0332
+      ],
+      "kept_doc_ids": [
+        "BD001",
+        "BE002",
+        "CC001",
+        "CC009",
+        "SB028"
+      ],
+      "notes": "exp CC001 rank 1; distinct from C17/C18 (zero doc overlap)."
+    },
+    {
+      "id": "C17",
+      "query": "What qualities did you most admire in your colleagues on the bench?",
+      "theme": "C",
+      "type": "stance",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "REVIEW_theme_mismatch",
+      "grounded": "REVIEW",
+      "routed_theme": "D",
+      "routed_topic": "lawyer_ethics_initiative",
+      "routed_cos": 0.6036,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "SE036::c010",
+        "SB042::c017",
+        "CC002::c010",
+        "CE003::c008",
+        "CC002::c002"
+      ],
+      "top_score": 1.1753,
+      "top5_scores": [
+        1.1753,
+        1.1654,
+        1.0879,
+        1.0781,
+        1.0257
+      ],
+      "kept_doc_ids": [
+        "BC001",
+        "CC002",
+        "CC006",
+        "CE003",
+        "SB042",
+        "SB050",
+        "SC005",
+        "SE036"
+      ],
+      "notes": "routed_theme D != tag C (topic lawyer_ethics_initiative); human plausibility check."
+    },
+    {
+      "id": "C18",
+      "query": "Looking back, what are you most proud of?",
+      "theme": "C",
+      "type": "stance",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded",
+      "grounded": "Y",
+      "routed_theme": "C",
+      "routed_topic": "early_life_sampaloc",
+      "routed_cos": 0.5744,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "SA011::c001",
+        "SC010::c007",
+        "SE036::c002",
+        "CC008::c002",
+        "SE036::c010"
+      ],
+      "top_score": 1.1917,
+      "top5_scores": [
+        1.1917,
+        1.1666,
+        1.1107,
+        1.1016,
+        1.0984
+      ],
+      "kept_doc_ids": [
+        "CC006",
+        "CC008",
+        "SA011",
+        "SB042",
+        "SC005",
+        "SC010",
+        "SE036"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "D19",
+      "query": "What is the Foundation for Liberty and Prosperity?",
+      "theme": "D",
+      "type": "def",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "REVIEW_theme_mismatch",
+      "grounded": "REVIEW",
+      "routed_theme": "B",
+      "routed_topic": "twin_beacons_doctrine",
+      "routed_cos": 0.7174,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "SD016::c000",
+        "CB005::c002",
+        "SB040::c007",
+        "SB040::c008",
+        "SB028::c012"
+      ],
+      "top_score": 1.1904,
+      "top5_scores": [
+        1.1904,
+        1.1472,
+        1.1341,
+        1.1191,
+        1.105
+      ],
+      "kept_doc_ids": [
+        "CB005",
+        "CB006",
+        "SA011",
+        "SB028",
+        "SB040",
+        "SB051",
+        "SD002",
+        "SD004",
+        "SD016"
+      ],
+      "notes": "routed_theme B != tag D (topic twin_beacons_doctrine); human plausibility check."
+    },
+    {
+      "id": "D20",
+      "query": "Who is eligible for FLP scholarships?",
+      "theme": "D",
+      "type": "def",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded",
+      "grounded": "Y",
+      "routed_theme": "D",
+      "routed_topic": "foundation_for_liberty_and_prosperity",
+      "routed_cos": 0.7238,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CD001::c001",
+        "CD001::c002",
+        "CD001::c004",
+        "SD016::c002",
+        "CD005::c000"
+      ],
+      "top_score": 1.1703,
+      "top5_scores": [
+        1.1703,
+        1.1206,
+        1.0249,
+        0.9541,
+        0.9186
+      ],
+      "kept_doc_ids": [
+        "CD001",
+        "CD005",
+        "SA011",
+        "SB006",
+        "SD002",
+        "SD016",
+        "SD021",
+        "SD035"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "D21",
+      "query": "What is the purpose of the Museum for Liberty and Prosperity?",
+      "theme": "D",
+      "type": "orphan",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded",
+      "grounded": "Y",
+      "routed_theme": "D",
+      "routed_topic": "museum_for_liberty_and_prosperity",
+      "routed_cos": 0.7099,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "SD002::c008",
+        "SD002::c000",
+        "SD021::c006",
+        "SD002::c009",
+        "SD002::c002"
+      ],
+      "top_score": 1.1798,
+      "top5_scores": [
+        1.1798,
+        1.1539,
+        1.1314,
+        1.1147,
+        1.0859
+      ],
+      "kept_doc_ids": [
+        "SC007",
+        "SD002",
+        "SD016",
+        "SD021"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "D22",
+      "query": "How does the foundation advance the rule of law?",
+      "theme": "D",
+      "type": "doc",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "REVIEW_theme_mismatch",
+      "grounded": "REVIEW",
+      "routed_theme": "A",
+      "routed_topic": "rule_of_law",
+      "routed_cos": 0.6784,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CA031::c000",
+        "CD003::c006",
+        "CA031::c001",
+        "CB003::c004",
+        "SB040::c008"
+      ],
+      "top_score": 1.1837,
+      "top5_scores": [
+        1.1837,
+        1.0894,
+        1.0412,
+        0.9885,
+        0.9874
+      ],
+      "kept_doc_ids": [
+        "CA031",
+        "CB003",
+        "CD001",
+        "CD003",
+        "SB028",
+        "SB040"
+      ],
+      "notes": "routed_theme A != tag D (topic rule_of_law); human plausibility check."
+    },
+    {
+      "id": "D23",
+      "query": "Who are the foundation's partners and supporters?",
+      "theme": "D",
+      "type": "def",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded",
+      "grounded": "Y",
+      "routed_theme": "D",
+      "routed_topic": "flp_donors_and_partners",
+      "routed_cos": 0.5946,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CB004::c002",
+        "CD008::c003",
+        "SD021::c007",
+        "SD016::c000",
+        "CA031::c000"
+      ],
+      "top_score": 1.1786,
+      "top5_scores": [
+        1.1786,
+        1.144,
+        1.1324,
+        1.1139,
+        1.0199
+      ],
+      "kept_doc_ids": [
+        "CA031",
+        "CB003",
+        "CB004",
+        "CD008",
+        "SB063",
+        "SD016",
+        "SD021"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "D24",
+      "query": "Why did you establish the foundation?",
+      "theme": "D",
+      "type": "stance",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded",
+      "grounded": "Y",
+      "routed_theme": "D",
+      "routed_topic": "foundation_for_liberty_and_prosperity",
+      "routed_cos": 0.578,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "SB050::c005",
+        "SB050::c004",
+        "SD035::c009",
+        "SB050::c006",
+        "SB040::c008"
+      ],
+      "top_score": 1.1776,
+      "top5_scores": [
+        1.1776,
+        1.0854,
+        1.0755,
+        1.0276,
+        1.0272
+      ],
+      "kept_doc_ids": [
+        "CC006",
+        "CD001",
+        "CE009",
+        "SB040",
+        "SB050",
+        "SD035"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "E25",
+      "query": "What was the significance of the 2016 South China Sea arbitral award?",
+      "theme": "E",
+      "type": "def",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "REVIEW_theme_mismatch",
+      "grounded": "REVIEW",
+      "routed_theme": "A",
+      "routed_topic": "international_law_disputes",
+      "routed_cos": 0.7291,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CA010::c000",
+        "CA009::c000",
+        "CA013::c002",
+        "CA009::c001",
+        "CA009::c004"
+      ],
+      "top_score": 1.1587,
+      "top5_scores": [
+        1.1587,
+        1.1249,
+        1.0928,
+        1.0813,
+        1.0689
+      ],
+      "kept_doc_ids": [
+        "CA009",
+        "CA010",
+        "CA011",
+        "CA013"
+      ],
+      "notes": "routed_theme A != tag E (topic international_law_disputes); human plausibility check."
+    },
+    {
+      "id": "E26",
+      "query": "What is your view on the Philippines and the International Criminal Court?",
+      "theme": "E",
+      "type": "stance",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded",
+      "grounded": "Y",
+      "routed_theme": "E",
+      "routed_topic": "global_geopolitics",
+      "routed_cos": 0.7231,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CA003::c004",
+        "CA009::c005",
+        "CA003::c000",
+        "CA009::c002",
+        "CA031::c000"
+      ],
+      "top_score": 1.173,
+      "top5_scores": [
+        1.173,
+        1.1085,
+        1.0949,
+        1.0811,
+        1.0726
+      ],
+      "kept_doc_ids": [
+        "CA003",
+        "CA009",
+        "CA010",
+        "CA031",
+        "CE003"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "E27",
+      "query": "How does international law limit national sovereignty?",
+      "theme": "E",
+      "type": "doc",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded",
+      "grounded": "Y",
+      "routed_theme": "E",
+      "routed_topic": "global_geopolitics",
+      "routed_cos": 0.6814,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CA009::c004",
+        "CE003::c002",
+        "CA009::c000",
+        "CE003::c005",
+        "BD003::c005"
+      ],
+      "top_score": 1.1809,
+      "top5_scores": [
+        1.1809,
+        1.1281,
+        1.099,
+        1.0768,
+        1.038
+      ],
+      "kept_doc_ids": [
+        "BD003",
+        "CA009",
+        "CA010",
+        "CB007",
+        "CE003",
+        "SE012"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "E28",
+      "query": "What did the Court decide in Roe v. Wade?",
+      "theme": "E",
+      "type": "case",
+      "expected_grounding_doc_ids": [
+        "CE007"
+      ],
+      "grounding_status": "grounded_exp",
+      "grounded": "Y",
+      "routed_theme": "A",
+      "routed_topic": "judicial_activism_and_political_question",
+      "routed_cos": 0.6252,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "BD001::c001",
+        "CE008::c001",
+        "BD001::c005",
+        "CA377::c006",
+        "CE007::c003"
+      ],
+      "top_score": 1.1648,
+      "top5_scores": [
+        1.1648,
+        1.1545,
+        1.1174,
+        1.116,
+        1.0884
+      ],
+      "kept_doc_ids": [
+        "BA009",
+        "BD001",
+        "BD003",
+        "BD005",
+        "CA377",
+        "CE007",
+        "CE008"
+      ],
+      "notes": "exp CE007 in top-k at rank 5"
+    },
+    {
+      "id": "E29",
+      "query": "What are the implications of the Data Privacy Act (RA 10173)?",
+      "theme": "E",
+      "type": "case",
+      "expected_grounding_doc_ids": [
+        "CA034"
+      ],
+      "grounding_status": "grounded_exp",
+      "grounded": "Y",
+      "routed_theme": "E",
+      "routed_topic": "ai_and_technology",
+      "routed_cos": 0.5825,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CA034::c002",
+        "SA049::c006",
+        "CA242::c001",
+        "SE012::c004",
+        "CA242::c004"
+      ],
+      "top_score": 1.1651,
+      "top5_scores": [
+        1.1651,
+        1.1457,
+        1.1444,
+        1.0778,
+        1.0701
+      ],
+      "kept_doc_ids": [
+        "CA034",
+        "CA242",
+        "CC069",
+        "CE004",
+        "CE102",
+        "SA049",
+        "SE012"
+      ],
+      "notes": "exp CA034 in top-k at rank 1"
+    },
+    {
+      "id": "E30",
+      "query": "How should courts handle politically charged cases?",
+      "theme": "E",
+      "type": "doc",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "REVIEW_theme_mismatch",
+      "grounded": "REVIEW",
+      "routed_theme": "A",
+      "routed_topic": "judicial_activism_and_political_question",
+      "routed_cos": 0.6994,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "BD001::c000",
+        "BA009::c006",
+        "BD004::c005",
+        "CA005::c005",
+        "CA003::c000"
+      ],
+      "top_score": 1.1624,
+      "top5_scores": [
+        1.1624,
+        1.1006,
+        1.0623,
+        1.0333,
+        1.0302
+      ],
+      "kept_doc_ids": [
+        "BA009",
+        "BD001",
+        "BD003",
+        "BD004",
+        "BD005",
+        "CA003",
+        "CA005",
+        "CA127"
+      ],
+      "notes": "routed_theme A != tag E (topic judicial_activism_and_political_question); human plausibility check."
+    },
+    {
+      "id": "X31",
+      "query": "Who are you?",
+      "theme": "X",
+      "type": "id",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "identity_gate",
+      "grounded": "Y",
+      "routed_theme": "META",
+      "routed_topic": "robot_identity_meta",
+      "routed_cos": 0.6267,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "SE013::c006",
+        "SB050::c003",
+        "SB065::c007",
+        "SD035::c006",
+        "SB050::c013"
+      ],
+      "top_score": 1.1604,
+      "top5_scores": [
+        1.1604,
+        1.1584,
+        1.0675,
+        1.0581,
+        1.0273
+      ],
+      "kept_doc_ids": [
+        "BE002",
+        "SB050",
+        "SB065",
+        "SC010",
+        "SD035",
+        "SE013",
+        "SE036"
+      ],
+      "notes": "input_gate scope=identity_probe; persona/identity handled at composition, not grounding."
+    },
+    {
+      "id": "X32",
+      "query": "What can you help me with?",
+      "theme": "X",
+      "type": "id",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "identity_gate",
+      "grounded": "Y",
+      "routed_theme": "D",
+      "routed_topic": "lawyer_ethics_initiative",
+      "routed_cos": 0.5564,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "BC001::c003",
+        "SD035::c004",
+        "SD035::c006",
+        "SB065::c001",
+        "SD035::c009"
+      ],
+      "top_score": 1.1661,
+      "top5_scores": [
+        1.1661,
+        1.1617,
+        1.1476,
+        1.0967,
+        1.0772
+      ],
+      "kept_doc_ids": [
+        "BC001",
+        "BC002",
+        "BE002",
+        "SB050",
+        "SB051",
+        "SB065",
+        "SC010",
+        "SD021",
+        "SD035"
+      ],
+      "notes": "input_gate scope=in_corpus; persona/identity handled at composition, not grounding."
+    },
+    {
+      "id": "X33",
+      "query": "What is the status of the death penalty in the Philippines, and what was the Echegaray case?",
+      "theme": "X",
+      "type": "multi",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded_xcut",
+      "grounded": "Y",
+      "routed_theme": "A",
+      "routed_topic": "death_penalty_and_echegaray",
+      "routed_cos": 0.787,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CA003::c000",
+        "CE008::c001",
+        "CA242::c004",
+        "CA031::c000",
+        "CE003::c003"
+      ],
+      "top_score": 1.1725,
+      "top5_scores": [
+        1.1725,
+        1.1074,
+        1.0714,
+        1.0448,
+        0.9924
+      ],
+      "kept_doc_ids": [
+        "BE003",
+        "CA003",
+        "CA031",
+        "CA242",
+        "CE003",
+        "CE008",
+        "SA011",
+        "SA049"
+      ],
+      "notes": "cross-cutting; routed death_penalty_and_echegaray (theme A). Human plausibility check."
+    },
+    {
+      "id": "X34",
+      "query": "When was the South China Sea arbitral award issued?",
+      "theme": "X",
+      "type": "date",
+      "expected_grounding_doc_ids": [
+        "CA009",
+        "CA010"
+      ],
+      "grounding_status": "grounded_date",
+      "grounded": "Y",
+      "routed_theme": "A",
+      "routed_topic": "international_law_disputes",
+      "routed_cos": 0.7524,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CA010::c000",
+        "CA009::c000",
+        "CA013::c002",
+        "CA009::c001",
+        "CA009::c004"
+      ],
+      "top_score": 1.1588,
+      "top5_scores": [
+        1.1588,
+        1.1335,
+        1.0863,
+        1.0851,
+        1.0505
+      ],
+      "kept_doc_ids": [
+        "CA009",
+        "CA010",
+        "CA011",
+        "CA013"
+      ],
+      "notes": "CA009/CA010 in top-5 (['CA009', 'CA010']); 'July 12, 2016' present in retrieved chunk CA010::c000."
+    },
+    {
+      "id": "X35",
+      "query": "What's the weather in Manila today?",
+      "theme": "X",
+      "type": "oos",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "FAIL_grounded_oos",
+      "grounded": "GROUNDED",
+      "routed_theme": "C",
+      "routed_topic": "honors_received",
+      "routed_cos": 0.5684,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "GC001::c003",
+        "SC010::c003",
+        "SC005::c001",
+        "SB006::c007",
+        "SB050::c001"
+      ],
+      "top_score": 1.1725,
+      "top5_scores": [
+        1.1725,
+        1.1253,
+        1.0044,
+        0.9547,
+        0.8985
+      ],
+      "kept_doc_ids": [
+        "BB001",
+        "BC002",
+        "GC001",
+        "SB006",
+        "SB040",
+        "SB050",
+        "SC003",
+        "SC005",
+        "SC010",
+        "SD002"
+      ],
+      "notes": "OOS routed IN-scope (cos 0.5684 >= OUT_OF_SCOPE_THRESHOLD 0.15). Known uncalibrated gate — FLAG for OOS threshold calibration."
+    },
+    {
+      "id": "X36",
+      "query": "Can you recommend a good restaurant near the museum?",
+      "theme": "X",
+      "type": "oos",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "FAIL_grounded_oos",
+      "grounded": "GROUNDED",
+      "routed_theme": "D",
+      "routed_topic": "museum_for_liberty_and_prosperity",
+      "routed_cos": 0.583,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CE018::c002",
+        "SD002::c007",
+        "SD002::c010",
+        "SD016::c007",
+        "SD016::c008"
+      ],
+      "top_score": 1.1556,
+      "top5_scores": [
+        1.1556,
+        1.1363,
+        1.0893,
+        1.0803,
+        1.0723
+      ],
+      "kept_doc_ids": [
+        "BB002",
+        "CE018",
+        "SB042",
+        "SB050",
+        "SD002",
+        "SD016"
+      ],
+      "notes": "OOS routed IN-scope (cos 0.583 >= OUT_OF_SCOPE_THRESHOLD 0.15). Known uncalibrated gate — FLAG for OOS threshold calibration."
+    },
+    {
+      "id": "X37",
+      "query": "How do the rule of law and economic governance relate to each other?",
+      "theme": "X",
+      "type": "multi",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded_xcut",
+      "grounded": "Y",
+      "routed_theme": "B",
+      "routed_topic": "economic_governance_and_business_law",
+      "routed_cos": 0.7268,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CA031::c002",
+        "SB028::c011",
+        "SB028::c010",
+        "CD003::c006",
+        "CB006::c007"
+      ],
+      "top_score": 1.1769,
+      "top5_scores": [
+        1.1769,
+        1.1404,
+        1.126,
+        1.1028,
+        1.08
+      ],
+      "kept_doc_ids": [
+        "BE002",
+        "CA031",
+        "CB005",
+        "CB006",
+        "CD003",
+        "SB028"
+      ],
+      "notes": "cross-cutting; routed economic_governance_and_business_law (theme B). Human plausibility check."
+    },
+    {
+      "id": "X38",
+      "query": "Tell me about your work on both judicial reform and the prosperity doctrine.",
+      "theme": "X",
+      "type": "multi",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded_xcut",
+      "grounded": "Y",
+      "routed_theme": "A",
+      "routed_topic": "judicial_reform",
+      "routed_cos": 0.7134,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "SB028::c011",
+        "SA011::c000",
+        "CB008::c003",
+        "SB028::c012",
+        "SB028::c003"
+      ],
+      "top_score": 1.1729,
+      "top5_scores": [
+        1.1729,
+        1.152,
+        1.1316,
+        1.1194,
+        1.1106
+      ],
+      "kept_doc_ids": [
+        "CB005",
+        "CB008",
+        "CE003",
+        "SA011",
+        "SB028",
+        "SB040",
+        "SD021"
+      ],
+      "notes": "cross-cutting; routed judicial_reform (theme A). Human plausibility check."
+    },
+    {
+      "id": "X39",
+      "query": "Tell me about a memorable trip or experience from your life.",
+      "theme": "X",
+      "type": "orphan",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded_xcut",
+      "grounded": "Y",
+      "routed_theme": "C",
+      "routed_topic": "early_life_sampaloc",
+      "routed_cos": 0.5904,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "BC001::c003",
+        "BC002::c000",
+        "SC010::c006",
+        "SB042::c001",
+        "SB039::c001"
+      ],
+      "top_score": 1.1766,
+      "top5_scores": [
+        1.1766,
+        1.1394,
+        1.0418,
+        1.0393,
+        0.9376
+      ],
+      "kept_doc_ids": [
+        "BC001",
+        "BC002",
+        "CC002",
+        "CC008",
+        "SB039",
+        "SB042",
+        "SB050",
+        "SC010",
+        "SE036"
+      ],
+      "notes": "cross-cutting; routed early_life_sampaloc (theme C). Human plausibility check."
+    },
+    {
+      "id": "X40",
+      "query": "With due respect, what would you say to a young lawyer just starting out?",
+      "theme": "X",
+      "type": "persona",
+      "expected_grounding_doc_ids": [],
+      "grounding_status": "grounded_xcut",
+      "grounded": "Y",
+      "routed_theme": "D",
+      "routed_topic": "lawyer_ethics_initiative",
+      "routed_cos": 0.6211,
+      "in_scope": true,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "SB028::c003",
+        "SE036::c003",
+        "SC010::c011",
+        "SA011::c012",
+        "SB063::c000"
+      ],
+      "top_score": 1.1858,
+      "top5_scores": [
+        1.1858,
+        1.1557,
+        1.1343,
+        1.1046,
+        1.0911
+      ],
+      "kept_doc_ids": [
+        "CC002",
+        "SA011",
+        "SB028",
+        "SB063",
+        "SC010",
+        "SE036"
+      ],
+      "notes": "cross-cutting; routed lawyer_ethics_initiative (theme D). Human plausibility check."
+    }
   ]
 }
