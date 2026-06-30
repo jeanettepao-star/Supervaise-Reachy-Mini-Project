@@ -120,7 +120,7 @@ def main() -> int:
     records = []
     with open(OUT_JSONL, "w", encoding="utf-8", newline="\n") as fh:
         for q in queries:
-            rec = run_one(client, voice, allow, q["text"])
+            rec = run_one(client, voice, allow, q.get("text") or q["query"])
             rec["qid"] = q["id"]; rec["qtype"] = q["type"]; rec["qtheme"] = q["theme"]
             records.append(rec)
             fh.write(json.dumps(rec, ensure_ascii=config.JSON_ENSURE_ASCII) + "\n")
