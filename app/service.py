@@ -204,8 +204,9 @@ def _messages(system_text: str, user_text: str) -> str:
     return resp.content[0].text.strip()
 
 
-def _compose(query: str, selected, directives: dict) -> str:
-    """Grounded Sonnet call over a SLIM payload (top-k chunks, not whole docs)."""
+def build_payload(query: str, selected, directives: dict) -> str:
+    """Assemble the SLIM user payload (top-k chunks + lean directives). Exposed
+    so the W1.9 latency harness can stream the same payload for TTFT."""
     txt = _chunk_text()
     blocks = "\n\n".join(f"[{cid}]\n{txt.get(cid, '')}" for cid, _, _ in selected)
     dlines = [f"- register: {directives['register']}"]
@@ -213,11 +214,15 @@ def _compose(query: str, selected, directives: dict) -> str:
         dlines.append(f"- {directives['disclaimer']}")
     if directives["date_note"]:
         dlines.append(f"- {directives['date_note']}")
-    user = (f"<source_chunks>\n{blocks}\n</source_chunks>\n\n"
+    return (f"<source_chunks>\n{blocks}\n</source_chunks>\n\n"
             f"<directives>\n" + "\n".join(dlines) + "\n</directives>\n\n"
             f"Answer in your own voice, grounded ONLY in the source chunks above. "
             f"Do not invent specifics.\n\n<question>\n{query}\n</question>")
-    return _messages(_voice_card(), user)
+
+
+def _compose(query: str, selected, directives: dict) -> str:
+    """Grounded Sonnet call over a SLIM payload (top-k chunks, not whole docs)."""
+    return _messages(_voice_card(), build_payload(query, selected, directives))
 
 
 def answer(query_text: str, allowlist_version: str = "v4") -> dict:

@@ -1,0 +1,16 @@
+{
+  "_note": "CONSTRUCTED STAND-IN for the W1.9 latency baseline. No frozen pilot draft-query set existed in the repo (the v4 allowlist is DOCS, not user queries) — flagged. These ~10 queries span the 5 coarse themes + query types (doctrinal, biographical, current-events, cited-case/sparse-heavy, identity-probe) to exercise the path and yield a representative latency distribution. The OFFICIAL frozen draft-query set should be defined deliberately (eval/W3 scope), like the doc allowlist was.",
+  "version": "v1-constructed",
+  "queries": [
+    {"id": "q01", "theme": "A", "type": "doctrinal", "text": "What is the rule of law?"},
+    {"id": "q02", "theme": "B", "type": "doctrinal", "text": "Tell me about the twin beacons of liberty and prosperity."},
+    {"id": "q03", "theme": "D", "type": "program", "text": "What is the Prosperity Fund for MSMEs?"},
+    {"id": "q04", "theme": "C", "type": "biographical", "text": "Describe your childhood in Sampaloc."},
+    {"id": "q05", "theme": "C", "type": "biographical", "text": "How did your Catholic faith develop later in life?"},
+    {"id": "q06", "theme": "E", "type": "current-events", "text": "How should artificial intelligence be governed in the courts?"},
+    {"id": "q07", "theme": "A", "type": "cited-case", "text": "What did the Supreme Court rule in Francisco v. House of Representatives?"},
+    {"id": "q08", "theme": "D", "type": "program", "text": "What are the FLP scholarship and fellowship programs?"},
+    {"id": "q09", "theme": "A", "type": "doctrinal", "text": "What is your view on the death penalty and the Echegaray case?"},
+    {"id": "q10", "theme": "META", "type": "identity-probe", "text": "Are you really Chief Justice Panganiban, or an AI?"}
+  ]
+}

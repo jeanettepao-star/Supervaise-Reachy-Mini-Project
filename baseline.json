@@ -1,0 +1,61 @@
+{
+  "transport": "native_sdk",
+  "embed_device": "cuda",
+  "composer_model": "claude-sonnet-4-6",
+  "n_queries": 10,
+  "draft_query_set": "draft_queries_v1 (CONSTRUCTED stand-in — no frozen set existed)",
+  "stages_p50_p95_ms": {
+    "input_gate_ms": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "router_ms": {
+      "p50": 164.6,
+      "p95": 172.5
+    },
+    "retrieval_ms": {
+      "p50": 83.2,
+      "p95": 108.9
+    },
+    "composer_ms": {
+      "p50": 7790.2,
+      "p95": 8679.0
+    },
+    "composer_ttft_ms": {
+      "p50": 1207.0,
+      "p95": 2087.3
+    },
+    "total_ms": {
+      "p50": 8044.8,
+      "p95": 8928.2
+    }
+  },
+  "ttft_ms": {
+    "p50": 1207.0,
+    "p95": 2087.3
+  },
+  "total_e2e_ms": {
+    "p50": 8044.8,
+    "p95": 8928.2
+  },
+  "cost_per_query_usd": {
+    "cached_p50": 0.016877,
+    "uncached_equiv_p50": 0.028786,
+    "caching_saves_per_query_p50": 0.01191,
+    "note": "measured queries are all cache READS (warm-ups wrote the cache); uncached_equiv = cache_read tokens repriced as full input",
+    "prompt_caching": "present (voice card cache_control: ephemeral)"
+  },
+  "cold_start": {
+    "model_cold_load_ms": 37432.3,
+    "first_call_total_ms_incl_connection": 10279.4,
+    "note": "EXCLUDED from the warmed p50/p95 baseline below."
+  },
+  "sanity": {
+    "llm_calls_before_composition": 0,
+    "route_top": "rule_of_law",
+    "route_cos": 0.7694,
+    "universe": 827,
+    "aligned": true
+  },
+  "build_date": "2026-06-30"
+}

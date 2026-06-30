@@ -60,6 +60,26 @@ def _softmax(x, temp):
     return e / e.sum()
 
 
+import re as _re
+_IDENTITY_RE = _re.compile(
+    r"\b(are you (an?\s+)?(ai|robot|real|human|machine|bot)|is this (an?\s+)?(ai|robot)|"
+    r"who (made|built|are you)|are you (really\s+)?(cj|chief justice|panganiban)|"
+    r"how (do|were) you (work|made|built))\b", _re.I)
+
+
+def input_gate(query: str) -> dict:
+    """Deterministic LOCAL input gate (the new-arch replacement for the removed
+    Haiku gate — ZERO LLM). Flags empty input and identity probes; everything
+    else is corpus-routed. Scope is informational here (the centroid router +
+    OUT_OF_SCOPE_THRESHOLD do the real in/out decision)."""
+    q = (query or "").strip()
+    if not q:
+        return {"scope": "empty"}
+    if _IDENTITY_RE.search(q):
+        return {"scope": "identity_probe"}
+    return {"scope": "in_corpus"}
+
+
 def route(query: str, qv: np.ndarray | None = None) -> dict:
     """Centroid soft prior. Returns relevance over the 34 topics + in/out scope.
     Theme BIASES retrieval (via topic_affinity); it never gates."""
@@ -152,10 +172,12 @@ def run(query: str, allowlist_doc_ids: set) -> dict:
     pre-composition LLM round-trips — every stage below is local)."""
     t = {}
     t0 = time.perf_counter()
+    gate = input_gate(query); t["input_gate_ms"] = round((time.perf_counter() - t0) * 1000, 2)
+    t0 = time.perf_counter()
     qv = embeddings.embed_query(query); t["embed_query_ms"] = round((time.perf_counter() - t0) * 1000, 1)
     t0 = time.perf_counter()
-    ri = route(query, qv=qv); t["route_centroids_ms"] = round((time.perf_counter() - t0) * 1000, 1)
+    ri = route(query, qv=qv); t["route_centroids_ms"] = round((time.perf_counter() - t0) * 1000, 2)
     t0 = time.perf_counter()
     rr = retrieve(query, allowlist_doc_ids, route_info=ri); t["retrieve_rrf_cutoff_ms"] = round((time.perf_counter() - t0) * 1000, 1)
-    return {"route": ri, "retrieval": rr, "timing": t,
+    return {"gate": gate, "route": ri, "retrieval": rr, "timing": t,
             "llm_calls_before_composition": 0}
