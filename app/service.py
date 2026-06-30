@@ -165,11 +165,11 @@ def _resolve_transport() -> str:
     return _TRANSPORT
 
 
-def _messages(system_text: str, user_text: str) -> str:
+def _messages(system_text: str, user_text: str, max_tokens: int | None = None) -> str:
     """Anthropic messages call via the resolved transport (native_sdk preferred;
     schannel_curl fallback where Python HTTPS is shadow-aborted)."""
     body = {
-        "model": config.COMPOSER_MODEL_ID, "max_tokens": config.MAX_TOKENS,
+        "model": config.COMPOSER_MODEL_ID, "max_tokens": max_tokens or config.MAX_TOKENS,
         "system": [{"type": "text", "text": system_text, "cache_control": {"type": "ephemeral"}}],
         "messages": [{"role": "user", "content": user_text}],
     }
@@ -225,20 +225,136 @@ def _compose(query: str, selected, directives: dict) -> str:
     return _messages(_voice_card(), build_payload(query, selected, directives))
 
 
-def answer(query_text: str, allowlist_version: str = "v4") -> dict:
-    """Service entry point. Returns {answer, envelope} per the v1.0 contract."""
+# ===========================================================================
+# [W2.1] Production composer: stream PROSE first (TTFT preserved); carry the
+# ENVELOPE metadata as a SEPARATE TRAILING block after a sentinel — the visible
+# answer is NEVER wrapped in JSON that must fully arrive before rendering.
+
+def _composer_system() -> str:
+    """Voice Card + W2.1 composer directives (length discipline + envelope
+    contract). Assembled into ONE cached system block."""
+    s = config.COMPOSER_ENVELOPE_SENTINEL
+    directives = (
+        "\n\n=== COMPOSER DIRECTIVES (W2.1) ===\n"
+        f"- Length discipline: answer in {config.COMPOSER_TARGET_PARAGRAPHS} short paragraphs "
+        "unless the asker explicitly requests more. Be complete but disciplined; never pad.\n"
+        f"- After the prose answer, on a NEW LINE output this sentinel EXACTLY:\n{s}\n"
+        "- Immediately after the sentinel, output ONE line of JSON metadata and nothing else:\n"
+        '  {"doc_ids_cited": [...], "register_used": "...", "anecdotes_deployed": [...], '
+        '"signature_phrases_used": [...]}\n'
+        '  doc_ids_cited = the source doc_ids you actually drew on (e.g. "CA242"; strip ::cNNN).\n'
+        "- The sentinel line and the JSON are SYSTEM METADATA, not part of the spoken answer; "
+        "write no prose after the JSON.")
+    return _voice_card() + directives
+
+
+def _split_envelope(raw: str) -> tuple:
+    """Split raw composer output into (prose, envelope_dict) on the sentinel.
+    Tolerant: missing/garbled envelope -> {} (prose is never lost)."""
+    s = config.COMPOSER_ENVELOPE_SENTINEL
+    idx = raw.find(s)
+    if idx < 0:
+        return raw.strip(), {}
+    prose = raw[:idx].strip()
+    tail = raw[idx + len(s):]
+    a, b = tail.find("{"), tail.rfind("}")
+    if a >= 0 and b > a:
+        try:
+            return prose, json.loads(tail[a:b + 1])
+        except Exception:
+            return prose, {"_parse_error": tail[a:b + 1][:200]}
+    return prose, {}
+
+
+_CLIENT = None
+
+
+def _client():
+    global _CLIENT
+    if _CLIENT is None:
+        from anthropic import Anthropic
+        _CLIENT = Anthropic(max_retries=config.MAX_RETRIES, api_key=_api_key())
+    return _CLIENT
+
+
+def _stream_native(client, system: str, payload: str, on_text) -> dict:
+    """One streamed composition. PROSE chunks go to on_text as they arrive (a
+    partial-sentinel tail is held back so the sentinel never leaks to the user);
+    the ENVELOPE after the sentinel is parsed, not spoken."""
+    s = config.COMPOSER_ENVELOPE_SENTINEL
+    buf = []
+    emitted = 0
+    ttft = None
+    t0 = time.perf_counter()
+    with client.messages.stream(
+            model=config.COMPOSER_MODEL_ID, max_tokens=config.COMPOSER_MAX_TOKENS,
+            system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
+            messages=[{"role": "user", "content": payload}]) as st:
+        for piece in st.text_stream:
+            if ttft is None:
+                ttft = round((time.perf_counter() - t0) * 1000, 1)
+            buf.append(piece)
+            if on_text:
+                whole = "".join(buf)
+                cut = whole.find(s)
+                safe = cut if cut >= 0 else max(0, len(whole) - len(s))
+                if safe > emitted:
+                    on_text(whole[emitted:safe])
+                    emitted = safe
+        final = st.get_final_message()
+    raw = "".join(buf)
+    if on_text:  # flush any held-back prose tail (when no sentinel was emitted)
+        cut = raw.find(s)
+        end = cut if cut >= 0 else len(raw)
+        if end > emitted:
+            on_text(raw[emitted:end])
+    prose, env = _split_envelope(raw)
+    return {"answer": prose, "envelope": env, "raw": raw, "ttft_ms": ttft,
+            "stop_reason": final.stop_reason, "degraded": False, "usage": final.usage}
+
+
+def compose_streamed(query: str, selected, directives: dict, client=None, on_text=None) -> dict:
+    """Production composer with bounded retries + backoff + graceful in-voice
+    degradation. Returns {answer, envelope, raw, ttft_ms, stop_reason, degraded,
+    usage}. KEEPS Sonnet; the router stays zero-LLM (this is the only round-trip)."""
+    system = _composer_system()
+    payload = build_payload(query, selected, directives)
+    native = _resolve_transport() == "native_sdk"
+    last = None
+    for attempt in range(config.COMPOSER_MAX_RETRIES + 1):
+        try:
+            if native:
+                return _stream_native(client or _client(), system, payload, on_text)
+            # curl fallback (no true streaming): one-shot, then split the envelope
+            raw = _messages(system, payload, max_tokens=config.COMPOSER_MAX_TOKENS)
+            prose, env = _split_envelope(raw)
+            return {"answer": prose, "envelope": env, "raw": raw, "ttft_ms": None,
+                    "stop_reason": None, "degraded": False, "usage": None}
+        except Exception as e:
+            last = e
+            if attempt < config.COMPOSER_MAX_RETRIES:
+                time.sleep(config.COMPOSER_BACKOFF_BASE_S * (2 ** attempt))
+    return {"answer": config.COMPOSER_FALLBACK_MESSAGE, "envelope": {}, "raw": "",
+            "ttft_ms": None, "stop_reason": "error_fallback", "degraded": True,
+            "usage": None, "error": f"{type(last).__name__}: {last}"}
+
+
+def answer(query_text: str, allowlist_version: str = "v4", on_text=None) -> dict:
+    """Service entry point. Returns {answer, envelope} per the v1.0 contract,
+    now with the W2.1 streamed composer + trailing composer_envelope. Pass
+    on_text to consume the PROSE as it streams (TTFT preserved)."""
     allow = _allowlist(allowlist_version)
     r = retrieval.run(query_text, allow)
     ri, rr, timing = r["route"], r["retrieval"], r["timing"]
     directives = _directives(query_text, ri)
 
     t0 = time.perf_counter()
-    ans = _compose(query_text, rr["selected"], directives)
+    comp = compose_streamed(query_text, rr["selected"], directives, on_text=on_text)
     timing["compose_ms"] = round((time.perf_counter() - t0) * 1000, 1)
     timing["total_ms"] = round(sum(timing.values()), 1)
 
     return {
-        "answer": ans,
+        "answer": comp["answer"],
         "envelope": {
             "service_version": config.SERVICE_VERSION,
             "retrieval_arch": config.RETRIEVAL_ARCH_VERSION,
@@ -255,6 +371,12 @@ def answer(query_text: str, allowlist_version: str = "v4") -> dict:
             "llm_calls_before_composition": r["llm_calls_before_composition"],
             "composer_model": config.COMPOSER_MODEL_ID,
             "composer_transport": _resolve_transport(),
+            # W2.1 trailing composer metadata (self-reported by the composer)
+            "composer_envelope": comp["envelope"],
+            "composer_stop_reason": comp["stop_reason"],
+            "composer_ttft_ms": comp["ttft_ms"],
+            "composer_degraded": comp["degraded"],
+            "composer_max_tokens": config.COMPOSER_MAX_TOKENS,
         },
     }
 

@@ -209,6 +209,34 @@ MAX_RETRIES: int = _env_int("CJ_MAX_RETRIES", 4)
 # OOC fallback. Higher → more salvage attempts (↑cost/latency); 0 → fallback
 # immediately on first flag.
 FIDELITY_MAX_RETRIES: int = _env_int("CJ_FIDELITY_MAX_RETRIES", 1)
+# ===========================================================================
+# [W2.1] Production composer governance.
+# COMPOSER_MAX_TOKENS — output ceiling for the streamed composer (prose + the
+# trailing ENVELOPE JSON). SIZED FROM DATA, not guessed: in the arch-baseline
+# (the old MAX_TOKENS=300 run) the p95 legitimate prose was 286 output tokens
+# and one answer (X38) clipped at the 300 ceiling — i.e. 300 was TRUNCATING real
+# persona answers. A full 3-5 paragraph persona answer + the envelope JSON
+# (~60-80 tok) needs headroom above that. 640 ≈ 2.2x the arch p95 / ~1.4x the
+# longest plausible 5-paragraph answer+envelope: fits without truncation, while
+# capping a runaway at <650 tok (~$0.0096 max output cost, ~13s max generation).
+# The SHAPER is the Voice Card length discipline; this is the safety net.
+COMPOSER_MAX_TOKENS: int = _env_int("CJ_COMPOSER_MAX_TOKENS", 640)
+# Target prose length the Voice Card asks for (the primary length lever).
+COMPOSER_TARGET_PARAGRAPHS: str = _env_str("CJ_COMPOSER_TARGET_PARAGRAPHS", "3-5")
+# App-level bounded retries (distinct from MAX_RETRIES, the SDK's transient
+# 429/5xx retry). These cover timeout / transport faults around the stream, with
+# exponential backoff COMPOSER_BACKOFF_BASE_S * 2**attempt before each retry.
+COMPOSER_MAX_RETRIES: int = _env_int("CJ_COMPOSER_MAX_RETRIES", 2)
+COMPOSER_BACKOFF_BASE_S: float = _env_float("CJ_COMPOSER_BACKOFF_BASE_S", 0.5)
+# Sentinel that separates streamed PROSE from the trailing ENVELOPE JSON. Prose
+# streams first (TTFT preserved); everything after the sentinel is metadata.
+COMPOSER_ENVELOPE_SENTINEL: str = _env_str("CJ_COMPOSER_ENVELOPE_SENTINEL", "---ENVELOPE---")
+# Graceful degradation: in-voice message returned after retries are exhausted,
+# instead of an error/hang. Spoken as CJ, not as a system fault.
+COMPOSER_FALLBACK_MESSAGE: str = _env_str(
+    "CJ_COMPOSER_FALLBACK_MESSAGE",
+    "With due respect, I am unable to give that the considered answer it deserves "
+    "just now. Let me reflect on it and get back to you.")
 # [NEW-ARCH] Expand-on-demand gate: if a turn's retrieval would fire (need
 # more context) on more than this fraction of turns, escalate to a wider
 # pull. ~0.10 keeps expansion rare (↓cost) while catching genuine gaps.
