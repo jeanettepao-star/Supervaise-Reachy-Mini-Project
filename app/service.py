@@ -204,16 +204,61 @@ def _messages(system_text: str, user_text: str, max_tokens: int | None = None) -
     return resp.content[0].text.strip()
 
 
-def build_payload(query: str, selected, directives: dict) -> str:
-    """Assemble the SLIM user payload (top-k chunks + lean directives). Exposed
-    so the W1.9 latency harness can stream the same payload for TTFT."""
+_DOC_JSON = None
+
+
+def _doc_json():
+    """Lazy doc_id -> corpus JSON (for the OPTIONAL signature palette only)."""
+    global _DOC_JSON
+    if _DOC_JSON is None:
+        import glob
+        _DOC_JSON = {}
+        for p in glob.glob(str(_REPO_ROOT / "corpus" / "**" / "*.json"), recursive=True):
+            try:
+                d = json.loads(Path(p).read_text(encoding=config.FILE_ENCODING))
+            except Exception:
+                continue
+            if isinstance(d, dict) and "id" in d:
+                _DOC_JSON[d["id"]] = d
+    return _DOC_JSON
+
+
+def build_payload(query: str, selected, directives: dict,
+                  top_k: int | None = None, char_budget: int | None = None,
+                  signature: bool | None = None) -> str:
+    """Assemble the SLIM user payload: top-k matched CHUNKS + LEAN directives
+    (theme/register + Theme-A compliance) ONLY. Per-doc enrichment (stances,
+    decision_framework_signals, target_audience, register_markers, one_paragraph_
+    summary) is DIAGNOSTIC-ONLY and NEVER included. signature_phrases enter only
+    as an OPTIONAL palette when config.COMPOSER_SIGNATURE_PALETTE is on.
+
+    [W2.2] top_k / char_budget are config-driven (defaults behavior-preserving:
+    COMPOSER_TOP_K=MAX_K, COMPOSER_CHUNK_CHAR_BUDGET=0/unlimited). Exposed so the
+    latency harness can stream the same payload for TTFT."""
+    top_k = config.COMPOSER_TOP_K if top_k is None else top_k
+    char_budget = config.COMPOSER_CHUNK_CHAR_BUDGET if char_budget is None else char_budget
+    signature = config.COMPOSER_SIGNATURE_PALETTE if signature is None else signature
+
     txt = _chunk_text()
-    blocks = "\n\n".join(f"[{cid}]\n{txt.get(cid, '')}" for cid, _, _ in selected)
+    chosen = selected[:top_k]                       # top-k lever
+    kept, used = [], 0
+    for cid, _s, _d in chosen:                       # char-budget lever (rank-priority)
+        t = txt.get(cid, "")
+        if char_budget and char_budget > 0 and kept and used + len(t) > char_budget:
+            break
+        kept.append((cid, t)); used += len(t)
+    blocks = "\n\n".join(f"[{cid}]\n{t}" for cid, t in kept)
+
     dlines = [f"- register: {directives['register']}"]
     if directives["disclaimer"]:
         dlines.append(f"- {directives['disclaimer']}")
     if directives["date_note"]:
         dlines.append(f"- {directives['date_note']}")
+    if signature and kept:                            # OPTIONAL signature palette
+        phrases = (_doc_json().get(kept[0][0].split("::")[0], {}) or {}).get("signature_phrases") or []
+        if phrases:
+            dlines.append("- signature phrases (use ONLY when natural): "
+                          + "; ".join(phrases[:3]))
     return (f"<source_chunks>\n{blocks}\n</source_chunks>\n\n"
             f"<directives>\n" + "\n".join(dlines) + "\n</directives>\n\n"
             f"Answer in your own voice, grounded ONLY in the source chunks above. "

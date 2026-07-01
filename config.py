@@ -237,6 +237,25 @@ COMPOSER_FALLBACK_MESSAGE: str = _env_str(
     "CJ_COMPOSER_FALLBACK_MESSAGE",
     "With due respect, I am unable to give that the considered answer it deserves "
     "just now. Let me reflect on it and get back to you.")
+# ===========================================================================
+# [W2.2] Payload slimming — INPUT-side cost/latency. The composer payload is
+# top-k matched CHUNKS + LEAN directives (theme/register/Theme-A) ONLY. The
+# corpus per-doc enrichment (signature_phrases, stances, decision_framework_
+# signals, target_audience, register_markers, one_paragraph_summary) is
+# DIAGNOSTIC-ONLY and is NEVER placed in the payload.
+# COMPOSER_TOP_K — chunks passed to the composer. DEFAULT = MAX_K (12), i.e.
+# behavior-preserving (the retrieval cutoff returns MAX_K today); slimming is
+# opt-in by lowering it. Grounding-safe floor: the worst first-grounded rank
+# over the frozen set is 5 (E28 -> CE007), so >=6 preserves all grounding docs.
+COMPOSER_TOP_K: int = _env_int("CJ_COMPOSER_TOP_K", MAX_K)
+# COMPOSER_CHUNK_CHAR_BUDGET — cap on TOTAL chunk chars in the payload (highest-
+# ranked chunks kept until the budget is hit). 0 = unlimited (behavior-preserving
+# default). An alternative/complementary lever to COMPOSER_TOP_K.
+COMPOSER_CHUNK_CHAR_BUDGET: int = _env_int("CJ_COMPOSER_CHUNK_CHAR_BUDGET", 0)
+# COMPOSER_SIGNATURE_PALETTE — optionally offer a few signature phrases as a
+# palette ("use when natural"). Default OFF (leaner); this is the ONLY enrichment
+# that may enter the payload, and only as an optional hint.
+COMPOSER_SIGNATURE_PALETTE: bool = _env_bool("CJ_COMPOSER_SIGNATURE_PALETTE", False)
 # [NEW-ARCH] Expand-on-demand gate: if a turn's retrieval would fire (need
 # more context) on more than this fraction of turns, escalate to a wider
 # pull. ~0.10 keeps expansion rare (↓cost) while catching genuine gaps.
