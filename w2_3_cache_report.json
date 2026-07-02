@@ -1,0 +1,83 @@
+{
+  "task": "W2.3 prompt-cache boundary verification",
+  "frozen_set_sha256": "65492b65...",
+  "composer_model": "claude-sonnet-4-6",
+  "sonnet_cache_min_tokens": 1024,
+  "phase1_structure_and_leak": {
+    "assembly": "system=[{text: Voice Card + W2.1 composer directives, cache_control: ephemeral}] (STATIC) ; user message = build_payload(chunks + lean directives + date_note + query) (VARIABLE).",
+    "order_static_first_variable_last": true,
+    "static_prefix_query_independent": true,
+    "static_prefix_byte_identical_across_queries": true,
+    "static_prefix_chars": 16378,
+    "breakpoint": "cache_control on the SINGLE (last) static system block -> entire static prefix cached; no mid-prefix breakpoint.",
+    "leak_check": {
+      "leaks_found": [],
+      "PASS": true,
+      "per_query_values_in_variable_section": {
+        "query_text_in_payload": true,
+        "chunk_ids_in_payload": true
+      }
+    }
+  },
+  "phase2_existing_run_evidence": {
+    "arch_baseline.json": {
+      "cache_read_unique": [
+        4411
+      ],
+      "stable": true,
+      "cache_write_unique": [
+        0
+      ],
+      "cached_prefix_tokens": 4411,
+      "min_size_ok": true,
+      "uncached_input_mean_tok": 4041,
+      "cost_per_query_usd": {
+        "cached": 0.016637,
+        "uncached_equiv": 0.028547
+      }
+    },
+    "w2_1_baseline.json": {
+      "cache_read_unique": [
+        4596
+      ],
+      "stable": true,
+      "cache_write_unique": [
+        0
+      ],
+      "cached_prefix_tokens": 4596,
+      "min_size_ok": true,
+      "uncached_input_mean_tok": 4042,
+      "cost_per_query_usd": {
+        "cached": 0.019196,
+        "uncached_equiv": 0.031605
+      }
+    }
+  },
+  "phase3_live_probe": {
+    "nonce_note": "nonce appended to STATIC prefix ONLY to force a cold cache for the demo; identical across all 3 calls -> not per-query leakage.",
+    "call1_query_A": {
+      "input": 3571,
+      "cache_creation": 4625,
+      "cache_read": 0,
+      "output": 32
+    },
+    "call2_query_A_repeat": {
+      "input": 3571,
+      "cache_creation": 0,
+      "cache_read": 4625,
+      "output": 32
+    },
+    "call3_query_B_different": {
+      "input": 3655,
+      "cache_creation": 0,
+      "cache_read": 4625,
+      "output": 32
+    },
+    "creation_then_read": true,
+    "shared_prefix_across_queries": true,
+    "spend_usd": 0.05395
+  },
+  "ttl_reality_note": "Anthropic default cache TTL ~5 min. Pilot traffic is sporadic, so the cache likely EXPIRES between visitors -> the pilot's REAL per-query cost is the UNCACHED figure. The CACHED figure applies only under steady/production traffic (calls within 5 min of each other).",
+  "llm_calls_before_composition_all_zero": true,
+  "total_spend_usd": 0.05395
+}
