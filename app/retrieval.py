@@ -101,16 +101,16 @@ def route(query: str, qv: np.ndarray | None = None) -> dict:
     }
 
 
-def retrieve(query: str, allowlist_doc_ids: set, route_info: dict | None = None) -> dict:
-    """Hybrid dense+sparse RRF over ONE universe (the allowlist), biased by the
-    soft prior. Returns selected chunks (dynamic cutoff) + diagnostics."""
+def _score_universe(query: str, allowlist_doc_ids: set, route_info: dict | None = None) -> dict:
+    """Compute the per-candidate score components over ONE universe (allowlist):
+    dense cosine, RRF-fused passage_sim, topic affinity, and the fused score.
+    Exposed so top-p can accumulate over different bases (W2.x-TOPP-2)."""
     mat, chunk_ids, doc_ids, chunk_cen_sims = _load_pilot()
     if route_info is None:
         route_info = route(query)
     qv = route_info["qv"]
 
-    # ---- P2: candidate universes — dense over the pilot chunks; sparse filtered
-    #      to the SAME doc set. Assert they align before fusing. ----
+    # ---- candidate universes — dense over pilot chunks; sparse over SAME docs ----
     dense_idx = [i for i, d in enumerate(doc_ids) if d in allowlist_doc_ids]
     dense_set = {chunk_ids[i] for i in dense_idx}
     sparse_ranked = sparse.sparse_score(query, allowlist=allowlist_doc_ids, k=len(chunk_ids))
@@ -118,17 +118,15 @@ def retrieve(query: str, allowlist_doc_ids: set, route_info: dict | None = None)
     assert dense_set == sparse_set, (
         f"RRF universe mismatch: dense={len(dense_set)} sparse={len(sparse_set)}")
     universe = dense_set
-    n = len(universe)
 
-    # ---- dense ranking (cosine over the universe) ----
+    row_of = {cid: i for i, cid in enumerate(chunk_ids)}
     dsims = mat @ qv
+    dense_cos = {cid: float(dsims[row_of[cid]]) for cid in universe}
     dense_rows = sorted(dense_idx, key=lambda i: -dsims[i])
     dense_rank = {chunk_ids[i]: r for r, i in enumerate(dense_rows, start=1)}
-    # ---- sparse ranking (only matched chunks, bm25 > 0) ----
     sparse_rank = {cid: r for r, (cid, sc) in enumerate(
         [(c, s) for c, s in sparse_ranked if s > 0], start=1)}
 
-    # ---- RRF fuse ----
     K = config.RRF_K
     rrf = {}
     for cid in universe:
@@ -138,52 +136,76 @@ def retrieve(query: str, allowlist_doc_ids: set, route_info: dict | None = None)
         rrf[cid] = s
     rmax, rmin = max(rrf.values()), min(rrf.values())
     passage_sim = {cid: (rrf[cid] - rmin) / (rmax - rmin) if rmax > rmin else 1.0
-                   for cid in universe}   # normalise so it's the primary signal
+                   for cid in universe}
 
-    # ---- topic_affinity = relevance · (chunk→centroid sims). Global fallback:
-    #      a weak/out-of-scope prior contributes no bias (uniform). ----
     relevance = route_info["relevance"]
     if not route_info["in_scope"]:
         relevance = np.full_like(relevance, 1.0 / len(relevance))   # global fallback
-    row_of = {cid: i for i, cid in enumerate(chunk_ids)}
     affinity = {cid: float(chunk_cen_sims[row_of[cid]] @ relevance) for cid in universe}
-
     lam = config.LAMBDA
     score = {cid: passage_sim[cid] + lam * affinity[cid] for cid in universe}
 
-    # ---- [W2.x-TOPP] nucleus (top-p) cutoff on the NORMALIZED fused score ----
-    # RRF/fused scores are not probabilities, so "0.95" is meaningless until we
-    # normalize: divide the fused relevance (passage_sim + LAMBDA·affinity) by its
-    # sum over the ranked candidate universe (negatives clipped to 0 so the mass
-    # is valid). Then keep chunks in rank order until cumulative mass reaches
-    # RETRIEVAL_TOP_P — INCLUDING the chunk that crosses it. Floor at
-    # RETRIEVAL_MIN_K. MAX_K no longer caps selection (top-p decides the count).
-    ranked = sorted(universe, key=lambda c: -score[c])
-    mass = np.array([score[c] if score[c] > 0.0 else 0.0 for c in ranked], dtype=np.float64)
-    ssum = float(mass.sum())
-    norm = (mass / ssum) if ssum > 0.0 else np.full(len(ranked), 1.0 / max(len(ranked), 1))
-    kept, cum = [], 0.0
-    for c, m in zip(ranked, norm):
-        kept.append(c)
-        cum += float(m)
-        if cum >= config.RETRIEVAL_TOP_P:
-            break
-    floor_hit = len(kept) < config.RETRIEVAL_MIN_K
-    if floor_hit:
-        kept = ranked[:config.RETRIEVAL_MIN_K]
+    return {"universe": universe, "score": score, "dense_cos": dense_cos,
+            "passage_sim": passage_sim, "affinity": affinity,
+            "dense_rank": dense_rank, "sparse_rank": sparse_rank,
+            "dense_set": dense_set, "sparse_set": sparse_set, "route_info": route_info}
 
+
+def select_nucleus(su: dict, basis: str | None = None, temp: float | None = None,
+                   top_p: float | None = None, min_k: int | None = None) -> dict:
+    """Top-p (nucleus) selection over a chosen score basis. Returns ranked order,
+    kept chunk_ids, cumulative mass, floor flag, and the normalized masses."""
+    basis = config.RETRIEVAL_TOP_P_BASIS if basis is None else basis
+    temp = config.RETRIEVAL_SOFTMAX_TEMP if temp is None else temp
+    top_p = config.RETRIEVAL_TOP_P if top_p is None else top_p
+    min_k = config.RETRIEVAL_MIN_K if min_k is None else min_k
+    universe, score, dcos = su["universe"], su["score"], su["dense_cos"]
+
+    if basis == "cosine":
+        ranked = sorted(universe, key=lambda c: -dcos[c])
+        norm = _softmax(np.array([dcos[c] for c in ranked]), temp)     # real peak
+    elif basis == "softmax_temp":
+        ranked = sorted(universe, key=lambda c: -score[c])
+        norm = _softmax(np.array([score[c] for c in ranked]), temp)    # sharpen fused
+    else:  # rrf_flat (degenerate baseline)
+        ranked = sorted(universe, key=lambda c: -score[c])
+        m = np.array([score[c] if score[c] > 0.0 else 0.0 for c in ranked], dtype=np.float64)
+        s = float(m.sum())
+        norm = (m / s) if s > 0.0 else np.full(len(ranked), 1.0 / max(len(ranked), 1))
+
+    kept, cum = [], 0.0
+    for c, mv in zip(ranked, norm):
+        kept.append(c); cum += float(mv)
+        if cum >= top_p:
+            break
+    floor_hit = len(kept) < min_k
+    if floor_hit:
+        kept = ranked[:min_k]
+    return {"ranked": ranked, "kept": kept, "cum_mass": cum, "floor_hit": floor_hit,
+            "norm_of": dict(zip(ranked, (float(x) for x in norm))), "basis": basis, "temp": temp}
+
+
+def retrieve(query: str, allowlist_doc_ids: set, route_info: dict | None = None) -> dict:
+    """Hybrid dense+sparse RRF over ONE universe, biased by the soft prior, cut by
+    a config-driven top-p nucleus (W2.x-TOPP-2). Returns selected chunks + diag."""
+    su = _score_universe(query, allowlist_doc_ids, route_info)
+    nuc = select_nucleus(su)
+    universe, score, passage_sim, affinity = su["universe"], su["score"], su["passage_sim"], su["affinity"]
+    dense_rank, sparse_rank, norm_of = su["dense_rank"], su["sparse_rank"], nuc["norm_of"]
+    kept = nuc["kept"]
     return {
-        "universe_size": n, "dense_n": len(dense_set), "sparse_n": len(sparse_set),
-        "aligned": dense_set == sparse_set,
-        "cutoff": {"mechanism": "top_p", "top_p": config.RETRIEVAL_TOP_P,
-                   "cum_mass": round(cum, 4), "n_kept": len(kept),
-                   "min_k_floor": config.RETRIEVAL_MIN_K, "min_k_floor_hit": floor_hit},
+        "universe_size": len(universe), "dense_n": len(su["dense_set"]),
+        "sparse_n": len(su["sparse_set"]), "aligned": su["dense_set"] == su["sparse_set"],
+        "cutoff": {"mechanism": "top_p", "basis": nuc["basis"], "temp": nuc["temp"],
+                   "top_p": config.RETRIEVAL_TOP_P, "cum_mass": round(nuc["cum_mass"], 4),
+                   "n_kept": len(kept), "min_k_floor": config.RETRIEVAL_MIN_K,
+                   "min_k_floor_hit": nuc["floor_hit"]},
         "selected": [(c, round(score[c], 4),
                       {"passage": round(passage_sim[c], 4), "affinity": round(affinity[c], 4),
                        "dense_rank": dense_rank[c], "sparse_rank": sparse_rank.get(c),
-                       "norm_mass": round(float(norm[i]), 5)})
-                     for i, c in enumerate(kept)],
-        "fallback_global": not route_info["in_scope"],
+                       "norm_mass": round(norm_of.get(c, 0.0), 5)})
+                     for c in kept],
+        "fallback_global": not su["route_info"]["in_scope"],
     }
 
 

@@ -113,6 +113,19 @@ MAX_K: int = _env_int("CJ_MAX_K", 12)
 # out of scope here) and both are still logged in baseline snapshots. FLAGGED.
 RETRIEVAL_TOP_P: float = _env_float("CJ_RETRIEVAL_TOP_P", 0.95)
 RETRIEVAL_MIN_K: int = _env_int("CJ_RETRIEVAL_MIN_K", 2)
+# [W2.x-TOPP-2] Which score basis the nucleus accumulates over:
+#   "rrf_flat"     : sum-normalized fused score — DEGENERATE (flat RRF ~753 kept).
+#   "cosine"       : softmax(dense cosine sims / temp) — real peak, but drops the
+#                    sparse/BM25 signal from the RANKING (grounding risk).
+#   "softmax_temp" : softmax(fused score / temp) — keeps the hybrid ranking,
+#                    sharpens the mass so top-p concentrates. DEFAULT.
+RETRIEVAL_TOP_P_BASIS: str = _env_str("CJ_RETRIEVAL_TOP_P_BASIS", "softmax_temp")
+# Temperature for the "cosine"/"softmax_temp" bases (lower = sharper nucleus).
+# 0.06 chosen from a sweep over the frozen 40: median 9 chunks (vs flat 12),
+# spread 2-17 (real per-query adaptation), 0 grounding losses. The task's
+# suggested {0.5,0.3,0.1} do NOT concentrate below 12 (median 768/745/74);
+# "cosine" basis fails entirely (bge cosines compressed -> ~718 even at 0.1).
+RETRIEVAL_SOFTMAX_TEMP: float = _env_float("CJ_RETRIEVAL_SOFTMAX_TEMP", 0.06)
 
 
 # ===========================================================================
@@ -254,10 +267,11 @@ COMPOSER_FALLBACK_MESSAGE: str = _env_str(
 # corpus per-doc enrichment (signature_phrases, stances, decision_framework_
 # signals, target_audience, register_markers, one_paragraph_summary) is
 # DIAGNOSTIC-ONLY and is NEVER placed in the payload.
-# COMPOSER_TOP_K — chunks passed to the composer. DEFAULT = MAX_K (12), i.e.
-# behavior-preserving (the retrieval cutoff returns MAX_K today); slimming is
-# opt-in by lowering it. Grounding-safe floor: the worst first-grounded rank
-# over the frozen set is 5 (E28 -> CE007), so >=6 preserves all grounding docs.
+# COMPOSER_TOP_K — [W2.x-TOPP-2] now a CEILING on the top-p nucleus, not the
+# selector. Retrieval returns an ADAPTIVE nucleus (median ~9, range 2-17 chunks);
+# build_payload sends min(nucleus, COMPOSER_TOP_K). Concentrated queries send
+# FEWER than 12 (cost/TTFT win); diffuse queries are capped at this ceiling so a
+# broad query can't explode the payload. RETRIEVAL_MIN_K is the floor.
 COMPOSER_TOP_K: int = _env_int("CJ_COMPOSER_TOP_K", MAX_K)
 # COMPOSER_CHUNK_CHAR_BUDGET — cap on TOTAL chunk chars in the payload (highest-
 # ranked chunks kept until the budget is hit). 0 = unlimited (behavior-preserving
