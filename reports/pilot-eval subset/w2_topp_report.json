@@ -1,0 +1,568 @@
+{
+  "task": "W2.x-TOPP nucleus retrieval cutoff",
+  "config": {
+    "RETRIEVAL_TOP_P": 0.95,
+    "RETRIEVAL_MIN_K": 2,
+    "normalization": "score_i / sum(max(score,0)) over the ranked candidate universe; score = passage_sim(min-max RRF) + LAMBDA*topic_affinity",
+    "retired_as_selection_gate": [
+      "MAX_K",
+      "MIN_K",
+      "TAU"
+    ],
+    "MAX_K_still_used_by": "COMPOSER_TOP_K default (composer-side, out of scope) + baseline snapshots"
+  },
+  "frozen_set_sha256": "65492b65...",
+  "n_queries": 40,
+  "grounding_guard": {
+    "losses": [],
+    "PASS": true
+  },
+  "distribution_chunks_kept": {
+    "min": 742,
+    "median": 755,
+    "max": 759,
+    "mean": 753.25,
+    "min_k_floor_hits": 0,
+    "old_flat": 12
+  },
+  "per_query": [
+    {
+      "qid": "A1",
+      "type": "def",
+      "theme": "A",
+      "n_kept": 755,
+      "cum_mass": 0.9502,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "A2",
+      "type": "doc",
+      "theme": "A",
+      "n_kept": 756,
+      "cum_mass": 0.9507,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "A3",
+      "type": "case",
+      "theme": "A",
+      "n_kept": 756,
+      "cum_mass": 0.9503,
+      "floor_hit": false,
+      "exp": [
+        "CA242"
+      ],
+      "exp_in_kept": [
+        "CA242"
+      ],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "A4",
+      "type": "stance",
+      "theme": "A",
+      "n_kept": 742,
+      "cum_mass": 0.9505,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "A5",
+      "type": "doc",
+      "theme": "A",
+      "n_kept": 757,
+      "cum_mass": 0.9503,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "A6",
+      "type": "def",
+      "theme": "A",
+      "n_kept": 757,
+      "cum_mass": 0.9507,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "B7",
+      "type": "doc",
+      "theme": "B",
+      "n_kept": 756,
+      "cum_mass": 0.9503,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "B8",
+      "type": "doc",
+      "theme": "B",
+      "n_kept": 744,
+      "cum_mass": 0.9503,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "B9",
+      "type": "doc",
+      "theme": "B",
+      "n_kept": 756,
+      "cum_mass": 0.95,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "B10",
+      "type": "def",
+      "theme": "B",
+      "n_kept": 759,
+      "cum_mass": 0.9503,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "B11",
+      "type": "stance",
+      "theme": "B",
+      "n_kept": 746,
+      "cum_mass": 0.9505,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "B12",
+      "type": "multi",
+      "theme": "B",
+      "n_kept": 751,
+      "cum_mass": 0.95,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "C13",
+      "type": "stance",
+      "theme": "C",
+      "n_kept": 753,
+      "cum_mass": 0.9504,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "C14",
+      "type": "stance",
+      "theme": "C",
+      "n_kept": 744,
+      "cum_mass": 0.9501,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "C15",
+      "type": "doc",
+      "theme": "C",
+      "n_kept": 755,
+      "cum_mass": 0.9505,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "C16",
+      "type": "stance",
+      "theme": "C",
+      "n_kept": 746,
+      "cum_mass": 0.9505,
+      "floor_hit": false,
+      "exp": [
+        "CC001"
+      ],
+      "exp_in_kept": [
+        "CC001"
+      ],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "C17",
+      "type": "stance",
+      "theme": "C",
+      "n_kept": 750,
+      "cum_mass": 0.9504,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "C18",
+      "type": "stance",
+      "theme": "C",
+      "n_kept": 754,
+      "cum_mass": 0.9504,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "D19",
+      "type": "def",
+      "theme": "D",
+      "n_kept": 757,
+      "cum_mass": 0.9505,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "D20",
+      "type": "def",
+      "theme": "D",
+      "n_kept": 753,
+      "cum_mass": 0.9507,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "D21",
+      "type": "orphan",
+      "theme": "D",
+      "n_kept": 759,
+      "cum_mass": 0.9508,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "D22",
+      "type": "doc",
+      "theme": "D",
+      "n_kept": 755,
+      "cum_mass": 0.9505,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "D23",
+      "type": "def",
+      "theme": "D",
+      "n_kept": 757,
+      "cum_mass": 0.9502,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "D24",
+      "type": "stance",
+      "theme": "D",
+      "n_kept": 755,
+      "cum_mass": 0.9502,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "E25",
+      "type": "def",
+      "theme": "E",
+      "n_kept": 756,
+      "cum_mass": 0.9504,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "E26",
+      "type": "stance",
+      "theme": "E",
+      "n_kept": 756,
+      "cum_mass": 0.95,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "E27",
+      "type": "doc",
+      "theme": "E",
+      "n_kept": 749,
+      "cum_mass": 0.9502,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "E28",
+      "type": "case",
+      "theme": "E",
+      "n_kept": 757,
+      "cum_mass": 0.9505,
+      "floor_hit": false,
+      "exp": [
+        "CE007"
+      ],
+      "exp_in_kept": [
+        "CE007"
+      ],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "E29",
+      "type": "case",
+      "theme": "E",
+      "n_kept": 758,
+      "cum_mass": 0.9504,
+      "floor_hit": false,
+      "exp": [
+        "CA034"
+      ],
+      "exp_in_kept": [
+        "CA034"
+      ],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "E30",
+      "type": "doc",
+      "theme": "E",
+      "n_kept": 747,
+      "cum_mass": 0.9501,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "X31",
+      "type": "id",
+      "theme": "X",
+      "n_kept": 745,
+      "cum_mass": 0.9501,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "X32",
+      "type": "id",
+      "theme": "X",
+      "n_kept": 747,
+      "cum_mass": 0.95,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "X33",
+      "type": "multi",
+      "theme": "X",
+      "n_kept": 756,
+      "cum_mass": 0.9504,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "X34",
+      "type": "date",
+      "theme": "X",
+      "n_kept": 757,
+      "cum_mass": 0.9505,
+      "floor_hit": false,
+      "exp": [
+        "CA009",
+        "CA010"
+      ],
+      "exp_in_kept": [
+        "CA009",
+        "CA010"
+      ],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "X35",
+      "type": "oos",
+      "theme": "X",
+      "n_kept": 758,
+      "cum_mass": 0.9505,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "X36",
+      "type": "oos",
+      "theme": "X",
+      "n_kept": 758,
+      "cum_mass": 0.9507,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "X37",
+      "type": "multi",
+      "theme": "X",
+      "n_kept": 756,
+      "cum_mass": 0.9501,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "X38",
+      "type": "multi",
+      "theme": "X",
+      "n_kept": 749,
+      "cum_mass": 0.9504,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "X39",
+      "type": "orphan",
+      "theme": "X",
+      "n_kept": 755,
+      "cum_mass": 0.9505,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    },
+    {
+      "qid": "X40",
+      "type": "persona",
+      "theme": "X",
+      "n_kept": 753,
+      "cum_mass": 0.95,
+      "floor_hit": false,
+      "exp": [],
+      "exp_in_kept": [],
+      "lost": [],
+      "llm_pre": 0
+    }
+  ],
+  "llm_calls_before_composition_all_zero": true,
+  "mass_concentration_diagnostic": {
+    "pct_of_normalized_mass_held_by_top_k": {
+      "top_2": 0.79,
+      "top_6": 2.22,
+      "top_12": 4.15
+    },
+    "chunks_to_reach_cumulative_mass": {
+      "50pct_median": 280,
+      "90pct_median": 691,
+      "95pct_median": 755
+    },
+    "interpretation": "RRF fused scores are near-uniform (top-12 holds only ~4.15% of mass). Sum-1 normalization over the full candidate universe therefore spreads mass thinly, so p=0.95 walks ~753/827 chunks for EVERY query."
+  },
+  "FINDING": {
+    "headline": "TOP-P AS SPECIFIED IS DEGENERATE on this pipeline: keeps ~753/827 chunks (median 755), not an adaptive nucleus. It does NOT concentrate or adapt to query diffuseness.",
+    "root_cause": "RRF (rank-based, K=60) produces a deliberately FLAT score distribution; normalizing those scores to sum-1 over the full universe cannot put 95% of mass in a few chunks.",
+    "grounding": "PASS trivially (everything is kept) — grounding is NOT the problem.",
+    "behavior_change_flagged": [
+      "retrieval.selected grows 12 -> ~753 tuples",
+      "service.answer envelope selected_chunk_ids/scores bloat to ~753 entries",
+      "COMPOSITION UNCHANGED: service.build_payload still caps at COMPOSER_TOP_K=MAX_K=12, so the composed answer/cost/TTFA are unaffected (composer sees the same top-12 by score)"
+    ],
+    "retired_selection_gates": [
+      "MAX_K",
+      "MIN_K",
+      "TAU (score>=TAU*top no longer used)"
+    ],
+    "options_for_review_NOT_applied": [
+      "Concentrate scores before top-p (e.g. softmax with low temperature, or use dense COSINE sims which have a real peak, instead of flat RRF ranks)",
+      "Normalize over a small pre-filtered candidate POOL (e.g. dense/sparse top-N) not all 827",
+      "Use a much smaller p (top-12 ~= p 0.04 here) — but that is just top-k in disguise",
+      "Keep top-k/MAX_K if flat-RRF top-p cannot be made meaningful"
+    ],
+    "action": "FLAGGED for tech-lead decision. Per instructions: did NOT auto-adjust p or the normalization. arch-baseline tag UNTOUCHED (re-baseline is a later task)."
+  }
+}

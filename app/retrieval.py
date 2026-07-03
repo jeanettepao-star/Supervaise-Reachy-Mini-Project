@@ -7,8 +7,10 @@ into a single config-driven path:
   embed query (resident bge, GPU) ──▶ soft-prior router (cosine vs 34 centroids
   ──softmax──▶ relevance; OUT_OF_SCOPE_THRESHOLD decides in/out — BIASES, never
   GATES) ──▶ hybrid retrieve (dense + BM25 over the SAME pilot universe, RRF
-  fused) ──▶ score = passage_sim + LAMBDA·topic_affinity ──▶ dynamic cutoff
-  (score ≥ TAU·top_score, bounded MIN_K..MAX_K).
+  fused) ──▶ score = passage_sim + LAMBDA·topic_affinity ──▶ [W2.x-TOPP] top-p
+  (nucleus) cutoff: keep chunks in rank order until the NORMALIZED fused mass
+  reaches RETRIEVAL_TOP_P (floor RETRIEVAL_MIN_K). Supersedes the old top-k/MAX_K
+  cap; TAU is no longer used for selection.
 
 Every knob is read from config.py. A weak/empty prior falls through to global
 retrieval within the universe (the orphaned-content guard — GC006 pattern).
@@ -149,20 +151,38 @@ def retrieve(query: str, allowlist_doc_ids: set, route_info: dict | None = None)
     lam = config.LAMBDA
     score = {cid: passage_sim[cid] + lam * affinity[cid] for cid in universe}
 
-    # ---- dynamic cutoff: keep score >= TAU·top, bounded MIN_K..MAX_K ----
+    # ---- [W2.x-TOPP] nucleus (top-p) cutoff on the NORMALIZED fused score ----
+    # RRF/fused scores are not probabilities, so "0.95" is meaningless until we
+    # normalize: divide the fused relevance (passage_sim + LAMBDA·affinity) by its
+    # sum over the ranked candidate universe (negatives clipped to 0 so the mass
+    # is valid). Then keep chunks in rank order until cumulative mass reaches
+    # RETRIEVAL_TOP_P — INCLUDING the chunk that crosses it. Floor at
+    # RETRIEVAL_MIN_K. MAX_K no longer caps selection (top-p decides the count).
     ranked = sorted(universe, key=lambda c: -score[c])
-    top = score[ranked[0]]
-    kept = [c for c in ranked if score[c] >= config.TAU * top]
-    kept = ranked[:config.MIN_K] if len(kept) < config.MIN_K else kept
-    kept = kept[:config.MAX_K]
+    mass = np.array([score[c] if score[c] > 0.0 else 0.0 for c in ranked], dtype=np.float64)
+    ssum = float(mass.sum())
+    norm = (mass / ssum) if ssum > 0.0 else np.full(len(ranked), 1.0 / max(len(ranked), 1))
+    kept, cum = [], 0.0
+    for c, m in zip(ranked, norm):
+        kept.append(c)
+        cum += float(m)
+        if cum >= config.RETRIEVAL_TOP_P:
+            break
+    floor_hit = len(kept) < config.RETRIEVAL_MIN_K
+    if floor_hit:
+        kept = ranked[:config.RETRIEVAL_MIN_K]
 
     return {
         "universe_size": n, "dense_n": len(dense_set), "sparse_n": len(sparse_set),
         "aligned": dense_set == sparse_set,
+        "cutoff": {"mechanism": "top_p", "top_p": config.RETRIEVAL_TOP_P,
+                   "cum_mass": round(cum, 4), "n_kept": len(kept),
+                   "min_k_floor": config.RETRIEVAL_MIN_K, "min_k_floor_hit": floor_hit},
         "selected": [(c, round(score[c], 4),
                       {"passage": round(passage_sim[c], 4), "affinity": round(affinity[c], 4),
-                       "dense_rank": dense_rank[c], "sparse_rank": sparse_rank.get(c)})
-                     for c in kept],
+                       "dense_rank": dense_rank[c], "sparse_rank": sparse_rank.get(c),
+                       "norm_mass": round(float(norm[i]), 5)})
+                     for i, c in enumerate(kept)],
         "fallback_global": not route_info["in_scope"],
     }
 

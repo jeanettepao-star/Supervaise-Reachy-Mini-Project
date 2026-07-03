@@ -102,6 +102,17 @@ MIN_K: int = _env_int("CJ_MIN_K", 3)
 # Ceiling on chunks kept regardless of TAU — hard cap on context size
 # (caps cost/latency; too low ↓recall on broad questions).
 MAX_K: int = _env_int("CJ_MAX_K", 12)
+# ---------------------------------------------------------------------------
+# [W2.x-TOPP] Nucleus (top-p) selection cutoff — SUPERSEDES the top-k/MAX_K cap
+# as the retrieval selection mechanism. Accumulate RRF-fused chunks in rank order
+# until their NORMALIZED relevance mass reaches RETRIEVAL_TOP_P, then stop
+# (include the chunk that crosses p). Diffuse queries keep more chunks;
+# concentrated queries keep fewer. RETRIEVAL_MIN_K is a floor so a payload is
+# never empty/1-chunk. NOTE: MAX_K / MIN_K no longer gate retrieval selection —
+# but MAX_K is still the DEFAULT for COMPOSER_TOP_K (a composer-side cap, W2.2,
+# out of scope here) and both are still logged in baseline snapshots. FLAGGED.
+RETRIEVAL_TOP_P: float = _env_float("CJ_RETRIEVAL_TOP_P", 0.95)
+RETRIEVAL_MIN_K: int = _env_int("CJ_RETRIEVAL_MIN_K", 2)
 
 
 # ===========================================================================
