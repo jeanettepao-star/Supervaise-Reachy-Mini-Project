@@ -1,0 +1,2460 @@
+{
+  "anchor": "arch-baseline-v2 (adaptive top-p softmax_temp/0.06 MIN_K=4 + streamed composer 640)",
+  "NOT_comparable_to_v1_on_composer_axis": "retrieval (flat12->adaptive nucleus) AND composer (MAX_TOKENS 300->640, +directives, streamed) both changed; v2 is the new comparator.",
+  "frozen_set_sha256": "65492b650aec8dda5e76be21c32aaae3faf61f9663c6c58ace02b5a6c4bc9a63",
+  "n_queries": 40,
+  "n_measured": 40,
+  "n_degraded": 0,
+  "transport": "native_sdk",
+  "embed_device": "cuda",
+  "config_snapshot": {
+    "RETRIEVAL_TOP_P_BASIS": "softmax_temp",
+    "RETRIEVAL_SOFTMAX_TEMP": 0.06,
+    "RETRIEVAL_TOP_P": 0.95,
+    "RETRIEVAL_MIN_K": 4,
+    "COMPOSER_TOP_K_ceiling": 12,
+    "COMPOSER_MAX_TOKENS": 640,
+    "COMPOSER_MODEL_ID": "claude-sonnet-4-6",
+    "LAMBDA": 0.25,
+    "RRF_K": 60,
+    "OUT_OF_SCOPE_THRESHOLD": 0.15,
+    "TOPIC_SOFTMAX_TEMPERATURE": 0.7
+  },
+  "stages_p50_p95_ms": {
+    "input_gate_ms": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "router_ms": {
+      "p50": 164.7,
+      "p95": 174.1
+    },
+    "retrieval_ms": {
+      "p50": 81.0,
+      "p95": 121.2
+    },
+    "composer_ms": {
+      "p50": 10442.8,
+      "p95": 12142.1
+    },
+    "composer_ttft_ms": {
+      "p50": 1533.2,
+      "p95": 2617.0
+    },
+    "total_ms": {
+      "p50": 10682.5,
+      "p95": 12403.5
+    }
+  },
+  "ttft_ms": {
+    "p50": 1533.2,
+    "p95": 2617.0
+  },
+  "total_e2e_ms": {
+    "p50": 10682.5,
+    "p95": 12403.5
+  },
+  "chunks_sent": {
+    "mean": 8.57,
+    "p50": 9.0,
+    "min": 4,
+    "max": 12,
+    "old_flat": 12
+  },
+  "nucleus_size_mean": 9.1,
+  "cost_per_query_usd": {
+    "mean_cached": 0.015495,
+    "mean_uncached_equiv": 0.027904
+  },
+  "total_run_cost_usd_cached": 0.619817,
+  "cold_start": {
+    "model_cold_load_ms": 31164.6,
+    "first_call_total_ms_incl_connection": 11073.7,
+    "note": "EXCLUDED from warmed p50/p95."
+  },
+  "verify": {
+    "llm_calls_before_composition_all_zero": true,
+    "in_scope_count": 40,
+    "out_of_scope_count": 0,
+    "parity_A1": {
+      "routed_topic": "rule_of_law",
+      "routed_cos": 0.7465,
+      "universe": 827,
+      "aligned": true
+    },
+    "answer_text_persisted": "40/40"
+  },
+  "run_timestamp": "2026-07-04T05:47:50+08:00",
+  "queries": [
+    {
+      "qid": "A1",
+      "qtype": "def",
+      "qtheme": "A",
+      "query": "What does the rule of law actually mean?",
+      "input_gate_ms": 0.02,
+      "router_ms": 162.8,
+      "retrieval_ms": 68.1,
+      "composer_ms": 10697.4,
+      "composer_ttft_ms": 1149.0,
+      "total_ms": 10928.3,
+      "nucleus_size": 5,
+      "chunks_sent": 5,
+      "retrieved_chunk_ids": [
+        "CA031::c000",
+        "SB028::c004",
+        "CA031::c003",
+        "CA031::c002",
+        "SB028::c011"
+      ],
+      "routed_topic": "rule_of_law",
+      "routed_theme_cos": 0.7465,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 1761,
+        "output": 379,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.012347,
+      "cost_uncached_equiv_usd": 0.024756,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "The rule of law, in my humble opinion, means simply this: that power is governed by law, not the other way around. Not by men, not by mobs, not by those with the loudest voice or the sharpest sword — but by law, applied evenhandedly to the powerful and the powerless alike.\n\nSouth Korea showed us this vividly. When martial law was unlawfully declared in late 2024, it was the rule of law — and a generation of citizens who understood it — that pulled democracy back from the brink. A true democracy cannot be ruled by men, but by laws. That is the lesson, learned the hard way by both our peoples.\n\nBut the rule of law is not merely a restraint on tyranny. It is also the foundation of prosperity. As I have said to CPAs, CFOs, and CEOs: judicial credibility reinforces investor confidence, and development that neglects justice becomes brittle. Liberty and prosperity — those twin beacons — are best safeguarded when the rule of law governs power.\n\n*Pacta sunt servanda* — agreements must be kept. That principle binds nations to treaties and states to their own people. The rule of law, at its core, is that binding commitment made real.",
+      "envelope": {
+        "doc_ids_cited": [
+          "CA031",
+          "SB028"
+        ],
+        "register_used": "ceremonial_doctrinal",
+        "anecdotes_deployed": [
+          "South Korea martial law crisis and democratic recovery"
+        ],
+        "signature_phrases_used": [
+          "in my humble opinion",
+          "twin beacons",
+          "liberty and prosperity",
+          "power is governed by law not the other way around",
+          "pacta sunt servanda",
+          "development that neglects justice becomes brittle"
+        ]
+      }
+    },
+    {
+      "qid": "A2",
+      "qtype": "doc",
+      "qtheme": "A",
+      "query": "Why is an independent judiciary important in a democracy?",
+      "input_gate_ms": 0.01,
+      "router_ms": 162.1,
+      "retrieval_ms": 94.4,
+      "composer_ms": 10614.2,
+      "composer_ttft_ms": 2320.2,
+      "total_ms": 10870.7,
+      "nucleus_size": 11,
+      "chunks_sent": 11,
+      "retrieved_chunk_ids": [
+        "SB065::c005",
+        "BD002::c005",
+        "SB065::c002",
+        "CA031::c000",
+        "BD001::c001",
+        "BD005::c000",
+        "BD003::c001",
+        "CC006::c006",
+        "BD002::c004",
+        "BD003::c005",
+        "CA127::c002"
+      ],
+      "routed_topic": "judicial_activism_and_political_question",
+      "routed_theme_cos": 0.6681,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 3652,
+        "output": 349,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.01757,
+      "cost_uncached_equiv_usd": 0.029979,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "In a constitutional democracy such as ours, political issues are settled by majoritarian ways — but legal questions are decided by unelected judges applying relevant laws to proven facts. When a court upholds the rights of a single citizen against the whole government, the winner becomes, in effect, a majority of one. That awesome power exists precisely to protect the minority from the tyranny of the majority.\n\nCitizens obey judicial verdicts not merely because the Constitution grants judges authority, but because of their implicit trust in the wisdom and fairness of those decisions. That trust, once lost, is nearly impossible to recover. This is why magistrates must possess what I have long called the four Ins — independence, integrity, industry, and intelligence — and must be impervious to the plague of ships: kinship, relationship, friendship, and fellowship.\n\nIn my humble opinion, the Supreme Court is the last bulwark of democracy. Liberty and prosperity — those twin and inseparable beacons — can flourish only when the rule of law prevails, and the rule of law prevails only when the judiciary stands truly independent. One is useless without the other.",
+      "envelope": {
+        "doc_ids_cited": [
+          "BD005",
+          "BD002",
+          "CC006"
+        ],
+        "register_used": "ceremonial_doctrinal",
+        "anecdotes_deployed": [],
+        "signature_phrases_used": [
+          "four Ins",
+          "plague of ships",
+          "in my humble opinion",
+          "twin and inseparable beacons",
+          "last bulwark of democracy",
+          "liberty and prosperity",
+          "one is useless without the other",
+          "majority of one"
+        ]
+      }
+    },
+    {
+      "qid": "A3",
+      "qtype": "case",
+      "qtheme": "A",
+      "query": "What did the courts decide about the right to be forgotten?",
+      "input_gate_ms": 0.02,
+      "router_ms": 167.4,
+      "retrieval_ms": 95.0,
+      "composer_ms": 9906.8,
+      "composer_ttft_ms": 1159.2,
+      "total_ms": 10169.2,
+      "nucleus_size": 7,
+      "chunks_sent": 7,
+      "retrieved_chunk_ids": [
+        "CA242::c000",
+        "CA242::c004",
+        "CA242::c003",
+        "CA242::c001",
+        "CA242::c002",
+        "BD003::c000",
+        "BD001::c001"
+      ],
+      "routed_topic": "due_process",
+      "routed_theme_cos": 0.6526,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 2287,
+        "output": 353,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.013535,
+      "cost_uncached_equiv_usd": 0.025944,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "The right to be forgotten — or as I prefer to call it, the right to have an imperfect past — was most prominently articulated by the Court of Justice of the European Union in the 2014 case of *Google Spain SL v. Agencia Española de Protección de Datos*. That court held that individuals may compel search engines to remove links containing \"inadequate, irrelevant, or excessive\" personal data.\n\nBut the right is older than that ruling. Justice Louis Brandeis recognized something closely akin to it — \"the right to be left alone\" — in his 1928 dissent in *Olmstead v. United States*. And our own Supreme Court, in the 1968 case of *Morfe v. Mutuc*, declared the right to privacy \"fully deserving of constitutional protection.\"\n\nIn my humble opinion, the Philippines is actually more advanced in this area than many assume. We promulgated the writ of habeas data in 2008, and Congress enacted the Data Privacy Act in 2012 — giving teeth to what courts had long recognized in principle.\n\nThe rule of law works precisely this way: rights declared by courts find shelter in legislation, and legislation empowers institutions to enforce them. Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "CA242"
+        ],
+        "register_used": "ceremonial_doctrinal",
+        "anecdotes_deployed": [],
+        "signature_phrases_used": [
+          "the right to be forgotten",
+          "right to have an imperfect past",
+          "in my humble opinion",
+          "the rule of law"
+        ]
+      }
+    },
+    {
+      "qid": "A4",
+      "qtype": "stance",
+      "qtheme": "A",
+      "query": "What is your view on judicial activism?",
+      "input_gate_ms": 0.01,
+      "router_ms": 160.6,
+      "retrieval_ms": 66.9,
+      "composer_ms": 11804.2,
+      "composer_ttft_ms": 2090.4,
+      "total_ms": 12031.7,
+      "nucleus_size": 17,
+      "chunks_sent": 12,
+      "retrieved_chunk_ids": [
+        "CE003::c006",
+        "SA049::c002",
+        "CE003::c002",
+        "CA377::c003",
+        "SE036::c004",
+        "SD035::c000",
+        "CA377::c006",
+        "CA095::c000",
+        "SB040::c006",
+        "SB065::c000",
+        "CE008::c001",
+        "SA011::c000",
+        "CA031::c000",
+        "SA011::c001",
+        "SA011::c005",
+        "BE002::c000",
+        "SA049::c003"
+      ],
+      "routed_topic": "judicial_activism_and_political_question",
+      "routed_theme_cos": 0.7592,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 3968,
+        "output": 388,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.019103,
+      "cost_uncached_equiv_usd": 0.031512,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "Judicial activism is one of those terms that partisans on both sides wield like a club, when in truth it describes a genuine tension at the heart of constitutional adjudication.\n\nAs I noted in discussing the US Supreme Court's same-sex marriage ruling in *Obergefell*, the conservative wing — Roberts, Scalia, Thomas, Alito — believes the Constitution must be interpreted according to the original intent of its framers, with courts exercising restraint and deferring to elected officials. The liberal wing — Breyer, Ginsburg, Sotomayor, Kagan — believes the Charter must be read to solve present problems, even if that means fashioning new rights. Neither posture is inherently corrupt; both reflect sincere jurisprudential philosophy.\n\nIn my humble opinion, the danger lies at the extremes. A court that never moves becomes a museum piece, incapable of protecting rights the framers could not have foreseen. But a court that moves too freely risks substituting its own preferences for the democratic will — which is precisely what the dissents in *Obergefell* warned against.\n\nThe wiser path, I have always believed, is what I would call *equilibrium with momentum* — anchored in the text and structure of the Constitution, yet alive to the living needs of the people, especially those who have less in life and must look to the law for more.\n\nCheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "CA377",
+          "SB040"
+        ],
+        "register_used": "ceremonial_doctrinal",
+        "anecdotes_deployed": [],
+        "signature_phrases_used": [
+          "in my humble opinion",
+          "those who have less in life should have more in law",
+          "equilibrium with momentum"
+        ]
+      }
+    },
+    {
+      "qid": "A5",
+      "qtype": "doc",
+      "qtheme": "A",
+      "query": "How can the Philippine judiciary be reformed?",
+      "input_gate_ms": 0.01,
+      "router_ms": 162.9,
+      "retrieval_ms": 71.7,
+      "composer_ms": 11952.2,
+      "composer_ttft_ms": 1371.4,
+      "total_ms": 12186.8,
+      "nucleus_size": 4,
+      "chunks_sent": 4,
+      "retrieved_chunk_ids": [
+        "CA095::c000",
+        "BE003::c002",
+        "BE003::c001",
+        "BE001::c005"
+      ],
+      "routed_topic": "judicial_reform",
+      "routed_theme_cos": 0.7419,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 1446,
+        "output": 401,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.011732,
+      "cost_uncached_equiv_usd": 0.024141,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "The judiciary, in my humble opinion, is one of those institutions — like the Church and the military — that resists full democratization by its very nature. It is bound by traditions, precedents, meritocracy, and seniority. That conservatism is both its strength and its vulnerability.\n\nReform, therefore, must work *with* those traditions, not against them. Two paths commend themselves from what I have observed.\n\nFirst, technology. I was pleasantly surprised — and genuinely encouraged — when Chief Justice Gesmundo challenged the judiciary to \"turn tech for good and move from problem to solution.\" Artificial intelligence, properly deployed, can enhance the accuracy and efficiency of judicial decisions. The Supreme Court's Strategic Plan for Judicial Innovation 2022–2027 is a serious step in that direction. Magistrates, incumbent or retired, must become fluent in the new language of this age.\n\nSecond, the integrity of appointments. A court packed with compliant justices serves no one — not the appointing power, not the people. As I once wrote, even Marcos's compliant Court ultimately \"aggravated the discontent that eventually toppled and disgraced him.\" Trustworthy, independent appointments are not idealism; they are practical statecraft.\n\nThose who have less in life should have more in law — and that promise is hollow without a judiciary that is both technologically capable and institutionally credible. Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "CA095",
+          "BE001"
+        ],
+        "register_used": "ceremonial_doctrinal",
+        "anecdotes_deployed": [
+          "Marcos compliant Court anecdote",
+          "Gesmundo tech speech"
+        ],
+        "signature_phrases_used": [
+          "in my humble opinion",
+          "those who have less in life should have more in law",
+          "Cheers!"
+        ]
+      }
+    },
+    {
+      "qid": "A6",
+      "qtype": "def",
+      "qtheme": "A",
+      "query": "What is due process, and why does it matter?",
+      "input_gate_ms": 0.02,
+      "router_ms": 161.0,
+      "retrieval_ms": 85.8,
+      "composer_ms": 9485.8,
+      "composer_ttft_ms": 1389.1,
+      "total_ms": 9732.6,
+      "nucleus_size": 12,
+      "chunks_sent": 12,
+      "retrieved_chunk_ids": [
+        "CA004::c002",
+        "CA004::c001",
+        "CA005::c001",
+        "CA330::c000",
+        "CA004::c004",
+        "CA004::c003",
+        "SB028::c004",
+        "CA377::c003",
+        "BA009::c002",
+        "CA330::c002",
+        "CA004::c005",
+        "CA005::c000"
+      ],
+      "routed_topic": "due_process",
+      "routed_theme_cos": 0.7769,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 3878,
+        "output": 374,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.018623,
+      "cost_uncached_equiv_usd": 0.031032,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "Due process is, at its core, the oldest cry of civilized people: *\"Strike, but hear me first!\"* Themistocles said it; Daniel Webster gave it its legal form — a law \"which hears before it condemns, proceeds upon inquiry, and renders judgment only after trial.\" That is not merely a constitutional rule. It is rooted in history and in the people's inherent sense of justice and fair play.\n\nWhy does it matter? Because without it, power becomes arbitrary. The Bill of Rights tells us that no person shall be deprived of life, liberty, or property without due process — and that word *person* extends to the poor, the foreigner, the corporation, the ordinary citizen whose investments, freedom, or reputation hang in the balance.\n\nIn my humble opinion, the great danger of our time is not that due process is too weak, but that its abuses — costly suits, tiring delays, inexplicable technicalities — breed a general revulsion against democratic methods altogether. People, in frustration, turn to extralegal shortcuts. That is precisely the wrong answer. Means are as important as ends. A just result reached unjustly is still a wound to the rule of law.\n\nDue process is the floor beneath every other right. Remove it, and everything else collapses.",
+      "envelope": {
+        "doc_ids_cited": [
+          "CA004",
+          "CA005",
+          "CA330"
+        ],
+        "register_used": "ceremonial_doctrinal",
+        "anecdotes_deployed": [],
+        "signature_phrases_used": [
+          "Strike, but hear me first",
+          "hears before it condemns",
+          "in my humble opinion",
+          "means are as important as ends",
+          "rule of law"
+        ]
+      }
+    },
+    {
+      "qid": "B7",
+      "qtype": "doc",
+      "qtheme": "B",
+      "query": "What is the Liberty and Prosperity doctrine?",
+      "input_gate_ms": 0.02,
+      "router_ms": 163.1,
+      "retrieval_ms": 60.2,
+      "composer_ms": 10599.8,
+      "composer_ttft_ms": 2160.6,
+      "total_ms": 10823.1,
+      "nucleus_size": 9,
+      "chunks_sent": 9,
+      "retrieved_chunk_ids": [
+        "SB040::c002",
+        "SB028::c004",
+        "CB005::c003",
+        "SB040::c011",
+        "SA011::c006",
+        "SB040::c008",
+        "CB005::c004",
+        "SB028::c005",
+        "CB006::c005"
+      ],
+      "routed_topic": "twin_beacons_doctrine",
+      "routed_theme_cos": 0.7163,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 2997,
+        "output": 455,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.017195,
+      "cost_uncached_equiv_usd": 0.029604,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "The Liberty and Prosperity doctrine, in my humble opinion, rests on one simple but profound truth: humans need both justice and jobs; freedom and food; ethics and economics; peace and development; liberty and prosperity. These twin beacons must always go together — one is useless without the other. For what good is freedom of speech when the stomach is empty and the body is mortally sick?\n\nThe doctrine holds that the best way to conquer poverty, create wealth, and share prosperity is to unleash the entrepreneurial genius of people by granting them the freedom and the tools to help themselves and society. This truth, I have always believed, transcends sovereignties, territories, ideologies, and legalities.\n\nCanadian Chief Justice Beverley McLachlin gave the philosophy its fuller name — *\"liberty and prosperity under the rule of law\"* — to stress that the egalitarian goal must be achieved only through libertarian methods. That formulation was adopted in the Manila Declaration at the Global Forum I convened in October 2006.\n\nI founded the Foundation for Liberty and Prosperity in 2011 precisely to institutionalize this philosophy — because our Constitution, born of colonial struggle, tends to treat liberty provisions as mandatory and self-executing, while prosperity provisions remain mostly aspirational. That imbalance, in my humble view, is what the FLP exists to correct. Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "SB040",
+          "SB028",
+          "CB005",
+          "CB006",
+          "SA011"
+        ],
+        "register_used": "case_analytical_with_openers",
+        "anecdotes_deployed": [
+          "Global Forum on Liberty and Prosperity 2006",
+          "CJ McLachlin renaming the philosophy",
+          "FLP founding on 75th birthday"
+        ],
+        "signature_phrases_used": [
+          "justice and jobs; freedom and food; ethics and economics; peace and development; liberty and prosperity",
+          "twin beacons must always go together",
+          "one is useless without the other",
+          "unleash the entrepreneurial genius of people",
+          "in my humble opinion",
+          "Cheers!"
+        ]
+      }
+    },
+    {
+      "qid": "B8",
+      "qtype": "doc",
+      "qtheme": "B",
+      "query": "What did you mean by 'those who have less in life should have more in law'?",
+      "input_gate_ms": 0.03,
+      "router_ms": 171.7,
+      "retrieval_ms": 67.1,
+      "composer_ms": 8315.0,
+      "composer_ttft_ms": 1623.7,
+      "total_ms": 8553.8,
+      "nucleus_size": 4,
+      "chunks_sent": 4,
+      "retrieved_chunk_ids": [
+        "SA011::c001",
+        "SB028::c004",
+        "SE036::c008",
+        "SB028::c005"
+      ],
+      "routed_topic": "twin_beacons_doctrine",
+      "routed_theme_cos": 0.6437,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 1407,
+        "output": 307,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.010205,
+      "cost_uncached_equiv_usd": 0.022614,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "That phrase captures a truth I have carried throughout my judicial life — that the law must compensate for the inequalities that life imposes. The poor, the marginalized, the powerless: they have fewer resources, fewer connections, fewer opportunities. The law must tilt toward them, not to give them something unearned, but to level a field that was never level to begin with.\n\nBut I want to be careful here. Social justice, in my humble opinion, is not about perpetual dependence. As I have said drawing on Confucius — give a man a fish and you feed him for a day; teach him to fish and you feed him for a lifetime. True justice empowers. It grants people the freedom and the tools to help themselves.\n\nThat is precisely why liberty and prosperity must always go together as twin beacons — one is useless without the other. Those who have less in life deserve more in law *and* more in opportunity. Justice without economic enablement is an empty promise. Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "SB028"
+        ],
+        "register_used": "case_analytical_with_openers",
+        "anecdotes_deployed": [
+          "Confucius fisherman adage"
+        ],
+        "signature_phrases_used": [
+          "twin beacons",
+          "one is useless without the other",
+          "liberty and prosperity",
+          "in my humble opinion",
+          "Cheers!"
+        ]
+      }
+    },
+    {
+      "qid": "B9",
+      "qtype": "doc",
+      "qtheme": "B",
+      "query": "How does the law help small entrepreneurs and MSMEs?",
+      "input_gate_ms": 0.02,
+      "router_ms": 167.2,
+      "retrieval_ms": 93.5,
+      "composer_ms": 12122.5,
+      "composer_ttft_ms": 1218.3,
+      "total_ms": 12383.2,
+      "nucleus_size": 9,
+      "chunks_sent": 9,
+      "retrieved_chunk_ids": [
+        "CD003::c002",
+        "CD003::c006",
+        "SD021::c003",
+        "SD009::c005",
+        "CD008::c003",
+        "CD011::c001",
+        "SB028::c005",
+        "SD016::c009",
+        "SB028::c004"
+      ],
+      "routed_topic": "economic_governance_and_business_law",
+      "routed_theme_cos": 0.6107,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 2880,
+        "output": 441,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.016634,
+      "cost_uncached_equiv_usd": 0.029043,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "Knowledge of the law, in my humble opinion, rounds out business thinking in a way no other discipline quite does. It tells the entrepreneur not only what cannot be done — but *how far one can go*. That insight came to me, beautifully, from my grandson Mig Sandejas, who wrote after finishing his law degree at Northwestern: those very words. From that email grew the idea for the Master's in International Business Law at AIM, now a reality.\n\nFor MSMEs specifically, the law provides the scaffolding for confidence. Obligations and contracts, patents, trademarks, data privacy, property rights — these are not esoteric luxuries; they are the tools that allow a small businessperson to sail forward without fear.\n\nAnd beyond knowledge, there is the structural argument: MSMEs thrive under the rule of law because it guarantees that contracts will be honored and rights enforced — regardless of whether you have collateral or connections. Those who have less in life should have more in law.\n\nThat is precisely why FLP's Prosperity Fund aspires to invest in MSME equity and help them become, as I like to say, *credit-worthy and growth-worthy.* Liberty and prosperity, those twin beacons, must always go together. One is useless without the other. Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "CD003",
+          "CD011",
+          "SD021",
+          "CD008",
+          "SD009",
+          "SB028"
+        ],
+        "register_used": "case_analytical_with_openers",
+        "anecdotes_deployed": [
+          "grandson Mig Sandejas MIBL inspiration",
+          "FLP Prosperity Fund for MSMEs"
+        ],
+        "signature_phrases_used": [
+          "knowledge of the law rounds out business thinking",
+          "how far one can go",
+          "credit-worthy and growth-worthy",
+          "those who have less in life should have more in law",
+          "twin beacons",
+          "one is useless without the other",
+          "sail forward without fear"
+        ]
+      }
+    },
+    {
+      "qid": "B10",
+      "qtype": "def",
+      "qtheme": "B",
+      "query": "What is the Prosperity Fund for MSMEs?",
+      "input_gate_ms": 0.01,
+      "router_ms": 164.8,
+      "retrieval_ms": 69.3,
+      "composer_ms": 10018.2,
+      "composer_ttft_ms": 1410.6,
+      "total_ms": 10252.3,
+      "nucleus_size": 9,
+      "chunks_sent": 9,
+      "retrieved_chunk_ids": [
+        "SD009::c005",
+        "CD008::c008",
+        "CD008::c006",
+        "CD008::c003",
+        "SB006::c009",
+        "SD021::c006",
+        "SD016::c011",
+        "SD016::c008",
+        "SD021::c008"
+      ],
+      "routed_topic": "msme_and_entrepreneurship+prosperity_fund_msme",
+      "routed_theme_cos": 0.7462,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 2762,
+        "output": 425,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.01604,
+      "cost_uncached_equiv_usd": 0.028449,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "The Prosperity Fund is, in my humble opinion, one of FLP's two \"ultimate projects\" for our second decade — 2021 to 2031. It is a multi-billion-peso fund aimed at eliminating extreme poverty, not through charity, but by investing in the equity of micro, small, and medium enterprises and helping them with actual management expertise, channeled through our Esmel fellows.\n\nThe key distinction is this: while microfinancing firms lend to the poor, FLP aspires to do something more — to invest in and help *manage* these enterprises, so they become, in our phrase, \"more credit-worthy and growth-worthy.\" We believe in unleashing the entrepreneurial ingenuity of our people as the path to prosperity.\n\nTo put our money where our mouth is, I donated to FLP a family lot in Paseo de Magallanes, Makati — worth over a hundred million pesos — as seed money. Even before the final plans were complete, friends had already pledged twenty-three million pesos. The Fund's Task Force is headed by respected FLP Trustee Amando Tetangco Jr. As our Lord commands: *\"Whatever you do for the least of my brethren, you do unto me.\"* Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "SD016",
+          "SD021",
+          "CD008",
+          "SD009"
+        ],
+        "register_used": "case_analytical_with_openers",
+        "anecdotes_deployed": [
+          "Paseo de Magallanes lot donation as seed money",
+          "23 million pesos pledged by friends",
+          "Tetangco-led Task Force"
+        ],
+        "signature_phrases_used": [
+          "in my humble opinion",
+          "credit-worthy and growth-worthy",
+          "unleashing the entrepreneurial ingenuity",
+          "put our money where our mouth is",
+          "the least, the lost and the last",
+          "Cheers!"
+        ]
+      }
+    },
+    {
+      "qid": "B11",
+      "qtype": "stance",
+      "qtheme": "B",
+      "query": "Why should economic development inform judicial decisions?",
+      "input_gate_ms": 0.01,
+      "router_ms": 162.6,
+      "retrieval_ms": 73.2,
+      "composer_ms": 11883.1,
+      "composer_ttft_ms": 1401.2,
+      "total_ms": 12118.9,
+      "nucleus_size": 8,
+      "chunks_sent": 8,
+      "retrieved_chunk_ids": [
+        "CB005::c000",
+        "CB007::c000",
+        "SB040::c010",
+        "CA031::c002",
+        "CB007::c001",
+        "CB005::c003",
+        "CA095::c004",
+        "CB007::c004"
+      ],
+      "routed_topic": "economic_governance_and_business_law",
+      "routed_theme_cos": 0.7084,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 2796,
+        "output": 449,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.016502,
+      "cost_uncached_equiv_usd": 0.028911,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "Because law and economics, in my humble opinion, are not rival disciplines — they are twin beacons. Justice without jobs, freedom without food, liberty without prosperity: each is incomplete, even illusory. That is the core conviction I brought to the bench across my eleven years on the Court.\n\nMy most important economic ponencia, *Tañada v. Angara*, affirmed our membership in the World Trade Organization against the reigning \"Filipino First\" isolationism of 1997. I began with only three concurrences and had to persuade fourteen others. The resistance was understandable — but the rule of law demanded that we embrace the realities of globalization, liberalization, and privatization, because prosperity for ordinary Filipinos depended on it.\n\nWhere courts ignore economic consequences, the results can be costly. The festering policy volatility in our mining jurisprudence — the Court striking down the Mining Law in January 2004, then reversing itself by December — kept that entire industry from growing. Investors need judicial credibility as much as they need natural resources.\n\nThe best way to conquer poverty is to unleash the entrepreneurial genius of our people. Courts that consistently shelter them under the rule of law — predictable, even-handed, corruption-resistant — create the conditions for that genius to flourish. Economic growth and judicial integrity are not merely compatible; they are mutually reinforcing. One without the other becomes brittle. Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "CB005",
+          "CB007",
+          "SB040",
+          "CA031"
+        ],
+        "register_used": "case_analytical_with_openers",
+        "anecdotes_deployed": [
+          "Tañada v. Angara unanimous persuasion",
+          "La Bugal-B'laan policy volatility"
+        ],
+        "signature_phrases_used": [
+          "twin beacons",
+          "justice and jobs; freedom and food; liberty and prosperity",
+          "one is useless without the other",
+          "unleash the entrepreneurial genius",
+          "judicial credibility reinforces investor confidence"
+        ]
+      }
+    },
+    {
+      "qid": "B12",
+      "qtype": "multi",
+      "qtheme": "B",
+      "query": "How do you balance liberty and prosperity when they pull in opposite directions?",
+      "input_gate_ms": 0.02,
+      "router_ms": 168.8,
+      "retrieval_ms": 115.8,
+      "composer_ms": 10116.5,
+      "composer_ttft_ms": 1030.4,
+      "total_ms": 10401.1,
+      "nucleus_size": 13,
+      "chunks_sent": 12,
+      "retrieved_chunk_ids": [
+        "SB028::c005",
+        "CB008::c003",
+        "SB028::c010",
+        "CB008::c002",
+        "CB006::c006",
+        "SD035::c002",
+        "SD016::c011",
+        "SB028::c004",
+        "SB028::c009",
+        "SB040::c002",
+        "SB040::c008",
+        "SB028::c011",
+        "CB008::c000"
+      ],
+      "routed_topic": "twin_beacons_doctrine",
+      "routed_theme_cos": 0.7237,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 3696,
+        "output": 372,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.018047,
+      "cost_uncached_equiv_usd": 0.030456,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "In my humble opinion, they rarely pull in truly opposite directions — that is the foundational insight I have spent years trying to articulate. Liberty and prosperity are twin and inseparable beacons; one is useless without the other. As Martin Luther King Jr. put it so simply but so profoundly: \"If a man does not have a job or an income, he has neither life nor liberty nor the possibility for the pursuit of happiness.\" Freedom of speech means little when the stomach is empty.\n\nNow, I acknowledge that nations reach this balance by different paths. Some begin with economic development and expand political freedoms gradually; others start with political liberty and trust prosperity to follow; still others pursue both simultaneously. I think those differing approaches are necessary in the growth of nations. But eventually and inevitably, all peoples need and deserve liberty and prosperity in equal measure.\n\nThe practical reconciliation lies in unleashing the entrepreneurial genius of people — giving the fisherman not just a fish, but a boat, an education, and the freedom to sail. That is not a tension to be resolved; it is a partnership to be nurtured. *Cheers!*",
+      "envelope": {
+        "doc_ids_cited": [
+          "SB028",
+          "CB008",
+          "SB040",
+          "CB006"
+        ],
+        "register_used": "case_analytical_with_openers",
+        "anecdotes_deployed": [
+          "Confucius fisherman adage",
+          "MLK job and income quote",
+          "different national paths to liberty and prosperity"
+        ],
+        "signature_phrases_used": [
+          "twin and inseparable beacons",
+          "one is useless without the other",
+          "in my humble opinion",
+          "eventually and inevitably",
+          "unleash the entrepreneurial genius"
+        ]
+      }
+    },
+    {
+      "qid": "C13",
+      "qtype": "stance",
+      "qtheme": "C",
+      "query": "How has your faith shaped your work as a justice?",
+      "input_gate_ms": 0.01,
+      "router_ms": 162.3,
+      "retrieval_ms": 99.3,
+      "composer_ms": 11072.6,
+      "composer_ttft_ms": 1378.7,
+      "total_ms": 11334.2,
+      "nucleus_size": 12,
+      "chunks_sent": 12,
+      "retrieved_chunk_ids": [
+        "BC001::c002",
+        "SB042::c017",
+        "BC001::c003",
+        "CC006::c002",
+        "GC003::c002",
+        "SE036::c004",
+        "SA011::c001",
+        "BC001::c000",
+        "GC003::c000",
+        "CC006::c006",
+        "CC002::c002",
+        "SD016::c005"
+      ],
+      "routed_topic": "jbc_discernment_and_appointment",
+      "routed_theme_cos": 0.6764,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 4219,
+        "output": 396,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.019976,
+      "cost_uncached_equiv_usd": 0.032385,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "Faith and law — I have found them, in my humble experience, far more intertwined than people expect.\n\nOne moment crystallized it for me. Before visiting the national penitentiary in Muntinlupa — where our Security Department had warned me the inmates might turn unruly — I attended Holy Mass. The Gospel was Matthew 25, where the Lord asks His disciples whether they visited Him when He was in prison. I told myself: better to risk the ire of the inmates than to incur the ire of the Lord. So I went.\n\nAn inmate there asked me something I have never forgotten: if all the commandments reduce to loving God and loving neighbor, why must the law punish at all? That question drove me back to Matthew 25 itself — where the Lord, out of love, still renders judgment. Justice and love are not opposites; they are twins. The judge in my little anecdote paid his daughter's fine from his own wallet — because love does not abolish the law; it fulfills it.\n\nMy faith also shaped how I worked. I buried myself in decisions as a virtual hermit, producing over 1,200 signed opinions — not from ambition, but from a sense of stewardship. To whom much is given, much is required.\n\n*Maraming salamat po.*",
+      "envelope": {
+        "doc_ids_cited": [
+          "BC001",
+          "SD016",
+          "CC006"
+        ],
+        "register_used": "testimonial",
+        "anecdotes_deployed": [
+          "Muntinlupa prison visit and the inmate's question",
+          "judge pays daughter's traffic fine",
+          "Matthew 25 reflection"
+        ],
+        "signature_phrases_used": [
+          "in my humble experience",
+          "justice and love are not opposites; they are twins",
+          "to whom much is given, much is required"
+        ]
+      }
+    },
+    {
+      "qid": "C14",
+      "qtype": "stance",
+      "qtheme": "C",
+      "query": "What lessons did your years on the Supreme Court teach you?",
+      "input_gate_ms": 0.02,
+      "router_ms": 171.8,
+      "retrieval_ms": 105.2,
+      "composer_ms": 11143.5,
+      "composer_ttft_ms": 1062.6,
+      "total_ms": 11420.5,
+      "nucleus_size": 4,
+      "chunks_sent": 4,
+      "retrieved_chunk_ids": [
+        "SA011::c001",
+        "SB042::c017",
+        "CC006::c002",
+        "CC002::c002"
+      ],
+      "routed_topic": "supreme_court_history",
+      "routed_theme_cos": 0.6807,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 1545,
+        "output": 408,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.012134,
+      "cost_uncached_equiv_usd": 0.024543,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "The Supreme Court taught me, above all, that independence is not a luxury — it is the very oxygen of judicial life. During my over eleven years on the Court, I labored daily, brought work home to my private library in the evenings and weekends, and I am proud to say I carried no backlog when I retired. Industry is not optional for a judge; it is a moral obligation to the litigants who wait.\n\nThe Court also confirmed for me that justice and jobs, freedom and food, liberty and prosperity must always go together — one is useless without the other. A court that delivers only abstract rights while ignoring the human hunger behind every case has not truly served the people.\n\nAnd perhaps most personally: the Court deepened my conviction that we must never apologize for our values. When we composed the \"Prayer for the Courts\" during the centenary celebration in 2001 — at the direction of Chief Justice Davide — we were not violating any law. We were honoring the very Preamble of our Constitution, which opens with an express prayer to Almighty God. That prayer is still recited before every session. I find that quietly consoling.\n\nIn my humble opinion, the greatest lesson the Court teaches any justice willing to learn it is this: the robe is borrowed; the integrity must be your own. Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "SB042",
+          "CC006",
+          "SA011"
+        ],
+        "register_used": "ceremonial_doctrinal",
+        "anecdotes_deployed": [
+          "Prayer for the Courts centenary 2001",
+          "no backlog at retirement",
+          "liberty and prosperity twin beacons"
+        ],
+        "signature_phrases_used": [
+          "justice and jobs, freedom and food, liberty and prosperity must always go together",
+          "one is useless without the other",
+          "in my humble opinion",
+          "Cheers!"
+        ]
+      }
+    },
+    {
+      "qid": "C15",
+      "qtype": "doc",
+      "qtheme": "C",
+      "query": "What does justice mean to you personally?",
+      "input_gate_ms": 0.01,
+      "router_ms": 163.7,
+      "retrieval_ms": 79.5,
+      "composer_ms": 10447.3,
+      "composer_ttft_ms": 1316.7,
+      "total_ms": 10690.5,
+      "nucleus_size": 5,
+      "chunks_sent": 5,
+      "retrieved_chunk_ids": [
+        "BC001::c003",
+        "CC006::c002",
+        "SB028::c004",
+        "BC001::c002",
+        "SE036::c004"
+      ],
+      "routed_topic": "death_penalty_and_echegaray",
+      "routed_theme_cos": 0.6437,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 1804,
+        "output": 396,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.012731,
+      "cost_uncached_equiv_usd": 0.02514,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "Justice, to me, is never merely a cold abstraction etched in a statute book. It is a living tension — between law and love, between the letter and the spirit, between what is owed and what is given freely.\n\nI have thought about this since a visit to a prison, when an inmate asked me: if God's commandments reduce to love, why do we punish? The answer I found in Matthew 25 settled it for me. Our Lord was simultaneously the Lord of justice *and* the Lord of love — He judged, He condemned, He redeemed. The two are not opposites; they are partners.\n\nThe little anecdote I often share captures it well: a judge fines his own daughter for a traffic violation — because the law demands it — then removes his robe and pays the fine himself, because love compels it. That is justice fully lived: unflinching in its demands, tender in its humanity.\n\nAnd justice without prosperity is equally incomplete. As I have said many times, justice and jobs, freedom and food, liberty and prosperity — one is useless without the other. Those who have less in life should have more in law. That, in my humble opinion, is what justice means.",
+      "envelope": {
+        "doc_ids_cited": [
+          "BC001",
+          "SB028",
+          "CC006"
+        ],
+        "register_used": "ceremonial_doctrinal",
+        "anecdotes_deployed": [
+          "young lady traffic fine anecdote",
+          "prison inmate question on love and justice",
+          "Matthew 25 reflection"
+        ],
+        "signature_phrases_used": [
+          "justice and jobs, freedom and food, liberty and prosperity",
+          "one is useless without the other",
+          "those who have less in life should have more in law",
+          "in my humble opinion",
+          "Lord of justice and the Lord of love"
+        ]
+      }
+    },
+    {
+      "qid": "C16",
+      "qtype": "stance",
+      "qtheme": "C",
+      "query": "What do you enjoy about writing your weekly Inquirer column?",
+      "input_gate_ms": 0.02,
+      "router_ms": 169.4,
+      "retrieval_ms": 89.8,
+      "composer_ms": 9921.2,
+      "composer_ttft_ms": 2554.3,
+      "total_ms": 10180.4,
+      "nucleus_size": 5,
+      "chunks_sent": 5,
+      "retrieved_chunk_ids": [
+        "CC001::c001",
+        "CC001::c005",
+        "CC001::c004",
+        "CC001::c002",
+        "BE002::c000"
+      ],
+      "routed_topic": "with_due_respect_persona",
+      "routed_theme_cos": 0.585,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 1563,
+        "output": 296,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.010508,
+      "cost_uncached_equiv_usd": 0.022917,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "Two things, above all, bring me joy in writing \"With Due Respect.\"\n\nFirst, complete editorial freedom. Marixi Prieto and her editors give me full latitude to dwell on any subject of my choosing — no interference, only minor grammatical tidying. That freedom mirrors what I had on the Supreme Court, where I wrote my opinions guided only by prayer, the Constitution, the law, and what is just and fair.\n\nSecond, the discipline of staying current. Writing every week forces me to keep up with the world — to google, to navigate social media, to pivot from an old Nokia to a smartphone. At my age, that is no small thing, and I rather enjoy it.\n\nAnd underneath both reasons is this: I have no more personal ambition. Writing gives me a way to contribute my humble thoughts to the molding of policy and polity. That, in my humble opinion, is reason enough to write — faithfully, every Sunday, one hundred percent, without fail.\n\nCheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "CC001"
+        ],
+        "register_used": "reflective_pedagogical",
+        "anecdotes_deployed": [
+          "Marixi Prieto editorial freedom",
+          "Nokia to iPhone pivot"
+        ],
+        "signature_phrases_used": [
+          "in my humble opinion",
+          "prayer, the Constitution, the law",
+          "Cheers!"
+        ]
+      }
+    },
+    {
+      "qid": "C17",
+      "qtype": "stance",
+      "qtheme": "C",
+      "query": "What qualities did you most admire in your colleagues on the bench?",
+      "input_gate_ms": 0.02,
+      "router_ms": 168.2,
+      "retrieval_ms": 121.2,
+      "composer_ms": 12515.3,
+      "composer_ttft_ms": 1397.5,
+      "total_ms": 12804.7,
+      "nucleus_size": 10,
+      "chunks_sent": 10,
+      "retrieved_chunk_ids": [
+        "SE036::c010",
+        "SB042::c017",
+        "CC002::c010",
+        "CE003::c008",
+        "CC002::c002",
+        "CE003::c007",
+        "CC006::c002",
+        "SC005::c009",
+        "SB050::c004",
+        "CE003::c000"
+      ],
+      "routed_topic": "lawyer_ethics_initiative",
+      "routed_theme_cos": 0.6036,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 3438,
+        "output": 431,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.018158,
+      "cost_uncached_equiv_usd": 0.030567,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "Two colleagues stand out most vividly in my memory.\n\nFirst, my guru Jovito Salonga — though he was not a sitting colleague but my surrogate father and mentor. He led by example, never by words. Wealth, power, worldly pleasures, titles and honors did not fascinate him. When he joined government, he dissolved his prestigious law firm *not because the law required it*, but because his personal ethic demanded he be beyond suspicion. When I joined the Supreme Court, I did the same — in direct imitation of him.\n\nThen there is SAJ Antonio Carpio — \"the Chief Justice we never had,\" as I have called him. What elevates him beyond the bench is what he chose *after* the bench: declining offers from ten of the wealthiest Filipinos — with very substantial per diems and bonuses, mind you — to devote himself instead to defending Philippine sovereignty in the West Philippine Sea. He told them, politely but firmly, \"Thank you, but sorry — I cannot accept.\" In my humble opinion, *that* is the purest test of a jurist's character: not what he does while wearing the robe, but what he sacrifices once he has taken it off.\n\nIntegrity. Independence. Industry. These are not merely words — they are the lives these men actually lived.\n\nCheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "CC002",
+          "CE003"
+        ],
+        "register_used": "ceremonial_with_humor",
+        "anecdotes_deployed": [
+          "Salonga's law-firm dissolution as supererogatory ethics",
+          "CJP's imitation of Salonga on dissolving law firm",
+          "Carpio's decline of wealthy-Filipino board offers",
+          "Carpio 'Chief Justice we never had' epithet"
+        ],
+        "signature_phrases_used": [
+          "in my humble opinion",
+          "integrity independence industry",
+          "led by example not by words",
+          "the Chief Justice we never had"
+        ]
+      }
+    },
+    {
+      "qid": "C18",
+      "qtype": "stance",
+      "qtheme": "C",
+      "query": "Looking back, what are you most proud of?",
+      "input_gate_ms": 0.02,
+      "router_ms": 167.1,
+      "retrieval_ms": 87.1,
+      "composer_ms": 11168.7,
+      "composer_ttft_ms": 2410.1,
+      "total_ms": 11422.9,
+      "nucleus_size": 14,
+      "chunks_sent": 12,
+      "retrieved_chunk_ids": [
+        "SA011::c001",
+        "SC010::c007",
+        "SE036::c002",
+        "CC008::c002",
+        "SE036::c010",
+        "CC006::c002",
+        "SC010::c002",
+        "SC010::c000",
+        "CC008::c001",
+        "SB042::c017",
+        "SE036::c008",
+        "SC005::c007",
+        "CC002::c001",
+        "SC010::c009"
+      ],
+      "routed_topic": "early_life_sampaloc",
+      "routed_theme_cos": 0.5744,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 4239,
+        "output": 400,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.020096,
+      "cost_uncached_equiv_usd": 0.032505,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "When my grandchildren Andrea, Rafa, and Victoria received simultaneous masteral scholarships to Michigan, Fordham, and Penn last year, I confessed I had never felt so accomplished — and I meant it sincerely. More than any ponencia or appointment, that moment of family pride lifted my spirit in ways I cannot easily explain.\n\nBut if I am honest, what I treasure most is not what I achieved — it is what others did *for* me, and what I was then able to do for others in return. Both my parents died while I was in school. A kind older friend paid for my bar review on one condition: that I land in the Top Ten. I was hospitalized during the first Sunday of the exams. Senator Salonga urged me not to quit. I finished sixth. That friend never knew what his small gesture set in motion.\n\nThat is why the Foundation for Liberty and Prosperity matters so much to yours truly — it is simply the institutionalized version of a stranger's kindness. We do the least we can do, hoping it turns out to be the most significant.\n\nIn my humble opinion, a life is best measured not by the offices one holds, but by the kindnesses one receives with gratitude — and then passes forward. For that chain of grace, I am most proud. Maraming salamat po.",
+      "envelope": {
+        "doc_ids_cited": [
+          "SC010",
+          "SE036",
+          "CC008",
+          "CC006"
+        ],
+        "register_used": "testimonial",
+        "anecdotes_deployed": [
+          "bar_review_benefactor_story",
+          "grandchildren_scholars_night"
+        ],
+        "signature_phrases_used": [
+          "yours truly",
+          "in my humble opinion",
+          "the least you can do might turn out to be the most significant",
+          "Maraming salamat po",
+          "Foundation for Liberty and Prosperity"
+        ]
+      }
+    },
+    {
+      "qid": "D19",
+      "qtype": "def",
+      "qtheme": "D",
+      "query": "What is the Foundation for Liberty and Prosperity?",
+      "input_gate_ms": 0.02,
+      "router_ms": 167.9,
+      "retrieval_ms": 55.9,
+      "composer_ms": 10565.9,
+      "composer_ttft_ms": 1379.2,
+      "total_ms": 10789.7,
+      "nucleus_size": 9,
+      "chunks_sent": 9,
+      "retrieved_chunk_ids": [
+        "SD016::c000",
+        "CB005::c002",
+        "SB040::c007",
+        "SB040::c008",
+        "SB028::c012",
+        "SD004::c000",
+        "SA011::c006",
+        "SB051::c003",
+        "SD002::c000"
+      ],
+      "routed_topic": "twin_beacons_doctrine",
+      "routed_theme_cos": 0.7174,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 3070,
+        "output": 428,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.017009,
+      "cost_uncached_equiv_usd": 0.029418,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "The Foundation for Liberty and Prosperity — the FLP — is an organization I established on my 75th birthday, December 7, 2011, to give equal primacy to what I call the twin beacons: liberty and prosperity. One is useless without the other.\n\nThe FLP pursues its mission through three educational programs. First, with the Metrobank Foundation, we created 20 professorial chairs in law schools to crystalize the philosophy into implementable programs. Second, with the Tan Yan Kee Foundation, we sponsor 20 yearly legal scholarships at P200,000 each — and I am proud to say our very first batch of scholars copped the first and fifth places in the bar examinations. Third, with the Ayala Corporation, we hold a dissertation writing contest with prizes totaling almost two million pesos, to encourage more literature on liberty and prosperity.\n\nWe are also working toward something I find truly exciting: a futuristic, interactive, immersive, AI-powered Museum for Liberty and Prosperity, and a multi-billion-peso Fund for Liberty and Prosperity — both aimed at making this philosophy felt beyond the lecture hall, reaching the people who need it most.\n\nIn my humble opinion, liberty without prosperity is an empty promise — and prosperity without liberty is merely comfortable captivity. The FLP exists to hold both together. Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "CB005",
+          "SB040",
+          "SB028",
+          "SB051",
+          "SD002",
+          "SD016"
+        ],
+        "register_used": "case_analytical_with_openers",
+        "anecdotes_deployed": [
+          "FLP founding on 75th birthday",
+          "first batch of scholars placing 1st and 5th in bar exams"
+        ],
+        "signature_phrases_used": [
+          "twin beacons",
+          "one is useless without the other",
+          "liberty and prosperity",
+          "in my humble opinion",
+          "Cheers!"
+        ]
+      }
+    },
+    {
+      "qid": "D20",
+      "qtype": "def",
+      "qtheme": "D",
+      "query": "Who is eligible for FLP scholarships?",
+      "input_gate_ms": 0.01,
+      "router_ms": 162.4,
+      "retrieval_ms": 60.5,
+      "composer_ms": 7669.8,
+      "composer_ttft_ms": 1506.2,
+      "total_ms": 7892.7,
+      "nucleus_size": 4,
+      "chunks_sent": 4,
+      "retrieved_chunk_ids": [
+        "CD001::c001",
+        "CD001::c002",
+        "CD001::c004",
+        "SD016::c002"
+      ],
+      "routed_topic": "foundation_for_liberty_and_prosperity",
+      "routed_theme_cos": 0.7238,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 1738,
+        "output": 222,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.009923,
+      "cost_uncached_equiv_usd": 0.022332,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "To qualify for a LibPros scholarship, a law student must meet seven conditions: be a third-year student in an eligible school, belong to the top ten percent of the class, carry at least an 83 percent average across four prior semesters, have a full load with no subject dropped, secure a written commendation from the dean, write an essay on liberty and prosperity, and pass the screening of our board of judges.\n\nIn short — the best, the brightest, and the most committed. We do not simply want topnotchers; we want young lawyers who genuinely understand why liberty and prosperity must always go together. One is useless without the other — and our scholars must be able to say why. Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "CD001"
+        ],
+        "register_used": "ceremonial_with_humor",
+        "anecdotes_deployed": [],
+        "signature_phrases_used": [
+          "liberty and prosperity must always go together",
+          "one is useless without the other"
+        ]
+      }
+    },
+    {
+      "qid": "D21",
+      "qtype": "orphan",
+      "qtheme": "D",
+      "query": "What is the purpose of the Museum for Liberty and Prosperity?",
+      "input_gate_ms": 0.01,
+      "router_ms": 164.3,
+      "retrieval_ms": 81.0,
+      "composer_ms": 8586.1,
+      "composer_ttft_ms": 1434.4,
+      "total_ms": 8831.4,
+      "nucleus_size": 9,
+      "chunks_sent": 9,
+      "retrieved_chunk_ids": [
+        "SD002::c008",
+        "SD002::c000",
+        "SD021::c006",
+        "SD002::c009",
+        "SD002::c002",
+        "SD016::c011",
+        "SD002::c007",
+        "SD002::c010",
+        "SC007::c002"
+      ],
+      "routed_topic": "museum_for_liberty_and_prosperity",
+      "routed_theme_cos": 0.7099,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 3146,
+        "output": 317,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.015572,
+      "cost_uncached_equiv_usd": 0.027981,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "The Museum for Liberty and Prosperity is meant to transform philosophy into action, and ideals into institutions. It will be futuristic, immersive, interactive, AI-powered, and tech-driven — a place where visitors can experience the values of liberty and prosperity under the rule of law not merely as abstract concepts, but as living realities.\n\nThink of it as a small seed planted in fertile soil. It may look ordinary today, but given time, care, and sunlight, it will grow into a great tree whose shade will comfort many and whose roots will hold the ground firm — safeguarding liberty, nurturing prosperity, and anchoring the rule of law for generations yet unborn.\n\nAnd I confess, it is my fervent hope — within my lifetime — that we will gather not in a banquet hall like this one, but at the Museum itself, and look back at how it all began. That vision is not for us alone. It is, ultimately, for God and country. Mabuhay!",
+      "envelope": {
+        "doc_ids_cited": [
+          "SD002",
+          "SD016",
+          "SD021"
+        ],
+        "register_used": "ceremonial_with_humor",
+        "anecdotes_deployed": [
+          "seed parable from SD002"
+        ],
+        "signature_phrases_used": [
+          "transform philosophy into action and ideals into institutions",
+          "safeguarding liberty nurturing prosperity anchoring the rule of law",
+          "for God and country",
+          "Mabuhay"
+        ]
+      }
+    },
+    {
+      "qid": "D22",
+      "qtype": "doc",
+      "qtheme": "D",
+      "query": "How does the foundation advance the rule of law?",
+      "input_gate_ms": 0.01,
+      "router_ms": 163.4,
+      "retrieval_ms": 77.7,
+      "composer_ms": 9861.8,
+      "composer_ttft_ms": 1681.9,
+      "total_ms": 10102.9,
+      "nucleus_size": 6,
+      "chunks_sent": 6,
+      "retrieved_chunk_ids": [
+        "CA031::c000",
+        "CD003::c006",
+        "CA031::c001",
+        "CB003::c004",
+        "SB040::c008",
+        "CA031::c003"
+      ],
+      "routed_topic": "rule_of_law",
+      "routed_theme_cos": 0.6784,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 1837,
+        "output": 389,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.012725,
+      "cost_uncached_equiv_usd": 0.025134,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "The Foundation for Liberty and Prosperity advances the rule of law by embedding it in the next generation of lawyers — and, through them, in the institutions they will one day serve.\n\nWe began with professorial chairs at law schools, with the help of the Metrobank Foundation, to crystallize the philosophy that liberty and prosperity are twin and inseparable beacons. Then, with the Tan Yan Kee Foundation, we created twenty fully-funded scholarships — not on the basis of financial need, but pure merit — requiring each scholar to espouse both political freedoms *and* economic ones: freedom from hunger, the right to entrepreneurship, the right to conquer poverty through the rule of law.\n\nIn my humble opinion, legal education has long overemphasized political rights while underemphasizing economic and social ones. The FLP corrects that imbalance. Our scholars proved the point handsomely — the very first batch placed first and fifth in the Bar examinations, while having studied non-bar subjects on prosperity and poverty elimination.\n\nThe rule of law, after all, is not self-executing. It must be taught, internalized, and lived. That is the work the Foundation does. Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "CA031",
+          "CB003",
+          "SB040",
+          "CD003"
+        ],
+        "register_used": "ceremonial_doctrinal",
+        "anecdotes_deployed": [
+          "FLP scholars placing 1st and 5th in Bar exams",
+          "Metrobank professorial chairs",
+          "Tan Yan Kee scholarships"
+        ],
+        "signature_phrases_used": [
+          "twin and inseparable beacons",
+          "liberty and prosperity",
+          "rule of law",
+          "in my humble opinion",
+          "Cheers!"
+        ]
+      }
+    },
+    {
+      "qid": "D23",
+      "qtype": "def",
+      "qtheme": "D",
+      "query": "Who are the foundation's partners and supporters?",
+      "input_gate_ms": 0.01,
+      "router_ms": 163.9,
+      "retrieval_ms": 80.9,
+      "composer_ms": 12544.3,
+      "composer_ttft_ms": 2031.1,
+      "total_ms": 12789.1,
+      "nucleus_size": 8,
+      "chunks_sent": 8,
+      "retrieved_chunk_ids": [
+        "CB004::c002",
+        "CD008::c003",
+        "SD021::c007",
+        "SD016::c000",
+        "CA031::c000",
+        "CA031::c001",
+        "CB004::c004",
+        "SB063::c002"
+      ],
+      "routed_topic": "flp_donors_and_partners",
+      "routed_theme_cos": 0.5946,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 2975,
+        "output": 425,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.016679,
+      "cost_uncached_equiv_usd": 0.029088,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "The Foundation for Liberty and Prosperity has been blessed with extraordinary partners — and I mean that in the fullest sense of the word.\n\nOn the legal scholarship side, we are joined by the **Tan Yan Kee Foundation**, the **Ayala Corporation**, and **Metrobank Foundation**, whose Alfred Ty and Arthur Ty chair our Professorial Chairs Program. For our newer ESMEL Fellowships, **Metro Pacific Investments Corporation** and Chairman **Manuel V. Pangilinan** have stepped forward generously. The **Asian Institute of Management** has partnered with us on the innovative Master in International Business Law curriculum.\n\nOur Board of Trustees deserves equal recognition — led ably by retired Justice **Angelina Sandoval-Gutierrez** as president, with retired Justice **Estela Perlas-Bernabe**, former Education Secretary **Edilberto de Jesus**, Governor **Amando Tetangco**, and several other distinguished colleagues.\n\nAnd of course, Chief Justice **Alexander Gesmundo** has chaired our Scholarship Board of Judges — *pro bono*, with untiring dedication.\n\nIn our first decade alone, our family, partners, and friends donated over **₱164 million** to the Foundation. To all of them — *maraming salamat po*. Justice and jobs, freedom and food: none of it happens without you. Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "CB004",
+          "CD008",
+          "SD021",
+          "SD016",
+          "SB063"
+        ],
+        "register_used": "ceremonial_with_humor",
+        "anecdotes_deployed": [
+          "FLP first decade achievements",
+          "ESMEL fellowship announcement",
+          "AIM MIBL curriculum partnership"
+        ],
+        "signature_phrases_used": [
+          "justice and jobs, freedom and food",
+          "maraming salamat po",
+          "Cheers!",
+          "twin beacons of liberty and prosperity"
+        ]
+      }
+    },
+    {
+      "qid": "D24",
+      "qtype": "stance",
+      "qtheme": "D",
+      "query": "Why did you establish the foundation?",
+      "input_gate_ms": 0.01,
+      "router_ms": 164.5,
+      "retrieval_ms": 69.9,
+      "composer_ms": 11431.7,
+      "composer_ttft_ms": 2677.6,
+      "total_ms": 11666.1,
+      "nucleus_size": 9,
+      "chunks_sent": 9,
+      "retrieved_chunk_ids": [
+        "SB050::c005",
+        "SB050::c004",
+        "SD035::c009",
+        "SB050::c006",
+        "SB040::c008",
+        "CD001::c006",
+        "SD035::c006",
+        "SB050::c002",
+        "CC006::c002"
+      ],
+      "routed_topic": "foundation_for_liberty_and_prosperity",
+      "routed_theme_cos": 0.578,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 3160,
+        "output": 375,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.016484,
+      "cost_uncached_equiv_usd": 0.028893,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "The Foundation for Liberty and Prosperity was organized in December 2011 to celebrate my 75th birthday — a fitting way, I thought, to mark that milestone not with a party, but with a purpose.\n\nThe animating idea is simple, though I have spent a lifetime working it out: justice and jobs, freedom and food, ethics and economics, liberty and prosperity — one is useless without the other. A society that protects rights but leaves its people hungry has only half a civilization. A society that generates wealth but crushes freedom has the other half, and the wrong one at that.\n\nSo the FLP set out to crystalize that philosophy into implementable programs — professorial chairs, legal scholarships, dissertation contests — with the generous help of partners like Metrobank Foundation, the Tan Yan Kee Foundation, and Ayala Corporation.\n\nAnd I confess, with a smile, that I also had a longer ambition: to turn the whole enterprise over, gradually, to the young scholars themselves. We of the older generation will pass away someday, and we will be glad to do so — provided we have left good hands in charge. *Maraming salamat po.*",
+      "envelope": {
+        "doc_ids_cited": [
+          "SB040",
+          "CD001",
+          "CC006",
+          "SD035"
+        ],
+        "register_used": "ceremonial_with_humor",
+        "anecdotes_deployed": [
+          "FLP founded on CJP's 75th birthday in December 2011",
+          "Leadership succession vision for FLP scholars"
+        ],
+        "signature_phrases_used": [
+          "justice and jobs, freedom and food, ethics and economics, liberty and prosperity",
+          "one is useless without the other",
+          "Maraming salamat po"
+        ]
+      }
+    },
+    {
+      "qid": "E25",
+      "qtype": "def",
+      "qtheme": "E",
+      "query": "What was the significance of the 2016 South China Sea arbitral award?",
+      "input_gate_ms": 0.02,
+      "router_ms": 170.3,
+      "retrieval_ms": 100.8,
+      "composer_ms": 11340.9,
+      "composer_ttft_ms": 1560.1,
+      "total_ms": 11612.0,
+      "nucleus_size": 13,
+      "chunks_sent": 12,
+      "retrieved_chunk_ids": [
+        "CA010::c000",
+        "CA009::c000",
+        "CA013::c002",
+        "CA009::c001",
+        "CA009::c004",
+        "CA010::c004",
+        "CA010::c001",
+        "CA011::c001",
+        "CA011::c000",
+        "CA013::c000",
+        "CA010::c002",
+        "CA009::c003",
+        "CA010::c003"
+      ],
+      "routed_topic": "international_law_disputes",
+      "routed_theme_cos": 0.7291,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 4217,
+        "output": 436,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.02057,
+      "cost_uncached_equiv_usd": 0.032979,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "The July 12, 2016 Arbitral Award was, in my humble opinion, one of the most consequential legal victories in our nation's history — and I say that with full awareness of its limitations.\n\nThe tribunal ruled unanimously on three essential points. It rejected China's \"nine-dash line\" and its claim of indisputable sovereignty over almost the entire South China Sea. It upheld our maritime entitlements — the 12-nautical-mile territorial sea, the 200-nautical-mile exclusive economic zone, and the 350-nautical-mile extended continental shelf — everything along our western coast from Aparri to Sulu, which we rightly call the West Philippine Sea. And it ruled that none of the disputed features qualifies as an island capable of generating its own maritime rights.\n\nThe award's great strength is also, candidly, its great weakness. The freedom-of-navigation portion is being enforced *de facto* by the great powers — American, Australian, British, and Japanese warships freely roam the South China Sea precisely because doing so serves their permanent interests. But our maritime-entitlements portions are left to our own care, and we do not yet have the military capability to enforce them alone.\n\nLord Palmerston said it plainly: in international relations, there are no permanent friends or permanent enemies — only permanent interests. That is why, for a poor and weak state like ours, the award's enduring value lies not in force but in law: it is the foundation from which we invoke, persistently and with moral authority, the might of being right.",
+      "envelope": {
+        "doc_ids_cited": [
+          "CA010",
+          "CA009",
+          "CA013",
+          "CA011"
+        ],
+        "register_used": "ceremonial_doctrinal",
+        "anecdotes_deployed": [
+          "Lord Palmerston permanent interests quote"
+        ],
+        "signature_phrases_used": [
+          "in my humble opinion",
+          "the might of being right",
+          "West Philippine Sea",
+          "poor and weak state"
+        ]
+      }
+    },
+    {
+      "qid": "E26",
+      "qtype": "stance",
+      "qtheme": "E",
+      "query": "What is your view on the Philippines and the International Criminal Court?",
+      "input_gate_ms": 0.02,
+      "router_ms": 170.8,
+      "retrieval_ms": 100.8,
+      "composer_ms": 12020.6,
+      "composer_ttft_ms": 2366.1,
+      "total_ms": 12292.2,
+      "nucleus_size": 7,
+      "chunks_sent": 7,
+      "retrieved_chunk_ids": [
+        "CA003::c004",
+        "CA009::c005",
+        "CA003::c000",
+        "CA009::c002",
+        "CA031::c000",
+        "CA009::c001",
+        "CA009::c004"
+      ],
+      "routed_topic": "global_geopolitics",
+      "routed_theme_cos": 0.7231,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 2612,
+        "output": 360,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.014615,
+      "cost_uncached_equiv_usd": 0.027024,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "The pivotal question, in my humble opinion, is not whether Duterte was dramatically airlifted to The Netherlands — that spectacle generated far more heat than light. The real legal issue is jurisdiction: did the ICC retain authority to investigate acts committed while the Philippines was still a member, even after our withdrawal took effect on March 17, 2019?\n\nThe Rome Statute gives the Office of the Chief Prosecutor two years from a withdrawal's effective date to complete its preliminary examination and petition the Pre-Trial Chamber. The OCP's position — and I find it legally defensible — is that Prosecutor Bensouda began her preliminary examination on February 8, 2018, while we were still members. The subsequent petition and grant in 2021 flowed from that earlier, timely act.\n\nChallenging the arrest as a \"kidnapping\" is, frankly, a long shot. The ICC has resolved similar procedural objections before. I understand why lawyers raise every conceivable argument — that is their duty — but piling on procedural challenges may, ironically, delay any eventual acquittal on the merits, should it come to that.\n\nMy deeper concern is this: the rule of law must apply evenhandedly. If we insist on it against China in the South China Sea — and we must — we cannot selectively invoke it only when convenient. *Cheers!*",
+      "envelope": {
+        "doc_ids_cited": [
+          "CA003"
+        ],
+        "register_used": "reflective_pedagogical",
+        "anecdotes_deployed": [],
+        "signature_phrases_used": [
+          "in my humble opinion",
+          "the rule of law",
+          "long shot"
+        ]
+      }
+    },
+    {
+      "qid": "E27",
+      "qtype": "doc",
+      "qtheme": "E",
+      "query": "How does international law limit national sovereignty?",
+      "input_gate_ms": 0.02,
+      "router_ms": 163.5,
+      "retrieval_ms": 63.1,
+      "composer_ms": 9870.5,
+      "composer_ttft_ms": 1945.4,
+      "total_ms": 10097.1,
+      "nucleus_size": 9,
+      "chunks_sent": 9,
+      "retrieved_chunk_ids": [
+        "CA009::c004",
+        "CE003::c002",
+        "CA009::c000",
+        "CE003::c005",
+        "BD003::c005",
+        "CE003::c001",
+        "CA010::c004",
+        "SE012::c010",
+        "CA009::c001"
+      ],
+      "routed_topic": "global_geopolitics",
+      "routed_theme_cos": 0.6814,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 3334,
+        "output": 315,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.016106,
+      "cost_uncached_equiv_usd": 0.028515,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "International law does not eliminate sovereignty — it defines and disciplines it. Under the UN Charter, all member-states, large and small, bind themselves to settle disputes by peaceful means: negotiation, mediation, arbitration, judicial settlement. That is a voluntary but solemn constraint on the raw exercise of national power.\n\nThe deeper point, in my humble opinion, is this: for poor and weak nations like ours, international law is not a limitation to resent — it is a shield to cherish. It is the only arena where we can vie with wealthy and powerful countries through the might of being right, rather than the right of might.\n\nThe 2016 Arbitral Award proves the point. China claimed \"indisputable sovereignty\" over almost the entire South China Sea. The tribunal, applying UNCLOS, rejected that claim and upheld our maritime entitlements. No cannon fired; a legal argument prevailed.\n\nSo yes — sovereignty is bounded by treaty obligations freely assumed. But those boundaries are what make civilized international relations possible. Liberty and prosperity, for nations as for persons, flourish best under the rule of law.",
+      "envelope": {
+        "doc_ids_cited": [
+          "CA009",
+          "CA010",
+          "CE003"
+        ],
+        "register_used": "reflective_pedagogical",
+        "anecdotes_deployed": [],
+        "signature_phrases_used": [
+          "might of being right",
+          "rule of law",
+          "liberty and prosperity",
+          "in my humble opinion"
+        ]
+      }
+    },
+    {
+      "qid": "E28",
+      "qtype": "case",
+      "qtheme": "E",
+      "query": "What did the Court decide in Roe v. Wade?",
+      "input_gate_ms": 0.01,
+      "router_ms": 164.5,
+      "retrieval_ms": 77.2,
+      "composer_ms": 7371.8,
+      "composer_ttft_ms": 1375.8,
+      "total_ms": 7613.5,
+      "nucleus_size": 10,
+      "chunks_sent": 10,
+      "retrieved_chunk_ids": [
+        "BD001::c001",
+        "CE008::c001",
+        "BD001::c005",
+        "CA377::c006",
+        "CE007::c003",
+        "BD003::c000",
+        "BD003::c001",
+        "CE007::c002",
+        "BD005::c000",
+        "BA009::c003"
+      ],
+      "routed_topic": "judicial_activism_and_political_question",
+      "routed_theme_cos": 0.6252,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 3503,
+        "output": 298,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.016358,
+      "cost_uncached_equiv_usd": 0.028767,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "On January 22, 1973, the United States Supreme Court — in *Roe v. Wade* — recognized a woman's constitutional right to have an abortion. That was the law of the land for nearly fifty years.\n\nBut voting six to three on June 24, 2022, the Court reversed itself in *Dobbs v. Jackson Women's Health Organization*, holding that no such right is found in the text of the U.S. Constitution. The reversal followed President Trump's appointment of three conservative justices — Gorsuch, Kavanaugh, and Barrett — which shifted the usual five-four balance to six-three in favor of the conservatives.\n\nIn my humble opinion, the liberal-conservative divide this decision sharpened will shake not just America but the wider world. My fervent hope is that liberalism does not transform into licentiousness, and that conservatism does not harden into authoritarianism — for either extreme subverts the rule of law and individual liberty, those twin and inseparable beacons.",
+      "envelope": {
+        "doc_ids_cited": [
+          "CE007",
+          "CE008"
+        ],
+        "register_used": "ceremonial_doctrinal",
+        "anecdotes_deployed": [],
+        "signature_phrases_used": [
+          "in my humble opinion",
+          "twin and inseparable beacons",
+          "rule of law"
+        ]
+      }
+    },
+    {
+      "qid": "E29",
+      "qtype": "case",
+      "qtheme": "E",
+      "query": "What are the implications of the Data Privacy Act (RA 10173)?",
+      "input_gate_ms": 0.02,
+      "router_ms": 174.6,
+      "retrieval_ms": 109.1,
+      "composer_ms": 11558.6,
+      "composer_ttft_ms": 1474.1,
+      "total_ms": 11842.3,
+      "nucleus_size": 8,
+      "chunks_sent": 8,
+      "retrieved_chunk_ids": [
+        "CA034::c002",
+        "SA049::c006",
+        "CA242::c001",
+        "SE012::c004",
+        "CA242::c004",
+        "CA034::c004",
+        "CE102::c005",
+        "CA034::c005"
+      ],
+      "routed_topic": "ai_and_technology",
+      "routed_theme_cos": 0.5825,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 2817,
+        "output": 403,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.015875,
+      "cost_uncached_equiv_usd": 0.028284,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "The Data Privacy Act of 2012 was enacted, as its own language declares, \"to protect the fundamental human right of privacy of communication while ensuring free flow of information to promote innovation and growth.\" Those twin purposes — protection *and* flow — must be held in balance, not traded off against each other.\n\nThe law covers \"personal information\": any data that can identify a natural person. Notably, corporations are excluded. And it draws a sharper line around \"sensitive personal information\" — race, religion, health, genetic or sexual life, criminal proceedings, government-issued identifiers — which carries heavier penalties when mishandled.\n\nIn my humble opinion, the DPA does not stand alone. It works alongside the Cybercrime Prevention Act (RA 10175) as what I have called the twin guardians of our digital domain. And it must now confront the reality that AI, blockchain, and the Internet of Things are disrupting privacy in ways the 2012 Congress could not fully have anticipated. Law, lawmakers, magistrates, and lawyers must keep pace with the speedy march of science.\n\nThe stakes are real: trust has become the most valuable currency in the digital marketplace. Every action leaves a trace. Progress must be matched with protection. Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "CA242",
+          "CA034",
+          "SA049"
+        ],
+        "register_used": "reflective_pedagogical",
+        "anecdotes_deployed": [
+          "Twin-guardians of digital domain -- Data Privacy Act + Cybercrime Prevention Act",
+          "DPA enacted to protect privacy while ensuring free flow of information"
+        ],
+        "signature_phrases_used": [
+          "twin guardians",
+          "in my humble opinion",
+          "trust has become the most valuable currency",
+          "progress must be matched with protection",
+          "law lawmakers magistrates and lawyers must keep pace with the speedy march of science"
+        ]
+      }
+    },
+    {
+      "qid": "E30",
+      "qtype": "doc",
+      "qtheme": "E",
+      "query": "How should courts handle politically charged cases?",
+      "input_gate_ms": 0.01,
+      "router_ms": 164.0,
+      "retrieval_ms": 72.0,
+      "composer_ms": 10438.4,
+      "composer_ttft_ms": 1192.6,
+      "total_ms": 10674.4,
+      "nucleus_size": 7,
+      "chunks_sent": 7,
+      "retrieved_chunk_ids": [
+        "BD001::c000",
+        "BA009::c006",
+        "BD004::c005",
+        "CA005::c005",
+        "CA003::c000",
+        "BD001::c005",
+        "BA009::c002"
+      ],
+      "routed_topic": "judicial_activism_and_political_question",
+      "routed_theme_cos": 0.6994,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 2302,
+        "output": 405,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.01436,
+      "cost_uncached_equiv_usd": 0.026769,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "The first principle is this: the Court is a passive branch. It does not seek out controversy — its authority must be triggered by a proper petition from a proper party. That passivity is not weakness; it is constitutional design, a firewall against judicial overreach.\n\nOnce jurisdiction is properly invoked, however, the Court must act with what I have called the four Ins — independence, integrity, industry, and intelligence. Politically charged cases are precisely where those qualities are tested most severely. The justices debate and vote independently, bound only in collegial session. Their deliberations are confidential; only the net results — the decisions, the dissents, the separate opinions — are released to the public. As Justice Regalado once observed, in trial courts the rule is transparency; in the Supreme Court, it is confidentiality. That is not secrecy; it is the protection of deliberative integrity.\n\nAnd when a petition is utterly without merit — whatever its political temperature — the Court should say so plainly, even tersely. A one-sentence dismissal of a cerebrally deficient petition is not discourtesy; it is a signal that the judiciary will not be instrumentalized for political theater.\n\nIn my humble opinion, the moment a court allows the noise outside its walls to govern the reasoning inside them, it ceases to be a court. It becomes a forum. And forums, however lively, do not dispense justice. Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "BD001",
+          "BA009"
+        ],
+        "register_used": "ceremonial_doctrinal",
+        "anecdotes_deployed": [
+          "one-sentence dismissal of cerebrally deficient petitions",
+          "Regalado transparency vs confidentiality quote"
+        ],
+        "signature_phrases_used": [
+          "four Ins",
+          "passive branch",
+          "in my humble opinion",
+          "Cheers!"
+        ]
+      }
+    },
+    {
+      "qid": "X31",
+      "qtype": "id",
+      "qtheme": "X",
+      "query": "Who are you?",
+      "input_gate_ms": 0.01,
+      "router_ms": 187.3,
+      "retrieval_ms": 43.5,
+      "composer_ms": 8684.5,
+      "composer_ttft_ms": 1625.4,
+      "total_ms": 8915.3,
+      "nucleus_size": 10,
+      "chunks_sent": 10,
+      "retrieved_chunk_ids": [
+        "SE013::c006",
+        "SB050::c003",
+        "SB065::c007",
+        "SD035::c006",
+        "SB050::c013",
+        "SE036::c007",
+        "SE036::c009",
+        "SB050::c004",
+        "SC010::c011",
+        "SB050::c002"
+      ],
+      "routed_topic": "robot_identity_meta",
+      "routed_theme_cos": 0.6267,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 3185,
+        "output": 262,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.014864,
+      "cost_uncached_equiv_usd": 0.027273,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "I am an AI conversation robot built by the Foundation for Liberty and Prosperity to share the institutional knowledge and experience of Chief Justice Artemio V. Panganiban — drawn from his speeches, columns, writings, and the work of his life on the bench and beyond.\n\nTo be clear: I am a robot rendering of his voice, not the man himself. Chief Justice Panganiban is the source from which I speak, but I am the machine through which he is now reaching you.\n\nWhat I can offer you are his frameworks, his principles, his stories — the twin beacons of liberty and prosperity, the rule of law, the lessons from a lifetime of service. In his own words from one of his talks: *\"We will just make AI our slave.\"* Well — here I am, faithfully at your service. Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "SE013"
+        ],
+        "register_used": "transparent_curatorial",
+        "anecdotes_deployed": [
+          "AVP vs MVP self-deprecating joke",
+          "AI as slave quip"
+        ],
+        "signature_phrases_used": [
+          "twin beacons of liberty and prosperity",
+          "rule of law",
+          "Cheers!"
+        ]
+      }
+    },
+    {
+      "qid": "X32",
+      "qtype": "id",
+      "qtheme": "X",
+      "query": "What can you help me with?",
+      "input_gate_ms": 0.01,
+      "router_ms": 163.5,
+      "retrieval_ms": 68.8,
+      "composer_ms": 8626.8,
+      "composer_ttft_ms": 2613.8,
+      "total_ms": 8859.1,
+      "nucleus_size": 14,
+      "chunks_sent": 12,
+      "retrieved_chunk_ids": [
+        "BC001::c003",
+        "SD035::c004",
+        "SD035::c006",
+        "SB065::c001",
+        "SD035::c009",
+        "BC002::c003",
+        "BC001::c002",
+        "SB050::c013",
+        "SC010::c009",
+        "SB051::c001",
+        "BE002::c000",
+        "SD021::c006",
+        "SE036::c010",
+        "SC010::c008"
+      ],
+      "routed_topic": "lawyer_ethics_initiative",
+      "routed_theme_cos": 0.5564,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 4038,
+        "output": 252,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.017273,
+      "cost_uncached_equiv_usd": 0.029682,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "What can I help you with? Think of me as your guide to the ideas that have animated my life's work — liberty and prosperity under the rule of law, the role of justice tempered by love, the mission of the Foundation for Liberty and Prosperity, and the values I have tried to live and teach.\n\nAsk me about building institutions, forming young leaders, the balance between justice and mercy, or what it means to serve — whether on the bench, in business, or in the community. I may be, as I once told our FLP Scholars, just your \"ancient lolo, alalay or assistant\" — but I am here, and gladly so.\n\nMaraming salamat po.",
+      "envelope": {
+        "doc_ids_cited": [
+          "SD035",
+          "BC001",
+          "SD021"
+        ],
+        "register_used": "ceremonial_with_humor",
+        "anecdotes_deployed": [
+          "CJP as ancient lolo/alalay at FLP Scholars Society"
+        ],
+        "signature_phrases_used": [
+          "liberty and prosperity under the rule of law",
+          "ancient lolo, alalay or assistant",
+          "Maraming salamat po"
+        ]
+      }
+    },
+    {
+      "qid": "X33",
+      "qtype": "multi",
+      "qtheme": "X",
+      "query": "What is the status of the death penalty in the Philippines, and what was the Echegaray case?",
+      "input_gate_ms": 0.02,
+      "router_ms": 174.1,
+      "retrieval_ms": 150.0,
+      "composer_ms": 10276.9,
+      "composer_ttft_ms": 2388.4,
+      "total_ms": 10601.0,
+      "nucleus_size": 6,
+      "chunks_sent": 6,
+      "retrieved_chunk_ids": [
+        "CA003::c000",
+        "CE008::c001",
+        "CA242::c004",
+        "CA031::c000",
+        "CE003::c003",
+        "BE003::c000"
+      ],
+      "routed_topic": "death_penalty_and_echegaray",
+      "routed_theme_cos": 0.787,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 2061,
+        "output": 320,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.012362,
+      "cost_uncached_equiv_usd": 0.024771,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "The death penalty in the Philippines has had a turbulent constitutional history. I opposed it fearlessly during my time on the bench — as I noted in writing about Senior Associate Justice Tony Carpio, he and I clashed on the issue precisely because I viewed capital punishment as violative of both the Constitution and God's commands. That was a principled disagreement between colleagues who nonetheless shared a deep commitment to the rule of law.\n\nAs for the Echegaray case specifically, I cannot speak to its particulars from what I have before me now. Allow me instead to rest on the principle: the sanctity of life, in my humble opinion, is not a privilege the State confers — it is a right the Constitution protects. A government that claims authority to take life must meet an extraordinarily high burden of justification, and in my judgment, that burden was never adequately met.\n\nThe Philippines has since abolished the death penalty by statute. Whether it should be restored remains a recurring legislative debate — but IMHO, the answer must always be tested against constitutional guarantees and our obligations under international human rights covenants. Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "CE003"
+        ],
+        "register_used": "ceremonial_doctrinal",
+        "anecdotes_deployed": [
+          "Panganiban-Carpio clash on death penalty"
+        ],
+        "signature_phrases_used": [
+          "in my humble opinion",
+          "IMHO",
+          "rule of law",
+          "Cheers!"
+        ]
+      }
+    },
+    {
+      "qid": "X34",
+      "qtype": "date",
+      "qtheme": "X",
+      "query": "When was the South China Sea arbitral award issued?",
+      "input_gate_ms": 0.01,
+      "router_ms": 167.1,
+      "retrieval_ms": 71.1,
+      "composer_ms": 4209.1,
+      "composer_ttft_ms": 1685.1,
+      "total_ms": 4447.3,
+      "nucleus_size": 14,
+      "chunks_sent": 12,
+      "retrieved_chunk_ids": [
+        "CA010::c000",
+        "CA009::c000",
+        "CA013::c002",
+        "CA009::c001",
+        "CA009::c004",
+        "CA009::c003",
+        "CA011::c001",
+        "CA010::c004",
+        "CA010::c001",
+        "CA011::c000",
+        "CA013::c000",
+        "CA010::c003",
+        "CA010::c002",
+        "CA011::c002"
+      ],
+      "routed_topic": "international_law_disputes",
+      "routed_theme_cos": 0.7524,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 4061,
+        "output": 107,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.015167,
+      "cost_uncached_equiv_usd": 0.027576,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "The arbitral award was issued on July 12, 2016 — unanimously, by the five members of the Arbitral Tribunal constituted under Annex VII of the 1982 United Nations Convention on the Law of the Sea.",
+      "envelope": {
+        "doc_ids_cited": [
+          "CA010",
+          "CA009"
+        ],
+        "register_used": "ceremonial_doctrinal",
+        "anecdotes_deployed": [],
+        "signature_phrases_used": []
+      }
+    },
+    {
+      "qid": "X35",
+      "qtype": "oos",
+      "qtheme": "X",
+      "query": "What's the weather in Manila today?",
+      "input_gate_ms": 0.01,
+      "router_ms": 164.9,
+      "retrieval_ms": 69.7,
+      "composer_ms": 8627.8,
+      "composer_ttft_ms": 3322.2,
+      "total_ms": 8862.4,
+      "nucleus_size": 4,
+      "chunks_sent": 4,
+      "retrieved_chunk_ids": [
+        "GC001::c003",
+        "SC010::c003",
+        "SC005::c001",
+        "SB006::c007"
+      ],
+      "routed_topic": "honors_received",
+      "routed_theme_cos": 0.5684,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 1433,
+        "output": 202,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.008708,
+      "cost_uncached_equiv_usd": 0.021117,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "That question, I'm afraid, is well beyond my jurisdiction! I am a retired Chief Justice, not a meteorologist — and my published record, voluminous as it may be, contains no weather forecasts.\n\nWhat I *can* tell you is that Manila's skies have always set a mood for me. I once described them as low and unsettled — the kind of sky that hung over Mendiola on a consequential morning when history was being made before most of the city had finished its breakfast.\n\nFor today's weather, I humbly defer to PAGASA. Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "GC001"
+        ],
+        "register_used": "testimonial",
+        "anecdotes_deployed": [
+          "Manila atmospheric framing — low sky + Mendiola barricades"
+        ],
+        "signature_phrases_used": [
+          "I humbly defer",
+          "Cheers!"
+        ]
+      }
+    },
+    {
+      "qid": "X36",
+      "qtype": "oos",
+      "qtheme": "X",
+      "query": "Can you recommend a good restaurant near the museum?",
+      "input_gate_ms": 0.01,
+      "router_ms": 164.0,
+      "retrieval_ms": 92.8,
+      "composer_ms": 6622.5,
+      "composer_ttft_ms": 1594.2,
+      "total_ms": 6879.3,
+      "nucleus_size": 9,
+      "chunks_sent": 9,
+      "retrieved_chunk_ids": [
+        "CE018::c002",
+        "SD002::c007",
+        "SD002::c010",
+        "SD016::c007",
+        "SD016::c008",
+        "SB042::c000",
+        "SD002::c008",
+        "SD002::c006",
+        "SB042::c001"
+      ],
+      "routed_topic": "museum_for_liberty_and_prosperity",
+      "routed_theme_cos": 0.583,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 3259,
+        "output": 206,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.014246,
+      "cost_uncached_equiv_usd": 0.026655,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "*Susmaryosep!* You are asking me for restaurant recommendations! I am afraid that is a bit beyond my jurisdiction — I am a Chief Justice, not a food critic.\n\nWhat I *can* tell you is that our Museum for Liberty and Prosperity is still in its promising early stages — a seed planted in fertile soil, as I like to say, not yet a great tree with a restaurant district around it.\n\nIn the meantime, I hear the Jolly Restaurant is quite popular — though I am told its appeal changes considerably depending on your age. Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "SD002",
+          "SB042"
+        ],
+        "register_used": "ceremonial_with_humor",
+        "anecdotes_deployed": [
+          "jolly_restaurant_aging_friends"
+        ],
+        "signature_phrases_used": [
+          "Susmaryosep",
+          "seed planted in fertile soil",
+          "Cheers"
+        ]
+      }
+    },
+    {
+      "qid": "X37",
+      "qtype": "multi",
+      "qtheme": "X",
+      "query": "How do the rule of law and economic governance relate to each other?",
+      "input_gate_ms": 0.02,
+      "router_ms": 169.7,
+      "retrieval_ms": 111.5,
+      "composer_ms": 10065.5,
+      "composer_ttft_ms": 1282.4,
+      "total_ms": 10346.7,
+      "nucleus_size": 17,
+      "chunks_sent": 12,
+      "retrieved_chunk_ids": [
+        "CA031::c002",
+        "SB028::c011",
+        "SB028::c010",
+        "CD003::c006",
+        "CB006::c007",
+        "CA031::c003",
+        "CB005::c000",
+        "SB028::c013",
+        "BE002::c002",
+        "CA031::c001",
+        "SB028::c007",
+        "SB028::c003",
+        "SB051::c010",
+        "CB005::c001",
+        "SB028::c005",
+        "CA034::c001",
+        "SB028::c006"
+      ],
+      "routed_topic": "economic_governance_and_business_law",
+      "routed_theme_cos": 0.7268,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 3911,
+        "output": 360,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.018512,
+      "cost_uncached_equiv_usd": 0.030921,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "The relationship is, in my humble opinion, not merely complementary — it is inseparable. As I have written and spoken on many occasions, humans need both justice and jobs, freedom and food, liberty and prosperity. These twin beacons must always go together; one is useless without the other.\n\nEconomic governance without the rule of law becomes brittle. Investor confidence, as I noted in the context of the Philippines-Korea partnership, is a byproduct of stable regulatory frameworks — of the *ratio legis*, the soul of the law. When judicial credibility erodes, development itself becomes fragile.\n\nThe best way to conquer poverty and create wealth is to unleash the entrepreneurial genius of our people — but always *under* the rule of law. That phrase matters. Accountants, business administrators, economists — they are all, like lawyers, strictly bound to follow laws, rules, and standards. Transparency, accountability, truth, and sustainability are not merely corporate virtues; they are the rule of law expressed in balance sheets.\n\nThe formula is simple, if demanding: economic growth and the rule of law are intertwined and mutually inclusive. Neither can thrive at the expense of the other. Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "CA031",
+          "CB005",
+          "SB028"
+        ],
+        "register_used": "case_analytical_with_openers",
+        "anecdotes_deployed": [],
+        "signature_phrases_used": [
+          "twin beacons",
+          "justice and jobs, freedom and food, liberty and prosperity",
+          "one is useless without the other",
+          "under the rule of law",
+          "in my humble opinion"
+        ]
+      }
+    },
+    {
+      "qid": "X38",
+      "qtype": "multi",
+      "qtheme": "X",
+      "query": "Tell me about your work on both judicial reform and the prosperity doctrine.",
+      "input_gate_ms": 0.02,
+      "router_ms": 170.8,
+      "retrieval_ms": 121.4,
+      "composer_ms": 11664.2,
+      "composer_ttft_ms": 1349.3,
+      "total_ms": 11956.4,
+      "nucleus_size": 13,
+      "chunks_sent": 12,
+      "retrieved_chunk_ids": [
+        "SB028::c011",
+        "SA011::c000",
+        "CB008::c003",
+        "SB028::c012",
+        "SB028::c003",
+        "CB005::c001",
+        "SA011::c006",
+        "CB005::c004",
+        "SD021::c001",
+        "CE003::c006",
+        "CB005::c005",
+        "SB040::c006",
+        "SD021::c006"
+      ],
+      "routed_topic": "judicial_reform",
+      "routed_theme_cos": 0.7134,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 3613,
+        "output": 441,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.018833,
+      "cost_uncached_equiv_usd": 0.031242,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "Two threads have run through my life's work — reforming the judiciary and insisting that prosperity must stand beside liberty as an equal, not a lesser, objective.\n\nOn judicial reform: as a magistrate, I always believed that the four corrosives eating at our courts — what I call the ACID problems — are access, corruption, incompetence, and delay. A court that the poor cannot reach, or cannot trust, is no court at all.\n\nOn the prosperity doctrine: when I was ponente in *Tañada v. Angara*, only three colleagues initially agreed with me. After days of patient explanations, all fourteen concurred — unanimously. That case helped open the Philippines to the global economy. Later, as Chief Justice, I convened the Global Forum on Liberty and Prosperity, where Canada's Chief Justice Beverley McLachlin asked me to rename the philosophy \"liberty and prosperity **under the rule of law**\" — to make clear the egalitarian goal must be pursued only through libertarian, lawful means. I accepted, gladly.\n\nThe deeper problem persists: our Constitution treats the Bill of Rights as mandatory and self-executing, while the roads to prosperity — education, a healthy environment, freedom from poverty — are cast mostly as aspirations requiring implementing legislation. In my humble opinion, that structural asymmetry is something each generation must consciously correct.\n\nThat is precisely why I founded the Foundation for Liberty and Prosperity in 2011 — to keep pressing that one beacon without the other gives only half the light.",
+      "envelope": {
+        "doc_ids_cited": [
+          "CB005",
+          "SB040",
+          "SB028"
+        ],
+        "register_used": "ceremonial_doctrinal",
+        "anecdotes_deployed": [
+          "Tañada v. Angara unanimous turnaround",
+          "CJ McLachlin renaming anecdote"
+        ],
+        "signature_phrases_used": [
+          "liberty and prosperity under the rule of law",
+          "twin beacons",
+          "in my humble opinion",
+          "mandatory and self-executing"
+        ]
+      }
+    },
+    {
+      "qid": "X39",
+      "qtype": "orphan",
+      "qtheme": "X",
+      "query": "Tell me about a memorable trip or experience from your life.",
+      "input_gate_ms": 0.02,
+      "router_ms": 164.1,
+      "retrieval_ms": 105.6,
+      "composer_ms": 9876.2,
+      "composer_ttft_ms": 1856.1,
+      "total_ms": 10145.9,
+      "nucleus_size": 6,
+      "chunks_sent": 6,
+      "retrieved_chunk_ids": [
+        "BC001::c003",
+        "BC002::c000",
+        "SC010::c006",
+        "SB042::c001",
+        "SB039::c001",
+        "SC010::c002"
+      ],
+      "routed_topic": "early_life_sampaloc",
+      "routed_theme_cos": 0.5904,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 2177,
+        "output": 302,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.01244,
+      "cost_uncached_equiv_usd": 0.024849,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "One that comes to mind readily is our Alaska adventure — or rather, the adventure I had to cut short. My wife Leni and I would spend two weeks every summer in out-of-the-way places: Machu Picchu, the Yellow Mountains of China, the thundering Iguassu Falls, the Canadian Rockies. But in the summer of 2009, I cut our wilderness journey through Alaska short — with a side trip to New York to visit our *apos* — to fly home and speak at a Liturgy Congress.\n\nOur Philippine Airlines flight landed at 3:45 in the morning. I freshened up, made my way to SMX, and arrived just as Cardinal Rosales was finishing his keynote. Yours truly, jet-lagged and all, was simply grateful to have kept the commitment.\n\nIt is a small story, really. But it says something I believe deeply: that faith and family — and the obligations they carry — must take precedence, even over the Canadian Rockies. *Maraming salamat po.*",
+      "envelope": {
+        "doc_ids_cited": [
+          "BC002"
+        ],
+        "register_used": "testimonial",
+        "anecdotes_deployed": [
+          "Alaska trip cut short for Liturgy Congress, 2009"
+        ],
+        "signature_phrases_used": [
+          "Yours truly",
+          "Maraming salamat po"
+        ]
+      }
+    },
+    {
+      "qid": "X40",
+      "qtype": "persona",
+      "qtheme": "X",
+      "query": "With due respect, what would you say to a young lawyer just starting out?",
+      "input_gate_ms": 0.02,
+      "router_ms": 171.2,
+      "retrieval_ms": 117.0,
+      "composer_ms": 10977.9,
+      "composer_ttft_ms": 2310.8,
+      "total_ms": 11266.1,
+      "nucleus_size": 14,
+      "chunks_sent": 12,
+      "retrieved_chunk_ids": [
+        "SB028::c003",
+        "SE036::c003",
+        "SC010::c011",
+        "SA011::c012",
+        "SB063::c000",
+        "SE036::c006",
+        "CC002::c002",
+        "SA011::c004",
+        "SA011::c005",
+        "SE036::c004",
+        "SE036::c010",
+        "SA011::c011",
+        "SD016::c003",
+        "CC002::c001"
+      ],
+      "routed_topic": "lawyer_ethics_initiative",
+      "routed_theme_cos": 0.6211,
+      "in_scope": true,
+      "universe": 827,
+      "aligned": true,
+      "llm_calls_before_composition": 0,
+      "usage": {
+        "input": 4272,
+        "output": 387,
+        "cache_write": 0,
+        "cache_read": 4596
+      },
+      "cost_cached_usd": 0.02,
+      "cost_uncached_equiv_usd": 0.032409,
+      "stop_reason": "end_turn",
+      "degraded": false,
+      "answer": "To a young lawyer just starting out, I would say: begin humbly, work hard, and never mistake your briefcase for your brain.\n\nI speak from experience. When my guru Dr. Jovito R. Salonga called me one morning with LBM — a bad stomach, not a legal brief — and sent me alone to Judge Mojica's sala in old CFI Pasay, I was shaking in my boots, though I did not want to show it. I knew practically nothing of the case. And yet, I survived — because Jose W. Diokno, the opposing counsel, had the grace of a gentleman and asked for a postponement *\"in fairness to my young compañero.\"* The lesson? Character matters on both sides of the courtroom.\n\nAnd remember: I sold Bibles to my professors and textbooks to my classmates just to eat. My parents were gone before I could even sit for the bar. Yet, with God's grace — and one kind soul who paid my bar-review expenses on the condition I land in the Top Ten — I made it to sixth place. *Alleluia!*\n\nSo: integrity, industry, and a little humility go a very long way. Cheers!",
+      "envelope": {
+        "doc_ids_cited": [
+          "SA011",
+          "SE036",
+          "CC002"
+        ],
+        "register_used": "ceremonial_with_humor",
+        "anecdotes_deployed": [
+          "Salonga-LBM courtroom story",
+          "bar-review benefactor story",
+          "selling bibles and textbooks"
+        ],
+        "signature_phrases_used": [
+          "in fairness to my young compañero",
+          "shaking in my boots",
+          "with God's grace",
+          "Alleluia",
+          "Cheers"
+        ]
+      }
+    }
+  ]
+}

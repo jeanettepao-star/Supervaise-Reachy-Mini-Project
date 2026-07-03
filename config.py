@@ -112,7 +112,7 @@ MAX_K: int = _env_int("CJ_MAX_K", 12)
 # but MAX_K is still the DEFAULT for COMPOSER_TOP_K (a composer-side cap, W2.2,
 # out of scope here) and both are still logged in baseline snapshots. FLAGGED.
 RETRIEVAL_TOP_P: float = _env_float("CJ_RETRIEVAL_TOP_P", 0.95)
-RETRIEVAL_MIN_K: int = _env_int("CJ_RETRIEVAL_MIN_K", 2)
+RETRIEVAL_MIN_K: int = _env_int("CJ_RETRIEVAL_MIN_K", 4)
 # [W2.x-TOPP-2] Which score basis the nucleus accumulates over:
 #   "rrf_flat"     : sum-normalized fused score — DEGENERATE (flat RRF ~753 kept).
 #   "cosine"       : softmax(dense cosine sims / temp) — real peak, but drops the
