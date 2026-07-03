@@ -142,11 +142,13 @@ def speak_stream(token_iter, tts, keep_wavs: bool = False) -> dict:
             if item is None:
                 q.task_done(); break
             idx, sent, emit_ms = item
+            synth_start_ms = (time.perf_counter() - t0) * 1000   # audio-START for this sentence
             path, synth_ms, audio_s = tts.synth(sent)
             ready_ms = (time.perf_counter() - t0) * 1000
             if ttfa["ms"] is None:
                 ttfa["ms"] = ready_ms                 # first spoken audio sample OUT
             sentences.append({"idx": idx, "text": sent, "emit_ms": round(emit_ms, 1),
+                              "synth_start_ms": round(synth_start_ms, 1),
                               "synth_ms": synth_ms, "audio_s": audio_s,
                               "audio_ready_ms": round(ready_ms, 1)})
             (wavs.append(path) if keep_wavs else os.unlink(path))

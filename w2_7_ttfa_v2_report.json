@@ -1,0 +1,809 @@
+{
+  "task": "W2.7-TTS real-audio TTFA + stream-overlap proof",
+  "api_spend_usd": 0.0,
+  "source": "arch_baseline_v2.json (40 persisted answers)",
+  "engine": {
+    "chosen": "sapi5 (Windows, pywin32, zero-download)",
+    "piper_attempt": "piper-tts pip install SUCCEEDED on Windows (imports OK, PiperVoice present) — Windows/ONNX concern did NOT materialize; blocked only on a separate ~60-100MB voice .onnx model download (HF), not pulled (download-permission boundary + flagged stall risk). Fell through per ladder.",
+    "robot_dropin": "Piper/Kokoro via the same TTS.synth interface",
+    "voices": [
+      "Microsoft David Desktop",
+      "Microsoft Zira Desktop"
+    ]
+  },
+  "incremental_synthesis": "CONFIRMED — SAPI synthesizes per sentence; worker thread synthesizes sentence N while the replay stream is still producing sentence N+1.",
+  "overlap_proof": {
+    "metric": "t_sentence1_audio_START < t_sentence2_generation_END",
+    "multi_sentence_queries": 39,
+    "PASS": 39,
+    "FAIL": 0,
+    "single_sentence_NA": 1,
+    "all_multi_pass": true
+  },
+  "ttfa_real_ms": {
+    "p50": 2505.3,
+    "p95": 3717.8,
+    "n": 40,
+    "note": "first PLAYABLE audio out (s1 WAV complete). Real streaming TTS would emit the first sample mid-sentence, so this SAPI value is a conservative upper bound."
+  },
+  "ttfa_fullwait_ms": {
+    "p50": 8808.5,
+    "p95": 10874.0
+  },
+  "saved_ms": {
+    "p50": 6237.0,
+    "p95": 8217.6
+  },
+  "cold_load_first_utterance_ms": 397.5,
+  "example_trace_C13": {
+    "t_stream_start": 0.0,
+    "t_sentence1_ready": 1976.5,
+    "t_sentence1_audio_START": 1976.6,
+    "t_sentence1_audio_READY": 2054.5,
+    "t_sentence2_ready_gen_END": 2193.4
+  },
+  "decisions": {
+    "approach2_reasoning_traces": "NOT built (dropped)",
+    "approach1_haiku_filler": "NOT built. Real TTFA p50 ~2.5s (mostly the replayed v2 TTFT). If Sheena's UX flags the pre-audio silence, the filler is the lever — flag, not build.",
+    "spoken_output": "prose only; envelope trails after the sentinel, never spoken"
+  },
+  "per_query": [
+    {
+      "qid": "A1",
+      "type": "def",
+      "theme": "A",
+      "n_sentences": 15,
+      "ttfa_ms": 1575.6,
+      "s1_audio_START_ms": 1497.9,
+      "fullwait_ttfa_ms": 8551.7,
+      "saved_ms": 6976.1,
+      "total_spoken_s": 79.07,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 1497.8,
+        "t_sentence1_audio_START": 1497.9,
+        "t_sentence1_audio_READY": 1575.6,
+        "t_sentence2_ready_gen_END": 1863.1
+      }
+    },
+    {
+      "qid": "A2",
+      "type": "doc",
+      "theme": "A",
+      "n_sentences": 10,
+      "ttfa_ms": 3591.5,
+      "s1_audio_START_ms": 3436.1,
+      "fullwait_ttfa_ms": 9526.4,
+      "saved_ms": 5934.9,
+      "total_spoken_s": 75.08,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 3436.0,
+        "t_sentence1_audio_START": 3436.1,
+        "t_sentence1_audio_READY": 3591.5,
+        "t_sentence2_ready_gen_END": 4229.7
+      }
+    },
+    {
+      "qid": "A3",
+      "type": "case",
+      "theme": "A",
+      "n_sentences": 13,
+      "ttfa_ms": 2649.4,
+      "s1_audio_START_ms": 2474.3,
+      "fullwait_ttfa_ms": 8543.7,
+      "saved_ms": 5894.3,
+      "total_spoken_s": 81.54,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2474.2,
+        "t_sentence1_audio_START": 2474.3,
+        "t_sentence1_audio_READY": 2649.4,
+        "t_sentence2_ready_gen_END": 2737.0
+      }
+    },
+    {
+      "qid": "A4",
+      "type": "stance",
+      "theme": "A",
+      "n_sentences": 10,
+      "ttfa_ms": 3251.5,
+      "s1_audio_START_ms": 3172.2,
+      "fullwait_ttfa_ms": 10857.3,
+      "saved_ms": 7605.8,
+      "total_spoken_s": 85.07,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 3172.1,
+        "t_sentence1_audio_START": 3172.2,
+        "t_sentence1_audio_READY": 3251.5,
+        "t_sentence2_ready_gen_END": 5142.7
+      }
+    },
+    {
+      "qid": "A5",
+      "type": "doc",
+      "theme": "A",
+      "n_sentences": 17,
+      "ttfa_ms": 2516.0,
+      "s1_audio_START_ms": 2396.7,
+      "fullwait_ttfa_ms": 11190.7,
+      "saved_ms": 8674.7,
+      "total_spoken_s": 98.26,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2396.5,
+        "t_sentence1_audio_START": 2396.7,
+        "t_sentence1_audio_READY": 2516.0,
+        "t_sentence2_ready_gen_END": 2843.3
+      }
+    },
+    {
+      "qid": "A6",
+      "type": "def",
+      "theme": "A",
+      "n_sentences": 15,
+      "ttfa_ms": 1772.2,
+      "s1_audio_START_ms": 1727.8,
+      "fullwait_ttfa_ms": 8291.9,
+      "saved_ms": 6519.7,
+      "total_spoken_s": 87.86,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 1727.7,
+        "t_sentence1_audio_START": 1727.8,
+        "t_sentence1_audio_READY": 1772.2,
+        "t_sentence2_ready_gen_END": 2019.1
+      }
+    },
+    {
+      "qid": "B7",
+      "type": "doc",
+      "theme": "B",
+      "n_sentences": 15,
+      "ttfa_ms": 2665.6,
+      "s1_audio_START_ms": 2610.8,
+      "fullwait_ttfa_ms": 8843.7,
+      "saved_ms": 6178.1,
+      "total_spoken_s": 95.4,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2610.6,
+        "t_sentence1_audio_START": 2610.8,
+        "t_sentence1_audio_READY": 2665.6,
+        "t_sentence2_ready_gen_END": 2776.6
+      }
+    },
+    {
+      "qid": "B8",
+      "type": "doc",
+      "theme": "B",
+      "n_sentences": 14,
+      "ttfa_ms": 2494.6,
+      "s1_audio_START_ms": 2393.1,
+      "fullwait_ttfa_ms": 7062.5,
+      "saved_ms": 4567.9,
+      "total_spoken_s": 64.61,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2393.0,
+        "t_sentence1_audio_START": 2393.1,
+        "t_sentence1_audio_READY": 2494.6,
+        "t_sentence2_ready_gen_END": 2630.0
+      }
+    },
+    {
+      "qid": "B9",
+      "type": "doc",
+      "theme": "B",
+      "n_sentences": 14,
+      "ttfa_ms": 1928.0,
+      "s1_audio_START_ms": 1874.3,
+      "fullwait_ttfa_ms": 9082.6,
+      "saved_ms": 7154.6,
+      "total_spoken_s": 85.51,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 1874.2,
+        "t_sentence1_audio_START": 1874.3,
+        "t_sentence1_audio_READY": 1928.0,
+        "t_sentence2_ready_gen_END": 2400.5
+      }
+    },
+    {
+      "qid": "B10",
+      "type": "def",
+      "theme": "B",
+      "n_sentences": 10,
+      "ttfa_ms": 2134.4,
+      "s1_audio_START_ms": 2018.8,
+      "fullwait_ttfa_ms": 7356.2,
+      "saved_ms": 5221.8,
+      "total_spoken_s": 79.87,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2018.6,
+        "t_sentence1_audio_START": 2018.8,
+        "t_sentence1_audio_READY": 2134.4,
+        "t_sentence2_ready_gen_END": 3311.4
+      }
+    },
+    {
+      "qid": "B11",
+      "type": "stance",
+      "theme": "B",
+      "n_sentences": 17,
+      "ttfa_ms": 2036.0,
+      "s1_audio_START_ms": 1950.4,
+      "fullwait_ttfa_ms": 10243.0,
+      "saved_ms": 8207.0,
+      "total_spoken_s": 101.31,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 1950.3,
+        "t_sentence1_audio_START": 1950.4,
+        "t_sentence1_audio_READY": 2036.0,
+        "t_sentence2_ready_gen_END": 2376.0
+      }
+    },
+    {
+      "qid": "B12",
+      "type": "multi",
+      "theme": "B",
+      "n_sentences": 17,
+      "ttfa_ms": 2018.9,
+      "s1_audio_START_ms": 1905.4,
+      "fullwait_ttfa_ms": 8434.4,
+      "saved_ms": 6415.5,
+      "total_spoken_s": 78.92,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 1905.3,
+        "t_sentence1_audio_START": 1905.4,
+        "t_sentence1_audio_READY": 2018.9,
+        "t_sentence2_ready_gen_END": 2259.3
+      }
+    },
+    {
+      "qid": "C13",
+      "type": "stance",
+      "theme": "C",
+      "n_sentences": 18,
+      "ttfa_ms": 2054.5,
+      "s1_audio_START_ms": 1976.6,
+      "fullwait_ttfa_ms": 8840.5,
+      "saved_ms": 6786.0,
+      "total_spoken_s": 82.59,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 1976.5,
+        "t_sentence1_audio_START": 1976.6,
+        "t_sentence1_audio_READY": 2054.5,
+        "t_sentence2_ready_gen_END": 2193.4
+      }
+    },
+    {
+      "qid": "C14",
+      "type": "stance",
+      "theme": "C",
+      "n_sentences": 16,
+      "ttfa_ms": 1888.4,
+      "s1_audio_START_ms": 1766.8,
+      "fullwait_ttfa_ms": 9317.4,
+      "saved_ms": 7429.0,
+      "total_spoken_s": 85.45,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 1766.7,
+        "t_sentence1_audio_START": 1766.8,
+        "t_sentence1_audio_READY": 1888.4,
+        "t_sentence2_ready_gen_END": 2947.5
+      }
+    },
+    {
+      "qid": "C15",
+      "type": "doc",
+      "theme": "C",
+      "n_sentences": 16,
+      "ttfa_ms": 1772.1,
+      "s1_audio_START_ms": 1716.6,
+      "fullwait_ttfa_ms": 7960.6,
+      "saved_ms": 6188.5,
+      "total_spoken_s": 77.37,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 1716.5,
+        "t_sentence1_audio_START": 1716.6,
+        "t_sentence1_audio_READY": 1772.1,
+        "t_sentence2_ready_gen_END": 2484.1
+      }
+    },
+    {
+      "qid": "C16",
+      "type": "stance",
+      "theme": "C",
+      "n_sentences": 12,
+      "ttfa_ms": 2998.9,
+      "s1_audio_START_ms": 2959.5,
+      "fullwait_ttfa_ms": 8512.7,
+      "saved_ms": 5513.8,
+      "total_spoken_s": 66.06,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2959.4,
+        "t_sentence1_audio_START": 2959.5,
+        "t_sentence1_audio_READY": 2998.9,
+        "t_sentence2_ready_gen_END": 3180.9
+      }
+    },
+    {
+      "qid": "C17",
+      "type": "stance",
+      "theme": "C",
+      "n_sentences": 17,
+      "ttfa_ms": 1750.5,
+      "s1_audio_START_ms": 1719.9,
+      "fullwait_ttfa_ms": 9510.5,
+      "saved_ms": 7760.0,
+      "total_spoken_s": 84.04,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 1719.8,
+        "t_sentence1_audio_START": 1719.9,
+        "t_sentence1_audio_READY": 1750.5,
+        "t_sentence2_ready_gen_END": 2415.9
+      }
+    },
+    {
+      "qid": "C18",
+      "type": "stance",
+      "theme": "C",
+      "n_sentences": 15,
+      "ttfa_ms": 3717.7,
+      "s1_audio_START_ms": 3541.1,
+      "fullwait_ttfa_ms": 9455.1,
+      "saved_ms": 5737.4,
+      "total_spoken_s": 83.2,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 3541.0,
+        "t_sentence1_audio_START": 3541.1,
+        "t_sentence1_audio_READY": 3717.7,
+        "t_sentence2_ready_gen_END": 4199.0
+      }
+    },
+    {
+      "qid": "D19",
+      "type": "def",
+      "theme": "D",
+      "n_sentences": 12,
+      "ttfa_ms": 2492.0,
+      "s1_audio_START_ms": 2348.2,
+      "fullwait_ttfa_ms": 8777.5,
+      "saved_ms": 6285.5,
+      "total_spoken_s": 94.68,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2348.1,
+        "t_sentence1_audio_START": 2348.2,
+        "t_sentence1_audio_READY": 2492.0,
+        "t_sentence2_ready_gen_END": 2479.2
+      }
+    },
+    {
+      "qid": "D20",
+      "type": "def",
+      "theme": "D",
+      "n_sentences": 7,
+      "ttfa_ms": 2094.2,
+      "s1_audio_START_ms": 2048.1,
+      "fullwait_ttfa_ms": 6409.6,
+      "saved_ms": 4315.4,
+      "total_spoken_s": 46.09,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2048.0,
+        "t_sentence1_audio_START": 2048.1,
+        "t_sentence1_audio_READY": 2094.2,
+        "t_sentence2_ready_gen_END": 4391.8
+      }
+    },
+    {
+      "qid": "D21",
+      "type": "orphan",
+      "theme": "D",
+      "n_sentences": 8,
+      "ttfa_ms": 2125.7,
+      "s1_audio_START_ms": 2066.3,
+      "fullwait_ttfa_ms": 6844.1,
+      "saved_ms": 4718.4,
+      "total_spoken_s": 61.48,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2066.2,
+        "t_sentence1_audio_START": 2066.3,
+        "t_sentence1_audio_READY": 2125.7,
+        "t_sentence2_ready_gen_END": 3403.2
+      }
+    },
+    {
+      "qid": "D22",
+      "type": "doc",
+      "theme": "D",
+      "n_sentences": 11,
+      "ttfa_ms": 2784.7,
+      "s1_audio_START_ms": 2650.9,
+      "fullwait_ttfa_ms": 8150.8,
+      "saved_ms": 5366.1,
+      "total_spoken_s": 78.57,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2650.8,
+        "t_sentence1_audio_START": 2650.9,
+        "t_sentence1_audio_READY": 2784.7,
+        "t_sentence2_ready_gen_END": 3641.8
+      }
+    },
+    {
+      "qid": "D23",
+      "type": "def",
+      "theme": "D",
+      "n_sentences": 12,
+      "ttfa_ms": 2994.3,
+      "s1_audio_START_ms": 2885.4,
+      "fullwait_ttfa_ms": 10151.8,
+      "saved_ms": 7157.5,
+      "total_spoken_s": 84.83,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2885.3,
+        "t_sentence1_audio_START": 2885.4,
+        "t_sentence1_audio_READY": 2994.3,
+        "t_sentence2_ready_gen_END": 4175.7
+      }
+    },
+    {
+      "qid": "D24",
+      "type": "stance",
+      "theme": "D",
+      "n_sentences": 10,
+      "ttfa_ms": 3961.5,
+      "s1_audio_START_ms": 3803.9,
+      "fullwait_ttfa_ms": 9520.0,
+      "saved_ms": 5558.5,
+      "total_spoken_s": 77.37,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 3803.7,
+        "t_sentence1_audio_START": 3803.9,
+        "t_sentence1_audio_READY": 3961.5,
+        "t_sentence2_ready_gen_END": 4260.9
+      }
+    },
+    {
+      "qid": "E25",
+      "type": "def",
+      "theme": "E",
+      "n_sentences": 12,
+      "ttfa_ms": 2761.8,
+      "s1_audio_START_ms": 2613.2,
+      "fullwait_ttfa_ms": 10575.9,
+      "saved_ms": 7814.1,
+      "total_spoken_s": 102.05,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2613.0,
+        "t_sentence1_audio_START": 2613.2,
+        "t_sentence1_audio_READY": 2761.8,
+        "t_sentence2_ready_gen_END": 2942.8
+      }
+    },
+    {
+      "qid": "E26",
+      "type": "stance",
+      "theme": "E",
+      "n_sentences": 13,
+      "ttfa_ms": 3605.4,
+      "s1_audio_START_ms": 3469.9,
+      "fullwait_ttfa_ms": 11529.5,
+      "saved_ms": 7924.1,
+      "total_spoken_s": 89.07,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 3469.8,
+        "t_sentence1_audio_START": 3469.9,
+        "t_sentence1_audio_READY": 3605.4,
+        "t_sentence2_ready_gen_END": 3727.8
+      }
+    },
+    {
+      "qid": "E27",
+      "type": "doc",
+      "theme": "E",
+      "n_sentences": 15,
+      "ttfa_ms": 2449.2,
+      "s1_audio_START_ms": 2381.3,
+      "fullwait_ttfa_ms": 9201.3,
+      "saved_ms": 6752.1,
+      "total_spoken_s": 80.13,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2380.8,
+        "t_sentence1_audio_START": 2381.3,
+        "t_sentence1_audio_READY": 2449.2,
+        "t_sentence2_ready_gen_END": 3096.0
+      }
+    },
+    {
+      "qid": "E28",
+      "type": "case",
+      "theme": "E",
+      "n_sentences": 9,
+      "ttfa_ms": 1783.2,
+      "s1_audio_START_ms": 1704.5,
+      "fullwait_ttfa_ms": 6549.3,
+      "saved_ms": 4766.1,
+      "total_spoken_s": 66.43,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 1704.4,
+        "t_sentence1_audio_START": 1704.5,
+        "t_sentence1_audio_READY": 1783.2,
+        "t_sentence2_ready_gen_END": 2070.3
+      }
+    },
+    {
+      "qid": "E29",
+      "type": "case",
+      "theme": "E",
+      "n_sentences": 15,
+      "ttfa_ms": 2916.1,
+      "s1_audio_START_ms": 2816.4,
+      "fullwait_ttfa_ms": 9636.2,
+      "saved_ms": 6720.1,
+      "total_spoken_s": 90.29,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2816.3,
+        "t_sentence1_audio_START": 2816.4,
+        "t_sentence1_audio_READY": 2916.1,
+        "t_sentence2_ready_gen_END": 3496.9
+      }
+    },
+    {
+      "qid": "E30",
+      "type": "doc",
+      "theme": "E",
+      "n_sentences": 21,
+      "ttfa_ms": 1363.8,
+      "s1_audio_START_ms": 1340.3,
+      "fullwait_ttfa_ms": 9580.9,
+      "saved_ms": 8217.1,
+      "total_spoken_s": 99.68,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 1340.1,
+        "t_sentence1_audio_START": 1340.3,
+        "t_sentence1_audio_READY": 1363.8,
+        "t_sentence2_ready_gen_END": 1520.1
+      }
+    },
+    {
+      "qid": "X31",
+      "type": "id",
+      "theme": "X",
+      "n_sentences": 9,
+      "ttfa_ms": 2794.2,
+      "s1_audio_START_ms": 2718.6,
+      "fullwait_ttfa_ms": 6935.5,
+      "saved_ms": 4141.3,
+      "total_spoken_s": 52.18,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2718.4,
+        "t_sentence1_audio_START": 2718.6,
+        "t_sentence1_audio_READY": 2794.2,
+        "t_sentence2_ready_gen_END": 3459.4
+      }
+    },
+    {
+      "qid": "X32",
+      "type": "id",
+      "theme": "X",
+      "n_sentences": 5,
+      "ttfa_ms": 2764.5,
+      "s1_audio_START_ms": 2742.6,
+      "fullwait_ttfa_ms": 6338.0,
+      "saved_ms": 3573.5,
+      "total_spoken_s": 40.78,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2742.3,
+        "t_sentence1_audio_START": 2742.6,
+        "t_sentence1_audio_READY": 2764.5,
+        "t_sentence2_ready_gen_END": 4338.4
+      }
+    },
+    {
+      "qid": "X33",
+      "type": "multi",
+      "theme": "X",
+      "n_sentences": 10,
+      "ttfa_ms": 2919.9,
+      "s1_audio_START_ms": 2871.3,
+      "fullwait_ttfa_ms": 9885.1,
+      "saved_ms": 6965.2,
+      "total_spoken_s": 72.66,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2871.1,
+        "t_sentence1_audio_START": 2871.3,
+        "t_sentence1_audio_READY": 2919.9,
+        "t_sentence2_ready_gen_END": 4463.2
+      }
+    },
+    {
+      "qid": "X34",
+      "type": "date",
+      "theme": "X",
+      "n_sentences": 1,
+      "ttfa_ms": 2997.6,
+      "s1_audio_START_ms": 2830.2,
+      "fullwait_ttfa_ms": 3160.8,
+      "saved_ms": 163.2,
+      "total_spoken_s": 14.19,
+      "overlap": "N/A_single_sentence",
+      "trace": {
+        "t_sentence1_ready": 2830.1
+      }
+    },
+    {
+      "qid": "X35",
+      "type": "oos",
+      "theme": "X",
+      "n_sentences": 6,
+      "ttfa_ms": 3718.7,
+      "s1_audio_START_ms": 3681.8,
+      "fullwait_ttfa_ms": 6779.9,
+      "saved_ms": 3061.2,
+      "total_spoken_s": 34.97,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 3681.7,
+        "t_sentence1_audio_START": 3681.8,
+        "t_sentence1_audio_READY": 3718.7,
+        "t_sentence2_ready_gen_END": 4575.7
+      }
+    },
+    {
+      "qid": "X36",
+      "type": "oos",
+      "theme": "X",
+      "n_sentences": 5,
+      "ttfa_ms": 1946.7,
+      "s1_audio_START_ms": 1905.8,
+      "fullwait_ttfa_ms": 4851.6,
+      "saved_ms": 2904.9,
+      "total_spoken_s": 33.73,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 1905.6,
+        "t_sentence1_audio_START": 1905.8,
+        "t_sentence1_audio_READY": 1946.7,
+        "t_sentence2_ready_gen_END": 2485.1
+      }
+    },
+    {
+      "qid": "X37",
+      "type": "multi",
+      "theme": "X",
+      "n_sentences": 16,
+      "ttfa_ms": 1885.9,
+      "s1_audio_START_ms": 1811.0,
+      "fullwait_ttfa_ms": 8839.4,
+      "saved_ms": 6953.5,
+      "total_spoken_s": 83.96,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 1810.8,
+        "t_sentence1_audio_START": 1811.0,
+        "t_sentence1_audio_READY": 1885.9,
+        "t_sentence2_ready_gen_END": 2583.8
+      }
+    },
+    {
+      "qid": "X38",
+      "type": "multi",
+      "theme": "X",
+      "n_sentences": 15,
+      "ttfa_ms": 2426.3,
+      "s1_audio_START_ms": 2309.5,
+      "fullwait_ttfa_ms": 10654.0,
+      "saved_ms": 8227.7,
+      "total_spoken_s": 102.76,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2309.3,
+        "t_sentence1_audio_START": 2309.5,
+        "t_sentence1_audio_READY": 2426.3,
+        "t_sentence2_ready_gen_END": 2428.2
+      }
+    },
+    {
+      "qid": "X39",
+      "type": "orphan",
+      "theme": "X",
+      "n_sentences": 11,
+      "ttfa_ms": 2600.7,
+      "s1_audio_START_ms": 2520.1,
+      "fullwait_ttfa_ms": 8016.6,
+      "saved_ms": 5415.9,
+      "total_spoken_s": 62.53,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2519.9,
+        "t_sentence1_audio_START": 2520.1,
+        "t_sentence1_audio_READY": 2600.7,
+        "t_sentence2_ready_gen_END": 3059.3
+      }
+    },
+    {
+      "qid": "X40",
+      "type": "persona",
+      "theme": "X",
+      "n_sentences": 17,
+      "ttfa_ms": 2612.6,
+      "s1_audio_START_ms": 2582.2,
+      "fullwait_ttfa_ms": 8143.9,
+      "saved_ms": 5531.3,
+      "total_spoken_s": 76.66,
+      "overlap": "PASS",
+      "trace": {
+        "t_stream_start": 0.0,
+        "t_sentence1_ready": 2582.0,
+        "t_sentence1_audio_START": 2582.2,
+        "t_sentence1_audio_READY": 2612.6,
+        "t_sentence2_ready_gen_END": 3009.0
+      }
+    }
+  ],
+  "run_timestamp": "2026-07-04T06:10:56+08:00"
+}
