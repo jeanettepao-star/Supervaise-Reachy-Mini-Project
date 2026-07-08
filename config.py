@@ -469,6 +469,21 @@ DATE_INDEX_ENABLED: bool = _env_bool("CJ_DATE_INDEX_ENABLED", False)
 DATE_INDEX_PATH: Path = _env_path("CJ_DATE_INDEX_PATH", REPO_ROOT / "data" / "index" / "date_index.json")
 # "filter" = narrow candidates to date-matching docs; recency orders by date desc.
 DATE_INDEX_MODE: str = _env_str("CJ_DATE_INDEX_MODE", "filter")
+# ===========================================================================
+# [W2.6] Expand-on-demand fallback — COMPOSE-SIDE. On a weakly-grounded first
+# compose, do ONE bounded retry with fuller context, then recompose. SHIPS DARK
+# (default OFF); with the flag OFF compose behavior is verbatim (no retry, no
+# added envelope keys). HARD-CAPPED at 1 retry — never loops.
+EXPAND_ON_DEMAND_ENABLED: bool = _env_bool("CJ_EXPAND_ON_DEMAND_ENABLED", False)
+# Trigger: retry if the first compose is degraded OR cites FEWER than this floor
+# (floor=1 -> fire only on empty citations []). Higher = more aggressive.
+EXPAND_TRIGGER_MIN_CITATIONS: int = _env_int("CJ_EXPAND_TRIGGER_MIN_CITATIONS", 1)
+# Retry context cap: whole parent doc of the top chunk + the nucleus, up to this
+# many chunks (also the retry's build_payload top_k, so fuller context is sent).
+EXPAND_MAX_CHUNKS: int = _env_int("CJ_EXPAND_MAX_CHUNKS", 20)
+# Fire-rate ceiling: if retries exceed this fraction over a run, that's an
+# UPSTREAM-RETRIEVAL signal to flag (do not mask a retrieval gap with retries).
+EXPAND_FIRE_RATE_CEILING: float = _env_float("CJ_EXPAND_FIRE_RATE_CEILING", 0.10)
 
 
 # ===========================================================================

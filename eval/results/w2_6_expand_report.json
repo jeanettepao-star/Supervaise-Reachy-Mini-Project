@@ -1,0 +1,63 @@
+{
+  "no_regression_flag_off": {
+    "compose_calls": 1,
+    "verbatim": true,
+    "PASS": true
+  },
+  "hard_cap_1": {
+    "compose_calls_when_always_weak": 2,
+    "retry_top_k": 20,
+    "triggered": true,
+    "expanded": true,
+    "PASS": true
+  },
+  "fire_rate": {
+    "anchor": "arch-baseline-v2 first-pass envelopes (first-pass grounding unchanged by W2.6)",
+    "ceiling": 0.1,
+    "mean_cost_per_compose_usd": 0.015495,
+    "floor_1_default": {
+      "fire_qids": [],
+      "rate": 0.0,
+      "added_composes": 0,
+      "added_cost_usd": 0.0,
+      "over_ceiling": false
+    },
+    "floor_2_sensitivity": {
+      "fire_qids": [
+        "A3",
+        "B8",
+        "C16",
+        "D20",
+        "E26",
+        "X31",
+        "X33",
+        "X35",
+        "X39"
+      ],
+      "rate": 0.225,
+      "added_composes": 9,
+      "added_cost_usd": 0.139459,
+      "over_ceiling": true,
+      "note": "many answers cite only 1 doc -> if this floor is chosen it is an UPSTREAM-RETRIEVAL coverage signal, not something to mask with retries"
+    }
+  },
+  "x33_live_demo": {
+    "transport": "native_sdk",
+    "demo_floor": 3,
+    "triggered": true,
+    "expanded": true,
+    "citations_before": [
+      "CE003"
+    ],
+    "citations_after": [
+      "CE003"
+    ],
+    "envelope_expanded_flag": true
+  },
+  "config": {
+    "EXPAND_ON_DEMAND_ENABLED_default": false,
+    "EXPAND_TRIGGER_MIN_CITATIONS": 1,
+    "EXPAND_MAX_CHUNKS": 20,
+    "EXPAND_FIRE_RATE_CEILING": 0.1
+  }
+}

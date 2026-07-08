@@ -358,12 +358,14 @@ def _stream_native(client, system: str, payload: str, on_text) -> dict:
             "stop_reason": final.stop_reason, "degraded": False, "usage": final.usage}
 
 
-def compose_streamed(query: str, selected, directives: dict, client=None, on_text=None) -> dict:
+def compose_streamed(query: str, selected, directives: dict, client=None, on_text=None,
+                     top_k=None) -> dict:
     """Production composer with bounded retries + backoff + graceful in-voice
     degradation. Returns {answer, envelope, raw, ttft_ms, stop_reason, degraded,
-    usage}. KEEPS Sonnet; the router stays zero-LLM (this is the only round-trip)."""
+    usage}. KEEPS Sonnet; the router stays zero-LLM (this is the only round-trip).
+    top_k overrides the payload chunk cap (used by the W2.6 expand retry)."""
     system = _composer_system()
-    payload = build_payload(query, selected, directives)
+    payload = build_payload(query, selected, directives, top_k=top_k)
     native = _resolve_transport() == "native_sdk"
     last = None
     for attempt in range(config.COMPOSER_MAX_RETRIES + 1):
@@ -384,6 +386,75 @@ def compose_streamed(query: str, selected, directives: dict, client=None, on_tex
             "usage": None, "error": f"{type(last).__name__}: {last}"}
 
 
+# ===========================================================================
+# [W2.6] Expand-on-demand fallback — COMPOSE-SIDE, DARK by default. On a weakly-
+# grounded first compose, do ONE bounded retry with fuller parent-doc context and
+# recompose. HARD-CAPPED at 1 retry (no loop). With the flag OFF this is a
+# verbatim pass-through of compose_streamed (byte-identical, no added keys).
+_DOC_CHUNKS = None
+
+
+def _doc_chunk_ids():
+    """Lazy doc_id -> [chunk_ids] (in order) from the chunk store."""
+    global _DOC_CHUNKS
+    if _DOC_CHUNKS is None:
+        _DOC_CHUNKS = {}
+        for line in (_REPO_ROOT / "corpus" / "index" / "chunks.jsonl").read_text(
+                encoding=config.FILE_ENCODING).splitlines():
+            if not line.strip():
+                continue
+            c = json.loads(line)
+            _DOC_CHUNKS.setdefault(c["doc_id"], []).append(c["chunk_id"])
+    return _DOC_CHUNKS
+
+
+def _weak_grounding(comp: dict) -> bool:
+    """Deterministic weak-grounding trigger (NO LLM): degraded, or cites fewer
+    than the config floor (floor=1 -> fire only on empty citations)."""
+    if comp.get("degraded"):
+        return True
+    cited = (comp.get("envelope") or {}).get("doc_ids_cited") or []
+    return len(cited) < config.EXPAND_TRIGGER_MIN_CITATIONS
+
+
+def _expand_context(selected):
+    """Fuller context for the retry: the WHOLE parent doc of the top chunk +
+    the original nucleus, deduped, capped at EXPAND_MAX_CHUNKS. build_payload uses
+    only the chunk_id, so score/detail are placeholders."""
+    if not selected:
+        return selected
+    top_doc = selected[0][0].split("::")[0]
+    doc_chunks = _doc_chunk_ids().get(top_doc, [])
+    existing = [c for c, _s, _d in selected]
+    merged = list(dict.fromkeys(doc_chunks + existing))[:config.EXPAND_MAX_CHUNKS]
+    return [(c, 0.0, {}) for c in merged]
+
+
+def compose_with_expand(query: str, selected, directives: dict, client=None, on_text=None) -> dict:
+    """compose_streamed + optional ONE-shot expand retry. DARK by default: when
+    EXPAND_ON_DEMAND_ENABLED is False, returns compose_streamed's result VERBATIM
+    (no retry, no added keys) — behavior is byte-identical to pre-W2.6."""
+    comp = compose_streamed(query, selected, directives, client=client, on_text=on_text)
+    if not config.EXPAND_ON_DEMAND_ENABLED:
+        return comp                                   # ← no-regression: verbatim pass-through
+
+    comp["triggered"] = _weak_grounding(comp)
+    comp["expanded"] = False
+    if not comp["triggered"]:
+        return comp
+    # ONE bounded retry — structural hard cap = 1 (no loop): compose_streamed is
+    # called at most twice total (first pass + this single retry).
+    exp_selected = _expand_context(selected)
+    comp2 = compose_streamed(query, exp_selected, directives, client=client,
+                             on_text=None, top_k=config.EXPAND_MAX_CHUNKS)
+    comp2["triggered"] = True
+    comp2["expanded"] = True
+    comp2["first_pass"] = {"answer": comp["answer"], "envelope": comp["envelope"]}
+    if isinstance(comp2.get("envelope"), dict):
+        comp2["envelope"]["expanded"] = True          # auditable in the ENVELOPE
+    return comp2
+
+
 def answer(query_text: str, allowlist_version: str = "v4", on_text=None) -> dict:
     """Service entry point. Returns {answer, envelope} per the v1.0 contract,
     now with the W2.1 streamed composer + trailing composer_envelope. Pass
@@ -394,7 +465,9 @@ def answer(query_text: str, allowlist_version: str = "v4", on_text=None) -> dict
     directives = _directives(query_text, ri)
 
     t0 = time.perf_counter()
-    comp = compose_streamed(query_text, rr["selected"], directives, on_text=on_text)
+    # W2.6 expand wrapper — verbatim compose_streamed when EXPAND_ON_DEMAND_ENABLED
+    # is False (dark default), so answer() is unchanged unless the flag is set.
+    comp = compose_with_expand(query_text, rr["selected"], directives, on_text=on_text)
     timing["compose_ms"] = round((time.perf_counter() - t0) * 1000, 1)
     timing["total_ms"] = round(sum(timing.values()), 1)
 
