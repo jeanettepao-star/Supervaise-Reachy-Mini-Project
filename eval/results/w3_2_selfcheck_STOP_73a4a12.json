@@ -1,0 +1,87 @@
+{
+  "task": "W3.2 retrieval+grounding eval vs arch-baseline-v2",
+  "run_status": "STOPPED at pre-run self-check 5 (eval-set gold labels incomplete). NO composition run; $0 API.",
+  "provenance": {
+    "eval_sha": "65492b650aec8dda5e76be21c32aaae3faf61f9663c6c58ace02b5a6c4bc9a63",
+    "git_commit": "73a4a1209b215d8b97daaf1fa813789734c07530",
+    "git_describe": "arch-baseline-v2-1-g73a4a12",
+    "pipeline_identical_to_arch_baseline_v2": true,
+    "embedder": "BAAI/bge-large-en-v1.5",
+    "embed_backend": "cuda_fp32",
+    "retrieval_top_p_basis": "softmax_temp",
+    "temp": 0.06,
+    "min_k": 4,
+    "max_k_ceiling": 12,
+    "run_timestamp": "2026-07-08T13:06:54+08:00"
+  },
+  "self_checks": {
+    "1_eval_sha_match": "PASS (65492b65)",
+    "2_embedder_bge_large": "PASS (BAAI/bge-large-en-v1.5; not MiniLM/OpenAI)",
+    "3_head_is_v2": "WARN — HEAD 73a4a12 is 1 commit ahead of tag arch-baseline-v2 (704c8a6); that commit is W2.7-TTS ONLY. Pipeline files (config/retrieval/service/embeddings/sparse) are byte-identical to 704c8a6, so the measured pipeline IS v2. Working tree DIRTY: data/csv/*.csv deleted (unstaged) + untracked xlsx/png/reports — none touch the pipeline.",
+    "4_gold_doc_ids_exist": "PASS — all 6 gold doc_ids (CA009,CA010,CA034,CA242,CC001,CE007) exist in the 1089-doc store; 0 orphans.",
+    "5_every_item_has_gold": "FAIL — only 5/40 items carry gold doc_ids; 35/40 have NONE. Additionally 0/40 items carry expected register/disclaimer labels."
+  },
+  "blocking_defect": {
+    "owner": "Sheena (eval-set owner)",
+    "items_with_gold_doc_ids": {
+      "A3": [
+        "CA242"
+      ],
+      "C16": [
+        "CC001"
+      ],
+      "E28": [
+        "CE007"
+      ],
+      "E29": [
+        "CA034"
+      ],
+      "X34": [
+        "CA009",
+        "CA010"
+      ]
+    },
+    "items_missing_gold_doc_ids": [
+      "A1",
+      "A2",
+      "A4",
+      "A5",
+      "A6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "C13",
+      "C14",
+      "C15",
+      "C17",
+      "C18",
+      "D19",
+      "D20",
+      "D21",
+      "D22",
+      "D23",
+      "D24",
+      "E25",
+      "E26",
+      "E27",
+      "E30",
+      "X31",
+      "X32",
+      "X33",
+      "X35",
+      "X36",
+      "X37",
+      "X38",
+      "X39",
+      "X40"
+    ],
+    "count": "5 have gold, 35 missing",
+    "expected_register_disclaimer_present": false,
+    "why_stop": "recall@k (section A) is meaningless for the 35 items with no gold doc_id; register/disclaimer comparison (section D) has no expected values to compare against. Per self-check 5, STOP rather than emit a scorecard that is 87.5% ungradeable."
+  },
+  "what_would_run_if_scoped": "Section B (grounding fidelity / fabricated citations) needs NO gold (checks cited docs vs corpus + retrieved set) and Section C (MIN_K floor analysis) is retrieval-only. Both COULD run over 40. Section A recall@k could run over the 5 gold items only. But self-check 5 gates the whole run; not overriding it without sign-off.",
+  "recommended_fix_NOT_done": "Sheena to add gold doc_ids for all 40 (or define the gradeable subset + matching rule) and expected register/disclaimer where applicable, then re-run W3.2. Eval set NOT edited (scope boundary)."
+}
