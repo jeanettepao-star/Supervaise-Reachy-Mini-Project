@@ -12,6 +12,7 @@ from __future__ import annotations
 import csv, json, sys
 from datetime import datetime, timezone
 from pathlib import Path
+import subprocess
 import numpy as np
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -19,7 +20,9 @@ sys.path.insert(0, str(ROOT)); sys.path.insert(0, str(ROOT / "app"))
 import config, retrieval, service  # noqa: E402
 
 RESULTS = ROOT / "eval" / "results"
-COMMIT = "73a4a12"
+COMMIT = (subprocess.run(["git", "rev-parse", "--short", "HEAD"], cwd=ROOT,
+                         capture_output=True, text=True).stdout.strip() or "unknown")
+V2_PARTIAL = ROOT / "eval" / "results" / "w3_2_PARTIAL_BC_73a4a12.json"
 GOLD = {"A3": ["CA242"], "C16": ["CC001"], "E28": ["CE007"], "E29": ["CA034"], "X34": ["CA009", "CA010"]}
 def did(c): return c.split("::")[0]
 
@@ -141,10 +144,34 @@ def main():
             "per_item": recall5},
         "per_query": rows,
     }
+    # v2-vs-v3 delta: both features DARK -> Section C (retrieval) MUST match v2
+    # exactly; any mismatch = a leaked flag/BUG. Fabrication should also match.
+    delta = None
+    if V2_PARTIAL.exists():
+        v2 = json.loads(V2_PARTIAL.read_text(encoding="utf-8"))
+        v2c, v3c = v2["section_C_min_k_floor_analysis"], report["section_C_min_k_floor_analysis"]
+        v2b, v3b = v2["section_B_grounding_fidelity"], report["section_B_grounding_fidelity"]
+        def cmp(a, b): return {"v2": a, "v3": b, "match": a == b}
+        delta = {"prev_tag": "arch-baseline-v2", "this_tag": "arch-baseline-v3",
+                 "floor_verdict": cmp(v2c["VERDICT"], v3c["VERDICT"]),
+                 "floor_bound_qids": cmp(v2c["floor_bound_qids"], v3c["floor_bound_qids"]),
+                 "ceiling_bound_qids": cmp(v2c["ceiling_bound_qids"], v3c["ceiling_bound_qids"]),
+                 "chunks_returned_dist": cmp(v2c["chunks_returned"], v3c["chunks_returned"]),
+                 "fabrication_query_count": cmp(v2b["fabricated_citations_query_count"],
+                                                v3b["fabricated_citations_query_count"]),
+                 "interpretation": "both flags DARK -> Section C MUST match v2 exactly (any mismatch = leaked "
+                                   "flag/BUG). Fabrication count should match (0/40); citation SETS differ "
+                                   "run-to-run (compose non-determinism) — expected, not a regression."}
+        delta["section_C_identical_to_v2"] = all(delta[k]["match"] for k in
+                                                 ("floor_bound_qids", "ceiling_bound_qids", "chunks_returned_dist"))
+        delta["fabrication_matches_v2"] = delta["fabrication_query_count"]["match"]
+    report["v2_vs_v3_delta"] = delta
+    report["provenance"]["tag"] = "arch-baseline-v3"
+    report["provenance"]["prev_tag"] = "arch-baseline-v2"
     RESULTS.mkdir(parents=True, exist_ok=True)
-    (RESULTS / f"w3_2_PARTIAL_BC_{COMMIT}.json").write_text(
+    (RESULTS / f"w3_2_PARTIAL_BC_v3_{COMMIT}.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    with open(RESULTS / "w3_2_partial_per_query.csv", "w", encoding="utf-8", newline="") as fh:
+    with open(RESULTS / f"w3_2_partial_per_query_v3_{COMMIT}.csv", "w", encoding="utf-8", newline="") as fh:
         w = csv.writer(fh)
         w.writerow(["query_id", "gold_doc_ids", "recall@1", "recall@3", "recall@5", "recall@10",
                     "chunks_returned", "floor_bound", "ceiling_bound", "cited_doc_ids", "fabricated",
@@ -165,7 +192,16 @@ def main():
           f"| degraded={sum(1 for r in rows if r['degraded'])}")
     r5 = ", ".join(f"{k}:{v['@5']}" for k, v in recall5.items())
     print(f"[A] 5-item harness recall@5: {{ {r5} }} (PLUMBING ONLY)")
-    print(f"wrote eval/results/w3_2_PARTIAL_BC_{COMMIT}.json + w3_2_partial_per_query.csv")
+    if delta:
+        print(f"\n=== v2-vs-v3 DELTA (both features DARK -> should match) ===")
+        print(f"  Section C identical to v2: {delta['section_C_identical_to_v2']} "
+              f"(floor_verdict {delta['floor_verdict']['v2']}->{delta['floor_verdict']['v3']}, "
+              f"floor/ceiling/dist match)")
+        print(f"  fabrication matches v2: {delta['fabrication_matches_v2']} "
+              f"({delta['fabrication_query_count']['v2']}/40 -> {delta['fabrication_query_count']['v3']}/40)")
+        if not delta["section_C_identical_to_v2"]:
+            print("  *** BUG: Section C differs with flags DARK -> a flag leaked. ***")
+    print(f"wrote eval/results/w3_2_PARTIAL_BC_v3_{COMMIT}.json")
     return 0
 
 
