@@ -459,6 +459,16 @@ CURATED_XLSX_GLOB: str = _env_str("CJ_CURATED_XLSX_GLOB", "data/csv/*_curated_no
 SPARSE_INDEX_PATH: Path = _env_path("CJ_SPARSE_INDEX_PATH", REPO_ROOT / "data" / "index" / "pilot_sparse.pkl")
 SPARSE_DICT_PATH: Path = _env_path("CJ_SPARSE_DICT_PATH", REPO_ROOT / "data" / "index" / "sparse_phrase_dict.json")
 SPARSE_META_PATH: Path = _env_path("CJ_SPARSE_META_PATH", REPO_ROOT / "data" / "index" / "pilot_sparse_meta.json")
+# ===========================================================================
+# [W2.4] Date index — ADDITIVE temporal filter/boost. SHIPS DARK: default OFF.
+# When ENABLED and the deterministic router detects explicit temporal intent
+# (year/range) or recency, the date table narrows/orders candidates by date.
+# With the flag OFF the retrieval path is byte-identical to arch-baseline-v2
+# (the date branch is never entered). Enabling it is a separate later decision.
+DATE_INDEX_ENABLED: bool = _env_bool("CJ_DATE_INDEX_ENABLED", False)
+DATE_INDEX_PATH: Path = _env_path("CJ_DATE_INDEX_PATH", REPO_ROOT / "data" / "index" / "date_index.json")
+# "filter" = narrow candidates to date-matching docs; recency orders by date desc.
+DATE_INDEX_MODE: str = _env_str("CJ_DATE_INDEX_MODE", "filter")
 
 
 # ===========================================================================

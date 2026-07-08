@@ -185,21 +185,93 @@ def select_nucleus(su: dict, basis: str | None = None, temp: float | None = None
             "norm_of": dict(zip(ranked, (float(x) for x in norm))), "basis": basis, "temp": temp}
 
 
+# ===========================================================================
+# [W2.4] Date index — ADDITIVE, config-gated (DARK by default). Deterministic
+# temporal-intent detection (no LLM) + a filter/boost over the date table. When
+# config.DATE_INDEX_ENABLED is False the branch below is never entered, so
+# retrieve() is byte-identical to arch-baseline-v2.
+_DATE_TABLE = None
+_YEAR_RE = _re.compile(r"\b(1[89]\d\d|20\d\d)\b")
+_RECENT_RE = _re.compile(r"\b(recent(ly)?|latest|most recent|newest|nowadays|these days)\b", _re.I)
+_SINCE_RE = _re.compile(r"\b(since|after|from)\s+(1[89]\d\d|20\d\d)", _re.I)
+_BEFORE_RE = _re.compile(r"\b(before|until|by|up to)\s+(1[89]\d\d|20\d\d)", _re.I)
+
+
+def _load_date_table():
+    global _DATE_TABLE
+    if _DATE_TABLE is None:
+        _DATE_TABLE = json.loads(Path(config.DATE_INDEX_PATH).read_text(encoding="utf-8"))
+    return _DATE_TABLE
+
+
+def temporal_intent(query: str):
+    """Deterministic (no LLM) temporal intent: explicit year, range, since/before,
+    or recency. Returns an intent dict or None (non-temporal -> None)."""
+    q = query or ""
+    years = [int(y) for y in _YEAR_RE.findall(q)]
+    if len(years) >= 2:
+        return {"type": "range", "lo": min(years), "hi": max(years)}
+    if len(years) == 1:
+        y = years[0]
+        if _SINCE_RE.search(q):
+            return {"type": "range", "lo": y, "hi": 9999}
+        if _BEFORE_RE.search(q):
+            return {"type": "range", "lo": 0, "hi": y}
+        return {"type": "year", "years": [y]}
+    if _RECENT_RE.search(q):
+        return {"type": "recent"}
+    return None
+
+
+def _date_select(ranked, intent, kept):
+    """Narrow/order candidates by date. Returns (new_kept, diag). Falls back to the
+    original nucleus (no-op) if nothing matches — never returns empty."""
+    table = _load_date_table()
+    def yr(c):
+        v = table.get(c.split("::")[0]) or {}
+        di = v.get("date_iso")
+        return int(di[:4]) if di else None
+    if intent["type"] == "recent":
+        ordered = sorted(kept, key=lambda c: (yr(c) is not None, yr(c) or 0), reverse=True)
+        return ordered, {"mode": "recent_order", "intent": intent}
+    def match(c):
+        y = yr(c)
+        if y is None:
+            return False
+        return (y in intent["years"]) if intent["type"] == "year" else (intent["lo"] <= y <= intent["hi"])
+    matching = [c for c in ranked if match(c)][:config.COMPOSER_TOP_K]
+    if not matching:
+        return kept, {"mode": "no_match_noop", "intent": intent}
+    return matching, {"mode": "date_filter", "intent": intent, "n_matched": len(matching)}
+
+
 def retrieve(query: str, allowlist_doc_ids: set, route_info: dict | None = None) -> dict:
     """Hybrid dense+sparse RRF over ONE universe, biased by the soft prior, cut by
-    a config-driven top-p nucleus (W2.x-TOPP-2). Returns selected chunks + diag."""
+    a config-driven top-p nucleus (W2.x-TOPP-2). Returns selected chunks + diag.
+    [W2.4] An optional, DARK-by-default date filter/boost may narrow/order the
+    candidates when config.DATE_INDEX_ENABLED and the query carries temporal intent."""
     su = _score_universe(query, allowlist_doc_ids, route_info)
     nuc = select_nucleus(su)
     universe, score, passage_sim, affinity = su["universe"], su["score"], su["passage_sim"], su["affinity"]
     dense_rank, sparse_rank, norm_of = su["dense_rank"], su["sparse_rank"], nuc["norm_of"]
     kept = nuc["kept"]
+
+    date_diag = None
+    if config.DATE_INDEX_ENABLED:                       # DARK by default -> branch skipped
+        _ti = temporal_intent(query)
+        if _ti:
+            kept, date_diag = _date_select(nuc["ranked"], _ti, kept)
+
+    cutoff = {"mechanism": "top_p", "basis": nuc["basis"], "temp": nuc["temp"],
+              "top_p": config.RETRIEVAL_TOP_P, "cum_mass": round(nuc["cum_mass"], 4),
+              "n_kept": len(kept), "min_k_floor": config.RETRIEVAL_MIN_K,
+              "min_k_floor_hit": nuc["floor_hit"]}
+    if date_diag is not None:                           # only present when the date path ran
+        cutoff["date_filter"] = date_diag
     return {
         "universe_size": len(universe), "dense_n": len(su["dense_set"]),
         "sparse_n": len(su["sparse_set"]), "aligned": su["dense_set"] == su["sparse_set"],
-        "cutoff": {"mechanism": "top_p", "basis": nuc["basis"], "temp": nuc["temp"],
-                   "top_p": config.RETRIEVAL_TOP_P, "cum_mass": round(nuc["cum_mass"], 4),
-                   "n_kept": len(kept), "min_k_floor": config.RETRIEVAL_MIN_K,
-                   "min_k_floor_hit": nuc["floor_hit"]},
+        "cutoff": cutoff,
         "selected": [(c, round(score[c], 4),
                       {"passage": round(passage_sim[c], 4), "affinity": round(affinity[c], 4),
                        "dense_rank": dense_rank[c], "sparse_rank": sparse_rank.get(c),

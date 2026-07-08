@@ -1,0 +1,34 @@
+{
+  "artifact": "date_index.json",
+  "n_docs": 1089,
+  "sha256": "9b5713957e58bdba4e313c74b7dfa9755883e69e5d73343e7973052f1af941a0",
+  "git_commit": "73a4a1209b215d8b97daaf1fa813789734c07530",
+  "precision_counts": {
+    "day": 1058,
+    "none": 9,
+    "year": 22
+  },
+  "dated": 1080,
+  "undated": 9,
+  "undated_doc_ids": [
+    "GC002",
+    "GC014",
+    "GC015",
+    "GC017",
+    "GC018",
+    "GC020",
+    "GC032",
+    "GC033",
+    "GC034"
+  ],
+  "by_source_class_precision": {
+    "B:day": 115,
+    "C:day": 785,
+    "G:day": 4,
+    "G:none": 9,
+    "G:year": 22,
+    "S:day": 154
+  },
+  "parser": "metadata 'date' -> ISO day/month/year | year-extract from range/decade | title fallback | null",
+  "idempotent": "deterministic: sorted doc_ids + canonical json; re-run hash stable"
+}

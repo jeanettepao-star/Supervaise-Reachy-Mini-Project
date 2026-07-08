@@ -1,0 +1,5447 @@
+{
+  "BA001": {
+    "date_iso": "2008-07-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA002": {
+    "date_iso": "2009-08-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA003": {
+    "date_iso": "2009-12-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA004": {
+    "date_iso": "2008-12-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA005": {
+    "date_iso": "2009-01-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA006": {
+    "date_iso": "2009-12-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA007": {
+    "date_iso": "2010-03-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA008": {
+    "date_iso": "2010-08-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA009": {
+    "date_iso": "2010-11-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA010": {
+    "date_iso": "2007-07-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA011": {
+    "date_iso": "2007-04-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA012": {
+    "date_iso": "2008-02-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA013": {
+    "date_iso": "2008-04-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA014": {
+    "date_iso": "2008-10-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA015": {
+    "date_iso": "2010-02-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA016": {
+    "date_iso": "2010-07-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA017": {
+    "date_iso": "2011-01-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA018": {
+    "date_iso": "2011-02-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA019": {
+    "date_iso": "2007-04-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA020": {
+    "date_iso": "2007-05-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA021": {
+    "date_iso": "2007-07-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA022": {
+    "date_iso": "2007-07-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA023": {
+    "date_iso": "2007-10-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA024": {
+    "date_iso": "2009-04-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA025": {
+    "date_iso": "2009-05-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA026": {
+    "date_iso": "2010-04-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA027": {
+    "date_iso": "2010-10-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA028": {
+    "date_iso": "2010-06-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA029": {
+    "date_iso": "2007-03-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA030": {
+    "date_iso": "2007-03-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA031": {
+    "date_iso": "2007-02-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA032": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA033": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA034": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA035": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA036": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA037": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA038": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA039": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA040": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA041": {
+    "date_iso": "1997-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BB001": {
+    "date_iso": "2009-05-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BB002": {
+    "date_iso": "2008-12-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BB003": {
+    "date_iso": "2008-06-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BB004": {
+    "date_iso": "2007-12-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BB005": {
+    "date_iso": "2007-08-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BB006": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BB007": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BB008": {
+    "date_iso": "1997-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC001": {
+    "date_iso": "2010-02-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC002": {
+    "date_iso": "2009-07-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC003": {
+    "date_iso": "2009-04-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC004": {
+    "date_iso": "2008-08-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC005": {
+    "date_iso": "2007-06-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC006": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC007": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC008": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC009": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC010": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC011": {
+    "date_iso": "1997-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC012": {
+    "date_iso": "1997-10-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC013": {
+    "date_iso": "1995-10-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC014": {
+    "date_iso": "1997-03-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC015": {
+    "date_iso": "1995-02-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC016": {
+    "date_iso": "1995-05-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC017": {
+    "date_iso": "1997-03-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC018": {
+    "date_iso": "1997-09-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC019": {
+    "date_iso": "1997-10-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BC020": {
+    "date_iso": "1997-11-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD001": {
+    "date_iso": "2009-06-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD002": {
+    "date_iso": "2009-12-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD003": {
+    "date_iso": "2010-07-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD004": {
+    "date_iso": "2007-05-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD005": {
+    "date_iso": "2007-09-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD006": {
+    "date_iso": "2007-09-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD007": {
+    "date_iso": "2008-04-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD008": {
+    "date_iso": "2008-10-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD009": {
+    "date_iso": "2010-12-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD010": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD011": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD012": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD013": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD014": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD015": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD016": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD017": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD018": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD019": {
+    "date_iso": "2026-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD020": {
+    "date_iso": "1997-10-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BD021": {
+    "date_iso": "1995-03-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE001": {
+    "date_iso": "2007-08-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE002": {
+    "date_iso": "2007-09-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE003": {
+    "date_iso": "2008-03-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE004": {
+    "date_iso": "2008-03-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE005": {
+    "date_iso": "2008-03-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE006": {
+    "date_iso": "2008-07-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE007": {
+    "date_iso": "2010-01-31",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE008": {
+    "date_iso": "2010-09-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE009": {
+    "date_iso": "2009-01-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE010": {
+    "date_iso": "2009-08-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE011": {
+    "date_iso": "2009-08-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE012": {
+    "date_iso": "2007-11-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE013": {
+    "date_iso": "2008-06-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE014": {
+    "date_iso": "2010-01-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE015": {
+    "date_iso": "2010-04-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE016": {
+    "date_iso": "2011-01-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE017": {
+    "date_iso": "2009-09-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE018": {
+    "date_iso": "2009-10-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE019": {
+    "date_iso": "2010-02-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE020": {
+    "date_iso": "2010-05-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE021": {
+    "date_iso": "2010-05-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE022": {
+    "date_iso": "2010-05-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE023": {
+    "date_iso": "2010-05-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE024": {
+    "date_iso": "2010-07-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BE025": {
+    "date_iso": "2010-10-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA003": {
+    "date_iso": "2025-03-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA004": {
+    "date_iso": "2012-01-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA005": {
+    "date_iso": "2011-07-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA009": {
+    "date_iso": "2021-06-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA010": {
+    "date_iso": "2019-08-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA011": {
+    "date_iso": "2019-07-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA013": {
+    "date_iso": "2019-08-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA014": {
+    "date_iso": "2019-08-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA015": {
+    "date_iso": "2021-02-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA020": {
+    "date_iso": "2020-12-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA022": {
+    "date_iso": "2014-06-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA024": {
+    "date_iso": "2017-10-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA025": {
+    "date_iso": "2026-05-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA026": {
+    "date_iso": "2026-05-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA027": {
+    "date_iso": "2026-05-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA028": {
+    "date_iso": "2026-04-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA029": {
+    "date_iso": "2026-03-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA030": {
+    "date_iso": "2026-03-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA031": {
+    "date_iso": "2026-03-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA032": {
+    "date_iso": "2026-02-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA033": {
+    "date_iso": "2026-01-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA034": {
+    "date_iso": "2025-11-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA035": {
+    "date_iso": "2025-08-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA036": {
+    "date_iso": "2025-08-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA037": {
+    "date_iso": "2025-07-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA038": {
+    "date_iso": "2025-07-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA039": {
+    "date_iso": "2025-07-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA040": {
+    "date_iso": "2025-07-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA041": {
+    "date_iso": "2025-06-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA042": {
+    "date_iso": "2025-06-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA043": {
+    "date_iso": "2025-06-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA044": {
+    "date_iso": "2025-06-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA045": {
+    "date_iso": "2025-06-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA046": {
+    "date_iso": "2025-05-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA047": {
+    "date_iso": "2025-05-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA048": {
+    "date_iso": "2025-05-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA049": {
+    "date_iso": "2025-04-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA050": {
+    "date_iso": "2025-04-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA051": {
+    "date_iso": "2025-03-31",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA052": {
+    "date_iso": "2025-03-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA053": {
+    "date_iso": "2025-03-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA054": {
+    "date_iso": "2025-02-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA055": {
+    "date_iso": "2025-02-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA056": {
+    "date_iso": "2025-02-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA057": {
+    "date_iso": "2025-02-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA058": {
+    "date_iso": "2025-01-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA059": {
+    "date_iso": "2025-01-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA060": {
+    "date_iso": "2024-12-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA061": {
+    "date_iso": "2024-12-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA062": {
+    "date_iso": "2024-11-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA063": {
+    "date_iso": "2024-08-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA064": {
+    "date_iso": "2024-08-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA065": {
+    "date_iso": "2024-07-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA066": {
+    "date_iso": "2024-07-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA067": {
+    "date_iso": "2024-07-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA068": {
+    "date_iso": "2024-06-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA069": {
+    "date_iso": "2024-06-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA070": {
+    "date_iso": "2024-05-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA071": {
+    "date_iso": "2024-05-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA072": {
+    "date_iso": "2024-05-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA073": {
+    "date_iso": "2024-04-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA074": {
+    "date_iso": "2024-04-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA075": {
+    "date_iso": "2024-04-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA076": {
+    "date_iso": "2024-04-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA077": {
+    "date_iso": "2024-03-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA078": {
+    "date_iso": "2024-03-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA079": {
+    "date_iso": "2024-02-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA080": {
+    "date_iso": "2024-02-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA081": {
+    "date_iso": "2024-02-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA082": {
+    "date_iso": "2024-02-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA083": {
+    "date_iso": "2024-01-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA084": {
+    "date_iso": "2024-01-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA085": {
+    "date_iso": "2024-01-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA086": {
+    "date_iso": "2023-12-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA087": {
+    "date_iso": "2023-12-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA088": {
+    "date_iso": "2023-12-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA089": {
+    "date_iso": "2023-11-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA090": {
+    "date_iso": "2023-11-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA091": {
+    "date_iso": "2023-11-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA092": {
+    "date_iso": "2023-10-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA093": {
+    "date_iso": "2023-10-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA094": {
+    "date_iso": "2023-10-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA095": {
+    "date_iso": "2023-09-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA096": {
+    "date_iso": "2023-09-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA097": {
+    "date_iso": "2023-08-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA098": {
+    "date_iso": "2023-08-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA099": {
+    "date_iso": "2023-08-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA100": {
+    "date_iso": "2023-08-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA101": {
+    "date_iso": "2023-07-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA102": {
+    "date_iso": "2023-07-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA103": {
+    "date_iso": "2023-07-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA104": {
+    "date_iso": "2023-06-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA105": {
+    "date_iso": "2023-06-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA106": {
+    "date_iso": "2023-06-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA107": {
+    "date_iso": "2023-06-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA108": {
+    "date_iso": "2023-05-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA109": {
+    "date_iso": "2023-05-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA110": {
+    "date_iso": "2023-05-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA111": {
+    "date_iso": "2023-04-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA112": {
+    "date_iso": "2023-04-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA113": {
+    "date_iso": "2023-03-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA114": {
+    "date_iso": "2023-03-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA115": {
+    "date_iso": "2023-03-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA116": {
+    "date_iso": "2023-02-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA117": {
+    "date_iso": "2023-02-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA118": {
+    "date_iso": "2023-02-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA119": {
+    "date_iso": "2023-01-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA120": {
+    "date_iso": "2023-01-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA121": {
+    "date_iso": "2023-01-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA122": {
+    "date_iso": "2022-12-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA123": {
+    "date_iso": "2022-12-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA124": {
+    "date_iso": "2022-12-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA125": {
+    "date_iso": "2022-12-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA126": {
+    "date_iso": "2022-11-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA127": {
+    "date_iso": "2022-11-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA128": {
+    "date_iso": "2022-11-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA129": {
+    "date_iso": "2022-11-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA130": {
+    "date_iso": "2022-10-31",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA131": {
+    "date_iso": "2022-10-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA132": {
+    "date_iso": "2022-10-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA133": {
+    "date_iso": "2022-10-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA134": {
+    "date_iso": "2022-10-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA135": {
+    "date_iso": "2022-09-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA136": {
+    "date_iso": "2022-09-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA137": {
+    "date_iso": "2022-09-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA138": {
+    "date_iso": "2022-09-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA139": {
+    "date_iso": "2022-08-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA140": {
+    "date_iso": "2022-08-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA141": {
+    "date_iso": "2022-07-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA142": {
+    "date_iso": "2022-07-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA143": {
+    "date_iso": "2022-06-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA144": {
+    "date_iso": "2022-06-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA145": {
+    "date_iso": "2022-06-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA146": {
+    "date_iso": "2022-06-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA147": {
+    "date_iso": "2022-05-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA148": {
+    "date_iso": "2022-04-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA149": {
+    "date_iso": "2022-03-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA150": {
+    "date_iso": "2022-03-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA151": {
+    "date_iso": "2022-03-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA152": {
+    "date_iso": "2022-03-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA153": {
+    "date_iso": "2024-11-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA154": {
+    "date_iso": "2024-10-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA155": {
+    "date_iso": "2024-10-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA156": {
+    "date_iso": "2024-10-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA157": {
+    "date_iso": "2022-02-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA158": {
+    "date_iso": "2022-02-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA159": {
+    "date_iso": "2022-02-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA160": {
+    "date_iso": "2022-02-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA161": {
+    "date_iso": "2022-01-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA162": {
+    "date_iso": "2022-01-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA163": {
+    "date_iso": "2021-12-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA164": {
+    "date_iso": "2021-12-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA165": {
+    "date_iso": "2021-12-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA166": {
+    "date_iso": "2021-11-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA167": {
+    "date_iso": "2021-11-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA168": {
+    "date_iso": "2021-10-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA169": {
+    "date_iso": "2021-10-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA170": {
+    "date_iso": "2021-10-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA171": {
+    "date_iso": "2021-09-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA172": {
+    "date_iso": "2021-09-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA173": {
+    "date_iso": "2021-08-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA174": {
+    "date_iso": "2021-08-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA175": {
+    "date_iso": "2021-07-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA176": {
+    "date_iso": "2021-07-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA177": {
+    "date_iso": "2021-06-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA178": {
+    "date_iso": "2021-06-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA179": {
+    "date_iso": "2021-06-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA180": {
+    "date_iso": "2021-05-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA181": {
+    "date_iso": "2021-05-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA182": {
+    "date_iso": "2021-05-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA183": {
+    "date_iso": "2021-05-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA184": {
+    "date_iso": "2021-04-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA185": {
+    "date_iso": "2021-04-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA186": {
+    "date_iso": "2021-04-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA187": {
+    "date_iso": "2021-04-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA188": {
+    "date_iso": "2021-03-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA189": {
+    "date_iso": "2021-03-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA190": {
+    "date_iso": "2021-03-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA191": {
+    "date_iso": "2021-02-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA192": {
+    "date_iso": "2021-02-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA193": {
+    "date_iso": "2021-01-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA194": {
+    "date_iso": "2020-12-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA195": {
+    "date_iso": "2020-12-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA196": {
+    "date_iso": "2020-11-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA197": {
+    "date_iso": "2020-11-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA198": {
+    "date_iso": "2020-11-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA199": {
+    "date_iso": "2020-11-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA200": {
+    "date_iso": "2020-10-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA201": {
+    "date_iso": "2020-10-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA202": {
+    "date_iso": "2020-10-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA203": {
+    "date_iso": "2020-09-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA204": {
+    "date_iso": "2020-09-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA205": {
+    "date_iso": "2020-09-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA206": {
+    "date_iso": "2020-09-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA207": {
+    "date_iso": "2020-08-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA208": {
+    "date_iso": "2020-08-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA209": {
+    "date_iso": "2020-08-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA210": {
+    "date_iso": "2020-08-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA211": {
+    "date_iso": "2020-07-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA212": {
+    "date_iso": "2020-07-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA213": {
+    "date_iso": "2020-07-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA214": {
+    "date_iso": "2020-06-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA215": {
+    "date_iso": "2020-06-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA216": {
+    "date_iso": "2020-05-31",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA217": {
+    "date_iso": "2020-05-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA218": {
+    "date_iso": "2020-05-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA219": {
+    "date_iso": "2020-04-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA220": {
+    "date_iso": "2020-04-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA221": {
+    "date_iso": "2020-04-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA222": {
+    "date_iso": "2020-03-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA223": {
+    "date_iso": "2020-03-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA224": {
+    "date_iso": "2020-03-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA225": {
+    "date_iso": "2020-02-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA226": {
+    "date_iso": "2020-02-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA227": {
+    "date_iso": "2020-01-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA228": {
+    "date_iso": "2020-01-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA229": {
+    "date_iso": "2020-01-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA230": {
+    "date_iso": "2019-12-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA231": {
+    "date_iso": "2019-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA232": {
+    "date_iso": "2019-11-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA233": {
+    "date_iso": "2019-10-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA234": {
+    "date_iso": "2019-10-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA235": {
+    "date_iso": "2019-09-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA236": {
+    "date_iso": "2019-09-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA237": {
+    "date_iso": "2019-09-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA238": {
+    "date_iso": "2019-09-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA239": {
+    "date_iso": "2019-08-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA241": {
+    "date_iso": "2019-07-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA242": {
+    "date_iso": "2019-06-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA243": {
+    "date_iso": "2019-06-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA244": {
+    "date_iso": "2019-05-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA245": {
+    "date_iso": "2019-04-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA246": {
+    "date_iso": "2019-04-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA247": {
+    "date_iso": "2019-04-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA248": {
+    "date_iso": "2019-04-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA249": {
+    "date_iso": "2019-03-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA250": {
+    "date_iso": "2019-03-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA251": {
+    "date_iso": "2019-02-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA252": {
+    "date_iso": "2019-02-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA253": {
+    "date_iso": "2019-02-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA254": {
+    "date_iso": "2019-01-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA255": {
+    "date_iso": "2019-01-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA256": {
+    "date_iso": "2018-12-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA257": {
+    "date_iso": "2018-12-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA258": {
+    "date_iso": "2018-11-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA259": {
+    "date_iso": "2018-11-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA260": {
+    "date_iso": "2018-11-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA261": {
+    "date_iso": "2018-11-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA262": {
+    "date_iso": "2018-10-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA263": {
+    "date_iso": "2018-10-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA264": {
+    "date_iso": "2018-10-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA265": {
+    "date_iso": "2018-09-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA266": {
+    "date_iso": "2018-09-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA267": {
+    "date_iso": "2018-09-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA268": {
+    "date_iso": "2018-08-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA269": {
+    "date_iso": "2018-08-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA270": {
+    "date_iso": "2018-07-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA271": {
+    "date_iso": "2018-07-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA272": {
+    "date_iso": "2018-07-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA273": {
+    "date_iso": "2018-07-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA274": {
+    "date_iso": "2018-06-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA275": {
+    "date_iso": "2018-06-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA276": {
+    "date_iso": "2018-05-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA277": {
+    "date_iso": "2018-04-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA278": {
+    "date_iso": "2018-04-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA279": {
+    "date_iso": "2018-03-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA280": {
+    "date_iso": "2018-03-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA281": {
+    "date_iso": "2018-03-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA282": {
+    "date_iso": "2018-03-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA283": {
+    "date_iso": "2018-02-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA284": {
+    "date_iso": "2018-02-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA285": {
+    "date_iso": "2018-02-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA286": {
+    "date_iso": "2018-01-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA287": {
+    "date_iso": "2018-01-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA288": {
+    "date_iso": "2018-01-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA289": {
+    "date_iso": "2018-01-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA290": {
+    "date_iso": "2017-12-31",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA291": {
+    "date_iso": "2017-12-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA292": {
+    "date_iso": "2017-12-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA293": {
+    "date_iso": "2017-12-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA294": {
+    "date_iso": "2017-12-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA295": {
+    "date_iso": "2017-11-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA296": {
+    "date_iso": "2017-11-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA297": {
+    "date_iso": "2017-11-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA298": {
+    "date_iso": "2017-11-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA299": {
+    "date_iso": "2017-10-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA300": {
+    "date_iso": "2017-09-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA301": {
+    "date_iso": "2017-09-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA302": {
+    "date_iso": "2017-08-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA303": {
+    "date_iso": "2017-08-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA304": {
+    "date_iso": "2017-07-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA305": {
+    "date_iso": "2017-07-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA306": {
+    "date_iso": "2017-07-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA307": {
+    "date_iso": "2017-06-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA308": {
+    "date_iso": "2017-06-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA309": {
+    "date_iso": "2017-06-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA310": {
+    "date_iso": "2017-06-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA311": {
+    "date_iso": "2017-05-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA312": {
+    "date_iso": "2017-05-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA313": {
+    "date_iso": "2017-05-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA314": {
+    "date_iso": "2017-04-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA315": {
+    "date_iso": "2017-04-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA316": {
+    "date_iso": "2017-04-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA317": {
+    "date_iso": "2017-04-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA318": {
+    "date_iso": "2017-03-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA319": {
+    "date_iso": "2017-03-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA320": {
+    "date_iso": "2017-03-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA321": {
+    "date_iso": "2017-02-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA322": {
+    "date_iso": "2017-01-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA323": {
+    "date_iso": "2017-01-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA324": {
+    "date_iso": "2017-01-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA325": {
+    "date_iso": "2017-01-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA326": {
+    "date_iso": "2016-12-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA327": {
+    "date_iso": "2016-12-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA328": {
+    "date_iso": "2016-11-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA329": {
+    "date_iso": "2016-11-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA330": {
+    "date_iso": "2016-10-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA331": {
+    "date_iso": "2016-10-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA332": {
+    "date_iso": "2016-10-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA333": {
+    "date_iso": "2016-09-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA334": {
+    "date_iso": "2016-09-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA335": {
+    "date_iso": "2016-09-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA336": {
+    "date_iso": "2016-09-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA337": {
+    "date_iso": "2016-08-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA338": {
+    "date_iso": "2016-08-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA339": {
+    "date_iso": "2016-07-31",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA340": {
+    "date_iso": "2016-07-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA341": {
+    "date_iso": "2016-07-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA342": {
+    "date_iso": "2016-07-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA343": {
+    "date_iso": "2016-06-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA344": {
+    "date_iso": "2016-06-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA345": {
+    "date_iso": "2016-06-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA346": {
+    "date_iso": "2016-05-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA347": {
+    "date_iso": "2016-04-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA348": {
+    "date_iso": "2016-04-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA349": {
+    "date_iso": "2016-04-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA350": {
+    "date_iso": "2016-03-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA351": {
+    "date_iso": "2016-03-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA352": {
+    "date_iso": "2016-03-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA353": {
+    "date_iso": "2016-02-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA354": {
+    "date_iso": "2016-02-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA355": {
+    "date_iso": "2016-02-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA356": {
+    "date_iso": "2016-01-31",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA357": {
+    "date_iso": "2016-01-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA358": {
+    "date_iso": "2016-01-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA359": {
+    "date_iso": "2016-01-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA360": {
+    "date_iso": "2015-12-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA361": {
+    "date_iso": "2015-12-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA362": {
+    "date_iso": "2015-12-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA363": {
+    "date_iso": "2015-11-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA364": {
+    "date_iso": "2015-11-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA365": {
+    "date_iso": "2015-11-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA366": {
+    "date_iso": "2015-11-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA367": {
+    "date_iso": "2015-10-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA368": {
+    "date_iso": "2015-10-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA369": {
+    "date_iso": "2015-10-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA370": {
+    "date_iso": "2015-09-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA371": {
+    "date_iso": "2015-09-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA372": {
+    "date_iso": "2015-08-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA373": {
+    "date_iso": "2015-08-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA374": {
+    "date_iso": "2015-08-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA375": {
+    "date_iso": "2015-08-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA376": {
+    "date_iso": "2015-07-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA377": {
+    "date_iso": "2015-07-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA378": {
+    "date_iso": "2015-07-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA379": {
+    "date_iso": "2015-06-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA380": {
+    "date_iso": "2015-06-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA381": {
+    "date_iso": "2015-06-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA382": {
+    "date_iso": "2015-05-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA383": {
+    "date_iso": "2015-05-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA384": {
+    "date_iso": "2015-04-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA385": {
+    "date_iso": "2015-03-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA386": {
+    "date_iso": "2015-03-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA387": {
+    "date_iso": "2015-03-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA388": {
+    "date_iso": "2015-02-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA389": {
+    "date_iso": "2015-02-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA390": {
+    "date_iso": "2015-02-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA391": {
+    "date_iso": "2015-01-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA392": {
+    "date_iso": "2014-12-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA393": {
+    "date_iso": "2014-12-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA394": {
+    "date_iso": "2014-11-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA395": {
+    "date_iso": "2014-11-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA396": {
+    "date_iso": "2014-11-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA397": {
+    "date_iso": "2014-11-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA398": {
+    "date_iso": "2014-10-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA399": {
+    "date_iso": "2014-10-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA400": {
+    "date_iso": "2014-10-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA401": {
+    "date_iso": "2014-08-31",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA402": {
+    "date_iso": "2014-08-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA403": {
+    "date_iso": "2014-08-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA404": {
+    "date_iso": "2014-07-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA405": {
+    "date_iso": "2014-07-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA406": {
+    "date_iso": "2014-07-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA407": {
+    "date_iso": "2014-07-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA408": {
+    "date_iso": "2014-06-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA409": {
+    "date_iso": "2014-06-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA410": {
+    "date_iso": "2014-06-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA411": {
+    "date_iso": "2014-06-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA413": {
+    "date_iso": "2014-05-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA414": {
+    "date_iso": "2014-05-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA415": {
+    "date_iso": "2014-05-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA416": {
+    "date_iso": "2014-05-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA417": {
+    "date_iso": "2014-04-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA418": {
+    "date_iso": "2014-04-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA419": {
+    "date_iso": "2014-04-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA420": {
+    "date_iso": "2014-03-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA421": {
+    "date_iso": "2014-03-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA422": {
+    "date_iso": "2014-03-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA423": {
+    "date_iso": "2014-03-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA424": {
+    "date_iso": "2014-02-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA425": {
+    "date_iso": "2014-02-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA426": {
+    "date_iso": "2014-02-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA427": {
+    "date_iso": "2014-01-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA428": {
+    "date_iso": "2014-01-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA429": {
+    "date_iso": "2014-01-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA430": {
+    "date_iso": "2013-12-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA431": {
+    "date_iso": "2013-12-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA432": {
+    "date_iso": "2013-12-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA433": {
+    "date_iso": "2013-12-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA434": {
+    "date_iso": "2013-11-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA435": {
+    "date_iso": "2013-11-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA436": {
+    "date_iso": "2013-11-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA437": {
+    "date_iso": "2013-11-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA438": {
+    "date_iso": "2013-11-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA439": {
+    "date_iso": "2013-10-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA440": {
+    "date_iso": "2013-10-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA441": {
+    "date_iso": "2013-10-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA442": {
+    "date_iso": "2013-10-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA443": {
+    "date_iso": "2013-09-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA444": {
+    "date_iso": "2013-09-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA445": {
+    "date_iso": "2013-09-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA446": {
+    "date_iso": "2013-09-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA447": {
+    "date_iso": "2013-08-31",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA448": {
+    "date_iso": "2013-08-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA449": {
+    "date_iso": "2013-08-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA450": {
+    "date_iso": "2013-08-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA451": {
+    "date_iso": "2013-07-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA452": {
+    "date_iso": "2013-07-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA453": {
+    "date_iso": "2013-07-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA454": {
+    "date_iso": "2013-06-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA455": {
+    "date_iso": "2013-06-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA456": {
+    "date_iso": "2013-06-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA457": {
+    "date_iso": "2013-06-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA458": {
+    "date_iso": "2013-05-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA459": {
+    "date_iso": "2013-04-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA460": {
+    "date_iso": "2013-04-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA461": {
+    "date_iso": "2013-03-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA462": {
+    "date_iso": "2013-03-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA463": {
+    "date_iso": "2013-03-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA464": {
+    "date_iso": "2013-03-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA465": {
+    "date_iso": "2013-03-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA466": {
+    "date_iso": "2013-02-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA467": {
+    "date_iso": "2013-02-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA468": {
+    "date_iso": "2013-02-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA469": {
+    "date_iso": "2013-01-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA470": {
+    "date_iso": "2013-01-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA471": {
+    "date_iso": "2013-01-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA472": {
+    "date_iso": "2012-12-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA473": {
+    "date_iso": "2012-12-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA474": {
+    "date_iso": "2012-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA475": {
+    "date_iso": "2012-11-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA476": {
+    "date_iso": "2012-11-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA477": {
+    "date_iso": "2012-11-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA478": {
+    "date_iso": "2012-11-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA479": {
+    "date_iso": "2012-10-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA480": {
+    "date_iso": "2012-10-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA481": {
+    "date_iso": "2012-10-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA482": {
+    "date_iso": "2012-10-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA483": {
+    "date_iso": "2012-09-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA484": {
+    "date_iso": "2012-09-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA485": {
+    "date_iso": "2012-09-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA486": {
+    "date_iso": "2012-09-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA487": {
+    "date_iso": "2012-09-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA488": {
+    "date_iso": "2012-08-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA489": {
+    "date_iso": "2012-08-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA490": {
+    "date_iso": "2012-07-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA491": {
+    "date_iso": "2012-07-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA492": {
+    "date_iso": "2012-07-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA493": {
+    "date_iso": "2012-06-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA494": {
+    "date_iso": "2012-06-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA495": {
+    "date_iso": "2012-06-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA496": {
+    "date_iso": "2012-06-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA497": {
+    "date_iso": "2012-06-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA498": {
+    "date_iso": "2012-05-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA499": {
+    "date_iso": "2012-05-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA500": {
+    "date_iso": "2012-05-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA501": {
+    "date_iso": "2012-05-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA502": {
+    "date_iso": "2012-04-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA503": {
+    "date_iso": "2012-04-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA504": {
+    "date_iso": "2012-03-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA505": {
+    "date_iso": "2012-03-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA506": {
+    "date_iso": "2012-03-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA507": {
+    "date_iso": "2012-03-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA508": {
+    "date_iso": "2012-02-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA509": {
+    "date_iso": "2012-02-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA510": {
+    "date_iso": "2012-02-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA511": {
+    "date_iso": "2012-02-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA512": {
+    "date_iso": "2012-01-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA513": {
+    "date_iso": "2012-01-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA514": {
+    "date_iso": "2012-01-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA515": {
+    "date_iso": "2011-12-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA516": {
+    "date_iso": "2011-12-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA517": {
+    "date_iso": "2011-11-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA518": {
+    "date_iso": "2011-11-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA519": {
+    "date_iso": "2011-11-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA520": {
+    "date_iso": "2011-11-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA521": {
+    "date_iso": "2011-10-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA522": {
+    "date_iso": "2011-09-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA523": {
+    "date_iso": "2011-09-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA524": {
+    "date_iso": "2011-08-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA525": {
+    "date_iso": "2011-08-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA526": {
+    "date_iso": "2011-07-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA527": {
+    "date_iso": "2011-06-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CA528": {
+    "date_iso": "2011-05-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CB001": {
+    "date_iso": "2024-09-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CB003": {
+    "date_iso": "2019-02-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CB004": {
+    "date_iso": "2021-10-31",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CB005": {
+    "date_iso": "2019-11-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CB006": {
+    "date_iso": "2015-03-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CB007": {
+    "date_iso": "2013-04-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CB008": {
+    "date_iso": "2021-07-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CB009": {
+    "date_iso": "2021-02-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CB010": {
+    "date_iso": "2018-09-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CB011": {
+    "date_iso": "2018-09-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CB012": {
+    "date_iso": "2018-04-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CB013": {
+    "date_iso": "2015-12-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CB014": {
+    "date_iso": "2015-06-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CB015": {
+    "date_iso": "2015-05-31",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CB016": {
+    "date_iso": "2015-05-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CB017": {
+    "date_iso": "2015-03-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CB018": {
+    "date_iso": "2014-11-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CB019": {
+    "date_iso": "2013-05-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC001": {
+    "date_iso": "2017-02-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC002": {
+    "date_iso": "2016-03-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC004": {
+    "date_iso": "2018-04-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC005": {
+    "date_iso": "2014-02-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC006": {
+    "date_iso": "2014-03-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC007": {
+    "date_iso": "2014-09-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC008": {
+    "date_iso": "2015-01-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC009": {
+    "date_iso": "2022-01-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC012": {
+    "date_iso": "2024-09-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC013": {
+    "date_iso": "2019-11-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC015": {
+    "date_iso": "2012-04-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC016": {
+    "date_iso": "2016-07-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC017": {
+    "date_iso": "2020-06-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC018": {
+    "date_iso": "2026-04-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC019": {
+    "date_iso": "2026-04-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC020": {
+    "date_iso": "2026-02-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC021": {
+    "date_iso": "2025-05-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC022": {
+    "date_iso": "2025-04-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC023": {
+    "date_iso": "2025-03-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC024": {
+    "date_iso": "2025-01-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC025": {
+    "date_iso": "2024-12-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC026": {
+    "date_iso": "2024-12-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC027": {
+    "date_iso": "2024-12-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC028": {
+    "date_iso": "2024-08-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC029": {
+    "date_iso": "2024-07-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC030": {
+    "date_iso": "2024-06-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC031": {
+    "date_iso": "2024-06-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC032": {
+    "date_iso": "2024-05-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC033": {
+    "date_iso": "2024-03-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC034": {
+    "date_iso": "2024-01-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC035": {
+    "date_iso": "2023-12-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC036": {
+    "date_iso": "2023-11-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC037": {
+    "date_iso": "2023-10-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC038": {
+    "date_iso": "2023-10-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC039": {
+    "date_iso": "2023-09-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC040": {
+    "date_iso": "2023-07-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC041": {
+    "date_iso": "2023-05-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC042": {
+    "date_iso": "2023-04-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC043": {
+    "date_iso": "2023-04-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC044": {
+    "date_iso": "2023-01-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC045": {
+    "date_iso": "2022-08-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC046": {
+    "date_iso": "2022-07-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC047": {
+    "date_iso": "2022-05-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC048": {
+    "date_iso": "2022-04-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC049": {
+    "date_iso": "2024-09-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC050": {
+    "date_iso": "2021-12-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC051": {
+    "date_iso": "2021-08-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC052": {
+    "date_iso": "2021-05-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC053": {
+    "date_iso": "2020-10-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC054": {
+    "date_iso": "2020-07-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC055": {
+    "date_iso": "2020-03-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC056": {
+    "date_iso": "2020-02-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC057": {
+    "date_iso": "2019-12-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC058": {
+    "date_iso": "2019-12-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC059": {
+    "date_iso": "2019-12-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC060": {
+    "date_iso": "2019-11-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC061": {
+    "date_iso": "2019-10-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC062": {
+    "date_iso": "2019-10-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC063": {
+    "date_iso": "2019-09-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC064": {
+    "date_iso": "2019-07-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC065": {
+    "date_iso": "2019-07-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC066": {
+    "date_iso": "2019-06-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC067": {
+    "date_iso": "2019-06-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC068": {
+    "date_iso": "2019-05-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC069": {
+    "date_iso": "2019-03-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC070": {
+    "date_iso": "2019-01-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC071": {
+    "date_iso": "2019-01-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC072": {
+    "date_iso": "2018-12-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC073": {
+    "date_iso": "2018-12-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC074": {
+    "date_iso": "2018-10-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC075": {
+    "date_iso": "2018-08-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC076": {
+    "date_iso": "2018-05-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC077": {
+    "date_iso": "2018-02-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC078": {
+    "date_iso": "2017-10-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC079": {
+    "date_iso": "2017-10-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC080": {
+    "date_iso": "2017-09-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC081": {
+    "date_iso": "2017-07-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC082": {
+    "date_iso": "2017-04-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC083": {
+    "date_iso": "2017-03-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC084": {
+    "date_iso": "2017-01-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC085": {
+    "date_iso": "2016-12-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC086": {
+    "date_iso": "2016-10-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC087": {
+    "date_iso": "2016-08-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC088": {
+    "date_iso": "2016-08-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC089": {
+    "date_iso": "2016-02-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC090": {
+    "date_iso": "2016-01-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC091": {
+    "date_iso": "2015-10-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC092": {
+    "date_iso": "2015-09-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC093": {
+    "date_iso": "2015-07-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC094": {
+    "date_iso": "2015-05-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC095": {
+    "date_iso": "2015-04-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC096": {
+    "date_iso": "2015-04-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC097": {
+    "date_iso": "2015-01-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC098": {
+    "date_iso": "2015-01-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC099": {
+    "date_iso": "2014-12-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC100": {
+    "date_iso": "2014-12-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC101": {
+    "date_iso": "2014-10-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC102": {
+    "date_iso": "2014-09-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC103": {
+    "date_iso": "2014-09-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC104": {
+    "date_iso": "2014-04-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC106": {
+    "date_iso": "2014-01-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC107": {
+    "date_iso": "2013-08-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC108": {
+    "date_iso": "2013-07-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC109": {
+    "date_iso": "2013-02-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC110": {
+    "date_iso": "2012-08-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC111": {
+    "date_iso": "2011-12-31",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC112": {
+    "date_iso": "2011-12-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC113": {
+    "date_iso": "2011-12-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC114": {
+    "date_iso": "2011-06-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC115": {
+    "date_iso": "2011-05-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC116": {
+    "date_iso": "2011-05-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CC117": {
+    "date_iso": "2011-04-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD001": {
+    "date_iso": "2016-11-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD003": {
+    "date_iso": "2025-08-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD005": {
+    "date_iso": "2020-05-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD008": {
+    "date_iso": "2024-09-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD009": {
+    "date_iso": "2026-01-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD011": {
+    "date_iso": "2026-02-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD012": {
+    "date_iso": "2026-01-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD013": {
+    "date_iso": "2025-09-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD014": {
+    "date_iso": "2024-04-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD015": {
+    "date_iso": "2024-03-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD016": {
+    "date_iso": "2023-07-31",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD017": {
+    "date_iso": "2022-08-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD018": {
+    "date_iso": "2022-04-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD019": {
+    "date_iso": "2021-08-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD020": {
+    "date_iso": "2021-07-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD021": {
+    "date_iso": "2020-06-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD022": {
+    "date_iso": "2020-05-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD023": {
+    "date_iso": "2019-05-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD024": {
+    "date_iso": "2017-08-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD025": {
+    "date_iso": "2016-12-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD026": {
+    "date_iso": "2016-05-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD027": {
+    "date_iso": "2013-05-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD028": {
+    "date_iso": "2011-10-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CD029": {
+    "date_iso": "2011-09-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE001": {
+    "date_iso": "2025-01-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE003": {
+    "date_iso": "2026-03-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE004": {
+    "date_iso": "2025-10-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE007": {
+    "date_iso": "2024-09-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE008": {
+    "date_iso": "2024-10-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE009": {
+    "date_iso": "2026-04-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE010": {
+    "date_iso": "2026-03-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE011": {
+    "date_iso": "2026-02-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE012": {
+    "date_iso": "2026-01-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE013": {
+    "date_iso": "2025-12-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE014": {
+    "date_iso": "2025-12-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE015": {
+    "date_iso": "2025-12-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE016": {
+    "date_iso": "2025-12-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE017": {
+    "date_iso": "2025-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE018": {
+    "date_iso": "2025-11-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE019": {
+    "date_iso": "2025-11-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE020": {
+    "date_iso": "2025-11-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE021": {
+    "date_iso": "2025-10-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE022": {
+    "date_iso": "2025-10-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE023": {
+    "date_iso": "2025-10-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE024": {
+    "date_iso": "2025-09-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE025": {
+    "date_iso": "2025-09-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE026": {
+    "date_iso": "2025-09-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE027": {
+    "date_iso": "2025-09-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE028": {
+    "date_iso": "2025-08-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE029": {
+    "date_iso": "2025-04-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE030": {
+    "date_iso": "2024-11-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE031": {
+    "date_iso": "2024-11-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE032": {
+    "date_iso": "2024-08-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE033": {
+    "date_iso": "2024-07-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE034": {
+    "date_iso": "2024-01-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE035": {
+    "date_iso": "2023-09-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE036": {
+    "date_iso": "2023-05-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE037": {
+    "date_iso": "2023-03-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE038": {
+    "date_iso": "2023-02-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE039": {
+    "date_iso": "2023-01-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE040": {
+    "date_iso": "2022-08-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE041": {
+    "date_iso": "2022-07-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE042": {
+    "date_iso": "2022-05-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE043": {
+    "date_iso": "2022-05-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE044": {
+    "date_iso": "2022-05-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE045": {
+    "date_iso": "2022-04-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE046": {
+    "date_iso": "2022-01-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE047": {
+    "date_iso": "2022-01-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE048": {
+    "date_iso": "2021-11-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE049": {
+    "date_iso": "2021-11-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE050": {
+    "date_iso": "2021-10-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE051": {
+    "date_iso": "2021-09-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE052": {
+    "date_iso": "2021-09-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE053": {
+    "date_iso": "2021-08-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE054": {
+    "date_iso": "2021-03-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE055": {
+    "date_iso": "2021-01-31",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE056": {
+    "date_iso": "2021-01-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE057": {
+    "date_iso": "2021-01-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE058": {
+    "date_iso": "2021-01-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE059": {
+    "date_iso": "2020-12-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE060": {
+    "date_iso": "2020-11-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE061": {
+    "date_iso": "2020-08-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE062": {
+    "date_iso": "2020-04-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE063": {
+    "date_iso": "2020-03-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE064": {
+    "date_iso": "2020-02-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE065": {
+    "date_iso": "2020-01-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE066": {
+    "date_iso": "2019-06-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE067": {
+    "date_iso": "2019-05-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE068": {
+    "date_iso": "2019-03-31",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE069": {
+    "date_iso": "2019-03-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE070": {
+    "date_iso": "2018-08-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE071": {
+    "date_iso": "2018-07-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE072": {
+    "date_iso": "2018-06-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE073": {
+    "date_iso": "2018-06-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE074": {
+    "date_iso": "2018-05-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE075": {
+    "date_iso": "2018-05-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE076": {
+    "date_iso": "2018-04-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE077": {
+    "date_iso": "2017-10-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE078": {
+    "date_iso": "2017-09-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE079": {
+    "date_iso": "2017-08-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE080": {
+    "date_iso": "2017-07-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE081": {
+    "date_iso": "2017-05-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE082": {
+    "date_iso": "2017-02-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE083": {
+    "date_iso": "2017-02-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE084": {
+    "date_iso": "2016-11-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE085": {
+    "date_iso": "2016-10-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE086": {
+    "date_iso": "2016-06-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE087": {
+    "date_iso": "2016-05-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE088": {
+    "date_iso": "2016-05-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE089": {
+    "date_iso": "2016-05-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE090": {
+    "date_iso": "2016-04-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE091": {
+    "date_iso": "2015-11-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE092": {
+    "date_iso": "2015-09-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE093": {
+    "date_iso": "2015-08-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE094": {
+    "date_iso": "2015-04-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE095": {
+    "date_iso": "2015-02-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE096": {
+    "date_iso": "2014-09-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE097": {
+    "date_iso": "2014-08-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE098": {
+    "date_iso": "2014-08-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE099": {
+    "date_iso": "2013-06-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE100": {
+    "date_iso": "2013-05-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE101": {
+    "date_iso": "2013-04-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE102": {
+    "date_iso": "2013-01-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE103": {
+    "date_iso": "2012-12-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE104": {
+    "date_iso": "2012-12-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE105": {
+    "date_iso": "2012-08-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE106": {
+    "date_iso": "2012-07-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE107": {
+    "date_iso": "2012-04-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE108": {
+    "date_iso": "2012-03-31",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE109": {
+    "date_iso": "2011-10-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE110": {
+    "date_iso": "2011-10-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE111": {
+    "date_iso": "2011-10-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE112": {
+    "date_iso": "2011-09-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE113": {
+    "date_iso": "2011-08-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE114": {
+    "date_iso": "2011-08-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE115": {
+    "date_iso": "2011-07-31",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE116": {
+    "date_iso": "2011-07-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE117": {
+    "date_iso": "2011-07-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE118": {
+    "date_iso": "2011-06-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE119": {
+    "date_iso": "2011-06-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "CE120": {
+    "date_iso": "2011-05-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "GC001": {
+    "date_iso": "2001-01-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "GC002": {
+    "date_iso": null,
+    "precision": "none",
+    "source_of_date": "unparseable"
+  },
+  "GC003": {
+    "date_iso": "1955",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "GC004": {
+    "date_iso": "1960",
+    "precision": "year",
+    "source_of_date": "metadata_iso_year"
+  },
+  "GC005": {
+    "date_iso": "1961",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "GC006": {
+    "date_iso": "1963",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "GC007": {
+    "date_iso": "1980",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "GC008": {
+    "date_iso": "1990",
+    "precision": "year",
+    "source_of_date": "metadata_iso_year"
+  },
+  "GC009": {
+    "date_iso": "1990-07-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "GC010": {
+    "date_iso": "1991-06-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "GC011": {
+    "date_iso": "1990",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "GC012": {
+    "date_iso": "1992",
+    "precision": "year",
+    "source_of_date": "metadata_iso_year"
+  },
+  "GC013": {
+    "date_iso": "1992",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "GC014": {
+    "date_iso": null,
+    "precision": "none",
+    "source_of_date": "unparseable"
+  },
+  "GC015": {
+    "date_iso": null,
+    "precision": "none",
+    "source_of_date": "unparseable"
+  },
+  "GC016": {
+    "date_iso": "2001-01-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "GC017": {
+    "date_iso": null,
+    "precision": "none",
+    "source_of_date": "unparseable"
+  },
+  "GC018": {
+    "date_iso": null,
+    "precision": "none",
+    "source_of_date": "unparseable"
+  },
+  "GC019": {
+    "date_iso": "2007",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "GC020": {
+    "date_iso": null,
+    "precision": "none",
+    "source_of_date": "unparseable"
+  },
+  "GC021": {
+    "date_iso": "1936",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "GC022": {
+    "date_iso": "1945",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "GC023": {
+    "date_iso": "1955",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "GC024": {
+    "date_iso": "1956",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "GC025": {
+    "date_iso": "1958",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "GC026": {
+    "date_iso": "1961",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "GC027": {
+    "date_iso": "1963",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "GC028": {
+    "date_iso": "1986",
+    "precision": "year",
+    "source_of_date": "metadata_iso_year"
+  },
+  "GC029": {
+    "date_iso": "1989",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "GC030": {
+    "date_iso": "1987",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "GC031": {
+    "date_iso": "1995",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "GC032": {
+    "date_iso": null,
+    "precision": "none",
+    "source_of_date": "unparseable"
+  },
+  "GC033": {
+    "date_iso": null,
+    "precision": "none",
+    "source_of_date": "unparseable"
+  },
+  "GC034": {
+    "date_iso": null,
+    "precision": "none",
+    "source_of_date": "unparseable"
+  },
+  "GC035": {
+    "date_iso": "2024",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "SA011": {
+    "date_iso": "2024-04-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA015": {
+    "date_iso": "2023-10-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA019": {
+    "date_iso": "2022-10-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA020": {
+    "date_iso": "2022-08-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA034": {
+    "date_iso": "2020-08-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA041": {
+    "date_iso": "2019-10-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA043": {
+    "date_iso": "2019-07-10",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA045": {
+    "date_iso": "2019-04-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA048": {
+    "date_iso": "2019-03-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA049": {
+    "date_iso": "2018-08-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA052": {
+    "date_iso": "2018-05-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA055": {
+    "date_iso": "2017-10-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA056": {
+    "date_iso": "2017-07-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA074": {
+    "date_iso": "2014-11-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA078": {
+    "date_iso": "2014-03-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA085": {
+    "date_iso": "2012-11-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA089": {
+    "date_iso": "2012-06-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA095": {
+    "date_iso": "2011-08-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA096": {
+    "date_iso": "2011-06-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA098": {
+    "date_iso": "2011-03-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA099": {
+    "date_iso": "2010-11-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA102": {
+    "date_iso": "2010-05-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA105": {
+    "date_iso": "2010-01-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA107": {
+    "date_iso": "2009-10-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA111": {
+    "date_iso": "2009-03-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA112": {
+    "date_iso": "2009-01-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA114": {
+    "date_iso": "2008-12-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA119": {
+    "date_iso": "2008-05-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA120": {
+    "date_iso": "2008-04-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA122": {
+    "date_iso": "2008-04-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA123": {
+    "date_iso": "2008-01-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA124": {
+    "date_iso": "2008-01-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA126": {
+    "date_iso": "2007-12-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA131": {
+    "date_iso": "2007-04-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA132": {
+    "date_iso": "2007-02-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA133": {
+    "date_iso": "2007-02-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA134": {
+    "date_iso": "2007-02-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA136": {
+    "date_iso": "2006-12-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA138": {
+    "date_iso": "2006-11-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA139": {
+    "date_iso": "2006-11-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA142": {
+    "date_iso": "2006-11-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA145": {
+    "date_iso": "2006-10-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA147": {
+    "date_iso": "2006-10-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SA149": {
+    "date_iso": "2006-09-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB006": {
+    "date_iso": "2024-09-02",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB028": {
+    "date_iso": "2021-07-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB039": {
+    "date_iso": "2019-11-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB040": {
+    "date_iso": "2019-10-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB042": {
+    "date_iso": "2019-10-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB050": {
+    "date_iso": "2018-11-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB051": {
+    "date_iso": "2018-10-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB063": {
+    "date_iso": "2016-04-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB065": {
+    "date_iso": "2015-10-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB068": {
+    "date_iso": "2015-07-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB072": {
+    "date_iso": "2015-05-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB073": {
+    "date_iso": "2015-02-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB075": {
+    "date_iso": "2014-09-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB079": {
+    "date_iso": "2014-02-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB083": {
+    "date_iso": "2013-04-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB085": {
+    "date_iso": "2012-11-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB086": {
+    "date_iso": "2012-11-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB094": {
+    "date_iso": "2011-09-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB110": {
+    "date_iso": "2009-05-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB113": {
+    "date_iso": "2009-01-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SB115": {
+    "date_iso": "2008-10-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC003": {
+    "date_iso": "2025-03-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC005": {
+    "date_iso": "2024-09-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC007": {
+    "date_iso": "2021-07-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC008": {
+    "date_iso": "2021-07-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC010": {
+    "date_iso": "2024-06-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC014": {
+    "date_iso": "2023-11-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC017": {
+    "date_iso": "2023-06-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC018": {
+    "date_iso": "2023-04-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC023": {
+    "date_iso": "2022-07-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC024": {
+    "date_iso": "2022-01-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC025": {
+    "date_iso": "2021-12-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC029": {
+    "date_iso": "2021-12-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC030": {
+    "date_iso": "2020-09-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC031": {
+    "date_iso": "2021-05-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC032": {
+    "date_iso": "2021-04-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC037": {
+    "date_iso": "2019-11-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC046": {
+    "date_iso": "2019-04-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC053": {
+    "date_iso": "2018-04-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC057": {
+    "date_iso": "2017-05-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC058": {
+    "date_iso": "2017-03-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC059": {
+    "date_iso": "2016-12-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC061": {
+    "date_iso": "2016-07-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC062": {
+    "date_iso": "2016-05-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC064": {
+    "date_iso": "2016-03-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC066": {
+    "date_iso": "2015-08-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC067": {
+    "date_iso": "2015-07-17",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC069": {
+    "date_iso": "2015-06-26",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC070": {
+    "date_iso": "2015-06-04",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC071": {
+    "date_iso": "2015-05-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC076": {
+    "date_iso": "2014-05-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC077": {
+    "date_iso": "2014-04-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC080": {
+    "date_iso": "2014-01-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC081": {
+    "date_iso": "2013-06-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC084": {
+    "date_iso": "2013-02-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC088": {
+    "date_iso": "2012-09-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC090": {
+    "date_iso": "2012-03-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC091": {
+    "date_iso": "2011-12-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC093": {
+    "date_iso": "2011-10-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC097": {
+    "date_iso": "2011-05-03",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC100": {
+    "date_iso": "2010-11-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC101": {
+    "date_iso": "2010-05-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC104": {
+    "date_iso": "2010-01-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC106": {
+    "date_iso": "2009-12-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC109": {
+    "date_iso": "2009-06-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC116": {
+    "date_iso": "2008-07-21",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC117": {
+    "date_iso": "2008-06-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC118": {
+    "date_iso": "2008-06-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC121": {
+    "date_iso": "2008-04-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC125": {
+    "date_iso": "2008-01-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC127": {
+    "date_iso": "2007-11-08",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC128": {
+    "date_iso": "2007-08-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC129": {
+    "date_iso": "2007-08-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC130": {
+    "date_iso": "2007-05-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC135": {
+    "date_iso": "2006-12-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC144": {
+    "date_iso": "2006-11-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC151": {
+    "date_iso": "1995-10-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC152": {
+    "date_iso": "1995-08-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SC153": {
+    "date_iso": "1994-11-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD002": {
+    "date_iso": "2025-08-29",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD004": {
+    "date_iso": "2024-10-22",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD009": {
+    "date_iso": "2024-08-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD016": {
+    "date_iso": "2023-07-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD021": {
+    "date_iso": "2022-08-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD022": {
+    "date_iso": "2022-07-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD026": {
+    "date_iso": "2021-10-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD027": {
+    "date_iso": "2021-08-13",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD033": {
+    "date_iso": "2021-02-06",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD035": {
+    "date_iso": "2020-07-11",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD044": {
+    "date_iso": "2019-05-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD047": {
+    "date_iso": "2019-03-28",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD054": {
+    "date_iso": "2018-03-23",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD060": {
+    "date_iso": "2016-12-01",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD082": {
+    "date_iso": "2013-04-18",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD087": {
+    "date_iso": "2012-09-19",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD137": {
+    "date_iso": "2006-11-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD140": {
+    "date_iso": "2006-11-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD141": {
+    "date_iso": "2006-11-24",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD143": {
+    "date_iso": "2006-11-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD146": {
+    "date_iso": "2006-10-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD148": {
+    "date_iso": "2006-10-05",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SD150": {
+    "date_iso": "2006-08-25",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SE001": {
+    "date_iso": "2026-04-27",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SE012": {
+    "date_iso": "2024-01-16",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SE013": {
+    "date_iso": "2023-11-09",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SE036": {
+    "date_iso": "2020-06-12",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SE038": {
+    "date_iso": "2019-11-14",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SE092": {
+    "date_iso": "2011-12-15",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SE103": {
+    "date_iso": "2010-04-20",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "SE108": {
+    "date_iso": "2009-07-30",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  }
+}

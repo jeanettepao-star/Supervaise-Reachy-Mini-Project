@@ -1,0 +1,98 @@
+{
+  "coverage": {
+    "n_docs": 1089,
+    "dated": 1080,
+    "undated": 9,
+    "precision_counts": {
+      "day": 1058,
+      "none": 9,
+      "year": 22
+    },
+    "by_source_class_precision": {
+      "B:day": 115,
+      "C:day": 785,
+      "G:day": 4,
+      "G:none": 9,
+      "G:year": 22,
+      "S:day": 154
+    },
+    "undated_doc_ids": [
+      "GC002",
+      "GC014",
+      "GC015",
+      "GC017",
+      "GC018",
+      "GC020",
+      "GC032",
+      "GC033",
+      "GC034"
+    ]
+  },
+  "idempotency": {
+    "sha256": "9b5713957e58bdba4e313c74b7dfa9755883e69e5d73343e7973052f1af941a0",
+    "rebuild_sha256": "9b5713957e58bdba4e313c74b7dfa9755883e69e5d73343e7973052f1af941a0",
+    "stable": true
+  },
+  "no_regression_flag_off": {
+    "queries_checked": 40,
+    "byte_identical": true,
+    "mismatches": []
+  },
+  "temporal_spotcheck_flag_on": {
+    "query": "What did Chief Justice Panganiban write about the rule of law in 2016?",
+    "intent": {
+      "type": "year",
+      "years": [
+        2016
+      ]
+    },
+    "before_docs": [
+      "CC009",
+      "BD003",
+      "CA031",
+      "CC001",
+      "CA031",
+      "CC001",
+      "CC009"
+    ],
+    "before_years": [
+      "2010",
+      "2017",
+      "2022",
+      "2026"
+    ],
+    "after_docs": [
+      "CD001",
+      "CC002",
+      "CC002",
+      "SB063",
+      "SB063",
+      "CC002",
+      "CC002",
+      "CC002",
+      "CC002",
+      "CC002",
+      "CC002",
+      "CD001"
+    ],
+    "after_years": [
+      "2016"
+    ],
+    "date_filter_diag": {
+      "mode": "date_filter",
+      "intent": {
+        "type": "year",
+        "years": [
+          2016
+        ]
+      },
+      "n_matched": 12
+    },
+    "all_after_dated_2016": true
+  },
+  "provenance": {
+    "date_table_sha256": "9b5713957e58bdba4e313c74b7dfa9755883e69e5d73343e7973052f1af941a0",
+    "git_commit": "73a4a1209b215d8b97daaf1fa813789734c07530",
+    "DATE_INDEX_ENABLED_default": false
+  }
+}
