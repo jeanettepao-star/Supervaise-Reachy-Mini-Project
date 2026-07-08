@@ -144,30 +144,40 @@ def main():
             "per_item": recall5},
         "per_query": rows,
     }
-    # v2-vs-v3 delta: both features DARK -> Section C (retrieval) MUST match v2
-    # exactly; any mismatch = a leaked flag/BUG. Fabrication should also match.
+    # v2-vs-v3 delta, SPLIT BY AXIS.
+    WATCHLIST = ["A3", "B8", "C16", "D20", "E26", "X31", "X33", "X35", "X39"]  # W2.6 single-cite @floor=2
     delta = None
     if V2_PARTIAL.exists():
         v2 = json.loads(V2_PARTIAL.read_text(encoding="utf-8"))
         v2c, v3c = v2["section_C_min_k_floor_analysis"], report["section_C_min_k_floor_analysis"]
         v2b, v3b = v2["section_B_grounding_fidelity"], report["section_B_grounding_fidelity"]
         def cmp(a, b): return {"v2": a, "v3": b, "match": a == b}
+        retr = {"chunks_returned_dist": cmp(v2c["chunks_returned"], v3c["chunks_returned"]),
+                "floor_bound_qids": cmp(v2c["floor_bound_qids"], v3c["floor_bound_qids"]),
+                "ceiling_bound_qids": cmp(v2c["ceiling_bound_qids"], v3c["ceiling_bound_qids"]),
+                "floor_verdict": cmp(v2c["VERDICT"], v3c["VERDICT"])}
+        retr["byte_identical"] = all(retr[k]["match"] for k in
+                                     ("chunks_returned_dist", "floor_bound_qids", "ceiling_bound_qids"))
+        retr["rule"] = ("both features DARK + retrieval deterministic + transport-agnostic -> v3 MUST be "
+                        "byte-identical to v2. ANY delta = leaked flag = BUG (withhold canonical tag).")
+        comp = {"fabrication_query_count": cmp(v2b["fabricated_citations_query_count"],
+                                               v3b["fabricated_citations_query_count"]),
+                "v2_transport": v2b.get("transport", "?"), "v3_transport": v3b.get("transport", "?"),
+                "matches_v2": v2b["fabricated_citations_query_count"] == v3b["fabricated_citations_query_count"],
+                "rule": ("should match v2 (0/40). If it differs, investigate TRANSPORT FIRST (v2 partial "
+                         "transport vs v3) — a transport-driven compose delta is EXPECTED, not a flag leak. "
+                         "Citation SETS differ run-to-run (compose non-determinism).")}
         delta = {"prev_tag": "arch-baseline-v2", "this_tag": "arch-baseline-v3",
-                 "floor_verdict": cmp(v2c["VERDICT"], v3c["VERDICT"]),
-                 "floor_bound_qids": cmp(v2c["floor_bound_qids"], v3c["floor_bound_qids"]),
-                 "ceiling_bound_qids": cmp(v2c["ceiling_bound_qids"], v3c["ceiling_bound_qids"]),
-                 "chunks_returned_dist": cmp(v2c["chunks_returned"], v3c["chunks_returned"]),
-                 "fabrication_query_count": cmp(v2b["fabricated_citations_query_count"],
-                                                v3b["fabricated_citations_query_count"]),
-                 "interpretation": "both flags DARK -> Section C MUST match v2 exactly (any mismatch = leaked "
-                                   "flag/BUG). Fabrication count should match (0/40); citation SETS differ "
-                                   "run-to-run (compose non-determinism) — expected, not a regression."}
-        delta["section_C_identical_to_v2"] = all(delta[k]["match"] for k in
-                                                 ("floor_bound_qids", "ceiling_bound_qids", "chunks_returned_dist"))
-        delta["fabrication_matches_v2"] = delta["fabrication_query_count"]["match"]
+                 "RETRIEVAL_AXIS": retr, "COMPOSE_AXIS": comp}
     report["v2_vs_v3_delta"] = delta
-    report["provenance"]["tag"] = "arch-baseline-v3"
-    report["provenance"]["prev_tag"] = "arch-baseline-v2"
+    report["provenance"].update({
+        "tag": "arch-baseline-v3", "prev_tag": "arch-baseline-v2 (704c8a6)", "expand_floor": config.EXPAND_TRIGGER_MIN_CITATIONS,
+        "transport_used": transport,
+        "fabrication_label": ("canonical (native_sdk)" if native else "PROVISIONAL (curl — needs native re-confirm)"),
+        "data_csv_resolution": "RESTORED (tracked) per Pao — stale Phase-1 CSVs kept for the deprecated "
+                               "generate_corpus_files.py path; runtime uses normalized xlsx (verify_pin PASS)",
+        "single_citation_watchlist_W3_4": {"qids": WATCHLIST,
+            "note": "W2.6 @floor=2 single-doc-cite queries — retrieval-coverage watchlist; re-check under recall@k"}})
     RESULTS.mkdir(parents=True, exist_ok=True)
     (RESULTS / f"w3_2_PARTIAL_BC_v3_{COMMIT}.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -193,14 +203,15 @@ def main():
     r5 = ", ".join(f"{k}:{v['@5']}" for k, v in recall5.items())
     print(f"[A] 5-item harness recall@5: {{ {r5} }} (PLUMBING ONLY)")
     if delta:
-        print(f"\n=== v2-vs-v3 DELTA (both features DARK -> should match) ===")
-        print(f"  Section C identical to v2: {delta['section_C_identical_to_v2']} "
-              f"(floor_verdict {delta['floor_verdict']['v2']}->{delta['floor_verdict']['v3']}, "
-              f"floor/ceiling/dist match)")
-        print(f"  fabrication matches v2: {delta['fabrication_matches_v2']} "
-              f"({delta['fabrication_query_count']['v2']}/40 -> {delta['fabrication_query_count']['v3']}/40)")
-        if not delta["section_C_identical_to_v2"]:
-            print("  *** BUG: Section C differs with flags DARK -> a flag leaked. ***")
+        ra, ca = delta["RETRIEVAL_AXIS"], delta["COMPOSE_AXIS"]
+        print(f"\n=== v2-vs-v3 DELTA (split by axis) ===")
+        print(f"  RETRIEVAL AXIS byte-identical to v2: {ra['byte_identical']} "
+              f"(verdict {ra['floor_verdict']['v2']}->{ra['floor_verdict']['v3']}, floor/ceiling/dist match)")
+        print(f"  COMPOSE AXIS fabrication: v2 {ca['fabrication_query_count']['v2']}/40 "
+              f"({ca['v2_transport']}) -> v3 {ca['fabrication_query_count']['v3']}/40 ({ca['v3_transport']}) "
+              f"match={ca['matches_v2']}")
+        if not ra["byte_identical"]:
+            print("  *** BUG: RETRIEVAL AXIS differs with flags DARK -> a flag leaked. WITHHOLD canonical tag. ***")
     print(f"wrote eval/results/w3_2_PARTIAL_BC_v3_{COMMIT}.json")
     return 0
 

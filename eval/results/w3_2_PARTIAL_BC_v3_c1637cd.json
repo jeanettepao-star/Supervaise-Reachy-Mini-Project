@@ -1,0 +1,943 @@
+{
+  "task": "W3.2 PARTIAL (B+C, no gold) at arch-baseline-v2 — NOT a full scorecard",
+  "full_recall_at_k_over_40": "DEFERRED — blocked on Sheena's gold labels (35/40 missing). NOT overridden.",
+  "provenance": {
+    "eval_sha": "65492b650aec8dda5e76be21c32aaae3faf61f9663c6c58ace02b5a6c4bc9a63",
+    "git_commit": "73a4a1209b215d8b97daaf1fa813789734c07530",
+    "git_describe": "arch-baseline-v2-1-g73a4a12",
+    "pipeline_identical_to_v2": true,
+    "working_tree": "DIRTY (data/csv deletions + untracked; none touch pipeline)",
+    "embedder": "BAAI/bge-large-en-v1.5",
+    "temp": 0.06,
+    "min_k": 4,
+    "max_k_ceiling": 12,
+    "top_p": 0.95,
+    "transport": "native_sdk",
+    "embed_device": "cuda",
+    "run_timestamp": "2026-07-08T23:41:51+08:00",
+    "tag": "arch-baseline-v3",
+    "prev_tag": "arch-baseline-v2 (704c8a6)",
+    "expand_floor": 1,
+    "transport_used": "native_sdk",
+    "fabrication_label": "canonical (native_sdk)",
+    "data_csv_resolution": "RESTORED (tracked) per Pao — stale Phase-1 CSVs kept for the deprecated generate_corpus_files.py path; runtime uses normalized xlsx (verify_pin PASS)",
+    "single_citation_watchlist_W3_4": {
+      "qids": [
+        "A3",
+        "B8",
+        "C16",
+        "D20",
+        "E26",
+        "X31",
+        "X33",
+        "X35",
+        "X39"
+      ],
+      "note": "W2.6 @floor=2 single-doc-cite queries — retrieval-coverage watchlist; re-check under recall@k"
+    }
+  },
+  "section_C_min_k_floor_analysis": {
+    "chunks_returned": {
+      "min": 4,
+      "median": 9,
+      "max": 17,
+      "mean": 9.1
+    },
+    "floor_bound_count": 4,
+    "floor_bound_qids": [
+      "A5",
+      "B8",
+      "D20",
+      "X35"
+    ],
+    "ceiling_bound_count": 11,
+    "ceiling_bound_qids": [
+      "A4",
+      "A6",
+      "B12",
+      "C13",
+      "C18",
+      "E25",
+      "X32",
+      "X34",
+      "X37",
+      "X38",
+      "X40"
+    ],
+    "fabrication_rate_floor_bound": 0.0,
+    "fabrication_rate_non_floor": 0.0,
+    "floor_bound_under_retrieve": false,
+    "VERDICT": "KEEP 4",
+    "evidence": "floor_bound = softmax-temp cutoff alone returned <MIN_K(4) and was padded to 4; ceiling_bound = nucleus >= 12. A floor is 'too thin' if floor-bound queries under-retrieve (concentrate fabrications/grounding failures) vs non-floor."
+  },
+  "section_B_grounding_fidelity": {
+    "fabricated_citations_query_count": 0,
+    "fabricated_citation_total": 0,
+    "fabricated_qids": [],
+    "target": 0,
+    "n_composed": 40,
+    "n_degraded": 0,
+    "rule": "a cited doc_id is FABRICATED if not in the 1089-doc corpus OR not in the chunks SENT to the composer (nucleus capped at ceiling 12).",
+    "transport": "native_sdk",
+    "transport_note": "native_sdk"
+  },
+  "section_A_recall_5_gold_HARNESS_CHECK_ONLY": {
+    "disclaimer": "5/40 items — PLUMBING VALIDATION of the recall computation + doc_id matching rule, NOT a pipeline quality number. Full recall@k awaits gold for all 40.",
+    "matching_rule": "hit@k = any top-k retrieved chunk's parent doc_id is in the gold doc_id set",
+    "per_item": {
+      "A3": {
+        "gold": [
+          "CA242"
+        ],
+        "@1": true,
+        "@3": true,
+        "@5": true,
+        "@10": true,
+        "@sent": true,
+        "chunks_sent": 7
+      },
+      "C16": {
+        "gold": [
+          "CC001"
+        ],
+        "@1": true,
+        "@3": true,
+        "@5": true,
+        "@10": true,
+        "@sent": true,
+        "chunks_sent": 5
+      },
+      "E28": {
+        "gold": [
+          "CE007"
+        ],
+        "@1": false,
+        "@3": false,
+        "@5": true,
+        "@10": true,
+        "@sent": true,
+        "chunks_sent": 10
+      },
+      "E29": {
+        "gold": [
+          "CA034"
+        ],
+        "@1": true,
+        "@3": true,
+        "@5": true,
+        "@10": true,
+        "@sent": true,
+        "chunks_sent": 8
+      },
+      "X34": {
+        "gold": [
+          "CA009",
+          "CA010"
+        ],
+        "@1": true,
+        "@3": true,
+        "@5": true,
+        "@10": true,
+        "@sent": true,
+        "chunks_sent": 12
+      }
+    }
+  },
+  "per_query": [
+    {
+      "query_id": "A1",
+      "type": "def",
+      "theme": "A",
+      "chunks_returned": 5,
+      "chunks_sent": 5,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "CA031",
+        "SB028"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "A2",
+      "type": "doc",
+      "theme": "A",
+      "chunks_returned": 11,
+      "chunks_sent": 11,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "BD005",
+        "BD002",
+        "BD001"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "A3",
+      "type": "case",
+      "theme": "A",
+      "chunks_returned": 7,
+      "chunks_sent": 7,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "CA242"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "A4",
+      "type": "stance",
+      "theme": "A",
+      "chunks_returned": 17,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "ceiling_bound": true,
+      "cited_doc_ids": [
+        "CA377",
+        "SB040"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "A5",
+      "type": "doc",
+      "theme": "A",
+      "chunks_returned": 4,
+      "chunks_sent": 4,
+      "floor_bound": true,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "CA095",
+        "BE001"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "A6",
+      "type": "def",
+      "theme": "A",
+      "chunks_returned": 12,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "ceiling_bound": true,
+      "cited_doc_ids": [
+        "CA004",
+        "CA005",
+        "CA330"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "B7",
+      "type": "doc",
+      "theme": "B",
+      "chunks_returned": 9,
+      "chunks_sent": 9,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "SB040",
+        "SB028",
+        "CB005",
+        "CB006",
+        "SA011"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "B8",
+      "type": "doc",
+      "theme": "B",
+      "chunks_returned": 4,
+      "chunks_sent": 4,
+      "floor_bound": true,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "SB028"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "B9",
+      "type": "doc",
+      "theme": "B",
+      "chunks_returned": 9,
+      "chunks_sent": 9,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "CD003",
+        "CD011",
+        "SD021",
+        "CD008",
+        "SB028",
+        "SD009"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "B10",
+      "type": "def",
+      "theme": "B",
+      "chunks_returned": 9,
+      "chunks_sent": 9,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "SD016",
+        "SD021",
+        "CD008",
+        "SB006",
+        "SD009"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "B11",
+      "type": "stance",
+      "theme": "B",
+      "chunks_returned": 8,
+      "chunks_sent": 8,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "CB005",
+        "CB007",
+        "SB040",
+        "CA031"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "B12",
+      "type": "multi",
+      "theme": "B",
+      "chunks_returned": 13,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "ceiling_bound": true,
+      "cited_doc_ids": [
+        "SB028",
+        "CB008",
+        "SB040"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "C13",
+      "type": "stance",
+      "theme": "C",
+      "chunks_returned": 12,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "ceiling_bound": true,
+      "cited_doc_ids": [
+        "BC001",
+        "GC003"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "C14",
+      "type": "stance",
+      "theme": "C",
+      "chunks_returned": 4,
+      "chunks_sent": 4,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "SB042",
+        "CC006",
+        "SA011"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "C15",
+      "type": "doc",
+      "theme": "C",
+      "chunks_returned": 5,
+      "chunks_sent": 5,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "BC001",
+        "SB028"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "C16",
+      "type": "stance",
+      "theme": "C",
+      "chunks_returned": 5,
+      "chunks_sent": 5,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "CC001"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "C17",
+      "type": "stance",
+      "theme": "C",
+      "chunks_returned": 10,
+      "chunks_sent": 10,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "CE003",
+        "CC002",
+        "CC006",
+        "SB042"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "C18",
+      "type": "stance",
+      "theme": "C",
+      "chunks_returned": 14,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "ceiling_bound": true,
+      "cited_doc_ids": [
+        "SC010",
+        "SE036",
+        "CC008",
+        "CC006"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "D19",
+      "type": "def",
+      "theme": "D",
+      "chunks_returned": 9,
+      "chunks_sent": 9,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "CB005",
+        "SB040",
+        "SB028",
+        "SB051",
+        "SA011"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "D20",
+      "type": "def",
+      "theme": "D",
+      "chunks_returned": 4,
+      "chunks_sent": 4,
+      "floor_bound": true,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "CD001"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "D21",
+      "type": "orphan",
+      "theme": "D",
+      "chunks_returned": 9,
+      "chunks_sent": 9,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "SD002",
+        "SD016"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "D22",
+      "type": "doc",
+      "theme": "D",
+      "chunks_returned": 6,
+      "chunks_sent": 6,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "SB040",
+        "CB003",
+        "CD003"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "D23",
+      "type": "def",
+      "theme": "D",
+      "chunks_returned": 8,
+      "chunks_sent": 8,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "CB004",
+        "CD008",
+        "SD016",
+        "SD021",
+        "SB063"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "D24",
+      "type": "stance",
+      "theme": "D",
+      "chunks_returned": 9,
+      "chunks_sent": 9,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "SB040",
+        "CD001",
+        "CC006",
+        "SD035"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "E25",
+      "type": "def",
+      "theme": "E",
+      "chunks_returned": 13,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "ceiling_bound": true,
+      "cited_doc_ids": [
+        "CA010",
+        "CA009",
+        "CA013",
+        "CA011"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "E26",
+      "type": "stance",
+      "theme": "E",
+      "chunks_returned": 7,
+      "chunks_sent": 7,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "CA003",
+        "CA009"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "E27",
+      "type": "doc",
+      "theme": "E",
+      "chunks_returned": 9,
+      "chunks_sent": 9,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "CA009",
+        "CA010",
+        "CE003"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "E28",
+      "type": "case",
+      "theme": "E",
+      "chunks_returned": 10,
+      "chunks_sent": 10,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "CE007",
+        "CE008"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "E29",
+      "type": "case",
+      "theme": "E",
+      "chunks_returned": 8,
+      "chunks_sent": 8,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "CA242",
+        "CA034",
+        "SA049"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "E30",
+      "type": "doc",
+      "theme": "E",
+      "chunks_returned": 7,
+      "chunks_sent": 7,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "BD001",
+        "BA009"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "X31",
+      "type": "id",
+      "theme": "X",
+      "chunks_returned": 10,
+      "chunks_sent": 10,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "SD035",
+        "SE036",
+        "SE013"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "X32",
+      "type": "id",
+      "theme": "X",
+      "chunks_returned": 14,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "ceiling_bound": true,
+      "cited_doc_ids": [
+        "BC001",
+        "SD035",
+        "SD021"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "X33",
+      "type": "multi",
+      "theme": "X",
+      "chunks_returned": 6,
+      "chunks_sent": 6,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "CE003"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "X34",
+      "type": "date",
+      "theme": "X",
+      "chunks_returned": 14,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "ceiling_bound": true,
+      "cited_doc_ids": [
+        "CA010",
+        "CA009"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "X35",
+      "type": "oos",
+      "theme": "X",
+      "chunks_returned": 4,
+      "chunks_sent": 4,
+      "floor_bound": true,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "GC001"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "X36",
+      "type": "oos",
+      "theme": "X",
+      "chunks_returned": 9,
+      "chunks_sent": 9,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "SD016",
+        "SD002"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "X37",
+      "type": "multi",
+      "theme": "X",
+      "chunks_returned": 17,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "ceiling_bound": true,
+      "cited_doc_ids": [
+        "CB005",
+        "SB028",
+        "CA031"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "X38",
+      "type": "multi",
+      "theme": "X",
+      "chunks_returned": 13,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "ceiling_bound": true,
+      "cited_doc_ids": [
+        "CB005",
+        "SB028",
+        "SB040",
+        "SD021"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "X39",
+      "type": "orphan",
+      "theme": "X",
+      "chunks_returned": 6,
+      "chunks_sent": 6,
+      "floor_bound": false,
+      "ceiling_bound": false,
+      "cited_doc_ids": [
+        "BC002"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    },
+    {
+      "query_id": "X40",
+      "type": "persona",
+      "theme": "X",
+      "chunks_returned": 14,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "ceiling_bound": true,
+      "cited_doc_ids": [
+        "SE036",
+        "SA011",
+        "CC002"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "degraded": false,
+      "stop_reason": "end_turn"
+    }
+  ],
+  "v2_vs_v3_delta": {
+    "prev_tag": "arch-baseline-v2",
+    "this_tag": "arch-baseline-v3",
+    "RETRIEVAL_AXIS": {
+      "chunks_returned_dist": {
+        "v2": {
+          "min": 4,
+          "median": 9,
+          "max": 17,
+          "mean": 9.1
+        },
+        "v3": {
+          "min": 4,
+          "median": 9,
+          "max": 17,
+          "mean": 9.1
+        },
+        "match": true
+      },
+      "floor_bound_qids": {
+        "v2": [
+          "A5",
+          "B8",
+          "D20",
+          "X35"
+        ],
+        "v3": [
+          "A5",
+          "B8",
+          "D20",
+          "X35"
+        ],
+        "match": true
+      },
+      "ceiling_bound_qids": {
+        "v2": [
+          "A4",
+          "A6",
+          "B12",
+          "C13",
+          "C18",
+          "E25",
+          "X32",
+          "X34",
+          "X37",
+          "X38",
+          "X40"
+        ],
+        "v3": [
+          "A4",
+          "A6",
+          "B12",
+          "C13",
+          "C18",
+          "E25",
+          "X32",
+          "X34",
+          "X37",
+          "X38",
+          "X40"
+        ],
+        "match": true
+      },
+      "floor_verdict": {
+        "v2": "KEEP 4",
+        "v3": "KEEP 4",
+        "match": true
+      },
+      "byte_identical": true,
+      "rule": "both features DARK + retrieval deterministic + transport-agnostic -> v3 MUST be byte-identical to v2. ANY delta = leaked flag = BUG (withhold canonical tag)."
+    },
+    "COMPOSE_AXIS": {
+      "fabrication_query_count": {
+        "v2": 0,
+        "v3": 0,
+        "match": true
+      },
+      "v2_transport": "schannel_curl",
+      "v3_transport": "native_sdk",
+      "matches_v2": true,
+      "rule": "should match v2 (0/40). If it differs, investigate TRANSPORT FIRST (v2 partial transport vs v3) — a transport-driven compose delta is EXPECTED, not a flag leak. Citation SETS differ run-to-run (compose non-determinism)."
+    }
+  }
+}

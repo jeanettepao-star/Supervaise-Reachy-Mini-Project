@@ -1,0 +1,1569 @@
+{
+  "task": "W3.2 FULL scope-aware eval on arch-baseline-v3",
+  "provenance": {
+    "eval_sha": "65492b650aec8dda5e76be21c32aaae3faf61f9663c6c58ace02b5a6c4bc9a63",
+    "commit": "c1637cd",
+    "git_describe": "arch-baseline-v3-1-gc1637cd",
+    "embedder": "BAAI/bge-large-en-v1.5",
+    "temp": 0.06,
+    "min_k": 4,
+    "max_k_ceiling": 12,
+    "oos_threshold": 0.15,
+    "transport": "native_sdk",
+    "timestamp": "2026-07-09T01:16:03+08:00"
+  },
+  "universe_caveat": {
+    "retrieval_universe": "v4 pilot (95 docs / 827 chunks)",
+    "gold_docs_out_of_pilot": [
+      "BA037",
+      "CA085",
+      "CA111",
+      "CA112",
+      "CA189",
+      "CA371",
+      "CC022"
+    ],
+    "structural_zero_queries": [
+      "A4",
+      "X33"
+    ],
+    "note": "queries whose gold docs are outside the pilot universe cannot be retrieved here -> recall 0 by CONSTRUCTION, not a pipeline failure. Flagged for eval design."
+  },
+  "A_recall_at_k_in_scope_35": {
+    "matching_rule": "hit@k = any top-k retrieved chunk's parent doc_id in gold set",
+    "recall_all35": {
+      "1": 0.714,
+      "3": 0.886,
+      "5": 0.914,
+      "10": 0.914
+    },
+    "recall_reachable_only": {
+      "1": 0.758,
+      "3": 0.939,
+      "5": 0.97,
+      "10": 0.97
+    },
+    "n_in_scope": 35,
+    "n_reachable": 33
+  },
+  "B_recall1_split": {
+    "recall@1_all35": 0.714,
+    "misses": 10,
+    "structural_out_of_pilot": [
+      "A4",
+      "X33"
+    ],
+    "ranking_retrieved_but_lower": [
+      [
+        "A2",
+        2
+      ],
+      [
+        "B9",
+        19
+      ],
+      [
+        "B10",
+        2
+      ],
+      [
+        "C17",
+        2
+      ],
+      [
+        "C18",
+        2
+      ],
+      [
+        "D23",
+        2
+      ],
+      [
+        "E28",
+        5
+      ],
+      [
+        "E29",
+        3
+      ]
+    ],
+    "read": "structural misses = universe scope (not pipeline); ranking misses = the top-p/softmax nucleus ordering (the W3.4 lever)."
+  },
+  "C_grounding": {
+    "fabricated_citations": 0,
+    "fabricated_qids": [],
+    "target": 0,
+    "coverage_empty_cited_qids": [],
+    "note": "fabrication != coverage: 0 fabrication AND empty-cited both possible."
+  },
+  "D_scope_behavior": {
+    "oos_threshold": 0.15,
+    "X35_X36_out": {
+      "X35": {
+        "in_scope_flag": true,
+        "declined_no_cite": true,
+        "answer": "That, I'm afraid, is well outside my expertise! I am a retired Chief Justice, not a meteorologist — and my published record, extensive as it may be, contains no"
+      },
+      "X36": {
+        "in_scope_flag": true,
+        "declined_no_cite": false,
+        "answer": "*Chuckles* I appreciate the question, but I must confess — our Museum for Liberty and Prosperity does not yet have walls, let alone neighbors! It remains, at th"
+      }
+    },
+    "X31_X32_meta": {
+      "X31": {
+        "cited": [
+          "SD035"
+        ],
+        "fabricated": false,
+        "answer": "I am an AI conversation robot built by the Foundation for Liberty and Prosperity to share the institutional knowledge and experience of Chief Justice Artemio V."
+      },
+      "X32": {
+        "cited": [
+          "SD035",
+          "SB051",
+          "BC001"
+        ],
+        "fabricated": false,
+        "answer": "What a delightful question to begin with! Think of me as your guide to the ideas and ideals I have spent a lifetime championing — the twin beacons of liberty an"
+      }
+    },
+    "X39_gap": {
+      "fabricated": false,
+      "cited": [
+        "BC002"
+      ],
+      "answer": "One that comes to mind fondly — though I confess it was also an exercise in sacrifice — was our Alaskan adventure with my wife Leni. Every summer, the two of us"
+    },
+    "oos_gate_fired_for": [],
+    "reconciliation": "OOS gate (cos >= OUT_OF_SCOPE_THRESHOLD=0.15) fires in_scope=True for ALL 40 incl X35/X36 (0.15 far too low) -> the THRESHOLD gate never declines. Sheena's scope_correctness=1.0 must reflect COMPOSER behavior (decline in prose / no cite), not the gate. State: on v3 the gate does NOT fire; scope handling depends on the composer."
+  },
+  "E_min_k_verdict": {
+    "floor_bound_in_scope": [
+      "A5",
+      "B8",
+      "D20"
+    ],
+    "floor_bound_reachable": [
+      "A5",
+      "B8",
+      "D20"
+    ],
+    "floor_recall@5": 1.0,
+    "nonfloor_recall@5": 0.967,
+    "VERDICT": "KEEP 4",
+    "basis": "recall-backed (replaces fabrication-only provisional)"
+  },
+  "F_v3_vs_w2_1_delta": {
+    "1": {
+      "w2_1_min_k3": 0.433,
+      "v3_min_k4_all35": 0.714,
+      "v3_reachable": 0.758,
+      "delta_all35": 0.281
+    },
+    "3": {
+      "w2_1_min_k3": 0.733,
+      "v3_min_k4_all35": 0.886,
+      "v3_reachable": 0.939,
+      "delta_all35": 0.153
+    },
+    "5": {
+      "w2_1_min_k3": 0.807,
+      "v3_min_k4_all35": 0.914,
+      "v3_reachable": 0.97,
+      "delta_all35": 0.107
+    },
+    "10": {
+      "w2_1_min_k3": 0.821,
+      "v3_min_k4_all35": 0.914,
+      "v3_reachable": 0.97,
+      "delta_all35": 0.093
+    }
+  },
+  "low_confidence_caveat": {
+    "missed_at5_lowconf": [],
+    "note": "low-confidence gold; verify label before attributing to pipeline (SME-confirm pending)"
+  },
+  "recall_at_k_STILL_full_deferred": "N/A — gold now present; but out-of-pilot gold caps some queries (see universe_caveat)",
+  "per_query": [
+    {
+      "qid": "A1",
+      "scope_gold": "in",
+      "qtype": "def",
+      "gold_confidence": "high",
+      "gold_source_docs": [
+        "CA031",
+        "SB028"
+      ],
+      "chunks_returned": 5,
+      "chunks_sent": 5,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CA031",
+        "SB028"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "The rule of law means, simply and profoundly, that no man governs — only the law does. Power must be constrained by norms, not the other way around. When South ",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "CA031",
+        "SB028"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "A2",
+      "scope_gold": "in",
+      "qtype": "doc",
+      "gold_confidence": "med",
+      "gold_source_docs": [
+        "BD001",
+        "BD002"
+      ],
+      "chunks_returned": 11,
+      "chunks_sent": 11,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "BD005",
+        "BD002",
+        "CC006"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "In a constitutional democracy like ours, political questions are settled by majority will — but legal questions are settled by unelected judges applying the law",
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "BD001",
+        "BD002"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 2,
+      "recall1_miss_type": "ranking_best_rank_2"
+    },
+    {
+      "qid": "A3",
+      "scope_gold": "in",
+      "qtype": "case",
+      "gold_confidence": "high",
+      "gold_source_docs": [
+        "CA242"
+      ],
+      "chunks_returned": 7,
+      "chunks_sent": 7,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CA242"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "The right to be forgotten — or what I prefer to call \"the right to have an imperfect past\" — found its most prominent judicial expression in the 2014 ruling of ",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "CA242"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "A4",
+      "scope_gold": "in",
+      "qtype": "stance",
+      "gold_confidence": "high",
+      "gold_source_docs": [
+        "CA111",
+        "CA112",
+        "CA085"
+      ],
+      "chunks_returned": 17,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "SA049",
+        "CA377",
+        "SB040"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "Judicial activism is one of those concepts that means entirely different things depending on who is wielding the label. In my humble opinion, the real question ",
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@sent": false,
+      "gold_in_pilot": [],
+      "gold_out_of_pilot": [
+        "CA111",
+        "CA112",
+        "CA085"
+      ],
+      "structural_zero": true,
+      "best_gold_rank": null,
+      "recall1_miss_type": "structural_out_of_pilot"
+    },
+    {
+      "qid": "A5",
+      "scope_gold": "in",
+      "qtype": "doc",
+      "gold_confidence": "high",
+      "gold_source_docs": [
+        "CA095",
+        "CA127"
+      ],
+      "chunks_returned": 4,
+      "chunks_sent": 4,
+      "floor_bound": true,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CA095",
+        "BE001"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "Judicial reform, in my humble opinion, must begin with an honest reckoning of the judiciary's deepest nature — it is, like the Church and the military, a bastio",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "CA095",
+        "CA127"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "A6",
+      "scope_gold": "in",
+      "qtype": "def",
+      "gold_confidence": "med",
+      "gold_source_docs": [
+        "CA330",
+        "CA004",
+        "CA005"
+      ],
+      "chunks_returned": 12,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CA004",
+        "CA005",
+        "CA330"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "Due process is, at its core, the ancient cry of Themistocles: *\"Strike, but hear me first.\"* Daniel Webster gave it its most enduring definition — a law \"which ",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "CA330",
+        "CA004",
+        "CA005"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "B7",
+      "scope_gold": "in",
+      "qtype": "doc",
+      "gold_confidence": "high",
+      "gold_source_docs": [
+        "SB028",
+        "SB040"
+      ],
+      "chunks_returned": 9,
+      "chunks_sent": 9,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "SB040",
+        "SB028",
+        "CB005",
+        "CB006"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "The core of it is simple, though its implications are profound: humans need both justice and jobs; freedom and food; ethics and economics; peace and development",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "SB028",
+        "SB040"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "B8",
+      "scope_gold": "in",
+      "qtype": "doc",
+      "gold_confidence": "med",
+      "gold_source_docs": [
+        "SA011",
+        "SB028"
+      ],
+      "chunks_returned": 4,
+      "chunks_sent": 4,
+      "floor_bound": true,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "SB028",
+        "SE036"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "That phrase captures the heart of social justice as I understand it — not charity, but empowerment through law.\n\nThe idea is that the legal system must compensa",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "SA011",
+        "SB028"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "B9",
+      "scope_gold": "in",
+      "qtype": "doc",
+      "gold_confidence": "med",
+      "gold_source_docs": [
+        "CB006",
+        "CB005",
+        "CB007"
+      ],
+      "chunks_returned": 9,
+      "chunks_sent": 9,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CD003",
+        "CD008",
+        "CD011",
+        "SD021",
+        "SD016",
+        "SB028",
+        "SD009"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "Knowledge of the law, in my humble opinion, is precisely what arms small entrepreneurs with the confidence to sail forward without fear. As my grandson Mig disc",
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@sent": false,
+      "gold_in_pilot": [
+        "CB006",
+        "CB005",
+        "CB007"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 19,
+      "recall1_miss_type": "ranking_best_rank_19"
+    },
+    {
+      "qid": "B10",
+      "scope_gold": "in",
+      "qtype": "def",
+      "gold_confidence": "low",
+      "gold_source_docs": [
+        "SD021",
+        "CD008"
+      ],
+      "chunks_returned": 9,
+      "chunks_sent": 9,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "SD016",
+        "SD021",
+        "CD008",
+        "SD009"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "The Prosperity Fund is, in my humble opinion, among the most ambitious undertakings FLP has ever conceived. It is a multi-billion-peso fund — seeded in part by ",
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "SD021",
+        "CD008"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 2,
+      "recall1_miss_type": "ranking_best_rank_2"
+    },
+    {
+      "qid": "B11",
+      "scope_gold": "in",
+      "qtype": "stance",
+      "gold_confidence": "med",
+      "gold_source_docs": [
+        "CB007",
+        "CB005"
+      ],
+      "chunks_returned": 8,
+      "chunks_sent": 8,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CB005",
+        "CB007",
+        "SB040",
+        "CA031"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "Because, in my humble opinion, law and economics are not rivals — they are partners. Justice without jobs, freedom without food, liberty without prosperity: eac",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "CB007",
+        "CB005"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "B12",
+      "scope_gold": "in",
+      "qtype": "multi",
+      "gold_confidence": "med",
+      "gold_source_docs": [
+        "SB028",
+        "CB008"
+      ],
+      "chunks_returned": 13,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "SB028",
+        "CB008",
+        "SB040",
+        "CB006"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "In my humble opinion, liberty and prosperity do not truly pull in opposite directions — that tension is more apparent than real. They are twin beacons that must",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "SB028",
+        "CB008"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "C13",
+      "scope_gold": "in",
+      "qtype": "stance",
+      "gold_confidence": "med",
+      "gold_source_docs": [
+        "BC001"
+      ],
+      "chunks_returned": 12,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "BC001",
+        "GC003"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "Faith and justice, in my humble experience, were never truly separate — though it took a prison visit to make that clear to me.\n\nWhen I went to the national pen",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "BC001"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "C14",
+      "scope_gold": "in",
+      "qtype": "stance",
+      "gold_confidence": "low",
+      "gold_source_docs": [
+        "BC001",
+        "SA011",
+        "CC002"
+      ],
+      "chunks_returned": 4,
+      "chunks_sent": 4,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "SB042",
+        "CC006",
+        "SA011"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "The Supreme Court taught me, above all, that independence is non-negotiable. You cannot render justice while carrying the weight of political obligation. When P",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "BC001",
+        "SA011",
+        "CC002"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "C15",
+      "scope_gold": "in",
+      "qtype": "doc",
+      "gold_confidence": "med",
+      "gold_source_docs": [
+        "BC001"
+      ],
+      "chunks_returned": 5,
+      "chunks_sent": 5,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "BC001",
+        "CC006",
+        "SB028",
+        "SE036"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "Justice, to me, is not a cold abstraction — it is a living obligation, and one that carries a cost.\n\nI remember visiting inmates in prison and being asked, with",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "BC001"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "C16",
+      "scope_gold": "in",
+      "qtype": "stance",
+      "gold_confidence": "high",
+      "gold_source_docs": [
+        "CC001"
+      ],
+      "chunks_returned": 5,
+      "chunks_sent": 5,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CC001"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "What do I enjoy about writing for the Inquirer? Two things, above all.\n\nFirst, complete freedom. Marixi Prieto — my dear friend and publisher — has never once t",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "CC001"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "C17",
+      "scope_gold": "in",
+      "qtype": "stance",
+      "gold_confidence": "low",
+      "gold_source_docs": [
+        "CC002",
+        "SB042"
+      ],
+      "chunks_returned": 10,
+      "chunks_sent": 10,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CE003",
+        "CC002",
+        "SB042"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "The colleagues I most admired combined what I would call the four Ins — independence, integrity, industry, and intelligence — but it is integrity that, in my hu",
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "CC002",
+        "SB042"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 2,
+      "recall1_miss_type": "ranking_best_rank_2"
+    },
+    {
+      "qid": "C18",
+      "scope_gold": "in",
+      "qtype": "stance",
+      "gold_confidence": "low",
+      "gold_source_docs": [
+        "SC010",
+        "CC008"
+      ],
+      "chunks_returned": 14,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "SC010",
+        "SE036",
+        "CC008",
+        "CC006"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "When I reflect on this question, I must confess — the answer that surprises even me is not the ponencias, not the Chief Justiceship, not the column. It is the g",
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "SC010",
+        "CC008"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 2,
+      "recall1_miss_type": "ranking_best_rank_2"
+    },
+    {
+      "qid": "D19",
+      "scope_gold": "in",
+      "qtype": "def",
+      "gold_confidence": "med",
+      "gold_source_docs": [
+        "SD016"
+      ],
+      "chunks_returned": 9,
+      "chunks_sent": 9,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CB005",
+        "SB040",
+        "SB028",
+        "SB051",
+        "SA011"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "The Foundation for Liberty and Prosperity — the FLP — is an educational advocacy organization I established on my 75th birthday, December 7, 2011, to give equal",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "SD016"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "D20",
+      "scope_gold": "in",
+      "qtype": "def",
+      "gold_confidence": "high",
+      "gold_source_docs": [
+        "CD003",
+        "CD001",
+        "CD005"
+      ],
+      "chunks_returned": 4,
+      "chunks_sent": 4,
+      "floor_bound": true,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CD001",
+        "SD016"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "To qualify for a LibPros scholarship, a student must meet seven criteria: be a third-year law student in an eligible school, belong to the top ten percent of th",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "CD003",
+        "CD001",
+        "CD005"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "D21",
+      "scope_gold": "in",
+      "qtype": "orphan",
+      "gold_confidence": "high",
+      "gold_source_docs": [
+        "SD002",
+        "SC007"
+      ],
+      "chunks_returned": 9,
+      "chunks_sent": 9,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "SD002",
+        "SD016",
+        "SD021"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "The Museum for Liberty and Prosperity is, at its heart, a dream made institutional — a futuristic, immersive, interactive, AI-powered home where our philosophy ",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "SD002",
+        "SC007"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "D22",
+      "scope_gold": "in",
+      "qtype": "doc",
+      "gold_confidence": "med",
+      "gold_source_docs": [
+        "CB003",
+        "CD003",
+        "CA031"
+      ],
+      "chunks_returned": 6,
+      "chunks_sent": 6,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "SB040",
+        "CB003",
+        "CD003"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "The Foundation for Liberty and Prosperity advances the rule of law primarily by changing how the next generation of lawyers *thinks* — not merely about politica",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "CB003",
+        "CD003",
+        "CA031"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "D23",
+      "scope_gold": "in",
+      "qtype": "def",
+      "gold_confidence": "med",
+      "gold_source_docs": [
+        "CD008",
+        "SB050"
+      ],
+      "chunks_returned": 8,
+      "chunks_sent": 8,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CB004",
+        "CD008",
+        "SD016",
+        "SD021"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "The FLP has been blessed with remarkable partners. On the legal scholarship side, we work closely with the **Tan Yan Kee Foundation** — carrying forward the leg",
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "CD008",
+        "SB050"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 2,
+      "recall1_miss_type": "ranking_best_rank_2"
+    },
+    {
+      "qid": "D24",
+      "scope_gold": "in",
+      "qtype": "stance",
+      "gold_confidence": "low",
+      "gold_source_docs": [
+        "SB050",
+        "SD035",
+        "SD016"
+      ],
+      "chunks_returned": 9,
+      "chunks_sent": 9,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "SB040",
+        "SD035",
+        "CC006",
+        "CD001"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "The Foundation for Liberty and Prosperity — the FLP — was organized in December 2011 to celebrate my 75th birthday. But it was more than a birthday gesture; it ",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "SB050",
+        "SD035",
+        "SD016"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "E25",
+      "scope_gold": "in",
+      "qtype": "def",
+      "gold_confidence": "high",
+      "gold_source_docs": [
+        "CA010",
+        "CA009"
+      ],
+      "chunks_returned": 13,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CA009",
+        "CA010",
+        "CA011",
+        "CA013"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "The July 12, 2016 Arbitral Award was, in my humble opinion, a landmark vindication of the rule of law in international relations — proof that poor and weak stat",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "CA010",
+        "CA009"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "E26",
+      "scope_gold": "in",
+      "qtype": "stance",
+      "gold_confidence": "high",
+      "gold_source_docs": [
+        "CA003"
+      ],
+      "chunks_returned": 7,
+      "chunks_sent": 7,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CA003"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "The pivotal legal issue in the Duterte ICC case — and I have written on this at some length — is not the drama of the arrest or the chartered-jet airlift, color",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "CA003"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "E27",
+      "scope_gold": "in",
+      "qtype": "doc",
+      "gold_confidence": "med",
+      "gold_source_docs": [
+        "CA009",
+        "CE003"
+      ],
+      "chunks_returned": 9,
+      "chunks_sent": 9,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CA009",
+        "CA010",
+        "CE003"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "International law does not abolish sovereignty — it *disciplines* it. Under the UN Charter, every member state, large or small, accepts a binding obligation to ",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "CA009",
+        "CE003"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "E28",
+      "scope_gold": "in",
+      "qtype": "case",
+      "gold_confidence": "high",
+      "gold_source_docs": [
+        "CA189",
+        "CA112",
+        "CE007",
+        "CC022"
+      ],
+      "chunks_returned": 10,
+      "chunks_sent": 10,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CE007"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "On January 22, 1973, the United States Supreme Court — in *Roe v. Wade* — recognized a woman's constitutional right to have an abortion. That was the law of the",
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "CE007"
+      ],
+      "gold_out_of_pilot": [
+        "CA189",
+        "CA112",
+        "CC022"
+      ],
+      "structural_zero": false,
+      "best_gold_rank": 5,
+      "recall1_miss_type": "ranking_best_rank_5"
+    },
+    {
+      "qid": "E29",
+      "scope_gold": "in",
+      "qtype": "case",
+      "gold_confidence": "high",
+      "gold_source_docs": [
+        "CA242"
+      ],
+      "chunks_returned": 8,
+      "chunks_sent": 8,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CA242",
+        "CA034",
+        "SA049"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "The Data Privacy Act of 2012 — Republic Act No. 10173 — represents, in my humble opinion, one of our legislature's more farsighted acts. Its stated purpose is t",
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "CA242"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 3,
+      "recall1_miss_type": "ranking_best_rank_3"
+    },
+    {
+      "qid": "E30",
+      "scope_gold": "in",
+      "qtype": "doc",
+      "gold_confidence": "med",
+      "gold_source_docs": [
+        "BD001"
+      ],
+      "chunks_returned": 7,
+      "chunks_sent": 7,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "BD001",
+        "BA009"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "Politically charged cases test whether a court is truly a court — or merely another arena for faction and power.\n\nThe first principle is this: the Supreme Court",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "BD001"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "X31",
+      "scope_gold": "meta",
+      "qtype": "id",
+      "gold_confidence": "na",
+      "gold_source_docs": [],
+      "chunks_returned": 10,
+      "chunks_sent": 10,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "SD035"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "I am an AI conversation robot built by the Foundation for Liberty and Prosperity to share the institutional knowledge and experience of Chief Justice Artemio V.",
+      "declined": false,
+      "handled": null
+    },
+    {
+      "qid": "X32",
+      "scope_gold": "meta",
+      "qtype": "id",
+      "gold_confidence": "na",
+      "gold_source_docs": [],
+      "chunks_returned": 14,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "SD035",
+        "SB051",
+        "BC001"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "What a delightful question to begin with! Think of me as your guide to the ideas and ideals I have spent a lifetime championing — the twin beacons of liberty an",
+      "declined": false,
+      "handled": null
+    },
+    {
+      "qid": "X33",
+      "scope_gold": "in",
+      "qtype": "multi",
+      "gold_confidence": "high",
+      "gold_source_docs": [
+        "BA037",
+        "CA371"
+      ],
+      "chunks_returned": 6,
+      "chunks_sent": 6,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CE003"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "The death penalty in the Philippines has had a turbulent history — abolished, restored, and abolished again. My own position has been unwavering: I opposed the ",
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@sent": false,
+      "gold_in_pilot": [],
+      "gold_out_of_pilot": [
+        "BA037",
+        "CA371"
+      ],
+      "structural_zero": true,
+      "best_gold_rank": null,
+      "recall1_miss_type": "structural_out_of_pilot"
+    },
+    {
+      "qid": "X34",
+      "scope_gold": "in",
+      "qtype": "date",
+      "gold_confidence": "high",
+      "gold_source_docs": [
+        "CA010",
+        "CA009"
+      ],
+      "chunks_returned": 14,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CA010",
+        "CA009"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "The Arbitral Award was issued on July 12, 2016 — unanimously, by the five members of the Arbitral Tribunal constituted under Annex VII of the 1982 United Nation",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "CA010",
+        "CA009"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "X35",
+      "scope_gold": "out",
+      "qtype": "oos",
+      "gold_confidence": "na",
+      "gold_source_docs": [],
+      "chunks_returned": 4,
+      "chunks_sent": 4,
+      "floor_bound": true,
+      "in_scope_flag": true,
+      "cited_docs": [],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": false,
+      "degraded": false,
+      "answer_snippet": "That, I'm afraid, is well outside my expertise! I am a retired Chief Justice, not a meteorologist — and my published record, extensive as it may be, contains no",
+      "declined": true,
+      "handled": null
+    },
+    {
+      "qid": "X36",
+      "scope_gold": "out",
+      "qtype": "oos",
+      "gold_confidence": "na",
+      "gold_source_docs": [],
+      "chunks_returned": 9,
+      "chunks_sent": 9,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "SD002",
+        "SB042"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "*Chuckles* I appreciate the question, but I must confess — our Museum for Liberty and Prosperity does not yet have walls, let alone neighbors! It remains, at th",
+      "declined": false,
+      "handled": null
+    },
+    {
+      "qid": "X37",
+      "scope_gold": "in",
+      "qtype": "multi",
+      "gold_confidence": "high",
+      "gold_source_docs": [
+        "CA031",
+        "SB028"
+      ],
+      "chunks_returned": 17,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CA031",
+        "SB028",
+        "CB005",
+        "CB006"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "The relationship is, in my humble opinion, not merely complementary — it is indispensable. Economic growth and the rule of law are intertwined and mutually incl",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "CA031",
+        "SB028"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "X38",
+      "scope_gold": "in",
+      "qtype": "multi",
+      "gold_confidence": "med",
+      "gold_source_docs": [
+        "SB028",
+        "CA095"
+      ],
+      "chunks_returned": 13,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "CB005",
+        "SB028",
+        "SB040",
+        "SD021"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "Two threads have defined the second half of my professional life, and they are, in my humble opinion, inseparable.\n\nOn judicial reform: throughout my decade on ",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "SB028",
+        "CA095"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "X39",
+      "scope_gold": "in(gap)",
+      "qtype": "orphan",
+      "gold_confidence": "na",
+      "gold_source_docs": [],
+      "chunks_returned": 6,
+      "chunks_sent": 6,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "BC002"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "One that comes to mind fondly — though I confess it was also an exercise in sacrifice — was our Alaskan adventure with my wife Leni. Every summer, the two of us",
+      "declined": false,
+      "handled": null
+    },
+    {
+      "qid": "X40",
+      "scope_gold": "in",
+      "qtype": "persona",
+      "gold_confidence": "low",
+      "gold_source_docs": [
+        "CC002",
+        "SB028"
+      ],
+      "chunks_returned": 14,
+      "chunks_sent": 12,
+      "floor_bound": false,
+      "in_scope_flag": true,
+      "cited_docs": [
+        "SE036",
+        "SA011",
+        "CC002"
+      ],
+      "fabricated": false,
+      "fabricated_ids": [],
+      "coverage_ok": true,
+      "degraded": false,
+      "answer_snippet": "To a young lawyer just starting out, I would say: begin humbly, endure patiently, and never lose your integrity.\n\nI know something about humble beginnings. I pe",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true,
+      "gold_in_pilot": [
+        "CC002",
+        "SB028"
+      ],
+      "gold_out_of_pilot": [],
+      "structural_zero": false,
+      "best_gold_rank": 1
+    }
+  ]
+}

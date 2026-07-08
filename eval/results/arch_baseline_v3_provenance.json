@@ -1,0 +1,56 @@
+{
+  "tag": "arch-baseline-v3",
+  "prev_tag": "arch-baseline-v2",
+  "commit": "fe75a3a5671f4bb3c0fb8f79d08f4dda075e70fb",
+  "features_added": [
+    "W2.4 date index (temporal filter/boost)",
+    "W2.6 expand-on-demand fallback (compose-side)"
+  ],
+  "flags_state": {
+    "DATE_INDEX_ENABLED": false,
+    "EXPAND_ON_DEMAND_ENABLED": false,
+    "both_DARK": true
+  },
+  "no_regression": {
+    "W2.4_flag_off_byte_identical_vs_v2": true,
+    "W2.6_flag_off_verbatim": true,
+    "W2.6_hard_cap_1": true
+  },
+  "pipeline_behavior": "identical to arch-baseline-v2 with both flags dark (no-regression proven); v3 is the feature-complete tune-against baseline",
+  "frozen_set_sha256": "65492b650aec8dda5e76be21c32aaae3faf61f9663c6c58ace02b5a6c4bc9a63",
+  "working_tree_note": "data/csv/*.csv deletions present but HARMLESS (verify_pin PASS reads the 4 pinned source files, not the CSVs); excluded from the tag",
+  "timestamp": "2026-07-08T18:01:20+08:00",
+  "expand_floor": 1,
+  "transport_used": "native_sdk (canonical; verified pre-run)",
+  "data_csv_resolution": "RESTORED (tracked) per Pao — 3 stale Phase-1 *_curated.csv kept for the deprecated generate_corpus_files.py path; runtime/index uses *_curated_normalized.xlsx (verify_pin PASS)",
+  "v3_partial_native": {
+    "section_C_verdict": "KEEP 4",
+    "floor_bound": [
+      "A5",
+      "B8",
+      "D20",
+      "X35"
+    ],
+    "ceiling_bound_count": 11,
+    "fabrication": "0/40 (canonical native, not provisional)",
+    "retrieval_axis_byte_identical_to_v2": true,
+    "compose_axis": "v2 0/40 (curl) -> v3 0/40 (native); match (transport differs, fabrication transport-independent)"
+  },
+  "single_citation_watchlist_W3_4": {
+    "qids": [
+      "A3",
+      "B8",
+      "C16",
+      "D20",
+      "E26",
+      "X31",
+      "X33",
+      "X35",
+      "X39"
+    ],
+    "note": "W2.6 @floor=2 single-doc-cite queries — retrieval-coverage watchlist; re-check under recall@k"
+  },
+  "recall_at_k": "STILL DEFERRED to Sheena gold labels (unchanged by this re-baseline)",
+  "tag_status": "arch-baseline-v3 valid: retrieval axis byte-identical to v2 -> no leaked flag -> canonical tag stands",
+  "updated": "2026-07-08T23:43:15+08:00"
+}
