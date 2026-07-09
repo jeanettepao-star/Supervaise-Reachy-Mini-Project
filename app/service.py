@@ -290,6 +290,8 @@ def _composer_system() -> str:
         '  doc_ids_cited = the source doc_ids you actually drew on (e.g. "CA242"; strip ::cNNN).\n'
         "- The sentinel line and the JSON are SYSTEM METADATA, not part of the spoken answer; "
         "write no prose after the JSON.")
+    if config.COMPOSER_OOS_DECLINE_ENABLED:            # [W3.7] designed OOS backstop
+        directives += "\n" + config.COMPOSER_OOS_DECLINE_TEXT
     return _voice_card() + directives
 
 

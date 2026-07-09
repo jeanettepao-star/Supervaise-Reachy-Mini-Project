@@ -247,6 +247,23 @@ FIDELITY_MAX_RETRIES: int = _env_int("CJ_FIDELITY_MAX_RETRIES", 1)
 COMPOSER_MAX_TOKENS: int = _env_int("CJ_COMPOSER_MAX_TOKENS", 640)
 # Target prose length the Voice Card asks for (the primary length lever).
 COMPOSER_TARGET_PARAGRAPHS: str = _env_str("CJ_COMPOSER_TARGET_PARAGRAPHS", "3-5")
+# [W3.7] OOS decline BACKSTOP (composer-side). Phase-1 proved the centroid-cosine
+# gate (OUT_OF_SCOPE_THRESHOLD) cannot separate OOS from in-scope (weather/dining
+# score inside the in-scope cosine band), so the DESIGNED OOS mechanism lives in
+# the composer: decline plainly out-of-domain questions, answer everything in the
+# CJ domain. ON by default (designed behavior, not dark); conservatively worded to
+# protect in-scope from false-declines (see the re-verify gate in W3.7).
+COMPOSER_OOS_DECLINE_ENABLED: bool = _env_bool("CJ_COMPOSER_OOS_DECLINE_ENABLED", True)
+COMPOSER_OOS_DECLINE_TEXT: str = _env_str(
+    "CJ_COMPOSER_OOS_DECLINE_TEXT",
+    "- OUT-OF-DOMAIN DECLINE: if the question is plainly outside your domain — everyday "
+    "logistics such as the weather, dining or restaurant recommendations, directions, shopping, "
+    "sports scores — and the source chunks do not genuinely answer it, DECLINE gracefully in your "
+    "own voice (a brief, warm 'that is outside my expertise' in character) and cite NOTHING. This "
+    "applies ONLY to plainly out-of-domain questions. ANY question touching law, the courts, the "
+    "Constitution, justice, judicial reform, the Foundation for Liberty and Prosperity, your life, "
+    "career, faith, colleagues, or Philippine public affairs is IN your domain — answer it from the "
+    "chunks and never decline it.")
 # App-level bounded retries (distinct from MAX_RETRIES, the SDK's transient
 # 429/5xx retry). These cover timeout / transport faults around the stream, with
 # exponential backoff COMPOSER_BACKOFF_BASE_S * 2**attempt before each retry.
