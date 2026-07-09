@@ -53,6 +53,16 @@ def main():
                "cited_docs": cited, "fabricated": bool(fabricated), "fabricated_ids": fabricated,
                "coverage_ok": len(cited) >= 1, "degraded": comp["degraded"],
                "answer_snippet": (comp["answer"] or "")[:160]}
+        # [housekeeping] PERSIST ranked retrieved docs (deduped parent doc_ids, rank
+        # order, top-15) so retrieval lives in THIS artifact — not only in the gold CSV.
+        _seen, _rdocs = set(), []
+        for c in ranked:
+            d = did(c)
+            if d not in _seen:
+                _seen.add(d); _rdocs.append(d)
+            if len(_rdocs) >= 15:
+                break
+        rec["retrieved_docs"] = _rdocs
         if scope == "in":
             gold_in = [d for d in gd if d in pilot]
             gold_out = [d for d in gd if d not in pilot]
@@ -160,11 +170,12 @@ def main():
     (RESULTS / f"w3_2_FULL_v3_{short()}.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     with open(RESULTS / "w3_2_full_per_query.csv", "w", encoding="utf-8", newline="") as fh:
         w = csv.writer(fh)
-        w.writerow(["qid", "scope_gold", "qtype", "gold_confidence", "gold_source_docs", "chunks_returned",
-                    "floor_bound", "hit@1", "hit@3", "hit@5", "hit@10", "structural_zero", "best_gold_rank",
-                    "cited_docs", "fabricated", "coverage_ok", "declined", "miss_type"])
+        w.writerow(["qid", "scope_gold", "qtype", "gold_confidence", "gold_source_docs", "retrieved_docs",
+                    "chunks_returned", "floor_bound", "hit@1", "hit@3", "hit@5", "hit@10", "structural_zero",
+                    "best_gold_rank", "cited_docs", "fabricated", "coverage_ok", "declined", "miss_type"])
         for r in rows:
             w.writerow([r["qid"], r["scope_gold"], r["qtype"], r["gold_confidence"], ";".join(r["gold_source_docs"]),
+                        ";".join(r["retrieved_docs"]),   # ranked retrieved docs now persisted
                         r["chunks_returned"], r["floor_bound"], r.get("hit@1", ""), r.get("hit@3", ""),
                         r.get("hit@5", ""), r.get("hit@10", ""), r.get("structural_zero", ""),
                         r.get("best_gold_rank", ""), ";".join(r["cited_docs"]), r["fabricated"], r["coverage_ok"],
