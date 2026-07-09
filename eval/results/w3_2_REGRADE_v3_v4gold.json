@@ -1,0 +1,1134 @@
+{
+  "task": "W3.2 RE-GRADE (v3 retrieval + v4-corrected gold) — $0, NO re-run",
+  "method": "REGRADE-no-rerun: retrieved_docs READ from gold_reference_set.csv (the v3 canonical retrieval capture — confirmed authentic: A4 CA377@rank3, E28 CE007@rank4, B9 gold not retrieved). NOTE: the task named w3_2_full_per_query.csv but that CSV has no retrieved_docs column; the ranked retrieved_docs live in gold_reference_set.csv. No retrieval/composition/API run.",
+  "provenance": {
+    "source_artifact": "eval/results/gold_reference_set.csv (retrieved_docs = v3 capture)",
+    "gold": "gold_reference_set.csv (v4-corrected)",
+    "pipeline": "arch-baseline-v3 / c1637cd",
+    "method": "REGRADE-no-rerun",
+    "api_spend_usd": 0.0,
+    "timestamp": "2026-07-09T02:32:23+08:00"
+  },
+  "A_canonical_recall": {
+    "recall_at_k": {
+      "1": 0.735,
+      "3": 0.941,
+      "5": 0.971,
+      "10": 0.971
+    },
+    "denominator_N": 34,
+    "denominator_qids": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "B10",
+      "B11",
+      "B12",
+      "B7",
+      "B8",
+      "B9",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18",
+      "D19",
+      "D20",
+      "D21",
+      "D22",
+      "D23",
+      "D24",
+      "E25",
+      "E26",
+      "E27",
+      "E28",
+      "E29",
+      "E30",
+      "X34",
+      "X37",
+      "X38",
+      "X40"
+    ],
+    "excluded_gap": [
+      "X33",
+      "X39"
+    ],
+    "matching_rule": "hit@k = any of top-k retrieved doc_ids in gold_source_docs (v4)"
+  },
+  "B_recall1_split": {
+    "recall@1": 0.735,
+    "misses": 9,
+    "ranking_retrieved_but_lower": [
+      [
+        "A2",
+        2
+      ],
+      [
+        "A4",
+        3
+      ],
+      [
+        "B10",
+        2
+      ],
+      [
+        "C17",
+        2
+      ],
+      [
+        "C18",
+        2
+      ],
+      [
+        "D23",
+        2
+      ],
+      [
+        "E28",
+        4
+      ],
+      [
+        "E29",
+        3
+      ]
+    ],
+    "coverage_not_retrieved": [
+      "B9"
+    ],
+    "A4_now_hit": {
+      "gold": [
+        "CA377"
+      ],
+      "best_rank": 3,
+      "hit@3": true
+    },
+    "E28_now_hit": {
+      "gold": [
+        "CE007"
+      ],
+      "best_rank": 4,
+      "hit@5": true
+    },
+    "B9_sole_coverage_miss": true
+  },
+  "C_three_way_comparison": {
+    "note": "each cell labeled pipeline+gold to avoid apples-to-oranges; the CANONICAL baseline is the v3+v4-gold column.",
+    "table": {
+      "1": {
+        "w2_1_MINK3__old_gold": 0.433,
+        "w2_1_MINK3__v4_gold__SHEENA": "n/a — Sheena-owned (w2.1 retrieved_docs not in this repo; xlsx absent)",
+        "v3_MINK4_topP__v4_gold__CANONICAL": 0.735
+      },
+      "3": {
+        "w2_1_MINK3__old_gold": 0.733,
+        "w2_1_MINK3__v4_gold__SHEENA": "n/a — Sheena-owned (w2.1 retrieved_docs not in this repo; xlsx absent)",
+        "v3_MINK4_topP__v4_gold__CANONICAL": 0.941
+      },
+      "5": {
+        "w2_1_MINK3__old_gold": 0.807,
+        "w2_1_MINK3__v4_gold__SHEENA": "n/a — Sheena-owned (w2.1 retrieved_docs not in this repo; xlsx absent)",
+        "v3_MINK4_topP__v4_gold__CANONICAL": 0.971
+      },
+      "10": {
+        "w2_1_MINK3__old_gold": 0.821,
+        "w2_1_MINK3__v4_gold__SHEENA": "n/a — Sheena-owned (w2.1 retrieved_docs not in this repo; xlsx absent)",
+        "v3_MINK4_topP__v4_gold__CANONICAL": 0.971
+      }
+    }
+  },
+  "D_carried_forward_not_recomputed": {
+    "fabrication": "0/40 (carried from v3 run — pipeline identical)",
+    "empty_cited_in_scope": "0 (carried)",
+    "MIN_K_verdict": "KEEP 4 (carried; recall-backed on v3)",
+    "OOS": "gate inert at threshold 0.15 (never declines); X35 declined by composer, X36 did NOT (carried)",
+    "note": "grounding/MIN_K/OOS are RETRIEVAL/COMPOSE outcomes unchanged by a gold re-grade; carried verbatim."
+  },
+  "E_low_confidence_caveat": {
+    "missed_at5_lowconf": [],
+    "note": "verify gold (low-confidence, SME-confirm pending) — do NOT attribute to pipeline"
+  },
+  "per_query": [
+    {
+      "qid": "A1",
+      "scope_gold": "in",
+      "qtype": "def",
+      "gold_confidence": "high",
+      "gold_v4": [
+        "CA031",
+        "SB028"
+      ],
+      "retrieved_docs": [
+        "CA031",
+        "SB028",
+        "CD003",
+        "CB001"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "A2",
+      "scope_gold": "in",
+      "qtype": "doc",
+      "gold_confidence": "med",
+      "gold_v4": [
+        "BD001",
+        "BD002"
+      ],
+      "retrieved_docs": [
+        "SB065",
+        "BD002",
+        "CA031",
+        "BD001",
+        "BD005",
+        "BD003",
+        "CC006",
+        "CA127"
+      ],
+      "in_denominator": true,
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 2,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "A3",
+      "scope_gold": "in",
+      "qtype": "case",
+      "gold_confidence": "high",
+      "gold_v4": [
+        "CA242"
+      ],
+      "retrieved_docs": [
+        "CA242",
+        "BD003",
+        "BD001",
+        "CA330",
+        "BA009",
+        "BD005",
+        "CE008"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "A4",
+      "scope_gold": "in",
+      "qtype": "stance",
+      "gold_confidence": "high",
+      "gold_v4": [
+        "CA377"
+      ],
+      "retrieved_docs": [
+        "CE003",
+        "SA049",
+        "CA377",
+        "SE036",
+        "SD035",
+        "CA095",
+        "SB040",
+        "SB065",
+        "CE008",
+        "SA011"
+      ],
+      "in_denominator": true,
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 3,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "A5",
+      "scope_gold": "in",
+      "qtype": "doc",
+      "gold_confidence": "high",
+      "gold_v4": [
+        "CA095",
+        "CA127"
+      ],
+      "retrieved_docs": [
+        "CA095",
+        "BE003",
+        "BE001",
+        "BD003",
+        "SE012",
+        "BE002",
+        "BD006",
+        "SD002"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "A6",
+      "scope_gold": "in",
+      "qtype": "def",
+      "gold_confidence": "med",
+      "gold_v4": [
+        "CA330",
+        "CA004",
+        "CA005"
+      ],
+      "retrieved_docs": [
+        "CA004",
+        "CA005",
+        "CA330",
+        "SB028",
+        "CA377",
+        "BA009"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "B7",
+      "scope_gold": "in",
+      "qtype": "doc",
+      "gold_confidence": "high",
+      "gold_v4": [
+        "SB028",
+        "SB040"
+      ],
+      "retrieved_docs": [
+        "SB040",
+        "SB028",
+        "CB005",
+        "SA011",
+        "CB006",
+        "SB051"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "B8",
+      "scope_gold": "in",
+      "qtype": "doc",
+      "gold_confidence": "med",
+      "gold_v4": [
+        "SA011",
+        "SB028"
+      ],
+      "retrieved_docs": [
+        "SA011",
+        "SB028",
+        "SE036",
+        "CC002",
+        "CD005",
+        "CD003",
+        "CC006",
+        "SD016"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "B9",
+      "scope_gold": "in",
+      "qtype": "doc",
+      "gold_confidence": "med",
+      "gold_v4": [
+        "CB006",
+        "CB005",
+        "CB007"
+      ],
+      "retrieved_docs": [
+        "CD003",
+        "SD021",
+        "SD009",
+        "CD008",
+        "CD011",
+        "SB028",
+        "SD016",
+        "CB008",
+        "SB051"
+      ],
+      "in_denominator": true,
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "hit@10": false,
+      "best_gold_rank": null,
+      "retrieved_at_all": false
+    },
+    {
+      "qid": "B10",
+      "scope_gold": "in",
+      "qtype": "def",
+      "gold_confidence": "low",
+      "gold_v4": [
+        "SD021",
+        "CD008"
+      ],
+      "retrieved_docs": [
+        "SD009",
+        "CD008",
+        "SB006",
+        "SD021",
+        "SD016"
+      ],
+      "in_denominator": true,
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 2,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "B11",
+      "scope_gold": "in",
+      "qtype": "stance",
+      "gold_confidence": "med",
+      "gold_v4": [
+        "CB007",
+        "CB005"
+      ],
+      "retrieved_docs": [
+        "CB005",
+        "CB007",
+        "SB040",
+        "CA031",
+        "CA095",
+        "BD002",
+        "BD005"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "B12",
+      "scope_gold": "in",
+      "qtype": "multi",
+      "gold_confidence": "med",
+      "gold_v4": [
+        "SB028",
+        "CB008"
+      ],
+      "retrieved_docs": [
+        "SB028",
+        "CB008",
+        "CB006",
+        "SD035",
+        "SD016",
+        "SB040"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "C13",
+      "scope_gold": "in",
+      "qtype": "stance",
+      "gold_confidence": "med",
+      "gold_v4": [
+        "BC001"
+      ],
+      "retrieved_docs": [
+        "BC001",
+        "SB042",
+        "CC006",
+        "GC003",
+        "SE036",
+        "SA011",
+        "CC002",
+        "SD016"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "C14",
+      "scope_gold": "in",
+      "qtype": "stance",
+      "gold_confidence": "low",
+      "gold_v4": [
+        "BC001",
+        "SA011",
+        "CC002"
+      ],
+      "retrieved_docs": [
+        "SA011",
+        "SB042",
+        "CC006",
+        "CC002",
+        "SB039",
+        "BD003",
+        "SE036"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "C15",
+      "scope_gold": "in",
+      "qtype": "doc",
+      "gold_confidence": "med",
+      "gold_v4": [
+        "BC001"
+      ],
+      "retrieved_docs": [
+        "BC001",
+        "CC006",
+        "SB028",
+        "SE036",
+        "SA011",
+        "CB007",
+        "SB006",
+        "SD016"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "C16",
+      "scope_gold": "in",
+      "qtype": "stance",
+      "gold_confidence": "high",
+      "gold_v4": [
+        "CC001"
+      ],
+      "retrieved_docs": [
+        "CC001",
+        "BE002",
+        "SB028",
+        "CC009",
+        "BD001"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "C17",
+      "scope_gold": "in",
+      "qtype": "stance",
+      "gold_confidence": "low",
+      "gold_v4": [
+        "CC002",
+        "SB042"
+      ],
+      "retrieved_docs": [
+        "SE036",
+        "SB042",
+        "CC002",
+        "CE003",
+        "CC006",
+        "SC005",
+        "SB050",
+        "BC001"
+      ],
+      "in_denominator": true,
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 2,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "C18",
+      "scope_gold": "in",
+      "qtype": "stance",
+      "gold_confidence": "low",
+      "gold_v4": [
+        "SC010",
+        "CC008"
+      ],
+      "retrieved_docs": [
+        "SA011",
+        "SC010",
+        "SE036",
+        "CC008",
+        "CC006",
+        "SB042",
+        "SC005"
+      ],
+      "in_denominator": true,
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 2,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "D19",
+      "scope_gold": "in",
+      "qtype": "def",
+      "gold_confidence": "med",
+      "gold_v4": [
+        "SD016"
+      ],
+      "retrieved_docs": [
+        "SD016",
+        "CB005",
+        "SB040",
+        "SB028",
+        "SD004",
+        "SA011",
+        "SB051",
+        "SD002",
+        "CB006"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "D20",
+      "scope_gold": "in",
+      "qtype": "def",
+      "gold_confidence": "high",
+      "gold_v4": [
+        "CD003",
+        "CD001",
+        "CD005"
+      ],
+      "retrieved_docs": [
+        "CD001",
+        "SD016",
+        "CD005",
+        "SA011",
+        "SB006",
+        "SD035",
+        "SD021",
+        "SD002"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "D21",
+      "scope_gold": "in",
+      "qtype": "orphan",
+      "gold_confidence": "high",
+      "gold_v4": [
+        "SD002",
+        "SC007"
+      ],
+      "retrieved_docs": [
+        "SD002",
+        "SD021",
+        "SD016",
+        "SC007"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "D22",
+      "scope_gold": "in",
+      "qtype": "doc",
+      "gold_confidence": "med",
+      "gold_v4": [
+        "CB003",
+        "CD003",
+        "CA031"
+      ],
+      "retrieved_docs": [
+        "CA031",
+        "CD003",
+        "CB003",
+        "SB040",
+        "SB028",
+        "CD001"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "D23",
+      "scope_gold": "in",
+      "qtype": "def",
+      "gold_confidence": "med",
+      "gold_v4": [
+        "CD008",
+        "SB050"
+      ],
+      "retrieved_docs": [
+        "CB004",
+        "CD008",
+        "SD021",
+        "SD016",
+        "CA031",
+        "SB063",
+        "CB003"
+      ],
+      "in_denominator": true,
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 2,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "D24",
+      "scope_gold": "in",
+      "qtype": "stance",
+      "gold_confidence": "low",
+      "gold_v4": [
+        "SB050",
+        "SD035",
+        "SD016"
+      ],
+      "retrieved_docs": [
+        "SB050",
+        "SD035",
+        "SB040",
+        "CD001",
+        "CC006",
+        "CE009"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "E25",
+      "scope_gold": "in",
+      "qtype": "def",
+      "gold_confidence": "high",
+      "gold_v4": [
+        "CA010",
+        "CA009"
+      ],
+      "retrieved_docs": [
+        "CA010",
+        "CA009",
+        "CA013",
+        "CA011"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "E26",
+      "scope_gold": "in",
+      "qtype": "stance",
+      "gold_confidence": "high",
+      "gold_v4": [
+        "CA003"
+      ],
+      "retrieved_docs": [
+        "CA003",
+        "CA009",
+        "CA031",
+        "CE003",
+        "CA010"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "E27",
+      "scope_gold": "in",
+      "qtype": "doc",
+      "gold_confidence": "med",
+      "gold_v4": [
+        "CA009",
+        "CE003"
+      ],
+      "retrieved_docs": [
+        "CA009",
+        "CE003",
+        "BD003",
+        "CA010",
+        "SE012",
+        "CB007"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "E28",
+      "scope_gold": "in",
+      "qtype": "case",
+      "gold_confidence": "high",
+      "gold_v4": [
+        "CE007"
+      ],
+      "retrieved_docs": [
+        "BD001",
+        "CE008",
+        "CA377",
+        "CE007",
+        "BD003",
+        "BD005",
+        "BA009"
+      ],
+      "in_denominator": true,
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 4,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "E29",
+      "scope_gold": "in",
+      "qtype": "case",
+      "gold_confidence": "high",
+      "gold_v4": [
+        "CA242"
+      ],
+      "retrieved_docs": [
+        "CA034",
+        "SA049",
+        "CA242",
+        "SE012",
+        "CE102",
+        "CC069",
+        "CE004"
+      ],
+      "in_denominator": true,
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 3,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "E30",
+      "scope_gold": "in",
+      "qtype": "doc",
+      "gold_confidence": "med",
+      "gold_v4": [
+        "BD001"
+      ],
+      "retrieved_docs": [
+        "BD001",
+        "BA009",
+        "BD004",
+        "CA005",
+        "CA003",
+        "CA127",
+        "BD003",
+        "BD005"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "X31",
+      "scope_gold": "meta",
+      "qtype": "id",
+      "gold_confidence": "na",
+      "gold_v4": [],
+      "retrieved_docs": [
+        "SE013",
+        "SB050",
+        "SB065",
+        "SD035",
+        "SE036",
+        "SC010",
+        "BE002"
+      ],
+      "in_denominator": false
+    },
+    {
+      "qid": "X32",
+      "scope_gold": "meta",
+      "qtype": "id",
+      "gold_confidence": "na",
+      "gold_v4": [],
+      "retrieved_docs": [
+        "BC001",
+        "SD035",
+        "SB065",
+        "BC002",
+        "SB050",
+        "SC010",
+        "SB051",
+        "BE002",
+        "SD021"
+      ],
+      "in_denominator": false
+    },
+    {
+      "qid": "X33",
+      "scope_gold": "in(gap-v4)",
+      "qtype": "multi",
+      "gold_confidence": "high",
+      "gold_v4": [],
+      "retrieved_docs": [
+        "CA003",
+        "CE008",
+        "CA242",
+        "CA031",
+        "CE003",
+        "BE003",
+        "SA011",
+        "SA049"
+      ],
+      "in_denominator": false
+    },
+    {
+      "qid": "X34",
+      "scope_gold": "in",
+      "qtype": "date",
+      "gold_confidence": "high",
+      "gold_v4": [
+        "CA010",
+        "CA009"
+      ],
+      "retrieved_docs": [
+        "CA010",
+        "CA009",
+        "CA013",
+        "CA011"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "X35",
+      "scope_gold": "out",
+      "qtype": "oos",
+      "gold_confidence": "na",
+      "gold_v4": [],
+      "retrieved_docs": [
+        "GC001",
+        "SC010",
+        "SC005",
+        "SB006",
+        "SB050",
+        "SD002",
+        "BB001",
+        "SC003",
+        "BC002",
+        "SB040"
+      ],
+      "in_denominator": false
+    },
+    {
+      "qid": "X36",
+      "scope_gold": "out",
+      "qtype": "oos",
+      "gold_confidence": "na",
+      "gold_v4": [],
+      "retrieved_docs": [
+        "CE018",
+        "SD002",
+        "SD016",
+        "SB042",
+        "SB050",
+        "BB002"
+      ],
+      "in_denominator": false
+    },
+    {
+      "qid": "X37",
+      "scope_gold": "in",
+      "qtype": "multi",
+      "gold_confidence": "high",
+      "gold_v4": [
+        "CA031",
+        "SB028"
+      ],
+      "retrieved_docs": [
+        "CA031",
+        "SB028",
+        "CD003",
+        "CB006",
+        "CB005",
+        "BE002"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "X38",
+      "scope_gold": "in",
+      "qtype": "multi",
+      "gold_confidence": "med",
+      "gold_v4": [
+        "SB028",
+        "CA095"
+      ],
+      "retrieved_docs": [
+        "SB028",
+        "SA011",
+        "CB008",
+        "CB005",
+        "SD021",
+        "CE003",
+        "SB040"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    },
+    {
+      "qid": "X39",
+      "scope_gold": "in(gap)",
+      "qtype": "orphan",
+      "gold_confidence": "na",
+      "gold_v4": [],
+      "retrieved_docs": [
+        "BC001",
+        "BC002",
+        "SC010",
+        "SB042",
+        "SB039",
+        "SB050",
+        "SE036",
+        "CC002",
+        "CC008"
+      ],
+      "in_denominator": false
+    },
+    {
+      "qid": "X40",
+      "scope_gold": "in",
+      "qtype": "persona",
+      "gold_confidence": "low",
+      "gold_v4": [
+        "CC002",
+        "SB028"
+      ],
+      "retrieved_docs": [
+        "SB028",
+        "SE036",
+        "SC010",
+        "SA011",
+        "SB063",
+        "CC002"
+      ],
+      "in_denominator": true,
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1,
+      "retrieved_at_all": true
+    }
+  ]
+}
