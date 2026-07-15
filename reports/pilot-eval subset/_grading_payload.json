@@ -1,0 +1,1408 @@
+{
+ "A1": {
+  "query": "What does the rule of law actually mean?",
+  "theme": "A",
+  "type": "def",
+  "routed_topic": "rule_of_law",
+  "status": "grounded",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "CA031::c000",
+    "title": "Partners in rule of law, constitutionalism, AI",
+    "text": "Partners in rule of law, constitutionalism, AI\n\nState visits often carry the dual promise of peace and progress. When two sovereign leaders shake hands and toast glasses\u2014gesturing toward diplomatic ties, negotiations, and partnerships\u2014people feel a surge of curiosity and optimism. Yet beyond ritual protocol, the deeper value lies in the concrete agreements these visits affirm and the strategic directions they chart for the future of both nations.\nTHE VISIT OF HIS EXCELLENCY, LEE JAE-MYUNG, the P"
+   },
+   {
+    "cid": "SB028::c004",
+    "title": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs",
+    "text": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs (cont.)\n\nlaw. Let me therefore share with you why and how my personal philosophy is relevant to CPAs, CFOs and CEOs of our country.\nHOW L ****&**** P IS RELEVANT TO CPAS Like what I did during my speech at the 12th General Assembly of the Asean Law Association on February 26, 2015, let me explain my philosophy with a famous quotation of Dr. Martin Luther King Jr., \"If a man does not have a job or an income, he has neither life nor l"
+   },
+   {
+    "cid": "CA031::c003",
+    "title": "Partners in rule of law, constitutionalism, AI",
+    "text": "Partners in rule of law, constitutionalism, AI (cont.)\n\nrule of law are intertwined and mutually inclusive; judicial credibility reinforces investor confidence, and development that neglects justice becomes brittle. AS THE PHILIPPINES ASSUMES THE ASSOCIATION OF SOUTHEAST ASIAN NATIONS (ASEAN) CHAIRMANSHIP, our bilateral successes with Seoul will serve as a prima facie case for a rules-based regional order. Asean stands at a crossroads, navigating great power rivalries and security tensions. The "
+   },
+   {
+    "cid": "CA031::c002",
+    "title": "Partners in rule of law, constitutionalism, AI",
+    "text": "Partners in rule of law, constitutionalism, AI (cont.)\n\nring and robotics design company acquired by the Korean automotive manufacturing giant, Hyundai Motor Group (see \u201cRobotics, for better or for worse,\u201d 2/2/2026). It is no secret that South Korea ranks among the world\u2019s top leaders in electronics and semiconductors\u2014industries at the very heart of today\u2019s wave of hi-tech digitalization and artificial intelligence (AI) integration. Collaboration in these critical sectors can generate jobs, prom"
+   },
+   {
+    "cid": "SB028::c011",
+    "title": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs",
+    "text": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs (cont.)\n\nuther King, of Confucius and his fisherman, of Thomas Edison, of J.P. Morgan, of Franklin Delano Roosevelt, of Steve Jobs and even of Deng Xiaoping and Jack Ma. With your indulgence and patience, let me just take a few more minutes of your time to explain the four TATS. Your work as accountants, financial bosses and chief executives should be transparent in showing, to use a judicial clich\u00e9, the truth, the whole truth and n"
+   }
+  ]
+ },
+ "A2": {
+  "query": "Why is an independent judiciary important in a democracy?",
+  "theme": "A",
+  "type": "doc",
+  "routed_topic": "judicial_activism_and_political_question",
+  "status": "grounded",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "SB065::c005",
+    "title": "Attributes of a Good Independent Director",
+    "text": "Summary\n\nDelivered October 19, 2015 at a forum on 'Board Independence: Reality or Myth?' -- organized in the context of the SEC's Corporate Governance Blueprint Project -- this address by CJP immediately reframes the invitation topic: he was asked to speak on 'great' independent directors but prefers 'good,' illustrated by the left-eye specialist joke ('an expert is one who knows more and more about less and less; the ultimate expert knows everything about nothing').\nHe outlines the fundamentals"
+   },
+   {
+    "cid": "BD002::c005",
+    "title": "With Due Respect (Vol. 2) -- Ch. 5: Chief Justice of the Philippines",
+    "text": "Summary (cont.)\n\nonstitution, the Administrative Code, the GAA, the JDF Law (PD 1949) and the SAJ Law (RA 9227), wields 'exclusive sole power' to disburse the judiciary's funds. Eighth, under the 'minute scrutiny' of an inquisitive media, he is a role model and exemplar of public service whose 'quiet persona' draws civic groups in times of political wrangling.\nIn sum, leading 'the last bulwark of democracy' while carrying leadership duties 'to the farthest corners of the country,' the CJ is, CJP"
+   },
+   {
+    "cid": "SB065::c002",
+    "title": "Attributes of a Good Independent Director",
+    "text": "Attributes of a Good Independent Director (cont.)\n\nndividual or private interests. Their major duty is to help the corporation grow and profit legally, honestly, reasonably and ethically.\nABOUT BEING INDEPENDENT What differentiates IDs from executive and non-executive directors is the very name they carry: they are independent. The Securities Regulation Code defines an independent director as a person other than an officer or employee of the corporation, its parent or subsidiaries, or any other "
+   },
+   {
+    "cid": "CA031::c000",
+    "title": "Partners in rule of law, constitutionalism, AI",
+    "text": "Partners in rule of law, constitutionalism, AI\n\nState visits often carry the dual promise of peace and progress. When two sovereign leaders shake hands and toast glasses\u2014gesturing toward diplomatic ties, negotiations, and partnerships\u2014people feel a surge of curiosity and optimism. Yet beyond ritual protocol, the deeper value lies in the concrete agreements these visits affirm and the strategic directions they chart for the future of both nations.\nTHE VISIT OF HIS EXCELLENCY, LEE JAE-MYUNG, the P"
+   },
+   {
+    "cid": "BD001::c001",
+    "title": "With Due Respect (Vol. 2) -- Ch. 3: How the SC Decides Cases",
+    "text": "How the SC Decides Cases (cont.)\n\nproper party. In this sense, the Court (and the entire judiciary) is a \"passive branch\" of the government. It cannot act on a controversy unless asked to do so. In trial courts, the proceedings are open to the public. But in the Supreme Court the internal deliberations are confidential; only their net results, written in the form of decisions, resolutions, orders, and opinions (concurring, dissenting, and separate), are released to the public. Emphasizing the sa"
+   }
+  ]
+ },
+ "A3": {
+  "query": "What did the Supreme Court rule in Morfe v. Mutuc?",
+  "theme": "A",
+  "type": "case",
+  "routed_topic": "due_process",
+  "status": "grounded_exp",
+  "expected": [
+   "CA242"
+  ],
+  "chunks": [
+   {
+    "cid": "CA242::c004",
+    "title": "Right to be forgotten",
+    "text": "Summary\n\nPanganiban introduces the 'right to be forgotten' -- also called 'the right to have an imperfect past' -- as the doctrine, announced by the Court of Justice of the European Union in Google Spain SL v.\nAgencia Espa\u00f1ola de Protecci\u00f3n de Datos (2014), that allows individuals to compel search engines like Google to de-index 'inadequate, irrelevant or excessive' personal data.\nHe addresses head-on whether a ruling by a foreign tribunal is enforceable in the Philippines and answers 'Yes,' arg"
+   },
+   {
+    "cid": "BD001::c000",
+    "title": "With Due Respect (Vol. 2) -- Ch. 3: How the SC Decides Cases",
+    "text": "How the SC Decides Cases\n\nDate:       2009-06-21\nPublisher:  Philippine Daily Inquirer (Opinion)\nSource:     With Due Respect (2011)\nBy: Artemio V. Panganiban\nWithout asking for comment, the Supreme Court correctly threw out the petitions assailing the validity of House Resolution 1109. However, the Court still gave them special treatment by issuing a signed resolution extensively explaining its action. Normally, to show its disdain for utterly unmeritorious and \"cerebrally deficient\" petitions,"
+   },
+   {
+    "cid": "BD001::c001",
+    "title": "With Due Respect (Vol. 2) -- Ch. 3: How the SC Decides Cases",
+    "text": "How the SC Decides Cases (cont.)\n\nproper party. In this sense, the Court (and the entire judiciary) is a \"passive branch\" of the government. It cannot act on a controversy unless asked to do so. In trial courts, the proceedings are open to the public. But in the Supreme Court the internal deliberations are confidential; only their net results, written in the form of decisions, resolutions, orders, and opinions (concurring, dissenting, and separate), are released to the public. Emphasizing the sa"
+   },
+   {
+    "cid": "BD001::c005",
+    "title": "With Due Respect (Vol. 2) -- Ch. 3: How the SC Decides Cases",
+    "text": "Summary\n\nChapter 3 of 'With Due Respect' (Vol.\n2), CJP's June 21, 2009 Inquirer column, is 'a primer on how the Court decides cases in the normal course,' prompted by the Court's unusual signed resolution throwing out the petitions against House Resolution 1109 -- special treatment, he notes, compared with the one-sentence dismissals reserved for 'utterly unmeritorious and cerebrally deficient' petitions.\nHe explains that the Court is a 'review court' that does not take initial cognizance of con"
+   },
+   {
+    "cid": "BD003::c005",
+    "title": "With Due Respect (Vol. 2) -- Ch. 7: Demystifying the Court",
+    "text": "Summary\n\nChapter 7 of 'With Due Respect' (Vol.\n2), CJP's July 4, 2010 Inquirer column, sets out to demystify 'the most mysterious among major government agencies' -- the Supreme Court, whose processes stay hidden because, unlike trial courts, 'the public discovers a case only after a judgment is issued.' He recalls making it his 'self-imposed duty' to write a book each year to explain the Court's work, and notes that the Court itself did better on May 4, 2010 by codifying its processes as 'The I"
+   }
+  ]
+ },
+ "A4": {
+  "query": "What is your view on judicial activism?",
+  "theme": "A",
+  "type": "stance",
+  "routed_topic": "judicial_activism_and_political_question",
+  "status": "grounded",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "CE003::c006",
+    "title": "Relentless defender of PH sovereignty",
+    "text": "Summary (cont.)\n\ndiplomatic tiff but an assault on their right to feed their families.\nIt is about liberty -- freedom to navigate territorial waters without fear and harassment. It is about overflight -- the right of PH aircraft to fly over waters indisputably ours.\nAnd it is about prosperity -- the sovereign right to explore and develop oil, gas, and other resources within the exclusive economic zone, including the promising Reed Bank, which SAJ Tony has repeatedly bemoaned has remained untappe"
+   },
+   {
+    "cid": "SA049::c002",
+    "title": "An Ode to Jurisprudential Disruption",
+    "text": "An Ode to Jurisprudential Disruption (cont.)\n\njuries. To be fair, Dean Diokno did not just criticize. True to his calling as a compleat reformer, he offered solutions and remedies to transcend these lapses. Diokno is aptly followed by Ateneo's own immediate past dean, Sedfrey M. Candelaria (and Patrick Edward L. Balisong), who in addition to his many titles and awards is one of the 13 holders of the \"Chief Justice Panganiban Professorial Chairs on Liberty and Prosperity.\" Dean Candelaria again d"
+   },
+   {
+    "cid": "CE003::c002",
+    "title": "Relentless defender of PH sovereignty",
+    "text": "Relentless defender of PH sovereignty (cont.)\n\nes it because he believes, as every true patriot must, that the international rule of law is the only shield of smaller nations against the world\u2019s superpowers. Why does this matter to ordinary Filipinos? Because fishing rights are not abstract legal concepts. They are the daily bread of thousands of our fishermen whose livelihoods depend on the rich waters of the sea. When they are blocked, the incident is not merely a diplomatic tiff\u2014it is an assa"
+   },
+   {
+    "cid": "CA377::c003",
+    "title": "CBCP and same-sex marriage",
+    "text": "CBCP and same-sex marriage (cont.)\n\nrcise \u201cjudicial restraint\u201d and defer to policies made by elected officials, and that in case of conflict, the state governments should prevail over the federal. Four other justices (Stephen Breyer and the three ladies, Ruth Ginsburg, Sonia Sotomayor and Elena Kagan) belong to the liberal wing. They believe that the US Charter should be interpreted to solve current problems, and to do so, the US Supreme Court can, if necessary, invent new concepts like the Mira"
+   },
+   {
+    "cid": "SE036::c004",
+    "title": "Towards a Just and Humane Society in the DiGi Age",
+    "text": "Towards a Just and Humane Society in the DiGi Age (cont.)\n\nlaw dean at FEU, Dr. Jovito R. Salonga, would not hear of it and urged me to go on. Fortunately, with God's grace, I still made it to the sixth place. Alleluia! My friend, who is now deceased, never knew how his simple gesture of paying for my pre-bar expenses brought me over to the noble legal profession and, eventually, to the highest judicial position in our country. Indeed, my life is full of little twists and turns that have brought"
+   }
+  ]
+ },
+ "A5": {
+  "query": "How can the Philippine judiciary be reformed?",
+  "theme": "A",
+  "type": "doc",
+  "routed_topic": "judicial_reform",
+  "status": "grounded",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "CA095::c000",
+    "title": "Turn to tech, AI to reform the judiciary",
+    "text": "Turn to tech, AI to reform the judiciary\n\nThe judiciary is often likened to the Church and the military. All three are bastions of conservatism; they cannot be fully democratized, and they are bound by a historical respect for traditions, precedents, meritocracy, and seniority.\nPLEASANTLY SURPRISING THEREFORE YET DESERVING OF ACCLAIM was the recent speech of Chief Justice Alexander G. Gesmundo accepting the challenge on how the judiciary can \u201cturn tech for good and move from problem to solution\u2026"
+   },
+   {
+    "cid": "BE003::c002",
+    "title": "With Due Respect (Vol. 1) -- Ch. 3: Rage for Truth",
+    "text": "Rage for Truth (cont.)\n\npower would \"weaken our democratic institutions,\" said Archbishop Leonardo Legaspi. Neither did the bishops call for resignation, only for an end to corruption. **GMA's best option**\nGMA is an astute politician who carefully weighs all her options. She must be aware that all the above scenarios are unpalatable. She must also know she has two very important aces: (1) the economy is still looking up and the middle forces will not just endanger it unnecessarily; and (2) she "
+   },
+   {
+    "cid": "BE003::c001",
+    "title": "With Due Respect (Vol. 1) -- Ch. 3: Rage for Truth",
+    "text": "Rage for Truth (cont.)\n\noffice, or resignation of the President, the Vice-President shall become President to serve the unexpired term.\u201d In 1986, there was no incumbent vice-president. A third option is impeachment a la Joseph Ejercito Estrada. But an impeachment should be initiated in the House of Representatives. After witnessing how easily the Kampi Party had defrocked Jose de Venecia, there seems no hope of an impeachment ever passing the bigger house. A fourth possibility is a coup d'etat. "
+   },
+   {
+    "cid": "BE001::c005",
+    "title": "With Due Respect (Vol. 1) -- Ch. 1: GMA's Legacy",
+    "text": "Summary (cont.)\n\nthe Comelec, since between 2007 and 2010 she would fill all fifteen Court seats (eight justices retiring, plus Chief Justice Puno) and all seven Comelec posts. He warns that court-packing backfires, recalling that Eisenhower's appointees Warren and Brennan voted against him and that Marcos's compliant Court 'aggravated the discontent that eventually toppled and disgraced him,' and assures her that 'with prudent legal advice, goals can be attained under the rule of law.' Such sel"
+   },
+   {
+    "cid": "BD003::c000",
+    "title": "With Due Respect (Vol. 2) -- Ch. 7: Demystifying the Court",
+    "text": "Demystifying the Court\n\nDate:       2010-07-04\nPublisher:  Philippine Daily Inquirer (Opinion)\nSource:     With Due Respect (2011)\nBy: Artemio V. Panganiban\nThe recent controversy on the power of the president to appoint a chief justice during the ban on midnight appointments focused public attention on the Supreme Court. Yet, the Court remains the most mysterious among major government agencies. Save in a few high-profile cases, the public discovers a case only after a judgment is issued. Unlik"
+   }
+  ]
+ },
+ "A6": {
+  "query": "What is due process, and why does it matter?",
+  "theme": "A",
+  "type": "def",
+  "routed_topic": "due_process",
+  "status": "grounded",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "CA004::c002",
+    "title": "Due process in impeachment",
+    "text": "Due process in impeachment (cont.)\n\nthat a \u201cpublic office is a public trust.\u201d Ergo, the due process clause in the Bill of Rights does not cover the return to the state of a misused public office. Traditional due process.\nHowever, due process is sourced not just from the Constitution. It is deeply ingrained in democracy; it is rooted in history and in the people\u2019s inherent sense of justice and fair play. Themistocles immortalized it in his cry, \u201cStrike, but hear me first.\u201d Daniel Webster romantic"
+   },
+   {
+    "cid": "CA004::c001",
+    "title": "Due process in impeachment",
+    "text": "Due process in impeachment (cont.)\n\nst one-third of all House members. Here, the verified complaint \u201cshall constitute the Articles of Impeachment, and trial by the Senate shall forthwith proceed.\u201d Under the first method, the respondent is heard first before a vote in the committee is taken. However, under the second method, no hearing is required and no voting is actually taken. The Constitution says that if the verified impeachment complaint is \u201cfiled\u201d (repeat, \u201cfiled\u201d) by at least one-third of"
+   },
+   {
+    "cid": "CA005::c001",
+    "title": "Due process and judicial compensation",
+    "text": "Due process and judicial compensation (cont.)\n\nwithout due process of law.\u201d Clearly, the word \u201cperson\u201d includes foreigners and corporations that would be forced to unload their investments at bargain prices. The most basic concept of due process is traced to Themistocles who cried, \u201cStrike, but hear me first!\u201d and the most oft-quoted definition of due process is traced to Daniel Webster, who referred to it as \u201ca law that hears before it condemns, proceeds upon inquiry and renders judgment only a"
+   },
+   {
+    "cid": "CA330::c000",
+    "title": "Overdue process?",
+    "text": "Overdue process?\n\nNo person shall be deprived of life, liberty or property without due process of law\u2026\" is the most basic right enshrined in the first section of our Constitution's Bill of Rights. Deprivation is not necessarily unconstitutional. What is prohibited is deprivation without due process.\nIllegal arrests and searches. Moreover, the second section of the Bill of Rights guarantees \"the right of the people to be secure in their persons, houses, papers, and effects against unreasonable se"
+   },
+   {
+    "cid": "CA004::c004",
+    "title": "Due process in impeachment",
+    "text": "Summary\n\nStartled by 188 House members filing a verified impeachment complaint without prior notice or hearing, Panganiban re-examines the constitutional provisions.\nThe 1987 Charter provides two initiation methods: (1) a single congressman/citizen files a verified complaint, the House Committee on Justice conducts hearings and recommends by majority vote, and a 1/3 vote of all members is needed to proceed -- the respondent is heard at the committee stage; (2) a verified complaint filed by at le"
+   }
+  ]
+ },
+ "B7": {
+  "query": "What is the Liberty and Prosperity doctrine?",
+  "theme": "B",
+  "type": "doc",
+  "routed_topic": "twin_beacons_doctrine",
+  "status": "grounded",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "SB040::c002",
+    "title": "Equilibrium with Momentum",
+    "text": "Equilibrium with Momentum (cont.)\n\nered, I have many times echoed the same theme and truth as the authors' \u2013 maybe in slightly different words \u2013 but, I think, with the same passion and addiction. And that theme is this: humans need both justice and jobs; freedom and food; ethics and economics; peace and development; liberty and prosperity; these twin beacons must always go together; one is useless without the other. For what good is freedom of speech when the stomach is empty and the body is mor"
+   },
+   {
+    "cid": "SB028::c004",
+    "title": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs",
+    "text": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs (cont.)\n\nlaw. Let me therefore share with you why and how my personal philosophy is relevant to CPAs, CFOs and CEOs of our country.\nHOW L ****&**** P IS RELEVANT TO CPAS Like what I did during my speech at the 12th General Assembly of the Asean Law Association on February 26, 2015, let me explain my philosophy with a famous quotation of Dr. Martin Luther King Jr., \"If a man does not have a job or an income, he has neither life nor l"
+   },
+   {
+    "cid": "CB005::c003",
+    "title": "Merging law and economics",
+    "text": "Summary\n\nPanganiban summarizes his speech at the launch of 'Momentum,' an economic-reforms book by Romeo Bernardo, Calixto Chikiamco, Emmanuel de Dios, Raul Fabella, and the late Cayetano Paderanga.\nHe proposes that the authors would constitute a 'Supreme Court for economic matters' and uses the launch to restate his core philosophy: 'Humans need both justice and jobs; freedom and food; ethics and economics; peace and development; liberty and prosperity' -- twin beacons that must always go toget"
+   },
+   {
+    "cid": "SB040::c011",
+    "title": "Equilibrium with Momentum",
+    "text": "Summary (cont.)\n\nal domination (Spain, America) and the Patrick Henry 'give me liberty or give me death' tradition.\nHe presents his most important economic ponencia -- Tanada v. Angara (May 2, 1997) -- where he had to overcome the reigning 'Filipino First' doctrine, beginning with only 3 full concurrers and eventually convincing all 14 other justices through 'days of patient explanations, discussions and deliberations' to unanimously uphold WTO membership and embrace globalization, liberalizatio"
+   },
+   {
+    "cid": "SA011::c006",
+    "title": "Human Rights, Libertarianism and Prosperity",
+    "text": "Human Rights, Libertarianism and Prosperity (cont.)\n\ndvantage of me, ran roughshod of me. I was shaking in my boots, although I did not want to show it; after all, he was my idol, along with Salonga and Teehankee. Ladies and gentlemen, that is Jose W. Diokno, a sui generis, an unusual lawyer, and his advocacy is human rights. He was the founding chair of the Commission on Human Rights. I'm here to talk about his son who is equally, in my opinion, as excellent, as well-prepared, as eloquent, and "
+   }
+  ]
+ },
+ "B8": {
+  "query": "What did you mean by 'those who have less in life should have more in law'?",
+  "theme": "B",
+  "type": "doc",
+  "routed_topic": "twin_beacons_doctrine",
+  "status": "grounded",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "SA011::c001",
+    "title": "Human Rights, Libertarianism and Prosperity",
+    "text": "Human Rights, Libertarianism and Prosperity (cont.)\n\nsity. I was here in 2010 when your school was inaugurated. Since then, 14 years have passed, and you now have a fully matured law school that's the best in BGC. Dean Gil, why did you apologize for rendering the Invocation? I think we should be proud that we pray. To be clear, praying is not disallowed by any law; in fact, it is encouraged by our Constitution and by our Supreme Court. As we all know, the Preamble of our Constitution begins with"
+   },
+   {
+    "cid": "SB028::c004",
+    "title": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs",
+    "text": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs (cont.)\n\nlaw. Let me therefore share with you why and how my personal philosophy is relevant to CPAs, CFOs and CEOs of our country.\nHOW L ****&**** P IS RELEVANT TO CPAS Like what I did during my speech at the 12th General Assembly of the Asean Law Association on February 26, 2015, let me explain my philosophy with a famous quotation of Dr. Martin Luther King Jr., \"If a man does not have a job or an income, he has neither life nor l"
+   },
+   {
+    "cid": "SE036::c008",
+    "title": "Towards a Just and Humane Society in the DiGi Age",
+    "text": "Summary\n\nDelivered June 12, 2020 -- Independence Day -- as the closing address at FLP's first pandemic-era online awards ceremony, this speech by CJP opens with thanks to CJ Diosdado Peralta and SAJ Estela Perlas-Bernabe (Board of Judges chairs) and the Tan Yan Kee Foundation and Ayala Group, and acknowledges that bar exams have been postponed by COVID.\nThe governing philosophy is the 'little things' thesis, illustrated by two stories.\nThe first is Lucila Takjerad's Harvard commencement: a 1994 "
+   },
+   {
+    "cid": "SB028::c005",
+    "title": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs",
+    "text": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs (cont.)\n\ndom and food; ethics and economics; peace and development; liberty and prosperity; these twin beacons must always go together; one is useless without the other. To repeat, there are certain truths that transcend sovereignties, territories, ideologies and legalities. And one of those truths is this: The best way to conquer poverty, to create wealth and to share prosperity is to unleash the entrepreneurial genius of people by"
+   },
+   {
+    "cid": "SE036::c004",
+    "title": "Towards a Just and Humane Society in the DiGi Age",
+    "text": "Towards a Just and Humane Society in the DiGi Age (cont.)\n\nlaw dean at FEU, Dr. Jovito R. Salonga, would not hear of it and urged me to go on. Fortunately, with God's grace, I still made it to the sixth place. Alleluia! My friend, who is now deceased, never knew how his simple gesture of paying for my pre-bar expenses brought me over to the noble legal profession and, eventually, to the highest judicial position in our country. Indeed, my life is full of little twists and turns that have brought"
+   }
+  ]
+ },
+ "B9": {
+  "query": "How does the law help small entrepreneurs and MSMEs?",
+  "theme": "B",
+  "type": "doc",
+  "routed_topic": "economic_governance_and_business_law",
+  "status": "grounded",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "CD003::c002",
+    "title": "20 law grants at P250k, 5 MBA at P500k",
+    "text": "20 law grants at P250k, 5 MBA at P500k (cont.)\n\nPilipinas (BSP) Governor Amando M. Tetangco Jr., chair Chaye Cabal-Revilla, Dr. Charo Santos Concio, lawyer Gregorio, and Maria Elena P. S. Yaptangco (members). At this point, allow me to say that the best way to nurture prosperity is to help our people help themselves through private entrepreneurship. Along this belief, FLP\u2014apart from these fellowships\u2014is also encouraging our business schools to offer courses to combine business, law, and technolo"
+   },
+   {
+    "cid": "CD003::c006",
+    "title": "20 law grants at P250k, 5 MBA at P500k",
+    "text": "Summary (cont.)\n\nESMEL (chaired by ret.\nBSP Gov.\nTetangco), and for dissertations (chaired by SC Justice Jhosep Y.\nLopez) -- and lays out the FLP board of trustees and officers. Threaded through the announcement is his philosophical refrain that 'knowledge of the law rounds out business thinking' -- telling entrepreneurs not only what they cannot do but how far they can go -- and his belief that the best way to nurture prosperity is to help Filipinos help themselves through private entrepreneurs"
+   },
+   {
+    "cid": "SD021::c003",
+    "title": "A Fruitful Past Decade and a Hope-filled New Decade",
+    "text": "A Fruitful Past Decade and a Hope-filled New Decade (cont.)\n\neen working during the last eight months to produce a curriculum for the degree of Master in International Business Law (MIBL) starting this coming school year. I got the idea of proposing this MIBL program from the graduate study and experience of our grandson Miguel Panganiban Sandejas who \u2013 after finishing his MBA, magna cum laude, major in entrepreneurship, at the famous Babson College in Boston \u2013 proceeded to take up and finish a "
+   },
+   {
+    "cid": "SD009::c005",
+    "title": "RVR's Twin Beacons Personified",
+    "text": "RVR's Twin Beacons Personified (cont.)\n\nt collaterals, the less-privileged Filipinos are honorable, they always fulfilled their obligations, and faithfully paid their debts.\nASA PHILIPPINES FOUNDATION Indeed, Ambassador Dee has an enviable record as a diplomat, peace advocate and philanthropist, but what impressed and attracted the Board of Judges was his founding and chairmanship of the ASA (Association for Social Advancement) Philippines Foundation which he built in collaboration with Kamrul H"
+   },
+   {
+    "cid": "CD008::c003",
+    "title": "FLP's 2024 law scholars, fellows, and winners",
+    "text": "FLP's 2024 law scholars, fellows, and winners (cont.)\n\n(USC), Eunice Go (USC), Clarissa Gozos (ADMU), Alex Ilagan, Jr. (USC), Deanne Pangan (ADMU), Charisse Regencia (USC), Maria Sabban (FEU), and Grace Tijam (UM). To be installed by FLP\u2019s partners, Metrobank chair Arthur Ty and Toyota Philippines chair Alfred Ty, into the FLP Professorial Chairs program is new UP law Dean Darlene Marie Berberabe.\nTHE FLP\u2019s BOARD OF TRUSTEES is composed of retired justice Angelina Sandoval-Gutierrez (president),"
+   }
+  ]
+ },
+ "B10": {
+  "query": "What is the Prosperity Fund for MSMEs?",
+  "theme": "B",
+  "type": "def",
+  "routed_topic": "msme_and_entrepreneurship+prosperity_fund_msme",
+  "status": "grounded",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "SD009::c005",
+    "title": "RVR's Twin Beacons Personified",
+    "text": "RVR's Twin Beacons Personified (cont.)\n\nt collaterals, the less-privileged Filipinos are honorable, they always fulfilled their obligations, and faithfully paid their debts.\nASA PHILIPPINES FOUNDATION Indeed, Ambassador Dee has an enviable record as a diplomat, peace advocate and philanthropist, but what impressed and attracted the Board of Judges was his founding and chairmanship of the ASA (Association for Social Advancement) Philippines Foundation which he built in collaboration with Kamrul H"
+   },
+   {
+    "cid": "CD008::c008",
+    "title": "FLP's 2024 law scholars, fellows, and winners",
+    "text": "Anecdote 8\n\nThe Esmel fellowship breakdown (P350K tuition + P100K stipend = P450K total) -- operational transparency on how the MBA-for-MSME-management pipeline is funded.\n\nAnecdote 9\n\nThe Sandoval-Gutierrez-led FLP Board of Trustees roster -- nine names including two retired justices, a former Education Secretary, and a former BSP governor -- establishing FLP's institutional weight.\n\nAnecdote 10\n\nThe second-decade strategic announcement: AI-powered Center for Liberty and Prosperity (with SC par"
+   },
+   {
+    "cid": "CD008::c006",
+    "title": "FLP's 2024 law scholars, fellows, and winners",
+    "text": "Summary (cont.)\n\nLaw Dean Darlene Marie Berberabe will be inducted into the FLP Professorial Chairs program by Metrobank chair Arthur Ty and Toyota Philippines chair Alfred Ty. The FLP Board of Trustees comprises retired Justice Angelina Sandoval-Gutierrez (president), retired Justice Estela M.\nPerlas-Bernabe, former Education Secretary Edilberto de Jesus, Tetangco, Maria Elena P.\nYaptangco, professor Maria Theresa P.\nMa\u00f1alac, lawyers Joel Emerson Gregorio and Arvin Paolo D.\nCortez, and CJ as ch"
+   },
+   {
+    "cid": "CD008::c003",
+    "title": "FLP's 2024 law scholars, fellows, and winners",
+    "text": "FLP's 2024 law scholars, fellows, and winners (cont.)\n\n(USC), Eunice Go (USC), Clarissa Gozos (ADMU), Alex Ilagan, Jr. (USC), Deanne Pangan (ADMU), Charisse Regencia (USC), Maria Sabban (FEU), and Grace Tijam (UM). To be installed by FLP\u2019s partners, Metrobank chair Arthur Ty and Toyota Philippines chair Alfred Ty, into the FLP Professorial Chairs program is new UP law Dean Darlene Marie Berberabe.\nTHE FLP\u2019s BOARD OF TRUSTEES is composed of retired justice Angelina Sandoval-Gutierrez (president),"
+   },
+   {
+    "cid": "SB006::c009",
+    "title": "Freedom for the Spirit, Food for the Body",
+    "text": "Summary (cont.)\n\nissertation Writing Contests) and prosperity programs (ESMEL Fellowships, scaling from 5 to 10) plus the Panganiban Educational Assistance Program (need-based). He announces FLP's two 'ultimate projects' for the 2021-2031 second decade -- the Center for Liberty and Prosperity and the Prosperity Fund -- seeded by his family's 357-square-meter Paseo de Magallanes lot (\u2265 \u20b1100M valuation, FLP-titled since 2022), with additional pledges including a 2,500 sq m southern-suburb commerci"
+   }
+  ]
+ },
+ "B11": {
+  "query": "Why should economic development inform judicial decisions?",
+  "theme": "B",
+  "type": "stance",
+  "routed_topic": "economic_governance_and_business_law",
+  "status": "grounded",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "CB005::c000",
+    "title": "Merging law and economics",
+    "text": "Merging law and economics\n\nThough not an economist, I was invited to speak at the launch of \u201cMomentum,\u201d a book on economic reforms by Romeo Bernardo, Calixto Chikiamco, Emmanuel de Dios, Raul Fabella and the late Cayetano Paderanga. Here\u2019s a summary and update of my talk.\nIf there would ever be a Supreme Court for economic matters, I think the authors would easily constitute some of its most sagacious members. And this book would contain their landmark ponencias.\nIn my own books, speeches and de"
+   },
+   {
+    "cid": "CB007::c000",
+    "title": "SC decisions on the economy",
+    "text": "SC decisions on the economy\n\nBecause of the growing worldwide interest in our surging economy, retired Justice Adolfo S. Azcuna, a member of the 1986 Constitutional Commission and incumbent chancellor of the Philippine Judicial Academy, dissected four controversial decisions on the economic provisions of the Constitution during his recent lecture at the Ateneo Law School.\nPatrimony and mining. Justice Azcuna, one of the 10 holders of the Chief Justice Panganiban Professorial Chair on Liberty and"
+   },
+   {
+    "cid": "SB040::c010",
+    "title": "Equilibrium with Momentum",
+    "text": "Summary\n\nDelivered October 23, 2019 at the book launch of 'Momentum: Economic Reforms for Sustaining Growth' (edited by Roel Landingin, with essays by Romeo Bernardo, Calixto Chikiamco, Emmanuel de Dios, Raul Fabella, and the late Cayetano Paderanga), this speech by CJP opens with the Shakespeare 'kill all lawyers' joke and declares that the book's authors -- 'if ever there would be a Supreme Court for economic matters' -- would easily constitute some of its most revered members.\nHe proposes tha"
+   },
+   {
+    "cid": "CA031::c002",
+    "title": "Partners in rule of law, constitutionalism, AI",
+    "text": "Partners in rule of law, constitutionalism, AI (cont.)\n\nring and robotics design company acquired by the Korean automotive manufacturing giant, Hyundai Motor Group (see \u201cRobotics, for better or for worse,\u201d 2/2/2026). It is no secret that South Korea ranks among the world\u2019s top leaders in electronics and semiconductors\u2014industries at the very heart of today\u2019s wave of hi-tech digitalization and artificial intelligence (AI) integration. Collaboration in these critical sectors can generate jobs, prom"
+   },
+   {
+    "cid": "CB007::c001",
+    "title": "SC decisions on the economy",
+    "text": "SC decisions on the economy (cont.)\n\nat the constitutional preference applied only when \u201cthe scores are tied. But not when the ballgame is over and the foreigners clearly posted the highest score.\u201d The second case, La Bugal-B\u2019laan vs Ramos, involved a Financial and Technical Assistance Agreement (FTAA) entered into by President Fidel V. Ramos with an Australian company. In its Jan. 27, 2004, decision (per Justice Conchita Carpio Morales), the Supreme Court, voting 8-5, struck down major provisio"
+   }
+  ]
+ },
+ "B12": {
+  "query": "How do you balance liberty and prosperity when they pull in opposite directions?",
+  "theme": "B",
+  "type": "multi",
+  "routed_topic": "twin_beacons_doctrine",
+  "status": "grounded",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "SB028::c005",
+    "title": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs",
+    "text": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs (cont.)\n\ndom and food; ethics and economics; peace and development; liberty and prosperity; these twin beacons must always go together; one is useless without the other. To repeat, there are certain truths that transcend sovereignties, territories, ideologies and legalities. And one of those truths is this: The best way to conquer poverty, to create wealth and to share prosperity is to unleash the entrepreneurial genius of people by"
+   },
+   {
+    "cid": "CB008::c003",
+    "title": "CPAs as purveyors of liberty and prosperity",
+    "text": "CPAs as purveyors of liberty and prosperity (cont.)\n\nrs of liberty and prosperity under the rule of law; you become collaborators of Confucius and his fisherman, Edison, Morgan, Roosevelt, Jobs, Deng, Ma, and Liu. By making your work transparent, you profess, to use a judicial clich\u00e9, \u201cthe truth, the whole truth, and nothing but the truth,\u201d expressed in facts and figures, and in clear and simple language. Truly, transparency that leads to the truth should also show the accountability, if any, of"
+   },
+   {
+    "cid": "SB028::c010",
+    "title": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs",
+    "text": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs (cont.)\n\nly and inevitably, all the peoples of the world need and deserve liberty and prosperity in equal measure.\nTRANSPARENCY, ACCOUNTABILITY, TRUTH AND SUSTAINABILITY The big question during this momentous national conference of PICPA is how accountants, business administrators and economists, specifically CPAs, CFOs and CEOs, can be relevant to this philosophy of lives and livelihood? Surely, you are in the forefront of the econ"
+   },
+   {
+    "cid": "CB008::c002",
+    "title": "CPAs as purveyors of liberty and prosperity",
+    "text": "CPAs as purveyors of liberty and prosperity (cont.)\n\nhe Chinese under the \u201cOne-Country-Two-Systems\u201d philosophy, and who opened the gates of entrepreneurship to the likes of Jack Ma, Liu Qiangdong, and Wang Wenyin. As a result of World War II, Korea was divided into North and South, which unfortunately engaged in a terrible war that ruined their economies and impoverished their people. Rising from the ruins, South Korea relied on the entrepreneurial spirit of the Koreans and built on their privat"
+   },
+   {
+    "cid": "CB006::c006",
+    "title": "Unleashing entrepreneurial ingenuity (1)",
+    "text": "Summary (cont.)\n\non for Liberty and Prosperity, which is now honored to cosponsor the general assembly together with the Philippine Supreme Court and the Philippine ALA Chapter. Certain truths transcend sovereignties, territories, ideologies, and legalities.\nAnd one of these truths is this: the best way to conquer poverty, to create wealth, and to share prosperity is to unleash the entrepreneurial genius of people by granting them the freedom and the tools to help themselves and society.\nTo prov"
+   }
+  ]
+ },
+ "C13": {
+  "query": "How has your faith shaped your work as a justice?",
+  "theme": "C",
+  "type": "stance",
+  "routed_topic": "jbc_discernment_and_appointment",
+  "status": "grounded",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "BC001::c002",
+    "title": "With Due Respect (Vol. 7) -- Ch. 3: Justice and Love on Valentine's Day",
+    "text": "Justice and Love on Valentine's Day (cont.)\n\n, their sentences could be commuted or pardoned. But those imprisoned by greed or by their lame bodies could be condemned to pain and suffering all their lives. As I was leaving, an inmate asked in Filipino (translated liberally into English): \"Isn't it true that all the commandments of the Lord can be summed up in one sentence, Love God and love your fellow beings? Why then did you have to imprison me? Contrast this with the way our Church treats sin"
+   },
+   {
+    "cid": "SB042::c017",
+    "title": "Reminiscences of an Independent Director",
+    "text": "Reminiscences of an Independent Director (cont.)\n\nons, or illegal, irregular or unethical plans and actions, if any. Fourth and final, I observe strict time-management and self-discipline.\nKEEPING TRACK OF WORK When I was in the Supreme Court, I participated actively in the deliberation and evaluation of the cases. I labored in the office daily, and brought work home so I could read, analyze and devote attention to the pleadings of the parties and the written positions of my fellow justices in t"
+   },
+   {
+    "cid": "BC001::c003",
+    "title": "With Due Respect (Vol. 7) -- Ch. 3: Justice and Love on Valentine's Day",
+    "text": "Justice and Love on Valentine's Day (cont.)\n\nbrought to \"eternal life.\" Yes, the Lord too was making choices because he was the Lord of justice just as He was also the Lord of love.\n**A young lady's tale** To make my sharing on justice and love easy to remember, I ended with an anecdote. A policeman brought a young lady to a judge. \"Young lady,\" barked His Honor, \"this officer tells me you were blazing at 100 kilometers per hour on Ayala Avenue. What can you say about that?\"\n\"Your Honor,\" replie"
+   },
+   {
+    "cid": "CC006::c002",
+    "title": "For the alumni of Mapa High",
+    "text": "For the alumni of Mapa High (cont.)\n\nce. I respectfully declined, saying, \u201cThank you, Mr. President, but I am not worthy to join your Cabinet. I did not campaign for you during the last elections.\u201d However, he was insistent: \u201cI know you did not campaign for me. In fact, you did not even vote for me. You voted for Jovy Salonga. But that is all right. I want a nonpartisan Cabinet.\u201d After two weeks, he finally relented: \u201cAh, sa Supreme Court ka na lang.\u201d\nA decade later, President Gloria Macapagal-A"
+   },
+   {
+    "cid": "GC003::c002",
+    "title": "FEU and the Construction of Ambition",
+    "text": "Summary\n\nArt's FEU chapter (1955-1959), reframing the consolation school as 'not his second choice but his proving ground.' Walking in 'carrying more than notebooks -- he carried urgency,' he studied 'as if time itself were rationed,' graduating summa cum laude in pre-law, cum laude in law, and named 1959 Most Outstanding Student. The chapter also tracks his Catholic awakening: 'Catholic by baptism, secular by upbringing,' he had once failed a scholarship interview unable to name the persons of "
+   }
+  ]
+ },
+ "C14": {
+  "query": "What lessons did your years on the Supreme Court teach you?",
+  "theme": "C",
+  "type": "stance",
+  "routed_topic": "supreme_court_history",
+  "status": "REVIEW_theme_mismatch",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "SA011::c001",
+    "title": "Human Rights, Libertarianism and Prosperity",
+    "text": "Human Rights, Libertarianism and Prosperity (cont.)\n\nsity. I was here in 2010 when your school was inaugurated. Since then, 14 years have passed, and you now have a fully matured law school that's the best in BGC. Dean Gil, why did you apologize for rendering the Invocation? I think we should be proud that we pray. To be clear, praying is not disallowed by any law; in fact, it is encouraged by our Constitution and by our Supreme Court. As we all know, the Preamble of our Constitution begins with"
+   },
+   {
+    "cid": "SB042::c017",
+    "title": "Reminiscences of an Independent Director",
+    "text": "Reminiscences of an Independent Director (cont.)\n\nons, or illegal, irregular or unethical plans and actions, if any. Fourth and final, I observe strict time-management and self-discipline.\nKEEPING TRACK OF WORK When I was in the Supreme Court, I participated actively in the deliberation and evaluation of the cases. I labored in the office daily, and brought work home so I could read, analyze and devote attention to the pleadings of the parties and the written positions of my fellow justices in t"
+   },
+   {
+    "cid": "CC006::c002",
+    "title": "For the alumni of Mapa High",
+    "text": "For the alumni of Mapa High (cont.)\n\nce. I respectfully declined, saying, \u201cThank you, Mr. President, but I am not worthy to join your Cabinet. I did not campaign for you during the last elections.\u201d However, he was insistent: \u201cI know you did not campaign for me. In fact, you did not even vote for me. You voted for Jovy Salonga. But that is all right. I want a nonpartisan Cabinet.\u201d After two weeks, he finally relented: \u201cAh, sa Supreme Court ka na lang.\u201d\nA decade later, President Gloria Macapagal-A"
+   },
+   {
+    "cid": "CC002::c002",
+    "title": "Jovito R. Salonga, my guru and surrogate father",
+    "text": "Jovito R. Salonga, my guru and surrogate father (cont.)\n\nPhilippines, Yale and Harvard.\u201d Thus began his tutorship as my surrogate father (my biological father passed away when I was just a first year prelaw student). Indeed, he taught me the rudiments of law practice and, more important, the life-defining values of integrity, prudence and fairness. He led by example, not by words. He was a dedicated husband, a caring father, a faithful friend and a devoted man of God. He did not smoke, drink or "
+   },
+   {
+    "cid": "CC006::c006",
+    "title": "For the alumni of Mapa High",
+    "text": "Summary (cont.)\n\ney to the SC.\nOn June 17, 1992, then President-elect Fidel V.\nRamos offered CJ to be his Secretary of Justice; CJ respectfully declined, saying, 'Thank you, Mr. President, but I am not worthy to join your Cabinet; I did not campaign for you during the last elections.' However, FVR was insistent: 'I know you did not campaign for me; in fact, you did not even vote for me; you voted for Jovy Salonga; but that is all right; I want a nonpartisan Cabinet.' After two weeks, FVR finally"
+   }
+  ]
+ },
+ "C15": {
+  "query": "What does justice mean to you personally?",
+  "theme": "C",
+  "type": "doc",
+  "routed_topic": "death_penalty_and_echegaray",
+  "status": "REVIEW_theme_mismatch",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "BC001::c003",
+    "title": "With Due Respect (Vol. 7) -- Ch. 3: Justice and Love on Valentine's Day",
+    "text": "Justice and Love on Valentine's Day (cont.)\n\nbrought to \"eternal life.\" Yes, the Lord too was making choices because he was the Lord of justice just as He was also the Lord of love.\n**A young lady's tale** To make my sharing on justice and love easy to remember, I ended with an anecdote. A policeman brought a young lady to a judge. \"Young lady,\" barked His Honor, \"this officer tells me you were blazing at 100 kilometers per hour on Ayala Avenue. What can you say about that?\"\n\"Your Honor,\" replie"
+   },
+   {
+    "cid": "CC006::c002",
+    "title": "For the alumni of Mapa High",
+    "text": "For the alumni of Mapa High (cont.)\n\nce. I respectfully declined, saying, \u201cThank you, Mr. President, but I am not worthy to join your Cabinet. I did not campaign for you during the last elections.\u201d However, he was insistent: \u201cI know you did not campaign for me. In fact, you did not even vote for me. You voted for Jovy Salonga. But that is all right. I want a nonpartisan Cabinet.\u201d After two weeks, he finally relented: \u201cAh, sa Supreme Court ka na lang.\u201d\nA decade later, President Gloria Macapagal-A"
+   },
+   {
+    "cid": "SB028::c004",
+    "title": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs",
+    "text": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs (cont.)\n\nlaw. Let me therefore share with you why and how my personal philosophy is relevant to CPAs, CFOs and CEOs of our country.\nHOW L ****&**** P IS RELEVANT TO CPAS Like what I did during my speech at the 12th General Assembly of the Asean Law Association on February 26, 2015, let me explain my philosophy with a famous quotation of Dr. Martin Luther King Jr., \"If a man does not have a job or an income, he has neither life nor l"
+   },
+   {
+    "cid": "BC001::c002",
+    "title": "With Due Respect (Vol. 7) -- Ch. 3: Justice and Love on Valentine's Day",
+    "text": "Justice and Love on Valentine's Day (cont.)\n\n, their sentences could be commuted or pardoned. But those imprisoned by greed or by their lame bodies could be condemned to pain and suffering all their lives. As I was leaving, an inmate asked in Filipino (translated liberally into English): \"Isn't it true that all the commandments of the Lord can be summed up in one sentence, Love God and love your fellow beings? Why then did you have to imprison me? Contrast this with the way our Church treats sin"
+   },
+   {
+    "cid": "SE036::c004",
+    "title": "Towards a Just and Humane Society in the DiGi Age",
+    "text": "Towards a Just and Humane Society in the DiGi Age (cont.)\n\nlaw dean at FEU, Dr. Jovito R. Salonga, would not hear of it and urged me to go on. Fortunately, with God's grace, I still made it to the sixth place. Alleluia! My friend, who is now deceased, never knew how his simple gesture of paying for my pre-bar expenses brought me over to the noble legal profession and, eventually, to the highest judicial position in our country. Indeed, my life is full of little twists and turns that have brought"
+   }
+  ]
+ },
+ "C16": {
+  "query": "How do you balance public duty with family life?",
+  "theme": "C",
+  "type": "stance",
+  "routed_topic": "twin_beacons_doctrine",
+  "status": "REVIEW_theme_mismatch",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "SB028::c010",
+    "title": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs",
+    "text": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs (cont.)\n\nly and inevitably, all the peoples of the world need and deserve liberty and prosperity in equal measure.\nTRANSPARENCY, ACCOUNTABILITY, TRUTH AND SUSTAINABILITY The big question during this momentous national conference of PICPA is how accountants, business administrators and economists, specifically CPAs, CFOs and CEOs, can be relevant to this philosophy of lives and livelihood? Surely, you are in the forefront of the econ"
+   },
+   {
+    "cid": "CE008::c003",
+    "title": "Marital infidelity, abortion, PCP2",
+    "text": "Marital infidelity, abortion, PCP2 (cont.)\n\nlished, the right to life, being grounded on natural law, is inherent and, therefore, not a creation of, or dependent upon a particular law, custom, or belief.\u201d Another major consequence of these dicta is that health professionals cannot be forced to use any device, method, or drug that prevents the fertilized ovum from reaching the maternal womb. Neither can they force their patients to use them. Some theologians say that only the \u201crhythm method\u201d shou"
+   },
+   {
+    "cid": "SB028::c003",
+    "title": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs",
+    "text": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs (cont.)\n\nrd work, integrity, independence, accuracy and on-time submission of her reports. Palakpakan po natin ang ating magiting na Pambansang Pangulo, si Dolly Miguel. Having said that, I do not know what kind of funny wind struck President Dolly that impelled her to invite me to be your inducting officer and guest speaker today. Unlike all of you, I am not a certified public accountant, not even a commerce or business administrat"
+   },
+   {
+    "cid": "SE036::c001",
+    "title": "Towards a Just and Humane Society in the DiGi Age",
+    "text": "Towards a Just and Humane Society in the DiGi Age (cont.)\n\nw the safeguarding of liberty and the nurturing of prosperity could be applied to the various aspects of legal theory and practice.\nDOING THE MOST AND THE LEAST In her commencement address before her graduating class at Harvard University a year ago, Lucila Takjerad of Algeria recalled how her impoverished family survived the hunger and pains of the horrible Algerian civil war that started in December 1991. She said that one hot summer d"
+   },
+   {
+    "cid": "SE036::c008",
+    "title": "Towards a Just and Humane Society in the DiGi Age",
+    "text": "Summary\n\nDelivered June 12, 2020 -- Independence Day -- as the closing address at FLP's first pandemic-era online awards ceremony, this speech by CJP opens with thanks to CJ Diosdado Peralta and SAJ Estela Perlas-Bernabe (Board of Judges chairs) and the Tan Yan Kee Foundation and Ayala Group, and acknowledges that bar exams have been postponed by COVID.\nThe governing philosophy is the 'little things' thesis, illustrated by two stories.\nThe first is Lucila Takjerad's Harvard commencement: a 1994 "
+   }
+  ]
+ },
+ "C17": {
+  "query": "What qualities did you most admire in your colleagues on the bench?",
+  "theme": "C",
+  "type": "stance",
+  "routed_topic": "lawyer_ethics_initiative",
+  "status": "REVIEW_theme_mismatch",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "SE036::c010",
+    "title": "Towards a Just and Humane Society in the DiGi Age",
+    "text": "Anecdote 1\n\nLucila Takjerad's Harvard story: a 1994 Algerian civil war refugee's illiterate mother couldn't write her name on the French emigration list; a stranger noticed, ran after her, scribbled her name; the family emigrated; Lucila graduated Harvard and delivered the commencement address, closing: 'Fellow graduates, of course, do the most you can do: your education and legacy demand it. But also do the least you can do. Because, the least you can do might turn out to be the most significan"
+   },
+   {
+    "cid": "SB042::c017",
+    "title": "Reminiscences of an Independent Director",
+    "text": "Reminiscences of an Independent Director (cont.)\n\nons, or illegal, irregular or unethical plans and actions, if any. Fourth and final, I observe strict time-management and self-discipline.\nKEEPING TRACK OF WORK When I was in the Supreme Court, I participated actively in the deliberation and evaluation of the cases. I labored in the office daily, and brought work home so I could read, analyze and devote attention to the pleadings of the parties and the written positions of my fellow justices in t"
+   },
+   {
+    "cid": "CC002::c010",
+    "title": "Jovito R. Salonga, my guru and surrogate father",
+    "text": "Anecdote 7\n\nSalonga's character catalog: 'He did not smoke, drink or gamble. Wealth, power, worldly pleasures, titles and honors did not fascinate him.' -- five-trait simplicity description.\n\nAnecdote 8\n\nThe interfaith-cordiality formulation: 'we never discussed what separated us, only what truly bound us' -- a single-sentence credo for friendship across religious lines.\n\nAnecdote 9\n\nThe independence-blessing: 'You now have formidable wings, go and soar the limitless sky!' -- Salonga's verbatim "
+   },
+   {
+    "cid": "CE003::c008",
+    "title": "Relentless defender of PH sovereignty",
+    "text": "Anecdote 1\n\nThe 1875 Carta General del Archipi\u00e9lago Filipino turnover to the National Library -- captures the recent occasion through a Spanish-colonial-era cartographic-evidence anchoring sovereignty claims, with Carpio's calm-but-firm new-arbitration-case-recommendation as occasion-punchline.\n\nAnecdote 2\n\nThe 'SAJ' rank explanation parenthetical -- CJP educating readers that 'SAJ' is a distinct law-granted rank for the sitting Court member serving longest among current colleagues -- a useful p"
+   },
+   {
+    "cid": "CC002::c002",
+    "title": "Jovito R. Salonga, my guru and surrogate father",
+    "text": "Jovito R. Salonga, my guru and surrogate father (cont.)\n\nPhilippines, Yale and Harvard.\u201d Thus began his tutorship as my surrogate father (my biological father passed away when I was just a first year prelaw student). Indeed, he taught me the rudiments of law practice and, more important, the life-defining values of integrity, prudence and fairness. He led by example, not by words. He was a dedicated husband, a caring father, a faithful friend and a devoted man of God. He did not smoke, drink or "
+   }
+  ]
+ },
+ "C18": {
+  "query": "Looking back, what are you most proud of?",
+  "theme": "C",
+  "type": "stance",
+  "routed_topic": "early_life_sampaloc",
+  "status": "grounded",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "SA011::c001",
+    "title": "Human Rights, Libertarianism and Prosperity",
+    "text": "Human Rights, Libertarianism and Prosperity (cont.)\n\nsity. I was here in 2010 when your school was inaugurated. Since then, 14 years have passed, and you now have a fully matured law school that's the best in BGC. Dean Gil, why did you apologize for rendering the Invocation? I think we should be proud that we pray. To be clear, praying is not disallowed by any law; in fact, it is encouraged by our Constitution and by our Supreme Court. As we all know, the Preamble of our Constitution begins with"
+   },
+   {
+    "cid": "SC010::c007",
+    "title": "My Three Outstanding and Adorable 'Apos'",
+    "text": "My Three Outstanding and Adorable 'Apos' (cont.)\n\no borrow Taylor Swift's words, Victoria had champagne problems! Mabuhay!\nMy dear Victoria, please come over and hug your ancient admirer, and receive your gift. Dear relatives and close friends, while we congratulate our three lovable scholars, let us not forget to felicitate also the persons who by their love and perspiration created them in this wonderful world. I am of course, referring to the proud parents who are here tonight, Len and Alex, "
+   },
+   {
+    "cid": "SE036::c002",
+    "title": "Towards a Just and Humane Society in the DiGi Age",
+    "text": "Towards a Just and Humane Society in the DiGi Age (cont.)\n\nted to France a few months later. There, she was given the chance to study and work, and later to become the first woman in her family to graduate from Harvard. She recalled that Harvard graduates were asked to do their best for the world. Yes, she exclaimed, that that task was noble and worthwhile. But her message was simple and less intimidating; she wanted to spread the gospel of doing little things. The man did not know and still doe"
+   },
+   {
+    "cid": "CC008::c002",
+    "title": "Keep doing my best, let God do the rest'",
+    "text": "Keep doing my best, let God do the rest' (cont.)\n\nooms of the largest blue chips in our part of Planet Earth; and from a frustrated chemical engineer to a reluctant lawyer to the highest magistrate of the land. \u201cI was taken aback at the story of my Lolo\u2019s life. Back then, all I really thought of him was a caring father to my Mom who loved (and still does) to take the family out to Sunday dinners. Upon really understanding what he has gone through in his life, it absolutely amazed me.\n\u201cIt\u2019s incre"
+   },
+   {
+    "cid": "SE036::c010",
+    "title": "Towards a Just and Humane Society in the DiGi Age",
+    "text": "Anecdote 1\n\nLucila Takjerad's Harvard story: a 1994 Algerian civil war refugee's illiterate mother couldn't write her name on the French emigration list; a stranger noticed, ran after her, scribbled her name; the family emigrated; Lucila graduated Harvard and delivered the commencement address, closing: 'Fellow graduates, of course, do the most you can do: your education and legacy demand it. But also do the least you can do. Because, the least you can do might turn out to be the most significan"
+   }
+  ]
+ },
+ "D19": {
+  "query": "What is the Foundation for Liberty and Prosperity?",
+  "theme": "D",
+  "type": "def",
+  "routed_topic": "twin_beacons_doctrine",
+  "status": "REVIEW_theme_mismatch",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "SD016::c000",
+    "title": "From an Imbedded Legal Lore to a Practical Reality",
+    "text": "From an Imbedded Legal Lore to a Practical Reality\n\nRemarks of retired Chief Justice ARTEMIO V. PANGANIBAN during the Award Ceremony of the Foundation for Liberty and Prosperity held on July 28, 2023 at the Stephen Fuller Hall of the Asian Institute of Management, Makati City.\n---\nDistinguished guests, ladies and gentlemen, good evening.\nOn behalf of the Foundation for Liberty and Prosperity, let me profusely and sincerely thank Mr. Chief Justice Alexander G. Gesmundo for his keynote address, fo"
+   },
+   {
+    "cid": "CB005::c002",
+    "title": "Merging law and economics",
+    "text": "Merging law and economics (cont.)\n\nas mere ideals and aspirations. Unlike the Bill of Rights, they are not mandatory and self-executing; they need implementing laws to be judicially enforceable. This is because our Constitution was born out of our centuries-old struggle from foreign domination. Notably, we borrowed our Bill of Rights from the US Constitution, which was also born from the American battle for independence, epitomized by Patrick Henry\u2019s epic cry of \u201cGive me liberty or give me death"
+   },
+   {
+    "cid": "SB040::c007",
+    "title": "Equilibrium with Momentum",
+    "text": "Equilibrium with Momentum (cont.)\n\nations which, unlike the Bill of Rights, are not mandatory and self-executing. Verily, they need implementing laws to be judicially enforceable. Why is this so? This is because our Constitution was born out of our centuries-old struggle for political freedoms and for independence from foreign domination, first from Spain, then from America. Notably, we borrowed our Bill of Rights from the Constitution of the United States which was born also from the American b"
+   },
+   {
+    "cid": "SB040::c008",
+    "title": "Equilibrium with Momentum",
+    "text": "Equilibrium with Momentum (cont.)\n\nready retired from the Supreme Court, I, as a private citizen, organized the Foundation for Liberty and Prosperity or FLP to celebrate my 75th birthday in 2011. To begin with, the FLP, with the help of the Metrobank Foundation, created 20 professorial chairs on liberty and prosperity which were conferred on several deans and noted professors of law to assist the Foundation in crystalizing the philosophy into implementable programs, and in veering the legal curr"
+   },
+   {
+    "cid": "SB028::c012",
+    "title": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs",
+    "text": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs (cont.)\n\nrs, are strictly bound to follow laws, rules, regulations and standards, as an essential part of their work as professionals.\nA LITTLE FOOTNOTE ON L ****&**** P Before I end, let me now share a little footnote. During my 75th birthday ten years ago on December 7, 2011, I organized the Foundation for Liberty and Prosperity or FLP to promote my L & P philosophy. Joining me in the original FLP Board of Trustees are jurists and"
+   }
+  ]
+ },
+ "D20": {
+  "query": "Who is eligible for FLP scholarships?",
+  "theme": "D",
+  "type": "def",
+  "routed_topic": "foundation_for_liberty_and_prosperity",
+  "status": "grounded",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "CD001::c001",
+    "title": "11 LibPros scholars",
+    "text": "11 LibPros scholars (cont.)\n\nrio (UST), Violeta Najarro Jr. (SBC-Alabang), Dion Ceasar Pascua (SBC-Manila), Ma Janine Pedernal (UST), Tess Marie Tan (USC) and Vanessa Gloria Vergara (Admu). The LibPros scholarship program is cosponsored by the Tan Yan Kee Foundation (TYKF) in cooperation with the Philippine Association of Law Schools (PALS). Aside from Sereno, the board of judges was composed of FLP president Evelyn T. Dumdum, former education secretary Edilberto C. de Jesus, TYKF legal counsel "
+   },
+   {
+    "cid": "CD001::c002",
+    "title": "11 LibPros scholars",
+    "text": "11 LibPros scholars (cont.)\n\nthis dual goal necessitates a keen understanding and appreciation of the intertwining relationship of law and business, and of regulation and entrepreneurship. Other FLP activities. Apart from the LibPros scholarships, the FLP\u2014together with the Ayala Group\u2014is also sponsoring a dissertation contest. Prizes include P300,000 for the champion, P200,000 for the runner-up, P100,000 each for three honorable mentions, plus P20,000 each for 20 qualifying entries.\nThis contest"
+   },
+   {
+    "cid": "CD001::c004",
+    "title": "11 LibPros scholars",
+    "text": "Summary\n\nPanganiban announces the first batch of LibPros law scholars -- originally planned at 10 but expanded to 11 after the board of judges, led by CJ Maria Lourdes P.\nA.\nSereno, was so impressed it recommended an extra scholar; the FLP happily agreed.\nThe Dec 1, 2016 awarding ceremony at the new UP campus in Fort Bonifacio, Taguig will feature CJ Sereno as guest speaker; each scholar receives full scholarship (tuition + books + monthly stipend up to P200,000), and 10 new scholars will be sel"
+   },
+   {
+    "cid": "SD016::c002",
+    "title": "From an Imbedded Legal Lore to a Practical Reality",
+    "text": "From an Imbedded Legal Lore to a Practical Reality (cont.)\n\n6. I see also World Bank executives Dandan Chen and Dave Llorito who were handpicked to attend our Awards Ceremony by their big boss Ndiame Diop, who is abroad. I also invited the irrepressible Injap Sia, the Chairman and CEO of Double Dragon Properties Corporation and MerryMart Consumer Corporation. Though he declined attendance due to a prior commitment, he instead sent an unsolicited donation of P888,000! Palakpakan po natin si Injap"
+   },
+   {
+    "cid": "CD005::c000",
+    "title": "For FLP scholars, little things mean a lot",
+    "text": "For FLP scholars, little things mean a lot\n\nListening to the heartwarming stories of the scholars of the Foundation for Liberty and Prosperity (FLP) and the Tan Yan Kee Foundation (TYKF) on how they passed, and for some, topped, the last bar exams uplifted me no end as they reminded me of my own youth.\nThe peering questions of the board of judges at the Supreme Court\u2019s inner sanctum, the midnight toil of the screening panel, the scholarship prizes given by our generous donor, and their bits of l"
+   }
+  ]
+ },
+ "D21": {
+  "query": "What is the purpose of the Museum for Liberty and Prosperity?",
+  "theme": "D",
+  "type": "orphan",
+  "routed_topic": "museum_for_liberty_and_prosperity",
+  "status": "grounded",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "SD002::c008",
+    "title": "Soon, a Futuristic Museum for Liberty and Prosperity",
+    "text": "Soon, a Futuristic Museum for Liberty and Prosperity (cont.)\n\nairperson of the board of trustees of the Ateneo de Manila University, Atty Joel Emerson Gregorio and Atty Arvin Paolo Cortez with Gov. Say Tetangco as adviser. Ladies and gentlemen, as Governor Tetangco reminded us in his thoughtful opening remarks, what we celebrate today is not only the excellence and achievement of our scholars, fellows, and winners. We also celebrate the spark of the potential within them \u2014 the promise that, in G"
+   },
+   {
+    "cid": "SD002::c000",
+    "title": "Soon, a Futuristic Museum for Liberty and Prosperity",
+    "text": "Soon, a Futuristic Museum for Liberty and Prosperity\n\nClosing Remarks of Retired Chief Justice ARTEMIO V. PANGANIBAN during the Awards Ceremony of the Foundation for Liberty and Prosperity held on August 29, 2025 at the Manila Polo Club, Makati City.\n---\nGood evening distinguished guests, friends, ladies and gentlemen. My closing remarks will be composed of two parts: The first will be my thanks for our esteemed friends and distinguished guests in attendance today. Since there are so many of the"
+   },
+   {
+    "cid": "SD021::c006",
+    "title": "A Fruitful Past Decade and a Hope-filled New Decade",
+    "text": "A Fruitful Past Decade and a Hope-filled New Decade (cont.)\n\nces for her heartwarming Opening Remarks and for crediting me more than I deserve because the acclaim for FLP belongs to all of us here present, not just to me. To close this address, may I sum up that during the first decade of its existence (2011-2021), the FLP concentrated on its liberty programs? But during its second decade, 2021-2031, it will include programs to promote the prosperity side of its philosophy starting with the Esme"
+   },
+   {
+    "cid": "SD002::c009",
+    "title": "Soon, a Futuristic Museum for Liberty and Prosperity",
+    "text": "Soon, a Futuristic Museum for Liberty and Prosperity (cont.)\n\nere in your endeavors, embody our philosophy of liberty and prosperity under the rule of law, and help build a humane society better than the one we have today. At this point, let me share a glimpse of tomorrow \u2013 our two flagship projects that seek to transform philosophy into action, and ideals into institutions. Let me now present a short video that illustrates our vision. May it inspire you to see yourself in this noble journey \u2014 a"
+   },
+   {
+    "cid": "SD002::c002",
+    "title": "Soon, a Futuristic Museum for Liberty and Prosperity",
+    "text": "Soon, a Futuristic Museum for Liberty and Prosperity (cont.)\n\ndsomest, kindest, richest and sexiest middle-aged gentleman in this room tonight.\nI noticed several pretty ladies ogling and sighing as he spoke at the rostrum. Some of them are Solicitor General Lelen Berberabe who is herself a much sought-after bachelorette, and who, I think should one day land in the Supreme Court; I believe she is a model of liberty and prosperity because she capably headed and reformed the Pag-ibig Fund, and late"
+   }
+  ]
+ },
+ "D22": {
+  "query": "How does the foundation advance the rule of law?",
+  "theme": "D",
+  "type": "doc",
+  "routed_topic": "rule_of_law",
+  "status": "REVIEW_theme_mismatch",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "CA031::c000",
+    "title": "Partners in rule of law, constitutionalism, AI",
+    "text": "Partners in rule of law, constitutionalism, AI\n\nState visits often carry the dual promise of peace and progress. When two sovereign leaders shake hands and toast glasses\u2014gesturing toward diplomatic ties, negotiations, and partnerships\u2014people feel a surge of curiosity and optimism. Yet beyond ritual protocol, the deeper value lies in the concrete agreements these visits affirm and the strategic directions they chart for the future of both nations.\nTHE VISIT OF HIS EXCELLENCY, LEE JAE-MYUNG, the P"
+   },
+   {
+    "cid": "CD003::c006",
+    "title": "20 law grants at P250k, 5 MBA at P500k",
+    "text": "Summary (cont.)\n\nESMEL (chaired by ret.\nBSP Gov.\nTetangco), and for dissertations (chaired by SC Justice Jhosep Y.\nLopez) -- and lays out the FLP board of trustees and officers. Threaded through the announcement is his philosophical refrain that 'knowledge of the law rounds out business thinking' -- telling entrepreneurs not only what they cannot do but how far they can go -- and his belief that the best way to nurture prosperity is to help Filipinos help themselves through private entrepreneurs"
+   },
+   {
+    "cid": "CA031::c001",
+    "title": "Partners in rule of law, constitutionalism, AI",
+    "text": "Partners in rule of law, constitutionalism, AI (cont.)\n\ne hard way over our own democratic history. With great admiration, I support the recent nominations of the South Korean citizens for the 2026 Nobel Peace Prize. President Lee Jae-myung\u2019s ascent after the upheaval is deeply instructive. His journey\u2014from childhood poverty to human rights lawyer to the presidency\u2014resonates with me, as I too had wrestled with poverty and setbacks before becoming Chief Justice of our country.\nIn his speech at th"
+   },
+   {
+    "cid": "CB003::c004",
+    "title": "Law scholarships with a difference",
+    "text": "Summary\n\nPanganiban introduces the unique character of the Foundation for Liberty and Prosperity (FLP) law scholarships -- fully funded by the Tan Yan Kee Foundation at P200,000 per scholar per year (tuition, books, monthly stipends) -- which are granted on pure merit rather than financial need, with paucity of funds considered only as a tiebreaker among equally excellent applicants.\nThe scholarship requires recipients to espouse, promote, and fulfill the liberty-and-prosperity philosophy: that "
+   },
+   {
+    "cid": "SB040::c008",
+    "title": "Equilibrium with Momentum",
+    "text": "Equilibrium with Momentum (cont.)\n\nready retired from the Supreme Court, I, as a private citizen, organized the Foundation for Liberty and Prosperity or FLP to celebrate my 75th birthday in 2011. To begin with, the FLP, with the help of the Metrobank Foundation, created 20 professorial chairs on liberty and prosperity which were conferred on several deans and noted professors of law to assist the Foundation in crystalizing the philosophy into implementable programs, and in veering the legal curr"
+   }
+  ]
+ },
+ "D23": {
+  "query": "Who are the foundation's partners and supporters?",
+  "theme": "D",
+  "type": "def",
+  "routed_topic": "flp_donors_and_partners",
+  "status": "grounded",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "CB004::c002",
+    "title": "Negative versus positive",
+    "text": "Negative versus positive (cont.)\n\nearnings to philanthropy and corporate social responsibility. To complement their efforts, I organized, together with my dear friends, the FLP on Oct. 13, 2011. During its first decade, from 2011 to 2021, the FLP focused on its sustainability, purchased an office condo as its HQ in the center of Makati, and sponsored four projects: professorial chairs, legal scholarships, dissertation-writing contests, and educational assistance for the poor.\n(I regret that due "
+   },
+   {
+    "cid": "CD008::c003",
+    "title": "FLP's 2024 law scholars, fellows, and winners",
+    "text": "FLP's 2024 law scholars, fellows, and winners (cont.)\n\n(USC), Eunice Go (USC), Clarissa Gozos (ADMU), Alex Ilagan, Jr. (USC), Deanne Pangan (ADMU), Charisse Regencia (USC), Maria Sabban (FEU), and Grace Tijam (UM). To be installed by FLP\u2019s partners, Metrobank chair Arthur Ty and Toyota Philippines chair Alfred Ty, into the FLP Professorial Chairs program is new UP law Dean Darlene Marie Berberabe.\nTHE FLP\u2019s BOARD OF TRUSTEES is composed of retired justice Angelina Sandoval-Gutierrez (president),"
+   },
+   {
+    "cid": "SD021::c007",
+    "title": "A Fruitful Past Decade and a Hope-filled New Decade",
+    "text": "Summary\n\nDelivered August 11, 2022 as online closing remarks at FLP's Awards Ceremony -- shifted from face-to-face at AIM to virtual format because of the Omicron surge -- this speech frames the foundation's decade-transition thesis: the first decade (2011-2021) was concentrated on LIBERTY programs (Professorial Chairs with Metrobank, Scholarship with Tan Yan Kee Foundation, Dissertation Writing with Ayala); the second decade (2021-2031) will broaden into PROSPERITY programs starting with the ES"
+   },
+   {
+    "cid": "SD016::c000",
+    "title": "From an Imbedded Legal Lore to a Practical Reality",
+    "text": "From an Imbedded Legal Lore to a Practical Reality\n\nRemarks of retired Chief Justice ARTEMIO V. PANGANIBAN during the Award Ceremony of the Foundation for Liberty and Prosperity held on July 28, 2023 at the Stephen Fuller Hall of the Asian Institute of Management, Makati City.\n---\nDistinguished guests, ladies and gentlemen, good evening.\nOn behalf of the Foundation for Liberty and Prosperity, let me profusely and sincerely thank Mr. Chief Justice Alexander G. Gesmundo for his keynote address, fo"
+   },
+   {
+    "cid": "CA031::c000",
+    "title": "Partners in rule of law, constitutionalism, AI",
+    "text": "Partners in rule of law, constitutionalism, AI\n\nState visits often carry the dual promise of peace and progress. When two sovereign leaders shake hands and toast glasses\u2014gesturing toward diplomatic ties, negotiations, and partnerships\u2014people feel a surge of curiosity and optimism. Yet beyond ritual protocol, the deeper value lies in the concrete agreements these visits affirm and the strategic directions they chart for the future of both nations.\nTHE VISIT OF HIS EXCELLENCY, LEE JAE-MYUNG, the P"
+   }
+  ]
+ },
+ "D24": {
+  "query": "Why did you establish the foundation?",
+  "theme": "D",
+  "type": "stance",
+  "routed_topic": "foundation_for_liberty_and_prosperity",
+  "status": "grounded",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "SB050::c005",
+    "title": "Dr. George S. K. Ty, Entrepreneur, Philanthropist and Citizen",
+    "text": "Dr. George S. K. Ty, Entrepreneur, Philanthropist and Citizen (cont.)\n\nyear) and other prizes if and when you are chosen as one of the winners, given that the sponsor, Metrobank, gets nothing of pecuniary value from this contest?\" Because she could hardly twiddle with her answer, I helped her with some leading questions, \"Don't you think it is because Metrobank's objective is not business but purely education? Not profit, but the promotion of excellence? Don't you think this contest is pure phil"
+   },
+   {
+    "cid": "SB050::c004",
+    "title": "Dr. George S. K. Ty, Entrepreneur, Philanthropist and Citizen",
+    "text": "Dr. George S. K. Ty, Entrepreneur, Philanthropist and Citizen (cont.)\n\ny know all his achievements, qualities, goals, principles and values, I will no longer detail them. Let me just share some personal stories that exemplify them. First, I met him about 20 years ago when he invited me to be a member, and later chairman, of the Board of Judges of the Search for the 10 Outstanding Teachers sponsored by the Metrobank Foundation. During several hours of interviews lasting two days, he was always pr"
+   },
+   {
+    "cid": "SD035::c009",
+    "title": "Organizing the FLP Scholars Society",
+    "text": "Anecdote 1\n\nCJP as 'ancient lolo, alalay or assistant': he explicitly says he 'cannot be a member because, unlike you, I do not possess the qualifications and did not pass the stringent screening requirements for membership. I suppose I am just your ancient lolo, alalay or assistant, a title I would gladly have. But if you want to be high falutin, you can promote me as your Adviser.'\n\nAnecdote 2\n\nThe Wikipedia-style directory idea: for the first Mission item (strengthening unity), CJP suggests '"
+   },
+   {
+    "cid": "SB050::c006",
+    "title": "Dr. George S. K. Ty, Entrepreneur, Philanthropist and Citizen",
+    "text": "Dr. George S. K. Ty, Entrepreneur, Philanthropist and Citizen (cont.)\n\nlifications, I accepted. I am grateful because he always heeded my advice on the nature, kind and type of projects the well-endowed Foundation should undertake. Third, a few years ago, while seated beside him at a lunch at the Penthouse of the GT Tower in Ayala Avenue, Makati, I whispered to him how impressed I was with his son Alfred for always besting me in our golf games. On hearing this, he summoned Alfred who was seated "
+   },
+   {
+    "cid": "SB040::c008",
+    "title": "Equilibrium with Momentum",
+    "text": "Equilibrium with Momentum (cont.)\n\nready retired from the Supreme Court, I, as a private citizen, organized the Foundation for Liberty and Prosperity or FLP to celebrate my 75th birthday in 2011. To begin with, the FLP, with the help of the Metrobank Foundation, created 20 professorial chairs on liberty and prosperity which were conferred on several deans and noted professors of law to assist the Foundation in crystalizing the philosophy into implementable programs, and in veering the legal curr"
+   }
+  ]
+ },
+ "E25": {
+  "query": "What was the significance of the 2016 South China Sea arbitral award?",
+  "theme": "E",
+  "type": "def",
+  "routed_topic": "international_law_disputes",
+  "status": "REVIEW_theme_mismatch",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "CA010::c000",
+    "title": "Understanding the arbitral award",
+    "text": "Understanding the arbitral award\n\nThe arbitral award or judgment, dated July 12, 2016, was issued unanimously by the five members of the Arbitral Tribunal Constituted Under Annex VII of the 1982 United Nations Convention on the Law of the Sea (that is how the tribunal called itself). Alleging the tribunal\u2019s lack of jurisdiction, China refused to participate in the proceedings and does not recognize the award. To help readers understand the lengthy 501-page award, I will try to summarize it into "
+   },
+   {
+    "cid": "CA009::c000",
+    "title": "Enforcing the Arbitral Award",
+    "text": "Enforcing the Arbitral Award\n\nHow should we enforce the July 12, 2016 Arbitral Award (AA) vis-\u00e0-vis China\u2019s intractable claim of ownership and sovereignty over almost the entire South China Sea (SCS) including our exclusive economic zone (EEZ)?\nMy short answer: Stick to the rule of law. As a professor of public international law for many years in the 1960s, I always taught that poor and weak states like ours can vie with wealthy and powerful countries only by a reliance on the might of being rig"
+   },
+   {
+    "cid": "CA013::c002",
+    "title": "Winning the war to exploit our EEZ",
+    "text": "Winning the war to exploit our EEZ (cont.)\n\nllowing freedom of navigation in the SCS, and recognizing our sovereign entitlements in our EEZ. Sadly, however, the tribunal is powerless to enforce its award. Consequently, though it won the arbitration, our country could not exploit the fish and natural resources in our EEZ because the powerful Chinese military and coast guard, reiterating China\u2019s \u201cindisputable sovereignty,\u201d simply bars its exploitation by any realm.\nAsking China to seek our governm"
+   },
+   {
+    "cid": "CA009::c001",
+    "title": "Enforcing the Arbitral Award",
+    "text": "Enforcing the Arbitral Award (cont.)\n\nitration is conducted by an ad hoc group (that dissolves after the final arbitral award is issued) with ad hoc members (that serve only for a specific dispute). Moreover, the AA ruled only on our sovereign rights over our maritime domain, not on ownership or sovereignty over the \u201crocks\u201d or High-Tide Elevations (HTEs) within such domain. This is why China maintains that the Arbitral Tribunal did not have jurisdiction because, inter alia, the dispute allegedly"
+   },
+   {
+    "cid": "CA009::c004",
+    "title": "Enforcing the Arbitral Award",
+    "text": "Summary\n\nPanganiban asks how the Philippines should enforce the July 12, 2016 Arbitral Award against China's intractable claim of ownership and sovereignty over almost the entire South China Sea including the Philippine exclusive economic zone.\nHis foundational answer is to stick to the rule of law -- drawing on his 1960s professorship in public international law, he teaches that poor and weak states like the Philippines can vie with wealthy and powerful countries only through 'the might of bein"
+   }
+  ]
+ },
+ "E26": {
+  "query": "What is your view on the Philippines and the International Criminal Court?",
+  "theme": "E",
+  "type": "stance",
+  "routed_topic": "global_geopolitics",
+  "status": "grounded",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "CA003::c004",
+    "title": "Pivotal issue in Duterte's ICC case",
+    "text": "Summary\n\nPanganiban cuts through the public noise on the indictment, arrest, chartered-jet airlift, and Netherlands detention of former President Rodrigo R.\nDuterte -- comments 'essayed, broadcasted, debated, and gossiped ad nauseam' -- to identify what he believes is the pivotal legal issue: the jurisdiction of the International Criminal Court to conduct the trial and pass judgment.\nHe treats challenges to the validity of the alleged 'kidnapping' as 'a long shot' (the ICC has settled similar is"
+   },
+   {
+    "cid": "CA009::c005",
+    "title": "Enforcing the Arbitral Award",
+    "text": "Summary (cont.)\n\ne late CJ Cesar Bengzon as the only Filipino who ever served as an ICJ judge in the late 1960s.\nHe records his texted exchange with Justice Secretary Menardo I. Guevarra (who 'always comments on my columns') who asked whether ICJ resort might reopen the AA.\nPanganiban's reply: not if a good petition is crafted; the maritime rights already won under UNCLOS should not be re-litigated; China will likely take the opposite view because it does not recognize the AA; and 'how to get Ch"
+   },
+   {
+    "cid": "CA003::c000",
+    "title": "Pivotal issue in Duterte's ICC case",
+    "text": "Pivotal issue in Duterte's ICC case\n\nComments long and short, wide and narrow, partisan and neutral on the indictment for the crime against humanity of mass murder, arrest in the Philippines, airlift via a chartered jet to, and detention in The Netherlands of former president Rodrigo R. Duterte had been essayed, broadcasted, debated, and gossiped ad nauseam. I think it is time to tackle what I believe is the pivotal legal issue: The jurisdiction of the International Criminal Court (ICC) to condu"
+   },
+   {
+    "cid": "CA009::c002",
+    "title": "Enforcing the Arbitral Award",
+    "text": "Enforcing the Arbitral Award (cont.)\n\n, blockade, embargo, severance of diplomatic relations, and armed encounters have been suggested, but I think winning with those methods is extremely difficult. Thus, I have proposed several times in this space that while we continue availing of the other peaceful methods under the UN Charter, we should simultaneously resort to the ICJ. In response, the esteemed Justice Secretary Menardo I. Guevarra (who, to my delight, always comments on my columns) texted "
+   },
+   {
+    "cid": "CA031::c000",
+    "title": "Partners in rule of law, constitutionalism, AI",
+    "text": "Partners in rule of law, constitutionalism, AI\n\nState visits often carry the dual promise of peace and progress. When two sovereign leaders shake hands and toast glasses\u2014gesturing toward diplomatic ties, negotiations, and partnerships\u2014people feel a surge of curiosity and optimism. Yet beyond ritual protocol, the deeper value lies in the concrete agreements these visits affirm and the strategic directions they chart for the future of both nations.\nTHE VISIT OF HIS EXCELLENCY, LEE JAE-MYUNG, the P"
+   }
+  ]
+ },
+ "E27": {
+  "query": "How does international law limit national sovereignty?",
+  "theme": "E",
+  "type": "doc",
+  "routed_topic": "global_geopolitics",
+  "status": "grounded",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "CA009::c004",
+    "title": "Enforcing the Arbitral Award",
+    "text": "Summary\n\nPanganiban asks how the Philippines should enforce the July 12, 2016 Arbitral Award against China's intractable claim of ownership and sovereignty over almost the entire South China Sea including the Philippine exclusive economic zone.\nHis foundational answer is to stick to the rule of law -- drawing on his 1960s professorship in public international law, he teaches that poor and weak states like the Philippines can vie with wealthy and powerful countries only through 'the might of bein"
+   },
+   {
+    "cid": "CE003::c002",
+    "title": "Relentless defender of PH sovereignty",
+    "text": "Relentless defender of PH sovereignty (cont.)\n\nes it because he believes, as every true patriot must, that the international rule of law is the only shield of smaller nations against the world\u2019s superpowers. Why does this matter to ordinary Filipinos? Because fishing rights are not abstract legal concepts. They are the daily bread of thousands of our fishermen whose livelihoods depend on the rich waters of the sea. When they are blocked, the incident is not merely a diplomatic tiff\u2014it is an assa"
+   },
+   {
+    "cid": "CA009::c000",
+    "title": "Enforcing the Arbitral Award",
+    "text": "Enforcing the Arbitral Award\n\nHow should we enforce the July 12, 2016 Arbitral Award (AA) vis-\u00e0-vis China\u2019s intractable claim of ownership and sovereignty over almost the entire South China Sea (SCS) including our exclusive economic zone (EEZ)?\nMy short answer: Stick to the rule of law. As a professor of public international law for many years in the 1960s, I always taught that poor and weak states like ours can vie with wealthy and powerful countries only by a reliance on the might of being rig"
+   },
+   {
+    "cid": "CE003::c005",
+    "title": "Relentless defender of PH sovereignty",
+    "text": "Summary (cont.)\n\nositioning the PH case as benefiting the international community.\nHis postretirement work is nonpartisan and advocacy-driven rather than commercial or judicial. During the March 23 2026 Association of Retired Justices of the SC meeting, CJP -- as president -- paid tribute.\nA few years ago, during a reception for a retiring colleague, one of the 10 wealthiest Filipinos approached Carpio in CJP's presence and offered him a seat as independent director in his conglomerate.\nHe polit"
+   },
+   {
+    "cid": "BD003::c005",
+    "title": "With Due Respect (Vol. 2) -- Ch. 7: Demystifying the Court",
+    "text": "Summary\n\nChapter 7 of 'With Due Respect' (Vol.\n2), CJP's July 4, 2010 Inquirer column, sets out to demystify 'the most mysterious among major government agencies' -- the Supreme Court, whose processes stay hidden because, unlike trial courts, 'the public discovers a case only after a judgment is issued.' He recalls making it his 'self-imposed duty' to write a book each year to explain the Court's work, and notes that the Court itself did better on May 4, 2010 by codifying its processes as 'The I"
+   }
+  ]
+ },
+ "E28": {
+  "query": "What did the Court decide in Roe v. Wade?",
+  "theme": "E",
+  "type": "case",
+  "routed_topic": "judicial_activism_and_political_question",
+  "status": "grounded_exp",
+  "expected": [
+   "CE007"
+  ],
+  "chunks": [
+   {
+    "cid": "BD001::c001",
+    "title": "With Due Respect (Vol. 2) -- Ch. 3: How the SC Decides Cases",
+    "text": "How the SC Decides Cases (cont.)\n\nproper party. In this sense, the Court (and the entire judiciary) is a \"passive branch\" of the government. It cannot act on a controversy unless asked to do so. In trial courts, the proceedings are open to the public. But in the Supreme Court the internal deliberations are confidential; only their net results, written in the form of decisions, resolutions, orders, and opinions (concurring, dissenting, and separate), are released to the public. Emphasizing the sa"
+   },
+   {
+    "cid": "CE008::c001",
+    "title": "Marital infidelity, abortion, PCP2",
+    "text": "Marital infidelity, abortion, PCP2 (cont.)\n\nsuch proof because \u201cthe specific intent to cause mental and emotional anguish upon the victim may be conclusively presumed from the fact of infidelity itself.\u201d Incumbent lady Justices Amy C. Lazaro-Javier and Maria Filomena D. Singh did not only vote with the majority of nine; they wrote compelling concurring opinions. But the minority of five is looking for another case with similar facts for a new opportunity to prevail when the composition of the Co"
+   },
+   {
+    "cid": "BD001::c005",
+    "title": "With Due Respect (Vol. 2) -- Ch. 3: How the SC Decides Cases",
+    "text": "Summary\n\nChapter 3 of 'With Due Respect' (Vol.\n2), CJP's June 21, 2009 Inquirer column, is 'a primer on how the Court decides cases in the normal course,' prompted by the Court's unusual signed resolution throwing out the petitions against House Resolution 1109 -- special treatment, he notes, compared with the one-sentence dismissals reserved for 'utterly unmeritorious and cerebrally deficient' petitions.\nHe explains that the Court is a 'review court' that does not take initial cognizance of con"
+   },
+   {
+    "cid": "CA377::c006",
+    "title": "CBCP and same-sex marriage",
+    "text": "Summary (cont.)\n\nhat 'liberty has been understood as freedom from government action, not entitlement to government benefits' and warned the decision threatens religious liberty. Alito decried it as usurping 'the constitutional right of the people to decide whether to keep or alter the traditional understanding of marriage.' To fully comprehend these acidic exchanges, the conservative wing -- Roberts/Scalia/Thomas/Alito -- believes the US Constitution should be interpreted in accordance with the "
+   },
+   {
+    "cid": "CE007::c003",
+    "title": "Liberalism vs conservatism",
+    "text": "Liberalism vs conservatism (cont.)\n\nve an abortion. But voting 6-3 on June 24, 2022, it reversed itself in Dobbs v. Jackson and held that no such right is found in the text of the US Constitution. Along with the policies on immigration, democracy, jobs, and the economy, the conservative shift on abortion in the Scotus had become a major issue in the US presidential election on Nov. 5. It has transformed the electoral contest between the Democrats\u2019 Kamala Harris and the Republicans\u2019 Donald Trump "
+   }
+  ]
+ },
+ "E29": {
+  "query": "What are the implications of the Data Privacy Act (RA 10173)?",
+  "theme": "E",
+  "type": "case",
+  "routed_topic": "ai_and_technology",
+  "status": "grounded_exp",
+  "expected": [
+   "CA034"
+  ],
+  "chunks": [
+   {
+    "cid": "CA034::c002",
+    "title": "AI in justice and governance",
+    "text": "AI in justice and governance (cont.)\n\nhere, we learned to access our needs, to connect, to express ourselves. Businesses, too, evolved not just to endure but to reach people on screens in real time. Clearly, the same innovation that empowers us also exposes us to new risks. In this marketplace, trust has become the most valuable currency. Every action leaves a trace in an ocean of data\u2014one that, when analyzed, can either assure security or invite harm. Even telesurgery, made possible by AI, 5G, "
+   },
+   {
+    "cid": "SA049::c006",
+    "title": "An Ode to Jurisprudential Disruption",
+    "text": "An Ode to Jurisprudential Disruption (cont.)\n\nstreams when the new infrastructures it desires could be constructed without imposing new taxes through the current Public-Private Partnership (PPP) agreements. The three remaining articles \u2013 (1) on the World Trade Organization by Raymond Marvic C. Baguilat, (2) on the \"Online Sexual Exploitation of Children\" by Benjamin Lawrence Patrick E. Aritao and John Stephen B. Pangilinan, and (3) on \"The Data Privacy Act and the National Privacy Commission's F"
+   },
+   {
+    "cid": "CA242::c001",
+    "title": "Right to be forgotten",
+    "text": "Right to be forgotten (cont.)\n\n008, the Court promulgated the writ of habeas data \u201cto protect a person\u2019s right to privacy and allow a person to control any information concerning\u201d him or her. On May 3, the Court issued the writ in favor of the National Union of Peoples\u2019 Lawyers on its claim that its members\u2019 right to life, liberty and security were being violated by the military, and that it be provided \u201cwith copies of all the facts, information, statements, records, photographs, and other evide"
+   },
+   {
+    "cid": "SE012::c004",
+    "title": "The PH Constitution and the Running Bulls of Technology: (AI, Genetic Engineering, Nanotech and Info)",
+    "text": "The PH Constitution and the Running Bulls of Technology: (AI, Genetic Engineering, Nanotech and Info) (cont.)\n\nthat our Constitution and laws need to evolve to keep pace with technology, and that social realities today are far different from the 1980s, we are not alone. It is interesting to note that in the United Kingdom, the Justice and Home Affairs Committee of the House of Lords acknowledged the following points in its March 30, 2022 Report on \"Technology Rules? The Advent of New Technologie"
+   },
+   {
+    "cid": "CA242::c004",
+    "title": "Right to be forgotten",
+    "text": "Summary\n\nPanganiban introduces the 'right to be forgotten' -- also called 'the right to have an imperfect past' -- as the doctrine, announced by the Court of Justice of the European Union in Google Spain SL v.\nAgencia Espa\u00f1ola de Protecci\u00f3n de Datos (2014), that allows individuals to compel search engines like Google to de-index 'inadequate, irrelevant or excessive' personal data.\nHe addresses head-on whether a ruling by a foreign tribunal is enforceable in the Philippines and answers 'Yes,' arg"
+   }
+  ]
+ },
+ "E30": {
+  "query": "How should courts handle politically charged cases?",
+  "theme": "E",
+  "type": "doc",
+  "routed_topic": "judicial_activism_and_political_question",
+  "status": "REVIEW_theme_mismatch",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "BD001::c000",
+    "title": "With Due Respect (Vol. 2) -- Ch. 3: How the SC Decides Cases",
+    "text": "How the SC Decides Cases\n\nDate:       2009-06-21\nPublisher:  Philippine Daily Inquirer (Opinion)\nSource:     With Due Respect (2011)\nBy: Artemio V. Panganiban\nWithout asking for comment, the Supreme Court correctly threw out the petitions assailing the validity of House Resolution 1109. However, the Court still gave them special treatment by issuing a signed resolution extensively explaining its action. Normally, to show its disdain for utterly unmeritorious and \"cerebrally deficient\" petitions,"
+   },
+   {
+    "cid": "BA009::c006",
+    "title": "With Due Respect (Vol. 2) -- Ch. 10: Contempt and Disciplinary Actions",
+    "text": "Summary (cont.)\n\nreconsideration was 'still pending,' deemed the condemnation 'a rash act of misplaced vigilance,' warning that publication 'tending to influence the decision... is contempt of court and is punishable.' CJP then demystifies the proceeding: docketed as a 'regular administrative matter' titled 'Re: Letter of the UP Law Faculty,' it has 'no plaintiff or petitioner, only respondents,' because such contempt and disciplinary cases are 'inquisitorial' rather than 'adversarial' -- the Co"
+   },
+   {
+    "cid": "BD004::c005",
+    "title": "With Due Respect (Vol. 3) -- Ch. 1: Mediation: A Useful Tool to Unclog Dockets",
+    "text": "Summary\n\nChapter 1 of 'With Due Respect' (Vol.\n3), CJP's May 27, 2007 Inquirer column, makes the case for mediation as a tool to unclog court dockets, opening with a crisis: fewer than 2,000 judges carry about a million pending cases -- over 500 each, unevenly spread, some buried under 6,000 -- and the backlog worsens daily as new filings outpace judgments that often merely shift the burden to appellate courts.\nThrough its Action Program for Judicial Reform (APJR), he writes, the Court is appoin"
+   },
+   {
+    "cid": "CA005::c005",
+    "title": "Due process and judicial compensation",
+    "text": "Summary (cont.)\n\nNo.\n4 tranches were both charged to the SAJ and reclassified as taxable basic salary -- effectively decreasing judges' take-home pay despite nominal increases. The new SC resolution (June 7, 2011) attempts to stabilize the framework retroactively from June 24, 2010, but new problems arise: the SAJ may be insufficient, forcing the SC to raise docket fees -- burdening poor litigants.\nCJ recommends Congress fund judicial pay increases from national coffers, as done for all other go"
+   },
+   {
+    "cid": "CA003::c000",
+    "title": "Pivotal issue in Duterte's ICC case",
+    "text": "Pivotal issue in Duterte's ICC case\n\nComments long and short, wide and narrow, partisan and neutral on the indictment for the crime against humanity of mass murder, arrest in the Philippines, airlift via a chartered jet to, and detention in The Netherlands of former president Rodrigo R. Duterte had been essayed, broadcasted, debated, and gossiped ad nauseam. I think it is time to tackle what I believe is the pivotal legal issue: The jurisdiction of the International Criminal Court (ICC) to condu"
+   }
+  ]
+ },
+ "X31": {
+  "query": "Who are you?",
+  "theme": "X",
+  "type": "id",
+  "routed_topic": "robot_identity_meta",
+  "status": "identity_gate",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "SE013::c006",
+    "title": "Three AI Takeaways",
+    "text": "Anecdote 1\n\nSelf-positioning as the 'lowly AVP' (Artemio V. Panganiban) vs the real MVP (Manuel V. Pangilinan): 'I am not a robot of the great MVP... I'm a fake. I am just a lowly AVP... Walang palakpak? When I said MVP you all clapped, but when I said AVP, you didn't clap. That's unfair! As your punishment, I'll prolong my talk, so you won't eat.'\n\nAnecdote 2\n\nBallpen anecdote: 'I made notes with a ballpen while our guest lecturer and the panel of reactors were delivering their pieces. It says "
+   },
+   {
+    "cid": "SB050::c003",
+    "title": "Dr. George S. K. Ty, Entrepreneur, Philanthropist and Citizen",
+    "text": "Dr. George S. K. Ty, Entrepreneur, Philanthropist and Citizen (cont.)\n\nver take advantage of another for any reason whatsoever, who values trust and confidence more than anything else, and who treasures his word more than any gold. Yes, you all know him better than I to be a visionary leader who believes that business success is possible only if shared equitably with all stakeholders: the owners, managers, workers, customers and the nation; who thinks not only of the immediate but also of the lo"
+   },
+   {
+    "cid": "SB065::c007",
+    "title": "Attributes of a Good Independent Director",
+    "text": "Anecdote 1\n\nThe left-eye specialist joke: a high school friend who specialized in eye diseases told CJP 'Art, I am sorry I cannot help you' about his right eye problem -- 'I am a great expert only of the left eye.' CJP's point: 'an expert is one who knows more and more about less and less. So the ultimate expert is one who knows everything about nothing!'\n\nAnecdote 2\n\nCJP's objection to SEC administrative fiat: 'I have consistently resisted attempts to limit, through administrative fiat, the ter"
+   },
+   {
+    "cid": "SD035::c006",
+    "title": "Organizing the FLP Scholars Society",
+    "text": "Organizing the FLP Scholars Society (cont.)\n\ngrity, to ethics, to free enterprise, to hard work, to patriotism, to excellence, to innovation, to creativity, and other virtues that are fit for the DiGi Age. Incidentally, attending this meeting aside from me are FLP Executive Director Susan Gavino and FLP Corporate Secretary Joel Emerson Gregorio. We cannot be members because, unlike you, we do not possess the qualifications and did not pass the stringent screening requirements for membership. I s"
+   },
+   {
+    "cid": "SB050::c013",
+    "title": "Dr. George S. K. Ty, Entrepreneur, Philanthropist and Citizen",
+    "text": "Dr. George S. K. Ty, Entrepreneur, Philanthropist and Citizen (cont.)\n\nst. Take my yoke upon you and learn from me, for I am meek and humble of heart; and you will find rest for your souls. For my yoke is easy and my burden light.\" Tonight, as we gather to say adieu to him, we should not really worry and grieve too much. True, like all of you, I feel sad for I will greatly miss him. But I am certain that he is now with our Father in heaven, enjoying the biblical promise of our Lord Jesus Christ "
+   }
+  ]
+ },
+ "X32": {
+  "query": "What can you help me with?",
+  "theme": "X",
+  "type": "id",
+  "routed_topic": "lawyer_ethics_initiative",
+  "status": "identity_gate",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "BC001::c003",
+    "title": "With Due Respect (Vol. 7) -- Ch. 3: Justice and Love on Valentine's Day",
+    "text": "Justice and Love on Valentine's Day (cont.)\n\nbrought to \"eternal life.\" Yes, the Lord too was making choices because he was the Lord of justice just as He was also the Lord of love.\n**A young lady's tale** To make my sharing on justice and love easy to remember, I ended with an anecdote. A policeman brought a young lady to a judge. \"Young lady,\" barked His Honor, \"this officer tells me you were blazing at 100 kilometers per hour on Ayala Avenue. What can you say about that?\"\n\"Your Honor,\" replie"
+   },
+   {
+    "cid": "SD035::c004",
+    "title": "Organizing the FLP Scholars Society",
+    "text": "Organizing the FLP Scholars Society (cont.)\n\nthem up. We do not claim a monopoly of genius and philosophy. But the FSS should focus its attention, effort and resources in fulfilling its own Vision-Mission. The Vision is a short but comprehensive statement of what the Society stands for in general. Its Mission should be more specific and expressed in more concrete terms, like (1) To strengthen the bond of friendship and unity among the members. To accomplish this, you can prepare an easy-to-updat"
+   },
+   {
+    "cid": "SD035::c006",
+    "title": "Organizing the FLP Scholars Society",
+    "text": "Organizing the FLP Scholars Society (cont.)\n\ngrity, to ethics, to free enterprise, to hard work, to patriotism, to excellence, to innovation, to creativity, and other virtues that are fit for the DiGi Age. Incidentally, attending this meeting aside from me are FLP Executive Director Susan Gavino and FLP Corporate Secretary Joel Emerson Gregorio. We cannot be members because, unlike you, we do not possess the qualifications and did not pass the stringent screening requirements for membership. I s"
+   },
+   {
+    "cid": "SB065::c001",
+    "title": "Attributes of a Good Independent Director",
+    "text": "Attributes of a Good Independent Director (cont.)\n\nuly is a Great Independent Director, an honor I would like to humbly decline. The word great intimidates me for it implies fantastic or extraordinary expertise. This reminds me of my high school friend who studied medicine at the best university in Diliman, Quezon City and who specialized on the diseases of the eyes. Due to difficulties with my right eye, I visited him at his private eye center. After his assistants preliminarily examined me, I "
+   },
+   {
+    "cid": "SD035::c009",
+    "title": "Organizing the FLP Scholars Society",
+    "text": "Anecdote 1\n\nCJP as 'ancient lolo, alalay or assistant': he explicitly says he 'cannot be a member because, unlike you, I do not possess the qualifications and did not pass the stringent screening requirements for membership. I suppose I am just your ancient lolo, alalay or assistant, a title I would gladly have. But if you want to be high falutin, you can promote me as your Adviser.'\n\nAnecdote 2\n\nThe Wikipedia-style directory idea: for the first Mission item (strengthening unity), CJP suggests '"
+   }
+  ]
+ },
+ "X33": {
+  "query": "What is the status of the death penalty in the Philippines, and what was the Echegaray case?",
+  "theme": "X",
+  "type": "multi",
+  "routed_topic": "death_penalty_and_echegaray",
+  "status": "grounded_xcut",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "CA003::c000",
+    "title": "Pivotal issue in Duterte's ICC case",
+    "text": "Pivotal issue in Duterte's ICC case\n\nComments long and short, wide and narrow, partisan and neutral on the indictment for the crime against humanity of mass murder, arrest in the Philippines, airlift via a chartered jet to, and detention in The Netherlands of former president Rodrigo R. Duterte had been essayed, broadcasted, debated, and gossiped ad nauseam. I think it is time to tackle what I believe is the pivotal legal issue: The jurisdiction of the International Criminal Court (ICC) to condu"
+   },
+   {
+    "cid": "CE008::c001",
+    "title": "Marital infidelity, abortion, PCP2",
+    "text": "Marital infidelity, abortion, PCP2 (cont.)\n\nsuch proof because \u201cthe specific intent to cause mental and emotional anguish upon the victim may be conclusively presumed from the fact of infidelity itself.\u201d Incumbent lady Justices Amy C. Lazaro-Javier and Maria Filomena D. Singh did not only vote with the majority of nine; they wrote compelling concurring opinions. But the minority of five is looking for another case with similar facts for a new opportunity to prevail when the composition of the Co"
+   },
+   {
+    "cid": "CA242::c004",
+    "title": "Right to be forgotten",
+    "text": "Summary\n\nPanganiban introduces the 'right to be forgotten' -- also called 'the right to have an imperfect past' -- as the doctrine, announced by the Court of Justice of the European Union in Google Spain SL v.\nAgencia Espa\u00f1ola de Protecci\u00f3n de Datos (2014), that allows individuals to compel search engines like Google to de-index 'inadequate, irrelevant or excessive' personal data.\nHe addresses head-on whether a ruling by a foreign tribunal is enforceable in the Philippines and answers 'Yes,' arg"
+   },
+   {
+    "cid": "CA031::c000",
+    "title": "Partners in rule of law, constitutionalism, AI",
+    "text": "Partners in rule of law, constitutionalism, AI\n\nState visits often carry the dual promise of peace and progress. When two sovereign leaders shake hands and toast glasses\u2014gesturing toward diplomatic ties, negotiations, and partnerships\u2014people feel a surge of curiosity and optimism. Yet beyond ritual protocol, the deeper value lies in the concrete agreements these visits affirm and the strategic directions they chart for the future of both nations.\nTHE VISIT OF HIS EXCELLENCY, LEE JAE-MYUNG, the P"
+   },
+   {
+    "cid": "CE003::c003",
+    "title": "Relentless defender of PH sovereignty",
+    "text": "Relentless defender of PH sovereignty (cont.)\n\nred, one man\u2014retired from active government service\u2014never stopped fighting with the same intellectual rigor and patriotic fire that defined his judicial career. Some may oppose his assertions. That is their right in our democracy. In a similar way, though I praise him for his relentlessness and patriotism, I did not always agree with him. When we were both incumbents, we clashed on his advocacy for the death penalty, while I fearlessly opposed it as"
+   }
+  ]
+ },
+ "X34": {
+  "query": "When was the Echegaray decision handed down?",
+  "theme": "X",
+  "type": "date",
+  "routed_topic": "death_penalty_and_echegaray",
+  "status": "grounded_xcut",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "CB007::c001",
+    "title": "SC decisions on the economy",
+    "text": "SC decisions on the economy (cont.)\n\nat the constitutional preference applied only when \u201cthe scores are tied. But not when the ballgame is over and the foreigners clearly posted the highest score.\u201d The second case, La Bugal-B\u2019laan vs Ramos, involved a Financial and Technical Assistance Agreement (FTAA) entered into by President Fidel V. Ramos with an Australian company. In its Jan. 27, 2004, decision (per Justice Conchita Carpio Morales), the Supreme Court, voting 8-5, struck down major provisio"
+   },
+   {
+    "cid": "SB040::c004",
+    "title": "Equilibrium with Momentum",
+    "text": "Equilibrium with Momentum (cont.)\n\nit does not prohibit them either. In fact, it allows an exchange on the basis of equality and reciprocity, frowning only on foreign competition that is unfair.\" At the time this decision was issued more than two decades ago, the reigning economic doctrine was \"Filipino First.\" Thus, I had difficulty convincing my colleagues of the necessity to abandon isolationist policies and to embrace the new, 21st century economic doctrines. In the beginning, only three mem"
+   },
+   {
+    "cid": "SA049::c010",
+    "title": "An Ode to Jurisprudential Disruption",
+    "text": "Anecdote 1\n\nThe Sereno future-reversal question: 'When the composition of the Court would have changed... will the decision withstand a petition to declare it void on the ground that it was rendered without due process by a biased majority who apparently had not only prejudged their Chief but in fact conceived the very weapon of quo warranto to oust her? If such a time and reversal would ever come, would Maria Lourdes P.A. Sereno be returned to her post with the distinction of being the first wo"
+   },
+   {
+    "cid": "CE001::c003",
+    "title": "Rejuvenating Baguio",
+    "text": "Rejuvenating Baguio (cont.)\n\ne insufficient to invalidate an award fairly and honestly made. Judicial review of an arbitration award is, thus, more limited than judicial review of a trial.\u201d This Adapon ruling is significant not only because it was the basis of the decision in the present case but also because the Court en banc affirmed the validity and enforceability of arbitral awards.\nA THIRD GOOD NEWS IS THE MVP GROUP\u2019S commitment through its subsidiary, Landco Pacific Corp., to the interim m"
+   },
+   {
+    "cid": "SB040::c005",
+    "title": "Equilibrium with Momentum",
+    "text": "Equilibrium with Momentum (cont.)\n\nr days of patient explanations, discussions and deliberations, I finally convinced all of the 14 other justices to agree, thereby making the decision unanimous. When I became Chief Justice, I pursued with greater vigor my philosophy of liberty and prosperity, to the point of getting our Supreme Court to sponsor the holding of the Global Forum on Liberty and Prosperity on October 18-20, 2006, with funding grants from the World Bank, US AID, Canadian Internationa"
+   }
+  ]
+ },
+ "X35": {
+  "query": "What's the weather in Manila today?",
+  "theme": "X",
+  "type": "oos",
+  "routed_topic": "honors_received",
+  "status": "FAIL_grounded_oos",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "GC001::c003",
+    "title": "PROLOGUE: The Republic at Dawn",
+    "text": "Anecdote 1\n\n5:30 AM call to Chief Justice Davide -- the precise hour anchoring the dawn-judgment moment\n\nAnecdote 2\n\nThree-imperative cascade -- 'Swear her in. Do it now. Do it lawfully. Do it before the Republic fractures beyond repair.'\n\nAnecdote 3\n\nInvisible-to-the-crowd characterization -- the historical call absent from photographs\n\nAnecdote 4\n\nManila atmospheric framing -- low sky + Mendiola barricades + protesters clustered like unsettled weather\n\nAnecdote 5\n\nJoseph Estrada still technica"
+   },
+   {
+    "cid": "SC010::c003",
+    "title": "My Three Outstanding and Adorable 'Apos'",
+    "text": "My Three Outstanding and Adorable 'Apos' (cont.)\n\naw caricatures about me, and the family. I posted them in the walls of our Master's Bedroom. In the evening, I would look at them with great admiration and awe. However, after moving to Alabang, his parents Alex and Len (and his Lola Nena) discovered he indeed was quiet but not shy. In fact, when the occasion calls for it, he could be talkative and argumentative. He gladly accepted lead roles at Ridgefield kindergarten. By the time he was at Sout"
+   },
+   {
+    "cid": "SC005::c001",
+    "title": "Unworthy and Undeserving of the Highest Papal Award",
+    "text": "Unworthy and Undeserving of the Highest Papal Award (cont.)\n\nank those who plucked me from the abyss of being a Catholic ignoramus to the joy of being an ordinary worker in the Lord's Vinery.\nAPPRECIATION FOR MY COWORKERS On the first part, let me say that all of us who participated in the four Rs did not want to announce what we have done because our Lord Jesus taught us in Matthew Chapter 6, Verse 1, thus, \"Take care not to perform righteous deeds in order that people may see them; otherwise, "
+   },
+   {
+    "cid": "SB006::c007",
+    "title": "Freedom for the Spirit, Food for the Body",
+    "text": "Freedom for the Spirit, Food for the Body (cont.)\n\nyou with my hoarse voice, let us watch two separate short videos on these two ultimate projects of the FLP.\n(AFTER THE VIDEOS ARE PLAYED, CONTINUE AS FOLLOWS:) Friends, to kick start the campaign to implement these projects informally in 2021, my late wife, my five children and I, though of modest means, donated our 357 square meter lot in Paseo de Magallanes in Makati worth at least P100 million at that time. The Torrens Certificate of Title wa"
+   },
+   {
+    "cid": "SB050::c001",
+    "title": "Dr. George S. K. Ty, Entrepreneur, Philanthropist and Citizen",
+    "text": "Dr. George S. K. Ty, Entrepreneur, Philanthropist and Citizen (cont.)\n\nI, of course, noticed his pale facial appearance, frail physical condition and soft voice. But I had no idea that his mortal life would end so fast and so soon. Nick requested me to ask His Eminence, Luis Antonio Cardinal Tagle, whether he could preside over the Mass tonight, November 24, in honor of Dr. Ty. So, even while I was already seated beside President Duterte during the San Beda function, I was busy exchanging texts "
+   }
+  ]
+ },
+ "X36": {
+  "query": "Can you recommend a good restaurant near the museum?",
+  "theme": "X",
+  "type": "oos",
+  "routed_topic": "museum_for_liberty_and_prosperity",
+  "status": "FAIL_grounded_oos",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "CE018::c002",
+    "title": "AI and the freedom to ask",
+    "text": "AI and the freedom to ask (cont.)\n\nility for tourists navigating foreign streets, yet it should not ignore the cognitive benefits and cultural empathy that come from actually learning a language. AI GOVERNANCE IS AKIN TO MUSEUM CURATION. I previously highlighted the role of leaders as choice architects: they design cultures that subtly influence people\u2019s behaviors. As a business adage reminds us, \u201cculture eats strategy for breakfast,\u201d thereby stressing that even the smartest strategies fail with"
+   },
+   {
+    "cid": "SD002::c007",
+    "title": "Soon, a Futuristic Museum for Liberty and Prosperity",
+    "text": "Soon, a Futuristic Museum for Liberty and Prosperity (cont.)\n\nNovember next year when he reaches the compulsory retirement age of 70, he would lead us in laying the cornerstone of the FLP Museum for Liberty and Prosperity. Now, let me proceed to the second part of my talk.\nLadies and gentlemen, by this time, you are already aware of FLP's three major education projects, the Scholarship Program for law students, the ESMEL Fellowship Grants for MBA students and the Dissertation Writing Contest. Ap"
+   },
+   {
+    "cid": "SD002::c010",
+    "title": "Soon, a Futuristic Museum for Liberty and Prosperity",
+    "text": "Soon, a Futuristic Museum for Liberty and Prosperity (cont.)\n\nt Jun Palafox and his team, who have offered their time, talent, and excellence to craft beautiful and comprehensive preliminary design concepts for our museum. Friends, this reminds me of a parable: a small seed planted in fertile soil may look ordinary today, but given time, care, and sunlight, it would grow into a great tree whose shade will comfort many and whose roots will hold the ground firm. This museum, like that seed, may st"
+   },
+   {
+    "cid": "SD016::c007",
+    "title": "From an Imbedded Legal Lore to a Practical Reality",
+    "text": "From an Imbedded Legal Lore to a Practical Reality (cont.)\n\nin Salcedo Village, Makati. Moreover, they donated another P50 million (and counting) to sponsor the continuing educational projects we are celebrating tonight. And tonight, during this momentous Awards Ceremony, allow me to take up very briefly what I call the two \"ultimate projects\" of the Foundation. They are, first, the building of a Center for Liberty and Prosperity in Metro Manila where, in partnership with the Supreme Court, an i"
+   },
+   {
+    "cid": "SD016::c008",
+    "title": "From an Imbedded Legal Lore to a Practical Reality",
+    "text": "From an Imbedded Legal Lore to a Practical Reality (cont.)\n\nthe Center and the Museum are being finalized by an FLP Task Force headed by the esteemed newly retired Senior Justice and FLP Trustee Estela M. Perlas-Bernabe. The second ultimate project is the establishment of a multi-billion peso \"Prosperity Fund\" to nurture, grow and help make profitable and bankable micro, small and medium enterprises or MSMEs. The Fund will be nonprofit, but financially viable and sustainable. We believe in unlea"
+   }
+  ]
+ },
+ "X37": {
+  "query": "How do the rule of law and economic governance relate to each other?",
+  "theme": "X",
+  "type": "multi",
+  "routed_topic": "economic_governance_and_business_law",
+  "status": "grounded_xcut",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "CA031::c002",
+    "title": "Partners in rule of law, constitutionalism, AI",
+    "text": "Partners in rule of law, constitutionalism, AI (cont.)\n\nring and robotics design company acquired by the Korean automotive manufacturing giant, Hyundai Motor Group (see \u201cRobotics, for better or for worse,\u201d 2/2/2026). It is no secret that South Korea ranks among the world\u2019s top leaders in electronics and semiconductors\u2014industries at the very heart of today\u2019s wave of hi-tech digitalization and artificial intelligence (AI) integration. Collaboration in these critical sectors can generate jobs, prom"
+   },
+   {
+    "cid": "SB028::c011",
+    "title": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs",
+    "text": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs (cont.)\n\nuther King, of Confucius and his fisherman, of Thomas Edison, of J.P. Morgan, of Franklin Delano Roosevelt, of Steve Jobs and even of Deng Xiaoping and Jack Ma. With your indulgence and patience, let me just take a few more minutes of your time to explain the four TATS. Your work as accountants, financial bosses and chief executives should be transparent in showing, to use a judicial clich\u00e9, the truth, the whole truth and n"
+   },
+   {
+    "cid": "SB028::c010",
+    "title": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs",
+    "text": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs (cont.)\n\nly and inevitably, all the peoples of the world need and deserve liberty and prosperity in equal measure.\nTRANSPARENCY, ACCOUNTABILITY, TRUTH AND SUSTAINABILITY The big question during this momentous national conference of PICPA is how accountants, business administrators and economists, specifically CPAs, CFOs and CEOs, can be relevant to this philosophy of lives and livelihood? Surely, you are in the forefront of the econ"
+   },
+   {
+    "cid": "CD003::c006",
+    "title": "20 law grants at P250k, 5 MBA at P500k",
+    "text": "Summary (cont.)\n\nESMEL (chaired by ret.\nBSP Gov.\nTetangco), and for dissertations (chaired by SC Justice Jhosep Y.\nLopez) -- and lays out the FLP board of trustees and officers. Threaded through the announcement is his philosophical refrain that 'knowledge of the law rounds out business thinking' -- telling entrepreneurs not only what they cannot do but how far they can go -- and his belief that the best way to nurture prosperity is to help Filipinos help themselves through private entrepreneurs"
+   },
+   {
+    "cid": "CB006::c007",
+    "title": "Unleashing entrepreneurial ingenuity (1)",
+    "text": "Summary (cont.)\n\nceptions rather than the rule.\nWe must never stop dreaming for fear that reality may shatter our dreams; that is part of the interesting reality of being human. On the other hand, the goal of governance and of law is to provide guarantees and incentives to help the fisherman prosper, to create the institutions to support him, and to promulgate minimal regulations to prevent him from appropriating all the fishing grounds, from keeping all the earnings to himself, and from forgett"
+   }
+  ]
+ },
+ "X38": {
+  "query": "Tell me about your work on both judicial reform and the prosperity doctrine.",
+  "theme": "X",
+  "type": "multi",
+  "routed_topic": "judicial_reform",
+  "status": "grounded_xcut",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "SB028::c011",
+    "title": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs",
+    "text": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs (cont.)\n\nuther King, of Confucius and his fisherman, of Thomas Edison, of J.P. Morgan, of Franklin Delano Roosevelt, of Steve Jobs and even of Deng Xiaoping and Jack Ma. With your indulgence and patience, let me just take a few more minutes of your time to explain the four TATS. Your work as accountants, financial bosses and chief executives should be transparent in showing, to use a judicial clich\u00e9, the truth, the whole truth and n"
+   },
+   {
+    "cid": "SA011::c000",
+    "title": "Human Rights, Libertarianism and Prosperity",
+    "text": "Human Rights, Libertarianism and Prosperity\n\nEdited copy of the Impromptu Closing Remarks delivered by retired Chief Justice ARTEMIO V. PANGANIBAN at the end of a Professorial Lecture delivered by founding law Dean Jose Manuel \"Chel\" Diokno held at the De La Salle School of Law on April 6, 2024, sponsored by the Foundation for Liberty and Prosperity.\n---\nMagandang hapon po sa inyong lahat. Good afternoon, ladies and gentlemen.\nSALUTATIONS AND GREETINGS\nOur esteemed lecturer, Dean Jose Manuel Dio"
+   },
+   {
+    "cid": "CB008::c003",
+    "title": "CPAs as purveyors of liberty and prosperity",
+    "text": "CPAs as purveyors of liberty and prosperity (cont.)\n\nrs of liberty and prosperity under the rule of law; you become collaborators of Confucius and his fisherman, Edison, Morgan, Roosevelt, Jobs, Deng, Ma, and Liu. By making your work transparent, you profess, to use a judicial clich\u00e9, \u201cthe truth, the whole truth, and nothing but the truth,\u201d expressed in facts and figures, and in clear and simple language. Truly, transparency that leads to the truth should also show the accountability, if any, of"
+   },
+   {
+    "cid": "SB028::c012",
+    "title": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs",
+    "text": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs (cont.)\n\nrs, are strictly bound to follow laws, rules, regulations and standards, as an essential part of their work as professionals.\nA LITTLE FOOTNOTE ON L ****&**** P Before I end, let me now share a little footnote. During my 75th birthday ten years ago on December 7, 2011, I organized the Foundation for Liberty and Prosperity or FLP to promote my L & P philosophy. Joining me in the original FLP Board of Trustees are jurists and"
+   },
+   {
+    "cid": "SB028::c003",
+    "title": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs",
+    "text": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs (cont.)\n\nrd work, integrity, independence, accuracy and on-time submission of her reports. Palakpakan po natin ang ating magiting na Pambansang Pangulo, si Dolly Miguel. Having said that, I do not know what kind of funny wind struck President Dolly that impelled her to invite me to be your inducting officer and guest speaker today. Unlike all of you, I am not a certified public accountant, not even a commerce or business administrat"
+   }
+  ]
+ },
+ "X39": {
+  "query": "Tell me about a memorable trip or experience from your life.",
+  "theme": "X",
+  "type": "orphan",
+  "routed_topic": "early_life_sampaloc",
+  "status": "grounded_xcut",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "BC001::c003",
+    "title": "With Due Respect (Vol. 7) -- Ch. 3: Justice and Love on Valentine's Day",
+    "text": "Justice and Love on Valentine's Day (cont.)\n\nbrought to \"eternal life.\" Yes, the Lord too was making choices because he was the Lord of justice just as He was also the Lord of love.\n**A young lady's tale** To make my sharing on justice and love easy to remember, I ended with an anecdote. A policeman brought a young lady to a judge. \"Young lady,\" barked His Honor, \"this officer tells me you were blazing at 100 kilometers per hour on Ayala Avenue. What can you say about that?\"\n\"Your Honor,\" replie"
+   },
+   {
+    "cid": "BC002::c000",
+    "title": "With Due Respect (Vol. 7) -- Ch. 4: Awesome Gathering Power",
+    "text": "Awesome Gathering Power\n\nDate:       2009-07-05\nPublisher:  Philippine Daily Inquirer (Opinion)\nSource:     With Due Respect (2011)\nBy: Artemio V. Panganiban\nThe awesome gathering power of the Catholic Church was again convincingly if quietly demonstrated during the last two Saturdays of June. Defying the influenza A(H1N1) contagion, more than 12,000 Catholic lay faithful (6,000 per Saturday) crowded the Congress on Parish Liturgical Life at the gigantic SMX Convention Center.\n**Alaskan vacation"
+   },
+   {
+    "cid": "SC010::c006",
+    "title": "My Three Outstanding and Adorable 'Apos'",
+    "text": "My Three Outstanding and Adorable 'Apos' (cont.)\n\nare migraine (which her mom suffers from), stroke (the cause of death of both her paternal grandparents), dementia and attention deficit hyperactivity disorder. Curious about biotechnology, I spoke lengthily with Victoria. After her masters in biotechnology, she wants to pursue a PhD on the brain, and its physical, cellular, and spiritual dimensions. Specifically, I asked her to hasten her discovery of a cure for dementia because I may need it fi"
+   },
+   {
+    "cid": "SB042::c001",
+    "title": "Reminiscences of an Independent Director",
+    "text": "Reminiscences of an Independent Director (cont.)\n\nssed again where to meet for lunch, and they immediately agreed to meet at the old Jolly Restaurant because they had never been there before!\nSUFFICIENT WARNING With the loud warning that I will be 83 years old next December and will probably suffer the same jolly forgetfulness of the jolly friends, I thank you and your president, Reginald H. Tiu, for inviting me to address you today at the third floor of the SM Aura which, I was assured, is whee"
+   },
+   {
+    "cid": "SB039::c001",
+    "title": "Reminiscing John Gokongwei Jr., Humble Billionaire and Generous Philanthropist",
+    "text": "Reminiscing John Gokongwei Jr., Humble Billionaire and Generous Philanthropist (cont.)\n\nfamily's JG Summit Holdings, Inc. controls a combined market capitalization of about US$12 billion, making him one of the wealthiest Filipinos in dollar terms. Though we had become friends, he never visited or called, much less asked, me any favor, directly or indirectly, during my eleven-year stint in the Supreme Court. However, after I retired, he renewed our friendship and invited me to sit as an independe"
+   }
+  ]
+ },
+ "X40": {
+  "query": "With due respect, what would you say to a young lawyer just starting out?",
+  "theme": "X",
+  "type": "persona",
+  "routed_topic": "lawyer_ethics_initiative",
+  "status": "grounded_xcut",
+  "expected": [],
+  "chunks": [
+   {
+    "cid": "SB028::c003",
+    "title": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs",
+    "text": "Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs (cont.)\n\nrd work, integrity, independence, accuracy and on-time submission of her reports. Palakpakan po natin ang ating magiting na Pambansang Pangulo, si Dolly Miguel. Having said that, I do not know what kind of funny wind struck President Dolly that impelled her to invite me to be your inducting officer and guest speaker today. Unlike all of you, I am not a certified public accountant, not even a commerce or business administrat"
+   },
+   {
+    "cid": "SE036::c003",
+    "title": "Towards a Just and Humane Society in the DiGi Age",
+    "text": "Towards a Just and Humane Society in the DiGi Age (cont.)\n\nducation and legacy demand it. But also do the least you can do. Because, the least you can do might turn out to be the most significant.\"\nMY OWN POOR BEGINNING Upon hearing Lucila's speech on YouTube, I was reminded of my own poor beginning. My family was impoverished also. I had to peddle newspapers and shine shoes when I was in the grade school and high school. I studied hard in college to keep my tuition scholarship. I sold bibles to"
+   },
+   {
+    "cid": "SC010::c011",
+    "title": "My Three Outstanding and Adorable 'Apos'",
+    "text": "My Three Outstanding and Adorable 'Apos' (cont.)\n\nwas starting my career in technology. So, my message to you, the graduating class of Stanford, is simple: to succeed, you must endure pain and suffering first.\" The same lowly and painful start characterized the rise to power of local billionaire Lance Gokongwei. After graduating summa cum laude from the Wharton Business School, he began his career by being a management trainee, which basically meant \"going out and selling Jack and Jill snacks to"
+   },
+   {
+    "cid": "SA011::c012",
+    "title": "Human Rights, Libertarianism and Prosperity",
+    "text": "Anecdote 1\n\nJWD as sui generis: bar exam topnotcher (tied with Salonga) despite not finishing the four-year law course -- his father, a SC Justice, taught him law, and he was given special permission to take the bar exam.\n\nAnecdote 2\n\nThe courtroom story: Salonga called the young CJP early one morning with LBM -- 'Please attend the session tomorrow. Do not ask for postponement.' CJP went to Judge Mojica's sala in old CFI Pasay, knowing almost nothing of the case. When Mojica asked where Salonga "
+   },
+   {
+    "cid": "SB063::c000",
+    "title": "Icons of Entrepreneurship and Nation Building",
+    "text": "Icons of Entrepreneurship and Nation Building\n\nKeynote Address delivered by retired Chief Justice ARTEMIO V. PANGANIBAN at the General Membership Meeting of the Junior Chamber International Manila (JCI-Manila) on April 19, 2016 at the Tower Club, Philamlife Center, Paseo de Roxas, Makati City.\n---\nHave you heard the story of a Jaycee who was the proud father of three boys whom, through his perseverance and hard work, he was able to send to the best schools here and abroad? One son became a much "
+   }
+  ]
+ }
+}

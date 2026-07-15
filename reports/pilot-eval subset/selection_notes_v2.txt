@@ -1,0 +1,83 @@
+PILOT SUBSET — SELECTION NOTES (v2)
+Frozen as of: 2026-06-26
+Status: IMMUTABLE. Any later change requires a new versioned file (v3).
+Supersedes: pilot_subset_frozen.csv (v1, 25 docs total). v1 is retained unchanged.
+
+WHAT CHANGED FROM v1
+--------------------
+v2 targets 25 documents PER THEME (A-E) = 125 documents total, at user request.
+This INTENTIONALLY exceeds the original "< 100 documents" pilot cap that governed
+v1. All other rules (canonical ID, theme/format mappings, mandatory AI-governance
+and orphaned-topic inclusions, format span) are preserved.
+
+PURPOSE / FRAMING
+-----------------
+Still the FROZEN sample the pilot RUNS against and is SCORED on — the pilot
+RUN + EVALUATION set. NOT the taxonomy-design set. The full normalised corpus
+(1,089 docs) remains the taxonomy-design set (W1.7).
+
+TOTAL SELECTED: 125 documents (25 per theme x 5 themes). All doc_ids unique and
+re-verified to resolve unchanged in the normalised corpus before freezing.
+
+CANONICAL ID / MAPPINGS (unchanged from v1)
+-------------------------------------------
+doc_id = "Article Code" (5-char: <format-letter><theme-letter><3 digits>).
+theme  = 2nd char  (A Liberty & Rule of Law; B Prosperity & Economic Philosophy;
+                    C Biographical & Personal; D FLP Mission/Foundation/Judicial
+                    Reform; E Signature Current-Events Commentary).
+format = 1st char  (C Column; G Biography; B Book; S Speech).
+
+PER-THEME FORMAT QUOTAS (sum = 25 each; all <= corpus availability)
+-------------------------------------------------------------------
+Theme A: Column 15, Book 5, Speech 5            (Biography has no theme-A docs)
+Theme B: Column 9,  Book 5, Speech 11
+Theme C: Column 8,  Biography 6, Book 4, Speech 7
+Theme D: Column 8,  Book 8, Speech 9
+Theme E: Column 13, Book 8, Speech 4
+Quotas were set roughly proportional to each format's share of the theme while
+guaranteeing every format that HAS docs in a theme is represented. Biography only
+exists under theme C, so its 6 slots all land in C (its only valid cell).
+
+SELECTION PROCEDURE
+-------------------
+1. Force-include every mandatory doc (AI-governance + orphaned-topic) into its
+   theme+format cell.
+2. Fill each remaining cell slot deterministically by Article-Code order
+   (reproducible). All docs are "clean" (normalisation reports: 0 unparseable
+   JSON cells across all four files), so code-order fill is a fair representative
+   sample; no cleanliness tie-breaks were needed.
+3. No doc selected twice; row order/content of the source corpus untouched.
+
+"ORPHANED TOPIC" — DEFINITION (unchanged)
+-----------------------------------------
+A substantive subject keyword appearing in <= 2 of 1,089 docs (singleton/near-
+singleton), via a corpus-wide case-folded Keyword/s tally; person-name-only
+tokens ignored. Force-included even where atypical for their cell.
+
+MANDATORY INCLUSIONS (all present in v2)
+----------------------------------------
+AI-governance / tech-regulation (8): CA034, CA242, CB001, CD022, CE011, SA049,
+  SE012, SE013.
+Orphaned-topic (10): CA242 (right to be forgotten), CA060 (indigenous peoples),
+  CA377 (same-sex marriage), CA330 (extrajudicial killings), CC069 (surrogacy),
+  CE072 (agrarian reform), BA027 (reproductive health/RH), BA009 (plagiarism/
+  contempt), SA049 (intellectual property), SD035 (climate).
+
+COVERAGE RULES — STATUS
+-----------------------
+1. Size: 125 (25/theme) — exceeds the original <100 cap by design, per request.
+2. Theme span A-E: yes, exactly 25 each.
+3. Format span (every format present): yes — Column 53, Speech 36, Book 30,
+   Biography 6.
+4. Mandatory inclusions: all AI-governance (8) and orphaned-topic (10) present.
+5. Gap check: every theme x format cell that EXISTS in the corpus is filled.
+   Empty Biography A/B/D/E cells are STRUCTURALLY empty (biography corpus is all
+   theme C) -> expected blanks, not gaps. See coverage_table_v2.csv (no GAP rows).
+
+ARTIFACTS (this folder)
+-----------------------
+  pilot_subset_frozen_v2.csv    - immutable 125-doc list (doc_id, theme, format, rationale)
+  coverage_table_v2.csv         - theme x format matrix + totals + gap analysis
+  forced_inclusions_v2.csv      - AI-governance + orphaned-topic force-included docs
+  selection_notes_v2.txt        - this file
+(v1 files retained: pilot_subset_frozen.csv, coverage_table.csv, forced_inclusions.csv, selection_notes.txt)

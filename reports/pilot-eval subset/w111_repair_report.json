@@ -1,0 +1,498 @@
+{
+  "A3_grep_morfe": [
+    [
+      "CA242",
+      "CA242::c000",
+      "More importantly for us, our Supreme Court, in the 1968 case of Morfe v."
+    ],
+    [
+      "CA242",
+      "CA242::c004",
+      "United States dissent, and the Philippine Supreme Court declared 'the right to privacy' as 'fully deserving of constitutional protection' in Morfe v."
+    ]
+  ],
+  "A3_grep_mutuc": [
+    [
+      "CA242",
+      "CA242::c000",
+      "Mutuc, declared this right (which it christened as “the right to privacy”) as “fully deserving of constitutional protection."
+    ],
+    [
+      "CA242",
+      "CA242::c004",
+      "Mutuc (1968)."
+    ],
+    [
+      "CD003",
+      "CD003::c001",
+      "The other 10 scholars are fourth-year law students: Kryster Bellen (UP), Kerstein Despi (USC), Cicily Mirasol (UP), Christa Mutuc (USC), Jayson Orajay (Xavier U), Enrico Paguia (ADMU), Ricardo Sobreviñas (ADMU), Mary Te (USC), Chinzen Viern"
+    ],
+    [
+      "CD003",
+      "CD003::c005",
+      "He names the full rosters: ten third-year law scholars (Acidre, Caliosan, Humarang, Mabelin, Manalo, Poquiz, Reambonanza, Tumolva, Unabia, Vergara), ten fourth-year scholars (Bellen, Despi, Mirasol, Mutuc, Orajay, Paguia, Sobreviñas, Te, Vi"
+    ],
+    [
+      "CD008",
+      "CD008::c001",
+      "In partnership with the Tan Yan Kee Foundation represented by Lucio Tan III, the Stanford summa, president of PAL Holdings and LT Group, FLP will grant scholarships to 10 third-year law students Mariana Alberto (UP), Kerstein Despi (USC), C"
+    ],
+    [
+      "CD008",
+      "CD008::c002",
+      ") UP), Christa Mutuc (USC), Jayson Orajay (Xavier U), Enrico Paguia (ADMU), Janelle Sy (ADMU), Ricardo Sobreviñas (ADMU), Mary Te (USC), and Chinzen Viernes (UP)."
+    ],
+    [
+      "CD008",
+      "CD008::c005",
+      "Pangilinan (MVP), and CJ as FLP chair: 20 law scholars at P200,000 each (Tan Yan Kee Foundation partnership represented by Lucio Tan III, 'the Stanford summa, president of PAL Holdings and LT Group'), with 10 third-year students (Alberto, D"
+    ],
+    [
+      "CD009",
+      "CD009::c000",
+      "ASIDE FROM THE THREE TOPNOTCHERS, 11 other FLP law scholars passed (thereby upholding FLP’s 100 percent passing rate): Mariana Alberto (UP), Joanna Rizza David (Bulacan State University), Kerstein Kylle Despi, University of San Carlos (USC)"
+    ]
+  ],
+  "CA242_text_head": [
+    {
+      "chunk_id": "CA242::c000",
+      "text": "Right to be forgotten An individual may compel a search engine, like Google, to remove or delete links containing “inadequate, irrelevant… or excessive” data or information about him or her through the exercise of the “right to be forgotten,” also known as the “right to have an imperfect past.” So ruled the Court of Justice of the European Union in the 2014 case of Google Spain SL, Google Inc. v. Agencia Española de Protección de Datos. The European Court based its judgment from the “Directive on Data Protection” issued by the European Community in 1995. Thus, some European countries, like Ger"
+    },
+    {
+      "chunk_id": "CA242::c001",
+      "text": "Right to be forgotten (cont.) 008, the Court promulgated the writ of habeas data “to protect a person’s right to privacy and allow a person to control any information concerning” him or her. On May 3, the Court issued the writ in favor of the National Union of Peoples’ Lawyers on its claim that its members’ right to life, liberty and security were being violated by the military, and that it be provided “with copies of all the facts, information, statements, records, photographs, and other evidence, documentary or otherwise, pertaining to [its members in the military’s files].” On the legislati"
+    }
+  ],
+  "A3_candidate_presence": {
+    "right to be forgotten": [
+      [
+        "CA242",
+        "CA242::c000"
+      ],
+      [
+        "CA242",
+        "CA242::c001"
+      ],
+      [
+        "CA242",
+        "CA242::c002"
+      ],
+      [
+        "CA242",
+        "CA242::c003"
+      ],
+      [
+        "CA242",
+        "CA242::c004"
+      ]
+    ],
+    "Google Spain": [
+      [
+        "CA242",
+        "CA242::c000"
+      ],
+      [
+        "CA242",
+        "CA242::c004"
+      ]
+    ],
+    "Roe": [
+      [
+        "CE007",
+        "CE007::c002"
+      ],
+      [
+        "CE007",
+        "CE007::c005"
+      ],
+      [
+        "BD002",
+        "BD002::c003"
+      ],
+      [
+        "BE002",
+        "BE002::c002"
+      ],
+      [
+        "BE002",
+        "BE002::c003"
+      ],
+      [
+        "BE002",
+        "BE002::c005"
+      ],
+      [
+        "BE002",
+        "BE002::c007"
+      ],
+      [
+        "BE003",
+        "BE003::c001"
+      ],
+      [
+        "SB028",
+        "SB028::c004"
+      ],
+      [
+        "SB040",
+        "SB040::c009"
+      ],
+      [
+        "SB040",
+        "SB040::c010"
+      ]
+    ],
+    "Dobbs": [
+      [
+        "CE007",
+        "CE007::c002"
+      ],
+      [
+        "CE007",
+        "CE007::c003"
+      ],
+      [
+        "CE007",
+        "CE007::c005"
+      ]
+    ],
+    "Data Privacy Act": [
+      [
+        "CA034",
+        "CA034::c002"
+      ],
+      [
+        "CA034",
+        "CA034::c004"
+      ],
+      [
+        "CA034",
+        "CA034::c005"
+      ],
+      [
+        "CA242",
+        "CA242::c001"
+      ],
+      [
+        "CA242",
+        "CA242::c004"
+      ],
+      [
+        "CB001",
+        "CB001::c002"
+      ],
+      [
+        "CB001",
+        "CB001::c003"
+      ],
+      [
+        "CB001",
+        "CB001::c005"
+      ],
+      [
+        "SA049",
+        "SA049::c006"
+      ],
+      [
+        "SA049",
+        "SA049::c009"
+      ]
+    ],
+    "RA 10173": [
+      [
+        "CA034",
+        "CA034::c004"
+      ],
+      [
+        "CA034",
+        "CA034::c005"
+      ]
+    ],
+    "Echegaray": [],
+    "Francisco v. House": [],
+    "Senate v. Ermita": []
+  },
+  "A3_proposal": {
+    "query": "What did the courts decide about the right to be forgotten?",
+    "routed_topic": "due_process",
+    "routed_theme": "A",
+    "routed_cos": 0.6526,
+    "in_scope": true,
+    "n_after_cutoff": 12,
+    "top5": [
+      [
+        "CA242::c000",
+        1.1546
+      ],
+      [
+        "CA242::c004",
+        1.1358
+      ],
+      [
+        "CA242::c003",
+        1.1234
+      ],
+      [
+        "CA242::c001",
+        1.1103
+      ],
+      [
+        "CA242::c002",
+        1.1097
+      ]
+    ],
+    "exp": "CA242",
+    "exp_hit": true,
+    "exp_rank": 1,
+    "kept_docs": [
+      "BA009",
+      "BD001",
+      "BD003",
+      "BD005",
+      "CA242",
+      "CA330",
+      "CE008"
+    ]
+  },
+  "X34_proposal": {
+    "query": "When was the South China Sea arbitral award issued?",
+    "routed_topic": "international_law_disputes",
+    "routed_theme": "A",
+    "routed_cos": 0.7524,
+    "in_scope": true,
+    "n_after_cutoff": 12,
+    "top5": [
+      [
+        "CA010::c000",
+        1.1588
+      ],
+      [
+        "CA009::c000",
+        1.1335
+      ],
+      [
+        "CA013::c002",
+        1.0863
+      ],
+      [
+        "CA009::c001",
+        1.0851
+      ],
+      [
+        "CA009::c004",
+        1.0505
+      ]
+    ],
+    "exp": null,
+    "exp_hit": null,
+    "exp_rank": null,
+    "kept_docs": [
+      "CA009",
+      "CA010",
+      "CA011",
+      "CA013"
+    ]
+  },
+  "X34_grep_July_12_2016": [
+    [
+      "CA009",
+      "CA009::c000",
+      "Enforcing the Arbitral Award How should we enforce the July 12, 2016 Arbitral Award (AA) vis-à-vis China’s intractable claim of ownership and sovereignty over almost the entire South China Sea (SCS) including our exclusive economic zone (EE"
+    ],
+    [
+      "CA009",
+      "CA009::c004",
+      "Summary Panganiban asks how the Philippines should enforce the July 12, 2016 Arbitral Award against China's intractable claim of ownership and sovereignty over almost the entire South China Sea including the Philippine exclusive economic zo"
+    ],
+    [
+      "CA010",
+      "CA010::c000",
+      "Understanding the arbitral award The arbitral award or judgment, dated July 12, 2016, was issued unanimously by the five members of the Arbitral Tribunal Constituted Under Annex VII of the 1982 United Nations Convention on the Law of the Se"
+    ],
+    [
+      "CA010",
+      "CA010::c004",
+      "Summary Panganiban summarizes the July 12, 2016 UNCLOS Annex VII arbitral award in three parts."
+    ]
+  ],
+  "X34_grep_12_July_2016": [],
+  "X34_grep_2016": [
+    [
+      "CA009",
+      "CA009::c000",
+      "Enforcing the Arbitral Award How should we enforce the July 12, 2016 Arbitral Award (AA) vis-à-vis China’s intractable claim of ownership and sovereignty over almost the entire South China Sea (SCS) including our exclusive economic zone (EE"
+    ],
+    [
+      "CA009",
+      "CA009::c004",
+      "Summary Panganiban asks how the Philippines should enforce the July 12, 2016 Arbitral Award against China's intractable claim of ownership and sovereignty over almost the entire South China Sea including the Philippine exclusive economic zo"
+    ],
+    [
+      "CA010",
+      "CA010::c000",
+      "Understanding the arbitral award The arbitral award or judgment, dated July 12, 2016, was issued unanimously by the five members of the Arbitral Tribunal Constituted Under Annex VII of the 1982 United Nations Convention on the Law of the Se"
+    ],
+    [
+      "CA010",
+      "CA010::c004",
+      "Summary Panganiban summarizes the July 12, 2016 UNCLOS Annex VII arbitral award in three parts."
+    ],
+    [
+      "CA031",
+      "CA031::c004",
+      "He situates the visit within the 2025 APEC follow-through, the Philippine-Korea FTA, Korean leadership in electronics, semiconductors, and AI (citing Boston Dynamics' Atlas under Hyundai), and the Philippines' incoming ASEAN chairmanship --"
+    ],
+    [
+      "CC001",
+      "CC001::c002",
+      "Truly, I have many reasons to thank Marixi for, not the least of which is the very recent publication of a brand-new book compiling my 2011-2016 columns, titled “With Due Respect 2."
+    ],
+    [
+      "CC001",
+      "CC001::c004",
+      "He announces the recent publication of 'With Due Respect 2' (2011-2016 columns), with a foreword by Dr."
+    ],
+    [
+      "CC009",
+      "CC009::c000",
+      "’ Indeed, though I feel unworthy of their kindness, they perpetuate my humble work into books every five years — the first in 2011, the second in 2016, and the third, today… “To be completely honest, I did not consider myself capable of wri"
+    ],
+    [
+      "CC009",
+      "CC009::c004",
+      "Summary On the occasion of the formal launch of 'With Due Respect 3' -- the third Inquirer-published compilation of his Sunday columns from 2016 to 2021 -- Panganiban offers an abridged response of gratitude."
+    ],
+    [
+      "CD001",
+      "CD001::c004",
+      "The Dec 1, 2016 awarding ceremony at the new UP campus in Fort Bonifacio, Taguig will feature CJ Sereno as guest speaker; each scholar receives full scholarship (tuition + books + monthly stipend up to P200,000), and 10 new scholars will be"
+    ],
+    [
+      "CE003",
+      "CE003::c001",
+      "INDEED, HE IS THE MOST ARTICULATE AND RELENTLESS CHAMPION of the 2016 Arbitral Award—the landmark victory that affirmed our sovereignty and sovereign rights over the West Philippine Sea."
+    ],
+    [
+      "CE003",
+      "CE003::c005",
+      "Carpio is the most articulate and relentless champion of the 2016 Arbitral Award -- the landmark victory affirming PH sovereignty and sovereign rights over the West Philippine Sea."
+    ]
+  ],
+  "C16_proposal": {
+    "query": "What do you enjoy about writing your weekly Inquirer column?",
+    "routed_topic": "with_due_respect_persona",
+    "routed_theme": "E",
+    "routed_cos": 0.585,
+    "in_scope": true,
+    "n_after_cutoff": 12,
+    "top5": [
+      [
+        "CC001::c001",
+        1.1756
+      ],
+      [
+        "CC001::c005",
+        1.1403
+      ],
+      [
+        "CC001::c004",
+        1.1216
+      ],
+      [
+        "CC001::c002",
+        1.0877
+      ],
+      [
+        "BE002::c000",
+        1.0332
+      ]
+    ],
+    "exp": "CC001",
+    "exp_hit": true,
+    "exp_rank": 1,
+    "kept_docs": [
+      "BD001",
+      "BE002",
+      "CC001",
+      "CC009",
+      "SB028"
+    ]
+  },
+  "C16_overlap": {
+    "C16_top_docs": [
+      "BD001",
+      "BE002",
+      "CC001",
+      "CC009",
+      "SB028"
+    ],
+    "vs_C17": [],
+    "vs_C18": []
+  },
+  "coverage_recheck": {
+    "themes_A_E": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "themes_gap": [],
+    "all_types": [
+      "case",
+      "date",
+      "def",
+      "doc",
+      "id",
+      "multi",
+      "oos",
+      "orphan",
+      "persona",
+      "stance"
+    ],
+    "case_anchors_grounded": [
+      [
+        "A3",
+        "E28",
+        "E29"
+      ],
+      "HIT"
+    ],
+    "date": [
+      [
+        "X34"
+      ],
+      "HIT"
+    ],
+    "oos": [
+      [
+        "X35",
+        "X36"
+      ],
+      "HIT(expected-out)"
+    ],
+    "identity": [
+      [
+        "X31",
+        "X32"
+      ],
+      "HIT"
+    ],
+    "orphan": [
+      [
+        "D21",
+        "X39"
+      ],
+      "HIT"
+    ],
+    "multi": [
+      [
+        "B12",
+        "X33",
+        "X37",
+        "X38"
+      ],
+      "HIT"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+﻿Coverage table: theme (A-E) x format. Cell = # selected docs. 'gap_flag' marks cells empty in subset but populated in corpus.
+format,A,B,C,D,E,ROW_TOTAL
+Column,6,1,1,1,2,11
+Biography,0,0,2,0,0,2
+Book,2,1,1,1,1,6
+Speech,1,1,1,1,2,6
+COL_TOTAL,9,3,5,3,5,25
+
+GAP ANALYSIS (empty subset cell that HAS corpus docs = real gap to flag)
+format,theme,corpus_docs,subset_docs,status
+Column,A,514,6,covered
+Column,B,18,1,covered
+Column,C,112,1,covered
+Column,D,24,1,covered
+Column,E,117,2,covered
+Biography,A,0,0,expected-empty (none in corpus)
+Biography,B,0,0,expected-empty (none in corpus)
+Biography,C,35,2,covered
+Biography,D,0,0,expected-empty (none in corpus)
+Biography,E,0,0,expected-empty (none in corpus)
+Book,A,41,2,covered
+Book,B,8,1,covered
+Book,C,20,1,covered
+Book,D,21,1,covered
+Book,E,25,1,covered
+Speech,A,44,1,covered
+Speech,B,21,1,covered
+Speech,C,58,1,covered
+Speech,D,23,1,covered
+Speech,E,8,2,covered

@@ -1,0 +1,189 @@
+{
+  "coverage": {
+    "themes_A_E": {
+      "present": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "gap": []
+    },
+    "all_types_present": [
+      "case",
+      "date",
+      "def",
+      "doc",
+      "id",
+      "multi",
+      "oos",
+      "orphan",
+      "persona",
+      "stance"
+    ],
+    "mandatory": {
+      ">=2 grounded case/statute": "3 grounded (['A3', 'E28', 'E29']) HIT",
+      ">=1 oos correctly out": "0 ok / 2 fail GAP  [FLAG oos grounded: ['X35', 'X36']]",
+      ">=1 identity": "2 (['X31', 'X32']) HIT",
+      ">=1 orphan-adjacent": "2 (['D21', 'X39']) HIT",
+      ">=1 date": "1 (['X34']) HIT",
+      ">=1 multi judicial~economic pair": "['X38'] HIT"
+    }
+  },
+  "flagged": [
+    {
+      "id": "C14",
+      "query": "What lessons did your years on the Supreme Court teach you?",
+      "type": "stance",
+      "theme": "C",
+      "grounding_status": "REVIEW_theme_mismatch",
+      "routed_theme": "A",
+      "routed_topic": "supreme_court_history",
+      "routed_cos": 0.6807,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "SA011::c001",
+        "SB042::c017",
+        "CC006::c002",
+        "CC002::c002",
+        "CC006::c006"
+      ],
+      "notes": "routed_theme A != tag C (topic supreme_court_history); human plausibility check."
+    },
+    {
+      "id": "C15",
+      "query": "What does justice mean to you personally?",
+      "type": "doc",
+      "theme": "C",
+      "grounding_status": "REVIEW_theme_mismatch",
+      "routed_theme": "A",
+      "routed_topic": "death_penalty_and_echegaray",
+      "routed_cos": 0.6437,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "BC001::c003",
+        "CC006::c002",
+        "SB028::c004",
+        "BC001::c002",
+        "SE036::c004"
+      ],
+      "notes": "routed_theme A != tag C (topic death_penalty_and_echegaray); human plausibility check."
+    },
+    {
+      "id": "C16",
+      "query": "How do you balance public duty with family life?",
+      "type": "stance",
+      "theme": "C",
+      "grounding_status": "REVIEW_theme_mismatch",
+      "routed_theme": "B",
+      "routed_topic": "twin_beacons_doctrine",
+      "routed_cos": 0.6101,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "SB028::c010",
+        "CE008::c003",
+        "SB028::c003",
+        "SE036::c001",
+        "SE036::c008"
+      ],
+      "notes": "routed_theme B != tag C (topic twin_beacons_doctrine); human plausibility check."
+    },
+    {
+      "id": "C17",
+      "query": "What qualities did you most admire in your colleagues on the bench?",
+      "type": "stance",
+      "theme": "C",
+      "grounding_status": "REVIEW_theme_mismatch",
+      "routed_theme": "D",
+      "routed_topic": "lawyer_ethics_initiative",
+      "routed_cos": 0.6036,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "SE036::c010",
+        "SB042::c017",
+        "CC002::c010",
+        "CE003::c008",
+        "CC002::c002"
+      ],
+      "notes": "routed_theme D != tag C (topic lawyer_ethics_initiative); human plausibility check."
+    },
+    {
+      "id": "D19",
+      "query": "What is the Foundation for Liberty and Prosperity?",
+      "type": "def",
+      "theme": "D",
+      "grounding_status": "REVIEW_theme_mismatch",
+      "routed_theme": "B",
+      "routed_topic": "twin_beacons_doctrine",
+      "routed_cos": 0.7174,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "SD016::c000",
+        "CB005::c002",
+        "SB040::c007",
+        "SB040::c008",
+        "SB028::c012"
+      ],
+      "notes": "routed_theme B != tag D (topic twin_beacons_doctrine); human plausibility check."
+    },
+    {
+      "id": "D22",
+      "query": "How does the foundation advance the rule of law?",
+      "type": "doc",
+      "theme": "D",
+      "grounding_status": "REVIEW_theme_mismatch",
+      "routed_theme": "A",
+      "routed_topic": "rule_of_law",
+      "routed_cos": 0.6784,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CA031::c000",
+        "CD003::c006",
+        "CA031::c001",
+        "CB003::c004",
+        "SB040::c008"
+      ],
+      "notes": "routed_theme A != tag D (topic rule_of_law); human plausibility check."
+    },
+    {
+      "id": "E25",
+      "query": "What was the significance of the 2016 South China Sea arbitral award?",
+      "type": "def",
+      "theme": "E",
+      "grounding_status": "REVIEW_theme_mismatch",
+      "routed_theme": "A",
+      "routed_topic": "international_law_disputes",
+      "routed_cos": 0.7291,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "CA010::c000",
+        "CA009::c000",
+        "CA013::c002",
+        "CA009::c001",
+        "CA009::c004"
+      ],
+      "notes": "routed_theme A != tag E (topic international_law_disputes); human plausibility check."
+    },
+    {
+      "id": "E30",
+      "query": "How should courts handle politically charged cases?",
+      "type": "doc",
+      "theme": "E",
+      "grounding_status": "REVIEW_theme_mismatch",
+      "routed_theme": "A",
+      "routed_topic": "judicial_activism_and_political_question",
+      "routed_cos": 0.6994,
+      "n_after_cutoff": 12,
+      "top_chunk_ids": [
+        "BD001::c000",
+        "BA009::c006",
+        "BD004::c005",
+        "CA005::c005",
+        "CA003::c000"
+      ],
+      "notes": "routed_theme A != tag E (topic judicial_activism_and_political_question); human plausibility check."
+    }
+  ],
+  "anecdote_docs_for_orphan": []
+}

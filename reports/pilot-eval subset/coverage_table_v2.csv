@@ -1,0 +1,30 @@
+﻿Coverage table v2: theme (A-E) x format. Cell = # selected docs. Target = 25 per theme (column totals).
+format,A,B,C,D,E,ROW_TOTAL
+Column,15,9,8,8,13,53
+Biography,0,0,6,0,0,6
+Book,5,5,4,8,8,30
+Speech,5,11,7,9,4,36
+COL_TOTAL,25,25,25,25,25,125
+
+GAP ANALYSIS (empty subset cell that HAS corpus docs = real gap)
+format,theme,corpus_docs,subset_docs,status
+Column,A,514,15,covered
+Column,B,18,9,covered
+Column,C,112,8,covered
+Column,D,24,8,covered
+Column,E,117,13,covered
+Biography,A,0,0,expected-empty (none in corpus)
+Biography,B,0,0,expected-empty (none in corpus)
+Biography,C,35,6,covered
+Biography,D,0,0,expected-empty (none in corpus)
+Biography,E,0,0,expected-empty (none in corpus)
+Book,A,41,5,covered
+Book,B,8,5,covered
+Book,C,20,4,covered
+Book,D,21,8,covered
+Book,E,25,8,covered
+Speech,A,44,5,covered
+Speech,B,21,11,covered
+Speech,C,58,7,covered
+Speech,D,23,9,covered
+Speech,E,8,4,covered

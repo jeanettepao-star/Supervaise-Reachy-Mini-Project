@@ -1,0 +1,28 @@
+﻿# FROZEN pilot subset — frozen as of 2026-06-26. IMMUTABLE: any later change requires a new versioned file (e.g. pilot_subset_frozen_v2.csv).
+# Pilot RUN+EVALUATION sample only — NOT the taxonomy-design set (full normalised corpus = W1.7). 25 docs.
+doc_id,theme,format,one_line_rationale
+BA009,A,Book,Orphaned topic: plagiarism / contempt & disciplinary actions in Book/A
+BA027,A,Book,Orphaned topic: reproductive-health / sanctity of life & marriage (RH law) in Book/A
+BB004,B,Book,Representative prosperity book chapter (rare Book/B cell): Intangible Wealth of Nations
+BC001,C,Book,Representative personal/biographical book chapter (Book/C)
+BD001,D,Book,Representative judicial-reform book chapter: How the SC Decides Cases (Book/D)
+BE001,E,Book,Representative current-events book chapter: GMA's Legacy (Book/E)
+CA003,A,Column,Representative mainstream constitutional-law column (ICC jurisdiction) anchoring the dominant Column/A bucket
+CA034,A,Column,AI-governance flagship: AI in justice and governance
+CA060,A,Column,Orphaned topic: indigenous peoples' legal aid (1 doc in corpus)
+CA242,A,Column,Orphaned topic: 'right to be forgotten' / data privacy (1 doc in corpus); also tech-governance
+CA330,A,Column,Orphaned topic: extrajudicial killings / drug-war due process (1 doc in corpus)
+CA377,A,Column,Orphaned topic: same-sex marriage (1 doc in corpus)
+CB001,B,Column,"AI-governance in the rare Column/B cell: AI fortifies liberty, prosperity, rule of law"
+CC069,C,Column,Orphaned topic: surrogacy (2 docs in corpus); represents personal-register Column/C
+CD022,D,Column,AI-governance: enforcing rights on surveillance capitalism (Column/D)
+CE011,E,Column,"AI-governance: robotics, for better or for worse (Column/E)"
+CE072,E,Column,Orphaned topic: agrarian reform (1 doc in corpus)
+GC001,C,Biography,"Representative biography format: Prologue, scene-setting narrative register"
+GC002,C,Biography,Second biography register: narrative life-story chapter (early life)
+SA049,A,Speech,Orphaned topic: intellectual property; jurisprudential disruption (legal-tech) in Speech/A
+SB085,B,Speech,Representative prosperity speech: How the Judiciary Can Help the Economy (Speech/B)
+SC153,C,Speech,"Representative personal/spiritual speech (Speech/C, the 58-doc bucket)"
+SD035,D,Speech,Orphaned topic: climate (1 doc in corpus); FLP Scholars Society (Speech/D)
+SE012,E,Speech,AI-governance flagship speech: PH Constitution and the Running Bulls of Technology (rare Speech/E)
+SE013,E,Speech,AI-governance: Three AI Takeaways (rare Speech/E)

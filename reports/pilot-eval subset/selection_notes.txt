@@ -1,0 +1,125 @@
+PILOT SUBSET — SELECTION NOTES
+Frozen as of: 2026-06-26
+Status: IMMUTABLE. Any later change requires a new versioned file (e.g. pilot_subset_frozen_v2.csv).
+
+PURPOSE / FRAMING
+-----------------
+This is the FROZEN sample the pilot RUNS against and is SCORED on — the pilot
+RUN + EVALUATION set. It is NOT the taxonomy-design set. The full normalised
+Panganiban corpus (1,089 docs) remains the taxonomy-design set (W1.7). This
+subset was chosen for representativeness and coverage, not size.
+
+TOTAL SELECTED: 25 documents  (requirement: strictly < 100; kept deliberately
+lean — the smallest set that satisfies every coverage rule below).
+
+SOURCE CORPUS (normalised, previous step)
+-----------------------------------------
+  cjp_columns_curated_normalized.csv     785 docs   (format C = Column)
+  cjp_biography_curated_normalized.xlsx   35 docs   (format G = Biography)
+  cjp_books_curated_normalized.xlsx      115 docs   (format B = Book)
+  cjp_speeches_curated_normalized.xlsx   154 docs   (format S = Speech)
+  TOTAL                                 1,089 docs
+
+CANONICAL ID
+------------
+doc_id = "Article Code" (the existing stable identifier; no new IDs invented).
+Every code is a fixed 5-char string: <format-letter><theme-letter><3 digits>.
+Verified unique within each file, no blanks, 1,089 globally unique codes, zero
+cross-file collisions. All 25 selected doc_ids were re-verified to resolve
+unchanged in the normalised corpus before freezing.
+
+FIELD -> THEME MAPPING  (themes A-E)
+------------------------------------
+theme = 2nd character of the Article Code. This is authoritative: the corpus
+codes encode the thematic bucket directly, per cjp_code_legend.xlsx
+("Themes (A-E)" + Books/Speeches Code Grammar sheets). Buckets:
+  A = Liberty & Rule of Law
+  B = Prosperity & Economic Philosophy
+  C = Biographical & Personal
+  D = FLP Mission / Foundation / Judicial Reform
+  E = Signature Current-Events Commentary
+(Cross-checked against primary_topics / sub_topics for each selected doc; the
+code-letter theme matched the topical content in every case.)
+
+FIELD -> FORMAT MAPPING  (register / series families)
+-----------------------------------------------------
+format = 1st character of the Article Code (the article-code family / corpus):
+  C = Column     (Inquirer "With Due Respect" newspaper op-ed register)
+  G = Biography  (narrative biographical chapters)
+  B = Book       (book chapters: With Due Respect Vols. 1-7 + A Centenary of Justice)
+  S = Speech     (speeches / addresses)
+The free-text register_markers field was reviewed as supplementary register
+signal but the article-code family is the canonical format axis. Every format
+present in the corpus (C, G, B, S) appears in the subset.
+
+"ORPHANED TOPIC" — DEFINITION
+-----------------------------
+A substantive subject keyword that appears in <= 2 documents out of 1,089
+(singleton or near-singleton), measured by a corpus-wide, case-folded tally of
+the Keyword/s tokens. Person-name-only tokens were ignored; only recognizable
+subject areas were treated as orphaned. Orphaned-topic docs were force-included
+even where they are the atypical representative of their cell (coverage beats
+cleanliness for mandatory inclusions).
+
+Orphaned topics treated as orphaned (corpus frequency in parentheses):
+  right to be forgotten / data privacy (1)  -> CA242
+  indigenous peoples' legal aid (1)         -> CA060
+  same-sex marriage (1)                     -> CA377
+  extrajudicial killings / drug-war due process (1) -> CA330
+  surrogacy (2)                             -> CC069
+  agrarian reform (1)                       -> CE072
+  reproductive-health / RH law (1)          -> BA027
+  plagiarism / contempt & discipline (1)    -> BA009
+  intellectual property (1)                 -> SA049
+  climate (1)                               -> SD035
+
+AI-GOVERNANCE / TECH-REGULATION (mandatory)
+-------------------------------------------
+8 docs spanning Column (A/B/D/E) and Speech (A/E):
+  CA034 AI in justice and governance
+  CA242 Right to be forgotten (data privacy; also orphan)
+  CB001 AI fortifies liberty, prosperity, rule of law
+  CD022 Enforcing rights on surveillance capitalism
+  CE011 Robotics, for better or for worse
+  SA049 An Ode to Jurisprudential Disruption (legal-tech; also orphan)
+  SE012 The PH Constitution and the Running Bulls of Technology (AI)
+  SE013 Three AI Takeaways
+Note: the Book corpus (2007-2011 chapters) predates the AI wave, so AI-governance
+content is concentrated in the later Column and Speech formats — expected, not a gap.
+
+COVERAGE RULES — STATUS
+-----------------------
+1. Size < 100: yes (25).
+2. Theme span A-E: yes (A=9, B=3, C=5, D=3, E=5).
+3. Format span (every format present): yes (Column, Biography, Book, Speech all present).
+4. Mandatory inclusions: AI-governance (8) + orphaned-topic (10) all included.
+5. Cleanliness: the normalisation reports recorded 0 unparseable JSON cells across
+   all four files, so every candidate is "clean"; within cells, self-contained docs
+   with full one_paragraph_summary were preferred.
+
+GAP CHECK
+---------
+All 16 theme x format cells that EXIST in the corpus are filled (>=1 doc each).
+The empty Biography A/B/D/E cells are STRUCTURALLY empty — the biography corpus is
+entirely theme C — so they are expected blanks, not coverage gaps. See
+coverage_table.csv "GAP ANALYSIS" section: no "*** GAP ***" rows.
+
+JUDGEMENT CALLS
+---------------
+- Column/A is the dominant corpus bucket (514 docs) and hosts most AI-governance
+  and several orphan topics, so it carries the most slots (6); this is intentional
+  weighting toward representativeness of the largest, most varied cell.
+- Several small cells (Column/B, Column/C, Column/D, Speech/A, Speech/D, Speech/E)
+  are represented by a mandatory AI-gov or orphan doc doing double duty rather than
+  a separate "plain mainstream" doc, to keep the set minimal. CA003 (ICC jurisdiction)
+  is included as one explicit mainstream constitutional-law anchor for Column/A.
+- The S-code anchor descriptions in the code legend (e.g. SC153) reflect an earlier
+  batch; selections were made against the ACTUAL normalised data titles/codes, which
+  are the source of truth.
+
+ARTIFACTS IN THIS FOLDER
+------------------------
+  pilot_subset_frozen.csv   - the immutable doc_id list (doc_id, theme, format, rationale)
+  coverage_table.csv        - theme x format matrix + row/col totals + gap analysis
+  forced_inclusions.csv     - the AI-governance and orphaned-topic force-included docs
+  selection_notes.txt       - this file
