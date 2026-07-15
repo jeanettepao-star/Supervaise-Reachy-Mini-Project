@@ -54,3 +54,6 @@ data/index/pilot_sparse.pkl
 
 # W1.7 full-corpus dense matrix — 36MB, regenerable on GPU in ~17min (build_corpus_dense.py)
 data/index/corpus_dense.npy
+
+# Scratch/temp eval outputs (underscore-prefixed) — never evidence
+eval/results/_*
