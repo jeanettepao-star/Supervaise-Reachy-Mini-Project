@@ -1,0 +1,198 @@
+{
+  "allowlist_file": "reports\\pilot-eval subset\\pilot_subset_frozen_v4.csv",
+  "application": {
+    "file_line": "app/retrieval.py:114 (_score_universe)",
+    "how": "dense_idx = [i for i,d in enumerate(doc_ids) if d in allowlist_doc_ids] — doc_id membership filter over the loaded pilot dense index; sparse arm filtered identically (retrieval.py:116). RETRIEVAL-TIME allowlist, not a chunking input.",
+    "loaded_via": "service._allowlist(\"v4\") reads pilot_subset_frozen_v4.csv col0"
+  },
+  "counts": {
+    "allowlist_docs": 95,
+    "pilot_index_docs": 95,
+    "pilot_index_chunks": 827,
+    "assert_95_docs": true,
+    "assert_827_chunks": true,
+    "allowlist==pilot_index_docs": true,
+    "store_docs_1089": 1089
+  },
+  "pin_status": {
+    "sha256": "2603daa3fd579901119e44f0e0327c9b8f248f733ec736fe54d2ca9d25b0365f",
+    "git_tracked": true,
+    "frozen_note": "CSV header: FROZEN v4 2026-06-27 IMMUTABLE (changes require v5)",
+    "onboarding_provenance_json": "NOT FOUND (provenance carried in CSV header + pilot_dense_meta.json derived_from/build_date)"
+  },
+  "seven_out_of_pilot_gold_crosscheck": {
+    "BA037": {
+      "in_allowlist": false,
+      "in_1089_store": true
+    },
+    "CA085": {
+      "in_allowlist": false,
+      "in_1089_store": true
+    },
+    "CA111": {
+      "in_allowlist": false,
+      "in_1089_store": true
+    },
+    "CA112": {
+      "in_allowlist": false,
+      "in_1089_store": true
+    },
+    "CA189": {
+      "in_allowlist": false,
+      "in_1089_store": true
+    },
+    "CA371": {
+      "in_allowlist": false,
+      "in_1089_store": true
+    },
+    "CC022": {
+      "in_allowlist": false,
+      "in_1089_store": true
+    }
+  },
+  "reachability_preview_set_logic": {
+    "A4": {
+      "gold": [
+        "CA111",
+        "CA112",
+        "CA085"
+      ],
+      "in": [],
+      "out": [
+        "CA111",
+        "CA112",
+        "CA085"
+      ],
+      "reachable_now": false,
+      "reachable_if_7_added": true
+    },
+    "X33": {
+      "gold": [
+        "BA037",
+        "CA371"
+      ],
+      "in": [],
+      "out": [
+        "BA037",
+        "CA371"
+      ],
+      "reachable_now": false,
+      "reachable_if_7_added": true
+    },
+    "E28": {
+      "gold": [
+        "CA189",
+        "CA112",
+        "CE007",
+        "CC022"
+      ],
+      "in": [
+        "CE007"
+      ],
+      "out": [
+        "CA189",
+        "CA112",
+        "CC022"
+      ],
+      "reachable_now": true,
+      "note": "CE007 already in allowlist -> E28 reachable now (not structural-zero)"
+    }
+  },
+  "doc_ids_95": [
+    "BA009",
+    "BA027",
+    "BB001",
+    "BB002",
+    "BB003",
+    "BC001",
+    "BC002",
+    "BD001",
+    "BD002",
+    "BD003",
+    "BD004",
+    "BD005",
+    "BD006",
+    "BE001",
+    "BE002",
+    "BE003",
+    "CA003",
+    "CA004",
+    "CA005",
+    "CA009",
+    "CA010",
+    "CA011",
+    "CA013",
+    "CA031",
+    "CA034",
+    "CA060",
+    "CA095",
+    "CA127",
+    "CA242",
+    "CA330",
+    "CA377",
+    "CB001",
+    "CB003",
+    "CB004",
+    "CB005",
+    "CB006",
+    "CB007",
+    "CB008",
+    "CC001",
+    "CC002",
+    "CC004",
+    "CC005",
+    "CC006",
+    "CC007",
+    "CC008",
+    "CC009",
+    "CC069",
+    "CD001",
+    "CD003",
+    "CD005",
+    "CD008",
+    "CD009",
+    "CD011",
+    "CD022",
+    "CE001",
+    "CE003",
+    "CE004",
+    "CE007",
+    "CE008",
+    "CE009",
+    "CE010",
+    "CE011",
+    "CE018",
+    "CE019",
+    "CE072",
+    "CE078",
+    "CE102",
+    "GC001",
+    "GC002",
+    "GC003",
+    "SA011",
+    "SA049",
+    "SB006",
+    "SB028",
+    "SB039",
+    "SB040",
+    "SB042",
+    "SB050",
+    "SB051",
+    "SB063",
+    "SB065",
+    "SC003",
+    "SC005",
+    "SC007",
+    "SC008",
+    "SC010",
+    "SD002",
+    "SD004",
+    "SD009",
+    "SD016",
+    "SD021",
+    "SD035",
+    "SE012",
+    "SE013",
+    "SE036"
+  ]
+}

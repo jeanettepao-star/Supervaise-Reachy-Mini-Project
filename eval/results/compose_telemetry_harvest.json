@@ -1,0 +1,64 @@
+{
+  "task": "W3 $0 compose-telemetry harvest (forensic, read-only)",
+  "api_spend_usd": 0.0,
+  "coverage_report": {
+    "sources_scanned": {
+      "v3_FULL_c1637cd": "NO usage, NO timing captured (only answer_snippet 160c + grounding flags). Cost/latency NOT recoverable from this run's own artifact.",
+      "W3.7_fc66b9e": "NO usage, NO timing (only answer 200c + cited + declined). directive-ON. Output ESTIMATABLE from text only; cost/latency NOT captured.",
+      "raw_logs_stdout": "per-query stdout logged grounding/decline only — NO usage object, NO timing.",
+      "gold_model_answer": "full-ish answer TEXT (~1048c) — usable as output-length proxy only.",
+      "arch_baseline_v2.json": "FULL telemetry: usage(4 buckets) + composer_ttft_ms + composer_ms for 40 composes at the v3-EQUIVALENT directive-OFF composer. THE recoverable measured set.",
+      "w2_1_baseline.json": "also has usage+ttft but flat-12 (pre-top-p) config — less representative; not used."
+    },
+    "TABLE_1_cost_fields": {
+      "input_tokens": "MEASURED (arch_baseline_v2, directive-OFF) / not_captured (v3-FULL,W3.7)",
+      "cache_creation/cache_read": "MEASURED (arch_baseline_v2) / not_captured (v3-FULL,W3.7)",
+      "output_tokens": "MEASURED (arch_baseline_v2) / estimated_from_text (W3.7 via gold) / not_captured (v3-FULL own)",
+      "cost_total": "MEASURED-derivable for directive-OFF (arch_baseline_v2 + logged rates); not for directive-ON"
+    },
+    "TABLE_3_latency_fields": {
+      "ttft_ms": "MEASURED (arch_baseline_v2, directive-OFF) / not_captured (v3-FULL,W3.7)",
+      "t_stream_generation_ms / t_total_compose_ms / tokens_per_sec": "MEASURED (arch_baseline_v2) / not_captured",
+      "ttfa_ms": "NOT recoverable anywhere — TTFA needs first-sentence TTS timing (W2.7 harness), never run alongside these composes. Only TTFT is measured; TTFA cannot be estimated without TTS.",
+      "verdict": "Compose LATENCY for the v3-FULL/W3.7 runs themselves = NOT captured. Nearest MEASURED latency = arch_baseline_v2 (directive-OFF, v3-equiv). directive-ON latency = fully unavailable."
+    },
+    "honest_bottom_line": "The v3-FULL and W3.7 runs recorded NO cost/latency. Real composer telemetry exists ONLY in arch_baseline_v2 (directive-OFF, v3-equivalent). directive-ON (W3.7) yields output-length estimates only; no measured cost, no timing. No latency is fabricated from text."
+  },
+  "provisional_estimate_directive_OFF": {
+    "LABEL": "PROVISIONAL composer estimate from arch-baseline-v2 — 40 REAL pre-instrumentation composes, directive-OFF, v3-EQUIVALENT config (MAX_TOKENS 640, softmax_temp/MIN_K4 nucleus, streamed, native). This is NOT the v3-FULL or W3.7 run instances (those captured NO telemetry) — it is the nearest MEASURED telemetry at the same composer config on the same 40 frozen queries. Compose is non-deterministic so per-query values differ run-to-run; use as a stage estimate, not per-query truth.",
+    "n_measured_composes": 40,
+    "regime_note": "pilot honest cost = UNCACHED (sporadic traffic > 5-min TTL).",
+    "output_tokens": {
+      "p50": 379.0,
+      "p95": 449.0,
+      "mean": 355.8
+    },
+    "cost_uncached_usd_per_query": {
+      "p50": 0.029,
+      "mean": 0.028,
+      "total_40": 1.1162
+    },
+    "ttft_ms": {
+      "p50": 1560.1,
+      "p95": 2677.6,
+      "mean": 1727.405
+    },
+    "t_total_compose_ms": {
+      "p50": 10447.3,
+      "p95": 12515.3
+    },
+    "tokens_per_sec": {
+      "p50": 40.99,
+      "mean": 42.219
+    },
+    "rate_constants": {
+      "input": 3.0,
+      "cache_write_5m": 3.75,
+      "cache_read": 0.3,
+      "output": 15.0
+    },
+    "model": "claude-sonnet-4-6"
+  },
+  "never_pooled": "directive-ON (W3.7) and directive-OFF (arch_baseline_v2) rows tagged + separate.",
+  "timestamp": "2026-07-11T01:19:31+08:00"
+}

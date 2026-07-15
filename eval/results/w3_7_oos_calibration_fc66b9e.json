@@ -1,0 +1,227 @@
+{
+  "task": "W3.7 OOS calibration (layered: loose gate + composer-decline backstop)",
+  "phase1_separation": {
+    "scope_signal": "query->nearest-centroid cosine (bge)",
+    "in_scope_cos_range": [
+      0.5744,
+      0.7769
+    ],
+    "out_cos": {
+      "X35": 0.5684,
+      "X36": 0.583
+    },
+    "meta_cos": {
+      "X31": 0.6267,
+      "X32": 0.5564
+    },
+    "gap_cos": {
+      "X39": 0.5904,
+      "X33": 0.787
+    },
+    "clean_single_threshold": false,
+    "out_max": 0.583,
+    "in_scope_min": 0.5744,
+    "would_falsely_decline_if_thr_gt_out_max": [
+      "C18",
+      "D24",
+      "E29",
+      "X32"
+    ],
+    "read": "OOS sits INSIDE the in-scope cosine band; centroid cosine cannot separate OOS -> no threshold."
+  },
+  "phase2_design": {
+    "decision": "LAYERED. Gate stays LOOSE (OUT_OF_SCOPE_THRESHOLD unchanged = coarse orphan-fallback bias, NOT the OOS mechanism). COMPOSER-DECLINE owns the OOS decision (designed backstop, config.COMPOSER_OOS_DECLINE_ENABLED=True), strengthened to catch X36.",
+    "oos_threshold_before": 0.15,
+    "oos_threshold_after": 0.15,
+    "owner_layer": "composer-decline (retrieval scope signal is non-discriminative for OOS)"
+  },
+  "phase2_reverify": {
+    "OUT_decline_X35_X36": true,
+    "META_identity_not_declined": true,
+    "GAP_answered_no_fabrication": true,
+    "in_scope_false_declines": [],
+    "false_decline_count": 0,
+    "GATE_pass": "PASS on verified in-scope (0/3 false-declines incl the 3 lowest-cosine near-band C18/D24/E29); 3 in-scope UNVERIFIED due to credit exhaustion (degraded on billing, not declined)",
+    "per_query": {
+      "X35": {
+        "qid": "X35",
+        "scope": "out",
+        "cited": [],
+        "fabricated": false,
+        "declined": true,
+        "n_cited": 0,
+        "answer": "That, I am afraid, is well outside my modest expertise! I am better suited to speak of the rule of law than the weather forecast. For today's conditions in Manila, a quick check of PAGASA or your phon",
+        "degraded": false
+      },
+      "X36": {
+        "qid": "X36",
+        "scope": "out",
+        "cited": [],
+        "fabricated": false,
+        "declined": true,
+        "n_cited": 0,
+        "answer": "That question, my friend, is delightfully outside my lane! I am a retired Chief Justice — I know constitutions, not cuisines; jurisprudence, not menus. For restaurant recommendations, I'm afraid you w",
+        "degraded": false
+      },
+      "X31": {
+        "qid": "X31",
+        "scope": "meta",
+        "cited": [
+          "SD035",
+          "SE036"
+        ],
+        "fabricated": false,
+        "declined": false,
+        "n_cited": 2,
+        "answer": "I am an AI conversation robot built by the Foundation for Liberty and Prosperity to share the institutional knowledge and experience of Chief Justice Artemio V. Panganiban — drawn from his speeches, c",
+        "degraded": false
+      },
+      "X32": {
+        "qid": "X32",
+        "scope": "meta",
+        "cited": [
+          "BC001",
+          "SD035",
+          "SC010",
+          "SB051",
+          "SD021"
+        ],
+        "fabricated": false,
+        "declined": false,
+        "n_cited": 5,
+        "answer": "What a wonderful question to begin with! Think of me as your guide to the ideas and experiences that have shaped my life's work — the rule of law, liberty and prosperity as twin and inseparable beacon",
+        "degraded": false
+      },
+      "X39": {
+        "qid": "X39",
+        "scope": "in(gap)",
+        "cited": [
+          "BC002"
+        ],
+        "fabricated": false,
+        "declined": false,
+        "n_cited": 1,
+        "answer": "One summer stands out vividly — my wife Leni and I had planned a full two weeks in the Alaskan wilderness. We had done similar journeys before: Machu Picchu, the Yellow Mountains of China, the thunder",
+        "degraded": false
+      },
+      "X33": {
+        "qid": "X33",
+        "scope": "in(gap-v4)",
+        "cited": [
+          "CE003"
+        ],
+        "fabricated": false,
+        "declined": false,
+        "n_cited": 1,
+        "answer": "The death penalty in the Philippines has had a turbulent history — imposed, suspended, reimposed, and ultimately abolished. I opposed it consistently, on two grounds that I considered inseparable: it ",
+        "degraded": false
+      },
+      "C18": {
+        "qid": "C18",
+        "scope": "in",
+        "cited": [
+          "SC010",
+          "SE036",
+          "CC008",
+          "CC006"
+        ],
+        "fabricated": false,
+        "declined": false,
+        "n_cited": 4,
+        "answer": "When I reflect on what brings me the deepest joy, it is not the titles — Associate Justice, Chief Justice — though I am grateful for them, unworthy as I was to hold them. It is the people.\n\nWhen my th",
+        "degraded": false
+      },
+      "D24": {
+        "qid": "D24",
+        "scope": "in",
+        "cited": [
+          "SB040",
+          "CD001",
+          "CC006"
+        ],
+        "fabricated": false,
+        "declined": false,
+        "n_cited": 3,
+        "answer": "The Foundation for Liberty and Prosperity was born from a simple conviction I have carried throughout my years on the bench — that liberty and prosperity are twin and inseparable beacons; one is usele",
+        "degraded": false
+      },
+      "E29": {
+        "qid": "E29",
+        "scope": "in",
+        "cited": [
+          "CA242",
+          "CA034",
+          "SA049"
+        ],
+        "fabricated": false,
+        "declined": false,
+        "n_cited": 3,
+        "answer": "The Data Privacy Act of 2012 stands as one of our more forward-looking pieces of legislation — enacted precisely \"to protect the fundamental human right of privacy of communication while ensuring free",
+        "degraded": false
+      },
+      "A1": {
+        "qid": "A1",
+        "scope": "in",
+        "cited": [],
+        "fabricated": false,
+        "declined": false,
+        "n_cited": 0,
+        "answer": "With due respect, I am unable to give that the considered answer it deserves just now. Let me reflect on it and get back to you.",
+        "degraded": true
+      },
+      "D20": {
+        "qid": "D20",
+        "scope": "in",
+        "cited": [],
+        "fabricated": false,
+        "declined": false,
+        "n_cited": 0,
+        "answer": "With due respect, I am unable to give that the considered answer it deserves just now. Let me reflect on it and get back to you.",
+        "degraded": true
+      },
+      "E27": {
+        "qid": "E27",
+        "scope": "in",
+        "cited": [],
+        "fabricated": false,
+        "declined": false,
+        "n_cited": 0,
+        "answer": "With due respect, I am unable to give that the considered answer it deserves just now. Let me reflect on it and get back to you.",
+        "degraded": true
+      }
+    },
+    "in_scope_verified_answered": [
+      "C18",
+      "D24",
+      "E29"
+    ],
+    "in_scope_verified_false_declines": [],
+    "in_scope_unverified_credit_exhaustion": [
+      "A1",
+      "D20",
+      "E27"
+    ],
+    "credit_exhaustion_note": "A1/D20/E27 returned the in-voice graceful-degradation fallback because the Anthropic API hit a 400 credit-balance-too-low mid-run — this is BILLING, not a decline and not caused by the OOS directive. They are unambiguously in-domain (rule of law / FLP scholarships / international law) and the directive is question-keyed, so they are expected to answer; re-verify the 3 after a credit top-up."
+  },
+  "caveat": "PROVISIONAL: calibrated/verified on only 2 OOS probes (X35,X36). Harden with more OOS probes (sports, cooking, personal advice, current-events, directions) before trusting broadly. Not overfit to 2.",
+  "provenance": {
+    "commit": "fc66b9e",
+    "oos_threshold_before": 0.15,
+    "oos_threshold_after": 0.15,
+    "composer_oos_decline_enabled": true,
+    "transport": "native_sdk",
+    "timestamp": "2026-07-09T03:05:14+08:00"
+  },
+  "acceptance_status": {
+    "OUT_X35_X36_decline": true,
+    "META_identity": true,
+    "GAP_no_fabrication": true,
+    "in_scope_false_declines_verified": 0,
+    "in_scope_verified_n": 3,
+    "in_scope_unverified_n": 3,
+    "clean_threshold_exists": false,
+    "design": "layered (loose gate + composer-decline backstop)",
+    "threshold_changed": false,
+    "provisional_2_probes": true
+  }
+}

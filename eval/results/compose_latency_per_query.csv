@@ -1,0 +1,2 @@
+query_id,t_request_build_ms,ttft_ms,t_stream_generation_ms,t_total_compose_ms,t_first_sentence_tts_ms,ttfa_ms,t_envelope_parse_ms,output_tokens,tokens_per_sec,expanded,t_expand_retry_ms,transport,degraded
+SELFTEST,,1500.0,8000.0,9500.0,90.0,1590.0,,400,50.0,False,,native_sdk,False

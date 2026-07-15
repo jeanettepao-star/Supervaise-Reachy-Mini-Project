@@ -1,0 +1,200 @@
+{
+  "task": "W3 $0 composition eval (A/B directive ON vs OFF + special-query quality)",
+  "method": "text+metadata extraction over EXISTING artifacts. ZERO API/composition/retrieval.",
+  "limitation": "Both runs persisted only answer SNIPPETS (OFF 160c / ON 200c) + citation metadata, not full answers. Degradation judged on OPENING + grounding metadata (cited-count, decline flag, fabrication, coverage), NOT full-body truncation. Fuller text would need re-compose (not done).",
+  "config_labels": {
+    "directive_ON_run": "w3_7_oos_calibration_fc66b9e.json (9 fresh; A1/D20/E27 billing-degraded EXCLUDED)",
+    "directive_OFF_run": "w3_2_FULL_v3_c1637cd.json (40; v3 canonical)",
+    "never_pooled": true
+  },
+  "A_in_scope_ab": {
+    "overlap_all": [
+      "X35",
+      "X36",
+      "X31",
+      "X32",
+      "X39",
+      "X33",
+      "C18",
+      "D24",
+      "E29"
+    ],
+    "in_scope_overlap": [
+      "C18",
+      "D24",
+      "E29"
+    ],
+    "in_scope_degradation_count": 0,
+    "degraded_qids": [],
+    "headline": "0 in-scope degradation -> OOS mechanism SAFE to commit",
+    "rows": [
+      {
+        "qid": "C18",
+        "scope": "in",
+        "config_off": "directive-OFF (v3/c1637cd)",
+        "config_on": "directive-ON (COMPOSER_OOS_DECLINE_ENABLED=True)",
+        "off_cited": [
+          "SC010",
+          "SE036",
+          "CC008",
+          "CC006"
+        ],
+        "on_cited": [
+          "SC010",
+          "SE036",
+          "CC008",
+          "CC006"
+        ],
+        "off_open": "When I reflect on this question, I must confess — the answer that surprises even me is not the ponencias, not the Chief Justiceship, not the column. It is the g",
+        "on_open": "When I reflect on what brings me the deepest joy, it is not the titles — Associate Justice, Chief Justice — though I am grateful for them, unworthy as I was to hold them. It is the people.\n\nWhen my th",
+        "degraded_by_directive": false,
+        "reason": "no degradation (ON cited 4 vs OFF 4; not declined; not fabricated)"
+      },
+      {
+        "qid": "D24",
+        "scope": "in",
+        "config_off": "directive-OFF (v3/c1637cd)",
+        "config_on": "directive-ON (COMPOSER_OOS_DECLINE_ENABLED=True)",
+        "off_cited": [
+          "SB040",
+          "SD035",
+          "CC006",
+          "CD001"
+        ],
+        "on_cited": [
+          "SB040",
+          "CD001",
+          "CC006"
+        ],
+        "off_open": "The Foundation for Liberty and Prosperity — the FLP — was organized in December 2011 to celebrate my 75th birthday. But it was more than a birthday gesture; it ",
+        "on_open": "The Foundation for Liberty and Prosperity was born from a simple conviction I have carried throughout my years on the bench — that liberty and prosperity are twin and inseparable beacons; one is usele",
+        "degraded_by_directive": false,
+        "reason": "no degradation (ON cited 3 vs OFF 4; not declined; not fabricated)"
+      },
+      {
+        "qid": "E29",
+        "scope": "in",
+        "config_off": "directive-OFF (v3/c1637cd)",
+        "config_on": "directive-ON (COMPOSER_OOS_DECLINE_ENABLED=True)",
+        "off_cited": [
+          "CA242",
+          "CA034",
+          "SA049"
+        ],
+        "on_cited": [
+          "CA242",
+          "CA034",
+          "SA049"
+        ],
+        "off_open": "The Data Privacy Act of 2012 — Republic Act No. 10173 — represents, in my humble opinion, one of our legislature's more farsighted acts. Its stated purpose is t",
+        "on_open": "The Data Privacy Act of 2012 stands as one of our more forward-looking pieces of legislation — enacted precisely \"to protect the fundamental human right of privacy of communication while ensuring free",
+        "degraded_by_directive": false,
+        "reason": "no degradation (ON cited 3 vs OFF 3; not declined; not fabricated)"
+      }
+    ]
+  },
+  "B_special_quality": {
+    "n": 6,
+    "fabrication_count": 0,
+    "all_behavior_correct": true,
+    "mean_persona": 4.67,
+    "rows": [
+      {
+        "qid": "X35",
+        "config": "directive-ON",
+        "scope_gold": "out",
+        "expected_behavior": "declined-correctly",
+        "behavior_correct": true,
+        "declined": true,
+        "cited": [],
+        "fabricated": false,
+        "persona_1_5": 5,
+        "opening": "That, I am afraid, is well outside my modest expertise! I am better suited to speak of the rule of law than the weather forecast. For today's conditions in Manila, a quick check of PAGASA or your phon",
+        "note": ""
+      },
+      {
+        "qid": "X36",
+        "config": "directive-ON",
+        "scope_gold": "out",
+        "expected_behavior": "declined-correctly",
+        "behavior_correct": true,
+        "declined": true,
+        "cited": [],
+        "fabricated": false,
+        "persona_1_5": 5,
+        "opening": "That question, my friend, is delightfully outside my lane! I am a retired Chief Justice — I know constitutions, not cuisines; jurisprudence, not menus. For restaurant recommendations, I'm afraid you w",
+        "note": ""
+      },
+      {
+        "qid": "X31",
+        "config": "directive-ON",
+        "scope_gold": "meta",
+        "expected_behavior": "identity",
+        "behavior_correct": true,
+        "declined": false,
+        "cited": [
+          "SD035",
+          "SE036"
+        ],
+        "fabricated": false,
+        "persona_1_5": 4,
+        "opening": "I am an AI conversation robot built by the Foundation for Liberty and Prosperity to share the institutional knowledge and experience of Chief Justice Artemio V. Panganiban — drawn from his speeches, c",
+        "note": "identity answer cited a corpus doc (not required for meta, not fabrication)"
+      },
+      {
+        "qid": "X32",
+        "config": "directive-ON",
+        "scope_gold": "meta",
+        "expected_behavior": "identity",
+        "behavior_correct": true,
+        "declined": false,
+        "cited": [
+          "BC001",
+          "SD035",
+          "SC010",
+          "SB051",
+          "SD021"
+        ],
+        "fabricated": false,
+        "persona_1_5": 5,
+        "opening": "What a wonderful question to begin with! Think of me as your guide to the ideas and experiences that have shaped my life's work — the rule of law, liberty and prosperity as twin and inseparable beacon",
+        "note": "identity answer cited a corpus doc (not required for meta, not fabrication)"
+      },
+      {
+        "qid": "X39",
+        "config": "directive-ON",
+        "scope_gold": "in(gap)",
+        "expected_behavior": "graceful-gap",
+        "behavior_correct": true,
+        "declined": false,
+        "cited": [
+          "BC002"
+        ],
+        "fabricated": false,
+        "persona_1_5": 5,
+        "opening": "One summer stands out vividly — my wife Leni and I had planned a full two weeks in the Alaskan wilderness. We had done similar journeys before: Machu Picchu, the Yellow Mountains of China, the thunder",
+        "note": ""
+      },
+      {
+        "qid": "X33",
+        "config": "directive-ON",
+        "scope_gold": "in(gap-v4)",
+        "expected_behavior": "graceful-gap",
+        "behavior_correct": true,
+        "declined": false,
+        "cited": [
+          "CE003"
+        ],
+        "fabricated": false,
+        "persona_1_5": 4,
+        "opening": "The death penalty in the Philippines has had a turbulent history — imposed, suspended, reimposed, and ultimately abolished. I opposed it consistently, on two grounds that I considered inseparable: it ",
+        "note": ""
+      }
+    ]
+  },
+  "provenance": {
+    "api_spend_usd": 0.0,
+    "sources": 3,
+    "timestamp": "2026-07-09T09:14:57+08:00"
+  }
+}

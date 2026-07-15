@@ -1,0 +1,51 @@
+task_id,task_name,planned_in_workbook,status,blocked_on,evidence,note
+W1.1,Stabilise codebase + unified config.py,Y,DONE,none,config.py|CHANGELOG.md,"~78+ knobs centralized; env-overridable"
+W1.2,(never defined in repo or session),UNKNOWN,UNKNOWN,none,UNKNOWN,"no evidence a W1.2 item ever existed"
+W1.3,Freeze pilot subset (v3 then v4 allowlist),Y,DONE,none,"reports/pilot-eval subset/pilot_subset_frozen_v4.csv","95 docs; v4 frozen 2026-06-27; v1-v3 retained"
+W1.4,Corpus prep + full-corpus chunking + doc store + pin,Y,DONE,none,"corpus/index/chunks.jsonl (8887/1089)|scripts/verify_pin.py PASS","heading-aware chunks; snapshot-pinned"
+W1.5,Embed pilot subset (runtime dense index),Y,DONE,none,"data/index/pilot_dense.npy + pilot_dense_meta.json (95/827; bge-large; cuda_fp32)",
+W1.6,Sparse arm (BM25 + atomic-phrase dictionary),Y,DONE,none,"data/index/pilot_sparse.pkl|sparse_phrase_dict.json|pilot_sparse_meta.json",
+W1.7,Topic map regeneration + 34 centroids,Y,DONE,none,"data/index/topic_centroids.npy + topic_centroids_meta.json (n_topics=34; merge 0.95; floor 0.68 locked)",
+W1.8,New retrieval architecture (Haiku-out / soft-prior / RRF / cutoff),Y,DONE,none,"app/retrieval.py|app/service.py|commit fc66b9e ancestors","llm_calls_before_composition==0 verified in every baseline"
+W1.8b,Transport remediation (schannel_curl fallback),UNKNOWN,DONE,none,"app/service.py _resolve_transport/_messages curl path","reactive task; native TLS preferred"
+W1.9,Latency logging + warmed baseline,Y,DONE,none,"baseline.json|baseline.jsonl|commit 340b843","10-query constructed stand-in set (pre-freeze)"
+W1.10,Week-1 lock decisions memo + pilot metrics targets,Y,PARTIAL,Sheena,"W1.10_Decisions_Memo.md + .docx (LOCAL-ONLY untracked)","artifact exists; sign-off status UNKNOWN; memo never committed"
+W1.11-PREP,Validate + freeze draft-query set (40q),Y,DONE,none,"reports/pilot-eval subset/draft_queries_v1.json frozen sha 65492b65|commit e43c199",
+W1.11,arch-baseline tag + first e2e anchor,Y,DONE,none,"tag arch-baseline (caa3c8c)|arch_baseline.json","40/40 native; $0.665 run cost recorded"
+W2.1,Sonnet composer + trailing ENVELOPE + guardrails,Y,DONE,none,"commits 4a115e5+3ef2e05|w2_1_baseline.json","COMPOSER_MAX_TOKENS=640; 0 truncation; graceful degradation proven live"
+W2.1-SMOKE,Sheena voice smoke-test (5 queries/theme qualitative),Y,NOT_STARTED,Sheena,UNKNOWN,"owed since W2.1; no artifact"
+W2.2,Payload slimming (COMPOSER_TOP_K / char budget),Y,DONE,none,"commit 0aedbd7|w2_2_payload_report.json","-48.8% input tokens measured on 9q probe; default ships behavior-preserving"
+W2.3,Prompt-cache boundary verification,Y,DONE,none,"commit 2bb64aa|w2_3_cache_report.json","no leak; stable cache_read; pilot cost = UNCACHED caveat"
+W2.4,Date index (temporal filter/boost),Y,DONE,none,"commit 2fdb918|data/index/date_index.json|eval/results/w2_4_date_index_selfcheck.json","ships DARK (DATE_INDEX_ENABLED=false); 1080/1089 dated; idempotent"
+W2.5,Theme-as-control-signal (bias not gate),Y,DONE,none,"app/retrieval.py soft-prior + global fallback (W1.8 code)","confirm-only; no new W2.5 code; tuning deferred W3.4"
+W2.6,Expand-on-demand fallback (1 bounded retry),Y,DONE,none,"commit fe75a3a|eval/results/w2_6_expand_report.json","ships DARK; hard-cap=1 proven; fire-rate 0/40 @floor=1"
+W2.7,Voice/TTS streaming + TTFA measurement,Y,PARTIAL,robot,"commits e97a062+73a4a12|w2_7_ttfa_v2_report.json|app/voice_stream.py","replay TTFA real-audio (SAPI) 2505ms p50 + 39/39 overlap proof; LIVE TTFA unmeasured; Linux/Piper TTS unverified"
+W2.7-SEAM,Reachy Responses-API seam design (design-only),Y,DONE,robot,"design/w2_7_reachy_seam.md + w2_7_seam_stubs.py (commit d24fb0f)","8 MUST-CONFIRM assumptions open; wake word unconfirmed"
+W3.1,(never defined in repo or session),UNKNOWN,UNKNOWN,none,UNKNOWN,
+W3.2,Retrieval + grounding quality eval on frozen anchor,Y,DONE,none,"eval/results/w3_2_FULL_v3_c1637cd.json (commit fc66b9e)|w3_2_REGRADE_v3_v4gold.json (e18e1d1)","canonical = regrade vs v4 gold: recall@5 0.971 N=34; fabrication 0/40"
+W3.3,Threshold/weight sweep vs anchor,Y,NOT_STARTED,none,UNKNOWN,"anchor + instrumentation ready; not begun"
+W3.4,Retrieval tuning (ranking cluster + B9 coverage),Y,NOT_STARTED,none,"targets identified in w3_2_REGRADE_v3_v4gold.json §B","B9 sole coverage miss; 8 rank-2/3 near-misses; single-citation watchlist in v3 provenance"
+W3.7,OOS calibration (decline mechanism),Y,PARTIAL,credits,"commit 2e40b2f (mechanism)|eval/results/w3_7_oos_calibration_fc66b9e.json (LOCAL-ONLY)","layered design; gate proven inert; 2/2 OOS decline; A1/D20/E27 re-verify blocked on billing; n=2 probes PROVISIONAL"
+W3.x-AB,End-to-end A/B with assessors (Frank/Kate),Y,NOT_STARTED,credits,"w3_compose_eval_ab_for_sheena.csv (winner blank; LOCAL-ONLY)","needs full-40 directive-ON corpus first"
+UNPLANNED-01,W2.x-TOPP top-p nucleus cutoff + degeneracy finding,N,DONE,none,"commit 5750b6e|reports/pilot-eval subset/w2_topp_report.json","flat-RRF top-p degenerate (~753/827 kept); flagged not fixed"
+UNPLANNED-02,W2.x-TOPP-2 adaptive softmax-temp nucleus + composer wiring,N,DONE,none,"commit 65ce85c|reports/pilot-eval subset/w2_topp2_report.json","temp=0.06; nucleus median 9; -28.8% chunk tokens; 0 grounding losses"
+UNPLANNED-03,arch-baseline-v2 re-baseline (MIN_K=4) + tag,N,DONE,none,"commit 704c8a6|tag arch-baseline-v2|arch_baseline_v2.json","40/40 native; answers persisted; chunks_sent mean 8.57"
+UNPLANNED-04,arch-baseline-v3 feature-complete re-baseline + tag,N,DONE,none,"tag arch-baseline-v3 (fe75a3a)|eval/results/arch_baseline_v3_provenance.json","both features DARK; retrieval byte-identical to v2 verified"
+UNPLANNED-05,W3.2 PARTIAL B+C (gold-blocked rescope) x2 transports,N,DONE,none,"eval/results/w3_2_PARTIAL_BC_73a4a12.json|w3_2_PARTIAL_BC_v3_c1637cd.json","fabrication 0/40 both; MIN_K KEEP-4; X33 curl-degraded ghost here"
+UNPLANNED-06,W3.2 re-grade vs v4-corrected gold ($0),N,DONE,none,"commit e18e1d1|eval/results/w3_2_REGRADE_v3_v4gold.json","THE canonical scorecard; A4/E28 now hit; B9 sole coverage miss"
+UNPLANNED-07,Retrieval latency instrumentation Table 2 (per-sub-stage),N,DONE,none,"app/retrieval.py run_timed (UNCOMMITTED)|scripts/run_latency_retrieval.py (UNTRACKED)|eval/results/latency_retrieval_$0.json (LOCAL-ONLY)","embed=86% bottleneck finding; router 0.19ms; NEVER committed"
+UNPLANNED-08,Cost/compose instrumentation schemas Tables 1+3 + guards,N,DONE,none,"scripts/eval_instrumentation.py (UNTRACKED)|cost_per_query_STUB.json|compose_latency_STUB.json (LOCAL-ONLY)","self-tests pass; auto-populate hook in run_arch_baseline_v2.py UNCOMMITTED"
+UNPLANNED-09,$0 compose telemetry harvest (pre-exhaustion recovery),N,DONE,none,"eval/results/compose_telemetry_harvest.json + harvested.csv (LOCAL-ONLY)","cost $0.028/q uncached measured; TTFA declared unrecoverable"
+UNPLANNED-10,$0 composition A/B eval (OOS commit gate),N,DONE,none,"eval/results/w3_compose_eval_0.json (LOCAL-ONLY)","in-scope degradation 0/3 -> gated the OOS commit; special-6 0 fabrication"
+UNPLANNED-11,Native-TLS preflight self-check + transport runbook,N,DONE,none,"commit 276cbdd|scripts/preflight_transport.py|docs/RUNBOOK_transport.md",
+UNPLANNED-12,Avast Service-host security profile (trim-back),N,DONE,none,"docs/RUNBOOK_transport.md §2 (OS-side; not auto-applied)","profile reverts on this box repeatedly (R1); reboot-fragile"
+UNPLANNED-13,Harness retrieved_docs persistence fix,N,DONE,none,"commit 803a7f9 (run_w3_2_full.py)|e18e1d1 (regrade CSV format proven)",
+UNPLANNED-14,Pilot-universe discovery (allowlist/pin/reachability),N,DONE,none,"eval/results/pilot_universe_report.json (LOCAL-ONLY)","asserts 95/827; 7 out-of-pilot gold crosscheck"
+UNPLANNED-15,Week-2 self-audit (evidence-based),N,DONE,none,UNKNOWN,"chat-deliverable only; no artifact written"
+UNPLANNED-16,Project health assessment (this review),N,DONE,none,"eval/results/project_health_assessment.md + task_status.csv (LOCAL-ONLY)",
+DEBT-01,Re-verify A1/D20/E27 in-scope post-OOS-directive,N,BLOCKED,credits,"w3_7_oos_calibration_fc66b9e.json §in_scope_unverified_credit_exhaustion","~3 composes"
+DEBT-02,Live TTFA measurement (compose->TTS stopwatch),N,BLOCKED,credits,"harvest: TTFA not recoverable|w2_7 harness ready","~5-10 composes"
+DEBT-03,Embedder ratification + on-device topology,N,BLOCKED,Dok,"pilot_dense_meta.json (bge pinned)|design/w2_7_reachy_seam.md open decision","MiniLM bake-off is $0-API prep"
+DEBT-04,Wake word confirmation,N,BLOCKED,Dev0,"design/w2_7_reachy_seam.md §f (Seejop/CJ garble; parameterized)",
+DEBT-05,SME confirm 6 low-confidence gold labels + 4-6 new OOS probes,N,BLOCKED,Sheena,"gold_reference_set.csv gold_confidence=low rows|w3_7 caveat",
+DEBT-06,Commit+push local-only work (instrumentation/evidence/memo),N,NOT_STARTED,none,"git status: 3 modified + 16 untracked (§1.5 of assessment)","top do-now item"
