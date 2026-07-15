@@ -101,10 +101,16 @@ def route(query: str, qv: np.ndarray | None = None) -> dict:
     }
 
 
-def _score_universe(query: str, allowlist_doc_ids: set, route_info: dict | None = None) -> dict:
+def _score_universe(query: str, allowlist_doc_ids: set, route_info: dict | None = None,
+                    timing: dict | None = None) -> dict:
     """Compute the per-candidate score components over ONE universe (allowlist):
     dense cosine, RRF-fused passage_sim, topic affinity, and the fused score.
-    Exposed so top-p can accumulate over different bases (W2.x-TOPP-2)."""
+    Exposed so top-p can accumulate over different bases (W2.x-TOPP-2).
+    [instrumentation] pass `timing` to record per-sub-stage ms; when None the code
+    path is byte-identical (no timer calls)."""
+    def _mark(k, t0):
+        if timing is not None:
+            timing[k] = round((time.perf_counter() - t0) * 1000, 3)
     mat, chunk_ids, doc_ids, chunk_cen_sims = _load_pilot()
     if route_info is None:
         route_info = route(query)
@@ -113,20 +119,25 @@ def _score_universe(query: str, allowlist_doc_ids: set, route_info: dict | None 
     # ---- candidate universes — dense over pilot chunks; sparse over SAME docs ----
     dense_idx = [i for i, d in enumerate(doc_ids) if d in allowlist_doc_ids]
     dense_set = {chunk_ids[i] for i in dense_idx}
+    _t = time.perf_counter()
     sparse_ranked = sparse.sparse_score(query, allowlist=allowlist_doc_ids, k=len(chunk_ids))
+    _mark("t_sparse_bm25_ms", _t)
     sparse_set = {cid for cid, _ in sparse_ranked}
     assert dense_set == sparse_set, (
         f"RRF universe mismatch: dense={len(dense_set)} sparse={len(sparse_set)}")
     universe = dense_set
 
+    _t = time.perf_counter()
     row_of = {cid: i for i, cid in enumerate(chunk_ids)}
     dsims = mat @ qv
     dense_cos = {cid: float(dsims[row_of[cid]]) for cid in universe}
     dense_rows = sorted(dense_idx, key=lambda i: -dsims[i])
     dense_rank = {chunk_ids[i]: r for r, i in enumerate(dense_rows, start=1)}
+    _mark("t_dense_search_ms", _t)
     sparse_rank = {cid: r for r, (cid, sc) in enumerate(
         [(c, s) for c, s in sparse_ranked if s > 0], start=1)}
 
+    _t = time.perf_counter()
     K = config.RRF_K
     rrf = {}
     for cid in universe:
@@ -137,13 +148,16 @@ def _score_universe(query: str, allowlist_doc_ids: set, route_info: dict | None 
     rmax, rmin = max(rrf.values()), min(rrf.values())
     passage_sim = {cid: (rrf[cid] - rmin) / (rmax - rmin) if rmax > rmin else 1.0
                    for cid in universe}
+    _mark("t_rrf_fusion_ms", _t)
 
+    _t = time.perf_counter()
     relevance = route_info["relevance"]
     if not route_info["in_scope"]:
         relevance = np.full_like(relevance, 1.0 / len(relevance))   # global fallback
     affinity = {cid: float(chunk_cen_sims[row_of[cid]] @ relevance) for cid in universe}
     lam = config.LAMBDA
     score = {cid: passage_sim[cid] + lam * affinity[cid] for cid in universe}
+    _mark("t_centroid_score_ms", _t)
 
     return {"universe": universe, "score": score, "dense_cos": dense_cos,
             "passage_sim": passage_sim, "affinity": affinity,
@@ -295,3 +309,28 @@ def run(query: str, allowlist_doc_ids: set) -> dict:
     rr = retrieve(query, allowlist_doc_ids, route_info=ri); t["retrieve_rrf_cutoff_ms"] = round((time.perf_counter() - t0) * 1000, 1)
     return {"gate": gate, "route": ri, "retrieval": rr, "timing": t,
             "llm_calls_before_composition": 0}
+
+
+def run_timed(query: str, allowlist_doc_ids: set) -> dict:
+    """[instrumentation] Twin of run() with FINE per-sub-stage retrieval timing.
+    Same scoring/behavior as run() (adds timers only); NO composition. Splits the
+    lumped 'router' into t_query_embed_ms (bge GPU) vs t_router_ms (the soft-prior
+    routing math) so the ~542ms 'router' can be attributed to the right stage."""
+    T = {}
+    def mark(k, t0): T[k] = round((time.perf_counter() - t0) * 1000, 3)
+    t0 = time.perf_counter(); input_gate(query); mark("t_input_gate_ms", t0)
+    t0 = time.perf_counter(); qv = embeddings.embed_query(query); mark("t_query_embed_ms", t0)
+    t0 = time.perf_counter(); ri = route(query, qv=qv); mark("t_router_ms", t0)   # soft-prior routing math only
+    st = {}
+    su = _score_universe(query, allowlist_doc_ids, route_info=ri, timing=st)       # dense/sparse/rrf/centroid
+    T.update(st)
+    t0 = time.perf_counter(); nuc = select_nucleus(su); mark("t_cutoff_ms", t0)
+    t0 = time.perf_counter()
+    score = su["score"]
+    selected = [(c, round(score[c], 4)) for c in nuc["kept"]]                      # payload (chunk selection)
+    mark("t_payload_assembly_ms", t0)
+    stages = ("t_input_gate_ms", "t_query_embed_ms", "t_router_ms", "t_sparse_bm25_ms",
+              "t_dense_search_ms", "t_rrf_fusion_ms", "t_centroid_score_ms",
+              "t_cutoff_ms", "t_payload_assembly_ms")
+    T["t_retrieval_total_ms"] = round(sum(T.get(s, 0.0) for s in stages), 3)
+    return {"timing": T, "chunks_returned": len(nuc["kept"]), "route": ri, "selected": selected}

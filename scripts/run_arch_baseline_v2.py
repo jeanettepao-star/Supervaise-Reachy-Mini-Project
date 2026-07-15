@@ -132,6 +132,14 @@ def main(argv=None):
         "queries": recs,
     }
     OUT_JSON.write_text(json.dumps(out, ensure_ascii=config.JSON_ENSURE_ASCII, indent=2) + "\n", encoding=config.OUTPUT_ENCODING)
+    # [instrumentation] auto-populate TABLE 1 (cost) + TABLE 3 (compose latency).
+    # Guarded so an instrumentation failure can never break the baseline run.
+    try:
+        from eval_instrumentation import emit_from_records
+        emit_from_records(recs, transport)
+        print("[instrumentation] cost_per_query.csv + compose_latency_per_query.csv auto-populated")
+    except Exception as _e:
+        print(f"[instrumentation] skipped: {_e}", file=sys.stderr)
     print("\n=== arch-baseline-v2 (warmed p50/p95 ms | measured %d/40) ===" % len(succ))
     for s in stages:
         print(f"  {s:18} p50={summ[s]['p50']:>9} p95={summ[s]['p95']:>9}")
