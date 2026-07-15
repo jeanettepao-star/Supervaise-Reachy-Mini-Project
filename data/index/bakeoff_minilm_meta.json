@@ -1,0 +1,10 @@
+{
+  "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+  "dim": 384,
+  "n_chunks": 827,
+  "normalize": true,
+  "prefixes": "none (symmetric model; bge uses query prefix — noted)",
+  "chunk_set_sha256": "fbda7dd69bbb6b14e85453cc38fada06d767d23c2db650b01547d8c72b74060e",
+  "parallel_artifact": "NEVER wired into production",
+  "built": "2026-07-16T02:27:47+08:00"
+}

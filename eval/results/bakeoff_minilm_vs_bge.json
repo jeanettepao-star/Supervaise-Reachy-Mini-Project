@@ -1,0 +1,1482 @@
+{
+  "task": "$0 MiniLM bake-off prep (decision input for Dok; NOT a switch)",
+  "production_untouched": "config embedder stays BAAI/bge-large-en-v1.5; bakeoff_* artifacts parallel-only",
+  "method": {
+    "grading": "identical to w3_2_REGRADE_v3_v4gold.json — scope-aware, N=34, hit@k over deduped parent-doc ranks; BM25/RRF/soft-prior/nucleus params unchanged",
+    "minilm_prefixes": "none (symmetric model); bge uses its query prefix — a modeling difference inherent to the models, not an unfairness",
+    "centroids": "MiniLM = member-pilot-chunk means (topic_map doc_ids; merged ids unioned); production bge centroids are field+exemplar-built — like-for-like member-mean bge separation also reported"
+  },
+  "recall_side_by_side": {
+    "bge_large_canonical": {
+      "1": 0.735,
+      "3": 0.941,
+      "5": 0.971,
+      "10": 0.971
+    },
+    "minilm_measured": {
+      "1": 0.559,
+      "3": 0.824,
+      "5": 0.853,
+      "10": 1.0
+    },
+    "N": 34
+  },
+  "per_query_diffs_hit1_or_hit5": [
+    {
+      "qid": "A1",
+      "bge_hit@1": true,
+      "minilm_hit@1": false,
+      "bge_hit@5": true,
+      "minilm_hit@5": true,
+      "bge_best_rank": 1,
+      "minilm_best_rank": 2
+    },
+    {
+      "qid": "A2",
+      "bge_hit@1": false,
+      "minilm_hit@1": true,
+      "bge_hit@5": true,
+      "minilm_hit@5": true,
+      "bge_best_rank": 2,
+      "minilm_best_rank": 1
+    },
+    {
+      "qid": "A4",
+      "bge_hit@1": false,
+      "minilm_hit@1": false,
+      "bge_hit@5": true,
+      "minilm_hit@5": false,
+      "bge_best_rank": 3,
+      "minilm_best_rank": 6
+    },
+    {
+      "qid": "B8",
+      "bge_hit@1": true,
+      "minilm_hit@1": false,
+      "bge_hit@5": true,
+      "minilm_hit@5": true,
+      "bge_best_rank": 1,
+      "minilm_best_rank": 2
+    },
+    {
+      "qid": "B9",
+      "bge_hit@1": false,
+      "minilm_hit@1": false,
+      "bge_hit@5": false,
+      "minilm_hit@5": true,
+      "bge_best_rank": null,
+      "minilm_best_rank": 5
+    },
+    {
+      "qid": "B10",
+      "bge_hit@1": false,
+      "minilm_hit@1": true,
+      "bge_hit@5": true,
+      "minilm_hit@5": true,
+      "bge_best_rank": 2,
+      "minilm_best_rank": 1
+    },
+    {
+      "qid": "B12",
+      "bge_hit@1": true,
+      "minilm_hit@1": false,
+      "bge_hit@5": true,
+      "minilm_hit@5": true,
+      "bge_best_rank": 1,
+      "minilm_best_rank": 3
+    },
+    {
+      "qid": "C13",
+      "bge_hit@1": true,
+      "minilm_hit@1": false,
+      "bge_hit@5": true,
+      "minilm_hit@5": true,
+      "bge_best_rank": 1,
+      "minilm_best_rank": 2
+    },
+    {
+      "qid": "D19",
+      "bge_hit@1": true,
+      "minilm_hit@1": false,
+      "bge_hit@5": true,
+      "minilm_hit@5": false,
+      "bge_best_rank": 1,
+      "minilm_best_rank": 7
+    },
+    {
+      "qid": "D23",
+      "bge_hit@1": false,
+      "minilm_hit@1": false,
+      "bge_hit@5": true,
+      "minilm_hit@5": false,
+      "bge_best_rank": 2,
+      "minilm_best_rank": 8
+    },
+    {
+      "qid": "D24",
+      "bge_hit@1": true,
+      "minilm_hit@1": false,
+      "bge_hit@5": true,
+      "minilm_hit@5": true,
+      "bge_best_rank": 1,
+      "minilm_best_rank": 2
+    },
+    {
+      "qid": "E26",
+      "bge_hit@1": true,
+      "minilm_hit@1": false,
+      "bge_hit@5": true,
+      "minilm_hit@5": true,
+      "bge_best_rank": 1,
+      "minilm_best_rank": 2
+    },
+    {
+      "qid": "E28",
+      "bge_hit@1": false,
+      "minilm_hit@1": false,
+      "bge_hit@5": true,
+      "minilm_hit@5": false,
+      "bge_best_rank": 4,
+      "minilm_best_rank": 9
+    },
+    {
+      "qid": "X37",
+      "bge_hit@1": true,
+      "minilm_hit@1": false,
+      "bge_hit@5": true,
+      "minilm_hit@5": false,
+      "bge_best_rank": 1,
+      "minilm_best_rank": 7
+    }
+  ],
+  "B9_check": {
+    "bge": "coverage miss (gold never retrieved)",
+    "minilm_best_gold_rank": 5,
+    "minilm_hit@5": true
+  },
+  "rank_cluster_check": [
+    {
+      "qid": "A2",
+      "bge_best_rank": 2,
+      "minilm_best_rank": 1,
+      "minilm_hit@1": true
+    },
+    {
+      "qid": "A4",
+      "bge_best_rank": 3,
+      "minilm_best_rank": 6,
+      "minilm_hit@1": false
+    },
+    {
+      "qid": "B10",
+      "bge_best_rank": 2,
+      "minilm_best_rank": 1,
+      "minilm_hit@1": true
+    },
+    {
+      "qid": "C17",
+      "bge_best_rank": 2,
+      "minilm_best_rank": 3,
+      "minilm_hit@1": false
+    },
+    {
+      "qid": "C18",
+      "bge_best_rank": 2,
+      "minilm_best_rank": 3,
+      "minilm_hit@1": false
+    },
+    {
+      "qid": "D23",
+      "bge_best_rank": 2,
+      "minilm_best_rank": 8,
+      "minilm_hit@1": false
+    },
+    {
+      "qid": "E28",
+      "bge_best_rank": 4,
+      "minilm_best_rank": 9,
+      "minilm_hit@1": false
+    },
+    {
+      "qid": "E29",
+      "bge_best_rank": 3,
+      "minilm_best_rank": 2,
+      "minilm_hit@1": false
+    }
+  ],
+  "centroid_separation_mean_pairwise_cos": {
+    "bge_production_fieldbuilt": 0.8354,
+    "bge_member_mean_likeforlike": 0.9218,
+    "minilm_member_mean": 0.7736,
+    "note": "higher mean pairwise cosine = blurrier dimensions. Production bge centroids were field+exemplar-built (topic_centroids_meta centroid_source_fields), so the member-mean rows are the like-for-like comparison.",
+    "thin_topics_lt3_pilot_members": [
+      [
+        "death_penalty_and_echegaray",
+        0
+      ],
+      [
+        "honors_received",
+        0
+      ],
+      [
+        "robot_identity_meta",
+        0
+      ]
+    ]
+  },
+  "latency_benches": {
+    "all-MiniLM-L6-v2|cuda": {
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "device": "cuda",
+      "model_load_s": 1.82,
+      "rss_delta_mb": "MEASUREMENT_FAILED (WorkingSet delta 0.0 — use params x 4B fp32 estimate)",
+      "params_millions": 22.7,
+      "same_query_20x": {
+        "cold_first_ms": 2254.4,
+        "warm_rest_ms": {
+          "p50": 25.7,
+          "p95": 31.0,
+          "mean": 25.9
+        }
+      },
+      "anchor_40": {
+        "p50": 26.8,
+        "p95": 33.3,
+        "mean": 27.2
+      }
+    },
+    "all-MiniLM-L6-v2|cpu": {
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "device": "cpu",
+      "model_load_s": 1.13,
+      "rss_delta_mb": "MEASUREMENT_FAILED (WorkingSet delta 0.0 — use params x 4B fp32 estimate)",
+      "params_millions": 22.7,
+      "same_query_20x": {
+        "cold_first_ms": 211.5,
+        "warm_rest_ms": {
+          "p50": 40.0,
+          "p95": 43.1,
+          "mean": 40.1
+        }
+      },
+      "anchor_40": {
+        "p50": 44.0,
+        "p95": 52.3,
+        "mean": 44.3
+      }
+    },
+    "bge-large-en-v1.5|cuda": {
+      "model": "BAAI/bge-large-en-v1.5",
+      "device": "cuda",
+      "model_load_s": 11.79,
+      "rss_delta_mb": "MEASUREMENT_FAILED (WorkingSet delta 0.0 — use params x 4B fp32 estimate)",
+      "params_millions": 335.1,
+      "same_query_20x": {
+        "cold_first_ms": 6486.5,
+        "warm_rest_ms": {
+          "p50": 88.9,
+          "p95": 306.4,
+          "mean": 119.9
+        }
+      },
+      "anchor_40": {
+        "p50": 90.5,
+        "p95": 307.2,
+        "mean": 154.7
+      }
+    },
+    "bge-large-en-v1.5|cpu": {
+      "model": "BAAI/bge-large-en-v1.5",
+      "device": "cpu",
+      "model_load_s": 1.62,
+      "rss_delta_mb": "MEASUREMENT_FAILED (WorkingSet delta 0.0 — use params x 4B fp32 estimate)",
+      "params_millions": 335.1,
+      "same_query_20x": {
+        "cold_first_ms": 5819.1,
+        "warm_rest_ms": {
+          "p50": 766.8,
+          "p95": 999.9,
+          "mean": 784.1
+        }
+      },
+      "anchor_40": {
+        "p50": 858.6,
+        "p95": 1107.4,
+        "mean": 886.6
+      }
+    }
+  },
+  "footprint": {
+    "minilm": {
+      "params_M": 22.7,
+      "disk_mb": 91.6,
+      "rss_delta_mb_cpu": 0.0,
+      "vectors_827_mb": 1.27,
+      "vectors_8887_mb": 13.65
+    },
+    "bge_large": {
+      "params_M": 335.1,
+      "disk_mb": 1341.7,
+      "rss_delta_mb_cpu": 0.0,
+      "vectors_827_mb": 3.39,
+      "vectors_8887_mb": 36.4
+    }
+  },
+  "recommendation_frame": "NOT a decision. Frame for Dok: bge-large if HOST-SIDE topology (recall is canonical, RAM/latency irrelevant off-device); MiniLM-or-quantized-bge if ON-DEVICE (CM4), given the recall delta and CPU/footprint numbers above.",
+  "provenance": {
+    "commit": "d86e976",
+    "api_spend_usd": 0.0,
+    "timestamp": "2026-07-16T02:32:53+08:00"
+  },
+  "per_query": [
+    {
+      "qid": "A1",
+      "scope_gold": "in",
+      "gold": [
+        "CA031",
+        "SB028"
+      ],
+      "retrieved_docs": [
+        "CB001",
+        "CA031",
+        "SB028",
+        "CB003",
+        "CD003",
+        "BD003",
+        "CA004",
+        "CD005",
+        "BD005",
+        "CE004",
+        "CA242",
+        "CE003",
+        "SB040",
+        "CE018",
+        "CB006"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 2
+    },
+    {
+      "qid": "A2",
+      "scope_gold": "in",
+      "gold": [
+        "BD001",
+        "BD002"
+      ],
+      "retrieved_docs": [
+        "BD002",
+        "SB065",
+        "CC006",
+        "CA034",
+        "BD001",
+        "BD005",
+        "CA127",
+        "SB040",
+        "SA011",
+        "CA004",
+        "CA095",
+        "CA031",
+        "BD003",
+        "CA330",
+        "SB042"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "A3",
+      "scope_gold": "in",
+      "gold": [
+        "CA242"
+      ],
+      "retrieved_docs": [
+        "CA242",
+        "BD003",
+        "BD005",
+        "BD001",
+        "BC001",
+        "BA009",
+        "CA377",
+        "CA330",
+        "SA011",
+        "BD004",
+        "CC002",
+        "CA127",
+        "CA034",
+        "CA003",
+        "CE003"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "A4",
+      "scope_gold": "in",
+      "gold": [
+        "CA377"
+      ],
+      "retrieved_docs": [
+        "SE036",
+        "CE003",
+        "CD009",
+        "SA049",
+        "SB065",
+        "CA377",
+        "CA034",
+        "BD001",
+        "BD002",
+        "CA095",
+        "SB028",
+        "SD035",
+        "SA011",
+        "CA127",
+        "BE002"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "hit@10": true,
+      "best_gold_rank": 6
+    },
+    {
+      "qid": "A5",
+      "scope_gold": "in",
+      "gold": [
+        "CA095",
+        "CA127"
+      ],
+      "retrieved_docs": [
+        "CA095",
+        "GC001",
+        "BD003",
+        "CD009",
+        "SA049",
+        "BD004",
+        "BD002",
+        "SB028",
+        "BD001",
+        "BD005",
+        "SD002",
+        "BE001",
+        "BD006",
+        "CC006",
+        "CD003"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "A6",
+      "scope_gold": "in",
+      "gold": [
+        "CA330",
+        "CA004",
+        "CA005"
+      ],
+      "retrieved_docs": [
+        "CA004",
+        "CA005",
+        "BA009",
+        "CA330",
+        "BD001",
+        "BE001",
+        "SA049",
+        "CE003",
+        "BD003",
+        "BE002",
+        "CA377",
+        "SE013",
+        "SB028",
+        "CA242",
+        "BD004"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "B7",
+      "scope_gold": "in",
+      "gold": [
+        "SB028",
+        "SB040"
+      ],
+      "retrieved_docs": [
+        "SB040",
+        "CB005",
+        "SD016",
+        "SB028",
+        "SB051",
+        "SA011",
+        "CB006",
+        "SD035",
+        "CB003",
+        "CC006",
+        "SD021",
+        "SC008",
+        "SD002",
+        "CD001",
+        "CD022"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "B8",
+      "scope_gold": "in",
+      "gold": [
+        "SA011",
+        "SB028"
+      ],
+      "retrieved_docs": [
+        "CD005",
+        "SB028",
+        "SD016",
+        "SA011",
+        "CC002",
+        "SE036",
+        "CC008",
+        "SB065",
+        "CB001",
+        "CB003",
+        "SB040",
+        "CC006",
+        "CB008",
+        "BE002",
+        "BC001"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 2
+    },
+    {
+      "qid": "B9",
+      "scope_gold": "in",
+      "gold": [
+        "CB006",
+        "CB005",
+        "CB007"
+      ],
+      "retrieved_docs": [
+        "CD003",
+        "CD008",
+        "SD021",
+        "CB008",
+        "CB006",
+        "SD009",
+        "SB028",
+        "CD011",
+        "SD016",
+        "CB003",
+        "SB042",
+        "CE019",
+        "SD004",
+        "CA060",
+        "SB051"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 5
+    },
+    {
+      "qid": "B10",
+      "scope_gold": "in",
+      "gold": [
+        "SD021",
+        "CD008"
+      ],
+      "retrieved_docs": [
+        "CD008",
+        "SD016",
+        "SD009",
+        "SD021",
+        "SB006",
+        "SD004",
+        "CB003",
+        "SD002",
+        "BB001",
+        "CD003",
+        "SE013",
+        "SA011",
+        "CB005",
+        "CD001",
+        "CE072"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "B11",
+      "scope_gold": "in",
+      "gold": [
+        "CB007",
+        "CB005"
+      ],
+      "retrieved_docs": [
+        "CB005",
+        "SB040",
+        "BD002",
+        "CB007",
+        "CA095",
+        "BD005",
+        "CA330",
+        "CA031",
+        "CC069",
+        "CA127",
+        "CC007",
+        "CD009",
+        "CB008",
+        "CA003",
+        "CE102"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "B12",
+      "scope_gold": "in",
+      "gold": [
+        "SB028",
+        "CB008"
+      ],
+      "retrieved_docs": [
+        "SD035",
+        "CB006",
+        "SB028",
+        "CB008",
+        "SD016",
+        "SB040",
+        "SB051",
+        "BE002",
+        "SD002",
+        "SB063",
+        "CA031",
+        "SE036",
+        "CD011",
+        "CA330",
+        "CC006"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 3
+    },
+    {
+      "qid": "C13",
+      "scope_gold": "in",
+      "gold": [
+        "BC001"
+      ],
+      "retrieved_docs": [
+        "SE036",
+        "BC001",
+        "SD016",
+        "SB028",
+        "SB042",
+        "CC009",
+        "CD009",
+        "CC006",
+        "CB008",
+        "CC002",
+        "SC010",
+        "SC005",
+        "SA011",
+        "CB004",
+        "CE007"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 2
+    },
+    {
+      "qid": "C14",
+      "scope_gold": "in",
+      "gold": [
+        "BC001",
+        "SA011",
+        "CC002"
+      ],
+      "retrieved_docs": [
+        "SA011",
+        "CC002",
+        "SE036",
+        "SB042",
+        "BD003",
+        "CC006",
+        "CC007",
+        "SD016",
+        "CB007",
+        "CA034",
+        "BC001",
+        "SD035",
+        "BD001",
+        "SB050",
+        "CC001"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "C15",
+      "scope_gold": "in",
+      "gold": [
+        "BC001"
+      ],
+      "retrieved_docs": [
+        "BC001",
+        "CC006",
+        "SA011",
+        "CB007",
+        "CA034",
+        "SB051",
+        "CA330",
+        "SE036",
+        "BD004",
+        "BE002",
+        "CC005",
+        "SB028",
+        "BD002",
+        "CC001",
+        "CC002"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "C16",
+      "scope_gold": "in",
+      "gold": [
+        "CC001"
+      ],
+      "retrieved_docs": [
+        "CC001",
+        "CC009",
+        "SB050",
+        "SB028",
+        "BE002",
+        "SE036",
+        "SD035",
+        "CA095",
+        "BD001",
+        "SD002",
+        "SD016",
+        "BD003",
+        "BC001",
+        "CC006",
+        "SA011"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "C17",
+      "scope_gold": "in",
+      "gold": [
+        "CC002",
+        "SB042"
+      ],
+      "retrieved_docs": [
+        "SE036",
+        "SB050",
+        "CC002",
+        "CE003",
+        "SC005",
+        "SA011",
+        "CE008",
+        "BD005",
+        "CC006",
+        "SD035",
+        "SB065",
+        "CC004",
+        "SD002",
+        "CD005",
+        "SE013"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 3
+    },
+    {
+      "qid": "C18",
+      "scope_gold": "in",
+      "gold": [
+        "SC010",
+        "CC008"
+      ],
+      "retrieved_docs": [
+        "SE036",
+        "SD002",
+        "CC008",
+        "SC010",
+        "SB063",
+        "CC002",
+        "SB028",
+        "SC005",
+        "CC006",
+        "SB006",
+        "SA011",
+        "SB050",
+        "CC009",
+        "SD004",
+        "CC005"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 3
+    },
+    {
+      "qid": "D19",
+      "scope_gold": "in",
+      "gold": [
+        "SD016"
+      ],
+      "retrieved_docs": [
+        "SB051",
+        "CB005",
+        "CB006",
+        "SB028",
+        "SA011",
+        "SB040",
+        "SD016",
+        "SD021",
+        "SD002",
+        "CC006",
+        "SD009",
+        "SC007",
+        "SD004",
+        "SB063",
+        "SE013"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "hit@10": true,
+      "best_gold_rank": 7
+    },
+    {
+      "qid": "D20",
+      "scope_gold": "in",
+      "gold": [
+        "CD003",
+        "CD001",
+        "CD005"
+      ],
+      "retrieved_docs": [
+        "CD001",
+        "CD005",
+        "SD016",
+        "SD002",
+        "SA011",
+        "SB006",
+        "SD035",
+        "CD011",
+        "SD021",
+        "CB003",
+        "BD002",
+        "CD022",
+        "SB028",
+        "CD008",
+        "CC006"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "D21",
+      "scope_gold": "in",
+      "gold": [
+        "SD002",
+        "SC007"
+      ],
+      "retrieved_docs": [
+        "SD002",
+        "SD021",
+        "SD016",
+        "CD008",
+        "SA011",
+        "SD004",
+        "SC007",
+        "SB028",
+        "SB040",
+        "CB005",
+        "CB004",
+        "SB051",
+        "CB006",
+        "SB006",
+        "SB063"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "D22",
+      "scope_gold": "in",
+      "gold": [
+        "CB003",
+        "CD003",
+        "CA031"
+      ],
+      "retrieved_docs": [
+        "CD003",
+        "SB028",
+        "CB003",
+        "SA011",
+        "SB040",
+        "CA034",
+        "CB001",
+        "CA031",
+        "SA049",
+        "BD003",
+        "SE012",
+        "CB008",
+        "SB051",
+        "CD022",
+        "SC008"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "D23",
+      "scope_gold": "in",
+      "gold": [
+        "CD008",
+        "SB050"
+      ],
+      "retrieved_docs": [
+        "SD016",
+        "SD021",
+        "SC005",
+        "CB004",
+        "SB028",
+        "SE036",
+        "SD009",
+        "SB050",
+        "SB063",
+        "CD008",
+        "CC005",
+        "SC003",
+        "BB001",
+        "CB005",
+        "CA031"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "hit@10": true,
+      "best_gold_rank": 8
+    },
+    {
+      "qid": "D24",
+      "scope_gold": "in",
+      "gold": [
+        "SB050",
+        "SD035",
+        "SD016"
+      ],
+      "retrieved_docs": [
+        "CB005",
+        "SB050",
+        "SC005",
+        "SB040",
+        "SD035",
+        "SD016",
+        "SB063",
+        "CC006",
+        "SC007",
+        "SB028",
+        "SC008",
+        "SB006",
+        "SA011",
+        "SD009",
+        "SE012"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 2
+    },
+    {
+      "qid": "E25",
+      "scope_gold": "in",
+      "gold": [
+        "CA010",
+        "CA009"
+      ],
+      "retrieved_docs": [
+        "CA010",
+        "CA013",
+        "CA011",
+        "CA009",
+        "CA031",
+        "SB063",
+        "CD022",
+        "CE001",
+        "CE009",
+        "SD021",
+        "SC005",
+        "SD002",
+        "SB039",
+        "BE002",
+        "CE003"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "E26",
+      "scope_gold": "in",
+      "gold": [
+        "CA003"
+      ],
+      "retrieved_docs": [
+        "CA009",
+        "CA003",
+        "CD009",
+        "CE003",
+        "CA031",
+        "BD002",
+        "CC006",
+        "SB065",
+        "CE007",
+        "CA013",
+        "SB028",
+        "BD005",
+        "BE002",
+        "SE036",
+        "CA010"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 2
+    },
+    {
+      "qid": "E27",
+      "scope_gold": "in",
+      "gold": [
+        "CA009",
+        "CE003"
+      ],
+      "retrieved_docs": [
+        "CA009",
+        "CE003",
+        "CA010",
+        "BD003",
+        "CA011",
+        "SB028",
+        "CB006",
+        "CA013",
+        "SB051",
+        "CE072",
+        "SB040",
+        "SE012",
+        "BD001",
+        "SA049",
+        "CB007"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "E28",
+      "scope_gold": "in",
+      "gold": [
+        "CE007"
+      ],
+      "retrieved_docs": [
+        "BD003",
+        "CA377",
+        "BD001",
+        "CE008",
+        "BA009",
+        "SA011",
+        "BD005",
+        "CA034",
+        "CE007",
+        "SA049",
+        "CC007",
+        "CC002",
+        "CA003",
+        "SB040",
+        "SD016"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "hit@10": true,
+      "best_gold_rank": 9
+    },
+    {
+      "qid": "E29",
+      "scope_gold": "in",
+      "gold": [
+        "CA242"
+      ],
+      "retrieved_docs": [
+        "CA034",
+        "CA242",
+        "SA049",
+        "CE004",
+        "SE012",
+        "CE102",
+        "SE013",
+        "CC069",
+        "CD022",
+        "CA330",
+        "CE008",
+        "SA011",
+        "SB065",
+        "CE078",
+        "SE036"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 2
+    },
+    {
+      "qid": "E30",
+      "scope_gold": "in",
+      "gold": [
+        "BD001"
+      ],
+      "retrieved_docs": [
+        "BD001",
+        "BD004",
+        "BA009",
+        "BD002",
+        "BD005",
+        "CA005",
+        "CA127",
+        "BD003",
+        "CA003",
+        "CA034",
+        "CE007",
+        "BD006",
+        "CC004",
+        "CA095",
+        "CA377"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "X31",
+      "scope_gold": "meta",
+      "gold": [],
+      "retrieved_docs": [
+        "SB050",
+        "SE036",
+        "SE013",
+        "SD016",
+        "SC005",
+        "SD035",
+        "SD002",
+        "SB065",
+        "SE012",
+        "SD004",
+        "SB028",
+        "CC009",
+        "SA011",
+        "CC008",
+        "SB042"
+      ]
+    },
+    {
+      "qid": "X32",
+      "scope_gold": "meta",
+      "gold": [],
+      "retrieved_docs": [
+        "SB065",
+        "SC010",
+        "SD002",
+        "SB050",
+        "SB028",
+        "SD035",
+        "CB006",
+        "SE036",
+        "CB008",
+        "BE002",
+        "SB042",
+        "CC008",
+        "CC002",
+        "SB051",
+        "SD021"
+      ]
+    },
+    {
+      "qid": "X33",
+      "scope_gold": "in(gap-v4)",
+      "gold": [],
+      "retrieved_docs": [
+        "CA003",
+        "CA242",
+        "BE003",
+        "CE008",
+        "CE003",
+        "CD009",
+        "BD003",
+        "CA009",
+        "BD002",
+        "BD005",
+        "CA031",
+        "GC001",
+        "SE012",
+        "CA010",
+        "CA005"
+      ]
+    },
+    {
+      "qid": "X34",
+      "scope_gold": "in",
+      "gold": [
+        "CA010",
+        "CA009"
+      ],
+      "retrieved_docs": [
+        "CA010",
+        "CA013",
+        "CA009",
+        "CA011",
+        "CA031",
+        "CE009",
+        "CB007",
+        "CE001",
+        "CE003",
+        "CA060",
+        "SB006",
+        "BD003",
+        "BC002",
+        "CA005",
+        "SD016"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "X35",
+      "scope_gold": "out",
+      "gold": [],
+      "retrieved_docs": [
+        "GC001",
+        "BC002",
+        "SC003",
+        "SB039",
+        "SD002",
+        "SB040",
+        "SC008",
+        "SC007",
+        "SB006",
+        "SC010",
+        "CC008",
+        "CD008",
+        "CB007",
+        "CC007",
+        "SE012"
+      ]
+    },
+    {
+      "qid": "X36",
+      "scope_gold": "out",
+      "gold": [],
+      "retrieved_docs": [
+        "SB042",
+        "SD016",
+        "SD002",
+        "CE018",
+        "CB005",
+        "SD021",
+        "BB002",
+        "SE036",
+        "SB039",
+        "CD011",
+        "SC010",
+        "SB040",
+        "SE013",
+        "SD035",
+        "CC008"
+      ]
+    },
+    {
+      "qid": "X37",
+      "scope_gold": "in",
+      "gold": [
+        "CA031",
+        "SB028"
+      ],
+      "retrieved_docs": [
+        "BE002",
+        "SB051",
+        "CA034",
+        "CB006",
+        "CB005",
+        "CD003",
+        "CA031",
+        "SB028",
+        "CB003",
+        "CA127",
+        "CB008",
+        "SB040",
+        "BD002",
+        "CA009",
+        "CE072"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "hit@10": true,
+      "best_gold_rank": 7
+    },
+    {
+      "qid": "X38",
+      "scope_gold": "in",
+      "gold": [
+        "SB028",
+        "CA095"
+      ],
+      "retrieved_docs": [
+        "SB028",
+        "CB008",
+        "CB005",
+        "SA011",
+        "SB040",
+        "SD021",
+        "SD002",
+        "SE036",
+        "CB004",
+        "SB042",
+        "SD035",
+        "SE012",
+        "SA049",
+        "CC009",
+        "CC004"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1
+    },
+    {
+      "qid": "X39",
+      "scope_gold": "in(gap)",
+      "gold": [],
+      "retrieved_docs": [
+        "BC002",
+        "CC008",
+        "SD035",
+        "SC010",
+        "SD002",
+        "SB039",
+        "SB042",
+        "SC005",
+        "SE036",
+        "CC006",
+        "CC002",
+        "BC001",
+        "SE013",
+        "SB050",
+        "SD016"
+      ]
+    },
+    {
+      "qid": "X40",
+      "scope_gold": "in",
+      "gold": [
+        "CC002",
+        "SB028"
+      ],
+      "retrieved_docs": [
+        "SB028",
+        "SE036",
+        "SD016",
+        "SA011",
+        "CC008",
+        "CD003",
+        "SB050",
+        "BC001",
+        "SD021",
+        "SD002",
+        "CC002",
+        "CD009",
+        "CC005",
+        "BE003",
+        "BE002"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "best_gold_rank": 1
+    }
+  ],
+  "gold_incident_note": "First grading pass ran against a stale gold (a git checkout -- during DEBT-1 reverted Sheena UNCOMMITTED v4 corrections; the 44/44 numstat was misread as CRLF-only). Gold grading columns repaired from the committed regrade record (e18e1d1) and re-graded here (N=34). Non-grading columns (titles/summaries/model_answer/review_status) may contain unrecovered v4 edits — Sheena to re-verify."
+}
