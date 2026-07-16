@@ -1,0 +1,1574 @@
+{
+  "task": "$0 bake-off ROUND 3 (A fp32 / B MiniLM / C bge-base / D bge-large-int8)",
+  "production_untouched": true,
+  "grading": "canonical method, repaired v4 gold, N=34; recall@chunks-sent graded at each query's canonical v3 chunks_sent (median 9, range 4-12)",
+  "recall": {
+    "A_bge_large_fp32": {
+      "1": 0.735,
+      "3": 0.941,
+      "5": 0.971,
+      "10": 0.971,
+      "chunks_sent": 0.971,
+      "source": "canonical regrade + arch_baseline_v2 chunk ids"
+    },
+    "B_minilm_384": {
+      "1": 0.559,
+      "3": 0.824,
+      "5": 0.853,
+      "10": 1.0,
+      "chunks_sent": 0.912
+    },
+    "C_bge_base_768": {
+      "1": 0.618,
+      "3": 0.882,
+      "5": 0.882,
+      "10": 0.971,
+      "chunks_sent": 0.941
+    },
+    "D_bge_large_int8": {
+      "1": 0.735,
+      "3": 0.941,
+      "5": 0.971,
+      "10": 1.0,
+      "chunks_sent": 0.971
+    }
+  },
+  "analysis_C_D": {
+    "C": {
+      "hit5_diffs_vs_A": [
+        {
+          "qid": "A4",
+          "A_hit@5": true,
+          "cand_hit@5": false,
+          "A_best_rank": 3,
+          "cand_best_rank": null
+        },
+        {
+          "qid": "E28",
+          "A_hit@5": true,
+          "cand_hit@5": false,
+          "A_best_rank": 4,
+          "cand_best_rank": 6
+        },
+        {
+          "qid": "X40",
+          "A_hit@5": true,
+          "cand_hit@5": false,
+          "A_best_rank": 1,
+          "cand_best_rank": 6
+        }
+      ],
+      "B9": {
+        "best_rank": 6,
+        "hit@5": false
+      },
+      "cluster": [
+        {
+          "qid": "A2",
+          "A_best_rank": 2,
+          "cand_best_rank": 2,
+          "hit@1": false
+        },
+        {
+          "qid": "A4",
+          "A_best_rank": 3,
+          "cand_best_rank": null,
+          "hit@1": false
+        },
+        {
+          "qid": "B10",
+          "A_best_rank": 2,
+          "cand_best_rank": 2,
+          "hit@1": false
+        },
+        {
+          "qid": "C17",
+          "A_best_rank": 2,
+          "cand_best_rank": 1,
+          "hit@1": true
+        },
+        {
+          "qid": "C18",
+          "A_best_rank": 2,
+          "cand_best_rank": 3,
+          "hit@1": false
+        },
+        {
+          "qid": "D23",
+          "A_best_rank": 2,
+          "cand_best_rank": 1,
+          "hit@1": true
+        },
+        {
+          "qid": "E28",
+          "A_best_rank": 4,
+          "cand_best_rank": 6,
+          "hit@1": false
+        },
+        {
+          "qid": "E29",
+          "A_best_rank": 3,
+          "cand_best_rank": 2,
+          "hit@1": false
+        }
+      ]
+    },
+    "D": {
+      "hit5_diffs_vs_A": [],
+      "B9": {
+        "best_rank": 10,
+        "hit@5": false
+      },
+      "cluster": [
+        {
+          "qid": "A2",
+          "A_best_rank": 2,
+          "cand_best_rank": 2,
+          "hit@1": false
+        },
+        {
+          "qid": "A4",
+          "A_best_rank": 3,
+          "cand_best_rank": 3,
+          "hit@1": false
+        },
+        {
+          "qid": "B10",
+          "A_best_rank": 2,
+          "cand_best_rank": 2,
+          "hit@1": false
+        },
+        {
+          "qid": "C17",
+          "A_best_rank": 2,
+          "cand_best_rank": 2,
+          "hit@1": false
+        },
+        {
+          "qid": "C18",
+          "A_best_rank": 2,
+          "cand_best_rank": 2,
+          "hit@1": false
+        },
+        {
+          "qid": "D23",
+          "A_best_rank": 2,
+          "cand_best_rank": 2,
+          "hit@1": false
+        },
+        {
+          "qid": "E28",
+          "A_best_rank": 4,
+          "cand_best_rank": 4,
+          "hit@1": false
+        },
+        {
+          "qid": "E29",
+          "A_best_rank": 3,
+          "cand_best_rank": 3,
+          "hit@1": false
+        }
+      ]
+    }
+  },
+  "int8_fidelity_cos10": 1.0,
+  "centroid_stats": {
+    "A_production_fieldbuilt": {
+      "mean": 0.8354,
+      "p5": 0.741,
+      "p95": 0.9038
+    },
+    "B_minilm_member_mean": {
+      "mean": 0.7736,
+      "p5": 0.5244,
+      "p95": 0.9568
+    },
+    "C_bgebase_member_mean": {
+      "mean": 0.9171,
+      "p5": 0.8197,
+      "p95": 0.984
+    },
+    "D_bgelarge_int8_member_mean": {
+      "mean": 0.9218,
+      "p5": 0.8333,
+      "p95": 0.9848
+    },
+    "caveat": "mean pairwise cosine is NOT comparable across models (bge compresses the cosine range); per-model p5-p95 given as context.",
+    "zero_member_topics_neutral_fallback": [
+      "death_penalty_and_echegaray",
+      "honors_received",
+      "robot_identity_meta"
+    ]
+  },
+  "latency_benches": {
+    "bge-base-en-v1.5|cuda": {
+      "model": "BAAI/bge-base-en-v1.5",
+      "device": "cuda",
+      "model_load_s": 36.41,
+      "rss_after_load_mb": "MEASUREMENT_FAILED",
+      "params_millions": 109.5,
+      "same_query_20x": {
+        "cold_first_ms": 43.9,
+        "warm_rest_ms": {
+          "p50": 35.0,
+          "p95": 38.6
+        }
+      },
+      "anchor_40": {
+        "p50": 35.1,
+        "p95": 40.9
+      }
+    },
+    "bge-base-en-v1.5|cpu": {
+      "model": "BAAI/bge-base-en-v1.5",
+      "device": "cpu",
+      "model_load_s": 29.47,
+      "rss_after_load_mb": "MEASUREMENT_FAILED",
+      "params_millions": 109.5,
+      "same_query_20x": {
+        "cold_first_ms": 220.2,
+        "warm_rest_ms": {
+          "p50": 203.5,
+          "p95": 229.3
+        }
+      },
+      "anchor_40": {
+        "p50": 216.3,
+        "p95": 248.2
+      }
+    },
+    "bge-large-en-v1.5+int8|cpu": {
+      "model": "BAAI/bge-large-en-v1.5+int8",
+      "device": "cpu",
+      "model_load_s": 45.83,
+      "rss_after_load_mb": "MEASUREMENT_FAILED",
+      "params_millions": 335.1,
+      "same_query_20x": {
+        "cold_first_ms": 728.0,
+        "warm_rest_ms": {
+          "p50": 705.8,
+          "p95": 752.6
+        }
+      },
+      "anchor_40": {
+        "p50": 780.4,
+        "p95": 979.0
+      }
+    },
+    "CARRIED_r2|all-MiniLM-L6-v2|cuda": {
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "device": "cuda",
+      "model_load_s": 1.82,
+      "rss_delta_mb": "MEASUREMENT_FAILED (WorkingSet delta 0.0 — use params x 4B fp32 estimate)",
+      "params_millions": 22.7,
+      "same_query_20x": {
+        "cold_first_ms": 2254.4,
+        "warm_rest_ms": {
+          "p50": 25.7,
+          "p95": 31.0,
+          "mean": 25.9
+        }
+      },
+      "anchor_40": {
+        "p50": 26.8,
+        "p95": 33.3,
+        "mean": 27.2
+      }
+    },
+    "CARRIED_r2|all-MiniLM-L6-v2|cpu": {
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "device": "cpu",
+      "model_load_s": 1.13,
+      "rss_delta_mb": "MEASUREMENT_FAILED (WorkingSet delta 0.0 — use params x 4B fp32 estimate)",
+      "params_millions": 22.7,
+      "same_query_20x": {
+        "cold_first_ms": 211.5,
+        "warm_rest_ms": {
+          "p50": 40.0,
+          "p95": 43.1,
+          "mean": 40.1
+        }
+      },
+      "anchor_40": {
+        "p50": 44.0,
+        "p95": 52.3,
+        "mean": 44.3
+      }
+    },
+    "CARRIED_r2|bge-large-en-v1.5|cuda": {
+      "model": "BAAI/bge-large-en-v1.5",
+      "device": "cuda",
+      "model_load_s": 11.79,
+      "rss_delta_mb": "MEASUREMENT_FAILED (WorkingSet delta 0.0 — use params x 4B fp32 estimate)",
+      "params_millions": 335.1,
+      "same_query_20x": {
+        "cold_first_ms": 6486.5,
+        "warm_rest_ms": {
+          "p50": 88.9,
+          "p95": 306.4,
+          "mean": 119.9
+        }
+      },
+      "anchor_40": {
+        "p50": 90.5,
+        "p95": 307.2,
+        "mean": 154.7
+      }
+    },
+    "CARRIED_r2|bge-large-en-v1.5|cpu": {
+      "model": "BAAI/bge-large-en-v1.5",
+      "device": "cpu",
+      "model_load_s": 1.62,
+      "rss_delta_mb": "MEASUREMENT_FAILED (WorkingSet delta 0.0 — use params x 4B fp32 estimate)",
+      "params_millions": 335.1,
+      "same_query_20x": {
+        "cold_first_ms": 5819.1,
+        "warm_rest_ms": {
+          "p50": 766.8,
+          "p95": 999.9,
+          "mean": 784.1
+        }
+      },
+      "anchor_40": {
+        "p50": 858.6,
+        "p95": 1107.4,
+        "mean": 886.6
+      }
+    }
+  },
+  "footprint": {
+    "A_bge_large_fp32": {
+      "params_M": 335.1,
+      "fp32_ram_est_mb": 1340,
+      "disk_mb": "see r2 artifact",
+      "vec827_mb": 3.39,
+      "vec8887_mb": 36.4
+    },
+    "B_minilm": {
+      "params_M": 22.7,
+      "fp32_ram_est_mb": 91,
+      "vec827_mb": 1.27,
+      "vec8887_mb": 13.65
+    },
+    "C_bge_base": {
+      "params_M": 109.5,
+      "fp32_ram_est_mb": 437,
+      "vec827_mb": 2.54,
+      "vec8887_mb": 27.3
+    },
+    "D_bge_large_int8": {
+      "params_M": 335.1,
+      "ram_est_mb": "~400-500 (int8 Linear weights ~1/4 of the ~1.2GB Linear share + fp32 rest)",
+      "disk": "runtime-quantized from the fp32 snapshot (no separate artifact)",
+      "vec827_mb": 3.39,
+      "vec8887_mb": 36.4
+    }
+  },
+  "provenance": {
+    "commit": "690a508",
+    "api_spend_usd": 0.0,
+    "timestamp": "2026-07-16T13:20:21+08:00"
+  },
+  "per_query": {
+    "B": {
+      "A1": {
+        "qid": "A1",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 5,
+        "best_rank": 2
+      },
+      "A2": {
+        "qid": "A2",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 11,
+        "best_rank": 1
+      },
+      "A3": {
+        "qid": "A3",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 7,
+        "best_rank": 1
+      },
+      "A4": {
+        "qid": "A4",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 6
+      },
+      "A5": {
+        "qid": "A5",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 4,
+        "best_rank": 1
+      },
+      "A6": {
+        "qid": "A6",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 1
+      },
+      "B7": {
+        "qid": "B7",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 9,
+        "best_rank": 1
+      },
+      "B8": {
+        "qid": "B8",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 4,
+        "best_rank": 2
+      },
+      "B9": {
+        "qid": "B9",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 9,
+        "best_rank": 5
+      },
+      "B10": {
+        "qid": "B10",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 9,
+        "best_rank": 1
+      },
+      "B11": {
+        "qid": "B11",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 8,
+        "best_rank": 1
+      },
+      "B12": {
+        "qid": "B12",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 3
+      },
+      "C13": {
+        "qid": "C13",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 2
+      },
+      "C14": {
+        "qid": "C14",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 4,
+        "best_rank": 1
+      },
+      "C15": {
+        "qid": "C15",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 5,
+        "best_rank": 1
+      },
+      "C16": {
+        "qid": "C16",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 5,
+        "best_rank": 1
+      },
+      "C17": {
+        "qid": "C17",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 10,
+        "best_rank": 3
+      },
+      "C18": {
+        "qid": "C18",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 3
+      },
+      "D19": {
+        "qid": "D19",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": true,
+        "hit@sent": false,
+        "k_sent": 9,
+        "best_rank": 7
+      },
+      "D20": {
+        "qid": "D20",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 4,
+        "best_rank": 1
+      },
+      "D21": {
+        "qid": "D21",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 9,
+        "best_rank": 1
+      },
+      "D22": {
+        "qid": "D22",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 6,
+        "best_rank": 1
+      },
+      "D23": {
+        "qid": "D23",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": true,
+        "hit@sent": false,
+        "k_sent": 8,
+        "best_rank": 8
+      },
+      "D24": {
+        "qid": "D24",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 9,
+        "best_rank": 2
+      },
+      "E25": {
+        "qid": "E25",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 1
+      },
+      "E26": {
+        "qid": "E26",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 7,
+        "best_rank": 2
+      },
+      "E27": {
+        "qid": "E27",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 9,
+        "best_rank": 1
+      },
+      "E28": {
+        "qid": "E28",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": true,
+        "hit@sent": false,
+        "k_sent": 10,
+        "best_rank": 9
+      },
+      "E29": {
+        "qid": "E29",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 8,
+        "best_rank": 2
+      },
+      "E30": {
+        "qid": "E30",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 7,
+        "best_rank": 1
+      },
+      "X31": {
+        "qid": "X31",
+        "scope": "meta"
+      },
+      "X32": {
+        "qid": "X32",
+        "scope": "meta"
+      },
+      "X33": {
+        "qid": "X33",
+        "scope": "in(gap-v4)"
+      },
+      "X34": {
+        "qid": "X34",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 1
+      },
+      "X35": {
+        "qid": "X35",
+        "scope": "out"
+      },
+      "X36": {
+        "qid": "X36",
+        "scope": "out"
+      },
+      "X37": {
+        "qid": "X37",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 7
+      },
+      "X38": {
+        "qid": "X38",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 1
+      },
+      "X39": {
+        "qid": "X39",
+        "scope": "in(gap)"
+      },
+      "X40": {
+        "qid": "X40",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 1
+      }
+    },
+    "C": {
+      "A1": {
+        "qid": "A1",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 5,
+        "best_rank": 1
+      },
+      "A2": {
+        "qid": "A2",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 11,
+        "best_rank": 2
+      },
+      "A3": {
+        "qid": "A3",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 7,
+        "best_rank": 1
+      },
+      "A4": {
+        "qid": "A4",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": false,
+        "hit@sent": false,
+        "k_sent": 12,
+        "best_rank": null
+      },
+      "A5": {
+        "qid": "A5",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 4,
+        "best_rank": 1
+      },
+      "A6": {
+        "qid": "A6",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 1
+      },
+      "B7": {
+        "qid": "B7",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 9,
+        "best_rank": 1
+      },
+      "B8": {
+        "qid": "B8",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 4,
+        "best_rank": 1
+      },
+      "B9": {
+        "qid": "B9",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": true,
+        "hit@sent": false,
+        "k_sent": 9,
+        "best_rank": 6
+      },
+      "B10": {
+        "qid": "B10",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 9,
+        "best_rank": 2
+      },
+      "B11": {
+        "qid": "B11",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 8,
+        "best_rank": 1
+      },
+      "B12": {
+        "qid": "B12",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 1
+      },
+      "C13": {
+        "qid": "C13",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 2
+      },
+      "C14": {
+        "qid": "C14",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 4,
+        "best_rank": 2
+      },
+      "C15": {
+        "qid": "C15",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 5,
+        "best_rank": 1
+      },
+      "C16": {
+        "qid": "C16",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 5,
+        "best_rank": 1
+      },
+      "C17": {
+        "qid": "C17",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 10,
+        "best_rank": 1
+      },
+      "C18": {
+        "qid": "C18",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 3
+      },
+      "D19": {
+        "qid": "D19",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 9,
+        "best_rank": 2
+      },
+      "D20": {
+        "qid": "D20",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 4,
+        "best_rank": 1
+      },
+      "D21": {
+        "qid": "D21",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 9,
+        "best_rank": 1
+      },
+      "D22": {
+        "qid": "D22",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 6,
+        "best_rank": 1
+      },
+      "D23": {
+        "qid": "D23",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 8,
+        "best_rank": 1
+      },
+      "D24": {
+        "qid": "D24",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 9,
+        "best_rank": 2
+      },
+      "E25": {
+        "qid": "E25",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 1
+      },
+      "E26": {
+        "qid": "E26",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 7,
+        "best_rank": 1
+      },
+      "E27": {
+        "qid": "E27",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 9,
+        "best_rank": 1
+      },
+      "E28": {
+        "qid": "E28",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 10,
+        "best_rank": 6
+      },
+      "E29": {
+        "qid": "E29",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 8,
+        "best_rank": 2
+      },
+      "E30": {
+        "qid": "E30",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 7,
+        "best_rank": 1
+      },
+      "X31": {
+        "qid": "X31",
+        "scope": "meta"
+      },
+      "X32": {
+        "qid": "X32",
+        "scope": "meta"
+      },
+      "X33": {
+        "qid": "X33",
+        "scope": "in(gap-v4)"
+      },
+      "X34": {
+        "qid": "X34",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 1
+      },
+      "X35": {
+        "qid": "X35",
+        "scope": "out"
+      },
+      "X36": {
+        "qid": "X36",
+        "scope": "out"
+      },
+      "X37": {
+        "qid": "X37",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 1
+      },
+      "X38": {
+        "qid": "X38",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 3
+      },
+      "X39": {
+        "qid": "X39",
+        "scope": "in(gap)"
+      },
+      "X40": {
+        "qid": "X40",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 6
+      }
+    },
+    "D": {
+      "A1": {
+        "qid": "A1",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 5,
+        "best_rank": 1
+      },
+      "A2": {
+        "qid": "A2",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 11,
+        "best_rank": 2
+      },
+      "A3": {
+        "qid": "A3",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 7,
+        "best_rank": 1
+      },
+      "A4": {
+        "qid": "A4",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 3
+      },
+      "A5": {
+        "qid": "A5",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 4,
+        "best_rank": 1
+      },
+      "A6": {
+        "qid": "A6",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 1
+      },
+      "B7": {
+        "qid": "B7",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 9,
+        "best_rank": 1
+      },
+      "B8": {
+        "qid": "B8",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 4,
+        "best_rank": 1
+      },
+      "B9": {
+        "qid": "B9",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": true,
+        "hit@sent": false,
+        "k_sent": 9,
+        "best_rank": 10
+      },
+      "B10": {
+        "qid": "B10",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 9,
+        "best_rank": 2
+      },
+      "B11": {
+        "qid": "B11",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 8,
+        "best_rank": 1
+      },
+      "B12": {
+        "qid": "B12",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 1
+      },
+      "C13": {
+        "qid": "C13",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 1
+      },
+      "C14": {
+        "qid": "C14",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 4,
+        "best_rank": 1
+      },
+      "C15": {
+        "qid": "C15",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 5,
+        "best_rank": 1
+      },
+      "C16": {
+        "qid": "C16",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 5,
+        "best_rank": 1
+      },
+      "C17": {
+        "qid": "C17",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 10,
+        "best_rank": 2
+      },
+      "C18": {
+        "qid": "C18",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 2
+      },
+      "D19": {
+        "qid": "D19",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 9,
+        "best_rank": 1
+      },
+      "D20": {
+        "qid": "D20",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 4,
+        "best_rank": 1
+      },
+      "D21": {
+        "qid": "D21",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 9,
+        "best_rank": 1
+      },
+      "D22": {
+        "qid": "D22",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 6,
+        "best_rank": 1
+      },
+      "D23": {
+        "qid": "D23",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 8,
+        "best_rank": 2
+      },
+      "D24": {
+        "qid": "D24",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 9,
+        "best_rank": 1
+      },
+      "E25": {
+        "qid": "E25",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 1
+      },
+      "E26": {
+        "qid": "E26",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 7,
+        "best_rank": 1
+      },
+      "E27": {
+        "qid": "E27",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 9,
+        "best_rank": 1
+      },
+      "E28": {
+        "qid": "E28",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 10,
+        "best_rank": 4
+      },
+      "E29": {
+        "qid": "E29",
+        "scope": "in",
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 8,
+        "best_rank": 3
+      },
+      "E30": {
+        "qid": "E30",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 7,
+        "best_rank": 1
+      },
+      "X31": {
+        "qid": "X31",
+        "scope": "meta"
+      },
+      "X32": {
+        "qid": "X32",
+        "scope": "meta"
+      },
+      "X33": {
+        "qid": "X33",
+        "scope": "in(gap-v4)"
+      },
+      "X34": {
+        "qid": "X34",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 1
+      },
+      "X35": {
+        "qid": "X35",
+        "scope": "out"
+      },
+      "X36": {
+        "qid": "X36",
+        "scope": "out"
+      },
+      "X37": {
+        "qid": "X37",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 1
+      },
+      "X38": {
+        "qid": "X38",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 1
+      },
+      "X39": {
+        "qid": "X39",
+        "scope": "in(gap)"
+      },
+      "X40": {
+        "qid": "X40",
+        "scope": "in",
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true,
+        "k_sent": 12,
+        "best_rank": 1
+      }
+    }
+  }
+}

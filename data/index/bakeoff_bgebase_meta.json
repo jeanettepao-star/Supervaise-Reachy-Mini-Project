@@ -1,0 +1,8 @@
+{
+  "model_id": "BAAI/bge-base-en-v1.5",
+  "dim": 768,
+  "n_chunks": 827,
+  "normalize": true,
+  "prefixes": "bge query prefix on queries; none on docs (same recipe as production bge)",
+  "parallel_artifact": "NEVER wired into production"
+}

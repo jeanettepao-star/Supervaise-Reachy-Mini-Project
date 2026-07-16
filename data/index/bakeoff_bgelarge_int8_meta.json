@@ -1,0 +1,7 @@
+{
+  "model_id": "BAAI/bge-large-en-v1.5 + torch quantize_dynamic(Linear, qint8), CPU",
+  "dim": 1024,
+  "int8_vs_fp32_cosine_10chunks": 1.0,
+  "chunk_embed_minutes_cpu": 81.7,
+  "parallel_artifact": "NEVER wired into production"
+}
