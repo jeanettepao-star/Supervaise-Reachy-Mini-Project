@@ -48,3 +48,5 @@ truststore>=0.10             # native_sdk composer transport: Python TLS via the
                               # HTTPS is intact this enables the native anthropic SDK
                               # (+ streaming for W2.1); the build laptop falls back to
                               # schannel_curl (a security product aborts Python TLS there).
+streamlit>=1.59                # W: voice smoke-test wrapper UI
+faster-whisper>=1.2            # W: local STT for the voice smoke test
