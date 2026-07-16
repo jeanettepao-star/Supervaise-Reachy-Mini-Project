@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- Gapless audio queue for the CJP voice demo (raw Streamlit component protocol).
+     Receives {chunks:[{i, b64}]} on every render; decodes each mp3 ONCE into an
+     AudioContext and schedules it to start exactly when the previous buffer ends
+     (sample-accurate; seam ~0ms). One "Enable audio" click resumes the
+     AudioContext for the whole session (autoplay policy), after which all later
+     chunks schedule without further gestures. Reports per-chunk gap_ms back to
+     Python via setComponentValue. -->
+<html>
+<head><meta charset="utf-8">
+<style>
+  body { margin:0; font-family:sans-serif; }
+  #btn { width:100%; padding:8px 14px; border-radius:8px; border:1px solid #888;
+         background:#1a5d1a; color:#fff; font-size:15px; cursor:pointer; }
+  #btn.ready { background:#333; cursor:default; }
+  #st { font-size:12px; color:#666; margin-top:4px; text-align:center; }
+</style></head>
+<body>
+<button id="btn">🔊 Enable audio (click once, before your first question)</button>
+<div id="st"></div>
+<script>
+  const btn = document.getElementById("btn"), stat = document.getElementById("st");
+  let ctx = null, nextStart = 0, lastEnd = 0;
+  const seen = new Set(), pending = new Map(), played = [];
+  let expected = 0;   // strict index order: buffer out-of-order arrivals
+
+  function send(type, data) {
+    window.parent.postMessage(Object.assign({isStreamlitMessage:true, type:type}, data||{}), "*");
+  }
+  function setValue(v){ send("streamlit:setComponentValue", {dataType:"json", value:v}); }
+
+  btn.addEventListener("click", () => {
+    if (!ctx) { ctx = new (window.AudioContext||window.webkitAudioContext)(); }
+    ctx.resume().then(()=>{ btn.textContent = "🔊 Audio enabled"; btn.classList.add("ready");
+                            stat.textContent = "ready"; drain(); });
+  });
+
+  function b64ToArrayBuffer(b64){
+    const bin = atob(b64), len = bin.length, buf = new Uint8Array(len);
+    for (let i=0;i<len;i++) buf[i] = bin.charCodeAt(i);
+    return buf.buffer;
+  }
+
+  function schedule(i, audioBuf){
+    const now = ctx.currentTime;
+    const start = Math.max(now + 0.02, nextStart);          // gapless: butt-joint to prev end
+    const gapMs = lastEnd ? Math.max(0, (start - lastEnd) * 1000) : 0;
+    const src = ctx.createBufferSource();
+    src.buffer = audioBuf; src.connect(ctx.destination); src.start(start);
+    nextStart = start + audioBuf.duration; lastEnd = nextStart;
+    played.push({i:i, gap_ms: Math.round(gapMs)});
+    stat.textContent = "playing chunk " + (i+1) + " (seam " + Math.round(gapMs) + "ms)";
+    setValue({played: played});
+  }
+
+  function drain(){
+    if (!ctx || ctx.state !== "running") return;
+    while (pending.has(expected)) {
+      const buf = pending.get(expected); pending.delete(expected);
+      const idx = expected; expected += 1;
+      ctx.decodeAudioData(buf.slice(0)).then(ab => schedule(idx, ab));
+    }
+  }
+
+  window.addEventListener("message", (ev) => {
+    const d = ev.data;
+    if (!d || d.type !== "streamlit:render") return;
+    const chunks = (d.args && d.args.chunks) || [];
+    for (const c of chunks) {
+      if (seen.has(c.i)) continue;
+      seen.add(c.i);
+      pending.set(c.i, b64ToArrayBuffer(c.b64));
+    }
+    if (!ctx || ctx.state !== "running") {
+      stat.textContent = pending.size ? (pending.size + " chunk(s) waiting — click Enable audio") : "";
+    }
+    drain();
+  });
+
+  send("streamlit:componentReady", {apiVersion:1});
+  send("streamlit:setFrameHeight", {height:70});
+</script>
+</body>
+</html>
