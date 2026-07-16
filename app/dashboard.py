@@ -33,6 +33,17 @@ Environment overrides (all optional):
 """
 from __future__ import annotations
 
+# === DEPRECATED (pre-W1.8 stack) — guarded so the wrong app cannot launch by accident ===
+import os as _os
+import sys as _sys
+if _os.environ.get("CJ_ALLOW_LEGACY") != "1":
+    _sys.stderr.write(
+        "\n*** DEPRECATED LEGACY ENTRY (pre-W1.8 stack: Haiku router / OpenAI STT-TTS / old index). ***\n"
+        "*** The CURRENT v4 pipeline entry is: python app/service.py --query ... ***\n"
+        "*** Set CJ_ALLOW_LEGACY=1 to run this legacy app anyway. ***\n\n")
+    raise SystemExit(2)
+# =========================================================================================
+
 import hashlib
 import os
 import sys
