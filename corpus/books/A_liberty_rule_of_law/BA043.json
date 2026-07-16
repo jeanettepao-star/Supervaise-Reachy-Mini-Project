@@ -1,0 +1,75 @@
+{
+  "id": "BA043",
+  "format": "B",
+  "type": "book",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 43,
+  "title": "The Bio-Age Dawns on the Judiciary -- Ch. 8: Republic v. Meralco — Oral Argument",
+  "date": "2003.0",
+  "link": "The Bio-Age Dawns on the Judiciary (book)",
+  "keywords": [
+    "Republic v. Meralco",
+    "oral argument",
+    "Rule 49",
+    "Rules of Court",
+    "appellate procedure",
+    "electric rates",
+    "RA 9136",
+    "EPIRA"
+  ],
+  "primary_topics": [
+    "Chapter 8: CJP on Republic v. Meralco and the question of when the Supreme Court may call oral argument under Rule 49 of the Rules of Court"
+  ],
+  "sub_topics": [
+    "Rule 49 — oral argument at the court's instance or on motion of a party",
+    "Oral advocacy common in trial courts but rare in appellate tribunals",
+    "Republic v. Meralco (electric-rate case) as the occasion for calling oral argument",
+    "Standards for when appellate oral argument is warranted"
+  ],
+  "signature_phrases": [
+    "at its own instance or upon motion of a party"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Meralco"
+    ],
+    "cases": [
+      "Republic v. Meralco",
+      "Agan v. Piatco",
+      "Macalintal v. Comelec"
+    ],
+    "laws": [
+      "Rule 49, Rules of Court",
+      "RA 9136 (EPIRA)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Oral argument, though rare on appeal, is properly called in cases of great public interest or complexity like the Meralco rate case.",
+      "rhetorical_move": "procedural-standard exposition",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "He contrasts trial-court 'verbal skirmishes' with the reading-and-reflection culture of appellate courts."
+  ],
+  "target_audience": [
+    "appellate practitioners",
+    "Bench and Bar"
+  ],
+  "register_markers": [
+    "procedural-exposition register",
+    "doctrinal",
+    "public-interest framing"
+  ],
+  "decision_framework_signals": [
+    "when-to-call-oral-argument standard (public interest/complexity)"
+  ],
+  "one_paragraph_summary": "Chapter 8, on Republic v. Meralco, examines when the Supreme Court may call oral argument under Rule 49 of the Rules of Court. CJP notes that, unlike trial courts, appellate tribunals rarely hold oral argument, and uses the high-profile Meralco electric-rate case to explain when a case's public interest and complexity warrant hearing the parties in oral argument.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

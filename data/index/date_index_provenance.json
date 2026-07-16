@@ -1,14 +1,14 @@
 {
   "artifact": "date_index.json",
-  "n_docs": 1089,
-  "sha256": "9b5713957e58bdba4e313c74b7dfa9755883e69e5d73343e7973052f1af941a0",
-  "git_commit": "73a4a1209b215d8b97daaf1fa813789734c07530",
+  "n_docs": 1109,
+  "sha256": "9d54e9946f31e8f78f3ce3a265668c5326577b581ba89f5445bc870f2246d6a7",
+  "git_commit": "f961ca33819e71912f5c1306942a08d6778d633a",
   "precision_counts": {
-    "day": 1058,
-    "none": 9,
-    "year": 22
+    "year": 100,
+    "day": 1000,
+    "none": 9
   },
-  "dated": 1080,
+  "dated": 1100,
   "undated": 9,
   "undated_doc_ids": [
     "GC002",
@@ -22,7 +22,8 @@
     "GC034"
   ],
   "by_source_class_precision": {
-    "B:day": 115,
+    "B:day": 57,
+    "B:year": 78,
     "C:day": 785,
     "G:day": 4,
     "G:none": 9,

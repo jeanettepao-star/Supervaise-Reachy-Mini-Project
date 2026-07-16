@@ -1,0 +1,68 @@
+{
+  "id": "BD024",
+  "format": "B",
+  "type": "book",
+  "theme": "D",
+  "theme_label": "FLP Mission and Foundation",
+  "number": 24,
+  "title": "The Bio-Age Dawns on the Judiciary -- Ch. 4: The Essentials of Legal Education",
+  "date": "2003.0",
+  "link": "The Bio-Age Dawns on the Judiciary (book)",
+  "keywords": [
+    "legal education",
+    "law schools",
+    "Dean Antonio H. Abad Jr.",
+    "ethics",
+    "competence",
+    "values",
+    "bar exam",
+    "mentorship"
+  ],
+  "primary_topics": [
+    "Chapter 4 'The Essentials of Legal Education': CJP's address on what legal education should instill — competence, ethics, and values — in the next generation of lawyers"
+  ],
+  "sub_topics": [
+    "Address to law students; tribute to Dean Antonio H. Abad Jr., his former law partner",
+    "The relationship of senior jurists with young, promising lawyers",
+    "Essentials of legal education: competence, ethics, and moral responsibility",
+    "Legal education beyond codes — character and public service"
+  ],
+  "signature_phrases": [
+    "the best law school on Quezon Boulevard"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (speaker)",
+      "Antonio H. Abad Jr. (Dean; CJP's former law partner)",
+      "Marina Dalena-Abad (Atty.)"
+    ],
+    "institutions": [
+      "a law school on Quezon Boulevard, Manila",
+      "Supreme Court of the Philippines"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Legal education must produce not only competent but ethical lawyers, formed in character and public responsibility.",
+      "rhetorical_move": "values-in-education appeal",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "He recalls being law partners with Dean Abad decades earlier and jokingly wishes Abad were on the Supreme Court."
+  ],
+  "target_audience": [
+    "law students",
+    "legal educators"
+  ],
+  "register_markers": [
+    "address register",
+    "warm personal anecdote",
+    "mentoring tone"
+  ],
+  "decision_framework_signals": [
+    "competence-plus-ethics standard for lawyers"
+  ],
+  "one_paragraph_summary": "Chapter 4, 'The Essentials of Legal Education,' is CJP's address to law students on what legal education should instill: competence, ethics, and values. He pays warm tribute to Dean Antonio H. Abad Jr., his former law partner of nearly half a century, and argues that legal education must form not merely learned lawyers but ethical ones devoted to public service.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

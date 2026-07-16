@@ -1,0 +1,69 @@
+{
+  "id": "BD025",
+  "format": "B",
+  "type": "book",
+  "theme": "D",
+  "theme_label": "FLP Mission and Foundation",
+  "number": 25,
+  "title": "The Bio-Age Dawns on the Judiciary -- Ch. 5: Excellence and Ethics in Appellate Practice",
+  "date": "2003.0",
+  "link": "The Bio-Age Dawns on the Judiciary (book)",
+  "keywords": [
+    "appellate practice",
+    "judicial ethics",
+    "gods of Padre Faura",
+    "recusal",
+    "propriety",
+    "excellence",
+    "integrity",
+    "magistracy"
+  ],
+  "primary_topics": [
+    "Chapter 5 'Excellence and Ethics in Appellate Practice': CJP on the standards of integrity, propriety, and excellence expected of appellate justices and advocates"
+  ],
+  "sub_topics": [
+    "Justices as recluses who must be pure and appear pure ('the gods of Padre Faura')",
+    "CJP's own practice of avoiding audiences and calls on pending matters",
+    "Excellence and ethics in appellate advocacy",
+    "The duty of both bench and bar to propriety"
+  ],
+  "signature_phrases": [
+    "the gods of Padre Faura",
+    "justices are better read than heard"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (speaker)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "the appellate bar"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Appellate justices must not only be pure but appear pure, avoiding even private audiences on pending matters.",
+      "rhetorical_move": "ethical-standard exposition",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "He notes receiving about thirty speaking invitations a year but declining most to avoid impropriety."
+  ],
+  "target_audience": [
+    "appellate lawyers",
+    "judges",
+    "the bar"
+  ],
+  "register_markers": [
+    "ethics-lecture register",
+    "first-person exemplar",
+    "standards-setting"
+  ],
+  "decision_framework_signals": [
+    "appearance-of-propriety standard",
+    "avoidance of ex parte contact"
+  ],
+  "one_paragraph_summary": "Chapter 5, 'Excellence and Ethics in Appellate Practice,' sets out the standards expected of appellate justices and advocates. CJP observes that justices — 'the gods of Padre Faura' — must be pure and appear pure, recounts his own practice of avoiding audiences, visitors, and calls about pending matters, and urges both bench and bar to combine excellence with unimpeachable ethics.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

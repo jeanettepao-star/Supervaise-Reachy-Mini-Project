@@ -1,0 +1,81 @@
+{
+  "id": "BE026",
+  "format": "B",
+  "type": "book",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 26,
+  "title": "The Bio-Age Dawns on the Judiciary -- Ch. 1: Enter the Bio-Age",
+  "date": "2003.0",
+  "link": "The Bio-Age Dawns on the Judiciary (book)",
+  "keywords": [
+    "bio-age",
+    "biosciences",
+    "biotechnology",
+    "organ transplant",
+    "Christian Barnard",
+    "gene therapy",
+    "cloning",
+    "stem cells",
+    "DNA",
+    "intellectual property",
+    "RA 8293",
+    "People v. Vallejo",
+    "Tijing v. Court of Appeals"
+  ],
+  "primary_topics": [
+    "Chapter 1 'Enter the Bio-Age': CJP's survey of the biosciences and biotechnologies (organ transplants, gene therapy, cloning, stem cells, DNA) transforming society and the legal and ethical questions they raise for the judiciary"
+  ],
+  "sub_topics": [
+    "Medical marvels and the body's rejection problem (transplants; Christian Barnard's first heart transplant)",
+    "The rise of biological technologies and 'healing miracles via the biosciences'",
+    "DNA in the courtroom — People v. Vallejo and Tijing v. Court of Appeals",
+    "Intellectual property and biotech (RA 8293)",
+    "Emerging ethical and legal issues: cloning, genetic engineering, patents on life"
+  ],
+  "signature_phrases": [
+    "unprecedented rise, expansion and pervasiveness of biological technologies",
+    "Healing Miracles Via the Biosciences"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Dr. Christian Barnard (first heart transplant)"
+    ],
+    "cases": [
+      "People v. Vallejo",
+      "Tijing v. Court of Appeals"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines"
+    ],
+    "laws": [
+      "RA 8293 (Intellectual Property Code)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The biosciences and biotechnologies are ushering in a 'bio-age' that will test the law and the judiciary as profoundly as the information age did.",
+      "rhetorical_move": "epochal framing",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "He opens with Dr. Christian Barnard's first successful heart transplant and a Filipino senator's liver transplant from his son."
+  ],
+  "target_audience": [
+    "Bench and Bar",
+    "general readers interested in science and law"
+  ],
+  "register_markers": [
+    "explanatory science-and-law register",
+    "wonderment at technology",
+    "forward-looking"
+  ],
+  "decision_framework_signals": [
+    "law-must-anticipate-technology",
+    "science-literacy-for-judges"
+  ],
+  "one_paragraph_summary": "Chapter 1, 'Enter the Bio-Age,' surveys the biosciences and biotechnologies — organ transplants (opening with Christian Barnard's first heart transplant), gene therapy, cloning, stem cells, and DNA — transforming society, and the legal and ethical questions they pose for the judiciary. CJP touches on DNA evidence (People v. Vallejo, Tijing v. Court of Appeals) and intellectual property (RA 8293), arguing the incoming 'bio-age' will test the law as profoundly as the information age.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

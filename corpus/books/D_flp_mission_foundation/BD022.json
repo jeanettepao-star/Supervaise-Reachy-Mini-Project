@@ -1,0 +1,87 @@
+{
+  "id": "BD022",
+  "format": "B",
+  "type": "book",
+  "theme": "D",
+  "theme_label": "FLP Mission and Foundation",
+  "number": 22,
+  "title": "The Bio-Age Dawns on the Judiciary -- Ch. 2: Judicial Globalization",
+  "date": "2003.0",
+  "link": "The Bio-Age Dawns on the Judiciary (book)",
+  "keywords": [
+    "judicial globalization",
+    "Philja",
+    "First Australasia Judicial Educators Forum",
+    "paradigm shifts",
+    "information age",
+    "computerization",
+    "SC decisions on technology",
+    "Echegaray",
+    "RA 7659",
+    "RA 7941",
+    "RA 8436"
+  ],
+  "primary_topics": [
+    "Chapter 2 'Judicial Globalization': CJP's lecture at the First Australasia Judicial Educators Forum on paradigm shifts in law wrought by the informational and technological revolution, and the Supreme Court decisions responding to them"
+  ],
+  "sub_topics": [
+    "Philja and the First Australasia Judicial Educators Forum (judges from 21 countries)",
+    "'Paradigm Shifts in Law and Changing Philosophical Perspectives'",
+    "The informational and technological revolution as the driver of transformation",
+    "Survey of SC decisions responding to new questions (Echegaray, Bayan v. Zamora, Frivaldo, and others)",
+    "Judicial globalization — cross-border exchange of judicial ideas"
+  ],
+  "signature_phrases": [
+    "Paradigm Shifts in Law and Changing Philosophical Perspectives"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (lecturer)",
+      "Ameurfina A. Melencio Herrera (Philja Chancellor)"
+    ],
+    "institutions": [
+      "Philippine Judicial Academy (Philja)",
+      "First Australasia Judicial Educators Forum",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "People v. Echegaray",
+      "Bayan v. Zamora",
+      "Frivaldo v. Comelec",
+      "International School v. Quisumbing"
+    ],
+    "laws": [
+      "RA 7659",
+      "RA 7941",
+      "RA 8436",
+      "RA 8479",
+      "RA 9006"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Gigantic strides in other fields of knowledge — chiefly the informational and technological revolution — are driving paradigm shifts in law that judges worldwide must understand.",
+      "rhetorical_move": "globalization-of-judging thesis",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Delivered to judicial educators from 21 countries at the First Australasia Judicial Educators Forum."
+  ],
+  "target_audience": [
+    "judicial educators",
+    "judges internationally",
+    "Bench and Bar"
+  ],
+  "register_markers": [
+    "academic lecture register",
+    "comparative and international framing",
+    "doctrinal survey"
+  ],
+  "decision_framework_signals": [
+    "law-follows-technological-paradigm-shifts",
+    "comparative and global judicial dialogue"
+  ],
+  "one_paragraph_summary": "Chapter 2, 'Judicial Globalization,' is CJP's lecture at the First Australasia Judicial Educators Forum (Philja; judges from 21 countries) on 'Paradigm Shifts in Law and Changing Philosophical Perspectives.' He argues the informational and technological revolution is transforming law and doctrine, surveys numerous Supreme Court decisions responding to new questions (from Echegaray to election-law and treaty cases), and frames judicial globalization as the cross-border exchange of judicial ideas.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

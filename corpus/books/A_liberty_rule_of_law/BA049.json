@@ -1,0 +1,79 @@
+{
+  "id": "BA049",
+  "format": "B",
+  "type": "book",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 49,
+  "title": "The Bio-Age Dawns on the Judiciary -- Ch. 14: Update on Death Penalty Cases",
+  "date": "2003.0",
+  "link": "The Bio-Age Dawns on the Judiciary (book)",
+  "keywords": [
+    "death penalty",
+    "People v. Echegaray",
+    "RA 7659",
+    "Death Penalty Law",
+    "reprieves",
+    "Gloria Macapagal Arroyo",
+    "automatic review",
+    "capital punishment",
+    "executions"
+  ],
+  "primary_topics": [
+    "Chapter 14 'Update on Death Penalty Cases': CJP's continuing survey of death-penalty jurisprudence and implementation during his eighth year on the Court"
+  ],
+  "sub_topics": [
+    "No executions during his eighth year (reprieves granted by President Arroyo)",
+    "People v. Echegaray upheld the Death Penalty Law (RA 7659) six years earlier",
+    "Survey of the year's capital cases (Delim, Rullepa, Abrazaldo, and others)",
+    "CJP's continuing reservations about the death penalty"
+  ],
+  "signature_phrases": [
+    "No Executions During My Eighth Year in the Court"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Gloria Macapagal Arroyo (President; granted reprieves)",
+      "Leo Echegaray"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "People v. Echegaray",
+      "People v. Delim",
+      "People v. Rullepa",
+      "People v. Abrazaldo"
+    ],
+    "laws": [
+      "RA 7659 (Death Penalty Law)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Though the Court upheld the Death Penalty Law in Echegaray, implementation stalled (no executions during the year owing to reprieves), and CJP continues to voice his reservations.",
+      "rhetorical_move": "continuing-critique plus status report",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "No actual executions were carried out during his eighth year; scheduled executions were postponed by presidential reprieves."
+  ],
+  "target_audience": [
+    "criminal-law practitioners",
+    "death-penalty policy audience",
+    "Bench and Bar"
+  ],
+  "register_markers": [
+    "annual-update register",
+    "case survey",
+    "personal reservation"
+  ],
+  "decision_framework_signals": [
+    "automatic review of death sentences",
+    "continuing-opposition posture"
+  ],
+  "one_paragraph_summary": "Chapter 14, 'Update on Death Penalty Cases,' continues CJP's yearly survey of capital-punishment jurisprudence. He reports that no executions were carried out during his eighth year (owing to reprieves granted by President Arroyo), recalls that People v. Echegaray upheld the Death Penalty Law (RA 7659), surveys the year's capital cases (Delim, Rullepa, Abrazaldo, and others), and reiterates his continuing reservations about the penalty.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

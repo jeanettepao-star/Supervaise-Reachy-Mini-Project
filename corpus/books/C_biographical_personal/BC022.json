@@ -1,0 +1,69 @@
+{
+  "id": "BC022",
+  "format": "B",
+  "type": "book",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 22,
+  "title": "The Bio-Age Dawns on the Judiciary -- Preface",
+  "date": "2003.0",
+  "link": "The Bio-Age Dawns on the Judiciary (book)",
+  "keywords": [
+    "Preface",
+    "transparency",
+    "yearly book report",
+    "eighth year in office",
+    "biosciences",
+    "biotechnology",
+    "judicial decision-making",
+    "law is a jealous mistress",
+    "interdisciplinarity"
+  ],
+  "primary_topics": [
+    "CJP's Preface to 'The Bio-Age Dawns on the Judiciary', his yearly transparency report covering his eighth year on the Supreme Court (October 10, 2002 to October 10, 2003), introducing the theme of how new biosciences and biotechnologies affect judicial decision-making"
+  ],
+  "sub_topics": [
+    "The yearly book report as a 'small contribution to transparency'",
+    "The book's aim: to call attention to new biosciences and biotechnologies and their effect on the judiciary",
+    "Law as 'a jealous mistress' demanding study of every facet of life; jurists must know more than the codes",
+    "Overview of the volume's structure (judicial reform, legal education, and major SC decisions)"
+  ],
+  "signature_phrases": [
+    "law is a jealous mistress",
+    "walking computers of the Constitution"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Jurists must have a working knowledge of all branches of human endeavor, not merely the codes and jurisprudence.",
+      "rhetorical_move": "interdisciplinary imperative",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "He frames the yearly book as his 'small contribution to transparency.'"
+  ],
+  "target_audience": [
+    "general readers",
+    "the Bench and Bar",
+    "students"
+  ],
+  "register_markers": [
+    "personal preface register",
+    "transparency framing",
+    "interdisciplinary appeal"
+  ],
+  "decision_framework_signals": [
+    "transparency-through-yearly-reporting",
+    "interdisciplinary-jurisprudence principle"
+  ],
+  "one_paragraph_summary": "CJP's Preface to the book, his yearly 'contribution to transparency' covering his eighth year on the Supreme Court (October 10, 2002 to October 10, 2003). He introduces the theme — how the new biosciences and biotechnologies affect the judiciary's decision-making — and argues that, since 'law is a jealous mistress,' jurists must be more than 'walking computers' of the codes, needing a working knowledge of every facet of life and learning.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

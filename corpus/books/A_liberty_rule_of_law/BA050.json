@@ -1,0 +1,73 @@
+{
+  "id": "BA050",
+  "format": "B",
+  "type": "book",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 50,
+  "title": "The Bio-Age Dawns on the Judiciary -- Appendix C: DNA as Evidence",
+  "date": "2003.0",
+  "link": "The Bio-Age Dawns on the Judiciary (book)",
+  "keywords": [
+    "DNA as evidence",
+    "Pacifico A. Agabin",
+    "People v. Vallejo",
+    "admissibility",
+    "Daubert standard",
+    "forensic science",
+    "circumstantial evidence",
+    "chain of custody"
+  ],
+  "primary_topics": [
+    "Appendix C: Prof. Pacifico A. Agabin on DNA as evidence — its scientific basis and admissibility in Philippine courts"
+  ],
+  "sub_topics": [
+    "DNA analysis in People v. Vallejo (per curiam death affirmance)",
+    "Scientific reliability and admissibility (Daubert v. Merrell Dow)",
+    "Chain of custody and probative value of DNA",
+    "Constitutional and evidentiary issues (search, privacy)"
+  ],
+  "signature_phrases": [
+    "DNA profile matched"
+  ],
+  "entities": {
+    "people": [
+      "Pacifico A. Agabin (UP College of Law)",
+      "Gerrico Vallejo"
+    ],
+    "institutions": [
+      "UP College of Law",
+      "NBI (National Bureau of Investigation)",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "People v. Vallejo",
+      "Daubert v. Merrell Dow Pharmaceuticals"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "DNA evidence, when scientifically reliable and properly handled, is a powerful and admissible tool — as in People v. Vallejo.",
+      "rhetorical_move": "expert exposition on admissibility",
+      "confidence": "medium"
+    }
+  ],
+  "notable_anecdotes": [
+    "Gerrico Vallejo was convicted partly on a DNA match from vaginal swabs (G.R. No. 144656)."
+  ],
+  "target_audience": [
+    "litigators",
+    "judges",
+    "forensic-law audience"
+  ],
+  "register_markers": [
+    "legal-academic essay register",
+    "doctrinal plus scientific",
+    "admissibility analysis"
+  ],
+  "decision_framework_signals": [
+    "reliability/admissibility test for scientific evidence (Daubert-type)"
+  ],
+  "one_paragraph_summary": "Appendix C reproduces Prof. Pacifico A. Agabin's essay on DNA as evidence. Using People v. Vallejo — where a DNA match helped affirm a death sentence — he discusses the scientific basis, reliability, and admissibility of DNA evidence (invoking Daubert v. Merrell Dow), along with chain-of-custody and constitutional concerns.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

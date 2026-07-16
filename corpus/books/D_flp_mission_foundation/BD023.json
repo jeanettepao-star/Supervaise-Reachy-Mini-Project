@@ -1,0 +1,72 @@
+{
+  "id": "BD023",
+  "format": "B",
+  "type": "book",
+  "theme": "D",
+  "theme_label": "FLP Mission and Foundation",
+  "number": 23,
+  "title": "The Bio-Age Dawns on the Judiciary -- Ch. 3: A Primer on the APJR",
+  "date": "2003.0",
+  "link": "The Bio-Age Dawns on the Judiciary (book)",
+  "keywords": [
+    "Action Program for Judicial Reform",
+    "APJR 2001-2006",
+    "Davide Watch",
+    "judicial reform",
+    "Hilario Davide Jr.",
+    "reform components",
+    "Reforming the Judiciary",
+    "RA 6758"
+  ],
+  "primary_topics": [
+    "Chapter 3 'A Primer on the APJR': an overview of the judiciary's Action Program for Judicial Reform 2001-2006, founded on CJ Davide's vision, and its reform components"
+  ],
+  "sub_topics": [
+    "APJR as the judiciary's concrete response to improving service, image, and accountability",
+    "Founded on CJ Hilario Davide Jr.'s 'Davide Watch' vision and mission",
+    "The 156-page APJR document and its 'Executive Summary'",
+    "Reform components: judicial education, capacity building, appointments, remuneration, organizational culture, public information, networking"
+  ],
+  "signature_phrases": [
+    "Davide Watch"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Hilario G. Davide Jr. (Chief Justice)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "the judiciary"
+    ],
+    "laws": [
+      "Republic Act No. 6758 (Salary Standardization)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The APJR is the judiciary's concrete, long-term program to become an efficient, trustworthy, and accountable dispenser of justice.",
+      "rhetorical_move": "program exposition",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "He reprints the 'Executive Summary' of the 156-page APJR as an introductory chapter, drawing on his earlier book 'Reforming the Judiciary.'"
+  ],
+  "target_audience": [
+    "Bench and Bar",
+    "judicial administrators",
+    "reform advocates"
+  ],
+  "register_markers": [
+    "programmatic and administrative register",
+    "reform-advocacy",
+    "summary exposition"
+  ],
+  "decision_framework_signals": [
+    "structured-judicial-reform program",
+    "vision-and-mission (Davide Watch)"
+  ],
+  "one_paragraph_summary": "Chapter 3, 'A Primer on the APJR,' summarizes the judiciary's Action Program for Judicial Reform 2001-2006 — the concrete response, founded on Chief Justice Hilario Davide Jr.'s 'Davide Watch' vision, to make the courts efficient, trustworthy, and accountable. CJP reprints the program's Executive Summary and outlines its reform components: judicial education, capacity building, appointments, remuneration, organizational culture, and public information.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

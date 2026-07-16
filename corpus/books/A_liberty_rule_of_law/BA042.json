@@ -1,0 +1,83 @@
+{
+  "id": "BA042",
+  "format": "B",
+  "type": "book",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 42,
+  "title": "The Bio-Age Dawns on the Judiciary -- Ch. 7: Socrates v. Comelec — The Three-Term Limit",
+  "date": "2003.0",
+  "link": "The Bio-Age Dawns on the Judiciary (book)",
+  "keywords": [
+    "three-term limit",
+    "Local Government Code",
+    "RA 7160",
+    "Socrates v. Comelec",
+    "Mendoza v. Comelec",
+    "Lonzanida",
+    "Adormeo",
+    "Borja",
+    "voluntary renunciation",
+    "recall election",
+    "elective local officials"
+  ],
+  "primary_topics": [
+    "Chapter 7: CJP's account of Socrates v. Comelec and Mendoza v. Comelec, testing the limits of the constitutional three-term limit on elective local officials"
+  ],
+  "sub_topics": [
+    "The three-term limit (Constitution Art. X; RA 7160) and 'voluntary renunciation' as non-interruption",
+    "Socrates v. Comelec — recall election and the three-term bar",
+    "Mendoza v. Comelec",
+    "Related precedents: Borja, Lonzanida, Adormeo, Frivaldo"
+  ],
+  "signature_phrases": [
+    "shall serve for more than three consecutive terms",
+    "voluntary renunciation of the office"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "Socrates v. Comelec",
+      "Mendoza v. Comelec",
+      "Borja v. Comelec",
+      "Lonzanida v. Comelec",
+      "Adormeo v. Comelec",
+      "Frivaldo v. Comelec"
+    ],
+    "laws": [
+      "RA 7160 (Local Government Code)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The three-term limit bars a fourth consecutive term, but its application turns on whether service was interrupted (e.g., by recall or renunciation).",
+      "rhetorical_move": "doctrinal analysis",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Socrates arose from a recall election in Puerto Princesa testing the three-term bar."
+  ],
+  "target_audience": [
+    "election-law practitioners",
+    "local officials",
+    "Bench and Bar"
+  ],
+  "register_markers": [
+    "case-analysis register",
+    "doctrinal",
+    "precedent-marshaling"
+  ],
+  "decision_framework_signals": [
+    "three-term-limit plus interruption test",
+    "stare-decisis on election law"
+  ],
+  "one_paragraph_summary": "Chapter 7 analyzes Socrates v. Comelec and Mendoza v. Comelec, which tested the constitutional three-term limit on elective local officials (Constitution Art. X; RA 7160). CJP explains how the limit — and the rule that 'voluntary renunciation' does not interrupt consecutive terms — was applied against the backdrop of precedents like Borja, Lonzanida, and Adormeo.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

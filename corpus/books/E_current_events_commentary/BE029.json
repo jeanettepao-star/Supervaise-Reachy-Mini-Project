@@ -1,0 +1,71 @@
+{
+  "id": "BE029",
+  "format": "B",
+  "type": "book",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 29,
+  "title": "The Bio-Age Dawns on the Judiciary -- Appendix D: Being Moral in the Brave New World",
+  "date": "2003.0",
+  "link": "The Bio-Age Dawns on the Judiciary (book)",
+  "keywords": [
+    "bioethics",
+    "human cloning",
+    "genetic engineering",
+    "Ranhilio Callangan Aquino",
+    "embryo",
+    "sanctity of life",
+    "Article II Section 12",
+    "moral philosophy"
+  ],
+  "primary_topics": [
+    "Appendix D: Fr. Ranhilio Callangan Aquino on the ethics of human cloning, genetic engineering, and embryo manipulation"
+  ],
+  "sub_topics": [
+    "The moral status of the human embryo",
+    "Constitutional recognition of the sanctity of family life (Art. II, Sec. 12)",
+    "Ethical considerations of cloning and genetic engineering",
+    "Being moral in a 'brave new world' of biotechnology"
+  ],
+  "signature_phrases": [
+    "The Problem with Embryos",
+    "sanctity of family life"
+  ],
+  "entities": {
+    "people": [
+      "Ranhilio Callangan Aquino (Fr.; Philippine Judicial Academy)"
+    ],
+    "institutions": [
+      "Philippine Judicial Academy",
+      "Supreme Court of the Philippines"
+    ],
+    "laws": [
+      "Constitution Art. II, Sec. 12"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The moral status of the embryo and the ethics of cloning and genetic engineering demand serious philosophical and constitutional reflection.",
+      "rhetorical_move": "bioethical inquiry",
+      "confidence": "medium"
+    }
+  ],
+  "notable_anecdotes": [
+    "He opens by asking whether a human embryo is merely 'a clump of cells.'"
+  ],
+  "target_audience": [
+    "judges",
+    "bioethics audience",
+    "Bench and Bar"
+  ],
+  "register_markers": [
+    "philosophical-essay register",
+    "ethical inquiry",
+    "constitutional reference"
+  ],
+  "decision_framework_signals": [
+    "sanctity-of-life plus ethical-reflection on biotech"
+  ],
+  "one_paragraph_summary": "Appendix D reproduces Fr. Ranhilio Callangan Aquino's essay on the ethics of the 'brave new world' of human cloning and genetic engineering. He probes the moral status of the human embryo, invokes the Constitution's recognition of the sanctity of family life (Art. II, Sec. 12), and calls for serious philosophical reflection on manipulating human life.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

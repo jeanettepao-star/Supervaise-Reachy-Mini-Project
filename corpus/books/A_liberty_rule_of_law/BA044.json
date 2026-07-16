@@ -1,0 +1,74 @@
+{
+  "id": "BA044",
+  "format": "B",
+  "type": "book",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 44,
+  "title": "The Bio-Age Dawns on the Judiciary -- Ch. 9: PCGG v. Desierto — Ombudsman Powers",
+  "date": "2003.0",
+  "link": "The Bio-Age Dawns on the Judiciary (book)",
+  "keywords": [
+    "PCGG v. Desierto",
+    "Ombudsman",
+    "investigatory and prosecutory powers",
+    "grave abuse of discretion",
+    "Disini",
+    "RA 6770",
+    "ill-gotten wealth"
+  ],
+  "primary_topics": [
+    "Chapter 9: CJP's account of PCGG v. Desierto (which he penned), on the investigatory and prosecutory powers of the Ombudsman and the Court's duty to reverse grave abuse"
+  ],
+  "sub_topics": [
+    "The Ombudsman's wide latitude of investigatory and prosecutory powers (RA 6770)",
+    "That power is not absolute — grave abuse of discretion invites reversal",
+    "PCGG v. Desierto and Disini — a dismissal reversed",
+    "The Court's constitutional duty to check the Ombudsman"
+  ],
+  "signature_phrases": [
+    "a wide latitude of investigatory and prosecutory prerogatives",
+    "gravely abused through a gross misappreciation of evidence"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (ponente)",
+      "Herminio Disini"
+    ],
+    "institutions": [
+      "Presidential Commission on Good Government (PCGG)",
+      "Office of the Ombudsman",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "PCGG v. Desierto"
+    ],
+    "laws": [
+      "Republic Act No. 6770 (Ombudsman Act)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Ombudsman's broad prosecutorial discretion is not absolute; when it is gravely abused, the Court has the constitutional duty to reverse it.",
+      "rhetorical_move": "checks-on-discretion doctrine",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJP notes he had 'the honor of writing' the PCGG v. Desierto decision."
+  ],
+  "target_audience": [
+    "Bench and Bar",
+    "anti-graft practitioners"
+  ],
+  "register_markers": [
+    "ponente's-account register",
+    "doctrinal",
+    "quotation of his own decision"
+  ],
+  "decision_framework_signals": [
+    "grave-abuse-of-discretion check on the Ombudsman"
+  ],
+  "one_paragraph_summary": "Chapter 9 recounts PCGG v. Desierto and Disini — a decision CJP wrote — on the investigatory and prosecutory powers of the Ombudsman. He explains that although the Ombudsman enjoys wide latitude under RA 6770, that power is not absolute: when it is gravely abused through a gross misappreciation of evidence, the Court has the constitutional duty to reverse.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

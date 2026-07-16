@@ -1,0 +1,83 @@
+{
+  "id": "BA045",
+  "format": "B",
+  "type": "book",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 45,
+  "title": "The Bio-Age Dawns on the Judiciary -- Ch. 10: Agan v. Piatco — Validity of a BOT Contract",
+  "date": "2003.0",
+  "link": "The Bio-Age Dawns on the Judiciary (book)",
+  "keywords": [
+    "Agan v. Piatco",
+    "NAIA Terminal III",
+    "BOT Law",
+    "RA 6957",
+    "AEDC",
+    "Piatco",
+    "concession agreement",
+    "unsolicited proposal",
+    "public interest",
+    "void contracts"
+  ],
+  "primary_topics": [
+    "Chapter 10: CJP's account of Agan v. Piatco, voiding the NAIA Terminal III contracts under the Build-Operate-Transfer law"
+  ],
+  "sub_topics": [
+    "The facts: AEDC's unsolicited proposal (1993) and Piatco's award for NAIA Terminal III",
+    "The five challenged agreements (concession plus supplements)",
+    "Grounds of invalidity: prequalification, right to match, delay, one-sided terms",
+    "The BOT Law (RA 6957) and the public interest"
+  ],
+  "signature_phrases": [
+    "Terminal III",
+    "Asia's Emerging Dragon Corporation"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "John Gokongwei",
+      "Henry Sy Sr.",
+      "Lucio Tan",
+      "George Ty",
+      "Alfonso Yuchengco",
+      "Andrew Gotianun"
+    ],
+    "institutions": [
+      "Piatco (Philippine International Air Terminals Co.)",
+      "AEDC (Asia's Emerging Dragon Corporation)",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "Agan v. Piatco"
+    ],
+    "laws": [
+      "RA 6957 (BOT Law)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The NAIA Terminal III concession agreements were void for grave irregularities and one-sided terms contrary to law and public interest.",
+      "rhetorical_move": "nullity holding",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Six business leaders formed AEDC in 1993 and submitted the original unsolicited proposal."
+  ],
+  "target_audience": [
+    "infrastructure and PPP practitioners",
+    "Bench and Bar",
+    "the public"
+  ],
+  "register_markers": [
+    "landmark-case-analysis register",
+    "factual narration",
+    "public-interest framing"
+  ],
+  "decision_framework_signals": [
+    "void-for-illegality plus public-interest test on BOT contracts"
+  ],
+  "one_paragraph_summary": "Chapter 10 recounts Agan v. Piatco, one of the most publicized cases of CJP's eighth year, which voided the agreements for the NAIA Terminal III airport project. He narrates the facts — AEDC's 1993 unsolicited proposal, Piatco's award, and the five challenged agreements — and the grounds of invalidity (questionable prequalification, denial of the right to match, delay, and one-sided terms) under the Build-Operate-Transfer Law (RA 6957).",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

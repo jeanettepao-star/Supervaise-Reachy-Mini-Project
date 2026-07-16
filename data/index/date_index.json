@@ -1,368 +1,423 @@
 {
   "BA001": {
-    "date_iso": "2008-07-20",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2008",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BA002": {
-    "date_iso": "2009-08-23",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2009",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BA003": {
-    "date_iso": "2009-12-13",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2009",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BA004": {
-    "date_iso": "2008-12-28",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2008",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BA005": {
-    "date_iso": "2009-01-11",
+    "date_iso": "2009-11-01",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BA006": {
-    "date_iso": "2009-12-20",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2009",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BA007": {
-    "date_iso": "2010-03-28",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2010",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BA008": {
-    "date_iso": "2010-08-22",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2010",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BA009": {
-    "date_iso": "2010-11-07",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
-  },
-  "BA010": {
-    "date_iso": "2007-07-29",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
-  },
-  "BA011": {
-    "date_iso": "2007-04-08",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
-  },
-  "BA012": {
-    "date_iso": "2008-02-17",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
-  },
-  "BA013": {
-    "date_iso": "2008-04-27",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
-  },
-  "BA014": {
-    "date_iso": "2008-10-26",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
-  },
-  "BA015": {
-    "date_iso": "2010-02-21",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
-  },
-  "BA016": {
     "date_iso": "2010-07-11",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
-  "BA017": {
-    "date_iso": "2011-01-30",
+  "BA010": {
+    "date_iso": "2007",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BA011": {
+    "date_iso": "2007-08-04",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
+  },
+  "BA012": {
+    "date_iso": "2008",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BA013": {
+    "date_iso": "2008",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BA014": {
+    "date_iso": "2008",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BA015": {
+    "date_iso": "2010",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BA016": {
+    "date_iso": "2010-11-07",
+    "precision": "day",
+    "source_of_date": "metadata_iso_day"
+  },
+  "BA017": {
+    "date_iso": "2011",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BA018": {
-    "date_iso": "2011-02-27",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2011",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BA019": {
-    "date_iso": "2007-04-01",
+    "date_iso": "2007-01-04",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BA020": {
-    "date_iso": "2007-05-13",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2007",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BA021": {
-    "date_iso": "2007-07-15",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2007",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BA022": {
-    "date_iso": "2007-07-22",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2007",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BA023": {
-    "date_iso": "2007-10-14",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2007",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BA024": {
-    "date_iso": "2009-04-26",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2009",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BA025": {
-    "date_iso": "2009-05-24",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2009",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BA026": {
-    "date_iso": "2010-04-25",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2010",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BA027": {
-    "date_iso": "2010-10-03",
+    "date_iso": "2010-03-10",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BA028": {
-    "date_iso": "2010-06-20",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2010",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BA029": {
-    "date_iso": "2007-03-18",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2007",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BA030": {
-    "date_iso": "2007-03-04",
+    "date_iso": "2007-04-03",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BA031": {
-    "date_iso": "2007-02-11",
+    "date_iso": "2007-11-02",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BA032": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BA033": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BA034": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BA035": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BA036": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BA037": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BA038": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BA039": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BA040": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BA041": {
-    "date_iso": "1997-12-01",
+    "date_iso": "1997-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
+  },
+  "BA042": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BA043": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BA044": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BA045": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BA046": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BA047": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BA048": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BA049": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BA050": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BB001": {
-    "date_iso": "2009-05-17",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2009",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BB002": {
-    "date_iso": "2008-12-21",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2008",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BB003": {
-    "date_iso": "2008-06-22",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2008",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BB004": {
-    "date_iso": "2007-12-23",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2007",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BB005": {
-    "date_iso": "2007-08-26",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2007",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BB006": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BB007": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BB008": {
-    "date_iso": "1997-12-01",
+    "date_iso": "1997-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BC001": {
-    "date_iso": "2010-02-14",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2010",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BC002": {
-    "date_iso": "2009-07-05",
+    "date_iso": "2009-05-07",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BC003": {
-    "date_iso": "2009-04-12",
+    "date_iso": "2009-12-04",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BC004": {
-    "date_iso": "2008-08-24",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2008",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BC005": {
-    "date_iso": "2007-06-24",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2007",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BC006": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BC007": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BC008": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BC009": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BC010": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BC011": {
-    "date_iso": "1997-12-01",
+    "date_iso": "1997-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BC012": {
-    "date_iso": "1997-10-22",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "1997",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BC013": {
-    "date_iso": "1995-10-17",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "1995",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BC014": {
-    "date_iso": "1997-03-21",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "1997",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BC015": {
-    "date_iso": "1995-02-12",
+    "date_iso": "1995-12-02",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BC016": {
-    "date_iso": "1995-05-14",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "1995",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BC017": {
-    "date_iso": "1997-03-28",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "1997",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BC018": {
-    "date_iso": "1997-09-21",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "1997",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BC019": {
-    "date_iso": "1997-10-29",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "1997",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BC020": {
-    "date_iso": "1997-11-01",
+    "date_iso": "1997-01-11",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
+  },
+  "BC021": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BC022": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BD001": {
-    "date_iso": "2009-06-21",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2009",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BD002": {
-    "date_iso": "2009-12-27",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2009",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BD003": {
-    "date_iso": "2010-07-04",
+    "date_iso": "2010-04-07",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BD004": {
-    "date_iso": "2007-05-27",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2007",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BD005": {
     "date_iso": "2007-09-09",
@@ -370,17 +425,17 @@
     "source_of_date": "metadata_iso_day"
   },
   "BD006": {
-    "date_iso": "2007-09-16",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2007",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BD007": {
-    "date_iso": "2008-04-20",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2008",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BD008": {
-    "date_iso": "2008-10-12",
+    "date_iso": "2008-12-10",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
@@ -390,52 +445,52 @@
     "source_of_date": "metadata_iso_day"
   },
   "BD010": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BD011": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BD012": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BD013": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BD014": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BD015": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BD016": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BD017": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BD018": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BD019": {
-    "date_iso": "2026-12-01",
+    "date_iso": "2026-01-12",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
@@ -445,134 +500,179 @@
     "source_of_date": "metadata_iso_day"
   },
   "BD021": {
-    "date_iso": "1995-03-29",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "1995",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BD022": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BD023": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BD024": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BD025": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BD026": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BE001": {
-    "date_iso": "2007-08-12",
+    "date_iso": "2007-12-08",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BE002": {
-    "date_iso": "2007-09-30",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2007",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BE003": {
-    "date_iso": "2008-03-02",
+    "date_iso": "2008-02-03",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BE004": {
-    "date_iso": "2008-03-16",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2008",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BE005": {
-    "date_iso": "2008-03-23",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2008",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BE006": {
-    "date_iso": "2008-07-27",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2008",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BE007": {
-    "date_iso": "2010-01-31",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2010",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BE008": {
-    "date_iso": "2010-09-05",
+    "date_iso": "2010-05-09",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BE009": {
-    "date_iso": "2009-01-25",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2009",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BE010": {
-    "date_iso": "2009-08-02",
+    "date_iso": "2009-02-08",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BE011": {
-    "date_iso": "2009-08-09",
+    "date_iso": "2009-09-08",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BE012": {
-    "date_iso": "2007-11-25",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2007",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BE013": {
-    "date_iso": "2008-06-08",
+    "date_iso": "2008-08-06",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BE014": {
-    "date_iso": "2010-01-10",
+    "date_iso": "2010-10-01",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BE015": {
-    "date_iso": "2010-04-18",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2010",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BE016": {
-    "date_iso": "2011-01-02",
+    "date_iso": "2011-02-01",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BE017": {
-    "date_iso": "2009-09-06",
+    "date_iso": "2009-06-09",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BE018": {
-    "date_iso": "2009-10-25",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2009",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BE019": {
-    "date_iso": "2010-02-07",
+    "date_iso": "2010-07-02",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BE020": {
-    "date_iso": "2010-05-02",
+    "date_iso": "2010-02-05",
     "precision": "day",
     "source_of_date": "metadata_iso_day"
   },
   "BE021": {
-    "date_iso": "2010-05-16",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2010",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BE022": {
-    "date_iso": "2010-05-23",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2010",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BE023": {
-    "date_iso": "2010-05-30",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2010",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BE024": {
-    "date_iso": "2010-07-18",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2010",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "BE025": {
-    "date_iso": "2010-10-24",
-    "precision": "day",
-    "source_of_date": "metadata_iso_day"
+    "date_iso": "2010",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BE026": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BE027": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BE028": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
+  },
+  "BE029": {
+    "date_iso": "2003",
+    "precision": "year",
+    "source_of_date": "metadata_year_extracted"
   },
   "CA003": {
     "date_iso": "2025-03-24",

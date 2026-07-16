@@ -1,0 +1,78 @@
+{
+  "id": "BA046",
+  "format": "B",
+  "type": "book",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 46,
+  "title": "The Bio-Age Dawns on the Judiciary -- Ch. 11: Ang Bagong Bayani v. Comelec — Party-List",
+  "date": "2003.0",
+  "link": "The Bio-Age Dawns on the Judiciary (book)",
+  "keywords": [
+    "party-list system",
+    "Ang Bagong Bayani-OFW Labor Party v. Comelec",
+    "Veterans Federation Party v. Comelec",
+    "twenty percent allocation",
+    "two percent threshold",
+    "three-seat cap",
+    "marginalized sectors",
+    "RA 7941"
+  ],
+  "primary_topics": [
+    "Chapter 11: CJP on Ang Bagong Bayani-OFW Labor Party v. Comelec, determining who qualifies under the party-list system and how winners and nominees are counted"
+  ],
+  "sub_topics": [
+    "Veterans Federation Party v. Comelec — four parameters (20% allocation, 2% threshold, three-seat cap, proportional)",
+    "Ang Bagong Bayani — party-list must represent the marginalized and underrepresented",
+    "Guidelines for qualifying party-list groups and their nominees",
+    "The Party-List System Act (RA 7941)"
+  ],
+  "signature_phrases": [
+    "the twenty percent allocation",
+    "the two percent threshold"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)"
+    ],
+    "institutions": [
+      "Commission on Elections (Comelec)",
+      "House of Representatives",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "Ang Bagong Bayani-OFW Labor Party v. Comelec",
+      "Veterans Federation Party v. Comelec"
+    ],
+    "laws": [
+      "RA 7941 (Party-List System Act)",
+      "RA 6646"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The party-list system is reserved for the marginalized and underrepresented; major parties and the unqualified may not exploit it.",
+      "rhetorical_move": "purposive statutory construction",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "Veterans Federation Party (October 6, 2000) first set the four party-list parameters."
+  ],
+  "target_audience": [
+    "election-law practitioners",
+    "party-list groups",
+    "Bench and Bar"
+  ],
+  "register_markers": [
+    "case-analysis register",
+    "doctrinal",
+    "numerical parameters"
+  ],
+  "decision_framework_signals": [
+    "party-list equals marginalized-sector representation",
+    "20%/2%/three-seat parameters"
+  ],
+  "one_paragraph_summary": "Chapter 11 analyzes Ang Bagong Bayani-OFW Labor Party v. Comelec, which — building on Veterans Federation Party v. Comelec and its four parameters (the 20% allocation, 2% threshold, three-seat cap, and proportional distribution) — held that the party-list system is reserved for the marginalized and underrepresented, and set guidelines for qualifying groups, winners, and nominees under RA 7941.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

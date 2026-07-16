@@ -1,0 +1,71 @@
+{
+  "id": "BE028",
+  "format": "B",
+  "type": "book",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 28,
+  "title": "The Bio-Age Dawns on the Judiciary -- Appendix B: GMO & Food Products",
+  "date": "2003.0",
+  "link": "The Bio-Age Dawns on the Judiciary (book)",
+  "keywords": [
+    "GMO",
+    "genetically modified organisms",
+    "food biotechnology",
+    "Leonardo A. Quisumbing",
+    "biosafety",
+    "precautionary principle",
+    "Diamond v. Chakrabarty",
+    "patents on life"
+  ],
+  "primary_topics": [
+    "Appendix B: Justice Leonardo A. Quisumbing on genetically modified organisms and food products — current and emerging legal issues"
+  ],
+  "sub_topics": [
+    "Biotechnology as a booming industry where law lags science",
+    "Risks and promise of GMOs for feeding a growing population",
+    "Regulatory and biosafety issues",
+    "Patents on life (Diamond v. Chakrabarty)"
+  ],
+  "signature_phrases": [
+    "Society has a moral responsibility to feed the world's burgeoning population"
+  ],
+  "entities": {
+    "people": [
+      "Leonardo A. Quisumbing (Associate Justice)",
+      "Bishop Jesus Varela"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Biotechnology Foundation"
+    ],
+    "cases": [
+      "Diamond v. Chakrabarty"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The law lags behind biotechnology; GMOs offer the promise of abundance but pose risks that demand careful regulation.",
+      "rhetorical_move": "balanced risk-benefit framing",
+      "confidence": "medium"
+    }
+  ],
+  "notable_anecdotes": [
+    "Bishop Jesus Varela is quoted on society's moral responsibility to feed the world."
+  ],
+  "target_audience": [
+    "judges",
+    "policy audience",
+    "Bench and Bar"
+  ],
+  "register_markers": [
+    "guest-justice essay register",
+    "risk-benefit analysis",
+    "policy framing"
+  ],
+  "decision_framework_signals": [
+    "precautionary plus benefit-balancing on biotech"
+  ],
+  "one_paragraph_summary": "Appendix B reproduces Justice Leonardo A. Quisumbing's essay on genetically modified organisms and food products. He observes that biotechnology — a booming industry — outpaces the law, weighs the promise of GMOs for feeding a growing population against their risks, and touches on regulation and the patenting of life (Diamond v. Chakrabarty).",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "BA048",
+  "format": "B",
+  "type": "book",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 48,
+  "title": "The Bio-Age Dawns on the Judiciary -- Ch. 13: New Rules on Psychological Incapacity",
+  "date": "2003.0",
+  "link": "The Bio-Age Dawns on the Judiciary (book)",
+  "keywords": [
+    "psychological incapacity",
+    "Article 36 Family Code",
+    "Santos v. Court of Appeals",
+    "Republic v. Molina",
+    "gravity",
+    "juridical antecedence",
+    "incurability",
+    "void marriage",
+    "guidelines"
+  ],
+  "primary_topics": [
+    "Chapter 13: CJP on the rules on psychological incapacity as a ground to void a marriage under Article 36 of the Family Code"
+  ],
+  "sub_topics": [
+    "Article 36 — psychological incapacity voids a marriage",
+    "Santos v. Court of Appeals — gravity, juridical antecedence, incurability",
+    "Republic v. Molina — the guidelines (CJP was ponente)",
+    "The movement toward clearer rules for proving psychological incapacity"
+  ],
+  "signature_phrases": [
+    "gravity, juridical antecedence, and incurability",
+    "essential marital obligations of marriage"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (ponente of Molina)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Office of the Solicitor General"
+    ],
+    "cases": [
+      "Santos v. Court of Appeals",
+      "Republic v. Molina"
+    ],
+    "laws": [
+      "Article 36, Family Code"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Psychological incapacity under Article 36 must be grave, juridically antecedent, and incurable, per Santos and the Molina guidelines.",
+      "rhetorical_move": "doctrinal test exposition",
+      "confidence": "high"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJP penned Republic v. Molina, which set the guidelines for psychological incapacity."
+  ],
+  "target_audience": [
+    "family-law practitioners",
+    "Bench and Bar"
+  ],
+  "register_markers": [
+    "family-law doctrine register",
+    "precedent-based",
+    "test-articulation"
+  ],
+  "decision_framework_signals": [
+    "psychological-incapacity test: grave + antecedent + incurable (Molina guidelines)"
+  ],
+  "one_paragraph_summary": "Chapter 13 addresses the rules on psychological incapacity as a ground to void a marriage under Article 36 of the Family Code. CJP traces the doctrine from Santos v. Court of Appeals — requiring gravity, juridical antecedence, and incurability — through Republic v. Molina, which he authored and which set the guiding parameters, and discusses the movement toward clearer rules for proving it.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}
