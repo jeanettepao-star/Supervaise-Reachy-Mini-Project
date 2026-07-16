@@ -421,9 +421,9 @@ CHUNK_KEEP_ANECDOTES_WHOLE: bool = _env_bool("CJ_CHUNK_KEEP_ANECDOTES_WHOLE", Tr
 #     the W3.4 benchmark alternatives) — never hardcode at a call site.
 # ===========================================================================
 # Embedding model id. Quality/latency/dim anchor for ALL dense retrieval.
-EMBED_MODEL_ID: str = _env_str("CJ_EMBED_MODEL_ID", "BAAI/bge-large-en-v1.5")
+EMBED_MODEL_ID: str = _env_str("CJ_EMBED_MODEL_ID", "BAAI/bge-base-en-v1.5")
 # Output dimensionality of EMBED_MODEL_ID; matrix/centroid shape depends on it.
-EMBED_DIM: int = _env_int("CJ_EMBED_DIM", 1024)
+EMBED_DIM: int = _env_int("CJ_EMBED_DIM", 768)
 # Device for local embedding inference ("cpu" or "cuda"). cuda ↓latency if present.
 EMBED_DEVICE: str = _env_str("CJ_EMBED_DEVICE", "cuda")
 # Optional local snapshot DIR for the embedding model (portable; retires any

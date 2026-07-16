@@ -1,10 +1,13 @@
 {
-  "model_id": "BAAI/bge-base-en-v1.5",
-  "dim": 768,
+  "model_id": "BAAI/bge-large-en-v1.5",
+  "dim": 1024,
   "backend": "cuda_fp32",
   "n_topics": 34,
   "centroid_source_fields": [
-    "member_chunk_mean (bake-off recipe; replaces field+exemplar construction)"
+    "label",
+    "description",
+    "signature_phrases",
+    "exemplar_chunks"
   ],
   "n_exemplar_chunks": 8,
   "build_date": "2026-06-29",
@@ -400,12 +403,5 @@
     "device_name": "NVIDIA GeForce GTX 1650",
     "driver": "536.67"
   },
-  "a2_keyword_fix": "'deferential interpretation' removed from judicial_activism_and_political_question (owned by economic_governance_and_business_law); centroids recomputed, pair cosine 0.9443 (<0.95, no merge).",
-  "construction_note": "member-pilot-chunk means over topic_map doc_ids (merged ids unioned); 3 topics have ZERO pilot members (death_penalty_and_echegaray, honors_received, robot_identity_meta) -> neutral global-mean fallback centroids — flagged for full-corpus rebuild in W3.x",
-  "promotion": {
-    "from": "bakeoff_bgebase_centroids.npy @ 2ca0255",
-    "ratified_by": "Dok",
-    "date": "2026-07-16T17:01:06+08:00",
-    "rollback": "_archived_bgelarge_topic_centroids*"
-  }
+  "a2_keyword_fix": "'deferential interpretation' removed from judicial_activism_and_political_question (owned by economic_governance_and_business_law); centroids recomputed, pair cosine 0.9443 (<0.95, no merge)."
 }

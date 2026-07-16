@@ -1,0 +1,1042 @@
+{
+  "anchor": "arch-baseline-v4 (embedder = bge-base-en-v1.5, ratified by Dok)",
+  "recall_C_baseline": {
+    "1": 0.618,
+    "3": 0.882,
+    "5": 0.882,
+    "10": 0.971,
+    "chunks_sent": 0.941
+  },
+  "n": 34,
+  "note": "-2.9pts @chunks-sent vs bge-large is the RATIFIED trade; recovery belongs to W3.3/W3.4",
+  "live_vs_replay": "40/40 exact",
+  "scope_signal": {
+    "in": [
+      [
+        "A1",
+        0.6169
+      ],
+      [
+        "A2",
+        0.6146
+      ],
+      [
+        "A3",
+        0.5755
+      ],
+      [
+        "A4",
+        0.6036
+      ],
+      [
+        "A5",
+        0.6679
+      ],
+      [
+        "A6",
+        0.618
+      ],
+      [
+        "B7",
+        0.6576
+      ],
+      [
+        "B8",
+        0.5917
+      ],
+      [
+        "B9",
+        0.5812
+      ],
+      [
+        "B10",
+        0.5585
+      ],
+      [
+        "B11",
+        0.6415
+      ],
+      [
+        "B12",
+        0.6414
+      ],
+      [
+        "C13",
+        0.584
+      ],
+      [
+        "C14",
+        0.6009
+      ],
+      [
+        "C15",
+        0.5653
+      ],
+      [
+        "C16",
+        0.6177
+      ],
+      [
+        "C17",
+        0.5372
+      ],
+      [
+        "C18",
+        0.4958
+      ],
+      [
+        "D19",
+        0.6218
+      ],
+      [
+        "D20",
+        0.6252
+      ],
+      [
+        "D21",
+        0.5843
+      ],
+      [
+        "D22",
+        0.6133
+      ],
+      [
+        "D23",
+        0.5084
+      ],
+      [
+        "D24",
+        0.5639
+      ],
+      [
+        "E25",
+        0.6185
+      ],
+      [
+        "E26",
+        0.6844
+      ],
+      [
+        "E27",
+        0.6319
+      ],
+      [
+        "E28",
+        0.5946
+      ],
+      [
+        "E29",
+        0.5118
+      ],
+      [
+        "E30",
+        0.6001
+      ],
+      [
+        "X34",
+        0.623
+      ],
+      [
+        "X37",
+        0.5936
+      ],
+      [
+        "X38",
+        0.6443
+      ],
+      [
+        "X40",
+        0.5725
+      ]
+    ],
+    "meta": [
+      [
+        "X31",
+        0.479
+      ],
+      [
+        "X32",
+        0.501
+      ]
+    ],
+    "gap": [
+      [
+        "X33",
+        0.5794
+      ],
+      [
+        "X39",
+        0.5492
+      ]
+    ],
+    "out": [
+      [
+        "X35",
+        0.4982
+      ],
+      [
+        "X36",
+        0.4679
+      ]
+    ]
+  },
+  "provenance": {
+    "ratified_by": "Dok",
+    "bakeoff_evidence": "bakeoff_FINAL_for_dok.md @ 2ca0255",
+    "rollback": "restore data/index/_archived_bgelarge_* over production names + revert config EMBED_MODEL_ID/EMBED_DIM",
+    "commit_before": "6412ab0",
+    "timestamp": "2026-07-16T17:04:01+08:00"
+  },
+  "per_query": [
+    {
+      "qid": "A1",
+      "retrieved_docs": [
+        "CA031",
+        "SB028",
+        "CD003",
+        "CA004",
+        "BD003",
+        "CB001",
+        "CC069",
+        "BD005",
+        "CE018",
+        "CE003",
+        "CD005",
+        "SB040",
+        "BD006",
+        "CB003",
+        "CA242"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "A2",
+      "retrieved_docs": [
+        "SB065",
+        "BD002",
+        "BD001",
+        "BD003",
+        "BD005",
+        "CA031",
+        "CC006",
+        "CA004",
+        "SB042",
+        "BD006",
+        "CA034",
+        "SC007",
+        "SA049",
+        "CA330",
+        "SA011"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "A3",
+      "retrieved_docs": [
+        "CA242",
+        "BD003",
+        "BD001",
+        "CA330",
+        "BA009",
+        "BD005",
+        "CA004",
+        "CE003",
+        "CA377",
+        "BD004",
+        "CE008",
+        "SA011",
+        "SD021",
+        "CA003",
+        "BC001"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "A4",
+      "retrieved_docs": [
+        "SE036",
+        "CE003",
+        "SD035",
+        "SA049",
+        "SB065",
+        "BD004",
+        "CA009",
+        "SB028",
+        "BD002",
+        "SE012",
+        "CD009",
+        "CA034",
+        "SC010",
+        "CA095",
+        "SA011"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@sent": false
+    },
+    {
+      "qid": "A5",
+      "retrieved_docs": [
+        "CA095",
+        "BD004",
+        "BD003",
+        "GC001",
+        "BD002",
+        "SE012",
+        "BD006",
+        "BE001",
+        "CA003",
+        "SD002",
+        "BE003",
+        "CC006",
+        "CD003",
+        "BB001",
+        "BD005"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "A6",
+      "retrieved_docs": [
+        "CA004",
+        "CA005",
+        "BA009",
+        "CA330",
+        "SB028",
+        "CA377",
+        "CE018",
+        "BD001",
+        "CE003",
+        "BD003",
+        "SE013",
+        "SA049",
+        "SB040",
+        "SA011",
+        "CE008"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "B7",
+      "retrieved_docs": [
+        "SB028",
+        "SA011",
+        "CB005",
+        "SB040",
+        "CB006",
+        "SD016",
+        "SB051",
+        "CB008",
+        "CD011",
+        "SD035",
+        "CD001",
+        "SD002",
+        "CC006",
+        "CB003",
+        "SC008"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "B8",
+      "retrieved_docs": [
+        "SB028",
+        "CD005",
+        "SE036",
+        "CB001",
+        "SA011",
+        "CC002",
+        "BC001",
+        "CC006",
+        "SD035",
+        "CD009",
+        "CD003",
+        "CB004",
+        "SB040",
+        "CB003",
+        "CA060"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "B9",
+      "retrieved_docs": [
+        "CD003",
+        "SD021",
+        "CD008",
+        "SB028",
+        "CD011",
+        "CB006",
+        "SD009",
+        "BD003",
+        "SB051",
+        "SB063",
+        "CB003",
+        "CB005",
+        "SB042",
+        "SD016",
+        "CB008"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "hit@10": true,
+      "hit@sent": false
+    },
+    {
+      "qid": "B10",
+      "retrieved_docs": [
+        "SD016",
+        "CD008",
+        "SB006",
+        "SD009",
+        "SD021",
+        "SA011",
+        "SD004",
+        "SB028",
+        "SD002",
+        "CD003",
+        "CD011",
+        "SB051",
+        "SB063",
+        "CC006",
+        "CB004"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "B11",
+      "retrieved_docs": [
+        "CB005",
+        "SB040",
+        "CB007",
+        "CA031",
+        "CC069",
+        "SA049",
+        "BD005",
+        "BD002",
+        "SB063",
+        "CA095",
+        "CB008",
+        "SB028",
+        "CA330",
+        "BD003",
+        "CA009"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "B12",
+      "retrieved_docs": [
+        "CB008",
+        "SD035",
+        "SB028",
+        "CB006",
+        "SD016",
+        "SB040",
+        "CA330",
+        "CB004",
+        "SD002",
+        "CD011",
+        "CB005",
+        "BE002",
+        "SB063",
+        "SB051",
+        "CC006"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "C13",
+      "retrieved_docs": [
+        "SE036",
+        "BC001",
+        "SB042",
+        "GC003",
+        "SC003",
+        "SC010",
+        "SA011",
+        "SB028",
+        "CA095",
+        "CB004",
+        "CB008",
+        "SD016",
+        "CC006",
+        "CC001",
+        "SD021"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "C14",
+      "retrieved_docs": [
+        "SE036",
+        "SA011",
+        "SB039",
+        "SB042",
+        "CC006",
+        "CC002",
+        "SB050",
+        "BD003",
+        "CB007",
+        "SD016",
+        "CA034",
+        "BC001",
+        "SD035",
+        "CC001",
+        "CB006"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "C15",
+      "retrieved_docs": [
+        "BC001",
+        "SB028",
+        "SE036",
+        "CC009",
+        "SB051",
+        "SA011",
+        "CA034",
+        "CC006",
+        "BE002",
+        "SB040",
+        "CC002",
+        "CC001",
+        "SB006",
+        "SB050",
+        "SD035"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "C16",
+      "retrieved_docs": [
+        "CC001",
+        "BE002",
+        "SC010",
+        "SE036",
+        "SB028",
+        "CC009",
+        "SD016",
+        "SB050",
+        "SD035",
+        "BE003",
+        "SE013",
+        "CB004",
+        "SC003",
+        "SD021",
+        "BD001"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "C17",
+      "retrieved_docs": [
+        "SB042",
+        "SB065",
+        "CC006",
+        "SA011",
+        "CD009",
+        "SE036",
+        "SC005",
+        "CC002",
+        "SB050",
+        "CE003",
+        "SB028",
+        "SD035",
+        "CC009",
+        "BD002",
+        "BD005"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "C18",
+      "retrieved_docs": [
+        "CC002",
+        "SE036",
+        "CC008",
+        "CC006",
+        "SD002",
+        "CB004",
+        "SC010",
+        "BB002",
+        "SC003",
+        "SB042",
+        "SB063",
+        "SD021",
+        "SD035",
+        "SB039",
+        "SB050"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "D19",
+      "retrieved_docs": [
+        "CB005",
+        "SD016",
+        "SA011",
+        "SB040",
+        "SB051",
+        "SB028",
+        "SD004",
+        "SD002",
+        "CB006",
+        "SD021",
+        "CD009",
+        "SC007",
+        "SD009",
+        "SC008",
+        "CD003"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "D20",
+      "retrieved_docs": [
+        "CD001",
+        "SD016",
+        "CD005",
+        "SA011",
+        "SB006",
+        "SD035",
+        "SD002",
+        "CD022",
+        "CB003",
+        "CD011",
+        "CD009",
+        "BD002",
+        "CD008",
+        "SD021",
+        "CD003"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "D21",
+      "retrieved_docs": [
+        "SD002",
+        "SD021",
+        "SD016",
+        "SC007",
+        "SD004",
+        "SA011",
+        "CD008",
+        "SB028",
+        "SB040",
+        "CB005",
+        "CB004",
+        "CB006",
+        "SB006",
+        "CE001",
+        "CB008"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "D22",
+      "retrieved_docs": [
+        "CD003",
+        "CA031",
+        "SB028",
+        "CA034",
+        "SC008",
+        "BD003",
+        "CB003",
+        "CD009",
+        "SE012",
+        "SC007",
+        "SB040",
+        "BD005",
+        "CB001",
+        "CE003",
+        "BD001"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "D23",
+      "retrieved_docs": [
+        "CD008",
+        "CB004",
+        "SD021",
+        "SD016",
+        "CD009",
+        "SD009",
+        "SE036",
+        "CA031",
+        "SC005",
+        "CB003",
+        "SD002",
+        "CA034",
+        "SD035",
+        "SC003",
+        "BB001"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "D24",
+      "retrieved_docs": [
+        "SB040",
+        "SB050",
+        "CC006",
+        "SD035",
+        "CB005",
+        "SD016",
+        "SA011",
+        "SB063",
+        "CD001",
+        "SB028",
+        "SE012",
+        "CB006",
+        "SE036",
+        "SC008",
+        "CE009"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "E25",
+      "retrieved_docs": [
+        "CA010",
+        "CA009",
+        "CA013",
+        "CA011",
+        "CD022",
+        "CA031",
+        "CE003",
+        "SB063",
+        "SA011",
+        "SC008",
+        "CE009",
+        "CA003",
+        "CD001",
+        "CE001",
+        "SC007"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "E26",
+      "retrieved_docs": [
+        "CA003",
+        "CA009",
+        "CA031",
+        "CE003",
+        "SB065",
+        "SB028",
+        "CA010",
+        "CE007",
+        "SE036",
+        "SE013",
+        "SD035",
+        "SE012",
+        "BD002",
+        "CC006",
+        "CE072"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "E27",
+      "retrieved_docs": [
+        "CE003",
+        "CA009",
+        "CA010",
+        "SB028",
+        "CA013",
+        "SB040",
+        "CB006",
+        "BD003",
+        "BD005",
+        "CA011",
+        "CB007",
+        "SE012",
+        "SB051",
+        "CE010",
+        "BD001"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "E28",
+      "retrieved_docs": [
+        "BD001",
+        "CE008",
+        "CA377",
+        "BD003",
+        "BA009",
+        "CE007",
+        "BD005",
+        "BA027",
+        "CA034",
+        "SA011",
+        "CA004",
+        "SA049",
+        "SB040",
+        "CC002",
+        "CA095"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "E29",
+      "retrieved_docs": [
+        "CA034",
+        "CA242",
+        "SA049",
+        "SE012",
+        "CE004",
+        "SE013",
+        "CE102",
+        "SB028",
+        "CE008",
+        "CD022",
+        "SE036",
+        "CE011",
+        "CB001",
+        "CB008",
+        "SA011"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "E30",
+      "retrieved_docs": [
+        "BD001",
+        "BD004",
+        "CA003",
+        "CA005",
+        "BA009",
+        "CA127",
+        "BD003",
+        "BD005",
+        "BD002",
+        "CA330",
+        "BD006",
+        "CE007",
+        "CA009",
+        "CA377",
+        "CC004"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "X34",
+      "retrieved_docs": [
+        "CA010",
+        "CA009",
+        "CA013",
+        "CA011",
+        "CE009",
+        "SE012",
+        "CE001",
+        "CA003",
+        "CE003",
+        "CB007",
+        "CA031",
+        "CA060",
+        "BD006",
+        "CE007",
+        "SB039"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "X37",
+      "retrieved_docs": [
+        "SB028",
+        "CA031",
+        "CD003",
+        "CB005",
+        "BE002",
+        "CB006",
+        "CB008",
+        "CA009",
+        "CB003",
+        "SB051",
+        "CA034",
+        "BD002",
+        "SB040",
+        "CB001",
+        "BB002"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "X38",
+      "retrieved_docs": [
+        "CB008",
+        "SA011",
+        "SB028",
+        "CB005",
+        "SB040",
+        "SD021",
+        "CC004",
+        "SD002",
+        "SD016",
+        "SB051",
+        "SC007",
+        "CB001",
+        "CB004",
+        "CD003",
+        "SE036"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@sent": true
+    },
+    {
+      "qid": "X40",
+      "retrieved_docs": [
+        "SE036",
+        "SD016",
+        "CD003",
+        "SA011",
+        "BE003",
+        "SB028",
+        "BB003",
+        "BC001",
+        "BD003",
+        "BA009",
+        "CD009",
+        "BE002",
+        "CC008",
+        "SD021",
+        "SB063"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "hit@10": true,
+      "hit@sent": true
+    }
+  ]
+}
