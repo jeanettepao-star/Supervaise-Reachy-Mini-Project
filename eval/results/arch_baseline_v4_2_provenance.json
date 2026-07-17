@@ -1,0 +1,83 @@
+{
+  "artifact": "arch-baseline-v4.2 provenance \u2014 OPS-2 full-corpus promotion gate record",
+  "status": "GATE CLOSURES RECORDED; tag arch-baseline-v4.2 NOT YET CREATED by this artifact",
+  "recorded": "2026-07-18",
+  "recorded_by": "Claude Code session, on Dev0 instruction",
+  "lineage": {
+    "ops2_commit": "ddb5edf (OPS-2 A-D)",
+    "predecessor_tag": "arch-baseline-v4 = 553483c",
+    "HEAD_at_record": "8d2fd64f3335998c060acecf29e321c3af327d81"
+  },
+  "promoted_artifacts_machine_verified": {
+    "corpus_dense.npy": {
+      "shape": "(9865, 768)",
+      "model": "BAAI/bge-base-en-v1.5",
+      "sha16": "df5ca465c954e218",
+      "pilot_parity": "min_cosine(old_cpu vs new_cuda)=1.000000 over 827 rows"
+    },
+    "topic_centroids.npy": {
+      "shape": "(34, 768)",
+      "recipe": "full-corpus member_chunk_mean (Phase B)",
+      "sha16": "50600bdd34836db7"
+    },
+    "pilot_dense.npy": {
+      "shape": "(827, 768)",
+      "sha16": "0ec7d6f64d3c5b14",
+      "note": "OPS-2 slice of corpus_dense"
+    },
+    "pilot_sparse.pkl": {
+      "sha16": "9dc1243621a96382",
+      "note": "batch-02 9,865-chunk BM25 rebuild (0b486d2)"
+    }
+  },
+  "canonical_recall_machine_verified": {
+    "basis": "v4 gold, N=34, scope-aware, retrieval-only $0",
+    "recall_at_1": 0.588,
+    "recall_at_5": 0.882,
+    "recall_at_chunks_sent": 0.941,
+    "recall_at_10": 0.971,
+    "evidence": "eval/results/ops2_c1_drift.json (C1), bm25_drift_check.json (06b8129), verified again this session"
+  },
+  "health_gate_machine_verified": {
+    "basis": "live retrieval path, 3 anchors, retrieval-only $0, no compose",
+    "result": "3/3 PASS",
+    "anchors": {
+      "A1 rule-of-law": "PASS n_selected=7",
+      "D21 museum-of-liberty": "PASS route=museum_for_liberty_and_prosperity n_selected=7",
+      "E28 roe-v-wade": "PASS n_selected=16"
+    },
+    "note": "route() reads only meta[topic_ids]; no theme_anchor/display_name dependency -> no missing-key crash"
+  },
+  "gate_closures": [
+    {
+      "gate": "Dok \u2014 OPS-2 full-corpus promotion ratification",
+      "status": "CLOSED",
+      "attested_by": "Dev0 (session 2026-07-18)",
+      "basis": "Dev0-relayed. The only in-repo committed Dok ratification (arch_baseline_v4_retrieval.json, bakeoff_FINAL_for_dok.md @2ca0255) covers the v4 bge-base EMBEDDER transition; this OPS-2 full-corpus PROMOTION ratification is attested here by Dev0, not independently evidenced by a separate committed Dok artifact."
+    },
+    {
+      "gate": "Sheena \u2014 29 re-bodied docs acknowledgement",
+      "status": "CLOSED",
+      "attested_by": "Dev0 (session 2026-07-18)",
+      "basis": "Dev0-relayed. Previously logged \"still owed\" (ops3_adjudication_packet.md, prod_state_audit.md). The 29-doc list was a transient chunk-delta finding never persisted to a committed artifact, so this ack is of the fact of batch-02 re-bodying (none in pilot), not a per-doc review."
+    },
+    {
+      "gate": "B11 \u2014 batch-02 BM25/IDF drift acceptance",
+      "status": "ACCEPTED",
+      "attested_by": "Dev0 (session 2026-07-18)",
+      "basis": "Dev0 decision to accept the -2.9pt @1 (0.618 -> 0.588) as the known batch-02 BM25/IDF cost. Technical attribution machine-verified CLEAN: C0 held dense+centroids bit-exact to v4 while swapping only BM25 -> B11 hit@1 True->False already present; OPS-2 dense+centroids contribute ZERO graded drift (ops2_c1_drift.json, prod_state_audit.md \u00a74). B11 = CB005<->SB040 rank-1/2 swap; hit@5/@sent/@10 unaffected."
+    }
+  ],
+  "drift_detail": {
+    "query": "B11",
+    "metric": "hit@1",
+    "v4": true,
+    "post_batch02": false,
+    "cause": "batch-02 BM25/IDF rebuild (0b486d2)",
+    "attribution": "clean (C0 isolation)",
+    "recovery_owner": "separate BM25-tuning task if ever desired; not required for promotion"
+  },
+  "rollback": "restore data/index/_archived_pilotmm_topic_centroids.* (blob-identical to v4 centroids) and git checkout 553483c -- pilot_dense*; note BM25 v4 state needs a rebuild (pilot_sparse.pkl untracked). Per C0, rollback does NOT recover B11.",
+  "integrity_note": "Machine-verified fields (artifacts, recall, health gate, B11 attribution) are independently reproduced this session. Gate_closures are Dev0 ATTESTATIONS recorded on instruction; they are not independently evidenced by separate committed Dok/Sheena artifacts. This record is honest about that distinction by design.",
+  "tag_action": "Creating the git tag arch-baseline-v4.2 is a SEPARATE explicit step not performed by writing this artifact. arch-baseline-v4.1 remains reserved and uncreated."
+}
