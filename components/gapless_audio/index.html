@@ -29,11 +29,18 @@
   }
   function setValue(v){ send("streamlit:setComponentValue", {dataType:"json", value:v}); }
 
-  btn.addEventListener("click", () => {
+  function enable(){
     if (!ctx) { ctx = new (window.AudioContext||window.webkitAudioContext)(); }
-    ctx.resume().then(()=>{ btn.textContent = "🔊 Audio enabled"; btn.classList.add("ready");
-                            stat.textContent = "ready"; drain(); });
-  });
+    return ctx.resume().then(()=>{
+      try { sessionStorage.setItem("cjp_audio_enabled","1"); } catch(e){}
+      btn.textContent = "🔊 Audio enabled"; btn.classList.add("ready");
+      stat.textContent = "ready"; drain();
+    });
+  }
+  btn.addEventListener("click", enable);
+  // STAY ENABLED: once unlocked in this tab, auto-resume on every rerun/reload
+  // (sticky activation usually permits resume() without a fresh click). Harmless if blocked.
+  try { if (sessionStorage.getItem("cjp_audio_enabled") === "1") enable().catch(()=>{}); } catch(e){}
 
   function b64ToArrayBuffer(b64){
     const bin = atob(b64), len = bin.length, buf = new Uint8Array(len);
@@ -71,8 +78,11 @@
       seen.add(c.i);
       pending.set(c.i, b64ToArrayBuffer(c.b64));
     }
-    if (!ctx || ctx.state !== "running") {
-      stat.textContent = pending.size ? (pending.size + " chunk(s) waiting — click Enable audio") : "";
+    if ((!ctx || ctx.state !== "running") && pending.size) {
+      let wasEnabled = false;
+      try { wasEnabled = sessionStorage.getItem("cjp_audio_enabled") === "1"; } catch(e){}
+      if (wasEnabled) { enable().catch(()=>{}); }   // best-effort auto-resume, no click needed
+      else { stat.textContent = pending.size + " chunk(s) waiting — click Enable audio"; }
     }
     drain();
   });

@@ -62,6 +62,23 @@ RATES = {"in": 3.00, "cw": 3.75, "cr": 0.30, "out": 15.00}
 TTS_PER_MCHAR, STT_PER_MIN = 15.00, 0.006
 VOICES = ["onyx", "alloy", "echo", "fable", "nova", "shimmer"]
 
+# TTFA filler: a short, neutral, in-character phrase synthesized via OpenAI tts-1
+# THE MOMENT the question is confirmed — plays first (chunk = base) so the audience
+# hears CJP's voice in ~0.5s while retrieval + Sonnet compose run in the background.
+# Generic on purpose (no stance) so it fits answers AND declines. Not shown on
+# screen (audio only), never part of the answer text or the envelope.
+FILLER_ENABLED = True
+FILLERS = [
+    "Let me reflect on that for a moment.",
+    "A thoughtful question — allow me a moment.",
+    "Let me consider that carefully.",
+    "Permit me a moment to gather my thoughts.",
+]
+
+
+def _pick_filler(q: str) -> str:
+    return FILLERS[sum(ord(c) for c in q) % len(FILLERS)]
+
 
 @st.cache_resource(show_spinner="Warming the v4 embedder (~30-40s, first launch only)...")
 def warm_pipeline():
@@ -82,6 +99,27 @@ def openai_client():
 def gapless_component():
     return components.declare_component("gapless_audio",
                                         path=str(ROOT / "components" / "gapless_audio"))
+
+
+@st.cache_resource
+def filler_cache() -> dict:
+    """Persistent {(voice, text): mp3_bytes} across reruns — pre-synthesized TTFA
+    fillers so the opening phrase is INSTANT (not a live ~3.6s tts-1 call)."""
+    return {}
+
+
+def prewarm_fillers(oai, voice: str, fcache: dict) -> None:
+    """Background pre-synth of every filler for the current voice, so Q1's filler is
+    already cached by the time the audience finishes recording. Non-blocking."""
+    def w():
+        for txt in FILLERS:
+            if (voice, txt) not in fcache:
+                try:
+                    fcache[(voice, txt)] = oai.audio.speech.create(
+                        model="tts-1", voice=voice, input=txt).content
+                except Exception:
+                    pass
+    threading.Thread(target=w, daemon=True).start()
 
 
 def stt_openai(oai, wav_bytes: bytes):
@@ -114,7 +152,8 @@ def log_row(row: dict) -> None:
         w.writerow(row)
 
 
-def start_job(q: str, mode: str, stt_s: float, oai, allow, client, voice: str, base_idx: int) -> dict:
+def start_job(q: str, mode: str, stt_s: float, oai, allow, client, voice: str, base_idx: int,
+              fcache: dict) -> dict:
     """Spawn the background compose+synth pipeline. Returns the live job dict the
     UI polls. NO st.* calls inside the thread."""
     job = {"q": q, "mode": mode, "stt_s": stt_s, "acc": "", "chunks": [], "synth_ms": {},
@@ -142,6 +181,22 @@ def start_job(q: str, mode: str, stt_s: float, oai, allow, client, voice: str, b
 
             def submit(sent: str):
                 futures.append(pool.submit(synth, idx["n"], sent)); idx["n"] += 1
+
+            # TTFA FILLER (chunk = base): serve from the pre-synth cache -> INSTANT first
+            # audio while retrieval + compose run. Live-synth once if not yet cached.
+            # Audio only — never added to acc / answer / envelope.
+            if FILLER_ENABLED:
+                ftxt = _pick_filler(job["q"]); job["filler"] = ftxt
+                fb = fcache.get((voice, ftxt)); cached = fb is not None
+                t0 = time.perf_counter()
+                if not cached:
+                    fb = oai.audio.speech.create(model="tts-1", voice=voice, input=ftxt).content
+                    fcache[(voice, ftxt)] = fb
+                fi = idx["n"]; idx["n"] += 1
+                job["synth_ms"][fi] = 0 if cached else round((time.perf_counter() - t0) * 1000)
+                job["chunks"].append({"i": fi, "b64": base64.b64encode(fb).decode("ascii"),
+                                      "chars": len(ftxt)})
+                job["first_chunk_ready_s"] = round(time.perf_counter() - job["t_confirm"], 2)
 
             def on_text(piece: str):
                 job["acc"] += piece
@@ -240,6 +295,10 @@ if transport != "native_sdk":
     st.error(f"Transport = {transport}: native TLS broken — fix via docs/RUNBOOK_transport.md.")
 oai = openai_client()
 gapless = gapless_component()
+fcache = filler_cache()
+if FILLER_ENABLED and ss.get("fillers_warmed") != voice:
+    prewarm_fillers(oai, voice, fcache)          # background pre-synth -> instant filler TTFA
+    ss["fillers_warmed"] = voice
 
 job = ss.job
 busy = bool(job and not job["done"])
@@ -259,7 +318,8 @@ if audio_in is not None and not busy:
             st.caption(f"STT heard (lang={lang}, {stt_s}s): **{text or '(nothing)'}**")
             if text:
                 if mode == "DEMO":
-                    ss.job = start_job(text, mode, stt_s, oai, allow, client, voice, ss.chunk_base)
+                    ss.job = start_job(text, mode, stt_s, oai, allow, client, voice,
+                                       ss.chunk_base, fcache)
                     ss.mic_key += 1
                     st.rerun()
                 else:
@@ -272,7 +332,7 @@ if mode == "TEST" and ss.pending and not busy:
                      ss.pending["text"], height=80)
     if st.button("Ask", type="primary") and q.strip():
         ss.job = start_job(q.strip(), mode, ss.pending["stt_s"], oai, allow, client,
-                           voice, ss.chunk_base)
+                           voice, ss.chunk_base, fcache)
         ss.pending = None
         ss.mic_key += 1
         st.rerun()
