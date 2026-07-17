@@ -276,12 +276,44 @@ def retrieve(query: str, allowlist_doc_ids: set, route_info: dict | None = None)
         if _ti:
             kept, date_diag = _date_select(nuc["ranked"], _ti, kept)
 
+    # [ENTITY-RESCUE] DARK by default -> branch skipped (kept unchanged). When ON:
+    # if the query carries a curated atomic phrase, guarantee the best in-universe
+    # container chunk reaches the payload by APPENDING it (deduped) to the nucleus,
+    # regardless of its fused rank. Bounded at ENTITY_RESCUE_TOP_N.
+    rescue_diag = None
+    rescued: list[str] = []
+    if config.ENTITY_RESCUE_ENABLED:
+        hits = sparse.query_phrase_hits(query)
+        # distinctiveness bar: keep only rare-entity phrases (common phrases are
+        # already well-served by dense+BM25 and would flood the payload).
+        entity_hits = [h for h in hits
+                       if sparse.phrase_doc_freq(h) <= config.ENTITY_RESCUE_MAX_DOC_FREQ]
+        if entity_hits:
+            keptset = set(kept)
+            cand: dict[str, str] = {}                   # chunk_id -> phrase (first hit that reaches it)
+            for ph in entity_hits:
+                for c in sparse.chunks_with_phrase(ph, allowlist=allowlist_doc_ids):
+                    if c in universe and c not in keptset and c not in cand:
+                        cand[c] = ph
+            rescued = sorted(cand, key=lambda c: -score[c])[:config.ENTITY_RESCUE_TOP_N]
+            if rescued:
+                kept = kept + rescued                   # append, never replace
+            rescue_diag = {"fired": bool(rescued), "phrases": hits,
+                           "entity_phrases": entity_hits,
+                           "injected": [(c, cand[c]) for c in rescued]}
+        elif hits:
+            rescue_diag = {"fired": False, "phrases": hits, "entity_phrases": [],
+                           "injected": [], "skipped": "all hits above distinctiveness bar"}
+
     cutoff = {"mechanism": "top_p", "basis": nuc["basis"], "temp": nuc["temp"],
               "top_p": config.RETRIEVAL_TOP_P, "cum_mass": round(nuc["cum_mass"], 4),
               "n_kept": len(kept), "min_k_floor": config.RETRIEVAL_MIN_K,
               "min_k_floor_hit": nuc["floor_hit"]}
     if date_diag is not None:                           # only present when the date path ran
         cutoff["date_filter"] = date_diag
+    if rescue_diag is not None:                         # only present when rescue path ran
+        cutoff["entity_rescue"] = rescue_diag
+    rescued_set = set(rescued)
     return {
         "universe_size": len(universe), "dense_n": len(su["dense_set"]),
         "sparse_n": len(su["sparse_set"]), "aligned": su["dense_set"] == su["sparse_set"],
@@ -289,7 +321,8 @@ def retrieve(query: str, allowlist_doc_ids: set, route_info: dict | None = None)
         "selected": [(c, round(score[c], 4),
                       {"passage": round(passage_sim[c], 4), "affinity": round(affinity[c], 4),
                        "dense_rank": dense_rank[c], "sparse_rank": sparse_rank.get(c),
-                       "norm_mass": round(norm_of.get(c, 0.0), 5)})
+                       "norm_mass": round(norm_of.get(c, 0.0), 5),
+                       "rescued": c in rescued_set})
                      for c in kept],
         "fallback_global": not su["route_info"]["in_scope"],
     }

@@ -241,6 +241,14 @@ def build_payload(query: str, selected, directives: dict,
 
     txt = _chunk_text()
     chosen = selected[:top_k]                       # top-k lever
+    # [ENTITY-RESCUE] additive: guarantee any rescued chunk reaches the payload
+    # even if it fell outside top_k. Never removes a normal chunk; a no-op when
+    # nothing is flagged rescued (dark default) -> payload byte-identical.
+    if len(selected) > top_k:
+        seen = {c for c, _s, _d in chosen}
+        for item in selected[top_k:]:
+            if len(item) > 2 and item[2].get("rescued") and item[0] not in seen:
+                chosen.append(item); seen.add(item[0])
     kept, used = [], 0
     for cid, _s, _d in chosen:                       # char-budget lever (rank-priority)
         t = txt.get(cid, "")

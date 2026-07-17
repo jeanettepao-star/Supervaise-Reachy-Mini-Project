@@ -115,6 +115,44 @@ def load_index(force: bool = False):
     return _INDEX
 
 
+def query_phrase_hits(query: str) -> list[str]:
+    """Curated MULTI-WORD atomic phrases present in the query, via the SAME
+    analyzer used at index time (word_units -> NFKC+lower+collapse-ws -> greedy
+    longest phrase match). Each returned token is a dict phrase_key that the
+    tokenizer emitted atomically (contains a space => it was a >=2-word curated
+    match). Single common words are never returned. This is the entity-rescue
+    trigger: 'what can you say about the Museum of Liberty and Prosperity'
+    -> ['museum of liberty and prosperity']."""
+    return [t for t in tokenize(query) if " " in t]
+
+
+def chunks_with_phrase(phrase_key_str: str, allowlist=None) -> list[str]:
+    """Chunk_ids whose INDEXED text contains the atomic phrase token exactly —
+    read from the BM25 per-doc term table (same analyzer as the index; no
+    re-tokenising of chunk bodies). Restricted to `allowlist` (doc_ids and/or
+    chunk_ids) when given. This is the exact-entity container set for rescue."""
+    bm25, chunk_ids, doc_ids = load_index()
+    allow = set(allowlist) if allowlist is not None else None
+    out = []
+    for i, df in enumerate(bm25.doc_freqs):
+        if phrase_key_str in df and (
+                allow is None or chunk_ids[i] in allow or doc_ids[i] in allow):
+            out.append(chunk_ids[i])
+    return out
+
+
+def phrase_doc_freq(phrase_key_str: str) -> int:
+    """Corpus-wide DISTINCT-DOC frequency of an atomic phrase token (how many
+    docs contain it). Low = distinctive entity; high = common phrase. Read from
+    the BM25 per-doc term table — the distinctiveness bar for entity-rescue."""
+    bm25, chunk_ids, doc_ids = load_index()
+    docs = set()
+    for i, df in enumerate(bm25.doc_freqs):
+        if phrase_key_str in df:
+            docs.add(doc_ids[i])
+    return len(docs)
+
+
 def sparse_score(query: str, allowlist=None, k: int | None = None):
     """Rank chunks by BM25 for `query`. allowlist=None ranks the full corpus
     (W1.8 global-fallback). allowlist=<set of doc_ids and/or chunk_ids> restricts

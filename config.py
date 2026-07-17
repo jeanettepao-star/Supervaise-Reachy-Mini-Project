@@ -502,6 +502,29 @@ EXPAND_MAX_CHUNKS: int = _env_int("CJ_EXPAND_MAX_CHUNKS", 20)
 # Fire-rate ceiling: if retries exceed this fraction over a run, that's an
 # UPSTREAM-RETRIEVAL signal to flag (do not mask a retrieval gap with retries).
 EXPAND_FIRE_RATE_CEILING: float = _env_float("CJ_EXPAND_FIRE_RATE_CEILING", 0.10)
+# ===========================================================================
+# [ENTITY-RESCUE] Deterministic exact-entity guarantee — FUSION-BOUNDARY. When
+# the query contains a CURATED ATOMIC PHRASE (the sparse arm's designed job,
+# e.g. "Museum of Liberty and Prosperity"), the best-scoring in-universe chunk
+# that actually contains that phrase is INJECTED into the payload regardless of
+# its RRF-fused rank or soft-prior score — so an exact curated-entity match is
+# always reachable by the composer, never buried by fusion/prior/cutoff. SHIPS
+# DARK (default OFF): with the flag OFF, retrieve()/build_payload are
+# behavior-identical (no chunk added, selection set + order unchanged). Appended
+# to (never replacing) the normal top-k, deduped, bounded at TOP_N. Keys on
+# curated-phrase EXACT match only — it stays silent on out-of-scope queries.
+ENTITY_RESCUE_ENABLED: bool = _env_bool("CJ_ENTITY_RESCUE_ENABLED", False)
+# Bound: inject at most this many rescued chunks (highest fused score first),
+# so an exact match can never flood the payload.
+ENTITY_RESCUE_TOP_N: int = _env_int("CJ_ENTITY_RESCUE_TOP_N", 2)
+# DISTINCTIVENESS BAR: only rescue a curated phrase that is a rare ENTITY — one
+# appearing in at most this many corpus docs. Common doctrinal phrases ("the
+# Supreme Court" df=706, "rule of law" df=145, "due process" df=124) are already
+# well-served by dense+BM25 and must NOT trigger rescue; distinctive entities
+# ("Museum of Liberty and Prosperity" df=4, "Baron Travel" df=7, "Roe v. Wade"
+# df=4) do. Measured gap: distinctive entities top out ~24, common phrases start
+# ~45 (see entity_rescue_report.md). Default 25 sits in that gap.
+ENTITY_RESCUE_MAX_DOC_FREQ: int = _env_int("CJ_ENTITY_RESCUE_MAX_DOC_FREQ", 25)
 
 
 # ===========================================================================
