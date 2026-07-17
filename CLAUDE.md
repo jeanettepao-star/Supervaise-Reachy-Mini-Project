@@ -8,6 +8,21 @@ This file is the navigational entry point for any Claude Code or LLM
 agent opening this repo. It points to where things live — not what
 they do.
 
+## ⚠️ Two branches, two architectures — know which one you're on
+
+This repo carries **two distinct lines of work on different branches, with
+different retrieval architectures**. Check `git branch` before trusting any
+architecture claim below.
+
+| Branch | Surface | Retrieval | Baseline | Handover |
+|---|---|---|---|---|
+| `pre-wake-word-integration` | push-to-talk voice **kiosk** (`app/app.py`) | **NO embeddings** — Haiku router over a hand-curated 35-topic taxonomy | — | [2026-06-21](docs/handover_claude_code_2026-06-21.md) |
+| **`develop`** | **retrieval pipeline** (`app/retrieval.py`, `embeddings.py`, `sparse.py`) | **bge-base embeddings + BM25, RRF-fused, soft-prior centroids, top-p cutoff** | **arch-baseline-v4.2** (`9ef1f5c`) | [2026-07-18](docs/handover_claude_code_2026-07-18.md) |
+
+Sections below that say "no embeddings / no vector store" describe the **kiosk
+branch only**. On `develop`, the code is an embeddings retrieval system — trust
+the 2026-07-18 handover.
+
 ## Read first
 
 Three documents are the source of truth. Read them in this order before
@@ -15,7 +30,8 @@ making changes:
 
 | Doc | What it gives you |
 |---|---|
-| [docs/handover_claude_code_2026-06-21.md](docs/handover_claude_code_2026-06-21.md) | Latest implementation reality — reconciled pre-wake-word baseline (branch `pre-wake-word-integration`). What runs, what's wired, gaps between intent and reality. Supersedes the 05-31 handover. |
+| [docs/handover_claude_code_2026-07-18.md](docs/handover_claude_code_2026-07-18.md) | **`develop` branch** — the embeddings retrieval pipeline (bge-base + BM25 + RRF + centroids + top-p); current baseline **arch-baseline-v4.2**. Config pins, env gotchas (pyarrow pin), eval substrate, open threads. **Source of truth for `develop`.** |
+| [docs/handover_claude_code_2026-06-21.md](docs/handover_claude_code_2026-06-21.md) | **`pre-wake-word-integration` branch** — reconciled push-to-talk kiosk (no embeddings). What runs, what's wired, gaps between intent and reality. Supersedes the 05-31 handover. |
 | [docs/handover_claude_code_2026-05-16.md](docs/handover_claude_code_2026-05-16.md) | Prior implementation snapshot — kept for diff context. |
 | [PROJECT.md](PROJECT.md) | Runtime tuning detail — pipeline architecture, cost model, performance numbers, troubleshooting, config. |
 
@@ -63,6 +79,6 @@ When documents disagree:
 
 ## What this repo is NOT
 
-- **Not RAG / no embeddings.** Routing is a Haiku call against a hand-curated taxonomy (35 topics post-Phase-2; previously 37); there is no vector store and no similarity search.
+- **Not RAG / no embeddings — ON THE KIOSK BRANCH ONLY.** On `pre-wake-word-integration`, routing is a Haiku call against a hand-curated taxonomy (35 topics post-Phase-2; previously 37) with no vector store or similarity search. **This is NOT true on `develop`**, which runs an embeddings retrieval pipeline (bge-base dense + BM25 sparse, RRF-fused, 34 soft-prior centroids) — see the [2026-07-18 handover](docs/handover_claude_code_2026-07-18.md).
 - **Not a robot embodiment for May 30.** Reachy Mini integration is explicitly out of scope per the build-kit README; the demo is a conversation app on a laptop. See [ADR-0005](docs/decisions/0005-defer-robot-embodiment-for-may-30.md).
 - **No automated tests yet.** Verification is currently manual via the six build-kit sanity questions plus interactive dashboard runs. Test *specifications* exist in [docs/test-specs/](docs/test-specs/); converting them into a runnable suite is part of the runtime work in [PLAN-0001](docs/implementation-plans/PLAN-0001-runtime-app-haiku-router-sonnet-composer.md).
