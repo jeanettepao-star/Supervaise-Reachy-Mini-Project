@@ -16,18 +16,18 @@ The <0.85 independence bar is **not literally satisfiable in raw bge-base cosine
 ## 3. Candidate topics (proposal's 10 consolidations; independence = max nearest-existing-cos over member clusters)
 | cid(s) | suggested name | ~docs | sample titles | indep. cos (nearest existing) | intra-cluster coh. | RECOMMEND | DECISION |
 |---|---|---|---|---|---|---|---|
-| C00,C19 | criminal_justice_and_prosecutions | 101 | Revilla's battle for bail · Don't charge what you can't prove · Filing cases not enough | **0.937** (constitutional_doctrine) | n/a¹ | BELOW-BAR² | ______ |
-| C04,C06,C07,C10 | elections_comelec_and_candidacies | 91 | BBM COC cases · Grace Poe citizenship · 2022 races | **0.930** (constitutional_doctrine) | n/a¹ | BELOW-BAR² | ______ |
-| C01,C17 | constitutional_reform_and_structure | 53 | Federalism/Cha-cha · DAP is not PDAF · penumbra of PDAF | **0.956** (constitutional_doctrine) | n/a¹ | BELOW-BAR² | ______ |
-| C02,C09 | judicial_process_wdr_columns | 59 | With Due Respect Vols 2–3 · JBC transparency · court procedure | **0.951** (constitutional_doctrine) | n/a¹ | BELOW-BAR² | ______ |
-| C03 | governance_economy_and_democracy | 29 | ASEAN competitiveness · democracy-and-capitalism | **0.942** (rule_of_law) | n/a¹ | BELOW-BAR² | ______ |
-| C05 | us_politics_and_global_democracy | 27 | Trump elections/impeachment · SCOTUS-POTUS | **0.923** (constitutional_doctrine) | n/a¹ | BELOW-BAR² | ______ |
-| C08,C12 | judiciary_history_and_tributes | 37 | CJ centenary · eulogies/philanthropy (overlaps eulogies_and_passing) | **0.948** (mentors_and_legal_lineage) | n/a¹ | BELOW-BAR² | ______ |
-| C11,C20 | science_health_and_bioage | 28 | Bio-Age book · stem cells · longevity | **0.943** (family_and_marriage) | n/a¹ | BELOW-BAR² | ______ |
-| C16 | leadership_formation_and_civic_service | 14 | student activism · Rotary · FEU ambition · **GC006 Baron Travel** | **0.950** (faith_journey) | n/a¹ | BELOW-BAR² | ______ |
-| C15,C18 | church_and_sacred_spaces | 27 | Manila Cathedral series · Christ-centered essays | **0.944** (family_and_marriage) | n/a¹ | BELOW-BAR² | ______ |
+| C00,C19 | criminal_justice_and_prosecutions | 101 | Revilla's battle for bail · Don't charge what you can't prove · Filing cases not enough | **0.937** (constitutional_doctrine) | 0.584 / **0.769** ✓ | BELOW-BAR² · coherent³ | ______ |
+| C04,C06,C07,C10 | elections_comelec_and_candidacies | 91 | BBM COC cases · Grace Poe citizenship · 2022 races | **0.930** (constitutional_doctrine) | 0.572 / **0.734** | BELOW-BAR² | ______ |
+| C01,C17 | constitutional_reform_and_structure | 53 | Federalism/Cha-cha · DAP is not PDAF · penumbra of PDAF | **0.956** (constitutional_doctrine) | 0.567 / **0.740** | BELOW-BAR² | ______ |
+| C02,C09 | judicial_process_wdr_columns | 59 | With Due Respect Vols 2–3 · JBC transparency · court procedure | **0.951** (constitutional_doctrine) | 0.579 / **0.740** | BELOW-BAR² | ______ |
+| C03 | governance_economy_and_democracy | 29 | ASEAN competitiveness · democracy-and-capitalism | **0.942** (rule_of_law) | 0.618 / **0.725** | BELOW-BAR² | ______ |
+| C05 | us_politics_and_global_democracy | 27 | Trump elections/impeachment · SCOTUS-POTUS | **0.923** (constitutional_doctrine) | 0.631 / **0.765** ✓ | BELOW-BAR² · coherent³ | ______ |
+| C08,C12 | judiciary_history_and_tributes | 37 | CJ centenary · eulogies/philanthropy (overlaps eulogies_and_passing) | **0.948** (mentors_and_legal_lineage) | 0.548 / **0.696** ✗ | BELOW-BAR² · loosest³ | ______ |
+| C11,C20 | science_health_and_bioage | 28 | Bio-Age book · stem cells · longevity | **0.943** (family_and_marriage) | 0.519 / **0.724** | BELOW-BAR² | ______ |
+| C16 | leadership_formation_and_civic_service | 14 | student activism · Rotary · FEU ambition · **GC006 Baron Travel** | **0.950** (faith_journey) | 0.613 / **0.732** | BELOW-BAR² | ______ |
+| C15,C18 | church_and_sacred_spaces | 27 | Manila Cathedral series · Christ-centered essays | **0.944** (family_and_marriage) | 0.530 / **0.702** ✗ | BELOW-BAR² · loose³ | ______ |
 
-¹ Per-cluster intra-cosine was **not** emitted by Phase D; only the global k-means silhouette = **0.102** (weak). ² BELOW-BAR under the literal <0.85 rule (see caveat) — every cluster is ≥0.889; treat as content-driven proposals, not automated passes. C13 (AI-in-justice, 15) and C14 (West PH Sea, 15) → **adoption review**, not new topics.
+¹ Intra-cluster coherence = **min / mean** pairwise cosine over the candidate's member-doc vectors (unit-mean of chunk vectors), computed $0 pure-numpy over `corpus_dense.npy` (no model load). **Calibration reference:** the existing curated topics run mean **0.76–0.77** (supreme_court_history 0.764, faith_journey 0.762, family_and_marriage 0.772). ✓ = at/above that band; ✗ = notably below. Global k-means silhouette was 0.102 (weak separation). ² BELOW-BAR under the literal <0.85 independence rule (see caveat) — every cluster is ≥0.889; treat as content-driven proposals, not automated passes. ³ Coherence read: **criminal_justice (0.769)** and **us_politics (0.765)** match the existing-topic band → strongest new-topic candidates on coherence grounds; **judiciary_history (0.696)** and **church_and_sacred_spaces (0.702)** are the loosest — consistent with the proposal already flagging both as overlap/extend-existing (eulogies_and_passing / faith_journey). C13 (AI-in-justice, 15) and C14 (West PH Sea, 15) → **adoption review**, not new topics.
 
 ## 4. Singletons + scatter (informational, no decision)
 No qualifying-cluster orphans fall to singletons/scatter (the 496 needs-new all sit in the 21 clusters; the other 557 orphans are adoptable). GC006 is the notable near-singleton: BM25 already carries 5 "Baron Travel" phrase forms (dictionary rescue live); its home is **decline-language + candidate #9**, not a new entity dictionary need.
