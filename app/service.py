@@ -93,11 +93,32 @@ def _voice_card():
 
 
 def _theme_of(topic_id: str) -> str:
-    """theme_anchor for a (possibly merged 'a+b') topic id."""
+    """theme_anchor (A/B/C/D/E/META) for a (possibly merged 'a+b') topic id.
+
+    Sourced from the AUTHORITATIVE taxonomy (corpus/voice/topic_map.json). theme_anchor
+    is a taxonomy property, NOT a centroid-artifact field — the OPS-2 full-corpus centroid
+    meta legitimately omits it (build_centroids_fullcorpus.py), which used to raise
+    KeyError here. Falls back to the centroids meta iff it still carries theme_anchor
+    (older pilot-slice metas did), then to '' (neutral register). KeyError-proof."""
     global _THEME_OF
     if _THEME_OF is None:
-        meta = json.loads(Path(config.CENTROIDS_META_PATH).read_text(encoding="utf-8"))
-        _THEME_OF = {r["topic_id"]: r["theme_anchor"] for r in meta.get("topics", [])}
+        m: dict[str, str] = {}
+        try:
+            tmap = json.loads((_REPO_ROOT / "corpus" / "voice" / "topic_map.json")
+                              .read_text(encoding="utf-8")).get("topics", [])
+            for t in (tmap.values() if isinstance(tmap, dict) else tmap):
+                if isinstance(t, dict) and t.get("id") and t.get("theme_anchor"):
+                    m[t["id"]] = t["theme_anchor"]
+        except Exception:
+            pass
+        try:   # back-compat: older centroid metas embedded theme_anchor
+            meta = json.loads(Path(config.CENTROIDS_META_PATH).read_text(encoding="utf-8"))
+            for r in meta.get("topics", []):
+                if r.get("theme_anchor") and r.get("topic_id") not in m:
+                    m[r["topic_id"]] = r["theme_anchor"]
+        except Exception:
+            pass
+        _THEME_OF = m
     return _THEME_OF.get(topic_id.split("+")[0], "")
 
 
