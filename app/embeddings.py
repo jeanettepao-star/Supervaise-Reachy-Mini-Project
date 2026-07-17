@@ -18,8 +18,22 @@ Public API:
 from __future__ import annotations
 
 import json
+import os
 import sys
 from pathlib import Path
+
+# torch 2.5.1 + transformers 5.12.1 on this Windows env: lazily initializing
+# torch's intra-op (OpenMP) runtime mid-load access-violates (exit 139) —
+# seen at from_pretrained weight init (modeling_bert._init_weights) and even
+# at a bare torch.get_num_threads() after a large np.load. The proven fix
+# (2026-07-17: crash 100% without, 0% with) is to import torch and initialize
+# its thread pool single-threaded HERE, before numpy or any model machinery
+# touches native runtimes. OMP_NUM_THREADS is set as belt-and-braces; the
+# operative part is the early set_num_threads(1) call. Production encodes run
+# on CUDA, so encode throughput is unaffected.
+os.environ.setdefault("OMP_NUM_THREADS", "1")
+import torch  # heavy import promoted from get_model() — must init first
+torch.set_num_threads(1)
 
 import numpy as np
 
