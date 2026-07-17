@@ -7,6 +7,14 @@
 **Local clone:** `C:\Reachy Mini Project 2026`
 **Prepared for:** next Claude Code instance picking up the project
 
+> **⚠️ SCOPE (added 2026-07-18):** This handover describes the **push-to-talk voice
+> kiosk** on branch `pre-wake-word-integration` — a **no-embeddings** Haiku-router
+> architecture. The `develop` branch runs a **different** architecture: an
+> embeddings-based retrieval pipeline (bge-base + BM25 + RRF + centroids), whose
+> current baseline is **arch-baseline-v4.2**. For that, see
+> [handover_claude_code_2026-07-18.md](handover_claude_code_2026-07-18.md). Do not
+> apply this doc's "no embeddings" framing to `develop`.
+
 ---
 
 ## 0. MIGRATION & RETRACTION NOTE (read first)
