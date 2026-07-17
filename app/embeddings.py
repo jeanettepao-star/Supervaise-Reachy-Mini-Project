@@ -22,18 +22,20 @@ import os
 import sys
 from pathlib import Path
 
-# torch 2.5.1 + transformers 5.12.1 on this Windows env: lazily initializing
-# torch's intra-op (OpenMP) runtime mid-load access-violates (exit 139) —
-# seen at from_pretrained weight init (modeling_bert._init_weights) and even
-# at a bare torch.get_num_threads() after a large np.load. The proven fix
-# (2026-07-17: crash 100% without, 0% with) is to import torch and initialize
-# its thread pool single-threaded HERE, before numpy or any model machinery
-# touches native runtimes. OMP_NUM_THREADS is set as belt-and-braces; the
-# operative part is the early set_num_threads(1) call. Production encodes run
-# on CUDA, so encode throughput is unaffected.
-os.environ.setdefault("OMP_NUM_THREADS", "1")
-import torch  # heavy import promoted from get_model() — must init first
-torch.set_num_threads(1)
+# DLL-ORDER GUARD (root cause of the 2026-07-17 exit-139 segfault family):
+# pyarrow 24.0.0's C extension access-violates during DLL load when torch's
+# DLLs are already resident (torch-then-pyarrow AVs; pyarrow-then-torch is
+# clean — verified directly). The exception is swallowed by the loader, the
+# process continues heap-corrupted, and torch later crashes at arbitrary
+# native sites (model init, arange, get_num_threads...). Every model-loading
+# process hits this via sentence_transformers -> sklearn -> pandas -> pyarrow.
+# Loading pyarrow FIRST removes the corruption entirely. embeddings is
+# imported ahead of torch across this codebase, so the guard runs early.
+try:
+    import pyarrow  # noqa: F401
+except ImportError:
+    pass
+import torch  # noqa: F401  (after pyarrow — order is the fix)
 
 import numpy as np
 

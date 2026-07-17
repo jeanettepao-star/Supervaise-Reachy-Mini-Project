@@ -4,10 +4,65 @@
   "backend": "cuda_fp32",
   "n_topics": 34,
   "centroid_source_fields": [
-    "member_chunk_mean (bake-off recipe; replaces field+exemplar construction)"
+    "member_chunk_mean over FULL corpus (OPS-2 Phase B; generalises the bake-off recipe from the 827-chunk pilot slice to all corpus chunks)"
   ],
-  "n_exemplar_chunks": 8,
-  "build_date": "2026-06-29",
+  "n_corpus_chunks": 9865,
+  "build_date": "2026-07-17",
+  "corpus_dense_build_date": "2026-07-17",
+  "gmean_fallback_topics": [
+    "honors_received",
+    "robot_identity_meta"
+  ],
+  "thin_topics_lt3_chunks": [
+    [
+      "honors_received",
+      0
+    ],
+    [
+      "robot_identity_meta",
+      0
+    ]
+  ],
+  "separation_mean_pairwise_cos": {
+    "old_pilot_scoped": 0.9171,
+    "new_full_corpus": 0.9334
+  },
+  "old_vs_new_same_topic_cos": {
+    "rule_of_law": 0.9943,
+    "twin_beacons_doctrine": 0.9973,
+    "foundation_for_liberty_and_prosperity": 0.9991,
+    "with_due_respect_persona": 0.9889,
+    "constitutional_doctrine": 0.9943,
+    "due_process": 0.9889,
+    "judicial_reform": 0.9624,
+    "supreme_court_history": 0.9959,
+    "impeachment_accountability": 0.9575,
+    "international_law_disputes": 0.9916,
+    "icc_and_duterte": 0.9717,
+    "judicial_activism_and_political_question": 0.9212,
+    "asean_law_association": 0.9469,
+    "death_penalty_and_echegaray": 0.836,
+    "bar_exam_and_legal_education": 0.9933,
+    "economic_governance_and_business_law": 0.9847,
+    "eez_resource_sovereignty": 0.9859,
+    "msme_and_entrepreneurship+prosperity_fund_msme": 0.9969,
+    "family_and_marriage": 0.9854,
+    "mentors_and_legal_lineage": 0.9923,
+    "faith_journey": 0.983,
+    "early_life_sampaloc": 0.9918,
+    "jbc_discernment_and_appointment": 0.9199,
+    "eulogies_and_passing": 0.9754,
+    "friendships_and_civic_circles": 0.9978,
+    "honors_received": 0.9855,
+    "flp_scholarship_programs": 0.998,
+    "museum_for_liberty_and_prosperity": 0.996,
+    "flp_donors_and_partners": 0.9992,
+    "lawyer_ethics_initiative": 0.9757,
+    "ai_and_technology": 0.9977,
+    "global_geopolitics": 0.9776,
+    "philippine_political_landscape": 0.984,
+    "robot_identity_meta": 0.9855
+  },
   "topic_ids": [
     "rule_of_law",
     "twin_beacons_doctrine",
@@ -47,365 +102,207 @@
   "topics": [
     {
       "topic_id": "rule_of_law",
-      "display_name": "The Rule of Law",
-      "tier": "anchor",
-      "theme_anchor": "A",
-      "n_members": 176,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 16
+      "n_member_docs": 30,
+      "n_member_chunks": 180,
+      "gmean_fallback": false
     },
     {
       "topic_id": "twin_beacons_doctrine",
-      "display_name": "Liberty and Prosperity — Twin Beacons",
-      "tier": "anchor",
-      "theme_anchor": "B",
-      "n_members": 174,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 18
+      "n_member_docs": 27,
+      "n_member_chunks": 183,
+      "gmean_fallback": false
     },
     {
       "topic_id": "foundation_for_liberty_and_prosperity",
-      "display_name": "Foundation for Liberty and Prosperity (FLP)",
-      "tier": "anchor",
-      "theme_anchor": "D",
-      "n_members": 135,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 19
+      "n_member_docs": 25,
+      "n_member_chunks": 163,
+      "gmean_fallback": false
     },
     {
       "topic_id": "with_due_respect_persona",
-      "display_name": "'With Due Respect' — the columnist's stance",
-      "tier": "anchor",
-      "theme_anchor": "E",
-      "n_members": 189,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 15
+      "n_member_docs": 10,
+      "n_member_chunks": 53,
+      "gmean_fallback": false
     },
     {
       "topic_id": "constitutional_doctrine",
-      "display_name": "Constitutional Doctrine (1987 Constitution)",
-      "tier": "core",
-      "theme_anchor": "A",
-      "n_members": 532,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 26
+      "n_member_docs": 28,
+      "n_member_chunks": 180,
+      "gmean_fallback": false
     },
     {
       "topic_id": "due_process",
-      "display_name": "Due Process and Fair Trial",
-      "tier": "core",
-      "theme_anchor": "A",
-      "n_members": 110,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 17
+      "n_member_docs": 8,
+      "n_member_chunks": 58,
+      "gmean_fallback": false
     },
     {
       "topic_id": "judicial_reform",
-      "display_name": "Judicial Reform — Four Ins and ACID problems",
-      "tier": "core",
-      "theme_anchor": "A",
-      "n_members": 63,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 18
+      "n_member_docs": 6,
+      "n_member_chunks": 35,
+      "gmean_fallback": false
     },
     {
       "topic_id": "supreme_court_history",
-      "display_name": "Supreme Court — history and stewardship",
-      "tier": "core",
-      "theme_anchor": "A",
-      "n_members": 315,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 20
+      "n_member_docs": 33,
+      "n_member_chunks": 221,
+      "gmean_fallback": false
     },
     {
       "topic_id": "impeachment_accountability",
-      "display_name": "Impeachment and Accountability",
-      "tier": "subordinate",
-      "theme_anchor": "A",
-      "n_members": 139,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 18
+      "n_member_docs": 5,
+      "n_member_chunks": 29,
+      "gmean_fallback": false
     },
     {
       "topic_id": "international_law_disputes",
-      "display_name": "International Law — Arbitral Award, UNCLOS, EEZ",
-      "tier": "core",
-      "theme_anchor": "A",
-      "n_members": 77,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 25
+      "n_member_docs": 15,
+      "n_member_chunks": 82,
+      "gmean_fallback": false
     },
     {
       "topic_id": "icc_and_duterte",
-      "display_name": "ICC and the Duterte case",
-      "tier": "subordinate",
-      "theme_anchor": "A",
-      "n_members": 152,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 24
+      "n_member_docs": 16,
+      "n_member_chunks": 64,
+      "gmean_fallback": false
     },
     {
       "topic_id": "judicial_activism_and_political_question",
-      "display_name": "Judicial Activism and the Political Question Doctrine",
-      "tier": "subordinate",
-      "theme_anchor": "A",
-      "n_members": 63,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 14
+      "n_member_docs": 5,
+      "n_member_chunks": 27,
+      "gmean_fallback": false
     },
     {
       "topic_id": "asean_law_association",
-      "display_name": "ASEAN Law Association and Regional Order",
-      "tier": "subordinate",
-      "theme_anchor": "A",
-      "n_members": 35,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 18
+      "n_member_docs": 4,
+      "n_member_chunks": 20,
+      "gmean_fallback": false
     },
     {
       "topic_id": "death_penalty_and_echegaray",
-      "display_name": "Death Penalty and the Echegaray Reflection",
-      "tier": "subordinate",
-      "theme_anchor": "A",
-      "n_members": 20,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 13
+      "n_member_docs": 1,
+      "n_member_chunks": 10,
+      "gmean_fallback": false
     },
     {
       "topic_id": "bar_exam_and_legal_education",
-      "display_name": "Bar Examination and Legal Education",
-      "tier": "subordinate",
-      "theme_anchor": "A",
-      "n_members": 109,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 19
+      "n_member_docs": 20,
+      "n_member_chunks": 118,
+      "gmean_fallback": false
     },
     {
       "topic_id": "economic_governance_and_business_law",
-      "display_name": "Economic Governance and Business Law",
-      "tier": "core",
-      "theme_anchor": "B",
-      "n_members": 35,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 17
+      "n_member_docs": 7,
+      "n_member_chunks": 55,
+      "gmean_fallback": false
     },
     {
       "topic_id": "eez_resource_sovereignty",
-      "display_name": "EEZ Resource Sovereignty",
-      "tier": "subordinate",
-      "theme_anchor": "B",
-      "n_members": 24,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 17
+      "n_member_docs": 7,
+      "n_member_chunks": 46,
+      "gmean_fallback": false
     },
     {
-      "topic_id": "msme_and_entrepreneurship",
-      "display_name": "MSME and Entrepreneurship — the Prosperity Fund",
-      "tier": "core",
-      "theme_anchor": "B",
-      "n_members": 41,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 17
+      "topic_id": "msme_and_entrepreneurship+prosperity_fund_msme",
+      "n_member_docs": 11,
+      "n_member_chunks": 64,
+      "gmean_fallback": false
     },
     {
       "topic_id": "family_and_marriage",
-      "display_name": "Family — Leni, children, grandchildren",
-      "tier": "core",
-      "theme_anchor": "C",
-      "n_members": 236,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 20
+      "n_member_docs": 22,
+      "n_member_chunks": 164,
+      "gmean_fallback": false
     },
     {
       "topic_id": "mentors_and_legal_lineage",
-      "display_name": "Mentors and Legal Lineage",
-      "tier": "core",
-      "theme_anchor": "C",
-      "n_members": 130,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 22
+      "n_member_docs": 16,
+      "n_member_chunks": 133,
+      "gmean_fallback": false
     },
     {
       "topic_id": "faith_journey",
-      "display_name": "Faith Journey — BLD, Pontifical Council, Pro Ecclesia",
-      "tier": "core",
-      "theme_anchor": "C",
-      "n_members": 243,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 25
+      "n_member_docs": 20,
+      "n_member_chunks": 139,
+      "gmean_fallback": false
     },
     {
       "topic_id": "early_life_sampaloc",
-      "display_name": "Early Life — Sampaloc, FEU, the Bar",
-      "tier": "subordinate",
-      "theme_anchor": "C",
-      "n_members": 81,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 20
+      "n_member_docs": 14,
+      "n_member_chunks": 119,
+      "gmean_fallback": false
     },
     {
       "topic_id": "jbc_discernment_and_appointment",
-      "display_name": "JBC Discernment — the Seven Rejections",
-      "tier": "subordinate",
-      "theme_anchor": "C",
-      "n_members": 92,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 16
+      "n_member_docs": 5,
+      "n_member_chunks": 57,
+      "gmean_fallback": false
     },
     {
       "topic_id": "eulogies_and_passing",
-      "display_name": "Eulogies and Passing of Loved Ones",
-      "tier": "subordinate",
-      "theme_anchor": "C",
-      "n_members": 97,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 21
+      "n_member_docs": 15,
+      "n_member_chunks": 102,
+      "gmean_fallback": false
     },
     {
       "topic_id": "friendships_and_civic_circles",
-      "display_name": "Friendships and Civic Circles",
-      "tier": "subordinate",
-      "theme_anchor": "C",
-      "n_members": 65,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 18
+      "n_member_docs": 12,
+      "n_member_chunks": 84,
+      "gmean_fallback": false
     },
     {
       "topic_id": "honors_received",
-      "display_name": "Honors Received",
-      "tier": "subordinate",
-      "theme_anchor": "C",
-      "n_members": 17,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 18
+      "n_member_docs": 2,
+      "n_member_chunks": 0,
+      "gmean_fallback": true
     },
     {
       "topic_id": "flp_scholarship_programs",
-      "display_name": "FLP Scholarship and Fellowship Programs",
-      "tier": "core",
-      "theme_anchor": "D",
-      "n_members": 101,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 17
+      "n_member_docs": 19,
+      "n_member_chunks": 137,
+      "gmean_fallback": false
     },
     {
       "topic_id": "museum_for_liberty_and_prosperity",
-      "display_name": "Museum for Liberty and Prosperity",
-      "tier": "core",
-      "theme_anchor": "D",
-      "n_members": 19,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 17
-    },
-    {
-      "topic_id": "prosperity_fund_msme",
-      "display_name": "Prosperity Fund (MSME)",
-      "tier": "core",
-      "theme_anchor": "D",
-      "n_members": 13,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 14
+      "n_member_docs": 10,
+      "n_member_chunks": 56,
+      "gmean_fallback": false
     },
     {
       "topic_id": "flp_donors_and_partners",
-      "display_name": "FLP Donors and Institutional Partners",
-      "tier": "subordinate",
-      "theme_anchor": "D",
-      "n_members": 131,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 24
+      "n_member_docs": 19,
+      "n_member_chunks": 115,
+      "gmean_fallback": false
     },
     {
       "topic_id": "lawyer_ethics_initiative",
-      "display_name": "Lawyer Ethics Initiative (Super Committee)",
-      "tier": "subordinate",
-      "theme_anchor": "D",
-      "n_members": 33,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 17
+      "n_member_docs": 4,
+      "n_member_chunks": 47,
+      "gmean_fallback": false
     },
     {
       "topic_id": "ai_and_technology",
-      "display_name": "AI, Technology, and the Judiciary",
-      "tier": "subordinate",
-      "theme_anchor": "E",
-      "n_members": 73,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 15
+      "n_member_docs": 11,
+      "n_member_chunks": 76,
+      "gmean_fallback": false
     },
     {
       "topic_id": "global_geopolitics",
-      "display_name": "Global Geopolitics and the ICJ",
-      "tier": "subordinate",
-      "theme_anchor": "E",
-      "n_members": 79,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 18
+      "n_member_docs": 10,
+      "n_member_chunks": 38,
+      "gmean_fallback": false
     },
     {
       "topic_id": "philippine_political_landscape",
-      "display_name": "Philippine Political Landscape",
-      "tier": "subordinate",
-      "theme_anchor": "E",
-      "n_members": 229,
-      "n_exemplar_chunks": 8,
-      "n_field_vecs": 19
+      "n_member_docs": 16,
+      "n_member_chunks": 103,
+      "gmean_fallback": false
     },
     {
       "topic_id": "robot_identity_meta",
-      "display_name": "Robot Identity (META)",
-      "tier": "meta",
-      "theme_anchor": "META",
-      "n_members": 0,
-      "n_exemplar_chunks": 0,
-      "n_field_vecs": 10
+      "n_member_docs": 0,
+      "n_member_chunks": 0,
+      "gmean_fallback": true
     }
-  ],
-  "merged_from": {
-    "msme_and_entrepreneurship+prosperity_fund_msme": [
-      "msme_and_entrepreneurship",
-      "prosperity_fund_msme"
-    ]
-  },
-  "merged_pairs": [
-    [
-      0.9758,
-      "msme_and_entrepreneurship",
-      "prosperity_fund_msme"
-    ]
-  ],
-  "premerge_n_topics": 35,
-  "merge_cosine": 0.95,
-  "assign_floor": 0.68,
-  "assign_floor_locked": true,
-  "known_orphan_validation": {
-    "GC006": {
-      "doc_nearest": 0.7566,
-      "nearest_topic": "museum_for_liberty_and_prosperity",
-      "caught_by_floor": false
-    },
-    "CA330": {
-      "doc_nearest": 0.8124,
-      "nearest_topic": "due_process",
-      "caught_by_floor": false
-    }
-  },
-  "assign_floor_level": "chunk-level (derived from chunk-nearest p5)",
-  "assign_floor_note": "GC006 (0.7566) and CA330 (0.8124) are keyword-rarity / retrieval-gap cases, NOT taxonomy orphans — they map cleanly to real topics. Doc-level coverage is complete (0/1,089 below floor). The 400/8,887 chunk-level flags are a REVIEW SURFACE (taxonomy-gap vs rare-language), not an orphan defect count. The floor is calibrated for taxonomy coverage, not retrieval recall; GC006-style recall is the dense+sparse arms job (W1.8 / W1.6 case short-form fix).",
-  "version_block": {
-    "backend": "cuda_fp32",
-    "torch": "2.5.1+cu121",
-    "torch_cuda": "12.1",
-    "cudnn": 90100,
-    "device_name": "NVIDIA GeForce GTX 1650",
-    "driver": "536.67"
-  },
-  "a2_keyword_fix": "'deferential interpretation' removed from judicial_activism_and_political_question (owned by economic_governance_and_business_law); centroids recomputed, pair cosine 0.9443 (<0.95, no merge).",
-  "construction_note": "member-pilot-chunk means over topic_map doc_ids (merged ids unioned); 3 topics have ZERO pilot members (death_penalty_and_echegaray, honors_received, robot_identity_meta) -> neutral global-mean fallback centroids — flagged for full-corpus rebuild in W3.x",
-  "promotion": {
-    "from": "bakeoff_bgebase_centroids.npy @ 2ca0255",
-    "ratified_by": "Dok",
-    "date": "2026-07-16T17:01:06+08:00",
-    "rollback": "_archived_bgelarge_topic_centroids*"
-  }
+  ]
 }
