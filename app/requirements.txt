@@ -50,3 +50,12 @@ truststore>=0.10             # native_sdk composer transport: Python TLS via the
                               # schannel_curl (a security product aborts Python TLS there).
 streamlit>=1.59                # W: voice smoke-test wrapper UI
 faster-whisper>=1.2            # W: local STT for the voice smoke test
+pyarrow==21.0.0                # PINNED (2026-07-18): pyarrow 24.0.0's arrow.dll
+                               # access-violates (0xC0000005 @ fixed offset 0xbc542e,
+                               # see eval/results/postreboot/probe_report.json) when
+                               # loaded AFTER torch 2.5.1 — killing any bare
+                               # sentence-transformers import. 21.0.0 coexists with
+                               # torch in either import order (verified 3/3 + cpu +
+                               # production path). Streamlit requires pyarrow<25,>=7,
+                               # so removal is not an option. Do not upgrade without
+                               # re-running the bare-import probe on both devices.
