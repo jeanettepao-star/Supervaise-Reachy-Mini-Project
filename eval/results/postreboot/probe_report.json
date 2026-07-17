@@ -1,0 +1,74 @@
+{
+  "task": "POST-REBOOT PREFLIGHT + MODEL-LOAD PROBE",
+  "verdict": "MODEL PROBE FAILED",
+  "verdict_detail": "The task-specified bare probe (SentenceTransformer direct, no app/embeddings.py) segfaults on BOTH cpu and cuda: exit 3221225477 = 0xC0000005 STATUS_ACCESS_VIOLATION. The PRODUCTION path (app/embeddings.py, which applies the committed pyarrow-before-torch DLL-order guard, commit ddb5edf) PASSES on the production device (cuda, cache-snapshot): exit 0, OK (768,). The reboot did not regress production; the bare-import boundary remains broken upstream.",
+  "preflight": {
+    "pwd": "C:/Reachy Mini Project 2026",
+    "branch": "develop",
+    "HEAD": "ddb5edfc5fd80bb4332a8ab7fda7604651eb3944",
+    "upstream": "ddb5edf (no divergence)",
+    "porcelain": [
+      " M \"End Point.txt\"",
+      " M corpus_snapshot.json",
+      "?? .claude/",
+      "?? data/index/_archived_bgelarge_corpus_dense.npy",
+      "?? eval/results/voice_demo_log.csv",
+      "?? eval/results/voice_smoke_log.csv"
+    ],
+    "tags": {
+      "arch-baseline..v4": "present",
+      "v4_commit": "553483ca61c1650c13a4e1a090baeb5ea3045660 (annotated tag deref)",
+      "v4.1_v4.2": "ABSENT (reserved, as required)"
+    },
+    "preserved_files_sha256_16": {
+      "End Point.txt": "c869ce32b0c86398",
+      "corpus_snapshot.json": "1f89ef190e862382",
+      "eval/results/voice_demo_log.csv": "5c99e3abffae2355",
+      "eval/results/voice_smoke_log.csv": "b9118110f8c6e6d1"
+    }
+  },
+  "probes_bare_taskspec": {
+    "cpu": {
+      "exit": 3221225477,
+      "wall_s": 46.2,
+      "stdout_tail": "",
+      "stderr_tail": []
+    },
+    "cuda": {
+      "exit": 3221225477,
+      "wall_s": 41.7,
+      "stdout_tail": "",
+      "stderr_tail": []
+    }
+  },
+  "probe_production_path": {
+    "command": "import embeddings; embeddings.embed_query(...)  [app/embeddings.py, guard active]",
+    "exit": 0,
+    "wall_s": 49.6,
+    "stdout_tail": "OK (768,)"
+  },
+  "model_source": "cache-snapshot C:/Users/ASUS/.cache/huggingface/hub/models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+  "production_device": "cuda",
+  "versions": {
+    "torch": "2.5.1+cu121",
+    "transformers": "5.12.1",
+    "sentence_transformers": "5.6.0",
+    "cuda_available": true,
+    "device_name": "NVIDIA GeForce GTX 1650",
+    "cuda_driver": "536.67"
+  },
+  "eventlog_evidence": {
+    "faulting_module": "C:\\Reachy Mini Project 2026\\.venv\\Lib\\site-packages\\pyarrow\\arrow.dll",
+    "exception": "0xc0000005",
+    "fault_offset": "0x0000000000bc542e (IDENTICAL across all 4 recorded crashes)",
+    "crash_times": [
+      "2026-07-18T00:07:19 (this probe)",
+      "2026-07-17T21:29:26",
+      "2026-07-17T21:24:25",
+      "2026-07-17T21:23:38"
+    ],
+    "reading": "OS-level confirmation of the pyarrow arrow.dll root cause; deterministic same-offset fault, not AV/injection."
+  },
+  "step3_drift_check": "NOT RUN \u2014 conditional on Step 2 pass; Step 2 verdict is FAILED per the task rule.",
+  "timestamp": "2026-07-18T00:10:53+08:00"
+}
