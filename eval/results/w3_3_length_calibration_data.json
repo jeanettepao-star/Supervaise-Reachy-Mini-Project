@@ -1,0 +1,179 @@
+{
+ "E1": {
+  "q": "What is the rule of law?",
+  "kind": "easy",
+  "retrieved_docs": [
+   "CA031",
+   "SB028",
+   "CD003"
+  ],
+  "A": {
+   "prose": "The rule of law, in my humble opinion, is the fundamental principle that no person \u2014 no president, no general, no judge \u2014 stands above the law. It is government by laws, not by men. South Korea demonstrated this beautifully when its citizens rose up against an unlawful martial law declaration and swiftly recovered their democracy \u2014 proof that a true democracy cannot be ruled by whim or caprice, but only by law.\n\nBut the rule of law is not merely a legal abstraction. It is inseparable from human flourishing. Justice and jobs, freedom and food, liberty and prosperity \u2014 these twin beacons must always go together; one is useless without the other. Economic growth that neglects justice becomes brittle. Investor confidence is a byproduct of stable, law-governed frameworks. The rule of law, in short, is the condition under which a people can help themselves \u2014 to fish, as Confucius would say, rather than merely be fed.\n\nThe rule of law governs power \u2014 not the other way around. That simple but demanding truth is the foundation of everything I have tried to stand for, both on the bench and through the Foundation for Liberty and Prosperity. Cheers!",
+   "words": 198,
+   "sentences": 12,
+   "out_tokens": 378,
+   "cost": 0.0315,
+   "compose_ms": 12393,
+   "first_sent": "The rule of law, in my humble opinion, is the fundamental principle that no person \u2014 no president, no general, no judge \u2014 stands above the law.",
+   "s1_words": 27,
+   "s1_synth_ms": 5704,
+   "spoken_sec_est": 79.2,
+   "cited": [
+    "CA031",
+    "SB028"
+   ]
+  },
+  "B": {
+   "prose": "The rule of law means, simply, that nations and peoples are governed by laws \u2014 not by the whims, caprices, or ambitions of men. It is the strongest safeguard against the abuse of power.\n\nBut the rule of law is never merely procedural. In my humble opinion, it is the very soil in which both liberty and prosperity take root. Justice and jobs, freedom and food, ethics and economics \u2014 these twin beacons must always go together; one is useless without the other. A development that neglects justice becomes brittle, and a freedom unmoored from law degenerates into license.\n\nSouth Korea's swift democratic recovery in 2024 proved this beautifully: *pacta sunt servanda* \u2014 agreements must be kept, not only among nations but between a state and its own people. That is the rule of law in action. Cheers!",
+   "words": 138,
+   "sentences": 9,
+   "out_tokens": 292,
+   "cost": 0.0305,
+   "compose_ms": 8028,
+   "first_sent": "The rule of law means, simply, that nations and peoples are governed by laws \u2014 not by the whims, caprices, or ambitions of men.",
+   "s1_words": 24,
+   "s1_synth_ms": 3724,
+   "spoken_sec_est": 55.2,
+   "cited": [
+    "CA031",
+    "SB028"
+   ]
+  }
+ },
+ "E2": {
+  "q": "What is judicial independence?",
+  "kind": "easy",
+  "retrieved_docs": [
+   "BD005",
+   "BD006",
+   "SB065"
+  ],
+  "A": {
+   "prose": "Judicial independence, in my humble opinion, is the cornerstone of any constitutional democracy. It is what allows an unelected judge to decide *against* the government itself \u2014 to stand, in effect, as a majority of one against the whole state when a citizen's rights are at stake. Citizens obey those verdicts not because force compels them, but because they trust in the wisdom and fairness of the decision.\n\nThat trust, however, must be earned and protected. A judge lacking independence has no place on the bench \u2014 much like a biased basketball referee has no place in the game.\n\nTo guard that independence, magistrates must possess what I call the four \"Ins\" \u2014 independence, integrity, industry, and intelligence \u2014 and they must be impervious to the \"plague of ships\": kinship, relationship, friendship, and fellowship. When those loyalties creep in, justice is the first casualty.\n\nThe Judicial and Bar Council was created precisely to shield the appointment process from political pressure and personal favors. Depoliticizing how judges are chosen is how we begin to keep them free once they are seated. Cheers!",
+   "words": 181,
+   "sentences": 10,
+   "out_tokens": 335,
+   "cost": 0.0104,
+   "compose_ms": 8680,
+   "first_sent": "Judicial independence, in my humble opinion, is the cornerstone of any constitutional democracy.",
+   "s1_words": 13,
+   "s1_synth_ms": 2497,
+   "spoken_sec_est": 72.4,
+   "cited": [
+    "BD005",
+    "BD006"
+   ]
+  },
+  "B": {
+   "prose": "Judicial independence means that judges decide cases solely on the law and the facts \u2014 free from political pressure, personal loyalties, and the \"plague of ships\": kinship, relationship, friendship, and fellowship. When a court upholds one citizen's rights against the entire government, that citizen becomes, in my phrase, **a majority of one** \u2014 and that is only possible when the judge answers to no one but the Constitution.\n\nTo keep that independence real, magistrates must possess the four \"Ins\": independence, integrity, industry, and intelligence. A judge lacking these has no place on the bench \u2014 just as a biased basketball referee has no place in the game.",
+   "words": 107,
+   "sentences": 4,
+   "out_tokens": 216,
+   "cost": 0.0086,
+   "compose_ms": 6097,
+   "first_sent": "Judicial independence means that judges decide cases solely on the law and the facts \u2014 free from political pressure, personal loyalties, and the \"plague of ships\":",
+   "s1_words": 26,
+   "s1_synth_ms": 5020,
+   "spoken_sec_est": 42.8,
+   "cited": [
+    "BD005"
+   ]
+  }
+ },
+ "MS": {
+  "q": "How do liberty and prosperity relate in your philosophy?",
+  "kind": "multi-chunk",
+  "retrieved_docs": [
+   "SB028",
+   "SB040",
+   "CB008",
+   "SD035",
+   "SD002",
+   "SA011"
+  ],
+  "A": {
+   "prose": "They are, in my humble opinion, twin and inseparable beacons \u2014 one is useless without the other. I have said it many times, drawing on Martin Luther King Jr.: \"If a man does not have a job or an income, he has neither life nor liberty nor the possibility for the pursuit of happiness.\" Truth, after all, is eternal and limitless \u2014 what holds in America holds equally here.\n\nSo the pairing is not ornamental. Justice and jobs, freedom and food, ethics and economics, peace and development \u2014 these must always go together. A society that secures liberty but leaves its people in poverty has delivered only half a promise. And a society that delivers prosperity while crushing freedom has delivered something worse than nothing.\n\nThat conviction is precisely why I founded the Foundation for Liberty and Prosperity on my 75th birthday in 2011 \u2014 to crystallize this philosophy into programs, scholarships, and eventually a Museum for Liberty and Prosperity. The role of professionals \u2014 CPAs, CFOs, CEOs \u2014 is equally vital: when they practice transparency, accountability, truth, and sustainability, they become purveyors of this philosophy in the marketplace itself.\n\nLiberty and prosperity, always under the rule of law. That is the architecture. Cheers!",
+   "words": 204,
+   "sentences": 11,
+   "out_tokens": 401,
+   "cost": 0.0166,
+   "compose_ms": 13093,
+   "first_sent": "They are, in my humble opinion, twin and inseparable beacons \u2014 one is useless without the other.",
+   "s1_words": 17,
+   "s1_synth_ms": 5430,
+   "spoken_sec_est": 81.6,
+   "cited": [
+    "SB028",
+    "SB040",
+    "CB008",
+    "SD002"
+   ]
+  },
+  "B": {
+   "prose": "They are, in my humble opinion, twin and inseparable beacons \u2014 one is useless without the other. As Martin Luther King Jr. said so simply yet so profoundly: \"If a man does not have a job or an income, he has neither life nor liberty nor the possibility for the pursuit of happiness.\" That truth is not American or Filipino \u2014 it is universal.\n\nJustice and jobs; freedom and food; ethics and economics \u2014 these must always go together. That is precisely why I founded the Foundation for Liberty and Prosperity: to insist that political rights without economic wellbeing are hollow, and that prosperity without liberty is mere servitude. Both, always, under the rule of law.",
+   "words": 116,
+   "sentences": 6,
+   "out_tokens": 244,
+   "cost": 0.0143,
+   "compose_ms": 8970,
+   "first_sent": "They are, in my humble opinion, twin and inseparable beacons \u2014 one is useless without the other.",
+   "s1_words": 17,
+   "s1_synth_ms": 3283,
+   "spoken_sec_est": 46.4,
+   "cited": [
+    "SB028",
+    "SA011",
+    "SD035"
+   ]
+  }
+ },
+ "AR": {
+  "q": "How did you come to found the Foundation for Liberty and Prosperity?",
+  "kind": "anecdote",
+  "retrieved_docs": [
+   "CB006",
+   "SB028",
+   "SA011",
+   "CB008",
+   "SB040",
+   "CB005",
+   "SD016",
+   "SD002",
+   "SB051",
+   "SD004"
+  ],
+  "A": {
+   "prose": "The Foundation for Liberty and Prosperity grew, quite naturally, from a life's work. Throughout my years on the Supreme Court \u2014 and especially when I convened the Global Forum on Liberty and Prosperity here in Makati in October 2006, as my last act as Chief Justice \u2014 I had come to believe, deeply and irrevocably, that liberty and prosperity are twin and inseparable beacons: one is useless without the other. Justice and jobs; freedom and food; ethics and economics \u2014 these must always go together.\n\nWhen I reached my 75th birthday on December 7, 2011, I thought: what better gift to the country than to institutionalize that philosophy? And so the Foundation was born.\n\nFrom the beginning, remarkable people joined me. The late Washington SyCip \u2014 SGV's founding genius \u2014 not only lent his name but contributed substantially. We established professorial chairs with the Metrobank Foundation, legal scholarships with the Tan Yan Kee Foundation, and dissertation writing contests funded by the Ayala Corporation. Our very first batch of scholars took first and fifth places in the bar examinations \u2014 proof that nurturing prosperity and nurturing legal excellence are not in conflict.\n\nIn my humble opinion, the best way to conquer poverty is to unleash the entrepreneurial genius of our people \u2014 to teach the fisherman to fish, not merely hand him one. That is the FLP's abiding mission. Cheers!",
+   "words": 229,
+   "sentences": 12,
+   "out_tokens": 484,
+   "cost": 0.0214,
+   "compose_ms": 12459,
+   "first_sent": "The Foundation for Liberty and Prosperity grew, quite naturally, from a life's work.",
+   "s1_words": 13,
+   "s1_synth_ms": 3080,
+   "spoken_sec_est": 91.6,
+   "cited": [
+    "CB006",
+    "SB028",
+    "CB005",
+    "SB040",
+    "SA011",
+    "SD016"
+   ]
+  },
+  "B": {
+   "prose": "The Foundation for Liberty and Prosperity was born from a lifetime of conviction \u2014 and from a birthday. On December 7, 2011, when I turned 75, I organized the FLP to give equal primacy to what I call the twin beacons: liberty and prosperity. One, in my humble opinion, is useless without the other.\n\nThe seed had been planted years earlier. As Chief Justice, I convened the Global Forum on Liberty and Prosperity in October 2006 at the Makati Shangri-La. Even in retirement, I could not set the advocacy aside.\n\nSo the Foundation took shape \u2014 professorial chairs with the Metrobank Foundation, legal scholarships with the Tan Yan Kee Foundation, dissertation contests funded by the Ayala Corporation. Washington SyCip was among our original trustees, lending both his name and a substantial sum. The mission remains what it has always been: to promote liberty and prosperity under the rule of law, because the surest path out of poverty is to unleash the entrepreneurial genius of our people. Mabuhay!",
+   "words": 167,
+   "sentences": 10,
+   "out_tokens": 320,
+   "cost": 0.019,
+   "compose_ms": 10130,
+   "first_sent": "The Foundation for Liberty and Prosperity was born from a lifetime of conviction \u2014 and from a birthday.",
+   "s1_words": 18,
+   "s1_synth_ms": 1921,
+   "spoken_sec_est": 66.8,
+   "cited": []
+  }
+ }
+}

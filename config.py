@@ -244,7 +244,12 @@ FIDELITY_MAX_RETRIES: int = _env_int("CJ_FIDELITY_MAX_RETRIES", 1)
 # longest plausible 5-paragraph answer+envelope: fits without truncation, while
 # capping a runaway at <650 tok (~$0.0096 max output cost, ~13s max generation).
 # The SHAPER is the Voice Card length discipline; this is the safety net.
-COMPOSER_MAX_TOKENS: int = _env_int("CJ_COMPOSER_MAX_TOKENS", 640)
+# [W3.3-LITE 2026-07-18] Lowered 640 -> 480 with the CONCISE spoken-length
+# directive (Voice Card). Measured: concise prose runs 107-189 words (worst-case
+# anecdote 394 output tok INCL envelope), so 480 fits prose + the ~40-80 tok
+# ENVELOPE with headroom. NOTE: 320 was trialed and TRUNCATED the envelope on the
+# anecdote answer (cited=[]); 480 recovers it. Do not drop below ~440.
+COMPOSER_MAX_TOKENS: int = _env_int("CJ_COMPOSER_MAX_TOKENS", 480)
 # Target prose length the Voice Card asks for (the primary length lever).
 COMPOSER_TARGET_PARAGRAPHS: str = _env_str("CJ_COMPOSER_TARGET_PARAGRAPHS", "3-5")
 # [W3.7] OOS decline BACKSTOP (composer-side). Phase-1 proved the centroid-cosine
