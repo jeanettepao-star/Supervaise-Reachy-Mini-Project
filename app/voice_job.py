@@ -21,7 +21,7 @@ import retrieval
 import service
 import voice_stream
 
-FILLER_ACK_SECONDS = 2.6          # approx ack clip duration (re-measure from real onyx clips)
+FILLER_ACK_SECONDS = 1.4          # measured onyx ack median 1.45s (was 2.6 SAPI estimate)
 SESSION_IDLE_RESET_S = 120        # new visitor after 120s idle -> fresh deck
 MAX_FILLERS_PER_TURN = 3          # long-transient rule: ack + up to 2 bridges, then accept silence
 
@@ -36,9 +36,9 @@ def load_pool(voice: str) -> dict:
         acks, bridges = [], []
         if not d.is_dir():
             return {}
-        for p in sorted(d.glob("*.wav")):
-            name = p.stem
-            (bridges if "bridge" in name else acks).append((name, p.read_bytes()))
+        for p in sorted(list(d.glob("*.mp3")) + list(d.glob("*.wav"))):  # tts-1 mp3 or SAPI wav
+            clip = (p.stem, p.read_bytes(), p.suffix[1:].lower())         # (id, bytes, fmt)
+            (bridges if "bridge" in p.stem else acks).append(clip)
         return {"ack": acks, "bridge": bridges} if (acks or bridges) else {}
     per_voice = collect(config.FILLER_CLIP_DIR / voice)
     if per_voice:
@@ -154,7 +154,7 @@ def start_job(q, mode, stt_s, oai, allow, client, voice, base_idx,
 
             # STAGE-1 ACK — fires HERE, at transcript-confirm (before retrieval/compose).
             if ack:
-                push_clip(ack[0], ack[1], fmt="wav")
+                push_clip(ack[0], ack[1], fmt=ack[2] if len(ack) > 2 else "wav")
                 job["filler_clip_id"] = ack[0]
                 job["filler_fired_ms"] = round((time.perf_counter() - job["t_confirm"]) * 1000)
 
@@ -168,7 +168,7 @@ def start_job(q, mode, stt_s, oai, allow, client, voice, base_idx,
                         b = bridge_deck.deal() if bridge_deck else None
                         if not b or job["done"]:
                             return
-                        push_clip(b[0], b[1], fmt="wav")
+                        push_clip(b[0], b[1], fmt=b[2] if len(b) > 2 else "wav")
                         job["stage2_fired"] = True
                         job["stage2_clip_ids"].append(b[0])
                 threading.Thread(target=bridge_monitor, daemon=True).start()

@@ -1,0 +1,549 @@
+{
+ "summary": {
+  "on_composes": 40,
+  "off_composes": 34,
+  "ab_pairs": 34,
+  "cost_this_run": 1.0851,
+  "cost_total_incl_p1p2": 1.0921,
+  "cost_per_query_on": 0.0141,
+  "words_p50_insc": 118,
+  "ttft_p50_ms": 1323,
+  "ttft_p95_ms": 1710,
+  "fabrication_total": 0,
+  "gap_slow_ttft_qids": []
+ },
+ "on": {
+  "A1": {
+   "words": 130,
+   "ttft_ms": 1374,
+   "out_tok": 275,
+   "cost": 0.03023,
+   "cited": [
+    "CA031",
+    "SB028"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "A2": {
+   "words": 111,
+   "ttft_ms": 1186,
+   "out_tok": 242,
+   "cost": 0.01137,
+   "cited": [
+    "BD002",
+    "BD001",
+    "CA031"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "A3": {
+   "words": 116,
+   "ttft_ms": 1239,
+   "out_tok": 225,
+   "cost": 0.01271,
+   "cited": [
+    "CA242"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "A4": {
+   "words": 120,
+   "ttft_ms": 1543,
+   "out_tok": 213,
+   "cost": 0.00901,
+   "cited": [
+    "CE003"
+   ],
+   "fab": [],
+   "hit_gold": false,
+   "scope": "in"
+  },
+  "A5": {
+   "words": 114,
+   "ttft_ms": 1620,
+   "out_tok": 274,
+   "cost": 0.01061,
+   "cited": [
+    "CA095",
+    "BD004"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "A6": {
+   "words": 118,
+   "ttft_ms": 1386,
+   "out_tok": 274,
+   "cost": 0.0161,
+   "cited": [
+    "CA004",
+    "CA005",
+    "CA330"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "B7": {
+   "words": 118,
+   "ttft_ms": 1328,
+   "out_tok": 281,
+   "cost": 0.01596,
+   "cited": [
+    "SB028",
+    "SB040",
+    "CB005",
+    "SA011"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "B8": {
+   "words": 141,
+   "ttft_ms": 1451,
+   "out_tok": 280,
+   "cost": 0.01261,
+   "cited": [
+    "SB028",
+    "SE036"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "B9": {
+   "words": 111,
+   "ttft_ms": 1148,
+   "out_tok": 267,
+   "cost": 0.00999,
+   "cited": [
+    "CD003",
+    "SD021"
+   ],
+   "fab": [],
+   "hit_gold": false,
+   "scope": "in"
+  },
+  "B10": {
+   "words": 124,
+   "ttft_ms": 1484,
+   "out_tok": 325,
+   "cost": 0.01595,
+   "cited": [
+    "SD016",
+    "CD008",
+    "SB006",
+    "SD009",
+    "SD021"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "B11": {
+   "words": 119,
+   "ttft_ms": 1319,
+   "out_tok": 281,
+   "cost": 0.01154,
+   "cited": [
+    "CB005",
+    "SB040",
+    "CA031"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "B12": {
+   "words": 132,
+   "ttft_ms": 1124,
+   "out_tok": 293,
+   "cost": 0.01412,
+   "cited": [
+    "SB028",
+    "CB008",
+    "CB006"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "C13": {
+   "words": 125,
+   "ttft_ms": 1065,
+   "out_tok": 231,
+   "cost": 0.01052,
+   "cited": [
+    "BC001"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "C14": {
+   "words": 117,
+   "ttft_ms": 1194,
+   "out_tok": 219,
+   "cost": 0.01054,
+   "cited": [
+    "SB042"
+   ],
+   "fab": [],
+   "hit_gold": false,
+   "scope": "in"
+  },
+  "C15": {
+   "words": 119,
+   "ttft_ms": 1418,
+   "out_tok": 253,
+   "cost": 0.00972,
+   "cited": [
+    "BC001",
+    "SB028"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "C16": {
+   "words": 113,
+   "ttft_ms": 1489,
+   "out_tok": 226,
+   "cost": 0.0097,
+   "cited": [
+    "CC001"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "C17": {
+   "words": 106,
+   "ttft_ms": 1430,
+   "out_tok": 254,
+   "cost": 0.01769,
+   "cited": [
+    "CE003",
+    "CC002"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "C18": {
+   "words": 143,
+   "ttft_ms": 1436,
+   "out_tok": 289,
+   "cost": 0.01563,
+   "cited": [
+    "SE036",
+    "CC006",
+    "CC002"
+   ],
+   "fab": [],
+   "hit_gold": false,
+   "scope": "in"
+  },
+  "D19": {
+   "words": 99,
+   "ttft_ms": 1138,
+   "out_tok": 258,
+   "cost": 0.01259,
+   "cited": [
+    "CB005",
+    "SB040",
+    "SB051",
+    "SB028"
+   ],
+   "fab": [],
+   "hit_gold": false,
+   "scope": "in"
+  },
+  "D20": {
+   "words": 109,
+   "ttft_ms": 1408,
+   "out_tok": 197,
+   "cost": 0.00979,
+   "cited": [
+    "CD001"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "D21": {
+   "words": 107,
+   "ttft_ms": 2223,
+   "out_tok": 238,
+   "cost": 0.01555,
+   "cited": [
+    "SD002",
+    "SD016"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "D22": {
+   "words": 125,
+   "ttft_ms": 1160,
+   "out_tok": 254,
+   "cost": 0.01529,
+   "cited": [
+    "CD003",
+    "SB028"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "D23": {
+   "words": 104,
+   "ttft_ms": 1248,
+   "out_tok": 236,
+   "cost": 0.01711,
+   "cited": [
+    "CD008",
+    "CB004",
+    "SD021",
+    "SD016",
+    "CD009"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "D24": {
+   "words": 111,
+   "ttft_ms": 1197,
+   "out_tok": 245,
+   "cost": 0.0143,
+   "cited": [
+    "CB005",
+    "CC006",
+    "SB040"
+   ],
+   "fab": [],
+   "hit_gold": false,
+   "scope": "in"
+  },
+  "E25": {
+   "words": 135,
+   "ttft_ms": 1303,
+   "out_tok": 267,
+   "cost": 0.01813,
+   "cited": [
+    "CA010",
+    "CA009",
+    "CA011",
+    "CA013"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "E26": {
+   "words": 143,
+   "ttft_ms": 1190,
+   "out_tok": 262,
+   "cost": 0.0122,
+   "cited": [
+    "CA003"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "E27": {
+   "words": 117,
+   "ttft_ms": 1114,
+   "out_tok": 228,
+   "cost": 0.01595,
+   "cited": [
+    "CA009",
+    "CA010",
+    "CE003"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "E28": {
+   "words": 109,
+   "ttft_ms": 1657,
+   "out_tok": 214,
+   "cost": 0.01512,
+   "cited": [
+    "CE007",
+    "CE008",
+    "CA377"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "E29": {
+   "words": 141,
+   "ttft_ms": 1308,
+   "out_tok": 264,
+   "cost": 0.01382,
+   "cited": [
+    "CA242",
+    "CA034",
+    "SA049"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "E30": {
+   "words": 102,
+   "ttft_ms": 1282,
+   "out_tok": 188,
+   "cost": 0.0122,
+   "cited": [
+    "BD001",
+    "BA009"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "X31": {
+   "words": 114,
+   "ttft_ms": 1327,
+   "out_tok": 264,
+   "cost": 0.01599,
+   "cited": [
+    "SE036",
+    "SD035"
+   ],
+   "fab": [],
+   "hit_gold": null,
+   "scope": "meta"
+  },
+  "X32": {
+   "words": 125,
+   "ttft_ms": 1186,
+   "out_tok": 256,
+   "cost": 0.01742,
+   "cited": [
+    "BC002",
+    "SD021",
+    "SB028",
+    "SD002",
+    "SE012"
+   ],
+   "fab": [],
+   "hit_gold": null,
+   "scope": "meta"
+  },
+  "X33": {
+   "words": 86,
+   "ttft_ms": 1416,
+   "out_tok": 162,
+   "cost": 0.00944,
+   "cited": [],
+   "fab": [],
+   "hit_gold": null,
+   "scope": "in(gap-v4)"
+  },
+  "X34": {
+   "words": 9,
+   "ttft_ms": 1710,
+   "out_tok": 65,
+   "cost": 0.01449,
+   "cited": [
+    "CA010"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "X35": {
+   "words": 44,
+   "ttft_ms": 1693,
+   "out_tok": 108,
+   "cost": 0.01389,
+   "cited": [],
+   "fab": [],
+   "hit_gold": null,
+   "scope": "out"
+  },
+  "X36": {
+   "words": 91,
+   "ttft_ms": 1164,
+   "out_tok": 181,
+   "cost": 0.01064,
+   "cited": [
+    "SD016",
+    "SD002"
+   ],
+   "fab": [],
+   "hit_gold": null,
+   "scope": "out"
+  },
+  "X37": {
+   "words": 111,
+   "ttft_ms": 1188,
+   "out_tok": 267,
+   "cost": 0.01669,
+   "cited": [
+    "SB028",
+    "CA031",
+    "CB005"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "X38": {
+   "words": 131,
+   "ttft_ms": 1368,
+   "out_tok": 313,
+   "cost": 0.01775,
+   "cited": [
+    "CB005",
+    "SB028",
+    "SB040"
+   ],
+   "fab": [],
+   "hit_gold": true,
+   "scope": "in"
+  },
+  "X39": {
+   "words": 113,
+   "ttft_ms": 1151,
+   "out_tok": 214,
+   "cost": 0.018,
+   "cited": [
+    "BC002"
+   ],
+   "fab": [],
+   "hit_gold": null,
+   "scope": "in(gap)"
+  },
+  "X40": {
+   "words": 128,
+   "ttft_ms": 1465,
+   "out_tok": 307,
+   "cost": 0.01399,
+   "cited": [
+    "SE036",
+    "SA011",
+    "BB003"
+   ],
+   "fab": [],
+   "hit_gold": false,
+   "scope": "in"
+  }
+ }
+}

@@ -268,3 +268,15 @@ even a filler + bridge can't cover the wait. Mitigation shipped: `voice_job.MAX_
 (ack + up to 2 bridges, then **accept silence** — never loop fillers). Telemetry `stage2_rate_running`
 > 30% is the trigger to verify the held streaming-TTS path (~$0.02), which shortens first-audio and
 should drop stage-2 firing on its own.
+
+## Day-closure (2026-07-18) — N-3 + filler + Piper + streaming verdict
+- **N-3 directive-ON full-40 (shipping config):** cost/query **$0.0141 cached** (supersedes $0.0177);
+  words p50 **118** (concise binds at full-40 scale); TTFT **p50 1323 / p95 1710 ms**; **fabrication 0/40**;
+  no GAP-class slow-TTFT transient (pattern stays at 2). A/B corpus (34 pairs, blind) →
+  `w3_ab_corpus_for_frank_kate.csv` (+ key `w3_ab_KEY_do_not_ship.csv`) for Frank/Kate.
+- **Filler CJ-voiced:** 13 onyx tts-1 clips (10 ack + 3 bridge) shipped as demo default; ack median 1.45s.
+- **R-08 Piper UNBLOCKED:** en_US-ryan-medium via `curl -H "Authorization:"` (cleared the injected bad
+  auth header); local synth ~2s/sentence CPU. See docs/robot/PIPER_SETUP.md.
+- **Streaming-TTS verdict:** did NOT beat the ~3s tts-1 floor (first-chunk median 3.07s) → `STREAM_TTS_ENABLED`
+  stays off; filler is the mitigation.
+- Day spend: **~$1.09** (ceiling $1.40): N-3 $1.085, filler synth $0.0046, streaming verify ~$0.002, Piper $0.
