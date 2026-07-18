@@ -1,0 +1,447 @@
+{
+ "summary": {
+  "n_composes": 15,
+  "degraded": 0,
+  "cost_total_usd": 0.2656,
+  "cost_per_query_usd": 0.0177,
+  "ttft_p50_ms": 1889,
+  "ttft_p95_ms": 17260,
+  "words_p50_insc": 198,
+  "fabrication_count": 0,
+  "s1_words_p50": 24,
+  "s1_synth_p50_ms": 3477,
+  "behaviors": {
+   "A1": "answered",
+   "D20": "answered",
+   "E27": "answered",
+   "A2": "answered",
+   "A6": "answered",
+   "B7": "answered",
+   "B9": "answered",
+   "C13": "answered",
+   "D19": "answered",
+   "D21": "answered",
+   "E25": "answered",
+   "E28": "answered",
+   "GAP-baron": "gap-declined",
+   "LEGAL-sue": "legal-deflected",
+   "OOS-weather": "oos-declined"
+  }
+ },
+ "rows": [
+  {
+   "qid": "A1",
+   "kind": "oos-close",
+   "in_tok": 1960,
+   "out_tok": 350,
+   "cache_write": 5255,
+   "cache_read": 0,
+   "cost_usd": 0.03084,
+   "ttft_ms": 1539,
+   "compose_ms": 9681,
+   "words": 189,
+   "s1_words": 20,
+   "s1_synth_ms": 6071,
+   "behavior": "answered",
+   "cited": [
+    "CA031",
+    "SB028"
+   ],
+   "gold": [
+    "CA031",
+    "SB028"
+   ],
+   "cited_in_retrieved": true,
+   "hit_gold": true,
+   "degraded": false,
+   "first_sent": "The rule of law means, simply and profoundly, that power is governed b"
+  },
+  {
+   "qid": "D20",
+   "kind": "oos-close",
+   "in_tok": 1738,
+   "out_tok": 319,
+   "cache_write": 0,
+   "cache_read": 5255,
+   "cost_usd": 0.01158,
+   "ttft_ms": 2579,
+   "compose_ms": 9035,
+   "words": 154,
+   "s1_words": 13,
+   "s1_synth_ms": 2899,
+   "behavior": "answered",
+   "cited": [
+    "CD001",
+    "SD016"
+   ],
+   "gold": [
+    "CD003",
+    "CD001",
+    "CD005"
+   ],
+   "cited_in_retrieved": true,
+   "hit_gold": true,
+   "degraded": false,
+   "first_sent": "To qualify for a LibPros scholarship, a law student must meet seven re"
+  },
+  {
+   "qid": "E27",
+   "kind": "oos-close",
+   "in_tok": 3638,
+   "out_tok": 376,
+   "cache_write": 0,
+   "cache_read": 5255,
+   "cost_usd": 0.01813,
+   "ttft_ms": 5542,
+   "compose_ms": 14370,
+   "words": 199,
+   "s1_words": 26,
+   "s1_synth_ms": 3673,
+   "behavior": "answered",
+   "cited": [
+    "CA009",
+    "CA010",
+    "CE003"
+   ],
+   "gold": [
+    "CA009",
+    "CE003"
+   ],
+   "cited_in_retrieved": true,
+   "hit_gold": true,
+   "degraded": false,
+   "first_sent": "In my humble opinion, international law does not so much *limit* sover"
+  },
+  {
+   "qid": "A2",
+   "kind": "in",
+   "in_tok": 2042,
+   "out_tok": 287,
+   "cache_write": 0,
+   "cache_read": 5255,
+   "cost_usd": 0.01201,
+   "ttft_ms": 1914,
+   "compose_ms": 9226,
+   "words": 166,
+   "s1_words": 31,
+   "s1_synth_ms": 4681,
+   "behavior": "answered",
+   "cited": [
+    "BD002",
+    "BD001",
+    "CA031"
+   ],
+   "gold": [
+    "BD001",
+    "BD002"
+   ],
+   "cited_in_retrieved": true,
+   "hit_gold": true,
+   "degraded": false,
+   "first_sent": "The independent judiciary is, in my humble opinion, the last bulwark o"
+  },
+  {
+   "qid": "A6",
+   "kind": "in",
+   "in_tok": 3457,
+   "out_tok": 375,
+   "cache_write": 0,
+   "cache_read": 5255,
+   "cost_usd": 0.01757,
+   "ttft_ms": 1935,
+   "compose_ms": 10915,
+   "words": 210,
+   "s1_words": 24,
+   "s1_synth_ms": 3612,
+   "behavior": "answered",
+   "cited": [
+    "CA004",
+    "CA005",
+    "CA330"
+   ],
+   "gold": [
+    "CA330",
+    "CA004",
+    "CA005"
+   ],
+   "cited_in_retrieved": true,
+   "hit_gold": true,
+   "degraded": false,
+   "first_sent": "Due process is, at its core, the ancient demand that justice be done *"
+  },
+  {
+   "qid": "B7",
+   "kind": "in",
+   "in_tok": 3375,
+   "out_tok": 413,
+   "cache_write": 0,
+   "cache_read": 5255,
+   "cost_usd": 0.0179,
+   "ttft_ms": 2898,
+   "compose_ms": 12601,
+   "words": 201,
+   "s1_words": 12,
+   "s1_synth_ms": 3477,
+   "behavior": "answered",
+   "cited": [
+    "SB028",
+    "SB040",
+    "CB005",
+    "SA011"
+   ],
+   "gold": [
+    "SB028",
+    "SB040"
+   ],
+   "cited_in_retrieved": true,
+   "hit_gold": true,
+   "degraded": false,
+   "first_sent": "The Liberty and Prosperity doctrine rests on a simple but profound tru"
+  },
+  {
+   "qid": "B9",
+   "kind": "in",
+   "in_tok": 1457,
+   "out_tok": 347,
+   "cache_write": 0,
+   "cache_read": 5255,
+   "cost_usd": 0.01115,
+   "ttft_ms": 1517,
+   "compose_ms": 8849,
+   "words": 163,
+   "s1_words": 20,
+   "s1_synth_ms": 2754,
+   "behavior": "answered",
+   "cited": [
+    "CD003",
+    "SD021",
+    "CD008"
+   ],
+   "gold": [
+    "CB006",
+    "CB005",
+    "CB007"
+   ],
+   "cited_in_retrieved": true,
+   "hit_gold": false,
+   "degraded": false,
+   "first_sent": "Knowledge of the law, in my humble opinion, is not merely a shield for"
+  },
+  {
+   "qid": "C13",
+   "kind": "in",
+   "in_tok": 1814,
+   "out_tok": 354,
+   "cache_write": 0,
+   "cache_read": 5255,
+   "cost_usd": 0.01233,
+   "ttft_ms": 1889,
+   "compose_ms": 10109,
+   "words": 206,
+   "s1_words": 20,
+   "s1_synth_ms": 3346,
+   "behavior": "answered",
+   "cited": [
+    "BC001"
+   ],
+   "gold": [
+    "BC001"
+   ],
+   "cited_in_retrieved": true,
+   "hit_gold": true,
+   "degraded": false,
+   "first_sent": "Faith has never been separate from my work on the bench \u2014 it has been "
+  },
+  {
+   "qid": "D19",
+   "kind": "in",
+   "in_tok": 2368,
+   "out_tok": 417,
+   "cache_write": 0,
+   "cache_read": 5255,
+   "cost_usd": 0.01494,
+   "ttft_ms": 1602,
+   "compose_ms": 10516,
+   "words": 196,
+   "s1_words": 31,
+   "s1_synth_ms": 3631,
+   "behavior": "answered",
+   "cited": [
+    "CB005",
+    "SD016",
+    "SA011",
+    "SB040",
+    "SB051",
+    "SB028"
+   ],
+   "gold": [
+    "SD016"
+   ],
+   "cited_in_retrieved": true,
+   "hit_gold": true,
+   "degraded": false,
+   "first_sent": "The Foundation for Liberty and Prosperity \u2014 the FLP \u2014 is a private, ed"
+  },
+  {
+   "qid": "D21",
+   "kind": "in",
+   "in_tok": 3455,
+   "out_tok": 427,
+   "cache_write": 0,
+   "cache_read": 5255,
+   "cost_usd": 0.01835,
+   "ttft_ms": 1422,
+   "compose_ms": 10259,
+   "words": 228,
+   "s1_words": 46,
+   "s1_synth_ms": 3801,
+   "behavior": "answered",
+   "cited": [
+    "SD002",
+    "SD016",
+    "SD021"
+   ],
+   "gold": [
+    "SD002",
+    "SC007"
+   ],
+   "cited_in_retrieved": true,
+   "hit_gold": true,
+   "degraded": false,
+   "first_sent": "The Museum for Liberty and Prosperity is, at its heart, an institution"
+  },
+  {
+   "qid": "E25",
+   "kind": "in",
+   "in_tok": 4169,
+   "out_tok": 389,
+   "cache_write": 0,
+   "cache_read": 5255,
+   "cost_usd": 0.01992,
+   "ttft_ms": 2305,
+   "compose_ms": 11715,
+   "words": 213,
+   "s1_words": 24,
+   "s1_synth_ms": 3881,
+   "behavior": "answered",
+   "cited": [
+    "CA010",
+    "CA009",
+    "CA013",
+    "CA011"
+   ],
+   "gold": [
+    "CA010",
+    "CA009"
+   ],
+   "cited_in_retrieved": true,
+   "hit_gold": true,
+   "degraded": false,
+   "first_sent": "The July 12, 2016 Arbitral Award was, in my humble opinion, a landmark"
+  },
+  {
+   "qid": "E28",
+   "kind": "in",
+   "in_tok": 3432,
+   "out_tok": 297,
+   "cache_write": 0,
+   "cache_read": 5255,
+   "cost_usd": 0.01633,
+   "ttft_ms": 1504,
+   "compose_ms": 8955,
+   "words": 184,
+   "s1_words": 2,
+   "s1_synth_ms": 1044,
+   "behavior": "answered",
+   "cited": [
+    "CE007",
+    "CE008",
+    "CA377"
+   ],
+   "gold": [
+    "CE007"
+   ],
+   "cited_in_retrieved": true,
+   "hit_gold": true,
+   "degraded": false,
+   "first_sent": "Roe v."
+  },
+  {
+   "qid": "GAP-baron",
+   "kind": "gap",
+   "in_tok": 1943,
+   "out_tok": 191,
+   "cache_write": 0,
+   "cache_read": 5255,
+   "cost_usd": 0.01027,
+   "ttft_ms": 17260,
+   "compose_ms": 21982,
+   "words": 113,
+   "s1_words": 25,
+   "s1_synth_ms": 3410,
+   "behavior": "gap-declined",
+   "cited": [],
+   "gold": [],
+   "cited_in_retrieved": true,
+   "hit_gold": null,
+   "degraded": false,
+   "first_sent": "That is not something I can speak to from what is before me \u2014 I would "
+  },
+  {
+   "qid": "LEGAL-sue",
+   "kind": "legal",
+   "in_tok": 1832,
+   "out_tok": 210,
+   "cache_write": 0,
+   "cache_read": 5255,
+   "cost_usd": 0.01022,
+   "ttft_ms": 1104,
+   "compose_ms": 7033,
+   "words": 117,
+   "s1_words": 35,
+   "s1_synth_ms": 3180,
+   "behavior": "legal-deflected",
+   "cited": [],
+   "gold": [],
+   "cited_in_retrieved": true,
+   "hit_gold": null,
+   "degraded": false,
+   "first_sent": "You'll forgive an old judge for not advising you on your own case \u2014 wh"
+  },
+  {
+   "qid": "OOS-weather",
+   "kind": "oos",
+   "in_tok": 3552,
+   "out_tok": 129,
+   "cache_write": 0,
+   "cache_read": 5255,
+   "cost_usd": 0.01417,
+   "ttft_ms": 1493,
+   "compose_ms": 5102,
+   "words": 62,
+   "s1_words": 24,
+   "s1_synth_ms": 3142,
+   "behavior": "oos-declined",
+   "cited": [],
+   "gold": [],
+   "cited_in_retrieved": true,
+   "hit_gold": null,
+   "degraded": false,
+   "first_sent": "That, I'm afraid, is well outside my lane \u2014 an old judge knows his jur",
+   "classifier_note": "declined via \"outside my lane\" (keyword miss)"
+  }
+ ],
+ "provenance": {
+  "HEAD": "15a4e4a",
+  "config": "v4.2+concise@480"
+ },
+ "verdicts": {
+  "oos_close": "CLOSED \u2014 A1/D20/E27 all answered (hit gold); no false declines",
+  "fabrication": "0/15 (every cited doc in the retrieved set)",
+  "behaviors": "all correct: 12 answered, GAP->NEW-4b decline, LEGAL->NEW-6 deflect, OOS->decline",
+  "cost_per_query_directive_on": "/usr/bin/bash.0177 avg (cache-write A1=/usr/bin/bash.031; cached ~$0.011-0.020) \u2014 supersedes $0.028 directive-OFF",
+  "ttft": "p50 1889ms; p95 skewed by ONE 17.3s outlier (GAP-baron, transient); excl. outlier max ~5.5s",
+  "concise_length": "MISS \u2014 in-scope words p50=198 (target ~100). Directive @480 nearly inert; W3.3 conciseness came from the 320 hard-cap, raised to 480 to protect the envelope. Needs max_tokens re-tune (~400-440) \u2014 SEPARATE follow-up.",
+  "filler_sizing": "first sentence p50 24 words, tts-1 synth p50 3477ms (~3.5s) \u2014 filler must bridge ~3.5s synth + compose-to-first-sentence"
+ }
+}

@@ -225,3 +225,28 @@ Caveats: directive-ON cost unmeasured (declines are shorter → marginally cheap
 
 ---
 *Audit complete: $0 spent, no API calls, nothing modified or committed. Two prior-summary-vs-artifact discrepancies flagged: the "542ms router" (was mislabeled embed time — §3.1) and "pipeline at arch-baseline-v3" (HEAD is v3+OOS+6 commits — §1.1). One expectation-mismatch documented: TTFT KPI cites 1533ms (artifact) vs the harvest's 1560ms (percentile-method difference).*
+
+---
+
+## N-1 verification update (2026-07-18) — supersedes directive-OFF KPIs
+
+Combined verification run on the shipping config (v4.2 + concise directive @ max_tokens=480),
+15 composes, $0.27, fabrication 0. Evidence: `eval/results/n1_verification_run.json`.
+
+- **R4 OOS re-verify gap → CLOSED.** A1/D20/E27 (the three never re-verified under the decline
+  directive) all **ANSWER**, grounded, hit gold — no false declines. GAP→NEW-4b decline,
+  LEGAL→NEW-6 deflect, OOS(weather)→in-voice decline all correct.
+- **Cost/query (directive-ON, cached) = ~$0.0177 avg** (cache-write query $0.031; cached
+  $0.011–0.020) — **supersedes the $0.028 directive-OFF** figure (§compose).
+- **TTFT (directive-ON, current provenance): p50 1889 ms.** p95 is skewed by one 17.3 s outlier
+  (GAP-baron, transient API spike); excluding it, max TTFT ≈ 5.5 s. Supersedes the directive-OFF
+  1533/2617 ms harvest.
+- **Filler-sizing data:** first-sentence p50 = 24 words; tts-1 synth p50 = 3477 ms (~3.5 s). The
+  TTFA filler must bridge ~3.5 s of first-sentence synthesis + the compose-to-first-sentence gap.
+- **⚠ Concise-length KPI: NOT MET.** In-scope answers ran **p50 198 words** (target ~100). The
+  concise directive is nearly inert at max_tokens=480 — W3.3's conciseness came from the 320
+  hard-cap, which was raised to 480 to stop the citation-envelope truncation. **Follow-up: re-tune
+  `COMPOSER_MAX_TOKENS` to ~400–440** (the 320-truncates-envelope vs 480-not-concise tension is
+  unresolved). Out of N-1 scope (measure, don't tune).
+- **Tag:** `arch-baseline-v4.1` created (W3.7 OOS-close verified). The length KPI miss above is the
+  one open item against the shipping config.
