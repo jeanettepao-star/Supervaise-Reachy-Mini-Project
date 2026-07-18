@@ -261,3 +261,10 @@ composes, `eval/results/w3_3b_directive_binding.md`):
 - Cost/query (directive-ON, cached) **$0.0177** (N-1) unchanged; max_tokens stays 480.
 - Filler-sizing: first-sentence 24 → ~11 words, but tts-1 synth floor ~3.0–3.5 s unchanged — the
   filler still bridges ~3 s (streaming-TTS path built + held to attack this, `STREAM_TTS_ENABLED`).
+
+## Risk note (2026-07-18) — long-transient filler ceiling
+Two observed **long-transient** turns (GAP-baron TTFT ~17s and a ~10s case, N-1 + prior demo) where
+even a filler + bridge can't cover the wait. Mitigation shipped: `voice_job.MAX_FILLERS_PER_TURN=3`
+(ack + up to 2 bridges, then **accept silence** — never loop fillers). Telemetry `stage2_rate_running`
+> 30% is the trigger to verify the held streaming-TTS path (~$0.02), which shortens first-audio and
+should drop stage-2 firing on its own.
