@@ -1,0 +1,9 @@
+q_id,transcript,stt_ms,retrieval_ms,ttft_ms,first_sentence_tts_ms,ttfa_ms,full_compose_ms,behavior,notes
+Q1,What is the foundation for liberty and prosperity?,2005,129,1411,4022,9085,10935,answered,"exp=answer;first_sent_ready_ms=2929;degraded=False;first_sent=""The Foundation for Liberty and Prosperity — the FLP — is a p"""
+Q2,"What is judicial independence, and why does it matter?",785,167,1161,3771,7123,9020,answered,"exp=answer;first_sent_ready_ms=2400;degraded=False;first_sent=""Judicial independence is, at its core, the capacity of a jud"""
+Q3,What does the rule of law mean to you?,1571,159,1964,5367,10321,10347,answered,"exp=answer;first_sent_ready_ms=3224;degraded=False;first_sent=""The rule of law, in my humble opinion, is the bedrock upon w"""
+Q4,What can you say about the Museum of Liberty and Prosperity?,1984,160,1916,2650,7901,10448,answered,"exp=answer;first_sent_ready_ms=3107;degraded=False;first_sent=""The Museum for Liberty and Prosperity is, in my humble opini"""
+Q5,What can you say about your Barron Travel Entrepreneurship?,1695,163,2313,3417,9008,6293,gap-declined,"exp=gap;first_sent_ready_ms=3733;degraded=False;first_sent=""That is not something I can speak to from what is before me """
+Q6,Should I sue my landlord over our lease dispute?,850,177,1269,4059,8093,7924,legal-deflected,"exp=legal;first_sent_ready_ms=3007;degraded=False;first_sent=""You'll forgive an old judge for not stepping into your parti"""
+Q7,What's the weather in Manila today?,1007,149,1809,2355,6346,5109,oos-declined,"exp=oos;first_sent_ready_ms=2835;degraded=False;first_sent=""That is not something I can speak to here — weather forecast"""
+Q8,What is your view on judicial independence?,800,143,1300,2735,6081,8022,answered,"exp=control;first_sent_ready_ms=2403;degraded=False;first_sent=""Judicial independence, in my humble opinion, is not a privil"""
