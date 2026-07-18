@@ -62,22 +62,23 @@ RATES = {"in": 3.00, "cw": 3.75, "cr": 0.30, "out": 15.00}
 TTS_PER_MCHAR, STT_PER_MIN = 15.00, 0.006
 VOICES = ["onyx", "alloy", "echo", "fable", "nova", "shimmer"]
 
-# TTFA filler: a short, neutral, in-character phrase synthesized via OpenAI tts-1
-# THE MOMENT the question is confirmed — plays first (chunk = base) so the audience
-# hears CJP's voice in ~0.5s while retrieval + Sonnet compose run in the background.
-# Generic on purpose (no stance) so it fits answers AND declines. Not shown on
-# screen (audio only), never part of the answer text or the envelope.
+# [B] TTFA filler — TWO-STAGE, answer-agnostic, played from a LOCAL CLIP POOL
+# ($0 Windows-SAPI stand-ins now; TODO: re-synth the pool with tts-1 (~$0.03) or
+# the robot's Piper voice later — see config.FILLER_CLIP_DIR).
+#   Stage 1 (acknowledgment): one of 4 clips plays the MOMENT the transcript is
+#     confirmed — instant first audio, pure rotation, no back-to-back repeat, no
+#     judgment of the question.
+#   Stage 2 (micro-bridge): plays ONLY if the first content sentence's audio is
+#     not ready when the stage-1 ack ends. Content always enters at a clip boundary.
 FILLER_ENABLED = True
-FILLERS = [
-    "Let me reflect on that for a moment.",
-    "A thoughtful question — allow me a moment.",
-    "Let me consider that carefully.",
-    "Permit me a moment to gather my thoughts.",
-]
-
-
-def _pick_filler(q: str) -> str:
-    return FILLERS[sum(ord(c) for c in q) % len(FILLERS)]
+ACK_CLIPS = ["filler_ack_1.wav", "filler_ack_2.wav", "filler_ack_3.wav", "filler_ack_4.wav"]
+BRIDGE_CLIP = "filler_bridge.wav"
+# Bridge sizing (N-1 data): first content audio ≈ TTFT ~1.9s + first-sentence
+# tts-1 synth ~3.5s ≈ 5.4s, vs an ack clip ~2.6s -> content is usually NOT ready
+# when the ack ends, so stage 2 usually fires. If streaming-TTS (Part A / config
+# .STREAM_TTS_ENABLED) lands, first audio drops ~2.4s -> re-measure; stage 2 may
+# then disable on its own (content ready before the ack ends).
+FILLER_ACK_SECONDS = 2.6
 
 
 @st.cache_resource(show_spinner="Warming the v4 embedder (~30-40s, first launch only)...")
@@ -102,24 +103,31 @@ def gapless_component():
 
 
 @st.cache_resource
-def filler_cache() -> dict:
-    """Persistent {(voice, text): mp3_bytes} across reruns — pre-synthesized TTFA
-    fillers so the opening phrase is INSTANT (not a live ~3.6s tts-1 call)."""
-    return {}
+def filler_pool() -> dict:
+    """Load the local filler clip bytes ONCE (resident). {name: wav_bytes}; empty
+    if the clip dir is absent (the filler then simply no-ops)."""
+    pool, d = {}, config.FILLER_CLIP_DIR
+    for name in ACK_CLIPS + [BRIDGE_CLIP]:
+        p = d / name
+        if p.exists():
+            pool[name] = p.read_bytes()
+    return pool
 
 
-def prewarm_fillers(oai, voice: str, fcache: dict) -> None:
-    """Background pre-synth of every filler for the current voice, so Q1's filler is
-    already cached by the time the audience finishes recording. Non-blocking."""
-    def w():
-        for txt in FILLERS:
-            if (voice, txt) not in fcache:
-                try:
-                    fcache[(voice, txt)] = oai.audio.speech.create(
-                        model="tts-1", voice=voice, input=txt).content
-                except Exception:
-                    pass
-    threading.Thread(target=w, daemon=True).start()
+@st.cache_resource
+def _ack_rotation() -> dict:
+    return {"last": -1}   # persists across reruns -> no back-to-back repeat
+
+
+def pick_ack(pool: dict) -> bytes | None:
+    """Next acknowledgment clip by rotation (no back-to-back repeat)."""
+    avail = [n for n in ACK_CLIPS if n in pool]
+    if not avail:
+        return None
+    rot = _ack_rotation()
+    i = (rot["last"] + 1) % len(avail)
+    rot["last"] = i
+    return pool[avail[i]]
 
 
 def stt_openai(oai, wav_bytes: bytes):
@@ -153,7 +161,7 @@ def log_row(row: dict) -> None:
 
 
 def start_job(q: str, mode: str, stt_s: float, oai, allow, client, voice: str, base_idx: int,
-              fcache: dict) -> dict:
+              ack_bytes: bytes | None, bridge_bytes: bytes | None) -> dict:
     """Spawn the background compose+synth pipeline. Returns the live job dict the
     UI polls. NO st.* calls inside the thread."""
     job = {"q": q, "mode": mode, "stt_s": stt_s, "acc": "", "chunks": [], "synth_ms": {},
@@ -162,41 +170,75 @@ def start_job(q: str, mode: str, stt_s: float, oai, allow, client, voice: str, b
            "t_confirm": time.perf_counter(), "first_chunk_ready_s": None, "error": None,
            "base": base_idx, "n_chunks": 0}
 
-    def synth(idx: int, sent: str):
+    ilock = threading.Lock()
+    idx = {"n": job["base"]}
+    def next_idx() -> int:
+        with ilock:
+            i = idx["n"]; idx["n"] += 1; return i
+
+    def push_clip(raw: bytes, fmt: str = "wav"):
+        """Inject a ready-made clip (filler ack / bridge) as the next chunk — instant."""
+        i = next_idx()
+        job["chunks"].append({"i": i, "b64": base64.b64encode(raw).decode("ascii"), "chars": 0, "fmt": fmt})
+        if job["first_chunk_ready_s"] is None:
+            job["first_chunk_ready_s"] = round(time.perf_counter() - job["t_confirm"], 2)
+
+    def synth_mp3(i: int, sent: str):                     # DEFAULT path: whole-clip mp3
         t0 = time.perf_counter()
         mp3 = oai.audio.speech.create(model="tts-1", voice=voice, input=sent).content
-        ms = round((time.perf_counter() - t0) * 1000)
-        job["synth_ms"][idx] = ms
-        job["chunks"].append({"i": idx, "b64": base64.b64encode(mp3).decode("ascii"),
-                              "chars": len(sent)})
-        if job["first_chunk_ready_s"] is None and idx == job["base"]:
-            job["first_chunk_ready_s"] = round(time.perf_counter() - job["t_confirm"], 2)
+        job["synth_ms"][i] = round((time.perf_counter() - t0) * 1000)
+        job["chunks"].append({"i": i, "b64": base64.b64encode(mp3).decode("ascii"),
+                              "chars": len(sent), "fmt": "mp3"})
+
+    def synth_stream(sent: str):
+        """[A · HELD, ready to verify ~$0.02] tts-1 STREAMED PCM: emit each audio
+        sub-chunk as it arrives so Web-Audio playback starts before synthesis
+        finishes (attacks the ~3s floor). Sub-chunks take consecutive global
+        indices (assigned as produced); the streaming path runs on a SINGLE worker
+        so submit-order == produce-order -> strict global order (R-28 guard intact).
+        24kHz/16-bit/mono PCM; the component schedules raw PCM (fmt='pcm')."""
+        t0 = time.perf_counter(); first_i = None
+        with oai.audio.speech.with_streaming_response.create(
+                model="tts-1", voice=voice, response_format="pcm", input=sent) as resp:
+            for pcm in resp.iter_bytes(chunk_size=4800):  # ~0.1s of audio per sub-chunk
+                if not pcm:
+                    continue
+                i = next_idx()
+                if first_i is None:
+                    first_i = i
+                job["chunks"].append({"i": i, "b64": base64.b64encode(pcm).decode("ascii"),
+                                      "chars": 0, "fmt": "pcm", "sr": 24000})
+        if first_i is not None:
+            job["synth_ms"][first_i] = round((time.perf_counter() - t0) * 1000)
 
     def run():
         try:
-            pool = ThreadPoolExecutor(max_workers=3)
+            streaming = config.STREAM_TTS_ENABLED
+            pool = ThreadPoolExecutor(max_workers=1 if streaming else 3)
             futures = []
             chunker = voice_stream.SentenceChunker()      # stops at ENVELOPE sentinel
-            idx = {"n": job["base"]}
+            first_content = threading.Event()             # set when the 1st content sentence submits
 
             def submit(sent: str):
-                futures.append(pool.submit(synth, idx["n"], sent)); idx["n"] += 1
+                first_content.set()
+                if streaming:
+                    futures.append(pool.submit(synth_stream, sent))      # index assigned in-synth (seq)
+                else:
+                    futures.append(pool.submit(synth_mp3, next_idx(), sent))  # index fixed at submit
 
-            # TTFA FILLER (chunk = base): serve from the pre-synth cache -> INSTANT first
-            # audio while retrieval + compose run. Live-synth once if not yet cached.
-            # Audio only — never added to acc / answer / envelope.
-            if FILLER_ENABLED:
-                ftxt = _pick_filler(job["q"]); job["filler"] = ftxt
-                fb = fcache.get((voice, ftxt)); cached = fb is not None
-                t0 = time.perf_counter()
-                if not cached:
-                    fb = oai.audio.speech.create(model="tts-1", voice=voice, input=ftxt).content
-                    fcache[(voice, ftxt)] = fb
-                fi = idx["n"]; idx["n"] += 1
-                job["synth_ms"][fi] = 0 if cached else round((time.perf_counter() - t0) * 1000)
-                job["chunks"].append({"i": fi, "b64": base64.b64encode(fb).decode("ascii"),
-                                      "chars": len(ftxt)})
-                job["first_chunk_ready_s"] = round(time.perf_counter() - job["t_confirm"], 2)
+            # [B] STAGE-1 ACK (chunk = base): instant first audio from the local pool.
+            if FILLER_ENABLED and ack_bytes:
+                push_clip(ack_bytes, fmt="wav")
+                # STAGE-2 BRIDGE: fires ONLY if no content sentence is submitted before
+                # the ack ends -> slots between ack and content (index order preserved).
+                def bridge_monitor():
+                    if not bridge_bytes:
+                        return
+                    if first_content.wait(timeout=FILLER_ACK_SECONDS):
+                        return                              # content ready in time -> no bridge
+                    if not job["done"]:
+                        push_clip(bridge_bytes, fmt="wav")
+                threading.Thread(target=bridge_monitor, daemon=True).start()
 
             def on_text(piece: str):
                 job["acc"] += piece
@@ -290,15 +332,17 @@ mode = "TEST" if mode.startswith("TEST") else "DEMO"
 voice = st.sidebar.selectbox("TTS voice (tts-1)", VOICES, index=0)
 st.sidebar.caption("~5-6¢ per question (STT + compose + TTS).")
 
-allow, transport, client = warm_pipeline()
+# [C] WARM ON BOOT: warm_pipeline() runs unconditionally here (config.WARM_ON_BOOT)
+# so the resident embedder + transport are hot before Q1 — no visitor pays the cold load.
+if config.WARM_ON_BOOT:
+    allow, transport, client = warm_pipeline()
+else:
+    allow, transport, client = warm_pipeline()   # (flag reserved; demo always warms)
 if transport != "native_sdk":
     st.error(f"Transport = {transport}: native TLS broken — fix via docs/RUNBOOK_transport.md.")
 oai = openai_client()
 gapless = gapless_component()
-fcache = filler_cache()
-if FILLER_ENABLED and ss.get("fillers_warmed") != voice:
-    prewarm_fillers(oai, voice, fcache)          # background pre-synth -> instant filler TTFA
-    ss["fillers_warmed"] = voice
+fpool = filler_pool()                            # [B] local SAPI clip pool (bytes)
 
 job = ss.job
 busy = bool(job and not job["done"])
@@ -319,7 +363,7 @@ if audio_in is not None and not busy:
             if text:
                 if mode == "DEMO":
                     ss.job = start_job(text, mode, stt_s, oai, allow, client, voice,
-                                       ss.chunk_base, fcache)
+                                       ss.chunk_base, pick_ack(fpool), fpool.get(BRIDGE_CLIP))
                     ss.mic_key += 1
                     st.rerun()
                 else:
@@ -332,7 +376,7 @@ if mode == "TEST" and ss.pending and not busy:
                      ss.pending["text"], height=80)
     if st.button("Ask", type="primary") and q.strip():
         ss.job = start_job(q.strip(), mode, ss.pending["stt_s"], oai, allow, client,
-                           voice, ss.chunk_base, fcache)
+                           voice, ss.chunk_base, pick_ack(fpool), fpool.get(BRIDGE_CLIP))
         ss.pending = None
         ss.mic_key += 1
         st.rerun()

@@ -558,6 +558,23 @@ N_EXEMPLAR_CHUNKS: int = _env_int("CJ_N_EXEMPLAR_CHUNKS", 8)
 TOPIC_ASSIGN_MIN_COSINE: float = _env_float("CJ_TOPIC_ASSIGN_MIN_COSINE", 0.68)
 
 
+# ===========================================================================
+# VOICE-APP + ROBOT SEAM knobs (demo wrapper / boot; not on the retrieval path)
+# ===========================================================================
+# [A] Streaming TTS: when True, per-sentence TTS uses tts-1's STREAMED (PCM)
+# response so Web-Audio playback begins as chunks arrive (attacks the ~3s tts-1
+# floor). Default FALSE = the current whole-clip mp3 mode (behavior-preserving;
+# the demo can't break). HELD — not paid-verified yet (~2 TTS calls, ~$0.02).
+STREAM_TTS_ENABLED: bool = _env_bool("CJ_STREAM_TTS_ENABLED", False)
+# [C] Warm the resident embedder + transport at boot so no visitor pays the
+# ~30-40s cold load on question 1.
+WARM_ON_BOOT: bool = _env_bool("CJ_WARM_ON_BOOT", True)
+# [B] Filler clip pool dir (local SAPI stand-ins now; re-synth with tts-1 or the
+# robot Piper voice later). Two-stage: stage-1 ack at transcript-confirm, stage-2
+# micro-bridge only if content audio isn't ready when the ack ends.
+FILLER_CLIP_DIR: Path = _env_path("CJ_FILLER_CLIP_DIR", REPO_ROOT / "assets" / "filler_clips")
+
+
 # ---------------------------------------------------------------------------
 # Introspection — single call that surfaces every knob (for logs / sweeps).
 # ---------------------------------------------------------------------------

@@ -250,3 +250,14 @@ Combined verification run on the shipping config (v4.2 + concise directive @ max
   unresolved). Out of N-1 scope (measure, don't tune).
 - **Tag:** `arch-baseline-v4.1` created (W3.7 OOS-close verified). The length KPI miss above is the
   one open item against the shipping config.
+
+## W3.3-B update (2026-07-18) — concise directive now binds
+
+Directive strengthening (hard length rule at the top of the Voice-Card; no cap change). Verify (4
+composes, `eval/results/w3_3b_directive_binding.md`):
+- **In-scope answer length: words p50 198 → 117** (all in 100–150). The concise directive is no
+  longer inert; the length KPI (open item against v4.1) is now **MET**.
+- Envelope intact, fabrication 0, reads in-voice, NEW-6 control answers normally.
+- Cost/query (directive-ON, cached) **$0.0177** (N-1) unchanged; max_tokens stays 480.
+- Filler-sizing: first-sentence 24 → ~11 words, but tts-1 synth floor ~3.0–3.5 s unchanged — the
+  filler still bridges ~3 s (streaming-TTS path built + held to attack this, `STREAM_TTS_ENABLED`).

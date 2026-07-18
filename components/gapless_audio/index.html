@@ -50,6 +50,17 @@
     return buf.buffer;
   }
 
+  // [A · streaming] Build an AudioBuffer directly from raw 16-bit mono PCM (no
+  // decodeAudioData — that needs a complete encoded file). Used only for streamed
+  // tts-1 sub-chunks (fmt='pcm'); mp3/wav chunks still go through decodeAudioData.
+  function pcmToBuffer(arraybuf, sr){
+    const i16 = new Int16Array(arraybuf), f32 = new Float32Array(i16.length);
+    for (let j=0;j<i16.length;j++) f32[j] = i16[j] / 32768;
+    const ab = ctx.createBuffer(1, f32.length || 1, sr || 24000);
+    ab.copyToChannel(f32, 0);
+    return ab;
+  }
+
   function schedule(i, audioBuf){
     const now = ctx.currentTime;
     const start = Math.max(now + 0.02, nextStart);          // gapless: butt-joint to prev end
@@ -73,13 +84,18 @@
     if (!ctx || ctx.state !== "running" || draining) return;
     if (!pending.has(expected)) return;
     draining = true;
-    const buf = pending.get(expected); pending.delete(expected);
+    const item = pending.get(expected); pending.delete(expected);
     const idx = expected; expected += 1;
-    ctx.decodeAudioData(buf.slice(0)).then(ab => {
-      schedule(idx, ab);
-      draining = false;
-      drain();                 // process the next chunk, still in order
-    }).catch(() => { draining = false; drain(); });   // skip a bad buffer, keep going
+    if (item.fmt === "pcm") {                          // raw PCM sub-chunk (streaming)
+      try { schedule(idx, pcmToBuffer(item.buf, item.sr)); } catch (e) {}
+      draining = false; drain();
+    } else {                                           // mp3/wav — decode then schedule
+      ctx.decodeAudioData(item.buf.slice(0)).then(ab => {
+        schedule(idx, ab);
+        draining = false;
+        drain();               // process the next chunk, still in order
+      }).catch(() => { draining = false; drain(); });  // skip a bad buffer, keep going
+    }
   }
 
   window.addEventListener("message", (ev) => {
@@ -89,7 +105,7 @@
     for (const c of chunks) {
       if (seen.has(c.i)) continue;
       seen.add(c.i);
-      pending.set(c.i, b64ToArrayBuffer(c.b64));
+      pending.set(c.i, {buf: b64ToArrayBuffer(c.b64), fmt: c.fmt || "mp3", sr: c.sr || 24000});
     }
     if ((!ctx || ctx.state !== "running") && pending.size) {
       // Always attempt auto-resume — the record-click activation propagates to this
