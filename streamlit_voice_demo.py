@@ -61,7 +61,8 @@ LOG_COLS = ["timestamp", "mode", "transcript", "stt_seconds", "ttfa_felt_s", "st
             "tts_chars", "est_cost_usd", "chunk_timings", "mean_gap_ms", "max_gap_ms",
             # [C.7] filler telemetry. stage2_rate_running > 30% is the SIGNAL to verify
             # the held streaming-TTS path (~$0.02) — bridges firing often = content too slow.
-            "filler_clip_id", "filler_fired_ms", "stage2_fired", "stage2_rate_running", "notes"]
+            "filler_clip_id", "filler_fired_ms", "stage2_fired", "stage2_rate_running",
+            "chain_pattern", "notes"]   # chain_pattern e.g. O-C / O-E-C / O-E-E-C / O-E-L-C
 RATES = {"in": 3.00, "cw": 3.75, "cr": 0.30, "out": 15.00}
 TTS_PER_MCHAR, STT_PER_MIN = 15.00, 0.006
 VOICES = ["onyx", "alloy", "echo", "fable", "nova", "shimmer"]
@@ -101,7 +102,10 @@ def filler_decks(voice: str) -> dict:
     Persists across reruns; a Deck reshuffles when exhausted and resets to a fresh
     deck after 120s idle (new visitor = fresh deck)."""
     pool = voice_job.load_pool(voice)
-    return {"ack": voice_job.Deck(pool["ack"]), "bridge": voice_job.Deck(pool["bridge"])}
+    return {"opener": voice_job.Deck(pool["opener"]),
+            "extender": voice_job.Deck(pool["extender"]),
+            "leadin": pool["leadin"][0] if pool["leadin"] else None,
+            "seq_state": {"turn": 0, "last_leadin_turn": None}}   # persists (no-consecutive-leadin)
 
 
 @st.cache_resource
@@ -170,7 +174,8 @@ def finalize_and_log(job: dict, gaps_by_idx: dict, stats: dict) -> None:
              "mean_gap_ms": round(sum(gaps) / len(gaps), 1) if gaps else "",
              "max_gap_ms": max(gaps) if gaps else "",
              "filler_clip_id": job["filler_clip_id"] or "", "filler_fired_ms": job["filler_fired_ms"],
-             "stage2_fired": job["stage2_fired"], "stage2_rate_running": stage2_rate, "notes": ""})
+             "stage2_fired": job["stage2_fired"], "stage2_rate_running": stage2_rate,
+             "chain_pattern": "-".join(job.get("chain", [])), "notes": ""})
     job["logged"] = True
     job["est"] = est
     job["gaps_summary"] = (round(sum(gaps) / len(gaps), 1) if gaps else None,
@@ -242,7 +247,8 @@ if audio_in is not None and not busy:
             if text:
                 if mode == "DEMO":
                     ss.job = voice_job.start_job(text, mode, stt_s, oai, allow, client, voice,
-                                                 ss.chunk_base, decks["ack"].deal(), decks["bridge"])
+                                                 ss.chunk_base, decks["opener"].deal(),
+                                                 decks["extender"], decks["leadin"], decks["seq_state"])
                     ss.mic_key += 1
                     st.rerun()
                 else:
@@ -255,7 +261,8 @@ if mode == "TEST" and ss.pending and not busy:
                      ss.pending["text"], height=80)
     if st.button("Ask", type="primary") and q.strip():
         ss.job = voice_job.start_job(q.strip(), mode, ss.pending["stt_s"], oai, allow, client,
-                                     voice, ss.chunk_base, decks["ack"].deal(), decks["bridge"])
+                                     voice, ss.chunk_base, decks["opener"].deal(),
+                                     decks["extender"], decks["leadin"], decks["seq_state"])
         ss.pending = None
         ss.mic_key += 1
         st.rerun()

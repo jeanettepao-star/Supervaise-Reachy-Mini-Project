@@ -14,7 +14,8 @@ from openai import OpenAI
 
 OUT = ROOT / "assets" / "filler_clips" / "onyx"
 OUT.mkdir(parents=True, exist_ok=True)
-CLIPS = {  # id -> text  ("bridge" in the id => stage-2 bridge; else stage-1 ack)
+CLIPS = {  # id -> text. Role from prefix (voice_job._role_of): opener/extender/leadin/resumption.
+    # OPENERS (position 1, pre-speech acknowledgment) — ack_* is treated as opener.
     "ack_01": "Permit me a moment.",
     "ack_02": "Allow me a moment to reflect.",
     "ack_03": "Let me say this.",
@@ -25,9 +26,15 @@ CLIPS = {  # id -> text  ("bridge" in the id => stage-2 bridge; else stage-1 ack
     "ack_08": "Let me gather my thoughts.",
     "ack_09": "Hmm, let me reflect on that.",
     "ack_10": "One moment, if you please.",
-    "bridge_01": "If I may add...",
-    "bridge_02": "Let me put it this way.",
-    "bridge_03": "Yes... let me continue.",
+    # EXTENDERS (position 2..N, extend the THINKING state — never imply speech happened).
+    "extender_01": "A moment more, please.",
+    "extender_02": "Bear with me, I want to answer this properly.",
+    "extender_03": "Let me be sure I have this right.",
+    # LEADIN (hand-off to content; only when content is buffered/streaming — see voice_job).
+    "leadin_01": "Let me put it this way.",
+    # RESUMPTION (imply prior speech — retired from stage-2; reserved for future barge-in resume).
+    "resumption_01": "If I may add...",
+    "resumption_02": "Yes... let me continue.",
 }
 
 oai = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
