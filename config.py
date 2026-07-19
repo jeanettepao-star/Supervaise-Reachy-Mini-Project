@@ -574,6 +574,39 @@ WARM_ON_BOOT: bool = _env_bool("CJ_WARM_ON_BOOT", True)
 # micro-bridge only if content audio isn't ready when the ack ends.
 FILLER_CLIP_DIR: Path = _env_path("CJ_FILLER_CLIP_DIR", REPO_ROOT / "assets" / "filler_clips")
 
+# ===========================================================================
+# FILLER v5 — TWO-PART THEME+TOPIC FILLER (extender-free). Chain =
+#   THEME clip (or NEUTRAL) -> [TOPIC sentence if gated] -> content -> silence.
+# Filler 1 (theme) is pre-synthesized (instant); Filler 2 (topic) is runtime-
+# synthesized during theme playback and disk-cached. See app/filler_route.py and
+# eval/results/filler_v5_thresholds.md for the threshold derivations.
+# ===========================================================================
+# Master switch: True -> v5 theme+topic sequencer; False -> the v3 role grammar
+# (opener/extender/leadin) is used instead. Behavior-preserving fallback.
+FILLER_V5_ENABLED: bool = _env_bool("CJ_FILLER_V5_ENABLED", True)
+# THEME gate. Fire a THEME clip only when the route's top-topic cosine (theme
+# confidence) >= this; else NEUTRAL. DERIVED from the frozen-40 route-score bands
+# (filler_v5_route_bands.json): 0.51 is the cut just above the highest out-of-
+# domain stray (X35 weather 0.5072) — it sends all 4 strays/meta to NEUTRAL at the
+# cost of 2/34 in-scope (C18 0.4904, E29 0.5025) getting a generic opener (they
+# still answer). The bands OVERLAP (in-scope floor 0.4904 < weather 0.5072) so no
+# perfect cut exists; the composer OOS-decline is the real backstop.
+THEME_CONF_THRESHOLD: float = _env_float("CJ_THEME_CONF_THRESHOLD", 0.51)
+# TOPIC gate (Filler 2). Name the specific topic only when top-topic cosine minus
+# the best NON-fallback runner-up cosine (CLEAN margin — gmean-fallback centroids
+# honors_received/robot_identity_meta excluded from the runner-up) >= this. DERIVED
+# from the in-scope clean-margin p75 (~0.0094): 0.01 fires the topic clip only on
+# the ~20% genuinely-separated queries; near-ties stay SILENT (never name a coin-
+# flip topic). Raw top-minus-runner-up is degenerate (p50 0.004) because the two
+# corpus-mean fallback centroids keep grabbing the runner-up slot.
+TOPIC_MARGIN_THRESHOLD: float = _env_float("CJ_TOPIC_MARGIN_THRESHOLD", 0.01)
+# At filler-selection, wait at most this long for the route (embed+centroid) to
+# resolve; past it, fire NEUTRAL rather than make the visitor wait (late-route).
+FILLER_ROUTE_WAIT_MS: int = _env_int("CJ_FILLER_ROUTE_WAIT_MS", 300)
+# Display-name source (Part D output) — spoken topic names + speakable flags.
+TOPIC_DISPLAY_NAMES_PATH: Path = _env_path(
+    "CJ_TOPIC_DISPLAY_NAMES_PATH", REPO_ROOT / "eval" / "results" / "topic_display_names.json")
+
 
 # ---------------------------------------------------------------------------
 # Introspection — single call that surfaces every knob (for logs / sweeps).

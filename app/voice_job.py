@@ -1,52 +1,65 @@
 """Voice-demo job machinery — EXTRACTED from streamlit_voice_demo.py so it is
-importable and $0-testable (no Streamlit imports here). Owns:
-  - the two-stage TTFA filler (stage-1 ack at transcript-confirm, stage-2 bridge(s)
-    only if content isn't ready), with SHUFFLED-DECK rotation + session reset;
-  - per-sentence TTS (mp3 default / streamed-PCM held behind config.STREAM_TTS_ENABLED);
-  - telemetry (filler_clip_id, filler_fired_ms, stage2_fired, ...).
-The stage-1 ack is injected at the TOP of run() — i.e. the instant start_job() is
-called (transcript-confirm), BEFORE retrieval/compose — never at stream-start.
+importable and $0-testable (no Streamlit imports here).
+
+FILLER v5 — TWO-PART THEME+TOPIC FILLER (extender-free). The sequencer produces:
+
+    THEME clip (or NEUTRAL)  ->  [TOPIC sentence if gated]  ->  content  ->  silence
+
+  * Filler 1 (THEME) is a PRE-SYNTHESIZED clip chosen by the route's theme_anchor
+    (assets/filler_clips/<voice>/themes/<A..E>/), or a NEUTRAL clip when the route
+    is low-confidence / META / GAP-leaning / late (> FILLER_ROUTE_WAIT_MS).
+  * Filler 2 (TOPIC) is RUNTIME-synthesized during theme playback (disk-cached),
+    inserted only when all four gates pass (theme gate + clean margin + speakable +
+    content-not-yet-buffered). Fast composes skip straight to content.
+  * NO extenders, NO lead-in, NO bridges — those v3 layers are RETIRED (clip files
+    kept on disk, untouched). Max 2 filler clips per turn by construction.
+
+Content audio always enters at a CLIP BOUNDARY (never mid-clip): the theme clip
+takes the base index, the optional topic clip the next, and the first content chunk
+is index-gated behind the topic decision so ordering is strict with no holes (R-28).
+
+The v3 role-grammar path (opener/extender/leadin) is preserved in git history; this
+module is the v5 replacement. Set config.FILLER_V5_ENABLED=False to degrade to a
+NEUTRAL-only opener (safe kill-switch; still extender-free).
 """
 from __future__ import annotations
 
 import base64
+import json
 import random
+import re
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import config
+import filler_route
 import retrieval
 import service
 import voice_stream
 
-FILLER_ACK_SECONDS = 1.4          # measured onyx ack median 1.45s (was 2.6 SAPI estimate)
 SESSION_IDLE_RESET_S = 120        # new visitor after 120s idle -> fresh deck
-MAX_FILLERS_PER_TURN = 3          # long-transient rule: ack + up to 2 bridges, then accept silence
+MAX_FILLERS_PER_TURN = 2          # v5: THEME (+ optional TOPIC). No extenders.
+FILLER_TTS_SPEED = 1.25           # match the pre-synth theme-clip pace (gen_v5_theme_clips.py)
 
-
-# --------------------------------------------------------------------------- pool
+# legacy roles kept only so retired v3 tooling can still import _role_of/load_pool
 ROLES = ("opener", "extender", "leadin", "resumption")
 
 
 def _role_of(stem: str) -> str:
-    """Discourse role from the clip's filename prefix. opener = pre-speech only;
-    extender = extends the THINKING state (no implied speech); leadin = seasons the
-    hand-off to content (only when content is buffered); resumption = implies prior
-    speech (retired from stage-2; reserved for future barge-in resume)."""
+    """[RETIRED v3] Discourse role from a clip filename prefix. Unused by the v5
+    sequencer; kept so old scripts importing it don't break."""
     for r in ("extender", "leadin", "resumption"):
         if stem.startswith(r):
             return r
-    if "bridge" in stem:            # legacy SAPI/onyx bridge -> treat as extender
+    if "bridge" in stem:
         return "extender"
-    return "opener"                 # ack_* / opener_*
+    return "opener"
 
 
 def load_pool(voice: str) -> dict:
-    """Per-voice ROLE-TYPED clip pool. Looks in config.FILLER_CLIP_DIR/<voice>/ first,
-    then the flat dir. Returns {opener:[(id,bytes,fmt)], extender:[...], leadin:[...],
-    resumption:[...]}. Empty -> caller shows a text spinner, never a mismatched voice."""
+    """[RETIRED v3] Role-typed flat pool loader. Superseded by load_theme_pool()."""
     def collect(d: Path):
         pool = {r: [] for r in ROLES}
         if not d.is_dir():
@@ -58,10 +71,56 @@ def load_pool(voice: str) -> dict:
             or {r: [] for r in ROLES})
 
 
+# --------------------------------------------------------------------- v5 clip pool
+_DURMAP: dict | None = None
+
+
+def _durmap() -> dict:
+    """relative-path -> seconds, from the committed clip-durations manifest."""
+    global _DURMAP
+    if _DURMAP is None:
+        _DURMAP = {}
+        p = config.REPO_ROOT / "eval" / "results" / "filler_v5_clip_durations.json"
+        if p.exists():
+            for c in json.loads(p.read_text(encoding="utf-8")).get("clips", []):
+                _DURMAP[c["file"].replace("\\", "/")] = c["seconds"]
+    return _DURMAP
+
+
+def _dur_of(path: Path, default: float = 4.5) -> float:
+    rel = str(path.relative_to(config.REPO_ROOT)).replace("\\", "/")
+    if rel in _durmap():
+        return _durmap()[rel]
+    try:                                      # fall back to reading the header
+        from mutagen.mp3 import MP3
+        return round(MP3(path).info.length, 3)
+    except Exception:
+        return default
+
+
+def load_theme_pool(voice: str) -> dict:
+    """Per-voice v5 clip pool: {A:[(id,bytes,'mp3',secs)], ..., E:[...], NEUTRAL:[...]}.
+    Reads assets/filler_clips/<voice>/themes/<A..E>/*.mp3 + neutral/*.mp3. Empty pool
+    for the selected voice -> caller shows a text spinner (never a mismatched voice)."""
+    base = config.FILLER_CLIP_DIR / voice
+    pool = {t: [] for t in filler_route.THEMES}
+    pool["NEUTRAL"] = []
+    for theme in filler_route.THEMES:
+        d = base / "themes" / theme
+        if d.is_dir():
+            for p in sorted(d.glob("*.mp3")):
+                pool[theme].append((f"theme_{theme}_{p.stem}", p.read_bytes(), "mp3", _dur_of(p)))
+    nd = base / "neutral"
+    if nd.is_dir():
+        for p in sorted(nd.glob("*.mp3")):
+            pool["NEUTRAL"].append((f"neutral_{p.stem}", p.read_bytes(), "mp3", _dur_of(p)))
+    return pool
+
+
 # --------------------------------------------------------------------------- deck
 class Deck:
-    """Shuffled-deck rotation: deal without repeat until the deck exhausts, then
-    reshuffle with a no-immediate-repeat guard. Resets on idle (new visitor)."""
+    """Shuffled-deck rotation: deal without repeat until exhausted, then reshuffle
+    with a no-immediate-repeat guard. Resets on idle (new visitor)."""
 
     def __init__(self, items: list):
         self.items = list(items)
@@ -74,7 +133,7 @@ class Deck:
     def _reshuffle(self):
         self._deck = list(self.items)
         random.shuffle(self._deck)
-        if len(self._deck) > 1 and self._deck[0] == self._last:   # no immediate repeat across shuffles
+        if len(self._deck) > 1 and self._deck[0] == self._last:
             self._deck[0], self._deck[1] = self._deck[1], self._deck[0]
 
     def deal(self):
@@ -84,154 +143,260 @@ class Deck:
             now = time.perf_counter()
             if self._last_deal and (now - self._last_deal) > SESSION_IDLE_RESET_S:
                 self._last = None
-                self._reshuffle()                                 # fresh deck for a new visitor
+                self._reshuffle()
             self._last_deal = now
             if not self._deck:
                 self._reshuffle()
             item = self._deck.pop(0)
             self._last = item
-            return item                                           # (id, bytes)
+            return item
+
+
+# ------------------------------------------------------------------- topic synth + cache
+def _topic_cache_path(voice: str, topic_id: str, template_idx: int) -> Path:
+    safe = re.sub(r"[^A-Za-z0-9]+", "_", topic_id).strip("_")
+    return config.FILLER_CLIP_DIR / voice / "topics" / f"{safe}__t{template_idx + 1:02d}.mp3"
+
+
+def synth_topic(oai, voice: str, topic_id: str, template_idx: int, spoken: str):
+    """Runtime-synthesize (or disk-cache-hit) the TOPIC sentence. Cache keyed
+    (voice, topic_id, template_id). Returns (mp3_bytes, 'mp3', cache_hit, seconds)."""
+    path = _topic_cache_path(voice, topic_id, template_idx)
+    if path.exists():
+        return path.read_bytes(), "mp3", True, _dur_of(path)
+    text = filler_route.render_topic(template_idx, spoken)
+    mp3 = oai.audio.speech.create(model="tts-1", voice=voice, input=text,
+                                  speed=FILLER_TTS_SPEED).content
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(mp3)
+    return mp3, "mp3", False, _dur_of(path)
+
+
+def _topic_template_deck(seq_state: dict, topic_id: str, spoken: str) -> Deck:
+    """Per-topic template Deck over the GRAMMAR-ALLOWED template indices (clashing
+    template x name pairings dropped per filler_route.grammar_ok). Lazily created,
+    persists in seq_state across turns (shuffled, no-repeat, 120s idle reset)."""
+    decks = seq_state.setdefault("topic_template_decks", {})
+    if topic_id not in decks:
+        decks[topic_id] = Deck(filler_route.allowed_templates(spoken))
+    return decks[topic_id]
 
 
 # --------------------------------------------------------------------------- job
 def start_job(q, mode, stt_s, oai, allow, client, voice, base_idx,
-              opener, extender_deck, leadin_clip, seq_state, *, _compose_fn=None, _retrieve_fn=None):
+              theme_decks, seq_state, *, _route_fn=None, _gate_fn=None,
+              _retrieve_fn=None, _compose_fn=None):
     """Spawn the background compose+synth pipeline; return the live job dict.
-    Discourse-role SEQUENCER (Filler v3):
-      pos 1     = `opener` (id,bytes,fmt) — pre-speech acknowledgment, fires at confirm;
-      pos 2..N  = `extender_deck` (Deck of extenders) — extend the THINKING state while
-                  content isn't buffered; per-turn no-repeat; cap MAX_FILLERS_PER_TURN then silence;
-      leadin    = `leadin_clip` — plays ONLY when the first content AUDIO is already buffered
-                  (~30% of eligible turns, never consecutive turns, never unbuffered).
-    Only these chains are possible: O-C, O-E-C, O-E-E-C, O-[E]-L-C.
-    `seq_state` = session dict {turn, last_leadin_turn} for the no-consecutive-leadin rule.
-    `_compose_fn`/`_retrieve_fn` override service.* for the $0 stubbed-compose harness."""
+
+    FILLER v5 SEQUENCER:
+      1. At transcript-confirm, wait <= FILLER_ROUTE_WAIT_MS for the route (embed +
+         centroid). If it resolves, pick a THEME clip (theme_decks[theme]) via
+         filler_route.decide(); else / low-confidence / META / GAP -> a NEUTRAL clip.
+      2. If the TOPIC gates pass, synth the topic sentence CONCURRENT with theme
+         playback (disk-cached); insert it after the theme clip UNLESS content is
+         already ready (gate d) or synth is too slow -> then skip (SILENT).
+      3. Content enters at the clip boundary after the fillers; if not ready ->
+         SILENCE (no extenders). silence_gap_ms measures that no-extender cost.
+
+    theme_decks: {"A":Deck, "B":Deck, "C":Deck, "D":Deck, "E":Deck, "NEUTRAL":Deck}
+      of (clip_id, bytes, fmt, seconds) tuples. seq_state: per-session dict {turn, ...}.
+    The _*_fn params override retrieval/service for the $0 stubbed harness."""
+    route_fn = _route_fn or retrieval.route
+    gate_fn = _gate_fn or retrieval.input_gate
+    retrieve_fn = _retrieve_fn or (lambda query, allowl, ri: retrieval.retrieve(query, allowl, route_info=ri))
     compose_fn = _compose_fn or service.compose_streamed
-    retrieve_fn = _retrieve_fn or retrieval.run
     seq_state["turn"] = seq_state.get("turn", 0) + 1
+
     job = {"q": q, "mode": mode, "stt_s": stt_s, "acc": "", "chunks": [], "synth_ms": {},
            "done": False, "status": None, "answer": "", "envelope": None, "stop_reason": None,
            "usage": None, "route": None, "llm_pre": None, "chunks_sent": None,
            "t_confirm": time.perf_counter(), "first_chunk_ready_s": None, "error": None,
-           "base": base_idx, "n_chunks": 0,
-           # telemetry
-           "filler_clip_id": None, "filler_fired_ms": None, "stage2_fired": False,
-           "stage2_clip_ids": [], "n_fillers": 0, "chain": [], "leadin_fired": False}
+           "base": base_idx, "n_chunks": 0, "n_fillers": 0, "chain": [],
+           # v5 telemetry
+           "theme_used": None, "route_confidence": None, "topic_used": None,
+           "topic_margin": None, "cache_hit": None, "fallback_used": None,
+           "filler_decision": None, "filler_clip_id": None, "filler_fired_ms": None,
+           "topic_clip_id": None, "topic_skipped": None, "silence_gap_ms": None,
+           "filler_missing_pool": False}
 
     ilock = threading.Lock()
     idx = {"n": base_idx}
+
     def next_idx() -> int:
         with ilock:
             i = idx["n"]; idx["n"] += 1; return i
 
-    def push_clip(clip_id: str, raw: bytes, fmt: str = "wav") -> int:
+    def _push(clip_id, raw: bytes, fmt: str, chars: int = 0) -> int:
         i = next_idx()
         job["chunks"].append({"i": i, "b64": base64.b64encode(raw).decode("ascii"),
-                              "chars": 0, "fmt": fmt, "clip_id": clip_id})
-        job["n_fillers"] += 1
+                              "chars": chars, "fmt": fmt, "clip_id": clip_id})
         if job["first_chunk_ready_s"] is None:
             job["first_chunk_ready_s"] = round(time.perf_counter() - job["t_confirm"], 2)
         return i
 
-    def _mark_content():
-        if "C" not in job["chain"]:
-            job["chain"].append("C")
-
     def _content_buffered() -> bool:
-        return any(not c.get("clip_id") for c in job["chunks"])   # a content chunk's AUDIO is present
-
-    def synth_mp3(i: int, sent: str):
-        t0 = time.perf_counter()
-        mp3 = oai.audio.speech.create(model="tts-1", voice=voice, input=sent).content
-        job["synth_ms"][i] = round((time.perf_counter() - t0) * 1000)
-        job["chunks"].append({"i": i, "b64": base64.b64encode(mp3).decode("ascii"),
-                              "chars": len(sent), "fmt": "mp3"})
-        _mark_content()
-
-    def synth_stream(sent: str):
-        """[HELD ~$0.02] tts-1 streamed PCM (24kHz/16-bit); sub-chunks take consecutive
-        global indices, single-worker -> strict order (R-28 guard)."""
-        t0 = time.perf_counter(); first_i = None
-        with oai.audio.speech.with_streaming_response.create(
-                model="tts-1", voice=voice, response_format="pcm", input=sent) as resp:
-            for pcm in resp.iter_bytes(chunk_size=4800):
-                if not pcm:
-                    continue
-                i = next_idx()
-                first_i = first_i if first_i is not None else i
-                job["chunks"].append({"i": i, "b64": base64.b64encode(pcm).decode("ascii"),
-                                      "chars": 0, "fmt": "pcm", "sr": 24000})
-        if first_i is not None:
-            job["synth_ms"][first_i] = round((time.perf_counter() - t0) * 1000)
-            _mark_content()
+        return any(not c.get("clip_id") for c in job["chunks"])
 
     def run():
         try:
+            v5 = config.FILLER_V5_ENABLED
             streaming = config.STREAM_TTS_ENABLED
             pool = ThreadPoolExecutor(max_workers=1 if streaming else 3)
             futures = []
             chunker = voice_stream.SentenceChunker()
-            first_content = threading.Event()
 
-            def _maybe_leadin():
-                # LEADIN plays BEFORE content: pushed at first-content submit, so its index
-                # precedes content's. Only when STREAMING (first audio ~sub-second, so content
-                # is buffered before the ~1.2s leadin ends -> the no-gap promise is kept). With
-                # non-streaming tts-1 (~3s synth) a leadin would gap, so it stays dormant.
-                if (leadin_clip and config.STREAM_TTS_ENABLED
-                        and job["n_fillers"] < MAX_FILLERS_PER_TURN
-                        and random.random() < 0.30
-                        and seq_state.get("last_leadin_turn") != seq_state["turn"] - 1):  # not consecutive
-                    push_clip(leadin_clip[0], leadin_clip[1],
-                              fmt=leadin_clip[2] if len(leadin_clip) > 2 else "wav")
-                    job["leadin_fired"] = True
-                    job["chain"].append("L")
-                    seq_state["last_leadin_turn"] = seq_state["turn"]
+            route_evt = threading.Event()          # set when route resolves
+            theme_placed = threading.Event()        # set after THEME/NEUTRAL clip is placed
+            topic_resolved = threading.Event()      # set after TOPIC is placed OR skipped
+            first_content = threading.Event()       # set when the 1st content sentence submits
+            place = {"filler_secs": 0.0, "t_first_filler": None, "t_first_content": None}
+
+            job["gate"] = gate_fn(q)
+
+            # ---------- FILLER THREAD: theme (+ maybe topic), racing the route ----------
+            def fillers():
+                got = route_evt.wait(timeout=config.FILLER_ROUTE_WAIT_MS / 1000.0)
+                ri = job.get("route")
+                if not v5:
+                    dec = {"use_neutral": True, "theme": None, "topic_gated": False,
+                           "reason": "v5_disabled", "theme_conf": None, "topic_margin": None}
+                elif ri is None:                    # route truly not ready in the window
+                    dec = filler_route.decide({"top_topic": None, "top_cosine": 0.0},
+                                              job["gate"], late_route=True)
+                else:
+                    dec = filler_route.decide(ri, job["gate"], late_route=not got)
+                job["filler_decision"] = dec
+                job["route_confidence"] = dec.get("theme_conf")
+                job["topic_margin"] = dec.get("topic_margin")
+
+                # THEME (or NEUTRAL) clip
+                if dec["use_neutral"]:
+                    clip = theme_decks.get("NEUTRAL").deal() if theme_decks.get("NEUTRAL") else None
+                    job["theme_used"] = "NEUTRAL"; job["fallback_used"] = True
+                    tag = "N"
+                else:
+                    d = theme_decks.get(dec["theme"])
+                    clip = d.deal() if d else None
+                    job["theme_used"] = dec["theme"]; job["fallback_used"] = False
+                    tag = "T"
+                if clip:
+                    _push(clip[0], clip[1], clip[2] if len(clip) > 2 else "mp3")
+                    place["t_first_filler"] = time.perf_counter()
+                    place["filler_secs"] += clip[3] if len(clip) > 3 else 4.5
+                    job["chain"].append(tag)
+                    job["n_fillers"] += 1
+                    job["filler_clip_id"] = clip[0]
+                    job["filler_fired_ms"] = round((time.perf_counter() - job["t_confirm"]) * 1000)
+                else:
+                    job["filler_missing_pool"] = True   # -> text spinner, never mismatched voice
+                theme_placed.set()
+
+                # TOPIC sentence (Filler 2) — gates a,b,c already in dec.topic_gated
+                if dec.get("topic_gated"):
+                    _maybe_topic(dec)
+                else:
+                    topic_resolved.set()
+                job["fillers_done_ts"] = time.perf_counter()
+
+            def _maybe_topic(dec):
+                tdeck = _topic_template_deck(seq_state, dec["topic_id"], dec["topic_spoken"])
+                tidx = tdeck.deal()
+                if tidx is None:
+                    topic_resolved.set(); return
+                fut = pool.submit(synth_topic, oai, voice, dec["topic_id"], tidx, dec["topic_spoken"])
+                theme_dur = place["filler_secs"] or 4.5
+                deadline = time.perf_counter() + theme_dur
+                while time.perf_counter() < deadline:
+                    if fut.done():
+                        break
+                    if first_content.is_set():      # gate d: answer already streaming -> don't delay it
+                        job["topic_skipped"] = "content_ready_gate_d"
+                        topic_resolved.set(); return
+                    time.sleep(0.02)
+                if not fut.done():
+                    job["topic_skipped"] = "synth_slow"
+                    topic_resolved.set(); return
+                audio, fmt, hit, secs = fut.result()
+                if first_content.is_set():          # content beat us to it during synth
+                    job["topic_skipped"] = "content_ready_gate_d"
+                    topic_resolved.set(); return
+                cid = f"topic_{re.sub(r'[^A-Za-z0-9]+','_',dec['topic_id']).strip('_')}_t{tidx + 1}"
+                _push(cid, audio, fmt)
+                place["filler_secs"] += secs
+                job["chain"].append("P")
+                job["n_fillers"] += 1
+                job["topic_used"] = dec["topic_id"]
+                job["topic_clip_id"] = cid
+                job["cache_hit"] = hit
+                topic_resolved.set()
+
+            threading.Thread(target=fillers, daemon=True).start()
+
+            # ---------- content submission (index-gated behind the topic decision) ----------
+            def _mark_content():
+                if "C" not in job["chain"]:
+                    job["chain"].append("C")
+
+            def synth_mp3(i: int, sent: str):
+                t0 = time.perf_counter()
+                mp3 = oai.audio.speech.create(model="tts-1", voice=voice, input=sent).content
+                job["synth_ms"][i] = round((time.perf_counter() - t0) * 1000)
+                job["chunks"].append({"i": i, "b64": base64.b64encode(mp3).decode("ascii"),
+                                      "chars": len(sent), "fmt": "mp3"})
+                if place["t_first_content"] is None:
+                    place["t_first_content"] = time.perf_counter()
+                    _record_silence_gap()
+                _mark_content()
+
+            def synth_stream(sent: str):
+                t0 = time.perf_counter(); first_i = None
+                with oai.audio.speech.with_streaming_response.create(
+                        model="tts-1", voice=voice, response_format="pcm", input=sent) as resp:
+                    for pcm in resp.iter_bytes(chunk_size=4800):
+                        if not pcm:
+                            continue
+                        i = next_idx()
+                        first_i = first_i if first_i is not None else i
+                        job["chunks"].append({"i": i, "b64": base64.b64encode(pcm).decode("ascii"),
+                                              "chars": 0, "fmt": "pcm", "sr": 24000})
+                if first_i is not None:
+                    job["synth_ms"][first_i] = round((time.perf_counter() - t0) * 1000)
+                    if place["t_first_content"] is None:
+                        place["t_first_content"] = time.perf_counter()
+                        _record_silence_gap()
+                    _mark_content()
+
+            def _record_silence_gap():
+                if place["t_first_filler"] is None:
+                    return
+                content_ready_s = place["t_first_content"] - place["t_first_filler"]
+                gap = content_ready_s - place["filler_secs"]
+                job["silence_gap_ms"] = round(max(0.0, gap) * 1000)
 
             def submit(sent: str):
                 if not first_content.is_set():
                     first_content.set()
-                    _maybe_leadin()                       # optional leadin, BEFORE content is queued
+                    # ordering: first content index comes AFTER the topic decision so the
+                    # chain is theme -> [topic] -> content with no index hole (R-28).
+                    theme_placed.wait(timeout=1.0)
+                    topic_resolved.wait(timeout=(place["filler_secs"] or 4.5) + 1.0)
                 if streaming:
                     futures.append(pool.submit(synth_stream, sent))
                 else:
                     futures.append(pool.submit(synth_mp3, next_idx(), sent))
-
-            # POSITION 1 — OPENER, at transcript-confirm (before retrieval/compose).
-            if opener:
-                push_clip(opener[0], opener[1], fmt=opener[2] if len(opener) > 2 else "wav")
-                job["filler_clip_id"] = opener[0]
-                job["filler_fired_ms"] = round((time.perf_counter() - job["t_confirm"]) * 1000)
-                job["chain"].append("O")
-
-                def sequencer():
-                    """POS 2..N: play EXTENDERS while the first content sentence isn't yet in
-                    flight; stop the instant it submits (any leadin fires there, before content).
-                    Per-turn no-repeat; cap MAX_FILLERS_PER_TURN then accept silence. Only chains:
-                    O-C / O-E-C / O-E-E-C / O-[E]-L-C (no resumption pre-speech, no post-content clip)."""
-                    used = set()
-                    while job["n_fillers"] < MAX_FILLERS_PER_TURN and not job["done"]:
-                        if first_content.wait(timeout=FILLER_ACK_SECONDS):
-                            return                                # content in flight -> stop extending
-                        e = extender_deck.deal() if extender_deck else None
-                        if not e or e[0] in used or job["n_fillers"] >= MAX_FILLERS_PER_TURN:
-                            return                                # no fresh extender / cap -> accept silence
-                        used.add(e[0])
-                        push_clip(e[0], e[1], fmt=e[2] if len(e) > 2 else "wav")
-                        job["stage2_fired"] = True
-                        job["stage2_clip_ids"].append(e[0])
-                        job["chain"].append("E")
-                threading.Thread(target=sequencer, daemon=True).start()
 
             def on_text(piece: str):
                 job["acc"] += piece
                 for sent in chunker.feed(piece):
                     submit(sent)
 
-            r = retrieve_fn(job["q"], allow)
-            directives = service._directives(job["q"], r["route"])
-            comp = compose_fn(job["q"], r["retrieval"]["selected"], directives,
-                              client=client, on_text=on_text)
+            # ---------- retrieval (route first, signalled early) + compose ----------
+            ri = route_fn(q)
+            job["route"] = ri
+            route_evt.set()
+            rr = retrieve_fn(q, allow, ri)
+            directives = service._directives(q, ri)
+            comp = compose_fn(q, rr["selected"], directives, client=client, on_text=on_text)
             for sent in chunker.flush():
                 submit(sent)
             if comp["degraded"] and comp["answer"]:
@@ -242,15 +407,15 @@ def start_job(q, mode, stt_s, oai, allow, client, voice, base_idx,
             cited = (comp["envelope"] or {}).get("doc_ids_cited") or []
             job.update(answer=comp["answer"], envelope=comp["envelope"],
                        stop_reason=comp["stop_reason"], usage=comp["usage"],
-                       route={"top_topic": r["route"]["top_topic"], "cos": r["route"]["top_cosine"]},
-                       llm_pre=r["llm_calls_before_composition"],
-                       chunks_sent=min(len(r["retrieval"]["selected"]), config.COMPOSER_TOP_K),
+                       llm_pre=0,
+                       chunks_sent=min(len(rr["selected"]), config.COMPOSER_TOP_K),
                        n_chunks=idx["n"] - job["base"],
                        status=("degraded" if comp["degraded"] else
                                "declined" if (not cited and (
                                    "speak to" in (comp["answer"] or "").lower()
                                    or "outside my" in (comp["answer"] or "").lower()))
                                else "answered"))
+            job["route"] = {"top_topic": ri["top_topic"], "cos": ri["top_cosine"]}
         except Exception as e:
             job["error"] = f"{type(e).__name__}: {e}"
         finally:

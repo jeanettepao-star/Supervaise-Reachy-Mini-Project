@@ -59,10 +59,11 @@ import voice_job              # noqa: E402  (job machinery: filler/rotation/tele
 LOG = ROOT / "eval" / "results" / "voice_demo_log.csv"
 LOG_COLS = ["timestamp", "mode", "transcript", "stt_seconds", "ttfa_felt_s", "status",
             "tts_chars", "est_cost_usd", "chunk_timings", "mean_gap_ms", "max_gap_ms",
-            # [C.7] filler telemetry. stage2_rate_running > 30% is the SIGNAL to verify
-            # the held streaming-TTS path (~$0.02) — bridges firing often = content too slow.
-            "filler_clip_id", "filler_fired_ms", "stage2_fired", "stage2_rate_running",
-            "chain_pattern", "notes"]   # chain_pattern e.g. O-C / O-E-C / O-E-E-C / O-E-L-C
+            # [FILLER v5] two-part theme+topic telemetry. neutral_rate_running high =
+            # routes landing low-confidence/late; silence_gap_ms = the no-extender cost.
+            "theme_used", "route_confidence", "topic_used", "topic_margin", "cache_hit",
+            "fallback_used", "silence_gap_ms", "chain_pattern", "notes"]
+            # chain_pattern e.g. T-C / T-P-C / N-C / T-silence-C
 RATES = {"in": 3.00, "cw": 3.75, "cr": 0.30, "out": 15.00}
 TTS_PER_MCHAR, STT_PER_MIN = 15.00, 0.006
 VOICES = ["onyx", "alloy", "echo", "fable", "nova", "shimmer"]
@@ -98,21 +99,23 @@ def gapless_component():
 
 @st.cache_resource
 def filler_decks(voice: str) -> dict:
-    """Per-voice shuffled-deck rotation over the local clip pool (voice_job.load_pool).
-    Persists across reruns; a Deck reshuffles when exhausted and resets to a fresh
-    deck after 120s idle (new visitor = fresh deck)."""
-    pool = voice_job.load_pool(voice)
-    return {"opener": voice_job.Deck(pool["opener"]),
-            "extender": voice_job.Deck(pool["extender"]),
-            "leadin": pool["leadin"][0] if pool["leadin"] else None,
-            "seq_state": {"turn": 0, "last_leadin_turn": None}}   # persists (no-consecutive-leadin)
+    """[FILLER v5] Per-voice theme+neutral shuffled-deck rotation over the pre-synth
+    pool (voice_job.load_theme_pool). One Deck per theme A..E + a NEUTRAL deck; each
+    reshuffles when exhausted and resets after 120s idle (new visitor = fresh deck).
+    seq_state persists per-topic template decks across turns."""
+    pool = voice_job.load_theme_pool(voice)
+    theme_decks = {t: voice_job.Deck(pool.get(t, [])) for t in voice_job.filler_route.THEMES}
+    theme_decks["NEUTRAL"] = voice_job.Deck(pool.get("NEUTRAL", []))
+    return {"theme_decks": theme_decks,
+            "seq_state": {"turn": 0, "topic_template_decks": {}}}
 
 
 @st.cache_resource
 def filler_stats() -> dict:
-    """Aggregate filler telemetry across the session/day: per-clip usage counter +
-    stage-2 fire counters (for the >30% streaming-TTS signal)."""
-    return {"clip_usage": {}, "turns": 0, "stage2_turns": 0}
+    """[FILLER v5] Aggregate filler telemetry across the session/day: theme-clip usage,
+    neutral-fallback rate, topic fire-rate, topic-cache hit-rate."""
+    return {"turns": 0, "theme_usage": {}, "neutral_turns": 0,
+            "topic_turns": 0, "topic_cache_hits": 0}
 
 
 def stt_openai(oai, wav_bytes: bytes):
@@ -160,21 +163,26 @@ def finalize_and_log(job: dict, gaps_by_idx: dict, stats: dict) -> None:
     idxs = sorted(job["synth_ms"])
     packed = ";".join(f"{i - job['base']}:{job['synth_ms'][i]}/{gaps_by_idx.get(i, '?')}" for i in idxs)
     gaps = [g for i, g in gaps_by_idx.items() if i > job["base"] and isinstance(g, int)]
-    # [C.7] filler telemetry: per-clip usage + running stage-2 fire-rate
+    # [FILLER v5] telemetry: theme usage, neutral-fallback + topic fire + cache rates
     stats["turns"] += 1
-    for cid in ([job["filler_clip_id"]] if job["filler_clip_id"] else []) + job["stage2_clip_ids"]:
-        stats["clip_usage"][cid] = stats["clip_usage"].get(cid, 0) + 1
-    if job["stage2_fired"]:
-        stats["stage2_turns"] += 1
-    stage2_rate = round(stats["stage2_turns"] / max(stats["turns"], 1), 3)
+    if job.get("theme_used"):
+        stats["theme_usage"][job["theme_used"]] = stats["theme_usage"].get(job["theme_used"], 0) + 1
+    if job.get("fallback_used"):
+        stats["neutral_turns"] += 1
+    if job.get("topic_used"):
+        stats["topic_turns"] += 1
+        if job.get("cache_hit"):
+            stats["topic_cache_hits"] += 1
     log_row({"timestamp": datetime.now().isoformat(timespec="seconds"), "mode": job["mode"],
              "transcript": job["q"], "stt_seconds": job["stt_s"],
              "ttfa_felt_s": job["first_chunk_ready_s"], "status": job["status"],
              "tts_chars": tts_chars, "est_cost_usd": est, "chunk_timings": packed,
              "mean_gap_ms": round(sum(gaps) / len(gaps), 1) if gaps else "",
              "max_gap_ms": max(gaps) if gaps else "",
-             "filler_clip_id": job["filler_clip_id"] or "", "filler_fired_ms": job["filler_fired_ms"],
-             "stage2_fired": job["stage2_fired"], "stage2_rate_running": stage2_rate,
+             "theme_used": job.get("theme_used") or "", "route_confidence": job.get("route_confidence"),
+             "topic_used": job.get("topic_used") or "", "topic_margin": job.get("topic_margin"),
+             "cache_hit": job.get("cache_hit"), "fallback_used": job.get("fallback_used"),
+             "silence_gap_ms": job.get("silence_gap_ms"),
              "chain_pattern": "-".join(job.get("chain", [])), "notes": ""})
     job["logged"] = True
     job["est"] = est
@@ -247,8 +255,7 @@ if audio_in is not None and not busy:
             if text:
                 if mode == "DEMO":
                     ss.job = voice_job.start_job(text, mode, stt_s, oai, allow, client, voice,
-                                                 ss.chunk_base, decks["opener"].deal(),
-                                                 decks["extender"], decks["leadin"], decks["seq_state"])
+                                                 ss.chunk_base, decks["theme_decks"], decks["seq_state"])
                     ss.mic_key += 1
                     st.rerun()
                 else:
@@ -261,8 +268,7 @@ if mode == "TEST" and ss.pending and not busy:
                      ss.pending["text"], height=80)
     if st.button("Ask", type="primary") and q.strip():
         ss.job = voice_job.start_job(q.strip(), mode, ss.pending["stt_s"], oai, allow, client,
-                                     voice, ss.chunk_base, decks["opener"].deal(),
-                                     decks["extender"], decks["leadin"], decks["seq_state"])
+                                     voice, ss.chunk_base, decks["theme_decks"], decks["seq_state"])
         ss.pending = None
         ss.mic_key += 1
         st.rerun()
