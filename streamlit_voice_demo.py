@@ -221,7 +221,8 @@ ss.setdefault("chunk_base", 0)      # global chunk index across questions (one p
 
 st.title("⚖️ Ask the Chief Justice — voice demo")
 st.info("**Click “🔊 Enable audio” once** (browser autoplay rule), then ask by voice. "
-        "**Question 1 is slow** (embedder cold-load ~30-40s) — judge from question 2.")
+        "The embedder warms on boot (one-time ~30–40s at launch), so **question 1 is "
+        "ready right away** — a themed opener fires on the first question.")
 
 try:
     service._api_key()
