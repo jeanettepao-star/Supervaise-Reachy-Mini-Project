@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "artifact": "topic_display_names",
+    "purpose": "Canonical topic list + AUTO-DRAFT spoken display names for the filler phase-2 curation. For Dev0 + Sheena red-line.",
+    "generated": "2026-07-19",
+    "generated_by": "Claude Code (read-only extract; no filler-code / taxonomy / topic_map changes)",
+    "sources": {
+      "active_34": "data/index/topic_centroids_meta.json (v4.2 / OPS-2 Phase B; build_date 2026-07-17; n_topics 34; order preserved)",
+      "staged_10": "eval/results/taxonomy_expansion_PROPOSAL.md §4 (OPS-2 Phase D; 10 candidate topics, APPROVED-in-principle / HELD per scope_decisions D1)"
+    },
+    "counts": { "active": 34, "staged": 10, "total": 44 },
+    "auto_draft_rule": "underscores -> spaces; natural title casing; obvious abbreviations EXPANDED in the draft (FLP -> Foundation for Liberty and Prosperity; EEZ -> Exclusive Economic Zone; ICC -> International Criminal Court; JBC -> Judicial and Bar Council; MSME -> Micro, Small and Medium Enterprises; WDR -> With Due Respect; COMELEC -> Commission on Elections).",
+    "field_notes": {
+      "spoken_name": "AUTO-DRAFT ONLY — prettified guess, NOT approved. Every value is a draft pending human red-line (see draft:true on every row).",
+      "speakable": "TBD = plausibly speakable, human to confirm. NO = pre-flagged as sounding wrong spoken (acronym-fronted, merged compound id, or internal/meta label); see note for the reason.",
+      "draft": "Always true here — nothing in this file is ratified."
+    },
+    "status_legend": { "active": "one of the 34 live v4.2 centroid topics", "staged": "OPS-3 candidate topic, HELD (not in production; names are doubly-provisional)" },
+    "pre_flagged_speakable_NO": 10
+  },
+  "topics": [
+    { "topic_id": "rule_of_law", "status": "active", "spoken_name": "Rule of Law", "speakable": "TBD", "draft": true },
+    { "topic_id": "twin_beacons_doctrine", "status": "active", "spoken_name": "The Twin Beacons Doctrine", "speakable": "TBD", "draft": true },
+    { "topic_id": "foundation_for_liberty_and_prosperity", "status": "active", "spoken_name": "The Foundation for Liberty and Prosperity", "speakable": "TBD", "draft": true },
+    { "topic_id": "with_due_respect_persona", "status": "active", "spoken_name": "With Due Respect", "speakable": "NO", "draft": true, "note": "'persona' is an internal/meta label, not spoken; 'With Due Respect' is the column name. Confirm whether this topic is ever named aloud." },
+    { "topic_id": "constitutional_doctrine", "status": "active", "spoken_name": "Constitutional Doctrine", "speakable": "TBD", "draft": true },
+    { "topic_id": "due_process", "status": "active", "spoken_name": "Due Process", "speakable": "TBD", "draft": true },
+    { "topic_id": "judicial_reform", "status": "active", "spoken_name": "Judicial Reform", "speakable": "TBD", "draft": true },
+    { "topic_id": "supreme_court_history", "status": "active", "spoken_name": "Supreme Court History", "speakable": "TBD", "draft": true },
+    { "topic_id": "impeachment_accountability", "status": "active", "spoken_name": "Impeachment and Accountability", "speakable": "TBD", "draft": true },
+    { "topic_id": "international_law_disputes", "status": "active", "spoken_name": "International Law Disputes", "speakable": "TBD", "draft": true },
+    { "topic_id": "icc_and_duterte", "status": "active", "spoken_name": "The International Criminal Court and Duterte", "speakable": "NO", "draft": true, "note": "id fronts acronym ICC (expanded in draft); confirm spoken form and whether a named political figure should surface as a topic label." },
+    { "topic_id": "judicial_activism_and_political_question", "status": "active", "spoken_name": "Judicial Activism and the Political-Question Doctrine", "speakable": "TBD", "draft": true },
+    { "topic_id": "asean_law_association", "status": "active", "spoken_name": "The ASEAN Law Association", "speakable": "TBD", "draft": true, "note": "ASEAN is a pronounceable acronym ('ah-see-an') — likely speakable as-is; confirm." },
+    { "topic_id": "death_penalty_and_echegaray", "status": "active", "spoken_name": "The Death Penalty and Echegaray", "speakable": "TBD", "draft": true, "note": "'Echegaray' is a case name; add pronunciation guidance if this label is spoken." },
+    { "topic_id": "bar_exam_and_legal_education", "status": "active", "spoken_name": "The Bar Exam and Legal Education", "speakable": "TBD", "draft": true },
+    { "topic_id": "economic_governance_and_business_law", "status": "active", "spoken_name": "Economic Governance and Business Law", "speakable": "TBD", "draft": true },
+    { "topic_id": "eez_resource_sovereignty", "status": "active", "spoken_name": "Exclusive Economic Zone and Resource Sovereignty", "speakable": "NO", "draft": true, "note": "id fronts acronym EEZ (expanded in draft); confirm spoken form." },
+    { "topic_id": "msme_and_entrepreneurship+prosperity_fund_msme", "status": "active", "spoken_name": "MSMEs, Entrepreneurship, and the Prosperity Fund", "speakable": "NO", "draft": true, "note": "merged compound id ('+' join of two topics); MSME acronym; confirm spoken form and final title." },
+    { "topic_id": "family_and_marriage", "status": "active", "spoken_name": "Family and Marriage", "speakable": "TBD", "draft": true },
+    { "topic_id": "mentors_and_legal_lineage", "status": "active", "spoken_name": "Mentors and Legal Lineage", "speakable": "TBD", "draft": true },
+    { "topic_id": "faith_journey", "status": "active", "spoken_name": "Faith Journey", "speakable": "TBD", "draft": true },
+    { "topic_id": "early_life_sampaloc", "status": "active", "spoken_name": "Early Life in Sampaloc", "speakable": "TBD", "draft": true },
+    { "topic_id": "jbc_discernment_and_appointment", "status": "active", "spoken_name": "Judicial and Bar Council: Discernment and Appointment", "speakable": "NO", "draft": true, "note": "id fronts acronym JBC (expanded in draft); confirm spoken form." },
+    { "topic_id": "eulogies_and_passing", "status": "active", "spoken_name": "Eulogies and Passing", "speakable": "TBD", "draft": true },
+    { "topic_id": "friendships_and_civic_circles", "status": "active", "spoken_name": "Friendships and Civic Circles", "speakable": "TBD", "draft": true },
+    { "topic_id": "honors_received", "status": "active", "spoken_name": "Honors Received", "speakable": "TBD", "draft": true, "note": "speakable as-is, but this is a BROKEN topic (gmean-fallback centroid, 0 member chunks) — retrieval fix pending (proposal §5), not a naming issue." },
+    { "topic_id": "flp_scholarship_programs", "status": "active", "spoken_name": "Foundation for Liberty and Prosperity Scholarship Programs", "speakable": "NO", "draft": true, "note": "id fronts acronym FLP (expanded in draft); long spoken — consider a shorter spoken form (e.g. 'FLP Scholarships' if FLP is introduced earlier)." },
+    { "topic_id": "museum_for_liberty_and_prosperity", "status": "active", "spoken_name": "The Museum for Liberty and Prosperity", "speakable": "TBD", "draft": true },
+    { "topic_id": "flp_donors_and_partners", "status": "active", "spoken_name": "Foundation for Liberty and Prosperity Donors and Partners", "speakable": "NO", "draft": true, "note": "id fronts acronym FLP (expanded in draft); consider a shorter spoken form." },
+    { "topic_id": "lawyer_ethics_initiative", "status": "active", "spoken_name": "The Lawyer Ethics Initiative", "speakable": "TBD", "draft": true },
+    { "topic_id": "ai_and_technology", "status": "active", "spoken_name": "AI and Technology", "speakable": "TBD", "draft": true, "note": "'AI' spoken 'A-I' universally — likely fine; consider 'Artificial Intelligence' on first mention." },
+    { "topic_id": "global_geopolitics", "status": "active", "spoken_name": "Global Geopolitics", "speakable": "TBD", "draft": true },
+    { "topic_id": "philippine_political_landscape", "status": "active", "spoken_name": "The Philippine Political Landscape", "speakable": "TBD", "draft": true },
+    { "topic_id": "robot_identity_meta", "status": "active", "spoken_name": "Robot Identity (meta)", "speakable": "NO", "draft": true, "note": "internal meta/persona topic, 0 members by design; NEVER spoken — router/persona control only. Exclude from any spoken surface." },
+
+    { "topic_id": "criminal_justice_and_prosecutions", "status": "staged", "spoken_name": "Criminal Justice and Prosecutions", "speakable": "TBD", "draft": true },
+    { "topic_id": "elections_comelec_and_candidacies", "status": "staged", "spoken_name": "Elections, the Commission on Elections, and Candidacies", "speakable": "TBD", "draft": true, "note": "COMELEC expanded in draft; pronounceable as 'koh-meh-lek' in PH usage if kept short — confirm preferred spoken form." },
+    { "topic_id": "constitutional_reform_and_structure", "status": "staged", "spoken_name": "Constitutional Reform and Structure", "speakable": "TBD", "draft": true },
+    { "topic_id": "judicial_process_wdr_columns", "status": "staged", "spoken_name": "Judicial Process (With Due Respect Columns)", "speakable": "NO", "draft": true, "note": "'WDR' expanded to 'With Due Respect'; 'columns' is a corpus/meta tag, not spoken — rename before any spoken use." },
+    { "topic_id": "governance_economy_and_democracy", "status": "staged", "spoken_name": "Governance, the Economy, and Democracy", "speakable": "TBD", "draft": true },
+    { "topic_id": "us_politics_and_global_democracy", "status": "staged", "spoken_name": "US Politics and Global Democracy", "speakable": "TBD", "draft": true, "note": "'US' spoken 'U-S' — likely fine; confirm." },
+    { "topic_id": "judiciary_history_and_tributes", "status": "staged", "spoken_name": "Judiciary History and Tributes", "speakable": "TBD", "draft": true },
+    { "topic_id": "science_health_and_bioage", "status": "staged", "spoken_name": "Science, Health, and the Bio-Age", "speakable": "TBD", "draft": true, "note": "'Bio-Age' is CJ's book term; keep the hyphen for pronunciation ('bio-age', not 'bee-oaj')." },
+    { "topic_id": "leadership_formation_and_civic_service", "status": "staged", "spoken_name": "Leadership Formation and Civic Service", "speakable": "TBD", "draft": true },
+    { "topic_id": "church_and_sacred_spaces+christ_essays", "status": "staged", "spoken_name": "The Church, Sacred Spaces, and Christ-Centered Essays", "speakable": "NO", "draft": true, "note": "merged CANDIDATE id (two clusters, '+' join); proposal also offers 'or extend faith_journey' — confirm final title / whether to split or fold into faith_journey." }
+  ]
+}
