@@ -42,6 +42,11 @@ import voice_stream
 SESSION_IDLE_RESET_S = 120        # new visitor after 120s idle -> fresh deck
 MAX_FILLERS_PER_TURN = 2          # v5: THEME (+ optional TOPIC). No extenders.
 FILLER_TTS_SPEED = 1.25           # match the pre-synth theme-clip pace (gen_v5_theme_clips.py)
+WATCHDOG_S = 8.0                  # a reserved index MUST resolve within this — hole delays, never stalls
+# ~0.08s of 24kHz/16-bit silence — the backfill for a reserved index that never gets
+# real audio, so the strict-index-order player advances past a hole instead of stalling
+# forever (the Q2 total-silence SEV: a missing `expected` index halts gapless drain).
+_SILENT_PCM_B64 = base64.b64encode(b"\x00" * 3840).decode("ascii")
 
 # legacy roles kept only so retired v3 tooling can still import _role_of/load_pool
 ROLES = ("opener", "extender", "leadin", "resumption")
@@ -217,25 +222,51 @@ def start_job(q, mode, stt_s, oai, allow, client, voice, base_idx,
            "topic_margin": None, "cache_hit": None, "fallback_used": None,
            "filler_decision": None, "filler_clip_id": None, "filler_fired_ms": None,
            "topic_clip_id": None, "topic_skipped": None, "silence_gap_ms": None,
-           "filler_missing_pool": False}
+           "filler_missing_pool": False,
+           # Q2-SEV queue state (reserved/submitted/released per turn) + backfills
+           "queue_reserved": 0, "queue_submitted": 0, "queue_released": 0,
+           "watchdog_backfills": [], "synth_errors": []}
 
-    ilock = threading.Lock()
+    # ---- reservation-tracked index queue (Q2-SEV INVARIANT) ----
+    # Every reserved index MUST be resolved: filled with real audio, or released with a
+    # silent backfill. A hole can DELAY audio (until the watchdog/error-path backfills)
+    # but can NEVER permanently stall the strict-index-order player. reserve() hands out
+    # the next index and registers it as unfilled; fill() resolves it idempotently (so a
+    # slow synth that lands AFTER a watchdog backfill is dropped, never double-filled).
+    res_lock = threading.Lock()
     idx = {"n": base_idx}
+    reserved: dict = {}                        # i -> t_reserved (still unfilled)
 
-    def next_idx() -> int:
-        with ilock:
-            i = idx["n"]; idx["n"] += 1; return i
+    def reserve() -> int:
+        with res_lock:
+            i = idx["n"]; idx["n"] += 1
+            reserved[i] = time.perf_counter()
+            job["queue_reserved"] += 1
+            return i
 
-    def _push(clip_id, raw: bytes, fmt: str, chars: int = 0) -> int:
-        i = next_idx()
-        job["chunks"].append({"i": i, "b64": base64.b64encode(raw).decode("ascii"),
-                              "chars": chars, "fmt": fmt, "clip_id": clip_id})
+    def fill(i: int, chunk: dict, released: bool = False) -> bool:
+        with res_lock:
+            if i not in reserved:              # already resolved (e.g. watchdog backfill)
+                return False
+            del reserved[i]
+            if released:
+                job["queue_released"] += 1
+            else:
+                job["queue_submitted"] += 1
+        job["chunks"].append(chunk)
         if job["first_chunk_ready_s"] is None:
             job["first_chunk_ready_s"] = round(time.perf_counter() - job["t_confirm"], 2)
-        return i
+        return True
 
-    def _content_buffered() -> bool:
-        return any(not c.get("clip_id") for c in job["chunks"])
+    def _silence(i: int) -> dict:
+        return {"i": i, "b64": _SILENT_PCM_B64, "chars": 0, "fmt": "pcm", "sr": 24000,
+                "clip_id": "_backfill"}
+
+    def _push(clip_id, raw: bytes, fmt: str, chars: int = 0) -> int:
+        i = reserve()
+        fill(i, {"i": i, "b64": base64.b64encode(raw).decode("ascii"),
+                 "chars": chars, "fmt": fmt, "clip_id": clip_id})
+        return i
 
     def run():
         try:
@@ -299,38 +330,64 @@ def start_job(q, mode, stt_s, oai, allow, client, voice, base_idx,
                 job["fillers_done_ts"] = time.perf_counter()
 
             def _maybe_topic(dec):
-                tdeck = _topic_template_deck(seq_state, dec["topic_id"], dec["topic_spoken"])
-                tidx = tdeck.deal()
-                if tidx is None:
-                    topic_resolved.set(); return
-                fut = pool.submit(synth_topic, oai, voice, dec["topic_id"], tidx, dec["topic_spoken"])
-                theme_dur = place["filler_secs"] or 4.5
-                deadline = time.perf_counter() + theme_dur
-                while time.perf_counter() < deadline:
-                    if fut.done():
-                        break
-                    if first_content.is_set():      # gate d: answer already streaming -> don't delay it
-                        job["topic_skipped"] = "content_ready_gate_d"
-                        topic_resolved.set(); return
-                    time.sleep(0.02)
-                if not fut.done():
-                    job["topic_skipped"] = "synth_slow"
-                    topic_resolved.set(); return
-                audio, fmt, hit, secs = fut.result()
-                if first_content.is_set():          # content beat us to it during synth
-                    job["topic_skipped"] = "content_ready_gate_d"
-                    topic_resolved.set(); return
-                cid = f"topic_{re.sub(r'[^A-Za-z0-9]+','_',dec['topic_id']).strip('_')}_t{tidx + 1}"
-                _push(cid, audio, fmt)
-                place["filler_secs"] += secs
-                job["chain"].append("P")
-                job["n_fillers"] += 1
-                job["topic_used"] = dec["topic_id"]
-                job["topic_clip_id"] = cid
-                job["cache_hit"] = hit
-                topic_resolved.set()
+                # topic_resolved is ALWAYS set (finally) so a topic-synth failure never
+                # kills the fillers thread nor blocks content ordering. The topic path
+                # reserves no index until _push (reserve+fill atomic) -> no dangling hole.
+                try:
+                    tdeck = _topic_template_deck(seq_state, dec["topic_id"], dec["topic_spoken"])
+                    tidx = tdeck.deal()
+                    if tidx is None:
+                        return
+                    fut = pool.submit(synth_topic, oai, voice, dec["topic_id"], tidx, dec["topic_spoken"])
+                    theme_dur = place["filler_secs"] or 4.5
+                    deadline = time.perf_counter() + theme_dur
+                    while time.perf_counter() < deadline:
+                        if fut.done():
+                            break
+                        if first_content.is_set():  # gate d: answer already streaming -> don't delay it
+                            job["topic_skipped"] = "content_ready_gate_d"; return
+                        time.sleep(0.02)
+                    if not fut.done():
+                        job["topic_skipped"] = "synth_slow"; return
+                    audio, fmt, hit, secs = fut.result()    # may raise on synth error
+                    if first_content.is_set():      # content beat us to it during synth
+                        job["topic_skipped"] = "content_ready_gate_d"; return
+                    cid = f"topic_{re.sub(r'[^A-Za-z0-9]+','_',dec['topic_id']).strip('_')}_t{tidx + 1}"
+                    _push(cid, audio, fmt)
+                    place["filler_secs"] += secs
+                    job["chain"].append("P")
+                    job["n_fillers"] += 1
+                    job["topic_used"] = dec["topic_id"]
+                    job["topic_clip_id"] = cid
+                    job["cache_hit"] = hit
+                except Exception as e:
+                    job["topic_skipped"] = f"synth_error:{type(e).__name__}"
+                    job["synth_errors"].append(f"topic: {type(e).__name__}: {e}")
+                finally:
+                    topic_resolved.set()
 
             threading.Thread(target=fillers, daemon=True).start()
+
+            # ---------- WATCHDOG: enforce the reservation invariant ----------
+            def watchdog():
+                # Any reserved index still unfilled after WATCHDOG_S is backfilled with
+                # silence so the strict-order player advances past it (a hole DELAYS,
+                # never PERMANENTLY stalls). On job-done, sweep every leftover at once —
+                # no more real chunks are coming, so nothing may stay reserved.
+                while not job["done"]:
+                    time.sleep(0.5)
+                    now = time.perf_counter()
+                    with res_lock:
+                        stale = [i for i, t in reserved.items() if now - t > WATCHDOG_S]
+                    for i in stale:
+                        if fill(i, _silence(i), released=True):
+                            job["watchdog_backfills"].append(i)
+                with res_lock:
+                    leftover = list(reserved.keys())
+                for i in leftover:
+                    if fill(i, _silence(i), released=True):
+                        job["watchdog_backfills"].append(i)
+            threading.Thread(target=watchdog, daemon=True).start()
 
             # ---------- content submission (index-gated behind the topic decision) ----------
             def _mark_content():
@@ -338,33 +395,40 @@ def start_job(q, mode, stt_s, oai, allow, client, voice, base_idx,
                     job["chain"].append("C")
 
             def synth_mp3(i: int, sent: str):
-                t0 = time.perf_counter()
-                mp3 = oai.audio.speech.create(model="tts-1", voice=voice, input=sent).content
-                job["synth_ms"][i] = round((time.perf_counter() - t0) * 1000)
-                job["chunks"].append({"i": i, "b64": base64.b64encode(mp3).decode("ascii"),
-                                      "chars": len(sent), "fmt": "mp3"})
-                if place["t_first_content"] is None:
-                    place["t_first_content"] = time.perf_counter()
-                    _record_silence_gap()
-                _mark_content()
+                try:
+                    t0 = time.perf_counter()
+                    mp3 = oai.audio.speech.create(model="tts-1", voice=voice, input=sent).content
+                    job["synth_ms"][i] = round((time.perf_counter() - t0) * 1000)
+                    if fill(i, {"i": i, "b64": base64.b64encode(mp3).decode("ascii"),
+                                "chars": len(sent), "fmt": "mp3"}):
+                        if place["t_first_content"] is None:
+                            place["t_first_content"] = time.perf_counter()
+                            _record_silence_gap()
+                        _mark_content()
+                except Exception as e:                    # INVARIANT: never leave a hole
+                    job["synth_errors"].append(f"content[{i}]: {type(e).__name__}: {e}")
+                    fill(i, _silence(i), released=True)    # backfill so drain advances
 
             def synth_stream(sent: str):
                 t0 = time.perf_counter(); first_i = None
-                with oai.audio.speech.with_streaming_response.create(
-                        model="tts-1", voice=voice, response_format="pcm", input=sent) as resp:
-                    for pcm in resp.iter_bytes(chunk_size=4800):
-                        if not pcm:
-                            continue
-                        i = next_idx()
-                        first_i = first_i if first_i is not None else i
-                        job["chunks"].append({"i": i, "b64": base64.b64encode(pcm).decode("ascii"),
-                                              "chars": 0, "fmt": "pcm", "sr": 24000})
-                if first_i is not None:
-                    job["synth_ms"][first_i] = round((time.perf_counter() - t0) * 1000)
-                    if place["t_first_content"] is None:
-                        place["t_first_content"] = time.perf_counter()
-                        _record_silence_gap()
-                    _mark_content()
+                try:
+                    with oai.audio.speech.with_streaming_response.create(
+                            model="tts-1", voice=voice, response_format="pcm", input=sent) as resp:
+                        for pcm in resp.iter_bytes(chunk_size=4800):
+                            if not pcm:
+                                continue
+                            i = reserve()                 # reserve+fill are paired per chunk
+                            first_i = first_i if first_i is not None else i
+                            fill(i, {"i": i, "b64": base64.b64encode(pcm).decode("ascii"),
+                                     "chars": 0, "fmt": "pcm", "sr": 24000})
+                    if first_i is not None:
+                        job["synth_ms"][first_i] = round((time.perf_counter() - t0) * 1000)
+                        if place["t_first_content"] is None:
+                            place["t_first_content"] = time.perf_counter()
+                            _record_silence_gap()
+                        _mark_content()
+                except Exception as e:
+                    job["synth_errors"].append(f"stream: {type(e).__name__}: {e}")
 
             def _record_silence_gap():
                 if place["t_first_filler"] is None:
@@ -383,7 +447,7 @@ def start_job(q, mode, stt_s, oai, allow, client, voice, base_idx,
                 if streaming:
                     futures.append(pool.submit(synth_stream, sent))
                 else:
-                    futures.append(pool.submit(synth_mp3, next_idx(), sent))
+                    futures.append(pool.submit(synth_mp3, reserve(), sent))
 
             def on_text(piece: str):
                 job["acc"] += piece

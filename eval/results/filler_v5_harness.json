@@ -13,7 +13,11 @@
       "silence_gap_ms": 0,
       "topic_skipped": null,
       "reason": "theme+topic",
-      "error": null
+      "error": null,
+      "queue": "3=3+0",
+      "backfills": 0,
+      "synth_errors": 0,
+      "no_hole": true
     },
     {
       "case": "2 confident+near-tie",
@@ -28,7 +32,11 @@
       "silence_gap_ms": 0,
       "topic_skipped": null,
       "reason": "theme_only",
-      "error": null
+      "error": null,
+      "queue": "2=2+0",
+      "backfills": 0,
+      "synth_errors": 0,
+      "no_hole": true
     },
     {
       "case": "3 low-confidence",
@@ -43,7 +51,11 @@
       "silence_gap_ms": 0,
       "topic_skipped": null,
       "reason": "low_confidence(0.5000<0.51)",
-      "error": null
+      "error": null,
+      "queue": "2=2+0",
+      "backfills": 0,
+      "synth_errors": 0,
+      "no_hole": true
     },
     {
       "case": "4 META route",
@@ -58,7 +70,11 @@
       "silence_gap_ms": 0,
       "topic_skipped": null,
       "reason": "theme_meta",
-      "error": null
+      "error": null,
+      "queue": "2=2+0",
+      "backfills": 0,
+      "synth_errors": 0,
+      "no_hole": true
     },
     {
       "case": "5 X35 stray (weather)",
@@ -73,7 +89,11 @@
       "silence_gap_ms": 0,
       "topic_skipped": null,
       "reason": "low_confidence(0.5072<0.51)",
-      "error": null
+      "error": null,
+      "queue": "2=2+0",
+      "backfills": 0,
+      "synth_errors": 0,
+      "no_hole": true
     },
     {
       "case": "6 fast compose (gate d)",
@@ -88,7 +108,11 @@
       "silence_gap_ms": 0,
       "topic_skipped": "content_ready_gate_d",
       "reason": "theme+topic",
-      "error": null
+      "error": null,
+      "queue": "2=2+0",
+      "backfills": 0,
+      "synth_errors": 0,
+      "no_hole": true
     },
     {
       "case": "7 long transient",
@@ -103,7 +127,11 @@
       "silence_gap_ms": 1251,
       "topic_skipped": null,
       "reason": "theme+topic",
-      "error": null
+      "error": null,
+      "queue": "3=3+0",
+      "backfills": 0,
+      "synth_errors": 0,
+      "no_hole": true
     },
     {
       "case": "8 late route (>300ms)",
@@ -118,7 +146,49 @@
       "silence_gap_ms": 0,
       "topic_skipped": null,
       "reason": "late_route",
-      "error": null
+      "error": null,
+      "queue": "2=2+0",
+      "backfills": 0,
+      "synth_errors": 0,
+      "no_hole": true
+    },
+    {
+      "case": "9 content-synth exception",
+      "chain": "T-P-C",
+      "chain_annot": "T-P-C",
+      "theme_used": "A",
+      "route_confidence": 0.62,
+      "topic_used": "international_law_disputes",
+      "topic_margin": 0.03,
+      "cache_hit": false,
+      "fallback_used": false,
+      "silence_gap_ms": 0,
+      "topic_skipped": null,
+      "reason": "theme+topic",
+      "error": null,
+      "queue": "4=3+1",
+      "backfills": 0,
+      "synth_errors": 1,
+      "no_hole": true
+    },
+    {
+      "case": "10 watchdog backfill (hang)",
+      "chain": "T-P",
+      "chain_annot": "T-P",
+      "theme_used": "A",
+      "route_confidence": 0.62,
+      "topic_used": "international_law_disputes",
+      "topic_margin": 0.03,
+      "cache_hit": false,
+      "fallback_used": false,
+      "silence_gap_ms": null,
+      "topic_skipped": null,
+      "reason": "theme+topic",
+      "error": null,
+      "queue": "3=2+1",
+      "backfills": 1,
+      "synth_errors": 0,
+      "no_hole": true
     }
   ],
   "all_pass": true,
@@ -128,5 +198,17 @@
     "mean": 3.928
   },
   "over_cap": [],
-  "grammar_drops": 25
+  "grammar_drops": 25,
+  "smoke": {
+    "chain": "T-P-C",
+    "no_hole": true,
+    "theme_used": "A",
+    "topic_used": "international_law_disputes",
+    "topic_clip_id": "topic_international_law_disputes_t1",
+    "cache_hit": true,
+    "queue": "3=3+0",
+    "n_chunks": 3,
+    "real_audio_bytes": true,
+    "error": null
+  }
 }

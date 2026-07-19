@@ -62,7 +62,11 @@ LOG_COLS = ["timestamp", "mode", "transcript", "stt_seconds", "ttfa_felt_s", "st
             # [FILLER v5] two-part theme+topic telemetry. neutral_rate_running high =
             # routes landing low-confidence/late; silence_gap_ms = the no-extender cost.
             "theme_used", "route_confidence", "topic_used", "topic_margin", "cache_hit",
-            "fallback_used", "silence_gap_ms", "chain_pattern", "notes"]
+            "fallback_used", "silence_gap_ms",
+            # [Q2-SEV] queue-state invariant: reserved == submitted + released every turn,
+            # backfills > 0 means the watchdog filled a hole (no permanent strict-order stall).
+            "queue_reserved", "queue_submitted", "queue_released", "watchdog_backfills",
+            "chain_pattern", "notes"]
             # chain_pattern e.g. T-C / T-P-C / N-C / T-silence-C
 RATES = {"in": 3.00, "cw": 3.75, "cr": 0.30, "out": 15.00}
 TTS_PER_MCHAR, STT_PER_MIN = 15.00, 0.006
@@ -79,6 +83,15 @@ VOICES = ["onyx", "alloy", "echo", "fable", "nova", "shimmer"]
 @st.cache_resource(show_spinner="Warming the v4 embedder (~30-40s, first launch only)...")
 def warm_pipeline():
     embeddings.get_model()
+    # Warm a real INFERENCE too, not just the model load: get_model() loads weights but
+    # the first embed/route forward pass is the ~1-30s cold hit that blew the 300ms
+    # filler-selection budget on Q1 (route_confidence=0.0 -> late_route -> NEUTRAL). One
+    # throwaway embed_query + route here means the first REAL question routes warm (~38ms).
+    try:
+        import retrieval
+        retrieval.route("warm")            # embed_query("warm") + centroid route, both warmed
+    except Exception:
+        pass
     allow = service._allowlist("v4")
     transport = service._resolve_transport()
     client = service._client() if transport == "native_sdk" else None
@@ -133,11 +146,15 @@ def stt_openai(oai, wav_bytes: bytes):
 
 
 def log_row(row: dict) -> None:
-    if LOG.exists():   # rotate pre-gapless log if the header changed
-        try:
+    if LOG.exists():   # rotate to a UNIQUE archive if the header changed (the old code
+        try:           # renamed to a FIXED name that already existed -> silently no-op'd,
             old_header = open(LOG, encoding="utf-8").readline().strip().split(",")
-            if old_header != LOG_COLS:
-                LOG.rename(LOG.with_name("voice_demo_log_pre_gapless.csv"))
+            if old_header != LOG_COLS:                 # leaving v5 rows under a stale header
+                arch = LOG.with_name("voice_demo_log_archived.csv")
+                n = 1
+                while arch.exists():                   # never clobber; always find a free name
+                    arch = LOG.with_name(f"voice_demo_log_archived{n}.csv"); n += 1
+                LOG.rename(arch)
         except Exception:
             pass
     new = not LOG.exists()
@@ -183,6 +200,9 @@ def finalize_and_log(job: dict, gaps_by_idx: dict, stats: dict) -> None:
              "topic_used": job.get("topic_used") or "", "topic_margin": job.get("topic_margin"),
              "cache_hit": job.get("cache_hit"), "fallback_used": job.get("fallback_used"),
              "silence_gap_ms": job.get("silence_gap_ms"),
+             "queue_reserved": job.get("queue_reserved"), "queue_submitted": job.get("queue_submitted"),
+             "queue_released": job.get("queue_released"),
+             "watchdog_backfills": len(job.get("watchdog_backfills") or []),
              "chain_pattern": "-".join(job.get("chain", [])), "notes": ""})
     job["logged"] = True
     job["est"] = est
