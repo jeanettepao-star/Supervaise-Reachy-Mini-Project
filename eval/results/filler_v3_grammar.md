@@ -52,3 +52,15 @@ index (never plays after content, never unbuffered); no two adjacent leadin turn
 ## Telemetry
 `voice_job` job carries `chain` (e.g. ["O","E","E","C"]); the demo logs **`chain_pattern`**
 ("O-E-E-C") alongside `filler_clip_id / filler_fired_ms / stage2_fired / stage2_rate_running`.
+
+## Leadin gate (v3.1) — streaming-gated; currently DORMANT
+- **`STREAM_TTS_ENABLED` is OFF**, so the leadin never fires today. **Live chains are
+  `O-C / O-E-C / O-E-E-C` only** (opener → extenders → content). The leadin (`O-[E]-L-C`) activates
+  ONLY when the gate opens — i.e. when first-content audio is buffered fast enough that the ~1.2 s
+  leadin doesn't outrun it (the no-gap promise). With hosted tts-1 (~3 s synth) that never holds, so
+  the leadin is correctly dormant.
+- **Delivery-week re-evaluation (robot):** Piper's ~2 s *local* synth (no network RTT) may satisfy
+  the buffered-in-time condition **natively** — in which case the leadin gate can key on measured
+  first-audio latency rather than `STREAM_TTS_ENABLED`. Config note: RI-701 should re-measure robot
+  first-audio and, if < ~1 s, either enable streaming or add a `CJ_LEADIN_GATE=piper-local` mode that
+  fires the leadin when the robot TTS buffers fast enough. Until then the gate stays streaming-only.

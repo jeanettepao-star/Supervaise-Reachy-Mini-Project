@@ -88,3 +88,12 @@ scope/gating calls; they change no code except the signed Voice-Card edits (Part
   verbatim NEW-4b line + the four mandatory NEW-6 elements + one in-voice example — all required).
 - **Still cached:** the voice card is the `cache_control: ephemeral` system block
   (`service.py` compose path); the edit causes one cache re-write, then re-caches. Boundary intact.
+
+## D8 — Question-engagement opener directive (Voice-Card)
+- **Decision:** QUEUED (not applied). A Voice-Card directive to make the composer's opening sentence
+  briefly engage the asker's question before answering is **deferred until after the A/B assessment**.
+- **Rationale:** it changes answer shape; applying it now would confound the in-flight blind A/B
+  (directive-ON concise vs directive-OFF, `w3_ab_corpus_for_frank_kate.csv`). Change one thing at a time.
+- **Revisit:** after Frank/Kate return the A/B winner — then decide whether to layer question-engagement
+  on the chosen baseline and re-verify.
+- **Decided-by:** Dev0. NOTE: no composer/Voice-Card change made this task; this is a queue entry only.
