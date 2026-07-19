@@ -1,0 +1,90 @@
+{
+  "harness_version": "1.0",
+  "clips_dir": "eval/results/stt_bench_clips",
+  "clips": [
+    "q1_flp.wav",
+    "q2_baron.wav",
+    "q3_dont_know.wav"
+  ],
+  "config": {
+    "STT_BACKEND_at_run": "openai",
+    "LOCAL_STT_MODEL": "small",
+    "LOCAL_STT_COMPUTE": "int8",
+    "LOCAL_STT_DEVICE": "cpu",
+    "OPENAI_STT_MODEL": "whisper-1"
+  },
+  "backends": [
+    {
+      "backend": "local",
+      "per_clip": [
+        {
+          "clip": "q1_flp.wav",
+          "ref": "What is the foundation for liberty and prosperity?",
+          "hyp": "What is the foundation for liberty and prosperity?",
+          "ms": 59651,
+          "word_edits_vs_ref": 0,
+          "ref_word_count": 8,
+          "wer_pct": 0.0
+        },
+        {
+          "clip": "q2_baron.wav",
+          "ref": "What is baron travel?",
+          "hyp": "What is Baron Travel?",
+          "ms": 28716,
+          "word_edits_vs_ref": 0,
+          "ref_word_count": 4,
+          "wer_pct": 0.0
+        },
+        {
+          "clip": "q3_dont_know.wav",
+          "ref": "I don't know.",
+          "hyp": "I don't know.",
+          "ms": 27286,
+          "word_edits_vs_ref": 0,
+          "ref_word_count": 3,
+          "wer_pct": 0.0
+        }
+      ],
+      "first_call_ms": 59651,
+      "warm_ms_median": 28716,
+      "total_run_ms": 115656,
+      "total_word_edits": 0
+    },
+    {
+      "backend": "openai",
+      "per_clip": [
+        {
+          "clip": "q1_flp.wav",
+          "ref": "What is the foundation for liberty and prosperity?",
+          "hyp": "What is the foundation for liberty and prosperity?",
+          "ms": 95050,
+          "word_edits_vs_ref": 0,
+          "ref_word_count": 8,
+          "wer_pct": 0.0
+        },
+        {
+          "clip": "q2_baron.wav",
+          "ref": "What is baron travel?",
+          "hyp": "What is barren travel?",
+          "ms": 9754,
+          "word_edits_vs_ref": 1,
+          "ref_word_count": 4,
+          "wer_pct": 25.0
+        },
+        {
+          "clip": "q3_dont_know.wav",
+          "ref": "I don't know.",
+          "hyp": "I don't know.",
+          "ms": 11083,
+          "word_edits_vs_ref": 0,
+          "ref_word_count": 3,
+          "wer_pct": 0.0
+        }
+      ],
+      "first_call_ms": 95050,
+      "warm_ms_median": 11083,
+      "total_run_ms": 115888,
+      "total_word_edits": 1
+    }
+  ]
+}

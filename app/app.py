@@ -95,6 +95,7 @@ try:
     from voice_io import (
         estimate_voice_cost,
         sentence_chunks,
+        transcribe,
         transcribe_openai,
         tts_concatenate_parallel,
         voice_io_summary,
@@ -1080,7 +1081,7 @@ def _run_pipeline(audio_bytes: bytes, left_container, right_container) -> None:
                 # ── 1. STT ──
                 status.update(label="🎧 Transcribing your question…")
                 try:
-                    transcript = transcribe_openai(wav_path)
+                    transcript = transcribe(wav_path)
                 except Exception as e:
                     ss.error = f"Transcription failed: {type(e).__name__}: {e}"
                     _card_error(ss)

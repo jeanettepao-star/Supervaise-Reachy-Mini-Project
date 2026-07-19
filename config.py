@@ -346,8 +346,24 @@ RETRIEVAL_ARCH_VERSION: str = _env_str("CJ_RETRIEVAL_ARCH_VERSION", "w1.8-rrf-so
 # [BASELINE] Local STT model size (faster-whisper). Larger → better Tagalog
 # mix accuracy (↑latency, ↑memory); smaller → faster.
 WHISPER_MODEL_SIZE: str = _env_str("WHISPER_MODEL", "medium")
+# [BASELINE] STT backend selector — "openai" (whisper-1 cloud) or "local" (faster-
+# whisper on CPU). STT dominates the felt record-stop -> first-audio latency in the
+# v5 log (2.3-15.2x the filler-fired budget), so this switch is the biggest lever
+# left. Default = "openai" per the bench in eval/results/w3_12_stt_local_vs_openai_
+# bench.md: on the build laptop (Zen+ APU) faster-whisper small/int8/cpu warm
+# median is ~28.7s/clip vs whisper-1's ~11s/clip — openai wins on latency; local
+# wins on accuracy (0 vs 1 word edits, small SAPI sample). On the demo host or the
+# Reachy Mini Pi 5, re-bench and flip to "local" if the CPU wins. Regardless,
+# STT_BACKEND=local is the offline-ready path (no network, no API spend).
+STT_BACKEND: str = _env_str("STT_BACKEND", "openai")
 # [BASELINE] Cloud STT/TTS (voice_io.py OpenAI path).
 OPENAI_STT_MODEL: str = _env_str("OPENAI_STT_MODEL", "whisper-1")
+# Local faster-whisper knobs (used when STT_BACKEND=="local"). small/int8/cpu is
+# the demo-tested default: bench-fastest without a text-diff regression vs whisper-1
+# on the frozen 3-clip harness.
+LOCAL_STT_MODEL: str = _env_str("LOCAL_STT_MODEL", "small")
+LOCAL_STT_COMPUTE: str = _env_str("LOCAL_STT_COMPUTE", "int8")
+LOCAL_STT_DEVICE: str = _env_str("LOCAL_STT_DEVICE", "cpu")
 OPENAI_TTS_MODEL: str = _env_str("OPENAI_TTS_MODEL", "tts-1")
 OPENAI_TTS_VOICE: str = _env_str("OPENAI_TTS_VOICE", "echo")
 # TTS speed 0.25–4.0; <1 is slower (CJP's measured judicial pace).

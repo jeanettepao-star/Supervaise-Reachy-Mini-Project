@@ -95,6 +95,14 @@ def warm_pipeline():
     allow = service._allowlist("v4")
     transport = service._resolve_transport()
     client = service._client() if transport == "native_sdk" else None
+    # Warm the local STT model too (small/int8/cpu is a ~1-2s CTranslate2
+    # load from HF cache) so the FIRST question doesn't pay the cold hit
+    # after we flipped STT_BACKEND=local from the bench.
+    if (config.STT_BACKEND or "").lower() == "local":
+        try:
+            _local_stt_model()
+        except Exception:
+            pass
     return allow, transport, client
 
 
@@ -132,17 +140,51 @@ def filler_stats() -> dict:
 
 
 def stt_openai(oai, wav_bytes: bytes):
+    """Backend-switching STT for the demo wrapper.
+
+    Reads config.STT_BACKEND to pick "openai" (whisper-1 cloud, this fn's
+    original behavior) vs "local" (faster-whisper CPU). Return contract is
+    unchanged: (text, language_str, seconds). The transcript-confirm
+    handshake and downstream filler-firing path are untouched.
+    """
+    backend = (config.STT_BACKEND or "openai").lower()
     t0 = time.perf_counter()
     with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as f:
         f.write(wav_bytes); path = f.name
     try:
-        with open(path, "rb") as fh:
-            resp = oai.audio.transcriptions.create(model="whisper-1", file=fh,
-                                                   response_format="verbose_json")
+        if backend == "local":
+            from faster_whisper import WhisperModel  # lazy — first call warms cache
+            model = _local_stt_model()
+            segments, info = model.transcribe(
+                path, beam_size=1, vad_filter=False,
+            )
+            text = " ".join(s.text.strip() for s in segments).strip()
+            lang = f"{info.language} (p={info.language_probability:.2f})"
+        else:
+            with open(path, "rb") as fh:
+                resp = oai.audio.transcriptions.create(model="whisper-1", file=fh,
+                                                       response_format="verbose_json")
+            text = (getattr(resp, "text", "") or "").strip()
+            lang = getattr(resp, "language", "?")
     finally:
         Path(path).unlink(missing_ok=True)
-    return (getattr(resp, "text", "") or "").strip(), getattr(resp, "language", "?"), \
-        round(time.perf_counter() - t0, 2)
+    return text, lang, round(time.perf_counter() - t0, 2)
+
+
+# Cache the local faster-whisper model at process level; keyed on the demo
+# config so a config-driven reload (small->medium during a bench) picks up.
+_LOCAL_STT: dict = {"key": None, "model": None}
+
+
+def _local_stt_model():
+    key = (config.LOCAL_STT_MODEL, config.LOCAL_STT_COMPUTE, config.LOCAL_STT_DEVICE)
+    if _LOCAL_STT["key"] != key:
+        from faster_whisper import WhisperModel
+        _LOCAL_STT["model"] = WhisperModel(config.LOCAL_STT_MODEL,
+                                           device=config.LOCAL_STT_DEVICE,
+                                           compute_type=config.LOCAL_STT_COMPUTE)
+        _LOCAL_STT["key"] = key
+    return _LOCAL_STT["model"]
 
 
 def log_row(row: dict) -> None:

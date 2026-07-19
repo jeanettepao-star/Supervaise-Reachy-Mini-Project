@@ -195,6 +195,83 @@ def transcribe_openai(
 
 
 # ============================================================
+# Local STT — faster-whisper (CTranslate2) on CPU
+# ============================================================
+# The model is loaded lazily on first call and cached forever; a
+# fresh load costs ~1-2s for small/int8 (weights come out of the HF
+# cache) so we amortize it away from the hot path. Reloaded only if
+# (model_size, compute_type, device) changes.
+_LOCAL_STT_CACHE: dict = {"key": None, "model": None}
+
+
+def _local_stt_model(
+    model_size: str | None = None,
+    compute_type: str | None = None,
+    device: str | None = None,
+):
+    """Return a cached faster-whisper WhisperModel matching the config.
+
+    Reloading is keyed on (model_size, compute_type, device) so the
+    bench harness can spin up alternate sizes without cross-contaminating
+    the demo path's small/int8/cpu default.
+    """
+    from faster_whisper import WhisperModel  # lazy import
+    size = model_size or config.LOCAL_STT_MODEL
+    compute = compute_type or config.LOCAL_STT_COMPUTE
+    dev = device or config.LOCAL_STT_DEVICE
+    key = (size, compute, dev)
+    if _LOCAL_STT_CACHE["key"] != key:
+        _LOCAL_STT_CACHE["model"] = WhisperModel(size, device=dev, compute_type=compute)
+        _LOCAL_STT_CACHE["key"] = key
+    return _LOCAL_STT_CACHE["model"]
+
+
+def transcribe_local(
+    audio_path: str | Path,
+    model_size: str | None = None,
+    compute_type: str | None = None,
+    device: str | None = None,
+    language: Optional[str] = None,
+) -> str:
+    """Transcribe an audio file via faster-whisper (local, no network).
+
+    Same input/output contract as `transcribe_openai`: takes a path,
+    returns a trimmed transcript string. Empty string on no speech.
+
+    Called by `transcribe()` when config.STT_BACKEND == "local".
+    """
+    model = _local_stt_model(model_size, compute_type, device)
+    segments, _info = model.transcribe(
+        str(audio_path),
+        language=language,
+        beam_size=1,               # greedy: fastest, negligible WER loss on short queries
+        vad_filter=False,          # push-to-talk trims silence at the recorder; skip VAD cost
+    )
+    return " ".join(seg.text.strip() for seg in segments).strip()
+
+
+def transcribe(
+    audio_path: str | Path,
+    backend: str | None = None,
+    language: Optional[str] = None,
+) -> str:
+    """Backend-switching STT entry point.
+
+    `backend` overrides config.STT_BACKEND for a single call. Values:
+      * "openai" -> `transcribe_openai` (whisper-1 cloud)
+      * "local"  -> `transcribe_local`  (faster-whisper CPU)
+
+    Return contract is identical either way (trimmed transcript string),
+    so the caller — and the transcript-confirm handshake in the demo
+    wrapper — does not need to change.
+    """
+    chosen = (backend or config.STT_BACKEND or "openai").lower()
+    if chosen == "local":
+        return transcribe_local(audio_path, language=language)
+    return transcribe_openai(audio_path, language=language)
+
+
+# ============================================================
 # Cadence enhancement — inject reflective pauses for CJP's voice
 # ============================================================
 # CJP speaks deliberately and groups his sentences into distinct
@@ -435,7 +512,9 @@ def voice_io_summary() -> dict[str, object]:
     """Sidebar-friendly summary of the active OpenAI voice config."""
     return {
         "openai_key_present": bool(os.environ.get("OPENAI_API_KEY")),
-        "stt_model": STT_MODEL_DEFAULT,
+        "stt_backend": config.STT_BACKEND,
+        "stt_model": (STT_MODEL_DEFAULT if config.STT_BACKEND == "openai"
+                      else f"{config.LOCAL_STT_MODEL}/{config.LOCAL_STT_COMPUTE}/{config.LOCAL_STT_DEVICE}"),
         "tts_model": TTS_MODEL_DEFAULT,
         "tts_voice": TTS_VOICE_DEFAULT,
         "tts_speed": TTS_SPEED_DEFAULT,
@@ -445,7 +524,9 @@ def voice_io_summary() -> dict[str, object]:
 
 
 __all__ = [
+    "transcribe",
     "transcribe_openai",
+    "transcribe_local",
     "add_reflective_pauses",
     "sentence_chunks",
     "tts_chunks_parallel_async",
