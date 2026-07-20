@@ -122,61 +122,74 @@ def main():
         "backends": [],
     }
 
-    print("[bench] running LOCAL (faster-whisper small/int8/cpu)…")
-    results["backends"].append(_bench_backend("local", voice_io.transcribe_local))
+    # LOCAL sizes: bench BOTH `small` (the original spec) and `base` (what
+    # streamlit_voice_smoke.py loads today). `base` is ~3x smaller (74MB vs 244MB
+    # int8) and ~2-3x faster on CPU; if it clears OpenAI's warm median without a
+    # WER regression, it becomes the demo default.
+    for size in (config.LOCAL_STT_MODEL, "base") if config.LOCAL_STT_MODEL != "base" else ("base", "small"):
+        label = f"local_{size}"
+        print(f"[bench] running LOCAL (faster-whisper {size}/{config.LOCAL_STT_COMPUTE}/{config.LOCAL_STT_DEVICE})…")
+        results["backends"].append(_bench_backend(
+            label,
+            lambda p, _s=size: voice_io.transcribe_local(p, model_size=_s),
+        ))
 
     print("[bench] running OPENAI (whisper-1)…")
     results["backends"].append(_bench_backend("openai", voice_io.transcribe_openai))
 
     OUT_JSON.write_text(json.dumps(results, indent=2, ensure_ascii=False), encoding="utf-8")
 
+    backends = results["backends"]
     md = ["# STT backend bench — local (faster-whisper) vs OpenAI whisper-1",
           "", f"Harness: {results['clips_dir']}  |  clips: {', '.join(results['clips'])}  ",
-          f"Config: LOCAL={config.LOCAL_STT_MODEL}/{config.LOCAL_STT_COMPUTE}/{config.LOCAL_STT_DEVICE} · OPENAI={config.OPENAI_STT_MODEL}",
+          f"Config: LOCAL sizes benched = {', '.join(b['backend'] for b in backends if b['backend'].startswith('local'))} "
+          f"({config.LOCAL_STT_COMPUTE}/{config.LOCAL_STT_DEVICE}) · OPENAI={config.OPENAI_STT_MODEL}",
           "",
           "Bench clips are Windows-SAPI stand-ins (scripts/gen_stt_bench_clips.ps1); "
-          "they are robotic-timbred and slightly favor accuracy over natural-speech "
-          "latency on both engines. Re-run on human clips before making a hardware-",
-          "specific final call.",
-          "", "## Per-clip transcription (ms) and text diff",
-          "", "| clip | ref | local_ms | local_hyp | oai_ms | oai_hyp |",
-          "|---|---|---|---|---|---|"]
-    local, oai = results["backends"]
-    for lc, oc in zip(local["per_clip"], oai["per_clip"]):
-        md.append(
-            f"| {lc['clip']} | {lc['ref']} | **{lc['ms']}** | {lc['hyp']} | **{oc['ms']}** | {oc['hyp']} |")
-    md += ["", "## Summary",
-           "",
-           f"- **local (faster-whisper {config.LOCAL_STT_MODEL}/{config.LOCAL_STT_COMPUTE}/{config.LOCAL_STT_DEVICE})**: "
-           f"first-call {local['first_call_ms']}ms (cold CT2 load), "
-           f"warm median {local['warm_ms_median']}ms, total edits {local['total_word_edits']}",
-           f"- **openai (whisper-1 cloud)**: first-call {oai['first_call_ms']}ms, "
-           f"warm median {oai['warm_ms_median']}ms, total edits {oai['total_word_edits']}",
-           ""]
-    winner = "local" if local["warm_ms_median"] < oai["warm_ms_median"] else "openai"
-    md.append(f"**Warm-median latency winner (Q2+ felt): `{winner}`.**  "
-              f"Accuracy: local={local['total_word_edits']} vs openai={oai['total_word_edits']} "
-              "total word edits (SAPI harness — small sample).")
+          "robotic-timbred, so latency numbers here are conservative vs natural speech.",
+          "", "## Per-clip transcription (ms) and text diff", ""]
+    header = "| clip | ref | " + " | ".join(f"{b['backend']}_ms | {b['backend']}_hyp" for b in backends) + " |"
+    sep = "|---|---|" + "|".join(["---|---"] * len(backends)) + "|"
+    md += [header, sep]
+    for i, (fname, ref) in enumerate(CLIPS):
+        row = [fname, ref]
+        for b in backends:
+            row.extend([f"**{b['per_clip'][i]['ms']}**", b['per_clip'][i]['hyp']])
+        md.append("| " + " | ".join(row) + " |")
+
+    md += ["", "## Summary", ""]
+    for b in backends:
+        md.append(f"- **{b['backend']}**: first-call {b['first_call_ms']}ms, "
+                  f"warm median {b['warm_ms_median']}ms, total edits {b['total_word_edits']}")
+
+    winner_by_lat = min(backends, key=lambda b: b['warm_ms_median'])
+    winner_by_acc = min(backends, key=lambda b: b['total_word_edits'])
     md += ["",
+           f"**Warm-median latency winner (Q2+ felt): `{winner_by_lat['backend']}` "
+           f"@ {winner_by_lat['warm_ms_median']}ms**",
+           f"**Accuracy winner (fewest edits): `{winner_by_acc['backend']}` "
+           f"@ {winner_by_acc['total_word_edits']} edits**",
+           "",
            "## Config default disposition",
            "",
-           f"Per the task rule (\"if local wins, leave STT_BACKEND=local\"): the bench",
-           f"outcome above sets `config.STT_BACKEND`'s shipping default. This bench",
-           f"was run on the build laptop (Zen+ APU per CLAUDE.md); the local warm",
-           f"median may drop below OpenAI on a faster CPU (Reachy Mini Pi 5, modern",
-           f"demo host) — re-bench there before the final flip.",
+           f"Per the task rule (\"if local wins, leave STT_BACKEND=local\"):",
+           f"latency winner = `{winner_by_lat['backend']}`. If a local size beats",
+           "openai's warm median without a WER regression, flip config.STT_BACKEND",
+           "to `local` and set LOCAL_STT_MODEL to that size.",
            "",
            "## MC#8 preemption (delivery week)",
            "",
-           "Regardless of the latency winner, `STT_BACKEND=local` now unblocks the",
-           "offline-ready path: the demo can transcribe with zero network + zero API",
-           "spend by flipping one env var, so a Wi-Fi/API outage during delivery week",
-           "cannot brick the STT stage. Same transcript-confirm contract, filler",
-           "sequencer untouched.",
+           "Regardless of the latency winner, `STT_BACKEND=local` unblocks the",
+           "offline-ready path: transcribe with zero network + zero API spend via",
+           "one env flip, so a Wi-Fi/API outage during delivery week cannot brick",
+           "the STT stage. Same transcript-confirm contract; filler untouched.",
            ""]
     OUT_MD.write_text("\n".join(md), encoding="utf-8")
     print(f"[bench] wrote {OUT_JSON.name}, {OUT_MD.name}")
-    print(f"[bench] warm-median: local={local['warm_ms_median']}ms  openai={oai['warm_ms_median']}ms  -> winner={winner}")
+    for b in backends:
+        print(f"[bench] {b['backend']:<14} warm={b['warm_ms_median']}ms  edits={b['total_word_edits']}")
+    print(f"[bench] winner (latency): {winner_by_lat['backend']} @ {winner_by_lat['warm_ms_median']}ms  "
+          f"| winner (accuracy): {winner_by_acc['backend']} @ {winner_by_acc['total_word_edits']} edits")
 
 
 if __name__ == "__main__":

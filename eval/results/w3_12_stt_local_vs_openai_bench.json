@@ -15,13 +15,13 @@
   },
   "backends": [
     {
-      "backend": "local",
+      "backend": "local_small",
       "per_clip": [
         {
           "clip": "q1_flp.wav",
           "ref": "What is the foundation for liberty and prosperity?",
           "hyp": "What is the foundation for liberty and prosperity?",
-          "ms": 59651,
+          "ms": 83928,
           "word_edits_vs_ref": 0,
           "ref_word_count": 8,
           "wer_pct": 0.0
@@ -30,7 +30,7 @@
           "clip": "q2_baron.wav",
           "ref": "What is baron travel?",
           "hyp": "What is Baron Travel?",
-          "ms": 28716,
+          "ms": 28917,
           "word_edits_vs_ref": 0,
           "ref_word_count": 4,
           "wer_pct": 0.0
@@ -39,15 +39,51 @@
           "clip": "q3_dont_know.wav",
           "ref": "I don't know.",
           "hyp": "I don't know.",
-          "ms": 27286,
+          "ms": 27153,
           "word_edits_vs_ref": 0,
           "ref_word_count": 3,
           "wer_pct": 0.0
         }
       ],
-      "first_call_ms": 59651,
-      "warm_ms_median": 28716,
-      "total_run_ms": 115656,
+      "first_call_ms": 83928,
+      "warm_ms_median": 28917,
+      "total_run_ms": 139999,
+      "total_word_edits": 0
+    },
+    {
+      "backend": "local_base",
+      "per_clip": [
+        {
+          "clip": "q1_flp.wav",
+          "ref": "What is the foundation for liberty and prosperity?",
+          "hyp": "What is the foundation for liberty and prosperity?",
+          "ms": 9659,
+          "word_edits_vs_ref": 0,
+          "ref_word_count": 8,
+          "wer_pct": 0.0
+        },
+        {
+          "clip": "q2_baron.wav",
+          "ref": "What is baron travel?",
+          "hyp": "What is Baron Travel?",
+          "ms": 7681,
+          "word_edits_vs_ref": 0,
+          "ref_word_count": 4,
+          "wer_pct": 0.0
+        },
+        {
+          "clip": "q3_dont_know.wav",
+          "ref": "I don't know.",
+          "hyp": "I don't know.",
+          "ms": 7471,
+          "word_edits_vs_ref": 0,
+          "ref_word_count": 3,
+          "wer_pct": 0.0
+        }
+      ],
+      "first_call_ms": 9659,
+      "warm_ms_median": 7681,
+      "total_run_ms": 24813,
       "total_word_edits": 0
     },
     {
@@ -57,7 +93,7 @@
           "clip": "q1_flp.wav",
           "ref": "What is the foundation for liberty and prosperity?",
           "hyp": "What is the foundation for liberty and prosperity?",
-          "ms": 95050,
+          "ms": 14597,
           "word_edits_vs_ref": 0,
           "ref_word_count": 8,
           "wer_pct": 0.0
@@ -66,7 +102,7 @@
           "clip": "q2_baron.wav",
           "ref": "What is baron travel?",
           "hyp": "What is barren travel?",
-          "ms": 9754,
+          "ms": 1633,
           "word_edits_vs_ref": 1,
           "ref_word_count": 4,
           "wer_pct": 25.0
@@ -75,15 +111,15 @@
           "clip": "q3_dont_know.wav",
           "ref": "I don't know.",
           "hyp": "I don't know.",
-          "ms": 11083,
+          "ms": 3047,
           "word_edits_vs_ref": 0,
           "ref_word_count": 3,
           "wer_pct": 0.0
         }
       ],
-      "first_call_ms": 95050,
-      "warm_ms_median": 11083,
-      "total_run_ms": 115888,
+      "first_call_ms": 14597,
+      "warm_ms_median": 3047,
+      "total_run_ms": 19279,
       "total_word_edits": 1
     }
   ]

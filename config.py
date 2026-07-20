@@ -349,19 +349,20 @@ WHISPER_MODEL_SIZE: str = _env_str("WHISPER_MODEL", "medium")
 # [BASELINE] STT backend selector — "openai" (whisper-1 cloud) or "local" (faster-
 # whisper on CPU). STT dominates the felt record-stop -> first-audio latency in the
 # v5 log (2.3-15.2x the filler-fired budget), so this switch is the biggest lever
-# left. Default = "openai" per the bench in eval/results/w3_12_stt_local_vs_openai_
-# bench.md: on the build laptop (Zen+ APU) faster-whisper small/int8/cpu warm
-# median is ~28.7s/clip vs whisper-1's ~11s/clip — openai wins on latency; local
-# wins on accuracy (0 vs 1 word edits, small SAPI sample). On the demo host or the
-# Reachy Mini Pi 5, re-bench and flip to "local" if the CPU wins. Regardless,
-# STT_BACKEND=local is the offline-ready path (no network, no API spend).
+# left. Default = "openai" per the demo-host re-bench in
+# eval/results/w3_12_stt_local_vs_openai_bench.md: on the build/demo host (Ryzen 7
+# 3750H, Zen+ APU) whisper-1 warm-median is ~3.0s/clip vs faster-whisper
+# base/int8/cpu at ~7.7s — openai wins on latency. Local wins on accuracy (0 vs 1
+# word edit on the SAPI sample; "baron" -> "barren" on openai). STT_BACKEND=local
+# remains the OFFLINE-READY path (no network, no API spend) — one env flip.
 STT_BACKEND: str = _env_str("STT_BACKEND", "openai")
 # [BASELINE] Cloud STT/TTS (voice_io.py OpenAI path).
 OPENAI_STT_MODEL: str = _env_str("OPENAI_STT_MODEL", "whisper-1")
-# Local faster-whisper knobs (used when STT_BACKEND=="local"). small/int8/cpu is
-# the demo-tested default: bench-fastest without a text-diff regression vs whisper-1
-# on the frozen 3-clip harness.
-LOCAL_STT_MODEL: str = _env_str("LOCAL_STT_MODEL", "small")
+# Local faster-whisper knobs (used when STT_BACKEND=="local"). base/int8/cpu is
+# the recommended local default per the re-bench: 3.75x faster than small
+# (7.7s vs 28.9s warm median on this host) at zero accuracy cost on the SAPI
+# harness. Matches the size streamlit_voice_smoke.py already loads.
+LOCAL_STT_MODEL: str = _env_str("LOCAL_STT_MODEL", "base")
 LOCAL_STT_COMPUTE: str = _env_str("LOCAL_STT_COMPUTE", "int8")
 LOCAL_STT_DEVICE: str = _env_str("LOCAL_STT_DEVICE", "cpu")
 OPENAI_TTS_MODEL: str = _env_str("OPENAI_TTS_MODEL", "tts-1")

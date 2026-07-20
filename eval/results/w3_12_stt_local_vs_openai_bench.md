@@ -1,29 +1,37 @@
 # STT backend bench — local (faster-whisper) vs OpenAI whisper-1
 
 Harness: eval/results/stt_bench_clips  |  clips: q1_flp.wav, q2_baron.wav, q3_dont_know.wav  
-Config: LOCAL=small/int8/cpu · OPENAI=whisper-1
+Config: LOCAL sizes benched = local_small, local_base (int8/cpu) · OPENAI=whisper-1
 
-Bench clips are Windows-SAPI stand-ins (scripts/gen_stt_bench_clips.ps1); they are robotic-timbred and may inflate latency on both engines vs natural speech. Re-run on human clips before making a hardware-specific final call.
+Bench clips are Windows-SAPI stand-ins (scripts/gen_stt_bench_clips.ps1); robotic-timbred, so latency numbers here are conservative vs natural speech.
 
 ## Per-clip transcription (ms) and text diff
 
-| clip | ref | local_ms | local_hyp | oai_ms | oai_hyp |
-|---|---|---|---|---|---|
-| q1_flp.wav | What is the foundation for liberty and prosperity? | **59651** | What is the foundation for liberty and prosperity? | **95050** | What is the foundation for liberty and prosperity? |
-| q2_baron.wav | What is baron travel? | **28716** | What is Baron Travel? | **9754** | What is barren travel? |
-| q3_dont_know.wav | I don't know. | **27286** | I don't know. | **11083** | I don't know. |
+| clip | ref | local_small_ms | local_small_hyp | local_base_ms | local_base_hyp | openai_ms | openai_hyp |
+|---|---|---|---|---|---|---|---|
+| q1_flp.wav | What is the foundation for liberty and prosperity? | **83928** | What is the foundation for liberty and prosperity? | **9659** | What is the foundation for liberty and prosperity? | **14597** | What is the foundation for liberty and prosperity? |
+| q2_baron.wav | What is baron travel? | **28917** | What is Baron Travel? | **7681** | What is Baron Travel? | **1633** | What is barren travel? |
+| q3_dont_know.wav | I don't know. | **27153** | I don't know. | **7471** | I don't know. | **3047** | I don't know. |
 
 ## Summary
 
-- **local (faster-whisper small/int8/cpu)**: first-call 59651ms (cold CT2 load), warm median 28716ms, total edits 0
-- **openai (whisper-1 cloud)**: first-call 95050ms, warm median 11083ms, total edits 1
+- **local_small**: first-call 83928ms, warm median 28917ms, total edits 0
+- **local_base**: first-call 9659ms, warm median 7681ms, total edits 0
+- **openai**: first-call 14597ms, warm median 3047ms, total edits 1
 
-**Warm-median latency winner (Q2+ felt): `openai`.**  Accuracy: local=0 vs openai=1 total word edits (SAPI harness — small sample).
+**Warm-median latency winner (Q2+ felt): `openai` @ 3047ms**
+**Accuracy winner (fewest edits): `local_small` @ 0 edits**
 
 ## Config default disposition
 
-Per the task rule ("if local wins, leave STT_BACKEND=local"): the bench outcome above sets config.STT_BACKEND's shipping default. This bench was run on the build laptop (Zen+ APU per CLAUDE.md); the local warm median may drop below OpenAI on a faster CPU (Reachy Mini Pi 5, modern demo host) — re-bench there before the final flip.
+Per the task rule ("if local wins, leave STT_BACKEND=local"):
+latency winner = `openai`. If a local size beats
+openai's warm median without a WER regression, flip config.STT_BACKEND
+to `local` and set LOCAL_STT_MODEL to that size.
 
 ## MC#8 preemption (delivery week)
 
-Regardless of the latency winner, STT_BACKEND=local now unblocks the offline-ready path: the demo can transcribe with zero network + zero API spend by flipping one env var, so a Wi-Fi/API outage during delivery week cannot brick the STT stage. Same transcript-confirm contract, filler sequencer untouched.
+Regardless of the latency winner, `STT_BACKEND=local` unblocks the
+offline-ready path: transcribe with zero network + zero API spend via
+one env flip, so a Wi-Fi/API outage during delivery week cannot brick
+the STT stage. Same transcript-confirm contract; filler untouched.
