@@ -77,11 +77,24 @@
     const tAudibleEpochMs = Date.now() + Math.max(0, (start - ctx.currentTime)) * 1000;
     played.push({i:i, gap_ms: Math.round(gapMs), t_audible_epoch_ms: Math.round(tAudibleEpochMs)});
     stat.textContent = "playing chunk " + (i+1) + " (seam " + Math.round(gapMs) + "ms)";
-    setValue({played: played});
+    postPlayed();                                           // [Phase 2c] batched, not per-item
+  }
+
+  // [Phase 2c · T2.1] Batch the postback. setComponentValue() triggers a full Streamlit
+  // rerun; posting once per scheduled chunk churns reruns (a likely remount trigger under
+  // multi-turn use). Coalesce a burst of schedules into ONE post per tick.
+  let postScheduled = false;
+  function postPlayed(){
+    if (postScheduled) return;
+    postScheduled = true;
+    setTimeout(() => { postScheduled = false; setValue({played: played}); }, 50);
   }
 
   let draining = false;
   function drain(){
+    // [Phase 2c · T2.3] A rerun can leave the AudioContext SUSPENDED — enqueues then
+    // "succeed" while nothing sounds. Resume before draining, then re-drain.
+    if (ctx && ctx.state === "suspended") { ctx.resume().then(drain).catch(()=>{}); return; }
     // STRICT INDEX ORDER: decode + schedule chunk `expected`, and only then move to
     // expected+1. The old code fired decodeAudioData for several chunks concurrently
     // inside a while-loop and scheduled them in DECODE-COMPLETION order — so a
@@ -114,6 +127,15 @@
       seen.add(c.i);
       pending.set(c.i, {buf: b64ToArrayBuffer(c.b64), fmt: c.fmt || "mp3", sr: c.sr || 24000});
     }
+    // [Phase 2c · S1 fix] Recover from a mid-session iframe REMOUNT / stale state. The
+    // host's chunk indices climb across turns; a remounted component restarts at
+    // expected=0 and would wait forever for indices 0..N that are never re-sent -> ALL
+    // audio dies from that point. The host passes the CURRENT turn's base index; never
+    // wait for anything below it. Clamp FORWARD only: within-turn holes (expected >= base)
+    // still wait for their fill (the server Q2 watchdog re-sends them), so strict order
+    // and gaplessness are preserved. In normal operation expected already == base -> no-op.
+    const base = (d.args && typeof d.args.base === "number") ? d.args.base : 0;
+    if (expected < base) { expected = base; }
     if ((!ctx || ctx.state !== "running") && pending.size) {
       // Always attempt auto-resume — the record-click activation propagates to this
       // same-origin iframe, so no dedicated "Enable audio" click is needed. The button

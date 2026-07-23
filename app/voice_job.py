@@ -107,6 +107,7 @@ def _emit_trace(job):
             "t_filler1_audible": job.get("t_filler1_audible"),
             "t_first_content_audible": job.get("t_first_content_audible"),
             "audible_onset_observable": bool(job.get("audible_onset_observable")),
+            "turn_state_reset": bool(job.get("turn_state_reset")),
             "filler1_fired": filler1_fired,
             "filler1_clip_id": job.get("filler_clip_id"),
             "t_filler1_play_start": _rel(job, place.get("t_first_filler")),   # ENQUEUE ts, NOT audible
@@ -389,6 +390,11 @@ def start_job(q, mode, stt_s, oai, allow, client, voice, base_idx,
         job["t_filler1_audible"] = None
         job["t_first_content_audible"] = None
         job["audible_onset_observable"] = False
+        # [PHASE-2c · T5] Per-turn state reset. Every turn is a fresh job dict, so the
+        # "answer audio already enqueued" flag (first_chunk_ready_s) and the dead-air
+        # watchdog arm state start clean — no stale cross-turn state can suppress a
+        # later turn's filler. Logged so multi-turn debugging can rule this out at a glance.
+        job["turn_state_reset"] = True
     except Exception:
         pass
 

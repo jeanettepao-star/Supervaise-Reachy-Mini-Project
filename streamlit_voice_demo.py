@@ -374,7 +374,10 @@ if mode == "TEST" and ss.pending and not busy:
 # ---------- live view + PERSISTENT gapless player (stable key -> iframe survives reruns) ----------
 job = ss.job
 chunks_now = list(job["chunks"]) if job else []
-player_val = gapless(chunks=chunks_now, key="gapless_player", default=None)
+# [Phase 2c] pass the current turn's base index so the player can recover from a mid-session
+# remount (expected resets to 0, but the host's indices have climbed) — see index.html.
+player_val = gapless(chunks=chunks_now, base=(job["base"] if job else 0),
+                     key="gapless_player", default=None)
 gaps_by_idx = {p["i"]: p["gap_ms"] for p in (player_val or {}).get("played", [])}
 # [Task 3] browser-reported playback-start (Date.now epoch ms) per played chunk
 aud_by_idx = {p["i"]: p["t_audible_epoch_ms"] for p in (player_val or {}).get("played", [])
