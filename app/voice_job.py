@@ -39,6 +39,119 @@ import retrieval
 import service
 import voice_stream
 
+# ===================== [PHASE-1 DIAGNOSIS TELEMETRY 2026-07-24 — ADDITIVE, BEHAVIOR-PRESERVING] =====================
+# One JSON record per turn, appended to eval/results/filler_v5_trace_2026-07-24.jsonl.
+# Every value is read from the job dict (already populated by the sequencer) plus a
+# handful of ADDITIVE perf_counter anchors captured in run()/fillers()/_maybe_topic.
+# All timestamps share ONE monotonic clock (job["t_confirm"] via time.perf_counter())
+# anchored to a single wall-clock epoch (job["wall_epoch"]) recorded once per turn.
+# Emission is FULLY wrapped in try/except so a telemetry failure can NEVER alter a
+# turn's control flow (boundary rule 5): the try/except is around the EMISSION only,
+# never around the code being observed. Disable with CJ_FILLER_TRACE=0.
+import datetime as _dt   # noqa: E402
+import os as _os         # noqa: E402
+
+_TRACE_ENABLED = _os.environ.get("CJ_FILLER_TRACE", "1") not in ("0", "false", "False", "no")
+_TRACE_PATH = _os.environ.get(
+    "CJ_FILLER_TRACE_PATH",
+    str(config.REPO_ROOT / "eval" / "results" / "filler_v5_trace_2026-07-24.jsonl"))
+
+
+def _rel(job, t):
+    """A perf_counter timestamp -> seconds since transcript-confirm (or None). Guarded."""
+    try:
+        return None if t is None else round(t - job["t_confirm"], 4)
+    except Exception:
+        return None
+
+
+def _emit_trace(job):
+    """Append ONE turn's telemetry record. Fully guarded — never raises into run()."""
+    if not _TRACE_ENABLED:
+        return
+    try:
+        dec = job.get("filler_decision") or {}
+        place = job.get("_place") or {}
+        rt = job.get("route") or {}                     # {full ri} on error, {top_topic,cos} on success
+        route_topic = rt.get("top_topic") if isinstance(rt, dict) else None
+        filler1_fired = bool(job.get("filler_clip_id"))
+        filler2_attempted = bool(dec.get("topic_gated"))
+        if job.get("topic_used"):                       # filler-2 absent-reason (never silently missing)
+            filler2_absent = None
+        elif job.get("topic_skipped"):
+            filler2_absent = job["topic_skipped"]
+        elif dec.get("use_neutral"):
+            filler2_absent = f"theme_gate_failed:{dec.get('reason')}"
+        elif dec and not filler2_attempted:
+            filler2_absent = f"topic_not_gated:{dec.get('reason')}"
+        else:
+            filler2_absent = "no_decision"
+        rec = {
+            "turn_id": job.get("turn_id"),
+            "wall_clock_epoch": job.get("wall_epoch"),
+            "question_index": job.get("question_index"),
+            "route_topic": route_topic,
+            "route_latency_ms": job.get("route_latency_ms"),
+            "router_margin": dec.get("topic_margin"),
+            "warm_pipeline_ran": job.get("warm_pipeline_ran"),
+            "gate_inputs": {"margin": dec.get("topic_margin"),
+                            "content_ready_at_decision": job.get("content_ready_at_decision")},
+            "gate_decision": (None if not dec else "neutral" if dec.get("use_neutral") else "theme"),
+            "gate_reason": dec.get("reason"),
+            "filler1_fired": filler1_fired,
+            "filler1_clip_id": job.get("filler_clip_id"),
+            "t_filler1_play_start": _rel(job, place.get("t_first_filler")),   # ENQUEUE ts, NOT audible
+            "filler2_attempted": filler2_attempted,
+            "filler2_cache_hit": job.get("cache_hit"),
+            "filler2_cache_key": job.get("_topic_cache_key"),
+            "filler2_synth_ms": job.get("_topic_synth_ms"),
+            "t_filler2_play_start": _rel(job, place.get("t_topic")),          # ENQUEUE ts, NOT audible
+            "filler2_absent_reason": filler2_absent,
+            "t_transcript_confirm": 0.0,                 # the monotonic anchor (all t_* are relative to it)
+            "t_compose_request": job.get("_t_compose_request"),
+            "t_first_token": job.get("_t_first_token"),
+            "t_first_content_chunk_enqueued": _rel(job, place.get("t_first_content")),
+            "t_first_content_play_start": None,          # see play_start_observable
+            "play_start_observable": bool(job.get("_play_start_observable", False)),
+            "compose_path": job.get("_compose_path"),
+            "retry_count": job.get("_retry_count"),
+            "stt_model_used": job.get("_stt_model_used"),
+            "tts_engine_used": job.get("_tts_engine_used"),
+            "tts_voice_used": job.get("_tts_voice_used"),
+            "tts_model_used": job.get("_tts_model_used"),
+            "q2_watchdog_fill_fired": bool(job.get("watchdog_backfills")),
+            "ttft_ms": job.get("_t_first_token"),
+            "cost_usd_if_available": job.get("_cost_usd"),
+            # ---- additive diagnostic context (beyond the mandated field list) ----
+            "_chain": "-".join(job.get("chain", [])),
+            "_route_confidence": job.get("route_confidence"),
+            "_fallback_used": job.get("fallback_used"),
+            "_route_got_in_window": job.get("_route_got"),
+            "_first_chunk_ready_s": job.get("first_chunk_ready_s"),
+            "_silence_gap_ms": job.get("silence_gap_ms"),
+            "_status": job.get("status"),
+            "_error": job.get("error"),
+            "_queue": {"reserved": job.get("queue_reserved"),
+                       "submitted": job.get("queue_submitted"),
+                       "released": job.get("queue_released"),
+                       "backfills": len(job.get("watchdog_backfills") or [])},
+            "_stt_reason": job.get("_stt_reason"),
+            "_compose_reason": job.get("_compose_reason"),
+            "_cost_reason": job.get("_cost_reason"),
+            "_embed_device": getattr(config, "EMBED_DEVICE", None),
+            "_filler_route_wait_ms": getattr(config, "FILLER_ROUTE_WAIT_MS", None),
+        }
+        with open(_TRACE_PATH, "a", encoding="utf-8") as fh:
+            fh.write(json.dumps(rec, ensure_ascii=False, default=str) + "\n")
+    except Exception:
+        pass
+
+
+# Optional flag a driver (Streamlit wrapper / harness) may set to record whether the
+# boot warm-inference actually ran before this turn. None = unknown from inside start_job.
+_WARM_RAN = None
+# ===================================================================================================================
+
 SESSION_IDLE_RESET_S = 120        # new visitor after 120s idle -> fresh deck
 MAX_FILLERS_PER_TURN = 2          # v5: THEME (+ optional TOPIC). No extenders.
 FILLER_TTS_SPEED = 1.25           # match the pre-synth theme-clip pace (gen_v5_theme_clips.py)
@@ -227,6 +340,40 @@ def start_job(q, mode, stt_s, oai, allow, client, voice, base_idx,
            "queue_reserved": 0, "queue_submitted": 0, "queue_released": 0,
            "watchdog_backfills": [], "synth_errors": []}
 
+    # ---- [PHASE-1 TELEMETRY] additive anchors (do NOT feed the sequencer; read-only labels) ----
+    try:
+        _now = _dt.datetime.now()
+        job["wall_epoch"] = _now.isoformat(timespec="milliseconds")
+        job["turn_id"] = f"{_now.strftime('%Y%m%dT%H%M%S')}-t{seq_state.get('turn')}"
+        job["question_index"] = seq_state.get("turn")
+        job["warm_pipeline_ran"] = _WARM_RAN
+        # tts_*_used: the LITERAL call-site args in synth_mp3/synth_stream (model="tts-1",
+        # voice=<voice>); logged whether or not a real TTS call is made this turn.
+        job["_tts_engine_used"] = "openai"
+        job["_tts_model_used"] = "tts-1"
+        job["_tts_voice_used"] = voice
+        # stt: runs UPSTREAM in the demo wrapper (whisper-1 | local faster-whisper), never
+        # inside start_job. Log the configured call-site model, reason-coded.
+        _sttb = (getattr(config, "STT_BACKEND", "openai") or "openai").lower()
+        job["_stt_model_used"] = "whisper-1" if _sttb == "openai" else getattr(config, "LOCAL_STT_MODEL", None)
+        job["_stt_reason"] = "configured call-site value; STT executes upstream in the demo wrapper, not in start_job"
+        # placeholders resolved during run() (null + reason if the path never sets them)
+        job["_t_compose_request"] = None
+        job["_t_first_token"] = None
+        job["_compose_path"] = None
+        job["_compose_reason"] = None
+        job["_retry_count"] = None
+        job["_cost_usd"] = None
+        job["_cost_reason"] = None
+        job["content_ready_at_decision"] = None
+        job["_route_got"] = None
+        job["route_latency_ms"] = None
+        job["_topic_cache_key"] = None
+        job["_topic_synth_ms"] = None
+        job["_play_start_observable"] = False   # no audible-play event server-side (enqueue-only)
+    except Exception:
+        pass
+
     # ---- reservation-tracked index queue (Q2-SEV INVARIANT) ----
     # Every reserved index MUST be resolved: filled with real audio, or released with a
     # silent backfill. A hole can DELAY audio (until the watchdog/error-path backfills)
@@ -280,7 +427,9 @@ def start_job(q, mode, stt_s, oai, allow, client, voice, base_idx,
             theme_placed = threading.Event()        # set after THEME/NEUTRAL clip is placed
             topic_resolved = threading.Event()      # set after TOPIC is placed OR skipped
             first_content = threading.Event()       # set when the 1st content sentence submits
-            place = {"filler_secs": 0.0, "t_first_filler": None, "t_first_content": None}
+            place = {"filler_secs": 0.0, "t_first_filler": None, "t_first_content": None,
+                     "t_topic": None}   # t_topic: [telemetry] topic-clip ENQUEUE ts
+            job["_place"] = place       # [telemetry] expose the timing dict to _emit_trace
 
             job["gate"] = gate_fn(q)
 
@@ -299,6 +448,11 @@ def start_job(q, mode, stt_s, oai, allow, client, voice, base_idx,
                 job["filler_decision"] = dec
                 job["route_confidence"] = dec.get("theme_conf")
                 job["topic_margin"] = dec.get("topic_margin")
+                try:                                     # [telemetry] additive, guarded
+                    job["_route_got"] = got
+                    job["content_ready_at_decision"] = first_content.is_set()
+                except Exception:
+                    pass
 
                 # THEME (or NEUTRAL) clip
                 if dec["use_neutral"]:
@@ -338,6 +492,11 @@ def start_job(q, mode, stt_s, oai, allow, client, voice, base_idx,
                     tidx = tdeck.deal()
                     if tidx is None:
                         return
+                    try:                                 # [telemetry] exact filler-2 cache key (guarded)
+                        job["_topic_cache_key"] = str(_topic_cache_path(voice, dec["topic_id"], tidx))
+                    except Exception:
+                        pass
+                    _t_topic_synth = time.perf_counter()
                     fut = pool.submit(synth_topic, oai, voice, dec["topic_id"], tidx, dec["topic_spoken"])
                     theme_dur = place["filler_secs"] or 4.5
                     deadline = time.perf_counter() + theme_dur
@@ -354,6 +513,11 @@ def start_job(q, mode, stt_s, oai, allow, client, voice, base_idx,
                         job["topic_skipped"] = "content_ready_gate_d"; return
                     cid = f"topic_{re.sub(r'[^A-Za-z0-9]+','_',dec['topic_id']).strip('_')}_t{tidx + 1}"
                     _push(cid, audio, fmt)
+                    try:                                 # [telemetry] additive, guarded
+                        place["t_topic"] = time.perf_counter()
+                        job["_topic_synth_ms"] = round((time.perf_counter() - _t_topic_synth) * 1000)
+                    except Exception:
+                        pass
                     place["filler_secs"] += secs
                     job["chain"].append("P")
                     job["n_fillers"] += 1
@@ -455,12 +619,31 @@ def start_job(q, mode, stt_s, oai, allow, client, voice, base_idx,
                     submit(sent)
 
             # ---------- retrieval (route first, signalled early) + compose ----------
+            _t_route = time.perf_counter()               # [telemetry] route-latency bracket (call unchanged)
             ri = route_fn(q)
+            try:
+                job["route_latency_ms"] = round((time.perf_counter() - _t_route) * 1000, 2)
+            except Exception:
+                pass
             job["route"] = ri
             route_evt.set()
             rr = retrieve_fn(q, allow, ri)
             directives = service._directives(q, ri)
+            try:                                         # [telemetry] compose-request anchor
+                job["_t_compose_request"] = round(time.perf_counter() - job["t_confirm"], 4)
+            except Exception:
+                pass
             comp = compose_fn(q, rr["selected"], directives, client=client, on_text=on_text)
+            try:                                         # [telemetry] compose result (guarded)
+                job["_t_first_token"] = comp.get("ttft_ms")
+                job["_compose_path"] = ("degraded" if comp.get("degraded")
+                                        else "retried" if comp.get("expanded") else "normal")
+                if comp.get("degraded"):
+                    job["_compose_reason"] = comp.get("error") or "degraded_fallback"
+                if comp.get("usage") is None:
+                    job["_cost_reason"] = "no usage object (stubbed compose or curl transport)"
+            except Exception:
+                pass
             for sent in chunker.flush():
                 submit(sent)
             if comp["degraded"] and comp["answer"]:
@@ -484,6 +667,7 @@ def start_job(q, mode, stt_s, oai, allow, client, voice, base_idx,
             job["error"] = f"{type(e).__name__}: {e}"
         finally:
             job["done"] = True
+            _emit_trace(job)                             # [telemetry] one record per turn (fully guarded)
 
     threading.Thread(target=run, daemon=True).start()
     return job
