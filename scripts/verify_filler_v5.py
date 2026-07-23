@@ -18,6 +18,9 @@ import config
 config.FILLER_V5_ENABLED = True
 config.STREAM_TTS_ENABLED = False
 config.FILLER_ROUTE_WAIT_MS = 300
+# This harness exercises the legacy GATED theme/topic sequencer; Phase-2's gate
+# inversion made FILLER_FIRE_MODE=unconditional the demo default, so force gated here.
+config.FILLER_FIRE_MODE = "gated"
 import filler_route
 # This harness verifies the THEME/TOPIC sequencer path, so force SUBJECT_FREE_MODE off
 # regardless of the demo default (Option D ships it ON). A dedicated subject-free check

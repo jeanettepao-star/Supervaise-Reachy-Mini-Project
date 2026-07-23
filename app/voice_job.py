@@ -96,8 +96,17 @@ def _emit_trace(job):
             "warm_pipeline_ran": job.get("warm_pipeline_ran"),
             "gate_inputs": {"margin": dec.get("topic_margin"),
                             "content_ready_at_decision": job.get("content_ready_at_decision")},
-            "gate_decision": (None if not dec else "neutral" if dec.get("use_neutral") else "theme"),
+            "gate_decision": ("bypassed" if job.get("fire_mode") == "unconditional"
+                              else None if not dec else "neutral" if dec.get("use_neutral") else "theme"),
             "gate_reason": dec.get("reason"),
+            "fire_mode": job.get("fire_mode"),
+            "t_filler_fire_call": job.get("t_filler_fire_call"),
+            "filler_fire_exception": job.get("filler_fire_exception"),
+            "deadair_watchdog_armed": bool(job.get("deadair_watchdog_armed")),
+            "deadair_watchdog_fired": bool(job.get("deadair_watchdog_fired")),
+            "t_filler1_audible": job.get("t_filler1_audible"),
+            "t_first_content_audible": job.get("t_first_content_audible"),
+            "audible_onset_observable": bool(job.get("audible_onset_observable")),
             "filler1_fired": filler1_fired,
             "filler1_clip_id": job.get("filler_clip_id"),
             "t_filler1_play_start": _rel(job, place.get("t_first_filler")),   # ENQUEUE ts, NOT audible
@@ -371,6 +380,15 @@ def start_job(q, mode, stt_s, oai, allow, client, voice, base_idx,
         job["_topic_cache_key"] = None
         job["_topic_synth_ms"] = None
         job["_play_start_observable"] = False   # no audible-play event server-side (enqueue-only)
+        # [PHASE-2 FIX] gate-inversion + dead-air watchdog + audible-onset fields
+        job["fire_mode"] = None
+        job["t_filler_fire_call"] = None
+        job["filler_fire_exception"] = None
+        job["deadair_watchdog_armed"] = False
+        job["deadair_watchdog_fired"] = False
+        job["t_filler1_audible"] = None
+        job["t_first_content_audible"] = None
+        job["audible_onset_observable"] = False
     except Exception:
         pass
 
@@ -435,6 +453,40 @@ def start_job(q, mode, stt_s, oai, allow, client, voice, base_idx,
 
             # ---------- FILLER THREAD: theme (+ maybe topic), racing the route ----------
             def fillers():
+                # [TASK 1 — GATE INVERSION] FILLER_FIRE_MODE=unconditional (default): deal a
+                # subject-free clip at transcript-confirm with ZERO dependency on route result,
+                # router margin, topic cache, or content-readiness. Silence is no longer a
+                # reachable gate outcome; the dead-air watchdog is the independent backstop.
+                # The legacy gated path (below) is preserved and reachable via FILLER_FIRE_MODE=gated
+                # (the demo-week rollback lever). The fire is wrapped so an exception in clip-dealing
+                # degrades to the watchdog, never to a crashed turn.
+                if getattr(config, "FILLER_FIRE_MODE", "unconditional") == "unconditional":
+                    job["fire_mode"] = "unconditional"
+                    try:
+                        job["t_filler_fire_call"] = round(time.perf_counter() - job["t_confirm"], 4)
+                        if job["first_chunk_ready_s"] is None:   # only correct pre-check: audio not already out
+                            nd = theme_decks.get("NEUTRAL")
+                            clip = nd.deal() if nd else None      # shuffled-deck (no immediate repeat) preserved
+                            job["theme_used"] = "NEUTRAL"; job["fallback_used"] = True
+                            if clip:
+                                _push(clip[0], clip[1], clip[2] if len(clip) > 2 else "mp3")
+                                place["t_first_filler"] = time.perf_counter()
+                                place["filler_secs"] += clip[3] if len(clip) > 3 else 4.5
+                                job["chain"].append("N")
+                                job["n_fillers"] += 1
+                                job["filler_clip_id"] = clip[0]
+                                job["filler_fired_ms"] = round((time.perf_counter() - job["t_confirm"]) * 1000)
+                            else:
+                                job["filler_missing_pool"] = True   # -> dead-air watchdog backstops
+                    except Exception as e:                          # -> dead-air watchdog backstops
+                        job["filler_fire_exception"] = type(e).__name__
+                        job["synth_errors"].append(f"filler_fire: {type(e).__name__}: {e}")
+                    finally:
+                        theme_placed.set()
+                        topic_resolved.set()                        # unconditional fire is subject-free: no topic
+                        job["fillers_done_ts"] = time.perf_counter()
+                    return
+                # ---------- FILLER_FIRE_MODE=gated: legacy path (preserved, reachable) ----------
                 got = route_evt.wait(timeout=config.FILLER_ROUTE_WAIT_MS / 1000.0)
                 ri = job.get("route")
                 if not v5:
@@ -552,6 +604,48 @@ def start_job(q, mode, stt_s, oai, allow, client, voice, base_idx,
                     if fill(i, _silence(i), released=True):
                         job["watchdog_backfills"].append(i)
             threading.Thread(target=watchdog, daemon=True).start()
+
+            # ---------- DEAD-AIR WATCHDOG (Task 2): silence is never a turn outcome ----------
+            def deadair_watchdog():
+                # Independent safety net, armed at transcript-confirm, disarmed by the first
+                # enqueue of ANY audio (filler or content) or by turn end. If NOTHING is
+                # enqueued by t_confirm + DEADAIR_WATCHDOG_MS, force a neutral clip. It lives
+                # OUTSIDE the fillers() try-scope, so it fires even if the fire path threw.
+                # A FIRED DEAD-AIR WATCHDOG IN PRODUCTION IS A DEFECT SIGNAL TO INVESTIGATE,
+                # NOT NORMAL OPERATION — the unconditional fire should always win the race.
+                job["deadair_watchdog_armed"] = True
+                deadline = job["t_confirm"] + getattr(config, "DEADAIR_WATCHDOG_MS", 800) / 1000.0
+                while not job["done"] and time.perf_counter() < deadline:
+                    time.sleep(0.02)
+                if job["done"]:
+                    return                                  # T2.4: disarmed on turn end / cancellation
+                # Deal the clip BEFORE taking res_lock: deal() acquires the Deck lock, and the
+                # fire path takes Deck-then-res_lock — acquiring them in that same order here
+                # avoids an AB/BA deadlock.
+                nd = theme_decks.get("NEUTRAL")
+                try:
+                    clip = nd.deal() if nd else None
+                except Exception:
+                    clip = None
+                with res_lock:                              # T2.3: check-and-fill is ATOMIC -> idempotent
+                    if job["first_chunk_ready_s"] is not None or job["done"]:
+                        return                              # audio already enqueued -> no-op
+                    i = idx["n"]; idx["n"] += 1
+                    job["queue_reserved"] += 1; job["queue_submitted"] += 1   # filled atomically; never enters `reserved`
+                    if clip:
+                        chunk = {"i": i, "b64": base64.b64encode(clip[1]).decode("ascii"),
+                                 "chars": 0, "fmt": clip[2] if len(clip) > 2 else "mp3", "clip_id": clip[0]}
+                        if job["filler_clip_id"] is None:
+                            job["filler_clip_id"] = clip[0]
+                    else:                                   # last resort: no clip available -> advance the player
+                        chunk = dict(_silence(i)); chunk["clip_id"] = "_deadair_silence"
+                    job["chunks"].append(chunk)
+                    job["first_chunk_ready_s"] = round(time.perf_counter() - job["t_confirm"], 2)
+                    if place["t_first_filler"] is None:
+                        place["t_first_filler"] = time.perf_counter()
+                    job["deadair_watchdog_fired"] = True
+                    job["chain"].append("W")
+            threading.Thread(target=deadair_watchdog, daemon=True).start()
 
             # ---------- content submission (index-gated behind the topic decision) ----------
             def _mark_content():

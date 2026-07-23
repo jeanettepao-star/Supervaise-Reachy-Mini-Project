@@ -619,7 +619,18 @@ THEME_CONF_THRESHOLD: float = _env_float("CJ_THEME_CONF_THRESHOLD", 0.51)
 TOPIC_MARGIN_THRESHOLD: float = _env_float("CJ_TOPIC_MARGIN_THRESHOLD", 0.01)
 # At filler-selection, wait at most this long for the route (embed+centroid) to
 # resolve; past it, fire NEUTRAL rather than make the visitor wait (late-route).
+# NOTE: consulted only on the legacy FILLER_FIRE_MODE=gated path (below); the
+# unconditional default fires before the route, so this wait no longer applies.
 FILLER_ROUTE_WAIT_MS: int = _env_int("CJ_FILLER_ROUTE_WAIT_MS", 300)
+# [PHASE-2 FIX] Gate inversion. "unconditional" (default): deal a subject-free clip
+# at transcript-confirm with zero route/margin/cache/content dependency — silence is
+# not a reachable outcome. "gated": the legacy route-then-decide path (the demo-week
+# rollback lever; still fully reachable). Latency, not fidelity, is what this controls.
+FILLER_FIRE_MODE: str = _env_str("CJ_FILLER_FIRE_MODE", "unconditional")
+# [PHASE-2 FIX] Dead-air watchdog timeout. Independent safety net: if NOTHING is
+# enqueued by transcript-confirm + this, force a neutral clip. A firing in production
+# is a DEFECT signal (the unconditional fire should always win), never normal.
+DEADAIR_WATCHDOG_MS: int = _env_int("CJ_DEADAIR_WATCHDOG_MS", 800)
 # Display-name source (Part D output) — spoken topic names + speakable flags.
 TOPIC_DISPLAY_NAMES_PATH: Path = _env_path(
     "CJ_TOPIC_DISPLAY_NAMES_PATH", REPO_ROOT / "eval" / "results" / "topic_display_names.json")
