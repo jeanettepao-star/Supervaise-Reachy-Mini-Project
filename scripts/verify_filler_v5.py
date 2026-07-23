@@ -19,6 +19,10 @@ config.FILLER_V5_ENABLED = True
 config.STREAM_TTS_ENABLED = False
 config.FILLER_ROUTE_WAIT_MS = 300
 import filler_route
+# This harness verifies the THEME/TOPIC sequencer path, so force SUBJECT_FREE_MODE off
+# regardless of the demo default (Option D ships it ON). A dedicated subject-free check
+# runs at the end with the flag flipped ON.
+filler_route.SUBJECT_FREE_MODE = False
 import voice_job
 _ORIG_SYNTH_TOPIC = voice_job.synth_topic       # saved so --smoke can un-monkeypatch to the real path
 
@@ -207,6 +211,25 @@ for r in results:
     if r["case"] == "10 watchdog backfill (hang)": tag = f"  (+backfills={r['backfills']})"
     print(f"  {'PASS' if good else 'FAIL'}  {r['case']:28s} chain={r['chain']} expect={exp} "
           f"no_hole={r['no_hole']}{tag}")
+
+# ---- SUBJECT-FREE MODE (Option D) verification: named path fully suppressed ----
+print("\n=== subject-free mode (Option D) ===")
+filler_route.SUBJECT_FREE_MODE = True
+sf_dec = filler_route.decide(stub_route("international_law_disputes", 0.62, "icc_and_duterte", 0.59)("q"),
+                             stub_gate()("q"))
+decide_ok = (sf_dec["use_neutral"] and not sf_dec["topic_gated"]
+             and sf_dec["reason"] == "subject_free_mode" and sf_dec["theme"] is None)
+# even a confident+separated route (would be T-P-C with named fillers) must stay N-C
+r_sf = run_case(name="SF confident route", ttft=3.5,
+                route_fn=stub_route("international_law_disputes", 0.62, "icc_and_duterte", 0.59),
+                gate_fn=stub_gate())
+turn_ok = (r_sf["chain"] == "N-C" and r_sf["no_hole"]
+           and r_sf["theme_used"] == "NEUTRAL" and not r_sf["topic_used"])
+filler_route.SUBJECT_FREE_MODE = False
+sf_ok = decide_ok and turn_ok
+ok = ok and sf_ok
+print(f"  {'PASS' if sf_ok else 'FAIL'}  decide->neutral(subject_free_mode); confident route still "
+      f"chain={r_sf['chain']} theme={r_sf['theme_used']} topic={r_sf['topic_used']} no_hole={r_sf['no_hole']}")
 
 # clip durations + grammar drops (Part F.13)
 man = json.loads((ROOT / "eval/results/filler_v5_clip_durations.json").read_text(encoding="utf-8"))

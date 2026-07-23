@@ -2,9 +2,9 @@
   "voice": "onyx",
   "model": "tts-1",
   "speed": 1.25,
-  "n_clips": 53,
+  "n_clips": 60,
   "n_theme": 50,
-  "n_neutral": 3,
+  "n_neutral": 10,
   "hard_cap_s": 5.0,
   "over_cap": [],
   "duration_stats": {
@@ -467,32 +467,46 @@
       "text": "current affairs and my commentary — a fine territory. Bear with me a moment."
     },
     {
-      "kind": "neutral",
-      "theme": null,
-      "variant": 1,
       "file": "assets\\filler_clips\\onyx\\neutral\\01.mp3",
-      "chars": 19,
-      "seconds": 0.744,
-      "text": "Permit me a moment."
+      "seconds": 3.552
     },
     {
-      "kind": "neutral",
-      "theme": null,
-      "variant": 2,
       "file": "assets\\filler_clips\\onyx\\neutral\\02.mp3",
-      "chars": 29,
-      "seconds": 1.44,
-      "text": "Allow me a moment to reflect."
+      "seconds": 3.816
     },
     {
-      "kind": "neutral",
-      "theme": null,
-      "variant": 3,
       "file": "assets\\filler_clips\\onyx\\neutral\\03.mp3",
-      "chars": 21,
-      "seconds": 0.96,
-      "text": "Bear with me, please."
+      "seconds": 3.408
+    },
+    {
+      "file": "assets\\filler_clips\\onyx\\neutral\\04.mp3",
+      "seconds": 3.528
+    },
+    {
+      "file": "assets\\filler_clips\\onyx\\neutral\\05.mp3",
+      "seconds": 2.784
+    },
+    {
+      "file": "assets\\filler_clips\\onyx\\neutral\\06.mp3",
+      "seconds": 3.288
+    },
+    {
+      "file": "assets\\filler_clips\\onyx\\neutral\\07.mp3",
+      "seconds": 3.192
+    },
+    {
+      "file": "assets\\filler_clips\\onyx\\neutral\\08.mp3",
+      "seconds": 3.528
+    },
+    {
+      "file": "assets\\filler_clips\\onyx\\neutral\\09.mp3",
+      "seconds": 2.808
+    },
+    {
+      "file": "assets\\filler_clips\\onyx\\neutral\\10.mp3",
+      "seconds": 2.904
     }
   ],
-  "speed_note": "uniform 1.25x; E/01 at 1.3x to clear the 5.0s cap (nonlinearity)."
+  "speed_note": "uniform 1.25x; E/01 at 1.3x to clear the 5.0s cap (nonlinearity).",
+  "notes": []
 }

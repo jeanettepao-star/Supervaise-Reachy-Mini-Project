@@ -13,10 +13,23 @@ eval/results/filler_v5_thresholds.md from the frozen-40 route-score bands.
 from __future__ import annotations
 
 import json
+import os
 import re
 from pathlib import Path
 
 import config
+
+# ---------------------------------------------------------------- subject-free mode (Option D)
+# The named theme/topic fillers are UNSAFE at the router's real top-1 accuracy
+# (~35% topic / ~41% theme on the frozen-40 gold set — see
+# eval/results/filler_v5_phase2_STOP_2026-07-24.md). SUBJECT_FREE_MODE forces the
+# filler to speak a characterful hedge that names NOTHING, removing the routing
+# dependency entirely. The theme/topic decision code below is preserved, inert, so a
+# future routing-accuracy track (Option C) can flip this off and restore named fillers.
+# Env override: CJ_FILLER_SUBJECT_FREE_MODE (default ON). Lives here (not config.py) so
+# the flag ships in the filler-logic module; move to config.py when convenient.
+SUBJECT_FREE_MODE: bool = os.environ.get("CJ_FILLER_SUBJECT_FREE_MODE", "1") \
+    not in ("0", "false", "False", "no")
 
 # ---------------------------------------------------------------- LOCKED text data
 THEMES = ("A", "B", "C", "D", "E")
@@ -44,11 +57,24 @@ THEME_VARIANTS = [
     "{T} — a fine territory. Bear with me a moment.",
 ]
 
-# NEUTRAL pool (3) — low-confidence / GAP-leaning / META / late-route.
+# NEUTRAL / SUBJECT-FREE pool — the ONLY pool spoken in SUBJECT_FREE_MODE (Option D),
+# and the low-confidence/GAP/META/late-route fallback otherwise. Every line is a
+# characterful, in-voice hedge that NAMES NOTHING (no theme, no topic) — safe at any
+# routing accuracy. Two clauses each (acknowledge + buy-the-moment) so the clip runs
+# ~4-4.8s at FILLER_TTS_SPEED (1.25x), masking the content compose the way the theme
+# clips did. Keep each ≲ 18 words so synth stays under the 5.0s hard cap. Regenerate
+# the clips with scripts/gen_v5_subject_free_clips.py after editing this list.
 NEUTRAL_TEXTS = [
-    "Permit me a moment.",
-    "Allow me a moment to reflect.",
-    "Bear with me, please.",
+    "Ah — a fine question. Allow me a moment to consult what my record holds.",
+    "Yes; let me give that the consideration it deserves — a moment, if you please.",
+    "A thoughtful question. Permit me to gather my recollections properly.",
+    "Let me reflect on that for a moment; a proper answer deserves a proper pause.",
+    "Hmm — allow me to draw the threads together before I speak.",
+    "Well now, that is worth answering with care. Bear with me a moment.",
+    "I should like to answer this properly, so let me consult my record first.",
+    "A moment, if you would — I prefer to weigh my words before I offer them.",
+    "Let me think this through as it deserves; I shall be with you shortly.",
+    "Ah — give me just a moment to marshal my thoughts on this.",
 ]
 
 # 10 TOPIC templates (Filler 2). {TOPIC} = spoken_name from topic_display_names.json.
@@ -152,7 +178,16 @@ def decide(route: dict, gate: dict | None = None, late_route: bool = False) -> d
       - top_cosine < THEME_CONF_THRESHOLD (GAP-leaning/low)    -> NEUTRAL
     TOPIC (Filler 2) additionally requires clean margin >= TOPIC_MARGIN_THRESHOLD
     AND the topic's speakable == YES (content-timing gate d is enforced at runtime).
+
+    SUBJECT_FREE_MODE (Option D) short-circuits ALL of the below to a subject-free
+    NEUTRAL decision — no theme, no topic — because the router's real top-1 accuracy
+    is too low to name a subject safely (Phase-2 STOP). The gating code is kept intact
+    for a future routing-accuracy track that would flip SUBJECT_FREE_MODE off.
     """
+    if SUBJECT_FREE_MODE:
+        return {"theme": None, "use_neutral": True, "reason": "subject_free_mode",
+                "topic_id": None, "topic_spoken": None, "topic_gated": False,
+                "theme_conf": None, "topic_margin": None, "runner_up": None}
     top = route["top_topic"]
     conf = float(route["top_cosine"])
     theme = theme_of_topic().get(top)
