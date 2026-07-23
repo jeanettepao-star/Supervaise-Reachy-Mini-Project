@@ -66,6 +66,12 @@ LOG_COLS = ["timestamp", "mode", "transcript", "stt_seconds", "ttfa_felt_s", "st
             # [Q2-SEV] queue-state invariant: reserved == submitted + released every turn,
             # backfills > 0 means the watchdog filled a hole (no permanent strict-order stall).
             "queue_reserved", "queue_submitted", "queue_released", "watchdog_backfills",
+            # [PHASE-2 FIX] gate inversion + dead-air watchdog + AUDIBLE onset. fire_mode/
+            # t_filler_fire_call prove the unconditional fire; deadair_* is the safety net;
+            # *_audible_s are the true felt-TTFA (browser playback-start vs confirm) — vs the
+            # enqueue-based ttfa_felt_s (H-B). audible_onset_observable=False -> stopwatch.
+            "fire_mode", "t_filler_fire_call_s", "deadair_watchdog_fired",
+            "t_filler1_audible_s", "t_first_content_audible_s", "audible_onset_observable",
             "chain_pattern", "notes"]
             # chain_pattern e.g. T-C / T-P-C / N-C / T-silence-C
 RATES = {"in": 3.00, "cw": 3.75, "cr": 0.30, "out": 15.00}
@@ -211,7 +217,32 @@ def log_row(row: dict) -> None:
 # (importable + $0-tested via the stubbed-compose harness). The page below deals
 # an ack from the per-voice deck and calls voice_job.start_job(...).
 
-def finalize_and_log(job: dict, gaps_by_idx: dict, stats: dict) -> None:
+def _audible_onsets(job: dict, aud_by_idx: dict) -> dict:
+    """[Task 3] Map the gapless player's browser-reported playback-start (Date.now epoch
+    ms) to felt-TTFA seconds from transcript-confirm. Single-machine localhost demo: the
+    browser and this host share the system clock, so no cross-clock offset is needed (a
+    two-machine setup would need one — not implemented, see the report). Fully guarded:
+    any failure -> observable False, never breaks the turn."""
+    out = {"t_filler1_audible_s": "", "t_first_content_audible_s": "", "audible_onset_observable": False}
+    try:
+        if not aud_by_idx or not job.get("wall_epoch"):
+            return out
+        confirm_ms = datetime.fromisoformat(job["wall_epoch"]).timestamp() * 1000.0
+        base = job["base"]
+        content_idxs = [c["i"] for c in job["chunks"] if not c.get("clip_id")]
+        first_content = min(content_idxs) if content_idxs else None
+        if base in aud_by_idx:
+            out["t_filler1_audible_s"] = round((aud_by_idx[base] - confirm_ms) / 1000.0, 3)
+            out["audible_onset_observable"] = True
+        if first_content is not None and first_content in aud_by_idx:
+            out["t_first_content_audible_s"] = round((aud_by_idx[first_content] - confirm_ms) / 1000.0, 3)
+            out["audible_onset_observable"] = True
+    except Exception:
+        pass
+    return out
+
+
+def finalize_and_log(job: dict, gaps_by_idx: dict, stats: dict, aud_by_idx: dict | None = None) -> None:
     u = job["usage"]
     compose_cost = ((getattr(u, "input_tokens", 0) * RATES["in"] +
                      getattr(u, "cache_creation_input_tokens", 0) * RATES["cw"] +
@@ -245,6 +276,10 @@ def finalize_and_log(job: dict, gaps_by_idx: dict, stats: dict) -> None:
              "queue_reserved": job.get("queue_reserved"), "queue_submitted": job.get("queue_submitted"),
              "queue_released": job.get("queue_released"),
              "watchdog_backfills": len(job.get("watchdog_backfills") or []),
+             "fire_mode": job.get("fire_mode") or "",
+             "t_filler_fire_call_s": job.get("t_filler_fire_call"),
+             "deadair_watchdog_fired": bool(job.get("deadair_watchdog_fired")),
+             **_audible_onsets(job, aud_by_idx or {}),
              "chain_pattern": "-".join(job.get("chain", [])), "notes": ""})
     job["logged"] = True
     job["est"] = est
@@ -341,6 +376,9 @@ job = ss.job
 chunks_now = list(job["chunks"]) if job else []
 player_val = gapless(chunks=chunks_now, key="gapless_player", default=None)
 gaps_by_idx = {p["i"]: p["gap_ms"] for p in (player_val or {}).get("played", [])}
+# [Task 3] browser-reported playback-start (Date.now epoch ms) per played chunk
+aud_by_idx = {p["i"]: p["t_audible_epoch_ms"] for p in (player_val or {}).get("played", [])
+              if isinstance(p, dict) and "t_audible_epoch_ms" in p}
 
 if job:
     st.markdown("---")
@@ -356,7 +394,7 @@ if job:
             st.error(job["error"])
         elif not job.get("logged"):
             ss.chunk_base = job["base"] + max(job["n_chunks"], len(job["chunks"]))
-            finalize_and_log(job, gaps_by_idx, fstats)
+            finalize_and_log(job, gaps_by_idx, fstats, aud_by_idx)
         if job.get("logged"):
             mg, xg = job.get("gaps_summary", (None, None))
             st.caption(f"felt-TTFA (confirm→first audio ready): **{job['first_chunk_ready_s']}s** · "
