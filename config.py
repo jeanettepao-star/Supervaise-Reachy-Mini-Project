@@ -631,6 +631,50 @@ FILLER_FIRE_MODE: str = _env_str("CJ_FILLER_FIRE_MODE", "unconditional")
 # enqueued by transcript-confirm + this, force a neutral clip. A firing in production
 # is a DEFECT signal (the unconditional fire should always win), never normal.
 DEADAIR_WATCHDOG_MS: int = _env_int("CJ_DEADAIR_WATCHDOG_MS", 800)
+
+
+# ===========================================================================
+# 12. WAKE WORD (hands-free front door)                          [NEW-ARCH]
+#    Upstream of the pipeline per the Reachy seam (design/w2_7_reachy_seam.md §f):
+#    WAKE detect -> record -> STT -> query_text; the pipeline sees only query_text.
+#    The wake phrase is a NAMED PARAMETER here, never hardcoded (resolves the
+#    long-flagged "Seejop"/"CJ"). Consumed by app/wake_word.py + wake_demo.py.
+# ===========================================================================
+# The spoken wake phrase (display/log only — matching is driven by the variants).
+WAKE_PHRASE: str = _env_str("CJ_WAKE_PHRASE", "See-Jap")
+# Accepted spoken forms (Whisper mishears "See-Jap"/"Hey Cee-Jap" many ways; "See-Jap"
+# is phonetically "CJ", so the CJ abbreviation counts). Multi-word forms match adjacent
+# tokens; single-word forms match a whole token. Re-parameterize by editing this list
+# (or CJ_WAKE_PHRASE_VARIANTS) — no model retrain needed on the stt_keyword backend.
+WAKE_PHRASE_VARIANTS: list[str] = _env_list("CJ_WAKE_PHRASE_VARIANTS", [
+    "see jap", "cee jap", "see jab", "cee jab", "sea jap", "see jip", "see jop",
+    "see jay", "cee jay", "sea jay", "c jap", "c jay", "c j",
+    "seejap", "ceejap", "cjap", "seajap", "seejop", "ceejop", "seejip",
+    "seejay", "ceejay", "cjay", "cj"])
+# Master switch for the hands-free mic loop (wake_demo.py). OFF by default so it never
+# disturbs the push-to-talk Streamlit demo; the loop is opt-in.
+WAKE_WORD_ENABLED: bool = _env_bool("CJ_WAKE_WORD_ENABLED", False)
+# Detector backend: "stt_keyword" (default — keyword-spot the existing STT, no trained
+# model, re-parameterizable) | "openwakeword" (robot/production; needs a trained model).
+WAKE_BACKEND: str = _env_str("CJ_WAKE_BACKEND", "stt_keyword")
+# STT backend for the wake WINDOW specifically (independent of the main STT_BACKEND).
+# "local" (faster-whisper) is preferred — cheap + offline for the always-listening loop.
+WAKE_STT_BACKEND: str = _env_str("CJ_WAKE_STT_BACKEND", "local")
+# Listening window length (s) transcribed per wake check — shorter = snappier + cheaper,
+# longer = more tolerant of slow speakers (risks catching trailing words).
+WAKE_WINDOW_S: float = _env_float("CJ_WAKE_WINDOW_S", 1.5)
+# Max seconds recorded for the QUERY after the wake fires (fixed window; a robot-side
+# VAD record-until-silence is the production upgrade).
+WAKE_QUERY_MAX_S: float = _env_float("CJ_WAKE_QUERY_MAX_S", 6.0)
+# Debounce after a wake fires, so one utterance can't double-trigger.
+WAKE_COOLDOWN_S: float = _env_float("CJ_WAKE_COOLDOWN_S", 1.0)
+# Fuzzy thresholds for the matcher. word_ratio: per-token similarity for multi-word
+# forms (higher = stricter, fewer false fires). token_ratio: whole-token similarity for
+# single-word forms (with a tight length guard). Defaults tuned on the See-Jap family.
+WAKE_WORD_RATIO: float = _env_float("CJ_WAKE_WORD_RATIO", 0.80)
+WAKE_TOKEN_RATIO: float = _env_float("CJ_WAKE_TOKEN_RATIO", 0.86)
+# Optional trained-model path for the openWakeWord backend (empty = stub not wired).
+WAKE_OWW_MODEL_PATH: str = _env_str("CJ_WAKE_OWW_MODEL_PATH", "")
 # Display-name source (Part D output) — spoken topic names + speakable flags.
 TOPIC_DISPLAY_NAMES_PATH: Path = _env_path(
     "CJ_TOPIC_DISPLAY_NAMES_PATH", REPO_ROOT / "eval" / "results" / "topic_display_names.json")
