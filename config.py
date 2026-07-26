@@ -641,7 +641,10 @@ DEADAIR_WATCHDOG_MS: int = _env_int("CJ_DEADAIR_WATCHDOG_MS", 800)
 #    long-flagged "Seejop"/"CJ"). Consumed by app/wake_word.py + wake_demo.py.
 # ===========================================================================
 # The spoken wake phrase (display/log only — matching is driven by the variants).
-WAKE_PHRASE: str = _env_str("CJ_WAKE_PHRASE", "See-Jap")
+# Canonical wake phrase "Hey Cee Jap" / "Cee Jap" — spelling ratified
+# by Sir Jacob & Atty. Rae, 2026-07-27. Phonetically identical to
+# prior "See-Jap"; variant list unchanged.
+WAKE_PHRASE: str = _env_str("CJ_WAKE_PHRASE", "Cee-Jap")
 # Accepted spoken forms (Whisper mishears "See-Jap"/"Hey Cee-Jap" many ways; "See-Jap"
 # is phonetically "CJ", so the CJ abbreviation counts). Multi-word forms match adjacent
 # tokens; single-word forms match a whole token. Re-parameterize by editing this list
