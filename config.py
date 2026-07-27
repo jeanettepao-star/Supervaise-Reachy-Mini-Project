@@ -650,10 +650,10 @@ WAKE_PHRASE: str = _env_str("CJ_WAKE_PHRASE", "Cee-Jap")
 # tokens; single-word forms match a whole token. Re-parameterize by editing this list
 # (or CJ_WAKE_PHRASE_VARIANTS) — no model retrain needed on the stt_keyword backend.
 WAKE_PHRASE_VARIANTS: list[str] = _env_list("CJ_WAKE_PHRASE_VARIANTS", [
-    "see jap", "cee jap", "see jab", "cee jab", "sea jap", "see jip", "see jop",
-    "see jay", "cee jay", "sea jay", "c jap", "c jay", "c j",
-    "seejap", "ceejap", "cjap", "seajap", "seejop", "ceejop", "seejip",
-    "seejay", "ceejay", "cjay", "cj"])
+    # Cee-Jap "-jap" mishears ONLY. The legacy "CJ"/"see jay"/"Jay" family is RETIRED
+    # per the WW-5 decision (Dev0+Dok, 2026-07-27): spoken "CJ" ("see jay") must stay silent.
+    "see jap", "cee jap", "see jab", "cee jab", "sea jap", "see jip", "see jop", "c jap",
+    "seejap", "ceejap", "cjap", "seajap", "seejop", "ceejop", "seejip"])
 # Master switch for the hands-free mic loop (wake_demo.py). OFF by default so it never
 # disturbs the push-to-talk Streamlit demo; the loop is opt-in.
 WAKE_WORD_ENABLED: bool = _env_bool("CJ_WAKE_WORD_ENABLED", False)

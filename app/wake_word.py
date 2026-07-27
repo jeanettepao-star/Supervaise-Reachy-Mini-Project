@@ -54,12 +54,12 @@ _CARRIERS = {"hey", "ok", "okay", "hi", "hello", "yo", "um", "uh", "er", "so", "
 # Multi-word forms match ADJACENT tokens (per-token fuzzy); single-word forms match a
 # whole TOKEN (never a substring — so "cj" won't fire inside "logic jump").
 _DEFAULT_VARIANTS = [
+    # Cee-Jap "-jap" mishears ONLY. The legacy "CJ"/"see jay"/"Jay" family is RETIRED
+    # per the WW-5 decision (2026-07-27): spoken "CJ" ("see jay") must stay silent.
     # two-token (onset + coda)
-    "see jap", "cee jap", "see jab", "cee jab", "sea jap", "see jip", "see jop",
-    "see jay", "cee jay", "sea jay", "c jap", "c jay", "c j",
+    "see jap", "cee jap", "see jab", "cee jab", "sea jap", "see jip", "see jop", "c jap",
     # single-token (Whisper writes the OOV word glued together)
     "seejap", "ceejap", "cjap", "seajap", "seejop", "ceejop", "seejip",
-    "seejay", "ceejay", "cjay", "cj",
 ]
 
 
@@ -270,10 +270,13 @@ def _selftest() -> int:
     """$0 offline demo of the matcher on accept/reject cases."""
     m = WakePhraseMatcher()
     print(f"wake phrase: {_cfg('WAKE_PHRASE', 'See-Jap')!r}  matcher: {m}")
-    accept = ["See-Jap", "hey see jap", "cee jap", "seejap", "see jab", "cee jay",
-              "CJ", "hey cj", "seejop", "okay see-jap what is the rule of law"]
+    accept = ["See-Jap", "hey see jap", "cee jap", "seejap", "see jab", "seejop",
+              "okay see-jap what is the rule of law"]
+    # legacy "Hey CJ" family retired per WW-5 decision 2026-07-27 —
+    # spoken "CJ" ("see jay") must stay silent.
     reject = ["see the map", "what is the rule of law", "see japan", "cheese",
-              "the japanese economy", "logic jump", "sea gull", ""]
+              "the japanese economy", "logic jump", "sea gull", "",
+              "see jay", "hey see jay", "cee jay", "cj"]
     ok = True
     print("\nACCEPT (should fire):")
     for t in accept:
