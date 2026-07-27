@@ -3,11 +3,11 @@
 Per the Reachy seam design (design/w2_7_reachy_seam.md §f), wake capture sits
 UPSTREAM of the pipeline: `WAKE detect -> record -> STT -> query_text`, and the
 pipeline receives only the final `query_text` — it has no wake logic. The wake
-phrase is a NAMED PARAMETER (config.WAKE_PHRASE, default "See-Jap" — the resolution
+phrase is a NAMED PARAMETER (config.WAKE_PHRASE, default "Cee-Jap" — the resolution
 of the long-flagged "Seejop"/"CJ"), never hardcoded.
 
 Why STT keyword-spotting (not openWakeWord)?
-  A custom phrase like "See-Jap" needs a *trained* model for openWakeWord/Porcupine
+  A custom phrase like "Cee-Jap" needs a *trained* model for openWakeWord/Porcupine
   (the reverted PLAN-0008 shipped a hand-trained hey_cj.onnx). Keyword-spotting over
   the STT we already run (voice_io.transcribe, faster-whisper local) needs NO trained
   model and is trivially re-parameterizable — change the phrase, done. openWakeWord
@@ -15,8 +15,9 @@ Why STT keyword-spotting (not openWakeWord)?
 
 Layers (each independently testable / swappable):
   * WakePhraseMatcher — pure text logic: does a transcript contain the wake phrase?
-    Tolerant of Whisper mishears (see jap / cee jap / seejap / cj / see jay / seejop),
-    strict against near-misses (see the map / japan / cheese). Zero deps, offline.
+    Tolerant of Cee-Jap mishears (see jap / cee jap / seejap / seejop); strict against
+    near-misses (see the map / japan / cheese) AND the legacy CJ/see-jay family, retired
+    per WW-5 (2026-07-27). Zero deps, offline.
   * WakeDetector (protocol) — SttKeywordDetector (default) | OpenWakeWordDetector (stub).
   * AudioSource (protocol) — MicAudioSource (sounddevice, lazy/optional) | inject frames.
   * wait_for_wake() / run_hands_free_loop() — arm, detect, capture the query, hand
@@ -50,9 +51,9 @@ def _cfg(name, default):
 _CARRIERS = {"hey", "ok", "okay", "hi", "hello", "yo", "um", "uh", "er", "so", "a", "the"}
 
 # Default accepted spoken forms of the wake phrase (config.WAKE_PHRASE_VARIANTS overrides).
-# "See-Jap" is phonetically "CJ", so the CJ abbreviation and its spelled-out forms count.
+# Cee-Jap "-jap" mishears only — a custom phrase needs no model retrain (edit the list).
 # Multi-word forms match ADJACENT tokens (per-token fuzzy); single-word forms match a
-# whole TOKEN (never a substring — so "cj" won't fire inside "logic jump").
+# whole TOKEN (never a substring — so a short token won't fire inside a longer word).
 _DEFAULT_VARIANTS = [
     # Cee-Jap "-jap" mishears ONLY. The legacy "CJ"/"see jay"/"Jay" family is RETIRED
     # per the WW-5 decision (2026-07-27): spoken "CJ" ("see jay") must stay silent.
@@ -74,14 +75,15 @@ class MatchResult:
 class WakePhraseMatcher:
     """Decide whether an STT transcript contains the wake phrase. Pure, offline.
 
-    Robust to Whisper mishears of the OOV word "See-Jap" while rejecting common
+    Robust to Whisper mishears of the OOV word "Cee-Jap" while rejecting common
     near-misses. Two rules, both boundary-safe (token-level, never raw substring):
       - multi-word variant ("see jap"): matches a run of ADJACENT tokens, each within
-        a fuzzy ratio of the target word (so "see jab", "cee jay" fire; "see the map",
-        "see japan" do not — 'japan'!='jap' and ratio 0.75 < 0.80).
-      - single-word variant ("seejap", "cj"): matches a whole TOKEN by equality, or by
-        fuzzy ratio for longer forms with a tight length guard (so "cj" fires only on a
-        standalone "cj" token; "seejapan" won't match "seejap").
+        a fuzzy ratio of the target word (so "see jab", "see jip" fire; "see the map",
+        "see japan" do not — 'japan'!='jap' and ratio 0.75 < 0.80). The retired legacy
+        "see jay" family (WW-5) also stays silent — 'jay' vs 'jap' is below threshold.
+      - single-word variant ("seejap", "cjap"): matches a whole TOKEN by equality, or by
+        fuzzy ratio for longer forms with a tight length guard ("seejapan" won't match
+        "seejap").
     """
 
     def __init__(self, variants: Optional[Iterable[str]] = None,
@@ -169,14 +171,14 @@ class SttKeywordDetector(WakeDetector):
 class OpenWakeWordDetector(WakeDetector):
     """Robot/production backend stub. A custom phrase needs a trained model
     (cf. the reverted PLAN-0008 hey_cj.onnx). Wire config.WAKE_OWW_MODEL_PATH to a
-    trained "See-Jap" .onnx to enable; unimplemented here on purpose."""
+    trained "Cee-Jap" .onnx to enable; unimplemented here on purpose."""
     def __init__(self, model_path: Optional[str] = None):
         self.model_path = model_path or _cfg("WAKE_OWW_MODEL_PATH", None)
 
     def detect(self, wav_path: str | Path) -> MatchResult:  # pragma: no cover
         raise NotImplementedError(
             "openWakeWord backend needs a trained model for the wake phrase. "
-            "Train a 'See-Jap' .onnx and set config.WAKE_OWW_MODEL_PATH, or use "
+            "Train a 'Cee-Jap' .onnx and set config.WAKE_OWW_MODEL_PATH, or use "
             "the default stt_keyword backend.")
 
 
@@ -250,7 +252,7 @@ def run_hands_free_loop(handle_query: Callable[[str], None],
     (retrieval -> compose -> TTS); this module stays pipeline-agnostic per the seam."""
     detector = detector or make_detector()
     cooldown = float(_cfg("WAKE_COOLDOWN_S", 1.0))
-    phrase = _cfg("WAKE_PHRASE", "See-Jap")
+    phrase = _cfg("WAKE_PHRASE", "Cee-Jap")
     print(f"[wake] armed — say “{phrase}”. (Ctrl-C to quit)")
     while True:
         res = wait_for_wake(detector)
@@ -269,7 +271,7 @@ def run_hands_free_loop(handle_query: Callable[[str], None],
 def _selftest() -> int:
     """$0 offline demo of the matcher on accept/reject cases."""
     m = WakePhraseMatcher()
-    print(f"wake phrase: {_cfg('WAKE_PHRASE', 'See-Jap')!r}  matcher: {m}")
+    print(f"wake phrase: {_cfg('WAKE_PHRASE', 'Cee-Jap')!r}  matcher: {m}")
     accept = ["See-Jap", "hey see jap", "cee jap", "seejap", "see jab", "seejop",
               "okay see-jap what is the rule of law"]
     # legacy "Hey CJ" family retired per WW-5 decision 2026-07-27 —

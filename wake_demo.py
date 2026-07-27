@@ -1,6 +1,6 @@
 """Hands-free CJ demo — WAKE WORD -> develop pipeline, end to end.
 
-Say the wake phrase (config.WAKE_PHRASE, default "See-Jap" / "Hey Cee-Jap"); the app
+Say the wake phrase (config.WAKE_PHRASE, default "Cee-Jap" / "Hey Cee-Jap"); the app
 records your question, runs the develop retrieval->compose pipeline, and speaks the
 answer back. Wake detection is upstream of the pipeline (seam §f): the pipeline sees
 only query_text.

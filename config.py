@@ -645,8 +645,8 @@ DEADAIR_WATCHDOG_MS: int = _env_int("CJ_DEADAIR_WATCHDOG_MS", 800)
 # by Sir Jacob & Atty. Rae, 2026-07-27. Phonetically identical to
 # prior "See-Jap"; variant list unchanged.
 WAKE_PHRASE: str = _env_str("CJ_WAKE_PHRASE", "Cee-Jap")
-# Accepted spoken forms (Whisper mishears "See-Jap"/"Hey Cee-Jap" many ways; "See-Jap"
-# is phonetically "CJ", so the CJ abbreviation counts). Multi-word forms match adjacent
+# Accepted spoken forms (Whisper mishears "Cee-Jap"/"Hey Cee-Jap" many ways). The legacy
+# "CJ"/"see jay" family is retired (WW-5, 2026-07-27). Multi-word forms match adjacent
 # tokens; single-word forms match a whole token. Re-parameterize by editing this list
 # (or CJ_WAKE_PHRASE_VARIANTS) — no model retrain needed on the stt_keyword backend.
 WAKE_PHRASE_VARIANTS: list[str] = _env_list("CJ_WAKE_PHRASE_VARIANTS", [
@@ -673,7 +673,7 @@ WAKE_QUERY_MAX_S: float = _env_float("CJ_WAKE_QUERY_MAX_S", 6.0)
 WAKE_COOLDOWN_S: float = _env_float("CJ_WAKE_COOLDOWN_S", 1.0)
 # Fuzzy thresholds for the matcher. word_ratio: per-token similarity for multi-word
 # forms (higher = stricter, fewer false fires). token_ratio: whole-token similarity for
-# single-word forms (with a tight length guard). Defaults tuned on the See-Jap family.
+# single-word forms (with a tight length guard). Defaults tuned on the Cee-Jap family.
 WAKE_WORD_RATIO: float = _env_float("CJ_WAKE_WORD_RATIO", 0.80)
 WAKE_TOKEN_RATIO: float = _env_float("CJ_WAKE_TOKEN_RATIO", 0.86)
 # Optional trained-model path for the openWakeWord backend (empty = stub not wired).

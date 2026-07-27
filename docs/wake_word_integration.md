@@ -1,8 +1,8 @@
-# Wake-word integration — "See-Jap" / "Hey Cee-Jap"
+# Wake-word integration — "Cee-Jap" / "Hey Cee-Jap"
 
 Adds a hands-free wake-word front door to the `develop` pipeline. Resolves the
 long-flagged wake phrase (`design/w2_7_reachy_seam.md` §f garbled it as **"Seejop"/"CJ"**)
-to **"See-Jap"** — a **named config parameter**, never hardcoded.
+to **"Cee-Jap"** — a **named config parameter**, never hardcoded.
 
 ## Where it sits (seam-aligned)
 Wake capture is **upstream of the pipeline** (seam §f): `WAKE detect → record → STT →
@@ -22,7 +22,7 @@ PLAN-0008 shipped a hand-trained `hey_cj.onnx`, which is why it was heavy and de
 Keyword-spotting over the STT we already run (`voice_io.transcribe`, faster-whisper local)
 needs **no trained model** and is trivially re-parameterizable: change `WAKE_PHRASE_VARIANTS`,
 done. openWakeWord stays available as a pluggable `WakeDetector` backend for the robot
-when a trained "See-Jap" model exists (`WAKE_OWW_MODEL_PATH`).
+when a trained "Cee-Jap" model exists (`WAKE_OWW_MODEL_PATH`).
 
 ## Files
 | File | Role |
@@ -33,11 +33,12 @@ when a trained "See-Jap" model exists (`WAKE_OWW_MODEL_PATH`).
 | `config.py` §12 | The named parameters (below) |
 
 ## The matcher (robustness)
-"See-Jap" is out-of-vocabulary; Whisper spells it many ways. The matcher fires on the
-whole family — `see jap`, `cee jap`, `see jab`, `cee jay`, `seejap`, `cjap`, `seejop`,
-`cj`, `hey cj`, … — and stays silent on near-misses — `see the map`, `see japan`,
-`the japanese economy`, `cheese`, `logic jump`. It is **boundary-safe** (token-level,
-never a raw substring, so `cj` won't fire inside "logi**cj**ump"): multi-word forms match
+"Cee-Jap" is out-of-vocabulary; Whisper spells it many ways. The matcher fires on the
+`-jap` family — `see jap`, `cee jap`, `see jab`, `seejap`, `cjap`, `seejop`, … — and stays
+silent on near-misses — `see the map`, `see japan`, `the japanese economy`, `cheese`,
+`logic jump` — **and on the legacy `CJ` / `see jay` family, retired per WW-5 (2026-07-27)**
+and covered by a rejection regression test. It is **boundary-safe** (token-level, never a
+raw substring, so a short token won't fire inside a longer word): multi-word forms match
 an adjacent token run (per-token fuzzy); single-word forms match a whole token.
 
 ## Run it
@@ -51,8 +52,8 @@ Offline matcher demo (no mic/keys): `python app/wake_word.py --selftest`
 ## Config knobs (config.py §12)
 | Knob | Default | Meaning |
 |---|---|---|
-| `WAKE_PHRASE` | `See-Jap` | the spoken phrase (display/log) |
-| `WAKE_PHRASE_VARIANTS` | 24 forms | accepted mishears — the matcher's real driver |
+| `WAKE_PHRASE` | `Cee-Jap` | the spoken phrase (display/log) |
+| `WAKE_PHRASE_VARIANTS` | 15 forms | accepted `-jap` mishears — the matcher's real driver (legacy CJ/Jay pruned, WW-5) |
 | `WAKE_WORD_ENABLED` | `False` | master switch for the mic loop (opt-in) |
 | `WAKE_BACKEND` | `stt_keyword` | `stt_keyword` \| `openwakeword` |
 | `WAKE_STT_BACKEND` | `local` | STT for wake windows (faster-whisper; cheap/offline) |
@@ -62,11 +63,12 @@ Offline matcher demo (no mic/keys): `python app/wake_word.py --selftest`
 | `WAKE_OWW_MODEL_PATH` | `""` | trained model for the openWakeWord backend |
 
 ## Verified vs owed
-- **Verified (offline, $0)**: `tests/test_wake_phrase.py` — the matcher fires on 24 accept
-  cases, rejects 16 near-misses; the detector plumbing works with mocked STT.
+- **Verified (offline, $0)**: `tests/test_wake_phrase.py` — the matcher fires on the Cee-Jap
+  accept set, rejects the near-misses **and the retired legacy CJ/Jay family** (regression
+  test); the detector plumbing works with mocked STT.
 - **Owed (needs a live mic — not runnable headless)**: real-voice wake precision/latency in
   the demo room (tune `WAKE_WINDOW_S` / `WAKE_TOKEN_RATIO` against live Whisper output), and
-  the openWakeWord robot backend (needs a trained "See-Jap" model).
+  the openWakeWord robot backend (needs a trained "Cee-Jap" model).
 
 ## Found, not fixed / deferred
 - Query capture is a fixed `WAKE_QUERY_MAX_S` window; a VAD **record-until-silence** (the
