@@ -14,15 +14,17 @@ Design contract (W1.1 / W3.3):
   * One-line comment per knob states the trade-off it controls
     (cost / latency / recall / fidelity).
 
-ARCHITECTURE NOTE — two generations of knob live here on purpose:
-  [BASELINE]  knobs consumed by the *current* pipeline that ships today:
-              Haiku router/gate → curated 35-topic map → Sonnet composer →
-              Haiku fidelity check. No embeddings, no numpy retrieval, no RRF.
-  [NEW-ARCH]  knobs for the LOCKED target architecture (dimensional/centroid
-              topic model, in-memory numpy retrieval, RRF hybrid fusion,
-              soft-prior topic bias). These are NOT yet wired into runtime code
-              — they exist so W1.4–W1.7 can switch the engine on by reading
-              config, not by re-plumbing literals. They are inert until then.
+ARCHITECTURE NOTE — two generations of knob live here, tagged [BASELINE] and
+[NEW-ARCH]. On the `develop` branch the [NEW-ARCH] knobs are the ones the
+SHIPPING pipeline consumes:
+  [NEW-ARCH]  the develop retrieval engine that runs TODAY: bge-base dense +
+              BM25, RRF hybrid fusion, 34-topic centroid soft-prior, top-p
+              nucleus cutoff — plus the streamed Sonnet composer.
+  [BASELINE]  knobs for the LEGACY pre-W1.8 kiosk (Haiku router/gate → curated
+              35-topic map → Sonnet composer → Haiku fidelity check; no
+              embeddings/RRF). Consumed ONLY by the CJ_ALLOW_LEGACY-guarded
+              app/cj_chat.py path (the `pre-wake-word-integration` kiosk); NOT
+              by the develop pipeline. Kept for that branch; inert on develop.
 
 Usage:
     import config
@@ -174,7 +176,8 @@ TOPIC_MAP_PATH: Path = _env_path(
 # so consumers can detect a stale on-disk map (no runtime trade-off, hygiene).
 TOPIC_MAP_VERSION: str = _env_str("CJ_TOPIC_MAP_VERSION", "2.0")
 # Independence check: two topics whose centroids exceed this cosine are flagged
-# as non-independent (merge candidates). RECALIBRATED for bge-large (W1.7 Step 1):
+# as non-independent (merge candidates). RECALIBRATED for bge-large (W1.7 Step 1;
+# values carried through the bge-base v4 transition — re-derive if the embedder changes):
 # bge cosines are compressed, so distinct hand-curated topics already pair at a
 # median 0.84 (p95 0.91, p99 0.93) — the old MiniLM-era 0.85 would merge ~half of
 # ALL topic pairs. 0.95 isolates genuine duplicates (only
