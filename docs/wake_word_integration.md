@@ -11,10 +11,37 @@ robot-portable and does not touch retrieval/compose/TTS. It also **does not chan
 push-to-talk Streamlit demo**; the hands-free loop is a separate, opt-in surface.
 
 ```
-mic → [WAKE window] → wake_word.match ──fires──▶ record query → STT → query_text
-                                                                          │
-                                            retrieval → compose → TTS ◀────┘  (existing develop pipeline)
+mic → [WAKE window] → wake_word.match ──fires──▶ [turn head toward speaker] → record query → STT → query_text
+                                                                                                        │
+                                                          retrieval → compose → TTS ◀───────────────────┘
 ```
+
+## Head orientation — turn toward the speaker (ROBOT-side seam)
+On a wake fire, the robot turns its head toward the voice. Motors/gaze are **robot-side**
+per the seam, so this is a **parameterized seam** ([app/head_orient.py](../app/head_orient.py)),
+opt-in via `HEAD_ORIENT_ENABLED` (default OFF), wired into `run_hands_free_loop`:
+
+```
+wake fire → DirectionEstimator.estimate() → level/distance gate → clamp to yaw limit → HeadController.turn_to(yaw)
+```
+
+- **Direction & distance are HARD-CODED signal inputs for now** (config §13): a fixed
+  azimuth (`HEAD_ORIENT_FIXED_AZIMUTH_DEG`, 0=front / +=right / -=left) and a level
+  (`HEAD_ORIENT_FIXED_LEVEL`). The **level/distance gate** (`HEAD_ORIENT_MIN_LEVEL`) means a
+  far/quiet voice stays below threshold and the head holds — "heard from a certain distance".
+- **Pluggable, robot-portable**: `DirectionEstimator` = `FixedDirectionEstimator` (default) |
+  `MicArrayDOAEstimator` (**hardware-week stub** — real GCC-PHAT direction-of-arrival needs the
+  robot's mic array). `HeadController` = `LoggingHeadController` (default, prints the target yaw,
+  no hardware) | `ReachyMiniHeadController` (**stub** — real Reachy SDK head-turn).
+- **The mapping/gate logic is unit-tested offline** (`tests/test_head_orient.py`); the estimated
+  azimuth is clamped to `HEAD_ORIENT_YAW_LIMIT_DEG` so a command never over-rotates the neck.
+- `orient_to_wake()` is fully guarded — a head-orient failure logs and returns `turned=False`;
+  it can never break a voice turn.
+
+**Owed (hardware week):** real mic-array DOA (GCC-PHAT/TDOA over ≥2 channels) to replace the
+fixed azimuth, and the real Reachy SDK head-turn to replace the logging stub — neither verifiable
+without the robot. Also: `run_hands_free_loop` passes no audio to the estimator yet (the fixed
+path ignores it); the DOA path will need the wake window's multi-channel audio retained.
 
 ## Why STT keyword-spotting (not openWakeWord)
 A custom phrase needs a **trained model** for openWakeWord/Porcupine — the reverted
@@ -29,8 +56,9 @@ when a trained "Cee-Jap" model exists (`WAKE_OWW_MODEL_PATH`).
 |---|---|
 | [app/wake_word.py](../app/wake_word.py) | `WakePhraseMatcher` (pure, tested) · `WakeDetector` (SttKeywordDetector default / OpenWakeWordDetector stub) · `MicAudioSource` (sounddevice, lazy) · `wait_for_wake` / `run_hands_free_loop` |
 | [wake_demo.py](../wake_demo.py) | Hands-free entry — wires the wake loop to the develop pipeline (retrieval→compose→TTS) |
-| [tests/test_wake_phrase.py](../tests/test_wake_phrase.py) | Matcher + detector-plumbing test (offline, $0) |
-| `config.py` §12 | The named parameters (below) |
+| [app/head_orient.py](../app/head_orient.py) | Head-orientation seam — `DirectionEstimator` (fixed default / mic-array DOA stub) · `HeadController` (logging default / Reachy SDK stub) · `orient_to_wake` (guarded) |
+| [tests/test_wake_phrase.py](../tests/test_wake_phrase.py) · [tests/test_head_orient.py](../tests/test_head_orient.py) | Matcher/detector + head-orient logic tests (offline, $0) |
+| `config.py` §12 (wake) · §13 (head orientation) | The named parameters |
 
 ## The matcher (robustness)
 "Cee-Jap" is out-of-vocabulary; Whisper spells it many ways. The matcher fires on the

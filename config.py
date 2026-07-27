@@ -681,6 +681,38 @@ WAKE_WORD_RATIO: float = _env_float("CJ_WAKE_WORD_RATIO", 0.80)
 WAKE_TOKEN_RATIO: float = _env_float("CJ_WAKE_TOKEN_RATIO", 0.86)
 # Optional trained-model path for the openWakeWord backend (empty = stub not wired).
 WAKE_OWW_MODEL_PATH: str = _env_str("CJ_WAKE_OWW_MODEL_PATH", "")
+
+
+# ===========================================================================
+# 13. HEAD ORIENTATION (turn toward the speaker on wake)      [ROBOT-SIDE]
+#    On a wake fire, estimate the speaker's direction and turn the Reachy Mini
+#    head toward it. Motors/gaze are ROBOT-side per the seam (design/w2_7_reachy_seam.md);
+#    real direction-of-arrival (mic-array GCC-PHAT) + the Reachy SDK head-turn are
+#    HARDWARE-week work. Until then the "signal inputs" are HARD-CODED here (a fixed
+#    azimuth + a level/distance gate) and the head-turn is a logging stub — the seam is
+#    parameterized and unit-tested so the real DOA/controller drop in without rewiring.
+#    Consumed by app/head_orient.py + app/wake_word.run_hands_free_loop.
+# ===========================================================================
+# Master switch (OFF by default — opt-in; never disturbs the laptop demo).
+HEAD_ORIENT_ENABLED: bool = _env_bool("CJ_HEAD_ORIENT_ENABLED", False)
+# Direction estimator: "fixed" (hard-coded azimuth below — the interim signal) |
+# "doa" (real mic-array direction-of-arrival — hardware-week stub, needs the array).
+HEAD_ORIENT_BACKEND: str = _env_str("CJ_HEAD_ORIENT_BACKEND", "fixed")
+# HARD-CODED direction signal (degrees): 0 = straight ahead, + = speaker to the robot's
+# right, - = left. The interim value until real DOA lands; tune per bench geometry.
+HEAD_ORIENT_FIXED_AZIMUTH_DEG: float = _env_float("CJ_HEAD_ORIENT_FIXED_AZIMUTH_DEG", 0.0)
+# HARD-CODED level for the fixed estimator (0..1) — a stand-in for the wake audio loudness
+# the real DOA path will measure; must clear MIN_LEVEL below for the head to move.
+HEAD_ORIENT_FIXED_LEVEL: float = _env_float("CJ_HEAD_ORIENT_FIXED_LEVEL", 1.0)
+# Distance/level GATE: only turn if the wake signal level >= this (0..1). "Voice heard
+# from a certain distance" — a far/quiet voice stays below the gate and the head holds.
+HEAD_ORIENT_MIN_LEVEL: float = _env_float("CJ_HEAD_ORIENT_MIN_LEVEL", 0.15)
+# Head yaw mechanical limit (degrees): the estimated azimuth is clamped to +/- this so a
+# command never exceeds the neck's range. Reachy Mini is conservative here.
+HEAD_ORIENT_YAW_LIMIT_DEG: float = _env_float("CJ_HEAD_ORIENT_YAW_LIMIT_DEG", 90.0)
+# Head controller: "log" (default — prints the target yaw, no hardware) | "reachy"
+# (real Reachy Mini SDK head-turn — hardware-week stub).
+HEAD_ORIENT_CONTROLLER: str = _env_str("CJ_HEAD_ORIENT_CONTROLLER", "log")
 # Display-name source (Part D output) — spoken topic names + speakable flags.
 TOPIC_DISPLAY_NAMES_PATH: Path = _env_path(
     "CJ_TOPIC_DISPLAY_NAMES_PATH", REPO_ROOT / "eval" / "results" / "topic_display_names.json")

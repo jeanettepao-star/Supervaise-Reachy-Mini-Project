@@ -259,6 +259,14 @@ def run_hands_free_loop(handle_query: Callable[[str], None],
         if not res.fired:
             break
         print(f"[wake] fired on {res.variant!r} (heard: {res.heard!r})")
+        try:                                    # [head-orient] turn toward the speaker (opt-in, guarded)
+            import head_orient
+            ho = head_orient.orient_to_wake()   # fixed/hard-coded direction until real DOA lands
+            if ho.get("turned"):
+                print(f"[head] oriented: yaw={ho['yaw_deg']}° "
+                      f"(azimuth={ho['azimuth_deg']}°, {ho['source']})")
+        except Exception:
+            pass                                # head-orient must never break a turn
         if greet:
             greet()
         query = capture_query() if capture_query else ""
