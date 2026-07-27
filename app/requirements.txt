@@ -34,13 +34,14 @@ scipy>=1.10.0
 # faster-whisper>=1.0.0     # local Whisper STT (cj_chat.main voice loop)
 # sounddevice>=0.4.6        # mic capture (record_until_silence)
 
-# --- NEW-ARCH retrieval engine (W1.5 dense arm; W1.7 centroids) ----
+# --- Retrieval engine (W1.5 dense arm; W1.7 centroids) — the develop pipeline
 # The runtime dense index (app/embeddings.py) embeds chunks/queries with
-# config.EMBED_MODEL_ID (BAAI/bge-large-en-v1.5, 1024-dim). Pulls torch
-# (~heavy). Required for the dense retrieval arm; the baseline Haiku/Sonnet
-# pipeline does NOT need it. MiniLM-384 / OpenAI text-embedding-3 are W3.4
-# benchmark alternatives, swapped via config (no code change).
-sentence-transformers>=2.7.0   # resident local embedding model (bge-large)
+# config.EMBED_MODEL_ID (BAAI/bge-base-en-v1.5, 768-dim; arch-baseline-v4
+# transition from the earlier bge-large). Pulls torch (~heavy). REQUIRED on
+# develop (the dense arm is the shipping retrieval path); the legacy kiosk
+# Haiku/Sonnet path does not use it. MiniLM-384 / OpenAI text-embedding-3 are
+# W3.4 benchmark alternatives, swapped via config (no code change).
+sentence-transformers>=2.7.0   # resident local embedding model (bge-base-en-v1.5)
 rank-bm25==0.2.2              # sparse arm (W1.6 BM25Okapi). PINNED: the gitignored
                               # pilot_sparse.pkl must rebuild byte-reproducibly.
 truststore>=0.10             # native_sdk composer transport: Python TLS via the OS

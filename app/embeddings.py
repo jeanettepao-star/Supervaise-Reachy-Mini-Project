@@ -3,9 +3,9 @@ W1.5 — runtime dense arm of the retrieval pipeline (box 5).
 
 A module-level singleton holds ONE resident embedding model for the whole
 service lifetime. The model id / dim / prefixes / device all come from config.py
-so the model stays swappable (bge-large-en-v1.5 today; MiniLM-384 and OpenAI
-text-embedding-3 are the W3.4 benchmark alternatives) without touching call
-sites. The same EMBED_MODEL_ID + EMBED_DIM are used by W1.7 centroids.
+so the model stays swappable (bge-base-en-v1.5 today — arch-baseline-v4; MiniLM-384
+and OpenAI text-embedding-3 are the W3.4 benchmark alternatives) without touching
+call sites. The same EMBED_MODEL_ID + EMBED_DIM are used by W1.7 centroids.
 
 Public API:
     get_model()                 -> the resident SentenceTransformer (loads once)

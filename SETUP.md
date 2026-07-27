@@ -1,14 +1,16 @@
-# SETUP.md — pilot dev environment
+# SETUP.md — pilot dev environment (`develop`)
 
-Minimal setup to run the **regression check** for the W1.1 baseline. The full
-voice demo needs extra audio packages and API keys (noted at the end).
+> **Full clean-clone → talking-demo path lives in
+> [`docs/RUNBOOK_clean_clone.md`](docs/RUNBOOK_clean_clone.md).** This page is the
+> quick reference for the venv, the hard pins, env vars, and a $0 sanity check on
+> the `develop` embeddings pipeline. (For the pre-W1.8 kiosk on
+> `pre-wake-word-integration`, see that branch's docs.)
 
 ## 1. Python
 
-- **Python 3.12** (validated on 3.12.13, Windows 10). 3.11+ should work
-  (the code uses `X | Y` union types and `list[str]` generics).
-- Use a project virtualenv (the system Python here is uv-managed and rejects
-  global `pip install`):
+- **Python 3.11 / 3.12** (validated on 3.12, Windows 10). The code uses `X | Y`
+  unions and `list[str]` generics (3.10+).
+- Use a project virtualenv:
 
 ```bash
 python -m venv .venv
@@ -20,82 +22,92 @@ python -m venv .venv
 ## 2. Dependencies
 
 ```bash
-# from repo root, into the venv:
 ./.venv/Scripts/python.exe -m pip install -r app/requirements.txt
 ```
 
-`app/requirements.txt` is the canonical list (versions are `>=` floors, not
-pinned — the baseline was validated against current releases; re-pin only if a
-release breaks it). What it installs and why:
+`app/requirements.txt` is the canonical list. **It contains hard pins that are
+load-bearing — do NOT relax them:**
+
+- **`pyarrow==21.0.0`** — pyarrow 24's `arrow.dll` access-violates (exit 139)
+  when loaded after torch 2.5.1, killing every `sentence_transformers` import.
+  Streamlit needs `pyarrow<25,>=7`, so removal isn't an option. Do not upgrade
+  without re-running the bare-import probe (`eval/results/postreboot/probe_report.json`).
+- **`rank-bm25==0.2.2`** — pinned so the gitignored `pilot_sparse.pkl` rebuilds
+  byte-reproducibly.
+
+What it installs and why:
 
 | Need | Packages |
 |---|---|
-| Claude router/composer/fidelity | `anthropic` |
-| Cloud STT/TTS (dashboard voice) | `openai`, `pydub`, `imageio-ffmpeg` |
+| Compose (streamed Sonnet) | `anthropic`, `truststore` |
+| Dense arm + centroids | `sentence-transformers` (bge-base), `torch`, `numpy`, `pyarrow` (pinned) |
+| Sparse arm (BM25) | `rank-bm25` (pinned) |
+| STT/TTS (demo host) | `openai` |
+| Local STT (offline path) | `faster-whisper` |
+| Voice demo UI | `streamlit` |
 | `.env` loading | `python-dotenv` |
-| Dashboard UI | `streamlit` |
-| Recorder + (future) numpy index | `numpy`, `scipy` |
 
-Commented/optional in the same file:
-- `faster-whisper`, `sounddevice` — only for the **CLI push-to-talk** voice
-  loop (`python app/cj_chat.py` with no `--text`). Imported lazily, so the
-  regression check below does **not** need them.
-- `sentence-transformers` — only for the **W1.4+ retrieval engine** (MiniLM
-  embeddings). Not used by the baseline; left out to keep the install light.
+`sentence-transformers` is an **active, required** dependency on `develop` (the
+dense retrieval arm), not optional.
 
-> **Minimal regression-only install:** if you just want the regression check,
-> `pip install anthropic python-dotenv` is enough — the offline steps need only
-> `anthropic` (a top-level import) and the stdlib.
+## 3. Embedding model (auto-downloaded)
 
-## 3. MiniLM embedding model (NEW-ARCH — not needed yet)
-
-The locked target architecture (W1.4–W1.7) embeds passages and topic centroids
-with **`all-MiniLM-L6-v2`** (384-dim), configured in `config.py`
-(`EMBEDDING_MODEL_ID`, `EMBEDDING_DIM`). When that engine lands:
+The dense arm and the topic centroids use **`BAAI/bge-base-en-v1.5`** (768-dim),
+configured in `config.py` (`EMBED_MODEL_ID`, `EMBED_DIM`). It is public and
+auto-downloads from the HF hub on first use (no token needed) into the HF cache;
+`get_model()` resolves `EMBED_MODEL_PATH` → HF cache snapshot → hub id. To
+pre-fetch:
 
 ```bash
-# pulls torch; downloads the model (~90 MB) to the HF cache on first use
-./.venv/Scripts/python.exe -m pip install sentence-transformers
-./.venv/Scripts/python.exe -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
+./.venv/Scripts/python.exe -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('BAAI/bge-base-en-v1.5')"
 ```
 
-The **baseline pipeline and the regression check do not use MiniLM** — skip
-this step until the retrieval engine is wired.
+(`all-MiniLM-L6-v2` / 384-dim and OpenAI `text-embedding-3` are W3.4 bakeoff
+alternatives only — not the shipping model. Do not install MiniLM expecting the
+pipeline to use it.)
 
 ## 4. Environment variables
 
-Copy `.env.example` → `.env` (repo root, `app/`, or cwd — all are searched;
-`app/.env` wins). Knobs in `config.py` also read these names directly.
+Copy `app/.env.example` → `app/.env` (also searched: repo-root `.env`, cwd
+`.env`; `app/.env` wins). `config.py` knobs read these names directly.
 
 | Var | Required for | Notes |
 |---|---|---|
-| `ANTHROPIC_API_KEY` | live answers (router + composer + fidelity) | `sk-ant-…`. **Only** thing gating the live regression. |
-| `OPENAI_API_KEY` | dashboard cloud STT/TTS (`voice_io.py`) | not needed for the regression |
-| `ROUTER_MODEL`, `INFERENCE_MODEL` | optional model overrides | default to Haiku 4.5 / Sonnet 4.6 |
-| `CJ_*` (e.g. `CJ_TAU`, `CJ_MAX_TOKENS`) | optional knob overrides | every `config.py` knob; precedence env > file |
+| `ANTHROPIC_API_KEY` | compose (the one pipeline LLM call) | `sk-ant-…` |
+| `OPENAI_API_KEY` | STT + TTS on the demo host | **required for the voice demo** (default `STT_BACKEND=openai`) |
+| `STT_BACKEND` | `openai` (default) or `local` | `local` = offline faster-whisper (`LOCAL_STT_MODEL=base`) |
+| `INFERENCE_MODEL` | composer model override | default `claude-sonnet-4-6` |
+| `CJ_*` (e.g. `CJ_RETRIEVAL_TOP_P`, `CJ_EMBED_DEVICE`) | optional knob overrides | every `config.py` knob; precedence env > file |
 
-## 5. Run the regression check
+## 5. Rebuild the gitignored index, then sanity-check
 
-**Offline** (no API key — confirms imports, config wiring, grounded-context
-assembly, and the config-driven topic-map build):
+The BM25 index is gitignored and must be rebuilt on a clean clone (see the
+runbook for the full list):
 
 ```bash
-# (a) every knob surfaces from one import
+./.venv/Scripts/python.exe scripts/build_sparse_index.py     # -> data/index/pilot_sparse.pkl (~1 min)
+```
+
+$0 checks (no API):
+
+```bash
+# (a) every knob surfaces from one import — no network, no model load
 ./.venv/Scripts/python.exe config.py
 
-# (b) pipeline imports, reads config, assembles a grounded context block
-./.venv/Scripts/python.exe -c "import sys; sys.path.insert(0,'app'); import cj_chat, config; a=cj_chat.CorpusArtifacts(); print(len(a.topics),'topics;', cj_chat._approx_tokens(cj_chat.build_context({'primary_topic':'rule_of_law','secondary_topics':['twin_beacons_doctrine'],'confidence':'high'}, a)),'ctx tokens')"
-
-# (c) existing build still runs (idempotent except its timestamp)
-./.venv/Scripts/python.exe scripts/build_topic_map.py
+# (b) filler-v5 routing/sequencer harness (stubbed compose; $0)
+./.venv/Scripts/python.exe scripts/verify_filler_v5.py
 ```
 
-**Live** (needs `ANTHROPIC_API_KEY`) — the single command that produces a
-grounded answer end-to-end (text mode, no audio):
+Live check (needs `ANTHROPIC_API_KEY`) — one grounded answer end-to-end, no audio:
 
 ```bash
-./.venv/Scripts/python.exe app/cj_chat.py --text "What is the rule of law?"
+./.venv/Scripts/python.exe app/service.py --query "What is the rule of law?"
 ```
 
-Without a key this stops cleanly at a `RuntimeError` telling you which `.env`
-files were searched — that is the key guard, not a failure of the build.
+Without a key this stops cleanly at a `RuntimeError` naming the `.env` files it
+searched — that is the key guard, not a build failure.
+
+> **Legacy note.** `app/cj_chat.py` and `app/dashboard.py` are the pre-W1.8 kiosk
+> and now exit unless `CJ_ALLOW_LEGACY=1`. The develop entrypoints are
+> `app/service.py --query …` (headless) and `streamlit run streamlit_voice_demo.py`
+> (voice demo).

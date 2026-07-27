@@ -1,211 +1,116 @@
-# CJ Panganiban Conversation App
+# CJ Panganiban Conversation App — `app/` (develop)
 
-A voice conversation app that speaks as retired Philippine Chief Justice
-Artemio V. Panganiban, grounded in his published corpus (65 columns + 1 book of
-19 chapters + 4 appendices = 89 documents, ~150K words).
+The runnable pipeline that speaks as retired Philippine Chief Justice Artemio V.
+Panganiban, grounded in his published corpus via an embeddings retrieval
+pipeline.
 
-Built per `corpus/build_kit/README.md`. This directory is the runnable app.
+> **Branch check.** This describes the **`develop`** architecture (bge-base
+> embeddings + BM25 + RRF + centroids + nucleus cutoff). The single source of
+> truth is [`../docs/handover_claude_code_2026-07-18.md`](../docs/handover_claude_code_2026-07-18.md).
+> The push-to-talk kiosk (`app/app.py`, Haiku router, no embeddings) belongs to
+> the `pre-wake-word-integration` branch.
 
 ## Pipeline
 
 ```
 [mic]
-  ↓ faster-whisper (local STT)
+  ↓ STT — OpenAI whisper-1 (default; STT_BACKEND=local → faster-whisper)
 User question (text)
-  ↓ Claude Haiku 4.5 (router)
-1–3 canonical topic IDs from topic_map.json
-  ↓ load topic data + 2-3 raw doc extractions
-Context block
-  ↓ Claude Sonnet 4.6 (inference, in CJ's voice)
-Response text
-  ↓ Piper (local TTS)
+  ↓ input_gate + route — LOCAL zero-LLM (embed bge-base 768d → cosine vs 34 centroids → softmax)
+  ↓ retrieve — dense pilot (827) + BM25 (same docs) → RRF (K=60) → passage_sim + LAMBDA·affinity
+              → top-p nucleus cutoff (floor MIN_K)
+  ↓ compose — ONE streamed Claude Sonnet 4.6 call (cached Voice-Card; prose then ---ENVELOPE--- + JSON)
+Response text (streamed)
+  ↓ two-part theme+topic filler (v5) → OpenAI tts-1 (pipelined) → gapless playback
 [speakers]
 ```
 
-Two Claude API calls per turn. Everything else runs locally.
+`llm_calls_before_composition = 0` — the router is deterministic and local; the
+streamed compose is the only pipeline API round-trip. STT/TTS are separate OpenAI
+calls on the demo topology.
 
 ## Quick start
 
-### Prerequisites
-
-- Python 3.11 (3.12 also works; faster-whisper builds are most stable on 3.11)
-- A working microphone and speakers
-- An Anthropic API key in `.env` (file is gitignored)
-
-### Run the smoke test (text-only — no audio)
+Requires **both** `ANTHROPIC_API_KEY` and `OPENAI_API_KEY` in `app/.env` (see
+[`.env.example`](.env.example)).
 
 ```bash
-.venv/Scripts/python.exe cj_chat.py --text "What is the rule of law?"
+# headless, text-only (no audio, no STT/TTS) — the fastest sanity check
+../.venv/Scripts/python.exe service.py --query "What is the rule of law?"
+
+# full voice demo (run from the repo ROOT, not app/)
+../.venv/Scripts/python.exe -m streamlit run ../streamlit_voice_demo.py
 ```
 
-This skips STT/TTS and exercises the full router → inference pipeline. You
-should see the routing decision (primary topic, secondary, confidence) and a
-response written in CJ's voice (twin beacons, *Au contraire*, "Cheers!" etc.).
+`service.py --query` prints the route, per-stage retrieval timing, the selected
+chunk_ids, and the composed answer.
 
-### Run the full voice loop
+> **Legacy, guarded.** `cj_chat.py` (CLI) and `dashboard.py` (Streamlit) are the
+> pre-W1.8 kiosk stack; both `raise SystemExit(2)` unless `CJ_ALLOW_LEGACY=1`.
+> They are **not** the develop entrypoints — use `service.py` /
+> `streamlit_voice_demo.py`.
 
-```bash
-.venv/Scripts/python.exe cj_chat.py
-```
+## Setup on a clean clone
 
-Press Enter to start each turn. Speak your question. The recorder stops
-automatically after ~1.2s of trailing silence. The app transcribes, routes,
-generates, and speaks the response. Ctrl+C to exit.
+Follow [`../docs/RUNBOOK_clean_clone.md`](../docs/RUNBOOK_clean_clone.md) — it
+covers the venv, the `pyarrow==21.0.0` pin, `ANTHROPIC_API_KEY` + `OPENAI_API_KEY`,
+rebuilding the gitignored dense/sparse indices, regenerating the filler clips,
+the Avast Service-host profile, and Piper (for the local/robot TTS path).
 
-### Run the chat dashboard (the demo UI)
+## Modules
 
-The dashboard is a self-contained Streamlit chat app — mic input, text
-fallback, inline playback of CJ's spoken response, and a Sources expander
-showing which corpus topics matched. It's the primary UI for the demo.
+| File | Role |
+|---|---|
+| `service.py` | Streamed Sonnet compose, `build_payload`, envelope split/stream (`---ENVELOPE---` never spoken), the versioned `answer()` service contract, transport resolution (native_sdk / schannel_curl). |
+| `retrieval.py` | `input_gate`, `route` (centroid soft-prior), `retrieve` (dense+BM25 RRF fuse + top-p nucleus), `run` (per-stage timing). Home of the DARK date-index / entity-rescue branches. |
+| `embeddings.py` | Resident bge-base dense arm (`get_model`, `embed_query/documents`, `load_dense_index`, `dense_score`). Carries the pyarrow-before-torch DLL-order guard. |
+| `sparse.py` | BM25 arm + curated atomic-phrase dictionary (shared tokenizer, greedy longest-match). |
+| `filler_route.py` | v5 two-part theme+topic filler: `decide()` gates + the LOCKED clip text (theme variants, neutral pool, topic templates) + grammar check. |
+| `voice_job.py` | Threaded filler+synth job machinery (Streamlit-free, `$0`-testable): the v5 sequencer, reservation-index invariant, watchdog. |
+| `voice_stream.py` | `SentenceChunker` + the pluggable `TTS` protocol (`SapiTTS`, `PiperTTS` drop-in) + `speak_stream`. |
+| `voice_io.py` | STT/TTS helper layer (reads the `OPENAI_*` config knobs). |
+| `app.py`, `cj_chat.py`, `dashboard.py` | **Legacy kiosk surfaces** (`CJ_ALLOW_LEGACY`-guarded); belong to `pre-wake-word-integration`. |
 
-```bash
-.venv/Scripts/streamlit run dashboard.py
-```
-
-Then open the URL Streamlit prints (default `http://localhost:8501`). The
-first time you click 🎤 in the browser, Chrome/Edge will ask for microphone
-permission — accept it.
-
-**How it works:**
-- 🎤 records in the browser; click record, speak, click stop
-- Or type into the "…or type it (fallback)" box at the bottom
-- The same pipeline runs: faster-whisper → router (Haiku) → inference (Sonnet) → Piper TTS
-- CJ's response plays inline; the Sources expander shows the primary topic,
-  secondary topics, confidence, router reasoning, and the top 3 source
-  documents that informed the answer
-- Conversation history is kept in the browser session (last 10 turns are
-  passed to the inference call for context); "🧹 Clear conversation" in the
-  sidebar resets it
-- Sidebar toggle "Generate Piper voice" — turn off to skip TTS (~5-10s
-  faster per turn) if you only want text replies during testing
-
-The CLI (`cj_chat.py`) is still available for headless / terminal use and
-covers the same pipeline.
-
-## Repo layout
-
-```
-app/
-├── cj_chat.py              # CLI entrypoint (text + voice modes, drives audio I/O)
-├── dashboard.py            # Streamlit chat app (mic + text fallback, the demo UI)
-├── state/                  # Runtime artifacts e.g. generated TTS wavs (GITIGNORED)
-│   └── tts/
-├── README.md               # You are here
-├── .env                    # ANTHROPIC_API_KEY + paths (GITIGNORED — never commit)
-├── .gitignore
-├── requirements.txt
-├── artifacts/              # Corpus artifacts loaded at startup
-│   ├── voice_card.md       # Inference system prompt (CJ's voice)
-│   ├── router_prompt.md    # Router system prompt
-│   ├── topic_map.json      # 37 canonical topics
-│   ├── topic_graph.json
-│   ├── entity_index.json   # 69 people + 16 cases + 15 laws
-│   ├── frameworks.json     # 10 mnemonic frameworks
-│   ├── signature_library.json
-│   └── topics/             # 89 raw per-doc extractions
-├── piper/                  # Local Piper TTS binary + dlls (Windows build)
-│   └── piper.exe
-└── voices/
-    ├── en_US-ryan-high.onnx       # Voice model (~120 MB)
-    └── en_US-ryan-high.onnx.json
-```
-
-`piper/` and `voices/` are gitignored — they're large binary assets installed
-per-machine. See "From-scratch setup" below to reinstall.
-
-## From-scratch setup
-
-```bash
-# 1. Create venv
-py -3.11 -m venv .venv
-.venv/Scripts/python.exe -m pip install -U pip
-.venv/Scripts/python.exe -m pip install -r requirements.txt
-
-# 2. Create .env (DO NOT commit) — see .env.example for the format
-cp .env.example .env
-# Edit .env and paste your ANTHROPIC_API_KEY
-
-# 3. Install Piper TTS (Windows binary)
-#    Download piper_windows_amd64.zip from
-#    https://github.com/rhasspy/piper/releases
-#    and extract into ./piper/
-
-# 4. Download the voice model
-#    https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ryan/high
-#    Save both files into ./voices/:
-#       en_US-ryan-high.onnx
-#       en_US-ryan-high.onnx.json
-
-# 5. (Optional) Pre-fetch the whisper model — it auto-downloads on first run
-.venv/Scripts/python.exe -c "from faster_whisper import WhisperModel; WhisperModel('medium', device='cpu', compute_type='int8')"
-```
+All knobs come from [`../config.py`](../config.py); no module hardcodes a literal
+that belongs in a sweep (see the audit for the few live-path exceptions being
+cleaned up).
 
 ## Configuration
 
-Set these in `.env`:
+Every knob lives in `../config.py` and is env-overridable (`CJ_*`, plus a few
+bare names like `OPENAI_API_KEY`, `STT_BACKEND`, `INFERENCE_MODEL`). The knobs a
+demo operator actually flips:
 
 | Var | Default | What |
 |---|---|---|
-| `ANTHROPIC_API_KEY` | (required) | Claude API key |
-| `WHISPER_MODEL` | `medium` | `small` (English-only) or `medium` (Filipino/English code-switch). 769 MB download. |
-| `PIPER_BIN` | `./piper/piper.exe` | Path to the Piper executable |
-| `PIPER_VOICE` | `./voices/en_US-ryan-high.onnx` | Voice model path |
+| `ANTHROPIC_API_KEY` | (required) | Claude API key (compose) |
+| `OPENAI_API_KEY` | (required) | OpenAI key (STT + TTS on the demo host) |
+| `STT_BACKEND` | `openai` | `openai` (whisper-1) or `local` (faster-whisper, offline) |
+| `LOCAL_STT_MODEL` | `base` | faster-whisper size when `STT_BACKEND=local` |
+| `INFERENCE_MODEL` | `claude-sonnet-4-6` | composer model override |
+| `CJ_EMBED_DEVICE` | `cuda` | `cuda` or `cpu` for the resident embedder |
 
 ## Sanity-check questions
 
-From the build-kit README — verify the voice and routing before demo day:
+Verify voice + routing before demo day (run via `service.py --query`):
 
 | Question | Expected |
 |---|---|
-| "What is the rule of law?" | → `rule_of_law` high. Mentions twin beacons, 1987 Constitution. |
-| "Tell me about your mentor." | → `mentor_salonga` high. Tells the 1956 FEU strike anecdote. |
-| "What's your favorite color?" | → `personal_formation` low. Gracefully declines, redirects. |
-| "Tell me about the Foundation." | → `flp_institutional_history` high. 2011 founding, twin beacons. |
-
-## Cost & performance
-
-A 50-turn demo session: ~$0.80 total (Haiku router + Sonnet inference).
-
-Targets:
-- End-to-end turn latency: ≤ 4s (TTS streaming is the typical bottleneck)
-- Per-turn cost: ≤ $0.02
-- Router accuracy: ≥ 85%
-
-## Architecture notes
-
-- **Two Claude calls (router + inference) instead of one** keeps the inference
-  context small (10–20K tokens for 1–3 topics + 2–3 raw docs) rather than
-  stuffing 320KB of topic_map into one giant call. ~$0.015/turn vs ~$3/turn.
-- **Local STT/TTS** keeps audio off the network for cost, latency, privacy,
-  and demo reliability (only Claude calls need wifi).
-- **The voice card is the system prompt** on the inference call, not a user
-  message. If CJ sounds generic, double-check that wiring first.
-
-## What's not yet here
-
-Per the build-kit README, these are deliberately out of scope for the May 30
-demo:
-- Speech corpus (~150 CJ speeches — Pass B addition)
-- Multi-turn memory beyond last 10 turns (already trimmed in code)
-- Robot embodiment (Reachy Mini wiring)
-- Web UI (CLI only)
-- Response caching
-- Real-time interruption handling
+| "What is the rule of law?" | routes to the rule-of-law topic; answers on twin beacons / 1987 Constitution, cites chunks. |
+| "What can you say about the Museum of Liberty and Prosperity?" | routes to the Foundation theme; answers from the FLP docs. |
+| "What's your favorite color?" | out-of-domain → graceful in-voice decline, cites nothing. |
 
 ## Troubleshooting
 
-- **"Router output unparseable"** — Haiku occasionally adds preamble. The
-  reference impl strips code fences; if it persists, drop router temperature
-  to 0.
-- **Whisper hallucinates "Thank you" on silence** — VAD is on by default.
-  If still happening, bump `vad_parameters={"min_silence_duration_ms": 1000}`
-  in `transcribe_audio`.
-- **Piper sounds robotic** — that's Piper. Swap to OpenAI TTS `onyx` or
-  ElevenLabs for production-quality voice. `synthesize_speech()` is the
-  single point of change.
-- **CJ sounds generic / not like himself** — confirm `voice_card.md` is being
-  loaded as the `system=` parameter on the inference call (not a user
-  message). Confirm model is `claude-sonnet-4-6` or better.
+- **`OPENAI_API_KEY missing` / `ANTHROPIC_API_KEY missing`** — the demo needs
+  both; put them in `app/.env`.
+- **Transport = schannel_curl / native TLS broken** — the Avast HTTPS-scanning
+  regression; apply the Service-host profile per
+  [`../docs/RUNBOOK_transport.md`](../docs/RUNBOOK_transport.md).
+- **Segfault (exit 139) on model load** — pyarrow/torch DLL order; keep
+  `pyarrow==21.0.0` pinned (see `requirements.txt`).
+- **First question slow** — ~30–40s one-time embedder warm on boot; the demo
+  warms on launch so question 1 is ready.
 
 ---
 

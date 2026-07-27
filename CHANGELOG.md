@@ -1,5 +1,15 @@
 # CHANGELOG
 
+> **⚠️ This changelog stops at 2026-06-30 (W1.8b) — it does not cover the current
+> head.** Since this last entry the pipeline landed W2.x/W3.x, transitioned the
+> embedder bge-large → **bge-base** (arch-baseline-v4), promoted the OPS-2
+> full-corpus artifacts (**arch-baseline-v4.2**, `9ef1f5c`, the current baseline),
+> and added the **two-part theme+topic filler (v5)** and the OpenAI STT re-bench.
+> For the current architecture and state, read
+> [`docs/handover_claude_code_2026-07-18.md`](docs/handover_claude_code_2026-07-18.md);
+> for tag lineage see that handover §1. (Corpus figures below — 1,089/8,887 — also
+> predate the current 1,109 docs / 9,865 chunks.)
+
 ## 2026-06-30 — W1.8b TRANSPORT REMEDIATION → Phase 5 escalation (deploy signal)
 
 Goal: native anthropic SDK + native model load, so W1.9 latency/cost is measured

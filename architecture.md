@@ -1,10 +1,25 @@
 # CJ Panganiban Conversation App — Overall Architecture
 
-**Version:** 1.0 (post-Phase-3)
-**Status:** Phases 1–3 complete; Phase 4 (runtime) is the next build
+> ## ⚠️ SUPERSEDED for the `develop` retrieval architecture
+>
+> This document describes the **Phase-3 design intent** — the "Direct Corpus
+> Interaction" model with a Haiku router/gate/fidelity chain and **no vector
+> store at runtime**. That is **not** what runs on `develop`. On `develop` the
+> pipeline is an **embeddings retrieval system** (bge-base dense + BM25, RRF-fused,
+> 34-topic centroid soft-prior, top-p nucleus cutoff → one streamed Sonnet call;
+> the router is zero-LLM). The "embeddings only for offline audit / no vector
+> store" claims below are **false for `develop`**.
+>
+> **For the current architecture, read
+> [`docs/handover_claude_code_2026-07-18.md`](docs/handover_claude_code_2026-07-18.md).**
+> Kept here for design-intent / history and because the corpus-generation and
+> deployment-surface sections remain useful.
+
+**Version:** 1.0 (post-Phase-3) — *design-intent snapshot; retrieval superseded on `develop`*
+**Status:** Phases 1–3 complete; the runtime shipped and rebaselined (arch-baseline-v4.2)
 **Audience:** FLP project team, engineers, future maintainers
 
-This document gives a single, coherent picture of the whole system — the corpus that exists today, the runtime that is planned, and the deployment surfaces it must serve. It supersedes ad-hoc descriptions scattered across the project README.
+This document gives a single, coherent picture of the whole system — the corpus that exists today, the runtime that is planned, and the deployment surfaces it must serve. It supersedes ad-hoc descriptions scattered across the project README. *(Historical note: the "planned runtime" below was the DCI/Haiku-router design; `develop` instead shipped the embeddings pipeline — see the banner above.)*
 
 ---
 

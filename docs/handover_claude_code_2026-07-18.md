@@ -71,7 +71,8 @@ query
 `EMBED_DIM=768`, `RRF_K=60`, `LAMBDA=0.25`, `RETRIEVAL_TOP_P=0.95`, `RETRIEVAL_MIN_K=4`,
 `RETRIEVAL_TOP_P_BASIS=softmax_temp`, `RETRIEVAL_SOFTMAX_TEMP=0.06`,
 `OUT_OF_SCOPE_THRESHOLD=0.15` (proven inert — composer-decline owns OOS),
-`COMPOSER_TOP_K=12`, `COMPOSER_MAX_TOKENS=640`, composer = `claude-sonnet-4-6`.
+`COMPOSER_TOP_K=12`, `COMPOSER_MAX_TOKENS=480` (lowered 640→480 with the W3.3-LITE
+concise-length directive, 2026-07-18), composer = `claude-sonnet-4-6`.
 
 **Corpus / index:** 1,109 docs / **9,865 chunks** (`corpus/index/chunks.jsonl`);
 `data/index/corpus_dense.npy` (9865, 768) bge-base; `topic_centroids.npy` (34, 768)
