@@ -6,6 +6,9 @@ runbook closes the gates left open by `filler_v5_phase2c_bisect_2026-07-24.md` a
 (1) multi-turn audio survival, (2) mid-session-rerun recovery, (3) the real audible Felt-TTFA. Hand the
 filled-in results to Dev0 for the W3.5 FINAL.
 
+Related: [filler_v5_phase2c_bisect_2026-07-24.md](../eval/results/filler_v5_phase2c_bisect_2026-07-24.md) ·
+[filler_v5_reattest2_2026-07-24.md](../eval/results/filler_v5_reattest2_2026-07-24.md) · transport: [RUNBOOK_transport.md](RUNBOOK_transport.md)
+
 > ⚠️ Do **not** reload the page or restart Streamlit during Tests A–D. A reload resets the very state under
 > test and voids the run. Re-attestation must be **8+ consecutive turns, one session, no reloads.**
 
@@ -83,3 +86,7 @@ Across the session, screenshot any of:
 `d54a19e` is *unverified* until they pass live. Test C is what finally replaces the enqueue-basis KPI with a
 true audible number. `.mp3` clips are gitignored by repo policy (regenerated via `scripts/gen_v5_subject_free_clips.py`),
 so a fresh demo-bench clone must run that script once before Pre-flight.
+
+*New columns written by the fix (`voice_demo_log.csv`): `fire_mode`, `t_filler_fire_call_s`, `deadair_watchdog_fired`,
+`t_filler1_audible_s`, `t_first_content_audible_s`, `audible_onset_observable`. Full per-turn telemetry also lands in
+`eval/results/filler_v5_trace_2026-07-24.jsonl`.*
