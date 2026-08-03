@@ -18,7 +18,8 @@ Layers (each independently testable / swappable):
     Tolerant of Cee-Jap mishears (see jap / cee jap / seejap / seejop); strict against
     near-misses (see the map / japan / cheese) AND the legacy CJ/see-jay family, retired
     per WW-5 (2026-07-27). Zero deps, offline.
-  * WakeDetector (protocol) — SttKeywordDetector (default) | OpenWakeWordDetector (stub).
+  * WakeDetector (protocol) — SttKeywordDetector (default) | OpenWakeWordDetector
+    (audio-level, wired to the trained wakeword/CJAP hey_cee_jap.onnx).
   * AudioSource (protocol) — MicAudioSource (sounddevice, lazy/optional) | inject frames.
   * wait_for_wake() / run_hands_free_loop() — arm, detect, capture the query, hand
     query_text to a pipeline callback. The pipeline stays decoupled (robot-portable).
@@ -144,6 +145,47 @@ class WakePhraseMatcher:
         return f"WakePhraseMatcher(single={len(self._single)}, multi={len(self._multi)})"
 
 
+def strip_wake_prefix(text: str, matcher: Optional[WakePhraseMatcher] = None) -> tuple[str, bool]:
+    """Remove a leading wake phrase (plus carrier words) from a transcript.
+
+    "Hey Cee-Jap, what is the rule of law?" -> ("what is the rule of law?", True).
+    Pure text, config-driven via the matcher's variants. The original casing and
+    punctuation of the remainder are preserved; the text is returned unchanged when
+    the phrase is absent or only appears mid-sentence (that is the query's business).
+    Used by surfaces that capture wake + question in ONE utterance (Streamlit demo),
+    so the pipeline receives only query_text per the seam.
+    """
+    m = matcher or WakePhraseMatcher()
+    raw_toks = (text or "").split()
+    # Flatten normalized words with a map back to raw token indices ("Cee-Jap," is one
+    # raw token but two normalized words).
+    flat: list[tuple[str, int]] = []
+    for ri, tok in enumerate(raw_toks):
+        for word in m._norm(tok).split():
+            flat.append((word, ri))
+    i = 0
+    while i < len(flat) and flat[i][0] in _CARRIERS:
+        i += 1
+    end_raw = None                      # raw index of the token that ends the phrase
+    for words in m._multi:              # multi-word variants: adjacent normalized run
+        n = len(words)
+        if i + n <= len(flat) and all(m._ratio(flat[i + j][0], words[j]) >= m.word_ratio
+                                      for j in range(n)):
+            end_raw = flat[i + n - 1][1]
+            break
+    if end_raw is None and i < len(flat):
+        tok = flat[i][0]                # single-token variants ("seejap", "cjap")
+        for v in m._single:
+            if tok == v or (len(v) >= 5 and abs(len(tok) - len(v)) <= 1
+                            and m._ratio(tok, v) >= m.token_ratio):
+                end_raw = flat[i][1]
+                break
+    if end_raw is None:
+        return text or "", False
+    rest = " ".join(raw_toks[end_raw + 1:]).lstrip(",.!?;:-— ").strip()
+    return rest, True
+
+
 # ---------------------------------------------------------------- detectors (pluggable)
 class WakeDetector:
     """Protocol: given a short audio window (path or PCM), did the wake phrase occur?"""
@@ -169,17 +211,98 @@ class SttKeywordDetector(WakeDetector):
 
 
 class OpenWakeWordDetector(WakeDetector):
-    """Robot/production backend stub. A custom phrase needs a trained model
-    (cf. the reverted PLAN-0008 hey_cj.onnx). Wire config.WAKE_OWW_MODEL_PATH to a
-    trained "Cee-Jap" .onnx to enable; unimplemented here on purpose."""
-    def __init__(self, model_path: Optional[str] = None):
-        self.model_path = model_path or _cfg("WAKE_OWW_MODEL_PATH", None)
+    """Audio-level backend: score a WAV window with the trained openWakeWord model
+    (wakeword/CJAP/colab/train_hey_cee_jap.ipynb -> hey_cee_jap.onnx) and fire when
+    the peak score clears config.WAKE_OWW_THRESHOLD.
 
-    def detect(self, wav_path: str | Path) -> MatchResult:  # pragma: no cover
-        raise NotImplementedError(
-            "openWakeWord backend needs a trained model for the wake phrase. "
-            "Train a 'Cee-Jap' .onnx and set config.WAKE_OWW_MODEL_PATH, or use "
-            "the default stt_keyword backend.")
+    Unlike SttKeywordDetector this never runs STT: the audio is embedded by
+    openwakeword's frozen feature models and scored by the ~200 KB trained head —
+    the always-on robot path. Lazy everywhere: importing this module stays
+    $0/offline; the model loads on first detect() (plus a one-time ~6 MB download
+    of openwakeword's melspectrogram/embedding models into the package if absent).
+    """
+
+    def __init__(self, model_path: Optional[str] = None, threshold: Optional[float] = None):
+        raw = model_path or _cfg("WAKE_OWW_MODEL_PATH", "")
+        p = Path(raw) if raw else None
+        if p is not None and not p.is_absolute():
+            p = _REPO_ROOT / p
+        self.model_path = p
+        self.threshold = float(threshold if threshold is not None
+                               else _cfg("WAKE_OWW_THRESHOLD", 0.40))
+        self._model = None
+
+    def _load(self):
+        if self._model is not None:
+            return self._model
+        if not self.model_path or not self.model_path.exists():
+            raise FileNotFoundError(
+                f"openWakeWord model not found at {str(self.model_path)!r}. Train it with "
+                "wakeword/CJAP/colab/train_hey_cee_jap.ipynb and unzip the bundle into "
+                "wakeword/CJAP/models/ (keep the .onnx.data sidecar beside the .onnx), "
+                "or point CJ_WAKE_OWW_MODEL_PATH elsewhere.")
+        try:
+            import openwakeword
+            from openwakeword.model import Model
+        except ImportError as e:
+            raise ImportError("openwakeword backend needs `pip install openwakeword==0.6.0` "
+                              "(pulls onnxruntime) in this environment") from e
+        res = Path(openwakeword.__file__).parent / "resources" / "models"
+        if not (res / "melspectrogram.onnx").exists():
+            # Feature models are not bundled in the pip package; one-time ~6 MB fetch.
+            openwakeword.utils.download_models(model_names=["hey_jarvis_v0.1"])
+        self._model = Model(wakeword_models=[str(self.model_path)],
+                            inference_framework="onnx")
+        return self._model
+
+    def detect(self, wav_path: str | Path) -> MatchResult:
+        import numpy as np
+        model = self._load()
+        audio = self._read_16k_mono(wav_path)
+        # Pad 2 s lead / 0.5 s tail: the model scores a STREAM through a 2 s feature
+        # window, so audio shorter than the window ends before the phrase is seen in
+        # full context and scores ~0 regardless of content (measured on the validation
+        # clips: 0.002 raw vs 0.742 padded, same verified utterance). Mirrors
+        # wakeword/CJAP/validate.py.
+        audio = np.concatenate([np.zeros(2 * 16000, np.int16), audio,
+                                np.zeros(16000 // 2, np.int16)])
+        if hasattr(model, "reset"):
+            model.reset()
+        peak = 0.0
+        for i in range(0, len(audio) - 1280 + 1, 1280):
+            peak = max(peak, max(model.predict(audio[i:i + 1280]).values()))
+        return MatchResult(peak >= self.threshold, variant=self.model_path.stem,
+                           score=round(float(peak), 3),
+                           heard=f"<audio:{Path(wav_path).name}>")
+
+    @staticmethod
+    def _read_16k_mono(wav_path: str | Path):
+        """int16 mono 16 kHz from any PCM WAV (browser mics record 44.1/48 kHz)."""
+        import wave
+        import numpy as np
+        with wave.open(str(wav_path), "rb") as w:
+            sr, nch, sw = w.getframerate(), w.getnchannels(), w.getsampwidth()
+            raw = w.readframes(w.getnframes())
+        if sw == 2:
+            a = np.frombuffer(raw, dtype="<i2").astype(np.float32)
+        elif sw == 4:
+            a = np.frombuffer(raw, dtype="<i4").astype(np.float32) / 65536.0
+        elif sw == 1:
+            a = (np.frombuffer(raw, dtype=np.uint8).astype(np.float32) - 128.0) * 256.0
+        else:
+            raise ValueError(f"unsupported WAV sample width: {sw} bytes")
+        if nch > 1:
+            a = a.reshape(-1, nch).mean(axis=1)
+        if sr != 16000:
+            try:
+                from math import gcd
+                from scipy.signal import resample_poly
+                g = gcd(sr, 16000)
+                a = resample_poly(a, 16000 // g, sr // g)
+            except ImportError:               # linear fallback — adequate for a gate
+                n = int(round(len(a) * 16000 / sr))
+                a = np.interp(np.linspace(0, len(a) - 1, n), np.arange(len(a)), a)
+        return np.clip(a, -32768, 32767).astype(np.int16)
 
 
 def make_detector(backend: Optional[str] = None) -> WakeDetector:

@@ -679,8 +679,17 @@ WAKE_COOLDOWN_S: float = _env_float("CJ_WAKE_COOLDOWN_S", 1.0)
 # single-word forms (with a tight length guard). Defaults tuned on the Cee-Jap family.
 WAKE_WORD_RATIO: float = _env_float("CJ_WAKE_WORD_RATIO", 0.80)
 WAKE_TOKEN_RATIO: float = _env_float("CJ_WAKE_TOKEN_RATIO", 0.86)
-# Optional trained-model path for the openWakeWord backend (empty = stub not wired).
-WAKE_OWW_MODEL_PATH: str = _env_str("CJ_WAKE_OWW_MODEL_PATH", "")
+# Trained-model path for the openWakeWord backend (audio-level detection, no STT in
+# the loop). Produced by wakeword/CJAP/colab/train_hey_cee_jap.ipynb; scored 2026-08-03
+# on the 34 held-out clips: recall 73.5% overall / 85.7% hard tier, 0/8 WW-5
+# spelled-letter negatives fired. Relative paths resolve against the repo root.
+# Keep hey_cee_jap.onnx.data (weight sidecar, if present) beside the .onnx.
+WAKE_OWW_MODEL_PATH: str = _env_str("CJ_WAKE_OWW_MODEL_PATH",
+                                    "wakeword/CJAP/models/hey_cee_jap.onnx")
+# Peak-score threshold for a wake fire on the openwakeword backend. 0.40 comes from
+# validate.py's sweep: highest recall with zero WW-5 negatives firing, and a 16x
+# margin over the loudest negative clip (0.024).
+WAKE_OWW_THRESHOLD: float = _env_float("CJ_WAKE_OWW_THRESHOLD", 0.40)
 
 
 # ===========================================================================

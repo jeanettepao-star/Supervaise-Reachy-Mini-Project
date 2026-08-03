@@ -34,6 +34,7 @@ import base64
 import csv
 import hashlib
 import os
+import queue
 import sys
 import tempfile
 import threading
@@ -55,6 +56,8 @@ import service                # noqa: E402
 import embeddings             # noqa: E402
 import voice_stream           # noqa: E402  (SentenceChunker — reused)
 import voice_job              # noqa: E402  (job machinery: filler/rotation/telemetry — $0-tested)
+import wake_word              # noqa: E402  ($0 import; model loads lazily via the gate below)
+import wake_listen            # noqa: E402  ($0 import; hands-free host-mic listener thread)
 
 LOG = ROOT / "eval" / "results" / "voice_demo_log.csv"
 LOG_COLS = ["timestamp", "mode", "transcript", "stt_seconds", "ttfa_felt_s", "status",
@@ -137,6 +140,67 @@ def filler_decks(voice: str) -> dict:
             "seq_state": {"turn": 0, "topic_template_decks": {}}}
 
 
+@st.cache_resource(show_spinner="Loading the Hey Cee-Jap wake model (one-time)...")
+def wake_gate_detector():
+    """[WAKE] Audio-level gate on the trained openwakeword model (hey_cee_jap.onnx,
+    wakeword/CJAP — recall 73.5%, 0/8 WW-5 negatives at threshold 0.40). Returns
+    (detector, None) or (None, reason) — the demo must degrade, never crash, when
+    the model or the openwakeword package is absent."""
+    try:
+        det = wake_word.OpenWakeWordDetector()
+        det._load()
+        return det, None
+    except Exception as e:
+        return None, f"{type(e).__name__}: {e}"
+
+
+@st.cache_resource
+def wake_matcher() -> wake_word.WakePhraseMatcher:
+    """[WAKE] STT-keyword fallback + wake-prefix stripping (pure text, $0)."""
+    return wake_word.WakePhraseMatcher()
+
+
+@st.cache_resource
+def input_devices() -> list:
+    """[WAKE] (label, index) for every host input device; None = system default.
+    The Steam-virtual-mic saga proved defaults lie on this machine — show names."""
+    try:
+        import sounddevice as sd
+        default_in = sd.default.device[0]
+        opts = [("(system default input)", None)]
+        for i, d in enumerate(sd.query_devices()):
+            if d["max_input_channels"] > 0:
+                mark = "  <- default" if i == default_in else ""
+                opts.append((f"{i}: {d['name']}{mark}", i))
+        return opts
+    except Exception:
+        return [("(system default input)", None)]
+
+
+@st.cache_resource
+def _listener_registry() -> dict:
+    return {"ctl": None, "device": None}
+
+
+def hands_free_listener(enabled: bool, device_idx, detector):
+    """[WAKE] Singleton listener thread across reruns: create on enable, swap on
+    device change, stop on disable. The registry lives in cache_resource so the
+    thread survives Streamlit reruns (but not a server restart)."""
+    reg = _listener_registry()
+    if not enabled or detector is None:
+        if reg["ctl"] is not None:
+            reg["ctl"].stop()
+            reg["ctl"] = None
+        return None
+    ctl = reg["ctl"]
+    if ctl is None or reg["device"] != device_idx or not ctl.alive():
+        if ctl is not None:
+            ctl.stop()
+        reg["ctl"] = wake_listen.HandsFreeListener(detector, device=device_idx)
+        reg["device"] = device_idx
+    return reg["ctl"]
+
+
 @st.cache_resource
 def filler_stats() -> dict:
     """[FILLER v5] Aggregate filler telemetry across the session/day: theme-clip usage,
@@ -217,6 +281,32 @@ def log_row(row: dict) -> None:
 # (importable + $0-tested via the stubbed-compose harness). The page below deals
 # an ack from the per-voice deck and calls voice_job.start_job(...).
 
+def _answer_still_playing(job: dict, gaps_by_idx: dict, aud_by_idx: dict) -> bool:
+    """[WAKE] True while the finished turn's audio is (likely) still sounding in the
+    browser — the hands-free mic must not re-arm and hear the robot's own answer.
+    A chunk that hasn't started playing means yes; for the last-started chunk,
+    estimate speech duration from its text length (~14 chars/s + safety margin).
+    No playback telemetry -> False (re-arm immediately; the old behavior)."""
+    if not job or not job.get("done") or job.get("error"):
+        return False
+    try:
+        base = job["base"]
+        n_expected = max(job.get("n_chunks", 0), len(job.get("chunks", [])))
+        if n_expected == 0:
+            return False
+        if len([i for i in gaps_by_idx if i >= base]) < n_expected:
+            return True                      # some chunk hasn't even started yet
+        idxs = [i for i in aud_by_idx if i >= base]
+        if not idxs:
+            return False                     # no onset telemetry — don't block re-arm
+        last_i = max(idxs)
+        chars = next((c["chars"] for c in job["chunks"] if c["i"] == last_i), 60)
+        dur_ms = (chars / 14.0 + 0.7) * 1000.0
+        return (time.time() * 1000.0 - aud_by_idx[last_i]) < dur_ms
+    except Exception:
+        return False
+
+
 def _audible_onsets(job: dict, aud_by_idx: dict) -> dict:
     """[Task 3] Map the gapless player's browser-reported playback-start (Date.now epoch
     ms) to felt-TTFA seconds from transcript-confirm. Single-machine localhost demo: the
@@ -280,7 +370,8 @@ def finalize_and_log(job: dict, gaps_by_idx: dict, stats: dict, aud_by_idx: dict
              "t_filler_fire_call_s": job.get("t_filler_fire_call"),
              "deadair_watchdog_fired": bool(job.get("deadair_watchdog_fired")),
              **_audible_onsets(job, aud_by_idx or {}),
-             "chain_pattern": "-".join(job.get("chain", [])), "notes": ""})
+             "chain_pattern": "-".join(job.get("chain", [])),
+             "notes": job.get("notes", "")})   # [WAKE] e.g. "wake=oww oww_score=0.943"
     job["logged"] = True
     job["est"] = est
     job["gaps_summary"] = (round(sum(gaps) / len(gaps), 1) if gaps else None,
@@ -295,11 +386,14 @@ ss.setdefault("last_audio_hash", "")
 ss.setdefault("pending", None)
 ss.setdefault("job", None)
 ss.setdefault("chunk_base", 0)      # global chunk index across questions (one player, one queue)
+ss.setdefault("last_wake", None)    # [WAKE] {"time","score"} of the last hands-free fire
 
 st.title("⚖️ Ask the Chief Justice — voice demo")
 st.info("**Click “🔊 Enable audio” once** (browser autoplay rule), then ask by voice. "
         "The embedder warms on boot (one-time ~30–40s at launch), so **question 1 is "
-        "ready right away** — a brief spoken opener fires as soon as your question is heard.")
+        "ready right away** — a brief spoken opener fires as soon as your question is heard. "
+        "Sidebar → **🎙️ Hands-free** makes the kiosk listen continuously for "
+        "“Hey Cee-Jap” — no clicking, just speak.")
 
 try:
     service._api_key()
@@ -321,6 +415,30 @@ mode = "TEST" if mode.startswith("TEST") else "DEMO"
 voice = st.sidebar.selectbox("TTS voice (tts-1)", VOICES, index=0)
 st.sidebar.caption("~5-6¢ per question (STT + compose + TTS).")
 
+# [WAKE] two surfaces on the trained hey_cee_jap.onnx (wakeword/CJAP — recall 73.5%,
+# 0/8 WW-5 negatives at threshold 0.40):
+#   1. HANDS-FREE (kiosk): a background thread streams the HOST mic through the model
+#      continuously; "Hey Cee-Jap" replaces the record button. Default from
+#      config.WAKE_WORD_ENABLED (CJ_WAKE_WORD_ENABLED=1 arms it on boot).
+#   2. Push-to-talk GATE: the recorded clip must contain the phrase — model score
+#      first, STT keyword-match as fallback, wake prefix stripped (seam: the
+#      pipeline sees only query_text).
+wake_det, wake_err = wake_gate_detector()
+st.sidebar.markdown("---")
+hands_free = st.sidebar.checkbox("🎙️ Hands-free — keep listening for “Hey Cee-Jap”",
+                                 value=bool(config.WAKE_WORD_ENABLED and wake_det),
+                                 disabled=wake_det is None)
+mic_opts = input_devices()
+mic_label = st.sidebar.selectbox("Wake mic (host machine)", [l for l, _ in mic_opts],
+                                 index=0, disabled=wake_det is None or not hands_free)
+mic_idx = dict(mic_opts)[mic_label]
+wake_gate = st.sidebar.checkbox("Require wake phrase on push-to-talk",
+                                value=False, disabled=wake_det is None or hands_free)
+if wake_det is not None:
+    st.sidebar.caption(f"wake model: hey_cee_jap.onnx · threshold {wake_det.threshold:g}")
+else:
+    st.sidebar.caption(f"wake features unavailable — {wake_err}")
+
 # [C] WARM ON BOOT: warm_pipeline() runs unconditionally here (config.WARM_ON_BOOT)
 # so the resident embedder + transport are hot before Q1 — no visitor pays the cold load.
 if config.WARM_ON_BOOT:
@@ -337,8 +455,66 @@ fstats = filler_stats()                          # [C.7] aggregate filler teleme
 job = ss.job
 busy = bool(job and not job["done"])
 
-audio_in = st.audio_input("🎙️ Ask the Chief Justice (record, then stop)",
-                          key=f"mic_{ss.mic_key}", disabled=busy)
+# ---------- hands-free: host-mic listener -> question handoff ----------
+ctl = hands_free_listener(hands_free, mic_idx, wake_det)
+if ctl is not None:
+    if busy:
+        ctl.suspend()                 # the answer through the speakers must not retrigger
+    else:
+        item = None
+        try:
+            item = ctl.captured.get_nowait()
+        except queue.Empty:
+            pass
+        if item is not None:
+            ss.last_wake = {"time": datetime.now().strftime("%H:%M:%S"),
+                            "score": item["score"]}
+            st.toast(f"🔔 “Hey Cee-Jap” heard (score {item['score']:.2f})", icon="🔔")
+            with st.spinner("Heard “Hey Cee-Jap” — transcribing your question..."):
+                text, lang, stt_s = stt_openai(oai, item["wav"])
+            text, _ = wake_word.strip_wake_prefix(text, wake_matcher())
+            st.caption(f"🔔 wake fired (score {item['score']:.3f}) — heard "
+                       f"(lang={lang}, {stt_s}s): **{text or '(nothing)'}**")
+            if text:
+                ss.job = voice_job.start_job(text, "DEMO", stt_s, oai, allow, client, voice,
+                                             ss.chunk_base, decks["theme_decks"],
+                                             decks["seq_state"])
+                ss.job["notes"] = f"wake=oww-live oww_score={item['score']:.3f}"
+                st.rerun()
+            else:
+                ctl.resume()          # wake heard, no question followed — rearm now
+        # NOTE: idle re-arm happens in the poll block at the bottom of the page,
+        # where the player's playback telemetry is in scope — the mic must stay
+        # suspended until the ANSWER AUDIO finishes, not just the composition.
+
+# ---------- hands-free: LIVE STATUS BANNER + wake-score meter ----------
+# The operator (and the visitor) must be able to see at a glance: is it listening,
+# and did it hear "Hey Cee-Jap". States map to colors; the meter shows how close
+# the last ~1.6s of audio came to the firing threshold (full bar = fired).
+if ctl is not None:
+    state = ctl.state
+    lw = ss.last_wake
+    lw_txt = f" · last wake **{lw['time']}** (score {lw['score']:.2f})" if lw else ""
+    if state == "listening":
+        st.success(f"🟢 **Listening** on *{ctl.device_name or 'default input'}* — "
+                   f"say **“Hey Cee-Jap …”**{lw_txt}")
+        peak = max(ctl.recent_peak, ctl.last_score)
+        st.progress(min(peak / wake_det.threshold, 1.0),
+                    text=f"wake score {peak:.2f} — fires at {wake_det.threshold:g}")
+    elif state == "capturing":
+        st.info("🎤 **Heard you! Ask your question now…** (a second of silence ends it)")
+    elif state == "suspended":
+        st.info(f"⏸️ **Answering** — listening resumes when the answer finishes{lw_txt}")
+    elif state.startswith("error"):
+        st.error(f"⚠️ Hands-free stopped — {state}. Untick and re-tick **🎙️ Hands-free** "
+                 "in the sidebar to retry, or use push-to-talk.")
+    else:
+        st.info(f"⏳ hands-free: {state} …")
+
+audio_in = None
+if not hands_free:
+    audio_in = st.audio_input("🎙️ Ask the Chief Justice (record, then stop)",
+                              key=f"mic_{ss.mic_key}", disabled=busy)
 
 # ---------- inline trigger ----------
 if audio_in is not None and not busy:
@@ -347,18 +523,47 @@ if audio_in is not None and not busy:
         h = hashlib.md5(wav).hexdigest()
         if h != ss.last_audio_hash:
             ss.last_audio_hash = h
+            # [WAKE] score the clip with the trained model BEFORE spending on STT display.
+            wres = None
+            if wake_gate and wake_det is not None:
+                with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as f:
+                    f.write(wav); wpath = f.name
+                try:
+                    wres = wake_det.detect(wpath)
+                finally:
+                    Path(wpath).unlink(missing_ok=True)
             with st.spinner("Transcribing (OpenAI whisper-1)..."):
                 text, lang, stt_s = stt_openai(oai, wav)
             st.caption(f"STT heard (lang={lang}, {stt_s}s): **{text or '(nothing)'}**")
-            if text:
+            wake_ok, wake_note = True, ""
+            if wake_gate and wake_det is not None:
+                m = wake_matcher().match(text)
+                wake_ok = bool(wres.fired or m.fired)
+                via = "oww" if wres.fired else ("stt" if m.fired else "none")
+                wake_note = f"wake={via} oww_score={wres.score:.3f}"
+                if wake_ok:
+                    stripped, did = wake_word.strip_wake_prefix(text, wake_matcher())
+                    if did:
+                        text = stripped
+                    st.caption(f"🔔 wake fired via **{via}** (model score {wres.score:.3f}) "
+                               f"— query: **{text or '(empty)'}**")
+                    if not text:
+                        st.warning("Wake phrase heard, but no question followed — record "
+                                   "again with your question after “Hey Cee-Jap”.")
+                else:
+                    st.warning(f"Wake phrase not heard (model score {wres.score:.3f} < "
+                               f"{wake_det.threshold:g}, STT match: no). Start with "
+                               "“Hey Cee-Jap …” and re-record.")
+            if text and wake_ok:
                 if mode == "DEMO":
                     ss.job = voice_job.start_job(text, mode, stt_s, oai, allow, client, voice,
                                                  ss.chunk_base, decks["theme_decks"], decks["seq_state"])
+                    ss.job["notes"] = wake_note
                     ss.mic_key += 1
                     st.rerun()
                 else:
-                    ss.pending = {"text": text, "stt_s": stt_s}
-            else:
+                    ss.pending = {"text": text, "stt_s": stt_s, "wake_note": wake_note}
+            elif not text and wake_ok:
                 st.warning("Heard nothing usable — try again closer to the mic.")
 
 if mode == "TEST" and ss.pending and not busy:
@@ -367,6 +572,7 @@ if mode == "TEST" and ss.pending and not busy:
     if st.button("Ask", type="primary") and q.strip():
         ss.job = voice_job.start_job(q.strip(), mode, ss.pending["stt_s"], oai, allow, client,
                                      voice, ss.chunk_base, decks["theme_decks"], decks["seq_state"])
+        ss.job["notes"] = ss.pending.get("wake_note", "")
         ss.pending = None
         ss.mic_key += 1
         st.rerun()
@@ -408,3 +614,17 @@ if job:
                      "route": job["route"], "llm_calls_before_composition": job["llm_pre"],
                      "synth_ms_by_chunk": {k - job["base"]: v for k, v in job["synth_ms"].items()},
                      "tts_mode": "pipelined per-sentence + Web Audio gapless scheduling"})
+
+# ---------- hands-free idle poll + playback-aware re-arm ----------
+# Keep the page rerunning while armed so the banner/meter stay live and captured
+# questions get picked up within ~0.6s (the compose loop already polls at 0.4s
+# while busy; a dead listener stops the loop so the error banner stays readable).
+# Re-arm ONLY once the answer audio has finished sounding — the turn cycle is:
+# 🟢 listening -> 🎤 capturing -> ⏸️ answering (mic deaf) -> 🟢 listening -> ...
+if ctl is not None and not busy and not ctl.state.startswith("error"):
+    if _answer_still_playing(job, gaps_by_idx, aud_by_idx):
+        ctl.suspend()
+    else:
+        ctl.resume()
+    time.sleep(0.6)
+    st.rerun()

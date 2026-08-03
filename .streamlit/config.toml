@@ -1,0 +1,8 @@
+# Silence the file-watcher's transformers/torchvision traceback spam: the watcher
+# import-probes every lazy transformers submodule, and the vision ones need
+# torchvision, which this project deliberately lacks. The hands-free demo reruns
+# every ~0.6s, so the spam is constant without this.
+# Trade-off: source edits need a manual restart of `streamlit run` to be picked up.
+# Restore hot-reload during development with: fileWatcherType = "auto"
+[server]
+fileWatcherType = "none"
