@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+data/_originals/
+# Re-include the TRAINED model bundle: the root .gitignore blanket-ignores
+# models/, but config.WAKE_OWW_MODEL_PATH points here — a fresh clone needs it.
+# (Audio stays untracked: *.wav at root, *.zip at wakeword/.)
+!models/
+!models/**

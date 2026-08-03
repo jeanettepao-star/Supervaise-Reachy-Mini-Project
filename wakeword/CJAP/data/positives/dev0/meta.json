@@ -1,0 +1,37 @@
+{
+  "speaker": "dev0",
+  "phrase": "Cee-Jap",
+  "phrase_verified": "yes",
+  "phrase_note": "Was \"C-J-A-P\" until 2026-08-02. That value was a label carried over from record_samples.py's stale --phrase default, not an observation of the audio. Corrected per WW-5 (2026-07-27): the wake word is the two-syllable word Cee-Jap (/si: dzaep/), never the spelled letters. Supported by operator attestation plus measurement (median speech span 0.72 s, median 2 envelope bursts, max 3 -- too short and too few for five spelled syllables). Set phrase_verified to \"yes\" after review_clips.py confirms by ear.",
+  "sample_rate": 16000,
+  "clip_seconds": 2.5,
+  "clips": 12,
+  "last_session_utc": "2026-07-29T05:31:47+00:00",
+  "format": "PCM_16 mono",
+  "clip_indices": [
+    0,
+    4,
+    5,
+    6,
+    7,
+    8,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "missing_indices": [
+    1,
+    2,
+    3,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "next_index": 20,
+  "phrase_verified_utc": "2026-08-01T19:44:02.328508+00:00"
+}

@@ -1,0 +1,59 @@
+{
+  "speaker": "pao",
+  "phrase": "Cee-Jap",
+  "phrase_verified": "yes",
+  "phrase_note": "Was \"C-J-A-P\" until 2026-08-02. That value was a label carried over from record_samples.py's stale --phrase default, not an observation of the audio. Corrected per WW-5 (2026-07-27): the wake word is the two-syllable word Cee-Jap (/si: dzaep/), never the spelled letters. Supported by operator attestation plus measurement (median speech span 0.72 s, median 2 envelope bursts, max 3 -- too short and too few for five spelled syllables). Set phrase_verified to \"yes\" after review_clips.py confirms by ear.",
+  "sample_rate": 16000,
+  "clip_seconds": null,
+  "clips": 19,
+  "last_session_utc": "2026-08-01T17:15:53.806036+00:00",
+  "format": "PCM_16 mono",
+  "source": "Recorded externally at 44100 Hz stereo, then downmixed to mono and resampled to 16 kHz with scipy.signal.resample_poly (anti-aliased). Originals preserved in data/_originals/.",
+  "clip_seconds_note": "null because these takes are not a fixed length -- unlike clips from record_samples.py, which uses a constant --seconds. Per-file lengths are in clip_durations_s.",
+  "clip_durations_s": {
+    "pao_000.wav": 4.04,
+    "pao_001.wav": 3.38,
+    "pao_002.wav": 3.88,
+    "pao_003.wav": 3.27,
+    "pao_004.wav": 2.95,
+    "pao_005.wav": 1.04,
+    "pao_006.wav": 1.16,
+    "pao_007.wav": 1.36,
+    "pao_008.wav": 0.96,
+    "pao_009.wav": 0.88,
+    "pao_010.wav": 1.2,
+    "pao_011.wav": 1.38,
+    "pao_012.wav": 1.14,
+    "pao_013.wav": 1.06,
+    "pao_014.wav": 1.1,
+    "pao_015.wav": 1.14,
+    "pao_016.wav": 1.1,
+    "pao_017.wav": 1.1,
+    "pao_018.wav": 1.14
+  },
+  "next_index": 19,
+  "phrase_verified_utc": "2026-08-01T19:44:02.328508+00:00",
+  "promotions": [
+    {
+      "utc": "2026-08-01T20:03:56.165154+00:00",
+      "clips": [
+        "pao_005.wav",
+        "pao_006.wav",
+        "pao_007.wav",
+        "pao_008.wav",
+        "pao_009.wav",
+        "pao_010.wav",
+        "pao_011.wav",
+        "pao_012.wav",
+        "pao_013.wav",
+        "pao_014.wav",
+        "pao_015.wav",
+        "pao_016.wav",
+        "pao_017.wav",
+        "pao_018.wav"
+      ],
+      "from": "data/candidates/pao",
+      "basis": "review_clips.py label 'yes' (heard, one clip at a time)"
+    }
+  ]
+}

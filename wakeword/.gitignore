@@ -1,0 +1,3 @@
+# Operator voice archives (clip zips for Colab upload, WSL2-era data bundles).
+# Same rule as the root *.wav ignore: recordings of real people stay untracked.
+*.zip
